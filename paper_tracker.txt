@@ -1,0 +1,9 @@
+MANUAL PAPER TRACKER
+====================
+Started: 2026-10-08
+
+| # | Filename    | Title | Source | DOI | Downloaded |
+|---|-------------|-------|--------|-----|------------|
+| 1 | paper34.pdf |       |        |     | [ ]        |
+| 2 | paper35.pdf |       |        |     | [ ]        |
+... (continue to paper80.pdf)

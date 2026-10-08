@@ -1,0 +1,580 @@
+Structure-Property Correlation of Cr/Cu-
+MnFeCoNi High-Entropy Alloys for Alkaline
+Water Electrolysis
+Shreyasi Chattopadhyaya, Raphael B. de Oliveiraa,f, Deepti Gangwarb, Tymofii S Pieshkova,
+Marcelo L. Pereira Juniora,c, Dhiman Banika,d, Astrid Campos-Mataa, Atin Pramanika,
+Soumyabrata Roya, Douglas S. Galvãoe*, Chandra Sekhar Tiwaryd*, Krishanu Biswasb*, Pulickel
+M Ajayana*
+aDepartment of Materials Science and NanoEngineering, Rice University, 6100 Main Street,
+Houston, Texas 77005, United States
+bDepartment of Material Science and Engineering, Indian Institute of Technology, Kanpur, Uttar
+Pradesh, India 208016
+cCollege of Technology, University of Brasília, Brasília, DF, Brazil
+dDepartment of Metallurgical and Materials Engineering, Indian Institute of Technology,
+Kharagpur, West Bengal, India 721302
+eState University of Campinas, Campinas, SP, Brazil
+f Department of Physics, Federal University of Rio Grande do Norte, Natal, RN, Brazil
+Abstract
+High-entropy alloys (HEAs), with their unique compositional-complexity and tunable surface
+chemistry, have emerged as promising electrocatalysts for energy conversion. The catalytic
+activity of HEA often arises from the interplay between the intrinsic activity of the individual
+elements and the synergistic effects generated at the interfaces. Even a single-element substitution
+in a multicomponent HEA can substantially alter the surface-chemistry and electrochemical
+1
+
+kinetics of the active surface. Here we investigated the structure-property relationship of
+CrMnFeCoNi (HEA-Cr) and MnFeCoNiCu (HEA-Cu) HEAs by comparing the alkaline hydrogen
+evolution reaction (HER) and oxygen evolution reaction (OER) activity. Under the same
+experimental condition, HEA-Cu outperforms HEA-Cr towards both HER and OER. Substituting
+Cr with Cu significantly enhances the bifunctional activity, where HEA-Cu achieved a lower
+overpotential (538 mV) and Tafel slope (165 mVdec⁻¹) when compared with HEA-Cr.
+Computational analysis corroborates these findings, showing that Cu substitution modulates the
+electronic-structure to provide favorable binding energies for reaction intermediates (H*, O*,
+OH*, and OOH*). Interestingly, unlike HER, recovered HEA-Cu after OER showed migration of
+Cu forming a Cu-rich outer layer shell with a multimetallic core. These findings demonstrate the
+potential of single-element substitution in HEAs as a strategy for designing high-performance,
+cost-effective catalysts for efficient water electrolysis.
+1. Introduction:
+The growing demand for sustainable hydrogen production has intensified the search for advanced
+electrocatalysts capable of replacing noble-metal-based materials in water-splitting systems.
+Although Pt-, Ru-, and Ir-based catalysts exhibit excellent hydrogen evolution reaction (HER) and
+oxygen evolution reaction (OER) activity, their scarcity, high cost, and limited long-term
+availability restrict large-scale implementation1–3. High-entropy alloys (HEAs), composed of
+multiple principal elements distributed within a single or near-single-phase solid solution, have
+emerged as a promising catalyst platform. The compositionally complex atomic environments of
+HEAs enable simultaneous modulation of electronic structure, adsorption energetics, lattice strain,
+charge transfer, and surface reconstruction. Unlike conventional mono- or bimetallic catalysts,
+HEAs provide a broad compositional design space in which neighboring atomic configurations
+2
+
+can generate diverse catalytic sites and tune the adsorption of reaction intermediates. The catalytic
+activity of a HEA often arises from the interplay between the intrinsic activity of the individual
+elements and the synergistic effects generated at the interfaces within its structure. Understanding
+this interplay includes designing high-performance HEA via compositional optimization for
+favorable adsorption/desorption of reaction intermediates subject to Sabatier relations which is
+crucial for electrocatalysis.4–7
+Recent reports demonstrate that compositional tuning in Fe-Co-Ni-Cu-Mn/Zn-based HEAs can
+substantially influence both HER and OER activity. In particular, substitution of Mn by Zn in Fe-
+Co-Ni-Cu-based HEAs was shown to alter reaction energetics and improve bifunctional water-
+splitting performance, highlighting the sensitivity of catalytic behavior to the identity of a single
+constituent element.8 The importance of compositional tuning in HEAs is also evident from recent
+supercapacitor studies. Related studies on FeCoNiCrZn/Mn HEAs also showed that replacing one
+transition-metal component can shift the d-band characteristics and modify electrochemical
+behavior through multielement electronic synergy.9 In addition, nanostructuring of
+multicomponent Fe-Co-Ni-Cu-Zn HEAs has been reported to increase accessible surface area and
+alter the electrochemical response, emphasizing that catalytic performance is governed not only
+by composition but also by particle size, defect density, surface oxidation, and elemental
+distribution.10 Interestingly, replacing Cr with Cu in the MnFeCoNi framework has also been
+reported to provide competitive or slightly enhanced charge-storage behavior. indicating that Cu
+incorporation can preserve the pseudocapacitive response of the parent Mn-Fe-Co-Ni system while
+modifying its electronic structure and surface redox chemistry. The nearly comparable capacitance
+values of CrMnFeCoNi and MnFeCoNiCu suggest that both compositions possess multiple redox-
+active transition-metal centers; however, the identity of the fifth element is expected to influence
+3
+
+charge-transfer resistance, surface oxidation behavior, ion accessibility, and the balance between
+capacitive and diffusion-controlled processes. HEA with a theoretical composition of
+Ni Co Fe Mo Mn has been synthesized for HER and OER bifunctional catalytic activity for
+14 14 14 6 52
+efficient water splitting.11 Another theoretical calculation demonstrated that Ni exhibits a
+downshifted d-band center once alloyed by Cu, which promoted the desorption of H from the Ni
+surface to improve the catalytic activity for hydrogenation reactions.12 In another work, four
+adjacent 3d-metal elements (Fe, Co, Ni, and Mn) were assembled to form an HEA without phase
+separation. The HEA with a high d-band center where Mn has the largest atomic radius among the
+composition was found to be a face-centered cubic (fcc) phase without phase separation and it
+showed substantial OER catalytic activity which was further enhanced after modification of d-
+band center using Pt and Ir.13
+All these findings highlight that even a single-element substitution in a multicomponent alloy can
+substantially alter the redox accessibility and electrochemical kinetics of the active surface. Among
+transition-metal HEAs, the CrMnFeCoNi Cantor alloy is one of the most extensively studied
+model systems because of its relatively stable face-centered cubic structure, compositional
+homogeneity that allows scope to investigate structure-property relationships.9,14–17 In particular,
+Cr is generally associated with the formation of stable oxide/hydroxide surface layers and
+improved structural durability, whereas replacing Cu may promote electronic conductivity, local
+compositional heterogeneity, and modify adsorption/desorption kinetics of the redox
+intermediates. Therefore, comparing CrMnFeCoNi (HEA-Cr) and MnFeCoNiCu (HEA-Cu)
+provides an opportunity to establish composition-structure-electrocatalytic activity relationships
+in structurally related HEAs, yet to be reported. Such a systematic study can clarify how Cr-to-Cu
+substitution affects phase constitution, electronic structure, electrochemically active surface area,
+4
+
+reaction kinetics, surface reconstruction, and long-term stability, thereby guiding the rational
+design of low-cost multicomponent alloy catalysts for efficient water electrolysis.
+2. Results and discussion
+2.1 Structural analysis
+The equiatomic FeCoNiCrMn alloy nanoparticles were synthesized via arc melting followed by
+cryo-milling. Room-temperature X-ray diffraction (XRD) analysis confirmed the formation of a
+single-phase face-centered cubic (FCC) solid solution in both the bulk alloy and the cryomilled
+powder, crystallizing in the Fm-3m space group. The diffraction pattern exhibited characteristic
+reflections at 2θ ≈ 43.5°, 50.6°, 74.4°, 90.3°, and 95.6°, corresponding to the (111), (200), (220),
+(311), and (222) crystallographic planes, respectively (Figure S1). These diffraction peaks agree
+well with the standard reference pattern for the Co–Cr–Fe–Mn–Ni alloy system (JCPDS No. 04-
+029-1381). They are consistent with previously reported results for as-cast CoCrFeMnNi alloys.18–
+20 Figure 1a presents the XRD pattern of the synthesized HEA-Cu nanoparticles. Subsequent
+substitution of Cr with Cu did not induce any phase transformation, and the alloy retained its
+single-phase FCC structure. Notably, the systematic shift of the diffraction peaks indicates that
+although Cu inclusion into the FeCoNiMn matrix did not change the crystal structure, it did cause
+a modest adjustment of the lattice parameters, resulting from the lattice distortion effect and which
+might also influence the high-entropy effect.12 These observations confirm the successful
+formation of a Cu-containing FCC HEA while preserving the structural integrity of the parent
+alloy. The elemental composition and oxidation states of the HEA-Cu high-entropy alloy
+nanoparticles were further examined by X-ray photoelectron spectroscopy (XPS), as illustrated in
+Figure 1(b-g). The survey-scan XPS spectrum (Figure 1(b)) confirms the presence of Co, Cu, Fe,
+Mn, and Ni, demonstrating the successful incorporation of Cu into the CoFeMnNi alloy structure.
+5
+
+The high-resolution Cu 2p XPS spectrum (Figure 1(c)) exhibits two distinct peaks centered at
+932.5 and 952.3 eV, corresponding to the Cu 2p and Cu 2p spin-orbit components,
+3/2 1/2
+respectively.21 The satellite peaks at 933.2 and 954.2 eV are associated to Cu 2p. The dominant
+peaks at 932.5 and 952.3 eV suggest that copper predominantly exists in the Cu(I) (Cu⁺ oxidation
+state). Furthermore, the Cu LMM Auger peak observed at approximately 570 eV in the survey
+spectrum (Figure 1(b)) provides additional evidence for the presence of Cu⁺ species. Cu²⁺ is
+characterized by weak shake-up satellite features that appear in the 940–945 eV region. Weak
+shake-up satellite features in the 940–945 eV range are characteristic of Cu²⁺. Since metallic Cu
+never has a satellite peak, the presence of shakeup peaks further supports the absence of CuO. As
+shown in Figure 1(d), the high-resolution Ni 2p spectrum can be deconvoluted into four
+components. The peaks located at 886.2 and 872.8 eV are assigned to the Ni 2p and Ni 2p
+3/2 1/2
+levels, respectively, indicating the presence of Ni²⁺ species. The peaks at 887.7 and 861.9 eV
+correspond to characteristic satellite features of Ni 2p. In addition, a peak observed at 852.2 eV is
+attributed to metallic Ni⁰ (Ni 2p₃/₂), suggesting a minor fraction of elemental nickel within the
+alloy nanoparticles.22 The Co 2p spectrum (Figure 1(e)) is resolved into four distinct peaks. Co³⁺
+species have peaks at 780.4 eV (Co 2p ) and 796.7 eV (Co 2p ), while Co²⁺ has peaks at 786.1
+3/2 1/2
+and 803.4 eV (Co 2p and Co 2p , respectively).23 Two satellite peaks are also present. These
+3/2 1/2
+results indicate the coexistence of both +2 and +3 oxidation states of cobalt on the nanoparticle
+surface. Fe 2p XPS (Figure 1(f)) spectrum shows two prominent peaks for Fe 2p and Fe 2p
+3/2 1/2,
+which are deconvoluted into four peaks and a satellite peak, indicating the coexistence of Fe in +3
+and +2 valence states.24 No peak for Fe metal is found. The high-resolution Mn 2p spectrum shown
+in Figure 1(g) exhibits two well-defined peaks centered at 645.8 and 659.4 eV, corresponding to
+the Mn 2p and Mn 2p spin–orbit components, respectively.25 These binding energies are
+3/2 1/2
+6
+
+Figure 1. Characterization of MnFeCoNiCu: (a) XRD; (b-g) XPS; (h-i) TEM analysis (j-o) TEM
+elemental mapping.
+characteristic of Mn4+ species, indicating that manganese predominantly exists in the +4 oxidation
+state within the alloy nanoparticles. Overall, the XPS analysis reveals that Cu, Ni, and Mn are
+present predominantly in single oxidation states, namely Cu⁺, Ni2+, and Mn4+, respectively. In
+contrast, Fe and Co exhibit mixed-valence characteristics, suggesting the coexistence of multiple
+7
+
+oxidation states on the nanoparticle surface. Detailed XPS analysis of the HEA-Cr alloy shown in
+Figure S2 demonstrates the predominant presence of Ni2+, Co2+/3+, Mn4+, Fe2+/3+ and Cr3+/6+. Overall,
+the XPS analysis reveals that Ni, and Mn are present predominantly in single oxidation states,
+namely, Ni²⁺, and Mn⁴⁺, respectively. In contrast, Fe, Co and Cu exhibit mixed-valence
+characteristics, suggesting the coexistence of multiple oxidation states on the nanoparticle surface.
+The microstructural characteristics of the HEA-Cr and HEA-Cu high-entropy alloys were further
+investigated. SEM analysis of the HEA-Cu (Figure S3) and HEA-Cr (Figure S4) shows homogeneous
+distribution of the elements. Furthermore, the low- and high-magnification HRTEM images are presented
+in Figure 1(h–i) and Figure S5. The high-resolution image of HEA-Cu in Figure 1i reveals well-defined
+lattice fringes, indicative of the high crystallinity of the synthesized nanoparticles. The measured interplanar
+spacing of approximately 0.25 nm, corresponds to the (111) crystallographic plane of the FCC HEA
+structure. The absence of additional lattice features or secondary phases confirms the formation of a single-
+phase alloy, in agreement with the XRD results. Furthermore, the high-angle annular dark-field scanning
+transmission electron microscopy (HAADF-STEM) image (Figure 1o) and the corresponding elemental
+mapping images (Figure 1j–n) demonstrate a uniform spatial distribution of Co, Cu, Fe, Mn, and Ni
+throughout the nanoparticles. No evidence of elemental segregation or agglomeration is observed,
+confirming the homogeneous incorporation of all constituent elements within the HEA matrix.
+2.2 Electrochemical Characterization
+Activity of both HEA-Cr and HEA-Cu was investigated for both HER and OER in 1M alkaline
+water splitting a series of electrochemical tests. To understand the actual process, the catalyst ink
+was prepared without any conducting carbon and has been used for electrocatalysis study. The
+performance of the HEA-Cu catalyst was compared with the HEA-Cr analog and pure Cu.
+Optimization of ink loading was also done and the best result for homogeneous ink loading on
+GCE surface was found to be 0.5mg cm-2. Linear sweep voltammetry (LSV) polarization curves
+8
+
+(b)
+(a)
+(c) (d)
+(e) (f)
+Figure 2. HER activity of MnFeCoNiCu HEA in 1M KOH: (a, b) LSV curves and Tafel plot of
+HEAs and Cu for HER, respectively; (c, d) LSV and Tafel plot of HEAs and Cu for OER,
+respectively. (e, f) ECSA measurement: (e) CV plot at different scan rate and (f) current density
+vs scan rate plot.
+9
+
+were employed to analyze the HER activity, as illustrated in Figure 2a. Cu required an
+overpotential of 0.786 V vs RHE to achieve a current density of 10 mAcm-2. In contrast, the onset
+potential for CrMnFeCoNi and MnFeCoNiCu were observed to 0.601 and 0.538 V vs RHE,
+demonstrating superior performance over replacement of Cr by Cu. Tafel analysis is a valuable
+tool for elucidating electrocatalytic kinetics and identifying the potential rate-determining step
+(RDS) of the reaction.2,6 The reaction mechanism for both materials was further studied through
+Tafel analysis, as shown in Figure 2b. The Tafel slopes obtained were 226 mVdec-1, 184 and
+165mVdec-1 for Cu, CrMnFeCoNi and MnFeCoNiCu, respectively. These values correspond to
+the Volmer-Heyrovsky mechanism governing the reaction. These results indicate that the synergy
+of the five metals in the high entropy alloy enhances the catalytic HER activity compared to single
+Cu metal catalyst. Moreover, replacing Cr with Cu in HEA structure facilitates the kinetics and
+result in enhancement in activity. For further understanding, EIS measurement was conducted for
+both HEA-Cr and HEA-Cu HEAs. Electrocatalysis activity testing results under OER reaction
+condition are shown in Figure 2c, d. HEA-Cu was found to lower overpotential 10mA cm-2 and
+Tafel slope than HEA-Cr, suggesting improvement in activity via compositional modification.
+Electrochemical Active Surface area (ECSA) value of HEA-Cu was further evaluated by
+determining the double layer capacitance (C ) value (Figure 2e,f). Corresponding C and ECSA
+dl dl
+values were found to be 0.12 mF cm-2 and 3 cm2.
+To assess the structural stability and surface chemistry of HEA-Cu, accelerated degradation tests
+(ADT) were conducted. After 3000 cycles, an increase in the catalytic activity was observed, as
+depicted in Figure 3a. The onset potential decreased by 22.8 mV. This improvement can be
+attributed to the structural stabilization of the HEA and possible activation of the surface.
+10
+
+(a)
+(b)
+(d)
+(c)
+Figure 3. Stability analysis of MnFeCoNiCu by accelerated durability test for 3000 cycles. (a, b)
+LSV and EIS for HER; (c, d) LSV and EIS for HER.
+Electrochemical Impedance Spectroscopy was carried out to determine the charge-transfer
+resistance (R ) values for the HEA, both before and after 3000 cycles. Figure 3b shows the
+CT
+Nyquist plots, where the x- and y-axes represent the real and negative imaginary parts of
+impedance, respectively. These plots were fitted using an equivalent Randles circuit. The R
+CT
+values obtained were 339 Ω and 208 Ω before and after 3000 cycles, respectively. These values
+align with the results from the ADT studies, indicating a significant improvement in the charge-
+transfer mechanisms after cycling. This enhancement boosts the catalytic activity and reduces the
+11
+
+R value of the HEA. For OER, a decrease in current density value was observed after 3000 cylces
+CT
+at higher potential region (Figure 3c). However, no significant change in overpotential was
+observed, which suggests good stability of HEA-Cu during OER. Corroborating the LSV data
+obtained before and after OER, a slight increase in R value in EIS analysis (Figure 3d) after 3000
+CT
+cycles also suggests change in activity.
+TEM analysis of the recovered catalysts after HER (Figure 4) and OER (Figure 5) were done to
+investigate the structural change/reconstruction that might influence the HER/OER activity
+behavior. TEM analysis results of the recovered HEA-Cu after HER and OER are shown in Figure
+4,5 and S5. It is noteworthy that crystalline structure of the HEA catalyst retained after the ADT
+testing as can be seen from the fringes present in Figure 4b, 5b. Interestingly, unlike HER,
+(a) (b) (c)
+(d)
+(e) (d) (e) (f)
+Figure 4. TEM analysis of the recovered HEA-Cu catalysts after HER. (a) TEM images, (b)
+HRTEM, (c-f) TEM-EDS mapping showing the distribution of the elements.
+formation of an outer layer (Figure 5c-k) was found for the catalyst recovered after OER, forming
+a near core-shell structure. EDS mapping on recovered catalyst after HER showed homogeneous
+12
+
+distribution of the existing elements (Figure 4c-f) without any separation. Whereas Cu found to
+exist on the outer later formed after OER (Figure 5d, j). Notably, the core was found to contain
+all five metals including Cu. These results suggest that under OER conditions, Cu tends to migrate
+to the surface resulting in surface structural reconstruction, which could be the reason behind
+activity deterioration. HER condition did not allow such migration therefore showed retention of
+homogeneous distribution of the elements and HER activity. The change in elemental distribution
+during OER can be due to high affinity of Cu with oxygen which results in diffusion of Cu atoms
+in oxygen rich environment. On the other hand, such layer does not form in a reducing environment
+(in HER) due to low affinity of hydrogen with Cu. The observation can be further supported by
+EDS map after HER clearly shows uniform distribution of Cu (Figure 4d), whereas other elements
+(a) (b) (c)
+(d)
+(e) (f) (g) (h)
+(i) (k) (l)
+(j)
+Figure 5. TEM analysis of the recovered HEA-Cu catalyst after OER. (a) TEM images, (b)
+HRTEM, (c-h) low-magnification TEM-EDS mapping (i-k) EDS mapping of magnified area close
+to the outer shell showing the distribution of the elements, (l) TEM image of the corresponding
+outer layer region.
+13
+
+show redistribution during reaction (Figure 4e-f). On the other hand, for OER, we observe oxygen
+rich Cu on the surface (Figure 5j) followed by a Cu depleted region which is common in diffusion
+control reaction.
+(a)
+(b)
+(d)
+(c)
+Figure 6. HER and OER activity of HEA-Cu, HEA-Cr ink prepared with mixing 10% Vulcan C
+in 1M KOH: (a, b) LSV curves and overpotential of HEAs, respectively for HER; (c, d) LSV and
+overpotential of HEAs OER, respectively. Comparisons with RuO for OER and Pt/C for HER are
+2
+also included.
+14
+
+To demonstrate practical applicability and enable comparison with literature reports in which
+Vulcan carbon is usually incorporated into catalyst inks, the HER and OER activities of the HEA
+catalysts were also evaluated. A better kinetics were observed with an increase in overall current
+density values with minimal decrease in overpotential @10 mA cm-2, while testing HEA-Cr and
+HEA-Cu in 1 M KOH using inks containing 10 wt% added Vulcan carbon (Figure 6a-d). The
+overall trend was found to be same as observed from the results obtained from no carbon added
+catalyst inks and other experimental conditions, HEA-Cu is better than HEA-Cr. Notably, addition
+of Vulcan carbon improves HER and OER performance by improving conductivity, charge
+transfer, catalyst dispersion, and active-site utilization. While comparing the HER overpotential
+values, Pt/C catalyst outperformed the HEA catalysts under same experimental condition.
+However, for OER, HEA-Cu showed close activity to RuO demonstrating the potential to replace
+2
+the noble metal catalyst.
+3. Computational Analysis
+Detail computational investigation was conducted to support our experimental observations and
+determine the structure-property relationship. Our analysis began with optimizing all structures.
+As we had a large number of structures to optimize, it was necessary to adopt certain quality
+parameters for which structures we would use for catalytic activity. Thus, at the end of the
+optimization of the two-hundred structures (100 for HEA with Cu and 100 for HEA with Cr), we
+organized them by increasing energy stability. During structural optimization, we also allowed the
+lattice parameters to change. In general, the HEA-Cr systems preserved a more cohesive FCC
+framework, with the lattice angles α, β, and γ deviating by approximately 0.1% from the ideal
+cubic value of 90°. In contrast, the HEA-Cu HEA structures exhibited pronounced distortions,
+with at least one lattice angle varying by 10-15%. This behavior is consistent with the difference
+15
+
+in the van der Waals radii of Cu and Cr, since Cr presents a van der Waals radius approximately
+10% larger than that of Cu, which can influence local atomic packing and the resulting structural
+relaxation.26 This allows for a more cohesive structure during optimization. This can result in less
+atomic movement during the optimization process. We focus this analysis on the lattice angles,
+since the lattice vectors depend more on the initial atom distribution. Since all structures were
+previously ranked according to their energetic stability, the five most stable configurations of each
+HEA type, HEA-Cu and HEA-Cr, were selected to evaluate their HER performance.
+(b)
+(a)
+(c)
+Figure 7. (a) FeNiMnCoCu and (b) to FeNiMnCoCr, with the H atom placed at the most favorable
+adsorption site; (c) Gibbs Free Energy for each one of the structures. Atomic species are
+represented as Fe (yellow), H (red), Cu (purple), Mn (green), Co (mauve), Ni (silver), and Cr
+(orange).
+Adsorption sites for H were identified using a Monte Carlo sampling approach, allowing the
+determination of the lowest-energy adsorption configuration for each of the ten selected structures.
+16
+
+After placing H at the most favorable adsorption site, the hydrogen adsorption free energy (ΔG ,
+H
+see Eq. 5) was estimated considering T = 300 K, pH = 14, and U = −0.80 V. Figure 6 and Figure
+SI present the ten structures with the H atom positioned at the energetically preferred adsorption
+site obtained from the Monte Carlo calculations. In Figure 6, we display the two structures with
+the best value of the ΔG ; meanwhile, in Figure SI, we display the rest of the configurations of
+H
+HEA-Cu and HEA-Cr HEA. In case of the HEA-Cr HEA, H preferentially remains on Cr-rich
+regions of the surface and, in some configurations, is located nearly on top of a Cr atom, consistent
+with the electron-donor character commonly associated with Cr. This behavior has been related to
+facilitated water dissociation and multisite synergistic effects in Cr-containing HEAs.27
+Figure 8. FeNiMnCoCu (a), (b), and (c), and FeNiMnCoCr (d), (e), and (f) structures selected
+from the OER analysis, with the O, OH, and OOH intermediate, respectively, placed at the most
+favorable adsorption site. Atomic species are represented as Fe (yellow), H (red), Cu (purple), Mn
+(green), Co (mauve), Ni (silver), Cr (orange), and O (blue).
+17
+
+In contrast, for the HEA-Cu HEA, even when the most favorable adsorption site lies within a Cu-
+rich region, the H atom tends to remain relatively distant from the nearest Cu atom, typically
+occupying bridge or hollow positions adjacent to Ni, Co, or Fe atoms, thus avoiding direct top-Cu
+binding. This trend is consistent with the higher electronegativity of Cu compared to other 3d
+transition metals, leading Cu to behave as an electron-acceptor species that mainly modulates the
+electronic environment of neighboring atoms rather than acting as the preferred adsorption center
+for H.7,28 Figure 7c shows a comparison between the ΔG value for the HEA-Cu and HEA-Cr third
+H
+structures, and Table SI presents the rest of those values. Figure 7c reveals that ΔG is less
+H
+negative for HEA-Cu, indicating weaker hydrogen binding than for HEA-Cr. Notably, the third-
+most-structurally-stable configuration in each HEA set has the highest ΔG value, resulting in a
+H
+difference of approximately 0.2 eV between the two systems. According to the Sabatier
+principle,29,30the reaction intermediate (H* in this case) should exhibit moderate binding strength
+to favor efficient desorption and enhanced HER kinetics.7 The obtained results are consistent with
+the experimental trend, in which HEA-Cu shows higher catalytic activity than HEA-Cr. Cu-
+containing HEAs have been frequently reported as highly active HER catalysts, where Cu
+contributes to the formation of optimally bound H* intermediates through electron-acceptor
+behavior and d-band modulation effects.7,28,31 In contrast, Cr plays a different role: although its
+electron-donor character may facilitate water dissociation through cooperative multi-site
+interactions, Cr-rich systems tend to form Cr O passivation layers under alkaline conditions,
+2 3
+which can reduce the intrinsic HER activity.27
+For the OER calculations, one structure was selected for each HEA type, based on the
+configurations previously identified in the HER analysis. A Monte Carlo sampling approach was
+employed to identify the most favorable adsorption site for each intermediate molecule. Figure
+18
+
+8(a), (b), and (c) show, respectively, O, OH, and OOH in the HEA-Cu system, whereas Figure
+8(d), (e), and (f) correspond to O, OH, and OOH in FeNiMnCoCr. In both HEAs, the preferred
+adsorption site for OOH differs from that observed for H adsorption. Nevertheless, a similar
+tendency is observed: in HEA-Cu, the molecules do not preferentially adsorb near Cu atoms, and
+regions with lower local Cu concentration tend to be energetically favored. In contrast, in HEA-
+Cr, the intermediate molecules remain adsorbed on Cr-rich surface regions, typically near Cr
+atoms. After full structural optimization, the Gibbs free energies of the intermediate molecules
+were estimated as ΔGo, ΔGOH, and ΔGOOH; the values are presented in Table 1. These results
+indicate that HEA-Cr binds more strongly than HEA-Cu with all the molecules considered during
+the OER process, consistent with the trend previously observed for H*. The stronger adsorption
+may influence the catalytic response by stabilizing intermediates more strongly, whereas the
+weaker binding observed for HEA-Cu is consistent with improved OER performance. This
+behavior aligns with experimental reports of higher OER activity in Cu-containing HEAs.
+Table 1. ΔG (in eV) for the sub-reactions of the OER to the HEA-Cu and HEA-Cr structures.
+Molecule ΔG ΔG ΔG
+o OH OOH
+FeNiMnCoC -1.0 -1.03 -2.27
+u
+FeNiMnCoC -1.3 -1.48 -3.48
+r
+Conclusion
+The current work investigates the structural and electrochemical impacts of substituting Cr with
+Cu in MnFeCoNi high-entropy alloy (HEA) towards alkaline water electrolysis. Electrochemical
+evaluations in 1M KOH revealed that the Cu-substituted alloy (HEA-Cu) significantly
+19
+
+outperformed its Cr-containing counterpart in both the HER and OER. Specifically, MnFeCoNiCu
+shows a lower HER onset potential of 0.538 V and a Tafel slope of 165 mVdec⁻¹, and when tested
+with Vulcan carbon, its OER activity proved comparable to the noble-metal standard RuO .
+2
+Computational and stability analyses further elucidate why the Cu-substituted HEA exhibits
+superior performance and how it behaves during prolonged electrolysis. Accelerated durability
+tests (ADT) showed that while HER conditions preserved a homogeneous elemental distribution,
+OER conditions triggered Cu migration to the surface, forming an oxygen-rich outer layer that can
+eventually lead to activity deterioration. DFT calculations supported these findings by showing
+that Cu substitution induces significant lattice distortions (10-15%) and acts as an electron acceptor
+to modulate the electronic environment of neighboring atoms. This electronic shift results in
+weaker, more optimal binding energies for reaction intermediates like H*, O*, OH*, and OOH*,
+which, facilitates more efficient adsorption and desorption kinetics for enhanced water splitting.
+The work clearly highlights the efficacy of HEA with controlled composition as building blocks
+for developing low cost, noble metal free sustainable catalyst for water splitting.
+ASSOCIATED CONTENT
+Supporting Information. Experiment and Characterization, Electrochemical measurement
+details, Computational methodology, XRD of HEA-Cr (Figure S1), XPS of HEA-Cr (Figure S2),
+SEM analysis of HEA-Cu (Figure S3) and HEA-Cr (Figure S4), Low magnification TEM image
+of HEA-Cu HEA catalyst after HER and OER stability test (Figure S5).
+AUTHOR INFORMATION
+Corresponding Author
+Douglas S. Galvão (galvao@ifi.unicamp.br)
+20
+
+Chandra Sekhar Tiwary (chandra.tiwary@metal.iitkgp.ac.in)
+Krishanu Biswas (kbiswas@iitk.ac.in)
+Pulickel M Ajayan (ajayan@rice.edu)
+Author Contributions
+S.C. designed the experiment, performed the characterization, data collection and analysis, wrote
+the original manuscript and manuscript editing. R.B.O. performed computational analysis,
+analysis, wrote the original manuscript and manuscript editing. D.G. performed data analysis,
+writing and editing. T.S.P. and M.L.P. performed formal analysis. D.B., A.C.M., A.P., S.R.
+contributed to reviewing and editing. D.S.G., C.S.T., K.B., P.M.A. conceptualized the project and
+supervised. All the authors discussed the results and commented on the manuscript.
+Notes
+The authors declare no competing financial interest.
+ACKNOWLEDGMENT
+REFERENCES
+(1) Lawan, B. Non-Noble Metal Catalysts for the Alkaline Hydrogen Evolution Reaction: A
+Review. Discov. Chem. 2026 31 2026, 3 (1), 166-. https://doi.org/10.1007/S44371-026-
+00555-2.
+(2) Chattopadhyay, S.; de Oliveira, C. C.; Bhar, R.; Banik, D.; Pieshkov, T. S.; Puthirath, A.
+B.; Pramanik, A.; Sreeram, P. R.; Saju, S. K.; Costin, G.; Vajtai, R.; Dubey, B. K.;
+Biswas, K.; da Silva Autreto, P. A.; Tiwary, C. S.; Ajayan, P. M. Exploring Sustainable
+Hydrogen Production from Alkaline Fresh and Seawater Using Natural Ore Derived 2D
+Bi2S3. Small 2025, 21 (47), e09283.
+https://doi.org/10.1002/SMLL.202509283;WEBSITE:WEBSITE:PERICLES;REQUEST
+21
+
+EDJOURNAL:JOURNAL:16136829;WGROUP:STRING:PUBLICATION.
+(3) Ibn Shamsah, S. M. Earth-Abundant Electrocatalysts for Water Splitting: Current and
+Future Directions. Catal. 2021, Vol. 11, Page 429 2021, 11 (4), 429.
+https://doi.org/10.3390/CATAL11040429.
+(4) Medford, A. J.; Vojvodic, A.; Hummelshøj, J. S.; Voss, J.; Abild-Pedersen, F.; Studt, F.;
+Bligaard, T.; Nilsson, A.; Nørskov, J. K. From the Sabatier Principle to a Predictive
+Theory of Transition-Metal Heterogeneous Catalysis. J. Catal. 2015, 328, 36–42.
+https://doi.org/10.1016/J.JCAT.2014.12.033.
+(5) Wang, B.; Liu, W.; Leng, Y.; Yu, X.; Wang, C.; Hu, L.; Zhu, X.; Wu, C.; Yao, Y.; Zou, Z.
+Strain Engineering of High-Entropy Alloy Catalysts for Electrocatalytic Water Splitting.
+iScience 2023, 26 (4), 106326. https://doi.org/10.1016/J.ISCI.2023.106326.
+(6) Chattopadhyay, S.; Wang, X.; Campos-Mata, A.; Liang, F.; Ajayan, P. M. High-Entropy
+Oxide Toward Practical Hydrogen Production From Alkaline Fresh and Seawater. Small
+2026, 22 (25), e12191.
+https://doi.org/10.1002/SMLL.202512191;WGROUP:STRING:PUBLICATION.
+(7) Asghari Alamdari, A.; Jahangiri, H.; Yagci, M. B.; Igarashi, K.; Matsumoto, H.;
+Motallebzadeh, A.; Unal, U. Exploring Roleof Mo and Mn in Improving the OERand
+HER Performance of CoCuFeNi-Based High-Entropy Alloys. ACS Appl. Energy Mater.
+2024, 7 (6), 2423–2435. https://doi.org/10.1021/ACSAEM.3C03227.
+(8) Campos-Mata, A.; Gakhad, P.; Banik, D.; Chandra Mohanty, G.; Chattopadhyay, S.;
+Gangwar, B. P.; Tiwary, C. S.; Singh, A. K.; Roy, S.; Ajayan, P. M.; Biswas, K.
+Composition Tuning of Structural High Entropy Alloy (Fe-Co-Ni-Cu-Mn/Zn) Nano-
+Electrocatalysts for Synergistic Water Splitting. J. Mater. Chem. A 2025, 13 (48), 42006–
+42016. https://doi.org/10.1039/d5ta04595a.
+(9) Mohanty, G. C.; Chowde Gowda, C.; Gakhad, P.; Sanjay, M.; Singh, A.; Biswas, K.;
+Tiwary, C. S. Effect of Zn/Mn on the Supercapacitor Behavior of High-Entropy
+FeCoNiCrZn/Mn Alloy. Energy Adv. 2024, 3 (12), 2972–2985.
+https://doi.org/10.1039/d4ya00376d.
+22
+
+(10) Mohanty, G. C.; Chowde Gowda, C.; Gakhad, P.; Das, S.; Sanjay, M.; Chowdhury, S.;
+Biswas, K.; Singh, A.; Tiwary, C. S. Iron-Cobalt-Nickel-Copper-Zinc (FeCoNiCuZn)
+High Entropy Alloy as Positive Electrode for High Specific Capacitance Supercapacitor.
+Electrochim. Acta 2023, 470, 143272.
+https://doi.org/10.1016/J.ELECTACTA.2023.143272.
+(11) Liu, H.; Qin, H.; Kang, J.; Ma, L.; Chen, G.; Huang, Q.; Zhang, Z.; Liu, E.; Lu, H.; Li, J.;
+Zhao, N. A Freestanding Nanoporous NiCoFeMoMn High-Entropy Alloy as an Efficient
+Electrocatalyst for Rapid Water Splitting. Chem. Eng. J. 2022, 435, 134898.
+https://doi.org/10.1016/J.CEJ.2022.134898.
+(12) Tang, F.; Wang, L.; Dessie Walle, M.; Mustapha, A.; Liu, Y. N. An Alloy Chemistry
+Strategy to Tailoring the D-Band Center of Ni by Cu for Efficient and Selective Catalytic
+Hydrogenation of Furfural. J. Catal. 2020, 383, 172–180.
+https://doi.org/10.1016/J.JCAT.2020.01.019.
+(13) Tian, J.; Rao, Y.; Shi, W.; Yang, J.; Ning, W.; Li, H.; Yao, Y.; Zhou, H.; Guo, S. Sabatier
+Relations in Electrocatalysts Based on High-Entropy Alloys with Wide-Distributed d-
+Band Centers for Li-O2 Batteries. Angew. Chemie Int. Ed. 2023, 62 (44), e202310894.
+https://doi.org/10.1002/ANIE.202310894.
+(14) Talbot, A.; Shang, X.; Wang, W.; Cheng, C.; Lyu, T.; Zou, Y. Laser Remelting of a
+CrMnFeCoNi High-Entropy Alloy: Effect of Energy Density on Elemental Segregation.
+Adv. Eng. Mater. 2025, 27 (18), 2501194.
+(15) Mohanty, G. C.; Gowda, C. C.; Gakhad, P.; Sanjay, M.; Sarkar, S.; Biswas, K.; Singh, A.;
+Tiwary, C. S. High Energy Density Liquid State Asymmetric Supercapacitor Devices
+Using Co–Cr–Ni–Fe–Mn High Entropy Alloy. Mater. Adv. 2023, 4 (17), 3839–3852.
+https://doi.org/10.1039/D3MA00327B.
+(16) Kumar, J.; Linda, A.; Sadhasivam, M.; Pradeep, K. G.; Gurao, N. P.; Biswas, K. The
+Effect of Al Addition on Solid Solution Strengthening in CoCrFeMnNi: Experiment and
+Modelling. Acta Mater. 2022, 238, 118208.
+https://doi.org/10.1016/J.ACTAMAT.2022.118208.
+23
+
+(17) Medvedev, N. Thermodynamic Properties of CrMnFeCoNi High Entropy Alloy at
+Elevated Electronic Temperatures. Sci. Reports 2025 151 2025, 15 (1), 37335-.
+https://doi.org/10.1038/s41598-025-21367-x.
+(18) Cantor, B.; Chang, I. T. H.; Knight, P.; Vincent, A. J. B. Microstructural Development in
+Equiatomic Multicomponent Alloys. Mater. Sci. Eng. A 2004, 375–377 (1-2 SPEC. ISS.),
+213–218. https://doi.org/10.1016/J.MSEA.2003.10.257.
+(19) Otto, F.; Dlouhý, A.; Somsen, C.; Bei, H.; Eggeler, G.; George, E. P. The Influences of
+Temperature and Microstructure on the Tensile Properties of a CoCrFeMnNi High-
+Entropy Alloy. Acta Mater. 2013, 61 (15), 5743–5755.
+https://doi.org/10.1016/J.ACTAMAT.2013.06.018.
+(20) Chen, B. R.; Yeh, A. C.; Yeh, J. W. Effect of One-Step Recrystallization on the Grain
+Boundary Evolution of CoCrFeMnNi High Entropy Alloy and Its Subsystems. Sci.
+Reports 2016 61 2016, 6 (1), 22306-. https://doi.org/10.1038/srep22306.
+(21) Karikalan, N.; Karthik, R.; Chen, S. M.; Karuppiah, C.; Elangovan, A. Sonochemical
+Synthesis of Sulfur Doped Reduced Graphene Oxide Supported CuS Nanoparticles for the
+Non-Enzymatic Glucose Sensor Applications. Sci. Reports 2017 71 2017, 7 (1), 2494-.
+https://doi.org/10.1038/s41598-017-02479-5.
+(22) Wang, Y.; Wang, L.; Wei, B.; Miao, Q.; Yuan, Y.; Yang, Z.; Fei, W. Electrodeposited
+Nickel Cobalt Sulfide Nanosheet Arrays on 3D-Graphene/Ni Foam for High-Performance
+Supercapacitors. RSC Adv. 2015, 5 (121), 100106–100113.
+https://doi.org/10.1039/C5RA20898J.
+(23) He, X.; Hu, Z.; Zou, Q.; Yang, J.; Guo, R.; Wu, L. Co-Deposition of Co–Ni Alloy
+Catalysts from an Ethylene Glycol System for the Hydrogen Evolution Reaction. RSC
+Adv. 2023, 13 (13), 8901–8914. https://doi.org/10.1039/D2RA08233K.
+(24) Tiwari, P.; Gangwar, D.; Rath, C. Studies on the Structural, Magnetic and Electrochemical
+Properties of GdMn1−xFexO3 (x = 0, 0.1 and 0.2) Perovskite Compounds. New J. Chem.
+2021, 45 (30), 13608–13619. https://doi.org/10.1039/D1NJ02026A.
+(25) Gangwar, D.; Rath, C. Spin Dynamics of Hydrothermally Synthesized δ-MnO2
+24
+
+Nanowhiskers. Phys. Chem. Chem. Phys. 2020, 22 (25), 14236–14245.
+https://doi.org/10.1039/D0CP02245D.
+(26) Charry, J.; Tkatchenko, A. Van Der Waals Radiiof Free and Bonded Atoms
+fromHydrogen (Z = 1) to Oganesson (Z = 118). J. Chem. Theory Comput. 2024, 20 (17),
+7469–7478. https://doi.org/10.1021/ACS.JCTC.4C00784.
+(27) Bencherifa, I.; Belkhettab, I.; Derkaoui, K.; Dabou, O.; Chetoui, A.; Latreche, S.; Daoud,
+I. Unveiling the Impact of Al and Cr Alloying on Structure and HER Performance of
+CoCuZnMnNiFe High-Entropy Alloy Nanoparticles. J. Mater. Sci. 2025 6044 2025, 60
+(44), 22443–22467. https://doi.org/10.1007/S10853-025-11760-2.
+(28) Wang, F.; Chen, S.; Tong, Z.; Liu, X.; Zhou, H.; He, Y.; Shu, G.; Jin, Y.; Zheng, W.
+Electronegativity-Modulated High-Entropy Catalysts for Efficient HER and OER. ACS
+Appl. Mater. Interfaces 2025, 17 (49), 66617–66629.
+https://doi.org/10.1021/ACSAMI.5C17409.
+(29) Ipaves, B.; Justo, J. F.; de Almeida, J. M.; Assali, L. V. C.; Alves da Silva Autreto, P.
+Metal-Free Doping in Two-Dimensional Carbon C4N2 for Enhanced Hydrogen
+Evolution. ACS Omega 2025, 10 (38), 44248–44259.
+https://doi.org/10.1021/ACSOMEGA.5C05773.
+(30) Chodvadiya, D.; Som, N. N.; Jha, P. K.; Chakraborty, B. Enhancement in the Catalytic
+Activity of Two-Dimensional α-CN by B, Si and P Doping for Hydrogen Evolution and
+Oxygen Evolution Reactions. Int. J. Hydrogen Energy 2021, 46 (43), 22478–22498.
+https://doi.org/10.1016/J.IJHYDENE.2021.04.080.
+(31) Kamaruddin, H.; Jianghong, Z.; Yu, L.; Yuefan, W.; Yizhong, H. A Review of Noble
+Metal-Free High Entropy Alloys for Water Splitting Applications. J. Mater. Chem. A
+2024, 12 (17), 9933–9961. https://doi.org/10.1039/D4TA00690A.
+25
+

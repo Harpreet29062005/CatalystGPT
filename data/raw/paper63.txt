@@ -1,0 +1,425 @@
+ORIGINALRESEARCH
+published:20March2019
+doi:10.3389/fchem.2019.00138
+Highly Active Ni- and Co-Based
+Bimetallic Catalysts for Hydrogen
+Production From Ammonia-Borane
+ShinyaFurukawa1,2*,GenkiNishimura3,TomoakiTakayama3andTakayukiKomatsu3*
+1InstituteforCatalysis,HokkaidoUniversity,Sapporo,Japan,2ElementsStrategyInitiativeforCatalystsandBatteries,Kyoto
+University,Kyoto,Japan,3DepartmentofChemistry,SchoolofScience,TokyoInstituteofTechnology,Tokyo,Japan
+Ammonia-borane is one of the most promising candidates for hydrogen carriers.
+A series of Ni- and Co-based bimetallic catalysts supported on SiO (Ni–M/SiO
+2 2
+and Co–M/SiO ; M = Ga, Ge, Sn, Zn) was prepared and tested as catalysts for
+2
+hydrogen production from ammonia-borane (AB) in water or methanol. Ni–Zn/SiO
+Editedby: 2
+SteveSuib, and Co–Ge/SiO 2 exhibited catalytic activities much higher than those of monometallic
+UniversityofConnecticut, Ni/SiO and Co/SiO , respectively. Ni–Zn/SiO showed a high catalytic activity when
+2 2 2
+UnitedStates
+water was used as a solvent, where the reaction was completed within 6min at room
+Reviewedby:
+temperature with a specific reaction rate of 4.3ml min−1 mmol-cat−1 mM-AB−1. To
+BalaramanEkambaram,
+NationalChemicalLaboratory(CSIR), the best of our knowledge, this is the highest value among those reported using
+India
+3d metal-based catalysts. Co–Ge/SiO afforded a five-fold higher reaction rate than
+LiwuZhang, 2
+FudanUniversity,China that of the corresponding monometallic Co/SiO 2 . XRD, TEM, and HAADF-STEM-EDS
+GuohongWang, analyses revealed that Ni Zn and Co Ge solid-solution alloys were formed
+0.75 0.25 0.8 0.2
+HubeiNormalUniversity,China
+with high phase purities. An XPS study showed that Co atoms in Co Ge were
+0.8 0.2
+*Correspondence:
+electron-enriched due to electron transfer from Ge to Co, which may be the origin of
+ShinyaFurukawa
+furukawa@cat.hokudai.ac.jp theimprovedcatalyticactivity.
+TakayukiKomatsu
+komatsu.t.ad@m.titech.ac.jp Keywords:hydrogenproduction,ammoniaborane,hydrolysis,alloy,catalyst
+Specialtysection:
+Thisarticlewassubmittedto INTRODUCTION
+CatalysisandPhotocatalysis,
+asectionofthejournal Hydrogenhasbeenconsideredasoneofthebestenergycarrieralternativestofossilfuelsbecause
+FrontiersinChemistry ofitshighenergydensity,cleancombustionproduct(onlywater),andenvironmentalfriendliness
+Received:27November2018 (Schlapbach and Züttel, 2011). Hydrogen is currently produced by steam reforming of methane
+Accepted:25February2019 containedinnaturalgas(Heinzeletal.,2002),whichisnotrenewableandsustainable.Therefore,
+Published:20March2019 alternativemethodologiessuchasphotocatalytic(Monizetal.,2015;Chenetal.,2017;Wangetal.,
+Citation: 2017) and photoelectrochemical (Zhang et al., 2014; Zheng and Zhang, 2016; Han et al., 2017)
+FurukawaS,NishimuraG, watersplittinghaverecentlyattractedincreasingattention.Ontheotherhand,storage,transport,
+TakayamaTandKomatsuT(2019) andreleaseofhydrogenareknownastechnologicalbarrierstopracticalapplicationinviewofcost
+HighlyActiveNi-andCo-Based andsafety(Züttel,2003).Ammonia–borane(H N·BH ,hereafterAB)isoneofthemorepromising
+BimetallicCatalystsforHydrogen 3 3
+candidatesasahydrogencarrierorsource(Landgeetal.,2018)owingtoitshighhydrogencontent
+ProductionFromAmmonia-Borane.
+Front.Chem.7:138. (19.6wt%),highthermalstability,andlowtoxicity(Marder,2007).ABcanreleasethreeequimolar
+doi:10.3389/fchem.2019.00138 amounts of hydrogen at ambient temperatures using an appropriate catalyst through solvolysis
+FrontiersinChemistry|www.frontiersin.org 1 March2019|Volume7|Article138
+
+Furukawaetal. HeterogeneousCatalysisforHydrogenProduction
+with protic solvents such as water and methanol. Using noble MATERIALS AND METHODS
+metals such as Pt, Rh, Ir enables the achievement of rapid
+Catalyst Preparation
+hydrogenreleasetypicallywithinseveralminutes(Chandraand
+Monometallic Ni and Co catalysts were prepared by pore-
+Xu, 2007; Xu and Chandra, 2007). Recently, development of
+fillingimpregnationusingsilicaasasupport.Aqueoussolutions
+non-noble3dtransitionmetal-basedcatalyststhatareactivefor
+of Ni(NO ) ·6H O (Wako, 99%) or Co(NO ) ·3H O (Sigma
+hydrogen production from AB has been increasingly focused 3 2 2 3 2 2
+(Xu and Chandra, 2006; Yan et al., 2008, 2009; Kalidindi et al., Aldrich, 99%) were added to dried silica gel (CARiACT G-6,
+2009;Metinetal.,2010;Pateletal.,2010;Ozayetal.,2011;Peng Fuji Silysia, S BET = 470 m2 g−1) so that the solutions filled
+et al., 2015). To develop highly efficient catalytic systems using the silica pores. The mixtures were sealed overnight at room
+basemetalelements,thecatalyticactivityofthesemetalsshould temperature and dried over a hot plate, followed by reduction
+◦
+be greatly enhanced by appropriate catalyst design such as the underflowingH 2 at600 Cfor1h.Silica-supportedNi-andCo-
+modificationofmorphology,theadditionofsomecocatalysts,or based catalysts (Ni–M/SiO 2 and Co–M/SiO 2 ; M = Ga, Ge, Sn,
+theformationofalloyphases(FurukawaandKomatsu,2017). and Zn) were prepared by pore-filling co-impregnation. Mixed
+Inthisstudy,aseriesofNi-andCo-basedbimetalliccatalysts aqueoussolutionsofNi(NO 3 ) 2 ·6H 2 OorCo(NO 3 ) 2 ·3H 2 Oanda
+was prepared (Ni–M/SiO 2 and Co–M/SiO 2 ; M = Ga, Ge, Sn, secondmetalsalt,Ga(NO 3 ) 3 ·nH 2 O(Wako,99.9%),(NH 4 ) 2 GeF 6
+and Zn) and tested as catalysts for hydrogen production from (Sigma Aldrich, 99.99%), SnCl 2 (Kanto, 97%), and Zn(NO 3 ) 2 ·
+AB in water or methanol as a solvent. The observed catalytic 6H 2 O(Kanto,99%)wereusedinamannersimilartothatofthe
+performanceswerediscussedinviewofthereactionmechanism. monometalliccatalyst.ThemetalloadingofNiorCo,theatomic
+Herein, we report a novel and highly efficient catalytic ratioofNi/MorCo/M,andthereductiontemperatureduringthe
+◦
+system for hydrogen production from AB using non-noble catalystpreparationweresetto3wt%,3.0,and600 Cexceptfor
+◦
+metalcatalysts. Ni–GeandCo–Ge,whichhadareductiontemperatureof800 C,
+andCo–Snwithanatomicratioof1.0.
+Characterizations
+The crystal structures of the catalysts were determined by
+powder X-ray diffraction (XRD) with a Rigaku RINT2400
+diffractometer using a Cu Kα X-ray source. Difference XRD
+patterns were obtained by subtracting the pattern for the SiO
+2
+support from those of the supported catalysts. Transmission
+electron microscopy (TEM) was conducted using a JEOL JEM-
+2010F microscope at an accelerating voltage of 200 kV. To
+prepare the TEM specimen, all samples were sonicated in
+tetrachloromethaneandthendispersedonaCugridsupported
+byanultrathincarbonfilm.X-rayphotoelectronspectra(XPS)of
+the bimetallic compounds were measured with an ULVAC PHI
+5000 VersaProbe spectrometer. The catalyst was pressed into a
+pellet and placed into a quartz reactor, where it was reduced
+FIGURE1|TimecourseofH2evolutionduringcatalyticmethanolysisofAB underflowinghydrogen(60mlmin−1)at450◦Cfor0.5hpriorto
+using(A)Ni-and(B)Co-basedcatalysts.
+themeasurement.Thesamplewasputintoatransfervesselina
+FIGURE2|TimecourseofH2evolutionduringcatalytichydrolysis(H2O)andmethanolysis(MeOH)ofABusing(A)Ni–Zn,(B)Co–Ge,andCocatalyst.
+FrontiersinChemistry|www.frontiersin.org 2 March2019|Volume7|Article138
+
+Furukawaetal. HeterogeneousCatalysisforHydrogenProduction
+grovebox(O concentration:<1ppm)andthenintroducedinto active species (probably, zero-valent Ni or Co species) were
+2
+thespectrometerwithoutexposuretoair.Spectrawereobtained formedorincreasedduringthecatalyticreaction.Aremarkable
+withanAlKαX-raysource,usingC1sasareferenceforbinding
+energy (284.8eV). The reduction behavior of the catalyst was
+examinedbytemperature-programmedreduction(TPR).Under
+flowingH (5%)/Ar,thetemperatureofthesamplebedwasraised
+2
+fromroomtemperatureto900 ◦ Cataheatingrateof10 ◦ C·min −1
+andtheconsumptionofhydrogenwascontinuouslymeasuredby
+athermalconductivitydetector(TCD).
+Catalytic Reaction
+Acatalyst(100mg)wasplacedintoa50mLthree-neckedround-
+bottom flask equipped with a silicone rubber septum and a gas
+burette and pretreated under an H stream (60 mL·min −1) at
+2
+◦
+450 Cfor0.5husingamantleheater.Afterthepretreatment,dry
+Ar(20mL·min −1)waspassedintotheflasktoreplacetheresidual
+H , and the flask was cooled to room temperature. A reaction
+2
+mixture containing a solvent (deionized water or dehydrated
+methanol,Kanto99.8%,10mL)andAB(Sigma-Aldrich,97%,2.0
+◦
+mmol)wasaddedintotheflaskthroughtheseptumat25 C.The
+volume of the evolved H was measured using the gas burette.
+2
+The total volume of H is expected to be 147ml (6.0 mmol) at
+2
+25
+◦
+CforthecompleteconversionofAB(2.0mmol).
+FIGURE3|ReusetestsforH2productioninmethanolusingCo–Ge/SiO2
+catalyst.Forthefirstreuseat110min,theamountofABwasreducedto2/3
+(1.33mmol).
+RESULTS AND DISCUSSION
+The prepared Ni- and Co-based catalysts were tested for H
+2
+productionfromABusingmethanolasasolvent(Figure1).The
+monometallicNicatalystshowedmoderatecatalyticactivitywith
+ashortinductionperiod.TheNi–Sncatalystshowedaverylow
+catalyticactivitywithalonginductionperiod.Ontheotherhand,
+theNi–Zn,Ni–Ga,andNi–Gecatalystsexhibitedhighcatalytic
+activities without an induction period. Particularly for the Ni–
+Zn catalyst, the reaction was completed within ca. 10min. Co-
+basedcatalystsgenerallygavecatalyticactivitieslowerthanthose
+of Ni-based catalysts, which reflects the intrinsic difference of
+catalyticactivitybetweenNiandCoforthisreaction.Moreover,
+the catalytic activities were quite different depending on the
+secondmetal(Co–Ge>Co–Ga>>Co>>Co–Sn).Induction
+periods were observed for some catalysts (Ni, Ni–Sn, Co, Co–
+FIGURE4|XRDpatternsofNi–Zn/SiO2(Ni/Zn=3)andCo–Ge/SiO2
+(Co/Ge=3).
+Ga, and Co–Zn), indicating that, for these catalysts, some real
+TABLE1|SummaryofreactionconditionandrateofABhydrolysisat25◦Cusingvariouscatalysts.
+Catalyst Cat AB AB/Cat rH2(ml rcat(mlmin −1 rcat[AB](mlmin −1 Duration(min)a References
+(mmol) (mmol) min −1) mmol-cat −1) mmol-cat −1mM-AB −1)
+Fe 0.192 1.6 8.3 15 79 0.50 10 Yanetal.,2008
+Co/C 0.058 3.2 56 3.6 61 0.20 50 XuandChandra,2006
+Co–B 0.2 15.0 75 29 145 1.45 – Pateletal.,2010
+Ni 0.025 2.0 80 5.0 200 1.00 50 Metinetal.,2010
+Ni2P 0.054 2.08 38 46 852 2.05 6 Pengetal.,2015
+Ni–Zn 0.050 2.0 40 43 860 4.30 6 Thiswork
+Co–Ge 0.051 2.0 39 4.5 88 0.44 50
+Co 0.051 2.0 39 0.9 18 0.09 >150
+aTimeneededforcompletionofH2evolution.
+FrontiersinChemistry|www.frontiersin.org 3 March2019|Volume7|Article138
+
+Furukawaetal. HeterogeneousCatalysisforHydrogenProduction
+enhancement in the reaction rate was achieved by addition of rates (r ) calculated by dividing H formation rates (r )
+cat[AB] 2 H2
+Ge to Co, suggesting the contribution of a specific effect of by the amount of catalyst (mmol) and concentration of AB
+Ge on the catalysis. The discovered active catalysts, Ni–Zn and (mM). Since the number of active sites, such as metal atoms
+Co–Ge, were also tested in hydrogen production from AB in on the surface, was not clearly mentioned, the total number
+water as a solvent (Figure2). For each catalyst, H evolution of metal atoms was used for this calculation. The difference in
+2
+in water was much faster than that in methanol as reported AB concentration was compensated for by assuming the first-
+for Ni- and Co-based catalysts in the literature. Note that the order dependence of the formation rate on AB concentration.
+reaction was completed within 6min when the Ni–Zn catalyst The Ni–Zn catalyst exhibited an r value higher than that
+cat[AB]
+wasused.ThisisoneofthebestperformancesinABhydrolysis of Ni P, which was reported to be the most active base-metal
+2
+reported to this day. The obtained catalytic performance was catalystforABhydrolysis(Pengetal.,2015).Therefore,theNi–
+listed in Table1 with those of reported catalysts. Because the Zn catalyst is the most active 3d metal-based catalyst for H
+2
+reactionconditionsweredifferentdependingoneachstudy,we productionbyhydrolysisofAB.Wealsoexaminedthereusability
+quantitativelycomparedthembasedonthespecificH formation of the catalysts. Figure3 shows the result of the reuse test for
+2
+FIGURE5|(a)TEMimageandthe(b)sizedistributionofCo–Ge/SiO2catalyst.(c)HighresolutionTEMimageofasinglenanoparticleofCo–Ge.(d)HAAF-STEM
+imageofCo–Ge/SiO2catalystandelementalmapsof(e)Co,and(f)GeforthenanoparticlesacquiredusingEDS.
+FrontiersinChemistry|www.frontiersin.org 4 March2019|Volume7|Article138
+
+Furukawaetal. HeterogeneousCatalysisforHydrogenProduction
+the Co–Ge/SiO catalyst in H production in methanol. At the Co–Ge/SiO , three different reduction peaks were observed at
+2 2 2
+◦
+firstreuseat110min,weadded1.33molofAB(2/3equivalentto 370, 550, and 740 C, which could be assigned to the reduction
+thestandardcondition).ThetotalvolumeH evolveddecreased of
+Co2+
+,
+Co3+
+, and
+Ge4+
+species. We previously reported
+2
+from130.5to87ml,showingcompleteconversionofABatreuse. a TPR profile of Ge/SiO , with reduction peaks appearing
+2
+◦
+The reaction rate also became approximately two-thirds of the at temperatures higher than 650 C (Komatsu et al., 1997).
+◦
+original(2.03–1.75),indicatingthatr stronglydependsonAB Therefore, the reduction peak at 740 C can be attributed to
+H2
+concentration.Althoughthereactionratewasslightlydecreased the reduction of
+Ge4+
+. The other reduction peaks assignable
+atthesecondandthirdreuse,theCo–Ge/SiO catalystcouldbe forCospeciesappearedatmuchhighertemperaturesthanthat
+2
+reusedwithoutanyregenerationprocedure.Thus,itwasfound for Co/SiO , suggesting that the strong interaction between Co
+2
+thattheCo–Ge/SiO wasarecyclableheterogeneouscatalystfor and Ge inhibits the reduction of
+Co2+
+. It can be said that Co
+2
+H productionfromAB. species in Co/SiO were not completely reduced because the
+2 2
+◦
+Then, the discovered active catalysts were characterized to reduction temperature for the preparation of Co/SiO (600 C)
+2
+clarify their structures. Figure4 shows XRD patterns of the is not sufficient to completely reduce all the Co species. This
+Ni–Zn/SiO and Co–Ge/SiO catalysts. For Ni–Zn/SiO , a
+2 2 2
+solid-solutionalloybetweenNiandZnwitha3:1ratio,namely
+Ni Zn phase (Vassilev, 1992), was observed as single
+0.75 0.25
+phase.Asimilaralloyphase(Co Ge )(IshidaandNishizawa,
+0.8 0.2
+1991) was also observed as a main species for Co–Ge/SiO .
+2
+One-to-one intermetallic phase of CoGe was also detected as a
+minor species. Thus, XRD analysis confirmed the formation of
+alloy phases with high purities. The crystallite sizes of Ni–Zn
+and Co–Ge were estimated using Scherrer equation as <3
+and 9nm, respectively. The larger crystallite size of Co–Ge
+◦
+may stem from the higher reduction temperature (800 C)
+during the catalyst preparation. Figure5 shows TEM and
+STEMimagesofCo–Ge/SiO ,sizedistributionofnanoparticles,
+2
+and the elemental map of Co and Ge acquired using EDS.
+Particle size ranged from 2 to 20nm with a mean diameter of
+8.5nm (Figures5a,b), which is consistent with the crystallite
+size estimated by the Scherrer equation (9nm). Figure5c
+displays the high-resolution TEM image of a single Co–Ge
+nanoparticle. Lattice fringes with 2.06 Å spacing were clearly
+observed, which agrees finely with the interplanar distance of
+the (111) plane of Co Ge solid-solution alloy with an fcc
+FIGURE6|TPRprofilesforas-impregnatedCo(NO3)2/SiO2and
+0.8 0.2 Co(NO3)2-(NH4)2GeF6/SiO2catalysts.
+structure (2.07 Å) (Ishida and Nishizawa, 1991). The elemental
+maps of Co and Ge that were acquired using the EDS analysis
+revealedthattheCoandGeatomscomprisingthenanoparticles
+were homogeneously dispersed (Figures5d–f). These results
+strongly suggest that the Co Ge alloy nanoparticles
+0.8 0.2
+were formed with high phase purities. Thus, the results
+obtained from the STEM-EDS analysis were consistent with
+thatofXRD.
+We then studied the reason why the catalytic activity was
+significantly enhanced by the formation of the alloy phase.
+BecausetheCo–Gesystemexhibitedaremarkableincreaseinthe
+reactionrate(fivetimeshigher)comparedtopureCo,wefocused
+onthedifferencebetweentheCoandCo–Gesystems.
+Figure6 shows the TPR profiles of the Co/SiO and Co–
+2
+Ge/SiO catalysts.Toevaluatethereductiontemperaturesofthe
+2
+component metals, as-impregnated catalysts were used for the
+TPRexperiments.Forbothcatalysts,intensepeakswereobserved
+◦
+at 150 and 200 C, which may be attributed to the reduction of
+O or NO derived from the decomposition of the Co(NO )
+2 2 3 2
+(vanSteenetal.,1996).ForCo/SiO ,tworeductionpeakswere
+2
+◦
+observedat260and760 C,whichareassignedtothereduction
+ofCo2+
+speciesthatweaklyandstronglyinteractwiththesilica
+FIGURE7|Co2p3/2XPSofCo/SiO2andCo–Ge/SiO2catalysts.
+surface,respectively(vanSteenetal.,1996).Onthecontrary,for
+FrontiersinChemistry|www.frontiersin.org 5 March2019|Volume7|Article138
+
+Furukawaetal. HeterogeneousCatalysisforHydrogenProduction
+maybeoneofthereasonswhytheCo/SiO catalystsshowedlow respectively, due to the different electronegativities of B and
+2
+catalyticactivity.Onthecontrary,forCo–Ge/SiO 2 ,thereduction N. Therefore, it is likely that the alloy surface with polar
+temperatureforthepreparation(800 ◦ C)isenoughtoreduceall active sites (Coδ−–Geδ+) facilitates the formation of the active
+theCo2+ andGe4+
+species. complex(1),thusenhancingthefollowingstepsandtheoverall
+We also investigated the electronic states of the Co/SiO 2 reaction rate. A similar reaction mechanism has also been
+and Co–Ge/SiO
+2
+catalysts by XPS (Figure7). For Co/SiO
+2
+, the reportedinthesystemofRuδ−–Niδ+bimetalliccatalystsforAB
+fractionofCo2+ orCo3+
+species(Sextonetal.,1986)wasmuch hydrolysis(Morietal.,2016).
+higher than that of Co(0), suggesting that a large part of the
+catalyst surface is oxidized. By contrast, for Co–Ge/SiO 2 , Co(0) CONCLUSION
+(Sextonetal.,1986)wasdetectedasamainspecies.Theseresults
+areconsistentwiththeexpectationderivedfromTPRmentioned In this study, we prepared a series of Ni- and Co-based
+above.ItisalsolikelythatCoatomsontheCo–Ge/SiO 2 catalyst bimetallic catalysts (Ni–M/SiO 2 and Co–M/SiO 2 ; M = Ga,
+are more resistant to aerobic oxidation than those on Co/SiO 2 . Ge, Sn, and Zn) and tested them in H 2 production from
+Jagirdaretal.reportedthatCo2+ orNi2+
+ionscouldbereduced AB in water or methanol. Catalytic activity for hydrogen
+by the evolved H 2 during hydrolysis of AB to form Ni or Co production is enhanced by the addition of second metals
+nanoparticles (Kalidindi et al., 2008). Therefore, it is likely that except Sn. Particularly, the addition of Ge to Co enables
+similar in situ reduction of
+Co2+
+could occur to completely great enhancement in the catalytic activity, namely a five-
+reducethecatalystsurfaceinoursystem.Thismaybethereason fold higher r than the monometallic Co/SiO catalyst.
+H2 2
+whytheinductionperiodwasobservedinH 2 productionfrom The active species is electron-enriched Co atoms constituting
+AB over Co/SiO 2 . The binding energies of
+Co2+
+or
+Co3+
+for the Co 0.8 Ge 0.2 solid solution alloy phase. The Ni–Zn/SiO 2
+Co/SiO 2 andCo–Ge/SiO 2 werealmostsame,suggestingthatGe catalyst exhibited an r cat[AB] value higher than those ever
+speciesdonotaffecttheelectronicstateofCocations.However, reported for hydrolysis of AB to the best of our knowledge.
+a different trend was observed for Co(0) species: Co–Ge/SiO 2 The Ni 0.75 Zn 0.25 solid solution alloy phase acts as the
+exhibited a lower binding energy than Co/SiO 2 , indicating that activespecies.
+Co atoms in Co–Ge are electron-enriched compared with pure
+Co. This is probably because electron transfer from Ge to Co- AUTHOR CONTRIBUTIONS
+occursduetoalloyformation.Similarelectrontransferhasalso
+been reported for the relevant systems such as Pt–Ge alloys SFdesignedtheresearchandexperiments.GNperformedallthe
+(Komatsu et al., 1997). Thus, XPS analysis revealed that the experiments.TTmanagedtheHAADF-STEM-EDSanalysis.SF
+formation of Co–Ge alloy drastically changed the electronic andTKpreparedthemanuscript.
+state of Co. On the basis of these results, we considered that
+the difference in the electron density of Co(0) species, namely, FUNDING
+electron-enrich Co by Ge via alloying, is the key factor for the
+remarkableenhancementinthecatalyticactivity. This work was supported by JSPS KAKENHI grant numbers
+ThereactionmechanismofABhydrolysishasbeenreported 26820350and17H0496508.
+as follows: (1) the formation of an activated complex between
+AB and the metal surface, (2) B–N bond scission assisted by ACKNOWLEDGMENTS
+H O attack, and (3) hydrolysis of the resulting BH moiety
+2 3
+−
+to form H 2 and BO 2 (Xu and Chandra, 2006; Mahyari and WedeeplyappreciatetheCenterforAdvancedMaterialsAnalysis
+Shaabani, 2014). It is also known that H atoms bound to the of the Tokyo Institute of Technology for the aid of TEM and
+B and N atoms are slightly electropositive and electronegative, STEMobservation.
+REFERENCES
+Heinzel,A.,Vogel,B.,andHübner,P.(2002).Reformingofnaturalgas—hydrogen
+generationforsmallscalestationaryfuelcellsystems.J.PowerSources105,
+Chandra,M.,andXu,Q.(2007).Roomtemperaturehydrogengenerationfrom 202–207.doi:10.1016/S0378-7753(01)00940-5
+aqueous ammonia-borane using noble metal nano-clusters as highly active Ishida, K., and Nishizawa, T. (1991). The Co-Ge (cobalt-germanium)
+catalysts.J.PowerSources168,135–142.doi:10.1016/j.jpowsour.2007.03.015 system. J. Phase Equilibria 12, 77–83. doi: 10.1007/BF02
+Chen,S.S.,Takata,T.,andDomen,K.(2017).Particulatephotocatalystsforoverall 663679
+watersplitting.Nat.Rev.Mater.2:17050.doi:10.1038/Natrevmats.2017.50 Kalidindi, S. B., Indirani, M., and Jagirdar, B. R. (2008). First row
+Furukawa, S., and Komatsu, T. (2017). Intermetallic compounds: promising transition metal ion-assisted ammonia-borane hydrolysis for
+inorganic materials for well-structured and electronically modified hydrogen generation. Inorgan. Chem. 47, 7424–7429. doi: 10.1021/ic8
+reaction environments for efficient catalysis. ACS Catalysis 7, 735–765. 00805r
+doi:10.1021/acscatal.6b02603 Kalidindi, S. B., Vernekar, A. A., and Jagirdar, B. R. (2009). Co-Co2B,
+Han,J.,Zheng,X.,Zhang,L.,Fu,H.,andChen,J.(2017).RemovalofSO2 on Ni-Ni3B and Co-Ni-B nanocomposites catalyzed ammonia-borane
+ananoporousphotoelectrodewithsimultaneousH2production.Environ.Sci. methanolysisforhydrogengeneration.Phys.Chem.Chem.Phys.11,770–775.
+Nano4,834–842.doi:10.1039/C6EN00638H doi:10.1039/b814216e
+FrontiersinChemistry|www.frontiersin.org 6 March2019|Volume7|Article138
+
+Furukawaetal. HeterogeneousCatalysisforHydrogenProduction
+Komatsu,T.,Hyodo,S.,andYashima,T.(1997).CatalyticpropertiesofPt-Ge vanSteen,E.,Sewell,G.S.,Makhothe,R.A.,Micklethwaite,C.,Manstein,H.,de
+intermetalliccompoundsinthehydrogenationof1,3-butadiene.J.Phys.Chem. Lange,M.,etal.(1996).TPRstudyonthepreparationofimpregnatedCo/SiO2
+B101,5565–5572.doi:10.1021/Jp971117l catalysts.J.Catalysis162,220–229.doi:10.1006/jcat.1996.0279
+Landge, V. G., Pitchaimani, J., Midya, S. P., Subaramanian, M., Madhu, V., Vassilev,G.P.(1992).ThermodynamicevaluationoftheNi-Znsystem.J.Alloys
+andBalaraman,E.(2018).Phosphine-freecobaltpincercomplexcatalyzedZ- Compounds190,107–112.doi:10.1016/0925-8388(92)90184-B
+selective semi-hydrogenation of unbiased alkynes. Catalysis Sci. Technol. 8, Wang,Q.,Hisatomi,T.,Suzuk,Y.,Pan,Z.H.,Seo,J.,Katayama,M.,etal.(2017).
+428–433.doi:10.1039/c7cy01994g Particulatephotocatalystsheetsbasedoncarbonconductorlayerforefficient
+Mahyari,M.,andShaabani,A.(2014).Nickelnanoparticlesimmobilizedonthree- Z-scheme pure-water splitting at ambient pressure. J. Am. Chem. Soc. 139,
+dimensionalnitrogen-dopedgrapheneasasuperbcatalystforthegeneration 1675–1683.doi:10.1021/jacs.6b12164
+ofhydrogenfromthehydrolysisofammoniaborane.J.Mater.Chem.A2, Xu, Q., and Chandra, M. (2006). Catalytic activities of non-noble metals for
+16652–16659.doi:10.1039/c4ta03940h hydrogengenerationfromaqueousammonia-boraneatroomtemperature.J.
+Marder,T.B.(2007).Willwesoonbefuelingourautomobileswithammonia– PowerSources163,364–370.doi:10.1016/j.jpowsour.2006.09.043
+borane? Angew. Chem. Int. Ed. 46, 8116–8118. doi: 10.1002/anie.2007 Xu, Q., and Chandra, M. (2007). A portable hydrogen generation system:
+03150 catalytichydrolysisofammonia–borane.J.AlloysCompounds446,729–732.
+Metin,O.,Mazumder,V.,Ozkar,S.,andSun,S.S.(2010).Monodispersenickel doi:10.1016/j.jallcom.2007.01.040
+nanoparticles;andtheircatalysisinhydrolyticdehydrogenationofammonia Yan, J. M., Zhang, X. B., Han, S., Shioyama, H., and Xu, Q. (2008).
+borane.J.Am.Chem.Soc.132,1468–1469.doi:10.1021/ja909243z Iron-nanoparticle-catalyzedhydrolyticdehydrogenationofammoniaborane
+Moniz,S.J.A.,Shevlin,S.A.,Martin,D.J.,Guo,Z.X.,andTang,J.W.(2015). for chemical hydrogen storage. Angew. Chem. Int. Ed. 47, 2287–2289.
+Visible-lightdrivenheterojunctionphotocatalystsforwatersplitting—acritical doi:10.1002/anie.200704943
+review.EnergyEnviron.Sci.8,731–759.doi:10.1039/c4ee03271c Yan,J.M.,Zhang,X.B.,Han,S.,Shioyama,H.,andXu,Q.(2009).Synthesisof
+Mori,K.,Miyawaki,K.,andYamashita,H.(2016).RuandRu-Ninanoparticles longtimewater/air-stableninanoparticlesandtheirhighcatalyticactivityfor
+on TiO2 support as extremely active catalysts for hydrogen production hydrolysisofammonia-boraneforhydrogengeneration.Inorgan.Chem.48,
+from ammonia-borane. ACS Catalysis 6, 3128–3135. doi: 10.1021/acscatal. 7389–7393.doi:10.1021/ic900921m
+6b00715 Zhang, L., Reisner, E., and Baumberg, J. J. (2014). Al-doped ZnO inverse
+Ozay,O.,Inger,E.,Aktas,N.,andSahiner,N.(2011).Hydrogenproductionfrom opal networks as efficient electron collectors in BiVO4 photoanodes for
+ammoniaboraneviahydrogeltemplatesynthesizedCu,Ni,Cocomposites. solarwateroxidation.EnergyEnviron.Sci.7,1402–1408.doi:10.1039/C3EE
+Int. J. Hydrogen Energy 36, 8209–8216. doi: 10.1016/j.ijhydene.2011. 44031A
+04.140 Zheng,X.Z.,andZhang,L.W.(2016).Photonicnanostructuresforsolarenergy
+Patel, N., Fernandes, R., Guella, G., and Miotello, A. (2010). Nanoparticle- conversion.EnergyEnviron.Sci.9,2511–2532.doi:10.1039/c6ee01182a
+assembled Co-B thin film for the hydrolysis of ammonia borane: a highly Züttel, A. (2003). Materials for hydrogen storage. Mater. Today 6, 24–33.
+activecatalystforhydrogenproduction.Appl.CatalysisBEnviron.95,137–143. doi:10.1016/S1369-7021(03)00922-2
+doi:10.1016/j.apcatb.2009.12.020
+Peng, C. Y., Kang, L., Cao, S., Chen, Y., Lin, Z. S., and Fu, W. F. Conflict of Interest Statement: The authors declare that the research was
+(2015). Nanostructured Ni2P as a robust catalyst for the hydrolytic conductedintheabsenceofanycommercialorfinancialrelationshipsthatcould
+dehydrogenationofammonia-borane.Angew.Chem.Int.Ed.54,15725–15729. beconstruedasapotentialconflictofinterest.
+doi:10.1002/anie.201508113
+Schlapbach, L., and Züttel, A. (2011). “Hydrogen-storage materials for mobile Copyright©2019Furukawa,Nishimura,TakayamaandKomatsu.Thisisanopen-
+applications,”inMaterialsforSustainableEnergy:ACollectionofPeer-Reviewed access article distributed under the terms of the Creative Commons Attribution
+ResearchandReviewArticlesfromNaturePublishingGroup,edV.Dusastre License(CCBY).Theuse,distributionorreproductioninotherforumsispermitted,
+(London:WorldScientific),265–270. providedtheoriginalauthor(s)andthecopyrightowner(s)arecreditedandthatthe
+Sexton,B.,Hughes,A.,andTurney,T.(1986).AnXPSandTPRstudyofthe originalpublicationinthisjournaliscited,inaccordancewithacceptedacademic
+reductionofpromotedcobalt-kieselguhrFischer-Tropschcatalysts.J.Catalysis practice.Nouse,distributionorreproductionispermittedwhichdoesnotcomply
+97,390–406.doi:10.1016/0021-9517(86)90011-4 withtheseterms.
+FrontiersinChemistry|www.frontiersin.org 7 March2019|Volume7|Article138
+

@@ -1,0 +1,808 @@
+TYPE MiniReview
+PUBLISHED 02June2025
+DOI 10.3389/fmats.2025.1613997
+A mini-review on high-entropy
+alloy nanomaterials for
+OPENACCESS
+EDITEDBY electrocatalysis: advances and
+KunalMondal,
+OakRidgeNationalLaboratory(DOE),
+UnitedStates prospects
+REVIEWEDBY
+ArnabBose,
+BoehringerIngelheim,UnitedStates
+JiayuChen1,AnniWu2,YuminZhang1,YongfengXie1,
+DebabrataMoitra,
+TheUniversityofTennessee,Knoxville, HuZheng2andWeiTeng1*
+UnitedStates
+1StateKeyLaboratoryofWaterPollutionControlandGreenResourceRecycling,Collegeof
+*CORRESPONDENCE
+WeiTeng,
+EnvironmentalScienceandEngineering,TongjiUniversity,Shanghai,China,2StateKeyLaboratoryof
+wteng@tongji.edu.cn DisasterReductioninCivilEngineering,DepartmentofGeotechnicalEngineering,CollegeofCivil
+Engineering,TongjiUniversity,Shanghai,China
+RECEIVED18April2025
+ACCEPTED20May2025
+PUBLISHED02June2025
+CITATION High-entropy alloy nanomaterials (HEA-NMs), composed of multiple metallic
+ChenJ,WuA,ZhangY,XieY,ZhengHand
+TengW(2025)Amini-reviewonhigh-entropy elements, offer tunable electronic structures, abundant active sites, and
+alloynanomaterialsforelectrocatalysis: excellentstability,makingthemhighlypromisingforelectrocatalysis.Thismini-
+advancesandprospects.
+reviewsummarizestheirstructuraleffectsinfluencingelectrocatalyticbehavior,
+Front.Mater.12:1613997.
+doi:10.3389/fmats.2025.1613997 recent advances in synthesis strategies, and electrocatalytic applications,
+including the hydrogen evolution reaction (HER), oxygen evolution reaction
+COPYRIGHT
+©2025Chen,Wu,Zhang,Xie,Zhengand (OER), oxygen reduction reaction (ORR), carbon dioxide reduction reaction
+Teng.Thisisanopen-accessarticle (CO RR), and nitrate reduction reaction (NO RR). Challenges in synthesis
+distributedunderthetermsoftheCreative 2 3
+scalabilityandmechanisticprobingarediscussed,alongwithfuturedirections
+CommonsAttributionLicense(CCBY).The
+use,distributionorreproductioninother foratomic-leveldesignanddata-drivencatalystoptimization.HEA-NMsoffera
+forumsispermitted,providedtheoriginal versatileplatformforsustainableenergyandenvironmentalelectrocatalysis.
+author(s)andthecopyrightowner(s)are
+creditedandthattheoriginalpublicationin
+thisjournaliscited,inaccordancewith KEYWORDS
+acceptedacademicpractice.Nouse,
+high-entropyalloynanomaterials,electrocatalysis,fundamentalmechanisms,synthesis
+distributionorreproductionispermitted
+whichdoesnotcomplywiththeseterms. strategies,catalyticperformance
+1 Introduction
+Theurgentdemandforsustainableenergyandenvironmentalsolutionshasaccelerated
+the development of advanced electrocatalysts, which play a central role in enhancing
+reaction kinetics and lowering activation barriers in processes such as water splitting
+(Liuetal.,2025),fuelcells(Serov,2022),andCO conversion(Gandioncoetal.,2024).High-
+2
+entropy alloys (HEAs), composed of five or more principal elements in near-equimolar
+ratios, have emerged as a promising class of materials due to their high configurational
+entropy,whichstabilizessingle-phasesolidsolutions(Yehetal.,2004).Theiruniquefeatures
+including lattice distortion, sluggish diffusion, and multi-element synergy contribute to
+enhancedstructuralstabilityandtunablecatalyticproperties.
+The integration of HEA concepts into the nanoscale has led to the emergence of
+high-entropyalloynanomaterials(Lietal.,2024a),whichfurtherbenefitfromincreased
+surface-to-volumeratios,abundantactivesites,andadjustableelectronicstructures.These
+attributes enhance intermediate adsorption, accelerate reaction kinetics, and improve
+product selectivity. Since the first synthesis of HEA nanoparticles in 2018 (Yao et al.,
+2018),HEA-NMshavedemonstratedimpressiveperformanceinvariouselectrochemical
+reactions, including the hydrogen evolution reaction (HER), oxygen evolution reaction
+FrontiersinMaterials 01 frontiersin.org
+
+Chenet al. 10.3389/fmats.2025.1613997
+GRAPHICALABSTRACT
+(OER),oxygenreductionreaction(ORR),carbondioxidereduction electronicenvironment(Lietal.,2024b).Thisshiftsd-bandcenters
+(CO RR),andnitratereduction(NO RR). and tunes adsorption energies of key intermediates, boosting
+2 3
+This mini-review summarizes recent progress in HEA-NMs catalytic performance. Nanoscale effects intensify distortion and
+for electrocatalysis. We examine the mechanistic origins of their promotefavorableelectronicinteractionsforreactionssuchasCO
+2
+activity,currentsyntheticapproachesforcontrollednanostructure andNO −reduction(Shaikhetal.,2024).
+3
+fabrication,andtheirapplicationsinrepresentativeelectrocatalytic
+reactions. Finally, we outline remaining challenges and future
+opportunities for advancing HEA-NMs as multifunctional 2.3 Sluggish diffusion and microstructural
+electrocatalysts for next-generation energy and environmental stability
+technologies.
+The multi-element environment introduces diverse diffusion
+barriers, reducing atomic mobility and suppressing grain
+2 Mechanistic effects underlying the
+coarsening (Lee et al., 2023). This “sluggish diffusion” helps
+electrocatalytic behavior of HEA-NMs preserve the nanostructure and compositional uniformity under
+harshconditions,contributingtothethermalandelectrochemical
+2.1 High-entropy effect durabilityofHEA-NMs.
+The high-entropy effect, derived from the near-equiatomic
+incorporationoffiveormoreelements,leadstohighconfigurational 2.4 Cocktail effect and synergistic active
+entropy (ΔS ≥ 1.5 R) (Wang et al., 2024) and low Gibbs sites
+mix
+free energy of intermetallic compounds (ΔG = ΔH −
+mix mix
+TΔS ) (Lee et al., 2023), favoring the formation of stable The cocktail effect describes the synergistic properties from
+mix
+solid-solution phases over intermetallics. At the nanoscale, this multielemental interactions that go beyond the sum of individual
+effect is amplified by high surface energy, enabling single-phase elements (Kamaruddin et al., 2024). These include coexisting
+structures and enhancing long-term stability in electrochemical catalyticsites,adaptivesurfacereconstructions,andmulti-pathway
+environments. Homogeneous multi-element distributions further reactivity,allofwhichenhancechargetransferandoverallcatalytic
+ensureconsistentcatalyticactivity. versatility(Liuetal.,2024).
+In addition to the above structural and electronic effects,
+the careful selection of elemental combinations is essential in
+2.2 Lattice distortion and electronic the designation of HEA-NMs. Factors such as mixing enthalpy,
+modulation atomic size, and electronegativity must be considered to ensure
+theformationofsingle-phasesolidsolutionnanoalloys.Moreover,
+Atomic size mismatch induces severe lattice distortion in computationalapproachessuchasdensityfunctionaltheory(DFT)
+HEA-NMs,disruptingperiodicstructuresandmodifyingthelocal and machine learning (ML) play an increasingly important role
+FrontiersinMaterials 02 frontiersin.org
+
+Chenet al. 10.3389/fmats.2025.1613997
+inelucidatingthemicroenvironmentofHEA-NMsandforecasting methods achieve heating rates exceeding 105 K/s, promoting
+interfacialreactions.Forinstance,Royetal.(2022)demonstratedthe atomic-scalemixingandpreventingphasesegregation(Figure 1d).
+useofMLalgorithmstoscreenhigh-entropyalloycatalystssuitable The resulting nanoparticles are ultrasmall, often below 5 nm,
+fortheselectivehydrogenationofCO tomethanol.Thesepredictive providing better atomic control. For instance, PtPdRhRuCe
+2
+toolsprovidevaluableinsightsfortherationaldesignofHEA-NMs HEA-NMs synthesized via carbothermal shock showed
+tailoredforspecificelectrocatalyticapplications. enhanced ammonia oxidation activity and phase stability
+(Yaoetal.,2018).
+3 Synthetic strategies of HEA-NMs for
+electrocatalysis 3.5 Wet-chemical synthesis
+The synthesis of HEA-NMs requires methods that ensure Co-reduction or polyol processes allow controlled nucleation
+compositional uniformity, structural tunability, and nanoscale and morphology tuning with scalability. These cost-effective
+stability. The main synthesis methods for HEA-NMs include five methodsaresurfactant-compatiblebutrequirecarefuloptimization
+representativestrategies. to prevent contamination. Wei et al. synthesized PtMoPdRhNi
+HEA-NMs exhibiting an ultralow overpotential of 9.7 mV
+at 10 mA cm−2 in the alkaline HER via this approach
+3.1 Mechanical alloying (Figure 1e)(Weietal.,2023).However,duringscale-up,variations
+innucleationandreductionratesoftenleadtoelementalsegregation
+This solid-state method uses high-energy ball milling to alloy andbroaderparticlesizedistributions.
+elemental powders through repeated cold welding and fracturing Each synthesis method for HEA-NMs has specific strengths
+(Figure 1a) (Mongella et al., 2025). It enables the formation of and limitations in atomic control, scalability, cost, and tunability.
+metastable solid solutions from even immiscible elements. Post- Mechanical alloying is inexpensive and scalable but lacks control
+annealing or cryomilling enhances grain refinement. Though over morphology and composition. Sputter co-deposition offers
+scalable and solvent-free, it often yields irregular or aggregated atomicprecision,suitedformechanisticstudies,thoughhighcost
+particleswithlimitedmorphologycontrol. andpoorscalabilitylimitbroaderuse.Electrochemicaldepositionis
+energy-efficientundermildconditions,butuniformco-deposition
+is difficult due to reduction potential differences. Ultrafast shock
+3.2 Sputter co-deposition synthesisrapidlyproducesultrafine,mixednanoparticlesbutneeds
+specializedequipmentandhaslimitedcompositionalcontrol.Wet-
+This technique allows atomic-level control by co-depositing chemicalsynthesisislow-costandflexiblebutpronetosegregation
+multiplemetalsontosubstrates(Figure 1b).Parameterslikepower and contamination. Thus, synthesis strategies should match the
+anddepositiontimetunesizeandcomposition.CrMnFeCoNiHEA- performanceandscalabilitydemandsofthetargetapplication.
+NMssynthesizedviaionicliquidassubstrateshowedexceptionally Despiteprogress,scalingHEA-NMsynthesisremainsdifficult.
+highelectrocatalyticactivityandphasestability(Löffleretal.,2018). During batch production, elemental segregation arises from
+This method is ideal for fabricating model electrocatalysts for differences in reduction kinetics and nucleation, especially in
+fundamentalstudies. wet-chemical and electrochemical methods. These approaches
+also struggle to maintain uniform particle size and composition.
+Phasecontrolisharderunderthermalandconcentrationgradients
+3.3 Electrochemical deposition at Gram scale. While mechanical alloying and ultrafast shock
+synthesisshowgram-scalepotential(e.g.,Yaoetal.,2018),industrial
+Electrochemical methods involve co-deposition of multiple adoption is limited by reproducibility, cost, and complexity.
+metal ions onto conductive substrates under applied potential Solving these issues is key to enabling HEA-NMs in practical
+(Figure 1c)(Bianetal.,2023).Thisstrategyenablesthedirectgrowth electrocatalyticsystems.
+of HEA-NMs with controllable thickness and crystallinity. It is
+energy-efficient, room-temperature, and easily scalable. However,
+4 Electrocatalytic applications of HEA
+achieving uniform deposition of elements with vastly different
+nanomaterials
+reduction potentials remains a challenge, often requiring pulse
+techniques or complexing agents to balance deposition kinetics.
+These issues become more pronounced during scale-up, with HEA-NMs, with high surface-to-volume ratios and
+reducedcontrolovercompositionandparticleuniformity. compositional complexity, offer abundant active sites, tunable
+intermediate adsorption, and robust structural stability. These
+characteristicsmakethemhighlypromisingforkeyelectrochemical
+3.4 Ultrafast shock synthesis reactions,includingHER,OER,ORR,CO RR,andNO RR,where
+2 3
+they often match or surpass the performance of state-of-the-art
+Ultrafast shock synthesis enables rapid formation of single or bimetallic catalysts in terms of overpotential, current
+HEA-NMs under non-equilibrium conditions, typically using density,Tafelslope,conversion,selectivity,anddurability(Table 1)
+carbothermal shock, Joule heating, or laser ablation. These (Haoetal.,2022;Wangetal.,2025).
+FrontiersinMaterials 03 frontiersin.org
+
+Chenet al. 10.3389/fmats.2025.1613997
+FIGURE1
+FivesynthesismethodsforHEA-NMs:(a)Mechanicalalloying(Mongellaetal.,2025);(b)Sputterco-deposition(Löffleretal.,2018);(c)Electrochemical
+deposition(Bianetal.,2023);(d)Ultrafastshockmethods(Yaoetal.,2018);and(e)Wetchemicalsynthesis(Weietal.,2023).
+4.1 HER and OER promoting 4e− pathways and enhanced kinetics. Many HEAs
+surpass Pt/C in mass activity, half-wave potential, and durability
+HEA-NMs enhance HER and OER via d-band modulation (Chen et al., 2023a). Their corrosion resistance and composition
+and atomic-level disorder, promoting water dissociation and flexibility allow operation across pH conditions and electrolytes
+intermediate adsorption (Wei et al., 2023). In HER, tuning ΔG H∗ (Xie et al., 2024a). HEA catalysts also deliver stable performance
+across heterogeneous sites improves both Volmer and Tafel steps acrossvariousloadings,supportingtheirintegrationintocathodes
+(Huang et al., 2024). In OER, a wide distribution of∗OOH forfuelcellsandmetal–airbatteries(Figure 2b).
+binding energies enables overpotential reduction and activity
+enhancement(Heetal.,2023).Theentropy-stabilizedstructureand
+“cocktail effect” contribute to long-term durability. HEA catalysts 4.3 CO RR
+2
+also maintain stable performance over a broad range of loadings,
+enabling integration into thin-film and porous electrodes for
+HEA-NMsofferdiverseactivesitesforkeyintermediatessuch
+practicalwaterelectrolysisapplications. as∗COOH,∗CO,and∗CHO,enablingtuningofadsorptionenergies
+and product selectivity (Ding et al., 2021; Nellaiappan et al.,
+2020). Stronger∗CO binding favors CH formation, while weaker
+4
+4.2 ORR binding promotes CO evolution. Multi-metallic surfaces facilitate
+simultaneous stabilization of intermediates and C–C coupling
+HEA-NMsimproveORRactivitybytuningelectronicstructures (Xingetal.,2025).Nanoscalefeatures,includinghighsurfacearea
+and∗OOHadsorptionthroughmulti-elementalloying(Zhaoetal., and short diffusion lengths, enhance conversion efficiency. HEA
+2024).Thedisorderedsurfaceprovidesarangeofbindingenergies, catalystsdemonstratelowoverpotentials,highcurrentdensities,and
+FrontiersinMaterials 04 frontiersin.org
+
+Chenet al. 10.3389/fmats.2025.1613997
+.stsylataccillatemibroelgnishtiwMN-AEHfoecnamrofrepnoitacilppaehtfonosirapmoC
+1ELBAT
+.feR
+setylortcelE
+ytilibalacS
+ytilibaruD
+ytivitceleS
+noisrevnoC
+ASCE
+]1−s[FOT
+lefaT
+tnerruC
+laitnetoprevO
+tsylataC
+noitcaeR
+]%[
+]%[
+noitazilamron
+epols
+ytisned
+]EHR.svV[
+]2−mc[
+Vm[
+Am[
+]1−ced
+]2-mc
+ssecorp(hgiH
+2-mc
+Am 052@h
+0503
+5.7675
+861.0
+2.25
+006
+841.0
+uRrCoCiNeF
+M 1/HOKM
+1
+)ytirutam
+)b4202(.lateeiX
+M 5.0+HOK
+—
+—
+lCaN
+—
+—
+—
+5.48
+—
+—
+C/tP
+ssecorp(hgiH
+63
+01
+210.0
+eF iN
+tP
+91
+72
+12
+)ytirutam
+C/
+uC
+oC
+)0202(.lateiL
+HOKM
+1
+—
+—
+—
+—
+—
+61
+71
+—
+89
+—
+—
+C/tP
+ssecorp(hgiH
+h 21
+2.1
+941
+01
+310.0
+iNnIaGoMdP
+REH
+)ytirutam
+)2202(.lateuF
+OSHM
+5.0
+—
+—
+—
+4
+2
+—
+—
+—
+1.581
+240.0
+C/dP
+—
+—
+—
+5.0
+6.721
+710.0
+C/tP
+.latedilahK
+HOKM
+1
+—
+2−mc
+Am 5.0@h
+01
+—
+—
+—
+78.3
+311
+01
+650.0
+OGR-uAuR
+)1202(
+)8102(.lateihC
+HOKM
+1
+—
+VC0001
+—
+—
+—
+—
+07
+01
+470.0
+CPN@xPuR
+2−mc
+Am 01@selcyc
+yrotarobal(woL
+85
+203.0
+uCiNoCeFrI
+)elacs
+.lateanaluaM
+HOKM
+1
+—
+—
+—
+—
+—
+01
+)3202(
+8.57
+253.0
+rI
+—
+8.38
+—
+oCrI
+REO
+muideM
+h 042
+8.67
+503.0
+rCoCiNeFnZ
+hgihseriuqer( erutarepmet
+)a5202(.lateiL
+HOKM
+1.0
+—
+—
+—
+—
+01
+)gnilaenna
+—
+—
+—
+823.0
+OuR 2
+)a5202(.lateiL
+HOKM
+1.0
+muideM
+VC000,2
+—
+—
+—
+—
+8.67
+—
+810.1
+rCoCiNeFnZ
+hgihseriuqer(
+2−mc
+Am 01@selcyc
+erutarepmet )gnilaenna
+RRO
+.latenehC
+HOKM
+1.0
+—
+s 002,1
+—
+—
+—
+—
+5.08
+—
+—
+CN/iNtP
+)b3202(
+)egapgniwollofehtnodeunitnoC(
+FrontiersinMaterials 05 frontiersin.org
+
+Chenet al. 10.3389/fmats.2025.1613997
+.stsylataccillatemibroelgnishtiwMN-AEHfoecnamrofrepnoitacilppaehtfonosirapmoC)deunitnoC(
+1ELBAT
+.feR
+setylortcelE
+ytilibalacS
+ytilibaruD
+ytivitceleS
+noisrevnoC
+ASCE
+]1−s[FOT
+lefaT
+tnerruC
+laitnetoprevO
+tsylataC
+noitcaeR
+]%[
+]%[
+noitazilamron
+epols
+ytisned
+]EHR.svV[
+]2−mc[
+Vm[
+Am[
+]1−ced
+]2-mc
+.latenappaialleN
+OSKM
+5.0
+ssecorp(hgiH
+h
+5
+—
+—
+—
+—
+—
+—
+3.0−
+uCdPtPgAuA
+4
+2
+)0202(
+)ytirutam
+ssecorp(hgiH
+431
+50.1
+C@lAuCnMiNoCeF
+RROC
+2
+)ytirutam
+1−g
+Am
+001@selcyc
+)4202(.lateiY
+OCiL
+—
+—
+—
+—
+—
+—
+3
+2
+—
+—
+05.1
+C@lAuC
+)5202(.lateuW
++L/N
+gm
+001
+ssecorp(hgiH
+%0.09@h
+021
+2.29
+2.09
+—
+—
+—
+—
+—
+uRuCiNoCeF
+OSaNM
+1.0
+)ytirutam
+etarnoisrevnoc
+C/5.1
+4
+2
+)5202(.latenehC
+L/N
+gm
+05
+ssecorp(hgiH
+selcyc5
+98
+1.19
+5.264
+—
+—
+—
+—
+CM@)nZ(uCiNoCeF
+OSaNM
+1.0+
+)ytirutam
+4
+2
+RRON
+3
+)b5202(.lateiL
+L/N
+gm
+54
+—
+selcyc6
+6.68
+95.39
+—
+—
+9.88
+—
+—
+iNeF
+OSaNM
+5.0+
+4
+2
+)2202(.lategnoS
+L/N
+gm
+05
+—
+selcyc01
+—
+3.48
+5.755
+—
+—
+—
+—
+-ATNT/uC
+OSaNM
+1.0+
+003
+4
+2
+FrontiersinMaterials 06 frontiersin.org
+
+Chenet al. 10.3389/fmats.2025.1613997
+FIGURE2
+ApplicationsofHEA-NMsinelectrocatalysis:(a)HER(Haoetal.,2022),(b)ORR(Zhaoetal.,2024;Chenetal.,2023a),(c)CO RR(Nellaiappanetal.,
+2
+2020),and(d)NO RR(Wuetal.,2025;Chenetal.,2025).
+3
+selectiveproductionofhydrocarbonsandalcohols,showingstrong high nitrate conversion and Faradaic efficiency (Figure 2d),
+potentialforCO utilizationinenergydevices(Figure 2c). confirmingtheirpromiseinwatertreatmentandammoniasynthesis
+2
+(Chenetal.,2025;Wuetal.,2025).
+4.4 NO RR
+3
+5 Support-enhanced electrocatalysis
+In NO RR, product selectivity (N , NH , NO −) depends on
+3 2 3 2 of HEA-NMs
+both thermodynamic and kinetic factors, including∗NO,∗NH ,
+2
+and∗Nadsorptionstrengths(Chenetal.,2025).Strong∗Nbinding
+favors NH , while weaker adsorption promotes N evolution. Toenhancedispersionandpreventaggregationofhigh-surface-
+3 2
+HEA-NMs offer tunable active sites that selectively stabilize energy HEA nanoparticles, HEA-NMs are commonly integrated
+intermediates like NO − and NH OH, enabling controlled with conductive supports such as graphene, carbon nanotubes
+2 2
+electron transfer and improved selectivity (Tang et al., 2024). (CNTs), and reduced graphene oxide (rGO). These supports
+Local pH affects∗NH desorption and catalyst durability. Cl−- offeranchoringsitesthatstabilizenanoparticles,promoteeffective
+3
+containing electrolytes can generate reactive chlorine species, charge transport, and improve electrochemical accessibility. For
+furtherenhancingnitrogenselectivitybysuppressingby-products example, FeCoNiIrRu HEAs supported on carbon nanofibers
+(Tokazhanovetal.,2020).OurFeCoNiCu-basedHEAsdemonstrate showed improved OER activity due to better dispersion and
+FrontiersinMaterials 07 frontiersin.org
+
+Chenet al. 10.3389/fmats.2025.1613997
+conductivity (Zhu et al., 2022). Mesoporous carbon-supported mechanistic effects, and electrocatalytic applications in key
+FeCoNiCu(Zn) HEAs exhibited enhanced NO RR performance, reactions such as HER, OER, ORR, CO RR, and NO RR. While
+3 2 3
+attributed to the accelerated mass transfer and intermediate the compositional complexity of HEA-NMs enables tunable
+confinementenabledbytheporousarchitecture(Chenetal.,2025). catalytic properties and superior stability, it also poses challenges
+Beyond conductivity, interfacial charge transfer also plays in achieving controlled synthesis and understanding dynamic
+a crucial role. Ling et al. (2025) demonstrated that rGO reactionmechanisms.Futureresearchshouldintegrateatomic-scale
+anchoring induced d-band modulation in FeCoNiCuSn HEAs, structuraldesign,insitu/operandocharacterization,andmachine-
+facilitating NO RR. Similarly, MXene-based Pt-doped HEAs learning-guidedscreeningtoacceleraterationalcatalystdiscovery
+3
+exhibited enhanced HER activity through orbital hybridization and advance HEA-NMs for clean energy and environmental
+withhydrogen(Shuetal.,2024). technologies.
+Hydrophobic/hydrophilic tailoring of the support surface
+can further modulate gas–liquid–solid interfaces. For instance,
+controlling the hydrophobicity of a Co–Cu–Mo–Pd–Re catalyst Author contributions
+layer enabled high-current HER by preventing H bubble
+2
+accumulation(Wangetal.,2024). JC: Investigation, Writing – original draft. AW: Writing –
+original draft, Investigation. YZ: Investigation, Writing – original
+draft. YX: Investigation, Writing – original draft. HZ: Writing –
+6 Challenges and prospects review and editing, Project administration, Funding acquisition.
+WT: Writing – review and editing, Conceptualization, Funding
+(1) Scalable and controllable synthesis: The scalable synthesis acquisition.
+of phase-pure HEA-NMs remains challenging due to
+compositional deviation, particle size heterogeneity, and
+environmental risks such as metal leaching. Higher catalyst Funding
+loadings can induce interfacial stress and detachment in
+practical electrolyzers. Recovery strategies using green The author(s) declare that financial support was received
+separation techniques should be developed to enable for the research and/or publication of this article. This work
+sustainableapplication. was supported by National Key Research and Development
+(2) Mechanisticunderstandingofcatalyticprocesses:Thecomplex Program of China (2023YFC3700051), the Shanghai Science
+interactions among diverse active sites and their dynamic and Technology Plan Project (No. 23ZR1467000), Basic
+evolution during reactions remain poorly understood. In-situ Research Project of Tongji University (No. 22120240354),
+andoperandotechniques,suchasX-rayabsorptionspectroscopy, and National Natural Science Foundation of China
+Raman, and TEM, combined with density functional (No.21976134).
+theory (DFT), are essential for elucidating structure–activity
+relationshipsandguidingrationalcatalystdesign.
+(3) Data-driven optimization: The vast compositional space Conflict of interest
+of HEA-NMs renders traditional screening inefficient.
+Integrating machine learning and high-throughput The authors declare that the research was conducted in the
+computation can accelerate catalyst discovery by predicting absenceofanycommercialorfinancialrelationshipsthatcouldbe
+optimal compositions and identifying key performance construedasapotentialconflictofinterest.
+descriptors,enablingtargeteddesignofHEA-NMsforspecific
+electrochemicalreactions.
+(4) Sustainability and Material Lifecycle: The long-term Generative AI statement
+application of HEA-NMs requires attention to sustainability.
+Manysystemsstillrelyonnoblemetals(e.g.,Pt,Pd,Ru),raising The author(s) declare that no Generative AI was used in the
+costandsupplyconcerns.Recenteffortstowardnoble-metal- creationofthismanuscript.
+freeHEAsusingFe,Co,Ni,orCushowpromise.End-of-life
+recovery,recyclability,andlifecycleimpactassessmentsremain
+underexplored and should be integrated into future HEA Publisher’s note
+catalystdevelopmentstrategies.
+All claims expressed in this article are solely those of the
+authors and do not necessarily represent those of their affiliated
+7 Conclusion
+organizations, or those of the publisher, the editors and the
+reviewers.Anyproductthatmaybeevaluatedinthisarticle,orclaim
+Thismini-reviewsummarizesrecentadvancesinhigh-entropy thatmaybemadebyitsmanufacturer,isnotguaranteedorendorsed
+alloy nanomaterials (HEA-NMs), focusing on their synthesis, bythepublisher.
+FrontiersinMaterials 08 frontiersin.org
+
+Chenet al. 10.3389/fmats.2025.1613997
+References
+Bian,H.W.,Wang,R.,Zhang,K.Z.,Zheng,H.L.,Wen,M.J.,Li,Z.M.,etal. entropyaggregatesformethanolwaterco-electrocatalysis.J.Mater.Chem.A12(44),
+(2023).Facileelectrodepositionsynthesisandsuperperformanceofnano-porousNi- 30757–30767.doi:10.1039/d4ta06304j
+Fe-Cu-Co-Whighentropyalloyelectrocatalyst.Surf.CoatingsTechnol.459,129407.
+Löffler,T.,Meyer,H.,Savan,A.,Wilde,P.,Manjón,A.G.,Chen,Y.-T.,etal.(2018).
+doi:10.1016/j.surfcoat.2023.129407
+Discoveryofamultinarynoblemetal–freeoxygenreductioncatalyst.Adv.Energy
+Chen,J.Y.,Wu,A.N.,Hong,C.Y.,Zhang,R.Y.,Zheng,H.,andTeng,W.(2025). Mater.8(34),1802269.doi:10.1002/aenm.201802269
+Mediumentropyalloynanoparticlesincorporatedinorderedmesoporouscarbonsfor
+Maulana,A.L.,Chen,P.-C.,Yang,Z.,Lizandara-Pueyo,Y.,Seeler,C.,Abruña,F.,
+enhancedelectrocatalyticnitrate-to-ammoniaconversion.J.Environ.Chem.Eng.13(1),
+et al. (2023). Understanding the structural evolution of IrFeCoNiCu high-entropy
+115047.doi:10.1016/j.jece.2024.115047
+alloynanoparticlesundertheacidicoxygenevolutionreaction.NanoLett.23(14),
+Chen, T., Qiu, C. Y., Zhang, X. K., Wang, H. C., Song, J., Zhang, K., et al. 6637–6644.doi:10.1021/acs.nanolett.3c01831
+(2023a).Anultrasmallorderedhigh-entropyintermetallicwithmultipleactivesites
+Mongella,G.M.,Im,T.,Kim,M.,andLee,C.S.(2025).Reactionkineticsstudy
+fortheoxygenreductionreaction.J.Am.Chem.Soc.146(1),1174–1184.doi:10.1021/
+ofhydrogenreductionofhighenergymilledCoCrFeNihigh-entropyalloy(HEA).J.
+jacs.3c12649
+Mater.Res.Technol.35,5591–5599.doi:10.1016/j.jmrt.2025.02.196
+Chen,X.,Guo,J.,Liu,J.,Luo,Z.,Zhang,X.,Qian,D.,etal.(2023b).Nanostructure
+Nellaiappan,S.,Katiyar,N.K.,Kumar,R.,Parui,A.,Malviya,K.D.,Pradeep,K.
+engineeringandelectronicmodulationofaPtNialloycatalystforenhancedoxygen
+G., et al. (2020). High-entropy alloys as catalysts for the CO and CO reduction
+reductionelectrocatalysisinZinc–airbatteries.J.Phys.Chem.Lett.14(7),1740–1747. 2
+reactions: experimental realization. Acs Catal. 10 (6), 3658–3663. doi:10.1021/
+doi:10.1021/acs.jpclett.2c03835
+acscatal.9b04302
+Chi, J.-Q., Lin, W.-K., Dong, J.-H., Yan, B., Qin, K.-L., Liu, J.-F., et al. (2018).
+Roy,D.,Mandal,S.C.,andPathak,B.(2022).Machinelearningassistedexploration
+Hydrogenevolutionactivityofrutheniumphosphidesencapsulatedinnitrogen-and
+ofhighentropyalloy-basedcatalystsforselectiveCO reductiontomethanol.J.Phys.
+phosphorous-codopedhollowcarbonnanospheres.ChemSusChem11(4),743–752. 2
+Chem.Lett.13(25),5991–6002.doi:10.1021/acs.jpclett.2c00929
+doi:10.1002/cssc.201702010
+Serov,A.(2022).Nickelcatalystsforaffordablefuelcells.Nat.Catal.5(11),971–972.
+Ding,T.L.,Liu,Z.,Chen,T.,Zhang,T.,Shen,W.,Liu,X.,etal.(2021).Atomically
+doi:10.1038/s41929-022-00872-6
+precisedinuclearsiteactivetowardelectrocatalyticCO reduction.J.Am.Chem.Soc.
+2
+143(30),11317–11324.doi:10.1021/jacs.1c05754 Shaikh,J.S.,Rittiruam,M.,Saelee,T.,Márquez,V.,Shaikh,N.S.,Khajondetchairit,
+P.,etal.(2024).First-principlesandexperimentalinsightofhigh-entropymaterials
+Fu,X.,Zhang,J.,Xia,S.,Wang,F.,Ma,C.,Yue,D.,etal.(2022).High-entropy
+as electrocatalysts for energy-related applications: hydrogen evolution, oxygen
+alloynanosheetsforfine-tuninghydrogenevolution.ACSCatal.12(19),11955–11959.
+evolution,andoxygenreductionreactions.Mater.Sci.Eng.R-Reports160,100813.
+doi:10.1021/acscatal.2c02778
+doi:10.1016/j.mser.2024.100813
+Gandionco,K.A.,Kim,J.,Bekaert,L.,Hubin,A.,andLim,J.(2024).Single-atom
+Shu,Z.,Shi,Z.,Ng,M.-F.,Tan,T.L.,andCai,Y.(2024).Unveilingtheeffectofsolvent
+catalystsfortheelectrochemicalreductionofcarbondioxideintohydrocarbonsand
+forhydrogenevolutioninPt-dopedMXenesandcorrespondinghigh-entropyphase.
+oxygenates.CarbonEnergy6(3).doi:10.1002/cey2.410
+Mater.TodaySustain.26,100808.doi:10.1016/j.mtsust.2024.100808
+Hao,J.C.,Zhuang,Z.C.,Cao,K.C.,Gao,G.H.,Wang,C.,Lai,F.L.,etal.(2022).
+Song, Q., Zhang, S., Hou, X., Li, J., Yang, L., Liu, X., et al. (2022). Efficient
+Unravelingtheelectronegativity-dominatedintermediateadsorptiononhigh-entropy
+electrocatalytic nitrate reduction via boosting oxygen vacancies of TiO nanotube
+alloyelectrocatalysts.Nat.Commun.13(1),2662.doi:10.1038/s41467-022-30379-4 2
+array by highly dispersed trace Cu doping. J. Hazard. Mater. 438, 129455.
+He,R.,Yang,L.L.,Zhang,Y.,Jiang,D.,Lee,S.,Horta,S.,etal.(2023).A3d-4d-5d doi:10.1016/j.jhazmat.2022.129455
+highentropyalloyasabifunctionaloxygencatalystforrobustaqueouszinc-airbatteries.
+Tang,S.S.,Xie,M.H.,Yu,S.R.,Zhan,X.,Wei,R.L.,Wang,M.Y.,etal.(2024).General
+Adv.Mater.35(46),e2303719.doi:10.1002/adma.202303719
+synthesisofhigh-entropysingle-atomnanocagesforelectrosynthesisofammoniafrom
+Huang, K., Cao, X., Lu, Y., Xiu, M. Z., Cui, K., Zhang, B. W., et al. (2024). nitrate.Nat.Commun.15(1),6932.doi:10.1038/s41467-024-51112-3
+Lattice-disordered high-entropy alloy engineered by thermal dezincification for
+Tokazhanov, G., Ramazanova, E., Hamid, S., Bae, S., and Lee, W. (2020).
+improved catalytic hydrogen evolution reaction. Adv. Mater. 36 (32), e2304867.
+Advancesinthecatalyticreductionofnitratebymetalliccatalystsforhighefficiency
+doi:10.1002/adma.202304867
+and N selectivity: a review. Chem. Eng. J. 384, 123252. doi:10.1016/j.cej.2019.
+2
+Kamaruddin,H.,Zhang,J.H.,Liang,Y.,Wei,Y.F.,andHuang,Y.Z.(2024).Areview 123252
+ofnoblemetal-freehighentropyalloysforwatersplittingapplications.J.Mater.Chem.
+Wang,C.,Wang,Y.,Xiong,Y.,Hao,F.,Liu,F.,Guo,L.,etal.(2025).Tailoredhigh-
+A12(17),9933–9961.doi:10.1039/d4ta00690a
+entropyalloynanomaterialsforelectrocatalyticapplications.EnergyChem7(3),100155.
+Khalid,M.,Zarate,X.,Saavedra-Torres,M.,Schott,E.,MariaBorgesHonorato,A., doi:10.1016/j.enchem.2025.100155
+RafeHatshan,M.,etal.(2021).Electro-reducedgrapheneoxidenanosheetscoupled
+Wang, K. X., Wang, G. Q., Liu, Y., Cai, Q. Q., Chen, X., Zhang, L., et al.
+withRuAubimetallicnanoparticlesforefficienthydrogenevolutionelectrocatalysis.
+(2024).Regulationofelectrocatalyticpropertiesofhighentropyalloyelectrocatalysts
+Chem.Eng.J.421,129987.doi:10.1016/j.cej.2021.129987
+for the oxygen evolution reaction. J. Mater. Chem. A 12 (43), 29311–29334.
+Lee,S.A.,Bu,J.W.,Lee,J.W.,andJang,H.W.(2023).High-entropynanomaterials doi:10.1039/d4ta04984e
+foradvancedelectrocatalysis.SmallSci.3(5),2200109.doi:10.1002/smsc.202200109
+Wang, X., Cechanaviciute, I. A., Banko, L., Pokharel, S., Quast, T., Ludwig, A.,
+Li,H.,Han,Y.,Qi,W.,Zhang,D.,Yu,Y.,Cai,W.,etal.(2020).Fastsite-to-site etal.(2024).FromquinaryCo–Cu–Mo–Pd–Re materialslibrariestogasdiffusion
+electrontransferofhigh-entropyalloynanocatalystdrivingredoxelectrocatalysis.Nat. electrodes for alkaline hydrogen evolution. Adv. Funct. Mater. 34 (33), 2400180.
+Commun.11(1),5437.doi:10.1038/s41467-020-19277-9 doi:10.1002/adfm.202400180
+Li,J.,Li,P.-T.,Zhang,N.,andShang,H.-S.(2025a).AZnFeNiCoCrhigh-entropy Wei,M.,Sun,Y.Y.,Zhang,J.Y.,Ai,F.,Xi,S.B.,andWang,J.K.(2023).High-
+alloyforefficientbifunctionaloxygenelectrocatalysis.RareMet.44(3),1789–1799. entropyalloynanocrystalassembledbynanosheetswithd-delectroninteractionfor
+doi:10.1007/s12598-024-03079-9 hydrogen evolution reaction. Energy Environ. Sci. 16 (9), 4009–4019. doi:10.1039/
+d3ee01929b
+Li,L.,Guo,P.,Zhang,Q.,Mao,D.,Sun,Q.,Liu,M.,etal.(2025b).Insituformation
+of FeNi nanoparticles on polypyrrole hydrogel for efficient electrocatalytic nitrate Wu, A., Hong, C., Zheng, H., and Teng, W. (2025). Multi-site synergistic relay
+reductiontoammonia.Molecules30(6),1271.doi:10.3390/molecules30061271 electrocatalysis with high-entropy nanoalloys for effective nitrate reduction to
+ammonia.Chin.Chem.Lett.,111066.doi:10.1016/j.cclet.2025.111066
+Li,M.G.,Lin,F.X.,Zhang,S.P.,Zhao,R.,Tao,L.,Li,L.,etal.(2024a).High-
+entropy alloy electrocatalysts go to (sub-)nanoscale. Sci. Adv. 10 (23), eadn2877. Xie, M. K., Xiao, X., Wu, D. J., Zhen, C., Wu, C. S., Wang, W. J., et al.
+doi:10.1126/sciadv.adn2877 (2024a).MOF-mediatedsynthesisofnovelPtFeCoNiMnhigh-entropynano-alloyas
+bifunctionaloxygenelectrocatalystsforzinc-airbattery.NanoRes.17(6),5288–5297.
+Li, Y. J., Yao, Z. P., Gao, W. P., Shang, W., Deng, T., and Wu, J. B. (2024b).
+doi:10.1007/s12274-024-6526-4
+Nanoscale design for high entropyalloy electrocatalysts. Small 20 (21), e2310006.
+doi:10.1002/smll.202310006 Xie,Y.C.,Xu,S.C.,Meng,A.C.,Zheng,B.J.D.,Chen,Z.R.,Tour,J.M.,etal.(2024b).
+Laser-induced high-entropy alloys as long-duration bifunctional electrocatalysts
+Ling,Y.,Zheng,Su,X.,Zhang,H.,Zou,Y.,Liu,Z.,etal.(2025).Microwave-assisted
+for seawater splitting. Energy Environ. Sci. 17 (22), 8670–8682. doi:10.1039/
+fabricationofaself-supportedgraphene-basedhigh-entropyalloyelectrodeforefficient
+d4ee01093k
+andstableelectrocatalyticnitratereductiontoammonia.Inorg.Chem.Front.12(2),
+682–691.doi:10.1039/d4qi02881c Xing,R.,Wang,X.,Wang,G.,Lu,Z.,Yang,X.,Wang,H.,etal.(2025).Non-precious
+metalhigh-entropyalloysforCO electroreduction.Nanoscale17(15),9374–9379.
+Liu,S.J.,Wei,Y.,Wang,M.K.,andShen,Y.(2025).Thefutureofalkalinewater 2
+doi:10.1039/D5NR00260E
+splittingfromtheperspectiveofelectrocatalysts-seizingtoday’sopportunities.Coord.
+Chem.Rev.522,216190.doi:10.1016/j.ccr.2024.216190 Yao,Y.G.,Huang,Z.N.,Xie,P.F.,Lacey,S.D.,Jacob,R.J.,Xie,H.,etal.(2018).
+Carbothermalshocksynthesisofhigh-entropy-alloynanoparticles.Science359(6383),
+Liu, Y. X., Ding, W. H., Liu, J. X., Zhao, G. Z., Li, W. Y., and Liu, Y. Q.
+1489–1494.doi:10.1126/science.aan5412
+(2024). Electrochemical synthesis of wormcast-like Pd-based polycrystalline high
+FrontiersinMaterials 09 frontiersin.org
+
+Chenet al. 10.3389/fmats.2025.1613997
+Yeh, J.-W., Chen, S.-K., Lin, S.-J., Gan, J.-Y., Chin, T.-S., Shun, T.-T., et al. Zhao,X.R.,Cheng,H.,Chen,X.B.,Zhang,Q.,Li,C.Z.,Xie,J.,etal.(2024).
+(2004). Nanostructured high-entropy alloys with multiple principal elements: Multiple metal-nitrogen bonds synergistically boosting the activity and durability
+novel alloy design concepts and outcomes. Adv. Eng. Mater. 6 (5), 299–303. of high-entropy alloy electrocatalysts. J. Am. Chem. Soc. 146 (5), 3010–3022.
+doi:10.1002/adem.200300567 doi:10.1021/jacs.3c08177
+Yi, J., Deng, Q., Cheng, H., Zhu, D., Zhang, K., and Yang, Y. (2024). Unique Zhu, H., Zhu, Z., Sun, J., Wang, S., Ma, C., Dong, W., et al.
+hierarchically structured high-entropy alloys with multiple adsorption sites (2022). High-entropy alloy stabilized active Ir for highly efficient
+for rechargeable Li–CO batteries with high capacity. Small 20, 2401146. acidic oxygen evolution. Chem. Eng. J. 431, 133251. doi:10.1016/j.cej.
+2
+doi:10.1002/smll.202401146 2021.133251
+FrontiersinMaterials 10 frontiersin.org
+

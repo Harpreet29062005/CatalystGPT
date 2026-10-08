@@ -1,0 +1,390 @@
+REVIEW
+published:24July2018
+doi:10.3389/fmats.2018.00042
+On Lattice Distortion in High Entropy
+Alloys
+QuanfengHe* andYongYang*
+DepartmentofMechanicalEngineering,CentreforAdvancedStructuralMaterials,CityUniversityofHongKong,Kowloon
+Tong,HongKong
+Latticedistortioninhighentropyalloys(HEAs)isanissueoffundamentalimportancebut
+yettobefullyunderstood.Inthisarticle,wefirstfocusontherecentresearchdedicated
+to lattice distortion in HEAs with an emphasis on the basic understanding derived from
+theoretical modeling and atomistic simulations. After that, we discuss the implications
+of the recent research findings on lattice distortion, which can be related to the phase
+transformation,dislocationdynamicsandyieldinginHEAs.
+Keywords:highentropyalloy,latticedistortion,theoreticalmodeling,firstprinciplescalculation,solidsolution
+strengthening
+INTRODUCTION
+Editedby: Sincefirstproposedin2004,highentropyalloys(HEAs)ormulticomponentcomplexalloys,which
+ShengGuo, comprise at least five different elements in an equal or near-equal atomic fraction, have been
+ChalmersUniversityofTechnology, attracting a great deal of research interest (Cantor et al., 2004; Yeh et al., 2004; Ye et al., 2016b;
+Sweden Miracle and Senkov, 2017). Many attractive mechanical and physical properties were reported
+Reviewedby: fromvariousHEAs,suchasthecombinedhighstrengthandductilityfromCoCrFeMnNi(Lietal.,
+FuyangTian, 2016),theexceptionaldamagetolerancefromCoCrNiandCoCrFeMnNiatcryogenictemperatures
+UniversityofScienceandTechnology (Gludovatz et al., 2014, 2016; Zhang et al., 2015b), high ion irradiation resistance (Zhang et al.,
+Beijing,China
+2015a; Yang et al., 2016), and the superb specific hardness from Al Li Mg Sc Ti (Youssef
+20 20 10 20 30
+FuxiangZhang,
+etal.,2015).Atthefundamentallevel,thesepromisingpropertiescouldbeattributedtotheunique
+OakRidgeNationalLaboratory(DOE),
+local atomicstructureof HEAs. Due tothemixing of differentsized elementsina concentrated
+UnitedStates
+solution,itwasoncespeculatedthattheconstituentatomsinHEAswillbedisplacedawayfrom
+*Correspondence:
+the ideal lattice sites, resulting in an atomic scale distorted lattice or an intrinsic elastic residual
+QuanfengHe
+quanfenhe2-c@my.cityu.edu.hk stressfieldwhichfluctuatesfromoneatomtoanother.Asaresult,locallatticedistortionwillraise
+YongYang theenergybarrieragainstdislocationmovement,givingrisetosolid-solutiontypedstrengthening
+yonyang@cityu.edu.hk inHEAs(Cižeketal.,1974;GypenandDeruyttere,1977;Maetal.,2015).Likewise,locallattice
+distortionmayalsocausesluggishatomdiffusion,therebypromotingthethermodynamicstability
+Specialtysection: ofHEAs.Inspiteofthefundamentalimportance,however,latticedistortioninHEAsstillremains
+Thisarticlewassubmittedto asanopenissue,yettobefullyunderstood(PickeringandJones,2016;MiracleandSenkov,2017).
+StructuralMaterials,
+To validate the idea about lattice distortion, a number of experiments were proposed
+asectionofthejournal
+to characterize lattice distortion in HEAs (Yeh et al., 2007; Guo et al., 2013; Tsai and
+FrontiersinMaterials
+Yeh, 2014; Yeh, 2015; Owen et al., 2017; Tong et al., 2017). At the first attempt, X-Ray
+Received:10April2018
+diffraction was used as the means of characterization (Yeh et al., 2007; Tsai and Yeh,
+Accepted:04July2018
+2014; Yeh, 2015) with the basic assumption that large lattice distortion would reduce the
+Published:24July2018
+intensity of diffraction peaks. Although it was shown experimentally that the diffraction peak
+Citation:
+intensities did decrease with the increasing number of constituent elements in particular
+HeQandYangY(2018)OnLattice
+HEAs (Yeh et al., 2007; Tsai and Yeh, 2014; Yeh, 2015), the proof of lattice distortion
+DistortioninHighEntropyAlloys.
+Front.Mater.5:42. so obtained was later disputed because of the confounding effects from thermal vibration
+doi:10.3389/fmats.2018.00042 and crystallographic texture on the diffraction peak intensity (Pickering and Jones, 2016).
+FrontiersinMaterials|www.frontiersin.org 1 July2018|Volume5|Article42
+
+HeandYang OnLatticeDistortioninHighEntropyAlloys
+Highresolutiontransmissionelectronmicroscopy(HRTEM)was treating their constituent atoms as soft or deformable spheres
+also utilized to characterize lattice distortion (Zou et al., 2014). which could be stretched out or squeezed in a common lattice
+However, one should be cautious about the interpretation of in order to reach a uniform packing efficiency (Ye et al., 2015,
+a HRTEM image because a curved atomic plane on it may 2016a).Asaresult,alocalvolumetricstrainfieldarisesduetothe
+not be associated with lattice distortion, which could be also changeoftheatomsize.Recently,Yeetal.refinedthegeometric
+caused by a strain field around crystalline defects, such as modelbytakingaccountofatomicdisplacement(Yeetal.,2018).
+dislocations.Recently,Owenetal.systematicallystudiedlattice Inthisnewmodel,bothvolumetricandshearstrainsarederived
+distortion in Ni, CrNi, CoCrNi, and CoCrFeMnNi through and the model predictions agree quite well with the results of
+neutrondiffraction(Owenetal.,2017).Althoughitwasshown the first principles calculations. In this work, we would like to
+thatthelatticestraininCoCrFeMnNiislargerthaninpureNi, provideabriefoverviewoftherecentadvancementwithrespect
+however,themagnitudeofthelatticestrainisnotsignificantand to our understanding of lattice distortion in HEAs and discuss
+similar to that in CrNi and CoCrNi. Similarly, Tong et al. also theimplicationsoftheseresearchfindings.
+carriedoutaquantitativelyanalysisofthelocallatticedistortion
+in CoCrFeNi, CoCrFeMnNi, CoCrFeNiPd HEAs using the X- DISCUSSION
+raytotalscatteringandextendedX-rayabsorptionfinestructure
+Hard Sphere Model
+methods (Tong et al., 2017). According to Tong et al. (Tong
+etal.,2017),thelatticedistortioninCoCrFeNiandCoCrFeMnNi IntheearlyHEAliterature,theideaof“severelydistortedlattice”
+is very small but becomes larger in CoCrFeNiPd owing to the was proposed as one of the “four core effects” for HEAs (Yeh,
+relatively large size of Pd. Besides, Guo et al. characterized the 2015;Macdonaldetal.,2017).Thisideamayberootedintothe
+localatomicstructureofZrNbHfusinghigh-energysynchrotron hardspheremodel,asschematicallyshowninFigure1,i.e.,ifall
+X-rayandneutronscattering.Interestingly,theyfoundthatthe constituentelementskeeptheiroriginalsizeandareforcedinto
+ZrNbHflatticeisstronglydistorted(Guoetal.,2013). acommonlattice,aseverelydistortedlatticemayresultifalarge
+Apartfromtheaboveexperimentalefforts,anumberoflattice atom size difference is present. To characterize such an atomic
+distortion models (Zhang et al., 2008; Ye et al., 2015, 2016a, sizeeffectinHEAs,Zhangetal.proposedtousethefollowingδ
+2018) were also developed either on a semi-empirical basis or parameter(Zhangetal.,2008):
+inthelightofatomisticsimulations(Toda-Caraballoetal.,2015;
+Ohetal.,2016;Yeetal.,2018)andabinitiocalculations(Song n 2
+n
+etal.,2017).Inconventionalalloysordilutesolidsolution,lattice δ c 1 r/ cr (1)
+i i j j
+=v − j 1
+distortionandtheresultantresidualstrainfieldcanbederivedby ui 1 (cid:18) = (cid:19)
+uX= X
+treating solute atoms as “inclusions” embedded into a “matrix” t
+madeupofsolventatoms(Eshelby,1956,1957,1959).However, inwhichc i istheatomicfractionofelementi,r i theatomicradius
+thisapproachfindsdifficultieswhenitisappliedtoHEAsasthere of element i and n the total number of constituent elements.
+isnocleardistinctionbetweensolutesandsolvents.Asthefirst Later,theδparameterwaswidelyacceptedasoneoftheempirical
+attempt, Zhang et al. proposed to use an atomic size difference parameterstoguidethedesignofHEAsbecauseoftheapparently
+parameterδ tocharacterizelatticedistortioninHEAs,although good correlation between the value of the δ parameter and the
+onlyonaqualitativebasis(Zhangetal.,2008).Intheory,Zhang’s general character of the phases formed in HEAs (Zhang et al.,
+proposalisbasedonthenotionofthehardspheremodelinwhich 2008;GuoandLiu,2011;Yeetal.,2016b;Heetal.,2017),seen
+theatomicsizeoftheconstituentelementsremainstobeconstant Figure2. However, the δ parameter fails when it comes to an
+during alloying. Alternatively, Ye et al. developed a geometric accurateestimationoflocallatticedistortions.Accordingtothe
+model to account for the intrinsic residual strains in HEAs by simulation work of Song et al. (2017), the δ parameter tends
+FIGURE1|Theillustrationsof(A)aperfectBCClatticeinpuremetalsand(B)adistortedBCClatticeinmulticomponentalloys.
+FrontiersinMaterials|www.frontiersin.org 2 July2018|Volume5|Article42
+
+HeandYang OnLatticeDistortioninHighEntropyAlloys
+derivedas:
+n j 1 ω ij c j 4πη
+ε i = n = A c − N n ¯ A c (2)
+Pk 1 ik k i k 1 ik k
+= =
+P P
+whereω isthesolidanglesubtendedbyanatomjaroundatom
+ij
+i,c theatomicfractionofelementi,N thecoordinatenumber
+i i
+of atom i and A =
+2πxij
+where x =r/r . Since the
+ij (xij+ 1)2√xij (xij+ 2
+n
+) ij i j
+average volumetric strain ε cε 0, the local residual
+j j
+h i = =
+j 1
+=
+strain fluctuation can be quantifi P ed as ε = cε2, where
+RMS i i
+ε istheroot-mean-squareresidualstrainandscaleswiththe
+RMS pP
+density of the elastic strain energy storage. Theoretically, it can
+be proved that the lattice of FCC alloys becomes unstable and
+could turn into an amorphous structure by fully relaxing the
+storedelasticenergyif ε2 1/12orintoanothercrystalline
+≥
+FIGURE2|Theatomsizedifferenceparameterδvs.themixingenthalpy
+lattice by partially relaxqin
+(cid:10)
+g
+(cid:11)
+the stored elastic energy if 1/12 >
+1Hmixforavarietyofas-castHEAswithdifferentphases. ε2 0.059. Through the analyses of hundreds of HEAs,
+≥
+qYe et al. found that single phase solid solution HEAs tend to
+(cid:10) (cid:11)
+form for ε < 5%, multi-phase HEAs to form for 5% <
+RMS
+to overestimate the lattice distortion in refractory HEAs while ε RMS < 10% while amorphous alloys to for ε RMS > 10% (see
+underestimate those in HEAs with 3d valence electrons. This Figure4),whichagreesfairlywellwiththetheory.Interestingly,
+may be partly due to the empirical nature of the δ parameter. it was also found that ε RMS is correlated very well with the
+Nevertheless, when it comes to ranking different HEAs, it is δ parameter, as seen in Figure5, which may explain why the
+somewhatasurprisethattheδ parameterperformsverywellas δ parameter is so useful in alloy ranking despite its empirical
+itisgenerallycorrelatedwiththeHEAalloysofdifferentphases nature.
+(seeFigure2). In the soft sphere model developed by Ye et al. (2015),
+only atomic size change is considered by assuming that the
+Soft Sphere Model individualatomssitexactlyonanideallattice.Next,thequestion
+In principle, atoms in alloys are deformable in the sense that iswhatifweallowtheatomstomovefromtheiridealposition.
+charge can transfer among the constituent atoms, leading to This atom movement is a reflection of lattice distortion, as
+the change in their atomic radii (Magnaterra and Mezzetti, shown in Figure1B, which could generate both shear and
+1971) and therefore the residual strain field inside the alloys. dilatational strains, therefore raising the total elastic energy by
+On a phenomenological basis, such a residual strain field in an amount 1E ; however, the same atom movement could
+1
+conventional alloys can be derived with the classic mean field also release part of the elastic energy caused by the atomic
+model (Eshelby, 1956, 1957, 1959). According to the mean size change as previously discussed, say, by 1E , as seen in
+2
+field approach, residual strains result after “forcing” a solute Figure3B. Physically, one can reason that lattice distortion
+atom into a homogeneous elastic “matrix” made up of solvent becomes generically favorable if 1E < 1E or unfavorable
+1 2
+atoms. However, this mean field approach is not applicable if 1E > 1E . To validate the above thinking, Ye et al.
+1 2
+directly to HEAs because of the lack of a clear distinction very recently carried out extensive density functional theory
+between solute and solvent atoms in them. Different from the (DFT)calculationsonaseriesofequal-molarbinarytoquinary
+classic mean field approach, Ye et al. proposed that different chemical complex alloys (Ye et al., 2018). An ideal FCC
+sized atoms should be stretched or squeezed into the lattice latticewithoutdistortionwasfirstlyconstructedbyallowingthe
+of HEAs in order to achieve a uniform packing efficiency, atoms to expand or contract in order to reach a local energy
+as illustrated in Figure3A. As a result, there is a change in minimum. This lattice is designated as the pristine lattice and
+the atomic radii of the constituent elements relative to their serves as a reference to study lattice distortion. After that, the
+original sizes, leading to a volumetric residual strain field. This “pristine”latticewasallowedtofurtherrelaxthroughtheatomic
+physical picture differs fundamentally from the hard sphere displacement, leading to a distorted lattice as schematically
+model (Figure1). According to Ye et al. (2015), the lattice shown in Figure3B. Figure6 displays the simulated atomic
+in HEAs is not distorted but well behaved as implied by the structureoftheCoCrFeNialloybeforeandafterlatticedistortion.
+sharp diffraction peaks exhibited by HEAs. However, residual As indicate by the red arrows in Figures6A,B, the “pristine”
+volumetric strains are developed because of the change in the lattice exhibit a well-defined FCC structure while notable local
+atomic radii even through the average residual strain is about atomic-scale distortions can be seen in the distorted lattice
+zero.Assumingthattheoverallpackingefficiencyofanalloyis (Figure6B). To quantify the local lattice distortion, the strain
+η,theradialresidualstrainε surroundingtheithelementcanbe tensors at each atomic site can be calculated via the atomic
+i
+FrontiersinMaterials|www.frontiersin.org 3 July2018|Volume5|Article42
+
+HeandYang OnLatticeDistortioninHighEntropyAlloys
+FIGURE3|Theschematicsof(A)closepackedatomsinawell-definedlatticewithvolumetricstrain(B)closepackedatomsinadistortedlatticewithvolumetricand
+shearstrains.Notethatthecolorballsrepresenttheoriginalconstituentatomswhilethedashedcirclesdonatetheprofileofatomswithresidualstrains.
+obtain 1E =3(C 2C ) ε 2 3(C C )γ2 and
+1 2 11 + 12 R∗MS + 4 11 − 12
+1E =3(C 2C )(ε )2,inwhichε andε represent
+2 2 11 + 12 RMS (cid:0) (cid:1) R∗MS RMS
+theroot-mean-squareresidualstraininthedistortedandpristine
+lattice respectively. In theory, lattice distortion is energetically
+favorableifthefollowingconditionismet:
+3
+1E 1
+−
+1E 2
+= 2
+(C 11
++
+2C 12 ) ε R∗MS 2
+−
+(ε RMS )2
+3 h(cid:0) (cid:1) i
+(C C )γ2 <0 (5)
+11 12
++4 −
+For a first order approximation, one can assume that ε is
+R∗MS
+correlatedlinearlywithε viaε ε αγ ,whereαisa
+RMS R∗MS
+=
+RMS
+−
+parametertobedetermined.Byminimizingtheenergydifference
+(Equation5),onecanobtainthefollowingformulaforthecritical
+effectiveshearstrainforanisotropicsystem:
+FIGURE4|Theroot-mean-squareresidualstrainεRMSforavarietyofas-cast 2(1 υ)
+HEAswithdifferencephases. γ 0.485 + δ (6)
+th = s(1 2υ) ·
+−
+where υ is the Poisson ratio. Equation (6) is important, which
+displacement field, which show considerably fluctuating local correlates the effective shear strain, which measures the degree
+strainsinvariousHEAseventhoughtheiraveragevaluesareclose of lattice distortion, with the atomic size difference (the δ
+to zero (Ye et al., 2018). To capture the overall effect of such parameter)thatcanbeeasilycalculatedforHEAs.Furthermore,
+eq
+localstrainfluctuations,aneffectiveshearstrainγ i wasdefined it delivers a strong message that the critical effective shear
+as: strain γ depends not only on the magnitude of atomic size
+th
+γ eq 2(C 11 + 2C 12 ) εm 2 γMises 2 4[2C 44 − (C 11 − C 12 )] ε xy 2 εxz 2 ε yz 2 (3)
+i =s (C
+11
+C
+12
+) i + i + 3(C
+11
+C
+12
+) i + i + i
+− (cid:0) (cid:1) (cid:0) (cid:1) − h(cid:0) (cid:1) (cid:0) (cid:1) (cid:0) (cid:1) i
+whereC ,C ,C areelasticconstants,εmthelocalhydrostatic difference but also on the Poisson ratio of an alloy. Before
+11 12 44 i
+strain and γMises the von Mises local shear strain invariant, moving to the next section, it is worth pointing out that the
+i
+ε xy ,εxz,ε yz theshearstraincomponentsatdifferentdirections. pristinelatticestructuresalldisplaysharpFCCdiffractionpeaks,
+i i i
+The effective shear strain γ eq is closely related to the local asseeninFigure7.Bycomparison,thediffractionpeaksofthe
+i
+distorted lattices look similar to those of the pristine lattices
+atomic environment and varies from one atom to another. As
+a result, the elastic strain energy change 1E induced by shear (Figures7A,B). However, as lattice distortion, or the value of
+p
+the effective strain, increases, the diffraction peak profile of
+displacementcanbederivedas:
+the distorted lattice exhibits peak broadening and even peak
+1E 3 (C C ) n γ eq 2 /n 3 (C C )γ2 (4) splitting,particularlysoforthehighanglepeaks(Figures7C,D).
+p =4 11 − 12 i 1 i = 4 11 − 12 Furthermore, a careful examination of the diffraction peaks of
+=
+X (cid:0) (cid:1) bothpristineanddistortedlatticeshowsthatbothlatticesshare
+where n is the total number of atoms; γ n γ eq 2 /n a similar lattice constant, which is consistent with the recent
+is defined as the average equivalent s = traqin. i A=s 1 suc i h, we findingreportedbySongetal.(2017).
+P (cid:0) (cid:1)
+FrontiersinMaterials|www.frontiersin.org 4 July2018|Volume5|Article42
+
+HeandYang OnLatticeDistortioninHighEntropyAlloys
+FIGURE5|Thecorrelationbetweentheroot-mean-squareresidualstrainεRMSandatomicsizedifferenceδforavarietyofmetallicglass(MG)-formingalloys.
+FIGURE6|TheDFTsimulationresultsof(A)thepristinelatticewithanidealFCCstructureand(B)thedistortedlatticeoftheCoCrFeNialloy.
+IMPLICATION latticedistortionandtheresultantresidualstressfieldcaninteract
+with dislocations, thereby leading to significant strengthening
+Nowletusdiscussthepossibleinfluenceoflatticedistortionon (Oh et al., 2016; Varvenne et al., 2016; Owen et al., 2017). In
+the mechanical and physical properties of HEAs. In principle, conventionalalloyswitharegularlattice,dislocationmovements
+FrontiersinMaterials|www.frontiersin.org 5 July2018|Volume5|Article42
+
+HeandYang OnLatticeDistortioninHighEntropyAlloys
+FIGURE7|ThesimulatedXRDresultsofpristine(blackdashline)anddistortedlattice(redsolidline)of(A)FeCo,(B)FeCoNi,(C)FeCoNiCr,and(D)FeCrwithaFCC
+structure.Withtheincreasingoftheaverageeffectiveshearstrain,diffractionpeaksplittingoccursimplicativeoflatticedistortion.
+FrontiersinMaterials|www.frontiersin.org 6 July2018|Volume5|Article42
+
+HeandYang OnLatticeDistortioninHighEntropyAlloys
+FIGURE8|(A)Dislocationglidingviakink-pairmechanismsinanideallattice.(B)Wavydislocationglidinginadistortedlatticeinchemicalcomplexalloys.
+needtoovercomethePeierlsfrictionorthelatticestressthrough into a common lattice, a residual strain field with atomic scale
+a kink-pair mechanism (Hirth and Lothe, 1982), as illustrated fluctuationwillbeinducedbytheatomicsizedifferenceandthe
+in Figure8A. In general, this leads to a rather small activation elasticmodulusmisfitoftheconstituentelements.Theresidual
+volume,ontheorderofseveralb3,wherebisthemagnitudeof strain field comprises both volumetric and shear components,
+burgersvector.However,thedislocationlineinadistortedlattice which exhibit a large spreading as captured by the recently
+couldbetortuousandwavybecauseofthepresenceofanintrinsic developed theoretical model. However, the average value of
+stress field. This is similar to dislocation pinning as it moves the residual strains is very small, resulting in almost a same
+throughaforestofobstacles(Figure8B).AccordingtoWuetal. lattice constant for both pristine and distorted lattices. The
+(Wuetal.,2016),suchapinningeffectisweakandshouldappeal magnitude of the fluctuation of the residual strains, which
+totheclassicLabuschmodel,whichwasdevelopedfortheweak can be deemed as a measure of the lattice distortion, depends
+pinningeffectofa“forest”ofsoluteatomsonglidingdislocations on not only the atomic size but also the Poisson ratio of an
+(Labusch, 1970, 1972). Compared to the kink-pair mechanism, alloy.
+dislocationglidinginahighlydistortedlatticemayinvolvealarge
+activation volume, as schematically shown in Figure8B, which AUTHOR CONTRIBUTIONS
+may affect the strain rate sensitivity and the high temperature
+performanceofthesealloys. QHandYYdiscussedandwrotethepapertogether.
+SUMMARY ACKNOWLEDGMENTS
+Tosummarize,abriefoverviewoflatticedistortioninHEAswas TheresearchofYYissupportedbytheCityUniversityofHong
+provided in this work. When alloying different sized elements KongwiththeprojectNos9610366and7004597.
+REFERENCES
+Gludovatz, B., Hohenwarter, A., Thurston, K. V., Bei, H., Wu, Z., George, E.
+P., et al. (2016). Exceptional damage-tolerance of a medium-entropy alloy
+Cantor,B.,Chang,I.T.H.,Knight,P.,andVincent,A.J.B.(2004).Microstructural CrCoNi at cryogenic temperatures. Nat. Commun. 7:10602. doi: 10.1038/
+developmentinequiatomicmulticomponentalloys.Mater.Sci.Eng.375–377, ncomms10602
+213–218.doi:10.1016/j.msea.2003.10.257 Guo,S.,andLiu,C.T.(2011).Phasestabilityinhighentropyalloys:formation
+Cižek, L., Kratochvíl, P., and Smola, B. (1974). Solid solution hardening of solid-solution phase or amorphous phase. Prog. Nat. Sci. 21, 433–446.
+of copper crystals. J. Mater. Sci. 9, 1517–1520. doi: 10.1007/BF005 doi:10.1016/S1002-0071(12)60080-X
+52938 Guo,W.,Dmowski,W.,Noh,J.-Y.,Rack,P.,Liaw,P.K.,andEgami,T.(2013).
+Eshelby, J. D. (1956). “The continuum theory of lattice defects,” in Solid State Localatomicstructureofahigh-entropyalloy:anX-rayandneutronscattering
+Physics, eds F. Seitz and D. Turnbull (Cambridge, MA: Academic Press), study.Metal.Mater.Trans.44,1994–1997.doi:10.1007/s11661-012-1474-0
+79–144. Gypen, L. A., and Deruyttere, A. (1977). Multi-component solid solution
+Eshelby, J. D. (1957). The determination of the elastic field of an ellipsoidal hardening.J.Mater.Sci.12,1028–1033.doi:10.1007/BF00540987
+inclusion, and related problems. Proc. R. Soc. Lond. Ser. 241:376. He, Q. F., Ding, Z. Y., Ye, Y. F., and Yang, Y. (2017). Design of high-
+doi:10.1098/rspa.1957.0133 entropy alloy: a perspective from nonideal mixing. JOM 69, 2092–2098.
+Eshelby,J.D.(1959).Theelasticfieldoutsideanellipsoidalinclusion.Proc.R.Soc. doi:10.1007/s11837-017-2452-1
+Lond.Ser.252,561–569.doi:10.1098/rspa.1959.0173 Hirth,J.P.,andLothe,J.(1982).TheoryofDislocations.NewYork,NY:Wiley.
+Gludovatz, B., Hohenwarter, A., Catoor, D., Chang, E. H., George, E. P., Labusch,R.(1970).Astatisticaltheoryofsolidsolutionhardening.Phys.Stat.Solid
+and Ritchie, R. O. (2014). A fracture-resistant high-entropy alloy for 41,659–669.doi:10.1002/pssb.19700410221
+cryogenic applications. Science 345, 1153–1158. doi: 10.1126/science.12 Labusch,R.(1972).Statistischetheoriendermischkristallhärtung.ActaMetallurg.
+54581 20,917–927.doi:10.1016/0001-6160(72)90085-5
+FrontiersinMaterials|www.frontiersin.org 7 July2018|Volume5|Article42
+
+HeandYang OnLatticeDistortioninHighEntropyAlloys
+Li,Z.,Pradeep,K.G.,Deng,Y.,Raabe,D.,andTasan,C.C.(2016).Metastablehigh- Ye, Y. F., Wang, Q., Lu, J., Liu, C. T., and Yang, Y. (2016b). High-
+entropy dual-phase alloys overcome the strength–ductility trade-off. Nature entropy alloy: challenges and prospects. Mater. Today 19, 349–362.
+534:227.doi:10.1038/nature17981 doi:10.1016/j.mattod.2015.11.026
+Ma, D., Friák, M., Von Pezold, J., Raabe, D., and Neugebauer, J. (2015). Ye, Y. F., Zhang, Y. H., He, Q. F., Zhuang, Y., Wang, S., Shi, S. Q., et al.
+Computationallyefficientandquantitativelyaccuratemultiscalesimulationof (2018). Atomic-scale distorted lattice in chemically disordered equimolar
+solid-solutionstrengtheningbyabinitiocalculation.ActaMater.85,53–66. complex alloys. Acta Mater. 150, 182–194. doi: 10.1016/j.actamat.2018.
+doi:10.1016/j.actamat.2014.10.044 03.008
+Macdonald, B. E., Fu, Z., Zheng, B., Chen, W., Lin, Y., Chen, F., et al. Yeh,J.-W.(2015).Physicalmetallurgyofhigh-entropyalloys.JOM67,2254–2261.
+(2017).Recentprogressinhighentropyalloyresearch.JOM69,2024–2031. doi:10.1007/s11837-015-1583-5
+doi:10.1007/s11837-017-2484-6 Yeh, J.-W., Chang, S.-Y., Hong, Y.-D., Chen, S.-K., and Lin, S.-J. (2007).
+Magnaterra,A.,andMezzetti,F.(1971).Chargetransferinbinaryalloys.IlNuovo AnomalousdecreaseinX-raydiffractionintensitiesofCu–Ni–Al–Co–Cr–Fe–
+CimentoB6,206–213.doi:10.1007/BF02735386 Sialloysystemswithmulti-principalelements.Mater.Chem.Phys.103,41–46.
+Miracle, D. B., and Senkov, O. N. (2017). A critical review of high doi:10.1016/j.matchemphys.2007.01.003
+entropy alloys and related concepts. Acta Mater. 122, 448–511. Yeh, J. W., Chen, S. K., Lin, S. J., Gan, J. Y., Chin, T. S., Shun, T. T., et al.
+doi:10.1016/j.actamat.2016.08.081 (2004).Nanostructuredhigh-entropyalloyswithmultipleprincipalelements:
+Oh,H.,Ma,D.,Leyson,G.,Grabowski,B.,Park,E.,Körmann,F.,etal.(2016). novel alloy design concepts and outcomes. Adv. Eng. Mater. 6, 299–303.
+LatticedistortionsintheFeCoNiCrMnhighentropyalloystudiedbytheory doi:10.1002/adem.200300567
+andexperiment.Entropy18:321.doi:10.3390/e18090321 Youssef, K. M., Zaddach, A. J., Niu, C., Irving, D. L., and Koch, C. C.
+Owen,L.R.,Pickering,E.J.,Playford,H.Y.,Stone,H.J.,Tucker,M.G.,and (2015). A novel low-density, high-hardness, high-entropy alloy with close-
+Jones,N.G.(2017).AnassessmentofthelatticestrainintheCrMnFeCoNi packed single-phase nanocrystalline structures. Mater. Res. Lett. 3, 95–99.
+high-entropyalloy.ActaMater.122,11–18.doi:10.1016/j.actamat.2016.09.032 doi:10.1080/21663831.2014.985855
+Pickering,E.J.,andJones,N.G.(2016).High-entropyalloys:acriticalassessment Zhang,Y.,Sachan,R.,Pakarinen,O.H.,Chisholm,M.F.,Liu,P.,Xue,H.,etal.
+oftheirfoundingprinciplesandfutureprospects.Int.Mater.Rev.61,183–202. (2015a).Ionization-inducedannealingofpre-existingdefectsinsiliconcarbide.
+doi:10.1080/09506608.2016.1180020 Nat.Commun.6:8049.doi:10.1038/ncomms9049
+Song, H., Tian, F., Hu, Q.-M., Vitos, L., Wang, Y., Shen, J., et al. (2017). Zhang, Y., Zhou, Y. J., Lin, J. P., Chen, G. L., and Liaw, P. K.
+Local lattice distortion in high-entropy alloys. Phys. Rev. Mater. 1:023404. (2008). Solid-solution phase formation rules for multi-component
+doi:10.1103/PhysRevMaterials.1.023404 alloys. Adv. Eng. Mater. 10, 534–538. doi: 10.1002/adem.2007
+Toda-Caraballo, I., Wróbel, J. S., Dudarev, S. L., Nguyen-Manh, D., 00240
+and Rivera-Díaz-Del-Castillo, P. E. J. (2015). Interatomic spacing Zhang, Z., Mao, M. M., Wang, J., Gludovatz, B., Zhang, Z., Mao, S. X.,
+distribution in multicomponent alloys. Acta Mater. 97, 156–169. et al. (2015b). Nanoscale origins of the damage tolerance of the high-
+doi:10.1016/j.actamat.2015.07.010 entropy alloy CrMnFeCoNi. Nat. Commun. 6:10143. doi: 10.1038/ncomms
+Tong, Y., Velisa, G., Yang, T., Jin, K., Lu, C., Bei, H., et al. (2017). Probing 10143
+locallatticedistortioninmedium-andhigh-entropyalloys.arXiv[preprint] Zou, Y., Maiti, S., Steurer, W., and Spolenak, R. (2014). Size-
+arXiv:1707.07745. dependent plasticity in an Nb25Mo25Ta25W25 refractory high-
+Tsai,M.-H.,andYeh,J.-W.(2014).High-entropyalloys:acriticalreview.Mater. entropy alloy. Acta Mater. 65, 85–97. doi: 10.1016/j.actamat.2013.
+Res.Lett.2,107–123.doi:10.1080/21663831.2014.912690 11.049
+Varvenne, C., Luque, A., and Curtin, W. A. (2016). Theory of
+strengthening in fcc high entropy alloys. Acta Mater. 118, 164–176. Conflict of Interest Statement: The authors declare that the research was
+doi:10.1016/j.actamat.2016.07.040 conductedintheabsenceofanycommercialorfinancialrelationshipsthatcould
+Wu,Z.,Gao,Y.,andBei,H.(2016).ThermalactivationmechanismsandLabusch- beconstruedasapotentialconflictofinterest.
+typestrengtheninganalysisforafamilyofhigh-entropyandequiatomicsolid-
+solutionalloys.ActaMater.120,108–119.doi:10.1016/j.actamat.2016.08.047 The handling editor is currently co-organizing a Research Topic with one of
+Yang,T.,Xia,S.,Liu,S.,Wang,C.,Liu,S.,Fang,Y.,etal.(2016).Precipitation theauthors,YY,andconfirmstheabsenceofanyothercollaboration.
+behaviorofAlxCoCrFeNihighentropyalloysunderionirradiation.Sci.Rep.
+6:32146.doi:10.1038/srep32146 Copyright©2018HeandYang.Thisisanopen-accessarticledistributedunder
+Ye,Y.F.,Liu,C.T.,andYang,Y.(2015).Ageometricmodelforintrinsicresidual the terms of the Creative Commons Attribution License (CC BY). The use,
+strain and phase stability in high entropy alloys. Acta Mater. 94, 152–161. distribution or reproduction in other forums is permitted, provided the original
+doi:10.1016/j.actamat.2015.04.051 author(s)andthecopyrightowner(s)arecreditedandthattheoriginalpublication
+Ye,Y.F.,Liu,X.D.,Wang,S.,Liu,C.T.,andYang,Y.(2016a).Thegeneraleffectof in this journal is cited, in accordance with accepted academic practice. No
+atomicsizemisfitonglassformationinconventionalandhigh-entropyalloys. use, distribution or reproduction is permitted which does not comply with these
+Intermetallics78,30–41.doi:10.1016/j.intermet.2016.08.005 terms.
+FrontiersinMaterials|www.frontiersin.org 8 July2018|Volume5|Article42
+

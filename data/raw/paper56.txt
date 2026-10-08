@@ -1,0 +1,1646 @@
+TYPE Review
+PUBLISHED 31 July 2026
+DOI 10.3389/fchem.2026.1894425
+Machine learning approaches for
+electrocatalyst design in water
+OPEN ACCESS
+splitting: a review for green
+EDITED BY
+Gioele Pagot,
+University of Padua, Italy hydrogen production
+REVIEWED BY
+Shiyan Wang,
+Nanjing University of Posts and
+Telecommunications, China Vamsi Krishna Kudapa1*, Shoaib Mohd2, Vijayakumar Sivasundar3,
+Zhanwu Lei, Akanksha Mishra4, Santosh Kumar Sahu5*, Diaa S. Metwally6and
+University of Science and Technology of
+China, China Mohammed Aman7*
+*CORRESPONDENCE
+1Department of Chemical Engineering, Energy Cluster, UPES, Dehradun, India, 2Department of Petroleum
+Vamsi Krishna Kudapa,
+Engineering, Energy Cluster, UPES, Dehradun, India, 3Department of Mechanical Engineering, Saveetha
+vkkudapa@ddn.upes.ac.in
+School of Engineering, SIMATS, Saveetha University, Chennai, Tamil Nadu, India, 4Department of
+Santosh Kumar Sahu,
+Mechanical Engineering, Sharda School of Engineering & Sciences, Sharda University, Greater Noida,
+santoshkumar.sahu@vitap.ac.in,
+India, 5School of Mechanical Engineering, VIT-AP University, Amaravati, Andhra Pradesh, India, 6Deanship
+sksahumech@gmail.com
+of Scientific Research, Imam Mohammad Ibn Saud Islamic University (IMSIU), Riyadh, Saudi Arabia,
+Mohammed Aman,
+7Department of Industrial Engineering, College of Engineering, University of Business and Technology,
+m.aman@ubt.edu.sa
+Jeddah, Saudi Arabia
+RECEIVED 29 May 2026
+REVISED 04 July 2026
+ACCEPTED 10 July 2026
+PUBLISHED 31 July 2026 The production of green hydrogen through water splitting requires highly efficient
+electrocatalysts, but the current trial-and-error-based synthesis or discovery is
+CITATION
+Kudapa VK, Mohd S, Sivasundar V, time-consuming, costly and resource-intensive. Machine learning (ML) provides a
+Mishra A, Sahu SK, Metwally DS and powerful, data-driven alternative that can model complex structure-activity
+Aman M (2026) Machine learning
+relationships across large chemical spaces at orders-of-magnitude speed. This
+approaches for electrocatalyst design in
+water splitting: a review for green review systematically overviews the life cycle of the electrocatalyst research and
+hydrogen production. development application of ML. First, the thermodynamic and kinetic principles of
+Front. Chem. 14:1894425.
+the hydrogen and oxygen evolution reactions are summarised, along with some
+doi: 10.3389/fchem.2026.1894425
+well-adopted and accepted activity descriptors. Then we explore data sources,
+COPYRIGHT
+featurization approaches, and algorithms, and discuss the model space, from a
+© 2026 Kudapa, Mohd, Sivasundar,
+Mishra, Sahu, Metwally and Aman. This is simple interpretable model to a graph neural network to a generative model, in the
+an open-access article distributed under context of the ML toolkit. Strategic applications are discussed for high-throughput
+the terms of the Creative Commons
+virtual screening of alloys and single-atom catalysts, as well as multifunctional
+Attribution License (CC BY). The use,
+distribution or reproduction in other activity prediction for overall water splitting, and stability optimisation under
+forums is permitted, provided the original operating conditions. The topic of emerging frontiers is highlighted, including
+author(s) and the copyright owner(s) are
+high-entropy alloys, amorphous materials, and linking atomic-scale
+credited and that the original publication
+in this journal is cited, in accordance with understanding to device-level performance through integration with density
+accepted academic practice. No use, functional theory. Finally, the problems of data scarcity, model interpretability
+distribution or reproduction is permitted
+and the discrepancy between computational predictions and industrial
+which does not comply with these terms.
+implementation are discussed, along with future directions for closed-loop
+discovery and self-driving laboratories. Incorporating ML into electrocatalyst
+design and combining it with autonomous experimentation will revolutionise
+this process, from simulation to energy solution, dramatically speeding it up.
+KEYWORDS
+electrocatalyst design, green hydrogen, high-throughput screening, machine learning,
+water splitting
+Frontiers in Chemistry 01 frontiersin.org
+
+Kudapa et al. 10.3389/fchem.2026.1894425
+1 Introduction
+2026). Combined with quantum mechanical calculations, ML
+potentials enable simulations of thousands-of-atom interfaces to
+Given the increasing worldwide energy demand and the help clarify the synergistic role of solvent, surface composition, and
+imperative to decarbonize industrial economies, interest in morphology in modulating catalytic activity (Keith et al., 2021).
+sustainable energy carriers has surged (Li et al., 2023). Hydrogen Herein, we present a broad overview of the machine-learning
+has become an interesting candidate since it is a zero-emission fuel toolbox for electrocatalyst design in water splitting. We begin
+of the high gravimetric energy density category and can be produced with electrochemical basics—the thermodynamics and kinetics
+from renewable-power-driven pathways (Gao et al., 2024). Among that govern HER and OER, key performance metrics, and the
+different production pathways, an electrochemical route supplying scaling relationships that define common catalyst design. We
+hydrogen through water splitting is dominant: it is the most efficient then turn to the data ecosystem that underpins ML applications:
+and sustainable pathway for high-purity hydrogen production when sources and curation strategies, featurization methods that convert
+coupled with renewable electricity (Li et al., 2023). However, these atomic structures into machine-readable representations, and an
+technologies have not been well-promoted for the moment owing to algorithmic landscape spanning interpretable regression models to
+two barriers: their high energy consumption for the slow oxygen state-of-the-art graph neural networks. While there have been a
+evolution reaction (OER) and the cost of using efficient number of recent reviews on machine learning for electrocatalysis,
+electrocatalytic (Gao et al., 2024). At the anode, the oxygen most have focused on the development of a specific algorithm or a
+evolution reaction has terrible kinetics due to multi-electron class of catalysts. This review takes a holistic approach to the catalyst
+transfer paths and the lability of a few other oxygenated life cycle, integrating fundamental concepts in electrochemistry,
+intermediates. At the cathode, while more favourable in a kinetic catalyst descriptors, materials databases, feature engineering,
+sense, hydrogen evolution still requires catalytic surfaces that bind machine learning algorithms, explainable artificial intelligence,
+intermediates optimally per the Sabatier principle. These half- generative AI, autonomous experimentation, and future self-
+reactions, in total, require electrocatalysts capable of lowering the driving laboratories into a single framework. Moreover, in this
+activation barriers, along with being characterized by rapid charge review, the current methodologies are critically examined,
+transfer kinetics and stability owing to the harsh, corrosive unresolved challenges (such as dataset bias, model uncertainties,
+operational environment. Traditional catalyst discovery, rooted in interpretability, and the prediction of long-term catalyst stability)
+iterative trial-and-error experimentation, has thus far been are highlighted, and future research directions towards fully
+inherently incapable of satisfying these demands. This Edisonian autonomous catalyst discovery platforms are suggested.
+exploration is slow, labor intensive and expensive in terms of
+resources; it can take months or years at this scale basis to
+2 Electrochemical foundations and
+simply peck and poke at how small chunks of the composition
+catalyst performance descriptors
+landscape are (Ding L. et al., 2024; Bushion et al., 2026; Li et al.,
+2023). However, the majority of possible alloys, oxides and single
+atom catalysts remain uncharted, and there are not many clear 2.1 Thermodynamics and kinetics of the
+pathways to pursue. The whole concept of ML is a change of hydrogen and oxygen evolution reactions
+paradigm in itself, and moves the domain of knowledge
+discovery. The discovery of two-dimensional semimetals with Electrochemical water splitting is the electrochemical
+atomic precision in just orders of magnitude lower in cost, with decomposition of liquid water into gaseous hydrogen and oxygen
+calculations at near DFT level of accuracy, is made possible by data- through a pair of thermodynamically coupled half-reactions: the H
+2
+driven (ML) statistical models to screen thousands of candidates in evolution reaction (HER) at the cathode and the O evolution
+2
+silico and calculate adsorption energies at near (DFT) level of reaction (OER) at the anode. A mechanistic perspective of the
+accuracy (Ding L. et al., 2024; Wang C. et al., 2025). In our thermodynamic limitations and kinetic challenges that shape
+example, this can involve modelling subtle dependencies that are these reactions is crucial to building a foundation for rational
+not intuitive, such as including crystal structure, electronic catalyst design.
+configuration, and the conditions used to synthesize the material, The hydrogen evolution reaction (HER) is an electron-hopping
+properties of which are described in high-dimensional vectors. multi-step process and can be carried out by the Volmer Heyrovsky
+The effect is not merely straightforward acceleration. Machine or the Volmer–Tafel mechanism in an acid medium (Gao et al.,
+learning unlocks compositional spaces previously considered 2024; Srinivasan et al., 2026). This response begins by proton
+unreachable: high-entropy alloys, where an abnormally large adsorption on the catalyst surface (Volmer step) and derives an
+number of elements must coexist with one another; amorphous adsorbed hydrogen species. This intermediate is then desorbed in an
+materials with no long-range order; and multi-principal element electrochemical recombination reaction with a second proton and
+systems that are not amenable to classical scaling relations (Tran electron (Heyrovsky step) or in a chemical recombination reaction
+et al., 2023). In many existing ML models developed with large data between two adjacent adsorbed hydrogen adatoms (Tafel step). In
+sets (both high-throughput and empirical), they have been coupled alkaline media, the mechanism changes again: rather than protons,
+and used to predict things like which catalysts resist galvanic water molecules dissociatively adsorb, supplying hydrogen atoms
+corrosion when in chloride environments or handle anodic and adding yet another kinetic complication. The hydrogen
+competition during seawater electrolysis, enabling the adsorption Gibbs free energy, ΔGH, is the most important
+optimization of stable electrocatalysts for in-situ use within thermodynamic descriptor of any electrode material: an ideal
+oceans due to their driving force (Din et al., 2025; Sead et al., catalyst binds hydrogen neither too strongly (poisons the surface)
+Frontiers in Chemistry 02 frontiersin.org
+
+Kudapa et al. 10.3389/fchem.2026.1894425
+FIGURE 1
+Volcano plots for the hydrogen evolution reaction (HER) in acid (right side) and alkaline (left side) aqueous solutions, showing exchange current
+density (j0) as a function of hydrogen adsorption free energy (ΔGad). Data points represent densely-packed metal surfaces (mostly fcc (111)), with error bars
+indicating experimental variations. Oxide-covered metals are excluded. The ascending branch shows increased rate with more favorable (negative) ΔGad,
+but no clear descending branch is observed except for Ni and Co. (Quaino et al., 2014).
+nor weakly (prevents adsorption), ΔGH ≈ 0 eV. As noted above, this
+relationship is often depicted in the HER volcano plot, in which
+exchange current density is plotted as a function of hydrogen
+adsorption free energy (ΔGH), thereby illustrating the Sabatier
+principle in electrocatalysis, as shown in Figure 1.
+Figure 1 represents volcano plots of the hydrogen evolution
+reaction (HER) in acid (a) and alkaline aqueous solution (b), where
+j is plotted as a function of ΔG_ad for bulk transition metals with
+0
+densely-packed metal surfaces (mostly fcc(111)). The error bars are
+the average of experimental variations available in the literature;
+oxide-covered metals were omitted, owing to a potential disregard
+for the descending branch of data. The upward trend of the branch
+clearly indicates that as ΔG_ad approaches more negative values
+(more favorable), catalytic activity continues to increase, in
+agreement with the Sabatier principle. On all d-band metals but
+Ni and Co, a clear descending branch is missing (indicating that
+Sabatier’s principle adjuncted with the second requisite of catalytic FIGURE 2
+activity does not adequately characterize HER kinetics). This
+Generalized OER volcano plots comparing RuO2(110) and
+IrO2(110) at U = 1.60 V vs. RHE, demonstrating the influence of the *O
+suggests that extra descriptors like d-band position, vs. *OH scaling relation intercept on catalytic activity. The volcano
+metal–hydrogen orbital overlap are needed for rationalizing apex shifts based on the scaling parameters, with RuO2 showing
+electrocatalytic activity.
+higher intrinsic activity than IrO2 under both acidic and alkaline
+conditions—consistent with experimental observations. This illustrates
+Metals (Pt-group) are notably clustering in the apex of the crater, the thermodynamic limitations imposed by scaling relations on OER
+whereas mild attractions of MoS lead to continuous investigations electrocatalysts (Sokolov and Exner, 2024).
+2
+on HER catalysts based on non-precious metals. The kinetic
+penalties in the oxygen evolution reaction are far more
+pronounced. Such a four-electron, four-proton transfer happens
+through a succession of adsorbed oxygenate intermediates (OH, O, OOH + OH− → O + H O + e−. First, for acidic electrolytes, water
+2 2
+and OOH), each requiring different stabilization energies (Hu et al., serves as the oxygen source, resulting in inverted intermediate
+2024). In alkaline media, the standard reaction pathway is OH− → energetics. In fact, the overpotential required to kinetically inject
+OH + e−; OH + OH− → O + H O + e−; O + OH− → OOH + e−; and into OER, typically 300–400 mV on the best catalysts, is simply a
+2
+Frontiers in Chemistry 03 frontiersin.org
+
+Kudapa et al. 10.3389/fchem.2026.1894425
+measure of these energy losses added up across each respective with oxygen formation during seawater electrolysis can divert
+sequential elemental reaction step. This slow kinetics is the key electrons from the targeted pathway (Chen et al., 2025).
+reason for the decrease in overall energy conversion efficiency in Prolonged stability determines functionality despite governing
+water electrolysis. Thus, OER emerges as a performance-limiting considerably after early action. Accelerated failure procedures
+step (Seh et al., 2017). almost always consist of thousands of galvanostatic cycles or
+100 s of hours of device operation, distilling mechanistic causes
+2.2 Key performance metrics: from that include changes in active-site dissolution, surface
+overpotential to durability reconstructions, particle agglomeration, and corrosion of the
+catalyst support (Grim et al., 2020). Recently, high-entropy
+More generally, assessing electrocatalyst activity requires a ruthenium oxide catalysts were demonstrated to achieve 1500 h
+battery of quantitative metrics spanning intrinsic activity and of stability at 100 mA cm−2 with extremely low degradation (Qian
+pragmatic viability. Overpotential, η, is the additional voltage et al., 2025), thereby offering a promising alternative to the long-
+applied beyond the thermodynamic equilibrium potential of a standing shortcoming of conventional OER electrocatalysts.
+reaction required to drive it at some specific current density. At
+a typical current density for various catalyst activity comparisons 2.3 Primer on major electrolyzer
+(10 mA cm−2), state-of-the-art platinum faces virtually no technologies and their catalyst demands
+overpotential for HER (η ≈ 20 mV), and iridium oxide has η
+~300–400 mV typically for OER (Li, 2022). The Tafel slope, Different electrolyser architectures can lead to distinct
+which is in the linear portion of a plot of overpotential versus operational environments, each requiring specific catalyst
+log current density, provides additional information about reaction properties. Proton exchange membrane electrolyzers can also
+kinetics and the rate-determining step; for example, slopes around operate in very acidic conditions (pH ≈ 0–2), featuring rapid
+30 mV dec−1, 40 mV dec−1, and 120 mV dec−1 imply that the process start-up, high current densities (1–4 A cm−2), and small system
+is Tafel-, Heyrovsky-, or Volmer-limited. footprints. This acidic and corrosive environment, along with large
+Exchange current density, j , is a metric for the intrinsic rate of anodic overpotential, leads to a very small window of viable OER
+0
+charge transfer at equilibrium, which can be thought of as a catalysts, which are mainly precious metal-based oxide (primarily
+material-specific, overpotential-independent activity descriptor. ruthenium and iridium), resistant to dissolution at the aggressive
+Figure 2 illustrates how the original performance metrics are conditions (Wang T. et al., 2022). Overcoming this limitation,
+translated into actual catalyst designs by employing multiple however, necessitates catalysts that can mediate potential-free
+materials engineering methodologies to simultaneously optimise reaction with sub-ppm amassment of active sites. The prohibitive
+the number of active sites and intrinsic activity, which, in turn, cost and meagre worldwide supply of iridium (annual production <
+are connected in series to improve overall catalytic activity. 9 tons) render a major bottleneck for gigawatt-scale PEM
+Figure 2 presents Generalized volcano plots for the oxygen implementations, while redirecting considerable research towards
+evolution reaction (OER) of RuO (110) and IrO (110). Volcanos both iridium-free substitutes and ultra-low-loading architectures
+2 2
+are generated by first comparing activity under conditions where (Pham et al., 2021).
+1.60 V vs. RHE is applied), then selecting that value to plot all surface The alkaline electrolysers are operated in a concentrated KOH
+combinations. The thermodynamic constraints of scaling relations electrolyte (pH ≈ 14), providing a less corrosive environment that
+between the O and *OH reaction intermediates are shown through enables earth-abundant transition-metal catalysts. The nickel,
+the volcano relationship. The intercept (ξ′ ) of the *O vs. *OH cobalt, and iron-based materials are the most investigated
+1
+scaling relation is critical in determining both volcanic position and systems in this regard and show great OER activity in alkaline
+shape, with values ranging between classes of materials. In both media, with that of NiFe layered double hydroxide reaching close to
+pH conditions, RuO always shows more intrinsic activity than with the precious metal benchmark (Luo et al., 2022). Disadvantages of
+2
+respect to IrO which is in agreement with experiments. Moreover, alkaline systems include carbonate precipitation from ambient CO ,
+2 2
+the experimentally derived adsorption free energies (ΔG 0) for both reduced current densities, and hydrogen crossover, which requires
+1
+catalysts are near the volcano plot apex—it is presumed that such thicker membranes and larger system footprints.
+bonds of *OH are near optimal. This figure illustrates that scaling Anion exchange membrane electrolyzers combine the strengths
+relations can restrict maximum OER activity, whose optimization is of both architectures: they operate under alkaline conditions suitable
+possible by tuning the *O vs. *OH scaling intercept—not the often for non-precious catalysts while retaining the size and fast response
+emphasizedOOH vs. *OH relation—provides a guideline for better characteristics of membrane-based systems. Among these, both the
+OER electrocatalysts discovery. oriented AEMs and polyelectrolytes that meet durability, ionic
+These strategies highlight that catalyst design is a balance conductivity, and stability requirements at high current densities
+between the approach of maximizing available active sites and still constitute one of several dynamic research frontiers (Wu et al.,
+optimizing their intrinsic catalytic properties to achieve improved 2025). Direct seawater electrolysis is a particularly promising
+activity. Unsurprisingly, HER platinum demonstrates a j ≈ pathway that utilises these large marine resources increasingly
+0
+1 mA cm−2, on the order of magnitude higher than its non- effectively; moreover, the catalysts must also resist chloride
+precious-metal counterpart. The lack of selectivity toward corrosion-fouling due to precipitation and side reactions
+undesired products is assessed using faradaic efficiency (FE) competing for chlorine evolution (Din et al., 2025).
+measurements, which are particularly critical for the OER, as Comparison of the key water electrolysis technologies side by
+carbon corrosion and chlorine evolution pathways that compete side: PEM, alkaline, AEM and direct seawater. Table 1summarises
+Frontiers in Chemistry 04 frontiersin.org
+
+Kudapa et al. 10.3389/fchem.2026.1894425
+TABLE 1 Comparison of electrolyzer technologies and their catalyst demands (Din et al., 2025; Pham et al., 2021; Wang T. et al., 2022).
+Electrolyzer type Operating Key advantages Catalyst requirements Typical Challenges
+conditions catalysts
+Proton Exchange Acidic (pH 0–2), High current density, fast Acid-stable, high OER activity, IrO2, RuO2, Pt/C High cost, scarce Ir/Ru,
+Membrane (PEM) 1–4 A cm−2 response, compact design low metal dissolution limited durability
+Alkaline (AEM) Alkaline (pH ≈ 14), Non-precious metal Alkaline-stable, high NiFe-LDH, Co3O4, Carbonate precipitation,
+0.2–1 A cm−2 catalysts are less corrosive conductivity, carbonate NiMo alloys lower current density
+resistance
+Anion Exchange Alkaline (pH 12–14), Non-precious metals, Alkaline stability, membrane NiFe-based, Co- Membrane stability,
+Membrane (AEM) 1–2 A cm−2 compact design, fast durability, high ionic based, perovskite limited long-term
+response conductivity oxides durability
+Direct Seawater Near-neutral to alkaline, Abundant water source, no Chlorine corrosion resistance, NiFe-LDH, high- Chloride oxidation,
+Cl−-rich environment freshwater demand high OER selectivity entropy alloys, MnO2 fouling, precipitation
+TABLE 2 Summary of key DFT-based datasets for electrocatalyst ML training (Back et al., 2021; Chanussot et al., 2021; Correa-Baena et al., 2018; Liu et al.,
+2023).
+Dataset name Size and scope Materials covered Target properties Key
+reference
+Open Catalyst 2020 ~1.3 million DFT relaxations Metals, alloys, intermetallics, Adsorption energies, forces, relaxed Chanussot et al.
+(OC20) surfaces structures (2021)
+Open Catalyst 2022 62,331 DFT relaxations (~10M single-point Oxides, perovskites, high- OER intermediate adsorption, oxygen Tran et al. (2023)
+(OC22) calculations) entropy oxides binding
+Materials Project >150,000 inorganic crystals Bulk crystalline materials Formation energies, band structures, Jain et al. (2013)
+Pourbaix diagrams
+NREL Materials >1.4 million DFT calculations Semiconductors, oxides, Band gaps, formation energies, electronic Stevanović et al.
+Database chalcogenides structure (2012)
+QMOF Database ~20,000 metal-organic frameworks MOFs with diverse metal nodes Band gaps, pore volumes, gas adsorption Rosen et al. (2021)
+the operating conditions (pH and current density), the major energy for other intermediates of the class of catalysts. This leads
+benefits, the need for catalysts, typical materials, and the major to ΔGOOH of about 3.2 ± 0.2 eV, which is equal to ΔGOH for OER,
+development challenges for each. It provides a link between the and corresponds to the same bonding configurations found at the
+previous section on electrochemical kinetics (HER/OER) and the top of metal oxide surfaces. This scaling principle suggests a
+device’s realistic requirements and identifies the changes in catalyst thermodynamic limitation: maximizing one intermediary will
+use needed due to the presence of acid, alkali, or chloride. This table always come at the price of optimizing another intermediary, and
+further serves the purpose of the later sections by listing the stability the optimum overpotential is always the very minimum
+required and cost restrictions desired by the ML. (0.2–0.3 eV), which is not attainable in standard means of
+surface engineering. The same very fundamental scaling
+2.4 Established activity descriptors and restriction can be expressed for OER activity as volcano curve
+scaling relations (Figure 3) that implies that as the deviation from optimal mid-
+point binding energetics increases, so does the intrinsic limiting
+The Sabatier principle can be simply applied to the design of minimum achievable OER overpotential (Li, 2022).
+catalysts; too strong or too weak an intermediate interaction will not Figure 3is an estimate of how far intermediate binding energies
+give the most active catalyst. Platinum is on top of this busy volcano can deviate from scale, thus motivating new design strategies that go
+plot which is now dominated by ΔGH for HER as the main beyond existing scaling relationships. Avoiding these scaling
+descriptor of hydrogen adsorption free energy, HER. For OER, relations is a major challenge in the design of next-generation
+the situation is even more complicated as the energies of binding catalysts. These approaches include stabilization of intermediates
+with the several intermediates (OH, O, OOH) are also coupled to by second coordination sphere effects, utilizing ensemble effects on
+some extent by the interactions; thus, it is not possible to tune the multimetallic surfaces, and active site engineering with respect to
+others binding energies independently (Kibsgaard and conventional adsorption geometries (Govindarajan et al., 2019).
+Chorkendorff, 2019). This mutual dependence is presented as Specific classes of materials, such as high-entropy alloys (HEAs),
+“scaling relations” – linear relations between the adsorption offer exciting opportunities: the multitude of local coordination
+Frontiers in Chemistry 05 frontiersin.org
+
+Kudapa et al. 10.3389/fchem.2026.1894425
+synthesized and organized in a manner that helps systematically
+accustom ML models to quantitative structure–property relations,
+which are subsequently employed for intelligently steering catalyst
+design (Jiang et al., 2024).
+With a focus on high-throughput computational methods, this
+data landscape has changed rapidly. An example is the Open
+Catalyst 2020 dataset (Chanussot et al., 2021), which comprises
+around 1.3 million DFT relaxations on a plethora of materials,
+surfaces and adsorbates: several orders of magnitude more training
+examples than was attainable even recently. Its successor, OC22,
+massively extends this dataset to oxide materials, comprising
+62,331 DFT relaxations (nearly ten million single-point
+calculations), and is designed specifically for the oxygen
+evolution reaction (OER). This allows atomist machine learning
+FIGURE 3 models to be trained with a scale hitherto impossible, sampling
+Volcano-type relationship illustrating the dependence of OER
+overpotential on intermediate adsorption energies, highlighting the applied chemical and compositional diversity spanning elemental
+limitation imposed by scaling relations and the concept of an ideal combinations of the periodic table. Such large-scale catalyst
+catalyst (Govindarajan et al., 2019).
+databases span a wide variety of materials classes, adsorbates and
+atomistic simulation outputs, as shown in Figure 4.
+These datasets underpin much of modern data-centric catalysis
+environments they present fosters a continuous spectrum of possible and enable machine-learning models to generalize across broad
+adsorption sites that can potentially facilitate independent regions of chemical space, making predictions on catalytic activity at
+adjustment of multiple intermediates (Xu S. et al., 2024). scale. However, real experimental data are still hard to feed. Diverse
+Similarly, metal–support interactions and coordination- synthesis/characterisation regions and protocols lead to
+environment engineering help single-atom catalysts attain heterogeneous reporting methods, limiting the production of
+uncommon binding configurations (Tong et al., 2022). Found harmonised, machine-readable databases. Examples of such
+only at deeper scales, these well-known descriptors and their datasets would have many features of (1) the catalyst, including
+associated scaling relations form the theoretical foundation on composition, morphology, crystal structure and surface area as well
+which machine-learning models can base themselves to further as accurate electrochemical measurements for (2) properties like
+develop and ultimately surpass. With training on data from overpotential, exchange current density, Tafel slopes and stability
+many material families, ML-based approaches can learn novel metrics (Ding R. et al., 2024; Li et al., 2023). Importantly, these
+descriptors and detect deviations from scaling to predict catalytic datasets need to include both positive and negative outcomes since
+activity across compositional spaces where conventional heuristics biases in the published literature towards the positive also lead to
+do not work. systematic bias in models, which impacts their generalizability (Xu S.
+et al., 2024).
+This Table 2 catalogs five large-scale computational databases
+3 The machine learning toolkit for
+that underpin modern ML, training: Open Catalyst 2020/2022,
+materials informatics
+Materials Project, NREL, Database, and QMOF., it specifies
+dataset size, materials covered, target properties (adsorption
+Machine learning is a set of disruptive statistical methods in energies, band gaps, Pourbaix diagrams), and key references. By
+which predictive models use input data to enable computational quantifying the scale (e.g., ~1.3 million DFT, relaxations for OC20)
+algorithms to search for non-linear correlations between material and diversity (oxides, MOFs, semiconductors), the table illustrates
+properties and catalytic activities. These models enable the potential why these resources enable generalizable ML, models. It directly
+to attain Density Functional Theory-level accuracy at whole orders follows the text’s discussion on high-throughput data and serves as a
+of magnitude reduced and cheaper computational cost, thereby practical reference for readers seeking training data.
+establishing ML as a staple in accelerated electrocatalyst discovery The solutions to address such challenges are strong data
+(Chen et al., 2025; Wang X. et al., 2025). architectures and stringency in data curation standards. With the
+help of Natural Language Processing (NLP) and Pattern Recognition
+3.1 The catalyst data ecosystem: sources
+technique, more recently, published documents have been mined to
+and curation
+retrieve the outcomes of synthesis actions, characterization,
+performance metrics, etc (Suvarna et al., 2023). Standardized
+Everything a machine learning model can do, in terms of internal representations of data (e.g., MDL files, linear notation
+prediction, depends on the training data, its amount, quality, and (SMILES and InChI)) make it readily accessible for algorithmic
+variety. The electrocatalysis data ecosystem consists of two primary analysis and reproducibility (Grajciar et al., 2018). These efforts are
+contributions: one computational (mostly density functional theory warranted because, other than an increasingly rich and growing
+calculations) and the other experimental metrics such as high-quality in situ and operando data set that is used to train
+electrochemical efficiency and material characterisation various AI strategies in heterogeneous catalysis (Bowker et al., 2022;
+measurements. These diverse and multi-fold data streams can be Chen et al., 2023).
+Frontiers in Chemistry 06 frontiersin.org
+
+Kudapa et al. 10.3389/fchem.2026.1894425
+FIGURE 4
+Schematic representation of the Open Catalyst 2020 (OC20) dataset, illustrating its compositional diversity, descriptor space, and atomistic
+simulation workflows used for training machine learning models in catalysis(Chanussot et al., 2021).
+3.1.1 Challenges in catalyst data quality, bias and generated data sets. While DFT provides physically relevant
+reproducibility descriptors, these approximations carry over into machine-
+learning predictions and must be considered in uncertainty
+The success of any machine learning model ultimately hinges on analysis. Recent advances in uncertainty-aware neural networks,
+the quality, diversity, and reliability of its training data. Although the Bayesian optimisation, Monte Carlo dropout, Gaussian Process
+number of available computational databases of catalysts has Regression, and ensemble learning provide probabilistic
+increased significantly, there are still problems that limit the confidence intervals in addition to catalyst predictions. This type
+generalizability of the models. An important issue is the of method would allow better screening of catalysts, separating more
+imbalance of the datasets. Successful catalysts with high catalytic confident predictions from more uncertain extrapolations.
+activities have been reported in published literature, but
+unsuccessful experiments are rarely reported. This publication 3.2 Featurization: representing catalysts for
+bias leads to an overestimation of catalyst performance and ML models
+diminishes the capacity of machine learning models to discover
+genuinely new materials. Another significant limitation arises from A good featurization encodes complex physicochemical
+variations in the experimental protocols. Often, electrochemical properties of the catalysts in a machine-readable format, with
+measurements are performed with varying electrolyte implications to both predictive power and interpretability of any
+compositions, pH values, temperatures, catalyst loadings, and models trained on top (Mou L. et al., 2023; Mou T. et al., 2023). It
+electrode preparation techniques. Reported overpotentials, Tafel involves selecting (or training) descriptors that capture critical
+slopes, and stability values may therefore not be directly information about structural, electronic, and thermodynamic
+comparable, leading to systematic uncertainties in machine features, ranging from elemental properties and structural motifs
+learning models. to computed electronic band structures and adsorption energies.
+In addition, there are intrinsic uncertainties due to the The method uses molecular descriptors (indicators of the structure)
+approximations in the exchange-correlation functionals, the finite to describe a catalyst’s properties and relate that experimental
+size of the supercell, the convergence thresholds, and the behaviour with fundamental structural characteristics (Escayola
+assumptions about surface reconstruction made with DFT- et al., 2024). These encompass the simplest kind of compositional
+Frontiers in Chemistry 07 frontiersin.org
+
+Kudapa et al. 10.3389/fchem.2026.1894425
+FIGURE 5
+Applications of graph neural networks in molecular and materials informatics for catalyst discovery and property prediction. (a) Prediction of
+molecular properties including ADMET behavior, environmental interactions, and toxicity assessment. (b) Iterative graph-based molecular optimization
+and screening workflow. (c) Learning of node and edge embeddings for reaction completion and molecular fragment generation. (d) GNN-assisted
+excited-state dynamics and machine learning-driven coarse-grained simulations. (e) Explainable graph neural network framework for interpretable
+predictions and scientific understanding. (f) Stability prediction and defect classification in metal–organic frameworks and disordered materials. (g)
+Surface reaction simulations and prediction of polycrystalline material behavior using graph-based representations. (h) Atomic-scale understanding of
+particle interactions in amorphous solids and liquids through GNN-enabled modeling (Reiser et al., 2022).
+features, atomic numbers, electronegativities, ionic radii, and more and scientific interpretability. The molecular-level learning tasks
+complex features that represent coordination environments, bond of predicting ADMET characteristics, reaction completion,
+distributions and electronic configurations. In periodic systems, the explainable AI, and coarse-grained simulations are emphasized in
+atoms are represented as nodes, and the chemical bonds are (a–e), while (f–h) show applications to crystalline, polycrystalline,
+represented as edges on a crystal graph, enabling Graph Neural and amorphous material systems. Overall, this figure highlights the
+Networks (GNNs) to learn directly from the structure of the crystal ability of GNNs to efficiently capture complex structure–property
+graph without hand-crafted features (Motagamwala et al., 2018). relationships directly from atomic environments, making them
+A detailed summary of electrocatalyst-discovery applications of promising tools for structure-aware machine learning approaches
+graph neural networks (GNNs) is shown in Figure 5. The figure to accelerated catalyst discovery and materials optimisation. A
+illustrates the GNN architecture’s ability to address several crystal graph representation atom based is shown, with atoms
+challenges in property prediction, virtual screening, inverse represented as nodes and chemical bonds as edges. This graph
+materials design, atomistic simulations, synthesis optimisation, structure is then given as an input to graph neural networks (GNNs)
+Frontiers in Chemistry 08 frontiersin.org
+
+Kudapa et al. 10.3389/fchem.2026.1894425
+TABLE 3 Overview of key machine learning datasets and featurization strategies.
+Dataset/ Description Key features Material Primary application Ref.
+Featurization classes
+covered
+Open Catalyst 2020 ~1.3 million DFT relaxations of Adsorption energies, forces, Metals, alloys, HER, CO2 reduction, general Chanussot
+(OC20) materials, surfaces, and adsorbates bulk and surface structures intermetallics catalysis et al. (2021)
+Open Catalyst 2022 62,331 DFT relaxations (~10M Oxide surfaces, OER Oxides, perovskites, OER, oxygen electrocatalysis Tran et al.
+(OC22) single-point calculations) intermediates, oxygen high-entropy oxides (2023)
+adsorption
+Crystal Graph Atoms as nodes, bonds as edges in Coordination environment, Crystalline materials, Structure–property Peng et al.
+Representations graph neural networks local geometry, bond order alloys, oxides prediction, GNN-based (2022)
+screening
+Descriptor-Based Hand-crafted features (e.g., d-band Elemental properties, electronic Alloys, high-entropy Interpretable models, Mou L. et al.
+Featurization centre, electronegativity, ionic structure, thermodynamic alloys, SACs descriptor discovery (2023)
+radius) stability
+to learn atomic environments and predict properties without hand non-linear) ability of machine learning to learn solid structural
+crafted descriptors. The figure pictorially illustrates how the GNNs relationships from data with our physically-domain knowledge of
+account for local coordination, bond order and periodicity–which the governing processes through the imposition of our domain
+will be further discussed later in the paper in relation with the knowledge in physical processes at either model architectures or loss
+structure-aware ML for electrocatalysis. functions so that we can guide our learner toward physically
+It is worth noting that the optimal featurization strategy depends meaningful solutions while offering it competent feature
+heavily on the material class and the specific catalytic reaction. In the descriptors (Omranpour et al., 2025).
+case of single-atom catalysts, attributes that describe not only the Table 3shows an overview of four representative featurization
+metal centre and its coordination environment but also properties of strategies adopted in electrocatalysis ML: 1) the adsorption energies
+the support become indispensable (Wang X. et al., 2025). The of the molecules in the dataset (OC20/OC22), 2) featurization of the
+immense compositional space poses unique challenges for high- crystal graph of the molecules (GNN inputs), 3) hand-crafted
+entropy alloys, necessitating new methods that can represent local features such as d band centre (descriptors-based featurization).
+chemical environments and their distributions. Two main strategies For every, the table provides key features captured, material classes
+have been developed: the “direct” prediction from unrelaxed covered and primary applications (HER/OER screening,
+structures using hand-crafted features or end-to-end graph structure–property prediction). It provides insights into the
+networks, and the “iterative” prediction through machine trade-off between end-to-end graph learning and interpretable
+learning potentials, which only requires a guide for structural descriptor approaches, and continues to drive home the point
+relaxation until energy calculation after adsorption (Wang that the choice of featurization will affect metrics such as
+J. et al., 2025). predictive performance and model transparency.
+GPH convolutional networks have been shown to excel at
+learning representations directly from atomic structures. These 3.3 Algorithmic landscape: from simple
+models thus learn to capture a chemical environment responsible models to deep networks
+for catalytic activity without explicit feature engineering, by passing
+information through neighbour graphs. Training such models on Building a machine learning architecture that is both accurate
+diverse datasets of materials containing a range of adsorbates and and easy to understand requires a trade-off among accuracy,
+surface terminations is, however, far from trivial in terms of their interpretability, computational resource costs, and data
+generalizability (Kolluru et al., 2022). Methods such as Surf Graph requirements. The scope of this algorithm ranges from linear
+circumvent these limitations by employing subgraph models to sophisticated deep learning architectures, each with its
+representations that describe adsorbate chemical environments, own merits for specific tasks and materials systems. Some of the
+allowing the balance of end-to-end feature learning with initial methods to predict catalyst properties employed linear
+chemical intuition in characterizing local interactions essential for regression, support vector machines, and decision trees. These
+catalysis (Ghanekar et al., 2022). models are not too complicated, not too complex, are not too
+Because learned representations are “black box,” interpretable costly, and are attractive in terms of downstream speed and
+featurization strategies that sacrifice some physical intuitions are understandability (Li et al., 2023). This suite of features provides
+often used. Descriptor-based methods, e.g., using physically accurate classification of solid-solution phases of HEAs, with
+meaningful features (e.g., d-band centre, coordination numbers, varying lengths of descriptor ensembles, and support vector
+or adsorption energies), are interpretable but tend to have lower machines can work with highly complex decision boundaries in
+predictive power than learned representations. Physics-informed the higher-dimensional space of the descriptors. The kernel ridge
+machine learning merges the (while also without loss of generality regression is a generalised linear technique that transforms the
+Frontiers in Chemistry 09 frontiersin.org
+
+Kudapa et al. 10.3389/fchem.2026.1894425
+TABLE 4 Comparison of common ML interatomic potentials for electrocatalysis simulations. Source.
+Potential Architecture Key features Typical Computational Best suited for Key
+name type accuracy cost reference
+(MAE)
+SchNet Continuous- Rotationally invariant, ~0.05 eV (energies), Medium Molecular dynamics, Schütt et al.
+filter CNN end-to-end learning ~0.05 eV/Å (forces) adsorption energies (2018)
+DimeNet++ Directional message Includes angle ~0.03 eV (energies) High Oxide surfaces, complex Gasteiger et al.
+passing information, 3-body coordination (2022)
+interactions environments
+GemNet Geometric message 4-body interactions ~0.02 eV (energies) Very high Large-scale interface Gasteiger et al.
+passing (dihedral angles) simulations (2024)
+MACE Atomic cluster Many-body expansion, ~0.01 eV (energies) Medium High-entropy alloys, Batatia et al.
+expansion linear scaling disordered systems (2023)
+Allegro Local equivariant Strictly local, E(3) ~0.02 eV (energies) Medium-High Large systems Musaelian et al.
+transformer equivariant (>10,000 atoms) (2022)
+vector of inputs into a higher dimensional feature space, to represent In general, the figure illustrates the growing importance of data-
+nonlinearities in convex optimisations that define locality of extrema driven approaches to more rapidly discover alloys for
+and minimise risk. But as the datasets became larger and more electrocatalysis and to minimise the time spent on full trial-and-
+complex, so did the techniques. Random forests leverage predictions error experiments.
+from hundreds of decision trees, which prevents overfitting when A comparative chart positioning common ML algorithms
+ranking feature importance (i.e., dictating which descriptors have (linear models, random forests, GNNs, PINNs, generative
+the most influence on catalytic performance). Gradient boosting models) along three axes: interpretability, computational
+machines such as XGBoost, LightGBM, and CatBoost improve complexity, and predictive capability. It helps readers decide
+iteratively upon their predictions by focusing on samples that which algorithm class suits a given task–fast, interpretable
+were previously mis predicted and have achieved state-of-the-art models for descriptor mining versus high-capacity deep networks
+performance for moderate-sized training sets (Chen et al., 2025) for adsorption energy prediction–while acknowledging the inherent
+over tabular data. trade-offs. Now, deep learning architectures have taken over for
+Table 4 a technical comparison of five state-of-the-art ML advanced material representations. Convolutional neural networks,
+interatomic potentials: SchNet, DimeNet++, GemNet, MACE, which emerged as a breakthrough for image recognition tasks, lend
+and Allegro. For each, it specifies architecture type, key features themselves to periodic systems through the adaptation of electron
+(e.g., rotational invariance, many-body expansion), typical accuracy density maps or charge densities generated from DFT calculations.
+(MAE relative to DFT), computational cost, and best-suited Graph neural networks (GNNs) such as message-passing neural
+applications (e.g., high-entropy alloys, oxide surfaces, large-scale networks, graph convolutional networks, and graph attention
+interfaces). This table complements the algorithmic discussion by networks operate directly on atomic structures and learn to
+focusing specifically on potentials used for atomistic simulations, propagate information through neighbour graphs in order to
+helping researchers select the right tool for tasks like adsorption predict properties at a global, atomic, or bond level (Resasco
+energy prediction or molecular dynamics. et al., 2022). During this period, ML has emerged as a powerful
+Figure 6shows representative machine learning workflows used tool to model heterogeneous catalysis, particularly in the form of so-
+for the rational design and optimization of alloy electrocatalysts for called neural network potential energy surfaces, which capture the
+the hydrogeneration reaction. They show how the combination of local chemical surroundings that determine catalytic activity and
+descriptor engineering, graph-type structural representations, and yield homogenous DFT-like accuracy for adsorbate energies over
+machine learning models with the help of soap can facilitate the replicates of slightly different surface structures. In this domain, the
+identification of catalytically active alloy compositions and Open Catalyst project has accelerated progress significantly by
+adsorption sites at a faster pace. Subfigure (a) illustrates the providing standardized benchmarks and large-scale datasets.
+linkages among structural description, geometric structure, and Graph neural network architectures—CGCNN, SchNet,
+electronic description and the combination of these with density DimeNet++, and later variants—systematically enhanced energy
+functional theory-based adsorption energetics. Subfigure (b) and force predictions, where larger models outperformed smaller
+illustrates an iterative active-site optimisation process for ones (Chanussot et al., 2021). However, this brute-force data-scaling
+identifying active sites in Pd-based alloys. The remarkable ability approach may still require further advances in architecture to
+of graph representations and machine learning-assisted screening to accomplish chemical accuracy (≈0.05 eV) of adsorption energies
+encode the local coordination environment and to identify across disparate materials.
+favourable adsorption configurations in complex multi-metallic Graph neural networks (GNNs) have a fundamental
+catalyst systems is further highlighted in subfigures (c) and (d). operating principle and predictive ability in materials
+Frontiers in Chemistry 10 frontiersin.org
+
+Kudapa et al. 10.3389/fchem.2026.1894425
+FIGURE 6
+Alloy optimization and screening for hydrogen evolution reaction (HER). (a) Process of descriptor generation and machine learning-based prediction
+of the energetics of hydrogen adsorption in binary and ternary alloy systems, including descriptors related to structure, electronic structure, and
+coordination. (b) Development of a machine-learning-based model to find optimal adsorption sites and atomic structures of Pd-Ni-Cu alloy catalysts. (c)
+A representation of doped catalyst structures based on graphs that can be used to learn local atomic environments and their adsorption behaviour.
+(d) For multi-metallic Cu-based alloy nanoclusters, with near-thermoneutral hydrogen binding energies, predict optimal hydrogen adsorption sites (Ding
+R. et al., 2024).
+informatics and electrocatalysis applications, as shown in their ability to predict catalyst properties from the catalyst’s
+Figure 7. Subfigure (a) illustrates the message-passing model structure and composition.
+employed, in which the local atomic environment is represented Example of diagram of a GNN message passing framework.
+as an atomic feature and propagated from neighbouring nodes Represents how neighboring atoms (such as types of elements, bond
+and edges to model a chemically meaningful representation of distances) will be recursively added and modified to generate
+the local environment. This allows GNNs to learn structural, predictions of properties at the atomic level or for the entire
+geometric, and electronic interactions directly from atomic molecule. The figure uncovers the “black box” aspect of GNN by
+configurations without requiring manually designed clearly showing the information flow, and it is directly connected
+descriptors. To demonstrate this evolution, Figure (b) shows with the explanation provided in the text regarding how GNNs learn
+the predictive accuracy of several advanced GNN models on chemical environments. The model-driven design for catalysis is one
+several molecular properties, where the accuracy of graph-based of the leading new applications of ML in the field of catalyst design.
+deep learning models keeps improving as they become more Learning the underlying distribution of crystal structures from
+complex. The structures highlight the increasing relevance of training on such stable structures allows generative models, such
+message-passing neural networks as an effective method for as variational autoencoders, GANs, and diffusion models, to
+catalyst property prediction and materials discovery, given synthesize materials with desired properties without the need to
+Frontiers in Chemistry 11 frontiersin.org
+
+Kudapa et al. 10.3389/fchem.2026.1894425
+FIGURE 7
+Use of message passing and prediction accuracy for molecular and crystalline materials modelling using graph neural networks. (a) Schematic
+picture of the message-passing operation in graph neural networks, showing the iterative exchange of information between neighbouring atomic
+environments in molecular and crystalline systems. (b) Comparative evaluation of the performances of state-of-the-art graph neural network
+architectures on predicting molecular electronic properties like energy, HOMO and LUMO energies (Reiser et al., 2022).
+TABLE 5 Machine learning algorithms for electrocatalyst design source (Chen et al., 2025; Li et al., 2023; Wang S.-H. et al., 2021; Zhou et al., 2026).
+Algorithm class Representative models Key strengths Limitations Typical applications
+Interpretable Models Linear regression, decision trees, High interpretability, low data Limited capacity for complex, Descriptor discovery, design
+symbolic regression requirements, fast training non-linear relationships rule extraction
+Ensemble Methods Random forest, XGBoost, Good balance of accuracy and Less effective for complex Property prediction, feature
+LightGBM, CatBoost interpretability, handles tabular data structural data importance ranking
+well
+Graph Neural Networks CGCNN, SchNet, DimeNet++, Learns directly from atomic Black-box, high data demand, Adsorption energy prediction,
+(GNNs) GemNet, MEGNet structure, high accuracy computationally intensive virtual screening
+Generative Models VAE, GAN, diffusion models, Inverse design, de novo structure Requires careful conditioning, New alloy/perovskite
+LLMs generation, novelty exploration synthesizability gap generation, multi-objective
+design
+Physics-Informed Neural PINN variants, concept bottleneck Embeds domain knowledge, Complex architecture design, Stability forecasting, Pourbaix
+Networks (PINNs) models physically consistent predictions training challenges diagram prediction
+forward screen (Zhou et al., 2026). These models, when paired with such as the random forest and the XGBoost; graph neural
+property predictors and optimisation algorithms, can suggest new networks, such as CGCNN and SchNet; generative models,
+compositions and structures that meet multiple design targets such as the variational autoencoder (VAE), the generative
+(activity, stability, cost, and synthesizability). adversarial network (GAN), and diffusion models; and physics-
+In Table 5, we summarize the key families of ML methods that informed neural networks (PINNs). The table shows the strengths
+can be applied to electrocatalyst design: interpretable models, and limitations of each class: interpretability, accuracy, inverse
+such as linear regression and decision trees; ensemble models, design and data demand, opacity and complexity, respectively.
+Frontiers in Chemistry 12 frontiersin.org
+
+Kudapa et al. 10.3389/fchem.2026.1894425
+For readers, it is a convenient tool to follow the path of the choices enhance extrapolation beyond the training sets, reduce data
+that are given in the body of the text starting from quick (fast) requirements, and increase physical consistency. However,
+descriptor mining and reaching the black box deep learning. their implementation remains computationally challenging and
+When employing one algorithm in predictive scenarios over must be carefully formulated with physical constraints
+another, in addition to predictive performance, one should governing it.
+consider the need for interpretability, computational costs, and
+uncertainty quantification. On one extreme there are simple 3.5 Explainable artificial intelligence for
+models or decision trees that are easy to follow and can only catalyst design
+capture limited concepts, and on the other extreme there are high-
+capacity deep networks that attain to higher accuracy, but a With the growing complexity of machine learning models, the
+corresponding loss of transparency. PINNs directly embed the importance of model interpretability is increasing as well,
+physics knowledge into the architecture or loss function of the alongside prediction accuracy. Explainable Artificial
+network, which is how they can be made interpretable without Intelligence (XAI) offers tools to identify the physicochemical
+compromising deep learning capabilities (Wang S. et al., 2021). factors underlying model predictions and allows one to gain
+Similarly, Bayesian methods and ensemble approaches yield scientific insight beyond the mere predictions themselves.
+natural uncertainty measures which can help guide Methods that assign importance to each feature, such as SHAP
+experimental testing to promising candidates, provide a way (SHapley Additive exPlanations) and Local Interpretable Model-
+for the researcher to gain confidence in the model at any time, agnostic Explanations (LIME), quantify the relative importance of
+and help inform regions of chemical space that may lead to new features such as d-band centre, electronegativity, coordination
+opportunities. Note that there is now a rise in many architectures, number, adsorption energy, and crystal symmetry in determining
+and therefore, all other parts of the training process. The most the predicted catalytic performance. These approaches allow
+effective methods combine several of the above, such as using researchers to determine the main descriptors of the catalyst
+graph neural networks to encode the structure, transferring and to check the machine-learning predictions against known
+knowledge from related data sets, using active learning to electrochemical principles. GNNExplainer and attention
+gradually select most informative examples as training data, visualisation are methods used to identify catalytically active
+and employing multi-objective optimisation to address atomic environments responsible for predicted adsorption
+conflicting design objectives. The immense toolbox can be used energies in GNNs. These methods can greatly enhance the
+to search and optimise electrocatalysts for sustainable energy reliability of deep learning models and help to design catalysts
+applications considerably faster when used judiciously. more rationally by uncovering new structure–property
+relationships. The emerging symbolic regression methods also
+3.4 Critical comparison of machine learning enhance interpretability by developing explicit mathematical
+approaches for electrocatalyst discovery models that relate catalyst descriptors to electrocatalytic
+activity. These interpretable models could someday connect the
+In addition to traditional reviews that primarily provide an dots between the traditional descriptor-based approach to catalyst
+overview of algorithmic advances, assessing the practical viability design, and modern deep learning.
+of various machine learning methods for catalyst discovery is
+crucial. Classical machine learning algorithms like Random Forest
+4 Strategic applications of ML across
+(RF), Support Vector Machines (SVM) and Gradient Boosting
+the catalyst lifecycle
+Machines (GBM) typically work well with relatively small data
+sets, because they have a good tolerance of overfitting and can
+identify important descriptors that govern catalytic activity. All In the case of electrocatalyst R&D, the machine learning
+those techniques, however, rely heavily on artificially designed techniques are especially appropriate as they can be used to
+descriptors and do not capture complex atomic interactions in guide the process of discovery, mechanistic understanding,
+heterogeneous catalyst systems. To address many of these synthetic realisation, and performance benchmarking at all the
+challenges, deep learning models, notably Graph Neural stages of the overall process. This integration is aimed at
+Networks (GNNs), can be trained directly from crystal promoting rational design and utilization of highly efficient,
+structure, thereby avoiding the need for handcrafted durable catalysts for important electrocatalytic processes (Guo
+descriptors to learn atomic environments. They are good at et al., 2024; Salami et al., 2025).
+predicting adsorption energies and catalytic activities across A representative list of six electrocatalyst discoveries using ML
+large chemical spaces due to their ability to model local is provided in Table 6, and these discoveries have been
+coordination, electronic interactions, and surface geometries. successfully validated in the lab. The entries include a
+However, GNNs place significant demands on data size, description of the catalyst system, target reaction (HER/OER),
+training time, and computational resources. Moreover, they are ML approach (random forest + Bayesian optimisation, GNN +
+black-box models: although they perform well at prediction, there high-throughput screening, etc.), key finding, measured
+is not necessarily a scientific understanding of this type of model. performance (overpotential, stability, mass activity), and
+Combining electrochemical constraints into model training by citation. This table, which appears just before Section 4.1,
+physics-informed neural networks or hybrid ML-DFT shows the practical impact of ML in real applications, from
+frameworks can offer an attractive compromise. These methods high-entropy RuO (1500 h stability) to ternary Pt alloys (8×
+2
+Frontiers in Chemistry 13 frontiersin.org
+
+Kudapa et al. 10.3389/fchem.2026.1894425
+TABLE 6 Representative ML-driven electrocatalyst discoveries with experimental validation.
+Catalyst system Target ML approach Key finding Experimentally validated References
+reaction performance
+NiFe-LDH with dopants OER (alkaline) Random forest + Bayesian Identified Cr and Mo as optimal Overpotential ~220 mV @ Xu S. et al.
+optimization co-dopants 10 mA cm−2, stability >500 h (2024)
+High-entropy RuO2 OER (acidic) Graph neural network + Multi-cation synergy prevents Overpotential ~180 mV @ Qian et al. (2023)
+high-throughput screening Ru dissolution 10 mA cm−2, 1,500 h stability
+Ternary Pt-alloys (Pt- HER (acidic) Symbolic regression + Optimal composition: Mass activity 8× higher than Pt/C Cao et al. (2025)
+Pd-Au) volcano mapping Pt45Pd35Au20
+Perovskite oxides (BaxSr1- OER (alkaline) Transfer learning + GNN Ba0.5Sr0.5Co0.8Fe0.2O3 Overpotential ~320 mV @ Jiang et al. (2021)
+xCo_yFe1-γO3) identified as optimal 10 mA cm−2
+Single-atom catalysts HER (all pH) Descriptor-based ML + DFT Fe-N4-C with axial OH ligand ΔG_H ≈ −0.05 eV, near-Pt activity Li (2022)
+(M-N-C, M = Fe, Co, Ni) screening predicted
+High-entropy alloys (Cr- OER (alkaline) Multi-objective Bayesian Equimolar composition with Overpotential ~260 mV @ Xu S. et al.
+Mn-Fe-Co-Ni) optimization 5% Mo addition 10 mA cm−2 (2024)
+higher activity than Pt/C), thereby rooting the ensuing strategic 4.1.1 High-throughput discovery of novel alloys,
+discussions in tangible applications. perovskites, and SACs
+4.1 Activity prediction and virtual screening The engine behind modern materials discovery is high-
+throughput computational screening combined with quantum-
+The most developed use of these machine learning techniques is mechanical approaches. Machine learning (ML) models trained
+the prediction of catalytic activity from materials descriptors; on DFT calculations can predict important properties such as
+normally, a compositional database contains millions of potential adsorption energies, formation energies, band gaps over
+materials, and high-throughput screening of these is only possible if compositional spaces so large that full ab initio exploration is still
+they can be predicted as catalysts. Instead of having to analyze and a daunting task, intractable by brute-force (Oh et al., 2024). This
+characterize several thousand materials experimentally, the ML capability is transformative for high-entropy alloys: ML models
+models allow virtual screening that is, consider millions of traverse the near-infinite combinatorial space of multi-metallic
+candidates in silico, but focus experiments on the most promising compositions, uncovering candidates that defy conventional
+ones (Schrier et al., 2023). scaling relations and display unprecedented activity (Xu W. et al.,
+As shown in Figure 8, a comprehensive framework for high- 2024). Incorporation of computationally verified structural models
+throughput screening and optimisation of Hydrogen Evolution into active learning workflows reduces the need to rely on purely ab
+Reaction (HER) electrocatalysts using a machine learning initio methods by orders of magnitude (Lan et al., 2023), while
+approach is presented. A comprehensive framework for high- predictions are iteratively improved.
+throughput screening and optimization of Hydrogen Evolution ML models predict band edge positions and optical absorption
+Reaction (HER) electrocatalysts by a machine learning approach spectra for perovskite oxides to direct the discovery of photocatalysts
+is demonstrated in Figure 8. Subfigure (a): Combination of for solar-driven water splitting (Oh et al., 2024). First-principles
+graph neural network architectures, structural descriptors and calculations revealed that perovskite materials can possess a
+the adsorption energetics from a density functional theory favourable band gap and align right between the conduction
+calculation for quick prediction of catalytic activity for band of water oxidation and the valence band of water reduction
+complex multi-element alloy systems. (b) Shows the for overall water splitting. Likewise, for single-atom catalysts, ML
+automated workflow to build adsorption databases and train models traverse the expansive design space of metal centres,
+machine learning potentials to speed up structural optimization coordination environments, and supports to deliver hydrogen
+and energy calculations of adsorption. The adsorption-energy adsorption free energies at near-Density Functional Theory
+landscape visualization in (c) shows how dimensionality- (DFT) accuracy and identify systems with comparable or
+reduction techniques can be used to identify clusters of superior performance to platinum (Li et al., 2023; Wang C.
+promising catalyst candidates with near-optimal hydrogen et al., 2025).
+adsorption behavior, and (d) statistically maps the The full machine learning approach to the idealized engineering
+distribution of adsorption energies to pick out the of descriptors and fast discovery of MXene derived electrocatalysts
+thermoneutral HER-active surfaces. Together, the figure for the hydrogen evolution reaction is illustrated in Figure 9. The
+showcases a dramatic decrease in computational requirements pristine and transition-metal-modified MXene systems are
+and thus the speed of exploring the vast compositional space of engineered to optimize the hydrogen adsorption properties by
+catalysts by machine learning, allowing the discovery of efficient structural tuning, as shown in subfigures (a–c). The integrated
+electrocatalysts. workflow concept is expanded in subsection (d) to include high-
+Frontiers in Chemistry 14 frontiersin.org
+
+Kudapa et al. 10.3389/fchem.2026.1894425
+FIGURE 8
+(a) Machine learning workflow for multi-element electrocatalyst screening via descriptor engineering, gNN models and density functional theory
+(DFT) derived adsorption energetics. (b) Stable structure selection, adsorption site generation, training adsorption energy machine learning potentials and
+prediction steps of building a high-throughput adsorption database, and an iterative optimisation pipeline. (c) Distributed stochastic neighbours
+embedding (t-SNE) visualisation of the adsorption-energy landscapes for each alloy surface analysed to identify candidate regions for structures with
+hypothetical optimal hydrogen adsorption energy. (d) Statistical distribution of hydrogen adsorption energies (ΔEh) of screened surfaces with
+identification of near-thermoneutral HER-active catalyst candidates (Ding R. et al., 2024).
+throughput computation, electronic structure theory and machine performing MXene catalysts with near-optimal hydrogen-
+learning to generate descriptors and to screen catalysts. Subfigures adsorption energetics. The figure shows the overall picture of
+(e–g) test the predictive power of several regression models for how descriptor-driven machine learning frameworks could
+hydrogen adsorption free energies as a function of the structural increase the speed of rational catalyst design without
+descriptors; in subfigure (h), we focus on the use of symbolic compromising on the mechanistic interpretability. An ML-
+regression for deducing interpretable physicochemical descriptors assisted screening pipeline is enabled for hydrogen-evolution
+that govern the catalytic activity. Lastly, subfigures (i–l) demonstrate catalysts. It begins with the engineering of descriptors (d-band
+the reliability of the newly derived descriptors in predicting high- centre, electronegativity, etc.), which then go through a workflow
+Frontiers in Chemistry 15 frontiersin.org
+
+Kudapa et al. 10.3389/fchem.2026.1894425
+FIGURE 9
+Machine learning-assisted descriptor engineering and screening of MXene-based HER electrocatalysts. (a–c) Atomic structures of pristine and
+transition-metal-modified MXene systems illustrating adsorption-site configurations and compositional engineering strategies. (d) Integrated high-
+throughput computational and machine learning framework for descriptor discovery, catalyst screening, and hydrogen adsorption prediction in MXene
+electrocatalysts. (e–g) Performance evaluation of multiple regression models for predicting hydrogen adsorption free energy (ΔGh), including
+feature selection, correlation analysis, and model validation metrics. (h) Symbolic learning workflow for identifying interpretable catalyst descriptors from
+electronic and structural parameters. (i–l) Validation and screening of newly designed MXene catalysts using machine learning-predicted adsorption
+energetics and descriptor-guided optimization (Li et al., 2023).
+Frontiers in Chemistry 16 frontiersin.org
+
+Kudapa et al. 10.3389/fchem.2026.1894425
+that includes model training, prediction of ΔG_H or overpotential, It highlights how graph neural networks can learn correlations
+and experimental validation. The figure provides a practical HER between crystallography, composition, and dissolution potential,
+example that connects general screening considerations to a enabling long-term stability forecasts without exhaustive lifetime
+concrete case, illustrating the efficient screening of low- testing. This figure directly addresses the gap between activity and
+dimensional catalysts (e.g., SACs, 2D materials). practical durability.
+4.1.2 Predicting multi-functional activity for overall 4.2.1 Modelling dissolution, phase transformation,
+water splitting and surface reconstruction
+ML can also predict not only the catalytic performance of a Harsh electrochemical environments, such as those found in
+single reaction but also materials that are optimal for both HER and water electrolysis (e.g., under highly acidic or alkaline electrolytes,
+OER, meeting the requirements for effective overall water splitting. oxidizing potentials, and elevated temperatures), activate several
+This necessitates models that maximize multiple catalytic degradation pathways. As a result, catalyst dissolution leaches
+descriptors at once through the identification of bifunctional active metals into the electrolyte, gradually deactivating the
+materials with the ability to operate robustly across different electrode. Active surface structures are phase-transformed to
+electrochemical conditions encountered at the cathode and anode inactive forms. Surface reconstruction enables atomic-level
+(Li et al., 2023). rearrangement, thereby modulating active-site populations and
+Multi-objective optimization frameworks incorporate binding energetics. Models using operando characterization data
+independent predictors of HER and OER activity, balancing the for machine learning can also predict susceptibility to these
+trade-off between these two half-reactions to identify compositions degradation mechanisms (Zhang H. et al., 2024). Graph neural
+that can lead to optimal performance. Such approaches have led to networks learn the crystallography of a metal oxygen bond and its
+the identification of bifunctionally active transition metal composition to find associations with dissolution potential. This
+phosphides and chalcogenides, with activities approaching enables identification of vulnerable sites that are likely to cleave at
+precious metal benchmarks (Ding R. et al., 2024). For example, anodic conditions. In the case of high-entropy alloys, ML models
+graph neural networks trained on datasets containing both half- predict how surface composition determines resistance to
+reactions learn joint representations that reflect the underlying leaching and passivation (Wang C. et al., 2025). Using direct
+electronic descriptors controlling both HER and OER, thereby state inputs, time-series models trained on extensive electrolysis
+indirectly enabling prediction of overall water-splitting data predict performance trajectories, enabling the identification
+performance from composition alone. of failing catalysts long before expensive long-term testing. Most
+stable catalysts now exhibit extraordinary stabilities, e.g., high-
+4.2 Stability and durability forecasting entropy RuO - based systems have managed continuous
+2
+operation of over 1,500 h at 100 mA cm−2 without significant
+Activity predictions alone are insufficient for practical catalyst degradation, directly tackling concerns regarding OER stability
+development; only long-term stability under realistic conditions can (Qian et al., 2025) broadly shared by many conventional OER
+validate a catalyst’s commercial prospects. Recent solutions to this electrocatalysts. Machine-learning (ML) analysis reveals that
+challenge are based on machine learning models that predict cooperative interactions among multiple cations stabilise active
+degradation mechanisms and durability throughout the Ru sites, preventing the over-oxidation and dissolution pathways
+catalyst lifecycle. that rapidly deactivate pure RuO .
+2
+Figure 10 illustrates the application of machine learning
+methodologies for predicting stability, compositional evolution, 4.2.2 Limitations of static machine learning models
+and electrocatalytic performance in high-entropy alloy (HEA) for long-term stability prediction
+systems. Subfigure (a) demonstrates the use of machine learning-
+assisted Monte Carlo simulations to optimize nanoparticle atomic While GNNs have been trained on static crystal structures with
+arrangements and identify energetically favorable configurations. great success to predict adsorption energies and catalytic activity,
+Subfigure (b) presents a stability-analysis workflow in which long-term catalyst durability is much more difficult. Electrochemical
+machine learning-derived interatomic potentials are employed to degradation is a dynamic physicochemical phenomenon, which
+model surface atom dissolution and structural evolution under encompasses surface reconstruction, lattice distortion, dissolution
+catalytic operating conditions. Subfigure (c) compares machine of cations, migration of defects, catalyst-support interactions,
+learning-predicted onset potentials with experimentally measured electrolyte effects, and morphological evolution and requires long
+values across a ternary Pt–Rh–Sn compositional space, highlighting operation times.
+the predictive capability of data-driven models for screening stable These time-dependent structural changes are not accounted for
+and catalytically active alloy compositions. Collectively, the figure in static crystal graph representations and therefore cannot be
+demonstrates how machine learning frameworks can accelerate directly predicted for the degradation of catalysts over thousands
+stability forecasting and compositional optimization in complex of hours of operation. The limitations are partially overcome by
+multi-element electrocatalyst systems while significantly reducing recent advances in machine-learning interatomic potentials,
+computational and experimental costs. A schematic of an ML-based temporal graph neural networks, and physics-informed neural
+framework that predicts degradation pathways–dissolution, surface networks, which explicitly incorporate atomic trajectories and
+reconstruction, phase transformation–under operando conditions. time-dependent structural evolution as graphs.
+Frontiers in Chemistry 17 frontiersin.org
+
+Kudapa et al. 10.3389/fchem.2026.1894425
+FIGURE 10
+Machine learning-driven stability prediction and compositional optimization of high-entropy alloy electrocatalysts (Ding R. et al., 2024).
+4.3 Mechanistic insight and intermediates give rise to theoretical minimum overpotentials
+descriptor discovery that cannot be overcome simply by surface engineering. Machine
+learning provides rules to identify materials for which these scaling
+In addition to prediction, machine learning provides powerful relationships do not hold, allowing separate optimization of multiple
+tools for interrogating the fundamental mechanisms driving reaction intermediaries (Govindarajan et al., 2019). Again, high-
+catalytic activity, highlighting hidden correlations, identifying entropy alloys prove to be exemplary: their rich local coordination
+non-intuitive descriptors, and suggesting material designs that environments generate a distribution of adsorption sites suitable for
+break through conventional limits. the simultaneous optimisation of the binding of distinct
+intermediates. Conventional scaling between OH, O, and OOH
+4.3.1 Uncovering hidden correlations and non- adsorption energies breaks down for candidates identified from
+intuitive descriptors thousands of alloy compositions by ML models trained to predict
+these properties (Xu S. et al., 2024). Atomically dispersed catalysts
+Established descriptors like d-band centre, coordination tethered on purpose-built supports can reach nonconventional
+number, and adsorption energies have been used to rationalise anchoring geometries via metal-support interactions that extend
+activity trends in traditional catalysis research. Although there adsorbate bonding beyond the capabilities of three-dimensional
+are challenges associated with data mining, machine learning can macroscopic surfaces.
+discover new descriptors that capture previously unrecognized Figure 11 illustrates the use of accelerated exploration and
+factors controlling performance (Mou L. et al., 2023; Mou T. optimization of complex multicomponent electrocatalyst systems
+et al., 2023). Feature importance analysis of trained models has by machine learning and Bayesian optimization strategies. The local
+shown which combinations of structural and electronic properties coordination environments and the adsorption site configurations
+correlate best with catalytic outcomes, often identifying sets of in compositionally complex alloys that control catalytic activity are
+features that describe catalytic activities more strongly than parameterised as shown in (a). Subfigure (b) shows machine
+traditional single descriptors. learning-based analysis of adsorption-energy distributions as well
+For high-entropy alloys, machine learning (ML) models trained as electrochemical polarisation behaviour and spatial activity maps
+on large-scale density functional theory datasets have identified of the heterogeneous catalyst surfaces, which were used to identify
+d-band filling and differences in local electronegativity that high-performance compositional domains. Subfigure (c) illustrates
+enable mapping of adsorption energies to numerous active sites the process of the Bayesian optimization workflow that dynamically
+(Cao et al., 2025). While traditional heuristic approaches would balances exploration and exploitation to efficiently traverse the high-
+leave these subtle correlations buried beneath more complex dimensional compositional space in the least number of
+interactions, such composite descriptors may reveal insights into experiments. Finally, as shown in subfigure (d), subfigure
+the true multi-element synergy that governs reactivity in multi- compositional mapping of quinary alloy libraries made by co-
+metallic systems. However, this is still impossible for catalysts with sputtering methods is performed to see how the automated
+long-range order structures due to various degrees of disorder in experimentation and data-driven optimization are integrated in
+coordination around active sites; it is well documented that the current electrocatalyst discovery. This figure highlights the
+structure–property correlations fail (Wang C. et al., 2025), yet impact of machine learning on the rapid rational formulation
+ML models trained on local coordination environments discover and screening of complex alloy electrocatalysts, in sharp contrast
+structural motifs that correlate with activity and can thus enable to conventional trial-and-error approaches.
+rational design despite structural disorder. A conceptual diagram of the ΔG_OH vs. ΔG_OOH relationship,
+which shows the decoupling between the conventional linear
+4.3.2 Informing the design of materials to break correlation using ML guided strategies (high entropy alloys,
+scaling relations single atom catalysts and support effects). The identification of
+materials with a broad adsorption energy distribution enables the
+The scaling relations that limit conventional catalyst design design of catalysts with OER overpotentials below the theoretical
+linear correlations between the adsorption energies of different volcano limit, a major finding of the mechanistic insight subsection.
+Frontiers in Chemistry 18 frontiersin.org
+
+Kudapa et al. 10.3389/fchem.2026.1894425
+FIGURE 11
+Machine learning-guided compositional optimization and activity mapping of multicomponent electrocatalyst systems. (a) Local atomic
+coordination environments used to parameterize adsorption-site configurations and nearest-neighbor interactions in complex alloy catalysts. (b)
+Surface-binding energy distributions, polarization behavior, and activity maps generated for compositionally complex catalytic surfaces using machine
+learning-assisted screening. (c) Bayesian optimization workflow for iterative exploration of multicomponent compositional spaces through
+uncertainty-guided acquisition and activity prediction. (d) High-throughput compositional mapping of quinary alloy catalyst libraries illustrating spatial
+distributions of elemental concentrations across co-sputtered electrocatalyst systems (Ding R. et al., 2024).
+4.4 Synthesis pathway optimization vacancies or metal cation defects act as active sites for OER or
+HER, for defect-engineered catalysts (Li et al., 2023). Bayesian
+To advance the proof-of-concept synthesis to experimental optimisation then explores the high-dimensional synthesis space
+production, machine learning is being used to identify efficiently, and the optimal conditions are determined after a much
+correlations between processing parameters and material smaller number of experiments than an experimentalist typically
+properties, thereby informing synthesis optimisation. The performs to achieve an optimal condition.
+morphology, particle size distribution, and defect density of the The integrated machine learning workflow shown in Figure 12
+catalysts strongly depend on the synthesis conditions (temperature, can be used to narrow down the search, screen, and validate high-
+pressure, precursor concentration, heating rate, atmosphere), and entropy alloy (HEA) electrocatalysts, thereby fast-tracking the
+consequently on the catalyst performance. Machine learning models electrocatalyst discovery process. Data-driven compositional
+trained over synthetic–property datasets can learn such complicated design of multicomponent alloy systems is followed by
+relationships, thereby aiding in rational synthetic protocol automated high-throughput synthesis of catalyst arrays through
+optimization (Slautin et al., 2024). ML models can also be used precursor-printing strategies. Finally, scanning electrochemical
+to forecast how changes in synthesis parameters affect the size cell microscopy is used to perform rapid intrinsic activity
+distribution, shape, and exposed facets of nanoparticle catalysts, screening, efficiently obtaining a large electrochemical data set.
+all of which influence the availability of active sites and catalyst These experimental results are then fed into ensemble machine
+selectivity. Relationships between annealing conditions and vacancy learning models such as random forests, gradient boosting,
+concentration and type help to design materials where oxygen XGBoost, and neural networks to accurately predict activity
+Frontiers in Chemistry 19 frontiersin.org
+
+Kudapa et al. 10.3389/fchem.2026.1894425
+FIGURE 12
+Machine learning-assisted high-throughput workflow for accelerated discovery and validation of high-entropy alloy electrocatalysts (i) Selection and
+optimization of high-entropy alloy elemental compositions using data-driven and machine learning-guided design strategies. (ii) High-throughput
+synthesis of compositionally diverse high-entropy alloy catalyst libraries through automated precursor printing approaches. (iii) Rapid electrochemical
+screening of intrinsic catalytic activity using scanning electrochemical cell microscopy (SECCM). (iv) Construction of electrocatalytic activity
+databases using ensemble machine learning models, including random forest, gradient boosting, XGBoost, and neural network frameworks. (v)
+Experimental transfer validation of machine learning-recommended high-performance electrocatalyst candidates (Jin et al., 2025).
+across a set of activity databases, thereby providing optimal catalyst 4.5 Inverse design
+compositions. Lastly, machine learning-recommended
+electrocatalysts are benchmarked against experiments using The pinnacle of artificial intelligence in materials discovery is
+validated transfer learning methods. Overall, the figure illustrates inverse design: defining target performance metrics and generating
+how the combination of automation, multi-scale experimentation candidate material structures de novo, without forward screening of
+and machine learning significantly reduces catalyst optimization the existing candidates.
+and discovery times for complex alloy systems. An AI-assisted
+optimization loop linking synthesis parameters (temperature, 4.5.1 Generative models for de novo catalyst
+precursor ratio, heating rate) to catalyst morphology (particle design from target properties
+size, defect density) and ultimately to electrocatalytic
+performance. The figure shows how Bayesian optimization and Generative machine learning models (like variational
+active learning navigate high-dimensional synthesis spaces to find autoencoders, generative adversarial networks, and diffusion
+optimal protocols with far fewer experiments, bridging the models) learn the underlying distribution of stable crystal
+computational-experimental divide. structures from high-throughput datasets of known materials.
+Once trained, these models can then create new structures
+4.4.1 Guiding the synthesis of predicted materials conditioned on target properties: generate a crystal structure with
+a target adsorption energy, band gap, or formation energy (Zhou
+The distance between computationally predicted candidates and et al., 2026). For electrocatalyst design, generative models
+experimentally obtainable materials is often quite large. Massively conditioned on target ΔGH values can suggest new compositions
+parallel screening of high-throughput synthesis outcomes from the and structures predicted to exhibit optimal hydrogen binding. These
+literature with ML models can predict whether a composition and candidates are often produced that strays significantly from known
+structure can be synthesized using conditions within reach families of materials, probing chemical spaces that traditional
+(Szymanski et al., 2023). These predictors of synthesizability intuition would never venture into. Property predictors then
+enable filtering of results from computational screening, allowing assess the generated candidates, and the most promising of these
+prioritisation of candidates likely to be amenable to experimental proceed to downstream validation via DFT calculations, synthesis,
+access. Autonomous synthesis platforms now close the loop: robotic and testing. High-entropy alloys offer a particularly rich target of
+systems execute ML-recommended synthesis protocols and generative design: the enormous compositional space cannot be
+characterize products, relaying results back to continuously refine exhaustively mined, yet generative models can suggest multi-
+models (Zhu et al., 2023). These self-driving laboratories run metallic compositions that are expected to yield optimum
+continuously, exploring synthesis spaces and optimizing protocols combinations of adsorption energies for multiple intermediates
+at orders of magnitude faster than human-driven experimentation. (Wang C. et al., 2025). Combined with synthesizability predictors
+Such platforms have identified optimum synthesized conditions for and automated synthesis platforms, generative models hold the
+newly predicted high-entropy alloy compositions, driving the potential to achieve the long-desired goal of rational materials
+computational catalyst predictions to catalysis. design in the truest sense, beginning with performance
+Frontiers in Chemistry 20 frontiersin.org
+
+Kudapa et al. 10.3389/fchem.2026.1894425
+specifications and concluding with experimentally validated confirmation. This synergy of DFT-grounded ML predictions and
+catalysts that meet them. This framework, which capitalizes on experiments can be integrated into a multi-fidelity optimization
+the synergy between activity prediction, stability forecasting, loop, which can then use speed with precision.
+mechanistic insight, synthesis optimization, and inverse design,
+will define the new paradigm of ML-accelerated discovery of 5.2 Physics-informed neural networks:
+electrocatalysts. By inter-looping computation and experiment, embedding domain knowledge
+prediction and validation, this approach holds the potential to
+accelerate the discovery of sustainable energy technologies by As good as purely data-driven neural networks are at prediction,
+orders of magnitude. they also tend to violate elementary physical laws, such as energy
+conservation, thermodynamic consistency, and rotational
+invariance, leading to predictions that are numerically inaccurate
+5 The closed loop: integrating ML with
+and physically impossible. A physics-informed method using neural
+computation and experiment
+networks bypasses this limitation by directly embedding knowledge
+of the governing equation into either the model architecture or the
+However, the most powerful impacts of machine learning in loss function (Wang S.-H. et al., 2021). The Governing equations
+electrocatalysis arise not from isolated predictions but from (Schrödinger equation, Poisson–Boltzmann relations, and
+synergistic combinations of ML and computational simulations, reaction–diffusion kinetics) are embedded as soft constraints
+along with experimental validation. This iterative cycle of designing during PINN training for electrocatalysis applications. For
+optimal experiments for discovery, followed by deploying improved instance, a PINN trained to predict adsorption energies may
+mechanistic understanding to continuously feed predictive models minimize error with respect to DFT data while simultaneously
+with minimal human cognition required, creates orders-of- satisfying consistency conditions: e.g., that the energy of a system
+magnitude circumventing intermediating models from should be invariant under rotations, or that adsorption energies for
+psychophysical predictions after reconciliation, through an related intermediates obey physically motivated scaling relations
+accelerated hypothesis generation workflow, and in alignment (Omranpour et al., 2025). This physics-based rationale leads to fewer
+(Tom et al., 2024). data requirements, enhanced extrapolation to out-of-distribution
+candidates, and ensures that the resulting predictions are physically
+5.1 The AI-guided workflow: prediction → meaningful at least for those areas of chemical space that are
+validation → learning underrepresented in the training set. In a study utilizing
+electrochemical thermodynamics as background knowledge, the
+Three interconnected stages of a closed-loop workflow. First, PINN method produces more accurate dissolution potentials and
+machine learning models are trained on historical data, and Pourbaix boundaries than purely data-driven methods for
+predictions are made across large chemical spaces to identify predicting electrocatalyst stability (Zhang H. et al., 2024).
+candidate materials that meet performance objectives. Properties. Incorporating the Nernst equation and transition-state theory as
+This enables high-velocity, iterative experimental campaigns based loss functions, these models will be governed by the fundamental
+on these predictions that focus synthesis and characterisation efforts relationships between potential, pH, and stability that drive the
+on the most promising candidates, rather than on random or degradation of materials in catalysis. Despite learning solely
+heuristic searches. And finally, test results whether they are in experimental data from a small subset of each relevant
+accord (or variance) with predictions–become part of model environment, the resulting predictions remain robust over very
+training so that predictive accuracy can be refined incrementally different environments at the electrolyte level.
+and iteratively, and the domain of trustworthy inference expanded
+(Wang W. et al., 2023). This iterative fine-tuning proves very useful 5.3 Active learning and Bayesian
+when dealing with complex and high-dimensional design spaces. optimization for efficient exploration
+Early-stage models using sparse data may exhibit high uncertainty or
+consistent bias. Each iteration provides a new set of training samples, The chemical space of potential electrocatalysts is effectively
+labelled to address any gaps the model may have at that point, and infinite, and exhaustive exploration can never become feasible, no
+active learning-based algorithms select which experiments to run to matter how many computational resources one may throw at the
+maximise their potential to improve the model’s performance. Over problem. Both active learning and Bayesian optimization offer
+successive cycles, the combined approach converged on superior approaches to selectively search this space, allowing the model to
+materials much more rapidly than is possible alone using choose which candidates are most informative (Deshmukh et al.,
+computation or experimentation (Rodríguez-Martínez et al., 2024) for evaluation at each step. Active learning algorithms strike a
+2021). The integration of Density Functional Theory calculations balance between exploration of regions of chemical space where
+is an added workflow to this method. An alternative approach can be uncertainty in the model is high and exploitation, descent on
+taken to train ML models on large DFT datasets, allowing them to predicted optimal material regions. This balance, learnt by itself
+learn how much quantum-chemical accuracy they achieve with using uncertainty quantification from ensemble methods, Bayesian
+minimal computational cost (Chen et al., 2025), rather than neural networks, or Gaussian processes lead us to the right
+relying solely on costly, long-running methods based on candidates where acquiring more data would best improve model
+experimental data. The ML surrogates process millions of robustness. For high-entropy alloy discovery, orders-of-magnitude
+candidates but take only the most promising on to experimental savings in the total number of required DFT calculations have been
+Frontiers in Chemistry 21 frontiersin.org
+
+Kudapa et al. 10.3389/fchem.2026.1894425
+achieved using active-learning workflows to identify stable and applications. The automated microscale precursor-printing and
+active compositions with minimal computational cost (Lan et al., rapid joule-heating synthesis method (subfigures b-i and b-ii)
+2023). Bayesian optimization generalizes this principle to provide a fast and precise method to build an alloy library with
+continuous parameter spaces, synthesis conditions, composition customized thermal processing parameters, while ensuring
+ratios, processing variables, and expensive objective function scalable fabrication. Together with the scanning electron
+evaluation (catalyst performance). A model (a probabilistic microscopy and the elemental mapping displayed on subfigure
+surrogate model, usually a Gaussian process) is constructed to (b-iii), the resulting HEA particles are characterized, verifying the
+represent the relationship between parameters and performance. uniformity of the particles in terms of composition and formation
+An acquisition function is then used to choose the next set of of the particles’ microstructure at the microscale. In subfigures
+parameters to evaluate, balancing between exploring uncertain areas (c-i)–(c-iv), high-throughput electrochemical evaluation is
+and exploiting areas predicted to contain optima (Slautin et al., performed by performing parallel screening, polarization
+2024). In the case of optimizing synthesis protocols, temperature, measurements and activity heatmap; high-performance catalyst
+heating rate, and precursor concentration, Bayesian optimization compositions are identified quickly. Together, these figures
+finds optimal conditions in far fewer experiments than tried-and- illustrate the dramatic power of combining automated
+true design-of-experiments approaches. Multi-objective Bayesian materials synthesis, parallel electrochemical characterisation,
+optimization generalizes this framework for problems with and artificial intelligence to greatly improve the discovery and
+competing objectives: maximizing activity while minimizing cost, optimisation of catalysts within complex compositional spaces.
+balancing HER and OER performance, and optimizing both activity High-throughput electrochemical testing; data incorporated into
+and stability. Identifying a Pareto front illustrates the space of a high-throughput, autonomous discovery platform: ML
+optimal trade-offs, which plays an important role in allowing prediction, robotic synthesis, automated characterisation (XRD,
+researchers to select candidates that align with application- SEM, TEM), retraining ML. The figure is a representation of self-
+specific priorities (Xu S. et al., 2024). driving labs, and the whole design, build, test workflow is
+automated, further speeding up discovery by magnitudes.
+5.4 Toward autonomous (self-driving) Robotic platforms perform synthesis protocols with higher
+laboratories precision and reproducibility than humans can achieve. Liquid-
+handling robots dispense precursor solutions with microliter
+The combination of machine learning, robotics, and high- precision, automated high-throughput furnaces manage heating
+throughput experimentation has now ushered in the era of fully profiles with second-scale timing, and robotic arms shuffle
+autonomous discovery platforms consisting of self-driving samples between synthesis, characterization, and testing stations
+laboratories that completely close the cycle between prediction continuously (Zhu et al., 2023). These platforms discover
+and validation without human involvement (Tom et al., 2024). electrocatalysts by synthesizing libraries of compositionally
+Table 7 A comparative overview of five autonomous (self- graded materials—thin-film composition spreads, nanoparticle
+driving) laboratory platforms: Robotic Chemist (Liverpool), arrays, and ink-jet printed electrode arrays that allow systematic
+CRESt (CMU/Toronto), AI-Robot Chemist (USTC), A-Lab probing of multinary systems. These libraries are screened in parallel
+(Berkeley), and Ada (Toronto). For each, it lists institution, key via high-throughput electrochemical testing. Droplet cells,
+capabilities (robotic synthesis, multimodal characterization, closed- multichannel potentiators, and some optical screening
+loop control), throughput (~50–200 experiments/samples per day), methodologies measure activity, stability, and selectivity (Stevens
+ML integration level (Bayesian optimization, active learning, et al., 2022) in the hundreds to thousands of samples daily.
+multimodal learning), and demonstrated application (OER Automated pipelines for data analysis extract performance
+catalysts, novel inorganic materials, etc.). This table directly metrics, such as overpotential at specific current density, Tafel
+supports the section’s narrative by showing how ML, robotics, slopes, stability indices, and pipeline results directly back into
+and high-throughput experimentation are being integrated into ML retraining without any human data curation and also
+fully autonomous discovery cycles. close the loop.
+5.4.1 Robotic synthesis and high-throughput 5.4.2 Case studies of successful closed-loop
+electrochemical testing discovery campaigns
+Figure 13 shows an integrated artificial intelligence-driven Now the first closed-loop demonstrations of autonomous
+approach to high-throughput accelerated discovery and discovery in electrocatalysis have emerged, providing validation
+optimization of high-entropy alloy (HEA) electrocatalysts, for the closed-loop paradigm (Burger et al., 2020) that detailed an
+where the large language models are used to search for autonomous system for discovering photocatalytic hydrogen
+relevant literature, automated synthetic protocol generation production catalysts, achieving in days what would have taken
+facilitates synthesis, and electrochemical screening provides the months or years of human-directed experimentation. It used a
+fundamental data to pinpoint the most suitable HEA mix of Bayesian optimization to select candidate compositions,
+electrocatalysts. Subfigure (a) illustrates the use of a large robotic synthesis to create samples, and automated photoreactors
+language model to extract both knowledge and objects from to screen performance, going through iteration after iteration
+scientific literature, select candidates for a system, and produce without human involvement. Other successful technologies have
+compositional, different HEA systems for electrocatalytic incorporated multimodal data chemical compositions, text
+Frontiers in Chemistry 22 frontiersin.org
+
+Kudapa et al. 10.3389/fchem.2026.1894425
+TABLE 7 Comparison of autonomous (self-driving) laboratory platforms for electrocatalyst discovery.
+Platform Institution Key capabilities Throughput ML integration Demonstrated References
+name level application
+Robotic Chemist University of Mobile robot, liquid ~100 experiments/day Bayesian optimization, Photocatalytic hydrogen Burger et al.
+(Burger lab) Liverpool handling, synthesis, active learning production catalysts (2020)
+characterization
+CRESt (Robotic Carnegie Mellon/ Multimodal ~200 samples/day Knowledge-assisted Multi-element OER Zhang Z. et al.
+platform) University of (composition, Bayesian optimization, catalysts (high-entropy (2025)
+Toronto microscopy, multimodal learning oxides)
+electrochemistry)
+AI-Robot Chemist University of Robotic synthesis, in- ~50 experiments/day Machine learning OER catalysts from Zhu et al. (2023)
+(Martian catalyst) Science and situ characterization, prediction + robotic Martian meteorites for
+Technology of closed-loop execution ISRU
+China
+A-Lab Lawrence Berkeley Solid-state synthesis, ~100 synthesis/ Natural language Novel inorganic materials Szymanski et al.
+(Berkeley Lab) National Laboratory powder X-ray characterization processing, active (structural predictions) (2023)
+diffraction cycles/day learning
+Ada (Self- University of Modular synthesis, Scalable (module- Probabilistic Organic semiconductors, Tom et al. (2024)
+driving lab) Toronto automated testing, dependent) programming, multi- catalysts
+cloud-connected fidelity optimization
+embeddings from literature, microstructural images, and empirical art of electrocatalyst development to predictive
+knowledge-assisted Bayesian optimization and robotic processes facilitated by automation.
+automation to discover multi-element catalysts for oxygen
+evolution catalysis (Zhang Z. et al., 2025) on the CRESt
+6 Critical challenges and
+platform. Thus, the system was able to sample complex
+research frontiers
+compositional spaces that were inaccessible for unimodal
+approaches and discard high-entropy oxide catalysts with
+activity above known materials. Importantly, the platform Despite the tremendous advances presented in this review,
+autonomously executed hundreds of synthesis, characterization, leveraging machine learning to shape electrocatalyst design still
+and testing cycles continuously over several weeks. Perhaps even faces daunting challenges that limit current capabilities and
+more impressive was an AI-robot chemist that autonomously delineate future research trajectories. Overcoming these
+synthesized and optimized oxygen-producing catalysts from limitations data constraints, transferability deficiencies, and the
+Martian meteorites (Zhu et al., 2023) This game-changing interpretability versus predictive performance trade-off will
+system, integrating ML-enabled prediction, robotic synthesis, ultimately determine whether ML achieves its transformative
+and in situ characterization, screened thousands of potential potential or lapses into a series of category demonstrations.
+catalyst formulations derived from Martian minerals and
+isolated the optimal compositions for catalysis relevant to 6.1 The data challenge: scarcity, bias, and
+oxygen evolution, potentially suitable for in situ resource the “small data” problem
+utilization (ISRU) during Mars exploration. This work
+demonstrates the potential of closed-loop discovery: The predictive power of any machine learning model is
+autonomous platforms that explore and optimize materials for proportional to the amount, quality, and diversity of training data
+important applications in scenarios where human intervention is it consumes. This dependency creates an unavoidable bottleneck in
+infeasible due to resource limitations. electrocatalysis: data for developing transferable, accurate models of
+These successes foreshadow a future in which materials cathode processes is limited, expensive to generate, and consistently
+discovery becomes orders of magnitude faster. Instead of years- biased (Grajciar et al., 2018). Experimental data is costly to obtain, but
+long cycles of experimentation by graduate students, closed-loop the same is true for data generated using computational techniques: it
+platforms running continuously can run thousands of discovery exists in larger quantities than experimental data, though it also incurs
+programs in parallel per year. Instead of sampling narrow high costs. The few advances that exist are still expensive: the tens of
+compositional spaces around previously studied materials, such thousands of DFT calculations necessary to yield a high entropy alloy
+systems can traverse the entire chemical universe with only ML- composition space (figure), it is still prohibitive even if resources are
+guided predictions. Computation, ML, and robotics have all been better trained (Tran et al., 2023): just one DFT calculation on complex
+making independent advances, but now they converge within a oxide surface can require hours or years on supercomputers. Data
+common paradigm that can catalyze a transition from the from experiments are even more stringent. Due to the sensitivity of
+Frontiers in Chemistry 23 frontiersin.org
+
+Kudapa et al. 10.3389/fchem.2026.1894425
+FIGURE 13
+High-throughput synthesis and screening workflow for the discovery of high-entropy alloy electrocatalysts enabled using large language models. (a)
+Literature mining, elemental selection, classification and generation of quinary high-entropy alloy (HEA) compositions using the element-combination
+design framework with large language models. Precursor-printing approach for writing arrays of high-entropy alloys by automated micrometre-scale
+printing of precursors on conductive substrates. Rapid alloy synthesis and thermal processing using joule-heating temperature profile. (a) The image
+of synthesized microscale high-entropy alloy particles was obtained with scanning electron microscopy (SEM), and (b) the elemental mapping was
+performed using SEM. Electrochemical screening with high throughput (c-i) by scanning electrochemical cell microscopy (SECCM). Microscale alloy array
+electrochemical evaluation by optical imaging. (c-iii) Representative polarization curves showing that the electrocatalytic performance of the alloys varies.
+(c-iv) A relative activity heatmap of the best-designed high-entropy alloys for electrocatalytic reactions (Jin et al., 2025).
+electrochemical measurements on electrode/electrolyte preparation as limited coverage of either oxide surfaces and/or amorphous materials
+well as measurement protocols, reported overpotentials and Tafel and complex interfaces (Chanussot et al., 2021). Organizational Data
+slopes can have an orders-of-magnitude differences between labs, Considerations of its Projects: Experimental data initiatives (i.e., the
+making dataset aggregation difficult. What the models must be Dark Reactions Project) have included both successful and failed
+learning to overcome is additional noise due to intrinsic variability outcomes, yet widespread adoption of FAIR (Findable, Accessible,
+in synthesis details, such as precursor purity, heating rates or aging Interoperable, Reusable) data principles within organizational units
+time (Grim et al., 2020). These patterns of scarcity are exacerbated by has been slow off the mark. Automated extraction of data from the
+systemic bias. The scientific literature is skewed toward positive results literature using natural language processing has a respite, but is still
+working catalysts, materials that have higher activity than relevant suboptimal: not only due to the heterogeneity of publication formats
+comparison compounds and successful syntheses. Nonsensical themselves, but also because of imprecision in the naming descriptors
+findings redundant representations, unvirtuous hybridizations, used to describe names, thereby threatening replicability (Suvarna
+desperate syntheses have slowly slunk into the publication et al., 2023). On shorter timescales, “small data” approaches (transfer
+workflow well after they need to during both the training of learning, active learning, physics-informed regularization) will be
+balanced predictive models and prediction (Xu S. et al., 2024). critical. That is, you are pre-trained on high-dimensional
+This causes a positive bias in published datasets, leading to ML computational datasets and then fine-tuned [on rare in vivo or
+models that will err on the side of both overpredicting the CAR T-cell measurements, etc.,], thereby harnessing the best of
+probability of success for an unseen candidate and underpredicting both worlds. Active learning is a way to choose the experiments
+the prevalence of failure modes. that will provide us with the most information, per measurement
+To tackle these issues, we must band together at the community taken. Physics-informed models have leveraged domain expertise that
+level. Open-access databases like the Materials Project, OQMD, or helps inform where training examples are and are not, and in practice
+Open Catalyst provide computational data at unparalleled scales, but ensures predictions are physically plausible even when data is sparse.
+Frontiers in Chemistry 24 frontiersin.org
+
+Kudapa et al. 10.3389/fchem.2026.1894425
+6.2 The transferability gap: from idealized that opacity creates tension; a very accurate model may be useful for
+models to real catalysts and devices predicting activity, but if we also cannot explain why such
+predictions are made, then not only does it lack contribution to
+Machine learning models that derive their training from fundamental knowledge but also rational design principles (Saidi,
+idealized representations clean surfaces, perfect crystals, vacuum 2022). For example, in the catalysis community, we are not just
+environments tend to underperform in predicting real catalyst interested in predictions, but want to develop design rules,
+performance under working conditions. The transferability gap controlling descriptors, and horizon-scan testable hypotheses
+has many causes, and each may require a different form of about reaction mechanisms. Black-box models can be intractable
+mitigation. Computational approaches typically only reproduce with such goals their predictions do not even retain causal
+low-index surfaces of perfect crystals and ignore the steps, kinks, information that would help with subsequent finetuning (even if
+vacancies, and grain boundaries that dope catalyst faces in practice. the training procedure was feasible). This means that even if a GNN
+These defects often are the actual active sites and behave in predicts that a new alloy composition is “active,” the researcher only
+fundamentally different ways than ideal terrace sites (Resasco gets to know the prediction itself and no information on what
+et al., 2022). Amorphous catalysts lack long-range order, making electronic or geometric reason gave them this prediction. So this
+them a far cry from the structure-based representations that limitation endangers the construction of scientific knowledge and
+dominate innovative computational modeling of heterogeneous unsettles the argument for the model because of between-study
+catalysis. Due to the numerous possible conformations, with only heterogeneity in model suggestion.
+limited samples of defective and disordered structures (coming from Interpretable models linear regression, decision trees, symbolic
+computationally expensive ab initio molecular dynamics or regression sacrifice prediction for the sake of interpretability. Such
+approximated through more specialized sampling methods) it is functional forms will lend themselves relatively readily to
+currently possible to make some connection between these two interpretable features driving predictions and their signs,
+worlds. Operational conditions introduce further complexity. Static enabling the derivation of design rules (Cao et al., 2025) and
+conditions employed in DFT calculations are not able to account for judging mechanistic hypotheses. These types of models are
+the effects of electrolyte composition, pH, applied potential, and extremely valuable for exploring new descriptors: symbolic
+temperature on the structure and reactivity of catalysis. Recently regression can bootstrap analytic expressions that connect to
+included in Surface Pourbaix diagrams (Tables S12–S32) are catalytic activity by submitting physically relevant combinations
+observations suggesting that when considered under conditions of elemental properties in a way that adheres to trends over families
+of useful reaction, the stable surface termination is often different of materials (Andersen et al., 2019). New efforts are attempting to
+from its as-prepared or vacuum annealed form (Birdja et al., 2019) straddle the divide, drawing on a blend of the best of both
+Reactivity is mediated by potential-dependent adsorption energies, (Omranpour et al., 2025). Physics-informed neural networks
+solvation effects, and electrochemical double-layer structure, but all embed domain knowledge into architectures such that learned
+these are cheap to compute yet challenging to fold into ML representations for environments are encouraged to accord with
+training pipes. physical intuition while preserving the expressivity of deep learning.
+These challenges are amplified by the chasm between lab testing Another direction is concept bottleneck models with interpretable
+and industrial execution. For the last 5 years, three-electrode lab cells intermediate representations adsorption energies, d-band centers,
+in electrolysis have current densities (10–100 mA cm−2) 2 decades coordination numbers that ensure the prediction has to pass
+lower than 1–4 A cm−2 used in commercial electrolyzers. These through human-interpretable structures while also threading that
+phenomena result in the formation of a cluster with evolving razor-thin needle of being more flexible than descriptor-based
+bubbles, developing local pH gradients, and diffusion-controlled approaches, since ultimately they still boil down to end-to-end
+limitations, which creates an operational stage that is considerably learning (Wang S.-H. et al., 2021).
+less than idealized testing conditions (Zhang H. et al., 2024). The future, instead, will probably be in hybridization that
+Ionomer interactions, catalyst layer morphology, and water shrewdly combines and recombines the advantages of various
+management start becoming limiting factors in measuring the approaches. Such CNN zero false negatives if not all detections
+performance of membrane electrode assemblies as compared to are selected out of huge compositional spaces by data-driven black-
+well-performing catalysts in rotating disk electrode measurements, box high-capacity models. Stepwise interpretable models are then
+leading to catastrophic failures. This gap will need to be filled, interrogated, and design rules/mechanisms are extracted that, in
+whether it’s through richer and more constrained device-level data turn, can predict alternative avenues of study for deeper
+(and multi-scale modelling that outputs bottom-line performance fundamental understanding. Active learning is an iteration
+connected at the atomic level) or ML models trained on increasingly between these modes limiting black box exploration using the
+expansive datasets. insights learned from interpretable models, and utilizing black
+box predictions to push the boundaries of previously-known
+6.3 Interpretability vs. performance: moving interpretable heuristics. It did not just accelerate discovery; it
+beyond the “black box” fundamentally reimagined how we understand and design
+catalytic materials.
+The most powerful machine learning models deep neural Figure 14 presents a machine learning-assisted materials
+networks, graph convolutional networks, transformers are “black discovery framework employing symbolic regression for the
+boxes,” opaque to humans in how they represent information identification of physically interpretable descriptors governing
+internally and draw their conclusions. This is the section where oxygen evolution reaction activity in mixed-oxide perovskite
+Frontiers in Chemistry 25 frontiersin.org
+
+Kudapa et al. 10.3389/fchem.2026.1894425
+FIGURE 14
+Symbolic regression-guided workflow for descriptor discovery and screening of perovskite electrocatalysts for oxygen evolution reaction (OER). The
+workflow illustrates the integration of materials synthesis, structural characterization, feature selection, symbolic regression, and experimental validation
+for accelerated discovery of high-performance mixed-oxide perovskite electrocatalysts. The upper pathway demonstrates dataset generation and
+descriptor extraction through oxygen evolution activity characterization and symbolic regression-based identification of structure–property
+relationships. The derived descriptor is subsequently applied for targeted screening of mixed-oxide ABO3 perovskite compositions across a broad
+compositional space. The lower pathway highlights experimental synthesis, structural verification, stability testing, and activity characterization of newly
+predicted perovskite candidates, followed by descriptor validation against experimentally measured OER performance (Hu et al., 2023).
+electrocatalysts. The workflow integrates experimental synthesis, optimize catalytic materials. New paradigms generative artificial
+structural characterization, feature engineering, and symbolic intelligence, foundation models, and multimodal learning have
+regression to establish quantitative structure–activity relationships the potential to go beyond current capabilities, enabling
+capable of guiding catalyst design and screening. The derived functionality that would have been described as science fiction
+descriptor is subsequently utilized to explore large compositional just a few years ago.
+spaces of ABO perovskites and identify promising catalyst
+3
+candidates with enhanced OER performance. Experimental 7.1 Generative AI and foundation models for
+validation through synthesis, electrochemical activity evaluation, materials science
+and stability testing confirms the predictive capability of the
+descriptor-driven screening strategy. Overall, the figure highlights The most foundational innovation on the horizon is what’s
+the growing importance of interpretable machine learning known as foundation models large-scale, pretrained neural networks
+approaches in accelerating rational catalyst discovery while that learn general representations from rich and diverse datasets, to
+maintaining strong physical and chemical insight into be fine-tuned for specific downstream tasks (Chen et al., 2025).
+electrocatalytic mechanisms. A visual summary of the three Foundation models with remarkable generative, reasoning, and
+major challenges in ML-driven electrocatalysis: (i) data scarcity zero-shot transfer capabilities like GPT and DALL-E have been
+and bias (the “small data” problem), (ii) the transferability gap pioneered in natural language processing and computer vision
+from idealised models to real devices, and (iii) the trade-off between domains. Translating these architectures to the domain of
+model interpretability and predictive performance. The figure also materials science could have a similarly disruptive impact on
+lists emerging solutions (FAIR data, physics-informed models, catalyst discovery.
+active learning, self-driving labs), serving as a roadmap for This means solving for the underlying physics to build an
+future research. effective and generalizable model, because a materials foundation
+model trained on millions of crystal structures together with
+adsorption calculations and spectroscopic measurements would
+7 The next-generation of AI in
+learn a representation rich in chemical and physical principles
+electrocatalysis
+essentially capturing the “language” of materials within its
+millions of parameters (Zheng et al., 2025). Such models fine-
+The direction of machine learning in electrocatalysis is toward tuned to specifically yield HER activity, stability predictions or
+increasingly sophisticated, integrated, and autonomous systems that synthetic pathways would require an order of magnitude fewer
+will fundamentally change the way we discover, understand, and task-specific examples than a model trained from scratch, thereby
+Frontiers in Chemistry 26 frontiersin.org
+
+Kudapa et al. 10.3389/fchem.2026.1894425
+directly addressing the challenge of data scarcity. Early
+implementations suggest that this approach has great promise:
+graph neural networks pretrained on the whole Materials Project
+database transfer well to diverse downstream tasks, with state-of-
+the-art performance achieved after minimal fine-tuning.
+Generative models are more than prediction: they are creation.
+Variational autoencoders also learn continuous latent
+representations of crystal structures, which not only enables
+smooth interpolation between materials in the training data but
+can also generate new candidate crystals by sampling points from
+this learned manifold (Zhou et al., 2026). Conditional generation
+specifying properties of interest and generating structures that are
+likely to exhibit them works toward the inverse design paradigm:
+defining target performance features and suggesting candidate FIGURE 15
+AI ecosystem for closed-loop autonomous electrocatalyst
+materials without extensive forward screening. This could mean discovery. (Left/Virtual Domain): Multimodal fusion of text-mined
+producing alloy compositions with optimal and ΔGH values, oxide literature databases, crystal connectivity graphs, and deep-learning
+interatomic potentials. (Right/Physical Domain): Direct
+structures, and/or single-atom catalysts featuring tailored d-band
+translation of generative AI candidates into experimental
+centers or coordinated environments for electrocatalysis. testing—optimizing morphology, bonding, and gas evolution to turn
+Diffusion models that learn to invert a gradual noising process empirical electrocatalysis into a predictive science (Ding R.
+et al., 2024).
+have demonstrated state-of-the-art performance in generating high-
+fidelity and diverse samples across image and molecular domains.
+When used on crystal structures, these models could enable
+completely new materials under complex constraints candidates into experimental testing (morphology, bonding, gas
+thermodynamic stability, synthesizability, target adsorption evolution). The figure illustrates the ultimate vision where
+energies and generate structural diversity across all of chemical multimodal data (spectra, microscopy, performance) and
+space. Combined with property predictors and active learning, generative models work together to turn empirical electrocatalysis
+generative models have the potential to provide access to parts of into a predictive, autonomous science.
+chemical space that would be beyond any intuition from traditional Most applications of machine learning to date work in single
+approaches, thus dramatically expanding the boundaries of what can data modalities crystal structures from databases, adsorption
+be discovered in catalysis. energies from DFT, and performance metrics from experiments.
+But human experts combine information across the different
+7.2 Multimodal learning: fusing modalities: X-ray diffraction patterns indicate phase purity,
+spectroscopy, microscopy, and electron microscopy images show particle size and morphology,
+performance data X-ray photoelectron spectra indicate oxidation states and surface
+composition, and electrochemical measurements quantify activity
+Figure 15 conceptually illustrates the convergence of artificial and stability. Multimodal learning seeks to mirror and hasten this
+intelligence, advanced materials science, and sustainable energy integrative reasoning through the melding of disparate data streams
+technologies in the future landscape of electrocatalyst discovery. under common models (Tom et al., 2024).
+The left half of the figure represents the computational and data- From a technical standpoint, the challenge is about learning
+driven foundation of modern catalyst design, highlighting neural joint representations that match content from multiple sources.
+networks, digital infrastructures, large-scale data processing, and Early fusion involves concatenating features extracted across
+machine learning algorithms capable of learning complex modalities before the final prediction; late fusion aggregates
+physicochemical relationships. The central brain motif symbolizes post hoc predictions from modality-specific models; while
+the emergence of intelligent autonomous systems that integrate hybrid methods leverage cross-modal attention mechanisms
+scientific reasoning, predictive modeling, and adaptive that weight contributor information dynamically based on
+optimization. The right half of the figure transitions toward real- context. Multimodal models could predict the long-term
+world energy applications, where atomistic materials engineering, stability of electrocatalysts from a combined analysis of initial
+molecular interactions, renewable energy integration, and catalytic electrochemical data and electron microscopy images, as well as
+reaction pathways are guided through AI-enabled discovery X-ray spectra capturing degradation-relevant features that no
+frameworks. Collectively, the figure emphasizes the single measurement reveals.
+transformative role of multimodal artificial intelligence, Multimodal learning also allows for potent inverse problems;
+autonomous experimentation, and self-driving laboratories in given a transmission electron microscopy image of a synthesized
+accelerating the rational development of high-performance catalyst, the trained model could output likely synthesis conditions,
+electrocatalysts for sustainable hydrogen production and future performance metrics, or stability in operation (Zhang Z. et al., 2025).
+clean-energy technologies. This ability would shift characterization from responding to
+A two-domain AI ecosystem: the virtual domain fuses text- completion (which is retrospective) with high-throughput
+mined literature, crystal graphs, and deep-learning interatomic synthesis labor (not prospective guiding), to allowing researchers
+potentials; the physical domain translates generative-AI who use the same tool set as for experimental design up front, to
+Frontiers in Chemistry 27 frontiersin.org
+
+Kudapa et al. 10.3389/fchem.2026.1894425
+TABLE 8 Key challenges and future directions in ML for electrocatalysis. Source (Grajciar et al., 2018; Resasco et al., 2022; Suvarna et al., 2023; Tom et al., 2024).
+Challenge Description Impact Future directions/Solutions
+Data Scarcity and Bias Limited experimental data; literature skewed toward Overprediction of success, poor FAIR data principles, NLP-based data extraction,
+positive results generalizability transfer learning, active learning
+Transferability Gap ML models trained on idealized surfaces fail to predict Poor industrial relevance, device- Multi-scale modeling, operando data integration,
+real catalyst performance under operating conditions level failures defect-inclusive datasets
+Interpretability vs. High-accuracy models (GNNs, deep networks) are Hinders mechanistic Physics-informed models, concept bottlenecks, hybrid
+Performance black-box; interpretable models have lower predictive understanding and design rule (interpretable + black-box) workflows
+power derivation
+Synthesizability Predicted materials often difficult to synthesize Slow translation from Synthesis-aware ML predictors, autonomous
+experimentally computation to lab synthesis platforms, Bayesian optimization of
+synthesis parameters
+Autonomous Integration of ML, robotics, and high-throughput Limited closed-loop Self-driving laboratories, multimodal learning,
+Discovery experimentation remains nascent demonstration at scale foundation models for materials science
+interpret why this particular synthesis run worked or failed, and institutional, standardized metadata for open access availability.
+possible directions for correcting those conditions. Automation that can be achieved by having human operators do
+Then you can compound that even more with natural language, ML-recommended tests based on their intuition will ultimately lead
+which will only widen the possibilities. While the scientific literature to a performance plateau because, unless an operator knows when
+itself may be able to create a synthetic database of synthesized data, they are doing it wrong, they will not change what they are doing
+language models pretrained on this rich stream of details can fill in and get worse over time.
+these synthesis recipes, characterization protocols, and performance Although many would find the task intimidating, it’s a
+claims across millions of publications that fill structured databases in worthwhile labour that pays off. If successful, it would transform
+unstructured text (Schrier et al., 2023). Multimodal models that electrocatalyst development from an empirical art driven by
+synergize these text-extracted knowledge bases with experimental personal know-how and luck into a predictive science, in which
+and computational data could answer queries currently requiring materials can be rationally designed, autonomously validated and
+lengthy curation of the literature- “Which synthesis methods for swiftly deployed. For a field whose progress fuels the viability of
+NiFe layered double hydroxides have been reported, and how does sustainable energy technologies, few investments will pay
+their OER activity compare?”, What dopants are known to stabilize off this much.
+iridium oxide against dissolution in acid?” These models promise to Table 8 represents the synthesis of the five major obstacles
+accelerate research in that field by making the cumulative knowledge currently limiting ML adoption in electrocatalysis: data scarcity/
+of that field machine-accessible and interpretable, far beyond what bias, transferability gap, interpretability vs. performance,
+improved prediction alone would entail. synthesizability of predicted materials, and early-stage
+Generative AI, foundation models, and multimodal learning are autonomous discovery. For each challenge, the table describes its
+converging to bring fundamentally new scales of materials discovery impact (e.g., overprediction of success, poor industrial relevance,
+to the field. Instead of years-long cycles of hypothesis, experiment, hindered mechanistic understanding) and outlines future solutions
+and analysis, closed-loop platforms that integrate these capabilities (FAIR data principles, physics-informed models, self-driving labs,
+could yield hundreds of discovery iterations a year. Rather than foundation models). This table serves as a roadmap, summarizing
+sampling dense compositional neighborhoods around known the challenges discussed in Section 6 and pointing toward the
+materials, generative models could suggest candidates that fill the emerging research frontiers covered in Section 7.
+chemical universe. Rather than reconstituting principles already
+documented in the literature, multimodal models could
+8 Emerging AI technologies for
+cohesively integrate knowledge scattered across millions of
+autonomous catalyst discovery
+publications, revealing relationships that no human reader would
+be likely to detect.
+Achieving this vision will require ongoing investment in data Recent advances in artificial intelligence show that the field of
+infrastructure, model development, and automated catalyst discovery is rapidly transforming from modelling to
+experimentation. Foundation models will not follow the autonomous research platforms. The transferability of their
+trajectory of a single lab, but rather require coordination across representation is expected to be achieved through millions of
+the community working together (think Large Hadron Collider or crystal structures and atomistic simulations used to train the
+Human Genome Project) to bring compute resources for training foundation models, which is likely to reduce the need for task-
+these kinds of models, which go well beyond anything possible by specific training datasets and the multitude of foundation models
+any single lab. Multimodal datasets corresponding to synthesis, across different catalyst families. Large Language Models (LLMs) are
+characterization, and performance should be curated with starting to support literature mining, hypothesis generation,
+Frontiers in Chemistry 28 frontiersin.org
+
+Kudapa et al. 10.3389/fchem.2026.1894425
+automated synthesis planning, experimental protocol optimization, multimodal architectures holds various prospective paths towards
+and scientific knowledge integration. In conjunction with retrieval- inverse design and towards establishing
+augmented generation, LLMs can continually update catalyst spectroscopy–microscopy–electrochemical–mechanically coherent
+knowledge bases with new literature. Another key technological structure–property–performance relationships. Taken together,
+breakthrough is autonomous laboratories that incorporate robotics, these are curbing towards a paradigm that is predictive,
+high throughput experimentation, machine learning and Bayesian autonomous, and scalable, advancing the development of
+optimization. These automated laboratories synthesize and electrocatalysts towards the technological requirements of
+characterize catalysts, update models, and validate them in an green hydrogen.
+iterative fashion, without requiring constant human supervision.
+Digital twins will combine physics-based simulations with real-time
+Author contributions
+feedback from experiments to continuously monitor, predict and
+optimise the performance of electrolysers as the catalyst ages.
+A roadmap to autonomous catalyst discovery can be envisioned VK: Writing – original draft, Writing – review and editing,
+in three practical stages. In the near-term (2025–2028), efforts will Investigation, Conceptualization. SM: Writing – review and editing,
+continue to focus on building high-quality databases of catalysts, Conceptualization, Writing – original draft. VS: Validation,
+enhancing uncertainty quantification, and creating interpretable Investigation, Writing – review and editing. AM: Investigation,
+machine learning models. Over the medium term (2028–2032), Writing – review and editing, Validation. SS: Writing – review
+active learning, foundation models, multimodal AI, and and editing, Formal Analysis, Validation, Investigation. DM: Formal
+autonomous laboratories will play a major role in faster Analysis, Validation, Writing – review and editing, Investigation.
+optimization of catalysts along with cost reduction in MA: Formal Analysis, Validation, Writing – review and editing,
+experiments. In the future (post-2032), fully integrated closed- Investigation.
+loop platforms that integrate the various components of robotics,
+machine learning, digital twins, operando characterization, and high
+Funding
+throughput synthesis are expected to make it possible for self-
+driving laboratories that can autonomously discover, validate,
+and optimize electrocatalysts with minimal human involvement. The author(s) declared that financial support was not received
+for this work and/or its publication.
+9 Conclusion
+Conflict of interest
+Machine learning approaches have revolutionised electrocatalyst
+discovery, shifting it away from its trial-and-error origins toward a The author(s) declared that this work was conducted in the
+data-driven predictive modelling paradigm. In this review, we have absence of any commercial or financial relationships that could be
+highlighted the connection between electrochemical principles, construed as a potential conflict of interest.
+algorithmic developments, and self-propelled discovery platforms
+from a unified evolutionary perspective. The challenge of producing
+Generative AI statement
+sustainable hydrogen still requires electrocatalysts to possess high
+activity, durability, and low cost within narrow design parameters. In
+this context, machine learning can be used to efficiently screen The author(s) declared that generative AI was not used in the
+materials in high-dimensional materials space at comparatively creation of this manuscript.
+low computational cost, thereby enabling the prediction and Any alternative text (alt text) provided alongside figures in this
+exploration of materials space. In this context, machine learning article has been generated by Frontiers with the support of artificial
+enables efficient virtual screening in the high-dimensional materials intelligence and reasonable efforts have been made to ensure
+space at a comparatively low computational cost. Requires curated accuracy, including review by the authors wherever possible. If
+data infrastructures and a physically meaningful representation of you identify any issues, please contact us.
+structure, and a balance between model explanatory power and
+predictive ability. These methods can now be applied to generate
+Publisher’s note
+catalysts with properties beyond conventional scaling relations and
+heuristics, ranging from regression models through graph-based
+neural networks. Emerging examples of closed-loop experimental All claims expressed in this article are solely those of the authors
+platforms that incorporate machine learning and automated and do not necessarily represent those of their affiliated
+synthesis and characterisation are beginning to shorten organizations, or those of the publisher, the editors and the
+design–build–test cycles, but data sparsity, bias, and discrepancies reviewers. Any product that may be evaluated in this article, or
+between model assumptions and the behaviour of operando catalysts claim that may be made by its manufacturer, is not guaranteed or
+under study persist. The realm of emerging generative and endorsed by the publisher.
+Frontiers in Chemistry 29 frontiersin.org
+
+Kudapa et al. 10.3389/fchem.2026.1894425
+References
+Andersen, M., Levchenko, S. V., Scheffler, M., and Reuter, K. (2019). Beyond scaling Grajciar, L., Heard, C. J., Bondarenko, A. A., Polynski, M. V., Meeprasert, J., Pidko, E. A.,
+relations for the description of catalytic materials. ACS Catal. 9 (4), 2752–2759. doi: 10. et al. (2018). Towards operando computational modeling in heterogeneous catalysis.
+1021/acscatal.8b04478 Chem. Soc. Rev. 47 (22), 8307–8348. doi: 10.1039/C8CS00398J
+Back, S., Na, J., and Ulissi, Z. W. (2021). Efficient discovery of active, selective, and stable Grim, R. G., Huang, Z., Guarnieri, M. T., Ferrell, J. R., Tao, L., and Schaidle, J. A. (2020).
+catalysts for electrochemical H 2 O 2 synthesis through active motif screening. ACS Transforming the carbon economy: challenges and opportunities in the convergence of
+Catal. 11 (5), 2483–2491. doi: 10.1021/acscatal.0c05494 low-cost electricity and reductive CO2 utilization. Energy and Environ. Sci. 13 (2),
+472–494. doi: 10.1039/C9EE02410G
+Batatia, I., Kovács, D. P., Simm, G. N. C., Ortner, C., and Csányi, G. (2023). MACE:
+higher order equivariant message passing neural networks for fast and accurate force Guo, J., Haghshenas, Y., Jiao, Y., Kumar, P., Yakobson, B. I., Roy, A., et al. (2024).
+fields. Available online at: http://arxiv.org/abs/2206.07697. Rational design of earth-abundant catalysts toward sustainability. Adv. Mater. 36 (42),
+2407102. doi: 10.1002/adma.202407102
+Birdja, Y. Y., Pérez-Gallent, E., Figueiredo, M. C., Göttle, A. J., Calle-Vallejo, F., and
+Koper, M. T. M. (2019). Advances and challenges in understanding the electrocatalytic Hu, Y., Chen, J., Wei, Z., He, Q., and Zhao, Y. (2023). Recent advances and applications
+conversion of carbon dioxide to fuels. Nat. Energy 4 (9), 732–745. doi: 10.1038/s41560- of machine learning in electrocatalysis. J. Mater. Inf. 3 (3). doi: 10.20517/jmi.2023.23
+019-0450-y
+Hu, C., Hu, Y., Zhang, B., Zhang, H., Bao, X., Zhang, J., et al. (2024). Advanced catalyst
+Bowker, M., DeBeer, S., Dummer, N. F., Hutchings, G. J., Scheffler, M., Schüth, F., et al. design strategies and in-situ characterization techniques for enhancing electrocatalytic
+(2022). Advancing critical chemical processes for a sustainable future: challenges for industry activity and stability of oxygen evolution reaction. Electrochem. Energy Rev. 7 (1), 19.
+and the Max planck–cardiff centre on the fundamentals of heterogeneous catalysis doi: 10.1007/s41918-024-00219-8
+(FUNCAT). Angew. Chem. Int. Ed. 61 (50), e202209016. doi: 10.1002/anie.202209016
+Jain, A., Ong, S. P., Hautier, G., Chen, W., Richards, W. D., Dacek, S., et al. (2013). The
+Burger, B., Maffettone, P. M., Gusev, V. V., Aitchison, C. M., Bai, Y., Wang, X., et al. Materials Project: A materials genome approach to accelerating materials innovation.
+(2020). A mobile robotic chemist. Nature 583 (7815), 237–241. doi: 10.1038/s41586-020- APL Materials 1 (1), 011002. doi: 10.1063/1.4812323
+2442-2
+Jiang, X., Chuah, C. Y., Goh, K., and Wang, R. (2021). A facile direct spray-coating of
+Bushion, J., Krishnan, N. K., Kuo, C., Thambusamy, S., Govindasamy, M., and Eldesoky, pebax® 1657: towards large-scale thin-film composite membranes for efficient CO2/
+G. E. (2026). Delaminated two-dimensional Ti3C2Tx Mxene engineered gadolinium N2 separation. J. Membr. Sci. 638, 119708. doi: 10.1016/j.memsci.2021.119708
+nitride nanostructures as an efficient bifunctional electrocatalyst for hydrogen and
+Jiang, C., He, H., Guo, H., Zhang, X., Han, Q., Weng, Y., et al. (2024). Transfer learning
+oxygen evolution reactions. J. Power Sources 688, 240521. doi: 10.1016/j.jpowsour.2026.
+guided discovery of efficient perovskite oxide for alkaline water oxidation. Nat.
+240521
+Commun. 15 (1), 6301. doi: 10.1038/s41467-024-50605-5
+Cao, G., Yang, S., Ren, J.-C., and Liu, W. (2025). Electronic descriptors for designing
+Jin, Z., Gu, D., Li, P., Ye, G., Zhu, H., Wei, K., et al. (2025). Artificial intelligence-driven
+high-entropy alloy electrocatalysts by leveraging local chemical environments. Nat.
+catalyst design for electrocatalytic hydrogen production: paradigm innovation and
+Commun. 16 (1), 1251. doi: 10.1038/s41467-025-56421-9
+challenges in material discovery. Sustain. Chem. Energy Mater. 2, 100010. doi: 10.
+Chanussot, L., Das, A., Goyal, S., Lavril, T., Shuaibi, M., Riviere, M., et al. (2021). Open 1016/j.scenem.2025.100010
+catalyst 2020 (OC20) dataset and community challenges. ACS Catal. 11 (10), 6059–6072.
+Keith, J. A., Vassilev-Galindo, V., Cheng, B., Chmiela, S., Gastegger, M., Müller, K.-R.,
+doi: 10.1021/acscatal.0c04525
+et al. (2021). Combining machine learning and computational chemistry for predictive
+Chen, D., Shang, C., and Liu, Z.-P. (2023). Machine-learning atomic simulation for insights into chemical systems. Chem. Rev. 121 (16), 9816–9872. doi: 10.1021/acs.
+heterogeneous catalysis. Npj Comput. Mater. 9 (1), 2. doi: 10.1038/s41524-022-00959-5 chemrev.1c00107
+Chen, J., Huang, X., Hua, C., He, Y., and Schwaller, P. (2025). A multi-modal Kibsgaard, J., and Chorkendorff, I. (2019). Considerations for the scaling-up of water
+transformer for predicting global minimum adsorption energy. Nat. Commun. 16 splitting catalysts. Nat. Energy 4 (6), 430–433. doi: 10.1038/s41560-019-0407-1
+(1), 3232. doi: 10.1038/s41467-025-58499-7
+Kolluru, A., Shuaibi, M., Palizhati, A., Shoghi, N., Das, A., Wood, B., et al. (2022). Open
+Correa-Baena, J.-P., Hippalgaonkar, K., van Duren, J., Jaffer, S., Chandrasekhar, V. R., challenges in developing generalizable large-scale machine-learning models for catalyst
+Stevanovic, V., et al. (2018). Accelerating materials development via automation, discovery. ACS Catal. 12 (14), 8572–8581. doi: 10.1021/acscatal.2c02291
+machine learning, and high-performance computing. Joule 2 (8), 1410–1420. doi: 10.
+Lan, J., Palizhati, A., Shuaibi, M., Wood, B. M., Wander, B., Das, A., et al. (2023).
+1016/j.joule.2018.05.009
+AdsorbML: a leap in efficiency for adsorption energy calculations using generalizable
+Deshmukh, G., Wichrowski, N. J., Evangelou, N., Ghanekar, P. G., Deshpande, S., machine learning potentials. Npj Comput. Mater. 9 (1), 172. doi: 10.1038/s41524-023-
+Kevrekidis, I. G., et al. (2024). Active learning of ternary alloy structures and energies. 01121-5
+Npj Comput. Mater. 10 (1), 116. doi: 10.1038/s41524-024-01256-z
+Li, J. (2022). Oxygen evolution reaction in energy conversion and storage: design
+Din, M. A. U., Krishnan, M. R., and Alsharaeh, E. H. (2025). Design strategies for cost- strategies under and beyond the energy scaling relationship. Nano-Micro Lett. 14 (1),
+effective high-performance electrocatalysts in seawater electrolysis to produce hydrogen. 112. doi: 10.1007/s40820-022-00857-x
+J. Energy Chem. 102, 497–515. doi: 10.1016/j.jechem.2024.10.047
+Li, J., Wu, N., Zhang, J., Wu, H.-H., Pan, K., Wang, Y., et al. (2023). Machine learning-
+Ding, L., Li, K., Wang, W., Xie, Z., Yu, S., Yu, H., et al. (2024). Amorphous iridium assisted low-dimensional electrocatalysts design for hydrogen evolution reaction. Nano-
+oxide-integrated anode electrodes with ultrahigh material utilization for hydrogen Micro Lett. 15 (1), 227. doi: 10.1007/s40820-023-01192-5
+production at industrial Current densities. Nano-Micro Lett. 16 (1), 203. doi: 10.
+Liu, H., Wang, Y., Fan, W., Liu, X., Li, Y., Jain, S., et al. (2023). Trustworthy AI: a
+1007/s40820-024-01411-7
+computational perspective. ACM Trans. Intelligent Syst. Technol. 14 (1), 1–59. doi: 10.
+Ding, R., Chen, J., Chen, Y., Liu, J., Bando, Y., and Wang, X. (2024). Unlocking the 1145/3546872
+potential: machine learning applications in electrocatalyst design for electrochemical
+Luo, Y., Zhang, Z., Chhowalla, M., and Liu, B. (2022). Recent advances in design of
+hydrogen energy transformation. Chem. Soc. Rev. 53 (23), 11390–11461. doi: 10.1039/
+electrocatalysts for high-current-density water splitting. Adv. Mater. 34 (16), 2108133.
+D4CS00844H
+doi: 10.1002/adma.202108133
+Escayola, S., Bahri-Laleh, N., and Poater, A. (2024). % V Bur index and steric maps: from Motagamwala, A. H., Ball, M. R., and Dumesic, J. A. (2018). Microkinetic analysis and
+predictive catalysis to machine learning. Chem. Soc. Rev. 53 (2), 853–882. doi: 10.1039/
+scaling relations for catalyst design. Annu. Rev. Chem. Biomol. Eng. 9 (1), 413–450. doi:
+D3CS00725A
+10.1146/annurev-chembioeng-060817-084103
+Gao, X., Chen, Y., Wang, Y., Zhao, L., Zhao, X., Du, J., et al. (2024). Next-generation
+Mou, L., Han, T., Smith, P. E. S., Sharman, E., and Jiang, J. (2023). Machine learning
+green hydrogen: progress and perspective from electricity, catalyst to electrolyte in
+descriptors for data-driven catalysis Study. Adv. Sci. 10 (22), 2301020. doi: 10.1002/advs.
+electrocatalytic water splitting. Nano-Micro Lett. 16 (1), 237. doi: 10.1007/s40820-024-
+202301020
+01424-2
+Mou, T., Pillai, H. S., Wang, S., Wan, M., Han, X., Schweitzer, N. M., et al. (2023).
+Gasteiger, J., Giri, S., Margraf, J. T., and Günnemann, S. (2022). Fast and uncertainty-
+Bridging the complexity gap in computational heterogeneous catalysis with machine
+aware directional message passing for non-equilibrium molecules. Available online at:
+learning. Nat. Catal. 6 (2), 122–136. doi: 10.1038/s41929-023-00911-w
+http://arxiv.org/abs/2011.14115.
+Musaelian, A., Batzner, S., Johansson, A., Sun, L., Owen, C. J., Kornbluth, M., et al.
+Gasteiger, J., Becker, F., and Günnemann, S. (2024). GemNet: universal directional
+(2022). Learning local equivariant representations for large-scale atomistic dynamics.
+graph neural networks for molecules. Available online at: http://arxiv.org/abs/2106.
+Available online at: http://arxiv.org/abs/2204.05249.
+08903.
+Oh, S.-H. V., Yoo, S.-H., and Jang, W. (2024). Small dataset machine-learning approach
+Ghanekar, P. G., Deshpande, S., and Greeley, J. (2022). Adsorbate chemical
+for efficient design space exploration: engineering ZnTe-based high-entropy alloys for
+environment-based machine learning framework for heterogeneous catalysis. Nat.
+water splitting. Npj Comput. Mater. 10 (1), 166. doi: 10.1038/s41524-024-01341-3
+Commun. 13 (1), 5788. doi: 10.1038/s41467-022-33256-2
+Omranpour, A., Elsner, J., Lausch, K. N., and Behler, J. (2025). Machine learning
+Govindarajan, N., Koper, M. T. M., Meijer, E. J., and Calle-Vallejo, F. (2019). Outlining
+potentials for heterogeneous catalysis. ACS Catal. 15 (3), 1616–1634. doi: 10.1021/
+the scaling-based and scaling-free optimization of electrocatalysts. ACS Catal. 9 (5),
+acscatal.4c06717
+4218–4225. doi: 10.1021/acscatal.9b00532
+Frontiers in Chemistry 30 frontiersin.org
+
+Kudapa et al. 10.3389/fchem.2026.1894425
+Peng, J., Schwalbe-Koda, D., Akkiraju, K., Xie, T., Giordano, L., Yu, Y., et al. (2022). inform future research. Energy and Environ. Sci. 15 (9), 3775–3794. doi: 10.1039/
+Human- and machine-centred designs of molecules and materials for sustainability and D2EE01333A
+decarbonization. Nat. Rev. Mater. 7 (12), 991–1009. doi: 10.1038/s41578-022-00466-5
+Suvarna, M., Vaucher, A. C., Mitchell, S., Laino, T., and Pérez-Ramírez, J. (2023).
+Pham, C. V., Escalera-López, D., Mayrhofer, K., Cherevko, S., and Thiele, S. (2021). Language models and protocol standardization guidelines for accelerating synthesis
+Essentials of high performance water electrolyzers – from catalyst layer materials to planning in heterogeneous catalysis. Nat. Commun. 14 (1), 7964. doi: 10.1038/s41467-
+electrode engineering. Adv. Energy Mater. 11 (44), 2101998. doi: 10.1002/aenm. 023-43836-5
+202101998
+Szymanski, N. J., Rendy, B., Fei, Y., Kumar, R. E., He, T., Milsted, D., et al. (2023). An
+Qian, X., Yoon, B.-J., Arróyave, R., Qian, X., and Dougherty, E. R. (2023). Knowledge- autonomous laboratory for the accelerated synthesis of inorganic materials. Nature 624
+driven learning, optimization, and experimental design under uncertainty for materials (7990), 86–91. doi: 10.1038/s41586-023-06734-w
+discovery. Patterns 4 (11), 100863. doi: 10.1016/j.patter.2023.100863
+Tom, G., Schmid, S. P., Baird, S. G., Cao, Y., Darvish, K., Hao, H., et al. (2024). Self-
+Qian, F., Cao, D., Chen, S., Yuan, Y., Chen, K., Chimtali, P. J., et al. (2025). High-entropy Driving laboratories for chemistry and materials science. Chem. Rev. 124 (16),
+RuO2 catalyst with dual-site oxide path for durable acidic oxygen evolution reaction. 9633–9732. doi: 10.1021/acs.chemrev.4c00055
+Nat. Commun. 16 (1), 6894. doi: 10.1038/s41467-025-61763-5
+Tong, Y., Wang, L., Hou, F., Dou, S. X., and Liang, J. (2022). Electrocatalytic oxygen
+Quaino, P., Juarez, F., Santos, E., and Schmickler, W. (2014). Volcano plots in hydrogen reduction to produce hydrogen peroxide: rational design from single-atom catalysts to
+electrocatalysis – uses and abuses. Beilstein J. Nanotechnol. 5, 846–854. doi: 10.3762/ devices. Electrochem. Energy Rev. 5 (3), 7. doi: 10.1007/s41918-022-00163-5
+bjnano.5.96
+Tran, R., Lan, J., Shuaibi, M., Wood, B. M., Goyal, S., Das, A., et al. (2023). The open
+Reiser, P., Neubert, M., Eberhard, A., Torresi, L., Zhou, C., Shao, C., et al. (2022). Graph catalyst 2022 (OC22) dataset and challenges for oxide electrocatalysts. ACS Catal. 13 (5),
+neural networks for materials science and chemistry. Commun. Mater. 3 (1), 93. doi: 10. 3066–3084. doi: 10.1021/acscatal.2c05426
+1038/s43246-022-00315-6
+Wang, S., Lu, A., and Zhong, C.-J. (2021). Hydrogen production from water electrolysis:
+Resasco, J., Abild-Pedersen, F., Hahn, C., Bao, Z., Koper, M. T. M., and Jaramillo, T. F. role of catalysts. Nano Converg. 8 (1), 4. doi: 10.1186/s40580-021-00254-x
+(2022). Enhancing the connection between computation and experiments in
+Wang, S.-H., Pillai, H. S., Wang, S., Achenie, L. E. K., and Xin, H. (2021). Infusing theory
+electrocatalysis. Nat. Catal. 5 (5), 374–381. doi: 10.1038/s41929-022-00789-0
+into deep learning for interpretable reactivity prediction. Nat. Commun. 12 (1), 5288.
+Rodríguez-Martínez, X., Pascual-San-José, E., and Campoy-Quiles, M. (2021). doi: 10.1038/s41467-021-25639-8
+Accelerating organic solar cell material’s discovery: high-throughput screening and
+Wang, T., Cao, X., and Jiao, L. (2022). PEM water electrolysis for hydrogen production:
+big data. Energy and Environ. Sci. 14 (6), 3301–3322. doi: 10.1039/D1EE00559F
+fundamentals, advances, and prospects. Carbon Neutrality 1 (1), 21. doi: 10.1007/
+Rosen, A. S., Iyer, S. M., Ray, D., Yao, Z., Aspuru-Guzik, A., Gagliard, L., et al. (2021). s43979-022-00022-8
+Machine learning the quantum-chemical properties of metal–organic frameworks for
+Wang, W., Jiang, X., Tian, S., Liu, P., Lookman, T., Su, Y., et al. (2023). Alloy synthesis
+accelerated materials discovery. Matter 4 (5), 1578–1597. doi: 10.1016/j.matt.2021.
+and processing by semi-supervised text mining. Npj Comput. Mater. 9 (1), 183. doi: 10.
+02.015
+1038/s41524-023-01138-w
+Saidi, W. A. (2022). Emergence of local scaling relations in adsorption energies on high-
+Wang, C., Wang, B., Wang, C., Li, A., Chang, Z., and Wang, R. (2025). A machine
+entropy alloys. Npj Comput. Mater. 8 (1), 86. doi: 10.1038/s41524-022-00766-y
+learning model with minimize feature parameters for multi-type hydrogen evolution
+Salami, R., Liu, T., Han, X., and Zheng, Y. (2025). Machine learning application in catalyst prediction. Npj Comput. Mater. 11 (1), 111. doi: 10.1038/s41524-025-01607-4
+thermal CO2 hydrogenation: catalyst design, process optimization, and mechanism
+Wang, J., Liu, Y., Yang, G., Jiao, Y., Dong, Y., Tian, C., et al. (2025). MXene-Assisted
+insights. Adv. Powder Mater. 4 (6), 100333. doi: 10.1016/j.apmate.2025.100333
+NiFe sulfides for high-performance anion exchange membrane seawater electrolysis.
+Schrier, J., Norquist, A. J., Buonassisi, T., and Brgoch, J. (2023). In pursuit of the Nat. Commun. 16 (1), 1319. doi: 10.1038/s41467-025-56639-7
+exceptional: research directions for machine learning in chemical and materials science.
+Wang, X., Pi, W., Hu, S., Bao, H., Yao, N., and Luo, W. (2025). Boosting oxygen
+J. Am. Chem. Soc. 145 (40), 21699–21716. doi: 10.1021/jacs.3c04783
+evolution reaction performance on NiFe-Based catalysts through d-Orbital
+Schütt, K. T., Sauceda, H. E., Kindermans, P.-J., Tkatchenko, A., and Müller, K.-R. hybridization. Nano-Micro Lett. 17 (1), 11. doi: 10.1007/s40820-024-01528-9
+(2018). SchNet – a deep learning architecture for molecules and materials. J. Chem. Phys.
+Wu, L., Xu, Y., Wang, Q., Zou, X., Pan, Z., Leung, M. K. H., et al. (2025). Direct seawater
+148 (24), 241722. doi: 10.1063/1.5019779
+electrolysis for green hydrogen production: electrode designs, cell configurations, and
+Sead, F. F., Reddy, M. S., Sahu, B. N., Sundharam, S., Kumar, S., Pramanik, A., et al. system integrations. Energy and Environ. Sci. 18 (10), 4596–4624. doi: 10.1039/
+(2026). Dual-function MOF@covalent triazine framework – au hybrid for visible-light- D5EE01093D
+driven photocatalytic hydrogen evolution. J. Environ. Chem. Eng. 14 (3), 122992. doi: 10.
+Xu, S., Chen, Z., Qin, M., Cai, B., Li, W., Zhu, R., et al. (2024). Developing new
+1016/j.jece.2026.122992
+electrocatalysts for oxygen evolution reaction via high throughput experiments and
+Seh, Z. W., Kibsgaard, J., Dickens, C. F., Chorkendorff, I., Nørskov, J. K., and Jaramillo, artificial intelligence. Npj Comput. Mater. 10 (1), 194. doi: 10.1038/s41524-024-01386-4
+T. F. (2017). Combining theory and experiment in electrocatalysis: insights into
+Xu, W., Diesen, E., He, T., Reuter, K., and Margraf, J. T. (2024). Discovering high
+materials design. Science 355 (6321), eaad4998. doi: 10.1126/science.aad4998
+entropy alloy electrocatalysts in vast composition spaces with multiobjective
+Slautin, B. N., Liu, Y., Funakubo, H., Vasudevan, R. K., Ziatdinov, M., and Kalinin, S. V. optimization. J. Am. Chem. Soc. 146 (11), 7698–7707. doi: 10.1021/jacs.3c14486
+(2024). Bayesian conavigation: dynamic designing of the material digital twins via active
+Zhang, H., Chen, L., Dong, F., Lu, Z., Lv, E., Dong, X., et al. (2024). Dynamic
+learning. ACS Nano 18 (36), 24898–24908. doi: 10.1021/acsnano.4c05368
+transformation of active sites in energy and environmental catalysis. Energy and
+Sokolov, M., and Exner, K. S. (2024). Is the *O vs. *OH scaling relation intercept more Environ. Sci. 17 (18), 6435–6481. doi: 10.1039/D4EE02365J
+relevant than the *OOH vs. *OH intercept to capture trends in the oxygen evolution
+Zhang, Z., Ren, Z., Hsu, C.-W., Chen, W., Hong, Z.-W., Lee, C.-F., et al. (2025). A
+reaction? Chem. Catal. 4 (7), 101039. doi: 10.1016/j.checat.2024.101039
+multimodal robotic platform for multi-element electrocatalyst discovery. Nature 647
+Srinivasan, S. K., Jayaraman, S., Sekar, B. K., Rajendran, A. K., Jayabal, R., and (8089), 390–396. doi: 10.1038/s41586-025-09640-5
+Prabhakar, P. (2026). Integrated monitoring and lifecycle assessment of green
+Zheng, P., Han, Z., Su, B.-L., and Xu, G. (2025). Catal-GPT: AI-driven directed efficient
+hydrogen, ammonia, and synthetic fuels: advancing environmental sustainability and
+design framework for catalysts. Natl. Sci. Rev. 12 (9), nwaf299. doi: 10.1093/nsr/nwaf299
+carbon traceability in the clean energy transition. Environ. Prog. and Sustain. Energy 45
+(2), e70328. doi: 10.1002/ep.70328 Zhou, D., Yang, R., Jia, Z., Cai, Y., Zhao, L., Guo, L., et al. (2026). A practical inverse
+design approach for high-entropy catalysts using generative AI. Nat. Synth. 5, 730–739.
+Stevanović, V., Lany, S., Zhang, X., and Zunger, A. (2012). Correcting density functional
+doi: 10.1038/s44160-025-00983-5
+theory for accurate predictions of compound enthalpies of formation: Fitted elemental-
+phase reference energies. Physical Review 85, 11510. doi: 10.1103/PhysRevB.85.115104 Zhu, Q., Huang, Y., Zhou, D., Zhao, L., Guo, L., Yang, R., et al. (2023). Automated
+synthesis of oxygen-producing catalysts from Martian meteorites by a robotic AI
+Stevens, M. B., Anand, M., Kreider, M. E., Price, E. K., Zeledón, J. Z., Wang, L., et al.
+chemist. Nat. Synth. 3 (3), 319–328. doi: 10.1038/s44160-023-00424-1
+(2022). New challenges in oxygen reduction catalysis: a consortium retrospective to
+Frontiers in Chemistry 31 frontiersin.org
+

@@ -1,0 +1,1350 @@
+ISSN1998-0124 CN11-5974/O4
+https://doi.org/10.26599/NR.2026.94909059
+Quaternary medium-entropy nanoalloys with
+crystalline/amorphous heterointerfaces for highly selective and
+stable photocatalytic nitrite reduction to ammonia
+ChenYang1,Xing’anDong1(✉),XianShi2,YuyingWang3,HuirongYuan1,WenddongZhang4,WeidongDai5,Zhenxiang
+Cheng6(✉),PengYu1(✉),FanDong5
+1CollegeofPhysicsandOptoelectronicEngineering,ChongqingNormalUeniversity,Chongqing401331,China
+2SchoolofChemistryandEnvironmentalEngineering,SichuanUniversityofScience&amp;Engineering,Zigong643000,
+China t
+3EngineeringResearchCenterforWasteOilRecoveryTechnologyandEquipment,MinistryofEducation,Chongqing
+p
+TechnologyandBusinessUniversity,Chongqing400067,China
+4CollegeofChemistry,ChongqingNormalUniversity,Chongqing401331,China
+e
+5ResearchCenterforCarbon-NeutralEnvironmental&amp;EnergyTechnology,InstituteofFundamentalandFrontier
+Sciences,UniversityofElectronicScienceandTechnologyofChina,Chengdu611731,China
+c
+6InstituteforSuperconductingandElectronicMaterials,FacultyofEngineeringandInformationSciences,Universityof
+Wollongong,NorthWollongong,Australia
+c
+NanoRes.,JustAcceptedManuscript•https:/A/doi.org/10.26599/NR.2026.94909059
+https://www.sciopen.com/journal/1998-0124onJul.28,2026
+©TheAuthors(s)
+t
+s
+JustAccepted
+u
+Thisisa“JustAccepted”manuscript,whichhasbeenexaminedbythepeer-reviewprocessand
+hasbeenacceptedforpublication.A“JustAccepted”manuscriptispublishedonlineshortlyafter
+J
+itsacceptance,whichispriortotechnicaleditingandformattingandauthorproofing.Tsinghua
+UniversityPress(TUP)provides“JustAccepted”asanoptionalandfreeservicewhichallows
+authorstomaketheirresultsavailabletotheresearchcommunityassoonaspossibleafter
+acceptance.Afteramanuscripthasbeentechnicallyeditedandformatted,andthepageproofs
+havebeencorrected,itwillberemovedfromthe“JustAccepted”websiteandpublished
+officiallywithvolumeandarticlenumber(e.g.,NanoResearch,2025,18,94906990).Pleasenote
+thattechnicaleditingmayintroduceminorchangestothemanuscripttextand/orgraphicswhich
+mayaffectthecontent,andalllegaldisclaimersthatapplytothejournalpertain.Innoeventshall
+TUPbeheldresponsibleforerrorsorconsequencesarisingfromtheuseofanyinformation
+containedinthese“JustAccepted”manuscripts.TocitethisanuscriptpleaseuseitsDigitalObject
+Identifier(DOI®),whichisidenticalforallformatsofpublication.
+
+ABLEOFCONTENTS(TOC)
+d
+e
+t
+p
+e
+Thisstudydevelopsaquaternarymedium-entropyalloy(Cu/Co/Ni/Zn)anchoredonTiO2nanosheetswithengineeredcrystalline/amorphous
+heterointerfaces,whichsynergisticallyoptimizesnitritebidentateadsorptionandaccelerateswaterdissociationtolowertheactivationbarrier
+c
+foractivehydrogen(*H)generation,whiletheentropy‐inducedsluggishdiffusioneffectendowstheamorphousdomainswithexceptional
+stabilityagainstphoto‐inducedrecrystallization,collectivelyachievingaremarkableNH3productionefficiencyof99.69%withnearly100%
+selectivityandsuperiordurability. c
+A
+t
+s
+u
+J
+
+OpenAccess
+ResearchArticle
+Quaternary medium-entropy nanoalloys with crystalline/amorphous
+heterointerfaces for highly selective and stable photocatalytic nitrite
+reduction to ammonia
+✉
+ChenYang1,Xing’anDong1 ,XianShi2,YuyingWang3,HuirongYuan1,WendongZhang4,WeidongDai5,ZhenxiangCheng6
+✉ ✉
+,PengYu1 ,andFanDong5
+1CollegeofPhysicsandOptoelectronicEngineering,ChongqingNormalUniversity,Chongqing401331,China
+d
+2SchoolofChemistryandEnvironmentalEngineering,SichuanUniversityofScience&Engineering,Zigong643000,China
+3 Engineering Research Center for Waste Oil Recovery Technology and Equipment, Ministry of Education, Chongqing Technology and
+BusinessUniversity,Chongqing400067,China
+4CollegeofChemistry,ChongqingNormalUniversity,Chongqing401331,China e
+5Research Center for Carbon-Neutral Environmental & Energy Technology, Institute of Fundamental and Frontier Sciences, University of
+ElectronicScienceandTechnologyofChina,Chengdu611731,China
+t
+6InstituteforSuperconductingandElectronicMaterials,FacultyofEngineeringandInformationSciences,UniversityofWollongong,North
+Wollongong,Australia
+p
+Received:23May2026;Revised:2July2026;Accepted:28July2026
+✉ e
+Address correspondence to Xing’an Dong, xadong@cqnu.edu.cn; Zhenxiang Cheng, zhenxiang_cheng@uow.edu.au; Peng Yu,
+pengyu@cqnu.edu.cn
+c
+Citethisarticle:NanoResearch,2026,19,94909059 https://doi.org/10.26599/NR.2026.94909059
+c
+ABSTRACT: Photocatalytic reduction of nitrite (NO2 −) to ammonia (NH3) presents a sustainable path for wastewater remediation and
+nitrogenresourcerecovery. However, theslugAgishseven-proton/six-electron(7H+/6e−)transfer kineticsandtheformidableenergy barrierof
+hydrogenatomtransfer (HAT)limititspracticalefficiency.Herein,wereportarobustphotocatalystcomprisingquaternarymediumentropy
+alloy (MEA) nanoparticles (Cu, Co, Ni, Zn) anchored on TiO2 nanosheets (TNS), featuring a tailor-made crystalline/amorphous
+heterointerfaces. The unique interfacial architecture synergistically optimizes the bidentate adsorption of nitrite and accelerates water
+t
+dissociation,therebyloweringtheactivationenergyforactivehydrogen(*H)generation.Benefitingfromthehigh-entropy-induced“sluggish
+s
+diffusion” effect, the amorphous domains exhibit exceptional structure stability against photo-induced recrystallization. Consequently, the
+HH-CCNZ@TNS catalyst
+u
+achieves a remarkable NH3 production efficiency of 99.69% with near 100% selectivity, maintaining superior
+durability over multiple cycles. This work underscores the potential of entropy engineering in coordinating multi-step proton/electron
+dynamicsforadvancedenergyandenvironmentalcatalysis.
+J
+KEYWORDS:entropyengineering,crystalline/amorphousheterointerface,photocatalyticreduction,isotopelabeling,insituATRFT-IR
+andundergoesdeoxygenationtoformthekeyintermediate*NO,
+1Introduction
+a step dictated by electronic interactions and NO adsorption
+x
+Ammonia serves as both a high-value-added feedstock for strength; subsequently, *NO is sequentially protonated to form
+nitrogen fertilizer production and a promising carbon-neutral NH , a hydrogenation stage highly dependent on water
+3
+energy carrier [1]. Currently, NO 2 − is a prevalent pollutant in dissociationandthegenerationofactivehydrogen*H[7,8].
+agricultural and industrial wastewater, posing serious threats to Nevertheless,NO RRinvolvesadauntingsix-electron,seven-
+2
+environmental safety and human health [2]. Photocatalytic proton (7H+/6e−) transfer process. Improper adsorption
+reduction of nitrite to ammonia (NO 2 RR) represents an configurations or excessive adsorption of reactants and
+advanced strategythat integrates pollutioncontrol withresource intermediates (e.g., *NO , NO, *H) can occupy active sites and
+2
+recycling. Driven bysolarenergy, thisapproachaims toreplace impede subsequent hydrogenation, while insufficient adsorption
+thecarbon-intensiveHaber-Boschprocess[3–6],enablinggreen may lead to premature desorption and reduced NH selectivity
+3
+ammonia synthesis under mild conditions. However, NO 2 RR is [9]. Therefore, achieving an optimal balance between the
+a complex multi-electron transfer process involving various adsorption configurationandstrength is crucial fordirecting the
+potential by-products. Its mechanism can be categorized into reaction pathway toward efficient synthesis. Furthermore, while
+two core stages: first, NO 2 − adsorbs onto catalytic active sites a sufficient *H supply drives hydrogenation, excessive or
+1 11
+/
+
+NanoResearch|Vol.XX,No.XX Firstauthoretal.
+misdirected *H delivery may trigger competitive side reactions 2.2.1SynthesisofTNS
+[10,11],suchasthehydrogenevolutionreaction(HER),thereby TiO nanosheets with exposed {001} facets (denoted as TNS)
+2
+reducing NH₃ yield. Consequently, there is an urgent need to were synthesized via a modified hydrothermal method adapted
+develop advanced NO RR photocatalysts capable of precisely from a previously reported protocol. In a typical procedure, 25
+2
+regulatingadsorptionconfigurationsandprotondynamics. mLoftetrabutyltitanatewasmixedwith3.0mLofhydrofluoric
+Recently, amorphous regions within alloy catalysts have acid (40 wt%, serving as a morphology-directing agent) under
+demonstrated significant potential to enhance adsorption and vigorousstirringtoformahomogeneousprecursorsolution.The
+activation due to their abundant coordination-unsaturated sites. resulting mixture was then transferred into a Teflon-lined
+However, amorphous structures often suffer from stainless-steel autoclave and maintained at 200 °C for 24 h.
+thermodynamic instability and structural reconstruction under After the hydrothermal reaction, the white precipitate was
+external fields [12]. Constructing crystalline/amorphous hetero- collected by centrifugation, washed sequentially with deionized
+interfaces has emerged as an effective strategy to harmonize water and ethanol to remove residual organics and loosely
+activity and stability. Recent studies have shown that such bound species. To eliminate adsorbed fluoride ions from the
+interfaces provide [13–15] abundant active sites while ensuring surface, the obtained product was redispersed in an aqueous
+structural stability and electronic conductivity through NaOH solutiond(0.1 M) and stirred for 24 h. The final product
+crystalline regions [12]. This synergistic interaction not only was recovered by centrifugation, washed repeatedly with
+stabilizes the adsorption of NO − but also optimizes the deionized water until the supernatant reached neutral pH, and
+2
+adsorption equilibrium of key intermediates, thereby potentially finallydreiedat60°Cinair,yieldingthedesiredTNSsamples.
+suppressing competing side reactions that may be induced by
+excessive*H[16]. 2.2.2SynthesisofHH-CCNZ@TNS
+t
+Herein, we synthesize a quaternary MEA (consisting of Cu, A series of metal-loaded Cu 4 Co 1.5 Ni 1.5 Zn 1.5 @TNS composites
+Co, Ni and Zn) supported on TNS nanosheets with a pwere prepared via a rapid co-precipitation method. In a typical
+controllably constructed the crystalline/ amorphous interface. procedure, 37.5 mg of Cu(NO 3 ) 2 , 17.8 mg ofCoCl 2 ·6H 2 O, 22.3
+This relatively high configurational entropy (1.27R) suppresses mg of Zn(NO 3 ) 2 ·6H 2 O, and 17.8 mg of NiCl 2 ·6H 2 O were
+atomic diffusion, effectively maintaining the stability of ethe dissolvedin25mLofdeionizedwaterundercontinuousstirring
+hetero-interface during both synthesis and reaction. This for 30 min to obtain a homogeneous metal salt solution.
+structural robustness yields exceptional photocatalytic Concurrently,3mmoloftheas-synthesizedTNSweredispersed
+c
+performance, with NH conversion efficiency consistently in 50mL ofdeionizedwater toform auniformsuspension.The
+3
+exceeding 90% over multiple cycles. Detailed experimental metal salt solution was then added dropwise to the TiO 2
+studies reveal that the MEA reduced at 350 °C ex c hibits unique suspension under vigorous stirring, and the resulting mixture
+crystalline/amorphous interfaces, distinct from the fully was further stirred for 30 min under a constant argon (Ar) flow
+crystalline (450 °C) or fully amorphous (2A50 °C) counterparts. of 100 mL·min−1. Subsequently, a 1 M NaOH aqueous solution
+Rapid-scan in situ FT-IR with isotope labeling (Na15NO) was added dropwise to adjust the pH of the mixture to
+2
+confirms thatthisspecificinterfaceenablesbidentateadsorption approximately 10. The Ar flow rate was then reduced to 60
+of NO −, optimizing the bridging ad sorption of the *NO mL·min−1, and the stirring was continued for an additional 30
+2
+intermediate and facilitating the rapid NO − → NO → NH min. The resulting precipitate was collected by centrifugation,
+t2 3
+conversion [17]. Furthermore, D Oisotopeexperiments verified washed thoroughly with deionized water, transferred to a glass
+2
+that water servers as the protosn source. The unique interface culture dish, and freeze-dried at –60 °C for 20 h to obtain the
+architecture enhances water dissociation and boosts HAT CuCoNiZn@TNS photocatalyst (denoted as CCNZ@TNS). To
+efficiency while remaininug stable after prolonged photoreaction further modulate the interfacial structure, the as-prepared
+[18–22].Thisworkoffers anewparadigmfordesigninghetero- CCNZ@TNSwassubsequentlycalcinedat350°Cfor4hunder
+interface structures to regulate the selectivity of complex a mixed gas atmosphere comprising 40% H 2 , 10% CO 2 , and
+multistepcatalyticre J actions. 50% Ar. This post treatment yielded a medium-entropy
+composite photocatalyst featuring a crystalline/amorphous
+hetero-interface,designatedasHH-CCNZ@TNS.
+2.Experimental Section
+3.Results and Discussion
+2.1Materials:
+Copper nitrate hexahydrate (Cu(NO ) , Macklin) cobalt
+3 2 The architectural evolution of metal-loaded TiO photocatalysts
+2
+nitrate hexahydrate (Co(NO ) 6H O, Macklin), nickel nitrate
+3 2 2 has advanced from simple noble metal modification toward a
+hexahydrate (Ni(NO ) 6HO, Keshi), zinc nitrate hexahydrate
+3 2 2 rational design paradigm that emphasizes multi-component
+⋅
+(Zn(NO ) 6HO, Keshi), NaOH (96%, Aladdin), tetrabutyl
+3 2 2 synergy, crystal facet engineering, and defect modulation [23].
+⋅
+titanate (98%, Sinopharm Chemical Reagent Co., Ltd),
+Buildingonthismulti-dimensionalcrystalengineeringapproach,
+⋅
+Hydrofluoric acid(HF, 40 wt%, Keshi), potassium nitrite thisstudyintegrates fourtransitionmetal ions(Cu2+,Co2+,Zn2+,
+(KNO 2 ), sodium nitrite (Na15NO 2 ), D 2 O (99.9%, Aladdin), and Ni2+) in precise stoichiometric proportions. A co-
+Milliporewaterisusedinallexperiments.
+precipitation method was initially employed to construct a
+2.2Methods
+quaternary
+medium-entropy hydrotalcite precursor, which was then CCNZ@TNS. Subsequent calcination and hydrogen reduction
+anchored onto the surface of anatase-phase TiO via an in-situ treatments at various temperatures allowed for the controlled
+2
+regulation strategy, yielding the composite denoted as synthesis of medium-entropy alloy composites with distinct
+2 11
+/
+
+NanoResearch|Vol.XX,No.XX Firstauthoretal.
+degrees of crystallinity. Specifically, calcination at a high displays diffuse rings, a hallmark of amorphous domains [29].
+temperatureof450°Creadilytransformsthemetalclustersintoa Furthermore, the overall morphology of the precursor without
+fully crystalline alloy interface (designated as UH- H reduction (Figure S3a-c) exhibits a typical nanosheet
+2
+CCNZ@TNS). Conversely, a lower temperature of 250°C structure. In contrast, post-reduction samples (Figure S3d-f)
+preserves the disordered amorphous state (designated as LH- reveal metal aggregation zones with varying degrees of
+CCNZ@TNS). In contrast, a moderate calcination temperature crystallinity.InverseFastFouriertransform(IFFT)lineintensity
+of 350°C facilitates the formation of a unique and stable profiles in Figure 1e further corroborate the existence of these
+crystalline/amorphous heterointerface at the TNS-alloy junction crystalline/amorphous interfaces (Figure S4). This
+(designated as HH-CCNZ@TNS), providing a rich density of heterogeneous architecture is expected to provide favorable
+interfacialactivesites[24,25]. conditionenvironmentforNO − adsorption.Inductivelycoupled
+2
+The microstructure and elemental distributions of the as- plasma optical emission spectroscopy (ICP-OES) analysis
+synthesized samples were comprehensively characterized, as confirmsthattheactualmolarratioofcopper,cobalt,nickel,and
+presented in Figure 1. Scanning electron microscopy (SEM) zinc in HH-CCNZ@TNS is 1:0.47:0.47:0.45, which is broadly
+images (Figure S1a, b) reveal that the TNS support retains its consistent with the initially designed stoichiometric molar ratio
+well-defined nanosheet-like morphology, with metal clusters of 4:1.5:1.5:1.d5 (Figure 1e). According to the definition from
+uniformly dispersed on the TNS surface. X-ray diffraction statistical thermodynamics ( = ),
+(XRD) analysis furtherconfirms thecrystallographicfeatures of represents the mole fraction of the metal species), the
+∆  배ӥ坐 −  (  ∙ ӥ  )   
+the medium-entropy alloy catalysts. The LH-CCNZ sample configureationalentropy( )ofthequaternarymetalsinHH-
+exhibits no discernible diffraction peaks, consistent with an CCNZ@TNS is calculated to be 1.27R, placing it within the
+∆  배ӥ坐
+amorphous or highly disordered structure [26]. In contrast, the medium-entropyrange(1Rto1.5R)[24].Duetothedifferences
+t
+UH-CCNZ sample displays three prominent diffraction peaks at in atomic radii among the four elements-Cu, Co, Ni, and Zn—
+43.297°, 50.434°, and 74.132°, which are indexed to the (012), ptheir random occupation of lattice sites leads to severe local
+(110), and (113) crystallographic planes of the quaternary lattice distortions. Such distortions cause fluctuations in the
+medium-entropy hydrotalcite-like precursor, respectively [27]. crystal potential field, requiring atoms to overcome higher
+The XRD patterns of HH-CCNZ show intermediate featurees, energy barriers during hopping diffusion compared to
+suggesting its crystallinity resides between the fully crystalline conventional metals. The atomic diffusion pathways become
+and amorphous states. Following the loading of the quaternary distorted and obstructed, thereby kinetically suppressing the
+c
+alloyontotheTiO substrateandsubsequentthermaltreatments, long-range migration of atoms [30, 31]. Recent studies have
+2
+the XRD patterns of the resulting composite materials reveal confirmed that, despite the complex enthalpy of mixing
+distinct diffraction features corresponding to theccharacteristic relationshipsinquaternarymedium-entropyalloys,thereexistsa
+planesoftheanatasephaseofTiO (Figure 1a)[23].Duetothe tendency for theelements to form specific chemical short-range
+2
+lowmass loadingandhigh dispersionofthAeCu-Co-Ni-Zn alloy order (CSRO). This ordered structure restricts the diffusion
+nanoparticles, as well as their relatively small crystal size, pathways of vacancies and interstitial atoms, resulting in a
+characteristic diffraction peaks of the metallic alloy phase are significantreductioninatomic mobility. Thelimitation imposed
+not significantly detected. The negligib le differences observed by this chemical environment on diffusion pathways represents
+between the XRD patterns of pure TNS and the CCNZ@TNS anotherkey sourceoftheretarded diffusioneffect.Theretarded
+t
+seriesindicatethatboththeintroductionofthealloyspeciesand diffusioneffect inducedbylatticedistortionsandCSROimplies
+the hydrogen reduction procsess do not compromise the that, even under illumination (which may be accompanied by
+crystallinityoftheTiO support. localized thermal effects or electron excitation), atoms within
+2
+Transmissionelectronumicroscopy(TEM)imageinFigure1b- theamorphousregionsstruggletoacquiresufficientmobilityfor
+d confirm that Cu, Co, Ni and Zn alloy nanoparticles are cooperative rearrangement. This substantially decreases the
+successfully supported on the TiO nanosheets following likelihood of forming critical nuclei and hinders the growth of
+2
+hydrogen-calcinationJ-reduction.DetailedinspectioninFigure1c pre-existing nuclei by consuming the surrounding amorphous
+and 1d highlight the uniform distribution of these nanoalloys matrix [32]. The dual safeguards of "boundary-free" amorphous
+across the TNS surface. High-resolution TEM (HRTEM) regions and "retarded diffusion" ensure that the amorphous
+provides deeper insights into the structural evolution: the lattice regions in HH-CCNZ@TNS remain structurally "frozen" even
+spacing of 3.48   corresponds to the (101) plane of anatase under illumination conditions that might otherwise induce
+TiO ,whilethespacingof1.82 isindexedtothe(200)crystal atomic activation. Consequently, this provides a stable and
+2
+planes of the quaternary alloy. Crucially, the lattice fringes of uniqueactivesiteenvironmentforNO −adsorptionandcatalysis.
+2
+themedium-entropyHH-CCNZ@TNScompositeappearlocally Finally, high-angle annular dark-field (HAADF) imaging and
+blurredanddisordered,indicatingthecrystallineandamorphous Energy-dispersive X-ray spectroscopy (EDS) elemental
+domains are intimately intertwined to form unique mapping demonstrates that the ~5 nm metal nanoparticles are
+heterointerfaces [28]. Fast Fourier transform (FFT) analysis of anchoreduniformly ontheTiO nanosheets(Figure 1f),with all
+2
+region 1 (Figure S2a) exhibits discrete diffraction spots, metallic constituents homogeneously distributed throughout the
+confirming a crystalline nature, whereas Region 2 (Figure S2b) architecture.Collectively,thesemorpho-
+logicalandcompositionalfeaturesvalidatethesuccessful synthesis of this crystalline/amorphous hetero-phase interfaced
+medium-entropynanoalloycomposite.
+3 11
+/
+
+NanoResearch|Vol.XX,No.XX Firstauthoretal.
+d
+e
+t
+p
+e
+c
+c
+A
+Figure 1. Morphological and structutral evolution of HH-CCNZ@TNS catalysts before reaction. (a) XRD patterns. (b) TEM reveals
+metal nanoclusters supported on TNS, the red-circled area indicates the alloy concentration zone. (c-d) HRTEM, an
+amorphous/crystalline interfacesformed in the alloyed region. (e) The atomic ratio of fourTM elements. (f) HAADF images and the
+correspondingEDSelementalmaps.
+u
+Moreover, we have employed photoelectron spectroscopy to structure provides abundant electron-trapping sites, thereby
+investigatethefinestructureofthecatalyst material inprofound enhancing electron-accepting capability of the alloy. XPS
+J
+detail. X-ray photoelectron spectroscopy (XPS) was performed analysisfurtherrevealsthatthesesystematicnegativeshiftinthe
+to investigate the elemental valence states and interfacial transitionmetal bindingenergies directly confirm thesuccessful
+electronic interactions of HH-CCNZ@TNS, LH-CCNZ@TNS, construction of an efficient crystalline/amorphous
+and CCNZ@TNS. TheXPSsurvey spectra (Figure S5)confirm heterointerface within the alloy regions. This architecture
+theco-existenceofCu,Co,Ni,Zn,TiandOelementswithinthe establishesadirectionalelectrontransferchannelattheinterface,
+composites.IntheCu2pspectra(Figure2a),characteristicCu2+ synergistically optimizing the material's charge-accepting
+peaks alongside two satellite peaks are observed in all three propertiesandcatalyticutilizationefficiency.
+samples at specific ratios. Notably, after hydrogen reduction To further investigate the band structure of the prepared
+under varying conditions, the Cu 2p binding energy exhibits a catalyst, UPS spectra were obtained as shown in Figure 2e.The
+distinct negative shift; for instance, the Cu2+ binding energy mid-band maximum energy (E ) of TiO is lower than that of
+V 2
+decreases from 932.4 eV in CCNZ@TNS to 931.6 eV in HH- the Cu Co Ni Zn alloy, indicating a reduced density of states
+CCNZ@TNS. This downward shift indicates a significant aroundthe Fermi level (E)and suggesting enhanced adsorption
+f
+electron transfer from the crystalline TiO domains to the alloy capacity forintermediate species [33].Thework functionofthe
+2
+interface.Similarly,theoverallbindingenergiesofCo2p,Ni2p, prepared catalyst was calculated from the secondary electron
+and Zn 2p also exhibit systematic negative shifts from cutoff energy. As depicted in Figure 2e, the work function
+CCNZ@TNS to HH-CCNZ@TNS (Figure 2b-2d). This (4.21eV) of TiO is lower than that of the Cu Co Ni Zn alloy
+2
+phenomenon is closely associated with the high defect density (4.64eV).ThebandcontactdiagramsforTiO andtheCuCoNi
+2
+inherent in theamorphous regions, where the disordered atomic Zn alloy are shown in Figure 2f. The formation of Cu-Co-Ni-
+4 11
+/
+
+NanoResearch|Vol.XX,No.XX Firstauthoretal.
+Zn/TiO heterostructures facilitates electron transfer from TiO shiftintheTi2pbindingenergy(FigureS6)indicatesadecrease
+2 2
+totheCuCoNiZnalloyregion.Furthermore, theincorporation in electron density on theTiO side, whereas thenegative shifts
+2
+ofCuCoNiZnquaternarymetalelementsintotheTiO catalyst observed for the Cu 2p, Co 2p, Ni 2p, and Zn 2p binding
+2
+enhances electron interactions and built-in electric field (BIEF), energiesareconsistentwithelectronaccumulationattheCu-Co-
+therebyenablingamoreefficientelectrontransferprocess. Ni-Zn alloy. Such pronounced interfacial electronic interactions
+The direction of electron transfer inferred from UPS is substantially strengthen the BIEF, thereby facilitating efficient
+stronglycorroboratedbyXPSanalyses.Specifically,thepositive chargeseparationandmigrationacrosstheheterointerface.
+d
+e
+t
+p
+e
+c
+c
+Figure 2. Photoelectron spectroscopy of thAe catalyst. (a-d) XPS spectra of Ni 2p, Co 2p, Zn 2p and Cu 2p of CCNZ@TNS, LH-
+CCNZ@TNS,HH-CCNZ@TNS.UPSspectra(e),andenergybanddiagramofTiO,quaternarymetalalloy(f).
+2
+Building on the advantageous struc tural features of the [36–41].Furthermore, thecatalyst maintained aconsistent NO −
+2
+synthesized materials, we systematically evaluated their removal efficiency of 100% throughout five consecutive
+t
+catalyticperformancefortheNO RR.Optimizationexperiments cycling (Figure 3e and 3f), demonstrating excellent long-term
+2
+∼
+regarding the Cu: Co: Ni: Znsmolar ratios and the degree of stability. In addition, the quantum efficiencies of photocatalytic
+hydrogen reduction were conducted. The catalyst screening NO -RR of theHH-CCNZ@TNS in theHCHO-free solution as
+2
+process commenced wuith the preparation of a series of wellasHCHOsolutionwerealsocalculated,whichwere0.01%
+quaternary metal ratios on TNS (Figure S8-S12), followed by a and 0.14%, respectively, demonstrating that the addition of
+comprehensiveevaluationoftheirphotocatalyticNO −reduction HCHO can substantially enhance the proton transfer efficiency
+2
+activities [34]. To fJurther enhance performance, HCHO was and the utilization of light has been greatly improved.
+employed as a synergistic oxidative reactant to facilitate the Exceptionalperformancewasalsoobservedduringthereduction
+half-reaction and assess the reduction activity across various of high-concentration nitrite (Figure 3g), further attesting to the
+metal configurations [35]. Our results demonstrate that the material robust structural integrity. Remarkably, the MEA-
+optimal NO RR activity is achieved with Cu: Co: Ni: Zn molar constructed crystalline/amorphous heterointerface remained
+2
+ratio of 4:1.5:1.5:1.5 under a reduction temperature of 350°C intact after the photocatalytic reaction (Figure 3h), with the
+(Figure3a). amorphous regions exhibiting no signs of crystallization. In
+Concurrently, the rapid decrease in nitrite concentration stark contrast, the initially amorphous LH-CCNZ@TNS sample
+(Figure 3b) highlights thesuperior performance of themedium- underwent significant crystallization under identical conditions
+entropy alloy composite, which is attributable to its unique (Figure S13–S14), highlighting the critical role of the
+crystalline/amorphous heterointerface. The photocatalytic crystalline/amorphous heterointerface in stabilizing the
+conversion of nitrite approached approximately 100%, amorphous domains against intensive illumination. Moreover,
+corresponding to a nearly quantitative NH selectivity of the corresponding EDS elemental mapping spectra acquired
+3
+approximately 100% (Figure 3c), thereby demonstrating after the reaction (Figure 3i) confirm that the composite
+sustainedandselectivereduction. architecture—metal alloy nanoparticles well dispersed on TiO
+2
+Notably, the HH-CCNZ@TNS catalyst delivered a nanosheets—also remains structurally intact. Collectively, these
+remarkableNH productionrateof884μmol·g−1h−1(Figure3d), findings unequivocally demonstrate that the
+3
+surpassing the majority of previously reported photocatalysts crystalline/amorphous heterointerface not only suppresses
+5 11
+/
+
+NanoResearch|Vol.XX,No.XX Firstauthoretal.
+crystallizationoftheamorphousdomainsbutalsoguaranteesthe photocatalyticoperation.
+structural robustness of the catalyst throughout extended
+d
+e
+t
+p
+e
+c
+c
+A
+t
+s
+u
+J
+Figure 3.Photocatalytic NO − reduction performancetest. Photocatalytic activity ofthe as-synthesized samples foryield of NH and
+2 3
+the removal of NO − (a and b). (c) Selectivity test for the continuous NO − reduction on the HH-CCNZ@TNS photocatalyst. (d)
+2 2
+Comparison ofthe NH synthesis yield of HH-CCNZ@TNS with recently reported photocatalysts. Cycle photocatalytic performance
+3
+(e and f) of HH-CCNZ@TNS. (g) Long-period photocatalytic performance. (h and i) HAADF images and corresponding EDS
+elementalmappingspectraofMEAcrystalline/amorphousmaterialsafterphotocatalyticreactions.
+To delve into the intrinsic mechanism underlying the enhanced reactions (Figure 4a). Further photoelectrochemical
+photocatalytic performance of the crystal/ amorphous medium- measurements demonstrate that HH-CCNZ@TNS possesses a
+entropy nanoalloy, we systematically characterized its notably higher photocurrent density compared to control
+photoelectrochemical properties and charge carrier dynamics. samples (Figure 4b). Additionally, electrochemical impedance
+Ultraviolet-visible diffuse reflectance spectroscopy (UV-vis spectroscopy(EIS)analysisrevealstheminimumchargetransfer
+DRS) reveals that HH-CCNZ@TNS exhibits significant light resistance for HH-CCNZ@TNS (Figure 4c), substantiating the
+absorptioninthe200–400nmrange,confirmingitscapabilityto material'ssuperiorinitialchargeseparationefficiencyandhighly
+effectively harvest ultraviolet light to drive the catalytic
+efficient interfacial electron transport capacity [42, 43]. Steady- spectroscopy provide more in-depth kinetic evidence regarding
+state and time-resolved photoluminescence (TRPL) carrier behavior: HH-CCNZ@TNS exhibits the weakest
+6 11
+/
+
+NanoResearch|Vol.XX,No.XX Firstauthoretal.
+fluorescence emission intensity (Figure 4d),indicating the hydroxyl radicals were clearly detected (Figure 4f), which
+effective suppression of photogenerated electron-hole pair participateintheoxidativehalf-reactionofformaldehyde[45].
+recombination[44]. Subsequently, TEMPO was utilized as a probing agent to
+Moreover, its average carrier lifetime was calculated to be identify the generation and accumulation of photogenerated
+32.16 ns, which is significantly longer than that of the electrons (e-). The intensity of the electron-related signals
+benchmark TNS (2.40 ns) (Figure 4e). These results followed the order of HH-CCNZ@TNS > LH-CCNZ@TNS >
+unequivocally indicate that the unique crystalline/ amorphous CCNZ@TNS > UH-CCNZ@TNS (Figure 4g), exhibiting high
+heterointerface effectively inhibits carrier recombination and consistency with the observed photocatalytic ammonia
+provides a prolonged survival time for photogenerated species, production performance. This correlation directly demonstrates
+therebysubstantiallyincreasingtheirprobabilityofparticipating thattheeffectiveyield ofphotogeneratedelectrons serves asthe
+in surface catalytic redox reactions. To correlate the kinetic bottleneck determining the NO − reduction efficiency.
+2
+aforementioned favorable charge behaviors with specific The unique crystalline/amorphous interface engineered in HH-
+catalytic reaction pathways, spin-trapping electron spin CCNZ@TNS precisely facilitates the maximization of charge
+resonance (ESR) spectroscopy was employed to elucidate the separation and utilization efficiency while simultaneously
+generation of active radicals. Under illumination with the HH- ensuring londg-term structural integrity. These factors
+CCNZ@TNS photocatalyst, the characteristic signals of synergistically drive the highly selective and efficient synthesis
+ofammonia.
+e
+t
+p
+e
+c
+c
+A
+t
+s
+u
+J
+Figure4. Thephotoelectric properties ofcatalyst materials. (a) UV−vis DRSof HH-CCNZ@TNS, LH-CCNZ@TNS, CCNZ@TNS
+and UH-CCNZ@TNS. (b) Transient photocurrent response. (c) Nyquist plots. (d) PL spectra. (e) TRPL spectra of TNS and HH-
+CCNZ@TNS. DMPO spin-trapping ESR spectra for (f) •OH. (g) EPR spectra for LH-CCNZ@TNS, HH-CCNZ@TNS and UH-
+CCNZ@TNS-e−.
+The photocatalytic reduction of nitrite to ammonia was reaction intermediates, and the hydrogen atom transfer
+monitored via rapid-scan in situ attenuated total reflection mechanism, thereby providing robust spectroscopic evidence to
+Fourier-transform infrared (ATR FT-IR) spectroscopy. The elucidate the underlying reaction pathways. Furthermore, the
+primary objectives were to obtain in-depth insights into the specificNO − adsorptionmodes and thehydrogen atom transfer
+2
+NO − adsorption and activation process, the formation of
+2
+7 11
+/
+
+NanoResearch|Vol.XX,No.XX Firstauthoretal.
+behaviorwere rigorously investigated via isotopelabelingusing in situFT-IR results (Figure 5e), theNO RR pathway manifests
+2
+Na15NO andD O. as follows: adsorbed NO − (1287 cm−1) undergoes
+2 2 2
+In the spectra obtained using H₂O as the solvent (Figure 5a deoxygenation followed by stepwise hydrogenation to generate
+and 5b),a comparative analysis between ¹⁴NO − and¹⁵ NO − a series of intermediates, including NH (1035 cm−1) and
+2 2 2
+(Figure 5d and 5e) reveals two distinct characteristic peaks at NH OH (1206 cm−1), ultimately converting into NH + (1404
+2 4
+1287 cm−1 and 1174 cm−1. These peaks are attributed to the cm−1). The detection of these intermediates suggests that NO −
+2
+asymmetric and symmetric stretching vibrations of adsorbed experiences sequential N=O bond cleavage and progressive
+NO −, respectively [7, 46]. This appearance of these signals hydrogenationonthecatalystsurface.
+2
+unequivocally indicates the presence of chemically adsorbed Specifically, the bidentate adsorption configuration is
+nitritespecieswithinthereactionsystem.Furthermore,anascent identified as a key factor in effectively facilitating N=O bond
+peak at 1404 cm−1, corresponding to the N–H stretching activation by polarizing the nitrogen-oxygen bonds [22].
+Isotopic spectra of KNO and Na15NO (Figure 5d) reveal a
+vibration of NH+, is clearly observed during the reaction [22]. 2 2
+4
+noticeable red shift in the N=O stretching vibrations; compared
+This spectroscopic feature directly confirms the successful
+to KNO , the characteristic peak for Na15NO (N=O) shifts
+2 2
+formation of ammonia and the efficient progression of the
+toward lower wavenumbers, confirming the nitrogen-involved
+photocatalyticnitritereductionreaction.Basedontherapid-scan vibrationalnatdure.
+e
+t
+p
+e
+c
+c
+A
+t
+s
+u
+J
+Figure 5. In situ FT-IR spectroscopy for probing reaction mechanisms. (a-f) In situ FT-IR of KNO and Na15NO photoreduction
+2 2
+process of HH-CCNZ@TNS tested in the presence of water and deuterium water. In situ liquidATR FT-IR reaction cell: schematic
+diagramandtestingmechanism(g).HH-CCNA@TNScatalystmechanismforphotocatalyticreductionofNO −(h).
+2
+Furthermore, the discernible differences in peak shape and photocatalytic reduction process, NO − is stabilized through
+2
+width between the isotopes provide additional evidence for the bidentate adsorption at the crystalline/amorphous interface,
+bidentate adsorption mechanism at the interface [22, 47, 48]. which significantly lowers theenergy barrier for the subsequent
+Collectively,thesespectroscopicfeaturesconfirmthatduringthe reduction steps and drives the ammonia production reaction
+8 11
+/
+
+NanoResearch|Vol.XX,No.XX Firstauthoretal.
+forward.Notably,inspectraobtainedusingD₂Oasthesolvent of these nanoparticles is enriched with crystalline/amorphous
+(Figures5c,5f),thecharacteristicpeaksforN–Dbending(1030 heterointerfacesthat facilitatethefavorablebidentateadsorption
+cm−1), C–D bending (1826 cm−1), and D−O−D bending (1225 and activation of nitrite, which simultaneously accelerating
+cm−1) vibrations all exhibit significant red shift to lower water dissociationto promotethegeneration ofactive hydrogen
+wavenumbers.Theirintensitiesaremarkedlylowerthanthoseof species. The synergistic medium-entropy effect significantly
+thecorrespondingN–H(1542cm−1),C–H(2914cm−1)[49],and enhances interface stability and coordinates proton kinetics,
+H−O−H bending (1650 cm−1) vibrations observed in the HO resulting in exceptional ammonia production efficiency with
+2
+system. This pronounced isotopic shift highlights the distinct near-unity selectivity. Experimental results demonstrate that the
+vibrational characteristics of chemical bonds involving MEA reduced at 350°C uniquely retains a stable
+deuterium (D) and hydrogen (H) atoms. These observations crystalline/amorphousinterface,distinguishingitfromstructures
+offercrucialinsightsintothehydrogenatomtransfermechanism obtained at other reduction temperatures. This optimized
+andprovidedefinitiveevidencethatH₂Oservesastheprimary architecture facilitates therapid conversion ofkey intermediates
+proton source for ammonia synthesis. Additionally, the peak (NO −→*NO →NH), withwater rigorouslyconfirmed asthe
+2 3
+intensities of key intermediates in the formaldehyde (HCHO) primary proton source. The unique structure not only enhances
+oxidation process, specifically the C=O stretching (1306 cm−1) water dissociation and HAT efficiency but also remains
+d
+and–COOHbending(1093cm−1)modes,increaseprogressively remarkably stable after prolonged photocatalytic reactions.
+over time (Figures 5e, 5f). This trend indicates the gradual Collectively, this work provides a new perspective and a robust
+oxidation of HCHO under photocatalytic conditions, where the paradigmefortherationaldesignofheterointerfacestructuresand
+formation and accumulation of these species are characteristic adsorption configurations, enabling precise regulation of
+features of the transformation from HCHO to HCOOH. This selectivityincomplex,multi-stepcatalyticprocesses.
+t
+oxidative half-reaction not only regulates the proton supply by
+consuming photogenerated holes but also synergistically Dataavailability
+p
+balancestheoverallchargetransferforefficientNO 2 −reduction. SupportingInformationisavailablefromtheauthor.
+ATRFT-IRdataacquisitionwasperformedinaperiodiclight-
+dark cycle mode (Figure 5g), facilitating the real-tieme
+observation of dynamic changes within the reaction system Acknowledgements
+during both the light-excitation and dark-relaxation phases. The This work was supported by the National Natural Science
+c
+coremechanismandtheprimaryhighlightofthisstudyresidein Foundation of China (No. 22406014), the Natural Science
+the precise regulation and significant enhancement of catalytic Foundation of Chongqing (No. CSTB2025NSCQ-GPX0991,
+sites for the NO RR through the rational designcof quaternary CSTB2023NSCQ-LZX0138), the Scientific and Technological
+2
+MEA nanomaterials featuring a crystalline/ amorphous Research Program of Chongqing Municipal Education
+heterogeneous interface. In-situ infrared spAectroscopy provides Commission (No. KJQN202400512), the Foundation of
+decisive evidence for this proposed mechanism. Firstly, the ChongqingNormalUniversity(No.23XLB016)andtheSichuan
+distinct characteristic peaks of bidentate adsorption (Figure 5h) ProvincialNaturalScienceFoundation(No.2025NSFTD0003).
+and their corresponding isotopic shifts directly confirm that
+NO − is stably anchored at the crystalline/amorphous interface, Declaration ofcompeting interest
+2
+t
+where the N=O bonds are maintained in an optimal state of The authors declare no interest conflict. They have no known
+polarizationandactivation.Secsondly,thesignalsofN-DandC- competingfinancialinterestsorpersonalrelationshipsthatcould
+D bonds observed in D 2 O isotopic labeling experiments have appeared to influence the work reported in this
+unequivocally reveal tha
+u
+t water molecules serve as the ultimate paper.Authorcontributionstatement
+proton source for ammonia production. Simultaneously, the
+oxidation half-reaction of HCHO regulates this proton supply ChenYang participated in theexperiments, conceptualization of
+process by effectiJvely scavenging photogenerated holes. the study, and drafting of the initial manuscript. Xian Shi,
+Ultimately,thephotogeneratedelectrons[46],efficiently Yuying Wang, Huirong Yuan, Weidong Dai, Wendong Zhang,
+separatedattheinterface,andtheregulated*Hspeciesconverge and Fan Dong were involved in the reviewing, proofreading,
+at the active sites. This convergence synergistically drives the refinement, and language polishing of the manuscript. Xing'an
+continuous and highly selective hydrogenation reduction of Dong, Zhenxiang Cheng, and Peng Yu contributed to the
+NO 2 −toNH 3 [7]. conceptualization, revision, reviewing, supervision, and final
+approval of the manuscript.All authors have approved the final
+4.Conclusion versionofthemanuscript.
+References
+The photocatalytic NO RR reaction represents a compelling
+2
+[1]Ashida,Y.;Arashiba,K.;Nakajima,K.;Nishibayashi,Y.Molybdenum-
+strategy for simultaneous wastewater remediation and
+catalysed ammonia production with samarium diiodideand alcohols or
+restorationoftheglobalnitrogenbalance.However,thepractical water.Nature.2019,568,536-540.
+application of this approach has long been constrained by the [2]Zhu,X.;Fan,X.;Lin, H.;Li, S.;Zhai,Q.;Jiang,Y.;Chen,Y. Highly
+efficientelectroenzymaticcascadereductionreactionfortheconversion
+high energy barrier associated with the HAT process,
+ofnitritetoammonia.Adv.EnergyMater.2023,13,2300669.
+highlighting the necessity for rational design of advanced [3]Li,S.;Ma,P.;Gao,C.;Liu,L.;Wang,X.;Shakouri,M.;Chernikov,R.;
+catalytic sites.In thisstudy,wesuccessfullyconstructedanovel Wang, K.; Liu, D.; Ma, R.; Wang, J. Reconstruction-induced NiCu-
+basedcatalyststowardspairedelectrochemicalrefining.EnergyEnviron.
+composite photocatalyst consisting of semi-crystalline
+Sci.2022,15,3004-3014.
+quaternary MEA nanoparticles supported on TNS. The surface
+[4]Kyriakou,V.;Garagounis,I.;Vourros,A.;Vasileiou,E.;Stoukides,M.
+9 11
+/
+
+NanoResearch|Vol.XX,No.XX Firstauthoretal.
+Anelectrochemicalhaber-boschprocess.Joule.2020,4,142-158. electrocatalytic nitrate reduction to ammonia. Angew. Chem. Int. Ed.
+[5]Cheng,X.;Shang,W.;Li,Y.;Hu,J.;Guo,J.;Cao,D.;Zhang,N.;Zhang, 2025,64,e202422585.
+S.;Song,S.;Liu,T.;Liu,W.;Shi,Y.Unveilingstructuralevolutionof [26]Wang,Y.;Li,H.;Zhou,W.;Zhang,X.;Zhang,B.;Yu,Y.Structurally
+Fesingleatomcatalystinnitratereductionforenhancedelectrocatalytic disordered RuO2 nanosheetswithrichoxygen vacanciesfor enhanced
+ammoniasynthesis.NanoRes.2024,17,6826-6832. nitrateelectroreductiontoammonia.Angew. Chem.Int. Ed.2022,61,
+[6]Ma,A.;Gui, J.;Huang,Y.;Yu,Y.Electrocatalyticcouplingofanodic e202202604.
+nitrogenoxidationandcathodicnitratereductionforammoniasynthesis [27]Yu,X.;Wang,B.;Wang,C.;Zhuang,C.;Yao,Y.;Li,Z.;Wu,C.;Feng,
+fromairandwater.NanoRes.2024,17,7824-7829. J.;Zou,Z.2Dhigh-entropyhydrotalcites.Small.2021,17,2103412.
+[7] Mao, J.; Iocozzia, J.; Huang, J.; Meng, K.; Lai, Y.; Lin, Z. Graphene [28]Long,Y.;Zhu,X.;Gao,C.;Si,W.;Li,J.;Peng,Y.ModulationofCo
+aerogelsforefficientenergystorageandconversion.EnergyEnviron.Sci. spinstate atCo3O4 crystalline-amorphousinterfaces for COoxidation
+2018,11,772-799. andN2Odecomposition.Nat.Commun.2025,16,1048.
+[8] Feng,C.;Wu,H.;Shao,J.;Huo,Q.;Hassan,A.;Yang,H.;Hu,Q.;He, [29]Yao,L.;Wu,X.;Geng,Z.;Zhang,Y.;Fang,Y.;Zhu,Q.;Liang,N.;Cai,
+C. Sub‐nanometer‐scale Cu9S5 enables efficiently electrochemical M.;Sai,H.;Cheng,J.;Li,S.;Wang,Y.;Han,M.;Huang,K.;Feng,S.
+nitratereductiontoammonia.Adv.EnergyMater.2025,15,2403354. Oxygen evolution reaction of amorphous/crystalline composites of
+[9]Li, X.;Shen,P.;Li, X.; Ma,D.; Chu, K. Sub-nmRuOxclusterson Pd NiFe(OH)x/NiFe2O4.ACSNano.2025,19,5851-5859.
+metallene for synergistically enhanced nitrate electroreduction to [30]Jian,W.;Xie,Z.;Xu,S.;Su,Y.;Yao,X.;Beyerlein,I.Effectsoflattice
+ammonia.ACSNano.2023,17,1081-1090. distortion and chemical short-range order on the mechanisms of
+[10]Cai,Z.;Zhao,D.;Fan,X.;Zhang,L.;Liang,J.;Li,Z.;Li,J.;Luo,Y.; deformationinmediumentropyalloy CoCrNi.ActaMaterialia.2020,
+Zheng,D.;Wang,Y.;Li,T.;Yan,H.;Ying,B.;Sun,S.;Alshehri,A.; 199,352-369.
+Yan, H.; Xu, J.; Kong, Q.; Sun, X. Rational construction of
+[31]Xie,Z.;Jiand,W.;Xu,S.;Beyerlein,I.;Zhang,X.;Wang,Z.;Yao,X.
+heterostructured Cu3P@TiO2 nanoarray for high-efficiency Roleoflocalchemicalfluctuationsintheshockdynamicsofmedium
+electrochemicalnitritereductiontoammonia.Small.2023,19,2300620. entropyalloyCoCrNi.ActaMaterialia.2021,221,117380.
+[11]Cai,Z.;Ma,C.;Zhao,D.;Fan,X.;Li,R.;Zhang,L.;Li,J.;He,X.;Luo, [32]Li,Y.;Du,J.;Shinzato,S.;Ogata,S.Tunableinterstitialandvacancy
+e
+Y.;Zheng,D.;Wang,Y.;Ying,B.;Sun,S.;Xu,J.;Lu,Q.;Sun,X.Ni diffusivity by chemical ordering control in CrCoNi medium-entropy
+doping enabled improvement in electrocatalytic nitrite-to-ammonia alloy.npjComput.Mater.2024,10,134.
+conversion over TiO2 nanoribbon. Mater. Today Energy. 2023, 31, [33] Zhang, W.; Yang, L.; Li, Z.; Nie, G.; Cao, X.; Fang, Z.; Wang, X.;
+101220. Rtamakrishna, S.; Long, Y.; Jiao, L. Regulating Hydrogen/Oxygen
+[12]Ma,X.;Yang,T.;He,D.;Gao,X.;Jiang,W.;Li,D.;Sun,Y.;Lin,X.; Species Adsorption via Built‐in Electric Field ‐Driven Electron
+Xu, J.; Wang, H.; Tai, X.; Lin, Y.; Yao, T.; Zhou, H.; Wu, Y. pTransferBehaviorattheHeterointerfacefor EfficientWaterSplitting.
+CarbonateshellregulatesCuOsurfacereconstructionforenhancedCO2 Angew.Chem.Int.Ed.2024,63,e202400888.
+electroreduction.Nat.Synth.2024,4,53-66. [34]Chen,G.;Yuan,Y.;Jiang,H.;Ren,S.;Ding,L.;Ma,L.;Wu,T.;Lu,J.;
+[13]Wang,Y.;Hu,J.;Ge,T.;Chen,F.;Lu,Y.;Chen,R.;Zhang,H.;Ye,B.; Wang, H. Electrochemical reduction of nitrate to ammonia via direct
+e
+Wang, S.; Zhang, Y.; Ma, T.; Huang, H. Gradient cationic vacancies eight-electron transfer using a copper–molecular solid catalyst. Nat.
+enabling inner-to-outer tandem homojunctions for efficient CO₂ Energy.2020,5,605-613.
+photoreduction.Adv.Mater.2023,35,2302538. [35]Li,J.;Chen,R.;Wang,K.;Yang,Y.;Wang,J.;Yang,W.;Wang,S.;
+[14]Wu,H.;Zhou,Y.;Han,D.;Wang,Z.;Zhang,S.;Li,J.;Deng c ,P.;Wu, Yang, G.; Dong, F. Combined photoredox catalysis for value-added
+D.; Tian, X. Self‐healing indium sulfide catalyst for efficient and conversion of contaminants at spatially separated dual active sites.
+r
+e
+o
+2
+b
+0
+u
+2
+s
+5
+t
+0
+e
+5
+l
+5
+ec
+8
+t
+7
+r
+.
+ocatalyticCO2conversion.Angew.Chem.I
+c
+nt.Ed.2025,64,
+[36]
+R
+R
+e
+a
+s
+n
+e
+j
+a
+it
+r
+,
+ch
+K
+.
+.
+2
+;
+0
+V
+23
+is
+,
+w
+6,
+a
+0
+n
+0
+at
+5
+h
+5
+a
+.
+n, B. Photocatalytic reduction of nitrite and
+[15] Tan, M.; Huang, B.; Su, L.; Jiao, X.; Feng, F.; Gao, Y.; Huang, Q.; nitrateionstoammoniaonM/TiO2catalysts.J.Photochem.Photobiol.
+Huang, Z.; Ge, Y. Amorphous nanomaterials: Emerging catalysts for A-Chem.1997,108,73-78.
+A
+electrochemicalcarbondioxidereduction.Adv.EnergyMater.2024,14, [37]Smith,C.;Torrente-Murciano,L.Guidancefortargeteddevelopmentof
+2402424. ammonia synthesis catalysts from a holistic process approach. Chem.
+[16]Yi,L.;Zhang,Y.;Nie,K.;Li,B.;Yuan,Y.;Liu,Z.;Huang,W.Recent Catal.2021,1,1163-1172.
+advances in the engineering and electrochemical applications of [38] Liu, L.; Huang, H.; Chen, Z.; Yu, H.; Wang, K.; Huang, J.; Yu, H.;
+amorphous-based nanomaterials: A com prehensive review. Coord. Zhang,Y.Synergisticpolarizationengineeringonbulkandsurfacefor
+Chem.Rev.2024,501,215569. t boosting CO₂ photoreduction. Angew. Chem. Int. Ed. 2022, 61,
+[17]Liu,S.;Zhou,F.;Shen,W.;Shi,W.;Shen,X.;Wang,J.;Ge,M.;Wang, e202203519.
+M.;Yuan,X.;Yan,C.;Qian,T.sHighlyefficientammoniasynthesisvia [39]Meng,Z.;Yi,J.-H.;Zhang,Y.;Sun,X.;Huang,X.;Shi,M.;Zhang,F.;
+electrochemical nitrite reduction using a nitrite reductase-mimicking Yan, J.; Jiang, Q. Intermittent pulsed electrocatalysis adjusting Cu
+heterostructuredcatalyst.Adv.Funct.Materials.2026,36,e14967. valence states for effective nitrite reduction to ammonia. Nano Res.
+[18]Liao,W.;Wang,J.;Ni,Gu.;Liu,K.;Liu,C.;Chen,S.;Wang,Q.;Chen, 2025,18,94907810.
+Y.;Luo,T.;Wang,X.;Wang,Y.;Li,W.;Chan,T.-S.;Ma,C.;Li,H.; [40] Zhu, Z.; Huang, H.; Liu, L.; Chen, F.; Tian, N.; Zhang, Y.; Yu, H.
+Liang, Y.; Liu, W.; Fu, J.; Xi, B.; Liu, M. Sustainable conversion of Chemically bonded α-Fe₂O₃/Bi₄MO₈ Cl dot-on-plate z-scheme
+alkaline nitrate to ammonia at activities greater than 2 A cm−2. Nat. junctionwithstronginternalelectricfieldforselectivephoto-oxidation
+J
+Commun.2024,15,1264. ofaromaticalcohols.Angew.Chem.Int.Ed.2022,61,e202203519.
+[19] Shen, H.; Yang, M.; Hao, L.; Wang, J.; Strunk, J.; Sun, Z. [41]Liu,B.;Huang,L.;Musho,T.;Chen,C.;Dong,C.;Tang,C.;Yasin,A.;
+Photocatalyticnitrogenreductiontoammonia:Insightsintotheroleof Wang, Y.; Yang, H.; Bright, J.; Zheng, P.; Liu, R.; Wu, N. Oxygen-
+defectengineeringinphotocatalysts.NanoRes.2022,15,2773-2809. vacancy-mediated photocatalytic activity of antimony molybdenum
+[20]Shi,Y.;Chen,L.;Xiong,L.;Wang,X.;Yu,Y.;Yang,M.Synergistic oxidetowardgreenammoniasynthesis.Chem.Catal.2025,5,101337.
+Cu/Cu2O/Co3O4 catalyst with crystalline-amorphous interfaces for [42]Zhang,S.;Xia,Z.;Zou,Y.;Cao,F.;Liu,Y.;Ma,Y.;Qu,Y.Interfacial
+efficientelectrochemical nitrate reductionto ammonia. Chem. Eng. J. frustrated lewis pairs of CeO2 activate CO2 for selective tandem
+2025,507,160393. transformationofolefinsandCO2intocycliccarbonates.J.Am.Chem.
+[21] Li, Y.; Wang, C.; Yang, L.; Ge, W.; Shen, J.; Zhu, Y.; Li, C. Soc.2019,141,11353-11357.
+Enhancement of nitrate-to-ammonia on amorphous CeOx ‐modified [43]Liu,H.;Xie,L.;Suo,R.;Li,W.;Luo,L.;Chen,J.;Lu,C.EfficientZ
+Cuviatuningofactivehydrogensupply.Adv.EnergyMater.2024,14, scheme-typeII charge transferon the interfacesofPAN/ZnO/CdIn2S4
+2303863. for the enhanced photocatalytic hydrogen generation. Int. J. Hydrog.
+[22] Chen, X.; Zhai, S.; Tan, Y.; Su, L.; Zhai, D.; Deng, W.; Wu, H. Energy.2024,63,36-47.
+Enhanced nitrite electroreduction to ammonia via interfacial dual-site [44]Di,J.;Song,P.;Zhu,C.;Chen,C.;Xiong,J.;Duan,M.;Long,R.;Zhou,
+adsorption.J.EnergyChem.2024,96,328-335. W.;Xu,M.;Kang,L.;Lin,B.;Liu,D.;Chen,S.;Liu,C.;Li,H.;Zhao,
+[23]Zhong,W.;Wang,C.;Zhao,H.;Peng,S.;Tian,Z.;Shu,R.;Chen,Y. Y.;Li,S.;Yan,Q.;Song,L.;Liu,Z.Strain-engineeringofBi12O17Br2
+Synergistic effect of photo-thermal catalytic glycerol reforming nanotubes for boosting photocatalytic CO2 reduction. ACS Materials
+hydrogenproductionover2DAu/TiO2nanoflakes.Chem.Eng.J.2022, Lett.2020,2,1025-1032.
+446,137063. [45] Fang, J.; Zheng, Q.; Lou, Y.; Zhao, K.; Hu, S.; Li, G.; Akdim, O.;
+[24]Zhu,L.;Wang,M.;Xiang,S.;Sun,D.;Tang,Y.;Wang,H.Amedium- Huang, X.; Sun, S. Ampere-level current density ammonia
+entropy phosphate cathode with multielectron redox reaction for electrochemical synthesis using CuCo nanosheets simulating nitrite
+advancedsodium-ionbatteries.Adv.EnergyMater.2023,13,2302046. reductasebifunctionalnature.Nat.Commun.2022,13,7899.
+[25]Ouyang,X.;Qiao,W.;Yang,Y.;Xi,B.;Yu,Y.;Wu,Y.;Fang,J.;Li,P.; 46]Zhang,C.;Li,J.;Chen,R.;Shen,S.;Wang,J.;Sun,Y.;Dong,F.NH3
+Xiong,S.Intensifyinginterfacialreversehydrogenspilloverforboosted synthesisfromN1compoundsbyphotocatalytictechnology:Promotion
+10 11
+/
+
+NanoResearch|Vol.XX,No.XX Firstauthoretal.
+mechanism,reactionpathways,andefficiencyevaluationcriteria.ACS
+Catal.2024,14,15721-15742.
+[47]Wu,L.;Feng,J.;Zhang,L.;Jia,S.;Song,X.;Zhu,Q.;Kang,X.;Xing,
+X.; Sun, X.; Han, B. Boosting Electrocatalytic Nitrate‐to‐Ammonia
+viaTuningofN‐IntermediateAdsorptiononaZn−CuCatalyst.Angew.
+Chem.Int.Ed. 2023,62,e202307952.
+[48]Mihaylov,M.;Zdravkova,V.;Ivanova,E.;Aleksandrov,H.;Petkov,P.;
+Vayssilov, G.; Hadjiivanov, K. Infrared spectra of surface nitrates:
+Revision of the current opinions based on the case study of ceria. J.
+Catal.2021,394,245-258.
+[49]Shen,S.;Chen,R.;Li,X.;Wang,J.;Yu,S.;Li,J.;Dong,F.Regulating
+the selectivity of nitrate photoreduction for purification or ammonia
+production by cooperating oxidative half-reactions. Environ. Sci.
+Technol.2024,58,7653-7661.
+d
+e
+t
+p
+e
+c
+c
+A
+t
+s
+u
+J
+11 11
+/
+
+Electronic Supplementary Material
+Quaternary medium-entropy nanoalloys with crystalline/ amorphous
+heterointerfaces for highly selective and stable photocatalytic nitrite
+reduction to ammonia
+✉
+ChenYang1,Xing’anDong1 ,XianShi2,YuyingWang3,HuirongYuan1,WendongZhang4,WeidongDai5,ZhenxiangCheng6
+✉ ✉
+,PengYu1 ,andFanDong5
+1CollegeofPhysicsandOptoelectronicEngineering,ChongqingNormalUniversity,Chongqing401331,China
+2SchoolofChemistryandEnvironmentalEngineering,SichuanUniversityofScience&Engineering,Zigong643000,China
+3 Engineering Research Center for Waste Oil Recovery Technology and Equipment,dMinistry of Education, Chongqing Technology and
+BusinessUniversity,Chongqing400067,China
+4CollegeofChemistry,ChongqingNormalUniversity,Chongqing401331,China
+5Research Center for Carbon-Neutral Environmental & Energy Technology, Insteitute of Fundamental and Frontier Sciences, University of
+ElectronicScienceandTechnologyofChina,Chengdu611731,China
+6InstituteforSuperconductingandElectronicMaterials,FacultyofEngineeringandInformationSciences,UniversityofWollongong,North
+t
+Wollongong,Australia
+p
+✉
+AddresscorrespondencetoXing’anDong,xadong@cqnu.edu.cn;ZhenxiangCheng,zhenxiang_cheng@uow.edu.au;PengYu,
+pengyu@cqnu.edu.cn
+e
+Supportinginformationtohttps://doi.org/10.26599/NR.2026.94909059
+c
+ExperimentalSection
+c
+1.Chemicals:
+Copper nitrate hexahydrate (Cu(NO
+3
+)
+2
+, MaAcklin) cobalt nitrate hexahydrate (Co(NO
+3
+)
+2
+6H
+2
+O, Macklin), nickel nitrate hexahydrate
+(Ni(NO ) 6H O, Keshi), zinc nitrate hexahydrate (Zn(NO ) 6HO), Keshi), NaOH (96%, Aladdin), tetrabutyl titanate (98%,
+3 2 2 3 2 2
+Sinopharm Chemical Reagent Co., Ltd), Hydrofluoric acid(HF,40 wt%, Keshi), potassiu ⋅ mnitrite (KNO ), sodium nitrite (Na15NO ),
+2 2
+⋅ ⋅
+D
+2
+O(99.9%,Aladdin),Milliporewateris usedinallexperiments.
+t
+2.Methods
+2.1SynthesisofTNS s
+TiO nanosheets with exposed {001} facets (denoted as TNS) were synthesized via a modified hydrothermal method adapted from a
+2
+previouslyreportedprotocol[1].Inatypical procedure, 25mLoftetrabutyl titanatewasmixed with3.0mL ofhydrofluoricacid (40
+u
+wt%, serving as a morphology-directing agent) under vigorous stirring to form a homogeneous precursor solution. The resulting
+mixture was thentransferred intoa Teflon-lined stainless-steel autoclave and maintained at 200 °C for 24 h.After thehydrothermal
+reaction, the white pJrecipitate was collected by centrifugation, washed sequentially with deionized water and ethanol to remove
+residual organics and loosely bound species. To eliminate adsorbed fluoride ions from the surface, the obtained product was
+redispersed in an aqueous NaOH solution (0.1 M) and stirred for 24 h. The final product was recovered by centrifugation, washed
+repeatedly with deionized water until the supernatant reached neutral pH, and finally dried at 60 °C in air, yielding the desired TNS
+samples.
+2.2SynthesisofHH-CCNZ@TNS
+Aseriesofmetal-loadedCuCo Ni Zn @TNScompositesarepreparedusingarapidco-precipitationmethod.Specifically,37.5
+4 1.5 1.5 1.5
+mg of Cu(NO ) , 17.8 mg of CoCl₂·6H₂O, 22.3 mg of Zn(NO ) ·6HO, and 17.8 mg of NiCl ·6HO are dissolved in 25 mL of
+3 2 3 2 2 2 2
+deionized water under continuous stirring for 30 min to form a homogeneous metal salt solution. Meanwhile, 3 mmol of as-
+synthesized TNS is dispersed in 50 mL of deionized water to form a suspension. The metal salt solution is then added to the TiO
+2
+suspensionunderstirring,andthemixtureisstirredforanother30minunderaconstantargon(Ar)flowof100mL/min.Subsequently,
+a 1 M NaOH solution is added dropwise to adjust the pH to approximately 10. TheAr flow rate is then reduced to 60 mL/min, and
+stirring continues for 30 min. The resulting precipitate is collected by centrifugation, washed thoroughly with deionized water,
+transferred to a glass culture dish, and freeze-dried at –60 °C for 20 h to obtain the CuCoNiZn@TNS photocatalyst. To further
+modulatetheinterfacialstructure,theas-preparedCCNZ@TNSiscalcinedunderagasmixtureof40%H₂,10%CO₂,and50%Ar
+at 350 °C for 4 h. This post-treatment results in the formation of a medium-entropy composite photocatalyst with a
+crystalline/amorphousheterointerface,denotedasHH-CCNZ@TNS
+1/18
+
+SchemeS1.ThesyntheticprocessofHH-CCNZ@TNScomposites.
+NO RR Photoreduction
+2
+The photocatalytic ammonia synthesis performance of the synthesized series of medium-entropy composite crystalline/amorphous
+heterointerface photocatalyst materials HH-CCNZ@TNS is evaluated under xenon (Xe) lamp irradiation, using a 300 W Xe lamp
+(200–800nm)asthelightsource.Additionally,tospecificallyevaluatethevisible-light-drivenphotocatalyticactivity,anopticalcutoff
+d
+filter (λ ≥ 420 nm) was mounted in front of the xenon lamp during the corresponding visible-light photocatalytic tests. This setup
+ensuresthatonlythevisible-lightportionofthespectrum(wavelengthsgreaterthan420nm)canreachthereactionsystem,whileUV
+lightiscompletelyblocked.Fortymilligramsofthecatalystaredispersedin95mLofanaqueousNO −solution(10mg/L)with1mL
+e 2
+of formaldehyde added as a sacrificial agent. The resulting suspension is then transferred to a quartz photocatalytic reactor equipped
+with a circulatingwater cooling system to minimize thermal effects.Thecatalyst suspension is stirred continuouslyin thedark while
+being purged with high-purity Ar (99.999%) at a flow rate of 100 mL/mtin for 30 minutes to remove dissolved oxygen. After this
+period, theAr flow rate is adjusted to 60 mL/min, and the reaction is initiated by turning on the 300 W Xe lamp.At specified time
+p
+intervals, 0.5 mL aliquots of the reaction solution are sampled using a syringe, immediately centrifuged, and filtered through a
+membrane to remove catalyst particles. The concentrations of NH +, Cl−, NO −, and NO − formed during the reaction are determined
+4 2 3
+byion chromatography.For NH + analysis, a Shimadzu EssentiaLC-16i system equipped with aconductivity detectorand aThermo
+4 e
+Dionex IonPacTM RFICTM CS12A column (4×250 mm) is used, with 10 mM methanesulfonic acid as the mobile phase. For the
+analysisofCl−, NO −,andNO −,aShimadzuEssentiaLC-16isystem withaconductivitydetectorandaShodexIC SI-524Ecolumn
+2 3
+(4×250mm)isemployed,usinga3.6mMNa CO soluticonasthemobilephase.
+2 3
+c
+A
+t
+s
+u
+J
+SchemeS2.PhotocatalytictestingapparatusforHH-CCNZ@TNScompositematerials.
+2/18
+
+InSitu FT-IRSpectroscopy
+In situFT-IR spectrawerecollected onaBrukerVertex70vFT-IR spectrometer equippedwith anarrowbandHgCdTedetectoranda
+diamondcrystalattenuatedtotalreflectance(ATR)samplingplate(HarrickConcentratIR2TM)connectedtoanevacuationline( 10−7
+mbar).ThefreshpowdersamplewasdispersedindeionizedwaterandthenadropofthesuspensionwasdroppedonthediamondATR
+∼
+crystal pool. Then the vacuum treatment allows evaporation of the moisture and the sample to be coated on the crystal surface.
+Subsequently,thesamplefilmwastreatedinavacuumtoremovetheadsorbedwatermoleculesfor30min.
+To detect the NO − adsorption process, in a typical in situ FT-IR measurement, a drop of reaction solution was dropped on the
+2
+samplefilm.PurityArwaspurgedintotheATRcrystalpool.WhentheATRcrystalpoolwassubsequentlypurgedwithhigh-purityAr,
+anadsorptionspectrumwasdetected.InatypicalinsituFT-IRNO −photocatalyticreductionmeasurement,adropofreactionsolution
+2
+was dropped on the sample film. Then, theATR crystal pool was subsequently purged with high-purityAr as flow.TheATR crystal
+pool was then sealed for the subsequent photocatalytic reactions.A100 mW continuous diode laser (355 nm) was employed as the
+light source, and a chopped irradiation program with 100 cycles of 18 s irradiation and 5 s dark was performed by periodically
+intercepting the laser beam with a mechanical shutter (Vincent Associates, model Uniblitz). The shutter was controlled by a BNC
+pulse/delaygeneratormodel565andsynchronizedwiththedataacquisitioninanFT-IR spectrometer.TheinsituIRspectrumwitha
+d
+spectralresolutionof4cm−1andscanningvelocityof160kHzwascollectedineach18sirradiationperiodofthechoppedirradiation
+program.
+e
+t
+p
+e
+c
+c
+A
+SchematicDiagramS1.Illustratingthemechanismofrapidscanninginsituinfraredspectroscopytesting.
+t
+s
+u
+J
+3/18
+
+Overall, this study confirms that a controlled strategy for fabricating a photocatalyst with an amorphous-crystalline biphasic
+interfacesuccessfullysynthesizes anovelmedium-entropycompositematerial,Cu₄Co Ni Zn @TNS (ME-CCNZ@TNS).Inthis
+1.5 1.5 1.5
+uniquemedium-entropyphotocatalyst,thematerial's meso-entropyeffectenhancesthestabilityoftheamorphous-crystallineinterface
+duringbothsynthesisandreaction.Inaddition,thesiteregulationattheamorphous/crystallineheterointerfacefacilitatesthebidentate
+adsorptionofnitrite[2–4].Thesynergisticeffectbetweenthisadsorptionandthereductionactionofthesacrificialagentformaldehyde,
+combined with thereverse hydrogen spillover mechanism, collectively promotes thekinetic process ofreactive hydrogen (*H) in the
+solution phase. Specifically, these interfaces provide active sites and facilitate *H transfer for the reaction steps. Critically, rational
+interfacial engineering can markedly amplify this effect, thereby enhancing the performance of photocatalytic nitrite reduction to
+ammoniaandoptimizingbothammoniayieldandselectivity.
+Formulti-elementalloys,themolarconfigurationalmixingentropyisgivenbythefollowingformula:
+=
+The calculated mixing entropy for the Cu₄Co Ni Zn composition is approximately 1.27 R, which falls precisely within the
+1.5 1.5 1.5
+classicrangeofmedium-entropymaterials.Thisre la tiv    e 晦 ly 䁔 hig hm ix in g e   nt ro 晦py i   s oneofthekeyfactorscontributingtotheformation
+ofastablesolidsolutionphaseandpotentiallysuperiorproperties,suchashighstrength,excellentcorrosionresistance,andenhanced
+catalyticactivity. d
+Photo flux calculation. e
+Thephotonflux was calculated andobtainedbased onthe followingformulas:
+t
+p
+
+N
+e 
+ · 
+c
+P·T· λ
+N  
+c · 
+AP  
+
+ ·
+
+ 
+
+E· λ
+ 
+where  was the photo flux, N was the incident photon number, S ·s tood for the illumination area of 28.26 cm-2, T referred to the
+illumination time, h corresponded to t the Planck constant, c stood for the speed of light, λ referred to wavelength,λ referred to an
+averagewavelength(inthisworktheequivalentλwas549.2nmaccordingtothelightsourceusedinthiswork,providedby
+s
+the Beijing Merry Change Technology Co., Ltd.),E was the average optical power density measured by the optical power meter
+(BeijingMerryChangeTechnologyCo.,Ltd.).Thus,thephotonfluxcouldbe
+u
+ 
+
+  
+JE· λ  ͳ ͸   Ͷ ͸  ͳ   ͳ  ͳ   
+      Ͷ     ͳ͸Ͷ   ͳ    · 
+ ·   ͸    ͳ     ͳ 
+Quantumefficiency calculation.
+The quantum efficiency was defined by the ratio of the effective electrons used for product formation to the total input photon
+flux.ThereductionofNO −moleculestoNH moleculerequireseightelectrons:
+2 3
+
+effectiveelectrons  X·N
+SinceneitherNO
+3
+−norN
+2
+productQsEwe redetected,whereXisthey ielͳd fr omͲN H
+4
++evolutio nͳon ly ,ͲNwasAvogadro’snumber,Θwas
+thephotonflux,Twastheirradiationtime,atnodtSalwpahstohteoinllusminationarea.Thefol·lTow·Singcalculationexamplewasbasedonthedata
+fromthe1hNO−photoreduction:X=3.88×10-6molinHCHOfreesolutionand5.25×10−5molinHCHOsolution,N=6.022×1023
+2
+mol−1,T=3600s,S=28.26cm2,equivalentΘ=1.411017s−1cm−2.Thus,thequantumefficiency
+   X·N
+QE    RRwithoutHCHO  
+Θ·T·S
+4/18
+
+     
+   ͸   ͳ    ͸   ͳ 
+   ͳ     ͳ  Ͳ    ͸ ͳͲ
+ͳ͸Ͷ   ͳ          ͸   ͳ 
+   X·N
+QE    RRwithHCHO  
+Θ·T·S
+     
+   ͸   ͳ    ͸   ͳ 
+   ͳ     ͳ  Ͳ   ͸ͳͶͲ
+ͳ͸Ͷ   ͳ          ͸   ͳ 
+d
+e
+t
+p
+e
+c
+c
+FigureS1.a)TheSEMimageoftitaniumdioxidenanosheets.b)SEMimageofthecompositematerialformedbyloadinga
+A
+quaternarymetalalloyontotitaniumdioxide.
+t
+s
+u
+J
+5/18
+
+FigureS2.a)Fast Fourier transform(FFT) analysis ofregion 1displays discretedidffractionspots inthecrystallinearea. b)Region 2
+indicates diffuserings characteristic ofamorphous domains. Figure ashows theselected electron diffractionpattern ofthecrystalline
+region at thealloy interface, obtained from HH-CCNZ@TNS calcined and reduced at 350°C. Figure b displays the selected electron
+e
+diffractionpatternoftheamorphousregionatthealloyinterface,exhibitingadiffractogrampattern.
+t
+p
+e
+c
+c
+A
+t
+s
+u
+J
+FigureS3.a-c) displaytransmissionelectron microscopy(TEM)images oftheCCNZ@TNS material.Thecorrespondingimages for
+theHH-CCNZ@TNSmaterial,whichwassubjectedtohigh-temperaturecalcination/reductioninahydrogenatmosphere,areshownin
+(d-f).Theregionsencircledinwhiteareattributedtotheaggregationofmetallicspeciesgeneratedduringthereductionprocess.
+6/18
+
+d
+e
+t
+p
+e
+c
+c
+A
+FigureS4.a)TEMimagesofthesampleafterthecalcination-reductionprocess.b-d)Theintensitydistributionprofilesextractedfrom
+inverse Fast Fourier Transform (IFFT) processing of selected regions in LH-CCNZ@TNS, HH-CCNZ@TNS, and UH-CCNZ@TNS
+consistently demonstrate interfacial structural features that provide conclusive evidence for the presence of well-defined
+t
+crystalline/amorphousinterfaces.
+s
+u
+J
+7/18
+
+d
+e
+t
+p
+e
+c
+FigureS5.TheXPSsurveyspectrumdemonstratestheco-existenceofseven elements (Cu,Co,Ni,Zn,Ti,O, andC)inthematerial
+system,withdistinctphotoelectronpeaksobservedcforeachelementalconstituent.
+A
+TheTi2pspectra(FigureS6)revealcharacteristicpeaksatapproximately458.5eVforHH-CCNZ@TNS,CCNZ@TNS,andTNS,
+corresponding to Ti4+ species. Notably, compared to the control sample without hydrogen reduction treatment (TNS), the hydrogen-
+reduced photocatalyst composites(HH-C CNZ@TNS andCCNZ@TNS) exhibit apositive bindingenergy shift in theirTi 2pspectra.
+This systematic shift indicates that the extent of hydrogen calcination-reduction significantly enhances electronic interactions at the
+t
+interface.
+Furthermore,complementarysO1sspectralanalysis(FigureS7)demonstratesthreecharacteristicpeaksatbindingenergiesof532.6,
+531.5, and 530.1 eV [5], corresponding to adsorbed oxygen species (O ), metal–oxygen bonds (M–O), and lattice oxygen (O ),
+ads (latt)
+respectively. Quantitativeuanalysis of oxygen speciation reveals that controlled hydrogen calcination-reduction significantly increases
+the concentration of M–O bonds while reducing the content of adsorbed oxygen.This transformation is likely associated with lattice
+distortionsinducedbytheheterophaseinterfacebetweenamorphousandcrystallinedomains,whichpromotestheformationofmetal–
+oxygen bonds. The MJ–O bonds establish stable electron transfer pathways between metal active sites and the TiO support. Under
+2
+illumination, photogenerated electrons from TiO can rapidly migrate to metal sites via the M–O bonds, effectively suppressing
+2
+electron–hole recombination. Moreover, the formation of metal–oxygen bonds modifies the local electronic structure, creating an
+interfacial built-in electric field that facilitates directional electron transfer and accelerates electron accumulation at reactive sites.
+WithintheM–Oframework, metal sites(e.g., Cu–O,Co–O)preferentiallyadsorbNO − ionsthroughcoordinationinteractions,where
+2
+oxygenatomsstabilizeNO −whilemetalsiteselongatetheN–Obonds,therebypromotingbondcleavage.Thissynergisticmechanism
+2
+furtherenhancestheefficiencyofphotocatalyticnitritereductiontoammonia.
+8/18
+
+d
+e
+t
+p
+Figure S6.Ti 2p XPS spectrum, thehydrogen-reduced photocatalyst composites (HH-CCNZ@TNS, CCNZ@TNS andTNS) exhibit
+positivebindingenergyshiftsintheirTi2pspectra.
+e
+c
+c
+A
+t
+s
+u
+J
+Figure S7. O 1s XPS spectrum, Quantitative analysis of oxygen speciation indicates that controlled hydrogen calcination reduction
+significantlyenhancestheM-Obondconcentrationwhilediminishingadsorbedoxygencontent.
+9/18
+
+FigureS8.a,b)Investigatingwhichmetal(Cu,Co,Ni,orZn)inaquaternarymetal/TiO photocatalystactsastheprimaryactivesite
+d2
+forenhancingtheefficiencyofnitritenitrogenreductiontoammonia,andoptimizingtherespectiveloadingratios.
+e
+t
+p
+e
+c
+c
+A
+Figure S9. a) Optimization of the photocatalyst content; b) Optimization of the loading ratios of different metals with Cu as the
+primaryelement.
+t
+s
+u
+J
+FigureS10.a)PhotocatalyticefficiencywithCuastheprimaryelementupontheadditionofasecondsynergisticmetal;b)Effectsof
+co-metalloadingratiosandoverallcatalystcontentonphotocatalyticefficiencywithCuastheprimaryelement.
+10/18
+
+Figure S11. a) compares the photocatalytic performance of TiO -supported quaternary metal (Cu, Co, Ni, Zn) catalysts with each
+2
+metalservingastheprimaryelement,whereas(b)demonstratesthattheoptimalperformanceisachievedataspecificmolarratio(Cu:
+Co:Ni:Zn=4:1.5:1.5:1.5)andatotalmetalloadingof10%. d
+e
+t
+p
+e
+c
+c
+A
+t
+s
+u
+J
+Figure S12. HH-CCNZ@TNS exhibits significantly higher photocatalytic activity in the reduction of nitrite to ammonia than the
+controlgroup;at90minutes,theNH₄⁺ -Nconcentrationreaches10mg/L,demonstratingthattheinterfacialcouplingbetweenHH-
+CCNZandTNSsignificantlyenhancescarrierseparationefficiencyandreactionperformance.Specifically,threecontrolsampleswere
+prepared and evaluated under identical photocatalytic nitrite reduction conditions: LH-CCNZ+TNS, HH-CCNZ+TNS and UH-
+CCNZ+TNS.
+11/18
+
+d
+e
+FigureS13.(a-c)TEMimageandmappingspectraoftheLH-CCNZ@TNSmaterialafterlightirradiation.
+t
+p
+e
+c
+c
+A
+t
+s
+FigureS14.(a) demonstrates that theHRTEM imageoftheLH-CCNZ@TNS material afterthelight irradiation reaction reveals that
+u
+the loaded medium-entropy alloy region has transformed from the previous amorphous phase to a crystalline phase. (b) shows the
+selected-areaelectrondiffractionafterthelightirradiationreaction.AfterthephotochemicalreactionoftheLH-CCNZ@TNSmaterial,
+J
+thealloyregionundergoescrystallization.
+12/18
+
+d
+FigureS15.(a-c)TEMimageandmappingspectraoftheHH-CCNZ@TNSmaterialafterlightirradiation.
+e
+t
+p
+e
+c
+c
+A
+Figure S16. (a) indicates that the HRTEM image of the HH-CCNZ@TNS material after the light irradiation reaction shows that the
+loaded medium-entropy alloy region still retains its original crystalline/amorphous interface. (b) Electron diffraction pattern of the
+selectedregionofHH-CCNZ@TNSafterexposuretolightirradiation.
+t
+s
+u
+J
+FigureS17.(a-c)TEMimageandmappingspectraoftheUH-CCNZ@TNSmaterialafterlightirradiation.
+13/18
+
+Figure S18. Figure a shows that the HRTEM image of the UH-CCNZ@TNS material after the light-induced reveals that the loaded
+medium-entropy alloy region still maintains its original crystalline state. Figure b sdhows the selected area electron diffraction pattern
+ofUH-CCNZ@TNSafterphotoinducedreaction.
+e
+t
+p
+e
+c
+c
+A
+t
+s
+u
+J
+Figure S19. NO − Nitrite Ion Standard Curve, calibration curve for nitrite nitrogen determination. The linear regression equation is
+2
+f(x)=3742.70x–953.023,withacorrelationcoefficient(R2)of0.9999613.
+14/18
+
+d
+e
+t
+p
+FigureS20.Thenitriteionexhibits aretentiontimeofapproximately 7.7min underthechromatographicconditionsusingan IonPac
+e
+AS11-HCcolumn.TheFigureaboveshowsthecontinuousdecreaseinnitriteconcentrationduringthephotocatalyticnitritereduction
+reactioncatalyzedbythesynthesizedHH-CCNZ@TNSmaterial.
+c
+c
+A
+t
+s
+u
+J
+Figure S21.Ammonium Ion Standard Curve, standard curve for the quantification of ammonium ions (NH +). The curve shows the
+4
+linearrelationshipbetweentheanalyticalsignal(e.g.,absorbance)andtheNH +concentration.Thelinearregressionequationisf(x)=
+4
+1827.49x–267.69,withacorrelationcoefficient(R2)of0.9999805.
+15/18
+
+d
+e
+t
+p
+FigureS22.As shown in theFigure above, thephotocatalytiec nitrite-to-ammonia conversion catalyzed by HH-CCNZ@TNS exhibits
+continuouslyenhancingammoniaselectivityandconversionrateovertime,asquantifiedbythepeakareasinionchromatography.
+c
+c
+A
+t
+s
+u
+J
+FigureS23.UV-Visdiffusereflectancespectra:comparisonofTNSandHH-CCNZ@TNS,showingextendedlightabsorptionrange
+forHH-CCNZ@TNS.
+16/18
+
+d
+e
+t
+p
+Figure S24. The Figure shows the (αhv)1/2–hv bandgap fitting curves for TNS and HH-CCNZ@TNS. The results indicate that the
+e
+bandgapofTNSis3.06eV,suggestingthatmodificationwiththemedium-entropyalloyhaseffectivelyreducedthebandgapwidthof
+theTiO -basedmaterial.
+2 c
+Table1.SummaryofvariousphotocatalystsforthereductionofnitrousacidtoNH
+c 3
+NH + NH + long-
+4 4
+A
+Photocatalyst source pH Reducing Detection Convers Selectivit production term ref
+ofN agents method ion(%) y(%) rate(μmol stabil
+g −1h−1) ity
+cat
+t
+M/TiO NO −/ 5-6 N/A indophenol N/A N/A 2.4 N/A [6]
+2 2
+NO − s -blue
+3
+ZnS NO −/ 7 sulphite indophenol N/A N/A 25 N/A [7]
+u2
+NO −
+3
+Ni-ZnS JNO −/ N/A methanol indophenol N/A N/A 6.5 N/A [8]
+2
+NO −
+3
+TiO NO −/ N/A N/A indophenol N/A N/A 67 N/A [9]
+2 2
+NO −
+3
+CdS NO − <7 sulphite indophenol N/A N/A 33 N/A [10]
+2
+Nf(TiO - oxalic Nessler’s
+2
+Au) / NO − N/A acid reagent N/A N/A 127 N/A [11]
+nps 2
+[Ni(teta)]2+
+CuCoNiZn NO − N/A potassium UV-vis N/A N/A 884 N/A This
+2
+@TNS nitrite work
+17/18
+
+References
+[1] Zhang, H.; Sun, P.; Fei, X.; Wu, X.; Huang, Z. Unusual facet and co-catalyst effects in TiO -based
+2
+photocatalyticcouplingofmethane.Nat.Commun.2024,15,4453.
+[2] Chen,X.;Zhai,S.;Tan,Y.;Su,L.;Zhai,D.Enhancednitriteelectroreductiontoammoniaviainterfacialdual-
+siteadsorption.J.EnergyChem.2024,96,328–335.
+[3] Wang, L.; Yan, Y.; Han, X.; Jianguo Yu. Interfacial water engineering via amorphous-crystalline hybrids for
+neutralnitrateelectroreductiontoammonia.Appl.Catal.B.2025,25,125813.
+[4] Carrasco, E.; Campos-Vallette, A.; P. Leyton, F.; Diaz; Clavijo, R. Study of the interaction of pollutant nitro
+polycyclic aromatic hydrocarbons with different metallic surfaces by surface-enhanced vibrational
+spectroscopy(SERSandSEIR).JPhysChemA.2003,108,9611–9619.
+d
+[5] Zhao, J.; Huang, K.; Liu, C.; Wu, X.; Ning, Y. Electro‐induced crystallization over amorphous indium
+hydroxide gels toward ampere‐level current density formate e electrosynthesis. Adv. Funct. Materials. 2024,
+34,2316167.
+t
+[6] KT, R.; Viswanathan, B. Photocatalytic reduction of nitrite and nitrate ions to ammonia on M/TiO catalysts.
+2
+p
+J.Photochem.Photobiol.A.1997,108,73–78.
+[7] Ranjit, K.; Krishnamoorthy, R.; Viswanathan, B. Photocatalytic reduction of nitrite and nitrate on ZnS. J.
+e
+Photochem.Photobiol.A.1994,81,55–58.
+c
+[8] Hamanoi, O.; Kudo, A. Reduction of nitrate andnitrite ions over Ni-ZnS photocatalyst under visible light
+irradiationinthepresenceofasacrificialreagent.Chem.Lett.2002,31,838–839.
+c
+[9] Ranjit, K.; Viswanathan, B.; Varadarajan, T. Photocatalytic reduction of nitrite and nitrate ions over TiO
+2
+A
+semiconductors.J.Mater.Sci.Lett.1996,15,874-877.
+[10] Ranjit,K.;Krishnamoorthy,R.;Varadarajan,T.;Viswanathan,B.PhotocatalyticreductionofnitriteonCdS.J.
+Photochem.Photobiol.A.1995,86,185–189.
+t
+[11] Pandikumar, A.; Manonmani, S.; Ramaraj, R. TiO -Au nanocomposite materials embedded in polymer
+2
+s
+matrices and their application in the photocatalytic reduction of nitrite to ammonia. Catal. SciNO.Technol.
+u
+2012,2,345–353.
+J
+18/18
+

@@ -1,0 +1,438 @@
+RESEARCH ARTICLE
+www.small-methods.com
+Bayesian Learning Aided Theoretical Optimization of
+IrPdPtRhRu High Entropy Alloy Catalysts for the Hydrogen
+Evolution Reaction
+Linke Huang, Zachary Gariepy, Ethan Halpren, Li Du, Chung Hsuan Shan,
+Chuncheng Yang, Zhi Wen Chen,* and Chandra Veer Singh*
+1.Introduction
+Thecomplexcompositionalspaceofhighentropyalloys(HEAs)hasshowna
+greatpotentialtoreducethecostandfurtherincreasethecatalyticactivityfor Globalawarenessofclimatechangehas
+been steadily rising for decades due
+hydrogenevolutionreaction(HER)bycompositionaloptimization.Without
+to social pressure and devastating po-
+uncoveringthespecificsoftheHERmechanismonagivenHEAsurface,itis
+tential health effects on humans.[1–5]
+unfeasibletoapplycompositionalmodificationstoenhancetheperformance Although climate change stems from
+andsavecosts.Inthiswork,acombinationofdensityfunctionaltheoryand countless industries and chemical reac-
+Bayesianmachinelearningisusedtodemonstratetheuniquecatalytic tions,itiswellknowntheoil/gasindus-
+try paired with the automotive industry
+mechanismofIrPdPtRhRuHEAcatalystsforHER.Athighcoverageof
+underpotential-depositedhydrogen,ad-bandinvestigationoftheactivesites arelargecontributorstoglobalwarming
+due to the polluting byproducts of gas-
+oftheHEAsurfaceisconductedtoelucidatethesuperiorcatalytic
+powered engines.[6,7] Therefore, alterna-
+performancethroughelectronicinteractionsbetweenelements.Atlow tive energy carriers should be explored,
+coverage,anovelBayesianlearningwithoversamplingapproachisthen especially hydrogen with the highest
+outlinedtooptimizetheHEAcompositionforperformanceimprovementand energy density of 142 MJ kg−1.[8–10]
+To accelerate the application of hydro-
+costreduction.Thisapproachprovesmoreefficaciousandefficientandyields
+gen energy, the most efficient com-
+higher-qualitystructureswithlesstrainingsetbiascomparedwith
+mercial water electrolyzers often em-
+neural-networkoptimization.TheproposedHEAoptimizationtheoretically ploy a polymer exchange membrane
+outperformsbenchmarkPtcatalysts’overpotentialby≈40%ata15%
+to conduct protons and pure Pt cath-
+reducedsynthesiscostcomparingtotheequiatomicratioHEA. odes to catalyze the hydrogen evolution
+reaction (HER).[11–13] Nevertheless, the
+widespreadadoptionofPtisimpededby
+itsexorbitantcostandlimitedavailability,
+obstructingitsviabilityforlarge-scaleapplications.Thus,theim-
+L.Huang,Z.Gariepy,E.Halpren,C.H.Shan,Z.W.Chen,C.V.Singh perative lies in crafting high-performance, economically viable
+DepartmentofMaterialsScience&Engineering Pt-basedcatalyststopropeltheadvancementofahydrogenecon-
+UniversityofToronto omy.
+184CollegeStreet,Suite140,Toronto,ONM5S3E4,Canada
+Recent innovations in HER catalysts have shown that more
+E-mail:zhiw.chen@utoronto.ca;chandraveer.singh@utoronto.ca
+efficient conversion can be obtained through multi-component
+L.Du,C.Yang
+KeyLaboratoryofAutomobileMaterials alloy catalysts such as high entropy alloys (HEAs).[14–16] Noble
+MinistryofEducation metalHEAsexhibitsuperiorcatalyticactivityduetotheirhighin-
+andSchoolofMaterialsScienceandEngineering trinsicactivityandstability.[17–19]Ontheotherhand,HEAswith
+JilinUniversity
+acombinationofnobleandnon-noblemetalandpurenon-noble
+Changchun130022,P.R.China
+metalhavegainedattentionfortheircost-effectivenessandcom-
+C.V.Singh
+parablecatalyticperformanceincertainreactions.[20–23]Inpartic-
+DepartmentofMechanical&IndustrialEngineering
+UniversityofToronto ular, the Kitagawa group experimentally synthesized an IrPdP-
+5King’sCollegeRoad,Toronto,ONM5S3G8,Canada tRhRuHEAnanoparticle(NP),whichshowedabettercatalytic
+performance(activityandstability)comparedwithtraditionalPt
+TheORCIDidentificationnumber(s)fortheauthor(s)ofthisarticle
+catalysts.[15] However, the application of HEA catalysts is still
+canbefoundunderhttps://doi.org/10.1002/smtd.202401224
+in its nascent stages. The vast compositional space and struc-
+©2024TheAuthor(s).SmallMethodspublishedbyWiley-VCHGmbH.
+turalcomplexitypresentsignificantchallengesforfurtherexplo-
+ThisisanopenaccessarticleunderthetermsoftheCreativeCommons
+AttributionLicense,whichpermitsuse,distributionandreproductionin rationintherealmofHEAcatalysts.[24]Mostcomputationalstud-
+anymedium,providedtheoriginalworkisproperlycited. iesleveragedensityfunctionaltheory(DFT)-informedmachine
+DOI:10.1002/smtd.202401224 learning (ML) models to discern trends and optimize specific
+SmallMethods2025,9,2401224 2401224(1of8) ©2024TheAuthor(s).SmallMethodspublishedbyWiley-VCHGmbH
+
+www.advancedsciencenews.com www.small-methods.com
+materialproperties.[24–31]However,apotentiallimitationofthese of 1 monolayerofH withthepresenceofafullmonolayer
+approaches is that the atomic models are often constrained to ofH 16 .Unlikethest O a P t D e-of-the-artcatalystofPt,whichtypically
+UPD
+thenearest-neighborscale,offeringlimitedvariationinthelocal exhibitsauniformadsorptionenergyvalue,theIrPdPtRhRusur-
+chemicalenvironmentduetotheperiodicboundaryconditions. facesdisplayedadistributionofΔG valuesduetotheunique
+H
+Thiscanreducetheirdirectapplicabilitytoexperimentalsettings. local chemical environments present at each top site. On pure
+Furthermore,whilesomeresearchgroupshavefocusedonopti- Pt(111),theH hasacomputedhydrogen-adsorptionfreeen-
+OPD
+mizingcompositions,theyfrequentlyneglecttheeconomicas- ergy(ΔG )= 0.35eV,whichisingoodagreementwithvalues
+H
+pectsofHEAsynthesis.Thisoversightsignificantlycontributes reportedbySantosetal.[37]Thedistributionofcomputedvalues
+tothelimitedcommercialviabilityoftechnologiessuchaspro- forΔG ofH isshowninFigure1a.TheHEAtopsitespro-
+H OPD
+tonexchangemembranewaterelectrolyzersandfuelcells.[13,14] videabroaddistributionofadsorptionfreeenergynear0eV,en-
+Therefore,compositionalmodificationsshouldbeimplemented compassing a more extensive array ofoptimal active sites. The
+tomaximizecatalyticperformancewhilstminimizingcost.This negativetailofthedistributionwithmedianvaluelowerthanthe
+wouldrepresentastepinthedirectiontowardsmakinghydro- overalldistributionwillbethemajoradsorptionsitesofH*dur-
+genfuelforautomobilescompetitivewithgasenginesorLibat- ingHER(denotedaslowΔGtailinFigure1a).[16,38]Incontrast,
+terystacks.[11–13]Moreover,industryviability,scalability,andcost purePtsurfacelackssuchadistributionofΔG values,andthus
+H
+need to be considered to achieve disruption in the automotive doesnotexhibitthisbeneficialeffect.Consequently,thesubstan-
+industry. tialimprovementinthemedianΔG betweenpurePtandthe
+H
+Inthiswork,theHEAsystemofIrPdPtRhRuwasselectedas lowΔGtailofIrPdPtRhRuHEAprovidesacompellingexplana-
+our model system. Through DFT simulations, we unravel the tionfortheHEA’ssuperiorcatalyticperformance.
+mechanism of HER, shedding light on the crucial role of sur-
+facecoverageindeterminingHERperformance.Furthermore,a
+novelBayesianMLandoversamplingtechniqueispresentedto 2.1.2.InsightsintotheElectronicStructureofIrPdPtRhRu
+optimizetheHEAcomposition,whichresultedina40%supe-
+riortheoreticaloverpotentialcomparedtoPt,a15%reductionin Thechargedensitydifferenceswereexploredtounderstandthe
+cost,andimprovedresistancetorawresourcemarketvolatility. trendsinbondstrengthbetweentheH ofIrPdPtRhRuand
+OPD
+Thenoveloptimizationmethodwasfoundtobe400%moreeffi- Pt surfaces. As seen in Figure 1c, H atoms are bonded the
+UPD
+cientincompositionalexplorationwithadeeperandlessbiased strongest to Ir, with Ru possessing the second strongest bond.
+understandingofidealcatalystsurfacescomparedtotraditional ThePdatomsdon’tparticipateinbonding,likelybecause they
+non-BayesianMLmethods. possessafilledd-state.TheIrandRuatomshavethreeunfilled5d
+orbitalsandthreeunfilled4dorbitals,respectively,themostun-
+filledd-orbitalsoftheavailableatoms.Despiteabondingstronger
+2.ResultsandDiscussion
+toH ,theIrtopsitesdidnotbondasstronglytoH asthe
+UPD OPD
+Rutopsites.Thisresultsupportsthetheorythatatomicradius
+For efficient catalysis of the HER, it is important to consider
+canbeusedtominimizecoulombicrepulsionbetweenH and
+theuniquesurfaceeffectsthatoccuroncertainplatinumgroup OPD
+metals(PGMs).[32–36] TheimpactofH*coverage(𝜃 )hasbeen H UPD atoms.ForallRutopsites,therewasacorrelationbetween
+H theΔG ofH andtheΔGofH .ThemoreelectronstheRu
+extensively explored in the literature, with consensus indicat- H UPD OPD
+ingdistinctmechanismsbetweenhighH*coverage(𝜃 ≈0.7– atomtransferredtoH UPD ,thestrongeritbondedtoH OPD .Thisis
+1.0) and low coverage (𝜃 ≈ 0.0–0.4).[34,36] At higher c H overage, possiblyduetotheinteractionwithH UPD causingthed-bandto
+H shift upwards. Figure S3 (Supporting Information) shows how
+underpotential-deposited hydrogen (H ) in the FCC hollow
+UPD H bondingonpurePtissymmetricalwithminimalcharge
+sitesisstronglyboundandinactive.Consequently,overpotential- UPD
+redistributionincontrast.
+deposited hydrogen (H ) in the top sites becomes the active
+hydrogenatoms.[34,36]A
+O
+t
+P
+lo
+D
+wercoverage,theelectronicstructure
+Santosetal.explainedthat,inadditiontoΔG
+H
+≈0eV,agood
+HERcatalystwillalsohavead-bandthatspansacrosstheFermi
+ofthesurfaceisdifferentduetolowerelectroncountsoriginat-
+level.[37] This contributes to lowering the activation energy of
+ingfromtheabsenceofH atoms.Tofullyexplorethereaction
+UPD H*.TheelectronicstructureofthreetopsitesfromIrPdPtRhRu
+mechanismofHERonHEAsystems,weinvestigatedthesetwo
+was compared with the pure Ru, Ir, and Pt top site, shown in
+casesseparately.
+Figure1dandFigureS4(SupportingInformation).Theprojected
+densityofstates(PDOS)arecalculatedfortheFCC(111)surfaces
+2.1.HighSurfaceCoverage (HCP(0001)forpureRu)withamonolayerofH intheFCC
+UPD
+hollowsitesbeforetheH wasadsorbed.Theresultssuggested
+OPD
+2.1.1.TheoreticalExplanationofIrPdPtRhRuCatalyticSuperiority thatthed-bandcenterofRu,Ir,andPtsitesintheHEAfollows
+theexpectedtrendofpuremetalsandacorrelationexistsbetween
+Slab models (Figure S1, Supporting Information) of IrPdP- higher d-band centers and stronger adsorption energies within
+tRhRu(111)andpurePt(111)werefirstgenerated.Afullmono- theHEA,consistentwithtraditionald-bandtheory.Notably,while
+layerofH ontheFCChollowsiteswasincludedtorepresent pureRuhasad-bandcenterclosesttotheFermilevelcompared
+UPD
+themaximumscenarioofH coverageasasimplificationto toPtandIr,theadsorptionbehaviordoesnotstrictlyfollowtrend.
+UPD
+haveauniformelectronicenvironmentforH adsorption,as RuexhibitsthestrongestadsorptionattheFCCsitebuttheweak-
+OPD
+displayed in Figure S2 (Supporting Information). The adsorp- est at the atop site (Table S1, Supporting Information), high-
+tion energy of H at top sites was computed for a coverage lightingthattheadsorptionbehaviorinHEAsitesisnotsolely
+OPD
+SmallMethods2025,9,2401224 2401224(2of8) ©2024TheAuthor(s).SmallMethodspublishedbyWiley-VCHGmbH
+
+www.advancedsciencenews.com www.small-methods.com
+Figure1. a)ThedistributionofΔG valuesof 1 MLofH onIrPdPtRhRu(111)andpurePt(111)containing1MLofH intheFCChollowsites.
+H 16 OPD UPD
+b)TheΔG valuesforeachtopsiteelementoftheHEA.Thechargedensitydifferenceof1monolayerH adsorbedonc)IrPdPtRhRuandtheyellow
+H UPD
+isosurfacerepresentselectronaccumulationandthecyanisosurfacerepresentselectrondepletionwithanisosurfacelevelof0.01.d)Theprojected
+densityofstates(PDOS)forthreesuperiorHEAtopsitesandthetopsiteofpurePt.Asseenininset(b),Ruistheoptimaltopsiteinhighcoverage
+scenarios,withIr,Pt,andRhalsoofferingadsorptionsitespreferabletopurePt.AlthoughRubondsstrongerthanIrtoH ,theinversecaseistruefor
+OPD
+H ,asdisplayedininset(c).TherepulsionbetweenH andH atomsisasignificantcontributortotheweakbondingofH tothetopsites,
+UPD UPD OPD OPD
+butthiseffectisalleviatedbyincreasingthephysicaldistancebetweenH andH .Thisresultshowshownoblemetalsurfacescanbeengineered
+UPD OPD
+tocreatemoreoptimalactivesitesfortheH intermediatebasedonatomicradii.Embeddingatomswithlargerradiiintonoblemetalsurfacescan
+OPD
+beastrategythatshouldbefurtherexploredforcaseswherethereisahighcoverageofH .
+UPD
+determined by individual elements but also influenced by the ation. For machine learning analysis, the 15 nearest atoms to
+synergistic interactions among them. Furthermore, the lower the hydrogenadsorbate were extracted and over 60uniquenu-
+ΔG reactionsitesintheHEAexhibitstrongerhybridizationof mericatomicdescriptorswereinitiallyevaluatedandscreened.
+H
+anti-bondingstatesbetweentheH1sandmetaldorbitals,while ThreeMLmodelsweretrainedonthedatabase:aregularneu-
+thesuperiorsiteshaved-bandsthatspanmoreoftheFermilevel, ralnetwork(NN)forbenchmarkcomparisons,aBayesianGaus-
+enhancingtheiractivity.[29] sianprocessregressor(GPR)fornoveloptimizationmethodolo-
+gies,andagraphneuralnetwork(GNN)formaximummodeling
+accuracy.Moredetailsofmodeldesignandfeatureengineering
+2.2.LowSurfaceCoverage areshowninSectionSII(SupportingInformation).Thebench-
+markNNmodelobtainedameanabsoluteerror(MAE)accuracy
+2.2.1.DatabaseGenerationandMachineLearningModeling of0.079eVbutstruggledtoaccuratelypredicttheraredatare-
+gionbetween–0.050–0.200eV.ByapplyingtheSyntheticMinor-
+TheworkflowofSection2.2isvisualizedasshowninFigureS5 ityOver-samplingwithGaussianNoise(SMOGN)techniquede-
+(SupportingInformation).Tostudytheactivehydrogenspecies velopedbyBrancoetal.,thedatasetsizewasincreasedby∼50
+contributingtotheHERatlowsurfacecoverage,adatabasewith datapoints(FigureS7,SupportingInformation)[39]andtheGPR
+800 adsorption models of 1 monolayer of H at top site is modelobtainedanMAEscoreof0.084eVwithimprovedpredic-
+generatedforMLmodeling 1 , 6 compositionandc O o P s D tanalysis,and tive capabilities of low represented ΔG regions (Figure 2a,b).
+H
+optimization.TheaverageDFTcomputedΔG ofthedatabase SincetheleastrepresentedΔG regionswere−0.05–0.2eV,the
+H H
+across all surfaces was −0.321 with a 0.114 eV standard devi- over-samplingtechniqueimprovedtheBayesianmodel’sability
+SmallMethods2025,9,2401224 2401224(3of8) ©2024TheAuthor(s).SmallMethodspublishedbyWiley-VCHGmbH
+
+www.advancedsciencenews.com www.small-methods.com
+Figure2. a)ParityplotoftheNNusedforbenchmarkcomparison.b)ParityplotoftheGPRwithSMOGNoversampling.c)ParityplotoftheALIGNN
+model.Allouterredlinesrepresent1standarddeviationofthepredictedMAEscoresforeachmodel.
+topredictoptimalΔG configurations,whileretainingacompa- ofthe15nearestatomstothehydrogenadsorbatesortedbydis-
+H
+rableaccuracyagainstthebenchmarkNN.ApplyingtheAtom- tance(SectionSIIC,SupportingInformation)toidentify20000
+isticLineGraphNeuralNetwork(ALIGNN)modeldevelopedby uniquestructureswithdesirablepredictedoverpotentials(<|0.09
+K.Choudhary,[40]anaverageMAEvalueof0.025eVwasobtained V|).ComparingthestructurespredictedbytheNNandGPR,the
+(Figure 2c). The superior accuracy can be attributed to graph- applicationofSMOGNtotheBayesianmodelofferedtwoben-
+basedmodels’abilitytocapturelargerdegreesofspatialandan- efitsnotseeninthebenchmarkMLoptimization.First,compo-
+gularinformationduetotheinherentnatureofnodeandedge- sitionexplorationwas400%moreefficientcomparedtotheNN
+basedfeaturedesignrelativetoarray-basedfeaturedesign.Un- exploration (Figure 3c). To discover 20 000 unique 15-atom lo-
+liketheNNandALIGNNmodel,theGPRoversamplingcreated calchemicalenvironmentswithexpectedoverpotentialscloseto
+three distinct clusters visible in the parity plots. This is due to 0 (−0.09 to 0.09 V), the GPR model parsed 100 000 datapoints
+thedatapointsinrarerregionsthatcreatedclustersofadditional whereastheNNparsed400000datapoints.Secondly,theGPR
+data points in the 0, 0.1, and 0.3 eV ranges (Figure 2b). Com- modelachievedahighercompositionalvarietywithamorebal-
+paringtoALIGNNwhichrequiredtheinformationofthewhole anceddistributionofRh,Pd,andPt-topsitestructures,arising
+slab model as input, sacrificing accuracy for optimizing viable from the application of SMOGN oversampling technique. The
+featuresetswasnecessaryfortheGPRandNNmodels.There- optimizedcompositionproposedbyGPRmodeldisplayedare-
+fore, graph-based models were not utilized to reduce the com- duced training set bias correlated to the trend of the original
+putationalcostforfurthercompositionalspaceexplorationand database compared to the NN model, which exhibited a strong
+optimizationstudy. preference for Rh-top sites. As seen in Figure 3a,b, both mod-
+els tend to predict a higher percentage of Pd and Rh with de-
+creasingcutoffdistancefromtheadsorbate,theGPRdisplayed
+2.2.2.CompositionOptimizationofHEAbyMachineLearning smallerbiastowardsRh.ForIr,theNNandBayesianoptimiza-
+tionscontainedlargerproportionscomparedtoexperimentalsur-
+To investigate the composition space of the IrPdPtRhRu HEA, faces but almost 0 Ir binding sites. This suggests Ir is benefi-
+weinitiallyexaminetheefficacyofNNandGPRmodelsiniden- cialasaneighboratomforHERbutasuboptimalbindingsite
+tifyinglocalchemicalenvironmentsthatcanhaveamoreopti- location. These findings suggest that our GPR model provided
+maloverpotentialbypopulatingtheconfusionmatrix.The∆G an effective broadening of the compositional search space be-
+H
+distributionwiththevariationofeachmetalcomponentforthe yondthelimitationsobservedintheoriginaldatabase.Compar-
+DFT-calculated adsorption database is visualized in Figure S8 ativeanalysiswithexperimentalcompositionsfromXRFbythe
+(Supporting Information). The data show fewer samples at ex- Kitagawagroup,theoriginalcomputeddatabase,andtheNN&
+tremelow(<6.7%)andhigh(>33.3%)compositions,suggesting GPRmodelpredictionsrevealedkeyinsightsintotheelemental
+potential sampling bias. Consequently, the correlation between distribution optimal for HER catalysis.[15] While the optimized
+metalcompositionvariationandHERperformance(∆G )from structures by both models maintained similar Ru percentages
+H
+thedatabaseisweak.Therefore,wefocusedonanalyzingcom- to the database, they contained ≈5% less Ru and an increased
+positionspredictedbyMLmodelstohavemorepromisingper- compositionofPdandPtthantheexperimentalmeasurement,
+formance.TheNNandGPRmodelsexhibitasensitivityof63% indicatingapotentialareaforfurtheroptimization(Figure3d).
+and 68%, respectively at a cutoff overpotential of |0.17 V|, and ThedifferencebetweentheML-optimizedcompositionsandthe
+sensitivityof36%and50%withamorestringentcutoffof|0.09 DFT study of high-coverage study in Section 2.1 is attributed
+V|. The abnormal increase of the sensitivity with reducing cut- tothepresenceofmonolayerH coverage.TheH hollow
+UPD UPD
+off might be caused by sampling bias, but GPR overall shows site adsorption resulted in a different electronic surface struc-
+a stronger ability to capture optimal adsorption sites. The two turethatisnotpresentintheMLtrainingdatabaseandthuswas
+modelswerethentaskedwithpredictingrandomcompositions notconsideredintheoptimizedstructures,whichindicatedthe
+SmallMethods2025,9,2401224 2401224(4of8) ©2024TheAuthor(s).SmallMethodspublishedbyWiley-VCHGmbH
+
+www.advancedsciencenews.com www.small-methods.com
+Figure3. a)AverageNNpredictedcompositionofoptimizedsurfacesbasedonproximitytoadsorbate.b)AverageGPRpredictedcompositionof
+optimizedsurfacesbasedonproximitytoadsorbate.c)SurfacediscoveryefficiencyofaSMOGN-basedGPRmodelandabaselineNNmodel.d)NN
+andGPRoptimizedsurfacecompositionscomparedtotheun-optimizeddatabaseandexperimentalsurfacecompositionobtainedbyXRF.[15]
+dependenceofHEA’scatalyticbehaviorforHERonthesurface predictionspossessedalowerMAEthanthelow-certaintypredic-
+coverage(𝜃 ). tions.TheaverageDFTcalculatedoverpotentialofhigh-certainty
+H
+To verify the reliability of the NN and GPR models, 6 GPR- structureswas0.10VwithanMAEof0.042V.Thelow-certainty
+optimized structures and 3 NN-optimized structures were ex- structures had an average DFT overpotential of 0.18 V with an
+tracted and simulated in DFT (Section SIID, Supporting Infor- MAEof0.16V.FortheNN-optimizedstructuresthatwereran-
+mation).The6GPR-predictedstructurespossesseddesirableML domly selected (2 Pd and 1 Pt binding sites), the average DFT
+predictedoverpotentials(<|0.09V|)withPtorPdbindingsites overpotentialvaluewas0.14VwithanMAEof0.13V.Thisre-
+toensuretheBayesianmodelwasnotoverestimatingtheperfor- sult highlights the unique ability of Bayesian models to gener-
+mance of the rare surfaces in the database. Three of the struc- ate high-confidence ML-designed surfaces that outperform tra-
+tureswiththesecriteriawereextractedfromthetop10%highest ditionalNNoptimizations.Inbothoptimizationapplications,a
+certaintypredictionsandthreeofthestructureswereextracted deviationfromequiatomiccompositionsuggeststheexperimen-
+fromthebottom10%lowestcertaintystructurestobecompared talcatalyticperformancecanbeimprovedifminortweakstothe
+andhighlightthebenefitsofutilizingaBayesianmodeluncer- Kitagawagroup’sone-potpolyolprocessareapplied.
+taintyquantificationasillustratedinFigureS9(SupportingIn-
+formation).Throughperformingfeaturespaceanalysisoverthe
+original dataset, it is revealed that the high-certainty structures 2.2.3.Techno-EconomicAnalysis
+haveagreateraveragedatadensityaroundthemincomparison
+tothelow-certaintypredictions(SeeFigureS10,SupportingIn- Thetechno-economicanalysisofHEAcompositionsconsidered
+formation), while the high data-density region could be inher- historicmetaloreprices,processedprecursorreagentpricings,
+ently correlated to local chemical environments that are more and molar compositions for the synthesis cost and the abso-
+thermodynamicallyfavorable.Suchpotentialdifferenceinrelia- luteoverpotentialforcatalyticperformance.Historicdataonthe
+bilityisfurtherconfirmedbyDFTcalculation:thehigh-certainty metal ore costs were obtained from the Johnson Matthey Spot
+SmallMethods2025,9,2401224 2401224(5of8) ©2024TheAuthor(s).SmallMethodspublishedbyWiley-VCHGmbH
+
+www.advancedsciencenews.com www.small-methods.com
+Figure4. a)Historicvalueoftransitionmetalsfrom2013topresentbasedonJohnsonMattheySpotPricingasanaveragevalueacrossAmerican,EU,
+andAsiamarkets.b)DFTcomputedoverpotential(absolutevalue)andcostpersynthesis(USD)basedonchemicalprecursorpricingasofApril4,2023
+obtainedfromFisherScientificreagents.
+priceofeachPGMdatingbackto2013forAsian,European(EU), comparisonandresultedina0.17Voverpotentialwhichaligns
+and American markets (Figure S11, Supporting Information) withtheliterature.[36]Thecompositionsof“NN-predictions”and
+andtheaverageisdisplayedinFigure4a.[41]Itisshownthatthe “high/lowcertaintypredictions”refertotheoptimizedstructures
+priceofRhmetaloreissignificantlylargerthantheotherfourel- predictedbyNNandGPRmodels.Theoverpotentialsarecalcu-
+ements.Sharingthesamedominantproducer(SouthAfrica),the latedastheaverageofDFTcalculationfortheselectedstructures
+priceofRhdisplayedamuchlargervolatilitythananyotherfour inSection2.2.2andthesynthesiscostiscalculatedaccordingto
+elementsduetothesmallsizeofmarketanditslimitedproduc- Equation(1).
+tionasabyproductoftheminingofPd,Pt,andNi.Considering Due to the relatively low price of Pt ore and chemical pre-
+thegrowingmarketandindustrialdemandassociatedwithitsap- cursors,thepurePtcatalystremainsthecheapestcatalystcon-
+plicationincatalystsforautomotiveandchemicalindustries,the sidered, but is no longer the top-performing catalyst. The NN-
+priceofRhanditschemicalprecursorisexpectedtoremainfluc- predictedstructuresoutperformedthepurePtcatalyst,whilethe
+tuatinginthefuture.Therelativehighpriceandvolatilitymakes high Rh compositions of the surfaces make it the most expen-
+RhthemajorvariableforthesynthesiscostoftheHEAnanopar- siveamongallcandidates.Thehighandlow-certaintypredictions
+ticles. bothdisplayed≈15%reductioninthecostofsynthesisincom-
+ThepriceofmetalreagentswasobtainedfromSigmaAldridge parison to the un-optimized database (“equiatomic ratio”), and
+or Fisher Scientific. The exact metal precursors were selected the high-certainty predictions show 65% theoretical overpoten-
+basedonthemethodsusedbytheKitagawagroup[15]intheone- tialimprovementoverequiatomiccompositionand40%overthe
+potpolyolprocess(seeFigureS12,SupportingInformationfor benchmarkPtcatalyst.
+details).Thecostpersynthesiswascalculatedbasedonthenum- BasedonDFTandMLinvestigationofhighandlow𝜃 en-
+H
+berofmolsin50mL,molecularweight,andthecostpergramof vironments,thecompositionalinsightsderivedfromthisstudy
+precursorusedtoobtainaspecificcompositionalratioshownin theoretically improvedHER overpotentialfrom0.29to 0.10eV
+Equation(1). while reducing synthesis costs from ≈$95 to ≈$82 per synthe-
+siswithfacilescalabilityandpricestability.Experimentaladjust-
+∑5 [ ] [ ] [ ] mentstotheone-potpolyolsynthesismethodscanbefoundin
+molsof precursori ∗ precursorM ∗ costpergprecursor (1) Table1below:
+w
+i=1
+3.Conclusion
+whereiisoneoffiveconstituentelementsoftheoptimizedIr-
+PdPtRhRu HEA (see Figure S13, Supporting Information for Inthecurrentwork,anexperimentallysynthesizedIrPdPtRhRu
+samplecalculations). HEA with exceptional HER catalytic performance was compu-
+Asthebaselinedata,theexperimentalsynthesisconditionsde- tationally studied to reveal how it breaks d-band theory trends,
+tailedbytheKitagawagroup[15] wereusedwhichcomprisesan and an alternative explanation for the HEA’s superior perfor-
+equimolarratioofthefivemetalprecursorsresultinginanap- mance is proposed. The HEA was then optimized through a
+proximate cost per synthesis of $95 USD and the correspond- novelBayesianoversamplingapproachthatexploredthecompo-
+ingcomputationaloverpotentialwascalculatedasthemeanab- sitionalspaceoftheHEAmoreefficientlythantraditionalnon-
+solute overpotential of 111 surface data points in the database. BayesianMLmodels.TheframeworktrainedaGPRonan800
+ThecostofsynthesizingapurePtnanoparticleusingthesame datapoints dataset and obtained an ≈0.084 eV MAE score. The
+one-potpolyolprocesswas$49.ThepurePtdatapointwascal- performance-optimizedHEAcompositionwaslastlyputthrough
+culated using the same DFT parameters as the HEA for direct a techno-economic analysis. By performing a dual cost and
+SmallMethods2025,9,2401224 2401224(6of8) ©2024TheAuthor(s).SmallMethodspublishedbyWiley-VCHGmbH
+
+www.advancedsciencenews.com www.small-methods.com
+Table1.Experimentalparametersandtheresultingcompositionversusrecommendedadjustments.
+Metal InitialMolarities/Composition[%] XRFDeterminedCompositionalVariance GPRrecommendedinitialComposition[%]
+frominitialmolarities[%]
+Pt 20.00 19.51±0.29 22.50
+Pd 20.00 20.74±0.31 24.50
+Ir 20.00 19.06±0.40 18.00
+Rh 20.00 19.93±0.13 15.00
+Ru 20.00 20.75±0.30 20.00
+performance optimization of the HEA through DFT and Received:August5,2024
+Bayesian ML, exact experimental synthesis adjustments were Revised:October19,2024
+proposedtosynthesizeIrPdPtRhRuHEAwithatheoretical40% Publishedonline:November10,2024
+superior overpotential compared to Pt(111) and ≈15% reduced
+synthesiscostthantheequiatomicratio.Thisstudyalsoprovided
+an analysis of saturated versus non-saturated 𝜃 environment
+H
+catalytic influences. The work presented the first-ever investi-
+gation into the benefits of SMOGN oversampling paired with [1] L.Kemp,C.Xu,J.Depledge,K.L.Ebi,G.Gibbins,T.A.Kohler,J.
+Bayesian learning for catalytic compositional optimization. Fu- Rockström,M.Scheffer,H.J.Schellnhuber,W.Steffen,T.M.Lenton,
+tureworkscanfocusonfurtherrefinementofBayesianmodels Proc.Natl.Acad.Sci.USA2022,119,e2108146119.
+throughtheapplicationofBayesianGNNsandexperimentalval- [2] G.-R.Walther,E.Post,P.Convey,A.Menzel,C.Parmesan,T.J.C.
+Beebee, J.-M. Fromentin, O. Hoegh-Guldberg, F. Bairlein, Nature
+idationofthesuggestedcompositionaladjustments.
+2002,416,389.
+[3] RobertvanWoesik,T.Shlesinger,A.G.Grottoli,R.J.Toonen,R.V.
+SupportingInformation Thurber,M.E.Warner,A.M.Hulver,L.Chapron,R.H.McLachlan,
+R.Albright,E.Crandall,T.M.DeCarlo,M.K.Donovan,J.Eirin-Lopez,
+SupportingInformationisavailablefromtheWileyOnlineLibraryorfrom H.B.Harrison,S.F.Heron,D.Huang,A.Humanes,T.Krueger,J.
+theauthor. S.Madin,D.Manzello,L.C.McManus,M.Matz,E.M.Muller,M.
+Rodriguez-Lanetty,M.Vega-Rodriguez,C.R.Voolstra,J.Zaneveld,
+GlobalChangeBiology2022,28,4229.
+Acknowledgements
+[4] U.S.GovernmentAccountabilityOffice,ClimateChangeRiskstoNa-
+tionalSecurity2022,https://www.gao.gov/products/gao-22-105830.
+TheauthorsacknowledgefinancialsupportfromtheNatureScienceand
+[5] European Commission, 2050 long-term strategy 2020, https:
+EngineerResearchCouncilofCanada(NSERC),theScienceandTechnol-
+//climate.ec.europa.eu/eu-action/climate-strategies-targets/2050-
+ogyDevelopmentProgramofJilinProvince,China(No.20230402058GH),
+long-termstrategy_en.
+andtheUniversityofToronto.TheauthorsalsoacknowledgeCompute
+CanadaandComputeOntarioforprovidingcomputingresourcesatthe [6] U.S.EnvironmentalProtectionAgency.,EPA’sReportontheEnviron-
+SciNet,CalculQuebec. ment(ROE).2022,https://www.epa.gov/reportenvironment.
+[7] D.Osberghaus,C.Fugger,GlobalEnviron.Change2022,74,102515.
+[8] M. Bharathidasan, V. Indragandhi, V. Suresh, M. Jasinski, Z.
+ConflictofInterest Leonowicz,EnergyRep.2022,8,9662.
+[9] Q. Guo, H. Zhou, W. Lin, S. Nojavan, J. Energy Storage 2022, 48,
+Theauthorsdeclarenoconflictofinterest. 103973.
+[10] U.Bossel,B.Eliasson,EnergyandtheHydrogenEconomy2003,https:
+//afdc.energy.gov/files/pdfs/hyd_economy_bossel_eliasson.pdf.
+AuthorContributions
+[11] S.K.Dash,S.Chakraborty,M.Roccotelli,U.KumarSahu,Sustain-
+L.H.,Z.G.,Z.W.C.,andC.V.S.conceivedanddesignedthestudy.Z.G.,E.H., ability2022,14,8285.
+andJ.S.simulatedtheVASPdataset.L.H.andZ.G.performedalldataana- [12] T.Selmi,A.Khadhraoui,A.Cherif,Environ.Sci.Pollut.Res.2022,29,
+lyticsandmodeling.AdvancedDFTanalysiswasperformedbyL.H.,E.H., 78121.
+andZ.G.ThepaperwaswrittenbyL.H.,Z.G.,E.H.,Z.W.C.,andC.V.S.All [13] M.A.Aminudin,S.K.Kamarudin,B.H.Lim,E.H.Majilan,M.S.
+authorsdiscussedandrevisedthemanuscript. Masdar,N.Shaari,Int.J.HydrogenEnergy2023,48,4371.
+[14] G.Zhang,K.Ming,J.Kang,Q.Huang,Z.Zhang,X.Zheng,X.Bi,
+Electrochim.Acta2018,279,19.
+DataAvailabilityStatement
+[15] D.Wu,K.Kusada,T.Yamamoto,T.Toriyama,S.Matsumura,I.Gueye,
+O. Seo, J. Kim, S. Hiroi, O. Sakata, S. Kawaguchi, Y. Kubota, H.
+Thedatathatsupportthefindingsofthisstudyareavailablefromthecor-
+Kitagawa,Chem.Sci.2020,11,12731.
+respondingauthoruponreasonablerequest.
+[16] Z.W.Chen,J.Li,P.Ou,J.E.Huang,Z.iWen,L.Chen,X.Yao,G.Cai,
+C.C.Yang,C.V.Singh,Q.Jiang,Nat.Commun.2024,15,359.
+Keywords [17] H.Guo,Z.Guo,K.Chu,W.Zong,H.Zhu,L.Zhang,C.Liu,T.Liu,J.
+Hofkens,F.Lai,Adv.Funct.Mater.2023,33,2308229.
+BayesianLearning,costreduction,highentropyalloyscatalyst,hydrogen [18] D.Wu,K.Kusada,Y.Nanba,M.Koyama,T.Yamamoto,T.Toriyama,
+evolutionreaction,theoreticalcompositionoptimization S.Matsumura,O.Seo,I.Gueye,J.Kim,L.S.RosanthaKumara,O.
+SmallMethods2025,9,2401224 2401224(7of8) ©2024TheAuthor(s).SmallMethodspublishedbyWiley-VCHGmbH
+
+www.advancedsciencenews.com www.small-methods.com
+Sakata,S.Kawaguchi,Y.Kubota,H.Kitagawa,J.Am.Chem.Soc.2022, [29] R.B.Araujo,T.Edvinsson,ACSCatal.2024,14,3742.
+144,3365. [30] J.K.Pedersen,T.A.A.Batchelor,A.Bagger,J.Rossmeisl,ACSCatal.
+[19] H. Minamihara, K. Kusada, D. Wu, T. Yamamoto, T. Toriyama, S. 2020,10,2169.
+Matsumura,L.S.R.Kumara,K.Ohara,O.Sakata,S.Kawaguchi,Y. [31] C.Sun,R.Goel,A.R.Kulkarni,Langmuir2024,40,3691.
+Kubota,H.Kitagawa,J.Am.Chem.Soc.2022,144,11525. [32] G.Jerkiewicz,A.Zolfaghari,J.Electrochem.Soc.1996,143,1240.
+[20] J.Zhang,C.Wang,S.Huang,X.Xiang,Y.Xiong,B.Xu,S.Ma,H.Fu, [33] Z.-J.Wang,M.-X.Li,J.-H.Yu,X.-B.Ge,Y.-H.Liu,W.-H.Wang,Adv.
+J.Kai,X.Kang,S.Zhao,Joule2023,7,1832. Mater.2020,32,1906384.
+[21] H.Li,M.Sun,Y.Pan,J.Xiong,H.Du,Y.Yu,S.Feng,Z.Li,J.Lai,B. [34] A.Lasia,Int.J.HydrogenEnergy2019,44,19484.
+Huang,L.Wang,Appl.Catal.,B2022,312,121431. [35] J.Greeley,T.F.Jaramillo,J.Bonde,I.Chorkendorff,J.K.Nørskov,Nat.
+[22] X.Cui,Y.Liu,X.Wang,X.Tian,Y.Wang,G.Zhang,T.Liu,J.Ding,W. Mater.2006,5,909.
+Hu,Y.Chen,ACSNano2024,18,2948. [36] E.Skúlason,G.S.Karlberg,J.Rossmeisl,T.Bligaard,J.Greeley,H.
+[23] Y.Men,D.Wu,Y.Hu,L.Li,P.Li,S.Jia,J.Wang,G.Cheng,S.Chen, Jónsson,J.K.Nørskov,Phys.Chem.Chem.Phys.2007,9,3241.
+W.Luo,Angew.Chem.,Int.Ed.Engl.2023,62,202217976. [37] E. Santos, P. Hindelang, P. Quaino, E. N. Schulz, G. Soldano, W.
+[24] M.Lao,P.Li,Y.Jiang,H.Pan,S.X.Dou,W.Sun,NanoEnergy2022, Schmickler,Chemphyschem2011,12,2274.
+98,107231. [38] X.Zhou,W.A.Curtin,ActaMater.2020,200,932.
+[25] T.Löffler,A.Ludwig,J.Rossmeisl,W.Schuhmann,Angew.Chem.,Int. [39] P.Branco,L.Torgo,R.P.Ribeiro,inProceedingsoftheFirstInterna-
+Ed.2021,60,26894. tional Workshop on Learning with Imbalanced Domains: Theory and
+[26] T.A.A.Batchelor,J.K.Pedersen,S.H.Winther,I.E.Castelli,K.W. Applications,(Ed:T.PaulaBrancoLuís,M.Nuno)ProceedingsofMa-
+Jacobsen,J.Rossmeisl,Joule2019,3,834. chineLearningResearch74,ECML-PKDD,Skopje,Macedonia,2017,
+[27] W.A.Saidi,W.Shadid,G.Veser,J.Phys.Chem.Lett.2021,12,5185. p.36–50.
+[28] J.K.Pedersen,C.M.Clausen,O.A.Krysiak,B.Xiao,T.A.A.Batchelor, [40] K.Choudhary,B.DeCost,npjComput.Mater.2021,7,185.
+T.Löffler,V.A.Mints,L.Banko,M.Arenz,A.Savan,W.Schuhmann, [41] J.Matthey,PGMmanagement.Availablefrom:https://matthey.com/
+A. Ludwig, J. Rossmeisl, Angew. Chem., Int. Ed. Engl. 2021, 60, products-and-markets/pgms-and-circularity/pgm-management,
+24144. (accessed:April2023)
+SmallMethods2025,9,2401224 2401224(8of8) ©2024TheAuthor(s).SmallMethodspublishedbyWiley-VCHGmbH
+

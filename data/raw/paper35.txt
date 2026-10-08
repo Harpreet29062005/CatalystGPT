@@ -1,0 +1,921 @@
+e-ISSN 2150-5551
+CN 31-2103/TB
+ARTICLE https://doi.org/10.1007/s40820-023-01066-w
+Duplex Interpenetrating‑Phase FeNiZn and FeNi
+3
+Heterostructure with Low‑Gibbs Free Energy
+Cite as Interface Coupling for Highly Efficient Overall
+Nano-Micro Lett.
+(2023) 15:95 Water Splitting
+Received: 2 February 2023
+Accepted: 6 March 2023 Qiuxia Zhou1,2, Caixia Xu1 * , Jiagang Hou3, Wenqing Ma1, Tianzhen Jian1,
+Published online: 10 April 2023
+© The Author(s) 2023 Shishen Yan1, Hong Liu1,4 *
+HIGHLIGHTS
+• Free-standing bimodal porous interpenetrating-phase FeNiZn and FeNi intermetallic heterostructure is in situ built on NiFe foam by
+3
+dealloying way.
+• FeNiZn/FeNi @NiFe exhibits superior electrocatalytic activities toward both oxygen evolution reaction (OER) and hydrogen evolu-
+3
+tion reaction (HER) with very low overpotentials and prolonged catalytic durability in alkaline medium.
+• The strong synergy between FeNiZn alloy and FeNi intermetallic generates modulated electron structure and thus well optimizes
+3
+the intermediates chemisorption toward OER and HER.
+ABSTRACT The sluggish kinetics of both
+hydrogen evolution reaction (HER) and oxygen
+evolution reaction (OER) generate the large over-
+potential in water electrolysis and thus high-cost
+hydrogen production. Here, multidimensional
+nanoporous interpenetrating-phase FeNiZn alloy
+and F eNi intermetallic heterostructure is in situ
+3
+constructed on NiFe foam (FeNiZn/FeNi @NiFe)
+3
+by dealloying protocol. Coupling with the emi-
+nent synergism among specific constituents and
+the highly efficient mass transport from integrated
+porous backbone, FeNiZn/FeNi @NiFe depicts
+3
+exceptional bifunctional activities for water split-
+ting with extremely low overpotentials toward
+OER and HER (η = 367/245 mV) as well as the robust durability during the 400 h testing in alkaline solution. The as-built water
+1000
+electrolyzer with FeNiZn/FeNi @NiFe as both anode and cathode exhibits record-high performances for sustainable hydrogen output in
+3
+*
+Caixia Xu, chm_xucx@ujn.edu.cn; Hong Liu, ifc_liuh@ujn.edu.cn
+1 Institute for Advanced Interdisciplinary Research (iAIR), Spintronics Institute, Collaborative Innovation Center of Technology and Equipment
+for Biological Diagnosis and Therapy in Universities of Shandong, School of Chemistry and Chemical Engineering, University of Jinan,
+Jinan 250022, People’s Republic of China
+2 School of Medical Information and Engineering, Southwest Medical University, Luzhou 646000, People’s Republic of China
+3 Kyiv College at Qilu University of Technology, Qilu University of Technology, Shandong Academy of Sciences, Jinan 250353,
+People’s Republic of China
+4 State Key Laboratory of Crystal Materials, Shandong University, Jinan 250100, People’s Republic of China
+Vol.:(0123456789)
+1 3
+
+95 Page 2 of 18 Nano-Micro Lett. (2023) 15:95
+terms of much lower cell voltage of 1.759 and 1.919 V to deliver the current density of 500 and 1000 mA cm−2 as well long working lives.
+Density functional theory calculations disclose that the interface interaction between FeNiZn alloy and FeNi intermetallic generates the
+3
+modulated electron structure state and optimized intermediate chemisorption, thus diminishing the energy barriers for hydrogen produc-
+tion in water splitting. With the merits of fine performances, scalable fabrication, and low cost, FeNiZn/FeNi @NiFe holds prospective
+3
+application potential as the bifunctional electrocatalyst for water splitting.
+KEYWORDS Heterostructure; Interface effect; Dealloying; Bifunctional electrocatalyst; Overall water splitting
+1 Introduction the single intermetallic itself, almost no one has the bifunc-
+tional activities toward water splitting. Combining interme-
+Electrochemical water splitting in alkaline solution repre- tallic with other materials represents one of the effective
+sents the most promising green technique to the produc- tactics to create unique OER activity as well as superior
+tion of clean and sustainable hydrogen energy from the HER activity. Recently, some FeNi 3 -based nanocomposites
+intermittent electricity harvested from renewable sources have been focused to achieve the exceptional bifunctional
+[1]. However, the kinetic limitations of the water elec- catalytic activities. For instance, composited Ni 3 FeN/Ni 3 Fe
+trolysis due to the sluggish hydrogen evolution reaction nanosheets exhibits high bifunctional activities with the
+(HER) and oxygen evolution reaction (OER) result in the overpotentials of 250 and 125 mV for OER and HER to
+extra reaction overpotential, which cause excessive power drive a current density of 10 mA cm−2 [19]. Liang et al.
+consumption and high hydrogen production cost [2–4]. In fabricated the lamellar F eNi 3 N incorporated by F eNi 3 , which
+view of the practical application of water splitting tech- displayed the η 10 of 260 and 51 mV toward OER and HER,
+nique, the development of bifunctional electrocatalysts for respectively [20]. Compared with the single counterpart, the
+both HER and OER can simplify the operation procedure formation of the FeNi 3 -based nanocomposites can signifi-
+and reduce the processing cost on account of the same cantly improve the bifunctional catalytic activities because
+fabrication technology. In this regard, ever-increasing the electronic interaction between the components can opti-
+endeavors have been made to exploring highly efficient mize the electronic structure, balance the adsorption and
+and low-cost bifunctional electrocatalysts with the aim to desorption of the reaction intermediates, as well increase
+facilitate the broad application of water electrocatalysis to the number of the active sites [19, 20]. Motivated by these
+hydrogen production. reports, it is appealing to further screen high-performance
+Among diverse categories of electrocatalysts toward water bifunctional FeNi 3 -based nanocomposite toward water split-
+splitting, intermetallics as one particular class of alloy-type ting by way of tailoring the constituents and architecture.
+materials have attracted widespread attentions in recent Of note, the architecture of catalyst electrode is also one of
+years [5, 6]. Intermetallics possess the chemical interactions pivotal factor to decrease the overpotential of water electrol-
+of ionic or covalent combination between the well-defined ysis not only by providing the abundant active sites and the
+stoichiometric compositions, which can effectively restrain fluent diffusion path but also eliminating a series of inher-
+the surface atom migration and reconstruction compared ent resistance among the catalyst surface, electrolyte, and
+with the monometal and substitutional alloys [5]. Owing the electrode itself. In this respect, self-supporting electrode
+to the specific bonding features, intermetallic compounds is preferable for exposing more active sites and reducing
+often take on superior catalytic activity and resistance for the interface resistance owing to free of conductive binders
+oxidation and dissolution in electrolyte [7]. Noticeably, a [21–23]. Recently, the in situ construction of nanostructured
+variety of Ni-based nonprecious intermetallics have been electrocatalysts on bulky metal foam has been one powerful
+discovered to own outstanding intrinsic catalytic activity strategy to improve the efficacy of overall water splitting
+toward water splitting, such as NiAl [8], M oNi 4 [9], F eNi 3 [24–26]. For example, Wang et al. prepared the IrNi-FeNi 3
+[10, 11], C uNNi 3 [12] toward OER, and Ni-Mo [13, 14], hybrid supported on nickel foam (IrNi-FeNi 3 /NF), which
+Ni–Ti [15, 16], and NiZn [17, 18] toward HER. Even so, for displays the ultralow overpotentials of 330.0/288.8 mV to
+© The authors https://doi.
+org/10.1007/s40820-023-01066-w
+
+Nano-Micro Lett. (2023) 15:95 Page 3 of 18 95
+generate a current density 1000 mA cm−2 for OER and HER for screening the self-supporting intermetallic-based
+as well good stability for overall water splitting [26]. Such bifunctional electrocatalysts with high performances, easy
+the unique nanosheets structure anchored on three-dimen- preparation, and economic cost.
+sional (3D) nickel foam exposed more catalytic active sites
+and facilitated the mass transfer. It should be mentioned
+that among various nanostructures, 3D porous structure has
+2 Experimental Sections
+been witnessed to possess inherent structural superiorities
+in the electrocatalysis in terms of the robust structure stabil-
+2.1 Chemicals
+ity and the maximized exposure of surface-active sites [27,
+28]. Furthermore, the in situ construction of nanoporous
+Commercial Pt/C (20 wt%) and RuO were obtained from
+2
+electrocatalysts over macroporous metal foam can generate
+Sigma Aldrich Chemical Reagent Co., Ltd. The other
+highly efficient hierarchical porous architecture toward elec-
+chemicals were bought from Shanghai Sinopharm Chemi-
+trocatalysis, where the large pores from support can provide
+cal Reagent Ltd. Co of China. All agents were used as an
+unblocked electrolyte penetration along the interconnected
+analytical purity without further purification.
+framework and hollow channels; meanwhile, the nanoscale
+porous surface can furnish high density of active sites and
+full contact with the electrolyte [29–31]. In addition, the
+2.2 Preparation of FeNiZn/FeNi @NiFe
+integrated interconnected multidimensional skeleton can 3
+prevent the structure from aggregation as well as retard the
+NiFe foam with the size around 1 cm × 2 cm was pretreated
+corrosion and dissolution of catalyst materials in electrolyte
+by ultrasonicating in 1 M HCl solution, ethanol, and deion-
+under high applied potential.
+ized water, respectively. Zn coating was electrodeposited
+Given all that, in current work we focused on the design
+on NiFe foam to form Zn@NiFe in the mixture solution of
+and fabrication of high-performance bifunctional inter-
+0.2 M Z nSO + 0.2 M Na SO + 0.2 M H BO in a three-
+penetrating-phase FeNiZn and FeNi intermetallic hetero- 4 2 4 3 3
+3 electrode system with Pt sheet (2 cm × 3 cm) and saturated
+structure in situ constructed within the surface layer of
+calomel electrode (SCE) as the counter and reference elec-
+NiFe foam (FeNiZn/FeNi @NiFe) with multilevel pore
+3 trode under − 1.7 V versus SCE for 1 h. Subsequently, Zn@
+distribution. NiFe foam of the atomic ratio around 80:20
+NiFe was annealed at 430 °C for 5 h in the Ar atmosphere
+was chosen as the support with the phase structure con-
+to make the alloy precursor, which was further corroded in
+sisting of FeNi intermetallic and pure Ni. The versatile
+3 2.0 M ammonia solution for 12, 24, and 48 h to obtain the
+dealloying strategy was deployed to simultaneously in situ
+final FeNiZn/FeNi @NiFe-12 h, FeNiZn/FeNi @NiFe-24 h,
+build one layer of bimodal nanoporous structure and dis- 3 3
+and FeNiZn/FeNi @NiFe-48 h samples, respectively.
+persed FeNiZn alloy within NiFe foam through the handy 3
+operation of electroplating Zn, annealing, and etching part
+of Zn. The as-made FeNiZn/FeNi @NiFe gets together 2.3 Characterization
+3
+multiple structural advantages in terms of multimodal
+porous structure from macro- to nanoscale and the rich The crystal phase structure of the sample was determined
+interface between interpenetrating FeNiZn and FeNi , by X-ray diffraction (XRD, Bruker D8 advanced) with Cu
+3
+thus resulting in unlimited mass transport and high density Kα radiation (λ = 1.5418 Å) at a step rate of 0.02° s −1. The
+of active sites. First-principle calculations testified that morphology and composition were characterized by trans-
+FeNiZn and FeNi heterostructure has diversified highly mission electron microscope (TEM, JEOL JEM-F200) and
+3
+active sites with low-Gibbs free energy toward OER and field-emission scanning electron microscope (SEM, Hitachi
+HER. The as-built water electrolyzer achieves record-high Regulus 8100) equipped with X-sight energy-dispersive X-ray
+stable performances for hydrogen production under much spectrometer (EDS, Oxford INCA). Electron backscattered dif-
+lower cell voltage even compared with the previously fraction (EBSD) was conducted by a field-emission SEM (FEI
+reported similar noble metal-containing catalysts, such as Scios) using an OXFORD EBSD acquisition system. X-ray
+IrNi-FeNi /NF [26]. This work can provide new avenues photoelectron spectroscopy (XPS) data were recorded on an
+3
+1 3
+
+95 Page 4 of 18 Nano-Micro Lett. (2023) 15:95
+ESCALAB MK II X-ray photoelectron spectrometer. The pore proceeded until all forces on atoms were less than 1 meV Å−1
+size distribution of the sample was measured with a Quadra- and the total stress tensor was within 0.01 GPa of the target
+sorb SI-MP (Quantachrome Instruments) according to the value.
+Brunauer-Emmett-Teller (BET) method. The free energy of the adsorption atomic hydrogen (ΔG )
+H*
+is obtained by:
+ΔG =ΔE +ΔE −TΔS
+2.4 Electrochemical Measurements H∗ H∗ ZPE H∗ (1)
+ΔE describes the energy needed to increase the coverage
+All electrochemical data were recorded on CHI 760E elec- H*
+by one hydrogen atom. ΔE is the difference in zero point
+ZPE
+trochemical workstation (Shanghai Chenhua Co., China) in energy and ΔS is the difference in entropy. ΔE –TΔS
+H* ZPE H*
+a three-electrode system. The electrocatalysts were employed is about 0.24 eV, so ΔG = ΔE + 0.24 [36]. For ΔE , it
+H* H* H*
+as the working electrode with the fixed size at ~ 0.2 cm2 is calculated as follows:
+(0.4 cm × 0.5 cm). Graphite rod and mercuric oxide elec-
+1
+ΔE =E(surface+H)−E(surface)− E(H )
+trode (MOE) were selected as the counter electrode and H∗ 2 2 (2)
+reference electrode, respectively. The electrolyte of 1.0 M
+where E(surface + H) represents the total energy of the
+KOH (pH = 14) solution was first purged with N and O for
+2 2
+selected surfaces with one adsorbed hydrogen atom on the
+30 min before HER and OER testing, respectively. The lin-
+surfaces, E(surface) represents the total energy of the sur-
+ear sweep voltammetry (LSV) was conducted with the scan
+faces, while E(H ) represents the total energy of a gas phase
+rate of 5 mV s−1. All the potentials were converted to revers- H molecule. 2
+2
+ible hydrogen electrode (RHE) according to the equation of
+Generally, in alkaline media the OER reaction mechanism
+E = E + 0.924 V with 90% iR-compensation. The dou-
+RHE MOE can be written as 4-elecetron change mechanism:
+ble-layer capacitance (C ) values were confirmed by cyclic
+dl
+voltammetry (CV) in the potential range of 1.00 to 1.10 V Step 1:
+∗+OH− →OH∗+e−
+(vs. RHE) at different scan rates. Electrochemical imped- Step 2:
+OH∗+OH− →O∗+H
+2
+O+e−
+ance spectroscopy (EIS) was measured at the overpotential of Step 3:
+O∗+OH− →OOH∗+e−
+100 and 250 mV for HER and OER with a frequency scope Step 4:
+OOH∗+OH− →O
+2
+(g)+∗+H
+2
+O+e−
+from 100 kHz to 0.01 Hz, respectively. Pt/C and RuO were
+2
+where * presents an adsorption site on the catalyst and OH*,
+dropped onto NiFe foam (0.4 cm × 0.5 cm) with the loading
+mass of ~ 3.5 mg cm−2 for all tests, respectively. Current–time O*, and OOH* denote the corresponding absorbed intermedi-
+(i–t) curves were tested under constant potentials. ates. Accordingly, the free energy of reactions (S1)–(S4) can
+be calculated using aforementioned equations:
+ΔG1=G(OH∗)−G(∗)−G(OH−)
+2.5 Density Functional Theory Calculations
+ΔG2=G(O∗)+G(H O)−G(OH∗)−G(OH−)
+Spin-polarized first-principle calculations were performed by 2
+the density functional theory (DFT) using the Vienna Ab-initio
+ΔG3=G(OOH∗)−G(O∗)−G(OH−)
+Simulation Package (VASP) package [32]. The generalized
+gradient approximation (GGA) with the Perdew–Burke–Ernz-
+ΔG4=4.92−ΔG1−ΔG2−ΔG3
+erhof (PBE) functional was used to describe the electronic
+exchange and correlation effects [33–35]. Uniform G-centered The theoretical overpotential η for OER can be calculated
+k-points meshes with a resolution of 2π × 0.03 Å−1 and Meth- using Eqs. 3 and 4:
+fessel–Paxton electronic smearing were adopted for the inte-
+GOER =max{ΔG1,ΔG2,ΔG3,ΔG4}
+(3)
+gration in the Brillouin zone for geometric optimization. The
+simulation was run with a cutoff energy of 500 eV throughout
+the computations. These settings ensure convergence of the
+𝜂OER =G
+OER /
+e−1.23V
+(4)
+total energies to within 1 meV per atom. Structure relaxation
+© The authors https://doi.
+org/10.1007/s40820-023-01066-w
+
+Nano-Micro Lett. (2023) 15:95 Page 5 of 18 95
+3 Results and Discussion diffraction peaks that appeared around 44.6°, 65.0°, and
+82.3° corresponding to the phase structure similar to that
+3.1 Preparation and Characterization of (Fe, Ni) alloy (JCPDS No. 37-0474). In the light of the
+high content of Zn upon dealloying as indicated in Fig. 3c,
+The interpenetrating FeNiZn and FeNi heterojunction on such the species should be assigned to FeNiZn alloy. It is
+3
+NiFe foam was fabricated as shown in Fig. 1. NiFe foam considered that during the high-temperature annealing the
+with the atomic ratio around 80:20 was chosen as the con- introduced Zn will combine with the Ni and a part of FeNi 3
+ductive support, which has the interconnected macroscale intermetallic in NiFe foam to form Ni 2 Zn 11 and Fe 6.8 Zn 3.2
+skeleton and hollow channels with the pore size around alloy. After selectively dissolving the Zn atoms, the residual
+150–200 μm as shown in Fig. S1a, b. One layer of dense Fe, Ni, and Zn atoms underwent interdiffusion to form the
+zinc film is electrodeposited on the surface of the NiFe foam ternary FeNiZn alloy. Note that no extra peaks emerged,
+(Zn@NiFe) and then annealed in the inert atmosphere. Sub- which manifested the formation of FeNi 3 intermetallic and
+sequently, a part of Zn atoms are selectively dissolved in FeNiZn alloy composites. By further extending the corro-
+ammonia solution to get the target product (FeNiZn/FeNi @ sion time to 48 h, the XRD pattern has almost no change
+3
+NiFe). apart from the minor variation of peak width and intensity,
+XRD was first applied to examine the evolution of crystal indicating the more stable phase structure for the FeNiZn
+phase structure from NiFe foam to the final product dur- and F eNi 3 heterojuction.
+ing electroplating Zn, annealing, and partial etching of Zn. The microstructural evolution process from NiFe foam
+For the NiFe foam, three asymmetric diffraction peaks with to the resultant heterostructure was monitored by electron
+the evident shoulder at the lower-angle side emerged at microscope. From Fig. S1a, b, it is clear that NiFe foam has
+44.5°, 51.8°, and 76.1°, which is owing to the neighboring the porous structure with interconnected pore channels and
+relationship for the diffraction peaks of pure Ni and FeNi smooth 3D skeleton, which can provide high supporting area
+3
+intermetallic (Fig. 2a). Upon the electrodeposition of Zn, as well as the expedite pathway for mass transfer. Its atomic
+the sharp diffraction peaks of Zn emerged and covered the ratio of Ni and Fe is around 81.20:18.80 (Fig. S1g). Upon
+original peaks of NiFe foam (Fig. 2b). After annealing at electroplating Zn on NiFe foam, one dense layer of Zn was
+430 °C for 5 h, the Zn atoms diffused into the foam sup- successfully coated as observed in Fig. S1c, d and EDS data
+port to form the Ni Zn and Fe Zn alloy as denoted in (Fig. S1h). After annealing, the coating layer became more
+2 11 6.8 3.2
+Fig. 2c, while some Zn atoms residued at the surface along flattening with Ni, Fe, and Zn elements detectable, imply-
+with certain oxidation. The diffraction peaks for the FeNi ing the formation of Zn-based alloy precursor (Fig. S1e, f,
+3
+intermetallic still retained. Through leaching out part of Zn and i).
+atoms in the ammonia solution for 24 h (Fig. 2d), F eNi 3 The microstructure of the dealloyed FeNiZn/FeNi 3 @NiFe
+phase still existed with the diffraction peaks widening, sug- sample upon etching in 2.0 M ammonia solution for 24 h is
+gesting that the original bulky FeNi intermetallic converted shown in Fig. 3a, b. There are rich pore channels formed on
+3
+to the nanoscale structure as a result of the strategy of Zn the surface of 3D NiFe backbone with the size around sev-
+introduction and etching. Meanwhile, there are new three eral hundred nanometers. EDS analysis elucidated that the
+Fig. 1 Preparation scheme of FeNiZn/FeNi 3 @NiFe
+1 3
+
+95 Page 6 of 18 Nano-Micro Lett. (2023) 15:95
+Fig. 2 XRD patterns of a NiFe foam, b Zn@NiFe sample by electroplating Zn on NiFe foam, c the annealed Zn@NiFe sample, and d FeNiZn/
+FeNi@NiFe samples by dealloying in 2.0 M ammonia solution for 24 and 48 h
+3
+ratio of Ni, Fe, and Zn on the surface layer was 61.86:12.79: distribution between FeNiZn alloy and FeNi intermetallic,
+3
+25.35 (Fig. 3c). TEM images gave the detailed structure of where the measured phase ratio is around 0.51:0.49. Accord-
+the slice peeled off from FeNiZn/FeNi @NiFe-24 h sam- ing to the elemental components and phase ratio, it can be
+3
+ple by long-time ultrasonicating. As illustrated in Fig. 3d, speculated that the FeNiZn alloy ratio is 8.74:57.48:33.78.
+e, there are abundant pores embedded in the peeled slice In addition, the influence of the different corrosion time on
+with the typical size as narrow as 3 nm. In addition, the the resulting structure was explored as displayed in Fig. S3,
+BJH analysis further supports such the microscope observa- and the detailed description was provided in Supporting
+tion. From Fig. 3i, the second-order pores size for FeNiZn/ Information.
+FeNi @NiFe-24 h sample mainly distributes in the range XPS represents one forceful technique to examine the
+3
+of 3 ~ 6 nm, which accords with the TEM observation. As chemical combination of each element in the compos-
+shown by the high-resolution TEM (HRTEM) image in ite. Figure 4 gives the XPS data of the as-made FeNiZn/
+Fig. 3f, the ordered fringe lattices from the square frame of FeNi @NiFe-24 h and pure NiFe foam. As shown in
+3
+g1 and g2 are calculated to be 0.177 and 0.203 nm, which Fig. 4a, for FeNiZn/FeNi @NiFe-24 h sample the peaks
+3
+can be assigned to the (200) plane of FeNi intermetallic with the binding energy at 852.52 and 868.54 eV can
+3
+and (110) plane of FeNiZn alloy. From Fig. 3h, the dif- be ascribed to the metallic Ni. The slight negative shift
+fraction rings in selected area electron diffraction (SEAD) compared with the pure Ni suggests that the metallic
+pattern correspond to the (220) and (200) planes for FeNi Ni comes from the FeNiZn alloy and FeNi intermetal-
+3 3
+and the (110) and (200) planes of FeNiZn alloy, confirming lic [37, 38]. Moreover, the two peaks around 856.13 and
+the polycrystalline nature of FeNiZn and FeNi heterojunc- 873.88 eV with the satellite peaks can be attributed to
+3
+tion. EBSD images in Fig. 3j, k indicate the interpenetrating the N i2+ species accompanied with the coexistence of
+© The authors https://doi.
+org/10.1007/s40820-023-01066-w
+
+Nano-Micro Lett. (2023) 15:95 Page 7 of 18 95
+Fig. 3 a, b SEM images, c EDS data, d, e TEM images, f, g HRTEM images, h SAED pattern, i BJH pore size distribution curve, and j, k
+EBSD images of the FeNiZn/FeNi@NiFe sample dealloyed in the 2.0 M ammonia solution for 24 h
+3
+Ni3+ corresponding to the fitted peaks around 858.05 and 707.03 eV stems from the metallic Fe within the FeNiZn
+876.15 eV [26, 39]. The analysis results above illustrate alloy and FeNi [40]. The split peaks at 711.02, 713.64,
+3
+that Ni surface oxide and hydroxide formed on the sample and 716.73 eV state the existence of Fe2+ and Fe3+ result-
+surface during the dealloying and drying process due to ing from the Fe oxide and hydroxide as the same as the
+the more reactive property of nanosized Ni. As for the case of Ni [19, 40]. It is noted that the binding energies
+XPS data of NiFe foam, the Ni core level shows the simi- for Fe species also underwent the positive shift compared
+lar feature. By comparison, it is evident that all the bind- with that of NiFe foam, indicating the modulated elec-
+ing energies for Ni species in FeNiZn/FeNi @NiFe-24 h tronic state of Fe after introducing Zn and interface gen-
+3
+encounter the positive shift to higher value, which testi- eration [41, 42]. For the Zn 2p spectrum in Fig. 4c, the
+fies that the addition of Zn and the interface formation peak located at 1022.29 eV belongs to the metallic Zn
+effectively regulates the electronic structure state of Ni. from FeNiZn alloy [43]. It should be mentioned that its
+As for the Fe 2p core level region (Fig. 4b), the peak at binding energy went through relatively large positive shift
+1 3
+
+95 Page 8 of 18 Nano-Micro Lett. (2023) 15:95
+Fig. 4 XPS data of a Ni 2p, b Fe 2p, c Zn 2p, and d O 1s in the as-made FeNiZn/FeNi 3 @NiFe-24 h sample and NiFe foam
+by 1.12 eV in comparison to pure Zn, which is considered different dealloying time show one evident reduction peak
+to originate from the electron transfer of Zn toward Fe and in the potential range of 1.25–1.4 V, which possibly resulted
+Ni owning to the formation of FeNiZn alloy as well as the from the reduction of Ni3+ to Ni2+ [45, 46]. By compari-
+electron interaction between FeNiZn and FeNi hetero- son, it is clearly found that the FeNiZn/FeNi @NiFe-24 h
+3 3
+structure. It is clear that the elements of Ni, Fe, and Zn in sample takes on the supreme electrocatalytic activity toward
+the heterostructure can generate distinct electron modula- OER with the lowest overpotentials of 367 mV to reach the
+tion. In the O 1s spectrum as depicted in Fig. 4d, the peaks high current density of 1000 mA cm−2. Figure 5b provides
+around 529.96, 531.66, and 532.94 eV can be ascribed to the detailed overpotentials of all electrocatalysts at different
+the metal–O (M–O), metal–OH (M–OH), and absorbed current densities. At the current density of 50 mA cm−2 for
+water molecules on metals as a result of the formation of the FeNiZn/FeNi @NiFe-24 h electrode, the overpotential
+3
+metal oxide and hydroxide, which is identical with the is only 244 mV, which is dramatically lower than those of
+observations above for the formation of metal ions [44]. R uO @NiFe (314 mV) and NiFe foam (358 mV). At the
+2
+current density of 100 and 500 mA cm−2, its overpoten-
+tials are 258 and 315 mV, respectively, which is also much
+3.2 Electrochemical Performances smaller than those of RuO @NiFe (331 and 397 mV) and
+2
+NiFe foam (372 and 432 mV). Such the OER activity for
+The OER performances of FeNiZn/FeNi @NiFe samples FeNiZn/FeNi @NiFe-24 h surpasses some similar electro-
+3 3
+were first accessed in 1.0 M KOH solution with those of catalysts reported previously as shown in Table S1 [19, 20,
+R uO /NiFe and NiFe foam included for comparison in 24, 26, 38, 39, 47–51].
+2
+Fig. 5a. All the LSV curves for the as-made samples with
+© The authors https://doi.
+org/10.1007/s40820-023-01066-w
+
+Nano-Micro Lett. (2023) 15:95 Page 9 of 18 95
+Fig. 5 a LSV curves of FeNiZn/FeNi 3 @NiFe samples, R uO 2 @NiFe, and NiFe foam in 1.0 M KOH solution at the scan rate of 5 mV s−1. b
+Overpotentials of all electrodes at the 50, 100, and 500 mA cm−2. c Tafel plots of all samples. d, e EIS data of FeNiZn/FeNi 3 @NiFe samples and
+NiFe foam. f The capacitive current at 1.05 V vs. RHE at different scan rates. g i–t curve under the overpotential of 340 and 404 mV for FeNiZn/
+FeNi 3 @NiFe-24 h and RuO 2 @NiFe, respectively, and h LSV curves at a scan rate of 5 mV s−1 before and after i–t test for FeNiZn/FeNi 3 @NiFe-
+24 h toward OER
+We further deduced the Tafel plots of all electrocatalysts effective electron transfer and mass transport during the
+on the basis of the LSV curves to gain insight into their oxygen evolution. The C value calculated from CV curves
+dl
+OER mechanism. As depicted in Fig. 5c, the Tafel plot is further utilized to estimate the electrochemical surface
+for FeNiZn/FeNi @NiFe-24 h displays the smallest value area (ECSA) of all electrodes (Fig. S4). As can be observed
+3
+around 45.7 mV dec−1 compared with other electrodes, in Fig. 5f, the C values for all the electrodes can clearly
+dl
+implying that it has the relatively low reaction kinetic limi- account for their disparity in the OER activities. FeNiZn/
+tation. In an effort to understand the reaction kinetic behav- FeNi @NiFe-24 h has the C value as large as 203.4 mF
+3 dl
+ior of electrode and interface, EIS analysis was conducted. c m−2, which is much larger than that of FeNiZn/FeNi @
+3
+As shown in Fig. 5d, e, FeNiZn/FeNi @NiFe-24 h sample NiFe-12 h (115.6 mF cm−2), FeNiZn/FeNi @NiFe-48 h
+3 3
+shows the lowest electrochemical transfer resistance (R ) (191.2 mF cm−2), and NiFe foam (7.0 mF cm−2). Such the
+ct
+at 3.06 Ω compared with other electrodes, which means large ECSA of FeNiZn/FeNi @NiFe-24 h states its high
+3
+its much better electrocatalytic efficacy favoring for highly density of active sites toward OER. It is regarded that the
+1 3
+
+95 Page 10 of 18 Nano-Micro Lett. (2023) 15:95
+mesoporous structure with small pore size offers high sur- larger than that of pre-cycling sample, which is responsible
+face area and thus the abundant active sites. Considering for the stable OER activity upon long term test (Fig. S6).
+the experimental observations above, there is no doubt that The slight increment of C value is considered to stem from
+dl
+the exceptional OER activity of FeNiZn/FeNi @NiFe-24 h the surface reconstruction due to the further dissolution of
+3
+profits from the specific multidimensional porous interpen- little Zn atom as confirmed by EDS data (Fig. S5d). EDS
+etrating-phase heterostructure between FeNiZn alloy and data confirm that the ratio of Ni/Fe/Zn is 62.35:16.38:21.27
+F eNi intermetallic. The rich mesoscale pores dispersed after long-term test. By comparison with that of the fresh
+3
+within the interconnected 3D skeleton can furnish high den- sample, the Zn content decreased, while the contents of Fe
+sity of active sites, while the large pore channels can provide and Ni both increased. It can be inferred that during long-
+smooth electron transfer and unblocked electrolyte diffu- term catalysis the Zn atoms encounter relatively more dis-
+sion. In particular, the strong synergy from FeNiZn alloy solution in KOH solution compared with Fe and Ni in the
+and F eNi intermetallic is beneficial for the modulation of oxygen-rich environment, which also lead to the enlarged
+3
+electronic structure and thus the optimization of reaction pore channels as observed in Fig. S5a, and thus generate
+intermediates chemisorption [2, 41]. much higher surface area as well as the increment of active
+The electrocatalytic durability for one OER electrocatalyst sites toward OER (Fig. S6). It is considered that during the
+also represents one crucial indicator for its practical applica- long-term measurement Fe atoms tend to combine with
+tion in industrial hydrogen production. Chronoamperometry oxygen-containing species to form hydroxide, thus retard-
+method was first used to estimate the long-term persistence ing its dissolution. XRD was further utilized to analyze the
+in water electrolysis for FeNiZn/FeNi @NiFe-24 h sample. phase structure of the resultant sample. As shown in Fig.
+3
+For comparison, the catalytic durability of the commer- S5c, the FeNiZn and F eNi well maintained the initial phase,
+3
+cial R uO supported on NiFe foam was also provided. As indicating its unique stability in alkaline solution under the
+2
+illustrated in Fig. 5g, FeNiZn/FeNi @NiFe-24 h electrode high applied potential. The results above demonstrate that
+3
+can steadily proceed successive oxygen evolution for 400 h the free-standing multi-scale 3D porous heterostructure has
+under the overpotential of 340 mV without the evident activ- robust structure stability, which can well preserve the sur-
+ity degradation, suggesting its excellent catalytic stability face active sites during long period of electrocatalysis.
+toward OER. In contrast, the catalytic activity of RuO @ XPS was also used to examine the chemical state of all
+2
+NiFe dramatically decreased with only 28% of the initial elements for the resultant FeNiZn/FeNi @NiFe-24 h sample
+3
+current density retained upon testing for 22 h. The obvious after testing. As shown in Fig. S7a, c, the spectra of both Ni
+activity decline of RuO @NiFe is mainly because such the 2p and Zn 2p have almost no change compared with those
+2
+catalyst easily dissolves in a strong alkaline electrolyte under of the fresh sample. In the respect of Fe 2p spectrum (Fig.
+high voltage, meanwhile the particle-type catalyst usually S7b), it is evident that the peak intensity of Fe3+ increased
+suffers from peeling off during long term test in compari- along with that of Fe2+ diminished, which is due to the little
+son with the integrated self-supporting electrocatalyst [21, oxidation of Fe2+ to Fe3+ during OER process. In addition,
+52]. The outstanding electrocatalytic stability of FeNiZn/ the enhanced intensity of M–OH also suggested that a lit-
+FeNi @NiFe-24 h electrode toward OER was further con- tle F e2+ species converted to FeO–OH species (Fig. S7d).
+3
+firmed by the well overlapped LSV curves before and after The observations above dramatically demonstrated that
+the long-term running (Fig. 5h). In view of the origin of high self-supporting multimodal porous FeNiZn and F eNi het-
+3
+OER catalytic durability, the microstructural and constitu- erostructure has excellent electrocatalytic durability toward
+ent changes after electrocatalysis were in detail inspected. OER in virtue of the robust structure stability as well as the
+From the SEM image in Fig. S5a, it is clear that the porous high corrosion resistance, demonstrating powerful applica-
+morphology well kept, where the skeleton became more uni- tion prospect in water electrocatalysis.
+form and the pore channels appeared to be more thorough. Aside from the excellent OER performances of FeNiZn/
+More importantly, the TEM image of the sample after testing FeNi @NiFe-24 h sample, it also shows the impressive HER
+3
+proves that the mesoporous structure within the skeleton also performances. Figure 6a gives the LSV curves of FeNiZn/
+has no size coarsening (Fig. S5b). Furthermore, the C value FeNi @NiFe samples in 1.0 M KOH solution with those of
+dl 3
+(214.4 mF cm−2) of the electrode after testing became even Pt/C@NiFe and pure NiFe foam also tested for comparison.
+© The authors https://doi.
+org/10.1007/s40820-023-01066-w
+
+Nano-Micro Lett. (2023) 15:95 Page 11 of 18 95
+Fig. 6 a LSV curves of FeNiZn/FeNi 3 @NiFe samples, Pt/C@NiFe, and NiFe foam in 1.0 M KOH solution at the scan rate of 5 mV s−1. b
+Overpotentials of all electrodes at different current densities. c Tafel plot. d EIS data of FeNiZn/FeNi 3 @NiFe samples and NiFe foam. e i–t
+curve under the overpotential of 160 and 421 mV for FeNiZn/FeNi 3 @NiFe-24 h and Pt/C@NiFe, respectively, and f LSV curves at a scan rate
+of 5 mV s−1 before and after i–t test for FeNiZn/FeNi 3 @NiFe-24 h toward HER. g LSV curves for overall water splitting with FeNiZn/FeNi 3 @
+NiFe-24 h and Pt/C@NiFe (−)||RuO 2 @NiFe (+) in a two-electrode device. h i–t test for FeNiZn/FeNi 3 @NiFe-24 h at a constant potential of
+1.83 V in a two-electrode device
+As shown in Fig. 6a, FeNiZn/FeNi @NiFe-24 h sample dis- Figure 6b provides the overpotential of all samples under
+3
+plays the highest electrocatalytic activity toward HER with the different current densities. FeNiZn/FeNi @NiFe-24 h
+3
+very small overpotential of 245 mV to reach the high cur- has the overpotential of 84 mV at 50 mA cm−2, which is
+rent density of 1000 mA cm−2. Furthermore, it is clearly 86, 112, and 403 mV less than FeNiZn/FeNi @NiFe-12 h,
+3
+observed that the onset potential of Pt/C@NiFe toward FeNiZn/FeNi @NiFe-48 h, and NiFe foam, respectively.
+3
+HER is the lowest, but it became much larger than FeNiZn/ At the current density of 100 and 500 mA cm−2, the over-
+FeNi @NiFe-12 h and FeNiZn/FeNi @NiFe-24 h samples potentials of FeNiZn/FeNi @NiFe-24 h sample are only
+3 3 3
+when the current density is beyond to 70 mA cm−2. This is 102 and 177 mV, which are much lower than those of other
+because the coated Pt/C particles on NiFe foam through the electrodes. Moreover, the HER activity of FeNiZn/FeNi @
+3
+conductive binders are easily stripped down by the mas- NiFe-24 h sample is superior to the comparable electrocata-
+sive produced bubbles under the high current densities. lysts reported previously as shown in Table S2, especially
+1 3
+
+95 Page 12 of 18 Nano-Micro Lett. (2023) 15:95
+under the high current density [19, 20, 24, 26, 38, 44, 48–51, F eNi intermetallic under the measurement conditions for
+3
+53]. As stated above, it is regarded that the free-standing HER. Meanwhile, the catalytic sites over FeNiZn (as shown
+multimodal porous interpenetrating-phase heterostructure is in Fig. 7g) alloy increased on the surface, thus resulting in
+responsible for the unique HER activity of FeNiZn/FeNi @ the activity improvement for HER upon long-term test. XPS
+3
+NiFe-24 h sample in virtue of high density of active sites and data of Ni 2p and Zn 2p for the recycled sample is well
+fluent mass transfer [3]. agreement with those of pre-cycling sample (Fig. S9a, c).
+The inherent electrocatalytic properties of all samples The little increase of Fe3+ suggests the slight oxidation of
+toward HER are further unveiled by the Tafel plots as shown F e2+ (Fig. S9b). It should be noted that the peak intensity
+in Fig. 6c. The Tafel slope of FeNiZn/FeNi @NiFe-24 h is of M–O bond evidently attenuated compared with those
+3
+44.7 mV d ec−1, which is slightly larger than the 39.6 mV of M–OH and absorbed H O, which implies that the major
+2
+d ec−1 of Pt/C@NiFe catalyst, but smaller than those of part of metal oxides on the surface has been reduced during
+other electrodes. The Tafel value of FeNiZn/FeNi @NiFe- hydrogen evolution process (Fig. S9d).
+3
+24 h means its Volmer-Heyrovsky mechanism during HER On the basis of the experimental observations above, the as-
+process with the adsorption/desorption of H intermediates made FeNiZn/FeNi @NiFe-24 h sample displays outstanding
+3
+as the rate-determination step [54, 55]. EIS data in Fig. 6d electrocatalytic performances toward both HER and OER in
+reveal that the R values follows the same trend as the elec- terms of low overpotential and long-term catalytic durabil-
+ct
+trodes made by different dealloying time. Of note, FeNiZn/ ity. It is interesting to utilize the FeNiZn/FeNi @NiFe-24 h
+3
+FeNi @NiFe-24 h sample has the lowest R value as small sample as both the OER and HER electrocatalysts to drive
+3 ct
+as 2.4 Ω, implying its more rapid electron transport and ion the water electrolysis. As shown in Fig. 6g, when the current
+diffusion. In addition, FeNiZn/FeNi @NiFe-24 h presents density for hydrogen production reaches to 100 mA cm−2, the
+3
+the excellent electrocatalytic durability toward HER under cell voltage only needs as small as 1.578 V, which is dramati-
+the overpotential of 160 mV with almost no decay in the cally lower than the 1.691 V of Pt/C@NiFe (–)||RuO @NiFe
+2
+long period of continuous 400 h, as illustrated in Fig. 6e. By (+). Expressively, the voltage of merely 1.759 and 1.919 V
+contrast, the commercial Pt/C@NiFe required the overpo- is required to achieve the current density as high as 500 and
+tential as high as 421 mV to achieve the current density of 1000 mA cm−2 over FeNiZn/FeNi @NiFe-24 h (+ //−), which
+3
+100 mA c m−2, while which underwent a significant activity is dramatically lower than that of Pt/C@NiFe (−)||RuO @
+2
+decay with 79% of the initial current density retained upon NiFe (+) (1.957 V@500 mA cm−2). We noted that the overall
+merely testing for 12 h. This observation further proves that splitting performances of FeNiZn/FeNi @NiFe-24 h elec-
+3
+the particle-type catalyst is more likely to fall off at high cur- trode in alkaline electrolyzer is record-high compared with
+rent density than the self-supporting catalyst, thus resulting the similar and even the noble metal-containing materials in
+in poor catalytic stability [21]. More importantly, after the previous reports. For example, the IrNi-FeNi /NF needs the
+3
+long-term test the LSV curve of FeNiZn/FeNi @NiFe-24 h 1.78 V to achieve the 500 mA cm−2; in contrast, our material
+3
+shifts to the forward, displaying the better HER activity with only require 1.759 V [26]. As shown in Table S3, it is appeal-
+the decrease of the overpotential (Fig. 6f). ing that our catalyst outperforms other similar bifunctional
+It is supposed that the high electrocatalytic stability of ones for overall water splitting reported recently [20, 24, 26,
+FeNiZn/FeNi @NiFe-24 h sample originates from the 49, 51, 56–58]. Besides, under the cell voltage of 1.83 V for
+3
+robust self-supporting multilevel porous architecture. As continuous running for 100 h in 1.0 M KOH, the hydrogen
+shown in Fig. S8, it is clear that the FeNiZn/FeNi @NiFe- production current density over FeNiZn/FeNi @NiFe-24 h
+3 3
+24 h sample has almost no microstructure change as well as (+ //−) retained the initial of 92.5%, exhibiting the steady and
+no phase structure transformation (Fig. S8a–c). It is worth reliable hydrogen export (Fig. 6h).
+mentioning that the pore channels became more penetrated
+through long period running in the alkaline solution accom-
+3.3 Density Functional Theory Calculations
+panied with the decrease of Ni and Fe contents due to their
+slight dissolution as depicted in Fig. S8d. By comparison
+DFT calculations were conducted for the sake of the ori-
+with the initial components, the reduced contents of Ni and
+gin of high bifunctional activity of FeNiZn and FeNi
+3
+Fe disclose that the FeNiZn alloy phase is more stable than
+© The authors https://doi.
+org/10.1007/s40820-023-01066-w
+
+Nano-Micro Lett. (2023) 15:95 Page 13 of 18 95
+Fig. 7 a The optimized structure of FeNiZn/FeNi 3 heterojunction (orange balls are Fe, grey ones are Ni, and dark green ones are Zn). b, c
+Calculated charge density difference of FeNiZn/FeNi 3 heterojunction. The calculated DOS of d FeNi 3 , e FeNiZn, and f FeNiZn/FeNi 3 hetero-
+junction, the dashed lines represent the d band center energy level. g The calculated ΔG H* for the HER process at Ni–Ni–Ni, Ni–Ni–Zn, Ni–Ni–
+Fe, and Ni–Fe–Zn sites on FeNiZn/FeNi 3 @NiFe-24 h heterojunction. h Calculated free energy diagram for the OER at Fe, Ni, Zn sites at the
+applied potential of 1.23 V, and i the calculated free energy diagram for the OER on Fe, Ni, and Zn sites at different applied potentials
+heterojunction toward HER and OER. The heterostruc- accumulation, and the blue region represents the electron
+ture model of FeNiZn and FeNi was constructed by using depletion calculated based on the equation: Δρ = ρ(FeNiZn/
+3
+the (200) crystal planes with the different Ni coordinate FeNi )–ρ(FeNiZn)–ρ(FeNi ). It is clear that the FeNiZn sec-
+3 3
+sites involved, as displayed in Fig. 7a. Figure 7b, c gives tion in the interface has the evident electron enrichment,
+the charge distribution in the FeNiZn/FeNi heterostruc- revealing that the electrons in F eNi transfer to the neighbor-
+3 3
+ture, where the yellow region represents the electron ing FeNiZn. The calculated charge density difference in the
+1 3
+
+95 Page 14 of 18 Nano-Micro Lett. (2023) 15:95
+FeNiZn/FeNi heterojunction in Table S4 further established of Zn to near Ni–Fe sites can form much higher active sites,
+3
+this result, where the negative Bader charge for FeNi indi- synergistically promoting the hydrogen evolution with more
+3
+cates its loss of electrons, further confirming the electron rapid reaction kinetics.
+transfer from FeNi to FeNiZn. The density of states (DOS) According to the OER mechanism, the absorption energy
+3
+of these models are also calculated as shown in Fig. 7d–f, of OER intermediates (OH*, O*, and OOH*) were calcu-
+from which it is evident that Ni, Fe, and Zn all have the lated over different Ni sites, Fe site, and Zn site on the inter-
+metallic nature with zero band gaps, implying the fluent face of FeNiZn/FeNi heterojunction (Figs. S11–S12). From
+3
+electron transport. Moreover, FeNiZn/FeNi has the largest Figs. 7h and S13, it is evident that the conversion of O* to
+3
+DOS value at Fermi level, implying that the FeNiZn/FeNi OOH* is the rate-determining step in the oxygen evolution
+3
+heterostructure has much higher valence electron concen- for all sites on FeNiZn/FeNi heterojunction. Note that the
+3
+tration. The d band center of Fe and Ni in FeNiZn/FeNi is O* to OOH* over three different Ni top sites on the interface
+3
+synergistically modulated compared with those in F eNi and has much low energy barriers around 0.61 to 0.64 eV at the
+3
+FeNiZn single counterpart. It is worthy to mention that too applied potential of 1.23 V (Fig. 7h) and around 1.84 to
+low or too high d band energy levels are disadvantageous 1.87 eV at the applied potential of 0 V (Fig. S13). However,
+toward the chemisorption process. The Sabatier principle it needs more than 1 eV over Fe and Zn top sites (Fig. 7h).
+uncovers that the moderate adsorption and desorption ener- From Fig. 7I, it can be found that the OER on Ni sites only
+gies of reaction intermediates are crucial for the electrocata- need around the applied potentials of 1.84–1.87 V to achieve
+lytic efficiency [59–61]. Because higher d band energy levels the spontaneous progress. In contrast, Fe site and Zn site
+decrease the electron filling of antibonding states, resulting for OER require much higher potentials of 2.30 and 2.28 V,
+in a too strong bond strength, which is unfavorable to the respectively. This observation confirms that Ni sites on het-
+desorption of reaction intermediates. Likewise, the lower d erostructure surface possess more rapid reaction kinetics and
+band energy levels will greatly weaken the bond strength, thus much superior OER activity. In a word, FeNiZn/FeNi
+3
+possibly hindering the following catalytic process [62, 63]. heterostructure owns high valence electron concentration
+The modulated d-band center of Ni, Fe, and Zn in FeNiZn/ and the optimized d-band center, as well as multiple highly
+FeNi is more favorable for the moderate adsorption and active sites toward both HER and OER, thus resulting in out-
+3
+desorption of reaction intermediates during water splitting standing bifunctional activity toward overall water splitting.
+as confirmed in the following data below. It is clearly found that FeNiZn/FeNi @NiFe-24 h owns a
+3
+Ni–Ni–Ni, Ni–Ni–Zn, Ni–Ni–Fe, and Ni–Fe–Zn sites on series of exciting electrocatalytic performances toward water
+the FeNiZn/FeNi heterojunction were selected to explore splitting as the bifunctional electrocatalyst. It is considered
+3
+the ΔG to assess the HER activity of catalysts (Fig. S10). that its specific architecture and the extraordinary compo-
+H*
+From Figs. 7g and S10, it is evident that Ni–Ni–Ni and adja- nents contribute to the superior OER and HER activities.
+cent Ni–Ni–Fe sites at the interface have the relatively large First, the bimodal nanoporous structure in situ built within
+ΔG values around − 0.348 and − 0.349 eV, indicating its the microporous NiFe foam increases the density of active
+H*
+stronger absorption and thus the high energy barriers for the sites and thus ensures highly efficient mass transfer, while
+subsequent formation of H . For the Ni–Ni–Zn sites (Fig. the interconnected hollow channels can facilitate the elec-
+2
+S10b), during the calculation process the H will transfer onto trolyte transportation as well as the full contact with active
+the adjacent sites of Ni–Ni–Fe sites with the lower ΔG sites. Second, the integrated 3D multiscale porous architec-
+H*
+around − 0.252 eV (Fig. S10c). This result revealed that ture is conducive to boost the oxidation resistance and corro-
+the Ni–Ni–Fe site adjacent to Ni–Ni–Zn site has the higher sion resistance, thus endowing the robust structure stability
+HER activity compared with that adjacent to Ni–Ni–Ni site and catalytic durability. Third, the strong synergy between
+due to the substitution of one Zn atom to Ni. If one Zn atom FeNiZn alloy and FeNi intermetallic generates the impel-
+3
+further substitutes one Ni atom to form the Ni–Fe–Zn site, ling electron modulation from the alloying effect, interface
+it is intriguing to find that the ΔG can reach as small as coupling, and structural benefits. These structural advan-
+H*
+− 0.090 eV. It can be concluded that the further introduction tages can generate multiple synergistic actions to optimize
+© The authors https://doi.
+org/10.1007/s40820-023-01066-w
+
+Nano-Micro Lett. (2023) 15:95 Page 15 of 18 95
+the adsorption/desorption of reactants and thus the superior References
+bifunctional activity toward HER and OER.
+1. P. Wang, Y.Z. Luo, G.X. Zhang, Z.S. Chen, H. Ranganathan
+et al., Interface engineering of Ni S @MnO H nanorods to
+x y x y
+efficiently enhance overall-water-splitting activity and stabil-
+4 Conclusions
+ity. Nano-Micro Lett. 14, 120 (2022). https://d oi.o rg/1 0.1 007/
+s40820-0 22-0 0860-2
+In summary, one powerful dealloying strategy of Zn elec- 2. R.Z. He, C.Y. Wang, L.G. Feng, Amorphous FeCoNi-S as
+trodeposition, annealing, and mild corrosion successfully efficient bifunctional electrocatalysts for overall water splitting
+in situ constructs bimodal porous interpenetrating FeNiZn
+reaction. Chin. Chem. Lett. 34(2), 107241 (2023). https://d oi.
+org/1 0.1 016/j.c clet.2 022.0 2.0 46
+and F eNi heterostructure anchored on the surface layer of
+3 3. H.M. Sun, Z.H. Yan, F.M. Liu, W.C. Xu, F.Y. Cheng et al.,
+3D NiFe foam. On the account of self-supporting multiscale
+Self-supported transition-metal-based electrocatalysts for
+porous architecture, the intercrossing heterostructure, and hydrogen and oxygen evolution. Adv. Mater. 32(3), 1806326
+strong synergy between FeNiZn alloy and FeNi intermetal- (2019). https://d oi.o rg/1 0.1 002/a dma.2 01806 326
+3
+4. J.L. Zhu, J.M. Qian, X.B. Peng, B.R. Xia, D.Q. Gao, Etching-
+lic, the as-made FeNiZn/FeNi @NiFe electrocatalyst dis-
+3
+induced surface reconstruction of NiMoO for oxygen evolu-
+plays superior electrocatalytic activities toward both HER 4
+tion reaction. Nano-Micro Lett. 15, 30 (2023). https://d oi.o rg/
+and OER in terms of low overpotentials and the exceptional 10.1 007/s 40820-0 22-0 1011-3
+electrocatalytic durability, especially at large current den- 5. C. Walter, P.W. Menezes, M. Driess, Perspective on interme-
+sity. In particular, the low cell voltage and steady hydrogen tallics towards efficient electrocatalytic water-splitting. Chem.
+Sci. 12, 8603–8631 (2021). https://d oi.o rg/1 0.1 039/D 1SC0
+output under large current endow FeNiZn/FeNi @NiFe pro-
+3 1901E
+spective application in the industrial hydrogen production as
+6. H.Y. Kim, S.H. Joo, Recent advances in nanostructured inter-
+the bifunctional electrocatalyst. The developed protocol may metallic electrocatalysts for renewable energy conversion reac-
+inspire great research interests to screen low cost, highly tions. J. Mater. Chem. A 8, 8195–8217 (2020). https://d oi.o rg/
+10.1 039/d 0ta01 809k
+active, and highly stable intermetallic-based heterostructure
+7. J.R. Li, S.H. Sun, Intermetallic nanoparticles: synthetic control
+electrocatalysts toward overall water splitting with the merits
+and their enhanced electrocatalysis. Acc. Chem. Res. 52(7),
+of scalable, handy, and massive preparation. 2015–2025 (2019). https://d oi.o rg/1 0.1 021/a cs.a ccoun ts.
+9b0017 2
+Acknowledgements This work was supported by National Sci- 8. A. Delvaux, Q. Van Overmeere, R. Poulain, J. Proost,
+ence Foundation of China (52201254), Shandong Province Enhanced oxygen evolution during water electrolysis at de-
+(ZR2020MB090, ZR2020QE012), and the project of “20 Items of alloyed nickel thin film electrodes. J. Electrochem. Soc. 164,
+University” of Jinan (202228046). F1196–F1203 (2017). https://d oi.o rg/1 0.1 149/2.1 45171 2jes
+9. Y. Jin, X. Yue, C. Shu, S.L. Huang, P.K. Shen, Three-dimen-
+Funding Open access funding provided by Shanghai Jiao Tong sional porous MoNi networks constructed by nanosheets
+4
+University. as bifunctional electrocatalysts for overall water splitting. J.
+Mater. Chem. A 5, 2508–2513 (2017). https://d oi.o rg/1 0.1 039/
+Open Access This article is licensed under a Creative Commons C6TA10 802D
+Attribution 4.0 International License, which permits use, sharing,
+10. C.A. Ding, J.W. Zhu, X.Q. Mu, R.L. Cheng, W.Q. Li et al.,
+adaptation, distribution and reproduction in any medium or format,
+Nitrogen-doped carbon coupled F eNi intermetallic compound
+3
+as long as you give appropriate credit to the original author(s) and
+as advanced bifunctional electrocatalyst for OER, ORR and
+the source, provide a link to the Creative Commons licence, and
+Zn-air batteries. Appl. Catal. B Environ. 268, 118729 (2020).
+indicate if changes were made. The images or other third party
+https://d oi.o rg/1 0.1 016/j.a pcatb.2 020.1 18729
+material in this article are included in the article’s Creative Com-
+11. K. Chen, S. Kim, R. Rajendiran, K. Prabakar, G.Z. Li et al.,
+mons licence, unless indicated otherwise in a credit line to the
+Enhancing ORR/OER active sites through lattice distortion of
+material. If material is not included in the article’s Creative Com-
+Fe-enriched FeNi intermetallic nanoparticles doped N-doped
+mons licence and your intended use is not permitted by statutory 3
+carbon for high-performance rechargeable Zn-air battery. J.
+regulation or exceeds the permitted use, you will need to obtain
+Colloid Interface Sci. 582, 977–990 (2021). https://d oi.o rg/
+permission directly from the copyright holder. To view a copy of
+10.1 016/j.j cis.2 020.0 8.1 01
+this licence, visit http://c reati vecom mons.o rg/l icens es/b y/4.0 /.
+12. Y. Zhu, Y. Chen, Y. Zhong, Y.B. Chen, N.N. Ma et al., A
+surface-modified antiperovskite as an electrocatalyst for water
+Supplementary Information The online version contains
+oxidation. Nat. Commun. 9, 2326 (2018). https:// doi. org/ 10.
+1038/s 41467-0 18-0 4682-y
+supplementary material available at https:// doi. org/ 10. 1007/
+s40820- 023- 01066-w.
+1 3
+
+95 Page 16 of 18 Nano-Micro Lett. (2023) 15:95
+13. L. Rößner, H. Schwarz, I. Veremchuk, R. Zerdoumi, T. Sey- Mater. Interfaces 14(24), 27842–27853 (2022). https://d oi.o rg/
+ller et al., Challenging the durability of intermetallic Mo-Ni 10.1 021/a csami.2 c0456 2
+compounds in the hydrogen evolution reaction. ACS Appl. 25. H. Zhang, G.F. Qian, T.Q. Yu, J.L. Chen, L. Luo et al., Inter-
+Mater. Interfaces 13(20), 23616–23626 (2021). https://d oi.o rg/ face engineering of Ni Fe and FeV O coupling with carbon
+3 2 4
+10.1 021/a csami.1 c0216 9 coated mesoporous nanosheets for boosting overall water
+14. J. Zhang, T. Wang, P. Liu, Z.Q. Liao, S.H. Liu et al., Efficient splitting at 1500 mA cm−2. ACS Sustain. Chem. Eng. 9(24),
+hydrogen production on MoNi electrocatalysts with fast water 8249–8256 (2021). https://d oi.o rg/1 0.1 021/a cssus cheme ng.
+4
+dissociation kinetics. Nat. Commun. 8, 15437 (2017). https:// 1c0229 3
+doi.o rg/1 0.1 038/n comms 15437 26. W.M. Wang, G.F. Qian, Q.L. Xu, H. Zhang, F. Shen et al.,
+15. N.V. Krstajic, B.N. Grgur, M. Zdujic, M.V. Vojnović, M.M. Industrially promising IrNi-FeNi hybrid nanosheets for
+3
+Jakšićc, Kinetic properties of the Ti-Ni intermetallic phases overall water splitting catalysis at large current density. Appl.
+and alloys for hydrogen evolution. J. Alloys Compd. 257(1– Catal. B Environ. 286, 119881 (2021). https://d oi.o rg/1 0.
+2), 245–252 (1997). https://d oi.o rg/1 0.1 016/S 0925-8 388(97) 1016/j.a pcatb.2 021.1 19881
+00018-2 27. W. Luc, F. Jiao, Synthesis of nanoporous metals, oxides, car-
+16. N.V. Krstajic, B.N. Grgur, N.S. Mladenovic, M.V. Vojnović, bides, and sulfides: beyond nanocasting. Acc. Chem. Res.
+M.M. Jaks̆ić, The determination of kinetics parameters of 49(7), 1351–1358 (2016). https://d oi.o rg/1 0.1 021/a cs.a ccou
+the hydrogen evolution on Ti-Ni alloys by ac impedance. nts.6 b0010 9
+Electrochim. Acta 42(2), 323–330 (1997). https://d oi.o rg/ 28. J.W. Li, W.M. Xu, J.X. Luo, D. Zhou, D.W. Zhang et al.,
+10.1 016/S 0360-3 199(99)0 0075-0 Synthesis of 3D hexagram-like cobalt-manganese sulfides
+17. Z. Zheng, N. Li, C.Q. Wang, D.Y. Li, F.Y. Meng et al., nanosheets grown on nickel foam: a bifunctional electrocata-
+Effects of CeO
+2
+on the microstructure and hydrogen evo- lyst for overall water splitting. Nano-Micro Lett. 10, 6 (2018).
+lution property of Ni-Zn coatings. J. Power Sources 222, https://d oi.o rg/1 0.1 007/s 40820-0 17-0 160-6
+88–91 (2013). https://d oi.o rg/1 0.1 016/j.j powso ur.2 012.0 8. 29. W. Du, Y.M. Shi, W. Zhou, Y.F. Yu, B. Zhang, Unveiling the
+077 in situ dissolution and polymerization of Mo in Ni Mo alloy
+4
+18. Q.X. Zhou, Q. Hao, Y.X. Li, J.H. Yu, C.X. Xu et al., Free- for promoting the hydrogen evolution reaction. Angew. Chem.
+standing trimodal porous NiZn intermetallic and Ni hetero- Int. Ed. 60(13), 7051–7055 (2021). https://d oi.o rg/1 0.1 002/
+junction as highly efficient hydrogen evolution electrocatalyst anie.2 02015 723
+in the alkaline electrolyte. Nano Energy 89, 106402 (2021). 30. Y.H. Wu, Y. Zhang, Y.X. Wang, Z. He, Z.J. Gu et al., Poten-
+https://d oi.o rg/1 0.1 016/j.n anoen.2 021.1 06402 tiostatic electrodeposited of Ni-Fe-Sn on Ni foam served as an
+19. Z.J. Li, H. Jang, D.N. Qin, X.L. Jiang, X.Q. Ji et al., Alloy- excellent electrocatalyst for hydrogen evolution reaction. Int.
+strain-output induced lattice dislocation in Ni
+3
+FeN/Ni
+3
+Fe J. Hydrog. Energy 46, 26930–26939 (2021). https://d oi.o rg/
+ultrathin nanosheets for highly efficient overall water split- 10.1 016/j.i jhyde ne.2 021.0 5.1 89
+ting. J. Mater. Chem. A 9, 4036–4043 (2021). https://d oi.o rg/ 31. X.X. Zhang, J. Wang, J.Y. Wang, J.Z. Wang, C.W. Wang
+10.1 039/D 0TA11 618A et al., Freestanding surface disordered NiCu solid solution as
+20. S.Q. Liang, M.Z. Jing, T.J. Thomas, J. Liu, H.C. Guo et al., ultrastable high current density hydrogen evolution reaction
+F eNi
+3
+-FeNi
+3
+N- a high-performance catalyst for overall water electrode. J. Phys. Chem. Lett. 12(45), 11135–11142 (2021).
+splitting. Sustain. Energy Fuels 4, 6245–6250 (2020). https:// https://d oi.o rg/1 0.1 021/a cs.j pclet t.1 c0304 1
+doi.o rg/1 0.1 039/D 0SE01 491E 32. G. Kresse, J. Furthmüller, Efficiency of ab-initio total energy
+21. H.M. Sun, C.Y. Tian, G.L. Fan, J.N. Qi, Z.T. Liu et al., Boost- calculations for metals and semiconductors using a plane-wave
+ing activity on Co
+4
+N porous nanosheet by coupling CeO
+2
+for basis set. Comput. Mater. Sci. 6, 15–50 (1996). https://d oi.o rg/
+efficient electrochemical overall water splitting at high current 10.1 016/0 927-0 256(96)0 0008-0
+densities. Adv. Funct. Mater. 30(32), 1910596 (2020). https:// 33. J.P. Perdew, K. Burke, M. Ernzerhof, Generalized gradient
+doi.o rg/1 0.1 002/a dfm.2 01910 596 approximation made simple. Phys. Rev. Lett. 77, 3865–3868
+22. Z.Z. Yin, R.Z. He, Y.C. Zhang, L.G. Feng, X. Wu et al., Elec- (1996). https://d oi.o rg/1 0.1 103/P hysRe vLett.7 7.3 865
+trochemical deposited amorphous FeNi hydroxide electrode 34. P.E. Blöchl, Projected augmented-wave method. Phys. Rev. B
+for oxygen evolution reaction. J. Energy Chem. 69, 585–592 Condens. Matter 50, 17953–17979 (1994). https://d oi.o rg/1 0.
+(2022). https://d oi.o rg/1 0.1 016/j.j echem.2 022.0 1.0 20 1103/p hysre vb.5 0.1 7953
+23. J.H. Lin, Y.T. Yan, C. Li, X.Q. Si, H.H. Wang et al., Bifunc- 35. G. Kresse, D. Joubert, From ultrasoft pseudopotentials to the
+tional electrocatalysts based on Mo-doped NiCoP nanosheet projector augmented-wave method. Phys. Rev. B 59, 1758–
+arrays for overall water splitting. Nano-Micro Lett. 11, 55 1775 (1999). https://d oi.o rg/1 0.1 103/P hysRe vB.5 9.1 758
+(2019). https://d oi.o rg/1 0.1 007/s 40820-0 19-0 289-6
+36. C. Tsai, K. Chan, J.K. Nørskov, F. Abild-Pedersen, Rational
+24. A. Qayum, X. Peng, J.F. Yuan, Y.D. Qu, J.H. Zhou et al., design of MoS catalysts: tuning the structure and activity
+2
+Highly durable and efficient Ni-FeO x /FeNi 3 electrocatalysts via transition metal doping. Catal. Sci. Technol. 5, 246–253
+synthesized by a facile in situ combustion-based method for (2015). https://d oi.o rg/1 0.1 103/P hysRe vB.5 9.1 758
+overall water splitting with large current densities. ACS Appl.
+© The authors https://doi.
+org/10.1007/s40820-023-01066-w
+
+Nano-Micro Lett. (2023) 15:95 Page 17 of 18 95
+37. W.H. Dai, L. Li, Y.M. Li, Z. Chen, F. Liu et al., A novel Ni- 49. Q. Li, W.X. Zhang, J. Shen, X.Y. Zhang, Z. Liu et al., Trime-
+S-Mn electrode with hierarchical morphology fabricated by tallic nanoplate arrays of Ni-Fe-Mo sulfide on FeNi foam:
+3
+gradient electrodeposition for hydrogen evolution reaction. a highly efficient and bifunctional electrocatalyst for overall
+Appl. Surf. Sci. 514, 145944 (2020). https://d oi.o rg/1 0.1 016/j. water splitting. J. Alloys Compd. 902, 163670 (2022). https://
+apsusc.2 020.1 45944 doi.o rg/1 0.1 016/j.j allco m.2 022.1 63670
+38. J.Q. Lian, Y.H. Wu, J.J. Sun, High current density electro- 50. C.L. Huang, X.F. Chuah, C.T. Hsieh, S.Y. Lu, NiFe alloy
+deposition of NiFe/nickel foam as a bifunctional electro- nanotube arrays as highly efficient bifunctional electrocata-
+catalyst for overall water splitting in alkaline electrolyte. J. lysts for overall water splitting at high current densities. ACS
+Mater. Sci. 55, 15140–15151 (2020). https://d oi.o rg/1 0.1 007/ Appl. Mater. Interfaces 11(27), 24096–24106 (2019). https://
+s10853-0 20-0 5080-w doi.o rg/1 0.1 021/a csami.9 b0591 9
+39. Y.Y. Wu, R. Su, Y. Li, Z.H. Wang, Z. Lü et al., Redox sculp- 51. Z.H. Liu, S.F. Li, F.F. Wang, M.X. Li, Y.H. Ni, Hierarchically
+tured dual-scale porous nickel-iron foams for efficient water porous FeNi @FeNi layered double hydroxide nanostructures:
+3
+oxidation. Electrochim. Acta 309, 415–423 (2019). https://d oi. one-step fast electrodeposition and highly efficient electrocata-
+org/1 0.1 016/j.e lecta cta.2 019.0 4.0 65 lytic performances for overall water splitting. Dalton Trans.
+40. Y.J. Zhou, Y.H. Lia, L.X. Zhang, L.L. Zhang, L. Li et al., 50, 6306–6314 (2021). https://d oi.o rg/1 0.1 039/D 0DT04 366D
+Fe-leaching induced surface reconstruction of Ni-Fe alloy on 52. P. Rasiyah, A.C.C. Tseung, The role of the lower metal oxide/
+N-doped carbon to boost oxygen evolution reaction. Chem. higher metal oxide couple in oxygen evolution reactions. J.
+Eng. J. 394, 124977 (2020). https://d oi.o rg/1 0.1 016/j.c ej.2 020. Electrochem. Soc. 131(4), 803 (1984). https://d oi.o rg/1 0.
+124977 1149/1.2 11570 3
+41. H. Zhang, B.J. Xi, Y. Gu, W.H. Chen, S.L. Xiong, Interface 53. L. Xu, F.T. Zhang, J.G. Chen, X.Z. Fu, R. Sun et al., Amor-
+engineering and heterometal doping Mo-NiS/Ni(OH) for phous NiFe nanotube arrays bifunctional electrocatalysts for
+2
+overall water splitting. Nano Res. 14, 3466–3473 (2021). efficient electrochemical overall water splitting. ACS Appl.
+https://d oi.o rg/1 0.1 007/s 12274-0 21-3 557-y Energy Mater. 1(3), 1210–1217 (2018). https://d oi.o rg/1 0.
+42. J. Zhang, T. Wang, D. Pohl, B. Rellinghaus, R. Dong et al., 1021/a csaem.7 b0031 3
+Interface engineering of MoS /Ni S heterostructures for 54. Y.J. Li, Z.F. Mao, Q. Wang, D.B. Li, R. Wang et al., Hol-
+2 3 2
+highly enhanced electrochemical overall-water-splitting activ- low nanosheet array of phosphorus-anion-decorated cobalt
+ity. Angew. Chem. Int. Ed. 55(23), 6702–6707 (2016). https:// disulfide as an efficient electrocatalyst for overall water split-
+doi.o rg/1 0.1 002/a nie.2 01602 237 ting. Chem. Eng. J. 390, 124556 (2020). https://d oi.o rg/1 0.
+43. J. Huang, P.L. Wang, P. Li, H.Y. Yin, D.H. Wang, Regulating 1016/j.c ej.2 020.1 24556
+electrolytic F e CoNiCuZn high entropy alloy electrodes for 55. J. Tian, Q. Liu, A.M. Asiri, X.P. Sun, Self-supported nano-
+0.5 x
+oxygen evolution reactions in alkaline solution. J. Mater. Sci. porous cobalt phosphide nanowire arrays: an efficient 3D
+Technol. 93, 110–118 (2021). https://d oi.o rg/1 0.1 016/j.j mst. hydrogen-evolving cathode over the wide range of pH 0–14.
+2021.0 3.0 46 J. Am. Chem. Soc. 136(21), 7587–7590 (2014). https://d oi.
+44. H. Liu, C. Xi, J.D. Xin, G.L. Zhang, S.F. Zhang et al., Free- org/1 0.1 021/j a5033 72r
+standing nanoporous NiMnFeMo alloy: an efficient non-pre- 56. J. Shen, Q. Li, W.X. Zhang, Z.Y. Cai, L. Cui et al., Spherical
+cious metal electrocatalyst for water splitting. Chem. Eng. J. C o S grown directly on Ni-Fe sulfides as a porous nanoplate
+3 4
+404, 126530 (2021). https://d oi.o rg/1 0.1 016/j.c ej.2 020.1 26530 array on FeNi foam: a highly efficient and durable bifunc-
+3
+45. P. Zhang, L. Li, D. Nordlund, H. Chen, L.Z. Fan et al., tional catalyst for overall water splitting. J. Mater. Chem. A
+Dendritic core-shell nickel-iron-copper metal/metal oxide 10, 5442 (2020). https://d oi.o rg/1 0.1 039/d 1ta07 504g
+electrode for efficient electrocatalytic water oxidation. 57. W.X. Zhang, Q. Jia, H. Liang, L. Cui, D. Wei et al., Iron doped
+Nat. Commun. 9, 381 (2018). https://d oi.o rg/1 0.1 038/ N i S nanorods directly grown on FeNi foam as an efficient
+3 2 3
+s41467-0 17-0 2429-9 bifunctional catalyst for overall water splitting. Chem. Eng. J.
+46. B.S. Yeo, A.T. Bell, In situ Raman study of nickel oxide and 396, 125315 (2020). https://d oi.o rg/1 0.1 016/j.c ej.2 020.1 25315
+gold-supported nickel oxide catalysts for the electrochemical 58. X.D. Yan, L.H. Tian, K.X. Li, S. Atkins, H.F. Zhao et al.,
+evolution of oxygen. J. Phys. Chem. C 116(15), 8394–8400 F eNi /NiFeO nanohybrids as highly efficient bifunctional
+3 x
+(2012). https://d oi.o rg/1 0.1 021/j p3007 415 electrocatalysts for overall water splitting. Adv. Mater. Inter-
+47. Z. Li, X.L. Xu, X.H. Lu, C.C. He, J.J. Huang et al., Syner- faces 3(22), 1600368 (2016). https://d oi.o rg/1 0.1 002/a dmi.
+gistic coupling of FeNi alloy with graphene carbon dots for 201600 368
+3
+advanced oxygen evolution reaction electrocatalysis. J. Colloid 59. S.F. Sun, X. Zhou, B.W. Cong, W. Hong, G. Chen, Tailor-
+Interface Sci. 615, 273–281 (2022). https://d oi.o rg/1 0.1 016/j. ing the d-band centers endows (Ni Fe ) P nanosheets with
+x 1–x 2
+jcis.2 022.0 1.0 88 efficient oxygen evolution catalysis. ACS Catal. 10(16), 9086–
+48. X. Teng, J.Y. Wang, L.L. Ji, Y.Y. Liu, C. Zhang et al., Fabri- 9097 (2020). https://d oi.o rg/1 0.1 021/a cscat al.0 c0127 3
+cation of three-dimensional multiscale porous alloy foams at 60. V.R. Stamenkovic, B.S. Mun, M. Arenz, K.J.J. Mayrhofer,
+a planar substrate for efficient water splitting. ACS Sustain. C.A. Lucas et al., Trends in electrocatalysis on extended and
+Chem. Eng. 7(5), 5412–5419 (2019). https://d oi.o rg/1 0.1 021/ nanoscale Pt-bimetallic alloy surfaces. Nat. Mater. 6, 241–247
+acssus cheme ng.8 b0645 2 (2007). https://d oi.o rg/1 0.1 038/n mat18 40
+1 3
+
+95 Page 18 of 18 Nano-Micro Lett. (2023) 15:95
+61. J.Q. Yan, L.Q. Kong, Y.J. Ji, J. White, Y.Y. Li et al., Single oxygen evolution reaction. Small 18(4), 2105696 (2022).
+atom tungsten doped ultrathin α-Ni(OH) for enhanced elec- https://d oi.o rg/1 0.1 002/s mll.2 02105 696
+2
+trocatalytic water oxidation. Nat. Commun. 10, 2149 (2019). 63. Z.Y. Chen, Y. Song, J.Y. Cai, X.S. Zheng, D.D. Han et al.,
+https://d oi.o rg/1 0.1 038/s 41467-0 19-0 9845-z Tailoring the d-band centers enables C o N nanosheets to be
+4
+62. Q.M. Chen, N. Gong, T.R. Zhu, C.Y. Yang, W.C. Peng et al., highly active for hydrogen evolution catalysis. Angew. Chem.
+Surface phase engineering modulated iron-nickel nitrides/ Int. Ed. 57(18), 5076–5080 (2018). https://d oi.o rg/1 0.1 002/
+alloy nanospheres with tailored d-band center for efficient anie.2 01801 834
+© The authors https://doi.
+org/10.1007/s40820-023-01066-w
+

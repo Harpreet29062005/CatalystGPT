@@ -1,0 +1,317 @@
+Chemistry–AEuropeanJournal
+RESEARCHARTICLE
+AuPdPt Ternary Alloy Nanoparticles for Highly Active
+Hydrogen Evolution Reaction
+YutoMaruta1 TakaakiToriyama2 TomokazuYamamoto2 YasukazuMurakami2,3 ShogoKawaguchi4
+YoshikiKubota5 HiroshiKitagawa1 KoheiKusada1,6,7,8
+1DivisionofChemistry,GraduateSchoolofScience,KyotoUniversity,Kyoto,Japan 2TheUltramicroscopyResearchCenter,KyushuUniversity,Fukuoka,
+Japan 3DepartmentofAppliedQuantumPhysicsandNuclearEngineering,GraduateSchoolofEngineering,KyushuUniversity,Fukuoka,Japan 4Japan
+SynchrotronRadiationResearchInstitute(JASRI),Hyogo,Japan 5DepartmentofPhysics,GraduateSchoolofScience,OsakaMetropolitanUniversity,Osaka,
+Japan 6TheHAKUBICenterforAdvancedResearch,KyotoUniversity,Kyoto,Japan 7InstituteofAdvancedStudy,KyushuUniversity,Fukuoka,Japan
+8FacultyofEngineeringSciences,KyushuUniversity,Fukuoka,Japan
+Correspondence:YutoMaruta(maruta.yuuto.35e@st.kyoto-u.ac.jp) HiroshiKitagawa(kitagawa@kuchem.kyoto-u.ac.jp) KoheiKusada
+(kusada.kohei.236@m.kyushu-u.ac.jp)
+Received:17November2025 Revised:10February2026 Accepted:10February2026
+Keywords:electrocatalysts|hydrogenevolutionreaction|nanoparticles|solid-solutionalloy|X-raycharacterization
+ABSTRACT
+Alloying is effective for enhancing the hydrogen evolution reaction (HER) activity of Pt. Binary PdPt alloys outperform
+monometallic Pt in terms of HER activity. However, their HER activity can be improved further by incorporating a third
+element. In this study, we demonstrate that incorporating Au into PdPt alloys alters their electronic structures, enhancing
+theirHERactivity.Homogeneoussolid-solutionAu Pd Pt alloynanoparticles(NPs)weresynthesizedusingaone-potpolyol
+20 40 40
+method.Elementalmappingusingscanningtransmissionelectronmicroscopy(STEM)combinedwithenergy-dispersiveX-ray
+spectroscopyconfirmedtheuniformdistributionofthethreeelementswithintheNPs,demonstratingtheformationofasolid-
+solutionalloy.X-rayabsorptionnear-edgestructureanalysisindicatedelectrontransferfromAutoPtandPd,whichgenerated
+amorereducedelectronicstateofPtcomparedtothatinthePd Pt alloyNPs.Electrochemicalmeasurementsin0.5MH SO
+50 50 2 4
+revealedthatAu Pd Pt alloyNPshadaloweroverpotential(15.4mVat10mAcm−2)andahigherintrinsicturnoverfrequency
+20 40 40
+(TOF)thanPd Pt alloyandmonometallicPtNPs.Thesefindingsdemonstratethathomogeneouslymixingathirdelementinto
+50 50
+binaryalloyNPsiseffectiveforenhancingthecatalyticperformance.
+1 Introduction strengthofhydrogenadsorption,whichvariesacrossmetals(W
+> Ni > Pt > Cu > Au). For efficient catalysis, ΔG should be
+H*
+The hydrogen evolution reaction (HER) in acidic electrolytes closetothermoneutral(ΔG ≈0):ifhydrogenbindstooweakly,
+H*
+is a fundamental process for sustainable hydrogen production protonreductionandH*formationarehindered,whereasoverly
+andhasbeenextensivelyinvestigatedforuseinproton-exchange strongbindingsuppressesH desorption.AlthoughPtliesclose
+2
+membrane (PEM) electrolyzer systems [1, 2]. Pt is well known totheoptimum,itsΔG isslightlynegative.Thisindicatesthat
+H*
+as the benchmark catalyst under acidic conditions because Pt-basedcatalystscanbeenhancedbytailoringtheirelectronic
+of its outstanding intrinsic activity originating from a nearly andstructuralproperties[6,7].Becausethehydrogenadsorption
+optimal hydrogen adsorption free energy (ΔG ; H* represents energyiscloselycorrelatedwiththeelectronicstructure[8],such
+H*
+anadsorbedHatom)[3–5].HERkineticsstronglydependonthe asthemetald-bandcenter,rationaldesignstrategiesforalloying
+©2026Wiley-VCHGmbH
+Chemistry–AEuropeanJournal,2026;32:e03458 1of6
+https://doi.org/10.1002/chem.202503458
+
+with Pt to optimize the electronic state of Pt-based alloys are determined to be 8.4 ± 1.3, 7.2 ± 1.5, and 6.7 ± 1.7 nm, respec-
+expected to improve the HER activity. Alloying is an effective tively.X-rayfluorescence(XRF)analysisconfirmedthatthebulk
+strategy to improve the HER activity by inducing synergistic compositions of the Au Pd Pt and Pd Pt alloy NPs were
+20 40 40 50 50
+effectsandtuningtheelectronicstructure[7,9–17]. Au:Pd:Pt = 19:41:40 and Pd:Pt = 52:48, respectively, consistent
+withthenominalratios(FigureS2).Ahigh-angleannulardark-
+PdPt solid-solution alloys have attracted particular interest field (HAADF)-STEM image and the corresponding elemental
+becausetheyexhibithigherHERactivitythanmonometallicPt maps of the Au Pd Pt alloy NPs are shown in Figure 1,
+20 40 40
+[13–16].ThisenhancementisattributedtotheintroductionofPd, revealingthehomogeneousdistributionsofAu,Pd,andPtwithin
+whichalterstheelectronicstructureofPt,generatessynergistic individualparticles.Theseobservationsconfirmedthesynthesis
+interactions, and increases the number of active sites on the ofsolid-solutionAu Pd Pt alloyNPs.
+20 40 40
+catalyst surface [13]. To further improve these properties, we
+incorporatedathirdelementintoPdPtalloys.Inparticular,Au PXRD measurements were conducted at BL13XU of SPring-8
+is an attractive option because of its ability to donate electrons usingX-rayswithλ =0.2068Å[24].ThePXRDpatternsrevealed
+anddownshiftthed-bandcenterofneighboringPtandPd[18], that the both Au Pd Pt and Pd Pt alloy NPs were in a
+20 40 40 50 50
+which slightly weakens hydrogen binding. However, while Pd single phase (without phase separation) with a face-centered
+and Au are miscible [14], Pt and Au are generally considered cubic (fcc) lattice (Figure 2a). Rietveld refinements of both the
+immiscibleinthebulk[19],makingthesynthesisofahomoge- patterns(Figures2b,S3)wereperformedtodeterminethelattice
+neous solid-solution AuPdPt alloy challenging. Core–shell and constants. The lattice constants of Au Pd Pt and Pd Pt
+20 40 40 50 50
+surface alloys containing Au have been synthesized [20, 21]. alloy NPs were determined to be 3.9490(1) Å and 3.9192(1) Å,
+However,toourknowledge,afewhomogeneoussolid-solution respectively.ThelargerlatticeconstantoftheAu Pd Pt alloy
+20 40 40
+ternaryAuPdPtalloyshavebeenreported[22].Furtherstudieson NPsisattributedtothelargeratomicradiusofAurelativetoPd
+homogeneousAuPdPtalloysarevaluableforinvestigatinghigh and Pt. Generally, the lattice constants of solid-solution alloys
+HERperformance. follow Vegard’s law, which states that the lattice constant of
+an alloy can be approximated as a linear combination of the
+In this study, we demonstrate that incorporating Au into PdPt latticeconstantsandthecompositionsofitsconstituentelements.
+alloys significantly enhances HER activity under acidic con- AccordingtothebulklatticeconstantsofAu(4.08Å),Pd(3.89
+ditions. Ternary Au Pd Pt alloy nanoparticles (NPs) were Å),andPt(3.92Å),theexpectedlatticeconstantofAu Pd Pt
+20 40 40 20 40 40
+synthesizedviaaone-potpolyolprocess,andtheirhomogeneous alloyNPsis3.94Å,whichisconsistentwiththelatticeconstant
+solid-solutionstructurewasconfirmedbyscanningtransmission obtained from Rietveld refinement. These observations further
+electronmicroscopy(STEM)combinedwithenergy-dispersiveX- supported the formation of homogeneous solid-solution alloy
+rayspectroscopy(EDS)andsynchrotronpowderX-raydiffraction NPs.
+(PXRD).X-rayabsorptionnear-edgestructure(XANES)analysis
+indicated that electron transfer from Au to Pt led to more To investigate the electronic structures of the synthesized NPs,
+electron-richPtstatescomparedtobinaryPdPtalloyNPs.Elec- theXANESspectraatthePt-L andPd-Kedgesweremeasured
+3
+trochemicalmeasurementsunderanacidicconditionconfirmed at BL01B1 of SPring-8. Pd K-edge and Pt L -edge spectra were
+3
+thatAu Pd Pt alloyNPsachievedaremarkableoverpotential collected using a Si(311) double-crystal monochromator. All
+20 40 40
+of 15.4 mV at 10 mA cm−2, outperforming both binary Pd Pt XANESspectrawereobtainedinthetransmissionmodeatRT.
+50 50
+alloy (18.8 mV) and Pt NPs. Their turnover frequency (TOF) at TheintensitiesoftheincidentandtransmittedX-raybeamswere
+50mVwasnearlydoublethatofthePtNPs. monitored using ionization chambers located in front of and
+behind the samples. Background removal before and after the
+absorptionedgewasconductedusingAthenasoftware.Figure3a
+2 ResultsandDiscussion showsthePtL -edgeXANESspectraoftheAu Pd Pt alloy,
+3 20 40 40
+Pd Pt ,andPtNPs.Thelowerwhite-lineintensityofthePt-L
+50 50 3
+Au Pd Pt alloy NPs were directly synthesized on a carbon edgeindicatesareducedelectronicstate[25].Figure3bsuggests
+20 40 40
+support using a one-pot polyol method [23]. First, an aqueous thatthePtinthePd Pt alloyNPswasinamorereducedstate
+50 50
+precursorsolutionofHAuCl ,PdCl ,andH PtCl wasprepared than that in the monometallic Pt NPs and that the Pt in the
+4 2 2 6
+by dissolving the respective metal salts in 15 mL of 0.1 M Au Pd Pt alloyNPswasfurtherreducedcomparedwiththat
+20 40 40
+HCl.Thisprecursormixturewassubsequentlycombinedwitha in the Pd Pt alloy NPs. Furthermore, the Pd K-edge spectra
+50 50
+dispersioncontaining160mgofVulcanXC-72Rcarbonin5mL showed that the absorption edge of the Au Pd Pt alloy NPs
+20 40 40
+ofisopropanol.Thecombinedsuspensionwasthensprayedinto shiftedtoalowerenergycomparedtothatofthePd Pt alloy
+50 50
+ethyleneglycolthathadbeenpreheatedto160◦C.Thereafter,the NPs,indicatingthatthePdintheAu Pd Pt alloyNPswasalso
+20 40 40
+reactionmixturewasallowedtocooltoroomtemperature(RT). inamorereducedstate(FigureS4).Theseresultsdemonstrated
+TheresultingNPswerewashedwithdiethylether,water,ethanol, thatAuincorporationeffectivelytransferredelectronsfromAuto
+and acetone, followed by centrifugation and vacuum-drying at bothPtandPd.Thisweakensthehydrogen-bindingenergyofPt,
+RT.ThePd Pt alloyandPtNPsweresynthesizedandcollected enhancingtheHERcatalyticactivity.
+50 50
+usingsimilarprocedures(seeSupportingInformation).
+The HER activities of the obtained NPs were evaluated via
+FigureS1showstransmissionelectronmicroscopy(TEM)images three-electrodeelectrochemicalmeasurementsin0.5MH SO .
+2 4
+of the synthesized NPs. All three samples exhibited uniformly Catalystinkswerepreparedbydispersingcarbon-supportedNPs
+dispersed NPs on the carbon support. The mean diameters of inasolventmixtureof1900μLofisopropanoland100μLof0.05
+the Au Pd Pt alloy, the Pd Pt alloy, and the Pt NPs were wt%Nafion,yieldingametalconcentrationof0.5mgmL−1.The
+20 40 40 50 50
+2of6 Chemistry–AEuropeanJournal,2026
+
+FIGURE 1 (a)HAADF-STEMimageandcorrespondingelementalmapsof(b)Au-L,(c)Pd-L,and(d)Pt-LfortheAu Pd Pt alloyNPs.The
+20 40 40
+scalebarsrepresent20nm.
+FIGURE 2 (a)SynchrotronPXRDpatternsofAu Pd Pt (red),Pd Pt (blue),Ptbulk(black),andcarbon(grey).(b)Rietveldrefinementof
+20 40 40 50 50
+thesynchrotronPXRDprofileofAu Pd Pt alloyNPs.Theobserveddata,fittedprofile,background,anddifferencecurvesareshownasredcircles
+20 40 40
+andblue,black,andgreylines,respectively.
+FIGURE 3 (a)Pt-L edgeXANESspectraofAu Pd Pt ,Pd Pt ,andPtNPs.(b)White-lineintensitiesofAu Pd Pt (red),Pd Pt (blue),
+3 20 40 40 50 50 20 40 40 50 50
+andPtNPs(black).
+electrolyte(0.5MH SO )wasobtainedbydilutingconcentrated 5mVs−1.Allmeasuredpotentialswerecorrectedto85%ofthe
+2 4
+H SO (98%) with ultrapure Millipore water (resistivity >18.2 solution resistance. Figure 4a shows the polarization curves of
+2 4
+MΩcm).Electrochemicalmeasurementswereperformedusing theobtainedNPsnormalizedbythegeometricareaoftheRDE.
+a glassy carbon rotating disk electrode (RDE, ϕ = 5.0 mm) as Figure4bcomparestheoverpotentialsrequiredtoreach10mA
+the working electrode, an Ag/AgCl (saturated KCl) reference cm−2.Au Pd Pt alloyNPsexhibitedthelowestoverpotential
+20 40 40
+electrode, and a Pt wire as the counter electrode. 10 μL of (15.4 mV), followed by Pd Pt alloy NPs (18.8 mV) and Pt
+50 50
+the catalyst ink was drop-cast onto the RDE surface and left NPs (21.9 mV). To further investigate the HER activities, Tafel
+to dry overnight under ambient conditions. Prior to the HER slopeanalysisandelectrochemicalimpedancespectroscopy(EIS)
+testing, several hundred cyclic voltammetry (CV) scans were measurements were performed on the obtained catalysts. The
+performedatahighsweeprateof500mVs−1inanAr-saturated Tafel slopes of Au Pd Pt , Pd Pt , and Pt NPs were 13.2,
+20 40 40 50 50
+electrolyte to stabilize the electrode surface. The HER activity 15.2, and 23.2 mV dec−1, respectively (Figure S5). EIS results
+was then evaluated via linear sweep voltammetry (LSV) at an showed that Au Pd Pt exhibits the lowest charge-transfer
+20 40 40
+electroderotationrateof1600rpmandapotentialscanrateof resistanceamongtheobtainedNPs,indicatingthemorefavorable
+Chemistry–AEuropeanJournal,2026 3of6
+
+FIGURE 4 (a)Polarizationcurves,(b)overpotentialsatageometriccurrentdensityof10mAcm−2,(c)TOFcurves,and(d)TOFatanoverpotential
+of50mVforAu Pd Pt (red),Pd Pt (blue),andPtNPs(black).TheHERactivitywasmeasuredin0.5MH SO .
+20 40 40 50 50 2 4
+HER kinetics. Notably, both the overpotential at 10 mA cm−2 boththeoverpotentialandintrinsiccatalyticactivity.Toinvesti-
+and the Tafel slope indicate that Au Pd Pt exhibits higher gate the effect of Au content, we synthesized Au Pd Pt and
+20 40 40 10 45 45
+HERactivitythanthereportedAuPtsystems[26].Stabilitytests Au Pd Pt alloy NPs with similar particle sizes (Figures S8–
+30 35 35
+were performed using chronoamperometric measurements at S10). HER measurements revealed that Au Pd Pt alloy NPs
+20 40 40
+the overpotential corresponding to 10 mA cm−2 (Figure S6). exhibited the highest HER activity among the three samples
+Au Pd Pt NPsexhibithighstabilityduringthemeasurement (FigureS11).
+20 40 40
+comparedtoPtNPs.TheseresultssuggestthatAuincorporation
+enhancesHERactivitywithhighstability. The enhanced HER activity of the Au Pd Pt alloy NPs was
+20 40 40
+primarily attributed to electronic-structure modulation. First,
+To further evaluate the intrinsic HER activity, the electro- alloyingPtwithPdimprovestheHERactivitybymodifyingthe
+chemically active surface area (ECSA) was determined via Cu electronicstructureofPtandgeneratingsynergisticactivesites
+underpotentialdeposition(UPD)measurements(FigureS7and for the HER. XANES analysis revealed that Pt in the binary
+TableS2).Solutionsof0.5MH SO and5mMCuSO containing Pd Pt alloy NPs was in a reduced electronic state compared
+2 4 4 50 50
+0.5MH SO werepreparedfortheelectrochemicalexperiments. with monometallic Pt, indicating electron transfer from Pd to
+2 4
+Tostabilizetheelectrodesurface,severalhundredCVscanswere Pt, as previously reported [16]. By further incorporating Au
+conducted in an Ar-saturated 0.5 M H SO electrolyte over the intothePd Pt alloyNPs,PtstateintheternaryAu Pd Pt
+2 4 50 50 20 40 40
+potential window of 0.05–0.80 V (vs. RHE) at a high scan rate alloyNPswasreductive,suggestingadditionalelectrondonation
+of 500 mV s−1. Subsequently, CV scans were recorded in the from Au. This electron doping further downshifts the Pt d-
+same potential range at a rate of 10 mV s−1 and employed as band,weakenstheexcessivelystronghydrogenadsorption,and
+the background for the Cu UPD analysis. The electrode was makes ΔG closer to thermoneutral, thereby accelerating the
+H*
+then held at a selected potential for 100 s in a 5 mM CuSO + HER kinetics. These synergistic contributions of Pd and Au
+4
+0.5MH SO solution.Subsequently,theCVmeasurementswere explain the superior HER activity of the ternary Au Pd Pt
+2 4 20 40 40
+performedusingananodicsweepfromtheappliedpotentialto alloyNPswithPtsiteswhoseelectronicstatesaremodulatedby
+theupperpotentiallimitofthebackgroundscanat10mVs−1.The neighboringAuandPdatomscomparedtothatofmonometallic
+TOFsofthecatalystswerecalculatedaccordingtotheirECSAs Pt NPs. These results demonstrate that introducing a third
+(Figure4c).Figure4dshowstheTOFvaluesat50mV,revealing elementintobinaryPt-basedalloyscanoptimizetheirelectronic
+thattheAu Pd Pt alloyNPsachievenearlytwicetheintrinsic structureandhydrogen-adsorptionproperties,providingavalu-
+20 40 40
+activity of Pt NPs. These results clearly demonstrate that Au ablestrategyforenhancingHERactivitybeyondthatofbinary
+incorporationsignificantlyenhancesHERactivitybyimproving systems.
+4of6 Chemistry–AEuropeanJournal,2026
+
+3 Conclusion 7.P.Kuang,Z.Ni,B.Zhu,Y.Lin,andJ.Yu,“ModulatingtheD-Band
+Center Enables Ultrafine Pt Fe Alloy Nanoparticles for pH-Universal
+3
+HydrogenEvolutionReaction,”AdvancedMaterials35(2023):2303030.
+In this study, we synthesized homogeneous solid-solution
+Au Pd Pt alloyNPsusingaone-potpolyolmethod.Wethen 8.A. Nilsson, L. G. M. Pettersson, B. Hammer, T. Bligaard, C. H.
+20 40 40
+demonstratedtheirsuperiorHERactivitycomparedtothatofthe Christensen, and J. K. Nørskov, “The Electronic Structure Effect in
+HeterogeneousCatalysis,”CatalysisLetters100(2005):111–114.
+binaryPd Pt alloyandmonometallicPtNPs.XANESanalysis
+50 50
+revealed that the incorporation of Pd in Pt NPs reduced the 9.X.Zhou,M.Mukoyoshi,K.Kusada,etal.,“RuInSolid-SolutionAlloy
+Nanoparticles With Enhanced Hydrogen Evolution Reaction Activity,”
+electronicstateofPt.TheAuinAu Pd Pt alloyNPsdonates
+20 40 40 ACSMaterialsLett6(2024):353–359.
+additionalelectronstoPt,optimizingΔG towardthermoneu-
+H*
+trality. Thus, the enhanced activity arises from the synergistic 10.D.Wu,K.Kusada,T.Yamamoto,etal.,“OntheElectronicStructure
+and Hydrogen Evolution Reaction Activity of Platinum Group Metal-
+electronic modulation of Pd and Au on Pt, which accelerates
+based High-entropy-alloy Nanoparticles,” Chemical Science 11 (2020):
+HER kinetics. These findings demonstrate that introducing a
+12731–12736.
+thirdelementintobinaryPt-basedalloysisapowerfulstrategy
+11.Y.Da,R.Jiang,Z.Tian,etal.,“DevelopmentofaNovelPt VAlloy
+foroptimizingelectronicstatesandenhancingcatalyticactivity. 3
+Electrocatalyst for Highly Efficient and Durable Industrial Hydrogen
+Thisstudyprovidesvaluableguidancefortherationaldesignof
+EvolutionReactioninAcidEnvironment,”AdvancedEnergyMaterials13
+next-generationmultielementHERcatalysts. (2023):2300127.
+12.D.Kobayashi,H.Kobayashi,D.Wu,etal.,“SignificantEnhancement
+of Hydrogen Evolution Reaction Activity by Negatively Charged Pt
+throughLightDopingofW,”JournaloftheAmericanChemicalSociety
+142(2020):17250–17254.
+13.Y.Wang,F.Yang,X.Zhu,etal.,“Biochar-anchoredPtPdBimetallic
+Acknowledgments NanoparticleCatalystforHigh-efficientHydrogenEvolutionReaction,”
+Ionics31(2025):2715–2725.
+We acknowledge support from the JSPS Research Fellowships for
+YoungScientists(numberJP23KJ1343),JSPSKAKENHIgrant(number 14.C. Shao, D. Gao, X. Zhang, H. Long, and H. Yu, “Optimizing H-
+JP25K01622, JP20H05623, JP25H00804, and JP25H01669), JST FOREST adsorptionAffinityonElectron-enrichedPdδ-activeSitesforEfficient
+JPMJFR221P,andtheENEOSHydrogenTrustFund.Thisworkwasalso PhotocatalyticH2Evolution,”AppliedSurfaceScience680(2025):161438.
+partiallysupportedbytheDemonstrationProjectofInnovativeCatalyst
+15.Y. Feng, L. Zhu, A. Pei, et al., “Platinum–palladium-on-reduced
+TechnologyforDecarbonizationthroughRegionalResourceRecycling,
+Graphene Oxide as Bifunctional Electrocatalysts for Highly Active
+MinistryoftheEnvironment,GovernmentofJapan,andKyushuUni-
+and Stable Hydrogen Evolution and Methanol Oxidation Reaction,”
+versity Inamori Frontier Program. STEM analyses were supported by
+Nanoscale15(2023):16904–16913.
+‘AdvancedResearchInfrastructureforMaterialsandNanotechnologyin
+Japan (ARIM)’ of the Ministry of Education, Culture, Sports, Science 16.Y. Aykut and A. Bayrakçeken Yurtcan, “The Role of the Pd Ratio
+and Technology (MEXT) (Proposal Numbers JPMXP12225KU0003 and inIncreasingtheActivityofPtforHighEfficientHydrogenEvolution
+JPMXP12225KU0004).SynchrotronXRDmeasurementswerecarriedout Reaction,”JournalofElectroanalyticalChemistry921(2022):116711.
+atbeamlineBL13XUofSPring-8underproposalnumbers2024B2058.XAS 17.Z.Zhong,Y.Tu,L.Zhang,etal.,“SurfaceStrainEffectonElectro-
+measurements were performed at beamline BL01B1 of SPring-8 under catalyticHydrogenEvolutionReactionofPt-BasedIntermetallics,”ACS
+proposalnumbers2024B1843and2025A1974. Catal14(2024):2917–2923.
+18.P.MatczakandS.Romanowski,“TheEffectofAlloyingontheH-atom
+ConflictsofInterest Adsorptiononthe(100)SurfacesofPd-Ag,Pd-Pt,Pd-Au,Pt-Ag,andPt-
+Au.ATheoreticalStudy,”OpenChemistry9(2011):474–480.
+Theauthorsdeclarenoconflictsofinterest.
+19.L.Vega,H.A.Aleksandrov,R.Farris,A.Bruix,F.Viñes,andK.M.
+Neyman,“ChemicalOrderinginPt–Au,Pt–AgandPt–CuNanoparticles
+References FromDensityFunctionalCalculationsUsingaTopologicalApproach,”
+1.S.S.KumarandH.Lim,“RecentAdvancesinHydrogenProduction MaterAdv2(2021):6589–6602.
+through Proton Exchange Membrane Water Electrolysis—A Review,” 20.S.W.Kang,Y.W.Lee,Y.Park,etal.,“One-PotSynthesisofTrimetallic
+SustainableEnergyFuels7(2023):3560–3583. Au@PdPtCore–ShellNanoparticlesWithHighCatalyticPerformance,”
+2.Z.-H.Yuan,T.-J.Wang,B.Sun,etal.,“RecentAdvancesinPlatinum ACSNano7(2013):7945–7955.
+Group Metallenes: From Synthesis to Energy-related Electrocatalytic 21.X.Yue,Y.Fan,andH.Xia,“SmallTrimetallicAu-PdPtNanoparticles
+Application,”AppliedCatalysisB:EnvironmentandEnergy366(2025): asMultifunctionalCatalystsbySimplyEngineeringTheirPd–PtRatios,”
+125041. ACSApplNanoMater7(2024):1491–1500.
+3.J.K.Nørskov,T.Bligaard,A.Logadottir,etal.,“TrendsintheExchange 22.Y. Zhang, Y. Gu, S. Lin, et al., “One-step Synthesis of PtPdAu
+CurrentforHydrogenEvolution,”JournaloftheElectrochemicalSociety Ternary Alloy Nanoparticles on Graphene With Superior Methanol
+152(2005):J23. Electrooxidation Activity,” Electrochimica Acta 56 (2011): 8746–
+4.Y.Qi,M.Guo,Y.Yan,etal.,“PtNiNanowiresCoatedWithAmorphous 8751.
+FeO x EnableRobustAlkalineSeawaterHydrogenEvolution,”Chemistry 23.Y.Maruta,K.Kusada,D.Wu,etal.,“CompositionalDependenceof
+AEuropeanJ31(2025):e02583. StructuresandHydrogenEvolutionReactionActivityofPlatinum-group-
+5.Y. Maruta, H. Ashitani, S. Kawaguchi, et al., “Revealing Dynamic metalQuinaryRuRhPdIrPtAlloyNanoparticles,”ChemicalCommunica-
+StructuralChangesinPlatinum-Group-MetalNanoparticlesduringthe tions58(2022):6421–6424.
+CatalyticHydrogenEvolutionReaction,”JournaloftheAmericanChemi- 24.S. Kawaguchi, S. Kobayashi, H. Yamada, et al., “High-throughput
+calSociety147(2025):36934–36939. andHigh-resolutionPowderX-rayDiffractometerConsistingofSixSets
+6.Y.Yan,C.Wang,Z.Huang,etal.,“HighlyEfficientandRobustCatalysts of 2D CdTe Detectors With Variable Sample-to-detector Distance and
+for the Hydrogen Evolution Reaction by Surface Nano Engineering of Innovative Automation System,” J Synchrotron Rad 31 (2024): 955–
+MetallicGlass,”JournalofMaterialsChemistryA9(2021):5415–5424. 967.
+Chemistry–AEuropeanJournal,2026 5of6
+
+25.P.V.Evstigneeva,A.L.Trigub,D.A.Chareev,M.S.Nickolsky,andB.
+R.Tagirov,“TheChargeStateofPtinBinaryCompoundsandSynthetic
+MineralsDeterminedbyX-rayAbsorptionSpectroscopyandQuantum
+ChemicalCalculations,”Minerals11(2021):79.
+26.X.Zhang,J.Chacón-Borrero,R.He,etal.,“AuPtNanostructuresWith
+aHighHydrogenEvolutionReactionActivitythroughaHalide-mediated
+MicrowaveAssistedRoute,”JournalofMaterialsChemistryA13(2025):
+7721–7730.
+SupportingInformation
+AdditionalsupportinginformationcanbefoundonlineintheSupporting
+Informationsection.
+SupportingFile1:TheSupportingInformationcontainsdetails
+regardingthesynthesis,characterization,electrochemicalmeasurements,
+TEMimages,XRFresults,RietveldrefinementsofthePXRDpatterns,and
+XANESandCuUPD,stability,andEISmeasurements.
+6of6 Chemistry–AEuropeanJournal,2026
+

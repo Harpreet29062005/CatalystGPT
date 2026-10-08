@@ -1,0 +1,1135 @@
+Activating the Basal Plane of 2D Transition
+Metal Dichalcogenides via High-Entropy Alloying
+Mohammad Amin Akhound, Karsten Wedel Jacobsen, and Kristian Sommer
+∗
+Thygesen
+∗
+CAMD, Department of Physics, Technical University of Denmark, DK - 2800 Kongens
+Lyngby, Denmark
+E-mail: akhound@dtu.dk; thygesen@fysik.dtu.dk
+Abstract
+Two-dimensional(2D)materials,suchastransitionmetaldichalcogenides(TMDCs)
+in the 2H or 1T crystal phases, are promising (electro)catalyst candidates due to their
+highsurfacetovolumeratioandcompositionoflow-cost,abundantelements. Whilethe
+edges of elemental TMDC nanoparticles, such as MoS , can show significant catalytic
+2
+activity, the basal plane of the pristine materials are notoriously inert, which limits
+their normalized activity. Here we show that high densities of catalytically active sites
+can be formed on the TMDC basal plane by alloying elements that prefer the 2H (1T)
+phase into a 1T (2H) structure. The global stability of the alloy, in particular whether
+it crystallizes in the 2H or 1T phase, can be controlled by ensuring a majority of el-
+ements preferring the target phase. We further show that the mixing entropy plays
+a decisive role for stabilizing the alloy implying that high-entropy alloying becomes
+essential. Our calculations point to a number of interesting non-precious hydrogen
+evolution catalysts, including (CrHfTaVZr)S and (CrNbTiVZr)S in the T-phase and
+2 2
+(MoNbTaVTi)S intheH-phase. Ourworkopensnewdirectionsfordesigningcatalytic
+2
+sites via high-entropy alloy stabilization of locally unstable structures.
+1
+4202
+tcO
+9
+]ics-lrtm.tam-dnoc[
+1v67860.0142:viXra
+
+Introduction
+In the quest for sustainable energy solutions, hydrogen (H ) will undoubtedly play a major
+2
+role. The hydrogen evolution reaction (HER), occurring at the cathode during electrocat-
+alytic water splitting, plays a crucial role in converting electrical energy into hydrogen gas.1
+Noble metals such as platinum,2 ruthenium,3 and palladium4 are excellent HER catalysts;
+however, their high costs and scarcity presents a major barrier to their large-scale applica-
+tion. Consequently, there is a growing focus on developing cost-effective and efficient HER
+catalysts based on non-precious metals. Recently, a wide range of alternatives including
+transition metal dichalcogenides (TMDCs),5,6 phosphides,7,8 carbides,9,10 and nitrides,11,12
+have been identified as promising HER catalysts. Among these materials, TMDCs have been
+extensively investigated due to their layered structures and associated high surface to vol-
+ume area.13 Unfortunately, the layered structure that allows the individual two-dimensional
+(2D) sheets to be easily separated (thereby enhancing their surface area) is a direct con-
+sequence of the chemical inertness of the layers. Therefore, the catalytic activity of the
+TMDC nanoparticles is primarily due to highly reactive edge sites while the basal planes
+exhibit relatively lower activity.14,15 Although multiple strategies, including doping,16,17 de-
+fect engineering,18,19 intercalation,20 and strain manipulation,21,22 have been explored as a
+means to enhance the basal plane reactivity, there is still substantial room for improvement.
+High-entropyalloys(HEAs)haveemergedasaninterestingclassofmaterialswithpromis-
+ing applications in the field of energy storage and electrocatalysis.23,24 HEAs are single-phase
+crystals composed of five or more principal elements in nearly equal atomic ratios, resulting
+in a high configurational entropy that stabilizes the structure.25,26 The possibility to tune
+composition and concentrations allows for detailed control of physical and chemical proper-
+ties, including optimization of reaction kinetics and catalytic performance.27–29 Many HEAs
+have good mechanical properties, such as enhanced hardness, superior elongation capacity,
+and high thermal stability, which is important to ensure long-term performance of the cata-
+lyst under harsh electrochemical conditions.30 Finally, the so-called cocktail effect, referring
+2
+
+to synergistic interactions among multiple elements, can lead to emergent properties that
+surpass those of the individual elements, leading to superior performance, e.g. for catalysing
+complex chemical reactions.31
+HEAs based on two-dimensional (2D) materials promise to combine the compositional
+tunability of HEAs with the structural flexibility and large surface to volume ratio of 2D
+materials. Recently, a number of TMDC 2D HEAs have been successfully synthesized.32–34
+Inparticular, (MoWReMnCr)S 33 and(MoWVNbTa)S 34 wereshowntopossessexceptional
+2 2
+thermal stability and decent electrocatalytic activity for HER and CO reduction reaction,
+2
+respectively. Notably, both of these TMDC compounds adopt the 2H crystal phase, which
+is also the most stable phase of the individual constituent elements. Density functional
+theory (DFT) calculations indicate the potential stability of TMDC alloys with various
+compositions in both the 1T and 2H phases.35 However, a systematic exploration of the
+stability and catalytic performance of HEA TMDCs as well as microscopic understanding of
+the relation between these two key properties is still missing.
+In this work, we develop a general strategy for designing stable catalysts with highly ac-
+tive sites, and use it to discover several TMDC HEAs with basal plane reactivities optimised
+for the HER. The design strategy is based on the observation that thermodynamic stability
+correlates with surface reactivity: Less stable compounds bind adsorbates (e.g. hydrogen)
+stronger and vice versa. This suggests that good catalysts are always a result of a stabil-
+ity/activity compromise. However, we then show that this trend also holds locally. This
+implies that by alloying locally unstable elements into a globally stable structure it is possi-
+ble to combine good overall stability with high local reactivity. We first establish the design
+principle on basis of an analysis of 18 unary and 72 binary TMDCs in both the 1T and 2H
+phases. We then demonstrate that catalytic reactivity can be enhanced by the integration
+of metal elements that prefer the 2H phase into the 1T phase (or vice versa). Importantly,
+high entropy alloying is essential to stabilise the target phase. From our systematic study
+of more than 400 TMDCs, including ternary, quaternary, and pentanary alloys, we observe
+3
+
+a clear trend: increasing the number of constituent elements enhances both stability and
+catalytic performance. Detailed calculations of mixing enthalpy, free energy, and hydrogen
+adsorption energy then identifies 20 stable pentanary alloys, 10 of which exhibit hydrogen
+adsorption energies within the optimal range for the HER. All the results of our work is
+available in the open database: https://cmrdb.fysik.dtu.dk/2dalloys
+Methods
+Density Functional Theory Calculations
+All DFT calculations were performed using the projector augmented wave (PAW) method36
+asimplementedintheGPAWelectronicstructurecode37,38 withthePerdew-Burke-Ernzerhof
+(PBE) exchange-correlation functional.39 Spin polarization was consistently used in all cal-
+culations with a Fermi smearing of 0.05 eV and plane-wave cutoff of 800 eV. For unary,
+binary, ternary and quaternary alloys a k-point density of 6 ˚A 1 while a coarser mesh of
+−
+density of 3 ˚A 1 was used for pentanary alloys. A vacuum spacing of at least 20 ˚A was used
+−
+along the z direction to ensure adequate separation between periodic layers. Both the unit
+cell and the atomic positions were relaxed until the forces were below 0.01 eV/˚A. The DFT
+calculations were managed using the MyQueue40 task scheduler.
+The choice of the PBE functional is based on its well-established balance between ac-
+curacy and computational efficiency. Previous studies have demonstrated that hydrogen
+adsorption energy is not significantly impacted by the choice of functional.41,42 To further
+validate this, we compared the PBE with two other functionals for the type of systems con-
+sidered in this study. As illustrated in Figure S1, the H adsorption energies on the unary
+TMDCs calculated using PBE, RPBE,43 and BEEF-vdW44 are in very close agreement, thus
+justifying our choice of the PBE.
+4
+
+Atomic Structures
+The atomic structures were generated using the Atomic Simulation Environment (ASE).45
+Both the P3m1 (1T phase) and P6m2 (2H phase) space groups were considered for all
+TMDCs in their 2D monolayer forms. All generated alloy structures contain an equimolar
+composition, ensuring equal concentrations of metal atoms across different alloys. For unary
+TMDCs and their binary alloys, 2 2 supercells were considered (Figure S6). To preserve
+×
+equimolar concentration in more complex systems, the supercell size was increased to 3 3,
+×
+4 4, and 5 5 for ternary, quaternary, and pentanary alloys, respectively. Given the wide
+× ×
+range of possible configurations for TMDC alloys, three different random configurations were
+generated for each phase of the ternary (Figure S7) and quaternary (Figure S8) alloys. The
+most stable configuration in each case was selected for further analysis and hydrogen ad-
+sorption studies. For the pentanary alloys, special quasi-random structures (SQSs)46 were
+generated using the alloy theoretic automated toolkit (ATAT)47 software package. This
+method simulates the chemical disorder characteristics of HEAs while maintaining a com-
+putationally feasible cell size. SQSs, comprising 75 atoms, were constructed for the 1T and
+2H phases of pentanary alloys (Figure S9), ensuring a realistic representation of 2D HEAs.
+Free Energy Calculations
+The free energy of mixing, ∆G , at a given temperature, T, is given by:
+mix
+∆G = ∆H T∆S
+mix f mix
+−
+In this equation, ∆H is the formation enthalpy of the alloy, which is determined using
+f
+DFT calculations, and ∆S represents the entropy of mixing. The formation enthalpy is
+mix
+calculated as the difference between the total energy of the alloy and the weighted average
+of the constituent elements, as given by:
+5
+
+∆H = EAlloy n Ephase,
+f − i i
+i
+X
+where EAlloy is the total energy of the alloy normalized by the cell size to obtain the energy
+per metal atom, n is the molar fraction of the i-th component, and Ephase refers to the
+i i
+energy per metal atom of the unary TMDCs in their most stable phases.
+Themixingentropy(orconfigurationalentropy), ∆S , iscalculatedfromtheexpression
+mix
+N
+∆S = R c lnc ,
+mix i i
+−
+i=1
+X
+where c represents the molar concentration of the i-th component and R is the universal
+i
+gas constant. For an equimolar alloy with N components, this simplifies to:
+∆S = RlnN
+mix
+Negative values of ∆G indicate a miscible alloy, while positive values suggest immis-
+mix
+cibility, i.e. phase separation. All reported free energies are evaluated at T = 1000 K, which
+is comparable to the temperatures employed in the synthesis of 2D HEAs.34,48,49 Alloys with
+∆G < 0.05eV at 1000 K, were classified as stable/miscible and selected for hydrogen
+mix
+adsorption calculations.
+In addition to the free energy of mixing, the energy above the convex hull (∆H ) is a
+hull
+crucial metric to evaluate the thermal stability and synthesizability of the predicted alloys.
+The ∆H quantifies the energy difference between the formation energy of the alloy and
+hull
+the lowest energy combination of its constituent elements, considering all possible decom-
+position phases. Alloys with ∆H values close to zero are considered thermodynamically
+hull
+stable because they represent the most stable configuration of elements and are less likely
+to decompose into other phases. The ∆H values for all predicted HEAs were calculated
+hull
+relative to the alloys considered in this work and the entries in the Open Quantum Materials
+6
+
+Database (OQMD).50,51
+Hydrogen Adsorption
+The free energy of hydrogen adsorption (∆G ) is determined as
+H
+∗
+∆G = ∆HH∗ +∆E T∆S
+H ∗ ads ZPE − H ∗
+where ∆HH∗ represents the hydrogen adsorption energy,
+ads
+1
+∆H a H d ∗ s = E DFT (H ∗ ) − E DFT ( ∗ ) − 2 E DFT (H 2 ),
+and ∆E is the difference in zero point energy between the adsorbed hydrogen and H in
+ZPE 2
+the gas phase,
+1
+∆E = E (H ) E (H )
+ZPE ZPE ∗ ZPE 2
+− 2
+The vibrational frequencies of the adsorbed hydrogen atom are relatively consistent across
+the TMDC surfaces, allowing us to approximate ∆E 0.05eV, based on values from
+ZPE
+≈
+prior studies.52–55
+The entropy contribution (∆S ) simplifies as
+H
+∗
+1 1
+∆S = S(H ) S(H ) S(H )
+H ∗ 2 2
+∗ − 2 ≈ −2
+becausetheentropyoftheadsorbedhydrogenatomisnegligible. Atstandardconditions(298
+Kand1bar),S(H )isapproximately130J·mol 1·K 1,56 resultinginanentropycontribution
+2 − −
+of roughly 0.2 eV. Thus, the free energy of hydrogen adsorption becomes
+∆G = ∆HH∗ +0.25eV
+H ∗ ads
+This approximation, which incorporates both zero-point energy and entropy corrections, is
+7
+
+widely adopted and validated by several studies.52,57–59 Consequently, ∆HH∗ = 0.25eV,
+ads −
+corresponding to ∆G = 0eV has been widely accepted as the condition for the ideal HER
+H
+∗
+catalyst surface. This value is highlighted by the gray dotted lines in several plots presented
+in this study.
+Results and discussion
+Phase-Dependent Catalytic Activity in TMDCs
+We consider TMDCs containing sulphur and transition metals from groups IV, V, and VI
+(Ti, Zr, Hf, V, Nb, Ta, Cr, Mo, W). These transition metals (TMs) were chosen based on
+several considerations:
+(a) The selected TMs have similar atomic radii and relatively uniform electronegativi-
+ties, whichisessentialtomaintainstructuralstability, avoidlatticedistortions, andminimize
+charge imbalance upon alloying. These properties are essential to circumvent phase separa-
+tion and ensure the formation of stable and homogeneous alloys.
+(b) TMDCs based on group-IV transition metals crystallise in the 1T phase while group-
+VI metals crystallise in the 2H phase. In contrast, TMDCs made from group-V transition
+metals can exist in both the 1T and 2H phases. This means that the structural phase
+becomes a design parameter (in addition to the chemical composition and concentrations),
+in the search for stable and catalytically active HEAs.
+(c) Group-VI TMDCs are known for their good catalytic activity, but their performance
+depends on their phase. The semiconducting 2H phase exhibits low basal plane activity
+(though active edges) whereas the metallic 1T phase provides enhanced activity? but lacks
+stability. The fact that the group-IV TMDCs are most stable in the 1T phase, suggests that
+incorporating these elements into a HEA together with group-VI elements, could provide a
+means to stabilize the latter in their catalytically active 1T phase.
+We first investigate the stability and catalytic activity (here quantified by the ability
+8
+
+to bind hydrogen with ∆H = 0.25eV) of the unary TMDCs. The structures and the
+ads
+−
+energy above the convex hull of 18 unary TMDCs (nine in each phase) were extracted from
+the Computational 2D Materials Database (C2DB).60,61 The hydrogen atoms were adsorbed
+onto a basal plane sulfur atom, which is the most stable adsorption site. As depicted in
+Figure 1a, group-VI TMDCs (Cr, Mo, W) are stable in the 2H phase (∆H = 0), while
+hull
+they exhibit significant instability in the 1T phase, with ∆H values ranging from 0.54
+hull
+to 0.9 eV/metal atom. Despite their instability, the 1T phase exhibits significantly higher
+catalytic activity, as evidenced by lower hydrogen adsorption energies. A similar but inverse
+trend is observed for group-IV TMDCs (Ti, Zr, Hf) where the 1T phase is more stable and
+the 2H phase exhibits enhanced catalytic activity. Group-V TMDCs (V, Nb, Ta) display
+only a slight preference for the 2H phase with an energy difference between the 1T and 2H
+phases of less than 0.1 eV/TM atom. This minimal energy difference suggests that group-V
+TMDCs could be incorporated into both 1T and 2H phases without penalising the energy,
+but contributing to a higher configurational entropy.
+Our analysis of unary TMDCs suggests that less stable materials are more active towards
+the HER. To further substantiate this claim, we analyze the hydrogen adsorption on all
+possible binary alloys formed from the nine transition metals. As shown in Figure 1b,
+the trends observed for unary TMDCs are also evident in the binary alloys. Specifically,
+the structures on the left side of the plot, which are more stable in the 1T phase, exhibit
+stronger hydrogen adsorption in the unstable 2H phase. Conversely, structures on the right
+side, which are more stable in the 2H phase, exhibit stronger hydrogen adsorption in the
+unstable 1T phase. Additionally, the data indicate that alloys with a significant difference in
+phase stability (i.e. those further away from the center of the x-axis) show markedly higher
+catalytic activity in the less stable phase. In contrast, alloys located closer to the center of
+the x-axis, where the stability difference between phases is minimal, generally exhibit similar
+hydrogen adsorption energies in the 2H and 1T phases.
+Figure2providesamoredetailedpictureofthephase-dependenthydrogenbindingonthe
+9
+
+2.0
+1.5
+1.0 1T 2H
+0.5
+0.0
+−0.5
+0.00 0.3 0.6 0.9
+H (eV/TM)
+hull
+)Ve(
+*HH
+sda
+WS2 Ti V Cr
+MoS2 Zr Nb Mo
+CrS2 Hf Ta W
+HfS2
+ZrS2
+TaS2
+NbS2
+T
+Ta
+iS
+S
+2 V
+2
+S2 HfS2 WS2
+VS2 TiS2 ZrS2
+NbS2
+CrS2 MoS2
+)Ve(
+*HH
+sda
+(a) (b)
+1T (Unary) 1T (Unary) 2.0
+2H (Unary) 2H (Unary)
+1T (Binary)
+1.5 2H (Binary)
+1.0
+More Stable Phase
+0.5
+0.0
+−0.5
+−1.0 −0.5 0.0 0.5 1.0
+H − H (eV/TM)
+1T 2H
+Figure 1: (a) Correlation between hydrogen adsorption energy (∆HH∗) and energy above
+ads
+convex hull (∆H ) of unary TMDCs in the 1T and 2H phases. (b) Catalytic activity
+hull
+of unary and binary TMDCs, relative to their more stable phase. Structures on the left
+side are more stable in the 1T phase, while those on the right side are more stable in the
+2H phase. For binary alloys, the average adsorption energy across two distinct adsorption
+sites was considered. The optimal adsorption energy, ∆HH∗ = 0.25 eV corresponding to
+ads −
+a thermodynamically neutral free energy of binding, ∆G = 0eV,62 is indicated by the
+H
+∗
+horizontal dashed line in both figures.
+binary alloys. While Figure 1b showed the average adsorption energy over the two distinct
+bindingsitesofanorderedbinarywitha2 2periodicity, Figure2showstherangeofbinding
+×
+energies across the two types of sites. The data clearly shows that increased stability in the
+1T (2H) phase, represented by blue (red) bars correlates with enhanced catalytic activity
+in the opposite phase, as indicated by red (blue) markers. Furthermore, the formation and
+free energy calculations for binary alloys (see Figure S2) shows, not surprisingly, that an
+alloy containing two elements each of which are most stable in the same phase, will also
+prefer that phase. However, alloying elements with different phase preferences can produce
+more complex behavior. Combinations of group-IV and group-VI TMs, particularly those
+involving Mo and W, tend to be unstable in both phases. In contrast, alloying group-V
+elements, which have a slight preference for the 2H phase, with group-IV elements that
+prefer the 1T phase can stabilize, or nearly stabilize, alloys in the 1T structure.
+ThefactthathighbasalplaneactivityispredominantlyseenforTMDCsintheirunstable
+phase obviously poses a challenge. Luckily, it turns out that the activity-stability correlation
+10
+
+0.8
+0.4
+0.0
+−0.4
+−0.8
+)MT/Ve(
+H2
+H
+T1
+H
+1T
+CrNb
+CrTa 2H
+CrV
+CrW
+MoCr
+MoNb
+MoTa
+MoV
+MoW NbTa
+NbV
+NbW
+TaV
+TaW
+VW
+CrHf
+CrTi
+CrZr MoHf
+MoTi
+MoZr
+NbHf
+NbTi
+NbZr
+TaHf
+TaTi
+TaZr
+VHf
+VTi
+VZr
+WHf
+WTi
+WZr
+HfTi
+HfZr
+TiZr
+−0.8 −0.4 0.0 0.4 0.8 1.2 1.6 2.0
+HH* (eV)
+ads
+Figure 2: Hydrogen adsorption energy for all possible binary TMDCs with equimolar con-
+centration (ABS ) in the 1T and 2H phases. The circles represent the hydrogen adsorption
+2
+energy at two distinct adsorption sites for each structure. Red (blue) circles correspond to
+adsorption on the 2H (1T) structure. The color of the bars reflects the relative stability of
+the alloy in the 2H and 1T phase, respectively. Blue bars correspond to structures that are
+more stable in the 1T phase, whereas red bars indicate those more stable in the 2H phase.
+As a general trend, hydrogen adsorbs more strongly on the less stable phase.
+11
+
+is to a large extent a feature of the local atomic environment of the binding site. This is
+illustrated by Figure 3, which shows that the binding energy of hydrogen on the binary
+alloy (CrZr)S is largely determined by the type of TMs occupying the sites closest to the
+2
+S adsorption site. In other words, H bonding on (CrZr)S is similar to CrS at S atoms
+2 2
+surrounded by Cr and is similar to ZrS at S atoms surrounded by Zr. Since ZrS is stable
+2 2
+in the 1T phase and CrS is stable in the 2H phase, Cr atoms (Zr atoms) can be regarded
+2
+as ”locally unstable atoms” in the 1T phase (2H phase) of (CrZr)S . The trend shown in
+2
+Figure 3 holds for (CrZr)S in both the 2H and 1T phase and for other binary alloys as well.
+2
+Figure 3: Hydrogen adsorption energy on (CrZr)S as a function of the number of locally
+2
+unstable TM atoms (N ). A TM atom is locally unstable if its unary TMDC is more
+unstable
+stableintheoppositephase. Fourdistinctadsorptionsiteswereconsideredforeachstructure
+in both the 1T and 2H phases as depicted in the left and right panels, respectively.
+The projected density of states (PDOS) analysis shown in Figure 4 offers insights into
+the underlying mechanisms of catalytic activity at different sulfur sites. Specifically, the
+PDOS of a S-p orbital in (CrZr)S in the 1T-phase (a) and 2H-phase (b) is examined for
+z 2
+sulfur atoms in different local environments. The local environments are denoted S0 to S3
+corresponding to the number of locally unstable nearest neighbor TM atoms ranging from 0
+til 3 (the same binding sites as considered in Figure 3). The center of the p band (over both
+z
+the occupied and unoccupied part) is calculated and indicated in the upper right corner.
+For both phases we see a correlation between the p band center (ε ) and the H binding
+z p
+energy shown in Figure 3. For both phases, configurations with higher ε , i.e. closer to the
+p
+Fermi level, exhibit stronger binding of H. This finding aligns with previous studies.63 We
+12
+
+conclude that the enhanced catalytic activity at more locally unstable sites, i.e. with more
+TM nearest neighbor atoms preferring the opposite phase, is due to an increased availability
+of states with p character close to the Fermi level.
+z
+Our findings so far reveal a clear correlation between the local stability and catalytic
+activity in the TMDCs. The challenge then becomes to create globally stable structures
+that are locally unstable (or precisely contain TM atoms in their unstable phase). The
+binary alloys do not seem to provide sufficient flexibility to meet this goal. Despite several of
+them displaying promising catalytic activity, most of those are thermodynamically unstable
+(see Figure S2). Additionally,, the low number of different metal atoms restricts the variety
+of adsorption sites available. Given the complexity of catalytic reactions in general, a diverse
+set of adsorption sites defined by different local environments is advantageous. To address
+these limitations, the next step is to systematically increase the number of TM elements.
+(a) (b)
+1.0
+0.5
+0.0
+−4 −2 0 2 4
+Energy (eV)
+).u.a(
+SODP
+1.5
+1.0
+0.5
+0.0
+−4 −2 0 2 4
+Energy (eV)
+).u.a(
+SODP
+p z _S0 ε p =−1.22 p z _S0 ε p =−1.39
+p z _S1 ε p =−1.19 p z _S1 ε p =−1.31
+p _S2 ε=−1.14 p _S2 ε=−1.21
+z p z p
+p z _S3 ε p =−1.11 p z _S3 ε p =−1.05
+Figure 4: Projected density of states (PDOS) for the p orbital of sulfur atoms in the binary
+z
+TMDC CrZrS for both (a) 1T and (b) 2H phases. S0 to S3 represent the specific sulfur
+2
+sites where hydrogen adsorption will occur, though these figures depict the system without
+hydrogen. The structures and adsorption sites are shown in Figure 3. Catalytic activity in
+both configurations follows the trend S3 > S2 > S1 > S0. ε denotes the p-band center
+p
+relative to the Fermi level, with shaded regions indicating the occupied states.
+13
+
+Path to High-Entropy Alloy Catalysts
+This section presents a systematic approach for identifying stable HEAs composed of five
+metal atoms and an activated basal plane for HER. We refer to TM elements stable in the
+1T and 2H phase of their unary TMDCs as ”T-phase elements” and ”H-phase elements”,
+respectively. As mentioned earlier, this investigation focuses on three T-phase and six H-
+phase elements. Our approach begins by incrementally increasing the number of elements
+to form ternary, quaternary, and pentanary alloys that are stable in the 1T phase. Once
+this strategy is validated for the 1T phase, it will be applied directly to the 2H phase.
+Based on free energy calculations for binary alloys (Figure S2), W was excluded from further
+investigation, as its combination with any T-phase elements consistently results in highly
+unstable structures. Therefore, we proceeded with the remaining five H-phase elements.
+In our search for stable ternary alloys in the 1T phase we only considered structures
+containing at least one T-phase element, as alloys based purely on H-phase elements are
+not likely to be stable. This resulted in 46 possible equimolar ternary combinations, of
+which 20 were found to be stable in the 1T phase (with the criterion ∆G < 0.05 eV/TM
+atom), while exhibiting significant instability in the 2H phase. As shown in Figure S3, all
+H-phase elements can be stabilized in at least one alloy composition, except for Mo, which
+produces unstable 1T structures in combination with any other elements. For this reason
+Mo was excluded from further investigation. Hydrogen adsorption energies were calculated
+for all possible adsorption sites of the stable structures, and the results are presented in
+Figure S4. Although some stable structures were identified, most remained inactive for
+HER, underscoring the need to explore quaternary alloys. Further details on the selection of
+random configurations and hydrogen adsorption sites are discussed in the Methods section.
+Toidentifystablequaternaryalloys, wemodifiedtheselectioncriteriatoincludeonlycon-
+figurationswithatleasttwoT-phaseelements. Thisadjustmentledto22possiblequaternary
+alloys of which 20 were stable in the 1T phase and highly unstable in the 2H phase (Figure
+S4). As shown in Figure 5, these quaternary alloys represent an improvement over their
+14
+
+0.10
+0.05
+0.00
+−0.05
+−1.00
+)MT/Ve(
+ygrene
+eerF
+CrNbHfTi
+CrNbHfZr
+CrNbTiZr
+CrTaHfTi
+CrTaHfZr
+CrTaTiZr
+CrVHfTi
+CrVTiZr
+NbHfTiZr
+NbTaHfTi
+NbTaHfZr
+NbTaTiZr
+NbVHfTi
+NbVHfZr
+NbVTiZr
+TaHfTiZr
+TaVHfTi
+TaVHfZr
+TaVTiZr
+VHfTiZr
+−0.4 −0.2 0.0 0.2 0.4 0.6 0.8
+HH* (eV)
+ads
+Figure 5: Range of hydrogen adsorption energies on all stable quaternary TMDCs with
+equimolar concentration (ABCD)S in the 1T phase. Adsorption energy values across differ-
+2
+ent adsorption sites are indicated by vertical black lines, while the colormap represents the
+free energy of each structure at 1000 K.
+15
+
+ternary counterparts, with several alloys demonstrating hydrogen adsorption energies closer
+to the optimal value (vertical dashed line). This improvement underscores the enhanced
+potential of quaternary alloys over ternary alloys. To investigate if the already promising
+properties of the quaternary alloys can be further optimised we next consider pentanary
+HEAs containing five TM atoms.
+)MT/Ve(
+ygrenE
+H 1T
+G 1T
+0.15 H 2H
+G 2H
+0.10
+0.05
+0.00
+0.05
+0.10
+rZiTfHbNrC iTfHaTbNrC rZfHaTbNrC rZiTaTbNrC iTfHVbNrC rZfHVbNrC rZiTVbNrC rZiTfHaTrC iTfHVaTrC rZfHVaTrC rZiTVaTrC rZiTfHVrC rZiTfHaTbN iTfHVaTbN rZfHVaTbN rZiTVaTbN rZiTfHVaT iTWbNoMrC iTWaToMrC iTWaTbNrC iTVaTbNoM iTWaTbNoM rCnMeRWoM
+Figure 6: Thermodynamic stability of all stable pentanary TMDCs with equimolar concen-
+tration (ABCDE)S in the 1T and 2H phases, depicted by enthalpy of formation and free
+2
+energy calculations at 1000 K. The experimentally synthesized HEA (MoWReMnCrS ) is
+2
+highlighted with a red label.
+Limiting to compositions with at least two T-phase elements and excluding Mo and W,
+we obtain 17 unique equimolar HEAs in the 1T phase. As shown in Figure 6, all predicted
+HEAs exhibit good stability properties exhibiting negative free energies, thus validating our
+alloy exploration strategy. In addition to the 1T structures, all possible compositions of pen-
+tanary alloys in the 2H phase containing at most one T-phase element were calculated. The
+compounds satisfying ∆G < 0.05 eV/TM atom are shown by the red bars in Figure 6. For
+comparison, the experimentally synthesized HEA (MoWReMnCr)S , recently reported as a
+2
+promisingcatalystforHER,33 isalsodepictedinthelastcolumn. Althoughtheexperimental
+16
+
+structure is not equimolar, we replicated the exact stoichiometry from the synthesis, and the
+resulting stability and catalytic activity were highly consistent with the equimolar structure
+shown in Figure 6. The experimentally synthesised HEA has higher free energy than the 22
+pentanary HEAs predicted in our study. This strongly suggests that the predicted HEAs
+are indeed synthesizable under the right experimental conditions.
+To assess the phase stability of the predicted HEAs, we evaluated the free energy in the
+alternate phase. The result shows that these alloys are all highly unstable in the opposite
+phase, with enthalpy of formation exceeding those of their stable phases by more than 0.3
+eV/TM atom. Such a substantial enthalpy difference between the stable and unstable phases
+indicates a strong thermodynamic preference for the predicted phase. This phase stability
+gap is a crucial factor in practical synthesis, as it reduces the likelihood of phase mixing
+or unintended formation of metastable phases during experimental preparation. Further
+supporting thermodynamic stability, the energy above the convex hull calculations shows
+that all predicted HEAs have ∆H values below 0.2 eV/TM atom, indicating that these
+hull
+alloys are close to the most stable combination of their constituent elements and are unlikely
+to decompose into other phases. The calculated values of enthalpy of formation, free energy
+of mixing, and energy above the convex hull for the predicted HEAs can be found in Table
+S1.
+To evaluate the catalytic potential of the predicted HEAs, hydrogen adsorption energies
+were calculated across all possible adsorption sites. As the pentanary alloys were represented
+in a 5 5 supercell, a total of 25 distinct adsorption energies were evaluated per alloy. As
+×
+illustratedinFigure7,thepredictedHEAsdemonstratehighcatalyticactivity,withanarrow
+rangeofadsorptionenergiesclosetotheoptimalvalue. Moreover, itisevidentthatthealloys
+predicted in this study exhibit not only superior stability but also higher catalytic activity
+compared to the previously reported experimental structure.
+17
+
+−0.5 0.0 0.5 1.0 1.5
+HH*
+(eV)
+ads
+)MT/Ve(
+ygrene
+eerF
+0.10 0.050
+CrNbHfTiZr
+1T-HEA
+CrNbTaHfTi
+CrNbTaHfZr
+CrNbTaTiZr
+CrNbVHfTi
+CrNbVHfZr 0.05 0.025
+CrNbVTiZr
+CrTaHfTiZr
+CrTaVHfTi
+CrTaVHfZr
+CrTaVTiZr
+CrVHfTiZr 0.00 0.00000
+NbTaHfTiZr
+NbTaVHfTi
+NbTaVHfZr
+NbTaVTiZr 2H-HEA
+TaVHfTiZr
+CrMoNbWTi −0.05 −0.025
+CrMoTaWTi
+CrNbTaWTi
+MoNbTaVTi
+MoNbTaWTi
+MoWReMnCr
+−0.10 −0.050
+Figure 7: Range of hydrogen adsorption energies on all stable pentanary TMDCs with
+equimolar concentration (ABCDE)S in the 1T and 2H phases. Adsorption energy values
+2
+at different adsorption sites are represented by vertical black lines, while the blue and red
+colormaps indicate the free energy of the 1T and 2H structures at 1000 K, respectively.
+The experimentally synthesized HEA (MoWReMnCr)S is highlighted with a red label for
+2
+comparison.
+18
+
+Conclusions
+Based on density functional theory calculations we have predicted a number of transition
+metal dichalcogenide (TMDC) high entropy alloys (HEAs) with good thermodynamic sta-
+bility, as quantified by low free energies of formation, and high catalytic activity towards
+hydrogen evolution on the basal plane. We have established a clear correlation between the
+local structural stability and activity of a catalytic site. In particular, we found that the
+transition metals that prefer to crystallise in the 1T-phase can enhance the catalytic activity
+when alloyed into a 2H-phase TMDC, and vice versa. We further showed that it is possible
+to form TMDC alloys containing both 1T and 2H-phase elements that are stabilised by the
+configurational entropy. The resulting TMDC HEAs with mixed 1T/2H composition where
+shown to possess lower free energy of formation and higher catalytic activity compared to
+a previously synthesised 2H-TMDC HEA. Our work provides insight into the fundamental
+relation between local structural stability and catalytic activity and proposes TMDC HEAs
+as a promising class of non-precious hydrogen evolution catalysts.
+Acknowledgement
+K. S. T. is a Villum Investigator supported by VILLUM FONDEN (grant no. 37789).
+Supporting Information Available
+Information about the choice of exchange-correlation functional, enthalpy of formation, free
+energy of mixing, hydrogen adsorption energy, and energy above the convex hull for various
+TMDC alloys, including binary, ternary, quaternary, and pentanary configurations, with
+atomic structures referenced in the article, as well as different random configurations and
+SQSs.
+19
+
+References
+(1) Seh, Z. W.; Kibsgaard, J.; Dickens, C. F.; Chorkendorff, I.; Nørskov, J. K.;
+Jaramillo, T. F. Combining theory and experiment in electrocatalysis: Insights into
+materials design. Science 2017, 355.
+(2) Zhang, C.; Xu, Z.; Han, N.; Tian, Y.; Kallio, T.; Yu, C.; Jiang, L. Super-
+aerophilic/superaerophobic cooperative electrode for efficient hydrogen evolution re-
+action via enhanced mass transfer. Science Advances 2023, 9.
+(3) Chen, X.; Wang, X.-T.; Le, J.-B.; Li, S.-M.; Wang, X.; Zhang, Y.-J.; Radjenovic, P.;
+Zhao,Y.; Wang,Y.-H.; Lin,X.-M.; Dong,J.-C.; Li,J.-F.Revealingtheroleofinterfacial
+water and key intermediates at ruthenium surfaces in the alkaline hydrogen evolution
+reaction. Nature Communications 2023, 14, 5289.
+(4) Liang, Q.-M.; Chen, S.-K.; Ding, Z.; Wang, J.-C.; Hu, C.; Shi, J.; Wang, S.; Han, L.;
+Yang, Y. Continuous Strain Regulation of Palladium–Gold at the Atomic Level. Nano
+Letters 2024, 24, 7637–7644.
+(5) Guo, X.; Song, E.; Zhao, W.; Xu, S.; Zhao, W.; Lei, Y.; Fang, Y.; Liu, J.; Huang, F.
+Charge self-regulation in 1T”’-MoS2 structure with rich S vacancies for enhanced hy-
+drogen evolution activity. Nature Communications 2022, 13, 5954.
+(6) Sun, C.; Wang, L.; Zhao, W.; Xie, L.; Wang, J.; Li, J.; Li, B.; Liu, S.; Zhuang, Z.;
+Zhao, Q. Atomic-Level Design of Active Site on Two-Dimensional MoS2 toward Effi-
+cient Hydrogen Evolution: Experiment, Theory, and Artificial Intelligence Modelling.
+Advanced Functional Materials 2022, 32.
+(7) Banerjee, S.; Kakekhani, A.; Wexler, R. B.; Rappe, A. M. Relationship between the
+Surface Reconstruction of Nickel Phosphides and Their Activity toward the Hydrogen
+Evolution Reaction. ACS Catalysis 2023, 13, 4611–4621.
+20
+
+(8) Bodhankar, P. M.; Sarawade, P. B.; Kumar, P.; Vinu, A.; Kulkarni, A. P.;
+Lokhande, C. D.; Dhawale, D. S. Nanostructured Metal Phosphide Based Catalysts
+for Electrochemical Water Splitting: A Review. Small 2022, 18.
+(9) Yu, Y.; Wang, X.-L.; Zhang, H.-K.; Cao, Z.-Q.; Wu, H.-Y.; Jia, B.-R.; Yang, J.-J.;
+Qu, X.-H.; Qin, M.-L. Facile synthesis of transition metal carbide nanoparticles em-
+bedded in mesoporous carbon nanosheets for hydrogen evolution reaction. Rare Metals
+2022, 41, 2237–2242.
+(10) Tran, V. V.; Lee, D.; Bui, V. K. H.; Tran, N. T.; Truong, H. B.; Do, H. H. Re-
+view—Recent Advancements in Molybdenum Carbides for Efficient Hydrogen Evolu-
+tion Reaction. Journal of The Electrochemical Society 2024, 171, 056509.
+(11) Su, H.; Tang, Y.; Shen, H.; Zhang, H.; Guo, P.; Gao, L.; Zhao, X.; Xu, X.; Li, S.;
+Zou, R. Insights into Antiperovskite Ni3In1-xCuxN Multi-Crystalline Nanoplates and
+Bulk Cubic Particles as Efficient Electrocatalysts on Hydrogen Evolution Reaction.
+Small 2022, 18.
+(12) Jin, H.; Wang, X.; Tang, C.; Vasileff, A.; Li, L.; Slattery, A.; Qiao, S. Stable and Highly
+Efficient Hydrogen Evolution from Seawater Enabled by an Unsaturated Nickel Surface
+Nitride. Advanced Materials 2021, 33.
+(13) Van Nguyen, T.; Tekalgne, M.; Nguyen, T. P.; Van Le, Q.; Ahn, S. H.; Kim, S. Y.
+ElectrocatalystsbasedonMoS2andWS2forhydrogenevolutionreaction: Anoverview.
+Battery Energy 2023, 2.
+(14) Jaramillo, T. F.; Jørgensen, K. P.; Bonde, J.; Nielsen, J. H.; Horch, S.; Chork-
+endorff, I. Identification of Active Edge Sites for Electrochemical H2 Evolution from
+MoS2 Nanocatalysts. Science 2007, 317, 100–102.
+(15) Pakhira, S.; Kumar, V.; Ghosh, S. Revealing the Superior Electrocatalytic Performance
+21
+
+of 2D Monolayer WSe2 Transition Metal Dichalcogenide for Efficient H2 Evolution
+Reaction. Advanced Materials Interfaces 2023, 10.
+(16) Pattengale, B.; Huang, Y.; Yan, X.; Yang, S.; Younan, S.; Hu, W.; Li, Z.; Lee, S.;
+Pan, X.; Gu, J.; Huang, J. Dynamic evolution and reversibility of single-atom Ni(II)
+activesitein1T-MoS2electrocatalystsforhydrogenevolution.Nature Communications
+2020, 11, 4114.
+(17) Wu, R.; Xu, J.; Zhao, C.-L.; Su, X.-Z.; Zhang, X.-L.; Zheng, Y.-R.; Yang, F.-Y.;
+Zheng, X.-S.; Zhu, J.-F.; Luo, J.; Li, W.-X.; Gao, M.-R.; Yu, S.-H. Dopant triggered
+atomic configuration activates water splitting to hydrogen. Nature Communications
+2023, 14, 2306.
+(18) Wang, X.; Wu, J.; Zhang, Y.; Sun, Y.; Ma, K.; Xie, Y.; Zheng, W.; Tian, Z.; Kang, Z.;
+Zhang, Y. Vacancy Defects in 2D Transition Metal Dichalcogenide Electrocatalysts:
+From Aggregated to Atomic Configuration. Advanced Materials 2023, 35.
+(19) Su, H.; Pan, X.; Li, S.; Zhang, H.; Zou, R. Defect-engineered two-dimensional transi-
+tionmetaldichalcogenidestowardselectrocatalytichydrogenevolutionreaction.Carbon
+Energy 2023, 5.
+(20) Americo, S.; Pakdel, S.; Thygesen, K. S. Enhancing Metallicity and Basal Plane Reac-
+tivity of 2D Materials via Self-Intercalation. ACS Nano 2024, 18, 4746–4755.
+(21) Liu, Z.; Wang, B.; Cazorla, C. Strain Engineering of Two-Dimensional Piezophotocat-
+alytic Materials for Improved Hydrogen Evolution Reaction. ACS Sustainable Chem-
+istry & Engineering 2022, 10, 16924–16934.
+(22) Voiry, D.; Yamaguchi, H.; Li, J.; Silva, R.; Alves, D. C. B.; Fujita, T.; Chen, M.;
+Asefa,T.; Shenoy,V.B.; Eda,G.; Chhowalla,M.Enhancedcatalyticactivityinstrained
+chemically exfoliated WS2 nanosheets for hydrogen evolution. Nature Materials 2013,
+12, 850–855.
+22
+
+(23) Miracle, D.; Senkov, O. A critical review of high entropy alloys and related concepts.
+Acta Materialia 2017, 122, 448–511.
+(24) Wu,J.; Wang,H.; Liu,N.; Jia,B.; Zheng,J.High-EntropyMaterialsinElectrocatalysis:
+Understanding, Design, and Development. Small 2024,
+(25) Liu, F.; Liaw, P.; Zhang, Y. Recent Progress with BCC-Structured High-Entropy Al-
+loys. Metals 2022, 12, 501.
+(26) Zhang, D.; Shi, Y.; Zhao, H.; Qi, W.; Chen, X.; Zhan, T.; Li, S.; Yang, B.; Sun, M.;
+Lai, J.; Huang, B.; Wang, L. The facile oil-phase synthesis of a multi-site synergistic
+high-entropy alloy to promote the alkaline hydrogen evolution reaction. Journal of
+Materials Chemistry A 2021, 9, 889–893.
+(27) Batchelor, T. A.; Pedersen, J. K.; Winther, S. H.; Castelli, I. E.; Jacobsen, K. W.;
+Rossmeisl, J. High-Entropy Alloys as a Discovery Platform for Electrocatalysis. Joule
+2019, 3, 834–845.
+(28) Wang, R.; Huang, J.; Zhang, X.; Han, J.; Zhang, Z.; Gao, T.; Xu, L.; Liu, S.; Xu, P.;
+Song, B. Two-Dimensional High-Entropy Metal Phosphorus Trichalcogenides for En-
+hanced Hydrogen Evolution Reaction. ACS Nano 2022, 16, 3593–3603.
+(29) Chen, Z. W.; Li, J.; Ou, P.; Huang, J. E.; Wen, Z.; Chen, L.; Yao, X.; Cai, G.;
+Yang, C. C.; Singh, C. V.; Jiang, Q. Unusual Sabatier principle on high entropy alloy
+catalysts for hydrogen evolution reactions. Nature Communications 2024, 15, 359.
+(30) Ren, J.-T.; Chen, L.; Wang, H.-Y.; Yuan, Z.-Y. High-entropy alloys in electrocatalysis:
+from fundamentals to applications. Chemical Society Reviews 2023, 52, 8319–8373.
+(31) Zhang, Q.; Lian, K.; Qi, G.; Zhang, S.; Liu, Q.; Luo, Y.; Luo, J.; Liu, X. High-entropy
+alloys in water electrolysis: Recent advances, fundamentals, and challenges. Science
+China Materials 2023, 66, 1681–1701.
+23
+
+(32) Ying, T.; Yu, T.; Shiah, Y. S.; Li, C.; Li, J.; Qi, Y.; Hosono, H. High-Entropy van der
+Waals Materials Formed from Mixed Metal Dichalcogenides, Halides, and Phosphorus
+Trisulfides. Journal of the American Chemical Society 2021, 143, 7042–7049.
+(33) Qu, J. et al. A Low-Temperature Synthetic Route Toward a High-Entropy 2D Hex-
+ernary Transition Metal Dichalcogenide for Hydrogen Evolution Electrocatalysis. Ad-
+vanced Science 2023, 10.
+(34) Cavin, J.; Ahmadiparidari, A.; Majidi, L.; Thind, A. S.; Misal, S. N.; Prajapati, A.;
+Hemmat, Z.; Rastegar, S.; Beukelman, A.; Singh, M. R.; Unocic, K. A.; Salehi-
+Khojin, A.; Mishra, R. 2D High-Entropy Transition Metal Dichalcogenides for Carbon
+Dioxide Electrocatalysis. Advanced Materials 2021, 33.
+(35) Deshpande, A.; Ratsch, C.; Ciobanu, C. V.; Kodambaka, S. Entropy stabilization of
+two-dimensional transition metal dichalcogenide alloys: A density functional theory
+study. Journal of Applied Physics 2022, 131.
+(36) Bl¨ochl, P. E. Projector augmented-wave method. Physical Review B 1994, 50, 17953–
+17979.
+(37) Enkovaara, J. et al. Electronic structure calculations with GPAW: a real-space imple-
+mentation of the projector augmented-wave method. Journal of Physics: Condensed
+Matter 2010, 22, 253202.
+(38) Mortensen, J. J. et al. GPAW: An open Python package for electronic structure calcu-
+lations. The Journal of Chemical Physics 2024, 160.
+(39) Perdew, J. P.; Burke, K.; Ernzerhof, M. Generalized Gradient Approximation Made
+Simple. Physical Review Letters 1996, 77, 3865–3868.
+(40) Mortensen, J.; Gjerding, M.; Thygesen, K. MyQueue: Task and workflow scheduling
+system. Journal of Open Source Software 2020, 5, 1844.
+24
+
+(41) Rangarajan, S.; Mavrikakis, M. A comparative analysis of different van der Waals
+treatments for molecular adsorption on the basal plane of 2H-MoS2. Surface Science
+2023, 729, 122226.
+(42) Castelli, I. E.; Soriga, S. G.; Man, I. C. Effects of the cooperative interaction on the
+diffusion of hydrogen on MgO(100). The Journal of Chemical Physics 2018, 149.
+(43) Hammer, B.; Hansen, L. B.; Nørskov, J. K. Improved adsorption energetics within
+density-functional theory using revised Perdew-Burke-Ernzerhof functionals. Physical
+Review B 1999, 59, 7413–7421.
+(44) Wellendorff, J.; Lundgaard, K. T.; Møgelhøj, A.; Petzold, V.; Landis, D. D.;
+Nørskov, J. K.; Bligaard, T.; Jacobsen, K. W. Density functionals for surface science:
+Exchange-correlation model development with Bayesian error estimation. Physical Re-
+view B 2012, 85, 235149.
+(45) Hjorth Larsen, A. et al. The atomic simulation environment—a Python library for
+working with atoms. Journal of Physics: Condensed Matter 2017, 29, 273002.
+(46) Zunger, A.; Wei, S.-H.; Ferreira, L. G.; Bernard, J. E. Special quasirandom structures.
+Physical Review Letters 1990, 65, 353–356.
+(47) van de Walle, A.; Asta, M.; Ceder, G. The alloy theoretic automated toolkit: A user
+guide. Calphad 2002, 26, 539–553.
+(48) Nemani, S. K.; Zhang, B.; Wyatt, B. C.; Hood, Z. D.; Manna, S.; Khaledialidusti, R.;
+Hong, W.; Sternberg, M. G.; Sankaranarayanan, S. K.; Anasori, B. High-Entropy 2D
+Carbide MXenes: TiVNbMoC3and TiVCrMoC3. ACS Nano 2021, 15, 12815–12825.
+(49) Ying, T.; Yu, T.; Shiah, Y. S.; Li, C.; Li, J.; Qi, Y.; Hosono, H. High-Entropy van der
+Waals Materials Formed from Mixed Metal Dichalcogenides, Halides, and Phosphorus
+Trisulfides. Journal of the American Chemical Society 2021, 143, 7042–7049.
+25
+
+(50) Saal, J. E.; Kirklin, S.; Aykol, M.; Meredig, B.; Wolverton, C. Materials Design and
+Discovery with High-Throughput Density Functional Theory: The Open Quantum
+Materials Database (OQMD). JOM 2013, 65, 1501–1509.
+(51) Kirklin, S.; Saal, J. E.; Meredig, B.; Thompson, A.; Doak, J. W.; Aykol, M.; Ru¨hl, S.;
+Wolverton,C.TheOpenQuantumMaterialsDatabase(OQMD):assessingtheaccuracy
+of DFT formation energies. npj Computational Materials 2015, 1, 15010.
+(52) Tang, Q.; Jiang, D.-e. Mechanism of Hydrogen Evolution Reaction on 1T-MoS2 from
+First Principles. ACS Catalysis 2016, 6, 4953–4961.
+(53) Ling, F.; Kang, W.; Jing, H.; Zeng, W.; Chen, Y.; Liu, X.; Zhang, Y.; Qi, L.; Fang, L.;
+Zhou, M. Enhancing hydrogen evolution on the basal plane of transition metal dicha-
+colgenide van der Waals heterostructures. npj Computational Materials 2019, 5.
+(54) Hinnemann, B.; Moses, P. G.; Bonde, J.; Jørgensen, K. P.; Nielsen, J. H.; Horch, S.;
+Chorkendorff, I.; Nørskov, J. K. Biomimetic Hydrogen Evolution: MoS2 Nanoparticles
+as Catalyst for Hydrogen Evolution. Journal of the American Chemical Society 2005,
+127, 5308–5309.
+(55) Chou, S. S.; Sai, N.; Lu, P.; Coker, E. N.; Liu, S.; Artyushkova, K.; Luk, T. S.;
+Kaehr, B.; Brinker, C. J. Understanding catalysis in a multiphasic two-dimensional
+transition metal dichalcogenide. Nature Communications 2015, 6, 8311.
+(56) Atkins, P.; De Paula, J. Physical chemistry, 10th ed.; Macmillan, 2006; Vol. 1.
+(57) Nørskov, J. K.; Bligaard, T.; Logadottir, A.; Kitchin, J. R.; Chen, J. G.; Pandelov, S.;
+Stimming, U. Trends in the Exchange Current for Hydrogen Evolution. Journal of The
+Electrochemical Society 2005, 152, J23.
+(58) Huang, Z.; Li, J.; Guo, S.; Liu, J.; Zeng, J.; Yuan, F. Polyacrylonitrile-based 3D N-rich
+26
+
+activated porous carbon synergized with Co-doped MoS2 for promoted electrocatalytic
+hydrogen evolution. Separation and Purification Technology 2025, 354, 129011.
+(59) Zheng, Y.; Jiao, Y.; Zhu, Y.; Li, L. H.; Han, Y.; Chen, Y.; Du, A.; Jaroniec, M.;
+Qiao, S. Z. Hydrogen evolution by a metal-free electrocatalyst. Nature Communications
+2014, 5, 3783.
+(60) Haastrup, S.; Strange, M.; Pandey, M.; Deilmann, T.; Schmidt, P. S.; Hinsche, N. F.;
+Gjerding, M. N.; Torelli, D.; Larsen, P. M.; Riis-Jensen, A. C.; Gath, J.; Jacob-
+sen, K. W.; Jørgen Mortensen, J.; Olsen, T.; Thygesen, K. S. The Computational
+2D Materials Database: high-throughput modeling and discovery of atomically thin
+crystals. 2D Materials 2018, 5, 042002.
+(61) Gjerding, M. N. et al. Recent progress of the Computational 2D Materials Database
+(C2DB). 2D Materials 2021, 8, 044002.
+(62) Nørskov, J. K.; Bligaard, T.; Logadottir, A.; Kitchin, J. R.; Chen, J. G.; Pandelov, S.;
+Stimming, U. Trends in the Exchange Current for Hydrogen Evolution. Journal of The
+Electrochemical Society 2005, 152, J23.
+(63) Chen,Y.; Zhao,Y.; Ou,P.; Song,J.Basalplaneactivationoftwo-dimensionaltransition
+metal dichalcogenides via alloying for the hydrogen evolution reaction: first-principles
+calculations and machine learning prediction. Journal of Materials Chemistry A 2023,
+11, 9964–9975.
+27
+
+TOC Graphic
+28
+
+SUPPORTING INFORMATION
+Mohammad Amin Akhound, Karsten Wedel Jacobsen, and Kristian Sommer
+∗
+Thygesen
+∗
+CAMD, Department of Physics, Technical University of Denmark, DK - 2800 Kongens
+Lyngby, Denmark
+E-mail: akhound@dtu.dk; thygesen@fysik.dtu.dk
+2.0
+1.5
+1.0
+0.5
+0.0
+−0.5
+MoS NbS TiS ZrS HfS CrS VS WS TaS
+2 2 2 2 2 2 2 2 2
+)Ve(
+*HH
+sda
+1T PBE
+1T BEEF
+1T RPBE
+2H PBE
+2H BEEF
+2H RPBE
+Figure S1: Hydrogen adsorption energies on unary TMDCs, calculated using various
+exchange-correlation functionals: PBE, BEEF-vdW, and RPBE, for both the 1T and 2H
+phases.
+1
+4202
+tcO
+9
+]ics-lrtm.tam-dnoc[
+1v67860.0142:viXra
+
+0.8
+0.6
+0.4
+0.2
+0.0
+)MT/Ve(
+ygrenE
+H 1T
+G 1T
+H 2H
+G 2H
+bNrC aTrC VrC WrC rCoM bNoM aToM VoM WoM aTbN VbN WbN VaT WaT WV fHrC iTrC rZrC fHoM iToM rZoM fHbN iTbN rZbN fHaT iTaT rZaT fHV iTV rZV fHW iTW rZW iTfH rZfH rZiT
+Figure S2: Thermodynamic stability of all possible combinations of binary TMDCs with
+equimolar concentrations (AB)S in the 1T and 2H phases, represented through enthalpy
+2
+of formation and free energy calculations at 1000 K. The red/blue color scheme applied to
+the labels indicates the most stable phase for each element in its unary structure, with red
+representing the 2H phase and blue representing the 1T phase.
+2
+
+)MT/Ve(
+ygrenE
+iTfHrC rZfHrC fHoMrC iToMrC rZoMrC fHbNrC iTbNrC rZbNrC fHaTrC iTaTrC rZaTrC rZiTrC fHVrC iTVrC rZVrC iTfHoM rZfHoM fHbNoM iTbNoM rZbNoM fHaToM iTaToM rZaToM rZiToM fHVoM iTVoM rZVoM iTfHbN rZfHbN fHaTbN iTaTbN rZaTbN rZiTbN fHVbN iTVbN rZVbN iTfHaT rZfHaT rZiTaT fHVaT iTVaT rZVaT iTfHV rZfHV rZiTV rZiTfH
+H 1T
+G 1T
+0.6
+H 2H
+G 2H
+0.4
+0.2
+0.0
+−0.2
+Figure S3: Thermodynamic stability of all possible combinations of ternary TMDCs with
+equimolar concentrations (ABC)S in the 1T and 2H phases, represented through enthalpy
+2
+of formation and free energy calculations at 1000 K. The red/blue color scheme applied to
+the labels indicates the most stable phase for each element in its unary structure, with red
+representing the 2H phase and blue representing the 1T phase.
+3
+
+0.10
+0.05
+0.00
+−0.05
+−1.00
+−0.4 −0.2 0.0 0.2 0.4 0.6 0.8
+)MT/Ve(
+ygrene
+eerF
+CrNbHf
+CrNbTi
+CrNbZr
+CrTaHf
+CrTaTi
+CrTaZr
+CrVTi
+NbHfTi
+NbHfZr
+NbTaHf
+NbTaTi
+NbTaZr
+NbTiZr
+NbVTi
+TaHfTi
+TaHfZr
+TaTiZr
+TaVHf
+TaVTi
+HfTiZr
+HH* (eV)
+ads
+FigureS4: RangeofhydrogenadsorptionenergiesonallstableternaryTMDCswithequimo-
+larconcentration(ABC)S inthe1Tphase. Adsorptionenergyvaluesfordifferentadsorption
+2
+sites are indicated by vertical black lines, while the colormap represents the free energy of
+each structure at 1000 K.
+4
+
+)MT/Ve(
+ygrenE
+0.5
+0.4
+0.3
+0.2
+0.1
+0.0
+−0.1
+rZiTfHrC iTfHbNrC rZfHbNrC rZiTbNrC iTfHaTrC rZfHaTrC rZiTaTrC iTfHVrC rZfHVrC rZiTVrC rZiTfHbN iTfHaTbN rZfHaTbN rZiTaTbN iTfHVbN rZfHVbN rZiTVbN rZiTfHaT iTfHVaT rZfHVaT rZiTVaT rZiTfHV
+H 1T
+G 1T
+H 2H
+G 2H
+Figure S5: Thermodynamic stability of quaternary TMDCs with equimolar concentrations
+(ABCD)S in the 1T and 2H phases, represented through enthalpy of formation and free
+2
+energy calculations at 1000 K. The red/blue color scheme applied to the labels indicates
+the most stable phase for each element in its unary structure, with red representing the 2H
+phase and blue representing the 1T phase.
+(a) (b)
+(c) (d)
+Figure S6: Top and side views of 2 2 unary TMDCs in the (a) 1T and (b) 2H phases,
+×
+included in all calculations. Top views of 2 2 binary TMDCs with equimolar concentration
+×
+(AB)S in the (c) 1T and (d) 2H phases, as considered in all computational analyses.
+2
+5
+
+(a) (d)
+(b) (e)
+(c) (f)
+Figure S7: Different random configurations of 3 3 ternary TMDCs with equimolar concen-
+×
+tration (ABC)S in the (a-c) 1T and (d-f) 2H phases, as considered in all calculations.
+2
+6
+
+(a) (d)
+(b) (e)
+(c) (f)
+Figure S8: Different random configurations of 4 4 quaternary TMDCs with equimolar con-
+×
+centration (ABCD)S in the (a-c) 1T and (d-f) 2H phases, as considered in all calculations.
+2
+(a) (b)
+Figure S9: Special quasi-random structures (SQS) of 5 5 pentanary TMDCs with equimolar
+×
+concentration (ABCDE)S in the (a) 1T and (b) 2H phases, as considered in all calculations.
+2
+7
+
+Table S1: Enthalpy of formation (∆H ), free energy of mixing (∆G ) at 1000 K, and
+f mix
+energy above the convex hull (∆H ) for all high-entropy alloys at their more stable phase.
+hull
+Alloy Composition Phase ∆H (eV/TM) ∆G (eV/TM) ∆H (eV/TM)
+f mix hull
+(CrNbHfTiZr) S 1T 0.0804 -0.0585 0.1193
+0.2 2
+(CrNbTaHfTi) S 1T 0.0484 -0.0905 0.0817
+0.2 2
+(CrNbTaHfZr) S 1T 0.0848 -0.0541 0.1218
+0.2 2
+(CrNbTaTiZr) S 1T 0.0507 -0.0882 0.1028
+0.2 2
+(CrNbVHfTi) S 1T 0.1062 -0.0327 0.1271
+0.2 2
+(CrNbVHfZr) S 1T 0.1479 0.0090 0.1851
+0.2 2
+(CrNbVTiZr) S 1T 0.1099 -0.0290 0.1487
+0.2 2
+(CrTaHfTiZr) S 1T 0.0299 -0.1090 0.0583
+0.2 2
+(CrTaVHfTi) S 1T 0.0598 -0.0791 0.0883
+0.2 2
+(CrTaVHfZr) S 1T 0.0989 -0.0400 0.1102
+0.2 2
+(CrTaVTiZr) S 1T 0.0633 -0.0756 0.0916
+0.2 2
+(CrVHfTiZr) S 1T 0.1508 0.0119 0.1641
+0.2 2
+(NbTaHfTiZr) S 1T 0.0826 -0.0563 0.1040
+0.2 2
+(NbTaVHfTi) S 1T 0.0642 -0.0747 0.0858
+0.2 2
+(NbTaVHfZr) S 1T 0.1040 -0.0349 0.1368
+0.2 2
+(NbTaVTiZr) S 1T 0.0665 -0.0724 0.0973
+0.2 2
+(TaVHfTiZr) S 1T 0.0654 -0.0735 0.0868
+0.2 2
+(CrMoNbWTi) S 2H 0.1597 0.0208 0.1786
+0.2 2
+(CrMoTaWTi) S 2H 0.1561 0.0172 0.1875
+0.2 2
+(CrNbTaWTi) S 2H 0.1517 0.0128 0.1840
+0.2 2
+(MoNbTaVTi) S 2H 0.1403 0.0014 0.1485
+0.2 2
+(MoNbTaWTi) S 2H 0.1352 -0.0037 0.1572
+0.2 2
+8
+

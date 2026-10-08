@@ -1,0 +1,386 @@
+ORIGINALRESEARCH
+published:25March2022
+doi:10.3389/fmats.2022.827333
+In-Situ
+Study of Microstructure
+Evolution of Spinodal Decomposition
+in an Al-Rich High-Entropy Alloy
+CameronS. Jorgensen1,Louis J. Santodonato1,2, Kenneth C.Littrell3, ChihHsiang Kuo1,
+Chanho Lee1,Raymond R. Unocic4,Peter K.Liaw1,Dustin A.Gilbert1,5and
+Lisa M.DeBeer-Schmitt2*
+1DepartmentofMaterialsSciencesandEngineering,TheUniversityofTennessee,Knoxville,TN,UnitedStates,2Neutron
+ScatteringDivision,OakRidgeNationalLaboratory,OakRidge,TN,UnitedStates,3NeutronTechnologyDivision,OakRidge
+NationalLaboratory,OakRidge,TN,UnitedStates,4CenterforNanophaseMaterialsSciences,OakRidgeNationalLaboratory,
+OakRidge,TN,UnitedStates,5DepartmentofPhysicsandAstronomy,UniversityofTennessee,Knoxville,TN,UnitedStates
+High-entropyalloys(HEAs)arematerialswhichleveragetheentropyofmixingtomotivate
+the formation of single-phase solid solutions, even of immiscible elements. While these
+materials are well-recognized for their application to structural engineering, there is
+increasing interest in the use of HEAs for functional applications such as memory
+Editedby: storage and energy devices. The current work investigates the HEA Al 1.3 CoCrCuFeNi,
+DongchanJang, whichhasbeenpreviouslyshowntobesingle-phaseathightemperatures,butundergoes
+KoreaAdvancedInstituteofScience
+phase separation at lower temperatures, transforming the structural and the functional
+andTechnology,SouthKorea
+properties. This phase separation is investigated at high temperatures with in-situ small
+Reviewedby:
+VenkataSaiKiranChakravadhanula, angle neutron scattering (SANS) and scanning transmission electron microscopy (EDS).
+SkyrootAerospacePrivateLimited, Thesetechniquesshowthatincreasingthetemperatureupto800°C,themicrostructureof
+India
+SongqinXia,
+theHEAadiabaticallydisordersandabruptlyhomogenizesnear700°C,whichisconsistent
+NorthChinaElectricPowerUniversity, withspinodaldecomposition.Overall,themicrostructuralevolutionproceedsmainlybythe
+China
+atomisticredistributionoftheconstituentelementswithinsimplecrystallattices,producing
+*Correspondence:
+coherent phase mixtures.
+LisaM.DeBeer-Schmitt
+debeerschmlm@ornl.gov
+Keywords:high-entropyalloy(HEA),insitu,spinodaldecomposition,microstructure,SANS(small-angleneutron
+scattering)
+Specialtysection:
+Thisarticlewassubmittedto
+MechanicsofMaterials,
+INTRODUCTION
+asectionofthejournal
+FrontiersinMaterials
+Received:01December2021 High-entropyalloys(HEAs)havebeenthefocusofresearchsincetheirdiscoveryin2004duetotheir
+Accepted:01March2022 potentialinstructuralapplications(Tongetal.,2005a)andmorerecentlyfunctionaldevicessuchas
+Published:25March2022 memorystorageandenergytechnologies(Wangetal.,2021).Thesematerialsarecomprisedoffive
+Citation: ormoreelementswhichrandomlyoccupyasinglelatticesiteinanotherwiseorderedcrystallattice;
+JorgensenCS,SantodonatoLJ, the large entropy from the chemical disorder can stabilize alloy compositions even between
+LittrellKC,KuoCH,LeeC,UnocicRR, immiscible elements. The Al CoCrCuFeNi family of HEAs was among the first to be studied,
+x
+LiawPK,GilbertDAand andcontinuestoprovidechallengesandopportunitiesforresearchersseekingtobetterunderstand
+DeBeer-SchmittLM(2022)In-Situ phase stability, phase separation, and microstructure development in advanced alloys (Yeh et al.,
+StudyofMicrostructureEvolutionof
+2004;Tongetal.,2005b;Zhangetal.,2014;Santodonatoetal.,2015;Gaoetal.,2016;Miracleand
+SpinodalDecompositioninanAl-Rich
+Senkov,2017;Xuetal.,2018;Panetal.,2021).HEAswereinitiallyrecognizedfortheirtendencyto
+High-EntropyAlloy.
+formsingle-phasesolidsolutions(e.g.,alloys)withexcellentmechanicalpropertiessuchashighyield
+Front.Mater.9:827333.
+doi:10.3389/fmats.2022.827333 strength and hardness, which can be systematically varied by changing the aluminum content
+FrontiersinMaterials|www.frontiersin.org 1 March2022|Volume9|Article827333
+
+Jorgensenetal. SpinodalDecompositionHigh-EntropyAlloy
+(x-parameter)(Yehetal.,2004;Tongetal.,2005b).Subsequent preparation (Giannuzzi and Stevie, 1999) and it is well known
+studies,particularlybyYehetal.(2004)andTongetal.(2005b), that preparation using this method results in Ga+ implantation
+have revealed more details about this system, including phase (LangfordandPetford-Long,2001).However,thefinalcleaning
+separation between the Al-Ni and Cr-Fe for compositions with at 5kV reduces the Ga defects in the final specimen (Langford
+precentagesAl≥1.Commensuratewiththephaseseparationis et al., 2001). The in-situ STEM heating experiments were
+anenhancementofthehardnessandductility(Wangetal.,2009; performed from room temperature to 800°C on a Hitachi HF-
+Singhetal.,2011;Tangetal.,2015).Theinterfacebetweenthese 3300STEM,operatingat300kV,rampingthetemperatureat5°C
+phaseshasbeenproposedtobecoherent,afeaturewhichstrongly per minute then holding the temperature constant for 30min
+contributes to the improved structural performance in modern beforeimaging.STEM-EDSelementalmapswereacquiredusing
+superalloys(Zhaoetal.,2003;Prasheretal.,2019).Inboththex= a Bruker silicon drift EDS detector at 256 × 192 pixels, a pixel
+1andx=1.3compositions,phaseseparationofAl-NiandCr-Fe dwelltimeof13ms,withanoverallacquisitiontimeof11min.
+isreportedatroomtemperature,whileathigh-temperaturesthe Small-angle neutron scattering studies were conducted at the
+material is a single homogenized phase. The dissolution of the HighFluxIsotopeReactor(HFIR)ontheGeneral-PurposeSANS
+two phases has been proposed to occur by spinodal beamline (GP-SANS) (Wignall et al., 2012). This technique is
+decomposition (Welk et al., 2013; Santodonato et al., 2015). sensitive to the microstructure of the material, specifically
+The high-temperature transformation is determined by the chemical phase separation and the resulting change in the
+Gibbs free energy, which couples the temperature to the nuclear scattering length density. The instrument was
+entropy, affirming the role of the HEA paradigm in configured to use a neutron wavelength (λ) of 8Å with the
+determining the ordering. resolution Δλ/λ of 0.15. The sample-to-detector distance of
+The high-temperature, entropically-driven transformation is 19.3m was chosen to provide a q-range of 0.002Å-1 to 0.04Å-
+thefocusofthecurrentwork.Ourpreviousworkhasinvestigated 1 for observing microstructural features in the size range of
+theHEAAl CoCrCuFeNiusingin-situdiffractionwhileheating 160–3,100Å. A tube furnace exposed to atmosphere was used
+1.3
+throughthetransition,capturingchangesinthecrystalstructure to control the sample temperature during the SANS
+(Santodonato et al., 2015), but had little sensitivity to the measurements, up to 800°C, allowing in-situ measurement of
+microstructure or chemical ordering. Using differential thestructure.Thetemperaturewasinitiallyheatedto400°Cwith
+thermal analysis and room-temperature microscopy, it has aramprateof20°C/sandthenrampedtohighertemperaturesby
+been proposed that the transformation occurs by spinodal 50°C every 15min. The SANS prepared samples were 10mm
+decomposition (SD) at ≈600°C. During the SD, the diameter disks with a thicknesses of 1mm.
+microstructure is proposed to change abruptly, with discrete,
+well-defined phases merging at higher temperatures into a
+homogenized alloy. Due to the strong dependence of the RESULTS AND DISCUSSION
+macroscopic structural properties on the microstructure and
+compositional disorder (homogeneity), it is critical to develop Thefirststepofthein-situSTEM-EDSstudywastoreproducethe
+a thorough understanding of the structure before, during and previously reported room-temperature microstructure of the
+after the SD. The present study uses in-situ heating with small- Al CoCrCuFeNi alloy (Santodonato et al., 2018). The as-cast
+1.3
+angle neutron scattering (SANS) and scanning transmission metalhasadendriticmicrostructure,withCu-leandendritesand
+electron microscopy (STEM) with energy dispersive x-ray Cu-rich inter-dendrites, spanning several hundred microns in
+spectroscopy (EDS) to investigate the temperature-dependent scale (not shown). Within the dendrites, a periodic
+formation and distribution of phases, confirming the SD microstructure consisting of Cr-Fe rich plates in a matrix of
+transition in Al CoCrCuFeNi. Al-Ni of is observed and shown in Figure 1. The Cr-Fe has a
+1.3
+body-centered-cubic (BCC) structure, with the plate growth
+direction normal to the <1 0 0 > vectors (Wang et al., 2009);
+EXPERIMENTAL theAl-NimatrixhasanorderedBCC(i.e.,B2)structure.These
+two phases have nearly equal lattice parameters of ≈2.9Å,
+Sampleswerefabricatedusingstandardarcmeltingtechniquesas allowing for a coherent interface, characterized previously by
+describedpreviously(Zhaoetal.,2003;Ohmuraetal.,2006;Lee Welket.al.(Welketal.,2013)TheCo(notshown)isincludedin
+etal.,2018;Leeetal.,2020a;Leeetal.,2020b).Thesamplesforin- both the Cr-Fe and the Al-Ni phases, with a signal appearing
+situSTEMheatingexperimentswerepreparedbyfirstsectioning throughoutthedendrites.TheCuisshowntoformitsownplates
+the as-cast ingots into ≈5mm cube-shaped pieces. A Hitachi thatareseparatefromboththeCr-FeandtheAl-Ni,whichhavea
+NB5000Ga+focusedionbeam(FIB)operatedat40kVGa+was face-centeredcubic(FCC)structure(Xuetal.,2018).Mostofthe
+thenusedtoextractandthin(≈100nm)specimens,followedbya CuinthesampleformsFCCphasesintheinter-dendriticregions
+low 5kV surface cleaning procedure. An in-situ (Tong et al., 2005b; Santodonato et al., 2015; Xu et al., 2018).
+micromanipulator was subsequently employed to transfer the TheseFCCinter-dendriticzonesarestabletotemperaturesnear
+specimen onto a MEMS fabricated heating microchip device, themeltingpointofpureCu(1,085°C).Incontrast,theoriented-
+(Protochips, Inc. Morrisville, NC), following the protocol platemicrostructureofthedendriteregionundergoessignificant
+outlined by Duchamp et al. (2014) FIB milling is an changesbetweenroomtemperatureand800°C;whichisthemain
+established technique for traditional TEM specimen focus of the present in-situ study.
+FrontiersinMaterials|www.frontiersin.org 2 March2022|Volume9|Article827333
+
+Jorgensenetal. SpinodalDecompositionHigh-EntropyAlloy
+FIGURE1|EDSelementalmapsacquiredduringin-situSTEMheatingexperimentsofAl CoCrCuFeNi:(toptobottom)20,600,650,and700°C.Imagesshow
+1.3
+thecompositionaldistributionsfor(lefttoright)Cr,Cu,Al,Fe,andNi.Scalebaris5,000Å.
+The STEM-EDS images in Figure 1 show that the Furthermore, the Cu is largely segregated to the inter-dendrite
+microstructure of the sample gradually changes as the alloy is boundarywhichissufficientlylargeinscale(>1μm)thatitwill
+heatedfromroomtemperatureto600°C.STEMimagesshowing not show up in the SANS data.
+the microstructure were published in a previous work TheSANSmeasurementswereperformedwithin-situheating
+(Santodonato et al., 2015). As the Cr images emphasize, at from room temperature to 800°C using the Al CoCrCuFeNi
+1.3
+600°C the plates become larger, with an increasingly diffuse sample,presentedinFigure2A.TheSANSscatteringpatternsare
+boundary. Increasing the temperature to 650°C further plotted as a radial average of the intensity as a function of the
+degrades the plates, causing them to lose their well-defined scattering vector, Q. Allof the SANS patterns show a smoothly
+structure and coherent orientation. At 650°C the Fe leaves the changing, Porod-like decay. The size distribution of the
+Cr, entering the Al-Ni phase, which now forms a matrix with microstructural phases was determined by analyzing the SANS
+voids for Cr and Cu. patterns using the IRENA package (Ilavsky and Jemian, 2009).
+Finally, heating to 700°C further homogenizes the sample, This package uses the cross-sectional scattering formula of
+r
+p
+e
+r
+s
+e
+u
+c
+l
+i
+t
+p
+in
+it
+g
+ate
+i
+s
+n
+.
+a
+T
+d
+h
+i
+e
+sord
+C
+e
+o
+red
+m
+d
+ic
+is
+r
+p
+o
+e
+g
+r
+r
+s
+a
+i
+p
+o
+h
+n o
+s
+f
+ho
+C
+w
+r-
+s
+rich
+tha
+a
+t
+nd
+a
+C
+t
+u-
+h
+r
+i
+i
+g
+ch
+h
+I(Q)(cid:2)
+(cid:1)(cid:1)(cid:1)(cid:1)Δϱ (cid:1)(cid:1)(cid:1)(cid:1)2(cid:3)|F(Q,r)|2(V(r))2N
+p
+(r)dr
+temperatures the Co is intermixed predominantly with the
+AlFeNi matrix. High-temperature neutron diffraction spectra Where,I(Q)isthe1Dscatteringintensity,Δϱ isthedifferencein
+presented in Santodonato et al. (2015) shows little change to scatteringlengthdensity,F(Q,r)isthestructurefactor,V(r)is
+theunderlyingcrystal structurebetweenroomtemperature and thevolumefraction,andN p (r)isthenumberofparticles.Forthe
+1,000°C. Comparing the STEM-EDS results shown here to the calculated analysis method, the experimental scattering pattern
+diffraction spectra indicates that the microstructural changes can be reasonably well characterized by assuming an average
+occur without significant changes to the underlying crystal sphericalshape,scatteringlengthdensitydifferenceandcontrast
+structures, consistent with SD. foralltheparticlesinthissample.Thisanalysisperformsaleast-
+WhiletheSTEMimagesshowthelocalmicrostructureinthe squaresfittodeterminethereal-spacesizedistributionoffeatures
+FIB-defined flake sample, a broader perspective of the bulk withinthesample.Theroom-temperaturedatashowsabimodal
+microstructure is necessary to confirm these results. Small distribution,withapeakat≈120Å(Figure2B),consistentwith
+angle neutron scattering is used as a bulk-technique, which is theperiodicityoftheplateletsintheSTEMimages.Thesecond,
+sensitivetomicrostructuralchangesintheproposedlengthscales broader peak in the room-temperature curve occurs at ≈550Å.
+but is insensitive to the crystal structure. The platelets of the Thispeakisnotpresentinthe400°Cdataandisproposedtobea
+differentphaseseachhaveadistinctcalculatedneutronscattering magnetic scattering peak as it agrees well with the expected
+length density: Cr (3.28 × 10
+−6Å −2),
+Cu (6.55 × 10
+−6Å −2),
+and magnetic transition below 400°C. (Huang et al., 2016) This
+AlFeNiCo(6.02×10
+−6Å −2).Thisdifferenceenablestheneutron
+indicates that the sample likely contains magnetic domains
+to diffract from the plates, providing the measured signal. spanning across areas of the sample much larger than the
+FrontiersinMaterials|www.frontiersin.org 3 March2022|Volume9|Article827333
+
+Jorgensenetal. SpinodalDecompositionHigh-EntropyAlloy
+FIGURE2|(A)The1D(SANS)forAl CoCrCuFeNiandthesizedistributionanalysis.(B)SizedistributionfromtheIRENAsizedistributiontool.(C)Trendsinthe
+1.3
+dataofthesizedistributionofmodeandfull-widthathalfmaximum(FWHM).(D)Volumefractionaspercentage.
+platelets. Upon increasing the temperature to 600°C, the SANS lowertemperatures.Subtlechangesinthemicrostructureoccurwith
+datashowsacontinuousshifttolargerdiametersofthescattering increasing temperatures between 400 and 600°C; these gradual
+centers.Accompanyingthisshiftisacontinuousdecreaseinthe changes correspond primarily to structures in the 120–200Å
+relative volume fraction (Figure 2D). These details are again range. The STEM-EDS images corroborate the growth of the
+consistent with the STEM-EDS results, which showed that the nanoscale plate-like microstructure of the sample. At 650°C the
+plate-like structure became larger upon approaching the SD STEM-EDSresultsshowthattheplatesbegintolosetheirregularity
+temperature. At 600°C the STEM images also show that the andstructure,thenat700°Cthesampletransformsfromanordered,
+boundaries of the plates are merging together as seen in the quasi-oriented structure to a disordered microstructure. The
+significantincreaseinthefull-widthathalf-maximumofthesize sequence of gradual elemental redistribution, followed by an
+distribution(Figure2Credcurve),increasingtheirsizebeyond abrupt microstructural change, strongly suggests that a spinodal
+the range of these measurements and thus decreasing the transformation occurs in Al CoCrCuFeNi, and likely in other
+1.3
+apparent volume fraction. similar alloys, as suggested in the early HEA literature (Wang
+As the temperature increased to the SD range, at 650°C the etal.,2021).
+distributionofthescatteringcentersizesincreasessignificantlyin
+widthanddecreasesintheiraveragesize.Thistrendisconsistent
+withareductionintheperiodicityoftheplatestructureandthe CONCLUSION
+merging of the Al, Fe and Ni features seen in the STEM-EDS
+images in Figure 1. Finally, heating above 650°C, the size The microstructure evolution of the high-entropy alloy
+distribution is largely flat, indicating the loss of long-range Al CoCrCuFeNi is shown to occur by the precipitation/
+1.3
+regularity of the plate-like structures. dissolution of ordered Fe-Cr and Al-Ni nanoplatelet phases.
+TosummarizethecombinedSANSandSTEM-EDSresults,an These chemically distinct phases have similar lattice structures
+expectedmagnetictransitionisobservedbySANSbetween20and andparameters,allowingforacoherentinterfacebetweenthem,
+400°Cduetothelossofthemagneticdomainstructurepresentat but making it difficult to distinguish them by diffraction. The
+FrontiersinMaterials|www.frontiersin.org 4 March2022|Volume9|Article827333
+
+Jorgensenetal. SpinodalDecompositionHigh-EntropyAlloy
+current in-situ measurements (SANS and STEM-EDS) are AUTHOR CONTRIBUTIONS
+uniquely sensitive to the chemical phase separation and were
+usedtodirectlyprobethisphasetransition.Usingthissensitivity, CJ, LD-S, and DG reduced and analyzed the SANS and
+the present work provides a direct look at the spinodal microscopy data. LS and PL, initiated the research concept
+decomposition previously proposed. In addition to the SD and organized the experiments. CJ, LD-S, LS, and DG
+between the Al-Ni and Fe-Cr phases, Cu-rich and Cr-rich contributed to the manuscript. LS and RU conducted the in-
+secondary phases are observed to persist throughout the situ microscopy experiments. LD-S, LS, and KL performed the
+matrix at high temperatures. Throughout the transformation SANS experiment and helped interpret the data. CK and CL
+and homogenization process, the sample maintains a similar fabricated the sample.
+lattice structure and nearly constant size (Santodonato et al.,
+2015), implying the transformation is predominantly chemical
+ordering, with minimal structural contributions. FUNDING
+Thecurrent work, together with the previous studies (Yeh
+etal.,2004;Tongetal.,2005b;Santodonatoetal.,2015;Zhang PL very much appreciates the supports from 1) the National
+etal.,2016;ButlerandWeaver,2017;Xuetal.,2018),confirms ScienceFoundation(DMR-1611180and1809640)withprogram
+that Al CoCrCuFeNi has a unique structure, consisting of a directors,J.Yang,G.Shiflet,andD.Farkasand2)theUSArmy
+1.3
+solid-solutionmatrixwithalargefractionofsecondaryphases ResearchOffice(W911NF-13–1-0438andW911NF-19–2-0049)
+atroomtemperature,andup to 650°C. Thesecondaryphases withprogrammanagers,M.P.Bakas,S.N.Mathaudhu,andD.
+arisefrombothspinodaldecompositionandtheindependent M. Stepp.
+precipitation Cu-rich phases, occurring in stages at different
+temperatures.Thesephaseseparationprocessesmaybeusedto
+selectively tune heat treatment for beneficial properties if ACKNOWLEDGMENTS
+properly understood and controlled. The coexistence of
+different formation mechanisms and the coherency of some A portion of this research used resources at the High Flux
+of the resulting phases provides opportunities to explore IsotopeReactor,aDOEOfficeofScienceUserFacilityoperated
+property optimization through microstructure control. It by the Oak Ridge National Laboratory. The in-situ STEM
+has been noted that many important engineering alloys, experiments were conducted at the Center for Nanophase
+such as Ni-based superalloys, owe their strength to the Materials Sciences, which is a DOE Office of Science User
+presence of coherent precipitates, hence similar features Facility. This manuscript has been authored by UT-Battelle,
+developed in high-entropy alloys may bring extraordinary LLC under Contract No. DE-AC05-00OR22725 with the U.S.
+benefits (Santodonato et al., 2015). It is in this context that Department of Energy. The United States Government retains
+the Al CoCrCuFeNi family of alloys should undergo further and the publisher, by accepting the article for publication,
+x
+scientific and technical study, providing great opportunities acknowledges that the United States Government retains a
+for advanced alloy development. non-exclusive, paid-up, irrevocable, world-wide license to
+publish or reproduce the published form of this manuscript,
+or allow others to do so, for United States Government
+DATA AVAILABILITY STATEMENT purposes. The Department of Energy will provide public
+access to these results of federally sponsored research in
+The raw data supporting the conclusion of this article will be accordance with the DOE Public Access Plan (http://energy.
+made available by the authors, without undue reservation. gov/downloads/doe-public-access-plan).
+REFERENCES Ilavsky,J.,andJemian,P.R.(2009).Irena:ToolSuiteforModelingandAnalysisof
+Small-Angle Scattering. J. Appl. Cryst. 42, 347–353. doi:10.1107/
+s0021889809002222
+Butler,T.M.,andWeaver,M.L.(2017).InvestigationofthePhaseStabilitiesin Langford,R.M.,Huang,Y.Z.,Lozano-Perez,S.,Titchmarsh,J.M.,andPetford-
+AlNiCoCrFeHighEntropyAlloys.J.AlloysComp.691,119–129.doi:10.1016/j. Long, A. K. (2001). Preparation of Site Specific Transmission Electron
+jallcom.2016.08.121 Microscopy Plan-View Specimens Using a Focused Ion Beam System.
+Duchamp,M.,Xu,Q.,andDunin-Borkowski,R.E.(2014).ConvenientPreparation J.Vac.Sci.Technol.B19(3),755–758.doi:10.1116/1.1371317
+ofHigh-QualitySpecimensforAnnealingExperimentsintheTransmission Langford, R. M.,and Petford-Long, A.K.(2001). Preparation ofTransmission
+Electron Microscope. Microsc. Microanal 20 (6), 1638–1645. doi:10.1017/ Electron Microscopy Cross-Section Specimens Using Focused Ion Beam
+S1431927614013476 Milling. J. Vacuum Sci. Techn. A: Vacuum, Surf. Films 19 (5), 2186–2193.
+Gao,M.C.,Yeh,J.-W.,Liaw,P.K.,andZhang,Y.(2016).High-EntropyAlloys.1 doi:10.1116/1.1378072
+edn,1536.Cham,Switzerland:SpringerInternational. Lee,C.,Chou,Y.,Kim,G.,Gao,M.C.,An,K.,Brechtl,J.,etal.(2020a).Lattice-
+Giannuzzi,L.A.,andStevie,F.A.(1999).AReviewofFocusedIonBeamMilling Distortion-EnhancedYieldStrengthinaRefractoryHigh-EntropyAlloy.Adv.
+TechniquesforTEMSpecimenPreparation.Micron30(3),197–204.doi:10. Mater.32(49),2004029.doi:10.1002/adma.202004029
+1016/s0968-4328(99)00005-0 Lee, C., Kim, G., Chou, Y., Musicó, B. L., Gao, M. C., An, K., et al. (2020b).
+Huang,S.,Li,W.,Li,X.,Schönecker,S.,Bergqvist,L.,Holmström,E.,etal.(2016). Temperature Dependence of Elastic and Plastic Deformation Behavior of a
+MechanismofMagneticTransitioninFeCrCoNi-BasedHighEntropyAlloys. RefractoryHigh-Entropyalloy.Sci.Adv.6(37),eaaz4748.doi:10.1126/sciadv.
+Mater.Des.103,71–74.doi:10.1016/j.matdes.2016.04.053 aaz4748
+FrontiersinMaterials|www.frontiersin.org 5 March2022|Volume9|Article827333
+
+Jorgensenetal. SpinodalDecompositionHigh-EntropyAlloy
+Lee,C.,Song,G.,Gao,M.C.,Feng,R.,Chen,P.,Brechtl,J.,etal.(2018).Lattice Welk,B.A.,Williams,R.E.A.,Viswanathan,G.B.,Gibson,M.A.,Liaw,P.K.,and
+Distortion in a strong and Ductile Refractory High-Entropy alloy. Acta Fraser,H.L.(2013).NatureoftheInterfacesbetweentheConstituentPhasesin
+Materialia160,158–172.doi:10.1016/j.actamat.2018.08.053 theHighEntropyalloyCoCrCuFeNiAl.Ultramicroscopy134,193–199.doi:10.
+Miracle,D.B.,andSenkov,O.N.(2017).ACriticalReviewofHighEntropyAlloys 1016/j.ultramic.2013.06.006
+and Related Concepts. Acta Materialia 122, 448–511. doi:10.1016/j.actamat. Wignall,G.D.,Littrell,K.C.,Heller,W.T.,Melnichenko,Y.B.,Bailey,K.M.,Lynn,
+2016.08.081 G.W.,etal.(2012).The40MGeneralPurposeSmall-AngleNeutronScattering
+Ohmura,T.,Tsuzaki,K.,Sawada,K.,andKimura,K.(2006).InhomogeneousNano- Instrument at Oak Ridge National Laboratory. J. Appl. Cryst. 45, 990–998.
+MechanicalPropertiesintheMulti-phaseMicrostructureofLong-TermAgedType doi:10.1107/S0021889812027057
+316StainlessSteel.J.Mater.Res.21(5),1229–1236.doi:10.1557/jmr.2006.0143 Xu, X. D., Liu, P., Tang, Z., Hirata, A., Song, S. X., Nieh, T. G., et al. (2018).
+Pan,Q.,Zhang,L.,Feng,R.,Lu,Q.,An,K.,Chuang,A.C.,etal.(2021).Gradient TransmissionElectronMicroscopyCharacterizationofDislocationStructurein
+Cell-StructuredHigh-EntropyalloywithExceptionalStrengthandDuctility. aFace-Centered CubicHigh-EntropyalloyAl0.1CoCrFeNi.ActaMaterialia
+Science374(6570),984–989.doi:10.1126/science.abj8114 144,107–115.doi:10.1016/j.actamat.2017.10.050
+Prasher,M.,Sen,D.,Bahadur,J.,Tewari,R.,andKrishnan,M.(2019).Correlative Yeh,J.-W.,Chen,S.-K.,Lin,S.-J.,Gan,J.-Y.,Chin,T.-S.,Shun,T.-T.,etal.(2004).
+SANS and TEM Investigation on Precipitation Kinetics of H-phase in NanostructuredHigh-EntropyAlloyswithMultiplePrincipalElements:Novel
+Ni50.3Ti29.7Hf20 High Temperature Shape Memory alloy. J. Alloys Comp. alloyDesignConceptsandOutcomes.Adv.Eng.Mater.6,299–303.doi:10.
+779,630–642.doi:10.1016/j.jallcom.2018.11.303 1002/adem.200300567
+Santodonato,L.J.,Liaw,P.K.,Unocic,R.R.,Bei,H.,andMorris,J.R.(2018). Zhang,C.,Zhang,F.,Diao,H.,Gao,M.C.,Tang,Z.,Poplawsky,J.D.,etal.(2016).
+PredictiveMultiphaseEvolutioninAl-ContainingHigh-EntropyAlloys.Nat. UnderstandingPhaseStabilityofAl-Co-Cr-Fe-NiHighEntropyAlloys.Mater.
+Commun.9,4520.doi:10.1038/s41467-018-06757-2 Des.109,425–433.doi:10.1016/j.matdes.2016.07.073
+Santodonato,L.J.,Zhang,Y.,Feygenson,M.,Parish,C.M.,Gao,M.C.,Weber,R. Zhang,Y.,Zuo,T.T.,Tang,Z.,Gao,M.C.,Dahmen,K.A.,Liaw,P.K.,etal.(2014).
+J.K.,etal.(2015).DeviationfromHigh-EntropyConfigurationsintheAtomic MicrostructuresandPropertiesofHigh-EntropyAlloys.Prog.Mater.Sci.61,
+Distributions of a Multi-Principal-Element alloy. Nat. Commun. 6, 5964. 1–93.doi:10.1016/j.pmatsci.2013.10.001
+doi:10.1038/ncomms6964 Zhao,S.,Xie,X.,Smith,G.D.,andPatel,S.J.(2003).MicrostructuralStabilityand
+Singh, S., Wanderka, N., Murty, B. S., Glatzel, U., and Banhart, J. (2011). MechanicalPropertiesofaNewNickel-BasedSuperalloy.Mater.Sci.Eng.A355
+Decomposition in Multi-Component AlCoCrCuFeNi High-Entropy alloy. (1-2),96–105.doi:10.1016/S0921-5093(03)00051-0
+ActaMaterialia59,182–190.doi:10.1016/j.actamat.2010.09.023
+Tang,Z.,Senkov,O.N.,Parish,C.M.,Zhang,C.,Zhang,F.,Santodonato,L.J.,etal. ConflictofInterest:Theauthorsdeclarethattheresearchwasconductedinthe
+(2015).TensileDuctilityofanAlCoCrFeNiMulti-phaseHigh-Entropyalloy absenceofanycommercialorfinancialrelationshipsthatcouldbeconstruedasa
+throughHotIsostaticPressing(HIP)andHomogenization.Mater.Sci.Eng.A potentialconflictofinterest.
+647,229–240.doi:10.1016/j.msea.2015.08.078
+Tong, C.-J., Chen, M.-R., Yeh, J.-W., Lin, S.-J., Chen, S.-K., Shun, T.-T., et al. Publisher’sNote:Allclaimsexpressedinthisarticlearesolelythoseoftheauthors
+(2005a).MechanicalPerformanceoftheAlXCoCrCuFeNiHigh-Entropyalloy anddonotnecessarilyrepresentthoseoftheiraffiliatedorganizations,orthoseof
+SystemwithMultiprincipalElements.Metall.MatTrans.A.36(5),1263–1271. thepublisher,theeditorsandthereviewers.Anyproductthatmaybeevaluatedin
+doi:10.1007/s11661-005-0218-9 thisarticle,orclaimthatmaybemadebyitsmanufacturer,isnotguaranteedor
+Tong, C.-J., Chen, Y.-L., Yeh, J.-W., Lin, S.-J., Chen, S.-K., Shun, T.-T., et al. endorsedbythepublisher.
+(2005b).MicrostructureCharacterizationofAlXCoCrCuFeNiHigh-Entropy
+alloySystemwithMultiprincipalElements.Metall.MatTrans.A.36,881–893. Copyright©2022Jorgensen,Santodonato,Littrell,Kuo,Lee,Unocic,Liaw,Gilbert
+doi:10.1007/s11661-005-0283-0 andDeBeer-Schmitt.Thisisanopen-accessarticledistributedunderthetermsofthe
+Wang,X.,Guo,W.,andFu,Y.(2021).High-entropyAlloys:EmergingMaterials Creative Commons Attribution License (CC BY). The use, distribution or
+for Advanced Functional Applications. J. Mater. Chem. A. 9 (2), 663–701. reproduction in other forums is permitted, provided the original author(s) and
+doi:10.1039/d0ta09601f thecopyrightowner(s)arecreditedandthattheoriginalpublicationinthisjournalis
+Wang,Y.P.,Li,B.S.,andFu,H.Z.(2009).SolidSolutionorIntermetallicsinaHigh- cited, in accordance with accepted academic practice. No use, distribution or
+EntropyAlloy.Adv.Eng.Mater.11(8),641–644.doi:10.1002/adem.200900057 reproductionispermittedwhichdoesnotcomplywiththeseterms.
+FrontiersinMaterials|www.frontiersin.org 6 March2022|Volume9|Article827333
+

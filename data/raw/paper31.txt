@@ -1,0 +1,1018 @@
+Modeling-Making-Modulating High-Entropy Alloy
+with Activated Water-Dissociation Centers for
+Superior Electrocatalysis
+Ho Ngoc Nam,1 Ravi Nandan,2* Lei Fu,1 Yingji Zhao,1 Yunqing Kang,1 Tetsuya
+Fukushima,3 Kazunori Sato,4 Yusuke Asakura,1 Ovidiu Cretu,5 Jun Kikkawa,5 Joel
+Henzie,2 Jonathan P. Hill,2 Takeshi Yanai,6,7 Quan Manh Phung,6,7* and Yusuke
+Yamauchi1,8*
+1Department of Materials Process Engineering, Graduate School of Engineering,
+Nagoya University, Furu-cho, Chikusa-ku, Nagoya 464–8603, Japan.
+2Research Center for Materials Nanoarchitectonics, National Institute for Materials
+Science (NIMS), 1-1 Namiki, Tsukuba, Ibaraki 305–0044, Japan.
+3National Institute of Advanced Industrial Science and Technology (AIST), 1-1-1
+Umezono, Tsukuba, Ibaraki 305-8560, Japan.
+4Division of Materials and Manufacturing Science, Graduate School of Engineering,
+Osaka University, 2-1 Yamadaoka, Suita, Osaka 565-0871, Japan.
+5Center for Basic Research on Materials, National Institute for Materials Science (NIMS),
+Namiki 1-1, Tsukuba, Ibaraki 305-0044, Japan.
+6Department of Chemistry, Graduate School of Science, Nagoya University, Furu-cho,
+Chikusa-ku, Nagoya 464–8602, Japan.
+7Institute of Transformative Bio-Molecules (WPI-ITbM), Nagoya University, Furu-cho,
+Chikusa-ku, Nagoya 464–8601, Japan.
+8School of Chemical Engineering and Australian Institute for Bioengineering and
+Nanotechnology (AIBN), The University of Queensland, Brisbane, QLD 4072, Australia.
+Corresponding Authors
+Email: nandan.ravi@nims.go.jp (R. Nandan, orcid.org/0000-0001-9244-3594)
+Email: quan.phung@chem.nagoya-u.ac.jp (Q. M. Phung, orcid.org/0000-0001-8205-5328)
+Email: y.yamauchi@uq.edu.au (Y. Yamauchi, orcid.org/0000-0001-7854-927X)
+1
+
+Abstract
+High-entropy alloys have recently emerged as promising electrocatalysts for complex reactions owing to
+their tunable electronic structures and diverse, unique binding sites. However, their vast compositional space,
+both in terms of elemental variety and atomic ratios, presents a major challenge to the rational design of
+high-performance catalysts, as experimental efforts are often hindered by ambiguous element selection and
+inefficient trial-and-error methods. In this work, a bottom-up research strategy using machine learning-
+assisted first-principles calculations was applied to accelerate the design of quinary high-entropy alloys
+toward efficient multi-electron transfer reactions. Here, we report the design of PtPdRhRuMo, which exhibits
+key physicochemical properties favoring methanol oxidation reaction. Notably, the incorporation of Mo as
+the fifth element significantly activates specific binding sites on HEA surfaces, enhancing methanol
+adsorption and, in particular, water dissociation ability. This facilitates hydroxyl species formation, which
+effectively mitigates CO intermediate adherence while promoting the complete oxidation of CH3OH to CO2
+via alternative reaction pathways. Guided by theoretical predictions, experimental samples with different
+morphologies of mesoporous PtPdRhRuMo catalyst (m-HEANP(Mo) nanoparticles and m-HEAF(Mo) thin
+film) were then synthesized, demonstrating superior electrocatalysis with a large current density of up to
+18.20 mA cm-2 and mass activity of 9.89 A mgPt -1, alongside the long-term durability for efficient methanol
+electrooxidation applications.
+KEYWORDS: High-entropy alloys; Electrocatalyst; Machine learning; Mesoporous nanostructure;
+CO poisoning; Water dissociation; DFT calculations; Methanol oxidation
+2
+
+Introduction
+Platinum-group metals (PGMs) are widely recognized in electrocatalytic processes for their exceptional
+activity and chemical stability1. However, these single metallic systems could only perform a specific reaction
+and often expose limitations in complex reactions requiring multiple electron transfer steps, such as the
+methanol oxidation reaction (MOR) involving six-electron transfers. While Pt is the most active commercial
+catalyst for MOR, its catalytic performance is largely hindered by susceptibility to CO poisoning, a notorious
+intermediate that blocks Pt active sites, resulting in a gradual decline in efficiency over time2–4. Therefore,
+developing electrocatalysts with optimal performance and good CO-resistance is essential for methanol
+conversion applications. Current strategies suggest alloying Pt with other transition metals might address
+these challenges2–6.
+Despite their relatively recent emergence in 2004, high-entropy alloys (HEAs) have rapidly gained significant
+attention in the catalysis field7–9. The integration of five or more metal elements in HEAs not only fine-tunes
+the electronic structure but also creates random atomic arrangements, providing distinct and diverse surface
+binding sites that significantly enhance catalytic activity compared to single metals, binary alloys, and
+medium-entropy alloys (MEAs)9. Additionally, their diverse atomic environment produces a complex energy
+landscape, leading to a sluggish diffusion effect that mitigates degradation and dissolution over time more
+effectively than single-metal catalysts8. Since multiple elements of HEA can work synergistically, its
+performance and functionality are highly promising for complex reactions like MOR. Nevertheless, current
+research on HEAs electrocatalysts has primarily focused on experimental efforts4,10–12, often with unclear
+and somewhat random element selection. It was reported that catalysts containing Pt/Pd are efficient for
+oxygen reduction and hydrogen evolution reactions13,14, while Ru/Ir-involved excels in oxygen evolution
+reactions15,16, and Cu-involved is particularly effective for CO2 reduction reactions17. Compared to these
+reactions, the MOR process is less well understood due to the complicated reaction pathways with various
+intermediates2 (dual CO- and CO-free pathways, see Figure S1). This leaves questions about the roles of
+elements and which combinations are optimal for achieving efficient MOR performance. While tailoring
+atomic ratios could further enhance catalytic performance, the vast compositional space of HEAs poses an
+additional challenge. For instance, varying the composition of each metal in a five-element HEA from 2-92%
+in 2% increments results in 211,876 possible combinations. Experimentally exploring such a large number
+of possibilities is both expensive and unrealistic if based solely on human chemical intuition. To reduce
+experimental trial and error efforts, a tight combination between first-principles calculations and machine
+learning techniques is essential in unveiling the catalytic process and guiding material design, significantly
+accelerating the exploration of HEA catalysts in a more effective way.
+In this work, we perform a bottom-up strategy to design high-performance HEA electrocatalysts, progressing
+from computational quantum simulations to experimental lab validation (see Figure 1a). Theoretical design
+begins with selecting critical elements that form the basis of the alloy. Four PGM elements, i.e., Pt, Pd, Rh,
+and Ru, were chosen for their high catalytic activity, similar atomic radii and electronegativity, and their ability
+3
+
+to form a stable, well-mixed solid solution with a face-centered cubic (fcc) structure. To achieve high MOR
+performance, the fifth element, X, was screened from a pool of neighboring elements (i.e., Ir, Os, Au, Cu, Ni,
+Mo, and Cd) with similar characteristics to render durability and create multi-active centers leveraging the
+high entropy effects of the quinary alloy PtPdRhRuX. These selected elements are feasible for co-reduction
+and alloy formation using our low-temperature synthesis yet ensure diverse electronic and chemical
+properties, spanning noble metals (Ir, Os, Au), non-noble transition metals (Ni, Cu), an early transition metal
+(Mo), and a post-transition metal (Cd). Guided by machine learning-assisted first-principles predictions, the
+PtPdRhRuMo alloy was identified as the most promising high-entropy alloy candidate, featuring numerous
+physicochemical properties favorable for MOR applications. These theoretical predictions were
+subsequently translated into experimental testing, confirming the superior electrochemical performance of
+PtPdRhRuMo. Accordingly, the quinary HEA-PtPdRhRuMo catalysts demonstrated not only remarkable
+long-term durability (maintaining approximately 48% of their initial activity after 10,000 s) but also high
+catalytic performance, with electric current values of up to 18.20 mA/cm2 and 9.89 A mgPt -1 for the film sample,
+and 12.02 mA/cm2 and 7.70 A mgPt -1 for the nanoparticle sample. These results significantly outperform
+those of high entropy alloys based on other metals, medium-entropy alloy counterparts, commercial Pt-C,
+and the most recently reported Pt-based catalytic systems for efficient methanol electrooxidation applications.
+Results and discussion
+Computational screening of PtPdRhRuX electrocatalysts
+4
+
+Figure 1. Designing process of potential HEA electrocatalysts for MOR. (a) Schematic illustration of
+designing quinary HEA-PtPdRhRuX for superior electrocatalysis, leveraging machine learning-assisted
+theoretical predictions to experimental validations. (b-e) Computational screening on promising HEA
+electrocatalysts for the MOR using descriptors of catalyst’s electrical resistivity (b), Gibbs free energy of key
+adsorbates: (c) CH3OH, (d) CO, and (e) COOH on PtPdRhRuX surface (X = Ir, Os, Mo, Ni, Au, Cu, and Cd).
+We initiated the design process by systematically screening the fifth element (X) in the quinary alloy
+PtPdRhRuX, taking into account potential candidates such as Ir, Os, Au, Cu, Ni, Mo, and Cd. The first step
+was to determine whether these alloys could form stable solid solutions. Based on valence electron
+concentration (VEC) analysis18, the combination of these elements with the four PGMs supports the
+formation of single-phase solid solutions with an fcc structure (VEC > 8, Figure S2). This was further
+confirmed by calculated phase formation energies, which indicate a strong preference for fcc structure
+formation thermodynamically over body-centered cubic (bcc) for all seven HEAs (Figure S2). Furthermore,
+the stability of single-phase solid solutions in HEAs is facilitated by small atomic radius differences (δ) among
+the constituent metals and a sufficiently large ratio of configurational mixing entropy to mixing enthalpy (Ω).
+As shown in Figure S3, the calculated δ and Ω values of the seven HEAs configurations fall well within the
+critical conditions of Ω ≥ 1.1 and δ ≤ 8.5%18,19. This suggests a high probability of forming a single-phase
+solid solution for all HEA candidates. Having verified the stability, the catalytic activity of prospective HEAs
+was considered. Identifying optimal mechanisms and the best HEA electrocatalyst for MOR is a challenging
+task due to the wide range of possible intermediates. It is well accepted that methanol oxidation involves six
+5
+
+electron transfer steps and follows a dual-pathway mechanism (Figure S1), where the CO-pathway is
+considered more energetically favorable2–4,20,21. Therefore, during the screening stage, only reactions
+proceeding via the CO-pathway were evaluated (detailed reaction pathways are illustrated in Figure S4,
+Table S1). In order to select a suitable HEA candidate, we defined key criteria for achieving optimal MOR
+performance: (i) sufficiently low electrical resistivity to facilitate the charge transfer process between the
+catalyst’s active sites and reactants; (ii) strong adsorption capability for CH3OH to ensure effective reaction
+progression; (iii) high resistance to CO poisoning to maintain long-term durability; and (iv) excellent water-
+dissociation ability to accelerate the oxidation reactions rate. In Figure 1b-e, the MOR activity of all HEA
+candidates based on those criteria was collected.
+Previous reports have indicated that the poor conductivity of catalysts can limit their electrocatalytic
+activity22,23. A low enough electrical resistivity, therefore, is crucial to favor efficient electron transfer and
+enhance overall catalytic efficiency. We found that incorporating elements like Cd, Au, or Cu into the HEA
+increased electrical resistivity due to the significant reduction of electron lifetimes, driven by strong impurity
+scattering effects occurring near the Fermi level (Figure S5). In contrast, alloying with elements such as Ir,
+Os, Ni, or Mo resulted in lower resistivity, suggesting these combinations could be more favorable for
+electrocatalysis (Figure 1b). Furthermore, in real reaction environments, water and byproducts can compete
+with methanol for adsorption on the active sites. A catalyst with a strong affinity for methanol ensures
+selective adsorption, maintaining a high local concentration of methanol and facilitating efficient oxidation.
+Accordingly, Mo-based HEA demonstrates significantly more negative free energy of CH3OH adsorption
+compared to other elements (by 0.1-0.2 eV, Figure 1c). However, what truly sets Mo apart is its exceptional
+resistance to CO poisoning. Specifically, Mo-based systems exhibit the weakest adsorption tendency for CO
+intermediates among the investigated HEAs, with an adsorption free energy of −1.6 eV (Figure 1d). On the
+other hand, its adsorption of COOH intermediates is significantly stronger than that of the other HEAs, with
+an adsorption free energy of at least −1.2 eV, compared to −0.75 eV on the Cd-based HEA and −1.1 eV on
+the Ir-based system (Figure 1e). This trend suggests that CO hydroxylation to COOH on the Mo-based HEA
+is highly efficient, effectively preventing CO accumulation and ensuring sustained catalytic activity. By taking
+all these factors into account, we eventually identified the HEA-PtPdRhRuMo compound as the most suitable
+quinary alloy for the methanol oxidation application.
+Unveiling efficient catalytic mechanism and elemental roles of PtPdRhRuMo
+6
+
+Figure 2. DFT Modelling of the MOR process on three Pt-based catalysts. (a-c) Potential energy landscapes
+for methanol adsorption on (a) single Pt(111), (b) MEA-PtPdRhRu(111), and (c) HEA-PtPdRhRuMo(111)
+surfaces (random area of 5.5 nm2), where the energy difference (ΔE) referred to maximum energy points.
+(d) Gibbs free energy diagrams of all possible pathways on these catalyst surfaces, with the * denoting
+adsorbed species. (e) Snapshot at 9 ps from AIMD simulations and water density profile along the z-axis,
+showing the interaction of water with catalysts in the interfacial region at room temperature. Water molecule
+positions are represented by oxygen atom coordinates. The zero point in the z-axis corresponds to the
+average of the nuclear position of the top surface atoms. The bulk water concentration is 0.056 mol/cm3. (f)
+Free energy diagram of water adsorption and (g) water dissociation steps on three catalysts. (h) Water
+scanning maps highlighting water trapping centers on the surface of the three Pt-based catalysts.
+To explore the catalytic activity of HEA-PtPdRhRuMo and further elucidate the role of the fifth element, Mo,
+its MOR performance was compared with medium-entropy alloy (MEA) PtPdRhRu and single-Pt catalysts
+(Table S2). Figure 2a-c illustrates the potential energy landscapes for methanol adsorption on these
+surfaces. The single-Pt catalyst surface exhibits a uniform potential energy distribution with a small energy
+difference (~0.3 eV) between preferred and non-preferred adsorption sites (Figure 2a). In contrast, the
+potential energy surface of MEA-PtPdRhRu is more complicated, featuring numerous adsorption sites with
+varied energy minima distributed across the surface (Figure 2b). Here, the energy differences at preferred
+adsorption sites can reach ~0.9 eV, indicating an enhanced likelihood of methanol being attracted and
+trapped in these regions. Likewise, the HEA system not only presents diverse adsorption sites, but its surface
+also offers the most favorable adsorption centers, with an energy difference of approximately 1.1 eV relative
+7
+
+to other sites (Figure 2c). This finding is further supported by the Gibbs free energy diagrams of MOR
+pathways, as shown in Figure 2d. Methanol capturing ability increases significantly in the order Pt < MEA <
+HEA, with average adsorption free energies of −0.32 eV, −0.52 eV, and −0.76 eV, respectively. This
+tendency even persists through subsequent dehydrogenation steps, including both C–H [*CH3OH →
+*CH2OH + (H+ + e–) → *CHOH + 2(H+ + e–) → *COH + 3(H+ + e–)] and O–H [*CH3OH → *CH3O + (H+ + e–)
+→ *CH2O + 2(H+ + e–) → *CHO + 3(H+ + e–)] bond scission pathways. The HEA surface demonstrates
+superior catalytic activity with the most negative free energies. The significant energy differences between
+adsorption sites may stem from surface charge redistribution among atoms (Figure S6). In MEA, valence
+electrons are drawn toward more electronegative elements like Pt and Pd (electron acceptors), forming
+electron-deficient regions on Rh and especially Ru (electron donors). On the HEA surface, charge
+accumulation around Pt, Pd, and Rh increases significantly, while Mo, due to its lowest electronegativity,
+serves as the primary electron donor, followed by Ru. Beyond oxophilicity, the substantial electron-deficient
+regions on these atoms readily accept electrons from adsorbates (thereby attracting them), stabilizing the
+surface by filling empty orbitals.
+The crucial mechanistic step controlling the overall MOR performance efficiency is believed to be related to
+*CO. Across all surfaces, we found that *CO adsorbates indeed have the lowest free energy among the
+intermediates, indicating their pronounced stability and the inevitable risk of *CO poisoning. This
+underscores the importance of designing catalysts with either weak CO binding or a strong ability to resolve
+*CO to ensure efficient MOR activity. On the Pt surface, however, the depoisoning process is poorly
+performed. The hydroxylation step of *CO + OH → *COOH is strongly endergonic (ΔG = 0.7 eV), indicating
+its high susceptibility to CO poisoning, as reported in previous experiments3,4,11,20,21. Notably, the free energy
+difference of this step becomes smaller on the MEA surface (ΔG = 0.62 eV) while reaching its minimum
+value on the HEA surface (ΔG = 0.35 eV), revealing a great enhancement of *CO hydroxylation. This should
+be related to the ability of the catalyst surface to adsorb water. The greater the attraction of H2O molecules
+to the catalyst surface, the more *OH species are likely generated to react with *CO, which facilitates the
+oxidation process. To clarify this, Ab Initio Molecular Dynamics (AIMD) simulations at room temperature
+were conducted to investigate interactions between the catalyst surfaces and the water adlayer. In Figure
+2e, we presented the water density profile along the z-axis, averaged over nine ns of AIMD simulations at
+room temperature. On the Pt(111) surface, the profile aligns well with previous studies24,25, with two sharp
+peaks at around 2.25 and 2.95 Å from the surface. On the MEA and HEA surfaces, the water density profiles
+are similar, though both surfaces show a slightly higher water density at the first peak. Furthermore, the
+profile on the HEA surface displays a minor peak at 1.9 Å, indicating an enhanced affinity of the HEA surface
+towards water. This observation is corroborated by the more negative adsorption free energy of water on
+the HEA surface (−0.514 eV), compared to the MEA (−0.215 eV) and Pt (−0.02 eV) surfaces (Figure 2f).
+After adsorption, the water dissociation process (*H2O → *H–*OH) was also found to be more
+8
+
+thermodynamically and kinetically favorable on the HEA surface (Figure 2g). Specifically, on the HEA
+surface, the reaction is exergonic (of around −1.2 eV) with a low activation free energy barrier of 0.24 eV. In
+contrast, the reactions on the MEA and Pt surfaces are endergonic, exhibiting significantly higher activation
+energy of 0.61 and 0.72 eV, respectively. The large reduction in activation free energy on the HEA surface
+is attributed to the stronger bonding of the *H and *OH species on the HEA surface, as described by the
+Evans–Polanyi principle. To highlight the active sites responsible for water adsorption, the scanning maps
+of water on the surfaces were plotted (Figure 2h). Unlike the monometallic system where Pt plays multiple
+roles, Ru atoms are believed to be crucial active centers responsible for water trapping on the MEA surface.
+Meanwhile, Mo and its vicinity regions to Ru show a strong affinity for water molecules, suggesting their
+crucial role as the primary activated centers for water adsorption-dissociation on the HEA surface.
+Furthermore, the superior water dissociation ability of PtPdRhRuMo facilitates methanol oxidation via CO-
+free pathways. Specifically, alternative routes requiring the accompaniment of OH radicals [ i.e., *CH2O +
+OH → *H2COOH, *CHO + OH → *HCOOH, and *COH + OH → *C(OH)2] exhibit significantly more stability
+(more negative free energies) on the HEA surface. This is reasonable owing to the oxyphilic nature and
+multiple oxidation states on Mo26, enabling more efficient CH3OH oxidation to CO2 while minimizing CO
+intermediate formation compared to different Pt-based catalysts.
+Machine-learning predictions on optimal compositions
+The addition of Mo significantly enhances the system’s catalytic activity, though excessive Mo concentration
+might have adverse effects. Therefore, it is essential to determine the optimal Mo content for maximizing
+catalytic efficiency. To predict the PtPdRhRuMo HEA compositions that could deliver optimal MOR
+performance, we employed a machine learning (ML) approach for this processing27. Specifically, we focused
+on predicting the adsorption energies of two key MOR intermediates, namely *COOH and *CO (see
+Methods), as functions of Mo concentration. To this end, we constructed datasets consisting of 340, 528,
+and 208 data points for *CO adsorption at top, bridge, and hollow sites, respectively, along with 608 data
+points for *COOH adsorption. These dataset sizes should be sufficient to make reliable predictions of
+adsorption energies, as noted earlier27. Figure 3a presents violin plots of the adsorption energy distributions
+across different sites. Notably, the median adsorption energy for *COOH is approximately −0.22 eV, which
+is around 0.3 eV more positive than that of *CO. The adsorption energies for both *COOH and *CO at the
+top sites span a relatively wide range (approximately 1.7–1.8 eV), whereas the *CO adsorption energies at
+the bridge and hollow sites are confined to a narrower range (1.0–1.2 eV). To predict adsorption energies,
+an ML model accounting for the local atomic environment surrounding the adsorption site was employed.
+The adsorption energy was expressed as a function of elemental coordination, where each adsorption site
+is described by the number of neighboring atoms of different elements in distinct coordination zones. Further
+details on the model construction and zone partitioning are provided in the Methods section. Pearson
+correlation analysis between atomic descriptors and adsorption energies revealed that coordination zones
+9
+
+closest to the adsorbate (zones 1 and 2 for *COOH, and zone 1 for *CO) exert the strongest influence on
+the adsorption energy. Further details on correlation trends are provided in Figure S9.
+Figure 3. Machine learning prediction on optimal HEA composition. (a) Violin plot depicting the distribution
+of adsorption energy of *COOH and *CO with the median (white tick) values indicated. (b-c) Predicted
+adsorption energies plotted against DFT adsorption energies of (b) *COOH (top sites) and (c) *CO (top,
+bridge, and hollow sites) from the CatBoost regression. The training set is shown in fern while the test set is
+shown in orange. The shaded regions (light blue) represent extended values of ±0.1 and ±0.2 eV. (d) SHAP
+beeswarm plot showing the impact of the 15 most important descriptors on the predictions of the CatBoost
+model for the adsorption energy of *COOH. Each point represents a SHAP value (impact on adsorption
+energy) for a specific descriptor across all data points, whereas color indicates the descriptor value (pink for
+high and purple for low). The descriptors are ranked by their average absolute SHAP value, with the most
+impactful features at the top. (e) Predicted *COOH adsorption energy of 211,876 possible HEA compositions
+projected to Mo concentration. (f) Pseudo-ternary phase diagram on optimal quinary PtPdRhRuMo
+compositions (with Pt, Pd, and Rh collected into a single concentration) for CO-depoisoning based on energy
+difference ΔE = ΔE*COOH − ΔE*CO. Star symbols represent experimental HEA samples.
+Figure 3b-c depicts the performance of the CatBoost model in predicting *COOH and *CO adsorption
+energies. It is shown that the model can accurately predict the adsorption energies, with mean absolute error
+(MAE) of ~0.03 and ~0.07 eV on the training set and test set, respectively (see also residuals plot showing
+CatBoost prediction error, Figure S14). These results demonstrate that, even with simple descriptors, the
+model achieved competitive performance compared to those using features from quantum chemistry (QC)
+10
+
+calculations or non-QC features (such as electron count, ionic potential, atomic potential, etc., see also
+Figure S8)28–31. Interestingly, Ridge regression, despite being a linear method, also performed well,
+achieving MAE values below 0.1 eV on the test sets. The Ridge regression coefficients (Figure S15) were
+also strongly correlated with the Pearson correlation coefficients (Figure S9). Analysis of Ridge regression
+coefficients revealed that Mo atoms coordinating to oxygen in *COOH significantly enhance the adsorption
+strength. However, this does not automatically imply that a high concentration of Mo will enhance the *COOH
+adsorption strength because (i) the Ridge model lacks non-linear terms, and (ii) the contribution of Mo in
+other zones must also be considered. For example, Mo in zone 7, in contrast, decreases the adsorption
+strength of *COOH. This observation is also supported by SHapley Additive exPlanations (SHAP) analysis
+on the CatBoost model32, presented in Figures 3d and S16. The SHAP values also showed that adsorbate-
+coordinating atoms contribute most significantly to adsorption energy predictions: zones 1 and 2 for *COOH
+and zone 1 for *CO. Specifically, for *COOH, high N2Mo data points (represented by pink dots) are mostly on
+the negative side of the SHAP plot, indicating that a high N2Mo value strengthens the binding. On the other
+hand, the N7Mo descriptor exhibits a negative correlation with *COOH adsorption strength, with a majority of
+high-value data points being on the positive side of the SHAP plot.
+Using the CatBoost model, we then predicted the adsorption energies of *COOH and *CO across 211,876
+HEA compositions. Figures 3e and S17 illustrate the impact of Mo concentration on the adsorption energy
+of *COOH. The data points are densely distributed, covering a wide range of adsorption energies from −0.44
+to −0.92 eV. The observed banded pattern suggests systematic variations in adsorption energy depending
+on composition. We observed that *COOH adsorption is generally weak at very low Mo concentrations (a
+few percent), strongest at moderate Mo concentrations (10-20%), and slightly weaker at high Mo
+concentrations (>50%). This trend indicates that Mo plays a non-monotonic role in tuning *COOH adsorption,
+likely due to the dual interaction of *COOH with the surface via both carbon and oxygen. For *CO, the
+adsorption energy varies between −1.03 and −0.60 eV (Figure S18). CO adsorption is weakest at high Mo
+concentrations but strongest at low Mo concentrations, highlighting the contrasting role of Mo in stabilizing
+*COOH versus *CO adsorption. Figure 3f displays a pseudo-ternary phase diagram of the COOH–CO
+adsorption energy difference (ΔE = ΔE*COOH − ΔE*CO) as a function of HEA composition, with Pt, Pd, and Rh
+collected into a single concentration. Corresponding phase diagrams for *COOH and *CO adsorption
+energies are shown in Figures S19 and S20. We use the COOH–CO adsorption energy difference to
+evaluate HEA performance based on the idea that a surface capable of stabilizing *COOH relative to *CO
+(blue/green areas) can promote water dissociation and mitigate *CO poisoning. Remarkably, the optimal
+compositions, where this gap is minimized, span a broad range of Mo concentrations but consistently feature
+low Ru content. The composition with the smallest COOH–CO gap is found to be 16% Mo, with Pt, Pd, Rh,
+and Ru concentrations of 66%, 2%, 14%, and 2%, respectively. Notably, this composition closely aligns with
+the one minimizing *COOH adsorption energy (56% Pt, 2% Pd, 24% Rh, 2% Ru, and 16% Mo; Figure S19).
+The optimal composition is rich in Pt, Pd, and Rh, all of which have an fcc crystal structure and relatively low
+11
+
+(111) surface energies (2.0–2.7 J/m2)33, which favor the formation of a single-phase solid solution (vide
+supra). Meanwhile, the combined Mo (bcc) and Ru (hcp) content remains around 18%, ensuring a balance
+between stability and catalytic activity. Finally, we note that while the optimal compositions identified in
+Figure 3f are expected to be *CO-tolerant, they may not necessarily yield the highest overall MOR
+performance. Future optimization should incorporate other crucial factors, such as C–H activation in
+methanol and contributions from *CO-free pathways, which were beyond the scope of this ML-driven study.
+Synthesis and electrochemical performance of PtPdRhRuMo
+Mo-based HEA catalysts were eventually synthesized and electrochemically tested to validate theoretical
+predictions regarding their catalytic performance. To highlight the beneficial effect of Mo incorporation,
+mesoporous HEA-PtPdRhRuMo nanoparticles [namely, m-HEANP(Mo)] were designed along with various
+nanostructures for comparison, including mesoporous HEA-PtPdRhRuIr [m-HEANP(Ir)], mesoporous HEA-
+PtPdRhRuAu [m-HEANP(Au)], mesoporous HEA-PtPdRhRuNi [m-HEANP(Ni)], and mesoporous MEA-
+PtPdRhRu (m-MEANP) (see Figure 4 and Figure S21). The co-polymer micelle-assisted soft-templating
+approach in combination with wet chemical synthesis methodology is used for porosity institution (see
+Methods and SI). In Figure 4a-b, the scanning electron microscopy (SEM) and high-angle annular dark-
+field (HAADF) scanning transmission electron microscopy (HAADF-STEM) images reveal the mesoporous
+features in m-HEANP(Mo) nanoparticles. Additionally, the energy dispersive spectroscopy (EDS) in HAADF-
+STEM mode is used to visualize the elemental distribution profile in the m-HEANP(Mo) system, confirming
+the uniform distribution of constituent Pt, Pd, Ru, Rh, and Mo elements in the structure (Figure 4c-d, Table
+S4). Along with the elemental atomic content obtained from SEM-EDS analysis (Figure S22), the atomic
+ratio of Pt/Pd/Rh/Ru/Mo in m-HEANP(Mo) was determined to be 59/17/20/2/2 by inductively coupled plasma
+optical emission spectroscopy (ICP-OES, Table S5), suggesting that this multi-elemental nanostructure is
+stabilized with a mixing entropy configuration of ΔSmix ~1.1R12,34. The multi-elemental character of the m-
+HEANP(Mo) exterior is also evident from the intense characteristic peaks of Pt, Pd, Ru, Rh, and Mo in the
+wide-scan X-ray photoelectron spectroscopy (XPS) spectrum (Figure S23a), highlighting its high entropic
+feature.
+To further confirm the high-entropy effect in m-HEANP(Mo), the valence band (VB) spectrum was examined
+using hard X-ray photoelectron spectroscopy (HAXPES, Cr Kα source) (Figure 4f). Accordingly, the
+featureless VB spectrum of m-HEANP(Mo), in contrast to the monometallic Pt system, reflects entropy-
+driven modifications in the overall electronic structure35. Moreover, the powder X-ray diffraction (XRD)
+pattern exhibits characteristic peaks identical to those of the Pt-system (JCPDS card No. 03-065-2868),
+confirming that the m-HEANP(Mo) nanoparticles crystallize in a single-phase fcc structure (Figure 4e). The
+lattice constant determined from the XRD pattern was 0.392 nm, which is comparatively larger than that of
+its constituent elements: Rh (0.380 nm), Mo (0.314 nm), Ru (0.271 nm), Pd (0.385 nm), and Pt (0.391 nm).
+12
+
+This lattice distortion can be attributed to entropy-driven phase purity, resulting from multiple atomic species
+with different sizes residing in one unit cell36.
+Figure 4. Synthesis of mesoporous quinary PtPdRhRuMo catalysts. (a) SEM and (b) HAADF-STEM images
+of mesoporous HEA-PtPdRhRuMo nanoparticles (m-HEANP). (c) HAADF-STEM image of a nanoparticle
+subjected to EDS mapping and (d) associated elemental distribution profiles of Pt, Pd, Ru, Rh, and Mo,
+respectively. (e) Powder XRD pattern of m-HEANP and (f) the valence band spectra of m-HEANP and Pt.
+(g) TEM and (h) HRTEM images of mesoporous HEA-PtPdRhRuMo film (m-HEAF), with inset SAED pattern.
+(i) HAADF-STEM image and (j) the corresponding EDS mapping of all elements in m-HEAF. (k) XRD
+patterns of m-HEAF and m-MEAF referred to Pt-system (JCPDS: 04-0802).
+It should be noted that the critical threshold defining high-entropy alloys has recently evolved34,37 (details of
+its definition(s) are presented in SI), shifting the research focus from creating ideal alloys that strictly adhere
+to the entropy criterion to regulating entropy as a tool for tailoring compositions and achieving desired
+material properties34. Nevertheless, HEA samples with higher mixing entropy configurations have also been
+considered. Mesoporous quinary HEA-PtPdRhRuMo film [m-HEAF(Mo)] and mesoporous MEA-PtPdRhRu
+film (m-MEAF) were then synthesized through soft-templated electrochemical deposition. The fabrication
+process employed a polished Au-Ti-Si working electrode immersed in a micellar electrolyte containing
+copolymers and multimetallic precursors. The cross-sectional TEM analysis of focused ion beam (FIB)-
+prepared specimens revealed mesoporous structural integrity throughout the m-HEAF(Mo) (Figure 4g).
+13
+
+High-resolution transmission electron microscopy (HRTEM) showed lattice fringes with an interplanar
+spacing of 0.226 nm, corresponding to the (111) plane of the fcc structure (Figure 4h). In addition, the
+HAADF-STEM imaging confirmed the three-dimensional continuity of the mesochannels (Figure 4i).
+Furthermore, elemental homogeneity was verified through STEM-EDS mapping, with line-scan profiles
+demonstrating spatial uniformity of all constituent metals (Pt, Pd, Rh, Ru, Mo) across the mesoporous film
+(Figure 4j). The atomic ratio of Pt/Pd/Rh/Ru/Mo was also determined to be 30/37/17/7.7/8.3 by ICP-OES,
+corresponding to ΔSmix value of 1.4R. The XRD analysis of both the m-MEAF and m-HEAF(Mo) samples
+exhibited distinct characteristic peaks corresponding to the fcc structure of Pt, consistent with mesoporous
+alloy nanoparticles (Figure 4k). Compared to m-MEAF, the diffraction peaks of the m-HEAF(Mo) shift toward
+higher angles, indicating lattice shrinkage due to the incorporation of smaller Mo atoms, further illustrating
+its alloy nature. These samples have reasonable atomic components within the optimal range for the MOR
+reaction, as suggested by the theoretical calculations. On the other hand, high-resolution XPS (HRXPS,
+Figure S23b) analysis on the Pt 4f core levels of both the m-HEAF(Mo) and m-HEANP(Mo) samples
+indicates a noticeable negative shift in the Pt 4f binding energy of both m-HEAF(Mo) and m-HEANP(Mo)
+compared to Pt-C. These results indicate a more electron-rich Pt environment owing to inter-element charge
+transfer from more electropositive elements, such as Mo. The shift is more pronounced in m-HEAF(Mo)
+sample compared to that in m-HEANP(Mo), which correlates well with its higher Mo content. This changed
+electron density could modulate the d-band structure of Pt, weakening the adsorption of poisoning
+intermediates and thereby contributing to its enhanced MOR performance.
+To evaluate the electrochemical performance of the proposed PtPdRhRuMo alloy systems, catalyst samples
+were subjected to the methanol electro-oxidation reaction (MOR) in an alkaline medium (Figure 5). Their
+MOR activity was evaluated using a typical three-electrode system and an electrolyte solution of 1.0 M KOH
++ 1.0 M methanol. Before the MOR test, all the prepared working electrodes were electrochemically cleaned
+in nitrogen-saturated 1.0 M KOH solution. For comparison, the m-HEANP(Ir), m-HEANP(Au), m-HEANP(Ni),
+and m-MEANP were also prepared in the same condition, alongside commercially available Pt-C (20 wt. %
+Pt loading) (see SI). Characteristic hydrogen adsorption-desorption behavior (Figure S24) observed within
+the potential window of 0.06–0.40 V vs RHE indicates high Pt atom utilization across all HEA systems. The
+electrochemical active surface area (ECSA) of the electrocatalysts in this study was determined via hydrogen
+under potential deposition (Table S6). In Figures 5a and S25, clear anodic peaks during forward and
+backward scans indicate the electrooxidation of methanol and its intermediates in MOR studies for all
+electrocatalysts38. Notably, m-HEANP(Mo) demonstrates significantly higher MOR activity (12.02 mA/cm2),
+outperforming m-HEANP(Ir) (7.92 mA/cm2), m-HEANP(Au) (0.33 mA/cm2), m-HEANP(Ni) (0.39 mA/cm2),
+m-MEANP (6.11 mA/cm2), and commercial Pt-C (2.04 mA/cm2). This result highlights the effective role of
+Mo as the fifth element in the PtPdRhRu system, enhancing the MOR process in alignment with our previous
+theoretical predictions. This enhancement is further supported by the lowest onset potential observed for the
+Mo-based HEA system (Eonset ~ 0.446 V) compared to the other catalysts (Figure 5b), indicating more facile
+14
+
+methanol adsorption and a lower MOR activation barrier on m-HEANP(Mo)39. In addition, the mass activity
+(MA) of m-HEANP(Mo) was estimated at 7.70 A mgPt -1 and 3.55 A mgall-metals -1, which is considerably higher
+than that of m-HEANP(Ir) (2.67 A mgPt -1 and 1.33 A mgall-metals -1), m-HEANP(Au) (0.55 A mgPt -1 and 0.17 A
+mgall-metals -1), m-HEANP(Ni) (0.53 A mgPt -1 and 0.18 A mgall-metals -1), m-MEANP (1.92 A mgPt -1 and 0.97 A
+mgall-metals -1), and commercial Pt-C (0.68 A mgPt -1 and 0.68 A mgall-metals -1) (see Figure 5c,g). To shed light
+on MOR durability, the chronoamperometry (CA) test was investigated at 0.640 V vs RHE for these catalysts
+throughout 10,000 s. As shown in Figure 5d, m-HEANP(Mo) exhibits high MOR activity and long-term
+durability, retaining 2.57 A mgPt -1 after 10,000 s (approximately 48% of its initial activity, MA@t0 = 5.35 A mgPt -
+1 at t = 0). This performance remarkably surpasses that of m-HEANP(Ir), which retains only ~11% of its initial
+activity (MA@t0 = 2.42 A mgPt -1 and MA@t10000 = 0.27 A mgPt -1); m-HEANP(Au) with ~40% (MA@t0 = 0.76 A
+mgPt -1 and MA@t10000 = 0.30 A mgPt -1); m-MEANP with ~27% (MA@t0 = 0.17 A mgPt -1 and MA@t10000 = 0.05 A
+mgPt -1); and Pt-C with ~16% (MA@t0 = 0.14 A mgPt -1 and MA@t10000 = 0.02 A mgPt -1). Notably, m-HEANP(Ni)
+exhibits good stability with comparable retention of ~51% (MA@t0 = 0.99 A mgPt -1 and MA@t10000 = 0.50 A
+mgPt -1). Moreover, the extended CA test was also carried out on m-HEANP(Mo) to test its long-term
+durability. The MOR activity of our catalyst was restored by replacing a fresh electrolyte solution after every
+10,000 s for 10 consecutive cycles of the CA test (Figure 5e), suggesting appreciable reproducibility of the
+catalytic activity. These results suggest that the Mo-based HEA system is indeed a suitable electrocatalyst
+for effective MOR performance.
+A similar trend was observed in the film samples, where the incorporation of Mo as the fifth element in the
+m-MEAF resulted in a noticeable improvement in both onset potential (Figure S26) and MOR activity (Figure
+5f). This again suggests the facile adsorption of methanol molecules and their effective oxidation on m-
+HEAF(Mo)39. In particular, the m-HEAF(Mo) exhibits the highest MOR-specific activity of 18.20 mA/cm2,
+which is ~1.5 times higher than the m-MEAF (12.28 mA/cm2) and 8.3 times greater than commercial Pt-C
+(2.2 mA/cm2). Besides, m-HEA film has a larger forward (If) to backward (Ib) MOR current ratio (If/Ib ~ 3.87)
+than m-MEAF (~3.46), suggesting better handling of reaction intermediates38,39 on HEA film, consistent with
+the computational predictions. Among the considered catalysts, m-HEAF(Mo) delivers the highest MOR
+activity for both Pt-mass loading and all-metals-mass loading, which is 9.89 A mgPt -1 and 4.49 A mgall-metals -1,
+respectively (Figures 5g, S27, and Table S7-S8). Moreover, the significant enhancement in MOR activity
+(for both specific current and mass activity) of Mo-based HEA catalysts surpasses many recently reported
+Pt-based catalytic systems and HEA systems (Figure 5h and Table S8). Further analysis on electrochemical
+impedance spectroscopy (EIS) (Figure S28) and Randles–Ševčík (R–S) relationship (Figure S29) also
+reveals that the superior MOR performance of PtPdRhRuMo originates from a synergistic combination of
+enhanced intrinsic activity (compositional complexity transitioned from medium to high entropy) and porosity
+integration (optimized mass transport).
+15
+
+Figure 5. MOR performance of quinary HEA-PtPdRhRuMo. (a) ECSA-normalized CV profiles of m-
+HEANP(Mo), m-HEANP(Ir), m-HEANP(Ni), m-HEANP(Au), m-MEANP, Pt-C, and (b) their corresponding
+onset potential from forward scan in the potential window of 0.40 to 0.75 V in an electrolytic solution of 1.0
+M KOH : 1.0 M CH3OH using potential scan rate of 50 mV s-1. (c) MOR mass activities concerning Pt loading
+of m-HEANP(Mo), m-HEANP(Ir), m-HEANP(Au), m-HEANP(Ni), m-MEANP, and commercial Pt-C. (d)
+Chronoamperometric (CA) tests at 0.640 V vs RHE on Pt-C, m-MEANP, m-HEANP(Ir), m-HEANP(Au), m-
+HEANP(Ni), and m-HEANP(Mo). The inset shows the magnified CA profile of Pt-C for the first 4000 s. (e)
+Long-term CA durability test of mesoporous HEA-PtPdRhRuMo, where the arrows indicate when the
+electrolyte is changed. (f) ECSA-normalized CV profiles of m-HEAF(Mo), m-MEAF, and Pt-C. (g) Mass
+activities concerning Pt-loading and all-metals loading of Pt-C, m-MEANP, m-HEANP(Ir), m-HEANP(Mo), m-
+MEAF, and m-HEAF(Mo). (h) The comparative specific MOR activity and mass activity (Pt-loading) of m-
+HEAF(Mo), m-MEAF, m-HEANP(Mo), m-HEANP(Ir), m-HEANP(Ni), m-HEANP(Au), and m-MEANP with the
+recently reported HEAs and Pt group metals-based electrocatalysts (tabulated in the MOR comparative
+Table S8).
+Eventually, to further elaborate on the enhanced CO-poisoning resistance and shed some light on reaction
+intermediates during MOR electrocatalysis, we employed in-situ Attenuated Total Reflectance Surface-
+Enhanced Infrared Absorption Spectroscopy (ATR-SEIRAS) and CO stripping voltammetry on m-
+HEANP(Mo) and commercial Pt-C catalysts for comparison (Figures 6 and S30). Several characteristic
+infrared bands associated with MOR intermediates were observed in the 2500-1000 cm-1 range across the
+16
+
+investigated potential window. Specifically, a downward band at ~2340 cm-1 corresponds to CO2 (asymmetric
+O–C–O stretching vibration, 𝜈as)40,41, indicating the final product of complete methanol oxidation. Bipolar
+bands near ~2040 cm-1 are attributed to linearly adsorbed CO species42–46, while a peak at ~1700 cm-1 is
+assigned to the carboxylic species (–COOH)47–49. Distinct downward peaks at ~1570, ~1350, ~1200, and
+~1100 cm-1 are ascribed to formate ions HCOO− (𝜈as(O–C–O) and δ(C–H) vibrations) and its overlapping
+signals with carbonate ions (CO3 2−) and methoxyl species (–OCH3), respectively50–54. Additionally, bands at
+~1030 cm-1 are attributed to CH3OH adsorption via 𝜈(C–O) stretching55, and bands at ~1450 cm-1 originate
+from CO3 2−/HCO3− species formed by the reaction between OH⁻ and desorbed CO2 50.
+As shown in Figure 6a-b, CO2 peaks appear at a much lower potential (0.40 V) on PtPdRhRuMo compared
+to Pt-C (0.55 V), indicating more facile complete oxidation of methanol. Notably, while CO adsorption peaks
+(~2040 cm-1) are present across the entire applied potential range with significant intensity on Pt-C, their
+appearance on PtPdRhRuMo is limited to a narrow low-potential window (0.25–0.45 V) with only small
+intensity, and they quickly disappear at higher potentials. This behavior highlights the remarkable CO-
+poisoning tolerance and faster oxidation kinetics on the PtPdRhRuMo surface. Indeed, CO-stripping
+voltammetry results in Figure 6c-d further confirm the superior CO-tolerance of PtPdRhRuMo. Compared
+to the commercial Pt-C catalyst, which exhibits a CO oxidation peak (Ep) of 0.759 V and an onset oxidation
+potential (Eonset) of 0.603 V, PtPdRhRuMo shows negatively shifted values of Ep = 0.686 V and Eonset = 0.590
+V. These shifts indicate weaker CO binding strength and improved CO tolerance46, which are advantageous
+for methanol oxidation, consistent with our theoretical predictions.
+Furthermore, the adsorption bands of methoxyl and carboxylic species on PtPdRhRuMo are significantly
+enhanced than those on Pt-C, suggesting more effective activation of methanol and key intermediates.
+Strong downward peaks associated with carboxylic species and especially formate ions, products of the CO-
+free pathways, are also more prominent on PtPdRhRuMo, revealing that alternative reaction routes beyond
+the CO-pathway are favored and enhanced. Combining evidence from in-situ ATR-SEIRAS, CO-stripping
+curves, and electrochemical tests, we demonstrated that PtPdRhRuMo is a highly promising HEA catalyst
+with superior catalytic performance and high CO-poisoning resistance. These findings confirm the
+effectiveness of theoretical calculations in guiding the rational design of catalysts for MOR applications.
+17
+
+Figure 6. In-situ ATR-SEIRAS spectra and CO-stripping curves analysis of different catalysts. (a) In-situ
+ATR-SEIRAS spectra by internal reflection mode of commercial Pt-C and (b) m-HEANP(Mo) catalysts. All
+spectra were recorded from 0.15 to 1.00 V vs. RHE in 1.0 M KOH : 1.0 M CH3OH solution. (c-d) CO-stripping
+voltammograms of (c) commercial Pt-C and (d) m-HEANP(Mo) catalysts.
+Conclusions
+In summary, we reported an effective bottom-up approach in developing high-performance high-entropy
+alloy electrocatalysts for methanol oxidation reactions. Accordingly, quinary PtPdRhRuMo catalysts indeed
+demonstrate the desired physicochemical properties to promote efficient methanol oxidation, including
+strong affinity to CH3OH, low electrical resistivity, high resistance to CO poisoning, and great water-
+dissociation ability. Besides its superior performance, the use of precious metals or the difficulty in precisely
+controlling the atomic composition is considered an existing limitation. Nevertheless, within the scope of this
+work, the comprehensive integration of first-principles calculations, machine learning, and experimental
+validation has proven to be an effective strategy for accelerating the design of this class of materials with
+impressive performance. This suggests strong potential for advancing high-performance catalytic materials
+not only for methanol oxidation but also for a range of electrochemical reactions (such as oxygen reduction
+reaction, hydrogen oxidation reactions, etc). Moreover, it potentially paves the way for future research with
+more abundant and cost-effective metals while maintaining high catalytic activity for applications in energy
+conversion and beyond.
+Methods
+First-principles calculations
+DFT calculations were performed using the Vienna Ab initio Simulation Package56 (VASP) with a plane-wave basis set
+18
+
+and an energy cutoff of 450 eV. The projector-augmented wave (PAW) method57 was used to describe core electrons,
+while the revised Perdew-Burke-Ernzerhof (RPBE) functional58 accounted for exchange-correlation parts. The irreducible
+Brillouin zone was sampled using a Γ-centered 2´2´1 k-point mesh along with a Gaussian smearing width of 0.2 eV and
+an energy convergence threshold of 10-4 eV. Grimme’s D3 van der Waals (vdW) correction59 was applied to account for
+weak dispersion forces between adsorbates and the surface. All models were built on a 5´5 unit cell of the (111) facet,
+consisting of 100 atoms arranged in a four-layer slab. The bottom two layers were fixed to mimic the bulk structure, while
+the upper layers were fully relaxed until residual forces were below 3´10−2 eVÅ−1. Here, all elements in MEA and HEA
+systems are present in equiatomic compositions. A vacuum region of 15 Å was added along the z-direction for all
+substrates. To simulate elemental disorder in multimetallic alloys, 1000 random configurations were generated for each
+alloy, and the five most stable ones in energy were selected to evaluate catalytic activity in average. To analyze the phase
+formation energy, average electronic structures, and residual resistivity of bulk alloys, a Korringa–Kohn–Rostoker Green's
+function method combined with the coherent potential approximation60,61 (KKR-CPA) was implemented in the AkaiKKR
+code62,63, using the maximum angular momentum of l = 3 and an imaginary part of η = 10-5 Ry.
+max
+The Gibbs free energy of each species was then defined as G = E + ZPE ‒ TS, where E is the total energy, ZPE is the
+zero-point energy correction, and S is the vibrational entropy of the adsorbed intermediate64,65. The catalytic activity was
+estimated using the relative free energy (ΔG) of possible reactions (see SI) at p = 1 atm, pH = 0, and T = 298.15 K, where
+ΔG = ΔE + ΔZPE ‒ TΔS. For proton-electron transfer steps, the computational hydrogen electrode model was used66,
+where G(H⁺ + e⁻) equals G(1/2H(g)), corresponding to RHE. Solvent effects were also estimated using the implicit
+2
+solvation model from VASPsol67, while the climbing image nudged elastic band (CINEB) method was applied to determine
+transition-state energy barriers. For AIMD simulations, an initial layer of water with a density of around 1 g/cm3 (43 HO
+2
+molecules) was added on the catalyst surfaces and heated to 300 K over 1.25 ps (timestep = 0.25 fs) using the standard
+NVT ensemble. The systems were then stabilized at 300 K for 2 ps before diffusion was investigated for over 9 ps.
+Machine learning
+Given a large number of active sites in alloy systems, a machine learning model trained on large-scale graph neural
+networks from the Open Catalyst Project68,69 was integrated with DFT calculations to accelerate optimization and identify
+optimal reaction pathways70.The adsorption energies of *COOH and *CO were then calculated relative to CHOH, using
+3
+the following equations:
+ΔE = [E + 5/2 E ] – [E + E + E ]
+(*COOH) (*COOH) (H2) (*) (CH3OH) (H2O)
+ΔE = [E + 2E ] – [E + E ].
+(*CO) (*CO) (H2) (*) (CH3OH)
+Four datasets of COOH and CO adsorption on the PtPdRhRuMo HEA were first constructed. We calculated *COOH and
+*CO adsorption on 30 of the most stable (5×5) HEA surfaces, each with equal atomic percentages of Pt, Pd, Ru, Rh, and
+Mo (Table S3). The Xsorb code71 was used to systematically generate different configurations. For *COOH, we focused
+on top-site adsorption, where both the carbon and oxygen atoms are positioned at adjacent top sites, whereas for *CO,
+we considered all absorption sites, including top, bridge, fcc hollow, and hcp hollow sites. Each surface contains 75
+adsorption configurations in total. Since the adsorbate molecules were fully optimized without any constraints, many
+different initial configurations converged to the same local minimum. Thus, to ensure dataset uniqueness, only distinct
+19
+
+optimized structures were retained in the database. Additionally, to better capture the adsorption of *COOH and *CO on
+surfaces with a high concentration of one single metal, we extended the dataset with the adsorption of *COOH and *CO
+on pure-metal fcc surfaces. Machine learning models were constructed to predict the adsorption energies based on the
+local atomic environment surrounding the adsorption site. For *COOH adsorption, the surface was divided into nine zones,
+shown in Figure S7. The adsorption energy is calculated as ΔE = f(N , N , N , N , N , …, N , N , N ,
+(*COOH) 1Pt 1Pd 1Ru 1Rh 1Mo 9Pt 9Pd 9Ru
+N
+9Rh
+, N
+9Mo
+), where NkX represents the number of atoms of element X in zone k (k = 1–9). For *CO adsorption at top sites,
+we employed a three-zone model, following a similar strategy used for *O adsorption27. For *CO adsorption at bridge and
+hollow sites, we used a five-zone partitioning to better capture the local coordination effects. Additional descriptors related
+to atomic physicochemical properties, such as electronegativity, atomic radius, and the number of d-electrons were also
+considered (Figure S8). However, the results indicated that simple descriptors relied on the local atomic environment are
+sufficient to achieve comparable predictive accuracy. We note that, due to the large supercell employed in this study, we
+were able to use an extended zone approach without encountering periodic boundary conditions artifacts.
+Each dataset was split into training and test sets with a ratio of 80:20. To train the model, we explored several regression
+techniques, including Ridge regression, Support Vector Regression (SVR), Random Forest Regression, three gradient-
+boosting algorithms (Gradient Boosting Regression, XGBoost Regression, and CatBoost Regression), and Multi-Layer
+Perceptron (MLP) Regression. Hyperparameters were optimized using GridSearchCV with a 5-fold cross-validation. We
+found that most models yielded comparable performance, except for Random Forest Regression, which exhibited strong
+overfitting (Figures S9-S13). Ultimately, we selected CatBoost regression32 for further study due to its strong predictive
+accuracy, fast prediction speed, and built-in overfitting prevention (Figure 3b-c and Figures S9-S13). The CatBoost model
+was used to predict the adsorption of *COOH and *CO on surfaces with different compositions. For each composition, we
+generated 1000 random 5×5 surfaces. On each surface, the adsorption energies of *COOH and *CO for all possible
+configurations (50 for *COOH and 150 for *CO) were predicted. We then collected the most stable configuration, i.e., the
+one with the most negative adsorption energy. The adsorption energy on a configuration is then averaged over 1000
+surfaces. In total, 1000×(50+150) = 200,000 adsorption energy evaluations were performed per composition. Given the
+fast prediction of CatBoost, we directly evaluated a large number of possible compositions by changing the composition
+of each metal from 2% to 92% in 2% increments (resulting in 211,876 possible HEA compositions), instead of relying on
+optimization techniques such as Genetic Algorithms or Bayesian optimization72.
+Synthesis of mesoporous HEA samples
+Mesoporous PtPdRhRuMo high-entropy alloy nanoparticles [m-HEANP(Mo)] were synthesized via micelle assembly using
+polystyrene-b-poly(ethylene oxide) (PS -b-PEO ) and a wet-chemical method. First, 10 mg of the diblock copolymer
+5000 2500
+was dissolved in 1.5 mL of N,N-dimethylformamide (DMF) to form a clear solution, which was then divided into five equal
+portions. Each portion received 0.8 mL of a Pt (40 mM)/Pd (40 mM)/Ru (80 mM)/Mo (120 mM)/ Rh (60 mM) metal salt
+solution, inducing micellization with hydrophilic PEO shells and hydrophobic PS cores that retained metal ions. The
+portions were combined and stirred for 2 hours, followed by the addition of 0.3 mL of 6 M hydrochloric acid to adjust the
+pH. After 30 minutes of further stirring, the mixture was transferred to a preheated oil bath at 95°C. There, 3 mL of formic
+20
+
+acid was introduced as a reducing agent, and the reaction proceeded for 2 hours. Mesoporous HEANP of Ir [m-HEANP(Ir)],
+Au [m-HEANP(Au)], and Ni [m-HEANP(Ni)] were synthesized by replacing the Mo precursor (MoCl) with aqueous
+5
+solutions of IrCl·xHO (40 mM, 0.8 mL), HAuCl·3HO (20 mM, 0.8 mL), and NiCl·6HO (100 mM, 0.8 mL), respectively.
+3 2 4 2 2 2
+All other synthetic parameters, including precursor concentrations, solvent composition, and reaction temperature, were
+kept constant at the same values used for m-HEANP(Mo). The final product [m-HEANP(Mo)/m-HEANP(Ir)/m-MEANP]
+was collected by centrifugation (12,000 rpm, 25 min) and washed with acetone, ethanol, and water to remove residual
+copolymers. Nonporous HEA and MEA nanoparticles [i.e., HEANP(Mo) and MEANP, respectively] were prepared under
+the same conditions as m-HEANP(Mo) and m-MEANP but in the absence of the block copolymer template, resulting in
+the formation of non-mesoporous structures.
+Similarly, mesoporous HEA film [m-HEAF(Mo)] was synthesized by dissolving 4 mg of the diblock copolymer in 0.6 mL of
+THF. Subsequently, 0.5 mL of ethanol, 2.32 mL of deionized water, and 0.08 mL of 2 M HCl were added to form a micellar
+solution at 40°C. A sequential addition of 0.1 mL each of KPtCl (40 mM), NaPdCl (40 mM), NaRhCl (40 mM),
+2 4 2 4 3 6
+RuCl·xHO (40 mM), and MoCl (40 mM) was performed to introduce metal precursors into the electrolyte.
+3 2 5
+Electrodeposition was conducted using a conventional three-electrode setup, comprising a Pt wire counter electrode, an
+Ag/AgCl reference electrode (in 3 M KCl), and an Au-coated Si wafer (3 mm × 15 mm) as the working electrode. The m-
+HEAF(Mo) was deposited electrochemically at a constant potential of –0.2 V (vs. Ag/AgCl) for 300 s. Following deposition,
+the working electrode was immersed in THF at room temperature for 24 h to remove the micellar template. For comparison,
+the m-MEAF was synthesized under identical conditions, excluding MoCl.
+5
+Electrocatalytic measurements
+Mesoporous high/medium entropy alloy [m-MEANP/m-HEANP(Mo)/m-HEANP(Ir)] nanospheres were ground into a fine
+powder using a mortar and pestle. In a controlled process, 10 mg of HEAs were dispersed in 5 mL of hexane and sonicated
+for uniform dispersion. Then, 40 mg of carbon black (Vulcan XC-72) and 30 mL of hexane were added, forming a dark
+suspension. This mixture underwent 1 hour of sonication at room temperature for improved homogeneity. The resulting
+powder was collected via high-speed centrifugation (12,000 rpm), washed thrice with ethanol, and dried overnight at 60 °C
+in a vacuum oven (DP-200, Yamato Scientific Co., Ltd.).
+For slurry preparation, 5 mg of the carbon-supported m-MEANP/m-HEANP(Mo)/m-HEANP(Ir) catalysts was dispersed in
+950 µL of a 1:2 mixture of deionized water (DI) and isopropanol. A 50 µL addition of 5 wt.% Nafion® solution acted as a
+binding agent. After 45 minutes of ultrasonication, a homogeneous catalyst ink (5 mg/mL) was obtained and drop-cast (5
+µL) onto a glassy carbon rotating disk electrode (RDE, 3 mm diameter). Methanol oxidation reaction (MOR) was conducted
+in an aqueous 1 M KOH and 1 M methanol solution using a traditional three-electrode setup with graphite rod as a counter
+electrode, catalysts modified RDE as working, and Hg/HgO (1.0 M NaOH) as the reference electrode. In the case of film
+samples (m-MEAF/m-HEAF), they were directly used as the working electrodes. The potential measured against Hg/HgO
+(1 M NaOH) reference electrode was converted to RHE scale using following equation: E = E + (0.0591 * pH)
+(RHE) (Hg/HgO)
++ E° ; where E° is the standard potential of the Hg/HgO (1.0 M NaOH) electrode (+0.108 V). Before
+(Hg/HgO) (Hg/HgO)
+electrochemical measurements, all working electrodes were cleaned electrochemically by cycling them in the potential
+window of 0.08 to −0.981 V (vs. Hg/HgO) at the scan rate of 100 mV/s in N -saturated 1.0 M KOH electrolyte solution.
+2
+21
+
+The electrochemically active surface area (ECSA) was determined using cyclic voltammogram (CV) profiles recorded in
+N-saturated 1.0 M KOH electrolyte solution in the potential window of 0.03 to −0.871 V (vs. Hg/HgO) at a scan rate of
+2
+100 mV/s. To determine the ECSA, the following equation was used: ECSA = Q / q, where Q is the charge involved for
+H h H
+H-adsorption on various electrocatalysts and q is the charge involved in monolayer adsorption of hydrogen on a Pt surface
+h
+(210 µC/cm2). The mass activities were determined by normalizing the peak current deduced from MOR CV curves
+concerning the Pt loading as well as the total metal loading on the working electrodes. The MOR CV curves were recorded
+in N-saturated 1.0 M KOH + 1.0 M CHOH electrolyte solution in the potential window of −0.6 to 0.4 V (vs Hg/HgO). The
+2 3
+chronoamperometric stability tests were carried out at a constant potential of −0.3 V (vs. Hg/HgO). All electrode potentials
+were reported in the RHE scale in the manuscript and supporting files.
+ASSOCIATED CONTENT
+Supporting information (SI): Computational methods, experimental section (materials and
+characterization), additional figures (Figures S1−S30), and tables (Table S1-S8) (PDF).
+The Supporting Information is available free of charge.
+AUTHOR INFORMATION
+Corresponding Authors
+Ravi Nandan − Research Center for Materials Nanoarchitectonics, National Institute for Materials Science
+(NIMS), 1-1 Namiki, Tsukuba, Ibaraki 305-0044, Japan.
+Email: nandan.ravi@nims.go.jp, orcid.org/0000-0001-9244-3594.
+Quan Manh Phung − Department of Chemistry, Graduate School of Science, Nagoya University, Furo-cho,
+Chikusa-ku, Nagoya 464-8602, Japan; Institute of Transformative Bio-Molecules (WPI-ITbM), Nagoya
+University, Furo-cho, Chikusa-ku, Nagoya 464-8601.
+Email: quan.phung@chem.nagoya-u.ac.jp, orcid.org/0000-0001-8205-5328.
+Yusuke Yamauchi − Department of Materials Process Engineering, Graduate School of Engineering,
+Nagoya University, Nagoya 464-8603, Japan.
+School of Chemical Engineering and Australian Institute for Bioengineering and Nanotechnology (AIBN),
+The University of Queensland, Brisbane, Queensland 4072, Australia.
+Email: y.yamauchi@uq.edu.au, orcid.org/0000-0001-7854-927X.
+Authors
+Ho Ngoc Nam − Department of Materials Process Engineering, Graduate School of Engineering, Nagoya
+University, Furo-cho, Chikusa-ku, Nagoya 464-8603, Japan.
+Email: honam@nagoya-u.jp, orcid.org/0000-0001-9785-5061.
+Lei Fu − Department of Materials Process Engineering, Graduate School of Engineering, Nagoya University,
+Furo-cho, Chikusa-ku, Nagoya 464-8603, Japan.
+Email: fu_lei@stu.xjtu.edu.cn
+Yingji Zhao − Department of Materials Process Engineering, Graduate School of Engineering, Nagoya
+22
+
+University, Furo-cho, Chikusa-ku, Nagoya 464-8603, Japan.
+Email: zhao.yingji.n2@f.mail.nagoya-u.ac.jp
+Yunqing Kang − Department of Materials Process Engineering, Graduate School of Engineering, Nagoya
+University, Furo-cho, Chikusa-ku, Nagoya 464-8603, Japan.
+Email: yqkang@toki.waseda.jp
+Tetsuya Fukushima – National Institute of Advanced Industrial Science and Technology (AIST), 1-1-1
+Umezono, Tsukuba, Ibaraki 305-8560, Japan.
+Email: t.fukushima@aist.go.jp, https://orcid.org/0000-0001-6301-6104
+Kazunori Sato – Division of Materials and Manufacturing Science, Graduate School of Engineering, Osaka
+University, 2-1 Yamadaoka, Suita, Osaka 565-0871, Japan.
+Email: ksato@mat.eng.osaka-u.ac.jp
+Yusuke Asakura – Department of Materials Process Engineering, Graduate School of Engineering, Nagoya
+University, Furo-cho, Chikusa-ku, Nagoya 464-8603, Japan.
+Email: asakura.yusuke@material.nagoya-u.ac.jp
+Ovidiu Cretu – Center for Basic Research on Materials, National Institute for Materials Science (NIMS), 1-
+1 Namiki, Tsukuba, Ibaraki 305-0044, Japan.
+Email: CRETU.Ovidiu@nims.go.jp
+Jun Kikkawa – Center for Basic Research on Materials, National Institute for Materials Science (NIMS), 1-
+1 Namiki, Tsukuba, Ibaraki 305-0044, Japan.
+Email: kikkawa.jun@nims.go.jp
+Joel Henzie – Research Center for Materials Nanoarchitectonics, National Institute for Materials Science
+(NIMS), 1-1 Namiki, Tsukuba, Ibaraki 305-0044, Japan.
+Email: HENZIE.Joeladam@nims.go.jp, orcid.org/0000-0002-9190-2645
+Jonathan Hill – Research Center for Materials Nanoarchitectonics, National Institute for Materials Science
+(NIMS), 1-1 Namiki, Tsukuba, Ibaraki 305-0044, Japan.
+Email: Jonathan.Hill@nims.go.jp, orcid.org/0000-0002-4229-5842
+Takeshi Yanai – Department of Chemistry, Graduate School of Science, Nagoya University, Furo-cho,
+Chikusa-ku, Nagoya 464-8602, Japan; Institute of Transformative Bio-Molecules (WPI-ITbM), Nagoya
+University, Furo-cho, Chikusa-ku, Nagoya 464-8601.
+Email: yanait@gmail.com, orcid.org/0000-0003-3933-8546
+Notes
+There are no conflicts to declare.
+ACKNOWLEDGMENTS
+The authors acknowledge financial support from the ARC Laureate Fellowship (FL230100095), the ES
+Program (via Nagoya University until May 2024), and the JST-ERATO Yamauchi Materials Space-Tectonics
+23
+
+Project (JPMJER2003). This work is supported by Hibi Science and Technology Foundation Research Grant
+(FY2025). H.N.N. acknowledges Young Researcher Funding of The Thermal & Electrical Energy
+Technology (TEET) Foundation (FY2025). R.N. and Y.Y. acknowledge financial support from the Japan
+Society for the Promotion of Science (JSPS, No. P220632). H.N.N thanks the supercomputer systems at
+the Institute for Solid State Physics, The University of Tokyo. Q.M.P and T.Y. acknowledge financial support
+from JSPS KAKENHI (Grant Numbers 24K17694 and 24H00449, respectively) and Research Center for
+Computational Science, Okazaki, for computational resources (Projects: 24-IMS-C082 and 23-IMS-C087).
+REFERENCES
+(1) Kettler, P. B. Platinum Group Metals in Catalysis: Fabrication of Catalysts and
+Catalyst Precursors. Org Process Res Dev 2003, 7 (3), 342–354.
+https://doi.org/10.1021/op034017o.
+(2) Wang, J.; Zhang, B.; Guo, W.; Wang, L.; Chen, J.; Pan, H.; Sun, W. Toward
+Electrocatalytic Methanol Oxidation Reaction: Longstanding Debates and Emerging
+Catalysts. Adv Mater 2023, 35 (26), 2211099.
+https://doi.org/10.1002/adma.202211099.
+(3) Poerwoprajitno, A. R.; Gloag, L.; Watt, J.; Cheong, S.; Tan, X.; Lei, H.; Tahini, H. A.;
+Henson, A.; Subhash, B.; Bedford, N. M.; Miller, B. K.; O’Mara, P. B.; Benedetti, T. M.;
+Huber, D. L.; Zhang, W.; Smith, S. C.; Gooding, J. J.; Schuhmann, W.; Tilley, R. D. A
+Single-Pt-Atom-on-Ru-Nanoparticle Electrocatalyst for CO-Resilient Methanol
+Oxidation. Nat Catal 2022, 5 (3), 231–237. https://doi.org/10.1038/s41929-022-
+00756-9.
+(4) He, L.; Li, M.; Qiu, L.; Geng, S.; Liu, Y.; Tian, F.; Luo, M.; Liu, H.; Yu, Y.; Yang, W.; Guo,
+S. Single-Atom Mo-Tailored High-Entropy-Alloy Ultrathin Nanosheets with Intrinsic
+Tensile Strain Enhance Electrocatalysis. Nat Commun 2024, 15 (1), 2290.
+https://doi.org/10.1038/s41467-024-45874-z.
+(5) Sun, C.; Liu, Y.; Liang, Z.; Li, Q.; Du, Y.; Liu, J.-C.; Cheng, Y.; Luo, F. Activating PtRu
+with Rare Earth Alloying for Efficient Electrocatalytic Methanol Oxidation Reaction.
+Catal Sci Technol 2025, 15, 2473-2481. https://doi.org/10.1039/D4CY01514B.
+(6) Antolini, E.; Salgado, J. R. C.; Gonzalez, E. R. The Methanol Oxidation Reaction on
+Platinum Alloys with the First Row Transition Metals. Appl Catal B 2006, 63 (1–2),
+137–149. https://doi.org/10.1016/j.apcatb.2005.09.014.
+(7) Li, M.; Lin, F.; Zhang, S.; Zhao, R.; Tao, L.; Li, L.; Li, J.; Zeng, L.; Luo, M.; Guo, S.
+High-Entropy Alloy Electrocatalysts Go to (Sub-)Nanoscale. Sci Adv 2024, 10 (23),
+eadn2877. https://doi.org/10.1126/sciadv.adn2877.
+(8) Ren, J.-T.; Chen, L.; Wang, H.-Y.; Yuan, Z.-Y. High-Entropy Alloys in Electrocatalysis:
+24
+
+From Fundamentals to Applications. Chem Soc Rev 2023, 52 (23), 8319–8373.
+https://doi.org/10.1039/D3CS00557G.
+(9) Xiao, L.; Wang, Z.; Guan, J. Optimization Strategies of High-Entropy Alloys for
+Electrocatalytic Applications. Chem Sci 2023, 14 (45), 12850–12868.
+https://doi.org/10.1039/D3SC04962K.
+(10) Kang, Y.; Cretu, O.; Kikkawa, J.; Kimoto, K.; Nara, H.; Nugraha, A. S.; Kawamoto, H.;
+Eguchi, M.; Liao, T.; Sun, Z.; Asahi, T.; Yamauchi, Y. Mesoporous Multimetallic
+Nanospheres with Exposed Highly Entropic Alloy Sites. Nat Commun 2023, 14 (1),
+4182. https://doi.org/10.1038/s41467-023-39157-2.
+(11) Li, H.; Han, Y.; Zhao, H.; Qi, W.; Zhang, D.; Yu, Y.; Cai, W.; Li, S.; Lai, J.; Huang, B.;
+Wang, L. Fast Site-to-Site Electron Transfer of High-Entropy Alloy Nanocatalyst
+Driving Redox Electrocatalysis. Nat Commun 2020, 11 (1), 5437.
+https://doi.org/10.1038/s41467-020-19277-9.
+(12) Nandan, R.; Nara, H.; Nam, H. N.; Phung, Q. M.; Ngo, Q. P.; Na, J.; Henzie, J.;
+Yamauchi, Y. Tailored Design of Mesoporous Nanospheres with High Entropic Alloy
+Sites for Efficient Redox Electrocatalysis. Adv Sci 2024, 11 (35), 2402518.
+https://doi.org/10.1002/advs.202402518.
+(13) Luo, M.; Koper, M. T. M. A Kinetic Descriptor for the Electrolyte Effect on the Oxygen
+Reduction Kinetics on Pt(111). Nat Catal 2022, 5 (7), 615–623.
+https://doi.org/10.1038/s41929-022-00810-6.
+(14) Zhao, Z.; Chen, C.; Liu, Z.; Huang, J.; Wu, M.; Liu, H.; Li, Y.; Huang, Y. Pt‐Based
+Nanocrystal for Electrocatalytic Oxygen Reduction. Adv Mater 2019, 31 (31), 1808115.
+https://doi.org/10.1002/adma.201808115.
+(15) Lončar, A.; Escalera‐López, D.; Cherevko, S.; Hodnik, N. Inter‐relationships between
+Oxygen Evolution and Iridium Dissolution Mechanisms. Angew Chem Int Ed 2022, 61
+(14), e202114437. https://doi.org/10.1002/anie.202114437.
+(16) Lin, Y.; Dong, Y.; Wang, X.; Chen, L. Electrocatalysts for the Oxygen Evolution
+Reaction in Acidic Media. Adv Mater 2023, 35 (22), 2210565.
+https://doi.org/10.1002/adma.202210565.
+(17) Yang, P.-P.; Gao, M.-R. Enrichment of Reactants and Intermediates for
+Electrocatalytic CO Reduction. Chem Soc Rev 2023, 52 (13), 4343–4380.
+2
+https://doi.org/10.1039/D2CS00849A.
+(18) Yang, X.; Zhang, Y. Prediction of High-Entropy Stabilized Solid-Solution in Multi-
+Component Alloys. Mater Chem Phys 2012, 132 (2–3), 233–238.
+https://doi.org/10.1016/j.matchemphys.2011.11.021.
+(19) Guo, S.; Liu, C. T. Phase Stability in High Entropy Alloys: Formation of Solid-Solution
+25
+
+Phase or Amorphous Phase. Prog Nat Sci: Mater Int 2011, 21 (6), 433–446.
+https://doi.org/10.1016/S1002-0071(12)60080-X.
+(20) Chen, L.; Liang, X.; Wang, D.; Yang, Z.; He, C.-T.; Zhao, W.; Pei, J.; Xue, Y. Platinum–
+Ruthenium Single Atom Alloy as a Bifunctional Electrocatalyst toward Methanol and
+Hydrogen Oxidation Reactions. ACS Appl Mater Interfaces 2022, 14 (24), 27814–
+27822. https://doi.org/10.1021/acsami.2c02905.
+(21) Zhang, Z.; Liu, J.; Wang, J.; Wang, Q.; Wang, Y.; Wang, K.; Wang, Z.; Gu, M.; Tang,
+Z.; Lim, J.; Zhao, T.; Ciucci, F. Single-Atom Catalyst for High-Performance Methanol
+Oxidation. Nat Commun 2021, 12 (1), 5235. https://doi.org/10.1038/s41467-021-
+25562-y.
+(22) Lakhanlal; Caspary Toroker, M. Filling the Gaps on the Relation between Electronic
+Conductivity and Catalysis of Electrocatalysts for Water Splitting Using Computational
+Modelling. Curr Opin Electrochem 2023, 40, 101342.
+https://doi.org/10.1016/j.coelec.2023.101342.
+(23) Banoth, P.; Kandula, C.; Kollu, P. Introduction to Electrocatalysts; American Chemical
+Society, 2022; pp 1–37. https://doi.org/10.1021/bk-2022-1432.ch001.
+(24) Li, P.; Huang, J.; Hu, Y.; Chen, S. Establishment of the Potential of Zero Charge of
+Metals in Aqueous Solutions: Different Faces of Water Revealed by Ab Initio Molecular
+Dynamics Simulations. J Phys Chem C 2021, 125 (7), 3972–3979.
+https://doi.org/10.1021/acs.jpcc.0c11089.
+(25) Le, J.-B.; Fan, Q.-Y.; Li, J.-Q.; Cheng, J. Molecular Origin of Negative Component of
+Helmholtz Capacitance at Electrified Pt(111)/Water Interface. Sci Adv 2020, 6 (41),
+eabb1219. https://doi.org/10.1126/sciadv.abb1219.
+(26) Yeetsorn, R.; Kumar Yogesh, G.; Wanchan, W.; Koinkar, P.; Yadav, K. Molybdenum‐
+based Nanocatalysts for CO Oxidation Reactions in Direct Alcohol Fuel Cells: A
+Critical Review. ChemCatChem 2023, 15 (22), e202301040.
+https://doi.org/10.1002/cctc.202301040.
+(27) Batchelor, T. A. A.; Pedersen, J. K.; Winther, S. H.; Castelli, I. E.; Jacobsen, K. W.;
+Rossmeisl, J. High-Entropy Alloys as a Discovery Platform for Electrocatalysis. Joule
+2019, 3 (3), 834–845. https://doi.org/10.1016/j.joule.2018.12.015.
+(28) Li, Z.; Wang, S.; Chin, W. S.; Achenie, L. E.; Xin, H. High-Throughput Screening of
+Bimetallic Catalysts Enabled by Machine Learning. J Mater Chem A 2017, 5 (46),
+24131–24138. https://doi.org/10.1039/C7TA01812F.
+(29) Shi, T.-T.; Liu, G.-Y.; Chen, Z.-X. Machine Learning Prediction of CO Adsorption
+Energies and Properties of Layered Alloys Using an Improved Feature Selection
+Algorithm. J Phys Chem C 2023, 127 (20), 9573–9583.
+26
+
+https://doi.org/10.1021/acs.jpcc.2c09020.
+(30) Roy, D.; Mandal, S. C.; Pathak, B. Machine Learning Assisted Exploration of High
+Entropy Alloy-Based Catalysts for Selective CO Reduction to Methanol. J Phys Chem
+2
+Lett 2022, 13 (25), 5991–6002. https://doi.org/10.1021/acs.jpclett.2c00929.
+(31) Oliaei, H.; Aluru, N. R. Study of the Adsorption Sites of High Entropy Alloys for CO
+2
+Reduction Using Graph Convolutional Network. APL Mach Learn 2024, 2 (2), 026103.
+https://doi.org/10.1063/5.0198043.
+(32) Prokhorenkova, L.; Gusev, G.; Vorobev, A.; Dorogush, A. V.; Gulin, A. Catboost:
+Unbiased Boosting with Categorical Features. Adv Neural Inf Process
+Syst 2018, 31, 6638–6648. https://doi.org/10.48550/arXiv.1706.09516.
+(33) Vitos, L.; Ruban, A. V.; Skriver, H. L.; Kollár, J. The Surface Energy of Metals. Surf Sci
+1998, 411 (1–2), 186–202. https://doi.org/10.1016/S0039-6028(98)00363-X.
+(34) Yan, X. H.; Liaw, P. K.; Zhang, Y. Order and Disorder in Amorphous and High-Entropy
+Materials. Metall Mater Trans A Phys Metall Mater Sci 2021, 52 (6), 2111–2122.
+https://doi.org/10.1007/s11661-021-06250-4.
+(35) Wu, D.; Kusada, K.; Nanba, Y.; Koyama, M.; Yamamoto, T.; Toriyama, T.; Matsumura,
+S.; Seo, O.; Gueye, I.; Kim, J.; Rosantha Kumara, L. S.; Sakata, O.; Kawaguchi, S.;
+Kubota, Y.; Kitagawa, H. Noble-Metal High-Entropy-Alloy Nanoparticles: Atomic-Level
+Insight into the Electronic Structure. J Am Chem Soc 2022, 144 (8), 3365–3369.
+https://doi.org/10.1021/jacs.1c13616.
+(36) Yao, Y.; Dong, Q.; Brozena, A.; Luo, J.; Miao, J.; Chi, M.; Wang, C.; Kevrekidis, I. G.;
+Ren, Z. J.; Greeley, J.; Wang, G.; Anapolsky, A.; Hu, L. High-Entropy Nanoparticles:
+Synthesis-Structure-Property Relationships and Data-Driven Discovery. Science
+2022, 376 (6589), eabn3103. https://doi.org/10.1126/science.abn3103.
+(37) Miracle, D. B.; Senkov, O. N. A Critical Review of High Entropy Alloys and Related
+Concepts. Acta Mater 2017, 122, 448–511.
+https://doi.org/10.1016/j.actamat.2016.08.081.
+(38) Lai, L.; Yang, G.; Zhang, Q.; Yu, H.; Peng, F. Essential Analysis of Cyclic Voltammetry
+of Methanol Electrooxidation Using the Differential Electrochemical Mass
+Spectrometry. J Power Sources 2021, 509, 230397.
+https://doi.org/10.1016/j.jpowsour.2021.230397.
+(39) Zhu, J.; Xia, L.; Yu, R.; Lu, R.; Li, J.; He, R.; Wu, Y.; Zhang, W.; Hong, X.; Chen, W.;
+Zhao, Y.; Zhou, L.; Mai, L.; Wang, Z. Ultrahigh Stable Methanol Oxidation Enabled by
+a High Hydroxyl Concentration on Pt Clusters/MXene Interfaces. J Am Chem Soc
+2022, 144 (34), 15529–15538. https://doi.org/10.1021/jacs.2c03982.
+(40) Sulaiman, J. E.; Zhu, S.; Xing, Z.; Chang, Q.; Shao, M. Pt–Ni Octahedra as
+27
+
+Electrocatalysts for the Ethanol Electro-Oxidation Reaction. ACS Catal 2017, 7 (8),
+5134–5141. https://doi.org/10.1021/acscatal.7b01435.
+(41) Erini, N.; Beermann, V.; Gocyla, M.; Gliech, M.; Heggen, M.; Dunin‐Borkowski, R. E.;
+Strasser, P. The Effect of Surface Site Ensembles on the Activity and Selectivity of
+Ethanol Electrooxidation by Octahedral PtNiRh Nanoparticles. Angew Chem Int Ed
+2017, 56 (23), 6533–6538. https://doi.org/10.1002/anie.201702332.
+(42) Lin, W. F.; Christensen, P. A.; Hamnett, A.; Zei, M. S.; Ertl, G. The Electro-Oxidation
+of CO at the Ru(0001) Single-Crystal Electrode Surface. J Phys Chem B 2000, 104
+(28), 6642–6652. https://doi.org/10.1021/jp000936u.
+(43) Chang, J.; Feng, L.; Jiang, K.; Xue, H.; Cai, W.-B.; Liu, C.; Xing, W. Pt–CoP/C as an
+Alternative PtRu/C Catalyst for Direct Methanol Fuel Cells. J Mater Chem A 2016, 4
+(47), 18607–18613. https://doi.org/10.1039/C6TA07896F.
+(44) Lu, G.-Q.; Sun, S.-G.; Cai, L.-R.; Chen, S.-P.; Tian, Z.-W.; Shiu, K.-K. In Situ FTIR
+Spectroscopic Studies of Adsorption of CO, SCN-, and Poly(o-Phenylenediamine) on
+Electrodes of Nanometer Thin Films of Pt, Pd, and Rh: Abnormal Infrared Effects
+(AIREs). Langmuir 2000, 16 (2), 778–786. https://doi.org/10.1021/la990282k.
+(45) Li, M.; Zhao, Z.; Zhang, W.; Luo, M.; Tao, L.; Sun, Y.; Xia, Z.; Chao, Y.; Yin, K.; Zhang,
+Q.; Gu, L.; Yang, W.; Yu, Y.; Lu, G.; Guo, S. Sub‐Monolayer YO /MoO on Ultrathin
+x x
+Pt Nanowires Boosts Alcohol Oxidation Electrocatalysis. Adv Mater 2021, 33 (41),
+2103762. https://doi.org/10.1002/adma.202103762.
+(46) Yajima, T.; Uchida, H.; Watanabe, M. In-Situ ATR-FTIR Spectroscopic Study of
+Electro-Oxidation of Methanol and Adsorbed CO at Pt−Ru Alloy. J Phys Chem B 2004,
+108 (8), 2654–2659. https://doi.org/10.1021/jp037215q.
+(47) Celorrio, V.; Quaino, P. M.; Santos, E.; Flórez-Montaño, J.; Humphrey, J. J. L.; Guillén-
+Villafuerte, O.; Plana, D.; Lázaro, M. J.; Pastor, E.; Fermín, D. J. Strain Effects on the
+Oxidation of CO and HCOOH on Au–Pd Core–Shell Nanoparticles. ACS Catal 2017,
+7 (3), 1673–1680. https://doi.org/10.1021/acscatal.6b03237.
+(48) Kar, T.; Scheiner, S.; Roy, A. K.; Bettinger, H. F. Unusual Low-Vibrational C═O Mode
+of COOH Can Distinguish between Carboxylated Zigzag and Armchair Single-Wall
+Carbon Nanotubes. J Phys Chem C 2012, 116 (49), 26072–26083.
+https://doi.org/10.1021/jp309699z.
+(49) Herold, F.; Leubner, O.; Jeschonek, K.; Hess, C.; Drochner, A.; Qi, W.; Etzold, B. J. M.
+Methodology for the Identification of Carbonyl Absorption Maxima of Carbon Surface
+Oxides in DRIFT Spectra. Carbon Trends 2021, 3, 100020.
+https://doi.org/10.1016/j.cartre.2020.100020.
+(50) He, L.; Li, M.; Qiu, L.; Geng, S.; Liu, Y.; Tian, F.; Luo, M.; Liu, H.; Yu, Y.; Yang, W.; Guo,
+28
+
+S. Single-Atom Mo-Tailored High-Entropy-Alloy Ultrathin Nanosheets with Intrinsic
+Tensile Strain Enhance Electrocatalysis. Nat Commun 2024, 15 (1), 2290.
+https://doi.org/10.1038/s41467-024-45874-z.
+(51) Yin, K.; Chao, Y.; Zeng, L.; Li, M.; Liu, F.; Guo, S.; Li, H. Ultrathin PtRu Nanowires as
+Efficient and Stable Electrocatalyst for Liquid Fuel Oxidation Reactions. Energy Mater
+Adv 2022, 2022, 9871842. https://doi.org/10.34133/2022/9871842.
+(52) Queiroz, B. D.; Vital, P.-L. S.; Budke, K. O.; Rey-Raap, N.; Arenillas, A.; Barra, G. M.
+O.; Ferreira, D. S.; Camara, G. A.; Wender, H.; Martins, C. A. A Comprehensive
+Investigation of Methanol Electrooxidation on Copper Anodes:
+Spectroelectrochemical Insights and Energy Conversion in Microfluidic Fuel Cells.
+ACS Appl Mater Interfaces 2024, 16 (27), 35255–35267.
+https://doi.org/10.1021/acsami.4c08472.
+(53) Eltayeb, S.; Carroll, L. L.; Correa-Hoyos, J. M.; Feldt, C. D.; Switon, B.; Riedel, W.;
+Moskaleva, L. V.; Risse, T. Unraveling the Role of Water in Isothermal Methanol Partial
+Oxidation to Methyl Formate on Gold: A Combined Experimental and Computational
+Study. J Phys Chem C 2025, 129 (3), 1611–1626.
+https://doi.org/10.1021/acs.jpcc.4c05968.
+(54) Belletti, G. D.; Colombo, E.; Cabana, N.; Quaino, P.; Collins, S. Mechanistic
+Investigation of Methanol Oxidation on Au/TiO2: A Combined DRIFT and DFT Study.
+Top Catal 2022, 65 (7–8), 915–925. https://doi.org/10.1007/s11244-022-01620-7.
+(55) Koch, H. P.; Krenn, G.; Bako, I.; Schennach, R. A Reflection Absorption Infrared
+Spectroscopy and Density-Functional Theory Investigation of Methanol
+Dehydrogenation on Rh(111)∕V Alloy Surfaces. J Chem Phys 2005, 122 (24), 244720.
+https://doi.org/10.1063/1.1944728.
+(56) Kresse, G.; Furthmüller, J. Efficient Iterative Schemes for Ab Initio Total-Energy
+Calculations Using a Plane-Wave Basis Set. Phys Rev B 1996, 54 (16), 11169–11186.
+https://doi.org/10.1103/PhysRevB.54.11169.
+(57) Kresse, G.; Joubert, D. From Ultrasoft Pseudopotentials to the Projector Augmented-
+Wave Method. Phys Rev B 1999, 59 (3), 1758–1775.
+https://doi.org/10.1103/PhysRevB.59.1758.
+(58) Hammer, B.; Hansen, L. B.; Nørskov, J. K. Improved Adsorption Energetics within
+Density-Functional Theory Using Revised Perdew-Burke-Ernzerhof Functionals. Phys
+Rev B 1999, 59 (11), 7413–7421. https://doi.org/10.1103/PhysRevB.59.7413.
+(59) Grimme, S.; Ehrlich, S.; Goerigk, L. Effect of the Damping Function in Dispersion
+Corrected Density Functional Theory. J Comput Chem 2011, 32 (7), 1456–1465.
+https://doi.org/10.1002/jcc.21759.
+29
+
+(60) Fukushima, T.; Akai, H.; Chikyow, T.; Kino, H. Automatic Exhaustive Calculations of
+Large Material Space by Korringa-Kohn-Rostoker Coherent Potential Approximation
+Method Applied to Equiatomic Quaternary High Entropy Alloys. Phys Rev Mater 2022,
+6 (2), 023802. https://doi.org/10.1103/PhysRevMaterials.6.023802.
+(61) Long, N. H.; Ogura, M.; Akai, H. Effects of Spin-Wave Excitations in Half-Metallic
+Materials. Phys Rev B 2012, 85 (22), 224437.
+https://doi.org/10.1103/PhysRevB.85.224437.
+(62) Akai, H. Fast Korringa-Kohn-Rostoker Coherent Potential Approximation and Its
+Application to FCC Ni-Fe Systems. J Phys Condens 1989, 1 (43), 8045–8064.
+https://doi.org/10.1088/0953-8984/1/43/006.
+(63) Nam, H. N.; Phung, Q. M.; Suzuki, K.; Shinya, H.; Masago, A.; Fukushima, T.; Sato,
+K. Exploring Finite-Temperature Electronic Transport in CoSi Alloys with Transition
+Metals (Cr, Mn, Fe, and Ni) Using the KKR-CPA Method. J Mater Chem A 2024, 12
+(1), 451–459. https://doi.org/10.1039/D3TA06259G.
+(64) Wang, V.; Xu, N.; Liu, J.-C.; Tang, G.; Geng, W.-T. VASPKIT: A User-Friendly Interface
+Facilitating High-Throughput Computing and Analysis Using VASP Code. Comput
+Phys Commun 2021, 267, 108033. https://doi.org/10.1016/j.cpc.2021.108033.
+(65) Nam, H. N.; Phung, Q. M.; Choeichom, P.; Yamauchi, Y.; Saito, N. First-Principles
+Studies of Enhanced Oxygen Reduction Reactions on Graphene- and Nitrogen-
+Doped Graphene-Coated Platinum Surfaces. Phys Chem Chem Phys 2024, 26 (14),
+10711–10722. https://doi.org/10.1039/D4CP00269E.
+(66) Nørskov, J. K.; Rossmeisl, J.; Logadottir, A.; Lindqvist, L.; Kitchin, J. R.; Bligaard, T.;
+Jónsson, H. Origin of the Overpotential for Oxygen Reduction at a Fuel-Cell Cathode.
+J Phys Chem B 2004, 108 (46), 17886–17892. https://doi.org/10.1021/jp047349j.
+(67) Islam, S. M. R.; Khezeli, F.; Ringe, S.; Plaisance, C. An Implicit Electrolyte Model for
+Plane Wave Density Functional Theory Exhibiting Nonlinear Response and a Nonlocal
+Cavity Definition. J Chem Phys 2023, 159 (23), 234117.
+https://doi.org/10.1063/5.0176308.
+(68) Chanussot, L.; Das, A.; Goyal, S.; Lavril, T.; Shuaibi, M.; Riviere, M.; Tran, K.; Heras-
+Domingo, J.; Ho, C.; Hu, W.; Palizhati, A.; Sriram, A.; Wood, B.; Yoon, J.; Parikh, D.;
+Zitnick, C. L.; Ulissi, Z. Open Catalyst 2020 (OC20) Dataset and Community
+Challenges. ACS Catal 2021, 11 (10), 6059–6072.
+https://doi.org/10.1021/acscatal.0c04525.
+(69) Tran, R.; Lan, J.; Shuaibi, M.; Wood, B. M.; Goyal, S.; Das, A.; Heras-Domingo, J.;
+Kolluru, A.; Rizvi, A.; Shoghi, N.; Sriram, A.; Therrien, F.; Abed, J.; Voznyy, O.; Sargent,
+E. H.; Ulissi, Z.; Zitnick, C. L. The Open Catalyst 2022 (OC22) Dataset and Challenges
+30
+
+for Oxide Electrocatalysts. ACS Catal 2023, 13 (5), 3066–3084.
+https://doi.org/10.1021/acscatal.2c05426.
+(70) Musielewicz, J.; Wang, X.; Tian, T.; Ulissi, Z. FINETUNA: Fine-Tuning Accelerated
+Molecular Simulations. Mach Learn Sci Technol 2022, 3 (3), 03LT01.
+https://doi.org/10.1088/2632-2153/ac8fe0.
+(71) Pedretti, E.; Restuccia, P.; Righi, M. C. Xsorb: A Software for Identifying the Most
+Stable Adsorption Configuration and Energy of a Molecule on a Crystal Surface.
+Comput Phys Commun 2023, 291, 108827.
+https://doi.org/10.1016/j.cpc.2023.108827.
+(72) Pedersen, J. K.; Clausen, C. M.; Krysiak, O. A.; Xiao, B.; Batchelor, T. A. A.; Löffler,
+T.; Mints, V. A.; Banko, L.; Arenz, M.; Savan, A.; Schuhmann, W.; Ludwig, A.;
+Rossmeisl, J. Bayesian Optimization of High‐Entropy Alloy Compositions for
+Electrocatalytic Oxygen Reduction. Angew Chem Int Ed 2021, 60 (45), 24144–24152.
+https://doi.org/10.1002/anie.202108116.
+31
+
+TOC Graphic
+32
+

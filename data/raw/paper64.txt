@@ -1,0 +1,967 @@
+ORIGINALRESEARCH
+published:07October2021
+doi:10.3389/fceng.2021.708014
+fi
+CO Hydrogenation to Ole n-Rich
+2
+Hydrocarbons Over Fe-Cu Bimetallic
+Catalysts: An Investigation of Fe-Cu
+Interaction and Surface Species
+Wenjia Wang1,2,Xiaoxing Wang1*,Guanghui Zhang2,KeWang3, FuZhang3,TianyuYan4,
+Jeffrey T. Miller5,Xinwen Guo2and ChunshanSong1,2,4,6*
+1CleanFuelsandCatalysisProgramandPSU-DUTJointCenterforEnergyResearch,EMSEnergyInstitute,andJohnandWillie
+LeoneFamilyDepartmentofEnergyandMineralEngineering,ThePennsylvaniaStateUniversity,UniversityPark,PA,
+UnitedStates,2PSU-DUTJointCenterforEnergyResearch,StateKeyLaboratoryofFineChemicals,SchoolofChemical
+Editedby: Engineering,DalianUniversityofTechnology,Dalian,China,3DepartmentofMaterialsScienceandEngineering,andCenterfor2-
+FlorentAllais, DimensionalandLayeredMaterials,ThePennsylvaniaStateUniversity,UniversityPark,PA,UnitedStates,4Departmentof
+AgroParisTechInstitutdesScienceset ChemicalEngineering,ThePennsylvaniaStateUniversity,UniversityPark,PA,UnitedStates,5DavidsonSchoolofChemical
+IndustriesduVivantetde Engineering,PurdueUniversity,WestLafayette,IN,UnitedStates,6DepartmentofChemistry,FacultyofScience,TheChinese
+L’environnement,France
+UniversityofHongKong,HongKong,China
+Reviewedby:
+PattarapanPrasassarakich, Previously, we reported a strong Fe-Cu synergy in CO hydrogenation to olefin-rich C +
+ChulalongkornUniversity,Thailand 2 2
+BlažLikozar, hydrocarbons over the γ-Al
+2
+O
+3
+supported bimetallic Fe-Cu catalysts. In this work, we
+NationalInstituteofChemistry, aimed toclarify such a synergyby investigating the catalyst structure, Fe-Cuinteraction,
+Slovenia
+and catalyst surface properties through a series of characterizations. H -TPR results
+YongYang, 2
+QingdaoInstituteofBioenergyand showed that the addition of Cu made both Fe and Cu easier to reduce via the strong
+BioprocessTechnology,(CAS),China interactionbetweenFeandCu.ItwasfurtherconfirmedbyX-rayabsorptionspectroscopy
+FarhadLarki,
+layeroo,Iran (XAS)andTEM,whichshowedthepresenceofmetallicFeandFe-Cualloyphasesinthe
+reducedFe-Cu(0.17)catalystinducedbyCuaddition.BycorrelatingTPDresultswiththe
+*Correspondence:
+XiaoxingWang reactionperformance,wefoundthattheadditionofCuenhancedboththemoderatelyand
+xuw4@psu.edu stronglyadsorbedH andCO species,consequentlyenhancedCO conversionandC +
+2 2 2 2
+ChunshanSong
+selectivity.AddingKincreasedtheadsorbed-CO /adsorbed-H ratiobygreatlyenhancing
+ChunshanSong@cuhk.edu.hk 2 2
+themoderatelyandstronglyadsorbedCO andslightlysuppressingthe moderatelyand
+2
+Specialtysection: strongly adsorbed H , resulting in a significantly increased O/P ratio in the produced
+2
+Thisarticlewassubmittedto
+hydrocarbons. The product distribution analysis and in situ DRIFTS suggested that CO
+CatalyticEngineering, 2
+asectionofthejournal hydrogenation over the Fe-Cu catalyst involved both an indirect route with CO as the
+FrontiersinChemicalEngineering primary product and a direct route to higher hydrocarbons.
+Received:11May2021
+Accepted:03August2021 Keywords:CO
+2
+hydrogenation,characterization,Fe-Cucatalyst,Kpromotion,CO
+2
+adsorption,H
+2
+adsorption
+Published:07October2021
+Citation:
+WangW,WangX,ZhangG,WangK, INTRODUCTION
+ZhangF,YanT,MillerJT,GuoXand
+SongC(2021)CO2Hydrogenationto WasteCO
+2
+canbeutilizedasacarbonsourcetosynthesizevaluablechemicalsandtransportation
+Olefin-RichHydrocarbonsOverFe-Cu
+fuels.Recently,usingrenewableenergytoconductcatalyticCO conversionisattractingincreased
+2
+BimetallicCatalysts:AnInvestigationof
+attention,asithasthepotentialonmitigatingbothCO emissionsandthefossilfueldependence
+Fe-CuInteractionand 2
+(Song, 2006; Wang et al., 2011; Hu et al., 2013a; Meylan et al., 2015). CO is a highly
+SurfaceSpecies. 2
+thermodynamically stable molecule (ΔG° (cid:1) −394kJ/mol). Thus, a high energy input is normally
+Front.Chem.Eng.3:708014.
+doi:10.3389/fceng.2021.708014 required for CO 2 conversion, especially when CO 2 is the solo reactant. However, such an energy
+FrontiersinChemicalEngineering|www.frontiersin.org 1 October2021|Volume3|Article708014
+
+Wangetal. CharacterizationofCO2HydrogenationFe-CuCatalysts
+demand could be much reduced and CO conversion would 2018). The DFT simulation suggested that the addition of Cu
+2
+becomethermodynamicallyeasierwhenoneormoremolecules dramaticallyshiftedthereactionpathway.Onmono-metallicCu
+withhighGibbsfreeenergysuchashydrogen(ΔG°(cid:1)0kJ/mol) andFecatalysts,themainpathwayincludedtheformationofCO
+could co-react with CO (Song, 2006). The synthesis of andsubsequentCOhydrogenationtoCH*species(Riedeletal.,
+2
+oxygenates (Jiang et al., 2015; Sun et al., 2015; Prašnikar et al., 2001; Satthawong et al., 2015). In contrast, over the Fe-Cu
+2019; Prašnikar et al., 2021) [such as methanol over Cu-based bimetallic catalysts, a new and completely different reaction
+catalysts(Hušetal.,2017;Prašnikaretal.,2019;Prašnikaretal., pathway was favored, which did not go through CO as the
+2021)]andhydrocarbons(Willaueretal.,2013;Satthawongetal., intermediate (Nie et al., 2016; Nie et al., 2017). As a result,
+2015; Zhang et al., 2015) from CO and H , where CO is more C + hydrocarbons were produced, exhibiting a strong Fe-
+2 2 2 2
+captured from flue gas and H is produced using renewable Cu synergetic effect.
+2
+energy sources (e.g., such as solar or wind) (Pontzen et al., TobetterunderstandsuchFe-Cusynergeticeffectsobservedin
+2011), is one promising approach for sustainable production ourpreviouswork,inthisstudy,weperformedadetailedcatalyst
+of chemicals and fuels. Among them, C -C light olefins are characterization and investigated the relationship between the
+2 4
+primary building blocks for various chemicals and polymers. physical structure and catalytic performance of Fe-Cu catalysts
+Therefore,developingeffectivecatalystsforselectiveconversion in CO hydrogenation to C + hydrocarbons. A series of fresh,
+2 2
+ofCO tolightolefinsishighlydesired(Riedeletal.,1999;Song, reduced, and spent Fe-Cu catalysts with different Cu/Fe atomic
+2
+2002;Song,2006;CentiandPerathoner,2009;Wangetal.,2011). ratios were investigated by various characterization techniques
+Fecatalystshaveshownactivitiesforboththereversewater- including H temperature-programmed reduction (H -TPR),
+2 2
+gas shift (RWGS) reaction and Fisher–Tropsch synthesis (FTS) transmission electron microscopy (TEM), scanning transmission
+reaction,hencehavealsobeenstudiedforCO hydrogenationto electronmicroscopy/energydispersiveX-rayspectroscopy(STEM/
+2
+synthesize hydrocarbons. However, monometallic Fe catalysts EDS), Fe K-edge X-ray absorption spectroscopy (XAS), in situ
+oftenexhibitlowCO conversionandprimarilyproducemethane diffuse reflectance infrared Fourier transform spectroscopy
+2
+(Wang et al., 2018). To improve CO conversion and C + (DRIFTS), and temperature-programmed desorption of
+2 2
+selectivity, different promoters have been evaluated (Nam hydrogen and carbon dioxide (H -TPD and CO -TPD). In
+2 2
+et al., 1997; Yan et al., 2000; Riedel et al., 2001; Ngantsoue- combination with the catalytic reaction data, we systematically
+Hoc et al., 2002; Lögdberg et al., 2009; Dorner et al., 2011; examined the mechanistic roles of Fe-Cu bimetallic composition
+Satthawong et al., 2013a; Hu et al., 2013b; Satthawong et al., andKpromoter,andtheirinfluencesonCO conversionandthe
+2
+2013b;Rodemercketal.,2013;Fischeretal.,2015;Amoyaletal., formation of olefin-richC + hydrocarbons.
+2
+2017;Liu etal., 2018; Weiet al.,2018).For example, theuse of
+CeO increases both CO conversion and olefin formation
+2 2
+(Dorner et al., 2011). Adding V, Cr, Mn, and Zn can also EXPERIMENT
+increase CO conversion by promoting generation of the iron
+2
+carbide phase (Nam et al., 1997). Furthermore, the addition of Catalyst Preparation
+alkali metals enhances catalytic activity as those substances can Apore-fillingincipientwetnessimpregnation(IWI)methodwas
+increaseCO uptakeandfacilitateFecarburization(Riedeletal., used to prepare Fe, Cu monometallic, and Fe-Cu bimetallic
+2
+2001; Ngantsoue-Hoc et al., 2002; Fischer et al., 2015; Visconti catalysts by adding an aqueous solution of Fe(NO ) ·9H O
+3 3 2
+et al., 2017). However, more studies are still needed to well (Aldrich, 99.99%) and Cu(NO ) ·2.5H O (Alfa Aesar ≥98%)
+3 2 2
+understand the mechanistic roles of these promoters. onto the γ-alumina (Sasol PURALOX TH 100/150) support. The
+WhetherhydrocarbonsfromCO hydrogenationarethrougha total metal loading (Fe + Cu) was kept at 15wt% (based on the
+2
+directorindirectmechanismisunderdebate.Manybelieveinthe supportweight).ToobtainthedesiredCu/(Fe+Cu)atomicratios,the
+indirectmechanismbecauseCO hydrogenationisconsideredasa Fe and Cu concentrations were adjusted. After impregnation, the
+2
+modifiedversionofFTS,whereCO isconvertedtohydrocarbons catalystsweredriedat383Kfor3handthencalcinedinanelectric
+2
+throughaprocessinvolvingtwosteps:CO isfirstreducedtoCO furnace at 673K for 2h. The detailed procedure was reported
+2
+(whichistheso-calledRWGSreaction)andtheformedCOisthen elsewhere (Wang et al., 2018). The K-promoted catalysts were
+converted to hydrocarbons through FTS (Lee et al., 2009; Saeidi prepared by using a sequential impregnation in two steps. First, K
+et al., 2014). It is also suggested by some literature that CO is was impregnated onto the alumina support using KCO aqueous
+2 2 3
+directly hydrogenated to methane, which contributes to the solution,whichwasdriedat383Kovernight.ThenFeandCuwere
+majority of hydrocarbons formation (Fujita et al., 1987; Schild co-impregnatedontheK-loadedaluminasupportusingthemixedFe
+etal.,1991; Wei andJinlong,2010). andCuaqueoussolution,followedbydryingandcalcinationunder
+Inourpreviouswork,wediscoveredastrongbimetallicFe-Cu thesame conditions. The Cu/(Fe+ Cu) atomicratios varied inthe
+synergy in CO conversion and C + hydrocarbons formation rangeof0.0–1.0.ThecatalystsaretermedasFe-Cu(X)/K(Y)/AlO,
+2 2 2 3
+whenCuwasaddedtoFeatacertaincomposition.AddingCuto whereXandYrepresenttheCu/(Fe+Cu)andK/Featomicratios,
+Fe enhanced the formation of CO and C + hydrocarbons and respectively.
+2
+suppressedCH formation.TheproductionofC -C olefin-rich
+4 2 4
+hydrocarbons was promoted dramatically when K was Activity Test
+incorporated into the Fe-Cu bimetallic catalysts, in which, the CO hydrogenation was carried out in a high-temperature and
+2
+C -C olefintoparaffinratioreachedasmuchas5.2(Wangetal., high-pressure fixed-bed flow reactor system. Typically, about
+2 4
+FrontiersinChemicalEngineering|www.frontiersin.org 2 October2021|Volume3|Article708014
+
+Wangetal. CharacterizationofCO2HydrogenationFe-CuCatalysts
+0.2gofcatalystmixedwithamorphousSiO (75–250μmparticle Insitumeasurementswereconductedusingacontinuous-flow
+2
+size,about0.5g)wasloadedintoastainless-steeltube,whichhad XASreactorcell(18in.long,0.75in.diam.).CalcinedFe/Al O
+2 3
+aninternaldiameterof6mm(Thecatalystbedvolumewasabout andFe-Cu/Al O catalystsampleswerepressedintoacylindrical
+2 3
+1.2cm3). The catalyst was pretreated at 673K with H holderwithathicknesschosentogiveatotalabsorbance(μ)at
+2 t
+(50mlmin-1) for 2h. After cooling down to 573K, the feed theFeK-edgeofabout2.0andanedgestep(Δμ)ofca.0.5,and
+t
+gas, CO /H /Ar (24/72/4, vol%, 99.995%) was then introduced thenreducedinastreamofH at673Kfor30minfollowedby
+2 2 2
+and the system pressure was increased to 1.1MPa (GHSV (cid:1) CO /H at 573K for 30min. After treatment, X-ray absorption
+2 2
+3600mlg -1h-1).Thereactorsystemwasmaintainedat573K spectraatFeK-edgewereobtainedatambienttemperature.The
+-cat
+forthecatalyticreaction.Thegasflowrateandreactorpressure spectrumoftheFefoilwasacquiredsimultaneouslywiththoseof
+were regulated with mass flow controllers and a backpressure Fe-basedcatalystsforenergycalibration.TheobtainedFeK-edge
+regulator,respectively.AnAgilent3000Micro-GCwithTCDwas XAS was analyzed in a conventional manner including
+used for the online analysis of gas products including Ar, CO, background subtraction and normalization followed by Fourier
+CH , and CO while the gas-phase hydrocarbon products were filtering.TheX-rayabsorptionnear-edgestructure(XANES)and
+4 2
+analyzed online with SRI 8610C GC-FID. extended X-ray absorption fine structure (EXAFS) data were
+recorded near the K-edge of Fe and treated using the Athena
+Catalyst Passivation software package.
+After CO hydrogenation at 573K and 1.1MPa for 20h, the
+2
+catalyst was cooled down to 298K under the feed gas and High Resolution Transmission Electron Microscopy
+subsequently passivated with 1 vol% O /He (purity >99.999%) The reduced Fe-Cu catalysts were analyzed by the transmission
+2
+ataflowrateof30mlmin-1.TheareaofO peakintheeffluent electron microscopy (TEM, Talos, 80kV, FEI Company).
+2
+measured by the Agilent Micro-GC-TCD was used as an Reduced samples were first collected after the passivation and
+indicator for the catalyst passivation. When the O peak area thenultrasonicallydispersedinethanol.Afewdropletsofethanol
+2
+becameconstant,thecatalystpassivationwascomplete.Thenthe suspension were dripped onto a carbon-coated copper grid
+catalyst was collected for characterization, which hereafter is followed by drying at ambient temperature. Typically, about
+denoted as spent catalyst. Freshly reduced catalysts after the 30 micrograms were taken for each sample. Alloys of Fe-Cu
+typical H -pretreatment procedure were also preserved particlesizehistogramsweregeneratedbycountingatleast200
+2
+through the same passivating procedure, which are denoted as particles.
+reduced catalysts. The morphological properties and elemental distribution of
+the reduced Fe-Cu catalysts were examined by the scanning
+Catalyst Characterization transmission electron microscope in conjunction with the
+Hydrogen Temperature-Programmed Reduction energy-dispersive X-ray spectroscopy (STEM/EDS) using the
+Hydrogen temperature-programmed reduction (H -TPR) was FEI Titan 60–300 microscope equipped with a spherical
+2
+carried out at ambient pressure using a Micromeritics aberration corrector on the probe-forming lens at an
+AutoChem 2910 instrument. About 100mg of catalyst was accelerating voltage of 300kV with a monochromatic beam
+loaded in a U-shaped quartz tube reactor (held by quartz and spherical aberration correction, providing sub-angstrom
+wool). To remove the adsorbed species on the surface, the imaging resolution. EDS maps were acquired using a high-
+catalyst was pretreated at 393K (10Kmin-1) under Ar (purity angle annular dark-field (HAADF) detector. A collection angle
+>99.999%, 25mlmin-1) for 1h prior to reduction. After being of 51–300mrad was used for the HAADF–STEM imaging. A
+cooleddownto323K,thecarriergaswassubsequentlyswitched camera length of 115mm, beam current of 45pA, and beam
+to 10 vol% H /Ar at 20mlmin-1 and sustained throughout the convergenceof30mradwereusedforSTEMimageacquisition.
+2
+analysis.Afterastablebaselinewasestablished,thetemperature Thesample preparationprocedure wasthe sameas thatforthe
+programwasstartedbyincreasingthetemperatureto1173Kata TEManalysis.Noteworthy,anAu-coatedmolybdenumgrid,with
+ramp of 10Kmin-1 and then maintained at 1173K for 30min. Mowasherandclipwasappliedinsteadofthetraditionalcopper
+For the quantitative analysis of the H consumption, the TCD gridtoavoidtheinterferenceofCusignalfromthecoppergridin
+2
+signal was calibrated with the standard Ag O powder (100%). both mapping and quantifying.
+2
+Fe K-Edge X-Ray Absorption Spectroscopy In situ Diffuse Reflectance Infrared Fourier Transform
+FeK-edgeX-rayabsorptionspectroscopy(XAS)wasperformed Spectroscopy
+at the insertion-device beamline of the Materials Research ThepossibleadsorbedsurfacespeciesduringCO hydrogenation
+2
+Collaborative Access Team (MRCAT) at the Advanced Photon overthemono-andbi-metallicFe-Cucatalystswereinvestigated
+Source(APS),ArgonneNationalLaboratory.Inbrief,theX-ray by in situ DRIFTS over a Nicolet Nexus 470 spectrometer
+passed through a cryogenically cooled double-crystal Si (111) equipped with a smart collector environmental chamber.
+monochromatorinconjunctionwithanuncoatedglassmirrorto About 20mg of sample was mounted on the chamber for each
+minimizethepresenceofhigherharmonics,andfocusedontothe measurement.ThesamplewasinitiallypurgedbyN (50mlmin-
+2
+sample. The XAS data were collected in a transmission mode 1)at373Kfor1h,followedbythereductioninaUHPH flow
+2
+usingI andIionizationchambersfilledwithN /Heand20%Ar/ (50mlmin-1) at 523K (ramping rate, 10Kmin-1) for 1h. The
+0 2
+N , respectively. samplewaspurgedagainbyN atthistemperaturefor30min.An
+2 2
+FrontiersinChemicalEngineering|www.frontiersin.org 3 October2021|Volume3|Article708014
+
+Wangetal. CharacterizationofCO2HydrogenationFe-CuCatalysts
+interferogramwasthencollectedatthisconditionandusedasthe
+background.Afterthat,theCO /H /Ar(24/72/4,vol%)mixture
+2 2
+gas was introduced at a flow rate of 50 mlmin-1 to initiate the
+reaction.TheIRspectrawerethenrecordedatthereactiontime
+of10,20,and30min,respectively.Thespectrawereacquiredby
+128scansataresolutionof4cm-1.OMNICver.7softwarewas
+used for data collection and processing.
+Itshouldbepointedoutthatourtargetistodifferentiatethe
+formedandadsorbedspeciesoverthecatalystsurfaceduringthe
+reaction through this series of experiments, rather than the
+change of the catalyst in the conditions of H /N purge. Thus,
+2 2
+the interferogram of the catalyst sample itself was used as the
+background instead of KBr.
+Temperature-Programmed Desorption
+Micromeritics AutoChem 2910 was used to perform the
+temperature-programmed desorption (TPD) experiments at
+ambient pressure. For H -TPD, typically, about 150mg of the
+2
+calcined catalyst was placed in a U-shaped quartz tube reactor
+and reduced at 673K (5Kmin-1) under a 50mlmin-1 H flow
+2
+(purity>99.999%)for2h.Thereactorwasthencooleddownto
+200KunderH flowusinganisopropanol-liquid-N mixtureto
+2 2
+preventdesorptionofweaklyadsorbedhydrogen.ToremoveH
+2
+gasremainedwithinthereactorandthegasline,thesystemwas
+then purged with 0.95 vol% Ar/He flow (purity >99.999%, 30
+mlmin-1)toremoveresidualgaseousH .WhentheH pressure
+2 2
+(observedfromanon-linemassspectrometer)becameconstant,
+the H -TPD experiment was performed by raising the reactor
+2
+temperaturefrom∼280to1173Katarampof10Kmin-1under
+0.95vol%Ar/He(purity>99.999%)flow(30mlmin-1).Here,Ar
+wasusedasaninternalstandardforthequantitativeanalysisof
+the effluent gas detected by an on-line mass spectroscopy
+(AMETEK Dycor Dymaxion Mass Spectrometer DM200M).
+In CO -TPD, after the catalyst was reduced at 673K, the
+2
+temperature was reduced to 573KunderH flow,and thenthe
+2
+catalyst was purged with 0.95 vol% Ar/He (purity >99.999%,
+30mlmin-1)for30min.CO adsorptionwasthenperformedat
+2
+573Kbyintroducing12vol%CO /Hemixturegasataflowrate
+2
+of 30mlmin-1 for 1 h, followed by cooling down to room
+temperature. The catalyst was purged with 0.95 vol% Ar/He
+(purity >99.999%, 30mlmin-1) again to remove any trace of
+FIGURE1|H-TPRprofilesofFe-Cu(X)/AlO catalysts.
+gaseousCO untilCO pressurebecameconstantasindicatedby 2 2 3
+2 2
+the mass spectrometer. The CO -TPD experiment was carried
+2
+out using the same procedure as that for H -TPD.
+2
+the particle size, morphology, and the interaction between iron
+oxide phase and the alumina support. Nonetheless, the two
+RESULTS AND DISCUSSIONS smaller peaks at higher temperatures (735 and 961K) and its
+low degree of reduction (41%, Figure 2) indicates the strong
+Reducibility of Supported Fe-Cu Catalysts
+interactionbetweenironoxideandAl O supportinthecalcined
+2 3
+TheH -TPRprofilesofthecalcinedFe-Cu/Al O catalystswith Fe catalyst, resulting in the formation of large amount of
+2 2 3
+different Cu/(Fe + Cu) atomic ratios are shown in Figure 1. A reduction-resistant Fe-Al-O species (Lögdberg et al., 2009).
+majorreductionpeakwasobservedat604KforthecalcinedFe/ WiththeadditionofCu,allthereductionpeaksofFe-Cu(X)/
+Al O catalystalongwithtwosmallerpeaksat735and961K.The Al O catalysts shifted to lower temperature. The more Cu
+2 3 2 3
+reductionofironoxideusuallyinvolvesthreesequentialstepsof amount, the lower reduction temperature. It suggests that the
+Fe O toFe O ,Fe O toFeO,andFeOtometallicFe(Lögdberg additionofCumadethereductionofironoxideeasier.Itisworth
+2 3 3 4 3 4
+et al., 2009; Jozwiak et al., 2007), occurring at different mentioning that the reduction peaks of Fe-Cu(0.75)/Al O
+2 3
+temperatures. The reduction temperatures can also vary with sample located at lower temperatures than those for the Cu/
+FrontiersinChemicalEngineering|www.frontiersin.org 4 October2021|Volume3|Article708014
+
+Wangetal. CharacterizationofCO2HydrogenationFe-CuCatalysts
+Al O and Fe-Cu(0.17)/Al O samples and showed the highest
+2 3 2 3
+among all samples. On further increasing the Cu content, the
+contentofFedecreasedasthetotalmetalloadingwasfixed.The
+DR contribution from Cu became larger, whereas the DR
+difference decreased. As a result, a decreasing trend in the Fe-
+Cu synergy was obtained.
+Fe K-Edge XAS
+Figure3showstheXAS datafor thereducedFe/Al O andFe-
+2 3
+Cu/Al O catalysts with the Fe O , Fe O , and Fe foil as the
+2 3 2 3 3 4
+reference compounds. The Fe K-edges of the reduced Fe/Al O
+2 3
+andFe-Cu/Al O catalystswereobservedat7,133.6and7,133.0
+2 3
+eV,respectively,whiletheK-edgevalueforFefoilwas7,112.0eV.
+TheadsorptionenergiesoftheFe O andFe O wereat7,134.6
+FIGURE2|Thedegreeofreduction(DR)asafunctionofatomicCu/(Fe 2 3 3 4
++Cu)ratioforFe-Cu(X)/Al2O3catalystsmeasuredbyH2-TPR. and 7,133.5 eV, respectively, which reflect electronic transitions
+from1sorbitalstounoccupiedp-dhybridmolecularorbitals(Li
+etal.,2001).TheXANESspectra(Figure3A)ofthereducedFe/
+Al O sample, indicating thatthe presence of Fealso promoted Al O andFe-Cu/Al O catalystsweresimilartothatoftheFe O
+2 3 2 3 2 3 3 4
+thereductionofCuspecies.Furthermore,thefirstreductionpeak sample,especiallythepre-edgepeaksofthereducedFe/Al O and
+2 3
+at 453–547K for the Fe-Cu(X)/Al O samples involved the Fe-Cu/Al O catalysts as shown in Supplementary Figure S1.
+2 3 2 3
+reduction of both Fe and Cu oxide species, which may form TheresultsrevealthatironoxidewasnotreducedtoFe0under
+Fe-Cualloyafterreduction.Nodefinitivepeakcorrespondingto the conditions used for the XAS analysis.
+theFe-Cualloywasobservedbecauseitsamountwasloworitwas AsshowninSupplementaryFigureS1,thepeakinthepre-
+overlapped with the reduction peak of Fe and Cu. edge region of the reduced Fe-Cu(0.17)/Al O was broadened
+2 3
+Based on H consumption, we calculated the degree of relativetothatofthereducedFe/Al O catalystat7,114.4eV.The
+2 2 3
+reduction (DR) for all the samples. The DR of the supported peakinthepre-edgeregionofFe-Cu(0.17)/Al O shiftedtolower
+2 3
+metal oxides is defined as the ratio of the actual measured H energy, while there was also an increase in intensity at higher
+2
+consumption to the total theoretical H consumption based on energy. This shift suggests that there was a small amount of
+2
+the composition of metal oxides. The actual measured H metallic Fe in the reduced Fe-Cu(0.17)/Al O catalyst. Similar
+2 2 3
+consumption was calculated by integrating the TPR profile, changesinthepre-edgeregionoccurredforreducedFe-Cu(0.5)/
+while the theoretical H consumption was the amount of H Al O ,butwithlesscontributionfrommetallicFe.Itisconsistent
+2 2 2 3
+required for the reduction of the supported Fe and Cu oxides with the catalyst composition where the Fe-Cu(0.17) sample
+towardtheirmetallicstatesaccordingtothestoichiometryofthe contains more Fe content than Fe-Cu(0.5) sample.
+equations shown below (Eqs 1, 2). Similar to the XANES profiles, the EXAFS spectra in
+Figure 3B also suggests that the reduced Fe/Al O catalyst was
+2 3
+Fe O + 3H (cid:1) 2Fe0 + 3H O (1) more like Fe O . It had an Fe-O peak (phase uncorrected
+2 3 2 2 3 4
+CuO + H (cid:1) Cu0 + H O (2) distance) at 1.47Å, and an Fe-O-Fe scattering peak at 2.82Å
+2 2
+(phase uncorrected distance). Over the reduced Fe-Cu(0.17)/
+Figure 2 shows the DR as a function of the Cu/(Fe + Cu) Al O catalyst, besides the Fe-O and Fe-O-Fe(Cu) distances, a
+2 3
+atomicratio.TheDRincreasedwiththeincreaseofCucontentin new distance of 2.36Å emerged, which can be assigned to the
+the catalyst (the blue line). Because the Cu/Al O catalyst itself metallicFe-Fe(Cu)distance.Itisaclearevidenceshowingthatthe
+2 3
+hadahighDRof98.8%,theincreasedDRcouldbeattributedto additionofCuincreasedthereductiondegreeofFeintheFe-Cu
+Cu alone and/or the synergistic effect of Fe and Cu. Assuming bimetalliccatalyst.Similarly,theradialdistancesfromthereduced
+therewasnointeractionbetweenFeandCu,wecouldcalculate Fe-Cu(0.5)/Al O catalyst were not much different from the
+2 3
+the DR for each Fe-Cu(X)/Al O sample by adding their reduced Fe-Cu(0.17)/Al O catalyst, implying that the types of
+2 3 2 3
+corresponding DRs in proportion to their composition (the the reduced elements are similar, but the amounts are different
+black line). Obviously, all the measured DRs of Fe-Cu(X)/ likely due to the difference in the Fe-Cu compositions.
+Al O samples were higher than the sum of the individual DR
+2 3
+when using the Fe/Al O and Cu/Al O separately, confirming
+2 3 2 3 Morphological Properties of Fe and Cu
+theFe-CusynergywhencombiningFeandCuintheFe-Cu(X)/
+Al O catalyst. Species and Element Distribution
+2 3
+TofurthercomparetheFe-CusynergyamongtheFe-Cu(X)/ Figure4presentsTEMimagesofthereducedFe-Cu(0.17)/Al O .
+2 3
+Al O samples,weusedtheDRdifference(ΔDR)asanindicator DuetothelowcontrastbetweenthealuminasupportandFe-Cu
+2 3
+to the Fe-Cu synergy, which was calculated by subtracting the elements,theparticleswerehardlydiscerneddirectlybyeyes.We
+summedDRvalue(theblackline)fromthemeasuredDRvalue had to use the elemental analysis to confirm the distribution of
+(theblueline),whichisalsoplottedinFigure2(theredline).As the particles, which were widely dispersed over the support as
+seen,theFe-CusynergywasalmostthesamefortheFe-Cu(0.05)/ shown in Supplementary Figure S2. The average particle size
+FrontiersinChemicalEngineering|www.frontiersin.org 5 October2021|Volume3|Article708014
+
+Wangetal. CharacterizationofCO2HydrogenationFe-CuCatalysts
+FIGURE3|(A)FeK-edgeXANESspectraand(B)k3-weightedEXAFSFourier-transformmagnitudespectraoftheFe/AlO,Fe-Cu(0.17)/AlO,Fe-Cu(0.5)/AlO
+2 3 2 3 2 3
+catalystsandthereferencesamples.
+FIGURE4|TEMimagesofthereducedFe-Cu(0.17)/AlO withdifferentmagnifications(A–C)anditsparticlesizedistributionbasedonapproximately200
+2 3
+particlesofTEMimage(D).
+FrontiersinChemicalEngineering|www.frontiersin.org 6 October2021|Volume3|Article708014
+
+Wangetal. CharacterizationofCO2HydrogenationFe-CuCatalysts
+FIGURE5|(A)HAADFSTEMimageofthereducedFe-Cu(0.17)/Al2O3catalystand(B)correspondingSTEM/EDSoverlapmapsforFeandCuelements.
+mainlyliedintherangeof4–7nm(Figure4D).Thelatticespace bimetallic nanoparticles on the catalyst surface. Their
+was measured to be 2.01Å and 2.53Å (Figure 4C), which compositions are listed in Table 1. The Cu/(Fe + Cu) ratios
+corresponds to FeCu alloy (110) and Fe O (311) (Omar, wereintherangeof0.17–0.48,morecenteredbetween0.2and0.3
+3 4
+2016; Wei et al., 2017), respectively. The alloy lattice space withthemeanat0.29.ItisconsistentwiththebestCu/(Fe+Cu)
+matches the d-spacing of the FeCu alloy from the XRD results ratio for the Fe-Cu alloy composition suggested by the DFT
+reportedinourpriorwork(Wangetal.,2018).Itshouldbenoted simulation (Nie et al., 2016; Nie et al., 2017).
+that the d-spacing values for the Fe-Cu alloys are similar. Therefore, the STEM/EDS results demonstrated a uniform
+Additionally, according to the binary phase diagrams of Fe distribution of Fe and Cu in the nanosized alloy particles after
+and Cu, there is no specific ratio of Fe and Cu in alloys. Thus, reduction,whichisingoodagreementwiththeXRDresultsover
+it is impossible to distinguish them both in XRD and TEM. the same sample (Wang et al., 2018).
+The presence of Fe-Cu alloy particles was also confirmed by
+Z-contrastinthehigh-angleannulardark-fieldimage(HAADF) Surface Adsorbed Species
+ofthereducedFe-Cu(0.17)/Al O catalystasshowninFigure5. To investigate the surface species on the bimetallic Fe-Cu
+2 3
+The corresponding EDS mapping images for Al, O, Fe, and Cu catalysts during CO hydrogenation, in situ diffuse reflectance
+2
+elementsareshowninSupplementaryFigureS2.BothAlandO FT-IR spectra were recorded after the CO hydrogenation
+2
+speciesdistributeduniformlyacrossthesampleisland,whileFe reaction was initiated at 523K and atmospheric pressure for
+andCuspeciesexistedincloseproximitybutatdifferentrelative 30min.Beforethereaction,allsampleswerereducedwithpure
+concentrations.Evidently,FeandCuwerewell-dispersed,which
+isconsistentwiththeobservationsfromtheTEMimages.Comparing
+TABLE1|QuantifiedphasecompositionsinthealloyedFe-Cunanoparticlesfrom
+the Fe and Cu distributions, we observed that most Fe and Cu
+theSTEM/EDSmapsforthereducedFe-Cu(0.17)/Al2O3withtotalmetal
+elements were located at the same places, especially at the large Fe loadingof15wt%a.
+areas, indicating the combination of Fe and Cu. It was further
+confirmed by measuring the d-spacing. The magnified inset in Particle# Analyzed Cu/(Fe+Cu)
+composition/at.% atomicratio/
+Figure 5A shows a representative particle with a relatively clear at.at-1
+Fe Cu
+lattice fringe alignment. The measured average d-spacing was ca.
+2.01Å,whichisinaccordancewiththeresultsfrombothTEMimages 1 22.27 4.62 0.17
+and XRD patterns (Wang et al., 2018). Thus, these particles are 2 4.66 1.72 0.27
+representativeFe-Cualloyparticles. 3 25.06 7.34 0.23
+To confirm the alloy formation, these eight representative 4 5.76 2.69 0.32
+5 4.09 2.30 0.36
+alloyparticles(withthed-spacing(cid:1)2.01Å)intheHADDFand
+6 4.42 4.02 0.48
+EDSimages(thesameareaofTEMimages)werescannedbythe 7 5.66 2.46 0.30
+energy-dispersive X-ray spectroscopy mapping technique in 8 10.70 2.22 0.17
+STEM mode (STEM/EDS). This technique allows for the aUncertaintyofeachelementinquantitativeanalysis:Fe(0.09at.%);Cu(0.02at.%);C
+identification of the elemental compositions of individual (0.31at.%);Al(0.10at.%);O(0.21at.%).
+FrontiersinChemicalEngineering|www.frontiersin.org 7 October2021|Volume3|Article708014
+
+Wangetal. CharacterizationofCO2HydrogenationFe-CuCatalysts
+thatintheFe-Cu(0.5)catalystintermsofCO hydrogenation.Itis
+2
+ingoodagreementwithH -TPRresultsshowninFigure2.Onthe
+2
+contrast, the Fe/Al O catalyst only showed a broad IR peak at
+2 3
+1,300–1,700cm-1 along with a band at ∼2,932cm-1.
+Besides the IR spectra after 30min of CO hydrogenation
+2
+reaction,wealsorecordedtheDRIFTspectraatdifferentreaction
+time including 10, 20, and 30min over the Fe-Cu(0.17)/Al O
+2 3
+catalyst,whichisshowninSupplementaryFigureS3.Nochange
+wasdetectedinthesespectra,revealingthattheadsorbedspecies
+are stable.
+H Adsorption Properties
+2
+Figure7showstheH -TPDprofilesofthereducedFe/Al O ,Fe-
+2 2 3
+Cu(0.17)/Al O ,Fe-Cu(0.5)/Al O ,andCu/Al O catalysts.The
+2 3 2 3 2 3
+H -TPD profile of the Al O support is also presented as the
+2 2 3
+FIGURE6|InsituDRIFTspectraofFe-Cu(X)/Al
+2
+O
+3
+catalystsafterCO
+2
+baseline.TheirdirectcomparisonispresentedinSupplementary
+hydrogenationat523Kandatmosphericpressurefor30min(A) Figure S4. The H desorption on the reduced Fe/Al O catalyst
+1,200–2,200cm-1and(B)2,500–3500cm-1. 2 2 3
+mainlyoccurredat800Kwithseveralminordesorptionpeaksat
+H at 523K for 1h. The obtained DRIFT spectra are shown in
+2
+Figure 6.
+Asseen,IRbandsat1,377,1,634,1,760,1,942,and2,120cm-1
+wereobservedwithintherangeof1,200–2,200cm-1overtheFe-
+Cu(0.17) catalyst, while the Fe-Cu(0.5) sample displayed the IR
+bandsat1,525,1,646,1,760,and1942cm-1.Thebandsat1,634
+and 1,646cm-1 can be attributed to the adsorbed bicarbonates
+with different vibrational modes (Busca and Lorenzelli, 1982;
+Rethwisch and Dumesic, 1986; Gopal et al., 1987), while the
+1,525cm-1IRbandisthecharacteristicofcarbonates(Peri,1966;
+Parkyns, 1971; Morterra and Orio, 1990; Turek et al., 1992;
+Morterra and Magnacca, 1996). These IR bands confirm the
+formationofadsorbedbicarbonateandcarbonatespeciesonboth
+bimetallicFe-CucatalystsduringCO hydrogenation.The1,942
+2
+and 2,120cm-1 bands can be attributed to the adsorbed CO
+species (Bando et al., 1997; Hadjiivanov et al., 2001), which
+were not observed on either Cu/Al O or Fe/Al O catalysts. It
+2 3 2 3
+indicatesthatthecombinationofFeandCupromotedtheRWGS
+reaction, generating more adsorbed CO species. Although
+Cu/Al O can promote the RWGS reaction, the formed CO
+2 3
+species are quickly released into the gas phase due to the weak
+interactionbetweenCuandCO.Asaresult,suchtwobandswere
+not observed over the Cu/Al O catalyst.
+2 3
+Besides,theIRbandsat1,377,2,854,and2,932cm-1represent
+different vibrational modes of adsorbed formate species (Millar
+etal.,1991;ClarkeandBell,1995;Cabilla,2003)andthe1760cm-
+1IRbandisthecharacteristicofformicacid(Shimanouchi,1972).
+Theobservationoftheadsorbedformateandformicacidspecies
+provides an evidence for one potential CO hydrogenation
+2
+pathway on the bimetallic Fe-Cu/Al O catalysts that the
+2 3
+reaction could go through a direct hydrogenation via formate,
+then formic acid as main intermediates to C + hydrocarbons,
+2
+which was also proposed on the basis of DFT simulation (Nie
+et al., 2016; Nie et al., 2017).
+The intensities of these IR bands on the Fe-Cu(0.17) catalyst
+weremuchstrongerthanthoseoftheFe-Cu(0.5)catalyst,indicating FIGURE7|H 2 -TPDprofilesoftheFe/Al 2 O 3 ,Fe-Cu(X)/Al 2 O 3 andCu/
+AlO catalystsandAlO support.
+thattheFe-CusynergyintheFe-Cu(0.17)catalystisstrongerthan 2 3 2 3
+FrontiersinChemicalEngineering|www.frontiersin.org 8 October2021|Volume3|Article708014
+
+Wangetal. CharacterizationofCO2HydrogenationFe-CuCatalysts
+Cu(0.17)/Al O catalyst as a typical example, the final curve
+2 3
+generated from the summation of the deconvoluted peaks
+fitted the experimental data well. The deconvoluted peaks were
+arbitrarily denoted as I-IV from low to high temperature,
+representing four different types of adsorbed hydrogen species
+on the catalyst surface. Types I and II represent the weakly
+adsorbed H at lower temperatures (below 600K), which can
+2
+be ascribed to atomic hydrogen adsorbed on the metal surface
+(Bozsoetal.,1977).WhiletheH desorptionobservedathigher
+2
+temperatures (>600K, type III as moderately adsorbed H and
+2
+typeIVasstronglyadsorbedH )aretheH speciesadsorbedon
+2 2
+the metallic Fe0 and/or Fe-Cu alloy surface decorated with
+unreduced metal oxide (Zowtiak and Bartholomew, 1983;
+Bartholomew, 1990).
+Based on the peak deconvolution, we were able to
+FIGURE8|TypicalpeakdeconvolutionofH-TPDprofileobtainedon
+2 quantitatively estimate the amount of different types of
+theFe-Cu(0.17)/AlO catalyst.
+2 3
+adsorbed H by integrating each peak, which are listed in
+2
+Supplementary Table S1 for all Fe-Cu(X)/Al O samples.
+2 3
+Figure 9A shows the amounts of type III + IV adsorbed H
+440, 584, and 1030K. The H 2 -TPD profiles of the Fe-Cu ontheFe-Cu(X)/Al 2 O 3 catalysts.AddingasmallamountofCu 2
+bimetallic catalysts generally showed similar features to that of greatly promoted the amount of type III + IV adsorbed H ,
+2
+themonometallicFecatalyst,suggestingthereducedironsitesare especiallyattheCu/(Fe+Cu)atomicratioof0.10and0.17,the
+responsible for H 2 adsorption on the Fe-Cu catalyst surface. amount of type III + IV adsorbed H 2 of which was 238.1 and
+a C 80 o s 0 m m K a p . l a l r U a e m d po o t n u o n t f t h u o e r f t F h C e e u / r A ( i l X n 2 O c (cid:1) r 3 e 0 a c s . a 1 i t n 7 a g ) ly e s t n t h , h e t a h n C e c u e c d o c m t o h n b e i t n e H n a 2 t t i d o t n e o so o X r f p F t (cid:1) i e on a 0 n . a 5 d t , F 2 re 4 e s / 0 u A .0 lt l 2 e μ O d m 3 i o n l c g a t - h t c a e a l t y -1 d s , t e . r c e r s F e p a u e s r c e t t h i o v e f r ely t i y , n p a c e b r o e I a u I s I t in 5 + 0 g % IV C h u i a g d h c s e o o r n r t b t h e e a n d n t, H th h a . o t w W o e f h v t e e h r n e ,
+2
+however, the H 2 desorption peak at 800K became smaller. On the Cu/(Fe + Cu) ratio was 0.75, the amount of type III + IV
+the other hand, the desorption peak at 380–600K was much adsorbed H became 113.5μmolg -1, which was even lower
+2 -cat
+T pr P o D mo p t r e o d fi w le it o h f t t h h e e in re c d r u ea c s e e d o C f u C / u Al a 2 m O o 3 u c n a t t . a I ly n s t t er w es a t s in s g ig ly n , i t fi h c e an H t 2 ly - t t h h a e n ch th a a n t g o e f i t n he th F e e/ F A e l - 2 C O u 3 s c y a n ta e l r y g s y t. c S h u a c r h ac a te tr r e iz n e d d is by co t n h s e is d te e n gr t e w e it o h f
+differentfromthoseoftheFe-basedcatalysts,butclosetothatof reductionoftheFe-CucatalystwiththeadditionofCushownin
+the Al 2 O 3 support, suggesting that Cu has low ability in H 2 Figure 2.
+adsorption.TheH 2 desorptionintherangeof600–900Konthe We then correlated the space-time yield (STY) of C 2 +
+Cu catalyst was negligible. hydrocarbons with each type of adsorbed H species. The
+2
+ToquantitativelyanalyzetheH 2 adsorptionamount,theH 2 - amount of moderately plus strongly adsorbed H 2 (type III +
+TPD peaks were deconvoluted using 50% Gaussian plus 50% IV) showed a good relationship with C + hydrocarbons
+2
+Lorentzianfunctions.AsshowninFigure8withthereducedFe- production (Figure 9B). Such a strong correlation evidently
+FIGURE9|(A)TheamountoftypeIII+IVadsorbedH2ontheFe-Cu(X)/Al2O3catalysts,and(B)TheeffectofamountoftypeIII+IVadsorbedH2onthespace-time
+yield(STY)ofC2 +hydrocarbonsovertheFe-Cu(X)/Al2O3catalysts.
+FrontiersinChemicalEngineering|www.frontiersin.org 9 October2021|Volume3|Article708014
+
+Wangetal. CharacterizationofCO2HydrogenationFe-CuCatalysts
+displays that the moderately and strongly adsorbed H species carbonate species (Pan et al., 2008). The observed bicarbonate
+2
+playedanimportantroleintheformationofC +hydrocarbons. andcarbonatespeciesareinagoodagreementwiththeDRIFTS
+2
+Inotherwords,theFe-CusynergyinCO hydrogenationcouldbe results. In contrast, the monometallic Cu catalyst exhibited a
+2
+attributedtotheenhancementinH adsorptioninducedbythe similar profile to the γ-Al O support, indicating that Cu itself
+2 2 3
+combination of Fe and Cu. doesnotcontributetoCO adsorption.Therefore,thenewpeak
+2
+induced by theaddition of Cucouldbe attributed to theFe-Cu
+CO 2 Adsorption Properties strong interaction and/or Fe-Cu alloys. Correlating to CO 2
+The effect of Fe-Cu combination on the CO adsorption hydrogenation performance, it also suggests that the observed
+2
+properties of the reduced Fe-Cu(X)/Al O catalysts was Fe-CusynergyisbecausethecombinationofFeandCuenhanced
+2 3
+examined by CO -TPD, which is presented in Figure 10. The CO adsorption.
+2 2
+γ-Al O support was also evaluated as a reference. It showed a It is projected that the addition of K could greatly enhance
+2 3
+CO desorption peak at 350K, which is known as the CO adsorption due to its basic nature. Consequently, we also
+2 2
+decomposition of the surface bicarbonate species (Pan et al., examinedtheCO desorptionbehaviorofK-promotedcatalysts,
+2
+2008). Over the monometallic Fe catalyst, another strong CO i.e., the Fe-Cu(0.17)/K(Y)/Al O catalysts. As shown in
+2 2 3
+desorption peak was observed at around 480K, which can be Figure 11A, compared to the Fe-Cu(0.17) catalyst, the
+ascribed to the decomposition of the surface carbonate species addition of K increased all types of the adsorbed CO species
+2
+(Pan et al., 2008). With the addition of Cu, another new small with desorption peaks at around 350K, 450K, and 550–700K.
+CO desorption peak at 550–700K emerged over the Fe-Cu Additionally, a new desorption peak at higher temperatures
+2
+bimetallic catalysts, which can be referred to the bidentate (>700K) emerged, which could be ascribed to the adsorbed
+FIGURE10|CO2-TPDprofilesofthereducedFe-Cu(X)/Al2O3catalystsandtheAl2O3support.
+FrontiersinChemicalEngineering|www.frontiersin.org 10 October2021|Volume3|Article708014
+
+Wangetal. CharacterizationofCO2HydrogenationFe-CuCatalysts
+FIGURE11|(A)CO-TPDprofilesoftheFe-Cu(0.17)/K(Y)/AlO catalystsand(B)PeakdeconvolutionofCO-TPDprofileoftheFe-Cu(0.17)/K(0.3)/AlO catalyst.
+2 2 3 2 2 3
+CO onpotassiumferrite(K Fe O )(ZowtiakandBartholomew, results are presented in Supplementary Figure S5. The
+2 2 2 4
+1983).SimilardesorptionpeakafterKadditionwasalsoobserved quantitative results via peak deconvolution are listed in
+on the Fe-Zn-K catalysts (Zhang et al., 2015). Supplementary Table S1. Adding a small amount of K (K/Fe
+TofindouttherelationshipbetweentheadsorbedCO species (cid:1)0.3)enhancedH adsorptiononFe-Cu(0.17)catalyst,especially
+2 2
+and CO hydrogenation reaction, the desorption profiles of the theweaklyadsorbedH ,duelikelytotheelectronicenhancement
+2 2
+Fe-Cu(0.17)/K(Y)/Al O catalysts were deconvoluted and ofKtometals.However,furtherincreasingKcontent(K/Fe(cid:1)0.5
+2 3
+quantitatively analyzed. Using the Fe-Cu(0.17)/K(0.3)/Al O and1.0)resultedinthedecreaseofthemoderatelyandstrongly
+2 3
+catalyst as an example (Figure 11B), four peaks denoted as adsorbed H , due likely to that overloaded K could cover the
+2
+types I–IV were identified from low to high temperatures, metal surface for H adsorption.
+2
+suggesting four different CO adsorption states on the catalyst As discussed in the H adsorption properties and CO
+2 2 2
+surface. The quantities of deconvoluted peaks for all CO -TPD adsorption properties sections, both the moderately and
+2
+profiles are summarized in Supplementary Table S2. strongly adsorbed H species (Type III + IV) and the
+2
+Asdescribedabove,themoderatelyadsorbedCO (TypeIIIat moderately and strongly adsorbed CO (Type III + IV)
+2 2
+550–700K)isrelatedtotheFe-Cuinteraction.TheadditionofK showed good relationship to the formation of C +
+2
+changed the moderately adsorbed CO , suggesting that K also hydrocarbons. On the other hand, in CO hydrogenation, the
+2 2
+interacted with Fe and Cu. In addition, it is responsible for the productionofparaffinsrequiresmoreH thanolefins.Hencewe
+2
+emergenceofstronglyadsorbedCO (TypeIVat600–900K),as used the ratio of the amount of the moderately and strongly
+2
+no such peak was observed over the corresponding catalyst adsorbed CO over the amount of the moderately and strongly
+2
+without K addition. It is mainly because K could increase the adsorbed H to correlate with the olefin/paraffin ratio (O/P)
+2
+surfacebasicitybydonatingtheelectrontotheFe-basedcatalyst obtained from CO hydrogenation over the Fe-Cu(0.17)/K(Y)/
+2
+(i.e.,actingasanelectronicpromoter)(Dorneretal.,2010).Thus, Al O catalysts. The result is presented in Figure 12.
+2 3
+we correlated the STY of C + hydrocarbons with each type of
+2
+adsorbed CO . It was found that the C + hydrocarbons
+2 2
+production rate is dependent on the amount of moderately
+plus strongly adsorbed CO (type III + IV) (Supplementary
+2
+FigureS6).Itsuggeststhatthemoderatelyandstronglyadsorbed
+CO mayberesponsiblefortheformationofC +hydrocarbons.It
+2 2
+also means the Fe-Cu synergy comes from the Fe-Cu strong
+interaction, which enhances CO adsorption (both amount and
+2
+strength) on the catalyst surface.
+Effect of H and CO Adsorption Properties
+2 2
+on Olefin Formation
+In CO hydrogenation, we observed that the olefin selectivity
+2
+increased significantly with the addition of K, resulting in an
+increasedO/P(olefin/paraffin)ratio,whichmayberelatedtothe
+changeintheH andCO adsorptionpropertiesofthecatalysts FIGURE12|Relationshipbetweentheolefin/paraffinratioandtheratio
+2 2
+with K. Consequently, the H -TPD experiments were also oftheamountoftypeIII+IVadsorbedCO2overtheamountoftypeIII+IV
+2
+performed over the Fe-Cu(0.17)/K(Y)/Al O catalysts, and the
+adsorbedH2.
+2 3
+FrontiersinChemicalEngineering|www.frontiersin.org 11 October2021|Volume3|Article708014
+
+Wangetal. CharacterizationofCO2HydrogenationFe-CuCatalysts
+Hereweobservedaclearandverystrongrelationshipbetween
+theO/Pratioandtheratiooftheamountofthemoderatelyand
+strongly adsorbed CO over the amount of the moderately and
+2
+stronglyadsorbedH withtheR-squarevalueofmorethan0.99.
+2
+It reflects that both the moderately and strongly adsorbed CO
+2
+andH playedacriticalroleindeterminingtheolefinselectivity
+2
+in CO hydrogenation. In other words, it is possible to obtain
+2
+more olefins than paraffins by controlling the ratio of the
+moderately and strongly adsorbed CO over the moderately
+2
+and strongly adsorbed H when we design a proper catalyst
+2
+for CO hydrogenation to higher hydrocarbons.
+2
+WhenwecomparedtheFe-Cucatalystwithrelevantstudiesof
+Fe-basedcatalyst,wefoundthatthisCO /H adsorptionbehavior
+2 2
+is the key to light olefin formation. For instance, Zhang et al.
+reportedapromotionofFe-Zn-KcatalystonCO conversion,but
+2
+they reported Zn addition had almost no effect on light olefin
+FIGURE14|C-C olefin/paraffinratioasafunctionofCO conversion
+selectivity. And they also found that adding Zn decreased CO 2 4 2
+2 fromCO hydrogenationovertheFe-Cu(0.17)/K(0.3)/AlO catalystat573K
+2 2 3
+uptake (Zhang et al., 2015). These results proved that Zn acted and1.1MPa.
+more like a structural promoter that can help Fe to be better
+dispersed and reduced. It is not an actual synergetic effect. We
+willfurtherdiscusstheimportanceoflightolefinformationand of CO conversion, the CO selectivity decreased while the
+2
+itsroleinthewholeCO hydrogenationprocessinnextsection. selectivity of C + hydrocarbons increased, indicating that CO
+2 2
+Thecomprehensiveinvestigationontherelationshipbetween isaprimaryproductwhileC +hydrocarbonsareproducedfrom
+2
+the adsorbed CO and H species and the catalyst activity and CO,probablyviaaprocesssimilartoFTS(Riedeletal.,2001).Itis
+2 2
+product selectivity shall thus be conducted to improve our noticed that at the CO conversion less than 10%, the CO
+2
+fundamental understanding of CO hydrogenation to higher selectivity, CH selectivity, and C + hydrocarbons selectivity
+2 4 2
+hydrocarbons over the Fe-Cu bimetallic catalysts. were almost constant at 90, 4, and 6%, respectively. It hints
+that small parts of CH and C + hydrocarbons may come from
+4 2
+Pathways of CO 2 Hydrogenation direct hydrogenation of CO 2 without through CO intermediate
+To investigate the pathways of CO hydrogenation, the Fe- (Riedeletal.,2001).Inaddition,CH selectivitydidnotchange
+2 4
+Cu(0.17)/K(0.3)/Al O catalyst was tested over a wide range of much with the increase of CO conversion whereas the CO
+2 3 2
+residencetime(W/F)at573Kand1.1MPa.TheCO conversion selectivity decreased sharply, suggesting that CH formation is
+2 4
+as a function of W/F is shown in Supplementary Figure S7. not closely related to CO formation.
+Clearly, the CO conversion increased with increasing the Among the C + hydrocarbons, the paraffin selectivity
+2 2
+residencetimeandgraduallybecameconstantathighW/Fvalues. increased drastically with the increase of CO conversion,
+2
+Figure 13 shows the CO, CH , and C + hydrocarbons while the olefin selectivity only increased a bit, leading to a
+4 2
+selectivities as a function of CO conversion. With the increase rapid decrease in the C -C olefin/paraffin ratio (Figure 14). It
+2 2 4
+suggeststhatlightolefinscouldbetheprimaryproductfromCO
+2
+hydrogenation, and then are further hydrogenated to paraffins.
+Hence,toachieveolefin-richhydrocarbons,itwouldbecrucialto
+suppresstheconsequenthydrogenationofolefinsbytailoringthe
+surface coverage of CO and H in CO hydrogenation.
+2 2 2
+CONCLUSION
+This work focused on catalyst characterizations to better
+understand the Fe-Cu synergistic effect in CO hydrogenation,
+2
+where the Fe-Cu(0.17) catalyst showed the best performance.
+AddingCutoFepromotedthereductionofironoxidetoFe0and
+the formation of Fe-Cu alloy as evidenced by H -TPR, high
+2
+resolution TEM, and XAS. It also influenced the adsorbed
+surface species during CO hydrogenation as observed by in
+2
+situ DRIFTS. Furthermore, the addition of Cu promoted the
+FIGURE13|C2 +hydrocarbons,CH4,andCOselectivityasafunctionof adsorption of the moderately and strongly adsorbed H
+2
+species
+CO2conversionduringCO2hydrogenationovertheFe-Cu(0.17)/K(0.3)/Al2O3 andmoderatelyadsorbedCO species,whichwereresponsiblefor
+2
+catalystat573Kand1.1MPa. the increased CO conversion and C + selectivity. Adding K
+2 2
+FrontiersinChemicalEngineering|www.frontiersin.org 12 October2021|Volume3|Article708014
+
+Wangetal. CharacterizationofCO2HydrogenationFe-CuCatalysts
+furtherincreasedthemoderatelyandstronglyadsorbedCO ,but wrotethefirstdraftofthemanuscript.Allauthorscontributedto
+2
+slightly reduced the moderately and strongly adsorbed H , data analysis and visualization, manuscript revision, read, and
+2
+resulting in an increased adsorbed-CO /adsorbed-H ratio and approved the submitted version.
+2 2
+consequently producing olefin-rich hydrocarbons with a
+significantly increased O/P ratio. Both the in situ DRIFTS and
+the product distribution analysis suggested that C + FUNDING
+2
+hydrocarbons were largely produced from consequent
+reduction of CO via the FT-like process, along with a small This work was supported in part by the Pennsylvania State
+portion formed via a direct CO hydrogenation pathway. University through the EMS Energy Institute and the
+2
+Institutes of Energy and the Environment. Use of the
+Advanced Photon Source was supported by the U.S.
+DATA AVAILABILITY STATEMENT Department of Energy, Office of Basic Energy Sciences, Office
+ofScience,underContractNo.DE-AC02-06CH11357.Materials
+Theoriginalcontributionspresentedinthestudyareincludedin Research Collaborative Access Team (MRCAT) operations and
+the article/Supplementary Material; further inquiries can be thebeamline10-IDweresupportedbytheDepartmentofEnergy
+directed to the corresponding authors. and the MRCAT member institutions.
+AUTHOR CONTRIBUTIONS SUPPLEMENTARY MATERIAL
+CS, XW, and WWcontributed to conception and design of the TheSupplementaryMaterialforthisarticlecanbefoundonlineat:
+study. GZ conducted the XAS analysis, KW and FZ performed https://www.frontiersin.org/articles/10.3389/fceng.2021.708014/
+theTEManalysisandWWcompletedallotherexperiments.WW full#supplementary-material
+REFERENCES Fischer,N.,Henkel,R.,Hettel,B.,Iglesias,M.,Schaub,G.,andClaeys,M.(2015).
+Hydrocarbons via CO2 Hydrogenation over Iron Catalysts: The Effect of
+Potassium on Structure and Performance. Catal. Lett. 146, 509–517.
+Amoyal,M.,Vidruk-Nehemya,R.,Landau,M.V., andHerskowitz, M.(2017). doi:10.1007/s10562-015-1670-9
+EffectofPotassiumontheActivePhasesofFeCatalystsforCarbonDioxide Fujita,S.,Terunuma,H.,Kobayashi,H.,andTakezawa,N.(1987).Methanation
+Conversion to Liquid Fuels through Hydrogenation. J. Catal. 348, 29–39. of Carbon Monoxide and Carbon Dioxide over Nickel Catalyst under
+doi:10.1016/j.jcat.2017.01.020 the Transient State. React. Kinet Catal. Lett. 33, 179–184. doi:10.1007/
+Bando,K.K.,Sayama,K.,Kusama,H.,Okabe,K.,andArakawa,H.(1997).In-situ bf02066720
+FT-IRStudyonCO2HydrogenationoverCuCatalystsSupportedonSiO2, Gopal,P.,Schneider,R.L.,andWatters,K.L.(1987).EvidenceforProductionof
+Al2O3, and TiO2. Appl. Catal. A: Gen. 165, 391–409. doi:10.1016/s0926- SurfaceFormate uponDirectReaction ofCOwithAluminaandMagnesia.
+860x(97)00221-4 J.Catal.105,366–372.doi:10.1016/0021-9517(87)90066-2
+Bartholomew,C.H.(1990).HydrogenAdsorptiononSupportedCobalt,Iron,and Hadjiivanov,K.,Venkov,T.,andKnözinger,H.(2001).FTIRSpectroscopicStudy
+Nickel.Catal.Lett.7,27–51. ofCOAdsorptiononCu/SiO2:FormationofNewTypesofCopperCarbonyls.
+Bozso,F.,Ertl,G.,Grunze,M.,andWeiss,M.(1977).ChemisorptionofHydrogen Catal.Lett.75,55–59.doi:10.1023/a:1016759123842
+on Iron Surfaces. Appl. Surf. Sci. 1, 103–119. doi:10.1016/0378-5963(77) Hu,B.,Frueh,S.,Garces,H.F.,Zhang,L.,Aindow,M.,Brooks,C.,etal.(2013).
+90009-5 Selective Hydrogenation of CO2 and CO to Useful Light Olefins over
+Busca, G., and Lorenzelli, V. (1982). Infrared Spectroscopic Identification Octahedral Molecular Sieve Manganese Oxide Supported Iron Catalysts.
+of Species Arising from Reactive Adsorption of Carbon Oxides on Appl.Catal.B:Environ.132-133,54–61.doi:10.1016/j.apcatb.2012.11.003
+MetalOxideSurfaces.Mater.Chem.7,89–126.doi:10.1016/0390-6035(82) Hu, B., Guild, C., and Suib, S. L. (2013). Thermal, Electrochemical, and
+90059-1 Photochemical Conversion of CO2 to Fuels and Value-Added Products.
+Cabilla,G.(2003).InfraredStudyoftheAdsorptionofFormicAcidonCleanand J.CO2Utilization1,18–27.doi:10.1016/j.jcou.2013.03.004
+Ca-Promoted Pd/SiO2 Catalysts. Appl. Catal. A: Gen. 255, 181–195. Huš,M.,Kopač,D.,Štefančič,N.S.,Jurković,D.L.,Dasireddy,V.D.B.C.,and
+doi:10.1016/s0926-860x(03)00546-5 Likozar,B.(2017).UnravellingtheMechanismsofCO2Hydrogenationto
+Centi,G.,andPerathoner,S.(2009).OpportunitiesandProspectsintheChemical Methanol on Cu-Based Catalysts Using First-Principles Multiscale
+RecyclingofCarbonDioxidetoFuels.Catal.Today148,191–205.doi:10.1016/ Modelling and Experiments. Catal. Sci. Tech. 7, 5900–5913. doi:10.1039/
+j.cattod.2009.07.075 c7cy01659j
+Clarke,D.B.,andBell,A.T.(1995).AnInfraredStudyofMethanolSynthesisfrom Jiang,X.,Koizumi,N.,Guo,X.,andSong,C.(2015).BimetallicPd-CuCatalystsfor
+CO2 on Clean and Potassium-Promoted Cu/SiO2. J. Catal. 154, 314–328. SelectiveCO2HydrogenationtoMethanol.Appl.Catal.B:Environ.170-171,
+doi:10.1006/jcat.1995.1173 173–185.doi:10.1016/j.apcatb.2015.01.010
+Dorner, R. W., Hardy, D. R., Williams, F. W., and Willauer, H. D. (2011). Jozwiak,W.K.,Kaczmarek,E.,Maniecki,T.P.,Ignaczak,W.,andManiukiewicz,
+C2-C5+ Olefin Production from CO2 Hydrogenation Using Ceria W. (2007). Reduction Behavior of Iron Oxides in Hydrogen and Carbon
+Modified Fe/Mn/K Catalysts. Catal. Commun. 15, 88–92. doi:10.1016/ Monoxide Atmospheres. Appl. Catal. A: Gen. 326, 17–27. doi:10.1016/
+j.catcom.2011.08.017 j.apcata.2007.03.021
+Dorner,R.W.,Hardy,D.R.,Williams,F.W.,andWillauer,H.D.(2010).KandMn Lee,S.-C.,Kim,J.-S.,Shin,W.C.,Choi,M.-J.,andChoung,S.-J.(2009).Catalyst
+DopedIron-BasedCO2HydrogenationCatalysts:DetectionofKAlH4asPart Deactivation during Hydrogenation of Carbon Dioxide: Effect of Catalyst
+oftheCatalyst’sActivePhase.Appl.Catal.A:Gen.373,112–121.doi:10.1016/ Position in the Packed Bed Reactor. J. Mol. Catal. A: Chem. 301, 98–105.
+j.apcata.2009.11.005 doi:10.1016/j.molcata.2008.11.016
+FrontiersinChemicalEngineering|www.frontiersin.org 13 October2021|Volume3|Article708014
+
+Wangetal. CharacterizationofCO2HydrogenationFe-CuCatalysts
+Li,S.,Meitzner,G.D.,andIglesia,E.(2001).StructureandSiteEvolutionofIron Carbon Monoxide and Carbon Dioxide. Langmuir 2, 73–79. doi:10.1021/
+OxideCatalystPrecursorsduringtheFischer−TropschSynthesis.J.Phys.Chem. la00067a013
+B105,5743–5750.doi:10.1021/jp010288u Riedel,T.,Claeys,M.,Schulz,H.,Schaub,G.,Nam,S.-S.,Jun,K.-W.,etal.(1999).
+Liu,J.,Zhang,A.,Jiang,X.,Liu,M.,Sun,Y.,Song,C.,etal.(2018).SelectiveCO2 ComparativeStudyofFischer-TropschSynthesiswithH2/COandH2/CO2
+Hydrogenation to Hydrocarbons on Cu-Promoted Fe-Based Catalysts: SyngasUsingFe-andCo-basedCatalysts.Appl.Catal.A:Gen.186,201–213.
+Dependence on Cu-Fe Interaction. ACS Sustain. Chem. Eng. 6, doi:10.1016/s0926-860x(99)00173-8
+10182–10190.doi:10.1021/acssuschemeng.8b01491 Riedel, T., Schaub, G., Jun, K.-W., and Lee, K.-W. (2001). Kinetics of
+Lögdberg,S.,Tristantini,D.,Borg,Ø.,Ilver,L.,Gevert,B.,Järås,S.,etal.(2009). CO2HydrogenationonaK-PromotedFeCatalyst.Ind.Eng.Chem.Res.40,
+HydrocarbonProductionviaFischer-TropschSynthesisfromH2-PoorSyngas 1355–1363.doi:10.1021/ie000084k
+overDifferentFe-Co/γ-Al2O3BimetallicCatalysts.Appl.Catal.B:Environ.89, Rodemerck,U.,Holeňa,M.,Wagner,E.,Smejkal,Q.,Barkschat,A.,andBaerns,M.
+167–182.doi:10.1016/j.apcatb.2008.11.037 (2013).CatalystDevelopmentforCO2HydrogenationtoFuels.ChemCatChem
+Meylan, F. D., Moreau, V., and Erkman, S. (2015). CO2 Utilization in the 5,1948–1955.doi:10.1002/cctc.201200879
+Perspective of Industrial Ecology, an Overview. J. CO2 Utilization 12, Saeidi,S.,Amin,N.A.S.,andRahimpour,M.R.(2014).HydrogenationofCO2to
+101–108.doi:10.1016/j.jcou.2015.05.003 Value-AddedProducts-AReviewandPotentialFutureDevelopments.J.CO2
+Millar, G. J., Rochester, C. H., and Waugh, K. C. (1991). Infrared Study of Utilization5,66–81.doi:10.1016/j.jcou.2013.12.005
+the Adsorption of Formic Acid on Silica-Supported Copper and Satthawong, R., Koizumi, N., Song, C., and Prasassarakich, P. (2013).
+Oxidised Copper Catalysts. Faraday Trans. 87, 1491–1496. doi:10.1039/ Bimetallic Fe-Co Catalysts for CO2 Hydrogenation to Higher
+ft9918701491 Hydrocarbons. J. CO2 Utilization 3-4, 102–106. doi:10.1016/
+Morterra, C., and Magnacca, G. (1996). A Case Study: Surface Chemistry and j.jcou.2013.10.002
+SurfaceStructureofCatalyticAluminas,asStudiedbyVibrationalSpectroscopy Satthawong, R., Koizumi, N., Song, C., and Prasassarakich, P. (2013).
+of Adsorbed Species. Catal. Today 27, 497–532. doi:10.1016/0920-5861(95) Comparative StudyonCO2Hydrogenationto Higher Hydrocarbons over
+00163-8 Fe-BasedBimetallicCatalysts.Top.Catal.57,588–594.doi:10.1007/s11244-
+Morterra,C.,andOrio,L.(1990).SurfaceCharacterizationofZirconiumOxide.II. 013-0215-y
+TheInteractionwithCarbonDioxideatAmbientTemperature.Mater.Chem. Satthawong, R., Koizumi, N., Song, C., and Prasassarakich, P. (2015). Light
+Phys.24,247–268.doi:10.1016/0254-0584(90)90089-s Olefin Synthesis from CO2 Hydrogenation over K-Promoted Fe-Co
+Nam, S.-S., Lee, S.-J., Kim, H., Jun, K.-W., Choi, M.-J., and Lee, K.-W. (1997). Bimetallic Catalysts. Catal. Today 251, 34–40. doi:10.1016/
+CatalyticConversionofCarbonDioxideintoHydrocarbonsoverZincPromoted j.cattod.2015.01.011
+Iron Catalysts. Energ. Convers. Manage. 38, S397–S402. doi:10.1016/s0196- Schild,C.,Wokaun,A.,andBaiker,A.(1991).OntheHydrogenationofCOand
+8904(96)00301-9 CO2overCopper/zirconiaandPalladium/zirconiaCatalysts.FreseniusJ.Anal.
+Ngantsoue-Hoc,W.,Zhang,Y.,O’Brien,R.J.,Luo,M.,andDavis,B.H.(2002). Chem.341,395–401.doi:10.1007/bf00321943
+Fischer−TropschSynthesis:ActivityandSelectivityforGroupIAlkaliPromoted Shimanouchi, T. (1972). National Standards of Reference Data Services, 1.
+Iron-Based Catalysts. Appl. Catal. A: Gen. 236, 77–89. doi:10.1016/s0926- Washington,DC,USA:NationalBureauofStandards.
+860x(02)00278-8 Song,C.(2002).CO2ConversionandUtilization:AnOverview,CO2Conversion
+Nie,X.,Wang,H.,Janik,M.J.,Chen,Y.,Guo,X.,andSong,C.(2017).Mechanistic andUtilization.AmericanChemicalSociety2002,2–30.
+Insight into C-C Coupling over Fe-Cu Bimetallic Catalysts in CO2 Song,C.(2006).GlobalChallengesandStrategiesforControl,Conversionand
+Hydrogenation. J. Phys. Chem. C 121, 13164–13174. doi:10.1021/ UtilizationofCO2forSustainableDevelopmentInvolvingEnergy,Catalysis,
+acs.jpcc.7b02228 Adsorption and Chemical Processing. Catal. Today 115, 2–32. doi:10.1016/
+Nie, X., Wang, H., Janik, M. J., Guo, X., and Song, C. (2016). Computational j.cattod.2006.02.029
+InvestigationofFe-CuBimetallicCatalystsforCO2Hydrogenation.J.Phys. Sun,K.,Fan,Z.,Ye,J.,Yan,J.,Ge,Q.,Li,Y.,etal.(2015).HydrogenationofCO2to
+Chem.C120,9364–9373.doi:10.1021/acs.jpcc.6b03461 Methanol over In2O3 Catalyst. J. CO2 Utilization 12, 1–6. doi:10.1016/
+Omar,H.D.(2016).TheAnalysisofCopper-IronMetallicMixturebyMeansof j.jcou.2015.09.002
+XRD and XRF. Ilcpa 64, 130–134. doi:10.18052/www.scipress.com/ Turek,A.M.,Wachs,I.E.,andDeCanio,E.(1992).AcidicPropertiesofAlumina-
+ilcpa.64.130 Supported Metal Oxide Catalysts: an Infrared Spectroscopy Study. J. Phys.
+Pan, Y., Liu, C.-j., and Ge, Q. (2008). Adsorption and Protonation of CO2on Chem.96,5000–5007.doi:10.1021/j100191a050
+PartiallyHydroxylatedγ-Al2O3Surfaces:ADensityFunctionalTheoryStudy. Visconti,C.G.,Martinelli,M.,Falbo,L.,Infantes-Molina,A.,Lietti,L.,Forzatti,P.,
+Langmuir24,12410–12419.doi:10.1021/la802295x etal.(2017).CO2HydrogenationtoLowerOlefinsonaHighSurfaceArea
+Parkyns,N.D.(1971).InfluenceofthermalPretreatmentontheInfraredSpectrum K-Promoted Bulk Fe-Catalyst. Appl. Catal. B: Environ. 200, 530–542.
+of Carbon Dioxide Adsorbed on Alumina. J. Phys. Chem. 75, 526–531. doi:10.1016/j.apcatb.2016.07.047
+doi:10.1021/j100674a014 Wang,W.,Jiang,X.,Wang,X.,andSong,C.(2018).Fe-CuBimetallicCatalystsfor
+Peri, J. B. (1966). Infrared Study of Adsorption of Carbon Dioxide, Selective CO2 Hydrogenation to Olefin-Rich C2+ Hydrocarbons. Ind. Eng.
+Hydrogen Chloride, and Other Molecules on "Acid"Sites onDry Silica- Chem.Res.57,4535–4542.doi:10.1021/acs.iecr.8b00016
+Alumina and γ-Alumina1. J. Phys. Chem. 70, 3168–3179. doi:10.1021/ Wang,W.,Wang,S.,Ma,X.,andGong,J.(2011).RecentAdvancesinCatalytic
+j100882a026 Hydrogenation of Carbon Dioxide. Chem. Soc. Rev. 40, 3703–3727.
+Pontzen, F., Liebner, W., Gronemann, V., Rothaemel, M., and Ahlers, B. doi:10.1039/c1cs15008a
+(2011). CO2-based Methanol and DME - Efficient Technologies for Wei,J.,Ge,Q.,Yao,R.,Wen,Z.,Fang,C.,Guo,L.,etal.(2017).Directly
+Industrial Scale Production. Catal. Today 171, 242–250. doi:10.1016/ Converting CO2 into a Gasoline Fuel. Nat. Commun. 8, 15174.
+j.cattod.2011.04.049 doi:10.1038/ncomms15174
+Prašnikar,A.,Jurković,D.L.,andLikozar,B.(2021).ReactionPathAnalysisof Wei, J., Yao, R., Ge, Q., Wen, Z., Ji, X., Fang, C., et al. (2018). Catalytic
+CO2ReductiontoMethanolthroughMultisiteMicrokineticModellingover Hydrogenation of CO2 to Isoparaffins over Fe-Based Multifunctional
+Cu/ZnO/Al2O3Catalysts.Appl.Catal.B:Environ.292,120190.doi:10.1016/ Catalysts.ACSCatal.8,9958–9967.doi:10.1021/acscatal.8b02267
+j.apcatb.2021.120190 Wei,W.,andJinlong,G.(2010).MethanationofCarbonDioxide:anOverview.
+Prašnikar,A.,Pavlišič,A.,Ruiz-Zepeda,F.,Kovač,J.,andLikozar,B.(2019). Front.Chem.Sci.Eng.5,2–10.doi:10.1007/s11705-010-0528-3
+MechanismsofCopper-BasedCatalystDeactivationduringCO2Reduction Willauer,H.D.,Ananth,R.,Olsen,M.T.,Drab,D.M.,Hardy,D.R.,and
+to Methanol. Ind. Eng. Chem. Res. 58, 13021–13029. doi:10.1021/ Williams, F. W. (2013). Modeling and Kinetic Analysis of CO2
+acs.iecr.9b01898 Hydrogenation Using a Mn and K-Promoted Fe Catalyst in a Fixed-
+Rethwisch, D. G., and Dumesic, J. A. (1986). Effect of Metal-Oxygen Bond Bed Reactor. J. CO2 Utilization 3-4, 56–64. doi:10.1016/
+Strength on Properties of Oxides. 1. Infrared Spectroscopy of Adsorbed j.jcou.2013.10.003
+FrontiersinChemicalEngineering|www.frontiersin.org 14 October2021|Volume3|Article708014
+
+Wangetal. CharacterizationofCO2HydrogenationFe-CuCatalysts
+Yan,S.-R.,Jun,K.-W.,Hong,J.-S.,Choi,M.-J.,andLee,K.-W.(2000).PromotionEffect Publisher’sNote:Allclaimsexpressedinthisarticlearesolelythoseoftheauthors
+ofFe-CuCatalystfortheHydrogenationofCO2andApplicationtoSlurryReactor. anddonotnecessarilyrepresentthoseoftheiraffiliatedorganizations,orthoseof
+Appl.Catal.A:Gen.194-195,63–70.doi:10.1016/s0926-860x(99)00354-3 thepublisher,theeditorsandthereviewers.Anyproductthatmaybeevaluatedin
+Zhang,J.,Lu,S.,Su,X.,Fan,S.,Ma,Q.,andZhao,T.(2015).SelectiveFormationof thisarticle,orclaimthatmaybemadebyitsmanufacturer,isnotguaranteedor
+Light Olefins from CO2 Hydrogenation over Fe-Zn-K Catalysts. J. CO2 endorsedbythepublisher.
+Utilization12,95–100.doi:10.1016/j.jcou.2015.05.004
+Zowtiak,J.,andBartholomew,C.H.(1983).TheKineticsofH2Adsorptiononand Copyright©2021Wang,Wang,Zhang,Wang,Zhang,Yan,Miller,GuoandSong.
+Desorption from Cobalt and the Effects of Support Thereon. J. Catal. 83, Thisisanopen-accessarticledistributedunderthetermsoftheCreativeCommons
+107–120.doi:10.1016/0021-9517(83)90034-9 AttributionLicense(CCBY).Theuse,distributionorreproductioninotherforumsis
+permitted,providedtheoriginalauthor(s)andthecopyrightowner(s)arecredited
+ConflictofInterest:Theauthorsdeclarethattheresearchwasconductedinthe andthattheoriginalpublicationinthisjournaliscited,inaccordancewithaccepted
+absenceofanycommercialorfinancialrelationshipsthatcouldbeconstruedasa academicpractice.Nouse,distributionorreproductionispermittedwhichdoesnot
+potentialconflictofinterest. complywiththeseterms.
+FrontiersinChemicalEngineering|www.frontiersin.org 15 October2021|Volume3|Article708014
+

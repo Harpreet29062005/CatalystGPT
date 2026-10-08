@@ -1,0 +1,589 @@
+Chemistry–AEuropeanJournal
+RESEARCHARTICLE
+Cobalt-Doped Ni Mo/MoO Electrocatalysts as Stable and
+10 2
+Efficient Bifunctional Catalysts for Sustained Overall Water
+Splitting and Alkaline Seawater Splitting
+JiahuiHa1 YiranZhang1 GuanxuLin1 JunZhang1 JingLi1,2 DebaoWang1
+1StateKeyLaboratoryofAdvancedOpticalPolymerandManufacturingTechnology,CollegeofChemistryandMolecularEngineering,QingdaoUniversityof
+ScienceandTechnology,Qingdao,China 2QingdaoInstituteofMeasurementTechnology,Qingdao,China
+Correspondence:DebaoWang(dbwang@qust.edu.cn)
+Received:31December2025 Revised:2April2026 Accepted:15April2026
+Keywords:alkalineseawaterelectrolysis|electrocatalysis|hydrogenevolutionreaction|oxygenevolutionreaction
+ABSTRACT
+Undertheglobalcarbonneutralitygoals,hydrogenenergyhasgarneredsignificantattention,withelectrocatalytictechnology
+serving as the core enabler for its efficient production. Developing low-cost bifunctional electrocatalysts is key to achieving
+overall water electrocatalytic decomposition. The reported cobalt-doped Ni Mo/MoO (Co─Ni Mo/MoO ) catalyst exhibits
+10 2 10 2
+outstandingbifunctionalactivityforhydrogenevolutionreaction(HER)andoxygenevolutionreaction(OER)inalkalinemedia.
+The overpotentials for HER at 10 and 100 mA cm−2 are 42 and 168 mV, respectively, while OER overpotentials were 273 and
+328mV,respectively.Thiscatalysteliminatesthetraditionaltwo-stepprocessofhydrothermal+high-temperaturecalcination,
+dispensing with the hydrothermal pretreatment step. While maintaining catalytic performance, it simplifies the preparation
+process and optimizes costs, offering a more viable technical pathway for clean hydrogen production. Only 1.49 V and 1.55 V
+voltages are required to reach a current density of 10 mA cm−2 in overall alkaline water and alkaline seawater splitting,
+respectively.Furthermore,thisCo─Ni Mo/MoO catalystdemonstrateslong-termstabilityforupto1200hduringoverallalkaline
+10 2
+seawatersplitting.Moreover,inpracticalapplications,asolarpanelcandrivethishighlyefficientoverallwater-splittingprocess,
+demonstratingitscapabilitytostoresolarenergyintheformofO andH .
+2 2
+1 Introduction inum is the standard electrocatalyst for HER. However, the
+industrial use of precious metals has been severely limited
+Given the substantial rise in energy consumption and mount- due to their high cost and finite supplies [6, 7]. Therefore,
+ing concerns over environmental pollution, hydrogen (H ) has over the years, many low-cost transition metal-based elec-
+2
+been widely recognized as a suitable alternative to fossil fuels trocatalysts, including borides [8], selenides [9], oxides [10],
+[1–4]. Electrocatalytic water splitting is regarded as the most sulfides [11], phosphides [12], carbides [13], and layered double
+promising sustainable hydrogen production technology due to hydroxides [14], have shown remarkable activity and stability.
+its high energy efficiency and zero emissions [5]. The pro- These materials have emerged as promising substitutes for
+cess of water splitting usually involves two half-reactions: the traditional precious-metal-based electrocatalysts (e.g., Pt, IrO ,
+2
+oxygen evolution reaction (OER) at the anode and the hydro- and RuO ). Nevertheless, the scarcity of freshwater resources
+2
+gen evolution reaction (HER) at the cathode. IrO and RuO renderslarge-scaleelectrocatalyticwatersplittinginfreshwater
+2 2
+are currently the best electrocatalysts for OER, whereas plat- systemsaformidablechallenge.Incontrast,seawaterresources
+©2026Wiley-VCHGmbH
+Chemistry–AEuropeanJournal,2026;32:e71071 1of10
+https://doi.org/10.1002/chem.71071
+
+arewidelydistributedglobally.Therefore,utilizingseawaterfor 2.2 PreparationofElectrodes
+water splitting is crucial for effectively alleviating the energy
+demands and environmental issues associated with freshwater 2.2.1 SynthesisofCo─Ni Mo/MoO Catalyst
+10 2
+usage.
+Toobtainacleanreactionsubstrate,thecarboncloth(1×1cm)
+Amongmanycatalysts,nickel-molybdenum(NiMo)alloyshave wasfirstlyultrasonicallycleanedwithacetonereagentandHCl
+beenwidelystudiedasalow-costalternativetohigh-performance (1 M) solution for 10 min. Then, it was rinsed with anhydrous
+precious-metal-basedelectrocatalystsforHERinalkalinemedia ethanol and deionized water for three times before dried in
+[15, 16]. NiMo alloys have extremely high HER catalytic per- an oven at 70◦C for 1 h. 1 mmol NiCl ⋅6H O, 1 mmol MoCl ,
+2 2 5
+formance due to their tunable composition and changeable 10mmolurea,0.2mmolCo(NO ) ⋅6H O,and10μLN H ⋅H O
+3 2 2 2 4 2
+electronic structure. They are also considered as benchmark weremixedinaglassvialandheatedandcontinuouslystirred
+non-Pt catalysts for HER [17]. However, due to poor stabil- to form a homogeneous liquid in an oil bath at 60◦C. 200 μL
+ity and limited intrinsic activity, NiMo alloys usually have of the liquid was evenly applied to the surface of the carbon
+poor intrinsic OER kinetics [18]. Therefore, when NiMo is cloth,whichwasthenplacedinahigh-temperaturetubefurnace
+employed as a bifunctional electrocatalyst for overall water and raised to 650◦C at a heating rate of 5◦C/min under the
+splitting, its electrocatalytic performance is severely limited. atmosphere of nitrogen, and held for 3 h. Allowed to drop to
+Liu et al. successfully prepared a Y-doped NiMo─MoO het- roomtemperature,thedesiredsamplewasobtainedandlabeled
+2
+erogeneous electrocatalyst by hydrothermal method and high as Co─Ni Mo/MoO . For comparison, Ni Mo/MoO catalysts
+10 2 10 2
+temperaturecalcination.TheintroductionofYintoNiMo/MoO withoutcobaltdopingwerealsoprepared.
+2
+heterostructures induces lattice expansion and optimization
+of the NiMo alloy d-band center. This lattice expansion and
+d-band center optimization further enhance the material’s 2.2.2 SynthesisofPt/C/CCandIrO /CCCatalysts
+2
+water dissociation capability and H* desorption. The incorpo-
+ration of Y increases the concentration of oxygen vacancies in Ahomogeneouscatalystinkwaspreparedbyadding5mgofPt/C
+MoO .Theelevatedoxygenvacancyconcentrationaccelerates to490μLof1:1anhydrousethanol-deionizedwaterdispersionand
+2−x
+charge dynamics and promotes the rapid desorption of *OH 10μLofNafion,withsubsequentsonicationfor1h.Take20μLof
+intermediates from active sites [19]. Although highly active theinkanddropituniformlyonaclean1.0×1.0cm2carboncloth,
+electrocatalysts have been prepared, the hydrothermal process andthendryitat60◦Cfor12htoobtainthePt/C.IrO /CCwas
+2
+requires high-pressure reaction conditions. This not only con- preparedinthesameprocedureasdescribedabove,exceptthat
+sumes significant energy but also poses safety risks due to the Pt/CwasreplacedbyIrO .
+2
+instability of the reaction system. Furthermore, it readily gen-
+erates waste liquid pollution, increasing subsequent treatment
+costs. 2.3 MaterialsCharacterization
+Herein,wesynthesizedacobalt-dopedNi Mo/MoO electrocat- Powder X-ray diffractograms (XRD) were acquired using a
+10 2
+alyst via a one-step high-temperature calcination method. The D/max-2500/PC X-ray diffractometer with Cu Kα radiation at
+resultsshowthatwhenusedasHERandOERcatalystsinalkaline a scanning speed of 5◦/minute and a scanning step of 0.02◦.
+media, Co─Ni Mo/MoO exhibit low overpotentials of 42 and Scanning electron microscope (SEM) images were taken on a
+10 2
+273mVat10mAcm−2,respectively.Wealsoassembledelectrode HitachiSU8100fieldemissionscanningelectronmicroscopeat
+by using the Co─Ni Mo/MoO catalyst for cell measurement. 8.0kV.Transmissionelectronmicroscopy(TEM),high-resolution
+4 2
+Under alkaline water and alkaline seawater conditions, the transmissionelectronmicroscopy(HRTEM)images,andSTEM-
+catalystachievedcellvoltagesof1.49Vand1.55V,respectively, EDS elemental mapping were recorded at 200 kV using a
+when operated at a current density of 10 mA cm−2, demon- JEM-F200 transmission electron microscope equipped with an
+strating outstanding water splitting performance. Furthermore, energy dispersive X-ray analytical spectrometer (EDS). X-ray
+the catalyst maintained long-term stability for at least 1200 h photoelectronspectroscopy(XPS)spectrawereperformedonan
+duringconstant-currenttesting,furthervalidatingitsexceptional ESCALABMKelectronspectrometerwithAlKαmonochromatic
+applicationpotential. radiation on an ESCALAB MK electron spectrometer. Binding
+energies of each component were referenced to the C 1s signal
+withavalueof284.8eV.
+2 ExperimentalSection
+2.1 ChemicalsandMaterials 2.4 ElectrochemicalMeasurements
+NiCl ⋅6H O, MoCl , Co (NO ) ⋅6H O, N H ⋅H O, urea, KOH, All electrochemical tests were carried out on a PARSTAT 3000
+2 2 5 3 2 2 2 4 2
+and ethanol with AR grade were purchased from Sinopharm workstationatroomtemperature,withastandardthree-electrode
+Chemical Reagent Co., Ltd. Pt/C (Pt 20 wt %) was purchased configurationand1MKOHasthealkalineelectrolyte.Athree-
+from Macklin Biochemical Co., Ltd. IrO (Ir ≥ 84.5%) was electrodesystemwasemployedforHERandOERmeasurements,
+2
+purchasedfromAladdinIndustrialCorporation.5wt%Nafion using Ag/AgCl (saturated KCl) electrode and graphite rod as
+was purchased from Alfa Aesar chemical Co., Ltd. No further reference and counter electrodes, respectively. In contrast, the
+purificationwasperformedonanyofthechemicalsandreagents as−grown catalyst on carbon cloth was used as the working
+priortouse. electrode. All electrochemical tests were conducted under 80%
+2of10 Chemistry–AEuropeanJournal,2026
+
+IR compensation conditions. Linear sweep voltammetry (LSV) negligible. Compared to Ni Mo/MoO , the peak positions in
+10 2
+curves were recorded at a scan rate of 5 mV s−1 in 1.0 mol Co─Ni Mo/MoO show no significant shift. It is worth noting
+10 2
+L−1 KOH solution. The iR correction of 80% was obtained by that the formation of a heterointerface between Ni Mo and
+10
+multiplying 80% of the total Rs of the prepared electrodes MoO causesaslightshiftintheXRDdiffractionpeaks,result-
+2
+obtained from the EIS measurements by a manual correction. ing in an incomplete match with the standard card [25]. XPS
+Theworking potential relative to reversiblehydrogen electrode measurements are used to analyze the elemental composition,
+(RHE) was obtained using the equation of E = E + surface chemical valence states, and electronic interactions of
+RHE Ag/AgCl
+0.197 V + 0.059 × pH. The electrochemical impedance spectra preparedsamples.Inthehigh-resolutionNi2penergyspectrum
+(EIS)techniquewasusedatroomtemperaturetoinvestigatethe (Figure 2b), the two spin-orbit doublet peaks at 855.4 eV and
+electrontransferresistancebehavior.Theelectrochemicalsurface 873.1 eV are attributed to Ni 2p and Ni 2p , respectively,
+3/2 1/2
+activearea(ECSA)wasdeterminedbycyclicvoltammetry(CV) correspondingtoNi2+;whilethepeaksat852.9eVand871.5eV
+measurementsperformedatdifferentscanrates.Atwo-electrode are attributed to Ni0. Additionally, the peaks at 862.0 eV and
+systemwasusedforthefull-cellwater-splittingexperiments,with 880.0eVcanbeattributedtosatellitepeaks[19].Withrespectto
+the optimal HER and OER catalysts serving as the anode and the Mo 3d spectrum in Figure 2c, the peak at 228.9 eV can be
+cathode. attributed to the metallic state of molybdenum [26]. The high-
+resolution XPS spectra of Ni 2p and Mo 3d for Ni Mo/MoO
+10 2
+Thenumberofactivesiteswasmeasuredbycyclicvoltammetry indicate that the spectral peaks shift toward higher binding
+(CV)curveinphosphatebufferedsalinesolution(PBS,pH=7) energies with the addition of cobalt. This may be attributed to
+accordingtothepreviousreports.Specifically,thenvaluesofthe thedirectionalelectronflowfromtheNi Moalloytotheoxide
+10
+as-prepared catalysts were calculated by the following formula phaseattheNi Mo/MoO interface.Thisprocessoptimizesthe
+10 2
+[20]: electrondensityofNi,enhancestheadsorptionofintermediates,
+andsimultaneouslyimprovestheconductivityofMoO ,thereby
+2
+𝑛 = 𝑄∕2F = 𝐼𝑡∕2F =𝐼𝑉∕2F𝜐 promoting charge transfer. The synergistic effect of these two
+mechanisms significantly enhances electrocatalytic activity. As
+where Q is the voltammetric charge, F represents the Faraday for the Co 2p spectrum shown in Figure 2d, the two peaks at
+constant(Cmol−1),Istandsforthecurrent(A),tisthetime(s), 781.6eVand797.5eVcanbeassociatedwiththeCo2p andCo
+3/2
+Vreferstothevoltage(V)andυistheadoptedscanningrate(V 2p orbitalsrespectively[27].ComparedwithNi Mo/MoO ,the
+1/2 10 2
+s−1).Assuch,theTOFwascalculatedbythefollowingequation peaksforNi0andMo0arelargerinCo─Ni Mo/MoO ,indicating
+10 2
+[21]: strongerelectronicinteractionsbetweenCo─Ni MoandMoO .
+10 2
+This alters the electronic structure of the active sites, causing
+TOF=𝐼∕𝑚𝑛𝐹 the d-band center to shift downward [28]. Based on the above
+results,itcanbeconcludedthattheCo─Ni Mo/MoO catalyst
+10 2
+whereIisthecurrentrecordedduringtheLSVtestsin1MKOH optimizestheadsorption/desorptionprocessofintermediatesby
+withtheunitofA,FistheFaradayconstant(96,485C⋅mol−1),n modulatingitselectronicstructure.Thismodulationofelectronic
+standsforthemolenumberofactivesites,andmistheelectron structure and the resulting optimization of the intermediate
+countrequiredtoproduceasingleH orO moleculeviawater adsorption/desorptionprocesssignificantlyenhancethecatalytic
+2 2
+dissociation. Therefore, the m values for hydrogen evolution performanceofthiscatalystinboththeoxygenevolutionreaction
+reactionandoxygenevolutionreactionare2and4,respectively. (OER)andhydrogenevolutionreaction(HER).
+Subsequently, SEM and TEM are employed to reveal the
+3 ResultsandDiscussion microstructure and lattice information of the as-prepared
+Co─Ni Mo/MoO catalysts. As shown in the SEM images
+10 2
+3.1 SynthesisandCharacteristicsoftheCatalyst (Figure 3a,b), the Co─Ni Mo/MoO surface is rough and
+10 2
+Materials exhibits a porous structure. The porous structure allows active
+sites on the surface of electrochemical catalysts to be fully
+Figure 1 shows the synthetic process of the Co─Ni Mo/MoO exposed. This structure not only facilitates the rapid diffusion
+10 2
+electrocatalyst.Generallyspeaking,acatalyst’scompositionand and adsorption of water molecules during the reaction but
+structure have a direct impact on its performance. The mor- also accelerates the timely escape of hydrogen or oxygen gas
+phology and chemical composition of the Co─Ni Mo/MoO bubbles. The timely escape of bubbles effectively prevents
+10 2
+catalyst have been examined in this work. XRD patterns were gas accumulation on the catalyst surface, thereby avoiding the
+usedtostudytheelectrocatalysts’phasestructure,asshownin cloggingofactivesites.ThecorrespondingTEMimage(Figure3c)
+Figure2a.ItcanbeseenthattheCo─Ni Mo/MoO consistsof clearly shows an appearance with bright and dark contrasts,
+10 2
+Ni Mo (JCPDS No. 152–2538) [22, 23] and MoO (JCPDS No. which indicates the formation of porous nanostructures. The
+10 2
+32–0671) [24]. The peaks at 44.3◦, 51.6◦ and 75.8◦ correspond high-resolution transmission electron microscopy (HRTEM)
+to the (111), (200) and (220) planes of Ni Mo, respectively. image in Figure 3d reveals lattice fringes with a spacing of
+10
+The peaks centered at 26.0◦ and 37.4◦ belong to the MoO 0.20nm,whichcorrespondtothe(111)crystalplaneofNi Mo.
+2 10
+phase. Notably, characteristic peaks of Ni Mo and MoO were Another set of lattice striations with a spacing of 0.34 nm in
+10 2
+identified,indicatingthepresenceofaNi Mo/MoO structure. this image clearly corresponds to the (-111) crystal plane of
+10 2
+The atomic radii of Co and Ni are similar, so their effects MoO . These two different phases closely interact and form
+2
+on unit cell parameters (such as lattice constants a, b, and Co─Ni Mo/MoO ,whichisconsistentwiththeaforementioned
+10 2
+c) are negligible. Changes in the interlayer spacing d are also XRD results. Furthermore, the STEM-EDS elemental mapping
+Chemistry–AEuropeanJournal,2026 3of10
+
+FIGURE 1 TheillustrationofsynthesisprocessforCo─Ni Mo/MoO .
+10 2
+FIGURE 2 (a) XRD spectra of Ni Mo/MoO and Co─Ni Mo/MoO . (b, c) Ni 2p and Mo 3d XPS spectra comparing Ni Mo/MoO and
+10 2 10 2 10 2
+Co─Ni Mo/MoO .(d)Co2pspectraofCo─Ni Mo/MoO .
+10 2 10 2
+results shown in Figure 3e reveal that Co, Ni, Mo, and O are overpotentials of 42 and 168mV to achieve high current den-
+homogeneously distributed throughout the Co─Ni Mo/MoO sities of 10 and 100mAcm−2 (Figure 4a). Additionally, the
+10 2
+composite, demonstrating that Co has been successfully overpotentialsofCo─Ni Mo/MoO ,Ni Mo/MoO andcommer-
+10 2 10 2
+doped into Ni Mo/MoO .This also confirms the presence of a cial Pt/C were compared at current densities of 10, 100 and
+10 2
+heterostructure. 200mAcm−2(Figure4b).TheoverpotentialofCo─Ni Mo/MoO
+10 2
+remains relatively low (η200 = 221 mV), significantly out-
+performing Ni Mo/MoO (η200 = 394 mV) and Pt/C (η200
+10 2
+3.2 PerformanceofElectrocatalyticHydrogen = 254 mV). This demonstrates that Co-doped Ni Mo/MoO
+10 2
+andOxygenEvolution can substantially enhance HER catalytic performance under
+alkaline conditions. The Tafel slope is crucial for studying the
+The catalytic HER performance of Co─Ni Mo/MoO and the kinetics of catalytic processes. A lower Tafel slope is indica-
+10 2
+referencecatalystwasevaluatedusingastandardthree-electrode tive of more rapid reaction kinetics and enhanced hydrogen
+system. Remarkably, Co─Ni Mo/MoO exhibits extremely low electrolysisperformance[29].Co─Ni Mo/MoO exhibitsaTafel
+10 2 10 2
+4of10 Chemistry–AEuropeanJournal,2026
+
+FIGURE 3 (a−b)SEMimages,(c)TEMand(d)HRTEMimagesofCo─Ni Mo/MoO ,(e)elementsofCo─Ni Mo/MoO .
+10 2 10 2
+slop of 95mV dec−1 (Figure 4c), significantly lower than that Co─Ni Mo/MoO arepartlyattributedtoanincreaseinactive
+10 2
+of Ni Mo/MoO (120mV dec−1). The reduction in the Tafel surfacearea[30].Additionally,thehydrogenevolutionreaction
+10 2
+slope reveals the promoting effect of Co─Ni Mo/MoO on the activity was evaluated by calculating the turn-over frequency
+10 2
+reaction kinetics. As shown in Figure 4d, the curves of dif- (TOF), where the number of active sites was determined using
+ferentmaterials(Ni Mo/MoO andCo─Ni Mo/MoO )exhibit cyclic voltammetry (CV). The TOF value of Co─Ni Mo/MoO
+10 2 10 2 10 2
+distinct positions near the potential of 0 V. The curve of reached 0.585 s−1 at 100 mV, significantly higher than that of
+Co─Ni Mo/MoO inthefigurecorrespondstoalargerj2 close Ni Mo/MoO (0.193 s−1), indicating that the catalytic sites of
+10 2 10 2
+to 0 V. Then it has a relatively larger current density at η Co─Ni Mo/MoO possess higher intrinsic activity (Figure S3)
+10 2
+= 0, implying a higher electrode reactivity of the material. [31]. Impressively, the composite radar chart in Figure 4g fully
+The catalysts’ charge-transfer kinetics were discovered using demonstrates the advantages of Co─Ni Mo/MoO . This radar
+10 2
+electrochemicalimpedancespectroscopy(EIS).Followingfitting chartalsocomprehensivelyillustratesthatarationallydesigned
+to a Randle circuit model (Figure S1), the Nyquist plot of catalystcaneffectivelyenhanceoverallperformance.Figure4h
+Ni Mo/MoO andCo─Ni Mo/MoO isseeninFigure4e.The comparestheoverpotentialsrequiredtoachieveacurrentdensity
+10 2 10 2
+charge transfer resistance (Rct) values of Ni Mo/MoO and of10mAcm−2 at1MKOH[32–45].Basedontheaboveresults,
+10 2
+Co─Ni Mo/MoO are proportional to the semicircle diameter. Co─Ni Mo/MoO exhibitsoutstandingHERactivity.Thisexcep-
+10 2 10 2
+Specifically, the Rct value for Ni Mo/MoO is 4.0 ohms, while tional catalytic activity is ascribed to the high density of active
+10 2
+thatforCo─Ni Mo/MoO is0.6ohms.Thisexceptionalcharge sitesdistributedonthecatalystsurface.Theseactivesitesarise
+10 2
+transfercapabilityisattributabletocobaltdoping.Cobaltdoping from the unique structure formed by Co doping and electronic
+effectively modulates the electronic structure of the catalyst, structure modulation at the heterointerface, coupled with the
+therebyenhancingitselectricalconductivityandhydrogenevo- high intrinsic activity conferred by this structure. Co doping
+lution reaction performance. The electrochemical double-layer exploitstheinherentdifferenceinelectronegativitybetweenCo
+capacitance (C ) value was calculated using a conventional and Ni to effectively induce a directed transfer of charge from
+dl
+CV method to determine the samples’ electrochemically active CototheNi Moalloy,therebypromotingaredistributionofthe
+10
+surface area (ECSA) (Figure S2). It is revealed in Figure 4f electrondensityonthealloysurface.Thissignificantlyenhances
+that the C value of 41.28 mF cm−2 for Co─Ni Mo/MoO is the adsorption strength of active sites for the key reaction
+dl 10 2
+1.8 times higher than that of Ni Mo/MoO (22.83 mF cm−2). intermediate H*, and this moderate adsorption capacity helps
+10 2
+These results indicate that the enhanced HER kinetics of acceleratethekineticsoftheVolmerstep,ultimatelyleadingto
+Chemistry–AEuropeanJournal,2026 5of10
+
+FIGURE 4 ElectrocatalyticpropertiesofCo─Ni Mo/MoO ,andNi Mo/MoO .(a)LSVcurves;(b)Overpotentialsrequiredforacurrentdensity
+10 2 10 2
+of10,100and200mAcm−2;(c)Tafelplots;(d)Butlerplots;(e)EIS;(f)C ofCo─Ni Mo/MoO ,andNi Mo/MoO ;(g)IntegratedHERperformance
+dl 10 2 10 2
+radarchartoftheas-preparedsamples(h)Comparisonoftheas-preparedCo─Ni Mo/MoO withothersimilarcatalysts.
+10 2
+a substantial improvement in the overall catalytic performance Ni Mo/MoO . In 1 M KOH, the LSV polarization curves in
+10 2
+oftheHER. Figure5aindicatesthatthecurrentresponseofCo-Ni Mo/MoO
+10 2
+is much faster than that of the other catalysts as the potential
+Forcatalysts,long-termstabilityisjustasimportantascatalytic increases.TheLSVcurveshowsthatatacurrentdensityof10mA
+activity. After 1000 cycles, the LSV curve of Co─Ni Mo/MoO cm−2, Co-Ni Mo/MoO exhibits an overpotential of 273 mV,
+10 2 10 2
+changed only slightly compared to the previous sample. This significantly lower than that of Ni Mo/MoO . Specifically, Co-
+10 2
+curve evolution demonstrates the outstanding stability of Co- Ni Mo/MoO exhibits an overpotential of 328 mV at 100 mA
+10 2
+Ni Mo/MoO (Figure S4). Furthermore, the XRD patterns of cm−2, outperforming even IrO , demonstrating the excellent
+4 2 2
+Co-Ni Mo/MoO remained essentially unchanged before and catalytic efficiency of Co-Ni Mo/MoO in OER. Furthermore,
+10 2 10 2
+after durability testing, further confirming the excellent phase compared to Ni Mo/MoO (137 mV dec−1) and IrO (93 mV
+10 2 2
+stabilityofourcatalyst(FigureS5a).AsshowninXPSanalysesof dec−1),theCo-Ni Mo/MoO electrodehasanexceptionallylow
+10 2
+Co-Ni Mo/MoO after1000cycles,theNi2pandCo2pspectra Tafel slope (42 mV dec−1). This demonstrates its outstanding
+10 2
+(Figure S5b,d) exhibit slight shifts in peak positions. However, oxygen evolution reaction performance, which has highlighted
+thesechangesarenegligible,demonstratingtheexcellentstability the excellent kinetic properties of the Co-Ni Mo/MoO cata-
+10 2
+oftheobtainedcatalyst.However,theMo3dspectraisobviously lyst, as shown in Figure 5b. Additionally, the overpotentials
+weakened (Figure S5c), which indicates that there is a subtle ofCo-Ni Mo/MoO ,Ni Mo/MoO ,andcommercialIrO were
+10 2 10 2 2
+phase/microstructureevolutiononthesurfaceofthecatalyst. compared at current densities of 10, 100 and 200 mA cm−2
+(Figure5c).Co-Ni Mo/MoO stillshowsareasonablylowover-
+10 2
+ForOERelectrocatalysis,IrO wasevaluatedasarepresentative potential(η200=360mV),whichissignificantlybetterthanthat
+2
+OERbenchmarkalongwiththepreparedCo-Ni Mo/MoO and of Ni Mo/MoO (η200 = 577 mV) and IrO (η200 = 499 mV).
+10 2 10 2 2
+6of10 Chemistry–AEuropeanJournal,2026
+
+FIGURE 5 (a)OERpolarizationprofilesfordifferentelectrocatalyticmaterialsand(b)thecorrespondingTafelplotsofthevariouselectrocatalysts.
+(c)Overpotentialsrequiredforacurrentdensityof10,100and200mAcm−2.(d)Comparisonoftheas-preparedCo-Ni Mo/MoO withothersimilar
+10 2
+catalysts.
+This suggests that Co-Ni Mo/MoO has more active reaction chemicaloverallwatersplitting.Todemonstratetheoutstanding
+10 2
+kinetics. Co doping also modulates the electronic structure of overall water-splitting catalytic performance of this catalytic
+Ni Mo/MoO , optimizing the adsorption energies of oxygen- material, relevant experimental phenomena were recorded in
+10 2
+containingintermediates(OH,O,OOH)andloweringtheenergy the study. Figure 6b indicates that under alkaline seawater
+barrieroftherate-limitingstep,therebyenhancingtheintrinsic conditions,theCo-Ni Mo/MoO ||Co-Ni Mo/MoO integrated
+10 2 10 2
+OER activity. The overpotentials needed to reach a current water splitting cell requires only 1.55 V to generate a water
+densityof10mAcm−2 at1MKOHarecontrastedinFigure5d splitting current of 10 mA cm−2. Furthermore, stability is a
+[46–59].TheresultsdemonstratethattheCo-Ni Mo/MoO elec- critical parameter in practical applications. Figure 6c shows
+10 2
+trocatalystexhibitssuperiorOERperformancecomparedtomost the stability test of Co-Ni Mo/MoO || Co-Ni Mo/MoO for
+10 2 10 2
+recentlyreportedbifunctionalelectrocatalysts.Accordingtothe overall water splitting, which exhibits robust stability during
+aforementioned findings, the Co-Ni Mo/MoO electrocatalyst 1200hofallwatersplitting.Inaddition,thestabilitytestofCo-
+10 2
+showsoutstandingactivityintheOERprocess.Thisexceptional Ni Mo/MoO || Co-Ni Mo/MoO for alkaline overall seawater
+10 2 10 2
+OER activity demonstrates the catalyst’s potential for practical splitting(Figure6d)demonstratesthatitcanoperatestablyfor
+applicationinthewatersplittingindustry. 1200 h at a current density of 10 mA cm−2. Such excellent
+durability of Co-Ni Mo/MoO is derived from its distinctive
+10 2
+porous architecture. Taken together, all these results reveal
+3.3 OverallSeawaterElectrolysisPerformance the excellent energy efficiency and high selectivity during the
+electrolysisprocess.Thischaracteristicalsoconfirmsthepractical
+TheCo-Ni Mo/MoO electrocatalystexhibitsoutstandingelec- applicability of this integrated system approach in the field of
+10 2
+trocatalyticperformanceinbothoxygenevolutionandhydrogen environmentallyfriendlyhydrogenproduction.
+evolution reactions. Based on this, the overall water splitting
+process was further investigated using this electrocatalyst as Solarenergyisoneofthemostabundantresourcesinnature.Har-
+both the anode and cathode in 1 M KOH and 1 M KOH + nessingsolarenergytodriveelectrocatalyticreactionsrepresents
+seawaterelectrolytes.Figure6ashowsthattheCo-Ni Mo/MoO a cost-effective strategy for achieving sustainable development.
+10 2
+|| Co-Ni Mo/MoO integrated water-splitting cell requires a Againstthisbackdrop,leveragingtheoutstandingelectrocatalytic
+10 2
+cell voltage of 1.49 V to generate a water-splitting current performance of Co-Ni Mo/MoO , a simple solar-driven water
+10 2
+of 10 mA cm−2. This voltage is significantly lower than that splittingdevicewasdesigned(Figure7a).Thisdeviceemploys1M
+required by commercial Pt/C || IrO cells at the same current KOH+seawaterastheelectrolyte,withCo-Ni Mo/MoO serving
+2 10 2
+density. It is worth noting that, as shown in Table S1, the asboththecathodeandanode.Whenthesolarpanelisexposed
+performanceoftheCo-Ni Mo/MoO electrolyzesurpassesthat to sunlight, bubbles visibly form on both electrode surfaces.
+10 2
+ofmostadvancedelectrolytesreportedtodate.Thisperformance Under sunlight exposure and without external bias, the digital
+advantage demonstrates that Co-Ni Mo/MoO can serve as a multimeter displays a voltage of 1.56 V. This observable bubble
+10 2
+low-cost, highly efficient bifunctional catalyst for the electro- generationindicatestheoccurrenceofelectrochemicalreactions
+Chemistry–AEuropeanJournal,2026 7of10
+
+FIGURE 6 (a)LSVcurvesofoverallwatersplittingforCo-Ni Mo/MoO ||Co-Ni Mo/MoO andPt/C||IrO in1MKOH.(b)LSVcurvesof
+10 2 10 2 2
+Co-Ni Mo/MoO ||Co-Ni Mo/MoO andPt/C||IrO2foroverallwatersplitting(1MKOH+seawatermedium).(c)Thelong-termstabilityforoverall
+10 2 10 2
+waterseparationin1MKOH.(d)Thelong-termstabilityforoverallwaterseparationin1MKOH+seawater.
+FIGURE 7 (a)Electrolysisdevicepoweredbysolarenergy.(b)Magnifiedimageofbubblesontheelectrodesurface.
+associated with water splitting (Figure 7b). Specifically, these HERoverpotentialofthebifunctionalcatalystis42mVat10mA
+bubblesdemonstratethegenerationofH atthecathodeandO at cm−2 and168mVat100mAcm−2,whiletheOERoverpotential
+2 2
+theanode.Thissolarsystemeffectivelyconvertslow-voltageelec- is 273 mV at 10 mA cm−2 and 328 mV at 100 mA cm−2.
+tricalenergyintochemicalenergy,demonstratingthefeasibility TheassembledCo-Ni Mo/MoO ||Co-Ni Mo/MoO electrolyze
+10 2 10 2
+ofrenewableenergyforsustainablehydrogenproduction. achievesefficientoverallwatersplittingperformance,requiring
+only 1.49 V and 1.55 V to drive 10 mA cm−2 under alkaline
+and alkaline seawater conditions, respectively. In addition, it
+4 Conclusions providesexcellentstability,operatingstablyfor1200hatacurrent
+density of 10 mA cm−2. The outstanding catalytic performance
+To summarize, a facile one-step calcination synthesis method is primarily attributed to Co-doped Ni Mo/MoO , which gen-
+10 2
+hasbeensuccessfullydevelopedforthepreparationofCo-doped erates a unique structure exposing, exposing additional active
+Ni Mo/MoO electrocatalysts. The prepared electrode material sites.Thissignificantlyenhanceschargetransferefficiencyand
+10 2
+cansimultaneouslyserveasbothHERandOERcatalysts,asthe substantiallyimprovesreactionkinetics.Thisworkprovidesan
+8of10 Chemistry–AEuropeanJournal,2026
+
+importantpathwayforconstructinghighlyefficientsolar-driven Water/Seawater Splitting,” Chemical Engineering Journal 502 (2024):
+integrated water-splitting catalysts and offers a novel approach 157952.
+for designing and synthesizing efficient, stable, nonprecious 13.Y. Ren, X. Zhang, H. Song, et al., “MoOC-Mo C/C Heterojunc-
+2
+metal-basedbifunctionalHERandOERelectrocatalysts. tion Enables Fast Water Dissociation for Efficient Alkaline Hydrogen
+EvolutionReaction,”JournalofPowerSources647(2025):237306.
+14.L. Jiang, X. Chen, L. Jiang, et al., “Oxyanion-Triggered Discrepant
+OxidePathwaysviaTailoringReconstructionofNon-NobleCatalystsfor
+WaterOxidation,”NanoLetters37(2025):13875–13884.
+Acknowledgment 15.Q.Liu,Q.Qian,H.Li,etal.,“AChromiumandNitrogenco-doped
+NiMo-basedCatalystAchievingHigh-efficiencyandDurableIntermittent
+ThisworkwassupportedbytheNationalNaturalScienceFoundationof
+WaterElectrolysis,”JournalofMaterialsChemistryA13(2025):9462–9468.
+China(52072194)andthecollegestudents’innovationandentrepreneur-
+shiptrainingprogramofShandongprovince(S202510426124). 16.L.Meng,S.Shang,S.Liu,etal.,“CooperativeEffectsbetweenNiMo
+Alloy Enable Highly Efficient for all-pH-value and Alkaline Seawater
+HydrogenEvolution,”AppliedCatalysisB:EnvironmentandEnergy358
+ConflictsofInterest
+(2024):124388.
+Theauthorsdeclarenoconflictsofinterest.
+17.S.Xie,C.Huang,H.Dong,etal.,“AMoNi (312)SurfacePreferred
+4
+Reconstruction Enhancing Hydrogen Evolution,” Applied Catalysis B:
+DataAvailabilityStatement EnvironmentandEnergy363(2025):124831.
+Thedatathatsupportthefindingsofthisstudyareavailableonrequest 18.Y. Zhang, J. M. Baik, and H. Park, “Spontaneous Heterophase
+fromthecorrespondingauthor.Thedataarenotpubliclyavailabledueto AtomicStructureEngineeringofNiMo(S)/NiMoPforEnhancedOverall
+privacyorethicalrestrictions. ElectrochemicalWaterSplittinginNeutralmedia,”AppliedCatalysisB:
+EnvironmentandEnergy359(2024):124469.
+19.S. Liu, Z. Zhang, K. Dastafkan, Y. Shen, C. Zhao, and M. Wang,
+References
+“Yttrium-dopedNiMo-MoO HeterostructureElectrocatalystsforHydro-
+2
+1.R.Ram,L.Xia,H.Benzidi,etal.,“Water-hydroxideTrappinginCobalt gen Production from Alkaline Seawater,” Nature Communications 16
+TungstateforProtonExchangeMembraneWaterElectrolysis,”Science (2025):773.
+384(2024):1373–1380.
+20.H. J. Liu, S. Zhang, W. Z. Qiao, et al., “Bimetallic Metal-organic
+2.P.Liu,X.Zhang,J.Fei,etal.,“FrankPartialDislocationsinCopla- Framework-derived Bamboo-like N-doped Carbon Nanotube-
+nar Ir/C Ultrathin Nanosheets Boost Hydrogen Evolution Reaction,” encapsulated Ni-doped MoC Nanoparticles for Water Oxidation,”
+AdvancedMaterials36(2024):2310591. JournalofColloidandInterfaceScience657(2024):208–218.
+3.Y.Liu,Q.Wang,J.Zhang,etal.,“RecentAdvancesinCarbon-Supported 21.Y. Shi, S. Zhou, J. Liu, et al., “An Integrated Amorphous Cobalt
+Noble-MetalElectrocatalystsforHydrogenEvolutionReaction:Synthe- PhosphoselenideElectrocatalystWithHighMassActivityBoostsAlkaline
+ses, Structures, and Properties,” Advanced Energy Materials 12 (2022): OverallWaterSplitting,”AppliedCatalysisB:Environmental341(2024):
+2200928. 123326.
+4.S.Chen,Y.Zhuo,X.Wang,etal.,“AdvancesofLayeredDoubleHydrox- 22.Y.P.Qiu,G.X.Cao,H.Wen,Q.Shi,H.Dai,andP.Wang,“High-
+ide Electrocatalysts for High-current-density Alkaline Water/Seawater capacity Hydrogen Generation From Hydrazine Monohydrate Using a
+Splitting,”CoordinationChemistryReviews510(2024):215832. Noble-metal-freeNi Mo/Ni–Mo–ONanocatalyst,”InternationalJournal
+10
+5.C.Feng,M.Chen,Z.Yang,etal.,“ElectrocatalyticSeawaterSplittingfor ofHydrogenEnergy44(2019):15110–15117.
+HydrogenProduction:RecentProgressandFutureProspects,”Journalof 23.J. Cao, H. Li, J. Pu, et al., “Hierarchical NiMo Alloy Microtubes
+MaterialsScience&Technology162(2023):203–226. onNickelFoamasanEfficientElectrocatalystforHydrogenEvolution
+6.B. H. R. Suryanto, Y. Wang, R. K. Hocking, W. Adamson, and C. Reaction,” International Journal of Hydrogen Energy 44 (2019): 24712–
+Zhao,“OverallElectrochemicalSplittingofWaterattheHeterogeneous 24718.
+InterfaceofNickelandIronOxide,”NatureCommunications10(2019): 24.G.Wei,C.Wang,X.Zhao,S.Wang,andF.Kong,“Plasma-assistedSyn-
+5599. thesisofNi Mo/MoO @CarbonNanotubesWithMultiphase-interface
+4 2
+7.J.Liu,X.Yang,F.Si,etal.,“InterfacialComponentCouplingEffects forHigh-performanceOverallWaterSplittingElectrocatalysis,”Journal
+Towards Precise Heterostructure Design for Efficient Electrocatalytic ofAlloysandCompounds939(2023):168755.
+WaterSplitting,”NanoEnergy103(2022):107753. 25.J. Li, X. Du, and X. Zhang, “Controlled Synthesis of NiWO4 Com-
+8.T.Kanwar,P.Arun,R.Silviya,etal.,“OptimizedTrimetallicCoNiFe bined with NiSe 2 With Heterostructure on Nickel Foam for Efficient
+Phospho-borideElectrocatalystforOverallSeawaterElectrolysis,”Jour- Overall Water Splitting,” JournalofAlloysandCompounds 951 (2023):
+nalofPowerSources633(2025):236427. 169941.
+9.Y. Qi, J. Chen, D. Liu, et al., “Self-supported Bimetallic Selenide 26.R. Xiao, F. Wang, L. Luo, et al., “Efficient Self-Powered Overall
+Heterostructure Catalyst With Enhanced Electronic Interaction for WaterSplittingbyNi 4 Mo/MoO 2 HeterogeneousNanorodsTrifunctional
+Industrial-levelSeawaterElectrolysis,”ChemicalEngineeringJournal512 Electrocatalysts,”SmallMethods7(2023):2201659.
+(2025):162567. 27.S.Wang,P.Yang,X.Sun,etal.,“Synthesisof3DHeterostructureCo-
+10.K.Sarout,S.Barhoumi,A.Faik,D.K.Bora,andS.Mehmood,“An doped Fe 2 P Electrocatalyst for Overall Seawater Electrolysis,” Applied
+AccountofMetalandMetalOxideBasedNanocompositeElectrocatalysts CatalysisB:Environmental297(2021):120386.
+for Green Hydrogen Production,” International Journal of Hydrogen 28.K. Wang, J. Zhou, M. Sun, et al., “Cu-Doped Heterointerfaced
+Energy111(2025):592–605. Ru/RuSe Nanosheets With Optimized H and H O Adsorption
+2 2
+11.X. Luo, H. Zhao, L. Wang, et al., “Stabilizing Nickel Sulfide by Boost Hydrogen Evolution Catalysis,” Advanced Materials 35 (2023):
+Suppressing Phase Transition for Durable Hydrogen Evolution,” Nano 2300980.
+Energy147(2026):111601. 29.K. Yan, T. Wei, H. Ren, et al., “Asymmetric Exchange Interac-
+12.L. Jiang, L. Jiang, X. Luo, et al., “Iron-Induced Vacancy and tion Induces Highly Efficient Alkaline Hydrogen Evolution in RhFe
+Electronic Regulation of Nickle Phosphides for Ampere-level Alkaline Bimetallene,”Small18(2022):2204456.
+Chemistry–AEuropeanJournal,2026 9of10
+
+30.Y.Liu,W.Tang,G.Zhang,etal.,“A3DBinder-freeAgNWs@NiMo/PU 48.S. Liu, K. Dong, X. Lei, et al., “FeNi Alloy Embedded in Three-
+ElectrodeforEfficientHydrogenEvolutionReaction,”JournalofElectro- dimensional Nitrogen-doped Porous Carbon as Bifunctional Oxygen
+analyticalChemistry886(2021):115136. Electrocatalysts for Rechargeable Zn-air Batteries,” Journal of Energy
+Storage89(2024):111862.
+31.W.Wang,W.Geng,L.Zhang,etal.,“MolybdenumOxycarbideSup-
+portedRh-ClustersWithModulatedInterstitialC–OMicroenvironments 49.C.Shuai,C.Kong,Y.Li,L.Zhang,C.Qi,andZ.Mo,“3Dflower-like
+forPromotingHydrogenEvolution,”Small19(2023):2206808. BimetallicNi–CoMetal–organicFrameworkasanElectrocatalystforthe
+OxygenEvolutionReaction,”RSCAdvances14(2024):18367–18372.
+32.H.Tong,S.Xu,X.Zheng,etal.,“ConstructingDenseCoRu-CoMoO
+4
+HeterointerfacesWithElectronRedistributionforSynergisticallyBoosted 50.Y.Pan,Y.Li,A.Nairan,etal.,“ConstructingFeNiPt@CTrifunctional
+AlkalineElectrocatalyticWaterSplitting,”Small21(2025):2409159. Catalyst by High Spin-Induced Water Oxidation Activity for Zn-Air
+BatteryandAnionExchangeMembraneWaterElectrolyzer,”Advanced
+33.Y. Liu, M. Ding, Y. Qin, B. Zhang, Y. Zhang, and J. Huang,
+Science11(2024):2308205.
+“Crystalline/Amorphous Mo-Ni(OH) /Fe Ni (OH) Hierarchical
+2 x y 3x+2y
+Nanotubes as Efficient Electrocatalyst for Overall Water Splitting,” 51.Z.J.Zhang,J.P.Guo,S.H.Sun,etal.,“OptimizedValencestateofCo
+JournalofColloidandInterfaceScience657(2024):219–228. andNiinHigh-EntropyAlloyforHighActive-StableOER,”RareMetals
+42(2023):3607–3613.
+34.X.Jian,W.Zhang,Y.Yang,etal.,“AmorphousCu–WAlloysasStable
+andEfficientElectrocatalystsforHydrogenEvolution,”ACSCatalysis14 52.H.Chang,L.Zhao,S.Zhao,etal.,“TuningInterfaceMechanismof
+(2024):2816–2827. FeCoAlloyEmbeddedN,S-codopedCarbonSubstrateforRechargeable
+Zn-airBattery,”JournalofEnergyChemistry93(2024):400–410.
+35.M.M.Ren,X.H.Chen,T.Li,etal.,“Charge-redistributedRuNi/MoN
+Heterojunction Enables Efficient Hydrogen Evolution in a Wide pH 53.M.Liu,Q.Li,X.Xiao,etal.,“CoTe /NiTe heterojunctionEmbedded
+2 2
+Range,”JournalofColloidandInterfaceScience683(2025):46–54. in N-doped Hollow Carbon Nanoboxes as High-efficient ORR/OER
+CatalystforRechargeableZinc-airBattery,”ChemicalEngineeringJournal
+36.M. Chen, D. Liu, B. Zi, et al., “Remarkable Synergistic Effect in
+486(2024):150256.
+Cobalt-ironNitride/AlloyNanosheetsforRobustElectrochemicalWater
+Splitting,”JournalofEnergyChemistry65(2022):405–414. 54.Z.Xu,M.Zhong,P.Liu,andZ.Zhang,“ConstructingP–OBridgeat
+HeterogeneousInterfacetoEnhanceBuilt-inElectricFieldtoFacilitate
+37.W.Shu,F.Le,H.Yao,P.Hu,X.Yang,andW.Jia,“TailoringActiveSites
+theSurfaceReconstructionofCarbonCoatedOERCatalyst,”Journalof
+inTrimetallicConductiveMetal–organicFrameworksforHighlyEfficient
+EnergyChemistry106(2025):123–132.
+WaterSplitting,”JournalofMaterialsChemistryA13(2025):13532–13541.
+55.Y.Zheng,Y.Bai,J.Lu,etal.,“ConstructingofNon-preciousMetal-
+38.X.Zhou,J.Li,G.Zhou,etal.,“ManipulatingD-dOrbitalHybridization
+basedNiCoBimetallicAerogelbyThermalReductionofCarbonSpecies
+InducedbyMo-dopedCo9S8NanorodArraysforHigh-efficiencyWater
+underElevatedTemperaturesforEfficientOxygenEvolutionReaction,”
+Electrolysis,”JournalofEnergyChemistry93(2024):592–600.
+JournalofMaterialsScience&Technology242(2026):52–63.
+39.R. C. Li, X. Y. Zhang, Z. Y. Qu, et al., “One-Step Controlled Elec-
+56.P. Guggenberger, T. Priamushko, P. Patil, et al., “Low-Temperature
+trodepositionNickelSulfidesHeterointerfacesFavoringtheDesorption
+Controlled Synthesis of Nanocast Mixed Metal Oxide Spinels for
+ofHydroxylGroupsforEfficientHydrogenGeneration,”RareMetals43
+Enhanced OER Activity,” Journal of Colloid and Interface Science 661
+(2024):4377–4386.
+(2024):574–587.
+40.J.Linghu,Y.Zhang,andT.Hu,“TheoreticalDesignandSynthesis
+57.G.Raj,R.Nandan,K.Kumar,etal.,“HighEntropyAlloyingStrategy
+ofCo Ni /CCforHighSelectiveMethanolOxidationAssistedEnergy-
+30 60 for Accomplishing Quintuple-nanoparticles Grafted Carbon Towards
+savingHydrogenProduction,”JournalofColloidandInterfaceScience679
+Exceptional High-performance Overall Seawater Splitting,” Materials
+(2025):90–99.
+Horizons10(2023):5032–5044.
+41.Q.Gao,Z.Wang,W.Gao,andH.Yin,“NiFeCo-basedHighEntropy
+58.N. Li, M. Sun, J. Xiao, et al., “Highly Active CoNi-CoN Com-
+AlloysNanoparticlesCoatedWithN-dopedGrapheneLayersasHydro- 3
+posite Sites Synergistically Accelerate Oxygen Electrode Reactions in
+gen Evolution Catalyst in Alkaline Solution,” Chemical Engineering
+RechargeableZinc–AirBatteries,”Small20(2024):2401506.
+Journal489(2024):151370.
+59.J. Hu, S. Pang, S. Gao, H. Yu, N. Duan, and S. Hu, “Durable and
+42.L.Xiong,Y.Qiu,H.Dong,etal.,“MetallicNi N/NiHeterostructure
+3 Temperature-adapted Flexible Rechargeable Zinc-air Batteries Enabled
+for Efficient Hydrogen Evolution Reaction,” International Journal of
+by In-situ Encapsulated FeMo Alloy Nanoparticles Within Nitrogen-
+HydrogenEnergy59(2024):400–407.
+doped Carbon Particles Cathode,” Composites Part B: Engineering 304
+43.S.-H. Chae, C. Young Lee, J. Jae Lee, et al., “Development (2025):112695.
+of a Free-standing Flexible Electrode for Efficient Overall Water-
+splittingPerformanceviaElectrolessDepositionofIron-nickel-cobalton
+Polyacrylonitrile-basedCarbonCloth,”JournalofColloidandInterface
+SupportingInformation
+Science680(2025):42–53.
+AdditionalsupportinginformationcanbefoundonlineintheSupporting
+44.J. Jae Lee, H. Eom, H. Gun Kim, et al., “FeNiCo@Lyocell-based Informationsection.
+CarbonClothCathodeforEnhancedSeawaterElectrolysisWithBipolar
+SupportingFile1:chem71071-sup-0001-SuppMat.pdf
+Membrane,”ChemicalEngineeringJournal497(2024):154858.
+45.H. Yu, J. Li, N. Yang, et al., “Ultrafast Joule Heating Method for
+Synthesizing CoNi Nanoalloy Catalysts for Electrocatalytic Hydrogen
+Evolution,”JournalofAlloysandCompounds1019(2025):179101.
+46.Z.Liu,Z.Lu,Y.Cao,J.Xie,J.Hu,andA.Hao,“StronglyCoupled
+Heterostructured CoP/MoO as an Advanced Electrocatalyst for Urea-
+2
+AssistedWaterElectrolysis,”InorganicChemistry63(2024):2803–2813.
+47.Y.Wang,Y.Liu,L.Zhou,etal.,“Ni Fe/Ni Fe(OOH) Dynamically
+3 3 x
+Coupled on Wood-derived Nitrogen Doped Carbon as a Bifunctional
+ElectrocatalystforRechargeableZinc–airBatteries,”JournalofMaterials
+ChemistryA11(2023):1894–1905.
+10of10 Chemistry–AEuropeanJournal,2026
+

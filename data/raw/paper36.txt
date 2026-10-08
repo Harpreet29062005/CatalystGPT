@@ -1,0 +1,1128 @@
+molecules
+Article
+Improved Alkaline Hydrogen Evolution Performance of
+Dealloying Fe Co Si B Electrocatalyst
+75−x x 12.5 12.5
+Si-ChengZhong1,†,ZheCui1,†,JiaLi1,2,3,*,Guang-RunTian1,Zhong-HongZhou1,Hong-FeiJiao1,Jie-FuXiong4,
+Li-ChenWang4,JunXiang1,Fu-FaWu1andRong-DaZhao1,*
+1 SchoolofMaterialsScienceandEngineering,LiaoningUniversityofTechnology,Jinzhou121001,China;
+ffwooxy@163.com(F.-F.W.)
+2 SchoolofMaterialScienceandEngineering,ChinaUniversityofMiningandTechnology,
+Xuzhou221008,China
+3 InnovationCenterforAppliedMagneticsCo.,Ltd.,Ningbo315201,China
+4 NingboInstituteofMaterialsTechnologyandEngineering,ChineseAcademyofSciences,
+Ningbo315201,China
+* Correspondence:lijia4867@163.com(J.L.);rongdazhaoln@126.com(R.-D.Z.)
+† Theseauthorscontributedequallytothiswork.
+Abstract: The electrocatalytic performance of a Fe Co Si B Fe-based compounds toward
+65 10 12.5 12.5
+alkaline hydrogen evolution reaction (HER) is enhanced by dealloying. The dealloying process
+producedalargenumberofnanosheetsonthesurfaceofNS-Fe Co Si B ,whichgreatlyin-
+65 10 12.5 12.5
+creasedthespecificsurfaceareaoftheelectrode.Whenthedealloyingtimeis3h,theoverpotentialof
+NS-Fe Co Si B isonly175.1mVat1.0MKOHand10mAcm−2,whileunderthesamecondi-
+65 10 12.5 12.5
+tions,theoverpotentialofFe Co Si B is215mV,whichisreduced.Inaddition,dealloying
+65 10 12.5 12.5
+treatedelectrodesalsoshowbetterHERperformancethanun-dealloyingtreatedelectrodes.Withthe
+increaseinCodopingamount,theoverpotentialofthehydrogenevolutionreactiondecreases,and
+thehydrogenevolutionactivityisthebestwhentheadditionamountofCois10%.Thisworknotonly
+providesabasicunderstandingoftherelationshipbetweensurfaceactivityandthedealloyingofHER
+Citation:Zhong,S.-C.;Cui,Z.;Li,J.; catalysts,butalsopavesanewwayfordopingtransitionmetalelementsinFe-basedelectrocatalysts
+Tian,G.-R.;Zhou,Z.-H.;Jiao,H.-F.; workinginalkalinemedia.
+Xiong,J.-F.;Wang,L.-C.;Xiang,J.;Wu,
+F.-F.;etal.ImprovedAlkaline Keywords:dealloying;Fe-basedcompounds;doping;hydrogenevolutionreaction;electrocatalytic
+HydrogenEvolutionPerformanceof
+DealloyingFe75−xCoxSi12.5B12.5
+Electrocatalyst.Molecules2024,29,
+4130. https://doi.org/10.3390/
+1. Introduction
+molecules29174130
+Inthefaceoftheexcessiveuseoftraditionalfossilenergyandtheincreasinglyseri-
+AcademicEditors:JianjunZhangand ousproblemofenvironmentalpollution,theurgentsearchforefficient,environmentally
+LiwenTan
+friendlyandsustainablenewenergyhasbecomeanurgenttaskforresearchers[1,2]. Hy-
+drogenhasattractedmuchattentionasanidealalternativeenergysourcetosolvepollution
+Received:11August2024
+Revised:22August2024 problemsandenergycrises[3,4]. Atpresent,themostadvancedhydrogenevolutionelec-
+Accepted:23August2024 trocatalystisthePt-based[5–11]nanomaterialcatalyst,butitscost,scarcity,anddifficult
+Published:30August2024 storagebringgreatlimitations,whichhindertheproductionofhydrogenbyelectrolytic
+water[12–17]. Therefore,itisveryimportantinthedesignandsynthesisofstable,low-cost
+andhigh-efficiencyhydrogenevolutioncatalysts. Elementdopingisanimportantresearch
+direction in the field of electrocatalysis [18–21]. Researchers have tried to improve the
+Copyright: © 2024 by the authors. performanceofthecatalystbydopingotherelements. Thepurposeofdopingistochange
+Licensee MDPI, Basel, Switzerland. the electronic structure of the catalyst, increase the number of active sites and intrinsic
+Thisarticleisanopenaccessarticle
+activity,orimproveitsstability[1,19,22].
+distributed under the terms and
+Fe-basedcompoundshaveahighelectrochemicallyactivesurfacearea,andmoreim-
+conditionsoftheCreativeCommons
+portantly,thesynergisticeffectbetweenmetalsandnonmetalscanexpandthecontactarea
+Attribution(CCBY)license(https://
+betweenacatalystandelectrolyte,andcanalsopromotegasadsorptionanddesorption[23].
+creativecommons.org/licenses/by/
+Therefore,Fe-basedcompoundshavereceivedextensiveattentioninthefieldsofhydrogen
+4.0/).
+Molecules2024,29,4130.https://doi.org/10.3390/molecules29174130 https://www.mdpi.com/journal/molecules
+
+Molecules2024,29,4130 2of10
+storageandelectrocatalysis. Atpresent,dealloyingcorrosionisthemostcommonlyused
+methodformetalsurfacemodification,whichcanselectivelyremoveoneormoreelements
+toformananoporousstructureandastructurewithalargeelectrochemicallyactivearea,
+therebyimprovingelectrocatalyticactivity[3,24–26]. Atpresent,theelectrocatalytichydro-
+genevolutionofFe-basedcompoundsisstudiedsystematically,includingFeSiBFe-based
+compounds. TheelectricalconductivityandoperationdurabilityofFearegood,coupled
+withthestronginterfacialinteractionbetweenSiandBelements,thenon-metallicelements
+canberemovedafterdealloyingcorrosion,thusmodifyingthemetalsurface,exposing
+a large area of the active site on the surface of the catalyst, and further improving the
+electrocatalyticactivity[27].
+Inthedesignofnanocompositecatalysts,theporousstructurecanbringaboutchemi-
+calsynergiesbetweencomponents,thusshowingexcellentelectrocatalyticperformance
+beyondthatofasinglecomponent[3]. Bycarefullyarrangingatomsormoleculesatthe
+hybridinterface,changesinelectronicorchemicalpropertiescanbetriggered,activating
+synergiesandgreatlyenhancingtheefficiencyofelectrocatalysis[28]. Atthesametime,the
+introductionofdifferenttransitionmetals(suchasCo)cansignificantlychangethenanos-
+tructure,catalyticefficiency,andmechanismofactionofmetal-basedcatalysts. DopedCo
+cannotonlyeffectivelyimprovetheelectrocatalyticactivitybyadjustingtheelectronic
+structure,butalsoimprovetheadsorptionfreeenergyofhydrogenandtheabilitytoadsorb
+anddissociatewater[29].
+Forexample,Zhuetal. usedasimpleone-stephydrothermalmethodtosynthesize
+cobalt-doped vanadium diselenide (VSe ) nanosheets, and the catalytic activity of Co-
+2
+dopedVSe inahydrogenevolutionreactioninacidicsolutionwassignificantlyenhanced,
+2
+becauseCodopingsignificantlyreducedtheGibbsfreeenergyofhydrogenadsorption
+andpromotedelectrontransferandhydrogenevolutionreactionkinetics[30]. Fomekong
+etal. improvedtheelectrocatalyticperformancebyintroducingCointotheprecursorand
+ZnOframework,whichgreatlyreducedtheenergybandgapandincreasedthenumber
+ofdefectsinthestructure. TheoptimalamountofColeadstotheabundanceofdefects
+andthereductioninthebandgapinthepreparedmaterials. Withtheincreaseindefects,
+the increase in defects and active sites, and the improvement of charge transfer due to
+thereductioninthebandgap,Co-ZnOhashighhydrogenevolutionactivityinalkaline
+media[31].
+Inthispaper,thecatalystFe Co Si B waspreparedbyarcmelting. Theeffects
+65 10 12.5 12.5
+ofCo x dopingonthemicrostructureofFe 75−x Co x Si 12.5 B 12.5 catalystandtheperformance
+of hydrogen evolution reaction were studied. The changes in the microstructure and
+HERpropertiesofFe 75−x Co x Si 12.5 B 12.5 catalystanddealloyingcorrosiontreatmentcatalyst
+werecompared.
+2. ResultsandDiscussion
+2.1. StructureCharacterization
+Figure1showstheX-raydiffractionpatternsofFe Co Si B andFe Si B
+65 10 12.5 12.5 75 12.5 12.5
+catalystswithdifferenttreatments. Amongthem,thereddiamondrepresentsthesample
+ofNS-Fe Co Si B . ThepinkdiamondrepresentsthesampleofFe Co Si B .
+65 10 12.5 12.5 65 10 12.5 12.5
+ThebluediamondrepresentsthesampleofFe Si B . AsshownintheX-raydiffrac-
+75 12.5 12.5
+tionpatternsofFe Si B andFe Co Si B inFigure1,peakswith2θanglesof
+75 12.5 12.5 65 10 12.5 12.5
+44.675◦,65.026◦,and82.339◦ correspondtothecrystalfacesofFe(110),(200),and(211),
+respectively. Peaks with 2θ angles of 45.047◦, 65.603◦, and 79.730◦ correspond to (210),
+(310),and(123)crystalfacesofFeSi,respectively. The2θpeaksof42.611◦,45.107◦,56.339◦,
+and79.763◦ correspondtothe(002), (211), (202), and(330)crystalfacesofFe B,respec-
+2
+tively. ThediffractionpeaksofFeSiandFe BareconsistentwiththoseofFe Si B ,
+2 75 12.5 12.5
+Fe Co Si B ,andNS-Fe Co Si B ThepeaksofCo Fe at2θanglesof45.169◦,
+65 10 12.5 12.5 65 10 12.5 12.5 7 3
+65.712◦,and83.252◦ are(110),(200),and(211),respectively. Thisprovedthattheprepared
+Fe Co Si B ofdifferenttreatmentscontainedFe,Si,B,andCo,correspondingtoEDS
+65 10 12.5 12.5
+energyspectrum,andthattheNS-Fe Co Si B catalystwassuccessfullysynthesized.
+65 10 12.5 12.5
+
+Molecules 2024, 29, x FOR PEER REVIEW 3 of 11
+65.712°, and 83.252° are (110), (200), and (211), respectively. This proved that the prepared
+Molecules2024,29,4130 Fe65Co10Si12.5B12.5 of different treatments contained Fe, Si, B, and Co, corresponding to E3DofS1 0
+energy spectrum, and that the NS-Fe65Co10Si12.5B12.5 catalyst was successfully synthesized.
+F F ig ig u u r r e e 1 1 . . X X -r - a ra y y d d if i f ff ra ra ct c i t o io n n p p a a tt tt e e rn rn s s o o f f N N S S -F -F e e65C C o o10S S i i12.5B B12.5, F , e F6e5Co C10o Si12S.5i B12.5B , and , a F n e d75S F i e12.5B S1i2.5 e B lec-
+65 10 12.5 12.5 65 10 12.5 12.5 75 12.5 12.5
+trodes.
+electrodes.
+C C o o m m p p a a r r e e d d w w i i t t h h F F e e75S S i i12.5B B12.5, F , e F6e5Co C10o Si12S.5i B12.5B has a h s a t s ro a n s g tr e o r n d g i e ff r ra d c i t f i f o ra n c i t n io te n n i s n i t t e y n , i s n it - y,
+75 12.5 12.5 65 10 12.5 12.5
+dicating that Co doping can effectively improve the crystallinity of the material. In partic-
+indicatingthatCodopingcaneffectivelyimprovethecrystallinityofthematerial. Inpartic-
+ular, the increase in the crystallinity of the Fe-Si phase reflects the enhanced binding effect
+ular,theincreaseinthecrystallinityoftheFe-Siphasereflectstheenhancedbindingeffect
+o
+o
+f
+f
+S
+S
+i
+i
+a
+a
+n
+n
+d
+d
+m
+m
+e
+e
+t
+t
+a
+a
+l
+l
+.
+. A
+A
+f
+f
+t
+t
+e
+e
+r
+r
+d
+d
+e
+e
+a
+a
+l
+l
+l
+l
+o
+o
+y
+y
+i
+i
+n
+n
+g
+g
+N
+N
+S
+S
+-
+-
+F
+F
+e e65C
+C
+o1o0Si S12i.5B12B.5, the
+, t
+F
+h
+e
+e
+-S
+F
+i
+e
+p
+-
+h
+S
+a
+i
+s
+p
+e
+h
+d
+a
+i
+s
+s
+e
+ap
+d
+p
+is
+e
+a
+a
+p
+r
+p
+ed
+ea
+a
+r
+n
+e
+d
+d
+t
+a
+h
+n
+e
+d
+65 10 12.5 12.5
+thFee Fpehapshea saeppapeapreeadr,e din,dinicdaitcinatgin tghatht aSti Swiawsa dsidssisoslovelvde dini nana nalaklaklainlien esosolulutitoino ndduurirningg ththee
+d
+d
+e
+e
+a
+a
+ll
+l
+o
+lo
+y
+y
+in
+in
+g
+g
+t
+t
+r
+r
+e
+e
+a
+a
+t
+t
+m
+m
+e
+e
+n
+n
+t
+t
+.
+.
+T
+T
+h
+h
+e
+e
+i
+i
+n
+n
+t
+t
+e
+e
+n
+n
+s
+s
+i
+i
+t
+t
+y
+y
+o
+o
+f
+f
+t
+t
+h
+h
+e
+e 4
+4
+2
+2
+.
+.
+6
+6
+1
+1
+1
+1
+°◦ d
+d
+i
+i
+ff
+ff
+r
+r
+a
+a
+c
+c
+t
+t
+i
+i
+o
+o
+n
+n
+p
+p
+e
+e
+a
+a
+k
+k
+i
+i
+s
+s
+w
+w
+e
+e
+a
+a
+k
+k
+e
+e
+n
+n
+e
+e
+d
+d
+c
+c
+o
+o
+m
+m
+p
+p
+a
+a
+re
+re
+d
+d
+wwitihtht htheeu unneettcchheedd oonnee,, iinnddiiccaattiinngg tthhaatt ppaarrtt ooff tthhee BB eelleemmeenntt iiss ddiissssoollvveedd inin tthhee pprroocceessss oof f
+dealloying corrosion.
+dealloyingcorrosion.
+22.2.2..M Moorrpphhoollooggyy CChhaarraacctteerriizzaattiioonn
+TThhee ssuurrffaaccee mmoorrpphhoollooggyy oof fFeF6e5C
+65
+oC10oS
+1
+i 012S.5iB 121.25.5B b
+1
+e
+2
+f
+.5
+orbee afonrde aaftnedr daeftaellrodyeinagll owyaisn ogbwsearsveodb -
+sberyv ae dscbaynnaisncga nenleicntgroenle mctricornosmcoicproe.s cFoigpuer.eF i2g suhroew2ss hthoew ssctahnensicnagn enliencgtreolne cmtriocnromscicorpoes cimop-e
+imagaegse osf oFfe6F5Ce 6 o 51C0Soi 1120.5SBi 1122.5.5 aBn 1 d 2. 5 NaSn-dFeN65CS-oF10eS 6 i 51C2.5oB 1102.S5.i F 12 i . g 5 uBr 1 e 2. 5 2.a,Fbi gshuorew2s at,hbe sshuorfwacset himeasguersf aocfe
+imFea6g5Ceso1o0SfiF12e.56 B
+5
+C12.o5
+1
+a
+0
+nSid
+1 2.
+N
+5
+BS
+1
+-
+2
+F
+.5
+e6a5nCdo1N0SSi1-2F.5eB 6152C.5 om
+10
+aSgi
+1
+n
+2
+i
+.
+fi
+5
+Bed
+12 .5
+bym a5g0n0i0fi etidmbeys.5 0A0f0tetrim ceosr.roAsfitoenr,c oar -
+rnosainoons,haeneat nstorsuhceteutrset rwuacst uforermweads foonrm theed sounrftahcees oufr NfaSce-Foef65NCSo-1F0Sei 6152C.5Bo1120.5S. iF
+1
+i
+2
+g
+.5
+uBr
+1
+e
+2 .
+2
+5
+c. Fshigouwres 2ac
+s7h0o0w0-sfoal7d0 0sc0a-fnonldinsgc aenlencitnrgone lmecitcrroonscmoipcero ismcoapgee iomf aNgeS-oFfeN65CS-oF10eS
+6
+i 51C2.5oB 1102.S5.i
+1
+F
+2.
+i
+5
+gBu
+1
+r
+2
+e
+.5
+.2dFi gshuorew2sd
+sthhoew esnetrhgeye dniesrpgeyrsdiviesp Xe-rrsaiyv espXe-crtaryumsp iemctarguem ofi mNSa-gFee6o5Cf No1S0S-iF12e.56 B
+5
+C12.o5.
+1
+I
+0
+tS cia
+12
+n
+.5
+bBe
+1 2
+c
+.5
+le.aIrtlyc asneebne
+cflreoamrly thseee fingfurorem ththaet fithgeu croenthteanttt hdeisctroinbutetniotnd iosft rFibe,u Stiio, nB,o fanFde, CSio, Bis, acnondsCisoteinst cwonitshis tthene t
+wreitshultthse orfe tshuel tXs-orafyth deiffXr-aracytiodnif sfrpaeccttirounms p[3e0c]t.r um[30].
+
+MMoolleeccuulleess 22002244,, 2299,, x4 1F3O0R PEER REVIEW 4 4oof f1110
+F F i i g g u u r r e e 2 2 . . S S c c a a n n n n in in g g e e le le c c tr t o ro n n m m ic i r c o ro sc s o co p p e e im im ag ag es e s of o f Fe F6e5Co C10o Si1S2.5i B12.5B and a N n S d − N Fe S65− C F o e10Si C12o.5B1S2.i5 for B dif-
+65 10 12.5 12.5 65 10 12.5 12.5
+ferent magnifications. (a) SEM images of the Fe65Co10Si12.5B12.5. (b–d) SEM images of NS-
+fordifferentmagnifications. (a)SEMimagesoftheFe Co Si B . (b–d)SEMimagesofNS-
+Fe65Co10Si12.5B12.5 at 5000 times magnification (b), 7000 tim65es m10ag1n2i.fi5ca12t.i5on (c), and 8000 times mag-
+Fe Co Si B at 5000 times magnification (b), 7000 times magnification (c), and 8000 times
+nifi6c5atio1n0 (d12)..5 12.5
+magnification(d).
+2.3. Chemical State Analysis
+2.3. ChemicalStateAnalysis
+T T h h e e c c h h e e m mi i c c a a l l s s t t a a t t e e a a n n d d d d o o p p i i n n g g s s tr tr u u c c tu tu re re o o f f N N S- S F - e Fe6C5C o o10S S i i12.5B B12.5 w w e e r r e e f f u u r r t t h h e e r r s s t t u u d d i i e e d d
+65 10 12.5 12.5
+by X-ray photoelectron spectroscopy (XPS). Figure S3 shows the full spectrum of the X-
+byX-rayphotoelectronspectroscopy(XPS).FigureS3showsthefullspectrumoftheX-ray
+r
+p
+a
+h
+y
+o
+p
+to
+h
+e
+o
+l
+t
+e
+o
+c
+e
+tr
+le
+o
+c
+n
+tr
+e
+o
+n
+n
+e
+e
+rg
+n
+y
+er
+s
+g
+p
+y
+e
+s
+c
+p
+tr
+e
+u
+c
+m
+tru
+o
+m
+f N
+of
+S -
+N
+F
+S
+e
+-F
+C
+e6o5Co S1i0Si12B.5B12.5. .
+I
+I
+t
+t
+c
+c
+a
+a
+n
+n
+b
+be
+e
+s
+s
+e
+e
+e
+e
+n
+n
+t
+t
+h
+h
+a
+a
+t
+t
+F
+F
+e
+e
+,
+,
+C
+C
+o
+o
+,
+,
+S
+S
+i
+i
+,
+,
+65 10 12.5 12.5
+and B are present on the surface of the sample, and the corresponding binding energy
+and B are present on the surface of the sample, and the corresponding binding energy
+peaks are located 787 eV, 712 eV, 180 eV, and 102 eV, respectively. The energy spectrum
+peaksarelocated787eV,712eV,180eV,and102eV,respectively. Theenergyspectrumof
+oCfo C2op 2ips sish oshwonwinn iFni gFuigreur3ea .3Ta.h Tehtew towpoe pakeasknse narea7r8 07.8708.7e8V eaVn adn7d9 57.9958.9e8V ecVo rcroersrpeospnodntdo
+ttoh eth2ep 23p/32/2a nadnd2 p2p1/1/22p peeaakkss ooff tthhee ooxxiiddaattiioonn ssttaattee CCoo [[3322,,3333]],, rreessppeeccttiivveellyy.. TThhee ttwwoo ppeeaakkss
+nneeaarr 778855..1188 eeVV aanndd 880022..3333 eeVV ccoorrrreessppoonndd ttoo ssaatteelllliittee ppeeaakkss ooff CCoo22++,, rreessppeeccttiivveellyy [[2244]].. TThhee
+ssaatteelllliittee ppeeaakk iinntteennssiittyy ooff CCoo22+ +ioionn isi sclcolsoes etot othteh einitnetnesnistyit yofo 2fp23p/32/, 2in,dinicdaitciantgin tghatht athtetrhee rise
+ais laarlgaer gaemaomunout noft oCfoC2+ oo2n+ tohne tshuerfsaucref aocfe NoSf-NFeS6-5FCeo 6150CSio121.50 BS1i21.25.
+.5
+FBi
+1
+g
+2
+u
+.5
+r.eF 3igbu srheo3wbs sthhoew Xs-rtahye
+pXh-roatyoeplehcotrtooenl escptercotnras opfe cFter a2po.f CFoem2ppa.rCedo mwpitahr eNdSw-FietShiBN, Sa- sFmeSailBl ,aamsomunaltl oafm thoeu Fnet0 ocfhtahre-
+aFcet0ercihstairca pcteearkis (t7ic06p.0ea3 keV(7)0 r6e.m03aeinVs) ornem thaein ssuorfnacteh eofs uNrSfa-Fcee6o5CfoN10SS-iF12e.56 B 51C2.5o a
+10
+ftSeir
+1 2
+d
+.5
+eBa
+1
+l
+2
+l
+.
+o
+5
+yaifntger,
+idnedailclaotyiningg t,hiantd Cicoa tdinogpitnhga tinCteorvdeonptiinogn icnhtaenrvgeens ttihoen vcahlaenngcee ssttahtee voaf lFeen,c aensdta Ftee oatfoFme,s aanrde
+mFeoraet odmiffiscaurelt mtoo rbee doixffiidciuzletdt odubreinogx iddeizaelldoydiunrgi.n Bgyd ceoamllopyairningg. Bthye cXo-mrapya rpinhogtotheeleXct-rroany
+sppheocttorae loefc tSrio 2nps opfe cthtrea soafmSpil2ep NoSf-tFheeSsiBa manpdle sNamS-pFleeS NiBS-aFned65Csaom10pSil1e2.5NBS12-.5F (ea
+6
+s
+5
+Cshoo
+10
+wSni
+1 2
+in
+.5
+BF
+1
+ig
+2.
+-
+5
+u(arse s3hco),w tnhein pFeiagku rinet3ecn)s,itthye opf etahke inSit eannsdit ymoeftathl ebSoinadn donm tehtea lsbuorfnadceo noft hthees usrafmacpeleo fNthSe-
+Fsaem65Cpole10NSiS12-.5FBe1625.5C woa
+1
+s
+0
+Sein
+12
+h
+.5
+aBn
+1
+c
+2
+e
+.5
+dw. Tahsee nrehsaunlctse dsh. Towhe trheastu Cltos sdhoopwintgh actoCntoridboupteins gtoc othnetr bibountde-s
+itnogt hbeetbwoenedni nSig abnedt wmeeetnal S[3i4a]n. dThmee Ota1ls[ e3n4]e.rgTyh espOec1tsruenme rrgesyuslptse (cFtirguumrer 3edsu) lsthso(Fwi gthuaret t3hde)
+Ssih-oOw bothnadt tinhteeSnis-iOtyb ios nednhinatnecnesdit wyihsileen thhaen Fcee-dOw bhoinledt ihneteFnes-iOtyb ios nwdeiankteennesidty afistewr Ceaok denoepd-
+ianfgte, rwChoicdho ips icnogn,swishteicnht iwsictohn tshiest reenstuwltist hoft hFee r2eps uanltds oSfi F2ep.2 pandSi2p.
+
+Molecules2024,29M,4o1le3c0ules 2024, 29, x FOR PEER REVIEW 5of10 5 of 11
+Figure3. HighF-rigesuorleu 3ti. oHnigXh--rraeysoplhuotitoone lXe-crtaroyn phspoetocetrloecstcroopny spoefc(tar)oCscoop2py ,o(fb ()a)F Ceo2 p2,p(,c ()bS) iF2ep 2,pa, n(cd) Si 2p, and (d)
+(d)O1sforNS O -F e 1s f C o o r N S S i -Fe6B5Co10a S n i1d2.5B Fe12.5 C an o d F S e i65Co B10Si1.2.5B12.5.
+65 10 12.5 12.5 65 10 12.5 12.5
+2.4. Electroche2m.4ic. aEllPecatrraomcheetmeriscal Parameters
+Figure4showFsitghuereel e4c sthroocwatsa tlhytei celpeecrtfroorcmataanlycteicte psterdfioargmraamncoef tNesSt- dFeia7g5−raxmCo oxfS Ni 12S.5-BFe1275.5−xCoxSi12.5B12.5
+and other cataanlyds ottmheart ecraitaallsy.stF migautreeri4aals.s hFiogwusret h4ae slhinoewars tshwee leinpevaro lstwameemp evtorlytacmurmveetsryo fcurves of dif-
+differentCodfeorpeannt tCs.o Tdhoepoanvtesr.p Tohteen otviaelrpofotheyndtiraol goefn heyvdorlougteionn evreoalucttiioonn dreeaccrteiaosne sdewcirtehases with the
+theincreaseininCcroeadsoep iann Ctso, adnodpatnhtes,a danddit itohne oafd1d0it%ionC oofh 1a0s%th Ceob ehsatsh tyhde rboegsetn heyvdorlougteionn evolution ac-
+activity in thetivpirteyp ianr tehde sparmeppalreesd. sNaSm-Fpele6s5.C No 1S0-SFie1625.C5 Bo1120S.5i1 c 2. a 5Bn 12 r .5 e caacnh r3e1a4c.h7 3m14V.7u mndVe urnthdeer the current
+current densidtyenosfit1y0 o0f m10A0 mcmA − c 2 m.−I2.t Iwt wasass isgignnifiificcaanntltyly lloowweerr tthhaann NNSS--FFee 667C7 Coo 8S8iS 12 i .152B.512 B .51 (23.548.7mV), NS-
+(348.7mV),NFSe- 7 F 0Ce 7o05 CSoi152. S 5Bi 1122..55 B(31925.5.7(3m9V5.)7, amnVd )N,aSn-FdeN 73CSo-F 2Sei7132 C .5Bo 122. S 5 i(1421.55B.712m.5V(4).1 S5i.m7imlaVrl)y.,S tihme io-verpotential
+larly,theoveropf oNteSn-Ftiea 6 l 5Cofo1 N 0SSi1 - 2 F .5 eB6152 C .5 aot1 0tShie1 2c.u5 Brr1e2n.5ta dtetnhseitcyu orrf e1n0t mdeAn csmity−2 oisf 11075m.1A mcVm, w −2 hiisch is attribute
+175.1mV,whitcoh tihsea tstyrnibeurgteict oefftheects ybneetwrgeiecne fFfeec atnbdet wCoee inonFse [a3n5d]. CDouiroinnsg [t3h5e] .HD 2 u ervinoglutthieon process of
+H 2 evolutionwpraotceers sspolifttwinagte, rthsep lCitoti antgo,mth ienC thoeasteo Cmoi-nFet haecstse aCso t-hFee raecatcstiaosnt hsieter efaocrt tihone wsiateter O-H bond
+forthewatercOle-Havbagoen.d Acnle Faev aagtoem. A cnanF ebae tuosmedc aans btheeu Hse 2 d evasoltuhteioHn2 ceevnotelur,t iaonndc tehnet esru,rafnadce after corro-
+thesurfaceaftseiornc ohraros stihoen lhaargsetshte ellaercgtreosctheelemctircoacllhye macitcivaell ysuarcftaivcee saurerafa, cwehairceha ,cwanh iecxhpcoasne more active
+exposemoreascitteivse asnidte spraensdenptr eas benetttaerb heyttderrohgyednr oegveonluetvioonlu rteioanctiroenac ptieornfopremrfaonrcme.a Ancse s.hAoswn in Figure
+showninFigu4rbe, 4thb,e tchoemcopmarpisaornis oonf tohfet hcaetcaalytaslty NstSN-FSe- 6 F 5Ce 6o51 C 0Soi1102. S 5Bi 1122..55 Bw1i2t.5h wunitchourrnocdoerdro Fdee 6 d 5Co10Si12.5B12.5,
+Fe 65 Co 10 Si 12.5NBS12-.F5e,SNiBS,- aFneSdi PB-,FaenSdiBP s-hFoewSisB thsahto twhes ptheraftotrhmeapnecref oofr mFeaSniBce doofpeFdeS wiBithd oCpoe ids significantly
+withCoissignhiifigchaenr tltyhahnig thheart tohfa nunthdaotpoefdu nFdeSoipBe. dTFheeS piBe.rTfohrempaenrcfoer omfa unncecoorfroudnecodr rFoed 65 eCdo10Si12.5B12.5 is
+Fe 65 Co 10 Si 12.5sBim12i.5lairs tosi mthialta roft othteh NatSo-FfetShieB NcaSt-aFlyeSsti.B Tchaet apleyrsfto.rmThaencpee orffo eramcha nccaetaolyfset aucnhder a current
+catalystunderdaencsuirtrye notf d1e0n msitAy ocmf1 − 0 2 ims Ashcomw − n 2 iins sFhigouwrne i4nc.F Tighuer eo4vce.rpTohteeonvtiearlp ooft eNnSti-aFleo 65 fCo10Si12.5B12.5,
+NS-Fe 65 Co 10 SNi 1S2.-5FBe1627.C5 ,oN 8SSi1 - 2 F .5 eB6172 C .5,o 8NSSi 1-2F.5eB 701C2.o55 ,SNi1 S 2. - 5BFe 127.50,C No 5SS-iF1e2.753 BC1o22.5S,i1 N 2.5 SB- 1 F 2. e 5,7 3FCeo 652CSoi 1120.S5iB 121.25B.51 , 2.5, and NS-
+Fe Co Si B ,andNS-FeSiBwere175.1mV,198.2mV,211.1mV,199.7mV,215mV,
+65 10 12.5Fe1S2i.5B were 175.1 mV, 198.2 mV, 211.1 mV, 199.7 mV, 215 mV, and 214 mV, respectively.
+and214mV,respectively.
+
+Molecules2024,29,4130 6of10
+Figure4.ElectrochemicaltestdataofFe-basedelectrodeswithdifferentelementsin1mol/LKOH.
+(a)LinearsweepvoltammetrycurvesfordifferentamountsofCodoping.(b)Linearsweepvoltam-
+metrycurvesfordifferentsamples.(c)Overpotentialsat10mAcm−2currentdensity.(d)Tafelplots.
+(e)Nyquistplots.(f)Doublelayercapacitanceatdifferentscanrates.
+In order to further study the effect of Co doping on FeSiB catalyst, Tafel analysis
+will reveal the kinetics and mechanism of the hydrogen evolution reaction [25]. As
+showninFigure4d,theTafelslopesofNS-Fe Co Si B ,NS-Fe Co Si B ,NS-
+65 10 12.5 12.5 67 8 12.5 12.5
+Fe Co Si B ,NS-Fe Co Si B ,andFe Co Si B are134,165,212,161,and
+70 5 12.5 12.5 73 2 12.5 12.5 65 10 12.5 12.5
+210mVdec−1,respectively. Theseresultsshowthatthecatalystcontaining10%Coismore
+beneficialtoimprovethecatalytickineticperformanceofthehydrogenevolutionreaction.
+Inordertounderstandthechargetransfercharacteristicsattheelectrolyte/electrocatalyst
+interface[24,36],theACimpedancespectrumwasmeasured,asshowninFigure4e. Itcan
+beseenthattheNS-Fe Co Si B hasthesmallestchargetransferresistance,which
+65 10 12.5 12.5
+is2.265Ω,smallerthanNS-Fe Co Si B (2.709Ω),NS-Fe Co Si B (2.961Ω),
+67 8 12.5 12.5 70 5 12.5 12.5
+NS-Fe Co Si B (2.843Ω),Fe Co Si B (2.713Ω),andNS-FeSiB(3.67Ω).There-
+73 2 12.5 12.5 60 10 12.5 12.5
+sultsshowthattheelectrontransferrateof10%Co-dopedFeSiBincreasesduringhydrogen
+evolution,whichprovesthatCo-dopedFeSiBhassuperiorelectrocatalyticperformance.
+Theelectrochemicalsurfacearea(ECSA)valuewasobtainedaccordingtotheequa-
+tionofECSA=C /C , whereC isthemeasureddouble-layercapacitancefittedfrom
+dl s dl
+the CV curves, and the C is 40 µm cm−2, representing a universal value of the flat
+s
+and smooth specific capacitance of the electrode materials. By obtaining the slope of
+the line fitted by the area of the cyclic voltammetry characteristic curve and the scan-
+ning rate at different rates in the non-Faraday region, the double-layer specific capaci-
+tance C of different materials is obtained [37]. Figure 4f shows the linear relationship
+dl
+between current density difference and scanning rate when the voltage is 0.05 V in a
+KOH solution of 1 mol L−1. C values of NS-Fe Co Si B , NS-Fe Co Si B ,
+dl 65 10 12.5 12.5 67 8 12.5 12.5
+NS-Fe Co Si B , NS-Fe Co Si B , and Fe Co Si B (corresponding the
+70 5 12.5 12.5 73 2 12.5 12.5 65 10 12.5 12.5
+ECSAvalueswere0.342mFcm−2 (8.55),0.325mFcm−2 (8.125),0.283mFcm−2 (7.075),
+0.258 mF cm−2 (6.45), and 0.157 mF cm−2 (3.925), respectively. The increase of C and
+dl
+ECSAvaluesisgraduallyincreasedaccordingtotheamountofCodoping,whichisbecause
+
+Molecules 2024, 29, x FOR PEER REVIEW 7 of 11
+Molecules2024,29,4130 7of10
+catCaloydsto, pminakginimg pthroe vceastatlhyestd pisaprteircsleiosn smofatlhleer caantda llyasrtg,emr athkainng ththe eelceacttarloycshtepmairctaicllleys ascmtivaell er
+surafnadcel aarrgeear. Mthaonretohveeer,l eCcotr odcohpeimngic caallny caacutisvee esluecrtfraocneiacr eeffa.eMctso raenodv echr,aCnoged othpei negleccatrnocnaicu se
+staetlee octfr FoenSiicBe afflleocyts, tahnuds cahffaencgtiength ietse claetcatlryotnicic psetraftoermofaFnecSei.B Ina laldoyd,ittihouns, sayffneecrtginiegsi btsetcwateaelny tic
+Cop aenrfdo rFme,a nSci ea.nIdn Ba dmdaityio anl,sosy lneaerdg iteos tbheet wfoeremnaCtioona nodf nFeew, S aicatnivde Bsitmesa,y inaclsroealseiandg ttoheth e
+elefcotrrmocahteiomnicoaflnlye wactaicvteiv aeresait.e s,increasingtheelectrochemicallyactivearea.
+At Athtet hsaemsaem tiemteim, NeS,N-FSe-65FCeo 6510CSoi1120.5SBi1122.5.
+5
+aBls
+1
+o
+2. 5
+shaolswoesdh oewxceedlleenxtc helylednrotgheynd reovgoeluntieovno lsutati-on
+bilsittya.b Filiigtyu.reF i5g ushreow5ss hthoew sstathbeilistyta tbeislitt yditaegsrtadmia ogfr aNmS-oFfe6N5CSo-F10eS
+6
+i 512C.5Bo 1120.5S. iF
+12
+i
+.
+g
+5
+Bu
+1
+r
+2
+e
+. 5
+5.aF sihgouwres 5a
+thes hcoowmsptahreiscoonm pdaiargisroanmd ioafg rlainmeaorf lsicnaenanrisncga nvnoinltgamvomlteatmrym cehtrayracchtaerraiscttiecr icsutircvceu rovfe NofSN- S-
+Fe6F5eC 6 o 51C0Soi 1102.S5Bi 1122..55 Bb 1 e 2 f . o 5 rbee afonrde aanftdera 1ft0e0r01 c0y0c0lecys colef svoofltvaomltmametmrye.t Tryh.eT rheesureltssu lsthsoswhoewd ethdatth tahtet he
+linleianre asrcasncanninngin vgovltoalmtammmetreytr ycucruvrevse sofo fNNS-SF-Fe6e56 C
+5
+oC1o0S
+10
+i1S2.i51 B 21.52.B5
+1
+d
+2.
+i
+5
+dd nidotn cohtacnhgaen gsiegsniigfinciafinctalnyt ly
+aftaefrt e1r00100 0c0ycclyecsl,e isn,dinicdaitciantgin tghatht athteth heyhdyrdogroegne enveovluotliuotnio rnearectaicotnio wnaws asstasbtaleb.l eF.igFuigreu r5eb 5b
+shoshwosw thset hcheacnhgaen gcuercvuer ovfe coaftaclaytsatl ycustrrceunrtr ednetndsietyn switiythw tiimthet iamt 2e6a9t m26V9 pmoVtenptoiatel.n Atifatle.rA 15ft er
+h o1f5 hhydofrohgyednr oegveonluetivoonl uretiaocntiorena, ctthioen c,utrhreenctu drreennstitdye onfs ihtyydorfohgyend reovgoelnuteiovno lruetaioctniorne adceti-on
+credaescerde atose 8d1.t9o%8 1a.t9 t%hea btethgienbneinggin, ninindgic,aitnindgic athtiantg ththe actotrhroedceodrr NodSe-FdeN 65CSo-F
+10
+eS6i51 C
+2.5
+oB1102. S
+5
+ic1o2.u5 Bld1
+2.5
+stacboluyl udnsdtaebrlgyou hnydderroggoehny edvroolguetnioenv roelaucttiioonnr feoarc ati olonnfgo rtiamleo.n Cgot idmoep.inCgo idmopprinovgeism tphreo cvreyss-the
+talclirnyisttya ollfi nthitey FoefStihBe cFaetSailByscta, teanlyhsatn,ceensh tahnec besintdhienbgi nodf minegtaolf bmoentdals,b aonndd sim,apnrdovimesp trhoev elast-the
+ticela tsttircuecstutrruec touf rtehoef ctahtealcyastta,l ywsht,icwhh nicoht noontlyo nelnyheannhcaens ctehse thcaetacalytatilcy tpicerpfoerrfmoramncaen coef othfet he
+catcaaltyaslty, sbtu,bt uatlsaol seonehnahnacensc eitssi ststasbtailbitiyli.t y.
+FigFuirgeu 5re. S5t.aSbtialibtyil iftoyrf NorSN-FSe-6F5Ce 6 o 51C0Soi 1120.5SBi 1122..55 . B(a 12 ) .5 1.0(0a0) c1y0c0l0esc.y (cbl)e sS.ta(bb)ilSittya bteilsitt.y test.
+3. ExperimentalMethods
+3. Experimental Methods
+3.1. Materials
+3.1. Materials
+Fe,FeSi,FeB,andCorawmaterials(>99.9wt.%)werepurchasedfromBeijingDimu
+Fe, FeSi, FeB, and Co raw materials (>99.9 wt.%) were purchased from Beijing Dimu
+Advanced Materials Co., Ltd. (Beijing, China). Potassium hydroxide (KOH AR) was
+Advanced Materials Co., Ltd (Beijing, China). Potassium hydroxide (KOH AR) was pro-
+providedbyShanghaiAladdinCompany(Shanghai,China).
+vided by Shanghai Aladdin Company (Shanghai, China).
+3.2. PreparationofBulkAlloyElectrodes
+3.2. Preparation of Bulk Alloy Electrodes
+Inanelectronicbalance,FeB(B,19.37%),FeSi(Si,75%),pureFeandCoareweighed
+at
+I
+a
+n
+n
+a
+a
+n
+t o
+e
+m
+lec
+ic
+tr
+r
+o
+a
+n
+t
+i
+i
+c
+o
+b
+o
+a
+f
+la
+7
+n 5−ce
+x
+,
+:
+F
+1
+e
+2
+B
+.5
+(
+:1
+B
+2
+,
+.
+1
+5
+9
+:x
+.3
+t
+7
+o
+%
+2
+)
+0
+, F
+g
+e
+.
+S
+A
+i (
+f
+S
+t
+i
+e
+,
+r
+7
+t
+5
+h
+%
+a
+)
+t
+,
+,
+p
+th
+u
+e
+re
+r a
+F
+w
+e a
+m
+nd
+at e
+C
+r
+o
+ia
+a
+ls
+re
+a
+w
+re
+e
+p
+ig
+u
+h
+t
+e
+i
+d
+n to
+at an atomic ratio of 75−x:12.5:12.5:x to 20 g. After that, the raw materials are put into the
+thearcmeltingfurnaceandmeltedundertheatmosphereofargon. Hightemperatureis
+arcg meneelrtaintegd fubryntahcee aarncdd miscehltaerdg eu,nsodetrh athteth aetmraowspmhaetreer oiafl saragroenm. eHltiegdh atenmdpmeirxaetdurteo gise tgheenr-by
+eramteadg nbeyt itchset iarrrcin dgi.sIcnhathrgeep, rsooc etshsaot fthmee rlatiwng m,tahteerfriaolnst aarned mbealctkeds iadneds amreixreedp etaotgeedtlhyemr belyt ed
+mafigvneettiicm setisrrainndg.m Ina tghnee ptircoscteisrrsi onfg mfievletintigm, tehse. Afroftnetr amnedl tbiancgk, sthideersa awrem reapteeraitaeldslayr mefeoltremde d
+fivien ttiomφe6s acynldin mdraigcnaletriocd sstibrryintgh efiovpe etrimatieosn. Amftoedr emoefltairncgm, tehleti nragwa nmdatseurciatilosn arcea sftoinrmg,eadn d
+inttoh eφn6 ccoyollienddraitcarol oromdste bmyp tehrea toupree.raTthioenn ,mthoedφe 6ofc yalricn dmreicltailnrgo dansda rseuccutitobny caaswtiinrge,c aunttdin g
+themna ccohoinleedi natto rosmomal lteirmonpesrhaeteutrsew. Tithhean,t hthicek nφe6s scyolfin0d.5rimcaml raondds aarleen cgutth bayn da wwiirdet hcuottfi5nmg m
+marcehspineec tiinvteoly s.mTahlel icruotns ashmepeltes iwsiFthe 7 a 5− th x Cicok x nSeis 12 s . 5 oBf 1 0 2 . . 5 5 , manmd aitnsdc aat alelynsgtthis acnhdan wgieddthb yofc h5 amnmgin g
+restpheecCtiovealtyo.m Tihcer actuiot .saFmouprlek iinsd Fseo75f−xCCoo-xdSoi1p2.e5Bd12e.5l,e amnedn tistsw ceartealpyrset pisa rcehda(nFgee 7 d 5− b x yC och x Sain 12 g .5 inBg 12 .5 ,
+thex C=o2 a,t5o,m8ica nradti1o0. )F.oTuhre kni,ntdhse opf rCeop-adroepdesda melepmleesnwtse wreepreu ptrineptoar2edm (oFleL75 − −x 1CKoxOSiH12.5sBo12l.u5,t xio n,
+= 2d, e5a,l l8o yainndg c1o0r).r oTshioenn, fothre3 phr,epsoaraesdt osaombptaleins Fwee 7 r 5 e − x pCuot x iSnit 1 o 2. 5 2B 1 m 2.5 o−l 2LM−1 −K3OhH. Istoilsuntiaomn,e d
+NS-Fe 75−x Co x Si 12.5 B 12.5 .
+
+Molecules2024,29,4130 8of10
+3.3. ElectrochemicalTests
+Theelectrochemicalperformancewastestedonthree-electrodesystemin1mol/LKOH
+solution.TheelectrochemicalworkstationwasCHI760E.Thereferenceelectrode,thecounter
+electrodeandtheworkelectrodewereHg/HgOelectrode,graphiterod,andtheprepared
+samples,respectively. TheRHEcalibrationprocesswasperformedbycyclicvoltammetry
+characterizationwithanHg/HgO(1.0mol/LKOH)asthereferenceelectrodeandtwoPt
+foilsastheworkingelectrodeandcounterelectrode,respectively.Theaverageofthevoltage
+valueatthecurrentvalueof0mAwastakenastheRHEpotential. TheRHEpotentialin
+thisworkis0.8931V(FigureS5). Theresultsofelectrochemicaltestwereconvertedintothe
+potentialundertheRHE,andtheconversionformulawasE =E +0.8931V.
+RHE Hg/HgO
+Thescanrateoflinearsweepvoltammetrycurveis5mV/s. Theelectrochemicalwin-
+dowofthecyclicvoltammetrycurveduringtheanalysisofelectrochemicalactivesurface
+areais−0.8~−0.7Vvs. RHE(non-redoxregion). Thescanratesofcyclicvoltammetrywere
+5,10,20,30,40,and50mVs−1,respectively. Theelectrochemicalimpedancespectroscopy
+wasmeasuredattheopen-circuitpotentialwiththeparametersof0.01–100kHz.Theelectro-
+chemicalHERstabilitywasevaluatedat50mAcm−2for15hthroughchronopotentiometry.
+3.4. Characterization
+X-raydiffraction(XRD,D/max-2500)onaRigakudiffractometerandtheX-rayphoto-
+electronspectroscopy(XPS,ThermoESCALAB250XI,Waltham,MA,USA)wereemployed
+toinvestigatethephasecomposition,elementalcomposition,andvalencestateoftheas-
+preparedsamples. XRDusedCuKαradiation,thediffractionangle2θwas10–90◦,andthe
+scanratewas8◦min−1. Scanningelectronmicroscopy(SEM,Zeiss-Sigma500,Oberkochen,
+Germany)wasappliedtoinvestigatedthemorphologyandstructureofthesamples.
+4. Conclusions
+Insummary,wehavesuccessfullydevelopedanewnanosheetFe-basedcompound
+electrodetowardhigh-efficiencyHERinalkalinesolutionsbyusingageneraldealloying
+method. In addition, the comparative study of HER catalyst shows that adjusting the
+electronicstructureofFe 75−x Co x Si 12.5 B 12.5 bytheoptimaldopinglevelofCodopingcan
+improveitsHERactivityinanalkalinesolution. TheNS-Fe Co Si B catalysthas
+65 10 12.5 12.5
+anoverpotentialof175.1 mVandaTafelslopeof134mV dec−1 atacurrentdensityof
+10 mA cm−2 and has a long-term stability of 15 h at a current density of 50 mA cm−2.
+ThisisduetothesynergisticeffectbetweenFeandCoionsintheH evolutionprocess
+2
+of electrolytic water; the Co atoms in these Co-Fe act as the reaction site for the water
+O-Hbondcleavage,whiletheFeatomscanactastheH evolutioncenter,andthesurface
+2
+coatinghasthelargestelectrochemicallyactivesurfaceareaafterdealloying. Therefore,
+NS-Fe Co Si B canprovidethemaximumactivesitefortheelectrocatalyticreaction
+65 10 12.5 12.5
+andshowthebestelectrocatalyticperformance.
+Supplementary Materials: The following supporting information can be downloaded at https:
+//www.mdpi.com/article/10.3390/molecules29174130/s1, Figure S1: (a) The SEM image of NS-
+Fe Co Si B electrodes.(b)Si(c)Coand(d)Fe(e)O(f)BEDSmappingoftheNS-Fe Co Si B
+65 10 12.5 12.5 65 10 12.5 12.5
+electrodes.FigureS2:High-resolutionXPSspectraofNS-Fe Co Si B survey.FigureS3:Measure-
+65 10 12.5 12.5
+mentofdouble-layercapacitanceof(a)Fe Co Si B (b)Fe Co Si B (c)Fe Co Si B
+73 2 12.5 12.5 70 5 12.5 12.5 67 8 12.5 12.5
+(d)Fe Co Si B electrocatalystsin1.0MKOHtoevaluatetheelectrochemicallyactivesurface
+65 10 12.5 12.5
+area(ECSA).FigureS4: Measurementofdouble-layercapacitanceof(a)NS-Fe Co Si B (b)
+73 2 12.5 12.5
+NS-Fe Co Si B (c)NS-Fe Co Si B (d)NS-Fe Co Si B electrocatalystsin1.0M
+70 5 12.5 12.5 67 8 12.5 12.5 65 10 12.5 12.5
+KOHtoevaluatetheelectrochemicallyactivesurfacearea(ECSA).FigureS5:RHEcalibration.RHE
+calibrationoftheHg/HgOreferenceelectrodein1MKOH.Thecalibrationprocesswasperformed
+inhighpurityH2-saturated1MKOHwithtwoplatinumfoilasworkingelectrodeandcounter
+electrode,respectively. Hg/HgO(1MKOH)asthereferenceelectrode. Cyclicvoltammetry(CV)
+wasconductedatscanrateof2mVs−1,andtheaverageofthetwopotentialsatwhichthecurrent
+crossedzerowastakenasthethermodynamicpotentialforthehydrogenelectrodereaction.In1M
+KOHsolution,E =E +0.8931V.
+RHE Hg/HgO
+
+Molecules2024,29,4130 9of10
+AuthorContributions: Conceptualization, G.-R.T., Z.-H.Z., H.-F.J., J.-F.X., L.-C.W.andJ.X.; data
+curation,Z.C.; writing—originaldraftpreparation,S.-C.Z.; writing—reviewandediting,S.-C.Z.;
+supervision,F.-F.W.andR.-D.Z.;projectadministration,J.L.Allauthorshavereadandagreedtothe
+publishedversionofthemanuscript.
+Funding:ThisworkwasfinanciallysupportedbytheNationalNaturalScienceFoundationofChina
+(NSFC,GrantNo.51971106),theNaturalScienceFoundationofLiaoningProvince(2022-BS-310).
+InstitutionalReviewBoardStatement:Notapplicable.
+InformedConsentStatement:Notapplicable.
+DataAvailabilityStatement:DataarecontainedwithinthearticleandSupplementaryMaterials.
+ConflictsofInterest:JiaLiisemployedbyInnovationCenterforAppliedMagneticsCo.,Ltd.The
+restoftheauthorsdeclarenoconflictsofinterest.
+References
+1. Liu,D.;Tong,R.;Qu,Y.;Zhu,Q.;Zhong,X.;Fang,M.;HoLo,K.;Zhang,F.;Ye,Y.;Tang,Y.;etal.Highlyimprovedelectrocatalytic
+activityofNiSx:EffectsofCr-dopingandphasetransition.Appl.Catal.B2020,267,118721.[CrossRef]
+2. Xu,X.;Zhong,Y.;Wajrak,M.;Bhatelia,T.;Jiang,S.P.;Shao,Z.Grainboundaryengineering: Anemergingpathwaytoward
+efficientelectrocatalysis.InfoMat2024,6,e12608.[CrossRef]
+3. Chen,Y.;Dong,C.;Zhang,J.;Zhang,C.;Zhang,Z.HierarchicallyporousMo-dopedNi–Feoxidenanowiresefficientlycatalyzing
+oxygen/hydrogenevolutionreactions.J.Mater.Chem.A2018,6,8430–8440.[CrossRef]
+4. Xu,X.;Shao,Z.;Jiang,S.P.High-EntropyMaterialsforWaterElectrolysis.EnergyTechnol.2022,10,2200573.[CrossRef]
+5. Zhao,Y.;Gao,Y.;Chen,Z.;Li,Z.;Ma,T.;Wu,Z.;Wang,L.TriflePtcoupledwithNiFehydroxidesynthesizedviacorrosion
+engineeringtoboostthecleavageofwatermoleculeforalkalinewater-splitting.Appl.Catal.B2021,297,120395.[CrossRef]
+6. Wang,Y.;Gong,N.;Liu,H.;Ma,W.;Hippalgaonkar,K.;Liu,Z.;Huang,Y.Ordering-DependentHydrogenEvolutionandOxygen
+ReductionElectrocatalysisofHigh-EntropyIntermetallicPt4FeCoCuNi.Adv.Mater.2023,35,2302067.[CrossRef][PubMed]
+7. Li,Q.;Wu,L.;Wu,G.;Su,D.;Lv,H.;Zhang,S.;Zhu,W.;Casimir,A.;Zhu,H.;Mendoza-Garcia,A.;etal.NewApproachtoFully
+Orderedfct-FePtNanoparticlesforMuchEnhancedElectrocatalysisinAcid.NanoLett.2015,15,2468–2473.[CrossRef]
+8. Li,J.;Luo,J.;Chen,H.;Qin,B.;Yuan,C.;Wu,N.;Liu,G.;Liu,X.Strongelectronicmetal–supportinteractionbetweenPtand
+stainlessmeshforenhancingthehydrogenevolutionreaction.Chem.Commun.2022,58,9918–9921.[CrossRef]
+9. Cui,Z.;Chen,H.;Zhao,M.;Marshall,D.;Yu,Y.;Abruña,H.;DiSalvo,F.J.SynthesisofStructurallyOrderedPt3TiandPt3V
+NanoparticlesasMethanolOxidationCatalysts.J.Am.Chem.Soc.2014,136,10206–10209.[CrossRef]
+10. Chung, D.Y.; Jun, S.W.; Yoon, G.; Kwon, S.G.; Shin, D.Y.; Seo, P.; Yoo, J.M.; Shin, H.; Chung, Y.-H.; Kim, H.; etal. Highly
+DurableandActivePtFeNanocatalystforElectrochemicalOxygenReductionReaction.J.Am.Chem.Soc.2015,137,15478–15485.
+[CrossRef]
+11. Abdelghafar,F.; Xu,X.; Jiang,S.P.; Shao,Z.Designingsingle-atomcatalyststowardimprovedalkalinehydrogenevolution
+reaction.Mater.Rep.Energy2022,2,100144.[CrossRef]
+12. Sun,H.;Yan,Z.;Liu,F.;Xu,W.;Cheng,F.;Chen,J.Self-SupportedTransition-Metal-BasedElectrocatalystsforHydrogenand
+OxygenEvolution.Adv.Mater.2020,32,e1806326.[CrossRef]
+13. Wei,Y.; Shin,C.-H.; Gyan-Barimah,C.; Tetteh,E.B.; Park,G.; Yu,J.-S.Positiveself-reconstructioninanFeNiMophosphide
+electrocatalystforenhancedoverallwatersplitting.Sustain.EnergyFuels2021,5,5789–5797.[CrossRef]
+14. Wang,Z.;Chen,H.;Bao,J.;Song,Y.;She,X.;Lv,G.;Deng,J.;Li,H.;Xu,H.Amorphizedcore–shellNiFeMoelectrodeforefficient
+bifunctionalwatersplitting.Appl.Surf.Sci.2023,607,154803.[CrossRef]
+15. Hsieh,C.-T.;Huang,C.-L.;Chen,Y.-A.;Lu,S.-Y.NiFeMoalloyinverse-opalsonNifoamasoutstandingbifunctionalcatalystsfor
+electrolyticwatersplittingofultra-lowcellvoltagesathighcurrentdensities.Appl.Catal.B2020,267,118376.[CrossRef]
+16. Sun,Z.;Yuan,M.;Yang,H.;Lin,L.;Jiang,H.;Ge,S.;Li,H.;Sun,G.;Ma,S.;Yang,X.3DPorousAmorphousgamma-CrOOHon
+NiFoamasBifunctionalElectrocatalystforOverallWaterSplitting.Inorg.Chem.2019,58,4014–4018.[CrossRef]
+17. Zhang,B.;Zheng,Y.;Ma,T.;Yang,C.;Peng,Y.;Zhou,Z.;Zhou,M.;Li,S.;Wang,Y.;Cheng,C.DesigningMOFNanoarchitectures
+forElectrochemicalWaterSplitting.Adv.Mater.2021,33,2006042.[CrossRef]
+18. Wen,L.;Zhang,X.;Liu,J.;Li,X.;Xing,C.;Lyu,X.;Cai,W.;Wang,W.;Li,Y.Cr-DopantInducedBreakingofScalingRelationsin
+CoFeLayeredDoubleHydroxidesforImprovementofOxygenEvolutionReaction.Small2019,15,e1902373.[CrossRef]
+19. Maurya,A.; Yadav,M.SphereshapedMo-dopedtransitionmetaloxideaselectrocatalystforoxygenevolutionreactionin
+alkalinemedium.J.AlloysCompd.2023,956,170208.[CrossRef]
+20. Zhou,Y.;Zeng,H.C.AdsorptionandOn-SiteTransformationofTransitionMetalCationsonNi-DopedAlOOHNanoflowersfor
+OERElectrocatalysis.ACSSustain.Chem.Eng.2019,7,5953–5962.[CrossRef]
+21. Hou,J.;Tang,Z.;Wei,K.;Lai,Q.;Liang,Y.SurfacereconstructionofNidopedCo–FePrussianblueanaloguesforenhanced
+oxygenevolution.Catal.Sci.Technol.2021,11,1110–1115.[CrossRef]
+
+Molecules2024,29,4130 10of10
+22. Tamboli,A.M.;Jung,Y.;Sim,J.;Kim,B.;Kim,W.S.;Kim,M.;Lee,C.;Kim,K.;Lim,C.;Kim,K.;etal.Boostingoxygenevolution
+reactionactivitywithMoincorporatedNiFe-LDHelectrocatalystforefficientwaterelectrolysis.Chemosphere2023,344,140314.
+[CrossRef][PubMed]
+23. Zhang,Y.;Shao,Q.;Pi,Y.;Guo,J.;Huang,X.ACost-EfficientBifunctionalUltrathinNanosheetsArrayforElectrochemical
+OverallWaterSplitting.Small2017,13,1700355.[CrossRef]
+24. Yu,Y.X.;Xu,J.L.;Zhang,L.W.;Ma,Y.C.;Luo,J.M.ElectrochemicallytreatedAlCoCrFeNihighentropyalloyasaself-supporting
+electrodeforoverallwatersplitting.Int.J.HydrogenEnergy2024,72,209–219.[CrossRef]
+25. Zhang,Y.;Kang,J.;Xie,H.;Yin,H.;Zhang,Z.;Liu,E.;Ma,L.;Chen,B.;Sha,J.;Qian,L.;etal. Boostingtheoxygenevolution
+ofhigh-entropy(oxy)hydroxideepitaxiallygrownonhighentropyalloybylatticeoxygenactivation.Appl.Catal.B2024,341,
+123331.[CrossRef]
+26. Zhao, Y.; Luo, M.; Chu, S.; Peng, M.; Liu, B.; Wu, Q.; Liu, P.; deGroot, F.M.F.; Tan, Y.3Dnanoporousiridium-basedalloy
+microwiresforefficientoxygenevolutioninacidicmedia.NanoEnergy2019,59,146–153.[CrossRef]
+27. Wu,K.;Meng,Y.;Li,X.;Ma,J.;Zhang,P.;Li,W.;Huo,L.;Lin,H.-J.Improvedalkalinehydrogenevolutionperformanceofa
+Fe78Si9B13metallicglasselectrocatalystbyultrasonicvibrations.Intermetallics2020,125,106820.[CrossRef]
+28. Li,J.;Zhang,Q.;Zhang,J.;Wu,N.;Liu,G.;Chen,H.;Yuan,C.;Liu,X.OptimizingelectronicstructureofporousNi/MoO
+2
+heterostructuretoboostalkalinehydrogenevolutionreaction.J.Colloid.InterfaceSci.2022,627,862–871.[CrossRef][PubMed]
+29. Li, L.; Cao,X.; Huo,J.; Qu,J.; Chen,W.; Liu, C.; Zhao, Y.; Liu, H.; Wang, G.Highvalencemetalsengineeringstrategiesof
+Fe/Co/Ni-basedcatalystsforboostedOERelectrocatalysis.J.EnergyChem.2023,76,195–213.[CrossRef]
+30. Zhu,Q.;Shao,M.;Yu,S.H.;Wang,X.;Tang,Z.;Chen,B.;Cheng,H.;Lu,Z.;Chua,D.;Pan,H.One-PotSynthesisofCo-Doped
+VSe2NanosheetsforEnhancedHydrogenEvolutionReaction.ACSAppl.EnergyMater.2018,2,644–653.[CrossRef]
+31. LontioFomekong,R.;KammiYontchoum,P.;MatembMaNtep,T.J.;TedjieukengKamta,H.M.;KenfackTsobnang,P.;Krüger,
+S.; Šturala, J.; Sofer, Z.; Janiak, C.; Saruhan, B.; et al. FromDoped Coordination Polymer Precursor to Cobalt-Doped ZnO
+ElectrocatalystforAlkalineHydrogenEvolutionReaction.Adv.EnergySustain.Res.2023,5,2300232.[CrossRef]
+32. Kim, D.; Park, S.; Yan, B.; Hong, H.; Cho, Y.; Kang, J.; Qin, X.; Yoo, T.; Piao, Y.SynthesisofRemarkablyThinCo–FePhos-
+phide/Carbon Nanosheet for Enhanced Oxygen Evolution Reaction Electrocatalysis Driven by Readily Generated Active
+Oxyhydroxide.ACSAppl.EnergyMater.2022,5,2400–2411.[CrossRef]
+33. Zhong,X.;Zhu,Y.a.;Dai,W.;Yu,J.;Lu,T.;Pan,Y.Electrochemicallyreconstructedhigh-entropyamorphousFeCoNiCrVBasa
+highlyactiveoxygenevolutioncatalyst.NewJ.Chem.2022,46,8398–8406.[CrossRef]
+34. Jiang, J.; Sun, F.; Zhou, S.; Hu, W.; Zhang, H.; Dong, J.; Jiang, Z.; Zhao, J.; Li, J.; Yan, W.; et al. Atomic-level insight into
+super-efficientelectrocatalyticoxygenevolutiononironandvanadiumco-dopednickel(oxy)hydroxide.Nat.Commun.2018,9,
+2885.[CrossRef][PubMed]
+35. Yue,X.;Ke,W.;Xie,M.;Shen,X.;Yan,Z.;Ji,Z.;Zhu,G.;Xu,K.;Zhou,H.AmorphousCoFe(OH)xhollowhierarchicalstructure:
+Anefficientanddurableelectrocatalystforoxygenevolutionreaction.Catal.Sci.Technol.2020,10,215–221.[CrossRef]
+36. He,Y.;Yu,T.;Wen,H.;Guo,R.BoostingthechargetransferofFeOOH/Ni(OH) forexcellentoxygenevolutionreactionviaCr
+2
+modification.DaltonTrans.2021,50,9746–9753.[CrossRef]
+37. Lei,Y.;Zhang,L.;Xu,W.;Xiong,C.;Chen,W.;Xiang,X.;Zhang,B.;Shang,H.Carbon-supportedhigh-entropyCo-Zn-Cd-Cu-Mn
+sulfidenanoarrayspromisehigh-performanceoverallwatersplitting.NanoRes.2022,15,6054–6061.[CrossRef]
+Disclaimer/Publisher’sNote: Thestatements, opinionsanddatacontainedinallpublicationsaresolelythoseoftheindividual
+author(s)andcontributor(s)andnotofMDPIand/ortheeditor(s).MDPIand/ortheeditor(s)disclaimresponsibilityforanyinjuryto
+peopleorpropertyresultingfromanyideas,methods,instructionsorproductsreferredtointhecontent.
+

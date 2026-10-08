@@ -1,0 +1,815 @@
+Article
+FeSe -BiSe -CoSe Ternary Heterojunction for Efficient
+2 2 2
+Hydrogen Evolution Reaction Under pH-Universal
+LiliGuo1,YangCui2,QiushengHe2,* andKankanLiu3,*
+1 SchoolofMaterialsScienceandEngineering,TaiyuanUniversityofScienceandTechnology,
+Taiyuan030024,China;guolili1@tyust.edu.cn
+2 ShanxiKeyLaboratoryofCoordinatedManagementandControlforEnvironmentalQuality,Schoolof
+EnvironmentandResources,TaiyuanUniversityofScienceandTechnology,Taiyuan030024,China;
+2020052@tyust.edu.cn
+3 SchoolofEnvironmentandSafetyEngineering,NorthUniversityofChina,Taiyuan030051,China
+* Correspondence:heqs@tyust.edu.cn(Q.H.);liukk@nuc.edu.cn(K.L.)
+Abstract
+Theconstructionofheterostructureshasbeenrecognizedasaneffectivestrategyforen-
+hancingmaterialactivityandstability. Herein,aternaryheterojunctionFeSe -BiSe -CoSe
+2 2 2
+wassynthesizedviaahydrothermalselenidationreaction. Thesignificantelectronegativity
+differencebetweenBiandFe/CotriggerschargetransferwithintheFeSe -BiSe -CoSe
+2 2 2
+lattice. Furthermore,theabundantporestructureofFeSe -BiSe -CoSe providesefficient
+2 2 2
+pathwaysforelectrondiffusion,significantlyenhancingtheHERcatalytickinetics. Results
+demonstratethatFeSe -BiSe -CoSe exhibitsoutstandingHERactivityinbothacidicand
+2 2 2
+alkalinemedia. In0.5MH SO ,itexhibitsanoverpotentialofonly44mVwithaTafel
+2 4
+slopeof108mVdec−1. In1MKOH,thecorrespondingoverpotentialis188mV,witha
+Tafelslopeof45mVdec−1at10mAcm−2. Thisstudyconstructselectron-richactivesites
+throughelectronicstructureregulation,providingvaluableinsightsfordesigninglow-cost,
+high-performancetransitionmetalselenideHERcatalysts.
+Keywords: heterojunction;FeSe -BiSe -CoSe ;hydrogenevolutionreaction
+2 2 2
+1. Introduction
+Humanitycurrentlyfacesthedualcrisesofenergyscarcityandenvironmentaldegrada-
+tion. Asnon-renewableresources,theconsumptionofavailablefossilfuelsfarexceedstheir
+productionrates. Consequently, developingsustainablecleanenergyhasbecomeacritical
+researchfocusforresolvingtheenergycrisis[1,2].Hydrogenenergy,recognizedasagreenand
+cleanenergysourceduetoitshighenergydensityandlow-carbon,pollution-freeattributes,is
+extensivelystudiedasafossilfuelalternative[3].Large-scalehydrogenproductionholdsthe
+AcademicEditor:AivarasKareiva potentialtofacilitatealow-carbontransitioninenergystructures.Electrolytichydrogenproduc-
+tionfromwaterrepresentsahighlypromisingsustainablehydrogengenerationtechnology[4].
+Received:31December2025
+Revised:17January2026 Thedevelopmentoflow-cost,high-performancehydrogenevolutioncatalystsholdssignificant
+Accepted:20January2026 importanceforenhancingtheefficiencyofwaterelectrolysis[5].
+Published:22January2026 ConductingtheHERunderpH-universaliscrucialforevaluatingacatalyst’spractical
+Copyright:©2026bytheauthors. potentialandadvancingthereal-worldapplicationofhydrogenenergytechnologies. The
+LicenseeMDPI,Basel,Switzerland.
+actual industrial scenarios for water electrolysis hydrogen production are not confined
+Thisarticleisanopenaccessarticle
+to ideal alkaline or acidic media but are diverse. Therefore, a catalyst that performs
+distributedunderthetermsand
+excellently only at a single pH value will have its application scope severely limited.
+conditionsoftheCreativeCommons
+Attribution(CCBY)license. DevelopingHERcatalystswithfullpHactivitymeansthatthesamematerialcanadaptto
+Materials2026,19,430 https://doi.org/10.3390/ma19020430
+
+Materials2026,19,430 2of14
+multipletechnologicalpathways. Fromascientificperspective,investigatingacatalyst’s
+performanceandmechanismsacrosstheentirepHrangeprovidesdeeperinsightsintothe
+reactionkineticsandstabilitymechanismsofitsactivesitesunderdifferentspeciessupply
+environments. This approach offers a more comprehensive evaluation of the catalyst’s
+intrinsicpropertiesandstructuraladvantagescomparedtosingle-pHstudies[6].
+Todate,themosteffectiveHERelectrocatalystshavebeenpreciousmetalPt-based
+catalysts. However, precious metals exhibit dissolution, agglomeration, and instability
+duringwatersplitting,whiletheircostandscarcityseverelyconstraintheirdevelopment[7].
+Transition metal-based electrocatalysts have garnered significant attention due to their
+abundantreservesandtunableelectronicstructures.Amongthese,binaryalloycompounds,
+suchasFe-,Co-,andBi-basedcatalysts,exhibithighintrinsicactivityinbothacidicand
+alkaline media [8]. However, issues such as low conductivity and limited active sites
+require further optimization. Atomic doping (with non-metallic atoms) can effectively
+modulatethematerial’selectronicstructure,exposeactivesites,andenhancemasstransfer
+processes, therebyimprovingcatalyticperformance[9]. Wecomparedthesulfides[10],
+selenides[11],oxides[12],nitrides[13],andphosphides[14]oftransitionmetals(Table1).
+Table1.Transitionmetal-basedcatalystscomparison.
+Representative
+CatalystCategory PrincipalAdvantages PrincipalDrawbacks
+Materials
+Two-dimensionaltransition Highintrinsicactivity, Poorelectricalconductivity,limited
+MoS
+metaldichalcogenide 2 highstability activesites
+Two-dimensionaltransition Highlyconductive,intrinsically Relativelypoorstability,difficult
+MoSe
+metalMSe 2 highlyactive toprepare
+2
+Non-preciousmetalsarelowin Lowspecificsurfacearea,poor
+Transitionmetaloxides MnO
+2 costanddiverseinvariety. electricalconductivity
+Thesurfaceispronetooxidation
+Excellentelectricalconductivity,
+Transitionmetalnitrides MoN andthehigh-temperaturesynthesis
+highstability
+conditionsaredemanding.
+Excellentelectricalconductivity, Phosphorusreadilyleachesor
+Transitionmetalphosphides Ni P
+2 highHERactivity oxidizesduringreactions
+Fe, asamultivalenttransitionmetal, possessesflexibleelectronicconfigurationsand
+efficient electron donor–acceptor sites, enhancing the semiconductor properties of single
+selenides and reducing the electron transport energy barrier. Fe-based transition metal
+diselenides (MSe , M=Fe, and Co) exhibit diverse chemical properties as metallic three-
+2
+dimensionalelectronsincrease, withFeSe andCoSe demonstratingnumerouschemical
+2 2
+characteristics[15,16]. HydrothermallysynthesizedFeSe revealsenhancedactivesitesfor
+2
+ionandelectrontransfer. Se-richvacanciesinFeSe canyieldsuperiorHERperformance
+2
+throughoptimizedM-OandM-Hbonding.The2porbitalelectronconfigurationoftransition
+metalCoenablespreciseregulationofthed-bandcenterpositionwithinthecatalyticactive
+site[17].TheintroductionofComodulatesthed-bandcentertowardstheFermilevelthrough
+intra-latticeelectroninteractions,optimizinghydrogenadsorptionenergy(∆G )andthereby
+*H
+enhancingtheintrinsiccatalyticactivityoftheactivesite.DuringtheHERactivityprocessin
+CoSe ,theCocationactsasthehydrogenanion(H−)receptorcenter,whiletheanionservesas
+2
+theproton(H+)receptorcenter.TheH OmoleculebindstothelocallypositivelychargedCo
+2
+center,facilitatinggreaterelectronlocalizationontheSeatom.Thispromotestheadsorption
+ofH ontheSeanionandtheconversionofH toH molecules,therebyenhancingthe
+ads ads 2
+electrontransportrateonthecatalystsurface[18].
+The electronegativity of Bi exhibits significant differences compared to Fe and Co.
+Thisdisparitytriggersdirectionalchargetransferwithinthelattice,reducingtheelectron
+https://doi.org/10.3390/ma19020430
+
+Materials2026,19,430 3of14
+densityaroundBiatomstoformelectron-deficientsites[19]. Conversely,FeandCobecome
+electron-richactivesitesduetoelectronenrichment. Thisaccelerateschargeseparation
+andtransportduringcatalyticreactions,preventingreactioninhibitioncausedbyelectron
+accumulationattheactivesites[20].
+Based on the aforementioned theory, this study prepared a ternary heterojunction
+FeSe -BiSe -CoSe catalystviaaone-stephydrothermalsynthesismethod. Resultsdemon-
+2 2 2
+stratethatFeSe -BiSe -CoSe exhibitsoutstandingHERperformanceinbothacidicand
+2 2 2
+alkalinesolutions. Ina1MKOHalkalinesolutionand0.5MH SO acidicsolution,the
+2 4
+overpotentialatacurrentdensityof10mAcm−2 ismerely188and44mV,respectively,
+withcorrespondingTafelslopesof45and108mVdec−1. Itsoutstandingperformanceis
+attributedtotheincorporationofBi,whichalterstheelectronicstructuresurroundingFe
+and Co, transforming it into an electron-rich configuration. This effectively accelerates
+electrontransferandenhancesthematerial’selectricalconductivity. Furthermore,charac-
+terizationtechniquessuchasSEMhaverevealedasubstantialporousstructurewithinthe
+ternaryheterojunctionFeSe -BiSe -CoSe . Theserichlydevelopedporestructuresgenerate
+2 2 2
+additionalactivesitesforHERinitiationandprogression,acceleratingthekineticsofthe
+catalyticreaction. Amethodforpreparingtransitionmetal-basedternaryheterojunction
+selenideshasbeenproposed.
+2. MaterialsandMethods
+WedissolvedCo(NO ) ·6H O,Bi(NO ) ·5H O,Fe(NO ) ·9H O(1mmoleach),and
+3 2 2 3 2 2 3 2 2
+surfactants(HO(CH CH O)nHandC H BrN)inawater–ethanolmixedsolventtoform
+2 2 19 42
+Solution A. We dissolved Se and NaBH in the same solvent to form Solution B. After
+4
+mixing,thereactionwasconductedhydrothermallyat200◦Cfor16h. Theproductwas
+obtainedbycentrifugation,washing,anddryingat60◦C.Forcomparison,BiSe ,CoSe ,
+2 2
+andFeSe weresynthesizedunderidenticalconditionsusingonlythecorrespondingsingle
+2
+metalsaltprecursors(Figure1a).
+Figure1.(a)SynthesisofFeSe -BiSe -CoSe ,(b)XRDpatternsofFeSe ,BiSe ,andCoSe ,(c)XRD
+2 2 2 2 2 2
+patternofFeSe -BiSe -CoSe .High-resolutionXPSspectrumfor(d)Bi4f,(e)Fe2p,(f)Se3d,(g)Co
+2 2 2
+2pofFeSe ,BiSe ,CoSe ,andFeSe -BiSe -CoSe .
+2 2 2 2 2 2
+https://doi.org/10.3390/ma19020430
+
+Materials2026,19,430 4of14
+Electrochemical measurements were performed in an electrochemical workstation
+(CHI 660E) using a standard three-electrode system with 1 M KOH as electrolytes, car-
+bon rods, and Ag/AgCl and Hg/HgO electrodes as counter electrodes and reference
+electrodes,respectively.
+3. Results
+3.1. Characterization
+X-raydiffraction(XRD)analysiswasemployedtoinvestigatethechemicalcomposition
+ofBiSe ,FeSe ,CoSe ,andFeSe -BiSe -CoSe ,asshowninFigure1b,c. Thediffraction
+2 2 2 2 2 2
+peaksat30.21◦,35.01◦,37.03◦,50.83◦,and55.69◦ inFeSe correspond,respectively,tothe
+2
+(020),(111),(200),(002),and(221)crystalplanes. Itslatticeconstantswerecalculatedas
+a=4.857Å,b=5.786Å,andc=3.587Å(TableS1),whichareincloseagreementwithJCPDS
+No. 12-0291(a=4.815Å,b=5.808Å,andc=3.599Å)[21]. ForBiSe ,thediffractionsignals
+2
+generatedbyits(015),(1010),(110),(205),and(1115)crystalplanesappearat29.23◦,40.15◦,
+43.56◦,53.43◦,and66.54◦,respectively,intheXRDpattern. Thisisessentiallyconsistent
+with the standard card (JCPDS No. 12-0732). Calculations yielded lattice constants of
+a = 4.151 Å, b = 4.151 Å, and c = 28.666 Å (Table S2), exhibiting slight deviations from
+the reference values (JCPDS No. 12-0732, a = b = 4.133 Å and c=28.620Å) [22]. In
+theXRDpatternofCoSe , aseriesofcharacteristicdiffractionpeaksareobserved. The
+2
+peaksat33.74◦,45.87◦,51.35◦,and62.91◦ correspondtothe(210),(221),(311),and(400)
+crystalplanesofCoSe (JCPDSNo. 09-0234),respectively. Itslatticeconstantsa=5.874Å,
+2
+b=5.874Å, and c = 5.874 Å (Table S3) are essentially identical to the reference values
+(JCPDSNo. 09-0234,a=5.858Å).ThisindicatesthesuccessfulsynthesisofFeSe ,BiSe ,
+2 2
+andCoSe viaahydrothermalreaction[23].
+2
+Withtheincorporationofmetalionswithdifferingatomicradii—Fe,Bi,andCo—into
+the same crystal lattice, atoms of varying sizes experience interdiffusion. Within the
+XRD pattern of FeSe -BiSe -CoSe (Figure 1c), diffraction peaks attributable to FeSe ,
+2 2 2 2
+BiSe , and CoSe can be distinctly observed. The diffraction peaks of FeSe at 34.89◦,
+2 2 2
+36.22◦, and 48.12◦ correspond to the (111), (120), and (211) crystal planes, respectively.
+For CoSe , peaks at 51.01◦, 53.78◦, and 71.51◦ correspond to the (311), (222), and (420)
+2
+crystalplanes. TheleftwardshiftindiffractionpeakscorrespondingtotheFeSe (111)and
+2
+CoSe (311)planesresultsfromlatticestretchingandbroadeningofdiffractionpeaksdue
+2
+to the incorporation of Bi, which possesses a larger atomic radius [24]. The diffraction
+peaksofBiSe at29.35◦,40.44◦,and43.73◦ correspond,respectively,tothe(015),(1010),
+2
+and(110)crystalplanes. Therightwardshiftinthediffractionpeaksforthe(015),(1010),
+and (110) planes in BiSe arises from the substitution of Bi atoms in the original lattice
+2
+byFeorCoatoms,whichpossesssmalleratomicradii. Duetothesignificantlysmaller
+atomicradiiofFeandCocomparedtoBi,latticecontractionoccurs. AccordingtoBragg’s
+equation(nλ=2dsinθ),thissubsequentlyleadstoashiftinthediffractionangle. FeSe is
+2
+characterizedbylatticeparametersofa=4.857Å,b=5.786Å,andc=3.587Å;BiSe is
+2
+characterizedbyparametersa=b=4.151Åandc=28.666Å;andCoSe ischaracterized
+2
+byparametersa=b=c=5.874Å,whichareessentiallyidenticaltotheircorresponding
+standardreferencevalues;XRDanalysisconfirmedthesuccessfulformationofFeSe -BiSe -
+2 2
+CoSe [25].
+2
+X-rayphotoelectronspectroscopy(XPS)wasemployedtoanalyzethechemicalcom-
+position and valence states of the samples via full-spectrum analysis. As depicted in
+FiguresS1andS2, the full spectra of BiSe , FeSe , CoSe , and FeSe -BiSe -CoSe reveal
+2 2 2 2 2 2
+thepresenceoffourelements: Bi,Co,Fe,andSe. Figure1ddisplaysthehigh-resolution
+XPSspectraoftheBi4forbitalsforBiSe andFeSe -BiSe -CoSe . Thepeaksatbinding
+2 2 2 2
+energiesof164.13and158.86eVcorrespondtotheBi4f andBi4f orbitalsinBiSe ,
+5/2 7/2 2
+https://doi.org/10.3390/ma19020430
+
+Materials2026,19,430 5of14
+respectively,whilethepeaksat164.38and159.12eVcanbeattributedtotheBi4f and
+5/2
+Bi 4f orbitals in FeSe -BiSe -CoSe , respectively. Both exhibit characteristics of Bi3+,
+7/2 2 2 2
+withbindingenergiesshiftedtotheleftby0.25and0.26eV,respectively. Thisindicatesa
+reductioninelectrondensityaroundBi,potentiallyarisingfromelectrontransferdueto
+differencesinelectronegativitybetweenneighboringatomswithinthealloy. Thisfacilitates
+accelerated electron redistribution during electrocatalytic reactions, thereby enhancing
+electrocatalyticactivity[26].
+In Figure 1e, the high-resolution Fe 2p spectra of FeSe and FeSe -BiSe -CoSe re-
+2 2 2 2
+vealcharacteristicpeaksat731.04and714.31eVinFeSe ,corresponding,respectively,to
+2
+the 2p and 2p orbitals of Fe3+. Relative to FeSe , the 2p (730.67 eV) and 2p
+1/2 3/2 2 1/2 3/2
+(714.05eV)orbitalsofFe3+inFeSe -BiSe -CoSe exhibitrightwardshiftsof0.37and0.26eV,
+2 2 2
+respectively. Thisresultsinincreasedelectrondensityandenhancedbindingcapacityfor
+surroundingelectrons. ThecharacteristicpeaksofFe2+ inFeSe onthe2p and2p
+2 1/2 3/2
+orbitalsarelocatedat725.81and710.65eV,respectively. ComparedtoFeSe ,theFe2p
+2 1/2
+peak(725.48eV)correspondingtoFe2+inFeSe -BiSe -CoSe exhibitsarightwardshiftof
+2 2 2
+0.33eV;theFe2p peak(710.25eV)alsoshiftstotherightby0.40eV[10]. Theincreased
+3/2
+electrondensityaroundtheFeatomreducesitsbindingenergy,confirmingachangeinthe
+chemicalenvironmentsurroundingtheFeatom,withasignificantincreaseinitselectron
+clouddensity[8].
+Figure 1f compares the Se 3d orbitals in different materials. The Se 3d binding
+3/2
+energiesinBiSe ,CoSe ,andFeSe are57.79,58.39,and58.05eV,respectively,withcor-
+2 2 2
+respondingSe3d bindingenergiesof53.73,54.42,and54.50eV,allcorrespondingto
+5/2
+theSe2-state. InFeSe -BiSe -CoSe ,thebindingenergiesofSe3d andSe3d further
+2 2 2 3/2 5/2
+increaseto59.10and54.78eV,respectively,withareductioninelectrondensityaround
+Se. ElectronsflowtowardsthetransitionmetalsFe,Bi,andCo. ComparedtoFeSe -BiSe -
+2 2
+CoSe ,theSe3d andSe3d peaksinBiSe ,CoSe ,andFeSe exhibitashifttowards
+2 3/2 5/2 2 2 2
+lowerbindingenergies,indicatingthatSeatomsalsoundergosignificantelectronicregula-
+tionwithinmultivalentalloys. ThisdemonstratesenhancedelectrontransferbetweenFe,
+Bi,Co,andSe,whichfavorablycontributestoelevatedelectrocatalyticactivity[19].
+Figure1gdisplaysthehigh-resolutionXPSspectraoftheCo2porbitalsforCoSe and
+2
+FeSe -BiSe -CoSe . ThecharacteristicpeaksofCo3+inFeSe -BiSe -CoSe exhibitshiftsof
+2 2 2 2 2 2
+0.55and0.45eVtotheright,relativetothoseinCoSe (Co2p : 797.03eVandCo2p :
+2 1/2 3/2
+780.75eV).Thecorrespondingbindingenergiesare796.58and780.30eV.Thisphenomenon
+indicatesthattheelectrondensityaroundCoincreases,enhancingitsmetalliccharacter
+andconsequentlyimprovingthematerial’selectricalconductivity[27].
+InFeSe -BiSe -CoSe ,itisnotasimpleunidirectionalchargetransferthatoccurs,but
+2 2 2
+ratheracomplexchargerearrangement.Crucially,aspartofthematrix,theelectrondensity
+ofBiandSedecreases,whilethatoftheembeddedtransitionmetalsFeandCoincreases.
+AlloyingfundamentallyaltersthechemicalenvironmentofSe,whoseelectronegativitymay
+differfromthatinbinaryselenides,therebyinfluencingthechargedistributionacrossthe
+entirelattice. Actingascatalyticactivecenters,FeandCoreceivegreaterelectronfeedback
+fromthealloysystem,becomingelectron-richcentersthatfacilitateelectronredistribution.
+The electron-rich Fe and Co centers optimize their d-band electronic structure, aiding
+in the stabilization of certain low-valent intermediates during reactions or modulating
+redoxpotentials,therebyenhancingintrinsicactivity. TheBi-Sematrixframework,withits
+tightenedelectronicstructure,enhancesthematerial’smetalliccharacterandconductivity,
+ensuringrapidchargetransportduringthecatalyticprocess[28].
+Scanningelectronmicroscopy(SEM)imagesofvariousmaterialsrevealthemorphol-
+ogy and microstructure of four catalysts: BiSe , CoSe , FeSe , and FeSe -BiSe -CoSe .
+2 2 2 2 2 2
+AsshowninFigures2aandS3a,b,theBiSe morphologycomprisesnanosphereswitha
+2
+https://doi.org/10.3390/ma19020430
+
+Materials2026,19,430 6of14
+relativelysmoothsurface,eachnanospherebeingrelativelyindependentandmeasuring
+1.5µmindiameter. ThepreparedCoSe comprisesirregularlyshaped,uniformlysized
+2
+particleswitharelativelysmoothsurface,facilitatinguniformelectrolytecontactandion
+diffusion(Figures2bandS3c,d). TheFeSe nanorodssynthesizedinFigure2cinterconnect
+2
+toformarelativelyregulararrangement,uniformlydispersedacrossthesubstrate’ssurface.
+This configuration yields a high specific surface area, providing numerous active sites
+conducivetotheprogressionofelectrocatalyticreactions(Figures2candS3e,f). Asshown
+inFigures2dandS3g,h,BiSe nanospheresareattachedtoFeSe nanorods,withCoSe
+2 2 2
+nanoparticlespresentinthegapsbetweenthem,therebyformingaternaryFeSe -BiSe -
+2 2
+CoSe heterojunction. ThepresenceofCoSe preventsBiSe andFeSe fromforminglarger
+2 2 2 2
+agglomerates,therebyincreasingthesurfaceareaofthecatalystexposedtotheelectrolyte.
+Figure2.SEMimagesof(a)BiSe ,(b)CoSe ,(c)FeSe ,and(d)FeSe -BiSe -CoSe .
+2 2 2 2 2 2
+ToinvestigatethepolycrystallinepropertiesofFeSe -BiSe -CoSe ,detailedanalysis
+2 2 2
+of its microstructure was conducted using TEM. Figure 3a–c display transmission elec-
+tronmicroscopyimagesoftheFeSe -BiSe -CoSe compositeatdifferentmagnifications.
+2 2 2
+Consistentwithscanningelectronmicroscopycharacterization,thisternaryheterojunction
+clearlyshowsBiSe nanospheresattachedtoFeSe nanorods,withCoSe particlesvisible
+2 2 2
+inthegapsbetweenBiSe andFeSe . Thisarrangementprovidesadditionalactivesitesfor
+2 2
+chemicalreactions,therebyenhancingtheHERactivityofFeSe -BiSe -CoSe . Thecoexis-
+2 2 2
+tenceofmultiplecrystallinefacesenablessynergisticcatalyticeffects,optimizingreaction
+pathways. FurtherHRTEMobservations(Figure3d)revealthatthedopedphaseswithin
+theblue,green,andyellowboxescorrespondtoBiSe ,CoSe ,andFeSe ,respectively. Their
+2 2 2
+latticestripeinterplanarspacingsare0.302nm,0.242nm,and0.259nm,corresponding
+successivelytothe(110)planeofBiSe ,the(210)planeofCoSe ,andthe(200)planeof
+2 2
+FeSe . ThisalignswiththecorrespondingcrystalplanesidentifiedbyXRD,confirmingthe
+2
+coexistenceofthesethreecrystallinephaseswithintheFeSe -BiSe -CoSe compositemate-
+2 2 2
+rialandfurthercorroboratingitspolycrystallinenature. Furthermore,energy-dispersive
+spectroscopy(EDS)analysisresults,asshowninFigure3e–i,revealuniformdistributionof
+Fe,Bi,Co,andSeelementsthroughoutthecompositematerial.
+https://doi.org/10.3390/ma19020430
+
+Materials2026,19,430 7of14
+Figure3. (a–c)TEMimages,(d)HRTEMimage,and(e–i)EDSelementmappingimagesofFeSe -
+2
+BiSe -CoSe .
+2 2
+3.2. HERPerformancein0.5MH SO
+2 4
+Withthestructural,compositional,andbasicphysicalprofilesofthecatalystsestab-
+lished,wethenproceededtoevaluatetheircatalyticperformance;theHERperformanceof
+FeSe -BiSe -CoSe ,BiSe ,CoSe ,FeSe ,andPt/Cwascharacterizedin0.5MH SO . All
+2 2 2 2 2 2 2 4
+electrochemicaltestingstepswereconductedatroomtemperature. Theexperimentalsetup
+isshowninFigureS4;whitewireconnectstothereferenceelectrode(Ag/AgCl),redwire
+connectstothecounterelectrode(carbonrod),andgreenwireconnectstotheworking
+electrode(FeSe -BiSe -CoSe loadedontoa1×1cm2 carboncloth). Figure4apresents
+2 2 2
+a comparative view of the LSV curves for BiSe , CoSe , FeSe , and FeSe -BiSe -CoSe .
+2 2 2 2 2 2
+TheoverpotentialsforFeSe ,BiSe ,CoSe ,andFeSe -BiSe -CoSe are247,240,155,and
+2 2 2 2 2 2
+44mV,respectively. ItcanbeobservedthatFeSe -BiSe -CoSe exhibitsfavorableHERac-
+2 2 2
+tivity[29],surpassingonlyPt/Cby30mV,but,comparedwithknowncatalysts,asshown
+inFigureS3andTableS4,FeSe -BiSe -CoSe alsoexhibitsexcellentHERactivityinacidic
+2 2 2
+environments[30]. TheLSVcurvewaslinearlyfittedtoobtainthecatalyst’sTafelcurve
+(Figure4b)foranalyzingitsacidicHERkinetics. FeSe -BiSe -CoSe exhibitedaTafelslope
+2 2 2
+of 110.23mVdec−1, outperforming BiSe (159.67 mV dec−1), CoSe (140.06 mV dec−1),
+2 2
+andFeSe (111.44mVdec−1),andbeingslightlyhigherthanPt/Cat56.08mVdec−1. The
+2
+lowerTafelvalueofFeSe -BiSe -CoSe indicatesafasterchemicalreactionrate,further
+2 2 2
+demonstratingitsexcellentHERreactivity[13]. FeSe -BiSe -CoSe exhibitsaTafelslope
+2 2 2
+rangingfrom40to120mVdec−1,whichdemonstratesthattheFeSe -BiSe -CoSe HER
+2 2 2
+reactionpathwayfollowstheVolmer–Heyrovskymechanism. In0.5MH SO ,theexternal
+2 4
+circuittransferselectronstotheactivesitesontheFeSe -BiSe -CoSe surface,wherethey
+2 2 2
+combinewithH O+intheelectrolytetoundergotheVolmerreaction,yieldingH Oand
+3 2
+H*(‘*’istheactivesite). UnderlowH*coverageconditions,H*undergoestheHeyrovsky
+reactionwiththeH O+ionsandelectronsinthesolution,yieldingH OandH .
+3 2 2
+TheR valuesofBiSe ,CoSe ,FeSe ,andFeSe -BiSe -CoSe are8.16,3.40,2.95,and
+ct 2 2 2 2 2 2
+0.63 Ω, respectively (Figure 4c). Among these, FeSe -BiSe -CoSe exhibits the smallest
+2 2 2
+R valuecomparedtoBiSe ,CoSe ,andFeSe ,indicatingitsfasterchargetransferrate.
+ct 2 2 2
+ThisfurtherdemonstratesthatalloyingacceleratesthereactionkineticsoftheHER[31].
+FigureS4 shows the CV curves. In Figure4d, the measured C for FeSe -BiSe -CoSe
+dl 2 2 2
+was17.68mFcm−2,substantiallyexceedingthevaluesrecordedforBiSe (8.08mFcm−2),
+2
+CoSe (15.63mFcm−2),andFeSe (7.74mFcm−2). FeSe -BiSe -CoSe exhibitsanECSAof
+2 2 2 2 2
+442.0cm2,whileBiSe ,CoSe ,andFeSe haveECSAvaluesof202.0cm2,390.75cm2,and
+2 2 2
+193.50cm2 (TableS5). TheseresultsindicatethatFeSe -BiSe -CoSe possessesagreater
+2 2 2
+https://doi.org/10.3390/ma19020430
+
+Materials2026,19,430 8of14
+ECSA, providing more catalytic active sites for the HER and enhancing the chemical
+reactionrate. WhencalculatingtheTOFvalue,weconsiderallatomsinthecatalysttobe
+activesites[32]. TableS6showsthattheTOFvalueforFeSe -BiSe -CoSe (2.2×10−2s−1)
+2 2 2
+isthehighest,surpassingthatoftheCoSe (2.4×10−3 s−1),FeSe (1.9×10−2 s−1),and
+2 2
+BiSe (1.8×10−2 s−1). Figure4eshowsaperformancecomparisonoftheHERinacidic
+2
+electrolytes for BiSe , CoSe , FeSe , and FeSe -BiSe -CoSe ; FeSe -BiSe -CoSe exhibits
+2 2 2 2 2 2 2 2 2
+outstanding performance across four HER metrics: overpotential (44 mV), Tafel slope
+(110.23mVdec−1),C value(17.68mFcm−2),andR (0.63Ω). Thisdemonstratesthatthe
+dl ct
+FeSe -BiSe -CoSe ternaryheterojunctionexhibitssignificantlysuperiorHERperformance
+2 2 2
+inacidicenvironmentscomparedtoBiSe ,CoSe ,andFeSe [33]. AsshowninFigure4f,
+2 2 2
+duringthe35hstabilitytest,thepotentialchangeinFeSe -BiSe -CoSe exhibitedatrendof
+2 2 2
+initiallyslowdecayfollowedbystabilization.TheLSVcurveofFeSe -BiSe -CoSe revealed
+2 2 2
+negligibleoverpotentialvariation,fullyconfirmingtheexcellentstabilityofFeSe -BiSe -
+2 2
+CoSe ,evenunderstrongacidicconditions[34,35].
+2
+Figure4.HERperformanceofBiSe ,CoSe ,FeSe ,andFeSe -BiSe -CoSe in0.5MH SO .(a)LSV
+2 2 2 2 2 2 2 4
+curve,(b)Tafelslope,(c)Nyquistplot,(d)C curve,(e)performancecomparisonbarchartofBiSe ,
+dl 2
+CoSe ,FeSe ,andFeSe -BiSe -CoSe ,and(f)LSVcurveofFeSe -BiSe -CoSe after35hoperationin
+2 2 2 2 2 2 2 2
+0.5MH SO andi-tcurveduringcontinuous35helectrolysis(inset).
+2 4
+3.3. HERPerformancein1MKOH
+Usingthesametestingmethodology,theHERperformanceofBiSe ,CoSe ,FeSe ,
+2 2 2
+Pt/C,andFeSe -BiSe -CoSe wasevaluatedinanalkalineenvironment(1MKOH).The
+2 2 2
+LSVcurvesforPt/C,BiSe ,CoSe ,FeSe ,andFeSe -BiSe -CoSe areshowninFigure5a.At
+2 2 2 2 2 2
+acurrentdensityof10and200mAcm−2,FeSe -BiSe -CoSe exhibitsanoverpotentialof188
+2 2 2
+and402mV,demonstratingsuperiorHERperformancecomparedtoBiSe (225and454mV),
+2
+CoSe (218and421mV),andFeSe (214and418mV),onlyhigherthanthatofPt/Catthe
+2 2
+samecurrentdensity[36]. Figure5bshowstheoverpotentialsofPt/C,BiSe ,CoSe ,FeSe ,
+2 2 2
+andFeSe -BiSe -CoSe at10and200mAcm−2 underalkalineconditions,indicatingthat
+2 2 2
+FeSe -BiSe -CoSe exhibitsexcellentHERperformanceinalkalineenvironments. TheTafel
+2 2 2
+plotsderivedfromtheLSVdataaredepictedinFigure5c. TheTafelslopeofFeSe -BiSe -
+2 2
+https://doi.org/10.3390/ma19020430
+
+Materials2026,19,430 9of14
+CoSe (44.92mVdec−1)ishigherthanPt/Cat32.05mVdec−1butmarkedlylowerthan
+2
+thoseofBiSe (324.26mVdec−1),CoSe (199.51mVdec−1),andFeSe (189.85mVdec−1).
+2 2 2
+TheTafelslopevaluesofFeSe -BiSe -CoSe rangingbetween40and120mVdec−1indicate
+2 2 2
+adherencetotheVolmer–Heyrovskymechanism[37]. Inalkalinemedia,H Ofirstadsorbs
+2
+ontoactivesitesontheFeSe -BiSe -CoSe surface,undergoingtheVolmerreactionwith
+2 2 2
+electrons to be reduced into H* and OH−. Under conditions of low H* coverage, H*
+undergoestheHeyrovskyreactionwiththeH OandelectronsinthesolutiontoformOH−
+2
+andH [38]. TheHeyrovskystepplaysadominantrole. Furthermore,theR valuesfor
+2 ct
+BiSe ,CoSe ,FeSe ,andFeSe -BiSe -CoSe were5.54,4.38,1.43,and0.63Ω,respectively
+2 2 2 2 2 2
+(Figure5d). Amongthese,FeSe -BiSe -CoSe exhibitedthelowestR valueandminimal
+2 2 2 ct
+chargetransferresistance,indicatingthatFeSe -BiSe -CoSe possessesarelativelyrapid
+2 2 2
+electrontransferrateinalkalineenvironments[39].
+Figure5. HERperformanceofBiSe ,CoSe ,FeSe ,andFeSe -BiSe -CoSe in1MKOH.(a)LSV
+2 2 2 2 2 2
+curve,(b)overpotentialsat10mAcm−2and200mAcm−2,(c)Tafelslope,(d)Nyquistplot,(e)C
+dl
+curve,(f)LSVcurveofFeSe -BiSe -CoSe after35hoperationin0.5MH SO andi-tcurveduring
+2 2 2 2 4
+continuous35helectrolysis(inset),and(g)catalystcomparisonbarchart.
+TheCVcurvesforBiSe ,CoSe ,FeSe ,andFeSe -BiSe -CoSe weremeasuredwithin
+2 2 2 2 2 2
+thepotentialrangeof0.3–0.9Vandatscanratesof10–100mVs−1 (FigureS6). TheC
+dl
+valuesforthefourmaterialswereobtained(Figure5e),withFeSe -BiSe -CoSe exhibiting
+2 2 2
+thehighestC valueof4.73mFcm−2,significantlyexceedingthoseofBiSe (1.21mFcm−2),
+dl 2
+CoSe (0.19mFcm−2),andFeSe (0.15mFcm−2)[40]. CalculationsoftheECSAbasedon
+2 2
+C values(TableS7)revealthattheelectrochemicalactiveareasforBiSe ,CoSe ,FeSe ,
+dl 2 2 2
+andFeSe -BiSe -CoSe are30.25cm2,4.75cm2,3.75cm2,and118.25cm2,respectively. This
+2 2 2
+https://doi.org/10.3390/ma19020430
+
+Materials2026,19,430 10of14
+demonstratesthatFeSe -BiSe -CoSe possessesthelargestelectrochemicalactivearea. This
+2 2 2
+indicates that the interface contact area between FeSe -BiSe -CoSe and the electrolyte
+2 2 2
+issubstantial,therebyprovidingmoreactivesitesforinteractionwithH O.Thisfurther
+2
+acceleratestheHERreactionrateunderalkalineconditions[33].
+CalculationsoftheTOFforBiSe ,CoSe ,FeSe ,andFeSe -BiSe -CoSe yieldedaTOF
+2 2 2 2 2 2
+of2.1×10−2s−1forFeSe -BiSe -CoSe (TableS8),significantlyhigherthanthatofBiSe ,
+2 2 2 2
+CoSe ,andFeSe . ThisindicatesthatFeSe -BiSe -CoSe exhibitssuperiorintrinsicactiv-
+2 2 2 2 2
+ity[41]. Furthermore,thei-tcurveofFeSe -BiSe -CoSe exhibitednegligiblecurrentdecay
+2 2 2
+after35hofcontinuoustestingataconstantpotentialof10mAcm−2(Figure5f)[42]. The
+LSVcurvesbeforeandafterthe35hstabilitytestexhibitnear-perfectoverlap,confirming
+FeSe -BiSe -CoSe ’soutstandingstructuralstabilityandcatalyticdurability[43,44]. Com-
+2 2 2
+paredwiththepreviouslyreportedliterature,FeSe -BiSe -CoSe alsoexhibitsrelatively
+2 2 2
+superiorHERperformanceinalkalineenvironments(Figure5gandTableS4). Insummary,
+FeSe -BiSe -CoSe demonstratesexcellentelectrochemicalactivityandstabilityunderboth
+2 2 2
+acidicandalkalineconditions[45,46].
+4. Conclusions
+ThisstudysuccessfullysynthesizedtheternaryheterojunctionFeSe -BiSe -CoSe viaa
+2 2 2
+one-stephydrothermalmethod. Itsuniqueelectronicrestructuringmechanismsignificantly
+enhances hydrogen evolution performance in both acidic and alkaline media. Owing
+tothesubstantialelectronegativitydifferencebetweenBiandFe/Co,directionalcharge
+transferoccurswithinthelattice. ThisreducestheelectrondensityofBiandSe,forming
+electron-deficientmatrices,whileFeandCobecomeelectron-richactivecenters. Concur-
+rently,efficienthybridizationoccursbetweenFe’s2porbitalsandSe’s3dorbitals,while
+energy-levelmatchingbetweenCoandFe’s2porbitalsfurtherenhanceselectroncoupling.
+Collectively,thisachievesoptimizedelectronicrestructuring. Theredistributedelectrons
+notonlyelevatetheintrinsiccatalyticactivityofactivesitesbutalso,inconjunctionwiththe
+material’sabundantporestructure,facilitateelectronandreactanttransport. Consequently,
+the compound exhibits outstanding HER performance and stability in both acidic and
+alkalineenvironments.
+SupplementaryMaterials: Thefollowingsupportinginformationcanbedownloadedat: https:
+//www.mdpi.com/article/10.3390/ma19020430/s1, Figure S1: Full XPS spectra of FeSe -BiSe -
+2 2
+CoSe , CoSe , FeSe , and BiSe ; Figure S2: Full XPS spectra of (a) FeSe -BiSe -CoSe , (b) FeSe ,
+2 2 2 2 2 2 2 2
+(c)BiSe ,and(d)CoSe ;FigureS3:SEMimagesof(a,b)BiSe ,(c,d)CoSe ,(e,f)FeSe ,and(g,h)FeSe -
+2 2 2 2 2 2
+BiSe -CoSe ;FigureS4:Schematicdiagramofathree-electrodeHERsystem;FigureS5:Comparison
+2 2
+oftheHERoverpotentialsat10mAcm−2in0.5MH SO ;FigureS6: HERcyclicvoltammetryof
+2 4
+(a)BiSe ,(b)CoSe ,(c)FeSe ,and(d)FeSe -BiSe -CoSe in0.5MH SO atscanratesof10,20,40,
+2 2 2 2 2 2 2 4
+60,80,and100mVs−1,respectively; FigureS7: HERcyclicvoltammetryof(a)BiSe ,(b)CoSe ,
+2 2
+(c)FeSe ,and(d)FeSe -BiSe -CoSe in1MKOHatscanratesof10,20,40,60,80,and100mVs−1,
+2 2 2 2
+respectively;TableS1:ThelatticeconstantswerecalculatedbyFeSe (JCPDS#12-0291,a=4.815Å,
+2
+b=5.808Å,andc=3.599Å);TableS2:ThelatticeconstantswerecalculatedbyBiSe (JCPDS#12-0732;
+2
+a=b=4.133Åandc=28.620Å);TableS3:ThelatticeconstantswerecalculatedbyCoSe (JCPDS#09-
+2
+0234;a=b=c=5.858Å);TableS4:ElectrochemicalHERperformanceofthepresentworkcompared
+withpreviousreports;TableS5:ECSAvalueofHERin0.5MH SO ;TableS6:TOFvaluefromHER
+2 4
+attheoverpotentialof−0.35Vvs.RHEforcatalyticmaterials.(0.5MH
+2
+SO
+4
+);TableS7:ECSAvalueof
+HERin1MKOH;TableS8:TOFvaluefromHERattheoverpotentialof−0.35Vvs.RHEforcatalytic
+materialsin1MKOH).References[47–61]arecitedintheSupplementaryMaterials.
+https://doi.org/10.3390/ma19020430
+
+Materials2026,19,430 11of14
+AuthorContributions:L.G.:FormalAnalysis,Writing—OriginalDraft,andWriting—Reviewand
+Editing;Y.C.:Investigation,Writing—OriginalDraft,andFormalAnalysis;Q.H.:Supervision,K.L.:
+ConceptualizationandMethodology.Allauthorshavereadandagreedtothepublishedversionof
+themanuscript.
+Funding:ThisworkwasSupportedbytheNationalKeyR&DProgramofChina(2023YFC3709500)
+and the Scientific and Technological Innovation Programs of Higher Education Institutions in
+Shanxi(2022P007).
+InstitutionalReviewBoardStatement:Notapplicable.
+InformedConsentStatement:Notapplicable.
+DataAvailabilityStatement:Theoriginalcontributionspresentedinthisstudyareincludedinthe
+article/SupplementaryMaterial.Furtherinquiriescanbedirectedtothecorrespondingauthors.
+ConflictsofInterest:Theauthorsdeclarenoconflictsofinterest.
+References
+1. Wu,A.P.;Xie,Y.;Ma,H.;Tian,C.G.;Gu,Y.;Yan,H.J.;Zhang,X.M.;Yang,G.Y.;Fu,H.G.IntegratingtheactiveOERandHER
+componentsastheheterostructuresfortheefficientoverallwatersplitting.NanoEnergy2018,44,353–363.[CrossRef]
+2. Zubair,M.;UlHassan,M.M.;Mehran,M.T.;Baig,M.M.;Hussain,S.;Shahzad,F.2DMXenesandtheirheterostructuresforHER,
+OERandoverallwatersplitting:Areview.Int.J.HydrogenEnergy2022,47,2794–2818.[CrossRef]
+3. Zhao,L.S.;Liu,S.Y.;Wei,L.G.;He,H.Y.;Jiang,B.;Zhan,Z.S.;Wang,J.;Li,X.W.;Gou,W.T.One-pothydrothermalsynthesisof
+bifunctionalCo/Mo-rGOefficientelectrocatalystforHER/OERinwatersplitting.Catal.Lett.2024,154,5294–5302.[CrossRef]
+4. Zhang,J.;Cui,R.J.;Gao,C.C.;Bian,L.Y.;Pu,Y.;Zhu,X.B.;Li,X.A.;Huang,W.Cation-modulatedHERandOERactivitiesof
+hierarchicalVOOHhollowarchitecturesforhigh-efficiencyandstableoverallwatersplitting.Small2019,15,1904688.[CrossRef]
+5. Ran,J.X.;Zhang,Z.F.;Feng,H.;Zhao,H.W.;Chai,D.F.;Huang,X.M.;Zhang,W.Z.;Zhao,M.;Dong,G.H.;Zang,Y.;etal.P-doped
+Co-basednanoarrayheterojunctionwithmulti-interfacesforcomplementaryHER/OERelectrocatalyststowardshigh-efficiency
+overallwatersplittinginalkaline.Int.J.HydrogenEnergy2024,64,935–946.[CrossRef]
+6. Du, J.H.; Wang, L.P.; Yuan, A.J.; Xie, J.; Liu, H.; Zhang, H.J.; Chen, Y.Y.; Chen, L. Synergistic ternary catalysis: NiCo-
+LDH/Ni S /Co S @NiFe-LDH-Ov/NFcompositecatalystforhigh-efficiencyHER/OERbifunctionalwatersplitting.J.Alloys
+3 2 9 8
+Compd.2025,1026,64–73.[CrossRef]
+7. Dao, H.T.; Hoa, V.; Sidra, S.; Mai, M.; Zharnikov, M.; Kim, D.Dualefficiencyenhancementinoverallwatersplittingwith
+defect-richandRuatom-dopedNiFeLDHnanosheetsonNiCo O nanowires.Chem.Eng.J.2024,485,150054.[CrossRef]
+2 4
+8. Sui,Z.H.;Xu,Q.;Cheng,J.;Zhang,C.;Chen,Y.L.;Liu,K.K.;Lei,S.W.;Zhang,L.X.;Guo,F.B.Couplinginterfaceconstructionsof
+clusteredMn-CoFeSe derivedfromCoFe-LDHforefficientoverallwatersplitting.Fuel2026,410,138000.[CrossRef]
+2
+9. Guo,F.B.;Cheng,J.;Lei,H.Y.;Sui,Z.H.;Yu,Y.M.;Han,J.L.;Yue,T.J.;Liu,K.K.Transitionmetalmanganeseinducesstructural
+reorganizationofMnxMo1-xSe forefficientoverallwatersplitting.J.ColloidInterfaceSci.2026,703,139203.[CrossRef]
+2
+10. Chen,L.N.;Cheng,Z.F.;He,S.;Wu,Z.P.;Zhang,X.D.;Ren,Z.W.;Zong,D.H.;Deng,K.L.;Xi,M.G.InfluenceofmonolayerMoS
+2
+grainboundariesonMoS clusternucleationduringlayer-by-layergrowthofbilayerMoS .Appl.Surf.Sci.2026,715,164549.
+2 2
+[CrossRef]
+11. Li,D.S.;Wang,W.;Shang,X.Y.;Tang,H.;Zulfiqa,S.Solar-drivenphotocatalyticwateroxidationofAg PO /CNTs@MoSe ternary
+3 4 2
+compositephotocatalyst.Appl.Surf.Sci.2020,505,144613.[CrossRef]
+12. Chen,L.;Ren,S.;Xing,X.D.;Yang,J.;Li,J.L.;Yang,J.;Liu,Q.C.EffectofMnO crystaltypesonCeO @MnO oxidescatalystsfor
+2 2 2
+low-temperatureNH -SCR.J.Environ.ChemEng.2022,10,108239.[CrossRef]
+3
+13. Zhou,C.Y.;Cui,W.;Cui,S.X.;Li,G.C.;Han,L.MOF-derivedCo(Fe)OOHslabandCo/MoNnanosheet-coveredhollow-slabfor
+efficientoverallwatersplitting.ACSAppl.Mater.Interfaces2024,16,69368–69378.[CrossRef]
+14. Qu,P.;Zhao,Z.L.AninterfaciallyengineeredNi P/Fe PheterostructuregrownonNiFePBA/NFasahigh-efficiencybifunctional
+2 2
+electrocatalystforoverallwatersplitting.Fuel2026,413,138306.[CrossRef]
+15. Guo,F.B.;Yu,Y.M.;Sui,Z.H.;Cheng,J.;Li,Y.H.;Wang,X.J.;Duan,J.W.;Lei,S.W.;Liu,K.K.Electronicself-regulationofternary
+alloyselenidesFeNiCoSe forefficientoverallwatersplitting.Fuel2026,405,136679.[CrossRef]
+2
+16. Cheng,J.;Yu,Y.M.;Sui,Z.H.;Lei,S.W.;Duan,Q.Y.;Zhao,Y.M.;Liu,K.K.;Zhang,L.X.;Guo,F.B.TransitionmetalCo-induced
+phasetransitionofCoxMo1-xSe topromoteahydrogenevolutionreaction. ACSSustain. Chem. Eng. 2025,13,2176–2187.
+2
+[CrossRef]
+https://doi.org/10.3390/ma19020430
+
+Materials2026,19,430 12of14
+17. Liu, K.K.; Cheng, J.; Yu, Y.M.; Sui, Z.H.; Guo, F.B.; Lei, S.W.; Zhang, L.X.; Li, M.; Yun, Y.B. Transition metal Co induce
+CoSe /NiWSe interfacestructuralreorganizationforefficientoxygenevolutionreactionandureaoxidationreaction. Surf.
+2 2
+Interfaces2024,45,103950.[CrossRef]
+18. Lee,S.O.;Moon,H.S.;Hong,I.J.;Lakhera,S.K.;Yong,K.J.HollowSrTiO photocatalystwithspatiallyseparatedOERandHER
+3
+cocatalystsforphotocatalyticoverallwatersplitting.Appl.Surf.Sci.2024,665,160298.
+19. Mane,R.S.;Zaroliwalla,D.;Periyasamy,G.;Jha,N.LeafyZIF-DerivedBi-metallicphosphate-mxenenanocompositesforoverall
+watersplitting.Small2025,21,2503228.[CrossRef]
+20. Yu,K.;Zhang,J.Y.;Hu,Y.T.;Wang,L.Q.;Zhang,X.F.;Zhao,B.NidopedCo-MOF-74synergizedwith2DTi C TxMXeneasan
+3 2
+efficientelectrocatalystforoverallwater-splitting.Catalysts2024,14,184.[CrossRef]
+21. Yao,J.;Sui,Z.H.;Guo,F.B.;Guo,X.H.;Lei,S.W.;Liu,K.K.Hollowshell-coreheterojunctionenhancesoxygenevolutionreaction
+andureaoxidationreactionofMOF-NiSe @MoSe .Int.J.HydrogenEnergy2025,136,93–101.[CrossRef]
+2 2
+22. Zhang,C.Y.;Du,X.Q.;Zhang,X.S.;Wang,Y.H.Ni S /MxSy-NiCoLDH(M=Cu,Fe,V,Ce,Bi)heterostructurenanosheetarrays
+3 2
+onNifoamashigh-efficiencyelectrocatalystforelectrocatalyticoverallwatersplittingandureasplitting. DaltonTrans. 2023,
+52,763–773.[CrossRef]
+23. Xu,Q.;Jiu,H.;Zhang,L.X.;Guo,F.B.;Cheng,J.;Yu,Y.M.;Ma,J.F.;Li,H.Vanadium-dopedinducedmulticomponentoxide
+NiFeVO @NF with tremella-like structure for efficient overall water splitting. Int. J. Hydrogen Energy 2025, 126, 508–515.
+X
+[CrossRef]
+24. Guo,F.B.;Zhao,X.Y.;Cheng,J.;Liu,K.K.;Zhang,L.X.NiMOF-derivedMoSe @NiSe heterostructurewithhollowcore-shellfor
+2 2
+efficienthydrogenevolutionreaction.J.AlloysCompd.2023,947,169513.[CrossRef]
+25. Pan,S.Y.;Li,C.;Xiong,T.T.;Xie,Y.H.;Luo,F.;Yang,Z.H.HydrogenspilloverinMoO Rhhierarchicalnanosheetsboostsalkaline
+X
+HERcatalyticactivity.Appl.Catal.B-Environ.Energy2024,341,123275.[CrossRef]
+26. Guo,L.;Bai,X.;Xue,H.;Sun,J.;Song,T.S.;Zhang,S.;Qin,L.;Huang,K.K.;He,F.;Wang,Q.MOF-derivedhierarchical3D
+bi-dopedCoPnanoflowereletrocatalystforhydrogenevolutionreactioninbothacidicandalkalinemedia.Chem.Commun.2020,
+56,7702–7705.[CrossRef]
+27. Sang,Y.;Xue,J.W.;Hu,J.J.;Chen,L.J.High-currentdensityalkalinewater/seawatersplittingbyMoandFeco-dopedNi S :
+3 2
+Invariantactivesiteswithacceleratedwaterdissociationkinetics.Appl.Catal.B-Environ.Energy2025,361,124698.[CrossRef]
+28. Zou,X.X.;Zhang,Y.Noblemetal-freehydrogenevolutioncatalystsforwatersplitting. Chem. Soc. Rev. 2015,44,5148–5180.
+[CrossRef]
+29. Chen,Z.W.;Li,J.;Ou,P.F.;Huang,J.E.;Wen,Z.;Chen,L.X.;Yao,X.;Cai,G.M.;Yang,C.C.;Singh,C.V.;etal.Unusualsabatier
+principleonhighentropyalloycatalystsforhydrogenevolutionreactions.Nat.Commun.2024,15,359.[CrossRef]
+30. Wu,N.T.;He,W.J.;Shi,S.C.;Yuan,X.K.;Li,J.;Cao,J.L.;Yuan,C.Z.;Liu,X.M.Bamboofiber-derivedcarbonsupportforthe
+immobilizationofPtnanoparticlestoenhancehydrogenevolutionreaction.J.ColloidInterfaceSci.2025,684,658–667.[CrossRef]
+31. Kuang,P.Y.;Ni,Z.R.;Zhu,B.C.;Lin,Y.;Yu,J.G.Modulatingthed-BandCenterEnablesUltrafinePt3FeAlloyNanoparticlesfor
+pH-UniversalHydrogenEvolutionReaction.Adv.Mater.2023,35,2303030.[CrossRef]
+32. Karmakar,A.;Kundu,S.BeyondtraditionalTOF:Unveilingthepitfallsinelectrocatalyticactivesitedetermination. J.Mater.
+Chem.A2025,13,39687.[CrossRef]
+33. Ma,W.S.;Zhang,Y.H.;Wang,B.Y.;Wang,J.C.;Dai,Y.N.;Hu,L.W.;Lv,X.W.;Dang,J.SignificantlyenhancedOERandHER
+performanceofNiCo-LDHandNiCoPunderindustrialwatersplittingconditionsthroughRuandMnbimetallicco-doping
+strategy.Chem.Eng.J.2024,494,153212.[CrossRef]
+34. Wang,P.;Zheng,J.;Xu,X.;Zhang,Y.Q.;Shi,Q.F.;Wan,Y.;Ramakrishna,S.;Zhang,J.;Zhu,L.Y.;Yokoshima,T.;etal.Unlocking
+EfficientHydrogenProduction:NucleophilicOxidationReactionsCoupledwithWaterSplitting.Adv.Mater.2024,36,2404806.
+[CrossRef]
+35. Qiang,S.H.;Li,Z.Y.;He,S.Q.;Zhou,H.;Zhang,Y.;Cao,X.;Yuan,A.H.;Zou,J.S.;Wu,J.C.;Qiao,Y.X.Modulatingelectronic
+structureofCoS nanorodsbyFedopingforefficientelectrocatalyticoverallwatersplitting. NanoEnergy2025,134,110564.
+2
+[CrossRef]
+36. Zhao,J.;Urrego-Ortiz,R.;Liao,N.;Calle-Vallejo,F.;Luo,J.S.RationallydesignedRucatalystssupportedonTiNforhighly
+efficientandstablehydrogenevolutioninalkalineconditions.Nat.Commun.2024,15,6391.[CrossRef][PubMed]
+37. Liu,S.J.;Wei,Y.;Wang,M.K.;Shen,Y.Thefutureofalkalinewatersplittingfromtheperspectiveofelectrocatalysts-seizing
+today’sopportunities.Coord.Chem.Rev.2025,522,216190.[CrossRef]
+38. Ding,X.Y.;Liu,D.;Zhao,P.J.;Chen,X.;Wang,H.X.;Oropeza,F.E.;Gorni,G.;Barawi,M.;García-Tecedor,M.;O’Shea,V.A.D.;
+etal. Dynamicrestructuringofnickelsulfidesforelectrocatalytichydrogenevolutionreaction. Nat. Commun. 2024,15,5336.
+[CrossRef][PubMed]
+https://doi.org/10.3390/ma19020430
+
+Materials2026,19,430 13of14
+39. Zhang,Y.;Li,Z.Y.;He,S.Q.;Qiao,Y.X.;Yuan,A.H.;Wu,J.C.;Zhou,H.InterfacialengineeringofheterostructuredCoP/FeP
+nanoflakesasbifunctionalelectrocatalytstowardalkalinewatersplitting.J.ColloidInterfaceSci.2025,679,20–29.[CrossRef]
+40. Zhang,B.X.;Wang,J.M.;Liu,G.M.;Weiss,C.M.;Liu,D.Q.;Chen,Y.P.;Xia,L.X.;Zhou,P.;Gao,M.X.;Liu,Y.F.;etal.Astrongly
+coupledRu-CrOxcluster-clusterheterostructureforefficientalkalinehydrogenelectrocatalysis. Nat. Catal. 2024,7,441–451.
+[CrossRef]
+41. Wei,X.L.;Jiao,Y.;Zou,X.Y.;Guo,Y.C.;Li,W.H.;Ai,T.T.Pvacancy-inducedelectronredistributionandphasereconstructionof
+CoFePforoverallwatersplittingatindustrial-levelcurrentdensity.Inorg.Chem.Front.2025,12,2678–2690.[CrossRef]
+42. Zhang,B.X.;Cui,J.X.;Li,Z.F.;Yang,C.L.;Dong,W.W.;Li,K.;Ma,Y.Y.;Nan,Z.ExtraordinaryHydrogenEvolutionandOxygen
+EvolutionReactionActivityfromPPy@FeCo-LDH/NFBifunctionalElectrocatalystinAlkalineSolution.J.Electrochem.Soc.2024,
+171,086502.[CrossRef]
+43. Wang,X.J.;Huang,Y.;Zhu,J.K.;Zhao,Z.Y.;Zhao,J.B.;Zhang,J.J.Cobaltvanadatenano/microrodsashigh-efficiencydual-
+functionalelectrocatalystforhydrogenevolutionandurea-assistedalkalineoxygenevolutionreaction.Int.J.HydrogenEnergy
+2024,88,78–85.[CrossRef]
+44. Huang,T.X.;Cong,X.;Wu,S.S.;Wu,J.B.;Bao,Y.F.;Cao,M.F.;Wu,L.W.;Lin,M.L.;Wang,X.;Tan,P.H.;etal. Visualizingthe
+structuralevolutionofindividualactivesitesinMoS duringelectrocatalytichydrogenevolutionreaction. Nat. Catal. 2024,
+2
+7,646–654.[CrossRef]
+45. Feng,Y.M.;Xie,Y.H.;Yu,Y.J.;Chen,Y.Z.;Liu,Q.T.;Bao,H.F.;Luo,F.;Pan,S.Y.;Yang,Z.H.ElectronicMetal-SupportInteraction
+InducesHydrogenSpilloverandPlatinumUtilizationinHydrogenEvolutionReaction.Angew.Chem.2025,64,202413471.
+46. Sui,Z.H.;Xu,Q.;Cheng,J.;Zhang,C.;Liu,K.K.;Lei,S.W.;Zhang,L.X.;Guo,F.B.Interfacialelectronicstructureregulationof
+MoSe -NiSe -FeSe ternaryheterojunctionforpH-universalhydrogenevolutionreaction.Int.J.HydrogenEnergy2026,207,153520.
+2 2 2
+[CrossRef]
+47. Song,M.;Zhao,Y.;Wu,Z.X.;Liu,X.E.MoS /CoBwithSedopingoncarbonclothtodriveoverallwater-splittinginanalkaline
+2
+electrolyte.Sustain.Energ.Fuels2020,4,5036–5041.[CrossRef]
+48. Qin,J.F.;Shen,Q.H.;Du,C.C.;Hong,M.;Yang,Y.X.;Zhang,X.H.;Chen,J.H.EnrichedSevacanciesengineeringofRuSe induced
+2
+bylow-valenceCudopingforpromotinghydrogenevolutionandcouplingpowergeneration.Fuel2024,361,130752.[CrossRef]
+49. Wang,Y.Q.;Jian,C.Y.;Hong,W.T.;Cai,Q.;Liu,W.Tuningtheelectronstatusofurchin-likeCoS nanowiresbyseleniumdoping
+2
+towardhighlyefficienthydrogenevolutionreaction.Mater.Lett.2019,257,126673.[CrossRef]
+50. Lei, Y.T.; Zhang, L.L.; Zhou, D.N.; Xiong, C.L.; Zhao, Y.F.; Chen, W.X.; Xiang, X.; Shang, H.S.; Zhang, B. Construction of
+interconnectedNiO/CoFealloynanosheetsforoverallwatersplitting.Renew.Energy2022,194,459–468.[CrossRef]
+51. Su, C.; Xiang, J.Y.; Wen, F.S.; Song, L.Z.; Mu, C.P.; Xu, D.Y.; Hao, C.X.; Liu, Z.Y.Microwavesynthesizedthree-dimensional
+hierarchicalnanostructureCoS /MoS growthoncarbonfibercloth:Abifunctionalelectrodeforhydrogenevolutionreaction
+2 2
+andsupercapacitor.Electrochim.Acta2016,212,941–949.[CrossRef]
+52. Lin,H.F.;Li,H.Y.;Li,Y.Y.;Liu,J.L.;Wang,X.;Wang,L.HierarchicalCoS/MoS andCo S /MoS /Ni Pnanotubesforefficient
+2 3 4 2 2
+electrocatalytichydrogenevolutioninalkalinemedia.J.Mater.Chem.A2017,5,25410–25419.[CrossRef]
+53. Muthurasu,A.;Maruthapandian,V.;Kim,H.Y.Metal-organicframeworkderivedCo O /MoS heterostructureforefficient
+3 4 2
+bifunctionalelectrocatalystsforoxygenevolutionreactionandhydrogenevolutionreaction.Appl.Catal.B-Environ.Energy2019,
+248,202–210.[CrossRef]
+54. Tang, Y.; Yang, C.H.; Sheng, M.H.; Yin, X.T.; Que, W.X. Synergistically coupling phosphorus-doped molybdenum carbide
+withMXeneasahighlyefficientandstableelectrocatalystforhydrogenevolutionreaction. ACSSustain. Chem. Eng. 2020,
+8,12990–12998.[CrossRef]
+55. Li,W.X.;Yu,B.;Hu,Y.;Wang,X.Q.;Yang,D.X.;Chen,Y.F.Core-shellstructureofNiSe nanoparticles@nitrogen-dopedgraphene
+2
+forhydrogenevolutionreactioninbothacidicandalkalinemedia.ACSSustain.Chem.Eng.2019,7,20463–20473.[CrossRef]
+56. Zhao, G.Q.; Li, P.; Rui, K.; Chen, Y.P.; Dou, S.X.; Sun, W.P. CoSe /MoSe heterostructures with enriched water adsorp-
+2 2
+tion/dissociationsitestowardsenhancedalkalinehydrogenevolutionreaction.Chem.-Eur.J.2018,24,11158–11165.[CrossRef]
+57. Chen, P.Z.; Xu, K.; Tao, S.; Zhou, T.P.; Tong, Y.; Ding, H.; Zhang, L.D.; Chu, W.S.; Wu, C.Z.; Xie, Y. Phase-transformation
+engineeringincobaltdiseleniderealizingenhancedcatalyticactivityforhydrogenevolutioninanalkalinemedium.Adv.Mater.
+2016,28,7527–7532.[CrossRef]
+58. Cheng, L.; Huang, W.J.; Gong, Q.F.; Liu, C.H.; Liu, Z.; Li, Y.G.; Dai, H.J. Ultrathin WS nanoflakes as a high-performance
+2
+electrocatalystforthehydrogenevolutionreaction.Angew.Chem.-Int.Edit.2014,53,7860–7863.[CrossRef]
+59. Liang, H.W.; Brüller, S.; Dong, R.H.; Zhang, J.; Feng, X.L.; Müllen, K. Molecular metal-Nx centres in porous carbon for
+electrocatalytichydrogenevolution.Nat.Commun.2015,6,8992.[CrossRef][PubMed]
+https://doi.org/10.3390/ma19020430
+
+Materials2026,19,430 14of14
+60. Kang,W.J.;Feng,Y.;Li,Z.;Yang,W.Q.;Cheng,C.Q.;Shi,Z.Z.;Yin,P.F.;Shen,G.R.;Yang,J.;Dong,C.K.;etal.Strain-activated
+coppercatalystforpH-Universalhydrogenevolutionreaction.Adv.Funct.Mater.2022,2112367.[CrossRef]
+61. Jiang,L.L.;Ji,S.J.;Xue,H.G.;Suen,N.T.HERactivityofMxNi
+1-x
+(M=Cr,MoandW;x≈0.2)alloyinacidandalkalinemedia.
+Int.J.HydrogenEnergy2020,45,17533–17539.[CrossRef]
+Disclaimer/Publisher’sNote: Thestatements, opinionsanddatacontainedinallpublicationsaresolelythoseoftheindividual
+author(s)andcontributor(s)andnotofMDPIand/ortheeditor(s).MDPIand/ortheeditor(s)disclaimresponsibilityforanyinjuryto
+peopleorpropertyresultingfromanyideas,methods,instructionsorproductsreferredtointhecontent.
+https://doi.org/10.3390/ma19020430
+

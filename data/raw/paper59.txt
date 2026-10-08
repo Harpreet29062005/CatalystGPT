@@ -1,0 +1,568 @@
+ORIGINALRESEARCH
+published:12June2020
+doi:10.3389/fenrg.2020.00073
+Synthesis of the New High Entropy
+Alloy and Its Application in Energy
+Conversion and Storage
+HetingZhou1* andJiangweiHe2
+1DepartmentofCivilEngineeringandArchitecture,ZhejiangIndustryPolytechnicCollege,Shaoxing,China,2Departmentof
+ResearchandDevelopment,ZhejiangRuntuCO.LTD.,Shaoxing,China
+In order to explore the methods of energy saving and promoting energy regeneration,
+this paper presents the synthesis and application of new high energy alloy materials
+in energy conversion and storage. A new type of high entropy alloy material was
+prepared by analyzing its high strength, tempering resistance and softening resistance.
+The electrochemical properties of the new type of high entropy alloy were studied
+according to its microstructure and as cast structure. The experimental results show
+that compared with fesn2, the new high entropy alloy material has greater advantages
+in capacity, electrochemical performance, capacity stability and magnification in the
+process of cyclic charging, at low annealing temperature, the solid Co nanoparticles
+are further transformed into hollow Co O nanospheres by the kirkentel effect on the
+Editedby: 3 4
+SuShiungLam, nanoscale. NC- Co O nanocomposites as zinc air battery cathodes exhibit excellent
+3 4
+UniversityofMalaysia
+OERandORRproperties:lowoverpotential352mv,highinitialreductionpotential0.91v
+Terengganu,Malaysia
+andhalfwavepotential0.87v,highopencircuitvoltage1.44v,capacitance387.2mah/g,
+Reviewedby:
+RockKeeyLiew, andexcellentcyclestability.Nicobimetallicphosphidenanotubesderivedfromthehigh
+UniversitiMalaysia entropyalloy-74areefficientelectrocatalystsforwaterdecomposition.
+Terengganu,Malaysia
+HuanPang, Keywords:highentropyalloy,materials,energyconversion,storage,electrochemicalperformance,fuelcellFeSn2
+YangzhouUniversity,China
+*Correspondence:
+INTRODUCTION
+HetingZhou
+contrist@163.com
+Withtherapidgrowthofpopulationandeconomy,thehugeglobalenergyconsumptionhasledto
+Specialtysection: theunsustainabledevelopmentoffossilfuels,resultinginseriousenvironmentalproblemsdueto
+Thisarticlewassubmittedto theexcessivedevelopmentanduseoffossilfuels.Withthedualcrisisofenergyandenvironment,it
+ElectrochemicalEnergyConversion ismoreandmoreurgenttodeveloprenewableenergytoreduce,recycleandevenreplacetheuseof
+andStorage,
+fossilfuels(Yurchenkoetal.,2016).Oneofthekeytechnologiesofrenewableenergyrevolutionis
+asectionofthejournal
+effectiveenergyconversionandenergystorage.Energyconversionandstorageefficiencydependon
+FrontiersinEnergyResearch
+electrochemicalreactions(Yietal.,2017),asthemosttypicalexamplesarehydrogenproductionby
+Received:13December2019
+watersplitting,powergenerationbyredoxreactionoffuelcells,catalyticreductionofCO ,andion
+2
+Accepted:14April2020
+recyclingofbatteriesandsupercapacitorsforenergystorage.Electrodematerialslargelydetermine
+Published:12June2020
+the efficiency of an electrochemical energy storage and conversion device (Michael et al., 2017).
+Citation:
+Effective surface area, optimized pore size distribution and crystallinity are the most important
+ZhouHandHeJ(2020)Synthesisof
+factors affecting electrode materials. Therefore, considering the practical application, it is very
+theNewHighEntropyAlloyandIts
+importanttodevelopnewelectrodematerialswithhighperformance(Wangetal.,2016).
+ApplicationinEnergyConversionand
+Storage.Front.EnergyRes.8:73. The development of material science has always been accompanied by the development of
+doi:10.3389/fenrg.2020.00073 humancivilization,inwhichmetalmaterialsplayadecisiveroleinhumanhistoryandcivilization.
+FrontiersinEnergyResearch|www.frontiersin.org 1 June2020|Volume8|Article73
+
+ZhouandHe NewHighEntropyAlloy
+So far, more than 30 kinds of practical alloy systems have alloyareanalyzedandthecapacityofcharginganddischargingis
+been applied to all aspects of human life, for example, steel compared.Thespecificresearchrouteisasfollows:
+materials for the pillar of the national economy, aluminum
+(1) Thepropertiesofhighentropyalloyareanalyzed,including
+alloy next to steel, magnesium alloy with the lightest weight
+wear resistance, hardness, corrosion resistance, tempering
+among practical metals, etc. (Wang et al., 2016; Mike et al.,
+resistanceandsofteningresistance.
+2017).Inthe1970’s,thedevelopmentandapplicationofbinary
+(2) The preparation methods of new high entropy alloy
+intermetallic compounds such as Ti Al and amorphous alloys
+materials are introduced, and the advantages and
+(metallicglass)havenotbrokenawayfromthetraditionaldesign
+disadvantagesareanalyzed.
+concept of alloy materials, that is, they are all based on one
+(3) The microstructure of the new high entropy alloy
+(contentgenerallymorethan50%)ortwometalelements,onthe
+wassimplified.
+basisofwhichotherelementsarepurposefullyaddedtoimprove
+(4) The application research of new high entropy alloy
+themetalperformance(JiaandYang,2016).Nowadays,withthe
+materialincludestheelectrochemicalabsorptionandrelease
+developmentofaviation,aerospace,electronics,communication
+properties of new high entropy alloy material and its
+andothertechnologiesaswellasmachinery,chemicalindustry,
+applicationinpractice.
+energy and other industries, more and more requirements are
+(5) Conclusionandfocusoffutureresearch.
+put forward for the performance of materials. However, the
+traditional concept of synthesis has been unable to support
+today’sstrongdemand.Traditionalsinglematerialscannolonger MATERIALS AND METHODS
+meet the use requirements, so human beings have stepped into
+The High Entropy Alloy Performance
+a new era of synthetic materials, in which metal materials have
+developedfromtheoriginalpuremetaltosyntheticmetal(Chao HighWearResistanceoftheHighEntropyAlloy
+etal.,2016).Manyachievementshavebeenmadeintheresearch As we known, the wear resistance of materials is related to
+ofsyntheticmetals.In1995,TaiwanscholarYeJunweicreatively their hardness. The harder the materials are, the higher the
+put forward a new concept of alloy design of the high entry wear resistance (Ye et al., 2016; Xu et al., 2018). So it is not
+alloy, which completely broke the traditional concept of alloy difficult to find that the high entropy alloy also has high wear
+design. The idea has laid a foundation for the development of resistance.Thechangeofalloyelementshasagreatinfluenceon
+synthetic metals, but the theory has not been put into practice. thewearresistanceofthehighentrancealloy.Throughthestudy
+Inthepast20years,manyscholarsandteamshaveparticipated of the adhesion wear behavior of Al x CoC x CuFeNi, it is found
+intheresearchofthehighentryalloyandaccumulatedalotof thatwiththeincreaseofAlcontent,thenumberofBCCphase
+researchresults.Themosttypicaloneishighentropyalloy.The increases.BCCphasecanimprovethehardnessandreducethe
+originalhighentropyalloyhasbeenprovedtobeunsuitablefor wearcoefficientofthealloy,whilethewearchangestooxidation
+reversiblelithiumbatterystorage,butthesubsequentworksolved wear (Su et al., 2016). In the process of oxidation wear, oxide
+this problem and made the high entropy alloy as an effective film will be formed on the surface, which will help to improve
+energy storage material (Zhi et al., 2017). In addition to direct the wear resistance of the alloy. The research shows that the
+use, the high entropy alloy is also used as a support material wearresistanceofthealloyissignificantlyimprovedbyreplacing
+to cover active nano materials for energy conversion reaction Cu element in AlCoCrFeCuNi by Mo element. In addition,
+or as a precursor material to obtain a variety of other high withtheincreaseofFecontent,thewearresistanceofthealloy
+entropy alloy materials through different processing methods AlCoCrFeMo0.5Ni will be reduced, which is also related to the
+(Wuetal.,2016).Forexample,Aijazetal.usedZIF8ascarbon decreaseofitshardness.Itcanbeseenfromtheabovethatthe
+andnitrogensourcefortemplate,furfurylalcoholandNH OH wear resistance of the high entry alloy is the best by properly
+4
+to prepare the high entropy alloy porous carbon material for adjustingthetypeandcontentofelements(Stepanovetal.,2017).
+CO adsorption and oxygen reduction reaction (ORR). Wang
+2
+et al. Mixed ZIF-8 nanoparticles with polyacrylonitrile (PAN) HighStrengthandHardnessoftheHighEntropyAlloy
+solution, prepared ZIF-8 / PAN fiber by electrospinning, and The special organizational structure of the high entry
+◦
+then calcined at 500 C under nitrogen protection to obtain alloy determines its unique performance. Similar to other
+the high entropy alloy porous carbon material. It is reviewed solid solution metals, the high entrance alloy has a strong
+the research results of the high energy alloy in recent years, strengtheningeffectforsolidsolution.Whenthealloysolidifies
+including its organizational structure and performance, as well andcrystallizes,thesolidsolutionatomswillblockthemovement
+as its application in super capacitors and fuel cells. As a new ofdislocations,sothesolidphasestrengthandhardnessarevery
+typeofsustainableenergyconversionandstoragetechnology,it high.Thereisnograinboundaryintheamorphousphaseofthe
+has excellent efficiency, high energy density and environmental alloy,whichmakestheslipmovementmoredifficult,sothesolid
+friendliness. However, the research on the synthesis of high phase strength is higher. Similarly, the middle nano phase and
+entropyalloyisnotthorough,andtherearemanydefectsinits thesecondphaseofthehigh-intensityalloycanfurtherenhance
+performanceanalysis. the solid phase strength. In addition, due to the difference of
+Based on the above problems, this paper presents the atomicsizeamongtheconstituentelements,thelatticedistortion
+synthesisofnewhighentropyalloyanditsapplicationinenergy will hinder the dislocation movement and increase the solid
+conversion and energy storage. The properties of high entropy strength.Thehardnesscharacteristicsofas-caststructureofthe
+FrontiersinEnergyResearch|www.frontiersin.org 2 June2020|Volume8|Article73
+
+ZhouandHe NewHighEntropyAlloy
+high entrance alloy in various systems are shown in Table1, upto1,100 ◦ C.Thehighentrancealloyhasexcellentproperties,
+the hardness of the as-cast structure of the high entrance alloy comparedtotraditionalalloy.
+is 600–900 hv, which is no less than that of carbon steel and
+alloycarbonsteelaftercompletequenchingandhardening.The
+Preparation Method of the New High
+hardness of the alloy can be further adjusted by changing the
+contentofalloyingelements(Shengetal.,2018). Entropy Alloy Material
+Thefirstmethodtopreparethenewhighentrancealloymaterial
+isvacuumarcfurnacecasting,whichisalsothemosttraditional
+ExcellentCorrosionResistanceoftheHighEntropy
+and applied method. Subsequently, the multi-element high-
+Alloy
+function alloy coating was successfully prepared by magnetron
+The high entropy alloy has a simple phase structure, may also sputtering,forexample,anewtypeofhighentropyalloymaterial,
+containamorphous,nanocrystallineandlowfreeenthalpy,which alfeticrzncu, was successfully prepared by mechanical alloying.
+determinesitsstrongcorrosionresistance(Zhangetal.,2018a). Li Xiaobing et al. tried to prepare the new high entrance alloy
+Forthehigh-corrosion-resistantalloycontainingTi,Cr,Ni,and material coating by thermal spraying. Yao Chenzhong et al.
+Cu,thecorrosionresistanceofthecorrosion-resistantelements successfullypreparedtheamorphousthenewhighentrancealloy
+canbefullyexerted,whichcanensurethatthehigh-corrosion- materialfe 13.8 co 28.7 ni 4.0 mn 22.1 bi 14.9 tm 16.5 film by
+resistantalloywillnotbecorrodedinstrongacidenvironment. potentiostatic electrochemical deposition. The new high-speed
+Oxide film can not only improve wear resistance but also alloy material can be made of block material, coating material
+corrosionresistance.Theexistenceofsomeelementsinthealloy andfilmmaterialbymeltingcasting,forging,powdermetallurgy,
+isconducivetotheformationofoxidefilm,butalsotoimprove spraying method and coating method. With the increase and
+corrosion resistance. Nano and amorphous phases in the alloy improvementofthepreparationprocessofthenewhigh-speed
+can also effectively improve the corrosion resistance between alloymaterial,itsapplicationfieldwillbeexpandedgreatly.
+dendrites (Shi et al., 2016). If there is segregation in the fiber
+structure of the alloy, it may aggravate the corrosion tendency
+PreparationofHighEntropyAlloyPowder
+ofthealloy.Thecorrosionresistanceofthehighentrancealloyas
+Thepreparationmethodofhighentropyalloypowderismainly
+caststructureofvarioussystemsisshowninTable1.
+mechanical alloying, which is easy to obtain nanocrystalline or
+amorphous particles with uniform structure and component
+ExcellentTemperingandSofteningResistanceofthe distribution.VaralakshofMadrasInstituteoftechnologyinIndia
+HighEntropyAlloy preparedcunicoznalti,alfeticrzncusystemhighentropyalloyby
+The high-temperature tempering can not only change its this method, and studied its structure and properties. Weiting
+structureandatomicsize,butalsoprecipitatemorenanoparticles et al. prepared alfecrconi high entropy alloy by this method.
+andamorphousphases,whichmakesthehigh-temperaturealloy Figure1 shows the classification of preparation methods for
+still have high or even higher hardness. Therefore, the high differentformsofsamples.
+entrance alloy does not soften after tempering, but has higher
+hardness(Rizzardietal.,2018).Forexample,theabovealloyis PreparationofHighEntropyAlloyMatrixComposite
+◦
+annealed at high temperature of 1,000 C, holding time is 12h, Thepreparationofmetalhighentropyalloycanbedividedinto
+andthencooledtoroomtemperatureinfurnace.Thehardness theabovefivecategories,andthecommonpreparationmethods
+ofthealloyisbasicallyunchanged,sometimesevenprecipitation ofhighentropyalloymatrixcompositematerialsaremainlyself
+hardeningoccurs.Incontrast,carbonsteelandhigh-temperature propagating high temperature synthesis (SHS). Li Bangsheng’s
+◦
+andhigh-speedsteel(onlyupto550 C)cannotdothis,butalso research group is devoted to the research of high entropy alloy
+perform better than other non-ferrous alloys. In addition, the matrix composite materials, and Wang Yanping, his doctoral
+softmagneticpropertiesandhighresistivityarealsosignificant student in the literature, uses the “SHS + melting casting”
+characteristicsofthehighentrancealloy.Thehighentropyalloy method to prepare alcrfecon ICu - 10%TiC, CrFeCoNiCuTi -
+containing Al and CR also has excellent oxidation resistance 10%TiChighentropyalloymatrixcomposites.
+TABLE1|Listofhardnessandcorrosionresistanceofhighentropyalloy(×indicatesnocorrosion).
+Highentropyalloys CuTiVFe CuTiVFe AlTiVFe AlTiVFe MoTiVFe AlTiVFe MoTiVFeNi
+NiZrCo NiZrCo+3%B NiZrCo NiZrCo+3%B NiZrCo NiZrCoCr ZrCoCrPd
+Hardness As-cast 620 660 780 770 780 770 820
+Annealingat1,000◦Cfor 610 680 790 780 780 880 810
+12h,furnacecooling
+Corrosionresistance HCL(1mol/L) × × × × × × ×
+H2SO4(1mol/L) × × × × × × ×
+HNO3(1mol/L) × × × × × × ×
+FrontiersinEnergyResearch|www.frontiersin.org 3 June2020|Volume8|Article73
+
+ZhouandHe NewHighEntropyAlloy
+FIGURE1|Researchandpreparationmethodsofdifferentformsofsamples.
+Microstructure Characteristics of the New
+High Entropy Alloy Material
+SimplifiedMicrophaseStructure
+According to the classical Gibbs phase ratio, the number of
+equilibrium phases in the alloy system of various elements,
+and the number of phases formed during non-equilibrium
+solidification. According to the characteristics of traditional
+alloys, it is believed that many kinds of main element alloys
+willproducemanykindsofintermetalliccompounds,whichwill
+deteriorate the mechanical properties of alloys. However, it is
+found that the new high-density alloy material microstructure
+has a simple BCC or FCC phase or amorphous state, which is
+not inclined to form brittle intermetallic compounds, and the
+numberofphasesobtainedisfarlessthan,whichphenomenon
+canbewell-explainedaccordingtoGibbsfreeenergyequation
+1G =1H −T1S (1)
+mix mix mix
+In the formula, the mixing entropy and the mixing enthalpy
+(1H ) are in a competitive position, and the mixing entropy
+mix
+playsaleadingroleinthehightemperaturestage.Therefore,the
+largemixingentropyofthenewhigh-temperaturealloymaterial
+FIGURE2|As-caststructureofCuCoNiCrAlFehighentropyalloynew
+willexpandthedissolutionrangeoftheend-to-endsolidsolution
+material.(A)NeardisorderedBCCphasestructurewithawidthof70nm.
+to a certain extent, thus forming a simple multicomponent (B)OrderedBCCphasestructurewithawidthof100nm.(C)Thestructureof
+miscible phase, which is particularly obvious in the high- nanoprecipitateandFCCwithsizeof7–50nm.(D)NeardisorderBCCphase
+temperaturestage(Zhangetal.,2018b). structure.
+NanocrystallizationandAmorphization
+Under the action of high mixed entropy, some components of the formation of nanophases (Gao et al., 2016). For rapid
+the new high entropy alloy material will precipitate nanophase solidification or vacuum coating, the lattice distortion of the
+structures or even amorphous structures in the as-cast state new high entropy alloy material can show the tendency of
+(Liu et al., 2017). The main reason for the tendency of alloy nanocrystallizationandevenamorphizationduetothedifference
+nanocrystallization is related to the kinetic theory, because in atom size. Figure2 is the as-cast structure of CuCoNiCrA
+when the new high entropy alloy material melts, the contained lFethe high entropy alloy material, where the width of the a
+elementsaredisorderlyarrangedintoadisorderedliquid.After region is about 70nm, which belongs to the nearly disordered
+solidification,duetothediffusionandredistributionofmultiple BCCphasestructure;thewidthofthebregionisabout100nm,
+elements, the Nucleation and growth delay are conducive to whichbelongstotheorderedBCCphasestructure;thecregion
+FrontiersinEnergyResearch|www.frontiersin.org 4 June2020|Volume8|Article73
+
+ZhouandHe NewHighEntropyAlloy
+is a nano precipitate The size is about 7–50nm, which is close when the voltage is 0.3, the discharge capacity is about 760
+to the FCC phase structure; the d region is a nano-precipitate, mAh/g-1,whenthevoltageis1.2,thechargecapacityisabout310
+about 3nm, which also belongs to the nearly disordered BCC mAh/g-1,anditscapacitystartstobehigherthanthedischarge.
+phasestructure. Inthecaseofthesecondchargeanddischarge,whenthevoltage
+is1.2,thecapacityofchargingandnon-chargingisthesame,and
+thenthecapacityofchargingishigherthanthatofnon-charging
+APPLICATION RESEARCH OF THE NEW
+mode;inthecaseofthethirdchargeanddischarge,thesituation
+HIGH ENTROPY ALLOY MATERIAL
+is the same as that in figure (a) and figure (b).In addition, the
+formation of surface oxides will also lead to the formation of
+The electrochemical performance of the new high energy alloy
+Li O and irreversible capacity. After the first cycle, the second
+materialanditsapplicationinsupercapacitorandfuelcellwere 2
+chargedischargeisalmostthesameasthethirdchargedischarge,
+studied, and its application in energy conversion and storage
+indicating the reversible charge discharge reaction. Compared
+wasverified.
+with FeSn material, the new high entry alloy material shows
+2
+obvioushighcapacity.
+Electrochemical Absorption and Release
+Figure5showsthecomparisonofthecyclestabilityandrate
+Performance of the New High Entropy
+performancebetweenthenewhighentrancealloymaterialand
+Alloy Material FeSn material.
+2
+InFigures3,4,itisshownthatthefirstthreechargeanddischarge Figure5Acomparesthecyclicperformanceofthenewhigh
+conditions of the new high entropy alloy material and FeSn 2 entrance alloy material and FeSn 2 material at a current density
+materialatacurrentdensityof50mAg −1. of150mAhg −1.Obviously,comparedwithFeSn ,thenewhigh
+2
+ItcanbeseenfromtheanalysisofFigure3andFigure3that entry alloy material shows improved cycle stability. After 25
+under different capacities and voltages, the new high entropy cycles,thenewhighentrancealloymaterialmaintainsacharging
+alloyreflectsdifferentsituationsthroughthreetimesofcharging capacity of 500 mAhg −1, while the FeSn material sample only
+2
+and discharging. In the case of the first charge and discharge, hasacapacityof150mAhg −1 afterthesamenumberofcycles.
+FIGURE3|Highentropyalloynewmaterial.(A)Firstchargeanddischarge.(B)Secondchargeanddischarge.(C)Thirdchargeanddischarge.
+FrontiersinEnergyResearch|www.frontiersin.org 5 June2020|Volume8|Article73
+
+ZhouandHe NewHighEntropyAlloy
+FIGURE4|ThefirstthreechargesanddischargesofthenewhighentropyalloymaterialandFeSn2materialatthecurrentdensityof50mAg−1.(A)Firstchargeand
+discharge.(B)Secondchargeanddischarge.(C)Thirdchargeanddischarge.
+The enhanced cycling performance is attributed to the slow andpreventthefurtherdecompositionoftheelectrolyte,which
+down effect of the high entrance alloy on the volume change isconducivetothestabilityandreversiblecycleofthenewhigh
+and the limitation of the agglomeration of cosn nanocrystals. entropy alloy material. However, after increasing the number
+2
+Figure5Bcomparesthemagnificationpropertiesofthenewhigh ofcyclesforFeSn materials,R andR increasedsignificantly.
+2 f ct
+entropy alloy material and FeSn material. The electrodes were In addition, the R of FeSn material samples has increased
+2 e 2
+chargedatdifferentcurrentdensitiesanddischargedatacurrent significantly, which is speculated to be caused by the shedding
+density of 50 mAg
+−1.
+Obviously, the new high entrance alloy ofactivematerials.Incontrast,thechangeinReofthenewhigh
+material shows better rate performance than FeSn material. It entropyalloymaterialissmall,whichindicatesthatthepresence
+2
+is considered that the improvement of the rate performance is ofthehighentropyalloysuppressesthevolumeexpansionduring
+mainlyduetothefollowingfactors:firstly,thehighentropyalloy chargeanddischarge,therebyreducingthesheddingoftheactive
+can actastheconductive network of thematerialnanocrystals; material. The relatively small changes in R and R of the new
+f ct
+secondly, the nanocrystals with small size and good dispersion highentropyalloymaterialindicatethattheintroductionofthe
+are conducive to the rapid transport of lithium ions; thirdly, highentropyalloybuffers,limits,anddispersesFeSn materials
+2
+the materials located between the high entropy alloy in layers to better maintain electrode integrity during cycling. It is also
+are conducive to the wetting of the electrolyte. Therefore, the explainswhythenewhighentropyalloymaterialhasbettercycle
+high entrance alloy sheet is more conducive to the internal ion stabilityandrateperformance.
+transportbetweentheelectrolyteinterfaces.
+Figure6 shows the Nyquist of the new high entrance alloy
+Application of the New High Entropy Alloy
+material and FeSn after 5 and 25 cycles. For the new high
+2
+Material in Super Capacitor
+entrance alloy material, R remained almost unchanged after
+SEI
+5 and 25 cycles, indicating that the structure of SEI membrane Supercapacitor or electric double-layer capacitor (EDLC) is
+remainedstableafterthefirstcycle.ThestabilityofSEIfilmcan a kind of electrochemical device with huge capacitance and
+preventtheactivematerialsfrombeingexposedintheelectrolyte high capacity, which are widely used in devices requiring fast
+FrontiersinEnergyResearch|www.frontiersin.org 6 June2020|Volume8|Article73
+
+ZhouandHe NewHighEntropyAlloy
+FIGURE6|NyquistconditionsofnewhighentropyalloyandFeSn2material
+samplesafter5and25cycles.(A)Highentropyalloynewmaterial.(B)FeSn2
+material.
+FIGURE5|Comparisonofcyclicstabilityandmultiplicativeproperties
+betweenthenewhighentropyalloymaterialandFeSn2materialsamples.
+(A)Cyclicstability.(B)Ratioofperformance.
+tofurtherimprovethecapacity,newelectrodematerialsneedto
+have good conductivity, high surface area and adjustable pore
+charge/dischargecycles.Supercapacitorsdonotuseconventional size. Because of the compliance with these standards, the new
+solid-statemediaofordinarycapacitors.Thesedevicescanstore high entry alloy material has become a potential material for
+electricenergyintheelectrochemicaldoublelayer(EDL)formed manufacturingsupercapacitors.
+byelectrolyteionsontheelectrodesurface,ortheelectrochemical The new high entrance alloy material can also be used
+redoxreactioninthesurfaceareaofelectrodematerials.Thekey as an effective active material and a composite substrate
+point of super capacitor is to improve energy density. In order for supercapacitors. In order to further study the practical
+FrontiersinEnergyResearch|www.frontiersin.org 7 June2020|Volume8|Article73
+
+ZhouandHe NewHighEntropyAlloy
+materialsforsupercapacitors.A3DcrosslinkedPANI/nitrogen
+depositedporouscarbonfiber(3DCPPC)waspreparedbyin-situ
+polymerization of aniline with zif-8 derived nitrogen deposited
+porous carbon fiber. Figure7 shows the cyclic voltammetry of
+porouscarbondepositedbynitrogenatapotentialof−0.2∼0.8V
+in 1m sulfuric acid, indicating that the rapid ion diffusion
+and electron transfer are attributed to low internal resistance
+and ideal capacitive behavior. The constant current charge and
+dischargetestwithcurrentintensityof1A/gshowsthat3D-CPC
+(755 F/g) has higher specific capacitance than 3D crosslinked
+PANI (504 F/g) and nitrogen deposited porous carbon (325
+F/g). As the current intensity increases from 1 to 20 A/g, the
+specific capacitance of 3D-CPC only decreases from 755 to
+618 F/g, indicating that the material has excellent transmission
+performance. In addition, 91.2 % of the capacitance remains
+after 1,000 cycles at a high current intensity (20 A/g), which
+proves that the 3D-CPC material has good cycle stability. For
+FIGURE7|Thecurrentstatediagramofnitrogen-depositedporouscarbonat
+apotentialof−0.1–0.9vin1Msulfuricacid. supercapacitors,theexcellentelectrochemicalpropertiesof3D-
+CPCmaterialsaremainlyattributedtotwoaspects:first,nitrogen
+deposition porous carbon can provide more active sites for the
+rapidtransferofionsandelectrons;second,thehighstructural
+application performance of the material, especially the flexible stabilityof3Dcross-linkedPANIfibercanpreventtheexpansion
+energystorageperformance,thematerialwasusedintheflexible andcontractionofelectrodematerials.
+solid-state hybrid battery (SSHC) equipment. It is found that In order to obtain this hybrid array, CNTFswere first
+the maximum volume energy density of SSHC is 5.1 mW immersed in a mixed solution containing
+Zn2+
+and
+Co2+
+, and
+h/cm3 (210Wh/kg),whichismuchhigherthanothermaterials theproductwasheatedat350 ◦ Cundertheprotectionofinert
+reportedatpresent. gastoobtainCNTFs@ZnCo O nanowirearray(NA).
+2 4
+As a typical 2D single-layer inorganic carbon material, Subsequently, Zn Co O NA provides
+Zn2+
+and
+Co2+
+ions
+2 4
+the high-density alloy is widely used as electrode material. andactsasaframeworktogrowbimetallicZn/Co-ZIF(CNTFs
+The new high-density alloy material can greatly improve its @ Zn Co O@Zn/Co-ZIF) in situ. NTFs @ Zn Co O @ Zn/Co-
+2 4 2 4
+◦
+rate performance and cycle stability. The hybrid electrode ZIF HA was heated in air at 350 C to convert it into CNTFs
+structure assembled by the high-density alloy nano sheet and @ Zn Co O @ Zn Co O ha, and then CNTFs @ Zn Co O
+2 4 2 4 2 4
+inorganic nano materials has the following advantages: (1) it @ Zn co-s HA was obtained by secondary reaction with
+can effectivelyimprove theconnectivitybetween theindividual thioacetamide at 70 ◦ C. CNTFs @ Zn Co O @ Zn-Co-S is
+2 4
+electroactivespecies,shortenthetransmissionpathbetweenthe used as cathode and CNTFs @ H-Co O @ CNC HA as anode
+3 4
+ion and the electrolyte; (2) the mixing of the two materials to assemble FACS equipment. The specific capacitance of the
+can retain the advantages between the two, play a synergistic device is 117.18 mF/cm2 at the current 10 mA/cm2 and 67.5
+role, and ultimately improve the electrochemical performance mF/cm2 asthecurrentintensityis10mA/cm2.Acompleteself
+of the whole system. The active site rich NIS nanorods(R- chargingpowersupplysystemincludesaflexiblefibercoaxially
+NiS) and rGOcomposites (R-NiS/rGO) were prepared by asymmetric supercapacitor (FACSS) and a flexible triboelectric
+in situ vulcanization with Ni-MOF-74/rGO as parent. The Nanogenerator (FTENGs), which can collect and store energy
+nanostructured NIS nanorods (200 × 800nm) prepared by the for flexible electronic devices at the same time. The excellent
+high-density alloy are uniformly wrapped on the rGO, which electrochemical performance of the FACS device also shows in
+provides an ideal electronic conductivity for the rapid energy its high regional energy density, which is 32.01 µW·h/ cm2
+storage. The layered porous structure of the nanocomposite when the regional power density is 6,698.42 µW/ cm2. In
+promotes the rapid entry of liquid electrolyte into the active addition,whenthepowerdensityincreasedto7,000µW/cm2,
+material. In addition, experiments and theoretical calculations the energy density of the device remained at 12.38 µW h/
+show that the NIS nanorods in the mixed electrode exhibit cm2, indicating that CNTFs@ZnCo O@Zn-Co-S HA material
+2 4
+activeredoxreactions.R-NiS/rGOcompositeshowshighspecific had a strong synergistic effect. The excellent electrochemical
+capacity, excellent ratio performance and good cycle stability. performance of self-assembled FACS is mainly attributed to its
+In2MKOHelectrolyte,whenthecurrentofR-NiS/rGOmixed unique layered and porous structure, which can provide more
+electrode increases from 1 to 50A/g, the capacitance only electronicactivesitesandsmartiondiffusionpath.
+decreases from 744 to 600 C/g. After 20,000 cycles, the initial Based on the above analysis, it is found that the new high
+capacitanceisstillhigherthan89%,showingexcellentstability. entropyalloymaterialshowsexcellentelectrochemicalproperties
+Due to the advantages of simple preparation, low cost, intheapplicationofsupercapacitor.Themainadvantagesofthe
+high chemical stability and good conductivity, the nanofibers materialareasfollows:(1)highstructuralstabilitypreventsthe
+in the high-density alloy are also widely used as electrode expansionandcontractionoftheelectrode;(2)theporestructure
+FrontiersinEnergyResearch|www.frontiersin.org 8 June2020|Volume8|Article73
+
+ZhouandHe NewHighEntropyAlloy
+provides a large number of electroactive sites and electrolyte materialthroughcarbonization.Thepreparationdiagramofthe
+transfer channels, and enhances the ion transport in the whole new high entropy alloy material is shown in Figure9. These
+structure;(3)thehighlycrosslinkedstructureofthehigh-density metalnanoparticlescanprovideelectrocatalyticsites,moreover,
+alloy provides an efficient channel for electron transfer and which can greatly improve the conductivity and stability of the
+ion diffusion in the charge discharge process. Although great whole new high entropy alloy material. For example, carbon-
+progresshasbeenmadeinthisfield,mostoftheresearchesare co nanocomposites were obtained by carbonizing Zn and the
+mainly on ZIF derived nanomaterials. In the future, it should new high entropy alloy material and used as dual functional
+developavarietyofotherpreparationandapplicationofthehigh electrocatalysts for ORR and OER. Zif-67 was grown on the
+entropyalloyderivednanomaterials. surfaceofzif-8asatemplatetoformatypicalcore-shellstructure,
+whichwasthentransformedintoadoubleshellnanocagewith
+Co-N deposited graphite carbon as the shell and N deposited
+Application of the New High Entropy Alloy
+porous carbon as the inner shell by carbonization and acid
+Material in Fuel Cell etching. Due to the large active surface area and high diffusion
+Inthepastfewyears,fuelcellasanewtypeofsustainableenergy kinetics of the reactants, this novel structure exhibits unique
+conversion technology has been widely concerned because of catalytic activity and durability in terms of ORR and OER.
+its excellent efficiency, high energy density and environmental First-principles theoretical calculations indicate that the high
+friendliness. The performance of fuel cell mainly depends on catalytic activity of both reactions is due to the strong and
+severalimportantelectrocatalyticreactions,includingORR,HER favorableadsorptionoftherate-dependentintermediateproduct
+and OER. In general, the formation of H-H and O=O bonds (OOH ∗ ) on the Co lattice with non-coordinated hollow sites
+in water is very slow or requires very high electrochemical andhighdensityCatoms.Inaddition,theactiveCsitesinthe
+potential.Inordertoovercometheselimitations,itisnecessary para-position of the deposited graphite-type and pyridine-type
+to use electrocatalyst to reduce the superpotential driving nitrogenatomsalsoshowedhigheractivityintheORRandOER
+water oxidation and proton reduction. In recent years, the reactions,respectively.
+new high entropy alloy material based electrode material The results show that metal oxides, metal phosphates and
+has been proved to be a promising electrocatalytic water metal sulfides can be used to enhance the electro catalytic
+crackingmaterial. activity of the new high entrance alloy material. It is reported
+Inordertofurtherenhancetheelectrocatalyticperformance that a high efficient bifunctional oxygen catalyst was prepared
+ofthenewhighentropyalloymaterialbasedcatalyst,variousnew by Co based the high entrance alloy, and the hollow Co O
+3 4
+chainsandnodesaredesignedtooptimizethecatalyticactivity nanosphereswerecoatedonthecarbonfelt.Firstly,COthehigh
+of the new high entropy alloy material. These methods mainly entropy alloy grows on the carbon felt, and then pyrolyses to
+include: (1) embedding π - conjugated organic ligands into form Co nanoparticles fixed on the carbon nano sheet. At low
+the framework to prolong the recombination time of electron annealing temperature, the solid Co nanoparticles are further
+hole;(2)combiningmolecularcatalyst,semiconductorquantum transformed into hollow Co O nanospheres by the kirkentel
+3 4
+dots, metal nanoparticles and metal ions with the new high effect on the nanoscale. NC- Co O nanocomposites as zinc
+3 4
+entropy alloy material; (3) constructing ultra-thin 2D the high airbatterycathodesexhibitexcellentOERandORRproperties:
+entropyalloynanofilms.Thelastmethodhasseveraladvantages, lowoverpotential352mv,highinitialreductionpotential0.91v
+includingfastmasstransfer,superiorelectrontransferandhigh and half wave potential 0.87v, high open circuit voltage 1.44v,
+percentage between the exposed catalytic active surface and capacitance 387.2 mah/g and excellent cycle stability. Nico
+the unsaturated metal site, which ensure high catalytic activity bimetallic phosphide nanotubes derived from the high entropy
+and unique surface atomic structure and bonding arrangement alloy-74 are efficient electrocatalysts for water decomposition.
+which are easy to identify and adjust. Through the preparation The over potential of HER and OER are 129 and 245mV,
+of2Dultra-thinnicothehighentryalloyframework,itsstructure respectively, when the current density is 10 mA/cm2. They
+is shown in Figure8. The performance of electrocatalytic OER can also be used as cathode and anode catalysts for alkaline
+with GC and Cu as working electrodes was studied. When aqueous solution cracking. The voltage of the electrolyzer is
+GC is used as electrode, the corresponding over-voltage is 1.59v at the current density of 10 mA/cm2. The hollow CoS
+2
+250mV when the current density is 110 mA/cm2. When Cu nanotube array derived from CO the high-intensity alloy was
+is used as electrode, the over-voltage is only 189mV when the used as an efficient dual-function electrocatalyst for all water
+currentdensityis10mA/cm2.Inaddition,in1MKOHsolution, cracking. Hollow CoS nanoarrays have hierarchical pores,
+2
+the NiCothe high entry alloy framework showed incredible large surface area and abundant surface active sites. Compared
+long-termstability(200h),farhigherthanthecommercialRuO with Co O electrode, CoS shows more excellent OER and
+2 3 4 2
+electrocatalyst (∼11h). The ultra-high OER electrocatalytic HER electrocatalytic properties. When the current density of
+activity of the NiCothe high entropy alloy framework total water cracking in alkaline solution is 10 mA/cm2, the
+is mainly attributed to the synergistic effect between the battery voltage is 1.67v, and the current of electrode can
+unsaturatedmetalsitesandtheporousultra-thinNiCothehigh be stable for 20h under bending state. The above research
+entropyalloy. shows that the new high energy alloy material provides a new
+Under the appropriate temperature, the high entropy alloy functionalmaterialforthedevelopmentandefficientutilization
+can be directly converted into the new high entropy alloy offuelcells.
+FrontiersinEnergyResearch|www.frontiersin.org 9 June2020|Volume8|Article73
+
+ZhouandHe NewHighEntropyAlloy
+FIGURE8|CrystallinestructureofNiCohighentropyalloyframe.Note:darkgray,C;Lightgray,H;Red,O;Purple,Co;Green,Ni.
+FIGURE9|Schematicdiagramofpreparationofnewhighentropyalloymaterials.
+CONCLUSIONS AND PROSPECT in the field of electrochemical energy storage and conversion
+is an exciting interdisciplinary research field. In this article
+Based on the urgent need for high-performance energy storage it is summarized the application of the new high entropy
+and conversion systems, the development of new electrode alloy material in super capacitors and fuel cells (ORR,
+materials is crucial (Zhou et al., 2018). The new high entropy HER, and OER). As an electrode material, the new high
+alloy material has the characteristics of large surface area, entropy alloy material exhibits high capacitance, excellent rate
+high porosity, adjustable pore size and controllable structure, performance, and good cycle stability. Although the new high
+which advantages can well meet the requirements of high- entropy alloy material has carried out a lot of work in
+performance electrode materials. The successful preparation of energy storage and conversion, it still faces many challenges,
+the new high-performance alloy material and its application suchas:
+FrontiersinEnergyResearch|www.frontiersin.org 10 June2020|Volume8|Article73
+
+ZhouandHe NewHighEntropyAlloy
+(1) Atpresent,thepreparationcostofthenewhighentropyalloy ETHICS STATEMENT
+material is relatively expensive. In practical application, it
+isnecessarytoreducethepreparationcostofthenewhigh The study was approved by Zhejiang Industry Polytechnic
+entropyalloymaterial; College and Zhejiang Runtu CO. LTD. All authors provided
+(2) the precursor types of the new high entropy alloy material writteninformedconsent.
+are few, and the obtained new high entropy alloy material
+is mainly metal oxides, sulfides, carbon materials and their AUTHOR CONTRIBUTIONS
+composites,soitisstillnecessarytodevelopothernewhigh
+entropyalloymaterials; The research studied the synthesis and application of the
+(3) the surface area of electrode material is small, which leads new high energy alloy material in energy conversion and
+to the limited contact area between electrode material storage. HZ studied the electrochemical properties of the new
+andelectrolyte; high entrance alloy material. JH did the experiments, and
+(4) thehighcrystallinityofthenewhighentrancealloymaterial by comparing the new high entrance alloy materials with
+limitsthediffusiondistanceofelectrolyteinthematerial; FeSn 2 , the new high entrance alloy materials have more
+(5) most of the new high entry alloy materials have poor advantages in capacity, electrochemical performance, capacity
+stability in aqueous solution, and there are problems of stability, and magnification during cyclic charging. HZ wrote
+decompositionandframecollapse; themanuscript.
+DATA AVAILABILITY STATEMENT FUNDING
+All datasets generated for this study are included in the Public Technology Research Project of Shaoxing Science and
+article/supplementarymaterial. TechnologyBureau(No.2013B70030).
+REFERENCES
+Xu,Y.Q.,Li,Y.H.,Zhu,Z.W.,andZhang,W.(2018).FormationandProperties
+ofFe25Co25Ni25(P,C,B,Si)25high-entropybulkmetallicglasses.JNon-Crystal
+Chao,Y.,Sheng,J.D.,andChun,F.L.(2016).PorousTiNb24O62microspheresas Solids.487,60–64.doi:10.1016/j.jnoncrysol.2018.02.021
+high-performanceanodematerialsforlithium-ionbatteriesofelectricvehicles. Ye,Y.F.,Liu,X.D.,andWang,S.(2016).Thegeneraleffectofatomicsizemisfit
+Nanoscale8,18792–18799.doi:10.1039/c6nr04992c onglassformationinconventionalandhigh-entropyalloys.Intermetallics78,
+Gao, R. M., Lu, T. H., and Hu, J. (2016). Explicit expression of limit spectral 30–41.doi:10.1016/j.intermet.2016.08.005
+density of gao wei sample covariance matrix. J. Jilin Univ. 54, 499–505. Yi, P. L., Hui, J., and Sheng, G. (2017). A new strategy to design eutectic
+doi:10.13413/j.cnki.jdxblxb.2016.03.17 high-entropy alloys using mixing enthalpy. Intermetallics 91, 124–128.
+Jia, S. C., and Yang, F. P. (2016). Study on fault data location of flexible Ac doi:10.1016/j.intermet.2017.09.001
+transmissioncontroller.Comp.Simul.33,180–183. Yurchenko, N., Stepanov, N. D., and Shaysultanov, D. G. (2016). Effect of
+Liu,J.B.,Chen,C.X.,andXu,Y.Q.(2017).Deformationtwinningbehaviorsof Al content on structure and mechanical properties of the alxcrnbtivzr
+thelowstackingfaultenergyhigh-entropyalloy:anin-situTEMstudy.Script. (X=0; 0.25; 0.5; 1) high-entropy alloys. Mater. Charact. 121, 125–134.
+Mater.137,9–12.doi:10.1016/j.scriptamat.2017.05.001 doi:10.1016/j.matchar.2016.09.039
+Michael,C.G.,Pan,G.,andJeffrey,A.H.(2017).Computationalmodelingof Zhang, L., Zhou, D., and Bang, S. L. (2018a). Anomalous microstructure
+high-entropyalloys:structures,thermodynamicsandelasticity.J.Mater.Res. and excellent mechanical properties of Ni35Al21.67Cr21.67Fe21.67 high-
+32,3627–3641.doi:10.1557/jmr.2017.366 entropy alloy with BCC and B2 structure. Mater. Lett. 216, 252–255.
+Mike, B., Patrick, B., and Ronald, U. (2017). Multinucleated giant cells in the doi:10.1016/j.matlet.2018.01.124
+implantbedofbonesubstitutesareforeignbodygiantcells-newinsightsinto Zhang, W. K., Kong, Q. Y., and Weng, T. C. W. (2018b). Applications of
+thematerial-mediatedhealingprocess.J.Biomed.Mater.Res.A105,1105–1111. femtosecond X-ray techniques in chemistry and energy materials science.
+doi:10.1002/jbm.a.36006 Physics.8:504–514.doi:10.7693/wl20180803
+Rizzardi,Q.,Sparks,G.,andMaaß,R.(2018).Fastslipvelocityinahigh-entropy Zhi, M. L., Fritz, K., and Blazej, G. (2017). Ab initio assisted design of
+alloy.JOM70,1088–1093.doi:10.1007/s11837-018-2856-6 quinary dual-phase high-entropy alloys with transformation-induced
+Sheng, W., Wang, J. Q., and Wang, G., Huo, J., Wang, X., Li, R. W. (2018). plasticity. Acta Mater. 136, 262–270. doi: 10.1016/j.actamat.2017.
+Amorphousmicrowiresofhighentropyalloyswithlargemagnetocaloriceffect. 07.023
+Intermetallics96:79–83.doi:10.1016/j.intermet.2018.02.015 Zhou, R., Liu, Y., Zhou, C. S. (2018). Microstructures and mechanical
+Shi, Q. R., Zhao, X. H., Shan, Z. B., and Shi, Y. W. (2016). FLOCC-ESPRIT propertiesofC-containingfecocrnihigh-entropyalloyfabricatedbyselective
+basedpolarizationarrayparameterestimationmethod.Autom.Instrum.37, laser melting. J. Intermetal. 94, 165–171. doi: 10.1016/j.intermet.2018.
+2076–2083.doi:10.3969/j.issn.0254-3087.2016.09.020 01.002
+Stepanov, N. D., Yurchenko, N. Y., and Panina, E. S. (2017). Precipitation-
+strengthenedrefractoryAl0.5CrNbTi2V0.5highentropyalloy.Mater.Lett.188, ConflictofInterest:JHwasemployedbycompanyZhejiangRuntuCO.LTD.
+162–164.doi:10.1016/j.matlet.2016.11.030
+Su,S.,Li,P.,Yan,Y.T.,Yang,Y.,Zhang,W.B.(2016).Comparisonofcontrol Theremainingauthordeclaresthattheresearchwasconductedintheabsenceof
+strategiesinabattery/supercapacitorhybridenergystoragesystem.Chin.J. anycommercialorfinancialrelationshipsthatcouldbeconstruedasapotential
+PowerSources40,585–587. conflictofinterest
+WangY.B.,Yang,H.X.,Geng,L.,Guo,Y.K.(2016).Researchonthesurface
+quality stability of ultra thin germanium polished wafers. J. Chin. Acad. Copyright©2020ZhouandHe.Thisisanopen-accessarticledistributedunderthe
+Electron.Inform.Technol.11,527–531.doi:10.1016/j.tsf.2017.07.001 termsoftheCreativeCommonsAttributionLicense(CCBY).Theuse,distribution
+Wu, W., Xie, S. J., Zhang, Z., Chen, W. M., and Pei, X. H. (2016). orreproductioninotherforumsispermitted,providedtheoriginalauthor(s)and
+Control strategy analysis and design of supercapacitor energy storage thecopyrightowner(s)arecreditedandthattheoriginalpublicationinthisjournal
+system based on combined two-way Dc-Dc converter. J. Power Supply is cited, in accordance with accepted academic practice. No use, distribution or
+14,83–101. reproductionispermittedwhichdoesnotcomplywiththeseterms.
+FrontiersinEnergyResearch|www.frontiersin.org 11 June2020|Volume8|Article73
+

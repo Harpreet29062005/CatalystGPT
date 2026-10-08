@@ -1,0 +1,441 @@
+Chemical
+Science
+EDGE ARTICLE
+Designing the framework structure of noble-metal
+based nanoalloy catalysts driving redox
+Citethis:Chem.Sci.,2024,15,12550
+†
+electrocatalysis
+Allpublicationchargesforthisarticle
+havebeenpaidforbytheRoyalSociety
+ofChemistry Guanzhen Chen ‡a Jie Zhang‡a Wen Chen‡a Ruihu Lu‡b Chao Ma,c
+Ziyun Wang *b and Yunhu Han *a
+Noblemetal-basednanoalloys(NAs)withdifferententropieshavegreatpotentialinthefieldofenergyand
+catalysis. However, it is still very difficult for the reported synthesis strategies to achieve the universal
+synthesis of small-sized alloys with controllable morphology. Here we develop a general synthesis
+strategy that combined cation exchange and spatial confinement (CESC). We used this method to
+constructalibrarywith21NAshavinglowtohighentropies.Importantly,wealsodemonstratethatthe
+method can controllably achieve framing of almost all the NAs obtained, which can be realized by
+adjusting the amount of non-precious metals, despite the differences in the number of elements.
+Moreover, the CESC method showed outstanding ability to suppress the sintering of NAs and regulate
+the particle size of NAs. In the NA library, the framed PtCu/HCN as a redox electrocatalyst shows
+superiorproperties.Forthemethanoloxidationreaction(MOR),thespecificandmassactivities(7.02mA
+cm−2 and 2.81 A mg −1) of PtCu/HCN show 28.1- and 13.4-fold enhancement compared to those of
+Pt
+commercial Pt/C, and the peak current density is only attenuated by 5% after 50k seconds of
+Received14thMay2024
+chronoamperometry.Forthehydrogenevolutionreaction(HER),itcanoperateatultralowoverpotential
+Accepted18thJune2024
+(23.5 mV and 10 mA cm−2) for 150 h, far exceeding most of the reported catalysts. Moreover, the
+DOI:10.1039/d4sc03142c catalyst is capable of long-term hydrogen evolution at ultra-low overpotentials. Our work offers
+rsc.li/chemical-science opportunitiesforsynthesizingframedsuperfinenoblemetal-basedNAswithdifferententropies.
+1 Introduction 1.5R and it consists of at least ve elements.11,12 NAs with
+different entropies usually exhibit signicantly different phys-
+Nanoalloys (NAs) with different entropies are widely used in ical, chemical, and mechanical properties, and the synthesis
+catalysis,electronics,energystorageandconversionduetotheir
+methodsofthesealloysarealsosignicantlydifferent.Itiswell
+tunable adsorption energy, atomic efficiency and local knownthatthealloyingmiscibilityprocessproceedsalongwith
+environment.1–10Whenseveralmetalsarerandomlydissolvedin a limited number of similar compositions and is seriously
+an equal atomic ratio, the congurational entropy of the alloy affected by differences in, for example, atomic radius and
+system reaches the maximum value. The alloy systems are electronegativity,13,14 leading to difficulties in the general
+classiedbasedonthecongurationalentropy:ifthecongu- fabrication ofNAs withdifferent entropies. In addition, much
+rationalentropyislessthan1R,itisalow-entropyalloy(LEA),
+efforthasbeendevotedtothedesignandconstructionofnoble
+consistingofoneortwoelements.Thecongurationalentropy metal-based NAs with open-framework structures, such as
+ofamedium-entropyalloy(MEA)isbetween1Rand1.5R,and nano-cagesandnano-frameworks,whichfacilitatetheexposure
+the alloy is composed of three or four elements. For a high- of noble metal sites inside the alloys, thus improving the
+entropyalloy(HEA),thecongurationalentropyisgreaterthan intrinsicactivityofthecatalystsandenhancingthenoblemetal
+atom utilization.15–18 However, the controlled and general
+preparationoftheabove-mentionedNAswithopen-framework
+structures is complicated and difficult, even less so for multi-
+aInstitute of Flexible Electronics (IFE) and Frontiers Science Center for Flexible
+Electronics, Northwestern Polytechnical University, Xi'an 710072, China. E-mail: elementalloys.
+iamyhhan@nwpu.edu.cn Althoughalotofefforthasbeendevotedtothedevelopment
+bSchool of Chemical Sciences, The University of Auckland, Auckland 1010, New of synthesis methods for NAs, the reported approaches still
+Zealand.E-mail:ziyun.wang@auckland.ac.nz suffer from insurmountable drawbacks. The wet-chemical
+cDepartmentofChemistry,TsinghuaUniversity,Beijing100084,China methodsinevitablyusealotofdifficult-to-removesurfactantsin
+†Electronic supplementary information (ESI) available. See DOI:
+theNAsynthesis.19–22Furthermore,thegeneralsynthesisofNAs
+https://doi.org/10.1039/d4sc03142c
+‡G.C.,J.Z.,W.C.,andR.L.contributedequallytothiswork. with different entropies is difficult. The just-reported sulfur-
+12550 | Chem.Sci.,2024,15,12550–12558 ©2024TheAuthor(s).PublishedbytheRoyalSocietyofChemistry
+
+EdgeArticle ChemicalScience
+anchoringmethodrealizesthepreparationofbinarytosenary Cu2+, Co2+, Ni2+ or Fe3+ was introduced separately into fresh
+Pt-based NAs through multiple calcinations.23 Recently, the SiO via an ion-exchange process with NH + (ESI Fig. S2†).
+2 4
+carbothermalshocktechniquehasachievedthecreationofNAs Subsequently,SiO spherescontainingCu2+,Co2+,Ni2+orFe3+
+2
+containing multiple metal components at a very high temper- (ESIFig.S3†)werecalcinedinairtotransformtheseionsinto
+ature and extremely fast ramping/cooling rate.24 The laser the corresponding metal oxide (MO /SiO ; ESI Fig. S4†) Then,
+x 2
+scanningablationmethodcanbeusedtoobtainvariousHEAs polydopamine was coated onto MO /SiO to form an elastic
+x 2
+withasizeoftensofnanometersondifferentsubstrates.25Both space. Meanwhile, Pt ions were brought into the elastic space
+the methods require rigorous conditions and special equip- (ESI Fig. S5 and S6†). Finally, PtM/HCN were obtained aer
+ment. Therefore, the development of a simple general tech- pyrolyzing and removing SiO . The as-fabricated 21 NAs/HCN
+2
+nique to fabricate small-sized NAs with different entropies, nanoalloy materials ranging from LEAs to HEAs produced by
+while being able to construct noble metal-based NAs with the CESC strategy were used to form a nanoalloy library (ESI
+desirable structures such as nanocages or nano-framework Fig.S7†)
+structures,iscrucialandattractiveforthebroadapplicationsof Scanningelectronmicroscopy(SEM),transmissionelectron
+theNAmaterials. microscopy(TEM)andaberration-correctedhigh-angleannular
+Herein, we introduce a robust and universal strategy dark-eld scanning transmission electron microscopy (AC
+combiningcationexchangeandspatialconnement(CESC)for HAADF-STEM)withenergy-dispersiveX-rayspectroscopy(EDX)
+synthesizingnanoalloysrangingfromLEAstoHEAs.Thenovelty were carried out to investigate the morphologies and micro-
+ofthisstrategyisintroducingacationexchangeprocesstoach- structuresofPtM/HCN(Fig.1).SEMandTEMimagesrevealed
+ieve the universal preparation of nanoalloys with different theuniformdistributionofPtCunanoparticlesonHCN(Fig.1a
+entropies. Moreover, we use a spatial connement method to and ESI S8†). Interestingly, these PtCu nanoparticles possess
+control the size of nanoalloys and drive the alloying metal many crystal plane dislocations and body defects and form
+combinations. Specically, the exchange of NH +-rich SiO nano-frame structures (Fig. 1b, c and ESI S9†). As shown in
+4 2
+spheres with various metal ions is the key to ensuring the Fig.1b,thelatticeisassignedtothePtCu(111)diffractionpeak
+universalityofthestrategy,andtheelasticspacecreatedbythe observedinthepowderX-raydiffraction(PXRD)result(Fig.1d),
+coatingpolymertodrivetheuniformalloyingofeachmetalionis revealingthePtCualloyedcomposition.26EDXmappingresults
+a necessary supplement for the smoothimplementation of the further demonstrate the formation of the framed PtCu nano-
+strategy.Alibrarycontaining21nanoalloysrangingfromLEAsto alloy (Fig. 1d and ESI S10†). The morphologies and micro-
+HEAs has been constructed successfully by the CESC strategy, structures of PtNi/HCN, PtFe/HCN and PtCo/HCN were
+including 9 LEAs, 4 medium-entropy nanoalloys (MEAs) and 8 characterized by similar methods. From Fig. 1e–p, the framed
+HEAs.Impressively,nanoalloyswithnano-framestructurescan PtNi,PtFeandPtConanoparticleswerewelldistributedonHCN
+alsobefabricatedbytheCESCstrategy.Mostofthesynthesized (ESI Fig. S11–S16†). Furthermore, PtCu/HCN has a higher
+nanoalloysinourlibraryshowgreatpotential:Forexample,we degreeofgraphitizationthanothersbasedonalowerI /I value
+D G
+observedsuperiorelectrocatalyticperformancesfortheMORand (ESIFig.S17†)
+HER of the LEA PtM/HCN (M = Cu, Co, Ni and Fe), especially The X-ray absorption ne structure (XAFS) measurements
+PtCu/HCN. For the MOR, the specic and mass activities (7.02 wereperformedtofurtherexplorethechemicalenvironmentof
+mAcm
+−2and2.81Amg −1)ofPtCu/HCNare28.1-and13.4-fold
+Pt and Cu sites. The Cu K-edge X-ray absorption near-edge
+Pt
+enhancementscomparedtothose ofcommercial Pt/C, and the structure(XANES)spectraofPtCu/HCNandthereferencesare
+peakcurrentdensityisonlyattenuatedby5%aer50kseconds showninFig.2aPtCu/HCNhasamedianE attheCuK-edge
+0
+of chronoamperometry (an order of magnitude enhancement between those of Cu foil and Cu O, suggesting the electron
+2
+comparedtothecatalystsreported;CA).Itcanoperateatultralow deciency for Cu atoms. This result is consistent with the
+overpotential(23.5mVand10mAcm
+−2)for150hfortheHER,
+integrated conclusions of X-ray photoelectron spectroscopy
+far beyond commercial Pt/C. Density functional theory (DFT) (XPS) and Auger electron spectroscopy (AES; ESI Fig. S18†).
+calculationsrevealthatCuatomslowerthed-bandcenterofPt From ESI S18a†, we can observe the existence of Cu(I).27,28
+sites and thus reduce carbonaceous and H adsorption, AccordingtothePtL -edgeXANESspectraofPtCu/HCNandthe
+3
+enhancingtheactivityoftheMORandHER.ThisCESCstrategy references,thevalenceofPtatomsissituatedbetween0and+4
+providesapromisingmethodfornoblemetal-basednanoalloys (Fig.2b).ThisresultisalsoinagreementwiththeXPSspectra.
+withdifferententropies. FromXPSresults(ESIFig.S19†)thePt4fspectraofPtCu/HCN
+canbecurve-ttedintotwopairsofpeaks,whichareassignedto
+2 Results and discussion Pt(0)and Pt(II).29Moreover,the oxidationstateofPtiscalcu-
+latedtobe+0.99fromtheintegratedareaunderthewhite-line
+2.1 Materialsynthesisandcharacterization curve of the Pt L -edge (Fig. 2c), suggesting a strong metal–
+3
+Forthefabricationofnanoalloys,wedevelopedarobustCESC supportinteraction.30,31ThequantitativeresultindicatesthatPt
+strategythatintroducescationexchangetorealizethegenerality atoms possess unoccupied 5d-electron states, which are bene-
+ofnanoalloysrangingfromLEAstoHEAs,andcreateanelastic cialtoenhanceHERactivity.32
+conned space for forcing nanoalloy formation (ESI Fig. S1†). For the Fourier transformed (FT) k3-weighted EXAFS spec-
+Taking PtM/HCN (M = Cu, Co, Ni and Fe) as examples, the trumofPtCu/HCNattheCuK-edge(Fig.2d),thepeakof1.50Å
+synthesis process of NAs/HCN was briey introduced. First, isassignedtotheCu–Obond.Thepeakof2.24Åshowsaslight
+©2024TheAuthor(s).PublishedbytheRoyalSocietyofChemistry Chem.Sci.,2024,15,12550–12558 | 12551
+
+ChemicalScience EdgeArticle
+Fig.1 Characterizationofthemorphologyandcomposition.TEMimagesandHRTEMimagesofPtCu/HCNaswellasACHAADF-STEMimages
+andelementalmappingsofframedPtMnanoparticlesfor(a–d)Cu,(e–h)Ni,(i–l)Fe,and(m–p)Co,respectively.Scalebars,100nm(a,e,landm),
+2nm(b,f,jandn),and5nm(c,d,g,h,k,l,oandp).
+positive shi at the Cu K-edge compared to that of Cu foil, results further demonstrate the formation of the PtCu
+which belongs to the Pt–Cu bond. The FT-EXAFS spectrum of nanoalloy.
+PtCu/HCNatthePtL -edgeinFig.2fexhibitstwomainpeaksat
+3
+1.56 Å and 2.24 Å, assigned to Pt–O and Pt–Cu bonds. On
+2.2 ElectrocatalyticperformancesfortheMOR
+comparing the peak position of the Pt–Cu bond in PtCu/HCN
+withthatofthePt–PtbondinPtfoil,aslightlynegativeshiinR The MOR performances of the samples were investigated
+space demonstrates the subtle change in atomic distance. throughathree-electrodesystem(Fig.3).CVswereobtainedin
+EXAFS tting was performed to extract the structural parame- N 2 -saturated0.1MHClO 4 solutiontoevaluateelectrochemically
+ters and obtain the quantitative chemical conguration of Pt activesurfaceareas(ECSAs;Fig.3b).AccordingtoECSAresults
+andCuatoms(ESIFig.S20,21andTableS1†).Thecoordination (ESITableS2†),PtCu/HCNshowsthehighestECSAcomparedto
+numberofPt–Cu isapproximately 8.97,and theaverage bond the others, implying the exposure of more active sites. The
+length of Pt–Cu is 2.24 Å. Wavelet transforms (WTs) were polarizationcurvesandCVsofPtM/HCNandcommercialPt/C
+adopted to investigate Pt L 3 -edge and Cu K-edge EXAFS oscil- were obtained in N 2 -saturated 0.1 M HClO 4 + 1 M methanol
+lations. The WT maximum at 13 Å
+−1
+could be ascribed to the
+solution(Fig.3candESIS22†).Thespecicandmassactivities
+Cu–PtbondandtheWTmaximumat9Å −1correspondstothe werecalculatedbynormalizingthecurrentswithECSAsandPt
+Pt–Cu bond (Fig. 2e and g). Therefore, the FT-EXAFS and WT massfrominductivelycoupledplasmamassspectrometry(ICP-
+MS;ESITableS3†).AsshowninFig.3cande,PtCu/HCNshows
+thehighestspecicandmassactivities(7.02mAcm −2and2.81
+12552 | Chem.Sci.,2024,15,12550–12558 ©2024TheAuthor(s).PublishedbytheRoyalSocietyofChemistry
+
+EdgeArticle ChemicalScience
+Fig.2 StructuralcharacterizationbyXAFSspectroscopy.(a)CuK-edgeXANESspectraofPtCu/HCNandthereferences,(b)PtL -edgeXANES
+3
+curvesofPtfoil,PtO andPtCu/HCN.(c)FittedcurvescorrelatingtheaverageoxidationstateofPtforPtCu/HCN,PtfoilandPtO atthePtL -
+2 2 3
+edge. Fourier transforms of EXAFS spectra for the (d and e) Cu K-edge of PtCu/HCN and the references, and the corresponding wavelet
+transformforthek3-weightedEXAFSsignals.(fandg)PtL -edgeofPtCu/HCNandthereferences,andthecorrespondingwavelettransformfor
+3
+thek3-weightedEXAFSsignals.
+Amg
+−1),28.1and13.4timeshigherthanthoseofcommercial
+compositionofPtCu/HCNexhibitlittlechange,andeachelement
+pt
+Pt/C (0.25 mA cm −2 and 0.21 A mg −1). And PtCu/HCN stilldispersesuniformly(ESIFig.S26–S28†),whichdemonstrates
+pt
+possesses the lowest Tafel slope compared to those of PtNi/ thepotentialofPtCu/HCNfortheMOR.
+HCN,PtFe/HCN,PtCo/HCNandcommercialPt/C,implyingthe
+fastest MORkinetics(Fig.3f). TheMORperformanceofPtCu/
+2.3 ElectrocatalyticperformancesfortheHER
+CNhasexceededthatofmostofthereportedPt-basedcatalysts
+(Fig.3gandESITableS4†).Furthermore,thespecicandmass TofurtherexploretheperformancesofPtM/HCNinareduction
+activities of PtNi/HCN, PtFe/HCN and PtCo/HCN are 5.24 mA reaction, the corresponding HER activity and stability were
+cm
+−2and2.06Amg −1,4.33mAcm −2and1.15Amg −1,and
+testedin0.5MH SO solution(Fig.4).Fig.4aandbshowthat
+pt pt 2 4
+3.76 mA cm −2 and 1.34 A mg −1, respectively, which are also PtCu/HCN has an ultralow overpotential (h , h and h =
+pt 10 50 200
+superiortothoseofcommercialPt/C. 23.5, 26.3 and 37.3 mV) compared with commercial Pt/C (h ,
+10
+Theanti-poisoningabilityandstabilityarealsokeyparameters h andh =36.7,66and182mV),indicatingasuperiorHER
+50 200
+for examining the electrocatalytic performances. The anti- activity.Moreover,anultrasmallTafelslope(10mVdec −1)also
+poisoningabilitycouldbeevaluatedbyusingtheJ/J ratioofthe demonstrates the fastest HER kinetics of PtCu/HCN (Fig. 4c),
+f b
+forwardscantothebackwardscan.TheratioofJ/J forPtCu/HCN which agrees with the results of electrochemical impedance
+f b
+(2.53)isthehighestcomparedtothoseofPtNi/HCN(1.47),PtFe/ spectra(EIS;ESIFig.S29†).Togainanin-depthunderstanding
+HCN (1.80), PtCo/HCN (1.34) and commercial Pt/C (0.98), of HER activity, turnover frequencies (TOFs) were calculated
+implyinganexcellentpoisoningtoleration.33–35Thisresultmaybe and are plotted in Fig. S30a.† PtCu/HCN displays the highest
+attributed to the fast oxidation conversion of CO intermediates TOFvaluescomparedtothoseoftheothersandcommercialPt/
+checkedbyinsituattenuatedtotal-reectionsurface-enhancedIR C. Particularly, TOFs of11.27 and 20.00 s −1 forPtCu/HCN ob-
+reection absorption spectroscopy (ATR-SEIRAS; ESI Fig. S23†). tainedat−0.05and−0.10Vvs.RHEare12.5and5.9-foldhigher
+Moreover,thelong-termstabilitytests(LSTs)wereconductedby thanthatofcommercialPt/C(Fig.4d).Inaddition,massactivity
+keeping the potential at 0.7 V vs. Ag/AgCl (Fig. 3d). Apparently, isalsoanimportantfactorforevaluatingHERactivity.TheLSV
+aer 50k seconds, PtCu/HCN still retains the largest current curvesofPtM/HCNand commercial Pt/Cnormalized by using
+density and exhibits a loss of merely 5% of the peak current thePtmassareshowninESIFig.S30b†.AsshowninFig.4e,the
+density(Fig.3d,ESIS24andS25†).Meanwhile,thestructureand massactivityof10.55Amg −1forPtCu/HCNobservedat−0.05
+Pt
+©2024TheAuthor(s).PublishedbytheRoyalSocietyofChemistry Chem.Sci.,2024,15,12550–12558 | 12553
+
+ChemicalScience EdgeArticle
+Fig.3 Electrooxidationofmethanolperformances.(a)SchematicillustrationoftheelectrochemicaltestsofPtM/HCN.CVcurvesofPtM/HCN
+andcommercialPt/Cin(b)0.1MHClO solutionand(c)0.1MHClO +1Mmethanolsolutionatasweeprateof50mVs−1(d)CAcurvesofPtM/
+4 4
+HCNandcommercialPt/Cat0.7Vvs.E .(e)SpecificactivityandmassactivitiesofPtM/HCNandcommercialPt/Catpeaks.(f)Tafelplotsof
+Ag/AgCl
+PtM/HCNandcommercialPt/Cand(g)massactivityandstabilitycomparisonofPtCu/HCNwithotherreportedadvancedPt-basedcatalystsin
+0.1MHClO +1Mmethanolsolution.
+4
+V vs. RHE is 24.5 times higher than that of commercial Pt/C demonstratingexcellentcyclingstability(ESIFig.S34†).Tosum
+(0.43 A mg
+−1).
+Importantly, PtCu/HCN shows a better HER up, PtCu/HCN possesses great potential for electrolytic water
+Pt
+activityaerthe10000thCVcycle(ESIFig.S31†),andoperates splittinginanacidicmedium.
+stablyatacurrentdensityof10mAcm
+−2foratleast150hours
+(Fig. 4f) without obvious structure changes (ESI Fig. S32†),
+2.4 DFTcalculations
+surpassingpreviouslyreportedacidicHERcatalysts(ESITable
+S5†).Toinvestigatetheoperationpotential,ahomemadeelec- To further elucidate the enhanced activity of PtCu/HCN, we
+trolyzer using PtCu/HCN as the cathode electrode and appliedDFTcalculationstounderstandthehighlycatalyticsites
+commercialRuO astheanodeelectrode(PtCu/HCN‖RuO )was andthecatalyticmechanism.Werstconstructedthreecatalyst
+2 2
+assembled. As shown in Fig. S33,† the assembled PtCu/ models, Pt (111), CuPt, and Cu O/Pt, shown in the inset of
+2
+HCN‖RuO electrolyzer realized a current density of 10 mA Fig.5a. From theBader charge calculations, wefound thatan
+2
+cm −2 at 1.49 V vs. RHE for 72 h with ignorable degradation, electron transfer of 0.26 e − occurred via the Pt–O bond (ESI
+betterthanthatofPt/C‖RuO (1.75Vvs.RHE).Meanwhile,the Fig. S35†), resulting in the increased Pt oxide state and
+2
+assembled electrocatalytic system of a methanol–water elec- decreasedCuoxidestatecomparedtothoseofCu O(ESITable
+2
+trolyzer using our PtCu/HCN as anode and cathode catalysts S6†).Theaveraged-bandcenter3 ofPtatoms(−1.79eV)in
+d(ava)
+showsenhancedperformance.Thecellvoltagewasonly1.47V Cu O/Pt is lower than that in Pt (111) (−0.90 eV) and CuPt
+2
+vs. RHE at a driving current density of 10 mA cm −2, (−1.04eV),whichleadstotheattenuationoftheadsorptionon
+12554 | Chem.Sci.,2024,15,12550–12558 ©2024TheAuthor(s).PublishedbytheRoyalSocietyofChemistry
+
+EdgeArticle ChemicalScience
+Fig.4 ElectrocatalyticHERperformances.(a)HERpolarizationcurves,(b)thecorrespondingoverpotentialatdifferentcurrentdensities,(c)Tafel
+plots,(d)abargraphofcomparativeTOFvaluesattwodifferentoverpotentials,and(e)abargraphofmassactivitybyusingnormalizedPt
+loadingsatapotentialof−0.05V(RHE)ofPtM/HCNandcommercialPt/Cobtainedin0.5MH SO .(f)Chronopotentiometrycurvesrecordedat
+2 4
+10mAcm−2ofPtCu/HCNandcommercialPt/Cina0.5MH SO solution;therangeof0–8hwasenlargedintheinsetgraph.
+2 4
+Fig.5 DFTcalculations.(a)Theaveraged-bandcenter,3 ,ofPtatomsinPt(111),CuPt,andCu O/Pt.TheinsetsshowthePt(111),CuPt,and
+d(ava) 2
+Cu O/Ptmodels.Thered,gold,andindigoballsdenoteO,Cu,andPtatoms,respectively.(b)ThefreeenergyprofilesofmethanoloxidationonPt
+2
+(111),Cu/Pt,andCu O/Ptat0and0.9Vvs.RHE.Thefreeenergychangesoftherate-determiningstepsarelistedforthethreedifferentsurfaces.
+2
+(c)ThepossibleMORpathwaysonPt(111),CuPt,andCu O/Pt.(d)Avolcanoplotofexperimentallymeasuredexchangecurrentdensityas
+2
+afunctionoftheDFT-calculatedGibbsfreeenergyofadsorbedatomichydrogen.ThesimplekineticmodelproposedbyNørskovandco-
+workerstoexplaintheoriginofthevolcanoplotisshownassolidlines.
+©2024TheAuthor(s).PublishedbytheRoyalSocietyofChemistry Chem.Sci.,2024,15,12550–12558 | 12555
+
+ChemicalScience EdgeArticle
+Fig.6 ThegeneralityoftheCESCstrategy.TEMimagesandHRTEMimagesofnanoalloysandACHAADF-STEMimagesandcorresponding
+elementalmapsofothersupportedalloys:(aandb)binaryPdCdandAuNi.Scalebar,5nm.(candd)TernaryPtNiCoandPtNiFe.Scalebar,5nm.
+(e)QuaternaryPtRuNiFe,(f)quinaryPtRuNiFeCo,(g)senaryPtRuNiFeCoCd,and(h)septenaryPtRuNiFeCoCdMn.Scalebar,2nm.(i)Octonary
+PtRuNiFeCoCdCuCe,(j)novenaryPtRuNiFeCoCdMnAlCu,(k)denaryIrAuNiFeCoCdMnCrCuZn,(l)11-elementPtRuNiFeCoCdMnCrAlCuZnand
+(m)12-elementPtRuNiFeCoCdMnCrAlCuZnCenanoalloys.Scalebar,5nm.
+PtCu/HCN (Fig. 5a). Considering two possible MOR pathways Cu O/Pt sites are the catalytic sites for the MOR with high
+2
+shown in Fig. 5b, we investigated all elementary steps on Pt activity.AsshowninFig.5d,theHERvolcanoplotshowsthat
+(111), CuPt, and Cu O/Pt (ESI Fig. S36–S38†) and the corre- the catalysts lying at the le slope bind H atoms too strongly
+2
+sponding free energy changes along the reaction coordinate while ones lying at the right slope adsorb H weakly. Superior
+(Fig. 5c and ESI Fig. S39†). At U = 0 vs. RHE, the total MOR HERcatalystsexhibitahigherexchangecurrentdensitywith*H
+processisuphillonPt(111),CuPt,andCu O/Pt,indicatingthat adsorptionenergies(DG* )closeto0eV.ComparedtoPt(111),
+2 H
+the MOR process cannot proceed spontaneously. The MOR PtCu/HCN possesses an enhanced HER exchange current
+process prefers pathway 1 on CuPt and pathway 2 on Cu O/Pt densitybecauseofarelativelylowDG* ofPtCu/HCN.Besides,
+2 H
+because of the prohibitively energetic change of generating owntobothexcellentMORandHOR,Cu O/PtexceedsPtcluster
+2
+*CH OonCuPtandconverting*COHto*COonCu O/Pt.When loadedonotheroxides,includingFe O /Pt,CoO/Pt,andNiO/Pt
+2 2 2 3
+the applied potential increases to 0.9 V vs. RHE, all electron (ESIFig.S40andS41†).Insum,thetheoreticalresultsshowthat
+transferstepsonPt(111)andCuPtareendergonicexceptforthe Cu O/Ptwithalowd-bandcenterandadsorptionabilityhasthe
+2
+*CO oxidation step. Meanwhile, the CO generation step on highestelectrocatalyticactivitiesforboththeMORandHER.
+2
+Cu O/Pthasthelowestfreeenergychange.Theseresultsindi-
+2
+catethat*COOHgenerationistherate-determiningstep(RDS)
+2.5 ThegeneralityandmeritsoftheCESCstrategy
+forPt(111)andCuPt,whiletheCO releasestepistheRDSfor
+2
+Cu O/Pt.TheDG onPt(111),CuPt,andCu O/Ptis0.29,0.18 Fig.6andESIS42–S58†demonstratetheutilityandadvantages
+2 RDS 2
+and 0.02 eV, respectively, suggesting that Cu O/Pt has the of our CESC strategy for the synthesis of nanoalloys ranging
+2
+highest MOR activity at 0.9 V vs. RHE. This veries that the from LEAs to HEAs. Compared with traditional synthetic
+methodsandnewpreparationtechniques,22,36theCESCstrategy
+12556 | Chem.Sci.,2024,15,12550–12558 ©2024TheAuthor(s).PublishedbytheRoyalSocietyofChemistry
+
+EdgeArticle ChemicalScience
+iseasiertogeneralizeandpopularizeduetotheintroductionof Author contributions
+the cation-exchange process, which had been certied to
+successfullyconstructalibrarycontainingatleast21nanoalloys Y. H. conceived the project. G. C., J. Z. and W. C. carried out
+with different entropies. Specically, the library consists of 9 mostoftheexperimentsandco-wrotethemanuscript.Z.W.and
+LEAs (e.g., RuSn, PdNi, PdCd, AuNi, IrCo, etc.; ESI Fig. S42– R. L. performed the theoretical calculations. C. M. performed
+S46†), 4 MEAs (e.g., PtFeCu, PtRuNiFe, etc.; ESI Fig. S47–S50†) partialcharacterizationofthematerials.G.C.,W.C.andR.L.
+and 8 HEAs (e.g., PtRuNiCoFeCdMnCrAlCuZnCe, etc.; ESI participatedin dataanalysis. All authors discussed the results
+Fig. S51–S58†). From Fig. 6, the as-prepared representative andcommentedonthemanuscript.
+nanoalloys show a superne size and uniform element distri-
+bution.Withtheincreaseinmetalelementspecies,wecannd
+Conflicts of interest
+iteasiertoformmulti-elementHEAs(Fig.6).Regardlessofthe
+LEAsorHEAs,thedistributionofeachmetalisuniformwithout
+Theauthorsdeclarenoconictofinterest.
+segregation,matchingtheXRDresults.Moreover,theframing
+of nanoalloys can be adjusted by controlling the feeding
+dosages of earth-abundant metals (ESI Fig. S59†). The corre-
+Acknowledgements
+sponding characterization studies are shown in ESI Fig. S40–
+S56† and indicated the smooth formation of nanoalloys with
+This work was supported by the National Natural Science
+differententropies.Andotherelectrocatalyticapplications,like
+FoundationofChina(22102132),theFundsforBasicScientic
+the ORR, can also be realized (ESI Fig. S60†). In addition, the
+Research in Central Universities, sponsored by the Innovation
+activity and stability of the prepared high-entropy alloys are
+Foundation for Doctor Dissertation of Northwestern Poly-
+summarized in ESI Fig. S61†, and the corresponding high-
+technical University (CX2024101), and the Marsden Fund
+temperature resistance to sintering is also demonstrated (ESI
+Council from Government funding, managed by Royal Society
+Fig.S62–S69†).Theaboveresultsdemonstratethatthemeritsof
+TeAp¯arangi.Z.W.andR.L.wishtoacknowledgetheuseofNew
+the CESC strategy we developed are not only conducive to
+Zealand eScience Infrastructure (NeSI) high performance
+synthesizingnanoalloysgenerallyfromLEAstoHEAs,butalso
+computing facilities, consulting support and/or training
+applicable to the preparation of nanoalloys with nano-frames
+servicesaspartofthisresearch.NewZealand'snationalfacili-
+structures.Despitethedifferencesinthenumberofelements,
+tiesareprovidedbyNeSIandfundedjointlybyNeSI'scollabo-
+the construction of the framework structure of NAs can be
+rator institutions and through the Ministry of Business,
+achieved by adjusting the amounts of non-precious metals,
+Innovation & Employment's Research Infrastructure Program.
+whichis beyond the capability ofconventionalsynthetic strat-
+URLhttps://www.nesi.org.nz.WethanktheBL14W1stationin
+egies(ESITableS2†).Inbrief,ourCESCapproachiselemental
+theShanghaiSynchrotronRadiationFacility(SSRF)and1W1B
+customizable and has great generality, providing an opportu-
+station for XAFS measurement in the Beijing Synchrotron
+nitytomergedozen-elementmetalintonanoalloys.
+RadiationFacility(BSRF).
+Notes and references
+3 Conclusions
+1 B.Pang,X.Liu,T.Liu,T.Chen,X.Shen,W.Zhang,S.Wang,
+In summary, we have developed a simple and general CESC T. Liu, D. Liu, T. Ding, Z. Liao, Y. Li, C. Liang and T. Yao,
+strategy and successfully prepared at least 21 noble-based EnergyEnviron.Sci.,2022,15,102–108.
+nanoalloymaterialsrangingfromLEAstoHEAs.Amazingly,the 2 K. Jiao, J. Xuan, Q. Du, Z. Bao, B. Xie, B. Wang, Y. Zhao,
+CESC strategy works well for nanoalloys with nano-frame L. Fan, H. Wang, Z. Hou, S. Huo, N. P. Brandon, Y. Yin
+structures. In our library, LEA PtCu/HCN exhibits excellent andM.D.Guiver,Nature,2021,595,361–369.
+activity and stability for the MOR and HER. The outstanding 3 S.Gao,S.Hao,Z.Huang,Y.Yuan,S.Han,L.Lei,X.Zhang,
+electrocatalyticperformancesofPtCu/HCNhavebeenexplained R. Shahbazian-Yassar and J. Lu, Nat. Commun., 2020, 11,
+by DFT calculations. Our work provides an opportunity to 2016.
+synthesizenoble-basednanoalloysrangingfromLEAstoHEAs, 4 Y.Yao,S.Hu,W.Chen,Z.Q.Huang,W.Wei,T.Yao,R.Liu,
+and even nanoalloys with nano-frame structures, suggesting K.Zang,X.Wang,G.Wu,W.Yuan,T.Yuan,B.Zhu,W.Liu,
+possibilities to explore the extraordinary electrocatalytic Z.Li,D.He,Z.Xue,Y.Wang,X.Zheng,J.Dong,C.R.Chang,
+performances of these nanoalloy materials and their other Y.Chen,X.Hong,J.Luo,S.Wei,W.X.Li,P.Strasser,Y.Wu
+applications. andY.Li,Nat.Catal.,2019,2,304–313.
+5 N. Chen, S. Y. Paek, J. Y. Lee, J. H. Park, S. Y. Lee and
+Y.M.Lee,EnergyEnviron.Sci.,2021,14,6338–6348.
+6 D.Jiang,Y.Yao,T.Li,G.Wan,X.I.Pereira-Hern´andez,Y.Lu,
+Date availability J.Tian,K.Khivantsev,M.H.Engelhard,C.Sun,C.E.Garc´ıa-
+Vargas, A. S. Hoffman, S. R. Bare, A. K. Datye, L. Hu and
+Alldataareavailablefromtheauthorsuponreasonablerequest. Y.Wang,Angew.Chem.,Int.Ed.,2021,60,2–11.
+©2024TheAuthor(s).PublishedbytheRoyalSocietyofChemistry Chem.Sci.,2024,15,12550–12558 | 12557
+
+ChemicalScience EdgeArticle
+7 W.Zhang,Y.Yang,B.Huang,F.Lv,K.Wang,N.Li,M.Luo, 23 C.Yang,L.Wang,P.Yin,J.Liu,M.Chen,Q.Yan,Z.Wang,
+Y.Chao,Y.Li,Y.Sun,Z.Xu,Y.Qin,W.Yang,J.Zhou,Y.Du, S. Xu, S. Chu, C. Cui, H. Ju, J. Zhu, Y. Lin, J. Shui and
+D.SuandS.Guo,Adv.Mater.,2019,31,1805833. H.Liang,Science,2021,464,459–464.
+8 H.H.Li,Q.Q.Fu,L.Xu,S.Y.Ma,Y.R.Zheng,X.J.Liuand 24 Y. Yao, Z. Huang, P. Xie, S. D. Lacey, R. J. Jacob, H. Xie,
+S.H.Yu,EnergyEnviron.Sci.,2017,10,1751–1756. F. Chen, A. Nie, T. Pu, M. Rehwoldt, D. Yu,
+9 M. D. Marcinkowski, M. T. Darby, J. Liu, J. M. Wimble, M. R. Zachariah, C. Wang, R. Shahbazian-Yassar, J. Li and
+F. R. Lucci, S. Lee, A. Michaelides, M. Flytzani- L.Hu,Science,2018,359,1489–1494.
+Stephanopoulos, M. Stamatakis and E. C. H. Sykes, Nat. 25 B.Wang,C.Wang,X.Yu,Y.Cao,L.Gao,C.Wu,Y.Yao,Z.Lin
+Chem.,2018,10,325–332. andZ.Zou,Nat.Synth.,2022,1,138–146.
+10 R. Gao, J. Wang, Z. Huang, R. Zhang, W. Wang, L. Pan, 26 C. Li, X. Chen, L. Zhang, S. Yan, A. Sharma, B. Zhao,
+J. Zhang,W. Zhu,X.Zhang,C. Shiand J.Lim, Nat.Energy, A. Kumbhar, G. Zhou and J. Fang, Angew. Chem., Int. Ed.,
+2021,6,614–623. 2021,60,7675–7680.
+11 B.P.HuangandJ.Yeh,Adv.Eng.Mater.,2004,6,74–78. 27 J. Yang, W. Liu, M. Xu, X. Liu, H. Qi, L. Zhang, X. Yang,
+12 J. W. Yeh, S. K. Chen, S. J. Lin, J. Y. Gan, T. S. Chin, S.Niu,D.Zhou,Y.Liu,Y.Su,J.F. Li,Z.Q.Tian, W.Zhou,
+T. T. Shun, C. H. Tsau and S. Y. Chang, Adv. Eng. Mater., A. Wang and T. Zhang, J. Am. Chem. Soc., 2021, 143,
+2004,6,299–303. 14530–14539.
+13 W.Hume-Rothery,IndianJ.Phys.,1969,11,74. 28 G.Wang,R.Huang,J.Zhang,J.Mao,D.WangandY.Li,Adv.
+14 Y. Yao, Z. Huang, L. A. Hughes, J. Gao, T. Li, D. Morris, Mater.,2021,33,2105904.
+S. E. Zeltmann, B. H. Savitzky, C. Ophus, Y. Z. Finfrock, 29 Z. Zhang, Y. Chen, L. Zhou, C. Chen, Z. Han, B. Zhang,
+Q. Dong, M. Jiao, Y. Mao, M. Chi, P. Zhang, J. Li, Q. Wu, L. Yang, L. Du, Y. Bu, P. Wang, X. Wang, H. Yang
+A. M. Minor, R. Shahbazian-Yassar and L. Hu, Matter, andZ.Hu,Nat.Commun.,2019,10,1657.
+2021,4,2340–2353. 30 Y. Chen, S. Ji, W. Sun,W. Chen,J. Dong, J. Wen, J. Zhang,
+15 Q.Xue,Z.Ge,Z.Yuan,J.Huang,B.HeandY.Chen,Mater. Z. Li, L. Zheng, C. Chen, Q. Peng, D. Wang and Y. Li, J.
+TodayPhys.,2023,31,100980. Am.Chem.Soc.,2018,140,7407–7410.
+16 H.Jin,Z.Xu,Z.Hu,Z.Yin,Z.Wang,Z.Deng,P.Wei,S.Feng, 31 L.Huang,Y.-Q.Su,R.Qi,D.Dang,Y.Qin,S.Xi,S.Zaman,
+S.Dong,J.Liu,S.Luo,Z.Qiu,L.Zhou,L.Mai,B.Su,D.Zhao B. You, S. Ding and B. Y. Xia, Angew. Chem., Int. Ed., 2021,
+andY.Liu,Nat.Commun.,2023,14,15118. 60,25530–25537.
+17 L. Zhang, L. T. Roling, X. Wang, M. Vara, M. Chi, J. Liu, 32 Q.Yang,H.Liu,P.Yuan,Y.Jia,L.Zhuang,H.Zhang,X.Yan,
+S. Choi, J. Park, J. A. Herron, Z. Xie, M. Mavrikakis and G. Liu, Y. Zhao, J. Liu, S. Wei, L. Song, Q. Wu, B. Ge,
+Y.Xia,Science,2015,349,412–416. L. Zhang, K. Wang, X. Wang, C. R. Chang and X. Yao, J.
+18 J. Snyder, T. Fujita, M. W. Chen and J. Erlebacher, Nat. Am.Chem.Soc.,2022,144,2171–2178.
+Mater.,2010,9,904–907. 33 Z.Qi,C.Xiao,C.Liu,T.W.Goh,L.Zhou,R.Maligal-Ganesh,
+19 Y.Zhao,Y.Liu,B.Miao,Y.Ding,P.JinandY.Chen,Chin.J. Y.Pei,X.Li,L.A.CurtissandW.Huang,J.Am.Chem.Soc.,
+Struct.Chem.,2022,41,2204040–2204045. 2017,139,4762–4768.
+20 B. Sun, Y. C. Jiang, Q. L. Hong, X. Liu, F. M. Li, D. S. Li, 34 Q. Feng, S. Zhao, D. He, S. Tian, L. Gu, X. Wen, C. Chen,
+Y.YangandY.Chen,J.EnergyChem.,2023,85,481–489. Q. Peng, D. Wang and Y. Li, J. Am. Chem. Soc., 2018, 140,
+21 Z. Niu, N. Becknell, Y. Yu, D. Kim, C. Chen, N. Kornienko, 2773–2776.
+G.A.SomorjaiandP.Yang,Nat.Mater.,2016,15,1188–1194. 35 Y.Kang,J.B.Pyo,X.Ye,T.R.GordonandC.B.Murray,ACS
+22 D. Wu, K. Kusada, Y. Nanba, M. Koyama, T. Yamamoto, Nano,2012,6,5642–5647.
+T. Toriyama, S. Matsumura, O. Seo, I. Gueye, J. Kim, 36 Y. Han, Y. Xiong, C. Liu, H. Zhang, M. Zhao, W. Chen,
+L.S.RosanthaKumara,O.Sakata,S.Kawaguchi,Y.Kubota W.ChenandW.Huang,J.Catal.,2021,396,351–359.
+andH.Kitagawa,J.Am.Chem.Soc.,2022,144,3365–3369.
+12558 | Chem.Sci.,2024,15,12550–12558 ©2024TheAuthor(s).PublishedbytheRoyalSocietyofChemistry
+

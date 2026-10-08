@@ -1,0 +1,911 @@
+molecules
+Article
+Synthesis of Fe O Nanorod and NiFe O Nanoparticle
+2 3 2 4
+Composites on Expired Cotton Fiber Cloth for Enhanced
+Hydrogen Evolution Reaction
+SunHua1,SayyarAliShah1,*,NoorUllah1,NabiUllah2andAihuaYuan1,*
+1 SchoolofEnvironmental&ChemicalEngineering,JiangsuUniversityofScienceandTechnology,
+Zhenjiang212003,China
+2 DepartmentofInorganicandAnalyticalChemistry,FacultyofChemistry,UniversityofLodz,Tamka12,
+91-403Lodz,Poland;nabi.ullah@chemia.uni.lodz.pl
+* Correspondence:sayyarali83@just.edu.cn(S.A.S.);aihua.yuan@just.edu.cn(A.Y.)
+Abstract: The design of cheap, noble-metal-free, and efficient electrocatalysts for an enhanced
+hydrogenevolutionreaction(HER)toproducehydrogengasasanenergysourcefromwatersplitting
+isanidealapproach.Herein,wereportthesynthesisofFe O nanorods–NiFe O nanoparticleson
+2 3 2 4
+cottonfibercloth(Fe O -NiFe O /CF)atalowtemperatureasanefficientelectrocatalystforHERs.
+2 3 2 4
+Amongtheas-preparedsamples,theoptimalFe O -NiFe O /CF-3electrocatalystexhibitsgoodHER
+2 3 2 4
+performancewithanoverpotentialof127mVatacurrentdensityof10mAcm−2,smallTafelslope
+of44.9mVdec−1,andgoodstabilityin1MKOHalkalinesolution.Thesynergisticeffectbetween
+Fe O nanorodsandNiFe O nanoparticlesoftheheterojunctioncompositeattheheterointerfaceis
+2 3 2 4
+mainlyresponsibleforimprovedHERperformance.TheCFisaneffectivesubstrateforthegrowth
+oftheFe O -NiFe O nanocompositeandprovidesconductivechannelsfortheactivematerials’
+2 3 2 4
+HERprocess.
+Keywords:hydrogenevolutionreaction;Fe O -NiFe O ;electrocatalyst;synergisticeffect;heterointerface
+2 3 2 4
+Citation:Hua,S.;Shah,S.A.;Ullah,
+N.;Ullah,N.;Yuan,A.Synthesisof
+Fe2O3NanorodandNiFe2O4 1. Introduction
+NanoparticleCompositesonExpired
+Theuseoffossilfuelsforenergyrequirementsnotonlydeclinesitsreservesbutalso
+CottonFiberClothforEnhanced
+causesenvironmentalproblems[1,2]. Thedevelopmentsofgreenandrenewableenergy
+HydrogenEvolutionReaction.
+sourcesarealternativestrategiestodealwiththeseissues[3,4]. Hydrogenisregardedasan
+Molecules2024,29,3082. https://
+efficientandpromisingenergysourceduetoitshighmass-specificenergydensity,envi-
+doi.org/10.3390/molecules29133082
+ronmentalfriendliness,andzero-carbonemissiononcombustion[5]. Hydrogenproduced
+AcademicEditors:VladimirV.Kitaev fromwatersplittingisoneofthemostsuitableandsustainableprocesses[6,7]. However,
+andJavierLlanos the electrochemical water splitting hydrogen evolution reaction (HER) proceeds at the
+cathodeandrequiressomeoverpotential. Ahighlyactiveandstablecatalystisrequiredto
+Received:10May2024
+Revised:21June2024 reducetheoverpotentialfortheHER[8–10]. Pt-basedmaterialsarehighlyactiveelectrocat-
+Accepted:25June2024 alystsandonlyrequiresmalloverpotentialsforHERs[11,12]. However,thehighcostof
+Published:28June2024 preciousmetalsandthescarcityofreservesareobstaclestolarge-scaleapplications. Itis
+essentialtodevelopcheaper,readilyavailable,andefficientelectrocatalystmaterialsfor
+HERs[13–15].
+Overthepastfewdecades,manyefficientprecious-metal-freeelectrocatalyticmaterials
+Copyright: © 2024 by the authors. havebeendesignedandinvestigatedforHERswithgoodperformanceandstability[16–18].
+Licensee MDPI, Basel, Switzerland.
+Thetransition3dmetals,especiallyFe,Co,andNi-basedmaterials,haveattractedtheatten-
+This article is an open access article
+tionofresearchersbecauseoftheirlowpriceandexcellentcatalyticperformance[19–21].
+distributed under the terms and
+For example, Mondal et al. reported a NiO electrocatalyst for HER performance and
+conditionsoftheCreativeCommons
+good stability in alkaline solution. However, single 3d metal-based materials require
+Attribution(CCBY)license(https://
+largeoverpotentialsascomparedtobimetallic-basedcomposites. The3dtransitionmetal
+creativecommons.org/licenses/by/
+nanocompositeswerereportedashavingenhancedelectrocatalyticperformancedueto
+4.0/).
+Molecules2024,29,3082.https://doi.org/10.3390/molecules29133082 https://www.mdpi.com/journal/molecules
+
+Molecules2024,29,3082 2of12
+the synergetic effect at the interface of heterogeneous composites [22,23]. For example,
+Shietal.reportedtheNiFeoxides-basedmaterialsasbifunctionalelectrocatalystsforboth
+HERsandOERsinanalkalinemedium. However,mostFeNi-basedmaterialspossesslow
+electroconductivityandstilldonotreachthebenchmark.
+TofurtherenhancetheHERperformance,theheterojunctioncatalyticcomponentscan
+begrownontheconductivesubstrate.Nickelfoamorcarbonmaterialssuchascarboncloth,
+carbonfiberpaper,carbonnanotubes,orgrapheneareusedassubstratesforthegrowthof
+NiFecatalyst. Forexample,Yanetal.[24]. synthesizedalayeredporousNi Fe-S/NiFe O
+x 2 4
+heterogeneouselectrocatalystonathree-dimensionalcarbonclothbyelectrodeposition.
+TheoptimalsampleofNi Fe-S/NiFe O showedthebestHERperformanceduetothe
+1/5 2 4
+synergisticeffectofthebimetallicheterostructure. OurgroupreportedNi S /Fe O /NC
+3 2 2 3
+on nickel foam through a facile one-step thermal process as bifunctional catalysts for
+enhancedHERsandOERs. Therefore,heterojunctioncatalystsgrownonsubstratesbecome
+outstanding electrodes for electrocatalytic HER performance [25–27]. However, these
+substratesarerelativelyexpensive. Itishighlydesirabletousecost-effectivesubstratesfor
+thegrowthofcatalyticnanomaterials. TheNiFe-basedcompositesgrownoncottonfiber
+(CF)clotharerarelyreportedinelectrolysissystems,especiallyinHERs.
+Here,wereportthesynthesisofaFe O nanorod/NiFe O nanoparticlecompositeon
+2 3 2 4
+thecottonfiberclothofexpiredshirts(Fe O -NiFe O /CF)forenhancedHERperformance.
+2 3 2 4
+The composite consists of NiFe O nanoparticles loaded on Fe O nanorods to form a
+2 4 2 3
+heterointerfacecatalyst. TheoptimizedFe O -NiFe O /CFcatalystshowsexcellentHER
+2 3 2 4
+performancewithanoverpotentialofonly127mVatacurrentdensityof10mAcm−2,
+a small Tafel slope of only 44.9 mV dec−1, and good stability in 1M KOH solution. Its
+excellentperformanceisattributedtothesynergisticeffectbetweenFe O nanorodsand
+2 3
+NiFe O nanoparticlesandtheelectrontransferbetweenNiandFespeciesattheinterface
+2 4
+incomposites,resultinginhighactivesitesproducedforHERperformance.
+2. ResultsandDiscussions
+2.1. SynthesisandCharacterization
+TheFe O -NiFe O /CFcompositewaspreparedbyasimpleone-stepprocess.During
+2 3 2 4
+synthesis,the(NiCl ·6H O)and(FeCl ·4H O)precursorsweredissolvedintoFe2+ and
+2 2 2 2
+Ni2+ionaqueousmediums. Fe2+reactedwithoxygendissolvedinthewatertogrowFe O
+2 3
+nanorodsontheCF.Simultaneously,Ni2+ andsomeFe2+ alsoreactedwithoxygenand
+formedNiFe O nanoparticles. MostoftheseNiFe O nanoparticleswereloadedonFe O
+2 4 2 4 2 3
+nanorods. Finally,theFe O -NiFe O /CFheterointerfacecompositematerialwasformed
+2 3 2 4
+ontheCF.TheamountsofdifferentcatalystsdepositedontheCFduringsynthesisare
+listedinTableS2.
+Thecrystalstructureofthepreparedsampleswascharacterizedandanalyzedusing
+theXRDtechnique(Figure1a). TheXRDpatternsofsamplesshowedpeaksconcentratedat
+22.65◦,14.9◦,16.6◦,and34.4◦indexedto(200),(1–10),(110),and(004)ofcrystallinecellulose,
+respectively. DuetothehighdiffractionpeaksoftheCFsubstrate,thediffractionpeaks
+oftheothermaterialscannotbeobserved. ThenanomaterialoftheFe O -NiFe O /CF-3
+2 3 2 4
+samplewascollectedfromthesurfaceofthesubstratebysonication,andtheXRDpattern
+wasrecorded(Figure1b). Thepeaksaround24.1◦,33.1◦,40.8◦,49.4◦,54.1◦,62.4.0◦,and
+64.0◦ corresponded to the (012), (104), (113), (024), (116), (214), and (300) crystal planes
+ofFe O (JCPDSNO.79-1741),respectively. Thediffractionpeaksatapproximately30.2◦,
+2 3
+35.6◦,43.3◦,53.8◦,57.3◦,and63.0◦ areconsistentwiththe(220),(311),(400),(422),(511),
+and(440)crystalplanesofNiFe O (JCPDSNO.74-2081). Thesediffractionpeaksshowed
+2 4
+thatthematerialisacompositeofFe O andNiFe O . However,whenFesaltsareused
+2 3 2 4
+aloneinthereactionmixture,theXRDpatternsofthecollectedpowderarematchedwith
+JCPDSNO.02-1035ofcubicFe O ,whilewhenusingNiprecursorsinthereactionmixture,
+3 4
+theXRDpatternsareconsistentwithJCPDSNO.44-1159ofhexagonalNiO.Allthesamples
+showedbroadpeaksat2θaround24◦. Thismaybeduetoamorphouscarbonmaterials
+formedat150◦ConCFandpeelingfromtheCFsurfaceduringsonication.
+
+Molecules 2024, 29, x FOR PEER REVIEW 3 of 12
+matched with JCPDS NO.02-1035 of cubic Fe3O4, while when using Ni precursors in the
+reaction mixture, the XRD patterns are consistent with JCPDS NO.44-1159 of hexagonal
+NiO. All the samples showed broad peaks at 2θ around 24°. This may be due to amor-
+Molecules2024,29,3082 3of12
+phous carbon materials formed at 150 °C on CF and peeling from the CF surface during
+sonication.
+FFigiguurere 11. .(a()a )XXRRDD papttaettrenr nofo afsa-ps-rpepreapreadre sdamsapmlepsl easndan CdFC. (Fb.)( bX)RXDR pDattpeartnte orfn Foef2OFe3-2NOi3F-eN2OiF4/eC2FO-43/, CF-3,
+FFee3O
+3
+O4/
+4
+C/FC, aFn,adn NdiON/iCOF/ sCaFmspalmesp’ pleosw’pdoewr rdeemrorveemdo fvroemd ftrhoem suthrfeacseu orffa tchee oCfFt.h eCF.
+TThhee mmoroprphohloolgoyg yanadn mdimcriocsrtorsutcrutucrteu oref tohfet shaemspamlesp wleesrwe oebreseorbvseedr vbeyd SEbMyS. TEhMe. pTuhree pure
+CCFF ssuurfrafacec ewwasa sclcelaenaende,d a,nadn ndon noannaonmoamtearitaelr iwalasw oabssoerbvseedrv oend iot n(Fiitgu(Frieg 2uar,eb)2. aD,bip).pDinigp ping
+tthhee CCFF ini nFeFCelC2 sl
+2
+olsuotliounti,o itns, siutsrfsaucer fwacaes mwoadsimfieodd, iafinedd n,aannodrondasn cooruoldds bceo oublsderbveedo bosne trhvee don
+stuhrefascuer (fFaicgeu(rFe i2gcu,dre). 2Ocn,d t)h.eO onthtehre hoatnhde,r ohnalyn dna,noonplyarntiacnleosp caorutlidcl ebse csoeeunld onb ethsee eCnF o(Fnigth-eCF
+u(rFei g2uer,fe) 2we,hf)enw iht ewnasit imwmaseirmsemd einr stehde iNniCthl2e sNoliuCtilo
+2
+ns.o Wluhtieonn a.qWuehoeuns saoqluuetioounss soof lbuottiohn s of
+FbeoCtlh2 aFnedC lNiaCnld2 wNeirCel usweder feour stehde sfoyrntthheessisy, nththee nsiasn,othpearntiacnleosp waretriec loebsswerevreedo obnse trhvee dnao-nthe
+2 2
+nnoarnoodrso’ sdusr’fsaucerf (aFciegu(Freig 2ugr,he)2. gS,ohm).eS noamnoepnaarntioclpeas rwtiecrlees awlsoe roebaselsroveodb isne rthvee dsuirnfatchee osnu trhfaec eon
+C th F. e T C h F e . m Th o e rp m ho o l r o p g h y o o lo f g th y e o F f e t2h O e3- F N e iF O e2O -N4/C iF F e -1 O (Fi / g C ur F e - 1 S1 (F a) i , g F u e r2e O S3- 1 N a) iF ,F e2e O O4/C - F N -2 i F (F e ig O ur / e CF-2
+2 3 2 4 2 3 2 4
+S ( 1 F b ig ), u F r e e2O S31 - b N ) i , F F e e2O O4/C - F N -4 iF ( e Fig O ur / e C S F 1c -4 ), ( a F n i d g u F r e e2O S31 -N c) i , F a e n2O d4/ F C e F- O 5 ( - F N ig i u F r e e O S1d / ) C s F am -5 p ( l F e i s g w u a re s S1d)
+2 3 2 4 2 3 2 4
+v s e a r m y s p i l m es ila w r a w s h v e e n r y us s i i n m g i d la iff r e w re h n e t n co u n s c i e n n g tr d a i t f io fe n r s e o n f t F c e o C n l c2e . H nt o r w at e io v n er s , o it f is F o eC bv l io . u H s o th w a e t v th e e r , it is
+2
+amount of nanorods gradually increased on the CF with the increasing concentration of
+obviousthattheamountofnanorodsgraduallyincreasedontheCFwiththeincreasingcon-
+F c e e C n l t2r a in ti o th n e o r f ea F c e t C io l n i m n i t x h t e ur r e e . a F ct r i o o m n m th i e x t S u E r M e. o F b ro se m rv t a h t e io S n E o M f c o a b ta se ly r s v t a s t , i i o t n is o s f u c g a g ta e l s y te s d ts , th it a i t s sug-
+2
+t g h e e s n te a d no th ro a d t s th a e n n d a n n a o n r o o p d a s r a ti n c d le n s a a n re o p F a e r2O tic3 l a e n s d a r N e i F F e e2O O4, a r n es d p N ec i t F iv e e O ly. , T r h e e s p a e to ct m iv i e c l c y o . n T t h e e nt a s t omic
+2 3 2 4
+of Ni and Fe in the composite samples were confirmed by ICP-OES. The atomic ratio of
+Molecules 2024, 29, x FOR PEER REVcIoEnWte ntsofNiandFeinthecompositesampleswereconfirmedbyICP-OES.Th4e oaft o12m ic
+Ni and Fe is 1:0.17, 1:0.48,1:0.83, 1:1.13, and 1:1.47 in Fe2O3-NiFe2O4/CF-1, Fe2O3-
+ratioofNiandFeis1:0.17,1:0.48,1:0.83,1:1.13,and1:1.47inFe O -NiFe O /CF-1,Fe O -
+NiFe2O4/CF-2, Fe2O3-NiFe2O4/CF-3, Fe2O3-NiFe2O4/CF-4, and Fe2O3 2-Ni3Fe2O4/C2F-45, respec- 2 3
+NiFe O /CF-2,Fe O -NiFe O /CF-3,Fe O -NiFe O /CF-4,andFe O -NiFe O /CF-5,
+tively.2 Th4e slightly h2igh3 atomi2c c4ontents of N2i 3compar2ed4 to the final com2po3sition o2f t4he
+reosfp tehcet invaenlyo.pTahrteicslleisg,h wtlhyichhig fhuratthoemr ciconcofinrmtesn ttshaotf tNhei ccoommppoarseitde tmoattheerifialn iasl ccoommppoosseidti oonf of
+Fe2O3-NiFe2O4 catalyst may be due the presence of Ni material contamination.
+thFee2F T Oe h 32e On F a 3e n- 2 No O ri 3 oF - d N es 2i O F a e n 4 2 d O c aN 4 t s ai a Fl m ye2s p Ot l m4 e n r aa e yn m ob o pe v ad e r d tui ce f l r et o hs m .e p th r e e s s e u n rf c a e c o e f o N f t i h m e a C t F e r w ia a l s c c o h n a t r a a m ct i e n r a iz t e io d n b . y
+TEM to further confirm morphology. As shown in Figure 3a, the nanorods are distributed
+in a light gray material-like structure. The diameters of the nanorods are tens of nanome-
+ters and the length is a few micrometers. The light-gray-like structure may be amorphous
+carbon materials and peeled from the CF during sonication. The nanoparticles loaded on
+the nanorods can be seen in Figure 3b. The HRTEM images showed that the lattice fringes
+of nanoparticles are 0.209 nm, corresponding to the (400) lattice plane of NiFe2O4 (Figure
+3c). The lattice fringes with a spacing of 0.148 nm are consistent with the (214) lattice plane
+of Fe2O3 nanorods. The HRTEM results further indicate that the composites consisted of
+Fe2O3 nanorods and NiFe2O4 nanoparticles. Figure 3d displays the dark-field TEM images
+and corresponding elemental mapping images of Fe (Figure 3e), Ni (Figure 3f), and O
+(Figure 3g). It can be seen that the Fe and O signals are uniformly observed in the nano-
+rods, and the Ni signal is uniformly observed on the nanorods due to the very small size
+Fi F g i u g r u e re 2 2 . . S S E E M M im im a a g g e e of o ( f a, ( b a ) ,b C ) F C , ( F c , ,d ( ) c , F d e )3O F4e /C O F, / (e C ,f F ) , N ( i e O ,f / ) C N F, i a O n / d C (g F, ,h a ) n F d e2O (g3, - h N ) iF F e e2O O4/C -N F- i 3 F s e am O p / le C s F-3
+3 4 2 3 2 4
+at different magnifications.
+samplesatdifferentmagnifications.
+Figure 3. (a,b) TEM and (c) HRTEM images of Fe2O3-NiFe2O4/CF-3 sample. (d) Dark-field TEM im-
+age and element mapping. (e) Fe, (f) Ni, and (g) O images of Fe2O3-NiFe2O4/CF-3 sample.
+XPS analysis of the sample was performed to determine its valence state and ele-
+mental composition. The survey XPS spectrum of the Fe2O3-NiFe2O4/CF-3 samples
+
+Molecules 2024, 29, x FOR PEER REVIEW 4 of 12
+of the nanoparticles, which further confirms that the composite material is composed of
+Fe2O3 nanorods and NiFe2O4 nanoparticles.
+Molecules2024,29,3082 4of12
+TheFe O -NiFe O sampleremovedfromthesurfaceoftheCFwascharacterizedby
+2 3 2 4
+TEMtofurtherconfirmmorphology. AsshowninFigure3a,thenanorodsaredistributed
+inalightgraymaterial-likestructure.Thediametersofthenanorodsaretensofnanometers
+and the length is a few micrometers. The light-gray-like structure may be amorphous
+carbon materials and peeled from the CF during sonication. The nanoparticles loaded
+on the nanorods can be seen in Figure 3b. The HRTEM images showed that the lattice
+fringesofnanoparticlesare0.209nm,correspondingtothe(400)latticeplaneofNiFe O
+2 4
+(Figure 3c). The lattice fringes with a spacing of 0.148 nm are consistent with the (214)
+latticeplaneofFe O nanorods. TheHRTEMresultsfurtherindicatethatthecomposites
+2 3
+consistedofFe O nanorodsandNiFe O nanoparticles. Figure3ddisplaysthedark-field
+2 3 2 4
+TEMimagesandcorrespondingelementalmappingimagesofFe(Figure3e),Ni(Figure3f),
+andO(Figure3g). ItcanbeseenthattheFeandOsignalsareuniformlyobservedinthe
+nanorods,andtheNisignalisuniformlyobservedonthenanorodsduetotheverysmal l
+sFizigeuoref t2h. eSEnMan imopaagret oicfl (eas,b,w) ChFi,c (hc,fdu) rFteh
+3
+eOr 4/cCoFn, fi(er,mf) sNtihOa/tCtFh, eancdo m(gp,ho) sFiete 2Om 3-NatieFrei
+2
+aOl
+4
+i/sCcFo-3m spamospeldes
+oaft FdeiffOerennta mnaogronidfiscaatniodnNs. iFe O nanoparticles.
+2 3 2 4
+FFiigguurree3 3.. ((aa,,bb)) TTEEMM aanndd ((cc)) HHRRTTEEMM iimmaaggeess ooff FFee22 OO33 -N-NiFiFee2O
+2
+O4/
+4
+C/FC-3F -s3amsapmlep. l(ed.) (Dd)arDka-firke-lfide TldEMTE iMm-
+im ag a e g a e n a d n d ele e m lem en e t n m tm ap a p p i p n i g n . g ( . e) ( eF ) e F , e (f , ) ( fN ) i N , a i, n a d n d (g ( )g O ) O im im ag a e g s e o s f o F f e F2O e3O -N - i N Fe i2F O e4/ O CF / -3 C F sa -3 m s p a l m e. p le.
+2 3 2 4
+XXPPSSa annaalylysissiso fotfh tehsea msapmlepwlea wspaesr fpoerrmfoerdmteodd etote rdmetienremitisnve ailtesn vcealsetnatcee asntadteel eamnde netlael-
+cmomenptoasl itcioonm.pTohseitsiuornv. eyThXeP Sssuprvecetyr uXmPoSf tshpeeFcetr
+2
+uOm
+3
+- NoifF et
+2
+hOe
+4
+/FCe2FO-33-NsaimFep2lOes4/sChFo-w3 edsapmepakless
+oftheFe,Ni,C,andOelements,comparedwiththesurveyXPSspectrumofFe O /CF
+3 4
+and NiO/CF (Figure 4a). The high-resolution XPS spectrum in the Fe 2p region of the
+Fe
+2
+O
+3
+-NiFe
+2
+O
+4
+/CF-3samplescanbedeconvolutedintodifferentpeaks(Figure4b). The
+bindingenergypeaksat710.9and714.2eVoftheFe2p bandsuggestedtheexistenceof
+3/2
+Fe2+ andFe3+ oxidationstates,respectively[28,29]. Thebindingenergypeaks723.9and
+727.1eVwerealsoassociatedwithoxidationstatesofFe2+andFe3+oftheFe2p band,
+1/2
+
+Molecules 2024, 29, x FOR PEER REVIEW 5 of 12
+showed peaks of the Fe, Ni, C, and O elements, compared with the survey XPS spectrum
+of Fe3O4/CF and NiO/CF (Figure 4a). The high-resolution XPS spectrum in the Fe 2p region
+Molecules2024,29,3082
+of the Fe2O3-NiFe2O4/CF-3 samples can be deconvoluted into different peaks (Figure 4b)
+5
+.
+of12
+The binding energy peaks at 710.9 and 714.2 eV of the Fe 2p3/2 band suggested the exist-
+ence of Fe2+ and Fe3+ oxidation states, respectively [28,29]. The binding energy peaks 723.9
+and 727.1 eV were also associated with oxidation states of Fe2+ and Fe3+ of the Fe 2p1/2 band,
+respectively[30]. Thepeaksat718.8and727.1eVcanbeassignedtosatellitesofFe2p[31].
+respectively [30]. The peaks at 718.8 and 727.1 eV can be assigned to satellites of Fe 2p [31].
+Thehigh-resolutionXPSspectrumintheFe2pregionofFe O /CFshowedbindingenergy
+The high-resolution XPS spectrum in the Fe 2p region of Fe3O3 4/C4F showed binding energy
+peaksat714.1and710.8eVfortheFe2p and726.9and723.7eVfortheFe2p band.
+peaks at 714.1 and 710.8 eV for the Fe 2p3/ 3 2 /a2nd 726.9 and 723.7 eV for the Fe 2p1/2 b1a/n2d.
+TheFe2p andFe2p bandsofFe O /CFalsoexistedintheFe2+andFe3+oxidation
+The Fe 2p33/2/ a2nd Fe 2p1/2 b1/a2nds of Fe3O4/C3F a4lso existed in the Fe2+ and Fe3+ oxidation states.
+states. ThesatellitespeaksofFe2pshowpeaksatbindingenergiesof718.7and727eV.The
+The satellites peaks of Fe 2p show peaks at binding energies of 718.7 and 727 eV. The
+bindingenergyoftheFe2p andFe2p bandsslightlyshiftedtowardsthelowerenergy
+binding energy of the Fe 2p33/2/ a2nd Fe 2p1/2 1b/a2nds slightly shifted towards the lower energy
+ooff FFee33OO 44/C/CF Fcocmompapreadre tdo tFoe2 FOe 32-ON3iF-Ne2OiF
+4
+e/C2 OF-43/. CTFh-is3 .inTdhicisatiensd tihcaatt ethsetrhea its tihneterreaicstiionnt earnadc tion
+aenledcterloenc ttrroannstfrearn bsefetwrbeeentw Neie annNd iFaen sdpeFceiessp ienc iceosminpocsoimtesp.o Tshitee sX.PTSh sepXecPtSras opfe tchtrea Noif 2thpe Ni
+2rpegrieogni oofn Foef 2OF
+3
+e-2NOiF3 -eN 2OiF 4/eC2FO-34 /aCndF -N3iaOn dis NshioOwins isnh oFwigunrien 4Fc.i gTuhree p4eca.kT cheentpeereadk ocenn 8t5e4r.e7d on
+8e5V4 .i7s erVelaisterde ltaot eNdi t2opN 3/2 i o2fp 3th/2e oNfit2h+ evaNlein 2+ cev astlaetnecse [s3t2a]t.e Tsh[3e 2p].eaTkhse apt eaa kbsinadtiangb ienndeirnggy eonfe rgy
+o8f608.620 e.2Ve wVewree trheet shaeteslalitteel loift eNoif 2Np.i T2hpe.rTe hweares nwoa osbnvoiooubsv cihoaunsgceh iann tghee iNnit h2pe Nspie2ctpras poef ctra
+othfeth Fee2 FOe 32-ON3iF-Ne2 iOF
+4
+e/2COF4-3/ CanFd-3 NainOd sNamiOplseasm. Apsl essh.oAwsns ihno Fwignuirne 4Fdig, uthree 4Od 1,st hsepeOct1rusmsp ceacntr um
+cbaen abtteribautttreidb utote Od 22t-o atO 5
+2
+229 − .4a etV5,2 r9e.p4reesVe,nrteinpgre tsheen Mtin-Og bthoendM. T-Oheb poenadk. oTf h53e1p.9e aeVk omfa5y3 b1e.9 eV
+mduaey tboe thdeu eabtsootrhpetiaobns oofr potxiyogneonf oorx wygaetenr omrowleactuelrems, oalnedc u5l3e4s.,9a enVd i5n3d4i.c9ateeVs tihned iOca-Ote sbothnedO -O
+b[3o3n–d35[]3.3 –35].
+FFiigguurree 44.. (a()a S)uSrvueryv eXyPSX sPpSecstpruemct rouf mFe2oOf3-FNei
+2
+FOe23 O-N4/CiFFe-
+2
+3O, F
+4
+e/3COF4/-C3F,, Faen
+3
+dO N
+4
+/iOC/FC,Fa snadmpNleiOs. /(bC)F Hsigahm-ples.
+(rbe)soHluigtiho-nr eXsPoSlu stpieocntrXa PoSf Fsep 2epct rreagoiofnF oef2 Fpe2rOeg3-iNoinFeo2fOF4/eC
+2
+OF-
+3
+3- aNnidF eF
+2
+eO3O 44//CCFF -c3ataanlydstFs.e (
+3
+cO) H
+4
+/iCghF-rceastoa-lysts.
+( l c u ) ti H on ig X h P -r S e s s o p l e u c t t i r o a n o X f N PS i 2 sp p e r c e t g r i a o o n f o N f F i e 22p O r3e -N gi i o F n e2O of4/ F C e F- O 3 a - n N d i F N e iO O /C / F C c F a - t 3 al a y n st d s N an i d O / (d C ) F O c 1 a s ta s l p y e s c ts - and
+2 3 2 4
+( t d ru ) m O o 1 f s F s e p 2 e O c 3 t - r N um iFe o 2O fF 4/ e CF O -3 - p N ro iF d e uc O t. /CF-3product.
+2 3 2 4
+22..22.. EElleeccttrrooccaattaallyyttiicc HHEERR PPerefrofromrmanacnec e
+TThhee HHEERR ppeerrffoorrmmaannccee ooff aass--pprreeppaarreedd ssaammpplleess aanndd PPtt//CC cactaatlaylsyts twwasa sstsutduideide dini n1.10. 0M
+KMO KHOsHo lsuotliuotniouns uinsginag tah trheree-ee-leelcetcrtordodees esetutupp..T Thhee LLSSVV ccuurrvveess ooff tthhee ccaatatalylystsst saraer eshsohwown nin
+Figure5a. ThecommercialPt/CcatalysthasthebestHERperformanceofallthetested
+samples,withanoverpotentialof38mVatacurrentdensityof10mAcm−2. Amongthe
+as-preparedsamples,Fe
+2
+O
+3
+-NiFe
+2
+O
+4
+/CF-3displayedgoodHERperformanceandneeded
+an overpotential of 127 mV to reach a current density of 10 mA cm−2 (Figure 5b). The
+Fe O -NiFe O /CF-3catalystexhibitedcomparableorbetterperformanceinalkalinesolu-
+2 3 2 4
+tionsthanthepreviouslyreportedNiFe O catalysts(TableS3). TheFe O -NiFe O /CF-1
+2 4 2 3 2 4
+andFe O -NiFe O /CF-2compositesshowedlowHERperformancewithoverpotentials
+2 3 2 4
+of 188 mV and 173 mV at a current density of 10 mA cm−2, respectively. On the other
+
+Molecules2024,29,3082 6of12
+hand,Fe O -NiFe O /CF-4andFe O -NiFe O /CF-5requiredoverpotentialsof176and
+2 3 2 4 2 3 2 4
+195mVatacurrentdensityof10mAcm−2,respectively. ThehighHERperformanceof
+theFe O -NiFe O /CF-3catalystincompositesamplesisduetotheoptimalamountof
+2 3 2 4
+catalystloadedontheCFafter3hofthereaction,andithasrelativelyhighnumbersofthe
+heterointerfacebetweenFe O nanorodsandNiFe O nanoparticlesascomparedtoother
+2 3 2 4
+compositecatalysts. However,theHERperformanceofcompositesismuchbetterthan
+usingtheFeorNisaltprecursorsaloneinthereactionmixture,andFe O /CFandNiOdis-
+3 4
+playedoverpotentialsof259and316mVatacurrentdensityof10mAcm−2,respectively.
+Molecules 2024, 29, x FOR PEER REVIEW 7 of 12
+TheCFwithoutanymetalmaterialsloadedshowedverypoorHERperformance. Thesere-
+sultssuggestthatenhancedHERperformanceofFe O -NiFe O compositesisattributedto
+2 3 2 4
+thesynergisticeffectbetweenheterointerfaceFe O nanorodsandNiFe O nanoparticles.
+2 3 2 4
+Figure5. (a)LSVcurvesofas-preparedsamples,Pt/C,CF,andCFheatedat150◦C(CF150 ◦C).
+Fig(ubr)eC 5o.m (ap) aLrSisVo ncuorfvoevse orpf oatse-nptrieaplsaaretda csaumrrepnletsd, ePnts/City, CoFf,1 a0nmdA CcFm h2eaotfeddi fafte r1e5n0t °sCam (CpFle s1.5(0c )°CT)h.e (bT)a fel
+Cosmloppaersisaonnd o(fd o)vceormpoptaernistioanlso aftT aa fceulrsrleonpte dseonfsditiyff eorfe n10t smamA pclmes2. of different samples. (c) The Tafel
+slopes and (d) comparison of Tafel slopes of different samples.
+TheTafelslopevalueindicatesthestudyofthereactionkineticsandthemechanism
+ofFthuertchaetramlyosrtes,. tThaef eElCslAopSe osfa trheedseer sivaemdpflreosm wtahse aTsasefeslsepdlo btsyb eylefictttrioncghelimneicaarlp doorutibolnes-of
+laytehre ccaupravceitso(rFs i(gCudrl)e. T5ha)e wCditl hvatlhueeTs aafreel peoqsuiatitvioelny (cηo=rreala+tebdlo wgji)t,hw EhCeAreS ηa,njd, ba,rea nthdeareafroeret he
+comovmeropnolyte unstieadl, tcou drreesnctridbeen EsiCtyA,ST.a fFeilgsulroep Se2,aa–nid schoonwsetadn Ct,Vre scpuervcteisv eolfy d).iffTehreenTat fsealmslpolpees of
+witthhe dFiffe
+2
+eOre
+3
+n-Nt sicFaen
+2
+Ora
+4
+t/eCs Fa-n3dc Comdl vpaolsuitees wwaesre4 4c.a9lcmuVlatdeedc a−c1c(oFridgiunrge t5od t)haensde CmVu cchurlvoews.e Trhthe an
+CdlF vea
+2
+lOue
+3
+-(NFiigFuer
+2
+eO 6
+4
+b/) CdFec-r1e(a7s2e.d6 imn Vthed oecrd−e1r) ,oFf eF
+2
+eO2O
+3
+-3-NNiiFFee 22OO 44//CCFF-3-2 (1(.5258.18 mmFV cmde−2c)− >1 F),eF2Oe 23-O
+3
+-
+NiNFei2FOe42 /OCF 4 -/2C (F0.-8418(5 m9.F3 cmmV−2) d>e Fce− 2 1O),3-NFeiF 2 Oe23 O-4N/CiFFe-4 2 O(0 4 ./77C5F m-5F (c7m5.−82)m > VFed2Oec3 −-N1)i,FeF2eO 34O/C 4 F/-CF
+1 ((08.737.73 mmVF cdmec−2 − ) 1>) ,FeN 2OiO 3-/NCiFFe2 (O90 4/.C5Fm-5V (0d.7e5c1 − m1)F, cCmF−2()1. 5(F0ig ◦ uCr)e (61a1)1 >.3 Fme3OV 4 d/CeFc− (01).6,2a3n mdFC F
+cm(−12)3,5 N.3iOm/VCFd e(0c. − 518)2emxFce cpmtP−2t)/ >C C(3F2 (.08.m46V4 dmeFc − c1m).−2T) h>i sCiFn d(1ic5a0t e°sCt)h (a0t.4th42e FmeF
+2
+O c
+3
+m-N−2)i.F Te
+2
+hOe
+4
+/
+Fe2 COF 3--N3icFoem 2Op 4 o/CsiFt-e3 hsaasmfpalset ehrasr etahcet ihoinghkeisnt eCti d c l svainluteh aenads t-hpirse ipnadriecdatesas ma philgeha nnudmthbeerre ofof re
+acteivxeh isbitietes dfobre etntehraHncEeRd HprEoRp epretriefosr.mance.
+EleActrsomcahlelmTaicfaell ismloppeediasnccoen sdpueccitvroestcooppyra (cEtIicSa) loaf pthpel ipcaretipoanresdin scaemitpwlei wllalesa mdetaosaurfeadst er
+in ionrcdreerm teon dteotfetrhmeiHneE Releracttreown ittrhalnoswfero vaet rtphoet eenletciatrl.oAdec/ceolredcitnroglytotec lianstseircfaalcteh, eaosr yshaonwdnr eicne nt
+Figruepreo r6tbs., Tinhae lNkaylqinuei/stn peulottrsa lwceorned fiitttioends (,itllhuestVroaltmede rinasnedt FHigeuyrroe v6sbk)y in(E tqhue aetqiounivsa(l1e)nat ncdir-(2))
+cuirte. aTchtieo nchsasrhgoew trTaanfseflesrl roepseisvtaanlucees (Rof ct)1 2o0f tahned p4r0epmaVredde sca − m 1,prleessp wecatsi vreelvye.aIlnedco. mThpea crihsaorng,et he
+transfer resistance (Rct) values of Fe2O3-NiFe2O4/CF-1, Fe2O3-NiFe2O4/CF-2, Fe2O3-
+NiFe2O4/CF-3, Fe2O3-NiFe2O4/CF-4, Fe2O3-NiFe2O4/CF-5, Fe3O4/CF, NiO/CF, CF, and CF
+(150 °C) were 20.69, 17.8, 13.91, 19.11, 25.73, 25.98, 24.41, 29.18, and 37.43 Ω, respectively.
+Among all samples, the Fe2O3-NiFe2O4/CF-3 sample exhibited lower Rct values than other
+materials and this indicates more efficient charge transfer at the electrode/electrolyte in-
+terface for improved catalytic performance.
+The stability of the electrocatalyst is an important criterion for the HER. The stability
+of the Fe2O3-NiFe2O4/CF-3 composite catalyst was confirmed by CV cycle and amperom-
+etry (i-t) tests. The LSV curves initially and after 1000–8000 CV cycles were measured, as
+shown in Figure S3. There is a slight reduction in overpotential at a current density of 10
+mV cm−2 as the number of cycles increased (Figure 6c). This suggests that Fe2O3-
+NiFe2O4/CF-3 exhibited good stability under alkaline conditions. The nanorods can be
+
+Molecules2024,29,3082 7of12
+TafelslopevalueoftheTafelreactionisabout30mVdec−1andremainsthesameforall
+pHvalues[36,37].
+H O+e − +M→M-H +OH − (Volmer) (1)
+2 ads
+H O+e − +M-H →H +OH − +M(Heyrovsky) (2)
+2 ads 2
+M-H +M-H →H +M(Tafel) (3)
+ads ads 2
+whereMisacatalyticactivematerialandH representsanadsorbedhydrogenonthe
+ads
+surfaceoftheelectrocatalyst. Themolecularhydrogenproduceseithercombinationsof
+Volmer–HeyrovskyreactionsorVolmer–TafelreactionsintheHERprocess. Accordingto
+theTafelslopevalues,theTafelslopevalueofourFe O -NiFe O /CF-3compositewas
+2 3 2 4
+44.9mVdec−1 andpossiblyfollowstheVolmer–HeyrovskyreactionpathwayfortheHER
+process and rate determination step [38,39]. The other Fe O -NiFe O /CF composites’
+2 3 2 4
+valueswerefrom55.8.2to83.7mVdec−1 andindicatedthatthecompositesfollowthe
+samereactionpathwayduringtheHERprocess.
+Furthermore,theECASofthesesampleswasassessedbyelectrochemicaldouble-layer
+capacitors (C ). The C values are positively correlated with ECAS and are therefore
+dl dl
+commonlyusedtodescribeECAS.FigureS2a–ishowedCVcurvesofdifferentsamples
+withdifferentscanratesandC valueswerecalculatedaccordingtotheseCVcurves. The
+dl
+C value(Figure6b)decreasedintheorderofFe O -NiFe O /CF-3(1.281mFcm−2)>
+dl 2 3 2 4
+Fe O -NiFe O /CF-2(0.818mFcm−2)>Fe O -NiFe O /CF-4(0.775mFcm−2)>Fe O -
+2 3 2 4 2 3 2 4 2 3
+NiFe O /CF-1(0.773mFcm−2)>Fe O -NiFe O /CF-5(0.751mFcm−2). (Figure6a)>
+2 4 2 3 2 4
+Fe O /CF(0.623mFcm−2),NiO/CF(0.582mFcm−2)>CF(0.464mFcm−2)>CF(150◦C)
+3 4
+(0.442 mF cm−2). The Fe O -NiFe O /CF-3 sample has the highest C value and this
+2 3 2 4 dl
+indicatesahighnumberofactivesitesforenhancedHERperformance.
+Electrochemicalimpedancespectroscopy(EIS)ofthepreparedsamplewasmeasured
+in order to determine electron transfer at the electrode/electrolyte interface, as shown
+in Figure 6b. The Nyquist plots were fitted (illustrated inset Figure 6b) in the equiva-
+lent circuit. The charge transfer resistance (R ) of the prepared samples was revealed.
+ct
+Thechargetransferresistance(R )valuesofFe O -NiFe O /CF-1,Fe O -NiFe O /CF-2,
+ct 2 3 2 4 2 3 2 4
+Fe O -NiFe O /CF-3,Fe O -NiFe O /CF-4,Fe O -NiFe O /CF-5,Fe O /CF,NiO/CF,
+2 3 2 4 2 3 2 4 2 3 2 4 3 4
+CF,andCF(150◦C)were20.69,17.8,13.91,19.11,25.73,25.98,24.41,29.18,and37.43Ω,
+respectively. Among all samples, the Fe O -NiFe O /CF-3 sample exhibited lower R
+2 3 2 4 ct
+values than other materials and this indicates more efficient charge transfer at the elec-
+trode/electrolyteinterfaceforimprovedcatalyticperformance.
+ThestabilityoftheelectrocatalystisanimportantcriterionfortheHER.Thestabilityof
+theFe O -NiFe O /CF-3compositecatalystwasconfirmedbyCVcycleandamperometry
+2 3 2 4
+(i-t)tests. TheLSVcurvesinitiallyandafter1000–8000CVcyclesweremeasured,asshown
+inFigureS3. Thereisaslightreductioninoverpotentialatacurrentdensityof10mVcm−2
+as the number of cycles increased (Figure 6c). This suggests that Fe O -NiFe O /CF-3
+2 3 2 4
+exhibited good stability under alkaline conditions. The nanorods can be observed on
+surfaceoftheCFintheSEMimagesafter8000CVcycles(FigureS4a). Thisindicatesthat
+themorphologyofthenanorodsisnotobviouslychanged. TheTEMimageconfirmedthat
+nanoparticleswereonthesurfaceofnanorods(FigureS4b). Thei–ttestwasmeasured
+with24hofcontinuousoperation(Figure6d). Thei-ttestshowedthat96.1%ofthecurrent
+densitywasmaintainedafter24h. Thisfurtherconfirmedthegoodstabilityofthesample.
+
+Molecules 2024, 29, x FOR PEER REVIEW 8 of 12
+observed on surface of the CF in the SEM images after 8000 CV cycles (Figure S4a). This
+indicates that the morphology of the nanorods is not obviously changed. The TEM image
+confirmed that nanoparticles were on the surface of nanorods (Figure S4b). The i–t test
+was measured with 24 h of continuous operation (Figure 6d). The i-t test showed that 96.1%
+of the current density was maintained after 24 h. This further confirmed the good stability
+Molecules2024,29,3082 of the sample. 8of12
+Figure6. (a)Cdlvaluesofthedifferentsamples. (b)Nyquistplotofsamplesandinsetequivalent
+Figure 6. (a) Cdl values of the different samples. (b) Nyquist plot of samples and inset equivalent
+circuit fitting experimental data. (c) Overpotential (V vs. RHE) at constant current density of
+cir
+1
+c
+0
+ui
+m
+t fi
+A
+tt
+c
+i
+m
+ng− e
+2
+x
+o
+p
+f
+e
+F
+r
+e
+im
+O
+en
+-
+t
+N
+al
+i F
+d
+e
+at
+O
+a. (
+/
+c)
+C
+O
+F-
+v
+3
+e
+s
+r
+a
+p
+m
+ot
+p
+e
+l
+n
+e
+ti
+b
+a
+e
+l
+f
+(
+o
+V
+re
+v
+a
+s
+n
+. R
+d
+H
+af
+E
+te
+)
+r
+a
+1
+t
+0
+c
+0
+o
+0
+n
+–
+s
+8
+t
+0
+a
+0
+n
+0
+t c
+C
+u
+V
+rr
+c
+e
+y
+n
+c
+t
+l e
+d
+s
+en
+an
+si
+d
+ty
+( d
+o
+)
+f
+i
+1
+–
+0
+t
+m
+tes
+A
+t of
+2 3 2 4
+cm-2 of Fe2O3-NiFe2O4/CF-3 sample before and after 1000–8000 CV cycles and (d) i–t test of Fe2O3-
+Fe O -NiFe O /CF-3composite.
+NiFe2 2O43/CF-3 2co4mposite.
+3. ExperimentalSection
+3. Experimental Section
+3.1. MaterialsandChemicalReagents
+3.1. Ma N ter ic ia k l e s l a c n h d l o C r h i e d m e ic h a e l x R a e h a y g d en ra ts t e (NiCl ·6H O) and potassium hydroxide (KOH) were
+2 2
+purNchicakseeld cfhrolomriMdec LheeaxnahByiodtreacthen o(NloigCyl2L·6iHm2iOte)d ,aSnhda npgohtaasi,sCiuhmin ah.yFderroroxiudsec h(KloOriHde) tweterraeh y-
+pudrrcahtaes(eFde fCrolm·4 HMcOL)eaann dBiaontehcyhdnrooluogsye tLhiamnioteldw, eSrheapnughrcahi,a Csehdinfar.o FmerSrionuosp chhalromridCeh teetmraic-al
+2 2
+hyRderaagtee n(FteCCol2 .,·4LHtd 2O.,)S ahnadn gahnahiy,dCrhoiunsa e.tDheainoonli wzeedrew pautrecrhwasaesdu fsreodmi nSianlolpehxapremri m Cenhteamliwcaolr k.
+ReAangeenxtp Ciroe.d, Lcotdtt.o, Snhsahnirgthoafi,U Cnhiqinloa.b Draeniodnwizaesdu wseadte.r was used in all experimental work.
+An expired cotton shirt of Uniqlo brand was used.
+3.2. PreparationofFe O -NiFe O /CFComposites
+2 3 2 4
+3.2. PreCpaFrawtiaosn couf tFien 2Oto 3-pNiieFcee 2 sOo 4/fC1F× Co3mcpmos2itferso ma100%cottonexpiredcommercialT-shirt.
+TheCFpieceswerecleanedbywashingwithadeionizedwater/ethanolmixtureunder
+CF was cut into pieces of 1 × 3 cm2 from a 100% cotton expired commercial T-shirt.
+sonicationfor20minandthendriedat150◦Cfor12hinanitrogenatmosphereinorder
+The CF pieces were cleaned by washing with a deionized water/ethanol mixture under
+toenhanceitsconductivity. Anamountof0.5gofFeCl ·4H Oand0.6gofNiCl ·6H O
+sonication for 20 min and then dried at 150 °C for 12 h in a2 nitr2ogen atmosphere in 2order2
+were dissolved in 150 mL deionized water and dried, and the CF was suspended in
+to it e . nh T a h n e c s e o i l t u s t c io o n nd w u a c s tiv h i e t a y t . e A d n a t am 40 ou ◦C nt u o n f d 0 e .5 r m g a o g f n F e e t C ic l2 s ·4 ti H rr 2 i O n g an in d a 0 n .6 o g il o b f a N th i . C A l2· f 6 t H er 2O 2 h,
+were dissolved in 150 mL deionized water and dried, and the CF was suspended in it. The
+theCFwasremoved,cleanedseveraltimeswithdeionizedwaterandethanol,andthen
+placed in a vacuum drying oven at 60 ◦C for 12 h, to obtain the Fe O -NiFe O /CF
+2 3 2 4
+catalyst. By changing the addition amounts of FeCl ·4H O salt, the influence on the
+2 2
+catalyticperformancewasexplored. ThecatalystwasnamedFe
+2
+O
+3
+-NiFe
+2
+O
+4
+/CF-X(where
+XindicatestheweightofFeCl ·4H Oingrams,TableS1).
+2 2
+
+Molecules2024,29,3082 9of12
+3.3. SynthesisoftheFe O /CFandNiO/CF
+3 4
+TheFe O /CFwassynthesizedwiththesameprocedureandonlyFeCl ·4H Owas
+3 4 2 2
+dissolvedindeionizedwater,whilefortheNiO/CFsample,NiCl ·6H Owasusedasthe
+2 2
+initialprecursorinthereactionmixture.
+3.4. MaterialCharacterization
+Themorphologyandmicrostructureofthesampleswereobservedbyscanningelec-
+tronmicroscopy(SEM,XL30-FEG,Tokyo,Japan)andtransmissionelectronmicroscopy
+(TEM, JEM-2010, Massachusetts, United State of America). The crystal phase composi-
+tionofthesampleswasstudiedbyanX-raydiffractometer(XRD,BrukerD-8Advanced
+diffractometer,Tokyo,Japan). Theelementalcompositionandvalencestatesofthesamples
+werestudiedbyX-rayphotoelectronspectroscopy(XPS,AXISULTRA,Suzhou,China).
+TheFeandNiioncontentsinthesamplesweredeterminedbyaninductivelycoupled
+plasmaopticalemissionspectrometer(ICP-OES,Vista-MPX,Massachusetts,UnitedState
+ofAmerica).
+3.5. ElectrocatalyticHydrogenEvolutionPerformance
+Electrochemicaltestswereperformedatroomtemperaturein1.0MKOHsolution
+usinganelectrochemicalworkstation(CHI760E,ShanghaiChenhuaCo.,Ltd. Shanghai,
+China) of a three-electrode system. A graphite electrode, Hg/HgO electrode, and CF-
+basedsampleswereusedasthecounter,reference,andworkingelectrode,respectively.
+The catalyst was activated by 50 cyclic voltammetry (CV) scans at a scanning rate of
+100mVs−1 between 0 and −1.5 V, followed by linear sweep voltammetry (LSV) at a
+scanning rate of 5 mV s−1. Stability tests were performed after every 1000–8000 CV
+cycles at a scan rate of 100 mV S−1, and then LSV was measured after every 1000 CV
+cyclesagainunderthesameconditions. Theelectrochemicalactivesurfacearea(ECSA)
+ofthesampleswasdeterminedfromdouble-layercapacitanceC valuesunderpotential
+dl
+windowsof0~0.1V.Electrochemicalimpedancespectroscopy(EIS)measurementswere
+performedinthefrequencyrangeof100kHZto100mHZ.Allmeasuredpotentialswere
+calibratedtothereversiblehydrogenelectrode(RHE)accordingtothefollowingformula:
+E( =E +0.098+0.059pH(1.0MKOH).
+RHE) (Hg/HgO)
+4. Conclusions
+In summary, we have successfully prepared Fe O -NiFe O /CF composites at a
+2 3 2 4
+lowtemperatureforanefficientHERelectrocatalyst. TheoptimalFe O -NiFe O /CF-3
+2 3 2 4
+electrocatalyst displayed enhanced HER performance with an overpotential of 127 mV
+atacurrentdensityof10mAcm−2 andsmallTafelslopeof44.9mVdec−1. TheFe O -
+2 3
+NiFe O /CFsamplealsoshowedgoodstabilityanddurabilityinalkalinesolutions. We
+2 4
+believethattheenhancedHERperformanceisduetothesynergisticeffectbetweenFe O
+2 3
+nanorodsandNiFe O nanoparticlesattheheterointerface. TheCFcanbeaneffective
+2 4
+substrateforthegrowthoftheFe O -NiFe O nanocompositeandprovideconductive
+2 3 2 4
+channelsfortheactivematerials’HERprocess.
+Supplementary Materials:Thefollowingsupportinginformationcanbedownloadedat: https://
+www.mdpi.com/article/10.3390/molecules29133082/s1.TableS1. Initialprecursorusedtosynthe-
+size different Fe O -NiFe O /CF-X catalysts. Table S2. Catalytic deposited on the CF during
+2 3 2 4
+synthesis. FigureS1. SEMimageof(a)Fe O -NiFe O /CF-1,(b)Fe O -NiFe O /CF-2,(c)Fe O -
+2 3 2 4 2 3 2 4 2 3
+NiFe O /CF-4,(d),Fe O -NiFe O /CF-5samples. TableS3. Catalyticperformancecomparison
+2 4 2 3 2 4
+ofFe O -NiFe O /CF-3samplewithpreviouslyreportedcatalysts. FigureS2. (a–i)CVcurvesof
+2 3 2 4
+as-synthesizedsamples,CFandCF(150◦C)between−0.1and0Vvs.Hg/HgOatdifferentscanrate
+mVs−1in1.0Malkalinesolution.(g)Theelectrochemicalsurfaceareaofcatalystswasdetermined
+fromCdl.Cdlvalueswascalculatedbyplottingthe∆J=(Ja-Jc)at0.05Vvs.Hg/HgOagainstvarious
+scanrates,the2Cdlisequaltotheslope. FigureS3. LSVcurvesofFe O -NiFe O /CF-3catalyst
+2 3 2 4
+
+Molecules2024,29,3082 10of12
+beforeandafterdifferentCVcycles.FigureS4.(a)SEMand(b)TEMimagesofFe O -NiFe O /CF-3
+2 3 2 4
+sampleafter8000CVcycles.References[39–46]arecitedinthesupplementarymaterials.
+AuthorContributions:Conceptualization,S.A.S.andA.Y.;methodology,S.A.S.,S.H.andN.U.(Nabi
+Ullah);software,S.H,N.U.(NoorUllah);validation,S.H,N.U.(NoorUllah). andS.A.S.;formal
+analysis,S.H.;investigation,S.H;resources,S.A.S.andA.Y;datacuration,S.HandN.U.(NoorUllah);
+writing—originaldraftpreparation,S.HandS.A.S.;writing—reviewandediting,H.YandN.U.(Nabi
+Ullah);visualization,S.A.S.;supervision,S.A.S.;projectadministration,S.A.S.,N.U.(NabiUllah)
+andA.Y.;fundingacquisition,S.A.S.Allauthorshavereadandagreedtothepublishedversionof
+themanuscript.
+Funding:Thisresearchwasfundedby[NationalNaturalScienceFoundationofChina]grantnumber
+[22150410332].
+InstitutionalReviewBoardStatement:Notapplicable.
+InformedConsentStatement:Notapplicable.
+DataAvailabilityStatement:Theoriginalcontributionspresentedinthestudyareincludedinthe
+articleandSupplementaryMaterials.Furtherinquiriescanbedirectedtothecorrespondingauthors.
+Acknowledgments:WearethankfultotheNationalNaturalScienceFoundationofChina(research
+grantno.22150410332)andthestart-upfoundationfortheintroductionoftalentatJiangsuUniversity
+ofScienceandTechnology,China.
+ConflictsofInterest:Theauthorsdeclarenoconflictofinterest.
+References
+1. Shi,Y.;Ma,Z.-R.;Xiao,Y.-Y.;Yin,Y.-C.;Huang,W.-M.;Huang,Z.-C.;Zheng,Y.-Z.;Mu,F.-Y.;Huang,R.;Shi,G.-Y.Electronic
+metal–supportinteractionmodulatessingle-atomplatinumcatalysisforhydrogenevolutionreaction.Nat.Commun.2021,12,
+3021.[CrossRef]
+2. Dou,Y.; Wang,A.; Zhao,L.; Yang,X.; Wang,Q.; Sudi,M.S.; Zhu,W.; Shang,D.Boostedhydrogenevolutionreactionfora
+nitrogen-richazo-bridgedmetallatedporphyrinnetwork.J.ColloidInterfaceSci.2023,650,943–950.[CrossRef]
+3. Vijayapradeep,S.;Logeshwaran,N.;Ramakrishnan,S.;Kim,A.R.;Sampath,P.;Kim,D.H.;Yoo,D.J.NovelPt-carboncore–shell
+decoratedhierarchicalCoMo2S4asefficientelectrocatalystsforalkaline/seawaterhydrogenevolutionreaction.Chem.Eng.J.
+2023,473,145348.[CrossRef]
+4. Chen,L.;Jiang,L.-W.;Wang,J.-J.InvestigatingtheStructuralEvolutionandCatalyticActivityofc-Co/Co MoElectrocatalystsfor
+3
+AlkalineHydrogenEvolutionReaction.Molecules2023,28,6986.[CrossRef]
+5. Ramachandran,E.;Krishnaiah,R.;Venkatesan,E.P.;Shaik,S.;Saleel,C.A.;Hussain,F.InvestigationintotheIdealConcoction
+forPerformanceandEmissionsEnhancementofJatrophaBiodiesel-DieselwithCuONanoparticlesUsingResponseSurface
+Methodology.ACSOmega2023,8,39067–39079.[CrossRef][PubMed]
+6. Thirumal,V.;Yuvakkumar,R.;Saravanakumar,B.;Ravi,G.;Isacfranklin,M.;Shobana,M.;Al-Sehemi,A.G.;Velauthapillai,D.
+CarbonizationandoptimizationofbiomasswasteforHERapplication.Fuel2022,324,124466.[CrossRef]
+7. Fakayode, O.A.; Yusuf, B.A.; Zhou, C.; Xu, Y.; Ji, Q.; Xie, J.; Ma, H.Simplistictwo-stepfabricationofporouscarbon-based
+biomass-derivedelectrocatalystforefficienthydrogenevolutionreaction.EnergyConvers.Manag.2021,227,113628.[CrossRef]
+8. Anantharaj,S.;Noda,S.;Jothi,V.R.;Yi,S.;Driess,M.;Menezes,P.W.Strategiesandperspectivestocatchthemissingpiecesin
+energy-efficienthydrogenevolutionreactioninalkalinemedia.Angew.Chem.Int.Ed.2021,60,18981–19006.[CrossRef]
+9. Huner,B.; Demir,N.; Kaya,M.F.HydrogenEvolutionReactionPerformanceofNi–Co-CoatedGraphene-Based3DPrinted
+Electrodes.ACSOmega2023,8,5958–5974.[CrossRef]
+10. McCrum,I.T.;Koper,M.T.Theroleofadsorbedhydroxideinhydrogenevolutionreactionkineticsonmodifiedplatinum.Nat.
+Energy2020,5,891–899.[CrossRef]
+11. Hao,J.;Zhuang,Z.;Cao,K.;Gao,G.;Wang,C.;Lai,F.;Lu,S.;Ma,P.;Dong,W.;Liu,T.Unravelingtheelectronegativity-dominated
+intermediateadsorptiononhigh-entropyalloyelectrocatalysts.Nat.Commun.2022,13,2662.[CrossRef][PubMed]
+12. Tang,Z.;Wei,S.;Wang,Y.;Dai,L.Three-dimensionalreducedgrapheneoxidedecoratedwithcobaltmetaphosphateashigh
+cost-efficiencyelectrocatalystsforthehydrogenevolutionreaction.RSCAdv.2022,12,10522–10533.[CrossRef][PubMed]
+13. Wang,T.;Tao,L.;Zhu,X.;Chen,C.;Chen,W.;Du,S.;Zhou,Y.;Zhou,B.;Wang,D.;Xie,C.;etal.Combinedanodicandcathodic
+hydrogenproductionfromaldehydeoxidationandhydrogenevolutionreaction.Nat.Catal.2022,5,66–73.[CrossRef]
+14. Song,D.;Sun,J.;Sun,L.;Zhai,S.;Ho,G.W.;Wu,H.;Deng,W.Acidicmediaregulatedhierarchicalcobaltcompoundswith
+phosphorousdopingaswatersplittingelectrocatalysts.Adv.EnergyMater.2021,11,2100358.[CrossRef]
+15. Abdelghafar,F.; Xu,X.; Jiang,S.P.; Shao,Z.Designingsingle-atomcatalyststowardimprovedalkalinehydrogenevolution
+reaction.Mater.Rep.Energy2022,2,100144.[CrossRef]
+
+Molecules2024,29,3082 11of12
+16. Sun,H.;Xu,X.;Kim,H.;Shao,Z.;Jung,W.Advancedelectrocatalystswithunusualactivesitesforelectrochemicalwatersplitting.
+InfoMat2024,6,e12494.[CrossRef]
+17. Liu,D.;Xu,G.;Yang,H.;Wang,H.;Xia,B.Y.Rationaldesignoftransitionmetalphosphide-basedelectrocatalystsforhydrogen
+evolution.Adv.Funct.Mater.2023,33,2208358.[CrossRef]
+18. Zeng,L.;Zhao,Z.;Huang,Q.;Zhou,C.;Chen,W.;Wang,K.;Li,M.;Lin,F.;Luo,H.;Gu,Y.;etal.Single-atomCr–N siteswith
+4
+highoxophilicityinterfacedwithPtatomicclustersforpracticalalkalinehydrogenevolutioncatalysis.J.Am.Chem.Soc.2023,
+145,21432–21441.
+19. Duan,W.;Han,S.;Fang,Z.;Xiao,Z.;Lin,S.InsitufillingoftheoxygenvacancieswithdualheteroatomsinCo O forefficient
+3 4
+overallwatersplitting.Molecules2023,28,4134.[CrossRef]
+20. Smialkowski,M.;Tetzlaff,D.;Hensgen,L.;Siegmund,D.;Apfel,U.-P.Fe/CoandNi/Co-pentlanditetypeelectrocatalystsforthe
+hydrogenevolutionreaction.Chin.J.Catal.2021,42,1360–1369.[CrossRef]
+21. Lu,L.;Wu,X.HeteronuclearDualMetalAtomElectrocatalystsforWater-SplittingReactions.Molecules2024,29,1812.[CrossRef]
+[PubMed]
+22. Chen,Z.;Wei,W.;Ni,B.-J.Cost-effectivecatalystsforrenewablehydrogenproductionviaelectrochemicalwatersplitting:Recent
+advances.Curr.Opin.GreenSustain.Chem.2021,27,100398.[CrossRef]
+23. Porcu,S.;Secci,F.;Ricci,P.C.Advancesinhybridcompositesforphotocatalyticapplications:Areview.Molecules2022,27,6828.
+[CrossRef][PubMed]
+24. Yan,W.;Zhang,J.;Lü,A.;Lu,S.;Zhong,Y.;Wang,M.Metallurgy;Materials,Self-supportingandhierarchicallyporousNix
+Fe—S/NiFe O heterostructureasabifunctionalelectrocatalystforfluctuatingoverallwatersplitting. Int. J.Miner. 2022,29,
+2 4
+1120–1131.[CrossRef]
+25. Wang,P.;Wang,B.Designingself-supportedelectrocatalystsforelectrochemicalwatersplitting:Surface/interfaceengineering
+towardenhancedelectrocatalyticperformance.ACSAppl.Mater.Interfaces2021,13,59593–59617.[CrossRef][PubMed]
+26. Anantharaj,S.;Noda,S.Amorphouscatalystsandelectrochemicalwatersplitting:Anuntoldstoryofharmony.Small2020,16,
+1905779.[CrossRef]
+27. Shah, S.A.; Shen, X.; Yuan, A.; Ji, Z.; Yue, X.; Zhu, G.; Zhou, H.; Xu, K.; Zhu, J.; Chen, Y. One step in-situ synthesis of
+Ni S /Fe O /N-dopedcarboncompositesonNifoamasanefficientelectrocatalystforoverallwatersplitting.Appl.Surf.Sci.
+3 2 2 3
+2020,527,146918.[CrossRef]
+28. Liu,S.;Li,T.;Shi,F.;Ma,H.;Wang,B.;Dai,X.;Cui,X.Constructingmultipleactivesitesinironoxidecatalystsforimproving
+carbonylationreactions.Nat.Commun.2023,14,4973.[CrossRef]
+29. Chen,X.-Q.;Wu,S.-B.;Cao,R.-B.;Tao,J.-S.Preparationandcharacterizationofnanosizedhematitecolloidsusinggreenvitriolas
+ferrumsource.J.Nanomater.2014,2014,46.[CrossRef]
+30. Hoefer, H.E.; Brey, G.P.; Schulz-Dobrick, B.; Oberhänsli, R.Thedeterminationoftheoxidationstateofironbytheelectron
+microprobe.Eur.J.Mineral.1994,6,407–418.[CrossRef]
+31. Xu,L.;Shah,S.A.;Khan,H.;Sayyar,R.;Shen,X.;Khan,I.;Yuan,A.;Yaseen,W.;Ghazi,Z.A.;Naeem,A.;etal.Ni S nanostrips@
+3 2
+FeNi-NiFe O nanoparticlesembeddedinN-dopedcarbonmicrosphere: Animprovedelectrocatalystforoxygenevolution
+2 4
+reaction.J.ColloidInterfaceSci.2022,617,1–10.[CrossRef][PubMed]
+32. Selvasundarasekar,S.S.;Bijoy,T.;Kumaravel,S.;Karmakar,A.;Madhu,R.;Bera,K.;Nagappan,S.;Dhandapani,H.N.;Lee,S.-C.;
+Kundu,S.ConstructingelectrospunspinelNiFe O nanofibersdecoratedwithpalladiumionsasnanosheetsheterostructure:
+2 4
+BoostingelectrocatalyticactivityofHERinalkalinewaterelectrolysis.Nanoscale2022,14,10360–10374.[PubMed]
+33. Jang,K.-b.;Park,K.R.;Mo,C.B.;Kim,S.;Jeon,J.;Lim,S.-c.;Ahn,C.;Han,H.;Kim,D.;Lee,S.H.Syntheticcontrolofthesurface
+areainnickelcobaltoxideforglucosedetectionviaadditive-assistedwetchemicalmethod.Nature2022,12,19546.[CrossRef]
+[PubMed]
+34. Bao, F.; Kemppainen, E.; Dorbandt, I.; Bors, R.; Xi, F.; Schlatmann, R.; van de Krol, R.; Calnan, S. Understanding the hy-
+drogen evolution reaction kinetics of electrodeposited nickel-molybdenum in acidic, near-neutral, and alkaline conditions.
+ElectroChemicalChem2021,8,195–208.[CrossRef]
+35. Prats,H.;Chan,K.ThedeterminationoftheHOR/HERreactionmechanismfromexperimentalkineticdata.Phys.Chem.Chem.
+Phys.2021,23,27150–27158.[CrossRef][PubMed]
+36. Wei,J.;Zhou,M.;Long,A.;Xue,Y.;Liao,H.;Wei,C.;Xu,Z.J.Heterostructuredelectrocatalystsforhydrogenevolutionreaction
+underalkalineconditions.Nano-MicroLett.2018,10,1–15.[CrossRef][PubMed]
+37. delCarro,L.DirectSynthesisofMoS2onSiliconbyAtmosphericPressureCVDasCatalystforHydrogenGeneration. 2014.
+Availableonline:https://pubs.rsc.org/en/content/articlelanding/2018/nr/c7nr09235k(accessedon21June2024).
+38. Shah,S.A.;Xu,L.;Sayyar,R.;Bian,T.;Liu,Z.;Yuan,A.;Shen,X.;Khan,I.;Tahir,A.A.;Ullah,H.GrowthofMoS nanosheets
+2
+onM@N-dopedcarbonparticles(M=Co,FeorCoFeAlloy)asanefficientelectrocatalysttowardhydrogenevolutionreaction.
+Chem.Eng.J.2022,428,132126.[CrossRef]
+39. Shinde,P.V.;Mane,P.;Chakraborty,B.;Rout,C.S.SpinelNiFe O nanoparticlesdecorated2DTi C MXenesheetsforefficient
+2 4 3 2
+watersplitting:Experimentsandtheories.J.ColloidInterfaceSci.2021,602,232–241.[CrossRef][PubMed]
+40. Munonde, T.S.; Zheng, H.; Matseke, M.S.; Nomngongo, P.N.; Wang, Y.; Tsiakaras, P. A green approach for enhancing the
+electrocatalytic activity and stability of NiFe O /CB nanospheres towards hydrogen production. Renew. Energy 2020, 154,
+2 4
+704–714.[CrossRef]
+
+Molecules2024,29,3082 12of12
+41. Shi,Y.;Feng,X.;Guan,H.;Zhang,J.;Hu,Z.Poroussunflowerplate-likeNiFe O /CoNi–Sheterostructureasefficientelectrocata-
+2 4
+lystforoverallwatersplitting.Int.J.HydrogenEnergy2021,46,8557–8566.[CrossRef]
+42. Zhang,K.;Jiang,P.;Gu,Q.;Leng,Y.;Zhang,P.DesignofaHigh-EfficiencyBifunctionalElectrocatalyst:Rich-Nitrogen-Doped
+ReducedGrapheneOxide-ModifiedCarbonCloth-GrowingNickel-IronComplexOxidesforOverallWaterSplitting. Energy
+Fuels2022,36,4911–4923.[CrossRef]
+43. Cao, L.; Li, Z.; Su, K.; Zhang, M.; Cheng, B. Rational design of hollow oxygen deficiency-enriched NiFe O @N/rGO as
+2 4
+bifunctionalelectrocatalystsforoverallwatersplitting.J.EnergyChem.2020,54,595–603.[CrossRef]
+44. Zheng,H.-B.;Chen,H.-H.;Wang,Y.-L.;Gao,P.-Z.;Liu,X.-P.;Rebrov,E.V.FabricationofMagneticSuperstructureNiFe O @MOF-
+2 4
+74 and its derivative for electrocatalytic hydrogen evolution with AC magnetic field. ACS Appl. Mater. Interfaces 2020, 12,
+45987–45996.[CrossRef][PubMed]
+45. Mohamed,M.J.S.;Caliskan,S.;Gondal,M.A.;Almessiere,M.A.;Baykal,A.;Slimani,Y.;Elsayed,K.A.;Hassan,M.;Auwal,I.A.;
+Khan,A.Z.;etal.Se-dopedmagneticCo–Nispinelferritenanoparticlesaselectrochemicalcatalystsforhydrogenevolution.ACS
+Appl.NanoMater.2023,6,7330–7341.[CrossRef]
+46. Du,X.;Tan,M.;Wei,T.;Kobayashi,H.;Song,J.;Peng,Z.;Zhu,H.;Jin,Z.;Li,R.;Liu,W.Highlyefficientandrobustnickel-iron
+bifunctionalcatalystcouplingselectivemethanoloxidationandfreshwater/seawaterhydrogenevolutionviaCO-freepathway.
+Chem.Eng.J.2023,452,139404.[CrossRef]
+Disclaimer/Publisher’s Note: The statements, opinions and data contained in all publications are solely those of the individual
+author(s)andcontributor(s)andnotofMDPIand/ortheeditor(s).MDPIand/ortheeditor(s)disclaimresponsibilityforanyinjuryto
+peopleorpropertyresultingfromanyideas,methods,instructionsorproductsreferredtointhecontent.
+

@@ -1,0 +1,859 @@
+RESEARCH ARTICLE
+www.advancedscience.com
+Coupling of Engineered High Entropy Alloys with
+Semiconducting TiO Nanofilms for Scalable and Ultrafast
+2
+Alkaline Hydrogen Evolution Reaction
+Zichu Zhao, Yanzhang Zhao, Wen-Qiang Wang, Xiaying Xin, Yan Jiao, Andrew D. Abell,
+Cheryl Suwen Law,* and Abel Santos*
+1.Introduction
+Highentropyalloys(HEAs)areapromisingclassofelectrocatalystsbecause
+oftheirhighreactivity.However,thedevelopmentofscalablesynthesis The urgent pursuit of carbon neutrality
+requires dramatic advances in alternative
+strategiesandfundamentalunderstandingoftheirinterfacialsynergywith
+formsofenergythatareaccessible,afford-
+metaloxidesremainsunderexplored.Herein,anewapproachisreportedfor
+able, sustainable, and reliable. Electrocat-
+thefabricationofhybridphotoelectrocatalystscombiningPtFeCoNiCuHEA alysts are promising platforms to tackle
+structureswithtitaniumdioxide(TiO )nanofilmsviasequentialanodization carbon dioxide emissions and address the
+2
+andelectrodeposition.TheTiO nanofilmsfunctionasbothaphotoactive rapidly increasing global demand for re-
+2
+newable energy because they can drive a
+semiconductingframeworkandnanostructuredsubstrate,enablingcontrolled
+broad range of reactions in an environ-
+nucleationandgrowthofHEAnanoparticlesthroughaVolmer–Weber
+mentally friendly manner. HEAs materi-
+mechanism.Theresultinghybridphotoelectrocatalystsexhibitoutstanding
+als are defined by the number of princi-
+hydrogenevolutionreaction(HER)performance,achievinganultralow pal elements (five or more), element frac-
+overpotentialof–11mVat10mAcm−2undersimultaneousilluminationand tions (5–35%), mixing entropy (≥ 1.5 R),
+elevatedelectrolytetemperature.Mechanisticstudiescombininginsitu and number of phases (one or two).[1,2]
+HEAshavegarneredconsiderableattention
+Ramanspectroscopyanddensityfunctionaltheorysimulationsrevealthat
+in recent years as promising materials for
+HERoccursthroughthreedistinctstages,duringwhichtheTiO support
+2 catalysis.[3–6]Theunique“cocktaileffect”of
+undergoesdynamicstructuralandelectronicevolution–fromapassive HEAsisattributedtothesynergybetween
+scaffoldtoanelectron-bufferinglayer.ThisprocessinvolvesTi4+reduction,
+different constituent metal atoms enables
+hydrogenintercalation,andacceleratedturnoverofOH*intermediates,which effectivemodulationoftheadsorptionand
+desorption energies of reaction intermedi-
+collectivelyenhanceinterfacialchargetransferandbroadenactive-site
+ates and provides a high density of active
+availability.Thesefindingsprovidenewinsightsintothedynamicinterplay
+sites with electron transferability.[7] Con-
+betweenHEAs–semiconductingmetaloxidesubstrates,enablinga
+sequently, electrocatalysts based on HEAs
+generalizabledesignstrategyforscalable,high-performance have been extensively explored in reac-
+photoelectrocatalysts. tions such as hydrogen evolution reac-
+tion (HER),[8] oxygen evolution reaction
+W.-Q.Wang,X.Xin
+Z.Zhao,Y.Zhao,Y.Jiao,C.S.Law,A.Santos BeatyWaterResearchCentre
+SchoolofChemicalEngineering DepartmentofCivilEngineering
+TheUniversityofAdelaide Queen’sUniversity
+Adelaide,SouthAustralia5005,Australia Kingston,OntarioK7L3N6,Canada
+E-mail:cherylsuwen.law@adelaide.edu.au;abel.santos@adelaide.edu.au
+Z.Zhao,A.D.Abell,C.S.Law,A.Santos
+InstituteforPhotonicsandAdvancedSensing(IPAS)
+TheORCIDidentificationnumber(s)fortheauthor(s)ofthisarticle TheUniversityofAdelaide
+canbefoundunderhttps://doi.org/10.1002/advs.202514558 Adelaide,SouthAustralia5005,Australia
+©2025TheAuthor(s).AdvancedSciencepublishedbyWiley-VCH A.D.Abell
+GmbH.ThisisanopenaccessarticleunderthetermsoftheCreative DepartmentofChemistry
+CommonsAttributionLicense,whichpermitsuse,distributionand TheUniversityofAdelaide
+reproductioninanymedium,providedtheoriginalworkisproperlycited. Adelaide,SouthAustralia5005,Australia
+DOI:10.1002/advs.202514558
+Adv.Sci.2026,13,e14558 e14558(1of14) ©2025TheAuthor(s).AdvancedSciencepublishedbyWiley-VCHGmbH
+
+www.advancedsciencenews.com www.advancedscience.com
+(OER),[9]andcarbondioxidereductionreaction(CO RR).[10]De- 2.ResultsandDiscussion
+2
+spitetheirpotential,thesynthesisofHEAsremainsacriticalbot-
+tleneck to precisely controlling their composition and address- 2.1.SuperiorityofHighEntropyAlloysonTitaniumDioxidefor
+ing key fundamental questions about the correlation between PEC-DrivenHER
+material properties and reaction performance.[11] HEAs can be
+fabricated by several methods, including carbothermal shock Figure 1a illustrates the fabrication process used to deposit Pt-
+synthesis,[12] rapid moving-bed pyrolysis,[13] laser ablation,[14] FeCoNiCu HEA structures on TiO 2 nanofilms (TiO 2 –NFs). Ti-
+andpulsedlaserdeposition.[15] However,thesetechniqueshave tanium (Ti) substrates were cut into 1.5 × 1.5 cm chips and
+limitationstocontrolthecompositionofHEAsandrequirehigh- anodized in a custom-built electrochemical reactor with a plat-
+cost equipment and sophisticated processes. For example, car- inummeshusedasthecounterelectrode.AnodizationofTisub-
+bothermal shock synthesis and rapid moving-bed pyrolysis re- strateswasperformedina0.5msulfuricacidundertheappli-
+quirehightemperatures(i.e.,≈2000and≈1000K,respectively), cation of an anodic voltage of 120 V for 3 min. This process
+and fast heating rates of 200 K s−1. These conditions impose led to the top–down formation of TiO 2 –NFs featuring charac-
+safety risks and require complex, expensive equipment. Simi- teristic pits on the surface, the average size of which was es-
+larly,laser-basedsynthesismethodsnecessitatespecialistequip- timated to be 126 ± 13 nm. Subsequently, PtFeCoNiCu HEA
+mentandcontrolledsafetyenvironmentstopreventharmfrom was electrodeposited onto the TiO 2 –NFs, using a two-electrode
+laserexposure.Furthertothat,thesemethodssufferfromintrin- systemunder1V,whereTiO 2 –NFsweretheworkingelectrode
+sic constraints for scalability, limiting the production of HEAs and a Pt wire mesh was the counter electrode. The deposition
+tosmallbatches.Incontrast,electrodepositionoffersasimple, electrolyte contained 2 mm of Pt, Fe, Co, Ni, and Cu ion pre-
+rapid, cost-effective, scalable, and versatile approach to control cursors. During the electrodeposition process, the HEA struc-
+thecomposition,size,andgeometryofHEAsthroughelectrode- turesgrewfromthepitstothesurfaceoftheTiO 2 –NF,follow-
+positionparameterssuchastime,voltage,andelectrolytecom- ingaVolmer–Weberislandgrowthmechanism,wherenanopar-
+positionwithouttheneedforcappingorreducingagents.[16]The ticles nucleate, grow, and merge on the surface of TiO 2 –NF
+electrodepositionprocessreliesonaconductivesubstratetoad- with the electrodeposition time.[23,24] The empty pits were at-
+sorbfreemetalionsfromtheelectrolyte,whicharedepositedun- tributed to the HEA on the TiO 2 –NF surface competing with
+dertheactionofanexternallyappliedelectricfield.Assuch,this nearby pits for free metal ions in the solution, leading to the
+fabricationapproachalsoopensnewavenuestocombineHEAs aggregation of larger HEA structures associated with the local-
+withabroadrangeofsubstratesandmaterials.Apotentialpath ization of the electric field across the surface of the semicon-
+isthecombinationofHEAswithsemiconductorstofurtheren- ductorfilm.Figure1adepictsthemorphologyevolutionofHEA
+hance the performance of this platform material through pho- growth, from bare TiO 2 –NF to HEA/TiO 2 –NF. Figure 1b (left)
+toelectrocatalysis(PEC).[17] Inthissystem,HEAscanefficiently presents a cross-sectional field-emission scanning electron mi-
+captureelectronsgeneratedbythesemiconductorunderillumi- croscopy (FEG-SEM) image of a representative TiO 2 –NF fabri-
+nation to reduce electron–hole recombination in the semicon- catedbyanodization,revealingthestructureofthesemiconduc-
+ductorandenableanefficientutilizationofelectronstodrivere- tornanofilmfeaturingpitsdistributedrandomlyacrossitssur-
+actions.Ofallsemiconductors,anodizedtitaniumdioxide(TiO ) face. Further FEG-SEM images are shown in Figure S1 (Sup-
+2
+–benchmarkphotocatalysts –intheformoffilms,nanotubes, porting Information). Figure 1b (right) shows the top view of
+andnanoflakes,hasbeendemonstratedasanexcellentsupport- the resultant HEA/TiO 2 –NF after 40 min of electrodeposition,
+ingmaterialtodevelopPECsystems.[18–20]TiO isalsoan–type where HEA particles grew out of the pit holes and aggregated
+2
+semiconductorcatalyst,whichfavourscathodicreactionssuchas toformlargerclustersontheTiO 2 –NFsurface.Figure1cshows
+HERforgeneratinggreenhydrogengas.[21]Sofar,thecombina- the X-ray diffraction (XRD) spectra of representative TiO 2 –NFs
+tion of TiO 2 structures with metal atoms for PEC-driven HER andHEA/TiO 2 –NFs.Thisanalysisrevealedthattheas-produced
+hasbeenlimitedtosingle-atomstructuressuchasplatinum.[22] TiO 2 –NFconsistedprimarilyoftitaniumdioxide,withminimal
+However,thecombinationofTiO structureswithHEAsforPEC diffraction peaks characteristic of the anatase crystal phase ob-
+remainsbroadlyunexplored.
+2 servedat2𝜃=25.37°and48.05°.Theformationofsmallanatase
+Inthiscontext,thisstudyintroducesanovelPECsystemthat crystalsintheas-producedTiO 2 –NFwasattributedtolocalized
+combines anodized TiO nanofilms as the semiconductor sub- Jouleheatingduringhigh-voltageanodization.[19] TheXRDpat-
+2
+strate with a PtFeCoNiCu HEA as a monolithic catalyst. Using ternoftheHEA/TiO 2 –NFretainedsimilarfeaturestothoseofthe
+HERperformanceastheevaluationmetric,weelucidatestrong as-producedTiO 2 –NFbecauseoftheincompletecoveragebythe
+synergistic interactions between anodized TiO nanofilms and surfacebyHEAparticles.However,thediffractionpeaksmatched
+2
+HEAs compared to pure titanium thin films, anodized TiO the characteristic single-phase face-centered cubic (FCC) struc-
+2
+nanofilms,andHEAfilms.Wefurtherinvestigatetherelation- tureofCoPtNiphases(PDF#04-003-9441).[25] Additionally,the
+ship between photon responsivity and catalytic performance of weak and broad diffraction peaks observed in the XRD spectra
+thishybridsystemwhenthemorphologyandsizeofHEAsare ofHEA/TiO 2 –NFwereattributedtoatomicstackingdislocation
+finely modified. We also explore how the reaction temperature withintheatomicplanesinducedbylatticedistortioninthePt-
+influencestheperformanceoftheproposedPECsystem.These FeCoNiCu HEA metallene.[26] Figure S2 (Supporting Informa-
+resultslayasolidfoundationforfurtherdevelopmentsinHEA tion)showstheRamanspectrumofamodelas-producedTiO 2 –
+photoelectrocatalysts,addressingkeyfundamentalquestionsfor NFandaHEA/TiO 2 –NFafter40minofelectrodeposition,which
+the design of highly efficient PEC systems – with implications furtherdemonstratesthepresenceofanataseTiO 2 .[27] Inapre-
+acrossarangeofreactionsandapplications. liminarysetofexperiments,weinvestigatedtheHERenhance-
+Adv.Sci.2026,13,e14558 e14558(2of14) ©2025TheAuthor(s).AdvancedSciencepublishedbyWiley-VCHGmbH
+
+www.advancedsciencenews.com www.advancedscience.com
+Figure1. StructuralandelectrochemicalcharacterizationofanodicTiO nanofilms(TiO –NF)andPtFeCoNiCuHEA/TiO –NFproducedbyanodization
+2 2 2
+at120Vandelectrodepositionat1Vfor40min.a)SchematicimageofthefabricationprocessofPtFeCoNiCuHEA/TiO –NFviaanodizationoftitanium
+2
+filmat120Vby0.5msulfuricacidfor3mintogetanodicTiO –NFandelectrodepositionprocessofTiO –NFat1Vthroughtwo-electrodessystemby
+2 2
+mixedaqueoussolutionofmetalprecursorsfor40min.b)Cross-sectional(left)andtop(right)viewFEG-SEMimagesofarepresentativeanodicTiO –
+2
+NFandPtFeCoNiCuHEA/TiO –NFrespectively,showingthecharacteristicmorphologyofthesecatalysts(scalebar=1and2μm,respectively)(NB:
+2
+dataarepresentedasmean±SDofasamplesizeofn≥3independentmeasurements).c)XRDspectraofTiO –NFandPtFeCoNiCuHEA/TiO –NF
+2 2
+withalignedlegendsindicatingthecharacteristicpeaksofanataseTiO ,titanium,andCoPtNi.d)Linearsweepvoltammogramsoftitaniumfilmswithout
+2
+anymodification,TiO –NF,PtFeCoNiCuHEA/titaniumfilms,andPtFeCoNiCuHEA/TiO –NFundervaryingoverpotentialE)from–0.8to0.0Vversus
+2 2
+RHEatarateof0.005Vs−1in1MKOH.e)OverpotentialvaluesincolumnsversusRHEat𝜂 of(d).f)LinearsweepvoltammogramsofPtFeCoNiCu
+10
+HEA/TiO –NFfabricatedatelectrodepositiontimefor40minunderilluminatedandnon-illuminatedconditionsandroomtemperaturewithvariedE
+2
+from–0.8to0.0VversusRHEatarateof0.005Vs−1in1MKOH.g)OverpotentialvaluesincolumnsversusRHEat𝜂 of(f).h)Chronoamperometry
+10
+ofPtFeCoNiCuHEA/TiO –NFproducedbyanodizationat120Vandelectrodepositionat1Vfor40min,underONandOFFilluminationmodesin1M
+2
+KOHunderE=0.0VversusRHEforaperiodof10s.
+Adv.Sci.2026,13,e14558 e14558(3of14) ©2025TheAuthor(s).AdvancedSciencepublishedbyWiley-VCHGmbH
+
+www.advancedsciencenews.com www.advancedscience.com
+mentinthemonolithicPtFeCoNiCuHEA/TiO –NFcatalystsby 2.2.ChemicalandStructuralCharacterizationofHEA/TiO –NFs
+2 2
+performingacomparisonwiththatofabaretitanium(Ti)film,an
+as-producedTiO –NF,andaHEA/Tifilm(Figure1d).Theanaly- ToidentifyHERenhancementsassociatedwiththestructureand
+2
+sisrevealedthatthePtFeCoNiCuHEA/TiO –NFshowedthebest compositionoftheHEA/TiO –NFsystem,weperformedacom-
+2 2
+performance.Thecurrentdensity(J)outputofthenanofilmswas prehensivesetofcharacterizationstogaininsightsintothekey
+measured under an applied external bias voltage ranging from featuresofthisPECplatform.Figure2apresentsthehigh-angle
+–0.80 to 0.00 V versus RHE. The overpotential (E) required to annular dark-field scanning transmission electron microscopy
+achieveacurrentdensityofJ=10mAcm−2 (i.e.,𝜂 )wasused (HAADF-STEM)imagesalongwithcorrespondingEDXelement
+10
+as a performance figure of merit for HER. Figure 1e presents mappingimagesofaPtFeCoNiCuHEA/TiO –NFsynthesizedby
+2
+asummaryoftheoverpotentialvaluesofaTifilm,aTiO –NF, electrodepositionofPtFeCoNiCufromaqueousprecursorsonto
+2
+aHEA/Tifilm,andaPtFeCoNiCuHEA/TiO –NFat𝜂 ,which theTiO –NF.TheEDXelementmappingimagesrevealedthat
+2 10 2
+weremeasuredtobe–0.740±0.074V,–0.640±0.060,–0.260± Pt, Fe, Co, Ni, and Cu were uniformly distributed within the
+0.026,and–0.089±0.0089VversusRHE,respectively.Thees- structure of the HEA particles, whereas Ti and O were found
+timated difference in overpotential between the HEA/TiO –NF tobeuniformlydistributedintheTiO –NFsubstrate.FigureS3
+2 2
+andtheothercontrolsystemswasdeterminedtobe0.65,0.55, (Supporting Information) provides further confirmation of the
+and 0.17 V versus RHE for the Ti film, TiO –NF, and HEA/Ti morphologyandhomogeneousdistributionofPt,Fe,Co,Ni,and
+2
+film,respectively.Thisresultdenotedtheexistenceofacocktail- Cu in the HEA/TiO –NF system by EDX mapping performed
+2
+like synergistic effect between both components of the hybrid duringFEG-SEMcharacterization.Figure2bshowsanHAADF-
+monolithiccatalyst(i.e.,TiO –NFandHEAnanoparticles),which STEMimageoftheHEA/TiO –NFoveranextendedarea,where
+2 2
+boostedtheHERperformancebyoneorderofmagnitude.This thebrighterregionscorrespondedtotheHEAparticles,andthe
+enhancement could not solely be attributed to the simple ad- relatively darker regions featuring porous structures were the
+ditionofindependentcontributionsfromthetwocomponents. TiO –NFsubstrate.Figure2cillustratestheselectedareaelectron
+2
+Figure 1f shows the effect of illumination on the HER perfor- diffraction (SAED) patterns of the PtFeCoNiCu HEA/TiO –NF
+2
+mance of a HEA/TiO –NF at room temperature in 1 M KOH with the characteristic XRD patterns, which further confirmed
+2
+performedbylinearsweepvoltammetry(LSV).TheHERcurrent the single-phase FCC structure of HEA and the anatase phase
+densityofHEA/TiO –NFunderillumination(i.e.,ON)demon- of TiO in the TiO –NF substrate. Figure 2d (left) provides an
+2 2 2
+strated an enhanced performance associated to photon adsorp- HAADF-STEMimageoftheedgeofaHEA/TiO –NF.Because
+2
+tionbytheTiO filmandtheadditionalgenerationofelectron– oftheextendedthicknessoftheTiO –NF(i.e.,225±23nmof
+2 2
+holepairsthatsynergisticallycontributedtoHERefficiency,with anodic film over the titanium substrate), the feasibility of fast
+extrachargecarriersontopofthosegeneratedbytheexternally Fouriertransform(FFT)analysisovertheextendedinterfaceof
+applied bias on HEA/TiO –NF. Figure 1g provides a compari- both systems was limited. To overcome this, a more marginal
+2
+sonofoverpotentialsatONandOFFilluminationstatesforthe areawasselectedforimaging.Figure2d(right)showstheFFT
+HEA/TiO –NF at 𝜂 and 𝜂 of HER. At 𝜂 , the overpoten- patternsofthemagnifiedleftimage,whichclearlyconfirmsthe
+2 10 100 10
+tials of HEA/TiO –NF at ON and OFF states (i.e., ON: –0.081 FCC structure of the HEA and the anatase phase of the TiO –
+2 2
+± 0.008 V; OFF: –0.089 ± 0.009 V vs RHE) showed a reduced NF. Additionally, Figure S4 (Supporting Information) further
+improvementof≈0.008V.Incontrast,at𝜂 thegapofoverpo- supportedthesefindings,corroboratingthecorrelationbetween
+100
+tentialsoftheHEA/TiO –NFincreasedupto≈0.04V(i.e.,ON: XRDandSAEDresults.X-rayphotoelectronspectroscopy(XPS)
+2
+–0.28±0.03V;OFF:–0.32±0.03VvsRHE).Itisworthnoth- was performed to characterize the electronic states and metal-
+ingthatPtFeCoNiCuHEAisnotasemiconductorthatcanutilize licelementsoftheHEA/TiO –NF.Figure2e–jpresentstheXPS
+2
+photonstogenerateelectron–holepairs.Therefore,theincrease spectraofTi2p,Pt4f,Fe2p,Co2p,Ni2p,andCu2p,respectively,
+ofoverpotentialbetweenONandOFFstates,from0.008Vat𝜂 andFigureS5(SupportingInformation)showsthefullXPSspec-
+10
+to0.04Vat𝜂 ,furtherconfirmedthepivotalroleoftheTiO – trumoftheHEA/TiO –NF.Theseanalysesconfirmedthepres-
+100 2 2
+NFinthemonolithiccatalyststoboostHERperformance,par- enceofelementsthatwereconsistentwiththecompositionofthe
+ticularly at high current density range under ON illumination HEA/TiO –NFobtainedbyEDXelementmappingimages(vide
+2
+status. This enhancement could be attributed to an improved supra).Figure2edisplaystheXPSspectrumofTi2p,wherethe
+reduction of photogenerated charge carrier losses in the TiO – peakat≈464.60eVcorrespondstotheTiO substrate,whereas
+2 2
+NF by the HEA nanoparticles at higher current density, where the peak at 458.60 eV was attributed to the anatase phase of
+the effect of the external bias is more effective to extract elec- TiO associatedwithlocalizedJouleheatingduringhigh-voltage
+2
+trons and holes.[28] Figure 1h illustrates the photocurrent gen- anodization.[29,30] Figure 2f shows the XPS spectrum of Pt 4f,
+eratedbytheHEA/TiO –NFproducedby40minofelectrodepo- with the peak at 71.30 eV indicating metallic Pt, and the peak
+2
+sitionuponsequentialON/OFFilluminationcyclesat0Vversus at74.65eVbeingattributedtotheTiatomfromTiO ,potentially
+2
+RHE. indicating the formation of Pt Ti.[31,32] Figure 2g illustrates the
+3
+Thisgraphclearlydemonstratedthatthesefilmsexhibitedan XPSspectrumofFe2p,withthepeakat711.10eVcorrespond-
+immediate response to the input light stimulus, generating a ingtoFe/Niandthepeakat724.20eVtoFe/Cu,highlightingthe
+photoanodiccurrentdensitysignificantlyhigherthanthenegli- coordinationenvironmentofFeintheHEA.[33,34]ThepeaksofCo
+giblecurrentobservedunderdarkconditions(i.e.,J≈0mAcm−2 andNiinFigure2h,iwereat≈785.5and847.0eV,respectively,
+atOFFillumination).Thephotocurrentdifferencebetweenlight whichdifferedfromtheircorrespondingmetallicpeaksexpected
+ONandOFFstates(i.e.,ΔJ=J –J )wasmeasuredtobe0.60 at778.2and852.6eV.Thisshiftinpeakpositionscouldbeasso-
+ON OFF
+±0.06mAcm−2. ciatedwiththealteredlocalchemicalenvironmentofCoandNi
+Adv.Sci.2026,13,e14558 e14558(4of14) ©2025TheAuthor(s).AdvancedSciencepublishedbyWiley-VCHGmbH
+
+www.advancedsciencenews.com www.advancedscience.com
+Figure2. ChemicalandstructuralcharacterizationofPtFeCoNiCuHEA/TiO –NFsynthesizedviaanodizationat120Vandelectrodepositionat1Vfor
+2
+40min.a)HAADF-TEMimagesofthePtFeCoNiCuHEA/TiO –NFandcorrespondingEDXelementmappingsshowingthedistributionofelements
+2
+inthePtFeCoNiCuHEAandTiO –NF(scalebars=5nm).b)HAADF-TEMimagesofthePtFeCoNiCuHEA/TiO –NF,highlightingstructuraldetails
+2 2
+andfeatures(scalebars=10nm).c)SAEDpatternsofthePtFeCoNiCuHEA/TiO –NF,confirmingcrystallographicfeatures(scalebars=5nm−1).d)
+2
+HAADF-TEMimages(left)ofthePtFeCoNiCuHEA/TiO –NFandthecorrespondingFFTpatterns(right)tofurtherverifythestructuralphasesofthe
+2
+monolithicPECsystem(scalebars=5nmand5nm−1,respectively).e–j)HighresolutionXPSspectraof:(e)Ti2p,(f)Pt4f,(g)Fe2p,h)Co2p,i)Ni
+2p,andj)Cu2pofthePtFeCoNiCuHEA/TiO –NFsystem.
+2
+Adv.Sci.2026,13,e14558 e14558(5of14) ©2025TheAuthor(s).AdvancedSciencepublishedbyWiley-VCHGmbH
+
+www.advancedsciencenews.com www.advancedscience.com
+atomsduetothemixingofdifferentelementsintheHEA.This NFsincreasedslightly,withmeasuredvaluesof–0.280±0.030,
+distortioncouldleadtoaredistributionofelectrondensityand –0.250 ± 0.030, and –0.014 ± 0.01 V versus RHE, respectively.
+causeshiftsinthebindingenergyofcorelevels,therebyexplain- The HER performance under non-illuminated conditions (i.e.,
+ingtheobservedXPSpeakshifts.TheXPSpeaksofCoandNi OFFstate)oftheHEA/TiO –NFsfabricatedatt =40,60,and
+2 E
+werealsoconsistentwiththeXRDpatternsoftheCoPtNialloy. 120minisshowninFigureS7(SupportingInformation).Itwas
+Figure2jrepresentstheXPSspectraofCu2p,ofwhichthepeak apparentthatthesefollowedthesametrendasthatshowninthe
+at 952.93 eV corresponded to metallic Cu, whereas the peak at ONstateofillumination,butwithreducedefficiency(videinfra).
+932.01eVwasassociatedwithCu/Ni,suggestingthatCuatoms This further corroborated the key contribution of the semicon-
+wereinfluencedbyneighboringNiatomsintheHEA.[35,36] ductorTiO –NFwiththegenerationofadditionalchargecarriers
+2
+todriveHER.FigureS8(SupportingInformation)comparesthe
+HERperformanceat𝜂 and𝜂 ofamodelHEA/Tifilmpro-
+10 100
+2.3.EnhancementofHERPerformancebyElectrodeposition ducedatt =120minandthatofaHEA/TiO –NFfabricatedat
+E 2
+TimeinHEA/TiO –NFs thesameelectrodepositiontime.Therecordedoverpotentialsun-
+2
+dertheseconditionswere–0.076±0.008and–0.056±0.006V
+Our observations indicated that the electrodeposition duration versusRHEat𝜂 ,and–0.19±0.02and–0.14±0.01Vversus
+10
+significantly determined the morphology and size of the HEA RHE at 𝜂 , respectively. It is apparent that HEA/TiO –NF at-
+100 2
+particlessynthesizedonthesurfaceoftheTiO –NFs.Motivated tainedsuperiorHERperformancebecauseofthesynergisticef-
+2
+bythis,wedecidedtoanalyzetheeffectofthesefeaturesonthe fectbetweentheHEAandthesemiconductorfilm,whichfurther
+HERperformanceofthePtFeCoNiCuHEA/TiO –NFsystemby corroboratedourinitialfindings.FiguresS9andS10(Supporting
+2
+systematicallyvaryingtheelectrodepositiontime,from40to120 Information)examinetheoverpotentialdifferencebetweenillu-
+min.Figure3aprovidesschematicrepresentationsoftheideal- minated and non-illuminated conditions (ΔE ) at 𝜂 and
+ON–OFF 10
+izedPtFeCoNiCuHEA/TiO –NFsystematdistinctelectrodepo- 𝜂 ofHERfortheHEA/TiO –NFsproducedatt =40,60,and
+2 100 2 E
+sitiontimes(i.e.,40,60,and120min).Duringtheelectrodeposi- 120 min. The average value of ΔE at 𝜂 was measured
+ON–OFF 10
+tionprocess,HEA-basedstructuresstartedfillingthepitsonthe to be ≈10 mV for all the analyzed HEA/TiO –NFs. However,
+2
+surfaceoftheTiO –NFbyformingnanoparticles.Uponfurther at 𝜂 ΔE decreased substantially from ≈4.9 mV for the
+2 100 ON–OFF
+extensionofthedepositiontime,theHEAparticlesfilledcom- HEA/TiO –NFproducedatt =60minto1.7mVrecordedfor
+2 E
+pletelythepitsandstartedforminglargerparticlesintheform itscounterpartfabricatedatt =120min.Wefurtherinvestigated
+E
+ofislandsonthesurfaceoftheTiO –NF.Astheprocesscontin- thisphenomenonbyanalyzingthephotocurrentuponsequential
+2
+ued,theparticlesgrewfurtherandextendedoverthesurfaceof ON/OFFilluminationcyclesat0VversusRHEgeneratedbythe
+thefilmfollowingamechanismthatcouldbeapproximatedto HEA/TiO –NFsproducedatt =40,60,and120min(Figure3e).
+2 E
+aVolmer–Weberislandgrowth.Figure3bshowstop-viewFEG- It was demonstrated that the HEA/TiO –NF produced at t =
+2 E
+SEMimagesoftheHEA/TiO –NFssynthesizedatelectrodeposi- 40 min exhibited higher light responsiveness than that of its
+2
+tiontimes(t )of40,60,and120min.Att =40min,theHEA analogue films fabricated at t = 60 and 120 mins. Figure S11
+E E E
+structuresonthesurfaceoftheHEA/TiO –NFswereintheform (SupportingInformation)summarizestheoverpotentialsat0V
+2
+of uniformly distributed nanoparticles with an average size of versusRHEofPtFeCoNiCuHEA/TiO –NFssynthesizedatelec-
+2
+0.17±0.02μm.ThesurfaceoftheTiO –NFsremainedvisibleun- trodepositiontimesof40,60,and120minunderONandOFFil-
+2
+derneath.Asthedepositiontimeincreased,theHEAnanoparti- luminationstatesat10sintervals,showingadecreasingtrendin
+clesstartedtoaggregateandformlargerHEAparticlesorislands, lightresponsiveness,from0.62to0.12mAcm−2fromt =40to
+E
+theaveragesizeofwhichwasdeterminedtobe3.2±0.32μm. 120min,respectively.However,despitethereducedphotoactivity,
+After120min,theHEAparticlesweresubstantiallylargerwith ourpreviousresultsrevealedthattheHEA/TiO –NFproducedat
+2
+an average size of 3.5 ± 0.35 μm and almost covered the en- t =120minoutperformeditscounterpartHEA/TiO –NFfabri-
+E 2
+tiresurfaceoftheTiO –NF.FigureS6(SupportingInformation) catedatt =60minsinHER.Toinvestigatethereasonforthis
+2 E
+presentstheRamanspectraofthePtFeCoNiCuHEA/TiO –NF difference,Figure3fillustratestheelectrochemicalsurfacearea
+2
+at t = 40 and 120 min. These spectra show the characteristic (ECSA)ofbothPECfilmsintermsoftheslopeofdouble-layer
+E
+Raman bands of TiO –NFs at 145 and 639 cm−2. The reduced capacitance.ThisanalysisindicatedthattheHEA/TiO –NFfab-
+2 2
+peakintensityoftheHEA/TiO –NFatt =120mincompared ricated at t = 120 min had larger ECSA than that of its coun-
+2 E E
+to that of the same film at t = 40 min would suggest that the terparts HEA/TiO –NFs produced at t = 40 and 60 min, with
+E 2 E
+largerHEAparticlesblockedtheRamansignalfromtheunder- quantified values of 0.065, 0.14, and 2.4 μF cm−2, respectively.
+lyingTiO –NFsubstrate.Figure3cprovidesacomparisonofthe FigureS12(SupportingInformation)showsthecyclicvoltamme-
+2
+HERperformanceoftheHEA/TiO –NFsystematt =40,60and tryofthesefilmsandthecorrespondingECSAvaluesobtained
+2 E
+120minunderillumination(ONstate),indicatinganenhance- by dividing the double-layer capacitance by the specific capaci-
+mentinHERefficiency(i.e.,reductioninoverpotential)witht , tance of these films, the value of which was determined to be
+E
+from40to120min,wheretheHEA/TiO –NFsystemfabricated 75.57, 159.01, and 2779.07 cm2 cm−2, respectively. These find-
+2
+att =120minachievedthebestperformance.Figure3dsum- ingsdemonstratedthatextendingtheelectrodepositiontimeen-
+E
+marizes the overpotentials at ON illumination states for these hances HER performance by increasing the HEA particle size
+HEA/TiO –NFs at 𝜂 and 𝜂 of HER. At 𝜂 , the overpoten- andprovidingmoreactivesitesandalargeractivesurfacearea
+2 10 100 10
+tials of HEA/TiO –NFs produced at t = 40, 60, and 120 min forHER,despitetheslightreductioninlightresponsiveness.As
+2 E
+were–0.081±0.008,–0.056±0.006,and–0.037±0.004Vversus such,thiswouldindicatethattheelectrocatalyticcomponentwas
+RHE,respectively.At𝜂 ,theoverpotentialsoftheseHEA/TiO – thedominantfactorcontributingtothePEC-drivenHERinthe
+100 2
+Adv.Sci.2026,13,e14558 e14558(6of14) ©2025TheAuthor(s).AdvancedSciencepublishedbyWiley-VCHGmbH
+
+www.advancedsciencenews.com www.advancedscience.com
+Figure3. StructuralandelectrochemicalcharacterizationofPtFeCoNiCuHEA/TiO –NFsynthesizedviaanodizationat120Vandelectrodepositionat
+2
+1Vfor40,60,and120min.a)SchematicoftheelectrodepositionprocessusedtofabricatePtFeCoNiCuHEA/TiO –NFsat1Vinatwo-electrodesystem
+2
+fromamixedaqueoussolutionofmetalprecursorsfor40,60,and120min.b)Top-viewFEG-SEMimagesofaPtFeCoNiCuHEA/TiO –NFfabricatedat
+2
+distinctelectrodepositiontimes(i.e.,fromlefttoright:t =40,60,and120min,respectively),showingthecharacteristicmorphologyofthesePECfilms
+E
+Adv.Sci.2026,13,e14558 e14558(7of14) ©2025TheAuthor(s).AdvancedSciencepublishedbyWiley-VCHGmbH
+
+www.advancedsciencenews.com www.advancedscience.com
+HEA/TiO –NFsystem.Anotherimportantaspecttoconsideris intheTiO andanincreaseinoxygenvacanciesthatcanboost
+2 2
+the individual contribution of the photocatalyst (i.e., TiO ) and HER performance.[39] Another potential contribution could be
+2
+electrocatalyst(i.e.,HEA)componentsoftheHEA/TiO –NFpho- localized surface plasmon resonances (LSPR) generated in the
+2
+toelectrocatalystontheoverallPECperformance.Tothisend,we HEA metal nanoparticles upon illumination, associated with
+analyzedthephotocurrentdensityofamodelHEA/TiO –NFun- their metallic nature, which could contribute to the overall en-
+2
+derthreeconditions:(i)noexternalpotentialbiasunderONillu- hancementofHERbyboostingexcitationandtransferofcharge
+minationstate(PC);(ii)externalpotentialbiasunderOFFillumi- carriers, catalytic reaction kinetics, and a decrease in apparent
+nationstate;and(iii)externalpotentialbiasunderONillumina- activationenergy.[40]FigureS16(SupportingInformation)shows
+tionstate.ThephotocurrentdensityquantifiedintheHEA/TiO – the reflectance spectra of PtFeCoNiCu HEA/TiO –NFs synthe-
+2 2
+NF was measured to be –1.140 ± 0.10, 0.140 ± 0.10, and 0.02 sized at electrodeposition times of 40, 60, and 120 min, where
+±0.01mAcm−2,respectively.Asummaryoftheresultsispre- it can be clearly seen a characteristically broad LSPR band at
+sentedinFigureS13(SupportingInformation).Wefurtheran- ≈955nm.Thisanalysisalsorevealedthatthebandwidthofthe
+alyzedtheeffectoflightintensityontheoverallperformanceof bandincreasedwiththeincreasingsizeoftheHEAstructuresby
+the photoelectrocatalyst. Analysis of the photocurrent obtained theelectrodepositiontime,whichisingoodagreementwiththe
+underthreedifferentlightilluminationintensities(i.e.,120,150, increasingparticlesizeoftheHEA.Figure4cillustratestheHER
+and 200 W) revealed that the higher the illumination intensity performance of the HEA/TiO –NFs in terms of overpotential
+2
+thehigherthephotocurrentdensitywas,withaveragevaluesof at 𝜂 and 𝜂 of HER obtained from Figure 4b. Analysis of
+10 100
+–1.10±0.10,–1.13±0.10,and1.21±0.10mAcm−2at120,150, this figure of merit at T = RT, 50, and 80 °C at 𝜂 revealed
+R 10
+and200W,respectively(FigureS14,SupportingInformation).In that the overpotential decreased progressively with T , with
+R
+termsofoverpotential,itwasfoundthatachangeinlightinten- quantifiedvaluesof–0.037±0.004,–0.030±0.003,and–0.011
+sityfrom200to150Wresultedinaslightincreaseofoverpoten- ±0.001VversusRHE,respectively.At𝜂 ,theoverpotentialsof
+100
+tial,from–0.13±0.10to–0.14±0.10VversusRHE(FigureS15, theHEA/TiO –NFatT =RT,50and80°Cwere–0.140±0.010,
+2 R
+SupportingInformation). –0.130±0.010,and–0.096±0.010VversusRHE,respectively.
+It was apparent from these results that the increased reactant
+electrolyte temperature significantly enhanced HER perfor-
+2.4.EnhancementofHERPerformanceinHEA/TiO –NFsby mance. Figure S17 (Supporting Information) shows the LSV
+2
+ThermalStimulation oftheHEA/TiO –NFsynthesizedviaanodizationat120Vand
+2
+electrodepositionat1Vfor120minundertheOFFillumination
+The combination of anodization and electrodeposition – both state, demonstrating an enhancement in HER performance
+fully scalable, cost-competitive fabrication technologies – driven by photothermal effect, which was consistent with
+presents potential opportunities to develop state-of-the-art Figure4bwhenthecurrentdensityofthemodelHEA/TiO –NF
+2
+photoelectrocatalysts for real-life applications. Therefore, to increasedfrom≈0to–6mAcm−2atE=0VversusRHE.Figures
+further enhance HER efficiency and better align PtFeCoNiCu S18 and S19 (Supporting Information) show a comparison of
+HEA/TiO –NFs with practical production requirements, we HER performance in terms of overpotentials at 𝜂 and 𝜂
+2 10 100
+analyzedtheimpactofelevatedelectrochemicalreactiontemper- underONandOFFilluminationstates,indicatingthattheHER
+atureontheHERperformance.Figure4ashowstheschematics wasmoreactiveunderONilluminationstate.Thisanalysisalso
+of PtFeCoNiCu HEA/TiO –NFs exposed to electrolytes at dis- revealedthatΔE at𝜂 and𝜂 decreasedwithincreasing
+2 ON–OFF 10 100
+tinct reaction temperatures (i.e., T = room temperature, 50, temperature, from T = RT to 80 °C (Figure S20, Supporting
+R R
+and 80 °C) to generate more hydrogen gas via PEC. Figure 4b Information). This phenomenon was attributed to the more
+summarizes the HER performance of HEA/TiO –NFs synthe- efficient excitation of electron–hole pairs during the gradual
+2
+sized via anodization at 120 V and electrodeposition at 1 V electrolyte temperature increase, facilitated by photothermal
+for 120 min under ON illumination state and increasing T , effects and LSPR, which in turn reduced the required overpo-
+R
+from room temperature (RT) to 80 °C. At the E = 0 V versus tential to drive HER under ON illumination state. We further
+RHE,thecurrentdensitygeneratedbythemodelHEA/TiO –NF demonstrated the potential of the PtFeCoNiCu HEA/TiO –NF
+2 2
+increasedfrom≈0to–6mAcm−2,indicatinganHERenhance- PECsystemforreal-lifeapplicationsbyanalysingthedurability
+ment stimulated by the photothermal effect. According to the and performance reproducibility of this model material over
+improved Varshni equation, the bandgap of a semiconductor multiple HER cycles. Figure 4d presents the stability test con-
+is dependent on the temperature.[37] It is also known that the sistingof10000HERcyclesundernon-illuminationconditions
+bandgapofTiO decreasesathightemperatures.[38]Theincrease at a reactant electrolyte temperature of 80 °C, indicating slight
+2
+in the reactant electrolyte temperature may cause oxygen loss attenuation of overpotential after 10 000 cycles, demonstrating
+(scalebars=2.5μm).c)LinearsweepvoltammogramsofPtFeCoNiCuHEA/TiO –NFssynthesizedatelectrodepositiontimesof40,60and120min
+2
+undervaryingE,from–0.8to0.0VversusRHE,atarateof0.005Vs−1in1MKOH.d)SummaryofoverpotentialvaluesversusRHEat𝜂 measuredin
+10
+(c)(NB:dataarepresentedasmean±SDofasamplesizeofn≥3independentmeasurements).e)ChronoamperometryofPtFeCoNiCuHEA/TiO –
+2
+NFsproducedbyanodizationat120Vandelectrodepositionat1Vfor40,60,and120minunderONandOFFilluminationmodesin1MKOHunder
+anEbiasof0.0VversusRHEforaperiodof10s.f)ECSAofPtFeCoNiCuHEA/TiO –NFsproducedbyanodizationat120Vandelectrodepositionat
+2
+1Vfor60and120mins(NB:dataarepresentedasmean±SDofasamplesizeofn≥3independentmeasurements).
+Adv.Sci.2026,13,e14558 e14558(8of14) ©2025TheAuthor(s).AdvancedSciencepublishedbyWiley-VCHGmbH
+
+www.advancedsciencenews.com www.advancedscience.com
+Figure4. ElectrochemicalcharacterizationofPtFeCoNiCuHEA/TiO –NFsynthesizedviaanodizationat120Vandelectrodepositionat1Vfor120
+2
+minatdifferentreactantelectrolytetemperature,fromroomtemperature(RT)to80°C.a)SchematicofthePtFeCoNiCuHEA/TiO –NFfabricated
+2
+byviaanodizationat120Vandelectrodepositionat1Vfor120minatvariedreactantelectrolytetemperature.b)Linearsweepvoltammogramsof
+thePtFeCoNiCuHEA/TiO –NFsynthesizedbyanodizationat120Vandelectrodepositionat1Vfor120minatT =RT,50and80°CunderON
+2 R
+illuminationstateandvaryingE,from–0.8to0.0VversusRHEatarateof0.005Vs−1in1MKOH.c)SummaryofoverpotentialvaluesintermsofE
+versusRHEat𝜂 and𝜂 extractedfrom(b).d)LinearsweepvoltammogramsofthePtFeCoNiCuHEA/TiO –NFsynthesizedbyanodizationat120V
+10 100 2
+andelectrodepositionat1Vfor120minat0and10000HERcyclesin1MKOHunderOFFilluminationstate.e)Summaryofoverpotentialvalues
+versusRHEat𝜂 and𝜂 ,measuredind)(NB:dataarepresentedasmean±SDofasamplesizeofn≥3independentmeasurements).
+10 100
+thepotentialforlong-termandindustryuseofHEA/TiO –NFs. prolongedexposuretohigh-temperature,stronglyalkalineelec-
+2
+Figure4esummarizestheHERperformanceat𝜂 and𝜂 trolyteconditions,resultinginpartialdeactivationandagglom-
+10 100
+of the HEA/TiO –NF before and after 10 000 HER cycles un- erationofthecatalyst,leadingtothelossofactivesitesandsub-
+2
+derOFFilluminationstates.At𝜂 ,theoverpotentialsdecreased sequentperformancedegradation.Thestructuralintegrityofthe
+10
+from –0.024 ± 0.002 to –0.029 ± 0.003 V versus RHE, respec- HEA/TiO –NF before and after 5000 HER cycles was analyzed
+2
+tively. At 𝜂 , the overpotentials decreased from –0.11 ± 0.01 via FEG-SEM, and no sign of structural change was observed
+100
+to–0.16±0.02versusRHE,respectively.Theslightincreaseof (FigureS21,SupportingInformation).Wefurtheranalyzedthe
+overpotentialafter10000cyclesofHERwasattributabletothe stability of the HEA/TiO –NF by chronopotentiometric assess-
+2
+Adv.Sci.2026,13,e14558 e14558(9of14) ©2025TheAuthor(s).AdvancedSciencepublishedbyWiley-VCHGmbH
+
+www.advancedsciencenews.com www.advancedscience.com
+Figure5. UnravellingtheHERmechanisminPtFeCoNiCuHEA/TiO –NFssynthesizedviaanodizationat120Vandelectrodepositionat1Vfor120
+2
+min.a)ElectrochemicalinsituRamanspectraofamodelPtFeCoNiCuHEA/TiO –NFduringHERin1MKOHelectrolyteatroomtemperaturesunder
+2
+increasingpotentialbias,from0to–800mVversusRHEandfrom100to2000cm−1.b)ElectrochemicalinsituRamanspectraofamodelPtFeCoNiCu
+HEA/TiO –NFduringHERin1MKOHelectrolyteatroomtemperaturesunderincreasingpotentialbias,from0to–800mVversusRHEandfrom2000
+2
+to4000cm−1.c)IdealizedstructureofaPtFeCoNiCuHEA/TiO –NFduringthedifferentHERreactionstagesunderincreasingoverpotentialin1M
+2
+KOHelectrolyte.d)GibbsfreeenergyoftheHERpathwayatincreasingHatoms,from1to6,onPtFeCoNiCuHEA.e)GibbsfreeenergyofHadsorption
+anddesorption(ΔG)atincreasingHatoms,from1to6,onanataseTiO .f)TopandsideviewschematicsoftheatomicstructureofPtFeCoNiCuHEA
+2
+(top)andanataseTiO (bottom)usedinourDFTsimulations.g)ComparisonofrequiredGibbsfreeenergyofHadsorptionbetweenPtFeCoNiCuHEA
+2
+andanataseTiO ,from1to6adsorbedHatoms.h)State-of-the-artcomparisonofHERperformanceat𝜂 betweenourPtFeCoNiCuHEA/TiO –NF
+2 10 2
+systemandothercomparablestudies.
+mentoveraperiodof100hataconstantcurrentdensityinput plainedourexperimentalobservations,weperformedinsituRa-
+of100mAcm−2(FigureS22,SupportingInformation).Theover- man analysis and density function theory (DFT) simulations.
+potentialquantifiedovertimeremainedconstant,demonstrating Figure 5a shows the in situ Raman spectra, from 100 to 2000
+thattheHEA/TiO –NFsystemcanmaintainaconstantoverpo- cm−1,ofamodelPtFeCoNiCuHEA/TiO –NFin1MKOHunder
+2 2
+tentialoverthisperiodoftimeunderharshHERworkingcondi- appliedpotentialsfromopencircuitpotential(i.e.,E=0mVvs
+tions. RHE)to–800mVversusRHE.Thereactionconsistedofthree
+stages: (i) unreacted stage; (ii) activation stage; and (iii) high-
+speedstage.Thefirststagewasperformedatopencircuitpoten-
+2.5.HEREnhancementMechanisminHEA/TiO –NFsviaInSitu tial,andfourcharacteristicRamanbandscorrespondingtothe
+2
+RamanandSimulations anatasephaseofTiO (i.e.,≈144,393,512,and633cm−1)were
+2
+clearly observed, indicating a well-ordered crystal lattice struc-
+To unravel the HER reaction mechanism in PtFeCoNiCu ture. As the potential was negatively increased up to –150 mV
+HEA/TiO –NFsandestablishamechanisticframeworkthatex- versusRHEduringtheHERactivationstage,theintensitiesof
+2
+Adv.Sci.2026,13,e14558 e14558(10of14) ©2025TheAuthor(s).AdvancedSciencepublishedbyWiley-VCHGmbH
+
+www.advancedsciencenews.com www.advancedscience.com
+theRamanbandsgraduallydiminished.Thisattenuationofthe lationanddensityonhighlyactivePtsites,andtheformationof
+Ramansignalwasassociatedwiththeprogressivedistortionof Pt-basedbridgesforoptimalhydrogenbinding.
+thecrystallatticeofTiO ,whereTi4+ underwentareductionto Figure5cillustratesaproposedmodelforHERonPtFeCoN-
+2
+itsTi3+oxidationstate.[41,42]Thisresultedinanenhancementof iCuHEA/TiO –NFsin1MKOHwithincreasedoverpotentials,
+2
+theinterfacialchargetransfer,whereTiO becameanelectronic from0to–800mV,wherethethreestagesofreactionoccuron
+2
+bufferlayer.Whentheexternalpotentialwasfurtherincreased thePECsurfaceaccordingtotheinsituRamanspectraanalysis
+upto–800mVversusRHEduringthehigh-speedstage,thein- showninFigure5a,b.StageIrepresentsthenon-reactivephase,
+tensityoftheRamanbandsdecreaseddramatically,andonlythe whereTiO retaineditsintactlatticestructureandthePtFeCoN-
+2
+144cm−1bandwasobservable.Thiswouldsuggestapossiblehy- iCuHEAwaslocatedontheTiO –NFwithoutinitiatingcatalytic
+2
+drogenintercalationwithintheTiO lattice,contributingtothe activity. In Stage II, TiO was activated and started to function
+2 2
+lossofRamanselectionrules.[43,44]Thegradualattenuationand asanelectronicbufferlayer,facilitatinginterfacialchargetrans-
+eventualvanishmentoftheTiO Ramanbandsunderincreasing fertoenhancethehydrogenevolutionreaction.Meanwhile,the
+2
+cathodicpotentialsindicatedthattheTiO underwentsignificant PtFeCoNiCuHEAactedastheprimaryHERactivesites,initiat-
+2
+lattice distortion, Ti3+ formation, and interfacial charge trans- ingadsorptionandpartialdissociationofwatermoleculesonthe
+fer. This dynamic evolution highlighted the synergistic mecha- catalyst surface. However, the overall HER rate remained rela-
+nismbetweenHEAandTiO ,whereintheHEAdominatedthe tivelylowduringthisstage.InStageIII,athigheroverpotentials,
+2
+H*adsorptionandhydrogenevolution,whileTiO actedasan theHERprocessenteredahigh-activityregime.Watermolecules
+2
+electronbuffer,whichunderwentadynamicrestructureduring were rapidly adsorbed and consumed at the catalyst interface,
+the reaction. Figure 5b shows the in situ Raman spectra, from acceleratingtheturnoverofreactionintermediatessuchasOH
+2000to4000cm−1,ofPtFeCoNiCuHEA/TiO –NFin1MKOH radicals.Thisledtoreducedsurfacecoverageofvibrationallyac-
+2
+electrolyte under applied potentials from open circuit potential tivespecies,increasedhydrogengenerationrates,andenhanced
+(i.e., E = 0 mV vs RHE) to –800 mV versus RHE. The Raman catalyticefficiency.ThesynergisticinteractionbetweentheHEA
+bandslocatedat3000to3700cm−1 correspondedtovariousO– andthedynamicallyrestructuredTiO furtherboostedthereac-
+2
+Hstretchingmodesarisingfromtheadsorbedwatermolecules, tionkinetics.FigureS25(SupportingInformation)illustratesthe
+hydrogen-bonded networks, and surface hydroxyl species (M– full range of in situ Raman spectra, from 0 to 4000 cm−1, for
+OH,Ti–OH).MagnifiedspectrashowingtheRamanbandsare thePtFeCoNiCuHEA/TiO –NF.Figure5dcomparesthesimu-
+2
+showninFiguresS23andS24(SupportingInformation).Upon lated Gibbs free energy of H adsorption (ΔG) on PtFeCoNiCu
+increasing cathodic potential, these bands progressively weak- HEA by adsorbing H atoms, from 1 to 6 H atoms, with corre-
+enedandeventuallyvanishedfromthespectra,indicatingacon- sponding atomic structure images. These simulations revealed
+tinuousdepletionorreorganizationofinterfacialwaterlayersand anincrementinΔG,from–0.23to–3.82,whentheadsorbedH
+hydroxyl functionalities. This would suggest that the reduction atomsincreasedfrom1to6.WealsocalculatedtheΔGvalues
+ofmetal–OHbonds(e.g.,Pt–OH,Ni–OH,Cu–OH,Fe–OH,and foranataseTiO upontheadsorptionofanincreasingnumber
+2
+Co–OH)tometallicstatesfacilitatedbythehydrogenevolution, of H atoms, from 1 to 6, along with the corresponding atomic
+asindicatedbythedisappearanceofOH-relatedRamanfeatures. structureimages ofthissystem (Figure5e). Thisanalysis indi-
+Notably,theprogressivelossofOH–andH O-relatedRamanfea- catedanincrementofΔG,from–1.5to–4.95,whenthenumber
+2
+turesunderincreasingcathodicbiaswasnotfollowedbyacon- ofHatomsadsorbedincreasedfrom1to6.Figure5fshowsthe
+currentsuppressionofHERactivity.Rather,itreflectedarapid topandsideviewatomicstructuresofthePtFeCoNiCuHEAand
+turnoverofinterfacialspecies–namely,wateradsorption,disso- anatasecrystalofTiO usedforDFTsimulations.Figure5gillus-
+2
+ciation,andhydrogenevolution–thatledtoalowersteady-state tratesacomparisontheHadsorptionanddesorptionenergyof
+coverageofvibrationallyactivesurfaceintermediates.Thiswas PtFeCoNiCuHEAandanataseTiO ,from1Hatomto6Hatoms,
+2
+consistent with the accelerated HER kinetics at higher overpo- revealingthatthePtFeCoNiCuHEAachievedhighercatalyticre-
+tentials,whereinsurface-boundspecieswerequicklyconsumed activitythanthatofanataseTiO duetothevalueofΔGcloserto
+2
+inthecatalyticcycle.Therefore,theobservedspectralattenuation 0,whichdenotesthatHisadsorbedanddesorbedmoreeasilyto
+substantiatedtheenhancedcatalytickinetics,ratherthansurface formH .[46] FiguresS26–S31(SupportingInformation)provide
+2
+passivation.Theseresultsunderscoredthedynamicandrespon- acomparisonofΔGofPtFeCoNiCuHEAandanataseTiO ,from
+2
+sivenatureoftheHEA–TiO interfaceunderalkalineHERcondi- 1Hatomto6Hatoms,andthecorrespondingstructureswith
+2
+tions.Thelossofvibrationallyactivesurfacespecieswasaligned Hatomadsorptionsites.TablesS1andS2(SupportingInforma-
+withtheacceleratedturnoverofinterfacialreactants,revealingan tion) provide the ΔG of PtFeCoNiCu HEA and anatase TiO ,
+ad 2
+inherentlyefficientwaterdissociationcapabilityandstrongelec- from1Hatomto6Hatomswithincreasedreactiontempera-
+tronicinteractionbetweentheHEAandthesemiconductorsup- tures,fromroomtemperatureto80°C,showingthattheΔG
+ad
+port.Thisinsituspectroscopicevidenceprovideddirectinsights remainedatastablevalueduringhighertemperaturereaction,
+intothereal-timeevolutionofactivesitesandinterfacialstruc- confirmingthegreatthermalstability.Thesimulationdatacor-
+turesduringthecatalyticprocess.Althoughfurtheranalyseswill roboratedthatthePtFeCoNiCuHEAhadhighercatalyticactivity
+beneededtofullydeterminetheenhancementmechanism,our andHadsorptioncapacitythanthatofanataseTiO .Although
+2
+resultsareingoodagreementwithrecentstudiesusingadvanced anatase TiO featured lower catalytic activity than PtFeCoNiCu
+2
+spectroscopictechniquesanalyzingsynergiesbetweenHEAsand HEA,anataseTiO canprovidemoreactivesitesifcombinedwith
+2
+semiconductorsforphotocatalysis.[45] Thesereportsindicateda PtFeCoNiCuHEA.Hence,thecombinationofPtFeCoNiCuHEA
+combination of Schottky junctions, efficient charge separation, andanataseTiO increasedthetotalactivesites,sinceTiO can
+2 2
+prolongedcarrierlifetime,andlocalizationofelectronaccumu- adsorbthehigherenergyrequirementsforHatom,compensat-
+Adv.Sci.2026,13,e14558 e14558(11of14) ©2025TheAuthor(s).AdvancedSciencepublishedbyWiley-VCHGmbH
+
+www.advancedsciencenews.com www.advancedscience.com
+ingtheshortcomingofPtFeCoNiCuHEA,whichonlycontains likefilms,criticallyinfluencedcatalyticefficiency,furtherdemon-
+lowerenergyrequiredforactivesites.Wefurtherextendedthis stratingthepivotalinterplaybetweennanostructurefeaturesand
+analysisbyestimatingtheGibbsfreeenergyofthePtFeCoNiCu photoelectrocatalytic performance. HEA/TiO –NFs synthesized
+2
+HEAfromwateradsorptionand*H Odissociationto*OHand at an optimized electrodeposition time of 120 min exhibited a
+2
+*HinHER,indicatingthattheHEAcontainsmoreactivesites significantly HER activity with a remarkably low overpotential
+than single metal catalysts, leading to higher water adsorption of–37mVat𝜂 ,underillumination.Furtherenhancementwas
+10
+anddissociationrate(FigureS32,SupportingInformation).The achievedthroughthermaleffectasincreasingtheelectrolytetem-
+CositeshowedthelargestGibbsfreeenergygapthroughthewa- peratureto80°Cresultedinanultralowoverpotentialof–11mV
+terdissociationprocess(i.e.,–0.22and–2.36eV,respectively),en- at 𝜂 , surpassing most HEA-based HER catalysts reported in
+10
+abling*Hproduction,whichcontributestotheoverallH forma- theliterature.Notably,theoptimizedHEA/TiO –NFsystemalso
+2 2
+tiononPtsitesandothermetalsites.This,inturn,leadstoan demonstratedexcellentoperationaldurabilitywithminimalper-
+increaseinthetotalnumberofactivesitesandhigherHutiliza- formancedegradationafter10000HERcyclesat80°C,validating
+tionbyawiderrangeofΔG toachieveenhancementinHER. itsrobuststabilityunderindustriallyrelevanthigh-temperature
+ad
+Figure 5g and Table S3 (Supporting Information)show a com- andalkalineconditions.WeelucidatedtheHERmechanismof
+parisonofHERperformanceofHEA/TiO –NFwithrecentstud- thePtFeCoNiCuHEA/TiO –NFsystemthroughacombination
+2 2
+iesonHEAsandotherclassesofreferencematerials.Theanal- ofinsituRamanspectroscopyandDFTsimulations.Thereac-
+ysisdemonstratedthatthePtFeCoNiCuHEA/TiO –NFPECsys- tionwasfoundtoproceedthroughthreedistinctstages–non-
+2
+temoutperformsalltheseformsofcatalystsforHER,withare- reactive, activation, and high-speed reaction. During the three
+markablylowoverpotentialof11mVat𝜂 .Thecombinationof stages,theTiO supportunderwentatransformation,fromapas-
+10 2
+HEAwithsemiconductorsisthereforedemonstratedasanopti- sivescaffoldtoanelectron-bufferinglayerwithsignificantlattice
+malapproachtodesigninganewclassofhighlyefficientphoto- restructuring.InsituRamanspectralanalysesrevealedTi4+ re-
+electrocatalysts.Ouranalysissuggeststhatthefunctionofeach duction,hydrogenintercalation,andrapidturnoverofinterfacial
+componentinthishybridsystem(i.e.,HEAandsemiconductor) intermediates(OHradicals)underincreasingcathodicbias,di-
+canbesynergisticallyengineeredtoenhanceHERefficiency.The rectlycorrelatingwiththeenhancedHERkinetics.DFTcalcula-
+structureofHEAnanoparticles,controlledbytheelectrodeposi- tions demonstrated that the PtFeCoNiCu HEA exhibited lower
+tiontime,andthecrystallographicphaseofthesemiconductor, hydrogenadsorptionenergiesthanthoseofanataseTiO ,while
+2
+whichactsasanelectronicbuffer,arefoundtobecriticalaspects theanataseTiO supportofferedcomplementaryhigh-energyad-
+2
+toenhancingchargecarrierefficiency,andreducingabsorption sorptionsites.Thissynergisticinteractionbroadenedtherange
+anddesorptionenergyofreactivespeciesinvolvedinHER.How- of accessible active sites and facilitated efficient hydrogen evo-
+ever,thereremainkeyfundamentalquestionstobeaddressedin lution.ThisstudyoutlinesarobuststrategyforconstructingPt-
+termsoftheinterplayofelementsandtheirdistributioninHEAs FeCoNiCuHEA/TiO –NFphotoelectrocatalystswithexceptional
+2
+aswellasthecharacteristicsofthesemiconductor.Thesewillbe hydrogenevolutionactivity,achievinganultralowoverpotential
+addressedinfuturestudies. of–11mVat𝜂 andexcellentthermalstability.Thefindingof
+10
+thesynergisticinterplaybetweenHEAstructuresandtheTiO
+2
+3.Conclusion supportprovidesvaluablemechanisticinsightsintodesignprin-
+ciplesfornext-generationphotoelectrocatalysts.
+In summary, we reported a facile strategy to fabricate high-
+performance hybrid photoelectrocatalysts combining PtFeCoN-
+iCu HEA and TiO 2 –NFs via sequential anodization and elec- 4.ExperimentalSection
+trodeposition. TiO –NFs produced by high voltage anodization
+2
+oftitaniumsubstratesservedasbothasemiconductingscaffold TiO 2 NanofilmFabrication: TiO 2 nanofilmsweregrownonTifoils(i.e.,
+and nanostructured support for the controlled growth of PtFe-
+0.2mmthick,Goodfellow,99.6+%purity)byanodization.Beforean-
+odization,theTifoilswerecutinto1.5×1.5cmchips,washedinEtOH
+CoNiCuHEAnanoparticlesviaaVolmer–Webergrowthmech-
+andMilli–Qwater,andairdried.Tifoilswereanodizedat120Vfor3minat
+anism. Structuraland compositional analyses revealed that the
+roomtemperatureinanaqueous0.5mH SO electrolyte(Sigma–Aldrich,
+2 4
+HEAparticlesadoptedasingle-phaseFCCstructureandexhib- Australia).
+ited uniform elemental distribution across the surface, while Electrodeposition of HEA: Anodic TiO nanofilms were immersed
+2
+the TiO –NFs retained their anatase phase, contributing to the in the metal precursor aqueous solution containing 2 mm of pre-
+photoac 2 tivity of the system under illumination and acting as cursors FeCl 2 ∙4H 2 O, NiCl 2 ∙6H 2 O, CoCl 2 ∙6H 2 O, CuCl 2 ∙2H 2 O, and
+H PtCl ∙6H O.Electrodepositionwasperformedinatwo-electrodereac-
+a buffer layer for electrons. Electrochemical characterizations 2 6 2
+torunderabiasof1Vatroomtemperaturefor40,60,and120min.
+demonstrated a pronounced synergistic enhancement in HER
+StructuralandChemicalCharacterization: Themorphologyandthick-
+for the HEA/TiO –NF system, outperforming benchmark con-
+2 nessofTiO 2 nanofilmswerecharacterizedbyfieldemissiongunscanning
+trol systems including bare Ti film, TiO 2 –NF, and HEA-coated electronmicroscopy(FEG-SEMQuanta450,FEI).ThethicknessofTiO 2
+Ti films. The optimized HEA/TiO –NF catalyst achieved a low thinfilmswasdeterminedfromFEG-SEMimageanalysisusingImageJ
+2
+overpotentialof–89±9mVat𝜂 ,whileshowinganadditional andbyellipsometrymeasurementsforvalidation.Thecrystalstructureof
+10
+performancegainunderlightillumination–highlightingthepiv- TiO 2 nanofilmswascharacterizedbyX-raydiffraction(RigakuSmartLab3),
+usingMDIJade9softwaretoidentifylatticetype.Ramanandelectrochem-
+otal role of the semiconductor TiO in facilitating photogener-
+2 icalinsituRamanspectroscopyspectrawereacquiredinaRamancon-
+atedchargeseparationandtransfer.Systematiccontroloverthe
+focalmicroscope (LabRAM HR Evolution,Horiba)withlaser excitation
+electrodepositiontimerevealedthatthetransitioninHEAmor- at532nm.HAADF-STEMandEDXmappinganalyseswereobtainedby
+phology, from isolated nanoparticles to interconnected island- ahigh-resolutiontransmissionelectron(FEITitanThemis80–200).The
+Adv.Sci.2026,13,e14558 e14558(12of14) ©2025TheAuthor(s).AdvancedSciencepublishedbyWiley-VCHGmbH
+
+www.advancedsciencenews.com www.advancedscience.com
+chemical composition profile of HEA/TiO –NFs was obtained by X-ray Statistical Analysis: All the statistics were performed in OriginPro
+2
+photoelectronspectroscopy(XPS,ThermoFisherScientificNexsa).The 2025.Alldataarepresentedasmean±SDfromanaverageofmeasure-
+massfractionsofPt,Ni,Cu,Co,andFeinTiO nanofilmswerequanti- mentsofatleast3samples.
+2
+fiedbyinductivelycoupledplasmamassspectrometry(ICP–MS,Agilent
+720ES).
+PhotoelectrochemicalMeasurements: PhotoelectrochemicalHERmea-
+SupportingInformation
+surementswerecharacterizedinathree-electrodesystemwithanaqueous
+electrolyteof1mpotassiumhydroxide(KOH;pH≈14)saturatedwithAr
+SupportingInformationisavailablefromtheWileyOnlineLibraryorfrom
+gas,usinganelectrochemicalstation(CHI760E,CHIInstrumentsInc.).
+theauthor.
+Thethree-electrodesystemconsistedofareferenceelectrode(Hg/HgO),
+a counter electrode (Pt), and the Ti film, TiO –NF, HEA/Ti film, and
+2
+HEA/TiO –NFastheworkingelectrodes.TheeffectiveareaofHEA/TiO –
+2 2
+NFswas0.785cm2 foralltheelectrochemicalmeasurements.Thescan Acknowledgements
+rateof5mVs−1wasusedforalllinearsweepvoltammetrymeasurements,
+from–0.8to0.0VversusRHE.AllappliedbiaseswereconvertedintoRHE. The authors would like to acknowledge and pay their respects to the
+A150Wxenonlamp(PLS-SXE300,BeijingPerfectlight)wasusedasalight Kaurna–Adelaidepeople,theTraditionalCustodiansofthelandonwhich
+sourcetosimulatebroad-spectrumsolarlight.Chronoamperometryofthe the work was performed. The authors sincerely acknowledge Dr. Ash-
+HEA/TiO –NFwasperformedat≈0VversusRHEwith10sintervalsfor ley Slattery for his valuable assistance with the HAADF-TEM measure-
+2
+theON−OFFilluminationmodes. ments.TheauthorsthankthesupportprovidedbytheAustralianResearch
+DFT Computations: All density functional theory (DFT) calcula- CouncilthroughthegrantDP220102857andDE250100722,theSchoolof
+tions were conducted by using the Vienna ab-initio simulation pack- ChemicalEngineering,TheUniversityofAdelaide,andtheInstitutefor
+age (VASP)[47] with the Perdew-Burke-Ernzerhop (PBE)[48] exchange- PhotonicsandAdvancedSensing(IPAS).Dr.CherylSuwenLawthanks
+correlation, and all calculations used the projector-augmented wave thesupportprovidedbyTheUniversityofAdelaideandIPASthroughher
+(PAW)[49]potentialtodescribetheioniccores.AnataseandHEAsurface FutureMakingFellowship.Thisworkwassupportedwithsupercomput-
+structurewascalculatedbysettinga450-eVplane-wavecutoffenergyand ingresourcesprovidedbythePhoenixHPCserviceatTheUniversityof
+aMonkhorst-Pack[50]k-pointgridof3×3×1.AnataseandHEAsurface Adelaide.
+structureswerechosen(001),respectively(TableS4,SupportingInforma- OpenaccesspublishingfacilitatedbyTheUniversityofAdelaide,aspart
+tion),whereasFigureS33(SupportingInformation)providesdetailson oftheWiley-TheUniversityofAdelaideagreementviatheCouncilofAus-
+theabsorptionenergiesthedifferentactivesitesintheHEA.The*Hab- tralianUniversityLibrarians.
+sorptionenergyofvariedactivesitesonthePtFeCoNiCuHEArevealed
+thatPtexhibitedthestrongestadsorptionamongthesesiteswithavalue
+of–0.68eV,whereastheFesiteshowedtheweakestadsorptionenergyof ConflictofInterest
+1.79eV.Thepresenceofmultiplesitesfromhighentropyalloysledtothe
+increasingabsorptionrateandamountof*H,whichresultedinahigher Theauthorsdeclarenoconflictofinterest.
+reactionrateandhydrogenproduction.Thehigh-entropyalloywasgener-
+atedusingtheATATprogrammebyconstructinganFCCstructure,then
+forminga3×3×3supercellcontaining108atoms(FigureS34,Support-
+DataAvailabilityStatement
+ingInformation).ThemodeltheFCCcrystalcellsizesforCo,Cu,Fe,Pt,
+andNiatomswasbuiltatacompositionof0.028,0.111,0.213,0.592,
+Thedatathatsupportthefindingsofthisstudyareavailablefromthecor-
+and0.056,respectively.Subsequently,themostdisorderedstructurewas
+respondingauthoruponreasonablerequest.
+identified.ThecellsizeoftheHEAwasthendefinedproportionally,based
+onthepuremetalFCCcrystalcellsize(i.e.,3.81Å).Thestructureun-
+derwentstretchingandscalingviaDFTcalculations,demonstratingthe
+originalmodelstructureasthemoststableconfigurationasitcontainthe Keywords
+combionaedthelowesttotalenergy.[51]TheDFT-D3[52]wasutilizedtoad-
+dresstheVanderWaalsinteractions,theconvergenceoftheenergywas highentropyalloys,hydrogenevolutionreaction,photoelectrocatalysis,ti-
+settobe1×10−4 eV,andthatofgeometryoptimizationwassettobe taniumdioxidefilms
+maximumforce≤0.03eVA−1.The3dorbitalelectronsofTiweretreated
+usingtheGGA+UmethodofDudarevetal.withaneffectiveHubbardfield
+Received:July31,2025
+Coulombinteractionparameter(U’=U–J).[53]Accordingtotheliterature,
+Revised:September21,2025
+thechoiceofU=4eVforthesurfacestructureofrutileandanatasetypes
+Publishedonline:October15,2025
+wasconfident.[54] Thespinpolarizationcalculationswereconductedon
+theHEAsurfacestructurescontainingFe,Co,andNi,eachwithinitial
+magneticmomentsof3,2,and1μB,respectively.Theadsorptionfreeen-
+ergy(G )ofhydrogenattheTiO andHEAiscalculatedas:[55]
+ad 2 [1] C.Oses,C.Toher,S.Curtarolo,Nat.Rev.Mater.2020,5,295.
+G =E +ZPE+∫C dT−TS (1) [2] S.Akrami,P.Edalati,M.Fuji,K.Edalati,MaterSciEng,R2021,146,
+ad ad P 100644.
+[3] T.A.A.Batchelor,J.K.Pedersen,S.H.Winther,I.E.Castelli,K.W.
+whereE istheadsorptionenergy,ZPEthezero-pointenergy,∫C dTthe
+ad P Jacobsen,J.Rossmeisl,Joule2019,3,834.
+enthalpictemperaturecorrection,andTStheentropiccorrection.
+[4] J.Hidalgo-Jiménez,T.Akbay,X.Sauvage,T.Ishihara,K.Edalati,Acta
+Theadsorptionenergy(E )iscalculatedas:
+ad Mater.2025,283,120559.
+[5] H.T.N.Hai,T.T.Nguyen,M.Nishibori,T.Ishihara,K.Edalati,Appl.
+E ad =E Tot −E Surf −1 2 𝜇 H2 (2) Catal.,B2025,365,124968.
+[6] Z.Gan,C.Shu,J.Cao,Z.Chen,P.Qiu,Z.Chen,X.Wang,Y.Wu,S.
+whereE istheDFTtotalenergyofthesurfacewithadsorbate,E is Wang,Z.Yang,W.Tang,Small2025,21,2408887.
+Tot Surf
+theenergyofthecorrespondingpristinesurface,and𝜇 isthechemical [7] M.Li,F.Lin,S.Zhang,R.Zhao,L.Tao,L.Li,J.Li,L.Zeng,M.Luo,S.
+H2
+potentialforH (6.78eV). Guo,Sci.Adv.2024,10,adn2877.
+2
+Adv.Sci.2026,13,e14558 e14558(13of14) ©2025TheAuthor(s).AdvancedSciencepublishedbyWiley-VCHGmbH
+
+www.advancedsciencenews.com www.advancedscience.com
+[8] Z.W.Chen,J.Li,P.Ou,J.E.Huang,Z.Wen,L.Chen,X.Yao,G.Cai, [29] F.Lange,H.Schmelz,H.Knözinger,J.ElectronSpectrosc.RelatPhe-
+C.C.Yang,C.V.Singh,Q.Jiang,Nat.Commun.2024,15,359. nom1991,57,307;
+[9] J.Baek,M.D.Hossain,P.Mukherjee,J.Lee,K.T.Winther,J.Leem, [30] C.Sleigh,A.P.Pijpers,A.Jaspers,B.Coussens,R.J.Meier,J.Electron
+Y.Jiang,W.C.Chueh,M.Bajdich,X.Zheng,Nat.Commun.2023,14, Spectrosc.Relat.Phenom.1996,77,41.
+5936. [31] A.Dauscher,L.Hilaire,J.C.Spirlet,W.Müller,G.Maire,Surf.Sci.
+[10] J.K.Pedersen,T.A.A.Batchelor,A.Bagger,J.Rossmeisl,ACSCatal. 1988,204,161.
+2020,10,2169. [32] G.M.Bancroft,I.Adams,L.L.Coatsworth,C.D.Bennewitz,J.D.
+[11] H.Kamaruddin,Z.Jianghong,L.Yu,W.Yuefan,H.Yizhong,J.Mater. Brown,W.D.Westwood,Anal.Chem.2002,47,586.
+Chem.A2024,12,9933. [33] K.Kishi,J.ElectronSpectrosc.Relat.Phenom.1988,46,237.
+[12] Y.Yao,Z.Huang,P.Xie,S.D.Lacey,R.J.Jacob,H.Xie,F.Chen,A.Nie, [34] L.Lozzi,M.Passacantando,P.Picozzi,S.Santucci,H.denDaas,Surf.
+T.Pu,M.Rehwoldt,D.Yu,M.R.Zachariah,C.Wang,R.Shahbazian- Sci.1995,331–333,703.
+Yassar,J.Li,L.Hu,Science2018,359,1489. [35] A.C.Miller,G.W.Simmons,SurfSciSpectra1993,2,55.
+[13] S. Gao, S. Hao, Z. Huang, Y. Yuan, S. Han, L. Lei, X. Zhang, R. [36] K.Kishi,M.Sasanuma,J.ElectronSpectrosc.Relat.Phenom.1989,48,
+Shahbazian-Yassar,J.Lu,Nat.Commun.2020,11,2016. 421.
+[14] F.Waag,Y.Li,A.R.Ziefuss,E.Bertin,M.Kamp,V.Duppel,G.Marzun, [37] K.P.O’Donnell,X.Chen,Appl.Phys.Lett.1991,58,2924.
+L.Kienle,S.Barcikowski,B.Gokce,RSCAdv.2019,9,18547. [38] Y. Cho, A. Yamaguchi, R. Uehara, S. Yasuhara, T. Hoshina, M.
+[15] M.D.Cropper,Appl.Surf.Sci.2018,455,153. Miyauchi,J.Chem.Phys.2020,152,231101.
+[16] M.B.Kale,R.A.Borse,A.GomaaAbdelkaderMohamed,Y.Wang, [39] L. Sun, Z. Li, Z. Li, Y. Hu, C. Chen, C. Yang, B. Du, Y. Sun, F.
+Adv.Funct.Mater.2021,31,2101313. Besenbacher,M.Yu,Nanoscale2017,9,16183.
+[17] J.Wang,X.Niu,R.Wang,K.Zhang,X.Shi,H.Y.Yang,J.Ye,Y.Wu, [40] Z.Sun,X.Huang,G.Zhang,JCleanProd2022,381,135156.
+Appl.Catal.,B-Environ.Energy2025,362,124763. [41] G.Zeng,K.-K.Li,H.-G.Yang,Y.-H.Zhang,Vib.Spectrosc.2013,68,
+[18] X.Zhou,I.Hwang,O.Tomanec,D.Fehn,A.Mazare,R.Zboril,K. 279.
+Meyer,P.Schmuki,Adv.Funct.Mater.2021,31,2102843. [42] W.-T.Yang,L.C.Kao,X.-T.Yu,C.-L.Dong,S.Y.H.Liou,ApplCatalB-
+[19] Z.Zhao,C.S.Law,Y.Zhao,J.A.BaronJaimez,A.Talebian-Kiakalaieh, Environ2024,352,124017.
+H.Li,J.Ran,Y.Jiao,A.D.Abell,A.Santos,Adv.Sci.2024,11,2407598; [43] S.H.Lim,J.Luo,Z.Zhong,W.Ji,J.Lin,Inorg.Chem.2005,44,4124.
+[20] X.Chen,S.Qin,N.Denisov,S.-Z.Kure-Chu,P.Schmuki,Electrochim. [44] G.Betz,H.Tributsch,R.Marchand,J.Appl.Electrochem.1984,14,
+Acta2023,446,142081. 315.
+[21] Y.He,Q.He,L.Wang,C.Zhu,P.Golani,A.D.Handoko,X.Yu,C. [45] J.-T.Lin,Y.-C.Hsiao,C.Li,C.-Y.Tseng,Z.-Y.He,A.M.Gardner,Y.
+Gao,M.Ding,X.Wang,F.Liu,Q.Zeng,P.Yu,S.Guo,B.I.Yakobson, Chen,C.-C.Yang,C.-H.Wang,S.-C.Lin,X.-X.Lin,C.-Y.Lin,K.-H.Lin,
+L.Wang,Z.W.Seh,Z.Zhang,M.Wu,Q.J.Wang,H.Zhang,Z.Liu, A.J.Cowan,T.-H.Yang,Small2025,21,2503512.
+Nat.Mater.2019,18,1098. [46] J.Greeley,T.F.Jaramillo,J.Bonde,I.B.Chorkendorff,J.K.Norskov,
+[22] S.Qin,N.Denisov,H.Kim,P.Schmuki,Angew.Chem.Int.Ed.2024, Nat.Mater.2006,5,909.
+63,e202316660. [47] G.Kresse,J.Furthmuller,Phys.Rev.B1996,54,11169.
+[23] E.Budevski,G.Staikov,W.J.Lorenz,Electrochim.Acta2000,45,2559; [48] J.P.Perdew,K.Burke,M.Ernzerhof,Phys.Rev.Lett.1996,77,3865.
+[24] E.B.Budevski,G.T.Staikov,W.J.Lorenz,Electrochemicalphaseforma- [49] P.E.Blochl,PhysRevBCondensMatter1994,50,17953.
+tionandgrowth:anintroductiontotheinitialstagesofmetaldeposition, [50] H.J.Monkhorst,J.D.Pack,Phys.Rev.B1976,13,5188.
+JohnWiley&Sons,NewJersey,USA2008. [51] A.vandeWalle,M.Asta,G.Ceder,Calphad2002,26,539.
+[25] J.C.Woolley,B.Bates,JLess-Common.Met.1960,2,11. [52] S.Grimme,J.Antony,S.Ehrlich,H.Krieg,J.Chem.Phys.2010,132,
+[26] Q.Mao,X.Mu,K.Deng,H.Yu,Z.Wang,Y.Xu,X.Li,L.Wang,H. 154104.
+Wang,Adv.Funct.Mater.2023,33,2304963. [53] S.L.Dudarev,G.A.Botton,S.Y.Savrasov,C.J.Humphreys,A.P.
+[27] T.Mazza,E.Barborini,P.Piseri,P.Milani,D.Cattaneo,A.LiBassi,C. Sutton,Phys.Rev.B1998,57,1505.
+E.Bottani,C.Ducati,Phys.Rev.B2007,75,045416. [54] S.Ma,S.-D.Huang,Y.-H.Fang,Z.-P.Liu,ACSCatal.2018,8,9711.
+[28] W.Qian,S.Xu,X.Zhang,C.Li,W.Yang,C.R.Bowen,Y.Yang,Na- [55] H.Li,Y.Jiang,X.Li,K.Davey,Y.Zheng,Y.Jiao,S.Z.Qiao,J.Am.
+nomicroLett.2021,13,156. Chem.Soc.2023,145,14335.
+Adv.Sci.2026,13,e14558 e14558(14of14) ©2025TheAuthor(s).AdvancedSciencepublishedbyWiley-VCHGmbH
+

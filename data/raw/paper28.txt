@@ -1,0 +1,1689 @@
+Rare Metals, vol. 42, pp. 3246-3268, 2023
+https://doi.org/10.1007/s12598-023-02340-x
+Superfunctional high-entropy alloys and ceramics by severe plastic
+deformation
+Parisa Edalati1,2,*, Masayoshi Fuji1,2,* and Kaveh Edalati3,4,*
+1 Department of Life Science and Applied Chemistry, Nagoya Institute of Technology, Tajimi
+507-0071, Japan
+2 Advanced Ceramics Research Center, Nagoya Institute of Technology, Tajimi 507-0071, Japan
+3 WPI International Institute for Carbon-Neutral Energy Research (WPI-I2CNER), Kyushu
+University, Fukuoka 819-0395, Japan
+4 Mitsui Chemicals, Inc.—Carbon Neutral Research Center (MCI-CNRC), Kyushu University,
+Fukuoka 819-0395, Japan
+High-entropy alloys and ceramics containing at least five principal elements have recently received
+high attention for various mechanical and functional applications. The application of severe plastic
+deformation (SPD), particularly the high-pressure torsion (HPT) method, combined with the
+CALPHAD and first-principles calculations resulted in the development of numerous
+superfunctional high-entropy materials with superior properties compared to the normal functions
+of engineering materials. This article reviews the recent advances in the application of SPD to
+developing superfunctional high-entropy materials. These superfunctional properties include (i)
+ultrahigh hardness levels comparable to the hardness of ceramics in high-entropy alloys, (ii) high
+yield strength and good hydrogen embrittlement resistance in high-entropy alloys; (iii) high
+strength, low elastic modulus, and high biocompatibility in high-entropy alloys, (iv) fast and
+reversible hydrogen storage in high-entropy hydrides, (v) photovoltaic performance and
+photocurrent generation on high-entropy semiconductors, (vi) photocatalytic oxygen and hydrogen
+production from water splitting on high-entropy oxides and oxynitrides, and (vii) CO
+2
+photoreduction on high-entropy ceramics. These findings introduce SPD as not only a processing
+tool to improve the properties of existing high-entropy materials but also as a synthesis tool to
+produce novel high-entropy materials with superior properties compared with conventional
+engineering materials.
+Keywords: multi-principal element alloys (MPEAs); high-entropy alloys (HEAs); high-entropy
+ceramics (HECs); high-entropy oxides (HEOs); ultrafine-grained (UFG) microstructure; high-
+pressure torsion (HPT).
+* Corresponding authors: P. Edalati (E-mail: parisaedalati@gmail.com; Tel: +81-57-224-8110)
+M. Fuji (E-mail: fuji@nitech.ac.jp; Tel: +81-57-224-8110)
+K. Edalati (E-mail: kaveh.edalati@kyudai.jp; Tel: +81-92-802-6744)
+1
+
+1. Introduction
+There have been significant activities within the past three decades to produce bulk
+ultrafine-grained (UFG) materials using severe plastic deformation (SPD) methods such as high-
+pressure torsion (HPT), equal-channel angular pressing (ECAP), accumulative roll-bonding
+(ARB), twist extrusion (TE), and multidirectional forging (MDF) [1-4]. The formation of UFG
+structures with a large density of lattice defects leads to exceptional mechanical and functional
+properties of these severely deformed materials [5-8]. Since the properties of these materials are
+superior to conventional engineering materials, a recent publication used the term superfunctional
+materials for them [9]. Although SPD was well-known in western countries several decades ago
+[10-12], the method owes its popularity to a few interesting works done by Russian scientists in
+the 1980s [13,14].
+A special issue edited by Edalati and Horita in 2019 reviewed the historical developments
+and recent advances in the SPD field by inviting the most active scientists in the field [15,16].
+These review papers covered a wide range of progress from the mechanism and theoretical aspects
+of SPD [17-20] to the processing aspects including traditional SPD methods [20-23] continuous
+methods [24], upscaled methods [25,26], in situ methods [19,27], and surface treatment methods
+[28,29]. Although SPD was defined as a metal processing method at the beginning of this century,
+its application has been currently extended to non-metallic materials by several research groups
+[19,27,30-33]. These review papers clearly confirm that the SPD methods are widely used by
+researchers from many countries to control microstructural features/defects [34-38] and solid-state
+phase transformations [39-42] to achieve a wide range of mechanical [43-48] and functional
+properties [32,49-56].
+In recent years, many publications reported the application of the SPD process to high-
+entropy or multi-principal element materials, although these publications were not reviewed in the
+above-mentioned special issue. High-entropy materials, including high-entropy alloys [57-59] and
+high-entropy ceramics [60-62], which were first introduced in 2004 [63,64], are compounds
+containing at least five principal elements (5-35 at%) with a configurational entropy higher than
+1.5R (R: gas constant). High-entropy materials show promising properties mainly because of the
+cocktail effect, lattice distortion, sluggish diffusion, and high configurational entropy [57-62]. The
+SPD methods were successfully used not only as a processing tool to enhance the properties of
+high-entropy alloys but also as a synthesis tool to develop new high-entropy alloys and ceramics
+[65].
+A summary of publications on the application of SPD to medium-entropy and high-entropy
+materials is given in Table A1 of the Appendix [66-169]. While most studies focused on
+microstructural features and mechanical properties, there are limited studies on functional
+properties. This article reviews the recent advances in the application of SPD to achieve
+superfunctional high-entropy materials.
+2. Ultrahigh hardness
+The most investigated properties of high-entropy alloys are mechanical properties [5,6],
+and it is believed these materials can have a higher hardness than conventional engineering alloys
+[170,171]. The high hardness is usually attributed to lattice strain and significant solution
+hardening in these alloys [170-173]. The introduction of these alloys resulted in some attempts to
+design metallic alloys with hardness levels comparable to brittle ceramics. A few studies designed
+new high-entropy alloys and processed them by HPT to achieve some of the highest hardness
+levels ever reported in metallic alloys. Carbon-doped AlTiFeCoNi is an alloy designed by using
+2
+
+the thermodynamic calculations using CALPHAD (calculation of phase diagram) to have dual
+phases with some small amounts of carbide precipitate, as shown in Fig. 1a [136]. The alloy shows
+an ultrahigh hardness of 950 Hv after SPD processing, as shown in Fig. 1b. Such a high hardness
+was not only due to the high solution hardening effect but also due to some other hardening
+mechanisms such as the formation of nanograins with sizes smaller than 100 nm, interphase
+hardening shown in Fig. 1c, dislocation accumulation shown in Fig. 1d, and precipitation
+hardening [136]. The formation of nanograins with sizes smaller than 100 nm, which cannot be
+easily achieved in severely deformed metals and conventional alloys, should be due to the
+significant interaction of solute atoms with dislocations and grain boundaries in high-entropy
+alloys.
+In another study, one of the highest hardness levels reported for metallic alloys (1030 Hv)
+was achieved in a newly designed dual-phase (cubic + hexagonal) AlCrFeCoNiNb alloy, as shown
+in Fig. 1e [17]. The introduction of 10 nm nanograin sizes (Fig. 1f), dislocations (Fig. 1g),
+interfaces, and spinodal decomposition were responsible for such a high hardness [137]. In
+summary, the SPD process can be used to produce high-entropy alloys with ultrahigh hardness
+levels comparable to ceramics, while the plasticity of alloys is naturally higher than ceramics. Here,
+it should be noted that processing of such ultrahard alloys is currently possible only by HPT. Since
+a disc or ring is torsionally strained under very high pressures in HPT [174,175], the method is
+applicable to hard and less ductile materials including metals (Hf [176], Mo [177], and W [178]),
+glasses [179,180], silicon [181,182] and even diamond [183,184]. Another issue that needs to be
+considered is that the authors’ attempt to apply SPD to existing single-phase [166] and dual-phase
+[163] high-entropy alloys led to hardness values that were not comparable to those of carbon-
+doped AlTiFeCoNi and AlCrFeCoNiNb, and thus, the design of alloys to have the simultaneous
+contribution of different hardening mechanisms is essential for achieving ultrahigh hardness after
+SPD [136,137].
+These studies clearly show that the combination of various strengthening mechanisms in
+high-entropy alloys by SPD processing is a new strategy to realize metallic materials with high
+hardness levels comparable to the hardness of ceramics. Although metallic materials are expected
+to exhibit higher plasticity compared to ceramics, it is essential to conduct future research on the
+enhancement of the ductility of these ultrahard high-entropy alloys to have a good combination of
+ultrahigh hardness and high ductility.
+3. Hydrogen embrittlement resistance
+With the quick development of hydrogen as a clean fuel, demand for materials that show
+high strength in the presence of hydrogen has increased [185]. The main drawback in this regard
+is that high-strength alloys, such as steels with martensitic or body-centered cubic (BCC) structures,
+show poor plasticity in the presence of hydrogen due to different hydrogen embrittlement
+mechanisms such as hydrogen-enhanced localized plasticity [186] or hydrogen-enhanced
+decohesion [187]. Although all materials basically suffer from hydrogen embrittlement, the alloys
+with face-centered cubic (FCC) crystal structures like austenitic steels have more compatibility
+with hydrogen [188,189]. Recently, high-entropy alloys with the FCC crystal structure,
+particularly CrMnFeCoNi Cantor alloy, were introduced as new hydrogen-compatible materials
+[190,191]; however, these alloys have low yield strength.
+A recent study employed the HPT method to enhance the yield strength of Cantor alloy
+and examine its hydrogen embrittlement resistance after applying various levels of strains (i.e.
+after various HPT turns), as shown in Fig. 2a [167]. Although coarse-grained material exhibits a
+3
+
+large elongation of about 80% in the presence of hydrogen, its yield stress is 220 MPa which is
+not a high strength for many engineering applications. When low levels of strain are applied to the
+material such as 1/16 rotations of HPT, large fractions of twins are formed (Fig. 2b), leading to
+more than 1 GPa yield stress in the presence of hydrogen with an appreciable elongation of about
+9%. With a further increase in the applied strain such as 1/8-1/4 rotations of HPT, dislocation-
+based defects, particularly low-mobility Lomer-Cottrell locks (Fig. 2c) and D-Frank partial
+dislocations (Fig. 2d), are generated which can further enhance the yield strength, while retaining
+acceptable plasticity. With a significant increase in strain such as 1-10 HPT rotations, nanograins
+are formed leading to up to 1.9 GPa strength but with very poor resistance to hydrogen
+embrittlement due to the possible occurrence of hydrogen-enhanced decohesion at grain
+boundaries.
+Another study applied SPD to the surface through surface mechanical attrition treatment
+(SMAT) and reported a combination of high yield stress (0.5-0.7 GPa) and high plasticity (15-
+33%) in the presence of hydrogen (Fig. 2e) [165]. Such impressive results were attributed to the
+formation of gradient microstructure with a large fraction of twins (Fig. 2f). These studies
+suggested that twins and low-mobility Lomer-Cottrell locks and D-Frank partial dislocations are
+appropriate defects in the Cantor alloy to obtain large yield strength and good plasticity due to the
+suppression of hydrogen-enhanced localized plasticity [165,167]. However, the formation of
+nanograins leads to poor hydrogen embrittlement resistance of the Cantor alloy due to fast grain-
+boundary hydrogen diffusion and domination of hydrogen-enhanced decohesion [165,167].
+Although poor ductility is a well-known feature of many metallic nanomaterials which needs to
+be improved using special strategies [192-196], this effect seems to be more severe in the presence
+of hydrogen in high-entropy alloys leading to failure even in the elastic region [165,167].
+These studies suggest that high-entropy alloys have a high potential to achieve a
+combination of high strength and high hydrogen embrittlement resistance by controlling the lattice
+defects through SPD processing. However, the strength level and resistance to embrittlement can
+be still improved by controlling the chemical composition of these alloys to suppress the diffusion
+of hydrogen through the surface to bulk as well as through the lattice. Moreover, a combination of
+the SPD process and heat treatment can be used for further engineering of lattice defects and
+controlling their interaction with hydrogen.
+4. Biocompatibility
+Severely deformed materials, particularly titanium and its alloys, can exhibit a good
+combination of high strength and good biocompatibility [197-199], and this has led to the
+commercialization of these materials for biomedical applications [200]. However, for materials
+used as implants for orthopedics, besides high strength and biocompatibility, the elastic modulus
+should be low and ideally comparable to the elastic modulus of human bone (10-30 GPa) [201].
+Recently, high-entropy alloys were introduced as a new family of biocompatible materials with
+reasonable elastic modulus [202-205], but the strength of these materials needs to be enhanced by
+appropriate hardening mechanisms [206-210].
+In a study, a lattice-softened Ti-containing high-entropy alloy, TiAlFeNiCo, was designed
+with the aid of thermodynamic calculations and further processed by SPD through the HPT method
+to enhance its strength [123]. The material had a coarse-grained structure with the BCC + L2
+1
+crystal structure after arc melting, but it showed phase transformation to the BCC phase after HPT
+processing together with the formation of UFG structure. These structural and microstructural
+modifications by HPT processing resulted in the enhancement of hardness and the reduction of
+4
+
+elastic modulus to about 120 GPa, as shown in the plots of nanoindentation load against
+displacement in Fig. 3a. A comparison between the strength (examined by Vickers method) and
+cell proliferation-viability-cytotoxicity activity (examined by MTT assay) of this high-entropy
+alloy with those achieved for pure titanium and the Ti-6Al-7Nb (wt%) alloy is shown in Fig. 3b.
+The TiAlFeCoNi alloy shows 170-580% larger microhardness and 260-1020% higher cellular
+metabolic activity than pure titanium and the Ti-6Al-7Nb alloy, while its elastic modulus is similar
+to these two biomaterials [123].
+Biocompatible high-entropy alloys can be also synthesized from the powders of pure
+metals by using the concept of ultra-SPD [134]. In ultra-SPD, the shear strain is significantly
+enhanced (usually over 1,000) so that the thickness of sheared phases becomes geometrically
+comparable to atomic distances [211]. Ultra-SPD is quite effective to synthesize a wide range of
+alloys even from immiscible systems [212-214] not only because of the mechanical strain effect
+but also due to ultrafast dynamic diffusion [215-217]. Among various SPD methods, HPT is
+currently the best method to impart ultra-SPD because the method can induce very large strains
+(only by continuous rotation of HPT anvils) without any contamination or significant temperature
+rise [218,219]. Therefore, the HPT method can be used to simultaneously conduct mechanical
+alloying, consolidate the powders at low temperatures and refine the grain size to the UFG region
+[212-214]. A recent study directly synthesized several biomaterials from the powders of pure
+metals by the concept of ultra-SPD: a binary TiNb alloy, a ternary TiNbZr alloy, a medium-entropy
+alloy TiNbZrTa, and a high-entropy alloy TiNbZrTaHf [134]. All synthesized biomaterials had
+single BCC phases with grain sizes at the nanometer level. As shown in Fig. 3c, the hardness
+increases with increasing the number of principal elements, while the high-entropy alloy with five
+principal elements exhibits the highest hardness. As shown in Fig. 3d, these medium-entropy and
+high-entropy alloys have elastic modulus values close to 80 GPa, which is comparable to or even
+better than many commercial biomaterials, while their hardness levels are almost the highest for
+the biocompatible alloys (> 500 Hv). In conclusion, a combination of the concepts of SPD and
+high-entropy materials appears as a promising approach to developing biomaterials with high
+strength, low elastic modulus, and good biocompatibility [123,134]. Corrosion resistance,
+deformation ductility, fatigue properties, and tribological properties are other critical parameters
+that need to be investigated for the practical application of SPD-processed high-entropy materials
+for biomedical applications [220], although a study reported good corrosion resistance of these
+alloys after SPD processing [150].
+A good combination of high strength and high biocompatibility of severely deformed high-
+entropy alloys compared to conventional biomaterials introduces them as a new family of
+biomaterials. However, the future direction should be the design of alloys with appropriate density
+and a lower elastic modulus. Moreover, although aluminum is still used in biomedical alloys such
+as Ti-6V-4Al and Ti-6Al-7Nb (wt%), this element should be excluded from the composition of
+conventional and high-entropy alloys in the future because of biomedical toxicity issues.
+5. Hydrogen storage
+Hydrogen is considered a clean fuel for the future, but since hydrogen is a light gas, its safe
+and high-density storage is a big academic and industrial challenge [221]. Metal hydrides provide
+a promising technology for compact and low-pressure storage of hydrogen [222,223]; however,
+many hydrides suffer either from kinetic issues (i.e., activation and
+hydrogenation/dehydrogenation rate) or thermodynamic issues (i.e., the high stability of hydride
+at room temperature) [224,225]. The SPD methods, particularly ECAP [226-228] and HPT [229-
+5
+
+231], were successfully used to solve the kinetic issues of metal hydrides by mechanochemistry
+[232]. Moreover, there is a successful attempt to solve the thermodynamic aspects of metal
+hydrides by using the concepts of binding-energy engineering and ultra-SPD which resulted in the
+discovery of the first Mg-based alloy for reversible hydrogen storage at room temperature [233].
+Similar concepts were employed to discover new high-entropy materials with the capability to
+store hydrogen at room temperature. The first attempt was synthesizing MgTiVCrFe by SPD
+which resulted in the BCC + amorphous structure with poor hydrogen storage at room temperature
+[117]. The second attempt was TiZrCrMnFeNi with the C14 Laves phase structure, which was
+originally synthesized by SPD but later could be synthesized by conventional arc melting [113].
+These studies were later employed to design other high-entropy alloys for low/room-temperature
+hydrogen storage such as TiZrNbFeNi [234], TiZrNbCrFe [235] and Ti Zr CrMnFeNi (x = 0.4-
+x 2-x
+1.6) [236].
+The high-entropy hydrogen storage materials were designed based on three criteria [113].
+(i) The AB system is the most appropriate to have low hydrogen binding energy, where A denotes
+2
+the hydride-forming metals like magnesium, titanium, zirconium, vanadium, and niobium, and B
+denotes metals with low affinity with the hydrogen atoms like chromium, manganese, iron, cobalt,
+and nickel. (ii) The average valence electron concentration should be close to 6.4. (iii) The C14
+Laves phase has the highest possibility for room-temperature hydrogen storage. The use of these
+criteria is expected to lead to a hydrogen binding energy slightly lower than 0.1 eV which is a
+target for reversible room-temperature hydrogen storage, as shown in Fig. 4a [236]. For the AB -
+2
+type TiZrCrMnFeNi with a valence electron concentration of 6.4, the CALPHAD calculations
+confirmed the theoretical stability of the C14 Laves phase structure [113] and first-principles
+calculations confirmed an appropriate hydrogen binding energy of close to -0.1 eV, as shown in
+Figs. 4b and 4c [236]. The synthesized TiZrCrMnFeNi alloy with an equiatomic fraction of
+elements exhibited a C14 Laves phase structure with reversible room-temperature hydrogen
+storage of 1.7 wt% (30% higher capacity compared to commercial LaNi ), as shown in Fig. 3d
+5
+[113]. The hydrogenation kinetics of the alloy was also good, it absorbed hydrogen without any
+need for an activation process, and its hydrogenation rate was very fast, as shown in Fig. 3e [113].
+Moreover, the TiZrCrMnFeNi alloy could be handled under an air atmosphere, while hydrogen
+storage materials should be usually handled under a controlled atmosphere (e.g., in a glove box).
+Moreover, the examination of cyclic stability, conducted for a non-equiatomic alloy
+Ti Zr CrMnFeNi, confirmed excellent cycling stability for at least 1,000 cycles without any loss
+0.4 1.6
+in the storage capacity, as shown in Fig. 4f [236]. The room-temperature hydrogen storage
+capability of Ti Zr CrMnFeNi (x = 0.4-1.6) alloys resulted in the first experimental application
+x 2-x
+of high-entropy alloys as the anode material of nickel-metal hydride (Ni-MH) batteries, although
+the discharge capacity of these alloys was not as high as the commercial Ni-MH batteries [237].
+In conclusion, the high-entropy alloys, designed by binding-energy engineering and
+primarily synthesized by SPD, have introduced new candidates for fast and reversible hydrogen
+storage at room temperature with capacities larger than commercial hydrogen storage materials
+such as LaNi . These materials are currently designed by using transition metals to have a C14
+5
+Laves crystal structure with a hydrogen-to-metal atomic ratio of 1, but future studies are expected
+to focus on the design of high-entropy alloys with higher hydrogen-to-metal atomic ratios such as
+the BCC alloys and on the use of lighter elements. The employment of theoretical concepts is
+essential for the future design of such high-entropy hydrogen storage materials.
+6. Photovoltaics
+6
+
+Photovoltaics, which is used in solar cells, is defined as the conversion of light to electric
+current using semiconductors [238]. Currently, silicon and GaAs show the highest efficiency to
+generate photocurrent [239,240], but there are significant efforts all over the world to discover new
+semiconductors for such applications. The high-entropy ceramics, including TiZrHfNbTaO
+11
+[126,155] and TiZrHfNbTaO N [127,154] semiconductors, are one of the newest families of
+6 3
+photovoltaic materials synthesized by SPD. These materials were synthesized from elemental
+metallic powders by HPT and subjected to oxidation and nitriding to produce high-entropy oxides
+and oxynitrides, respectively. These high-entropy materials were used in the form of thin films by
+deposition on fluorine-doped tin oxide glass and used photocurrent generation. Fig. 5a shows the
+appearance of TiZrHfNbTaO powder [126], Fig. 5b shows its microstructures [126], and Fig. 5c
+11
+shows its photocurrent generation [155]. It is evident that the oxide can generate electric current
+under light, although its efficiency is not still comparable to conventional photovoltaic materials.
+One reason for the low efficiency of this semiconductor is the technical difficulty in fabricating a
+dense thin film, an issue that needs to be addressed in future studies. Despite this technical
+difficulty, SPD contributed to the field of photovoltaics by introducing not only high-entropy
+semiconductors [126,127,154,155] but also some other semiconductors such as high-pressure
+TiO -II columbite phase [241] and black Bi O [242].
+2 2 3
+Although the efficiency of SPD-synthesized high-entropy ceramic for photocurrent
+generation is still lower than commercial silicon and GaAs materials, research on this issue is still
+in its early stages. Future studies should focus not only on the design and synthesis of effective
+semiconductors for photovoltaics but also on using effective technologies to make dense thin films
+from these high-entropy semiconductors.
+7. Photocatalytic water splitting
+Photocatalysis is a clean technology to produce hydrogen from water splitting under solar
+energy in the presence of a light-absorbing catalyst such as TiO [243,244]. Despite high scientific
+2
+interest in photocatalytic hydrogen production, the efficiency of the method is still low for practical
+applications, and thus, there is a high demand to discover new photocatalysts with high activity
+[243,244]. A good photocatalyst should have some features such as large light absorbance,
+appropriate band structure compared to potentials for hydrogen and oxygen production, low
+bandgap, slow electron-hole recombination rate, a large fraction of active sites on the surface, and
+high chemical stability [245]. High-entropy photocatalysts were recently introduced as a new
+family of materials for photocatalytic water spitting [126,127,160]. High-entropy ceramics - which
+were also used as catalysts for electrocatalytic O generation [246-248], chemical oxidation of CO
+2
+[249-251], operation of lithium-sulfur batteries [252], electrocatalytic CO conversion [253],
+2
+operation of electrochemical capacitors [254], and chemical combustion reactions [255] - have
+some features that make them attractive as catalysts [256]. (i) They have low free Gibbs energy
+which gives them high chemical stability. (ii) They have a large fraction of inherent surface defects
+as active sites for photocatalysis. (iii) The band structure and bandgap of these materials can be
+adjusted easier than conventional photocatalysts by changing the type or fraction of principal
+elements.
+TiZrHfNbTaO is the first high-entropy oxide photocatalyst which was synthesized by
+11
+HPT processing followed by oxidation for photocatalytic hydrogen production [126]. The second
+material was high-entropy oxynitride photocatalyst TiZrHfNbTaO N synthesized by a three-step
+6 3
+process including HPT processing, oxidation, and high-temperature nitriding [127]. As shown in
+Fig. 6a, the materials show higher light absorbance compared to all binary oxides and high-entropy
+7
+
+oxides in the Ti-Zr-Hf-Nb-Ta system. The material shows high stability for photocatalytic
+hydrogen production, and it remains active for at least six months (Fig. 6b), while low stability is
+a general drawback of low-bandgap nitrides and oxynitrides [245]. In the most recent attempt,
+TiZrNbTaWO with ten different kinds of heterojunctions (i.e., interphase boundaries which can
+12
+ease electron-hole separation and migration) was produced by HPT processing followed by
+oxidation [160]. TiZrNbTaWO could produce oxygen from water under visible light (Fig. 6c),
+12
+while the activity of most photocatalysts is limited to the ultraviolet (UV) range of sunlight
+[243,244].
+In conclusion, high-entropy photocatalysts, which were first synthesized by SPD, show
+high potential for water splitting and it is expected that a wider range of compositions and different
+synthesis methods will be employed in the future to utilize these materials. The key point in this
+respect is the design of active photocatalysts through the use of theoretical concepts. Moreover,
+some technologies should be employed to increase the surface area of these high-entropy
+photocatalysts by producing nanopowders.
+8. CO photoreduction
+2
+CO emission from human activity has made the serious problem of global warming, an
+2
+issue that is expected to influence the lives of many people in the 21st century [257]. In addition
+to the utilization of zero-CO emission fuels such as hydrogen, the capture of CO and its
+2 2
+conversion to reactive gases such as CO or value-added hydrocarbons and fuels is another solution
+to deal with the CO emission issues [258]. Photoreduction of CO under sunlight and in the
+2 2
+presence of a semiconductor catalyst is the cleanest technology for such conversions, but the field
+is rather new and needs significant improvement particularly by discovering new catalysts [259].
+The SPD method was effectively used to improve CO photoreduction by inducing high-pressure
+2
+phases and oxygen vacancies in typical photocatalysts such as TiO [260] and BiVO [261]. The
+2 4
+introduction of high-entropy oxides and oxynitrides, synthesized by SPD, is another successful
+attempt in this regard [154,155].
+The band structure and the position of the valence band top and the conduction band bottom
+for TiZrHfNbTaO and TiZrHfNbTaO N , which were originally designed and synthesized for
+11 6 3
+photocatalytic water splitting [126,127], satisfy the energy requirements for CO photoreduction,
+2
+as shown in Fig. 7a [154]. While the high-entropy oxide has a bandgap of 3 eV which is similar to
+TiO , the high-entropy oxynitride shows a low bandgap of 1.6 eV. In addition to low bandgap and
+2
+appropriate band structure, physical adsorption and chemisorption of CO on high-entropy
+2
+catalysts, particularly on TiZrHfNbTaO N , is higher than TiO , as shown in Fig. 7b using diffuse
+6 3 2
+reflectance infrared Fourier transform spectroscopy [154]. Moreover, photoluminescence
+measurements suggest lower electron-hole recombination in this oxynitride compared to relevant
+high-entropy oxide and TiO [154]. TiZrHfNbTaO shows high activity for CO photoreduction
+2 11 2
+compared to P25 TiO which is a benchmark catalyst, while TiZrHfNbTaO N exhibits even
+2 6 3
+higher CO photoreduction activity, as shown in Fig. 7c [154].
+2
+These preliminary studies confirm the contribution of SPD in introducing some of the most
+active catalysts for CO photoreduction by using the concept of high-entropy ceramics. Despite
+2
+significant success in the experimental development of such ceramics, theoretical calculations are
+needed to clarify the mechanisms underlying their high activity. CALPHAD, density functional
+theory calculations, molecular dynamics simulations, and multiscale modeling are some
+approaches that can shed light on understanding the mechanism of activity of these new catalysts
+and their mechanochemistry by SPD processing [262-264].
+8
+
+9. Concluding remarks and future outlook
+Superfunctional high-entropy alloys and ceramics, with properties superior to the normal
+functions of engineering materials, can be developed by processing or synthesizing through severe
+plastic deformation (SPD). The SPD has led to various superfunctional properties including (i)
+ultrahigh hardness, (ii) high strength with good hydrogen embrittlement resistance, (iii) high
+strength, and biocompatibility with low elastic modulus, (iv) fast and reversible room-temperature
+hydrogen storage, (v) photocurrent generation, (vi) photocatalytic water splitting, and (vii) CO
+2
+photoreduction. These findings not only suggest new applications for SPD but also introduce
+severely deformed high-entropy alloys and ceramics as a new family of superfunctional materials
+with high potential for various applications. The application of severely deformed high-entropy
+materials is expected to be expanded by considering the current demands to discover advanced
+energy materials with higher efficiency.
+Acknowledgments
+The author P.E. thanks the Hosokawa Powder Technology Foundation of Japan for a grant.
+The author K.E. was supported by the MEXT, Japan through Grants-in-Aid for Scientific Research
+on Innovative Areas (JP19H05176 & JP21H00150), and in part by the MEXT, Japan through
+Grant-in-Aid for Challenging Research Exploratory (JP22K18737).
+Appendix
+Table A1 summarizes the publications on the application of SPD as a processing or synthesis tool to medium-
+entropy materials (containing four principal elements) and high-entropy materials (containing at least five principal
+elements) [66-169].
+Table A1. Summary of publications about severe plastic deformation of medium- and high-entropy
+alloys and ceramics in chronological order.
+Crystal SPD
+Composition SPD Role Properties or Features References
+Structure Method
+AlCoCrCuFeNi BCC + FCC MDF Processing Superplasticity Kuznetsov et al. (2013) [66]
+AlFeMgTiZn Multiphases ECAP Processing Mechanical properties Hammond et al. (2014) [67]
+CoCrFeHMnNi FCC HPT Processing Mechanical properties and Schuh et al. (2015) [68]
+thermal stability
+Al CoCrFeNi FCC HPT Processing Hardening by straining and Tang et al. (2015) [69]
+0.3
+annealing
+CoCrFeNiMn FCC HPT Processing Nanomechanical behavior Lee et al. (2015) [70]
+Al CoCrFeNi FCC HPT Processing Microstructural features Tang et al. (2015) [71]
+0.3
+Al CoCrFeNi FCC HPT Processing Microstructural features Yu et al. (2016) [72]
+0.1
+Al CoCrFeNi FCC HPT Processing Annealing-induced phase Tang et al. (2016) [73]
+0.3
+transformation
+CoCrFeMnNi FCC HPT Processing Nanoindentation creep Lee et al. (2016) [74]
+behavior
+CoCrFeNiMn FCC HPT Processing Annealing effect on Shahmir et al. (2016) [75]
+mechanical properties
+Al Cu CoCrFeNi FCC HPT Processing Strain-induced Yuan et al. (2016) [76]
+0.3 0.5
+homogenization
+Ti Zr Hf Nb Ta HCP HPT Processing Microstructure and Heczel et al. (2017) [77]
+35 27.5 27.5 5 5
+hardness
+CrMnFeCoNi FCC HPT Processing Phase stability examination Maier-Kiener et al. (2017)
+by nanoindentation [78]
+9
+
+CoCrFeNiMn FCC HPT Processing Superplasticity Shahmir et al. (2017) [79]
+AlTiVNb BCC HPT Processing Phase transformation Schuh et al. (2017) [80]
+CrMnFeCoNi FCC HPT Processing Microstructure and texture Skrotzki et al. (2017) [81]
+evolution
+CoCrFeNiMn FCC ECAP Processing Microstructural features Shahmir et al. (2017) [82]
+(FeNiCoCu) Ti Al FCC HPT Processing Tensile properties Zheng et al. (2017) [83]
+1−x x x
+Ti Zr Hf Nb Ta Orthorhombic HPT Processing Lattice defects Heczel et al. (2017) [84]
+35 27.5 27.5 5 5
+CoCrFeMnNi FCC HPT Processing Lattice defects and Heczel et al. (2017) [85]
+hardness
+CoCrFeMnNi FCC + σ HPT Processing Phase stability Park et al. (2017) [86]
+FeCoCrNi FCC HPT Processing Amorphization and Wu et al. (2017) [87]
+twining
+Co Cr Fe Mn Ni HCP HPT Processing Phase transformation Moon et al. (2017) [88]
+20 26 20 20 14
+CoCrFeMnNi FCC HPT Processing Annealing effect on plastic Lee et al. (2017) [89]
+flow
+Al CoCrFeMnNi FCC + B2 HPT Processing Microstructure and phase Reddy et al. (2017) [90]
+0.5
+transformation
+TiZrNbHfTa BCC HPT Processing Thermodynamic instability Schuh et al. (2018) [91]
+Co Cr Fe Mn Ni FCC HPT Processing Micro-scale mechanical Kawasaki et al. (2018) [92]
+20 20 20 20 20
+behavior
+CoCrFeNiMn FCC HPT Processing Superplasticity Shahmir et al. (2018) [93]
+CoCrFeMnNi FCC Caliber Processing Microstructural features Won et al. (2018) [94]
+Rolling
+CoCrFeMnNi FCC HPT Processing Phase stability and Shahmir et al. (2018) [95]
+strengthening
+CoCrFeNiMn FCC HPT Processing Superplasticity Shahmir et al. (2018) [96]
+Carbon-doped FCC + HPT Processing Carbon and annealing Shahmir et al. (2018) [97]
+CrFe NiMnV Carbide effect on hardness
+2 0.25
+HfNbTaTiZr BCC HPT Processing Lattice defects Lukáča et al. (2018) [98]
+HfNbTaTiZr BCC HPT Processing Mechanical properties Čížek et al. (2018) [99]
+CoCrFeNiNb FCC HPT Processing Dislocation structure Maity et al. (2018) [100]
+x
+CoCrFeMnNi FCC HPT Cryogenic Microstructure and Zherebtsov et al. (2018)
+Processing mechanical properties [101]
+AlNbTiVZr B2 HPT Processing Microstructural and Stepanov et al. (2018) [102]
+0.5
+hardness
+Al CrFeCoNi BCC + FCC HPT Processing Deformation behavior Qiang et al. (2018) [103]
+0.3
+CoCrFeMnNi FCC HPT Synthesis Activation energy for Lee et al. (2018) [104]
+plastic flow
+CoCrFeMnNi FCC HPT Synthesis Microstructure and Kilmametov et al. (2019)
+hardness [105]
+Hf Nb Ti Zr BCC HPT Processing Microstructure and Gubicza et al. (2019) [106]
+25 25 25 25
+hardness
+CoCrFeNi FCC HPT Processing Microstructure and Gubicza et al. (2019) [107]
+hardness
+CoCuFeMnNi FCC HPT Monotonic Microstructure and Sonkusare et al. (2019)
+and Cyclic hardness [108]
+Processing
+CrMnFeCoNi FCC HPT Processing Ductility Schuh et al. (2019) [109]
+CoCrFeNiMn FCC HPT Processing Nanoindentation creep Zhou et al. (2019) [110]
+behavior
+V Cr Mn Fe Co Ni FCC HPT Processing Superplasticity Nguyen et al. (2019) [111]
+10 15 5 35 10 25
+HfNbTaTiZr BCC HPT Processing Microstructure and Málek et al. (2019) [112]
+mechanical properties
+TiZrCrMnFeNi C14 + B2 HPT Processing Hydrogen storage Edalati et al. (2020) [113]
+10
+
+V Cr Mn Fe Co Ni FCC HPT Processing Grain size effect on Asghari-Rad et al. (2020)
+10 15 5 35 10 25
+deformation mechanism [114]
+CoCrFeNiMn FCC HPT Cryogenic Microstructure and Podolskiy et al. (2020)
+Processing strength [115]
+V Cr Mn Fe Co Ni FCC HPT Processing Mechanical properties Asghari-Rad et al. (2020)
+10 15 5 35 10 25
+[116]
+MgVTiCrFe BCC HPT Processing Hydrogen storage de Marco et al. (2020) [117]
+CoCuFeMnNi FCC HPT Processing Microstructure, texture and Sonkusare et al. (2020)
+mechanical properties [118]
+CoCrFeNi FCC HPT Processing Strain-rate sensitivity Zhao et al. (2020) [119]
+Fe Mn Ni Co Cr FCC HPT Processing Hydrogen diffusion Belo et al. (2020) [120]
+20 20 20 20 20
+Fe Mn Ni Co C FCC Differential Processing Tensile properties Jeong et al. (2020) [121]
+41 25 24 8 r2
+Rolling
+CrMnFeCoNi FCC + HCP HPT Processing Microstructure, texture and Skrotzki et al. (2020) [122]
+strength
+TiAlFeCoNi BCC + L2 HPT Processing Biocompatibility Edalati et al. (2020) [123]
+1
+CrFeCoNi FCC ECAP Processing Microstructure Rymer et al. (2020) [124]
+HfNbTiZr BCC + HCP HPT Processing Thermal stability Hung et al. (2020) [125]
+TiZrNbHfTaO Monoclinic + HPT Synthesis Photocatalytic H Edalati et al. (2020) [126]
+11 2
+Orthorhombic production
+TiZrNbHfTaO N FCC + HPT Synthesis Photocatalytic H Edalati et al. (2021) [127]
+6 3 2
+Monoclinic production
+CoCrNiFeMn FCC ECAP Processing Low-cycle fatigue Picak et al. (2021) [128]
+CoCrFeNiMn FCC + BCC HPT Processing Phase transformation Shahmir et al. (2021) [129]
+Carbon-doped FCC HPT Processing Carbon effect on Lu et al. (2021) [130]
+CoCrFeMnNi microstructure
+Co Cr Fe Ni Mo FCC HPT Processing Strengthening by Kwon et al. (2021) [131]
+17.5 12.5 55 10 5
+precipitates and nanograins
+Fe Mn Co Cr HCP + FCC HPT Processing Plasticity and non-basal Chandan et al. (2021) [132]
+40 40 10 10
+slip
+CoCrFeMnNi FCC ECAP Processing Twinning and phase Picak et al. (2021) [133]
+transformation
+TiNbZrTaHf BCC HPT Synthesis Biocompatibility González-Masís et al.
+(2021) [134]
+CoCrFeNiNb FCC HPT Processing Strength and elasticity Maity et al. (2021) [135]
+x
+Carbon-doped BCC + FCC HPT Processing Ultrahigh hardness and Edalati et al. (2021) [136]
+AlTiFeCoNi phase transformation
+AlCrFeCoNiNb BCC + C14 HPT Processing Ultrahigh hardness Edalati et al. (2021) [137]
+CoCrFeMnNi FCC HPT consolidation Mechanical properties Asghari-Rad et al. (2021)
+[138]
+Fe Mn Co Cr FCC HPT Processing Strain-induced phase Sathiyamoorthi et al. (2021)
+40 40 10 10
+transformation and [139]
+plasticity
+(CrMnFeCo) Ni FCC HPT Processing Microstructural saturation Keil et al. (2021) [140]
+x 1-x
+CoCrFeNi FCC HPT Processing Micromechanical Zhao et al. (2021) [141]
+properties
+CoCrFeMnNi-based FCC HPT synthesis Microstructure and Karthik et al. (2021) [142]
+Composite mechanical properties
+CoCrFeMnNi + FCC + BCC HPT Synthesis Microstructure Taheriniya et al. (2021)
+HfNbTaTiZr Composite [143]
+AlCrFe Ni FCC HPT Processing Phase transformation Liu et al. (2021) [144]
+2 2
+Various Materials Review paper on synthesis of high-entropy alloys and ceramics by HPT Edalati et al. (2021) [65]
+Micromechanical Rusakova et al. (2021)
+CoCrFeNiMn FCC HPT Processing
+properties [145]
+11
+
+CoCrFeNi FCC HPT Processing Annealing effect on Hung et al. (2021) [146]
+microstructure
+CoCrFeMnNi FCC HPT consolidation Microstructural features Asghari-Rad et al. (2021)
+[147]
+Review paper regarding the impact of HPT on mechanical properties of
+Various Alloys Li et al. (2022) [148]
+high-entropy alloys
+Al CoCrFeMnNi FCC HPT Processing Superplasticity Nguyen et al. (2022) [149]
+0.5
+CoCrFeMnNi FCC HPT Processing Corrosion resistance Shimizu et al. (2022) [150]
+FeCoNiCu FCC HPT Processing Mechanical properties and Zhang et al. (2022) [151]
+thermal stability
+Fe Mn Co Cr FCC HPT Processing Nickel effect on Chandan et al. (2022) [152]
+40 40 10 10
+microstructure
+Al CoCrFeNi FCC + BCC HPT Synthesis Hydrogen effect on Gao et al. (2022) [153]
+0.7
+strengthening
+TiZrNbHfTaO N FCC + HPT Synthesis CO photoreduction Akrami et al. (2022) [154]
+6 3 2
+Monoclinic
+TiZrNbHfTaO Monoclinic + HPT Synthesis CO photoreduction Akrami et al. (2022) [155]
+11 2
+Orthorhombic
+CrMnFeCoNi FCC HPT Processing Mechanical properties and Keil et al. (2022) [156]
+thermal stability
+CoCrFeNi FCC HPT Synthesis Tensile properties Son et al. (2022) [157]
+FeNi CoMo V FCC HPT Processing Thermal stability Liang et al. (2022) [158]
+2 0.2 0.5
+Al CoCrNi FCC + B2 + HPT Processing Superplasticity Nguyen et al. (2022) [159]
+0.3
+σ
+TiZrNbTaWO Multiphases HPT Synthesis Photocatalytic O Edalati et al. (2022) [160]
+12 2
+production
+CoCrFeNi FCC HPT Processing Thermal stability Hung et al. (2022) [161]
+Various Alloys Review on phase transformations of severely deformed high-entropy alloys Straumal et al. (2022) [162]
+AlFeCoNiCu FCC + BCC HPT Processing Lattice defects and Edalati et al. (2022) [163]
+microhardness
+MoNbTaTiVZr BCC + BCC HPT Processing Strain hardening Duan et al. (2022) [164]
+CrMnFeCoNi HPT Hydrogen embrittlement Mohammadi et al. (2022)
+[165]
+FeCoNiMn FCC HPT Processing Homogenization effect on Alijani et al. (2022) [166]
+hardness
+CrMnFeCoNi HPT Hydrogen embrittlement Mohammadi et al. (2022)
+[167]
+Co Cr Fe Ni C FCC HPT Processing Micromechanical Levenets et al. (2022) [168]
+25-x 25 25 25 x
+properties
+Al CoCrFeNi FCC ECAP Processing Microstructure and Bian et al. (2022) [169]
+0.1
+mechanical properties
+References
+[1] Azushima A, Kopp R, Korhonen A, Yang DY, Micari F, Lahoti GD, Groche P, Yanagimoto
+J, Tsuji N, Rosochowski A, Yanagida A. Severe plastic deformation (SPD) processes for
+metals. CRIP Ann Mauuf. Technol. 2008;57:716–735.
+https://doi.org/10.1016/j.cirp.2008.09.005.
+[2] Valiev RZ, Estrin Y, Horita Z, Langdon TG, Zehetbauer MJ, Zhu YT. Producing bulk
+ultrafine-grained materials by severe plastic deformation: ten years later. JOM. 2016;68:
+1216–1226. https://doi.org/10.1007/s11837-006-0213-7.
+[3] Segal V. Review: modes and processes of severe plastic deformation (SPD). Materials.
+2018;11:1175. https://doi.org/10.3390/ma11071175.
+12
+
+[4] Valiev RZ, Straumal B, Langdon TG. Using severe plastic deformation to produce
+nanostructured materials with superior properties. Annu Rev Mater Res. 2022;52:357–382.
+https://doi.org/10.1146/annurev-matsci-081720-123248.
+[5] Zehetbauer M, Grossinger R, Krenn H, Krystian M, Pippan R, Rogl P, Waitz T, Wurschum
+R. Bulk nanostructured functional materials by severe plastic deformation. Adv Eng Mater.
+2010;12:692–700. https://doi.org/10.1002/adem.201000119.
+[6] Pippan R, Scheriau S, Taylor A, Hafok M, Hohenwarter A, Bachmaier A. Saturation of
+fragmentation during severe plastic deformation. Annu Rev Mater Res. 2010;40:319–343.
+https://doi.org/10.1146/annurev-matsci-070909-104445.
+[7] Estrin Y, Vinogradov A. Extreme grain refinement by severe plastic deformation: a wealth
+of challenging science. Acta Mater. 2013;61:782–817.
+https://doi.org/10.1016/j.actamat.2012.10.038.
+[8] Starink MJ, Cheng XC, Yang S. Hardening of pure metals by high-pressure torsion: A
+physically based model employing volume-averaged defect evolutions. Acta Mater.
+2013;61:183–192. https://doi.org/10.1016/j.actamat.2012.09.048.
+[9] Edalati K, Bachmaier A, Beloshenko VA, Beygelzimer Y, Blank VD, Botta WJ, Bryła K,
+Čížek J, Divinski S, Enikeev NA, Estrin Y, Faraji G, Figueiredo RB, Fuji M, Furuta T,
+Grosdidier T, Gubicza J, Hohenwarter A, Horita Z, Huot J, Ikoma Y, Janeček M, Kawasaki
+M, Krǎl P, Kuramoto S, Langdon TG, Leiva DR, Levitas VI, Mazilkin A, Mito M,
+Miyamoto H, Nishizaki T, Pippan R, Popov VV, Popova EN, Purcek G, Renk O, Révész Á,
+Sauvage X, Sklenicka V, Skrotzki W, Straumal BB, Suwas S, Toth LS, Tsuji N, Valiev RZ,
+Wilde G, Zehetbauer MJ, Zhu X. Nanomaterials by severe plastic deformation: review of
+historical developments and recent advances. Mater Res Lett.2022;10:163–256.
+https://doi.org/10.1080/21663831.2022.2029779.
+[10] Bridgman PW. Effects of high shearing stress combined with high hydrostatic pressure.
+Phys Rev. 1935;48:825–847. https://doi.org/10.1103/PhysRev.48.825.
+[11] Edalati K, Horita Z. A review on high-pressure torsion (HPT) from 1935 to 1988. Mater Sci
+Eng A. 2016;652:325–352. https://doi.org/10.1016/j.msea.2015.11.074.
+[12] Bryła K, Edalati K. Historical studies by Polish scientist on ultrafine-grained materials by
+severe plastic deformation. Mater Trans. 2019;60:1553–1560.
+[13] Segal VM, Reznikov VI, Drobyshevskiy AE, Kopylov VI, Plastic working of metals by
+simple shear. Russ Metall. 1981;1:99–105. https://doi.org/10.2320/matertrans.MF201921.
+[14] Valiev RZ, Kaibyshev OA, Kuznetsov RI, Musalimov RS, Tsenev NK. Low-temperature
+superplasticity of metallic materials. Dokl Akad Nauk SSSR. 1988;301:864–866.
+[15] Edalati K, Horita Z. Special issue on severe plastic deformation for nanomaterials with
+advanced functionality. Mater Trans. 2019;60:1103.
+https://doi.org/10.2320/matertrans.MPR2019904.
+[16] Horita Z, Edalati K. Severe plastic deformation for nanostructure controls. Mater Trans.
+2020;61:2241–2247. https://doi.org/10.2320/matertrans.MT-M2020134.
+[17] Pereira PHR, Figueiredo RB. Finite element modelling of high-pressure torsion: an
+overview. Mater Trans. 2019;60:1139–1150. https://doi.org/10.2320/matertrans.MF201906.
+[18] Renk O, Pippan R. Saturation of grain refinement during severe plastic deformation of
+single phase materials: reconsiderations, current status and open questions. Mater Trans.
+2019;60:1270–1282. https://doi.org/10.2320/matertrans.MF201918.
+13
+
+[19] Levitas VI. High-pressure phase transformations under severe plastic deformation by
+torsion in rotational anvils. Mater Trans. 2019;60:1294–1301.
+https://doi.org/10.2320/matertrans.MF201923.
+[20] Tsuji N, Gholizadeh R, Ueji R, Kamikawa N, Zhao L, Tian Y, Bai Y, Shibata A. Formation
+mechanism of ultrafine grained microstructures: various possibilities for fabricating bulk
+nanostructured metals and alloys. Mater Trans. 2019;60:1518–1532.
+https://doi.org/10.2320/matertrans.MF201936.
+[21] Popov VV, Popova EN. Behavior of Nb and CuNb composites under severe plastic
+deformation and annealing. Mater Trans. 2019;60:1209–1220.
+https://doi.org/10.2320/matertrans.MF201913.
+[22] Skrotzki W. Deformation heterogeneities in equal channel angular pressing. Mater Trans.
+2019;60:1331–1343. https://doi.org/10.2320/matertrans.MF201926.
+[23] Miura H, Iwama Y, Kobayashi M. Comparisons of microstructures and mechanical
+properties of heterogeneous nano-structure induced by heavy cold rolling and ultrafine-
+grained structure by multi-directional forging of CuAl alloy. Mater Trans. 2019;60:1111–
+1115. https://doi.org/10.2320/matertrans.MF201904.
+[24] Faraji G, Torabzadeh H. An overview on the continuous severe plastic deformation methods.
+Mater Trans. 2019;60:1316–1330. https://doi.org/10.2320/matertrans.MF201905.
+[25] Masuda T, Horita Z. Grain refinement of AZ31 and AZ61 Mg alloys through room
+temperature processing by up-scaled high-pressure torsion. Mater Trans. 2019;60:1104–
+1110. https://doi.org/10.2320/matertrans.M2018308.
+[26] Toth LS, Chen C, Pougis A, Arzaghi M, Fundenberger JJ, Massion R, Suwas S, High
+pressure tube twisting for producing ultra fine grained materials: a review. Mater Trans.
+2019;60:1177–1191. https://doi.org/10.2320/matertrans.MF201910.
+[27] Blank VD, Popov MY, Kulnitskiy BA. The effect of severe plastic deformations on phase
+transitions and structure of solids. Mater Trans. 2019;60:1500–1505.
+https://doi.org/10.2320/matertrans.MF201942.
+[28] Grosdidier T, Novelli M. Recent developments in the application of surface mechanical
+attrition treatments for improved gradient structures: processing parameters and surface
+reactivity. Mater Trans. 2019;60:1344–1355. https://doi.org/10.2320/matertrans.MF201929.
+[29] Yang X, Pan H, Zhang J, Gao H, Shu B, Gong Y, Zhu X. Progress in mechanical properties
+of gradient structured metallic materials induced by surface mechanical attrition treatment.
+Mater Trans. 2019;60:1543–1552. https://doi.org/10.2320/matertrans.MF201911.
+[30] Ikoma Y. Severe plastic deformation of semiconductor materials using high-pressure
+torsion. Mater Trans. 2019;60:1168–1176. https://doi.org/10.2320/matertrans.MF201907.
+[31] Beloshenko V, Vozniak I, Beygelzimer Y, Estrin Y, Kulagin R. Severe plastic deformation
+of polymers. Mater Trans. 2019;60:1192–1202.
+https://doi.org/10.2320/matertrans.MF201912.
+[32] Razavi-Khosroshahi H, Fuji M. Development of metal oxide high-pressure phases for
+photocatalytic properties by severe plastic deformation. Mater Trans. 2019;60:1203–1208.
+https://doi.org/10.2320/matertrans.MF201916.
+[33] Révész Á, Kovács Z. Severe plastic deformation of amorphous alloys. Mater Trans.
+2019;60:1283–1293. https://doi.org/10.2320/matertrans.MF201917.
+[34] Sauvage X, Duchaussoy A, Zaher G. Strain induced segregations in severely deformed
+materials. Mater Trans. 2019;60:1151–1158. https://doi.org/10.2320/matertrans.MF201919.
+14
+
+[35] Gubicza J. Lattice defects and their influence on the mechanical properties of bulk materials
+processed by severe plastic deformation. Mater Trans. 2019;60:1230–1242.
+https://doi.org/10.2320/matertrans.MF201909.
+[36] Suwas S, Mondal S. Texture evolution in severe plastic deformation processes. Mater Trans.
+2019;60:1457–1471. https://doi.org/10.2320/matertrans.MF201933.
+[37] Wilde G, Divinski S. Grain boundaries and diffusion phenomena in severely deformed
+materials. Mater Trans. 2019;60:1302–1315. https://doi.org/10.2320/matertrans.MF201934.
+[38] Čížek J, Janeček M, Vlasák T, Smola B, Melikhova O, Islamgaliev RK, Dobatkin SV. The
+development of vacancies during severe plastic deformation. Mater Trans. 2019;60:1533–
+1542. https://doi.org/10.2320/matertrans.MF201937.
+[39] Han JK, Jang, Langdon TG, Kawasaki M. Bulk-state reactions and improving the
+mechanical properties of metals through high-pressure torsion. Mater Trans. 2019;60:1131–
+1138. https://doi.org/10.2320/matertrans.MF201908.
+[40] Edalati K. Metallurgical alchemy by ultra-severe plastic deformation via high-pressure
+torsion process. Mater Trans. 2019;60:1221–1229.
+https://doi.org/10.2320/matertrans.MF201914.
+[41] Bachmaier A, Pippan R. High-pressure torsion deformation induced phase transformations
+and formations: new material combinations and advanced properties. Mater Trans.
+2019;60:1256–1269. https://doi.org/10.2320/matertrans.MF201930.
+[42] Mazilkin A, Straumal B, Kilmametov A, Straumal P, Baretzky B. Phase transformations
+induced by severe plastic deformation. Mater Trans. 2019;60:1489–1499.
+https://doi.org/10.2320/matertrans.MF201938.
+[43] Kuramoto S, Furuta. Severe plastic deformation to achieve high strength and high ductility
+in FeNi based alloys with lattice softening. Mater Trans. 2019;60:1116–1122.
+https://doi.org/10.2320/matertrans.MF201920.
+[44] Kawasaki M, Langdon TG. The contribution of severe plastic deformation to research on
+superplasticity. Mater Trans. 2019;60:1123–1130.
+https://doi.org/10.2320/matertrans.MF201915.
+[45] Demirtas M, Purcek G. Room temperature superplaticity in fine/ultrafine grained materials
+subjected to severe plastic deformation. Mater Trans. 2019;60:1159–1167.
+https://doi.org/10.2320/matertrans.MF201922.
+[46] Kunimine T, Watanabe M. A comparative study of hardness in nanostructured Cu-Zn, Cu-
+Si and Cu-Ni solid-solution alloys processed by severe plastic deformation. Mater Trans.
+2019;60:1484–1488. https://doi.org/10.2320/matertrans.MF201944.
+[47] Kral P, Dvorak J, Sklenicka V, Langdon TG. The characteristics of creep in metallic
+materials processed by severe plastic deformation. Mater Trans. 2019;60:1506–1517.
+https://doi.org/10.2320/matertrans.MF201924.
+[48] Moreno-Valle EC, Pachla W, Kulczyk M, Sabirov I, Hohenwarter A. Anisotropy of tensile
+and fracture behavior of pure titanium after hydrostatic extrusion. Mater Trans. 2019;60:
+2160–2167. https://doi.org/10.2320/matertrans.MF201928.
+[49] Nishizaki T, Edalati K, Lee S, Horita Z, Akune T, Nojima T, Iguchi S, Sasaki T. Critical
+temperature in bulk ultrafine-grained superconductors of Nb, V, and Ta processed by high-
+pressure torsion. Mater Trans. 2019;60:1367–1376.
+https://doi.org/10.2320/matertrans.MF201940.
+15
+
+[50] Miyamoto H, Yuasa M, Rifai M, Fujiwara H. Corrosion behavior of severely deformed pure
+and single-phase materials. Mater Trans. 2019;60:1243–1255.
+https://doi.org/10.2320/matertrans.MF201935.
+[51] Valiev RZ, Parfenov EV, Parfenova LV. Developing nanostructured metals for
+manufacturing of medical implants with improved design and biofunctionality. Mater Trans.
+2019; 60:1356–1366. https://doi.org/10.2320/matertrans.MF201943.
+[52] Mito M, Shigeoka S, Kondo H, Noumi N, Kitamura Y, Irie K, Nakamura K, Takagi S,
+Deguchi H, Tajiri T, Ishizuka M, Nishizaki T, Edalati K, Horita Z. Hydrostatic compression
+effects on fifth-group element superconductors V, Nb, and Ta subjected to high-pressure
+torsion. Mater Trans. 2019;60:1472–1483. https://doi.org/10.2320/matertrans.MF201932.
+[53] Leiva DR, AM Jorge, Jr., Ishikawa TT, Botta WJ. Hydrogen storage in Mg and Mg-based
+alloys and composites processed by severe plastic deformation. Mater Trans. 2019;60:
+1561–1570. https://doi.org/10.2320/matertrans.MF201927.
+[54] Huot J, Tousignant M. Effect of cold rolling on metal hydrides. Mater Trans. 2019;60:1571–
+1576. https://doi.org/10.2320/matertrans.MF201939.
+[55] Enikeev NA, Shamardin VK, Radiguet B. Radiation tolerance of ultrafine-grained materials
+fabricated by severe plastic deformation. Mater Trans. 2019;60:1723–1731.
+https://doi.org/10.2320/matertrans.MF201931.
+[56] Rogl G, Zehetbauer MJ, Rogl PF. The effect of severe plastic deformation on thermoelectric
+performance of skutterudites, half-Heuslers and Bi-tellurides. Mater Trans. 2019;60:2071–
+2085. https://doi.org/10.2320/matertrans.MF201941.
+[57] Zhang Y, Zuo TT, Tang Z, Gao MC, Dahmen KA, Liaw PK, Lu ZP. Microstructures and
+properties of high-entropy alloys. Prog Mater Sci. 2014;61:1–93.
+https://doi.org/10.1016/j.pmatsci.2013.10.001.
+[58] George EP, Raabe D, Ritchie RO. High-entropy alloys. Nat Rev Mater. 2019;4:515–534.
+https://doi.org/10.1038/s41578-019-0121-4.
+[59] Inui H, Kishida K, Chen Z. Recent progress in our understanding of phase stability, atomic
+structures and mechanical and functional properties of high-entropy alloys. Mater Trans.
+2022;63:394–401. https://doi.org/10.2320/matertrans.MT-M2021234.
+[60] Harrington TJ, Gild J, Sarker P, Toher C, Rost CM, Dippo OF, McElfresh C, Kaufmann K,
+Marin E, Borowski L, Hopkins PE, Luo J, Curtarolo S, Brenner DW, Vecchio KS. Phase
+stability and mechanical properties of novel high entropy transition metal carbides. Acta
+Mater. 2019;166:271–280. https://doi.org/10.1016/j.actamat.2018.12.054.
+[61] Oses C, Toher C, Curtarolo S. High-entropy ceramics. Nat Rev Mater. 2020;5:295–309.
+https://doi.org/10.1038/s41578-019-0170-8.
+[62] Akrami S, Edalati P, Fuji M, Edalati K. High-entropy ceramics: review of principles,
+production and applications. Mater Sci Eng R. 2021;146:100644.
+https://doi.org/10.1016/j.mser.2021.100644.
+[63] Yeh JW, Chen SK, Lin SJ, Gan JY, Chin TS, Shun TT, Tsau CH, Chang SY. Nanostructured
+high‐entropy alloys with multiple principal elements: novel alloy design concepts and
+outcomes. Adv Eng Mater. 204;6:299–303. https://doi.org/10.1002/adem.200300567.
+[64] Cantor B, Chang I, Knight P, Vincent A. Microstructural development in equiatomic
+multicomponent alloys. Mater Sci Eng A. 2004;375:213–218.
+https://doi.org/10.1016/j.msea.2003.10.257.
+16
+
+[65] Edalati K, Li HW, Kilmametov A, Floriano R, Borchers C. High-pressure torsion for
+synthesis of high-entropy alloys. Metals. 2021;11:1263.
+https://doi.org/10.3390/met11081263.
+[66] Kuznetsov AV, Shaysultanov DG, Stepanov ND, Salishchev GA, Senkov ON.
+Superplasticity of AlCoCrCuFeNi high entropy alloy. Mater Sci Forum. 2013;735:146–151.
+https://doi.org/10.4028/www.scientific.net/MSF.735.146.
+[67] Hammond VH, Atwater MA, Darling KA, Nguyen HQ, Kecskes LJ. Equal-channel angular
+extrusion of a low-density high-entropy alloy produced by high-energy cryogenic
+mechanical alloying. JOM. 2014;66:2021–2029. https://doi.org/10.1007/s11837-014-1113-
+x.
+[68] Schuh B, Mendez-Martin F, Völker B, George EP, Clemens H, Pippan R, Hohenwarter A.
+Mechanical properties, microstructure and thermal stability of a nanocrystalline
+CoCrFeMnNi high-entropy alloy after severe plastic deformation. Acta Mater. 2015;96:
+258–268. https://doi.org/10.1016/j.actamat.2015.06.025.
+[69] Tang QH, Huang Y, Huang YY, Liao XZ, Langdon TG, Dai PQ. Hardening of an
+Al CoCrFeNi high entropy alloy via high-pressure torsion and thermal annealing. Mater
+0.3
+Lett. 2015;151:126–129. https://doi.org/10.1016/j.matlet.2015.03.066.
+[70] Lee DH, Choi IC, Seok MY, He J, Lu Z, Suh JY, Kawasaki M, Langdon TG, Jang J.
+Nanomechanical behavior and structural stability of a nanocrystalline CoCrFeNiMn high-
+entropy alloy processed by high-pressure torsion. J Mater Res. 2015;30:2804–2815.
+https://doi.org/10.1557/jmr.2015.239.
+[71] Tang QH, Liao XZ, Dai P. Microstructure evolution of Al CoCrFeNi high-entropy alloy
+0.3
+during high-pressure torsion. J Mater Eng. 2015;43:45–51.
+https://doi.org/10.11868/j.issn.1001-4381.2015.12.008.
+[72] Yu PF, Cheng H, Zhang LJ, Zhang H, Jing Q, Ma MZ, Liaw PK, Li G, Liu RP. Effects of
+high pressure torsion on microstructures and properties of an Al CoCrFeNi high-entropy
+0.1
+alloy. Mater Sci Eng A. 2016;655:283–291. https://doi.org/10.1016/j.msea.2015.12.085.
+[73] Lee DH, Seok MY, Zhao Y, Choi IC, He J, Lu Z, Suh JY, Ramamurty U, Kawasaki M, TG
+Langdon, Jang J. Spherical nanoindentation creep behavior of nanocrystalline and coarse-
+grained CoCrFeMnNi high-entropy alloys. Acta Mater. 2016;109:314–322.
+https://doi.org/10.1016/j.actamat.2016.02.049.
+[74] Tang QH, Huang Y, Cheng H, Liao XZ, Langdon TG, Dai PQ. The effect of grain size on
+the annealing-induced phase transformation in an Al CoCrFeNi high entropy alloy. Mater
+0.3
+Des. 2016;105:381–385. https://doi.org/10.1016/j.matdes.2016.05.079.
+[75] Shahmir H, He J, Lu Z, Kawasaki M, Langdon TG. Effect of annealing on mechanical
+properties of a nanocrystalline CoCrFeNiMn high-entropy alloy processed by high-pressure
+torsion. Mater Sci Eng A. 2016;676:294–303. https://doi.org/10.1016/j.msea.2016.08.118.
+[76] Yuan H, Tsai MH, Sha G, Liu F, Horita Z, Zhu Y, Wang JT. Atomic-scale homogenization
+in an fcc-based high-entropy alloy via severe plastic deformation. J Alloys Compd.
+2016;686:15–23. https://doi.org/10.1016/j.jallcom.2016.05.337.
+[77] Heczel A, Lilensten L, Bourgon J, Perrière L, Couzinié JP, Guillot I, Dirras G, Huang Y,
+Langdon TG, Gubicza J. Influence of high-pressure torsion on the microstructure and the
+hardness of a Ti-rich high-entropy alloy. Mater Sci Forum 2017;879:732–737.
+https://doi.org/10.4028/www.scientific.net/MSF.879.732.
+17
+
+[78] Maier-Kiener V, Schuh B, George EP, Clemens H, Hohenwarter A. Nanoindentation testing
+as a powerful screening tool for assessing phase stability of nanocrystalline high-entropy
+alloys. Mater Des. 2017;115:479–485. https://doi.org/10.1016/j.matdes.2016.11.055.
+[79] Shahmir H, He J, Lu Z, Kawasaki M, Langdon TG. Evidence for superplasticity in a
+CoCrFeNiMn high-entropy alloy processed by high-pressure torsion. Mater Sci Eng A.
+2017;685:342–348. https://doi.org/10.1016/j.msea.2017.01.016.
+[80] Schuh B, Völker B, Maier-Kiener V, Todt J, Li J, Hohenwarter A. Phase decomposition of
+a single-phase AlTiVNb high-entropy alloy after severe plastic deformation and annealing.
+Adv Eng Mater. 2017;19:1600674. https://doi.org/10.1002/adem.201600674.
+[81] Skrotzki W, Pukenas A, Joni B, Odor E, Ungar T, Hohenwarter A, Pippan R, George EP.
+Microstructure and texture evolution during severe plastic deformation of CrMnFeCoNi
+high-entropy alloy. IOP Conf Ser: Mater Sci Eng. 2017;194:012028.
+https://doi.org/10.1088/1757-899X/194/1/012028.
+[82] Shahmir H, Mousavi T, He J, Lu Z, Kawasaki M, Langdon TG. Microstructure and
+properties of a CoCrFeNiMn high-entropy alloy processed by equal-channel angular
+pressing. Mater Sci Eng A. 2017;705:411–419. https://doi.org/10.1016/j.msea.2017.08.083.
+[83] Zheng R, Chen J, Xiao W, Ma C. Microstructure and tensile properties of nanocrystalline
+(FeNiCoCu) Ti Al high entropy alloys processed by high pressure torsion. Intermetallics.
+1−x x x
+2016;74:38–45. https://doi.org/10.1016/j.intermet.2016.05.008.
+[84] Heczel A, Huang Y, Langdon TG, Gubicza J. Investigation of lattice defects in a plastically
+deformed high-entropy alloy. Mater Sci Forum. 2017;885:74–79.
+https://doi.org/10.4028/www.scientific.net/MSF.885.74.
+[85] Heczel A, Kawasaki M, Lábár JL, Jang J, Langdon TG, Gubicza J. Defect structure and
+hardness in nanocrystalline CoCrFeMnNi high-entropy alloy processed by high-pressure
+torsion. J Alloys Compd. 2017;711:143–154.
+https://doi.org/10.1016/j.jallcom.2017.03.352.
+[86] Park N, Lee BJ, Tsuji N. The phase stability of equiatomic CoCrFeMnNi high-entropy
+alloy: comparison between experiment and calculation results. J Alloys Compd. 2017;719:
+189–193. https://doi.org/10.1016/j.jallcom.2017.05.175.
+[87] Wu W, Ni S, Liu Y, Liu B, Song M. Amorphization at twin-twin intersected region in
+FeCoCrNi high-entropy alloy subjected to high-pressure torsion. Mater Charact. 2017;127
+:111–115. https://doi.org/10.1016/j.matchar.2017.02.027.
+[88] Moon J, Qi Y, Tabachnikova E, Estrin Y, Choi WM, Joo SH, Lee BJ, Podolskiy A,
+Tikhonovsky M, Kim HS. Deformation-induced phase transformation of
+Co Cr Fe Mn Ni high-entropy alloy during high-pressure torsion at 77 K. Mater Lett.
+20 26 20 20 14
+2017;202:86–88. https://doi.org/10.1016/j.matlet.2017.05.065.
+[89] Lee DH, Lee JA, Zhao Y, Lu Z, Suh JY, Kim JY, Ramamurty, Kawasaki M, Langdon TG,
+Jang J. Annealing effect on plastic flow in nanocrystalline CoCrFeMnNi high-entropy alloy:
+a nanomechanical analysis. Acta Mater. 2017;140:443–451.
+https://doi.org/10.1016/j.actamat.2017.08.057.
+[90] Reddy TS, Wani IS, Bhattacharjee T, Reddy SR, Saha R, Bhattacharjee PP. Severe plastic
+deformation driven nanostructure and phase evolution in a Al CoCrFeMnNi dual phase
+0.5
+18
+
+high entropy alloy. Intermetallics. 2017;91:150–157.
+https://doi.org/10.1016/j.intermet.2017.09.002.
+[91] Schuh B, Völker B, Todt J, Schell N, Perrière L, Li J, Couzinié JP, Hohenwarter A.
+Thermodynamic instability of a nanocrystalline, single-phase TiZrNbHfTa alloy and its
+impact on the mechanical properties, Acta Mater. 2018;142:201–212.
+https://doi.org/10.1016/j.actamat.2017.09.035.
+[92] Kawasaki M, Han JK, Lee DH, Jang Jae-II, Langdon TG. Micro-scale mechanical behavior
+of ultrafine-grained materials processed by high-pressure torsion. Mater Sci Forum.
+2018;941:1495–1500. https://doi.org/10.4028/www.scientific.net/MSF.941.1495.
+[93] Shahmir H, Kawasaki M, Langdon TG. Developing superplasticity in high-entropy alloys
+processed by severe plastic deformation. Mater Sci Forum. 2018;941:1059–1064.
+https://doi.org/10.4028/www.scientific.net/MSF.941.1059.
+[94] Won JW, Lee S, Park SH, Kang M, Lim KR, Park CH, Na YS. Ultrafine-grained
+CoCrFeMnNi high-entropy alloy produced by cryogenic multi-pass caliber rolling. J Alloys
+Compd. 2018;742:290–295. https://doi.org/10.1016/j.jallcom.2018.01.313.
+[95] Shahmir H, Nili-Ahmadabadi M, Shafiee A, Andrzejczuk M, Lewandowska M, Langdon
+TG. Effect of Ti on phase stability and strengthening mechanisms of a nanocrystalline
+CoCrFeMnNi high-entropy alloy. Mater Sci Eng A. 2018;725:196–206.
+https://doi.org/10.1016/j.msea.2018.04.014.
+[96] Shahmir H, Nili-Ahmadabadi M, Shafiee A, Langdon TG. Effect of a minor titanium
+addition on the superplastic properties of a CoCrFeNiMn high-entropy alloy processed by
+high-pressure torsion. Mater Sci Eng A. 2018;718:468–476.
+https://doi.org/10.1016/j.msea.2018.02.002.
+[97] Shahmir H, Tabachnikova E, Podolskiy A, Tikhonovsky M, Langdon TG. Effect of carbon
+content and annealing on structure and hardness of CrFe NiMnV high-entropy alloys
+2 0.25
+processed by high-pressure torsion. J Mater Sci. 2018;53:11813–11822.
+https://doi.org/10.1007/s10853-018-2456-4.
+[98] Lukáča F, Dudr M, Čížek J, Harcuba P, Vlasák T, Janeček M, Kuriplach J, Moon J, Kim, J.
+Zýka HS, Málek J. Defects in high entropy alloy HfNbTaTiZr prepared by high pressure
+torsion. Acta Phys Pol A. 2018;134:891–894. http://doi.org/10.12693/APhysPolA.134.891.
+[99] Čížek J, Haušil P, Cieslar M, Melikhova O, Vlasák T, Janeček M, Král R, Harcuba P,
+LukáčF, Zýka J, Málek J, Moon J, Kim HS. Strength enhancement of high entropy alloy
+HfNbTaTiZr by severe plastic deformation. J Alloys Compd. 2018;768:924–937.
+https://doi.org/10.1016/j.jallcom.2018.07.319.
+[100] Maity T, Prashanth KG, Balcı Ö, Kim JT, Schöberl T, Wang Z, Eckert J. Influence of severe
+straining and strain rate on the evolution of dislocation structures during micro-
+/nanoindentation in high entropy lamellar eutectics. Int J Plast. 2018;109:121–136.
+https://doi.org/10.1016/j.ijplas.2018.05.012.
+[101] Zherebtsov S, Stepanov N, Ivanisenko Y, Shaysultanov D, Yurchenko N, Klimova M,
+Salishchev G. Evolution of microstructure and mechanical properties of a CoCrFeMnNi
+high-entropy alloy during high-pressure torsion at room and cryogenic temperatures.
+Metals. 2018;8:123. https://doi.org/10.3390/met8020123.
+19
+
+[102] Stepanov ND, Yurchenko NY, Gridneva AO, Zherebtsov SV, Ivanisenko YV, Salishchev
+GA. Structure and hardness of B2 ordered refractory AlNbTiVZr high entropy alloy after
+0.5
+high-pressure torsion. Mater Sci Eng A. 2018;716:308–315.
+https://doi.org/10.1016/j.msea.2018.01.061.
+[103] Qiang J, Tsuchiya K, Diao H, Liaw PK. Vanishing of room-temperature slip avalanches in
+a face-centered-cubic high-entropy alloy by ultrafine grain formation. Scr Mater.
+2018;155:99–103. https://doi.org/10.1016/j.scriptamat.2018.06.034.
+[104] Lee DH, Choi IC, Yang G, Lu Z, Kawasaki M, Ramamurty U, Schwaiger R, Jang J.
+Activation energy for plastic flow in nanocrystalline CoCrFeMnNi high-entropy alloy: a
+high temperature nanoindentation study. Scr Mater. 2018;156:129–133.
+https://doi.org/10.1016/j.scriptamat.2018.07.014.
+[105] Kilmametov A, Kulagin R, Mazilkin A, Seils S, Boll T, Heilmaier M, Hahn H. High-
+pressure torsion driven mechanical alloying of CoCrFeMnNi high entropy alloy. Scr Mater.
+2019;158:29–33. https://doi.org/10.1016/j.scriptamat.2018.08.031.
+[106] Gubicza J, Heczel A, Kawasaki M, Han JK, Zhao Y, Xue Y, Huang S, Lábár JL. Evolution
+of microstructure and hardness in Hf Nb Ti Zr high-entropy alloy during high-pressure
+25 25 25 25
+torsion. J Alloys Compd. 2019;788:318–328.
+https://doi.org/10.1016/j.jallcom.2019.02.220.
+[107] Gubicza J, Hung PT, Kawasaki M, Han JK, Zhao Y, Xue Y, Lábár JL. Influence of severe
+plastic deformation on the microstructure and hardness of a CoCrFeNi high-entropy alloy:
+A comparison with CoCrFeNiMn. Mater Charact. 2019;154:304–314.
+https://doi.org/10.1016/j.matchar.2019.06.015.
+[108] Sonkusare R, Khandelwal N, Ghosh P, Biswas K, Gurao NP. A comparative study on the
+evolution of microstructure and hardness during monotonic and cyclic high pressure torsion
+of CoCuFeMnNi high entropy alloy. J Mater Res. 2019;34:732–743.
+https://doi.org/10.1557/jmr.2018.479.
+[109] Schuh B, Pippan R, Hohenwarter A. Tailoring bimodal grain size structures in
+nanocrystalline compositionally complex alloys to improve ductility. Mater Sci Eng A.
+2019;748:379–385. https://doi.org/10.1016/j.msea.2019.01.073.
+[110] Zhou PF, Xiao DH, Li G, Song M. Nanoindentation creep behavior of CoCrFeNiMn high-
+entropy alloy under different high-pressure torsion deformations. J Mater Eng Perform.
+2019;28:2620–2629. https://doi.org/10.1007/s11665-019-04092-1.
+[111] Nguyen NTC, Moon J, Sathiyamoorthi P, Asghari-Rad P, Kim GH, Lee CS, Kim HS.
+Superplasticity of V Cr Mn Fe Co Ni high-entropy alloy processed using high-
+10 15 5 35 10 25
+pressure torsion. Mater Sci Eng A. 2019;764:138198.
+https://doi.org/10.1016/j.msea.2019.138198.
+[112] Málek J, Zýka J, Lukáˇc F, Vilémová M, Vlasák T, Cˇížek J, Melikhova O, Macháˇcková
+A, Kim HS. The effect of processing route on properties of HfNbTaTiZr high entropy alloy.
+Materials. 2019;12:4022. https://doi.org/10.3390/ma12234022.
+[113] Edalati P, Floriano R, Mohammadi A, Li Y, Zepon G, Li HW, Edalati K. Reversible room
+temperature hydrogen storage in high-entropy alloy TiZrCrMnFeNi. Scr Mater.
+2020;178:387–390. https://doi.org/10.1016/j.scriptamat.2019.12.009.
+20
+
+[114] Asghari-Rad P, Sathiyamoorthi , Bae JW, Shahmir H, Zargaran A, Kim HS. Effect of initial
+grain size on deformation mechanism during high-pressure torsion in
+V Cr Mn Fe Co Ni high-entropy alloy. Adv Eng Mater. 2020;22:1900587.
+10 15 5 35 10 25
+https://doi.org/10.1002/adem.201900587.
+[115] Podolskiy AV, Shapovalov YO, Tabachnikova ED, Tortika AS, Tikhonovsky MA, Joni B,
+Ódor E, Ungar T, Maier S, Rentenberger C, Zehetbauer MJ, Schafler E. Anomalous
+evolution of strength and microstructure of high-entropy alloy CoCrFeNiMn after high-
+pressure torsion at 300 and 77 K. Adv Eng Mater. 2020;22;1900752.
+https://doi.org/10.1002/adem.201900752.
+[116] Asghari-Rad P, Sathiyamoorthi P, Nguyen NTC, Bae J, Shahmir H, Kim HS. Fine-tuning
+of mechanical properties in V Cr Mn Fe Co Ni high-entropy alloy through high-
+10 15 5 35 10 25
+pressure torsion and annealing. Mater Sci Eng A. 2020;771:138604.
+https://doi.org/10.1016/j.msea.2019.138604.
+[117] de Marco MO, Li Y, Li HW, Edalati K, Floriano R. Mechanical synthesis and hydrogen
+storage characterization of MgVCr and MgVTiCrFe high-entropy alloy. Adv Eng Mater.
+2020;22:1901079. https://doi.org/10.1002/adem.201901079.
+[118] Sonkusare R, Biswas K, Al- Hamdany N, Brokmeier HG, Kalsar R, Schell N, NP Gurao. A
+critical evaluation of microstructure-texture-mechanical behavior heterogeneity in high
+pressure torsion processed CoCuFeMnNi high entropy alloy. Mater Sci Eng A.
+2020;782:139187. https://doi.org/10.1016/j.msea.2020.139187.
+[119] Zhao Y, Wang X, Cao T, Han JK, Kawasaki M, Jang J, Han HN, Ramamurty U, Wang L,
+Xue Y. Effect of grain size on the strain rate sensitivity of CoCrFeNi high-entropy alloy.
+Mater Sci Eng A. 2020;782:139281. https://doi.org/10.1016/j.msea.2020.139281.
+[120] Belo JS, Marques SC, Castilho AV, de Oliveira LM, Simão RA, dos Santos DS. Hydrogen
+diffusivity and interaction with Fe Mn Ni Co Cr and Fe Mn Ni Co Cr high-
+20 20 20 20 20 22 40 30 6 2
+entropy alloys. J Alloys Compd. 2020;815:152314.
+https://doi.org/10.1016/j.jallcom.2019.152314.
+[121] Jeong HT, Kim WJ. Grain size and temperature effect on the tensile behavior and
+deformation mechanisms of non-equiatomic Fe Mn Ni Co Cr high entropy alloy. J
+41 25 24 8 2
+Mater Sci Technol. 2020;42:190–202. https://doi.org/10.1016/j.jmst.2019.09.034.
+[122] Skrotzki W, Pukenas A, Odor E, Joni B, Ungar T, Völker B, Hohenwarter A, Pippan R, EP
+George. Microstructure, texture, and strength development during high-pressure torsion of
+CrMnFeCoNi high-entropy alloy. Crystals. 2020;10:336.
+https://doi.org/10.3390/cryst10040336.
+[123] Edalati P, Floriano R, Tang Y, Mohammadi A, Pereira KD, Luchessi AD, Edalati K.
+Ultrahigh hardness and biocompatibility of high-entropy alloy TiAlFeCoNi processed by
+high-pressure torsion. Mater Sci Eng C. 2020;112:110908.
+https://doi.org/10.1016/j.msec.2020.110908.
+[124] Rymer LM, Lindner T, Frint P, Löbel M, Lampke T. Designing (ultra) fine-grained high-
+entropy alloys by spark plasma sintering and equal-channel angular pressing. Crystals.
+2020;10:1157. https://doi.org/10.3390/cryst10121157.
+21
+
+[125] Hung PT, Kawasaki M, Han JK, Lábár JL, Gubicza J. Thermal stability of a nanocrystalline
+HfNbTiZr multi-principal element alloy processed by high-pressure torsion. Mater Charact.
+2020;168:110550. https://doi.org/10.1016/j.matchar.2020.110550.
+[126] Edalati P, Wang Q, Razavi-Khosroshahi H, Fuji M, Ishihara T, Edalati K. Photocatalytic
+hydrogen evolution on a high-entropy oxide. J Mater Chem A. 2020;8:3814–3821.
+https://doi.org/10.1039/C9TA12846H.
+[127] Edalati P, Shen XF, Watanabe M, Ishihara T, Arita M, Fuji M, Edalati K. High-entropy
+oxynitride as low-bandgap and stable photocatalyst for hydrogen production. J Mater Chem
+A. 2021;9:15076–15086. https://doi.org/10.1039/D1TA03861C.
+[128] Picak S, Wegener T, Sajadifar SV, Sobrero C, Richter J, Kim H, Niendorf T, Karaman I.
+On the low-cycle fatigue response of CoCrNiFeMn high entropy alloy with ultra-fine grain
+structure. Acta Mater. 2021;205:116540. https://doi.org/10.1016/j.actamat.2020.116540.
+[129] Shahmir H, Asghari-Rad P, Mehranpour MS, Forghani F, Kim HS, Nili-Ahmadabad M.
+Evidence of FCC to HCP and BCC-martensitic transformations in a CoCrFeNiMn high-
+entropy alloy by severe plastic deformation. Mater Sci Eng A. 2021;807:140875.
+https://doi.org/10.1016/j.msea.2021.140875.
+[130] Lu Y, Mazilkin A, Boll T, Stepanov N, Zherebtzov S, Salishchev G, Ódor É, Ungar T,
+Lavernia E, Hahn H, Ivanisenko Y. Influence of carbon on the mechanical behavior and
+microstructure evolution of CoCrFeMnNi processed by high pressure torsion. Materialia.
+2021;16:101059. https://doi.org/10.1016/j.mtla.2021.101059.
+[131] Kwon H, Asghari-Rad P, Park JM, Sathiyamoorthi P, Bae JW, Moon J, Zargaran A, Choi
+YT, Son S, Kim HS. Synergetic strengthening from grain refinement and nano-scale
+precipitates in non-equiatomic CoCrFeNiMo medium-entropy alloy. Intermetallics.
+2021;135:107212. https://doi.org/10.1016/j.intermet.2021.107212.
+[132] Chandan AK, Hung PT, Kishore K, Kawasaki M, Chakraborty J, Gubicza J. On prominent
+TRIP effect and non-basal slip in a TWIP high entropy alloy during high-pressure torsion
+processing. Mater Charact. 2021;178:111284.
+https://doi.org/10.1016/j.matchar.2021.111284.
+[133] Picak S, Yilmaz HC, Karaman I. Simultaneous deformation twinning and martensitic
+transformation in CoCrFeMnNi high entropy alloy at high temperatures. Scr Mater.
+2021;202:113995. https://doi.org/10.1016/j.scriptamat.2021.113995.
+[134] González-Masís J, Cubero-Sesin JM, Campos-Quirós A, Edalati K. Synthesis of
+biocompatible high-entropy alloy TiNbZrTaHf by high-pressure torsion. Mater Sci Eng A.
+2021;825:141869. https://doi.org/10.1016/j.msea.2021.141869.
+[135] Maity T, Prashanth KG, Balcı Ö, Cieślak G, Spychalski M, Kulik T, Eckert J. High-entropy
+eutectic composites with high strength and low Young's modulus. MDPC. 2021;3:e211.
+https://doi.org/10.1002/mdp2.211.
+[136] Edalati P, Mohammadi A, Tang Y, Floriano R, Fuji M, Edalati K. Phase transformation and
+microstructure evolution in ultrahard carbon-doped AlTiFeCoNi high-entropy alloy by
+high-pressure torsion. Mater Lett. 2021;302:130368.
+https://doi.org/10.1016/j.matlet.2021.130368.
+[137] Edalati P, Mohammadi A, Ketabchi M, Edalati K. Ultrahigh hardness in nanostructured
+dual-phase high-entropy alloy AlCrFeCoNiNb developed by high-pressure torsion. J Alloys
+Compd. 2021;884:161101. https://doi.org/10.1016/j.jallcom.2021.161101.
+22
+
+[138] Asghari-Rad P, Sathiyamoorthi P, Nguyen NTC, Zargaran A, Kim TS, Kim HS. A powder-
+metallurgy-based fabrication route towards achieving high tensile strength with ultra-high
+ductility in high-entropy alloy. Scr Mater. 2021;190:69–74.
+https://doi.org/10.1016/j.scriptamat.2020.08.038.
+[139] Sathiyamoorthi P, Asghari-Rad P, Karthik GM, Zargaran A, Kim HS. Unusual strain-
+induced martensite and absence of conventional grain refinement in twinning induced
+plasticity high-entropy alloy processed by high-pressure torsion. Mater Sci Eng A. 2021;803
+:140570. https://doi.org/10.1016/j.msea.2020.140570.
+[140] Keil T, Bruder E, Laurent-Brocq M, Durst K. From diluted solid solutions to high entropy
+alloys: Saturation grain size and mechanical properties after high pressure torsion. Scr
+Mater. 2021;192:43–48. https://doi.org/10.1016/j.scriptamat.2020.09.046.
+[141] Zhao W, Han JK, Kuzminova YO, Evlashin SA, Zhilyaev AP, Pesin AM, Jang J, Liss KD,
+Kawasaki M. Significance of grain refinement on micro-mechanical properties and
+structures of additively-manufactured CoCrFeNi high-entropy alloy. Mater Sci Eng A.
+2021;807:140898. https://doi.org/10.1016/j.msea.2021.140898.
+[142] Karthik GM, Asghari-Rad P, Sathiyamoorthi P, Zargaran A, Kim ES, Kim TS, Kim HS.
+Architectured multi-metal CoCrFeMnNi-Inconel 718 lamellar composite by high-pressure
+torsion. Scr Mater. 2021;195:113722. https://doi.org/10.1016/j.scriptamat.2021.113722.
+[143] Taheriniya S, Davani FA, Hilke S, Hepp M, Gadelmeier C, Chellali MR, Boll T, Rösner H,
+Peterlechner M, Gammer C, Divinski SV, Butz B, Glatzel U, Hahn H, Wilde G. High
+entropy alloy nanocomposites produced by high pressure torsion. Acta Mater. 2021;208:
+116714. https://doi.org/10.1016/j.actamat.2021.116714.
+[144] Liu X, Ding H, Huang Y, Bai X, Zhang Q, Zhang H, Langdon TG, Cui J. Evidence for a
+phase transition in an AlCrFe Ni high entropy alloy processed by high-pressure torsion. J
+2 2
+Alloys Compd. 2021;867:159063. https://doi.org/10.1016/j.jallcom.2021.159063.
+[145] Rusakova HV, Fomenko LS, Smirnov SN, Podolskiy AV, Shapovalov YO, Tabachnikova
+ED, Tikhonovsky MA, Levenets AV, Zehetbauer MJ, Schafler E. Low temperature
+micromechanical properties of nanocrystalline CoCrFeNiMn high entropy alloy. Mater Sci
+Eng A. 2021;828:142116. https://doi.org/10.1016/j.msea.2021.142116.
+[146] Hung PT, Kawasaki M, Han JK, Lábár JL, Gubicza J. Microstructure evolution in a
+nanocrystalline CoCrFeNi multi-principal element alloy during annealing. Mater Charact.
+2021;171:110807. https://doi.org/10.1016/j.matchar.2020.110807.
+[147] Asghari-Rad P, Nguyen NTC, Kim Y, Zargaran A, Sathiyamoorthi P, Kim HS. TiC-
+reinforced CoCrFeMnNi composite processed by cold-consolidation and subsequent
+annealing. Mater Lett. 2021;303:130503. https://doi.org/10.1016/j.matlet.2021.130503.
+[148] Li SC, Wang QL, Yao Y, Sang DD, Zhang HW, Zhang GZ, Wang C, Liu CL. Application
+of high-pressure technology in exploring mechanical properties of high-entropy alloys.
+Tungsten. 2022;in press. https://doi.org/10.1007/s42864-021-00132-3.
+[149] Nguyen NTC, Asghari-Rad P, Park H, Kim HS. Differential superplasticity in a multi-phase
+multi-principal element alloy by initial annealing. J Mater Sci. 2022;57:18154–18167.
+https://doi.org/10.1007/s10853-022-07616-8.
+23
+
+[150] Shimizu H, Yuasa M, Miyamoto H, Edalati K. Corrosion behavior of ultrafine-grained
+CoCrFeMnNi high-entropy alloys fabricated by high-pressure torsion. Materials. 2022;15:
+1007. https://doi.org/10.3390/ma15031007.
+[151] Zhang Y, Liu M, Sun J, Li G, Zheng R, Xiao W, Ma C. Excellent thermal stability and
+mechanical properties of bulk nanostructured FeCoNiCu high entropy alloy. Mater Sci Eng
+A. 2022;835:142670. https://doi.org/10.1016/j.msea.2022.142670.
+[152] Chandan AK, Kishore K, Hung PT, Ghosh M, Chowdhury SG, Kawasaki M, Gubicza J.
+Effect of nickel addition on enhancing nano-structuring and suppressing TRIP effect in
+Fe Mn Co Cr high entropy alloy during high-pressure torsion. Int J Plast.
+40 40 10 10
+2022;150:103193. https://doi.org/10.1016/j.ijplas.2021.103193.
+[153] Gao Z, Zhao Y, Park JM, Jeon AH, Murakami K, Komazaki S, Tsuchiya K, Ramamurty U,
+Jang J. Decoupling the roles of constituent phases in the strengthening of hydrogenated
+nanocrystalline dual-phase high-entropy alloys. Scr Mater. 2022;210:114472.
+https://doi.org/10.1016/j.scriptamat.2021.114472.
+[154] Akrami S, Edalati P, Shundo Y, Watanabe M, Ishihara T, Fuji M, Edalati K. Significant
+CO photoreduction on a high-entropy oxynitride. Chem Eng J. 2022;449:137800.
+2
+https://doi.org/10.1016/j.cej.2022.137800.
+[155] Akrami S, Murakami Y, Watanabe M, Ishihara T, Arita M, Fuji M, Edalati K. Defective
+high-entropy oxide photocatalyst with high activity for CO conversion. Appl Catal B.
+2
+2022;303:120896. https://doi.org/10.1016/j.apcatb.2021.120896.
+[156] Keil T, Taheriniya S, Bruder E, Wilde G , Durst K. Effects of solutes on thermal stability,
+microstructure and mechanical properties in CrMnFeCoNi based alloys after high pressure
+torsion. Acta Mater. 2022;227:117689. https://doi.org/10.1016/j.actamat.2022.117689.
+[157] Son S, Asghari-Rad P, Zargaran A, Chen W, Kim HS. Superlative room temperature and
+cryogenic tensile properties of nanostructured CoCrFeNi medium-entropy alloy fabricated
+by powder high-pressure torsion. Scr Mater. 2022;213:114631.
+https://doi.org/10.1016/j.scriptamat.2022.114631.
+[158] Liang NN, Xu RR, Wu GZ, Gao XZ, Zhao YH. High thermal stability of nanocrystalline
+FeNi CoMo V0.5 high-entropy alloy by twin boundary and sluggish diffusion. Mater Sci
+2 0.2
+Eng A. 2022;848:143399. https://doi.org/10.1016/j.msea.2022.143399.
+[159] Nguyen NTC, Asghari-Rad P, Zargaran A, Kim ES, Sathiyamoorthi P, Kim HS. Relation
+of phase fraction to superplastic behavior of multi-principal element alloy with a multi-
+phase structure. Scr Mater. 2022;221:114949.
+https://doi.org/10.1016/j.scriptamat.2022.114949.
+[160] Edalati P, Itagoe Y, Ishihara H, Ishihara T, Emami H, Arita M, Fuji M, Edalati K. Visible-
+light photocatalytic oxygen production on a high-entropy oxide with multiple-
+heterojunction introduction. J Photochem Photobio A. 2022;433:114167.
+https://doi.org/10.1016/j.jphotochem.2022.114167.
+[161] Hung PT, Kawasaki M, Han JK, Szabó Á, Lábár JL, Hegedűs Z, Gubicza J. Thermal
+stability of nanocrystalline CoCrFeNi multi-principal element alloy: effect of the degree of
+severe plastic deformation. Intermetallics. 2022;142:107445.
+https://doi.org/10.1016/j.intermet.2021.107445.
+24
+
+[162] Straumal BB, Kulagin R, Baretzky B, Anisimova NY, Kiselevskiy MV, Klinger L, Straumal
+PB, Kogtenkova OA, Valiev RZ. Severe plastic deformation and phase transformations in
+high entropy alloys: a review. Crystals. 2022;12:54. https://doi.org/10.3390/cryst12010054.
+[163] Edalati P, Mohammadi A, Ketabchi M, Edalati K. Microstructure and microhardness of
+dual-phase high-entropy alloy by high-pressure torsion: twins and stacking faults in FCC
+and dislocations in BCC. J Alloys Compd. 2022;894:162413.
+https://doi.org/10.1016/j.jallcom.2021.162413.
+[164] Duan C, Reiberg M, Kutlesa P, Li X, Pippan R, Werner E. Strain-hardening properties of
+the high-entropy alloy MoNbTaTiVZr processed by high-pressure torsion. Contin Mech
+Thermodyn. 2022;34:475–489. https://doi.org/10.1007/s00161-021-01065-5.
+[165] Mohammadi A, Novelli M, Arita M, Bae JW, Kim HS, Grosdidier T, Edalati K. Gradient-
+structured high-entropy alloy with improved combination of strength and hydrogen
+embrittlement resistance. Corros Sci. 2022;200:110253.
+https://doi.org/10.1016/j.corsci.2022.110253.
+[166] Alijani F, Reihanian M, Gheisari K, Edalati K, Miyamoto H. Effect of homogenization on
+microstructure and hardness of arc-melted FeCoNiMn high entropy alloy during high-
+pressure torsion (HPT). J Mater Eng Perform. 2022;31:5080–5089.
+https://doi.org/10.1007/s11665-021-06573-8.
+[167] Mohammadi A, Edalati P, Arita M, Bae JW, Kim HS, Edalati K. Microstructure and defect
+effects on strength and hydrogen embrittlement of high-entropy alloy CrMnFeCoNi
+processed by high-pressure torsion. Mater Sci Eng A. 2022;844:143179.
+https://doi.org/10.1016/j.msea.2022.143179.
+[168] Levenets AV, Rusakova HV, Fomenko LS, Huang Y, Kolodiy V, Vasilenko RL,
+Tabachnikova ED, Tikhonovsky MA, Langdon TG. Structure and low-temperature
+micromechanical properties of as-cast and SPD-processed high-entropy
+Co Cr Fe Ni C alloys. Low Temp Phys. 2022;48:560.
+25−x 25 25 25 x
+https://doi.org/10.1063/10.0011605.
+[169] Bian YL, Feng ZD, Zhang NB, Li YX, Wang XF, Zhang BB, Cai Y, Lu L, Chen S, Yao
+XH, Luo SN. Ultrafast severe plastic deformation in high-entropy alloy Al CoCrFeNi via
+0.1
+dynamic equal channel angular pressing. Mater Sci Eng A. 2022;847:143221.
+https://doi.org/10.1016/j.msea.2022.143221.
+[170] Tian F, Varga LK, Chen N, Shen J, Vitos L. Empirical design of single phase high-entropy
+alloys with high hardness. Intermetallics. 2015;58:1–6.
+https://doi.org/10.1016/j.intermet.2014.10.010.
+[171] Yao HW, Qiao JW, Hawk JA, Zhou HF, Chen MW, Gao MC. Mechanical properties of
+refractory high-entropy alloys: experiments and modeling. J Alloys Compd. 2017;696:
+1139–1150. https://doi.org/10.1016/j.jallcom.2016.11.188.
+[172] Li Z, Zhao S, Ritchie RO, Meyers MA. Mechanical properties of high-entropy alloys with
+emphasis on face-centered cubic alloys. Prog Mater Sci. 2019;102:296–345.
+https://doi.org/10.1016/j.pmatsci.2018.12.003.
+[173] George EP, Curtin WA, Tasan CC. High entropy alloys: a focused review of mechanical
+properties and deformation mechanisms. Acta Mater. 2020;188:435–474.
+https://doi.org/10.1016/j.actamat.2019.12.015.
+25
+
+[174] Zhilyaev AP, Langdon TG. Using high-pressure torsion for metal processing: fundamentals
+and applications. Prog Mater Sci. 2008;53:893–979.
+https://doi.org/10.1016/j.pmatsci.2008.03.002.
+[175] Edalati K, Z Horita. Scaling-up of high pressure torsion using ring shape. Mater Trans.
+2009;50:92–95. https://doi.org/10.2320/matertrans.MD200822.
+[176] Edalati K, Horita Z, Mine Y. High-pressure torsion of hafnium. Mater Sci Eng A. 2010;527:
+2136–2141. https://doi.org/10.1016/j.msea.2009.11.060.
+[177] Lee S, Edalati K, Horita Z. Microstructures and mechanical properties of pure V and Mo
+processed by high-pressure torsion. Mater Trans. 2010;51:1072–1079.
+https://doi.org/10.2320/matertrans.M2009375.
+[178] Chen L, Ping L, Ye T, Lingfeng L, Kemin X, Meng Z. Observations on the ductility and
+thermostability of tungsten processed from micropowder by improved high-pressure torsion.
+Rare Met Mater Eng. 2016;45:3089–3094. https://doi.org/10.1016/S1875-5372(17)30059-
+0.
+[179] Edalati K, Yokoyama Y, Horita Z. High-pressure torsion of machining chips and bulk discs
+of amorphous Zr Cu Al Ni . Mater Trans. 2010;51:23–26.
+50 30 10 10
+https://doi.org/10.2320/matertrans.MB200914.
+[180] Wang YB, Qu DD, Wang XH, Cao Y, Liao XZ, Kawasaki M, Ringer SP, Shan ZW,
+Langdon TG, Shen J. Introducing a strain-hardening capability to improve the ductility of
+bulk metallic glasses via severe plastic deformation. Acta Mater. 2012;60:253–260.
+https://doi.org/10.1016/j.actamat.2011.09.026.
+[181] Edalati K, Horita Z. Correlations between hardness and atomic bond parameters of pure
+metals and semi-metals after processing by high-pressure torsion. Scr Mater. 2011;64:161–
+164. https://doi.org/10.1016/j.scriptamat.2010.09.034.
+[182] Ikoma Y, Hayano K, Edalati K, Saito K, Guo Q, Horita Z. Phase transformation and
+nanograin refinement of silicon by processing through high-pressure torsion. Appl Phys Lett.
+2012;101:121908. https://doi.org/10.1063/1.4754574.
+[183] Blank VD, Churkin VD, BA Kulnitskiy, Perezhogin IA, Kirichenko AN, Erohin SV,
+Sorokin PB, Popov MY. Pressure-induced transformation of graphite and diamond to
+onions. Crystals. 2018;8:68. https://doi.org/10.3390/cryst8020068.
+[184] Gao Y, Ma Y, An Q, Levitas VI, Zhang Y, Feng B, Chaudhuri J, Goddard WA. III. Shear
+driven formation of nano-diamonds at sub-gigapascals and 300 K. Carbon. 2019;146:364–
+368. https://doi.org/10.1016/j.carbon.2019.02.012.
+[185] Dwivedi SK, Vishwakarma M. Hydrogen embrittlement in different materials: a review. Int
+J Hydrogen Energy. 2108;43: 21603–21616.
+https://doi.org/10.1016/j.ijhydene.2018.09.201.
+[186] Martin ML, Dadfarnia M, Nagao A, Wang S, Sofronis P. Enumeration of the hydrogen-
+enhanced localized plasticity mechanism for hydrogen embrittlement in structural materials.
+Acta Mater. 2019;165:734–750. https://doi.org/10.1016/j.actamat.2018.12.014.
+[187] Djukic MB, Bakic GM, Zeravcic VS, Sedmak A, Rajicic B. The synergistic action and
+interplay of hydrogen embrittlement mechanisms in steels and iron: localized plasticity and
+decohesion. Eng Fract Mech. 2019;A216:106528.
+https://doi.org/10.1016/j.engfracmech.2019.106528.
+[188] Zhao Y, Lee DH, Seok MY, Lee J, Phaniraj MP, Suh JY, Ha HY, Kim JY, Ramamurty U,
+Jang J. Resistance of CoCrFeMnNi high-entropy alloy to gaseous hydrogen embrittlement.
+Scr Mater. 2017;135;54–58. https://doi.org/10.1016/j.scriptamat.2017.03.029.
+26
+
+[189] Luo H, Lu WJ, Fang XF, Ponge D, Li ZM, Raabe D. Beating hydrogen with its own weapon:
+nano-twin gradients enhance embrittlement resistance of a high-entropy alloy. Mater Today.
+2018;21:1003–1009. https://doi.org/10.1016/j.mattod.2018.07.015.
+[190] Mine Y, Haraguchi D, Ideguchi T, Horita N, Horita Z, Takashima K. Hydrogen
+embrittlement of ultrafine-grained austenitic stainless steels processed by high-pressure
+torsion at moderate temperature. ISIJ Int. 2016;56:1083–1090.
+https://doi.org/10.2355/isijinternational.ISIJINT-2015-664
+[191] Bai Y, Momotani Y, Chen MC, Shibata A, Tsuji N. Effect of grain refinement on hydrogen
+embrittlement behaviors of high-Mn TWIP steel. Mater Sci Eng A. 2016;651:935–944.
+https://doi.org/10.1016/j.msea.2015.11.017.
+[192] Valiev RZ. Nanostructuring of metals by severe plastic deformation for advanced properties.
+Nat Mater. 2004;3:511–516. https://doi.org/10.1038/nmat1180.
+[193] Meyers MA, Mishra A, Benson DJ. The deformation physics of nanocrystalline metals:
+experiments, analysis, and computations. JOM. 2006;58(4):41–48.
+https://doi.org/10.1007/s11837-006-0214-6.
+[194] Ma E. Eight routes to improve the tensile ductility of bulk nanostructured metals and alloys.
+JOM. 2006;58(4):49–53. https://doi.org/10.1007/s11837-006-0215-5.
+[195] Valiev RZ, Murashkin MY, Kilmametov A, Straumal B, Chinh NQ, Langdon TG. Unusual
+super-ductility at room temperature in an ultrafine-grained aluminum alloy. J Mater Sci.
+2010;45:4718–4724. https://doi.org/10.1007/s10853-010-4588-z.
+[196] Bryła K, Morgiel J, Faryna M, Edalati K, Horita Z. Effect of high-pressure torsion on grain
+refinement, strength enhancement and uniform ductility of EZ magnesium alloy. Mater Lett.
+2018;212:323–326. https://doi.org/10.1016/j.matlet.2017.10.113.
+[197] Valiev R, Semenova IP, Jakushina E, Latysh VV, Rack HJ, Lowe TC, Petruželka J, Dluhoš
+L, Hrušák D, Sochová J. Nanostructured SPD processed titanium for medical implants.
+Mater Sci Forum. 2008;584-586:49–54.
+https://doi.org/10.4028/www.scientific.net/MSF.584-586.49.
+[198] Estrin Y, Kim HE, Lapovok R, Ng HP, Jo JH. Mechanical strength and biocompatibility of
+ultrafine-grained commercial purity titanium. BioMed Res Int. 2013;2013:914764.
+https://doi.org/10.1155/2013/914764.
+[199] Kubacka D, Yamamoto A, Wieciński P, Garbacz H. Biological behavior of titanium
+processed by severe plastic deformation. Appl Surf Sci. 2019;472:54–63.
+https://doi.org/10.1016/j.apsusc.2018.04.120.
+[200] Lowe TC, Valiev RZ, Li X, Ewing BR. Commercialization of bulk nanostructured metals
+and alloys. MRS Bull. 2021;46:265–272. https://doi.org/10.1557/s43577-021-00060-0.
+[201] Long M, Rack HJ. Titanium alloys in total joint replacement - a materials science
+perspective. Biomaterials. 1998;19:1621–1639. https://doi.org/10.1016/S0142-
+9612(97)00146-4.
+[202] Todai M, Nagase T, Hori T, Matsugaki A, Sekita A, Nakano T. Novel TiNbTaZrMo high-
+entropy alloys for metallic biomaterials. Scr Mater. 2017;129:65–68.
+https://doi.org/10.1016/j.scriptamat.2016.10.028.
+[203] Newell R, Wang Z, Arias I, Mehta A, Sohn Y, Florczyk S. Direct-contact cytotoxicity
+evaluation of CoCrFeNi-based multi-principal element alloys. J Funct Biomater. 2018;9:59.
+https://doi.org/10.3390/jfb9040059.
+27
+
+[204] Hori T, Nagase T, Todai M, Matsugaki A, Nakano T. Development of non-equiatomic Ti-
+Nb-Ta-Zr-Mo high-entropy alloys for metallic biomaterials. Scr Mater. 2019;172:83–87.
+https://doi.org/10.1016/j.scriptamat.2019.07.011.
+[205] Nagase T, Iijima Y, Matsugaki A, Ameyama K, Nakano T. Design and fabrication of Ti-
+Zr-Hf-Cr-Mo and Ti-Zr-Hf-Co-Cr-Mo high-entropy alloys as metallic biomaterials. Mater
+Sci Eng C. 2020;107:110322. https://doi.org/10.1016/j.msec.2019.110322.
+[206] Alagarsamy K, Fortier A, Komarasamy M, Kumar N, Mohammad A, Banerjee S, Han HC,
+Mishra RS. Mechanical properties of high entropy alloy Al CoCrFeNi for peripheral
+0.1
+vascular stent application. Cardiovasc Eng Technol. 2016;7:448–454.
+https://doi.org/10.1007/s13239-016-0286-6.
+[207] Wang SP, Xu J. TiZrNbTaMo high-entropy alloy designed for orthopedic implants: as-cast
+microstructure and mechanical properties. Mater Sci Eng C. 2017;73:80–89.
+https://doi.org/10.1016/j.msec.2016.12.057.
+[208] Nagase T, Todai M, Hori T, Nakano T. Microstructure of equiatomic and non-equiatomic
+Ti-Nb-Ta-Zr-Mo high-entropy alloys for metallic biomaterials. J Alloys Compd.
+2018;753:412–421. https://doi.org/10.1016/j.jallcom.2018.04.082.
+[209] Yuan Y, Wu Y, Yang Z, Liang X, Lei Z, Huang H, Wang H, Liu X, An K, Wu W, Lu Z.
+Formation, structure and properties of biocompatible TiZrHfNbTa high-entropy alloys.
+Mater Res Lett. 2019;7:225–231. https://doi.org/10.1080/21663831.2019.1584592.
+[210] Motallebzadeh A, Peighambardoust NS, Sheikh S, Murakami H, Guo S, Canadinc D.
+Microstructural, mechanical and electrochemical characterization of TiZrTaHfNb and
+Ti ZrTa Hf Nb refractory high-entropy alloys for biomedical applications.
+1.5 0.5 0.5 0.5
+Intermetallics. 2019;113:106572. https://doi.org/10.1016/j.intermet.2019.106572.
+[211] Edalati K, Uehiro R, Fujiwara K, Ikeda Y, Li HW, Sauvage X, Valiev RZ, Akiba E, Tanaka
+I, Horita Z. Ultra-severe plastic deformation: evolution of microstructure, phase
+transformation and hardness in immiscible magnesium-based systems. Mater Sci Eng A.
+2017;701:158–166. https://doi.org/10.1016/j.msea.2017.06.076.
+[212] Edalati K, Emami H, Staykov A, Smith DJ, Akiba E, Horita Z. Formation of metastable
+phases in magnesium-titanium system by high-pressure torsion and their hydrogen storage
+performance. Acta Mater. 2015;50:150–156. https://doi.org/10.1016/j.actamat.2015.07.060.
+[213] Edalati K, Emami H, Ikeda Y, Iwaoka H, Tanaka I, Akiba E, Horita Z. New nanostructured
+phases with reversible hydrogen storage capability in immiscible magnesium-zirconium
+system produced by high-pressure torsion. Acta Mater. 2016;108:293–303.
+https://doi.org/10.1016/j.actamat.2016.02.026.
+[214] Kormout KS, Pippan R, Bachmaier A. Deformation‐induced supersaturation in immiscible
+material systems during high‐pressure torsion. Adv Eng Mater. 2017;19:1600675.
+https://doi.org/10.1002/adem.201600675.
+[215] Oberdorfer B, Lorenzoni B, Unger K, Sprengel W, Zehetbauer M, Pippan R, Wurschum R.
+Absolute concentration of free volume-type defects in ultrafine-grained Fe prepared by
+high-pressure torsion. Scr Mater. 2010;63:452–455.
+https://doi.org/10.1016/j.scriptamat.2010.05.007.
+[216] Divinski SV, Reglitz G, Rösner H, Estrin Y, Wilde G. Ultra-fast diffusion channels in pure
+Ni severely deformed by equal-channel angular pressing. Acta Mater. 2011;59:1974–1985.
+https://doi.org/10.1016/j.actamat.2010.11.063.
+28
+
+[217] Straumal BB, Mazilkin AA, Baretzky B, Schütz G, Rabkin E, Valiev RZ. Accelerated
+diffusion and phase transformations in Co-Cu alloys driven by the severe plastic
+deformation. Mater Trans. 2012;53:63–71. https://doi.org/10.2320/matertrans.MD201111.
+[218] Figueiredo RB, Pereira PHR, Aguilar MTP, Cetlin PR, Langdon TG. Using finite element
+modeling to examine the temperature distribution in quasi-constrained high-pressure torsion.
+Acta Mater. 2012;60:3190–3198. https://doi.org/10.1016/j.actamat.2012.02.027.
+[219] Edalati K, Hashiguchi Y, Pereira PHR, Horita Z, Langdon TG. Effect of temperature rise
+on microstructural evolution during high-pressure torsion. Mater Sci Eng A. 2018;714:167–
+171. https://doi.org/10.1016/j.msea.2017.12.095.
+[220] Saini M, Singh Y, Arora P, Arora V, Jain K. Implant biomaterials: a comprehensive review.
+World J Clin Cases. 2015: 52–57. https://doi.org/10.12998/wjcc.v3.i1.52.
+[221] Schlapbach L, Zuttel A. Hydrogen-storage materials for mobile applications. Nature.
+2001;414:353–358. https://doi.org/10.1038/35104634.
+[222] von Colbe JB, Ares JR, Barale J, Baricco M, Buckley C, Capurso G, Gallandat N, Grant
+DM, Guzik MN, Jacob I, Jensen EH, Jensen T, Jepsen J, Klassen T, Lototskyy MV,
+Manickam K, Montone A, Puszkiel J, Sartori S, Sheppard DA, Stuart A, Walker G, Webb
+CJ, Yang H, Yartys V, Zuttel A, Dornheim M. Application of hydrides in hydrogen storage
+and compression: achievements, outlook and perspectives. Int J Hydrog Energy. 2019;44:
+7780–7808. https://doi.org/10.1016/j.ijhydene.2019.01.104.
+[223] Hirscher M, Yartys VA, Baricco M, von Colbe JB, Blanchard D, Bowman Jr. RC, Broom
+DP, Buckley CE, Chang F, Chen P, Cho YW, Crivello JC, Cuevas F, David WIF, de Jongh
+PE, Denys RV, Dornheim M, Felderhoff M, Filinchuk Y, Froudakis GE, Grant DM, Gray
+EMA, Hauback BC, He T, Humphries TD, Jensen TR, Kim S, Kojima Y, Latroche M, Li
+HW, Lototskyy MV, Makepeace JW, Møller KT, Naheed L, Ngene P, Noréus D, Nygård
+MM, Orimo S, Paskevicius M, Pasquini L, Ravnsbæk DB, Sofianos MV, Udovic TJ, Vegge
+T, Walker GS, Webb CJ, Weidenthaler C, Zlotea C. Materials for hydrogen-based energy
+storage - past, recent progress and future outlook. J Alloys Compd. 2020;827:153548.
+https://doi.org/10.1016/j.jallcom.2019.153548.
+[224] Jain IP, Lal C, Jain A. Hydrogen storage in Mg: a most promising material. Int J Hydrogen
+Energy. 2010;35:5133–5144. https://doi.org/10.1016/j.ijhydene.2009.08.088.
+[225] Pasquini L, Sakaki K, Akiba E, Allendorf MD, Alvares E, Ares JR, Babai D, Baricco M,
+von Colbe JB, Bereznitsky M, Buckley CE, Cho YW, Cuevas F, de Rango P, Dematteis
+EM, Denys RV, Dornheim M, Fernández JF, Hariyadi A, Hauback BC, Heo TW, Hirscher
+M, Humphries TD, Huot J, Jacob I, Jensen TR, Jerabek P, Kang SY, Keilbart N, Kim H,
+Latroche M, Leardini F, Li H, Ling S, Lototskyy MV, Mullen R, Orimo S, Paskevicius M,
+Pistidda C, Polanski M, Puszkiel J, Rabkin E, Sahlberg M, Sartori S, Santhosh A, Sato T,
+Shneck RZ, Sørby MH, Shang Y, Stavila V, Suh JY, Suwarno S, Thu LT, Wan LF, Webb
+CJ, Witman M, Wan CB, Wood BC, Yartys VA. Magnesium- and intermetallic alloys-based
+hydrides for energy storage: modelling, synthesis and properties. Prog Energy. 2022;4:
+032007. https://doi.org/10.1088/2516-1083/ac7190.
+[226] Skripnyuk VM, Rabkin E, Estrin Y, Lapovok R. The effect of ball milling and equal channel
+angular pressing on the hydrogen absorption/desorption properties of Mg-4.95 wt% Zn-0.71
+wt% Zr (ZK60) alloy. Acta Mater. 2004;52:405–414.
+https://doi.org/10.1016/j.actamat.2003.09.025.
+29
+
+[227] Grill A, Horky J, Panigrahi A, Krexner G, Zehetbauer M. Long-term hydrogen storage in
+Mg and ZK60 after severe plastic deformation. Int J Hydrog Energy. 2015;40:17144–17152.
+https://doi.org/10.1016/j.ijhydene.2015.05.145.
+[228] Skryabina N, Aptukov V, Romanov P, Fruchart D, de Rango P, Girard G, Grandini C,
+Sandim H, Huot J, Lang J, Cantelli R, Leardini F. Microstructure optimization of Mg-alloys
+by the ECAP process including numerical simulation, SPD treatments, characterization, and
+hydrogen sorption properties. Molecules. 2019;24:89.
+https://doi.org/10.3390/molecules24010089.
+[229] Leiva DR, Jorge AM, Ishikawa TT, Huot J, Fruchart D, Miraglia S, Kiminami CS, Botta
+WJ. Nanoscale grain refinement and H-sorption properties of MgH processed by high-
+2
+pressure torsion and other mechanical routes. Adv Eng Mater. 2010;12:786–792.
+https://doi.org/10.1002/adem.201000030.
+[230] Panda S, Fundenberger JJ, Zhao Y, Zou J, Toth LS, Grosdidier T. Effect of initial powder
+type on the hydrogen storage properties of high-pressure torsion consolidated Mg. Int J
+Hydrog Energy. 2017;42:22438–22448. https://doi.org/10.1016/j.ijhydene.2017.05.097.
+[231] Révész Á, Gajdics M. High-pressure torsion of non-equilibrium hydrogen storage materials:
+a review. Energies. 2012;14:819. https://doi.org/10.3390/en14040819.
+[232] Huot J, Cuevas F, Deledda S, Edalati K, Filinchuk Y, Grosdidier T, Hauback BC, Heere M,
+Jensen TR, Latroche M, Sartori S. Mechanochemistry of metal hydrides: recent advances.
+Materials. 2019;12:2778. https://doi.org/10.3390/ma12172778.
+[233] Edalati K, Uehiro R, Ikeda Y, Li HW, Emami H, Filinchuk Y, Arita M, Sauvage X, Tanaka
+I, Akiba E, Horita Z. Design and synthesis of a magnesium alloy for room temperature
+hydrogen storage. Acta Mater. 2018;149:88–96.
+https://doi.org/10.1016/j.actamat.2018.02.033.
+[234] Floriano R, Zepon G, Edalati K, Fontana GLBG, Mohammadi A, Ma Z, Li HW, Contieri
+R. Hydrogen storage in TiZrNbFeNi high entropy alloys, designed by thermodynamic
+calculations. Int J Hydrogen Energy. 2020;45:33759–33770.
+https://doi.org/10.1016/j.ijhydene.2020.09.047.
+[235] Floriano R, Zepon G, Edalati K, Fontana GLBG, Mohammadi A, Ma Z, Li HW, Contieri
+RJ. Hydrogen storage properties of new A B -type TiZrNbCrFe high-entropy alloy. Int J
+3 2
+Hydrogen Energy. 2021;46:23757–23766. https://doi.org/10.1016/j.ijhydene.2021.04.181.
+[236] Mohammadi A, Ikeda Y, Edalati P, Mito M, Grabowski B, Li HW, Edalati K. High-entropy
+hydrides for fast and reversible hydrogen storage at room temperature: binding-energy
+engineering via first-principles calculations and experiments. Acta Mater. 2022;236:118117.
+https://doi.org/10.1016/j.actamat.2022.118117.
+[237] Edalati P, Mohammadi A, Li Y, Li HW, Floriano R, Fuji M, Edalati K. High-entropy alloys
+as anode materials of nickel - metal hydride batteries. Scr Mater. 2022;209:114387.
+https://doi.org/10.1016/j.scriptamat.2021.114387.
+[238] Goetzberger A, Hebling C, Schock HW. Photovoltaic materials, history, status and outlook.
+Mater Sci Eng R. 2003;40:1–46. https://doi.org/10.1016/S0927-796X(02)00092-X.
+[239] Parida B, Iniyan S, Goic R. A review of solar photovoltaic technologies. Renew Sust Energ
+Rev. 2011;15:1625–1636. https://doi.org/10.1016/j.rser.2010.11.032.
+[240] Polman A, Knight M, Garnett EC, Ehrler B, Sinke WC. Photovoltaic materials: present
+efficiencies and future challenges. Science. 2016;352:aad4424.
+https://doi.org/10.1126/science.aad4424.
+30
+
+[241] Wang Q, Watanabe M, Edalati K. Visible-light photocurrent in nanostructured high-
+pressure TiO -II (columbite) phase. J Phys Chem C. 2020;124:13930–13935.
+2
+https://doi.org/10.1021/acs.jpcc.0c03923.
+[242] Fujita I, Edalati P, Wang Q, Watanabe M, Arita M, Munetoh S, Ishihara T, Edalati K. Novel
+black bismuth oxide (Bi O ) with enhanced photocurrent generation, produced by high-
+2 3
+pressure torsion straining. Scr Mater. 2020;187:366–370.
+https://doi.org/10.1016/j.scriptamat.2020.06.052.
+[243] Fujishima A, Rao TN, Tryk DA. Titanium dioxide photocatalysis. J Photochem Photobiol
+C. 2000;1:1–21. https://doi.org/10.1016/S1389-5567(00)00002-2.
+[244] Kumar A, Choudhary P, Kumar A, Camargo PHC, Krishnan V. Recent advances in
+plasmonic photocatalysis based on TiO and noble metal nanoparticles for energy
+2
+conversion, environmental remediation, and organic synthesis. Small. 2022;18:2101638.
+https://doi.org/10.1002/smll.202101638.
+[245] Maeda K, Domen K. Photocatalytic water splitting: recent progress and future challenges.
+J Phys Chem Lett. 2010;1:2655–2661. https://doi.org/10.1021/jz1007966.
+[246] Wang D, Liu Z, Du S, Zhang Y, Li H, Xiao Z, Chen W, Chen R, Wang Y, Zou Y. Low-
+temperature synthesis of small-sized high-entropy oxides for water oxidation. J Mater Chem
+A. 2019;7:24211–24216. https://doi.org/10.1039/C9TA08740K.
+[247] Ding Z, Bian J, Shuang S, Liu X, Hu Y, Sun C, Yang Y. High entropy intermetallic–oxide
+core-shell nanostructure as superb oxygen evolution reaction catalyst. Adv Sustain Syst.
+2020;4:1900105. https://doi.org/10.1002/adsu.201900105.
+[248] Fang G, Gao J, Lv J, Jia H, Li H, Liu W, Xie G, Chen Z, Huang Y, Yuan Q, Liu X, Lin X,
+Sun S, Qiu HJ. Multi-component nanoporous alloy/(oxy)hydroxide for bifunctional oxygen
+electrocatalysis and rechargeable Zn-air batteries. Appl Catal B. 2020;268:118431.
+https://doi.org/10.1016/j.apcatb.2019.118431.
+[249] Okejiri F, Zhang Z, Liu J, Liu M, Yang S, Dai S. Room-temperature synthesis of high-
+entropy perovskite oxide nanoparticle catalysts through ultrasonication-based method.
+ChemSusChem. 2020;13:111–115. https://doi.org/10.1002/cssc.201902705.
+[250] Xu H, Zhang Z, Liu J, Do-Thanh CL, Chen H, Xu S, Lin Q, Jiao Y, Wang J, Wang Y, Chen
+Y, Dai S. Entropy-stabilized single-atom Pd catalysts via high-entropy fluorite oxide
+supports. Nat Commun. 2020;11:3908. https://doi.org/10.1038/s41467-020-17738-9.
+[251] Chen H, Jie K, Jafta CJ, Yang Z, Yao S, Liu M, Zhang Z, Liu J, Chi M, Fu J, Dai S. An
+ultrastable heterostructured oxide catalyst based on high-entropy materials: a new strategy
+toward catalyst stabilization via synergistic interfacial interaction. Appl Catal B. 2020;276 :
+119155. https://doi.org/10.1016/j.apcatb.2020.119155.
+[252] Zheng Y, Yi Y, Fan M, Liu H, Li X, Zhang R, Li M, Qiao ZA. A high-entropy metal oxide
+as chemical anchor of polysulfide for lithium-sulfur batteries. Energy Storage Mater.
+2019;23:678–683. https://doi.org/10.1016/j.ensm.2019.02.030.
+[253] Chen H, Lin W, Zhang Z, Jie K, Mullins DR, Sang X, Yang SZ, Jafta CJ, Bridges CA, Hu
+X. Mechanochemical synthesis of high entropy oxide materials under ambient conditions:
+dispersion of catalysts via entropy maximization. ACS Mater Lett 2019;1:83–88.
+https://doi.org/10.1021/acsmaterialslett.9b00064.
+[254] Lal MS, Sundara R. High entropy oxides - a cost-effective catalyst for the growth of high
+yield carbon nanotubes and their energy applications. ACS Appl Mater Interfaces. 2019;11:
+30846–30857. https://doi.org/10.1021/acsami.9b08794.
+31
+
+[255] Shu Y, Bao J, Yang S, Duan X, Zhang P. Entropy‐stabilized metal‐CeO solid solutions for
+x
+catalytic combustion of volatile organic compounds. AIChE J. 2021;67:e17046.
+https://doi.org/10.1002/aic.17046.
+[256] Sun Y, Dai1 S. High-entropy materials f or catalysis: A new frontier. Sci Adv. 2021;7:20.
+[257] Liu Z, Deng Z, Davis SJ, Giron C, Ciais P. Monitoring global carbon emissions in 2021.
+Nat Rev Earth Environ. 2022;3:217–219. https://doi.org/10.1038/s43017-022-00285-w.
+[258] Park JH, Yang J, Kim, Gim H, Choi WY, Lee JW. Review of recent technologies for
+transforming carbon dioxide to carbon materials. Chem Eng J. 2022;427:1300980.
+https://doi.org/10.1016/j.cej.2021.130980.
+[259] Li K, Peng B, Peng T. Recent advances in heterogeneous photocatalytic CO conversion to
+2
+solar fuels. ACS Catal. 2016;6:7485–7527. https://doi.org/10.1021/acscatal.6b02089.
+[260] Akrami S, Watanabe M, Ling TH, Ishihara T, Arita M, Fuji M, Edalati K. High pressure
+TiO -II polymorph as an active photocatalyst for CO to CO conversion. Appl Catal B.
+2 2
+2021;298:120566. https://doi.org/10.1016/j.apcatb.2021.120566.
+[261] Akrami S, Murakami Y, Watanabe M, Ishihara T, Arita M, Guo Q, Fuji M, Edalati K.
+Enhanced CO conversion on highly-strained and oxygen-deficient BiVO photocatalyst.
+2 4
+Chem Eng J. 2022;442:136209. https://doi.org/10.1016/j.cej.2022.136209.
+[262] Levitas VI. High-pressure mechanochemistry: conceptual multiscale theory and
+interpretation of experiments. Phys. Rev. B. 2004;70:184118.
+https://doi.org/10.1103/PhysRevB.70.184118.
+[263] Bahers TL, Rérat M, Sautet P. Semiconductors used in photovoltaic and photocatalytic
+devices: assessing fundamental properties from DFT. J. Phys. Chem. C. 2014;118:5997–
+6008. https://doi.org/10.1021/jp409724c.
+[264] Niu X, Bai X, Zhou Z, Wang J. Rational design and characterization of direct Z-scheme
+photocatalyst for overall water splitting from excited state dynamics simulations. ACS
+Catal. 2020;10:1976–1983. https://doi.org/10.1021/acscatal.9b04753.
+[265] Pavone M, Toroker MC. Toward ambitious multiscale modeling of nanocrystal catalysts for
+water splitting. ACS Energy Lett. 2020;5:2042–2044.
+https://doi.org/10.1021/acsenergylett.0c01086.
+32
+
+Fig. 1 Development of ultrahard high-entropy alloys by severe plastic deformation. a Phase
+diagram of AlTiFeCoNi doped with 0.45 wt% of carbon calculated by CALPHAD. Reproduced
+with permission from Ref. [136]. Copyright 2021, Elsevier. b Hardness of carbon-doped
+AlTiFeCoNi before and after HPT processing. Reproduced with permission from Ref. [136].
+Copyright 2021, Elsevier. c, d High-resolution lattice images of HPT-processed carbon-doped
+AlTiFeCoNi showing the presence of interphases and dislocations. Reproduced with permission
+from Ref. [136]. Copyright 2021, Elsevier. e Hardness against shear strain for AlCrFeCoNiNb
+processed by HPT for various turns, N. Reproduced with permission from Ref. [137]. Copyright
+2021, Elsevier. f, g Lattice images and corresponding diffractograms for AlCrFeCoNiNb
+processed by HPT for N = 4 showing the presence of nanograins and dislocations. Reproduced
+with permission from Ref. [137]. Copyright 2021, Elsevier.
+33
+
+Fig. 2 Development of high yield strength and good resistance to hydrogen embrittlement in high-
+entropy alloys by severe plastic deformation. a Tensile stress-strain curves before and after
+hydrogen charging for Cantor alloy CrMnFeCoNi processed by HPT for various rotations, N.
+Reproduced with permission from Ref. [167]. Copyright 2022, Elsevier. b dark-field image and
+corresponding selected area electron diffraction patterns for CrMnFeCoNi processed with HPT for
+N = 1/16, showing the presence of twins. Reproduced with permission from Ref. [167]. Copyright
+2022, Elsevier. c, d High-resolution lattice images of CrMnFeCoNi processed by HPT for N = 1/4,
+showing the presence of Lomer-Cottrell locks and D-Frank partial dislocations. Reproduced with
+permission from Ref. [167]. Copyright 2022, Elsevier. e Tensile stress-strain curves before and
+after hydrogen charging for CrMnFeCoNi processed by homogenization, soft SMAT (40 μm
+ultrasonic amplitude for 30 s), mild SMAT (60 μm ultrasonic amplitude for 60 s) and intense HPT
+(N = 10). Reproduced with permission from Ref. [165]. Copyright 2022, Elsevier. f Band contrast
+image and {111} twin boundary mapping by electron backscatter diffraction in scanning electron
+microscopy for CrMnFeCoNi processed by SMAT under mild conditions. Reproduced with
+permission from Ref. [165]. Copyright 2022, Elsevier.
+34
+
+Fig. 3 Development of high-entropy alloys with high strength, high biocompatibility and low
+elastic modulus by severe plastic deformation. a Nanoindentation load against displacement for
+TiAlFeCoNi after arc melting (ingot) and HPT processing. Reproduced with permission from Ref.
+[123]. Copyright 2020, Elsevier. b Biocompatibility, examined by MTT cell viability assay, and
+hardness of ingot and HPT-processed TiAlFeCoNi samples in comparison with pure titanium after
+annealing and HPT processing and Ti-6Al-7Nb (wt.%) after extrusion (rod) and HPT processing.
+Reproduced with permission from Ref. [123]. Copyright 2020, Elsevier. c Hardness against
+configurational entropy and the number of elements for TiNb, TiNbZr, TiNbZrTa and
+TiNbZrTaHf synthesized by HPT. Reproduced with permission from Ref. [134]. Copyright 2021,
+Elsevier. d Elastic modulus and hardness of TiNb, TiNbZr, TiNbZrTa and TiNbZrTaHf
+synthesized by HPT in comparison with some conventional biomaterials and human bone.
+Reproduced with permission from Ref. [134]. Copyright 2021, Elsevier.
+35
+
+Fig. 4 Design of high-entropy alloys with fast and reversible hydrogen storage at room temperature
+by binding-energy engineering. a Illustration of the concept of hydrogen-binding energy to design
+room-temperature hydrogen storage materials. Reproduced with permission from Ref. [233].
+Copyright 2020, Elsevier. b Superlattice of high-entropy hydride Ti Zr CrMnFeNiH .
+0.4 1.6 6
+Reproduced with permission from Ref. [236]. Copyright 2022, Elsevier. c Hydrogen binding
+energy versus titanium content in Ti Zr CrMnFeNiH calculated by first-principles calculations.
+x 2-x 6
+Reproduced with permission from Ref. [236]. Copyright 2022, Elsevier. d Hydrogen pressure-
+temperature-composition isotherms at room temperature for TiZrCrMnFeNi. Reproduced with
+permission from Ref. [113]. Copyright 2020, Elsevier. e Hydrogen content versus hydrogenation
+time for TiZrCrMnFeNi at room temperature. Reproduced with permission from Ref. [113].
+Copyright 2020, Elsevier. f Hydrogen storage content during cycling test for Ti Zr CrMnFeNi
+0.4 1.6
+at room temperature. Reproduced with permission from Ref. [236]. Copyright 2022, Elsevier.
+36
+
+Fig. 5 High-entropy ceramic semiconductors as photovoltaic materials. a, b Appearance b
+microstructure visualized by scanning electron microscopy of TiZrZrNbTaO synthesized by
+11
+HPT followed by oxidation. Reproduced with permission from Ref. [126]. Copyright 2020, RCS.
+c Photocurrent generation on TiZrZrNbTaO . Reproduced with permission from Ref. [155].
+11
+Copyright 2022, Elsevier.
+37
+
+Fig. 6 Photocatalytic water splitting on high-entropy oxides and oxynitrides synthesized by severe
+plastic deformation. a UV-vis light absorbance spectra for TiZrHfNbTaO and TiZrHfNbTaO N
+11 6 3
+in comparison with binary oxides. Reproduced with permission from Ref. [127]. Copyright 2021,
+RCS. b Photocatalytic hydrogen production under UV light on TiZrHfNbTaO N for four cycles
+6 3
+after synthesis and after six-month storage. Reproduced with permission from Ref. [127].
+Copyright 2021, RCS. c Photocatalytic oxygen production on TiZrNbTaWO with multiple
+12
+heterojunctions under visible light. Reproduced with permission from Ref. [160]. Copyright 2022,
+Elsevier.
+38
+
+Fig. 7 CO photoreduction to CO on high-entropy oxides and oxynitrides synthesized by severe
+2
+plastic deformation. a Electronic band structure and the appearance of TiZrHfNbTaO and
+11
+TiZrHfNbTaO N in comparison with P25 TiO . Reproduced with permission from Ref. [154].
+6 3 2
+Copyright 2022, Elsevier. b Diffuse reflectance infrared Fourier transform spectra for
+TiZrHfNbTaO and TiZrHfNbTaO N in comparison with P25 TiO in which peaks at 665 cm-1
+11 3 6 2
+and 2350 cm-1 correspond to CO chemisorption and physisorption on the surface of catalyst.
+2
+Reproduced with permission from Ref. [154]. Copyright 2022, Elsevier. c CO photoreduction to
+2
+CO during UV light illumination time on TiZrHfNbTaO and TiZrHfNbTaO N in comparison
+11 3 6
+with P25 TiO . Reproduced with permission from Ref. [154]. Copyright 2022, Elsevier.
+2
+39
+

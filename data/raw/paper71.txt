@@ -1,0 +1,457 @@
+ORIGINALRESEARCH
+published:09October2019
+doi:10.3389/fmats.2019.00251
+Boosting HER Performance of
+Pt-Based Catalysts Immobilized on
+Functionalized Vulcan Carbon by
+Atomic Layer Deposition
+WeiLuo†,JieGan†,ZikunHuang,WenyaoChen*,GangQian,XingguiZhouand
+XuezhiDuan*
+StateKeyLaboratoryofChemicalEngineering,EastChinaUniversityofScienceandTechnology,Shanghai,China
+Development of cost-effective Pt-based electrocatalysts is of scientific and industrial
+importance for hydrogen evolution from water splitting. In this work, cost-efficient
+Pt-basedcatalysts,immobilizedonfunctionalizedVulcanCarbon(VC)fromhydrothermal
+Editedby: treatment of Ru precursor and ethylene glycol solution, for hydrogen evolution reaction
+ZhonghuaXiang,
+(HER)areelaboratelyconstructedviaanelegantandcontrollableatomiclayerdeposition
+BeijingUniversityofChemical
+Technology,China (ALD) technique. More carboxyl groups on the functionalized VC are suggested as
+Reviewedby: the anchor sites for Pt immobilization, which gives rise to the more Pt active sites,
+YuenWu,
+desirablePtelectronicpropertiesandstrongerPt-supportinteraction.Theresultant7.1
+UniversityofScienceandTechnology
+ofChina,China wt%Pt-basedcompositecatalystexhibitsremarkablyboostedHERactivityandstability
+YongquanQu, thanthecommercial20%Pt/Ccatalyst.Theseinsightscouldopenupanewavenuefor
+Xi’anUniversity,China
+fabricationofcost-effectivePt/CHERcatalystsbasedonALDtechnique.
+*Correspondence:
+WenyaoChen Keywords: hydrogen evolution reaction, Pt-based catalysts, functionalized Vulcan Carbon, atomic layer
+wenyao.chen@mail.ecust.edu.cn deposition,cost-effective
+XuezhiDuan
+xzduan@ecust.edu.cn
+INTRODUCTION
+†Theseauthorshavecontributed
+equallytothiswork
+Electrocatalytichydrogenevolutionreaction(HER)inwatersplittinghasbeenrecentlyidentified
+asaneconomicalandsustainablemethodforH production(Lietal.,2011;ShiandZhang,2016;
+Specialtysection: 2
+Lyuetal.,2017;Ouyangetal.,2017;Sehetal.,2017).Hitherto,Pt-basedcatalystsareconsideredas
+Thisarticlewassubmittedto
+EnergyMaterials, thestate-of-the-artchoiceforcatalyzingHERunderacidicconditions,becausePtsitsverynearthe
+asectionofthejournal topofthevolcano(Skúlasonetal.,2010;Chaoetal.,2017;Sehetal.,2017;Jiangetal.,2018;Wang
+FrontiersinMaterials et al., 2018). Limited by its expense and scarcity for large-scale commercialization, one strategy
+Received:27August2019 to increase the Pt utilization efficiency is reducing the Pt particle size toward the increased Pt
+Accepted:23September2019 dispersionandthusmorePtactivesites(Zhengetal.,2015;Anantharajetal.,2016;Chengetal.,
+Published:09October2019 2016; Qu et al., 2019), and another strategy is tailoring the Pt electronic properties toward the
+Citation: enhanced intrinsic activity (Greeley et al., 2006; Li et al., 2018, 2019). Although the conductive
+LuoW,GanJ,HuangZ,ChenW, carbonsupportsendowthePt-basedcatalystswithaneffectiveelectrontransfersystem,theirlow
+QianG,ZhouXandDuanX(2019) interactionwiththesupportedmetalnanoparticlesrequiresthepre-functionalizationofthecarbon
+BoostingHERPerformanceof supportstostabilizethemetalnanoparticlestowardstableHERperformance(Ryndinetal.,1981;
+Pt-BasedCatalystsImmobilizedon
+Kitchinetal.,2004;Marichyetal.,2012;Houetal.,2015;Chengetal.,2016;Anantharajetal.,2017;
+FunctionalizedVulcanCarbonby
+Quetal.,2019).
+AtomicLayerDeposition.
+Front.Mater.6:251. Recently, atomic layer deposition (ALD) has gained considerable attentions for the
+doi:10.3389/fmats.2019.00251 well-controlledsynthesisofcarbonsupportedPt-basedcatalysts,becauseitcanpreciselycontrol
+FrontiersinMaterials|www.frontiersin.org 1 October2019|Volume6|Article251
+
+Luoetal. Pt-BasedHERCatalyst
+the size of Pt nanoparticles (George, 2009; Gao and Qin, gas. The container for VC was placed inside the ALD reaction
+◦
+2017).Forsuchtechnique,itproceedsviatheself-limitingsurface chamber. The deposition temperature was 250 C, while the
+◦
+reactions,i.e.,theprecursorreactingwiththesurfacefunctional temperatureforthecontainerofMeCpPtMe waskeptat65 C
+3
+groups on the substrate. To this end, there are an amount of toprovideasteadystatefluxofMeCpPtMe tothereactor.ALD
+3
+◦
+studies about the surface treatments to introduce more surface pipelineswereheatedto150 Ctoavoidprecursorcondensation.
+functionalgroupsforanchoringthePtspeciesandtheincreased For each ALD cycle, the pulse, exposure, and purge time for
+cyclestoobtain relativelyhighPtloading, but tocausetheloss MeCpPtMe were 0.5, 12, and 25s, while those for O were 1,
+3 3
+of the Pt active sites because of the increased Pt particle size 12,and25s,respectively.Similarly,thePt/Ru/VCandPt/EG-VC
+(Liuetal.,2009;Lietal.,2010;Zhangetal.,2017).Asfaraswe catalystswerealsosynthesizedbyALD,whichtheas-synthesized
+know,onlylimitedstudyontheALD-synthesizedPt/Ccatalysts, Ru/VCandEG/VCwereemployedasthesupportofPtcatalyst,
+being highly active (i.e., the 16mA cm
+−2
+of current density at respectively. For all the ALD-synthesized catalysts, the number
+the overpotential of 0.05V) and stable (i.e., the 4% loss of its for ALD cycle was kept as 20. Moreover, the commercial 20
+initialcurrentdensityafter1000CVcycles),hasbeenconducted wt% Pt catalyst over Vulcan XC-72 (20% Pt/C) was obtained
+fortheHER(Chengetal.,2016).Asaconsecutiveeffort,more fromSigma-Aldrich.
+studies are highly desirable to gain in-depth understanding of
+Catalyst Characterization
+ALD-synthesizedPt/CcatalyzedHERandrationallydesigncost-
+effectiveandstablePt/CHERelectrocatalysts. The size and distribution of these catalysts were characterized
+In this work, cost-effective Pt-based composite catalysts byhigh-angleannulardark-fieldscanningtransmissionelectron
+immobilized on functionalized Vulcan Carbon (VC) were microscopy(HAADF-STEM,TecnaiG2F20S-Twin).Themean
+fabricatedfortheHER.ThefunctionalizationofVCwascarried particle sizes of catalysts were calculated based on the sizes of
+out via hydrothermal treatment in Ru precursor and ethylene at least 200 random particles. The morphology of the metal
+glycol solution to create abundant surface functional groups particleswasobservedbyhighresolutiontransmissionelectron
+for Pt immobilization by the ALD technique. The resultant microscopy(HRTEM,JEOLJSM-2100).Thesurfacecomposition
+Pt/Ru/VCcompositecatalysttogetherwiththereferencedPt/VC, andelectronicstructureofcatalystswereinvestigatedusingthe
+Ru/VC and commercial 20 wt% Pt/C catalysts were tested and X-ray photoelectron spectrometer (XPS, Kratos AXIS SUPRA)
+characterized by multiple techniques such as HAADF-STEM, equipped with an Al Kα X-ray (1486.6eV, excitation source
+HRTEM, XPS, and TGA. Finally, the relationship between the working at 15 kV). The C 1s peak at 284.6eV was taken as
+catalyststructureandperformancewasestablished. an internal standard to correct the shift in the binding energy
+caused by sample charging. The inductively coupled plasma
+EXPERIMENTAL SECTION atomic emission spectrometer (Agilent 725-ES ICP-AES) was
+employed to measure the metal contents. Laser Micro-Raman
+Catalyst Preparation Spectrometer (Raman, InVia Reflex, Renishaw) was employed
+TheRu/VCcatalystwassynthesizedbyhydrothermaltreatment to characterize the degree of graphitization and electronic
+ofRuprecursorandethyleneglycolsolution.Typically,0.6gurea propertiesforthesecatalysts.
+(SinopharmChemicalReagentCo.,Ltd)wasdissolvedin20mL
+Electrochemical Measurements
+ultrapure water, then 0.5g Vulcan Carbon (VC, Sigma-Aldrich
+Co.,Ltd)wasaddedintothesolutionunderultrasonicationfor The electrochemical performance was tested by the three-
+30min. The as-obtained suspension was mixed with 2.23mL electrode system with the CHI760E (CH Instruments Ins.)
+aqueous RuCl (Adamas Reagent Co., Ltd) solution with the instrument.AsaturatedAg/AgClelectrodeandgraphiterodwere
+3
+concentration of 0.04g mL −1, which was further transferred used as the counter and reference electrode, respectively. The
+into the hydrothermal reactor. The hydrothermal reactor was working electrode was prepared by the following procedures:
+kept in the oven under 90 ◦ C for 1h before cooling down to (1) 1mL ethanol (Sigma-Aldrich Co., Ltd) and 30 µL Nafion
+room temperature. Afterwards, 20mL ethylene glycol (Sigma- 5 wt.% solution (DuPont Inc.) were firstly mixed, followed by
+Aldrich Co., Ltd) was directly mixed with the solution under the addition of 5mg catalyst under ultrasonication to obtain a
+ultrasonication for 30min, followed by heating to 120 ◦ C for homogeneous ink; (2) a certain amount of catalyst ink (5 µL)
+another 1h. Finally, the as-obtained slurry was filtered, washed was drop-casted on a glassy carbon electrode (GCE) with a
+and dried at 80 ◦ C overnight. For a comparison, EG-VC was diameterof3mm;(3)thedrop-castedGCEwasdriedatambient
+prepared using the same method as described above except the conditionsunderair.Alldatawerecorrectedfor90%iRpotential
+additionofaqueousRuCl solution,whichcouldbeemployedas
+drop(R,ohmicdrop6∼8(cid:127)).ForasaturatedAg/AgClelectrode,
+3
+thereferencesample. the potential against reversible hydrogen electrode (RHE) was
+The Pt/VC catalyst was synthesized by ALD. Typically, a calculatedaccordingtothefollowingequation:
+certainamountofVulcanCarbon(VC,Sigma-AldrichCo.,Ltd)
+was placed in a container inside the ALD reactor chamber. E(vs.RHE)=E(cid:0)vs.Ag/AgCl(cid:1)+E0 (cid:0)Ag/AgCl(cid:1)+0.0591×pH
+The Pt ALD was performed by sequential exposure of the VC
+to (methylcyclopentadienyl) trimethylplatinum (MeCpPtMe , where E (vs. RHE) is the potential vs. RHE, E (vs. Ag/AgCl) is
+3
+StremChemicals,99%)andozone(O )producedusinganozone the potential vs. Ag/AgCl and E0(Ag/AgCl) is the potential of
+3
+generator. Nitrogen was employed as the purging and carrier Ag/AgClrespecttothestandardhydrogenelectrode.
+FrontiersinMaterials|www.frontiersin.org 2 October2019|Volume6|Article251
+
+Luoetal. Pt-BasedHERCatalyst
+0.5M H SO (Sinopharm Chemical Reagent Co., Ltd) was observed,andtheaveragePtparticlesizeisdeterminedtobe3.3
+2 4
+employedastheelectrolyte,whichwasdegassedbybubblingN ±0.8nm.Hence,theas-preparedthreecatalystsexhibitsmaller
+2
+for at least 30min. Before the electrochemical measurements, metal particle sizes and narrower size distributions than the
+the catalysts were activated by 20 cyclic voltammetry (CV) commercial20wt%Pt/Ccatalyst,makingthemgoodcandidates
+scans along the potential window from 0 to −0.5V vs. RHE fortheHER.
+in 0.5M H SO at a scan rate of 100mV s
+−1,
+then linear To obtain their HER performances, these catalysts were
+2 4
+sweep voltammetry (LSV) was performed with a scan rate evaluated by LSV measurements in acid media, and the results
+of 5mV s −1. The electrochemical impedance spectroscopy areshowninFigures1E,F.Interestingly,thePt/Ru/VCcatalystis
+(EIS) measurements were conducted from 100kHz to 1Hz. observedtogeneratea10mAcm
+−2currentdensityataverylow
+The amplitude of the sinusoidal potential signal was 5mV. overpotentialof23mV,wheresuchcurrentdensityiscomparable
+Electrochemical capacitance was measured by CV at different to solar fuel synthesis (Zeng and Li, 2015; Li et al., 2018). To
+scan rates of 20, 40, 60, 80, 120, 160, 240, and 320mV s −1. achievethecurrentdensityof40mAcm −2,thePt/Ru/VCcatalyst
+The capacitive currents were collected within the potential still delivers a low overpotential of 30mV. In comparison, as
+windowfrom0.45to0.65Vvs.RHEwherenoapparentFaradaic shown in TableS1, the other two catalysts together with the
+processes were observed. These measured capacitive currents commercial 20 wt% Pt/C catalyst exhibit higher overpotentials,
+were then plotted as a function of scan rates, which the slope especiallyfortheRu/VCcatalyst.Specifically,theRu/VCcatalyst
+could be used to calculate the electrochemical capacitance. exhibitstheoverpotentialof127mVat10mAcm −2and163mV
+Assumingthatthespecificcapacitanceofaflatsurfaceis∼40µF at40mAcm −2.TheseresultsdemonstratetheoutstandingHER
+for1cm2ofrealsurfacearea,theECSAcouldbeestimatedas: activityofourdevelopedPt/Ru/VCcompositecatalyst.
+Furthermore, the mass activities of these catalysts were
+ECSA= specificcapacitance compared, which were determined by normalizing the current
+40µFcm−2percm2 densitiesat40mVpotentialtothetotalmassofmetalspecies.As
+ECSA
+obviouslyshowninFigure1G,themassactivityofthePt/Ru/VC
+Theas-obtainedTafelplotswerefittingintotheTafelequation: catalyst is up to 2.3A mg −1 at the 40mV overpotential, which
+M
+is 3.3, 2.3, and even 23 times higher than that of the 20%
+η=a+blogj Pt/C, Pt/VC, and Ru/VC catalyst, respectively. Apart from the
+catalyticactivities,thestabilityisanotherimportantcriterionfor
+whichηistheoverpotential,jisthecurrentdensityandbisthe the Pt-based catalysts in consideration of their high cost and
+Tafelslope. limited abundance. To this end, the stability of these catalysts
+wasevaluatedbyCVmeasurementsinthepotentialrangefrom
+RESULTS AND DISCUSSION 0.1to−0.25Vvs.RHEfor3000cycles.AsshowninFigure1H
+and TableS1, the commercial 20 wt% Pt/C catalyst shows the
+Boosted HER Activity and Stability of
+largestnegativeshiftofthepolarizationcurvebynearly26mVat
+Pt-Based Catalysts by ALD 10mAcm −2 afterthe3000cycles,indicatingthelowestcatalyst
+The Vulcan Carbon (VC) was functionalized by hydrothermal stability, while the Pt/VC catalyst displays the smaller negative
+treatment in aqueous RuCl 3 and EG solution, which was used shift of 11mV at 10mA cm −2. Unexpectedly, the Pt/Ru/VC
+to immobilize Pt nanoparticles by the ALD method. The as- catalyst almost shows no negative shift after the 3000 cycles.
+prepared Pt-based catalyst (i.e., Pt/Ru/VC), together with the Basedontheaboveresults,themonometallicPtcatalystexhibits
+ALD-synthesized Pt catalyst over the pristine VC support muchhigherHERactivityandstabilitythanthemonometallicRu
+(i.e., Pt/VC), functionalized VC (i.e., Ru/VC), and commercial catalyst,andthePt/Ru/VCcatalystappearstobethebestcatalyst
+20 wt% Pt/C catalysts, was characterized by HAADF-STEM forHERwiththehighestactivityandstability.Thissuggeststhat
+measurementstoobtainthereliablesizeanddistributionofmetal thePtismoreactivethantheRu,andthePtoverthePt/Ru/VC
+nanoparticles.AscanbeclearlyseeninFigures1A–C,theformer compositecatalystmostlikelyactsasthedominantactivespecies
+three catalysts exhibit relatively homogeneous distribution of fortheHER.
+metalparticles,especiallyfortheALD-synthesizedcatalysts.The
+averagemetalparticlesizesbasedonthemeasurementsofmore
+The Crucial Role of the Functionalized VC
+than200randomparticlesweredeterminedtobe1.5±0.4,1.6
+± 0.1, and 1.7 ± 0.3nm for the Pt/Ru/VC, Pt/VC, and Ru/VC for the Pt-Based Catalysts
+catalysts,respectively.Hence,thesethreecatalystsexhibitsimilar ICP-AES measurements were first carried out to compare
+size and distribution of metal particles, which would help to the difference in the metal loadings of these catalysts for
+minimize the size effects and make a fair comparison on the understanding the significantly enhanced activity and stability
+catalyticactivitiesfortheHER(Gomezetal.,1993;Durstetal., of the Pt/Ru/VC composite catalyst. As shown in Figure2A,
+2014).Onthecontrary,asshowninFigure1D,thecommercial the Pt and Ru loadings for the Pt/VC and Ru/VC catalysts are
+20wt%Pt/CcatalystexhibitsremarkablePtaggregatesinspecific determinedtobe3.2and2.1wt%,respectively.Incomparison,
+areas,possiblyduetothehighPtloadingandeasymigrationof for the Pt/Ru/VC catalyst, the Pt loading exhibits a dramatic
+Pt particles.Asa result, thewider distribution of Ptparticlesis increaseupto7.1wt%.Thisstronglysuggeststhatthepromoting
+FrontiersinMaterials|www.frontiersin.org 3 October2019|Volume6|Article251
+
+Luoetal. Pt-BasedHERCatalyst
+FIGURE1|HAADF-STEMimagesandthecorrespondingsizedistributionhistogramsforthe(A)Pt/Ru/VC,(B)Pt/VC,(C)Ru/VC,and(D)20%Pt/Ccatalysts.
+(E)LSVcurves(iRcompensated),(F)overpotential(η)obtainedatcurrentdensitiesof10and40mAcm−2,and(G)massactivityobtainedatoverpotentialof40mV
+forthecatalysts.(H)LSVcurvesofthecatalystsbeforeandafter3000cycles.
+role of the functionalized VC on the deposition of Pt particles. investigated based on the CV curves in FigureS1, where
+Furthermore, from the point view of the structural effects, the electrochemical double-layer capacitance (C ) was used
+dl
+influences of the metal loadings on the HER activities were to determine the electrochemically active surface area (ECSA)
+FrontiersinMaterials|www.frontiersin.org 4 October2019|Volume6|Article251
+
+Luoetal. Pt-BasedHERCatalyst
+FIGURE2|(A)ThePtandRuloadingsand(B)currentdensityasafunctionofscanrateforthePt/Ru/VC,Pt/VC,Ru/VC,and20%Pt/Ccatalysts.(C)EDSmapping
+and(D)typicalHRTEMimageofthePt/Ru/VCcompositecatalystandthecorrespondingFast-FourierTransform(FFT)patterns.
+(Durst et al., 2014; Li et al., 2018). As shown in Figure2B, Pt and/or Ru nanoparticles. To obtain more information, Fast-
+the ECSA for the Pt/Ru/VC, Pt/VC, Ru/VC, and commercial Fourier Transform (FFT) of the selected two particles was
+20% Pt/C catalysts is determined to be 12.5, 11.8, 11.6, and 3.7 conducted in Figure2D. Correspondingly, the spacings of the
+mF cm
+−2,
+respectively. As expected, the Pt/Ru/VC composite crystal lattices were determined to be 0.226 and 0.214nm,
+catalyst,havingthesmallsizedPtnanoparticleswiththerelatively which could be attributed to the Pt(111) and Ru(001) facets,
+highPtloading,exhibitsthelargestECSA,whichwouldprovide respectively.Therefore,basedontheaboveobservations,inmost
+arationalinterpretationforitshighestactivity. cases,thePtandRunanoparticlesseparatelydistributeinsteadof
+To gain more insights into the microstructural properties formingalloyacrosstheVCsurface.
+of the Pt/Ru/VC composite catalyst, the EDS mapping was It is well-known that not only the structural properties but
+conducted to characterize the distribution of Pt and Ru over also electronic properties have significant influences on the
+such catalyst. As shown in Figure2C, it can be seen that both HER performance. Hence, the electronic properties of these
+Pt and Ru homogeneously distribute across the VC surface, catalystswerecharacterizedandcomparedbyXPS.Asshownin
+together with few Ru aggregates. Considering the small size of Figure3A, all the catalysts exhibit Pt 4f doublets, which could
+metal particles and the detected limitation of EDS mapping, it
+bedeconvoluatedintoPt0,Pt2+ ,andPt4+
+basedonthebinding
+is difficult to determine the fine structure and composition of energies.ItisworthtonotethatthemetallicPthasbeenidentified
+metalparticles,e.g.,alloy,core-shell,ormonometallicmixtures. asthemainactivespeciesfortheHER,andthusselectedasthe
+Hence, HRTEM was further employed to characterize the indicatoroftheirelectronicproperties(Sehetal.,2017).Itcanbe
+microstructure of this catalyst, and the results are shown in seenthatthemetallicPtdominatesPtspeciesforthesecatalysts,
+Figure2D. Apparently, the catalyst exhibits continuous lattice while the corresponding binding energy, i.e., Pt0 4f 7/2 , follows
+fringes across the VC surface, which could be ascribed to the anorderofPt/Ru/VC(72.0eV)>Pt/VC(71.7eV)>commercial
+FrontiersinMaterials|www.frontiersin.org 5 October2019|Volume6|Article251
+
+Luoetal. Pt-BasedHERCatalyst
+FIGURE3|XPSspectraof(A)Pt4fregionand(B)Ru3pregion.(C)Electrochemicalimpedancespectroscopy(EIS).(D)RamanspectroscopyofthePt/Ru/VC,
+Pt/VC,Ru/VC,and20%Pt/Ccatalysts.(E)RamanspectroscopyofVCandcommercialVC.(F)XPSspectraofC1sregion.
+20wt%Pt/C(71.5eV).Interestingly,thistrendofPt4fbinding attheinterfacebetweenelectrocatalystandelectrolyte.Toobtain
+energyishighlyconsistentwiththatofthecorrespondingmass more details about the electron transfer, Raman measurements
+activityinFigure1Gforthisreaction,suggestingthatthehigher were further carried out for these catalysts. Considering that
+Pt 4f binding energy favors the HER. Moreover, based on the Ramanscatteringisstronglysensitivetotheelectronicproperties
+XPS Ru 3p spectra in Figure3B, the deconvolution results ofcarbon-basedcatalysts,theGbandshiftscouldoriginatefrom
+indicate that the content of metallic Ru within the Pt/Ru/VC the electron transfer between metal and support (Sgobba and
+catalystismuchlessthanthatoftheRu/VCcatalyst,reasonably Guldi, 2009; Dennany et al., 2010; Yin et al., 2018). As shown
+assumingthattheALDcouldpromotetheoxidationofRuand inFigure3D,comparedwiththePt/VC,thePt/Ru/VCexhibits
+inturnfacilitatethedepositionofPtparticlesoverthecatalyst. an upshift of 2 cm
+−1
+in the G band, consistent with its higher
+Therefore, it could be deduced that the highest Pt0 4f binding Pt4fbindingenergy.Moreover,itcanbealsoseeninFigure3D
+energyisanotherimportantfactorforthePt/Ru/VCcatalystwith that the Pt/Ru/VC composite catalyst shows a higher degree of
+thehighestHERactivity. graphitization with the smallest I /I (2.95) than the Pt/VC
+D1 G
+Moreover, considering that the HER performance is also (3.17),Ru/VC(3.10),andcommercial20%Pt/Ccatalysts(3.70).
+affected by electron conductivity of catalyst, it is investigated Obviously,thetrendofgraphitizationdegreeagreeswellwiththat
+by the EIS for these catalysts (Zhu et al., 2018). As shown in oftheaboveEISvalues,whichthehighergraphitizationdegree
+Figure3C,itisfoundthatthePt/Ru/VCcompositecatalysthas would be more beneficial for electron transfer. Therefore, the
+the smallest charge-transfer resistance among these catalysts, highestelectronconductivityofthePt/Ru/VCcompositecatalyst
+indicatingthefastestelectrontransferrateinthereactionkinetics couldalsocontributetoitshighestHERactivity.
+FrontiersinMaterials|www.frontiersin.org 6 October2019|Volume6|Article251
+
+Luoetal. Pt-BasedHERCatalyst
+To verify this idea, another type of VC (i.e., commercial HER. It can be seen in Figure4A that both the Pt/Ru/VC and
+VC), as the support of commercial 20 wt% Pt/VC catalyst, commercial20%Pt/CcatalystsshowthelowestTafelslope(30.6
+was purchased and also characterized by Raman spectroscopy, mV/dec),comparedwiththePt/VC(132.8mV/dec),andRu/VC
+thus excluding the metal effects. As shown in Figure3E, the catalysts (86.7 mV/dec). According to Butler-Volmer kinetics,
+commercial VC exhibits a higher I /I (2.92) than the VC the change in Tafel slopes indicates the transition between two
+D1 G
+(2.10) used in this study. Hence, the graphitization degree of reaction pathways, i.e., Volmer-Tafel and Volmer-Heyrovsky
+the VC is still higher than that of commercial VC regardless of mechanism (Zeng and Li, 2015). Specifically, the Tafel slope of
+metal deposition. Moreover, the XPS C 1s spectra in Figure3F 118, 39, and 29.5 mV/dec could be, respectively, classified into
+shows that the Pt/Ru/VC composite catalyst exhibits higher discharge reaction (Volmer step), electrochemical desorption
+C(sp2)/C(sp3) of 4.6 than that of 3.6 for the commercial 20% reaction (Heyrovsky step) and recombination reaction (Tafel
+Pt/C catalyst. Considering that electron conductivity of C(sp2) step)astherate-determinesteps(RDS)(ZengandLi,2015).As
+is much higher than that of C(sp3) (Li et al., 2010; Zhu et al., shown in Figure4B, the Tafel slope is determined to be 30.6,
+2015),thePt/Ru/VCcompositecatalystwithmoreC(sp2)should 132.8,86.7,and30.6mV/decforthePt/Ru/VC,Pt/VC,Ru/VC,
+possess higher electron conductivity, which is still consistent andcommercial20wt%Pt/Ccatalysts,respectively.Hence,the
+with the results from Raman spectroscopy. Therefore, the Pt/Ru/VC composite catalyst with the highest Pt 4f binding
+Pt/Ru/VCcompositecatalystappearstohavethehighestelectron energycanhavethestrongesthydrogenadsorption,resultingin
+conductivitytowardhighHERactivity. theTafelstepastheRDS.Onthecontrary,Pt/VCwithlowerPt
+Tafel behaviors for these catalysts were further studied to 4fbindingenergycouldexhibitweakeradsorptionofhydrogen,
+reveal the electrochemical kinetics and reaction mechanism for correspondingtotheVolmerstepastheRDS.
+FIGURE4|(A)Tafelslopesofthecatalystsand(B)HERmechanismsinacidmedium.
+FIGURE5|(A)LSVcurvesand(B)overpotential(η)obtainedatcurrentdensitiesof10mAcm−2beforeandafter3000cyclesforthecatalysts.
+FrontiersinMaterials|www.frontiersin.org 7 October2019|Volume6|Article251
+
+Luoetal. Pt-BasedHERCatalyst
+FIGURE6|HAADF-STEMimagesandthecorrespondingsizedistributionhistogramsforthe(A)Pt/Ru/VC,(B)Pt/VC,and(C)Pt/EG-VCcatalystsafterstabilitytest.
+compositecatalyst.Similarly,XPSwasemployedtocharacterize
+theelectronicpropertiesofthePt/EG-VCcompositecatalyst.As
+shown in FigureS2, the Pt/EG-VC catalyst shows lower Pt0 4f
+bindingenergyof71.9eVincomparisonwiththatof72.0eVfor
+the Pt/Ru/VC composite catalyst, consistent with the higher Pt
+bindingenergycorrespondingtohigheractivity.Thus,fromthe
+pointviewofelectronicproperties,thefunctionalizedVCwould
+increasePt4fbindingenergytowardhighHERactivity.
+Ontheotherhand,HAADF-STEMwasemployedtocompare
+the structural properties of these catalysts before and after
+stabilitytesting.AsshowninFigure6,boththeusedPt/VCand
+Pt/EG-VC catalysts exhibit remarkable Pt aggregates over the
+catalystsurface,andthecorrespondingaverageparticlesizesare
+determinedtobe2.1±0.5and2.0±0.4nm,respectively.The
+increased Pt particle size could result in the loss of Pt active
+sitesduringthetestandthuslowerHERstability.However,for
+thePt/Ru/VCcompositecatalyst,itcouldbeseenthatthemetal
+particles still remain highly distributed across catalyst surface,
+and the average metal particle size is determined to be 1.5 ±
+0.3nm, which is similar to that of the fresh one. Thus, from
+the point view of structural properties, the functionalized VC
+wouldhelpstabilizemetalparticlesinresistanceofagglomeration
+towardhighHERstability.
+Based on the above results, the functionalized VC strongly
+FIGURE7|XPSspectraofO1sregionforthecatalysts.
+affects the electronic and structural properties of Pt in terms
+of their catalytic performance for HER. To probe the origin of
+functionalization, XPS O 1s spectra for the Pt/Ru/VC, Pt/VC
+General Discussion and Pt/EG-VC catalyst was further deconvoluated as shown in
+Basedontheaboveresults,itcouldbefoundthatfunctionalized Figure7. Obviously, Pt/Ru/VC has higher content of carboxyl
+VC plays a crucial role in determining the structural and groupincomparisonwiththeothertwocatalysts,whichaccounts
+electronic properties of Pt. To further investigate its influence formorethan37%ofthetotaloxygenspecies.Previousstudies
+on the catalytic performance of HER, a Ru-free catalyst was (Bocketal.,2004;Fangetal.,2019)havesuggestedthatethylene
+preparedaccordingtothepreparationmethodofthePt/Ru/VC glycolcouldactasthereducingregentformetalparticle,andthe
+compositecatalystexceptfortheadditionofRuprecursor.The as-producedglycolicacidcouldadsorboncatalystsurface.These
+as-preparedcatalystwaslabeledasPt/EG-VC,whichwasusedto glycolicacidsinvolveabundantsurfacefunctionalgroups,suchas
+catalyze HER at the same conditions for a comparison. As can carboxylgroups,evidencedbytheXPSO1sspectra.Asfollowing,
+beseeninFigures5A,B,boththeHERactivityandstabilityfor duringtheALDprocess,thePtprecursorwouldprefertoreact
+the Pt/EG-VC catalyst were inferior to those of the Pt/Ru/VC andsubstitutethesurfacefunctionalgroupsuponO 3 treatment
+FrontiersinMaterials|www.frontiersin.org 8 October2019|Volume6|Article251
+
+Luoetal. Pt-BasedHERCatalyst
+(Munnik et al., 2015), thus giving rise to separate Pt particles AUTHOR CONTRIBUTIONS
+insteadofalloy.
+WL and JG performed the catalysts preparation and
+characterization, electrochemical measurements, and wrote
+CONCLUSION
+the manuscript. ZH and WC carried out TGA and XPS
+measurements. GQ and XZ helped to analyze the data. XD
+In summary, we have successfully synthesized cost-effective
+conceivedtheideaandwrotethepaper.Allauthorscontributed
+Pt-based HER catalysts by the ALD technique to immobilize
+tothepreparationofthemanuscript.
+Pt nanoparticles on the functionalized VC. The as-synthesized
+Pt/Ru/VC composite catalyst exhibits more Pt active sites,
+FUNDING
+desirablePtelectronicpropertiesandhighelectronconductivity,
+giving rise to the highest HER activity compared with the
+This work was financially supported by the Natural Science
+referencedPt/VC,Ru/VCandcommercial20wt%Pt/Ccatalyst.
+Foundation of China (21922803 and 21776077), the Shanghai
+Specifically,theoutstandingHERactivityincludesthesmallTafel
+slopeof30.6mVdec
+−1
+aswellasthecomparableoverpotentials
+Natural Science Foundation (17ZR1407300 and 17ZR1407500),
+(23 and 30mV) and current densities (10 and 40mA cm
+−2). the Program for Professor of Special Appointment (Eastern
+Scholar) at Shanghai Institutions of Higher Learning, the
+Moreover, the Pt/Ru/VC composite catalyst exhibits excellent
+Shanghai Rising-Star Program (17QA1401200), the State Key
+HER stability with almost no activity loss after 3000 cycles.
+Laboratory of Organic-Inorganic Composites (oic-201801007),
+The insights revealed here could guide the rational design
+and the Open Project of State Key Laboratory of Chemical
+and optimization of cost-effective carbon supported Pt-based
+Engineering(SKLChe-15C03).
+catalystsfortheHERbasedontheALDtechnique.
+SUPPLEMENTARY MATERIAL
+DATA AVAILABILITY STATEMENT
+The Supplementary Material for this article can be found
+All datasets generated for this study are included in the online at: https://www.frontiersin.org/articles/10.3389/fmats.
+manuscript/SupplementaryFiles. 2019.00251/full#supplementary-material
+REFERENCES
+Gao, Z., and Qin, Y. (2017). Design and properties of confined
+nanocatalysts by atomic layer deposition. Acc. Chem. Res. 50, 2309–2316.
+Anantharaj, S., Karthick, K., Venkatesh, M., Simha, T. V., Salunke, A. S., doi:10.1021/acs.accounts.7b00266
+Ma, L., et al. (2017). Enhancing electrocatalytic total water splitting at few George, S. M. (2009). Atomic layer deposition: an overview. Chem. Rev. 110,
+layer Pt-NiFe layered double hydroxide interfaces. Nano Energy 39, 30–43. 111–131.doi:10.1021/cr900056b
+doi:10.1016/j.nanoen.2017.06.027 Gomez, R., Fernandez-Vega, A., Feliu, J. M., and Aldaz, A. (1993). Hydrogen
+Anantharaj, S., Karthik, P. E., Subramanian, B., and Kundu, S. (2016). Pt evolutiononplatinumsinglecrystalsurfaces:effectsofirreversiblyadsorbed
+nanoparticleanchoredmolecularself-assembliesofDNA:anextremelystable bismuthandantimonyonhydrogenadsorptionandevolutiononplatinum
+and efficient HER electrocatalyst with ultralow Pt content. ACS Catal. 6, (100).J.Phys.Chem.97,4769–4776.doi:10.1021/j100120a032
+4660–4672.doi:10.1021/acscatal.6b00965 Greeley, J., Nørskov, J. K., Kibler, L. A., El-Aziz, A. M., and Kolb, D. M.
+Bock, C., Paquet, C., Couillard, M., Botton, G. A., and MacDougall, B. R. (2006).Hydrogenevolutionoverbimetallicsystems:Understandingthetrends.
+(2004). Size-selected synthesis of PtRu nano-catalysts: reaction and size ChemPhysChem7,1032–1035.doi:10.1002/cphc.200500663
+control mechanism. J. Am. Chem. Soc. 126, 8028–8037. doi: 10.1021/ja04 Hou, D., Zhou, W., Liu, X., Zhou, K., Xie, J., Li, G., et al. (2015).
+95819 Pt nanoparticles/MoS2 nanosheets/carbon fibers as efficient catalyst
+Chao,T.,Luo,X.,Chen,W.,Jiang,B.,Ge,J.,Lin,Y.,etal.(2017).Atomically for the hydrogen evolution reaction. Electrochim. Acta 166, 26–31.
+dispersedcopper-platinumdualsitesalloyedwithpalladiumnanoringscatalyze doi:10.1016/j.electacta.2015.03.067
+the hydrogen evolution reaction. Angew. Chem. Int. Ed. 56, 16047–16051. Jiang, H., Lin, Y., Chen, B., Zhang, Y., Liu, H., Duan, X., et al. (2018).
+doi:10.1002/anie.201709803 Ternaryinterfacialsuperstructureenablingextraordinaryhydrogenevolution
+Cheng,N.,Stambula,S.,Wang,D.,Banis,M.N.,Liu,J.,Riese,A.,etal.(2016). electrocatalysis.Mater.Today21,602–610.doi:10.1016/j.mattod.2018.01.033
+Platinumsingle-atomandclustercatalysisofthehydrogenevolutionreaction. Kitchin, J. R., Nørskov, J. K., Barteau, M. A., and Chen, J. G. (2004).
+Nat.Commun.7:13638.doi:10.1038/ncomms13638 Role of strain and ligand effects in the modification of the electronic
+Dennany, L., Sherrell, P., Chen, J., Innis, P. C., Wallace, G. G., and Minett, and chemical properties of bimetallic surfaces. Phys. Rev. Lett. 93:156801.
+A. I. (2010). EPR characterisation of platinum nanoparticle functionalised doi:10.1103/PhysRevLett.93.156801
+carbonnanotubehybridmaterials.Phys.Chem.Chem.Phys.12,4135–4141. Li, J., Liang, X., King, D. M., Jiang, Y. B., and Weimer, A. W. (2010). Highly
+doi:10.1039/b923921a dispersedPtnanoparticlecatalystpreparedbyatomiclayerdeposition.Appl.
+Durst, J., Simon, C., Siebel, A., Rheinländer, P. J., Schuler, T., Hanzlik, M., Catal.97,220–226.doi:10.1016/j.apcatb.2010.04.003
+etal.(2014).hydrogenoxidationandevolutionreaction(HOR/HER)onPt Li,J.,Liu,H.,Gou,W.,Zhang,M.,Xia,Z.,Zhang,S.,etal.(2019).Ethylene-glycol
+electrodesinacidvs.alkalineelectrolytes:mechanism,activityandparticlesize ligandenvironmentfacilitateshighlyefficienthydrogenevolutionofPt/CoP
+effects.ECSTrans.64,1069–1080.doi:10.1149/06403.1069ecst throughprotonconcentratingandhydrogenspillover.EnergyEnviron.Sci.12,
+Fang, B., Chaudhari, N. K., Kim, M. S., Kim, J. H., and Yu, J. S. (2019). 2298–2304.doi:10.1039/C9EE00752K
+Homogeneous deposition of platinum nanoparticles on carbon black for Li, K., Li, Y., Wang, Y., Ge, J., Liu, C., and Xing, W. (2018). Enhanced
+protonexchangemembranefuelcell.J. Am. Chem. Soc.131,15330–15338. electrocatalytic performance for the hydrogen evolution reaction through
+doi:10.1021/ja905749e surface enrichment of platinum nanoclusters alloying with ruthenium
+FrontiersinMaterials|www.frontiersin.org 9 October2019|Volume6|Article251
+
+Luoetal. Pt-BasedHERCatalyst
+in situ embedded in carbon. Energy Environ. Sci. 11, 1232–1239. andevolutionreactionsonthebasisofdensityfunctionaltheorycalculations.
+doi:10.1039/C8EE00402A J.Phys.Chem.114,18182–18197.doi:10.1021/jp1048887
+Li, Y., Wang, H., Xie, L., Liang, Y., Hong, G., and Dai, H. (2011). MoS2 Wang, J., Wei, Z., Mao, S., Li, H., and Wang, Y. (2018). Highly uniform
+nanoparticles grown on graphene: an advanced catalyst for the hydrogen Ru nanoparticles over N-doped carbon: pH and temperature-universal
+evolutionreaction.J.Am.Chem.Soc.133,7296–7299.doi:10.1021/ja201269b hydrogen release from water reduction. Energy Environ. Sci. 11, 800–806.
+Liu, C., Wang, C. C., Kei, C. C., Hsueh, Y. C., and Perng, T. P. (2009). doi:10.1039/C7EE03345A
+Atomiclayerdepositionofplatinumnanoparticlesoncarbonnanotubesfor Yin, X. P., Wang, H. J., Tang, S. F., Lu, X. L., Shu, M., Si, R., et al.
+application in proton-exchange membrane fuel cells. Small 5, 1535–1538. (2018).EngineeringtheCoordinationEnvironmentofSingle-AtomPlatinum
+doi:10.1002/smll.200900278 AnchoredonGraphdiyneforOptimizingElectrocatalyticHydrogenEvolution.
+Lyu,F.,Wang,Q.,Zhu,H.,Du,M.,Wang,L.,andZhang,X.(2017).Ahost-guest Angew.Chem.Int.Ed.57,9382–9386.doi:10.1002/anie.201804817
+approachtofabricatemetalliccobaltnanoparticlesembeddedinsilk-derived Zeng,M.,andLi,Y.(2015).Recentadvancesinheterogeneouselectrocatalysts
+N-dopedcarbonfibersforefficienthydrogenevolution.GreenEnergyEnviron. for the hydrogen evolution reaction. J. Mater. Chem. 3, 14942–14962.
+2,151–159.doi:10.1016/j.gee.2017.01.007 doi:10.1039/C5TA02974K
+Marichy, C., Bechelany, M., and Pinna, N. (2012). Atomic layer deposition Zhang,J.,Chen,C.,Chen,S.,Hu,Q.,Gao,Z.,Li,Y.,etal.(2017).Highlydispersed
+of nanostructured materials for energy and environmental applications. Ptnanoparticlessupportedoncarbonnanotubesproducedbyatomiclayer
+Adv.Mater.24,1017–1032.doi:10.1002/adma.201104129 depositionforhydrogengenerationfromhydrolysisofammoniaborane.Catal.
+Munnik, P., de Jongh, P. E., and de Jong, K. P. (2015). Recent developments Sci.Technol.7,322–329.doi:10.1039/C6CY01960A
+in the synthesis of supported catalysts. Chem. Rev. 115, 6687–6718. Zheng, Y., Jiao, Y., Jaroniec, M., and Qiao, S. Z. (2015). Advancing
+doi:10.1021/cr500486u the electrochemistry of the hydrogen-evolution reaction through
+Ouyang,C.,Feng,S.,Huo,J.,andWang,S.(2017).Three-dimensionalhierarchical combining experiment and theory. Angew. Chem. Int. Ed. 54, 52–65.
+MoS2/CoS2heterostructurearraysforhighlyefficientelectrocatalytichydrogen doi:10.1002/anie.201407031
+evolution. Green Energy Environ. 2, 134–141. doi: 10.1016/j.gee.2017. Zhu,Y.,Chen,G.,Zhong,Y.,Zhou,W.,andShao,Z.(2018).Rationallydesigned
+01.004 hierarchicallystructuredTungstenNitrideandNitrogen-RichGraphene-like
+Qu,Y.,Chen,B.,Li,Z.,Duan,X.,Wang,L.,Lin,Y.,etal.(2019).Thermalemitting carbonnanocompositeasefficienthydrogenevolutionelectrocatalyst.Adv.Sci.
+strategytosynthesizeatomicallydispersedPtmetalsitesfrombulkPtmetal.J. 5:1700603.doi:10.1002/advs.201700603
+Am.Chem.Soc.141,4505–4509.doi:10.1021/jacs.8b09834 Zhu,Y.,Lin,Y.,Zhang,B.,Rong,J.,Zong,B.,andSu,D.S.(2015).Nitrogen-
+Ryndin,Y.A.,Hicks,R.F.,Bell,A.T.,andYermakov,Y.I.(1981).Effectsofmetal- doped annealed nanodiamonds with varied sp2/sp3 ratio as metal-free
+supportinteractionsonthesynthesisofmethanoloverpalladium.J.Catal.70, electrocatalystfortheoxygenreductionreaction.ChemCatChem7,2840–
+287–297.doi:10.1016/0021-9517(81)90341-9 2845.doi:10.1002/cctc.201402930
+Seh, Z. W., Kibsgaard, J., Dickens, C. F., Chorkendorff, I. B., Nørskov,
+J. K., and Jaramillo, T. F. (2017). Combining theory and experiment ConflictofInterest:Theauthorsdeclarethattheresearchwasconductedinthe
+in electrocatalysis: Insights into materials design. Science 355:eaad4998. absenceofanycommercialorfinancialrelationshipsthatcouldbeconstruedasa
+doi:10.1126/science.aad4998 potentialconflictofinterest.
+Sgobba,V.,andGuldi,D.M.(2009).Carbonnanotubes-electronic/electrochemical
+propertiesandapplicationfornanoelectronicsandphotonics.Chem.Soc.Rev. Copyright©2019Luo,Gan,Huang,Chen,Qian,ZhouandDuan.Thisisanopen-
+38,165–184.doi:10.1039/B802652C access article distributed under the terms of the Creative Commons Attribution
+Shi, Y., and Zhang, B. (2016). Recent advances in transition metal phosphide License(CCBY).Theuse,distributionorreproductioninotherforumsispermitted,
+nanomaterials: synthesis and applications in hydrogen evolution reaction. providedtheoriginalauthor(s)andthecopyrightowner(s)arecreditedandthatthe
+Chem.Soc.Rev.45,1529–1541.doi:10.1039/C5CS00434A originalpublicationinthisjournaliscited,inaccordancewithacceptedacademic
+Skúlason,E.,Tripkovic,V.,Björketun,M.E.,Gudmundsdóttir,S.,Karlberg,G., practice.Nouse,distributionorreproductionispermittedwhichdoesnotcomply
+Rossmeisl,J.,etal.(2010).Modelingtheelectrochemicalhydrogenoxidation withtheseterms.
+FrontiersinMaterials|www.frontiersin.org 10 October2019|Volume6|Article251
+

@@ -1,0 +1,1115 @@
+TYPEMiniReview
+PUBLISHED02December2022
+DOI10.3389/fchem.2022.1073175
+Recent advances in transition
+metal nitrides for hydrogen
+OPENACCESS
+EDITEDBY electrocatalysis in alkaline media:
+NanJiang,
+GuizhouUniversity,China
+From catalyst design to
+REVIEWEDBY
+BoHu,
+XiamenUniversity,China application
+TongLiu,
+QingdaoUniversityofScienceand
+Technology,China
+Siyuan Tang1, Zhipeng Zhang1, Jun Xiang2*, Xinchun Yang3*,
+*CORRESPONDENCE
+FuzhanSong, Xiangqian Shen1 and Fuzhan Song1*
+fzsong@ujs.edu.cn
+JunXiang, 1InstituteforAdvancedMaterials,SchoolofMaterialsScienceandEngineering,JiangsuUniversity,
+jxiang@just.edu.cn Zhenjiang,China,2InstituteSchoolofScience,JiangsuUniversityofScienceandTechnology,
+XinchunYang, Zhenjiang,China,3ShenzhenKeyLaboratoryofEnergyMaterialsforCarbonNeutrality,Instituteof
+xc.yang@siat.ac.cn TechnologyforCarbonNeutrality/FacultyofMaterialsScienceandEnergyEngineering,Shenzhen
+InstituteofAdvancedTechnology(SIAT),ChineseAcademyofSciences(CAS),Shenzhen,China
+SPECIALTYSECTION
+Thisarticlewassubmittedto
+Electrochemistry,
+asectionofthejournal
+FrontiersinChemistry
+Hydrogen (H ) has been considered an ideal alternative energy source for
+2
+RECEIVED18October2022
+solving energy supply security and greenhouse gas reduction. Although
+ACCEPTED14November2022
+PUBLISHED02December2022 platinum group metal (PGM) catalysts have excellent performance in
+hydrogen electrocatalysis, their scarcity and high cost limit their industrial
+CITATION
+TangS,ZhangZ,XiangJ,YangX,ShenX application.Therefore,itisnecessarytodeveloplow-costandefficientnon-
+andSongF(2022),Recentadvancesin
+PGM catalysts. Transition metal nitrides (TMNs) have attracted much
+transitionmetalnitridesforhydrogen
+electrocatalysisinalkalinemedia:From attention because of their excellent catalytic performance in hydrogen
+catalystdesigntoapplication. electrochemistry, including hydrogen evolution reaction (HER)/hydrogen
+Front.Chem.10:1073175.
+oxidation reaction (HOR). In this paper, we review and discuss the
+doi:10.3389/fchem.2022.1073175
+mechanism of HER/HOR in alkaline media. We compare and evaluate
+COPYRIGHT
+©2022Tang,Zhang,Xiang,Yang,Shen electrocatalytic performance for the HER/HOR TMN catalysts recently
+andSong.Thisisanopen-accessarticle reported. Finally, we propose the prospects and research trends in
+distributedunderthetermsofthe
+sustainable alkaline hydrogen electrocatalysis.
+CreativeCommonsAttributionLicense
+(CCBY).Theuse,distributionor
+reproductioninotherforumsis
+permitted,providedtheoriginal KEYWORDS
+author(s)andthecopyrightowner(s)are hydrogenoxidation,hydrogenevolution,transitionmetalnitrides,waterelectrolyzer,
+creditedandthattheoriginal hydrogenfuelcell
+publicationinthisjournaliscited,in
+accordancewithacceptedacademic
+practice.Nouse,distributionor Introduction
+reproductionispermittedwhichdoes
+notcomplywiththeseterms.
+Hydrogen(H )isconsideredanidealalternativeenergysourcewhentheearth’sfossil
+2
+fuelswillbeusedupinthenextcentury,owingtoitshighgravimetricenergydensityand
+zerocarbonemissions(Jaramilloetal.,2007;Songetal.,2017).Electrocatalytichydrogen
+transformation is a proven and convenient strategy for hydrogen economy (Jiao et al.,
+2015;Congetal.,2018;Chuetal.,2020).High-purityH canbeproducedbyhydrogen
+2
+evolution reaction (HER) and oxygen evolution reaction (OER) in awater electrolyzer
+with the input of renewable energy resources, while the output of electricity can be
+achieved by fuel cells through hydrogen oxidation reaction (HOR) (Song et al., 2021).
+FrontiersinChemistry 01 frontiersin.org
+
+Tangetal. 10.3389/fchem.2022.1073175
+FIGURE1
+Transitionmetalnitridesforalkalineelectrocatalysis.
+Both electrolyzers and fuel cells can be operated in acidic and metalandthusshrinkthed-band.Inaddition,theactivecenters
+alkaline solutions (Ruqia et al., 2018). Due to multiple proton- of N were similar to the electronic structure of Pt, so N can
+coupled electron transfer, electrocatalytic hydrogen effectivelyimprovethecatalyticactivity(Hanetal.,2018;Yang
+transformation conversion in alkaline solution faces a large et al., 2020); this results in thermal stability, chemical stability,
+activation barrier, leading to sluggish kinetic activity. Efficient andhighelectronicconductivity.However,althoughTMNshave
+electrocatalysts are therefore required to reduce the energy developedrapidlyinthepastdecade,theyarestillfarfromthe
+barrier to achieve an industrially relevant requirement for the requirementsofindustrialapplication.Therefore,itisnecessary
+hydrogeneconomy.Inthepastfewyears,platinumgroupmetal todevelopnovelTMNswithhighactivityandstabilitytoachieve
+(PGM)-freecatalystshaveshownexcellentcatalyticperformance ahydrogeneconomy.
+in hydrogen electrochemistry. Among them, transition metal This article discusses the mechanism of HER/HOR in
+nitrides(TMNs)haveattractedmuchattentionduetoexcellent alkaline media. We analyze the catalytic performance and
+catalytic performance and robust stability (Figure 1). Bonding characteristics of the recently reported HER/HOR TMN
+withNatomswillchangethed-bandstructureofthetransition catalysts before discussing the future development prospects
+FrontiersinChemistry 02 frontiersin.org
+
+Tangetal. 10.3389/fchem.2022.1073175
+andresearchtrendsofTMNs,whichwillbenefitresearcherswho HORproceedsinthereversesequencestoHER;inalkaline
+work inthis field. solution, HORproceeds through pathways ofTafel–Volmer or
+Heyrovsky–Volmer. M–H* is formed through the Tafel or
+Heyrovsky step, and then follows the Volmer step to form
+Mechanism of hydrogen evolution/
+H O. In the Tafel step, H is dissociated in M (active site)
+2 2
+oxidation reaction in alkaline solution without electron transfer to generate M–H* and is adsorbed
+on the surface of M. During the Heyrovsky step, H transfers
+2
+HER mechanism electronstoMonthesurfaceofthecatalystandisdissociatedto
+generateM–H*andH OwiththecoordinationofadjacentOH−.
+2
+TheelementarystepsofHERinalkalinemediaareasfollows: Finally,M–H*bindswithOH−toformH OintheVolmerstep.
+2
+Total: 2H O+2e−→H +2OH− (1) Recently,Markovicetal.proposedabifunctionalmechanism
+2 2
+(Okuboetal.,2019).Theytookthehydroxylbindingenergyas
+VolmerStep: M+H O+e− →M−Hp+OH− (2)
+2 another active descriptor and suggested that OH is an
+Hetrovskystep:M−Hp+H
+2
+O+e−→ H
+2
++M+OH− (3)
+important factor for efficient HOR under alkaline co
+a
+n
+d
+ditions.
+Tafelstep: 2M−Hp →H
+2
++2M (4)
+There is much discussion comparing the hydrogen binding
+energy (HBE) theory and the bifunctional mechanism.
+Mistheactivesiteonthecatalyst,andM–H*isthehydrogen
+Although these two contradictory theories coexist, they
+adsorption ontheactive site abovethecatalyst. succeed in guiding the synthesis of HOR catalysts and reflect
+TheHERprocessinvolvestheVolmer,Heyrovsky,andTafel
+the complexityoftheHORmechanisms in alkalinesolutions.
+steps.IntheVolmerstep,waterisdissociatedtoformareactive
+H intermediate. In the Heyrovsky step, another H O is
+ad 2
+adsorbed to M–H* and then reacts with the second electron Transition metal nitride for HER/HOR
+toformH 2 andOH−.IntheTafelstep,twoadjacentM–H*are in alkaline solution
+combinedtogenerateH .AwholeHERprocesswillfollowtwo
+2
+pathways—Volmer–Tafel or Volmer–Heyrovsky reactions
+In recent decades, transition metal nitrides (TMNs) have
+(Chen et al., 2019)—consisting of three consecutive
+exhibited promising HER/HOR performance under alkaline
+stages—water dissociation, water adsorption, and hydrogen
+conditions. Therefore, TMNs are gradually applied to energy
+production.
+devices. For example, Liu et al. successfully used 1.5V single
+Generally,theadsorption-freeenergyofM–H*(ΔG )is
+H* AAAbatteriestoruntheelectrolyzer,wherebifunctionalNiCo
+widely accepted as a key description in evaluating the
+nitride/NiCo O /GF could be acted as the anode and cathode
+kinetics of the HER catalyst. Optimum ΔG to zero is 2 4
+H* (Liuetal.,2019)atthesametime.Theelectrolyzerpreparedby
+desirable for achieving excellent HER performance, which
+Wuetal.onlyneeds1.644Vtoreachalargecurrentof1A(Wu
+is regarded as a guide for developing highly efficient HER
+et al., 2022). Cheng et al. and Hsieh et al. prepared Co-N-C
+electrocatalysts.Inaddition,wateradsorptionenergy(Ewater)
+ad catalystandreachedmaxpowerdensityof275and361mWcm−2
+andtheactivationenergyofwaterdissociation(Ewater)reflect
+ac in AEMFCS(Chenget al.,2022; Hsiehet al.,2022).
+thecatalyticbehaviorsofHER.ThelowervalueofEwaterwill
+ad ThereasonwhyTMNsshowoutstandingpotentialisthatN
+result in better affinity between water molecules and the
+can enhance the d-electron density, resulting in contraction of
+catalystsurface.ThedecreaseofEwaterisproportionaltothe
+ac thed-bandofTMNs.SuchauniquestructurewillaffordTMNs
+waterdissociationratebecauseofthesmallertheactivation
+anelectronicstructuresimilartoPGMmetals,suchasPdandPt.
+energy required. Therefore, computational energies are
+In addition, the distinguished conductivity and good corrosion
+convenient descriptions when designing high-performance
+resistance make TMNs high-performance. Among various
+catalysts.
+TMNs, Ni N and Co N were synthesized by Shalomet al. and
+3 4
+Chen et al. in 2015 (Chen et al., 2015; Shalom et al., 2015).
+Subsequently,greateffortshavebeendevotedtooptimizingthe
+HOR mechanism
+catalytic activities of TMNs toward HER/HOR electrocatalysts.
+Differentdesignstrategieswereusedtoimprovethestabilityof
+TheelementarystepsofHORinalkalinesolutionareshown
+variousTMNcatalysts.Forexample,Yanetal.(Yanetal.,2021)
+as follows:
+ensuredhighstructuralstabilitybymakingTMNscontactclosely
+Total:H +2OH− →2H O+2e− (5) withMXeneandformingastronginterfacejunction.Yuanetal.
+2 2
+TafelStep: H +2M→2M−Hp (6) (2020) significantly inhibited the oxidation of Co 4 N through a
+2
+carbon shell to improve stability. Therefore, while improving
+Hetrovskystep:H +M+OH−→M−H*+H O+e− (7)
+2 2 catalytic performance, some design strategies can also improve
+Volmerstep: M−H*+OH− →M+H
+2
+O+e− (8)
+the stabilityofTMNs.
+FrontiersinChemistry 03 frontiersin.org
+
+Tangetal. 10.3389/fchem.2022.1073175
+TABLE1TransitionmetalcatalystsforthealkalineHER/HOR.
+Catalyst Electrolyte HER Reference
+η (mV) η (mV) Tafel slope (mV/dec)
+10 100
+Ni3N/NF 1.0MKOH 121 254 - Xingetal.(2016)
+CoN@CC 1.0MKOH 97 - 93.9 Xueetal.(2018)
+Cu3N 1.0MKOH 118 280 122 Pandaetal.(2019)
+Fe2N/CC 1.0MKOH 110 125 41.2 Wuetal.(2020)
+FeNi3N 1.0MKOH 75 210 98 Zhangetal.(2016)
+Ni3N–CeO2/TM 1.0MKOH 80 - 122 Sunetal.(2018)
+Cr-Ni3N/Ni 1.0MKOH 37 110 47 Wuetal.(2021)
+Co3O4 –Co4N 1.0MKOH 90 - 57.8 Liuetal.(2019)
+Ni3N-VN 1.0MKOH 64 218 37 Yanetal.(2019)
+Ni3N-V2O3 1.0MKOH 57 - 50 Zhouetal.(2021)
+NiMoN 1.0MKOH 109 161 95 Zhangetal.(2016)
+NiMoN/Ni3N 1.0MKOH 28 93 49 Huaetal.(2021)
+Catalyst Electrolyte HOR Reference
+Current density(mA/cm2) Massloading (mg/cm2)
+@50mV
+Ni/SC 0.1MKOH 1.2 0.30 Yangetal.(2019)
+Ni/N-CNT 0.1MKOH 1.3 0.25 Zhuangetal.(2016)
+np−Ni3N 0.1MKOH 1.7 0.16 Peietal.(2019)
+Ni4Mo 0.1MKOH 2.6 0.2 Wangetal.(2021)
+Ni3N 0.1MKOH 2.2 0.32 Wangetal.(2019)
+Inthissection,thestrategiesfortherationaldesignofTMN XC 72R, a commercial carbon, possesses suitable surface area,
+electrocatalysts will be classified and summarized; the poresize,andlow-cost.Ni Nnanoparticlescanbewell-dispersed
+3
+outstanding TMN-based electrocatalysts are compared in on a Vulcan-XC 72R surface and exhibit a robust HOR
+Table 1. performance (Ni et al., 2019). In addition, a series of novel
+carbon-based materials have been developed. Yuan et al.
+(2020) designed cobalt nitrides embedded in nitrogen-doped
+Synergisticmetal-supportinteractiveTMN carbon (Co N@NC). NC acted as a conductive network to
+4
+catalysts supply abundant active sites and efficiently retained the
+surface oxidation of Co N. SMSI between Co N and NC
+4 4
+Synergistic metal-support interaction (SMSI) can be optimized DOS near the Fermi level, resulting in an
+observed between metal catalysts and solid supports (Song enhancement of HER kinetics. Moreover, such improved HER
+et al., 2015; Song et al., 2020). SMSI provides possibilities for performance has been observed in CoN/N-doped carbon
+designingcatalysts,modulatingtheird-bandofcatalyticsitesand nanotubes because one-dimensional nanotubes can provide
+optimizingtheirbindingenergyofintermediates,thusresulting ordered channels for rapid mass-diffusion and electron
+in accelerated reaction kinetics. Indeed, solid support is transfer. Porous metal–organic frameworks (MOFs) have
+important for determining SMSI (Song et al., 2015; Song emerged as precursors to obtaining TMN nitrides under
+et al., 2018). An ideal solid support not only improves SMSI controlled nitridation. Feng et al. (2019) synthesized MOF-74-
+and re-modifies the electronic structure of metal sites but also derived NiCoN catalysts with porous rodlike structures. The
+restrains theagglomeration ofmetalspecies. abundant synergistic active sites obtained have accelerated
+Carbon-based materials are excellent solid supports due to electron transfer and modulated the chemical environment,
+their large surface area, tailorable porous structure, high resulting in all-pH HER performance (Feng et al., 2019). A
+resistance, and convenient surface functionalization. Vulcan- series of nickel nitrides and cobalt nitrides derived from
+FrontiersinChemistry 04 frontiersin.org
+
+Tangetal. 10.3389/fchem.2022.1073175
+MOFswerereported(Huetal.,2020;Wangetal.,2022).Jiaetal. dissociation. Moreover, the H* species were achieved at the
+(2022)reportedtheconstructionofNi N/MOF-74,whichshows interfacial region. The ΔG of the interfacial site was as low
+3 H*
+aremarkablyHERperformancewithanoverpotentialof73mV as 0.01eV, close to the ideal value of zero—resulting in an
+toafford10mAcm−2ina1.0MKOHsolution(Jiaetal.,2022). exceptional HER/HOR catalytic property. This group further
+Transition metal carbides/nitrides (MXenes) as new two- developed a Co N/Co interface with better robustness and Co
+2
+dimensional materials are considered promising candidates for tolerance(Songetal.,2019).OtherTMNs/TMsystemshavebeen
+solid supports (Zhang et al., 2021). MXenes discovered by explored by Fan group (Fan et al., 2018) and Sun group (Sun
+Gogotsi and colleagues in 2011 possess a larger specific etal.,2020).Theformerdesignedanatomicin-growthCo–Ni N
+3
+surface area, high conductivity, good hydrophilicity, robust interface(Zhuetal.,2018).TheepitaxialCo–Ni Ninterfacesin
+3
+stability, and various functional groups (Naguib et al., 2011). nanoscale are responsible for robust stability due to small
+Very recently, the effect of MXenes’ support on HER interfacial energy. In addition, the nanoconfinement effect can
+performance has been explored. CoN /MXenes have been acceleratetheelectrontransferbetweenCoandNi Ndomainsat
+x 3
+reported by Liet al. (Liet al., 2021): the construction ofCoN the epitaxial interface, resulting in excellent electrocatalyzing
+x
+and MXenes can expose rich active sites, optimize electronic hydrogen production. Wang group further explored the
+structure,andpromoteintermediateadsorptionanddesorption, chemical anchoring and electronic regulation at Ni N/Ni. The
+3
+thus improving HER kinetics. The DFT results prove formationoftheNi−Nbondmadetheheterogeneousinterface
+furthermore that more electrons accumulate at the surface of produceuniqueelectronicstatesbychangingtheelectrons’state.
+theCoatom,arisingfromthestrongchargetransfercausedby Strongelectronredistributionoccurredattheinterfacebetween
+the interface coupling between CoN and MXenes. These Ni NandNi,wherethewaterformationreactionbarriercouldbe
+x 3
+improve mass/charge transport and promote water significantly reduced, resulting in enhanced HOR performance
+adsorption/activation in the Volmer step in HER. These (Wangetal., 2021).
+studies have proven that MXenes are a promising support for The TMNs/TMN heterogeneous interface has attracted
+exploring and developing cost-effective catalysts with high much attention due to its faster charge transfer and
+activities. compatibility. CoN/Ni N catalysts with a grass-like structure
+3
+were synthesized via a controlled pyrolyzation (Ray et al.,
+2018). This generated abundant active centers with
+Hetero-interfacial TMN catalysts expeditious charge and mass transportation, inducing an
+enhanced HER property in 1.0M KOH solution. A similar
+Hetero-interface engineering is another promising strategy phenomenon was observed in Ni N/Co N (Huang et al.,
+3 3
+fordevelopinghigh-performancePGM-freeelectrocatalysts.The 2021) and Ni N/Mo N (Dai et al., 2022). In 2022, Song et al.
+3 2
+interface effects will reconstruct active sites by modifying the reportedanovelNi N/Co Nepitaxialinterface,whichexhibited
+3 2
+electrochemical environment between two different active superiorbifunctionalHER/HORperformancewithrespecttothe
+components. The reconstructed active sites at the state-of-the-artPtcatalystduetoanacceleratingelectrontransfer
+heterogeneous interfaces can show higher activity than atinterfaceregion.ThebifunctionalNi N/Co Nelectrocatalysts
+3 2
+individual components. Up to now, the modifications of exhibitedexcellentperformanceinaSwageloktypeNi-H battery
+2
+TMN-based interface catalysts, such as transition metal with robust stability, demonstrating excellent rechargeability
+nitrides/transition metal (TMNs/TM), transition metal over 5000 cycles (Songet al.,2022).
+nitrides/transition metal nitrides (TMNs/TMNs), and Heterogeneous TMNs/MOs have proven to be efficient
+transition metal nitrides/metal oxides (TMNs/MOs), have interfacial catalysts. Although MOs are not active for
+beenreported. hydrogen electrochemistry, the addition of MOs benefits the
+It is well-known that the construction of TMNs/TM can modulation of the d-band and electronic structure of MOs,
+efficiently improve conductivity and optimize the binding accelerating the kinetics of hydrogen electrochemistry. Sun
+behaviors of catalytic sites toward reactants, intermediates, et al. reported a Co N/CeO interfacial system, where the in
+4 2
+and products. In 2018, Ni N/Ni interfacial catalysts were situ growth of CeO can efficiently modify the electronic
+3 2
+synthesized by electrodeposition combined with controlled structure of the nearby Co N surface, favoring H O
+4 2
+nitridation, which is a pioneering report on a Ni N-based dissociation and intermediated H* adsorption (Sun et al.,
+3
+electrocatalyst with bifunctional HER/HOR activity (Song 2020). Zhou group prepared Ni N/V O by nitriding a
+3 2 3
+et al., 2018). The construction of a Ni N/Ni heterogeneous NiV–LDH (layered double hydroxide) precursor (Zhou et al.,
+3
+interface benefited the electron transfer at the interfacial sites 2021). The introduction of V O made the interface couple
+2 3
+and improved electrophilic properties. Strong electron between Ni N and V O ; the interfacial interaction resulted in
+3 2 3
+redistribution occurred at the interface between Ni N and Ni, chargeredistributionandgeneratedmoreunoccupiedelectrons
+3
+which significantly promoted initial water adsorption and on the N and O in the interface region, which efficiently
+reduced the energy barrier of the subsequent water optimized the H O adsorption/desorption ability. This
+2
+FrontiersinChemistry 05 frontiersin.org
+
+Tangetal. 10.3389/fchem.2022.1073175
+hypothesis was further confirmed by DFT calculation, where (Wu et al., 2021). Cr doping exists as a Cr-n state, which can
+6
+Ni N/V O exhibits lowerEwater,Ewater,and ΔG thanNi N. redistribute the surface electronic state of Ni N to reduce the
+3 2 3 ad ac H* 3 3
+Other TMN-based interface catalysts have also been averaged-bandenergyofNi N.Thedownshiftofd-bandenergy
+3
+reported. Sun et al. (2018) explored the abundant defects on a can strengthen the orbital coupling between the unpaired
+CoN/Ni Psurface(Sunetal.,2018).Huetal.(2019)developeda electrons of O 2p and the unoccupied states of Ni
+2
+series of CoN/Co P-based interfacial catalytic sites (Guo et al., 3d—beneficial to the adsorption and dissociation of water. Cr
+2
+2018; Hu et al., 2019). Ren et al designed Ni N/Ni(OH) with doping Ni N can also promote the subsequent solution of H
+3 2 3
+excellent HER/HOR performance (Ren et al., 2022). The through the synergistic effect. Therefore, the doping of Cr
+introduction of nickel hydroxide reduced the center of the Ni enhanced the electron coupling with water molecules and
+d-band center and thus reduced the adsorption strength. The promoted the dissociation kinetics of water molecules, thereby
+strong electronic coupling made Ni N negatively charged by improving the HER performance, which is very close to the
+3
+interface engineering with seamless heterojunctions. The performance ofPt/C.
+negatively charged Ni sites improved the bond interaction Heteroatomdopantcanadjustelectrondensity,modulatethe
+between the Ni sites and surface H* groups. Ni N/Ni(OH) orbitofcatalyticsites,improvetheconductivityofhostmaterials,
+3 2
+surface engineering promoted water dissociation and hydroxyl and retain the intrinsic component and structure of the host
+adsorption inthe Volmerstep towardHERand HOR. catalyst, thus improving the catalytic performance of TMNs.
+As shown previously, interface engineering has become an These results unambiguously show the advantage of the
+effective strategy for improving catalyst activity by generating heteroatomdopant inimproving catalytic performances.
+electron redistribution at the interface and realizing synergistic
+effects.
+Conclusions and perspectives
+Heteroatom doping TMN catalysts Although significant progress has been made in hydrogen
+electrochemistry,mostofthereportedHOR/HERcatalystsinthe
+Heteroatom doping can be utilized to modify the charge laboratory still cannot meet the demands of industrial devices,
+redistribution of host materials. In contrast to interfacial especially PGM-free electrocatalysts. Herein, we envision the
+engineering, heteroatom doping can retain the original challengesand opportunities inthis field:
+structure and morphology of host materials. Due to different
+electronegativities, heteroatoms adjust the electronic structures 1) AlthoughDFTcalculationisveryhelpfulforidentifyingthe
+of host catalytic sites and gear up the catalytic performance of factorsaffectingcatalystperformance,thetheoreticalmodels
+electrocatalysts,killing“twobirdswithonestone”(Zhangetal., cannoteasilydescribetherealcatalyticconditions,especially
+2021). the thermodynamics of gas reactions, which may lead to
+Recently, Zhu group prepared Co doping for a Ni N deviationfromtheidealliquidconditionsundertheapplied
+3
+heterostructure catalyst (Zhu et al., 2018). The XRD results potential.Thus,moreaccuratetheoriesareneededtoexplain
+confirmed that the Ni N phase did not change with the the complex reaction process and responsibility for
+3
+addition of Co. Epitaxial in-growth Co promotes electrons developing novelPGM-free electrocatalysts.
+transferal from Co to Ni N, where these added electrons can 2) Compared to PGM electrocatalysts, TMNs possess
+3
+stabilize the H atom, thus reducing ΔG to improve HER moderated chemical stability in hash conditions. Although
+H*
+performance. Ni doping of CoN is further demonstrated by many TMNs have achieved excellent catalytic performance,
+Yu et al. (Yu et al., 2019). The enhanced performance was long-term stability at high current is the main challenge of
+mainly due to CoN catalytic sites being modified by nearby transitionmetalnitridesforHER.Moreover,theperformance
+Ni,leadingtomoreactivesites,improvedconductivity,andfast of TMNs for alkaline HOR in the laboratory is far from
+chargetransfer.Inaddition,Zhangetal.dopedVintoNi N/Ni practical in application. In addition, because industrial H
+3 2
+tofabricateVdopingNi N/Ni(Zhangetal.,2021).Thecharge supplies are mainly provided by steam reforming, excellent
+3
+redistributionismainlyconfinedtotheNandNisitesnearestto CO tolerance performance is highly desirable for HOR
+the doping V. The coupling of Ni and V dopant can promote electrocatalysts. However, up to now, only a few
+wateradsorptionand optimizethevalueof ΔG .Zhanget al. electrocatalysts have exhibited moderated CO tolerance.
+H*
+reportedaV-dopedNi Nnanosheet,denotedasVdopingNi N 3) Atpresent,mostPGM-freeHORcatalystsareevaluatedinthree
+3 3
+NS(Zhang et al., 2021). V doping can effectively adjust the electrodesystems.However,theperformanceofTMNcatalysts
+electronic structure of Ni N, reduce the energy barrier of in hydrogen fuel cells is generally moderated, owing to the
+3
+RDS, and promote dehydrogenation kinetics and H* oxidation of active metal sites, which results in a rapid
+adsorption/desorption. Wu et al. further proved that Cr decrease in catalytic performance. In addition, the Hash-
+doping can downshift the high unoccupied d-orbital of Ni N operated condition of water electrolysis and fuel cells will
+3
+FrontiersinChemistry 06 frontiersin.org
+
+Tangetal. 10.3389/fchem.2022.1073175
+Funding
+resultinthechangedsurfaceoxidationofTMNelectrocatalysts.
+Therefore,inthefuture,attentionshouldbepaidtoimproving
+thestabilityandantioxidantsofPGM-freeelectrocatalystsunder TheworkwassupportedbyfundsprovidedbytheNational
+harshreactionenvironments. NaturalScienceFoundationofChina(22201294)andtheJoint
+Interdisciplinary Research ProjectofSIAT (E25427).
+Insummary,thepresentreviewintroducesthebasicandrelated
+theories of HER/HOR and analyzes the innovative HER/HOR
+Conflict of interest
+catalysts reported recently. The different design strategies for
+adjusting the electronic configuration to optimize the
+thermodynamic process of hydrogen adsorption/desorption of Theauthorsdeclarethattheresearchwasconductedinthe
+the catalyst were compared: 1) solid support synergism; 2) absenceofanycommercialorfinancialrelationshipsthatcould
+hetero-interface engineering; 3) heteroatom doping. The research be construed asapotential conflict ofinterest.
+oncatalystsbasedonTMNsisstillverylimited,andthereisstill
+muchroomforimprovement,especiallyusingHORofTMNs.We
+Publisher’s note
+believethat,withcontinuousresearchinthisarea,thecommercial
+applicationofhydrogenenergywillbegreatlypromoted.
+All claims expressed in this article are solely those of the
+authorsanddonotnecessarilyrepresentthoseoftheiraffiliated
+Author contributions
+organizations, or those of the publisher, the editors, and the
+reviewers.Anyproductthatmaybeevaluatedinthisarticle,or
+STandZZdraftedthepaper.STandFSwrotethepaper.JX, claimthatmaybemadebyitsmanufacturer,isnotguaranteedor
+XY,and XS commented on thework and revised thework. endorsed by thepublisher.
+References
+Chen,P.,Xu,K.,Fang,Z.,Tong,Y.,Wu,J.,Lu,X.,etal.(2015).MetallicCo4N Han,N.,Liu,P.,Jiang,J.,Ai,L.,Shao,Z.,andLiu,S.(2018).Recentadvancesin
+porousnanowirearraysactivatedbysurfaceoxidationaselectrocatalystsforthe nanostructured metal nitrides for water splitting. J. Mat. Chem. A 6 (41),
+oxygenevolutionreaction.Angew.Chem.Int.Ed.Engl.127(49),14923–14927. 19912–19933.doi:10.1039/C8TA06529B
+doi:10.1002/ange.201506480
+Hsieh,T.H.,Wang,Y.Z.,andHo,K.S.(2022).Cobalt-basedcathodecatalystsfor
+Chen, Z., Duan, X., Wei, W., Wang, S., and Ni, B. J. (2019). Recent oxygen-reduction reaction in an anion exchange membrane fuel cell. Membr.
+advances in transition metal-based electrocatalysts for alkaline (Basel).12(7),699.doi:10.3390/membranes12070699
+hydrogen evolution. J. Mat. Chem. A 7 (25), 14971–15005. doi:10.1039/
+Hu,L.,Hu,Y.,Liu,R.,Mao,Y.,Balogun,M.S.J.T.,andTong,Y.(2019).Co-based
+C9TA03220G
+MOF-derived Co/CoN/Co2P ternary composite embedded in N-and P-doped
+Cheng,Y.W.,Hsieh,T.H.,Huang,Y.C.,Tseng,P.H.,Wang,Y.Z.,Ho,K.S.,etal. carbon as bifunctional nanocatalysts for efficient overall water splitting. Int.
+(2022). Calcined Co(II)-Chelated polyazomethine ascathode catalyst ofanion J.HydrogenEnergy44(23),11402–11410.doi:10.1016/j.ijhydene.2019.03.157
+exchange membrane fuel cells. Polym. (Basel). 14 (9), 1784. doi:10.3390/
+Hu,S.,Wang,S.,Feng,C.,Wu,H.,Zhang,J.,andMei,H.(2020).NovelMOF-
+polym14091784
+derived nickel nitride as high-performance bifunctional electrocatalysts for
+Chu,D.,Nashalian,A.,Zhou,Y.,Zhao,X.,Guo,D.,He,R.,etal.(2020).Low-cost hydrogen evolution and urea oxidation. ACS Sustain. Chem. Eng. 8 (19),
+and nature-friendly hierarchical porous carbon for enhanced capacitive 7414–7422.doi:10.1021/acssuschemeng.0c01450
+electrochemicalenergystorage.ACSAppl.EnergyMat.3(8),7246–7250.doi:10.
+Hua,W.,Sun,H.,Liu,H.,Li,Y.,andWang,J.G.(2021).Interfaceengineered
+1021/acsaem.0c01289
+NiMoN/Ni3Nheterostructuresforenhancedalkalinehydrogenevolutionreaction.
+Cong,Y.,Yi,B.,andSong,Y.(2018).Hydrogenoxidationreactioninalkaline Appl.Surf.Sci.540,148407.doi:10.1016/j.apsusc.2020.148407
+media: From mechanism to recent electrocatalysts. Nano Energy 44, 288–303.
+Huang,C.,Zhang,B.,Wu,Y.,Ruan,Q.,Liu,L.,Su,J.,etal.(2021).Experimental
+doi:10.1016/j.nanoen.2017.12.008
+andtheoreticalinvestigationofreconstructionandactivephasesonhoneycombed
+Dai,R.,Zhang,H.,Zhou,W.,Zhou,Y.,Ni,Z.,Chen,J.,etal.(2022).Interface Ni3N-Co3N/Cinwatersplitting.Appl.Catal.BEnviron.297,120461.doi:10.1016/j.
+engineering of bimetallic nitrides nanowires as a highly efficient bifunctional apcatb.2021.120461
+electrocatalyst for water splitting. J. Alloys Compd. 919, 165862. doi:10.1016/j.
+Jaramillo, T. F., Jørgensen, K. P., Bonde, J., Nielsen, J. H., Horch, S., and
+jallcom.2022.165862 Chorkendorff,I.(2007).IdentificationofactiveedgesitesforelectrochemicalH2
+Fan,M.,Zheng,Y.,Li,A.,Li,K.,Liu,H.,andQiao,Z.A.(2018).JanusCoN/Co evolution from MoS2 nanocatalysts. Science 317 (5834), 100–102. doi:10.1126/
+cocatalyst in porous N-doped carbon: Toward enhanced catalytic activity for science.1141483
+h C y 8 d C r Y og 0 e 0 n 571 e K volution. Catal. Sci. Technol. 8 (14), 3695–3703. doi:10.1039/ M J O ia F ,H he ., te Y ro ao st , r N uc . t , u Z r h e u w , i J t . h ,L ta iu il , o Y re ., d L e a l o ec , t Y ro ., n C ic on st g r , u H c- . t , u e r t e a f l o . r (2 e 0 ffi 2 c 2 i ) e . n N t i o 3 v N er m all od w i a fi t e e d r
+Feng,X.,Wang,H.,Bo,X.,andGuo,L.(2019).Bimetal–organicframework- splitting. Chin. J. Struc. Chem. 41, 2208031–2208036. doi:10.14102/j.cnki.0254-
+derived porous rodlike Cobalt/Nickel nitride for All-pH value electrochemical 5861.2022-0112
+hydrogen evolution. ACSAppl.Mat.Interfaces 11(8),8018–8024.doi:10.1021/
+Jiao,Y.,Zheng,Y.,Jaroniec,M.,andQiao,S.Z.(2015).Designofelectrocatalysts
+acsami.8b21369
+foroxygen-andhydrogen-involvingenergyconversionreactions.Chem.Soc.Rev.
+Guo,Y.,Yuan,P.,Zhang,J.,Xia,H.,Cheng,F.,Zhou,M.,etal.(2018).Co2P–CoN 44(8),2060–2086.doi:10.1039/C4CS00470A
+double active centers confined in N-doped carbon nanotube: Heterostructural
+engineering for trifunctional catalysis toward HER, ORR, OER, and Zn–air Li, S., Wang, Y., Wang, H., Zhang, Q., Zhang, Z., and Liu, H. (2021).
+batteriesdrivenwatersplitting.Adv.Funct.Mat.28(51),1805641.doi:10.1002/
+HeterostructuresofMXenesandCoNx-grapheneashighlyactiveelectrocatalysts
+forhydrogenevolutionreactioninalkalinemedia.J.Appl.Electrochem.51(6),
+adfm.201805641 871–878.doi:10.1007/s10800-021-01542-4
+FrontiersinChemistry 07 frontiersin.org
+
+Tangetal. 10.3389/fchem.2022.1073175
+Liu,B.,Cheng,J.,Peng,H.Q.,Chen,D.,Cui,X.,Shen,D.,etal.(2019a).Insitu Sun,H.,Tian,C.,Fan,G.,Qi,J.,Liu,Z.,Yan,Z.,etal.(2020a).Boostingactivityon
+nitridated porous nanosheet networked Co3O4 –Co4N heteronanostructures Co4N porous nanosheet by coupling CeO2 for efficient electrochemical overall
+supported on hydrophilic carbon cloth for highly efficient electrochemical watersplittingathighcurrentdensities.Adv.Funct.Mat.30(32),1910596.doi:10.
+hydrogenevolution.J.Mat.Chem.A7(2),775–782.doi:10.1039/C8TA09800J 1002/adfm.201910596
+Liu,Z.,Tan,H.,Liu,D.,Liu,X.,Xin,J.,Xie,J.,etal.(2019b).Promotionofoverall Sun,K.,Zhang,T.,Tan,L.,Zhou,D.,Qian,Y.,Gao,X.,etal.(2020b).Interface
+water splitting activity over a wide pH range by interfacial electrical effects of catalystsofNi/Co2Nforhydrogenelectrochemistry.ACSAppl.Mat.Interfaces12
+metallicNiCo-nitridesnanoparticle/NiCo2O4nanoflake/graphitefibers.Adv.Sci.6 (26),29357–29364.doi:10.1021/acsami.0c06644
+(5),1801829.doi:10.1002/advs.201801829 Sun, T., Zhang, S., Xu, L., Wang, D., and Li, Y. (2018a). An efficient
+Naguib,M.,Kurtoglu,M.,Presser,V.,Lu,J.,Niu,J.,Heon,M.,etal.(2011).Two- multifunctional hybrid electrocatalyst: Ni2Pnanoparticles on MOF-derived Co,
+dimensionalnanocrystalsproducedbyexfoliationofTi3AlC2.Adv.Mat.23(37), N-doped porouscarbonpolyhedrons foroxygenreductionandwatersplitting.
+4248–4253.doi:10.1002/adma.201102306 Chem.Commun.54(85),12101–12104.doi:10.1039/C8CC06566G
+Ni,W.,Krammer,A.,Hsu,C.S.,Chen,H.M.,Schüler,A.,andHu,X.(2019). Sun,Z.,Zhang,J.,Xie,J.,Zheng,X.,Wang,M.,Li,X.,etal.(2018b).High-
+Ni3Nasanactivehydrogenoxidationreactioncatalystinalkalinemedium.Angew. performance alkaline hydrogen evolution electrocatalyzed by a Ni3N–CeO2
+Chem.Int.Ed.Engl.131(22),7523–7527.doi:10.1002/ange.201902751 nanohybrid.Inorg.Chem.Front.5(12),3042–3045.doi:10.1039/C8QI00905H
+Okubo, K., Ohyama, J., and Satsuma, A. (2019). Surface modification of Pt Wang,M.,Yang,H.,Shi,J.,Chen,Y.,Zhou,Y.,Wang,L.,etal.(2021a).Alloying
+nanoparticleswithothermetalsboostingthealkalinehydrogenoxidationreaction. nickel with molybdenum significantly accelerates alkaline hydrogen
+Chem.Commun.55(21),3101–3104.doi:10.1039/C9CC00582J electrocatalysis.Angew. Chem.Int. Ed.Engl. 133 (11), 5835–5841.doi:10.1002/
+ange.202013047
+Panda,C.,Menezes,P.W.,Zheng,M.,Orthmann,S.,andDriess,M.(2019).In
+situformationofnanostructuredcore–shellCu3N–CuOtopromotealkalinewater Wang,T.,Wang,M.,Yang,H.,Xu,M.,Zuo,C.,Feng,K.,etal.(2019).Weakening
+electrolysis.ACSEnergyLett.4(3),747–754.doi:10.1021/acsenergylett.9b00091 hydrogen adsorption on nickel via interstitial nitrogen doping promotes
+bifunctional hydrogen electrocatalysis in alkaline solution. Energy Environ. Sci.
+effi
+P
+c
+e
+i
+i
+e
+,
+n
+Z
+t
+.
+,
+,H
+fle
+u
+x
+a
+i
+n
+bl
+g
+e
+,Y
+a
+.
+n
+,
+d
+Ta
+r
+n
+e
+g
+c
+,
+h
+Z
+ar
+.,
+g
+M
+ea
+a
+b
+,
+le
+L.,
+q
+L
+u
+i
+a
+u
+s
+,
+i-
+Z
+s
+.
+o
+,
+l
+X
+id
+u
+-
+e
+s
+,
+ta
+Q
+te
+.,e
+z
+t
+n
+a
+-
+l
+a
+.
+i
+(
+r
+20
+b
+1
+a
+9
+tt
+)
+e
+.
+r
+E
+ie
+n
+s
+ab
+v
+l
+i
+i
+a
+ng
+ca
+h
+t
+i
+a
+g
+l
+h
+y
+l
+s
+y
+t
+12(12),3522–3529.doi:10.1039/C9EE01743G
+engineeringandelectrolytefunctionalization.EnergyStorageMat.20,234–242. Wang,X.,Li,X.,Cai,T.,Cui,Y.,Kong,D.,Xu,J.,etal.(2021b).Enhancing
+doi:10.1016/j.ensm.2018.11.010 hydrogen oxidation electrocatalysis of nickel-based catalyst by simultaneous
+chemical anchoring and electronic structure regulation. Chem. Eng. J. 425,
+Ray,C.,Lee,S.C.,Jin,B.,Kundu,A.,Park,J.H.,andJun,S.C.(2018).Conceptual
+130654.doi:10.1016/j.cej.2021.130654
+design of three-dimensional CoN/Ni3N-coupled nanograsses integrated on
+N-dopedcarbontoserveasefficientandrobustwatersplittingelectrocatalysts. Wang, X., Tong, Y., Li, X., Zhao, L., Cui, Y., Wang, Y., et al. (2022). Trace
+J.Mat.Chem.A6(10),4466–4476.doi:10.1039/C7TA10933D nitrogen-incorporationstimulatesdualactivesitesofnickelcatalystsforefficient
+hydrogenoxidationelectrocatalysis.Chem.Eng.J.445,136700.doi:10.1016/j.cej.
+Ren,J.T.,Wang,Y.S.,Song,Y.J.,Chen,L.,andYuan,Z.Y.(2022).Interface
+engineeringofin−situformednickelhydr(oxy)oxidesonnickelnitridestoboost 2022.136700
+alkalinehydrogenelectrocatalysis.Appl.Catal.BEnviron.309,121279.doi:10.1016/ Wu,T.,Song,E.,Zhang,S.,Luo,M.,Zhao,C.,Zhao,W.,etal.(2022).Engineering
+j.apcatb.2022.121279 metallicheterostructurebasedonNi3Nand2M-MoS2foralkalinewaterelectrolysis
+Ruqia,B.,andChoi,S.I.(2018).PtandPt–Ni(OH)2electrodesforthehydrogen withindustry-compatiblecurrentdensityandstability.Adv.Mat.34(9),2108505.
+doi:10.1002/adma.202108505
+evolution reaction in alkaline electrolytes and their nanoscaled electrocatalysts.
+ChemSusChem11(16),2643–2653.doi:10.1002/cssc.201800781 Wu,Y.,Cai,J.,Xie,Y.,Niu,S.,Zang,Y.,Wu,S.,etal.(2020).Regulatingthe
+Shalom,M.,Ressnig,D.,Yang,X.,Clavel,G.,Fellinger,T.P.,andAntonietti,M.
+interfacialelectroniccouplingofFe2Nviaorbitalsteeringforhydrogenevolution
+(2015).Nickelnitrideasanefficientelectrocatalystforwatersplitting.J.Mat.Chem. catalysis.Adv.Mat.32(26),1904346.doi:10.1002/adma.201904346
+A3(15),8171–8177.doi:10.1039/C5TA00078E Wu,Y.,Xie,Y.,Niu,S.,Zang,Y.,Cai,J.,Bian,Z.,etal.(2021).Acceleratingwater
+Song, F., Li, W., and Sun, Y. (2017). Metal–organic frameworks and their ( d 1 is 0 s ) o , c 3 i 4 at 5 i 8 o – n 3 k 4 i 6 n 5 e . ti d c o s i: o 1 f 0. N 10 i3 0 N 7/ b s1 y 2 t 2 u 7 n 4 i - n 0 g 21 in -3 te 5 r 6 f 2 a - c 1 ialorbitalcoupling.NanoRes.14
+derivatives for photocatalytic water splitting. Inorganics 5 (3), 40. doi:10.3390/
+inorganics5030040 Xing,Z.,Li,Q.,Wang,D.,Yang,X.,andSun,X.(2016).Self-supportednickel
+nitrideasanefficienthigh-performancethree-dimensionalcathodeforthealkaline
+Song,F.,Li,W.,Yang,J.,Han,G.,Liao,P.,andSun,Y.(2018b).Interfacingnickel hydrogen evolution reaction. Electrochim. Acta 191, 841–845. doi:10.1016/j.
+nitrideandnickelboostsbothelectrocatalytichydrogenevolutionandoxidation
+electacta.2015.12.174
+reactions.Nat.Commun.9(1),4531.doi:10.1038/s41467-018-06728-7
+Xue,Z.,Kang,J.,Guo,D.,Zhu,C.,Li,C.,Zhang,X.,etal.(2018).Self-supported
+Song,F.,Li,W.,Yang,J.,Han,G.,Yan,T.,Liu,X.,etal.(2019).Interfacialsites
+cobaltnitrideporousnanowirearraysasbifunctionalelectrocatalystforoverall
+b
+el
+e
+e
+t
+c
+w
+tr
+e
+o
+e
+c
+n
+he
+c
+m
+ob
+is
+a
+t
+l
+r
+t
+y.
+n
+A
+itr
+C
+id
+S
+e
+En
+an
+er
+d
+gy
+co
+L
+b
+e
+a
+tt
+l
+.
+t
+4
+ac
+(
+t
+7)
+a
+,
+s
+15
+b
+9
+if
+4
+u
+–
+n
+1
+c
+6
+ti
+0
+o
+1
+n
+.
+a
+d
+l
+o
+c
+i:
+a
+1
+t
+0
+a
+.
+l
+1
+y
+0
+st
+2
+s
+1/
+f
+a
+o
+c
+r
+se
+h
+n
+y
+e
+d
+rg
+r
+y
+o
+l
+g
+e
+e
+t
+n
+t.
+watersplitting.Electrochim.Acta273,229–238.doi:10.1016/j.electacta.2018.04.056
+9b00738 Yan, H., Xie, Y., Wu, A., Cai, Z., Wang, L., Tian, C., et al. (2019). Anion-
+modulated HER and OER activities of 3D Ni–V-based interstitial compound
+Song, F., Zhang, T., Qian, Y., Shaw, J., Chen, S., Chen, G., et al. (2021). heterojunctions for high-efficiency and stable overall water splitting. J. Mat.
+Multifunctional electrocatalysts of nickel boride nanoparticles for superior
+Chem.AMat.31(23),1901174.doi:10.1002/adma.201901174
+hydrogenoxidationandwatersplitting.Mat.TodayEnergy22,100846.doi:10.
+1016/j.mtener.2021.100846 Yan, L., and Zhang, B. (2021). Rose-like, ruthenium-modified cobalt nitride
+nanoflowers grown in situ on an MXene matrix for efficient and stable water
+tra
+S
+n
+o
+s
+n
+fe
+g
+r
+,
+o
+F
+f
+.,
+in
+Z
+t
+h
+er
+a
+f
+n
+a
+g
+c
+,
+ia
+T
+l
+.
+c
+,
+a
+Z
+ta
+h
+ly
+o
+s
+u
+t
+,
+s
+D
+fo
+.
+r
+,
+h
+S
+y
+u
+d
+n
+r
+,
+o
+P
+ge
+.,
+n
+L
+e
+u
+n
+,
+e
+Z
+rg
+.,
+y.
+B
+A
+ia
+C
+n
+S
+,
+M
+H.
+a
+,
+t
+e
+.
+t
+Le
+a
+t
+l
+t
+.
+.
+(
+4
+20
+(5
+2
+)
+2
+,
+)
+9
+.
+6
+C
+7
+h
+–
+a
+9
+r
+7
+g
+7
+e
+.
+electrolysis.J.Mat.Chem.A9(36),20758–20765.doi:10.1039/D1TA05243H
+doi:10.1021/acsmaterialslett.2c00143 Yang,F.,Bao,X.,Zhao,Y.,Wang,X.,Cheng,G.,andLuo,W.(2019).Enhanced
+Song,F.Z.,Yang,X.,andXu,Q.(2020).UltrafinebimetallicPt–Ninanoparticles HORcatalyticactivityofPGM-freecatalystsinalkalinemedia:Theelectroniceffect
+achievedbymetal–organicframeworktemplatedzirconia/porouscarbon/reduced i
+(
+n
+1
+d
+8)
+u
+,
+c
+1
+ed
+09
+b
+3
+y
+6–
+d
+1
+if
+0
+f
+9
+e
+4
+re
+1
+n
+.
+t
+d
+h
+o
+e
+i:
+t
+1
+e
+0
+r
+.
+o
+1
+a
+0
+t
+3
+o
+9
+m
+/C
+d
+9
+o
+T
+p
+A
+ed
+01
+c
+9
+a
+1
+r
+6
+b
+B
+onsupports.J.Mat.Chem.AMat.7
+graphene oxide: Remarkable catalytic activity in dehydrogenation of hydrous
+hydrazine.SmallMethods4(1),1900707.doi:10.1002/smtd.201900707 Yang,X.,Li,Z.,Kitta,M.,Tsumori,N.,Guo,W.,Zhang,Z.,etal.(2020).Solid-
+solutionalloynanoclustersoftheimmisciblegold-rhodiumsystemachievedbya
+Song,F.Z.,Zhu,Q.L.,Tsumori,N.,andXu,Q.(2015b).Diamine-alkalized solid ligand-assisted approach for highly efficient catalysis. Nano Res. 13 (1),
+reducedgrapheneoxide:Immobilizationofsub-2nmpalladiumnanoparticlesand 105–111.doi:10.1007/s12274-019-2579-1
+optimizationofcatalyticactivityfordehydrogenationofformicacid.ACSCatal.5
+(9),5141–5144.doi:10.1021/acscatal.5b01411 Yu,L.,Song,S.,McElhenny,B.,Ding,F.,Luo,D.,Yu,Y.,etal.(2019).Auniversal
+synthesisstrategytomakemetalnitrideelectrocatalystsforhydrogenevolution
+de
+S
+p
+o
+o
+n
+si
+g
+t
+,
+ed
+F.
+o
+Z
+n
+.,
+d
+Z
+i
+h
+am
+u,
+in
+Q
+e
+.
+-a
+L
+l
+.
+k
+,
+a
+a
+l
+n
+iz
+d
+ed
+Xu
+g
+,
+ra
+Q
+p
+.
+h
+(
+e
+2
+n
+0
+e
+15
+fo
+a
+r
+).
+h
+M
+ig
+o
+h
+n
+ly
+od
+e
+i
+f
+s
+fi
+p
+c
+e
+ie
+rs
+n
+e
+t
+d
+d
+P
+eh
+tN
+yd
+i
+r
+n
+o
+a
+g
+n
+e
+o
+n
+p
+a
+a
+ti
+r
+o
+ti
+n
+cl
+o
+es
+f
+reaction.J.Mat.Chem.A7(34),19728–19732.doi:10.1039/C9TA05455C
+hydroushydrazineatroomtemperature.J.Mat.Chem.A3(46),23090–23094. Yuan,W.,Wang,S.,Ma,Y.,Qiu,Y.,An,Y.,andCheng,L.(2020).Interfacial
+doi:10.1039/C5TA05664K engineeringofcobaltnitridesandmesoporousnitrogen-dopedcarbon:Toward
+efficientoverallwater-splittingactivitywithenhancedcharge-transferefficiency.
+Song,F.Z.,Zhu,Q.L.,Yang,X.,Zhan,W.W.,Pachfule,P.,Tsumori,N., ACSEnergyLett.5(3),692–700.doi:10.1021/acsenergylett.0c00116
+et al. (2018a). Hydrogen generation: Metal-organic framework templated
+porouscarbon-metaloxide/reducedgrapheneoxideassuperiorsupportof Zhang,B.,Xiao,C.,Xie,S.,Liang,J.,Chen,X.,andTang,Y.(2016a).Iron–nickel
+bimetallicnanoparticlesforefficienthydrogengenerationfromformicacid nitridenanostructuresinsitugrownonsurface-redox-etchingnickelfoam:Efficient
+(adv.Energymater.1/2018).Adv.EnergyMat.8(1),1770139.doi:10.1002/ andultrasustainableelectrocatalystsforoverallwatersplitting.Chem.Mat.28(19),
+aenm.201870006 6934–6941.doi:10.1021/acs.chemmater.6b02610
+FrontiersinChemistry 08 frontiersin.org
+
+Tangetal. 10.3389/fchem.2022.1073175
+Zhang,H.,Wang,J.,Qin,F.,Liu,H.,andWang,C.(2021a).V-dopedNi3N/Ni Zhang,Y.,Ouyang,B.,Xu,J.,Chen,S.,Rawat,R.S.,andFan,H.J.(2016b).
+heterostructurewithengineeredinterfacesasabifunctionalhydrogenelectrocatalystin 3D porous hierarchical nickel–molybdenum nitrides synthesized by RF
+alkalinesolution:Simultaneouslyimprovingwaterdissociationandhydrogenadsorption. plasma as highly active and stable hydrogen-evolution-reaction
+NanoRes.14(10),3489–3496.doi:10.1007/s12274-021-3559-9 electrocatalysts. Adv. Energy Mat. 6 (11), 1600221. doi:10.1002/aenm.
+201600221
+Zhang, J., Liu, Y., Li, J., Jin, X., Li, Y., Qian, Q., et al. (2021b). Vanadium
+substitutionsteeringreactionkineticsaccelerationforNi3Nnanosheetsendows Zhou,P.,Zhai,G.,Lv,X.,Liu,Y.,Wang,Z.,Wang,P.,etal.(2021).Boostingthe
+exceptionallyenergy-savinghydrogenevolutioncoupledwithhydrazineoxidation. electrocatalyticHERperformanceofNi3N-V2O3viatheinterfacecouplingeffect.
+ACSAppl.Mat.Interfaces13(3),3881–3890.doi:10.1021/acsami.0c18684 Appl.Catal.BEnviron.283,119590.doi:10.1016/j.apcatb.2020.119590
+Zhang,T.,Debow,S.,Song,F.,Qian,Y.,Creasy,W.R.,DeLacy,B.G.,etal. Zhu,C.,Wang,A.L.,Xiao,W.,Chao,D.,Zhang,X.,Tiep,N.H.,etal.(2018).
+(2021c). Interface catalysis of nickel molybdenum (NiMo) alloys on two- In situ grown epitaxial heterojunction exhibits high-performance
+dimensional (2D) MXene for enhanced hydrogen electrochemistry. J. Phys. electrocatalytic water splitting. Adv. Mat. 30 (13), 1705516. doi:10.1002/
+Chem.Lett.12(46),11361–11370.doi:10.1021/acs.jpclett.1c02676 adma.201705516
+Zhang,T.,Song,F.,Qian,Y.,Gao,H.,Shaw,J.,andRao,Y.(2021d).Elemental Zhuang,Z.,Giles,S.A.,Zheng,J.,Jenness,G.R.,Caratzoulas,S.,Vlachos,D.G.,
+engineering of high-charge-density boron in nickel as multifunctional etal.(2016).Nickelsupportedonnitrogen-dopedcarbonnanotubesashydrogen
+electrocatalysts for hydrogen oxidation and water splitting. ACS Appl. Energy oxidation reaction catalyst in alkaline electrolyte. Nat. Commun. 7 (1),
+Mat.4(6),5434–5442.doi:10.1021/acsaem.0c03179 10141–10148.doi:10.1038/ncomms10141
+FrontiersinChemistry 09 frontiersin.org
+

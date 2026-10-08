@@ -1,0 +1,317 @@
+ORIGINALRESEARCH
+published:14October2020
+doi:10.3389/fchem.2020.00723
+PVP/ZIF-8-Derived Zn, Ni Co-loaded
+N-Doped Porous Carbon as a
+Catalyst for an Efficient Hydrogen
+Evolution Reaction
+YanqiuJing1*†,QiangLei2†,GangHu2†,JixianHe2,XiaoLei2,FeiWang2,JunjuLi2,
+YideYang2* andXueweiZhang3*
+1CollegeofTobaccoScience,HenanAgriculturalUniversity,Zhengzhou,China,2SichuanofChinaNationalTobacco
+Corporation,Chengdu,China,3RawMaterialsSupplyCenterofChinaTobaccoGuangdongIndustrialCo.,Ltd.,Guangzhou,
+China
+Editedby: Exploring catalysts with low cost and excellent performance for the hydrogen evolution
+ChaohaiWang, reaction(HER)isstillasignificantchallenge.Inthiswork,zeoliticimidazolateframework
+TheUniversityof
+8 (ZIF-8), hybridized with polyvinylpyrrolidone, was used to prepare Zn, Ni co-loaded
+Queensland,Australia
+N-doped porous carbon (ZnNi/NPC) via a straightforward absorption and pyrolysis
+Reviewedby:
+JuanYang, process.Theas-preparedZnNi/NPCwasusedasacatalystfortheHER.Thisexperiment
+HenanPolytechnicUniversity,China
+showed that the porous structure and Ni doping have a significant influence on the
+YoujinZheng,
+MudanjiangNormalUniversity,China HER activity of the catalyst. Compared with Zn/NC and Zn/NPC, ZnNi/NPC exhibits
+*Correspondence:
+superiorHERactivitywithanoverpotentialof198mVandaTafelslopeof69.2mVdec−1.
+YanqiuJing ZnNi/NPCalsoshowsexcellentphysicalandchemicalstabilityduringtheHERprocess.
+yanqiu72t@163.com
+Considering the lower cost and excellent HER performance of ZnNi/NPC, this work
+YideYang
+yidetobacco@163.com providesanattractivesolutiontofabricatenon-preciousmaterialsandoffersapossible
+XueweiZhang
+newstrategytoreplacePt-basedelectrocatalystsforHER.
+zhangxwtc@163.com
+†Theseauthorshavecontributed Keywords:ZIF-8,ZnNi/NPC,porousstructure,Nidoping,hydrogenevolutionreaction
+equallytothiswork
+INTRODUCTION
+Specialtysection:
+Thisarticlewassubmittedto
+GreenandSustainableChemistry, Hydrogen is viewed as one of the most promising forms of energy to replace traditional fossil
+asectionofthejournal fuelsbecauseofitssustainableperformanceandhighenergydensity(ChenN.etal.,2020).Water
+FrontiersinChemistry splitting is an efficient and straightforward route to obtaining hydrogen through the hydrogen
+Received:20June2020 evolution reaction (HER) (Qamar et al., 2016). However, many electrocatalysts have a high
+Accepted:14July2020 overpotentialandlargeTafelslope,whichmakesthemexhibitsluggishHERkineticsandprevents
+Published:14October2020 theirwidespreaduse(Tianetal.,2017).Thus,thereisanurgentneedtoexploreelectrocatalysts
+Citation: withexcellentHERperformance.
+JingY,LeiQ,HuG,HeJ,LeiX, Currently, Pt-based materials are still considered to be the most effective electrocatalysts for
+WangF,LiJ,YangYandZhangX HER because of their outstanding catalytic activity (Lao et al., 2019). However, these Pt-based
+(2020)PVP/ZIF-8-DerivedZn,Ni materials are expensive and are in short supply, which impedes their widespread use. Many
+Co-loadedN-DopedPorousCarbon
+researchers have devoted themselves to exploring high-efficiency electrocatalysts, for example
+asaCatalystforanEfficientHydrogen
+carbon-based materials, and have found that doping with some Earth-abundant non-precious
+EvolutionReaction.
+Front.Chem.8:723. transition metals, such as Mn, Fe, Ni, and Co, can improve the efficiency of the carbon-based
+doi:10.3389/fchem.2020.00723 materials. For example, Chen T. T. et al. (2020) used a Co-based metal–organic framework
+FrontiersinChemistry|www.frontiersin.org 1 October2020|Volume8|Article723
+
+Jingetal. PVP/ZIF-8DerivedZnNi/NCforHER
+(MOF) containing nitrogen and oxygen heteroatoms Fabrication of the ZnNi/NPC
+(Co-NOMOF) mixed with thiomolybdate [Mo 3 S 13
+]2−
+Electrocatalyst
+nanoclustersasaprecursortopreparingaCo 9 S 8 /MoS 2 @NSOC In this experiment, ZnNi/NPC was fabricated by using the
+nanocomposite via a direct pyrolysis process. They found PVP/ZIF-8 composite as a precursor via a straightforward
+that Co 9 S 8 /MoS 2 @NSOC exhibits excellent HER performance absorption and pyrolysis process. In a typical procedure, 3.3g
+with an overpotential of 194 and 233mV in 1M KOH and of Zn(NO ) ·6H O was dissolved in 100mL of methanol
+0.5M H 2 SO 4 solution at 10mA cm
+−2,
+respectively (Chen to form a
+3
+h
+2
+omo
+2
+geneous solution (solution A), and 3.0g of
+W. et al., 2019). Chu et al. (2018) reported a simple method 2-methylimidazole and 7g of PVP were dissolved in a further
+of fabricating carbon-coated nickel–nickel oxide composites 100mL of methanol to form another homogeneous solution
+(Ni/NiO@C/GR-t-w) and found that Ni/NiO@C/GR-900- (solutionB).SolutionAwasslowlyaddedintosolutionBunder
+8 showed superior electrocatalytic properties with a lower vigorousstirringfor5min.Next,themixturewasagedatroom
+overpotentialof108mV(vs.HER)at10mAcm
+−2andasmaller
+temperaturefor20handalayerofwhiteprecipitatewasformed.
+Tafelslopeof44mVdec
+−1.
+Thewhiteprecipitatewascentrifuged,washedwithethanol,and
+Zeolitic imidazolate framework 8 (ZIF-8), constructed using driedat60 ◦ Cfor6htoobtainthePVP/ZIF-8composite.Then,
+organic ligands and
+Zn2+
+, has a high specific surface area, 1.0gofPVP/ZIF-8compositewasdispersedin30mLofethanol
+adjustable pore size, and excellent physical and chemical solution containing 0.2g of Ni(NO ) ·6H O under vigorous
+3 2 2
+stability. It is widely used for sensing (Chen W. et al., 2019; stirring for 30min. The suspension was centrifuged and dried
+Knedel et al., 2020), drug delivery (Adhikari et al., 2015; at80 ◦ Cfor10htoobtaintheNi-loadedPVP/ZIF-8composite.
+Qin et al., 2019), and catalysis (Liu et al., 2014; Yang et al., Finally, the Ni-loaded PVP/ZIF-8 composite was pyrolyzed
+2018). It can also be directly pyrolyzed into carbon at high at 800 ◦ C for 2h at a heating rate of 2 ◦ C min −1 under an
+temperature under an N 2 /Ar atmosphere. In this paper, we H 2 /Aratmosphere[V(H 2 ):V(Ar)=1:9]tofabricateZnNi/NPC.
+used ZIF-8 as a precursor and polyvinylpyrrolidone (PVP) A schematic diagram for the fabrication of ZnNi/NPC is
+as a hard template to prepare Zn, Ni co-loaded N-doped showninFigure1.
+porous carbon (ZnNi/NPC) via a straightforward absorption
+and pyrolysis process. We explored the influence of the porous Characterization
+structure and Ni doping on the electrocatalytic performance The X-ray diffraction (XRD) patterns of all as-synthesized
+in HER and found that the porous structure and Ni doping samples were recorded on a Bruker D8 diffractometer
+can significantly improve the HER activity of Zn-loaded N- with Cu Kα radiation (λ = 0.1541nm) at 40 kV and
+doped carbon. The excellent HER performance of ZnNi/NPC 40mA. Raman spectra were obtained with a Horiba
+makes it suitable for practical applications. Furthermore, we Evolution spectrometer with a 532nm excitation wavelength.
+hope this work can provide a theorical and practical basis for Scanning electron microscopy (SEM) was carried out on a
+subsequentresearch. Hitachi SU70 scanning electron microscope. Transmission
+electron microscopy (TEM) and high-resolution TEM were
+EXPERIMENTAL SECTION carried out on a Tecnai F20 machine with an acceleration
+voltage of 200 kV. X-ray photoelectron spectra (XPS)
+Materials
+were obtained by means of an Escalab 250Xi system
+Zincnitratehexahydrate[Zn(NO 3 ) 2 ·6H 2 O],2-methylimidazole (ThermoScientific).
+[C H N ], nickel nitrate hexahydrate [Ni(NO ) ·6H O],
+4 6 2 3 2 2
+PVP (K30), ethanol, and methanol were of analytical Electrochemical Measurements
+grade and were purchased from Sinopharm Chemical The HER performance of all as-synthesized samples was
+Reagent Co., Ltd. Nafion solution (5%) was obtained measured on a CHI 660E using a typical three-electrode setup.
+from Sigma-Aldrich Chemical Co., Ltd. All reagents were An Ag/AgCl electrode, Pt wire, and 1.0M KOH solution were
+used as received from the manufacturer without any used as the reference electrode, the counter electrode, and the
+furthertreatment. electrolyte, respectively. A glassy carbon electrode (GCE; 5mm
+FIGURE1|SchematicdiagramforthefabricationofZnNi/NPC.
+FrontiersinChemistry|www.frontiersin.org 2 October2020|Volume8|Article723
+
+Jingetal. PVP/ZIF-8DerivedZnNi/NCforHER
+FIGURE2|(A)XRDpatternsand(B)RamanspectraofZn/NC,Zn/NPC,andZnNi/NPC.
+indiameter),supportingwithcatalyst,wasusedastheworking
+electrode.Beforepreparingtheworkingelectrodewassupported
+with catalyst, the GCE was sonicated with deionized water and
+driedatroomtemperature.Then,25µLofcatalystink,consisting
+of 10mg of catalyst, 180 µL of alcohol solution, and 5 µL of
+Nafionsolution(5%),wasdroppedontothesurfaceoftheGCE
+threetimesandfullydriedatroomtemperature.BeforetheHER
+performancetests,theelectrolytewaspre-purgedandsaturated
+withN toeliminatetheinfluenceofdissolvedoxygen.Thelinear
+2
+sweepvoltammetry(LSV)measurementswereperformedfrom0
+to−0.6Vatarotationrateof1,600rpmandscanrateof2mV
+s
+−1.ThechronoamperometriccurveofZnNi/NPCwasobtained
+atavoltageof150mVinN -saturated1.0MKOHfor12h.
+2
+RESULTS AND DISCUSSION
+XRD and Raman Spectra Analysis FIGURE3|SEMimagesof(a)ZIF-8,(b)Zn/NC,(c)Zn/NPC,and
+The crystalline structure of all as-synthesized samples was (d)ZnNi/NPC.
+characterized by XRD. As shown in Figure2A, all samples
+◦
+exhibit a broad band at about 26 , which is ascribed to the
+characteristic peak of carbon (Zhou et al., 2016). The organic SEM Images
+ligands are removed and transformed into carbon under high Figure3 shows SEM images of ZIF-8, Zn/NC, Zn/NPC,
+temperature. In addition to the characteristic peak of carbon, and ZnNi/NPC. As shown in Figure3a, ZIF-8 exhibits a
+◦ ◦
+ZnNi/NPC also shows new peaks at 44.1 and 51.8 , which dodecahedral morphology. However, when ZIF-8 is treated at
+correspond to the (111) and (200) reflections of metallic Ni, high temperature, its structure is broken down (Figure3b).
+respectively (Chu et al., 2018). Figure2B shows the Raman Figure3c shows an SEM image of Zn/NPC nanoparticles,
+spectra of Zn/NC, Zn/NPC, and ZnNi/NPC. All samples have whichalsoexhibitadodecahedralmorphology.Asdescribedin
+twobroadbandsatabout1,328cm
+−1
+(Gband)and1,569cm
+−1
+previous reports, PVP acts as a hard template, meaning that
+(D band). According to previous reports, we know that the theZIF-derived catalystretainsitsoriginal structure (Liu etal.,
+G band and D band are ascribed to the characteristic bands 2016).Figure3dshowsanSEMimageofZnNi/NPC.ZnNi/NPC
+of amorphous carbon and graphitic carbon, respectively (Qing nanoparticles exhibit dodecahedral morphology. However, the
+etal.,2010;Wangetal.,2014).TheID/IG valuesofZn/NCand surfaceoftheZnNi/NPCnanoparticlesisetched.Accordingtoa
+Zn/NPC are almost the same. PVP cannot enhance the degree reportbyLouandco-workers,azeoliticimidazolateframework
+of graphitization of the catalyst. However, when the catalyst is canbecorrodedbyNi2+ duringthehydrolysisprocess(Heetal.,
+loadedwithNielement,theID/IGvalueofthecatalystdecreases 2017). This implies that Ni2+ can also corrode the structure of
+to 0.872. Ni element can significantly improve the degree of ZIF-8duringthehydrolysisprocess.
+graphitization of the catalyst, which is in accordance with
+previousreports(Xiangetal.,2014).Asweknow,theelectrical TEM Images
+conductivityofgraphiticcarbonissuperiortothatofamorphous In order to further analyze the microstructure of the catalyst,
+carbon. This indicates that ZnNi/NPC can exhibit elevated TEM images were obtained by means of a Tecnai F20.
+HERactivity. As shown in Figure4a, Zn/NPC nanoparticles exhibit a
+FrontiersinChemistry|www.frontiersin.org 3 October2020|Volume8|Article723
+
+Jingetal. PVP/ZIF-8DerivedZnNi/NCforHER
+dodecahedral morphology, which is in agreement with the XPS Analysis
+SEMimage(Figure3a).Figure4bshowsahighermagnification ThecompositionandchemicalstatesofZnNi/NPCwereverified
+of Zn/NPC, demonstrating the porous structure. Figures4c,d by XPS technology. As shown in Figure5A, ZnNi/NPC is
+are the low-magnification and high-magnification images of composed of elemental Zn, Ni, C, N, and O. Elemental O
+ZnNi/NPC, respectively. The surface of the ZnNi/NPC is couldcomefromtheslightoxidationofthecatalystand/orthe
+coveredwithwrinkles.Intheinternalstructure,therearesome absorption of oxygen. Figure5B shows the Ni 2p spectrum,
+nanoparticles that exhibit two different lattice fringes of 0.246 whichisdeconvolutedintofourpeaks,correspondingtometallic
+and 0.34nm, which correspond to the (110) lattice plane of Ni(Ni0),Ni2p 3/2 ,Ni2p 1/2 ,andasatellite.Figure5Cshowsthe
+metallic Ni and the (002) lattice plane of graphitic carbon, NsignalofZnNi/NPC.TheN1sspectrumisdeconvolutedinto
+respectively(Liuetal.,2017). three peaks at 398.1, 399.3, and 401.7eV, which are ascribed to
+pyridinicN,pyrrolicN,andgraphiticN,respectively(Panetal.,
+2018).Figure5DshowstheC1sspectrum.TheC1sspectrum
+shows peaks at 284.3 and 285.1eV, which correspond to the
+C–C band and C=C band, respectively. Furthermore, the C 1s
+spectrumalsoshowspeaksat286.2and288.7eV,corresponding
+to the C–N band and C–O band, respectively. This confirms
+thattheporouscarbonbaseisdopedwithNandthecatalystis
+slightlyoxidized.
+HER Performance
+TheHERperformanceofallas-synthesizedsampleswasassessed
+by means of a typical three-electrode setup. Figure6A shows
+the LSV curves of Zn/NC, Zn/NPC, and ZnNi/NPC. It can be
+seen that the structure and Ni doping have a great influence
+on the HER activity of the catalyst. Zn/NC exhibits inferior
+HER activity with an overpotential of 386mV at 10mA
+cm
+−2.
+However, Zn/NPC shows superior HER activity with an
+overpotential of 344mV at 10mA cm
+−2.
+The porous structure
+can improve the HER activity. Compared with Zn/NC and
+FIGURE4|TEMimagesof(a,b)Zn/NPCand(c,d)ZnNi/NPC.
+Zn/NPC,ZnNi/NPCdisplaystheoptimalHERactivitywithan
+FIGURE5|XPSspectraofZnNi/NPC:(A)fullXPSspectrum,(B)Ni2p,(C)N1s,and(D)C1s.
+FrontiersinChemistry|www.frontiersin.org 4 October2020|Volume8|Article723
+
+Jingetal. PVP/ZIF-8DerivedZnNi/NCforHER
+FIGURE6|(A)LSVcurvesand(B)correspondingTafelplotsofZn/NC,Zn/NPC,andZnNi/NPC.
+CONCLUSION
+Insummary,metallicNiandZnweresuccessfullyco-loadedon
+N-doped porous carbon (ZnNi/NPC) by adopting PVP/ZIF-8
+as the precursor via a straightforward absorption and pyrolysis
+process. The as-synthesized ZnNi/NPC was used as a catalyst
+forHER.Zn-loadedN-dopedcarbon(Zn/NC)exhibitsinferior
+HERactivitywithanoverpotentialof386mVandaTafelslope
+of178.6mVdec−1.However,Zn-loadedN-dopedporouscarbon
+(Zn/NPC) shows superior HER activity with an overpotential
+of 344mV and a Tafel slope of 131.5mV dec−1. Furthermore,
+Zn,Nico-loadedN-dopedporouscarbon(ZnNi/NPC)displays
+the optimal HER activity with an overpotential of 198mV
+and a Tafel slope of 69.2mV dec−1. The porous structure
+and Ni doping can significantly improve the HER activity of
+Zn-loaded N-doped carbon. Furthermore, ZnNi/NPC exhibits
+robuststabilityforHER.After12hofcontinuousmeasurement,
+the current density of ZnNi/NPC decreased by just 3.8%. The
+FIGURE7|ChronoamperometricresponseofZnNi/NPCat150mV.
+excellentHERperformanceofZnNi/NPCmakesitapossibility
+forpracticalapplications.
+overpotential of 198mV at 10mA cm −2. Figure6B shows the
+DATA AVAILABILITY STATEMENT
+Tafel plots corresponding to the LSV curves. Zn/NC, Zn/NPC,
+andZnNi/NPCexhibitTafelslopesof178.6,131.5,and69.2mV
+dec
+−1,
+respectively. ZnNi/NPC shows the lowest Tafel slope of
+The raw data supporting the conclusions of this article will be
+69.2mV dec
+−1.
+This confirms that the porous structure and
+madeavailablebytheauthors,withoutunduereservation.
+Ni doping can significantly improve the HER performance of
+AUTHOR CONTRIBUTIONS
+thecatalyst.
+Stability YJ, YY, and XZ designed the experiments and wrote the
+Thedurabilityofthecatalystisalsoveryimportantwhenitisused manuscript. QL, GH, JH, FW, JL, YY, and XL carried out the
+for practical applications. Therefore, ZnNi/NPC was measured experiments.Allauthorscontributedtothearticleandapproved
+at 150mV in N -saturated 1.0M KOH at a rotation rate of thesubmittedversion.
+2
+1,600rpmfor12h.AsshowninFigure7,thecurrentdensityof
+ZnNi/NPCdecreasesbyjust3.8%.ThisconfirmsthatZnNi/NPC ACKNOWLEDGMENTS
+has excellent physical and chemical stability during the HER
+process;thismaybeattributedtothetightattachmentofZn,Ni TheauthorswishtoacknowledgetheXPSanalysisperformedby
+onporouscarbon. Eceshi(http://www.eceshi.com).
+FrontiersinChemistry|www.frontiersin.org 5 October2020|Volume8|Article723
+
+Jingetal. PVP/ZIF-8DerivedZnNi/NCforHER
+REFERENCES
+Qamar,M.,Adam,A.,Merzougui,B.,Helal,A.,Abdulhamid,O.,andSiddiqui,
+M.N.(2016).Metal-organicframework-guidedgrowthofMo2Cembedded
+Adhikari,C.,Das,A.,andChakraborty,A.(2015).Zeoliticimidazoleframework in mesoporous carbon as a high-performance and stable electrocatalyst
+(ZIF) nanospheres for easy encapsulation and controlled release of an for the hydrogen evolution reaction. J. Mater. Chem. A 4, 16225–16232.
+anticancer drug doxorubicin under different external stimuli: a way doi:10.1039/C6TA06553H
+toward smart drug delivery system. Mol. Pharmaceut. 12, 3158–3166. Qin, Y. T., Peng, H., He, X. W., Li, W. Y., and Zhang, Y. K. (2019).
+doi:10.1021/acs.molpharmaceut.5b00043 pH-responsive polymer-stabilized ZIF-8 nanocomposites for fluorescence
+Chen, N., Zhang, W., Zeng, J., He, L., Li, D., and Gao, Q. (2020). andmagneticresonancedual-modalimaging-guidedchemo-/photodynamic
+Plasma-EngineeredMoPwithnitrogendoping:electronlocalizationtoward combinational cancer therapy. ACS Appl. Mater. Inter. 11, 34268–34281.
+efficient alkaline hydrogen evolution. Appl. Catal. B Environ. 268:118441. doi:10.1021/acsami.9b12641
+doi:10.1016/j.apcatb.2019.118441 Qing, Y. C., Zhou, W. C., Luo, F., and Zhu, D. M. (2010). Epoxy-silicone
+Chen, T. T., Wang, R., Li, L. K., Li, Z. J., and Zang, S. Q. (2020). filled with multi-walled carbon nanotubes and carbonyl iron particles as
+MOF-derived Co9S8/MoS2 embedded in tri-doped carbon hydrids for a microwave absorber. Carbon 48, 4074–4080. doi: 10.1016/j.carbon.2010.
+efficient electrocatalytic hydrogen evolution. J. Energy Chem. 44, 90–96. 07.014
+doi:10.1016/j.jechem.2019.09.018 Tian, T., Huang, L., Ai, L., and Jiang, J. (2017). Surface anion-rich NiS2
+Chen, W., Kong, S., Wang, J., Du, L. P., Cai, W., and Wu, C. S. hollow microspheres derived from metal-organic frameworks as a robust
+(2019).EnhancedfluorescenteffectofgraphiticC3N4@ZIF-8nanocomposite electrocatalyst for the hydrogen evolution reaction. J. Mater. Chem. A 5,
+contribute to its improved sensing capabilities. RSC Adv. 9, 3734–3739. 20985–20992doi:10.1039/C7TA06671F
+doi:10.1039/C8RA10330E Wang, T., Wang, H. D., Chi, X., Li, R., and Wang, J. B. (2014). Synthesis
+Chu, M., Wang, L., Li, X., Hou, M., Li, N., Dong, Y., et al. (2018). Carbon andmicrowaveabsorptionpropertiesofFe-Cnanofibersbyelectrospinning
+coated nickel-nickel oxide composites as a highly efficient catalyst for with disperse Fe nanoparticles parceled by carbon. Carbon 74, 312–318.
+hydrogenevolutionreactioninacidmedium.Electrochim.Acta.264,284–291. doi:10.1016/j.carbon.2014.03.037
+doi:10.1016/j.electacta.2018.01.140 Xiang,J.,Li,J.,Zhang,X.,Ye,Q.,Xu,J.,andShen,X.(2014).Magneticcarbon
+He,P.,Yu,X.Y.,andLou,X.W.(2017).Carbon-incorporatednickel-cobaltmixed nanofiberscontaininguniformlydispersedFe/Co/Ninanoparticlesasstable
+metalphosphidenanoboxeswithenhancedelectrocatalyticactivityforoxygen andhigh-performanceelectromagneticwaveabsorbers.J.Mater.Chem.A2
+evolution.Angew.Chem.Int.Ed.56,3897–3900.doi:10.1002/anie.201612635 16905–16914.doi:10.1039/C4TA03732D
+Knedel,T.O.,Buss,S.,Maisuls,I.,Daniliuc,C.G.,Schlusener,C.,Brandt,P.,etal. Yang,X.B.,Wen,Z.D.,Wu,Z.I.,andLuo,X.T.(2018).SynthesisofZnO/ZIF-
+(2020).EncapsulationofphosphorescentPt(II)vomplexesinZn-basedmetal- 8 hybrid photocatalysts derived from ZIF-8 with enhanced photocatalytic
+organicframeworkstowardoxygen-sensingporousmaterials.Inorg.Chem.59, activity.Inorg.Chem.Front.5,687–693.doi:10.1039/C7QI00752C
+7252–7264.doi:10.1021/acs.inorgchem.0c00678 Zhou, W., Lu, J., Zhou, K., Yang, L., Ke, Y., Tang, Z., et al. (2016). CoSe2
+Lao, M., Rui, K., Zhao, G., Cui, P., Zheng, X., and Dou, S. X. (2019). nanoparticlesembeddeddefectivecarbonnanotubesderivedfromMOFsas
+Hydrogen evolution reaction platinum/nickel bicarbonate heterostructures efficient electrocatalyst for hydrogen evolution reaction. Nano Energy 28,
+towards accelerated hydrogen evolution under alkaline conditions. Angew. 143–150.doi:10.1016/j.nanoen.2016.08.040
+Chem.Int.Ed.58,5432–5437.doi:10.1002/anie.201901010
+Liu,C.,Wang,J.,Li,J.,Liu,J.,Wang,C.,Sun,X.,etal.(2017).ElectrospunZIF- ConflictofInterest:QL,GH,JH,FW,JL,YY,andXLwereemployedbySichuan
+basedhierarchicalcarbonfiberasanefficientelectrocatalystfortheoxygen of China National Tobacco Corporation. XZ was employed by Raw Materials
+reductionreaction.J.Mater.Chem.A5,1211–1220.doi:10.1039/C6TA09193H SupplyCentreofChinaTobaccoGuangdongIndustrialCo.,Ltd.
+Liu,M.M.,Lu,W.M.,Shi,X.F.,Fan,B.B.,andLi,R.F.(2014).Characterization
+and catalytic performence of zeolitic imidazolate framework-8 (ZIF-8) Theremainingauthordeclaresthattheresearchwasconductedintheabsenceof
+synthesized by different methods. Chin. J. Inorg. Chem. 30, 579–584. anycommercialorfinancialrelationshipsthatcouldbeconstruedasapotential
+doi:10.11862/CJIC.2014.009 conflictofinterest.
+Liu, N. L., Dutta, S., Salunkhe, R. R., Ahamad, T., Alshehri, S. M., Yamauchi,
+Y.,etal.(2016).ZIF-8derived,nitrogen-dopedporouselectrodesofcarbon Copyright©2020Jing,Lei,Hu,He,Lei,Wang,Li,YangandZhang.Thisisan
+polyhedronparticlesforhigh-performanceelectrosorptionofsaltions.Sci.Rep. open-accessarticledistributedunderthetermsoftheCreativeCommonsAttribution
+6:28847.doi:10.1038/srep28847 License(CCBY).Theuse,distributionorreproductioninotherforumsispermitted,
+Pan, Y., Sun, K., Liu, S., Cao, X., Wu, K., Cheong, W. C., et al. (2018). providedtheoriginalauthor(s)andthecopyrightowner(s)arecreditedandthatthe
+Core-shell ZIF-8@ZIF-67-derived CoP nanoparticle-embedded N-doped originalpublicationinthisjournaliscited,inaccordancewithacceptedacademic
+carbonnanotubehollowpolyhedronforefficientoverallwatersplitting.J.Am. practice.Nouse,distributionorreproductionispermittedwhichdoesnotcomply
+Chem.Soc.140,2610–2618.doi:10.1021/jacs.7b12420 withtheseterms.
+FrontiersinChemistry|www.frontiersin.org 6 October2020|Volume8|Article723
+

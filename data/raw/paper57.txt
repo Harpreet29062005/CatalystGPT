@@ -1,0 +1,891 @@
+TYPEOriginalResearch
+PUBLISHED07August2023
+DOI10.3389/fchem.2023.1235552
+Exploring the mechanistic role of
+alloying elements in
+OPENACCESS
+EDITEDBY copper-based electrocatalysts for
+HusseinZnad,
+CurtinUniversity,Australia
+the reduction of carbon dioxide to
+REVIEWEDBY
+AndreaMarchionni,
+NationalResearchCouncil(CNR),Italy methane
+AjayV.Munde,
+Dr.BabasahebAmbedkarMarathwada
+University,India
+Mingzhong Hao1†, Baorong Duan2†, Guorui Leng1†, Junjie Liu3,
+*CORRESPONDENCE
+JialeQu, Song Li1, Shanshan Wang4* and Jiale Qu1*
+qujiale@buaa.edu.cn
+ShanshanWang, 1SchoolofRehabilitationMedicine,BinzhouMedicalUniversity,Yantai,China,2ResearchCenterfor
+jwangshan@163.com LeatherandProteinofCollegeofChemistryandChemicalEngineering,YantaiUniversity,Yantai,China,
+†Theseauthorshavecontributedequally 3DepartmentofPhysics,BinzhouMedicalCollege,Yantai,China,4SchoolofPharmacy(Schoolof
+tothiswork Enology),BinzhouMedicalCollege,Yantai,China
+RECEIVED06June2023
+ACCEPTED24July2023
+PUBLISHED07August2023
+Thepromiseofelectrochemicallyreducingexcessanthropogeniccarbondioxide
+CITATION
+HaoM,DuanB,LengG,LiuJ,LiS,WangS into useful chemicals and fuels has gained significant interest. Recently,
+andQuJ(2023),Exploringthe indium–copper (In–Cu) alloys have been recognized as prospective catalysts
+mechanisticroleofalloyingelementsin for the carbon dioxide reduction reaction (CO RR), although they chiefly yield
+copper-basedelectrocatalystsforthe 2
+reductionofcarbondioxidetomethane. carbon monoxide. Generating further reduced C 1 species such as methane
+Front.Chem.11:1235552. remains elusive due to a limited understanding of how In–Cu alloying impacts
+doi:10.3389/fchem.2023.1235552
+electrocatalysis.Inthiswork,weinvestigatedtheeffectofalloyingInwithCufor
+COPYRIGHT CO RRtoformmethanethroughfirst-principlessimulations.Comparedwithpure
+2
+©2023Hao,Duan,Leng,Liu,Li,Wang copper, In–Cu alloys suppress the hydrogen evolution reaction while
+andQu.Thisisanopen-accessarticle
+distributedunderthetermsofthe demonstrating superior initial CO 2 RR selectivity. Among the alloys studied,
+CreativeCommonsAttributionLicense In Cu exhibited the most promising catalytic potential, with a limiting
+7 10
+(CCBY).Theuse,distributionor potential of −0.54V versus the reversible hydrogen electrode. Analyses of
+reproductioninotherforumsis
+permitted,providedtheoriginalauthor(s) adsorbed geometries and electronic structures suggest that this decreased
+andthecopyrightowner(s)arecredited overpotential arises primarily from electronic perturbations around copper and
+andthattheoriginalpublicationinthis indium ions and carbon–oxygen bond stability. This study outlines a rational
+journaliscited,inaccordancewith
+acceptedacademicpractice.Nouse, strategy to modulate metal alloy compositions and design synergistic CO 2 RR
+distributionorreproductionispermitted catalysts possessing appreciableactivityand selectivity.
+whichdoesnotcomplywiththeseterms.
+KEYWORDS
+first-principles calculations, electrochemical CO reduction reaction, alloying effect,
+2
+In–Cualloycatalyst,overpotential
+1 Introduction
+ElectrochemicalreductionofCO intofuelsisapromisingmeasuretomitigateglobal
+2
+warmingandaddresstheenergycrisis(Jamesetal.,2006;Schwartz,2008;Handokoetal.,
+2018a;Bushuyevetal.,2018;DeLunaetal.,2019;BhosaleRashid,2022;Kangetal.,2023).
+One of the core technologies in this transformation process is the application of efficient
+electrocatalysts. However, existing catalysts are still unable to meet the requirements for
+commercial applications because of their high overpotentials and low partial current
+densities (Colin et al., 2012; Luo et al., 2022;Timoshenko et al., 2022). Hori et al.(1989)
+performedpioneeringstudiesonthecarbondioxidereductionreaction(CO RR),inwhich
+2
+most of the transition metal catalysts are studied. In fact, only Cu metal is capable of
+FrontiersinChemistry 01 frontiersin.org
+
+Haoetal. 10.3389/fchem.2023.1235552
+producinglargeamountsofhydrocarbonsfromCO ,butitremains predominant reduction product, and the overpotential range is
+2
+inefficient and requires a large overpotential (Calle-Vallejo and high (Jedidi et al., 2015; Hoffman et al., 2017; Luo et al., 2018;
+Koper, 2013; Ledezma-Yanez et al., 2016; Garza et al., 2018). Barasaetal.,2019).TheformationoffurtherreducedC products,
+1
+Inevitably, the hydrogen evolution reaction (HER) competes with suchasCH ,remainselusive.ThisisbecausethealloyingeffectofIn
+4
+theCO RR,resultinginreducedreactionefficiencyandselectivity. and Cu metals is not well understood, leading to difficulties in
+2
+In particular, the HER occurs at a limiting potential of controlling the In–Cu alloy composition to fine-tune the catalyst
+approximately −0.5V (versus a reversible hydrogen electrode activityandselectivity.Overall,theoreticalstudiesofthesynergistic
+(RHE); all potentials in this paper are versus RHE unless alloying effectin In–Cu catalystsfor theCO RRarestill lacking.
+2
+otherwise specified), but CH only starts to form at potentials of Inthe present work, thealloying effect ofInwith Cu metal is
+4
+approximately −0.8V (Hori et al., 1989; Hori, 2008). In fact, a systematicallyinvestigatedthroughfirst-principlescalculations.We
+potentialof−1.0Visrequiredforadecentcurrentdensity(toCH ) exploreCO RRpropertiesoverCuandInmetalsandfourdifferent
+4 2
+of 2mAcm-2. Therefore, the design of highly active catalysts In–Cualloysfromtheperspectiveofthermodynamicsandkinetics.
+remains a major challenge in this field. As the process involves ItisfoundthattheintroductionofIncanimprovetheselectivityof
+complex multi-electron and proton coupling steps, tuning the thecatalystandreducetheoverpotentialforCO RR.Thealloyingof
+2
+catalystselectivity isequally, ifnotmore, challenging. InandCumetalsprovidesCu-basedcatalystssuperiorselectivityin
+StudieshaveproposedthatalloyingCuwithothermetals,such the initial stage of the CO RR. For subsequent hydrogenation of
+2
+as Au, Pd, and Sn, is an effective approach to enhancing CH *CO, the In–Cu alloys also exhibit a lower overpotential than Cu
+4
+selectivity at alower overpotential (Hansen et al., 2016; Lee et al., metal.Amongthesefourdifferentalloys,In Cu possessestheleast
+7 10
+2018;TranandUlissi,2018;Xieetal.,2018).PetersonandNørskov negativeCO RRlimitingpotentialof−0.54V.Atthesametime,the
+2
+(2012) predicted theoretically that *CO (* represents a surface competingHERissignificantlysuppressedduetoweakbindingwith
+adsorption species) cannot be stably adsorbed on a single metal H atoms. In order to clarify such a catalytic effect, the atomic
+surface and that a second metal with stronger oxygen affinity is adsorption configuration, the bonding characteristics, and the
+needed to enable adsorption of both *CO and *CHO at suitable electron transfer of intermediate species were systematically
+potentials.Tothisend,alloycatalystsarebelievedtoproduceCH at analyzed by Bader charge, partial density-of-state (PDOS), and
+4
+high selectivity by changing the binding strength of the key charge density analysis. The results indicate that the introduction
+intermediates, such as *COOH, *OCHO, *CO, *CHO, and *COH ofInmetalchangesthestabilityofintermediatesandtheelectronic
+(Nie et al., 2016; Nie et al., 2018). For example, Rodriguez et al. structurearoundCumetal,therebyimprovingthecatalyticactivity
+showed that Au@Cu nanoparticles with well-defined surface significantly.
+structures can selectively reduce CO to CH , but the H
+2 4 2
+formation increases with the number of Cu metal layers (Monzo
+etal.,2015).Gongetal.studiedPd–Cualloycatalystswithdifferent 2 Methods and modeling
+structuresandsuggestedthatCu Pdcandecreasetheonsetpotential
+3
+forCH by200mVandshowaseven-foldincreaseinCH current In this work, the first-principles calculations are performed
+4 4
+density at −1.2V (Zhu et al., 2018). Recently, Cui et al. found based on density functional theory (DFT) as implemented in the
+electrondonationfromSntoCuinCuSn alloycatalysts,resultingin Vienna Ab initio Simulation Package (VASP) code (Kresse and
+3
+Snδ+oxidationstatesconsistentwiththeory,aswellassignificantly Furthmüller, 1996; Hafner and Kresse, 1997; Kresse and Joubert,
+improved selectivity of95%at −0.5V(Zheng etal., 2019). 1999).Theprojectoraugmentedwave(PAW)pseudopotentialwas
+Indium, as an sp-block metal, exhibits completely different adopted, and the generalized gradient approximation (GGA), as
+catalytic properties compared to Cu metal. The CO RR on In parametrized by Perdew–Burke–Ernzerhof (PBE) (Perdew et al.,
+2
+metal mainly produces large amounts of HCOOH and CO, in 1993;Perdewetal.,1996;Perdewetal.,1998),wasusedtotreatthe
+addition to showing strong inhibition to the HER (Bitar et al., exchange-correlationeffectsofelectrons.Allsimulationsuseacutoff
+2016;Luoetal.,2019).However,theformationofHCOOHrequires energyof500eV.Duringstructurerelaxation,themaximumforce
+apotentialof−1.8Vtoachievethehighestcurrentefficiency(Hori convergence accuracy acting on each atom is 0.01eV/Å, and the
+etal.,1989).ThesestudiesindicatethatthebondingstrengthsofIn totalenergyerrorisnotmorethan1.0×10−4eV.Toeliminatethe
+andCumetalstointermediatespeciessuchas*COOHand*OCHO interactionoftheatomsbetweentheslabsandavoidtheinterference
+are different. Takanabe et al. synthesized Cu–In alloy surfaces for of periodic alignment, the vacuum is set as large as 15Å. The
+electrochemical reduction of CO from mixed metal oxides of BrillouinzonewassampledusingaMonkhorst–Packk-pointmesh
+2
+CuInO as the starting material. The sample was found to of5×5×1forthe3×3×1supercell.Wealsoincludedthevander
+2
+remarkably improve the selectivity of the CO reduction to form Waals(vdW)correctionsbyapplyingthevdW-DF2methodtoall
+2
+CO and formic acid, with a total FE of 94% for CO conversion thesystems.Inthiswork,theclimbingimage-nudgedelasticband
+2
+(Jedidietal.,2015).Giovannietal.foundthatthepotentialrangeof (CI-NEB) method (Henkelman et al., 2000; Henkelman and
+theelectrochemicalreductionofCO atCu–Inalloyelectrocatalysts Jónsson, 2000) is applied to search for the transition state and
+2
+of some compositions is −0.8 to −1.1V vs. RHE (Hoffman et al., calculate theactivation barrier ofthe reaction.
+2017). Andreas et al. studied that with a thin layer of metallic In The CORR involves a multi-proton transfer step that produces
+2
+depositedonthesurfaceoftheCunanowires,thecatalystexhibitsa many intermediate species (Handoko et al., 2018b; Handoko et al.,
+COFaradaicefficiencyof~93%at−0.7to−0.9Vvs.RHE(Luoetal., 2019).Here, wefocusedonthe catalyticeffectofCumetalandfour
+2018).ItcanbeseenthatIn–Cualloyshavealsobeenexploredfor differentIn–Cualloysfromthephasediagram,namely,InCu,InCu,
+3 7 4 9
+CO RR, and they are mostly found to produce CO as the InCu, and InCu . We optimized the bulk structure of the four
+2 2 7 10
+FrontiersinChemistry 02 frontiersin.org
+
+Haoetal. 10.3389/fchem.2023.1235552
+different alloys and then cut the different crystal facets according to inordertoinvestigatetheHERactivity.ThefreeenergyfortheHER
+different Miller indices. Each slab is a five-layer structure, with the wasalsocalculatedandisplottedinSupplementaryFigureS9.The
+bottomthreelayersfixedandtheothersfullyrelaxed.Weselectedthe limiting potentials for HER on In–Cu alloys range from −0.71V
+close-packedfacetofeachalloywithenoughstabilityandmoreactive to−0.63V,muchmorenegativethanthatonCumetal(−0.38V).In
+sites.The[111]facetofCumetal,the[111]facetofInmetal,the[2-32] metalshowsthestrongestinhibitioneffectonHER,onwhichthe*H
+facetofInCu,the[01–1]facetofInCu,the[100]facetofInCu,and adsorptionneedstoovercomeanenergyof0.81eV.Thus,theIn–Cu
+3 7 4 9 2
+the[0-10]facetofInCu wereadoptedforthemodelingsimulation.In alloys are predicted to be less active than Cu metal for the HER,
+7 10
+order to search for the most stable adsorption configuration of clearly indicating that the competitive HER can be efficiently
+intermediate species, the lowest binding energies of 16 different suppressed onalloysurfaces.
+adsorbed species, *COOH, *OCHO, *CO, *CHO, *COH, *H, *CH, Continuously,weinvestigatedtheeffectofIn–Cualloystructure
+*CH,*CH,*C,*O,*OH,*CHO,*OCH,*CHOH,and*CHOH,are on the initial hydrogenation of CO to *COOH and *OCHO
+2 3 2 3 2 2
+calculated. Herein, the binding energies are calculated using the intermediates. The energy profiles associated with these
+followingequation(Chuanetal.,2014): elementary steps are plotted in Figure 1. The Gibbs free energy
+diagramsforCO -to-*COandCO -to-HCOOHcanbecalculated
+E (cid:1)E −(cid:1)E +xE +yE +zE (cid:3), 2 2
+bind,CxHyOz slab+CxHyOz slab f,C f,H f,O using thefollowing reaction steps:
+where E slab+CxHyOz represents the electronic energy of the CO
+2
++(H++e−)→p COOH
+slab–adsorbate complex minus the electronic energy of the clean pCOOH+(H++e−)→p CO+H O
+2
+slab and the formation energies of C, H, and O. The formation CO +(H++e−)→ p OCHO
+2
+energycanbeobtainedbylinearlycombiningthegas-phaseelectron
+pOCHO+(H++e−)→HCOOH
+energies ofCO,H O,and H .
+2 2
+Inthiswork,weadoptedthecomputationalhydrogenelectrode Here,theasterisk(*)representsasurfaceadsorptionspeciesoran
+(CHE) model to simulate the hydrogenation process of emptyadsorptionsite.AsshowninFigure2A,*COOHisfoundto
+electrochemical reduction of CO 2 . In the CHE model, the free be the key reaction intermediate for CO 2 -to-*CO. Moreover, the
+energy of each adsorbate along a reaction pathway that involves requiredreactionenergyforthissteponCumetal(0.56eV)islarger
+coupledproton–electrontransfersiscalculatedusingthefollowing thanthatonIn–Cualloys.Particularly,In Cu requiresthelowest
+7 10
+equation (Nørskovet al.,2004): reactionenergyofonly0.39eV.ForInmetal,althoughthereaction
+ΔG n (U)(cid:1)ΔG n (U(cid:1)0)+neU, energy for CO 2 -to-*COOH is smaller than that for Cu metal
+(0.49eV), the further hydrogenation of *CO to *CHO or *COH
+wherenisthenumberofprotonsandelectronstransferredandUisthe becomes difficult to occur because of the much higher reaction
+potentialversustheRHE.ΔG n (U(cid:1)0)isthefreeenergyat0Vversus energyof1.6eV.Therefore,catalyzingCO 2 tohydrocarbonsusing
+the RHE. It can be calculated as the free energy of an equivalent Inmetal israther difficult(Jitaru et al.,1997).
+hydrogenation step, where the chemical potential of each Asacompetitivereaction,thereactionofCO -to-*OCHOisalso
+2
+proton–electron pair can be replaced by the chemical potential of studied. In the pursuit of unraveling the intricate behavior of
+H at1barbecauseprotonsandelectronsareinequilibriumwithH at catalytic systems, a noteworthy discovery has been made with
+2 2
+1bar at 0V. To calculate this, zero-point energy and entropic regard to the stable bidentate *OCHO configuration. This
+correctionsthroughvibrationalfrequenciesarealsosimulated,which configuration arises from a fascinating interplay between the C
+canbeachievedbytheharmonicapproximation. atomandtheHatom,resultinginthebondingoftwoOatomstothe
+surfaceofthecatalyst(asillustratedinFigure1).Tofurtherprobe
+theenergeticlandscapeofthiscatalyticphenomenon,theGibbsfree
+3 Results and discussion
+energyassociatedwiththeconversionofCO toHCOOHhasbeen
+2
+meticulously calculated (as demonstrated in Figure 2C). A
+In order to clarify the effect of In–Cu alloy structure on CH compelling observation emerges, revealing that the reaction
+4
+synthesis, we investigated the inhibition of the competitive HER, energy for CO -to-*OCHO on In metal and its distinct
+2
+adsorption configuration, and electronic structure of key amalgamations with Cu is negative. Intriguingly, on the sole Cu
+intermediates, as well as the energy profiles associated with CO metal substrate, this energy is measured to be a modest 0.1eV.
+2
+hydrogenation on Cu metal, In metal, and four different In–Cu Such discerning disparities in energy profiles underscore the
+alloys. Since the initial hydrogenation of CO determines whether it thermodynamic favorability of *OCHO formation on the
+2
+canbereducedtohydrocarbons,westudythisstagefromtheperspective aforementioned alloys. Drawing parallels to the adsorption of
+of thermodynamics and kinetics. Finally, the effect of alloying on the *COOH, it becomes apparent that the stability of the *OCHO
+limitingpotentialforhydrogenationofCO toCH isanalyzed. adsorption configuration escalates in tandem with the proportion
+2 4
+ofInatomcontentwithinthealloy.Thisobservationhighlightsthe
+synergisticeffectsbetweenInandCuatomsinpromotingenhanced
+3.1 Effect of In–Cu alloy structure on the stability withinthe catalyticsystem. Figure 2B showsthedifferent
+initial hydrogenation of CO 2 trends of limiting potential for *CO and HCOOH on these five
+differentcatalysts,indicatingthattheintroductionofInmetalcan
+BeforeinvestigatingtheCO RRcatalyticactivity,theadsorption result in stronger selectivity at the initial hydrogenation stage
+2
+capacitiesforHatomsonthesesixdifferentcatalystsareconsidered ofCO .
+2
+FrontiersinChemistry 03 frontiersin.org
+
+Haoetal. 10.3389/fchem.2023.1235552
+FIGURE1
+Adsorptionconfigurationofintermediate*COOHon(A)Cumetal,(B)In3Cu7,(C)In4Cu9,(D)InCu2,and(E)In7Cu10.Adsorptionconfigurationof
+intermediate*OCHOon(F)Cumetal,(G)In3Cu7,(H)In4Cu9,(I)InCu2,and(J)In7Cu10.
+ItcanberationallypredictedthatthedistinctCO RRactivityon InatomsontheIn Cu catalyst.ItcanalsobeseenfromthePDOS
+2 7 10
+In–Cu alloys can be attributed to the introduction of In metal. In profiles (Figure 2D) that the energy level of higher hybridization
+ordertoexplicatethisphenomenon,theadsorptionconfigurations betweentheOatomandCuatomis−7.2eV,whiletheenergylevel
+of *COOH and *OCHO species on the surfaces of five distinct ofhybridizationbetweentheOatomandInatomontheIn Cu
+7 10
+catalysts (Cu, In Cu , In Cu , InCu , and In Cu ) are visually surfaceshiftsto−8eV.Thelowerlevelindicatesthattheformation
+3 7 4 9 2 7 10
+depicted in Figure 1. Within the context of Cu metal, both the C oftheO–Inbondismorefavorablefor*OCHOontheIn–Cualloy
+atom and the O atom in the *COOH moiety exhibit an affinity catalysts.
+towardbondingwiththeCuatom.Conversely,uponconsideringthe The Gibbs free energy changes (ΔG) are closely related to the
+In–Cualloycatalysts,theOatomevincesaproclivitytoestablisha chargetransferofkeyions.Inordertoproveit,wecalculatedthe
+bondwiththeInatom,whiletheCatompersistsinexhibitingan chargedensitydifferenceofthe*COOHand*OCHOatomiclayers
+inclination to bond with the Cu atom. This amalgamation of for Cu metal and four different In–Cu alloy catalysts (Figure 3).
+bonding modalities engenders a hybridized bonding mode, Meanwhile,theBaderchargesonthekeyOandCionsinvarious
+thereby conferring enhanced stability upon the adsorption of the intermediates have also been quantitatively calculated. We
+*COOH species. This increased stability can be further explicated calculated the Bader charges in the initial state *CO (e ) and
+2 ini
+and corroborated through the employment of partial density-of- final state *COOH/*OCHO (efin ) and focused on the difference
+state(PDOS)analysis,asdenotedinSupplementaryFigureS1.On between them (Δe = efin − e
+ini
+). The Δe values for both CO
+2
+-to-
+Cumetal,theenergylevelofbondingbetweentheOatomsinthe *COOH and CO -to-*OCHO reaction steps are summarized in
+2
+*COOH and the Cu atoms on the surface is −7.5 eV, while the Table1.For*OCHO,thechargechangeintheOionsisconsidered
+bondingbetweentheOandInatomsonalloftheIn–Cualloysshifts tobecloselyrelatedtoΔG.AsshowninTable1,theOiononCu
+toalowerenergylevel.ForIn Cu ,In Cu ,InCu ,andIn Cu ,the metalcanonlycaptureapproximately0.15efromtheCuion.Based
+3 7 4 9 2 7 10
+typical bonding peaks correspond to the energies on the results of the PDOS analysis of bonded Cu atoms at the
+of −7.7 eV, −8.4 eV, −8.0eV, and −8.4 eV, respectively. It is surfaceandbulkCuatoms,wefoundthattheirelectronicstructures
+worth noting that the introduction of In metal cannot destroy showdifferentdistributions.Thepeaksofthep andp orbitalsof
+x y
+the bonding between C and Cu atoms. Thus, this mixed bonding CumetalaresignificantlyreducedaroundtheFermilevelafterCO
+2
+mode induced by In–Cu alloys is beneficial to the stability of adsorption,whilethepeaksofthep orbitalshifttoahighenergy
+z
+*COOH. A similar effect also exists on the surface adsorption of level (Supplementary Figure S3). At the same time, it can also be
+the *OCHO intermediate. As shown in Supplementary Figure S1, clearly observed from Figure 3A that a large amount of charge is
+both O atoms in *OCHO forms a bond with Cu atoms on the transferredfromthep top orbitinsidetheCuion,whichclearly
+z x
+surfacesofCu,In Cu ,andIn Cu catalystsbutformsabondwith indicates that the on-site orbit transfer dominates when the
+3 7 4 9
+FrontiersinChemistry 04 frontiersin.org
+
+Haoetal. 10.3389/fchem.2023.1235552
+FIGURE2
+(A)Freeenergydiagramsforthelowestenergypathwaysto*COforCumetal,Inmetal,In3Cu7,In4Cu9,InCu2,andIn7Cu10.(B)Limitingpotential
+requiredforCO2-to-*COandCO2-to-HCOOHonCumetal,In3Cu7,In4Cu9,InCu2,andIn7Cu10.(C)Freeenergydiagramsforthelowestenergy
+pathwaystoHCOOHforCumetal,Inmetal,In3Cu7,In4Cu9,InCu2,andIn7Cu10.(D)Densityofstatesoftheintermediate*OCHOadsorbedontheCuand
+In7Cu10slabs.
+FIGURE3
+Chargedensitydifference(thedifferencebetweenthechargespatialdistributionbeforeandafterspeciesadsorption.Theisosurfacelevelissetto
+1.49911e·nm-3)for*OCHOon(A)Cumetal,(B)In3Cu7,(C)In4Cu9,(D)InCu2,and(E)In7Cu10.Chargedensitydifferencefor*COOHon(F)Cumetal,(G)
+In3Cu7,(H)In4Cu9,(I)InCu2,(J)In7Cu10.
+FrontiersinChemistry 05 frontiersin.org
+
+Haoetal. 10.3389/fchem.2023.1235552
+TABLE1BaderchargesofC/OionandCu/Inionindifferentslabs.Δe=e ini −e fin cannotplayakeyroleintheinhibitionofHCOOHformation,which
+(wheree ini representsthechargeofinitialconfigurationande fin representsthe can be viewed as an important reason for its poor selectivity (Xie
+finalconfiguration).
+et al., 2016). This advantage has been expanded on In Cu and
+3 7
+System ΔG Δe Δe In Cu .ForIn Cu ,thebarrierfor*COOHis0.3eVlowerthanthat
+4 9 3 7
+for*OCHO,whileforIn Cu ,thedifferencewasalsoincreasedto
+Cu-OCHO 0.08 O 0.08 Cu −0.15 4 9
+0.28eV.However,suchareactiontrendhasbeenchangedonInCu
+2
+O 0.07 Cu −0.14 and In Cu . For InCu , the barrier for *OCHO is 0.31eV lower
+7 10 2
+In3Cu7-OCHO −0.15 O 0.12 Cu −0.18 than that for *COOH. In addition, for In 7 Cu 10 , this difference is
+further expanded to 0.45eV. Considering both aspects of
+O 0.10 Cu −0.16
+thermodynamics and kinetics, we can clearly see that these four
+In4Cu9-OCHO −0.19 O 0.13 Cu −0.17 In–CualloysexhibitdifferentselectivitiesforCO 2 -to-*COandCO 2 -
+to-HCOOH. For In Cu and In Cu , their thermodynamic-based
+O 0.12 Cu −0.17 3 7 4 9
+pathway is consistent with the kinetic-based pathway, indicating
+InCu2-OCHO −0.31 O 0.12 Cu −0.26 thatthealloyingeffectismoreconducivetofurtherhydrogenation
+O 0.19 In −0.28 of *CO. However, for InCu 2 and In 7 Cu 10 , their kinetic-based
+pathways exhibit an opposite tendency to the thermodynamic-
+In7Cu10-OCHO −0.65 O 0.17 In −0.27 basedpathways.AccordingtotheEryingequation(k(cid:1)kB
+h
+TK≠
+c
+,K≠
+c
+(cid:1)
+O 0.16 In −0.26 ALe− R E T 0) (Eyring, 1935), the hydrogenation reaction follows a
+thermodynamically favorable path (CO -to-*CO) at a lower
+Cu-COOH 0.56 C 0.77 Cu −0.14 2
+temperature. However, as the reaction temperature increases, the
+O 0.09 Cu −0.11 kinetically favorable path (CO -to-HCOOH) takes a significant
+2
+In3Cu7-COOH 0.48 C 0.82 Cu −0.14 advantage. Despite this, the formation of HCOOH becomes still
+difficult on InCu and In Cu due to the high overpotential
+O 0.15 In −0.25 2 7 10
+requirements. Therefore, at mild reaction temperatures and lower
+In4Cu9-COOH 0.44 C 0.87 Cu −0.16 negative reaction potentials, In–Cu alloys can exhibit better
+selectivity than Cu metal for CO -to-*CO/CO -to-HCOOH,
+O 0.17 In −0.25 2 2
+which indicates that the In–Cu alloy is more promising to reduce
+InCu2-COOH 0.42 C 0.89 Cu −0.16 CO
+2
+to hydrocarbons.
+O 0.16 In −0.26
+In7Cu10-COOH 0.39 C 0.89 Cu −0.21 3.2LimitingpotentialforCO hydrogenation
+2
+O 0.17 In −0.26 to CH 4 over In–Cu alloys
+In order to investigate the limiting potential for CO
+2
+intermediate interacts with Cu metal. For In Cu and In Cu , the hydrogenation to CH over In–Cu alloys, we calculated the
+3 7 4 9 4
+electrons around Cu ions are still undergoing an orbital transfer complete Gibbs free energy phase diagram. Combining
+(Figure 3B; c), but the Bader charge indicates that more electrons thermodynamics and kinetics, the optimal paths to CH on Cu
+4
+transfer to the O ion from the Cu ion. This proves that the metal and four different In–Cu alloys are determined (Figure 5,
+introduction of In ions can inhibit the on-site electron orbital SupplementaryFiguresS4–S8).Wedefinethepathwaysaspathway
+transfer on the Cu ion and promote electron migration to the O A:CO →*COOH→*CO→*CHO→*CH O→*CH O→CH +
+2 2 3 4
+ion. For both InCu and In Cu catalysts, the In ion gradually *O → *OH → H O and pathway B: CO → *COOH → *CO →
+2 7 10 2 2
+replacedtheCuiontobondwith*OCHO,inducinganincreasing *CHO→*CHOH→*CH→*CH →*CH →CH .Since*CH O
+2 3 4 2
+amountofchargearoundOions(average0.18e).Forthe*COOH and*CH OarenotstableontheInCu catalyst,theoptimalpathfor
+3 2
+configuration, charge transfer follows a similar trend to *OCHO, InCu ispathwayAwhilethatfortheotherthreedifferentIn–Cu
+2
+andtheintroductionofInionscanalsomaketheCuionlosemore alloys is pathway B. We focus on the hydrogenation of *CO to
+electrons.AsthecontentoftheInionincreases,theCandOionsin *CHO, as it is a key step for further hydrogenation. As shown in
+*COOHreceivemorecharge,whichisconsistentwiththetrendof Supplementary Figure S4, the reaction energy for this step on Cu
+theΔGforCO -to-*OCHO(moreandmorenegative).Therefore,it metalis0.87eV,whichmeansarelativelylargelimitingpotentialfor
+2
+canbeclearlyseenthattheInioncannotonlyenhancethebinding thesubsequenthydrogenation.Theresults(SupplementaryFigures
+strength of the CO RR intermediate but also regulate the charge S5–S8)showthat thereactionenergies forIn Cu ,In Cu ,InCu ,
+2 3 7 4 9 2
+distribution around theCu ions. andIn Cu are0.69eV,0.71eV,0.65eV,and0.54eV,respectively.
+7 10
+ThekineticpropertiesofIn–Cualloysalsoplayadecisiverolein Inparticular,thelimitingpotentialissmallerthan0.6VonIn Cu .
+7 10
+theefficiencyoftheCO RR.Here,weadopttheCI-NEBschemeto ThecalculationresultsshowthattheIn–Cualloyshavethepotential
+2
+compute the activation barrier of the initial key step: CO -to- toexhibitbettercatalyticperformancefortheCO RRthanCumetal.
+2 2
+*COOH and CO -to-*OCHO on Cu metal and four different In order to analyze the mechanism of the reduced reaction
+2
+In–Cu alloys, while the energy evolution profiles are shown in energy for the key step, we performed Bader charge and bonding
+Figure 4. For Cu metal, the barriers for *COOH is 0.1eV lower analysis on *CO and *CHO configurations. It can be reasonably
+than that for *OCHO. Such a negligible advantage on the barrier predictedthatonlyInatomsnearthemoleculecanparticipateinthe
+FrontiersinChemistry 06 frontiersin.org
+
+Haoetal. 10.3389/fchem.2023.1235552
+FIGURE4
+(A)ThegraphontheleftshowsCO2-to-*COOHonCumetal,andthegraphontherightshowsCO2-to-*OCHOonCumetal.Thereaction
+pathwaysontheIn–CualloysarethesameasthoseonCumetal.Thesixpositionsofthetransferredproton(yellowontheleftandpinkontheright),theH
+atoms(whiteinHOmolecules),Oatoms(red),andCatoms(gray),startingwiththeinitialstateandendingatthefinalstate,areshown.Thetransition
+2
+energybarrierfortheCO-to-*COOHandCO-to-*OCHOreactionsof(B)Cumetal,(C)InCu,(D)In Cu ,(E)InCu,and(F)InCu .
+2 2 3 7 4 9 2 7 10
+FIGURE5
+(A)Freeenergydiagramsforthelowestenergypathwaysto*CHOonCumetal,InCu,In Cu ,InCu,andInCu .(B)Freeenergydiagramsforthe
+3 7 4 9 2 7 10
+lowestenergypathwaystoCH onInCu .Thepathwayinblack(higher)representsthefreeenergyat0Vvs.RHE,andthepathwayinred(lower)
+4 7 10
+representsthefreeenergyattheindicatedpotential.(C)TwodifferentpathwaysforhydrogenationofCO toCH .
+2 4
+FrontiersinChemistry 07 frontiersin.org
+
+Haoetal. 10.3389/fchem.2023.1235552
+FIGURE6
+(A)NumberofeffectiveInatomsinvolvedinthereactiondeterminedbytheBadercharge(markedbytheyellowcross).(B)Schematicdiagramofthe
+HatominjectingelectronsintoC-ObondstomaintainC-Obondstability.(C)d-bandcenterfortheCuatominCumetal,In4Cu9,In3Cu7,InCu2,and
+In7Cu10.
+reactionof*COto*CHO,sowefirststudiedtheeffectiveinteraction Based on the calculation results of the d-band center, we
+distance.WecalculatedtheBaderchargeofallionsintheslabbefore reasonably predict that the C-O bonds on all of the alloy
+andafter*COadsorptiononCumetal,In Cu ,In Cu ,InCu ,and catalysts are more stable than those on Cu metal. In order to
+3 7 4 9 2
+In Cu . Then, the effective radius of 5.5Å can be determined confirm this, we further calculated the crystal orbital Hamilton
+7 10
+around the adsorption site, where the charge change on In ions population (COHP) (Deringer et al., 2011; Maintz et al., 2013;
+is greater than 0.1 e. The absolute value of the charge change is Maintz et al., 2016) for the C-O bond on Cu metal and four
+negligibleoutofthisrange.AsshowninFigure6A,thenumbersof different In–Cu alloys, as shown in Figure 7A. When *CO is
+effectiveInionsinIn Cu ,In Cu ,InCu ,andIn Cu are5,4,6, adsorbed on Cu metal, the anti-bonding level of the C-O bond
+3 7 4 9 2 7 10
+and 8, respectively. At the same time, we counted the amount of will be partially filled, but on In–Cu alloys, such an anti-bond
+chargeonC-Opairsin*COand*CHOandfoundthatitremained occupation effect becomes insignificant. It is worth noting that
+almostthesameduringtheprocessof*CO-to-*CHO.However,the the bonding levels of the C-O bond gradually shift to lower
+BaderchargeofHionsundergoessignificantchanges.ForCumetal, energy regions in the order of Cu, In Cu , In Cu , InCu , and
+4 9 3 7 2
+In Cu ,In Cu ,InCu ,andIn Cu ,thechargeonHionsis0.81e, In Cu ,whichisconsistentwiththetrendofpotential.Occupied
+3 7 4 9 2 7 10 7 10
+0.90e,0.92e,0.95e,and0.97e,respectively.Therefore,wepredict anti-bond states and higher bonding states indicate that the C-O
+that the C-O bond needs to be stable to ensure that it cannot be bond is more unstable on Cu metal than on In–Cu alloys. For
+brokenduringfurtherhydrogenation(*CO→*CHO→*CH Oor comparison,wecalculatedtheCOHPforfreestandingCOmolecules
+2
+*CO→*CHO→*CHOH).TheaddedHionsareresponsiblefor inthesefivedifferentcatalysts,asshowninFigure7C.Theresults
+injectingelectronsintotheC-Obondtomaintainitsstability,which confirmthattheanti-bondstateisoccupiedafterthefreestanding
+is related to ΔG of the H adsorption process (Figure 6B). CO molecule is adsorbed on the catalyst surface. In order to
+Furthermore, we extracted Cu atoms in the effective interaction characterize the destruction of the C-O bond by the catalyst
+rangetocalculatetheird-bandcenter,asshowninFigure6C.Itcan surface, we calculated the bond state integration of the C-O bond
+be found that as the number of effective In atoms increases, the beforeandafterfreestandingCOmoleculeadsorptionandfocused
+d-band center gradually shifts away from the Fermi energy level, on the integration difference between them (Figure 7B). It can be
+indicatingthattheintroductionofInmetalnotonlyregulatesthe seen that the destruction effect caused by the catalyst is also
+chargetransferaroundCuionsbutalsoaffectstheird-bandcenter. decreasing in the order of Cu, In Cu , In Cu , InCu , and
+4 9 3 7 2
+Asaresult,thedissociationeffectfromthedorbitelectrontothe In Cu . Particularly for the In Cu catalyst, the bonding state
+7 10 7 10
+C-Obond is weakened. ofC-OafterCOmoleculeadsorptionisalmostthesameasinthe
+FrontiersinChemistry 08 frontiersin.org
+
+Haoetal. 10.3389/fchem.2023.1235552
+FIGURE7
+(A)-COHPforC-Obondsin*COonCumetal,In Cu ,InCu,InCu ,andInCu .(B)ReductionofC-ObondintegrationafterfreestandingCOis
+4 9 3 7 2 7 10
+adsorbedonfivedifferentcatalystsurfaces.(C)-COHPforC-ObondsinCOand*COonCumetal,In Cu ,InCu,InCu ,andInCu .
+4 9 3 7 2 7 10
+freestandingcase.Therefore,weconfirmedthattheintroductionof Data availability statement
+In metal will regulate the electronic structure around Cu metal,
+resulting in changeable stability of the surface intermediates and Theoriginalcontributionspresentedinthestudyareincludedin
+finallyaffecting thereaction energy offurther hydrogenation. thearticle/SupplementaryMaterial;furtherinquiriescanbedirected
+to thecorresponding authors.
+4 Conclusion
+Author contributions
+Insummary,westudiedthecatalyticpropertiesofIn–Cualloysfor
+theCORRandfoundthatIn–Cualloyspossessbetterselectivityforthe MH: Investigation of literature papers and writing the
+2
+initialstageofCORRandrequirelessnegativepotentialforCORRto original draft. BD: suggestion and providing date. GL: Plot
+2 2
+form CH. The InCu catalyst is found to be the most promising the figures of article and supplement the simulation. JL:
+4 7 10
+catalyst,withalimitingpotentialof−0.54V.Bydeeplyinvestigatingthe language polishing and modification. SL: making of a
+mechanismattheatomiclevel,itisfoundthatInmetalimprovesthe proposal and sharing information. SW: investigation of
+selectivitybyaffectingthestabilityoftheadsorptionconfiguration.In literature papers, editing, and data curation. JQ:
+addition, In metal can adjust the electron transfer between the writing—review and editing. All authors contributed to the
+intermediate species and Cu metal, thereby affecting the reaction article and approved the submitted version.
+energy. The introduction of In metal shifts the Cu d-band center to
+amorenegativeenergylevel,whichcanchangethestabilityof*COand
+Funding
+facilitatefurtherhydrogenation.Asaresult,comparedwithCumetal,
+theIn–Cualloyscanleadtocompletelydifferentcatalyticactivityfor
+CORR and effectively lower the overpotential required for CORR. ThisstudywasfundedbytheScientificResearchFoundationof
+2 2
+OurstudydemonstratesthepromiseofIn–CualloysinCORRand,at BinzhouMedicalUniversity(No.500112304600)andtheShandong
+2
+thesametime,providesnewinsightsintodesigningothersynergistic Provincial Small and Medium-sized Enterprise Promotion (Nos
+metalalloycatalystswithhighactivityandselectivity. 2022TSGC1354 and 2022TSGC2552).
+FrontiersinChemistry 09 frontiersin.org
+
+Haoetal. 10.3389/fchem.2023.1235552
+Conflict of interest
+organizations, or those of the publisher, the editors, and the
+reviewers. Any product that may be evaluated in this article, or
+The authors declare that the research was conducted in the claimthatmaybemadebyitsmanufacturer,isnotguaranteedor
+absenceofanycommercialorfinancialrelationshipsthatcouldbe endorsed bythe publisher.
+construed as apotential conflict ofinterest.
+Supplementary material
+Publisher’s note
+TheSupplementaryMaterialforthisarticlecanbefoundonline
+Allclaimsexpressedinthisarticlearesolelythoseoftheauthors at: https://www.frontiersin.org/articles/10.3389/fchem.2023.1235552/
+and do not necessarily represent those of their affiliated full#supplementary-material
+References
+Barasa,G.O.,Yu,T.S.,Lu,X.L.,Zhou,X.J.,Wang,H.L.,Qian,L.H.,etal.(2019). Hoffman,Z.B.,Gray,T.S.,Moraveck,K.B.,Gunnoe,T.B.,andZangari,G.(2017).
+Electrochemical training of nanoporous Cu-In catalysts for efficient CO2-to-CO Electrochemicalreductionofcarbondioxidetosyngasandformateatdendriticcopper-
+conversion and high durability. Electrochim. Acta 295, 584–590. doi:10.1016/j. indiumelectrocatalysts.ACSCatal.7,5381–5390.doi:10.1021/acscatal.7b01161
+electacta.2018.10.175
+Hori, Y. (2008). Electrochemical CO2 reduction on metal electrodes. Singapore:
+BhosaleRashid,R.R.S.(2022).ThermodynamicanalysisofMgxFe3-xO4redoxCO Springer.
+2conversionsolarthermochemicalcycle.Int.J.EnergyRes.46(2),923–936.doi:10.
+Hori,Y.,Murata,A.,andTakahashi,R.(1989).Formationofhydrocarbonsinthe
+1002/er.7213
+electrochemicalreductionofcarbondioxideatacopperelectrodeinaqueoussolution.
+Bitar,Z.,Fecant,A.,Trela-Baudot,E.,Chardon-Noblat,S.,andPasquier,D.(2016). J.Chem.Soc.FaradayTrans.1.21,2309–2326.doi:10.1039/f19898502309
+Electrocatalyticreductionofcarbondioxideonindiumcoatedgasdiffusionelectrodes-
+Comparison with indium foil. Appl. Catal. B-Environ. 189, 172–180. doi:10.1016/j. tem Ja p m e e ra s, tu H r . e , c M h a a k n i g k e o . , P S r . o , c R . e N to a , tl R .A ., c K a e d n . , S L ci ., . L U e . a S , . D A . . W 10 . 3 , , a 1 n 4 d 2 M 88 a – r 1 ti 4 n 2 , 9 M 3. . d E o . i: ( 1 2 0 0 . 0 1 6 0 ) 7 . 3 G /p lo n b a a s l .
+apcatb.2016.02.041
+0606291103
+Bushuyev,O.S.,Luna,P.D.,Cao,T.D.,Ling,T.,Saur,G.,Lagemaat,J.V.D.,etal.
+d (2 o 0 i: 1 1 8 0 ) . . 1 W 016 h / a j t .jo sh u o le u .2 ld 01 w 7 e .09 m .0 a 0 k 3 ewithCO2andhowcanwemakeit?Joule2,825–832. C J. u J M e – d I a n i t d . a i C , ll A h o e y ., m s R u . a r 3 s f , u ac 1 l, e 9 s S 0 . 8 f , r 5 M o – m 1 as 9 C i 0 h u 9 , 2 I D n . O . d , o 2 C i a : a 1 s v 0 a s .1 l e l l 0 o e 3 , c 9 t L i / . v c , e 5 a t c n a a d 0 t 5 a T l 6 y a 6 t k 9 ic a a n s a it b e e s , f K or . C (2 O 01 2 5 e ) l . ec G tr e o n r e e r d a u ti c o t n io o n f .
+Calle-Vallejo,F.,andKoper,M.T.M.(2013). Theoreticalconsiderationsonthe
+Jitaru,M.,Lowy,D.A.,Toma,M.,Toma,B.C.,andOniciu,L.(1997).Electrochemical
+7
+el
+2
+e
+8
+c
+2
+tr
+–
+o
+7
+r
+2
+e
+8
+d
+5
+u
+.
+ct
+d
+i
+o
+o
+i
+n
+:1
+o
+0
+f
+.1
+C
+0
+O
+02
+t
+/
+o
+an
+C
+i
+-
+e
+2
+.2
+s
+0
+p
+1
+e
+3
+c
+0
+ie
+1
+s
+47
+o
+0
+nCu(100)electrodes.Angew.Chem.-Int.Ed.52, reductionofcarbondioxideonflatmetalliccathodes.J.Appl.Electrochem.27,875–889.
+doi:10.1023/a:1018441316386
+Chuan,S.,Hansen,H. A.,Lausche, A.C., andNørskov, J.K. (2014). Trends in
+Kang,Z.,Zhou,Y.,Wu,J.,Li,Z.,Yan,X.,Huang,H.,etal.(2023).Super-branched
+C el h ec e t m ro . c C h h e e m m ic . a P l h C y O s. 2 1 r 6 e , d 4 u 7 c 2 ti 0 o – n 4 a 7 c 2 t 7 iv . i d ty oi f : o 1 r 0. o 1 p 0 e 3 n 9/ a c n 3 d cp c 5 lo 4 s 8 e 2 - 2 p h ackedmetalsurfaces.Phys. PdCu alloy for efficiently converting carbon dioxide to carbon monoxide.
+Nanomaterials13(3),603.doi:10.3390/nano13030603
+the
+Co
+e
+l
+l
+i
+e
+n
+c
+,
+tr
+F
+o
+.,
+c
+S
+h
+o
+e
+r
+m
+ch
+ic
+a
+a
+,
+l
+S.
+r
+,
+e
+Y
+d
+e
+u
+l
+c
+lo
+ti
+w
+on
+lee
+o
+s,
+f
+L
+c
+.
+a
+J
+r
+.
+b
+,a
+o
+n
+n
+d
+d
+L
+i
+o
+o
+v
+x
+e
+id
+,
+e
+J.
+.
+B
+C
+.
+h
+(2
+em
+01
+.
+2)
+C
+.
+o
+M
+m
+o
+m
+le
+u
+c
+n
+u
+.
+la
+4
+r
+8
+a
+,
+pp
+13
+ro
+9
+a
+2
+c
+–
+h
+1
+e
+3
+s
+9
+t
+9
+o
+.
+Kresse,G.,andFurthmüller,J.(1996).Efficientiterativeschemesforabinitiototal-
+energycalculationsusingaplane-wavebasisset.Phys.Rev.BCondens.MatterMat.
+doi:10.1039/c1cc15393e Phys.54,11169–11186.doi:10.1103/physrevb.54.11169
+DeLuna,P.,Hahn,C.,Higgins,D.,Jaffer,S.A.,Jaramillo,T.F.,andSargent,E.H.
+Kresse,G.,andJoubert,D.(1999).Fromultrasoftpseudopotentialstotheprojector
+(2019). What would it take for renewably powered electrosynthesis to displace augmented-wavemethod.Phys.Rev.BCondens.MatterMat.Phys.59,1758–1775.
+petrochemicalprocesses?Science364,eaav3506.doi:10.1126/science.aav3506
+doi:10.1103/physrevb.59.1758
+Deringer, V. L., Tchougreeff, A. L., and Dronskowski, R. (2011). Crystal orbital
+Ledezma-Yanez,I.,Gallent,E.P.,Koper,M.T.M.,andCalle-Vallejo, F.(2016).
+Hamiltonpopulation(COHP)analysisasprojectedfromplane-wavebasissets.J.Phys.
+Chem.A115,5461–5466.doi:10.1021/jp202489s S
+m
+tr
+e
+u
+ch
+ct
+a
+u
+n
+r
+i
+e
+s
+-
+t
+s
+ic
+en
+i
+s
+m
+iti
+p
+v
+l
+e
+ica
+e
+t
+l
+i
+e
+o
+c
+n
+tr
+s
+or
+f
+e
+o
+d
+r
+uc
+C
+ti
+O
+on
+a
+o
+n
+f
+d
+a
+C
+ce
+O
+ta
+2
+ld
+r
+e
+e
+h
+d
+y
+u
+d
+c
+e
+tio
+to
+n.
+e
+C
+th
+a
+a
+t
+n
+a
+o
+l.
+l
+T
+o
+o
+n
+da
+c
+y
+op
+2
+p
+6
+e
+2
+r
+,
+a
+9
+n
+0
+d
+–9
+i
+4
+ts
+.
+Eyring,H.(1935).Theactivatedcomplexinchemicalreactions.J.Chem.Phys.3, doi:10.1016/j.cattod.2015.09.029
+107–115.doi:10.1063/1.1749604
+Lee,C.W.,Yang,K.D.,Nam,D.H.,Jang,J.H.,Cho,N.H.,Im,S.W.,etal.(2018).
+Garza,A.J.,Bell,A.T.,andHead-Gordon,M.(2018).MechanismofCO2reductionat Defining a materials database for the design of copper binary alloy catalysts for
+copper surfaces:Pathways toC-2products.ACS Catal.8,1490–1499.doi:10.1021/ electrochemicalCO2conversion.Adv.Mat.30,1704717.doi:10.1002/adma.201704717
+acscatal.7b03477
+Luo,T.,Liu,K.,Fu,J.,Chen,S.,Li,H.,Hu,J.,etal.(2022).Tandemcatalysison
+Hafner,J.,andKresse,G.(1997).TheViennaAB-initiosimulationprogramVASP:An adjacent active motifs of copper grain boundary for efficient CO2electroreduction
+efficientandversatiletoolforstudyingthestructural,dynamic,andelectronicproperties towardC2products.J.EnergyChem.70,219–223.doi:10.1016/j.jechem.2022.02.050
+ofmaterials.UnitedStates:Springer.
+Luo,W.,Xie,W.,Li,M.,Zhang,J.,andZuttel,A.(2019).3Dhierarchicalporous
+Handoko, A. D., Khoo, K. H., Tan, T. L., Jin, H. M., and Seh, Z. W. (2018b). indium catalyst for highly efficient electroreduction of CO2. J. Mat. Chem. A 7,
+Establishing new scaling relations on two-dimensional MXenes for CO2 4505–4515.doi:10.1039/c8ta11645h
+electroreduction.J.Mat.Chem.A6,21885–21890.doi:10.1039/c8ta06567e
+Luo,W.,Xie,W.,Mutschler,R.,Oveisi,E.,DeGregorio,G.L.,Buonsanti,R.,etal.
+Handoko,A.D.,Steinmann,S.N.,andSeh,Z.W.(2019).Theory-guidedmaterials (2018). Selective and stable electroreduction of CO2 to CO at the copper/indium
+design:Two-dimensionalMXenesinelectro-andphotocatalysis.NanoscaleHorizons4, interface.ACSCatal.8,6571–6581.doi:10.1021/acscatal.7b04457
+809–827.doi:10.1039/c9nh00100j
+Maintz,S.,Deringer,V.L.,Tchougreeff,A.L.,andDronskowski,R.(2016).Lobster:A
+Handoko,A.D.,Wei,F.X.,JenndyYeo,B.S.,andSeh,Z.W.(2018a).Understanding tooltoextractchemicalbondingfromplane-wavebasedDFT.J.Comput.Chem.37,
+heterogeneouselectrocatalyticcarbondioxidereductionthroughoperandotechniques. 1030–1035.doi:10.1002/jcc.24300
+Nat.Catal.1,922–934.doi:10.1038/s41929-018-0182-6
+Maintz,S.,Deringer,V.L.,Tchougreeff,A.L.,andDronskowski,R.(2013).Analytic
+Hansen,H.A.,Shi,C.,Lausche,A.C.,Peterson,A.A.,andNørskov,J.K.(2016). projection from plane-wave and PAW wavefunctionsand application to chemical-
+BifunctionalalloysfortheelectroreductionofCO2andCO.Phys.Chem.Chem.Phys. bondinganalysisinsolids.J.Comput.Chem.34,2557–2567.doi:10.1002/jcc.23424
+18,9194–9201.doi:10.1039/c5cp07717f
+Monzo,J.,Malewski,Y.,Kortlever,R.,Vidal-Iglesias,F.J.,Solla-Gullon,J.,Koper,M.
+Henkelman,G.,andJónsson,H.(2000).Improvedtangentestimateinthenudged T. M., et al. (2015). Enhanced electrocatalytic activity of Au@Cu core@shell
+elasticbandmethodforfindingminimumenergypathsandsaddlepoints.J.Chem. nanoparticlestowardsCO2reduction.J.Mat.Chem.A3,23690–23698.doi:10.1039/
+Phys.113,9978–9985.doi:10.1063/1.1323224 c5ta06804e
+Henkelman,G.,Uberuaga,B.P.,andJónsson,H.(2000).Aclimbingimagenudged Nie, X., Wang, H., Janik, M. J., Guo, X., and Song, C. (2016). Computational
+elasticbandmethodforfindingsaddlepointsandminimumenergypaths.J.Chem. investigationofFe-CubimetalliccatalystsforCO2hydrogenation.J.Phys.Chem.C
+Phys.113,9901–9904.doi:10.1063/1.1329672 120,9364–9373.doi:10.1021/acs.jpcc.6b03461
+FrontiersinChemistry 10 frontiersin.org
+
+Haoetal. 10.3389/fchem.2023.1235552
+Nie,X.,Xiao,J.,Wang,H.,Luo,W.,Song,C.,Chen,Y.,etal.(2018).Mechanistic Timoshenko,J.,Bergmann,A.,Rettenmaier,C.,Herzog,A.,Arán-Ais,R.M.,Jeon,H.
+understandingofalloyeffectandwaterpromotionforPd-CubimetalliccatalystsinCO2 S.,etal.(2022).SteeringthestructureandselectivityofCO2electroreductioncatalysts
+hydrogenationtomethanol.ACSCatal.8,4873–4892.doi:10.1021/acscatal.7b04150 bypotentialpulses.Nat.Catal.2022(4),259–267.doi:10.1038/s41929-022-00760-z
+Nørskov,J.K.,Rossmeisl,J.,Logadottir,A.,Lindqvist,L.,Kitchin,J.R.,Bligaard,T., Tran,K.,andUlissi,Z.W.(2018).Activelearningacrossintermetallicstoguide
+etal.(2004).Originoftheoverpotentialforoxygenreductionatafuel-cellcathode. discovery of electrocatalysts for CO2 reduction and H-2 evolution. Nat. Catal. 1,
+J.Phys.Chem.B108,17886–17892.doi:10.1021/jp047349j 696–703.doi:10.1038/s41929-018-0142-1
+Perdew, J. P., Burke, K., and Ernzerhof, M. (1998). Generalized gradient Xie,H.,Wang,T.,Liang,J.,Li,Q.,andSun,S.(2018).Cu-basednanocatalystsfor
+approximationmadesimple.Phys.Rev.Lett.77,3865–3868.doi:10.1103/physrevlett. electrochemicalreductionofCO2.NanoToday21,41–54.doi:10.1016/j.nantod.2018.
+77.3865 05.001
+Perdew,J.P.,Burke,K.,andErnzerhof, M.(1996).Localandgradient-corrected Xie,M.S.,Xia,B.Y.,Li,Y.W.,Yan,Y.,Yang,Y.H.,Sun,Q.,etal.(2016).Aminoacid
+densityfunctionals.ACSSymp.629,453–462. modified copper electrodes for the enhanced selective electroreduction of carbon
+dioxide towards hydrocarbons. Energy Environ. Sci. 9, 1687–1695. doi:10.1039/
+Perdew,J.P.,Chevary,J.A.,Vosko,S.H.,Jackson,K.A.,Pederson,M.R.,Singh,D.J.,
+c5ee03694a
+etal.(1993).Atoms,molecules,solids,andsurfaces:Applicationsofthegeneralized
+gradientapproximationforexchangeandcorrelation.Phys.Rev.BCondens.Matter Zheng,X.L.,Ji,Y.F.,Tang,J.,Wang,J.Y.,Liu,B.F.,Steinruck,H.G.,etal.(2019).
+Mat.Phys.46,6671–6687.doi:10.1103/physrevb.46.6671 Theory-guidedSn/CualloyingforefficientCO2electroreductionatlowoverpotentials.
+Nat.Catal.2,55–61.doi:10.1038/s41929-018-0200-8
+Peterson, A. A., and Nørskov, J. K. (2012). Activity descriptors for CO2
+electroreduction to methane on transition-metal catalysts. J. Phys. Chem. Lett. 3, Zhu,W.J.,Zhang,L.,Yang,P.P.,Chang,X.X.,Dong,H.,Li,A.,etal.(2018).
+251–258.doi:10.1021/jz201461p Morphological and compositional design of Pd-Cu bimetallic nanocatalysts with
+Schwartz, S. E. (2008). Uncertainty in climate sensitivity: Causes, consequences,
+controllable product selectivity toward CO2 electroreduction. Small 14, 1703314.
+challenges.EnergyEnviron.Sci.1,430–453.doi:10.1039/b810350j doi:10.1002/smll.201703314
+FrontiersinChemistry 11 frontiersin.org
+

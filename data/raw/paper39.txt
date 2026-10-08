@@ -1,0 +1,928 @@
+Review
+Metal and Carbon Support Structure Design Strategies for
+High-Performance Platinum-Based Hydrogen Evolution
+Reaction Electrocatalysts
+SeoJeongYoon*andIn-YupJeon*
+DepartmentofChemicalEngineering,WonkwangUniversity,460Iksandae-ro,Iksan54538,RepublicofKorea
+* Correspondence:dbstjwjd1210@wku.ac.kr(S.J.Y.);iyjeon79@wku.ac.kr(I.-Y.J.)
+Abstract
+Hydrogen(H )hasemergedasapromisingnext-generationenergycarrierwithsignificant
+2
+potentialtomitigateclimatechangeandenvironmentalpollution. Thehydrogenevolution
+reaction(HER)isthecriticalhalf-reactiondirectlyresponsibleforhydrogenproduction.
+Efficient HER electrocatalysts must exhibit low overpotential values and fast reaction
+kineticstoachievehighcatalyticperformance. Whileplatinum(Pt)remainsthebenchmark
+catalyst due to its ideal hydrogen adsorption energy, high electrical conductivity, and
+superior chemical stability, further innovations are essential. This review summarizes
+recent advances in Pt-based HER catalysts, focusing on two primary design strategies:
+metal-levelengineeringandsupport-levelengineering. Theseapproachesallowforprecise
+controloverelectronicstructures,activesitedistributions,andinterfacialproperties,paving
+thewayfornext-generationHERelectrocatalysts.
+Keywords: hydrogenevolutionreaction;metal;carbonsupport;electrocatalysis;design
+1. Introduction
+Hydrogen (H ) has emerged as a promising next-generation energy carrier with
+2
+significantpotentialtomitigateclimatechangeandenvironmentalpollution. However,
+conventionalhydrogenproductionprocessesarepredominantlydependentonfossilfuels,
+leadingtoconsiderableCO emissionsandassociatedenvironmentalconcerns[1,2]. In
+2
+thiscontext,renewable-energy-drivenwaterelectrolysishasbeenwidelyrecognizedasa
+sustainableandenvironmentallyfriendlyrouteforhigh-puritygreenhydrogenproduction.
+Duringwaterelectrolysis,theoxygenevolutionreaction(OER)takesplaceattheanode,
+whereasthehydrogenevolutionreaction(HER)occursatthecathode. Amongthese,HER
+is the key half-reaction directly responsible for hydrogen generation [3]. Efficient HER
+AcademicEditors:StefanoAgnoli,
+electrocatalystsarerequiredtoexhibitlowoverpotentiallevelsandfastreactionkinetics,
+QiruiLiangandPengWei
+reflectingbothfavorablethermodynamicsandminimizedkineticbarriers[4,5].
+Received:18May2026
+Platinumgroupmetals(PGMs),includingPt,Ru,Ir,Rh,andPd,generallydemonstrate
+Revised:2June2026
+outstandingcatalyticperformanceforwater-splittingreactions. Amongthem,Ptserves
+Accepted:16June2026
+Published:18June2026 asthebenchmarkcatalystfortheHERduetoitsfavorablehydrogenadsorptionenergy,
+Copyright:©2026bytheauthors. excellentelectricalconductivity,andoutstandingchemicalstability[6]. However,several
+LicenseeMDPI,Basel,Switzerland. criticallimitationscontinuetohinderthepracticalapplicationofPtdespiteitssignificant
+Thisarticleisanopenaccessarticle advantages. Theseincludeitshighcost,limitednaturalabundance,lowatomicutilization
+distributedunderthetermsand
+efficiency,andareductionintheactivesurfaceareaduetonanoparticleagglomeration[7–9].
+conditionsofthe CreativeCommons
+Thesechallengesposesignificantbarrierstolarge-scaleproductionandlong-termdurability.
+Attribution(CCBY)license.
+Nanomaterials2026,16,769 https://doi.org/10.3390/nano16120769
+
+Nanomaterials2026,16,769 2of20
+Therefore,itisessentialtodeveloprationalstrategiestominimizePtloadingrateswhile
+maximizingtheatomicutilizationefficiency[3]. Accordingly,extensiveresearchefforts
+havefocusedondevelopingadvancedcatalystdesignstrategiestominimizePtusagewhile
+maintainingorevenenhancingcatalyticperformancecapabilities.
+In this review, we summarize recent advances in Pt-based HER catalysts, with an
+emphasis on two major design directions: metal-level engineering and support-level
+engineering. Theseapproachescollectivelyenablefineregulationoftheelectronicstructure,
+thedispersionofactivesites,andcontrolovertheinterfacialproperties,offeringapromising
+pathwaytowardnext-generationHERelectrocatalysts.
+2. FundamentalsoftheHydrogenEvolutionReaction(HER)
+2.1. HERMechanism
+Thehydrogenevolutionreaction(HER),whichservesasthecathodichalf-reactionof
+electrochemicalwatersplitting,hasbeenoneofthemostextensivelystudiedreactionsin
+relationtoelectrocatalysis[10]. AssummarizedinTable1,theoverallreactionproceeds
+through two principal mechanistic pathways, the Volmer-Heyrovsky and the Volmer-
+Tafelmechanisms,whichshareacommoninitialstepinvolvingtheadsorptionofatomic
+hydrogen(H*)ontothecatalystsurface[11,12].
+Table1.HERMechanisminAcidicandAlkalineConditions.
+Step Acidic Alkaline
+Volmer H++e− +M→M-H +H O H O+e− +M→M-H +OH−
+ads 2 2 ads
+Heyrovsky M-H +H O+e− →H +H O+M M-H +H O+e− →H +OH− +M
+ads 3 2 2 ads 2 2
+Tafel 2M-H →H +2M
+ads 2
+In acidic media, H* is generated via the electrochemical reduction of protons (H+
+or H O+) at the electrode surface (Volmer step). The subsequent desorption of H* to
+3
+form molecular hydrogen can proceed via either the Tafel step, where two adjacent H*
+speciesrecombine,ortheHeyrovskystep,whereH*reactsdirectlywithaprotonandan
+electron. Theoperativepathwaydependsprimarilyonthehydrogenbindingenergyand
+theelectronicstructureofthecatalystsurface.
+Inalkalinemedia,themechanisticpathwayisfundamentallyanalogous,proceeding
+throughthesameVolmer-HeyrovskyorVolmer-Tafelsequences. However,theabsence
+of free protons necessitates an initial water-dissociation step (H O + e− → H* + OH−)
+2
+to generate the H* intermediate prior to the Heyrovsky or Tafel steps, introducing an
+additional energy barrier. As a consequence, alkaline HER kinetics can generally be
+two to three orders of magnitude slower than those observed under acidic conditions.
+Therate-determiningstep(RDS)istypicallyinferredfromtheexperimentallymeasured
+Tafelslope,withvaluesofapproximately120,40,and30mVdec−1correspondingtothe
+Volmer,Heyrovsky,andTafelsteps,respectively[13]. Togetherwiththeoverpotentialand
+exchangecurrentdensity,theTafelslopeconstitutesakeykineticmetricforbenchmarking
+electrocatalyst performance outcomes. This mechanistic understanding motivates the
+useofthermodynamicandelectronicstructuredescriptorsasrationaldesigncriteriafor
+HERelectrocatalysts.
+2.2. TheoreticalFrameworkfortheHER
+2.2.1. HydrogenAdsorptionFreeEnergy(∆G )
+H*
+Thehydrogenadsorptionfreeenergy(∆G )iscommonlyregardedasthekeyther-
+H*
+modynamicdescriptorforHERactivity,groundedintheSabatierprincipleandvisualized
+https://doi.org/10.3390/nano16120769
+
+Nanomaterials2026,16,769 3of20
+throughavolcanoplot[14]. Here,weelaborateonthequantitativeframeworkunderlying
+thisdescriptoranditsimplicationsforcatalystdesign(Figure1).
+Figure1.OverviewofthefundamentalcatalyticfactorsassociatedwithenhancedHERactivity.
+∆G isdefinedwithinthecomputationalhydrogenelectrode(CHE)model,inwhich
+H*
+the chemical potential of a proton-electron pair (H+ + e−) is set equal to that of 1/2H
+2
+understandardconditions(U=0Vvs. RHE,pH=0,T=298K)[14]. Thisapproachenables
+adirectcomparisonof∆G acrossdiversecatalystsurfacesfromDFTcalculationswithout
+H*
+requiringexplicittreatmentoftheelectrochemicalinterface[15].
+It should be noted that while ∆G ≈ 0 is a necessary condition for high HER ac-
+H*
+tivity, itisnotalwayssufficient[16]. Inalkalinemedia, theVolmerstepinvolveswater
+dissociationratherthanprotonadsorption,introducinganadditionalenergybarrier,as
+notedabove,thatisnotcapturedby∆G alone[17]. Accordingly,additionaldescriptors
+H*
+suchasthehydroxylbindingenergy(∆G )andthewater-dissociationbarrierhavebeen
+OH*
+proposedascomplementarymetricsforevaluatingalkalineHERactivity[18]. Ptexhibits
+near-thermoneutral ∆G levels, yet further optimization through electronic structure
+H*
+engineeringisessentialtoenhancetheactivityandreducethePtloadinglevel.
+2.2.2. d-BandCenterTheory
+Beyond ∆G as a thermodynamic descriptor, the d-band center (ε ) provides a
+H* d
+complementaryelectronicstructureframeworkforrationalizingthecatalyticbehaviorof
+transition-metalelectrocatalysts[19]. Thefundamentalstagesofelectrocatalysisinherently
+involve an electron transfer between transition-metal reactive species and the catalyst
+surface. Inthisregard,ε governsthestrengthoftheseinteractionsbydeterminingthe
+d
+degreeofoverlapbetweenmetald-statesandadsorbatefrontierorbitals.
+Bypreciselyadjustingthespatialconfigurationandenergeticdistributionofvalence
+electronsonthecatalystsurface,onecandirectlymodulateactivationenergybarriersand
+therebyinfluenceboththereactionreactivityandselectivity[19]. Basedond-bandtheory,
+anupshiftofε towardtheFermilevelstrengthenstheadsorptionofhydrogeninterme-
+d
+diatesonthemetalsurface. Conversely,adownshiftofε weakensthisinteractionand
+d
+facilitateshydrogendesorption. Consequently,ε servesasakeyquantitativedescriptor
+d
+foroptimizing∆G inHERelectrocatalysts. Modulationofε hasemergedasaprimary
+H* d
+approachtoshifting∆G towardthethermoneutraloptimum[20].
+H*
+https://doi.org/10.3390/nano16120769
+
+Nanomaterials2026,16,769 4of20
+2.2.3. Metal-SupportInteraction
+The interaction between metal nanoparticles and their supports is a central deter-
+minant of the catalytic activity, selectivity, and stability of HER electrocatalysis. Metal-
+supportinteraction(MSI)encompassesvariouschemicalandphysicalinteractionsatthe
+metal-supportinterface,includingthechargetransfer,interfacialstructuralreconstruction,
+nanoparticlemorphologyregulation,andchemicalcompositionmodulation[21–23].
+MSIinfluencestheHERcatalyticperformancethroughtwodistinctbutsynergistic
+mechanisms. Theelectroniceffectreferstointerfacialchargetransferbetweenthemetal
+and support, which modifies the electron density of metal active sites and shifts the
+d-band center, thereby tuning the hydrogen adsorption free energy (∆G ) toward the
+H*
+thermoneutraloptimumasvisualizedonavolcanoplot. Thegeometriceffectreferstothe
+abilityofthesupporttoregulatethenanoparticlesize,morphology,dispersion,andexposed
+facets,therebycontrollingthenumberandnatureofaccessibleactivesitesandinfluencing
+theatomicutilizationefficiency. Inpractice,thesetwoeffectsoperatesimultaneouslyand
+aredifficulttodecouple,buttheirrelativecontributionsdependstronglyonthenatureof
+thesupportmaterial. Thesynergybetweenelectronicandgeometriceffectsisparticularly
+importantforHERcatalysis,aselectroniceffectsmodulate∆G whilegeometriceffects
+H*
+maximizetheexposureandaccessibilityofactivesites. Beyondthesetwoeffects,MSIalso
+facilitateshydrogenspillover,whereactivatedH*migratesfrommetalactivesitesonto
+thesupportsurface,providingadditionalHERreactionpathways. Overall,therational
+engineering of MSI represents a versatile and effective approach to optimizing ∆G ,
+H*
+maximizingtheactivesitedensity,andenhancingcatalystdurabilityforHERapplications.
+2.2.4. HydrogenSpillover
+Hydrogenspilloverisaninterfacialphenomenoninwhichactivatedhydrogenspecies
+(H*),generatedthroughH*adsorptiononametalsurface,migrateontothesupportsurface,
+andparticipateinthesubsequentreactionstep. Originallyidentifiedinthermocatalytic
+hydrogenation, wheresupportswithstronglynegative ∆G renderH*migrationther-
+H*
+modynamicallyspontaneous,thisphenomenonhasmorerecentlybeenrecognizedasa
+significantmechanisticpathwayinelectrocatalyticHER[24,25].
+IntheelectrocatalyticHER,hydrogenspilloverprovidesanalternativedesignstrategy
+beyondconventional∆G -basedoptimization. Abicomponentmetal/supportelectrocata-
+H*
+lystcanbedesignedsuchthatthemetalcomponentprovidesefficientH*generation,while
+thesupportoffersfavorableH*migrationpathwaysanddesorptionsites. Thisconfigura-
+tionenablestheHERwithoutrequiringasingleactivesitetosimultaneouslysatisfyboth
+adsorptionanddesorptioncriteria[24].
+Theoreticalinvestigationshavedemonstratedthattheworkfunctiondifference(∆Φ)
+betweenthemetalandsupportisacriticalparametergoverningthespilloverefficiency.
+A large ∆Φ induces interfacial charge accumulation, strengthening H* adsorption at
+the interface and raising the kinetic barrier for spillover. Conversely, a small ∆Φ pro-
+moteschargedilutionandfacilitatesefficientH*migration,therebyenhancingtheHER
+kinetics[25,26]. Furthermore,recenttheoreticalworkhasdemonstratedadirectcorrela-
+tionbetweenthefreeenergydifferenceinhydrogenadsorptiononthetwocomponents
+(|∆G −∆G |)andthekineticbarrierforH*transfer. Minimizingthisdif-
+H(metal) H(support)
+ferencebymatchingthed-bandcentersofthetwocomponentslowersthespilloverbarrier
+andpromotesanefficientHER[27].
+ItisimportanttonotethatspillovercontributespositivelytotheHERonlywhenH*
+surfacemigrationiskineticallyfacile. Wherespilloverisslow,anadditionalrate-limiting
+processcanbeintroduced,impedingtheoverallcatalyticperformance. Inthisregard,the
+https://doi.org/10.3390/nano16120769
+
+Nanomaterials2026,16,769 5of20
+MSI-drivenmodulationof∆Φand∆G compatibilityisessentialforenablingefficient
+H*
+spilloverandmaximizingitscontributiontoHERactivity(Table2).
+Table2.ElectrocatalyticPropertiesofPt-basedHERCatalysts.
+Overpotential(mV) TafelSlope
+Metal Support Electrolyte Ref.
+(at10mA/cm2) (mV/dec)
+Pt A-N-GN 26 27.43 0.5MH SO [28]
+2 4
+Pt SbGnP 13 28.8 0.5MH SO [29]
+2 4
+Pt TGNP 32 28.44 0.5MH SO [30]
+2 4
+Pt A_PGNP 31 31.09 0.5MH SO [31]
+2 4
+Pt SbGnP 15.3 27.8 0.5MH SO
+2 4
+Pt PGnP 16.0 28.4 0.5MH SO [32]
+2 4
+Pt NGnP 16.5 28.8 0.5MH SO
+2 4
+Pt S-C 11 23.51 0.5MH SO [33]
+2 4
+Pt WS 31 27.2 0.5MH SO [34]
+2 2 4
+PtSA GDY2 50 46.6 0.5MH SO [35]
+2 4
+Pt NMHCS 40 56 0.5MH SO [36]
+1 2 4
+0.22Pt HMoS 44 34.83 0.5MH SO
+2 2 4
+[37]
+0.34Pt HMoS 43 35.84 0.5MH SO
+2 2 4
+PtNi Au -NDC 19.1 21 0.5MH SO [38]
+NPs SA 2 4
+Pt3Fe NMCS-A 13 21 0.5MH SO [9]
+2 4
+Pt Ru NMHCS-A 22 38 0.5MH SO [39]
+1 1 2 4
+Ru-PtFeNiCuW CNT 9 19.2 0.5MH SO [40]
+2 4
+Pt MPNC 12 - 0.5MH SO [41]
+2 4
+Pt WGA 42 30 0.5MH SO [42]
+2 4
+Pt MgO 39 39 1MKOH [43]
+Pt D-NiFe-LDH 4 52.71 1MKOH [44]
+Pt-SA FNS 77 68 1MKOH
+[45]
+Pt-NP FNS 42 79 1MKOH
+PtSA-PtC NDPCM 14 58.9 1MKOH [46]
+PtRu WO -O 9 25.4 1MKOH [47]
+3 V
+Pt α-MoC 26 23 1MKOH [48]
+CoPt NDPCF 31 43.65 1MKOH [49]
+Pt/CeO C 19 50 1MKOH [50]
+x
+PtSA-NiO Ni 26 27.07 1MKOH [4]
+PtFeCONi HCS 89 157.31 1MKOH
+[51]
+PtFeCONiCu HCS 62 136.42 1MKOH
+Dr-Pt CNT 26 52 1MKOH
+[52]
+Dp-Pt CNT 45 71 1MKOH
+https://doi.org/10.3390/nano16120769
+
+Nanomaterials2026,16,769 6of20
+Table2.Cont.
+Overpotential(mV) TafelSlope
+Metal Support Electrolyte Ref.
+(at10mA/cm2) (mV/dec)
+HEANC C 9.5 29.8 1MKOH [53]
+PtMo NC 47 32 1MKOH [54]
+HEA@Pt CW 13.7 30.6 1MKOH [55]
+3. DesignStrategiesforHERElectrocatalysts
+3.1. MetalCatalysts
+3.1.1. Single-AtomCatalysts
+Single-atomcatalysts(SACs)representaclassofheterogeneouscatalystsinwhich
+isolatedmetalatomsareisolatedandstabilizedonasolidsupport,withnodirectmetal–
+metalbondingbetweenactivesites(Figure2)[56,57]. SincetheirfirstreportbyZhangand
+coworkers[58], SACshaveattractedconsiderableattentionasapowerfulapproachfor
+bridginghomogeneousandheterogeneouscatalysis,owingtotheirwell-definedactive
+sitesandtunableelectronicproperties.
+Figure2.SchematicillustrationofrepresentativedesignstrategiesforHERelectrocatalysts.
+Beyond maximizing atomic utilization, SACs exhibit high activity and selectivity
+duringtheHERowingtotheiruniqueelectronicstructurearisingfromthelow-coordination
+environmentandstrongmetal-supportinteractions[59,60]. Theindividuallydispersed
+activesitesallowprecisetuningofthecoordinationenvironment,includingthenumber,
+type,andgeometryofcoordinatingatoms,todirectlymodulate∆G andoptimizeHER
+H*
+activity[61].
+Isolated metal atoms in SACs exhibit high chemical activity due to their low-
+coordination environment, which significantly enhances the mass activity (MA) [7,49].
+https://doi.org/10.3390/nano16120769
+
+Nanomaterials2026,16,769 7of20
+Thereducedcoordinationnumberleadstounsaturatedbondingstates,promotingstronger
+interactions with reactant intermediates and facilitating more favorable H* adsorption
+energetics. InSACsystems,HERactivityisgovernedbytheanchoringcapabilityofthe
+support,thelocalcoordinationenvironmentofmetalatoms,andthesynergisticinteractions
+withneighboringmetalatomsornanoclusters.
+Yin et al. demonstrated that the catalytic performance of Pt SACs is highly sensi-
+tivetothecoordinationenvironmentofisolatedPtatomsbypreparingtwostructurally
+distinctsingle-atomcatalystsanchoredongraphdiyne(GDY)[35]. Ptatomscoordinated
+withalkynylCatomsformedeitherfive-coordinatedC -Pt-Cl species(Pt-GDY1)orfour-
+1 4
+coordinated C -Pt-Cl species (Pt-GDY2), and this subtle difference in coordination ge-
+2 2
+ometry led to a significant divergence in catalytic behavior. Pt-GDY2, with its lower
+coordinationnumber,exhibitedahigherunoccupieddensityofstatesofthePt5dorbital
+andnear-zero∆G ,collectivelycontributingtosuperiorHERactivity. Thisworkprovides
+H*
+directevidencethatpreciseengineeringofthecoordinationenvironmentisaneffective
+approachforoptimizingtheintrinsicactivityofPtsingle-atomsites.
+Kuangetal. demonstratedthatPtsingleatomssupportedonN-dopedmesoporous
+hollowcarbonspheres(Pt /NMHCS)achieveoutstandingHERactivitythroughprecise
+1
+controlofthecoordinationenvironmentofisolatedPtatoms[36]. TheisolatedstateofPt
+1
+singleatoms,stabilizedthroughthesynergisticcombinationofNdopinganda3Dhollow
+structure,generateshighlypositivelychargedPt withanincreaseddensityofunoccupied
+1
+5d-electron states, which is directly responsible for the enhanced intrinsic site activity.
+Pt /NMHCSdeliveredsuperiorHERperformancerelativetobothN-freePt /MHCS
+1 NP
+andcommercialPt/C(Pt: 20wt.%),confirmingtheadvantageofsingle-atomdispersion
+over nanoparticle counterparts. Notably, the isolated Pt single atoms maintained their
+atomicdispersionafteraccelerateddurabilitytests,whereasPtnanoparticlesunderwent
+agglomeration. This highlights the pivotal role of strong metal-support interactions in
+preservingthesingle-atomstructureduringprolongedelectrochemicaloperation.
+Zhou et al. developed a single-atom Pt (Pt ) anchored NiO/Ni heterostructure
+SA
+nanosheet on an Ag nanowire (Ag NW) network nanocomposite (Pt -NiO/Ni) via a
+SA
+facileelectrodepositionstrategy(Figure3)[4]. ImmobilizingPtsingleatomsattheNiO/Ni
+interfaceelevatedtheoccupationofthePt5dorbitalattheFermilevel,generatingmore
+freeelectronsonPtsitesandyieldinganear-optimal∆G valueof−0.07eV,comparedto
+H*
+−0.38eVonNiand0.74eVonNiO.Thisoptimizedhydrogenbindingenergyeffectively
+promoted the conversion of H* and desorption of H , resulting in enhanced alkaline
+2
+HERperformance.
+3.1.2. Alloying
+AlloyingisoneofthemostwidelyemployedstrategiestoenhancetheHERperfor-
+manceofPt-basedcatalystswhilesimultaneouslyreducingnoblemetalusage[62]. Upon
+alloyformation,electronsareredistributedaroundtheconstituentatomsduetodifferences
+intheirchemicalproperties,modulatingthed-bandcenterandtherebyloweringtheenergy
+barriersassociatedwithintermediateadsorptionatactivesites[6,63]. Theformationof
+alloysoptimizesthehydrogenadsorptionenergythroughthreecooperativemechanisms.
+Theligandeffectarisesfromanelectronegativity-drivenchargeredistributionbetween
+thehostandneighboringforeignmetalatoms,whichshiftsthed-bandcenter[64,65]. The
+straineffectoriginatesfromlatticecompressionorexpansionduetodifferencesinatomic
+radiiamongtheconstituentmetals,alteringthed-bandstructure[66]. Theensembleeffect
+referstotheemergenceofnewactivesiteconfigurationsuponalloying,enablingreaction
+pathwaysinaccessibleonpuremetalsurfaces[67]. Thesecombinedeffectscollectivelyshift
+https://doi.org/10.3390/nano16120769
+
+Nanomaterials2026,16,769 8of20
+∆G towardthethermoneutraloptimum,enablingPt-Malloystosimultaneouslyreduce
+H*
+thematerialcostwhileimprovingthecatalyticactivityandcyclicstability[68,69].
+Figure3. (a)SchematicillustrationofsynthesisandwatersplittingmechanismofPt -NiO/Ni.
+SA
+(b)CalculatedPDOSofNiO/NiandPt -NiO/Ni,withalignedFermilevel. (c)CalculatedPt5d
+SA
+bandofPt -NiO/Ni,Pt -NiO,andPt -Ni.(d)TheorbitalalignmentofthesurficialsitesforPt -
+SA SA SA SA
+NiO/NibindingwithH Omolecule. (e)CalculatedOH-bindingenergies(∆E )andHbinding
+2 OH
+energies (∆E ) for Ni, pure NiO, and O vacancies-modified NiO surface. (f) Calculated energy
+H
+barriersofwaterdissociationkineticand(g)AdsorptionfreeenergiesofH*.(h)HERpolarization
+curves.(i)Comparisonofoverpotentials.(j)Massactivity.(k)CorrespondingTafelslopeoriginated
+fromLSVcurves.AdaptedwithpermissionfromRef.[4].
+Yangetal. confinedPtsingleatomswithinanitrogen-dopedporouscarbonmatrix
+alongsideCoPtalloynanocrystals(CoPt-Pt /NDPCF),inwhichtheCoPtalloyplaysa
+SA
+centralroleinregulatingtheelectronicpropertiesoftheadjacentPtsingleatoms[49]. DFT
+calculationsrevealedthattheCoPtalloymodulatesthed-bandoccupancyneartheFermi
+level,generatingmorefreeelectronstoenhancetheconversionofH*. Asaresult,CoPt-
+Pt /NDPCFwithalowPtloadingof(0.42wt.%exhibitedsuperiorHERperformance
+SA
+atahighcurrentdensitycomparedtocommercialPt/C(Pt: 10wt.%)underbothacidic
+andalkalineconditions,alongwithexcellentlong-termstabilityenabledbytheprotective
+encapsulatedstructure.
+https://doi.org/10.3390/nano16120769
+
+Nanomaterials2026,16,769 9of20
+Kuangetal. demonstratedthatintermetallicPt Fealloynanoparticlessupportedon
+3
+activatedN-dopedmesoporouscarbonspheres(Pt Fe/NMCS-A)achievepH-universal
+3
+HERactivitythroughthealloy-inducedmodulationoftheelectronicstructure[9]. DFT
+calculations revealed that alloying Fe with Pt lowers the ε value of the Pt 5d orbital,
+d
+reducingtheH*adsorptionstrengthandyieldinganear-optimal|∆G |foranacidic
+H*
+HER.Furthermore,thebifunctionalnatureofthePt Fealloy,inwhichPtandFeserveas
+3
+co-adsorptionsitesforH*andOH*intermediates,respectively,facilitateswaterdissociation
+underalkalineandneutralconditions,overcomingthekeykineticbarrierofthealkaline
+HER.Asaresult,Pt Fe/NMCS-Aexhibitedlowoverpotentialsof13,29,and48mVatη
+3 10
+in0.5Maq. H SO ,1.0MKOH,and1.0MPBS,respectively,alongwithrobuststability
+2 4
+acrossallpHconditions.
+Zhao et al. constructed a dual-atom catalyst composed of Pt-Ru dimers (Pt Ru )
+1 1
+anchoredonactivatedN-dopedmesoporoushollowcarbonspheres(Pt Ru /NMHCS-A)
+1 1
+(Figure4),inwhichthePt-Rudimerplaysacrucialroleinregulatingtheelectronicstruc-
+tureofthePtactivesitethroughstrongmetal–metalandmetal–supportinteractions[39].
+SpectroscopicanalysesandDFTcalculationsindicatedthattheformedC -Pt-Ru-N co-
+1 2
+ordinationstructureinducestheredistributionofelectronsfromRutoPtwithreinforced
+interaction between the Pt Ru dimer and the NMHCS-A support. In particular, free
+1 1
+electronsaretransferredfromtheRuatomtothePtatomthroughthePt-Rubond,while
+thehybridizationbetweenthePt5dorbitalandtheH1sorbitallowerstheenergylevel
+neartheFermilevel,therebyenhancingelectroncaptureandprotonreductioncapabilities.
+Pt Ru /NMHCS-AexhibitedsignificantlyenhancedHERactivitythroughthesynergistic
+1 1
+effectofthePt-Rudual-atomstructure, providingnewinsightsintorationaldesignsof
+highlyefficientdual-atomcatalystsfortheHER.
+3.1.3. High-EntropyAlloys
+WhilebinaryandternaryalloysoffereffectivetuningofHBE,alloyingofmulticompo-
+nentsisstillhighlychallengingduetophasesegregationdrivenbythedifferingmiscibility
+ofelements. HEAsaresingle-phasealloyscomposedofatleastfivedifferentelements,
+witheachelementcontributingbetween5%and35%oftheatomiccomposition[70,71].
+HEAs have recently emerged as a promising strategy, offering superior catalytic activ-
+ityandstabilityevenwithalowPtcontentthroughsynergisticeffectsamongmultiple
+constituentelements[72]. HEAcatalysts,possessingauniqueandcompellingsetofchar-
+acteristics, haveexhibited significantpotential forpracticalapplications. High-entropy
+alloyshaverecentlyattractedmuchattentioninthecatalysiscommunityasapromising
+strategyforfine-tuningthehydrogenbindingenergy(HBE)viamulticomponentdesign
+approaches. This is attributed to their four core effects of high entropy, lattice distor-
+tion,sluggishdiffusion,andcocktaileffects,whichcansubstantiallyimprovethecatalytic
+activityandstability.
+Wangetal. fabricatedRu-dopedPtFeNiCuWHEAoctahedralnanocrystalssupported
+on carbon nanotubes (Ru-PtFeNiCuW/CNTs), in which a trace amount of Ru played
+a crucial role in promoting the homogeneous reduction and growth of multi-metallic
+HEAnanocrystals [40]. The incorporationof Rufacilitated theconcurrentreduction of
+metalprecursors,enablingtheformationofuniformoctahedralHEAnanocrystalswith
+well-defined(111)facetsdespitetheultralowRucontent(<1%). Theoreticalcalculations
+revealedthatWsitesacceleratedH OadsorptionanddissociationtogenerateabundantH*
+2
+intermediates,whileneighboringhollowCu-Cu-CuandCu-Cu-Ptsitespromotedefficient
+H*desorption,resultinginenhancedHERkineticsthroughamulti-sitesynergisticeffect.
+Consequently,theRu-PtFeNiCuW/CNTscatalystexhibitedenhancedintrinsicHERactivity
+https://doi.org/10.3390/nano16120769
+
+Nanomaterials2026,16,769 10of20
+byintegratingdistinctfunctionalactivesiteswithintheHEAstructure,demonstratingthe
+potentialofcompositionallycomplexHEAsasefficientelectrocatalystsfortheHER.
+Figure4.(a)SchematicillustrationforthesyntheticprocessofPt Ru /NMHCS-A.(b)LSVcurvesof
+1 1
+allsamplesin0.5Maq.H SO .(c)Correspondingmassactivityandη .(d)LSVcurvesbeforeand
+2 4 10
+afterADTs.(e)Calculated∆G valuesofdifferentstructures.∆ρandPDOS(f)beforeand(g)after
+H*
+adsorptionofHonthePtatominthePt Ru dimer.AdaptedwithpermissionfromRef.[39].
+1 1
+Feng et al. designed ultrasmall NiCoMoPtRu high-entropy alloy nanoclusters
+(HEANCs)withanaveragesizeofonlysevenatomiclayers[53]. Thehigh-entropystabi-
+lizationeffectimprovedthestructuralstabilityandcorrosionresistanceofthenanoclusters,
+whileinsitugrowthoncarbonsupportssuppressednanoparticleagglomerationduring
+theHER.DFTcalculationsrevealedthattheoptimizedelectronicstructureoftheHEANCs
+facilitatedH Oadsorptionanddissociationandreducedthe|∆G |valuescomparedto
+2 H*
+purePt. Specifically,thePt-5dorbitalactedasanelectronreservoir,whereastheNi-3dand
+Co-3dorbitalsneartheFermilevelpromotedchargeredistributionduringtheHER.This
+synergisticinteractionamongthemulticomponentactivesitesacceleratestheVolmerstep,
+therebyenhancingboththeHERactivityandstabilityoftheHEANCs.
+Wanetal. demonstratedthepotentialofhigh-entropyalloys(HEAs)asapromising
+platformforHERelectrocatalysisbysynthesizingaseriesofHEA@HCScompositeswith
+systematicallyvariedcompositions,rangingfromquaternaryPtFeCoNitoquinaryand
+senarysystems[51]. ThehighconfigurationalentropyofHEAmaterialspromotestheho-
+mogeneousdistributionofmultipleactivesites,whileelectronegativitydifferencesamong
+theconstituentelementsgovernthelocalelectronicconfigurationtooptimizehydrogen
+adsorptionanddesorption. DFTcalculationsrevealedthatthesequentialintroductionof
+CuandCrintoPtFeCoNi@HCSoptimizesthelocalelectronicstructure,givingrisetoa
+multi-site synergistic effect that collectively enhances both HER activity and durability.
+ThisworkhighlightstheuniqueabilityofHEAstosimultaneouslyincorporatemultiple
+functionalelements,offeringaversatilecompositionaldesignstrategybeyondconventional
+binaryorternaryalloysystems.
+https://doi.org/10.3390/nano16120769
+
+Nanomaterials2026,16,769 11of20
+Shi et al. developed HEA@Pt electrocatalyst by anchoring Pt onto FeCoNiCu-
+basedHEAnanoparticlesviagalvanicdisplacementafterrapidthermalshocktreatment
+(Figure5) [55]. The multielement framework tuned the electronic environment of Pt,
+leadingtoenhancedhydrogenadsorption/desorptionbehaviorandimprovedcatalyticeffi-
+ciencytowardHER.Simultaneously,theentropy-drivenstabilizationeffectenableduniform
+dispersionofultrafinePtclusterswhilepreventingparticlecoalescenceunderelectrochem-
+icalconditions. Inaddition,thestronginterfacialbondingbetweentheHEAnanoparticles
+andthesubstrate,promotedbyhigh-temperaturesynthesis,furtherimprovedlong-term
+catalytic durability. Owing to these synergistic features, the HEA@Pt delivered higher
+activityanddurabilitythancommercialPt/Candsingle-phaseHEA-Ptcounterparts.
+Figure5.(a)StructureschematicimagesofPt,homogeneousHEA-Pt,andHEA@Pt.(b)Schematic
+forthepreparationprocessofHEA@Pt. (c)SchematicimageofHEA@PtonCWasHERcatalysts.
+(d)ArealactivityLSVcurves. (e)Overpotential. (f)Tafelslopes. (g)MassactivityofLSVcurves.
+(h) Mass activities. (i) Overpotential of HEA@Pt at 10 mA/cm2, compared with other reported
+Pt-basedcatalysts.(j)Stabilitytests.AdaptedwithpermissionfromRef.[55].
+https://doi.org/10.3390/nano16120769
+
+Nanomaterials2026,16,769 12of20
+3.2. CarbonSupport
+3.2.1. HeteroatomDoping
+InPt-basedHERelectrocatalysis,carbonsupportsplayapivotalrolenotmerelyasan
+inertscaffoldbutasanactiveparticipantindeterminingcatalyticperformanceoutcomes.
+HeteroatomdopingofthecarbonsupportthroughtheincorporationofN,S,B,orPinto
+the carbon framework has emerged as a powerful strategy capable of simultaneously
+enhancing the intrinsic HER activity of the support, strengthening MSI, improving Pt
+dispersion, and tailoring the electronic structure of supported Pt species. This section
+discussesthemechanisticbasisofheteroatomdopinganditsroleinsupportingPt-based
+HERcatalysts.
+Heteroatom-dopedcarbonnanomaterialshaveemergedaspromisingelectrocatalysts
+fortheHERowingtotheirearth-abundance,tunablemoleculararchitecture,excellentelec-
+tricalconductivity,andremarkabletolerancetobothacidicandalkalineenvironments[73].
+Theincorporationofheteroatomsintothecarbonframeworkinducesasignificantchargere-
+distributionandmodulatesthelocalelectronicstructureofadjacentcarbonatoms,thereby
+generatingcatalyticallyactivesitesandoptimizingtheadsorptionthe∆G [74,75].
+H*
+The introduction of heteroatoms with electronegativity either higher (e.g., N) or
+lower (e.g., B) than carbon breaks the charge neutrality of the carbon lattice, creating
+positivelychargedcarbonsites(C+)thatserveaspreferentialadsorptionsitesforreaction
+intermediatesincludingH*[76]. Thisdoping-inducedchargeasymmetryeffectivelylowers
+thereactionenergybarrierandincreasesthedensityofactivesites,therebyenhancingthe
+HERkinetics[75].
+While single-element doping has demonstrated considerable promise, its capacity
+to optimize multiple catalytic descriptors simultaneously remains limited. Co-doping
+strategies,inwhichtwoormoreheteroatomsareintroducedintothecarbonframework,
+havebeenproposedasamoreeffectiveapproachtoexploitsynergisticelectroniceffects[73].
+Multi-heteroatomdopingenablesthesimultaneoustuningoftheelectrondensityandthe
+redistributionofthechargewithintheporouscarbonmatrix,providingagreaternumber
+offavorableH*adsorptionsitesandultimatelyenhancingtheelectrocatalyticactivity[76].
+Leeetal. demonstratedthatheteroatomdopingofthecarbonsupportplaysacritical
+roleinenhancingHERperformancecapabilitiesbypreparingPtnanoparticlessupported
+ontriazinegraphiticnanoplatelets(Pt@TGNP)[30]. Theincorporationoftriazineunitsinto
+thegraphiticframeworkintroducesnitrogen-containingactivesitesthatnotonlyserveas
+anchoringsitesforauniformandstabledistributionofPtnanoparticlesbutalsomodulate
+thelocalelectronicstructureofthesupport.Thehighelectricalconductivityandmechanical
+stabilityofTGNP,preservedthroughitshexagonalgraphenestructure,furthercontribute
+toefficientchargetransferandlong-termstructuralintegrityduringtheHER.
+Yan et al. reported that a sulfur-doped mesoporous carbon (S-C) support plays a
+crucialroleincontrollingtheelectronicstructureofPtatomsandthecorrespondingHER
+performance [33]. Based on spectroscopic characterizations and DFT calculations, they
+demonstratedthattheS-CsupportcaptureselectronsfromPtsingleatomsviathestrong
+chemical Pt-S interaction. However, when the Pt size is increased to nanoclusters, the
+chargetransferdirectionisreversedfromS-CtoPt.Theseresultsindicatethattheelectronic
+metal-support interaction (EMSI) between Pt and the S-C support can be manipulated
+throughmodificationofPtmorphologiesfromsingleatomstonanoclusters,highlighting
+thepivotalroleoftheS-dopedcarbonsupportintuningthechargetransferbehaviorand
+HERperformance.
+Zhangetal. developedananchoring-siteengineeringstrategytoconstructultrafine
+PtMoalloynanocrystalssupportedonN-dopedcarbon(PtMo-NC)forHERelectrocatal-
+ysis[54]. Theabundantnitrogensitesinthecarbonsupporteffectivelyanchoredmetal
+https://doi.org/10.3390/nano16120769
+
+Nanomaterials2026,16,769 13of20
+ions and suppressed excessive aggregation during pyrolysis, facilitating the formation
+ofultrafinePtMonanocrystals. Inaddition,theporousstructureoftheN-dopedcarbon
+supportpromotedefficientelectrolytetransportduringtheHER.Thestronginteraction
+betweenthenitrogensitesandPtMonanocrystalsfurtherenhancedthestructuralstability
+ofthecatalystandpreventednanoparticleovergrowthduringtheheattreatment.
+Baeketal. investigatedhowthechoiceofdopantheteroatominfluencesmetal-support
+interactionsbypreparingPtnanoparticlessupportedongraphiticnanoplateletsdoped
+withgroupVAelements(N,P,orSb)(Figure6)[32]. Astheatomicperiodofthedopant
+heteroatomincreased,thechargetransfertoPtnanoparticleswasprogressivelyenhanced
+throughstrongerPt-Xbonding. Thisledtomorepronouncedelectronicmodificationof
+the supported Pt species, directly influencing the catalytic activity of Pt. In particular,
+Sb doping proved most effective owing to its high electropositivity and larger atomic
+radius. ThesepropertiesmaximizedthechargetransfertoPtandfacilitatedanoptimalPt
+dispersion,ultimatelyboostingtheelectrochemicalsurfaceareathroughenhancedEMSI.
+ThisworkestablishesheteroatomperiodicityasakeydesignparameterfortuningMSIand
+optimizingthecatalyticperformanceofheteroatom-dopedcarbon-supportedPtcatalysts.
+Figure6.(a)SchematicrepresentationofthesynthesisprocessforPt@XGnPs(X=N,P,orSb).(b)Elec-
+trostaticpotentialmapsaroundoftheoptimizedPt@XGnP.Half-cellelectrocatalyticperformance
+ofPt@XGnPs: (c)HERpolarizationcurves,(d)Tafelplots,(e)H-adsorptionfreeenergydiagram,
+and(f)massactivitiesofelectrocatalysts. Overallwater-splittingsystemofPt@XGnPs: (g)Polar-
+izationcurvesand(h)Comparisonofcurrentdensitylevels. PEMWEperformanceofPt@XGnPs:
+(i)polarizationcurves.AdaptedwithpermissionfromRef.[32].
+https://doi.org/10.3390/nano16120769
+
+Nanomaterials2026,16,769 14of20
+3.2.2. PorousStructure
+Porouscarbonsubstrateshaveemergedasoneofthemosteffectivesupportplatforms
+forHERelectrocatalystsowingtotheirhighspecificsurfacearea,tunableporearchitecture,
+and excellent electrical conductivity [76]. The high surface area promotes the uniform
+dispersionofcatalyticallyactivesites,whiletheinterconnectedporousframeworkprovides
+continuouschannelsforelectrolytediffusionandanefficientreleaseofevolvedH gas,
+2
+therebyminimizingthemasstransportresistanceduringtheHERprocess[77–79].
+Beyondtheirstructuralrole,porouscarbonsupportsactivelymodulatethecatalytic
+behaviorofsupportedmetalspeciesthroughintrinsicstructuraldefects. Vacancyandtopo-
+logicaldefectswithinthecarbonmatrixfunctionasanchoringsitesformetalnanoparticles
+andpromoteelectrontransfersbetweenthemetalspeciesandthesupport,directlytuning
+theelectronicstructureoftheactivesitesandreducingtheenergybarrierforhydrogen
+adsorptionanddesorption[80].
+Optimizingthebalancebetweenmicroporesandmesoporesiscentraltomaximizing
+theHERperformance. Microporesincreasethedensityofexposedactivesites,whereas
+mesopores serve as open transport channels that facilitate reactant access and product
+removal. Achievingthisdualfunctionalitythroughcontrolledsynthesisrepresentsthekey
+designprincipleforporous-carbon-supportedHERelectrocatalysts[81].
+Zeng et al. synthesized highly dispersed Pt entities supported on mesoporous N-
+dopedcarbon(MPNC)nanospheresforenhancedHERperformance[41]. Thecontinuous
+mesoporousstructureandhighsurfaceareaoftheMPNCsupporteffectivelysuppressed
+Pt atom diffusion and aggregation during catalyst synthesis, facilitating the formation
+of highly dispersed Pt single atoms, clusters, and nanoparticles through a mesopore-
+confinementeffect. Inaddition,thenitrogenfunctionalitiesoftheMPNCsupportstrongly
+interactedwithPtspecies,enablingtheanchoringandstabilizationofPtsingleatomson
+thecarbonsurface. Pt/MPNCexhibitedsignificantlyhigherHERgeometricandPtmass
+activitiesthancommercialPt/CandPt/CNFcatalysts,drivenbyitslargeelectrochemically
+activesurfaceareaandhighdensityofwell-dispersedPtactivesitesonthemesoporous
+N-dopedcarbonsupport.
+Lietal. developedalow-Pt-contentelectrocatalystbydepositingPtnanoparticles
+ontoathree-dimensionaltungstenoxide/reducedgrapheneoxideaerogel(WGA)[42]. The
+interconnectedporousstructureoftheWGAsupportpromotedmasstransportandelectron
+transferswhileprovidingalargeexposedsurfaceareaforPtactivesites.Inaddition,oxygen
+vacanciesintroducedintotheWO frameworkinducedelectrontransfersfromWO to
+3-x 3-x
+Ptnanoparticles,whichoptimizedtheelectronicstructureofPt,downshiftedthed-band
+center,andreducedthehydrogenadsorptionenergy. Thestrongmetal-supportinteraction
+furtherstabilizedthePtnanoparticlesandsuppressedtheiraggregationduringtheHER.
+Moreover,thehydrogenspillovereffectfacilitatedthemigrationofadsorbedH*species,
+acceleratingtheoverallHERkinetics. Accordingly,thePt/WGAcatalystwithonly0.8wt.%
+PtshowedenhancedHERactivityandstabilityduetothesynergisticeffectsoftheporous
+aerogelstructureandthePt-WO electronicinteraction.
+3-x
+Kim et al. reported Pt nanoparticles supported on activated phosphorus-doped
+graphene(A_PGnP)toenhancetheHERperformance[31]. Theincorporationofphospho-
+rus(P)atomsimprovesthecatalyticperformancebymodulatingtheelectronicstructure
+betweenthePtandPwithinthecarbonmatrix. A_PGnP,endowedwithabundantactive
+sites,alargesurfacearea,andPdoping,improvestheperformanceoftheHERunderacidic
+conditions. Asaresult,Pt/A_PGnPwithalowerPtloadingrate(12.75wt.%)exhibited
+a comparable overpotential and reduced Tafel slopes while showing superior stability
+relativetothatofcommercialPt/C(Pt: 20wt.%). Therefore,Pt/A_PGnPexhibitedhigh
+activityandstability,indicatingitspotentialasastableHERcatalyst.
+https://doi.org/10.3390/nano16120769
+
+Nanomaterials2026,16,769 15of20
+Yoonetal.demonstratedthattheporousstructureofthecarbonsupportplaysapivotal
+roleinenhancingHERperformancecapabilitiesbyloadingPtnanoparticlesontoactivated
+nitrogen-dopedgraphiticnanoplatelets(A-N-GN)(Figure7)[28]. Theactivationprocess
+generatedadditionalporesandenlargedthesurfacearea,providingmoreaccessibleactive
+sitesandimprovingthemasstransportefficiency. Asaresult,Pt&-N-GNshowedsuperior
+HERperformanceinacidicmedia,surpassingthatofcommercialPt/C(Pt:20wt.%). These
+results indicate that rational engineering of the porous structure of the carbon support
+isapromisingstrategyformaximizingtheutilizationofsupportedPtnanoparticlesand
+enhancingtheoverallelectrocatalyticactivity.
+Figure7.(a)SchematicillustrationofPt&A-N-GNsynthesis.(b)HR-TEMimagesofPt&A-N-GN.
+ElectrocatalyticHERperformanceofPt/CandPt&A-N-GNunderacidicmedia: (c)Polarization
+curves,(d)Overpotentialvalues,(e)CorrespondingTafelslopes,(f)Electrochemicalactivesurface
+area(ECSA),(g)Massactivityvalueataspecificoverpotential,and(h)Overpotentialchangesat
+differentcurrentdensitiesbeforeandafter10,000cycles.AdaptedwithpermissionfromRef.[28].
+4. ConclusionsandPerspectives
+Inthisreview,wehavediscussedrationaldesignstrategiesforPt-basedHERelectro-
+catalysts,withafocusonmetal-levelengineeringandsupport-levelengineeringastwo
+complementaryandsynergisticapproachestomaximizingcatalyticperformanceoutcomes
+whileminimizingPtusagelevels.
+Atthemetallevel,SACshavedemonstratedexceptionalatomicutilizationefficiency
+andtunableHERactivitythroughprecisecontrolofthelocalcoordinationenvironment
+andstrongmetal-supportinteractions. Alloyingstrategies,includingthosethatrelyon
+binaryalloys,intermetalliccompounds,andHEAs,enhancetheHERactivitybytuningthe
+d-bandcenterthroughsynergisticelectroniceffects. Thismodulationoptimizeshydrogen
+adsorption/desorptionandaccelerateswaterdissociationduringtheHER.Despitethese
+advantages,severallimitationsremain. SACsarestillassociatedwithlimitedlong-term
+stability due to atom migration and aggregation under practical operating conditions.
+https://doi.org/10.3390/nano16120769
+
+Nanomaterials2026,16,769 16of20
+Meanwhile,alloyandHEAsystemsoftenexhibitstructuralcomplexityandheterogeneous
+active sites, making precise control of the electronic interactions among multimetallic
+components difficult. In addition, achieving both high intrinsic activity and long-term
+durabilityacrossawidepHrangeremainschallengingthroughmetalengineeringalone.
+Toovercometheselimitations,increasingattentionhasbeendirectedtowardcarbon-
+supportengineeringstrategies. Heteroatomdoping,suchasN,P,S,orBincorporationinto
+carbonframeworks,caneffectivelyregulatetheelectronicstructureofPt-basedactivesites
+throughchargeredistributionsandstrengthenedmetal-supportinteractions. Simultane-
+ously,porousstructureengineeringprovideslargesurfaceareas,abundantanchoringsites,
+and interconnected transport pathways for electrons and electrolytes. These structural
+advantagessuppressnanoparticleaggregation,increaseactive-siteexposure,andfacilitate
+massandchargetransportduringtheHER.Importantly,thesynergisticcombinationof
+heteroatomdopingandporouscarbonarchitecturesenablesbothelectronicandstructural
+optimization of electrocatalysts, offering advantages that cannot be achieved by metal
+designapproachesalone.
+Therefore, the rational integration of advanced metal engineering strategies with
+heteroatom-dopedporouscarbonsupportsrepresentsapromisingpathwaytowardhighly
+active,durable,andlow-PtHERelectrocatalysts. Lookingforward,furtheradvancesin
+operandocharacterizationtechniquesandcomputationalapproaches,includingmachine-
+learning-assistedcatalystdesign,areexpectedtoaccelerateourunderstandingofmetal-
+support interactions and catalytic descriptors. By combining large experimental and
+computationaldatasetswithhigh-throughputscreeningandpredictivemodeling,machine
+learning can facilitate the identification of key catalytic descriptors, optimization of Pt
+utilization,andrationaldesignofcatalystarchitectures. Continuedeffortsthatelucidate
+thesynergisticmechanismsbetweenactivemetalsandengineeredcarbonsupportswillbe
+essentialforthedevelopmentofpracticalandsustainableHERelectrocatalystsforgreen
+hydrogenproduction.
+AuthorContributions:Conceptualization,I.-Y.J.;writing—originaldraftpreparation,S.J.Y.;writing—
+reviewandediting,I.-Y.J.;visualization,S.J.Y.;supervision,I.-Y.J.;projectadministration,I.-Y.J.All
+authorshavereadandagreedtothepublishedversionofthemanuscript.
+Funding:Thisresearchreceivednoexternalfunding.
+DataAvailabilityStatement:Datapresentedinthisstudyareavailableonrequestfromthecorre-
+spondingauthors.
+Acknowledgments:ThisresearchwassupportedbytheRegionalInnovationSystem&Education
+(RISE)programthroughtheJeonbukRISECenter,fundedbytheMinistryofEducation(MOE)and
+theJeonbukState,RepublicofKorea(2026-RISE-13-WKU).
+ConflictsofInterest:Theauthorsdeclarenoconflictofinterest.
+References
+1. Liang,Z.;Zhang,Y.;Liu,L.;Jiao,M.;Ye,C.Single-AtomCatalystsforHydrogenEvolutionReaction: TheRoleofSupports,
+CoordinationEnvironments,andSynergisticEffects.Nanomaterials2025,15,1175.[CrossRef][PubMed]
+2. Smiljanic´,M.;Panic´,S.;Bele,M.;Ruiz-Zepeda,F.;Pavko,L.;Gašparicˇ,L.;Kokalj,A.;Gaberšcˇek,M.;Hodnik,N.Improvingthe
+HERActivityandStabilityofPtNanoparticlesbyTitaniumOxynitrideSupport.ACSCatal.2022,12,13021–13033.[CrossRef]
+[PubMed]
+3. Yasin,M.;Khan,N.;Murad,M.;Ali,K.;Zeb,Z.;Saleem,S.;Ullah,Z.Pt-basedelectrocatalystforhydrogenevolutioninacidic
+electrolytes.Electrochem.Commun.2025,180,108057.[CrossRef]
+4. Zhou,K.L.;Wang,Z.;Han,C.B.;Ke,X.;Wang,C.;Jin,Y.;Zhang,Q.;Liu,J.;Wang,H.;Yan,H.Platinumsingle-atomcatalyst
+coupledwithtransitionmetal/metaloxideheterostructureforacceleratingalkalinehydrogenevolutionreaction.Nat.Commun.
+2021,12,3783.[CrossRef][PubMed]
+https://doi.org/10.3390/nano16120769
+
+Nanomaterials2026,16,769 17of20
+5. Guo,F.;Macdonald,T.J.;Sobrido,A.J.;Liu,L.;Feng,J.;He,G.RecentAdvancesinUltralow-Pt-LoadingElectrocatalystsforthe
+EfficientHydrogenEvolution.Adv.Sci.2023,10,2301098.[CrossRef][PubMed]
+6. Cui, Z.; Jiao, W.; Huang, Z.; Chen, G.; Zhang, B.; Han, Y.; Huang, W. Design and Synthesis of Noble Metal-Based Alloy
+ElectrocatalystsandTheirApplicationinHydrogenEvolutionReaction.Small2023,19,2301465.[CrossRef][PubMed]
+7. Liu,D.;Li,X.;Chen,S.;Yan,H.;Wang,C.;Wu,C.;Haleem,Y.A.;Duan,S.;Lu,J.;Ge,B.;etal.Atomicallydispersedplatinum
+supportedoncurvedcarbonsupportsforefficientelectrocatalytichydrogenevolution.Nat.Energy2019,4,512–518.[CrossRef]
+8. Li,Y.;Abbott,J.;Sun,Y.;Sun,J.;Du,Y.;Han,X.;Wu,G.;Xu,P.Runanoassemblycatalystsforhydrogenevolutionandoxidation
+reactionsinelectrolytesatvariouspHvalues.Appl.Catal.BEnviron.2019,258,117952.[CrossRef]
+9. Kuang, P.; Ni, Z.; Zhu, B.; Lin, Y.; Yu, J. Modulating the d-Band Center Enables Ultrafine Pt Fe Alloy Nanoparticles for
+3
+pH-UniversalHydrogenEvolutionReaction.Adv.Mater.2023,35,2303030.[CrossRef][PubMed]
+10. Zeng,M.;Li,Y.Recentadvancesinheterogeneouselectrocatalystsforthehydrogenevolutionreaction.J.Mater.Chem.A2015,3,
+14942–14962.[CrossRef]
+11. Liu, F.; Shi, C.; Guo, X.; He, Z.; Pan, L.; Huang, Z.F.; Zhang, X.; Zou, J.J. Rational Design of Better Hydrogen Evolution
+ElectrocatalystsforWaterSplitting:AReview.Adv.Sci.2022,9,2200307.[CrossRef][PubMed]
+12. Sen,S.;Chatterjee,A.;Maji,P.K.HydrogenEvolutionReaction:MechanisticInsightsandEmergingDesignStrategiesforEfficient
+Catalysis.Adv.Sustain.Syst.2026,10,e00959.[CrossRef]
+13. Shinagawa,T.;Garcia-Esparza,A.T.;Takanabe,K.InsightonTafelslopesfromamicrokineticanalysisofaqueouselectrocatalysis
+forenergyconversion.Sci.Rep.2015,5,13801.[CrossRef][PubMed]
+14. Nørskov,J.K.;Bligaard,T.;Logadottir,A.;Kitchin,J.R.;Chen,J.G.;Pandelov,S.;Stimming,U.TrendsintheExchangeCurrentfor
+HydrogenEvolution.J.Electrochem.Soc.2005,152,J23–J26.[CrossRef]
+15. Skúlason,E.;Tripkovic,V.;Björketun,M.E.;Gudmundsdóttir,S.;Karlberg,G.;Rossmeisl,J.;Bligaard,T.;Jónsson,H.;Nørskov,
+J.K.ModelingtheElectrochemicalHydrogenOxidationandEvolutionReactionsontheBasisofDensityFunctionalTheory
+Calculations.J.Phys.Chem.C2010,114,18182–18197.[CrossRef]
+16. Feidenhans’l,A.A.;Regmi,Y.N.;Wei,C.;Xia,D.;Kibsgaard,J.;King,L.A.PreciousMetalFreeHydrogenEvolutionCatalyst
+DesignandApplication.Chem.Rev.2024,124,5617–5667.[CrossRef][PubMed]
+17. Subbaraman, R.; Tripkovic, D.; Strmcnik, D.; Chang, K.-C.; Uchimura, M.; Paulikas, A.P.; Stamenkovic, V.; Markovic, N.M.
+EnhancingHydrogenEvolutionActivityinWaterSplittingbyTailoringLi+-Ni(OH) -PtInterfaces.Science2011,334,1256–1260.
+2
+[CrossRef][PubMed]
+18. Zheng,X.;Zhang,B.;DeLuna,P.;Liang,Y.;Comin,R.;Voznyy,O.;Han,L.;GarcíadeArquer,F.P.;Liu,M.;Dinh,C.T.;etal.
+Theory-drivendesignofhigh-valencemetalsitesforwateroxidationconfirmedusinginsitusoftX-rayabsorption.Nat.Chem.
+2018,10,149–154.[CrossRef][PubMed]
+19. Wang,Z.;Shen,S.;Wang,J.;Zhong,W.ModulatingtheD-BandCenterofElectrocatalystsforEnhancedWaterSplitting.Chem.
+Eur.J.2024,30,e202402725.[CrossRef]
+20. Hu,J.;Al-Salihy,A.;Zhang,B.;Li,S.;Xu,P.MasteringtheD-BandCenterofIron-SeriesMetal-BasedElectrocatalystsforEnhanced
+ElectrocatalyticWaterSplitting.Int.J.Mol.Sci.2022,23,15405.[CrossRef][PubMed]
+21. Leybo,D.;Etim,U.J.;Monai,M.;Bare,S.R.;Zhong,Z.;Vogt,C.Metal–supportinteractionsinmetaloxide-supportedatomic,
+cluster,andnanoparticlecatalysis.Chem.Soc.Rev.2024,53,10450–10490.[CrossRef][PubMed]
+22. Luo,Z.;Zhao,G.;Pan,H.;Sun,W.StrongMetal–SupportInteractioninHeterogeneousCatalysts. Adv. EnergyMater. 2022,
+12,2201395.[CrossRef]
+23. vanDeelen,T.W.;HernándezMejía,C.;deJong,K.P.Controlofmetal-supportinteractionsinheterogeneouscatalyststoenhance
+activityandselectivity.Nat.Catal.2019,2,955–970.[CrossRef]
+24. Li,J.;Ma,Y.;Ho,J.C.;Qu,Y.HydrogenSpilloverPhenomenonattheInterfaceofMetal-SupportedElectrocatalystsforHydrogen
+Evolution.Acc.Chem.Res.2024,57,895–904.[CrossRef][PubMed]
+25. Li, J.; Hu, J.; Zhang, M.; Gou, W.; Zhang, S.; Chen, Z.; Qu, Y.; Ma, Y.Afundamentalviewpointonthehydrogenspillover
+phenomenonofelectrocatalytichydrogenevolution.Nat.Commun.2021,12,3502.[CrossRef][PubMed]
+26. Gaur,A.;Sharma,J.;Han,H.HydrogenSpilloverEffectinElectrocatalysis:DelvingintotheMysteriesoftheAtomicMigration.
+EnergyEnviron.Mater.2024,7,e12761.[CrossRef]
+27. Li,Y.;Li,L.;Xu,S.;Cui,K.;Wang,T.;Jiang,Z.;Li,J.HydrogenSpilloverMechanismattheMetal–MetalIinterfaceinElectrocatalytic
+Hydrogenation.Angew.Chem.2024,136,e202407810.[CrossRef]
+28. Yoon, S.J.; Lee, S.J.; Jeon, I.-Y. Low Pt nanoparticles supported on porous nitrogen-doped graphitic nanoplatelets for high-
+performancehydrogenevolutionreactions.J.PowerSources2025,655,237915.[CrossRef]
+29. Kweon, D.H.; Baek, J.H.; Park, S.O.; Noh, H.J.; Jeon, J.P.; Lee, J.H.; Shin, T.J.; Kwak, S.K.; Jeon, I.Y.; Baek, J.B. Platinum
+NanoparticlesonMetalloidAntimonyFunctionalizedGraphiticNanoplateletsforEnhancedWaterElectrolysis.Small2025,21,
+2501408.[CrossRef][PubMed]
+https://doi.org/10.3390/nano16120769
+
+Nanomaterials2026,16,769 18of20
+30. Lee,S.J.;Baek,J.-B.;Jeon,I.-Y.ImprovingHERactivityandstabilityofPtnanoparticleonTriazinegraphiticnanoplatelets.Mater.
+TodaySustain.2024,28,100984.[CrossRef]
+31. Kim,M.H.;Kweon,D.H.;Yoon,S.J.;Baek,J.-B.;Jeon,I.-Y.Ptnanoparticlesonactivatedphosphorus-dopedgraphiticnanoplatelets
+forhighperformancehydrogenevolutionreaction.Mater.TodaySustain.2023,24,100598.[CrossRef]
+32. Baek,J.H.;Lee,S.J.;Kim,N.H.;Lee,S.M.;Seo,J.M.;Noh,H.J.;Jeon,J.P.;Li,C.;Kwak,S.K.;Kweon,D.H.;etal. High-Period
+Element Doping as a Key Driver of Hydrogen Evolution in a Proton Exchange Membrane Water Electrolyzer. Small 2025,
+21,e07086.[CrossRef][PubMed]
+33. Yan,Q.-Q.;Wu,D.-X.;Chu,S.-Q.;Chen,Z.-Q.;Lin,Y.;Chen,M.-X.;Zhang,J.;Wu,X.-J.;Liang,H.-W.Reversingthecharge
+transferbetweenplatinumandsulfur-dopedcarbonsupportforelectrocatalytichydrogenevolution.Nat.Commun.2019,10,4977.
+[CrossRef][PubMed]
+34. Feng,Y.;Xie,Y.;Yu,Y.;Chen,Y.;Liu,Q.;Bao,H.;Luo,F.;Pan,S.;Yang,Z.ElectronicMetal-SupportInteractionInducesHydrogen
+SpilloverandPlatinumUtilizationinHydrogenEvolutionReaction.Angew.Chem.Int.Ed.2025,64,e202413417.[CrossRef]
+35. Yin,X.P.;Wang,H.J.;Tang,S.F.;Lu,X.L.;Shu,M.;Si,R.;Lu,T.B.EngineeringtheCoordinationEnvironmentofSingle-Atom
+Platinum Anchored on Graphdiyne for Optimizing Electrocatalytic Hydrogen Evolution. Angew. Chem. Int. Ed. 2018, 57,
+9382–9386.[CrossRef][PubMed]
+36. Kuang,P.;Wang,Y.;Zhu,B.;Xia,F.;Tung,C.W.;Wu,J.;Chen,H.M.;Yu,J.PtSingleAtomsSupportedonN-DopedMesoporous
+Hollow Carbon Spheres with Enhanced Electrocatalytic H -Evolution Activity. Adv. Mater. 2021, 33, 2008599. [CrossRef]
+2
+[PubMed]
+37. Zhu,J.;Tu,Y.;Cai,L.;Ma,H.;Chai,Y.;Zhang,L.;Zhang,W.Defect-AssistedAnchoringofPtSingleAtomsonMoS Nanosheets
+2
+ProducesHigh-PerformanceCatalystforIndustrialHydrogenEvolutionReaction.Small2022,18,2104824.[CrossRef][PubMed]
+38. Le,T.D.;Kim,D.S.;Tran,T.V.;Urupalli,B.;Shin,G.S.;Oh,G.J.;Yu,Y.T.ElectronicStructureEngineeringofPt–NiAlloyNPsby
+CouplingofGoldSingleAtomsonN-DopedCarbonforHighlyEfficientOxygenReductionReactionandHydrogenEvolution
+Reaction.Small2024,20,2311971.[CrossRef][PubMed]
+39. Zhao,W.;Luo,C.;Lin,Y.;Wang,G.-B.;Chen,H.M.;Kuang,P.;Yu,J.Pt–RuDimerElectrocatalystwithElectronRedistributionfor
+HydrogenEvolutionReaction.ACSCatal.2022,12,5540–5548.[CrossRef]
+40. Wang,C.;Zhang,J.;Miao,K.;Long,M.;Lai,S.;Zhao,S.;Kang,X.OctahedralNanocrystalsofRu-DopedPtFeNiCuW/CNTs
+High-EntropyAlloy: HighPerformanceTowardpH-UniversalHydrogenEvolutionReaction. Adv. Mater. 2024,36,2400433.
+[CrossRef][PubMed]
+41. Zeng,Z.;Küspert,S.;Balaghi,S.E.;Hussein,H.E.M.;Ortlieb,N.;Knäbbeler-Buß,M.;Hügenell,P.;Pollitt,S.;Hug,N.;Melke,J.;
+etal.UltrahighMassActivityPtEntitiesConsistingofPtSingleAtoms,Clusters,andNanoparticlesforImprovedHydrogen
+EvolutionReaction.Small2023,19,2205885.[CrossRef][PubMed]
+42. Li,Y.;Jiang,K.;Yang,J.;Zheng,Y.;Hübner,R.;Ou,Z.;Dong,X.;He,L.;Wang,H.;Li,J.;etal.TungstenOxide/ReducedGraphene
+OxideAerogelwithLow-ContentPlatinumasHigh-PerformanceElectrocatalystforHydrogenEvolutionReaction.Small2021,
+17,2102159.[CrossRef][PubMed]
+43. Tan,H.;Tang,B.;Lu,Y.;Ji,Q.;Lv,L.;Duan,H.;Li,N.;Wang,Y.;Feng,S.;Li,Z.;etal.Engineeringalocalacid-likeenvironmentin
+alkalinemediumforefficienthydrogenevolutionreaction.Nat.Commun.2022,13,2024.[CrossRef][PubMed]
+44. Shen,S.;Li,Q.;Zhang,H.;Yang,D.;Gong,J.;Gu,L.;Gao,T.;Zhong,W.Negative-ValentPlatinumStabilizedbyPt—NiElectron
+BridgesonOxygen-DeficientNiFe-LDHforEnhancedElectrocatalyticHydrogenEvolution. Adv. Mater. 2025, 37, 2500595.
+[CrossRef][PubMed]
+45. Lin,Z.;Wang,Z.;Gong,J.;Jin,T.;Shen,S.;Zhang,Q.;Wang,J.;Zhong,W.ReversedSpilloverEffectActivatedbyPtAtomDimers
+BoostsAlkalineHydrogenEvolutionReaction.Adv.Funct.Mater.2023,33,2307510.[CrossRef]
+46. Yang,W.; Li,M.; Zhang,B.; Liu,Y.; Zi,J.; Xiao,H.; Liu,X.; Lin,J.; Zhang,H.; Chen,J.; etal. InterfacialMicroenvironment
+Modulation Boosts Efficient Hydrogen Evolution Reaction in Neutral and Alkaline. Adv. Funct. Mater. 2023, 33, 2304852.
+[CrossRef]
+47. Zhou,B.;Wang,J.;Guo,L.;Li,H.;Xiao,W.;Xu,G.;Chen,D.;Li,C.;Du,Y.;Ding,H.;etal.Microwave-AssistedPtRuAlloyingon
+DefectiveTungstenOxide:APathwaytoImprovedHydroxylDynamicsforHighly-EfficientHydrogenEvolutionReaction.Adv.
+EnergyMater.2024,14,2402372.[CrossRef]
+48. Liu,W.;Wang,A.;Zhang,J.;Yu,S.;Wang,M.;Tian,S.;Tang,H.;Zhao,Z.;Ren,X.;Guo,Y.;etal.Pt/α-MoCCatalystBoosting
+pH-UniversalHydrogenEvolutionReactionatHighCurrentDensities.ACSNano2025,19,10038–10047.[CrossRef][PubMed]
+49. Yang,W.;Cheng,P.;Li,Z.;Lin,Y.;Li,M.;Zi,J.;Shi,H.;Li,G.;Lian,Z.;Li,H.TuningtheCobalt–PlatinumAlloyRegulating
+Single-AtomPlatinumforHighlyEfficientHydrogenEvolutionReaction.Adv.Funct.Mater.2022,32,2205920.[CrossRef]
+50. Yu,S.W.;Kwon,S.;Chen,Y.;Xie,Z.;Lu,X.;He,K.;Hwang,S.;Chen,J.G.;Goddard,W.A.,III;Zhang,S.ConstructionofaPt-CeOx
+InterfacefortheElectrocatalyticHydrogenEvolutionReaction.Adv.Funct.Mater.2024,34,2402966.[CrossRef]
+51. Wan,Y.;Wei,W.;Ding,S.;Wu,L.;Qin,H.;Yuan,X.AMulti-SiteSynergisticEffectinHigh-EntropyAlloyforEfficientHydrogen
+Evolution.Adv.Funct.Mater.2025,35,2414554.[CrossRef]
+https://doi.org/10.3390/nano16120769
+
+Nanomaterials2026,16,769 19of20
+52. Liu,S.;Shen,Y.;Zhang,Y.;Cui,B.;Xi,S.;Zhang,J.;Xu,L.;Zhu,S.;Chen,Y.;Deng,Y.;etal.ExtremeEnvironmentalThermalShock
+InducedDislocation-RichPtNanoparticlesBoostingHydrogenEvolutionReaction.Adv.Mater.2022,34,2106973.[CrossRef]
+53. Feng, G.; Pan, Y.; Su, D.; Xia, D.ConstructingFully-ActiveandUltra-ActiveSitesinHigh-EntropyAlloyNanoclustersfor
+HydrazineOxidation-AssistedElectrolyticHydrogenProduction.Adv.Mater.2024,36,2309715.[CrossRef][PubMed]
+54. Zhang,H.;Wan,F.;Li,X.;Chen,X.;Xiong,S.;Xi,B.UltrafinePtMoNanocrystalsConfinedonN-DopedCarbonTowardEfficient
+pH-UniversalHydrogenEvolutionReaction.Adv.Funct.Mater.2023,33,2306340.[CrossRef]
+55. Shi,W.;Liu,H.;Li,Z.;Li,C.;Zhou,J.;Yuan,Y.;Jiang,F.;Fu,K.;Yao,Y.High-entropyalloystabilizedandactivatedPtclustersfor
+highlyefficientelectrocatalysis.SusMat2022,2,186–196.[CrossRef]
+56. Pu,Z.;Amiinu,I.S.;Cheng,R.;Wang,P.;Zhang,C.;Mu,S.;Zhao,W.;Su,F.;Zhang,G.;Liao,S.;etal. Single-AtomCatalysts
+forElectrochemicalHydrogenEvolutionReaction: RecentAdvancesandFuturePerspectives. Nano-MicroLett. 2020,12,21.
+[CrossRef][PubMed]
+57. Guo,J.;Liu,H.;Li,D.;Wang,J.;Djitcheu,X.;He,D.;Zhang,Q.Aminireviewonthesynthesisofsingleatomcatalysts.RSCAdv.
+2022,12,9373–9394.[CrossRef][PubMed]
+58. Qiao,B.;Wang,A.;Yang,X.;Allard,L.F.;Jiang,Z.;Cui,Y.;Liu,J.;Li,J.;Zhang,T.Single-atomcatalysisofCOoxidationusing
+Pt
+1
+/FeOx.Nat.Chem.2011,3,634–641.[CrossRef][PubMed]
+59. Liu,H.; Peng,X.; Liu,X.Single-AtomCatalystsfortheHydrogenEvolutionReaction. ChemElectroChem2018,5,2963–2974.
+[CrossRef]
+60. Wang,A.;Li,J.;Zhang,T.Heterogeneoussingle-atomcatalysis.Nat.Rev.Chem.2018,2,65–81.[CrossRef]
+61. Lei,Y.;Wang,Y.;Liu,Y.;Song,C.;Li,Q.;Wang,D.;Li,Y.DesigningAtomicActiveCentersforHydrogenEvolutionElectrocatalysts.
+Angew.Chem.Int.Ed.2020,59,20794–20812.[CrossRef][PubMed]
+62. Greeley,J.;Jaramillo,T.F.;Bonde,J.;Chorkendorff,I.;Nørskov,J.K.Computationalhigh-throughputscreeningofelectrocatalytic
+materialsforhydrogenevolution.Nat.Mater.2006,5,909–913.[CrossRef][PubMed]
+63. Nørskov,J.K.;Rossmeisl,J.;Logadottir,A.;Lindqvist,L.;Kitchin,J.R.;Bligaard,T.;Jónsson,H.OriginoftheOverpotentialfor
+OxygenReductionataFuel-CellCathode.J.Phys.Chem.B2004,108,17886–17892.[CrossRef][PubMed]
+64. Lim,C.;Fairhurst,A.R.;Ransom,B.J.;Haering,D.;Stamenkovic,V.R.RoleofTransitionMetalsinPtAlloyCatalystsforthe
+OxygenReductionReaction.ACSCatal.2023,13,14874–14893.[CrossRef][PubMed]
+65. Guo,H.;Guo,S.StrainEngineeringofMultimetallicNanomaterialsforAdvancedElectrocatalysis.CCSChem.2025,7,326–344.
+[CrossRef]
+66. Yang,X.;Wang,Y.;Tong,X.;Yang,N.StrainEngineeringinElectrocatalysts: Fundamentals,Progress,andPerspectives. Adv.
+EnergyMater.2022,12,2102261.[CrossRef]
+67. Guo,Y.;Wang,M.;Zhu,Q.;Xiao,D.;Ma,D.Ensembleeffectforsingle-atom,smallclusterandnanoparticlecatalysts.Nat.Catal.
+2022,5,766–776.[CrossRef]
+68. Gao,G.;Zhu,G.;Chen,X.;Sun,Z.;Cabot,A.OptimizingPt-BasedAlloyElectrocatalystsforImprovedHydrogenEvolution
+PerformanceinAlkalineElectrolytes:AComprehensiveReview.ACSNano2023,17,20804–20824.[CrossRef][PubMed]
+69. Pan, Y.; Gao, J.; Lv, E.; Li, T.; Xu, H.; Sun, L.; Nairan, A.; Zhang, Q. Integration of Alloy Segregation and Surface Co-O
+HybridizationinCarbon-EncapsulatedCoNiPtAlloyCatalystforSuperiorAlkalineHydrogenEvolution. Adv. Funct. Mater.
+2023,33,2303833.[CrossRef]
+70. Fu,X.;Zhang,J.;Zhan,S.;Xia,F.;Wang,C.;Ma,D.;Yue,Q.;Wu,J.;Kang,Y.High-EntropyAlloyNanosheetsforFine-Tuning
+HydrogenEvolution.ACSCatal.2022,12,11955–11959.[CrossRef]
+71. Qi,H.;Lu,F.;Li,Q.;Wu,Q.;Kang,Z.;Hou,Y.;Su,L.;Li,S.;Huang,Z.;Feng,G.Sub-5nmUltrasmallHigh-EntropyAlloy
+NanomaterialsforElectrocatalysis.Adv.Funct.Mater.2026,36,e19434.[CrossRef]
+72. Chen,H.;Guan,C.;Feng,H.Pt-BasedHigh-EntropyAlloyNanoparticlesasBifunctionalElectrocatalystsforHydrogenand
+OxygenEvolution.ACSAppl.NanoMater.2022,5,9810–9817.[CrossRef]
+73. Qu, K.; Zheng, Y.; Zhang, X.; Davey, K.; Dai, S.; Qiao, S.Z.PromotionofElectrocatalyticHydrogenEvolutionReactionon
+Nitrogen-DopedCarbonNanosheetswithSecondaryHeteroatoms.ACSNano2017,11,7293–7300.[CrossRef][PubMed]
+74. Zhang,J.;Dai,L.Heteroatom-DopedGraphiticCarbonCatalystsforEfficientElectrocatalysisofOxygenReductionReaction.
+ACSCatal.2015,5,7244–7253.[CrossRef]
+75. Wang,J.;Liao,T.;Wei,Z.;Sun,J.;Guo,J.;Sun,Z.Heteroatom-DopingofNon-NobleMetal-BasedCatalystsforElectrocatalytic
+HydrogenEvolution:AnElectronicStructureTuningStrategy.SmallMethods2021,5,2000988.[CrossRef][PubMed]
+76. Younis,M.A.;Lyu,S.;Zhao,Q.;Lei,C.;Zhang,P.;Yang,B.;Li,Z.;Lei,L.;Hou,Y.;Feng,X.Noblemetal-freetwodimensional
+carbon-basedelectrocatalystsforwatersplitting.BMCMater.2019,1,6.[CrossRef]
+77. Yu,H.;Wu,L.;Ni,B.;Chen,T.ResearchProgressonPorousCarbon-BasedNon-PreciousMetalElectrocatalysts.Materials2023,
+16,3283.[CrossRef][PubMed]
+78. Zhang, P.; Zhu, H.; Dai, S. Porous Carbon Supports: Recent Advances with Various Morphologies and Compositions.
+ChemCatChem2015,7,2788–2805.[CrossRef]
+https://doi.org/10.3390/nano16120769
+
+Nanomaterials2026,16,769 20of20
+79. Fang,Z.;Peng,L.;Qian,Y.;Zhang,X.;Xie,Y.;Cha,J.J.;Yu,G.DualTuningofNi–Co–A(A=P,Se,O)NanosheetsbyAnion
+SubstitutionandHoleyEngineeringforEfficientHydrogenEvolution. J.Am. Chem. Soc. 2018, 140,5241–5247. [CrossRef]
+[PubMed]
+80. Luo,X.;Yuan,P.;Xiao,H.;Li,S.;Luo,J.;Li,J.;Lai,W.;Chen,Y.;Li,D.EffectsofIntrinsicDefectsinPt-BasedCarbonSupportson
+AlkalineHydrogenEvolutionReaction.ACSAppl.Mater.Interfaces2024,16,26044–26056.[CrossRef][PubMed]
+81. Guo,J.;Huo,J.;Liu,Y.;Wu,W.;Wang,Y.;Wu,M.;Liu,H.;Wang,G.Nitrogen-DopedPorousCarbonSupportedNonprecious
+MetalSingle-AtomElectrocatalysts:FromSynthesistoApplication.SmallMethods2019,3,1900159.[CrossRef]
+Disclaimer/Publisher’sNote: Thestatements, opinionsanddatacontainedinallpublicationsaresolelythoseoftheindividual
+author(s)andcontributor(s)andnotofMDPIand/ortheeditor(s).MDPIand/ortheeditor(s)disclaimresponsibilityforanyinjuryto
+peopleorpropertyresultingfromanyideas,methods,instructionsorproductsreferredtointhecontent.
+https://doi.org/10.3390/nano16120769
+

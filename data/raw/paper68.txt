@@ -1,0 +1,436 @@
+TYPEOriginalResearch
+PUBLISHED10October2022
+DOI10.3389/fmats.2022.1005221
+Promising CoSe -CNT
+2
+fi
+composite catalyst for ef cient
+OPENACCESS
+EDITEDBY photoelectrochemical hydrogen
+WeiFeng,
+NortheastForestryUniversity,China
+evolution reaction
+REVIEWEDBY
+JianlongWang,
+NorthwestA&FUniversity,China
+XianboYu, Zhi-Gang Pi1, Hongfeng Ye2, Zuqi Han2, Peng Yu2*,
+HarbinNormalUniversity,China
+Bo-QuanLi, Zhuoxun Yin3* and Xinzhi Ma2*
+BeijingUniversityofTechnology,China
+YanFeng, 1CenterforEngineeringTrainingandBasicExperimentation,HeilongjiangUniversityofScienceand
+HarbinEngineeringUniversity,China Technology,Harbin,China,2KeyLaboratoryforPhotonicandElectronicBandgapMaterials,Ministryof
+LeiWang, EducationandSchoolofPhysicsandElectronicEngineering,HarbinNormalUniversity,Harbin,China,
+HeilongjiangUniversity,China 3CollegeofScience,QiqiharUniversity,Qiqihar,China
+*CORRESPONDENCE
+PengYu,
+lavendermoon@126.com
+ZhuoxunYin,
+CoSe is a typical transition metal chalcogenide and an hydrogen evolution
+yzx@qqhru.edu.cn 2
+XinzhiMa, reaction hydrogen evolution catalyst due to its efficient and inexpensive
+maxz@hrbnu.edu.cn characteristics. In this work, CoSe /CNT composite was synthesized through
+2
+SPECIALTYSECTION aone-stepsolvothermalmethod.Specifically,acurrentdensityof10mAcm−2
+ThisarticlewassubmittedtoEnergy
+can be achieved under an overpotential of 163mV, and the Tafel slope is
+Materials,
+asectionofthejournal 69.4mV dec−1. The reasons for these excellent performances are: 1) the
+FrontiersinMaterials abundant catalytic active sites of CoSe ; 2) the high conductivity of CNTs;
+2
+RECEIVED28July2022 and3)thesynergisticeffectbetweenCoSe andCNTs;ivthesolarirradiation
+2
+ACCEPTED08September2022
+excites electrons to join the reaction. This work proposes a new way to
+PUBLISHED10October2022
+reasonably design the high-efficiency and low-cost transition metal
+CITATION
+chalcogenide hydrogen evolutioncatalysts.
+PiZ-G,YeH,HanZ,YuP,YinZandMaX
+(2022),PromisingCoSe2-CNT
+compositecatalystforefficient
+KEYWORDS
+photoelectrochemicalhydrogen
+evolutionreaction. HER,solar-irradiation,CoSe2,CNT,composite
+Front.Mater.9:1005221.
+doi:10.3389/fmats.2022.1005221
+Introduction
+COPYRIGHT
+©2022Pi,Ye,Han,Yu,YinandMa.This
+isanopen-accessarticledistributed Inrecentyears,peoplehavepaidmoreandmoreattentiontorenewableenergy,such
+underthetermsoftheCreative
+asbioenergy,hydrogenenergy,solarenergy,etc.,becauseofthedecreasingfossilenergy
+CommonsAttributionLicense(CCBY).
+Theuse,distributionorreproductionin andtheincreasinglysevereenvironmentalpollution.Hydrogenhasbecomethefocusof
+otherforumsispermitted,providedthe
+attentionbecauseofitshighenergydensity,cleanliness,andrenewability(Fanetal.,2019;
+originalauthor(s)andthecopyright
+owner(s)arecreditedandthatthe Gaoetal.,2018;Lietal.,2020;Yu,Qu,etal.,2016;Yu,Zhang,etal.,2016).Electrocatalysis
+originalpublicationinthisjournalis decomposeswaterintohydrogenandoxygen,whichmightbeusedtotackleenergyand
+cited,inaccordancewithaccepted
+environmental problems. The hydrogen evolution reaction (HER) plays a vital role in
+academicpractice.Nouse,distribution
+orreproductionispermittedwhichdoes electrochemicalwatersplittingandhasbeenwidelystudied(Caoetal.,2022;Yuanmiao
+notcomplywiththeseterms. Sunetal.,2020;Jietal.,2020;Zhaoetal.,2022).Todate,platinum-basedmaterialshave
+beenconsideredtobethebesthydrogenevolutionreactioncatalystsbecausetheyhavethe
+smallestoverpotential,andtheGibbsfreeenergy(ΔGH)ofPttoadsorbhydrogenisclose
+tozero(Greeleyetal.,2006).However,industrialproductionhasbeenrestricteddueto
+fewreservesandhighprices.Therefore,peoplearecommittedtolookingforabundant,
+FrontiersinMaterials 01 frontiersin.org
+
+Pietal. 10.3389/fmats.2022.1005221
+FIGURE1
+(A)XRDpatternsand(B)RamanimageofCoSe2/CNTscomposites.
+low-cost, efficient, and stable catalysts to replace the precious In this work, we employ a simple one-step solvothermal
+metalplatinum-basedcatalysts(Liuetal.,2016;Yeetal.,2016). method to successfully synthesize the CoSe /CNT composite,
+2
+Inrecentyears,peoplehavemadegreateffortstostudythe which exposes more active sites, increases the composite’s
+catalytic effects of transition metal sulfides, metal oxides, electrical conductivity, and improves the overall HER catalytic
+phosphides, and selenides on HER, proving that these performance of the material, but also prevents CoSe crystals
+2
+materials are promising electrocatalysts that can replace from clumping together. Importantly, we found that solar-
+platinum-based materials. Among these materials, the irradiation can excite electrons during catalysis, which boosted
+transition metal selenides MoSe (Deng et al., 2018), WSe theHEReffectively.Forthesereasons,theCoSe /CNTcomposite
+2 2 2
+(Henckel et al., 2017), NiSe (Sun et al., 2018), and CoSe candrivethecurrentdensityof10mAcm−2withonly105mV,
+2 2
+(Chen et al., 2016) have good catalytic performance, and low superior totheperformance ofpure CoSe .
+2
+cost,sotheygetextensivestudies.SinceCoSe hasgoodcatalytic
+2
+activityanddurabilitycharacteristics,ithasbeenproventohave
+Experimental section
+excellent HER electrocatalytic performance in acidic media
+(McCarthy et al., 2016; Yang et al., 2021). However, CoSe
+2
+always agglomerate and leads to a lack of active sites in Chemicals and materials
+practical applications. Also, its conductivity is not particularly
+excellent enough. To address these advantages, pure CoSe is The used chemicals and materials include analytical grade
+2
+usually prepared into different morphologies and coupled with Carbon nanotube dispersion, Cobalt Chloride Hexahydrate
+someconductivesubstrates,suchascarboncloth,carbonpaper, (CoCl .6H O, 98%), sodium borohydride (NaBH , 98%),
+2 2 4
+andcarbonnanotubes(Leeetal.,2016;Wangetal.,2015).These selenium (Se, 99.9%). It is worth noting that they were used
+strategies favor the catalyst exposing many active sites and without being purified further.
+improving the overall conductivity, which is vital for HER
+(Yan et al., 2013). For instance, the co-precipitation and
+annealing methods have been adopted by Chen et al (Wang Synthesis of CoSe 2 /CNT composite
+et al., 2019) to grow CoSe nanosheet arrays on Co-N doped
+2
+carbonclothwithexcellentHERperformance.Kangetal.used The CoSe/CNT method was synthesized based on a classical
+2
+spray pyrolysis and selenization to make macroporous CoSe / synthesized method (Yue et al., 2017), wherein the solvent was
+2
+CNTcompositemicrospheres,whichhavegoodelectrocatalytic changed from deionized water to DMF, along with a decreased
+properties in acid electrolyte (Kim et al., 2017). However, the reaction temperature. First, 671µL of carbon nanotube solution
+preparation mentioned above process is quite complicated. On (41.2mg ml−1) was dispersed in 20ml of N,
+the other hand, the solar assistant electrochemical strategy has N-dimethylformamide (DMF), and then they were treated with
+recentlyattractedmuchattention,whichcaninducephotocarrier ultrasonic for an hour. Second, 215mg of selenium powder (Lee
+generation and further boosts the kinetic process (Ma et al., etal.)and128.6mgofsodiumborohydride(NaBH)weredissolved
+4
+2022). in10mlofDMFandmagneticallyagitatedtoformsolutionA,which
+FrontiersinMaterials 02 frontiersin.org
+
+Pietal. 10.3389/fmats.2022.1005221
+FIGURE2
+(A)SEMimageofCNTs,(B)SEMimageofpureCoSe.
+2
+FIGURE3
+(A)SEMimage,(B)EDSspectrum,(C)TEMimage,(D)HRTEMimage,and(E)SAEDpatternofCoSe2/CNTcomposite.
+wasmixedfor30minafteraddingthedispersedcarbonnanotube Preparation of CoSe 2 /CNT electrode
+(cid:129)
+solutionand323.18mgofcobaltchloride(CoCl 6HO).Finally,the
+2 2
+prepared solutionwas heated ina 50mlTeflon-lined autoclave at 20mgCoSe /CNTwasgroundinmortarfor1–2h.Then,to
+2
+200°C for20h,andthenitwaswashedwithdeionizedwaterand obtain uniformly dispersed ink, the NMP contains the CoSe /
+2
+ethanol and dried in a vacuum at 60°C for 12h. CoSe/CNT CNT,and5wt%ofpolyvinylidenefluoride(PVDF)(massratio:
+2
+composite was obtained. The synthesis of pure CoSe is the same CoSe /CNT:PVDFis9:1)wassonicatedfor3h.The1mg/uLink
+2 2
+astheCoSe/CNTmethod. was evenly coated on hydrophilic carbon paper (1cm × 1cm,
+2
+FrontiersinMaterials 03 frontiersin.org
+
+Pietal. 10.3389/fmats.2022.1005221
+FIGURE4
+(A)Polarizationcurve,(B)Tafelslopes,(C)electrochemicalimpedancespectra,and(D)C dlvalueofdifferentelectrodes.
+load ≈2mg cm−2) and dried in a vacuum drying oven at 60°C E =E +0.059V×pH+0.241V.Thepolarizationcurve
+(RHE) (SCE)
+for 12h. isobtainedbylinearsweepvoltammetry(LSV)atascanrateof
+5mVs−1inthevoltagerangeof−0.1~−0.7V.Thetestcondition
+ofelectrochemicalimpedancespectroscopy(EIS)islimitedtothe
+Characterization frequency parameter of 100mHz–100kHz under an
+overpotential of −0.2V (vs. RHE). Cyclic voltammetry (CV) is
+Tocharacterizethemorphologyandelementalcomposition used to measure the electric double-layer capacitance (C ) at
+dl
+of the composite material, we use the scanning electron 0.45–0.55V(vs.RHE)ismeasuredbytheCV,inwhichthescan
+microscope (SEM) and transmission electron microscope raterangesfrom20to200mV.Whentheratedvoltageis0.5V
+(TEM) equipped with an energy dispersive X-ray spectrometer (vs.RHE),thedifferencebetweentheanodeandcathodecurrent
+(EDX). In addition, the crystal structure of the material was densities(Δj=j-j)fordifferentscanratesiscalculatedtoobtain
+a c
+characterized by X-ray diffraction (XRD), and the Raman the slope and the half is defined as C . All overpotentials are
+dl
+spectrum was measured by a miniature Raman spectrometer corrected by85%ohmpotential drop(iR)compensation.
+(JY; HR800, France)at anexcitation wavelengthof488nm.
+Results and discussion
+Electrochemical experiment
+Morpho-structural characterization
+The electrochemical performances such as intrinsic HER
+activity and durability of the composite were tested by the First,SepowderandNaBH wereaddedtoDMF.Then,after
+4
+VMP3 electrochemical workstation (France Bio-logic) in a the DMF solutions were stirred evenly, the pre-dispersed
+three-electrode configuration under 0.5M H SO electrolyte. mixtures of carbon nanotube solution and CoCl .6H O with
+2 4 2 2
+The electrode we prepared in advance, the saturated calomel seriesmassratiosweredispersedintotheabovesolutions.Finally,
+electrode(SCE),andthecarbonrodwasrespectivelyusedasthe theone-stepsolvothermalmethodisappliedtoobtaintheCoSe /
+2
+working electrode, the reference electrode, and the counter CNT composite. In order to analyze the structure and
+electrode. The electric potential, which is applied by the composition, Next, we first performed the XRDtest to analyze
+reversible hydrogen electrode (RHE), is expressed by formula thestructureandcomposition.AsshowninFigure1A.Itcanbe
+FrontiersinMaterials 04 frontiersin.org
+
+Pietal. 10.3389/fmats.2022.1005221
+FIGURE5
+CVswerescannedatvariousratesfrom20to200mVs−1:(A)CoSe2/CNTand(B)pureCoSe2.
+seenthatthediffractionpeakat26°isderivedfromCNTs.CoSe / sizes.Inaddition,thehigh-resolutionTEM(HRTEM)imageis
+2
+CNTs sample has three prominent diffraction peaks at 30.77°, showninFigure3D,wherethelatticespacingis0.26nm,whichis
+34.52°,35.96°,andtherearesomesmalldiffractionpeaksat2θ= welltothe(111)crystalplaneofCoSe .Pleasenotethatthelattice
+2
+28.97°, 47.72°, 50.66°, 53.48°, 55.42°, 56.95°, and 59.27°, parameterisconsistentwiththeresultscalculatedbytheBragg
+corresponding to the orthogonal structure of CoSe (PDF card equation from XRD data. Figure 3E shows the selected area
+2
+No.53-449)(101),(111),(120),(011),(211),(130),(031),(221), electrondiffraction(SAED)imageoftheCoSe /CNTcomposite,
+2
+(131),and(310)crystalplanes,respectively(Fanetal.,2019).No in which the yellow dotted line and the white circled area
+impuritieswereobserved,indicatingthatahigherpurityCoSe / correspond to the (111) and (211) crystal planes of CoSe and
+2 2
+CNTswassynthesized.Furthermore,asshowninFigure1B,the the(002)crystalplaneofCNT,respectively(Shaoetal.,2021).
+sharp peak at 173.5 cm−1 corresponds to the Se-Se stretching ThediscreteconcentricringsprovethatthesubstancesinCoSe /
+2
+mode of orthorhombic CoSe (o-CoSe ), which proved the CNT composites are crystalline. These results confirm that
+2 2
+successful synthesis, the high purity as well as high crystalline CoSe /CNT composite has been successfully prepared (Zhang
+2
+ofCoSe /CNTs.TheRamanspectraofCoSe showotherthree et al.,2015).
+2 2
+typicalpeaks(E ,F1 andA )at469,512and674cm−1,andthe
+g 2g 1g
+peaksat1,354and1,584cm−1correspondtotheDandGpeaksof
+carbonnanotubes, respectively (Yuet al.,2018). Electrochemical performances
+The SEM image shows the morphological information of
+CNT,pureCoSe andCoSe /CNT.Thesmoothdiameterofthe TheelectrochemicalperformanceofCoSe /CNTcomposites
+2 2 2
+CNTsurfaceisshowninFigure2Aandisabout10–15nm.In and pure CoSe were measured based on the three-electrode
+2
+Figure2B,pureCoSe existsintheformofnanoparticleswitha systemin0.5MH SO tostudyHERperformance.Asshownin
+2 2 4
+size of about 35–50nm, and the nanoparticles are stacked on Figure 4, the electrocatalytic performance of pure CoSe and
+2
+eachother.ItcanbeseenfromFigure3AthatafterCoSe and CoSe /CNT composite were compared. The current density of
+2 2
+CNTarecompounded,CoSe ismoreuniformlydispersed,and the overpotential of CoSe /CNT electrode at 163mV is 10mA
+2 2
+thesizeisreducedtoabout20–35nm.Thisshouldbeattributed cm−2 and is super than pure CoSe powder (189mV) and the
+2
+to the presence of CNT that allowed CoSe to grow on top of CNT(over450mV).ThemainfunctionsofCNTaretoimprove
+2
+them,therebypreventingCoSe stacking.Goodcontactbetween theconductivityofthecompositematerialandinhibitthegrowth
+2
+CoSe nanoparticles and CNT and further composite of CoSe . Excited, the HER activity was dramatically enhanced
+2 2
+nanostructures can enhance the charge transfer ability of after solar irradiation and only needed 105mV to drive the
+CoSe . Energy-dispersive X-ray spectroscopy (EDS) analysis is currentdensityof10mAcm−2.AccordingtotheLSVresults,we
+2
+showninFigure3B,whichindicatesthatSeisnearlytwicethatof canobtaintheTafelcurveandfittheTafelequation(η=blog|j|+
+Co., which conformstothe stoichiometric ratio. a) by the linear region, where η, j, and b are respectively the
+TEM was employed further to study the morphology and overpotential,thecurrentdensity,andtheTafelslope.Thevalue
+structure of CoSe /CNT. As shown in Figure 3C, CoSe oftheTafelslopeisusedtocomparethecatalyticactivityofthe
+2 2
+nanoparticles were grown dispersed on CNT and have smaller catalyst. From Figure 4B, the Tafel slope of the CoSe /CNT
+2
+FrontiersinMaterials 05 frontiersin.org
+
+Pietal. 10.3389/fmats.2022.1005221
+thesolarirradiationinducesamechanismconversation.This
+may be derived from the that CoS is an electronic type
+2
+semiconductor, wherein abundant electrons were excited to
+join the reaction by solar irradiation.
+In addition, the EIS shown in Figure 4C further verified
+the reaction kinetics. It can be observed that the ohmic
+resistance (R), i.e., the distance between the intersection
+s
+of the EIS and the x-axis in the high-frequency region, is
+the resistance between the interface contact and the
+electrolyte. The charge transfer resistance (R ), i.e., the
+ct
+diameter of the semicircle in the high-frequency region,
+represents the electrocatalytic kinetics of the interface
+between the electrocatalyst and the electrolyte. The figure
+indicatesthattheR oftheCoSe /CNTcatalystis0.194Ωand
+ct 2
+lower than that of pure CoSe (0.290Ω), indicating that the
+2
+CoSe /CNT catalyst has faster reaction kinetics in the HER
+2
+process.Themasstransferresistance(R )oftheelectrodeis
+mt
+obtainedfromthesemicircleinthelow-frequencyregion,in
+whichtheR oftheCoSe /CNTelectrodeislowerthanthat
+mt 2
+of the pure CoSe electrodes. Based on that the Tafel value
+2
+changed from 86.3 to 132.8mV dec−1, it can be considered
+thatsolarirradiationhaschangedgovernprocessfromTafel
+totheVolmer-Tafel.Thisissimilartopreviousliteraturethat
+photo-induced carriers generated once the catalysts were
+irradiated and reasonable to explain that the second react
+step becomes the rate-determining step (Ma et al., 2022).
+Electrochemical double-layer capacitance is usually
+employed to estimate the electrochemically active specific
+surface area (ECSA). Figure 5 shows the cyclic voltammetry
+curves of CoSe /CNT and pure CoSe . The linear slope in
+2 2
+Figure 4D indicates that the C value is 26.22mF cm−2,
+dl
+significantly greater than pure CoSe (17.39mF cm−2). It
+2
+shows that CoSe /CNT has higher ECSA, electrode material,
+2
+and electrolysis. The liquid contact interface has more active
+sites.CoSe /CNTcanadsorbmorehydratedprotonstoformthe
+2
+intermediate H . The decreased R and increased ECSA of
+ads ct
+CoSe /CNT may be derived from the unique structure, which
+2
+possessesatransfernetworkforelectroandelectrolyteandalsoa
+FIGURE6 space foractive center exposure.
+(A)Solar-irradiatedHERstabilitydata;(B,C)XRDpatternand Stability is an efficient factor for an ideal HER catalyst.
+SEMimageofCoSe/CNTsafterHER.
+2
+We subsequently measured the stability ability and the
+morphology and structure conversion information. As
+shown in Figure 6A, the potential retention was kept
+compositeis69.4mVdec−1,significantlylowerthanpureCoSe around 100%. The corresponding XRD pattern (Figure 6B)
+2
+(86.3mVdec−1)andCNT(208mVdec−1),thusprovingthatthe is consistent with that before HER, indicating that the
+CoSe /CNTcomposite has afaster reaction kinetics. structure is maintained well. Figure 6C shows that the
+2
+Commonly, Tafel slopes of 30, 40 and 120mV dec−1 sample after HER still expresses particle-like morphology
+correspond to the mechanisms of Tafel, Heyrovsky or with a size distribution from 20 to 35nm, similar to
+Volmer reactions, respectively. Therefore the CoSe /CNT pristine CoSe /CNT catalyst. The SEM image also shows
+2 2
+follows the Volmer-Heyrovsky mechanism, and CoSe / that the spatial structure is kept. These data certify that
+2
+CNT composites have much better HER performance than the CoSe /CNT has good electrochemical stability under
+2
+pure CoSe . It shows that the Tafel for CoSe /CNT solar irradiation. In addition, combining the corresponding
+2 2
+composites increases to 132mV dec−1, thus indicating that excellent and poor HER performances for CoSe /CNT
+2
+FrontiersinMaterials 06 frontiersin.org
+
+Pietal. 10.3389/fmats.2022.1005221
+Funding
+catalystandCNTandstructuralmaintenanceofCoSe ,itis
+2
+evidenced that CoSe is the actual catalytic center which
+2
+follows a behavior of semiconductor-based HER catalyst Wegratefullyacknowledgethesupportofthisresearchbythe
+(Han et al., 2017). National Natural Science Foundation of China (22005078),
+Research Team Project of Heilongjiang Province
+(JJ2021TD0011), and the University Nursing Program for
+Conclusion
+Young Scholars with Creative Talents in Heilongjiang
+Province (UNPYSCT-2020127).
+Inshort,weuseasimpleone-stepsolvothermalmethodto
+synthesizetheCoSe /CNTscompositematerial,whichhasbeen
+2 Conflict of interest
+proved to have excellent photo electrochemical HER
+performance, with an overpotential of 105mV at a current
+density of 10mA cm−2. These excellent properties are Theauthorsdeclarethattheresearchwasconductedinthe
+attributed to the smaller CoSe nanoparticles, more active absenceofanycommercialorfinancialrelationshipsthatcould
+2
+sites, the excellent conductivity of CNTs, as well as the ideal be construed asapotential conflict ofinterest.
+photo-electrochemical response. It opens up a new The reviewer XY declared a shared affiliation with the
+opportunity to develop low-cost, high-efficiency metal authors XMto thehandling editor atthe timeofreview.
+compound catalysts.
+Publisher’s note
+Data availability statement
+All claims expressed in this article are solely those of the
+The original contributions presented in the study are authorsanddonotnecessarilyrepresentthoseoftheiraffiliated
+included in the article/Supplementary Material, further organizations, or those of the publisher, the editors and the
+inquiries can bedirected tothe corresponding authors. reviewers.Anyproductthatmaybeevaluatedinthisarticle,or
+claimthatmaybemadebyitsmanufacturer,isnotguaranteedor
+endorsed by thepublisher.
+Author contributions
+Supplementary material
+ZP:Methodology,Datacuration,originaldraftpreparation,
+writing reviewing. HY: Language help. ZH: Data curation. ZY:
+Writing–review and editing. PY: Project administration, The Supplementary Material for this article can be found
+supervision, funding acquisition, and project guide. XM: online at: https://www.frontiersin.org/articles/10.3389/fmats.
+Investigation, writing–originaldraft, datavalidation. 2022.1005221/full#supplementary-material
+References
+Cao, J., Zhou, J., Li, M., Chen, J., Zhang, Y., and Liu, X. (2022). Insightful Henckel,D.A.,Lenz,O.,andCossairt,B.M.(2017).Effectofligandcoverageon
+understandingofthree-phaseinterfacebehaviorsin1T-2HMoS2/CFPelectrodefor hydrogenevolutioncatalyzedbycolloidalWSe2.ACSCatal.7,2815–2820.doi:10.
+hydrogenevolutionimprovement.Chin.Chem.Lett.33(8),3745–3751.doi:10. 1021/acscatal.7b00074
+1016/j.cclet.2021.11.007
+Ji,Y.,Xie,J.,Yang,Y.,Fu,X.,Sun,R.,andWong,C.(2020).NiCoP1Dnanothorns
+Chen,P.Z.,Xu,K.,Tao,S.,Zhou,T.P.,Tong,Y.,Ding,H.,etal.(2016).Phase- grown on 3D hierarchically porous Ni films for high performance hydrogen
+transformationengineeringincobaltdiseleniderealizingenhancedcatalyticactivity evolution reaction. Chin. Chem. Lett. 31 (3), 855–858. doi:10.1016/j.cclet.2019.
+forhydrogenevolutioninanalkalinemedium.Adv.Mat.28,7527–7532.doi:10. 06.021
+1002/adma.201601663
+Kim,J.K.,Park,G.D.,Kim,J.H.,Park,S.K.,andKang,Y.C.(2017).Rational
+Deng,S.J.,Yang,F.,Zhang,Q.H.,Zhong,Y.,Zeng,Y.X.,Lin,S.W.,etal.(2018). designandsynthesisofextremelyefficientmacroporousCoSe2-CNTcomposite
+Phasemodulationof(1T-2H)-MoSe2/TiC-Cshell/corearraysvianitrogendoping microspheresforhydrogenevolutionreaction.Small13,1700068.doi:10.1002/smll.
+forhighlyefficienthydrogenevolutionreaction.Adv.Mat.30,1802223.doi:10. 201700068
+1002/adma.201802223
+Lee,C.P.,Chen,W.F.,Billo,T.,Lin,Y.G.,Fu,F.Y.,Samireddi,S.,etal.(2016).
+Fan,M.,Zhang,L.,Li,K.,Liu,J.,Zheng,Y.,Zhang,L.,etal.(2019).FeS2@Ccore- Beaded stream-like CoSe2 nanoneedle array for efficient hydrogen evolution
+shellnanochainsasefficientelectrocatalystsforhydrogenevolutionreaction.ACS electrocatalysis.J.Mat.Chem.A4,4553–4561.doi:10.1039/c6ta00464d
+Appl.NanoMat.2,3889–3896.doi:10.1021/acsanm.9b00736
+Li,S.,Que, X., Chen,X., Lin, T., Sheng, L., Peng, J., etal.(2020). One-step
+Gao,D.,Xia,B.,Zhu,C.,Du,Y.,Xi,P.,Xue,D.,etal.(2018).Activationofthe synthesisofmodifiedTi3C2MXene-supportedamorphousmolybdenumsulfide
+MoSe2basalplaneandSe-edgebyBdopingforenhancedhydrogenevolution. electrocatalystsbyafacilegammaradiationstrategyforefficienthydrogenevolution
+J.Mat.Chem.A6,510–515.doi:10.1039/c7ta09982g reaction.ACSAppl.EnergyMat.3,10882–10891.doi:10.1021/acsaem.0c01900
+Greeley,J.,Jaramillo,T.F.,Bonde,J.,Chorkendorff,I.B.,andNørskov,J.K. Liu,Y.R.,Hu,W.H.,Li,X.,Dong,B.,Shang,X.,Han,G.Q.,etal.(2016).Facile
+(2006).Computationalhigh-throughputscreeningofelectrocatalyticmaterialsfor one-potsynthesisofCoS2-MoS2/CNTsasefficientelectrocatalystforhydrogen
+hydrogenevolution.Nat.Mater5,909–913.doi:10.1038/nmat1752 evolutionreaction.Appl.Surf.Sci.384,51–57.doi:10.1016/j.apsusc.2016.05.007
+FrontiersinMaterials 07 frontiersin.org
+
+Pietal. 10.3389/fmats.2022.1005221
+Ma,X.,Zhang,M.,Aza,F.,Gao,Q.,Xu,Z.,Li,L.,etal.(2022).Photothermal-effect- Ye,G.,Gong,Y.,Lin,J.,Li,B.,He,Y.,Pantelides,S.T.,etal.(2016).Defects
+promotedinterfacialOH−fillingandtheconversionofcarriertypein(Co1−xNix)3C engineeredmonolayerMoS2forimprovedhydrogenevolutionreaction.NanoLett.
+duringwateroxidation.J.Mat.Chem.A10(15),8258–8267.doi:10.1039/d1ta11015b 16,1097–1103.doi:10.1021/acs.nanolett.5b04331
+McCarthy,C.L.,Downes,C.A.,Schueller,E.C.,Abuyen,K.,andBrutchey,R.L. Ye,Z.T.,Zhou,L.L.,Shao,Y.,Yao,X.Z.,Ma,L.,Wu,H.F.,etal.(2021).Insitu
+(2016).Methodforthesolutiondepositionofphase-pureCoSe2asanefficient integrationofcobaltdiselenidenanoparticlesonCNTsrealizingdurablehydrogen
+hydrogenevolutionreactionelectrocatalyst.ACSEnergyLett.1,607–611.doi:10. evolution.RSCAdv.12,4446–4454.doi:10.1039/d1ra07301j
+1021/acsenergylett.6b00246
+Yu,B.,Qi,F.,Zheng,B.,Hou,W.,Zhang,W.,Li,Y.,etal.(2018).Self-assembled
+Sun,Y.Q.,Xu,K.,Wei,Z.X.,Li,H.L.,Zhang,T.,Li,X.Y.,etal.(2018).Strong pearl-bracelet-like CoSe2-SnSe2/CNT hollow architecture as highly efficient
+electronic interaction in dualcationincorporated NiSe 2 nanosheets with lattice electrocatalysts for hydrogen evolution reaction. J. Mat. Chem. A 6 (4),
+distortionforhighlyefficientoverallwatersplitting.Adv.Mat.30,1802121.doi:10. 1655–1662.doi:10.1039/c7ta08955d
+1002/adma.201802121
+Yu,X.,Qu,B.,Zhao,Y.,Li,C.,Chen,Y.,Sun,C.,etal.(2016).Growthofhollow
+Wang,K.,Xi,D.,Zhou,C.J.,Shi,Z.Q.,Xia,H.Y.,Liu,G.W.,etal.(2015). transition metal (Fe, Co, Ni) oxide nanoparticles on graphene sheets through
+CoSe2necklace-likenanowiressupportedbycarbonfiberpaper:A3Dintegrated kirkendalleffectasanodesforhigh-performancelithium-ionbatteries.Chem.Eur.
+electrodeforthehydrogenevolutionreaction.J.Mat.Chem.A3,9415–9420.doi:10. J.22(5),1638–1645.doi:10.1002/chem.201503897
+1039/c5ta01143d
+Yue,H.H.,Yu,B.,Qi,F.,Zhou,J.H.,Wang,X.Q.,Zheng,B.J.,etal.(2017).
+Wang,X.Q.,He,J.R.,Yu,B.,Sun,B.C.,Yang,D.X.,Zhang,X.J.,etal.(2019). InterwovenCoSe2/CNTshybridasahighlyefficientandstableelectrocatalystfor
+CoSe2nanoparticlesembeddedMOF-derivedCo-N-Cnanoflakearraysasefficient hydrogen evolution reaction. Electrochimica Acta 253, 200–207. doi:10.1016/j.
+andstableelectrocatalystforhydrogenevolutionreaction.Appl.Catal.BEnviron. electacta.2017.09.066
+258,117996.doi:10.1016/j.apcatb.2019.117996
+Zhang,H.X.,Yang,B.,Wu,X.L.,Li,Z.J.,Lei,L.C.,andZhang,X.W.(2015).
+Yan,Y.,Ge,X.,Liu,Z.,Wang,J.Y.,Lee,J.M.,andWang,X.(2013).Facile PolymorphicCoSe2withmixedorthorhombicandcubicphasesforhighlyefficient
+synthesisoflowcrystallineMoS2nanosheet-coatedCNTsforenhancedhydrogen hydrogenevolutionreaction.ACSAppl.Mat.Interfaces7,1772–1779.doi:10.1021/
+evolutionreaction.Nanoscale5,7768–7771.doi:10.1039/c3nr02994h am507373g
+Yang,S.H.,Park,G.D.,Kim,J.K.,andKang,Y.C.(2021).Newstrategyto Zhao,W.,Jin,B.,Wang,L.,Ding,C.,Jiang,M.,Chen,T.,etal.(2022).Ultrathin
+synthesizeoptimalcobaltdiselenide@hollowmesoporouscarbonnanospheresfor Ti3C2nanowiresderivedfrommulti-layeredbulksforhigh-performancehydrogen
+highlyefficienthydrogenevolutionreaction.Chem.Eng.J.424,130341.doi:10. evolutionreaction.Chin.Chem.Lett.33(1),557–561.doi:10.1016/j.cclet.2021.07.
+1016/j.cej.2021.130341 0310.1016/j.cclet.2021.07.035
+FrontiersinMaterials 08 frontiersin.org
+

@@ -1,0 +1,721 @@
+Article
+Effects of Different Sulfidation Temperatures on the Hydrogen
+Evolution Reaction Performance of Fe-Co-Ni-Mo-Cu
+High-Entropy Alloys
+YuzuoLiu1,YulongFeng1,*,ZhihaoHe1,JunshengYang1,HuangchuChen1andHuaTan2,3
+1 SchoolofMechanicalEngineering,WuhanPolytechnicUniversity,Wuhan430024,China;
+liuyuzuowhut@163.com(Y.L.);wyq38821741@163.com(Z.H.);yangjunsheng2008@163.com(J.Y.);
+18259519152@163.com(H.C.)
+2 SchoolofMaterialsScienceandEngineering,StateKeyLaboratoryofMaterialProcessingandDie&Mould
+Technology,HuazhongUniversityofScienceandTechnology,Wuhan430074,China;hua_tan@hust.edu.cn
+3 GuangdongHUSTIndustrialTechnologyResearchInstitute,Dongguan523808,China
+* Correspondence:fengyulong2024@163.com
+Highlights
+Whatarethemainfindings?
+• FeCoNiMoCuwassulfidatedbychemicalvapordeposition(CVD).
+• ItsHERperformancewasassessedinfoursolutions: H SO ,KOH,KOH+NaCl,and
+2 4
+KOH+Na S,deliveringanoverpotentialof53mVat10mA·cm−2.
+2
+Whataretheimplicationsofthemainfindings?
+• CVDsulfidationprovidesaneffectiveapproachtoprepareFeCoNiMoCu-basedelec-
+trocatalysts.
+• ThecatalystexhibitsexcellentHERactivityinavarietyofelectrolytes,andtheresults
+canprovideusefulreferencesforotherresearchersinthedesignandfabricationof
+high-entropyalloy-basedHERelectrocatalysts.
+Abstract
+Inthisstudy,FeCoNiMoCuhigh-entropyalloythinfilmsweresulfidedatdifferenttem-
+peraturesrangedfrom250◦Cto450◦Cbychemicalvapordeposition,andtheresultant
+sulfidedFe-Co-Ni-Mo-Cu-SalloyswerecharacterizedbymeansofXRD,SEM,XPSand
+EDS.HERperformancetestswerecarriedoutinfourelectrolytesystems,namely0.5M
+H SO ,1MKOH,1MKOH+0.5MNaCland1MKOH+1MNa S.Theresultsindicated
+2 4 2
+thattheas-preparedelectrodesexhibitedlowHERoverpotentialsinallfourelectrolytes,
+withtheoptimalcatalyticperformanceconsistentlyachievedatasulfidationtemperature
+of350◦C.Amongthetestedsystems,theelectrodedeliveredthebestHERactivityin0.5M
+H SO ,showinganoverpotentialofmerely53mVandaTafelslopeof86.72mVdec−1ata
+2 4
+AcademicEditor:AivarasKareiva currentdensityof10mA·cm−2. In1.0MKOH,theoverpotentialrequiredtoreachthesame
+currentdensitywas98mVwithaTafelslopeof72.43mVdec−1. Forthemixedelectrolyte
+Received:31January2026
+Revised:13February2026
+of1MKOHand0.5MNaCl,theoverpotentialat10mA·cm−2was142mVaccompanied
+Accepted:28February2026 byaTafelslopeof49.51mVdec−1.Incontrast,the1MKOH+1MNa Selectrolyteyielded
+2
+Published:13March2026 an overpotential of 77 mV and a Tafel slope of 84.01 mV dec−1 at the identical current
+Copyright:©2026bytheauthors. density. HERtestsrevealedthatthesulfidationtemperatureexertsasignificantinfluence
+LicenseeMDPI,Basel,Switzerland.
+ontheformationanddistributionofactivephasesofmulti-metalsulfides(e.g.,FeS ,CoS ,
+x x
+Thisarticleisanopenaccessarticle
+NiS ,MoS )ontheelectrodesurface. Theelectrodespreparedatanappropriatesulfidation
+distributedunderthetermsand x 2
+temperatureexhibitalargerspecificsurfaceareaandenhancedhydrogenevolutionreaction
+conditionsoftheCreativeCommons
+Attribution(CCBY)license.
+Coatings2026,16,362 https://doi.org/10.3390/coatings16030362
+
+Coatings2026,16,362 2of19
+performanceforwaterelectrolysis. Thesefindingsmayprovideusefulreferencesforother
+researchersinthedesignandfabricationofhigh-entropyalloy-basedHERcatalysts.
+Keywords: high-entropy alloy; sulfidation; hydrogen evolution reaction (HER);
+electrocatalysis
+1. Introduction
+With the escalating global energy crisis and environmental challenges, the devel-
+opment of clean, efficient, and sustainable alternative energy solutions has become a
+worldwideconsensus[1–4]. Asanidealcleanfuelresourcewithhighgravimetricenergy
+densityandpollution-freecombustionproducts, hydrogenenergyisregardedasacru-
+cialcomponentofthefutureenergysystem. Waterelectrolysisforhydrogenproduction,
+featuringhighproductpurityandhighhydrogengenerationefficiency,isrecognizedas
+one of the most promising technologies with potential for large-scale application [5–8].
+However,thehydrogenevolutionreaction(HER)inwaterelectrolysissuffersfromarel-
+ativelyhighoverpotential,necessitatingefficientcatalyststoreducethereactionenergy
+barrier. However,conventionalnoblemetalcatalystssuchasPtandPd,areplaguedby
+scarcereservesandexorbitantcosts,whichseriouslyhindertheindustrializationofthis
+technology. Therefore,thedevelopmentoflow-cost,high-activitynon-preciousmetalHER
+catalystshasemergedasoneoftheimportantfocusesofthecurrentresearch[9–12].
+TransitionmetalHEAshavebeenregardedasanewelectrocatalyticmaterialforwater
+electrolysisinrecentyears,boastingexceptionalcomprehensiveperformanceandbroad
+applicationprospects. Comparedwithtraditionalalloycatalysts,HEAsexhibitnotonly
+outstandingphysicochemicalpropertiesbutalsoexceptionalstabilityandcatalyticactiv-
+ity[13–16]. Fromtheperspectiveofcurrentresearchprogress,preliminaryachievements
+havebeenmadeinthefieldofHEA-basedcatalystsfortheHER.Jinetal.[17]prepared
+AlNiCoRuX HEA electrocatalysts (where X = Mo, Cu, V, Fe) for HER via a dealloying
+method. Electrochemical analyses demonstrated that the quinary AlNiCoRuMo HEA
+displayedelectrocatalyticactivityforHERcomparabletothatofcommercialPt/Ccatalysts.
+InareportbyZhangetal.[18],theMoNiCoFeCrHEAachievedoverpotentialsof107mV
+and172mVforHERinacidicandalkalineelectrolytes,respectively,atacurrentdensityof
+100mA·cm−2.
+BeyondquinaryHEAsystems,bimetallicsulfidesandtheirheterostructureshavealso
+become research hotspots in the HER field, owing to their unique electronic structures,
+interfacialsynergeticeffects,andtunablecatalyticactivesites.Xietal.[19]synthesizedahet-
+erostructuredcatalystcomposedofbimetallicsulfide-coupledMoNialloy(VMoS/MoNi)
+viahydrothermalandsulfidationroutestowardhigh-performancealkalinewatersplitting.
+The results demonstrated that the catalyst afforded an ultra-low HER overpotential of
+26mVatacurrentdensityof10mA·cm−2. Yaoetal.[20]fabricatedauniquebimetallic
+sulfidecomposite(CoS /WS )throughahydrothermalapproach. Appropriatedosageof
+2 2
+thioacetamide(TAA)enabledtheloadingofWS nanoparticlesontheCoS surfacetobe
+2 2
+controlledbelow5%,whichmaximizedtheexposureofactivesitesattheinterface,effec-
+tivelyenhancedelectricalconductivity,andreducedthehydrogenadsorptionfreeenergy
+(∆ ),therebyimprovingHERperformance. Inacidicmedia,theCoS /WS composite
+GH* 2 2
+achievedanoverpotentialof79mVandaTafelslopeof52mVdec−1. Huangetal.[21]
+realized the synthesis of interface-tunable Pt Ni/NiS nanowires (NWs) through direct
+3
+sulfidationofPt-NiNWswithhighcomponentsegregation. Benefitingfromthesynergetic
+effectbetweenPt NiandNiS,thecatalystexhibitedenhancedHERcatalyticperformance
+3
+https://doi.org/10.3390/coatings16030362
+
+Coatings2026,16,362 3of19
+in alkaline solution compared with the pristine Pt Ni NWs/C and commercial Pt/C
+3 2
+catalysts. Specifically,itexhibitedacurrentdensityof37.2mA·cm−2at0.07V(pH=14),
+representingavalue9.7timeshigherthanthatofcommercialPt/C(3.83mA·cm−2). Based
+ontheaforementionedresearchstatus,bothHEAsandsulfide-basedcatalystsrepresent
+promisingdirectionsforoptimizingHERperformance. Furthermore,themodulationof
+surfacephasestructure,elementalvalencestates,andactivesitedistributioninHEAsvia
+sulfidationmodificationisanticipatedtoyieldafurtherenhancementintheirHERcatalytic
+performance.
+In summary, using FeCoNiMoCu high-entropy alloys (HEAs) as the raw material,
+FeCoNiMoCuHEAthinfilmswerefirstfabricated. Thereafter,theas-preparedthinfilms
+weresubjectedtosulfidationtreatmentatdifferenttemperaturesviaaone-stepsulfidation
+processinachemicalvapordeposition(CVD)system. Acombinationofcharacterization
+techniquesincludingXRD,SEM,XPSandEDSwasemployedtoanalyzethemorphological
+features,phasestructureandelementalvalencestatesofthesulfidedproducts. Finally,the
+effectofsulfidedFeCoNiMoCuHEAsonHERcatalyticactivitywasinvestigatedinvarious
+electrolytemedia.
+2. ExperimentalProcedures
+2.1. PreparationandSulfidationofFeCoNiMoCuHigh-EntropyAlloys
+FeCoNiMoCupowderwasplacedinaplanetaryballmillforhomogeneousmixing
+andcollectedafter48h. Amountsof8gofthepowderand2gofPVBweredissolved
+in 30 mL of ethanol, followed by heating at 50 ◦C with continuous stirring to obtain a
+homogeneousslurry. Theslurrywasuniformlycoatedonquartzglasswithadimension
+of 10 cm × 10 cm, allowed to stand for 2 h and then peeled off. It was subsequently
+transferredtoavacuumsinteringfurnaceforsintering,andfinallycoolednaturallytoroom
+temperatureinthefurnace. Thedetailedpreparationproceduresandprocessparameters
+areprovidedinRef.[22].
+All electrodes were fabricated via a one-step sulfidation process using a chemical
+vapor deposition (CVD) system, following the detailed procedure below: First, the as-
+preparedHEAthin-filmelectrodes,cutintodimensionsof1cm×1cm,wereimmersedin
+a1.0Mhydrochloricacid(HCl)solutionfor30mintoremovesurfaceoxides. Subsequently,
+theelectrodeswererinsedalternatelywithultrapurewaterandanhydrousethanolthree
+times,driedwithargongas,placedinaquartzboat,andthentransferredtothecentral
+constant-temperaturezoneofatubefurnace. Atotalof0.2gofsulfurpowderwasplaced
+upstreamofthethinfilmsrelativetothecarriergasflowdirection,asillustratedinFigure1.
+Subsequently,theheatingprogramofthetubefurnacewassetfortargetsulfidationtem-
+peraturesof250,350,and450◦C.Thefurnacetemperaturewasfirstraisedto120◦Cat
+aconstantheatingrateof10◦Cmin−1 andheldfor30mintoremoveresidualmoisture.
+Afterward,thetemperaturewasincreasedtothepredeterminedsulfidationtemperature
+andmaintainedfor3htoallowthesulfidationreactiontoproceedcompletely. Afterthe
+reactionwascompleted,thesystemwasallowedtocoolnaturallytoroomtemperature
+together with the furnace, while the argon gas flow rate was maintained at a constant
+valueof60mL·min−1duringthewholeprocess. Oncethefurnacetemperaturedropped
+toroomtemperature,theas-preparedsamplesweretakenoutandultrasonicallycleaned
+ina2wt%sodiumhydroxide(NaOH)solutionfor5mintoremoveunreactedelemental
+sulfurresiduesaftersulfidation. Thesampleswerethenrinsedrepeatedlywithultrapure
+waterandabsoluteethanoluntiltherinsesolutionreachedneutralpH.Finally,thecleaned
+samplesweredriedat60◦Cfor2hinaninertgasatmosphere. Thedriedsampleswere
+directlyusedforsubsequentmaterialcharacterizationandhydrogenevolutionreaction
+(HER)performancetests.
+https://doi.org/10.3390/coatings16030362
+
+Coatings2026,16,362 4of19
+Figure1.SchematicDiagramofSulfidation.
+2.2. ElectrochemicalPerformanceTesting
+AllelectrochemicalmeasurementsinthisstudywerecarriedoutonaCHI660Eelec-
+trochemicalworkstationsuppliedbyChenhuaInstrumentCo.,Ltd.,Shanghai,China. A
+standardthree-electrodesystemwasadoptedforalltests, withaplatinumsheetasthe
+counterelectrodeandtheas-preparedthin-filmelectrodedirectlyfunctioningasthework-
+ingelectrode. Whenperforminghydrogenevolutionreaction(HER)testsin0.5MH SO ,a
+2 4
+saturatedcalomelelectrode(SCE)wasusedasthereferenceelectrode. Amercury/mercury
+oxide(Hg/HgO)electrodewasselectedasthereferenceelectrodein1.0MKOHelectrolyte.
+For0.5MNaCl+1MKOHand1MNa S+1MKOHmixedelectrolytes,asilver/silver
+2
+chloride (Ag/AgCl) electrode was applied as the reference electrode. All potentials ac-
+quiredfromelectrochemicaltestswereconvertedtovaluesversusthereversibleRHEby
+theequationbelow[23].
+E(RHE)=E(SCE)+0.241+0.0592pH
+E(RHE)=E(Hg/HgO)+0.098+0.0592pH
+E(RHE)=E(Ag/AgCl)+0.197+0.0592pH
+LinearSweepVoltammetry(LSV)Measurements: Toevaluatethehydrogenevolution
+reaction(HER)performanceofthepreparedmaterials,LSVmeasurementswereconducted
+at a constant scan rate of 10 mV s−1. The Tafel slopes derived from the obtained LSV
+curvesenabledthedeterminationofthehydrogenevolutionrateandtheunderlyingHER
+mechanismofthematerials.
+Electrochemical Active Surface Area (ECSA) Measurements: The electrochemical
+active surface area of the electrodes could be determined via cyclic voltammetry (CV)
+measurements,followingtheproceduredescribedbelow: First,theas-preparedthin-film
+electrodesweresubjectedtoCVscanningwithinapotentialwindowof±0.05Vrelativeto
+theopen-circuitpotential(OCP),withscanratesrangingfrom2to50mVs−1 (thespecific
+scanratesemployedwere5,10,20,30,and40mVs−1). ToensurethestabilityoftheCV
+curves, the number of scan cycles was set to 6 in this study. Subsequently, a plot was
+constructedwherethey-axisrepresentedhalfthedifferenceincurrentdensitybetweenthe
+anodicandcathodicscansattheOCP,andthex-axisrepresentedthescanrate. Theslope
+obtainedfromlinearfittingofthisplotcorrespondedtothedouble-layercapacitance(C )
+dl
+ofthemeasuredthin-filmelectrodes. ThevalueofC isproportionaltotheelectrochemical
+dl
+activesurfacearea(ECSA)oftheelectrodes.
+https://doi.org/10.3390/coatings16030362
+
+Coatings2026,16,362 5of19
+Electrochemical Impedance Spectroscopy (EIS) Measurements: EIS measurements
+of the as-prepared electrodes were conducted under the overpotential condition at the
+OCP.Thetestfrequencyrangespannedfrom100kHzto10mHz,andtheamplitudeof
+the AC signal was uniformly set to 5 mV. The corresponding impedance spectra were
+acquiredusingtheelectrochemicalworkstation,followedbyfittingandanalysiswiththe
+ZView3.5software.
+2.3. Characterization
+XRDanalysisofthesamplepowderswasperformedusinganX-raydiffractometer
+(Model: Dmax 2500VB, Rigaku Corporation, Akishima, Tokyo, Japan) equipped with
+Cu Kα radiation (λ = 1.541 Å). The morphology of the samples was characterized by a
+scanning electron microscope (SEM model: JSM-5600LV, JEOL Ltd., Akishima, Tokyo,
+Japan). SulfidedFeCoNiMoCuhigh-entropyalloythinfilmsampleswithasizeof5mm×
+5mmwerecutusingabladetoensurethatthesamplesurfacehadnoobviousdamage.The
+sampledsampleswereplacedinavacuumdryingoven,driedatasettemperatureof60◦C
+for2h,andthennaturallycooledtoroomtemperatureafterdrying. Thedriedsamples
+were fixed on an SEM sample stage and sputter-coated with gold using an ion sputter
+coater,withthesputteringcurrentsetto15mA,sputteringtimesetto60s,andthegold
+coatingthicknesscontrolledat5–10nmtoensureauniformconductivelayerwasformed
+onthesamplesurface. Duringthetest,themagnificationwasadjustedaccordingtothe
+samplemorphologytoobtainclearmicro-morphologyimages. Theelementalcomposition
+of the samples was analyzed using a scanning electron microscope equipped with an
+energy-dispersiveX-rayspectroscopy(EDS)detector(Model: AMICUS,KratosAnalytical
+(aShimadzuGroupCompany),Manchester,UK).
+3. ResultsandDiscussion
+3.1. CharacterizationoftheFeCoNiMoCuHigh-EntropyAlloy
+Figure2presentstheXRDpatternsoftheFeCoNiMoCuhigh-entropyalloy(HEA),
+where Figure 2ashows theXRDpattern ofHEA alloybefore sulfidationand Figure 2b
+displaysthataftersulfidation. AsillustratedinFigure2a,besideselementalMo,thealloy
+system also contains the Mo Co intermetallic compound [24]. Figure 2b shows that a
+6 7
+series of transition metal sulfides are formed after sulfidation, indicating the presence
+of sulfides on the alloy surface. Figure 3 shows the SEM images of the FeCoNiMoCu
+HEA samples before and after sulfidation. Specifically, Figure 3a,b correspond to the
+SEM images of the as-prepared alloy prior to sulfidation, while Figure 3c,d represent
+thoseaftersulfidation. Figure3a,bclearlyexhibitawell-definedthree-dimensional(3D)
+porousstructurewithuniformlydistributedparticlesandabundantpores. Thepristine
+sample exhibits an integrated porous structure with uniformly dispersed voids across
+itsmorphology. Theparticlesaretightlyinterconnected, andtheporesizesrangefrom
+the nanometer to micrometer scale, presenting diverse shapes with complex geometric
+characteristics. Incontrasttotherelativelydenseandsmoothsurfaceofthepristinesample,
+thesulfidatedHEA(Figure3c,d)displaysalargenumberofirregularflake-likestructures
+stackedina3Dmanneronitssurface,withedgesshowingserratedfractalfeatures. This
+morphologicaltransformationmaybeassociatedwiththethermaldecompositionreaction
+betweenthemetalprecursorsandthesulfursourceduringthehigh-temperaturesulfidation
+process. ThephaseanalysisfromtheXRDpatterninFigure2bfurthercorroboratesthat
+thisstructurecorrespondstothetypicallayeredcrystalgrowthmodeoftransitionmetal
+sulfides(e.g.,CuS,NiS,MoS ). Figure4displaystheelementalmappingimagesEDSofthe
+2
+sulfidatedFeCoNiMoCuHEA,confirmingthepresenceofsixelements,namelyFe,Co,Ni,
+Mo,Cu,andS,intheproduct. Noobviouselementalsegregationorenrichmentregions
+https://doi.org/10.3390/coatings16030362
+
+Coatings2026,16,362 6of19
+areobservedinthescanningimages,whichverifiesthehomogeneousdistributionofall
+elementswithinthealloy.
+Figure2.(a)XRDPatternofFeCoNiMoCuHEABeforeSulfidation;(b)XRDPatternofFeCoNiMoCu
+HEAAfterSulfidation.
+Figure3.SEMImagesoftheFeCoNiMoCuHigh-EntropyAlloy(HEA)BeforeandAfterSulfidation:
+(a,b)BeforeSulfidation,(c,d)AfterSulfidation.
+Figure5adisplaysthesurveyspectrumofthesulfidatedFeCoNiMoCuhigh-entropy
+alloy(HEA),confirmingthepresenceofFe,Mo,Ni,Cu,Co,andSelementsonthesurface,
+whichisconsistentwiththeresultsobtainedfromenergy-dispersiveX-rayspectroscopy
+(EDS)characterization. Figure5bpresentstheCo2pspectrum,withpeakscorresponding
+toCo3+(oxidizedstate),Co2+(sulfidestate),Co0(metallicstate),alongwiththepresenceof
+satellitepeaks. Thisindicatestheexistenceofsurfaceoxides(Co O )inthesample,where
+2 3
+thesulfidespeciesisidentifiedasCoS,andthemetallicstateoriginatesfromtheunreacted
+https://doi.org/10.3390/coatings16030362
+
+Coatings2026,16,362 7of19
+CoelementsintheHEA.Figure5cshowsthefittedCu2pspectrum,withpeaksassignedto
+Cu+(sulfidestate)andCu2+(oxidizedstate).Aftersulfidation,CuprimarilyexistsasCu+in
+theformofCu S,withminoroxidationobservedonthesamplesurface.Figure5dillustrates
+2
+thefittedFe2pspectrum,wheretwomainpeaksat711.2eVand724.2eVcorrespondto
+Fe2+,representingthedominantchemicalstateofFeaftersulfidationtreatment. Additional
+peaksat720.3eVand734.2eVareattributedtotheFe2p / andFe2p / corelevelsofFe3+,
+3 2 1 2
+whichareassociatedwiththesurfaceoxidationproductFe O . Thisconfirmsthepresence
+2 3
+of slight oxidation on the sulfidated sample surface, accompanied by satellite peaks at
+718.4eVand732eV.InFigure5e,thepeakscorrespondtoMo3d,withchemicalstates
+includingMo4+(sulfidestate),Mo6+(oxidizedstate),andMo0(metallicstate). Thepeaks
+at232.4eVand235.4eVareassignedtosulfidationproductssuchasMoS [20],whilethe
+2
+peakat226.1eVcorrespondstoMo3d / ,originatingfromunreactedMointhealloy. The
+5 2
+peakat229.3eVisattributedtotheoxidizedstateofMo,furtherindicatingminorsurface
+oxidationofthesample. Figure5fshowstheNi2pspectrum,withpeakscorrespondingto
+Ni2+,Ni3+(oxidizedstate),andsatellitepeaksassociatedwithNi2+. Themainsulfidation
+productsoftheHEAareidentifiedasNiSandNi S ,andsimilartootherelements,slight
+3 2
+oxidationisobservedonthesamplesurface. Figure5gpresentsthefittedS2pspectrum,
+withpeaksassignedtoS2− (sulfidestate),S6+,S4+,andS0/S 2−. Aftersulfidation,various
+2
+sulfidesformedbythereactionbetweensulfurandtheHEAaregeneratedonthesample
+surface,withS2− beingthedominantchemicalstate. ThepeakscorrespondingtoS6+and
+S4+areassociatedwithsurfaceoxidesandintermediateproductsfromtheoxidationofS2−
+toS6+,whicharepresentinlowcontents. ThepeaksforS0/S 2− correspondtoelemental
+2
+sulfurorpolysulfides,whichareincompleteproductsofthesulfidationreaction.
+Figure4.EDSElementalMappingImagesoftheFeCoNiMoCuHEA.
+https://doi.org/10.3390/coatings16030362
+
+Coatings2026,16,362 8of19
+Figure5. XPSSpectraofFeCoNiMoCuHEA:(a)SurveySpectrum;(b)Co2p;(c)Cu2p;(d)Fe2p;
+(e)Mo3d;(f)Ni2p;(g)S2p.
+3.2. HydrogenEvolutionofTransitionMetalSulfideElectrodesinAcidicSolution
+Electrochemical HER performance tests were conducted on FeCoNiMoCu high-
+entropyalloys(HEAs)sulfidizedatdifferenttemperaturesina0.5MH SO electrolyte,
+2 4
+withthetestresultsdisplayedinFigure6. Figure6apresentstheLSVcurvesofthesamples
+https://doi.org/10.3390/coatings16030362
+
+Coatings2026,16,362 9of19
+aftersulfidationatvarioustemperatures. Theresultsdemonstratedthatatacurrentdensity
+of10mAcm−2,theoverpotentialsofFeCoNiMoCuHEAssulfidizedat250◦C(HEAS-250),
+350◦C(HEAS-350)and450◦C(HEAS-450)were79mV,53mVand65mV,respectively.
+Amongthesesamples,theonesulfidizedat350◦CexhibitedtheoptimalHERperformance,
+with HEAS-250 showing an overpotential 26 mV higher than that of HEAS-350. At a
+currentdensityof100mAcm−2,thecorrespondingoverpotentialsoftheHEAssulfidized
+at 250 ◦C, 350 ◦C and 450 ◦C were 165 mV, 134 mV and 210 mV, respectively. A com-
+parisonoftheLSVcurvesofthesamplessulfidizedatdifferenttemperaturesconfirmed
+thatsulfidationmodificationeffectivelyenhancedthehydrogenevolutionactivityofthe
+material. Thisimprovementispresumablyattributedtotheexposureofmorehighlyactive
+sitesbysulfidationproducts(e.g.,metalsulfidesincludingMoS andCuS).Meanwhile,
+2
+Figure6bdisplaystheTafelplotsobtainedbyfittingthepolarizationregionsoftheLSV
+curves,whichwereemployedtoinvestigatethehydrogenevolutionreaction(HER)kinetics
+ofthecatalysts. TheTafelslopeofHEAS-350isdeterminedtobe86.72mVdec−1. The
+coefficientofdetermination(R2)valuesforHEAS-250,HEAS-350,andHEAS-450are0.9995,
+0.9994,and0.9989,respectively. Theoretically,therate-determiningstep(RDS)oftheHER
+istheTafelstepwhentheTafelslopeislessthan30mVdec−1;theHeyrovsky-Tafelstep
+dominatesforTafelslopesrangingfrom30to40mVdec−1,andtheHeyrovsky-Volmer
+stepistheRDSforslopesintherangeof40to120mVdec−1[25]. Figure6c–fshowtheCV
+curvesatdifferentscanratesandthequantificationoftheelectrochemicalactivesurface
+area(ECSA)ofthematerialsbycalculatingthedouble-layercapacitance(Cdl). TheECSA
+islinearlyandpositivelycorrelatedwithCdl: alarg-erCdlvaluecorrespondstoalarger
+ECSAandagreaternumberofexposedactivesites. Bycomparingtheelectrodematerials
+sulfidated at different temperatures, the Cdl value is 140.7 mF cm−2 for sulfidation at
+250 ◦C,decreasesto13.7mFcm−2 at450 ◦C,andincreasesto274.6mFcm−2 at350 ◦C.
+The corresponding coefficients of determination (R2) derived from the linear fitting for
+HEAS-250,HEAS-350,andHEAS-450are0.9992,0.9995,and0.9990,respectively. These
+resultsconfirmthatHEAS-350possessesthelargestactivesurfacearea.
+Figure6.Cont.
+https://doi.org/10.3390/coatings16030362
+
+Coatings2026,16,362 10of19
+Figure6. (a)HERPolarizationCurvesoftheElectrodesin0.5MH SO ;(b)CorrespondingTafel
+2 4
+CurvesoftheElectrodes;(c)CVCurvesoftheHEAS-250Electrode;(d)CVCurvesoftheHEAS-350
+Electrode;(e)CVCurvesoftheHEAS-450Electrode;(f)C PlotsoftheElectrodes.
+dl
+ElectrochemicalImpedanceSpectroscopy(EIS)isacommonlyemployedmethodfor
+evaluating hydrogen evolution reaction (HER) kinetics. Figure 7 presents the Nyquist
+impedancespectraandcorrespondingequivalentcircuitofFeCoNiMoCuHEASatopen-
+circuit potential in 0.5 M H SO solution under different sulfidation temperatures. All
+2 4
+three curves consist of a semicircle in the high-frequency region and an approximate
+linear diffusion arc in the low-frequency region, which are closely associated with the
+reactionkineticcharacteristicsoftheelectrode[26]. Amongthem,thesemicirclediameter
+ofHEAS-350isthesmallest,thatofHEAS-450isthelargest,andHEAS-250liesbetweenthe
+two,whichintuitivelyreflectsthedifferencesincharge-transferresistanceunderdifferent
+sulfidationtemperatures. Table1displaysthefittingdatacorrespondingtotheNyquist
+plot in Figure 7. From the perspective of parameter variations: R is the smallest for
+1
+HEAS-450 (0.104 Ω), indicating the optimal ohmic transport efficiency of the solution,
+while R (charge-transfer resistance) decreases to 0.136 Ω for HEAS-350 (significantly
+2
+lower than 0.235 Ω for HEAS-250 and 0.397 Ω for HEAS-450), suggesting the weakest
+resistanceforHERkinetics[27]. Insummary,sulfidationtemperaturesignificantlyaffects
+thechargetransferanddiffusionprocessesofHERbyregulatingthecomposition,structure,
+and morphology of surface sulfides. An appropriate sulfidation temperature can form
+asuitableamountofactivesulfidephases,optimizethesurfaceelectronicstructureand
+distribution of active sites, while maintaining favorable interfacial uniformity, thereby
+effectivelyreducingcharge-transferresistanceandenhancingHERkinetics.
+Figure7.NyquistimpedancespectraofFeCoNiMoCuSatdifferenttemperaturesunderOCPin0.5M
+H SO solutionandthecorrespondingequivalentcircuits.
+2 4
+https://doi.org/10.3390/coatings16030362
+
+Coatings2026,16,362 11of19
+Table1.FittingResultsofEISforFeCoNiMoCuHEASSulfidatedatDifferentTemperatures.
+AlloySulfidationTemperature
+Fe-Co-Ni-Mo-Cu-S
+HEAS-250 HEAS-350 HEAS-450
+R (Ω) 0.285 0.293 0.104
+1
+R (Ω) 0.235 0.136 0.397
+2
+CPE -T 8.04×10−5 9.48×10−5 1.21×10−5
+1
+CPE -P 0.715 0.891 0.562
+1
+3.3. HydrogenEvolutionofTransitionMetalSulfideElectrodesinAlkalineSolution
+Figure8presentstheresultsofelectrochemicalhydrogenevolutionreaction(HER)
+performance tests conducted on FeCoNiMoCu high-entropy alloys (HEAs) sulfidated
+at different temperatures in a 1 M KOH solution. For comparative analysis, the HER
+performance of electrodes prepared at sulfidation temperatures of 250 ◦C, 350 ◦C, and
+450 ◦Cwasevaluatedunderidenticalconditions. Figure8adisplaystheLSVcurvesof
+theelectrodesaftersulfidationatdifferenttemperatures. TheresultsshowthatHEAS-350
+exhibitstheoptimalHERcatalyticperformance: atacurrentdensityof10mA·cm−2,the
+overpotentialofHEAS-350is98mV,whichissignificantlylowerthanthatofHEAS-250
+(110 mV)and HEAS-450(124 mV). Thisclearly demonstrates thatHEAS-350 possesses
+superiorHERperformanceinthealkalinemedium. ByexaminingtheTafelslopeplots
+corresponding to the LSV curves (as shown in Figure 8b), the Tafel slope of HEAS-350
+isdeterminedtobe72.34mVdec−1,lowerthanthatofHEAS-250(78.46mVdec−1)and
+HEAS-450(101.9mVdec−1). Figure8c–fillustratetheCVcurvesobtainedatdifferentscan
+ratesandthequantificationoftheECSAofthematerialsbycalculatingthedouble-layer
+capacitance(C ). TheECSAofeachelectrodematerialwasevaluatedbymeasuringtheC
+dl dl
+inthenon-Faradaicpotentialregionforboththetargetelectrodesandreferenceelectrodes:
+first,CVcurvesofthetargetandreferenceelectrodeswereacquiredatvariousscanrates
+(5,10,20,30and40mVs−1)viatheCVmethod(Figure8c–e);subsequently,aplotwas
+constructedwithhalfthedifferenceincurrentdensityatagivenpotentialasthey-axisand
+thescanrateasthex-axis. TheslopeofthefittedlinearlinecorrespondstotheC value
+dl
+ofeachelectrodematerial(Figure8f). TheresultsindicatethattheHEAS-350electrode
+exhibitsthelargestC valueof255.6mFcm−2, whichishigherthanthatofHEAS-250
+dl
+(253.3mFcm−2)andHEAS-450(95.4mFcm−2). ThisconfirmsthatHEAS-350possesses
+thelargestactivesurfacearea.
+Figure9presentstheNyquistimpedancespectraandcorrespondingequivalentcircuit
+ofFeCoNiMoCuHEASaftersulfidationtreatmentatdifferenttemperatures, measured
+atopen-circuitpotentialin1MKOHsolution. EISwasemployedtoevaluatethecharge
+transfer kinetics during the hydrogen evolution reaction (HER). As observed from the
+Nyquistplots,theimpedancespectraofallsamplesexhibitatypicalfeatureconsistingofa
+semicircleinthehigh-frequencyregionandanapproximatelineardiffusionarcinthelow-
+frequencyregion. Thediameterofthehigh-frequencysemicircledirectlycorrespondstothe
+chargetransferresistance(R ),whichreflectstheintrinsiccatalyticactivityoftheelectrode
+2
+surfaceforHERandservesasacoreindicatorforevaluatingHERkinetics. AlowerR
+2
+valueindicateshigherintrinsiccatalyticactivityoftheactivesitesontheelectrodesurface.
+Thelinearsegmentinthelow-frequencyregioncorrespondstotheWarburgimpedance
+(W ),whichisrelatedtothediffusionbehaviorofOH− orH Oontheelectrodesurface.
+1 2
+CombinedwiththefittingdatainTable2,thechargetransferresistanceR ofHEAS-350
+2
+is0.157Ω,whichissignificantlylowerthanthatofHEAS-250(0.187Ω)andHEAS-450
+(0.347Ω),indicatingfasterchargetransferkinetics. Thisiscloselyrelatedtotheoptimized
+distributionofsurfaceactivesitesandenhancedelectrontransportefficiency[28].
+https://doi.org/10.3390/coatings16030362
+
+Coatings2026,16,362 12of19
+Figure8.(a)HERPolarizationCurvesoftheElectrodesin1MKOH;(b)CorrespondingTafelCurves
+oftheElectrodes;(c)CVCurvesoftheHEAS-250Electrode;(d)CVCurvesoftheHEAS-350Electrode;
+(e)CVCurvesoftheHEAS-450Electrode;(f)C PlotsoftheElectrodes.
+dl
+Table2.FittingResultsofEISforFeCoNiMoCuHEASSulfidatedatDifferentTemperatures.
+AlloySulfidationTemperature
+Fe-Co-Ni-Mo-Cu-S
+HEAS-250 HEAS-350 HEAS-450
+R (Ω) 0.584 0.503 0.487
+1
+R (Ω) 0.187 0.157 0.347
+2
+CPE -T 1.67×10−5 1.48×10−5 3.48×10−5
+1
+CPE -P 0.898 0.911 0.783
+1
+https://doi.org/10.3390/coatings16030362
+
+Coatings2026,16,362 13of19
+Figure9.NyquistimpedancespectraofFeCoNiMoCuSatdifferenttemperaturesunderOCPin1M
+KOHsolutionandthecorrespondingequivalentcircuits.
+3.4. HydrogenEvolutionofTransitionMetalSulfideElectrodesinSeawaterSolution
+ToinvestigatetheHERpropertiesofthecatalystsinasimulatedseawaterelectroly-
+sisenvironment,athree-electrodesystemwasalsoemployedintheexperiments,anda
+compositeelectrolytesystemconsistingof1MKOHand0.5MNaClwasconstructed. For
+performancecomparison,theHERperformanceofelectrodespreparedatdifferentsulfida-
+tiontemperatures(250◦C,350◦C,and450◦C)wasalsotestedunderthesameconditions.
+Figure 10 presents the hydrogen evolution reaction (HER) test results in the 1 M
+KOH + 0.5 M NaCl composite electrolyte. Similar to the results obtained in the acidic
+medium,thecatalystsulfidatedat350◦CexhibitstheoptimalHERcatalyticactivity. Ata
+currentdensityof10mA·cm−2,theoverpotentialrequiredforthiscatalystisonly142mV,
+which is significantly lower than that of HEAS-250 (166 mV) and HEAS-450 (183 mV).
+ThisindicatesthattheHEAS-350electrodepossessessuperiorHERperformanceinthe
+simulatedseawatermedium. Figure10bshowstheTafelslopeplotscorrespondingtothe
+LSVcurves. ItisfoundthattheTafelslopeoftheHEAS-350electrodeis49.51mVdec−1,
+whichislowerthanthatoftheelectrodessulfidatedat250◦C(77.95mVdec−1)and450◦C
+(131.61mVdec−1). Figure10c–fillustratetheCVcurvesacquiredatdifferentscanratesand
+thequantificationoftheECSAofthematerialsbycalculatingtheC . TheECSAislinearly
+dl
+andpositivelycorrelatedwithC : alargerC valuecorrespondstoalargerECSAanda
+dl dl
+greaternumberofexposedactivesites. Bycomparingtheelectrodematerialssulfidatedat
+differenttemperatures,theC valueis115.8mFcm−2forsulfidationat250◦C,decreasesto
+dl
+53.3mFcm−2at450◦C,andincreasesto259mFcm−2at350◦C.Theseresultsdemonstrate
+thatHEAS-350possessesthelargestactivesurfaceareaamongthesamplessulfidatedat
+different temperatures. This may be one of the key factors contributing to its excellent
+catalyticperformance. AlargerECSAimpliesmoreactivesitesavailableforthereaction,
+therebyenhancingthecatalyticefficiencyoftheelectrode.
+Figure 11 presents the Nyquist impedance spectra and corresponding equivalent
+circuitofFeCoNiMoCuHEASatopen-circuitpotentialin1MKOH+0.5MNaClsolution
+underdifferentsulfidationtemperatures. EISwasemployedtoevaluatethechargetransfer
+rateduringtheHER.Similarly,theimpedancespectraconsistofasemicircleinthehigh-
+frequencyregionandanapproximatestraightlineinthelow-frequencyregion. Visually
+fromthefigure,thesemicirclediameterofHEAS-350isthesmallest,whilethatofHEAS-
+450 is the largest, which preliminarily indicates that 350 ◦C is the optimal sulfidation
+temperatureforthissystem. Table3presentsthecorrespondingEISresultsinthemixed
+solution of 1 M KOH and 0.5 M NaCl. Combined with the fitting data, the R value
+1
+decreaseswiththeincreaseinsulfidationtemperature.ThedatashowthatR isthesmallest
+1
+https://doi.org/10.3390/coatings16030362
+
+Coatings2026,16,362 14of19
+forHEAS-450(0.253Ω),indicatingtheoptimalsolutionohmictransportefficiency,whereas
+R (chargetransferresistance)decreasesto0.375ΩforHEAS-350,whichissignificantly
+2
+lower than 0.523 Ω for HEAS-250 and 0.847 Ω for HEAS-450, suggesting the weakest
+resistanceforHERkinetics.
+Figure10. (a)HERPolarizationCurvesoftheElectrodesin1MKOH+0.5MNaClComposite
+Electrolyte; (b) Corresponding Tafel Curves of the Electrodes; (c) CV Curves of the HEAS-250
+Electrode; (d)CVCurvesoftheHEAS-350Electrode; (e)CVCurvesoftheHEAS-450Electrode;
+(f)C PlotsoftheElectrodes.
+dl
+Table3.FittingResultsofEISforFeCoNiMoCuHEASSulfidatedatDifferentTemperatures.
+AlloySulfidationTemperature
+Fe-Co-Ni-Mo-Cu-S
+HEAS-250 HEAS-350 HEAS-450
+R (Ω) 0.354 0.387 0.253
+1
+R (Ω) 0.523 0.375 0.847
+2
+CPE -T 1.67×10−5 1.48×10−5 3.49×10−5
+1
+CPE -P 0.898 0.911 0.783
+1
+https://doi.org/10.3390/coatings16030362
+
+Coatings2026,16,362 15of19
+Figure11.NyquistimpedancespectraofFeCoNiMoCuSatdifferenttemperaturesunderOCPin1M
+KOH+0.5MNaClsolutionandthecorrespondingequivalentcircuits.
+3.5. HydrogenEvolutionofTransitionMetalSulfidesinSodiumSulfideSolution
+Figure 12 shows the HER performance test results of transition metal sulfides in
+sodium sulfide solution, which investigates the HER characteristics of the catalysts in
+thepresenceofsulfideions(S2−). Theelectrolyteusedinthetestswaspreparedas1M
+KOH+1MNa S.Similarly,theHERperformanceoftheelectrodesfabricatedatdifferent
+2
+sulfidationtemperatures(250◦C,350◦Cand450◦C)wastestedunderthesameconditions.
+TheLSVresultsinFigure12ademonstratethat,consistentwiththeHERtestresultsinacidic
+medium,HEAS-350exhibitstheoptimalhydrogenevolutioncatalyticactivity. Toachievea
+currentdensityof10mAcm−2,thiscatalystrequiresanoverpotentialofonly77mV,which
+issignificantlylowerthanthoseofHEAS-250(80mV)andHEAS-450(87mV).Thisresult
+clearlyindicatesthattheHEAS-350electrodepossessessuperiorHERperformanceinthe
+sodiumsulfidemixedelectrolyte. Figure12bpresentstheTafelslopeplotscorresponding
+totheLSVcurves,wheretheTafelslopereflectstheHERkineticsforwaterelectrolysis. The
+resultsshowthattheTafelslopeoftheHEAS-350electrodeisonly84.01mVdec−1,which
+is remarkably lower than those of the electrodes sulfidized at 250 ◦C (99.07 mV dec−1)
+and 450 ◦C (154.67 mV dec−1). Meanwhile, the HER process of HEAS-350 follows the
+Volmer-Tafelmechanism[29]. Figure12c–edisplaytheCVcurvesofthepreparedelectrode
+andotherreferenceelectrodesobtainedviaCVmeasurementsatvariousscanrates. Linear
+fittingwasconductedforthedifferentscanrates(5,10,20,30and40mVs−1)tocalculate
+thedouble-layercapacitance(C valuesofeachelectrodematerial. AsshowninFigure12f,
+dl
+theelectrodetreatedat350◦CexhibitsthemaximumC valueof60.8mFcm−2,whichis
+dl
+higherthanthoseofHEAS-250(56.2mFcm−2)andHEAS-450(54.2mFcm−2). Thisresult
+confirmsthattheelectrodetreatedat350◦Cpossessesthelargestelectrochemicalactive
+surfacearea(ECSA).Similarly,alargerECSAmeansmoreactivesitesareavailableforthe
+HERreactiontooccur,therebyenhancingthecatalyticefficiencyoftheelectrode.
+Figure13presentstheNyquistimpedancespectraandcorrespondingequivalentcircuit
+ofFeCoNiMoCuHEASatopen-circuitpotentialin1MKOH+1MNa Ssolutionunder
+2
+different sulfidation temperatures. Similarly, from the Nyquist impedance spectra, all
+impedancecurvesexhibitthetypicalcharacteristicofasemicircleinthehigh-frequency
+regionandanapproximatestraightlineinthelow-frequencyregion. Thediameterofthe
+high-frequencysemicircledirectlycorrespondstothechargetransferresistance(R ),which
+2
+reflectstheintrinsiccatalyticactivityoftheelectrodesurfaceforthehydrogenevolution
+reaction(HER).Thestraightlineinthelow-frequencyregioncorrespondstotheWarburg
+impedance(W ),whichiscloselyrelatedtothediffusionbehaviorofOH−,H O,andS2−on
+1 2
+theelectrodesurface.Visually,thesemicirclediameterofHEAS-350isthesmallest,followed
+https://doi.org/10.3390/coatings16030362
+
+Coatings2026,16,362 16of19
+byHEAS-450,andthatofHEAS-250isthelargest,preliminarilyindicatingthatthesample
+sulfidedat350◦Cpossessestheoptimalchargetransferkineticsinthesulfur-containing
+electrolyte. Table4liststhecorrespondingEISfittingresultsfortheFeCoNiMoCuhigh-
+entropyalloyinthe1MKOH+1MNa Smixedsolution. ThedatashowthattheR values
+2 1
+ofthethreegroupsofsamples(0.048~0.052Ω)exhibitminordifferences,indicatingsimilar
+ohmictransportefficienciesofthesolution. TheR valueofHEAS-350is0.042Ω,whichis
+2
+significantlylowerthanthatofHEAS-250(0.081Ω)andHEAS-450(0.060Ω),demonstrating
+thattheHEAS-350catalystexhibitsfasterchargetransfercapability.
+Figure12.(a)HERPolarizationCurvesoftheElectrodesin1MKOH+1MNa S;(b)Corresponding
+2
+Tafel Curves of the Electrodes; (c) CV Curves of the HEAS-250 Electrode; (d) CV Curves of the
+HEAS-350Electrode;(e)CVCurvesoftheHEAS-450Electrode;(f)C PlotsoftheElectrodes.
+dl
+Table4.FittingResultsofEISforFeCoNiMoCuHEASSulfidatedatDifferentTemperatures.
+AlloySulfidationTemperature
+Fe-Co-Ni-Mo-Cu-S
+HEAS-250 HEAS-350 HEAS-450
+R (Ω) 0.048 0.048 0.052
+1
+R (Ω) 0.081 0.042 0.060
+2
+CPE -T 2.71×10−5 1.39×10−5 3.27×10−5
+1
+CPE -P 0.806 0.923 0.869
+1
+https://doi.org/10.3390/coatings16030362
+
+Coatings2026,16,362 17of19
+Figure13.NyquistimpedancespectraofFeCoNiMoCuSatdifferenttemperaturesunderOCPin1M
+KOH+1MNa Ssolutionandthecorrespondingequivalentcircuits.
+2
+4. Conclusions
+BysubjectingFe-Co-Ni-Mo-CuHEAtosulfidationtreatmentatdifferenttemperatures,
+thephasecomposition,morphologyandotherpropertiesofthesulfidedproductswere
+characterizedbyaseriesofanalyticaltechniques,andthecorrespondingHERperformances
+wereevaluatedinfourdifferentelectrolytes. Theinfluenceofsulfidationtemperatureon
+theHERactivityoftheelectrodeswasrevealed.
+Theresultsshowthattheelectrodesulfidedat350◦CexhibitstheoptimalHERperfor-
+manceinallfourelectrolytes. Atacurrentdensityof10mAcm−2,thebestperformance
+is achieved in 0.5 M H SO , with an overpotential of only 53 mV and a Tafel slope of
+2 4
+86.72mVdec−1. In 1.0 M KOH, 1 M KOH + 0.5 M NaCl, and 1 M KOH + 1 M Na S
+2
+electrolytes,theoverpotentialsare98mV,142mV,and77mV,withTafelslopesof72.43,
+49.51,and84.01mVdec−1,respectively.
+Insummary, thesystematicinvestigationonFe-Co-Ni-Mo-Cuhigh-entropyalloys
+sulfidedatdifferenttemperaturesandtestedinvariouselectrolytesmayprovideauseful
+referenceforthedevelopmentoflow-costandwidelyadaptableHERcatalysts.
+AuthorContributions:Conceptualization,J.Y.andY.F.;methodology,Y.F.,Y.L.andH.C.;software,
+Z.H.;validation,Y.F.;formalanalysis,Y.F.;investigation,Y.L.andY.F.;resources,J.Y.andH.T.;data
+curation, Z.H. and Y.L.; writing—original draft preparation, Y.L. and Y.F.; writing—review and
+editing,Y.L.;fundingacquisition,J.Y.andH.T.Allauthorshavereadandagreedtothepublished
+versionofthemanuscript.
+Funding: ThisresearchwasfundedbytheGuangdongS&Tprogram(2023B0101200001)andthe
+NationalNaturalScienceFoundationofChina(51704221and52371074).
+InstitutionalReviewBoardStatement:Notapplicable.
+InformedConsentStatement:Notapplicable.
+DataAvailabilityStatement:Dataarecontainedwithinthearticle.
+ConflictsofInterest:Theauthorsdeclarenoconflictofinterest.
+https://doi.org/10.3390/coatings16030362
+
+Coatings2026,16,362 18of19
+References
+1. Yu,Z.Y.;Duan,Y.;Feng,X.Y.;Yu,X.;Gao,M.R.;Yu,S.H.Cleanandaffordablehydrogenfuelfromalkalinewatersplitting:Past,
+recentprogress,andfutureprospects.Adv.Mater.2021,33,2007100.[CrossRef]
+2. Li,H.;Chen,S.;Zhang,Y.;Zhang,Q.;Jia,X.;Zhang,Q.;Gu,L.;Sun,X.;Song,L.;Wang,X.Systematicdesignofsuperaerophobic
+nanotube-arrayelectrodecomprisedoftransition-metalsulfidesforoverallwatersplitting.Nat.Commun.2018,9,2452.[CrossRef]
+3. Abe,J.O.;Popoola,A.;Ajenifuja,E.;Popoola,O.M.Hydrogenenergy,economyandstorage:Reviewandrecommendation.Int.J.
+HydrogenEnergy2019,44,15072–15086.[CrossRef]
+4. Amin,M.;Shah,H.H.;Fareed,A.G.;Khan,W.U.;Chung,E.;Zia,A.;Farooqi,Z.U.R.;Lee,C.Hydrogenproductionthrough
+renewableandnon-renewableenergyprocessesandtheirimpactonclimatechange.Int.J.HydrogenEnergy2022,47,33112–33134.
+[CrossRef]
+5. Li,X.;Zhao,L.;Yu,J.;Liu,X.;Zhang,X.;Liu,H.;Zhou,W.Watersplitting:Fromelectrodetogreenenergysystem.Nano-Micro
+Lett.2020,12,131.[CrossRef]
+6. Chatenet,M.;Pollet,B.G.;Dekel,D.R.;Dionigi,F.;Deseure,J.;Millet,P.;Braatz,R.D.;Bazant,M.Z.;Eikerling,M.;Staffell,I.Water
+electrolysis:Fromtextbookknowledgetothelatestscientificstrategiesandindustrialdevelopments.Chem.Soc.Rev.2022,51,
+4583–4762.[CrossRef][PubMed]
+7. Zhang,Y.; Zhang,B.; Sun,J.ResearchProgressinWaterElectrolysisHydrogenProductionTechnologyandItsCatalysts. J.
+Petrochem.Univ./ShiyouHuagongGaodengXuexiaoXuebao2022,35,19–27.
+8. Salam,M.A.;Ahmed,K.;Akter,N.;Hossain,T.;Abdullah,B.Areviewofhydrogenproductionviabiomassgasificationandits
+prospectinBangladesh.Int.J.HydrogenEnergy2018,43,14944–14973.[CrossRef]
+9. Wang,S.;Gao,X.;Hang,X.;Zhu,X.;Han,H.;Liao,W.;Chen,W.UltrafinePtnanoclustersconfinedinacalixarene-based{Ni24}
+coordinationcageforhigh-efficienthydrogenevolutionreaction.J.Am.Chem.Soc.2016,138,16236–16239.[CrossRef]
+10. Staszak-Jirkovský,J.;Malliakas,C.D.;Lopes,P.P.;Danilovic,N.;Kota,S.S.;Chang,K.-C.;Genorio,B.;Strmcnik,D.;Stamenkovic,
+V.R.;Kanatzidis,M.G.DesignofactiveandstableCo–Mo–SxchalcogelsaspH-universalcatalystsforthehydrogenevolution
+reaction.Nat.Mater.2016,15,197–203.[CrossRef]
+11. Sutra,P.;Igau,A.EmergingEarth-abundant(Fe,Co,Ni,Cu)molecularcomplexesforsolarfuelcatalysis. Curr. Opin. Green
+Sustain.Chem.2018,10,60–67.[CrossRef]
+12. Manzotti,A.;Robson,M.J.;Ciucci,F.Recentdevelopmentsinmembranelesselectrolysis.Curr.Opin.GreenSustain.Chem.2023,
+40,100765.[CrossRef]
+13. Lv,Z.;Liu,X.;Jia,B.;Wang,H.;Wu,Y.;Lu,Z.Developmentofanovelhigh-entropyalloywitheminentefficiencyofdegrading
+azodyesolutions.Sci.Rep.2016,6,34213.[CrossRef]
+14. George,E.P.;Raabe,D.;Ritchie,R.O.High-entropyalloys.Nat.Rev.Mater.2019,4,515–534.[CrossRef]
+15. Li,H.;Lai,J.;Li,Z.;Wang,L.Multi-siteselectrocatalysisinhigh-entropyalloys.Adv.Funct.Mater.2021,31,2106715.[CrossRef]
+16. Zhang,Y.;Wang,D.;Wang,S.High-entropyalloysforelectrocatalysis:Design,characterization,andapplications.Small2022,18,
+2104339.[CrossRef][PubMed]
+17. Jin,Z.;Lyu,J.;Zhao,Y.-L.;Li,H.;Lin,X.;Xie,G.;Liu,X.;Kai,J.-J.;Qiu,H.-J.Ruggedhigh-entropyalloynanowireswithinsitu
+formedsurfacespineloxideashighlystableelectrocatalystinZn–airbatteries.ACSMater.Lett.2020,2,1698–1706.[CrossRef]
+18. Zhang, G.; Ming, K.; Kang, J.; Huang, Q.; Zhang, Z.; Zheng, X.; Bi, X. High entropy alloy as a highly active and stable
+electrocatalystforhydrogenevolutionreaction.Electrochim.Acta2018,279,19–23.[CrossRef]
+19. Xi,M.;Chen,A.-R.;Yang,L.-F.;Long,Y.-Y.;Zhang,H.;An,X.-G.;Xiao,Q.-Z.;Sun,T.;Xiao,X.-C.;Xu,P.Effectivehydrogen
+evolutionenabledbyheterogeneousinterfaceengineeringinbimetallicsulfidewithMoNialloy.RareMet.2025,44,3094–3106.
+[CrossRef]
+20. Yao,C.;Wang,Q.;Peng,C.;Wang,R.;Liu,J.;Tsidaeva,N.;Wang,W.MOF-derivedCoS2/WS2electrocatalystswithsulfurized
+interfaceforhigh-efficiencyhydrogenevolutionreaction:Synthesis,characterizationandDFTcalculations.Chem.Eng.J.2024,
+479,147924.[CrossRef]
+21. Wang,P.;Zhang,X.;Zhang,J.;Wan,S.;Guo,S.;Lu,G.;Yao,J.;Huang,X.Precisetuninginplatinum-nickel/nickelsulfideinterface
+nanowiresforsynergistichydrogenevolutioncatalysis.Nat.Commun.2017,8,14580.[CrossRef][PubMed]
+22. Huang,W.;Yang,J.;Jiang,W.;Tan,H.PreparationofFeCoNiMoCuHigh-EntropyAlloyThinFilmElectrodeandItsWater
+SplittingPerformance.Coatings2025,15,1409.[CrossRef]
+23. Isse,A.A.;Gennaro,A.Absolutepotentialofthestandardhydrogenelectrodeandtheproblemofinterconversionofpotentialsin
+differentsolvents.J.Phys.Chem.B2010,114,7894–7899.[CrossRef]
+24. Yang,Y.;Deng,R.;Wang,C.;Sun,J.;Iyer,A.K.;Laing,C.C.;Yao,H.;Ma,S.;Kanatzidis,M.G.ElectrocatalyticActivityofthe
+BrewerIntermetallicPhasesMo6Co7,W6Co7,andW6Fe7forHydrogenandOxygenEvolutionReactions.Chem.Mater.2024,36,
+2566–2576.[CrossRef]
+25. Exner,K.S.Auniversaldescriptorforthescreeningofelectrodematerialsformultiple-electronprocesses:Beyondthethermody-
+namicoverpotential.ACSCatal.2020,10,12607–12617.[CrossRef]
+https://doi.org/10.3390/coatings16030362
+
+Coatings2026,16,362 19of19
+26. Zhai,W.;Ma,Y.;Chen,D.;Ho,J.C.;Dai,Z.;Qu,Y.Recentprogressonthelong-termstabilityofhydrogenevolutionreaction
+electrocatalysts.InfoMat2022,4,e12357.[CrossRef]
+27. Karmodak,N.;Andreussi,O.Catalyticactivityandstabilityoftwo-dimensionalmaterialsforthehydrogenevolutionreaction.
+ACSEnergyLett.2020,5,885–891.[CrossRef]
+28. Dong,Y.;Deng,Z.;Zhang,H.;Liu,G.;Wang,X.Ahighlyactiveanddurablehierarchicalelectrocatalystforlarge-current-density
+watersplitting.NanoLett.2023,23,9087–9095.[CrossRef]
+29. Kim, H.K.; Jang, H.; Jin, X.; Kim, M.G.; Hwang, S.-J.AcrucialroleofenhancedVolmer-Tafelmechanisminimprovingthe
+electrocatalyticactivityviasynergeticoptimizationofhost,interlayer,andsurfacefeaturesof2Dnanosheets. Appl. Catal. B
+Environ.2022,312,121391.[CrossRef]
+Disclaimer/Publisher’sNote: Thestatements, opinionsanddatacontainedinallpublicationsaresolelythoseoftheindividual
+author(s)andcontributor(s)andnotofMDPIand/ortheeditor(s).MDPIand/ortheeditor(s)disclaimresponsibilityforanyinjuryto
+peopleorpropertyresultingfromanyideas,methods,instructionsorproductsreferredtointhecontent.
+https://doi.org/10.3390/coatings16030362
+

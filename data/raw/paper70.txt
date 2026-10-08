@@ -1,0 +1,1502 @@
+TYPE Review
+PUBLISHED 09 June 2026
+DOI 10.3389/fchem.2026.1827073
+The recent progress in the
+catalytic conversion of nitroarene
+OPEN ACCESS
+into amino arene catalyzed by
+EDITED BY
+Yu-wen Hu,
+Hunan University, China heterogeneous metal based nano
+REVIEWED BY
+Wen Luo, catalyst
+Shanghai University, China
+Sundarapandi Manickam,
+Ariel University, Israel
+Tabassum Manzoor1, Mazloom Shah1*, Sohail Ahmed1,
+*CORRESPONDENCE
+Mazloom Shah,
+Muhammad Imran Jamil1, Shahid Iqbal2*, Sajid Mahmood3,
+shahmazloom@yahoo.com
+Shahid Iqbal, Salah Knani4* and Reem Alreshidi5
+Shahid.Iqbal@nottingham.edu.cn
+Salah Knani, 1Department of Chemistry, Faculty of Science, Grand Asian University, Sialkot, Pakistan, 2Department of
+saleh.kenani@nbu.edu.sa Chemical and Environmental Engineering, University of Nottingham Ningbo China, Ningbo, China, 3Low
+RECEIVED 10 March 2026 Dimensional Materials Research Center at Khazar University, Baku, Azerbaijan, 4Center for Scientific
+REVISED 06 April 2026 Research and Entrepreneurship, Northern Border University, Arar, Saudi Arabia, 5Department of Physics,
+ACCEPTED 13 April 2026 College of Science, Northern Border University, Arar, Saudi Arabia
+PUBLISHED 09 June 2026
+CITATION
+Manzoor T, Shah M, Ahmed S, Jamil MI, An overview of how heterogeneous metal-based nanocatalysts can hydrogenate
+Iqbal S, Mahmood S, Knani S and nitroarenes to amino arenes has drawn a lot of interest because of its industrial
+Alreshidi R (2026) The recent progress in
+significance as an intermediate in the production of plastics, as well as for the
+the catalytic conversion of nitroarene into
+amino arene catalyzed by heterogeneous pharmaceutical, agrochemical and material sciences industries. Novel
+metal based nano catalyst. nanocatalysts, including noble (Pd, Pt, Au, Ru, Rh and Ag) and non-noble (Cu, Fe,
+Front. Chem. 14:1827073.
+Ni, Co and Mn) metal nanoparticles supported on carbonaceous materials, metal-
+doi: 10.3389/fchem.2026.1827073
+organic frameworks (MOFs) and metal oxides, have been used in recent years to
+COPYRIGHT
+improve catalytic efficiency, selectivity and sustainability. Bimetallic alloys, single-atom
+© 2026 Manzoor, Shah, Ahmed, Jamil,
+Iqbal, Mahmood, Knani and Alreshidi. This catalysts (SACs) and plasmonic nanomaterials are important advancements that allow
+is an open-access article distributed under for effective nitro reduction using hydrogen (H ), hydrazine (N H ), sodium
+2 2 2
+the terms of the Creative Commons
+borohydride (NaBH ) or photocatalysis in mild conditions. Depending on the type
+Attribution License (CC BY). The use, 4
+distribution or reproduction in other of catalyst, mechanistic details show different paths and environmentally friendly
+forums is permitted, provided the original techniques including solvent-free reactions, electrochemical reduction, and magnetic
+author(s) and the copyright owner(s) are
+recoverable catalysts support sustainable synthesis. Recent developments in
+credited and that the original publication
+in this journal is cited, in accordance with heterogeneous metal-based nanocatalysts for nitroarene reduction are thoroughly
+accepted academic practice. No use, compiled in this study, which emphasizes the critical transformation from noble to
+distribution or reproduction is permitted
+non-noble metal systems that provide more affordable and environmentally friendly
+which does not comply with these terms.
+alternatives. Despite advancements, issues with scalability, cost containment, and
+long-term stability still exist. This review also offers a roadmap for further study in this
+ground-breaking subject by highlighting current advances in nanocatalyst
+engineering, reaction mechanisms and upcoming tactics.
+KEYWORDS
+amino arenes, heterogenous nanocatalysts, hydrogen source, nitroarenes, noble metals,
+non-noble metals, reduction
+1 Introduction
+Since the industrial era, when nitroarenes were first released into the environment
+through the manufacture of explosives, dyes and other industrial chemicals, these substances
+have been an hazardous due to their extreme toxicity and environmental persistence. Their
+environmental presence has been connected to a lot of health concerns such as respiratory
+Frontiers in Chemistry 01 frontiersin.org
+
+Manzoor et al. 10.3389/fchem.2026.1827073
+disorders and cancer. To minimize their harmful consequences using magnetically recyclable nanocatalysts. In addition to
+there has been a growing interest in developing methods to improving durability, catalytic activity and simple magnetic
+remove nitroaromatic contaminants from the environment separation, incorporating design strategies that prevent
+(Anusuya et al., 2021; Wang et al., 2025; Wang and Zhang, aggregation (Shokouhimehr, 2015; Zarei et al., 2024). The
+2014). In synthetic organic chemistry, one of the most important selective reduction of electron-rich nitro heteroarenes is difficult
+processes is the conversion of nitro compounds to their equivalent but essential transformation for the synthesis of bioactive molecules.
+anilines. Aromatic amines are used as intermediates in the Assessed contemporary catalytic techniques (metal-free systems,
+preparation of significant commercial products, such as dyes, hydrogenation and transfer hydrogenation) (Rostami et al., 2024;
+pharmaceuticals, and agricultural chemicals. (Raimundo et al., Vengatesh and Nanjan, 2022). The application of bulk and
+2023; Tavakolian et al., 2025). The reduction of aromatic supported non-noble metal catalysts for the liquid-phase
+compounds by nitro groups using NaBH in the presence of hydrogenation of bi- and polyfunctional organic molecules in
+4
+metal catalysts has recently received a lot of attention due to the flow mode is covered in a recent study. When other substituents
+significant catalytic activity of metal particles (Bahadur et al., 2025; are present, the primary focus is on the selective reduction of one
+Zirak et al., 2025). Aromatic amines serve as vital beginning and functional group (NO , C C, C N, C O and
+2
+intermediate products in the chemical manufacture of numerous C N) (Nuzhdin et al., 2024; Tang et al., 2024)
+industry sectors such as dye, pigment, agrochemical, polymer, and (Scheme 1).
+medicine (Genc, 2015; Yao et al., 2025). Currently, the catalytic The two main types of catalysts are non-noble metal catalysts
+reduction of nitrobenzene requires innovative, affordable and (Fe, Ni, Cu, Co, Mo and Mn) and noble metal catalysts (Pt, Au, Pd,
+efficient catalysts. A new copper-based metal-organic framework Ag, Rh and Ru).
+(MOF) denoted as Cu@C, has been reported by calcining Cu–MOF
+at 700 °C. MOF confinement (2–5 nm) prevents aggregation; enables 1.1 Noble metal catalyst
+tandem catalysis. With (NaBH ) as the reducing agent, the catalyst
+4
+showed outstanding catalytic performance in reducing Noble metal catalysts, including platinum (Pt), silver (Ag),
+nitrobenzene, exhibiting a high conversion rate of 100% and a palladium (Pd), gold (Au), rhodium (Rh) and ruthenium (Ru),
+quick reaction time of 8 min (Tang et al., 2023; Zhang S. et al., are widely known for their remarkable catalytic properties in a
+2025). Recent advancements in catalysts using inexpensive metals variety of chemical reactions. Because of their high activity, superior
+such as Fe, Co, Ni, and Cu have produced remarkable results, thermal stability and potent oxidation and corrosion resistance,
+leading to their increased use as “standard” catalysts (Formenti these metals are essential for use in both industrial and
+et al., 2018; Pal and Pal, 2025). The Cu-PANI-AC-A electrocatalyst environmental settings. Their distinct surface characteristics and
+outperformed previous systems and provides a sustainable method electrical structure allow for effective reactant activation and
+for electrochemical aniline production by enabling effective adsorption, which improves catalytic performance. Silver (Ag)
+nitrobenzene reduction to aniline with 82% selectivity. It has nanoparticles’ plasmonic properties play a key role for the
+potential for fuel cell cogeneration is typically used for heat and catalytic conversion of nitrobenzene (Ph-NO ) to aniline (Ph-
+2
+power due to its stability and efficacy (Daems et al., 2018; Khanra NH ). When Ag nanoparticles are exposed to light, generate hot
+2
+et al., 2025). Using cheap Ni/Co nanoparticle catalysts with electrons via localized surface plasmon resonance (LSPR), which are
+hydrazine hydrate, provides room-temperature, aqueous-phase then transported to the nitrobenzene molecules absorbed on the
+chemo selective reduction of nitro compounds that achieves high catalytic surface. These energetic electrons help intermediary species
+conversions and selectivity (Rai et al., 2014; Zhao et al., 2024). This like nitroso benzene (Ph-NO) and phenylhydroxylamine (Ph-
+review found important structure–activity connections, mechanistic NHOH) facilitate the nitro (–NO ) group gradually into an
+2
+pathways and degradation mechanisms that control catalyst amino (–NH ) group (Guo et al., 2023; Park et al., 2024). In an
+2
+performance by contrasting noble metals (such as Pt, Pd and Au) “efficient, environmentally friendly” method of producing Pt
+with non-noble substitutes (such as Cu, Fe, Co and Ni-based nanoparticles in water, gum acacia has been employed as a
+materials). The catalyst, which is frequently combined with stabilizing and reducing agent. The hydrogenation of nitroarenes
+protons from water (H O) as the hydrogen source, acts as a to arylamines is efficiently catalyzed by colloidal platinum using
+2
+conductive platform in electrocatalytic systems to enable direct molecular hydrogen as the reductant. Gum acacia has been used as a
+electron transfer from the electrode to the substrate (Hasan et al., stabilizing and reducing agent in the efficient environmentally
+2024; Islam et al., 2024). With their easy recovery, resistance to friendly synthesis of Pt nanoparticles from H PtCl .6H O in
+2 6 2
+leaching and deactivation and ability to activate substrates through water. Excellent product yields were obtained with a variety of
+non-covalent interactions, (Electrostatic interaction for parallel substrates and the catalyst remained reliable across several cycles
+structure with hydrogen bonding, π–π* stacking), metal (Sreedhar et al., 2011; Gogoi et al.). By combining the hydrogenation
+nanoparticles supported on graphene oxide (GO) have become of nitro groups with the dehydrogenation of ammonia borane
+very promising nanocatalysts in the last decade. Compared to (NH BH ), the Pd@MIL-101 catalyst transforms nitrobenzene
+3 3
+their monometallic counterparts or the bare support, bimetallic into aniline. In a methanol/water solution, tiny Pd nanoparticles
+and trimetallic nanoparticles on GO display remarkable synergistic (~2.5 nm) confined with the pores of MIL-101 promote the quick
+features (Hoseini Chopani et al., 2020; Kumar et al., 2023). release of H from NH BH (Aprile et al., 2024; Yang Q. et al., 2015).
+2 3 3
+Bimetallic Supports mediates electronic synergy; promotes alloy Nitrobenzene at room temperature is rapidly reduced by the in situ
+formation (Hoseini Chopani et al., 2020)]. A crucial industrial produced hydrogen, completing the reaction in just 1.5 min with a
+transition, sustainable nitroarene reduction has been achieved yield of >99% (Campbell et al., 2024; Singha Hazari et al., 2024). Ru
+Frontiers in Chemistry 02 frontiersin.org
+
+Manzoor et al. 10.3389/fchem.2026.1827073
+SCHEME 1
+Schematic diagram for conversion of nitrobenzene into amino benzene catalyzed by various heterogeneous nano catalysts.
+nanoparticles are stabilized by a polymer-immobilized ionic liquid ZB catalyst is highly effective in photocatalytically hydrogenating
+coated with phosphorus oxide (RuNP@O=PPh )-PEGPIILS) nitrobenzene to aminobenzenes when exposed to UV light from
+2
+catalyzes the reduction of nitrobenzene to aniline in two steps. black light. By optimizing reactant-catalyst contact and TiO
+2
+Under mild conditions, nitrobenzene is first partially reduced to activation the spiral flow reactor design improves performance
+N-phenylhydroxylamine using hydrazine hydrate as the reducing (Kominami et al., 2025).
+agent. With excellent selectivity, the reaction takes place in ethanol
+between 25 °C and 40 °C. The N-phenylhydroxylamine intermediate 1.2 Non-noble metal catalyst
+then undergoes further reduce to aniline at elevated temperature
+(60 °C) or longer reaction times (Paterson et al., 2023; Stergiou et al., Non-noble metal catalysts have attracted a lot of attention as
+2022). Using RuNP@O=PPh -PEGPIILS catalysts at 25 °C, Paterson affordable and eco-friendly substitutes for expensive noble metal-
+2
+et al. extracted NPhOH with >99% yield (Paterson et al., 2022; based catalysts (such as Pt, Pd, Rh, etc.). These catalysts are mostly
+Paterson et al., 2023). NPhOH was identified by Doherty et al. as the composed of transition metals (Fe, Co, Ni, Cu and Mn) and their
+main intermediate in Au/PIILs-catalyzed reduction, and its stability oxides, carbides, nitrides and phosphides, as well as carbon-based
+was determined by the solvent composition (Doherty et al., 2025). materials like graphene and doped nanocarbons. Compared to noble
+Gold nanoparticles (AuNPs) supported by phosphine oxide- metals, non-noble metal catalysts are more accessible, more
+decorated polymer-immobilized ionic liquids (PIILs) catalyze the affordable and can be structurally and compositionally turned for
+multi-step reduction of nitrobenzene to aniline. The primary specific applications. One of the most widely used catalytic processes
+intermediate that was observed is N-phenylhydroxylamine, which in the bulk and fine chemical industries is the reduction of nitro
+is first partly reduced from nitrobenzene. At low water content, the compounds to their corresponding amines. These catalysts are
+reaction proceeds quickly. When N-phenylhydroxylamine is further commonly utilized as “standard” catalysts because of the
+reduced, aniline is the result. Ethanol encourages the synthesis of impressive results of recent catalyst advances using inexpensive
+azoxybenzene whereas water favors the formation of metals like Fe, Co, Ni and Cu (Zirak et al., 2025). A simple
+N-phenylhydroxylamine (C H NHOH). The solvent is crucial. technique was developed to produce Ni-Sn bimetallic
+6 5
+The choice of reducing agent such as Dimethylamine borane nanoparticles with a controlled size and composition under
+(DMAB) or NaBH has a major effect on the reaction rate; ambient conditions using inexpensive metal salts. By altering the
+4
+DMAB exhibits higher activity (Doherty et al., 2025). The stoichiometric ratio of Ni and Sn precursors, different chemical
+catalyst discussed in the article is a rutile-type TiO photocatalyst compositions of Ni , Ni Sn , Ni Sn and Ni Sn
+2 100 74 26 59 41 50 50
+which is formed into tiny TiO -zircon bead composites (referred to nanoparticles were formed. The nanoparticles have been
+2
+as TiO -ZB) and is commercially available as MT-150A from described using X-ray diffraction (XRD) (which revealed alloy
+2
+TAYCA Corporation, Osaka, Japan. With an apparent quantum phases like Ni Sn and Ni Sn ), Transmission electron microscope
+3 3 2
+efficiency of 84% in the isopropanol-nitrobenzene (IPA-NB) (TEM) (which showed irregular/spherical forms with diameter of
+reduction process, this form of rutile TiO is notable for its high 4.5–13 nm), HR-TEM, and energy dispersive X-ray (EDX) (which
+2
+effectiveness. Using IPA as a sacrificial hydrogen donor, the TiO - verified composition) (Shah et al., 2015). Cu@C a new Cu-based
+2
+Frontiers in Chemistry 03 frontiersin.org
+
+Manzoor et al. 10.3389/fchem.2026.1827073
+TABLE 1 Various hydrogen sources for conversion of nitroarenes into amino arenes.
+SNO Hydrogen Reactant Corresponding Product Selectivity Yield References
+source catalyst
+1 H2 (via NaBH4) Nitrobenzene Co (SA + NPs)-C/N Aniline >99% 100% Qi et al. (2024)
+NaBH4+PMS (Co single atoms + >98% 100% Anusuya et al.
+nanoparticles on N-doped >99% 100% (2021)
+carbon) >99% 100% Tang et al. (2023)
+TiO2/ZnO-chitosan gel beads >90% 96.6% Shah et al. (2015)
+Cu@C (from Cu-MOF) >95% 94% Zhou et al. (2025)
+Ni74Sn26 nanoparticles Akbarizad et al.
+Ni (PPh3)4 (2024)
+2 Ethylene Nitrobenzene CuNPs/Celite (5% w/w) Aniline >99% >99% Martina et al.
+glycol/KOH (2023)
+3 Hydrazine hydrate Nitrobenzene CuNCNT (N-doped Cu) Aniline >95% 97% Zhang et al.
+Cu@porous carbon >99% 99% (2023a)
+Co3O4 nanoparticle >95% 99% Zou et al. (2020)
+Patil et al. (2025)
+4 Glycerol Nitrobenzene Cu-based catalyst Aniline 92% (aniline 100% Moran et al.
+(2020a)
+5 H2 (atmospheric) Nitrobenzene and TiO2@N-AC Aniline and various ~96% (for 100% Sokolova et al.
+functionalized NiFe hydrogenase on carbon substituted or derivatives) 100% (2024)
+nitroaromatics. black (biocatalyst) heteroaromatic amines. 99% Guo et al. (2023)
+MOF precursor calcined at 700 °C has remarkable catalytic activity quantify the stability-reusability dilemma (high initial activity vs.
+when nitrobenzene is reduced to aniline with NaBH . Many fast deactivation). Thus, this work is novel in the following ways; (i)
+4
+previously reported non-noble metal catalysts, achieving 100% creating the first complete performance matrix (Table 2and 3) that
+conversion in just 8 min. After acid etching and several reuse cross-references metal type, support, hydrogen source, time and
+cycles without reactivation it maintained over 90% efficiency, yield under standard conditions; (ii) determining that the current
+demonstrating exceptional stability. Characterization tests “unnoticed champions” with turnover frequencies TOFs exceeding
+confirmed the material’s high surface area and uniform 100 h-1 are bimetallic Ni-Sn and defect-engineered carbon catalysts;
+distribution of Cu nanoparticles. It highlights Cu@C as a low- and (iii) putting forth a tree of choices model for catalyst selection
+cost, efficient replacement for noble metal catalysts in the based on industrial vs. environmental applications.
+reduction of nitro compounds, with potential applications in
+wastewater treatment and green chemistry (Tavakolian et al., 1.3 Hydrogen sources for reduction
+2025). A. Mahajan and M. Gupta developed a recyclable
+nanocatalyst hybrid ceria or iron-doped-cerium oxide (Fe@CeO ) The nitroarene hydrogenation mechanism is extremely sensitive
+2
+which enables both the production of benzopyran derivatives in eco- to the conditions of the reaction. Selectivity is greatly influenced by
+friendly solvents and the hydrogenation of nitroarenes to anilines. the polarity and acidity of the solvent; for example, ethanol favors
+Numerous methods were used to characterize the catalyst, which the synthesis of azoxybenzene over Au catalysts, whereas water
+showed excellent stability, a high surface area and photoluminescent promotes the formation of N-phenylhydroxylamine (Doherty et al.,
+qualities. In mild conditions it produced high yields (up to 95%) in 2025). The depth of the reaction is determined by temperature; at
+the synthesis of benzopyran and the reduction of nitroarene. Over higher temperatures (e.g., 60 °C), intermediates such as
+the course of five successive runs the catalyst’s efficiency and N-phenylhydroxylamine can be completely reduced to aniline
+recyclability were demonstrated. It highlights the catalyst’s over Ru catalysts, whereas at lower temperatures (25 °C–40 °C),
+potential for environmentally friendly and sustainable chemicals the partial reduction product can be isolated (Paterson et al., 2023;
+(Mahajan and Gupta, 2021). Stergiou et al., 2022). The mechanism is also controlled by the
+Critical gaps in nitroarene reduction remain unfilled despite hydrogen source: transfer hydrogenation donors such as glycerol
+multiple reviews: (1) Without a direct, side-by-side kinetic proceed via different dehydrogenation-coupled pathways (Sun et al.,
+comparison (e.g., does Cu@C really replace Pd/C at scale?), most 2010), whereas molecular H requires activation on metal sites.
+2
+assessments concentrate on either noble or non-noble metals. (2) Surface functional groups enable hydride transfer; defect sites
+Although the significance of the hydrogen source is sometimes anchor active species for nitroarene reduction (Liao et al., 2023;
+considered secondary, our examination of Table 1 shows that the Qi et al., 2024). NaBH facilitates quick hydride transfer for fast
+4
+donor selection (NaBH vs. H vs. N H ) has a greater influence on kinetics (Shah et al., 2015; Tang et al., 2023). A variety of hydrogen
+4 2 2 4
+the reaction process than the metal itself. (3) It is uncommon to sources have been used, including different catalytic systems like
+Frontiers in Chemistry 04 frontiersin.org
+
+Manzoor et al. 10.3389/fchem.2026.1827073
+TABLE 2 Noble metal nanocatalysts for nitroarene reduction.
+S Reactant Reducing Noble metal Product Yield Time Reaction References
+no agent catalysts (%) temperature
+and pressure
+1 Nitrobenzene H2 (via NaBH4) Pd@MIL-101 Aniline >99 1.5 min RT, ambient Campbell et al.
+(2024), Yang et al.
+(2015a)
+2 Nitrobenzene H2 (gas) Pt NPs/Gum Aniline >99 3 h RT, 1 atm H2 Sreedhar et al.
+acacia (2011)
+3 Nitrobenzene N2H4.H2O RuNP@O=PPh2- N-phenylhydroxylamine >99 2 h 25 °C–60 °C, inert Paterson et al.
+PEGPIILS to aniline (2023)
+4 Nitrobenzene DMAB or AuNPs/PIILs Aniline >99 45 min RT, ambient Doherty et al.
+NaBH4 (2025)
+5 Nitrobenzene Isopropanol TiO2-ZB (rutile Aniline High Continuous UV light, RT Kominami et al.
+(photocatalytic) TiO2) flow (2025)
+6 4- NaBH4 Pt NPs/viologen 4-Aminophenol 93 3.5 h RT, ambient Kantam et al. (2012)
+Nitrophenol micelles
+7 Nitrobenzene H2 (gas) Pt/PSP (hyper- Aniline >99 2 h 40 °C, 5 bar H2 Cárdenas-Lizana
+crosslinked et al. (2013)
+polystyrene)
+8 Nitrobenzene H2 (gas) Pd/Fe3O4 NPs Aniline >95 70 min RT, 1 atm H2 Zhang et al. (2011b)
+9 Nitrobenzene Hydrazine Pd/C Aniline 95 5 min 80 °C, ambient Li et al. (2014)
+hydrate
+10 Nitrobenzene H2 (gas) Ag/CeO2 Aniline >95 4 h 80 °C, 1 atm H2 Shimizu et al.
+core–shell (2010)
+11 Nitrobenzene H2 (gas) Ag/Al2O3 Aniline >99 3 h 100 °C, 1 atm H2 Qusti et al. (2014)
+12 Nitrobenzene NaBH4 Ag/Fe3O4–SiO2 Aniline >95 8 min RT, ambient Liu et al. (2021a)
+13 Nitrobenzene H2 (gas) Ag@SiO2 Aniline >99 5 h 120 °C, 10 bar H2 Patzsch et al. (2019)
+core–shell
+14 Nitrobenzene NaBH4 Ag/GQDs Aniline >99 6 min RT, ambient Liu et al. (2021a)
+15 Nitrobenzene Formic acid Rh–terpyridine Aniline >99 12 h 60 °C, water Tan et al. (2021)
+complex
+16 Nitrobenzene Hydrazine Rh NPs/support Aniline >99 1.5 h 60 °C, ambient Liu et al. (2022a)
+hydrate
+17 Nitrobenzene H2 (gas) RuNi single-atom Aniline >99 3 h 80 °C, 5 bar H2 Liao et al. (2023)
+alloy
+18 Nitrobenzene H2 (gas) Ru/CNT Aniline >99 4 h 80 °C, 10 bar H2 Li et al. (2025b)
+19 Nitrobenzene H2 (gas) Pt–Ga dual-atom/ Aniline >99 6 h RT, 0.1 V vs. RHE Liu et al. (2025)
+N-graphene (electrolysis)
+20 Nitrobenzene NaBH4 PdO/TiO2 Aniline >99 12 min RT, ambient Lu et al. (2025)
+21 Nitrobenzene H2 (gas) PdCx nano cubes Aniline >99 2 h 50 °C, 2 bar H2 Yamaguchi et al.
+(2025)
+electrochemical or photocatalytic processes, transfer hydrogenation nitrobenzene to aniline by combining with protons in the
+donors and molecular hydrogen gas. Electrochemically active solution to form active hydrogen species (Wang et al., 2011). In
+microorganisms facilitate electron transport at the biocathode photocatalytic systems, molecular hydrogen is commonly employed
+should be the microbial fuel cell. These electrons convert as a direct hydrogen source. Photocatalysts, such as Titanium
+Frontiers in Chemistry 05 frontiersin.org
+
+Manzoor et al. 10.3389/fchem.2026.1827073
+TABLE 3 Non-noble metal nanocatalysts for nitroarene reduction.
+S Reactant Reducing Non noble Product Yield Time Reaction References
+NO agent catalysts (%) temperature
+and
+pressure
+1. Nitroarene NaBH4 TiO2/ZnO-chitosan Aniline 100 0.15 min 45 °C ambient Anusuya et al.
+gel beads pressure (2021)
+2 Nitroarene NaBH4 Cu@C (from Aniline 100 8 min RT, ambient pressure (Tang et al., 2023)
+Cu-MOF)
+3 Nitroarene NaBH4+ PMS Fe-N/BC biochar Aniline 96.6 15 min RT, ambient pressure Zhou et al. (2025)
+4 Nitroarene NaBH4 Ni (PPh3)4 Aniline 94 20 min RT, ambient pressure Akbarizad et al.
+(2024)
+5 Nitroarene NaBH4 Ni74Sn26 1,2-Benzenediamine 100 2.5 min RT, ambient pressure Shah et al. (2015)
+nanoparticles
+6 Nitroarene Na2Se Se/NaBH4/NaOH Aryl amines 94 2 h 100 °C, ambient Capperucci et al.
+pressure (2023)
+7 Nitroarene NaBH4 NaBH4/CuCl2 Phenethylamines 83–97 10–30 min RT, ambient pressure d’Andrea and
+Kristensen (2023)
+8 Nitroarene NaBH4 Co-pol (N-doped Aniline 90 15 min RT, ambient pressure Petrelli et al.
+resin) (2023)
+9 Nitroarene NaBH4 Ni@Fe- Aniline 95 15 min 50 °C, ambient Mahajan and
+CeO2chitosan pressure Gupta (2021)
+10 Nitroarene H2 (in situ) RuNP@O=PPh2- N-Arylhydroxylamine >99 2 h 25 °C, inert Paterson et al.
+PEGPIILS atmosphere (2022)
+11 Nitrobenzene Bi2MoO6’Methanol, Bi2MoO6 Aniline >99 12–24 h ambient Xie et al. (2019)
+water
+12 Nitrobenzene H2 TiO2@N-AC Aniline >99 12–24 h 25 °C, low pressure Guo et al. (2023)
+13 Nitrobenzene Hydrazine hydrate/Co Co (II) catalyst Aniline 99 20 min Room temperature, Manikandan et al.
+(II) catalyst Atmospheric pressure (2025)
+14 Nitrobenzene Hydrazine hydrate CuNCNT Aniline 97 1 h 28OC Zhang et al.
+(N-doped Cu) Atmospheric (2023a)
+15 Nitrobenzene Hydrazine hydrate Ru/MIL-101 Aniline 99 1 h 100 °C Fang et al. (2022)
+Atmospheric
+16 Nitrobenzene Hydrazine hydrate Cuprous carbon Aniline 99 1.5 h 85 °C Zou et al. (2020)
+Atmospheric
+17 Nitrobenzene Hydrazine hydrate Co3O4 nanoparticle Aniline 99 1 h Room temperature, Patil et al. (2025)
+Atmospheric pressure
+18 Nitrobenzene Hydrazine hydrate Fe-doped TiO2 Aniline 96 2 h 100 °C Ji et al. (2019)
+Atmospheric
+19 Nitrobenzene Ethylene glycol/KOH CuNPs/Celite (5% Aniline >99 ~9 min 130 °C Martina et al.
+w/w) Atmospheric (2023)
+20 Nitrobenzene Hydrazine hydrate FeCl3 ·6H2O/2,2′- Aniline 92 1 h 100 °C Hung et al. (2022)
+Bipyridyl Atmospheric
+21 Nitrobenzene H2 (in situ from Co (SA + NPs)-C/N Aniline >99 2.5 min Room temp (25 °C)/ (Qi et al., 2024)
+NaBH4) (Co single atoms + Ambient (1 atm)
+nanoparticles on
+N-doped carbon)
+Frontiers in Chemistry 06 frontiersin.org
+
+Manzoor et al. 10.3389/fchem.2026.1827073
+dioxide (TiO , CdS or metal-decorated semiconductors (e.g., Pt/
+2)
+g-C N , Cu/TiO ) absorb light to generate electron-hole pairs. The
+3 4 2
+electrons reduce H to form reactive hydrogen species (e.g., H• or
+2
+H−) on the catalyst surface, which then reduce nitrobenzene to
+aniline (Guo et al., 2023). Glycerol acts as a renewable and
+environmentally friendly hydrogen donor during the transfer
+hydrogenation process. Glycerol acts as a renewable hydrogen SCHEME 2
+Conversion of nitrobenzene into Aniline catalyzed by Pt/ZrO2.
+donor, being oxidized to products such as dihydroxyacetone or
+glyceraldehyde, while simultaneously providing hydrogen
+equivalents that reduce the nitro group (-NO ) of nitrobenzene
+2
+to the amino group (-NH ) of aniline (Moran et al., 2020a). The
+2
+reaction system uses molecular hydrogen directly at 333 K (60 °C)
+and 4 MPa of pressure. The (-NO ) of nitrobenzene is reduced to the
+2
+(-NH ) of aniline by the dissociation of H into reactive hydrogen
+2 2
+species (such as atomic hydrogen or hydrides) made possible by
+ultrafine platinum nanoparticles (PtNPs) supported on multi-walled
+SCHEME 3
+carbon nanotubes (MWNTs) (Sun et al., 2010). Conversion of nitrobenzene into aniline by using Pt/NHC NPs.
+1.4 Catalytic reduction of nitro compounds
+by various catalysts
+Both effective and selective hydrogenation are achieved by the Pt/
+1.4.1 Platinum-based catalysts PSP structure. The catalysts’ performance and stability indicate that
+they have a significant potential for real-world use (Cárdenas-Lizana
+The metal oxidation, dehydrogenation, and hydrogen capacity et al., 2013). To effectively hydrogenate the nitro group in
+of supercapacitors in batteries and sensors are all commonly nitrobenzene, platinum (Pt) serves as the main active site for
+facilitated by Pt-based nanoparticles (Pt NPs) (Aday et al., 2016; splitting molecular H into reactive atomic hydrogen. By
+2
+Feng et al., 2024; Gawande et al., 2012; Soni et al., 2025). selectively converting–NO to–NH while limiting aromatic ring
+2 2
+Furthermore, these nanomaterials are well-known and have been hydrogenation, it offers high selectivity toward aniline. Compared to
+among the most popular catalysts for reduction reactions and metals like Ni, Pt performs well under mild conditions and at lower
+heterogeneous catalysts (Lara and Philippot, 2014; Nie et al., temperatures and pressures. Adsorption determines how water
+2012; Rohmah et al., 2025). Compared to catalysts based on affects Pt: liquid H O limits the process by competitively
+2
+other metals such as Au, Ag, Ni, Ir, Rh and Ru, platinum-based blocking active sites, whereas vapor H O speeds it up (Zhou
+2
+catalysts are typically faster and more dynamic. A commercial Pt/C et al., 2024). The reduction of p-nitrophenol to aniline was
+catalyst, for example, to reduce nitro compounds containing catalyzed by platinum nanoparticles supported in bridged
+bromine or chlorine. In the redox processes of a hydrogen micelles (1,1′-dioctadecyl-4,4′-bipyridinium bromide) using
+molecule exchange, the catalysts are based on the Pt. One NaBH in a DMF-water mixture. The micelles’ core-shell
+4
+example is the reduction of nitro-compounds containing chlorine structure of pyridine and viologen cations allowed for effective
+or bromine using a commercial Pt/C catalyst. The reactions catalysis. In 3.5 h, a 93% aniline yield was obtained in methanol.
+produced a yield of more than 99 percent in less than 5 minutes This method demonstrates an advanced technique for
+when 1,4-cyclohexadiene was used as an H source (Jin et al., 2021; halonitrobenzene reduction while maintaining halogen
+2
+Rueping et al., 2011). substituents (Campos et al., 2022; Kantam et al., 2012; Luo et al.,
+N-heterocyclic carbene (NHC)-stabilized platinum 2023) (Scheme 3).
+nanoparticles (Pt NPs) were produced by decomposing To improve the electronic structure of the active sites, Pt-M
+[Pt(dba) ] with carbene ligands in tetrahydrofuran (THF) at (p-block metal) dual-atom catalysts, especially Pt-Ga supported on
+2
+room temperature under 3 bar hydrogen. These Pt@NHC N-doped graphene, regulate p-d orbital hybridization. By adjusting
+catalysts demonstrated high activity by efficiently the adsorption energies of hydrogen species and nitrobenzene
+hydrogenating p-substituted nitroarenes. NHC ligands increase intermediates, this hybridization lowers the energy barriers for
+the stability of the catalyst and stop unintended agglomeration. stepwise electrocatalytic hydrogenation and suppresses the
+According to the study, catalysts can tolerate functional groups competing hydrogen evolution process (HER). Because of this,
+including carbonyl, hydroxyl and benzyloxy (He et al., 2019; Lara the catalyst performs exceptionally well in the nitrobenzene
+et al., 2014; Nie et al., 2020) (Scheme 2). reduction reaction (NBRR) under mild electrochemical
+Platinum nanoparticles (Pt NPs) stabilized on carbon, Al O conditions and exhibits remarkable activity and high selectivity
+2 3
+and hyper-crosslinked polystyrene (PSP) were used as catalysts to toward aniline synthesis (Liu et al., 2025).
+hydrogenate p-substituted nitroarenes (substituents: OCH , -H, -Br,
+3
+-Cl, -COOH, -NO ) producing >99% amine yields and TOFs up to 1.4.2 Gold-based catalysts
+2
+61s-1. In the liquid phase, these catalysts successfully reduced
+p-chloronitrobenzene. Metal leaching is avoided and mechanical Calorimetric sensors commonly use gold nanoparticles, tactile
+stability is improved by the hyper-crosslinked polystyrene support. frameworks, nano chemistry and nanomaterials science (Doherty
+Frontiers in Chemistry 07 frontiersin.org
+
+Manzoor et al. 10.3389/fchem.2026.1827073
+et al., 2025; Rohmah et al., 2025; Su and Kanjanawarut, 2009; Xu
+et al., 2012). Up until recently, gold was thought to have poor
+catalytic activity. It was observed that the chemo selective
+hydrogenation of nitroarenes was carried out by calcium alginate
+gel (Saha et al., 2010), TiO , Fe O (Corma and Serna, 2006),
+2 2 3
+hydrogenation of graphene oxide (Choi et al., 2011), tannic
+corrosive graphene oxide functionalized (Zhang Y. et al., 2011), SCHEME 4
+Hydrogenation of nitroarenes catalyzed by GA-Pt NPs (Sreedhar
+filaments of polyaniline (Han et al., 2010), small scale organized
+et al., 2011).
+paper network (Koga and Kitaoka, 2011) and alginate gel of calcium
+(Saha et al., 2010) supported gold nanoparticles counting various
+useful groups (Mitsudome and Kaneda, 2013). HAuCl and
+4
+commercially available NAP-MgO undergo an ion-exchange
+process to produce gold nanoparticles supported on magnesium
+oxide (NAP-MgO). In this way gold was applied to the surface of
+NAP-MgO with gold in the zero-valent state as a heterogeneous
+catalyst. The estimated size of nanoparticles is between 5 and 7 nm
+(Sreedhar et al., 2011) (Scheme 4). SCHEME 5
+In the presence of Pd/C, the reduction of aromatic nitro
+compounds was aided by microwaves (MW).
+1.4.3 Catalysts based on palladium
+Since catalysts have a stronger catalytic effect, they have been
+widely studied for the exchange of hydrogenation reactions. Using
+palladium-based heterogeneous catalysts, significant advancements
+in the chemo selective hydrogenation of nitroarenes have recently
+been made (Li et al., 2011; Rubio-Marqués et al., 2013). The catalyst,
+usually Pd, Ni or Pt-based (e.g., Pd/Al O in related studies) is
+2 3
+essential for hydrogenating nitrobenzene to aniline by reducing the SCHEME 6
+Hydrogenation of nitro compounds catalyzed by Pd/C
+activation energy. This enables the reaction to proceed efficiently at
+and N2H4.H2O.
+moderate pressures and temperatures. It facilitates the adsorption of
+hydrogen gas (H ) on its surface, generating active hydrogen species
+2
+that progressively reduce the nitro group (-NO ) via intermediates
+2
+such as nitrosobenzene and phenylhydroxylamine, ultimately (Trasarti et al., 2014), fuel cell (Stiles, 1987) and other applications.
+forming C H NH with superior selectivity (Rohmah et al., For many years the catalytic hydrogenation of nitro compounds has
+6 5 2
+2025). Palladium nanoparticles (PdNPs) particularly those been dominated by metal catalysis. Despite their increased
+produced by solution phase deposition (small NPs ~5 nm) reusability, heterogeneous catalytic systems are costly and
+coated on polymer-based spherical activated carbon (PBSAC) environmentally harmful. More recently, successful development
+function as highly active heterogeneous catalysts for the of metal-free catalysts for H enactment has been studied (Zheng
+2
+hydrogenation of nitrobenzene to aniline using H gas (Fu et al., and You, 2012). Preparation of aniline is more economical, safe and
+2
+2023). For example, Pd/Fe O NPs that are easily magnetically environmentally beneficial. According to Bao et al., reduced
+3 4
+separable were created to reduce a number of nitro compounds graphene oxide (rGO) can be used effectively as a catalyst to
+in ethyl alcohol in 60–75 min with excellent yields in a hydrogen reduce nitroarenes without metals. Up to 97% of the reactions
+environment (Zhang F. et al., 2011; Zhang et al., 2018). The were completed in 4–9 h. Hydrazine monohydrate was utilized as
+attractive Pd/Fe O catalyst was primarily created to reduce hydrogen source and solvent. C-0 stands for carbon compounds that
+3 4
+nitroarenes with carbonyl groups in a selective manner (Boyall were not subjected to base treatment. Using different bases (KOH,
+et al., 2024; Hasan et al., 2023). A new method for the reduction NaOH, K CO and Na CO , respectively) and a set ratio of wet
+2 3 2 3
+of nitro compounds catalyzed by Pd/C was developed, using 1,4- Resorsinol-Formaldehyde (RF) gel to base (i.e., 1:1), C-1, C-2, C-3
+cyclohexadiene as hydrogen source. This method is quick, safe and C-4 were made. When isopropanol was used as a soluble
+and efficient. hydrogen source, the C-1 catalyst was used for the reduction
+Hydrazine monohydrate (N H .H O), a well-known hydrogen reaction to generate aniline derivatives in the presence of KOH.
+2 4 2
+source was reacted with a Pd/C catalyst to produce aromatic amines. Within 24–48 h the reaction progressed with desirable yields under
+Within 5 minutes, the conversion in methanol at 80 °C changed high pressure and temperature. The usefulness of the additional
+from 25% to 95%. The Pd/C catalyst can be operated up to five times reducible substituents that were attached to the aromatic ring was
+without experiencing any serious deactivation (Herrera et al., 2025; maintained (Yang H. et al., 2015) (Scheme 7).
+Li et al., 2014) (Scheme 5,6). Functionalized carbon nanotubes (CNTs) are now commonly
+The most prevalent element in the universe is elemental carbon used as catalysts in a variety of chemical processes (Fujita et al., 2014;
+which comes in a number of different forms such as diamond, Wu et al., 2015). Su et al. created a novel hydrogen peroxide
+graphite and amorphous carbon (Yang H. et al., 2015). It is a useful functionalized carbon nanotube (CNT-HP). CNT-HP is green
+component for a variety of applications such as catalyst supports catalyst that provides a particular reduction of nitroarenes with
+Frontiers in Chemistry 08 frontiersin.org
+
+Manzoor et al. 10.3389/fchem.2026.1827073
+high conversion and high yields by using hydrazine monohydrate as
+a hydrogen donor. CNTs were treated with 30% H O at different
+2 2
+temperatures to prepare a more active catalyst. CNT-HP60 was
+reported as an effective catalyst for the hydrogenation of nitro
+compounds. CNT-HP was compared to nitric acid oxidized
+carbon nanotubes (CNTs) for reduction. They reported that in
+CNT-HP, the conversion of nitroarenes to aniline derivatives is
+SCHEME 7
+more efficient (Wu et al., 2015) (Scheme 8). C-1 catalyzed selective reduction of various nitroarenes.
+Using hydrogen peroxide and ammonium salts, the surface
+functionalized (AC) catalyst was appropriately doped with
+nitrogen and oxygen. It was reported that nitrogen and oxygen
+dopants changed the surface structure of AC, increasing its catalytic
+activity for nitrobenzene hydrogenation. Additionally, hydrazine
+hydrate was employed as a source of hydrogen donor (Fujita et al.,
+2014) (Scheme 9).
+Using NaBH as the hydrogen donor, the PdO/TiO catalyst
+4 2
+allows for the very effective catalytic transfer hydrogenation of
+SCHEME 8
+nitrobenzene to aniline, where PdO nanoparticles supported on CNTs-HP catalyzed various nitroarenes.
+TiO first activate the nitro group and facilitate hydrogen generation
+2
+from NaBH (Lu et al., 2025). When compared to pure Pd
+4
+nanocubes, the palladium carbide nanocube catalyst (PdC NCs)
+x
+significantly enhances the reduction of nitrobenzene to aniline by
+improving H activation and nitrobenzene adsorption, yielding a
+2
+turnover frequency (TOF) that is 39 times greater (Yamaguchi
+et al., 2025).
+1.4.4 Silver-based catalysts
+SCHEME 9
+AC catalyzed reduction of nitrobenzene.
+In research, silver-based catalysts are often used in oxidation
+reactions (Guo et al., 2023; Taheri-Ledari et al., 2020). By stabilizing
+important intermediates (nitroso and hydroxylamine species), Ag
+NPs facilitate the selective hydrogenation of the–NO group
+2
+to–NH , producing high aniline yields with few byproducts
+2
+(Kumar et al., 2025). On a large scale, the remarkable focus on
+Ag catalysts for reduction reactions, which is currently uncommon,
+is utilized to lower the activation barrier of the reaction (Corma and
+Garcia, 2008; Davis et al., 2013). The active site for low-barrier B-H
+activation from NaBH is electron-deficient single-atom silver
+4 SCHEME 10
+(AgSA) on γ-Al O , which facilitates the easy production of Conversion of nitroarenes into amino arenes in the presence of
+2 3
+silver-hydride species that are essential for the hydrogenation of
+Ag/Al2O3 (Shimizu et al., 2010).
+nitrobenzene to aniline (Li H. et al., 2025). They can be used to
+reduce 4-nitrophenol and 4-aminophenol efficiently in a short time.
+For instance, Kaneda et al. used Ag/CeO NPs to chemoselectively (Ag) nanoparticles that facilitate electron transfer and hydride
+2
+reduce the range of nitro-compounds in a hydrogen medium with donation from the reducing agent to reduce the nitro group
+an efficiency of >95% was synthesized. The carbonyl groups were (-NO ) of nitroarenes (Khaleghi et al., 2023; Zhang et al., 2024).
+2
+protected and a high yield of the required compounds was achieved Specifically, compared to vinyl ether, nitrile and amide linkages, the
+in a selective manner. MgO, CeO , ZrO , TiO , SnO and Al O Ag/Al O NPs are very selective for the nitro group reduction. High
+2 2 2 2 2 3 2 3
+were among the materials utilized to construct the catalytic supports; yields and selectivity of the products were obtained. The catalysts
+it was discovered that Al O had the greatest surface area (Qusti were created using support materials like MgO, CeO , ZrO , TiO
+2 3 2 2 2
+et al., 2014; Shimizu et al., 2010) (Scheme 10). The primary active SnO , and Al O . Al O has been shown to have the maximum
+2 2 3 2 3
+sites that dissociate and activate molecular H are silver surface area.
+2
+nanoparticles (Ag NPs) which are distributed on a sustainable In the presence of NaBH , 4-nitrophenol was reduced to 4-
+4
+hybrid silica/carbon substrate made from rice husk waste. This aminophenol using the Fe O /SiO supported silver catalyst, which
+3 4 2
+makes it possible to transfer hydrogen to the nitro group of was made as magnetic nanoparticles using silver nitrate (AgNO ) as
+3
+nitrobenzene in a selective and effective manner, resulting in a a silver source.
+high conversion to aniline with outstanding chemo selectivity in The Ag nanoparticle core (reduced from AgNO , using
+3
+mild conditions (Unglaube et al., 2021). The main active sites in the aldehydes, with smaller sizes from stronger reducers like CH O)
+2
+curcumin/melamine-functionalized magnetic nanocatalyst are silver acts as the main active site for activating and dissociating H gas,
+2
+Frontiers in Chemistry 09 frontiersin.org
+
+Manzoor et al. 10.3389/fchem.2026.1827073
+enabling the reduction of the nitro group. Nitrobenzene can be
+hydrogenated to aniline using the mesoporous core-shell Ag@SiO
+2
+nanospheres as an efficient heterogeneous catalyst (Patzsch et al.,
+2019; Zhao et al., 2020). Using NaBH as the hydrogen source, the
+4
+3D reduced graphene oxide (rGO) aerogel with immobilized ultra-
+small Ag nanoparticles (1–3 nm) functions as a highly efficient
+heterogeneous catalyst for the hydrogenation of nitroaromatic SCHEME 11
+Reduction of nitrobenzene into aniline catalyzed by Rh catalyst
+compounds (such as nitrobenzene to aniline), where the Ag NPs
+(Luo et al., 2012).
+serve as the main active sites for hydride (H−) transfer and electron
+mediation to activate and reduce the nitro group (Shen et al., 2020).
+The Ag nanoparticles anchored on graphene quantum dots (Ag/
+GQDs) serve as a highly efficient nano-catalyst for the reduction of challenges. In a study of the hydrogenation of nitrobenzene as a
+nitro compounds (including nitrobenzene to aniline) using NaBH model reaction, ruthenium supported on carbon nanotubes (Ru/
+4
+as the hydrogen source. The small Ag NPs act as active catalytic sites CNT) catalysts provided the ideal equilibrium, allowing
+to facilitate electron transfer and hydride delivery, accelerating the hydrogenation of both the aromatic ring and the nitro
+nitro group reduction (Torabi et al., 2025). group. Methyl-labeled substrates made it possible to follow
+certain substrates and learn more about the relative rates at
+1.4.5 Rhodium based catalyst which nitrobenzene and its intermediates hydrogenate. Together
+with information on the bond between nitrobenzene and aniline on
+Using formic acid or ammonium formate as a safe and the Ru/CNT catalyst, an improved mechanistic model for the
+environmentally friendly hydrogen source; the rhodium- hydrogenation of nitrobenzene is presented (Liu Z. et al., 2022;
+terpyridine complex acts as a very effective homogeneous catalyst Qusti et al., 2014; Taheri-Ledari et al., 2020).
+to create active rhodium-hydride intermediates. Under mild Selective reduction of the nitro group in nitrobenzene and
+reaction conditions, Rh preferentially catalyzes the transfer efficient H activation (from external H or in-situ via
+2 2
+hydrogenation of the nitro group in nitrobenzene, allowing for a isopropanol dehydrogenation) are made possible by the
+clean stepwise reduction to aniline in water (Liu et al., 2021a; Tan bimetallic Ru-Ni nanoparticles on mesoporous carbon black. This
+et al., 2021). The main active site for the selective electrochemical leads to tandem coupling of hydrogenation and dehydrogenation in
+hydrogenation of nitrobenzene in the work is rhodium (Rh) in an aqueous medium at 240 °C (Li S. et al., 2025).
+atomically distributed Cu-coordinated Rh metallene arrays, which
+effectively activates and transfers electrons/protons to the nitro 1.4.7 Iron-based catalysts
+group under applied voltage (Mao et al., 2023; Sheng et al.,
+2023). Using hydrazine as the reducing agent and supported Iron, nickel, and cobalt-containing magnetic nanoparticles are
+rhodium nanoparticles as the catalyst presents a highly effective typically employed in the production of medical and data storage
+and selective process for converting nitroarenes to amines. The devices (Bahadur et al., 2025). By reducing the energy barriers for
+study shows that this catalytic system is useful for synthesizing important intermediates (nitrosobenzene and
+amines utilized in fine chemicals and pharmaceuticals because it phenylhydroxylamine) the Fe–N site aids the dissociative
+4
+produces great yields and selectivity under mild conditions (Chugh adsorption of H and encourages the stepwise reduction of the
+2
+et al., 2022; Liu Z. et al., 2022; Luo et al., 2012) (Scheme 11). nitro group, allowing for effective conversion to aniline (Liu et al.,
+Rh can activate and transfer hydrogen from hydrazine to the 2021b; Tian et al., 2021). Fe(acac) –catalyzed reduction of aromatic
+3
+nitro group, allowing nitroarenes to be reduced to their nitro compounds to anilines with TMDS in THF at 60 °C. High
+corresponding amines selectively and efficiently under mild yields (62–99%) are obtained by tolerating sensitive groups such as
+conditions. High catalytic activity and selectivity are caused by -CN, -COOH, -COOM, and -Br (Scheme 12). Ultra-small FeS
+e 2
+the maximum surface area and unique electrical properties of Rh nanoparticles serve as an efficient heterogeneous catalyst for the
+nanoparticles, which enhance the efficiency and specificity of the chemoselective transfer hydrogenation of nitroarenes using
+reaction (Chen et al., 2022; Guha et al., 2014; Ruan et al., 2025). hydrazine hydrate as a safe hydrogen donor. Under mild
+conditions they achieve 99.9% selectivity to aniline derivatives by
+1.4.6 Ruthenium based catalysts selectively converting the nitro group (-NO ) to the amino group
+2
+(-NH ) via a neat stepwise pathway (nitroso → hydroxylamine →
+2
+The RuNi single-atom alloy catalyst, which is composed of aniline). Without the need for gaseous H , the catalyst’s ultra-small
+2
+isolated Ru atoms anchored on Ni nanoparticles, uses Ru–Ni size, large surface area and pyrite structure guarantee superb activity,
+interfacial sites as its main active centers. Adjacent Ni sites outstanding recyclability and wide functional group tolerance
+effectively dissociate H , allowing for quick and selective (Southouse et al., 2021). These catalysts are also used in typical
+2
+hydrogenation whereas negatively charged Ruδ–at these interfaces processes like reduction and oxidation since they are simple to
+preferentially adsorbs nitrobenzene and encourages N–O bond remove from the substrate (Deng et al., 2011; Park et al., 2007).
+breaking in the nitro group (Liao et al., 2023; Liu W. et al., Iron oxide (Fe O ) nanoparticles are inexpensive, reusable and
+3 4
+2022). Due to the significant differences in the adsorption commercially available. At 150 °C, the catalysts were used to
+strengths of the two chemical moieties on metal catalyst surfaces, effectively reduce nitro compounds in 2 min while employing
+the dual hydrogenation of nitro and aromatic groups poses special hydrazine hydrate (N H .H O) as a hydrogen source (Figure 3).
+2 4 2
+Frontiers in Chemistry 10 frontiersin.org
+
+Manzoor et al. 10.3389/fchem.2026.1827073
+possible by the effective dissociation of H by electron-rich Ni
+2
+(Niδ−). By giving nitro group adsorption priority and preventing
+adverse processes like dehalogenation, these sites guarantee high
+chemo selectivity (>90% yield for diverse nitroarenes). NiTiO -
+x
+500 which is calcined at 500 °C and balances Ni particle size
+(~5 nm) and oxygen vacancies performs well. The catalyst has
+good activity and selectivity for aniline synthesis and is safer than
+SCHEME 12
+Selective reduction of nitroarenes catalyzed by Fe based catalyst. Raney nickel. It is also stable and reusable with low loss over five
+cycles (Klausfelder and Kempe, 2023; Zhang C. et al., 2025).
+Nitrobenzene hydrogenation to aniline (C H NO + 3H →
+6 5 2 2
+C H NH + 2H O) is catalyzed by Ni, with performance
+6 5 2 2
+Without seeing a significant drop in activity, the heterogeneous differing depending on the support. The homogeneous ~10 nm
+catalyst was reused multiple times. Additionally, because of their Ni particles and mesopores that enhance diffusion allow Ni on
+stability, the catalysts can be kept for a few weeks. It can then be used mesoporous carbon black (CB) to achieve ~100% conversion and
+again to other reduction reactions (Cantillo et al., 2013; Huang et al., selectivity at 120 °C in 1 h. Because micropores restrict access, Ni on
+2020; Rubab et al., 2024; Southouse et al., 2021). AC fiber (ACF) is slower (2 h). Due to fewer mesopores and poorer
+metal-support interactions, Ni on γ-Al O at 150 °C, takes 2 hours to
+2 3
+1.4.8 Nickel-based catalysts complete the reaction. The mesopores in CB increase Ni stability
+and decrease activation energy (42.6 kJ/mol vs. to 66.0 kJ/mol for
+Nickel (Ni) nanoparticles supported on carbon materials that Al O ). Ni’s activity, selectivity and recyclability are maximized by
+2 3
+have been acid-treated serve as the primary active phase in the gas- mesoporous CB (Jiang et al., 2023; Loos et al., 2016; Qu et al., 2017).
+phase hydrogenation of nitrobenzene to aniline. They provide Under mild conditions (room temperature, 1 atm H ), the
+2
+metallic Ni sites that dissociate molecular H into reactive atomic nickel (Ni) in the three-dimensional network Pd-Ni/γ-Al O
+2 2 3
+hydrogen and strongly adsorb the nitrobenzene molecule via its catalyst functions as a crucial promoter and co-active metal,
+nitro group for effective activation (Nieto-Márquez et al., 2009; RAJ forming a Pd-Ni alloy or intimate bimetallic interface that
+et al., 2012; Turáková et al., 2015). The nickel nanoparticles alters the electronic properties of Pd, lowers the H
+2
+stabilized by filamentous carbon serve as the primary active dissociation barrier and increases the overall hydrogenation
+catalytic sites for the hydrogenation of nitrobenzene to aniline. activity of nitrobenzene to aniline (Jiang et al., 2021;
+The metallic Ni (0) surface effectively separates molecular H McCullagh et al., 2024). Using NaBH , the two-dimensional
+2 4
+into reactive atomic hydrogen and strongly adsorbs the nitro Ni@Cu-MOF bimetallic nanosheets function as a non-noble
+group of nitrobenzene, allowing chemo selective reduction under metal catalyst effectively chemo selectively hydrogenates
+mild liquid-phase conditions (e.g., 100 °C, 2 MPa H ) (Mahata et al., nitroarenes to corresponding anilines under mild conditions,
+2
+2008). Cost has always been a major factor in the development of achieving over 100% conversion and over 99% selectivity for a
+new catalysts for a variety of processes. Due to the widespread use of variety of substrates. While the ultrathin 2D structure optimizes
+noble metal catalysts, which has been constrained by their high cost, atomic dispersion of active sites for improved catalytic efficiency,
+Ni-NPS has proven to be a strong alternative in terms of cost the Ni-Cu synergy prevents side reactions like dehalogenation by
+effectiveness, stability, strength and catalytic activity (Du et al., 2004; balancing reactivity (from Ni) and selectivity (from Cu) (Zhang
+Meng et al., 2011). Through strong metal-support interactions et al., 2026). The nickel catalyst is the main active species in the
+(SMSI) with titanium oxide, nickel (Ni) in NiTiO catalysts hydrogenation of nitrobenzene to aniline (which can be Ni
+x
+creates Ni−O−Ti sites (O = oxygen vacancies) which are nanoparticles, Raney Ni, heterogeneous Ni-supported systems
+v v
+essential for the selective reduction of nitroarenes to anilines. or homogeneous Ni complexes). It provides inexpensive,
+Hydrogen spillover to TiO for nitro group reduction is made readily available metal sites that effectively activate molecular
+x
+FIGURE 1
+Schematic representation of the reduction of the 4-nitrophenol in the presence of Ag/Fe3O4-SiO2.
+Frontiers in Chemistry 11 frontiersin.org
+
+Manzoor et al. 10.3389/fchem.2026.1827073
+FIGURE 2
+Hydrogenation of nitrobenzene catalyzed by Ru catalyst (Leng et al., 2016).
+FIGURE 3
+Iron oxide catalyzed efficiency for conversion of nitro compounds.
+H (or transfer hydrogen donors) and coordinate the nitro group This allows direct stepwise hydrogenation of the nitro group to the
+2
+for chemo selective reduction under mild to moderate conditions amino group in a manner different from the conventional Haber
+(Nagy et al., 2025; Paul et al., 2025). pathway (Gelder et al., 2005; Moran et al., 2020b; Yánez et al., 2006).
+Certain reduction kinetics is more suited for Cu-based catalysts
+1.4.9 Copper-based catalysts since they may reduce the dynamic obstacle in the response. When
+they are expanding, they are quite sensitive to nitrogen-containing
+The copper catalyst is the active heterogeneous phase for the groups. They do not affect the ester, halogen or carbonyl groups but
+vapor-phase hydrogenation of nitrobenzene to aniline (usually they do transform the nitro and nitrile groups into important amines
+industrial supported Cu such as Cu on Al O or similar) which (Stergiou et al., 2022; Toshima and Wang, 1994). For example, 3-
+2 3
+provides metallic Cu sites that dissociate molecular H into adsorbed nitro-4-methoxy-acetylaniline (NMA) was converted to 3-amino-4-
+2
+hydrogen atoms and enable the adsorption of nitrobenzene via its methoxy-acetylaniline (AMA) when copper nanoparticles were
+nitro group (Larsen et al., 2000; Petrov et al., 1986; Petrov et al., present (Toshima and Wang, 1994). Isopropanol (iPrOH) is used
+1990). By providing metallic Cu sites that strongly adsorb as a green hydrogen source in aqueous HCl/iPrOH at room
+nitrobenzene and dissociate H into reactive hydrogen species, temperature to convert nitro benzenes to anilines via a visible
+2
+the copper catalyst (supported Cu e.g., Cu/SiO or industrial Cu- light-photoinduced and Cu-catalyzed process. Nitrosobenzene
+2
+based systems) plays a crucial role in the proposed new mechanism. and N-phenylhydroxylamine serve as intermediates in the
+Frontiers in Chemistry 12 frontiersin.org
+
+Manzoor et al. 10.3389/fchem.2026.1827073
+FIGURE 4
+Conversion of nitrobenzene by Ni based catalyst.
+process. Initial reductions are driven by photoexcitation and
+hydrogen abstraction in the presence of visible light and iPrOH.
+To facilitate effective proton-coupled electron transfers in the direct
+pathway (nitro → nitroso benzene → phenylhydroxylamine →
+aniline) with moderate binding to prevent poisoning or high
+barriers, copper (Cu) particularly on the Cu(111) surface is
+crucial in balancing the adsorption energies of nitrobenzene SCHEME 13
+Reduction of nitrobenzene into anilines by using iPrOH, CuCl
+reduction intermediates via DFT (Density Functional Theory)
+and HCl.
+(Martina et al., 2023; Wong et al., 2022) (Scheme 13). The
+copper (Cu) in the bimetallic Cu-Ni nanoparticles supported on
+AC has a synergistic role in the catalytic transfer hydrogenation of
+nitroarenes including nitrobenzene to anilines. To improve the oxide (rGO) composite where the mixed Ni–Co spinel oxide
+activation of the hydrogen donor (such as isopropanol or provides redox-active metal sites (Ni2+/Ni3+ and Co2+/Co3+) that
+comparable alcohols) Cu helps alter the electronic characteristics enable H dissociation and activation under mild conditions
+2
+of Ni by decreasing the size of Ni particles, enhancing dispersion and (Kondeboina et al., 2018; Wang et al., 2014). The characteristics
+raising overall catalytic reducibility (Guan et al., 2021; Kimi et al., of the N-doped carbon-supported cobalt single-atom catalyst
+2018). Copper nanoparticles (Cu NPs) supported on doped (Co–N4/C)-catalyzed reduction of nitrobenzene to aniline.
+graphitic carbon are the primary active sites for the reduction of Computed findings show that the reduction of nitrobenzene to
+nitroaromatics, particularly nitrobenzene to amines. To create active aniline is significantly influenced by the presence of water molecules
+hydrogen species that drive the chemo-selective hydrogenation of (Qi et al., 2024; Wang et al., 2021; Zhou et al., 2017). The high
+the nitro group, the metallic Cu (0) nanoparticles efficiently dissolve activity of the cobalt catalyst is caused by the combined action of Co
+NaBH (or other reductants) (Mirhosseyni et al., 2021; Nandi et al., NPs and the biochar support, which provides a high surface area (up
+4
+2017). To prevent adverse reactions such as arene chlorination, to 400 m2/g) and stabilizes active sites. With a turnover frequency
+N-phenylhydroxylamine is converted to aniline by Cu(I) salt. The (TOF) of about 120 h-1, the catalyst performed better under
+Cu(I)-Cu (II) catalytic cycle is supported and the reduction is comparable conditions than both noble metal catalysts (such Pd/
+accelerated by aqueous HCl. C H NO + 6H → C H NH + C) and commercial Co-based catalysts. After five cycles, the catalyst
+6 5 2 6 5 2
+2H O is the complete reaction. Aqueous HCl, Cu(I) salt (such as showed good stability with low cobalt leaching (<1 ppm) and
+2
+CuCl) and iPrOH are important reagents. The approach is effective retained >95% conversion and selectivity (Gutiérrez-Tarriño et al.,
+and selective (Bal et al., 2025). 2021; Unglaube et al., 2022) (Scheme 14). By enhancing Pd
+Cu(I) is an essential catalyst that according to the study, permits nanoparticle dispersion and generating electron-rich Pd sites
+effective and selective reduction while preserving a regenerative through amine coordination which fortifies nitro group
+catalytic cycle (Bal et al., 2025). adsorption and speeds up H dissociation, the amine-
+2
+functionalized cobalt-ferrite-supported palladium catalyst (Pd/
+1.4.10 Cobalt based catalyst CoFe O-NH ) greatly improves the hydrogenation of
+2 4 2
+nitrobenzene to aniline (Hajdu et al., 2023; Morisse et al., 2021).
+The reduction of nitrobenzene to aniline is effectively catalyzed The electron-rich corrole ligand helps the nitro group of
+by the nickel cobalt oxide (NiCo O ) nanowire-reduced graphite nitrobenzene coordinate to the Co(III) center, stabilizing the
+2 4
+Frontiers in Chemistry 13 frontiersin.org
+
+Manzoor et al. 10.3389/fchem.2026.1827073
+SCHEME 15
+Conversion of nitrobenzene into aniline by Ni-MoC (Zhang
+SCHEME 14 et al., 2023b).
+Conversion of nitrobenzene into aniline by Co@RH (Unglaube
+et al., 2022).
+substrate-catalyst interaction (Lu et al., 2022). A transitory Co-H
+species is formed when the cobalt core activates molecular H, most
+2
+likely through heterolytic cleavage. This procedure is improved by
+the DMSO ligand, which modifies the cobalt’s electrical environment
+(Petrelli et al., 2023; Timelthaler et al., 2021).
+SCHEME 16
+The single-atom cobalt (Co SAC) catalyst, which has isolated Co Conversion of nitrobenzene into Aniline by Mn catalysts (Hajdu
+et al., 2022).
+atoms coordinated in N-doped carbon (often Co-N sites), is the
+4
+extremely active and chemo selective center for the hydrogenation of
+nitroarenes to anilines. In mild conditions (e.g., 100 °C, 20 bar H ),
+2
+this enables significant adsorption of the nitro group and efficient enables the nitro group (-NO ) to be gradually reduced to the
+2
+activation of H (Amirjan et al., 2024; Liu et al., 2023; Qi et al., 2024). amino group (-NH ) with high yields (>95%) and outstanding
+2 2
+selectivity (Maurya et al., 2024; Phasayavan et al., 2024).
+1.4.11 Mo based catalysts
+1.4.12 Mn based catalysts
+The well-defined homogeneous catalyst is the Mo S cuboidal
+3 4
+molybdenum sulfide cluster (more precisely the diamino complex Porous manganese oxide (OMS-2) is the primary active support
+[Mo S Cl (dmen) ]+, where dmen = N,N′-dimethyl in the hydrogenation of nitrobenzene to aniline. It contains redox-
+3 4 3 3
+ethylenediamine) with the molybdenum centers acting as the active Mn oxidation state typically include (Mn+4/Mn3+/Mn2+) that
+primary active sites for activating hydrogen (H ) and enabling the promote stepwise reduction via intermediates such as azobenzene/
+2
+stepwise reduction of nitro compounds to aniline intermediates hydrazobenzene, azoxybenzene and nitrosobenzene, activate the
+(Pedrajas et al., 2017; Wang et al., 2016). The main active phase nitro group and facilitate oxygen mobility (McManus et al., 2016;
+of the Co-Mo C/AC catalyst is molybdenum carbide (Mo C) which Yadav and Mewada, 2013). The manganese oxide supported on
+2 2
+has Pt-like electrical characteristics and plenty of surface sites for H partially reduced graphene oxide (MnO /prGO) catalyst allows the
+2 2
+dissociation and activation. This allows the nitro group in selective hydrogenation of nitrobenzene to aniline by activating
+nitrobenzene to be efficiently chemo selectively hydrogenated to molecular hydrogen (H ) on Mn active sites which spread over to
+2
+aniline (Zhao et al., 2014). The primary active phase of the Mo C/NC the graphene support for enhanced electron transfer and reactant
+2
+catalyst is molybdenum carbide (Mo C) where the Mo sites show Pt- adsorption (Rana et al., 2021). Through coordinative binding at the
+2
+like activity for effective H dissociation and activation, allowing Mn core the air-stable manganese(I) pincer complex catalyst
+2
+nitrobenzene to be chemo selectively hydrogenated to aniline under activates molecular hydrogen (H ) enabling the selective
+2
+mild conditions (Liu S. et al., 2021; Luo et al., 2021; Ma et al., 2021). hydrogenation of nitrobenzene to aniline with high yields (59%–
+High activity for nitrobenzene hydrogenation was demonstrated by 99%) (Zubar et al., 2021). By activating H on Pd sites under mild
+2
+the Ni-MoC catalyst which was made by carbonizing a NiMo-metal- conditions (40 °C, 10 bar), the Pd/MnFe O catalyst, which has
+x 2 4
+organic framework (MOF) precursor. Under optimum conditions palladium on manganese-ferrite, selectively hydrogenates
+(1 MPa H , 100 °C and ethanol solvent) the catalyst converted nitrobenzene to aniline (>99% yield). Pd dispersion and electron
+2
+nitrobenzene to aniline with >99% selectivity in 4 h. The transport are improved by the MnFe O support which facilitates
+2 4
+synergistic interaction between Ni nanoparticles and MoC effective nitro group reduction while preserving excellent selectivity.
+x
+(molybdenum carbide) species which promotes hydrogen For up to ten cycles, its magnetic separability guarantees simple
+activation and nitro group reduction, is responsible for high recovery and reusability with little activity loss (Hajdu et al., 2022)
+activity (Phasayavan et al., 2024; Zhang Y. et al., 2023) (Scheme 15). (Scheme 16). By activating silanes (such as PhSiH ) to produce
+3
+Using hydrazine hydrate as the hydrogen donor, molybdenum reactive manganese-hydride species the Mn (II)-NNO pincer
+trioxide (MoO ) is a highly effective heterogeneous catalyst for the complex functions as a well-defined homogeneous catalyst that
+3
+chemo-selective reduction of nitroarenes including nitrobenzene to permits the progressive reduction of the nitro group in
+arylamines (anilines) in mild conditions. MoO reacts with nitrobenzene to aniline via chemo selective hydrosilylation
+3
+hydrazine hydrate to form an active in-situ complex (probably (Behera et al., 2022). Under mild conditions (100 °C–150 °C)
+involving reduced Mo species or Mo-hydrazine intermediates) manganese, iron and cobalt pincer complexes (e.g., Mn-PNP)
+that promotes the production of active hydrogen species. This catalyze selective nitroarene reduction to primary amines with up
+Frontiers in Chemistry 14 frontiersin.org
+
+Manzoor et al. 10.3389/fchem.2026.1827073
+to 99% yield, either by activating H or by employing transfer completely exploit the industrial and environmental potential of
+2
+hydrogenation. These catalysts tolerate sensitive functional these catalytic processes, future research should concentrate on
+groups like halides and ketones by enabling stepwise nitro group establishing scalable, economical and long-lasting systems,
+reduction through metal-ligand collaboration. Thus, with silanes expanding mechanistic knowledge and optimizing nanocatalyst
+such as PhSiH on activation form these reactive manganese- design. This paper offers a thorough road map for developing
+3
+hydride species. The Mn(II)-NNO pincer complex is then used nitroarene reduction, opening the door to more environmentally
+as a homogeneous catalyst without needing additional additives and friendly and effective chemical synthesis. The study of
+the nitro group in nitrobenzene is reduced step-by-step, finally to get heterogeneous metal-based nanocatalysts has led to significant
+aniline by chemo selective hydrosilylation (Wu and Darcel, 2023). advancements in the catalytic reduction of nitroarenes to amino
+For the chemo selective hydrogenation of nitroarenes the MnO arenes. Non-noble metal systems particularly those based on Ni,
+X
+nanocatalyst based on Al O functions as a highly active Cu, Co, and Fe offer a very promising future because they are
+2 3
+heterogeneous catalyst. It efficiently activates molecular hydrogen much less expensive, highly active, completely heterogeneous
+(H ) on its surface reducing the nitro group (-NO ) to the amine and readily recoverable (through magnetic separation or
+2 2
+(-NH ) (Rana et al., 2025). filtration). They also provide excellent conversion (up to
+2
+The (NHC)Mn(I) complex, or more specifically, a 100%), selectivity (>99%) and reusability under mild,
+phosphine-free bis-NHC-Mn(I) complex, functions as an sustainable conditions. To fully realize their industrial and
+effective well-defined homogeneous catalyst for the selective environmental potential for more environmentally friendly
+transfer hydrogenation of nitrobenzene to aniline when amino arenes synthesis, future efforts should focus on
+ammonia borane (AB) is used as the hydrogen donor designing photocatalysts that are affordable, highly active,
+(Kumari et al., 2024). Because of highly labile Mn–O scalable and ultra-stable. The remarkable improvements in
+coordination bonds which easily permit the creation of nanocatalyst engineering are highlighted in this study,
+catalytically active sites, the MnL manganese-based especially the development of non-noble metal catalysts that
+4
+coordination complex serves as a very effective photocatalyst exhibit exceptional activity, selectivity and reusability under
+for the reduction of nitrobenzene to aniline under visible light. moderate conditions. The knowledge covered here provides a
+In comparison to Mn L which has stronger Mn–O bonds that useful road map for developing sustainable catalytic systems for
+4 4
+prevent the development of active sites and lead to decreased use in industry and ecological remediation.
+activity, the flexible Mn L microenvironment facilitates the
+4 4
+creation of open manganese sites for substrate activation and
+Author contributions
+electron/hydride transfer (Xu et al., 2026).
+1.5 Conclusion TM: Resources, Writing – original draft, Writing – review and
+editing. MS: Formal Analysis, Project administration,
+Using heterogeneous metal-based nanocatalysts to Writing – original draft, Writing – review and editing. SA: Data
+catalytically convert nitroarenes to amino arenes is a curation, Investigation, Writing – review and editing. MJ: Formal
+breakthrough in environmental remediation and synthetic Analysis, Resources, Visualization, Writing – review and editing. SI:
+organic chemistry. The synthesis of noble (Pd, Pt, Au, Rh and Conceptualization, Supervision, Writing – original draft,
+Ru) and non-noble (Fe, Co, Ni, Cu, Mo and Mn) catalysts that are Writing – review and editing. SM: Data curation, Methodology,
+efficient, selective and long-lasting metal nanoparticles supported Software, Validation, Writing – review and editing. SK: Data
+by a variety of materials like metal oxides, metal-organic curation, Investigation, Methodology, Software, Writing – review
+frameworks (MOFs) and carbonaceous supports, has advanced and editing. RA: Funding acquisition, Resources, Visualization,
+remarkably, as this review demonstrates. Single-atom catalysts, Writing – review and editing.
+plasmonic nanomaterials and bimetallic alloys are examples of
+innovations that have improved catalytic performance and made
+Funding
+it possible to reduce nitro under mild reaction conditions using
+hydrogen, hydrazine, NaBH or photocatalytic and
+4
+electrochemical techniques. High conversion rates (up to The author(s) declared that financial support was received for
+100%), superior selectivity (e.g., 82%–99%) and quick reaction this work and/or its publication. The authors extend their
+times (as low as 1.5–8 min) for important transformations like appreciation to the Deanship of Scientific Research at Northern
+nitrobenzene to aniline are noteworthy accomplishments. The Border University, Arar, KSA for funding this research work
+drive toward sustainability is further supported by through the project number “NBU-FFR-2026-2483-06”.
+environmentally friendly methods like solvent-free processes,
+magnetically recoverable catalysts and green hydrogen sources
+Acknowledgments
+like glycerol. Functionalized carbon nanotubes and nitrogen/
+oxygen-doped activated carbon are two examples of carbon-
+based catalysts that have shown promise as metal-free The authors extend their appreciation to the Deanship of
+substitutes that are both economical and environmentally Scientific Research at Northern Border University, Arar, KSA for
+beneficial. Scalability, cost-effectiveness and long-term catalyst funding this research work through the project number “NBU-FFR-
+stability are still major obstacles despite these developments. To 2026-2483-06”.
+Frontiers in Chemistry 15 frontiersin.org
+
+Manzoor et al. 10.3389/fchem.2026.1827073
+Conflict of interest
+intelligence and reasonable efforts have been made to ensure
+accuracy, including review by the authors wherever possible. If
+The author(s) declared that this work was conducted in the you identify any issues, please contact us.
+absence of any commercial or financial relationships that could be
+construed as a potential conflict of interest.
+Publisher’s note
+Generative AI statement
+All claims expressed in this article are solely those of the authors
+and do not necessarily represent those of their affiliated
+The author(s) declared that generative AI was not used in the organizations, or those of the publisher, the editors and the
+creation of this manuscript. reviewers. Any product that may be evaluated in this article, or
+Any alternative text (alt text) provided alongside figures in this claim that may be made by its manufacturer, is not guaranteed or
+article has been generated by Frontiers with the support of artificial endorsed by the publisher.
+References
+Aday, B., Yıldız, Y., Ulus, R., Eris, S., Sen, F., and Kaya, M. (2016). One-pot, efficient and oxidation of aniline. Chem. Commun. 58 (71), 9902–9905. doi:10.1039/
+green synthesis of acridinedione derivatives using highly monodisperse platinum d2cc03076d
+nanoparticles supported with reduced graphene oxide. New J. Chem. 40 (1),
+Choi, Y., Bae, H. S., Seo, E., Jang, S., Park, K. H., and Kim, B. S. (2011). Hybrid gold
+748–754. doi:10.1039/c5nj02098k
+nanoparticle-reduced graphene oxide nanosheets as active catalysts for highly efficient
+Akbarizad, B., Taghavi, M., and Najafi, S. (2024). Selective reduction of reduction of nitroarenes. J. Mater. Chem. 21 (39), 15431–15436. doi:10.1039/
+nitroaromatic compounds to their corresponding amine compounds using c1jm12477c
+NaBH4/Ni (PPh3)4. J. Synthetic Chem. 3 (2), 110–120. doi:10.22034/jsc.2024.
+Chugh, V., Chatterjee, B., Chang, W. C., Cramer, H. H., Hindemith, C., Randel,
+463857.1078
+H., et al. (2022). An adaptive rhodium catalyst to control the hydrogenation
+Amirjan, M., Nemati, F., Elahimehr, Z., and Rangraz, Y. (2024). Copper oxides network of nitroarenes. Angew. Chem. Int. Ed. 61 (36), e202205515. doi:10.1002/
+supported sulfur-doped porous carbon material as a remarkable catalyst for anie.202205515
+reduction of aromatic nitro compounds. Sci. Rep. 14 (1), 5491. doi:10.1038/s41598-
+Corma, A., and Garcia, H. (2008). Supported gold nanoparticles as catalysts for organic
+024-55216-0
+reactions. Chem. Soc. Rev. 37 (9), 2096–2126. doi:10.1039/b707314n
+Anusuya, N., Pragathiswaran, C., and Mary, J. V. (2021). A potential catalyst-TiO2/ZnO
+Corma, A., and Serna, P. (2006). Chemoselective hydrogenation of nitro compounds
+based chitosan gel beads for the reduction of nitro-aromatic compounds aggregated
+with supported gold catalysts. Science 313 (5785), 332–334. doi:10.1126/science.1128383
+sodium borohydride and their antimicrobial activity. J. Mol. Struct. 1236, 130197. doi:10.
+1016/j.molstruc.2021.130197 d’Andrea, L., and Kristensen, J. L. (2023). One-pot reduction of nitrostyrenes to
+phenethylamines using sodium borohydride and copper (II) chloride.
+Aprile, G., Szakter, K., Byrholtz Andersen, M., Wu, H., Sin, G., Skovby, T., et al. (2024).
+Continuous spherical crystallization of escitalopram oxalate without additives. Org. Daems, N., Wouters, J., Van Goethem, C., Baert, K., Poleunis, C., Delcorte, A., et al.
+Process Res. Dev. 28 (2), 532–542. doi:10.1021/acs.oprd.3c00345 (2018). Selective reduction of nitrobenzene to aniline over electrocatalysts based on
+nitrogen-doped carbons containing non-noble metals. Appl. Catal. B Environ. 226,
+Bahadur, V., Dehade, A. S., Das, D., Kamath, P., Pal, S., Manjunath, B., et al. (2025).
+509–522. doi:10.1016/j.apcatb.2017.12.079
+Iron–water mediated chemoselective reduction of nitroarenes in a ball mill: a highly
+efficient and sustainable approach. RSC Mechanochem. 2 (6), 802–808. doi:10.1039/ Davis, S. E., Ide, M. S., and Davis, R. J. (2013). Selective oxidation of alcohols and
+d5mr00055f aldehydes over supported metal nanoparticles. Green Chem. 15 (1), 17–45. doi:10.1039/
+c2gc36441g
+Bal, M., Van Hoey, W., Cleirbaut, R., Lemière, F., Van Doorslaer, S., Cool, P., et al.
+(2025). Visible light-photoinduced and Cu-catalyzed reduction of nitrobenzenes into Deng, J., Mo, L. P., Zhao, F. Y., Hou, L. L., Yang, L., and Zhang, Z. H. (2011). Sulfonic
+anilines. ACS Catal. 15 (6), 4726–4738. doi:10.1021/acscatal.4c07841 acid supported on hydroxyapatite-encapsulated-γ-Fe2O3 nanocrystallites as a
+magnetically separable catalyst for one-pot reductive amination of carbonyl
+Behera, R. R., Panda, S., Ghosh, R., Kumar, A. A., and Bagh, B. (2022). Manganese-
+compounds. Green Chem. 13 (9), 2576–2584. doi:10.1039/c1gc15470b
+catalyzed chemoselective hydrosilylation of nitroarenes: sustainable route to aromatic
+amines. Org. Lett. 24 (50), 9179–9183. doi:10.1021/acs.orglett.2c03576 Doherty, S., Knight, J. G., Alharbi, H. Y., Paterson, R., Wills, C., Dixon, C., et al. (2025).
+Gold nanoparticle-catalyzed solvent switchable selective partial reduction of
+Boyall, S. L., Berman, P., Griffiths, A., Massey, A., Dixon, T., Shaw, T., et al. (2024).
+nitrobenzene to N-Phenylhydroxylamine and Azoxybenzene. ChemCatChem 17 (5),
+Palladium nanoparticle deposition on spherical carbon supports for heterogeneous
+e202401702. doi:10.1002/cctc.202401702
+catalysis in continuous flow. Catal. Sci. Technol. 14 (9), 2563–2573. doi:10.1039/
+d3cy01718d Du, Y., Chen, H., Chen, R., and Xu, N. (2004). Synthesis of p-aminophenol from
+p-nitrophenol over nano-sized nickel catalysts. Appl. Catal. A General 277 (1-2),
+Campbell, J., McCullagh, A., McGrath, L., How, C., MacLaren, D., Loenders, M., et al.
+259–264. doi:10.1016/j.apcata.2004.09.018
+(2024). The application of alumina supported Pd catalysts for high selectivity aniline
+synthesis catalysis at elevated temperatures: site-selective chemistry. Appl. Catal. A Fang, B., Qi, Z., Liu, F., Zhang, C., Li, C., Ni, J., et al. (2022). Activity enhancement of
+General 670, 119541. doi:10.1016/j.apcata.2023.119541 ceria-supported Co-Mo bimetallic catalysts by tuning reducibility and metal
+enrichment. J. Catal. 406, 231–240. doi:10.1016/j.jcat.2022.01.015
+Campos, C. H., Shanmugaraj, K., Bustamante, T. M., Leal-Villarroel, E., Vinoth, V.,
+Aepuru, R., et al. (2022). Catalytic production of anilines by nitro-compounds Feng, F., Zhen, Y., Chen, Y., Luo, J., Yao, C., Pan, L., et al. (2024). Size control of Pt
+hydrogenation over highly recyclable platinum nanoparticles supported on halloysite nanoparticle catalysts for high-selectivity hydrogenation of nitrobenzene to
+nanotubes. Catal. Today 394, 51a–523. doi:10.1016/j.cattod.2021.06.027 p-aminophenol. Mol. Catal. 556, 113922. doi:10.1016/j.mcat.2024.113922
+Cantillo, D., Moghaddam, M. M., and Kappe, C. O. (2013). Hydrazine-mediated Formenti, D., Ferretti, F., Scharnagl, F. K., and Beller, M. (2018). Reduction of nitro
+reduction of nitro and azide functionalities catalyzed by highly active and reusable compounds using 3d-non-noble metal catalysts. Chem. Rev. 119 (4), 2611–2680. doi:10.
+magnetic iron oxide nanocrystals. J. Org. Chem. 78 (9), 4530–4542. doi:10.1021/ 1021/acs.chemrev.8b00547
+jo400556g
+Fu, X., Qi, Z., Ren, W., Xu, M., and Yang, Y. (2023). Photocatalytic reduction of
+Capperucci, A., Clemente, M., Cenni, A., and Tanini, D. (2023). Transition metal-free nitrobenzene to aniline over CdS nanorods: the impacts of reaction conditions and the
+Selenium-mediated Aryl amines via reduction of nitroarenes. ChemSusChem 16 (15), hydrogenation mechanism. Catal. Sci. Technol. 13 (24), 7022–7035. doi:10.1039/
+e202300086. doi:10.1002/cssc.202300086 d3cy01252b
+Cárdenas-Lizana, F., Berguerand, C., Yuranov, I., and Kiwi-Minsker, L. (2013). Fujita, S.-i., Watanabe, H., Katagiri, A., Yoshida, H., and Arai, M. (2014). Nitrogen and
+Chemoselective hydrogenation of nitroarenes: boosting nanoparticle efficiency by oxygen-doped metal-free carbon catalysts for chemoselective transfer hydrogenation of
+confinement within highly porous polymeric framework. J. Catal. 301, 103–111. nitrobenzene, styrene, and 3-nitrostyrene with hydrazine. J. Mol. Catal. A Chem. 393,
+doi:10.1016/j.jcat.2013.01.021 257–262. doi:10.1016/j.molcata.2014.06.021
+Chen, W., Li, H., Jin, Y., Wu, C., Yuan, Z., Ma, P., et al. (2022). An intriguing Gawande, M. B., Rathi, A. K., Branco, P. S., Nogueira, I. D., Velhinho, A., Shrikhande,
+tetranuclear Rh-based polyoxometalate for the reduction of nitroarene and J. J., et al. (2012). Regio-and chemoselective reduction of nitroarenes and carbonyl
+Frontiers in Chemistry 16 frontiersin.org
+
+Manzoor et al. 10.3389/fchem.2026.1827073
+compounds over recyclable magnetic ferrit nickel nanoparticles (Fe3O4 ni) by using Jin, M., Liu, Y., Zhang, X., Wang, J., Zhang, S., Wang, G., et al. (2021). Selective
+glycerol as a hydrogen source. Chemistry-a Eur. J. 18 (40), 12628–12632. doi:10.1002/ electrocatalytic hydrogenation of nitrobenzene over copper-platinum alloying catalysts:
+chem.201202380 experimental and theoretical studies. Appl. Catal. B Environ. 298, 120545. doi:10.1016/j.
+apcatb.2021.120545
+Gelder, E. A., Jackson, S. D., and Lok, C. M. (2005). The hydrogenation of
+nitrobenzene to aniline: a new mechanism. Chem. Commun. (4), 522–524. Kantam, M. L., Reddy, R. S., Srinivas, K., Chakravarti, R., Sreedhar, B., Figueras, F., et al.
+doi:10.1039/b411603h (2012). Platinum nanoparticles supported on zirconia mediated synthesis of N-acyl and
+N-(tert-butoxycarbonyl) amines from nitroarenes and azides. J. Mol. Catal. A Chem.
+Genc, H. (2015). Efficient reductions of various nitroarenes with scrap automobile
+355, 96–101. doi:10.1016/j.molcata.2011.12.002
+catalyst and NaBH4. Catal. Commun. 67, 64–67. doi:10.1016/j.catcom.2015.04.008
+Khaleghi, N., Forouzandeh-Malati, M., Ganjali, F., Rashvandi, Z., Zarei-Shokat, S.,
+Gogoi, M., Gogoi, P., Borah, P., Sarma, D., and Deori, K. (2024). Catalytic versatility of
+Taheri-Ledari, R., et al. (2023). Silver-assisted reduction of nitroarenes by an Ag-
+lead-free Cu2+-doped Cs2AgBiCl6 double perovskite in sustainable photocatalysis and
+embedded curcumin/melamine-functionalized magnetic nanocatalyst. Sci. Rep. 13 (1),
+quinazoline synthesis. ACS Appl. Opt. Mater. 2 (11), 2359–2370. doi:10.1021/acsaom.
+5225. doi:10.1038/s41598-023-32560-1
+4c00377
+Khanra, M., Mhate, M., and Swain, S. P. (2025). Potassium tert-butoxide mediated
+Guan, X., Zhu, H., and Driver, T. G. (2021). Cu-catalyzed cross-coupling of nitroarenes
+benzyl radical generation from halo compounds and multi-component reactions with
+with aryl boronic acids to construct diarylamines. ACS Catalysis 11 (20), 12417–12422.
+selenourea and carboxylic acids for the synthesis of selenoesters. ChemCatChem 17,
+doi:10.1021/acscatal.1c03113
+e202500123. doi:10.1002/cctc.202500123
+Guha, N. R., Bhattacherjee, D., and Das, P. (2014). Solid supported rhodium (0)
+Kimi, M., Jaidie, M. M. H., and Pang, S. C. (2018). Bimetallic Cu-Ni nanoparticles
+nanoparticles: an efficient catalyst for chemo-and regio-selective transfer
+supported on activated carbon for catalytic oxidation of benzyl alcohol. J. Physics
+hydrogenation of nitroarenes to anilines under microwave irradiation. Tetrahedron
+Chemistry Solids 112, 50–53. doi:10.1016/j.jpcs.2017.09.008
+Lett. 55 (18), 2912–2916. doi:10.1016/j.tetlet.2014.03.047
+Klausfelder, B., and Kempe, R. (2023). A highly active nickel catalyst for the selective
+Guo, J., Liu, H., Li, Y., Li, D., and He, D. (2023). Recent advances on catalysts for
+hydrogenation of functionalized nitroarenes. Z. für Anorg. Allg. Chem. 649 (14),
+photocatalytic selective hydrogenation of nitrobenzene to aniline. Front. Chem. 11,
+e202300071. doi:10.1002/zaac.202300071
+1162183. doi:10.3389/fchem.2023.1162183
+Koga, H., and Kitaoka, T. (2011). One-step synthesis of gold nanocatalysts on a
+Gutiérrez-Tarriño, S., Rojas-Buzo, S., Lopes, C. W., Agostini, G., Calvino, J. J., Corma,
+microstructured paper matrix for the reduction of 4-nitrophenol. Chem. Eng. J. 168
+A., et al. (2021). Cobalt nanoclusters coated with N-doped carbon for chemoselective
+(1), 420–425. doi:10.1016/j.cej.2010.08.073
+nitroarene hydrogenation and tandem reactions in water. Green Chem. 23 (12),
+4490–4501. doi:10.1039/d1gc00706h Kominami, H., Tanimoto, K., and Tanaka, A. (2025). Continuous production of
+Hajdu, V., Muránszky, G., Nagy, M., Kopcsik, E., Kristály, F., Fiser, B., et al. (2022).
+aminobenzenes by hydrogenation of nitrobenzenes over a TiO2 photocatalyst in a
+spiral flow reactor. Appl. Catal. A General 701, 120325. doi:10.1016/j.apcata.2025.
+Development of high-efficiency, magnetically separable palladium-decorated
+120325
+manganese-ferrite catalyst for nitrobenzene hydrogenation. Int. J. Mol. Sci. 23 (12),
+6535. doi:10.3390/ijms23126535 Kondeboina, M., Enumula, S. S., Gurram, V. R. B., Yadagiri, J., Burri, D. R., and
+Kamaraju, S. R. R. (2018). Mesoporous silica supported cobalt catalysts for gas phase
+Hajdu, V., Prekob, Á., Muránszky, G., Kristály, F., Daróczi, L., Harasztosi, L., et al.
+hydrogenation of nitrobenzene: role of pore structure on stable catalytic performance.
+(2023). Amine functionalization leads to enhanced performance for nickel-and cobalt-
+New J. Chem. 42 (19), 15714–15725. doi:10.1039/c8nj03211d
+ferrite-supported palladium catalysts in nitrobenzene hydrogenation. Int. J. Mol. Sci. 24
+(17), 13347. doi:10.3390/ijms241713347 Kumar, S., Dholakiya, B. Z., and Jangir, R. (2023). Covalent organic framework
+impregnated with silver and copper nanoparticles: an advanced approach for
+Han, J., Li, L., and Guo, R. (2010). Novel approach to controllable synthesis of gold
+catalytic degradation of organic pollutants in wastewater. ACS Appl. Mater.
+nanoparticles supported on polyaniline nanofibers. Macromolecules 43 (24),
+Interfaces 16 (1), 1553–1563. doi:10.1021/acsami.3c15766
+10636–10644. doi:10.1021/ma102251e
+Kumar, A., Savanur, M. R. S., Singh, S. K., Singh, J., Bhattacharya, S., Asnani, K., et al.
+Hasan, K., Shehadi, I. A., Joseph, R. G., Patole, S. P., and Elgamouz, A. (2023). β-
+(2025). Recent advances in silver nanoparticles-catalyzed reactions. ChemistrySelect 10
+Cyclodextrin-functionalized Fe3O4-supported Pd-nanocatalyst for the reduction of
+(5), e202403655. doi:10.1002/slct.202403655
+nitroarenes in water at mild conditions. ACS Omega 8 (26), 23901–23912. doi:10.
+1021/acsomega.3c02332 Kumari, S., Roy, S., Ranjan Saha, K., and Kundu, S. (2024). (NHC) Mn (I) complex
+catalyzed selective transfer hydrogenation of epoxides, azoarenes and nitroarenes utilizing
+Hasan, I. M. u., Xu, N., Liu, Y., Nawaz, M. Z., Feng, H., and Qiao, J. (2024). Noble and
+Ammonia borane. ChemCatChem 16 (21), e202400901. doi:10.1002/cctc.202400901
+non-noble metal based catalysts for electrochemical nitrate reduction to ammonia:
+activity, selectivity and stability. Electrochem. Energy Rev. 7 (1), 36. doi:10.1007/s41918- Lara, P., and Philippot, K. (2014). The hydrogenation of nitroarenes mediated by
+024-00236-7 platinum nanoparticles: an overview. Catal. Sci. Technol. 4 (8), 2445–2465. doi:10.1039/
+c4cy00111g
+He, T., Zhang, C., Zhang, L., and Du, A. (2019). Single Pt atom decorated graphitic
+carbon nitride as an efficient photocatalyst for the hydrogenation of nitrobenzene into Lara, P., Suárez, A., Collière, V., Philippot, K., and Chaudret, B. (2014). Platinum n-
+aniline. Nano Res. 12 (8), 1817–1823. doi:10.1007/s12274-019-2439-z heterocyclic carbene nanoparticles as new and effective catalysts for the selective
+hydrogenation of nitroaromatics. ChemCatChem 6 (1), 87–90. doi:10.1002/cctc.
+Herrera, J., Gamallo, P., Campos, C. H., and Alonso, G. (2025). The importance of
+201300821
+solvent adsorption in liquid-phase reaction kinetics: nitrobenzene hydrogenation in Pd
+(111) as a case Study. ChemPhysChem 26, 2500110. doi:10.1002/cphc.202500110 Larsen, J. W., Freund, M., Kim, K. Y., Sidovar, M., and Stuart, J. L. (2000). Mechanism of
+the carbon catalyzed reduction of nitrobenzene by hydrazine. Carbon 38 (5), 655–661.
+Hoseini Chopani, S. M., Asadi, S., and Heravi, M. M. (2020). Application of
+doi:10.1016/s0008-6223(99)00155-4
+bimetallic and trimetallic nanoparticles supported on graphene as novel
+heterogeneous catalysts in the reduction of nitroarenes, homo-coupling, Suzuki- Leng, F., Gerber, I. C., Lecante, P., Moldovan, S., Girleanu, M., Axet, M. R., et al. (2016).
+Miyaura and Sonogashira reactions. Curr. Org. Chem. 24 (19), 2216–2234. doi:10. Controlled and chemoselective hydrogenation of nitrobenzene over ru@ C60 catalysts.
+2174/1385272824999200914111559 ACS Catal. 6 (9), 6018–6024. doi:10.1021/acscatal.6b01429
+Huang, Y., Lin, H., and Zhang, Y. (2020). Synthesis of MIL-101 (Fe)/SiO2 composites Li, J., Shi, X. Y., Bi, Y. Y., Wei, J. F., and Chen, Z. G. (2011). Pd nanoparticles in ionic
+with improved catalytic activity for reduction of nitroaromatic compounds. J. Solid State liquid brush: a highly active and reusable heterogeneous catalytic assembly for solvent-
+Chem. 283, 121150. doi:10.1016/j.jssc.2019.121150 free or on-water hydrogenation of nitroarene under mild conditions. ACS Catal. 1 (6),
+Hung, T.-Y., Peng, W.-S., Tang, J.-W., and Tsai, F.-Y. (2022). A reusable FeCl3 • 6H2O/ 657–664. doi:10.1021/cs200105u
+Cationic 2, 2′-Bipyridyl catalytic system for reduction of nitroarenes in water. Catalysts Li, F., Frett, B., and Li, H.-y. (2014). Selective reduction of halogenated nitroarenes with
+12 (8), 924. doi:10.3390/catal12080924 hydrazine hydrate in the presence of Pd/C. Synlett 25 (10), 1403–1408. doi:10.1055/s-
+0033-1339025
+Islam, I. U., Zhang, Y., Dong, B., Iqbal, A., Abbas, S., Zai, J., et al. (2024). Highly selective
+electroreduction of nitrobenzene to aniline by co-doped 1T-MoS2. ACS Appl. Mater. Li, H., Sun, Z., Fan, Y., Zhang, G., Ni, S. Q., Gawande, M. B., et al. (2025a). Enhancing
+Interfaces 16 (19), 25090–25100. doi:10.1021/acsami.4c01425 hydride formation and transfer for catalytic hydrogenation via electron-deficient single-
+atom silver. J. Colloid Interface Sci. 682, 751–759. doi:10.1016/j.jcis.2024.11.223
+Ji, Y., Pan, J., Dauenhauer, P., and Gorte, R. J. (2019). Probing direct carbon-carbon
+acylation of furans and long-chain acids over H-ZSM-5. Appl. Catal. A General 577, Li, S., Millan, M., Gao, F., Long, X., Yuan, G., and Cui, Z. (2025b). Synergistic effect of
+107–112. doi:10.1016/j.apcata.2019.03.012 Ru-Ni nanoparticles supported on mesoporous carbon black for highly selective
+hydrogenation of nitrobenzene to aniline in aqueous phase. Fuel 402, 136060.
+Jiang, Y., Li, Q., Li, X., Wang, X., Dong, S., Li, J., et al. (2021). Three-dimensional
+doi:10.1016/j.fuel.2025.136060
+network Pd-Ni/γ-Al2O3 catalysts for highly active catalytic hydrogenation of
+nitrobenzene to aniline under mild conditions. ACS Omega 6 (14), 9780–9790. Liao, H., Weng, P., Huang, H., Tan, R., Zhu, R., Liu, Y., et al. (2023). Ultrafine Ru
+doi:10.1021/acsomega.1c00441 nanoparticles integrated on ordered mesoporous carbon for solvent-free hydrogenation
+of nitroarenes. RSC Adv. 13 (30), 20876–20888. doi:10.1039/d3ra03643j
+Jiang, H., Yuan, G., Cui, Z., Zhao, Z., Dong, Z., Zhang, J., et al. (2023). Effects of support
+types and their porosity characteristics on the catalytic performance of Ni-based Liu, Y., Miao, W., Tang, W., Xue, D., Xiao, J., Wang, C., et al. (2021a). Rhodium-
+catalysts in nitrobenzene hydrogenation to aniline. Industrial Eng. Chem. Res. 62 terpyridine catalyzed transfer hydrogenation of aromatic nitro compounds in water.
+(34), 13355–13367. doi:10.1021/acs.iecr.3c01327 Chemistry–An Asian J. 16 (13), 1725–1729. doi:10.1002/asia.202100321
+Frontiers in Chemistry 17 frontiersin.org
+
+Manzoor et al. 10.3389/fchem.2026.1827073
+Liu, Y., Zhang, W., Zheng, Y., Wu, K., Dong, P., He, R., et al. (2021b). Single-atom Fe–N Mirhosseyni, M. S., Nemati, F., and Nahzomi, H. T. (2021). Incorporation of copper
+4 site for the hydrogenation of nitrobenzene: theoretical and experimental studies. nanoparticles into the nitrogen-doped carbon derived from nitrile functionalized ionic
+Dalton Trans. 50 (23), 7995–8001. doi:10.1039/d1dt01227d liquid as the non-precious heterogeneous catalytic system toward nitro compounds
+reduction reaction, a first principle calculation. J. Chem. Technol. Biotechnol. 96 (10),
+Liu, S., Amaro-Estrada, J. I., Baltrun, M., Douair, I., Schoch, R., Maron, L., et al. (2021c).
+2802–2812. doi:10.1002/jctb.6827
+Catalytic deoxygenation of nitroarenes mediated by high-valent molybdenum (VI)–
+NHC complexes. Organometallics 40 (2), 107–118. doi:10.1021/acs.organomet.0c00352 Mitsudome, T., and Kaneda, K. (2013). Gold nanoparticle catalysts for selective
+hydrogenations. Green Chem. 15 (10), 2636–2654. doi:10.1039/c3gc41360h
+Liu, Z., Wang, W., Zhao, Y., Jing, Z., Wan, R., Li, H., et al. (2022a). Synthesis, structure,
+and catalytic activities of two multi-rh-decorated polyoxometalates. Inorg. Chem. 61 Moran, M. J., Martina, K., Stefanidis, G. D., Jordens, J., Gerven, T. V., Goovaerts, V.,
+(39), 15310–15314. doi:10.1021/acs.inorgchem.2c02220 et al. (2020a). Glycerol: an optimal hydrogen source for microwave-promoted Cu-
+catalyzed transfer hydrogenation of nitrobenzene to aniline. Front. Chem. 8, 34. doi:10.
+Liu, W., Feng, H., Yang, Y., Niu, Y., Wang, L., Yin, P., et al. (2022b). Highly-efficient
+3389/fchem.2020.00034
+RuNi single-atom alloy catalysts toward chemoselective hydrogenation of nitroarenes.
+Nat. Commun. 13 (1), 3188. doi:10.1038/s41467-022-30536-9 Moran, M. J., Martina, K., Baricco, F., Tagliapietra, S., Manzoli, M., and Cravotto, G.
+(2020b). Tuneable copper catalysed transfer hydrogenation of nitrobenzenes to aniline
+Liu, X., Wang, C., Meng, J., Yue, X., Wang, Q., Lu, J., et al. (2023). Single-atom cobalt
+or azo derivatives. Adv. Synthesis Catal. 362 (13), 2689–2700. doi:10.1002/adsc.
+catalysts for chemoselective hydrogenation of nitroarenes to anilines. Chin. Chem. Lett.
+202000127
+34 (12), 108745. doi:10.1016/j.cclet.2023.108745
+Morisse, C. G., McCullagh, A. M., Campbell, J. W., How, C., MacLaren, D. A., Carr, R.
+Liu, M., Gong, X., Yang, Y., Yu, Y., Song, X., and Xie, K. (2025). Modulation of p–d
+H., et al. (2021). Toward high selectivity aniline synthesis catalysis at elevated
+orbital hybridization in Pt-M (p-block) dual-atom catalysts to promote the activity of
+temperatures. Industrial Eng. Chem. Res. 60 (49), 17917–17927. doi:10.1021/acs.iecr.
+electrocatalytic nitrobenzene reduction. Appl. Surf. Sci. 716, 164657. doi:10.1016/j.
+1c03695
+apsusc.2025.164657
+Nagy, C., Sikora, E., Prekob, Á., Gráczer, K., Muránszky, G., Vanyorek, L., et al. (2025).
+Loos, P., Alex, H., Hassfeld, J., Lovis, K., Platzek, J., Steinfeldt, N., et al. (2016). Selective
+Spherified Pd0. 33Ni0. 67/BCNT catalyst for nitrobenzene hydrogenation. Int. J. Mol.
+hydrogenation of halogenated nitroaromatics to haloanilines in batch and flow. Org.
+Sci. 26 (11), 5420. doi:10.3390/ijms26115420
+Process Res. Dev. 20 (2), 452–464. doi:10.1021/acs.oprd.5b00170
+Nandi, D., Siwal, S., and Mallick, K. (2017). A carbon nitride supported copper
+Lu, X., Qin, J., Xian, C., Nie, J., Li, X., He, J., et al. (2022). Cobalt nanoparticles supported
+nanoparticle composite: a heterogeneous catalyst for the N-arylation of hetero-
+on microporous nitrogen-doped carbon for an efficient catalytic transfer hydrogenation
+aromatic compounds. New J. Chem. 41 (8), 3082–3088. doi:10.1039/c6nj03584a
+reaction between nitroarenes and N-heterocycles. Catal. Sci. Technol. 12 (18),
+5549–5558. doi:10.1039/d2cy00914e Nie, R., Wang, J., Wang, L., Qin, Y., Chen, P., and Hou, Z. (2012). Platinum supported
+on reduced graphene oxide as a catalyst for hydrogenation of nitroarenes. Carbon 50 (2),
+Lu, A., Xiang, X., Lei, M., Huang, S., Liang, B., Zhao, S., et al. (2025). Highly efficient
+586–596. doi:10.1016/j.carbon.2011.09.017
+catalytic transfer hydrogenation for the conversion of nitrobenzene to aniline over PdO/
+TiO2: the key role of in situ switching from PdO to Pd. J. Environ. Sci. 148, 515–528. Nie, S., Yang, S., and Zhang, P. (2020). Solvent-free synthesis of mesoporous platinum-
+doi:10.1016/j.jes.2023.10.010 aluminum oxide via mechanochemistry: toward selective hydrogenation of
+nitrobenzene to aniline. Chem. Eng. Sci. 220, 115619. doi:10.1016/j.ces.2020.115619
+Luo, P., Xu, K., Zhang, R., Huang, L., Wang, J., Xing, W., et al. (2012). Highly efficient
+and selective reduction of nitroarenes with hydrazine over supported rhodium Nieto-Márquez, A., Gil, S., Romero, A., Valverde, J. L., Gómez-Quero, S., and Keane, M.
+nanoparticles. Catal. Sci. Technol. 2 (2), 301–304. doi:10.1039/c1cy00358e A. (2009). Gas phase hydrogenation of nitrobenzene over acid treated structured and
+amorphous carbon supported Ni catalysts. Appl. Catal. A General 363 (1-2), 188–198.
+Luo, S., Long, Y., Liang, K., Qin, J., Qiao, Y., Li, J., et al. (2021). Unsaturated Mo in
+doi:10.1016/j.apcata.2009.05.016
+Mo4O4N3 for efficient catalytic transfer hydrogenation of nitrobenzene using
+stoichiometric hydrazine hydrate. Green Chem. 23 (21), 8545–8553. doi:10.1039/ Nuzhdin, A. L., Bukhtiyarova, M. V., and Bukhtiyarova, G. A. (2024). Organic synthesis
+d1gc02647j in flow mode by selective liquid-phase hydrogenation over heterogeneous non-noble
+metal catalysts. Org. Biomol. Chem. 22, 7936–7950. doi:10.1039/D4OB00873A
+Luo, X., Fu, C., Shen, S., Luo, L., and Zhang, J. (2023). Free–templated synthesis of
+N–doped PtCu porous hollow nanospheres for efficient ethanol oxidation and oxygen Pal, D., and Pal, A. (2025). Ammonium phosphomolybdate–titanium dioxide composite
+reduction reactions. Appl. Catal. B Environ. 330, 122602. doi:10.1016/j.apcatb.2023. material as a catalyst for antibiotic degradation under ambient conditions. Catal. Sci.
+122602 Technol. 15, 4945–4963. doi:10.1039/D5CY00234F
+Ma, L., Chen, P., Zhang, G., Wang, L., Tang, F., Zhao, X., et al. (2021). Promoting Park, J., Joo, J., Kwon, S. G., Jang, Y., and Hyeon, T. (2007). Synthesis of monodisperse
+H2 activation over Molybdenum Carbide by modulation of metal-support interaction spherical nanocrystals. Angew. Chem. Int. Ed. 46 (25), 4630–4660. doi:10.1002/anie.
+for efficient catalytic hydrogenation. ChemCatChem 13 (14), 3283–3289. doi:10.1002/ 200603148
+cctc.202100581
+Park, J., Evans, C., Maier, J., Hatzell, M., France, S., Sievers, C., et al. (2024). Renewables-
+Mahajan, A., and Gupta, M. (2021). Hybrid ceria and chitosan supported nickel Based routes to paracetamol: a green chemistry analysis. ACS Sustain. Chem. Eng. 12
+nanoparticles: a recyclable nanocatalytic system in the reduction of nitroarenes and (44), 16271–16282. doi:10.1021/acssuschemeng.4c05353
+the synthesis of benzopyran derivatives in green solvent. Appl. Organomet. Chem. 35 (5),
+Paterson, R., Alharbi, H., Wills, C., Chamberlain, T., Bourne, R. A., Griffiths, A., et al.
+e6161. doi:10.1002/aoc.6161
+(2022). Highly efficient and selective reduction of nitroarenes to N-Arylhydroxylamines
+Mahata, N., Cunha, A., Orfao, J., and Figueiredo, J. (2008). Hydrogenation of catalysed by Phosphine oxide-decorated polymer immobilized ionic liquid stabilized
+nitrobenzene over nickel nanoparticles stabilized by filamentous carbon. Appl. ruthenium nanoparticles.
+Catalysis A General 351 (2), 204–209. doi:10.1016/j.apcata.2008.09.015
+Paterson, R., Alharbi, H. Y., Wills, C., Chamberlain, T. W., Bourne, R. A., Griffiths, A.,
+Manikandan, R., Shanmugam, R., and Pratheepkumar, A. (2025). Engaging hydrazine et al. (2023). Highly efficient and selective partial reduction of nitroarenes to
+hydrate as a hydrogen source for cobalt (ii)-catalysed transfer hydrogenation of N-arylhydroxylamines catalysed by phosphine oxide-decorated polymer immobilized
+nitroaromatics. Chem. Commun. 61, 9043–9046. doi:10.1039/D5CC01160D ionic liquid stabilized ruthenium nanoparticles. J. Catal. 417, 74–88. doi:10.1016/j.jcat.
+2022.11.023
+Mao, Q., Mu, X., Wang, W., Deng, K., Yu, H., Wang, Z., et al. (2023). Atomically
+dispersed Cu coordinated Rh metallene arrays for simultaneously electrochemical Patil, U. D., Vinchurkar, A. N., Narkhede, J. S., Bari, M. L., and Deshpande, T. D. (2025).
+aniline synthesis and biomass upgrading. Nat. Commun. 14 (1), 5679. doi:10.1038/ Navigating heterogeneous hydrogenation hazards: a systematic approach from primary
+s41467-023-41423-2 screening to catalyst loading and optimization parameters. Chem. Pap. 79 (3),
+1637–1647. doi:10.1007/s11696-024-03879-4
+Martina, K., Moran, M. J., Manzoli, M., Trukhan, M. V., Kuhn, S., Van Gerven, T., et al.
+(2023). Copper-Catalyzed continuous-flow transfer hydrogenation of nitroarenes to Patzsch, J., Berg, B., and Bloh, J. Z. (2019). Kinetics and optimization of the
+anilines: a scalable and reliable protocol. Org. Process Res. Dev. 28 (5), 1515–1528. doi:10. photocatalytic reduction of nitrobenzene. Front. Chem. 7, 289. doi:10.3389/fchem.
+1021/acs.oprd.3c00144 2019.00289
+Maurya, A., Patel, U. K., Kumar, S., and Agarwal, A. (2024). Molybdenum trioxide as a Paul, R., Ahamed, S. S., and Ghosh, T. (2025). Nickel-Catalyzed hydrogenation and
+newer diversified economic catalyst for the transformation of nitroarenes to arylamine dehydrogenation processes: a useful tool in organic synthesis. Asian J. Org. Chem. 14 (9),
+and 5-substituted-1 H-tetrazole. RSC Adv. 14 (40), 29505–29517. doi:10.1039/d4ra05443a e00069. doi:10.1002/ajoc.202500069
+McCullagh, A., Davidson, A., Ballas, C., How, C., MacLaren, D., Boulho, C., et al. (2024). Pedrajas, E., Sorribes, I., Junge, K., Beller, M., and Llusar, R. (2017). Selective reductive
+The application of an alumina-supported Ni catalyst for the hydrogenation of amination of aldehydes from nitro compounds catalyzed by molybdenum sulfide
+nitrobenzene to aniline. Catal. Today 442, 114933. doi:10.1016/j.cattod.2024.114933 clusters. Green Chem. 19 (16), 3764–3768. doi:10.1039/c7gc01603d
+McManus, I. J., Daly, H., Manyar, H. G., Taylor, S. F. R., Thompson, J. M., and Hardacre, Petrelli, V., Romanazzi, G., Mortalò, C., Leonelli, C., Zapparoli, M., De Giglio, E., et al.
+C. (2016). Selective hydrogenation of halogenated arenes using porous manganese oxide (2023). N-doped resin supported cobalt nanoparticles for the catalytic reduction of
+(OMS-2) and platinum supported OMS-2 catalysts. Faraday Discuss. 188, 451–466. nitroarenes to corresponding anilines in aqueous medium. Mol. Catal. 544, 113050.
+doi:10.1039/c5fd00227c doi:10.1016/j.mcat.2023.113050
+Meng, X., Cheng, H., Fujita, S. i., Yu, Y., Zhao, F., and Arai, M. (2011). An effective Petrov, L., Kirkov, N., and Shopov, D. (1986). Kinetics of hydrogenation of nitrobenzene
+medium of H2O and low-pressure CO2 for the selective hydrogenation of aromatic nitro to aniline on a copper catalyst. Kinet. Catal. (Engl. Transl.) 26 (4). Available online at:
+compounds to anilines. Green Chem. 13 (3), 570–572. doi:10.1039/c0gc00246a https://www.osti.gov/biblio/7005047.
+Frontiers in Chemistry 18 frontiersin.org
+
+Manzoor et al. 10.3389/fchem.2026.1827073
+Petrov, L., Kumbilieva, K., and Kirkov, N. (1990). Kinetic model of nitrobenzene Singha Hazari, A., Frisch, M. L., Wen, Y., Stankovic, M. D., and Berlinguette, C. P.
+hydrogenation to aniline over industrial copper catalyst considering the effects of mass (2024). Electrolytic conversion of nitro compounds into amines in a membrane reactor.
+transfer and deactivation. Appl. Catalysis 59 (1), 31–43. doi:10.1016/s0166-9834(00) J. Am. Chem. Soc. 146 (41), 28153–28160. doi:10.1021/jacs.4c07847
+82185-5
+Sokolova, D., Lurshay, T. C., Rowbotham, J. S., Stonadge, G., Reeve, H. A., Cleary, S. E.,
+Phasayavan, W., Inceesungvorn, B., Chansai, S., and Hardacre, C. (2024). et al. (2024). Selective hydrogenation of nitro compounds to amines by coupled redox
+MOO3 catalysed hydrogenation of nitrobenzene to aniline at near room reactions over a heterogeneous biocatalyst. Nat. Commun. 15 (1), 7297. doi:10.1038/
+temperature. Inorg. Chem. Commun. 164, 112416. doi:10.1016/j.inoche.2024.112416 s41467-024-51531-2
+Qi, H., Wang, X., Lei, M., Fan, W., Huang, S., Zhu, L., et al. (2024). Highly efficient Soni, Y., Philip, M. C., and Vinod, C. P. (2025). Ultra-Small Pd nanoparticles on SBA-15:
+catalytic hydrogenation of nitrobenzene on cobalt-immobilized nitrogen-doped carbon: an efficient catalyst for one-pot reductive alkylation of nitrobenzene with size-dependent
+a dual-sites synergistic effect between cobalt single atoms and cobalt nanoparticles. activity. Top. Catal. 68 (3), 414–429. doi:10.1007/s11244-024-02042-3
+Chem. Eng. J. 500, 157057. doi:10.1016/j.cej.2024.157057
+Southouse, J. P., Lazzarini, L., Ibhadon, A. O., and Francesconi, M. G. (2021). Ultra-
+Qu, Y., Yang, H., Wang, S., Chen, T., and Wang, G. (2017). Hydrogenation of small FeS 2 nanoparticles for highly efficient chemoselective transfer hydrogenation of
+nitrobenzene to aniline catalyzed by C60-stabilized Ni. Catal. Commun. 97, 83–87. nitroarenes. New J. Chem. 45 (38), 17808–17815. doi:10.1039/d1nj03297f
+doi:10.1016/j.catcom.2017.04.029
+Sreedhar, B., Devi, D. K., and Yada, D. (2011). Selective hydrogenation of nitroarenes
+Qusti, A., Mohamed, R., and Salam, M. A. (2014). Photocatalytic synthesis of aniline using gum acacia supported Pt colloid an effective reusable catalyst in aqueous medium.
+from nitrobenzene using Ag-reduced graphene oxide nanocomposite. Ceram. Int. 40 Catal. Commun. 12 (11), 1009–1014. doi:10.1016/j.catcom.2011.02.027
+(4), 5539–5546. doi:10.1016/j.ceramint.2013.10.144
+Stergiou, A. D., Broadhurst, D. H., and Symes, M. D. (2022). Highly selective
+Rai, R. K., Mahata, A., Mukhopadhyay, S., Gupta, S., Li, P. Z., Nguyen, K. T., et al. (2014). electrocatalytic reduction of substituted nitrobenzenes to their aniline derivatives
+Room-temperature chemoselective reduction of nitro groups using non-noble metal using a polyoxometalate redox mediator. ACS Org. Inorg. Au 3 (1), 51–58. doi:10.
+nanocatalysts in water. Inorg. Chem. 53 (6), 2904–2909. doi:10.1021/ic402674z 1021/acsorginorgau.2c00047
+Raimundo, B., Kino, D., Kitgawa, N., Tokudome, Y., and Nunes, C. D. (2023). Co-oxide Stiles, A. B. (1987). Catalyst supports and supported catalysts.
+nanostructured catalysts tailored from layered double hydroxides for highly efficient
+Su, X., and Kanjanawarut, R. (2009). Control of metal nanoparticles aggregation and
+hydrogenation of nitroarenes. Appl. Clay Sci. 239, 106948. doi:10.1016/j.clay.2023.
+dispersion by PNA and PNA− DNA complexes, and its application for colorimetric
+106948
+DNA detection. Acs Nano 3 (9), 2751–2759. doi:10.1021/nn9005768
+Raj, K. J. A., Prakash, M., Mahalakshmy, R., Elangovan, T., and Viswanathan, B. (2012).
+Sun, Z., Zhao, Y., Xie, Y., Tao, R., Zhang, H., Huang, C., et al. (2010). The solvent-free
+Liquid phase hydrogenation of nitrobenzene over nickel supported on titania. Chin.
+selective hydrogenation of nitrobenzene to aniline: an unexpected catalytic activity of
+J. Catal. 33 (7-8), 1299–1305. doi:10.1016/s1872-2067(11)60398-7
+ultrafine Pt nanoparticles deposited on carbon nanotubes. Green Chem. 12 (6),
+Rana, S., Varadwaj, G. B. B., and Jonnalagadda, S. B. (2021). Manganese oxide supported 1007–1011. doi:10.1039/c002391d
+partially reduced graphene oxide as a highly active and durable catalyst for the amination
+Taheri-Ledari, R., Mirmohammadi, S. S., Valadi, K., Maleki, A., and Shalan, A. E. (2020).
+of benzene. Catal. Commun. 157, 106329. doi:10.1016/j.catcom.2021.106329
+Convenient conversion of hazardous nitrobenzene derivatives to aniline analogues by
+Rana, A., Yadav, M., Kumar, R., Singh, B., Meena, Y. S., and Naik, G. (2025). Ag nanoparticles, stabilized on a naturally magnetic pumice/chitosan substrate. RSC
+Chemoselective hydrogenation of nitroarenes to arylamines using manganese Adv. 10 (71), 43670–43681. doi:10.1039/d0ra08376c
+nanocatalyst and molecular hydrogen. ACS Appl. Nano Mater. 8 (49), 23357–23369.
+Tan, E., Montesinos-Magraner, M., García-Morales, C., Mayans, J. G., and Echavarren,
+doi:10.1021/acsanm.5c03553
+A. M. (2021). Rhodium-catalysed ortho-alkynylation of nitroarenes. Chem. Sci. 12 (44),
+Rohmah, A. i.N., Palupi, A. R., Manullang, A. N. H. M., and Erawati, H. D. B. (2025). 14731–14739. doi:10.1039/d1sc04527j
+Aniline process creation for conversion improvement using hydrogenation process.
+Tang, J., Zhang, S., Chen, X., Zhang, L., Du, L., and Zhao, Q. (2023). Highly efficient
+J. Chem. Eng. Res. Prog. 2 (1), 132–141. doi:10.9767/jcerp.20292
+catalytic reduction of nitrobenzene using Cu@ C based on a novel Cu–MOF precursor.
+Rostami, S., Yahyazadeh, A., and Adibi, H. (2024). Designing a new magnetic g-C3N4 Catalysts 13 (6), 956. doi:10.3390/catal13060956
+nanocatalyst based on Ag nanoparticles supported by β-cyclodextrin for effective
+Tang, W., Liu, Y., Jin, Y., Wang, Y., Shi, W., Ma, P., et al. (2024). Photocatalytic reduction
+reduction of nitroaromatic compounds. Sci. Rep. 14 (1), 31586. doi:10.1038/s41598-
+of nitrobenzene to aniline by an intriguing {Ru (C6H6)}-based heteropolytungstate. Inorg.
+024-76786-z
+Chem. 63 (14), 6260–6267. doi:10.1021/acs.inorgchem.3c04450
+Ruan, L., Han, X., Zhu, L., Shang, C., Kroner, A., Liu, K., et al. (2025). Rhodium
+Tavakolian, M., Saki, S., and Hosseini-Sarvari, M. (2025). Selective photocatalytic
+nanoparticles in ZrO2 on N-doped carbon leads to ultra-high catalytic selectivity and
+reduction of nitrobenzene to anilines, azoxybenzene, and azobenzene: a solvent-
+activity in nitroarene hydrogenation. Appl. Catal. B Environ. Energy 379, 125686. doi:10.
+dependent and light-induced process mediated by a CdS/NH 2-MIL-
+1016/j.apcatb.2025.125686
+125 nanocomposite. Org. Biomol. Chem. 23 (27), 6625–6636. doi:10.1039/d5ob00705d
+Rubab, A., Sharif, M., Razzaq, R., Jackstell, R., Nafady, A., Weiß, J., et al. (2024). Highly
+Tian, S., Hu, M., Xu, Q., Gong, W., Chen, W., Yang, J., et al. (2021). Single-atom Fe with
+active iron oxide@ N catalyst derived from the iron acetate/polyacrylonitrile threads:
+Fe1N3 structure showing superior performances for both hydrogenation and transfer
+driving nitroarene conversion to value-added amines. J. Appl. Polym. Sci. 141 (41),
+hydrogenation of nitrobenzene. Sci. China Mater. 64 (3), 642–650. doi:10.1007/s40843-
+e56062. doi:10.1002/app.56062
+020-1443-8
+Rubio-Marqués, P., Leyva-Pérez, A., and Corma, A. (2013). A bifunctional palladium/
+Timelthaler, D., Schöfberger, W., and Topf, C. (2021). Selective and additive-free
+acid solid catalyst performs the direct synthesis of cyclohexylanilines and
+hydrogenation of nitroarenes mediated by a DMSO-tagged molecular cobalt corrole
+dicyclohexylamines from nitrobenzenes. Chem. Commun. 49 (74), 8160–8162.
+catalyst. Eur. J. Org. Chem. 2021 (14), 2114–2120. doi:10.1002/ejoc.202100073
+doi:10.1039/c3cc44064h
+Torabi, S., Nasiriani, T., Javanbakht, S., and Shaabani, A. (2025). Anchoring silver
+Rueping, M., Dufour, J., and Schoepke, F. R. (2011). Advances in catalytic metal-free
+nanoparticles on graphene quantum dots: a highly efficient, green, and rapid nano-
+reductions: from bio-inspired concepts to applications in the organocatalytic synthesis
+catalyst for the reduction of nitro compounds and tandem reductive Ugi reactions.
+of pharmaceuticals and natural products. Green Chem. 13 (5), 1084–1105. doi:10.1039/
+J. Phys. Chem. Solids 201, 112633. doi:10.1016/j.jpcs.2025.112633
+c1gc15027h
+Toshima, N., and Wang, Y. (1994). Preparation and catalysis of novel colloidal
+Saha, S., Pal, A., Kundu, S., Basu, S., and Pal, T. (2010). Photochemical green synthesis of
+dispersions of copper/noble metal bimetallic clusters. Langmuir 10 (12), 4574–4580.
+calcium-alginate-stabilized Ag and Au nanoparticles and their catalytic application to 4-
+doi:10.1021/la00024a031
+nitrophenol reduction. Langmuir 26 (4), 2885–2893. doi:10.1021/la902950x
+Trasarti, A. F., Bertero, N. M., Apesteguia, C. R., and Marchi, A. J. (2014). Liquid-phase
+Shah, M., Guo, Q.-X., and Fu, Y. (2015). The colloidal synthesis of unsupported
+hydrogenation of acetophenone over silica-supported Ni, Co and Cu catalysts: influence
+nickel-tin bimetallic nanoparticles with tunable composition that have high activity
+of metal and solvent. Appl. Catal. A General 475, 282–291. doi:10.1016/j.apcata.2014.
+for the reduction of nitroarenes. Catal. Commun. 65, 85–90. doi:10.1016/j.catcom.
+01.038
+2015.02.026
+Turáková, M., Salmi, T., Eränen, K., Wärnå, J., Murzin, D. Y., and Králik, M. (2015).
+Shen, Y., Zhu, C., and Chen, B. (2020). Immobilizing 1–3 nm Ag nanoparticles in reduced
+Liquid phase hydrogenation of nitrobenzene. Appl. Catal. A General 499, 66–76. doi:10.
+graphene oxide aerogel as a high-effective catalyst for reduction of nitroaromatic
+1016/j.apcata.2015.04.002
+compounds. Environ. Pollut. 256, 113405. doi:10.1016/j.envpol.2019.113405
+Unglaube, F., Kreyenschulte, C. R., and Mejía, E. (2021). Development and application
+Sheng, Y., Liu, Y., Yin, Y., Zou, X., Ren, J., Wu, B., et al. (2023). Rh promotional effects
+of efficient ag-based hydrogenation catalysts prepared from Rice Husk waste.
+on Pt–Rh alloy catalysts for chemoselective hydrogenation of nitrobenzene to
+ChemCatChem 13 (11), 2583–2591. doi:10.1002/cctc.202100045
+p-aminophenol. Chem. Eng. J. 452, 139448. doi:10.1016/j.cej.2022.139448
+Unglaube, F., Schlapp, J., Quade, A., Schäfer, J., and Mejía, E. (2022). Highly active
+Shimizu, K.-i., Miyamoto, Y., and Satsuma, A. (2010). Size-and support-dependent
+heterogeneous hydrogenation catalysts prepared from cobalt complexes and rice husk
+silver cluster catalysis for chemoselective hydrogenation of nitroaromatics. J. Catal. 270
+waste. Catal. Sci. Technol. 12 (10), 3123–3136. doi:10.1039/d2cy00005a
+(1), 86–94. doi:10.1016/j.jcat.2009.12.009
+Vengatesh, G., and Nanjan, P. (2022). Reduction of electron-rich nitro heteroarenes; a
+Shokouhimehr, M. (2015). Magnetically separable and sustainable nanostructured
+comprehensive review. Curr. Org. Chem. 26 (17), 1626–1637. doi:10.2174/
+catalysts for heterogeneous reduction of nitroaromatics. Catalysts 5 (2), 534–560.
+1385272827666221128113437
+doi:10.3390/catal5020534
+Frontiers in Chemistry 19 frontiersin.org
+
+Manzoor et al. 10.3389/fchem.2026.1827073
+Wang, W., and Zhang, L. (2014). Hydrogen transfer hydrogenation of nitrobenzene to Zhang, Y., Liu, S., Lu, W., Wang, L., Tian, J., and Sun, X. (2011a). In situ green synthesis
+aniline with Ru (acac) 3 as the catalyst. Res. Chem. Intermed. 40 (8), 3109–3118. doi:10. of Au nanostructures on graphene oxide and their application for catalytic reduction of
+1007/s11164-013-1155-7 4-nitrophenol. Catal. Sci. Technol. 1 (7), 1142–1144. doi:10.1039/c1cy00205h
+Wang, A.-J., Cheng, H. Y., Liang, B., Ren, N. Q., Cui, D., Lin, N., et al. (2011). Efficient Zhang, F., Jin, J., Zhong, X., Li, S., Niu, J., Li, R., et al. (2011b). Pd immobilized on amine-
+reduction of nitrobenzene to aniline with a biocatalyzed cathode. Environ. Sci. Technol. functionalized magnetite nanoparticles: a novel and highly active catalyst for
+45 (23), 10186–10193. doi:10.1021/es202356w hydrogenation and Heck reactions. Green Chem. 13 (5), 1238–1243. doi:10.1039/
+c0gc00854k
+Wang, X., Yan, C., Sumboja, A., and Lee, P. S. (2014). Nickel cobalt oxide nanowire-
+reduced graphite oxide composite material and its application for high performance Zhang, L., Shao, Z.-J., Cao, X.-M., and Hu, P. (2018). Insights into different products of
+supercapacitor electrode material. J. Nanosci. Nanotechnol. 14 (9), 7104–7110. doi:10. nitrosobenzene and nitrobenzene hydrogenation on Pd (111) under realistic reaction
+1166/jnn.2014.8982 conditions. J. Phys. Chem. C 122 (35), 20337–20350. doi:10.1021/acs.jpcc.8b05364
+Wang, X., Perret, N., Delannoy, L., Louis, C., and Keane, M. A. (2016). Selective gas Zhang, L., Zhao, R., Li, H., Bao, J., and Wang, Q. (2023a). Promotional effects of
+phase hydrogenation of nitroarenes over Mo 2 C-supported Au–Pd. Catal. Sci. Technol. phosphotungstic acid on CePO4 catalyst for the selective catalytic reduction of NOx with
+6 (18), 6932–6941. doi:10.1039/c6cy00514d NH3. Mol. Catal. 551, 113666. doi:10.1016/j.mcat.2023.113666
+Wang, H., Zhang, W., Liu, Y., Pu, M., and Lei, M. (2021). First-principles study on the Zhang, Y., Li, Z., Zhang, J., Xu, L., Han, Z. K., Baiker, A., et al. (2023b). Nanostructured
+mechanism of nitrobenzene reduction to aniline catalyzed by a N-doped carbon- Ni-MoC x: an efficient non-noble metal catalyst for the chemoselective hydrogenation of
+supported cobalt single-atom catalyst. J. Phys. Chem. C 125 (35), 19171–19182. nitroaromatics. Nano Res. 16 (7), 8919–8928. doi:10.1007/s12274-023-5598-x
+doi:10.1021/acs.jpcc.1c01877
+Zhang, K., Yu, J., Ru, C., Mu, L., Li, J., Shi, W., et al. (2024). Photoelectrocatalytic
+Wang, H., Pu, M., and Lei, M. (2025). Theoretical study on nitrobenzene hydrogenation Reduction of Nitrobenzene to Azobenzene by Using Ag Nanoparticles-Decorated Si
+to aniline catalyzed by M 1/CeO 2− x (111) single-atom catalysts. Phys. Chem. Chem. Nanocone Arrays Photocathodes. ChemPhotoChem 8 (11), e202400099. doi:10.1002/
+Phys. 27 (9), 4829–4836. doi:10.1039/d4cp04459b cptc.202400099
+Wong, A.J.-W., Miller, J. L., and Janik, M. J. (2022). Elementary mechanism for the Zhang, S., Sun, Y., Chen, W., Li, H., Li, K., Ma, P., et al. (2025a). Facile synthesis of a Ru-
+electrocatalytic reduction of nitrobenzene on late-transition-metal surfaces from density based polyoxometalate for efficient reduction of nitrobenzene. Dalton Trans. 54 (23),
+functional theory. Chem. Catal. 2 (6), 1362–1379. doi:10.1016/j.checat.2022.03.009 9352–9358. doi:10.1039/D5DT00020C
+Wu, J., and Darcel, C. (2023). Recent developments in manganese, iron and cobalt Zhang, C., Chabu, J. M., Wang, L., and Liu, Y.-N. (2025b). Construction of Ni− Ov− Ti
+homogeneous catalyzed synthesis of primary amines via reduction of nitroarenes, sites through strong metal-support interactions for selective hydrogenation of
+nitriles and carboxamides. Adv. Synthesis Catal. 365 (7), 948–964. doi:10.1002/adsc. nitroarenes to anilines. Chem. Eng. J. 521, 166785. doi:10.1016/j.cej.2025.166785
+202201346
+Zhang, Y.-X., Ma, Y. J., Fei, H. M., Zhang, F., Lan, L. J., Yu, C. X., et al. (2026). Efficient
+Wu, S., Wen, G., Schlögl, R., and Su, D. S. (2015). Carbon nanotubes oxidized by a green and selective catalytic hydrogenation of nitroarenes catalyzed by two-dimensional ni@
+method as efficient metal-free catalysts for nitroarene reduction. Phys. Chem. Chem. cu-MOF bimetallic nanosheets. Sep. Purif. Technol. 388, 136830. doi:10.1016/j.seppur.
+Phys. 17 (3), 1567–1571. doi:10.1039/c4cp04658g 2026.136830
+Xie, Y., Shang, X., Liu, D., Zhao, H., Gu, Y., Zhang, Z., et al. (2019). Non-noble metal Zhao, Z., Yang, H., Li, Y., and Guo, X. (2014). Cobalt-modified molybdenum carbide as
+thickness-tunable Bi2MoO6 nanosheets for highly efficient visible-light-driven an efficient catalyst for chemoselective reduction of aromatic nitro compounds. Green
+nitrobenzene reduction into aniline. Appl. Catal. B Environ. 259, 118087. doi:10. Chemistry 16 (3), 1274–1281. doi:10.1039/c3gc42049c
+1016/j.apcatb.2019.118087
+Zhao, B., Dong, Z., Wang, Q., Xu, Y., Zhang, N., Liu, W., et al. (2020). Highly efficient
+Xu, L., Kuang, H., Xu, C., Ma, W., Wang, L., and Kotov, N. A. (2012). Regiospecific mesoporous core-shell structured ag@ SiO2 nanosphere as an environmentally friendly
+plasmonic assemblies for in situ Raman spectroscopy in live cells. J. Am. Chem. Soc. 134 catalyst for hydrogenation of nitrobenzene. Nanomaterials 10 (5), 883. doi:10.3390/
+(3), 1699–1709. doi:10.1021/ja2088713 nano10050883
+Xu, S.-S., Liang, J. Z., Yao, S. J., Li, N., Shi, J. W., Lan, Y. Q., et al. (2026). Zhao, C. C., Wang, S., Yan, L. K., and Su, Z. M. (2024). Insights into the mechanism
+Microenvironment regulation of active sites for efficient photocatalytic reduction of of nitrobenzene reduction to aniline by phosphomolybdic acid supported
+nitrobenzene. Chem. Commun. doi:10.1039/D5CC04423E TM1 single-atom catalysts. Inorg. Chem. 63 (4), 1784–1792. doi:10.1021/acs.
+inorgchem.3c03106
+Yadav, G. D., and Mewada, R. K. (2013). Novelties of azobenzene synthesis via selective
+hydrogenation of nitrobenzene over nano-fibrous Ag-OMS-2–Mechanism and kinetics. Zheng, C., and You, S.-L. (2012). Transfer hydrogenation with Hantzsch esters and
+Chem. Eng. J. 221, 500–511. doi:10.1016/j.cej.2013.01.074 related organic hydride donors. Chem. Soc. Rev. 41 (6), 2498–2518. doi:10.1039/
+c1cs15268h
+Yamaguchi, S., Sarmiento-Diaz, M., Kawakami, T., Tada, K., Mitsudome, T., and
+Mizugaki, T. (2025). Efficient hydrogenation of nitrobenzene to aniline over a Zhou, P., Jiang, L., Wang, F., Deng, K., Lv, K., and Zhang, Z. (2017). High performance
+palladium Carbide nanocube catalyst. ACS Appl. Nano Mater. 8 (27), 13886–13893. of a cobalt–nitrogen complex for the reduction and reductive coupling of nitro
+doi:10.1021/acsanm.5c02582 compounds into amines and their derivatives. Sci. Adv. 3 (2), e1601945. doi:10.1126/
+sciadv.1601945
+Yánez, J. E., Rivas, A. B., Alvarez, J., Ortega, M. C., Pardey, A. J., Longo, C., et al. (2006).
+Reduction of nitrobenzene catalyzed by immobilized copper catalyst under carbon Zhou, W., Xie, X., Yang, C., Zhang, T., Yan, X., Hu, X., et al. (2024). Adsorption-
+monoxide and water. J. Coord. Chem. 59 (15), 1719–1728. doi:10.1080/ Dependent H2O effect for nitrobenzene hydrogenation to aniline over Pt and Ni
+00958970600586347 catalysts. Industrial Eng. Chem. Res. 63 (31), 13536–13543. doi:10.1021/acs.iecr.
+4c01884
+Yang, Q., Chen, Y. Z., Wang, Z. U., Xu, Q., and Jiang, H. L. (2015a). One-pot tandem
+catalysis over Pd@ MIL-101: boosting the efficiency of nitro compound hydrogenation Zhou, T., Yang, Y., Du, T., Dong, W., and Wang, H. (2025). “Degradation kinetics of
+by coupling with ammonia borane dehydrogenation. Chem. Commun. 51 (52), Nitrobenzene and aniline by Fe-N/BC Redox System,” in Journal of physics: conference
+10419–10422. doi:10.1039/c5cc03102h series (New York, United States: IOP Publishing), 2941 (1), 012027.
+Yang, H., Cui, X., Dai, X., Deng, Y., and Shi, F. (2015b). Carbon-catalysed reductive Zirak, M., Jalalat, M., Vahdati-Khajeh, S., Gargari, M. S., Rad, S. L., and Eftekhari-Sis, B.
+hydrogen atom transfer reactions. Nat. Commun. 6 (1), 6478. doi:10.1038/ncomms7478 (2025). Biomass-derived N-doped ordered mesoporous carbon-supported gold
+nanoparticles: an efficient catalyst for the reduction of nitroaromatic pollutants.
+Yao, J., Wang, D., Kongr, D., Chu, M., Wang, J., Liu, L., et al. (2025). Aqueous-Phase
+J. Inorg. Organomet. Polym. Mater. 35 (1), 527–537. doi:10.1007/s10904-024-03307-w
+reduction of Nitrobenzene enabled by a symmetry-disrupted Fe single-atom catalyst
+featuring phosphorus coordination. ACS Appl. Mater. Interfaces. 17 (43), 59422–59433. Zou, K., Guan, Z., Deng, Y., and Chen, G. (2020). Nitrogen-rich porous carbon in ultra-
+doi:10.1021/acsami.5c15977 high yield derived from activation of biomass waste by a novel eutectic salt for high
+performance Li-ion capacitors. Carbon 161, 25–35. doi:10.1016/j.carbon.2020.01.045
+Zarei, H., Sobhani, S., and Sansano, J. M. (2024). An innovative water splitting process
+for a sustainable in situ hydrogen generation–reduction of nitrobenzenes catalyzed by a Zubar, V., Dewanji, A., and Rueping, M. (2021). Chemoselective hydrogenation of
+new Bimetallic nanocatalyst. Appl. Organomet. Chem. 38 (12), e7740. doi:10.1002/aoc. nitroarenes using an air-stable base-metal catalyst. Org. Lett. 23 (7), 2742–2747. doi:10.
+7740 1021/acs.orglett.1c00659
+Frontiers in Chemistry 20 frontiersin.org
+

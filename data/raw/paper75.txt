@@ -1,0 +1,412 @@
+ORIGINALRESEARCH
+published:23April2020
+doi:10.3389/fchem.2020.00281
+Effect of PEG on Performance of
+NiMnO Catalyst for Hydrogen
+Evolution Reaction
+JinfengZeng1,LuChen2,LinlinLi1,WeiYang1*,HanboZou1andShengzhouChen3*
+1SchoolofChemistryandChemicalEngineering,GuangzhouUniversity,Guangzhou,China,2SchoolofBiotechnologyand
+HealthScience,WuyiUniversity,Jiangmen,China,3GuangzhouKeyLaboratoryforNewEnergyandGreenCatalysis,
+GuangzhouUniversity,Guangzhou,China
+Solvothermalmethodisaverycommonsyntheticmethodinthepreparationofcatalysts
+for the hydrogen evolution reaction (HER) of H O decomposition. Since a certain
+2
+surfactantcanbeaddedtothesolvothermalsolvent,thecrystalparticlegrowthprocess
+canbechangedtoobtaincatalystswithdifferentmorphologies.Wesynthesizedaseries
+ofnickel-manganeseoxides(NiMnO)byaddingdifferentamountsofPolyethyleneglycol
+Editedby: (PEG) using the solvothermal method. Structure characterizations exhibit that NiMnO
+QuanbingLiu,
+catalystpreparedwithdifferentPEGadditionshavedifferentmorphologies.TheNiMnO
+GuangdongUniversityof
+Technology,China catalystpreparedbyadding3gofPEGpossessesabundantpetal-likescales,itbrings
+Reviewedby: a large specific surface area, high reaction efficiency, and has the best electrocatalytic
+ZhiweiLi,
+activityinalkalinemedia.
+UniversityofCalifornia,Riverside,
+UnitedStates
+Keywords: hydrogen evolution reaction, electrocatalysts, nickel-manganese oxides, surfactant, polyethylene
+JiFeng,
+glycol
+UniversityofCalifornia,Riverside,
+UnitedStates
+GengzhiSun,
+INTRODUCTION
+NanjingTechUniversity,China
+*Correspondence: The world’s energy consumption of fossil energy such as coal, oil, and natural gas brings many
+WeiYang
+questions, such as energy shortage and serious environmental pollution (Zou and Zhang, 2015;
+wyang@gzhu.edu.cn
+Ojha et al., 2018). H is a promising clean and renewable source of energy with extremely
+ShengzhouChen 2
+szchen@gzhu.edu.cn high calorific value (285.8 kJ mol−1). Electrocatalytic cracking water to H 2 becomes feasible for
+the impetus of electrochemical HER is derived from electricity from tidal energy, wind energy,
+Specialtysection: geothermalenergy,etc.Researchershavefoundthatplatinum-basedcatalystsarethemostefficient
+Thisarticlewassubmittedto catalysts for HER (Chen et al., 2013; Zhou W. et al., 2016; Wu et al., 2019; Eiler et al., 2020; Li
+CatalysisandPhotocatalysis, andBaek,2020).However,platinumisveryrareintheearth’scrust,makingitextremelyexpensive.
+asectionofthejournal Therefore,itisnecessarytodevelopametalcatalystwithabundantresourcesasanalternative.After
+FrontiersinChemistry
+theeffortsofscientists,theyfoundthattransitionmetaloxideisanefficientcatalystfortheHERof
+Received:15February2020 H Odecomposition(Wangetal.,2017;Hanetal.,2019;Liangetal.,2020).
+2
+Accepted:23March2020 The atomic number of nickel is 28. The abundance of nickel in Earth’s crust is > 50 ppm.
+Published:23April2020
+And nickel is an earth-abundant first row transitional metal (Jamesh et al., 2015). Ni possesses
+Citation: verystrongductilityandcorrosion-resistance.Theadditionofnickelcouldsignificantlyimprove
+ZengJ,ChenL,LiL,YangW,ZouH the stability and activity of catalyst for HER (Chu et al., 2018; Zhang et al., 2019). Another rich
+andChenS(2020)EffectofPEGon
+transitionmetalelementmanganeseontheearthisalsoanimportantcatalystrawmaterial.There
+PerformanceofNiMnOCatalystfor
+are many defects, which created in MnO , can strengthen the stability and activity for HER.
+HydrogenEvolutionReaction. 2
+Front.Chem.8:281. δ-MnO 2 NanosheetdemonstratesfavorablestabilityandactivityforHER(LeonardandBard,2013;
+doi:10.3389/fchem.2020.00281 Liuetal.,2017;Zhaoetal.,2017).Theδ-MnO 2 phaseincludestrivalentandtetravalentmanganese.
+FrontiersinChemistry|www.frontiersin.org 1 April2020|Volume8|Article281
+
+Zengetal. EffectofPEGonCatalyst
+It will create defects in the catalyst structure. Therefore, EXPERIMENTAL
+the defects and oxygen vacancies can generate the
+Mn3+
+Sample Synthesis
+active sites, which can afford half-metalicity. This can
+Materials: Polyethylene glycol (PEG, M = 20,000) and
+significantlyincreasetheelectronicconductivityofthecatalyst, w
+ethanol were supplied by Guangzhou Chemical Reagent
+and thus the reaction efficiency is significantly improved
+Factory. Ni(CH COO) •4H O, Mn(CH COO) •4H O and
+(Mohammed-IbrahimandSun,2019). 3 2 2 3 2 2
+urea were supplied by Shanghai Macklin Biochemical Co.,
+TheperformanceofHERcatalystsishighlycorrelatedtothe
+Ltd. The water (18.25 m(cid:127) cm −1) used in the experiments
+syntheticmethods.Onaccountoftheinherentpitfalls,i.e.,unable
+was purified by Millipore system (Milli-Q Academic). All
+tocontroltheconcentrationgradientanddispersibilityofmetal
+reagents used throughout this manuscript were analytical
+particles (Arevalo and Chirik, 2019), the traditional synthetic
+reagentgrade.
+methods,suchasprecipitationandwetimpregnation,havebeen
+Synthesis of NiMnO catalyst: Typically, 2.043g of
+gradually phased out. For the past few years, by combining
+Ni(CH COO) •4H O and 3.036g of Mn(CH COO) •4H O
+surfactant with traditional co-precipitation method was raised 3 2 2 3 2 2
+wereplacedin40mLanhydrousethanoltoformahomogeneous
+and widespread used for catalyst preparation (Das et al., 2015;
+solution under magnetic stirring for 2h at room temperature,
+Chongetal.,2018;Xuetal.,2018;Tolomanetal.,2019).
+7g of Urea was dissolved in 10mL deionized water, different
+Duetothehydroxylprotonsexchangebetweencetyltrimethyl
+weightofPEG(0,2,and3g)weredispersedin10mLanhydrous
+ammonium bromide (CTAB) and hydrous metal hydroxide
+ethanol under magnetic stirring for 1h at room temperature,
+gels would lower surface tension and interfacial energy of
+whichresultinginthreesamples,markedasNMO,NMO-PEG-
+H O exist in the pores (Sohn and Ozkan, 2016). Therefore,
+2
+2g, and NMO-PEG-3g. Then, The PEG suspension and the
+CTAB can assist-synthesized a high specific surface area oxide
+Urea solution were dripped into the Ni(CH COO) •4H O-
+catalyst. Moreover, the pore structure did not collapse during 3 2 2
+Mn(CH COO) •4H O solution in sequence under stirring.
+thecalcinationprocess.Likewise,polyvinylpyrrolidone(PVP),a 3 2 2
+Kept stirring for 2h at room temperature, the mixture was
+non-ionicpolymersurfactantcouldplayasimilarrole(Tanetal.,
+transferred into the Teflon-lined stainless-steel autoclave and
+2014; Wang et al., 2019). In addition, some surfactants possess
+◦
+heatat180 Cfor10hforthesolvent-thermalreaction.Afterthe
+amphiphilic property, This series of molecules can generate
+reactionwascompletedandbeingcooledtoroomtemperature,
+thermodynamicallystablegathersofintrinsicallynano-scaleboth
+the precipitates were collected by centrifugation and washed
+in solution and at the solid liquid interphases (Lee et al., 2019;
+with deionized water and ethanol for three times, then dried
+Liuetal.,2019).Surfactantshaveauniqueabilitytoself-organize
+◦
+in an oven at 80 C for 6h to get catalyst. After dried, the
+at interface or in solution, modify interfacial properties and
+◦
+catalyst was subjected to bake in a muffle furnace at 750 C
+enhance the compatibility between materials of very different
+for120min.
+characteristics(Carswelletal.,2003;Hosseinietal.,2016).
+In this article, NiMnO catalysts were synthesized by Microstructural Characterizations
+polyethylene glycol surfactant assist- solvent-thermal method,
+X-ray diffraction (XRD) data was obtained by a PANalytical
+and then the electrochemical catalytic properties for HER
+PW3040/60 X-ray diffractometer with Cu Kα radiation (40 kV,
+were estimated. The as-prepared catalysts were explored by N
+2
+30mA). Scanning electron microscope (SEM) measurements
+adsorption-desorption, X-ray diffraction (XRD), and scanning
+were observed by a ZEISS-Merlin microscope at 10 kV.
+electron microscopy (SEM). Besides, we have performed a
+Brunauer-Emmett-Teller (BET) surface area analysis (N
+seriesofelectrochemicaltests(cyclicvoltammetry,linearsweep 2
+voltammetry, electrochemical impedance spectroscopy, and adsorption)ofthecatalystswasobtainedusinganASAP2020M
+chronopotentiometry), and derived some electrochemical system (Micromeritics). Inductively coupled plasma-atomic
+parameters (Tafel slopes, electrochemical double-layer emission spectrometry (ICP-AES) was conducted on a
+capacitance,andTurnoverfrequency). PerkinElmerNexION300X.
+FIGURE1|SEMimagesof(a)NMO,(b)NMO-PEG-2g,(c)NMO-PEG-3g.
+FrontiersinChemistry|www.frontiersin.org 2 April2020|Volume8|Article281
+
+Zengetal. EffectofPEGonCatalyst
+Electrochemical Measurements
+Five milligram NiMnO catalyst was dispersed in 10mL
+isopropanol (Sigma-Aldrich) aqueous solution containing
+Nafion(15wt.%,Sigma-Aldrich)(isopropanol:Nafionsolution:
+water = 1:4:10 volume ratio). And then, sonicated for 30min
+to formulate a homogeneous suspension (catalyst contain
+0.5mg mL −1). 10 µL of the above-mentioned suspension was
+coated on the glassy carbon electrode (CHI) with a diameter
+of 4mm used as working electrode after infrared drying.
+Saturated calomel electrode (SCE) was used as reference
+electrode. Graphite flake was used as counter electrode. The
+electrolyte was 1.0M KOH which was bubbled by high-purity
+argon 5min before the measurement and continue until the
+measurementwascompleted.Cyclicvoltammetrywasconducted
+at 10mV s
+−1.
+Linear sweep voltammetry (LSV) was collected
+by the glassy carbon electrode at a scan rate of 5mV s
+−1.
+Tafel slopes were calculated based on the corresponding LSV
+curves. Electrochemical impedance spectroscopy (EIS) was
+measured in the frequency scope from 105 to 0.01Hz. The
+stability measurements were detected by chronopotentiometry
+at a constant current density of 10mA mg
+−2.
+All voltages
+involved in the article vs. SCE were adjust to the reversible
+FIGURE2|XRDpatternsofNiMnOcatalysts.
+hydrogen electrode (RHE). Calibration using the following
+formula: E(RHE) = E(SCE) + 0.0591pH + 0.2415 – 0.000761
+(T–298.15).Trepresentstheroomtemperature.
+distributionindicatethattheNiMnOcatalystsaddedPEGform
+RESULTS AND DISCUSSION a macropore structure. There are only a few micropores in the
+structureoftheNiMnOcatalystwithoutaddingPEG(Figure2
+TheNiMnOcatalystwassynthesizedbyasolvent-thermalroute andFigureS2).TheNiMnOproducedwhennoPEGwasadded
+using urea as a precipitant. The chemical reactions involve the exhibited a 4–7µm spherical structure. With the addition of
+thermal decomposition of urea, following by the generation of PEG, scales appeared on the surface of the prepared catalyst.
+CO2− ions and the subsequent precipitation of the NiMnO A well petal-like sheet has been formed in NMO-PEG-3g. And
+3
+catalystundersolvothermalconditions. therearerichfluffystructuresonthesheet.Thesestructuresare
+conducivetotheelectrochemicalcatalyticHER.
+The composition and morphology of the electroactive
+NH 2 CONH 2 +H 2 O→2NH 3 +CO 2 catalysts were further investigated using XRD (Figure2). The
+XRDpeakswereindexedtocrystalfacetsofMnO (JCPDSCard
+2
+NH 3 +H 2 O→NH + 4 +HO − a N s o m . 8 a 6 ll - e 0 r 1 K 72) v a a n lu d e N th iO an ( N JC iO PD ,a S n C d a [ r M d n N (N o. H 7 3 8 ) -0 ] 2 2+ 10 h ). as M a n s O m 2 a h ll a er s
+sp n
+K valuethan[Ni(NH3) ]2+ ,whichindicatesthatMnO ismore
+CO 2 +2OH − →CO2 3 −+H 2 O ea f silyprecipitatedthanN n iO(vanBommelandDahn,200 2 9).Both
+MnO andNiOcanbeindexedtoatypicalhexagonalcarbonate
+2
+Ni2++Mn2++CO2− →NiMnCO structure with a space group of RC. The accurate content of
+3 3
+eachelementinNiMnOisfurthercorroboratedbySEMcoupled
+SEMimages(Figure1)showthattheNiMnOcanbesuccessfully energy-dispersive X-ray spectroscopy (EDS) (FigureS1) and
+synthesizedthroughsolvent-thermalreaction.Differentamounts ICP-AES(TableS1).TheNiandMncontentsintheproductare
+ofPEGresultedindifferentmorphologiesofthecatalysts,among calculatedtobe8:92(atomicratio)fromtheEDS,whicharein
+whichthesurfaceareaofNMO-PEG-3gappearedtobelargest. goodagreementwiththeICP-AESresults.
+PEGcanpreventNiMnCO fromaggregationandcompression. The electrocatalytic properties of NiMnO catalyst for HER
+3
+Meanwhile,thePEGwithmoremassrepresentsmoremolecular in alkaline solution was evaluated using a standard three-
+chains, making it easier for PEG molecules to be entangled or electrodesystem.ComparingthethreecatalystsofNMO,NMO-
+spiraled with other PEG molecules through hydrogen bonds. PEG-2g, and NMO-PEG-3g, LSV results show that NMO-
+This distortion will greatly increase the specific surface area of PEG-3g possesses excellent activities that are much better than
+NMO due to the volatilization of PEG and CO after roasting the activity of NMO and NMO-PEG-2g (Figure3A). The
+2
+◦
+withNMCO at750 C.Largerspecificsurfaceareacanincrease infrared-calibrationpolarizationcurveofNMO-PEG-3gexhibits
+3
+the reaction active sites, which is beneficial to the catalytic favorable catalytic activity for HER with an onset potential of
+activity.TheN adsorption–desorptionisothermsandpore-size 36.3mV. Under the same over-potential 0.1V, NMO-PEG-3g
+2
+FrontiersinChemistry|www.frontiersin.org 3 April2020|Volume8|Article281
+
+Zengetal. EffectofPEGonCatalyst
+FIGURE3|(A)LSVcurvesofNMO,NMO-PEG-2g,andNMO-PEG-3gdetectedin1MKOHatasweeprateof5mVs−1;(B)TafelplotsforLSVcurvesofNMO,
+NMO-PEG-2g,andNMO-PEG-3g;(C)1st,1,000th,and2,000thLSVcurvesatsweeprateof50mVs−1;(D)StabilitytestofNMO-PEG-3gcatalystatan
+over-potentialof112mVfor25h.
+TABLE1|ElectrochemicalparametersoftheNiMnOastheHERcatalystinalkalinemedium.
+Electrodes SBET(m2g−1) ESCA(cm2) TOF(s−1) Rs((cid:127)cm2) Rct((cid:127)cm2) CPE(Fsn−1cm−2)
+NMO 2.16 81.25 0.067 1.1 23.2 0.0027
+NMO-PEG-2g 22.35 181.5 0.041 2.5 14.4 0.0031
+NMO-PEG-3g 29.27 197.25 0.035 2.53 10.6 0.0037
+exhibits better catalytic activity than that of NMO and NMO- desorption is the rate determining step. Stability is a fatal
+PEG-2g. At 10 and 100mA cm
+−2,
+the NMO-PEG-3g catalyst parameter that estimates the property of HER catalyst. At the
+obtains140and256mVover-potential,respectively. LSV of 2,000th cycles, the performance of the NMO-PEG-3g
+Tafel slope is an important property inherent of the HER improves than that at 1,000th cycles (Figure3C). The cause of
+catalyst. Figure3B exhibits the Tafel plots of these catalysts’
+thisphenomenonmaybethatthecatalystsurfaceisactivatedin
+series. Accordingly, NMO-PEG-3g exhibits a small Tafel slope
+the process of electrochemical reaction, which fortifies reaction
+of 94mV dec −1 (Figure3B), which is much lower compared
+withNMO-PEG-2g(157mVdec−1)andNMO(189mVdec−1), active sites. Figure3D displays that NMO-PEG-3g endures
+demonstrating a faster HER kinetics of NMO-PEG-3g. These the stability measurement of 112mV for 25h. As shown in
+values mean the HER that occurred on NMO-PEG-3g catalyst Figure3D, NMO-PEG-3g could keep a favorable HER current
+followstheVolmer-Heyrovskymechanism.Theelectrochemical densityat14mAcm−2.
+FrontiersinChemistry|www.frontiersin.org 4 April2020|Volume8|Article281
+
+Zengetal. EffectofPEGonCatalyst
+FIGURE4|(A)CVcurvesofNMO;(B)CVcurvesofNMO-PEG-2g;(C)CVcurvesofNMO-PEG-3g(atdifferentscanratesof20,40,60,80,100,120,and140mV
+s−1inthenon-faradaicpotentialregionin1MKOH);(D)currentdensityvariationplottedagainstscanratefittedtoalinearregressionenablestheestimationofCdl;
+(E)Nyquistplotsofas-preparedcatalysts;(F)quantitativeH2measurementviawaterdisplacement.
+The principal parameters of catalytic activities could 2016; Du et al., 2017). The ECSA is crucial to the
+be the amount of reactive sites, electrochemically active HER catalytic reaction procedure. The electrochemical
+surface area (ECSA) and charge transfer rate (Qu et al., double-layer capacitance (C ) can be conducted
+dl
+FrontiersinChemistry|www.frontiersin.org 5 April2020|Volume8|Article281
+
+Zengetal. EffectofPEGonCatalyst
+tocalculatetheECSA. kinetics. The petal-like scales in NMO-PEG-3g catalyst could
+providealargereactionarea,resultinginfasterelectrontransfer
+C
+ECSA= dl (1) rates and favorable kinetics for HER. As shown in Figure4F,
+C
+s thequantitativeH measurementdemonstratesthattheFaradic
+2
+efficiencyiscloseto100%,whichtestifiesthatallchargegenerated
+C is the specific capacitance of the catalyst (mF cm−2). The
+s in HER reaction procedures (Popczun et al., 2013) would be
+Cs is generally valued as 0.040 mF cm−2 in 1M KOH. Cyclic
+devotedtoproduceH .
+2
+voltammetry test is proceeded to verify the C at different
+dl
+scan rates in the non-faradaic potential region. As the chart
+CONCLUSIONS
+shows, these test outcomes show that the as prepared NMO-
+PEG-3g possesses the biger C than NMO and NMO-PEG-
+dl In conclusion, the addition of PEG surfactant can directly
+2g (Figures4A–D). The C of NMO-PEG-3g is derived to be
+dl affect the morphology of the prepared NiMnO catalyst by the
+78.93 mF cm−2. The big numerical value of C guarantees
+dl solvothermal method. As prepared catalysts possess catalytic
+a competitive ECSA and efficient HER (shown in Table1).
+activities for the HER in alkaline media. Because the NiMnO
+BET specific surface area is identified to be immediate real
+catalyst prepared by adding 3g of PEG possesses abundant
+surface area of catalyst (Sun et al., 2018). The S of NMO-
+BET petal-like scales, it brings a large specific surface area, high
+PEG-3g is 29.27 m2 g−1, which is bigger than those of NMO
+reactionefficiency,andhasthebestelectrocatalyticactivity.This
+andNMO-PEG-2g.
+experimentinvestigatesthatthemorphologyofthecatalystwas
+Turnover frequency (TOF) is a pivotal parameter to assess
+controlledbychangingtheamountofsurfactanttoimprovethe
+the HER activity of catalysts. TOF denotes the number of
+catalytic activity of catalyst. Moreover, we will investigate the
+H molecules generated per second per active site. TOF was
+2 effectofPEGmolecularweightonthestructureoftheprepared
+inspectedaccordingtoamethodreportedbyscientists(Popczun
+catalystinsubsequentexperiments.
+et al., 2013, 2014; Zhou H. et al., 2016). Thus, the number
+of electrochemically effective surface sites on the catalyst was
+DATA AVAILABILITY STATEMENT
+calculatedasthefollowingEquations(2)and(3):
+All datasets generated for this study are included in the
+#Surfacesites(catalyst) #Surfacesites(flatstandard)
+= article/SupplementaryMaterial.
+cm2 geometricarea cm2 geometricarea
+× Roughnessfactor (2)
+AUTHOR CONTRIBUTIONS
+#TotalHydrogenTurnOvers JZ,LC,andLLcontributedconceptionanddesignofthestudy.
+TOFpersite= cm2geometricarea (3) JZorganizedthedatabase.LCperformedthestatisticalanalysis.
+#Surfaceactivesites LLwrotethefirstdraftofthemanuscript.WY,HZ,andSCwrote
+cm2geometricarea
+sectionsofthemanuscript.Allauthorscontributedtomanuscript
+Then,deductionsrevealthatNMO-PEG-3gcatalysthasafaster revision,read,andapprovedthesubmittedversion.
+TOF value compared to that of NMO and NMO-PEG-2g. This
+also proves why the catalyst possesses the favorable activity FUNDING
+for electro-catalytic HER. The electrode kinetics for HER was
+furthermeasuredbyEIS.EISmeasurementsandcorresponding This work was supported by the National Natural Science
+equivalentcircuitinFigure4Earecollectedtoverifythecatalytic Foundation of China (No. 21776051) and Natural Science
+reactionmechanismofaspreparedcatalystsforHERinalkaline FoundationsofGuangdong(No.2018A030313423).
+media. NMO-PEG-3g exhibits a nice semicircle in the low
+frequencyregion.Thisprovesalowerinterfacialcharge-transfer SUPPLEMENTARY MATERIAL
+resistance (R = 10.6(cid:127)) of NMO-PEG-3g than that of NMO
+ct
+and NMO-PEG-2g. This would be related to the increase in The Supplementary Material for this article can be found
+the number of surface-active sites and the reduced 1G M−H online at: https://www.frontiersin.org/articles/10.3389/fchem.
+duringtheH+dischargereactionstep,resultinginsuperiorHER 2020.00281/full#supplementary-material
+REFERENCES
+polypyrrolenanostructuresonflatsurfaces:fromspherestowirestoflatfilms.
+J.Am.Chem.Soc.125,14793–14800.doi:10.1021/ja0365983
+Arevalo,R.,andChirik,P.J.(2019).Enablingtwo-electronpathwayswithiron Chen,W.-F.,Muckerman,J.T.,andFujita,E.(2013).Recentdevelopmentsin
+andcobalt:fromliganddesigntocatalyticapplications.J.Am.Chem.Soc.141, transitionmetalcarbidesandnitridesashydrogenevolutionelectrocatalysts.
+9106–9123.doi:10.1021/jacs.9b03337 Chem.Commun.49,8896–8909.doi:10.1039/c3cc44076a
+Carswell,A.D.W.,O’Rea,E.A.,andGrady,B.P.(2003).Adsorbedsurfactants Chong,C.C.,Owgi,A.H.K.,Ainirazali,N.,Chin,S.Y.,andSetiabudi,H.D.
+astemplatesforthesynthesisofmorphologicallycontrolledpolyanilineand (2018).CO2reformingofCH4overNi/SBA-15preparedbysurfactant-assisted
+FrontiersinChemistry|www.frontiersin.org 6 April2020|Volume8|Article281
+
+Zengetal. EffectofPEGonCatalyst
+impregnationmethod:Comparativestudyofsurfactanttypes.Mater.Today by cobalt phosphide nanoparticles. Angew. Chem. Int. Ed. 53, 5427–5430.
+Proc.5(10Part2),21644–21651.doi:10.1016/j.matpr.2018.07.014 doi:10.1002/anie.201402646
+Chu, M., Wang, L., Li, X., Hou, M., Li, N., Dong, Y., et al. (2018). Carbon Qu, Y., Medina, H., Wang, S.-W., Wang, Y.-C., Chen, C.-W., Su, T.-Y.,
+coated nickel - nickel oxide composites as a highly efficient catalyst for et al. (2016). Wafer scale phase-engineered 1T- and 2H-MoSe2/Mo core–
+hydrogenevolutionreactioninacidmedium.Electrochim.Acta264,284–291. shell3D-hierarchicalnanostructurestowardefficientelectrocatalytichydrogen
+doi:10.1016/j.electacta.2018.01.140 evolutionreaction.Adv.Mater.28,9831–9838.doi:10.1002/adma.201602697
+Das,D.,Llorca,J.,Dominguez,M.,Colussi,S.,Trovarelli,A.,andGayen,A.(2015). Sohn, H., and Ozkan, U. S. (2016). Cobalt-based catalysts for ethanol
+MethanolsteamreformingbehaviorofcopperimpregnatedoverCeO2-ZrO2 steam reforming: an overview. Energy Fuels 30, 5309–5322.
+derivedfromasurfactantassistedcoprecipitationroute.Int.J.Hydrog.Energ. doi:10.1021/acs.energyfuels.6b00577
+40,10463–10479.doi:10.1016/j.ijhydene.2015.06.130 Sun,S.,Li,H.,andXu,Z.J.(2018).Impactofsurfaceareainevaluationofcatalyst
+Du, K., Zheng, L., Wang, T., Zhuo, J., Zhu, Z., Shao, Y., et al. (2017). activity.Joule2,1024–1027.doi:10.1016/j.joule.2018.05.003
+ElectrodepositedMo3S13filmsfrom(NH4)2Mo3S13 ·2H2Oforelectrocatalysis Tan, P., Gao, Z., Shen, C., Du, Y., Li, X., and Huang, W. (2014). Ni-Mg-Al
+ofhydrogenevolutionreaction.ACSAppl.Mater.Interfaces9,18675–18681. solidbasiclayereddoubleoxidecatalystspreparedusingsurfactant-assisted
+doi:10.1021/acsami.7b01333 coprecipitation method for CO2 reforming of CH4. Chinese J. Catal. 35,
+Eiler, K., Suriñach, S., Sort, J., and Pellicer, E. (2020). Mesoporous Ni- 1955–1971.doi:10.1016/S1872-2067(14)60171-6
+rich Ni–Pt thin films: electrodeposition, characterization and performance Toloman,D.,Pana,O.,Stefan,M.,Popa,A.,Leostean,C.,Macavei,S.,etal.(2019).
+towardhydrogenevolutionreactioninacidicmedia.Appl.Catal.BEnviron. PhotocatalyticactivityofSnO2-TiO2 compositenanoparticlesmodifiedwith
+265:118597.doi:10.1016/j.apcatb.2020.118597 PVP.J.ColloidInterfaceSci.542,296–307.doi:10.1016/j.jcis.2019.02.026
+Han, C., Wang, D., Li, Q., Xing, Z., and Yang, X. (2019). Ni17W3 vanBommel,A.,andDahn,J.R.(2009).Analysisofthegrowthmechanismof
+nanoparticlesdecoratedWO2 nanohybridelectrocatalystforhighlyefficient coprecipitatedsphericalanddensenickel,manganese,andcobalt-containing
+hydrogen evolution reaction. ACS Appl. Energy Mater. 2, 2409–2413. hydroxidesinthepresenceofaqueousammonia.Chem.Mater.21,1500–1503.
+doi:10.1021/acsaem.9b00170 doi:10.1021/cm803144d
+Hosseini,S.R.,Ghasemi,S.,andGhasemi,S.A.(2016).Effectofsurfactantson Wang,C.,Wang,Y.,Chen,M.,Hu,J.,Yang,Z.,Zhang,H.,etal.(2019).Hydrogen
+electrocatalyticperformanceofcoppernanoparticlesforhydrogenevolution production from ethanol steam reforming over Co–Ce/sepiolite catalysts
+reaction.J.Mol.Liq.222,1068–1075.doi:10.1016/j.molliq.2016.08.013 preparedbyasurfactantassistedcoprecipitationmethod.Int.J.Hydrog.Energ.
+Jamesh, M. I., Li, P., Bilek, M. M. M., Boxman, R. L., McKenzie, D. R., and 44,26888–26904.doi:10.1016/j.ijhydene.2019.08.058
+Chu,P.K.(2015).Evaluationofcorrosionresistanceandcytocompatibilityof Wang, J., Xu, F., Jin, H., Chen, Y., and Wang, Y. (2017). Non-noble metal-
+gradedmetalcarbonfilmonTiandNiTipreparedbyhybridcathodicarc/glow based carbon composites in hydrogen evolution reaction: fundamentals to
+dischargeplasma-assistedchemicalvapordeposition.Corros.Sci.97,126–138. applications.Adv.Mater.29:1605838.doi:10.1002/adma.201605838
+doi:10.1016/j.corsci.2015.04.022 Wu, Y., Liu, X., Han, D., Song, X., Shi, L., Song, Y., et al. (2019).
+Lee, G.-J., Chen, H.-C., and Wu, J. J. (2019). Enhancing the photocatalytic ElectrondensitymodulationofNiCo2S4nanowiresbynitrogenincorporation
+hydrogen evolution of copper doped zinc sulfide nanoballs through for highly efficient hydrogen evolution catalysis. Nat. Commun. 9:1425.
+surfactants modification. Int. J. Hydrog. Energ. 44, 30563–30573. doi:10.1038/s41467-018-03858-w
+doi:10.1016/j.ijhydene.2018.02.041 Xu, L., Ma, L., Zhou, X., Liu, Z., Luo, D., Xu, X., et al. (2018). Boosting
+Leonard,K.C.,andBard,A.J.(2013).Thestudyofmultireactionalelectrochemical electrocatalytic activity of ultrathin MoSe2/C composites for hydrogen
+interfaces via a tip generation/substrate collection mode of scanning evolutionviaasurfactantassistedhydrothermalmethod.Int.J.Hydrog.Energ.
+electrochemicalmicroscopy:thehydrogenevolutionreactionforMninacidic 43,15749–15761.doi:10.1016/j.ijhydene.2018.07.041
+solution.J.Am.Chem.Soc.135,15890–15896.doi:10.1021/ja407395m Zhang, W., Li, W., Li, Y., Peng, S., and Xu, Z. (2019). One-step synthesis
+Li,C.,andBaek,J.-B.(2020).Recentadvancesinnoblemetal(Pt,Ru,andIr)-based of nickel oxide/nickel carbide/graphene composite for efficient dye-
+electrocatalystsforefficienthydrogenevolutionreaction.ACSOmega5,31–40. sensitized photocatalytic H2 evolution. Catal. Today 335, 326–332.
+doi:10.1021/acsomega.9b03550 doi:10.1016/j.cattod.2018.12.016
+Liang, Y., Yang, Y., Xu, K., Yu, T., Yao, S., Peng, Q., et al. (2020). Crystal Zhao, Y., Chang, C., Teng, F., Zhao, Y., Chen, G., Shi, R., et al. (2017).
+plane dependent electrocatalytic performance of NiS2 nanocrystals for Defect-engineered ultrathin δ-MnO2 nanosheet arrays as bifunctional
+hydrogen evolution reaction. J. Catal. 381, 63–69. doi: 10.1016/j.jcat.2019. electrodesforefficientoverallwatersplitting.Adv.Energ.Mater.7:1700005.
+10.038 doi:10.1002/aenm.201700005
+Liu, T., Ma, X., Liu, D., Hao, S., Du, G., Ma, Y., et al. (2017). Mn doping Zhou, H., Yu, F., Huang, Y., Sun, J., Zhu, Z., Nielsen, R. J., et al. (2016).
+ofCoPnanosheetsarray:anefficientelectrocatalystforhydrogenevolution Efficienthydrogenevolutionbyternarymolybdenumsulfoselenideparticles
+reaction with enhanced activity at all pH values. ACS Catal. 7, 98–102. on self-standing porous nickel diselenide foam. Nat. Commun. 7:12765.
+doi:10.1021/acscatal.6b02849 doi:10.1038/ncomms12765
+Liu,Y.,Huang,B.,Hu,X.,andXie,Z.(2019).Surfactant-assistedhydrothermal Zhou,W.,Jin,J.,Jia,L.,Yang,L.,andChen,S.(2016).Recentdevelopmentsof
+synthesis of nitrogen doped Mo2C@C composites as highly efficient carbon-basedelectrocatalystsforhydrogenevolutionreaction.NanoEnergy28,
+electrocatalysts for hydrogen evolution reaction. Int. J. Hydrog. Energ. 44, 29–43.doi:10.1016/j.nanoen.2016.08.027
+3702–3710.doi:10.1016/j.ijhydene.2018.12.096 Zou,X.,andZhang,Y.(2015).Noblemetal-freehydrogenevolutioncatalystsfor
+Mohammed-Ibrahim,J.,andSun,X.(2019).Recentprogressonearthabundant watersplitting.Chem.Soc.Rev.44,5148–5180.doi:10.1039/c4cs00448e
+electrocatalysts for hydrogen evolution reaction (HER) in alkaline medium
+toachieveefficientwatersplitting–Areview.J.Energ.Chem.34,111–160. ConflictofInterest:Theauthorsdeclarethattheresearchwasconductedinthe
+doi:10.1016/j.jechem.2018.09.016 absenceofanycommercialorfinancialrelationshipsthatcouldbeconstruedasa
+Ojha, K., Saha, S., Dagar, P., and Ganguli, A. K. (2018). Nanocatalysts for potentialconflictofinterest.
+hydrogen evolution reactions. Phys. Chem. Chem. Phys. 20, 6777–6799.
+doi:10.1039/c7cp06316d Copyright©2020Zeng,Chen,Li,Yang,ZouandChen.Thisisanopen-accessarticle
+Popczun,E.J.,McKone,J.R.,Read,C.G.,Biacchi,A.J.,Wiltrout,A.M.,Lewis, distributedunderthetermsoftheCreativeCommonsAttributionLicense(CCBY).
+N. S., et al. (2013). Nanostructured nickel phosphide as an electrocatalyst Theuse,distributionorreproductioninotherforumsispermitted,providedthe
+for the hydrogen evolution reaction. J. Am. Chem. Soc. 135, 9267–9270. original author(s) and the copyright owner(s) are credited and that the original
+doi:10.1021/ja403440e publicationinthisjournaliscited,inaccordancewithacceptedacademicpractice.
+Popczun, E. J., Read, C. G., Roske, C. W., Lewis, N. S., and Schaak, R. E. Nouse,distributionorreproductionispermittedwhichdoesnotcomplywiththese
+(2014). Highly active electrocatalysis of the hydrogen evolution reaction terms.
+FrontiersinChemistry|www.frontiersin.org 7 April2020|Volume8|Article281
+

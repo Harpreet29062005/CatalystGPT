@@ -1,0 +1,655 @@
+|
+RESEARCH ARTICLE CHEMISTRY
+AI driven design of multiprincipal element alloys for optimal
+-
+water splitting
+Jihoon Kima , Dong Won Kima , Jong Hui Choia, William A. Goddard IIIb,1 , and Jeung Ku Kanga,1
+Affiliations are included on p. 10.
+Contributed by William A. Goddard III; received February 25, 2025; accepted June 2, 2025; reviewed by Rutger A. van Santen and Dierk Raabe
+Water splitting for hydrogen production is essential in advancing the hydrogen econ-
+omy. Multiprincipal element alloys offer promising opportunities for optimizing this Significance
+process, yet their vast compositional space and the presence of local minima pose sig-
+nificant challenges for experimental and AI-d riven exploration. To overcome these The development of
+challenges, an AI framework is developed by integrating Gaussian Process Regression electrocatalysts with low water-
+with a configuration entropy–based acquisition function for screening and a design of splitting overpotentials is
+experiments (DoE) for data- efficient overpotential mapping. Through Bayesian opti- essential for sustainable
+mization across 16.2 million chemical compositions, this entropy- screened and DoE
+hydrogen economy.
+dataset–trained AI identifies Fe Co Ni Mo Pd Pt as the best composition for water
+12 28 33 17 5 5 Multiprincipal element alloys with
+splitting within its search space. The alloy exhibits ultralow overpotentials of 24 mV
+multiple active sites show great
+for hydrogen evolution and 204 mV for oxygen evolution at 10 mA·cm−2 with robust
+promise for electrocatalyst
+stability, surpassing state-o f-t he-a rt non-n oble and noble metal electrocatalysts including
+design. However, the vast
+Pt/C+IrO , Pt Ru , and Ru–VO —demonstrating remarkable performance beyond
+2 35 65 2
+reach by contemporary experimental and AI frameworks. composition space of such alloys
+challenges the conventional
+AI | high- entropy alloys | water splitting | configuration entropy | design of experiments exploration methods. As a result,
+constructing a credible
+Hydrogen, with an energy density of 142 MJ kg−1 —nearly three times that of gasoline— overpotential map along
+emerges as a highly potent fuel option ( 1 – 4 ). Green hydrogen, generated through water chemical composition of
+splitting powered by renewable sources such as solar energy, offers a sustainable alternative electrocatalysts presents its own
+to blue hydrogen, enabled by electrocatalysts ( 2 ). Materials with low-overpotentials are challenges. We overcome these
+thus key to advancing green hydrogen production. Multiprincipal element alloys (MPEAs),
+challenges by an AI framework
+such as high-entropy alloys (HEAs), could accommodate multiple active sites, offering a
+that integrates Gaussian Process
+promising option for optimizing water-splitting compositions ( 5 – 7 ). However, the vast
+Regression with a configuration
+compositional spaces of MPEAs pose a formidable challenge, one beyond the reach of
+entropy–based acquisition
+conventional experimental methods. Furthermore, due to the influence of various fac­
+function. Our model is initially
+tors—such as magnetism, phonons, and vacancy effects—not all compositions yield solid
+solution phases; instead, they often lead to diverse microstructures, including metallic trained with a design of
+glasses, intermetallic compounds, and composites ( 8 ). One promising approach to address experiments-based dataset
+this complexity is the application of AI. As the computational power and the efficiency for data-efficient exploration.
+of algorithm evolves, its potential to revolutionize materials discovery becomes increasingly As a result of Bayesian
+evident ( 9 – 14 ). Nevertheless, contemporary deep learning models, heavily reliant on data optimization, we have found
+mining through paper scraping or ab initio calculations, often face limitations in terms Fe Co Ni Mo Pd Pt as the
+12 28 33 17 5 5
+of utilization of a small-sized experimental dataset due to its scaling law ( 15 ) and, more
+optimal composition for water
+severely, transparency of the model ( 16 ). Although there have been some efforts to under­
+splitting among 16.2 million
+stand its underlying working principles, deep learning models, sometimes referred to as
+candidates, which surpassed the
+“black-box” models, oftentimes face limitations in terms of their explainability ( 16 ). It is
+performance of the Pt/C–IrO
+particularly important for the field of “AI for science” since an explainable AI model would 2
+benchmark.
+not only provide reasons to trust the results given by AI but also offer underlying scientific
+insights. A Gaussian Process Regression (GPR) model informed by controlled experimental
+data could achieve explainability and credibility by predicting both expected values and
+uncertainties ( 17 , 18 ). Unlike other machine-learning models, for the GPR model, we
+Reviewers: D.R., Max- Planck- Institut for Sustainable
+quantitatively know how much we should trust the result. However, in the absence of Materials; and R.A.v.S., Technical University Eindhoven.
+dimensionality constraints and insufficient boundary information, a standard GPR model The authors declare no competing interest.
+combined with Bayesian Optimization (BO) may converge to local minima in low-entropy Copyright © 2025 the Author(s). Published by PNAS.
+regions. Since standard acquisition functions [e.g., upper confidence bound (UCB), This article is distributed under Creative Commons
+Attribution- NonCommercial- NoDerivatives License 4.0
+expected improvement] do not account for compositional boundaries, in extreme cases, (CC BY- NC- ND).
+they may even recommend negative composition of a certain element if that element is 1To whom correspondence may be addressed. Email:
+recognized as undesirable for the target function. wag@caltech.edu or jeung@kaist.ac.kr.
+In this work, we develop a machine learning framework by integrating a configuration This article contains supporting information online at
+https://www.pnas.org/lookup/suppl/doi:10.1073/pnas.
+entropy into its acquisition function for data-efficient screening. The model is trained on 2504226122/-/ DCSupplemental.
+the datasets produced by a design of experiments (DoE) to accelerate overpotential mapping, Published July 7, 2025.
+PNAS 2025 Vol. 122 No. 28 e2504226122 https://doi.org/10.1073/pnas.2504226122 1 of 11
+
+using randomization and confounding strategies ( 19 ) to optimize Results
+synthesis and guide initial sampling. Integrated with BO, the model
+could identify optimal compositions among 16.2 million candi­
+Fig. 1A depicts the AI-driven optimization and screening process.
+Sixteen reaction conditions were tested to identify the optimal
+dates. Additionally, a method is introduced to visualize HER and
+oxygenevolution reaction (OER) overpotentials by converting combination of five synthesis parameters. Eight metal precursors
+seven-dimensional data into six two-dimensional projections. The (metal acetylacetonate for Mn, Fe, Co, Ni, Cu, Pd, Pt, and
+overpotential map established with respect to elemental composition Mo(CO) 6 dissolved in oleylamine solvent) were then used in auto­
+not only enables rational design of multiprincipal element alloys mated synthesis via a liquid handler. Candidate elements were
+but also offers valuable insights and straightforward explanations selected based on the number of publications: Six non-noble metal
+for understanding electrocatalytic reactions in the compositional elements and two noble metal elements with the highest number
+aspect. For instance, even for Ni, which was found to be the most of publications for use as HER and OER catalysts were obtained
+active metal for overall water splitting among our candidates, it (SI Appendix, Fig. S1 ). Movie S1 demonstrates the operation of a
+seems to have a certain composition where increasing the Ni com­ liquid handler at 4× speed.
+position decreases catalytic activity, demonstrating the synergistic We generated 119 DoE-based compositions to train the GPR
+effect of MPEAs. Furthermore, the alloy with the highest catalytic model. After fitting, five sampling points were selected via a ther­
+activity is investigated using density functional theory (DFT) cal­ modynamically adjusted UCB and MPEAs were automatically
+culations and experimental characterizations to reveal its electronic synthesized. The resulting overpotentials were used for retraining.
+structure and atomic configurations. As shown in Fig. 1B , the entropy-based GPR model promotes
+Fig. 1. Overview of BO using the GPR model. (A) Overall procedure of the experiment. (B) Optimization of water splitting overpotential (ηOWS ) and configurational
+entropy (S ) with hyperparameters (C and l) shown.
+config
+2 of 11 https://doi.org/10.1073/pnas.2504226122 pnas.org
+
+efficient exploration of a high-dimensional compositional space,
+design, ranging from (1,0,0,0,0,0) through
+1,1,0,0,0,0
+to
+with entropy, overpotentials, and hyperparameters (C, l) displayed. 2 2
+This entropy-screened, DoE-trained framework identified an
+1
+6
+,
+6
+1,
+6
+1,1
+6
+,
+6
+1,
+6
+1 ( 19 ). Additionally, the extr(eme vertices de)sign
+ultralow overpotential (η OWS ) composition in a high-entropy (( 19 ) was applied t)o sample points with the high-entropy region with
+region ( 20 , 21) , whereas random sampling–based BO converged each element composition set to 1 ≤x ≤ 4 , and the grid size was
+on a local minimum (Co Ni Pd Pt ) in a low-configuration 9 i 9
+50 40 5 5
+entropy region, as confirmed by an X-ray diffraction pattern set to 1/9 for convenience, resulting in 8 C 3 = 56 combinations from
+(XRD, SI Appendix, Fig. S2 ), transmission electron microscopy 4,1,1,1,1,1 , 3,2,1,1,1,1 , …, to 1,1,1,1,1,4 .
+(TEM) images and TEM-energy-dispersive X-ray spectroscopy 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9
+(TEM-EDS, SI Appendix, Fig. S3 ). (Using 119 samp)les( from extreme ve)rtices and( simplex centroid)s,
+To explore the influence of the DoE-based sampling, we ana­ the GPR model was trained via DoE-based sampling that captures
+lyzed the GPR model using multivariate normal, spherical, and compositional complexity better than random sampling.
+softmax functions ( Fig. 2 ). The true function (in red) represents Fig. 3A outlines the optimization steps: synthesis condition tun­
+the expected value at each x , calculated by first fixing the i-th ing by the confounding method, compositional space partitioning
+i
+element composition x , generating multiple random composi­ via DoE, a kernel ablation study, and a thermodynamics-informed
+i
+tions, predicting outputs followed by averaging—repeated from acquisition function. Five synthesis conditions were optimized:
+x = 0 to 1 in 0.01 steps (106 points total). Two key findings metal precursor concentration, solvent, additive, reaction time, and
+i
+emerged: 1) random sampling clusters around the center (F ig. 2 temperature. Parameters A–E represent solvent (OAm vs. ethanol),
+A –C ), while DoE distributes evenly ( Fig. 2 D –F ), and 2) uncer­ additive [carbon nanotube (CNT) vs. none], temperature (200 °C
+tainty broadens near the compositional boundary. Sixty-three vs. 120 °C), duration (12 h vs. 2 h), and precursor concentration
+(=26 − 1) sampling points were selected using a simplex centroid (5 mM vs. 10 mM). For example, “ACD” denotes OAm, no CNT,
+Fig. 2. GPR prediction using random vs. DoE- based sampling. Random sampling–based training and DoE- based training for GPR prediction. Predictions with
+random sampling for (A) multivariate normal, (B) 7D spherical, and (C) softmax functions. (D–F) DoE-b ased sampling shows improved prediction accuracy and
+reduced boundary uncertainty for the same functions.
+PNAS 2025 Vol. 122 No. 28 e2504226122 https://doi.org/10.1073/pnas.2504226122 3 of 11
+
+Fig. 3. AI- guided composition identification for water- splitting electrocatalysts. (A) Workflow: synthesis optimization through the confounding method (Left),
+compositional design via DoE (Middle Left), kernel ablation (Middle Right), and thermodynamics-i nformed acquisition (Right). (B) RMSE reduction across BO
+iterations. (C) Parity plot of predicted vs. measured overpotential. (D) SHAP analysis of six elements. (E–J) Predicted overpotential (solid line) and uncertainty
+(shaded) for Mn, Fe, Co, Ni, Cu, and Mo.
+200 °C, 12 h, and 10 mM. Assuming negative correlations between yield compositions like (1,0,0,0,0,0) standing for Mn Pd Pt ,
+90 5 5
+alternatives, combinations were reformulated (e.g., I = −ABCDE). 1,1,0,0,0,0
+for Mn Fe Pd Pt , ..., and
+1,1,1,1,1,1
+,
+SI Appendix, Fig. S4 and Table S1 show “ABCE” as optimal. 2 2 45 45 5 5 6 6 6 6 6 6
+Solvent choice affected particle size (SI Appendix, Fig. S5 ), and (for Mn 15 Fe 15 Co) 15 Ni 15 Cu 15 Mo 15 Pd 5 Pt 5 . On the o(ther hand, for su)f­
+the presence of CNT boosted yield (SI Appendix, Table S1 ). At ficient sampling from the high-entropy region, the extreme vertices
+low synthesis temperature, synthesis of MPEAs with uniform size/ design was utilized to produce compositions like 4,1,1,1,1,1 ,
+9 9 9 9 9 9
+element distributions have failed, which was attributed to the
+insufficient energy given to break the metal-ligand bond in eight 3 9 , 9 2, 9 1,1 9 , 9 1, 9 1 , …, 1 9 , 9 1, 9 1,1 9 , 9 1, 9 4 tha(t stand for Mn) 40
+metal precursors, as shown by the TEM images of a sample syn­
+( Fe Co Ni Cu) Mo P(d Pt , Mn Fe ) Co Ni Cu Mo Pd
+thesized at 120 ˚C (SI Appendix, Fig. S6 ). For covering all the 10 10 10 10 10 5 5 30 20 10 10 10 10 5
+possible dimensions, the simplex centroid design was used to Pt , ..., and Mn Fe Co Ni Cu Mo Pd Pt , respectively.
+5 10 10 10 10 10 40 5 5
+4 of 11 https://doi.org/10.1073/pnas.2504226122 pnas.org
+
+Subsequently, the ablation method tested Matern ( 𝜈 = 3/2), overpotential value for fixed x with a grid size of ∆x = 0.01. In
+i i
+DotProduct, Constant, and ExpSineSquared kernel functions a range of x ≤ 0.9, 2.7 million data points were used (SI Appendix,
+i
+(SI Appendix, Fig. S7 ). As a result, the selection of the Matern Algorithm S2 with a change of range). From the graphs, it is
+kernel has significantly reduced Rms error (RMSE), whereas clear that additions of Cu and Mn have increased overpotential.
+Constant, ExpSineSquared, and DotProduct kernels increased Ni was most effective for water splitting and Co was also bene­
+RMSE. The Matern covariance function is given by ficial, agreeing with previous studies ( 24 , 25 ). However, even for
+Co and Ni, overpotential increased beyond certain compositions
+𝜈
+1 2𝜈 2𝜈 due to the formation of low-entropy alloys and phase
+k x,x = d x,x K d x,x ,
+i j Γ(𝜈)2𝜈−1
+�√
+l i j
+�
+𝜈
+�√
+l i j
+�
+separation.
+� � � � � � To identify a structure–property relationship, 56 samples
+[1] suggested from the extreme vertices design were subjected to
+analysis via powder XRD. Fig. 4A showcases six representative
+where d x,x is the Euclidean distance between x and x , Kv is compositions: 4,1,1,1,1,1 , 1,4,1,1,1,1 , …, through
+i j i j 9 9 9 9 9 9 9 9 9 9 9 9
+a modifi(ed Bes)sel function, Г(ν) is a Gamma function, and l is 1,1,1,1,1,(4
+labeled respe
+)
+cti
+(
+vely as Mn-rich
+)
+, Fe-rich, ...,
+the length scale parameter. The value for a hyperparameter α, a 9 9 9 9 9 9
+term that can give numerical stability and reduce noise effect, was (Mo-rich. These s)amples exhibited a broad peak around 42°, indic­
+then determined (SI Appendix, Figs. S8 and S9 ). The GPR model ative of the small particle size and distortion in the displacement
+was trained with 119 samples. The acquisition function a (x;𝜆) to of atoms ( 26 ). As a strain may change its electronic structure and
+select five points in each iteration is described by impact the adsorption energies of a catalyst ( 27 ), the broadening
+of XRD peaks was analyzed and deconvoluted into strain and
+crystallite size components using the Williamson–Hall plot ( 28 ):
+a(x;𝜆)=[max(𝜂)−𝜂(x)]+𝜆S config (x)𝜎(x), [2]
+K𝜆
+where x ∈ℝ6 , 𝜂 (x) is the expected overpotential for a given com­ 𝛽 tot cos 𝜃=4ε sin 𝜃+ L , [4]
+position x , σ (x ) is the SD, S (x) is the configurational entropy,
+config where β is the broadness of a peak (full width at half maximum
+and λ is a hyperparameter that regulates the degree of greediness tot
+in radian), ε is the strain, θ is the diffraction angle, K is a constant
+in the search process. This acquisition function, a tailored version
+(0.9), λ is the wavelength of the Cu Kα (1.5406 Å), and L is the
+of UCB, balances exploitation and exploration by penalizing sam­
+volume-averaged size of the crystallite. By plotting β against
+pling in a low-dimensional space while encouraging sampling in
+sin θ (SI Appendix, Fig. S10 ), ε was extracted from the
+t
+s
+o
+l
+t
+ope and
+a high-dimensional space (SI Appendix, Algorithm S1 ). For
+L from the intercept. SI Appendix, Fig. S11 shows the correlation
+instance, using configurational entropy prevents recommendations
+between crystallite size and overall water splitting overpotential
+beyond compositional boundaries. Although configurational
+(η ), while SI Appendix, Fig. S12 depicts the correlation
+entropy alone does not fully capture all thermodynamic aspects OWS
+between strain and η . Further insights into alloy formation
+of alloy formation (e.g., magnetic effects and spin-dependent
+mechanisms were elu
+O
+c
+W
+id
+S
+ated from the XRD analyses of metal
+orderings), and may differ in a nanoparticle surface ( 22 ), it was
+acetylacetonate precursors and their mixtures at varied temper­
+selected because of its mathematical utility. Notably, incorporating
+atures ( Fig. 4B and SI Appendix, Fig. S13 ). Among seven acety­
+configurational entropy helps constrain the model within com­
+lacetonate precursors, Pd(acac) exhibited the most pronounced
+positional boundaries. Moreover, multiplying configurational 2
+reduction at low temperatures (below 175 °C), as evidenced by
+entropy by the uncertainty term implies the fact that, in
+the diminished peak intensity at 27°, indicating Pd-acac bond
+high-configuration entropy regions, the amount of information
+cleavage. The thermogravimetric analysis (SI Appendix, Fig. S14 )
+we obtain as well as the degree of freedom are both greater.
+of precursors and the peak intensity of derivative thermogravim­
+Although the properties of materials are frequently noncontinuous
+etry (SI Appendix, Fig. S15 ) emphasize this effect. Pd, with its
+with respect to chemical composition—owing to factors such as
+relatively lower bond dissociation temperature compared to other
+surface faceting, structural reconstruction, and defects—it remains
+acetylacetonates and its low mixing enthalpy with Mo, serves as
+crucial to explore the composition–overpotential relationship in
+a seed for a face-centered cubic (FCC) structure, facilitating the
+a continuous framework, as composition is one of the most acces­
+binding of other metals as the temperature increases ( 29 ).
+sible and tunable variables during synthesis. Also, five points were
+Besides, the MPEA with the equimolar composition without Pd
+selected using
+was examined using TEM combined with TEM-EDS to confirm
+x =argmax[a(x;𝜆)]. [3] this phenomenon. In the absence of FCC seeds, elements such
+as Mo and Co, which have low reduction temperatures, form
+As iterations progressed, RMSE was substantially reduced initial seeds leading to mixtures of low-entropy alloys
+compared to the initial value ( Fig. 3 B and C ). In addition, the (SI Appendix, Fig. S16 ). In contrast, the high mixing enthalpy
+effect of each element, as depicted in Fig. 3D , was assessed of Cu with other metals in general often results in phase separa­
+through the computation of the Shapley additive explanation tion ( 30) into Cu-rich and Cu-poor phases, as shown in
+(SHAP) values ( 23 ). Blue dots of the plot indicate low compo­ SI Appendix, Figs. S17–S19 . Moreover, X-ray photoelectron
+sitions, while red dots denote high compositions of each element. spectroscopy (XPS) was used to evaluate six representative
+Mn and Cu inclusion raised overpotential, as low concentrations compositions: 4,1,1,1,1,1 , 1,4,1,1,1,1 , …, and
+(blue dots) negatively impacted the water splitting overpotential. 9 9 9 9 9 9 9 9 9 9 9 9
+Conversely, Ni and Co addition reduced the overpotential
+1
+9
+,
+9
+1,
+9
+1,1
+9
+,
+9
+1,
+9
+4 ( as depicted in F)ig.( 4 C –J ( 31 ). Mo-)rich samples
+against composition. Nonlinear relationships were illustrated (exhibited high in)tensities for low valency peaks, reflecting the dual
+through six graphs plotting expected overpotential against com­ role of Mo(CO) as both a precursor and a reducing agent. Pt 4f
+6
+position ( Fig. 3 E –J ), akin to Fig. 2 . The average of thirty thou­ XPS analysis suggests the ability of Ni to stabilize Pt-containing
+sand random combinations have generated an expected surfaces, consistent with theoretical calculations ( 32 ). The SHAP
+PNAS 2025 Vol. 122 No. 28 e2504226122 https://doi.org/10.1073/pnas.2504226122 5 of 11
+
+Fig. 4. Structural analysis of MPEAs. (A) XRD patterns of six key samples. (B) XRD of precursor mixtures across temperatures showing alloy formation. (C–J) XPS
+spectra of Mn 2p, Fe 2p, Co 2p, Ni 2p, Cu 2p, Mo 3d, Pd 3d, and Pt 4f, respectively.
+plot ( Fig. 3D ) and the overpotential map of Ni ( Fig. 3H ) also length in the MPEA-150 resembles that of Pt, whereas the bond
+clarify the role of Ni in decreasing HER overpotential by stabiliz­ length in Co Ni Pd Pt is similar to PtO ‚ ( Fig. 5 C –F ).
+50 40 5 5 2
+ing surface Pt. Also, Pd 3d peaks revealed minimal variability for Consistent with the EXAFS analysis, linear combination fitting
+six samples, suggesting Pd’s role in stabilizing non-FCC and FCC was performed on the XANES region for the Fe Co Ni
+12 28 33
+elements. Mo Pd Pt and Co Ni Pd Pt (SI Appendix, Fig. S20 ). Using
+17 5 5 50 40 5 5
+The properties of the final composition obtained from BO, the contributions of Pt and PtO , the oxidation numbers were
+2
+Fe Co Ni Mo Pd Pt (named as MPEA-150 since it was the calculated (SI Appendix, Fig. S21 ). The results prove that the oxi­
+12 28 33 17 5 5
+150th sample synthesized, both names are used interchangeably dation number of MPEA-150 alloy is significantly lower than that
+throughout the paper), including coordination number and bond of Co Ni Pd Pt , suggesting that it should exhibit greater sta­
+50 40 5 5
+length, were investigated and compared to those of Co Ni Pd Pt bility against oxidation. Furthermore, TEM analyses provided
+50 40 5 5
+using X-ray absorption spectroscopy ( Fig. 5A ). X-ray absorption more insights into the morphology and particle size distribution
+near edge structure (XANES) and extended X-ray absorption fine of the MPEA-150 (SI Appendix, Figs. S26 and S27 ). TEM-EDS
+structure (EXAFS) analyses at the Pt L3 edge ( Fig. 5 A , Inset , 5 and scanning TEM (STEM) were also employed to explore the
+B –F , and SI Appendix, Figs. S20–S25 ) revealed the coordination atomic distribution within individual particles ( Fig. 5 G –J and
+environment surrounding the Pt atoms in MPEA-fin, found from SI Appendix, Fig. S28 ). The STEM image and corresponding EDS
+the DoE-based training, and Co Ni Pd Pt obtained through spectra ( Fig. 5H and SI Appendix, Fig. S28 ) indicate a uniform
+50 40 5 5
+the random sampling–based training. The primary peak of dispersion of metal elements across the particle surface. Add­
+MPEA-150 was found to be significantly smaller and broader than itionally, geometric phase analysis (GPA), which was conducted
+that of Co Ni Pd Pt , likely reflecting the disordered structure on the STEM image, revealed the strain distribution across the
+50 40 5 5
+of the MPEA-150 ( Fig. 5B ). The wavelet transformations of Pt, MPEA surface ( Fig. 5I and SI Appendix, Fig. S29 ). Significantly,
+PtO , MPEA-150 and Co Ni Pd Pt demonstrate that the bond it is suspected that the atomic strain observed on the optimized
+2 50 40 5 5
+6 of 11 https://doi.org/10.1073/pnas.2504226122 pnas.org
+
+Fig. 5. XAS and electron microscopy of Fe
+12
+Co
+28
+Ni
+33
+Mo
+17
+Pd
+5
+Pt
+5
+. (A) EXAFS and X- ray absorption near edge structure (Inset) of Pt L3 edge. (B) R- space EXAFS with
+fitted curve. (C–F) Wavelet transformations of Pt, PtO, Fe Co Ni Mo PdPt, and Co Ni PdPt. (G) TEM image of a single particle. (H) STEM image with SAED
+2 12 28 33 17 5 5 50 40 5 5
+Inset. (I) Strain map from GPA. (J) Atomic resolution STEM revealing lattice distortion.
+MPEA surface could contribute to break the scaling relationship challenge, particularly due to the difficulty in defining a represent­
+for the OER mechanism ( 33 ). The atomic-resolution STEM ative unit cell—unlike conventional alloys or single-crystal mate­
+image ( Fig. 5J) reveals pronounced lattice distortions within the rials with well-defined periodicity. In this context, the SQS
+particle, highlighting the critical role of strain induced by atomic approach offers a rational strategy to approximate the local chemical
+radius differences in lowering the overpotential. Furthermore, environment within a representative unit cell. For our calculations,
+inductively coupled plasma (ICP) analyses of six representative the supercell representing the (110) slab contained 80 atoms, while
+samples and the optimal MPEA composition was consistent with the (111) slab supercell comprised 120 atoms. The atomic config­
+results from STEM-EDS analyses (SI Appendix, Fig. S30 and urations within these supercells were subsequently adjusted to
+Table S2 ). To finally ensure that the as-prepared sample has the closely match the target compositions. The as-constructed super­
+desired elements distributed on the particle surface, 50 STEM cells and their electron densities are depicted in SI Appendix,
+images with their respective EDS images were obtained using Figs. S31–S33 , with the 18 surrounding atoms in the Pt-centered
+single-tilt tomography holder with wide angle coverage (from −72° or Pd-centered (110) plane (SI Appendix, Fig. S34 ). The density of
+to +75° with 3° interval). It took 2 min for acquiring single 512 × states (DOS) and the partial DOS (PDOS) further exhibit a sig­
+512 EDS image, and the resolution of STEM images was 4,096 × nificant contribution from Ni and Co (SI Appendix, Figs. S35 and
+4,096. From these STEM images, a continuous view synthesis of S36 ) due to their composition, demonstrating the MPEA’s behavior
+STEM images was conducted using Radon transformation ( 34 ). as an electron conductor without a discernible band gap. In specific,
+Results of three-dimensional (3D) reconstruction of STEM the normalized DOS data (SI Appendix, Fig. S36 ) demonstrates
+images are shown in Movie S2 , and a snapshot movie containing that the main reason of the difference in the elemental contribution
+50 EDS images with angle coverage of −72° to +75° is shown in is mainly due to the number of elements in the supercell since the
+Movie S3 . From these investigations, we have figured out that our normalized PDOS shows no discernable differences in each element
+MPEA indeed has all the elements distributed on the surface of a contributions. Additionally, intermediates from each reaction, such
+nanoparticle and Pd had a critical role in forming the initial seed as *OH, *O, *OOH for OER, and *H for HER, were analyzed on
+of a particle. the Pt-bounded site. Among six sites around Pt, the Pt–Co–Ni site
+We also investigated the electronic properties and intermediate demonstrated notable catalytic activity toward OER with an over­
+adsorption energies of the Fe Co Ni Mo Pd Pt by construct­ potential of 0.29 eV per site (SI Appendix, Fig. S37 and Table S3 ).
+12 28 33 17 5 5
+ing supercells with a special quasi-random structure (SQS) model Interestingly, the adsorption energies at the Pt–Co–Ni site were
+( 35 ). Accurately modeling real MPEAs remains a significant found to be sufficiently low, likely due to surface strain on the
+PNAS 2025 Vol. 122 No. 28 e2504226122 https://doi.org/10.1073/pnas.2504226122 7 of 11
+
+Fe Co Ni Mo Pd Pt . This strain may affect the conventional the configuration entropy–informed BO, demonstrated an OER
+12 28 33 17 5 5
+scaling relationship (3 6 ) governing the adsorbate evolution mech­ overpotential of 204 mV at j = 10 mA cm−2 , significantly outper­
+anism for OER. SI Appendix, Fig. S38 and Table S4 further show forming 286 mV at j = 10 mA cm−2 of IrO . This result highlights
+2
+that Pt–Co–Fe, Pt–Fe–Co, and Mo–Ni–Pt sites had energies of a consistent reduction in OER overpotential, as illustrated in the
+−0.06, −0.06, and 0.06 eV for H* adsorption, respectively. The Inset of Fig. 6A . Moreover, the Tafel OER slope ( Fig. 6B ) demon­
+presence of additional metal sites around Pt allowed favorable strated a decreasing trend across the BO rounds, indicating
+hydrogen adsorption energies, reducing overpotentials for HER. improved OER efficiency. Fig. 6C demonstrates the DFT calcu­
+The relaxed structures of four adsorbates (OH*, O*, OOH*, and lation results for adsorption energies of the OER intermediates
+H*) with their charge density differences are shown in SI Appendix, for MPEA-150 structure at its most active site (Pt–Ni–Co three­
+Fig. S39 . Subsequently, a number of DFT simulations to investi­ fold site) and for metal surfaces that constitute such an active site.
+gate the behavior of the MPEA were conducted. First, the effect of From the fact that the overpotentials of site-consisting metals (Pt,
+adsorbate surface coverage on the as-constructed (110) slab was Co, and Ni) are far higher than that of the Pt–Co–Ni site in
+investigated, and the result is shown in SI Appendix, Fig. S40 . As MPEA-150 alloy, it is thought that alloying is an efficient strategy
+the number of adsorbates increased, the free energy per site for tuning the OER overpotential. Analogous to OER, SI Appendix,
+increased but the potential determining step remains to be the Fig. S48 shows all the LSV curves for HER measured with the
+transition between *O and *OOH. Although an increase in the samples synthesized. Fig. 6D presents the best HER results among
+overpotential was observed as we increased the number of adsorb­ samples used in training (119 samples) and each BO round (from
+ates, the increment is not severe. Next, to further investigate the BO #1 to BO #6 and final), showing a decreasing trend in HER
+as-claimed strain effect, we have constructed supercells with differ­ overpotential. The MPEA exhibited superior performance with a
+ent biaxial (xy-direction) strain values, from −6 to −3%, 0%, +3%, HER overpotential of 24 mV at j = 10 mA cm−2 , surpassing 20
+and +6%. Previous reports state that elements that have more than wt% Pt/C (35 mV at j = 10 mA cm−2 ). The Tafel slope also
+half of their d-bands filled exhibit an upward shift of the d-band decreased as BO rounds progressed ( Fig. 6E ). From Fig. 6F , it is
+centers when tensile strain is applied, leading to stronger interaction shown that the tuning of adsorption energies by alloying is suc­
+with adsorbates ( 33 , 37) . Since most of our constituent elements cessful even for HER. For the MPEA-150 model surface, the active
+are filled with more than half of their d-band (except for Mo), as site for HER was determined to be Pt–Fe–Co with an adsorption
+applied tensile strain increases, the DOS distribution narrows near energy of −0.06 eV. For the investigation of the synergistic effect
+the Fermi energy (SI Appendix, Fig. S41 ) and the d-band center on HER, adsorption energies of three constituent metal surfaces
+level increases accordingly (SI Appendix, Fig. S42 ). Since the (Pt, Co, and Fe) were calculated as well. As expected, the Pt–Fe–
+increase of the d-band center is likely to cause strong overlap Co site in MPEA-150’s (110) surface has the lowest overpotentials
+between metal d-bands and O 2p orbitals ( 37 ), we subsequently of 0.06 eV compared to model surfaces of Pt, Co, and Fe.
+analyzed the M–O bond strengths using the integrated value of the SI Appendix, Fig. S36 further supports the synergistic effect on
+crystal orbital Hamilton population (COHP) calculation. For five MPEAs since Pt–Co–Fe, Pt–Co–Ni, and Mo–Ni–Pt sites on the
+slab systems with different strain values, three adsorbates (OOH*, MPEA (110) also have lower ∆G values than those on Pt (111).
+H*
+O*, and OOH*) placed in threefold sites (i.e., three different M–O Furthermore, an electrochemical surface area (ECSA) was assessed
+interactions) were analyzed. This has resulted in 45 different bond using double-layer capacitance (C ) ( Fig. 6G ) and hydrogen
+dl
+strength analyses and the total bond strength values (sum of all the underpotential deposition (HUPD) method measurements
+M–O bond energies) are summarized in SI Appendix, Table S5 (for ( Fig. 6H ). The ECSA derived from the C was calculated to be
+dl
+viewing whole 45 COHP graphs, refer to the Materials and 49.17 m2 g−1 whereas the ECSA per Pt derived from HUPD was
+Methods section for the link to the dataset). As expected, the bond approximately 22.75 m2 g −1 . Fig. 6I also reveals the water-splitting
+Pt
+strength between supercell slabs and intermediates has increased overpotentials Fe Co Ni Mo Pd Pt (this work), noble Pt/
+12 28 33 17 5 5
+according to strain (SI Appendix, Fig. S43 ). Furthermore, we have C+IrO , and non-noble metals ( 14 , 38 – 42 ). Our sample resulted
+2
+investigated the adsorption energy values (SI Appendix, Fig. S44 ) in an impressive OER overpotential of 204 mV j= 10 mA cm−2
+and confirmed that tensile, nonzero strain values (with a biaxial and a substantially low HER overpotential of 24 mV at j = 10 mA
+strain value of 3%) indeed lowered the overpotential for OER. cm−2 . Chronopotentiometry testing for overall water splitting at
+Nevertheless, a higher strain value of +6% has made the M–O bond j = 10 mA cm−2 showed a stable voltage profile even after 100 h,
+strength too strong that the adsorbate could not evolve easily contrasting with Pt/C+IrO showing a drop after just 10 h
+2
+(SI Appendix, Fig. S45 ) and vice versa for supercells with lower (SI Appendix, Fig. S49 ). It is true that some studies have reported
+strain values. Inspired by this result, to investigate whether the remarkable catalyst stability on the order of months ( 43 ). However,
+theoretical calculations regarding strain and OER overpotential it is important to note that stability-related information was not
+holds true for our MPEA, a series of ex situ XRD measurements incorporated into our model. TEM images after 100 h of the
+were conducted (SI Appendix, Fig. S46 ). Overall, as the applied chronopotentiometry test further support the stability of the
+potential increases, a downshift of peak angle is observed through­ MPEA-150 (SI Appendix, Fig. S50 ). Moreover, ex situ XPS anal­
+out the result. Moreover, a broadening of peaks was observed as ysis suggested that the active site for both HER and OER is likely
+applied potential increased. From these observations, we conclude to be stable under electrocatalytic reactions (SI Appendix, Figs. S51
+that the downshift of XRD peaks indicates a stretching of lattice and S52 ). SI Appendix, Fig. S53 also demonstrates the excellent
+parameter and the broadening of XRD peaks indicates the increase mass activity of the Fe Co Ni Mo Pd Pt (8.57 A mg −1 at
+12 28 33 17 5 5 PGM
+in strain. Since both behaviors are observed with increased over­ 50 mV) in which PGM stands for platinum group metal.
+potentials, we conclude that strain likely benefits the OER (1.3 to
+1.7 V vs. RHE) in the MPEA-150 catalyst.
+Discussion
+OER performances for different samples were evaluated using
+linear sweep voltammetry (LSV) and presented in Fig. 6A and We developed a precise, data-efficient AI framework for auton­
+SI Appendix, Fig. S47 . Fig. 6A showcases LSV curves that compare omous synthesis and evaluation of MPEAs in water splitting—
+OER performances from the training data (denoted as train-best) targeting hydrogen and oxygen evolution—using a GPR model
+and each subsequent BO round. The final sample, derived from with configuration entropy in its acquisition function and
+8 of 11 https://doi.org/10.1073/pnas.2504226122 pnas.org
+
+Fig. 6. Electrochemical performance of Fe Co Ni Mo PdPt. (A–C) LSV, Tafel plot, and DFT adsorption energy diagrams for (A–C) oxygen and (D–F) hydrogen
+12 28 33 17 5 5
+evolution reactions. (G) Cyclic voltammetry curves at various scan rates (Inset: current density vs. scan rate). (H) HUPD analysis (Inset: zoomed-i n desorption
+region). (I) Comparison of water splitting performance.
+trained on a DoE dataset for rapid overpotential mapping. computations and the actual chemical state of the synthesized
+Combined with BO over a vast compositional space of 16.2 alloy, potentially leading to the formation of mixtures or com­
+million HEA candidates, the model identified Fe Co Ni posite phases. Finally, while we employed SQS simulations to
+12 28 33
+Mo Pd Pt as the best composition, achieving ultralow overpo­ partially capture the structural complexity of MPEAs within a
+17 5 5
+tentials of 24 mV for hydrogen evolution and 204 mV for oxygen unit cell, we anticipate that the integration of probabilistic
+evolution at 10 mA cm−2 with robust stability—demonstrating machine learning models could enable further upscaling and
+performance surpassing that of contemporary methods. significantly enhance computational efficiency.
+Modifying the acquisition function presents a generalizable strat­
+egy for incorporating inductive biases relevant to the materials
+Materials and Methods
+of interest—for example, by weighting it with Pourbaix decom­
+position energy to account for catalyst stability ( 44 ), shifting the
+GPR Model and Acquisition Function. The GPR model was implemented using
+target variable to material longevity (4 5) , or accounting for spin
+scikit- learn’s Gaussian Process Regressor. Input compositions were normalized
+contributions. While we have employed configurational entropy
+to the range [0, 0.9], and the predicted overpotential (η) was also normalized.
+as a multiplier to the uncertainty term, a more chemically Data were split 80:20 into training and test sets, and RMSE was used for model
+informed approach would involve incorporating prior knowl­ validation. Covariance functions—ExpSineSquared, Matern(3/2), Constant, and
+edge about the information contribution of individual elements. WhiteNoise—were optimized via ablation. The regularization parameter (α) was
+For instance, properties such as the magnetism of constituent tuned, with 0.15 selected as optimal. Six expected overpotential plots were gener-
+elements are known to influence alloy ordering and could pro­ ated to construct an “overpotential map” (SI Appendix, Algorithm S1). After train-
+vide more nuanced guidance in modeling. Moreover, discrepan­ ing, five points maximizing a modified UCB acquisition function were selected
+cies may exist between the configurational entropy used in our (SI Appendix, Algorithm S2).
+PNAS 2025 Vol. 122 No. 28 e2504226122 https://doi.org/10.1073/pnas.2504226122 9 of 11
+
+Materials and Reagents. Mn(acac) 3 , Fe(acac) 3 , Co(acac) 3 , Ni(acac) 2 , Cu(acac) 2 , where C dl is the double-l ayer capacitance, ∆j 0.25 V is the current density differ-
+Pd(acac), Pt(acac), oleylamine, IPA, and Nafion (5 wt%) were purchased from ence at 0.25V vs. RHE, and v is the scan rate. Using C =40 μFcm−2 , ECSA was
+2 2 s
+Sigma- Aldrich. Mo(CO)
+6
+was from ThermoFisher Scientific. Multiwalled carbon determined as
+nanotubes (MWCNTs) (Nanocyl NC7000) were used. HNO (65 wt%) was from
+Samchun Chemical, and ethanol and cyclohexane were 3 from Duksan Pure ECSA= C dl = 891 μF cm−2 =22.75 m2g−1. [11]
+Chemicals. Heat- inert vials were obtained from Shimadzu. C s 40 μF cm−2 0.1 mg cm−2
+Synthesis of Alloys. To activate CNTs, 50 mg of MWCNTs was treated with 50 HUPD analysis was performed on an RDE (0.1 mg cm−2 loading) at a sweep
+mL of 0.1 M HNO at 70 °C for 2 h and dried overnight. Eight metal precursors
+3 rate of 20 mV s−1 in 0.1 M HClO, using Ag/AgCl as the reference electrode. The
+(Mn, Fe, Co, Ni, Cu, Mo, Pd, Pt acetylacetonates, or carbonyls) were dissolved 4
+potential was calculated by
+in oleylamine (5 mM), sonicated, and dispensed into heat-r esistant vials using
+a Gilson GX- 281 liquid handler. The vials were heated at 200 °C for 2 h, then E =E +0.0592 pH+E0 , [12]
+products were collected by centrifugation using a 1:1 cyclohexane–ethanol wash
+RHE Ag∕AgCl Ag∕AgCl
+and dried overnight.
+with E for the working potential and E0 of 222 mV. ECSA was derived
+Ag∕AgCl Ag∕AgCl
+Structure Characterizations. TEM and STEM images were acquired using from HUPD by
+JEOL JEM- ARM200F (200 kV) and Thermo Fisher Spectra Ultra (300 kV), respec-
+412 μC cm−2
+tively. XRD was performed on a Rigaku SmartLab with Cu Kα radiation, including ECSA= =49.17 m2 g−1 ,
+temperature- dependent scans under N
+2
+‚ (25 to 200 °C, 5 °C/min, 25 °C intervals). 210μCcm−2 3.99×10−3mg
+PGM
+cm−2 PGM
+TGA/DTG were conducted using a Netzsch TG209 F1 Libra. XPS was performed on [13]
+( )( )
+a co N p e y x . s E a x G - s 2 it , u a n X d P S IC o P f a F n e a 1 l 2 y C s o is 2 8 u N se i 3 d 3 M an o 1 A 7 g P i d le 5 P n t t 5 7 f 2 o 0 ll o IC w P e - d o p o t u ic r a p l e re m vi i o ss u i s o l n y s r p ep ec o t r r t o e s d - w in h t e h r e e t h h y e d a ro re g a e l n ch d a e rg so e r ( p 4 t 1 io 2 n μ r C e g cm io − n 2 ) ( 0 w . a 0 s 5 o t b o t a 0 in .4 e d V b v y s . i n R t H eg E r ) a . t E in C g S A c u w rr a e s n c t a d l e cu n l s a it t i e e d s
+procedure (46). XANES and EXAFS were measured at the Pohang Accelerator
+Laboratory (PAL)’s 1D XRS KIST- PAL beamline.
+using a 210 μC cm−2 conversion factor (49). Mass activity was calculated as follows:
+DFT Calculations. Representative supercells were generated using SQS: 80 MA= 34.19 mA cm−2 =8.57A mg−1 . [14]
+atoms (5 × 4 × 4) for the (110) facet and 120 atoms (5 × 6 × 4) for the (111) 3.99×10−3mg cm−2 PGM
+PGM
+facet. DFT calculations employed the Perdew–Burke–Ernzerhof functional with a
+400 eV cutoff and a force threshold of 0.01 eV Å−1. A 2 × 2 × 1 Monkhorst–Pack In addition, the TOF w(as calculated for HER (at 5)0 mV):
+grid was used, with slab dimensions of 13.08 × 14.8 × 26.16 Å for (110) and
+34.19mAcm−2
+13.08 × 19.1 × 26.16 Å for (111). Gibbs free energies were calculated by
+TOF =
+HER 2 96,485Cmol−1 ( 2.57×10−3gPtcm−2)+1.42×10−3gPdcm−2 [15]
+ΔG H∗ =ΔE−
+E
+2 H2 +ΔE ZPE −TΔS+ ∫ C p dT, [5] =6.6 ( 8 s−1 . )(
+195gPtmol−1 106gPdmol−1
+)
+ΔG =ΔE+ E H2 −E +ΔE −TΔS+ C dT, [6] GPA. The strain m(ap wa)s generated from the STEM image via GPA as developed
+OH∗ 2 H2O ZPE ∫ p by M.J. Hÿtch et al. (50). The corresponding software is available at https://er- c.
+org/index.php/software/stem- data- analysis/gpa/.
+ΔG O∗ =ΔE+E H2 −E H2O +ΔE ZPE −TΔS+ ∫ C p dT, [7] TEM-E DS Tomography. STEM and TEM-E DS images were acquired using Thermo
+Fisher’s Spectra Ultra (300 kV) with a 2 min electron dose per image (–72° to 75°,
+3E 3° intervals). 3D reconstruction was performed using the Radon transform (33).
+ΔG
+OOH∗
+=ΔE+
+2
+H2 −2E
+H2O
++ΔE
+ZPE
+−TΔS+
+∫
+C
+p
+dT, [8]
+Ex-S itu XRD. An MPEA- 150 catalyst ink was dropped to fluorine- doped tin oxide
+glass. Each XRD pattern was obtained with 5 min of chronoamperometry under
+where ΔG denotes the Gibbs free energy of adsorption, ΔE is the energy differ-
+fixed potentials.
+ence between adsorbed and pure states, and a hydrogen adsorption correction of
+0.24 eV (47) was used. M–O bond strengths were derived by integrating projected
+Data, Materials, and Software Availability. The codes used for the analyses
+COHP to the Fermi level using the LOBSTER package (48).
+are accessible at the following link: https://github.com/jihoonkim2000/entropy-
+Electrochemical Characterizations. Catalyst ink (2 mg catalyst, 920 μL IPA, 80 screened- BO (51). All other data are included in the article and/or supporting
+μL Nafion) was drop-c ast onto carbon paper (1 mg cm−2 loading). Electrochemical information.
+m wi e th a s 1 u r M em K e O n H ts . L w S e V r ( e 5 p m er V f o s r − m 1) e e d m u p s l i o n y g e a d B a i g ol o o l g d i c c o V u S n P t e p r o e t l e e n c t t i r o o s d t e a t a i n n d a H n g H /H - c g e O ll ACKNOWLEDGMENTS. This research was supported by the National Research
+Foundation of Korea (RS-2 022- NR068232) funded by the Ministry of Science
+reference. Potentials were calculated by
+and Information and Communication Technology. W.A.G. was supported by the
+E RHE =E Hg∕HgO +0.0592 pH+E0 Hg∕HgO , [9] US NSF (CBET 2311117).
+where E is the reference hydrogen potential, E is the working potential, and
+RHE Hg/HgO
+E0 is 105 mV. For C measurements, cyclic voltammetry was performed on a Author affiliations: aDepartment of Materials Science and Engineering and Institute for
+Hg/HgO dl
+rotating disk electrode (RDE) with 0.1 mg cm−2 loading from 0.2 to 0.3 V at sweep NanoCentury, Korea Advanced Institute of Science and Technology, Daejeon, Yuseong-
+gu 34141, Republic of Korea; and bMaterials and Process Simulation Center, Division of
+rates from 20 to 100 mV s−1. The double-l ayer capacitance was calculated using Chemistry and Chemical Engineering, California Institute of Technology, Pasadena, CA
+91125
+Δj Author contributions: W.A.G. and J.K.K. designed research; J.K., D.W.K., and J.H.C.
+C dl = 2Δ 0.2 v 5V =891 μF cm−2, [10] p th e e r f p o a rm pe e r d . research; J.K., D.W.K., and J.H.C. analyzed data; and W.A.G. and J.K.K. wrote
+1. M. B. Bertagni, S. W. Pacala, F. Paulot, A. Porporato, Risk of the hydrogen economy for atmospheric 3. D. Guan et al., Hydrogen society: From present to future. Energy Environ. Sci. 16, 4926–4943
+methane. Nat. Commun. 13, 7706 (2022). (2023).
+2. F. Ueckerdt et al., On the cost competitiveness of blue and green hydrogen. Joule 8, 104–128 4. A. Majumdar, J. M. Deutch, R. S. Prasher, T. P. Griffin, A framework for a hydrogen economy. Joule 5,
+(2024). 1905–1908 (2021).
+10 of 11 https://doi.org/10.1073/pnas.2504226122 pnas.org
+
+5. J.- W. Yeh et al., Nanostructured high- entropy alloys with multiple principal elements: Novel alloy 29. N. L. N. Broge, M. Bondesgaard, F. Søndergaard-P edersen, M. Roelsgaard, B. B. Iversen, Autocatalytic
+design concepts and outcomes. Adv. Eng. Mater. 6, 299–303 (2004). formation of high-e ntropy alloy nanoparticles. Angew. Chem. Int. Ed. Engl. 132, 22104–22108 (2020).
+6. T. Löffler et al., Design of complex solid- solution electrocatalysts by correlating configuration, 30. F. Otto, Y. Yang, H. Bei, E. P. George, Relative effects of enthalpy and entropy on the phase stability of
+adsorption energy distribution patterns, and activity curves. Angew. Chem. Int. Ed. Engl. 59, equiatomic high- entropy alloys. Acta Mater. 61, 2628–2638 (2013).
+5844–5850 (2020). 31. J. Chastain, R. C. King Jr., Handbook of X- Ray Photoelectron Spectroscopy (Perkin-E lmer
+7. Z. W. Chen et al., Unusual Sabatier principle on high entropy alloy catalysts for hydrogen evolution Corporation, 1992), vol. 40, p. 25.
+reactions. Nat. Commun. 15, 359 (2024). 32. L. Cao, T. Mueller, Theoretical insights into the effects of oxidation and Mo-d oping on the structure
+8. E. P. George, D. Raabe, R. O. Ritchie, High- entropy alloys. Nat. Rev. Mater. 4, 515–534 (2019). and stability of Pt–Ni nanoparticles. Nano Lett. 16, 7748–7754 (2016).
+9. Z. Rao et al., Machine learning–enabled high- entropy alloy discovery. Science 378, 78–85 (2022). 33. M. Luo, S. Guo, Strain- controlled electrocatalysis on multimetallic nanomaterials. Nat. Rev. Mater. 2,
+10. Z. Pei, J. Yin, J. A. Hawk, D. E. Alman, M. C. Gao, Machine-l earning informed prediction of high- 17059 (2017).
+entropy solid solution formation: Beyond the Hume- Rothery rules. npj Comput. Mater. 6, 50 34. G. Beylkin, Discrete radon transform. IEEE Trans. Acoust. Speech Signal Process. 35, 162–172 (1987).
+(2020). 35. A. Zunger, S. H. Wei, L. G. Ferreira, J. E. Bernard, Special quasirandom structures. Phys. Rev. Lett. 65,
+11. X. Wan et al., Machine learning paves the way for high entropy compounds exploration: Challenges, 353–356 (1990).
+progress, and outlook. Adv. Mater. (2023). https://doi.org/10.1002/adma.202305192. 36. Z.- F. Huang et al., Strategies to break the scaling relation toward enhanced oxygen electrocatalysis.
+12. J. Zhang et al., Design high- entropy electrocatalyst via interpretable deep graph attention learning. Matter 1, 1494–1518 (2019).
+Joule 7, 1832–1851 (2023). 37. Z. Hou et al., Lattice- strain engineering for heterogenous electrocatalytic oxygen evolution reaction.
+13. J. K. Pedersen et al., Bayesian optimization of High- entropy alloy compositions for electrocatalytic Adv. Mater. 35, 2209876 (2023).
+oxygen reduction. Angew. Chem. Int. Ed. Engl. 60, 24144–24152 (2021). 38. S. Zhang et al., Constructing built-i n electric field in heterogeneous nanowire arrays for efficient
+14. M. Kim et al., Exploring optimal water splitting bifunctional alloy catalyst by Pareto active learning. overall water electrolysis. Angew. Chem. Int. Ed. Engl. 62, e202302795 (2023).
+Adv. Mater. 35, 2211497 (2023). 39. Z. Niu et al., Robust Ru- VO
+2
+bifunctional catalysts for all- pH overall water splitting. Adv. Mater. 36,
+15. J. Kaplan et al., Scaling laws for neural language models. arXiv [Preprint] (2020). https://arxiv.org/ 2310690 (2024).
+pdf/2001.08361/1000 (Accessed 23 January 2020). 40. H. Wu et al., Medium-e ntropy metal selenides nanoparticles with optimized electronic structure as
+16. C. Rudin, Stop explaining black box machine learning models for high stakes decisions and use high- performance bifunctional electrocatalysts for overall water splitting. Adv. Energy Mater. 13,
+interpretable models instead. Nat. Mach. Intell. 1, 206–215 (2019). 2300837 (2023).
+17. D. J. MacKay, “Introduction to Gaussian processes” in NATO ASI Series F Computer and Systems 41. Y. Zhang et al., Hydrogen- bond regulation of the microenvironment of Ni(II)- porphyrin bifunctional
+Sciences (Springer, 1998), vol. 168, pp. 133–166. electrocatalysts for efficient overall water splitting. Adv. Mater. 35, 2210727 (2023).
+18. B. Shahriari, K. Swersky, Z. Wang, R. P. Adams, N. de Freitas, Taking the human out of the loop: A 42. W. Chen et al., Deciphering the alternating synergy between interlayer Pt single-a tom and NiFe
+review of Bayesian optimization. Proc. IEEE. 104, 148–175 (2016). layered double hydroxide for overall water splitting. Energy Environ. Sci. 14, 6428–6440 (2021).
+19. R. A. Fisher, The Design of Experiments (Springer, 1960). 43. S. Gong et al., Recent progress on the stability of electrocatalysts under high current densities
+20. H. Li, J. Lai, Z. Li, L. Wang, Multi- sites electrocatalysis in high- entropy alloys. Adv. Funct. Mater. 31, toward industrial water splitting. ACS Catal. 14, 14399–14435 (2024).
+2106715 (2021). 44. J. Abed et al., Open catalyst experiments 2024 (OCx24): Bridging experiments and computational
+21. B. S. Murty, J.- W. Yeh, S. Ranganathan, P. P. Bhattacharjee, High- Entropy Alloys (Elsevier, 2019). models. arXiv [Preprint] (2024). https://arxiv.org/pdf/2411.11783 (Accessed 18 December 2024).
+22. C. D. Woodgate, D. Hedlund, L. H. Lewis, J. B. Staunton, Interplay between magnetism and short- 45. D. Roman, S. Saxena, V. Robu, M. Pecht, D. Flynn, Machine learning pipeline for battery state-o f-
+range order in medium- and high- entropy alloys: CrCoNi, CrFeCoNi, and CrMnFeCoNi. Phys. Rev. health estimation. Nat. Mach. Intell. 3, 447–456 (2021).
+Mater. 7, 053801 (2023). 46. D. W. Kim, J. Kim, J. H. Choi, D. H. Jung, J. K. Kang, Trifunctional graphene- sandwiched
+23. H. Chen, I. C. Covert, S. M. Lundberg, S.- I. Lee, Algorithms to estimate Shapley value feature heterojunction- embedded layered lattice electrocatalyst for high performance in Zn-a ir battery-
+attributions. Nat. Mach. Intell. 5, 590–601 (2023). driven water splitting. Adv. Sci. 11, 2408869 (2024).
+24. W. Yang et al., Tuning the cobalt-p latinum alloy regulating single- atom platinum for highly efficient 47. V. Stamenkovic et al., Changing the activity of electrocatalysts for oxygen reduction by tuning the
+hydrogen evolution reaction. Adv. Funct. Mater. 32, 2205920 (2022). surface electronic structure. Angew. Chem. Int. Ed. Engl. 45, 2897–2901 (2006).
+25. C. Zhang et al., H2 in situ inducing strategy on Pt surface segregation over low Pt doped PtNi5 48. V. L. Deringer, A. L. Tchougréeff, R. Dronskowski, Crystal orbital Hamilton population (COHP) analysis
+nanoalloy with superhigh alkaline HER activity. Adv. Funct. Mater. 31, 2008298 (2021). as projected from plane- wave basis sets. J. Phys. Chem. A 115, 5461–5466 (2011).
+26. C. F. Holder, R. E. Schaak, Tutorial on powder X- ray diffraction for characterizing nanoscale materials. 49. S. T. Dix, S. Lu, S. Linic, Critical practices in rigorously assessing the inherent activity of nanoparticle
+ACS Nano 13, 7359–7365 (2019). electrocatalysts. ACS Catal. 10, 10735–10741 (2020).
+27. F. Abild- Pedersen, J. Greeley, J. K. Nørskov, Understanding the effect of steps, strain, poisons, and 50. M. J. Hÿtch, E. Snoeck, R. Kilaas, Quantitative measurement of displacement and strain fields from
+alloying: Methane activation on Ni surfaces. Catal. Lett. 105, 9–13 (2005). HREM micrographs. Ultramicroscopy 74, 131–146 (1998).
+28. G. K. Williamson, W. H. Hall, X- ray line broadening from filed aluminium and wolfram. Acta Metall. 51. J. Kim, et al., Data and code for “AI-d riven design of multiprincipal element alloys for optimal water
+1, 22–31 (1953). splitting.” GitHub. https://github.com/jihoonkim2000/entropy-screened-BO. Accessed 14 January 2025.
+PNAS 2025 Vol. 122 No. 28 e2504226122 https://doi.org/10.1073/pnas.2504226122 11 of 11
+

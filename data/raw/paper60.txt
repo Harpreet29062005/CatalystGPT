@@ -1,0 +1,1032 @@
+ORIGINALRESEARCH
+published:27March2018
+doi:10.3389/fchem.2018.00085
+Porous Nanocrystalline Silicon
+Supported Bimetallic Pd-Au
+Catalysts: Preparation,
+Characterization, and Direct
+Hydrogen Peroxide Synthesis
+DmitriyI.Potemkin1,2*,DmitryK.Maslov2,KonstantinLoponov3,PavelV.Snytnikov1,2,
+YuriV.Shubin1,4,PavelE.Plyusnin1,4,DmitryA.Svintsitskiy1,2,VladimirA.Sobyanin2and
+AlexeiA.Lapkin3,5*
+1LaboratoryoftheEnergy-EfficientCatalyticProcesses,NovosibirskStateUniversity,Novosibirsk,Russia,2Departmentof
+Editedby:
+HeterogeneousCatalysis,BoreskovInstituteofCatalysis,Novosibirsk,Russia,3DepartmentofChemicalEngineeringand
+HeqingJiang,
+Biotechnology,UniversityofCambridge,Cambridge,UnitedKingdom,4LaboratoryoftheRarePlatinumMetalsChemistry,
+QingdaoInstituteofBioenergyand
+NikolaevInstituteofInorganicChemistry,Novosibirsk,Russia,5CambridgeCentreforAdvancedResearchandEducationin
+BioprocessTechnology(CAS),China
+SingaporeLtd.,Singapore,Singapore
+Reviewedby:
+YanZhang,
+QingdaoInstituteofBioenergyand Bimetallic Pd-Au catalysts were prepared on the porous nanocrystalline silicon (PSi)
+BioprocessTechnology(CAS),China for the first time. The catalysts were tested in the reaction of direct hydrogen
+MingxingWu,
+peroxide synthesis and characterized by standard structural and chemical techniques.
+HebeiNormaiUniversity,China
+It was shown that the Pd-Au/PSi catalyst prepared from conventional H [PdCl ] and
+*Correspondence: 2 4
+DmitriyI.Potemkin H[AuCl ] precursors contains monometallic Pd and a range of different Pd-Au alloy
+4
+potema@catalysis.ru
+nanoparticles over the oxidized PSi surface. The PdAu /PSi catalyst prepared from the
+AlexeiA.Lapkin 2
+aal35@cam.ac.uk [Pd(NH 3 ) 4 ][AuCl 4 ] 2 double complex salt (DCS) single-source precursor predominantly
+containsbimetallicPd-Aualloynanoparticles.Forbothcatalyststhesurfaceofbimetallic
+Specialtysection: nanoparticles is Pd-enriched and contains palladium in Pd0 and Pd2+ states. Among
+Thisarticlewassubmittedto
+ChemicalEngineering, the catalysts studied, the PdAu 2 /PSi catalyst was the most active and selective in the
+asectionofthejournal directH O synthesiswithH O productivityof0.5molg −1h−1atselectivityof50%and
+FrontiersinChemistry 2 2 2 2 Pd
+H O concentrationof0.023Min0.03MH SO -methanolsolutionafter5honstream
+2 2 2 4
+Received:30January2018 at −10◦C and atmospheric pressure. This performance is due to high activity in the
+Accepted:12March2018
+Published:27March2018 H
+2
+O
+2
+synthesis reaction and low activities in the undesirable H
+2
+O
+2
+decomposition and
+Citation: hydrogenation reactions. Good performance of the PdAu /PSi catalyst was associated
+2
+PotemkinDI,MaslovDK,LoponovK,
+with the major part of Pd in the catalyst being in the form of the bimetallic Pd-Au
+SnytnikovPV,ShubinYV,PlyusninPE,
+SvintsitskiyDA,SobyaninVAand nanoparticles. Porous silicon was concluded to be a promising catalytic support for
+LapkinAA(2018)Porous directhydrogenperoxidesynthesisduetoitsinertnesswithrespecttoundesirableside
+NanocrystallineSiliconSupported
+reactions, high thermal stability, and conductivity, possibility of safe operation at high
+BimetallicPd-AuCatalysts:
+Preparation,Characterization,and temperaturesandpressuresandawell-establishedmanufacturingprocess.
+DirectHydrogenPeroxideSynthesis.
+Front.Chem.6:85. Keywords:directH2O2 synthesis,directhydrogenperoxidesynthesis,poroussilicon,bimetallicnanoparticles,
+doi:10.3389/fchem.2018.00085 alloynanoparticles,Pd-Aucatalysts,gold-palladiumcatalysts,doublecomplexsalts
+FrontiersinChemistry|www.frontiersin.org 1 March2018|Volume6|Article85
+
+Potemkinetal. Pd-Au/PSiforDirectHydrogenPeroxideSynthesis
+INTRODUCTION et al., 2008). This can be exploited to produce small dispersed
+metal nanoparticles inside PSi pores from alcoholic metal salt
+In the general field of industrial chemistry the role of solutions.Thissynthesismethodresultedinmetalnanoparticles
+heterogeneouscatalysisisdifficulttooverestimate:theadvances intherangeof5–10nm,locatedlargelywithintheporesofthe
+in large-scale catalytic processes, such as ammonia synthesis, support. This is distinct from the earlier reports of metal/PSi
+sulphuricacidandnitricacidprocesses,ethyleneandpropylene composites obtained from aqueous metal salt solutions using
+production, acetic acid, and methanol syntheses and several metalhydridesorhydrogenasreducingagents,whichresultin
+others were responsible for the rapid development of human the formation of much larger metal particles (Coulthard et al.,
+civilizationinthetwentieth-century.Inthetwenty-firstcentury 1993,2000;CoulthardandSham,1998).Similarly,thesurfactant
+the challenges for catalysis are different but, arguably, even mediatedmethodusingsodiumborohydrideasreducingagentin
+harder than those that were solved till now: selective activation aqueous-ethanolsolutionresultsintheformationoflargemetal
+of C-H bonds in saturated alkanes, efficient and selective nanoparticles in the range of 10–50nm (Yashtulov et al., 2011,
+activation of CO 2 , efficient splitting of water, highly selective 2016).
+functionalization of complex molecules for pharmaceutical and In recent years there is a significant increase in the number
+speciality chemicals, etc. These challenges have one common of publications devoted to different synthesis methods and
+aspect—the requirement for much better control of reaction application fields of metal-PSi materials. To cite only few
+selectivity in the traditionally “difficult” reactions, such as studies, porous silicon was used to synthesize nano-composite
+sp3 C-H activation, as an example. The requirement for materials for lithium-ion batteries (Zhai et al., 2017), as a
+better selectivity control marks the need for a very different stoichiometric reducing agent for direct conversion of CO to
+2
+approach to catalysts design to that traditionally practiced in methanol(Dasogetal.,2017),asasupportforPdnanoparticles
+the twentieth-century for bulk processes: highly dispersed and incatalyticoxidationofformicacid(YashtulovandFlid,2013),
+uniformactivesitesarepreferred(Flytzani-Stephanopoulosand in a detailed experimental and theoretical investigation of the
+Gates, 2012) and often polyfunctionality is required (Climent electronic structure and gas adsorption on Pd, Cu, Pd-Cu, and
+et al., 2014). Many conventional heterogeneous catalysts are WO -Pd nanoparticles supported on porous silicon for gas
+3
+highly heterogeneous in the nature of their active sites. For sensingapplications(Litovchenkoetal.,2017),fordevelopingPt-
+this reason, a significant effort in current research in the Pd/PSielectrocatalystsfordirectmethanolfuelcell(Ensafietal.,
+field of heterogeneous catalysis is on developing new methods 2015). There are no new works on developing heterogeneous
+of synthesis of heterogeneous catalysts, that result in much catalystsforchemicalprocesses.Thus,inordertoexpandcurrent
+tighter control of the structure and composition of the active knowledgeoncatalysisbyporoussilicon-supportedcatalystswe
+sites. Advanced synthesis techniques are under development: choseadifficultandveryimportantindustrialchemistryreaction
+from modified impregnation and adsorption (Munnik et al., ofdirectsynthesisofhydrogenperoxide.
+2015) to a novel approach of nanoparticles biosynthesis which Hydrogen peroxide is an excellent oxidizing reagent for
+presents an alternative eco-friendly and potentially precise way the production of both fine and bulk chemicals that finds
+for synthesis of heterogeneous catalysts (Hulkoti and Taranath, applications also in the area of wastewater treatment, paper
+2014). and pulp bleaching, and widely used in healthcare. Most
+Novelsupportmaterialsdonotfrequentlyappearincatalytic of the world’s hydrogen peroxide is currently produced
+literatureandmostconventionally-usedsupports,suchasmixed by the sequential hydrogenation and oxidation of an alkyl
+oxidesorcarbon,arenotwell-suitedtothechallengeofprecise anthraquinone (Bernardotto et al., 2009). This process suffers
+control of selectivity due to their inherent heterogeneity. For from several limitations, such as significant amount of organic
+thisreason,significantattentioniscurrentlypaidto“structured” waste, need of several energy consuming separation and
+supports, such as MOFs (Dhakshinamoorthy et al., 2013; Zhao concentrationstepsandeconomicfeasibilityonlyinlarge-scale
+et al., 2016), 2D materials such as graphene (Fan et al., 2015; (Menegazzoetal.,2015).
+Julkapli and Bagheri, 2015), 1D materials such as carbon The direct synthesis of H O from hydrogen and oxygen
+2 2
+nanotubes(SerpandCastillejos,2010;Yanetal.,2015)ortitanate in methanol or water reaction media provides a more atom
+nanotubes (Bavykin et al., 2005), and so on. Among the many efficient route to the current commercial production process.
+supportmaterialsusuallyinvestigatedincatalysissiliconisoneof The direct route would enable H O production to take place
+2 2
+lessknownandlittlestudiedtodate. at its point of use, reducing the transportation costs, and for
+Its application as a catalyst support was first discussed in this reason there is a significant interest in developing such
+Polisski et al. (2010). PSi is a high surface area semiconducting a catalytic process. The minimal required H O concentration
+2 2
+material with high heat conductivity and pore structure very producedbythedirectsynthesisforpracticaluseisestimatedto
+interestingforcatalysis—anetworkofopenporeswithporesizes be 1 wt.% or 0.23M in methanol solution (Garcia-Serna et al.,
+in the mesopore range of 2–6nm (Künzner et al., 2003); the 2014).Figure1representsreactionsinvolvedinthedirectH O
+2 2
+electrochemical pore formation in silicon having been studied productionprocess(Bernardottoetal.,2009).Besidesthetarget
+indetailedearlier(Lehmannetal.,2000).Thehighsurfacearea H O synthesisreaction,undesirabletotalH oxidationtogether
+2 2 2
+of porous silicon (PSi) is hydrogen-terminated. This hydrogen with H O hydrogenation and decomposition reactions could
+2 2
+can facilitate reduction of dissolved metal salts directly at the occur.Thus,catalyst’sabilitytosynthesizeH O selectivelyand
+2 2
+surface, without the use of additional reducing agents (Polisski avoid its hydrogenation and decomposition becomes the key
+FrontiersinChemistry|www.frontiersin.org 2 March2018|Volume6|Article85
+
+Potemkinetal. Pd-Au/PSiforDirectHydrogenPeroxideSynthesis
+• ComplexingmetalsinaDCSare“mixed”onamolecularlevel
+thatallowsformationofalloysuponsaltdecomposition;
+• Stoichiometryofaprecursorcomplexdeterminescomposition
+ofthealloys;
+• Abilitytopresetexactphasecompositionandmorphologyof
+the alloy nanoparticles, varying the DCS deposition process,
+anddecompositionconditions.
+FIGURE1|AgeneralschemeofreactionsinvolvedinthedirectH2O2
+synthesisprocess.
+The successful application of DCS for catalyst preparation
+was demonstrated in a number of works (Potemkin et al.,
+2012, 2014, 2017; Shubin et al., 2012; Simonov et al., 2012;
+Bulushev et al., 2013; Vedyagin et al., 2013, 2014). To provide
+factortoreachhighH O concentrationswithacceptableatomic
+2 2
+Pd-Au interaction and to promote alloy formation we have
+andeconomicefficiencies.
+chosen [Pd(NH ) ][AuCl ] DCS as a single-source precursor.
+Several reviews (Samanta, 2008; Dittmeyer et al., 2015; 3 4 4 2
+ItspropertiesandapplicationasaprecursorforbimetallicPd-Au
+Edwards et al., 2015; Yi et al., 2016; Seo et al., 2017) consider
+nanoparticles were discussed in Shubin et al. (2012), Bulushev
+catalyticsystems,reactionconditions,andengineeringconcepts
+et al. (2013), Simonov et al. (2012), and Plyusnin et al. (2007).
+for direct H O synthesis. Several bimetallic Pd-based systems
+2 2
+Due to the fact, that Pd and Au atoms are premixed in the
+show promising levels of performance in the direct H O
+2 2
+precursor,[Pd(NH ) ][AuCl ] reductioninsidetheporespace
+synthesis:Pd-Au(Edwardsetal.,2005,2009),Pd-Pt(Bernardotto 3 4 4 2
+atmildconditionsleadstotheselectiveformationofsupported
+et al., 2009), Pd-Ni (Maity and Eswaramoorthy, 2016), novel
+Pd-AualloynanoparticleswithoutintermediateformationofPd
+Pd-Te (Tian et al., 2017), and Pd-Ag (Gu et al., 2016) and
+andAuphasesanditsalloying.
+the recently published Pd-Sn (Freakley et al., 2016), exhibiting
+Besidesthecompositionandstructureofmetalliccomponent
+a very high level of performance. Among other systems the
+thechoiceofsupportplaysanimportantroleindesigningdirect
+Pd-Au one exhibiting selectivities up to 95% (Edwards et al.,
+H O synthesis catalysts. Support’s properties, such as red-ox
+2009)isthemostextensivelystudied.Earlierstudieshaveshown 2 2
+interaction with Pd, wettability by reaction media, inertness
+that bimetallic alloy Pd-Au nanoparticles, probably with Pd-
+withregardtoH O decompositionandhydrogenation,surface
+enriched shell (Edwards et al., 2005), are responsible for high 2 2
+acidityareofspecialattention.Carbonsupports(Edwardsetal.,
+activity and selectivity in H O synthesis. The surface ratio of
+2 2
+Pd0/Pd2+
+in the AuPd alloy was found to be an important
+2009),titania(Edwardsetal.,2005),Keggin-typeheteropolyacids
+(Ntainjua et al., 2012), sulfated ceria and zirconia (Menegazzo
+factorcontrollingtheoverallcatalystperformance.Astablenon-
+leaching form of
+Pd2+
+was identified as a key feature in highly
+et al., 2015) are considered as conventional choice for direct
+H O synthesis catalysts. However, the search for alternative
+selective PdAu catalysts (Edwards et al., 2012). Catalyst surface 2 2
+supports is still actual, especially in the scope of further
+and/orreactionmediaacidityplayimportantroleinthereaction.
+reaction translation from lab-scale batch reactors to more
+Highly acidic cesium salts of Keggin-type tungstophosphoric
+practical and scalable continuous flow multiphase reactors,
+acid (Cs x H 3−x PW 12 O 40 ) were proposed as the best support
+in which the application of conventional catalysts powders
+materials,providingbetterperformancethancarbonandmetal
+is limited by the need of its fixing and mass-/heat-transfer
+oxidessupports(Ntainjuaetal.,2012).Areversiblehigh-pressure
+problem.
+CO -derivedacidificationofcombinedwater-methanolreaction
+2
+In this regard we investigated the properties of porous
+media (Freakley et al., 2013) was successfully applied for high
+nanocrystalline silicon powder (PSi) as a support for Pd-Au
+pressure operations. It should also be noted that in spite of
+directH O synthesiscatalysts.Wereportresultsonpreparation,
+hugeeffortstodeterminethesurfacestructureofbimetallicPd- 2 2
+characterization and catalytic tests of bimetallic PSi supported
+Au catalysts active for the H O direct synthesis, the detailed
+2 2
+Pd-Aucatalystspreparedby[Pd(NH ) ][AuCl ] single-source
+understanding of the active sites of the metal nanoparticles 3 4 4 2
+precursordecomposition.Toourknowledgeitisthefirstreport
+remainselusive.
+of such catalytic system and extends the knowledge of porous
+The selective formation of bimetallic Pd-Au nanoparticles
+silicon as a promising catalyst support. The comparison with
+in supported catalysts is desirable to obtain highly selective
+monometallicPSisupportedPdandAucatalysts,andbimetallic
+direct H O synthesis catalyst, due to ability of monometallic
+2 2
+Pd-Au catalyst, prepared utilizing conventional H [PdCl ] and
+Pd particles to catalyze hydrogenation of H O (Edwards 2 4
+2 2
+H[AuCl ]precursors,weredoneaswell.
+et al., 2015), thereby limiting the achievable H O maximum 4
+2 2
+concentration and decreasing process selectivity. Within this
+context we applied the approach based on decomposition of
+EXPERIMENTAL
+doublecomplexsalts(DCS)insidetheporesofasupportmaterial
+forthesynthesisofthebimetallicPd-AudirectH O synthesis Materials
+2 2
+catalyst. DCSs of transition metals, coordination compounds Porous nanocrystalline silicon with average grain size of
+′ ′ ′′ ′′ ′ ′′
+withthecommonformula[ML n ] x [M L m ] y ,whereM andM 4µm was supplied by Vesta Ceramics. All other chemicals
+′ ′′
+are metals, L and L are different ligands, have a number of were commercially purchased and used without additional
+advantagesassingle-sourceprecursorsofbimetalliccatalysts: purification.
+FrontiersinChemistry|www.frontiersin.org 3 March2018|Volume6|Article85
+
+Potemkinetal. Pd-Au/PSiforDirectHydrogenPeroxideSynthesis
+n
+Catalyst Preparation S = H2O2 ·100%,
+H2O2
+1n
+All catalysts were prepared by the metals reduction from its H2
+saltssolutionsbyPSi’ssurfaceH-terminalatomsbytheprotocol
+where[H ] and[H ] aretheaverageH inletandoutlet
+adaptedfromPolisskietal.(2010). 2 inlet 2 outlet 2
+concentrations during the period between aliquots sampling;
+ThePdloadinginallcatalystswassetto2wt.%whichisclose
+n istheamountofH O formedduringtheperiodbetween
+tooptimalvalueaccordingtoliterature(Edwardsetal.,2005). H2O2 2 2
+aliquots sampling; 1n is the amount of H consumed during
+The synthesized [Pd(NH
+3
+)
+4
+][AuCl
+4
+]
+2
+DCS was used as a H2 2
+theperiodbetweenaliquotssampling.
+single-source precursor for the PdAu /PSi catalyst. The Pd
+2
+Thecatalystloadingandreactiontemperaturewereoptimized
+and Au loadings were set to 2 and 7.4 wt.% according to
+in order to make hydrogen conversion insensitive to stirring
+[Pd(NH ) ][AuCl ] stoichiometry. A portion of 2g of PSi
+3 4 4 2
+speed.
+powder was added to 50mL of the DCS acetone solution of
+the required concentration at −15 ◦ C under vigorous stirring. Experiments on H 2 O 2 decomposition and hydrogenation
+werecarriedoutatthesameconditionsasH O synthesis.The
+AcetonesolventwasusedtoattainwettingofthehydrophobicH- 2 2
+initial H O concentration was set to ca. 70mM (70·10 −3 mol
+terminatedsurfaceofPSiandduetohigh[Pd(NH ) ][AuCl ] 2 2
+solubility in acetone. The suspension was kept at
+3
+−
+4
+15 ◦ C
+4
+fo
+2
+r L
+−1),
+gas feed composition: pure He for H 2 O 2 decomposition
+and4vol.%H and96vol.%HeforH O hydrogenationtests.
+1h under vigorous stirring, and then temperature was slowly 2 2 2
+Thegasflowwassetto50scm3min −1.H O concentrationwas
+increasedtoambient.Theobtainedcatalystwasfiltered,washed 2 2
+measuredonetimeperhourduring5h.
+several times with acetoneand warm water to dissolve possible
+Pure PSi support was treated by the water-acetone solution
+residualsaltsinpores,anddriedatroomtemperatureonair.
+usingtheprotocoldescribedinsectionCatalystPreparationand
+BimetallicPd-Au/PSicatalystwaspreparedaccordingtothe
+wastestedinH O synthesis,decompositionandhydrogenation.
+procedure described above using the conventional H [PdCl ] 2 2
+2 4
+PSi did not show any activity in this reaction. Thus, one can
+andH[AuCl ]jointwater-ethanolsolutionasametalsource.The
+4
+concludethatPSimaterialisinertwithregardtoH O synthesis,
+Pd and Au loadings for Pd-Au/PSi catalyst were set to 2 wt.%, 2 2
+decomposition, and hydrogenation and could be successfully
+whichareclosetotheoptimalvaluesaccordingtotheliterature
+usedasacatalystsupportfordirectsynthesisofH O .
+data(Edwardsetal.,2009). 2 2
+Monometallic Pd/PSi and Au/PSi catalysts were prepared
+Catalyst Characterization
+using the same protocol with water-acetone solutions of
+[Pd(NH ) ](NO ) andH[AuCl ]asprecursors. The as-prepared catalysts were characterized by a number of
+3 4 3 2 4
+physico-chemical techniques. The chemical composition of the
+catalystswasdeterminedbyinductivelycoupledplasmaatomic
+Catalytic Activity Study
+emissionspectrometry(anOptimainstrument).
+Catalytictestswerecarriedoutatatmosphericpressureat−10 ◦ C The specific BET surface area (S ) and pore volume (V )
+BET p
+inathermostatedglassreactor.Mixingwascarriedoutwithan of the catalysts were determined from the complete nitrogen
+inert rotor operating at 400 rpm. Oxygen and hydrogen were adsorptionisothermsat−196◦C(ASAP2400instrument).
+bubbled by a gas diffuser directly into the liquid phase with a XRD analysis of the as-synthesized sample powders was
+total flow of 50ml (STP) min
+−1.
+A non-explosive gas mixture performed on a “DRON-SEIFERT-RM4” diffractometer (CuKα
+with the following composition was used: 4 vol.% H 2 and 96 irradiation, graphite monochromator d = 3.345 Å ´ , room
+001
+vol.%O 2 .Thereactionmediumwas100mLofa0.03MH 2 SO 4 temperature). The scanning range was 20 ◦ − 55 ◦ (2θ) with a
+methanolsolution.Catalystloadingof50mgwasused.Afterthe ◦
+step of 0.1 . The experimental diffraction data were processed
+catalyst addition the suspension was stirred and then kept for
+using the PowderCell v.2.4 (Kraus and Nolze, 2000) and
+20mininanultrasonicbath.Afterthatsampleswerepretreated
+WINFIT 1.2.1 (Krumm, 1996) programs, which allowed a
+in situ at room temperature first by H [30min, 30ml (STP)
+2 calculation of the quantitative phase composition, the lattice
+min −1] and then by O (20min, 30 scm3 min −1). Prior to
+2 parameters, and the crystallite size (D ). Data from the
+XRD
+starting the reaction, reactor was purged with He [50ml (STP)
+JCPDS-ICDD database (Powder Diffraction File, 2009) were
+min
+−1].Duringcatalytictestssmallaliquotsoftheliquidphase
+used as reference. The composition of the Au x Pd 1−x alloys
+weresampledthroughaseptumandusedforhydrogenperoxide
+wasdeterminedusingtheexperimentallymeasureddependence
+concentrationdetermination.
+between lattice parameters of face-centered cubic cell (fcc,
+H O concentration was measured by iodometric titration.
+2 2 space group Fm-3m) in gold-palladium solid solutions and
+H concentrations at the inlet and the outlet of the reactor
+2 the atomic fraction of constituent elements (Shubin et al.,
+were measured by a quadrupole MS (Stanford research). The
+2012).
+catalyst’s performance was characterized in terms of the H O
+2 2 Transmission electron microscopy (TEM) study was
+concentration in methanol solutions ([H O ]), H conversion
+2 2 2 performed using a JEM-2010 (lattice plane resolution 0.14nm
+(X )andtheselectivitytowardH O synthesis(S ),which
+H2 2 2 H2O2 at accelerating voltage of 200 kV) equipped with an energy-
+werecalculatedfromthefollowingequations:
+dispersive X-ray (EDX) spectrometer EDAX [Si(Li) detector
+with130eVenergyresolution].ThesamplesfortheTEMstudy
+[H ] −[H ] werepreparedonperforatedcarbonfilmmountedonacopper
+X = 2 inlet 2 outlet ·100%,
+H2 [H ] grid.
+2 inlet
+FrontiersinChemistry|www.frontiersin.org 4 March2018|Volume6|Article85
+
+Potemkinetal. Pd-Au/PSiforDirectHydrogenPeroxideSynthesis
+Fourier transform infrared spectroscopy (FTIR) analysis of stretchingmodesofSi-H bonds(2,082,2,107,and2,132cm
+−1
+x
+the catalyst samples was performed using Shimadzu IRAffinity for x = 1, 2, and 3, respectively) (Ogata et al., 2000; Polisski
+spectrometerusingKBrasadiluent. etal.,2010).TheIR-spectraofthecatalystsdonotshowstretching
+X-ray photoelectron spectroscopic (XPS) analysis was modesofSi-H bonds,indicatingthatallH-terminalatomswere
+x
+performedusinganES-300(KRATOSAnalytical)photoelectron spentduringcatalystspreparation.
+spectrometer.MgKα(hν=1253.6eV)X-raysourcewasapplied Figure3 shows XRD patterns of the catalysts studied and
+for spectra registration. The spectrometer calibration was of the PSi support. The silicon phase (22 = 47.30 ◦ ) was
+performed using bulk gold (Au4f 7/2 ) and copper (Cu2p 3/2 ) identified for all the samples. For the Pd/PSi and the Au/PSi
+photoelectronlineswithbindingenergy(BE)valuesof84.0and catalysts, metallic Pd (22 = 40.15 ◦ and 46.70 ◦ ) with the
+932.7eV,respectively.ThepositionoftheSi2plineforoxidized crystallite size (D ) of 12nm and Au (22 = 38.32 ◦ and
+XRD
+silicon with BE = 103.3eV was used as reference for spectra 44.62 ◦ ) with the crystallite size of 5nm, respectively, were
+calibration.DuetotheoverlappingofAu4d-andPd3d-spectral identified, see also Table2. The XRD pattern of Pd-Au/PSi
+regions(Smolentseva etal.,2011),thesubtractionofAu4dline contains not fully resolved peaks at 22 = 40.08 ◦ and 39.02 ◦ ,
+from Au/PSi sample was applied for all bimetallic catalysts which could be assigned to metallic Pd (D = 6.3nm)
+XRD
+to analyze palladium surface species precisely. The chemical and solid solution Pd Au (D = 5.5nm). Bimetallic
+0.35 0.65 XRD
+composition of the surface was quantitatively determined from nanoparticles are gold-enriched compared to the data on
+integral peak areas using standard atomic sensitivity factors elementalcomposition,Table1,duetothepresenceofsignificant
+(ASFs) (Wagner et al., 2013). Processing of the obtained data amount of monometallic Pd nanoparticles. The XRD pattern
+and spectral analyses were performed using homemade XPS- of PdAu /PSi catalyst contains broad peaks at 22 = 38.79 ◦ И
+2
+◦
+Calc program, which has been tested on a number of systems 45.01 ,whichcouldbeassignedtothesolidsolutionPd Au
+0.25 0.75
+(Svintsitskiy et al., 2013). The curve fitting procedure was nanoparticleswiththecrystallitesizeof4nm.Thecompositionof
+performed using an approximation based on a combination of Pd Au solidsolutionisrelativelyclosetothestoichiometry
+0.25 0.75
+the Gaussian and Lorentzian functions with the subtraction of ofDCSanddataonelementalcomposition,Table1.Mostlikely,
+a Shirley-type background. Before the curve fitting, all spectra small enrichment by gold is caused by the presence of pure Pd
+weresmoothedusingaFourierfilter.Noconsiderabledifference particles,whichisconfirmedbythepresenceofashoulderatthe
+between the smoothed and experimental curves was observed positionofmetallicPd,Figure3.Theobtaineddataallowsusto
+(standarddeviation<1%). estimatethatca.2/3s ofPdinthePdAu /PSicatalystispresent
+2
+intheformofbimetallicparticles,while1/3rdispresentinthe
+RESULTS form of pure Pd. Assuming the similar particle size and taking
+into account the significant dilution by gold in the bimetallic
+Catalysts Characterization particlesthequantitativeratioofbimetallictopurePdparticles
+Table1 shows actual metal loading, specific surface area and inthecatalystcouldbeestimatedtobenot<8,thusindicating
+pore volume of the prepared samples. The metal loading was thatthemajorityofparticlesarebimetallic.
+close to the calculated value for all the samples studied. S BET PdAu 2 /PSi and Pd-Au/PSi catalysts were studied by TEM
+changed from 154 m2 g −1 for the pure PSi to 104 m2 g −1 for and EDX. PdAu 2 /PSi contains agglomerates of bimetallic
+the PdAu /PSi, respectively. V decreased synchronously with nanoparticles with the sizes in the range of 5–10nm, see
+2 p
+S from0.25cm3g −1forthepurePSito0.17cm3g −1forthe Figures4a,b. According to the EDX data, composition of the
+BET
+PdAu /PSi. nanoparticlesisnon-uniform:someparticlesareenrichedbyPd.
+2
+PSi contains surface H-terminal atoms, which can act as an However, the average composition of agglomerates is close to
+internalsurfacereducingagentfacilitatingmetalreduction.The Pd 0.25 Au 0.75 , that was also identified by the XRD. Figures4c,d
+presenceofsuchH-terminalatomsinfresh(asreceivedsamples showthatPd-Au/PSialsocontainstheagglomeratesofbimetallic
+stored on air) non-oxidized PSi support and catalyst samples nanoparticles with the sizes in the range of 3–20nm. The
+was monitored by FTIR. Figure2 shows IR-spectra of the PSi composition of nanoparticles is non-uniform and varies from
+support before catalyst preparation and of Pd/PSi, Au/PSi, Pd- purePdtoAu-enrichedalloys.ThepeaksofPd-AualloysatXRD
+Au/PSi,andPdAu 2 /PSicatalysts.ThePSispectrumcontainsthe patterns of PdAu 2 /PSi and Pd-Au/PSi catalysts have a certain
+TABLE1|Catalyst’smetalloading,specificBETsurfaceareaandporevolume.
+Catalyst Precursor SBET,m2/g Vp,cm3/g Pd,wt.% Au,wt.% Pd/(Pd+Au)atomic
+ratio
+PSi – 154 0.25 0 0 –
+Au/PSi H[AuCl4] 133 0.20 0 5 1
+Pd/PSi [Pd(NH3)4](NO3)2 141 0.20 2.1 0 0
+Pd-Au/PSi H2[PdCl4]+H[AuCl4] 127 0.19 2.1 2 0.66
+PdAu2/PSi [Pd(NH3)4][AuCl4]2 104 0.17 1.9 7.3 0.33
+FrontiersinChemistry|www.frontiersin.org 5 March2018|Volume6|Article85
+
+Potemkinetal. Pd-Au/PSiforDirectHydrogenPeroxideSynthesis
+Figure5 shows the X-ray photoelectron spectra of the
+bimetallicPd-Aucatalystsincomparisonwiththemonometallic
+Pd/PSiandAu/PSisamples.SpectralSi2p-regionswerethesame
+forallstudiedsamplesandconsistedofthreecomponentswith
+BE(Si2p) of ∼99, 101 and 103.3eV. According to the literature
+data,Si2ppeakswithBE∼99and103.3eVcanbeattributedto
+Si0 andoxidizedSi4+ (SiO -type)species,respectively(Wagner
+2
+etal.,2013).ThepositionofoxidizedSi4+
+peakwasfoundtobe
+stableduringspectraregistrationandwaschosenasareference
+for spectra calibration. The Si2p peak with BE ∼101eV was
+characterized by the lowest intensity and could be interpreted
+asaninterfaceSiO betweensiliconandsurfaceoxidizedSiO -
+x 2
+typelayer.Thequantitativeratiobetweendifferentsiliconstates
+is given in Table3. Therefore, surface of porous silicon used
+as a support material was found to be partiallyoxidized, which
+is expected for PSi materials not stored in an oxygen-free
+FIGURE2|TheIR-spectraofPSisupportandPd/PSi,Au/PSi,Pd-Au/PSi,
+environment.
+andPdAu2/PSicatalysts.
+Quantitative XPS analysis has also shown that surface Pd
+amount was similar for bimetallic and monometallic samples
+(Pd/Si∼0.013), while gold amount was found to be lower
+for bimetallic catalyst (Au/Si∼0.006 and 0.0025) than for
+Au/PSi(Au/Si∼0.031).Thisindicatesenrichmentofthesurface
+of the bimetallic samples by palladium. Surface palladium
+enrichment can be caused by interaction with oxygen followed
+by formation of the oxidized palladium species (Hilaire et al.,
+1981). As seen from Figure5, two doublet components with
+BE ∼335.2 and 336.6eV identified as Pd3d 5/2 were observed
+in Pd3d spectra for all studied samples. The doublet with BE
+∼335.2eV can be attributed to metallic palladium, while the
+second Pd3d component is caused by the presence of oxidized
+Pd2+
+state, probably, in PdO form (Smolentseva et al., 2011).
+Hence, the observed segregation of palladium can be related
+to the process of surface oxidation. The amount of
+Pd2+
+was
+similar for all the studied catalysts and equal to ca. 30%, see
+Table3.
+Detailed XPS analysis of the Au-containing samples showed
+FIGURE3|XRDpatternsofPSisupportandPd/PSi,Au/PSi,Pd-Au/PSi,and presence of two Au4f doublet components with BE ∼83.7 and
+PdAu2/PSicatalysts. 85.1eV (Au4f 7/2 ). These were attributed to metallic Au0 and
+weakly oxidized
+Auδ+
+species, respectively (Ballestero et al.,
+TABLE2|Catalystsphasecomposition,relatingtoFigure3. 2015).
+Results of the analysis of the catalysts’ surface composition
+Catalyst Phasecomposition Crystallitesize(DXRD),nm reveal that the surface of the bimetallic Pd-Au nanoparticles is
+enrichedbyPdatomspresentinPd0 andPd2+ states.Itshould
+Au/PSi Au 5
+be noted that according to literature (Ouyang et al., 2015) the
+Pd/PSi Pd 12
+presence of both, Pd0 and PdO, forms on the catalysts surface
+Pd-Au/PSi Pd0.35Au0.65 5.5
+is required for the catalysts to be active in direct synthesis
+Pd 6.3
+ofH O .
+2 2
+PdAu2/PSi Pd0.25Au0.75 4
+One can conclude that the Pd-Au/PSi catalyst prepared by
+the conventional H [PdCl ] and H[AuCl ] precursors contains
+2 4 4
+monometallic Pd and a wide range of different Pd-Au solid
+degree of asymmetry, indicating the non-uniformity of alloy solution nanoparticles over the oxidized PSi surface, whereas
+nanoparticlescomposition,inagoodagreementwithEDXdata. the PdAu /PSi catalyst prepared by [Pd(NH ) ][AuCl ]
+2 3 4 4 2
+Theanalysisofdistributionofparticlescompositionandcomplex DCS single-source precursor reduction predominantly
+XRDfittingrequiresmuchwiderarrayofTEMandEDXdataand contains bimetallic Pd-Au solid solution nanoparticles with
+isoutofthescopeofthiswork.However,themajorityofmetallic the composition close to Pd Au . For both catalysts
+0.25 0.75
+particlesinPd-Au/PSiandpracticallyallinPdAu /PSicatalysts surface of bimetallic nanoparticles is Pd-enriched and contains
+2
+arebimetallic.
+palladiuminPd0andPd2+
+states.
+FrontiersinChemistry|www.frontiersin.org 6 March2018|Volume6|Article85
+
+Potemkinetal. Pd-Au/PSiforDirectHydrogenPeroxideSynthesis
+FIGURE4|TEMimagesofPdAu2/PSi(a,b)andPd-Au/PSi(c,d)catalystsandEDXanalysisdata(a,c).
+H 2 O 2 Direct Synthesis synthesis. For all the Pd-based catalysts H 2 O 2 concentration
+ThePSisupportedcatalystsweretestedinH O directsynthesis grows nearly linearly with time, H conversion is constant,
+2 2 2
+at T = −10 ◦ C and P = 1 bar in a batch reactor with bubbling while selectivity slowly decreases. The H O concentration of
+2 2
+H -O gas mixture and 0.03M H SO methanol solution as a ca.6mMwasreachedoverPd/PSiafter5honstreamatX of
+2 2 2 4 H2
+reactionmedia.Methanolcouldbesuggestedasoneofthebest 10%andS decreasefrom25to20%.ThePd-Au/PSicatalyst
+H2O2
+solvents for this reaction due to high H and O solubilities, was more active: [H O ] of ca. 9mM was reached after 5h on
+2 2 2 2
+inability to form dangerous organic peroxides and the fact that streamatX of15%andS decreasefrom25to20%.The
+H2 H2O2
+it is a favorable solvent for many oxidation reactions involving Pd/PSi and Pd-Au/PSi catalysts exhibited similar selectivity vs.
+H O (Melada et al., 2006), such as propylene epoxidation time dependencies. This could be associated with the presence
+2 2
+process(Biasietal.,2013). of monometallic Pd nanoparticles in both catalysts. Higher
+After each catalytic test the catalyst powder was filtered activity of Pd-Au/PSi could be associated with higher metal
+and the residual reaction media was tested in the reaction dispersion.
+conditions for 1h in order to check metal leaching from The PdAu /PSi catalyst exhibited the best performance in
+2
+the catalysts. None of the filtrates showed any activity in the direct H O synthesis. H O concentration of ca. 23mM
+2 2 2 2
+H O synthesisordecomposition,indicatingthatPSi-supported was reached after 5h on stream at X of 23% and S
+2 2 H2 H2O2
+metallicnanoparticleswerestableunderthereactionconditions decreases from ca. 50 to ca. 45%. High activity of PdAu /PSi
+2
+tested, or leached metals were inactive in any relevant catalytic inH oxidationcouldbeassociatedwithhighmetaldispersion
+2
+reactions. Filtered catalyst powders were recycled to the 2nd (4nm for PdAu /PSi vs. 5–6nm for Pd-Au/PSi vs. 12nm for
+2
+3h long catalytic run and properties of all catalysts were fully Pd/PSi), while high selectivity toward H O synthesis could be
+2 2
+reproducedwithrespecttoamountofcatalystrecycled. associated with the major part of Pd in the catalyst being in
+Figure6 shows the time course of H O concentration theformofbimetallicPd-Aunanoparticles,sincemonometallic
+2 2
+(Figure6A), H conversion (Figure6B) and selectivity Pd nanoparticles are known to be active in the undesirable
+2
+(Figure6C) for the direct H O synthesis over Pd/PSi, H O hydrogenationreaction.TheobtaineddataonH O direct
+2 2 2 2 2 2
+Au/PSi, Pd-Au/PSi ,and PdAu /PSi catalysts. It is seen that the synthesisshowsthatbimetallicPSi-supportedcatalystsaremore
+2
+Au/PSi catalyst was inactive in the direct H O synthesis as active and selective (in the case of PdAu /PSi), compared with
+2 2 2
+well as in complete H oxidation: H conversion was < 4%. themonometallicPd/PSi,whichisnotsurprising(Edwardsetal.,
+2 2
+The Pd-containing catalysts were active in the direct H O 2015;LiandYoshizawa,2015).
+2 2
+FrontiersinChemistry|www.frontiersin.org 7 March2018|Volume6|Article85
+
+Potemkinetal. Pd-Au/PSiforDirectHydrogenPeroxideSynthesis
+FIGURE5|PhotoelectronSi2p-,Au4f-,andPd3d-XPspectraofPd/PSi,Au/PSi,Pd-Au/PSi,andPdAu2/PSicatalysts.
+TABLE3|XPSdataonthesurfacecompositionofthecatalysts. were close to that for H 2 O 2 synthesis in this work. As initial
+reaction media 0.07M H O /0.03M H SO methanol solution
+2 2 2 4
+Catalyst Pd/PSi Au/PSi Pd-Au/PSi PdAu2/PSi waschosen.Thereactionswerecarriedoutat−10 ◦ C.
+(Pd/Si)·102 1.3 – 1.1 1.4 At first, the reaction of H 2 O 2 decomposition was studied.
+(Au/Si)·102 – 3.1 0.6 2.5 Figure7A shows the time course of H 2 O 2 concentration for
+H O decomposition over Pd/PSi, Au/PSi, Pd-Au/PSi, and
+Pd/Au – – 1.8 0.6 2 2
+Pd2+,% 31 – 27 29 PdAu 2 /PSi catalysts. It is seen, that H 2 O 2 concentration was
+Auδ+,% – 8 – 13 constant for the Pd/PSi, Au/PSi, and PdAu 2 /PSi catalysts and
+negligibly decreased in the case of Pd-Au/PSi. This indicates
+Si0,% 18 20 19 22
+that all studied catalysts were generally inactive in H O
+SiOx,% 5 6 6 5 2 2
+decomposition.
+Si4+,% 77 75 75 73
+Figure7B shows the results on H O hydrogenation over
+2 2
+the Pd/PSi, Au/PSi, Pd-Au/PSi, and PdAu /PSi catalysts. It is
+2
+It was shown, that for Pd/PSi, Pd-Au/PSi, and PdAu 2 /PSi seen, that H 2 O 2 concentration was practically constant during
+catalysts selectivity of H O synthesis slowly decreased with 5h over Au/PSi, indicating that Au/PSi was practically inactive
+2 2
+time, while H 2 conversion remained constant (Figures6B,C). in H 2 O 2 hydrogenation. Over Pd/PSi and PdAu 2 /PSi catalysts
+It could be caused by the occurrence of the undesirable H 2 O 2 concentrationslowlydecreasedfrom70mMtoca.55mM
+H 2 O 2 decomposition and hydrogenation reactions. In order after5honstream.Pd-Au/PSiwasthemostactiveoneinH 2 O 2
+to elucidate the influence of these reactions the H 2 O 2 hydrogenation:H 2 O 2 concentrationdecreasedfrom70to36mM
+decomposition and hydrogenation reactions were studied over after5honstream.ThedifferencesinbehaviorofthePd-based
+PSi-supportedcatalysts. catalysts are caused by the different phase compositions and
+dispersionsoftheactivecomponent.ThePdAu /PSicatalystwas
+2
+H 2 O 2 Decomposition and Hydrogenation less active in H 2 O 2 hydrogenation than Pd-Au/PSi and Pd/PSi
+InordertostudystabilityofthesynthesizedH O atthereaction despite the higher metal dispersion due to the presence of the
+2 2
+conditions a number of experiments on H O decomposition majorpartofPdinthecatalystintheformofbimetallicPd-Au
+2 2
+and hydrogenation were carried out. Experimental conditions nanoparticles.
+FrontiersinChemistry|www.frontiersin.org 8 March2018|Volume6|Article85
+
+Potemkinetal. Pd-Au/PSiforDirectHydrogenPeroxideSynthesis
+FIGURE7|ThetimecourseoftheH2O2concentrationfortheH2O2
+decomposition(A)andreduction(B)overthePd/PSi,Au/PSi,Pd-Au/PSiand
+PdAu2/PSicatalysts.P=1bar.T=−10◦C.Reactionmedia:100mLofaca.
+70mM/0.03MH2SO4methanolsolution.Gasflowrate:(A)50ml(STP)
+min−1He;(B)2ml(STP)min−1H2;and48ml(STP)min−1He.Catalyst
+loading:50mg.
+DISCUSSION
+AmongthecatalystsstudiedinthepresentworkthePdAu /PSi
+2
+one showed the highest activity and selectivity in the direct
+synthesis of H O . This is due to its high activity in H O
+2 2 2 2
+synthesis reaction as well as low activity in the undesirable
+FIGURE6|ThetimecourseoftheH2O2concentration(A),H2conversion
+H O decomposition and hydrogenation side reactions. We
+(B),andH2O2selectivity(C)forthedirectH2O2synthesisoverthePd/PSi, 2 2
+Au/PSi,Pd-Au/PSi,andPdAu2/PSicatalysts.P=1bar.T=−10◦C.Reaction assign excellent performance of the PdAu 2 /PSi catalyst to
+media:100mLofa0.03MH2SO4methanolsolution.Gasflowrate:2ml the fact that most of Pd in the catalyst is in the form
+(STP)min−1H2and48ml(STP)min−1O2.Catalystloading:50mg.
+of bimetallic Pd-Au nanoparticles. The preferred method of
+synthesisofsupportedbimetallicPd-Aunanoparticleswasfound
+to be based on DCS [Pd(NH ) ][AuCl ] reduction inside
+3 4 4 2
+the PSi’s pore space by the surface H-terminal atoms. The
+Thus, one can conclude that, unlike H O decomposition, alloy nanoparticles are the primary product of DCS reduction.
+2 2
+H O hydrogenation significantly influences direct H O Prevention of intermediate formation of monometallic Pd
+2 2 2 2
+synthesis over the Pd/PSi, Pd-Au/PSi and PdAu /PSi and Au grains allows one to obtain bimetallic nanoparticles
+2
+catalysts, decreasing reaction selectivity and limiting the under very mild conditions. The composition of the formed
+maximum reachable H O concentration. Among the Au Pd nanoparticles is relatively close to the DCS
+2 2 0.75 0.25
+catalysts studied the PdAu /PSi is the least active in H O stoichiometry.Thus,itcouldbeconcluded,thatthepresenceof
+2 2 2
+hydrogenation. specificchemicalinteractionbetweenthePdandAuprecursors
+FrontiersinChemistry|www.frontiersin.org 9 March2018|Volume6|Article85
+
+Potemkinetal. Pd-Au/PSiforDirectHydrogenPeroxideSynthesis
+promotes formation of supported bimetallic nanoparticles and,
+therefore, active and selective catalyst, while the application
+of conventionally used joint water solutions of Pd and
+Au chlorides leads to the formation of a wide range of
+different Pd-Au bimetallic nanoparticles as well as pure Pd
+and Au ones (e.g., the case of Pd-Au/PSi) (Edwards et al.,
+2009).
+Despite the fact that surface of as received PSi was H-
+terminated, the surface of as-prepared catalysts was mostly
+covered by a SiO layer. From one side it presents the 2
+possibility for strong metal-support interaction (SMSI) in the
+Pd x Au 1−x -PSi system, which is generally favorable for H 2 O 2
+direct synthesis catalysts due to electron transfer from Pd (Yi
+et al., 2016). However, the SMSI effect in the Si-based systems
+is typically observed after high temperature reduction and is
+associated with silicide phases or layers formation (Ueckert
+et al., 1997). This is not the case here. From the other side SiO is an acidic support with low value of surface isoelectric 2
+point of about 2, which is desirable for stabilization of the
+formed H O . Also, the SiO layer encapsulates the possible
+2 2 2
+undesirablecontaminationsandprovidesthematerialinertness
+with respect to H O decomposition and hydrogenation 2 2 reactions. Gemo et al. (2015) and Ouyang et al. (2015) highlighted
+the key role of Pd2+ /Pd0 surface ratio on the Pd catalysts
+performance in the direct synthesis of H O . Simultaneous
+2 2
+presence of Pd0 and Pd2+ sites at the surface is required to
+provide dissociative H adsorption and non-dissociative O
+2 2
+adsorption.Thesingle-metalPdcatalyststendtooxidationunder
+reaction conditions that is undesirable (Gemo et al., 2015).
+HighvaluesofHL/Pdratio(HL–theconcentrationofhydrogen
+2 2
+dissolved in liquid media) and Pd particle size increase lead to
+thestabilizationofPd0surfacesites.WebelievethatAuaddition
+to Pd together with selective formation of Pd-Au bimetallic
+particles increases its resistance toward oxidation as Au is a
+“very noble” metal. The Pd-Au particle size in the PdAu /PSi 2
+catalystisnotverysmall.AllthesefactorsprotectPdsurfacefrom
+deep oxidation under reaction conditions and help to provide
+the acceptable Pd2+ /Pd0 surface ratio and reach higher H O 2 2
+selectivity.
+The properties of PdAu /PSi in direct H O synthesis
+2 2 2
+were compared with other Pd-based catalytic systems. Table4
+summarizes the literature data on catalytic performance and
+reaction conditions. PdAu /PSi catalyst studied in the present
+2
+work showed the H O productivity of 0.5 mol g
+−1
+h
+−1
+2 2 Pd
+or 12.3 mol kg −1 h−1 at selectivity of 50%, that is lower cat
+than the productivity of the best-known catalysts. The lower
+H O production rate could be associated with low reaction 2 2
+temperatureof−10◦C.Thehighestvaluesofproductivitywere
+obtainedforPd Au Cs H PW O (29.4molg
+−1h−1)
+0.1 0.0333 2.5 0.2 12 40 Pd
+(Ntainjua et al., 2012) and Pd-Au/C (6.4 mol g −1 h−1)
+Pd
+(Edwards et al., 2009) catalysts. However, these studies utilized
+elevated pressures of 40 and 37 atm, respectively. In the
+works Bernardotto et al. (2009) and Ouyang et al. (2015),
+the experiments were carried at atmospheric pressure and
+the productivity values of 3.0 mol g −1 h−1 for Pd/TiO
+Pd 2
+.smetsysdesab-dPtnereffidrevosisehtnys2O2HtceridrofsnoitidnocnoitcaerdnaecnamrofreptsylatacfonosirapmocehT|4ELBAT
+.secnerefeR
+deh
+%
+c . a tw er
+, m ]2
+u O m 2H
+ix
+[ aM
+,yti
+2 v O h it 2 · c d H u P lo g d m orP
+,yti
+2 v h O i · t 2 t c a H c u l g o d k m orP
+%,
+2O2HS
+tnevloS
+noitisopmocsaG
+rab,P
+C◦,T
+tsylataC
+krowsihT
+a1.0
+5.0
+3.21
+05
+HO3HC,4OS2H
+2H4,2O69
+1
+01−
+iSP/2uAdP
+5102,.lategnayuO
+–
+0.3
+9.92
+06
+HO5H2C,4OS2H
+2N52,2H51,2O06
+1
+01
+2OiT/dP
+9002,.lateottodranreB
+a4.0
+1
+7.31
+06
+HO3HC,4OS2H
+2H4,2O69
+1
+52
+2OrZ/2uAdP
+b6.0
+5002,.latesdrawdE
+3.0
+9.2
+46
+06
+HO3HC,O2H
+2OC5.98,2H5.3,2O7
+73
+2
+2OiT/uA-dP
+2102,.lateaujniatN
+3.0
+4.92
+79
+–
+HO3HC,O2H
+2OC5.98,2H5.3,2O7
+04
+2
+04O21WP2.0H5.2sC3330.0uA1.0dP
+9002,.latesdrawdE
+0.1
+4.6
+061
+89
+HO3HC,O2H
+2OC5.98,2H5.3,2O7
+73
+2
+C/uA-dP
+.maertsnoh5retfAa .maertsnoh21retfAb
+FrontiersinChemistry|www.frontiersin.org 10 March2018|Volume6|Article85
+
+Potemkinetal. Pd-Au/PSiforDirectHydrogenPeroxideSynthesis
+(Svintsitskiyet al.,2013)and 1.0mol g −1 h −1 for PdAu /ZrO • TheDCS[Pd(NH ) ][AuCl ] reductioninsidetheporespace
+Pd 2 2 3 4 4 2
+(Bernardotto et al., 2009) were obtained. These are closer to ofthesupportpromotestheselectiveformationofPd-Aualloy
+the results obtained for the PdAu /PSi catalyst, taking into nanoparticlesunderverymildconditions.
+2
+account the higher reaction temperatures: 10 ◦ C for Pd/TiO • The composition of formed supported bimetallic Pd-Au
+2
+◦
+and 25 C for PdAu /ZrO . Also, similar selectivities were nanoparticlesisclosetothestoichiometryofDCS.
+2 2
+obtained: 60% for Pd/TiO and PdAu /ZrO vs. 50% for • The Pd-Au catalysts prepared by DCS [Pd(NH ) ][AuCl ]
+2 2 2 3 4 4 2
+PdAu /PSi. reductionisactiveindirectH O synthesis.
+2 2 2
+Asindicatedabove,theminimalrequiredH O concentration • PSiisporousmaterialthatcouldeffectivelyenhancedispersion
+2 2
+produced by direct synthesis for practical applications is ofsupportedmetalnanoparticles.
+estimatedtobe1wt.%or0.23Minamethanolsolution(Garcia- • PSi with partially oxidized surface is an inert material
+Serna et al., 2014). In Edwards et al. (2005) and Ntainjua et al. with respect to undesirable H O decomposition and
+2 2
+(2012) the maximum reached H O concentration was ca. 0.3 hydrogenationreactionsandthuscouldbeusedasacatalysts
+2 2
+wt.% and was limited by the reaction of H O hydrogenation. supportfordirectH O synthesisreaction.
+2 2 2 2
+TheperfectlyselectivePd-Au/CcatalystallowedtoreachH O • The surface of PSi-supported catalysts is coated by Si0 and
+2 2
+concentration of more than 1.0 wt.% by several gas top- SiO sites and thus PSi could be easily wetted by different
+2
+◦
+ups in a closed batch system at 37 bar pressure and 2 C solvents,suchaswater,methanol,ethanol,andothers.
+(Edwards et al., 2009). The closer conditions of atmospheric • PSisupportedPd-Aucatalystsarequiteactiveandselectivein
+pressure and flowing gas feed were utilized in Bernardotto directH O synthesis.
+2 2
+et al. (2009) and H O concentrations of 0.4 and 0.6 wt.% • PSi’s surface H-terminal atoms could effectively reduce
+2 2
+were reached after 5 and 12h on stream, respectively. Thus, different Pd and Au precursors with the formation of
+the target of 1.0 wt.% was likely achievable. In the present bimetallic Pd-Au alloy nanoparticles. Thus bimetallic Pd-
+work the maximum H O concentration reached is 0.1 wt.% Au nanoparticles could be easily deposited onto already
+2 2
+after 5h on stream, which is less than that of the best establishedPSilayer.
+catalysts. The estimation of H O synthesis and hydrogenation • PSi is a promising support for direct hydrogen peroxide
+2 2
+rates for PdAu /PSi catalyst gives the maximum achievable synthesis from engineering point of view due to its high
+2
+H O concentration at the level of ca. 0.8 wt.%, which thermalstabilityandconductivity,possibilityofsafeoperation
+2 2
+could be reached by increasing reaction time and/or catalyst at high temperatures and pressures, and well-established
+loading. silicon processing techniques, providing the possibility to
+Thus,itisclear,thatfurthercatalystimprovementisrequired. design reactors of complex internal geometry with surface
+However, even at this point of development it is clear, that PSi poroussiliconlayers.
+supportedbimetallicPd-Ausystemisapromisingsystemtobe
+used in the continuous flow systems for direct H 2 O 2 synthesis. AUTHOR CONTRIBUTIONS
+Applyingtheelectrochemicaletchingtechnique,alayerofporous
+siliconcouldbefabricateddirectlyonthesiliconmicrochannel’s DP:catalyticexperiments,overallresultsanalysis;DM:catalytic
+surface and used as a support (Drott et al., 1997) for Pd- experiments; KL: FTIR experiments; PS: catalyst preparation,
+Au catalyst, avoiding the need of laborious catalyst deposition BETanalysis;YS:XRDanalysis;PP:precursorspreparation,ICP
+procedure.Ifso,siliconmicroreactorswithaporoussiliconlayer AESanalysis;DS:XPSanalysis;VS:resultsanalysis;AL:concept
+onto the channel walls with deposited Pd-Au nanoparticles is of PSi-supported catalysts, supervision of catalyst testing, and
+a very intriguing option for performing H 2 O 2 direct synthesis manuscriptpreparationandediting.
+due to enhanced control abilities (Srinivas et al., 2004; Huang
+et al., 2014), possibility of safe operation at high temperatures ACKNOWLEDGMENTS
+and pressures (Divins et al., 2011) and wide range of reactor
+geometriesavailable. The authors are grateful to Dr. V. I. Zaikowskii for assistance
+in HRTEM analysis. The work was supported by RFBR
+CONCLUSIONS Grant 16-33-60106_mol_a_dk. This research was, in part,
+supportedbytheNationalResearchFoundation,PrimeMinister’s
+In conclusion, we would like to point out key features of DCS Office, Singapore, under its CREATE program. We gratefully
+application as a precursor and porous silicon as a support for acknowledge inspiration to work with porous silicon from our
+directH O synthesiscatalysts: formercolleague,lateProfessorDK.
+2 2
+REFERENCES
+Bavykin,D.V.,Lapkin,A.A.,Plucinski,P.K.,Friedrich,J.M.,andWalsh,F.C.
+(2005). TiO2 nanotube supported ruthenium (III) hydrated oxide: a highly
+Ballestero, D., Juan, R., Ibarra, A., Gómez-Giménez, C., Ruiz, C., Rubio, B., activecatalystforselectiveoxidationofalcoholswithoxygen.J.Catal.235,
+etal.(2015).Effectofthermaltreatmentsonthemorphology,chemicalstate 10–17.doi:10.1016/j.jcat.2005.07.012
+andlatticestructureofgoldnanoparticlesdepositedontocarbonstructured Bernardotto, G., Menegazzo, F., Pinna, F., Signoretto, M., Cruciani, G., and
+monoliths.ColloidsSurf.A468,140–150.doi:10.1016/j.colsurfa.2014.12.017 Strukul,G.(2009).NewPd–PtandPd–Aucatalystsforanefficientsynthesis
+FrontiersinChemistry|www.frontiersin.org 11 March2018|Volume6|Article85
+
+Potemkinetal. Pd-Au/PSiforDirectHydrogenPeroxideSynthesis
+ofH2O2fromH2andO2underverymildconditions.Appl.Catal.A358, hydrogenperoxidewithaAuPd/TiO2catalystinaflowreactor.ACSCatal.3,
+129–135.doi:10.1016/j.apcata.2009.02.010 487–501.doi:10.1021/cs400004y
+Biasi,P.,Garcia-Serna,J.,Bittante,A.,andSalmi,T.(2013).Directsynthesisof Garcia-Serna,J.,Moreno,T.,Biasi,P.,Cocero,M.J.,Mikkola,J.-P.,andSalmi,
+hydrogenperoxideinwaterinacontinuoustricklebedreactoroptimizedto T.O.(2014).Engineeringindirectsynthesisofhydrogenperoxide:targets,
+maximizeproductivity.GreenChem.15,2502–2513.doi:10.1039/c3gc40811f reactorsandguidelinesforoperationalconditions.GreenChem.16,2320–2343.
+Bulushev,D.A.,Beloshapkin,S.,Plyusnin,P.E.,Shubin,Y.V.,Bukhtiyarov,V. doi:10.1039/c3gc41600c
+I.,Korenev,S.V.,etal.(2013).Vapourphaseformicaciddecompositionover Gemo, N., Sterchele, S., Biasi, P., Centomo, P., Canu, P., Zecca, M., et al.
+PdAu/γ-Al2O3catalysts:effectofcompositionofmetallicparticles.J.Catal. (2015). The influence of catalyst amount and Pd loading on the H2O2
+299,171–180.doi:10.1016/j.jcat.2012.12.009 synthesis from hydrogen and oxygen. Catal. Sci. Technol. 5, 3545–3555.
+Climent,M.J.,Corma,A.,Iborra,S.,andSabater,M.J.(2014).Heterogeneous doi:10.1039/C5CY00493D
+catalysisfortandemreactionsACSCatal.4,870–891.doi:10.1021/cs401052k Gu,J.,Wang,S.,He,Z.,Han,Y.,andZhang,J.(2016).Directsynthesisofhydrogen
+Coulthard, I., and Sham, T. K. (1998). Novel preparation of noble metal peroxidefromhydrogenandoxygenoveractivated-carbon-supportedPd-Ag
+nanostructures utilising porous silicon. Solid State Commun. 105, 751–754. alloycatalysts.Catal.Sci.Technol.6,809–817.doi:10.1039/C5CY00813A
+doi:10.1016/S0038-1098(97)10229-0 Hilaire,L.,Légaré,P.,Holl,Y.,andMaire,G.(1981).Interactionofoxygenand
+Coulthard,I.,deJiang,T.,Lorimer,J.W.,Sham,T.K.,andFeng,X.H.(1993). hydrogenwithPd-Aualloys:anAESandXPSstudy.Surf.Sci.103,125–140.
+Reductive deposition of Pd on porous silicon from aqueous solutions of doi:10.1016/0039-6028(81)90103-5
+PdCl2: an X-ray absorption fine structure study. Langmuir 9, 3441–3445. Huang, C. C., Huang, Y. J., Wang, H. S., Tseng, F. G., and Su, Y. C. (2014).
+doi:10.1021/la00036a018 A well-dispersed catalyst on porous silicon micro-reformer for enhancing
+Coulthard, I., Sammynaiken, R., Naftel, S. J., Zhang, P., and Sham, T. K. adhesioninthecatalyst-coatingprocess.Int.J.HydrogenEner.39,7753–7764.
+(2000). Porous silicon: a template for the preparation of nanophase doi:10.1016/j.ijhydene.2014.03.029
+metals and bimetallic aggregates. Phys. Stat. Sol. A 182, 157–162. Hulkoti, N. I., and Taranath, T. C. (2014). Biosynthesis of nanoparticles
+doi:10.1002/1521-396X(200011)182:1<157::AID-PSSA157>3.0.CO;2-O using microbes — a review. Colloids Surf. B Biointerfaces 121, 474–483.
+Dasog,M.,Kraus,S.,Sinelnikov,R.,Veinot,G.C.,andRieger,B.(2017).CO2to doi:10.1016/j.colsurfb.2014.05.027
+methanolconversionusinghydrideterminatedporoussiliconnanoparticles. Julkapli, N. M., and Bagheri, S. (2015). Graphene supported heterogeneous
+Chem.Commun.53,3114–3117.doi:10.1039/C7CC00125H catalysts: an overview. Int. J. Hydrogen Energy 40, 948–979.
+Dhakshinamoorthy,A.,Opanasenko,M.,Cejka,J.,andGarcia,H.(2013).Metal doi:10.1016/j.ijhydene.2014.10.129
+organic frameworks as heterogeneous catalysts for the production of fine Kraus, W., and Nolze, G. (2000). POWDERCELL 2.4, Program for the
+chemicals.Catal.Sci.Technol.3,2509–2540.doi:10.1039/c3cy00350g RepresentationandManipulationofCrystalStructuresandCalculationofthe
+Dittmeyer, R., Grunwaldt, J. D., and Pashkova, A. (2015). A review ResultingX-rayPowderPatterns.Berlin:FederalInstituteforMaterialsResearch
+of catalyst performance and novel reaction engineering concepts in andTesting.
+direct synthesis of hydrogen peroxide. Catal. Today 248, 149–159. Krumm, S. (1996). An interactive windows program for profile fitting
+doi:10.1016/j.cattod.2014.03.055 and size/strain analysis. Mater. Sci. Forum 228–231, 183–190.
+Divins,N.J.,López,E.,Roig,M.,Trifonov,T.,Rodríguez,A.,deRivera,F.G.,etal. doi:10.4028/www.scientific.net/MSF.228-231.183
+(2011).Amillion-channelCO-PrOxmicroreactoronafingertipforfuelcell Künzner,N.,Gross,E.,Diener,J.,Kovalev,D.,Timoshenko,V.Y.,andWallacher,
+application.Chem.Eng.J.167,597–602.doi:10.1016/j.cej.2010.07.072 D. (2003). Capillary condensation monitored in birefringent porous silicon
+Drott, J., Lindström, K., Rosengren, L., and Laurell, T. (1997). Porous silicon layers.J.Appl.Phys.94,4913–4917.doi:10.1063/1.1609643
+as the carrier matrix in microstructured enzyme reactors yielding high Lehmann, V., Stengl, R., and Luigart, A. (2000). On the morphology and the
+enzymeactivities.J.Micromech.Microeng.7,14–23.doi:10.1088/0960-1317/7/ electrochemicalformationmechanismofmesoporoussilicon.Mater.Sci.Eng.
+1/004 B69–70,11–22.doi:10.1016/S0921-5107(99)00286-X
+Edwards,J.K.,Freakley,S.J.,Lewis,R.J.,Pritchard,J.C.,andHutchings,G.J. Li,J.,andYoshizawa,K.(2015).Mechanisticaspectsinthedirectsynthesisof
+(2015).Advancesinthedirectsynthesisofhydrogenperoxidefromhydrogen hydrogenperoxideonPdAucatalystfromfirstprinciples.Catal.Today248,
+andoxygen.Catal.Today248,3–9.doi:10.1016/j.cattod.2014.03.011 142–148.doi:10.1016/j.cattod.2014.04.009
+Edwards, J. K., Pritchard, J., Piccinini, M., Shaw, G., He, Q., Carley, A. F., Litovchenko,V.G.,Gorbanyuk,T.I.,andSolntsev,V.S.(2017).Mechanismof
+etal.(2012).Theeffectofheattreatmentontheperformanceandstructure adsorption-catalytic activity at the nanostructured surface of silicon doped
+of carbon-supported Au–Pd catalysts for the direct synthesis of hydrogen withclustersoftransitionmetalsandtheiroxides.Ukr.J.Phys.62,605–614.
+peroxide.J.Catal.292,227–238.doi:10.1016/j.jcat.2012.05.018 doi:10.15407/ujpe62.07.0605
+Edwards, J. K., Solsona, B. E., Landon, P., Carley, A. F., Herzing, A., Maity,S.,andEswaramoorthy,M.(2016).Ni-Pdbimetalliccatalystsforthedirect
+Kiely, C. J., et al. (2005). Direct synthesis of hydrogen peroxide from synthesisofH2O2-unusualenhancementofPdactivityinthepresenceofNi.
+H2 and O2 using TiO2-supported Au–Pd catalysts. J. Catal. 236, 69–79. J.Mater.Chem.A4,3233–3237.doi:10.1039/C6TA00486E
+doi:10.1016/j.jcat.2005.09.015 Melada,S.,Rioda,R.,Menegazzo,F.,Pinna,F.,andStrukul,G.(2006).Direct
+Edwards,J.K.,Solsona,B.,Ntainjua,E.,Carley,A.F.,Herzing,A.A.,Kiely,C. synthesis of hydrogen peroxide on zirconia-supported catalysts under mild
+J.,etal.(2009).Switchingoffhydrogenperoxidehydrogenationinthedirect conditions.J.Catal.239,422–430.doi:10.1016/j.jcat.2006.02.014
+synthesisprocess.Science323,1037–1041.doi:10.1126/science.1168980 Menegazzo,F.,Manzoli,M.,Signoretto,M.,Pinna,F.,andStrukul,G.(2015).
+Ensafi, A. A., Jafari-Asl, M., Rezaei, B., Abarghoui, M. M., and Farrokhpour, H2O2directsynthesisundermildconditionsonPd–Ausamples:effectofthe
+H. (2015). Facile synthesis of Pt–Pd@Silicon nanostructure as an advanced morphologyandofthecompositionofthemetallicphase.Catal.Today248,
+electrocatalystfordirectmethanolfuelcells.J.PowerSources282,452–461. 18–27.doi:10.1016/j.cattod.2014.01.015
+doi:10.1016/j.jpowsour.2015.02.065 Munnik, P., de Jongh, P. E., and de Jong, K. P. (2015). Recent developments
+Fan, X., Zhang, G., and Zhang, F. (2015). Multiple roles of graphene in the synthesis of supported catalysts. Chem. Rev. 115, 6687–6718.
+in heterogeneous catalysis. Chem. Soc. Rev. 44, 3023–3035. doi:10.1021/cr500486u
+doi:10.1039/C5CS00094G Ntainjua, E. N., Piccinini, M., Freakley, S. J., Pritchard, J. C., Edwards, J. K.,
+Flytzani-Stephanopoulos, and Gates, B. C. (2012). Atomically dispersed Carley,A.F.,etal.(2012).DirectsynthesisofhydrogenperoxideusingAu-
+supported metal catalysts. Annu. Rev. Chem. Biomol. Eng. 3, 545–574. Pd-exchangedandsupportedheteropolyacidcatalystsatambienttemperature
+doi:10.1146/annurev-chembioeng-062011-080939 usingwaterassolvent.GreenChem.14,170–181.doi:10.1039/C1GC15863E
+Freakley,S.J.,He,Q.,Harrhy,J.H.,Lu,L.,Crole,D.A.,Morgan,D.J.,etal.(2016). Ogata,Y.H.,Tsuboi,T.,Sakka,T.,andNaito,S.(2000).Oxidationofporoussilicon
+Palladium-tincatalystsforthedirectsynthesisofH2O2withhighselectivity. indryandwetenvironmentsundermildtemperatureconditions.J.Porous
+Science351,965–968.doi:10.1126/science.aad5705 Mater.7,63–66.doi:10.1023/A:1009694608199
+Freakley,S.J.,Piccinini,M.,Edwards,J.K.,Ntainjua,E.N.,Moulijn,J.A.,and Ouyang, L., Tian, P.-F., Da, G.-J., Xu, X.-C., Ao, C., Chen, T.-Y., et al.
+Hutchings,G.J.(2013).Effectofreactionconditionsonthedirectsynthesisof (2015). The origin of active sites for direct synthesis of H2O2 on
+FrontiersinChemistry|www.frontiersin.org 12 March2018|Volume6|Article85
+
+Potemkinetal. Pd-Au/PSiforDirectHydrogenPeroxideSynthesis
+Pd/TiO2catalysts:interfacesofPdandPdOdomains.J.Catal.321,70–80. Tian, P., Xu, X., Ao, C., Ding, D., Li, W., Si, R., et al. (2017). Direct and
+doi:10.1016/j.jcat.2014.10.003 selective synthesis of hydrogen peroxide over palladium–tellurium catalysts
+Plyusnin,P.E.,Baidina,I.A.,Shubin,Y.V.,andKorenev,S.V.(2007).Synthesis, at ambient pressure. ChemSusChem 10, 3342–3346. doi: 10.1002/cssc.201
+crystalstructure,andthermalpropertiesof[Pd(NH3)4][AuCl4]2.Russ.J.Inorg. 701238
+Chem.52,371–377.doi:10.1134/S0036023607030138 Ueckert,T.,Lamber,R.,Jaeger,N.I.,andSchubert,U.(1997).Strongmetalsupport
+Polisski,S.,Goller,B.,Lapkin,A.,Fairclough,S.,andKovalev,D.(2008).Synthesis interactionsinaNi/SiO2catalystpreparedviasol-gelsynthesis.Appl.Catal.A
+andcatalyticactivityofhybridmetal/siliconnanocomposites.Phys.Stat.Sol.2, 155,75–85.doi:10.1016/S0926-860X(96)00384-5
+132–134.doi:10.1002/pssr.200802076 Vedyagin, A. A., Gavrilov, M. S., Volodin, A. M., Stoyanovskii, V. O.,
+Polisski, S., Goller, B., Wilson, K., Kovalev, D., Zaikovskii, V., and Lapkin, A. Slavinskaya, E. M., Mishakov, I. V., et al. (2013). Catalytic purification
+(2010). In situ synthesis and catalytic activity in CO oxidation of metal of exhaust gases over Pd–Rh alloy catalysts. Top. Catal. 56, 1008–1014.
+nanoparticlessupportedonporousnanocrystallinesilicon.J.Catal.271,59–66. doi:10.1007/s11244-013-0064-8
+doi:10.1016/j.jcat.2010.02.002 Vedyagin, A. A., Volodin, A. M., Stoyanovskii, V. O., Kenzhin, R. M.,
+Potemkin,D.I.,Filatov,E.Y.,Zadesenets,A.V.,andSobyanin,V.A.(2017).CO Slavinskaya,E.M.,Mishakov,I.V.,etal.(2014).Stabilizationofactivesites
+preferentialoxidationonPt0.5Co0.5andPt-CoOxmodelcatalysts:catalytic in alloyed Pd–Rh catalysts on γ-Al2O3 support. Catal. Today 238, 80–86.
+performance and operando XRD studies. Catal. Commun. 100, 232–236. doi:10.1016/j.cattod.2014.02.056
+doi:10.1016/j.catcom.2017.07.008 Wagner,C.D.,Riggs,W.M.,Davis,L.E.,Moulder,J.F.,andMuilenberg,G.
+Potemkin, D. I., Filatov, E. Y., Zadesenets, A. V., Snytnikov, P. V., Shubin, Y. E.(2013).HandbookofX-RayPhotoelectronSpectroscopy.EdenPrairie,MN:
+V.,andSobyanin,V.A.(2012).PreferentialCOoxidationoverbimetallicPt– Perkin-Elmer.
+Cocatalystspreparedviadoublecomplexsaltdecomposition.Chem.Eng.J. Yan,Y.,Miao,J.,Yang,Z.,Xiao,F.,Yang,H.,Liu,B.,etal.(2015).Carbonnanotube
+207–208,683–689.doi:10.1016/j.cej.2012.07.037 catalysts:recentadvancesinsynthesis,characterizationandapplications.Chem.
+Potemkin, D. I., Semitut, E. Y., Shubin, Y. V., Plyusnin, P. E., Snytnikov, Soc.Rev.44,3295–3346.doi:10.1039/C4CS00492B
+P. V., Makotchenko, E. V., et al. (2014). Silica, alumina and ceria Yashtulov,N.A.,andFlid,V.R.(2013).Regularitiesofformicacidoxidationinthe
+supported Au–Cu nanoparticles prepared via the decomposition of presenceofporoussiliconnanocompositeswithpalladium.Russ.Chem.Bull.
+[Au(en)2]2[Cu(C2O4)2]3•8H2O single-source precursor: synthesis, 62,1332–1337.doi:10.1007/s11172-013-0188-9
+characterization and catalytic performance in CO PROX. Catal. Today Yashtulov, N. A., Gavrin, S. S., Bondarenko, V. P., Kholostov, K. I., Revina,
+235,103–111.doi:10.1016/j.cattod.2014.04.026 A. A., and Flid, V. R. (2011). Formation of nanocomposite platinum
+Powder Diffraction File (2009). PDF-2/Release 2009. International Centre for catalystsonporoussilicon.Russ.Chem.Bull.60:434.doi:10.1007/s11172-011-
+DiffractionData. 0068-0
+Samanta,C.(2008).Directsynthesisofhydrogenperoxidefromhydrogenand Yashtulov, N. A., Zenchenko, V. O., Kuleshov, N. V., and Flid, V. R. (2016).
+oxygen:anoverviewofrecentdevelopmentsintheprocess.Appl.Catal.A350, Synthesis and catalytic activity of platinum/porous silicon nanocomposites.
+133–149.doi:10.1016/j.apcata.2008.07.043 Russ.Chem.Bull.65,2369–2374.doi:10.1007/s11172-016-1591-9
+Seo, M.-G., Kim, H. J., Han, S. S., and Lee, K.-Y. (2017). Direct synthesis Yi,Y.,Wang,L.,Li,G.,andGuo,H.(2016).Areviewonresearchprogressinthe
+of hydrogen peroxide from hydrogen and oxygen using tailored Pd directsynthesisofhydrogenperoxidefromhydrogenandoxygen:noble-metal
+nanocatalysts: a review of recent findings. Catal. Surv. Asia 21, 1–12. catalyticmethod,fuel-cellmethodandplasmamethod.Catal.Sci.Technol.6,
+doi:10.1007/s10563-016-9221-y 1593–1610.doi:10.1039/C5CY01567G
+Serp,P.,andCastillejos,E.(2010).CatalysisincarbonnanotubesChemCatChem Zhai, W., Ai, Q., Chen, L. N., Wei, S. Y., Li, D. P., Zhang, L., et al. (2017).
+2,41–47.doi:10.1002/cctc.200900283 Walnut-inspired microsized porous silicon/graphene core-shell composites
+Shubin,Y.,Plyusnin,P.,andSharafutdinov,M.(2012).Insitusynchrotronstudy forhigh-performancelithium-ionbatteryanodes.NanoRes.10,4274–4283.
+ofAu–Pdnanoporousalloyformationbysingle-sourceprecursorthermolysis. doi:10.1007/s12274-017-1584-5
+Nanotechnology23:405302.doi:10.1088/0957-4484/23/40/405302 Zhao,M.,Yuan,K.,Wang,Y.,Li,G.,Guo,J.,Gu,L.,etal.(2016).Metal–organic
+Simonov, A. N., Plyusnin, P. E., Shubin, Y. V., Kvon, R. I., Korenev, S. V., frameworksasselectivityregulatorsforhydrogenationreactions.Nature539,
+andParmon,V.N.(2012).Hydrogenelectrooxidationoverpalladium–gold 76–80.doi:10.1038/nature19763
+alloy:effectofpretreatmentinethyleneoncatalyticactivityandCOtolerance.
+Electrochim.Acta76,344–353.doi:10.1016/j.electacta.2012.05.043 Conflict of Interest Statement: The authors declare that the research was
+Smolentseva,E.,Kusema,B.T.,Beloshapkin,S.,Estrada,M.,Vargas,E.,Murzin, conductedintheabsenceofanycommercialorfinancialrelationshipsthatcould
+D.Y.,etal.(2011).Selectiveoxidationofarabinosetoarabinonicacidover beconstruedasapotentialconflictofinterest.
+Pd–Aucatalystssupportedonaluminaandceria.Appl.Catal.A392,69–79.
+doi:10.1016/j.apcata.2010.10.021 Thereviewer,YZ,andhandlingEditordeclaredtheirsharedaffiliation.
+Srinivas, S., Dhingra, A., Im, H., and Gulari, E. (2004). A scalable silicon
+microreactor for preferential CO oxidation: performance comparison with Copyright © 2018 Potemkin, Maslov, Loponov, Snytnikov, Shubin, Plyusnin,
+a tubular packed-bed microreactor. Appl. Catal. A Gen. 274, 285–293. Svintsitskiy,SobyaninandLapkin.Thisisanopen-accessarticledistributedunder
+doi:10.1016/j.apcata.2004.07.012 the terms of the Creative Commons Attribution License (CC BY). The use,
+Svintsitskiy, D. A., Chupakhin, A. P., Slavinskaya, E. M., Stonkus, O. A., distribution or reproduction in other forums is permitted, provided the original
+Stadnichenko, A. I., Koscheev, S. V., et al. (2013). Study of cupric oxide author(s)andthecopyrightownerarecreditedandthattheoriginalpublication
+nanopowdersasefficientcatalystsforlow-temperatureCOoxidation.J.Mol. in this journal is cited, in accordance with accepted academic practice. No use,
+Catal.A368–369,95–106.doi:10.1016/j.molcata.2012.11.015 distributionorreproductionispermittedwhichdoesnotcomplywiththeseterms.
+FrontiersinChemistry|www.frontiersin.org 13 March2018|Volume6|Article85
+

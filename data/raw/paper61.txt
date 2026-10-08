@@ -1,0 +1,707 @@
+TYPEOriginalResearch
+PUBLISHED13December2022
+DOI10.3389/fchem.2022.1081319
+Alloying effect of Ni-Mo catalyst
+in hydrogenation of
+OPENACCESS
+EDITEDBY N-ethylcarbazole for hydrogen
+SubhamayPramanik,
+OakRidgeNationalLaboratory(DOE),
+storage
+UnitedStates
+REVIEWEDBY
+AnupamSinghaRoy,
+PalackyUniversityOlomouc,Czechia Bin Wang1,2, Qian Dong1,2, Si-Yao Wang1,2, Pei-Ya Li1,2,
+MeenalKataria,
+UniversityofStuttgart,Germany Shi-Yuan Wang1,2, Shu-Han Lu1,2 and Tao Fang1,2*
+*CORRESPONDENCE 1ShaanxiKeyLaboratoryofEnergyChemicalProcessIntensification,SchoolofChemicalEngineering
+TaoFang,
+andTechnology,Xi’anJiaotongUniversity,Xi’an,China,2EngineeringResearchCenterofNewEnergy
+taofang@xjtu.edu.cn
+SystemEngineeringandEquipment,UniversityofShaanxiProvince,Xi’an,Shaanxi,China
+SPECIALTYSECTION
+ThisarticlewassubmittedtoCatalytic
+ReactionsandChemistry,
+asectionofthejournal
+FrontiersinChemistry LiquidorganichydrogenstoragewithN-ethylcarbazole(NEC)asacarrierisa
+RECEIVED27October2022 very promising method. The use of precious metal hydrogenation catalysts
+ACCEPTED02December2022 restrictsthedevelopmentinindustrialgrade.Efficientandlow-costhydrogen
+PUBLISHED13December2022
+storage catalysts are essential for its application. In this work, a Ni-Mo alloy
+CITATION catalyst supported by commercial activated carbon was synthesized by
+WangB,DongQ,WangS-Y,LiP-Y,
+impregnation method, and the Ni-Mo ratio and preparation conditions were
+WangS-Y,LuS-HandFangT(2022),
+AlloyingeffectofNi-Mocatalystin optimized.ThecatalystwascharacterizedbyXRD,XPS,H -TPR,SEM,andTEM.
+2
+hydrogenationofN-ethylcarbazolefor
+The results showed that the doping of Mo could dramatically promote the
+hydrogenstorage.
+Front.Chem.10:1081319. catalytic hydrogenation of N-ethylcarbazole by the Ni-based catalyst. More
+doi:10.3389/fchem.2022.1081319 than5.75wt%hydrogenationcouldbeachievedin4husingtheNi-Mocatalyst,
+COPYRIGHT and the selectivity of the fully hydrogenated product 12H-NEC could be
+©2022Wang,Dong,Wang,Li,Wang,Lu
+effectively improved. This result reduces the cost of hydrogenation catalysts
+andFang.Thisisanopen-accessarticle
+distributedunderthetermsofthe by more than 90% and makes liquid organic hydrogen storage a scaled
+CreativeCommonsAttributionLicense possibility.
+(CCBY).Theuse,distributionor
+reproductioninotherforumsis
+permitted,providedtheoriginal KEYWORDS
+author(s)andthecopyrightowner(s)are
+LOHCs,N-ethylcarbazole,Ni-basedcatalyst,hydrogenation,alloyingeffect
+creditedandthattheoriginal
+publicationinthisjournaliscited,in
+accordancewithacceptedacademic
+practice.Nouse,distributionor 1 Introduction
+reproductionispermittedwhichdoes
+notcomplywiththeseterms.
+Hydrogen energy is considered to be the ultimate clean energy solution (Crabtree,
+2017). Due to its low density, high diffusion with flammability and explosiveness, the
+large-scaleuseofhydrogenislimitedbythewayitisstoredandtransported(Grubeletal.,
+2020).Atthepresentstage,thecommercialhydrogenstoragemethodsaremainlyhigh-
+pressure gaseous hydrogen and low-temperature liquefied hydrogen, and yet they still
+cannotmeettherequirementsoflarge-scaleandlong-distancetransportationconsidering
+theprocesscomplexity,processenergylossandsafetyfactor(Muller,2019).Researchers
+have developed a series of hydrogen carriers, such as metal hydride, liquid organic
+hydrogencarriers(LOHCs),modifiedactivatedcarbonandglassmicrospheres,tofulfill
+industrialapplications(Renetal.,2017;Abdallaetal.,2018).Amongthesecandidates,
+LOHCs,whichhaveattractedwidespreadattentionbecauseoftheirhighstoragedensity,
+FrontiersinChemistry 01 frontiersin.org
+
+Wangetal. 10.3389/fchem.2022.1081319
+TABLE1Catalyticperformanceofnickel-containinghydrogenationcatalystsreported.
+Catalysts ThemassratioofcatalysttoNEC Diluting Conditions Time/ H update/ References
+2
+h wt%
+5wt%Ru-Ni/TiO2 .05 No 150°C,7MPa 24 5.65 Yuetal.(2020)
+.1wt%Rh-15wt%Ni/γ- .05 No 160°C,6MPa 2 5.63 Liuetal.(2021)
+Al2O3
+70wt%Ni/AlSiO-1/1 .1 40mlN-hexane 150°C,7MPa 1.5 >5.75 Dingetal.
+(2021)
+5wt%Ni/Al2O3 .125 No 180°C,10MPa 1.5 >5.75 Wuetal.
+(2019b)
++4timesYH3tocatalyst No 150°C,3MPa 4.5 >5.75
+PureLaNi5.5 .1 No 180°C,7MPa 8 5.63 Yuetal.(2021)
+high safety, and compatibility with existing liquid fuel andtheyalsofocusedonthehydrogenationactivitycausedbythe
+infrastructure, are the optimum selection for large-scale and crystalformofTiO .Incontrast,Liuetal.(2021)preparedhigh-
+2
+medium/long-distance transportation of hydrogen (Preuster performance Rh-Ni/γ-Al O catalysts by doping very small
+2 3
+et al., 2017; He et al., 2019; Niermann et al., 2019). It achieves amounts of Rh in Ni. Ding et al. (2021) prepared Ni /AlSiO-
+70
+reversible reactions of hydrogenation and dehydrogenation in 1/1catalystsbyusinganewcarrierAlSiO-1,whichcouldweaken
+unsaturated bondswith thehelp ofspecific catalysts. the metal-carrier interaction and reduce the formation of
+The representative LOHCs are toluene, naphthalene, NiAl O species to facilitate the reduction of Ni. Wu et al.
+2 4
+dibenzyltoluene (DBT), and N-ethylcarbazole (NEC) (2019b) prepared catalysts by combining Ni/Al O with a
+2 3
+(Jorschick et al., 2017; Nakaya et al., 2020; Tuo et al., 2021; metal hydrogen storage material of YH as a catalyst, which
+3
+Xue et al., 2021). In 2004, aromatic heterocyclic organic significantly improved the hydrogenation process of NEC. Yu
+compounds were first proposed as hydrogen storage media etal.(2021)demonstratedthatthehydrogenstoragealloyLaNi
+5.5
+(Pez et al., 2008). Clot et al. (2007) found that the can be directly used for reversible hydrogenation and
+introduction of heteroatoms such as N and O in aromatic dehydrogenation of NEC with high efficiency and cycle
+heterocyclic compounds facilitates the dehydrogenation stability.ThepropertiesofthesecatalystsareshowninTable1.
+reaction by density functional theory (DFT). Among the Inthiswork,aNi Mo/ACbimetalliccatalystwassynthesized
+4
+LOHCs, NEC is the most favored. It is the first proposed and used for the hydrogenation reaction of NEC, which can
+LOHC that can achieve hydrogenation/dehydrogenation cycles accomplishefficientandhighlyselectivehydrogenationwithout
+below200°C.Ithaslowvolatilityandtoxicity,anditstheoretical usingpreciousmetals.Thecatalystcharacterizationrevealedthat
+hydrogen storage density can reach 5.79 wt% with a released Ni Mo/ACformedanalloystructureinthepreparationprocess.
+4
+hydrogenpurity of99.99%(Tcichmann etal., 2012). In addition, Ni Mo/AC can reduce the dissociation energy of
+4
+Efficient and economical hydrogen storage catalysts are hydrogenandthusimprovethecatalytichydrogenationactivity.
+essential for the industrial application of NEC. According to Thisworkcanprovideareferenceforthedesignandsynthesisof
+theliteraturestudies,loadedpreciousmetalcatalystshavebeen non-precious metal NEC hydrogenation catalysts with high
+widely used, including ruthenium-based catalysts for activity and highselectivity.
+hydrogenation and palladium-based catalysts for
+dehydrogenation (Wang et al., 2017; Wu et al., 2019a; Wang
+2 Materials and methods
+etal.,2019;Yuetal.,2020).Thekeychallengelimitingtheuseof
+non-preciousmetalcatalystsistheslowreactionkineticsandlow
+product selectivity. To reduce the feedstock cost while 2.1 Characterization methods
+maintaining an activity similar to precious metal catalysts,
+researchers have started to turn their attention to tuning the X-raydiffraction(XRD,BrukerD8)analysiswasperformed
+structureofnon-preciousmetalcatalysts,ofwhichnickel-based to determine the crystalline phase of the samples. Hydrogen
+catalysts are the main ones owing to their certain activity. The temperature programmed reduction (H -TPR, AutoChem1 II
+2
+main attempts are reducing the amount of precious metals by 2920) analysis was performed with a thermal conductivity
+doping with nickel, synthesizing nickel-containing alloy detector (TCD) to study the reduction behavior of the catalyst
+catalysts, and modifying the catalyst supports. The same precursor.InH -TPR,thepreparedsampleswerepretreatedbya
+2
+doping method was used in the research of Yu et al. (2020), programmed ramp-up at 10°C/min to 300°C dry under 30ml/
+FrontiersinChemistry 02 frontiersin.org
+
+Wangetal. 10.3389/fchem.2022.1081319
+FIGURE1
+StructuralcharacterizationofNi Mo/AC.(A,C)SEMimage.(B)EDSspectrum.(D–F)EDSelementalmappingofNiandMoinNi Mo/AC.
+4 4
+FIGURE2
+StructuralcharacterizationofNi4Mo/AC.(A–C)TEMimage.(D–F)EDSelementalmappingofNiandMoinNi4Mo/AC.
+FrontiersinChemistry 03 frontiersin.org
+
+Wangetal. 10.3389/fchem.2022.1081319
+FIGURE3
+(A)XRDpatternofNi Mo/AC.(B)H-TPRofsamplesbeforereduction.(C)High-resolutionXPSspectrumofNi2pinNi Mo/AC.(D)High-
+4 2 4
+resolutionXPSspectrumofMo3dinNi Mo/AC.
+4
+minArinertgasprotection,keptpurgedfor1handthencooled fraction of 15% and stirred for 24h. Then, the pH value was
+toroomtemperature,followedbyheatingfrom80°Cto800°Cat adjusted to eight and stirred for 3h. The mixture was washed
+10°C/minina10%H /Armixtureat30ml/min,andtheamount 3–5timesusingacentrifugetoensurethatthesupernatantwas
+2
+of H consumed was characterized by a thermal conductivity freeofchlorideions.Thecleanedsamplesweredriedinavacuum
+2
+detector (TCD). X-ray photoelectron spectroscopy (XPS, dryingovenat60°C.Thesampleswerehomogeneouslyground
+Thermo Scientific K-Alpha) was performed to analyze the withanagatemortarandthenheatedinatubefurnaceat10%
+metallic elements. The surface morphology and metal H /N for3hatacertaintemperaturetoobtaintheNiMo/AC
+2 2
+distribution of the catalysts were obtained using scanning catalyst.
+electron microscopy (SEM, Zeiss MERLIN Compact). The
+metal particle size of the catalyst was obtained using
+transmission electron microscopy (TEM, JEM2100F). 2.3 Hydrogen uptake experiment
+In a 100ml high-pressure reactor, 2g of NEC, 18ml of
+2.2 Preparation of catalysts decalin and 0.4g of catalyst were added. Argon was used to
+displacethegasinthereactor.Afterheatingto150°C,hydrogen
+AsimpleimpregnationmethodwasusedtoprepareNiMo/ gas was introduced to pressure the reactor to 8MPa. The
+ACcatalysts.First,1gofactivatedcarbon(AC)wasdispersedin temperature and pressure dataofthe reactor wererecordedby
+10ml of deionized water, and nickel chloride hexahydrate and sensors on a computer. The reaction was stopped after 4h
+ammoniummolybdatetetrahydrate wereaddedatatotalmass regardless of the extent of the reaction. After the reactor was
+FrontiersinChemistry 04 frontiersin.org
+
+Wangetal. 10.3389/fchem.2022.1081319
+3 Results and discussion
+Eight different nickel-molybdenum catalysts were
+prepared using conventional impregnation methods and
+then subjected to systematic physicochemical
+characterization and NEC hydrogenation reaction tests to
+investigate the effects of different nickel-molybdenum
+ratios and different reduction temperatures on the catalytic
+performance.
+3.1CatalystcharacterizationoftheNi Mo/
+4
+AC catalyst
+Thechemical composition and elemental profiles of the
+catalysts were obtained using SEM in combination with an
+EDSanalyzer.TheSEMimagesinFigures1A,Cshowsome
+morphological features of the Ni Mo/AC catalyst. The
+4
+surface of the material was rough, which was a common
+feature observed in the SEM images of the carbon support.
+TheEDSspectruminFigure1Bshowsthecompositionofthe
+preparedmaterials.Inthesample,C,Ni,andMowerefound
+tobepresentinlargeamounts.BothNiandMohaddouble
+peaks, and C had only a single peak, showing the relative
+amountsoftheseelements.Chasthemostintensepeak,asit
+was the main component of the carrier (Naushad et al.,
+2019). The different colors in the mapping image (Figures
+1D–F)ofNi Mo/ACshowedthedistributionofNiandMoin
+4
+thepreparedcatalyst.ThedistributionrevealedthatNiand
+Mowerehomogeneouslydispersedindifferentregionsofthe
+carbon-supportedsurfacewithoutobviousagglomerationor
+segregation.Suchauniformdistributionalsoimpliedthatan
+alloyofNiMowasformed(Wangetal.,2013).Thesebetter
+morphologies are rare in Ni-based catalysts made by gas
+reduction(ShanmuganandamandRamanan,2016;Wuetal.,
+2019b). In our preparation, proper metal loading based on
+the support and stable conditions contributed to this result
+together.
+To examine the crystal morphology and structure, the
+prepared Ni Mo/AC samples were studied by TEM. Figures
+4
+2A,BshowsTEMmicrographsoftheNi Mo/ACcatalyst.The
+4
+images illustrate the particle size and metal dispersion of
+Ni Mo/AC. It is obvious that the metal particles of Ni Mo/
+4 4
+ACexhibitedhighhomogeneity,asshownintheSEMimage
+FIGURE4 ofFigure1B.Thestatisticalanalysisofparticlesizeisgivenas
+Hydrogenationkineticsofdifferentcatalysts.(A)Different aninsetinFigure2A,showingthatfortheNi Mo/ACcatalyst,
+4
+loadingmetals;(B)Differentreductiontemperatures;(C)Different
+theaverageparticlesizewasapproximately9.75nmwithina
+Ni/Moratios.
+narrow range. In addition, the high-resolution image
+(Figure 2C) showed a lattice spacing of 0.210nm, which
+was consistent with 0.210nm for the Ni Mo (111) facet
+4
+cooled to room temperature, the product was collected to (Wang et al., 2021). This indicated the formation of an
+measure the composition using gas chromatography, and then ordered Ni Mo nickel-molybdenum alloy in the catalyst.
+4
+theamount ofhydrogen uptakewas identified. The mapping image (Figures 2D-F) further demonstrated
+FrontiersinChemistry 05 frontiersin.org
+
+Wangetal. 10.3389/fchem.2022.1081319
+TABLE2Hydrogenationactivitiesofdifferentcatalysts.
+Catalysts 12H-NEC/% 8H-NEC/% 4H-NEC/% NEC/% H uptake/wt%
+2
+Ni/AC 23.6 4.04 30.82 41.54 2.12
+Mo/AC .00 .00 .00 100.00 .00
+Ni3Mo/AC 97.11 2.89 .00 0.00 5.73
+Ni4Mo/AC-400°C 24.16 13.07 38.25 24.52 2.64
+Ni4Mo/AC-450°C 98.73 1.27 .00 .00 5.77
+Ni4Mo/AC-500°C 7.37 1.60 22.53 68.50 .92
+Ni5Mo/AC 94.96 5.04 .00 .00 5.69
+Temperature-programmedreduction(TPR)wasusedtostudy
+the interactions between the active components of the loaded
+catalysts. To evaluate the interactions between nickel and
+molybdenum, NiMo/AC, Ni/AC and Mo/AC samples before
+4
+reduction were subjected to H-TPR (Figure 3B). Under the
+2
+same conditions, all metals could be reduced. For Mo/AC
+(Supplementary Figure S1), two major peaks were observed,
+one at 360°C and the other at 470°C, as an inverse peak, which
+was due to the reaction of the sample to form MoC during the
+temperature-programmedreduction(Quetal.,2003).ForNi/AC,
+the maximum reduction temperature showed a broad band
+centered at 250°C and 350°C. In contrast, the H -TPR pattern
+2
+forNiMo/ACcouldbeobservedwithapeakat340°Candalap-
+4
+shoulder peak at 250°C. The H -TPR of Ni/AC and NiMo/AC
+2 4
+samplesbeforereductionwereanalyzedafterpeakfitting.Inthe
+former sample, the reduction peaks at 260°C, 296°C, and 344°C
+wereattributedtotheprogressivereductionofmetallicnickel,and
+the reduction peak at 485°C was attributed to the reduction of
+FIGURE5
+XRDpatternsofNi Mo/ACwithdifferentreduction surfaceandbulkoxygeninactivatedcarbon(Leetal.,2017).Inthe
+4
+temperatures.Theinsetimageshowsthetrendintheshiftofthe lattersamples,thereductionpeaksat224°C,332°C,and397°Cwere
+threemainpeaks.
+attributed to the reduction of metallic nickel, and the reduction
+peak at 437°C was attributed to the reduction of metallic
+molybdenum. The above split-peak results indicated that the
+the uniform dispersion of Ni and Mo on the carrier surface reduction process of nickel is changed after doping with
+and the formation of an alloy structure. molybdenum metal. These results suggested that the mixing of
+The powder XRD pattern of Ni Mo/AC is shown in Ni-Mometaldiffersfromthereductionprocessof elementalNi
+4
+Figure 3A. The diffraction peaks at 2θ values of 44.398°, overlyingelementalMoandthattherewasaninteractionbetween
+51.704°, and 76.264° corresponded to the (111), (200), and thetwometals,meaningthatanewalloywasformed.
+(220) facets of the Ni Mo alloy, respectively. The diffraction XPS was used to study the detailed information on the
+4
+peak of Ni Mo was shifted to a small angle compared to the distribution of elements Ni and Mo. The XPS spectra
+4
+standardcardofNi(PDF#04-0850),whichwasduetothedoping (Supplementary Figure S2) confirmed that only the expected
+ofmolybdenumwithalargeratomicweightthanthatofNi.In elementsNi,Mo,C,andOfrommetaloxidationwerepresentin
+addition,comparingtheXRDpatternsofNi Mo/ACandNi/AC the Ni Mo/AC catalyst. The corresponding Ni2p spectra and
+4 4
+(Figure3A),itcould beseenthatthehalf-peakwidthbecomes Mo3dspectraofNi Mo/ACareshowninFigures3C,D,where
+4
+larger, showing that the doping of a certain amount of Mo 853.66,856.37,860.13,and862.38eVcorrespondedtoNi,Ni2+,
+reduced the crystallinity of the pure nickel phase. These Ni3+and satellite peaks,228.53and 231.58eV corresponded to
+results indicated that an ordered Ni Mo alloy was formed on Mo,and232.97and236.02eVcorrespondedtoMo6+(Xiaoetal.,
+4
+the activated carbon after doping with a small amount of 2021).ThepossiblereasonforthepresenceofNiandMooxides
+molybdenum. was the oxidation caused by the catalyst transfer process, in
+FrontiersinChemistry 06 frontiersin.org
+
+Wangetal. 10.3389/fchem.2022.1081319
+FIGURE6
+XPSpatternsofNi4Mo/ACwithdifferentreductiontemperatures.(A,B)400°C;(C,D)450°C;(E,F)500°C.
+whichitiseasytoformanoxidelayeronthesurfaceowingtothe has no hydrogenation performance. Ni/AC had a lower
+active metal properties ofnanosized Ni and Mo. hydrogenation activity with only 58.46% conversion and
+23.6% selectivity for the final product at 4h. In contrast,
+Ni Mo/AC had a high catalytic activity, and finally, the 4-h
+4
+3.2 Catalytic performances conversion reached 100%. The final product selectivity was
+98.73%, and the hydrogen uptake amount reached 5.77 wt%.
+Thecatalyticperformanceofthepreparedcatalystsisshown This indicated that the hydrogenation performance of the
+inFigure4andTable2.InFigure4A,itcanbeseenthatMo/AC catalyst was greatly improved after doping with a certain
+FrontiersinChemistry 07 frontiersin.org
+
+Wangetal. 10.3389/fchem.2022.1081319
+TABLE3XPSdataofsamples.
+Sample name Reductiontemperature/°C Atomic percentage
+Ni Ni2+ Ni3+ sat Mo Mo6+
+Ni/AC 450 20.96 43.96 21.66 13.42 — —
+Ni3Mo/AC 450 21.94 42.45 15.1 20.51 25.64 74.36
+Ni4Mo/AC 450 21.26 42.19 15.28 21.26 23.33 76.67
+Ni5Mo/AC 450 19.28 43.79 15.69 21.24 32.14 67.86
+Ni4Mo/AC 400 20.47 43.26 15.28 20.98 16.67 83.33
+Ni4Mo/AC 500 17.73 45 15.91 21.36 41.18 58.82
+FIGURE7
+TEMimagesandparticlesizedistributionsofsampleswithdifferentreductiontemperatures(A)400°C,(B)500°C.
+amount of Mo, which has no activity in hydrogenation. As we only similar to that of Ni/AC. Characterizations were carried
+mentionedabove,thecatalystformedaNi Moalloy,whichcould out to analyze the cause of this phenomenon. XRD patterns
+4
+significantlyreducethedissociationenergyofhydrogen(Wang (Figure 5) showed that the diffraction peaks of Ni were most
+et al., 2021). This resulted in an enhancement of the contact significantlyshiftedtoasmallangleatareductiontemperature
+within active hydrogen atoms and LOHC molecules, thus of 450°C, which indicated the best doping effect of
+promotingthe formation ofC-Hbonds inthe N-heterocycles. molybdenum. The peaks in Ni Mo/AC-400°C did not exhibit
+4
+Thereductiontemperatureoftheloadedcatalystaffectsthe a significant shift. The XPS patterns (Figure 6) of the three
+morphologyandparticlesize,whichinturnaffectsthecatalytic catalysts showed a slightly higher Ni content in the metallic
+performance. The catalyst precursors were reduced for stateatareductiontemperatureof450°C.However,thevalence
+comparison at 400°C, 450°C, and 500°C, and a series of distribution of Mo is more significantly affected by
+characterizations were performed. The three catalysts were temperature, which directly reflects the alloying degree of
+also tested for the hydrogenation of NEC (Figure 4B). It can NiMo. Compared to Ni/AC, it can be claimed from the XPS
+be realized that the effect of temperature is non-linear. The fittingdata(Table3)thatNi Mo/AChadthehighestalloyingat
+4
+catalytic performance was best at a reduction temperature of 450°C. The excessively high 0-valent Mo content at 500°C
+450°C, followed by 400°C and 500°C. Although the reduction indicates that this temperature may be beneficial to the in
+temperature only differs by 50°C, the reactivity more than situ reduction of metallic Mo, making the segregation of Mo
+doubles. The activity of the catalyst prepared at 500°C is not more obvious. This can also be corroborated by its poorer
+asgoodasthatofNi/AC,whilethecatalystpreparedat400°Cis activity,whichisclosertothatofMo/AC.Thelow0-valentMo
+FrontiersinChemistry 08 frontiersin.org
+
+Wangetal. 10.3389/fchem.2022.1081319
+(Supplementary Figure S4) of the three catalysts showed
+approximately the same peak splitting results, and the
+difference also came from the valence distribution of Mo
+under different NiMo ratios. The reactivity is linearly
+related to the content of 0-valence Mo, that is, the degree
+of possible segregation. In addition, H -TPR tests were
+2
+performed on the prepared samples before reduction. The
+H -TPR patterns (Supplementary Figure S5) of the three
+2
+catalysts have similar shapes, but the highest reduction
+peaks were found for Ni Mo/AC, which may be responsible
+4
+forthehighalloyingofthecatalysts.Itcanberealizedthatthe
+differenceinalloyingdegreecausedbytheratiochangeisnot
+as significant as the effect of temperature, so the catalyst
+activity changes little by the ratio.
+4 Conclusion
+FIGURE8
+XRDpatternsofsampleswithdifferentratiosofNitoMo.The N-ethylcarbazoleis considered the most promising liquid
+insetimageshowsthetrendintheshiftofthethreemainpeaks.
+organic hydrogen carrier. However, the high cost caused by
+precious metal catalysts in the hydrogenation process limits
+their development to industrial grade. In this work, Ni Mo/
+4
+content at 400°C indicates that the reduction process of the AC bimetallic catalysts were prepared by the impregnation
+catalystswasnotcarriedoutthoroughlyenough.Thereduction method and used in the hydrogenation reaction of NEC to
+rateofMoatlowertemperaturescouldnotmatchtheformation reducethecostofhydrogenationcatalysts,andtheselectivity
+ofNi,sobetteralloyingcouldnotbeformed,whichcanalsobe of the final product 12H-NEC could be improved. By
+confirmed from the H 2 -TPR of Mo/AC. In addition, TEM maintaining high conversion and high selectivity, Ni 4 Mo/
+(Figure 7) of the three catalysts showed that the particle size AC has the lowest metal content, even among the reported
+of the catalysts gradually increased with increasing non-preciousmetal catalysts. Its manufacturing costismore
+temperature, but the larger particle size did not favor the than90%lowerthanthatofpreciousmetalsandcanguarantee
+catalytic hydrogenation process of NEC (Yu et al., 2020). At similaractivity.Theconversioncanreach100%in4hat150°C
+500°C,thehigherreductiontemperatureledtoacertainextent and 8MPa, and the selectivity of the final hydrogenated
+of aggregation of metals. The active sites are thus reduced, product can be 98.73% with 5.77% hydrogenation. This
+which also affects reactivity. Therefore, an appropriate performance attributed to the Ni Mo alloy can reduce the
+4
+reduction temperature of 450°C is an important condition to dissociationenergyofhydrogen.CombinedwithXRD,TEM,
+ensure catalyst activity by affecting alloying. SEM,H -TPR,andXPSanalyses,itwasfoundthatincreasing
+2
+ItwasfoundthatNiMo/ACcatalystswithdifferentNi-Mo the alloying degree and decreasing the metal particle size of
+ratiosalsohaddifferentcatalyticeffects.Threecatalystswith the catalysts could improve the hydrogenation activity and
+different Ni-Mo ratios, Ni 3 Mo/AC, Ni 4 Mo/AC, and Ni 5 Mo/ selectivity, which was affected by the reduction temperature
+AC, were prepared, and they were subjected to and metal ratio of the catalysts.
+characterization and NEC hydrogenation tests. The
+hydrogenation curves of the three catalysts are shown in
+Figure 4C. The best catalytic effect of Ni Mo/AC and the Data availability statement
+4
+worstcatalyticeffectofNi Mo/ACwereshown,whileNi Mo/
+5 3
+ACwasslightlymoreactivethanNi 5 Mo/AC.Similartowhat Therawdatasupportingtheconclusionofthisarticlewillbe
+we mentioned above, this could also be attributed to the made available bytheauthors, without undue reservation.
+alloying degree of nickel and molybdenum at different
+ratios. In the XRD patterns of all three catalysts (Figure 8),
+distinct nickel diffraction peaks could be observed, but the Author contributions
+nickel diffraction peaks in Ni Mo/AC were most clearly
+4
+shifted to a small angle, indicating that the best alloying BWdesignedthework,analyzedthedata,andpreparedthe
+effect was achieved at a Ni-Mo ratio of 4, followed by manuscript. QD carried out the catalyst synthesis and
+Ni 3 Mo/AC and then Ni 5 Mo/AC. The XPS patterns dehydrogenation experiments. SW carried out the data
+FrontiersinChemistry 09 frontiersin.org
+
+Wangetal. 10.3389/fchem.2022.1081319
+analysis and prepared figures. P-YL and SW carried out the Conflict of interest
+characterization.S-HLcarriedouttheGCanalysis.TFsupervised
+thework. Theauthorsdeclarethattheresearchwasconductedinthe
+absenceofanycommercialorfinancialrelationshipsthatcould
+be construed asapotential conflictofinterest.
+Funding
+The authors greatly appreciate the following financial Publisher’s note
+support: Special Guidance Funds for the Construction of
+World-Class Universities (Disciplines) and Characteristic All claims expressed in this article are solely those of the
+Development in Central Universities (PY3A076), National authorsanddonotnecessarilyrepresentthoseoftheiraffiliated
+Natural Science Foundation of China (Nos 21706203, organizations, or those of the publisher, the editors and the
+22005236, and 22075225), China Postdoctoral Science reviewers.Anyproductthatmaybeevaluatedinthisarticle,or
+Foundation (2019M663731, 2019M660258, and claimthatmaybemadebyitsmanufacturer,isnotguaranteedor
+22020T130508), Key Research and Development Program in endorsed bythe publisher.
+Shaanxi Province (2022QCY-LL-16), Natural Science Basic
+Research Plan in Shaanxi Province of China (2020JQ-023 and
+Supplementary material
+2022JZ-07), Fundamental Research Funds for the Central
+Universities (Nos cxtd2017004, xjj2018035, and
+xjh012020030 in Xi’an Jiaotong University), Shaanxi Creative The Supplementary Material for this article can be found
+Talents Promotion Plan-Technological Innovation Team online at: https://www.frontiersin.org/articles/10.3389/fchem.
+(2019TD-039). 2022.1081319/full#supplementary-material
+References
+Abdalla,A.M.,Hossain,S.,Nisfindy,O.B.,Azad,A.T.,andAzad,A.K.(2018). fortheremovalofcationicdyefromaqueousmediumusingargininemodified
+Hydrogenproduction,storage,transportationandkeychallengeswithapplications: activatedcarbon.J.Mol.Liq.293,111442.doi:10.1016/j.molliq.2019.111442
+A review. Energy Convers. Manag. 165, 602–627. doi:10.1016/j.enconman.2018.
+Niermann,M.,Beckendorff,A.,Kaltschmitt,M.,andBonhoff,K.(2019).Liquid
+03.088
+organichydrogencarrier(LOHC)-assessmentbasedonchemicalandeconomic
+Clot, E., Eisenstein, O., and Crabtree, R. H. (2007). Computational properties. Int. J. Hydrogen Energy 44, 6631–6654. doi:10.1016/j.ijhydene.2019.
+structure–activity relationships in H2 storage: How placement of N atoms 01.199
+affects release temperatures in organic liquid storage materials. Chem.
+Commun.,2231–2233.doi:10.1039/b705037b Pez,G.P.,Scott,A.R.,Cooper,A.C.,andCheng,H.(2008).Hydrogenstorageby
+reversiblehydrogenationofpi-conjugatedsubstrates.UnitedStates.
+Crabtree,R.H.(2017).Nitrogen-containingliquidorganichydrogencarriers:
+Progress and prospects. ACS Sustain. Chem. Eng. 5, 4491–4498. doi:10.1021/ Preuster,P.,Papp,C.,andWasserscheid,P.(2017).Liquidorganichydrogen
+carriers(LOHCs):Towardahydrogen-freehydrogeneconomy.Acc.Chem.Res.50,
+acssuschemeng.7b00983 74–85.doi:10.1021/acs.accounts.6b00474
+Ding,Y.,Dong,Y.,Zhang,H.,Zhao,Y.,Yang,M.,andCheng,H.(2021).Ahighly
+Qu,L.L.,Zhang,W.P.,Kooyman,P.J.,andPrins,R.(2003).MASNMR,TPR,
+adaptableNicatalystforLiquidOrganicHydrogenCarriershydrogenation.Int.
+J.HydrogenEnergy46,27026–27036.doi:10.1016/j.ijhydene.2021.05.196 a
+su
+n
+p
+d
+po
+T
+r
+E
+ts
+M
+.J.
+st
+C
+u
+a
+d
+t
+i
+a
+e
+l
+s
+.2
+o
+1
+f
+5
+t
+,
+h
+7
+e
+–
+i
+1
+n
+3
+t
+.
+e
+d
+ra
+o
+c
+i
+t
+:1
+io
+0
+n
+.10
+o
+1
+f
+6
+N
+/s
+i
+0
+M
+02
+o
+1-
+w
+9
+i
+5
+t
+1
+h
+7(
+a
+0
+lu
+2
+m
+)0
+i
+0
+n
+1
+a
+81
+a
+-
+n
+1
+d silica-alumina
+Grubel, K., Jeong, H., Yoon, C. W., and Autrey, T. (2020). Challenges and
+Ren,J.W.,Musyoka,N.M.,Langmi,H.W.,Mathe,M.,andLiao,S.J.(2017).
+opportunitiesforusingformatetostore,transport,andusehydrogen.J.Energy
+Chem.41,216–224.doi:10.1016/j.jechem.2019.05.016 C
+so
+u
+lu
+rr
+t
+e
+io
+n
+n
+t
+s:
+re
+A
+sea
+c
+r
+r
+c
+it
+h
+ica
+tr
+l
+e
+r
+n
+e
+d
+v
+s
+ie
+a
+w
+n
+.
+d
+In
+p
+t
+e
+.
+r
+J
+s
+.
+p
+H
+ec
+y
+ti
+d
+v
+r
+e
+o
+s
+ge
+o
+n
+n
+E
+m
+ne
+a
+r
+t
+g
+e
+y
+ria
+4
+l
+2
+s-
+,
+b
+2
+a
+8
+se
+9
+d
+–3
+h
+1
+y
+1
+d
+.
+r
+d
+o
+o
+g
+i
+e
+:1
+n
+0.
+s
+1
+t
+0
+o
+1
+ra
+6
+g
+/j
+e
+.
+He,T.,Cao,H.J.,andChen,P.(2019).Complexhydridesforenergystorage, ijhydene.2016.11.195
+conversion,andutilization.Adv.Mat.31,1902757.doi:10.1002/adma.201902757
+Shanmuganandam,K.,andRamanan,M.V.(2016).Ni-Ce/SiO2nanocomposite:
+Jorschick,H.,Preuster,P.,Dürr,S.,Seidel,A.,Müller,K.,Bösmann,A.,etal. Characterizationandcatalyticactivityinthecrackingoftarinbiomassgasifiers.
+(2017).Hydrogenstorageusingahotpressureswingreactor.EnergyEnviron.Sci. Energy Sources Part A Recovery Util. Environ. Eff. 38, 2418–2425. doi:10.1080/
+10,1652–1659.doi:10.1039/c7ee00476a 15567036.2015.1062826
+Le,M.C.,LeVan,K.,Nguyen,T.H.T.,andNguyen,N.H.(2017).Theimpactof Tcichmann, D., Arlt, W., and Wasserscheid, P. (2012). Liquid Organic
+Ce-ZradditiononnickeldispersionandcatalyticbehaviorforCO2methanationof Hydrogen Carriers as an efficient vector for the transport and storage of
+Ni/ACcatalystatlowtemperature.J.Chem.2017,1–11.doi:10.1155/2017/4361056 renewable energy. Int. J. Hydrogen Energy 37, 18118–18132. doi:10.1016/j.
+ijhydene.2012.08.066
+Liu,H.,Zhou,C.,Li,W.,Li,W.,Qiu,M.,Chen,X.,etal.(2021).UltralowRh
+bimetallic catalysts with high catalytic activity for the hydrogenation of Tuo,Y.X.,Meng,Y.,Chen,C.,Lin,D.,Feng,X.,Pan,Y.,etal.(2021).Partial
+N-ethylcarbazole. ACS Sustain. Chem. Eng. 9, 5260–5267. doi:10.1021/ positivelychargedPtinPt/MgAl2O4forenhanceddehydrogenationactivity.Appl.
+acssuschemeng.0c08270 Catal.BEnviron.288,119996.doi:10.1016/j.apcatb.2021.119996
+Muller,K.(2019).Technologiesforthestorageofhydrogen.Part1:Hydrogen Wang,B.,Chang,T.Y.,Jiang,Z.,Wei,J.J.,andFang,T.(2019).Component
+storageinitsnarrowersense.Chem-Ing-Tech91,383–392. controlled synthesis of bimetallic PdCu nanoparticles supported on reduced
+graphene oxide for dehydrogenation of dodecahydro-N-ethylcarbazole. Appl.
+Nakaya,Y.,Miyazaki,M.,Yamazoe,S.,Shimizu,K.,andFurukawa,S.(2020). Catal.BEnviron.251,261–272.doi:10.1016/j.apcatb.2019.03.071
+Active,selective,anddurablecatalystforalkanedehydrogenationbasedonawell-
+designedtrimetallicalloy.ACSCatal.10,5163–5172.doi:10.1021/acscatal.0c00151 Wang,B.,Yan,T.,Chang,T.Y.,Wei,J.J.,Zhou,Q.,Yang,S.,etal.(2017).
+Palladiumsupportedonreducedgrapheneoxideasahigh-performancecatalystfor
+Naushad,M.,Alqadami,A.A.,AlOthman,Z.A.,Alsohaimi,I.H.,Algamdi,M.S., thedehydrogenationofdodecahydro-N-ethylcarbazole.Carbon122,9–18.doi:10.
+andAldawsari,A.M.(2019).Adsorptionkinetics,isothermandreusabilitystudies
+1016/j.carbon.2017.06.021
+FrontiersinChemistry 10 frontiersin.org
+
+Wangetal. 10.3389/fchem.2022.1081319
+Wang,D.L.,Xin,H.L.L.,Hovden,R.,Wang,H.S.,Yu,Y.C.,Muller,D.A.,etal. Xiao,J.,Cai,D.D.,Zhang,Y.,andLuo,X.G.(2021).Ni4Moalloynanosheets
+(2013).Structurallyorderedintermetallicplatinum-cobaltcore-shellnanoparticles coating on carbon tube arrays as high-performance electrocatalyst toward
+withenhancedactivityandstabilityasoxygenreductionelectrocatalysts.Nat.Mat. overall water splitting. J. Alloys Compd. 886, 161180. doi:10.1016/j.jallcom.
+12,81–87.doi:10.1038/nmat3458 2021.161180
+Wang,M.,Yang,H.,Shi,J.N.,Chen,Y.F.,Zhou,Y.,Wang,L.G.,etal.(2021). Xue,W.J.,Liu,H.X.,Mao,B.H.,Liu,H.L.,Qiu,M.H.,Yang,C.G.,etal.(2021).
+Alloying nickel with molybdenum significantly accelerates alkaline hydrogen ReversiblehydrogenationanddehydrogenationofN-ethylcarbazoleoverbimetallic
+electrocatalysis. Angew. Chem. Int. Ed. Engl. 60, 5835–5841. doi:10.1002/ange. Pd-Rhcatalystforhydrogenstorage.Chem.Eng.J.421,127781.doi:10.1016/j.cej.
+202013047 2020.127781
+Wu,Y.,Yu,H.E.,Guo,Y.R.,Jiang,X.J.,Qi,Y.,Sun,B.X.,etal.(2019).ArareEarth Yu, H., Yang, X., Jiang, X., Wu, Y., Chen, S., Lin, W., et al. (2021).
+hydride supported ruthenium catalyst for the hydrogenation of N-heterocycles: LaNi5.5 particles for reversible hydrogen storage in N-ethylcarbazole. Nano
+Boosting the activity via a new hydrogen transfer path and controlling the Energy80,105476.doi:10.1016/j.nanoen.2020.105476
+stereoselectivity.Chem.Sci.10,10459–10465.doi:10.1039/c9sc04365a
+Yu,H.,Yang,X.,Wu,Y.,Guo,Y.,Li,S.,Lin,W.,etal.(2020).Bimetallic
+Wu,Y.,Yu,H.,Guo,Y.,Zhang,Y.,Jiang,X.,Sun,B.,etal.(2019).Promoting Ru-Ni/TiO2 catalysts for hydrogenation of N-ethylcarbazole: Role of
+hydrogenabsorptionofliquidorganichydrogencarriersbysolidmetalhydrides. TiO2 crystal structure. J. Energy Chem. 40, 188–195. doi:10.1016/j.
+J.Mat.Chem.AMat.7,16677–16684.doi:10.1039/c9ta05966k jechem.2019.04.009
+FrontiersinChemistry 11 frontiersin.org
+

@@ -1,0 +1,1072 @@
+TYPEReview
+PUBLISHED11August2022
+DOI10.3389/fbioe.2022.952536
+Medical high-entropy alloy:
+Outstanding mechanical
+OPENACCESS
+EDITEDBY properties and superb biological
+JianxunDing,
+ChangchunInstituteofApplied
+compatibility
+Chemistry(CAS),China
+REVIEWEDBY
+NenadFilipovic,
+UniversityofKragujevac,Serbia Changxi Liu1,2, Chengliang Yang2,3, Jia Liu2,3*, Yujin Tang2,3*,
+SilviaSpriano,
+PolitecnicodiTorino,Italy Zhengjie Lin4, Long Li5, Hai Liang5, Weijie Lu1,2 and
+*CORRESPONDENCE Liqiang Wang1,2*
+JiaLiu,
+liujia@ymcn.edu.cn 1StateKeyLaboratoryofMetalMatrixComposites,SchoolofMaterialScienceandEngineering,
+YujinTang, ShanghaiJiaoTongUniversity,Shanghai,China,2NationalCenterforTranslationalMedicine,Shanghai
+tangyujin@ymcn.edu.cn JiaoTongUniversity,Shanghai,China,3DepartmentofOrthopaedics,AffiliatedHospitalofYoujiang
+LiqiangWang, MedicalUniversityforNationalities,GuangxiKeyLaboratoryofBasicandTranslationalResearchof
+wang_liqiang@sjtu.edu.cn BoneandJointDegenerativeDiseases,Baise,China,43DPrintingClinicalTranslationaland
+RegenerativeMedicineCenter,ShenzhenShekouPeople’sHospital,Shenzhen,China,5Departmentof
+SPECIALTYSECTION
+Stomatology,ShenzhenShekouPeople’sHospital,Shenzhen,China
+Thisarticlewassubmittedto
+Biomaterials,
+asectionofthejournal
+FrontiersinBioengineeringand
+Biotechnology
+Medical metal implants are required to have excellent mechanical properties
+RECEIVED25May2022
+andhighbiocompatibilitytohandlethecomplexhumanenvironment,whichis
+ACCEPTED20July2022
+PUBLISHED11August2022 a challenge that has always existed for traditional medical metal materials.
+Comparedtotraditionalmedicalalloys,highentropyalloys(HEAs)haveahigher
+CITATION
+LiuC,YangC,LiuJ,TangY,LinZ,LiL, designfreedomtoallowthemtocarrymoremedicalabilitiestosuitthehuman
+LiangH,LuWandWangL(2022), service environment, such as low elastic modulus, high biocompatible
+Medicalhigh-entropyalloy:
+Outstandingmechanicalpropertiesand elements, potential shape memory capability. In recent years, many studies
+superbbiologicalcompatibility. havepointedoutthatbio-HEAs,asanemergingmedicalalloy,hasreachedor
+Front.Bioeng.Biotechnol.10:952536.
+evensurpassedtraditionalmedicalalloysinvariousmedicalproperties.Inthis
+doi:10.3389/fbioe.2022.952536
+review, we summarized the recent reports on novel bio-HEAs for medical
+COPYRIGHT
+implants and divide them into two groups according the properties, namely
+©2022Liu,Yang,Liu,Tang,Lin,Li,
+Liang,LuandWang.Thisisanopen- mechanical properties and biocompatibility. These new bio-HEAs are
+accessarticledistributedunderthe
+considered hallmarks of a historic shift representative of a new medical
+termsoftheCreativeCommons
+AttributionLicense(CCBY).Theuse, revolution.
+distributionorreproductioninother
+forumsispermitted,providedthe
+originalauthor(s)andthecopyright KEYWORDS
+owner(s)arecreditedandthatthe bio-heas, mechanical properties, corrosion resistance, cytocompatibility, friction
+originalpublicationinthisjournalis resistance
+cited,inaccordancewithaccepted
+academicpractice.Nouse,distribution
+orreproductionispermittedwhichdoes Introduction
+notcomplywiththeseterms.
+Currently,numerousbiomaterials,includingpolymermaterials,compositematerials,
+and metal materials, have been developed for disease visualization, drug toxicity
+assessment and detection, tissue repair and substitution (Gaharwar et al., 2020; Eliaz,
+2019;Fentonetal.,2018;Quetal.,2019;Mitrousisetal.,2018;Wangetal.,2021a;Liu
+etal.,2022).Withexcellentmechanicalpropertiesandgoodcorrosionresistance,metal
+medical implants undertake the function of repairing and replacing human diseased
+tissues and organs, which are widely used in artificial heart valves, bone implants and
+FrontiersinBioengineeringandBiotechnology 01 frontiersin.org
+
+Liuetal. 10.3389/fbioe.2022.952536
+FIGURE1
+(A)Schematicshowingseveraldifferentmedicalmetalimplantdevelopmentsequences.(B)Mechanicalpropertiesandbiocompatibility
+constitutetheperformanceevaluationcriteriaformedicalmetalimplants.(C)SchematicdiagramshowingtheelementalarrangementmodelofHEA
+(thecirclesindifferentcolorsandvaryingsizesrepresentthemixedatoms),inthiscase,theconfigurationalentropyisdeterminednotonlyby
+chemicalcompositionbutalsobyatomicsize(Yeetal.,2016).
+scaffolds,andtoothrepairandreplacement(Eivazzadeh-Keihan Ti-35Nb-2Ta-3Zr (wt%) alloy with a low Young’s modulus of
+etal.,2020;Sharmaetal.,2020;Wangetal.,2022a;Guoetal., approximately 48GPa(Wangetal., 2017).
+2022;Maoetal.,2022;Qiaoetal.,2022)Figure1Aillustratesthe High-entropy alloys have received a great amount of
+severalstagesofmetalimplantdevelopmentandimprovement. attention in recent years because of their unique composition
+Theearliestmetalimplantmaterialis304stainlesssteel(Verran (fiveormoremetalelements)andhomogeneousmicrostructure
+andWhitehead,2005),whichisusedinartificialjoints.Stainless (Cantoretal.,2004;Hemphilletal.,2012;Gludovatzetal.,2014;
+steel material has high strength but also has a high elastic Yu et al., 2014; Ye et al., 2015a; Xia et al., 2015; Miracle and
+modulus (193GPa), which is much higher than human bones Senkov,2017).Comparedtoconventionalalloyswithrelatively
+10–40GPa). Such mismatched elastic moduli will prevent the simple compositions, HEAs have two significant features: 1)
+load from smoothly transferring from the implant to the enormous room for performance optimization and
+surrounding bone tissue, resulting in a stress shielding improvement derives from multielemental combinations,
+phenomenon when the implant is implanted into human which ensure that HEAs have a variety of ingredients and
+bone (Mi et al., 2007). The stress shielding phenomenon can complex microstructures, and 2) the various elements mixed
+lead to the degeneration and atrophy of the bone tissue and willexhibitpropertiesthatarenotpossessedbyanypuremetal
+eventuallycausetheimplanttoloosenandevenfail,whichdoes element, which provides HEAs with new properties (Tsai and
+not meet the requirements of long-term service. Subsequently, Yeh,2014;Luet al.,2015;George etal.,2019).
+compared with other metal materials, titanium and titanium WiththeexcellentperformanceofHEAs,agoodapproachis
+alloys have the characteristics of high specific strength, strong to put HEAs into the medical field to explore the potential of
+corrosionresistanceandgoodbiocompatibilityandhavebecome HEAsasmedical implants.Furthermore,HEAsrepresented by
+preferred materials for bone tissue repair and replacement Ti, Ta, Nb, Zr, and Hf systems have good application and
+(Wang et al., 2021b; Wang et al., 2022b; Cui et al., 2022; Lv development potential in medical implants, as shown in
+etal.,2022;Zhangetal.,2022).Forinstance,Wangdevelopeda Figure 1B (Raducanu et al., 2011; Wang and Xu, 2017; Tüten
+FrontiersinBioengineeringandBiotechnology 02 frontiersin.org
+
+Liuetal. 10.3389/fbioe.2022.952536
+etal.,2019;Yangetal.,2020).Forinstance,bio-HEAscouldbe electronegativity of element i. Only solid solutions are formed
+designedtopossesshighstrengthfollowingrationalguidancedue when the components of the alloy elements are between
+totheircomplexelementalcompositionandrichness ofdesign 3 and 6%.
+(cid:10)(cid:1)(cid:1)(cid:1)(cid:1)(cid:1)(cid:1)(cid:1)(cid:1)(cid:1)(cid:1)(cid:1)(cid:1)
+(Wangetal.,2020a;Suetal.,2022;Xuetal.,2022).Ontheother
+χ
+hand, bio-HEAs are designed to have low toxicity because the Δχ(cid:1)100 (cid:3)c
+i
+(cid:8)1−
+χ
+i(cid:9)2 (6)
+elements in bio-HEAs have excellent biocompatibility (Nagase
+etal.,2020).Thisreviewaimedtodiscussrecentadvancesinbio-
+Althoughtheremaybesomedifferencesintheabovecriteria
+HEA mechanicalproperties and biocompatibility.
+inthecurrentresearchonhigh-entropyalloys,thesecriteriaare
+useful for predicting thesolid phaseand composition selection
+and determination of the atomic fraction ratio for bio-HEAs
+High entropy alloy concept
+(Takeuchiet al.,2013; Yeet al.,2015b).
+The current mainstream concept is that the high entropy
+alloyshouldcontain5–13mainelements,andthemolefraction
+HEAs design and numerical
+ofeachelementshouldbebetween5and35at%(Cantoretal., simulation
+2004;Yehetal.,2004).Theterm“high-entropyalloy”isdefined
+becausetherelationshipofindividualatomscanbemodelledas
+Compared with traditional alloys, bio-HEAs have a high
+an idealsolution, asillustrated in Figure1C.
+freedominelementdesign,whichalsomeansmorefactorsneed
+Theatomicradiusdifferencerange(δ)(1)isusedtodescribe
+to be considered. Multi-element of bio-HEAs not only induce
+the radius relative radius of each element (‾r is the average strong chemical fluctuation to random phase, but also have
+atomicradiusandr istheatomicradiusofelementi).Itclaims
+i important effects on the stacking fault energy, second phase
+that only solid solutions are formed when the δ value is lower
+and dislocation core structure. In fact, numerical simulations
+than4%(Zhang and Lv,2008). could reflect the bio-HEAs properties independent of material
+(cid:6)(cid:1)(cid:1)(cid:1)(cid:1)(cid:1)(cid:1)(cid:1)(cid:1)(cid:1)(cid:1)(cid:1)
+δ(cid:1)100 (cid:3)c
+i
+(cid:4)1− r
+r(cid:1)
+i(cid:5) (1)
+h
+te
+i
+s
+g
+t
+h
+,w
+fr
+h
+e
+i
+e
+c
+d
+h
+o
+i
+m
+sv
+s
+e
+u
+r
+c
+y
+h
+b
+a
+e
+s
+n
+b
+e
+i
+fi
+o
+c
+-
+i
+H
+al
+E
+f
+A
+or
+s
+g
+(Y
+ui
+i
+d
+n
+in
+et
+g
+a
+t
+l
+h
+.,
+e
+2
+d
+0
+e
+2
+s
+0
+i
+;
+g
+X
+n
+u
+of
+et
+al
+a
+l
+l
+o
+.,
+y
+2
+s
+0
+w
+2
+i
+1
+t
+)
+h
+.
+In recent years, Monte Carlo (Zhou et al., 2021), molecular
+Configuration entropy (ΔS am ) 2) is used to describe the dynamics (Jian et al., 2020; Li et al., 2020), first-principles
+mixing entropy of alloys, which high entropy alloys require
+calculations (Rao et al., 2019), and deep learning
+the ΔS value are higher than 11J/mol K, where c is the
+mix i (Kostiuchenko et al., 2019) is widely applied in modeling and
+molarfractionoftheithelement,Ristheconstant(8.314J/mol
+prediction ofbio-HEAs.
+K), and nis thetotalnumber ofconstituent elements. Lee(Leeetal.,2020)predictedtheYoung’smodulus(E),bulk
+Theenthalpyofmixing(ΔH )3)rangeoftheHEAisakey
+am modulus (K) and shear modulus (G) of the material by First-
+parameter,whichrequiresbetween−11.6and3.2kJ/mol,where
+principles calculations, showing excellent agreement with the
+ΔH is thebinary enthalpy ofelementsiand j(Zhang and Lv,
+ij experimentalvalues.Moreover,Yao(Yaoetal.,2016)established
+2008).
+phase diagrams of NbTaTiV, NbTaVW, and NbTaTiVW
+ΔS
+am
+(cid:1)−R(cid:3)c ilnc
+i
+(2) through CALPHAD modeling, which predicted the state of
+NbTaV(TiW) in different temperature ranges. Liu (Liu et al.,
+ΔHam(cid:1)(cid:3)c
+j
+ΔHij (3)
+2021) used Monte Carlo to predict order-disorder transitions
+The parameter O 4) involves ΔS and ΔH , which can caused by W and Nb. By comparing with experiments, the
+am am
+predictthecompositionofthefinalHEAphase,whereT isthe simulation results provide insight into the role of chemical
+top
+ordering inthe strengthand ductility ofHEAs.
+melting temperature calculated using 5. Usually, only solid
+solutions are formed when Ω > 1.1 and δ < 3.6%, and only In fact, HEAs with so many element combinations means
+hugedataandthisisaperfectexampleofdeeplearning.Withthe
+solid solutions and intermetallic compounds are formed when
+1.1 < O < 10 and 3.6% < d < 6.6%; furthermore, only solid rapid development of computer science, deep learning is
+solutions areformedwhen Ω>10(Yang and Zhang,2012). becoming more and more accurate for analyzing data patterns
+and predicting development from samples (Lecun et al., 2015;
+Ω(cid:1)T
+top
+ΔS
+am
+(cid:7)|ΔHam| (4)
+Guo et al., 2016). For the design of HEAs, the optimal HEA
+T
+top
+(cid:1)(cid:3)c iT
+topi
+(5) potential element ratio could be output by a deep learning
+network trained on HEA experimental data (Yan et al., 2021).
+ThedifferenceinelectronegativityΔχ6)isalsousedasthe Forinstance,wen(Wenetal.,2021a)collectedexperimentaldata
+criterion for judging whether a single solid solution can be onAlCoCrFeNi,CoCrFeNiMn,HfNbTaTiZr,andMoNbTaWV,
+formed, where χ is the average electronegativity and χ is the andtrainedadeeplearningnetworkforthesetypesofHEAsto
+i
+FrontiersinBioengineeringandBiotechnology 03 frontiersin.org
+
+Liuetal. 10.3389/fbioe.2022.952536
+FIGURE2
+(A)Two-beamBFimagesshowthefrequentlyobservedaccumulationofdislocationsonthe{111}-typeFCCslipplanesinCo Cr Fe Ni Si
+22 22 22 22 10
+andCo10Cr10Fe10Ni10Mn10Si10HEA(Weietal.,2022b).(B)the(100)peakofhcpMcouldbefoundwhenthestresswasover520MPa(C)Dislocations
+inthe8%strainedO-2HEA,imagedunder{1a11}-typediffractionconditions(Wangetal.,2020b).(D)Thedislocationpinningpoint(redcircle)in(C)
+waschosenforfurtherSTEMcharacterization.(E)Aberration-correctedSTEM-ABFimagesofthelocalatomicstructureofpinningsites.White
+arrowspointtothepillarsofoxygenatoms.(F)STEM-HADDFalsoindicatesorderedoxygencomplexesnearthedislocationpinningpoint(G)
+Aberration-correctedSTEM-ABFimagesfarfromthepinningpoint(Leietal.,2018).
+FrontiersinBioengineeringandBiotechnology 04 frontiersin.org
+
+Liuetal. 10.3389/fbioe.2022.952536
+predict the potential of solid solution strengthening. In the yield strength of the bimodal microstructures is increased to
+future, deep learning might play a guiding role in the design 1.3GPa.
+and prediction ofpotential properties ofHEAs. TheequiatomicHfNbTaTiZrachievesatensileyieldstrength
+of974MPaandhasanelongationof20%.Furthermore,thereare
+numerous dislocations with restricted movement at grain
+Mechanical properties boundaries in HfNbTaTiZr, due to grain refinement (Juan
+et al., 2016). The O element doped TiZrHfNb exhibited a
+Compared with traditional medical metal implants, HEAs yield strength of 1,300MPa and an elongation of 30% in the
+have excellent mechanical properties (Picak et al., 2021; Wei room temperature tensile test. The strong ordered oxygen
+etal.,2022a).Thestrength,ductility,elasticmodulusandfatigue complexes in Figures 2C–G are the keyreason to achieve such
+properties of bio-HEAs should be considered. The excellent performance. The strength improvement is due to the O solid
+mechanical properties of these medical high-entropy alloys are solution strengthening, more interestingly, the plasticity
+inextricably connected with their microstructures. In fact, the improvement is due to O changing the plastic deformation
+microstructures of HEAs are numerous and complex, and the mode from plane slip to wave slip, which is different from
+finalmicrostructureisnotthesameevenforHEAswiththesame conventional alloys (Lei et al., 2018). This study shows that
+elements but different ratios, furthermore, heat treatment and the presence of interstitial oxygen elements in a nano-ordered
+thermaldeformationalsoaffectthestructure(Dirrasetal.,2016; manner could successfully overcome the strength–ductility
+Zhangetal.,2018;Lietal.,2019).Itiscriticaltoobtainanoverall trade-off.
+viewandsummarizethepropertiesofbio-HEAsatthisstage,as Chen(Chenetal.,2022a)foundthattheWNbMoTaZrHEA
+well asto determine the design ideasoffuture bio-HEAs. has a significant increase in strength and toughness with
+increasing Zr content; the yield strength in the compression
+testis1,223±20.1MPa,andthefracturestrainis6.4±0.66%.In
+Tensile and compressive properties addition, TiZrNbTa doped with N also achieved high strength
+and high toughness of the material. The yield strength and
+Tensileandcompressiontestsaresomeofthemostintuitive fracture strain of the tensile test reached 1,196 ± 8MPa and
+criteria to detect the mechanical properties of materials, which 17.5±0.3%,respectively(Wangetal.,2022c).Theintroduction
+can obtain a series of material performance data, such as yield ofNin theoriginalmatrix resultedin dendriticstructures and
+strength, breaking strength, and elongation, from stress–strain simultaneously led to dislocation pinning and reduce
+diagrams. Furthermore, many HEAs with excellent mechanical diffusion rate.
+properties have been developed in recent years, which yield In recent years, some studies on the microstructure and
+strength exceeding 1000MPa and the elastic modulus lower mechanism of bio-HEAs may provide theoretical support for
+than 70GPa These HEAs often have high tensile strength and high-strength mechanical properties. Lee believes that unlike
+excellentelongationdata,achievingsimultaneousimprovement traditional body-centered cubic (BCC) structure metals and
+of material strength and plasticity. Wei (Wei et al., 2022b) dilute alloys, in which the strain strengthening depends on
+replaced part of the metal elements in HEAs with the screw dislocation, plastic flows in HEAs mainly contribute to
+metalloid element Si, in which the metalloid element is edgedislocation(Leeetal.,2021).Furthermore,TWIPandTRIP
+between metals and nonmetals, and it is easy to induce arestillthemainmethodstoenhancethemechanicalproperties
+complex subnanometre-scale structures in the substrate. ofbio-HEAs.Duringthetensileprocess,TWIPandTRIPoccur
+Figure 2A illustrates the accumulation of dislocations on the sequentially in the ß phase. Ti Zr Hf Ta was found to
+16 35 35 14
+{111}-type FCC slip planes. The mechanical properties of -Si exhibit a new stress-induced martensitic transformation
+HEAsareimprovedduetothesedefects,whichisconsistentwith (SIMT) α”-to-hcpM by in situ high energy X-ray diffraction
+the results of first-principles calculations and Monte Carlo (HEXRD), as shown in Figure 2B. The peak of hcpM starts to
+simulations. It shows the elevation of ductility simultaneously appearwhenthestressis520MPa,andthepeakofα”gradually
+with strength in macroscopic performance. Su (Su etal., 2019) weakens and finally disappears when the stress is 800MPa. In
+designedahierarchicalmicrostructuralforHEAbyintroducing addition, SIMT improves the yield strength-ductility of
+grains and textures with different size gradients and Ti16Zr35Hf35Ta14 72. Wen (Wen et al., 2021b) found that
+substructures, which enhanced transformation-induced the Nb content in HfNbTa TiZr HEA affects the stability of
+0.2
+plasticity (TRIP) and twinning-induced plasticity (TWIP) theBCCphase.WiththedecreaseinNbcontent,themartensite
+effects. The material exhibits bimodal microstructures, which tendstotransformfromtheBCCstructuretotheHCPstructure,
+wereproducedconsistingofnanograins(~50nm)inthevicinity as shown in Figure 3A. A large number of twins are observed
+of shear bands and recovered parent grains (10–35μm) with duringthetransition,whichmaybeduetothelowerSFEofthe
+preexistingnanotwinsaftertempering.Comparedwiththe95% HCPstructure,andthematerialfinallyexhibitsadualincreasein
+recrystallized specimen’s yield strength of 555MPa, the HEA strength andplasticity, asshownin Figure3B.Inaddition,the
+FrontiersinBioengineeringandBiotechnology 05 frontiersin.org
+
+Liuetal. 10.3389/fbioe.2022.952536
+FIGURE3
+(A)TEMbright-fieldimagesoftheco-existedBCCandHCPphase(Wenetal.,2021b).(B)Selectedareadiffractionshowtheextratwinningspots
+(C)Fourdifferentscanningspeedsat4.0m/s,3.5m/s,3.0m/s,2.5m/sfortheSLM(Xiaoetal.,2022).
+fineprecipitatesinHf Nb Ti Zr formedbyageingcooperate Consequently, the printed material has higher formability and
+20 10 35 35
+withTWIPandTRIPandimprovethemechanicalpropertiesof strength for SLM after adding Ti and Ni elements. Compared
+thematerial (Suet al.,2022). withNbMoTa,theNbMoTaTi Ni HEAhasalargeamountof
+0.5 0.5
+Additive manufacturing (AM) is a new type of extended dislocation at the grain boundary, which strengthens
+manufacturing method that has a great impact on medical thegrainboundaryofthecrystal.Xiao(Xiaoetal.,2022)studied
+implant fabrication and its ability to produce complex, porous theeffectofselectedlasermelting(SLM)onthemicrostructure
+configurations and structure-specific implants (Herzog et al., and mechanical properties of WMoTaNbTi HEAs. Several
+2016; Bourell et al., 2017). Additively manufactured porous different scan speeds, including 4.0m/s, 3.5m/s, 3.0m/s and
+materials fabricated by AM could well mimic the skeletal 2.5m/s, were collected and are illustrated in Figure 3C. The
+environment in which cells grow (Hafeez et al., 2020; Zhang materialexhibitedthehighestcompressivestrengthof1,312MPa
+etal.,2021a).ComparedwiththeHEAspreparedbycoldcrucible andexhibitedgoodlocalductilitywhenthescanningspeedwas
+suspension, the microstructure fabricated by AM may be 2.5m/s.
+different due to different cooling rates during fabrication;
+furthermore, the final mechanical properties of the material
+are also different. Defects caused by AM are an important Low elastic modulus HEAs
+factor that affects the performance of bio-HEAs because the
+elementsusedinbio-HEAsnotonlyhavehighmeltingpointsbut Reducing the elastic modulus of metal implants to match
+also have a wide range of melting points between different human bone to prevent potential stress shielding risks is an
+elements. Zhang (Zhang et al., 2021b) found that a mixed important goal for medical metal implants. TiZrNb,
+powder of NbMoTa has a high defect rate after fabrication. Ti Zr Nb , Ti Zr Nb , Ti Zr Nb , and Ti Zr Nb
+40 40 20 45 35 20 45 45 10 50 40 10
+FrontiersinBioengineeringandBiotechnology 06 frontiersin.org
+
+Liuetal. 10.3389/fbioe.2022.952536
+FIGURE4
+Theschematicdiagramformentalsuperelasticitybymartensitictransformation(Ramezannejadetal.,2019).
+allexhibitlowelasticmoduli(Huetal.,2022).Inparticular,the ofTaTiZrwaspredictedtobe98.33GPa.Comparedwithblindly
+TiZrNb HEA, at room temperature, is composed of dendritic arranging and combining element types, machine learning can
+crystalswithasingleBCC,whoseelasticmodulirangefrom73± provide arelativelyclear pathindesigning materials.
+3GPato52±2GPaandareveryclosetotheelasticmoduliof
+large human bones. Schönecker (Schönecker et al., 2022)
+proposed a new idea for reducing the elastic modulus of Superelastic HEA
+TiZrNbMoTa. Considering the service conditions of the
+bones, including walking, running, and climbing, the load In 1963, the Naval Ordnance Laboratory discovered
+direction of the leg is along the long-bone (longitudinal superelasticity in TiNi alloys with nearly equiatomic
+direction). For this unidirectional loading situation, the proportions (Buehler et al., 1963). To date, supereelastic
+anisotropy of the material is used to reduce the elastic metals have been widely used in aerospace, marine and cable
+modulus. Single crystals and textured polycrystals have lower communications(Hohetal.,2009).Inmedicalmetalimplants,
+elastic modulithan isotropicmaterials in acertain direction. bone scaffolds fabricated by superelastic materials have better
+In fact, the elastic modulus of a material is affected by the flexibility and better fit the complex structure inside the
+chemicalbond,crystalstructure,chemicalcomposition,etc.The human body.
+bio-HEAs could form numerous types according to different SIMTcouldimprovethemechanicalpropertiesofHEAs;for
+ratios and selected elements. Such a large number of samples instance,TRIPcouldimprovetheplasticityofHEAs.Inaddition,
+undoubtedlyprovidessufficientsamplesformachinelearningto SIMT is a prerequisite for superelasticity effects and shape
+calculateandpredictthefinalperformanceofmaterials.Inrecent memory of mental materials. The ß phase in the superelastic
+years,withtherapiddevelopmentofcomputerscience,machine alloytransformsintoorthorhombicα″martensitewhenloaded
+learning,asaproductofthedevelopmentofcomputerscience, up to a certain critical stress (s ). The α″ martensite grows
+SIM
+hasbeenwidelyusedinthecalculationofbigdata(Doveetal., throughseveralvariantsthatyieldtothemaximumstrainalong
+2017;Weietal.,2019).Roy(Royetal.,2020)usedthegradient theloadingdirection.Theserepeatedlyloadedtrajectoriesexhibit
+boost for a regression model to predict 26 high-entropy alloys a cyclic shape in the stress–strain curve in Figure 4
+withdifferentcompositions,inwhichthedeviationfromthetest (Ramezannejad et al., 2019). Upon unloading, α″ martensite is
+valueofthesampledidnotexceed20%,andtheelasticmodulus able tototallytransform backto ßunder theideal scenario.
+FrontiersinBioengineeringandBiotechnology 07 frontiersin.org
+
+Liuetal. 10.3389/fbioe.2022.952536
+Some bio-HEAs have also been shown to have superelastic metals to have excellent mechanical properties, bio-HEAs not
+properties. Peltier (Peltier et al., 2021) pointed out that for only require good mechanical properties but also require
+(TiHfZr) (NbTa) , its superelasticity originates from the additional materials with excellent biocompatibility properties.
+74 26
+transition of β↔α” when deformation occurs. The superelastic Furthermore,thepurposeoftestingbiocompatibilityistoexplore
+temperature range is 40–200°C, which is compatible with the the potential biological risks when medical high-entropy alloys
+human service environment temperature. Furthermore, Wang are used as implants. In recent years, many scholars have
+(Wang et al., 2019) utilized in situ XRD to characterize the extensively studied the biocompatibility of HEAs and found
+superelastic behavior of TiZrHfAlNb and found β↔α” during many bio-HEAs with excellent biocompatibility. The
+unloading in experiments on uniaxial tension. In addition, the biocompatibility of bio-HEAs, including cytocompatibility,
+plastic deformation is also recovered during this process. The corrosion resistance, friction resistance, and bio-HEAs with
+discovery of these superelastic bio-HEAs will encourage more these three excellent properties,is summarized.
+scholarly interest and attention.
+Cytocompatibility
+Fatigue properties of HEA
+The cell viability experiment is the most intuitive test to
+Fatiguefractureoftenoccurswhenthematerialisunderthe analyzethebiocompatibilityofbio-HEAs.Thepurposeofthecell
+action of alternating loads for a long time, and the material is viability experiment was to simulate cell growth and
+broken by a stress lower than the breaking strength. Fatigue differentiation and to observe whether the cells still have
+fractureisduetotheinitiationofinternalcracks,andthecracks normal functions on the implant surface. For instance,
+graduallypropagateunderalternatingloadsuntilfailure.Metal osteoblasts are often cultured on the implant surface to
+medical implants are often under alternating loads during observe osteoblast division, differentiation, and the final
+service. For instance, artificial teeth undergo hundreds of mineral deposition quality (McBeth et al., 2017). At present,
+times of chewing every day.These chewing movements can be many studies have shown that medical high-entropy alloys
+regarded as materials that are under the alternating stress exhibit high cell viability and provide a good environment for
+environment. cell work.
+HfNbTaTiZrexhibitsgoodperformanceinfatiguetests.The Todai (Todai et al., 2017) found that TiNbTaZrMo HEA
+maximumstressrequiredtoexceedtheyieldstresscausesfatigue exhibited excellent biocompatibility, and the osteoblast activity
+failure of HfNbTaTiZr even in the high cycle fatigue regime attachedtothesurfacewascloselyrelatedtothemicrostructure
+(Guennec et al., 2018a). In the microstructure, the fatigue ofHEA.SUS316L,CP-Ti,andTiNbTaZrMoHEAsintheas-cast
+strength of the material is affected by the mobility of andannealedsamplesweretestedintotal,anditwaspointedout
+dislocations, which increases with mobility. This feature has that the osteoblast density of TiNbTaZrMo in the as-cast and
+also been observed in other alloys (Mughrabi and Wüthrich, annealedsampleswashigherthanthatofSUS316LandCP-Ti.In
+1976;MagninandDriver,1979;Guiuetal.,1982;Guennecetal., addition, TiNbTaZrMo in the annealed sample exhibited the
+2015).Inthelow-cycleregimeofHfNbTaTiZr,theresistanceto highestcelldensityandwassuperiortoSUS316Lincellsizeand
+fatigueisthroughtheaccumulationofdislocationsatthecrack cellspreading,whichareimportantforcellmigrationandprotein
+tip,whichcanleadtotheclosureofthecrack(Chenetal.,2022b). synthesis. Furthermore, this study also pointed out that the
+Infact,currently,morefatigueresearchonHEAsfocuseson annealed TiNbTaZrMo has better cytocompatibility due to the
+FeCoNi systems (Hemphill et al., 2012; Tang et al., 2015; redistribution and grain growth of the annealed grains. Shittu
+Thurston et al., 2017; Guennec et al., 2018b), and research on (Shittuetal.,2020)showedthatMoNbTaTiZrHEAnotonlyhas
+medical high-entropy alloys is still lacking. To date, medical goodmechanicalproperties,inwhichtheelasticmodulusis30%
+high-entropyalloysaremainlyaimedatstrengthandtoughness, lower than that of SS304 but also has good cytocompatibility.
+as well as low modulus. Fatigue performance is an important Stem cells were cultured onto MoNbTaTiZr and tissue culture
+medicalindicator;therefore,fatiguebehaviourinvestigationson polystyrene (TCPS) surfaces, and fluorescence microscopy was
+bio-HEAs are suggested to obtain a wider range of bio-HEAs usedtoshowcellularcoverage.ThecellcoverageofMoNbTaTiZr
+with goodfatigue performance. and TCPS reached 89 and 100%, respectively. Furthermore,
+numerous long cytoplasmic extensions forming a network in
+contact with adjacent cells were observed on the bio-HEA
+Biocompatibility properties of Bio-
+surface, indicating that the MoNbTaTiZr surface supports cell
+HEAs attachmentbyfilopodiaextensionsandprovidesstrongsupport
+for thegrowth ofcells(Hasan etal., 2017).
+Compared with the HEA materials used in the TheTiNbTaZrMofabricatedbySLMnotonlyhassuperior
+manufacturing industry and aerospace industry, which require mechanical properties but also has great biocompatibility.
+FrontiersinBioengineeringandBiotechnology 08 frontiersin.org
+
+Liuetal. 10.3389/fbioe.2022.952536
+FIGURE5
+(A)GiemsastainingimagesofosteoblastsculturedonthesurfaceofSLM-builtBioHEAandCP-Ti,SS316L,andcastBioHEAcounterpar
+(Ishimotoetal.,2021)t.(B)FluorescentimagesofosteoblastadhesiononSLM-builtbio-HEA,CP-Ti,SS316L,andcastbio-HEA(Akmaletal.,2021).
+(C,D)Visualevidenceofmicethighbeforeanddafterimplantation(MoTa)0.2NbTiZralloy(Akmaletal.,2021).
+Giemsa staining images showed that the cell growth density of investigation, and in vitro experiments should be further
+bio-HEAsfabricatedbySLMwasthesameasthatofCP-Tiand discussed.
+much higher than that of SS316L, as shown in Figure 5A.
+Furthermore, fluorescent images demonstrate the cell
+cytoskeletal components and focal adhesions of osteoblasts Corrosion resistance
+adhered to the specimens in Figure 5B. The cells exhibited a
+uniform distribution on the bio-HEA surface, which had an Metalimplantsmayhaveapotentialriskofcorrosioninthe
+obviousadvantageofcellspreading.Suchgreatmechanicaland human body, which may lead to a decrease in implant
+biological properties of bio-HEAs are due to the rapid performance and failure. Bio-HEAs have shown good
+solidification in the SLM fabrication process, which can potential in corrosion resistance properties, and research on
+effectively inhibit the segregation of components (Ishimoto corrosion resistance will broaden bio-HEA applications in
+etal., 2021). medical materials.
+Animal models are an effective approach to evaluate the In a corrosive environment, bio-HEAs are oxidized, and a
+service status of materials in the in vivo environment. Akmal passiveoxidefilmgrowsonthesurface.Thedensityoftheoxide
+(Akmaletal.,2021)demonstrated(MoTa) NbTiZrimplantation filmisakeyfactorinpreventingfurthercorrosionandavoiding
+x
+insideamousethighandcountedthechangesinthemousethigh material failure. Yang (Yang et al., 2020) pointed out that the
+over 16 days, as shown in Figures 5C,D. The mouse thigh was corrosionrateofTiZrHfNbTaHEAis10–4mm/yearunderan
+inflamedafterimplantation,andafterDay7,theinflammation environment ofalowpassive currentdensityofapproximately
+subsided without abnormal neurobehaviour. However, host 10–2 A/m2, comparable to the traditional Ti6Al4V alloy.
+response experiments including inflammatory response, Through X-ray photoelectron spectroscopy (XPS) tests, it was
+osteoinductive and bioactive behavior still lack additional foundthatTiO2,ZrO2,HfO2,andTa2O5wereformedduring
+FrontiersinBioengineeringandBiotechnology 09 frontiersin.org
+
+Liuetal. 10.3389/fbioe.2022.952536
+FIGURE6
+XPSspectraofthesurfacefilmsformedontheTiZrHfNbTa[(A)O1s,(B)Ti2p,(C)Zr3d,(D)Hf4f,(E)Nb3d,and(F)Ta4f],whichexposedtoair
+andafterthe7-daysimmersionintheHank’ssolutionat310K33.
+thecorrosionprocess,whichplayedanimportantroleinresisting Ti6Al4V, which means that the passivation film produced by
+corrosion,asshowninFigures6A–F.Furthermore,Wang(Wang TiZrNbTaMo has higher stability(Hua etal., 2021).
+et al., 2022d) replaced the element Ta in TiZrHfNbTa with
+element Fe to test the effect of different volume fractions of
+Feelements(0,0.25,0.5,0.75,1,1.5,2)onthematerialcorrosion Friction resistance performance
+resistance. It should be noted that the corrosion potential first
+decreased and then increased with increasing Fe content. Fe Metal implants inevitably contact the surrounding tissue
+0.5
+exhibited the best corrosion resistance, and no corrosion pits when implanted into the human body. Wear behaviour is
+were observed after polarization. Hua pointed out that unavoidable and must be considered for metal medical
+TiZrNbTaMo also has great corrosion resistance. implants. Especially in bone implants, the high amount of
+TiZrNbTaMo has better corrosion potential than traditional frictional behaviour puts the material at risk of wear failure.
+FrontiersinBioengineeringandBiotechnology 10 frontiersin.org
+
+Liuetal. 10.3389/fbioe.2022.952536
+FIGURE7
+Schematicdiagramoffrictioncorrosionmechanismofimplantsurface:(A)three-bodywear;(B)two-bodywear;(C)removalprocessofthe
+passivationfilm(Lietal.,2021).(D)SEMimagesofwearscarsoftheTi ZrNbTaMo,TiZrNbTaMo,Ti ZrNbTaMo,andTiZrNbTaMoHEAsunderthe
+0.5 1.5 2
+drywearcondition(Huaetal.,2021).
+Furthermore,implantwearmayleadtoinflammationandosteolysis, Inaddition,Hua(Huaetal.,2021)pointedoutthatthefriction
+which affect implant longevity and increase the patient’s risk of resistanceofTiZrNbTaMoincreaseswithdecreasingTicontent.
+secondary injury. Tribocorrosion includes the interaction of The wear is worse in the dry environment than in the PBS
+corrosion with sliding wear, biological solutions, solid particle environment.Thereasonisthattheoxidefilmsformedinthedry
+erosion, frictional oxidation, cavitation erosion, abrasion, and environment are brittle and are more likely to fall off during
+fretting (Wood, 2007). Figures 7A–C shows two types of medical friction,asshowninFigure7D.Thepeeledoxidefilmchanges
+mentalimplantswearinthehumanbodyenvironment,namely,two- thewearenvironmentfromtwo-bodyweartothree-bodywear.
+body wear and three-body wear. Compared with two-body wear, Surface modification is a common and effective method to
+three-bodywearhasanadditionalinteractionwithparticlesthatare improvebio-HEAsurfacesandreducefrictionloss.Thefilmwith
+droppedbywear,andtwo-bodywearwilleventuallytransforminto a laminated structure of NbMoWTa has good friction resistance,
+three-bodywearovertime(Lietal.,2021). especiallywhenthefilmheightis2.5nm;itexhibitsexcellentfriction
+BhardwajdesignedAlxTiZrNbHf(x=0,0.25,0.50,0.75,1) resistance,andthecoefficientoffriction(COF)issignificantlylower
+bio-HEAtoexploretheeffectofAlonthefrictionresistance.The thanthatofthemonolithicNbMoWTafilm(Luoetal.,2021).
+reasonwhytheadditionofAlcanenhancethewearresistanceis
+becauseAlimprovesthemechanicalpropertiesofthematerial.
+Furthermore,anoxidefilmwithhigherfrictionresistancegrows Conclusion
+on the surface of AlTiZrNbHf due to the Al element, which is
+foundwithoutanyelementalseparationinthefrictiontrackin In recent years, many studies have aimed to determine the
+EDSanalysis (Bhardwaj etal., 2021). biomedicalpotentialofHEAstodesignexcellentmedicalmetal
+In fact, the friction and corrosion behaviour of metal implants and expand the application range of bio-HEA.
+implants often occur in combination. The corrosion behaviour Compared with traditional medical metals, bio-HEAs have
+mayacceleratethewearsituationofthematerial;conversely,the more freedom in composition selection and could be widely
+peelingoftheoxidefilmduetowearmayacceleratethecorrosion used in medical implants, especially in bone scaffolds, bone
+of the material. TiZrHfNbFe bio-HEA exhibited good wear plates, and bone nails. The microstructure and morphology of
+resistance in the dry friction test. Although corrosive wear bio-HEAs are closely affected by the selected elements or the
+occurs in a phosphate buffer saline (PBS) solution, the final proportionofeachelement.Strategiesfordesigningreasonable
+performanceisbetterthanthatofTi6Al4V(Wangetal.,2022d). and excellent HEA systemsneedto be further investigated.
+FrontiersinBioengineeringandBiotechnology 11 frontiersin.org
+
+Liuetal. 10.3389/fbioe.2022.952536
+In this review, the superior mechanical properties and biological properties; WL is responsible for the content of
+biocompatibility ofbio-HEAs are summarized. For mechanical mechanical properties; ZL, LL, and HL are responsible for
+properties, bio-HEAs could both have high yield strength and corrosion resistance and friction resistance.
+lowmodulus,whichmeetthestrengthrequirementsandavoid
+stress shielding. Furthermore, some bio-HEAs with
+superelasticity could be developed in the medical field. Funding
+However, fatigue experiments are still lacking in bio-HEAs
+and need to be further evaluated. For biocompatibility, the NationalNaturalScienceFoundationofChinaunder(Grant
+elements selected by bio-HEAs focus on having excellent Nos.51831011,52011530181),ShanghaiScienceandTechnology
+biocompatibility and low biotoxicity, for instance, Ti, Ta, Nb, Commission under Grant No.20S31900100, Guangxi Science
+Zr,andHf.Moreimportantly,thecytocompatibilityofsomebio- and Technology Programe. The central government guides the
+HEAs was even higher than that of CP-Ti and Ti6Al4V. local science and technology development science and
+However, the current cell viability tests of bio-HEAs focus on technology innovation base project [Guike Jizi (2020)No.198]:
+invitrocellviability,lackingrelevantinvivoanimalexperiments. BasicResearchandTransformationTechnologyInnovationBase
+Although bio-HEAs have made significant progress, the ofBoneand Joint Degenerative Diseases.
+availability of new bio-HEAs still has many properties to test.
+In addition, many medical properties of bio-HEAs have
+Conflict of interest
+surpassed those of traditional medical metals. However, most
+ofthesestudiesonlyshowacertainmedicalperformanceofbio-
+HEAs,andthereisalackofsystematicandcompleteresearchon Theauthorsdeclarethattheresearchwasconductedinthe
+allthemedicalimplantindicespossessedbyacertainmaterial.In absenceofanycommercialorfinancialrelationshipsthatcould
+the future, one approach to obtain excellent bio-HEAs is by be construed asapotential conflictofinterest.
+designing the bio-HEA composition and regulating the
+microstructure and morphology. The new bio-HEA is
+Publisher’s note
+expected to become a new generation of metal medical
+implantswith excellent performance.
+All claims expressed in this article are solely those of the
+authorsanddonotnecessarilyrepresentthoseoftheiraffiliated
+Author contributions
+organizations, or those of the publisher, the editors and the
+reviewers.Anyproductthatmaybeevaluatedinthisarticle,or
+CL and LW are responsible for the framework and overall claimthatmaybemadebyitsmanufacturer,isnotguaranteedor
+contentofthearticle;CY,JL,andYTareresponsibleformaterial endorsed bythe publisher.
+References
+Akmal,M.,Hussain,A.,Afzal,M.,Lee,Y.I.,andRyu,H.J.(2021).Systematic Cui,Y.,Chen,L.Y.,Qin,P.,Li,R.,Zang,Q.,Peng,J.,etal.(2022).Metastable
+study of (MoTa) NbTiZr medium- and high-entropy alloys for biomedical pittingcorrosionbehavioroflaserpowderbedfusionproducedTi-6Al-4VinHank’
+implants- in vivo biocompatibility examination. J. Mat. Sci. Technol. 78, ssolution.Corros.Sci.203,110333.doi:10.1016/j.corsci.2022.110333
+183–191.doi:10.1016/j.jmst.2020.10.049
+Dirras,G.,Lilensten,L.,Djemia,P.,Laurent-Brocq,M.,Tingaud,D.,Couzinie,
+Bhardwaj,V.,Zhou,Q.,Zhang,F.,Han,W.,Du,Y.,Hua,K.,etal.(2021).EffectofAl J.P.,etal.(2016).Elasticandplasticpropertiesofas-castequimolarTiHfZrTaNb
+additiononthemicrostructure,mechanicalandwearpropertiesofTiZrNbHfrefractory high-entropyalloy.Mater.Sci.Eng.A654,30–38.doi:10.1016/j.msea.2015.12.017
+highentropyalloys.Tribol.Int.160,107031.doi:10.1016/j.triboint.2021.107031 Dove, G., Halskov, K., Forlizzi, J., and Zimmerman, J. (2017). “UX design
+Bourell,D.,Kruth,J.P.,Leu,M.,Levy,G.,Rosen,D.,Beese,A.M.,etal.(2017). innovation:Challengesforworkingwithmachinelearningasadesignmaterial,”
+Materialsforadditivemanufacturing.CIRPAnn.66,659–681.doi:10.1016/j.cirp. inProceedingsofthe2017CHIconferenceonhumanfactorsincomputingsystems
+2017.05.009 (CHI’17),Associationforcomputingmachinery,NewYork,NY,USA,278–288.
+Buehler,W.J.,Gilfrich,J.V.,andWiley,R.C.(1963).Effectoflow-temperature Eivazzadeh-Keihan,R.,BahojbNoruzi,E.,KhanmohammadiChenab,K.,Jafari,
+phase changes on the mechanical properties of alloys near composition TiNi. A.,Radinekiyan,F.,Hashemi,S.M.,etal.(2020).Metal-basednanoparticlesfor
+J.Appl.Phys.34,1475–1477.doi:10.1063/1.1729603 bonetissueengineering.J.TissueEng.Regen.Med.14,1687–1714.doi:10.1002/
+term.3131
+Cantor, B., Chang, I. T. H., Knight, P., and Vincent, A. J. B. (2004).
+Microstructural development in equiatomic multicomponent alloys. Mater. Sci. Eliaz,N.(2019).Corrosionofmetallicbiomaterials:Areview.Materials12,407.
+Eng.A375–377,213–218.doi:10.1016/j.msea.2003.10.257 doi:10.3390/ma12030407
+Chen,S.H.,Zhang,J.,Guan,S.,Li,T.,Liu,J.,Wu,F.,etal.(2022).Microstructure Fenton,O.S.,Olafson,K.N.,Pillai,P.S.,Mitchell,M.J.,andLanger,R.(2018).
+andmechanicalpropertiesofWNbMoTaZrx(x=0.1,0.3,0.5,1.0)refractoryhigh Advancesinbiomaterialsfordrugdelivery.Adv.Mat.30,1705328–1705329.doi:10.
+entropyalloys.Mater.Sci.Eng.A835,142701.doi:10.1016/j.msea.2022.142701 1002/adma.201705328
+Chen,S.,Li,W.,Wang,L.,Yuan,T.,Tong,Y.,Tseng,K.K.,etal.(2022).Stress-controlled Gaharwar, A. K., Singh, I., and Khademhosseini, A. (2020). Engineered
+fatigue of HfNbTaTiZr high-entropy alloy and associated deformation and fracture biomaterials for in situ tissue regeneration. Nat. Rev. Mat. 5, 686–705. doi:10.
+mechanisms.J.Mat.Sci.Technol.114,191–205.doi:10.1016/j.jmst.2021.10.026 1038/s41578-020-0209-x
+FrontiersinBioengineeringandBiotechnology 12 frontiersin.org
+
+Liuetal. 10.3389/fbioe.2022.952536
+George,E.P.,Raabe,D.,andRitchie,R.O.(2019).High-entropyalloys.Nat.Rev. Lei,Z.,Liu,X.,Wu,Y.,Wang,H.,Jiang,S.,Wang,S.,etal.(2018).Enhanced
+Mat.4,515–534.doi:10.1038/s41578-019-0121-4 strengthandductilityinahigh-entropyalloyviaorderedoxygencomplexes.Nature
+563,546–550.doi:10.1038/s41586-018-0685-y
+Gludovatz,B.,Hohenwarter,A.,Catoor,D.,Chang,E.H.,George,E.P.,and
+Ritchie, R. O. (2014). A fracture-resistant high-entropy alloy for cryogenic Li,H.F.,Huang,J.Y.,Lin,G.C.,andWang,P.Y.(2021).Recentadvancesin
+applications.Science345,1153–1158.doi:10.1126/science.1254581 tribologicalandwearpropertiesofbiomedicalmetallicmaterials.RareMet.40,
+3091–3106.doi:10.1007/s12598-021-01796-z
+Guennec,B.,Kentheswaran,V.,Perriere,L.,Ueno,A.,Guillot,I.,Couzinie,J.P.,
+et al. (2018). Four-point bending fatigue behavior of an equimolar BCC Li,L.,Li,Z.,KwiatkowskidaSilva,A.,Peng,Z.,Zhao,H.,Gault,B.,etal.(2019).
+HfNbTaTiZr high-entropy alloy: Macroscopic and microscopic viewpoints. Segregation-drivengrainboundaryspinodaldecompositionasapathwayforphase
+Materialia4,348–360.doi:10.1016/j.mtla.2018.09.040 nucleationinahigh-entropyalloy.ActaMater.178,1–9.doi:10.1016/j.actamat.
+2019.07.052
+Guennec,B.,Nobori,T.,Kuwahara,H.,andUeno,A.(2018).Effectofthestress
+ratio on the fatigue behavior of Zr55Al10Ni5Cu30 bulk metallic glass part Li, X. G., Chen, C., Zheng, H., Zuo, Y., and Ong, S. P. (2020). Complex
+I—analysis of the fatigue resistance. Intermetallics 92, 72–78. doi:10.1016/j. strengthening mechanisms in the NbMoTaW multi-principal element alloy.
+intermet.2017.09.023 npjComput.Mat.6,70.doi:10.1038/s41524-020-0339-0
+Guennec,B.,Ueno,A.,Sakai,T.,Takanashi,M.,Itabashi,Y.,andOta,M.(2015). Liu,C.,Wang,L.,Lu,W.,Liu,J.,Yang,C.,Fan,C.,etal.(2022).Computervision-
+Dislocation-based interpretation on the effect of the loading frequency on the aidedbioprintingforboneresearch.BoneRes.10,21–14.doi:10.1038/s41413-022-
+fatiguepropertiesofJISS15Clowcarbonsteel.Int.J.Fatigue70,328–341.doi:10. 00192-2
+1016/j.ijfatigue.2014.10.006
+Liu,X.,Zhang,J.,Yin,J.,Bi,S.,Eisenbach,M.,andWang,Y.(2021).MonteCarlo
+Guiu,F.,Dulniak,R.,andEdwards,B.C.(1982).Onthenucleationoffatigue simulationoforder-disordertransitioninrefractoryhighentropyalloys:Adata-
+cracksinpurepolycrystallineα-iron.FatigueFract.Eng.Mat.Struct.5,311–321. drivenapproach.Comput.Mater.Sci.187,110135.doi:10.1016/j.commatsci.2020.
+doi:10.1111/j.1460-2695.1982.tb01240.x 110135
+Guo,L.,AtaollahNaghavi,S.,Wang,Z.,NathVarma,S.,Han,Z.,Yao,Z.,etal. Lu, Z. P., Wang, H., Chen, M., Baker, I., Yeh, J., Liu, C., et al. (2015). An
+(2022).Onthedesignevolutionofhipimplants:Areview.Mat.Des.216,110552. assessmentonthefuturedevelopmentofhigh-entropyalloys:Summaryfroma
+doi:10.1016/j.matdes.2022.110552 recentworkshop.Intermetallics66,67–76.doi:10.1016/j.intermet.2015.06.021
+Guo,Y.,Liu,Y.,Oerlemans,A.,Lao,S.,Wu,S.,andLew,M.S.(2016).Deep Luo,D.,Zhou,Q.,Ye,W.,Ren,Y.,Greiner,C.,He,Y.,etal.(2021).Designand
+learningforvisualunderstanding:Areview.Neurocomputing187,27–48.doi:10. characterizationofself-lubricatingrefractoryhighentropyalloy-basedmultilayered
+1016/j.neucom.2015.09.116 films.ACSAppl.Mat.Interfaces13,55712–55725.doi:10.1021/acsami.1c16949
+Hafeez,N.,Liu,J.,Wang,L.,Wei,D.,Tang,Y.,Lu,W.,etal.(2020).Superelastic Lv,Y.,Lang,X.,Su,C.,Cao,L.,andWang,L.(2022).Stackingfaultandnano-
+responseoflow-modulusporousbeta-typeTi-35Nb-2Ta-3Zralloyfabricatedby twins dominating strengthening mechanism of (CuZnMnNi)100-xSnx high
+laser powder bed fusion. Addit. Manuf. 34, 101264. doi:10.1016/j.addma.2020. entropy brass alloy prepared by mechanical alloying and fast hot pressing
+101264 sintering.Mater.Lett.312,131614.doi:10.1016/j.matlet.2021.131614
+Hasan,J.,Jain,S.,andChatterjee,K.(2017).Nanoscaletopographyonblack Magnin,T.,andDriver,J.H.(1979).Theinfluenceofstrainrateonthelowcycle
+titaniumimpartsmulti-biofunctionalpropertiesfororthopedicapplications.Sci. fatiguepropertiesofsinglecrystalsandpolycrystalsoftwoferriticalloys.Mater.Sci.
+Rep.7,41118–41213.doi:10.1038/srep41118 Eng.39,175–185.doi:10.1016/0025-5416(79)90057-0
+Hemphill,M.A.,Yuan,T.,Wang,G.,Yeh,J.,Tsai,C.,Chuang,A.,etal.(2012). Mao, C., Yu, W., Jin, M., Wang, Y., Shang, X., Lin, L., et al. (2022).
+Fatigue behavior of Al 0.5CoCrCuFeNi high entropy alloys. Acta Mater. 60, Mechanobiologically optimized Ti–35Nb–2Ta–3Zr improves load transduction
+5723–5734.doi:10.1016/j.actamat.2012.06.046 andenhancesboneremodelingintilteddentalimplanttherapy.Bioact.Mater.
+16,15–26.doi:10.1016/j.bioactmat.2022.03.005
+Herzog, D., Seyda, V., Wycisk, E., and Emmelmann, C. (2016). Additive
+manufacturingofmetals.ActaMater.117,371–392.doi:10.1016/j.actamat.2016. McBeth,C.,Lauer,J.,Ottersbach,M.,Campbell,J.,Sharon,A.,andSauer-Budge,
+07.019 A.F.(2017).3DbioprintingofGelMAscaffoldstriggersmineraldepositionby
+primary human osteoblasts. Biofabrication 9, 015009. doi:10.1088/1758-5090/
+Hoh,D.J.,Hoh,B.L.,Amar,A.P.,andWang,M.Y.(2009).Shapememoryalloys:
+aa53bd
+Metallurgy, biocompatibility, and biomechanics for neurosurgical applications.
+Oper.Neurosurg.64,ons199–ons215.doi:10.1227/01.neu.0000330392.09889.99 Mi,Z.R.,Shuib,S.,Hassan,A.Y.,Shorki,A.A.,andIbrahim,M.M.(2007).
+Problemofstressshieldingandimprovementtothehipimplatdesigns:Areview.
+mo
+H
+d
+u
+u
+,
+lu
+S
+s
+.,
+a
+L
+n
+i
+d
+,T
+a
+.
+b
+,
+r
+S
+a
+u
+si
+,
+o
+Z
+n
+.,
+re
+a
+s
+n
+is
+d
+ta
+L
+n
+i
+c
+u
+e
+,
+o
+D
+f
+.
+T
+(
+i
+2
+–
+0
+Z
+2
+r
+2
+–
+)
+N
+.R
+b
+e
+m
+se
+e
+a
+d
+rc
+iu
+h
+m
+on
+en
+s
+t
+u
+ro
+it
+p
+a
+y
+bl
+a
+e
+ll
+s
+o
+t
+y
+re
+s
+n
+(
+g
+M
+th
+E
+,
+A
+e
+s
+la
+)
+s
+f
+t
+o
+ic
+r
+J.Med.Sci.7,460–467.doi:10.3923/jms.2007.460.467
+implantadaptation.Intermetallics140,107401.doi:10.1016/j.intermet.2021.107401 Miracle,D.B.,andSenkov,O.N.(2017).Acriticalreviewofhighentropyalloys
+andrelatedconcepts.ActaMater.122,448–511.doi:10.1016/j.actamat.2016.08.081
+Hua,N.,Wang,W.,Wang,Q.,Ye,Y.,Lin,S.,Zhang,L.,etal.(2021).Mechanical,
+corrosion, and wear properties of biomedical Ti–Zr–Nb–Ta–Mo high entropy Mitrousis, N., Fokina, A., and Shoichet, M. S. (2018). Biomaterials for cell
+alloys.J.AlloysCompd.861,157997.doi:10.1016/j.jallcom.2020.157997 transplantation.Nat.Rev.Mat.3,441–456.doi:10.1038/s41578-018-0057-0
+Ishimoto,T.,Ozasa,R.,Nakano,K.,Weinmann,M.,Schnitter,C.,Stenzel,M., Mughrabi,H.,andWüthrich,C.(1976).Asymmetryofslipandshapechanges
+et al. (2021). Development of TiNbTaZrMo bio-high entropy alloy (BioHEA) duringcyclicdeformationofα-ironsinglecrystals.Philos.Mag.33,963–984.doi:10.
+super-solid solution by selective laser melting, and its improved mechanical 1080/14786437608221928
+propertyandbiocompatibility.Scr.Mater.194,113658.doi:10.1016/j.scriptamat.
+Nagase, T., Iijima, Y., Matsugaki, A., Ameyama, K., and Nakano, T. (2020).
+2020.113658 DesignandfabricationofTi–Zr-Hf-Cr-MoandTi–Zr-Hf-Co-Cr-Mohigh-entropy
+Jian,W.R.,Xie,Z.,Xu,S.,Su,Y.,Yao,X.,andBeyerlein,I.J.(2020).Effectsof alloysasmetallicbiomaterials.Mater.Sci.Eng.C107,110322.doi:10.1016/j.msec.
+lattice distortion and chemical short-range order on the mechanisms of 2019.110322
+deformation in medium entropy alloy CoCrNi. Acta Mater. 199, 352–369.
+Peltier,L.,Berveiller,S.,Meraghni,F.,Lohmuller,P.,andLaheurte,P.(2021).
+doi:10.1016/j.actamat.2020.08.044
+Martensite transformation and superelasticity at high temperature of (TiHfZr)
+Juan,C.-C.,Tsai,M.H.,Tsai,C.W.,Hsu,W.L.,Lin,C.M.,Chen,S.K.,etal. 74(NbTa)26 high-entropy shape memory alloy. Shap. Mem. Superelasticity 7,
+(2016).Simultaneouslyincreasingthestrengthandductilityofarefractoryhigh- 194–205.doi:10.1007/s40830-021-00323-4
+entropyalloyviagrainrefining.Mater.Lett.184,200–203.doi:10.1016/j.matlet.
+Picak, S., Yilmaz, H. C., and Karaman, I. (2021). Simultaneous deformation
+2016.08.060
+twinningandmartensitictransformationinCoCrFeMnNihighentropyalloyat
+Kostiuchenko,T.,Körmann,F.,Neugebauer,J.,andShapeev,A.(2019).Impactof hightemperatures.Scr.Mater.202,113995.doi:10.1016/j.scriptamat.2021.113995
+latticerelaxationsonphasetransitionsinahigh-entropyalloystudiedbymachine-
+learningpotentials.npjComput.Mat.5,55–57.doi:10.1038/s41524-019-0195-y Qiao,K.,Zhang,T.,Wang,K.,Yuan,S.,Wang,L.,Chen,S.,etal.(2022).Effectof
+multi-passfrictionstirprocessingonthemicrostructureevolutionandcorrosion
+Lecun,Y.,Bengio,Y.,andHinton,G.(2015).Deeplearning.Nature521,436–444. behaviorofZrO2/AZ31magnesiummatrixcomposite.J.Mater.Res.Technol.18,
+doi:10.1038/nature14539 1166–1179.doi:10.1016/j.jmrt.2022.02.127
+Lee,C.,Kim,G.,Chou,Y.,Musico,B.L.,Gao,M.C.,An, K.,etal.(2020). Qu, H., Fu, H., Han, Z., and Sun, Y. (2019). Biomaterials for bone tissue
+Temperaturedependenceofelasticandplasticdeformationbehaviorofarefractory engineeringscaffolds:Areview.RSCAdv.9,26252–26262.doi:10.1039/c9ra05214c
+high-entropyalloy.Sci.Adv.6,eaaz4748.doi:10.1126/sciadv.aaz4748
+Raducanu,D.,Vasilescu,E.,Cojocaru,V.,Cinca,I.,Drob,P.,Vasilescu,C.,etal.
+Lee,C.,Maresca,F.,Feng,R.,Chou,Y.,Ungar,T.,Widom,M.,etal.(2021). (2011). Mechanical and corrosion resistance of a new nanostructured
+Strengthcanbecontrolledbyedgedislocationsinrefractoryhigh-entropyalloys. Ti–Zr–Ta–Nballoy.J.Mech.Behav.Biomed.Mater.4,1421–1430.doi:10.1016/j.
+Nat.Commun.12,5474.doi:10.1038/s41467-021-25807-w jmbbm.2011.05.012
+FrontiersinBioengineeringandBiotechnology 13 frontiersin.org
+
+Liuetal. 10.3389/fbioe.2022.952536
+Ramezannejad, A., Xu, W., Xiao, W., Fox, K., Liang, D., and Qian, M. Wang,S.,Wu,M.,Shu,D.,Zhu,G.,Wang,D.,andSun,B.(2020).Mechanical
+(2019). New insights into nickel-free superelastic titanium alloys for instabilityandtensilepropertiesofTiZrHfNbTahighentropyalloyatcryogenic
+biomedical applications. Curr. Opin. Solid State Mater. Sci. 23, 100783. temperatures.ActaMater.201,517–527.doi:10.1016/j.actamat.2020.10.044
+doi:10.1016/j.cossms.2019.100783
+Wang,W.,Yang,K.,Wang,Q.,Dai,P.,Fang,H.,Wu,F.,etal.(2022).NovelTi-
+Rao,S.I.,Akdim,B.,Antillon,E.,Woodward,C.,Parthasarathy,T.,andSenkov, Zr-Hf-Nb-Ferefractoryhigh-entropyalloysforpotentialbiomedicalapplications.
+O.(2019).ModelingsolutionhardeninginBCCrefractorycomplexconcentrated J.AlloysCompd.906,164383.doi:10.1016/j.jallcom.2022.164383
+alloys:NbTiZr,Nb1.5TiZr0.5andNb0.5TiZr1.5.ActaMater.168,222–236.
+Wang,Y.,Chen,G.,Zhang,H.,Zhao,C.,Sun,L.,andZhao,Y.(2021).Emerging
+doi:10.1016/j.actamat.2019.02.013 functionalbiomaterialsasmedicalpatches.ACSNano15,5977–6007.doi:10.1021/
+Roy,A.,Babuska,T.,Krick,B.,andBalasubramanian,G.(2020).Machinelearned acsnano.0c10724
+featureidentificationforpredictingphaseandYoung’smodulusoflow-medium-
+andhigh-entropyalloys.Scr.Mater.185,152–158.doi:10.1016/j.scriptamat.2020. Wang, Y., Shi, H., Zhou, P., Tang, Y., Liu, J., Wang, L., et al. (2021).
+Microstructure evolution and mechanical properties of TiC/Ti6Al4V medical
+04.016
+composite processed by severe plastic deformation. J. Mater. Res. Technol. 15,
+Schönecker, S., Li, X., Wei, D., Nozaki, S., Kato, H., Vitos, L., et al. (2022). 6442–6452.doi:10.1016/j.jmrt.2021.11.090
+Harnessing elastic anisotropy to achieve low-modulus refractory high-entropy
+Wang,Y.,Wei,D.,Wang,L.,Zhang,L.,Liu,J.,Tang,Y.,etal.(2022).Surface
+alloysforbiomedicalapplications.Mat.Des.215,110430.doi:10.1016/j.matdes. modification and twinning behavior in gradient graphene-based TiC/Ti6Al4V
+2022.110430
+composite.Appl.Surf.Sci.583,152495.doi:10.1016/j.apsusc.2022.152495
+Sharma, A., Oh, M. C., Kim, J.-T., Srivastava, A. K., and Ahn, B. (2020).
+Wei,D.,Gong,W.,Wang,L.,Tang,B.,Kawasaki,T.,Harjo,S.,etal.(2022).
+Investigation of electrochemical corrosion behavior of additive manufactured
+Ti–6Al–4Valloyformedicalimplantsindifferentelectrolytes.J.AlloysCompd. S
+d
+t
+e
+r
+f
+e
+e
+n
+ct
+g
+s
+t
+.
+h
+J
+e
+.
+n
+M
+in
+a
+g
+te
+o
+r
+f
+.
+h
+S
+i
+c
+g
+i
+h
+.
+-
+T
+en
+ec
+t
+h
+ro
+n
+p
+o
+y
+l.
+a
+1
+l
+2
+lo
+9
+y
+,
+s
+2
+v
+5
+i
+1
+a
+–
+m
+26
+o
+0
+d
+.
+u
+d
+la
+o
+t
+i
+i
+:
+o
+1
+n
+0.
+o
+1
+f
+0
+c
+1
+r
+6
+y
+/
+o
+j.
+-
+jm
+pr
+s
+e
+t
+-
+.2
+st
+0
+r
+2
+a
+2
+in
+.0
+in
+4.
+g
+0
+-
+5
+in
+5
+duced
+830,154620.doi:10.1016/j.jallcom.2020.154620
+Wei,D.,Wang,L.,Zhang,Y.,Gong,W.,Tsuru,T.,Lobzenko,I.,etal.(2022).
+Shittu, J., Pole, M., Cockerill, I., Sadeghilaridjani, M., Reddy, L. V. K.,
+Metalloidsubstitutionelevatessimultaneouslythestrengthandductilityofface-
+Manivasagam,G.,etal.(2020).Biocompatiblehighentropyalloyswithexcellent
+centered-cubichigh-entropyalloys.ActaMater.225,117571.doi:10.1016/j.actamat.
+degradationresistanceinasimulatedphysiologicalenvironment.ACSAppl.Bio
+Mat.3,8890–8900.doi:10.1021/acsabm.0c01181 2021.117571
+Wei,J.,Chu,X.,Sun,X.,Xu,K.,Deng,H.,Chen,J.,etal.(2019).Machinelearning
+Su,I.A.,Tseng,K.K.,Yeh,J.W.,El-Sayed,B.,Liu,C.H.,andWang,S.H.(2022). inmaterialsscience.InfoMat1,338–358.doi:10.1002/inf2.12028
+Strengthening mechanisms and microstructural evolution of ductile refractory
+medium-entropy alloy Hf20Nb10Ti35Zr35. Scr. Mater. 206, 114225–114313. Wen,C.,Wang,C.,Zhang,Y.,Antonov,S.,Xue,D.,Lookman,T.,etal.(2021).
+doi:10.1016/j.scriptamat.2021.114225 Modeling solid solution strengthening in high entropy alloys using machine
+learning.ActaMater.212,116917.doi:10.1016/j.actamat.2021.116917
+Su,J.,Raabe,D.,andLi,Z.(2019).Hierarchicalmicrostructuredesigntotunethe
+mechanicalbehaviorofaninterstitialTRIP-TWIPhigh-entropyalloy.ActaMater. Wen,X.,Wu,Y.,Huang,H.,Jiang,S.,Wang,H.,Liu,X.,etal.(2021).EffectsofNb
+163,40–54.doi:10.1016/j.actamat.2018.10.017 on deformation-induced transformation and mechanical properties of
+HfNbxTa0.2TiZr high entropy alloys. Mater. Sci. Eng. A 805, 140798. doi:10.
+Takeuchi,A.,Amiya,K.,Wada,T.,Yubuta,K.,Zhang,W.,andMakino,A.(2013).
+1016/j.msea.2021.140798
+Entropies in alloy design for high-entropy and bulk glassy alloys. Entropy 15,
+3810–3821.doi:10.3390/e15093810 Wood,R.J.K.(2007).Tribo-corrosionofcoatings:Areview.J.Phys.D.Appl.
+Phys.40,5502–5521.doi:10.1088/0022-3727/40/18/s10
+Tang,Z.,Yuan,T.,Tsai,C.W.,Yeh,J.W.,Lundin,C.D.,andLiaw,P.K.(2015).
+FatiguebehaviorofawroughtAl0.5CoCrCuFeNitwo-phasehigh-entropyalloy. Xia, S. Q., Yang, X., Yang, T. F., Liu, S., and Zhang, Y. (2015). Irradiation
+ActaMater.99,247–258.doi:10.1016/j.actamat.2015.07.004 resistanceinAlxCoCrFeNihighentropyalloys.Jom67,2340–2344.doi:10.1007/
+s11837-015-1568-4
+Thurston,K.V.S.,Gludovatz,B.,Hohenwarter,A.,Laplanche,G.,George,E.P.,
+and Ritchie, R. O. (2017). Effect of temperature on the fatigue-crack growth Xiao,B.,Jia,W.,Tang,H.,Wang,J.,andZhou,L.(2022).Microstructureand
+behavior of the high-entropy alloy CrMnFeCoNi. Intermetallics 88, 65–72. mechanicalpropertiesofWMoTaNbTirefractoryhigh-entropyalloysfabricatedby
+doi:10.1016/j.intermet.2017.05.009 selectiveelectronbeammelting.J.Mat.Sci.Technol.108,54–63.doi:10.1016/j.jmst.
+2021.07.041
+Todai,M.,Nagase,T.,Hori,T.,Matsugaki,A.,Sekita,A.,andNakano,T.(2017).
+NovelTiNbTaZrMohigh-entropyalloysformetallicbiomaterials.Scr.Mater.129, Xu,S.,Su,Y.,Jian,W.R.,andBeyerlein,I.J.(2021).Localslipresistancesinequal-
+65–68.doi:10.1016/j.scriptamat.2016.10.028 molarMoNbTimulti-principalelementalloy.ActaMater.202,68–79.doi:10.1016/
+j.actamat.2020.10.042
+Tsai,M.-H.,andYeh,J.-W.(2014).High-entropyalloys:Acriticalreview.Mater.
+Res.Lett.2,107–123.doi:10.1080/21663831.2014.912690 Xu,Z.Q.,Ma,Z.L.,Tan,Y.,andCheng,X.W.(2022).DesigningTiVNbTaSi
+refractory high-entropy alloys with ambient tensile ductility. Scr. Mater. 206,
+Tüten,N.,Canadinc,D.,Motallebzadeh,A.,andBal,B.(2019).Microstructure 114230–114236.doi:10.1016/j.scriptamat.2021.114230
+andtribologicalpropertiesofTiTaHfNbZrhighentropyalloycoatingsdepositedon
+Ti6Al4Vsubstrates.Intermetallics105,99–106.doi:10.1016/j.intermet.2018.11.015 Yan, Y., Lu, D., and Wang, K. (2021). Accelerated discovery ofsingle-phase
+refractoryhighentropyalloysassistedbymachinelearning.Comput.Mater.Sci.
+Verran,J.,andWhitehead,K.(2005).Factorsaffectingmicrobialadhesionto
+199,110723.doi:10.1016/j.commatsci.2021.110723
+stainlesssteelandothermaterialsusedinmedicaldevices.Int.J.Artif.Organs28,
+1138–1145.doi:10.1177/039139880502801111 Yang,W.,Liu,Y.,Pang,S.,Liaw,P.K.,andZhang,T.(2020).Bio-corrosion
+behavior and in vitro biocompatibility ofequimolar TiZrHfNbTa high-entropy
+Wang,J.C.,Liu,Y.,Liang,S.,Zhang,Y.,Wang,L.,Sercombe,T.,etal.(2022).
+alloy.Intermetallics124,106845.doi:10.1016/j.intermet.2020.106845
+ComparisonofmicrostructureandmechanicalbehaviorofTi-35Nbmanufactured
+bylaserpowderbedfusionfromelementalpowdermixtureandprealloyedpowder. Yang, X., and Zhang, Y. (2012). Prediction of high-entropy stabilized solid-
+J.Mat.Sci.Technol.105,1–16.doi:10.1016/j.jmst.2021.07.021 solutioninmulti-componentalloys.Mater.Chem.Phys.132,233–238.doi:10.1016/
+j.matchemphys.2011.11.021
+Wang,L.,Cao,T.,Liu,X.,Wang,B.,Jin,K.,Liang,Y.,etal.(2020).Anovelstress-
+inducedmartensitictransformationinasingle-phaserefractoryhigh-entropyalloy. Yao,H.W.,Qiao,J.,Gao,M.,Hawk,J.,Ma,S.,Zhou,H.,etal.(2016).NbTaV-(Ti,
+Scr.Mater.189,129–134.doi:10.1016/j.scriptamat.2020.08.013 W)refractoryhigh-entropyalloys:Experimentsandmodeling.Mater.Sci.Eng.A
+674,203–211.doi:10.1016/j.msea.2016.07.102
+Wang,L.,Fu,C.,Wu,Y.,Li,R.,Hui,X.,andWang,Y.(2019).Superelasticeffect
+inTi-richhighentropyalloysviastress-inducedmartensitictransformation.Scr. Ye,Y.F.,Wang,Q.,Lu,J.,Liu,C.T.,andYang,Y.(2015).Designofhighentropy
+Mater.162,112–117.doi:10.1016/j.scriptamat.2018.10.035 alloys:Asingle-parameterthermodynamicrule.Scr.Mater.104,53–55.doi:10.
+1016/j.scriptamat.2015.03.023
+Wang, L., Xie, L., Lv, Y., Zhang, L. C., Chen, L., Meng, Q., et al. (2017).
+Microstructure evolution and superelastic behavior in Ti-35Nb-2Ta-3Zr alloy Ye,Y.F.,Wang,Q.,Lu,J.,Liu,C.T.,andYang,Y.(2016).High-entropyalloy:Challenges
+processed by friction stir processing. Acta Mater. 131, 499–510. doi:10.1016/j. andprospects.Mater.Today19,349–362.doi:10.1016/j.mattod.2015.11.026
+actamat.2017.03.079
+Ye,Y.F.,Wang,Q.,Lu,J.,Liu,C.T.,andYang,Y.(2015).Thegeneralized
+Wang,R.,Tang,Y.,Lei,Z.,Ai,Y.,Tong,Z.,Li,S.,etal.(2022).Achievinghigh thermodynamicruleforphaseselectioninmulticomponentalloys.Intermetallics
+strengthandductilityinnitrogen-dopedrefractoryhigh-entropyalloys.Mat.Des. 59,75–80.doi:10.1016/j.intermet.2014.12.011
+213,110356.doi:10.1016/j.matdes.2021.110356
+Yeh,J.W.,Chen,S.K.,Lin,S.J.,Gan,J.Y.,Chin,T.S.,Shun,T.T.,etal.(2004).
+Wang,S.P.,andXu,J.(2017).TiZrNbTaMohigh-entropyalloydesignedfor Nanostructuredhigh-entropyalloyswithmultipleprincipalelements:Novelalloy
+orthopedicimplants:As-castmicrostructureandmechanicalproperties.Mater.Sci. design concepts and outcomes. Adv. Eng. Mat. 6, 299–303. doi:10.1002/adem.
+Eng.C73,80–89.doi:10.1016/j.msec.2016.12.057 200300567
+FrontiersinBioengineeringandBiotechnology 14 frontiersin.org
+
+Liuetal. 10.3389/fbioe.2022.952536
+Yin,S.,Ding,J.,Asta,M.,andRitchie,R.O.(2020).Abinitiomodelingofthe Zhang, T., Wei, D., Lu, E., Wang, W., Wang, K., Li, X., et al. (2022).
+energylandscapeforscrewdislocationsinbody-centeredcubichigh-entropyalloys. Microstructure evolution and deformation mechanism of α+ β dual-phase Ti-
+npjComput.Mat.6,110.doi:10.1038/s41524-020-00377-5 xNb-yTa-2Zralloyswithhighperformance.J.Mat.Sci.Technol.131,68–81.doi:10.
+1016/j.jmst.2022.04.052
+Yu,Z.,Wen-Gan,M.,Ren-You,Z.,Chong,C.,andLei,G.(2014).QCDNLOand
+EWNLOcorrectionstott~Hproductionwithtopquarkdecaysathadroncollider. Zhang,Y.,Attarilar,S.,Wang,L.,Lu,W.,Yang,J.,andFu,Y.(2021).A
+Phys. Lett. Sect. BNucl.Elem. Part. High-Energy Phys. 738, 1–5. doi:10.1016/j. reviewondesignandmechanicalpropertiesofadditivelymanufacturedNiTi
+physletb.2014.09.022 implantsfororthopedicapplications.Int.J.Bioprint.7,340.doi:10.18063/ijb.
+v7i2.340
+Zhang,H.,Zhao,Y.,Cai,J.,Ji,S.,Geng,J.,Sun,X.,etal.(2021).High-strength
+NbMoTaXrefractoryhigh-entropyalloywithlowstackingfaultenergyeutectic Zhang,Y.,andLv,Y.neng.(2008).OnthenonisospectralmodifiedKadomtsev-
+phase via laser additive manufacturing. Mat. Des. 201, 109462. doi:10.1016/j. Peviashviliequation.J.Math.AnalysisAppl.342,534–541.doi:10.1016/j.jmaa.2007.
+matdes.2021.109462 12.032
+Zhang, M., Zhou, X., Zhu, W., and Li, J. (2018). Influence of annealing on Zhou,X.,He,S.,andMarian,J.(2021).Cross-kinkscontrolscrewdislocation
+microstructure and mechanical properties of refractory CoCrMoNbTi0.4 high- strengthinequiatomicbccrefractoryalloys.ActaMater.211,116875.doi:10.1016/j.
+entropyalloy.Metall.Mat.Trans.A49,1313–1327.doi:10.1007/s11661-018-4472-z actamat.2021.116875
+FrontiersinBioengineeringandBiotechnology 15 frontiersin.org
+

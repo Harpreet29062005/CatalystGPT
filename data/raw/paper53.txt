@@ -1,0 +1,615 @@
+Article
+Self-Supported High-Entropy Alloy Selenide Electrodes for
+Efficient Acid/Alkaline Amphoteric Water Electrolysis
+TongZhai1,ShicaoLi1,*,ShouquanXiang1,HuaTan2,3,JunshengYang1andHuangchuChen1
+1 SchoolofMechanicalEngineering,WuhanPolytechnicUniversity,Wuhan430024,China;
+15337134729@163.com(T.Z.);19871052995@163.com(S.X.);yangjunsheng2008@163.com(J.Y.);
+18259519152@163.com(H.C.)
+2 SchoolofMaterialsScienceandEngineering,StateKeyLaboratoryofMaterialProcessingandDie&Mould
+Technology,HuazhongUniversityofScienceandTechnology,Wuhan430074,China;hua_tan@hust.edu.cn
+3 GuangdongHUSTIndustrialTechnologyResearchInstitute,Dongguan523808,China
+* Correspondence:lidazhuang458@outlook.com
+Abstract
+Inthiswork,Fe,Co,Ni,Cu,andMopowderswereusedasstartingmaterialstoprepare
+high-entropyalloy(HEA)thinfilmsbyacoatingandvacuumsinteringprocess. Usingthe
+HEAthinfilmasthesubstrate,seleniumwassubsequentlydepositedbychemicalvapor
+deposition(CVD) toobtainhigh-entropyalloyselenide thinfilms(HEASe). Thephase
+structure,surfacechemicalstates,morphology,andelementaldistributionoftheporous
+films were characterized by X-ray diffraction (XRD), X-ray photoelectron spectroscopy
+(XPS), scanning electron microscopy (SEM), and energy-dispersive X-ray spectroscopy
+(EDS).Theelectrocatalytichydrogenevolutionperformanceoftheelectrodeswasevaluated
+usingathree-electrodeconfigurationin0.5MH SO ,1MKOH,1MKOH+0.5MNaCl,
+2 4
+and1MKOH+0.5MNa Ssolutions. TheresultsindicatethattheHEAselenidethin-
+2
+filmelectrodesexhibitfavorableelectrocatalyticbehaviorinallfourelectrolytes. Among
+them, HEASe-450 shows the best overall performance. In 0.5 M H SO , it requires an
+2 4
+overpotentialofonly57.6mVtoreachacurrentdensityof10mAcm−2,withaTafelslope
+of146.96mVdec−1. In1MKOH,theoverpotentialat10mAcm−2 is50.1mV,andthe
+correspondingTafelslopeis142mVdec−1. In1MKOH+0.5MNaCl,theoverpotentialis
+52.7mVwithaTafelslopeof122.72mVdec−1. In1MKOH+0.5MNa S,anoverpotential
+2
+of85mVisrequired,andtheTafelslopeincreasesto236mVdec−1.
+Keywords: porousmaterials;watersplitting;high-entropyalloys;selenides;self-supported
+thinfilms
+1. Introduction
+Hydrogen is considered a promising secondary energy carrier because of its high
+AcademicEditor:JeMoonYun
+energydensityandenvironmentalbenignity. Amongvarioushydrogenproductiontech-
+Received:31January2026
+nologies,waterelectrolysisoffershighenvironmentalcompatibilityandscalability[1–5].
+Revised:27February2026
+Accepted:4March2026 Duringthewaterelectrolysisprocess,thehydrogenevolutionreaction(HER)kineticsat
+Published:25March2026 thecathodeplayadecisiveroleintheoverallenergyefficiency. Therefore,thedevelop-
+Copyright:©2026bytheauthors. mentoflow-costandhighlyactivecathodematerialsisessentialforreducingtheenergy
+LicenseeMDPI,Basel,Switzerland. consumptionofhydrogenproductionandpromotingthepracticalapplicationofwater
+Thisarticleisanopenaccessarticle
+electrolysistechnologies[6,7].
+distributedunderthetermsand
+Amongnon-noble-metal-basedcatalysts,two-dimensionallayeredMoS hasattracted
+conditionsoftheCreativeCommons 2
+considerableattentionduetoitshighHERactivity. Previousstudieshaveenhancedits
+Attribution(CCBY)license.
+Coatings2026,16,398 https://doi.org/10.3390/coatings16040398
+
+Coatings2026,16,398 2of16
+catalytic performance through defect engineering [8,9], doping strategies [10,11], and
+morphologyregulation[12]. However,theintrinsicelectricalconductivityofMoS remains
+2
+relatively limited. In comparison, transition-metal diselenides, such as MoSe , exhibit
+2
+higherintrinsicelectronicconductivity. Thisadvantagemainlyoriginatesfromthestronger
+metalliccharacterofSerelativetoS.Suchcharacteristicsfacilitateelectrontransportand
+alleviatecharge-transferlimitations[13–15]. Therefore,constructingelectrodesbasedon
+transition-metalselenidesrepresentsaneffectiveapproachtoimprovechargetransport
+andfurtherenhanceHERactivity.
+Singletransition-metalselenideshavebeenwidelyexploredasnon-noble-metalHER
+catalysts.TypicalexamplesincludeSe-richMoSe nanosheets(130mVat10mA·cm−2)[16],
+2
+electrodeposited NiSe films (170 mV at 10 mA·cm−2) [17], and CoSe nanoparticles
+2 2
+(140 mV at 10 mA·cm−2) [18], all of which exhibit appreciable HER activity. Despite
+theseadvances, single-componentselenidesgenerallysufferfromlimitedintrinsiccon-
+ductivity,insufficientexposureofactivesites,andcompromisedstabilityathighcurrent
+densities. These factors restrict their performance in high-efficiency water electrolysis
+systems[19–21].Toovercometheselimitations,recenteffortshaveshiftedtowardmulti-
+componenttransition-metalselenides. Theintroductionofmultiplemetalspeciesinduces
+synergistic effects that regulate the electronic structure, enhance charge transport, and
+increasethedensityofactivesites,therebyimprovingbothcatalyticactivityanddurability.
+Forexample,MoSe growninsituonNi Se showssignificantlyenhancedHERactivity
+2 3 4
+comparedwithpristineMoSe [22]. Aslanetal. reportedthatNi-andCo-dopedWSe
+2 x
+catalysts exhibit superior HER performance relative to undoped WSe [23]. Similarly,
+x
+NiFeSe/CFP electrodes outperform their single-component FeSe/CFP and NiSe /CFP
+2
+counterparts[24].
+PreviousstudieshaveshownthatFe–Co,Fe–Ni,andNi–Coselenidesexhibitreason-
+ableHERactivity[25–27]. However,conventionalsingle-orlow-componenttransition-
+metal selenides still face several limitations. First, their intrinsic electrical conductivity
+is relatively low, which may cause charge-transfer limitations at high current densities.
+Second,thecatalystsurfacecanundergostructuralreconstructionoractive-sitepassivation
+duringlong-termHER,leadingtoactivitydecay.Inaddition,theirstructuralstabilityunder
+harshacidicoralkalineconditionsandhighcurrentdensitiesremainsaconcern[28–31].
+IthasbeenreportedthatMocanformstableoxidelayersinbothacidicandalkaline
+media,enhancingthecorrosionresistanceofelectrodes. Therefore,introducingMointo
+FeCoNiSealloyscaneffectivelyimprovetheirchemicaldurability[32,33]. Copper,withits
+strongmetalliccharacterandexcellentconductivity,canenhanceelectrontransportinse-
+lenidesystems,alleviatingelectron-transferlimitationsunderhighcurrentdensities[34,35].
+Furthermore, constructing porous, self-supported electrode architectures is considered
+aneffectivestrategytoimproveHERperformanceandoperationalstabilityoftransition-
+metalselenides. Comparedwithconventionalpowder–binderelectrodes,self-supported
+structuresavoidinterfacialresistanceandactive-siteblockagecausedbybinders. They
+alsomitigategas-inducederosionunderhighcurrentconditions[36]. Theintroductionof
+porosityincreasestheelectrolyte-accessibleactivesurfaceareaandshortensiondiffusion
+pathswhilefacilitatingtimelygasreleaseduringthereaction. Thesefeaturescollectively
+helpmaintainstableelectrochemicalbehaviorunderhighcurrentdensities[37].
+Accordingly,FeCoNiMoCuHEAthin-filmprecursorswerepreparedbycoatingfol-
+lowedbyvacuumsintering. Theresultingprecursorswerethenconvertedintoporous
+FeCoNiMoCu–Seself-supportedthinfilmsviachemicalvapordeposition. TheHERperfor-
+manceoftheporousself-supportedelectrodeswasexaminedinfourelectrolytes: 0.5M
+H SO ,1MKOH,and1MKOHcontaining0.5MNaClorNa S.
+2 4 2
+https://doi.org/10.3390/coatings16040398
+
+Coatings2026,16,398 3of16
+2. PreparationandCharacterization
+FeCoNiCuMohigh-entropyalloy(HEA)thin-filmsubstrateswerefirstpreparedfol-
+lowingthemethodreportedinreference[38]. Tofabricatetheelectrodesfortesting,the
+HEAthinfilmswerecutinto1×1cm2piecesandimmersedin1MHClfor30min. The
+samples were rinsed alternately with ultrapure water and anhydrous ethanol for three
+cyclesanddriedunderanargonflow. Thedriedfilmswereplacedinaquartzboatand
+positioned at the central heating zone of a tubular furnace. During selenization, 0.2 g
+ofseleniumpowderwasplacedupstreamofthesamplerelativetothecarriergasflow,
+as illustrated in Figure 1. The furnace temperature was raised at 10 ◦C/min to 120 ◦C
+andmaintainedfor30mintoeliminatemoisture. Itwasthenfurtherheatedtothetarget
+temperatures(350,400,or450◦C)andmaintainedfor3h. Argonwascontinuouslyflowed
+at100mL/minthroughoutthereaction. Aftertheprocess,thefurnacecoolednaturallyto
+roomtemperature. TheHEA–Sefilmswerecollectedandcleanedultrasonicallyina1wt%
+NaOHsolutionfor10min. Thefilmswererinsedseveraltimeswithultrapurewaterand
+anhydrousethanolandthendriedunderaninertgasatmosphereat60◦Cfor2h.
+Figure1.Schematicillustrationoftheselenizationprocess.
+ThecrystalstructureoftheFeCoNiMoCu–Sethin-filmelectrodeswasdeterminedfrom
+X-raydiffraction(XRD)patternscollectedonaD/MAX2500VBdiffractometer(Rigaku
+Corporation,Akishima,Tokyo,Japan)(CuKαradiation,λ=1.541Å,Japan). Microstruc-
+turalfeaturesandelementaldistributionswereprobedbyscanningelectronmicroscopy
+(JSM-5600LV, JEOL Ltd., Akishima, Tokyo, Japan) equipped with energy-dispersive X-
+ray spectroscopy (Octane SDD, EDAX, Mahwah, NJ, USA). The chemical states of the
+constituent elements were assessed using X-ray photoelectron spectroscopy (AMICUS,
+KratosAnalyticalLtd.,Manchester,UK).Electrochemicalmeasurementswereconducted
+onaCHI660Eworkstationusingastandardthree-electrodeconfiguration. Theprepared
+thin-filmelectrodesservedastheworkingelectrodes,andaplatinumwirewasusedasthe
+counterelectrode. Formeasurementsin0.5MH SO ,asaturatedcalomelelectrode(SCE)
+2 4
+wasusedasthereference;for1MKOH,aHg/HgOelectrodewasused;andfor1MKOH
++0.5MNaCland1MKOH+0.5MNa Ssolutions,aAg/AgClelectrodewasusedasthe
+2
+reference. Measuredpotentialswereconvertedtothereversiblehydrogenelectrode(RHE)
+scaleaccordingtothefollowingequation:
+E =E +0.241+0.0592pH
+RHE SCE
+E =E +0.098+0.0592pH
+RHE Hg/HgO
+E =E +0.197+0.0592pH
+RHE Ag/AgCl
+E referstothepotentialmeasuredagainstasaturatedcalomelelectrode(SCE,V);
+SCE
+E correspondstothepotentialmeasuredversusaHg/HgOelectrode(V);E
+Hg/HgO Ag/AgCl
+isdefinedrelativetoanAg/AgClelectrode(V).ThepHindicatestheacidityoralkalinity
+oftheelectrolyte.
+https://doi.org/10.3390/coatings16040398
+
+Coatings2026,16,398 4of16
+3. ResultsandDiscussion
+3.1. XRD
+Figure2XRDpatternsoftheFeCoNiMoCu–Sethin-filmelectrodes. Metalcarbide
+peaksoriginatefromthereactionofcarbon,generatedbyPVBdecompositionduringpre-
+cursorsintering,withthemetals. Mo SeandCuSephasesindicatesuccessfulselenization
+3
+ofMoandCu. ElementalMoisalsodetectedduetoitslimitedsolubilityinFe,Ni,andCu.
+Figure2.X-raydiffraction(XRD)patternsoftheFeCoNiMoCu–Sethin-filmelectrodes.
+3.2. SEM
+Figure3SEMcharacterizationofFeCoNiMoCu–Sethin-filmelectrodesatmultiple
+magnifications: (a) overview showing the abundant porous structure on the electrode
+surface;(b)and(c)low-magnificationimagesofthesurfacemorphology,illustratingthe
+interconnected porous network formed during sintering; (d) high-magnification image
+showinguniform,flake-likestructuresdistributedontheporousframework,indicatingan
+increasedspecificsurfacearea.
+Figure3.(a–d)SEMimagesoftheFeCoNiMoCu–Sethin-filmelectrodes.
+https://doi.org/10.3390/coatings16040398
+
+Coatings2026,16,398 5of16
+3.3. XPS
+The chemical states of the constituent elements in the FeCoNiMoCu–Se thin-film
+electrodeswereinvestigatedbyX-rayphotoelectronspectroscopy(XPS).XPSanalysiswas
+performedtoclarifythesurfacechemicalstatesoftheFeCoNiMoCu–Sethin-filmelectrodes.
+As shown in Figure 4b, the Fe 2p spectrum contains contributions from both selenide
+andoxidespecies. TheFe2+doubletislocatedat709.81eV(2p )and723.38eV(2p ),
+3/2 1/2
+whereasthepeaksat711.40eVand725.00eVoriginatefromFe3+. Twoadditionalsatellite
+featuresat715.69eVand729.49eVfurtherconfirmthepresenceofFe2+ species[39,40].
+TheCo2pregion(Figure4c)revealsmixedselenideandoxidecomponents. Thesignalsat
+780.91eVand796.70eVareattributedtoCo2+,whilethoseat783.30eVand799.09eVcorre-
+spondtoCo3+.CharacteristicCo2+satellitesareobservedat787.31eVand803.10eV[40,41].
+ForNi2p(Figure4d),thedoubletsat854.40/872.01eVand860.96/878.81eVareassigned
+toNi2+andNi3+species,respectively.Inaddition,satellitepeaksat856.06eVand874.12eV
+indicate the existence of Ni2+ states [40,42]. The Cu 2p spectrum (Figure 4e) displays
+metallicCusignalsat932.30eVand952.23eV,togetherwithCu2+ componentslocated
+at 933.85 eV and 955.46 eV [40,43]. In the Mo 3d region (Figure 4f), peaks at 227.59 eV
+and230.77eVareassignedtometallicMo,whereasthedoubletsat228.75/232.07eVand
+231.06/234.11eVoriginatefromMo4+andMo6+species,respectively[44,45]. Asillustrated
+inFigure4g,theSe3dspectrumexhibitsselenide-relatedpeaksat52.52eVand53.12eV,
+accompaniedbyoxidecomponentsat58.62eVand59.75eV[40,43].
+3.4. EDS
+Elementalmappingprovidedinsightintothecompositionandspatialdistribution
+oftheFeCoNiMoCu–Sethin-filmelectrodes. Figure5demonstratesthattheouterlayer
+of the electrodes contains Fe, Co, Ni, Cu, Mo, Se, and C. Residual carbon results from
+incompletePVBdecompositionduringthesinteringofHEAprecursors. Residualcarbon
+resultsfromincompletePVBdecompositionduringthesinteringofHEAprecursors. The
+aboveresultsverifytheeffectivefabricationofFeCoNiMoCu–Sethin-filmelectrodes. In
+additiontoverifyingtheelementalcomposition,theEDSmappingresultsprovideinsight
+intotheelementdistributionbehaviorduringselenization. TheSesignalcloselyfollowsthe
+porousmorphology,indicatingeffectivesurfaceselenization,whereasFeremainsnearly
+uniformlydistributedwithinthealloymatrix. ThisobservationisconsistentwiththeXRD
+andXPSanalyses,suggestingthatMoandCupreferentiallyformsurfaceselenides,while
+Fe,Co,andNimainlycontributetomaintainingthestructuralframework.
+3.5. ElectrochemicalPerformance
+HERPerformancein0.5MH SO Solution
+2 4
+TheelectrocatalyticHERbehaviorofHEASethin-filmelectrodeswasinvestigated
+in0.5MH SO . Threeelectrodescalcinedatdifferenttemperaturesweretested: 350◦C
+2 4
+(HEASe-350), 400 ◦C (HEASe-400), and 450 ◦C (HEASe-450). Linear sweep voltamme-
+try(LSV)curvesareshowninFigure6a. Atagivencurrentdensity, theoverpotentials
+follow the order HEASe-350 > HEASe-400 > HEASe-450, indicating a reduced driving
+forceforachievingthesamecurrentdensitywithincreasingcalcinationtemperature. At
+10mA·cm−2,HEASe-450exhibitsthelowestoverpotentialof57.6mV,comparedto97.6mV
+forHEASe-350and74.8mVforHEASe-400.
+The HER kinetics of the three electrodes were further analyzed using Tafel slopes,
+whichcanprovideinsightintothepossiblerate-determiningsteps. DistinctTafelslopes
+near120,40,and30mV·dec−1 areindicativeofVolmer-,Heyrovsky-,andTafel-controlled
+kinetics,respectively. AsshowninFigure6b,theTafelslopesforHEASe-450,HEASe-400,
+https://doi.org/10.3390/coatings16040398
+
+Coatings2026,16,398 6of16
+andHEASe-350are146.96,134.98,and138.54mV·dec−1,respectively,suggestingthatthe
+HERonallthreeelectrodesfollowsaVolmer–Heyrovskymechanism.
+Figure4.X-rayphotoelectronspectroscopy(XPS)spectraoftheFeCoNiMoCu–Sethin-filmelectrodes:
+(a)surveyspectrum;(b)Fe2p;(c)Co2p;(d)Ni2p;(e)Cu2p;(f)Mo3d;(g)Se3d.
+https://doi.org/10.3390/coatings16040398
+
+Coatings2026,16,398 7of16
+Figure5.EDSelementalmappingoftheFeCoNiMoCu–Sethin-filmelectrodes.
+(a) (b)
+Figure6. (a)LSVcurvesofHEASethin-filmelectrodesrecordedin0.5MH SO . (b)Tafelplots
+2 4
+derivedfromthecorrespondingpolarizationdata.
+Electrochemicalimpedancespectroscopy(EIS)wasemployedtoprobetheinterfacial
+behavioroftheHEASethin-filmelectrodes. Figure7showstheNyquistplotsofthethree
+electrodes. Thediameterofthesemicircleinthehigh-frequencyregioncorrespondstothe
+charge-transferresistance(R ). HEASe-450exhibitsthesmallestsemicircle,indicatingthe
+ct
+lowestR amongthesamples. Table1summarizesthefittedimpedanceparameters. The
+ct
+masstransportresistance(R )ofHEASe-450isthesmallest,furtherconfirmingitssuperior
+p
+HERcatalyticactivitycomparedtoHEASe-400andHEASe-350.
+Theelectrochemicallyactivesurfacearea(ECSA)playsacrucialroleindetermining
+theHERperformanceofanelectrode. ECSAvaluesforHEASethin-filmelectrodeswere
+calculatedbasedonthemeasureddouble-layercapacitance(C )[46]. Cyclicvoltammetry
+dl
+(CV)measurementswerecarriedoutonHEASe-450,HEASe-400,andHEASe-350atscan
+rates of 5, 10, 20, 30, and 40 mV·s−1. Figure 8a–c show the corresponding CV curves,
+where the current response in the selected potential range arises mainly from double-
+layer charging and discharging. The differences between anodic and cathodic current
+https://doi.org/10.3390/coatings16040398
+
+Coatings2026,16,398 8of16
+densities (∆j) at each scan rate were obtained, and half of ∆j (∆j/2) was plotted as a
+function of the scan rate. C values were determined by performing a linear fit to the
+dl
+∆j/2versusscanrateplot. AsshowninFigure8d,HEASe-450exhibitsthehighestC of
+dl
+138.6mF·cm−2,significantlylargerthanthatofHEASe-350(112mF·cm−2)andHEASe-400
+(54.1mF·cm−2). TheseresultsindicatethatHEASe-450possessesthelargestECSAamong
+the three electrodes. The enhanced ECSA of HEASe-450 can be attributed to the richer
+porousstructureandhighersurfaceroughnessformedduringcalcinationat450◦C,which
+exposesmoreactivesites. Thesesitesserveaselectrochemicalreactioncenters,facilitating
+HERandthussignificantlyimprovingthecatalyticactivityoftheelectrode.
+(a) (b)
+Figure7. (a)NyquistplotsoftheHEASethin-filmelectrodesin0.5MH SO . (b)Corresponding
+2 4
+equivalentcircuitmodel.
+(a) (b)
+(c) (d)
+Figure8.CVmeasurementsofHEASethin-filmelectrodes:(a)HEASe-350,(b)HEASe-400,(c)HEASe-
+450,and(d)thecorrespondingC valuesderivedfromtheplots.
+dl
+https://doi.org/10.3390/coatings16040398
+
+Coatings2026,16,398 9of16
+Table1.FittedimpedanceparametersoftheHEASethin-filmelectrodes.
+Rs R C CPE-T CPE-P R
+p 1 ct
+HEASe-350 0.814 0.0951 6.809×10−5 0.1366 0.8081 16.25
+HEASe-400 1.226 0.0575 1.301×10−3 0.07 0.8191 359.7
+HEASe-450 0.953 0.0413 2.96×10−3 0.1029 0.854 2.626
+3.6. HERPerformancein1MKOHSolution
+Previous studies have highlighted that wastewater-based and general electrolysis
+technologies still face significant challenges in terms of cost, scalability, and infrastruc-
+ture,emphasizingtheneedforhighlyactiveHERelectrocatalysts,particularlyinalkaline
+electrolytessuchas1MKOH[47]. Tosystematicallyevaluatetheelectrodeperformance
+underdifferentelectrolyteconditions,theHERactivityoftheelectrodeswasfurtherinves-
+tigatedin1MKOH.Figure9aillustratestheelectrocatalyticLSVresponsesofHEASe-350,
+HEASe-400,andHEASe-450electrodes. Amongthem,HEASe-450exhibitsthebestHER
+performance. Atacurrentdensityof10mA·cm−2,HEASe-450exhibitsanoverpotential
+of 50.1 mV, which is much lower than those of HEASe-350 (104.1 mV) and HEASe-400
+(59.7mV),suggestingsuperiorelectrochemicalkineticsinKOH.ThecorrespondingTafel
+slopesareshowninFigure9b.HEASe-450,HEASe-400,andHEASe-350haveTafelslopesof
+142,140.3,and128.29mV·dec−1,respectively,indicatingthattheHERonallthreeelectrodes
+followstheVolmer–Heyrovskymechanisminalkalinemedia. Asabenchmark,previously
+reportedPtNiCuCoPdthin-filmcatalystsexhibitoutstandinghydrogenevolutionactiv-
+ityinalkalinemedia, deliveringanoverpotentialofonly38mVatacurrentdensityof
+10mAcm−2 in1MKOH[48]. Inthiscontext,theHEASe-450electrodedemonstratesa
+competitivelevelofperformanceamongthin-filmHERcatalysts.
+(a) (b)
+Figure9.(a)LSVpolarizationcurvesoftheHEASethin-filmelectrodesin1MKOH.(b)Correspond-
+ingTafelplots.
+EISmeasurementswerecarriedoutatafixedpotentialof500mV.Thehigh-frequency
+semicircle observed for HEASe-450 in Figure 10 and Table 2 is the smallest among the
+samples, suggesting the lowest interfacial charge-transfer resistance (R ). This result
+p
+demonstratesitssuperiorelectrontransportandinterfacialreactionkineticscomparedto
+HEASe-400andHEASe-350.Theseobservationssuggestthattheelectrochemicalproperties
+oftheelectrodesaremarkedlyaffectedbythecalcinationtemperature.
+TheECSAoftheelectrodeswasassessedusingCVmeasurementsinthenon-Faradaic
+region. AsshowninFigure11,HEASe-450exhibitsthelargestC value(34mF·cm−2),
+dl
+higherthanthatofHEASe-350(26.8mF·cm−2)andHEASe-400(29.7mF·cm−2). Among
+thethreeelectrodes,HEASe-450possessesthehighestECSA,facilitatinggreateravailability
+ofactivesitesforHERandtherebypromotingitsenhancedelectrocatalyticperformance.
+https://doi.org/10.3390/coatings16040398
+
+Coatings2026,16,398 10of16
+(a) (b)
+Figure10. (a)NyquistplotsoftheHEASethin-filmelectrodesin1MKOH.(b)Corresponding
+equivalentcircuitmodel.
+Table2.FittedimpedanceparametersoftheHEASethin-filmelectrodesin1MKOH.
+Rs R C CPE-T CPE-P R
+p 1 ct
+HEASe-350 0.736 0.17322 4.313×10−5 0.0034 0.7813 14.89
+HEASe-400 0.984 0.16451 1.372×10−5 0.1235 0.6528 11.2
+HEASe-450 1.029 0.14898 1.787×10−4 0.0303 0.8477 6.32
+(a) (b)
+(c) (d)
+Figure 11. Cyclic voltammetry (CV) curves of the HEASe thin-film electrodes: (a) HEASe-350,
+(b)HEASe-400,(c)HEASe-450,and(d)correspondingCdlvalues.
+3.7. HERPerformancein1MKOH+0.5MNaClSolution
+Theeffectoftheionicenvironmentontheelectrochemicalbehavioroftheelectrodes
+was investigated by adding 0.5 M NaCl to 1.0 M KOH, and HER measurements were
+performedunderidenticalconditions.
+Figure12apresentstheLSVresults. Consistentwiththepreviousresultsinpurealka-
+linemedia,HEASe-450exhibitsthebestHERactivity.HEASe-450achievesanoverpotential
+of52.7mVat10mA·cm−2,outperformingHEASe-350(88.7mV)andHEASe-400(64.2mV).
+https://doi.org/10.3390/coatings16040398
+
+Coatings2026,16,398 11of16
+(a) (b)
+Figure12.(a)LSVpolarizationcurvesoftheHEASethin-filmelectrodesin1MKOH+0.5MNaCl.
+(b)CorrespondingTafelplots.
+TafelslopeswereanalyzedtoevaluatetheHERkinetics. Figure12ashowstheLSV
+curves. Inagreementwiththeresultsobtainedinpurealkalineelectrolyte, HEASe-450
+demonstratessuperiorHERperformance. At10mA·cm−2,itsoverpotentialis52.7mV,
+whichislowerthanthatofHEASe-350(88.7mV)andHEASe-400(64.2mV).
+The interfacial charge-transfer properties of the electrodes were probed by EIS at
+500mV.AnalysisofFigure13andTable3revealsthatHEASe-450possessesthesmallest
+R ,reflectingitssuperiorcharge-transferkineticsrelativetoHEASe-350andHEASe-400.
+p
+(a) (b)
+Figure13.(a)NyquistplotsoftheHEASethin-filmelectrodesin1MKOH+0.5MNaCl.(b)Corre-
+spondingequivalentcircuitmodel.
+Table3.FittedimpedanceparametersoftheHEASethin-filmelectrodesin1MKOH+0.5MNaCl.
+Rs R C CPE-T CPE-P R
+p 1 ct
+HEASe-350 0.494 1.348 2.673×10−5 0.02794 0.8929 40.62
+HEASe-400 0.521 0.2554 4.141×10−5 0.05677 0.71502 36.64
+HEASe-450 1.029 0.1529 8.001×10−5 0.0303 0.8477 34.92
+Thehighestdouble-layercapacitance(C )of32.1mF·cm−2isobservedforHEASe-
+dl
+450inFigure14d,surpassingHEASe-350(25.9mF·cm−2)andHEASe-400(29.3mF·cm−2),
+whichreflectsitsenhancedelectrochemicallyactivesurfacearea. Thisresultindicatesthat
+theelectrodecalcinedat450◦CpossessesthelargestECSA.
+C servesasanindicatorofECSA,withhighervaluesreflectingenhancedexposureof
+dl
+activesitesforelectrochemicalreactions. ThehigherC ofHEASe-450maybeattributedto
+dl
+thericherporousstructure,highersurfaceroughness,andmoreoptimizedcrystalstructure
+formedatthistemperature,whichtogetherexposemoreactivesitesontheelectrodesurface.
+https://doi.org/10.3390/coatings16040398
+
+Coatings2026,16,398 12of16
+Incontrast,HEASe-350andHEASe-400,calcinedatlowertemperatures,likelyhaveless
+developedsurfacestructuresandfeweractivesites,resultinginlowerC values.
+dl
+(a) (b)
+(c) (d)
+Figure 14. Cyclic voltammetry (CV) curves of the HEASe thin-film electrodes: (a) HEASe-350,
+(b)HEASe-400,(c)HEASe-450,and(d)correspondingC values.
+dl
+3.8. HERPerformancein1MKOH+0.5MNa SSolution
+2
+Figure15aillustratestheLSVbehavioroftheHEASethin-filmelectrodesmeasuredin
+1MKOHcontaining1MNa S.HEASe-450exhibitsthelowestoverpotentialof85mVat
+2
+10mA·cm−2,considerablysurpassingHEASe-350(103mV)andHEASe-400(112.3mV).
+(a) (b)
+Figure15.(a)HERpolarizationcurvesoftheHEASethin-filmelectrodesin1MKOH+1MNa S.
+2
+(b)CorrespondingTafelplots.
+Figure15bpresentstheTafelslopesoftheHEASethin-filmelectrodes.HEASe-450shows
+aTafelslopeof236mV·dec−1,whichislowerthanthoseofHEASe-350(282.4mV·dec−1)
+andHEASe-400(216.3mV·dec−1),indicatingfasterHERkineticsinthesulfide-containing
+alkalineelectrolyte.
+Figure16andTable4displaytheEISresultsobtainedat500mV.HEASe-450exhibits
+thesmallestmasstransportresistance(R ),furtherconfirmingthattheelectrodecalcinedat
+p
+https://doi.org/10.3390/coatings16040398
+
+Coatings2026,16,398 13of16
+450◦CpossessessuperiorHERreactionkinetics. Theseresultsprovideimportantguidance
+foroptimizingelectrodeperformanceincomplexionicenvironments.
+(a) (b)
+Figure16.(a)NyquistplotsoftheHEASethin-filmelectrodesin1MKOH+1MNa S.(b)Corre-
+2
+spondingequivalentcircuitmodel.
+Table4.FittedimpedanceparametersoftheHEASethin-filmelectrodesin1MKOH+1MNa S.
+2
+Rs R C CPE-T CPE-P R
+p 1 ct
+HEASe-350 0.493 0.312 2.886×10−5 0.9837 0.7747 21.43
+HEASe-400 0.405 0.153 8.383×10−5 1.223 0.9044 135.5
+HEASe-450 0.39 0.0956 1.365×10−4 0.84559 0.75702 4.31
+Thethin-filmelectrodecalcinedat450◦CexhibitsthelargestC of225.4mF·cm−2
+dl
+(Figure 17), surpassing HEASe-350 (120.3 mF·cm−2) and HEASe-400 (112.1 mF·cm−2),
+whichindicatesanincreasedelectrochemicallyactivesurfacearea. Calcinationat450◦C
+resultsintheelectrodeachievingthemaximumECSA,highlightingitsincreasedavailability
+ofactivesites.
+(a) (b)
+(c) (d)
+Figure 17. Cyclic voltammetry (CV) curves of the HEASe thin-film electrodes: (a) HEASe-350,
+(b)HEASe-400,(c)HEASe-450,and(d)correspondingC values.
+dl
+https://doi.org/10.3390/coatings16040398
+
+Coatings2026,16,398 14of16
+4. Conclusions
+Inthiswork,transition-metalthin-filmelectrodespreparedinadvancewereselenized
+viachemicalvapordeposition, andtheeffectofselenizationtemperatureontheirHER
+performancewassystematicallyinvestigated. Theresultsdemonstratethattheselenized
+electrodesexhibitexcellentelectrocatalyticactivityforhydrogenevolutioninfourdifferent
+electrolytes,withHEASe-450showingthebestperformance:
+1. In0.5MH SO ,acurrentdensityof10mA·cm−2isachievedatanoverpotentialof
+2 4
+57.6mV,withaTafelslopeof146.96mV·dec−1.
+2. In1.0MKOH,thesamecurrentdensityrequiresanoverpotentialof50.1mV,witha
+Tafelslopeof142mV·dec−1.
+3. In1MKOH+0.5MNaCl,theoverpotentialat10mA·cm−2is52.7mV,withaTafel
+slopeof122.72mV·dec−1.
+4. In1MKOH+1MNa S,theoverpotentialat10mA·cm−2is85mV,withaTafelslope
+2
+of236mV·dec−1.
+AuthorContributions:Conceptualization,J.Y.;methodology,T.Z.andS.L.;validation,T.Z.andS.L.;
+formalanalysis,S.L.andS.X.;investigation,T.Z.andS.L.;datacuration,T.Z.andH.C.;writing—
+originaldraftpreparation,T.Z.andS.L.;writing—reviewandediting,T.Z.andS.L.;visualization,
+T.Z.;supervision,S.L.;projectadministration,J.Y.andH.T.;fundingacquisition,J.Y.Allauthorshave
+readandagreedtothepublishedversionofthemanuscript.
+Funding: ThisresearchwasfundedbytheGuangdongS&Tprogram(2023B0101200001)andthe
+NationalNaturalScienceFoundationofChina(51704221and52371074).
+InstitutionalReviewBoardStatement:Notapplicable.
+InformedConsentStatement:Notapplicable.
+DataAvailabilityStatement:Dataarecontainedwithinthearticle.
+ConflictsofInterest:Theauthorsdeclarenoconflictsofinterest.
+References
+1. Hassan,N.S.;Jalil,A.A.;Rajendran,S.;Khusnun,N.;Bahari,M.;Johari,A.;Kamaruddin,M.;Ismail,M.Recentreviewand
+evaluationofgreenhydrogenproductionviawaterelectrolysisforasustainableandcleanenergysociety.Int.J.HydrogenEnergy
+2024,52,420–441.[CrossRef]
+2. Aslam,S.;Rani,S.;Lal,K.;Fatima,M.;Hardwick,T.;Shirinfar,B.;Ahmed,N.Electrochemicalhydrogenproduction:Sustainable
+hydrogeneconomy.GreenChem.2023,25,9543–9573.[CrossRef]
+3. Nasser,M.;Megahed,T.F.;Ookawara,S.;Hassan,H.Areviewofwaterelectrolysis–basedsystemsforhydrogenproduction
+usinghybrid/solar/windenergysystems.Environ.Sci.Pollut.Res.2022,29,86994–87018.[CrossRef][PubMed]
+4. Terlouw,T.;Bauer,C.;McKenna,R.;Mazzotti,M.Large-scalehydrogenproductionviawaterelectrolysis:Atechno-economic
+andenvironmentalassessment.EnergyEnviron.Sci.2022,15,3583–3602.[CrossRef]
+5. Zhang,Y.;Zhang,Y.;Li,Z.;Yu,E.;Ye,H.;Li,Z.;Guo,X.;Zhou,D.;Wang,C.;Sha,Q.;etal.Areviewofhydrogenproductionvia
+seawaterelectrolysis:Currentstatusandchallenges.Catalysts2024,14,691.[CrossRef]
+6. Shi,J.;Bao,Y.;Ye,R.;Zhong,J.;Zhou,L.;Zhao,Z.;Kang,W.;Aidarova,S.B.Recentprogressandperspectiveofelectrocatalysts
+forthehydrogenevolutionreaction.Catal.Sci.Technol.2025,15,2104–2131.[CrossRef]
+7. Li,Z.; Liu,X.; Yu,Q.; Qu,X.; Wan,J.; Xiao,Z.; Chi,J.; Wang,L.Recentadvancesindesignofhydrogenevolutionreaction
+electrocatalystsathighcurrentdensity:Areview.Chin.J.Catal.2024,63,33–60.[CrossRef]
+8. Xu,J.;Shao,G.;Tang,X.;Lv,F.;Xiang,H.;Jing,C.;Liu,S.;Dai,S.;Li,Y.;Luo,J.;etal.Frenkel-defectedmonolayerMoS catalysts
+2
+forefficienthydrogenevolution.Nat.Commun.2022,13,2193.[CrossRef]
+9. Yang,Z.;Zhu,J.;Xu,X.;Wang,L.;Zhou,G.;Yang,Z.;Zhang,Y.DefectandstrainengineeredMoS /graphenecatalystforan
+2
+enhancedhydrogenevolutionreaction.RSCAdv.2023,13,4056–4064.[CrossRef]
+10. Manyepedza,T.;Courtney,J.M.;Snowden,A.;Jones,C.R.;Rees,N.V.ImpactelectrochemistryofMoS : Electrocatalysisand
+2
+hydrogengenerationatlowoverpotentials.J.Phys.Chem.C2022,126,17942–17951.[CrossRef]
+https://doi.org/10.3390/coatings16040398
+
+Coatings2026,16,398 15of16
+11. Ma,S.;Yan,Q.;Gui,H.;Gao,R.;Zhang,L.;Bai,X.;Cheng,K.Greatwallstructureinspired2D@2Dhetero-layeredW-dopedMoS
+2
+foranenhancedhydrogenevolutionreaction.NewJ.Chem.2025,49,84–91.[CrossRef]
+12. Li,H.;Wu,H.;Yuan,S.;Qian,H.SynthesisandcharacterizationofverticallystandingMoS nanosheets.Sci.Rep.2016,6,21171.
+2
+[CrossRef][PubMed]
+13. Wijaya,K.R.;Diguna,L.J.;Tsalsabila,A.;Budiarso,I.J.J.;Judawisastra,H.;Arramel,A.;Nugroho,F.A.A.;Birowosuto,M.D.;
+Wibowo,A.2Dtransitionmetaldichalcogenidesforphotovoltaics,hydrogenproduction,andCO photoreduction.RSCSustain.
+2
+2025,3,4887–4910.[CrossRef]
+14. Wazir,M.B.;Daud,M.;Safeer,S.;Almarzooqi,F.;Qurashi,A.Reviewon2Dmolybdenumdiselenide(MoSe )anditshybridsfor
+2
+greenhydrogen(H )generationapplications.ACSOmega2022,7,16856–16865.[CrossRef]
+2
+15. B,R.;R,S.;Hegde,V.;K,H.AcomprehensivereviewonMoSe nanostructureswithanoverviewofmachinelearningtechniques
+2
+forsupercapacitorapplications.RSCAdv.2024,14,37644–37675.[CrossRef]
+16. Kwon,I.S.;Kwak,I.H.;Debela,T.T.;Abbas,H.G.;Park,Y.C.;Ahn,J.P.;Park,J.;Kang,H.S.Se-richMoSe nanosheetsandtheir
+2
+superiorelectrocatalyticperformanceforhydrogenevolutionreaction.ACSNano2020,14,6295–6304.[CrossRef]
+17. Swesi,A.T.;Masud,J.;Liyanage,W.P.R.;Umapathi,S.;Bohannan,E.;Medvedeva,J.;Nath,M.TexturedNiSe film:Bifunctional
+2
+electrocatalystforfullwatersplittingatremarkablylowoverpotentialwithhighenergyefficiency. Sci. Rep. 2017, 7, 2401.
+[CrossRef]
+18. Qi,H.X.;Song,Y.Q.;Liu,Z.P.;Ji,L.X.;Deng,J.G.FacilesynthesisofCoSe nanoparticlesandtheirelectrocatalyticperformancefor
+2
+hydrogenevolutionreaction.InMaterialsScienceForum;TransTechPublicationsLtd.:Wollerau,Switzerland,2016;Volume852,
+pp.916–920.
+19. Do,H.H.; Le,Q.V.; Cho,J.H.; Ahn,S.H.; Kim,S.Y.ComparativeStudyonHydrogenEvolutionReactionofVariousCobalt-
+Selenide-BasedElectrocatalysts.Int.J.EnergyRes.2023,2023,6016603.[CrossRef]
+20. Zhou,H.;Zhang,Z.;Zhang,Q.;Zhang,B.;Li,X.;Xu,S.;Zhao,R.;Zhao,X.;Zhao,D.;Li,M.;etal.Multidimensionalengineering
+strategiesfortransitionmetalselenideelectrocatalystsinwaterelectrolysiswithperformanceoptimizationmechanismsand
+futureperspectives.Chem.Rec.2025,25,e2500082.[CrossRef]
+21. Wen,T.;Zheng,Y.;Zou,J.;Wang,H.AdvancementsandchallengesinmetalselenidesforelectrocatalyticH evolution.J.Mater.
+2
+Chem.A2026,advancearticle.[CrossRef]
+22. Guo,W.;Le,Q.V.;Do,H.H.;Hasani,A.;Tekalgne,M.;Bae,S.-R.;Lee,T.H.;Jang,H.W.;Ahn,S.H.;Kim,S.Y.Ni Se @MoSe
+3 4 2
+compositesforhydrogenevolutionreaction.Appl.Sci.2019,9,5035.[CrossRef]
+23. Aslan,E.;Sarilmaz,A.;Yanalak,G.;Ozel,S.;Ozel,F.;Patir,I.Transitionmetal–incorporatedtungsten-basedternaryrefractory
+metalselenides(MWSex;M=Fe,Co,Ni,andMn)ashydrogenevolutioncatalystsatsoftinterfaces.Mater.TodayEnergy2020,18,
+100510.[CrossRef]
+24. Guo,Y.;Liu,Y.;Liu,Y.;Zhang,C.;Jia,K.;Su,J.;Wang,K.ThehighelectrocatalyticperformanceofNiFeSe/CFPforhydrogen
+evolutionreactionderivedfromaprussianblueanalogue.Catalysts2022,12,739.[CrossRef]
+25. Ren,H.;Yu,L.;Yang,L.;Huang,Z.-H.;Kang,F.;Lv,R.Efficientelectrocatalyticoverallwatersplittingandstructuralevolutionof
+cobaltironselenidebyone-stepelectrodeposition.J.EnergyChem.2021,60,194–201.[CrossRef]
+26. Tasviri,M.;Shekarabi,S.;Taherinia,D.;Pour,M.A.Z.NanosizedNiFeSe /NiCo O hierarchicalarraysonNifoamasanadvanced
+2 2 4
+electrocatalystforhydrogengeneration.Sustain.EnergyFuels2023,7,112–121.[CrossRef]
+27. Fan,X.;Ding,H.;Huang,T.;Liu,X.;Xiao,J.;Xie,M.;Xu,G.;Zhang,L.Fe-dopedNi/Co-basedselenidehierarchicalnanosheet
+arraysasself-supportingbifunctionalelectrocatalystsforoverallwatersplitting.ACSAppl.NanoMater.2024,7,11530–11540.
+[CrossRef]
+28. Zhang,Y.;Jiang,Y.;Abdukayum,A.;Xie,X.;Gao,S.;Liu,X.;Zhang,L.;Liu,Q.;Hu,G.Recentadvancesinselenide-based
+electrocatalystsforhydrogen/oxygenevolutionreaction:Frommechanismandsynthesistoapplication.Mater.TodayEnergy
+2024,44,101641.[CrossRef]
+29. Majhi,K.C.;Yadav,M.Transitionmetal-basedchalcogenidesaselectrocatalystsforoverallwatersplitting.ACSEng.Au2023,3,
+278–284.[CrossRef]
+30. Wang,Z.;Liu,S.;Duan,W.;Xing,Y.;Hu,Y.;Ma,Y.Transitionmetalselenidesascatalystsforelectrochemicalwatersplitting.Int.
+J.HydrogenEnergy2024,60,1414–1432.[CrossRef]
+31. Peng,X.;Yan,Y.;Jin,X.;Huang,C.;Jin,W.;Gao,B.;Chu,P.K.Recentadvanceandprospectivesofelectrocatalystsbasedon
+transitionmetalselenidesforefficientwatersplitting.NanoEnergy2020,78,105234.[CrossRef]
+32. Xin,Y.;Hua,Q.;Li,C.;Zhu,H.;Gao,L.;Ren,X.;Yang,P.;Liu,A.Enhancingelectrochemicalperformanceandcorrosionresistance
+ofnickel-basedcatalystsinseawaterelectrolysis:FocusingonOERandHER.J.Mater.Chem.A2024,12,23147–23178.[CrossRef]
+33. Ou,W.;Zhang,W.;Qin,H.;Zhou,W.;Tang,Y.;Gao,Q.Enhancinganti-chlorinecorrosionofNi S byMo-dopingformimic
+3 2
+seawaterelectrolysis.J.ColloidInterfaceSci.2024,655,852–862.[CrossRef][PubMed]
+https://doi.org/10.3390/coatings16040398
+
+Coatings2026,16,398 16of16
+34. Sanap,P.P.;Kahandal,S.S.;Jadhav,G.D.;Kim,H.;Malavekar,D.B.;Patil,U.M.;Said,Z.;Pawar,A.C.;Kim,J.M.;Bulakhe,R.N.
+HydrothermallymodulatedNiselenidetoNi–Cuselenidecatalystforenhancedalkalineelectrocatalyticwatersplitting.Int.J.
+HydrogenEnergy2026,206,153343.[CrossRef]
+35. Zhao,J.; Wu,J.; Zhang,M.; Qu,L.; Wang,T.; Xu,Z.; Wang,R.Copperdopedcobaltsulfidehollowpolyhedronasefficient
+bifunctionalcatalystsforoverallwatersplitting: Anexperimentalandtheoreticalstudy. Electrochim. Acta2025,542,147462.
+[CrossRef]
+36. Wen,Y.;Zhang,Z.;Zhu,H.;Liu,Y.;Tian,W.;Ma,L.;Wang,J.;Xu,K.Surfacestructuralengineeringofself-supportedHER
+electrodes:Multiscalemicro/nanostructureregulationandtheirrolesinHERprocess.Sustain.Mater.Technol.2025,45,e01570.
+[CrossRef]
+37. Li,J.;Zhang,J.;Shen,J.;Wu,H.;Chen,H.;Yuan,C.;Wu,N.;Liu,G.;Guo,D.;Liu,X.Self-supportedelectrocatalystsforthe
+hydrogenevolutionreaction.Mater.Chem.Front.2023,7,567–606.[CrossRef]
+38. Huang,W.;Yang,J.;Jiang,W.;Tan,H.PreparationofFeCoNiMoCuHigh-EntropyAlloyThinFilmElectrodeandItsWater
+SplittingPerformance.Coatings2025,15,1409.[CrossRef]
+39. Khan,S.A.;Gouadria,S.;Alburaih,H.A.;Nazir,A.;Ahmad,N.;Tahir,M.B.;Aman,S.FacilesynthesisofMnSe/FeSe nanocom-
+2
+positeonnickelfoamelectrodeforenhancedwateroxidation.J.Electron.Mater.2023,52,3436–3445.[CrossRef]
+40. Jiang,Z.;Yuan,Y.;Tan,L.;Li,M.;Peng,K.Self-reconstructionof(CoNiFeCuCr)Sehigh-entropyselenideforefficientoxygen
+evolutionreaction.Appl.Surf.Sci.2023,627,157282.[CrossRef]
+41. Navazani, S.; Torabi, F.In-situsolvothermalsynthesisofFeNiSe/rGOelectrocatalystwithsuperiorperformanceforwater
+splitting.Sci.Rep.2025,15,35611.[CrossRef]
+42. Lee, J.S.; Saroha, R.; Cho, J.S. Porous microspheres comprising CoSe2 nanorods coated with N-doped graphitic C and
+polydopamine-derivedCasanodesforlong-livedNa-ionbatteries.Nano-MicroLett.2022,14,113.[CrossRef][PubMed]
+43. Hu,C.;Liu,X.;Han,G.;Chen,C.;Liu,H.;Zhou,W.;Xie,H.Carboncloth-supportedhigh-entropytransitionmetalselenidesas
+high-performanceoxygenevolutionreactioncatalysts.ColloidsSurf.APhysicochem.Eng.Asp.2025,717,136819.[CrossRef]
+44. Coban,D.;Tangal,Y.;Cogal,S.MoSe nanosheets-basedsensorforelectrochemicaldetectionofdopamine,ascorbicacid,anduric
+2
+acid.J.Mater.Sci.Mater.Electron.2024,35,1513.[CrossRef]
+45. Hong, S.; Rhee, C.K.; Sohn, Y. Photoelectrochemical hydrogen evolution and CO reduction over MoS /Si and MoSe /Si
+2 2 2
+nanostructures by combined photoelectrochemical deposition and rapid-thermal annealing process. Catalysts 2019, 9, 494.
+[CrossRef]
+46. Hameed,A.;Zulfiqar,F.;Iqbal,W.;Ali,H.;Shah,S.S.A.;Nadeem,M.A.ElectrocatalyticwateroxidationonCuO–Cu Omodulated
+2
+cobalt-manganeselayereddoublehydroxide.RSCAdv.2022,12,28954–28960.[CrossRef]
+47. Liang, Y.; Shahabuddin, M. Hydrogen production from wastewater: Technology readiness, economic and environmental
+assessment,andscale-upchallengeswithmitigationstrategies.Fuel2026,411,138023.[CrossRef]
+48. Yu,Z.;Zhang,Y.;Yang,S.;Liu,X.;Gu,T.;Qi,Y.;Li,Y.;Miao,F.;Yan,Z.PtNiCuCoPdthin-filmcatalystforanefficientalkaline
+hydrogenevolutionreaction.Int.J.HydrogenEnergy2025,135,48–55.[CrossRef]
+Disclaimer/Publisher’sNote: Thestatements, opinionsanddatacontainedinallpublicationsaresolelythoseoftheindividual
+author(s)andcontributor(s)andnotofMDPIand/ortheeditor(s).MDPIand/ortheeditor(s)disclaimresponsibilityforanyinjuryto
+peopleorpropertyresultingfromanyideas,methods,instructionsorproductsreferredtointhecontent.
+https://doi.org/10.3390/coatings16040398
+

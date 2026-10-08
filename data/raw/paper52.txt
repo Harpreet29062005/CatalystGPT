@@ -1,0 +1,940 @@
+Article
+Grain-Size-Dependent Hydrogen Evolution and Oxygen
+Evolution Reaction Behavior of a Non-Equiatomic
+Fe Mn Ni Co Cr High-Entropy Alloy
+41 25 24 8 2
+Hee-TaeJeongandWooJinKim*
+DepartmentofMaterialsScienceandEngineering,HongikUniversity,94,Wausan-ro,Mapo-gu,
+Seoul04066,RepublicofKorea;htjeong1051@g.hongik.ac.kr
+* Correspondence:kimwj@wow.hongik.ac.kr
+Highlights
+• GrainrefinementwasassociatedwithimprovedapparentOERresponse.
+• HERexhibitedadescriptor-dependentcorrelationwithgrainsize.
+• LocalTafelslopemostclearlyreflectedHERgrain-sizedependence.
+• OERshowedstrongergrain-sizedependencethanHERin1MKOH.
+• MicrostructuralcontroltunedapparentHERandOERresponseinbulkHEA.
+Abstract
+The grain-size dependence of hydrogen evolution reaction (HER) and oxygen evo-
+lution reaction (OER) behavior was systematically investigated in a non-equiatomic
+Fe Mn Ni Co Cr high-entropyalloy. Sixfullyrecrystallizedspecimensspanninggrain
+41 25 24 8 2
+sizesfrom5.1to197µm,producedbyhigh-ratiodifferentialspeedrolling(HRDSR)andcon-
+trolledannealing,weretestedin1MKOH.DifferentiallocalTafel-slopeanalysisrevealed
+distinctandasymmetricgrain-size-dependentbehaviorforthetwohalf-reactions. ForHER,
+thelocalTafelslopeat−3mAcm−2showedtheclearestcorrelationwithlog(d/µm)among
+theHERdescriptorsexaminedinthepresentdataset(R2 =0.682),indicatingthatgrain-
+sizeeffectsweremostclearlyexpressedinthenear-onsettointermediatecurrent-density
+regime. ForOER,finer-grainedspecimensconsistentlyexhibitedmorefavorableapparent
+performance: the overpotential at 10 mA cm−2 increased with log(d/µm) (R2 = 0.715;
+slope = 1.09×10−2Vdec−1), whereas the current density at an overpotential of 0.33 V
+decreasedwithgrainsize(j ;R2=0.787). Overall,OERshowedstrongerandmoreconsis-
+0.33
+tentgrain-sizedependencethanHER.Theseresultsidentifygrainsizeasausefulempirical
+microstructuraldescriptorofapparentelectrocatalyticresponseinthiscomposition-fixed
+bulk HEA system and show that microstructural control provides a practical route for
+tuningalkalineHERandOERbehavior.
+AcademicEditor:Jason
+Shian-ChingJang
+Keywords: high-entropyalloy;hydrogenevolutionreaction;oxygenevolutionreaction;
+Received:8April2026
+grainsize;Tafelslope;alkalineelectrolysis
+Revised:27April2026
+Accepted:29April2026
+Published:5May2026
+Copyright:©2026bytheauthors.
+1. Introduction
+LicenseeMDPI,Basel,Switzerland.
+Thisarticleisanopenaccessarticle Electrochemical water splitting—H O → H + ½O —is one of the most attractive
+2 2 2
+distributedunderthetermsand routesforproducinggreenhydrogen,becauseitcanbepoweredbyintermittentrenewable
+conditionsoftheCreativeCommons
+electricity and generates no carbon emissions at the point of use [1]. The overall cell
+Attribution(CCBY)license.
+Materials2026,19,1899 https://doi.org/10.3390/ma19091899
+
+Materials2026,19,1899 2of18
+reactionisthermodynamicallylimitedbyastandardequilibriumpotentialof1.23V,yet
+inpracticesubstantiallyhighervoltagesarerequiredduetothesluggishkineticsofboth
+half-reactions[2,3]: thecathodichydrogenevolutionreaction(HER)andtheanodicoxygen
+evolutionreaction(OER).Minimizingthesekineticoverpotentialsdemandselectrocatalysts
+withhighintrinsicactivity,largeaccessiblesurfaceareas,androbustlong-termstabilityin
+thechosenelectrolyte.
+Platinumgroupmetals—PtforHERandIr/RuoxidesforOER—remainstate-of-the-
+artbutareprohibitivelyscarceandexpensiveforgigawatt-scaleelectrolysis[4–6]. Thishas
+promptedintenseresearchintoearth-abundantalternatives,rangingfromtransition-metal
+phosphides and sulfides [7] to layered double hydroxides [8] and, most recently, high-
+entropyalloys(HEAs)[9,10]. HEAsaredefinedbytheirnear-equimolar(ordeliberately
+non-equimolar)incorporationoffiveormoreprincipalelementsinasinglesolid-solution
+phase[11]. Theresultingmulti-elementactive-sitelandscapeprovidesacontinuousdis-
+tribution of adsorption energies that can sample optimal values for different reaction
+intermediates simultaneously, circumventing the linear scaling relations that constrain
+conventionalbimetallicandternarycatalysts[12]. Beyondcomposition,however,themi-
+crostructuraldimensionofHEAelectrocatalysis—specificallytheroleofgrainboundaries
+(GBs)—hasreceivedcomparativelylittlesystematicattention.
+GBsareplanardefectscharacterizedbyexcessfreevolume,disruptedlocalchemical
+order,andstrainedlattice[13],allofwhichareexpectedtomodifythesurfaceelectronic
+structureandlocalcatalyticactivity[14]. Severeplasticdeformation(SPD)byhigh-ratio
+differentialspeedrolling(HRDSR)followedbycontrolledannealingprovidesauniquely
+clean pathway to vary grain size over nearly two orders of magnitude while keeping
+the bulk composition constant [15], thus isolating the microstructural contribution to
+electrochemical performance. The non-equiatomic Fe Mn Ni Co Cr alloy studied
+41 25 24 8 2
+hereisderivedfromtheCantorHEAfamily(CoCrFeMnNi)andcrystallizesasasingle
+face-centered cubic (FCC) phase [15]. Its non-equiatomic composition was originally
+designedtobalancemechanicalperformanceandcorrosionresistance,andthealloyhas
+beenextensivelycharacterizedmicrostructurallyinpriorwork[15,16],providingawell-
+definedmaterialsplatformonwhichgrain-size-dependentelectrocatalyticbehaviorcan
+beexamined.
+HEAshaveemergedaspromisingelectrodematerialsforwaterelectrolysisbecause
+their compositional complexity enables broad tunability of catalytic activity and stabil-
+ity[17–32]. ArecentstudybyZhangetal.[17]demonstratedalogarithmicdependence
+of OER performance on grain size in an equiatomic FeCoCrNi HEA, establishing GB
+densityasaviablemicrostructuraldescriptorforanodicactivity. Thatworkreportedan
+OERregressionslopebetweenoverpotentialandlogarithmicgrainsizeofapproximately
+36–41mVdec−1,andidentifieda“high-entropyeffect”wherebyhigher-orderalloysexhibit
+weakergrain-sizedependence. However,threeimportantquestionsremainunaddressed.
+First,itisunclearwhetheranalogousgrain-sizeeffectsoperateforthecathodicHER,and
+whetherthetwohalf-reactionsrespondtograinrefinementinaquantitativelycomparable
+mannerwithinthesamealloysystem;simultaneousexaminationofbothhalf-reactionsun-
+deridenticalmicrostructuralandelectrochemicalconditionshasnotbeenreportedforany
+HEAsystem. Second,theextensionofthisframeworktoanon-equiatomicfive-component
+composition—specifically one incorporating Mn, which is known to influence surface
+chemistry and corrosion behavior [16] in Cantor-derived alloys—remains unexplored.
+Third,nosystematiccomparisonoftheelectrochemicaldescriptorsmostsensitivetograin
+refinement—overpotential,localTafelslope,andcurrentdensityatfixedoverpotential—has
+beencarriedoutacrossbothhalf-reactions,leavingthechoiceofmicrostructuraloptimiza-
+tiontargetundefinedforbifunctionalHEAelectrodedesign.
+https://doi.org/10.3390/ma19091899
+
+Materials2026,19,1899 3of18
+The present study addresses these gaps by providing a systematic, composition-
+fixedexaminationofgrain-size-associatedHERandOERresponseswithinasinglenon-
+equiatomicHEAsystem. SixfullyrecrystallizedFe Mn Ni Co Cr specimensspanning
+41 25 24 8 2
+grainsizesfrom5.1to197µm,producedbyHRDSRandcontrolledannealing,aretested
+underidenticalconditionsin1MKOH,enablingadirect,composition-neutralcomparison
+ofhowgrainrefinementisassociatedwiththeapparentresponsesofthetwohalf-reactions.
+Specifically,thisworkaddressestwoquestions: (i)Howisgrainsizecorrelatedwiththeap-
+parentHERandOERresponse,anddothetwohalf-reactionsexhibitcomparablegrain-size
+sensitivitywithinthesamealloy? (ii)Whichelectrochemicaldescriptor—overpotential,lo-
+calTafelslope,orcurrentdensityatfixedoverpotential—capturesthegrain-size-associated
+trendmostconsistentlyforeachhalf-reaction?
+2. TheoreticalBackgroundandAnalyticalFramework
+2.1. HydrogenEvolutionReaction(HER)inAlkalineMedia
+Inanalkalineelectrolyte,HERproceedsthroughtwopossiblepathways,bothinitiated
+bytheVolmerstep[33]:
+Volmer:M+H O+e − →M−H ∗+OH − (1)
+2
+Heyrovsky:M−H ∗+H O+e − →H +OH −+M (2)
+2 2
+Tafel:2M−H ∗ →H +2M (3)
+2
+whereMdenotesanactivesurfacesite,andH*denotesadsorbedhydrogenonanactive
+surface-site. Dependingonthecatalystsurfaceandreactionconditions,HERmayproceed
+through either the Volmer–Heyrovsky route or the Volmer–Tafel route [34]. The rate-
+determining step is often discussed in relation to the Tafel slope (b). In alkaline media,
+canonicalTafel-slopevaluesofapproximately120,40,and30mVdec−1arefrequentlytaken
+asreferencepointsforVolmer-,Heyrovsky-,andTafel-limitedbehavior,respectively[35,36].
+However, these values arise from idealized kinetic models and can vary with catalyst
+composition,surfacestate,coverage,charge-transfercoefficient,andothernon-idealeffects.
+They should therefore be interpreted as mechanistic reference points rather than strict
+identifiers,particularlyformulticomponentorstructurallyheterogeneouselectrodes.
+2.2. OxygenEvolutionReaction(OER)inAlkalineMedia
+Thewidelyacceptedadsorbateevolutionmechanism(AEM)foralkalineOERconsists
+offoursequentialproton-coupledelectron-transfersteps[33]:
+M+OH − →M−OH+e − (4)
+M−OH+OH − →M−O+H O+e − (5)
+2
+M−O+OH − →M−OOH+e − (6)
+M−OOH+OH − →M+O +H O+e − (7)
+2 2
+Thetheoreticaloverpotentialisgovernedbythelargestfree-energychangeamong
+theseelementarysteps. Foranidealcatalyst,allfourstepswouldbeequallyfavorable,
+givingathermodynamiclimitingoverpotentialof0.37V[37]. Insomecases,especially
+on oxidized or reconstructed surfaces, the lattice-oxygen mechanism (LOM), in which
+latticeoxygenparticipatesdirectlyinO–Obondformation,mayalsocontribute[38]. Inthe
+presentwork,however,OERisinterpretedprimarilywithintheAEMframework,andany
+https://doi.org/10.3390/ma19091899
+
+Materials2026,19,1899 4of18
+contributionfromLOMistreatedonlyasaplausiblemechanisticpossibilityratherthanas
+adirectlyverifiedpathway.
+2.3. Butler–VolmerEquationandTafelAnalysis
+For a single electrochemical step, the current density–overpotential relationship is
+describedbytheButler–Volmerequation[39]:
+(cid:20) (cid:18) (cid:19) (cid:18) (cid:19)(cid:21)
+α Fη α Fη
+j = j exp a −exp − c (8)
+0
+RT RT
+wherej istheexchangecurrentdensity,α andα aretheanodicandcathodiccharge-transfer
+0 a c
+coefficients,FisFaraday’sconstant(96,485Cmol−1),Risthegasconstant(8.314Jmol−1K−1),
+andTistheabsolutetemperature.Forasimpleone-stepreaction,α +α ≈1,althoughthis
+a c
+relationdoesnotnecessarilyholdforcomplexmultistepreactions.
+At sufficiently large cathodic overpotential, the anodic exponential term becomes
+negligible,andEquation(8)reducesto
+(cid:18) (cid:19)
+α F|η|
+|j| = j exp c (9)
+0
+RT
+whichcanbewritteninlogarithmicformas
+(cid:18) (cid:19)
+|j|
+|η| = b log (10)
+c
+j
+0
+wheretheTafelslopeis
+2.303RT
+b = (11)
+c
+α F
+c
+Inthiswork,thedifferential(local)Tafelslopeiscalculatedpoint-by-pointfromthe
+smoothedpolarizationcurveas
+d|η|
+b (j) = (12)
+c dlog|j|
+ThislocalrepresentationismoreinformativethanasingleglobalTafelslopebecauseit
+capturespossiblechangesinapparentkineticswithcurrentdensityoroverpotential. Such
+behaviorisparticularlyrelevantformultistepreactionsandforelectrodeswhosesurface
+stateevolvesduringpolarization. Thesamedifferentiallocal-slopeframeworkistherefore
+applicabletobothcathodicandanodicbranches.
+2.4. Grain-SizeScalingLaw
+For equiaxed grains of mean size (d), the GB area per unit volume scales as k/d,
+where k is ~3.4 [40] for a space-filling tetrakaidecahedral grain geometry (k of 2 for the
+simplerparallel-plateapproximation[41]). Ifcatalyticactivityincreaseswiththedensityof
+GB-derivedsurfacesites,therelevantperformancemetric(Y)isexpected,inafirst-order
+approximation,toincreasewithdecreasinggrainsize,i.e.,Y∝1/d. Accordingly,aninverse-
+grain-sizedependenceprovidesthebasicphysicalexpectation. Inpractice,however,the
+experimentaldatafortheannealedspecimenswererepresentedmoreconvenientlybya
+linearregressionagainstlog(d/µm),giving
+Y = B+Alogd (13)
+whereAandBarethefittedslopeandintercept,respectively. Thus,Equation(13)should
+beinterpretedasanempiricaldescriptoroftheobservedgrain-sizedependenceratherthan
+https://doi.org/10.3390/ma19091899
+
+Materials2026,19,1899 5of18
+asamechanisticratelaw. Thecoefficientofdetermination(R2)quantifieshowwellthe
+measureddatafollowthisempiricallog-lineartrend.
+3. MaterialsandMethods
+3.1. MaterialPreparationandMicrostructure
+Thenon-equiatomicFe Mn Ni Co Cr HEAwasproducedbyvacuuminduction
+41 25 24 8 2
+melting,homogenizedat1373Kfor13h,andsubsequentlyprocessedbyHRDSRatroom
+temperature. Sixbatchesofspecimenswerethenannealedattemperaturesbetween973K
+and1473Kfor1hunderargonatmosphere. Thecorrespondingmeangrainsizeswere
+5.1,10.2,26.8,48,119,and197µm. Thesegrain-sizevalues,togetherwiththesupporting
+electronbackscatterdiffraction(EBSD)microstructuraldata,wereobtainedbyre-analysis
+of previously reported datasets rather than by new EBSD measurements performed in
+thepresentstudy. Fullmicrostructuraldetails,includingEBSDinversepolefiguremaps,
+GB-character,andtexturedata,areavailableincompanionstudies[15,16].
+Followingannealing,allspecimensweremechanicallygroundusingSiCpapersupto
+2000grittoremovesurfaceoxideformedduringheattreatmentandtoobtainaconsistent
+surfaceconditionpriortoelectrochemicaltesting. Thespecimenswerethenultrasonically
+cleaned in ethanol and dried in air immediately before electrochemical testing. After
+thefinalgrindingstep, allspecimensexhibitedametalliclusterwithnovisiblesurface
+oxidationbeforebeingplacedintotheelectrochemicalcell.
+3.2. CompositionalContext
+Althoughthecentralfindingofthisworkisthegrain-sizedependenceofHERandOER
+activity,abriefcommentontheselectedalloycompositionisuseful. Thenon-equiatomic
+Fe Mn Ni Co Cr alloywasoriginallydesignedformechanicalperformance[15]and
+41 25 24 8 2
+corrosion resistance [16], but its constituent elements are also broadly consistent with
+compositions often examined in alkaline water-splitting studies [10,42–46]. In particu-
+lar, Ni- and Fe-containing surfaces are widely associated with OER activity in alkaline
+media[42,43],whileNi,Fe,andCohavealsobeendiscussedascatalyticallyrelevantel-
+ementsforHERinmulticomponentalloysystems[10,44]. MnandCrmayadditionally
+influencethesurfacechemistryandelectrochemicalstability[45,46],althoughthepresent
+studydoesnotattempttoisolatetheirindividualcatalyticroles.
+Inthepresentwork, however, thealloycompositionisintentionallyheldconstant
+for all specimens. Accordingly, the differences in HER and OER responses discussed
+in Sections 4.2 and 4.3 are interpreted primarily in terms of microstructural variation,
+especiallygrain-sizerefinement,ratherthancompositionalchanges. Theroleofthepresent
+alloycompositionshouldthereforeberegardedasafixedmaterialsplatformonwhich
+grain-size-dependentelectrocatalytictrendscanbeexaminedsystematically.
+3.3. ElectrochemicalCharacterization
+Electrochemicalmeasurementswereconductedinastandardthree-electrodecellat
+roomtemperatureusing1MKOHelectrolyte(pH≈14)andaelectrochemicalworkstation
+(WonATechCo.,Ltd.,Seoul,RepublicofKorea). TheHEAspecimenservedastheworking
+electrode(geometricarea: 1.0cm2);aPtfoil(geometricarea: 8.0cm2;WizMACCo.,Ltd.,
+Daejeon,RepublicofKorea)andaHg/HgOreferenceelectrode(1MKOHfillingsolution,
+E◦ =0.098Vvs. NHE;WizMACCo.,Ltd.,Daejeon,RepublicofKorea)wereusedasthe
+counterandreferenceelectrodes,respectively. AllpotentialsarereportedontheRHEscale
+accordingto
+E (V) = E +0.098+0.0591pH (14)
+RHE Hg/HgO
+https://doi.org/10.3390/ma19091899
+
+Materials2026,19,1899 6of18
+Priortolinearsweepvoltammetry(LSV),allelectrodeswereheldat1.6Vvs. RHE
+for5sandthenallowedtorestfor5sbeforetheHERandOERmeasurements. LSVwas
+performed at a scan rate of 5 mV s−1. No iR compensation was applied; the solution
+resistance was not independently measured, but is expected to have been comparable
+acrossallspecimenstestedunderidenticalelectrolyteandcellgeometryconditions,soits
+omissiondoesnotaffecttherelativegrain-sizetrendsreported.Allmeasurementsrepresent
+singleruns;replicatemeasurementswerenotperformed,andthereforenostatisticalerror
+bars are presented in the polarization curves and Tafel analyses. The differential local
+TafelslopewascalculatedfromtheLowess-smoothed(span=0.10[47])polarizationcurve
+accordingtoEquation(12).
+Because a broad linear Tafel region could not be assumed a priori for the present
+HEAelectrodes,asdiscussedlaterinSections4.2and4.3,aconventionalsingle-window
+Tafelfitwasnotadopted. Instead,thelocalTafelslopewasusedasacondition-specific
+kineticdescriptoratagivencurrentdensity. Thepolarization-derivedmetricsusedinthe
+presentanalysiswereoverpotentialatfixedcurrentdensity,localTafelslopeatfixedcurrent
+density,andcurrentdensityatfixedoverpotential. BecausetheTafelslopeswereobtained
+fromLSVcurvesmeasuredat5mVs−1,theyshouldbeinterpretedasempiricalkinetic
+descriptorsratherthantruesteady-statemechanisticparameters. Log-linearregressions
+usingEquation(13)wereperformedonlyforthesixannealedspecimens;theas-HRDSRed
+datumwasexcludedbecauseitsdeformation-inducedmicrostructureisnotconsistentwith
+theGB-basedscalingframeworkusedfortheannealedseries. APtfoilwithageometric
+area of 2.0 cm2 (WizMAC Co., Ltd., Daejeon, Republic of Korea) was used as the HER
+benchmark. FortheOERbenchmark,IrO /carbon-clothelectrodeswerefabricated. First,
+x
+10mgofIrO powderwasultrasonicallydispersedfor1hinamixedsolutionof0.965mL
+x
+isopropanoland0.035mLof5wt.%Nafionsolution(Sigma-AldrichKoreaLtd.,Incheon,
+RepublicofKorea). Subsequently,0.150mLoftheresultinghomogeneousinkwasdrop-
+castontobothsidesofacarbonclothsubstratewithasizeof1.0cm2,followedbymild
+dryingat333Kfor1h. ThenominalIrO loadingwasapproximately1.5mgcm−2when
+x
+normalizedtothe1.0cm2geometricarea.
+4. Results
+4.1. MicrostructureoftheAs-HRDSRedandAnnealedSpecimens
+Figure 1a–g summarize the microstructural evolution of the as-HRDSRed and an-
+nealed specimens, while Figure 2a,b presents the corresponding grain size, boundary-
+characterdistributionandrecrystallizedfraction. Theas-HRDSRedcondition(Figure1a)
+exhibitsaheavilydeformedultrafine-grainedstructurewithasub-micrometerintercept
+grainsizeof0.22µm(Figure2a),consistentwiththering-likeselected-areaelectrondiffrac-
+tionpattern. Becausethisdeformation-inducedstatedoesnotrepresentawell-developed
+annealed boundary network, EBSD-based boundary fractions are not reported for this
+condition. Afterannealing, themicrostructurebecomesnearlyfullyrecrystallizedover
+the entire temperature range of 973–1473 K, as indicated by the recrystallized fraction
+remainingcloseto100%inFigure2b.
+TheEBSDmapsinFigure1b–gshowprogressivegraincoarseningwithincreasing
+annealing temperature. High-angle grain boundaries (HAGBs; θ ≥ 15◦ where θ is mis-
+orientation)constitutethedominantboundarytypethroughouttheannealedseries,with
+fractions ranging from approximately 56% to 93% and reaching a maximum at 1373 K.
+Twinboundaries(TBs;Σ3andΣ9)alsoevolvesystematically,increasingfromabout21%at
+973Ktoabout39%at1373K,followedbyadecreaseat1473K.Thistrendisconsistent
+withthedevelopmentofannealingtwinsduringgraingrowthinFCCalloys. Theapparent
+decreaseinbothHAGBandTBfractionsat1473Kshould,however,beinterpretedwith
+https://doi.org/10.3390/ma19091899
+
+Materials2026,19,1899 7of18
+caution, because the very coarse grain size substantially reduces the number of grains
+capturedwithintheEBSDscanareaandthereforeincreasesthestatisticaluncertaintyof
+themeasuredboundaryfractions.
+Figure1.TEMandEBSDmicrostructuralcharacterizationoftheas-HRDSRedandannealedspec-
+imens. (a) TEM micrograph of the as-HRDSRed specimen, with the inset corresponding to the
+selected-areaelectrondiffractionpattern.(b–g)EBSDmicrographsofspecimensafter1hannealingat
+(b)973K,(c)1073K,(d)1173K,(e)1273K,(f)1373K,and(g)1473K.IntheEBSDmaps,blacklines
+denotehigh-anglegrainboundaries(HAGBs)withmisorientationanglesgreaterthan15◦,whereas
+pinklinesdenotetwinboundaries(TBs). Themicrostructuralcolorrepresentsthekernelaverage
+misorientation(KAM)angle,accordingtothecolorscaleshownin(b).
+Figure2.Grainsizeandboundarycharacteristicsasafunctionofannealingtemperature.(a)Grain
+sizeasafunctionofannealingtemperaturecompiledfromTEMandEBSDmeasurements.Grainsizes
+determinedfromEBSDareshownwithtwinboundarieseitherincludedorexcludedinthegrain-size
+calculation.(b)Fractionsofhigh-anglegrainboundaries,twinboundaries,andrecrystallizedgrains
+asafunctionofannealingtemperature.
+https://doi.org/10.3390/ma19091899
+
+Materials2026,19,1899 8of18
+TheKAMangledistributions(Figure1b–g)furtherindicatethatlocalmisorientationis
+generallylowintheannealedspecimens,consistentwiththepredominanceofrecrystallized
+grains. RelativelyhigherKAMvaluesarelocalizedmainlynearsomeHAGBsandtriple-
+junctionregions,whereasmostgraininteriorsremainatlowKAMlevels. Thisconfirms
+that the annealed specimens contain little residual intragranular strain compared with
+the as-HRDSRed state, and that the main microstructural change across the annealed
+seriesisnotretaineddeformationbutprogressivegraingrowthaccompaniedbyboundary-
+networkevolution. Inthisregard,grainsizeremainstheprimaryvaryingmicrostructural
+parameteracrosstheannealedspecimens,whiletheevolutionofTBsrepresentsasecondary
+but systematic change inboundary character. Theseobservations provide thebasis for
+discussingtheelectrochemicaltrendsinSections4.2and4.3primarilyintermsofgrain-size-
+associatedmicrostructuralvariation,whiletreatingboundary-densityeffectsasaplausible
+butnotuniquelyverifiedcontributor.
+4.2. HERPerformance
+Figure3apresentsthecathodicpolarizationcurvesoftheannealedspecimenstogether
+with the as-HRDSRed reference and a Pt benchmark. The HEA curves exhibit broadly
+similarcathodicpolarizationshapesandremainrelativelyclosetooneanother,whereas
+Ptisdistinctlyshiftedtowardloweroverpotential,achieving|η |≈101.3mVunderthe
+10
+sameconditions. Withintheannealedseries,therelativepositionsofthecurveschange
+withcurrentdensity,indicatingthatHERperformancedoesnotfollowasimplemonotonic
+trendwithgrainsizeacrossthefullcurrent-densityrange. Theas-HRDSRedspecimenlies
+abovetheannealedcurvesovermuchofthemeasuredpotentialrange,indicatingaweaker
+cathodicresponse.
+Figure3.Grain-size-dependentHERpolarizationbehaviorofthenon-equiatomicHEAinalkaline
+electrolyte.(a)HERpolarizationcurvesplottedascurrentdensityversuspotential(Vvs.RHE)for
+theas-HRDSRedandannealedspecimenswithdifferentgrainsizes,togetherwiththePtbenchmark.
+(b)Absolutevalueofthepotentialasafunctionoftheabsolutevalueofcurrentdensity. (c)Local
+Tafelslopeplottedagainsttheabsolutevalueofcurrentdensity. (d)Grain-sizedependenceofthe
+overpotentialatcurrentdensitiesof1,10,and50mAcm−2.(e)Grain-sizedependenceofthelocal
+Tafelslopeevaluatedatcurrentdensitiesof1,3,5,and10mAcm−2.(f)Grain-sizedependenceofthe
+currentdensitymeasuredatoverpotentialsof0.3,0.4,and0.5V.
+https://doi.org/10.3390/ma19091899
+
+Materials2026,19,1899 9of18
+Thesemi-logarithmicrepresentation(Figure3b)providesaclearerviewofthelow-
+to-intermediateoverpotentialregime. However,noneoftheHEAspecimens,including
+theas-HRDSRedcondition,exhibitsawell-definedlinearTafelregionextendingoverat
+leastonedecade. ThisindicatesthatasingleapparentTafelslopecannotfullyrepresent
+the overall HER polarization response of the present alloy system. Instead, Figure 3b
+revealsonlyalimitedquasi-linearsegment,fromwhichapparentglobalTafelslopesof
+about120–140mVdec−1maybeestimatedfortheannealedspecimens. Thesevaluesfall
+withintherangecommonlydiscussedinthecontextofalkalineHERkinetics,butgiven
+theabsenceofawell-definedlinearTafelregionoveratleastonedecade,noreliablerate-
+determiningstepassignmentismadeforthepresentmulticomponentelectrodesystem. Pt,
+bycontrast,showssubstantiallylowerTafelslopes,reflectingitsmuchfasterHERkinetics.
+The differential local Tafel slope (Figure 3c) provides a more detailed description
+oftheapparentkineticresponseasafunctionofcurrentdensity. Incontrasttoasingle
+globalslope,thelocalrepresentationcapturesthecontinuousevolutionofthepolarization
+behaviorwithincreasingcathodicdrivingforce. FortheHEAspecimens,thelocalTafel
+slopeincreasesgraduallywithcurrentdensityandthenrisesmoresharplyinthehigh-
+currentregime. Ifasingle,well-definedTafelslopegovernedthereactionovertheentire
+current range, the local Tafel slope would appear as a constant value, i.e., a horizontal
+lineinFigure3c. TheobservedvariationthereforeindicatesthattheHERresponsecannot
+be described by a single kinetic regime but instead reflects a progressive change in the
+governingprocesseswithincreasingoverpotential.
+The grain-size dependence of the HER descriptors is summarized in Figure 3d–f,
+wheretheas-HRDSReddatumisshownforcomparisonbutexcludedfromthelog-linear
+regressions,whichwereperformedonlyforthesixannealedspecimens.Thecorresponding
+regression parameters for the annealed series are summarized in Table 1. This distinc-
+tionisimportantbecausetheas-HRDSRedconditionrepresentsadeformation-induced
+microstructure rather than the recrystallized grain-size series defined by the annealed
+specimens. Overall,theannealedseriesindicatesthatgrain-sizesensitivityisexpressed
+mostclearlyintheoverpotentialandlocalTafel-slopedescriptorsatlow-to-intermediate
+currentdensity,whereasthecurrent-densitydescriptorsatfixedoverpotentialshowmuch
+weakerandlesssystematicdependence.
+Thegrain-sizescalingofoverpotentialisshowninFigure3d. Inthisnotation, the
+overpotentialevaluatedatanabsolutevalueofcurrentdensityofxmAcm−2isdenoted
+by η . For the six annealed specimens, the log-linear fits indicate that the grain-size
+x
+dependenceisstrongestatlowcurrentdensityandweakensprogressivelyasthecathodic
+drivingforceincreases. Inparticular,η showstheclearestpositiveregressionslopewith
+1
+grainsize,whereastheslopebecomesmuchweakerforη andapproachesnear-flator
+10
+reversedbehavioratη .Thistrendindicatesthatthebeneficialeffectofgrainrefinementon
+50
+HERoverpotentialisexpressedmostclearlynearonset,butbecomesincreasinglyobscured
+athighercurrentdensity. Thescatterinη andthemorepronouncednon-monotonicity
+10
+in η are consistent with this weakening trend. A plausible contribution is enhanced
+50
+H bubbleaccumulationonfine-grainedsurfaces,wherethehigherdensityofboundary-
+2
+intersectingsurfacesitesmaypromotebubblenucleationandlocalcoverageunderstrong
+cathodicpolarization[48,49]. Thiswouldtendtoobscuretheintrinsicgrain-sizeeffectat
+highercurrentdensityandcontributetotheweakerornon-monotonicscalingobserved
+for η and η . Although the as-HRDSRed datum was excluded from the regression
+10 50
+analysis, it consistently exhibits more negative signed overpotential than the annealed
+specimens at the corresponding current densities. This indicates that the deformation-
+inducedmicrostructuregivesrisetoadistinctHERresponsethatisnotcapturedbythe
+grain-size-basedscalingrelationestablishedfortheannealedseries.
+https://doi.org/10.3390/ma19091899
+
+Materials2026,19,1899 10of18
+Table1.Log-linearregressionparametersforHERperformancemetricsasafunctionofgrainsize.
+TheregressionwasperformedusingY=Alog(d/µm)+Bforannealedspecimens,excludingtheas-
+HRDSRedspecimen.*indicatesarepresentativeHERdescriptorintheintermediatecurrent-density
+regimeof2–5mAcm−2.
+Parameter FixedCondition Symbol Slope,A Intercept,B R2
+−1mAcm−2 η
+1
+2.55×10−2 −2.71×10−1 0.279
+Overpotential
+−3mAcm−2 η
+3
+1.61×10−2 −3.04×10−1 0.152
+(V)
+−10mAcm−2 η
+10
+9.60×10−3 −3.64×10−1 0.048
+−30mAcm−2 η
+30
+1.30×10−3 −4.39×10−1 0.001
+−50mAcm−2 η
+50
+−9.20×10−3 −4.78×10−1 0.033
+−0.6mAcm−2 b
+0.6
+1.06×10−1 −5.12×10−2 0.505
+−1.0mAcm−2 b
+1
+3.68×10−2 3.71×10−2 0.552
+LocalTafelslope −2.0mAcm−2 b
+2
+1.57×10−2 7.71×10−2 0.649
+(Vdec−1) −3.0mAcm−2 b
+3
+1.67×10−2 8.59×10−2 0.682*
+−5.0mAcm−2 b
+5
+1.33×10−2 1.08×10−1 0.369
+−10mAcm−2 b
+10
+1.31×10−2 1.35×10−1 0.245
+−0.3V j −1.61 −2.36 0.184
+Currentdensity 0.3
+(mAcm−2) −0.4V j 0.4 −1.71 −17.9 0.024
+−0.5V j 4.10 −61.0 0.043
+0.5
+A clearer grain-size dependence emerges for the local Tafel-slope descriptors in
+Figure 3e. Here, the local Tafel slope evaluated at an absolute value of a current den-
+sity of x mA cm−2 is denoted by b . As summarized in Table 1, b gives the highest
+x 3
+coefficientofdetermination,althoughthenumericaldifferencefromadjacentdescriptorsis
+notlargeenoughtodefineasharplyuniqueoptimum. Moregenerally,theintermediate
+current-densitywindowasawholeshowsthemostconsistentgrain-sizecorrelationamong
+theHERmetricsexamined. ThepositiveregressionslopeindicatesthatthelocalTafelslope
+increasessystematicallywithincreasinggrainsize,suggestingthatfiner-grainedannealed
+specimensexhibitmorefavorableapparentHERkineticsinthisregime. Incontrasttothe
+overpotentialdescriptors,however,theas-HRDSReddatuminFigure3edeviatesfromthe
+annealedgrain-sizetrendinthedirectionofhigherlocalTafelslope. Itsvaluesaretherefore
+generallylargerthanwouldbeexpectedfromtheregressiondefinedbytheannealedspeci-
+mens,indicatingthatthedeformation-inducedmicrostructuredoesnotfollowthesame
+grain-size-dependentscalingrelationwhenassessedbythelocalTafel-slopedescriptors.
+Bycontrast,thecurrent-densitydescriptorsatfixedoverpotential(j ,j ,andj ;
+0.3 0.4 0.5
+Figure3f)showweakornegligiblegrain-sizedependence,withsubstantialscatterandno
+consistentmonotonictrend. Thisbehaviorindicatesthat,atlargecathodicdrivingforce,
+intrinsicgrain-sizeeffectsarelargelyobscuredbyothercontributions,suchasinterfacial
+coveragechanges,bubbleaccumulation,andpossibletransport-relatedlimitations. The
+as-HRDSRed datum also falls within this scattered distribution and does not exhibit a
+distinctresponseinthisrepresentation.
+Takentogether,theseresultsshowthatthedeviationoftheas-HRDSRedcondition
+fromtheannealedgrain-sizetrendisdescriptor-dependent: itexhibitslower-than-expected
+overpotentialinFigure3d,buthigher-than-expectedlocalTafelslopeinFigure3e. This
+contrast indicates that the deformation-induced microstructure cannot be interpreted
+simplyasanextensionoftheannealedgrain-sizeseries,butinsteadrepresentsadistinct
+HERresponsedependingonthedescriptorconsidered. Amongtheannealedspecimens,
+the low-to-intermediate current local Tafel-slope descriptors show the strongest grain-
+size dependence, with b giving the highest R2 value. However, this result should be
+3
+interpretedcautiouslybecausetherepresentativedescriptorwasidentifiedposthocby
+comparingmultiplecurrent-densityconditionsonthesamedatasetofonlysixspecimens.
+https://doi.org/10.3390/ma19091899
+
+Materials2026,19,1899 11of18
+The intermediate current-density regime should therefore be regarded as a window in
+whichgrain-sizeeffectsarecollectivelymorevisible, ratherthanasauniquelyoptimal
+operatingpointestablishedbyindependentvalidation.
+4.3. OERPerformance
+TheOERpolarizationbehavioroftheHEAspecimensissummarizedinFigure4a–c.
+Figure4apresentstheanodicpolarizationcurvesoftheannealedspecimenstogetherwith
+theas-HRDSRedreferenceandanIrO benchmark.TheHEAcurvesexhibitbroadlysimilar
+x
+anodic polarization shapes and remain relatively close to one another, whereas IrO is
+x
+distinctly shifted toward lower overpotential, reflecting its superior OER activity; IrO
+x
+achievedη ≈282mVunderthesameconditions. Withintheannealedseries,therelative
+10
+positionsofthecurvesvarysystematicallywithgrainsize,withfiner-grainedspecimens
+generallyshowinghighercurrentdensityatagivenpotential.
+Figure4.InfluenceofgrainsizeontheOERelectrocatalyticperformanceofthenon-equiatomicHEA
+inalkalineelectrolyte.(a)OERpolarizationcurvesoftheas-HRDSRedandannealedspecimenswith
+differentgrainsizes,presentedascurrentdensityversuspotential(Vvs.RHE),withIrOxincluded
+asabenchmarkcatalyst.(b)Potentialplottedasafunctionofcurrentdensity.(c)LocalTafelslope
+asafunctionofcurrentdensity.(d)Grain-sizedependenceoftheoverpotentialatcurrentdensities
+of3,10,and30mAcm−2. (e)Grain-sizedependenceofthelocalTafelslopeevaluatedatcurrent
+densitiesof2,3,5,and10mAcm−2.(f)Grain-sizedependenceofthecurrentdensitymeasuredat
+overpotentialsof0.27,0.30,and0.33V.
+Thesemi-logarithmicrepresentation(Figure4b)providesaclearerviewofthelow-
+to-intermediate overpotential regime. As in the HER case, however, none of the HEA
+specimens,includingtheas-HRDSRedcondition,exhibitawell-definedlinearTafelregion
+extendingoveratleastonedecade. Thus,asingleapparentTafelslopecannotadequately
+representthefullOERpolarizationresponseofthepresentalloysystem. Instead,Figure4b
+revealsonlylimitedquasi-linearsegments,consistentwiththeheterogeneousnatureofthe
+multicomponentsurfaceandthecoexistenceofmultiplereactionpathwayswithdifferent
+apparentkinetics.
+ThedifferentiallocalTafelslope(Figure4c)providesamoredetaileddescriptionof
+theapparentanodickineticresponseasafunctionofcurrentdensity. Incontrasttoasingle
+globalslope,thelocalrepresentationcapturesthecontinuousevolutionofthepolarization
+https://doi.org/10.3390/ma19091899
+
+Materials2026,19,1899 12of18
+behaviorwithincreasinganodicdrivingforce. ThelocalTafelslopevariescontinuously
+with current density, indicating that the OER response cannot be described by a single
+kineticregimeoverthefullrangeexamined.
+The grain-size dependence of the OER descriptors is summarized in Figure 4d–f.
+Althoughtheas-HRDSReddatumisincludedintheplotsforcomparison,thelog-linear
+regressions were performed only for the six annealed specimens. The corresponding
+log-linear regression parameters for the annealed OER descriptors are summarized in
+Table2.
+Table2.Log-linearregressionparametersforOERperformancemetricsasafunctionofgrainsize.
+TheregressionwasperformedusingY=Alog(d/µm)+Bforannealedspecimens,excludingthe
+as-HRDSRedspecimen.Superscript#indicatesthebestoverpotentialdescriptor.
+Parameter FixedCondition Symbol Slope,A Intercept,B R2
+Overpotential
+3mAcm−2 η
+3
+1.11×10−2 2.84×10−1 0.557
+(V)
+10mAcm−2 η
+10
+1.09×10−2 3.10×10−1 0.715#
+30mAcm−2 η
+30
+1.15×10−2 3.30×10−1 0.416
+2.0mAcm−2 b
+2
+−5.06×10−2 −1.12 0.113
+LocalTafelslope 3.0mAcm−2 b
+3
+−2.11×10−2 −1.24 0.072
+(Vdec−1) 5.0mAcm−2 b
+5
+−5.43×10−3 −1.31 0.006
+10mAcm−2 b
+10
+5.41×10−3 −1.35 0.002
+Currentdensity
+0.27V j
+0.27
+−3.63×10−1 1.71 0.436
+(mAcm−2) 0.30V j 0.3 −1.41 5.23 0.638
+0.33V j −8.44 26.1 0.787
+0.33
+Thegrain-sizescalingofoverpotentialisshowninFigure4d. Theoverpotentialevalu-
+atedatacurrentdensityofxmAcm−2isdenotedbyη . Forthesixannealedspecimens,
+x
+thefittedtrendsindicatethatoverpotentialdecreasessystematicallywithdecreasinggrain
+size, meaning that finer-grained specimens exhibit a more favorable apparent OER re-
+sponse. Thistendencyisobservedconsistentlyforη ,η ,andη ,indicatingthatgrain
+3 10 30
+refinement enhances anodic activity in a relatively robust manner across the examined
+current-densityrange. Althoughtheas-HRDSReddatumwasexcludedfromtheregression
+analysis,itdoesnotconformtotheannealedgrain-sizetrend,againindicatingthatthe
+deformation-inducedmicrostructureshouldnotbeinterpretedsimplyasanextensionof
+therecrystallizedannealedseries.
+ThelocalTafel-slopedescriptorsinFigure4eshowamuchweakerandlessconsistent
+grain-sizedependencethantheoverpotentialmetrics. AssummarizedinTable2,thefitted
+slopesaresmalloverallandthecorrespondingcorrelationsareweak,withbothlowR2
+valuesandasignchangeathighercurrentdensity. ThisindicatesthatthelocalTafelslope
+isnotarobustdescriptorofgrain-sizesensitivityforOERinthepresentalloysystem.
+Thecurrent-densitydescriptorsatfixedoverpotentialareshowninFigure4f. The
+currentdensitydeterminedatanoverpotentialofxVisdenotedbyj . Allthreedescriptors
+x
+exhibitstronggrain-sizedependenceintheregressionanalysis,withj givingthehighest
+0.33
+coefficientofdeterminationamongtheOERmetrics. Theremainingdescriptors,j and
+0.3
+j , also show substantial log-linear correlations, indicating that the grain-size effect
+0.27
+onOERisrobustacrossthefixed-overpotentialdescriptorsandbecomesmoststrongly
+expressedathigheranodicdrivingforce.
+Takentogether,theresultssummarizedinTable2showthatOERinthepresentalloy
+systemexhibitsconsistentlystronggrain-sizedependencewhenevaluatedusingoverpotential-
+basedandfixed-overpotentialcurrentdescriptors,whereasthelocalTafel-slopedescriptors
+provideonlyweakandinconsistentcorrelations.Thus,unlikeHER—wheretheintermediate-
+https://doi.org/10.3390/ma19091899
+
+Materials2026,19,1899 13of18
+currentlocalTafel-slopedescriptorsmostclearlyresolvegrain-sizeeffects—theOERresponse
+ismoredirectlyandrobustlycapturedbyoverpotential-basedmetrics.
+5. Discussion
+5.1. GrainSizeasanEmpiricalMicrostructuralDescriptorofApparentElectrochemicalResponse
+Withinthepresentannealedseries,themostdefensiblefirst-orderinterpretationis
+empiricalratherthanmechanistic. Allspecimensshareanidenticalnominalcomposition,
+arenearlyfullyrecrystallized,andweretestedunderidenticalelectrochemicalconditions.
+Undertheseconstrainedconditions,grainsizeprovidesthemostsystematicandexperi-
+mentallycontrolledvariableacrossthedataset. Accordingly,theelectrochemicaltrends
+observedinSections4.2and4.3aremostappropriatelydescribedasacorrelationbetween
+grainsizeandtheapparentelectrochemicalresponse,ratherthanasdirectevidenceofa
+specificmicroscopicmechanism.
+A GB-density-based interpretation remains physically plausible, because grain re-
+finementincreasestheinterfacialareaassociatedwithGBs,whichmaydifferfromgrain
+interiorsinatomiccoordination,defectdensity,short-rangechemicalinhomogeneity,and
+residualstrainstate[50,51]. However,intheabsenceofelectrochemicallyactivesurface
+area(ECSA)measurementsorpost-testsurfacecharacterization,itisnotpossibletodistin-
+guishwhethertheobservedtrendsariseprimarilyfromanincreaseinthenumberofactive
+sites(geometriceffect)orfromchangesinintrinsicactivitypersite(electronicorchemical
+effects). ThepresentresultsthereforedonotuniquelyestablishGBsasthedominantactive
+sites,butinsteadidentifygrainsizeasarobustempiricaldescriptoroftheapparentactivity
+undertheconditionsexamined.
+Inthiscontext,allcurrentdensitiesarenormalizedtothegeometricelectrodearea
+(1.0 cm2), and the reported trends should be interpreted as apparent activity per geo-
+metricarea. Thisconventionenablesconsistentcomparisonacrossspecimensbutdoes
+notprovidedirectaccesstointrinsicactivitynormalizedbythetrueactivesurfacearea.
+Consequently, thegrain-sizedependencereportedhereshouldbeunderstoodasanex-
+perimentally observed correlation within a composition-fixed system, rather than as a
+definitivemechanisticattributiontoGB-mediatedcatalysis.
+5.2. DistinctRoleoftheAs-HRDSRedState
+A particularly informative comparison is provided by the as-HRDSRed specimen.
+Thisconditiondoesnotsimplyextendtheannealedgrain-sizeseriestowardtheultrafine
+limit. Rather,itrepresentsadeformation-inducedstatecharacterizedbyveryhighdefect
+density and sub-nanometer crystallite scale, and its electrochemical response deviates
+fromtheannealedlog-lineartrendsinadescriptor-dependentmanner. Inthenear-onset
+regime and for some overpotential-based metrics, it tends to outperform the annealed
+regression, whereas this advantage diminishes at higher current density and, for some
+descriptors,fallsbelowtheextrapolatedannealedtrend. Thisbehaviorindicatesthatthe
+deformation-inducedmicrostructureshouldnotbeinterpretedmerelyas“smallergrain
+size,”butasadistinctcatalyticstateinwhichnon-equilibriumdefectsandinterfacesaffect
+the electrochemical response differently from the more regular HAGB network of the
+annealedseries.
+Thisdistinctionisimportantfortheinterpretationofmicrostructuralengineeringin
+bulkHEAelectrodes. Theannealedseriesprovidesacontrolledframeworkinwhichgrain
+sizeandGBdensitycanbetreatedasthedominantvaryingparameters. Theas-HRDSRed
+specimen,bycontrast,highlightsthatseveredeformationintroducesadifferentclassof
+defectsandinterfacesthatmayenhancenear-onsetresponsebutdonotnecessarilyprovide
+thesamedescriptor-consistentbehavioracrossthebroaderkineticwindow.Thisisprecisely
+https://doi.org/10.3390/ma19091899
+
+Materials2026,19,1899 14of18
+whytheas-HRDSReddatumwasincludedintheplotsforcomparisonbutexcludedfrom
+thelog-linearregressions.
+5.3. Descriptor-DependentGrain-SizeSensitivityinHERandOER
+Oneoftheclearestoutcomesofthepresentworkisthatthegrain-sizeeffectisstrongly
+descriptor-dependent,andthatthisdescriptordependencediffersbetweenHERandOER.
+ForHER,grainrefinementisexpressedmostconsistentlynotasamonotonicimprovement
+inhigh-currentoverpotential,butasareductioninthelocalTafelslopeinthenear-onsetto
+intermediatecurrent-densityregime. Intheannealedseries,thelocalTafel-slopedescriptor
+(b )showsthestrongestcorrelationwithgrainsizewithinthepresentdataset,whereasthe
+3
+overpotentialdescriptorsbecomeprogressivelylessreliableasthecathodicdrivingforce
+increases. Thisdifferencemayreflectthecurrent-densitywindowinwhicheachdescriptor
+isevaluated. Atlow-to-intermediatecurrentdensity, themeasuredHERresponsemay
+moredirectlyreflectinterfacialreactionkinetics,sothatthemicrostructuraleffectofgrain
+refinementbecomesmoreclearlyexpressed. Bycontrast,athighercathodicdrivingforce,
+the measured overpotential may increasingly include additional contributions such as
+localinterfacialcoverage[48,49]andtransport-relatedperturbations[49,52]. Theseeffects
+mayobscuretheapparentgrain-sizedependence,makinghigh-currentoverpotentialaless
+selectivedescriptorofthemicrostructuralcontribution. Inthissense,b mayrepresenta
+3
+kineticwindowinwhichthegrain-sizeeffectismoreclearlyresolvedbecausetheresponse
+islessstronglyinfluencedbyhigh-currentsecondaryeffects.
+ForOER,thepictureisdifferent. Thegrain-sizedependenceremainsevidentacrossa
+broaderanodicwindow,andthemostrobustcorrelationsareobtainednotfromthelocal
+Tafelslopebutfromoverpotential-baseddescriptorsandcurrentdensityatfixedoverpo-
+tential. Inparticular,η andj showthestrongestcorrelationswithgrainsize,whereas
+10 0.33
+the local Tafel-slope descriptors are weak and inconsistent. This suggests that, in OER,
+grainrefinementismoreclearlyexpressedindescriptorsassociatedwiththemagnitudeof
+theanodicresponsethaninthelocalTafel-slopedescriptors. Inotherwords,HERandOER
+arebothgrain-sizesensitive,buttheyexpressthatsensitivitythroughdifferentdescriptor
+families. Thisdistinctionmayariseinpartbecauseoverpotential-basedmetricsandlocal
+Tafel-slopedescriptorsdonotquantifythesameaspectofthepolarizationresponse. Over-
+potentialatafixedcurrentdensityreflectsthecumulativevoltagecostrequiredtoreacha
+givencurrentdensityandthereforemayincorporatemultiplecontributions,includinginter-
+facialkinetics,surfacecoverageeffects[48,49],andtransport-relatedperturbations[49,52];
+althoughtherelativemagnitudesofthesecontributionswerenotindependentlyquantified.
+By contrast, the local Tafel slope represents the differential response, that is, the local
+variationofoverpotentialwithrespecttolog|j|,andisthereforemoresensitivetothelocal
+shapeofthepolarizationcurvewithinaspecificcurrent-densitywindow. Asaresult,the
+twodescriptorfamiliesmayresponddifferentlytothesameunderlyingmicrostructural
+change,especiallywhennonlinearcontributionsbecomesignificant.
+OneplausibleinterpretationisthatHER,whichinvolvesasinglekeyadsorbedinter-
+mediate(H*),mayexpressmicrostructuraleffectsmoredirectlythroughkineticdescriptors
+suchasthelocalTafelslope. Bycontrast,OERproceedsthroughsequentialintermediates
+(OH*,O*,OOH*),andthemeasuredgrain-sizedependencemaythereforebecomemore
+clearlyexpressedindescriptorsrelatedtotheoverallanodicresponse,suchasoverpotential
+andcurrentatfixedoverpotential. Thismechanisticasymmetryisqualitativelyconsistent
+withtheobserveddescriptor-dependentgrain-sizesensitivity,althoughdirectverification
+wouldrequiresurface-sensitivecharacterizationofthepost-reactionelectrodestate.
+https://doi.org/10.3390/ma19091899
+
+Materials2026,19,1899 15of18
+5.4. MechanisticImplications,Limitations,andPracticalSignificance
+Thepresentdataestablishaconsistentempiricalrelationshipbetweengrainsizeand
+theapparentelectrochemicalresponseoftheannealedFe Mn Ni Co Cr alloy. Grain
+41 25 24 8 2
+refinementisassociatedwithimprovedapparentperformance;however,themannerin
+whichthisimprovementisexpresseddependsonboththeelectrochemicalreaction(HER
+vs. OER)and thedescriptor usedto quantifyperformance. Theseobservations should
+thereforebeinterpretedwithinthelimitationsofthepresentexperimentalframework.
+First,nopost-testsurfacecharacterizationorECSAmeasurementwasperformed. As
+a result, the present dataset does not allow separation of geometric effects from intrin-
+sic catalytic effects. The mechanistic interpretations discussed above, such as possible
+contributionsfrominterfacialcoverageeffects,bubbleaccumulation,ortransport-related
+perturbations,areconsistentwiththeliterature[48,49,52]butwerenotdirectlytestedin
+thisstudy. Theyshouldthereforeberegardedasphysicallyplausibleinterpretationsrather
+thanexperimentallyverifiedmechanisms.
+Second,theuseoflocalTafelslopesaskineticdescriptorsrequirescarefulinterpreta-
+tion. BecausenoextendedlinearTafelregionisobservedinthepolarizationcurves,the
+extractedlocalslopesrepresentcondition-dependentdifferentialresponsesderivedfrom
+LSVdata,ratherthantruesteady-statemechanisticparameters. Accordingly,thesevalues
+arebesttreatedasempiricalkineticindicatorsthatenablecomparisonwithinthepresent
+dataset,ratherthanasdefinitiveindicatorsofrate-determiningsteps.
+Despitetheselimitations,thepresentresultsretainpracticalsignificance. Byholding
+composition constant and varying microstructure through a scalable processing route
+(HRDSR+annealing),thestudydemonstratesthatgrainsizecanserveasacontrollable
+designparameterfortuningtheapparentHERandOERresponseofabulkhigh-entropy
+alloyelectrode. Thekeyimplicationisnotthataspecificmicroscopicmechanismhasbeen
+uniquelyidentified,butthatmicrostructuralcontrolprovidesareproducibleandpracti-
+callyaccessiblepathwayformodifyingelectrochemicalperformanceincompositionally
+complexalloys.
+6. Conclusions
+The grain-size dependence of the hydrogen evolution reaction (HER) and oxygen
+evolutionreaction(OER)inthenon-equiatomicFe Mn Ni Co Cr high-entropyalloy
+41 25 24 8 2
+wassystematicallyevaluatedoveragrain-sizerangeof5.1–197µmin1MKOH.Themain
+conclusionsareasfollows.
+1. OER activity showed a clear correlation with grain size across the annealed
+Fe Mn Ni Co Cr series,withfiner-grainedspecimensexhibitingmorefavorable
+41 25 24 8 2
+apparentanodicresponseatconstantcomposition.
+2. HERshowedamoredescriptor-dependentgrain-sizeresponse. Grainrefinementwas
+associatedwithimprovedlocalTafel-sloperesponse,butdidnotproduceamonotonic
+decreaseinHERoverpotentialoverthefullgrain-sizerange.
+3. ForHER,thelocalTafel-slopeat−3mAcm−2(b )showedthestrongestcorrelation
+3
+with grain size among the evaluated HER descriptors within the present dataset,
+indicating that grain-size effects were most clearly expressed in the near-onset to
+intermediatecurrent-densityregime. Becausethisdescriptorwasselectedposthoc
+from a six-specimen annealed dataset, it should be regarded as a representative
+empiricalindicatorratherthanavalidateduniversalHERdescriptor.
+4. ForOER,thecurrentdensityatanoverpotentialof0.33V(j )showedthehighest
+0.33
+correlationamongtheevaluatedOERdescriptorswithinthepresentdataset,whileη
+10
+alsoexhibitedarobustgrain-size-associatedtrend. Overall,OERdisplayedstronger
+andmoreconsistentapparentgrain-sizesensitivitythanHER.
+https://doi.org/10.3390/ma19091899
+
+Materials2026,19,1899 16of18
+5. Theas-HRDSRedspecimendidnotbehavesimplyasanultrafineextensionofthe
+annealed series. In HER, it showed lower-than-expected overpotential for some
+current-densityconditionsbuthigher-than-expectedlocalTafel-slopevaluesrelative
+totheannealedregressiontrend,indicatingadistinctdeformation-inducedelectro-
+chemicalstate.
+6. Overall, the present results show that grain size serves as a useful empirical mi-
+crostructuraldescriptorofapparentalkalineHERandOERresponseinthisbulkHEA
+system,andthatmicrostructuralcontrolviaHRDSRandannealingprovidesapracti-
+calstrategyfortuningelectrocatalyticbehaviorwithoutchangingalloycomposition.
+AuthorContributions:Conceptualization,W.J.K.;methodology,W.J.K.;software,H.-T.J.;validation,
+W.J.K.andH.-T.J.; formalanalysis,H.-T.J.; investigation,H.-T.J.; resources,H.-T.J.; datacuration,
+H.-T.J.;writing—originaldraftpreparation,W.J.K.;writing—reviewandediting,H.-T.J.;visualization,
+W.J.K.;supervision,W.J.K.;projectadministration,W.J.K.;fundingacquisition,W.J.K.Allauthors
+havereadandagreedtothepublishedversionofthemanuscript.
+Funding: This work was funded by the Mid-Career Researcher Program through the National
+ResearchFoundationofKorea(NRF),fundedbytheMinistryofScienceandICT(MSIT),Republicof
+Korea(No.RS-2024–00350484).
+InstitutionalReviewBoardStatement:Notapplicable.
+InformedConsentStatement:Notapplicable.
+DataAvailabilityStatement:Theoriginalcontributionspresentedinthisstudyareincludedinthe
+article.Furtherinquiriescanbedirectedtothecorrespondingauthor.
+ConflictsofInterest:Theauthorsdeclarenoconflictsofinterest.
+References
+1. Ifkovits,Z.P.;Evans,J.M.;Meier,M.C.;Papadantonakis,K.M.;Lewis,N.S.Decoupledelectrochemicalwater-splittingsystems:A
+reviewandperspective.EnergyEnviron.Sci.2021,14,4740–4759.[CrossRef]
+2. Li,W.;Tian,H.;Ma,L.;Wang,Y.;Liu,X.;Gao,X.Low-temperaturewaterelectrolysis:Fundamentals,progress,andnewstrategies.
+Mater.Adv.2022,3,5598–5644.[CrossRef]
+3. Rahamathulla,N.;Murthy,A.P.Advancedheterostructuresasbifunctionalelectrocatalystsforoverallwatersplitting—Areview.
+J.EnergyStorage2023,73,109127.[CrossRef]
+4. Roger,I.;Shipman,M.A.;Symes,M.D.Earth-abundantcatalystsforelectrochemicalandphotoelectrochemicalwatersplitting.
+Nat.Rev.Chem.2017,1,0003.[CrossRef]
+5. Chatenet,M.;Pollet,B.G.;Dekel,D.R.;Dionigi,F.;Deseure,J.;Millet,P.;Braatz,R.D.;Bazant,M.Z.;Eikerling,M.;Staffell,I.;etal.
+Waterelectrolysis:Fromtextbookknowledgetothelatestscientificstrategiesandindustrialdevelopments.Chem.Soc.Rev.2022,
+51,4583–4762.[CrossRef][PubMed]
+6. Wang,C.R.;Stansberry,J.M.;Mukundan,R.;Chang,H.M.J.;Kulkarni,D.;Park,A.M.;Plymill,A.B.;Firas,N.M.;Liu,C.P.;Lang,
+J.T.;etal.Protonexchangemembrane(PEM)waterelectrolysis:Cell-levelconsiderationsforgigawatt-scaledeployment.Chem.
+Rev.2025,125,1257–1302.[CrossRef]
+7. Wang,J.;Yue,X.;Yang,Y.;Sirisomboonchai,S.;Wang,P.;Ma,X.;Abudula,A.;Guan,G.Earth-abundanttransition-metal-based
+bifunctionalcatalystsforoverallelectrochemicalwatersplitting:Areview.J.AlloysCompd.2020,819,153346.[CrossRef]
+8. Wang,Y.;Yan,D.;ElHankari,S.;Zou,Y.;Wang,S.Recentprogressonlayereddoublehydroxidesandtheirderivativesfor
+electrocatalyticwatersplitting.Adv.Sci.2018,5,1800064.[CrossRef]
+9. Mohili,R.;Hemanth,N.R.;Jin,H.;Lee,K.;Chaudhari,N.Emerginghighentropymetalsulphidesandphosphidesforelectro-
+chemicalwatersplitting.J.Mater.Chem.A2023,11,10463–10472.[CrossRef]
+10. Kamaruddin,H.; Jianghong,Z.; Yu,L.; Yuefan,W.; Yizhong,H.Areviewofnoblemetal-freehighentropyalloysforwater
+splittingapplications.J.Mater.Chem.A2024,12,9933–9961.[CrossRef]
+11. George,E.P.;Raabe,D.;Ritchie,R.O.High-entropyalloys.Nat.Rev.Mater.2019,4,515–534.[CrossRef]
+12. Ren,J.T.;Chen,L.;Wang,H.Y.;Yuan,Z.Y.High-entropyalloysinelectrocatalysis:Fromfundamentalstoapplications.Chem.Soc.
+Rev.2023,52,8319–8373.[CrossRef][PubMed]
+https://doi.org/10.3390/ma19091899
+
+Materials2026,19,1899 17of18
+13. Zheng,G.;Wang,Q.;Chen,J.;Qiu,R.;Zhu,M.QuantifyinglocalatomicdistortionsinUO2grainboundaries:Correlationwith
+energeticandelectronicproperties.Inorg.Chem.2023,62,16047–16058.[CrossRef][PubMed]
+14. Geng,X.;Vega-Paredes,M.;Wang,Z.;Ophus,C.;Lu,P.;Ma,Y.;Zhang,S.;Scheu,C.;Liebscher,C.H.;Gault,B.Grainboundary
+engineeringforefficientanddurableelectrocatalysis.Nat.Commun.2024,15,8534.[CrossRef][PubMed]
+15. Jeong, H.T.; Kim, W.J. Microstructures and mechanical properties of the non-equiatomic FeMnNiCoCr high entropy alloy
+processedbydifferentialspeedrolling.Mater.Sci.Eng.A2018,727,38–42.[CrossRef]
+16. Bahmani, A.; Moradi, S.; Lotfpour, M.; Jeong, H.T.; Kim, W.J. Effect of grain size on the corrosion resistance of the
+Fe Mn Ni Co Cr highentropyalloy.Corros.Sci.2024,230,111892.[CrossRef]
+41 25 24 8 2
+17. Zhang,T.;Gao,N.;Chen,Z.J.;Zhao,H.F.;Wang,Y.S.;Yao,J.Q.;Peng,J.;Sun,Y.M.;Yu,H.B.;Liu,X.W.Grain-boundary-activity
+correlationforelectrocatalyticoxygenevolutioninhigh-entropyalloys.PRXEnergy2023,2,033011.[CrossRef]
+18. Batchelor,T.A.A.;Pedersen,J.K.;Winther,S.H.;Castelli,I.E.;Jacobsen,K.W.;Rossmeisl,J.High-entropyalloysasadiscovery
+platformforelectrocatalysis.Joule2019,3,834–845.[CrossRef]
+19. Xu,W.;Diesen,E.;He,T.;Reuter,K.;Margraf,J.T.Discoveringhighentropyalloyelectrocatalystsinvastcompositionspaceswith
+multiobjectiveoptimization.J.Am.Chem.Soc.2024,146,7698–7707.[CrossRef]
+20. Ahmad,S.;Egilmez,M.;Shanmugam,R.;Abuzaid,W.;Sharma,S.;Gangavarapu,R.R.;Mustafa,F.;El-Khatib,S.;Alawadhi,
+H.;Kannan,A.M.ElectrochemicalhydrogenevolutionreactionevaluationofCoNi(Cr/V)medium-entropyalloysinanacidic
+environment.ACSAppl.EnergyMater.2023,6,10652–10664.[CrossRef]
+21. Zhang, G.; Ming, K.; Kang, J.; Huang, Q.; Zhang, Z.; Zheng, X.; Bi, X. High entropy alloy as a highly active and stable
+electrocatalystforhydrogenevolutionreaction.Electrochim.Acta2018,279,19–23.[CrossRef]
+22. Gu,T.;Yu,F.;Yu,Z.;Qi,Y.;Li,Y.X.;Miao,F.;Yan,Z.Efficientdual-phasePtNiCuMnMohigh-entropyalloyelectrocatalystfor
+alkalinehydrogenevolutionreaction.J.ColloidInterfaceSci.2025,688,308–316.[CrossRef][PubMed]
+23. Chen,Z.W.;Li,J.;Ou,P.;Huang,J.E.;Wen,Z.;Chen,L.X.;Yao,X.;Cai,G.M.;Yang,C.C.;Singh,C.V.;etal. UnusualSabatier
+principleonhighentropyalloycatalystsforhydrogenevolutionreactions.Nat.Commun.2024,15,359.[CrossRef]
+24. Zhao,G.;Lu,K.;Li,Y.;Lu,F.;Gao,P.;Nan,B.;Li,L.;Zhang,Y.;Xu,P.;Liu,X.;etal.Anefficientandstablehigh-entropyalloy
+electrocatalystforhydrogenevolutionreaction.Chin.J.Catal.2024,62,156–165.[CrossRef]
+25. Wang,S.;Xue,S.;Tang,C.;Gao,H.;Gao,D.FeCoNi(OH)x/Nimeshelectrodeboostingoxygenevolutionreactionforhigh-
+performancealkalinewaterelectrolysis.Appl.Phys.A2023,129,789.[CrossRef]
+26. Singh,A.;Kumari,P.;Shahi,R.R.Co 35 Cr 5 Fe 10 Ni 30 Ti 5 Al 15−x Mnx(x=0,7.5)highentropyalloysaselectrocatalystforoxygen
+evolutionreaction.Int.J.HydrogenEnergy2025,164,150830.[CrossRef]
+27. Wu,C.;Zhang,X.;Zhang,Y.;Ma,W.;Zhao,D.;Ren,B.;Zhang,Z.;Wang,Y.MechanicalalloyedFeCoNiMoM(M=Cr,Cu)
+high-entropyalloypowdersaselectrocatalystsforoxygenevolutionreaction.J.Mater.2025,11,101046.[CrossRef]
+28. Dai,W.;Lu,T.;Pan,Y.NovelandpromisingelectrocatalystforoxygenevolutionreactionbasedonMnFeCoNihighentropyalloy.
+J.PowerSources2019,430,104–111.[CrossRef]
+29. Chen,H.;Guan,C.;Feng,H.Pt-basedhigh-entropyalloynanoparticlesasbifunctionalelectrocatalystsforhydrogenandoxygen
+evolution.ACSAppl.NanoMater.2022,5,9810–9817.[CrossRef]
+30. Kwon,J.;Sun,S.;Choi,S.;Lee,K.;Jo,S.;Park,K.;Kim,Y.K.;Park,H.B.;Park,H.Y.;Jang,J.H.;etal.Tailoredelectronicstructureof
+Irinhighentropyalloyforhighlyactiveanddurablebifunctionalelectrocatalystforwatersplittingunderanacidicenvironment.
+Adv.Mater.2023,35,2300091.[CrossRef]
+31. Chang,S.Q.;Cheng,C.C.;Cheng,P.Y.;Huang,C.L.;Lu,S.Y.PulseelectrodepositedFeCoNiMnWhighentropyalloysasefficient
+andstablebifunctionalelectrocatalystsforacidicwatersplitting.Chem.Eng.J.2022,446,137452.[CrossRef]
+32. Zhang,Y.;Wan,Q.;Huang,L.;Jiang,T.;Wu,S.;Li,D.;Liu,Y.;Wu,H.;Ren,F.Bifunctionalhigh-entropyalloyelectrocatalystsfor
+stableoverallwatersplittingatindustrial-levelcurrentdensities.J.Mater.Chem.A2025,13,17384.[CrossRef]
+33. Zhang,L.;Zhao,H.;Wilkinson,D.P.;Sun,X.;Zhang,J.(Eds.)ElectrochemicalWaterElectrolysis:FundamentalsandTechnologies;CRC
+Press:BocaRaton,FL,USA,2020.
+34. González-Poggini,S.Hydrogenevolutiondescriptors:Areviewforelectrocatalystdevelopmentandoptimization.Int.J.Hydrogen
+Energy2024,59,30–42.[CrossRef]
+35. Abdelghafar,F.; Xu,X.; Jiang,S.P.; Shao,Z.Designingsingle-atomcatalyststowardimprovedalkalinehydrogenevolution
+reaction.Mater.Rep.Energy2022,2,100144.[CrossRef]
+36. Verma, J.; Goel, S.Cost-effectiveelectrocatalystsforhydrogenevolutionreactions(HER):Challengesandprospects. Int. J.
+HydrogenEnergy2022,47,38964–38982.[CrossRef]
+37. Huang, Z.F.; Song, J.; Dou, S.; Li, X.; Wang, J.; Wang, X. Strategies to break the scaling relation toward enhanced oxygen
+electrocatalysis.Matter2019,1,1494–1518.[CrossRef]
+38. Zhang,N.;Chai,Y.Latticeoxygenredoxchemistryinsolid-stateelectrocatalystsforwateroxidation.EnergyEnviron.Sci.2021,
+14,4647–4671.[CrossRef]
+39. Atkins,P.;dePaula,J.;Keeler,J.Atkins’PhysicalChemistry,12thed.;OxfordUniversityPress:Oxford,UK,2023.
+https://doi.org/10.3390/ma19091899
+
+Materials2026,19,1899 18of18
+40. Underwood,E.E.QuantitativeStereology;Addison-Wesley:Reading,MA,USA,1970.
+41. VanderVoort,G.F.(Ed.)ASMHandbook,Volume9:MetallographyandMicrostructures;ASMInternational:Novelty,OH,USA,2004.
+42. Mohammed-Ibrhim,J.AreviewonNiFe-basedelectrocatalystsforefficientalkalineoxygenevolutionreaction.J.PowerSources
+2020,448,227375.[CrossRef]
+43. Li,N.;Bediako,D.K.;Hadt,R.G.;Hayes,D.;Kempa,T.J.;vonCube,F.;Bell,D.C.;Chen,L.X.;Nocera,D.G.Influenceofiron
+dopingontetravalentnickelcontentincatalyticoxygenevolvingfilms.Proc.Natl.Acad.Sci.USA2017,114,1486–1491.[CrossRef]
+44. Tsai,F.T.;Deng,Y.T.;Pao,C.W.;Chen,J.L.;Lee,J.F.;Lai,K.T.;Liaw,W.F.TheHER/OERmechanisticstudyofanFeCoNi-based
+electrocatalystforalkalinewatersplitting.J.Mater.Chem.A2020,8,9939–9950.[CrossRef]
+45. He,B.; Hosseini,P.;Escalera-López,D.;Schulwitz,J.;Rüdiger,O.;Hagemann,U.;Heidelmann,M.;DeBeer,S.;Muhler,M.;
+Cherevko,S.;etal.EffectsofdynamicsurfacetransformationontheactivityandstabilityofmixedCo-Mncubicspineloxidesin
+theoxygenevolutionreactioninalkalinemedia.Adv.EnergyMater.2025,15,2403096.[CrossRef]
+46. He,B.;Hosseini,P.;Priamushko,T.;Trost,O.;Budiyanto,E.;Bondue,C.;Schulwitz,J.;Kostka,A.;Tüysüz,H.;Muhler,M.;etal.
+Atomic-scaleinsightsintosurfacereconstructionandtransformationinCo-Crspineloxidesduringtheoxygenevolutionreaction.
+Nat.Commun.2025,16,9895.[CrossRef][PubMed]
+47. Cleveland,W.S.Robustlocallyweightedregressionandsmoothingscatterplots.J.Am.Stat.Assoc.1979,74,829–836.[CrossRef]
+48. Kempler,P.A.;Coridan,R.H.;Lewis,N.S.Effectsofbubblesontheelectrochemicalbehaviorofhydrogen-evolvingSimicrowire
+arraysorientedagainstgravity.EnergyEnviron.Sci.2020,13,1808–1817.[CrossRef]
+49. Kitajima,D.;Misumi,R.;Kuroda,Y.;Mitsushima,S.Relationshipbetweenbubblegenerationbehaviorandhydrogenevolution
+reactionperformanceathighcurrentdensitiesduringalkalinewaterelectrolysis.Electrochim.Acta2024,502,144772.[CrossRef]
+50. Toda-Caraballo, I.; Bristowe, P.D.; Capdevila, C. A molecular dynamics study of grain boundary free energies, migration
+mechanismsandmobilitiesinabccFe–20Cralloy.ActaMater.2012,60,1116–1128.[CrossRef]
+51. Niu,R.;Han,K.;Su,Y.;Besara,T.;Siegrist,T.M.;Zuo,X.Influenceofgrainboundarycharacteristicsonthermalstabilityin
+nanotwinnedcopper.Sci.Rep.2016,6,31410.[CrossRef]
+52. Carneiro-Neto,E.B.; Lopes,M.C.; Pereira,E.C.SimulationofinterfacialpHchangesduringhydrogenevolutionreaction. J.
+Electroanal.Chem.2016,765,92–99.[CrossRef]
+Disclaimer/Publisher’sNote: Thestatements, opinionsanddatacontainedinallpublicationsaresolelythoseoftheindividual
+author(s)andcontributor(s)andnotofMDPIand/ortheeditor(s).MDPIand/ortheeditor(s)disclaimresponsibilityforanyinjuryto
+peopleorpropertyresultingfromanyideas,methods,instructionsorproductsreferredtointhecontent.
+https://doi.org/10.3390/ma19091899
+

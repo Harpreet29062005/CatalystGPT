@@ -1,0 +1,1127 @@
+Graphical Abstract
+DynamicKineticEvaluationFavorsCompositionallyDiverseMulticomponentAlloyNanopar-
+ticlesforHydrogenEvolution
+KokiOtsuka,AnhKhoaAugustinLu,KojiShimizu,SatoshiWatanabe
+Nanocluster model Monte Carlo sampling
+Realistic structures Thermodynamic ordering
+Kinetic Monte Carlo Bayesian optimization
+Surface diffusion Efficient exploration
+6202
+tcO
+6
+]ics-lrtm.tam-dnoc[
+1v04080.0162:viXra
+
+Dynamic Kinetic Evaluation Favors Compositionally Diverse
+Multicomponent Alloy Nanoparticles for Hydrogen Evolution
+KokiOtsukaa, AnhKhoaAugustinLua,b, KojiShimizuc and SatoshiWatanabea,∗
+aDepartmentofMaterialsEngineering,TheUniversityofTokyo,113-8656,Tokyo,Japan
+bResearchCenterforMaterialsNanoarchitectonics,NationalInstituteforMaterialsScience,305-0044,Tsukuba,Japan
+cMaterialsDXResearchCenter,NationalInstituteofAdvancedIndustrialScienceandTechnology,305-8568,Tsukuba,Japan
+ARTICLE INFO ABSTRACT
+Keywords: High-entropyalloy(HEA)nanoparticlesofferchemicallydiversecatalyticsites,butidentifying
+High-entropyalloy optimal compositions across their large design space remains challenging. We developed
+Hydrogenevolutionreaction a framework combining machine-learning energy prediction, thermodynamic Monte Carlo
+KineticMonteCarlo sampling, Bayesian optimization, and kinetic Monte Carlo (kMC) simulations to screen
+Bayesianoptimization 85-atom nanoparticle models across a nine-element composition space for the hydrogen
+Nanoparticlecatalyst evolution reaction. Static optimization based on adsorption energies selected Pt-rich, low-
+componentcompositions,whereaskMC-basedoptimizationrankedthemultielementcomposi-
+tionAu Co Cu Pd highestamongtheevaluatedcandidates.Cycle-resolvedanalysisfurther
+33 20 6 26
+showed hydrogen adsorption at Co/Pd-rich environments, migration through intermediate-
+bindingsites,andfrequentHeyrovskydesorptionatweaker-binding,Au-containingenviron-
+ments. This pathway-level evidence supports a multisite reaction picture and illustrates how
+incorporatingkineticscancomplementstaticadsorption-energyscreening.
+Introduction
+High-entropyalloys(HEAs)arebroadlydefinedasmulticomponentalloyscomposedofseveralprincipalelements
+atnon-diluteconcentrations,ofteninnear-equiatomicratios.Incontrasttoconventionalalloydesign,whichistypically
+centeredonadominanthostelement,HEAsspancompositionallycomplexdesignspacesinwhichhighconfigurational
+entropycanpromotetheformationofsingle-phasesolidsolutions,whilelocallatticedistortionandchemicallydiverse
+nearest-neighborenvironmentsgiverisetounusualstructure–propertyrelationships[1,2].Thesecharacteristicshave
+attractedgrowinginterestnotonlyinstructuralmaterialssciencebutalsoincatalysis,whereatomic-scalechemical
+heterogeneity creates diverse active-site environments and reaction energetics, providing a broad design space for
+catalyticfunctionality.
+This broad design space offers opportunities to overcome limitations associated with monometallic and simple
+bimetallic catalysts. In HEAs, distinct local elemental motifs generate near-continuous distributions of adsorption
+energiesandactivationbarriers,enablingflexibletuningofcatalyticactivityandselectivity[3,4].Thisconcepthas
+alreadybeenexploredacrossmultipleelectrocatalyticreactions,includingtheoxygenreductionreaction(ORR)[5]and
+carbondioxide/carbonmonoxidereduction(CO RR/CORR),throughbothcomputationalscreeningandexperimental
+2
+studies[6,7].Atthesametime,rapidprogressinsyntheticchemistryhasenabledthefabricationofultrasmallHEA
+nanoparticles with controlled compositions, further expanding their practical relevance to electrochemical energy
+conversion[8].
+Among these applications, the hydrogen evolution reaction (HER) is a particularly important target because
+efficient and sustainable hydrogen production is essential for the transition to low-carbon energy systems. Recent
+studies have reported promising HER performance in HEA nanoparticles, including sub-2 nm systems and compo-
+sitions containing platinum-group metals, together with high catalytic stability [9, 10]. These findings indicate that
+HEAnanoparticlescancombinehighintrinsicactivitywithstructuralrobustness,supportingtheirpotentialasHER
+electrocatalysts[11,12].
+However,identifyingoptimalHEAcompositionsisahigh-dimensionaloptimizationproblem,andexhaustivefirst-
+principlesscreeningisgenerallyimpractical.Data-drivenapproachescombiningmachine-learning(ML)modelswith
+∗Correspondingauthor
+watanabe@cello.t.u-tokyo.ac.jp(S.Watanabe)
+ORCID(s):
+: PreprintsubmittedtoElsevier Page1of14
+
+efficient optimization algorithms, such as Bayesian optimization, are therefore increasingly used to navigate broad
+compositionalspaceswithsubstantiallyreducedcomputationalcost[13].
+Despitetheseadvances,severalmajormethodologicalchallengesremainintherationaldesignofHEAcatalysts.
+First, the accessible compositional space grows combinatorially with the number of constituent elements, whereas
+many established computational and experimental optimization studies have focused on predefined composition
+spacescontainingapproximatelyfiveelements[6,13,14].AlthoughmorerecentapproacheshaveextendedBayesian
+optimizationtosubstantiallylargerspacescomprisinguptotenelements[15],efficientexplorationofthevastelemental
+and compositional space remains a fundamental challenge. Second, many computational screening frameworks rely
+on idealized periodic slab models, often with a limited number of surface orientations [6, 16]. Such models cannot
+fullycapturethegeometriccomplexityofexperimentallyrelevantnanoparticles,includingfinite-sizeeffectsandthe
+presence of edges, corners, and other low-coordination sites, although recent studies have begun to address HEA
+nanoparticlesexplicitly[17].Third,screeningcalculationsfrequentlyassumerandomorotherwiseprescribedatomic
+arrangementsanddonotexplicitlyaccountforfinite-temperaturethermodynamiceffectssuchassurfacesegregation
+andchemicalordering,whichcansubstantiallyalterthesurfacecompositionandlocalatomicenvironments[18,19].
+Forexample,Pedersenetal.experimentallyobservedtwo-phasecoexistenceinanIr–Ptcompositionspread,revealing
+incompletemixingthatwasnotrepresentedintheidealizedsolid-solutionmodelusedforactivityoptimization[13].
+Suchphaseseparation,segregation,andlocalorderingcanthereforecontributetodeviationsbetweencomputationally
+predictedandexperimentallyrealizedcatalyststructuresandactivities.
+Finally,mostconventionalhigh-throughputscreeningstrategiesevaluatecatalyticperformanceprimarilythrough
+thestaticadsorptionenergeticsofindividuallocalenvironments,oftenwithinSabatier-orvolcano-typeframeworks
+[6, 16, 20]. While highly successful for identifying favorable binding environments, such approaches may overlook
+cooperative mechanisms involving multiple chemically distinct sites and the transport of reaction intermediates
+between them. Recent work has demonstrated that HEAs can exploit such multisite mechanisms. For hydrogen
+evolution on PtFeCoNiCu, for example, Chen et al. showed theoretically that strong hydrogen-binding sites can
+facilitatehydrogenadsorption,whileadsorbedhydrogencandiffusetoweaker-bindingsitesthatfavorH formation
+2
+anddesorption,therebyenablingcatalyticbehaviorthatcannotbedescribedbytheconventionalsingle-siteSabatier
+picture [21]. These findings suggest that optimization based solely on static, independently evaluated adsorption
+sites may fail to identify compositions that benefit from cooperative reaction dynamics, motivating approaches that
+explicitly consider both the structural complexity of HEA nanoparticles and diffusion-mediated kinetic coupling
+betweenchemicallyandfunctionallydistinctactivesites.
+Toaddressthesechallenges,wedevelopacomposition-optimizationframeworkformulticomponentalloynanopar-
+ticlecatalystsforHERthatintegratesML-basedenergyprediction,MonteCarlo(MC)samplingofthermodynamically
+accessibleatomicconfigurations,data-drivencomposition-spaceexploration,andkineticMonteCarlo(kMC)simu-
+lations of hydrogen adsorption, surface diffusion, and desorption. Using an 85-atom octahedral nanoparticle model
+spanninganine-elementchemicalspace,wecomparestaticadsorption-energy-basedscreeningwithakinetics-aware
+evaluationofadsorbatetransportacrossheterogeneoussurfacesites.Thesearchallowsthenumberandproportionsof
+constituentelementstovary,ratherthanrestrictingcandidatestonear-equiatomicHEAs.Thetwoevaluationsselect
+compositionallydistinctcandidates,andensembletrajectoryanalysisisusedtoexaminediffusion-mediatedcoupling
+amongchemicallydistinctsitesinthekMC-selectedcomposition.
+Results
+StaticScreeningResults
+Because the elemental distribution within multicomponent alloy nanoparticles is not random but is governed
+by thermodynamic preferences for surface segregation and local ordering, we generated representative atomic
+configurations for each composition using Metropolis Monte Carlo (MC) sampling at 900 K (see Methods for
+details). As a static activity metric, we defined 𝐴 as the arithmetic average of Boltzmann-type site-specific activity
+scoresacrossalladsorptionsitesofthesethermodynamicallysampledatomicconfigurations.Eachsitescorefollows
+the Sabatier principle: a site is most active when the ML-predicted hydrogen adsorption energy Δ𝐸 is close to
+H
+Δ𝐸 = −0.27 eV, which corresponds to Δ𝐺 ≈ −0.03 eV under the +0.24 eV correction used in this study,
+opt H∗
+and the score decays exponentially with deviation from this optimum (see Methods for full details). Using 𝐴 as the
+objectivefunction,compositionoptimizationwasperformedusingtwoapproaches:PHYSBO[22],acandidate-based
+: PreprintsubmittedtoElsevier Page 2 of 14
+
+Bayesianoptimizationlibrary,andOptuna[23],aTree-structuredParzenEstimator(TPE)framework,asdescribedin
+theMethodssection.
+OptimizationTrajectoriesandDiscoveredCompositions
+Figure1showstheoptimizationtrajectoriesintermsofthebest-so-faractivityscoreobtaineduptoeachiteration.
+To evaluate variation among independent searches, 200 optimization iterations were performed five times for each
+method. The solid lines represent the mean best-so-far activity across the five runs, and the error bars represent the
+standarddeviationacrosstheruns.Bothmethodsidentifiedcompositionswithhigheractivityscoresthanthosefound
+duringtheinitialrandom-searchstageiniterations0to10.PHYSBOshowedstepwiseimprovementsfromtheearly
+to intermediate stages of the search and reached higher final activity scores on average than Optuna. By contrast,
+themeanbest-so-faractivityobtainedwithOptunaplateauedatalowervalue.Moreover,thehighest-rankingOptuna
+candidatesinthebest-performingrunwereallPd-Ptbinarycompositions,indicatingthatthesearchwasconcentrated
+inarelativelynarrowcompositionalregion.
+0.25
+0.20
+0.15
+0.10
+0 25 50 75 100 125 150 175 200
+Number of Search
+ytivitcA
+tseB
+PHYSBO
+Optuna
+Figure 1: Optimization trajectories of the HER activity obtained using PHYSBO and Optuna. The plot shows the best
+objective-function value found up to each iteration. The 200-iteration search was independently repeated five times for
+eachmethod,withthesolidlinesanderrorbarsrepresentingthemeanandstandarddeviationacrosstheruns,respectively.
+PHYSBO reached higher best-so-far activity scores than Optuna.
+Table1presentsthefivehighest-activitycompositionsidentifiedwithinthebest-performingrunforeachmethod.
+The highest activity score obtained with PHYSBO was 0.2894 for Pd Pt Rh . The highest-ranking PHYSBO
+10 58 17
+compositionswerepredominantlyternaryalloyscontainingPtasthemajorcomponent,withsmalleramountsofPd
+andRh.RelativetothepurePtcluster,forwhich𝐴 ≈ 0.20,Pd Pt Rh showedanapproximately1.45-foldhigher
+10 58 17
+staticactivityscore.ThisresultsuggeststhatalloyingPtwithPdandRhcanproducelocaladsorptionenvironments
+thataremorefavorableunderthepresentstaticactivitymetric.
+Table 1
+Five highest-activity compositions identified within the best-performing run for each optimization method.
+PHYSBO Optuna
+Composition 𝐴 Composition 𝐴
+Pd Pt Rh 0.2894 Pd Pt 0.2639
+10 58 17 29 56
+Pd Pt Rh 0.2893 Pd Pt 0.2612
+7 65 13 27 58
+Pd Pt Rh 0.2862 Pd Pt 0.2609
+8 64 13 28 57
+Pd Pt Rh 0.2846 Pd Pt 0.2608
+7 67 11 30 55
+Pd Pt Rh 0.2840 Pd Pt 0.2582
+6 64 15 31 54
+: PreprintsubmittedtoElsevier Page 3 of 14
+
+Site-LevelActivityDistributionandCore-ShellOrdering
+To elucidate the origin of the high static activity score of the best composition identified by PHYSBO,
+Pd Pt Rh ,wevisualizedthespatialdistributionofthelocalactivityscoresontheclustersurfaceusinganatomic
+10 58 17
+configurationsampledbyMC.Figure2showsthisdistribution.Thelargespheresrepresentthemetalatoms(beige:Pt
+anddarkblue:Pd),whilethesmallspheresabovethesurfaceindicatetheadsorptionsites,includingon-top,bridge,
+and hollow sites. Rh atoms are located primarily in the cluster interior and are therefore not visible in this surface
+representation.Thesitecolorsrepresentthelocalactivityscores,withredindicatinghighervalues.
+Figure2:SpatialdistributionofHERactivesitesontheoptimizedPd Pt Rh cluster.Thelargespheresrepresentmetal
+10 58 17
+atoms(beige:Pt,darkblue:Pd),andthesmallspheresindicatethehydrogenadsorptionsites(Rhatomsarelocatedinside
+the cluster). The color of the sites corresponds to the local activity score, with red indicating high activity.
+Analysis of the MC-sampled atomic configurations revealed a tendency toward Rh-core/Pt-shell-like ordering
+ratherthanahomogeneouselementaldistribution,withPtatomsformingmostofthesurfaceshellandPdpreferentially
+occupyingsitesnearthevertices.Rhatomswerelocatedprimarilyintheclusterinterior,whilePtandPdweremore
+prevalentatthesurface.
+The surface Pt sites in this Rh-core/Pt-shell-like configuration include sites with high local activity scores,
+indicatingthatPtatthesurfaceofanRh-richnanoparticlecanprovidefavorablehydrogenadsorptionenvironments
+according to the present static activity metric. A related motif was reported by Guo et al.[24], who synthesized
+Rh@Ptcore-shellnanoparticlesandattributedtheirenhancedHERactivityrelativetopurePttochangesinhydrogen
+adsorptiononthePtshellinducedbycompressivestrainfromtheRhcore.Thisexperimentalresultisconsistentwith
+the high activity associated with Pt over an Rh-rich interior in our model, although the present calculations do not
+isolateorquantifyastraincontribution.
+DynamickMCEvaluationResults
+Tocapturetheroleofsurfacediffusioninactivity,weemployedkineticMonteCarlo(kMC)simulationsinwhich
+single hydrogen atoms undergo three elementary processes on the nanoparticle surface: (i) Volmer adsorption, (ii)
+surface diffusion between neighboring sites, and (iii) Heyrovsky desorption as H . For each thermodynamically
+2
+sampled atomic configuration, the H production rate was calculated as 𝑟 = 𝑁 ∕𝑡 . The dynamic activity
+2 H total
+2
+score 𝐴 is the natural logarithm of the configurationally averaged rate (see Methods for full details); therefore,
+kMC
+a larger (less negative) value indicates a higher predicted production rate. Using 𝐴 as the objective function,
+kMC
+the compositional space was explored using PHYSBO over 200 iterations. The optimization identified high-activity
+compositions from the early stages of the search, with Au Co Cu Pd exhibiting the highest 𝐴 among the
+33 20 6 26 kMC
+evaluatedcompositions.WhereasstaticscreeningbasedonadsorptionenergiesfavoredPt-orRh-richcompositions
+containing relatively few elements, the kMC-based evaluation favored multielement compositions with chemically
+diverse local environments. Table 2 lists the five compositions with the highest 𝐴 values identified during the
+kMC
+optimization.
+To investigate the origin of the high dynamic activity of Au Co Cu Pd , we first analyzed the spatial distri-
+33 20 6 26
+butionsofadsorptionanddesorptioneventsonthenanoparticlesurface.AsshowninFigure3,hydrogenadsorption
+: PreprintsubmittedtoElsevier Page 4 of 14
+
+Table 2
+Five compositions with the highest kMC activity scores, 𝐴
+kMC
+=ln(⟨𝑟⟩), identified by the kMC-based optimization.
+Composition 𝐴
+kMC
+Au Co Cu Pd -18.723
+33 20 6 26
+Au Co Pd -18.757
+30 21 34
+Ag Au Co Cu Pd -18.781
+1 31 18 7 28
+Au Co Cu Pd -18.864
+33 15 12 25
+Au Co Pd -18.885
+33 16 36
+eventsoccurredpredominantlyathollowsitessurroundedbystronghydrogen-bindingelements,particularlyPdand
+Co.Incontrast,H -formationanddesorptioneventsoccurredfrequentlyatmoreweaklybindingsites,includingAu-
+2
+containingsitesandAu-Pdinterfacialenvironments.Thesespatiallydistincteventdistributionsareconsistentwitha
+cooperative pathway in which hydrogen adsorbs at strong-binding sites, migrates across the surface, and undergoes
+Heyrovskydesorptionatweaker-bindingsites.
+Figure 3: Spatial distributions of kMC event frequencies on the Au Co Cu Pd nanoparticle surface. (a) Hydrogen
+33 20 6 26
+adsorptionfrequency.(b)H -formationanddesorptionfrequency.ThemetalatomsarerepresentedbyAuinyellow,Pdin
+2
+blue, Cu in brown, and Co in pink. Darker red adsorption-site markers indicate higher event frequencies. Sites with zero
+recorded events are not shown.
+Theevent-frequencymapsidentifyspatialspecializationofthesurfacesites,buttheydonotshowhowthebinding
+environment evolves within individual reaction cycles or whether the same behavior persists across an ensemble
+of trajectories. To address these questions, the kMC procedure used to evaluate 𝐴 was extended to record the
+kMC
+adsorption free energies of the sites sampled during each completed H -production cycle, from the initial Volmer
+2
+adsorptioneventthroughsurfacediffusiontothefinalHeyrovskyevent.ThesiteenergieswereevaluatedasΔ𝐺 =
+H∗
+Δ𝐸 +0.24eV.Wecomparedsixcompositionsselectedtofacilitatecomparisonofthetwooptimizationoutcomes
+H
+andtoprovidereferencesfortheelementalmotifspresentinthekMC-selectedcomposition.Au Co Cu Pd isthe
+33 20 6 26
+kMCoptimum,Pd Pt Rh isthestatic-screeningoptimum,andPt servesasamonometallicreference.Thebinary
+10 58 17 85
+controls Au Pd and Co Pd probe Au/Pd and Co/Pd surface environments, respectively, while Au Co Pd
+43 42 43 42 28 28 29
+representsasimplifiedternarymotifcontainingAu,Co,andPd.Theresultingcycle-levelrecordsprovidethecommon
+basisforFigures4–6.ThekMCactivityscoresforthecomparisoncompositionsaresummarizedinTable3usingthe
+same𝐴 definitionasintheBayesianoptimization;thescoreforthekMCoptimumislistedinTable2.
+kMC
+Figure 4 compares the ensemble path-energy profiles for these six compositions. Because the cycles contain
+differentnumbersofsampledsites,eachrecordedenergysequencewaslinearlyinterpolatedontoanormalizedpath-
+progresscoordinatefrom0(initialadsorptionsite)to1(finaldesorptionevent).Thiscoordinatedescribestheorderof
+sitessampledalongacycleanddoesnotrepresentelapsedtimeorphysicaldistance.Ineachpanel,thethinlinesshow
+arandomlyselectedsubsetofindividualH -productioncycles,andthethicklineandshadedregionssummarizethe
+2
+fullcycleensembleusingthemedianandpercentileranges.ForthekMCoptimum,thepointwisemedianchangesfrom
+: PreprintsubmittedtoElsevier Page 5 of 14
+
+Table 3
+kMC activity scores for the comparison compositions used in the path-energy analysis. The values are reported using the
+same 𝐴
+kMC
+=ln(⟨𝑟⟩) definition as in the kMC-based Bayesian optimization.
+Composition 𝐴
+kMC
+Pd Pt Rh -21.049
+10 58 17
+Pt -20.575
+85
+Au Pd -21.852
+43 42
+Co Pd -20.746
+43 42
+Au Co Pd -19.952
+28 28 29
+−0.065eVattheinitialadsorptionsiteto0.110eVattheactualdesorptionsite.Despitelocalfluctuations,itshowsan
+overallshifttowardweakerHbindingandcrossesΔ𝐺 = 0atapproximatelyonethirdofthenormalizedpath.The
+H∗
+broadpercentilerangesshowthatindividualcyclessamplediverseenergysequencesaroundthiscentraltrend.
+The static-screening optimum and pure Pt begin at stronger-binding median energies of −0.162 and −0.123 eV,
+respectively,andapproachthethermoneutralregiontowarddesorption,withcomparativelynarrowpercentileranges.
+Co Pd shows a smaller change, from −0.113 to −0.035 eV, and its median remains on the stronger-binding side
+43 42
+throughoutthepath.Au Co Pd insteadshowsabroaderdistributionandanupwardmediantrendfrom−0.088to
+28 28 29
+0.081eV,resemblingtheprogressionobservedforthekMCoptimum.
+ForAu Pd ,themedianrisesfrom−0.196eVatadsorptionto0.009eVatdesorption,whiletheshadedregions
+43 42
+remain broadly extended toward negative Δ𝐺 . At the desorption endpoint, the lower quartile is −0.164 eV, and
+H∗
+approximatelyhalfofthecyclesterminateatnegativeenergies.
+0.8
+0.6
+0.4
+0.2
+0.0
+−0.2
+)Ve(
+*H
+GΔ
+Au33Co20Cu6Pd26 Pd10Pt58Rh17 Pt85
+0.8
+0.6
+0.4
+0.2
+0.0
+−0.2
+0.0 0.2 0.4 0.6 0.8 1.0
+Normalized path progress
+)Ve(
+*H
+GΔ
+Au43Pd42 Co43Pd42 Au28Co28Pd29
+0.0 0.2 0.4 0.6 0.8 1.0 0.0 0.2 0.4 0.6 0.8 1.0
+Normalized path progress Normalized path progress
+Figure 4: Ensemble path-energy profiles for H -production cycles in kMC simulations. For each cycle, the horizontal axis
+2
+givesrelativeprogressthroughtheinitialadsorptionsite,thesitesinfirst-visitorder,andthesiteofthefinalHeyrovskyevent.
+A desorption site visited earlier in the cycle is repeated at the endpoint so that 1 always represents the actual desorption
+event.Sequenceswithdifferentnumbersofsitesarelinearlyinterpolatedontothissharedcoordinate;itdoesnotrepresent
+elapsed time or physical distance. Thin lines indicate a random subset of up to 70 individual cycles per composition. The
+thicklineandshadedregionssummarizeallanalyzedcyclesandindicatethepointwisemedian,25th–75thpercentilerange,
+and10th–90thpercentilerange,respectively.TheplottedfreeenergyisevaluatedasΔ𝐺 =Δ𝐸 +0.24eV.Thehorizontal
+H∗ H
+line at 0 eV marks thermoneutral H adsorption.
+: PreprintsubmittedtoElsevier Page 6 of 14
+
+Figure5comparestheadsorption-anddesorption-sitefree-energydistributionsacrossthesixcompositions.For
+thekMCoptimum,adsorptionenergiesareconcentratedonthenegative-Δ𝐺 side,whereasdesorptionenergiesare
+H∗
+shiftedtowardweakerbindingandspanawiderrange.Thecontrolsshowdistinctendpointdistributions:Pd Pt Rh
+10 58 17
+and Pt have desorption energies concentrated near the thermoneutral region, Co Pd has a negative median
+85 43 42
+desorptionenergy,andAu Pd retainssubstantialweightatnegativeenergies.
+43 42
+Figure 5: Adsorption and desorption free-energy distributions obtained from the kMC trajectory ensembles for the six
+selected compositions. For each completed H -production cycle, the initial Volmer adsorption site and final Heyrovsky
+2
+desorption site were identified, and their Δ𝐺 values were compared. The violin width represents the probability density,
+H∗
+whilethewhitecirclesandblacklinesindicatethemedianandinterquartilerange,respectively.Thedisplacementbetween
+the paired distributions visualizes the extent to which adsorption and H desorption sample energetically distinct surface
+2
+environments under the present single-adsorbate model.
+The cycle-wise adsorption-to-desorption shifts in Figure 6 combine the two endpoint energies for each cycle.
+Au Co Cu Pd hasthebroadestshiftdistributionintheanalyzedensembles,asmeasuredbyboththeinterquartile
+33 20 6 26
+rangeandthe10th–90thpercentilerange.Itsestimateddensityextendsrelativelysmoothlyoverawideenergyinterval
+withoutadominantnarrowpeak,whereasseveralcontrolsshowstrongerconcentrationsatparticularshiftvalues.
+0.8
+0.6
+0.4
+0.2
+0.0
+Pd26 Rh17 Pt85 Pd42 Pd42 Pd29
+Au33
+Co20
+Cu6
+Pd10
+Pt58 Au43 Co43
+Au28
+Co28
+)Ve(
+GΔ−
+GΔ
+sda
+sed
+Figure 6: Cycle-wise free-energy shifts extracted from the same kMC trajectory ensembles as in Figure 5. The plotted
+quantityisthedifferencebetweenthefinalHeyrovskydesorptionsiteandtheinitialVolmeradsorptionsite,Δ𝐺 −Δ𝐺 ,
+des ads
+for each completed H -production cycle. The violin width represents the probability density, while the white circles and
+2
+black lines indicate the median and interquartile range, respectively. Positive values indicate that desorption occurs at a
+weaker-binding site than the site where hydrogen initially adsorbed.
+: PreprintsubmittedtoElsevier Page 7 of 14
+
+Discussion
+Staticscreening,whichaveragessite-specificscoresbasedonproximitytoanoptimalhydrogenadsorptionenergy,
+selectedPt-richcandidatessuchasPd Pt Rh .Thesite-levelanalysisfurthershowedRh-core/Pt-shell-likeordering
+10 58 17
+inthethermodynamicallysampledstructures,withhighlocalactivityscoresatsurfacePtsites.Together,theseresults
+indicatethatthestaticobjectivefavorsPt-richsurfaceswithlocallyfavorablehydrogenadsorptionenvironments.
+This preference for compositions containing relatively few principal elements is consistent with previous
+adsorption-energy-basedscreeningstudies.Pedersenetal.[13],forexample,identifiedbinaryAg–PdandIr–Ptsystems
+inafive-elementORRsearch,whileXuetal.[15]reportedasimilartendencyforadsorption-energy-basedobjectives.
+By comparison, the kMC objective, which incorporates adsorption, diffusion, and Heyrovsky desorption rates
+alongsimulatedtrajectories,rankedAu Co Cu Pd highestamongtheevaluatedcandidates.ThekMCtrajectory
+33 20 6 26
+analysissupportsmultisitebehaviorinthiscomposition.Event-frequencymapsshowthathydrogenadsorptionoccurs
+predominantlyat Co/Pd-richhollow sites,while Heyrovskyevents occurfrequentlyat Au-containingenvironments.
+Thecycle-resolvedprofilesshowanoverallprogressionfromstronger-toweaker-bindingenvironmentsthroughsites
+withintermediateadsorptionenergies.ThekMCoptimumalsoexhibitsthebroadest,relativelysmoothcycle-wisefree-
+energy-shiftdistributionamongthesixcompositions,consistentwithcyclesconnectingadiverserangeofadsorption
+and desorption environments. The broad adsorption-to-desorption energy shift is not, by itself, a predictor of high
+activity; efficient kinetics also requires that these environments be connected through accessible diffusion pathways
+withfavorableelementary-steprates.Thecontrastwithstaticscreeningisconsistentwiththeinclusionofthekinetics
+ofthesemodeledprocessesratherthansite-specificadsorptionenergeticsalone.
+ThedivisionofrolesamongchemicallydistinctsurfaceenvironmentsobservedinthesekMCpathwaysisconsistent
+withmechanismsproposedforothercompositionallycomplexHERcatalysts.Chenetal.[21]describedstrong-binding
+sitesthatsupplyadsorbedhydrogen,intermediatesitesthatmediateitsdiffusion,andweaker-bindingsitesthatfacilitate
+hydrogen formation and desorption on PtFeCoNiCu. He et al.[25] studied a non-noble FeCoNiWMo high-entropy
+alloywitharhomboidalstructureandrandomatomicoccupancy.Theyproposedthattherandomoccupancygivesrise
+to a “self-circulating adsorption-desorption structure” and rapid internal electron transport, which together promote
+water-splitting activity. These studies support the broader interpretation that chemical heterogeneity can coordinate
+distinctreactionstepsacrossmultiplesurfaceenvironments.
+Thepresentframeworkhasseverallimitations,includingitssingle-adsorbatedescription,theexclusionofcoverage-
+dependentadsorbateinteractionsandtheTafelpathway,andtheextrapolationofPt-derivedBrønsted-Evans-Polanyi
+parameterstomultielementsurfaceenvironments.Becauseeachadsorptioneventbeginsfromanunoccupiedsurface,
+the model repeatedly samples Volmer adsorption from the same type of initial state, which may underestimate the
+diversity of adsorption environments at finite hydrogen coverage. This protocol may also contribute to the wider
+desorption-energy distribution, since the desorption site is selected after a variable diffusion history. Future studies
+shouldderiveelement-andenvironment-dependentkineticparametersfromfirst-principlescalculationsandexamine
+theeffectsofhydrogencoverageandcompetingreactionpathways.Theseextensionswouldhelpestablishhowmultisite
+transportcontributestocatalyticactivityundermorerealisticreactionconditions.
+Methods
+Machine-LearningModelsforEnergyPrediction
+To accelerate the large number of energy evaluations required to explore the compositional space of HEA nan-
+oclusters,weemployedaML-basedsurrogatemodel.Themodelarchitecture,trainingprocedures,andcomprehensive
+performanceevaluationshavebeenreportedinourpreviouswork[26].Here,wesummarizethefeaturesandpredictive
+performancemostrelevanttothepresentstudy.
+The surrogate model is based on the Bond-type Embedded Orbital Graph Convolutional Neural Network (BE-
+OGCNN) architecture. A key feature of this architecture is its distance-insensitive representation, which enables
+efficient screening without requiring fully relaxed geometries for every candidate structure. Rather than using
+explicit interatomic-distance or bond-angle descriptors, BE-OGCNN represents each structure through its nearest-
+neighborconnectivitygraphandorbital-interactionfeatures.Thisrepresentationcaptureschemicallyrelevantbonding
+informationfromtheelementalidentitiesandlocalconnectivityoftheconstituentatoms.
+Toimprovedataefficiencyandgeneralization,themodelsweretrainedusingahard-parameter-sharingmulti-task
+learning(MTL)framework.Theprimarytaskwasthepredictionofhydrogenadsorptionenergies(Δ𝐸 )atnanocluster
+𝐻
+: PreprintsubmittedtoElsevier Page 8 of 14
+
+surface sites. Two auxiliary tasks were simultaneously learned using an extensive dataset of bulk transition-metal
+systems:predictionofthesite-resolvedd-bandcenter(𝜖 )andtotalenergy(𝐸 ).Jointlearningofthesephysically
+𝑑 Total
+related properties was designed to provide shared representation of the local electronic environments relevant to
+hydrogenadsorptionandtherelativeenergeticstabilityoftheunderlyingatomicconfigurations.
+ThetrainedMTLmodelswerevalidatedusing85-atomnanoclusterswithternarycompositionsthatwereexcluded
+fromthetrainingdata.Thetrainingdatacontained19-and44-atomclustersandpubliclyavailableslabdatasets.As
+detailedintheSupportingInformation,thehydrogen-adsorption-energymodelachievedameanabsoluteerror(MAE)
+of0.105eVforthe85-atomtestclusters(FigureS1),whilethetotalenergymodelachievedaroot-mean-squareerror
+(RMSE)of48.173meV/atom(FigureS2).Thesemodelsweresubsequentlyusedfortheenergyevaluationsrequired
+inthecomposition-optimizationframework.
+StructuralModelandThermodynamicSamplingofAtomicConfigurations
+Asthetargetforcompositionoptimization,weadoptedafive-layer,face-centeredcubic(FCC)octahedralcluster
+consistingof85atomsandhavingageometricdiameterofapproximately1.7nm. Theclusterisenclosedbyclose-
+packed (111) facets, which are relevant to catalytic applications[27]. Although truncated-octahedral morphologies
+are generally favored for larger FCC nanoparticles, density functional theory (DFT) calculations for single-element
+clustersshowedthatregularandtruncatedoctahedralstructuresareenergeticallycomparableatthefour-layer(44-atom)
+and five-layer (85-atom) sizes, with no consistent preference for either morphology across the elements considered
+(SupportingInformation,SectionS4).Theregularoctahedralclusterthereforeprovidesareasonablestructuralmodel
+forthepresentstudy.
+Thisclustersizewasselectedbasedonbothcomputationalfeasibilityandexperimentalrelevance.Fengetal.[10]
+synthesizedHEAnanoparticleswithanaveragediameterof1.68nm,correspondingapproximatelytoanedgelength
+of four to five atomic layers, and reported high HER activity and stable performance over 10,000 cycles. These
+observationssupporttheuseofthe85-atomclusterasarepresentativemodelofultrasmallHEAnanoparticles.
+Nine transition-metal elements were selected as candidate constituents: Ag, Au, Co, Cu, Ni, Ir, Pd, Pt, and Rh.
+Thisnine-elementchemicalspacewasexploredtoidentifyactiveHERcompositionswhileaccountingforinteractions
+amongtheconstituentelements.
+In HEA nanoparticles of this size, differences in elemental interactions can give rise to surface segregation,
+chemical ordering, and elemental clustering. These effects can alter the surface composition and local atomic
+environmentsrelevanttocatalyticactivity.Wethereforesampledthermodynamicallyaccessibleatomicconfigurations
+ratherthanassumingarandomsolidsolutionforeachcomposition.
+MCsimulationswereperformedtosampleatomicconfigurationsofthe85-atomclusterateachfixedcomposition.
+AteachMCstep,twoatomsofdifferentspecieswereselectedrandomly,andtheirpositionswereexchanged.Thetrial
+configurationwasacceptedaccordingtotheMetropoliscriterion:
+( ( ))
+Δ𝐸
+𝑃 =min 1,exp − (1)
+𝑘 𝑇
+𝐵
+where
+Δ𝐸 =𝐸 −𝐸 , (2)
+trial current
+𝐸 and𝐸 aretheBE-OGCNN-predictedtotalenergiesofthetrialandcurrentconfigurations,respectively,𝑘
+trial current 𝐵
+istheBoltzmannconstant,and𝑇 isthesamplingtemperature.
+Based on the previous study by Huang et al.[28], the sampling temperature was set to 900 K. This temperature
+is representative of annealing conditions used in the synthesis of HEA nanoparticles and was selected to sample
+elementaldistributionsrelevanttothermallyprocessednanoparticles.Samplingat900Kalsofacilitatesconfigurational
+explorationbyincreasingtheacceptanceprobabilityofenergeticallyunfavorabletrialswapscomparedwithsampling
+atroomtemperature.
+Foreachcomposition,6,000MCstepswereperformedtobalancecomputationalcostandconfigurationalsampling.
+Thefirst5,000stepswereexcludedasanequilibrationperiod,andtheconfigurationsgeneratedduringthefinal1,000
+stepswereusedforthesubsequentpropertyevaluations.
+: PreprintsubmittedtoElsevier Page 9 of 14
+
+StaticHERActivityMetric
+Using the thermodynamically accessible atomic configurations generated by the MC sampling described above,
+wedefinedastaticactivitymetricforcompositionscreeningandexamineditsconsistencywiththeestablishedHER
+activitytrendofpuremetals.
+Becausenanoclustersurfacescontainadsorptionsiteswithdiverselocalelementalandgeometricenvironments,
+includingterraces,edges,andcorners,theiractivitycannotbeadequatelyrepresentedbyasingleatomicconfiguration
+oradsorptionsite.Wethereforeevaluatedeachcompositionbyaveragingsite-specificactivityscoresoverthesampled
+atomicconfigurationsandadsorptionsites,asdescribedbelow.
+1. Configurational Sampling: For each composition, 1,000 atomic configurations were sampled from the
+equilibratedfinalportionoftheMCtrajectoryat900Kandusedforactivityevaluation.
+2. AdsorptionEnergyCalculation:Foreachsampledatomicconfiguration,allidentifiedsurfaceadsorptionsites,
+includingon-top,hollow,andbridgesites,wereconsidered,andthehydrogenadsorptionenergyΔ𝐸 ateach
+H,𝑖
+site𝑖waspredictedusingtheBE-OGCNNmodel.
+3. Site-Specific Activity Calculation: Based on the Sabatier principle, optimal HER activity is expected when
+hydrogenbindsneithertoostronglynortooweakly.FollowingtheactivitymodelproposedbyPedersenetal.[13],
+thelocalactivityscore𝑎 ateachadsorptionsite𝑖wasdefinedas
+𝑖
+( |Δ𝐸
+H,𝑖
+−Δ𝐸
+opt|
+)
+𝑎 =exp − (3)
+𝑖 𝑘 𝑇
+𝐵
+where Δ𝐸 is the optimal adsorption energy for HER activity, 𝑘 is the Boltzmann constant, and 𝑇 is the
+opt 𝐵
+reactiontemperature.Inthisstudy,Δ𝐸 and𝑇 weresetto−0.27eVand298K,respectively.Withthe+0.24eV
+opt
+free-energycorrectionusedbelow,thisadsorption-energyoptimumcorrespondstoΔ𝐺 ≈−0.03eV.Thevalue
+H∗
+ofΔ𝐸 wasdeterminedusingthethermodynamiccorrectionsdescribedinRef.[29].
+opt
+4. Overall Activity Calculation: The overall static activity metric 𝐴 for each composition was defined as the
+averageofthelocalactivityscoresoveralladsorptionsitesandsampledatomicconfigurations:
+𝑁
+1 ∑total
+𝐴= 𝑎 (4)
+𝑁 𝑖
+total 𝑖=1
+where𝑁 isthetotalnumberofadsorptionsitesevaluatedacrossallsampledatomicconfigurations.
+total
+Toassesswhethertheactivitymetric𝐴reproducesestablishedelementaltrends,weevaluated85-atomclustersof
+eachofthenineconstituentmetals.AsdetailedinSupportingInformationSectionS5,thepredictedactivitytrendwas
+inqualitativeagreementwiththeexperimentallyestablishedHERvolcanorelationship[30].Thisagreementsupports
+theuseof𝐴asarelativescreeningmetricforcomparingthemodelednanoclustercompositions.
+OptimizationAlgorithms
+Toefficientlyexplorethelargecompositionalspace,wecomparedtwooptimizationapproachesimplementedusing
+PHYSBOandOptuna.
+PHYSBO(candidate-basedBayesianoptimization):PHYSBO[22]isaPythonlibraryforBayesianoptimization
+thatsequentiallyselectscandidatesfromapredefinedpoolaccordingtoanacquisitionfunction.Weconstructedapool
+of500,000uniquecompositions,eachcontainingexactly85atoms,usingarandomizedprocedure.First,theinclusion
+ofeachofthenineelementswasdeterminedusingabinaryflag.Foreachincludedelement,anintegerweightbetween
+1and85wasthensampledfromauniformdistribution.Thesampledweightswerenormalizedandconvertedtointeger
+atomcountswhosesumwasconstrainedto85,withtheresidualarisingfromroundingassignedtooneoftheincluded
+elements. Pure-metal compositions and duplicate candidates were removed, ensuring that each candidate contained
+at least two elements. This randomized procedure generated candidates with varying numbers and proportions of
+constituentelementswithoutrestrictingthecompositionstoapredefinedcoarsegrid,suchas10at.%intervals.
+Optuna(Tree-structuredParzenEstimator,TPE):Optuna[23]isanoptimizationframeworkthatimplements
+theTPEalgorithmandcanhandlemixedandconditionalsearchspaces.Foreachofthenineelements,weintroduced(i)
+abinarycategoricalvariableindicatingwhethertheelementwasincludedand(ii)acontinuousvariablerepresentingits
+relativeamount.Optunathereforeexploredatotalof18variables,comprisingninebinaryinclusionvariablesandnine
+continuouscompositionvariables.Thecontinuousamountsoftheincludedelementswerenormalizedandconverted
+tointegeratomcountsundertheconstraintthatthetotalnumberofatomswas85.
+: PreprintsubmittedtoElsevier Page 10 of 14
+
+DynamicActivityEvaluationviaKineticMonteCarlo
+To evaluate the catalytic activity of HEA catalysts under dynamic conditions, including the surface diffusion of
+adsorbates,akMCsimulationmodelwasdevelopedbasedontheframeworkreportedbyGuetal.[31].
+SimulationModelandElementaryProcesses
+Because the ML model was developed to predict the adsorption energies of a single hydrogen adsorbate on
+the nanocluster surface, coverage-dependent adsorbate–adsorbate interactions cannot be directly evaluated within
+this framework. Therefore, assuming a low-overpotential and low-hydrogen-coverage regime, the simulation tracks
+the dynamic behavior of a single hydrogen atom through three elementary processes and explicitly excludes the
+bimolecularTafelrecombinationmechanism(2H →H ):
+ad 2
+1. Adsorption (Volmer process): A proton and an electron from the environment react to form an adsorbed
+hydrogenatom:H++e− →H .AdsorptionateachavailablesurfacesiteistreatedasapossiblekMCevent.
+ad
+2. Surfacediffusion:Theadsorbedhydrogenatomhopstoanadjacentadsorptionsiteonthesurface.
+3. Desorption(Heyrovskyprocess):Theadsorbedhydrogenatomreactswithanotherprotonandanelectronto
+desorbasahydrogenmolecule:H +H++e− →H .
+ad 2
+The kMC simulation progresses by probabilistically selecting an event from those available in the current state
+accordingtotheirrespectiverateconstants.Volmeradsorptioneventsareconsideredwhenthesurfaceisunoccupied,
+whereas diffusion and Heyrovsky desorption events compete after hydrogen adsorption. In this study, each kMC
+trajectoryconsistedof40,000eventtransitions.
+ReactionRateConstantsandActivityMetric
+TherateconstantsfortheelementaryeventsinthekMCsimulationswerecalculatedusingthefollowingtransition-
+state-theoryexpression:
+( )
+𝑘 𝑇 Δ𝐺
+𝑘= 𝐵 exp − act , (5)
+ℎ 𝑘 𝑇
+𝐵
+whereℎisPlanck’sconstantandΔ𝐺 istheactivationfreeenergy.
+act
+TheactivationfreeenergyforeachprocesswasestimatedusingBrønsted-Evans-Polanyi(BEP)relations[32,33]
+basedonthelocalhydrogenadsorptionfreeenergies:
+Δ𝐺 =Δ𝐺† +𝛽 Δ𝐺 , (6)
+act,Vol 0,Vol Vol H∗
+Δ𝐺 =Δ𝐺† +𝛽 Δ𝐺 −𝛽 Δ𝐺 , (7)
+act,diff 0,diff diff,1 H∗,final diff,2 H∗,initial
+Δ𝐺 =Δ𝐺† +𝛽 (−Δ𝐺 ). (8)
+act,Hey 0,Hey Hey H∗
+Here, Δ𝐺† represents the intrinsic activation barrier at the equilibrium potential, and 𝛽 is the corresponding
+0
+BEPcoefficient.Thehydrogenadsorptionfreeenergyatagivensite,Δ𝐺 ,wascalculatedfromtheML-predicted
+H∗
+adsorptionenergy,Δ𝐸 ,asΔ𝐺 =Δ𝐸 +0.24eV,wherethecorrectionaccountsforzero-point-energyandentropic
+H H∗ H
+contributions,followingNørskovetal.[30].
+The BEP parameters, Δ𝐺† and 𝛽, were adopted from the computational study by Gu et al.[31]. Although these
+0
+BEPparameterswereoriginallyderivedforpurePtsurfaces,weextrapolatedthemtoestimatetransitionbarriersand
+thecorrespondingtransitionratesacrossthechemicallydiverselocalenvironmentsofmulticomponentalloysurfaces.
+ThisapplicationextendsbeyondthechemicaldomainforwhichtheBEPparameterswereoriginallyestablishedand
+therefore represents an approximation of the present methodology. Pure-metal nanoclusters were used to check the
+qualitativeactivitytrendsoftheresultingmodel,asdescribedbelowandintheSupportingInformation(SectionS8).
+Insuchsurfacereactions,aseveretime-scaledisparitycanarisebecausediffusionbarriersarelowerthandesorption
+barriers.Toreducethecomputationalcostoffrequentdiffusionevents,adynamicrateconstantrescalingmethod[34]
+wasapplied.ThedetailedmethodologyandscalingalgorithmareprovidedintheSupportingInformation(SectionS7).
+Therescalingusesatargetdiffusion-to-desorptioneventratioof𝑁 = 30,withtheaimofretainingfastdiffusion
+min
+relativetodesorption.Thistargetisanalgorithmiccontrolparameterratherthanaguaranteedminimumforeverycycle.
+Providedthatrescaleddiffusionremainsmuchfasterthandesorption(𝑘′ ≫𝑘 ),therescalingisexpectedtohave
+diff des
+: PreprintsubmittedtoElsevier Page 11 of 14
+
+only a limited effect on the computed H production rate. Before applying this kMC framework to multicomponent
+2
+compositions,weevaluated85-atompure-metalnanoclusters.AsdiscussedintheSupportingInformation(SectionS8),
+theresultingactivitytrendwasqualitativelyconsistentwiththeexperimentallyestablishedHERvolcanorelationship
+across transition metals[30]. This comparison supports the use of the model for exploratory screening, but does not
+independentlyvalidateeitherthetransferabilityofthePt-derivedBEPparametersortheaccuracyoftherate-rescaling
+approximationonmulticomponentsurfaces.
+Foreachsampledatomicconfiguration𝑗,theH productionratewascalculatedas
+2
+𝑁
+H ,𝑗
+𝑟 = 2 . (9)
+𝑗 𝑡
+total,𝑗
+Here,𝑁 isthenumberofH moleculesproducedforconfiguration𝑗,and𝑡 isthetotalelapsedkMCsimulation
+H ,𝑗 2 total,𝑗
+2
+timeforthatconfiguration.
+ToaccountforthediversityofatomicconfigurationsinHEAnanoparticles,thecomposition-levelproductionrate
+wascalculatedasthearithmeticmeanof𝑟 overthe1,000configurationssampledbyMCat900K:
+𝑗
+𝑁
+1 ∑conf
+⟨ 𝑟 ⟩= 𝑁 𝑟 𝑗 . (10)
+conf 𝑗=1
+Becausetheratesspanmanyordersofmagnitude,thedynamicactivityscoreusedforcompositionoptimizationwas
+definedasthenaturallogarithmofthisconfigurationallyaveragedrate:
+[ 𝑁 ]
+1 ∑conf
+𝐴
+kMC
+=ln(⟨ 𝑟 ⟩)=ln
+𝑁
+𝑟
+𝑗
+, (11)
+conf 𝑗=1
+where𝑁 =1000.Repeatedconfigurationswereevaluatedonceandweightedbytheiroccurrencecounts,whichis
+conf
+algebraicallyequivalenttocalculatingthearithmeticmeanoverthesampledconfigurationsequence.
+Forthemechanisticpath-energyanalysis,eachcompletedH -productioncyclewasdecomposedintothesequence
+2
+of adsorption sites visited by the hydrogen atom from the initial Volmer adsorption event to the final Heyrovsky
+desorptionevent.Consecutiverevisitswereomitted,andthesitesvisitedforthefirsttimewereretainedinchronological
+order.Theactualdesorptionsitewasthenplacedattheendofthesequence;whenthatsitehadbeenvisitedearlier,
+it therefore appeared once in its first-visit position and again as the terminal reaction site. The resulting sequence
+was assigned equally spaced coordinates from 0 at the initial adsorption site to 1 at the final desorption event. The
+site energies were linearly interpolated onto 101 equally spaced points along this normalized coordinate, allowing
+ensembleprofileswithdifferentnumbersofsitestobecomparedonacommonaxis.Thecoordinatedescribesrelative
+progressthroughthesitesequenceanddoesnotencodeelapsedtime,hoprate,orphysicaltraveldistance.Pointwise
+ensemblemediansand10th–90thand25th–75thpercentilerangeswerecalculatedoverallanalyzedcycles.Foreach
+cycle,theadsorption-to-desorptionfree-energyshiftwascalculatedasΔ𝐺 −Δ𝐺 ,usingthefreeenergiesatthe
+des ads
+initial adsorption and final desorption sites, respectively. Adsorption energies, desorption energies, and cycle-wise
+shiftswerevisualizedusingviolinplots,withthemedianandinterquartilerangeshownexplicitly.
+UseofGenerativeAI
+Duringthepreparationandrevisionofthismanuscript,theauthorsusedChatGPTandCodex(OpenAI)toassist
+withlanguageediting,manuscriptorganization,codereview,andthepreparationofanalysisandvisualizationscripts.
+AllAI-assistedoutputswerecriticallyreviewedand,wherenecessary,modifiedbytheauthors.Theauthorsverified
+theanalyses,numericalresults,references,andfinalmanuscriptandtakefullresponsibilityforthepublishedcontent.
+Acknowledgements
+ThisworkwassupportedbytheJapanScienceandTechnologyAgency(JST)aspartofSICORP(GrantNumber
+JPMJSC21E2),andbytheJapanSocietyforthePromotionofScience(JSPS)KAKENHI(GrantNumber24K01284).
+Part of the calculations were performed using the supercomputers at the Information Technology Center and the
+InstituteforSolidStatePhysics(ISSP),theUniversityofTokyo.
+: PreprintsubmittedtoElsevier Page 12 of 14
+
+CompetingInterests
+Theauthorsreporttherearenocompetingintereststodeclare.
+Authorcontributions
+KokiOtsuka:Conceptualization,Methodology,Software,Investigation,Formalanalysis,Writing-originaldraft.
+KojiShimizu:Investigation,Datacuration.AnhKhoaAugustinLu:Writing-reviewandediting.SatoshiWatanabe:
+Writing-reviewandediting,Supervision.
+Dataavailability
+Thecode,includingthecustomkineticMonteCarloandthermodynamicsamplingscripts,andtheoptimization
+frameworksusedinthisstudyareopenlyavailableonGitHubathttps://github.com/modelna/NanoAlloy-Opt.
+git.
+References
+[1] D.B.Miracle,O.N.Senkov,Acriticalreviewofhighentropyalloysandrelatedconcepts,ActaMaterialia122(2017)448–511. doi:
+10.1016/j.actamat.2016.08.081.
+[2] E. P. George, D. Raabe, R. O. Ritchie, High-entropy alloys, Nature Reviews Materials 4 (8) (2019) 515–534. doi:10.1038/
+s41578-019-0121-4.
+[3] T.A.A.Batchelor,J.K.Pedersen,S.H.Winther,I.E.Castelli,K.W.Jacobsen,J.Rossmeisl,High-entropyalloysasadiscoveryplatformfor
+electrocatalysis,Joule3(3)(2019)834–845.doi:10.1016/j.joule.2018.12.015.
+[4] Y. Xin, S. Li, Y. Qian, W. Zhu, H. Yuan, J. Guo, L. Wang, High-entropy alloys as a platform for catalysis: Progress, challenges, and
+opportunities,ACSCatalysis10(19)(2020)11280–11306.doi:10.1021/acscatal.0c03617.
+[5] T.Chen,F.Ning,J.Qi,G.Feng,Y.Wang,J.Song,T.Yang,X.Liu,L.Chen,D.Xia,Ptfeconicuhigh-entropysolidsolutionalloyashighly
+efficientelectrocatalystfortheoxygenreductionreaction,iScience26(1)(2023)105890.doi:10.1016/j.isci.2022.105890.
+[6] J.K.Pedersen,T.A.A.Batchelor,A.Bagger,J.Rossmeisl,High-entropyalloysascatalystsfortheco2andcoreductionreactions,ACS
+Catalysis10(3)(2020)2169–2176.doi:10.1021/acscatal.9b04343.
+[7] S.Nellaiappan,N.K.Katiyar,R.Kumar,A.Parui,K.D.Malviya,K.G.Pradeep,A.K.Singh,High-entropyalloysascatalystsfortheco2
+andcoreductionreactions:Experimentalrealization,ACSCatalysis10(6)(2020)3658–3663.doi:10.1021/acscatal.9b04302.
+[8] J.Mahin,K.Kusada,H.Kitagawa,Ultra-high-entropyalloynanoparticles:beyondfivecomponents,Inorg.Chem.Front.12(2025)4930.
+doi:10.1039/D5QI00884K.
+[9] D.Wu,K.Kusada,T.Yamamoto,T.Toriyama,S.Matsumura,I.Gueye,O.Seo,J.Kim,S.Hiroi,O.Sakata,S.Kawaguchi,Y.Kubota,
+H. Kitagawa, On the electronic structure and hydrogen evolution reaction activity of platinum group metal-based high-entropy-alloy
+nanoparticles,Chem.Sci.11(2020)12731.doi:10.1039/D0SC02351E.
+[10] G.Feng,F.Ning,J.Song,H.Shang,K.Zhang,Z.Ding,P.Gao,W.Chu,D.Xia,Sub-2nmultrasmallhigh-entropyalloynanoparticlesfor
+extremelysuperiorelectrocatalytichydrogenevolution,J.Am.Chem.Soc.143(41)(2021)17117.doi:10.1021/jacs.1c07643.
+[11] L.Sun,K.Wen,G.Li,X.Zhang,X.Zeng,B.Johannessen,S.Zhang,High-entropyalloysincatalysis:Progress,challenges,andprospects,
+ACSMater.Au4(6)(2024)547.doi:10.1021/acsmaterialsau.4c00080.
+[12] Z.Shi,L.Wang,Y.Huang,X.Y.Kong,L.Ye,High-entropycatalysts:newopportunitiestowardexcellentcatalyticactivities,Mater.Chem.
+Front.8(2024)179.doi:10.1039/D3QM00638G.
+[13] J.K.Pedersen,C.M.Clausen,O.A.Krysiak,B.Xiao,T.A.A.Batchelor,T.Löffler,V.A.Mints,L.Banko,M.Arenz,A.Savan,W.Schuhmann,
+A.Ludwig,J.Rossmeisl,Bayesianoptimizationofhigh-entropyalloycompositionsforelectrocatalyticoxygenreduction,Angew.Chem.Int.
+Ed.60(45)(2021)24144.doi:10.1002/anie.202108116.
+[14] T. A. A. Batchelor, T. Löffler, B. Xiao, O. A. Krysiak, V. Strotkötter, J. K. Pedersen, C. M. Clausen, A. Savan, Y. Li, W. Schuhmann,
+J.Rossmeisl,A.Ludwig,Complex-solid-solutionelectrocatalystdiscoverybycomputationalpredictionandhigh-throughputexperimentation,
+AngewandteChemieInternationalEdition60(13)(2021)6932–6937.doi:10.1002/anie.202014374.
+[15] W.Xu,E.Diesen,T.He,K.Reuter,J.T.Margraf,Discoveringhighentropyalloyelectrocatalystsinvastcompositionspaceswithmultiobjective
+optimization,J.Am.Chem.Soc.146(11)(2024)7698.doi:10.1021/jacs.3c14486.
+[16] Q.Wang,Y.Yao,Harnessingmachinelearningforhigh-entropyalloycatalysis:afocusonadsorptionenergyprediction,npjComputational
+Materials11(1)(Apr2025).doi:10.1038/s41524-025-01579-5.
+[17] T.Shiota,K.Ishihara,W.Mizukami,Loweringtheexponentialwall:acceleratinghigh-entropyalloycatalystsscreeningusinglocalsurface
+energydescriptorsfromneuralnetworkpotentials,DigitalDiscovery4(3)(2025)738–751.doi:10.1039/d4dd00303a.
+[18] H.H.Kristoffersen,J.Rossmeisl,Localorderinagaucupdpthigh-entropyalloysurfaces,TheJournalofPhysicalChemistryC126(15)(2022)
+6782–6790.doi:10.1021/acs.jpcc.2c00478.
+[19] Q.Ye,Y.Cheng,L.Cao,Surfacesegregation-drivencomposition–activitymappingofhigh-entropyalloynanoparticlesforoxygenreduction
+reaction,ACSCatalysis16(3)(2026)2149–2159.doi:10.1021/acscatal.5c06492.
+: PreprintsubmittedtoElsevier Page 13 of 14
+
+[20] M.Rittiruam,P.Khamloet,A.Ektarawong,C.Atthapak,T.Saelee,P.Khajondetchairit,B.Alling,S.Praserthdam,P.Praserthdam,Screening
+ofcu-mn-ni-znhigh-entropyalloycatalystsforco2reductionreactionbymachine-learning-accelerateddensityfunctionaltheory,Applied
+SurfaceScience652(2024)159297.doi:10.1016/j.apsusc.2024.159297.
+[21] Z.W.Chen,J.Li,P.Ou,J.E.Huang,Z.Wen,L.Chen,X.Yao,G.Cai,C.C.Yang,C.V.Singh,Q.Jiang,Unusualsabatierprincipleonhigh
+entropyalloycatalystsforhydrogenevolutionreactions,Nat.Commun.15(1)(2024)359.doi:10.1038/s41467-023-44261-4.
+[22] Y.Motoyama,R.Tamura,K.Yoshimi,K.Terayama,T.Ueno,K.Tsuda,Bayesianoptimizationpackage:Physbo,Comput.Phys.Commun.
+278(2022)108405.doi:10.1016/j.cpc.2022.108405.
+[23] T.Akiba,S.Sano,T.Yanase,T.Ohta,M.Koyama,Optuna:Anext-generationhyperparameteroptimizationframework,in:Proceedingsof
+the25thACMSIGKDDInternationalConferenceonKnowledgeDiscovery&DataMining,AssociationforComputingMachinery,2019,p.
+2623.doi:10.1145/3292500.3330701.
+[24] Y.Guo,B.Hou,X.Cui,X.Liu,X.Tong,N.Yang,Ptatomiclayersboostedhydrogenevolutionreactioninnonacidicmedia,Adv.Energy
+Mater.12(43)(2022)2201548.doi:10.1002/aenm.202201548.
+[25] Y.He,X.Zhu,C.Zhang,Z.Liu,B.Cao,L.Sheng,Y.Yang,Q.Feng,N.Wang,J.Z.Ou,Y.Xu,Self-circulatingadsorption–desorption
+structureofnon-noblehigh-entropyalloyelectrocatalystfacilitatesefficientwatersplitting,ACSSustainableChem.Eng.11(13)(2023)5055.
+doi:10.1021/acssuschemeng.2c06888.
+[26] K.Otsuka,A.K.A.Lu,K.Shimizu,S.Watanabe,Distance-insensitivegraphneuralnetworksandmulti-tasklearningforaccurateprediction
+ofadsorptionenergiesonalloynanoclusters,ComputationalMaterialsScience274(2026)114987. doi:10.1016/j.commatsci.2026.
+114987.
+[27] C.Wang,J.Fang,Octahedralnoble-metalnanoparticlesandtheirelectrocatalyticproperties,ChemSusChem6(10)(2013)1848. doi:
+10.1002/cssc.201300418.
+[28] Y.Huang,S.-H.Wang,X.Wang,N.Omidvar,L.E.K.Achenie,S.E.Skrabalak,H.Xin,Unravelingreactivityoriginofoxygenreduction
+at high-entropy alloy electrocatalysts with a computational and data-driven approach, J. Phys. Chem. C 128 (27) (2024) 11183. doi:
+10.1021/acs.jpcc.4c01630.
+[29] K.Tran,Z.W.Ulissi,Activelearningacrossintermetallicstoguidediscoveryofelectrocatalystsforco2reductionandh2evolution,Nat.
+Catal.1(9)(2018)696.doi:10.1038/s41929-018-0142-1.
+[30] J.K.Nørskov,T.Bligaard,A.Logadottir,J.R.Kitchin,J.G.Chen,S.Pandelov,U.Stimming,Trendsintheexchangecurrentforhydrogen
+evolution,J.Electrochem.Soc.152(3)(2005)J23.doi:10.1149/1.1856988.
+[31] G.H.Gu,J.Lim,C.Wan,T.Cheng,H.Pu,S.Kim,J.Noh,C.Choi,J.Kim,W.A.GoddardIII,X.Duan,Y.Jung,Autobifunctional
+mechanismofjaggedptnanowiresforhydrogenevolutionkineticsviaend-to-endsimulation,J.Am.Chem.Soc.143(14)(2021)5355.
+doi:10.1021/jacs.0c11261.
+[32] T.Bligaard,J.K.Nørskov,S.Dahl,J.Matthiesen,C.H.Christensen,J.Sehested,TheBrønsted-Evans-Polanyirelationandthevolcanocurve
+inheterogeneouscatalysis,JournalofCatalysis224(1)(2004)206–217.doi:10.1016/j.jcat.2004.02.034.
+[33] A. Michaelides, Z.-P. Liu, C. J. Zhang, A. Alavi, D. A. King, P. Hu, Identification of general linear relationships between activation
+energiesandenthalpychangesfordissociationreactionsatsurfaces,JournaloftheAmericanChemicalSociety125(13)(2003)3704–3705.
+doi:10.1021/ja027366r.
+[34] M.Núñez,T.Robie,D.G.Vlachos,Accelerationandsensitivityanalysisoflatticekineticmontecarlosimulationsusingparallelprocessing
+andrateconstantrescaling,TheJournalofChemicalPhysics147(16)(2017)164104.doi:10.1063/1.4998926.
+: PreprintsubmittedtoElsevier Page 14 of 14
+
+Supporting Information: Dynamic Kinetic Evaluation Favors
+Compositionally Diverse Multicomponent Alloy Nanoparticles for
+Hydrogen Evolution
+KokiOtsukaa, AnhKhoaAugustinLua,b, KojiShimizuc and SatoshiWatanabea,∗
+aDepartmentofMaterialsEngineering,TheUniversityofTokyo,113-8656,Tokyo,Japan
+bResearchCenterforMaterialsNanoarchitectonics,NationalInstituteforMaterialsScience,305-0044,Tsukuba,Japan
+cMaterialsDXResearchCenter,NationalInstituteofAdvancedIndustrialScienceandTechnology,305-8568,Tsukuba,Japan
+S1.MachineLearningModelOverview
+The predictive model developed in this study is an enhanced distance-insensitive graph neural network named
+theBond-typeEmbeddedOrbitalGraphConvolutionalNeuralNetwork(BE-OGCNN).BuiltupontheBE-CGCNN
+framework[1],thismodelisdesignedtorelysolelyontheconnectivitygraphofnearest-neighboratoms,bypassing
+theneedforprecisegeometricinputssuchasbondlengthsandangles.Tomaximizeexpressivitywithoutgeometric
+dependency,theBE-OGCNNintegratesorbitalinteractionfeatures.
+Furthermore, the model employs a hard parameter sharing Multi-Task Learning (MTL) framework to improve
+dataefficiencyandgeneralization.Theprimarytaskisthepredictionofhydrogenadsorptionenergy,whilethed-band
+centerandtotalstructuralenergyserveasauxiliarytasks.
+∗Correspondingauthor
+watanabe@cello.t.u-tokyo.ac.jp(S.Watanabe)
+ORCID(s):
+Otsuka et al.: PreprintsubmittedtoElsevier Page1of11
+
+Supporting Information
+S2.Datasets
+Themodelwastrainedandevaluatedusingacombinationofthreedistinctdatasets:
+• In-House Cluster Dataset: Constructed using Density Functional Theory (DFT) calculations, this dataset
+containshydrogenadsorptionenergiesoncomposedoctahedralclustermodels.Itincludesninetransitionmetal
+elements(Ag,Au,Co,Cu,Ir,Ni,Pd,Pt,Rh)acrossvariousclustersizes:19-atom(3,820datapoints),44-atom
+(4,254 data points), and 85-atom (115 data points) models. The 85-atom data were reserved exclusively for
+testingandwerenotusedformodeltraining.
+• OpenCatalyst 20 (OC20): A subset of 1,316 data points containing hydrogen adsorption energies and total
+energiesforvarioustransitionmetalsurfaceswasextractedfortheprimaryandauxiliarytasks[2].
+• Alexandria Dataset: Used for the auxiliary tasks, this dataset provided total energy data for bulk crystal
+structuresofpuretransitionmetalsandtheiralloys[3].Thecorrespondingd-bandcentervalueswereobtained
+byparsingVASPoutputfilesfromtheNOMADrepository.
+Otsuka et al.: PreprintsubmittedtoElsevier Page 2 of 11
+
+Supporting Information
+S3.PerformanceValidationon85-AtomFive-LayerOctahedralClusters
+To evaluatethe extrapolation capability andtransferability of our modelsto more realistic catalystsizes, perfor-
+mance validation was conducted on 85-atom (five-layer) octahedral clusters. It is important to emphasize that this
+85-atomclustersizerepresentsastructuraldomainentirelyabsentfromthetrainingdataset.
+HydrogenAdsorptionEnergyPrediction
+Forthepredictionofhydrogenadsorptionenergy(Δ𝐸
+H
+),themodelwastrainedstrictlyonsmallernanoclusters
+(19-atomand44-atom),surfaceslabmodels,andbulkcrystaldata.Whenevaluatedontheunseen85-atomclusters,
+the results demonstrated that the multi-task learning (MTL) approach significantly enhances predictive reliability
+for unknown, larger structures. Specifically, the MTL model achieved a Mean Absolute Error (MAE) of 0.105 eV,
+showingadistinctimprovementoverthesingle-taskmodel,whichyieldedanMAEof0.122eV.FigureS1illustrates
+thecorrelationbetweentheDFT-calculatedandML-predictedhydrogenadsorptionenergies.
+1.00
+0.75
+0.50
+0.25
+0.00
+0.25
+0.50
+0.75
+1.00
+1.0 0.5 0.0 0.5 1.0
+DFT E (eV)
+H
+)Ve(
+E
+detciderP
+H
+MAE = 0.105 eV
+RMSE = 0.140 eV
+Figure S1: Parity plot comparing the DFT-calculated and ML-predicted hydrogen adsorption energies (Δ𝐸 ) for the
+H
+85-atom octahedral clusters. The multi-task learning (MTL) model demonstrates robust extrapolation performance on
+structures larger than those included in the training set.
+TotalEnergyPredictionforCompositionalOptimization
+Inadditiontoadsorptionenergy,accuratelypredictingthetotalstructuralenergy(𝐸 )iscrucialforevaluating
+Total
+structuralstabilityandperformingMonteCarlosamplingduringcompositionoptimization.Tothisend,atotalenergy
+predictionmodelwasalsodevelopedusingtheBE-OGCNNarchitecture.
+Toensurethediversityoflocalatomicenvironmentsandimprovesize-extrapolationcapability,thetrainingdataset
+forthismodelconsistedof4,000structures,evenlysampledfromfourdifferentsources(1,000structureseach):19-atom
+octahedralclusters,44-atomoctahedralclusters,surfaceslabmodels,andbulkcrystals.
+When this model was tested on the unseen 85-atom clusters, the predicted total energies per atom achieved a
+root-mean-squareerror(RMSE)of48.173meV/atomrelativetoDFT(FigureS2).Thistestcharacterizesprediction
+errorsforthelargerclustersize.Itdoesnotdirectlyquantifyerrorsintheenergydifferencesbetweenfixed-composition
+configurationsthatdetermineMCswapacceptanceprobabilities.
+Otsuka et al.: PreprintsubmittedtoElsevier Page 3 of 11
+
+Supporting Information
+2
+3
+4
+5
+6
+7
+8
+8 6 4 2
+DFT E (eV/atom)
+total
+)mota/Ve(
+E
+detciderP
+latot
+RMSE = 48.173 meV/atom
+FigureS2:ParityplotcomparingtheDFT-calculatedandML-predictedtotalenergiesperatomforthe85-atomoctahedral
+test clusters, which are larger than the clusters used for training. The RMSE is 48.173 meV/atom.
+Otsuka et al.: PreprintsubmittedtoElsevier Page 4 of 11
+
+Supporting Information
+S4.StabilityComparison:Octahedralvs.TruncatedOctahedralClusters
+Acommonlyraisedquestionregardingthechoiceofclustergeometryiswhethertheregularoctahedralstructure
+isenergeticallyfavorablecomparedtothetruncatedoctahedralstructureatthesizesrelevanttothisstudy.Toaddress
+thispoint,densityfunctionaltheory(DFT)calculationswereperformedtocomparetheper-atomenergiesofregular
+octahedralandtruncatedoctahedralclustermodelsforeachoftheninesingle-elementcandidatemetals,atboththe
+four-layerandfive-layersizes.
+The DFT calculations were performed using the Vienna Ab initio Simulation Package (VASP)[4], employing
+thePerdew-Burke-Ernzerhof(PBE)[5]exchange-correlationfunctionalandtheprojector-augmented-wave(PAW)[6]
+method. A plane-wave energy cut-off of 500 eV was used. Brillouin-zone integrations were performed using
+Monkhorst-Pack k-point sampling[7], with 3×3×3 grids for the four-layer (44-atom) models and 1×1×1 grids
+forthefive-layer(85-atom)models.Avacuumspacingofatleast15Å wasintroducedtoavoidinteractionsbetween
+periodicimages.Theelectronicconvergencecriterionwassetto10−4eV,andtheatomicconfigurationswererelaxed
+untiltheatomicforceswerebelow0.01eV/Å.
+FiguresS3andS4showtheDFT-calculatedper-atomenergiesforthefour-layerandfive-layercases,respectively.
+0
+1
+2
+3
+4
+5
+6
+7
+Ag Au Co Cu Ir Ni Pd Pt Rh
+Element
+motA
+rep
+ygrenE
+Octahedral
+Truncated Octahedral
+Figure S3: DFT-calculated per-atom energies for regular octahedral (blue) and truncated octahedral (orange) clusters at
+thefour-layersizeforeachoftheninesingle-elementcandidatemetals.Lowerenergyindicatesgreaterstructuralstability.
+As shown in the figures, the per-atom energies of the regular octahedral and truncated octahedral clusters are
+remarkablycloseformostelements,andnodecisiveenergeticpreferenceforeithershapeisapparentacrossallnine
+metals.ItiswellestablishedthatforlargeFCCmetalnanoparticlesthetruncatedoctahedronisthethermodynamically
+preferredequilibriumshape,becausetruncationreducesthecontributionofenergeticallycostlyedgeandvertexatoms
+[8].However,atsmallsizes(sub-2nmregime),theenergydifferencesbetweencompetingshapesbecomeprogressively
+smallerandtherelativestabilitycanvarywithelementandexactatomcount.Theresultshereareconsistentwiththis
+size-dependentpicture:thetwogeometriesareenergeticallycomparableatthefour-layerandfive-layersizesstudied,
+and neither structure is unambiguously more stable for all elements. Given that the energy differences are marginal
+andthattheexperimentalsynthesisbyFengetal.[9]producedclusterswithanaveragediameterof1.68nmconsistent
+withthepresentmodel,theregularoctahedralclusterisaphysicallyreasonablestructuralmodelforthisstudy.
+Otsuka et al.: PreprintsubmittedtoElsevier Page 5 of 11
+
+Supporting Information
+0
+1
+2
+3
+4
+5
+6
+7
+8
+Ag Au Co Cu Ir Ni Pd Pt Rh
+Element
+motA
+rep
+ygrenE
+Octahedral
+Truncated Octahedral
+Figure S4: DFT-calculated per-atom energies for regular octahedral (blue) and truncated octahedral (orange) clusters at
+the five-layer size for each of the nine single-element candidate metals. Lower energy indicates greater structural stability.
+Otsuka et al.: PreprintsubmittedtoElsevier Page 6 of 11
+
+Supporting Information
+S5.ValidationoftheActivityMetricusingPureMetalClusters
+Toassesstheelementaltrendofthestaticactivitymetric𝐴definedinthemaintext,weevaluated85-atompure-
+metalclustersforeachoftheninecandidatetransitionmetals(Ag,Au,Co,Cu,Ir,Ni,Pd,Pt,andRh).Thescorewas
+averagedovertheavailableadsorptionsites,includingtheirdifferentlocalgeometricenvironments.
+Figure S5 illustrates the calculated static activity metric 𝐴 for each pure metal cluster. The evaluation results
+demonstratedthatPtexhibitedthehighestactivity,followedbyIrandPd,whereaselementslikeAu,Ag,andCushowed
+significantlyloweractivities.Thissequenceisinexcellentqualitativeagreementwiththeexperimentallyestablished
+volcanoplottrendforthehydrogenevolutionreaction(HER).Theagreementsupportstheuseofthisactivityevaluation
+asarelativescreeningmetricforcomparingthemodelednanoclustercompositions,whileitstransferabilitytomore
+complexmulticomponentsurfacesremainsanapproximation.
+0.200
+0.175
+0.150
+0.125
+0.100
+0.075
+0.050
+0.025
+0.000
+Pt Ir Pd Rh Ni Co Cu Au Ag
+Element
+ytivitcA
+Figure S5: Calculated static HER activity scores (𝐴) for 85-atom pure transition-metal clusters. The qualitative activity
+trend is compared with the established HER volcano relationship as a check of the screening metric.
+Otsuka et al.: PreprintsubmittedtoElsevier Page 7 of 11
+
+Supporting Information
+S6.ParametersforBrønsted-Evans-Polanyi(BEP)Relations
+Inthemaintext,theactivationfreeenergies(Δ𝐺 )fortheelementaryprocessesinthekineticMonteCarlo(kMC)
+𝑎𝑐𝑡
+simulationsarecalculatedbasedonBrønsted-Evans-Polanyi(BEP)relations.Theintrinsicactivationbarriers(Δ𝐺†)
+0
+andthesymmetryfactors(𝛽)fortheselinearscalingrelationswereadoptedfromthecomputationalworkbyGuetal.
+[10]
+Thespecificparametervaluesusedinoursimulationsforeachelementarystepareasfollows:
+• Adsorption(Volmerprocess):TheintrinsicactivationbarrierandsymmetryfactoraresettoΔ𝐺† =1.173
+0,𝑉𝑜𝑙
+eVand𝛽 =0.881,respectively.
+𝑉𝑜𝑙
+• SurfaceDiffusion:TheintrinsicactivationbarrierfordiffusionisΔ𝐺† =0.184eV.Becausetheactivation
+0,𝑑𝑖𝑓𝑓
+energyforsurfacediffusiondependsonthehydrogenadsorptionfreeenergiesofboththeinitialandfinalsites,
+twodistinctsymmetryfactorsareappliedtogoverntheenergytransitions:𝛽 =0.435and𝛽 =0.565.
+𝑑𝑖𝑓𝑓,1 𝑑𝑖𝑓𝑓,2
+• Desorption (Heyrovsky process): The intrinsic activation barrier and symmetry factor are set to Δ𝐺† =
+0,𝐻𝑒𝑦
+1.360eVand𝛽 =0.511,respectively.Thesevaluesappropriatelyreflecttherelativelyhighactivationbarrier
+𝐻𝑒𝑦
+associatedwiththereleaseofahydrogenmoleculecomparedtosurfacediffusion.
+These parameterized BEP relations provide an efficient approximate means of estimating transition rates across the
+diverselocalenvironmentsconsideredhere.
+Otsuka et al.: PreprintsubmittedtoElsevier Page 8 of 11
+
+Supporting Information
+S7.RescalingofReactionRateConstantsforTime-ScaleDisparity
+InthepresentHERmodel,theintrinsicbarrierparametersfordiffusionandHeyrovskydesorptionare0.184and
+1.360 eV, respectively. The actual activation barriers also depend on the local adsorption free energies through the
+BEPrelationsinSectionS6;theseintrinsicvaluesarenotfixedbarriersforeverysite.Whendiffusionismuchfaster
+thandesorption,mostkMCeventselectionsarediffusionhops,makingtheobservationofcompletedreactioncycles
+computationallyexpensive.
+Toresolvethisissue,arateconstantrescalingmethodwasapplied[11].Thistechniqueartificiallydividestherate
+constantofthefastprocess(diffusion)byadynamicscalingfactor𝛼,therebynarrowingthekineticgapwiththeslow
+process(desorption)andimprovingcomputationalefficiencywhileretainingtheintendedfast-diffusionapproximation.
+Thescalingfactor𝛼isdynamicallyupdatedevery2,000kMCstepsaccordingtothefollowingequations:
+0.5×(𝐹 +𝐹 )
+𝑁 = 𝑓𝑤𝑑 𝑏𝑤𝑑 (1)
+𝐹
+𝑠𝑙𝑜𝑤
+𝑁
+𝛼 = (2)
+𝑁
+𝑚𝑖𝑛
+𝑘
+𝑘′ = 𝑑𝑖𝑓𝑓 (appliedonlywhen𝛼 >1) (3)
+𝑑𝑖𝑓𝑓 𝛼
+(4)
+where𝐹 and𝐹 representthetotalnumbersofforwardandbackwardhopsobservedforagivendiffusionpair
+𝑓𝑤𝑑 𝑏𝑤𝑑
+(i.e.,transitionsbetweenanoccupiedsiteandoneofitsneighboringvacantsites)inthepreceding2,000kMCsteps,
+and𝐹 isthenumberofdesorptioneventsduringthesameinterval.Thenumeratoristhearithmeticmeanofthe
+𝑠𝑙𝑜𝑤
+forwardandbackwardhopcounts;itdoesnotmeasurestatisticallyindependentexcursions.Therescalingisapplied
+onlywhen𝛼 >1,i.e.,whentheevent-countratio𝑁 exceedsthetargetvalue𝑁 .Noadditionalreductionisapplied
+𝑚𝑖𝑛
+when 𝛼 ≤ 1. The target was set to 𝑁 = 30 to retain diffusion sampling before desorption; this setting does not
+𝑚𝑖𝑛
+guaranteeaminimumnumberofhopsineachcycleorestablishconvergenceofsurfaceexploration.
+Otsuka et al.: PreprintsubmittedtoElsevier Page 9 of 11
+
+Supporting Information
+S8.KineticMonteCarloEvaluationofPureMetalClusters
+BeforeapplyingthekineticMonteCarlo(kMC)frameworktomulticomponentalloys,itsqualitativeactivitytrends
+were examined using 85-atom pure-metal nanoclusters. The static evaluation in Section S5 averages site-specific
+activityscores,ratherthanadsorptionenergiesthemselves.Incontrast,thekMCapproachexplicitlymodelssurface
+diffusion and the competition between elementary events, with transition barriers estimated using Brønsted-Evans-
+Polanyi(BEP)relations.
+Forthepure-metalbenchmark,FigureS6reportstheH productionrateratherthanthelogarithmicactivityscore
+2
+usedinthemaintext.Theplottedquantitywascalculatedas
+𝑁
+𝑟= H 2 (5)
+𝑡
+total
+where 𝑁 is the number of H molecules produced and 𝑡 is the total elapsed kMC simulation time. As in the
+H 2 total
+main-text c2alculations, each kMC trajectory comprised 40,000 event transitions. Figure S6 is used to compare the
+qualitativeactivitytrendamongthepuremetals;itsratevaluesarenotonthesamenumericalscaleasthelogarithmic
+𝐴 valuesreportedinthemaintext.
+kMC
+Similar to the static evaluation results, the pure-metal kMC benchmark placed Pt in the highest-activity group,
+together with Ir and Pd. Conversely, elements with very weak or strong hydrogen-binding affinities yielded lower
+production rates because adsorption or desorption, respectively, became unfavorable in the model. This qualitative
+comparisonsupportstheelementaltrendcapturedbythekineticmodel,whilethetransferabilityofthePt-derivedBEP
+parametersandtherate-rescalingproceduretomulticomponentsystemsremainsanapproximation.
+7
+6
+5
+4
+3
+2
+1
+0
+Pt Ir Pd Rh Ni Cu Co Au Ag
+Element
+ytivitcA
+1e 10
+Figure S6: H productionrates, 𝑟=𝑁 ∕𝑡 ,for85-atompure transition-metalclustersobtained fromkMCsimulations.
+2 H2 total
+The figure is used to compare the qualitative activity trend among the pure metals; the plotted rate is not on the same
+numerical scale as the logarithmic 𝐴 values reported in the main text.
+kMC
+References
+[1] K.Bang,D.Hong,Y.Park,D.Kim,S.S.Han,H.M.Lee,Machinelearning-enabledexplorationoftheelectrochemicalstabilityofreal-scale
+metallicnanoparticles,NatureCommunications14(1)(2023)3004.doi:10.1038/s41467-023-38758-1.
+[2] L.Chanussot,A.Das,S.Goyal,T.Lavril,M.Shuaibi,M.Riviere,K.Tran,J.Heras-Domingo,C.-H.Ho,W.Hu,A.Palizhati,A.Sriram,
+B.Wood,J.Yoon,D.Parikh,L.Zitnick,Z.Ulissi,A.Jain,V.Saini,S.Batzner,A.Musaelian,J.Mailoa,M.Kornbluth,N.Molinari,T.Smidt,
+S.P.Ong,G.Ceder,K.Persson,J.Grossman,A.Aspuru-Guzik,K.Choudhary,B.DeCost,S.Choudhury,Opencatalyst2020(oc20)dataset
+andcommunitychallenges,ACSCatal.11(10)(2021)6059.doi:10.1021/acscatal.0c04525.
+Otsuka et al.: PreprintsubmittedtoElsevier Page 10 of 11
+
+Supporting Information
+[3] T.Cavignac,J.Schmidt,P.-P.DeBreuck,A.Loew,T.F.T.Cerqueira,H.-C.Wang,A.Bochkarev,Y.Lysogorskiy,A.H.Romero,R.Drautz,
+S.Botti,M.A.L.Marques,AI-drivenexpansionandapplicationoftheAlexandriadatabase,JournalofPhysics:Materials9(2)(2026)025014.
+doi:10.1088/2515-7639/ae6620.
+[4] G.Kresse,J.Hafner,Abinitiomoleculardynamicsforliquidmetals,Phys.Rev.B47(1993)558–561.doi:10.1103/PhysRevB.47.558.
+[5] J. P. Perdew, K. Burke, M. Ernzerhof, Generalized gradient approximation made simple, Phys. Rev. Lett. 77 (1996) 3865–3868. doi:
+10.1103/PhysRevLett.77.3865.
+[6] P.E.Blöchl,Projectoraugmented-wavemethod,Phys.Rev.B50(1994)17953–17979.doi:10.1103/PhysRevB.50.17953.
+[7] H.J.Monkhorst,J.D.Pack,Specialpointsforbrillouin-zoneintegrations,Phys.Rev.B13(1976)5188–5192. doi:10.1103/PhysRevB.
+13.5188.
+[8] A.S.Barnard,L.A.Curtiss,Predictingtheshapeandstructureofface-centeredcubicnanocrystalssmallerthan3nm,ChemPhysChem7(7)
+(2006)1544–1553.doi:10.1002/cphc.200600107.
+[9] G.Feng,F.Ning,J.Song,H.Shang,K.Zhang,Z.Ding,P.Gao,W.Chu,D.Xia,Sub-2nmultrasmallhigh-entropyalloynanoparticlesfor
+extremelysuperiorelectrocatalytichydrogenevolution,J.Am.Chem.Soc.143(41)(2021)17117.doi:10.1021/jacs.1c07643.
+[10] G.H.Gu,J.Lim,C.Wan,T.Cheng,H.Pu,S.Kim,J.Noh,C.Choi,J.Kim,W.A.GoddardIII,X.Duan,Y.Jung,Autobifunctional
+mechanismofjaggedptnanowiresforhydrogenevolutionkineticsviaend-to-endsimulation,J.Am.Chem.Soc.143(14)(2021)5355.
+doi:10.1021/jacs.0c11261.
+[11] M.Núñez,T.Robie,D.G.Vlachos,Accelerationandsensitivityanalysisoflatticekineticmontecarlosimulationsusingparallelprocessing
+andrateconstantrescaling,TheJournalofChemicalPhysics147(16)(2017)164104.doi:10.1063/1.4998926.
+Otsuka et al.: PreprintsubmittedtoElsevier Page 11 of 11
+

@@ -1,0 +1,563 @@
+ORIGINALRESEARCH
+published:03March2022
+doi:10.3389/fmats.2022.849051
+Effect of Twin Boundary Density on
+Mechanical Behavior of Al CoCrFeNi
+0.1
+High-Entropy Alloy by Molecular
+Dynamics Simulation
+Luming Zhang1,2, Hao Xin1,2*, DanZhao1,2*,Zhiqiang Li3andShengguoMa1,2
+1InstituteofAppliedMechanics,TaiyuanUniversityofTechnology,Taiyuan,China,2ShanxiKeyLaboratoryofMaterialStrength
+andStructuralImpact,TaiyuanUniversityofTechnology,Taiyuan,China,3CollegeofAeronauticsandAstronautics,Taiyuan
+UniversityofTechnology,Taiyuan,China
+Moleculardynamicssimulationmethodwasusedtostudytheinfluenceofco-latticetwin
+boundary (TB) spacing on the deformation behavior of Al CoCrFeNi high-entropy alloy
+0.1
+singlecrystalunderuniaxialtension.Studieshaveshownthatthereisa“criticaldistance”
+betweenthetwinboundaries,andthesensitivityofthetwosidestothechangeofthetwin
+spacingisdifferent,andtheinfluenceoftheevolutionofthedeformationmechanismofthe
+different twin spacing is analyzed from the number of defects and the evolution of the
+Editedby:
+dislocationdensity.The results show thatas the distancebetweentwinsdecreases, the
+MohsenAsleZaeem,
+ColoradoSchoolofMines, deformation mechanism gradually transforms from dislocation slip accompanied by
+UnitedStates
+defects, such as stacking faults and secondary twins, to a deformation mode of
+Reviewedby:
+amorphous phase transition. The research aims to provide guidance and reference for
+RoghayehMohammadzadeh,
+AzarbaijanShahidMadani the design of high-performance high-entropy alloys.
+University,Iran
+QingbingDong, Keywords: high-entropy alloy, molecular dynamics, mechanical behavior, twin boundary density, deformation
+ChongqingUniversity,China mechanism
+*Correspondence:
+HaoXin 1 INTRODUCTION
+xinhao@tyut.edu.cn
+DanZhao
+High-entropyalloys(HEAs)arenew typesof alloysdiscovered inrecent yearsand haveattracted
+zhaodan@tyut.edu.cn
+widespread attention from researchers because of their unique properties. High-entropy alloy has
+demonstrateditsexcellentmechanicalandchemicalproperties,suchashighhardness(Chenetal.,
+Specialtysection:
+2013), high strength (Yeh et al., 2004), high wear resistance (Chuang et al., 2011), high thermal
+Thisarticlewassubmittedto
+ComputationalMaterialsScience, stability, high corrosion resistance, etc., which is considered to be a new high-performance metal
+asectionofthejournal materialwithgreatapplicationpotential.Thehighmixingentropycombinedwiththeslowdiffusion
+FrontiersinMaterials ofatomspromotestheformationofsimplesolidsolutionphaseswithmultipleprincipalelementsin
+Received:05January2022 HEAs. These new components in face-centered cubic (FCC), body-centered cubic (BCC), and
+Accepted:08February2022 hexagonalclose-packed(HCP)structuresprovideanexpandedsolidsolutionphasewithasingleor
+Published:03March2022
+matrixphaseattheatomiclevel,soHEAshaveuniquecharacteristics(Saitoetal.,2003;Shunand
+Citation: Du, 2009).
+ZhangL,XinH,ZhaoD,LiZandMaS AlCoCrFeNihigh-entropyalloyisoneofthefirsthigh-entropyalloysystemstobestudied,andits
+(2022)EffectofTwinBoundaryDensity excellentmechanicalpropertiesmakeithavegreatdevelopmentandresearchprospects.Moreand
+onMechanicalBehaviorof
+morestudiesexploredthereasonsforitsexcellentperformance(Wangetal.,2012;Maetal.,2013;
+Al CoCrFeNiHigh-EntropyAlloyby
+0.1 Kumaretal.,2015).Alotofstudieshavebeencarriedoutonthesimulationoftheevolutionofmicro-
+MolecularDynamicsSimulation.
+structure of high-entropy alloy structures. Li et al. (2016) studied the mechanical behavior of
+Front.Mater.9:849051.
+doi:10.3389/fmats.2022.849051 AlCrFeCuNihigh-entropyalloyunderuniaxialtensileloadusingatomicsimulationmethods,and
+FrontiersinMaterials|www.frontiersin.org 1 March2022|Volume9|Article849051
+
+Zhangetal. EffectofTBDonAl0.1CoCrFeNi
+the effects of dislocations and defects on metal plastic showninFigure1A.TheproportionsofAl,Co,Cr,Fe,andNi
+deformation were explained. The main mechanism is atomsare2.4,24.4,24.4,24.4,24.4%.TocreatetherandomHEAs
+dislocation pinning, and its plastic deformation mechanism structures, Al atoms were randomly selected and replaced with
+was analyzed; Sharma and Balasubramanian (2017) used Co, Cr, Fe, Ni until the desired composition was achieved.
+classical molecular simulation methods to study the Toexploretheinfluenceofdifferenttwinboundarydensities
+deformation mechanism of Al CoCrFeNi alloy under tensile on the mechanical properties of Al CoCrFeNi, the models of
+0.1 0.1
+load. It is found that in the process of plastic deformation, equaltwinspacingwerepreparedinadvance,andsixmodelswith
+dislocation nucleation and mobility play a vital role in the differenttwinspacingwereset,asshowninFigure1B.Thetwin
+generation of twin boundaries; Y. Afkham et al. (2017) boundary spacing λ is 0.61, 1.84, 3.08, 4.31, 5.55, 6.78nm in
+simulated the tensile behavior of AlCrCoFeCuNi amorphous sequence; λ = 0.61nm is the theoretical minimum distance
+alloys and explained the influence of Al content and strain between twin boundaries composed of three atoms (S. Yan
+rate effects on high-entropy alloys through free bulk modulus et al., 2020). The model size of 110Å × 200Å × 55Å (X × Y
+andcutband;Lietal.(2019)usedmoleculardynamicssimulation ×Z)containingbetween518,000and528,000atomsisgenerated.
+methods to study AlCoCrFeCuNi high-entropy alloys prepared The X, Y, and Z crystal directions of the model correspond to
+underdifferentcoolingratesanddeformationbehaviors,whichis [-110],[111]and[11-2].Periodicboundaryconditionswereused
+very meaningful for guiding the control of the cooling rate and in three directions.
+then the high-strength high-entropy alloys; Thehigh-entropyalloyispreparedfromfivekindsofatoms.
+Grainboundariesareoneoftheinevitableimportantdefectsin Due to the lattice distortion caused by different atomic sizes,
+metalmaterials.Intheexperiment,alargenumberofdefectswill energyminimizationwascarriedoutusingtheconjugategradient
+appear in the heat treatment, recrystallization, and other relaxationalgorithmfortherelaxationoftherandomizedHEAs
+processes, which makes researchers pay more and more configuration. The relaxed structure was initialized under an
+attentions. Among them, the twin boundary is a special kind isobaric-isothermal (NPT ensemble) system at room
+ofgrainboundary withlowstrainenergy,andbothsidesofthe temperature (300K) with a pressure of 0MPa for 30,000 steps.
+twinboundaryaresymmetricalalongthegrainboundaryTwins After the relaxation, the uniaxial tensile deformation of the
+are as effective as traditional grain boundaries for the pre-prepared twin boundaries HEAs was applied at room
+strengthening effect of materials. This provides an effective temperature and constant strain rate (1 × 109s −1) in which
+measure to improve the tensile ductility of the material: the length (in the Y-direction) of the HEAs was gradually
+introducing twin boundaries as defects in the crystals to increased (Figure 1A). Strain is applied every fixed time step,
+increase the strength of the material by hindering the and then the atomic state and thermodynamic information at
+movement of dislocations (Saito et al., 2003; Lu et al., 2009). equilibrium are calculated. Then, the quasi-static loading of the
+Tadmor.(2004)calculatedtheoriginoftwinsbyfirstprinciples model is realized.
+and showed that twins can be the main deformation form of The correct selection of the EAM potential is the key to
+metastable face-centered cubic high-entropy alloys. Tian-Zhan ensuring the accuracy and reliability of the molecular
+Shenetal.(2021)exploredtheeffectof twinboundariesonthe dynamics simulation results. This paper uses the EAM
+mechanical behavior of Cr26Mn20Fe20Co20Ni14 high-entropy potential proposed by Frank et al. (Farkas and Caro, 2020) to
+alloys. As the distance between twin boundaries decreases, the simulate theinteraction between atoms. This potential function
+major deformation mechanism of has been successfully applied to the simulation study of the
+Cr26Mn20Fe20Co20Ni14 high-entropy alloys has changed mechanical properties of Al CoCrFeNi and obtained reliable
+0.1
+from dislocation slip to the amorphous phase. research results (Doan et al., 2020; Fourmont et al., 2020).
+However,theinfluencemechanismoftwinboundariesonthe Theopen-sourcesoftwareOvito(Stukowski,2010),anopen-
+mechanicalbehaviorofAl CoCrFeNihigh-entropyalloyslacks sourcevisualizationsoftware,wasusedforthedatageneratedby
+0.1
+in-depth and systematic research. In addition, it is difficult to MDsimulation.ThelocalatomicstructurewasanalyzedbyCNA
+directly observe the microscopic mechanism of twin boundary (common-neighbor analysis) (Faken and Jónsson, 1994), four
+changes during tensile deformation test. To further explore the types of atoms were marked in color: green atoms for fcc
+deformationbehaviorandmicrostructuredevelopmentoftwins structure, blue atoms for bcc structure, red atoms for stacking
+in Al CoCrFeNi, this paper uses prefabricated Al CoCrFeNi faults,andwhiteatomsforgrainboundariesordislocationcores.
+0.1 0.1
+nano-twinhigh-entropyalloys(nt-HEAs)asamodelmaterialfor Crystalline defects were analyzedby the DXA (Stukowskiet al.,
+related research. 2012)(dislocationanalysis)method,andfourtypesofdefectswill
+beimportantintheanalysestocome,i.e.,Stair-rods,Hirthlocks,
+Shockley, and Perfect dislocations. Perfect dislocations and
+2 METHODS Shockley dislocations are glossily and enable plasticity;
+whereas Stair-rods and Hirth locks are sessile and hence
+InMDsimulation,LAMMPS(Thompsonetal.,2022)isusedto regarded as barriers to dislocation motion (Z. Yan and Lin,
+simulate the tensile behavior of the Al CoCrFeNi model with 2019). Crystal Analysis Method (Stukowski, 2014) is also used
+0.1
+pre-preparedtwinboundaries.Atomsk(Hirel,2015)isawidely to quantitatively analyze the evolution process of martensite
+usedcrystalstructuremodelingsoftware(S.Yanetal.,2020).The transformation, plane defect density including TBs, stacking
+samplesareconstructedthroughtheAtomsksoftwarepackage,as faults, martensite transformation, etc.
+FrontiersinMaterials|www.frontiersin.org 2 March2022|Volume9|Article849051
+
+Zhangetal. EffectofTBDonAl0.1CoCrFeNi
+FIGURE1|ModelofthesinglecrystallineFCCAl0.1CoCrFeNiHEAs.(A)Atomicdistributionofthent-HEAs;(B)modelstructureofthent-HEAs,inwhichthegreen
+regionsrepresenttheFCCstructureandtheredregionsrepresentthetwinboundary(TB).
+At a constant loading strain rate (109s −1), the tensile
+deformation of the nt-HEAs exhibits typical elastic-
+yielding-plastic deformation stages. The first stage is the
+elastic stage: at the initial deformation stage, the stress is a
+linearincreasewiththeincreaseofstrains,whichissimilarto
+the mechanical behavior of the single-crystal metals. The
+deformation at this stage is manifested as elastic
+deformation, and the deformation will be restored once the
+load is stopped; Through the stress-strain curve and linear
+fitting,wecanobtainYoung’smodulusE,whichisoneofthe
+important characteristics of the mechanical properties of
+materials. Through the comparison of the calculation
+results, it is found that the distance between the twin
+boundaries has no significant effect on the elastic model of
+the HEAs material.
+Astheloadcontinues,thent-HEAsmaterialmodelentersthe
+FIGURE2|Stress-straincurvesofnt-HEAsmodelwithdifferent yield stage. After reaching the maximum stress peak, the stress
+distancesbetweentwinboundariesundertensionat300K. willdropdramatically.Thisisduetothehigherstrainrate.Atthis
+time, the stress-strain curve is nonlinear. Continue to load the
+model,alongwiththestress-yieldingplatform,thestresstendsto
+3 RESULT AND DISCUSSION stabilize and fluctuate up and down. This stage belongs to the
+plastic deformation stage. Li et al. (2016) used the method of
+3.1TheEffect ofTwinBoundarySpacingon
+atomic simulation to study the mechanical behavior of
+the Mechanical Properties of nt-HEAs
+AlCrFeCuNi high-entropy alloy under uniaxial tensile load,
+Toexploretheeffectofdifferenttwinspacingsonthemechanical which is more consistent with the trend of the stress-strain
+propertiesofAl CoCrFeNihigh-entropyalloys,thetensilebehavior curve obtained in this paper.
+0.1
+ofnt-HEAsissimulated,andthestress-straincurvesofthent-HEAs Figure3Ashowstherelationshipbetweenyieldstrengthand
+modelwithdifferenttwinspacingsareshowninFigure2. yieldstrainasafunctionoftwinboundarydistance(λ).Thetwin
+FrontiersinMaterials|www.frontiersin.org 3 March2022|Volume9|Article849051
+
+Zhangetal. EffectofTBDonAl0.1CoCrFeNi
+FIGURE3|(A)Evolutionsoftheyieldstressandyieldstrainofthent-HEAswiththetwinboundaryspacing.(B)Therelationshipbetweenyieldstressandλ−1/2.
+boundary distance and the yield strength of the corresponding with the dislocation density indicating the crack
+model are in a Hall–Petch relationship: displacement, and the dislocations may interact with the
+applied strains (Dong et al., 2021a; Dong et al., 2021b). In
+σ (cid:1)σ +kλ−1/2
+y 0 thispaper,twindensityreferstotheratioofthetotallengthof
+whereσ isthefrictionstress,kistheconstant,andλisthetwin dislocation lines and the volume of the crystal.
+0
+Through the evolution of the twin density and dislocation
+boundary distance. The relationship between yield stress and
+λ−1/2
+shows in Figure 3B.
+densityinFigure4,thefollowingconclusionscanbefound:asthe
+twin density increases, the yield strain produced by the
+Theyieldstrengthdecreasesasthetwinboundarydistance
+(λ) increases; In addition, a similar effect also appears in the dislocation is gradually lagging, and the twinning distance of
+yield strain. Song and Sun. (2015) found the reverse
+3.08nmisthe“criticaldistance”;Inthemodelwithλ>3.08nm,
+Hall–Petch relationship in the study of the effect of twin the dislocation density evolution is no longer significantly
+spacing on the mechanical properties of single crystal Cu. different, and the yield strain point is very close; when λ <
+In this paper, there is no reverse Hall–Petch relationship, 3.08nm, the dislocation density has a significant decrease, and
+which may be related to the low stacking fault energy the dislocation start point is delayed phenomenon. From the
+caused by high entropy in this paper (Xiao and Deng, 2020). perspective of planar fault density (TB), the higher-density nt-
+Theyieldbehaviorofnano-twinnedmetalsdependsonthe HEAs model started to have a large range of detwinning.
+competitive relationship between the number of dislocation Although the low-density nt-HEAs model also experienced
+sources and the repulsive force generated by the twin detwinning, its density changed not so obvious, and with the
+boundaries for dislocations. Therefore, further analysis was generationofsecondarytwinsinthelaterperiod,thetwindensity
+performed on the changes in dislocation density and twin rises again.
+density.Andthetwinboundaryhasacertainsensitivitytothe Throughtheanalysisofthesetwoperspectives,wecanfurther
+strengtheningofnt-HEAsmaterials:whenthetwinboundary understand the competitive relationship between twins and
+distance λ decreases from 6.98 to 3.08nm, the yield strength dislocation sources in the yield behavior of nt-HEAs: when the
+increases from 4.27 to 4.68GPa, an increase of about 9.6%; twinspacingλislessthan3.08nm,therepulsiveforceofthetwin
+when the twin spacing λ decreases from 3.08 to 0.61nm, the boundary on the dislocation in the HEAs model yield behavior
+yield strength increases from 4.68 to 6.61Gpa, an increase of occupy the dominant position. At this time, the strengthening
+about 41.2%, which shows that when the critical twin trend of the yield strength of the material due to the distance
+boundary distance is reached, the improvement of the yield between the twin grain boundaries is shown in the curve L in
+1
+strengthbythetwinboundarydistanceismoresignificant.The Figure 3. When the twin spacing λ is larger than 3.08nm, the
+resultsalsoshowthatasimilareffectalsoappearsintheyield influence of the twin boundary on the material gradually
+strain.Theyieldbehaviorofnano-twinnedmetalsdependson decreases, the dislocation source is no longer very close to the
+the competitive relationship between the number of twin planar, and the dislocation source occupies the main
+dislocation sources and the repulsive force generated by the influence position (Guo and Xia, 2011). The change trend of
+twinboundaryfordislocations.Therefore,wefurtheranalyze theyieldstrengthisasshowninthecurveL inFigure3.Forthe
+2
+the evolution of dislocation density and twin density. yield strain, similar to the effect on the yield strength, high-
+Generally, the dislocation density is defined as the ratio of density nt-HEAs will make its yield strain lag behind, and the
+the total length of dislocation lines and the volume of the changingtrendofitsyieldstrainisshowninthecurvesL andL
+3 4
+crystal. However, it is also noted that a distribution of inFigure3,whichissimilartotheresearchofShenetal.(2021).
+dislocations is theoretically a means to model the crack The research results indicate that the reduction of the twin
+FrontiersinMaterials|www.frontiersin.org 4 March2022|Volume9|Article849051
+
+Zhangetal. EffectofTBDonAl0.1CoCrFeNi
+FIGURE4|(A)Evolutioncurvesofdislocationdensityρduringdeformationofthent-HEAswithdifferenttwinboundaryspacing.(B)Evolutioncurvesoftheplanar
+twin(TB)densitiesasafunctionofstrain.
+3.2TheEffectofTwinSpacingonthePlastic
+Deformation Mechanical Properties of
+nt-HEAs
+The evolution of the microstructure of the material determines
+the strength and plasticity of the material. In the process of
+simulationcalculation,thestrengthisreflectedinthehindering
+effect of the microstructure contained in the model on
+the movement of dislocations, and the plasticity reflects its
+storage capacity for dislocations. In the calculation process,
+the calculation model including high-density twins, the
+prediction of yield strength, yield strain point, average flow
+stress, and plastic properties are significantly better than
+other HEAs models with lower density twins. To further
+clarify the effect of the twinning microstructure on many
+mechanical properties of the material, and to explore the
+influence of the distance between the twin boundaries on the
+FIGURE5|Averageflowstressdistributionofthent-HEAswithdifferent
+twinboundaryspacingat10–15%strainrange. mechanical properties of the plastic deformation of the high-
+entropy alloy, three different twin distances of 0.61, 3.08, and
+6.78nmwereconstructedandhavebeenanalyzed.Theselection
+of different twin spacing is based on the comprehensive
+boundaryspacingnotonlyincreasestheyieldstrengthofthent- consideration of the difference in average flow stress and the
+HEAsmodelbutalsomakestheyieldstrainoftheHEAsmodel stress (strain) sensitive size. Figure 6 reflects the stress-strain
+lag behind. curvesofthethreedifferentspacingmodels,theevolutionofthe
+By observing the plastic deformation part of the stress-strain dislocationdensity,andtheevolutionoftheplanarfaultdensity.
+curveoftheHEAsmodel,itisfoundthatasthestrainincreases,the Withtheincreaseoftwinspacing,thefollowingchangescanbe
+stressgraduallydecreases,andthedeclineofthetwinningspacing found:
+narrowingnt-HEAs is moresignificant.Toquantitativelydescribe
+the influence of different twin boundary spacings on the plastic
+deformation behavior of nt-HEAs, the average flow stress of nt- 1. For the stress-strain curve, the yield strength gradually
+HEAswithdifferenttwinboundaryspacingsbetween10and15% increases and the yield strain gradually lags behind.
+strainiscalculated,andthedistributionisshowninFigure5.The 2. For the plane stacking fault density, the initial twin density
+ultra-high-densitynt-HEAs(λ=0.61)hashigheraverageflowstress, decreases gradually, and the twin density decreases with the
+whichissignificantlydifferentfromotherhigh-densitypre-twinned increaseofstrain;Therearemoreregionsofintrinsicstacking
+high-entropy alloy models. It shows that there may be different faults and martensitic transformation.
+plasticdeformationbehaviorswithdifferenttwinspacing,whichwill 3. For the perspective of dislocation density, the evolution of
+bediscussedinthenextsection. dislocation density first increases and then decreases.
+FrontiersinMaterials|www.frontiersin.org 5 March2022|Volume9|Article849051
+
+Zhangetal. EffectofTBDonAl0.1CoCrFeNi
+FIGURE6|(A–C)Tensilestress-straincurvesforthedifferenttwinspacingnt-HEAs(λ=0.61,λ=3.08,λ=6.78)anddeformedalongthe[111]crystallographic
+directions,respectively.Thecorresponding(D–F)planarfault(TBandSF)densitiesand(G–I)dislocationdensitiesasfunctionsofstrain,respectively.
+3.2.1 Plastic Deformation Behavior of the nt-HEAs effect of shear stress: when the deformation direction is
+With Twin Spacing of 6.78nm perpendicular to the twin plane, the twin interface energy is
+Figure7showsthestructuralsnapshotanddislocationevolution lower and the structure is more stable, so dislocation sources
+diagram of the nt-HEAs model with twin spacing λ = 6.78nm. aremorelikelytooccurbetweentwins.InFigure7A,itcanbe
+During tensile loading, when the strain reaches 0.024, the found that the Shockley partial dislocation loops have been
+dislocationsourceofthemodelbeginstoappear,thenumber produced, accompanied by the generation of stacking faults,
+ofdislocationsourcesemittedfromthetwinplaneisrelatively which indicates that the perfect dislocation begins to
+small, but mainly emitted from between the twins. The decompose into Shockley dislocations and stack faults
+orientation of the grains on both sides of the co-lattice twin during the stretching process.
+boundaryismirror-symmetricalforthegrainboundary.Since Astheloadingcontinues,thestackingfaultscontinuetogrow
+theatomsontheinterfacearecompletelylocatedonthelattice along the shear direction. When the model reaches the yield
+positions of the crystals on both sides, the coherent twin stress, some intrinsic stacking faults have appeared in the
+boundary is the lowest and most stable interface among all material. At this time, some of the stacking faults have
+the grain boundaries. Compared with the FCC crystal extended to the twin boundary, the amorphous phase is
+structure, the HCP slip system is relatively small, so it is formed at its junction; The hindering effect of twin boundaries
+easier to maintain its complete configuration without being on stacking faults is shown in Figure 8: Stacking faults are
+destroyed.Intheprocessofsimulatingthetensiledeformation hindered when they grow to the twin boundaries and then
+mechanism of the twin copper model with different angles, transform into lateral growth along the direction
+XingZhaoetal.(2017)foundthatwhenthetensiledirectionis perpendicular to the twin boundaries.
+perpendiculartothetwinplane,thetwininterfaceisstable;As Whenthestrainreaches10%oreven15%,moreslipsystems
+thetiltangleofthetwin’schanges,moredislocationprocesses areactivated.Duetothehindranceofthedislocationmovement
+appear at the twin interface. This may take into account the bythetwinboundary,thedislocationsgenerateinalargeamount,
+FrontiersinMaterials|www.frontiersin.org 6 March2022|Volume9|Article849051
+
+Zhangetal. EffectofTBDonAl0.1CoCrFeNi
+process of martensite transformation, it is easy to cause
+substructures with high lattice defects in the crystal lattice.
+One part is the high-density dislocations accumulated in the
+martensite, and the other part may be the twin defects in the
+martensite,thisisalsoconsistentwiththeriseofthetwindensity
+in the plastic phase in Figure 6F.
+Tofurtherillustratetheevolutionoftheamorphousphase,the
+atomsofthent-HEAsarepaintedaccordingtotheCNAandvon
+Mises (VM) stress value. Whether it is a stacking fault-twin
+boundary crossing (1 in Figure 9A) or a stacking fault-
+stacking fault crossing (2 in Figure 9A), the accumulation of
+dislocations in these two intersection regions will cause local
+stressconcentration.Thestressconcentrationthencausesserious
+disturbanceofthelatticeintheintersectingregion,leadingtothe
+destructionoftheadjacentcrystalstructureandthenucleationof
+the amorphous phase. Zhao et al. (2016) and Wu et al. (2017)
+have conducted relevant demonstrations through molecular
+dynamics and experiments. The results show that in the
+subsequent loading process, the accumulation of dislocations
+causes an increase in internal stress, which is released by
+destroying the ordered structure near the amorphous phase, so
+that the amorphous phase continues to expand (S. Zhao et al.,
+2021).
+Looking at the changes in the nt-HEAs model, it can be
+observed that the model mainly relies on the interaction of
+defects and dislocations for plastic deformation. This can also
+beseenfromtheevolutionofthedislocationdensityinFigures
+6F–K:Forthemodelwithatwinspacingof0.61and3.08nm,the
+modelwithatwinspacingof6.78nmisnotonlyasteadyincrease
+in the intrinsic stacking fault content, but there is also a larger
+increase in the area where martensitic transformation occurs,
+whilemaintainingahigherdislocationdensity.Itcanbesaidthat
+theco-dominantdeformationmodessuchasdislocationslipand
+FIGURE7|Themicrostructureofnt-HEAs(λ=6.78nm)underdifferent stacking faults, secondary twins, and martensite are the main
+strains(A)2.4%,(B)2.9%,(C)10%,and(D)15%.
+factors that maintain the current plastic state of deformation.
+3.2.2 Plastic Deformation Behavior of the nt-HEAs
+and many immovable dislocations are formed at the twin With Twin Spacing of 3.08nm
+boundary. The results show that some stacking faults intersect Figure10showsthestructuralsnapshotsofthent-HEAsmodel
+each other, disordered atoms are generated at the intersection, withatwinspacingof3.08nmatdifferentmoments.Whenthe
+and an amorphous phase is formed. In addition, a part of strain reaches 0.026, the model dislocation source appears and
+martensite transformation occurs along the shear direction, someShockleydislocationsappear,andthedislocationsourceis
+which is composed of four layers of FCC atoms. In the still located between twins.
+FIGURE8|Analysissnapshotoftwinboundarieshinderingthegrowthofstackingfaults.(A)SFgrowalongthesheardirection.(B)SFchangethegrowdirection.
+(C)ThefinalstateofSF.
+FrontiersinMaterials|www.frontiersin.org 7 March2022|Volume9|Article849051
+
+Zhangetal. EffectofTBDonAl0.1CoCrFeNi
+FIGURE9|Thecross-sectionofmicrostructureevolutionandatomiclocalstressdispersions,inwhichthestrainis0.05.(1)Stackingfault-twinboundarycrossing.
+(2)Stackingfault-stackingfaultcrossing.
+FIGURE10|Themicrostructureofnt-HEAs(λ=3.08nm)underdifferentstrains(A)2.6%,(B)3%,(C)10%,(D)15%.
+FrontiersinMaterials|www.frontiersin.org 8 March2022|Volume9|Article849051
+
+Zhangetal. EffectofTBDonAl0.1CoCrFeNi
+FIGURE11|Themicrostructureofnt-HEAs(λ=0.61nm)underdifferentstrains(A)2.6%,(B)3%,(C)10%,(D)15%.
+Asthemodelcontinuestobeloaded,thestackingfaultsgrow density twin model is lower, which further explains that part
+to the twin boundaries and are hindered. Due to the relatively ofthemainreasonfortheplasticdeformationofthismodelisdue
+highdensityoftwinboundaries,theabilityoftwinboundariesto to the accumulation of high-density dislocations. Immovable
+hinder the movement of dislocations is enhanced. Therefore, dislocations played an important role in the process. In
+defectssuchasstackingfaultsaremorelikelytogrowtothetwin addition, dislocations accumulate at the twin interface, causing
+boundaries after dislocation slip. Sessile stair-rod dislocations more amorphous phases to be produced.
+accumulate at the twin interface, and the dislocation density is When the strain reaches 10%, it can be seen that the
+significantly higher than the model with low twin density; The amorphous phase is easier to nucleate and diffuse due to high-
+martensitic transformation has only a very small part, which density twins. The amorphous phases in different regions are
+means that the closer twin spacing is not suitable for the connected during the diffusion process, and part of the
+generation of martensitic transformation. From the continuous bulk amorphous phase is formed under the
+comparison of Figures 6E–H, it can be observed that the interaction. When the strain reaches 15%, the amorphous
+density of immovable dislocations accumulated in the low- phase further expands. The increase in the average flow stress
+FrontiersinMaterials|www.frontiersin.org 9 March2022|Volume9|Article849051
+
+Zhangetal. EffectofTBDonAl0.1CoCrFeNi
+of the model is a comprehensive result of the model’s
+amorphization and dislocation accumulation.
+The overall deformation mode is mainly reflected in the
+increment of the twin density of the twin model. On the one
+hand, the repulsive force for dislocations close to the twin
+boundary further increases its yield strength. On the other
+hand, the twin boundary hinders the nucleation and
+propagation of dislocations during plastic deformation. The
+accumulation of immovable dislocations played a more
+important role, the formation of the amorphous phase and the
+further expansion of the interaction of the amorphous phase
+maintain the plastic deformation of the model.
+3.2.3 Plastic Deformation Behavior of the nt-HEAs
+With Twin Spacing of 0.61nm
+Forthemodelwithtwinspacingλ=0.61nm,thetwinspacingis
+the theoretical minimum twin boundary spacing composed of
+three atomic layers, and its unique deformation mechanism
+makes it have the highest yield stress and plasticity and the
+highestaverageflowstress.Toclarifyitsdeformationmechanism,
+a snapshot of its structure under different strains and the
+evolution of dislocation density are shown in Figure 11.
+From Figure 11A, it can be found that the source of
+dislocation is still emitted from the middle of the twin
+boundary, and the twin interface still maintains a relatively
+stable state, but unlike the low-density twin model, it is not
+generated by the Shockley Partial dislocation-guided stacking
+faults and other dislocation defects, ultra-close twin layers no
+longer support the generation of stacking faults in the shear
+direction. During the continued loading process, we found that
+duetotheultra-highdensityoftwingrainboundaries,theinitial
+disordereddislocationsourceexpansioncaneasilyextendtothe
+grain boundaries in one direction to form a small range of
+FIGURE12|Thecross-sectionofatomicshearstraindistributionsand
+amorphous phases, while the two-way expansion can easily
+volumetricstressatstrainof10%,15%.
+combine the two adjacent twin boundaries are connected. As
+the deformation increases, the amorphized area gradually
+expands. This indicates that the initiation of the plastic amorphous phase, the accumulation of part of the small
+deformation of nt-HEAs, which is composed of the smallest amorphous phase also makes the crystal orientation of the
+twin boundary spacing, is achieved through lattice distortion. small crystal grains tilt. When the strain reaches 15%, the
+Latticedistortionpreferentiallynucleatesfrombetweenthetwins, amorphous region further expands.
+and the continuous growth of the amorphous phase causes the Whycantheultra-highdensitytwinboundarydistancemodel
+twinboundariestolosecoherence.Thisismainlybecausewhen maintain higher flow stress? In order to further explore the
+thetwinboundarydistanceisreducedto0.61nm(3atomiclayer influence of the tensile process on the performance of the
+thickness), the repulsive force of the twin boundary for ultra-high-density twin model from the perspective of crystal
+dislocation nucleation and movement has reached or even structure, an atomic-scale analysis consisting of atomic shear
+exceeded the force required for the deformed nucleus of the strain distribution and local stress was carried out. The atomic
+lattice. Therefore, nt-HEAs can only produce a lot of lattice shear strain distributions and local stress distributions of the
+distortion with high critical stress during plastic deformation, modelwhenthestrainis10and15%areshowninFigure12.The
+sothismodelpresentsthehighestyieldstrength.Astheloading atomsofthemodelaredrawnbasedonthevaluesofvonMises
+continues,alargenumberofsmallamorphousphasescontinueto shear strain and volumetric stress.
+diffuse, and when two small amorphous phases meet, they Itcanbefoundthatwiththetensileloadingprocess,whetherit
+connect to form a large amorphous phase along the shear istheshearstressdistributionorthelocalvolumestress,thesetwo
+direction, as shown in the shadow defect in Figure 11D. key factors are mainly acting on the changes in the disordered
+Whenthestrainreaches10%,itisfoundthattheamorphous grainboundaries.Whatisinterestingisthatthehighaverageflow
+phase has been connected along the shear direction into a bulk stressoftheultra-highdensitytwinboundaryproposedbyShen
+amorphousphasesimilartothegrainboundary,whichhasplayed etal.(2021)ismainlystrengthenedbymartensitetransformation.
+aroleingrainrefinement;Intheprocessoftheformationofthe In Figure 6G, we have carried out relevant calculations in the
+FrontiersinMaterials|www.frontiersin.org 10 March2022|Volume9|Article849051
+
+Zhangetal. EffectofTBDonAl0.1CoCrFeNi
+FIGURE13|AnalysissnapshotofMTphasetransitionofthent-HEAswiththetwinboundaryspacingof6.78nm(A–D)and0.61nm(E–H)(CNAanalysisdiagram
+ontheleftandDXAanalysisdiagramontheright).
+FIGURE14|Thecross-sectionalviewofthedisplacementvectorsofatomsundertensionloadingatstrainof10and15%.
+plane stacking fault density and found that although a part of martensite transformation mechanism of the two different
+martensitic transformation does occur during the stretching cases are shown in Figure 13.
+process, in the process of calculating the local shear stress and Figure 14 shows the cross-sectional view of the atomic
+the local volume stress. The martensitic transformation did not displacement vectors of the ultra-high-density twins at strains
+show its prominent influence. of 10 and 15%. The displacement vector is very effective in
+In addition, the reason for the formation of martensite defining the position changes of the atoms during the
+transformation in the ultra-high density twin model (λ = stretching process. When tensile loading, due to the uneven
+0.61nm) is different from that in the model with lower twin amorphous phase, the atoms on both sides of the amorphous
+density (λ = 6.78nm). The martensite transformation in the phase are stretched and move asymmetrically along the y-axis
+ultra-high-density twin model is based on the sliding of two direction.Onesideoftheatommovesupward,andtheotherside
+adjacent FCC atomic layers when the small amorphous phase moves downward. This can also explain why part of the twin
+moves, so the martensite formed is along the twin boundary boundary is tilted. In addition, it shows that GB blocks and
+direction. The role of stretching in the vertical direction is changes the direction of atom displacement. It can also be seen
+relatively small; while the martensite in the low-density twin thatthegrainboundaryhindersthemovementofatoms.Asthe
+model is formed based on the adjacent SF-SF movement in the displacementvectorofatomsnearthegrainboundaryislarger,
+shear direction. This kind of martensite based on the shear and the atomic displacement vector inside the crystal grain is
+direction provides a relatively higher contribution due to the small, it is also explained from the perspective of atomic
+plastic deformation process of the nt-HEAs. The atomic displacement that the grain boundary plays a more important
+snapshots of the martensite formation process and the role in the plastic deformation process.
+FrontiersinMaterials|www.frontiersin.org 11 March2022|Volume9|Article849051
+
+Zhangetal. EffectofTBDonAl0.1CoCrFeNi
+4 CONCLUSION scientific predictions and useful references for the design of
+high-performance high-entropy alloys.
+In this paper, molecular dynamics simulation methods are
+used to study the mechanical behavior of nt-HEAs under
+tensileload,andtheeffectofthetwinboundarydistanceλon DATA AVAILABILITY STATEMENT
+the mechanical properties and deformation mechanism of
+nt-HEAs is systematically analyzed. The main The raw data supporting the conclusion of this article will be
+conclusions are: made available by the authors, without undue reservation.
+1. ThereisaHall–Petchrelationshipwiththedistancebetween
+twinboundaries,andthereisacriticalvalue(3.08nm)forthe AUTHOR CONTRIBUTIONS
+strengtheningeffectofnt-HEAsbythedistancebetweentwin
+boundaries.Therelationshipmakesthesensitivityoftheyield
+LZdesignedexperiments,carriedoutexperiments,andanalyzed
+strengthtothetwinboundaryspacingchangebeforeandafter
+experimental results, wrote the manuscript. HX designed
+the critical value. The reason is that the decreasing twin
+experiments, carried out experiments, and analyzed
+spacing is no longer suitable for the growth of large
+experimental results. DZ designed experiments, and analyzed
+complete stacking faults, which changes the deformation
+experimental results. ZL designed experiments. SM designed
+mechanism of the low twin spacing model.
+experiments.
+2. In the process of plastic deformation, nt-HEAs with λ ≥
+3.08nm produces a large number of dislocations and forms
+plugging at the twin boundaries. The strengthening of the
+dislocationaccumulationleadstohighflowstress.Theresults FUNDING
+show that stacking faults, secondary twins and martensitic
+ProjectsupportedbytheNationalNaturalScienceFoundationof
+transformationalsoprovidesomesupportfordeformation.As
+China(GrantNo.11602158).ProjectsupportedbytheNational
+thedistance between twin boundaries decreases, thenumber
+Natural Science Foundation of ShanXi Province, China (Grant
+ofdislocationsgeneratedduringthedeformationofnt-HEAs
+No.201901D111088).ProjectsupportedbytheNationalNatural
+becomes less and less, and the role of amorphization in its
+Science Foundation of China (Grant No. 11972244).
+plastic deformation process gradually appears.
+3. When λ < 0.61nm, the plastic deformation of nt-HEAs is
+dominated by amorphization caused by lattice distortion,
+accompanied by martensitic transformation, which is ACKNOWLEDGMENTS
+different from the martensitic transformation in the
+conventional sense. Here, the martensitic transformation is We gratefully acknowledge the support from the National
+caused by its special twin spacing. With the decrease of the Natural Science Foundation of China (Grant No. 11602158),
+twinboundaryspacing,themajordeformationmechanismof the National Natural Science Foundation of China (Grant No.
+nt-HEAshaschangedfromdislocationsliptotheamorphous 11972244), and the National Natural Science Foundation of
+phase.Theresultsobtainedinthispapercanprovideadvanced ShanXi province, China (Grant No. 201901D111088).
+REFERENCES Faken,D.,andJónsson,H.(1994).SystematicAnalysisofLocalAtomicStructure
+Combinedwith3DComputerGraphics.Comput.Mater.Sci.2(2),279–286.
+doi:10.1016/0927-0256(94)90109-0
+Afkham,Y.,Bahramyan,M.,Mousavian,R.T.,andBrabazon,D.(2017).Tensile Farkas,D.,andCaro,A.(2020).ModelInteratomicPotentialsforFe-Ni-Cr-Co-Al
+PropertiesofAlCrCoFeCuNiGlassyAlloys:AMolecularDynamicsSimulation High-Entropy Alloys. J. Mater. Res. 35 (22), 3031–3040. doi:10.1557/jmr.
+Study.Mater.Sci.Eng.A698,143–151.doi:10.1016/j.msea.2017.05.057 2020.294
+Chen, W., Fu, Z., Fang, S., Xiao, H., and Zhu, D. (2013). Alloying Behavior, Fourmont,A.,LeGallet,S.,Politano,O.,Desgranges,C.,andBaras,F.(2020).
+Microstructure and Mechanical Properties in a FeNiCrCo0.3Al0.7 High EffectsofPlanetaryballMillingonAlCoCrFeNiHighEntropyAlloysPrepared
+Entropyalloy.Mater.Des.51,854–860.doi:10.1016/j.matdes.2013.04.061 by Spark Plasma Sintering: Experiments and Molecular Dynamics Study.
+Chuang, M.-H., Tsai, M.-H., Wang, W.-R., Lin, S.-J., and Yeh, J.-W. (2011). J.AlloysComp.820,153448.doi:10.1016/j.jallcom.2019.153448
+Microstructure and Wear Behavior ofAlxCo1.5CrFeNi1.5Tiy High-Entropy Guo, X., and Xia, Y. (2011). Repulsive Force vs. Source Number: Competing
+Alloys.ActaMaterialia59(16),6308–6317.doi:10.1016/j.actamat.2011.06.041 MechanismsintheYieldofTwinnedGoldNanowiresofFiniteLength.Acta
+Doan,D.-Q.,Fang,T.-H.,andChen,T.-H.(2020).InfluencesofGrainSizeand Materialia59(6),2350–2357.doi:10.1016/j.actamat.2010.12.031
+Temperature on Tribological Characteristics of CuAlNi Alloys under Hirel,P.(2015).Atomsk:AToolforManipulatingandConvertingAtomic
+Nanoindentation and Nanoscratch. Int. J. Mech. Sci. 185, 105865. doi:10. Data Files. Comp. Phys. Commun. 197, 212–219. doi:10.1016/j.cpc.2015.
+1016/j.ijmecsci.2020.105865 07.012
+Dong,Q.,Chen,Z.,Wang,C.,Zhou,K.,andWei,J.(2021a).PartialSlipContactof Kumar,N.,Ying,Q.,Nie,X.,Mishra,R.S.,Tang,Z.,Liaw,P.K.,etal.(2015).High
+MaterialswithVerticallyAlignedCracksNearSurface.Eng.FractureMech.245, Strain-RateCompressiveDeformationBehavioroftheAl0.1CrFeCoNiHigh
+107557.doi:10.1016/j.engfracmech.2021.107557 Entropyalloy.Mater.Des.86,598–602.doi:10.1016/j.matdes.2015.07.161
+Dong,Q.,Chen,Z.,Zhou,K.,andHe,D.(2021b).FrettingContactofLayered Li, J., Chen, H., Li, S., Fang, Q., Liu, Y., Liang, L., et al. (2019). Tuning the
+MaterialswithVerticalCracksNearSurfaces.Int.J.Mech.Sci.198,106361. MechanicalBehaviorofHigh-EntropyAlloysviaControllingCoolingRates.
+doi:10.1016/j.ijmecsci.2021.106361 Mater.Sci.Eng.A760,359–365.doi:10.1016/j.msea.2019.06.017
+FrontiersinMaterials|www.frontiersin.org 12 March2022|Volume9|Article849051
+
+Zhangetal. EffectofTBDonAl0.1CoCrFeNi
+Li, J., Fang, Q., Liu, B., Liu, Y., and Liu, Y. (2016). Mechanical Behaviors of Wu,W.,Ni,S.,Liu,Y.,Liu,B.,andSong,M.(2017).AmorphizationatTwin-Twin
+AlCrFeCuNi High-Entropy Alloys under Uniaxial Tension via Molecular Intersected Region in FeCoCrNi High-Entropy alloy Subjected to High-
+Dynamics Simulation. RSC Adv. 6 (80), 76409–76419. doi:10.1039/ Pressure Torsion. Mater. Characterization 127, 111–115. doi:10.1016/j.
+C6RA16503F matchar.2017.02.027
+Lu, K., Lu, L., and Suresh, S. (2009). Strengthening Materials by Engineering Xiao,J.,andDeng,C.(2020).ContinuousStrengtheninginNanotwinnedHigh-
+CoherentInternalBoundariesattheNanoscale.Science324(5925),349–352. EntropyAlloysEnabledbyMartensiteTransformation.Phys.Rev.Mater.4(4),
+doi:10.1126/science.1159610 043602.doi:10.1103/PhysRevMaterials.4.043602
+Ma,S.G.,Zhang,S.F.,Gao,M.C.,Liaw,P.K.,andZhang,Y.(2013).ASuccessful Yan,S.,HQin,Q.,andZhong,Z.(2020).OntheReal-TimeAtomisticDeformation
+Synthesis of the CoCrFeNiAl0.3 Single-Crystal, High-Entropy Alloy by of Nano Twinned CrCoFeNi High Entropy alloy. Nanotechnology 31 (38),
+Bridgman Solidification. JOM 65 (12), 1751–1758. doi:10.1007/s11837-013- 385705.doi:10.1088/1361-6528/ab99ef
+0733-x Yan, Z., and Lin, Y. (2019). Lomer-Cottrell Locks with Multiple Stair-Rod
+Saito,T.,Furuta,T.,Hwang,J.-H.,Kuramoto,S.,Nishino,K.,Suzuki,N.,etal.(2003). Dislocations in a Nanostructured Al alloy Processed by Severe Plastic
+Multifunctional Alloys Obtained via a Dislocation-free Plastic Deformation Deformation.Mater.Sci.Eng.A747,177–184.doi:10.1016/j.msea.2019.01.066
+Mechanism.Science300(5618),464–467.doi:10.1126/science.1081957 Yeh,J.-W.,Chen,S.-K.,Lin,S.-J.,Gan,J.-Y.,Chin,T.-S.,Shun,T.-T.,etal.(2004).
+Sharma, A., and Balasubramanian, G. (2017). Dislocation Dynamics in NanostructuredHigh-EntropyAlloyswithMultiplePrincipalElements:Novel
+Al0.1CoCrFeNi High-Entropy alloy under Tensile Loading. Intermetallics AlloyDesignConceptsandOutcomes.Adv.Eng.Mater.6(5),299–303.doi:10.
+91,31–34.doi:10.1016/j.intermet.2017.08.004 1002/adem.200300567
+Shen, T.-Z., Song, H.-Y., and An, M.-R. (2021). Effect of Twin Boundary on Zhao,S.,Hahn,E.N.,Kad,B.,Remington,B.A.,Wehrenberg,C.E.,Bringa,E.
+Mechanical Behavior of Cr26Mn20Fe20Co20Ni14 High-Entropy alloy by M.,etal.(2016).AmorphizationandNanocrystallizationofSiliconunder
+Molecular Dynamics Simulation. Acta Phys. Sin. 70 (18), 186201. doi:10. Shock Compression. Acta Materialia 103, 519–533. doi:10.1016/j.actamat.
+7498/aps.70.20210324 2015.09.022
+Shun,T.-T.,andDu,Y.-C.(2009).MicrostructureandTensileBehaviorsofFCC Zhao,S.,Li,Z.,Zhu,C.,Yang,W.,Zhang,Z.,Armstrong,D.E.J.,etal.(2021).
+Al0.3CoCrFeNiHighEntropyalloy.J.AlloysComp.479(1–2),157–160.doi:10. AmorphizationinExtremeDeformationoftheCrMnFeCoNiHigh-Entropy
+1016/j.jallcom.2008.12.088 alloy.Sci.Adv.7(5),eabb3108.doi:10.1126/sciadv.abb3108
+Song,H.Y.,andSun,Y.(2015).EffectofCoherentTwinBoundaryandStacking Zhao,X.,Lu,C.,Tieu,A.K.,Pei,L.,Zhang,L.,Su,L.,etal.(2017).Deformation
+FaultonDeformationBehaviorsofCopperNanowires.Comput.Mater.Sci. Mechanisms in Nanotwinned Copper by Molecular Dynamics Simulation.
+104,46–51.doi:10.1016/j.commatsci.2015.03.052 Mater.Sci.Eng.A687,343–351.doi:10.1016/j.msea.2016.12.061
+Stukowski,A.,Bulatov,V.V.,andArsenlis,A.(2012).AutomatedIdentification
+andIndexingofDislocationsincrystalInterfaces.Model.Simul.Mater.Sci.Eng. ConflictofInterest:Theauthorsdeclarethattheresearchwasconductedinthe
+20(8),085007.doi:10.1088/0965-0393/20/8/085007 absenceofanycommercialorfinancialrelationshipsthatcouldbeconstruedasa
+Stukowski,A.(2014).ComputationalAnalysisMethodsinAtomisticModelingof potentialconflictofinterest.
+Crystals.JOM66(3),399–407.doi:10.1007/s11837-013-0827-5
+Stukowski,A.(2010).VisualizationandAnalysisofAtomisticSimulationData Publisher’sNote:Allclaimsexpressedinthisarticlearesolelythoseoftheauthors
+withOVITO-TheOpenVisualizationTool.Model.Simul.Mater.Sci.Eng.18 anddonotnecessarilyrepresentthoseoftheiraffiliatedorganizations,orthoseof
+(1),015012.doi:10.1088/0965-0393/18/1/015012 thepublisher,theeditorsandthereviewers.Anyproductthatmaybeevaluatedin
+Tadmor,E.(2004).AFirst-PrinciplesMeasurefortheTwinnabilityofFCCMetals. thisarticle,orclaimthatmaybemadebyitsmanufacturer,isnotguaranteedor
+J.Mech.Phys.Sol.52(11),2507–2519.doi:10.1016/j.jmps.2004.05.002 endorsedbythepublisher.
+Thompson,A.P.,Aktulga,H.M.,Berger,R.,Bolintineanu,D.S.,Brown,W.M.,
+Crozier,P.S.,etal.(2022).LAMMPS-aFlexibleSimulationToolforParticle- Copyright © 2022 Zhang, Xin, Zhao, Li and Ma. This is an open-access article
+BasedMaterialsModelingattheAtomic,Meso,andContinuumScales.Comp. distributedunderthetermsoftheCreativeCommonsAttributionLicense(CCBY).
+Phys.Commun.271,108171.doi:10.1016/j.cpc.2021.108171 Theuse,distributionorreproductioninotherforumsispermitted,providedthe
+Wang,W.-R.,Wang,W.-L.,Wang,S.-C.,Tsai,Y.-C.,Lai,C.-H.,andYeh,J.-W. original author(s) andthecopyright owner(s) arecredited andthattheoriginal
+(2012).EffectsofAlAdditionontheMicrostructureandMechanicalProperty publicationinthisjournaliscited,inaccordancewithacceptedacademicpractice.
+ofAlxCoCrFeNiHigh-EntropyAlloys.Intermetallics26,44–51.doi:10.1016/j. No use, distribution or reproduction is permitted which does not comply with
+intermet.2012.03.005 theseterms.
+FrontiersinMaterials|www.frontiersin.org 13 March2022|Volume9|Article849051
+

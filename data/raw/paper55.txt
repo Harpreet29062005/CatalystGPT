@@ -1,0 +1,1423 @@
+processes
+Article
+Surface Modified CoCrFeNiMo High Entropy Alloys for
+Oxygen Evolution Reaction in Alkaline Seawater
+ZhibinChen1,KangHuang1,TianyiZhang2,* ,JiuyangXia1,JunshengWu1,ZequnZhang1
+andBoweiZhang1,*
+1 InstituteforAdvancedMaterialsandTechnology,UniversityofScienceandTechnologyBeijing,
+Beijing100083,China
+2 SchoolofEnergyPowerandMechanicalEngineering,NorthChinaElectricPowerUniversity,
+Beijing102206,China
+* Correspondence:50202705@ncepu.edu.cn(T.Z.);bwzhang@ustb.edu.cn(B.Z.)
+Abstract:Electrolysisofseawaterisapromisingtechniquetodesalinateseawaterandproducehigh-
+purityhydrogenproductionforfreshwaterandrenewableenergy,respectively.Fortheapplication
+ofseawaterelectrolysistechniqueonalargescale,simplicityofmanufacturemethod,repeatability
+ofcatalystproducts,andstableproductqualityisgenerallyrequiredintheindustry.Inthiswork,
+afacile,one-step,andmetalsalt-freefabricationmethodwasdevelopedfortheseawater-oxygen-
+evolution-activecatalystscomposedofCoCrFeNiMolayereddoublehydroxidearrayself-supported
+onCoCrFeNiMohighentropyalloysubstrate.Theobtainedcatalystsshowimprovedperformance
+foroxygenevolutionreactioninalkalineartificialseawatersolution.Thebest-performingsample
+deliveredthecurrentdensitiesof10, 50, and100mAcm−2 atlowoverpotentialsof260.1, 294.3,
+and308.4mV,respectively. Inaddition,highstabilityisalsoachievedsincenodegradationwas
+observedoverthechronoamperometrytestof24hattheoverpotentialcorrespondingto100mAcm−2.
+Furthermore,afailuremechanismOERactivityofmulti-elementLDHscatalystswasputforwardin
+ordertoenhancecatalyticperformanceanddesigncatalystswithlong-termdurability.
+Keywords: surface modification; seawater oxidation; OER catalyst; layered double hydroxide;
+Citation:Chen,Z.;Huang,K.;Zhang, CoCrFeNiMohighentropyalloy
+T.;Xia,J.;Wu,J.;Zhang,Z.;Zhang,B.
+SurfaceModifiedCoCrFeNiMoHigh
+EntropyAlloysforOxygenEvolution
+ReactioninAlkalineSeawater. 1. Introduction
+Processes2023,11,245. https://
+Foreseeableenergycrisesandglobalenvironmentalpollutionhavebeenconsidered
+doi.org/10.3390/pr11010245
+irreconcilableissuesofhumansociety[1,2]. Fortunately,hydrogenfuel,whichcouldbe
+AcademicEditors:YiminZengand fabricatedviaelectrochemicalwatersplitting,isanewtypeofenergyresourcewithhigh
+KaiyangLi heat density and harmless combustion product, and widely assumed as the ideal and
+achievablealternativetonon-renewableenergyresources[3–8]. Electrochemical-driven
+Received:15December2022
+watersplitting, comprisedoftwohalf-reactionsincludinghydrogenevolutionreaction
+Revised:5January2023
+(HER)takingplaceonthecathodeandoxygenevolutionreaction(OER)occurringonthe
+Accepted:10January2023
+anode to generate H and O respectively represents a facile and sustainable approach
+Published:12January2023 2 2
+withzeroemissionandzeroresourceconsumption[9–11]. Duetomultipleproton-coupled
+electrontransferprocessesduringthereaction,OERshowssluggishintrinsickineticsand
+requiresalargeoverpotentialthanHER,whichresultsinadditionalenergylossandseverely
+Copyright: © 2023 by the authors. impedesthecommercialapplicationofelectrochemicalwatersplitting[12]. Additionally,in
+Licensee MDPI, Basel, Switzerland. comparisonwithseawaterwhichaccountsfor96.5%ofwaterresourcesonEarth’ssurface
+This article is an open access article and represents a nearly unlimited resource, a freshwater resource could not afford the
+distributed under the terms and unreasonable allocation of hydrogen preparation of water splitting, which may lead to
+conditionsoftheCreativeCommons unnecessaryconflicts,especiallyinwater-deficientregions[13–15]. Therefore,apressing
+Attribution(CCBY)license(https:// demandforthepracticalapplicationofdirectseawaterelectrolysiswasstimulateddespite
+creativecommons.org/licenses/by/ morechallengesthatremainedtosurmount.
+4.0/).
+Processes2023,11,245.https://doi.org/10.3390/pr11010245 https://www.mdpi.com/journal/processes
+
+Processes2023,11,245 2of17
+The major challenge originates from the existence of chloride anions, which could
+resultinthedegradationorcollapseoftheelectrodes,poorlong-termstability,andchlorine
+evolutionreaction(CER)aswell[16]. CERrepresentsanundesirablereactionoccurredon
+theanodeduringseawaterelectrolysiswhichleadstoextraandharmfulproducts,andalso
+possessesakineticadvantagewhencompetingwithOERasaresultofitsfaciletwo-electron
+oxidationpath[17]. Meanwhile,lowconcentrationsofionsinnaturalseawatercouldnot
+afford high-speed electrons transfer on the electrodes, further leading to undesirably
+low-efficient performance for hydrogen [18]. The insoluble precipitates formed on the
+surface of electrodes due to the presence of Mg2+/Ca2+ ions, along with the inevitable
+fluctuationsoflocalpHnearbyelectrodes,wouldalsoattenuatethelong-termdurabilityof
+electrodes[19]. Fortunately,alkalizingtheelectrolytecouldtotallyavoidtheunsatisfied
+ionscontent; theinsolubleprecipitates, aswellasCERonaccountofitsoverpotentials,
+is about 480 mV larger than that of OER in alkaline media according to the Pourbaix
+diagram [20]. Additionally, reinforcing the intrinsic activity of electrodes (catalysts) is
+another key part of boosting effective seawater electrolysis [21–24]. In general, Ir/Ru-
+basedmaterials(suchasIrO , RuO )havebeenregardedasstate-of-the-artcandidates
+2 2
+forwaterelectrolysis,whiletheirscarcityandexpensivenessofthemactasthebottleneck
+fortheirwidespreaduse[25,26]. Currently,variousnon-preciousmetal-basedcatalysts,
+outperformingIrO /RuO inOER,havebeenexploredasthethrivingdevelopmentof
+2 2
+catalysts[27–32]. However,thecomplicatedcompositionandcumbersomepreparation
+proceduresinevitablylimitthelarge-scalepreparationofcatalystsregardlessofthesize
+of electrodes in industrial production, making seawater electrolysis still an airy-fairy
+technologyforciviluse. Tothisend,itishighlyimperativetoexploreafacileandone-step
+manufacturingtechniqueforcatalystswithlong-termdurability.
+Overthepastdecades,tremendouseffortshavebeendedicatedtoseekingthefabrica-
+tionofcatalystsassembledonelectrodes,andthemostcommonlyemployedroutesinclude
+hydro/solvothermal[33–36],electrodeposition[37–39],co-precipitation[40–42],cathode
+plasmaelectrolyticdeposition[43–45],andcationexchange[46–48],usedsolelyorcoopera-
+tivelyforcatalysts[49,50]. Nevertheless,whilerealisticreproducibility,controllability,and
+practicabilityaretakenintoconsideration,alargeproportionofreportedcatalystscouldnot
+satisfytherequirementsoflowcost,lowenergyconsumption,shortmanufacturingcycle,
+andhighyieldrateintheindustry. Therefore,exploringanddevelopingself-supported
+catalysts with outstanding activity for OER in a one-step and industrially compatible
+approachisstillachallenge. Metalcorrosionisaspontaneousoxidation–reductionreac-
+tionprocessinthenaturalenvironment,andalwaysbringsfunctionaldeteriorationand
+isgreatlyinevitabletotheindustrialmetallicproducts,andcauseseconomiclosstothe
+industry as well. However, taking advantage of the spontaneity and convenience, the
+harmfulcorrosionwhichgenerallyoccursonthesurfaceofmetallicmaterialandformsthe
+corrosionlayerscouldbeappliedtomodifythesurfaceandpreparecatalystsdirectlyused
+aselectrodes,andthissurfacemodificationmethodbycorrosionisnamedcorrosionengi-
+neering. In-situgrownandtridimensionalconstructionpreparedbycorrosionengineering
+increasestheactivesurfacewithactivesitesandimprovesthecatalyticperformanceof
+metallic electrodes, which also omits the assemblage work of electrodes with catalysts
+andminimizeslaborandtimecost. Wuetal.[51]reportedthatthehighlyactivecatalyst
+consistedofultrathinFe-dopedNi S arraysself-supportedontoNifoamandwasobtained
+3 2
+viaalow-costandscaled-upchemicaletchingmethodforbothOERandHER.In1.0M
+KOH,theimprovedFe Ni S @NFcatalystrequiresoverpotentialsofonly72mVand
+0.9 2.1 2
+252mVtoachievethecurrentdensityof10mAcm−2and100mAcm−2forHERandOER,
+respectively. Xiaetal.[52]developedamicroorganismcorrosionstrategywiththehelp
+ofanaerobicsulfate-reducingbacteriatoprepareNi(Fe)OOH–FeS catalystsonNifoam,
+x
+whichexhibitedremarkableelectrocatalyticperformanceforOERinalkalineelectrolyte,
+requiring a low overpotential of 220 mV to achieve the current density of 10 mAcm−2.
+Thus,thebridgebetweencorrosionengineeringandenergyconversiontechnologieswas
+preliminarilyconstructed,showingthepotentialforinfiniteenergyresources. Moreover,
+
+Processes2023,11,245 3of17
+benefitingfromthesynergisticeffect,numerouscatalystsconsistingofmultipleelements
+show improved electrochemical activity and intrinsic charge transfer than unary or bi-
+nary material [53,54]. However, limited by substrate, few efforts have been devoted to
+multiple-elementcatalysts.
+Generally, the direct product prepared by corrosion engineering without extra ad-
+ditiveismetal(oxy)hydroxidessuchaslayereddoublehydroxides(LDHs),whichhave
+beenwidelyconsideredthemostpromisingcandidatesowingtotheirtremendousspecific
+surfaceareas,high-densityactivesites,andflexiblevalencestates,andhasalsobeencon-
+firmedtobetheactualspecieswithcatalyticperformanceforOER[55–57]. Furthermore,
+hydroxidelayersontheelectrodescouldblocktheinvasionofCl− toavoidthecollapseof
+electrodes[24,58]. Strasseretal.[16]firstreportedthat100%Faradayefficiencytowards
+OERwasrealizedonaNiFe-LDHcatalystwithbrilliantelectrocatalyticperformancein
+aweakalkalinestimulatedseawater(0.1MKOH+0.5MNaCl). Duandco-workers[59]
+synthesized NiFe-LDH nanosheet arrays on a carbon fiber cloth, and the as-prepared
+NiFe-LDH/CC composites with a Ni/Fe ratio of 6:4 showed the best performance for
+OER,requiringtheoverpotentialof238mVtoachieve10mAcm−2inalkalineseawater.
+Nevertheless,consideringthesimplicityofthecorrosionengineeringapproachwithoutthe
+auxiliaryadditiveofmetalsalt,eachkindofmetalelementshouldoriginatefromthemetal-
+licsubstrate.Thus,theoptionofmetallicsubstratesignificantlyimpactstheelectrochemical
+activitiesoftheproduct,whichwouldserveasanelectrocatalyst/electrodefurther. The
+highentropyalloy(HEA)asanemergingmetalmaterialexhibitsaremarkablediversity
+ofcomposedelementsandsatisfactoryconductivity,conformingtotherequirementsfor
+electrodespreparedviathecorrosionengineeringmethod. Thesignificantadvantageof
+highentropyalloysisthediversityofcomposedelements,alongwiththeircontentleads
+to no additional metal salts or binders being required in the fabrication process for the
+catalyst. Thus,HEAisallowedtoformnewandtailorableactivesitesinmultipleelements
+adjacenttoeachother,andtheinteractioncouldbetailoredbyrationalselectionofelement
+configurationandcomposition,leadingtoanachievableoperationofthevariouscatalytic
+propertiesinonematerial. Moreover,thebulkhighentropyalloyscouldbereusedfora
+superlongservicelife,whichisbeneficialtoreducethecostofcatalysts[60–64].
+Herein,weestablishthefacileandone-stepcorrosionengineeringapproachtoin-situ
+synthesizeCoCrFeNiMoquinaryLDHs(CoCrFeNiMo-LDHs)arrayontoCoCrFeNiMo
+highentropyalloy(CoCrFeNiMo-HEA),namedCoCrFeNiMo-LDHs/HEA.Duringthe
+hydrothermalprocess,corrosionoccurredonthesurfaceregionwiththestimulationof
+NaOHelectrolyteandheatedenvironmenttoreleaseandoffermetalionsforLDHsmaterial.
+Thesampleswithcorrosionengineeringtreatmentinthisworkexhibitedimprovedcatalytic
+performanceforOER.Morespecifically,theCoCrFeNiMo-LDHs/HEAcatalystprepared
+in 3 M NaOH solution at 130 ◦C with 12 h treatment duration (including heat-up time
+andholdingtime)possessesthebestperformanceamongthesamples,manifestingalow
+overpotentialof260.1mV,294.3mV,and308.4mVwererequiredinasimulatedalkaline
+seawater electrolyte (containing 1.0 M KOH + 0.5 M NaCl) for the current densities of
+10 mAcm−2, 50 mAcm−2, and 100 mAcm−2, respectively. This work offers a failure
+mechanismandanewthoughttorationaldesignandlarge-scalemanufacturefordurable
+catalystsforseawatersplitting.
+2. MaterialsandMethods
+2.1. PreparationofCoCrFeNiMo-LDHsonHEA
+The chemical composition of CoCrFeNiMo high entropy alloy was provided in
+TableS1. AseriesofCoCrFeNiMo-LDHs/HEAelectrodeswerepreparedbyaone-step
+corrosionengineeringapproach.CoCrFeNiMo-HEA(10×15×0.5mm)underwentthesur-
+facepretreatmentofgrindandultrasonicwashwithdeionizedwaterandethanoltoremove
+originalmetaloxidesandenlargetheregionforcorrosion. Afterthat,theCoCrFeNiMo-
+HEAwasdriedat60◦Cfor12hunderavacuum. Forthebestelectrocatalyticperformance,
+0.06molNaOHwasdissolvedin20mLofdeionizedwaterwithvigorousstirringfor30min
+
+Processes2023,11,245 4of17
+todispersethesolutionevenly. Subsequently,theNaOHsolutionwastransferredintoa
+Teflonautoclave,followedbythatas-preparedCoCrFeNiMo-HEAwassubmergedintothe
+NaOHsolutionintheTeflonautoclave.Next,theTeflonautoclavewasmaintainedat130◦C
+for12h. Afternaturallycoolingthesystemtoroomtemperature,thesamplewastaken
+outandcleanedwithdeionizedwatertoremovetheattachedsolution. Finally,thegolden
+yellow sample was dried at 60 ◦C overnight, and a kind of CoCrFeNiMo-LDHs/HEA
+electrodewasacquired. TheobtainedelectrodesarelabeledasLDHs-xM-yh(xMandy
+hcorrespondingtotheconcentrationofNaOHsolutionandthekeptdurationat130◦C),
+basedontheparameterofpreparation.
+2.2. Characterization
+Scanning electron microscope (SEM, Regulus 8100) and transmission electron mi-
+croscopy(TEM,TECNAIF20equippedwithenergy-dispersivespectrometry)wereem-
+ployedtoinvestigatethemorphologyandmicrostructureofthesamples. Grazingincident
+X-ray diffraction patterns of the products were recorded on a Brucker D8 ADVANCE
+X-ray diffractometer with Cu-Kα radiation and a 2θ angle ranging from 10◦ to 90◦ at a
+scanningrateof5◦ min−1. X-rayphotoelectronspectroscopy(XPS)wasperformedona
+ThermoESCALAB250XI.Alldataofthebindingenergieswerecalibratedusingthevalue
+ofC1sof284.8eV.Inductivelycoupledplasma-opticalemissionspectroscopy(ICP-OES)
+measurementwasconductedbyusinganAgilentICPOES730.
+2.3. ElectrochemicalMeasurements
+SincethedominantlycomposedionsofNa+andCl−areinseawater,0.5MNaClaque-
+oussolutionisgenerallyassumedasanartificialsubstituteforseawater. Electrochemical
+measurementsin1MKOH+0.5MNaClaqueoussolutionfortheOERtestwereperformed
+on an electrochemistry workstation (Autolab PGSTAT 302N) at room temperature in a
+standardthree-electrodesystemwheretheas-preparedCoCrFeNiMo-LDHs/HEAwas
+usedastheworkingelectrode,agraphiterodwasemployedasthecounterelectrode,and
+Ag/AgClelectrodesaturatedKClwasemployedasthereferenceelectrode,respectively.All
+thepotentialsinthelinearsweepvoltammetry(LSV)testwerereferencedtothereversible
+hydrogenelectrodeaccordingtotheformula[65]:
+E =E +0.197V+0.059×pH (1)
+RHE Ag/AgCl
+ThepolarizationcurvesofOERwereevaluatedbyLSVwithascanrateof10mV·s−1,
+and all the LSV curves in this work were corrected with iR compensation because of
+theresistancefromtheelectrolyte. Theoverpotentialofsampleswascalculatedviathe
+formula[66]:
+η(V)=E −1.23V (2)
+RHE
+Electrochemicalimpedancespectroscopy(EIS)measurementsforsampleswereper-
+formedwiththesameconditionofafrequencyrangefrom0.01Hzto100KHz.Thevalueof
+doublelayeredcapacitance(C )ofthesampleswascalculatedandusedforthecomparison
+dl
+oftheelectrochemicalsurfacearea(ECSA)amongsamples. TheC valuewasestimated
+dl
+byCVcurvesinthenon-faradaicpotentialrangeatdifferentscanratesof10,30,50,70,90,
+and110mV·s−1. Thechargingcurrentdensitydifferences(j=j −j )werelinearwiththe
+a c
+scanrates,andthehalfvalueoftherelevantslopecorrespondstotheC .
+dl
+A Chronoamperometry test was employed to obtain stability of the catalyst at the
+potentialcorrespondingtothecurrentdensityof100mAcm−2.
+3. ResultsandDiscussion
+Theultra-evenlyquinaryCoCrFeNiMoLDHsnanosheetsanchoredontoCoCrFeNiMo-
+HEA,servingasthehigh-efficiencycatalystandpracticalanodewithoutfurthertreatment
+inelectrocatalyticseawatersplitting,werefabricatedviaaone-stepandfacilehydrothermal
+protocolasschematicallypresentedinScheme1. Therein,eachmetalion,continuously
+
+Processes 2023, 11, x FOR PEER REVIEW 5 of 17
+3. Results and Discussion
+The ultra‐evenly quinary CoCrFeNiMo LDHs nanosheets anchored onto CoCrFeN‐
+iMo‐HEA, serving as the high‐efficiency catalyst and practical anode without further
+treatment in electrocatalytic seawater splitting, were fabricated via a one‐step and facile
+Processes2023,11,245 5of17
+hydrothermal protocol as schematically presented in Scheme 1. Therein, each metal ion,
+continuously released from the surface of CoCrFeNiMo‐HEA during the sequential cor‐
+rosion process under the stimuli of heating and alkaline condition, continuously and sim‐
+releasedfromthesurfaceofCoCrFeNiMo-HEAduringthesequentialcorrosionprocess
+ultaneously combined with OH− to synthesize the compound of CoCrFeNiMo‐LDHs, and
+under the stimuli of heating and alkaline condition, continuously and simultaneously
+ultimately, followed by the nucleation on the surface of CoCrFeNiMo‐HEA, and growth
+combinedwithOH− tosynthesizethecompoundofCoCrFeNiMo-LDHs,andultimately,
+in the morphology of CoCrFeNiMo‐LDHs as time progress. For further investigation,
+followedbythenucleationonthesurfaceofCoCrFeNiMo-HEA,andgrowthinthemor-
+NaOH solutions with different concentrations and different processing duration, includ‐
+phologyofCoCrFeNiMo-LDHsastimeprogress.Forfurtherinvestigation,NaOHsolutions
+ing heating time together with holding time, were set up at 130 °C in the hydrothermal
+withdifferentconcentrationsanddifferentprocessingduration,includingheatingtime
+pr
+to
+o
+g
+c
+e
+e
+t
+d
+h
+u
+e
+r
+r
+e
+w
+i
+i
+l
+t
+l
+h
+us
+h
+t
+o
+r
+l
+a
+d
+t
+i
+e
+n
+d
+g
+i
+t
+n
+im
+S
+e
+c
+,
+h
+w
+e
+e
+m
+re
+e
+s e
+1
+t
+t
+u
+o
+p
+p
+a
+r
+t
+o
+1
+d
+30
+uc◦e
+C
+s
+in
+am
+th
+p
+e
+l
+h
+e
+y
+s
+d
+p
+r
+o
+ot
+s
+h
+s
+e
+e
+r
+s
+m
+sin
+al
+g
+p
+d
+ro
+i
+c
+ff
+e
+e
+d
+r
+u
+e
+r
+n
+e
+t
+il
+L
+lu
+D
+s
+H
+tra
+s
+t e
+m
+d
+or‐
+phinolSocghye maned1 ctaotaplyrotidcu pceerfsoarmmpalenscep.o Tshseesrseiinng, tdhieff ceorennctenLtDraHtisomn oorf pNhaoOloHgy soalnudticoant,a ilnyctilcud‐
+inpge r0f.o1r mMa, n1c Me.,T 3h eMre,i n5 ,Mth,e acnodn c7e nMtr,a wtioenreo cfaNrraiOedH osuotlu ftoior nc,oinnccelundtrinatgio0n.1‐dMe,p1eMnd,e3nMcy, 5evMo,lu‐
+tioannd o7f MCo,wCreFreeNcairMrieod‐LoDuHtfso.r Oconn cthenet roatthioenr -hdaenpedn, dpernoccyesesvionlgu tdiounraotfioCnosC roFfe 8N hiM, 1o2-L hD, H1s6. h,
+anOdn 2t4h eh owthereer shealnecdt,epdr ionc etismsine‐gddepuerantdioennscyo fev8ohlu,t1i2onh ,ex1p6ehr,imanednt2s,4 rheswpeecrteivseellyec. ted in
+time-dependencyevolutionexperiments,respectively.
+Scheme1.SchematicillustrationforthepreparationprocessofCoCrFeNiMo-LDHs/HEAcatalysts.
+Scheme 1. Schematic illustration for the preparation process of CoCrFeNiMo‐LDHs/HEA catalysts.
+Inthecontextdescribedabove,thesurfacetopographyofeachsampleobservedby
+In the context described above, the surface topography of each sample observed by
+SEMwasusedtoextrapolatethegrowthmechanismofCoCrFeNiMo-LDHs. Figure1b,c,
+SEcoMrr ewsapso nudseindg toto etxhtreaspuorlfaatcee tmheo rgprhowolothg ymoefchLaDnHissm-0 .o1f MCo-1C2rhFeaNndiMLoD‐LHDs-H1sM. F-1ig2uhr,e r1eb-,c,
+cosrpreecstpivoenlyd,irnegv etaol tthhee isnuirtifaalcset amgeoropfhthoeloggryo woft hLsDtaHtes‐o0f.1L DMH‐1s2n ahn aonshde eLtDswHhs‐e1r eMin‐L12D Hh,s re‐
+spweecrteiveevleyn, lryevdeisatlr itbhuet eindiatinadl sdtiavgide eodf itnhteo gtwroowstizhe sstiantcel uodf iLnDgHthse nsmanaollsshiezeetosf wLDheHresiinn LthDeHs
+wmeraejo erviteynalnyd dsilsitgrhibtluytleadg earnLdD dHivsiidnetdh einmtoin towrioty siinzeFsig iunrcelu1db,inhgo wtheev esrm,oanllt hsiezceo onft rLaDryHins in
+thteh emfiaejlodriotyf vainsido nsloigfhFtilgyu lraeg1ecr. LADdHdisti oinn athllye, mapinooterintyti ailnv Fairgiautrioen 1bte,n hdoewnceyveorf, ionncr ethasee cdon‐
+trcaornyc einn ttrhatei ofnieoldf Noaf OvHisisoonlu otifo Fniwguoruel d1cle. aAddtodibtoioonstailnlgy,e aff epcottinentthiealm voarrpihatoiloong yteonfdLeDnHcys of
+inwcraesapsreedli mcoinnacreynetrxahtiibointe odfv NiaaFOigHu rseo1lub,tci,oann wdsouubldse qleuaedn ttloy, bthoiosstteinndge enfcfyecwt ains ftuhret hmerocropnh-ol‐
+firmedbythecomprehensiveanalysisofFigure1d–f. AsshowninFigure1d,universally
+ogy of LDHs was preliminary exhibited via Figure 1b,c, and subsequently, this tendency
+uniformLDHsnanosheetswithsmoothsurfacesweresuccessfullyproducedunderthecon-
+was further confirmed by the comprehensive analysis of Figure 1d–f. As shown in Figure
+ditionofaconcentrationof3MNaOH.Figure1edisplaystheSEMimageofLDHs-5M-12h,
+1d, universally uniform LDHs nanosheets with smooth surfaces were successfully pro‐
+whichillustrateLDHsproductswithlargersheetsize,andcurlyshapebrokenstructure
+duced under the condition of a concentration of 3 M NaOH. Figure 1e displays the SEM
+occasionedbydeficientroomforstretchandcollisionamongLDHssheets. Obviously,the
+image of LDHs‐5 M‐12 h¸, which illustrate LDHs products with larger sheet size, and curly
+sizeofLDHsenlargedastheconcentrationofNaOHsolutionincreased,andnodifference
+shape broken structure occasioned by deficient room for stretch and collision among
+in the morphology of LDHs was found in each image mentioned above. Surprisingly,
+LDHs sheets. Obviously, the size of LDHs enlarged as the concentration of NaOH solution
+thegrowthtendencyappearstohavenolimitduetotheextraordinarilyenormoussize
+inocfreinatseerdla, caendda nndo sdtiafcfekreednLceD iHn sthafet emrothrephCoolCorgFye Nofi MLDo-HHsE wAassu ffofeurnsdfr oinm ehaychd riomthaegrem malen‐
+tiorenaecdti oanbeovveen. Sinu7rpMrisNinaOglHy, stohleu tgiornow(Ftihg utreen1dfe).nWcyi tahprpegeaarrds ttoo thimave-ed nepoe lnimdeint cdyueev otolu tthioen ex‐
+treaxoprderiinmareinlyts ,etnhoermsaomues gsriozwe othf itnentedrelancceydm aenndt isotnaecdkeidn tLhDeHabso avfetedre tshcer iCptoioCnrFweaNsicMleoa‐rHlyEA
+suvfefreirfise dfrothmro hugyhdrtohteheexrhmibailt iroenaoctfiFoing uervee1nd i,ng– 7i, Mwh NicahOshHo wsosltuhteiosniz e(FoifgLuDreH 1sf)i.n Wcreiathse rdeagsard
+tot itmimeep‐rdoegpreesnsdeden. Scyig nevifioclaunttiolyn, tehxepmeroirmphenoltosg, ythoef saasm-pere gpraorwedthL DteHnsdepnrocdyu mctesnmtiaoinnetadin iend the
+abshoeveet sdheaspcreipintitohnis wwaosr kc,ldeeamrlyo nvsetrraiftiinedg btrhirlloiaungthc otnhset reuxchtiiobnitailosnt aobfil iFtyigoufrLeD 1Hds,g.–i, which
+showsT toheev saizluea otef LthDeHpsr aicntcicreaalspeedrf aosr mtimanec eproofgthreescsoerdr.o Ssiiognniefnicgainnteleyr,i tnhgem meothrpohdofloorghyi gohf -as‐
+efficiency multivariate-based catalysts, catalytic activity for OER of as-prepared sam-
+prepared LDHs products maintained sheet shape in this work, demonstrating brilliant
+ples was performed using a standard three-electrode system in alkaline saline water
+constructional stability of LDHs.
+(1MKOH+0.5MNaCl). Thefreshwateraddedwith0.5MNaCladditiveisgenerallyas-
+sumedtobeasimplifiedartificialsubstitutefornaturalseawatersolution. Curvesoflinear
+sweepvoltammetry,obtainedfromcatalystsproducedfor12hindifferentNaOHsolutions,
+weredisplayedinFigure2a,demonstratingadvancedOERactivityofas-preparedcatalysts
+thantheoriginalCoCrFeNiMo-HEAsubstrate. Furthermore,LDHs-3M-12hmanifests
+low overpotential of 260.1 mV, 294.3 mV, and 308.4 mV were required to reach current
+densitiesat10mAcm−2,50mAcm−2,and100mAcm−2,respectively,whichisevaluated
+
+Processes2023,11,245 6of17
+asanoptimalcatalystcomparedwithothersamplesandCoCrFeNiMo-HEA(TableS2).
+Notably,thecurrentdensityonLDHs-3M-12hrisesrapidlywiththeincreaseinpotential,
+indicatingtheadmirableperformanceofpromotingOERactivityundertheconditionof
+highcurrentdensity. Intherangefrom0Mto3M,increasingactivesurfacearealeadsto
+graduallyadvancedcatalyticactivitywhiletheperformanceofsamplesgraduallydegrades
+sincetheconcentrationofNaOHsurpasses3MduetostackedLDHssheetshindering
+the electrolyte diffusion and gaseous product release during the catalytic reaction. As
+LSV curves in Figure 2d show, LDHs-3 M-12 h also possess superior catalytic activity
+amongsamplesproducedintime-dependencyevolutionexperiments,andrelevantvalues
+ofoverpotentialaredepictedinTableS2. TafelplotsinFigure2b,eexhibitthatLDHs-3
+M-12 h catalyst possesses the smallest Tafel slope of 39.69 mV dec−1 by contrast with
+thatofCoCrFeNiMo-HEA(98.18mVdec−1),LDHs-0.1M-12h(52.3mVdec−1),LDHs-1
+M-12h(49.89mVdec−1),LDHs-3M-8h(54.8mVdec−1),LDHs-3M-16h(90.24mVdec−1),
+LDHs-3M-24h(92.97mVdec−1),LDHs-5M-12h(58.63mVdec−1),andLDHs-7M-12h
+(77.03mVdec−1),conformingitsrelativelyrapidOERcatalytickinetics. Inaddition,to
+explorethecharge-transferresistance(R )ofcatalysts,EISmeasurementswereemployed,
+ct
+andtypicalNyquistplotsforOERwereshowninFigure2c,f. Commonly,thediameter
+ofhalfarcinNyquistplotscouldbeusedtoreflectthenumericalrelationshipoftheR
+ct
+value. Apparently,thesmallestdiameteroftheimpedancearcwasmanifestedbyLDHs-3
+M-12h,representingitslowestcharge-transferresistanceandthefastestelectron-transfer
+rateattheinterfaceamongallsamples. Moreover,theelectrochemicalactivesurfacearea
+of catalysts was also investigated by the value of double-layer capacitance (C ) from
+dl
+CV curves (Figures S1 and S2). The value of C for LDHs-3 M-12 h was calculated as
+dl
+136µFcm−2,whichisrelativelysmallerthanLDHs-0.1M-12h(91.1µFcm−2),LDHs-1M-
+12h(97.3µFcm−2),LDHs-3M-8h(121µFcm−2),LDHs-3M-16h(121.7µFcm−2),LDHs-3
+M-24h(110.6µFcm−2),LDHs-5M-12h(112.2µFcm−2),LDHs-7M-12h(110µFcm−2),
+and3.8timesthatofCoCrFeNiMo-HEA(35.5µFcm−2)demonstratingsignificantlyim-
+provedactivesurfaceprovidedbyLDHsnanosheetwhichoffersanincreasednumberof
+activesitesforOER(Figure2g,h). Thefeatures,includingthefastestOERreactionkinet-
+ics,smallestelectrontransferresistance,andlargestelectrochemicalactivesurface,impel
+LDHs-3M-12htopossessoutstandingcatalyticperformance,whichisconsistentwithits
+smallestvalueofoverpotential. Notably,LDHs-7M-12hhasasmallerR andlargerECSA
+ct
+thanthatofLDHs-0.1M-12h,whilethecatalyticperformanceforOERofLDHs-0.1M-12h
+issuperiortoLDHs-7M-12h,andsamemanifestationtakesplacebetweenLDHs-3M-8h
+andLDHs-3M-16haswell,indicatingthatreactionkineticandmass-transportprocess
+playacrucialroleinenhancedcatalyticactivity. Ingeneral,supportedbythesatisfactory
+catalyticperformance,thefacileandone-stepcorrosionengineeringmethodwasverified
+asaneffectivewaytosynthesizeLDH-basedmaterialandfabricatehighlyactivecatalysts
+towardsseawateroxidation,andtheoptimalpreparationconditionforCoCrFeNiMo-HEA
+wasthehydrothermalreactionin3MNaOHsolutionat120◦Cwith12hheatingduration.
+Subsequently, OER stability of the typical catalyst of LDHs-3 M-12 h was measured by
+chronoamperometrytestunderaconstantoverpotentialwhichachievedthecurrentdensity
+of100mAcm−2.Asthecurrentdensity-timecurverevealedinFigure2i,theincreaseincur-
+rentdensityattheinitialstageoriginatedfromtheactivationofthecatalyst,andnoobvious
+fluctuationwasfoundfromthecurve,suggestingremarkablestabilityduringsuccessive
+measurements. Meanwhile,thereisanoticeableimprovementincatalyticperformanceas
+revealedintheLSVcurvesmeasuredbeforeandafterthe24hchronoamperometrytest
+(FigureS3),verifyingitsextraordinarydurabilityaswell,whichconsistsofuphillatthe
+beginningofthecurrentdensity-timecurve. ThiscatalyticactivityofLDHs-3M-12hfor
+seawateroxidationoutperformsseveralmulticomponent-basedOERcatalystsreported
+recently(Table1). AccordingtotheelectrocatalyticperformanceforOERofcatalysts,the
+enhancementofelectrocatalyticperformanceoriginatedfromtheLDHsproductsonthesur-
+faceofhighentropyalloy,whichiscomposedoffivemetallicelements. Theintrinsicnature
+oftheelectronicstructureofthemetalcentersinLDHsnanosheetscouldbemodulatedby
+
+Processes2023,11,245 7of17
+synergisticeffectduetotheintegrationofmultipleelementsintotheonestructureandthe
+changesintheelectronicenvironmentaroundmetalions,leadingtofastelectrontransfer
+ofactivesitesandtheimprovementofelectrocatalyticactivitiesforOER.Moreover,the
+Processes 2023, 11, x FOR PEER REVIEW 6 of 17
+reinforcedspecificsurfacearea,electrochemicalsurfacearea,andlatticedefectsobtained
+bysynergisticeffectareadvantageoustocatalyticperformanceforOER[67–73].
+FigFuirgeu 1re. S1.ESMEM imimagaegse soof fssuurrffaaccee mmoorrpphhoollooggyyo offs asmamplpesle.s(a. )(aC)o CCorFCerNFieMNoiM-HoE‐AH.E(bA).L (DbH) Ls-D0.H1Ms‐0-.1 M‐
+12 h12. (hc.) (Lc)DLHDHs‐s1- 1MM‐1-122 hh.. ((dd)) LLDDHHss-3‐3M M-1‐21h2. h(e. )(LeD) LHDs-H5Ms‐5-1 M2h‐.1(2f )hL.D (fH) sL-7DMH-s1‐27h M.(g‐1)2L Dh.H (sg-)3 LMD-8Hhs.‐3 M‐
+8 h.( h(h)L) DLDHHs-3s‐M3 -M16‐1h6. (hi). L(iD) HLDs-3HMs‐-32 4Mh‐.24 h.
+ToF eovrafulurtahteer tihnev epsrtiagcattiicoanl opfecrrfyosrtmalastnrucect oufr etsh,em cicorrorsotrsuiocntu reen,gchineemeircianlgc ommeptohsoitdio fnoorf high‐
+theproduct,andsurfacechemicalstate,atypicalsampleofLDHs-3M-12hwasselectedto
+efficiency multivariate‐based catalysts, catalytic activity for OER of as‐prepared samples
+pursuedeepdetailsbecauseofitsultra-evenlymorphologyandsuperiorelectrochemical
+was performed using a standard three‐electrode system in alkaline saline water (1 M KOH
+performancethanothersamples. Unfortunately,extremelythinLDHslayeranchoredonto
++ 0.5 M NaCl). The freshwater added with 0.5 M NaCl additive is generally assumed to
+thesubstrateleadtodifficultyidentifyingpeakscorrespondingtoas-preparedmaterials.
+be
+T
+a
+h
+s
+e
+im
+XR
+p
+D
+lif
+p
+ie
+a
+d
+tt e
+a
+r
+r
+n
+ti
+o
+fi
+f
+c
+L
+ia
+D
+l
+H
+su
+s-
+b
+3
+s
+M
+tit
+-
+u
+1
+t
+2
+e
+h
+fo
+ex
+r
+h
+n
+ib
+a
+i
+t
+t
+u
+s
+r
+o
+a
+n
+l
+l
+s
+y
+e
+t
+a
+h
+w
+re
+a
+e
+te
+p
+r
+e a
+s
+k
+o
+s
+lu
+lo
+ti
+c
+o
+a
+n
+te
+.
+d
+C
+a
+u
+t
+r
+4
+v
+3
+e
+.6
+s◦ o
+,5
+f
+0
+l
+.
+i
+8
+n◦e
+,
+a
+a
+r
+n d
+sweep
+vol
+7
+t
+4
+a
+.
+m 7◦m
+,w
+e
+h
+tr
+i
+y
+ch
+,
+a
+o
+r
+b
+e
+t
+i
+a
+n
+i
+d
+n
+e
+e
+x
+d
+e d
+fr
+a
+o
+s
+m
+(1 1
+c
+1
+a
+),
+ta
+(2
+l
+0
+y
+0
+s
+)
+t
+,
+s
+a n
+p
+d
+ro
+(2
+d
+2
+u
+0
+c
+)
+e
+p
+d
+la n
+fo
+es
+r
+o
+1
+f
+2
+C o
+h
+C
+i
+r
+n
+F e
+d
+N
+i
+i
+f
+M
+fe
+o
+re
+-H
+n
+E
+t
+A
+N
+s
+a
+u
+O
+bs
+H
+tr a
+s
+t
+o
+e
+l
+a
+u
+s
+tions,
+wesrheo dwisnpinlaFyiegdu rienS F4aig,urersep e2cat,i vdeelym. TohnestSrAaEtiDngp aatdtevrann(Fceigdu rOeESR4b )acreticvoirtdye doff raosm‐ptrheepLaDreHds cata‐
+lysntsa nthoashne tehted iosrtiingcintlaylp CroovCersFtehNeciMertoa‐iHntEyAof stuhbesctrryasttea.l lFinuertmhaetremrioalreo,f LLDDHHss,‐c3o Mnfi‐r1m2 ihn gmani‐
+festtsh elodwed ouvcteiropnottheantttihael oabf s2e6n0c.e1 omfdVi,f f2r9a4ct.i3o nmpVe,a aknsdo f3L0D8.H4 smmVa twereiarlei nretqhueiXreRdD tpoa rtetearcnh cur‐
+arisesfromextremelylowdiffractionintensitycomparedwiththeintensityofsubstrate.
+rent densities at 10 mA cm−2, 50 mA cm−2, and 100 mA cm−2, respectively, which is evalu‐
+TEMimageofLDHsnanosheetsinFigure3afurtherdetailitsultra-thinandinterlaced
+ated as an optimal catalyst compared with other samples and CoCrFeNiMo‐HEA (Table
+morphology,revealingthesizeandthethicknessoftheCoCrFeNiMo-LDHsnanosheetis
+S2). Notably, the current density on LDHs‐3 M‐12 h rises rapidly with the increase in po‐
+about400nmand10nm,consistingofSEMimage. Figure3bdisplaysthehigh-resolution
+tential, indicating the admirable performance of promoting OER activity under the con‐
+TEMimagerecordedfromtheedgeoftheLDHsnanosheet,showinglatticefringeswith
+dition of high current density. In the range from 0 M to 3 M, increasing active surface area
+theinterplanarspacingsof0.242nm,whichisascribedtothe(101)planeofas-synthesized
+leaCdso CtorF gerNaidMuoa-lLlyD aHdsv.aTnheceEdD cSamtaalypptiicn agcatnivailtyys iws(hFiilgeu trhee3 cp)ecrlfeoarrlmyaexnhcieb iotfs sthaamtpCloe,sC gr,raFde,ually
+degNria,daensd sMinocaer ethheo mcoongceennetoruastliyond isotfr iNbuatOedHt hsruourpgahsosuetst h3e Men tdirueen aton ossthaecekteadn dLfDuHrthse srheets
+hinvdeerrifiinegs tthhee uenleifcotrrmolyctoer rdoisfifounsioocnc uarnredd goansetohuess uprrfoadceucotf rCeoleCarsFee NduiMrion-gH tEhAe csautbasltyratitce reac‐
+tion. As LSV curves in Figure 2d show, LDHs‐3 M‐12 h also possess superior catalytic
+activity among samples produced in time‐dependency evolution experiments, and rele‐
+vant values of overpotential are depicted in Table S2. Tafel plots in Figure 2b,e exhibit that
+LDHs‐3 M‐12 h catalyst possesses the smallest Tafel slope of 39.69 mV dec−1 by contrast
+with that of CoCrFeNiMo‐HEA (98.18 mV dec−1), LDHs‐0.1 M‐12 h (52.3 mV dec−1), LDHs‐
+1 M‐12 h (49.89 mV dec−1), LDHs‐3 M‐8 h (54.8 mV dec−1), LDHs‐3 M‐16 h (90.24 mV dec−1),
+LDHs‐3 M‐24 h (92.97 mV dec−1), LDHs‐5 M‐12 h (58.63 mV dec−1), and LDHs‐7 M‐12 h
+(77.03 mV dec−1), conforming its relatively rapid OER catalytic kinetics. In addition, to
+explore the charge‐transfer resistance (R ) of catalysts, EIS measurements were employed,
+ct
+and typical Nyquist plots for OER were shown in Figure 2c,f. Commonly, the diameter of
+half arc in Nyquist plots could be used to reflect the numerical relationship of the R value.
+ct
+
+Processes2023,11,245 8of17
+during the hydrothermal process and the successful synthesis of the novel material of
+CoCrFeNiMo-LDHsaswell. Itisworthnotingthatthedisordereddistributioncouldbe
+observedintheEDSmappingimagesofCo,Fe,andMo,originatingfromthelowcontentof
+theseelementsintheLDHsnanosheet,whichwouldfurtherbeconfirmedbyICPandXPS
+measurement. UltrasonictreatmenttoLDHs-3M-12helectrodeindeionizedwaterwas
+conductedtoobtainpureLDHsproducts,thenfollowedbytheadditionofHClsolutionto
+dissolvemetalionsfromLDHsnanosheet. Subsequently,ICPmeasurementwasconducted
+toinvestigatetheconcreteproportionofmetallicelementsinLDHsproducts,andrelevant
+Processes 2023, 11, x FOR PEER REVIEW 8 of 17
+resultsweredisplayedinFigure3d,showingthattheratioofCo:Cr:Fe:Ni:Moisequalto
+1:3.95:1.42:9.49:0.17,whichisconsistentwiththeconclusionofEDSmapping.
+Figure 2. Electrocatalytic performance of as‐prepared samples in 0.5 M NaCl + 1 M KOH solution.
+Figure2.Electrocatalyticperformanceofas-preparedsamplesin0.5MNaCl+1MKOHsolution.
+(a, ( d a, ) d O ) O ER ER p o p l o a l r a i r z iz a a ti t o io n n c c u u r r v v e e s s . . ( ( b b , , e e ) ) c c o or r r r e e s s p p o o n n d d i i n n g g T T a a f f e e l l s s lo lo p p e e . . (c ( , c f , ) f N )N yq y u q i u st i s p t l p ot l s o . t ( s g . , ( h g ) , h C )dlC valu v e a s l . u es.
+(i) current density‐time curve. dl
+(i)currentdensity-timecurve.
+For further investigation of crystal structures, microstructure, chemical composition
+The surface element state of LDH nanosheets was studied via XPS measurement
+of the product, and surface chemical state, a typical sample of LDHs‐3 M‐12 h was selected
+on LDHs-3 M-12 h, and the high-resolution XPS spectrums of Co, Cr, Fe, Ni, Mo, and
+to pursue deep details because of its ultra‐evenly morphology and superior electrochem‐
+O were displayed in Figure 4. Six peaks could be recognized from the high-resolution
+ical performance than other samples. Unfortunately, extremely thin LDHs layer anchored
+XPS spectrum of Co 2p (Figure 4a). Therein, two peaks located at a binding energy of
+onto the substrate lead to difficulty identifying peaks corresponding to as‐prepared ma‐
+780.9eVand795.9eVindicatethecoexistenceofCo2+andCo3+inLDHsnanosheets[74].
+terials. The XRD pattern of LDHs‐3 M‐12 h exhibits only three peaks located at 43.6°, 50.8°,
+Additionally,thepeaksat790.5eVand775.5eVareassignedtoCo0duetotheincomplete
+and 74.7°, which are indexed as (111), (200), and (220) planes of CoCrFeNiMo‐HEA sub‐
+surface oxidation of CoCrFeNiMo-HEA, as well as two surplus peaks at 801.6 eV and
+strate as shown in Figure S4a, respectively. The SAED pattern (Figure S4b) recorded from
+784.6eVcorrespondingtotherelevantsatellitepeaks[75]. AstheCr2pnarrowscanXPS
+the LDHs nanosheet distinctly proves the certainty of the crystalline material of LDHs,
+spectrumshowninFigure4b,twopeaksofCr2p andCr2p appearedat586eVwith
+confirming the deduction that the absence of dif1f/ra2ction peaks3 /o2f LDHs material in the
+577.3eVareascribedtothespeciesofchromiumhydroxidewhilethepeaksat585.1eVwith
+XRD pattern arises from extremely low diffraction intensity compared with the intensity
+of substrate. TEM image of LDHs nanosheets in Figure 3a further detail its ultra‐thin and
+interlaced morphology, revealing the size and the thickness of the CoCrFeNiMo‐LDHs
+nanosheet is about 400 nm and 10 nm, consisting of SEM image. Figure 3b displays the
+high‐resolution TEM image recorded from the edge of the LDHs nanosheet, showing lat‐
+tice fringes with the interplanar spacings of 0.242 nm, which is ascribed to the (101) plane
+of as‐synthesized CoCrFeNiMo‐LDHs. The EDS mapping analysis (Figure 3c) clearly ex‐
+hibits that Co, Cr, Fe, Ni, and Mo are homogeneously distributed throughout the entire
+
+Processes2023,11,245 9of17
+Processes 2023, 11, x FOR PEER REVIEW 9 of 17
+575.8eVareattributedtotheCr2p andCr2p ofchromiumoxides[76]. TheFesignal
+1/2 3/2
+nanosheet and further verifies the uniform corrosion occurred on the surface of CoCrFeN‐
+displayedinFigure4ccouldbedividedintothreepeaksat725eV,710eV,and721.9eV,
+iMo‐HEA substrate during the hydrothermal process and the successful synthesis of the
+whichareassignedtoFe2p ,Fe2p andthesatellitepeak,respectively,demonstrating
+3/2 1/2
+thefeatureofFe
+n3+ov
+s
+e
+t
+l
+a t
+m
+e
+a
+[
+t
+7
+e
+7
+r
+]
+ia
+.
+l
+T
+o
+h
+f
+e
+C
+N
+oC
+i2
+rF
+p
+e
+X
+N
+P
+iM
+S
+o
+s
+‐
+p
+L
+e
+D
+ct
+H
+ru
+s
+m
+as
+i
+w
+n
+e
+F
+l
+i
+l.
+g
+I
+u
+t
+r
+i
+e
+s
+4
+w
+d
+or
+in
+th
+d
+n
+ic
+o
+a
+t
+t
+i
+e
+n
+s
+g
+t
+t
+h
+h
+a
+a
+t
+t
+t
+t
+h
+h
+e
+e
+b
+d
+r
+is
+o
+o
+a
+r
+d
+dered dis‐
+tribution could be observed in the EDS mapping images of Co, Fe, and Mo, originating
+Ni2p peakisdividedintofourpeaksat855.3eV,856.7eVwith864.6eV,and861.3eV
+3/2 from the low content of these elements in the LDHs nanosheet, which would further be
+corresponding to Ni−OH, Ni−O and satellite signal, as well as characteristic peaks of
+confirmed by ICP and XPS measurement. Ultrasonic treatment to LDHs‐3 M‐12 h elec‐
+Ni−OH(872.8eV),Ni−O(875.1eVand882.0eV)andsatellitepeak(879.0eV)originated
+trode in deionized water was conducted to obtain pure LDHs products, then followed by
+fromNi2p ,accordingtothesamecomponentsasusedbyMinakshietal.[78,79]. For
+1/2 the addition of HCl solution to dissolve metal ions from LDHs nanosheet. Subsequently,
+the high-resolution XPS of Mo 3d (Figure 4e), the peaks located at 235.4 eV, 231.7 eV
+ICP measurement was conducted to investigate the concrete proportion of metallic ele‐
+(Mo3d 3/2 ),andm2e2n9t.s6 ine VLD(MHso p3rdo5d/u2c)tsin, adnidca rteeletvwaontv raelseunltcse wsetaret edsisopflaMyeod 6 + ina FnidguMreo 3 3 d + , [s2h4o]w. ing that
+Figure4fdisplaythset hraetiOo 1osf XCPo:SCsr:pFeec:Ntriu:Mmow isit ehqtuhael ptoe a1k:3s.9c5o:r1r.4e2s:p9o.4n9d:0i.n1g7, twohMic-hO iHs caonndsiMste-nOt with the
+informationlocactoendclautsi5o3n1 o.3f eEVDSa nmdap5p29in.7g.e V,respectively.
+Figure3. DetailsFoifguCroeC 3.r FDeeNtaiiMls oof- LCDoCHrsFefNroiMmoL‐LDDHHss- 3froMm- 1L2DhH(sa‐3) MTE‐1M2 him (aa) gTeEM(b )imHaRgeT E(bM) HimRTaEgMe image (c)
+elemental mapping (d) elemental content.
+(c)elementalmapping(d)elementalcontent.
+The surface element state of LDH nanosheets was studied via XPS measurement on
+ToreinforcethecatalyticactivityforOER,thecompositionofactivesitesandfailure
+LDHs‐3 M‐12 h, and the high‐resolution XPS spectrums of Co, Cr, Fe, Ni, Mo, and O were
+mechanismwasstudiedviathecomprehensiveinvestigationonLDHs-3M-12h,which
+displayed in Figure 4. Six peaks could be recognized from the high‐resolution XPS spec‐
+underwentachronoamperometrytestfor100handadegradationinperformance. Thela-
+trum of Co 2p (Figure 4a). Therein, two peaks located at a binding energy of 780.9 eV and
+belsofCoCrFeNiMo-BTandCoCrFeNiMo-ATaregiventotheelectrodewithoriginalstate
+795.9 eV indicate the coexistence of Co2+ and Co3+ in LDHs nanosheets [74]. Additionally,
+andwithdegradation,respectively. AsLSVcurvesinFigure5ashows,CoCrFeNiMo-AT
+the peaks at 790.5 eV and 775.5 eV are assigned to Co0 due to the incomplete surface oxi‐
+requiredoverpotentialsof303.1mV,374.8mV,and431.6mVtoobtaincurrentdensities
+dation of CoCrFeNiMo‐HEA, as well as two surplus peaks at 801.6 eV and 784.6 eV cor‐
+of10mAcm−2,50mAcm−2,and100mAcm−2,whichare43mV,80.5mVand123.2mV
+responding to the relevant satellite peaks [75]. As the Cr 2p narrow scan XPS spectrum
+larger in compashrioswonn iwn iFthiguCroe C4rbF, etwNoi Mpeoa-kBsT oft oCra c2hp1 i / e 2 vaendth Cer s2apm 3/2 e apcuperraerendt adte 5n8s6i teyV. wFuitrh- 577.3 eV
+thermore, CoCraFree NasicMriboe-Ad Tto ythieel dspeedcieas hoifg chherromTaiufeml hslyodpreox(i7d9e. 8whmilVe tdhee cp − e 1 a)ksa antd 58a5.l1a regVe wr ith 575.8
+diameteroftheeiVm apreed aatntrcibeuatrecd (tFoi gthuer eC5r b2,pc 1 ) / , 2 iannddi cCart i2npg 3/2 t ohfa cthtrhoemaibuimli toiexsidoefs O[7E6R]. Tkhine eFteic ssignal dis‐
+andelectrontrapnlsafyeerdo ifnt hFeigcuartea l4ycs tcosuulfdfe bred daimviadgeed uinntdo etrhtrheee pcoeankdsi taito n72o5f eeVle, c7t1r0ic ecVu, rarnendt 721.9 eV,
+actthroughoutwthheicehl eacrter aosdseig.nUedn etox pFee c2tpe3d/2l, yF,et h2pe1/v2 aalnude thoef Csa
+d
+te
+l
+l(l4it8e6 p.8eaµkF, rcemsp−ec2t)ivinelcyr,e daesmedonstrating
+afterthechronoathme pfeeartoumree otrfy Ftee3+s tstdautee [7to7]t.h Teheex Npio 2spu rXePoSf smpeocrteruamct iivne Fsigituerset 4odt hinedeicleactetrso tlhyatte t,he broad
+whichis3.57timesand13.7timeslargerthanCoCrFeNiMo-BTandCoCrFeNiMo-HEA.
+Subsequently, SEM, XRD, XPS, and ICP were employed to investigate the causation of
+attenuatedperformance. SEMimageofCoCrFeNiMo-AT(FigureS5)demonstratedthatthe
+
+Processes2023,11,245 10of17
+structureofLDHnanosheetsremainedwellafterthechronoamperometrytest,verifying
+thestructuralrobustnessoftheas-preparedcatalyst. Meanwhile,theroughsurfaceofLDH
+nanosheets also confirmed our speculation about the variation of the electrochemically
+activesurface. ExcellentstabilityofchemicalcompositionwasprovedbytheXRDpattern
+duetounchangedpeaksincomparisonwithCoCrFeNiMo-BT(FigureS6),suggestingthat
+no new product was synthesized during the test. Additionally, XPS measurement was
+conductedtofurtherstudythechemicalstateofCoCrFeNiMo-AT,andcomparingwith
+XPSanalysisofCoCrFeNiMo-BT,allmainpeaksidentifiedinXPSspectraincludingCo2p,
+Cr2p,Fe2p,Ni2p,Mo3d,andO1sshownegligentshift(FigureS7). Duetocontinuous
+oxidationonthesurfaceofthecatalyst,thepeaks,whichareassignedtoCo0speciesand
+locatedat790.5eVand775.5eVcorrespondingtoCoCrFeNiMo-BT,disappearedinCo
+2pXPSspectrum. Thus,thecollapseofactivesiteswasassumedastheprimaryreason
+resultinginthedegradationofthecatalystandelectrolyteafterthetestwastakenforICP
+measurementtovalidatetheassumption. AsforthedetectionresultofICPinFigure6,
+there is no big difference among the amount of dissolution of Ni, Cr, Fe, and Mo, and
+therein,theconcentrationofCoionswastoolowtobetakenintoconsideration. Ithasbeen
+provedthatNi(OH) canimprovetheelectrocatalyticperformance,whichistheresultof
+2
+theNielementconstitutingtheactivesite[80,81]. Duetothesynergisticeffect,theelectro-
+catalyticperformancecanbefurtherimprovedbyaddingelementssuchasCo,Cr,Fe,and
+Mo[82–85]. Thus,theroleofthefivemetalelementsistoformtheactivesite. According
+totheICPresults,onthepremiseoflowcontentofFeandMoelementsinLDHs,their
+amountofdissolutionintheelectrocatalyticprocessisrelativelylarge,accompaniedbythe
+reductionincatalyticperformance. Therefore,weproposedthattheactivityofactivesites
+containingMoand/orFeelementsismoreeffectivethanthatofactivesiteswithoutthese
+twoelements. Thisdiscoveryofferscogentevidencetoinformthatactivesitescontaining
+MoandFeelementsonLDHsnanosheetspossessbrilliantkineticsandhighefficiencyfor
+OERreaction,andthedissolutionofMoandFefromLDHsmaterialisspeculatedasthe
+primarycauseofdegradedOERcatalyticperformance. Thus,reinforcingtherobustness
+ofactivesitesorincreasingthecontentofspecificelementstofurtherenhanceactivesites
+shouldbeconsideredasapotentialstrategy,aswellasachallenge,toproduceahighly
+efficientcatalystwithanultra-longoperatinglifespan.
+Table1.ActivityforOERofcatalystinthisworkincomparisonwithothercatalystswithmulti-elements.
+Catalyst Electrolyte Overpotential Durability Ref.
+CoCrFeNiMo-LDHs 1MKOH+0.5MNaCl η100~308.4mV 24h~100mAcm−2 Thiswork
+@CoCrFeNiMo-HEA
+Fe-Ni(OH)2/Ni3S2 1MKOH+0.5MNaCl η100~320mV 27h~100mAcm−2 [86]
+NiMofilm@NF 1MKOH+0.5MNaCl η100=450mV 15h~10mAcm−2 [87]
+RuNi-Fe2O3/IF 1MKOH+0.5MNaCl η100~350mV 20h~100mAcm−2 [88]
+NiFeLDH@Co3O4/NF 1MKOH+0.5MNaCl η100=330mV — [89]
+CoCH@CFP 1MKOH+0.5MNaCl η100=385mV — [90]
+0.5Fe-NiCo2O4@CC 1MKOH+0.5MNaCl η10=273mV — [91]
+NiCoHPi@Ni3N/NF 1MKOH+0.5MNaCl η100=365mV 120h~200mAcm−2 [92]
+NiCoP/NiCo−LDH@NF 1MKOH+0.5MNaCl η50=350mV 50h~15mAcm−2 [93]
+Ni3S2-MoS2-Ni3S2@NF 1MKOH+0.5MNaCl η100=330mV 100h~100mAcm−2 [94]
+CoSe/MoSe2 1MKOH+0.5MNaCl η10=320mV 48h~10mAcm−2 [95]
+Mo-CoPX/NF 1MKOH+0.5MNaCl η100=420mV 100h~10mAcm−2 [96]
+B-CoNiOOH/PANI@ 1MKOH+0.5MNaCl η100=398mV 72h~200mAcm−2 [97]
+C-TiO2/Ti
+AlNiCoIrMoHEA 0.5MH2SO4 η10=233mV 48h~10mAcm−2 [98]
+np-UHEAs 0.5MH2SO4 η10=258mV 10h~10mAcm−2 [99]
+FeCoNiIrRu/CNFs 0.5MH2SO4 η10=241mV 14h~10mAcm−2 [100]
+H-FeCoNiMnW 0.5MH2SO4 η10=512mV — [101]
+TiTaFxC2NP/rGO 1MHClO4 η100=490mV 40h~30mAcm−2 [102]
+Ru@MoO(S)3 0.5MH2SO4 η10=226mV — [103]
+
+Processes 2023, 11, x FOR PEER REVIEW 10 of 17
+Ni 2p3/2 peak is divided into four peaks at 855.3 eV, 856.7 eV with 864.6 eV, and 861.3 eV
+corresponding to Ni−OH, Ni−O and satellite signal, as well as characteristic peaks of
+Ni−OH (872.8 eV), Ni−O (875.1 eV and 882.0 eV) and satellite peak (879.0 eV) originated
+from Ni 2p1/2, according to the same components as used by Minakshi et al. [78,79]. For
+the high‐resolution XPS of Mo 3d (Figure 4e), the peaks located at 235.4 eV, 231.7 eV (Mo
+Pro
+P
+ce
+r
+s
+o
+s
+c
+e
+e
+s
+ss
+2
+e
+0
+s
+2
+2
+3
+0
+,
+2
+1
+3
+1
+,
+,
+1
+2
+1
+4
+, x
+5
+FOR PEER REVIE3Wd3 /2), and 229.6 eV (Mo 3d5/2) indicate two valence states of Mo6+ and Mo3+ [24]. Fig12u ro
+1
+ef
+1
+41
+o
+7f
+f 17
+displays the O 1s XPS spectrum with the peaks corresponding to M‐OH and M‐O infor‐
+mation located at 531.3 eV and 529.7 eV, respectively.
+CoSe/MoSe2 1 M KOH + 0.5 M NaCl η10 = 320 mV 48 h ~ 10 mA cm−2 [95]
+Mo‐CoPX/NF 1 M KOH + 0.5 M NaCl η100 = 420 mV 100 h ~ 10 mA cm−2 [96]
+B‐CoNiOOH/PANI@
+1 M KOH + 0.5 M NaCl η100 = 398 mV 72 h ~ 200 mA cm−2 [97]
+C‐TiO2/Ti
+AlNiCoIrMo HEA 0.5 M H2SO4 η10 = 233 mV 48 h ~ 10 mA cm−2 [98]
+np‐UHEAs 0.5 M H2SO4 η10 = 258 mV 10 h ~ 10 mA cm−2 [99]
+FeCoNiIrRu/CNFs 0.5 M H2SO4 η10 = 241 mV 14 h ~ 10 mA cm−2 [100]
+H‐FeCoNiMnW 0.5 M H2SO4 η10 = 512 mV — [101]
+TiTaFxC2 NP/rGO 1 M HClO4 η100 = 490 mV 40 h ~ 30 mA cm−2 [102]
+FFigiguurree4 4.. SSuurrffaaccee cchheemmiiccaall ssttaatteess ooff LLDDHHss‐3-3 MM‐1-122 hh anadn dhihgihg‐hre-rseosloultuiotnio XnPXSP oSf o(af)( Ca)oC 2op.2 (pb.) (Cbr) 2Cpr. 2p.
+Ru@MoO(S)3 (c) Fe 2p. 0 ( . d 5 ) M Ni H 2p2S . ( O e)4 Mo 3d. (f) O 1 η s.1 0 = 226 mV — [103]
+(c)Fe2p.(d)Ni2p.(e)Mo3d.(f)O1s.
+To reinforce the catalytic activity for OER, the composition of active sites and failure
+mechanism was studied via the comprehensive investigation on LDHs‐3 M‐12 h, which
+underwent a chronoamperometry test for 100 h and a degradation in performance. The
+labels of CoCrFeNiMo‐BT and CoCrFeNiMo‐AT are given to the electrode with original
+state and with degradation, respectively. As LSV curves in Figure 5a shows, CoCrFeN‐
+iMo‐AT required overpotentials of 303.1 mV, 374.8 mV, and 431.6 mV to obtain current
+densities of 10 mA cm−2, 50 mA cm−2, and 100 mA cm−2, which are 43 mV, 80.5 mV and
+123.2 mV larger in comparison with CoCrFeNiMo‐BT to achieve the same current density.
+Furthermore, CoCrFeNiMo‐AT yielded a higher Tafel slope (79.8 mV dec−1) and a larger
+diameter of the impedance arc (Figure 5b,c), indicating that the abilities of OER kinetics
+and electron transfer of the catalyst suffer damage under the condition of electric current
+act throughout the electrode. Unexpectedly, the value of Cdl (486.8 μF cm−2) increased after
+the chronoamperometry test due to the exposure of more active sites to the electrolyte,
+which is 3.57 times and 13.7 times larger than CoCrFeNiMo‐BT and CoCrFeNiMo‐HEA.
+Subsequently, SEM, XRD, XPS, and ICP were employed to investigate the causation of
+attenuated performance. SEM image of CoCrFeNiMo‐AT (Figure S5) demonstrated that
+the structure of LDH nanosheets remained well after the chronoamperometry test, verify‐
+ing the structural robustness of the as‐prepared catalyst. Meanwhile, the rough surface of
+LDH nanosheets also confirmed our speculation about the variation of the electrochemi‐
+cally active surface. Excellent stability of chemical composition was proved by the XRD
+pattern due to unchanged peaks in comparison with CoCrFeNiMo‐BT (Figure S6), sug‐
+gesting that no new product was synthesized during the test. Additionally, XPS measure‐
+FFigiguurere5 5..E Eleleccttrrooccaattaallyyttiicc ppeerrffoorrmmaannccee iinn 00.5.5 MM NNaaCCl l++ 1 1MM KKOOHH ofo cfactaaltyaslyt sbtebfoerfeo raenadn adftaerft 1e0r01 0h0 h
+chchroronnooaammppeerroommeettrryy tteesstt.. ((aa)) LLSSVV ccuurrvveess.. ((bb)) TTaaffeel lssloloppee. .(c()c )NNyqyuqiusits ptlpoltos.t s(.d()d C)dCl valvuaelsu. es.
+dl
+
+PPrroocceesssseess 22002233,, 1111,, 2x4 F5OR PEER REVIEW 131 2ooff 1177
+FFiigguurree 66.. TThhee ccoonncceennttrraattiioonn ooff mmeettaall iioonnss ffrroomm LLDDHHss ddiissssoollvveedd iinn tthhee eelleeccttrroollyyttee..
+44.. CCoonncclluussiioonnss
+IInn ssuummmmaarryy,, iinn‐-ssitituu fafabbrirciactaitoionn ofo uflutrlatr‐eav-eevnelyn lCyoCCorCFerNFeiNMioM‐LoD-LHDsH wsasw aacshaiecvheidev uesd‐
+iunsgin ag faacfailcei laenadn odnoen‐es-tsetpe pcocrorrorsoisoinon enengginineeeerirningg aapppprrooaacchh. .AAss‐-ffoorrmmeedd CCooCCrrFFeeNNiiMMoo‐-LLDDHHss
+mmaatteerriiaall eexxhhiibbiitt iimmpprroovveedd ccaattaallyyttiicc ppeerrffoorrmmaannccee ffoorr OOEERR iinn aarrttiiffiicciiaall aallkkaalliinnee sseeaawwaatteerr
+eelleeccttrroollyyttee dduuee ttoo iittss hhiigghhllyy ppoorroouuss mmoorrpphhoollooggyy wwiitthh llaarrggee ssuurrffaaccee aarreeaa,, wwhhiicchh eennssuurreess
+eefffificciieenntt mmaassss ttrraannssffeerra annddo offfefersrsn nuummereorouussa catcitvievem meteatlasli tseitse.sT. hTehbe ebset-spt‐eprfeorrfomrimnginsga msapmle‐
+pnlaem neadmLeDd HLDs-H3sM‐3- 1M2‐1h2, wh,h wichhicihs ipsr pepreapreadredin in3 3M MN NaOaOHHs soolulutitoionn aanndd mmaaiinnttaaiinneedd aatt
+1122 hh aatt 113300 ◦°CC,, sshhoowwss aa llooww oovveerrppootteennttiiaall ooff 227722..33,, 333322 mmVV aatt 1100,, 5500,, aanndd 110000 mmAA ccmm−−22,,
+rreessppeeccttiivveellyy.. LLDDHHss-‐33 MM-‐1122 hh aallssoo yyiieellddssa a ssmmaallllT Taafefells sloloppeeo off6 633.4.4m mVVd deecc− −11 aanndd ppoosssseesssseess
+llooww eelleeccttrroonn ttrraannssffeerr rreessiissttaannccee.. MMoorreeoovveerr,, LLDDHHss‐-33 MM‐-1122 hh ddeemmoonnssttrraatteedd ggoooodd ssttaabbiilliittyy,,
+wwiitthh nnoo oobbvviioouuss fflluuccttuuaattiioonn oobbsseerrvveedd iinn tthhee ccuurrrreenntt ddeennssiittyy‐-ttiimmee ccuurrvvee.. TThhee ccoonnssttrruuccttiioonn,,
+cchheemmiiccaall ccoommppoossiittiioonn,, aanndd ssuurrffaaccee cchheemmiiccaall ssttaatteess ooff LLDDHHss‐-33 MM‐-1122 hh aarree wweellll mmaaiinnttaaiinneedd
+aafftteerr tthhee cchhrroonnooaammppeerroommeetrtryy tetests tini ncocmompapraisroisno nwiwthit thhatht abtefboerfeo trheet hteestt.e Istt .is Iftoiusnfdo uthnadt
+tthhea tstihtees scitoemspcoomsepdo osef dMoof Manod aFned aFree arerealr eaacltiavcet isvietessi tfeosr fOorEOR,E aRn,da nthdetihr edirisdsoislsuotliuonti oonf
+tohfetmhe umnduenrd tehre tehfefecetf foefc tcuorfrecuntr riesn stiginsisfiicgannifitlcya rnetslpyornessipbolen sfoibrl aettfeonruaattteedn ucaatteadlytciact aaclytitvic‐
+iatcyt ivaintyd atnhde thcoellcaopllsaep soef oCfoCCorCFreFNeNiMiMo‐oL-DLHDsH/Hs/EHAE Acatcaaltyaslty.s tT.hTihs isfafacicliel effaabbrriiccaattiioonn ooff
+CCooCCrrFFeeNNiiMMoo‐-LLDDHHss//HHEEAA ccaattaalylysstt rreepprreesseennttss aa ppootteennttiiaall ssttrraatteeggyy ttoo ddeevveelloopp mmoorree mmuullttii‐-
+eelleemmeenntt LLDDHHss‐-bbaasseedd ccaattaallyyssttss ffoorr hhiigghhllyy eefffificciieenntt eelleeccttrroocchheemmiiccaall sseeaawwaatteerr sspplliittttiinngg aanndd
+cclleeaann eenneerrggyy pprroodduuccttiioonn..
+SSuupppplleemmeennttaarryy MMaateteriraialsls:: ThTehef olfloolwloiwnginsgu pspuoprptoinrgtining foirnmfoartmioanticoann bcaend obwe nldooawdendloaatd:edht tpats::
+/w/wwww.mw.dmpdi.pcoi.mco/mxx/xa/sr1ti,c Fleig/u1r0e.3 S319:0 C/Vpr c1u1r0v1e0s2 4o5f /ass1‐p,FreigpuarreedS 1sa:mCVplecsu rpvreespaorfeads -ipnr depifafererednst aNmapOleHs
+psoreluptairoend ainndd iCffoeCrernFteNNaiMOHo‐HsoEluAti.o (na)a nCdoCCroFCerNFieMNoiM‐HoE-HAE (Ab.)L(aD)HCos‐C0r.1F eMN‐i1M2 oh-H. (Ec)A L(Db)HLsD‐1H Ms-0‐1.12 Mh.-
+1(d2) hL.D(Hc)s‐L3D MH‐8s -h1. M(f)- L12DHh.s‐(5d M) L‐8D hH. (se-)3 LMD-H8sh‐7. M(e‐)8 LhD. FHigsu-5reM S-28: ChV. c(fu)rLveDsH ofs -a7s‐Mpr-e8phar.eFdi sgaumreplSe2s:
+uCnVdecruwrveenst dofiffaesr-epnrte ptraeraetdmesanmt dpulerastiuonnd. e(arw) LeDntHdsi‐f3f eMre‐n8 tht.r (eba)t mLDenHtsd‐3u Mra‐t1io6n h.. ((ca)) LLDDHHss‐3-3 MM‐2-48 hh..
+(Fbig)uLrDe HS3s-: 3LMSV- 1c6urhv.es(c o)fL LDDHHss-3‐3M M-2‐142h h. bFeifgourree aSn3d: aLfSteVr c2u4 rhv esstaobfilLitDy Htess-t3. FMig-1u2reh Sb4e: f(oar)e XaRnDd
+pafattetrer2n4s hofs taLbDilHit‐y3 teMst‐.12F ihg uarnedS 4C:o(Ca)rFXeRNDiMpoa‐tHteErAns. o(bf)L DSAHE-D3 Mp-a1tt2erhn aonfd CCooCCrrFFeeNNiiMMoo‐-LHDEHAs.
+(nba)nSoAshEeDet pfraottmer nLDofHC‐3o CMr‐F1e2N hiM. Foig-LuDreH Ss5n: aSnEoMsh iemeatgfreo omf sLuDrfHac-3e Mof -C12oCh.rFFeiNguiMreoS‐A5:TS. EFMiguirme aSg6e:
+XofRsDu rpfaactteeronfsC oofC LrDFeHNs‐iM3 Mo-‐A1T2 .hF ibgeuforereS a6n:dX RafDtepr a1t0t0e rhn schorfoLnDoaHms-p3erMom-12ethryb teefsotr. eFiagnudrea fSt7e:r H10ig0hh‐
+rcehsroolnuotaiomnp XeProSm oef t(ray) tCesot .2Fpi,g (ubr)e CSr7 2:pH, i(gch) -Free s2oplu, t(ido)n NXiP 2Spo, f(e()a )MCoo 22pp, ,a(nbd) C(fr) 2Op ,1(sc )oFf eC2opC,r(Fde)NNiMi2op‐,
+(AeT) Mino c2opm,panardis(of)n Ow1itsho CfoCCorCFreFNeiNMiMo‐Lo-DAHTsi‐nBTco; mTapbalrei sSo1n: CwhiethmCicoaCl rcFoemNpioMsioti-oLnD oHf sC-BoTC;rTFaebNleiMS1o:
+high entropy alloy (wt.%). Table S2: Overpotential values (mV) at 10, 50, and 100 mA cm‐2 of sam‐
+ChemicalcompositionofCoCrFeNiMohighentropyalloy(wt.%). TableS2:Overpotentialvalues
+( p m le V s. ) at10,50,and100mAcm−2ofsamples.
+Author Contributions: Conceptualization, Z.C. and B.Z.; Investigation, Z.C.; Methodology, Z.C.,
+AuthorContributions:Conceptualization,Z.C.andB.Z.;Investigation,Z.C.;Methodology,Z.C.,B.Z.
+B.Z. and J.W.; Data Curation, Z.C. and J.X.; Formal Analysis, Z.C., K.H., B.Z. and T.Z.; Writing—
+andJ.W.;DataCuration,Z.C.andJ.X.;FormalAnalysis,Z.C.,K.H.,B.Z.andT.Z.;Writing—Original
+Original Draft Preparation, Z.C.; Supervision, Z.Z.; Writing—Review & Editing, Z.C., B.Z. and T.Z.;
+DraftPreparation,Z.C.;Supervision,Z.Z.;Writing—Review&Editing,Z.C.,B.Z.andT.Z.;Project
+Project Administration, Z.C.; Funding Acquisition, B.Z. All authors have read and agreed to the
+Administration,Z.C.;FundingAcquisition,B.Z.Allauthorshavereadandagreedtothepublished
+published version of the manuscript.
+versionofthemanuscript.
+
+Processes2023,11,245 13of17
+Funding: ThisworkwassupportedbytheNationalNaturalScienceFoundationofChina(Grant
+No. 51901018),theNaturalScienceFoundationofBeijingMunicipality(GrantNo. 2212037),the
+YoungEliteScientistsSponsorshipProgrambyChinaAssociationforScienceandTechnology(YESS,
+2019QNRC001),theNationalScienceandTechnologyResourcesInvestigationProgramofChina
+(GrantNo.2019FY101400).
+Data Availability Statement: Data available upon reasonable request and will be provided by
+correspondingauthor.
+ConflictsofInterest:Theauthorsdeclarethattheyhavenoconflictofinterestorpersonalrelation-
+shipsthatinfluencethework.
+References
+1. Bilgen,S.Structureandenvironmentalimpactofglobalenergyconsumption. Renew. Sustain. EnergyRev. 2014,38,890–902.
+[CrossRef]
+2. Peter,S.C.ReductionofCO tochemicalsandfuels:Asolutiontoglobalwarmingandenergycrisis.ACSEnergyLett.2018,3,
+2
+1557–1561.[CrossRef]
+3. Abe,J.O.;Popoola,A.P.I.;Ajenifuja,E.;Popoola,O.M.Hydrogenenergy,economyandstorage:Reviewandrecommendation.
+Int.J.HydrogenEnergy2019,44,15072.[CrossRef]
+4. Winter,C.J.Hydrogenenergy—Abundant,efficient,clean:Adebateovertheenergy-system-of-change.Int.J.HydrogenEnergy
+2009,34(Suppl.1),S1–S52.[CrossRef]
+5. Dawood,F.;Anda,M.;Shafiullah,G.M.Hydrogenproductionforenergy:Anoverview.Int.J.HydrogenEnergy2020,45,3847–3869.
+[CrossRef]
+6. Yue,M.;Lambert,H.;Pahon,E.;Roche,R.;Jemei,S.;Hissel,D.Hydrogenenergysystems: Acriticalreviewoftechnologies,
+applications,trendsandchallenges.Renew.Sustain.EnergyRev.2021,146,111180.[CrossRef]
+7. Yan,Y.;Xia,B.Y.;Zhao,B.;Wang,X.Areviewonnoble-metal-freebifunctionalheterogeneouscatalystsforoverallelectrochemical
+watersplitting.J.Mater.Chem.A2016,4,17587–17603.[CrossRef]
+8. Anantharaj,S.;Ede,S.R.;Sakthikumar,K.;Karthick,K.;Mishra,S.;Kundu,S.Recenttrendsandperspectivesinelectrochemical
+watersplittingwithanemphasisonsulfide,selenide,andphosphidecatalystsofFe,Co,andNi:Areview.ACSCatal.2016,6,
+8069–8097.[CrossRef]
+9. Li,X.;Hao,X.;Abudula,A.;Guan,G.Nanostructuredcatalystsforelectrochemicalwatersplitting:Currentstateandprospects.
+J.Mater.Chem.A2016,4,11973–12000.[CrossRef]
+10. Huang,K.;Zhang,B.;Wu,J.;Zhang,T.;Peng,D.;Cao,X.;Zhang,Z.;Li,Z.;Huang,Y.J.Exploringtheimpactofatomiclattice
+deformationonoxygenevolutionreactionsbasedonasub-5nmpureface-centredcubichigh-entropyalloyelectrocatalyst.
+J.Mater.Chem.A2020,8,11938–11947.[CrossRef]
+11. Roger,I.;Shipman,M.A.;Symes,M.D.Earth-abundantcatalystsforelectrochemicalandphotoelectrochemicalwatersplitting.
+Nat.Rev.Chem.2017,1,0003.[CrossRef]
+12. Anantharaj,S.;Noda,S.Amorphouscatalystsandelectrochemicalwatersplitting: Anuntoldstoryofharmony. Small2020,
+16,1905779.[CrossRef][PubMed]
+13. Dresp,S.;Dionigi,F.;Klingenhof,M.;Strasser,P.Directelectrolyticsplittingofseawater: Opportunitiesandchallenges. ACS
+EnergyLett.2019,4,933.[CrossRef]
+14. Wang,C.;Shang,H.;Jin,L.;Xu,H.;Du,Y.Advancesinhydrogenproductionfromelectrocatalyticseawatersplitting.Nanoscale
+2013,13,7897–7912.[CrossRef]
+15. Li,J.;Sun,J.;Li,Z.;Meng,X.Recentadvancesinelectrocatalystsforseawatersplittinginhydrogenevolutionreaction. Int. J.
+HydrogenEnergy2022,47,29685–29697.[CrossRef]
+16. Dionigi,F.;Reier,T.;Pawolek,Z.;Gliech,M.;Strasser,P.Designcriteria,operatingconditions,andnickel–ironhydroxidecatalyst
+materialsforselectiveseawaterelectrolysis.ChemSusChem2016,9,962–972.[CrossRef]
+17. Khatun,S.;Hirani,H.;Roy,P.Seawaterelectrocatalysis:Activityandselectivity.J.Mater.Chem.A2021,9,74–86.[CrossRef]
+18. Liu,J.;Duan,S.;Shi,H.;Wang,T.;Yang,X.;Huang,Y.;Wu,G.;Li,Q.RationallyDesigningefficientelectrocatalystsfordirect
+seawatersplitting:Challenges,achievements,andpromises.Angew.Chem.2022,134,e202210753.
+19. Wang,X.;Zhai,X.;Yu,Q.;Liu,X.;Meng,X.;Wang,X.;Wang,L.Strategiesofdesigningelectrocatalystsforseawatersplitting.
+J.SolidStateChem.2022,306,122799.[CrossRef]
+20. Tong,W.;Forster,M.;Dionigi,F.;Dresp,S.;Erami,R.S.;Strasser,P.;Cowan,A.J.;Farràs,P.Electrolysisoflow-gradeandsaline
+surfacewater.Nat.Energy2020,5,367.[CrossRef]
+21. Wu,L.;Yu,L.;Zhang,F.;McElhenny,B.;Luo,D.;Karim,A.;Chen,S.;Ren,Z.HeterogeneousbimetallicphosphideNi P-Fe Pas
+2 2
+anefficientbifunctionalcatalystforwater/seawatersplitting.Adv.Funct.Mater.2021,31,2006484.[CrossRef]
+22. Wang,Z.;Xu,W.;Yu,K.;Feng,Y.;Zhu,Z.2Dheterogeneousvanadiumcompoundinterfacialmodulationenhancedsynergistic
+catalytichydrogenevolutionforfullpHrangeseawatersplitting.Nanoscale2020,12,6176–6187.[CrossRef]
+23. Bennett,J.E.Electrodesforgenerationofhydrogenandoxygenfromseawater.Int.J.HydrogenEnergy1980,5,401.[CrossRef]
+
+Processes2023,11,245 14of17
+24. Yu,L.;Zhu,Q.;Song,S.;McElhenny,B.;Wang,D.;Wu,C.;Qin,Z.;Bao,J.;Yu,Y.;Chen,S.;etal.Non-noblemetal-nitridebased
+electrocatalystsforhigh-performancealkalineseawaterelectrolysis.Nat.Commun.2019,10,5106.[CrossRef]
+25. Li, Y.; Sun, Y.; Qin, Y.; Zhang,W.; Wang, L.; Luo, M.; Yang, H.; Guo, S.Recentadvancesonwater-splittingelectrocatalysis
+mediatedbynoble-metal-basednanostructuredmaterials.Adv.EnergyMater.2020,10,1903120.[CrossRef]
+26. Zhang,K.;Zou,R.Advancedtransitionmetal-basedOERelectrocatalysts:Currentstatus,opportunities,andchallenges.Small
+2021,17,2100129.[CrossRef][PubMed]
+27. Xu,H.; Ci,S.; Ding,Y.;Wang,G.; Wen,Z.Recentadvancesinpreciousmetal-freebifunctionalcatalystsforelectrochemical
+conversionsystem.J.Mater.Chem.A2019,7,8006–8029.[CrossRef]
+28. Guo,Y.;Park,T.;Yi,J.;Henzie,J.;Kim,J.;Wang,Z.;Jiang,B.;Bando,Y.;Sugahara,Y.;Tang,J.;etal. Nanoarchitectonicsfor
+transition-metal-sulfide-basedelectrocatalystsforwatersplitting.Adv.Mater.2019,31,1807134.[CrossRef][PubMed]
+29. Zhang,H.;Maijenburg,A.;Li,X.;Schweizer,S.L.;Wehrspohn,R.Bifunctionalheterostructuredtransitionmetalphosphidesfor
+efficientelectrochemicalwatersplitting.Adv.Funct.Mater.2020,30,2003261.[CrossRef]
+30. Peng,X.;Pi,C.;Zhang,X.;Li,S.;Huo,K.;Chu,P.K.Recentprogressoftransitionmetalnitridesforefficientelectrocatalyticwater
+splitting.Sustain.EnergyFuels2019,3,366–381.
+31. Hong,W.T.;Risch,M.;Stoerzinger,K.A.;Grimaud,A.;Suntivich,J.;Shao-Horn,Y.Towardtherationaldesignofnon-precious
+transitionmetaloxidesforoxygenelectrocatalysis.EnergyEnviron.Sci.2015,8,1404–1427.[CrossRef]
+32. Burke,M.S.;Enman,L.J.;Batchellor,A.S.;Zou,S.;Boettcher,S.W.Oxygenevolutionreactionelectrocatalysisontransitionmetal
+oxidesand(oxy)hydroxides:Activitytrendsanddesignprinciples.Chem.Mater.2015,27,7549–7558.[CrossRef]
+33. Li,W.;Gao,X.;Xiong,D.;Wei,F.;Song,W.G.;Xu,J.;Liu,L.HydrothermalsynthesisofmonolithicCo Se nanowireelectrodesfor
+3 4
+oxygenevolutionandoverallwatersplittingwithhighefficiencyandextraordinarycatalyticstability.Adv.EnergyMater.2017,
+7,1602579.[CrossRef]
+34. Khan,M.A.;Woo,S.I.;Yang,O.B.HydrothermallystabilizedFe(III)dopedtitaniaactiveundervisiblelightforwatersplitting
+reaction.Int.J.HydrogenEnergy2008,33,5345–5351.[CrossRef]
+35. Li,Y.;Zhang,H.;Jiang,M.;Kuang,Y.;Sun,X.;Duan,X.TernaryNiCoPnanosheetarrays:Anexcellentbifunctionalcatalystfor
+alkalineoverallwatersplitting.NanoRes.2016,9,2251–2259.[CrossRef]
+36. Fominykh,K.;Feckl,J.M.;Sicklinger,J.;Döblinger,M.;Böcklein,S.;Ziegler,J.;Peter,L.;Rathousky,J.;Scheidt,E.W.;Bein,T.;etal.
+Ultrasmalldispersiblecrystallinenickeloxidenanoparticlesashigh-performancecatalystsforelectrochemicalwatersplitting.
+Adv.Funct.Mater.2014,24,3123–3129.[CrossRef]
+37. Jiang,N.;You,B.;Sheng,M.;Sun,Y.Electrodepositedcobalt-phosphorous-derivedfilmsascompetentbifunctionalcatalystsfor
+overallwatersplitting.Angew.Chem.2015,54,6251–6254.[CrossRef][PubMed]
+38. Jiang,N.;You,B.;Sheng,M.;Sun,Y.Bifunctionalityandmechanismofelectrodepositednickel–phosphorousfilmsforefficient
+overallwatersplitting.ChemCatChem2016,8,106–112.[CrossRef]
+39. Pu, Z.; Luo, Y.; Asiri, A.; Sun, X. Efficient electrochemical water splitting catalyzed by electrodeposited nickel diselenide
+nanoparticlesbasedfilm.ACSAppl.Mater.Interfaces2016,8,4718–4723.[CrossRef][PubMed]
+40. Zhu,W.;Zhang,T.;Zhang,Y.;Yue,Z.;Li,Y.;Wang,R.;Ji,Y.;Sun,X.;Wang,J.Apractical-orientedNiFe-basedwater-oxidation
+catalystenabledbyambientredoxandhydrolysisco-precipitationstrategy.Appl.Catal.BEnviron.2019,244,844–852.[CrossRef]
+41. Du,X.;Yang,Z.;Li,Y.;Gong,Y.;Zhao,M.ControlledsynthesisofNi(OH) /Ni S hybridnanosheetarraysashighlyactiveand
+2 3 2
+stableelectrocatalystsforwatersplitting.J.Mater.Chem.A2018,6,6938–6946.[CrossRef]
+42. Li,Y.;Zhang,L.;Xiang,X.;Yan,D.;Li,F.EngineeringofZnCo-layereddoublehydroxidenanowallstowardhigh-efficiency
+electrochemicalwateroxidation.J.Mater.Chem.A2014,2,13250–13258.[CrossRef]
+43. Xiang,J.;Huang,K.;Yao,Z.;Zhang,B.;Li,S.;Chen,Z.;Wu,F.;Wu,J.;Huang,Y.TernaryduplexFeCoNialloypreparedby
+cathodeplasmaelectrolyticdepositionasahigh-efficientelectrocatalystforoxygenevolutionreaction. J.AlloysCompd. 2022,
+891,161934.
+44. Wu,F.;Yao,Z.;Huang,K.;Zhang,B.;Xia,J.;Chen,Z.;Wu,J.BoostingOERactivityofstainlesssteelbycathodicplasmasurface
+modification.J.Mater.Res.Technol.2021,15,6721–6725.[CrossRef]
+45. Huang,K.;Peng,D.;Yao,Z.;Xia,J.;Zhang,B.;Liu,H.;Chen,Z.;Wu,F.;Wu,J.;Huang,Y.Cathodicplasmadrivenself-assembly
+ofHEAsdendritesbypuresingleFCCFeCoNiMnCunanoparticlesashighefficientelectrocatalystsforOER.Chem.Eng.J.2021,
+425,131533.[CrossRef]
+46. Zhang,H.;Jiang,Q.;Hadden,J.;Xie,F.;Riley,D.Pdion-exchangeandammoniaetchingofaprussianblueanaloguetoproducea
+high-performancewater-splittingcatalyst.Adv.Funct.Mater.2021,31,2008989.[CrossRef]
+47. YWu,Y.;Liu,Y.;Li,G.;Zou,X.;Lian,X.;Wang,D.;Sun,L.;Asefa,T.;Zou,X.Efficientelectrocatalysisofoverallwatersplittingby
+ultrasmallNixCo 3−x S 4 coupledNi 3 S 2 nanosheetarrays.NanoEnergy2017,35,161–170.
+48. Yu,Y.;Zhang,J.;Wu,X.;Zhao,W.;Zhang,B.Nanoporoussingle-crystal-likeCdxZn 1−x Snanosheetsfabricatedbythecation-
+exchangereactionofinorganic–organichybridZnS–aminewithcadmiumions. Angew. Chem. 2012,51,897–900. [CrossRef]
+[PubMed]
+49. Yao,M.;Hu,H.;Sun,B.;Wang,N.;Hu,W.;Komarneni,S.Self-SupportivemesoporousNi/Co/Fephosphosulfidenanorods
+derivedfromnovelhydrothermalelectrodepositionasahighlyefficientelectrocatalystforoverallwatersplitting.Small2019,
+15,1905201.[CrossRef]
+
+Processes2023,11,245 15of17
+50. Hsieh,C.;Chuah,X.;Huang,C.;Lin,H.;Chen,Y.;Lu,S.NiFe/(Ni,Fe) S core/shellnanowirearraysasoutstandingcatalystsfor
+3 2
+electrolyticwatersplittingathighcurrentdensities.SmallMethods2019,3,1900234.[CrossRef]
+51. Fei,B.;Chen,Z.;Liu,J.;Xu,H.;Yan,X.;Qing,H.;Chen,M.;Wu,R.Ultrathinningnickelsulfidewithmodulatedelectrondensity
+forefficientwatersplitting.Adv.EnergyMater.2020,10,2001963.[CrossRef]
+52. Yang,H.; Gong,L.; Wang,H.; Dong,C.; Wang,J.; Qi,K.; Liu,H.; Guo,X.; Xia,B.Preparationofnickel-ironhydroxidesby
+microorganismcorrosionforefficientoxygenevolution.Nat.Commun.2020,11,5075.[CrossRef][PubMed]
+53. Chen,M.;Liu,D.;Zi,B.;Chen,Y.;Liu,D.;Du,X.;Li,F.;Zhou,P.;Ke,Y.;Li,J.;etal.Remarkablesynergisticeffectincobalt-iron
+nitride/alloynanosheetsforrobustelectrochemicalwatersplitting.J.EnergyChem.2022,65,405–414.[CrossRef]
+54. Huang,H.;Cho,A.;Kim,S.;Jun,H.;Lee,A.;Han,J.StructuraldesignofamorphousCoMoPxwithabundantactivesitesand
+synergisticcatalysiseffectforeffectivewatersplitting.Adv.EnergyMater.2020,30,2003889.
+55. Fan,G.;Li,F.;Evans,D.;Duan,X.Catalyticapplicationsoflayereddoublehydroxides:Recentadvancesandperspectives.Chem.
+Soc.Rev.2014,43,7040–7066.[CrossRef]
+56. Xu,M.;Wei,M.Layereddoublehydroxide-basedcatalysts:Recentadvancesinpreparation,structure,andapplications.Adv.Funct.
+Mater.2018,28,1802943.[CrossRef]
+57. Xu,Z.;Zhang,J.;Adebajo,M.;Zhang,H.;Zhou,C.Catalyticapplicationsoflayereddoublehydroxidesandderivatives.Appl.
+ClaySci.2011,53,139–150.[CrossRef]
+58. Gupta,S.;Forster,M.;Yadav,A.;Cowan,A.;Patel,N.;Patel,M.Highlyefficientandselectivemetaloxy-borideelectrocatalysts
+foroxygenevolutionfromalkaliandsalinesolutions.ACSAppl.EnergyMater.2020,3,7619–7628.[CrossRef]
+59. Dong,G.;Xie,F.;Kou,F.;Chen,T.;Wang,F.;Zhou,Y.;Wu,K.;Du,S.;Fang,M.;Ho,J.NiFe-layereddoublehydroxidearraysfor
+oxygenevolutionreactioninfreshwaterandseawater.Mater.TodayEnergy2021,22,100883.[CrossRef]
+60. Zhang,Y.;Wang,D.;Wang,S.High-entropyalloysforelectrocatalysis:Design,characterization,andapplications.Small2022,
+18,2104339.[CrossRef]
+61. Katiyar,N.;Biswas,K.;Yeh,J.;Sharma,S.;Tiwary,C.Aperspectiveonthecatalysisusingthehighentropyalloys.NanoEnergy
+2021,88,106261.[CrossRef]
+62. Qiu,H.;Fang,G.;Wen,Y.;Liu,P.;Xie,G.;Liu,X.;Sun,S.Nanoporoushigh-entropyalloysforhighlystableandefficientcatalysts.
+J.Mater.Chem.A2019,7,6499–6506.[CrossRef]
+63. Li,K.;Chen,W.Recentprogressinhigh-entropyalloysforcatalysts:Synthesis,applications,andprospects.Mater.TodayEnergy
+2021,20,100638.[CrossRef]
+64. Li,H.;Lai,J.;Li,Z.;Wang,L.Multi-siteselectrocatalysisinhigh-entropyalloys.Adv.Funct.Mater.2021,31,2106715.[CrossRef]
+65. Han,L.;Guo,L.;Dong,C.;Zhang,C.;Gao,H.;Niu,J.;Peng,Z.;Zhang,Z.Ternarymesoporouscobalt-iron-nickeloxideefficiently
+catalyzingoxygen/hydrogenevolutionreactionsandoverallwatersplitting.NanoRes.2019,12,2281–2287.[CrossRef]
+66. Spöri,C.;Kwan,J.;Bonakdarpour,A.;Wilkinson,P.D.Thestabilitychallengesofoxygenevolvingcatalysts:Towardsacommon
+fundamentalunderstandingandmitigationofcatalystdegradation.Angew.Chem.2017,56,5994–6021.[CrossRef][PubMed]
+67. Jiang, J.; Sun, F.; Zhou, S.; Hu, W.; Zhang, H.; Dong, J.; Jiang, Z.; Zhao, J.; Li, J.; Yan, W.; et al. Atomic-level insight into
+super-efficientelectrocatalyticoxygenevolutiononironandvanadiumco-dopednickel(oxy)hydroxide.Nat.Commun.2018,
+9,2885.[CrossRef]
+68. Wen,Y.;Wei,Z.;Liu,J.;Li,R.;Wang,P.;Zhou,B.;Zhang,X.;Li,J.;Li,Z.SynergisticceriumdopingandMXenecouplingin
+layereddoublehydroxidesasefficientelectrocatalystsforoxygenevolution.J.EnergyChem.2021,52,412–420.[CrossRef]
+69. Yu,M.;Zheng,J.;Guo,M.La-dopedNiFe-LDHcoupledwithhierarchicalverticallyalignedMXeneframeworksforefficient
+overallwatersplitting.J.EnergyChem.2022,70,472–479.[CrossRef]
+70. Xu,H.;Shan,C.;Wu,X.;Sun,M.;Huang,B.;Tang,Y.;Yan,C.Fabricationoflayereddoublehydroxidemicrocapsulesmediated
+byceriumdopinginmetal–organicframeworksforboostingwatersplitting.EnergyEnviron.Sci.2020,13,2949–2956.[CrossRef]
+71. Zhao,G.;Wang,B.;Yan,Q.;Xia,X.Mo-doping-assistedelectrochemicaltransformationtogenerateCoFeLDHasthehighly
+efficientelectrocatalystforoverallwatersplitting.J.AlloysCompd.2022,902,163738.[CrossRef]
+72. Xu,H.;Wang,B.;Shan,C.;Xi,P.;Liu,W.;Tang,Y.Ce-dopedNiFe-Layereddoublehydroxideultrathinnanosheets/nanocarbon
+hierarchicalnanocompositeasanefficientoxygenevolutioncatalyst.ACSAppl.Mater.Interface2018,10,6336–6345.[CrossRef]
+73. Bera,K.;Karmakar,A.;Kumaravel,S.;Sankar,S.;Madhu,R.;Dhandapani,H.;Nagappan,S.;Kundu,S.Vanadium-dopednickel
+cobaltlayereddoublehydroxide:Ahigh-performanceoxygenevolutionreactionelectrocatalystinalkalinemedium.Inorg.Chem.
+2022,61,4502–4512.[CrossRef][PubMed]
+74. Minakshi,M.;Barmi,M.;Jones,R.Rescalingmetalmolybdatenanostructureswithbiopolymerforenergystoragehavinghigh
+capacitancewithrobustcyclestability.DaltonTrans.2017,46,3588–3600.[CrossRef][PubMed]
+75. Faraji, M.; Arianpouya, N. NiCoFe-layered double hydroxides/MXene/N-doped carbon nanotube composite as a high-
+performancebifunctionalcatalystforoxygenelectrocatalyticreactionsinmetal-airbatteries.J.Electroanal.Chem.2021,901,115797.
+[CrossRef]
+76. Yang,J.;Baker,A.;Liu,H.;Martens,W.;Forster,R.Size-controllablesynthesisofchromiumoxyhydroxidenanomaterialsusinga
+softchemicalhydrothermalroute.J.Mater.Sci.2010,45,6574–6585.[CrossRef]
+77. Wang,T.;Xu,W.;Wang,H.TernaryNiCoFelayereddoublehydroxidenanosheetssynthesizedbycationexchangereactionfor
+oxygenevolutionreaction.Electrochim.Acta2017,257,118–127.[CrossRef]
+
+Processes2023,11,245 16of17
+78. Cao,L.;Wang,J.;Zhong,D.;Lu,T.Template-directedsynthesisofsulphurdopedNiCoFelayereddoublehydroxideporous
+nanosheetswithenhancedelectrocatalyticactivityforoxygenevolutionreaction.J.Mater.Chem.A2018,6,3224–3230.[CrossRef]
+79. Minaksh,M.;Mitchell,D.;Jones,R.;Pramanik,N.;Fulcrand,A.;Garnweitner,G.Ahybridelectrochemicalenergystoragedevice
+usingsustainableelectrodematerials.Chem.Sel.2020,5,1597–1606.[CrossRef]
+80. Kong,X.;Zhang,C.;Hwang,S.;Chen,Q.;Peng,Z.Free-standingholeyNi(OH) nanosheetswithenhancedactivityforwater
+2
+oxidation.Small2017,13,1700334.[CrossRef]
+81. Wu,J.;Subramaniam,J.;Liu,Y.;Geng,D.;Meng,X.FacileassemblyofNi(OH) nanosheetsonnitrogen-dopedcarbonnanotubes
+2
+networkashigh-performanceelectrocatalystforoxygenevolutionreaction.J.AlloysCompd.2018,731,766–773.[CrossRef]
+82. Kou,T.;Wang,S.;Hauser,J.;Chen,M.;Oliver,S.;Ye,Y.;Guo,J.;Li,Y.Nifoam-supportedFe-dopedβ-Ni(OH) nanosheetsshow
+2
+ultralowoverpotentialforoxygenevolutionreaction.ACSEnergyLett.2019,4,622–628.[CrossRef]
+83. Wu,Y.;Ji,S.;Wang,H.;Pollet,B.;Wang,X.;Wang,R.Ahighlyefficientwaterelectrolysercellassembledbyasymmetricarray
+electrodesbasedonCo,Fe-dopedNi(OH) nanosheets.Appl.Surf.Sci.2020,528,146972.[CrossRef]
+2
+84. He,Y.;Yu,T.;Wen,H.;Guo,R.BoostingthechargetransferofFeOOH/Ni(OH) forexcellentoxygenevolutionreactionviaCr
+2
+modification.DaltonTrans.2021,50,9746–9753.[CrossRef][PubMed]
+85. Zhang,H.;Xi,B.;Gu,Y.;Chen,W.;Xiong,S.InterfaceengineeringandheterometaldopingMo-NiS/Ni(OH) foroverallwater
+2
+splitting.NanoRes.2021,14,3466–3473.[CrossRef]
+86. Cui,B.;Hu,Z.;Liu,C.;Liu,S.;Chen,F.S.;Hu,S.;Zhang,J.;Zhou,W.;Deng,Y.;Qin,Z.;etal. Heterogeneouslamellar-edged
+Fe-Ni(OH) /Ni S nanoarrayforefficientandstableseawateroxidation.NanoRes.2021,14,1149–1155.[CrossRef]
+2 3 2
+87. Yuan,W.;Cui,Z.;Zhu,S.;Li,Z.;Wu,S.;Liang,Y.StructureengineeringofelectrodepositedNiMofilmsforhighlyefficientand
+durableseawatersplitting.Electrochim.Acta2021,365,137366.[CrossRef]
+88. Cui,T.;Zhai,X.;Guo,L.;Chi,J.;Zhang,Y.;Zhu,J.;Sun,X.;Wang,L.Controllablesynthesisofaself-assembledultralowRu,
+Ni-dopedFe O lilyasabifunctionalelectrocatalystforlarge-current-densityalkalineseawaterelectrolysis.Chin.J.Catal.2022,
+2 3
+43,2202–2211.[CrossRef]
+89. Lyu,C.;Cheng,J.;Wu,K.;Wu,J.;Wang,N.;Guo,Z.;Hu,P.;Lau,W.;Zheng,J.InterfacialelectronicstructuremodulationofCoP
+nanowireswithFePnanosheetsforenhancedhydrogenevolutionunderalkalinewater/seawaterelectrolytes. Appl. Catal. B
+Environ.2022,317,121799.[CrossRef]
+90. Li,G.;Li,F.;Zhao,Y.;Li,W.;Zhao,Z.;Li,Y.;Yang,H.;Fan,K.;Zhang,P.;Sun,L.Selectiveelectrochemicalalkalineseawater
+oxidationcatalyzedbycobaltcarbonatehydroxidenanorodarrayswithsequentialproton-electrontransferproperties. ACS
+Sustain.Chem.Eng.2021,9,905–913.[CrossRef]
+91. Yang,J.;Wang,Y.;Yang,J.;Pang,Y.;Zhu,X.;Lu,Y.;Wu,Y.;Wang,J.;Chen,H.;Kou,Z.;etal.Quench-inducedsurfaceengineering
+boostsalkalinefreshwaterandseawateroxygenevolutionreactionofporousNiCo O nanowires. Small2022, 18, 2106187.
+2 4
+[CrossRef][PubMed]
+92. Sun,H.;Sun,J.;Song,Y.;Zhang,Y.;Qiu,Y.;Sun,M.;Tian,X.;Li,C.;Lv,Z.;Zhang,L.Nickel–cobalthydrogenphosphateonnickel
+nitridesupportedonnickelfoamforalkalineseawaterelectrolysis.ACSAppl.Mater.Interfaces2022,14,22061–22070.[CrossRef]
+[PubMed]
+93. Wu,Y.;Tian,Z.;Yuan,S.;Qi,Z.;Feng,Y.;Wang,Y.;Huang,R.;Zhao,Y.;Sun,J.;Zhao,W.;etal.Solar-drivenself-poweredalkaline
+seawaterelectrolysisviamultifunctionalearth-abundantheterostructures.Chem.Eng.J.2021,411,128538.[CrossRef]
+94. Li,Y.;Wu,X.;Wang,J.;Wei,H.;Zhang,S.;Zhu,S.;Li,Z.;Wu,S.;Jiang,H.;Liang,Y.SandwichstructuredNi S -MoS -Ni S @Ni
+3 2 2 3 2
+foamelectrodeasastablebifunctionalelectrocatalystforhighlysustainedoverallseawatersplitting. Electrochim. Acta2021,
+390,138833.[CrossRef]
+95. Sun, J.; Li, J.; Li, Z.; Li, C.; Ren, G.; Zhang, Z.; Meng, X.Modulatingtheelectronicstructureoncobaltsitesbycompatible
+heterojunctionfabricationforgreatlyimprovedoverallwater/seawaterelectrolysis.ACSSustain.Chem.Eng.2022,10,9980–9990.
+[CrossRef]
+96. Yu,Y.;Li,J.;Luo,J.;Kang,Z.;Jia,C.;Liu,Z.;Huang,W.;Chen,Q.;Deng,P.;Shen,Y.;etal. Mo-decoratedcobaltphosphide
+nanoarraysasbifunctionalelectrocatalystsforefficientoverallwater/seawatersplitting. Mater. TodayNano2022,18,100216.
+[CrossRef]
+97. Hao, W.; Fu, C.; Wang, Y.; Yin, K.; Yang, H.; Yang, R.; Chen, Z. Coupling boron-modulated bimetallic oxyhydroxide with
+photosensitivepolymerenablehighly-activeandultra-stableseawatersplitting.J.EnergyChem.2022,75,26–37.[CrossRef]
+98. Jin,Z.;Lv,J.;Jia,H.;Liu,W.;Li,H.;Chen,Z.;Lin,X.;Xie,G.;Liu,X.;Sun,S.;etal.NanoporousAl-Ni-Co-Ir-Mohigh-entropy
+alloyforrecord-highwatersplittingactivityinacidicenvironments.Small2019,15,1904180.[CrossRef]
+99. Cai,Z.;Goou,H.;Ito,Y.;Tokunaga,T.;Miyauchi,M.;Abe,H.;Fujita,T.Nanoporousultra-high-entropyalloyscontainingfourteen
+elementsforwatersplittingelectrocatalysis.Chem.Sci.2021,12,11306–11315.[CrossRef]
+100. Zhu,H.;Zhu,Z.;Hao,J.;Sun,S.;Lu,S.;Wang,C.;Ma,P.;Dong,W.;Du,M.High-entropyalloystabilizedactiveIrforhighly
+efficientacidicoxygenevolution.Chem.Eng.J.2022,431,133251.[CrossRef]
+101. Chang,S.;Cheng,C.;Cheng,P.;Huang,C.;Lu,S.PulseelectrodepositedFeCoNiMnWhighentropyalloysasefficientandstable
+bifunctionalelectrocatalystsforacidicwatersplitting.Chem.Eng.J.2022,446,137452.[CrossRef]
+
+Processes2023,11,245 17of17
+102. Feng,M.;Huang,J.;Peng,Y.;Huang,C.;Yue,X.;Huang,S.Tuningelectronicstructuresoftransitionmetalcarbidestoboost
+oxygenevolutionreactionsinacidicmedium.ACSNano2022,16,13834–13844.[CrossRef][PubMed]
+103. Chen,D.;Yu,R.;Wu,D.;Zhao,H.;Wang,P.;Zhu,J.;Ji,P.;Pu,Z.;Chen,L.;Yu,J.;etal.Anion-modulatedmolybdenumoxide
+enclosedrutheniumnano-capsuleswithalmostthesamewatersplittingcapabilityinacidicandalkalinemedia.NanoEnergy
+2022,100,107445.[CrossRef]
+Disclaimer/Publisher’s Note: The statements, opinions and data contained in all publications are solely those of the individual
+author(s)andcontributor(s)andnotofMDPIand/ortheeditor(s).MDPIand/ortheeditor(s)disclaimresponsibilityforanyinjuryto
+peopleorpropertyresultingfromanyideas,methods,instructionsorproductsreferredtointhecontent.
+

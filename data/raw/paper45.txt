@@ -1,0 +1,562 @@
+This article is licensed under CC-BY-NC-ND 4.0
+http://pubs.acs.org/journal/acsodf Article
+Platinum Nanoparticles Bonded with Carbon Nanotubes for High-
+Performance Ampere-Level All-Water Splitting
+Hong Tang, Takahiro Kojima, Kenji Kazumi, Kazuhiro Fukami, and Hiroshi Sakaguchi*
+CiteThis:ACSOmega2024,9,21378−21387 ReadOnline
+ACCESS *
+Metrics&More ArticleRecommendations sı SupportingInformation
+ABSTRACT: Platinum nanoparticles loaded on a nitrogen-doped
+carbon nanotubes exhibit a brilliant hydrogen evolution reaction
+(HER)inanalkalinesolution,buttheirbifunctionalhydrogenand
+oxygenevolutionreaction(OER)hasnotbeenreportedduetothe
+lack of a strong Pt−C bond. In this work, platinum nanoparticles
+bonded in carbon nanotubes (Pt-NPs-bonded@CNT) with strong
+Pt−C bonds are designed toward ultralow overpotential water
+splitting ability in alkaline solution. Benefit from the strong
+interaction between platinum and high conductivity carbon
+nanotube substrates through the Pt−C bond also the platinum nanoparticles bonded in carbon nanotube can provide more
+stable active sites, as a result, the Pt-NPs-bonded@CNT exhibits excellent hydrogen evolution in acid and alkaline solution with
+ultralow overpotential of 0.19 and 0.23 V to reach 1000 mA cm−2, respectively. Besides, it shows superior oxygen evolution
+electrocatalysisinalkalinesolutionwithalowoverpotentialof1.69Vat1000mAcm−2.Furthermore,italsoexhibitshighstability
+over110hagainsttheevolutionofoxygenandhydrogenat1000mAcm−2.Thisstrategypavesthewaytothehighperformanceof
+bifunctionalelectrocatalyticreactionwithextraordinarystabilityoriginatingfromoptimizedelectrondensityofmetalactivesitesdue
+to strong metal-substrate interaction.
+1. INTRODUCTION improvementofcatalyticperformancemainlyincludestwokey
+aspects:(1)Increasethespecificsurfaceareaofthecatalystto
+Hydrogen fuel has become the most important fuel in the
+expose more active sites, such as nanoparticles, nanoclusters,
+worldtoday,besidesfossilfuels,duetoitshighenergydensity
+andproductcleanliness.1−3However,alargeamountofenergy nanoplates, and metal−organic frameworks, thereby making
+is consumed in the process of industrial hydrogen production the electrode have more active sites to combine intermediates
+as the result of the constant need for high overpotential for for improving the catalytic performance.14−18 (2) Construct
+water splitting, especially in an alkaline medium, and the low Pt-based composite materials by confining active sites into
+proton concentration has become a serious obstacle for otherelectrochemicallyactivematerialsorconvertingplatinum
+HER.4,5 In fact, developing water electrolysis catalysts for metal to platinum compounds, such as oxide, telluride, and
+industrial applications is very challenging because they always alloys.19−22
+facethebottleneckoflong-termstabilityandlowoverpotential The splendid oxygen evolution performance of platinum-
+when operating at ampere-level current. The anion exchange based materials has rarely been studied, and achieving
+membrane (AEM) based water electrolyzer also relies on an platinum-based catalysts with efficient bifunctional hydrogen
+efficient oxygen evolution reaction (OER), so the application and oxygen evolution ability is an important research field
+of highly active catalysts to evolve oxygen under alkaline because the oxygen evolution reaction is also a pivotal part of
+conditions has become a thorny issue.6−8 Platinum is a theanionexchangemembranewaterelectrolyzer.23Inorderto
+milestonecatalystthathasachievedhydrogenevolutionunder construct an efficient platinum-based catalyst for water
+acidic conditions, but it is also hindered by the magnitude of splitting, choosing a suitable substrate to load active platinum
+lowreactionkineticsinalkalinesolutioncomparedwithacidic with a stable structure to serve strong metal−support
+medium due to the key water dissociation step (H 2 O + e− → interaction is an important point.24−27 Carbon nanotube
+*H + OH−).9,10
+Given the hydrogen evolution capability under acidic
+Received: February20, 2024
+conditions, developing Pt-based electrocatalysts with low
+Revised: April 17,2024
+cost, fast kinetics, and long-term stability in alkaline solutions
+Accepted: April 25,2024
+hasbecomeanimportantstrategyworthexploring.Inprevious
+Published: April 30,2024
+studies,manyefforts havebeen devotedto designingPt-based
+catalysts to enhance their hydrogen evolution ability.11−13 A
+common understanding for devising the strategy is that the
+©2024TheAuthors.Publishedby
+AmericanChemicalSociety https://doi.org/10.1021/acsomega.4c01662
+21378 ACSOmega2024,9,21378−21387
+
+ACS Omega http://pubs.acs.org/journal/acsodf Article
+(CNT), as a stable high conductivity substrate, is most nitric acid. Then, the acid-treated carbon nanotubes were
+promising for anchoring active sites on the surface toward vacuum-dried for 12 h for further use.
+high-activity catalysts, such as nanoparticles, nanoplates, and 2.1.2.PreparedPt-NPs-Bonded@CNT.Platinumloadingon
+nanowires.16,28−30 Wang et al. reported that successfully acid-treated carbon nanotubes occurs through a wet chemical
+synthesizedPtnanoparticlesloadedonnitrogen-dopedcarbon reaction. H PtCl •6H O (0.02 mmol, 10.358 mg) and acid-
+2 6 2
+nanotubes with pyridinic-N and pyrrolic-N decorated, have treated carbon nanotubes (40 mg) were dispersed in 40 mL
+shown ampere-level hydrogen evolution ability, but did not deionized water and then kept at 90 °C for 24 h with stirring.
+exhibit OER performance due to the lack of strong Pt−C After that, the dispersion solution was at 90 °C for 12 h to
+bonds.31 Meanwhile, previous research is limited to achieving evaporate water to get the precursor powder of Pt-NPs-
+significant bifunctional hydrogen and oxygen evolution based bonded@CNT. The obtained precursor of Pt-NPs-bonded@
+on platinum and CNT through strong chemical bond CNT was annealed at 900 °C for 2 h under an argon
+interaction to reduce electron transfer energy barriers. atmosphere and cooling naturally.
+Inspired by the above discussion, herein, we designed 2.1.3. Prepared the Pt-NPs-Attached@CNT. The Pt-NPs-
+platinum nanoparticles bonded in carbon nanotubes (Pt-NPs- attached@CNT was prepared by the same procedure except
+bonded@CNT) with Pt−C bonds toward ultralow over- that the carbon nanotubes were not treated with acid.
+potential water splitting ability in alkaline solution (Figure 1). 2.2. Electrochemical Measurement. Electrochemical
+performance tests of all catalysts were performed on an
+electrochemical workstation using a three-electrode system.
+The electrolyte used in all tests under alkaline and acidic
+conditions was 1.0 M KOH and 0.5 M H SO solution,
+2 4
+respectively. When testing the hydrogen evolution reaction, a
+graphite electrode was used as the counter electrode, besides,
+an Ag/AgCl electrode and Hg/HgO electrode were used as
+referenceelectrodesinacidandalkalinesolutions,respectively.
+When testing the oxygen evolution reaction under alkaline
+Figure 1. Schematic illustration of Pt-NPs-bonded@CNT toward conditions,aplatinumplateelectrodewasusedasthecounter
+bifunctionalcatalytichydrogenevolutionreaction(HER)andoxygen electrode. The Pt-NPs-bonded@CNT electrode was obtained
+evolutionreaction (OER). by drop-dry mothed. Briefly, 5 mg of Pt-NPs-bonded@CNT
+catalyst was first dispersed in a mixed solution of 50 μL of
+Nafiondispersion,450μLisopropylalcoholand500μLwater.
+During the synthesis process, carbon nanotubes are employed Afterward, drop 40 μL of Pt-NPs-bonded@CNT dispersion
+as the substrate, and surface oxygen-containing groups of evenly on the surface of the carbon paper electrode, and then
+carbon nanotubes are modified by strong acid treatment, use it to test the electrochemical performance after natural
+causing defects on the surface to capture platinum atoms, drying for 2 h. The Pt−C electrode was prepared using the
+thereby promoting the embedding of platinum nanoparticles same method. Polarization curves were measured by linear
+on the surface of carbon nanotubes. Benefit from the strong sweep voltammetry (LSV) at a sweep rate of 5 mV s−1. All
+interaction between platinum and high-conductivity carbon obtained LSV curves were corrected with 100% iR
+nanotube substrates through the Pt−C bond, the platinum compensation. All stability measurements were performed
+nanoparticles bonded in carbon nanotube can provide more using potentiostat testing at 1000 mA cm−2 for over 100 h.
+stable active sites, the Pt-NPs-bonded@CNT shows splendid Electrochemical impedance spectroscopy (EIS) was tested in
+electrocatalytic performance. Therefore, it exhibits excellent the frequency range from 10000 to 0.1 Hz with an amplitude
+hydrogen evolution ability, and when the current density voltage of 5 mV.
+reaches 1000 mA cm−2, it only requires an ultralow Theconversionof thetestpotential intoapotentialrelative
+overpotential of 0.19 V in an acidic solution and 0.23 V in to a reversible hydrogen electrode (RHE) under acidic
+an alkaline solution. Besides, it shows superior oxygen conditions can be calculated by using the Nernst equation:
+evolution electrocatalysis in alkaline solution with a low E =E +0.198 + 0.0591 × pH
+overpotential of 1.69 V at 1000 mA cm−2. Besides, it also RHE Ag/AgCl
+exhibitshighstabilityover120hagainsthydrogenevolutionat
+Under alkaline conditions, due to changes in the reference
+1000 mA cm−2 in both acid and alkaline conditions as well as
+electrode, the Nernst equation that converts the potential of
+long-term stability for 110 h against oxygen evolution in
+the reversible hydrogen electrode is:
+alkaline solution. In contrast, platinum nanoparticles attached
+on the surface of carbon nanotubes (Pt-NPs-attached@CNT) E RHE =E Hg/HgO +0.098 + 0.0591 × pH
+without Pt−C bonds are also established without acid
+treatment and show inferior performance for HER and no The Tafel slope (b) is obtained by linear fitting a plot
+bifunctional OER performance. derived from the logarithm of current density (j) versus
+overpotential (η) through follow equation:
+2. EXPERIMENTAL SECTION The electrochemical double layer capacitance (C ) is
+dl
+obtained by cyclic voltammetry (CV) measurement at various
+2.1.MaterialsPreparation.2.1.1.PreparationofPt-NPs-
+scan rates with a voltage of −0.7∼−0.9 V versus E .
+Embedded@CNT. 2.1.1.1. Acid-treated carbon nanotubes. Hg/HgO
+First,200mgofcarbonnanotubeswashydrothermallytreated
+3. RESULTS AND DISCUSSION
+in 30 mL of 5 M nitric acid at 160 °C for 6 h. After that, the
+acid-treated carbon nanotubes were collected by filtration and 3.1. Phase and Structural Characterizations. Pt-NPs-
+washed four times with deionized water to remove residual bonded@CNT with platinum nanoparticles bonded in carbon
+21379 https://doi.org/10.1021/acsomega.4c01662
+ACSOmega2024,9,21378−21387
+
+ACS Omega http://pubs.acs.org/journal/acsodf Article
+Figure 2. (a) SEM image of the Pt-NPs-bonded@CNT. (b, c) TEM and HR-TEM of Pt-NPs-bonded@CNT. (d) EDS mapping of Pt-NPs-
+bonded@CNT.
+Figure3.(a)XRDpatternsofPt-NPs-bonded@CNT(red),Pt-NPs-attached@CNTs(blue),acid-treatedCNTs(black),andCNT(green).The
+XRDstandardcarddataforPt(JCPDSNo.04−0802)andCNT(JCPDSNo.41−1487)aremarkedinredandblack.(b−d)Pt4f,C1s,andO1s
+highresolution ofXPS spectraof Pt-NPs-bonded@CNT.
+nanotubes was prepared through in situ-growth of platinum deionizedwater,theplatinumionscapturedbythedefectsites
+nanoparticlesonthesurfaceofcarbonnanotubeswithdefects, duringmediumtemperatureandthenevaporationwatertoget
+as illustrated in Figure S1. First, defects, which means holes, precursor of Pt-NPs-bonded@CNT. Finally,Pt-NPs-bonded@
+oxidative functional groups, such as hydroxyl and carboxyl CNT precursor was annealed at high temperature to get the
+groups, were formed on carbon nanotubes surface after final product. Scanning electron microscopy (SEM) and
+hydrothermal acidification treatment. After that, the defective transmission electron microscopy (TEM) measurements are
+carbon nanotubes and platinum source were dispersed in carried out to authenticate the morphological information on
+21380 https://doi.org/10.1021/acsomega.4c01662
+ACSOmega2024,9,21378−21387
+
+ACS Omega http://pubs.acs.org/journal/acsodf Article
+Figure4.HERelectrochemicalperformancemeasurementsinacid.(a)HERLSVcurvesofPt-NPs-bonded@CNT,Pt−C,andPt-NPs-attached@
+CNT,andcarbonpaperin0.5MHSO.(b)EISofPt-NPs-bonded@CNT,Pt−C,andPt-NPs-attached@CNTin0.5MHSO.(c)Tafelslope
+2 4 2 4
+comparisongraphof Pt-NPs-bonded@CNT,Pt−C,andPt-NPs-attached@CNT.(d) Galvanostatichydrogenevolutionmeasurementofthe Pt-
+NPs-bonded@CNTat1000mA cm−2in0.5 MHSO.
+2 4
+the Pt-NPs-bonded@CNT. As shown in Figure 2a, the SEM particles exhibit an amorphous structure (Figure S7). The
+image shows a smooth carbon nanotube shape after loading elemental mapping image also verified the distribution
+platinumparticlesontheacid-treatedcarbonnanotubesurface. information on platinum nanoparticles as well as the C and
+TEM and HAADF-STEM images demonstrated that the O elements in Pt-NPs-attached@CNTs.
+platinum nanoparticles are bonded on the surface of the The crystal structure of Pt-NPs-bonded@CNT is revealed
+carbon nanotube and are only a few nanometers in diameter, by X-ray diffraction (XRD) pattern, as present in Figure 3a.
+which is beneficial to expose more active sites for absorbed These diffraction peaks can be well matched with metal
+intermediatestoenhanceelectrocatalyticperformance(Figures platinum (JCPDS No. 04−0802 (Pt)), and no impurity peak,
+2b and S4). Furthermore, the HR-TEM image more clearly such as platinum oxide, appears, indicating the formation of
+displays the platinum nanoparticles bonded on the surface of high pure phases of platinum nanoparticles. Nevertheless, all
+the carbon nanotube and covered by an amorphous carbon peaks of platinum are upshifted compared to the standard of
+nanolayer (inset of Figure 2c). Figure 2c reveals that the platinum. This result is caused by a slight shrinkage in the
+platinumnanoparticleshaveasingleinterplanarspacingof2.22 interplanar spacing of the platinum nanoparticle lattice, which
+Å of the Pt (111) facet, which is the slightly shrunken typical isconsistentwiththeHR-TEMresultoftheslightlyshrunkPt
+interplanar spacing of 2.27 Å of the standard Pt (111) crystal (111) facet and the Bragg equation of the XRD calculation
+face.32ThisresultisalsoconsistentwiththeFouriertransform results(0.05Å).Besides,thediffractionpeakposition(JCPDS
+of the platinum lattice and the selective electron area No. 41−1487 (CNT)) of the XRD pattern of the carbon
+diffraction (SAED) pattern (Figures S5 and S6). Moreover, nanotubeafteracidtreatmentisnotchangedcomparedtothe
+energy-dispersive X-ray spectroscopy (EDS) elemental map- pristine carbon nanotube, however, the intensity of the
+ping confirmed that the bright spots on the carbon nanotubes diffraction peak becomes weaker, which is due to defects
+wereplatinumnanoparticles(Figure2d).Themassloadingof created on the surface of the carbon nanotube.34 It is worth
+Pt nanoparticles in the nanocomposites is 0.7 wt %, which is noting that the peak of Pt-NPs-bonded@CNT at 42.2°
+within the appropriate value range for high catalytic perform- belongs to the (100) peak of CNT because it matches well
+anceintherelevantliterature.33Additionally,theCandtheO with the (100) peak of JCPDS No. 41−1487 (CNT) (Figure
+elements are uniformly distributed in the Pt-NPs-bonded@ 3a). Besides, there is no shift in the position of the platinum
+CNT,andtheOelementshaveverylittlecontent.Incontrast, peak of Pt-NPs-attached@CNTs, which further confirms that
+the TEM image of Pt-NPs-attached@CNT shows that theplatinumnanoparticlesareattachedtothesurfaceofCNTs
+platinum nanoparticles are supposed to be only attached on without any stress, causing slight deformation of the platinum
+the surface of carbon nanotubes, and the platinum nano- crystal lattice. As a result, we conclude that the pure platinum
+21381 https://doi.org/10.1021/acsomega.4c01662
+ACSOmega2024,9,21378−21387
+
+ACS Omega http://pubs.acs.org/journal/acsodf Article
+Figure5.HERelectrochemicalperformancemeasurementsinalkaline.(a)HERLSVcurvesofPt-NPs-bonded@CNT,Pt-NPs-attached@CNT,
+Pt−C,andcarbonpaperin1.0MKOH.(b)ComparisonoftheoverpotentialgraphofPt-NPs-bonded@CNTwithexcellentCNT-basedmaterials
+at 50 mA cm−2 and 100 mA cm−2. (c) Tafel slope compared graph of Pt-NPs-bonded@CNT, Pt−C, and Pt-NPs-attached@CNT. (d)
+Galvanostatichydrogen evolutionmeasurementof the Pt-NPs-bonded@CNTat1000mA cm−2in1.0 MKOH.
+nanoparticles bonded on the surface of the carbon nanotube bond and only a very weak peak of divalent platinum because
+and the presence of platinum oxides is ruled out. the O 1s spectrum shows the presence of oxygen defects in
+The chemical state of the surface elements of Pt-NPs- platinumnanoparticles.Inaddition,thePt−Cpeakat284.3eV
+bonded@CNTs was determined by X-ray photoelectron intheC1sspectrumalsodisappeared,whichconfirmsthatthe
+spectroscopy (XPS), as shown in Figure 3b−d. The chemical connection between platinum nanoparticles and CNTs lacks
+valence of platinum is detected by the spectrum of Pt 4f, as Pt−C bonds (Figure S9).
+displayedinFigure3b.Therearetwopeakslocatedat75.6and 3.2. Electrocatalysis Performance of HER in 0.5 M
+72.5 eV, which are attributed to the 4f orbital of Pt2+ and H SO . The hydrogen evolution ability of the Pt-NPs-
+5/2 2 4
+4f orbital of Pt2+, respectively.31 Meanwhile, the peaks that bonded@CNT electrode under acidic conditions was system-
+7/2
+appearedat74.8and71.5eVareascribedtoPtmetallicstates. atically tested, as shown by the linear sweep voltammetry
+Four peaks appeared at 284.3 eV, 284.8 eV, 286.3 eV, and (LSV) curves in Figure 4a. Compared to Pt−C, Pt-NPs-
+289.6eVinthehigh-resolutionXPSspectrumofC1s,whichis attached@CNT,andcarbonpaper,thePt-NPs-bonded@CNT
+attributedtoPt−C,C−C/C=C,C−O,andO=C−Obondsin electrode exhibits the best HER performance and reaches
+carbon nanotubes, respectively (Figure 3c).35,36 The existence ampere-level current density with a small overpotential. It is
+of C−O and O=C−O bonds found in carbon nanotubes worth noting that the Pt-NPs-bonded@CNT electrode only
+verifiedthatthesurfacemodificationissuccessfulandoxygen- requires an overpotential of 27 and 114 mV to reach 100 mA
+containing groups are formed on the surface of carbon cm−2 and 500 mA cm−2, and even only needs 193 mV to
+nanotubes. Besides, the spectrum of the O 1s is also used to achieve an ampere-level current density of 1000 mA cm−2,
+check the platinum chemical state indirectly. There are only which is significantly outperforming the benchmark electro-
+O2 and O4 peaks located at 531.2 and 533.5 eV, which are catalyst of Pt−C with an overpotential of 73 mV (η ), 181
+100
+related to hydroxyl groups and adsorbed water (Figure 3d).37 mV (η ), and 234 mV (η ). In addition, its HER
+500 1000
+However, the O1 peak associated with metal oxides and the performance also exceeds that of Pt-NPs-attached@CNTs
+O3 peak belonging to lattice-defective oxygen on the metal without acid treatment, which is 200 mV (η ), 275 mV
+100
+surface are all absent, which can illustrate there are no (η ), and 324 mV (η ). The substrate of carbon paper
+500 1000
+platinum oxides existing in Pt-NPs-bonded@CNT.38 This showsanegligibleabilityforhydrogenevolution.Theresulting
+result demonstrates that divalent platinum is formed by the lowoverpotentialofPt-NPs-bonded@CNTisattributedtothe
+formation of chemical bonds between platinum and carbon platinum nanoparticle bonded in the carbon nanotube with
+(Pt−C)incarbonnanotubes.Themetallicstateofplatinumis Pt−Cbond,resultinginanefficientlyreducedelectrontransfer
+related to the platinum nanoparticles bonded in carbon energy barrier, and highly dispersed platinum nanoparticles
+nanotubes. In contrast, for Pt-NPs-attached@CNTs, the providing more adsorption active sites for hydrogen radicals.
+chemical valence of platinum shown in the Pt 4f spectrum is Electrochemical impedance spectroscopy (EIS) of Pt-NPs-
+almost that of the Pt metallic state due to the lack of Pt−C bonded@CNT, Pt-NPs-attached@CNTand Pt−Crevealsthe
+21382 https://doi.org/10.1021/acsomega.4c01662
+ACSOmega2024,9,21378−21387
+
+ACS Omega http://pubs.acs.org/journal/acsodf Article
+Figure 6. OER Electrochemical performance measurements in alkaline. (a) OER LSV curves of Pt-NPs-bonded@CNT, RuO, and Pt-NPs-
+2
+attached@CNT,andcarbonpaperin1.0MKOH.(b)ComparisonoftheoverpotentialgraphofPt-NPs-bonded@CNTwithexcellentCNT-based
+materialsat50mAcm−2and100mAcm−2.(c)TafelslopecomparisongraphofPt-NPs-bonded@CNTandRuO oftheOERin1.0MKOH.(d)
+2
+Galvanostaticoxygenevolution measurementofthe Pt-NPs-bonded@CNTat1000mA cm−2in 1.0MKOH.
+electron transfer energy barrier corresponding to the charge 3.3. Electrocatalysis Performance of HER in 1.0 M
+transfer properties, as displayed in Figure 4b. In the Nyquist KOH. Compared with the hydrogen evolution reaction under
+plots, the Nyquist semicircle diameter represents the charge acidic conditions, the catalyst usually exhibits poor hydrogen
+transfer resistance (R ). The Pt-NPs-bonded@CNT exhibits evolution performance under alkaline conditions due to a lack
+ct
+the lowest charge transfer resistance (R ) compared with Pt- of protons. Surprisingly, the Pt-NPs-bonded@CNT also had
+ct
+NPs-attached@CNTandPt−C,whichmeansthatthePt-NPs- outstanding hydrogen evolution performance in 1.0 M KOH,
+bonded@CNT has faster electron transfer properties, thereby as presented in Figure 5a. The Pt-NPs-bonded@CNT
+accelerating water splitting.39,40 Tafel slope is usually used as electrode shows an obviously brilliant HER performance
+an indicator of hydrogen evolution ability. In Figure 4c, the compared to Pt−C and Pt-NPs-attached@CNT. The meas-
+Tafel slopes are illustrated based on the corresponding LSV ured overpotential corresponding to 100 mA cm−2 is 78, 195,
+curves shown in Figure 4a. The Pt-NPs-bonded@CNT and 307 mV for Pt-NPs-bonded@CNT, Pt−C and Pt-NPs-
+exhibits the smallest Tafel slope value of 11.65 mV dec−1, attached@CNT, respectively. Even at ampere-level current
+which is much smaller than the 50.1 mV dec−1 of Pt−C and density, it only requires an overpotential of 232 mV, which is
+13.0 mV dec−1 of Pt-NPs-attached@CNT. The results prove significantly better than the 524 mV of Pt−C and 588 mV of
+thattheHERprocessisdominatedbytheVolmer−Tafelroute Pt-NPs-attached@CNT. The superb low overpotential results
+ratherthantheVolmer-Heyrovskyroute,whichisconduciveto obtained at various current densities are better than most
+the rapid combination of hydrogen radicals to form hydrogen previously reported literature reports of splendid CNT-based
+gas.41 More importantly, a galvanostatic measurement of catalysts, including platinum-modified carbon nanotube
+ampere-level current density catalytic hydrogen evolution catalysts (Figure 5b). The Tafel slope also shows that the
+stability was applied to demonstrate that the electrode can Pt-NPs-bonded@CNT has a much smaller value of 28.6 mV
+meet the requirements for electrocatalytic hydrogen evolution dec−1 compared with 44.8 mV dec−1 of Pt−C and 90.0 mV
+evenatampere-level currentsrequiredinindustry.As aresult, dec−1 of Pt-NPs-attached@CNT, which corresponds to the
+the Pt-NPs-bonded@CNT electrode can achieve long-term rapid water splitting ability in alkaline solution (Figure 5c).
+stability of hydrogen evolution at 1000 mA cm−2 for 125 h Furthermore, an ampere-level current of 1000 mA cm−2 was
+without obvious attenuation, which proves that the platinum applied to evaluate the durability of the electrode, which
+nanoparticles bonded in the carbon nanotube maintain maintained stable operation for 128 h with negligible
+excellent durability even after high current density hydrogen attenuation (Figure 5d). These results indicate that Pt-NPs-
+evolution testing (Figure 4d). bonded@CNTswithastrongPt−Cbondachieveanexcellent
+21383 https://doi.org/10.1021/acsomega.4c01662
+ACSOmega2024,9,21378−21387
+
+ACS Omega http://pubs.acs.org/journal/acsodf Article
+Figure7.ElectrochemicalperformancemeasurementsofPt-NPs-bonded@CNTafternormalizationbyECSA.(a)Relationshipbetweencurrent
+density and scan rate corresponding to cyclic voltammetry curves at different scan rates. (b) HER LSV curves normalized by ECSA in 0.5 M
+HSO.(c) HERLSV curvesnormalized by ECSAin1.0M KOH.(d) OERLSVcurves normalizedby ECSAin1.0 MKOH.
+2 4
+hydrogen evolution capability even under alkaline conditions potential for practical applications, its oxygen evolution
+and outstanding stability even at industrial-level current stability under an ampere-level current has also been
+densities. systematically tested. There is no obvious attenuation of the
+3.4. Electrocatalysis Performance of OER in 1.0 M overpotential after 110 h of stable operation, which also
+KOH. Platinum-based catalysts are rarely used for prominent confirms that the platinum nanoparticles bonded in carbon
+oxygenevolution,eventhoughtheyareacriticalpartofanion nanotubes remain remarkably stable during oxygen evolution
+exchange membrane water electrolyzers. Unlike traditional at ampere-scale current density (Figure 6d). Compared with
+platinum-based materials, which are only used for efficient Pt-NPs-bonded@CNTs, the HER/OER performance of Pt-
+hydrogen evolution, the Pt-NPs-bonded@CNT also exhibits NPs-bonded@CNTsannealedat600°Cispoor(FigureS10).
+an excellent oxygen evolution performance in alkaline 3.5. Electrochemical Performance Measurements
+solutions. As illustrated in Figure 6a, the LSV curve shows Normalized by ECSA. In order to identify the inherently
+that the Pt-NPs-bonded@CNT electrode has the best oxygen high catalytic activity of Pt-NPs-bonded@CNT, the electro-
+evolution capability with the lowest overpotential of 1.54 and chemically active surface areas (ECSAs) of different catalysts
+1.69 V at 100 mA cm−2 and 1000 mA cm−2, and its were analyzed and estimated through a series of cyclic
+performance is significantly better than that of commercial voltammetry (CV) tests.44 The electrochemical active surface
+RuO .TheoxygenevolutioncapabilitiesofPt-NPs-attached@ area affects the catalyst activity, because it reflects the active
+2
+CNTs and carbon paper can be ignored because the platinum area of the catalyst participating in the reaction. It can be
+nanoparticles attach on the surface of carbon paper do not determined by ECSA = C /C, where C is a double-layer
+dl s dl
+exhibit strong interactions between the platinum active sites capacitance and C is the specific capacitance of the sample.45
+s
+andcarbonnanotubesubstrates.Onthecontrary,theexcellent Inthiswork,C =0.04mFcm−2wasusedasthevalueforthe
+s
+OER performance of Pt-NPs-bonded@CNT can be ascribed general specific capacitance based on commonly reported
+to the strong Pt−C bond regulating the activity of platinum values.46TheCVcurvesofPt-NPs-bonded@CNT,Pt−C,and
+nanoparticlesthroughthestronginteractionofmetal-substrate Pt-NPs-attached@CNTunderdifferentscanspeedsareshown
+and afford stabilizing nanoparticles bonded in carbon nano- inFigureS11−13.Asaresult,theC becomesanindexofthe
+dl
+tubes. The superb low overpotential for oxygen evolution electrochemically active area of the material, as shown in
+results obtained at various current densities are better than Figure 7a. The C is obtained by fitting ΔJ (half of the
+dl
+most previously reported literature of splendid CNT-based oxidation and reduction current density) values with different
+electrocatalysts (Figure 6b). Moreover, the low overpotential scan speeds of 10, 20, 30, 40, 50, and 60 mV s−1.
+corresponds to the rapid water splitting ability, also according Consequently, the C of the Pt-NPs-bonded@CNT electrode
+dl
+to the low Tafel slope value of 66.0 mV dec−1 of Pt-NPs- exhibitsasignificantlyhigherECSAvalueof7.9mFcm−2than
+bonded@CNT,andtheRuO showsaTafelslopevalueof115 Pt-NPs-attached@CNT of 5.2 mF cm2, and the ECSA of Pt−
+2
+mVdec−1(Figure6c).42,43Inordertofurtherdemonstratethe C is 14.8 mF cm−2. Carefully calculated, theelectrochemically
+21384 https://doi.org/10.1021/acsomega.4c01662
+ACSOmega2024,9,21378−21387
+
+ACS Omega http://pubs.acs.org/journal/acsodf Article
+active surface area of Pt-NPs-bonded@CNT is 197.5 cm2, Kazuhiro Fukami − Department of Materials Science and
+which is significantly larger than the 130 cm2 of Pt-NPs- Engineering, Kyoto University, Kyoto 606-8501, Japan;
+attached@CNT, and the electrochemically active surface area orcid.org/0000-0001-9120-5578
+of Pt−C is 370 cm2. The normalization of THE polarization
+Complete contact information is available at:
+curves by ECSA further indicates that Pt-NPs-bonded@CNT
+https://pubs.acs.org/10.1021/acsomega.4c01662
+possesses high intrinsic catalytic activity toward the HER and
+theOERcomparedwithPt-NPs-attached@CNTandPt−C,as
+Author Contributions
+revealedinFigure7b−d.Thisresultfurtherdemonstratedthat
+H.T. conceived the experiments, designing the experiments,
+platinum nanoparticles anchored on carbon nanotubes with
+carriedoutthemajorityoftheresearchanddataresultanalysis,
+Pt−C bonds possess excellent instinct electrocatalytic activity
+wrote and review the manuscript. T.K. discussed the results
+forhydrogenevolution inacid andalkaline conditions, as well
+and review the manuscript. K.K. performed the material
+as oxygen evolution ability in alkaline solutions.
+characterized by combining TEM/HRTEM. K.F. performed
+the material characterized by XRD, XPS, and SEM. H.S.
+4. CONCLUSIONS
+conceived, designed, and supervised the experiments, also
+Platinum nanoparticles bonded in carbon nanotubes (Pt-NPs-
+review the manuscript. All the authors discussed the manu-
+bonded@CNT) with strong Pt−C bonds are successfully
+script.
+establishedtowardultralowoverpotentialwatersplittingability
+Notes
+in alkaline solution with an ampere-level current density. The
+strong Pt−C bond between Pt nanoparticles and highly The authors declare no competing financial interest.
+conductivecarbonnanotubes,canreducetheelectrontransfer ■
+energy barrier and accelerate electron transmission. In ACKNOWLEDGMENTS
+addition, platinum nanoparticles bonded in carbon nanotubes
+This study was supported by KAKENHI Program No.
+can provide more stable active sites. As a result, the Pt-NPs-
+22H01891 (H.S.), 22K18944 (H.S.), 23K04521 (T.K.),
+bonded@CNT electrocatalyst displays distinguished ampere-
+Japan Society for the Promotion of Science, Japan; Zero-
+level electrocatalytic all-water splitting ability in alkaline
+Emission Energy Research (ZE2022B-07), IAE, Kyoto
+solution. It exhibits excellent hydrogen evolution in acid and
+University (K.F.); Hong Tang, thanks the China Scholarship
+alkalinesolutionswithultralowoverpotentialsof0.19and0.23
+Council (CSC) for the financial support.
+V at 1000 mA cm−2, respectively. Besides, it shows superior
+ampere-level oxygen evolution electrocatalysis in alkaline ■
+solution with low overpotential of 1.69 V at 1000 mA cm−2. REFERENCES
+Moreover,itexhibitshighstabilityover120hagainsthydrogen (1)Li,Y.;Xu,T.;Huang,Q.;Zhu,L.;Yan,Y.;Peng,P.;Li,F.F.C
+60
+evolution at 1000 mA cm−2 in both acidic and alkaline Fullerenol to Stabilize and Activate Ru Nanoparticles for Highly
+conditions and long-term stability for 110 h against oxygen EfficientHydrogenEvolutionReactioninAlkalineMedia.ACSCatal.
+evolutioninanalkalinesolution.Italsoprovidesanewstrategy 2023, 13, 7597−7605.
+for synthesizing new efficient catalysts, otherwise structural (2)Kim,M.G.;Lee,T.K.;Lee,E.;Park,S.;Lee,H.J.;Jin,H.;Lee,
+D.W.;Jeong,M.G.;Jung,H.G.;Im,K.;etal.Realizingthepotential
+optimization for industrial catalytic hydrogen and oxygen
+of hydrophobic crystalline carbon as a support for oxygen evolution
+evolution.
+electrocatalysts.Energy Environ. Sci. 2023, 16,5019−5028.
+■
+(3) Haase, F. T.; Bergmann, A.; Jones, T. E.; Timoshenko, J.;
+ASSOCIATED CONTENT
+Herzog, A.; Jeon, H. S.; Rettenmaier, C.; Cuenya, B. R. Size effects
+* sı Supporting Information and active state formation of cobalt oxide nanoparticles during the
+The Supporting Information is available free of charge at oxygen evolutionreaction.Nat. Energy 2022, 7, 765−773.
+https://pubs.acs.org/doi/10.1021/acsomega.4c01662. (4)Wu,Z.Y.;Chen,F.Y.;Li,B.;Yu,S.W.;Finfrock,Y.Z.;Meira,
+D. M.; Yan, Q. Q.; Zhu, P.; Chen, M. X.; Song, T. W.; et al. Non-
+TEM images of Pt-NPs-embed@CNT, TEM images of
+iridium-based electrocatalyst for durable acidic oxygen evolution
+Pt-NPs-attached@CNT, XPS pattern, Tafel slope reactioninprotonexchangemembranewaterelectrolysis.Nat.Mater.
+pattern, LSV curves of Pt-NPs-bonded@CNT-600 °C, 2023, 22, 100−108.
+CV curves of Pt-NPs-embed@CNT, Pt-NPs-attached@ (5) Liang, Q.; Li, Q.; Xie, L.; Zeng, H.; Zhou, S.; Huang, Y.; Yan,
+CNT, Pt−C, and RuO at different scan rates (PDF) M.; Zhang, X.; Liu, T.; Zeng, J.; et al. Superassembly of Surface-
+2
+Enriched Ru Nanoclusters from Trapping-Bonding Strategy for
+■
+Efficient HydrogenEvolution.ACS Nano2022, 16, 7993−8004.
+AUTHOR INFORMATION
+(6)Chen,X.;Wan,J.;Wang,J.;Zhang,Q.;Gu,L.;Zheng,L.;Wang,
+Corresponding Author N.; Yu, R. Atomically Dispersed Ruthenium on Nickel Hydroxide
+Hiroshi Sakaguchi − Department of Materials Science and Ultrathin Nanoribbons for Highly Efficient Hydrogen Evolution
+Engineering, Kyoto University, Kyoto 606-8501, Japan; Reaction inAlkaline Media.Adv. Mater.2021, 33,2104764.
+(7)Ngo,Q.P.;Nguyen,T.T.;Le,Q.T.T.;Lee,J.H.;Kim,N.H.
+orcid.org/0000-0003-1942-907X; Email: sakaguchi@
+Unveiling the Synergistic Effect of Atomic Iridium Modulated
+iae.kyoto-u.ac.jp
+Zirconium-Doped Pure Phase Cobalt Phosphide for Robust Anion-
+Authors ExchangeMembraneWaterElectrolyzer.Adv.EnergyMater.2023,13,
+2301841.
+HongTang−InstituteofAdvancedEnergy,KyotoUniversity,
+(8) Wang, H.; Yang, T.; Wang, J.; Zhou, Z.; Pei, Z.; Zhao, S.
+Kyoto 611-0011, Japan
+CoordinationEngineeringinSingle-SiteCatalysts:GeneralPrinciples,
+Takahiro Kojima − Institute of Advanced Energy, Kyoto Characterizations, andRecent Advances. Chem2024, 10, 48−85.
+University, Kyoto 611-0011, Japan (9)Wan,C.;Zhang,Z.;Dong,J.;Xu,M.;Pu,H.;Baumann,D.;Lin,
+Kenji Kazumi − Department of Materials Science and Z.; Wang, S.; Huang, J.; Shah, A. H.; et al. Amorphous nickel
+Engineering, Kyoto University, Kyoto 606-8501, Japan hydroxide shell tailors local chemical environment on platinum
+21385 https://doi.org/10.1021/acsomega.4c01662
+ACSOmega2024,9,21378−21387
+
+ACS Omega http://pubs.acs.org/journal/acsodf Article
+surfaceforalkalinehydrogenevolutionreaction.Nat.Mater.2023,22, Shell via Pulsed Laser in Reshaping Modification for Accelerating
+1022−1029. HydrogenEvolution Kinetics. ACSNano2023, 17, 7539−7549.
+(10) Zhang, S.; Yin, L.; Wang, S.; Liu, J. C.; Zhang, Y.; Wen, Y.; (26)Zheng,X.;Shi,X.;Ning,H.;Yang,R.;Lu,B.;Luo,Q.;Mao,S.;
+Zhang,Q.; Du, Y. Ternary Rare Earth Alloy Pt 3‑x Ir x Sc Nanoparticles Xi, L.; Wang, Y. Tailoring a local acid-like microenvironment for
+Modulate Negatively Charged Pt via Charge Transfer To Facilitate efficient neutral hydrogen evolution. Nat. Commun. 2023, 14 (1),
+pH-Universal Hydrogen Evolution. ACS Nano 2023, 17, 23103− 4209.
+23114. (27)Wu,Z.;Liu,X.;Li,H.;Sun,Z.;Cao,M.;Li,Z.;Fang,C.;Zhou,
+(11)Liu,K.;Yang,H.;Jiang,Y.;Liu,Z.;Zhang,S.;Zhang,Z.;Qiao, J.; Cao, C.; Dong, J.; et al. A Semiconductor-Electrocatalyst Nano
+Z.; Lu, Y.; Cheng, T.; Terasaki, O.; et al. Coherent hexagonal Interface Constructed for Successive Photoelectrochemical Water
+platinumskinonnickelnanocrystalsforenhancedhydrogenevolution Oxidation.Nat. Commun.2023, 14(1), 2574.
+activity.Nat. Commun.2023, 14(1),2424. (28) Chen, Y.; Lee, Y.; Chu, W.; Li, J. Trace Ru-tuned NiO/CNT
+(12) Chen, J.; Aliasgar, M.; Zamudio, F. B.; Zhang, T.; Zhao, Y.; electrocatalysts outperform benchmark Pt for alkaline hydrogen
+Lian,X.;Wen,L.;Yang,H.;Sun,W.;Kozlov,S.M.;etal.Diversityof evolution with superior mass activity. Chem. Eng. J. 2023, 472,
+platinum-sites at platinum/fullerene interface accelerates alkaline 144922.
+hydrogen evolution.Nat. Commun.2023, 14(1), 1711. (29)Zhang,D.;Wang,Z.;Wu,X.;Shi,Y.;Nie,N.;Zhao,H.;Miao,
+(13)Tan,H.;Tang,B.;Lu,Y.;Ji,Q.;Lv,L.;Duan,H.;Li,N.;Wang, H.;Chen,X.;Li,S.;Lai,J.;etal.NobleMetal(Pt,Rh,Pd,Ir)Doped
+Y.;Feng,S.;Li,Z.;etal.Engineeringalocalacid-likeenvironmentin Ru/CNT Ultra-Small Alloy for Acidic Hydrogen Evolution at High
+alkaline medium for efficient hydrogen evolution reaction. Nat. Current Density. Small2022, 18(3),2104559.
+Commun.2022, 13(1),2024. (30)Zhang,Y.;Li,G.;Wang,J.;Luo,D.;Sun,Z.;Zhao,Y.;Yu,A.;
+(14) Liu, S.; Shen, Y.; Zhang, Y.; Cui, B.; Xi, S.; Zhang, J.; Xu, L.; Wang, X.; Chen, Z. “Sauna” Activation toward Intrinsic Lattice
+Zhu, S.; Chen, Y.; Deng, Y.; et al. Extreme Environmental Thermal Deficiency in Carbon Nanotube Microspheres for High-Energy and
+ShockInducedDislocation-RichPtNanoparticlesBoostingHydrogen Long-Lasting Lithium−Sulfur Batteries. Adv. Energy Mater. 2021, 11
+EvolutionReaction. Adv.Mater. 2022,34 (2),2106973.
+(26),2100497.
+(15) Wu, X.; Wang, Z.; Zhang, D.; Qin, Y.; Wang, M.; Han, Y.;
+(31) Yu, W.; Huang, H.; Qin, Y.; Zhang, D.; Zhang, Y.; Liu, K.;
+Zhan, T.; Yang, B.; Li, S.; Lai, J.; et al. Solvent-free microwave
+Zhang,Y.;Lai,J.;Wang,L.TheSynergisticEffectofPyrrolic-Nand
+synthesis of ultra-small Ru-MoC@CNT with strong metal-support
+2 Pyridinic-N with Pt Under Strong Metal-Support Interaction to
+interactionforindustrialhydrogenevolution.Nat.Commun.2021,12
+AchieveHigh-PerformanceAlkalineHydrogenEvolution.Adv.Energy
+(1),4018.
+Mater. 2022, 12(21),2200110.
+(16)Zhang,J.;Zhang,L.;Liu,J.;Zhong,C.;Tu,Y.;Li,P.;Du,L.;
+(32)Jin,H.;Ha,M.;Kim,M.G.;Lee,J.H.;Kim,K.S.Engineering
+Chen, S.; Cui, Z. OH spectator at IrMo intermetallic narrowing
+Pt Coordination Environment with Atomically Dispersed Transition
+activitygapbetweenalkalineandacidichydrogenevolutionreaction.
+MetalSitesTowardSuperiorHydrogenEvolution.Adv.EnergyMater.
+Nat.Commun.2022, 13(1), 5497.
+2023, 13(11),2204213.
+(17)Yang,Y.;Qian,Y.;Luo,Z.;Li,H.;Chen,L.;Cao,X.;Wei,S.;
+(33)Zhao,Y.;Kumar,P.V.;Tan,X.;Lu,X.;Zhu,X.;Jiang,J.;Pan,
+Zhou, B.; Zhang, Z.; Chen, S.; et al. Water induced ultrathin MoC
+2 J.; Xi, S.; Yang, H. Y.; Ma, Z.; et al. Modulating Pt-O-Pt atomic
+nanosheetswithhigh-densitygrainboundariesforenhancedhydrogen
+clusters with isolated cobalt atoms for enhanced hydrogen evolution
+evolution.Nat. Commun.2022, 13(1), 7225.
+catalysis. Nat. Commun.2022, 13(1),2430.
+(18)Hu,F.;Yu,D.;Zeng,W.J.;Lin,Z.Y.;Han,S.;Sun,Y.;Wang,
+(34)Gu,B.S.;Dutta,S.;Hong,Y.R.;NgomeOkello,O.F.;Im,H.;
+H.; Ren, J.; Hung,S. F.; Li,L.; et al. ActiveSite Tailoring of Metal-
+Ahn, S.; Choi, S. Y.; Woo Han, J.; Ryu, S.; Lee, I. S. Harmonious
+Organic Frameworks for Highly Efficient Oxygen Evolution. Adv.
+Heterointerfaces Formed on 2D-Pt Nanodendrites by Facet-
+Energy Mater.2023, 13(29),2301224.
+Respective Stepwise Metal Deposition for Enhanced Hydrogen
+(19)Kim,G.;Jung,S.M.;Giri,A.;Kim,J.S.;Kim,Y.W.;Kim,K.S.;
+EvolutionReaction.Angew.Chem.,Int.Ed.2023,62(31),202307816.
+Kim, D.; Choi, Y.; Lee, B. J.; Kim, Y. T.; et al. Enhanced hydrogen
+(35)Liu,J.;Li,H.;Wang,J.;Zhang,Y.;Luo,D.;Zhao,Y.;Li,Y.;Yu,
+desorption via charge transfer in Pt Nanoclusters/ReS hybrid
+2 A.; Wang, X.; Chen, Z. Design Zwitterionic Amorphous Conjugated
+electrocatalyst for efficient hydrogen evolution reaction. J. Power
+Micro-/Mesoporous Polymer Assembled Nanotentacle as Highly
+Sources2023, 579,233287.
+Efficient Sulfur Electrocatalyst for Lithium-Sulfur Batteries. Adv.
+(20)Wang,Z.;Chen,S.;Wu,W.;Chen,R.;Zhu,Y.;Jiang,H.;Yu,
+Energy Mater. 2021, 11(40),2101926.
+L.;Cheng,N.TailoredLatticeCompressiveStrainofPt-Skinsbythe
+(36) Zhang, L.; Liu, L.; Feng, J.; Wang, A. Methanol-Induced
+L1 -Pt MIntermetallicCoreforHighlyEfficientOxygenReduction.
+2 3
+Assembly and Pyrolysis Preparation of Three-Dimensional N-Doped
+Adv.Mater.2023, 35(36),2301310.
+(21)Zhao,W.;Cui,C.;Xu,Y.;Liu,Q.;Zhang,Y.;Zhang,Z.;Lu,S.; Interconnected Open Carbon Cages Supported FeNb 2 O 6 Nano-
+Rong, Z.; Li, X.; Fang, Y.; et al. Triggering Pt Active Sites in Basal particlesforBoostingOxygenReductionReactionandZn-AirBattery.
+Plane of Van der Waals PtTe Materials by Amorphization J. ColloidInterface Sci.2024, 661,102−112.
+2
+Engineering for Hydrogen Evolution. Adv. Mater. 2023, 35 (29), (37)Li,Y.;Wang,W.;Cheng,M.;Feng,Y.;Han,X.;Qian,Q.;Zhu,
+2301593. Y.;Zhang,G.ArmingRuwithOxygen-Vacancy-EnrichedRuO 2 Sub-
+(22) Pan, Y.; Gao, J.; Lv, E.; Li, T.; Xu, H.; Sun, L.; Nairan, A.; Nanometer Skin Activates Superior Bifunctionality for pH-Universal
+Zhang, Q. Integration of Alloy Segregation and Surface Co?O OverallWater Splitting.Adv.Mater. 2023, 35(24),2206351.
+Hybridization in Carbon-Encapsulated CoNiPt Alloy Catalyst for (38) Yan, H.; Jiang, Z.; Deng, B.; Wang, Y.; Jiang, Z. J. Ultrathin
+Superior Alkaline Hydrogen Evolution. Adv. Funct. Mater. 2023, 33 Carbon Coating and Defect Engineering Promote RuO 2 as an
+(41),2303833. Efficient Catalyst for Acidic Oxygen Evolution Reaction with Super-
+(23)He,F.;Zheng,Q.;Yang,X.;Wang,L.;Zhao,Z.;Xu,Y.;Hu,L.; High Durability.Adv.Energy Mater. 2023,13 (23),2300152.
+Kuang, Y.; Yang, B.; Li, Z.; et al. Spin-State Modulation on Metal− (39)Da,Y.;Jiang,R.;Tian,Z.;Chen,G.;Xiao,Y.;Zhang,J.;Xi,S.;
+Organic Frameworks for Electrocatalytic Oxygen Evolution. Adv. Deng, Y.; Chen, W.; Han, X.; et al. Development of a Novel Pt 3 V
+Mater.2023, 35(41),2304022. Alloy Electrocatalyst for Highly Efficient and Durable Industrial
+(24)Zhang,R.;Li,Y.;Zhou,X.;Yu,A.;Huang,Q.;Xu,T.;Zhu,L.; Hydrogen Evolution Reaction in Acid Environment. Adv. Energy
+Peng, P.; Song, S.; Echegoyen, L.; et al. Single-atomic platinum on Mater. 2023, 13(16),2300127.
+fullereneC surfacesforacceleratedalkalinehydrogenevolution.Nat. (40)Wu,S.;Hwang,J.;Matsumoto,K.;Hagiwara,R.TheRational
+60
+Commun.2023, 14(1),2460. Design of Low-Barrier Fluorinated Aluminum Substrates for
+(25)Park,C.E.;Jeong,G.H.;Theerthagiri,J.;Lee,H.;Choi,M.Y. Anode‑Free Sodium Metal Battery. Adv. Energy Mater. 2023, 13
+Moving beyond TiCT MXene to Pt-Decorated TiO@TiC Core- (48),2302468.
+2 3 x 2
+21386 https://doi.org/10.1021/acsomega.4c01662
+ACSOmega2024,9,21378−21387
+
+ACS Omega http://pubs.acs.org/journal/acsodf Article
+(41)Liu,J.;Wang,Z.;Wu,X.;Zhang,D.;Zhang,Y.;Xiong,J.;Wu,
+Z.;Lai,J.;Wang,L.Ptdopingandstrongmetal-supportinteractionas
+a strategy for NiMo-based electrocatalysts to boost the hydrogen
+evolution reaction in alkaline solution. J. Mater. Chem. A 2022, 10,
+15395−15401.
+(42)Pei,Z.;Tan,H.;Gu,J.;Lu,L.;Zeng,X.;Zhang,T.;Wang,C.;
+Ding, L.; Cullen, P. J.; Chen, Z.; et al. A polymeric hydrogel
+electrocatalystfordirectwateroxidation.Nat.Commun.2023,14(1),
+818.
+(43) Ding, J.; Guo, D.; Wang, N.; Wang, H.; Yang, X.; Shen, K.;
+Chen, L.; Li, Y. Defect Engineered Metal−Organic Framework with
+AcceleratedStructuralTransformationforEfficientOxygenEvolution
+Reaction.Angew. Chem.,Int. Ed. 2023, 62(43),No. e202311909.
+(44) Wu, D.; Ul Haq, M.; Zhang, L.; Feng, J.; Yang, F.; Wang, A.
+NobleMetal-FreeFeCoNiMnVHighEntropyAlloyAnchoredonN-
+DopedCarbonNanotubeswithProminentActivityandDurabilityfor
+Oxygen Reduction and Zinc-Air Batteries. J. Colloid Interface Sci.
+2024, 662,149−159.
+(45) Ul Haq, M.; Wu, D. H.; Ajmal, Z.; Ruan, Q. D.; Khan, S.;
+Zhang, L.; Wang, A. J.; Feng, J. J. Derived-2D NbCT Sheets with
+4 3 x
+Interfacial Self-Assembled Fe-N-C Single-Atom Catalyst for Electro-
+catalysisinWaterSplittingandDurableZinc-AirBattery.Appl.Catal.
+B-Environ.Energy2024, 344,123632.
+(46) Zhou, L.; Shao, Y.; Yin, F.; Li, J.; Kang, F.; Lv, R. Stabilizing
+non-iridium active sites by non-stoichiometric oxide for acidic water
+oxidationathighcurrentdensity.Nat.Commun.2023,14(1),7644.
+21387 https://doi.org/10.1021/acsomega.4c01662
+ACSOmega2024,9,21378−21387
+

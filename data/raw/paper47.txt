@@ -1,0 +1,1755 @@
+This article is licensed under CC-BY 4.0
+http://pubs.acs.org/journal/acsodf Review
+Metal Electrocatalysts for Hydrogen Production in Water Splitting
+Amir Kazemi, Faranak Manteghi,* and Zari Tehrani*
+CiteThis:ACSOmega2024,9,7310−7335 ReadOnline
+ACCESS
+Metrics&More ArticleRecommendations
+ABSTRACT: The rising demand for fossil fuels and the resulting
+pollution have raised environmental concerns about energy
+production. Undoubtedly, hydrogen is the best candidate for
+producing clean and sustainable energy now and in the future.
+Water splitting is a promising and efficient process for hydrogen
+production,wherecatalystsplayakeyroleinthehydrogenevolution
+reaction (HER). HER electrocatalysis can be well performed by Pt
+withalowoverpotentialclosetozeroandaTafelslopeofabout30
+mV dec−1. However, the main challenge in expanding the hydrogen
+production process is using efficient and inexpensive catalysts. Due
+to electrocatalytic activity and electrochemical stability, transition
+metalcompoundsarethebestoptionsforHERelectrocatalysts.This
+study will focus on analyzing the current situation and recent
+advances in the design and development of nanostructured
+electrocatalysts for noble and non-noble metals in HER electrocatalysis. In general, strategies including doping, crystallization
+control, structural engineering, carbon nanomaterials, and increasing active sites by changing morphology are helpful to improve
+HER performance. Finally, the challenges and future perspectives in designing functional and stable electrocatalysts for HER in
+efficient hydrogen production from water-splitting electrolysis will be described.
+1. INTRODUCTION currentlyaround$3.00pergallon,andwiththerecentdeclinein
+Iran’soilproduction,itisreasonabletoexpectafurtherincrease
+Today,politicalandeconomiccrisesandglobalconcernssuchas
+inthepriceofdiesel.8
+decliningfossilfuelreserves,environmentalpollution,acidrain,
+Green hydrogen, also known as renewable hydrogen, is
+global warming, overcrowding, rising consumption, and
+hydrogen that is manufactured using only renewable energy,
+economicgrowth are challengingscientists tofindappropriate
+solutions to the world’s energy problems.1,2 This problem can typically by the process of water electrolysis (WE).9 The
+hydrogenevolutionreaction(HER)throughwatersplittinghas
+only be rectified by replacing green and renewable energy
+sources.3 Inrecentdecades,hydrogenhasbeencalledthebest manyadvantages,includingthatthereactioncanbeperformed
+at room temperature and atmospheric pressure. Selective
+and most promising alternative due to its high gravitational
+productionofoxygenandhydrogenispossibleinthisprocess,
+energy density, environmental friendliness, and combustion
+withoutproducingpollutants.4Meanwhile,theenergydensityof thus eliminating the gas separation step.10,11 Also, the source
+used (H O) and the products made (O and H ) are
+hydrogenisapproximatelyequivalentto33.5kWh/kgofusable 2 2 2
+environmentally friendly. It is worth noting that despite the
+energy,whilethisamountofenergyfordieselisabout13kWh/
+tremendousadvantages,theHERhaslimitationsduetoitshigh
+kg.5Inotherwords,theenergyof1kgofhydrogen,whichisused
+electricpowerconsumptionandtheuseofoptimizedcatalysts.12
+topowertheelectricmotorinfuelcells,isequivalenttoagallon
+However, renewable energy application systems, including the
+ofdiesel.Inanothercomparison,dieselhasalittlelowerenergy
+HER,dependhighlyontheappropriateelectrocatalysttype.11,13
+density(45.5MJ/kg)thangasoline(45.8MJ/kg).Ontheother
+State-of-the-artpreciousmetalsandtheircompoundsareactive
+hand,hydrogenhasanenergydensityofapproximately120MJ/
+materialsforHERandoxygenevolutionreactions(PtforHER,
+kg,almostthreetimesmorethandieselorgasoline.6Inthepast
+decade, with the advent of electric propulsion, it has become
+clear that these propulsions are much more efficient than Received: October10,2023
+internalcombustionengines,makingenergychangeevenmore Revised: December28,2023
+important. In internal combustion engines, almost half of the Accepted: December29,2023
+energy is used to produce heat, while electric vehicle (EV) Published: January29,2024
+engines waste less than 10% of energy as heat.7 Another
+appealing feature of hydrogen is price. The diesel price is
+©2024TheAuthors.Publishedby
+AmericanChemicalSociety https://doi.org/10.1021/acsomega.3c07911
+7310 ACSOmega2024,9,7310−7335
+
+ACSOmega http://pubs.acs.org/journal/acsodf Review
+IrO and RuO for OER, etc.).14 Up to now, Pt is the most useful applications. Electrochemical WE is a promising
+2 2
+efficient catalyst for HER, which requires very small over- technology to generate hydrogen fuel from water renewably;
+potentials even at high reaction rates.15 Despite the high this is the process of converting water to pure and stable
+efficiency of noble metals, high cost, and scarcity of reserves hydrogenthatismadeupoftwohalf-cellreactions:theoxygen
+beingbarrierstolarge-scaleapplication,thisrequiresusingmore evolution (OER) and thehydrogen evolution(HER) reaction
+affordableandabundantmaterialsfortheelectrocatalyst.16,17 processes.24Duetothehighpowerconsumptioninthisprocess,
+The purpose of this study is to address the pressing catalystscanreducetherequiredpotentialbytheirperformance.
+environmental concerns regarding energy production through Precious metal electrocatalysts (especially Pt-based) show the
+the efficient and sustainable production of hydrogen through best performance for the molecular dissociation of water in
+watersplitting.Hydrogenisapromisingsourceofcleanenergy, highly acidic electrolytes, although their HER activities are
+and catalysts play a crucial role in the HER during water significantly reduced under alkaline conditions.25 As a result,
+splitting. Platinum (Pt) exhibits excellent electrocatalytic considerable effort has gone into developing effective and
+activity for HER, but its widespread adoption is hampered by sustainable electrocatalysts to replace precious metal catalysts.
+costconsiderations.Weovercomethischallengebyturningto Chemically,bond-breakingandformingnewbondsareeffective
+transition metal compounds, which offer both electrocatalytic ways to convert and store energy. According to this principle,
+activityandelectrochemicalstability.Ananalysisofthecurrent WE,alsocalledwatersplitting,istheprocessofusingelectricity
+state and recent advancements in nanostructured electro- to break down water molecules and form their constituent
+catalystsforbothnobleandnon-noblemetalswillbepresented elements.26Theprocessofwatersplittingwithoutusingscarce
+in this investigation. To enhance HER performance by andexpensiveelectrocatalyststoproducehydrogenhasmadeit
+increasing active sites through morphological modifications, anattractiveoptiontomakerenewableenergymoreeconomical
+wewillexplorevariousstrategies,suchasdoping,crystallization inrecentyears.
+control, structural engineering, anion doping in addition to 2.1.FundamentalsoftheHER.Water,unlikefossilfuels,is
+cation doping, and the use of carbon nanomaterials. The final anabundantandrenewableresourceonEarth,sothehydrogen
+section of the presentation will discuss the challenges that lie (H )producedbywatersplittingcanbecalledthebestsolution
+2
+aheadandofferfutureperspectivesonhowtodesignfunctional toprovideacarrierofgreenandrenewableenergy.TheHERisa
+and stable electrocatalysts for the HER in order to enable multistepprocessinvolvingadsorption,reduction,anddesorp-
+efficienthydrogenproductionbywater-splittingelectrolysis. tion that takes place on the electrode surface and produces
+gaseous hydrogen. The three general mechanisms in the HER
+2. HER involvethefollowingreactionsteps:
+Currently, hydrogen is mainly used as a raw material in the H 2 O + e V H ads + OH (Volmerstep) (1)
+chemicalindustry,anditsuseasafuelforenergysupplyhasnot
+yet become large-scale. The most economical and common H ads + H 2 O + e V H 2 + OH (Heyrovskystep) (2)
+hydrogen generation methods are steam methane reforming
+(SMR),coalgasification(CG),andWE18asshowninTable1.
+2H V H (Tafelstep)
+ads 2 (3)
+Table1.ThreeMainCriteriaforHydrogenProductiononan TheHERmechanismbeginswiththeVolmerstep,whichis
+IndustrialScale thedissociationofawatermoleculeandtheabsorptionofH+at
+the electrode surface (electrocatalysis). The process is then
+criteria source production reaction
+followedbythechemicalreactionoftheHeyrovskysteporthe
+ste re a f m or m m e in th g ane m s e t t e h a a m ne, H 2 ,CO 2 CH 4 +2H 2 4H 2 +CO 2 Tafel step. As per the intrinsic nature of electrocatalysis, the
+reactioncanbecarriedoutwiththereactionoftwoadsorbedH
+coalgasification coal,steam H 2 ,CO 2 C+2H 2 O 4H 2 +CO 2 (reaction) or the H adsorption with H+ (Heyrovsky reaction)
+waterelectrolysis water H 2 ,O 2 2H 2 O 2H 2 +O 2 from the electrolyte to release the H 2 molecule. Whatever the
+reaction steps, due to the adsorption of H in the reaction,
+The SMR and CG have a price advantage, but they consume facilitating the adsorption process is the main task of the
+fossilfuelsandareenvironmentallydamaging.Oneoftheabove electrocatalyst.27ThefreeenergyfromabsorptionofHinPtis
+methods, the WE process, is a green energy method, which neartothethermoneutralstate(ΔG ≈0).ThatiswhyPtis
+H*
+produces ultrapure hydrogen (≫99.999) but costs more than widelyrecognizedasthegreatestHERelectrocatalystavailable
+conventional methods.19 IEA (International Energy Agency) todate.NumerousarticleshavereportedthattheTafelstepin
+analysis shows that renewable energy’s cost of hydrogen the high potential of the HER mechanism is insignificant, and
+production could fall 30% by 2030.20 Although WE can solve the Volmer−Heyrovsky mechanism is used to carry out the
+environmental problems as a renewable energy production reaction.13,28
+technology, the application of this method is still minimal.21 2.2.AcidicandAlkalineMedia.Thekeyhalf-reactionfor
+Nevertheless, adequate studies and research are underway to hydrogen production in water splitting occurs at the cathode,
+improve this technology to reduce production costs on an whichinvolvesthetransferoftwohighlydependentelectronsin
+industrial scale. In the electrolysis of water, the hydrogen− environmentalconditions.Thealkalineenvironmentisnowthe
+oxygenbondinawatermoleculeisbrokenbyelectricalpower.22 focusofhydrogendevelopmentthroughtheHERtosubstitute
+TheabilitytocarryoutWEwithouttheutilizationofprecious clean fuel for different energy systems. Due to an extra water
+metalcatalystsintheHERandOERmakesitadesirableoption dissociationprocess,thekineticsofthisreactionaresluggishand
+in justifying the economics of hydrogen production.23 There- cause a significant reduction in electrocatalytic performance.
+fore, developing electrocatalysts with high activity and long- Therefore, modern electrocatalysts can perform well in acidic
+lasting stability to improve the kinetic energy of electrolyte environments.29Theelectrocatalyst’seffectivenessinanalkaline
+decomposition is critical for potential implementation and environment is controlled by theoretical studies based on two
+7311 https://doi.org/10.1021/acsomega.3c07911
+ACSOmega2024,9,7310−7335
+
+ACSOmega http://pubs.acs.org/journal/acsodf Review
+Figure1.Differentmechanismsonthesurfaceofthecatalystinacidicandalkalineenvironments.
+Figure2.Schematicillustrationofthe(a)roleofthecatalystinreducingtheactivationenergybarrierinthereaction;(b)performanceevaluationitems
+oftheelectrocatalyst,includingactivityintermsofoverpotential,Tafelslope,andexchangecurrentdensity;(c)performanceevaluationitemsofthe
+electrocatalyst,includingstabilityintermsofcurrentandpotential/timecurves.
+factors:waterdissociationandthenhydrogen-bondingenergy. watermolecule,calledtheVolmerpathway.Then,theTafelor
+Each electrode with a higher ability to dissociate the water Hirovskypathcontinuestoproducehydrogen.31
+moleculeandabettercapabilitytobondtoproduceahydrogen Three fundamental phases, one chemical and two electro-
+atom can therefore be a better electrocatalyst for the HER chemical, make up the electrocatalytic evolution of H on the
+2
+processinanalkalineenvironment.30AsshowninFigure1,an electrode surface in an alkaline solution. The first stage is the
+electrocatalytic reaction occurring in acidic and alkaline electrochemical separation of water to generate a hydrogen
+environments follows different mechanisms. In an acidic molecule,whichisadsorbedonthesurfaceoftheelectrodevia
+environment, the mechanism is performed by combining the theVolmerreaction.Thenextstepisanelectrochemicalprocess
+electrolyte’sprotonandoneelectronfromtheelectrodesurface, forthehydrogenadsorbedtoformH ,knownastheHeyrovsky
+2
+whichisexpressedastheVolmerpath.ThenextpathistheTafel reaction,orchemicalreaction,knownastheTafelreaction.
+path, which is formed by the combination of hydrogen atoms It should be noted that the Tafel slope values illustrate the
+withneighboringatoms.TheHeyrovskypathisthelatterpath, HERprocessmechanismbydescribingthepotentialdifference
+which consists of combining one electron from the electrode necessarytoraiseorreducethecurrentdensityby10×.Howthe
+surface and another proton from the solution (electrolyte). In current is produced in response to the change of potential
+alkaline environments, protons are no longer present in applied to the electrode is represented by the Tafel slope.
+electrolytes. Thus, the mechanism begins with dissociating a Accordingly,lessoverpotentialisrequiredtoobtainhighcurrent
+7312 https://doi.org/10.1021/acsomega.3c07911
+ACSOmega2024,9,7310−7335
+
+ACSOmega http://pubs.acs.org/journal/acsodf Review
+Figure3.(a)Volcano-typedependencebetweentheexchangecurrentdensityandmetal−hydride(M−H)bondstrength.Datatakenfromref41.(b)
+Exchangecurrentdensities,log(i),onmonometallicsurfacesplottedasafunctionofthecalculatedHBE.Theisfornon-Ptmetalswereobtainedby
+0 0
+extrapolationoftheTafelplotsbetween−1and−5mAcm−2disktothereversiblepotentialoftheHERandthennormalizationbytheESAsofthese
+metalsurfaces.Datatakenfromref38.(c)Avolcanoplotcontainingmeasuredj plottedversusthecomputedΔG atequilibriumpotentialinacidic
+0 H
+conditions.Datatakenfromref39.(d)StandardfreeenergydiagramfortheVolmer−HeyrovskyrouteHERunderdifferentpotentials.Datataken
+fromref39.
+atalowerTafelslope(mV/decade).Ingeneral,duetothehigh results against theoretical predictions with faradaic efficiency
+overpotential of hydrogen, significant electrical energy is andturnoverfrequency.33
+required to perform the whole process. Therefore, reducing The total reaction rate is determined by the free energy of
+thecathodicoverpotentialisoneofthechallengesinmakingthis hydrogenadsorption(ΔG H ).Ifthehydrogenmoleculeattaches
+process economical. The best way to minimize the cathodic poorly to the surface of the catalyst, the Volmer step
+overpotential is to use optimized electrocatalysts such as Pt at (adsorption) will slow down the total reaction rate. However,
+the cathode to perform the HER. An acidic medium has less if the bond between the catalyst surface and the hydrogen is
+overpotentialthananalkalineenvironment.However,thehigh stronger than usual, the desorption is slow, meaning that the
+Heyrovsky/Tafelphaselimitsthevelocity.Therefore,ΔG ≈0
+cost of membranes and stable electrocatalysts in an acid H*
+is a required (but inadequate) prerequisite for an active HER
+corrosive environment is one of the disadvantages of this
+medium.16,32 catalyst.Withtheseexplanations,itcanbeconcludedthatoneof
+thecharacteristicsofaneffectivecatalystisthatthemiddlebond
+2.3.RateofReaction.Athermodynamicpotentialof1.23V
+ofthereactionisneithertoostrongnortooweak.34,35
+at 25 °C has been calculated for the electrochemical water-
+2.4. Pseudocapacitance. In the HER process, hydrogen
+splitting reaction (1 atm). In this reaction, which is an uphill
+mustbeadsorbedonthesurfaceoftheelectrocatalystinthefirst
+reaction,alargekineticbarriermustbeovercomeinadditionto
+step.Inthenextstep,theabsorbedhydrogenmustbeseparated
+being expressed by a positive value of G (Gibbs free energy).
+fromtheelectrocatalystsurfaceandreturnedirreversiblytothe
+Figure 2a demonstrates that catalysts are essential in reducing
+electrolyte. This electrocatalyst pseudocapacitive characteristic
+thekineticbarrier.Thisreactionnecessitatesagreaterpotential
+is critical to HER performance. In hydrogen adsorption,
+than the thermodynamic potential to overcome the kinetic
+practicallyallHERelectrocatalystsareexcellentpseudocapaci-
+obstacle (1.23 V). The performance of a catalyst is evaluated
+tors. In order to desorb all of the hydrogen absorbed, a good
+based on critical parameters such as activity, stability, and pseudocapacitor must be highly efficient. Therefore, studying
+efficiency. The Tafel slope and overpotential can show the pseudocapacitiveperformancebeforetheHERpotentialoffers
+activityofthecatalystsandthedensityoftheexchangecurrent vital information on electrocatalyst efficiency. The optimal
+derivedfrompolarizationcurves(Figure2b).Overpotentialisa pseudocapacitiveperformance,whichistypifiedbyarectangular
+fundamental description for evaluating the activity of electro- shapeincyclicvoltammetry(CV),issignificantlymoreclosely
+catalysts.Overpotentialchangesandcurrentflowovertimeare relatedtoHERelectrocatalyticactivity.36
+indicators of stability (Figure 2c). The efficiency of an 2.5. Volcano Plots. As stated in the previous sections,
+electrocatalyst can be evaluated by comparing experimental theoretical simulations prove that HER activity is closely
+7313 https://doi.org/10.1021/acsomega.3c07911
+ACSOmega2024,9,7310−7335
+
+ACSOmega http://pubs.acs.org/journal/acsodf Review
+connected to hydrogen adsorption (H ) and that the free effectsarecalculatedusingtheratiooftherateconstantsoftwo
+ads
+energyofhydrogenadsorption(ΔG )canaccuratelycharacter- isotopicallysubstitutedreactionsinwhichthedifferenceinmass
+H
+ize hydrogen evolution. Also, the moderate amount of isnotbetweenatomsinvolvedintherate-determiningstepbut
+hydrogen-bonding energy in the HER process is of great betweenatomsinvolvedintheequilibriumconstant.Chemical
+advantage.Thevolcanocurve,asillustratedinFigures3aand3b, reactionscanbestudiedusingaKIE.Itispossibletousethemto
+can compare the behaviors of various metals in acidic and identify the rate-determining step, to determine the energy of
+alkalineenvironments.37,38Ptisthesuperiorelectrocatalystfor thetransitionstate,andtostudythemechanismofreactionsthat
+HERinbothmediums,asdemonstratedintheplots,becauseit are difficult to study using other methods. An electron is
+has the appropriate hydrogen adsorption energy and hence transferred from the electrode to a hydrogen ion in the
+providesthelargestexchangecurrentdensity.Anacidicmedium electrolyte as part of the HER process. As an electrolyte, both
+has less overpotential than an alkaline environment. Never- H O and D O have been used to study the KIE of the HER.
+2 2
+theless, it is less used due to the corrosion of electrocatalysts. WhenD OisusedinsteadofH Ointhesestudies,therateofthe
+2 2
+Also, the alkaline environment is critical due to non-noble reaction is approximately 6 times faster. Since the D+ ion is
+electrocatalysts. Alkaline water splitting is an excellent way to heavierthantheH+ion,itmovesthroughtheelectrolytemore
+produce pure hydrogen with high purity. This technology is slowly.BasedontheKIEfortheHER,thefollowingmechanism
+environmentallyfriendlyanddoesnotemitanycarbondioxide. canbeproposed:
+PtandPt-basedalloysperformverywellintheHERduetotheir (1) An electron is transferred from the electrode to a
+lowactivationoverpotential.Asmentioned,HERactivityisvery hydrogenionintheelectrolyte,formingahydroniumion.
+oftenlowerinalkalinemediathaninacidicconditions.Thisis
+(2) The hydronium ion dissociates into a proton and water
+primarily due to the slowing down of the water dissociation
+molecule.
+phase.However,alkalineelectrolysisispreferredonanindustrial
+(3) The proton tunnels through the water molecule and
+scale.Itiscriticaltoconsiderthebondingofhydrogenspecies
+attacks the surface of the electrode, forming a hydrogen
+and the water dissociation potential when designing electro-
+atom.
+catalysts with high alkaline HER performance. According to
+(4) The hydrogen atom desorbs from the surface of the
+Figure3candFigure3d,39boththethermodynamicinfluenceof
+electrode,forminghydrogengas.
+ΔG and the hydrolysis kinetics affect the progress of the
+H
+reaction.ThevolcanicplotpredictsthatmetalssuchasPGMs A KIE indicates that an electron is transferred from the
+electrodetoahydrogenionintheelectrolytetodeterminethe
+areontopofthevolcanoplotwiththeidealHbindingenergy
+rateofthereaction.Theisotopeeffectismuchlargerforthisstep
+and show the highest activity. Similar to the acidic media, a
+thanforanyoftheothersteps.42
+volcanoplotcandescribetherelationshipbetweenHbonding
+energyvaluesandHERexchangecurrentdensityatalkalinepH.
+3. HERELECTROCATALYSTSREQUIREMENTS
+This description can be defended by experimental studies and
+density-functionaltheory(DFT).40 Thedisparitybetweentheelectricalpotentialsofeachelectrode
+2.6.KineticIsotopeEffect(KIE).Animportantmethodfor determines the potential of an electrochemical cell. It is
+studyingchemicalreactionsisthekineticisotopeeffect(KIE). impossible to determine the electrical potential of a single
+Thistheoryisbasedontheobservationthattherateofareaction electrode;forthispurpose,wecansetanelectrodetozeroand
+canvarywithatommass.Aparticle’smassaffectstheenergyof useitasareference.Thisselectedelectrodeiscalledthestandard
+its vibrational and rotational states, which, in turn, affects the hydrogen electrode (SHE). This electrode is a reference for
+probability of tunneling. Tunneling is a quantum mechanical measuringtheactivitypotentialofdifferentmaterialsrelativeto
+process that allows particles to pass through potential barriers eachother.Thereductionhalf-reactionselectedforreferenceis
+wit P h r o im ut ar h y a a v n in d g s e e n co o n u d gh ary en K e I r E g s y a t r o e o th v e er t c w o o m m e a t i h n e t m yp . es.Thereisa 2H+(aq, 1M) + 2e F H 2 (g, 1atm) E°= 0V (4)
+primaryKIEwhenthedifferenceinmassonlyexistsbetweenthe Intheaboverelationship,E°standsforthestandardreduction
+atoms involved in the rate-determining step between two potential (at a standard temperature of 25 °C and pressure, 1
+isotopicallysubstitutedreactants.AsecondaryKIEistheratioof atm, 1 M for solution), and at all temperatures the voltage is
+the rates of reaction between two isotopically substituted defined as zero (0 V vs RHE). According to theoretical
+reactants,wherethemassdifferenceisnotbetweentheatoms.A calculations, the potential of the cell along the entire water-
+KIE can be used to identify the rate-determining step in a splitting path is 1.23 V.43 This reduces efficiency and kinetics.
+reaction.IfaprimaryKIEisobserved,thentherate-determining Designing and utilizing highly efficient catalysts to reduce the
+step must involve breaking or forming a bond between the overpotentialforOERandHERtoproduceH andO isone
+2 2
+isotopicallysubstitutedatoms.Conversely,ifasecondaryKIEis efficientwaytodothis.Itiscrucialtocomprehendthecriteria
+observed,the rate-determining step must not involvebreaking used to assess and contrast the electrocatalytic activity of
+or forming a bond between the isotopically substitutedatoms. particular materials and to establish test procedures. Unfortu-
+By providing information about the transition state’s energy, nately, no coordinated effort has been made to develop an
+KIEscanalsobeusedtostudythemechanismofareaction.In integrated test protocol or a way to present quantitative
+the case of a primary KIE, the transition state energy for the electrocatalytic data. In studies, the performance of electro-
+lighter isotope must be lower than for the heavier isotope. In catalystsisusuallyevaluatedwiththefollowingparameters.44
+contrast,ifasecondaryKIEisobserved,thenbothisotopesmust 3.1.Overpotential,TafelSlope,andExchangeCurrent
+havethesameenergyofthetransitionstate.Asidefromprimary Density. The overpotential (η) component is a fundamental
+and secondary KIEs, equilibrium isotope effects and kinetic descriptor for assessing the electrocatalysts’ behavior, which is
+secondaryisotopeeffectsarealsotypesofKIEs.Inequilibrium the difference between the theoretical half-reaction reduction
+isotope effects, the equilibrium constants of two isotopically potential and the actual cell potential. Suitable electrocatalysts
+substituted reactions are compared. Kinetic secondary isotope forHERshouldhaveasmalloverpotentialbecausetheamount
+7314 https://doi.org/10.1021/acsomega.3c07911
+ACSOmega2024,9,7310−7335
+
+ACSOmega http://pubs.acs.org/journal/acsodf Review
+of low overpotential is directly related to the high electro- indicating the area of the electrode material available to the
+catalyticactivity.Watersplittingoccursatacellpotentialof1.23 electrolyte.Ithasbeenproventhatitischallengingtomeasure
+V(0VforHERand1.23VfortheOER).BothHERandOER the electrochemically active surface of any material as an
+processes need additional potential, mainly from the intrinsic electrode.Thissurfaceisusedforchargetransferand/orstorage
+activation obstacles present. The applied potential must be in electrochemical cells (galvanic/electrolytic). The electrode
+increased for the reaction to occur.45,46 Usually, the over- surface may be expanded using a variety of techniques. These
+potentialvaluecorrespondstothecurrentdensitysuchas10mA include using nanostructures, cyclic voltammetry (CV), and
+cm−2(η=10)and/or100mAcm−2(η=100). linearsweepvoltammetry(LSV).51
+AnotherapproachformeasuringHERelectrocatalystactivity 3.3.FaradaicEfficiency.Faradayefficiency(alsoknownas
+istocalculateTafelparameters,thevaluesofwhicharetypically current efficiency) is another parameter used to assess the
+determinedbyexaminingthepolarizationcurveasalogarithmic activityoftheHERelectrocatalyst.Inplaceofthesidereaction,
+current density diagram (log(j)) vs iR-compensated over- faradaic efficiency (FE) calculates the amount of charges
+potential(η).TheTafelsloperepresentsthekineticrelationship (electrons) in the desired reaction. In the HER process, FE is
+between the overpotential and the current density in the the ratio of experimentally identified H compared to the
+2
+electrocatalyst,whichisexpressedbyeq5: theoretical quantity H . This ratio of experimental H to
+2 2
+theoretical H is calculated using a current density based on
+= a + b·log|j|, where (5) 2
+100%faradaicoutput.Thefaradaicefficiencyiscalculatedunder
+two parameters: the total amount of hydrogen produced nH
+2.303·RT 2
+a = log(j ) (mol)andthetotalamountofchargeQ(C)transferredfromthe
+F 0 (6)
+cellusingeq7.Thetotalchargeisdeterminedbyintegratingthe
+current, and the total amount of hydrogen generated is
+2.303·RT
+b = determined by using gas chromatography (GC) or the water
+F (7) displacementmethod.52
+In this equation, η is the overpotential, and j is the current Faradaicefficiency = nH 2 /(Q/2F) (8)
+density.
+The Tafel slope (b) and the exchange current density j are FistheFaradayconstant,≅96500C/mol.
+0
+determined by obtaining the current at a potential of zero. As 3.4.TurnoverFrequency.Theturnoverfrequency(TOF)
+stated,theoverpotentialisthedifferenceamongtheelectrodes’ of a catalytic center quantifies its particular activity by the
+potentialundertheequilibriumpotential(E)andcurrentload numberofreactantstransformedtothechosenproductperunit
+r
+(E). According to eq 5, the Tafel slope (b) is an intensive time.TheamountofTOFforHERandOERiscalculatedbased
+j
+quantityindependentofthesurfaceareaofthecatalyst,andits onthefollowingequations:
+valueisdefinedbytherate-determiningstageanditslocationin
+TOFHER = JA/2nF (9)
+the reaction process. In contrast, j is a large quantity and
+0
+depends on the surface area of the catalyst and indicates easy TOFOER = JA/4nF (10)
+electron transfer with small activation energy. An active
+electrocatalyst should have a low Tafel slope and a large j . A whereArepresentstheareaoftheworkingelectrodeandJisthe
+0
+lowerTafelslopesuggestsalargeincreaseincurrentdensityasa currentdensity;thenumber2representstheelectronsforH /
+2
+function of overpotential variation (i.e., the kinetics of the mol,andthenumber4representstheelectronsforO /mol;also,
+2
+electrocatalyticreactionarefaster).47,48 nembodiesthemolenumberofactivesites,andFistheFaraday
+The exchange current density ( j ) can be defined as the constant.
+0
+readiness of the electrode to continue the electrochemical In experiments, measuring TOF is not easy for most solid-
+reaction,so thehighertheexchangecurrent density,themore statecatalysts.Inthiscase,thecatalyst’ssurfaceatomsarenot
+active the electrode surface. It describes the intrinsic charge catalytically active or uniformly available. A presence of HER
+transfer exchange current density under an equilibrium state. bubbles on the electrode surface causes an excessive rise in
+Increased exchange current densities indicate higher charge potential and disturbs the active surface. Admittedly, TOF
+transferratesandbetterreactionprogress.49Therefore,itcanbe valuescannotprovidemuchaccuracy,buttheycanstillassistin
+concluded that for a better electrocatalyst, a higher exchange linkingcatalystactivity.53
+currentdensityandalowerTafelslopeareexpected.Thescan 3.5. Hydrogen-Bonding Energy. In the hydrogen
+rate used to obtain the potentiodynamic polarization curve evolution reaction (HER), an electrochemical process that
+shouldnotbeoverlookedbecausethisparameterstronglyaffects generateshydrogengasfromwatersplitting,hydrogen-bonding
+the values obtained for the current density and Tafel slope. energy (HBE) plays a crucial role. Hydrogen bond energy
+Potentiostatic method curves or recorded polarization curves describes the strength of hydrogen atoms’ interaction with
+shouldthus be assessed at theslowest scanrate available. The neighboring atoms, usually oxygen atoms in water or on the
+exchangecurrentdensity(j )indicatestheintrinsicinteractions catalystsurface.Theinteractionaffectstheoverallkineticsofthe
+0
+andchargetransferactivitybetweentheelectrocatalystandthe HER,affectingtherateofhydrogenevolutionandthestabilityof
+reactant. High exchange current density usually reflects the adsorbed hydrogen species. Adsorption of hydrogen inter-
+excellent performance of the HER reaction electrocatalyst. mediates on the catalyst surface is made easier by a strong
+However, it should be noted that obtaining direct exchange hydrogen bond between hydrogen atoms and the catalyst
+current density is challenging, and we can only get the total surface. If the HBE is too strong, it can prevent hydrogen
+currentdensityfromtheTafelequationexperiments.50 molecules from desorbing, reducing hydrogen evolution
+3.2.ElectrochemicallyActiveSurfaceArea(ECSA).The efficiency. In order to achieve efficient and sustainable HER,
+electrodematerial’selectrochemicalsurfacearea(ECSA)isone an optimal HBE must be in place. Numerous techniques have
+of the fundamental phenomena in selecting electrocatalysts, beenusedtostudytheeffectsofHBEonHERactivity,including
+7315 https://doi.org/10.1021/acsomega.3c07911
+ACSOmega2024,9,7310−7335
+
+ACSOmega http://pubs.acs.org/journal/acsodf Review
+Figure4.Three-electrodesystemwithworkingelectrodes,counters,andreferenceelectrodes.
+theoretical calculations, spectroscopic studies, and electro- HBEandtailoringthecatalystsurfaceandpreparationmethods
+chemical measurements. Catalysts with a moderate HBE accordingly.Hydrogenproductiontechnologiesrequireefficient
+typically exhibit higher HER activity than those with a too HERcatalystsforadvancement.OptimizingHBEcanenhance
+weakortoostrongHBE,accordingtothesestudies.Amoderate theperformanceofHERcatalysts,makingthemmoresuitable
+HBE allows for efficient electron transfer and hydrogen forpracticalhydrogenproductionapplications,suchasfuelcells
+desorptionwithouthinderinghydrogenintermediateformation. and hydrogen storage. The hydrogen bonding energy (HBE)
+HERactivityisalsoaffectedbythedistributionofHBEsiteson determines the stability of adsorbed hydrogen species, the
+thecatalystsurfaceinadditiontothestrengthoftheHBE.The desorptionofhydrogenmolecules,andtheoverallefficiencyof
+uniform distribution of HBE sites promotes the formation of hydrogenevolutionreactions(HER).TodevelopefficientHER
+stable intermediates and efficient hydrogen evolution by catalysts and realize the potential of sustainable hydrogen
+providinghydrogenatomswithsuitablebindingsites.Inorder productiontechnologies,itiscrucialtounderstandandoptimize
+to develop efficient HER catalysts, it is essential to optimize HBE.
+HBE. Researchers can design catalysts with the desired HBE 3.6.Stability.Anotherimportantparameterforchoosingthe
+properties to achieve high HER rates and stability by suitable HER electrocatalyst is stability. There are two
+understandingtherelationshipbetweenHBEandHERactivity. approaches to assess the stability factor. One is LSV or CV;
+The development of sustainable hydrogen production tech- theotherispotentiostaticorgalvanostaticelectrolysisbylong-
+nologiesdependsonthis.InordertoachieveefficientHER,an termchronopotentiometric(CP)orchronoamperometric(CA)
+optimal HBE is necessary. Catalysts with a moderate HBE tests. This voltammetric method is utilized to compare the
+typically exhibit higher HER activity than those with either a overpotentialmodifications,beforeandafteracertainperiodof
+weakorastrongHBE.AmoderateHBEpromotestheoverall cycles for 1000−10000 cyclic voltammograms at a scan rate
+HER process by stabilizing adsorbed hydrogen species and suchas5−50mVs−1.
+facilitatingtheirdesorption. InaCVcycle,thehigherthenumberofcycles,thehigherthe
+Relationship between HBE and HER Activity. A complex accuracy,andthebetteritcanbetoreachafewthousandcycles
+relationship exists between the strength of the HBE and the byahighpotentiallimitof upto0 VvsRHE.Changes inthe
+activityoftheHER.StrongHBEscanindeedstabilizeadsorbed parametersofthepolarizationcurveaswellasoverpotential(ata
+hydrogenspecies,buttheycanalsohinderhydrogendesorption specificcurrentdensity)areevaluatedbeforeandaftertheCV
+if they are too strong. Due to the strong HBE, hydrogen cycletomeasurestability.54,55Thelessertherateofchange,the
+moleculescannotbreakawayfromthecatalystsurface.Thus,the greater the material’s stability. It is widely acknowledged that
+catalystbecomessaturatedwithhydrogenatoms,andtheoverall assessingacatalyst’slong-termstabilityissufficientforaround
+HERratedecreases. 12 h. However, it is strongly advised that the measures be
+Factors Affecting HBE. There are several factors that can
+evaluatedforatleast240hinorderforthestabilityresultstobe
+affecttheHBEbetweenhydrogenatomsandthecatalystsurface,
+at least somewhat industrially defensible. An HER electro-
+suchasthefollowing:
+catalystmustbeusableforseveralthousandhourstobereadyfor
+(1) Nature of the catalyst surface: HBE can be significantly useonalargescale.Acceleratedexperimentsusuallylastonlya
+affected by the type of metal or material used for the few hours at best. Such expedited testing may not give exact
+catalyst surface. Catalysts containing a high density of operational information for industrial-scale assessment. How-
+oxygen-containinggroups,suchashydroxidesandoxides, ever,thistimeisclearlyrestrictedfromanindustrialviewpoint,
+tendtoexhibitstrongerHBEthancatalystscontaininga and further testing is required before larger-scale implementa-
+lowerdensity.
+tion.56,57
+3.7. Electrochemical Methods (Three-Electrode Cell).
+(2) Preparation methods: A catalyst’s preparation method
+In the HER process, a rotating disk work electrode (RDE) is
+can also affect its HBE. The formation of HBE is more
+suggested to obtain accurate experimental data. With high
+likely to occur in catalysts prepared using methods that
+accuracy,thiselectrodecanquantifythemasstransferrateand
+introducedefectsorroughnessintotheirsurfaces.
+reactionkineticswell.TheRDEisaworkingelectrodeusedin
+(3) Electrolytecomposition:HBEcanalsobeaffectedbythe
+three-electrode systems for voltammetry of electrochemical
+electrolyte composition. Electrolytes with higher pH
+studies when examining the reaction mechanisms of redox
+values, for example, tend to form stronger HBE than chemistry,amongotherchemicalphenomena.58Theelectrode
+electrolyteswithlowerpHvalues.
+isconnectedtoanelectricmotorwithexcellentcontroloverthe
+Optimizing HBE and Impact on Sustainable Hydrogen rotationspeedoftheelectrode.Theelectroderotatesduringthe
+Production. Developing efficient HER catalysts requires testandinducesafluxofanalytetotheelectrodedependingon
+optimizingHBE.ScientistscandesigncatalystswithhighHER theappliedvoltage.Thestructureofthiselectrodeconsistsofa
+rates and stability by understanding the factors that influence conductive disk made of a noble metal or glassy carbon
+7316 https://doi.org/10.1021/acsomega.3c07911
+ACSOmega2024,9,7310−7335
+
+ACSOmega http://pubs.acs.org/journal/acsodf Review
+surroundedbyanonconductivematerialsuchasapolymeroran (2) Low-cost transition metal-based materials without pre-
+inertresin.AccordingtoFigure4,inanelectrochemicalsystem, ciousmetals
+theworkingelectrode(WE)isoftenusedinconjunctionwitha
+(3) MOF-derivedmaterial-basedelectrocatalysts
+counter electrode (CE) and a reference electrode (RE) in a
+three-electrodesystem.54,59
+Today, efforts are focused on developing low-cost metal-
+3.8. Measurement Pitfalls and Data Interpretation in
+based electrocatalysts with high stability and performance and
+HERStudies.Electrochemicalmeasurementsplayacrucialrole
+are considered an essential and promising candidate for the
+instudyingtheHERandevaluatingtheperformanceofcatalysts. industrialscale.
+However, there are several challenges and pitfalls that 4.1. Noble Metal-Based Electrocatalysts. The electro-
+researchers may encounter during these measurements, which catalyticperformanceofnoblemetals,suchasPtgroupmetals
+canaffecttheaccuracyandreliabilityoftheobtaineddata.Inthis (PGMs, including Pt, Pd, Rh, Ru, and Ir), is appealing for
+section, we summarize some common pitfalls and provide HER.60TheVolcanodiagramshowsthatthesematerialsareat
+guidanceforaddressingthem. the top of the curve. However, due to their scarcity and high
+ElectrodeFoulingandSurfaceContamination.Oneofthe price, the commercial application of these noble metal
+majorchallengesinHERmeasurementsiselectrodefoulingand electrocatalysts is constrained.61 Rational design of catalysts
+surface contamination. Over time, the electrode surface can withminimalnoblemetalloadandhighusageofothermetalsis
+become covered with reaction intermediates or byproducts, crucialtoovercomingthisdifficulty.62ThetrendofPtactivityis
+leading to altered electrochemical behavior and inaccurate (111) < (100) < (110) according to the single-crystal aspects
+measurements. To mitigate this issue, careful electrode withalowPtindexintheHERprocess.Thejustificationforthis
+preparation, regular cleaning, and appropriate experimental trend can be attributed to the presence of H (overpotential
+opd
+conditions should be employed. Techniques such as cyclic deposition, weakly adsorbed state) reaction, which is most
+voltammetry and electrochemical surface cleaning can help prevalentatlevel(110).Therefore,theactivityofthePtsurface
+removeadsorbedspeciesandrestoretheelectrodesurface. (110)intheroleofelectrocatalystcanbegreaterthanthatofthe
+ElectrolyteEffects.Thechoiceofelectrolytecansignificantly othertwosurfaces.63Therefore,modificationandoptimization
+influence HER measurements. Different electrolytes can have of geometric parameters of noble metal-based electrocatalysts
+varying pH, ionic strength, and composition, resulting in whilemaintainingactivityhavebeeninvestigated.64Theactivity
+different reaction kinetics and performance of catalysts. It is of Pt electrocatalysts in an alkaline environment is typically
+crucial to carefully select an electrolyte that is suitable for the lower than in an acidic environment as a benchmark. This is
+specific HER system under investigation. Additionally, under- becausethedissociationofwateratthePtsurfaceisinefficient,
+standing the effects of electrolyte composition on the reaction leadingtothiselectrocatalyst’sweakactivityintheelectrolyte.Pt
+mechanism and kinetics is essential for accurate data coupling with water dissociation promoters is a popular
+interpretation. technique for improving the electrocatalytic capabilities of
+Proper Data Analysis Techniques. Interpreting electro- HERinanalkalineenvironmenttocompensateforthis.65The
+chemical data accurately is crucial for understanding the optimization of geometric parameters and efficient modifica-
+performanceofHERcatalysts.Commonpitfallsindataanalysis tionsinstructurewhilepreservingelectrocatalyticactivityhave
+includeincorrectbaselinesubtraction,improperfittingmodels, beenthoroughlyexploredasaresultoftherightdeploymentof
+andoverlookingpotentialartifacts.Researchersshouldcarefully Pt-based electrocatalysts. Loading Pt nanoparticles on high-
+selectappropriateanalysistechniques,suchasTafelanalysisor surface carbon is a simple and cost-effective technique to
+electrochemical impedance spectroscopy, and ensure proper generateactiveHERelectrocatalystsforthispurpose.Themost
+data processing and fitting procedures. It is also important to common method is carbon black with 20% by weight of
+consider potential artifacts, such as capacitive currents or platinumputonit(Pt/C),whichmaygenerateoneofthelowest
+double-layerchargingeffects,andaccountfortheminthedata overpotentials (46 mV at 10 mA cm−2) in alkaline circum-
+analysis. stances.Pt/Ccatalystsarefrequentlyutilizedasastandardfor
+By being aware of these pitfalls and employing appropriate catalystscreatedfortheHERreactionbecauseoftheirsuperior
+measures,researcherscanimprovetheaccuracyandreliabilityof outcomes and performance. Due to its lower cost and similar
+their electrochemical measurements and data interpretation. electronic structures, Ru is always considered a potential
+Addressing these challenges is essential for advancing our candidate to replace Pt for water electrolysis. However,
+understanding of HER catalysts and developing efficient
+dissolutionandstabilityproblemsmustbethoughtout.45,66
+hydrogen production technologies. Overall, by summarizing The element titanium is also widely used in electrocatalytic
+the common pitfalls and providing practical guidance for reactions. Titanium dioxide (TiO 2 ) is a transition metal oxide
+measurementanddatainterpretation,researcherscannavigate thathasbeenextensivelystudiedforitspotentialapplicationin
+throughthechallengesinherentinHERstudiesandobtainmore the hydrogen evolution reaction (HER). However, the tradi-
+tional crystalline TiO is generally considered as an inactive
+accurateandreliableresults. 2
+materialforHERwithdisappointingperformance.Thisisdueto
+its poor electrical conductivity and unfavorable hydrogen
+4. HERELECTROCATALYSTS
+intermediates (H ) adsorption/desorption capability. In
+ads
+Giventhematerialsinvestigatedascandidateelectrocatalystsfor order to activate TiO for HER, theoretical calculations and
+2
+HER in the water-splitting process, a coherent method for experimental studies have been carried out to investigate the
+presentation and comparison is critical.56,58 The approach effect of structural and electronic properties on the hydrogen
+employedinthisstudyistocategorizematerialsintothreemajor adsorption free energy (ΔG ). The results suggest that the
+H*
+groups: hydrogen adsorption free energy could be optimized through
+tuning the structural and electronic properties of TiO . For
+(1) Noblemetalswithcompoundsandalloys 2
+example, amorphous TiO with disordered atom arrangement
+2
+7317 https://doi.org/10.1021/acsomega.3c07911
+ACSOmega2024,9,7310−7335
+
+ACSOmega http://pubs.acs.org/journal/acsodf Review
+Figure5.(a)SchematicillustrationoftheprocessstepsforformingRu@MWCNTcatalyst;(b,c)electrochemicalHERperformanceoftheRu@
+MWCNTandPt/Ccatalysts;polarizationcurvesandcorrespondingTafelplotsinN-saturated0.5Maq.HSO solutionand1.0Maq.KOH
+2 2 4
+solution.Scanrate:5mVs−1;(d)comparisonofelectrochemicalHER;thepolarizationcurveswererecordedbeforeandafter10000CVpotential
+cycles.Datatakenfromref68.
+can offer a larger amount of catalytic active sites than their favorableinfluenceonthematerial’scatalyticactivity.SomePt-
+crystallinecounterparts.67 based alloys can be made with Pt−M crystalline nanoparticles
+Kweonetal.68describedaninexpensiveandsimpleapproach (M = Co, Fe, Cu, Ru, Au). In this method, we substitute
+for producing homogeneous ruthenium (Ru) nanoparticles as inexpensive metals for Pt, intending to increase synergy and
+an effective HER electrocatalyst by depositing Ru on multi- electrocatalyticperformance.Therearetwokeyexplanationsfor
+walled carbon nanotubes (MWCNTs) (Figure 5a). According the improved performance of these materials over commercial
+to Figure 5b and Figure 5c, the synthesized electrocatalyst Pt nanoparticle-based catalysts. The first explanation is the “
+outperformscommercialPt/Cwithlowoverpotentialsof13and effectofligand”,whichrelatestotheelectroniccharacteristicsof
+17mVat10mAcm−2in0.5Maq.H SO and1.0Maq.KOH, onetransitionmetal’sactivesitesclosetoanothermetal’sactive
+2 4
+respectively.Furthermore,thecatalysthasexceptionalstability sites.Anotherreasonisthe“effectoflatticestrain”onthePt−Pt
+inbothmedia,revealingnearlyzeroduringcycling(Figure5d). bond distance because of the mixture of other metals, which
+Inthisstudy,DTFcalculationsindicatethatRu−Cbondingis causeschangesinthePtmetal’sd-bondcenter.71Thisfactorcan
+themostlikelyeffectiveareafortheHER. bechangedbycombiningPtwithothermetalsinthenetworkto
+In electrocatalysts, surface properties play a decisive role in provide the best catalyst properties. These findings were
+intrinsic activity and adaptability. Bao et al.69 demonstrated a confirmed by other research groups.72 The ability to modify
+simple approach for thermally doping Ru/C with atomically the structure on the surface is essential for enhancing
+scattered cobalt atoms. The generated amorphous shell electrocatalytic activity among various noble metal-based
+containing Ru−Co sites on the Ru/C electrocatalyst by a electrocatalysts for HER. Doping noble metal-based materials
+surface-engineering approach considerably increased HER withothermetalcomponentshasrecentlybeendiscoveredtobe
+activity and stability in this study. Similar to Pt/C but another efficient method of increasing the electrocatalytic
+considerably better, the Co Ru@Ru/CNx electrocatalyst activity of HER while minimizing the quantity of noble metal
+1
+displayed an overpotential of 30 mV at 10 mA cm−2. This utilized. Electrochemical analysis of HER showedthat doping,
+excellentinformationshowsthatthisobtainedelectrocatalystis especially the combination of S and N in the noble metal,
+oneofthebestHERcatalystsforthealkalineenvironmentthat improves the electrocatalytic behavior and increases the
+hasbeenproposedsofar.Theotherwaytoreducetheloadingof stability. Naveen et al.73 reported a Pd nanoparticles (NPs)
+noble metals is to alloy them with inexpensive metals.70 The electrocatalyst supported on a carbon sphere nanoarchitecture
+idealmethodistoutilizeoneormoremetalsthathaveanextra dopedwithsulfur(S)andnitrogen(N)atoms(PdSNC),which
+7318 https://doi.org/10.1021/acsomega.3c07911
+ACSOmega2024,9,7310−7335
+
+ACSOmega http://pubs.acs.org/journal/acsodf Review
+is designed by using a palladium−rubeanic acid (Pd−RA) According to the study, replacing noble metals with a
+coordinationpolymerasaprecursor,whichwasthencalcinedof combination of transition metals and nonmetal elements (S,
+materials for the HER electrocatalyst. Doping S and N into Se, N, C, andP) has emerged asa potential alternative. Metal
+carbon structures increased the electronic structure and sulfides, metal selenides, metal nitrides, metal carbides, and
+strengthened the affinity of the PdNPs in this study, revealing metalphosphidesmightbementionedinthisgroupoftransition
+improvedelectrochemicalperformanceoftheelectrocatalyst.By metal-based electrocatalysts with high activity, stability, and
+modulating the electronic structure and stabilizing Pd nano- affordable pricing.100 The following sections summarize the
+particles, the placement of dual heteroatoms (S and N) in most advanced electrocatalysts selected based on the most
+carbon tissue enhanced stable electrocatalytic activity as an common materials and compare each group with Pt-based
+alternative to expensive commercial Pt/C. The modified electrocatalysts.101 Mn, Fe, Co, and Ni are some of the most
+PdSNC demonstrated a current of 10 mA cm−2 at 0.030 V, widely used non-noble metal electrocatalysts for HER. As an
+whichissignificantlyhigherthanPd/CandcomparabletoPt/C. affordable metal with widespread industrial application and
+Thisstrategyusedbyresearchers(dopingandPd/Cformation)
+strongHERactivity,takeFeasanexample(at10mAcm−2,the
+is a promising approach to designing carbon/noble metal
+overpotentialcanreachthelowestvalueofabout260mV).102
+Fe is aninexpensive metalthat isoftenemployed inindustrial
+composites with heteroatoms to enhance electrocatalytic
+settings and has comparatively high HER activity. Pure Fe is
+performance. In electrocatalysts, surface properties play a
+decisive role in intrinsic activity and adaptability.74 Noble employed as a comparison material on occasion, and it can
+producediversefindingsdependingonthepreparationprocess,
+metalsprovideexceptionalbenefitsforwater-splittingprocesses,
+surfacearea,morphology,orshape.103,104Unfortunately,there
+but their high price and scarcity remain substantial barriers to
+arenotmanystudiesdoneonpureironasacathodematerial.
+broad industrial growth. It should also be mentioned that the
+One factor might be the low stability of Fe alone in high-
+usage of noble metals is required for many important
+applications.35,75 As a result, it is possible to infer that the temperature,alkalineconditions.Thisinstabilityisincreasedin
+theno-currentmodewhentheelectrolysisisswitchedoff.The
+mostpromisingstrategy,particularlyforlarge-scaleapplications,
+lowstabilityandefficiencyofFecathodesunderwater-splitting
+is the creation of electrocatalysts based on cheap and readily
+conditions canbereduced byalloyingthemwith one or more
+available materials. The HER performances of PGM-free
+metals.104,105 These objective characteristics are heavily
+catalystsaresummarizedinTable2.
+influencedbythekindofcoalloyedmetal,overallcomposition,
+4.2. Non-Noble Metal-Based Electrocatalysts. As
+andpreparationtechnique.Steelmaterialshavehistoricallybeen
+summarized in the previous chapter, non-noble metal-based
+utilized as dual-function catalysts in overall water splitting,
+electrocatalysts are the only viable option for the future
+despitethefactthattheircatalyticactivity,particularlyforHER,
+developmentoflarge-scalewatersplittingforenergyconversion.
+is significantly inferior to that of the most sophisticated
+catalysts.106Surfacemodificationappearstobeaviablemethod
+Table2.HERPerformanceSummaryofPGM-freeMaterials
+for dramatically increasing the activity of steel-based materi-
+Catalysts als.107,108 In one study, Kim et al.108 studied a self-activated
+nanoporousanodicstainlesssteelelectrodewithbettercatalytic
+Tafelslope η(mVvsRHE)for performanceforthehydrogenevolutionreaction.
+material structure (mVdec−1) J=10mAcm−2 refs
+Etchedandanodizedstainlesssteel(EASS)iscreatedinthis
+NiCoN nitride 105.2 145 76
+technique by employing etched 304 stainless steel foil with an
+NiN−NiMoN nitride 64 31 77
+3 unevensurfaceandthenthermalannealing(650°C,ArandH
+MoSe/NiSe selenide 46.9 249mVat100mA 78 2
+2 2 mixture, 1 h). The synthesis method increases the electrode’s
+Ni Co Se selenide 31.6 108 79
+0.7 0.3 2 surfacearea,exposingalargenumberofactivesitesandoxygen
+NiMoNx/C nitride 35 78mVat100mA 80
+vacancies.Theimprovedmaterialdisplayedanoverpotentialof
+Mo−Fe−Se− selenide 57.7 86.9 81 370 mV at10 mA cm−2, almost 100 mVless than theoriginal
+CP
+NiN/VN−NF nitride 47 56 82 stainless steel (466 mV). In addition, the overpotential is
+3
+decreasedto244mVbyself-activationafter10000LSVcycles
+FeP/Fe phosphide 55 191 83
+2
+duetothecreationofacatalyticallyactivemetalhydroxidelayer
+COP/CP phosphide 60 174 83
+2
+onthesurfaceoftheelectrode.Althoughsignificantprogresshas
+COP phosphide 101 406 84
+2
+MON/NC nitride 115.7 217 85 beenmadeinthisfield,asfarasweknow,themostactivesteel-
+2
+FeP phosphide 37 50 86 based electrocatalysts still need to be doped with more active
+VC@GC carbide 34.5 38 87 substances,suchasNi,Mo,orP,toachieveanoverpotentialof
+8 7
+NSs/NF only80−120mVhigherthanthatobservedwithcommercialPt/
+WN/CC nitride 57.1 130 88 C electrocatalysts.109 In addition to stainless steel, the most
+porousCoP
+2
+phosphide 67 56 89 researchediron-basedalloysaretheFe−CoandFe−Mogroups,
+MoNx nitride 114 148 90 whichmaybeutilizedasbinaryalloysortocomplementanother
+VMoN nitride 60 108 91 metal to produce a more complicated system. A high actual
+CoNiSe
+2
+/NF selenide 40 87 92 surfaceareaFe−MoalloyisapotentialmaterialforHER.54−56
+CoNiSe/NC selenide 66.5 100 93 4.2.1.TransitionMetalCarbides.Transitionmetalcarbides
+Mo 2 C/C-900 carbide 52 114 94 (TMCs) demonstrate Pt-like properties for HER electro-
+nanoMoC@GS carbide 43 124 95 catalytic activity due to the shift in the d-band center; for this
+MoN nitride 120 389 96 reason,thedevelopmentoftheseelectrocatalystsasnon-noble
+WN−W
+2
+C nitride 85 242 97 metal-basedelectrocatalystsisofgreatinterest.110GroupIVb−
+NiCoPholey phosphide 57 58 98 VIbTMCsareknownastransitioncarbidesduetotheelectronic
+CoP 2 /rGO phosphide 50 88 99 properties of carbon atoms occupying the metal lattice’s
+7319 https://doi.org/10.1021/acsomega.3c07911
+ACSOmega2024,9,7310−7335
+
+ACSOmega http://pubs.acs.org/journal/acsodf Review
+Figure6.Polarizationcurves(inset:Tafelplotsobtainedfromthepolarizationcurves),calculatedelectrochemicaldouble-layercapacitance,andη10
+valuesofcorrespondingmaterialsin(a)acidicsolutionsand(b)alkalinesolutions.Datatakenfromref113.
+position.111WandMoarethemostcommoncandidatesforuse tungsten carbon disrupt the active sites in the HER electro-
+in TMCs, which in addition to high electrical conductivity, catalyst reaction. This is in contrast to transition metal
+hydrogen adsorption properties, and d-band electron density chalcogenides in which the presence of oxygen can improve
+state,createtheoptimalcompoundthatcandemonstratenear- HERperformance.Intheinteractionoftheelectrocatalystwith
+Pt electrocatalytic activity for HER electrocatalysis.112 WC is water,theWCsurfacedisruptsandinactivatestheformationofa
+one of the first noble metal electrocatalysts for HER electro- WO layer.114 Although this oxide layer grows at anodic
+3
+catalysis. The W/C ratio substantially influences the electro- potentials,itshouldnotbepresentatHERcathodicpotentials.
+catalytic activity of HER in this combination. The electro- Also, its stability in anodic potentials is shallow due to the
+catalytic activity of WC, like that of other compounds, is formation of an anodizing layer. Due to the synergistic effect
+determinedbythenumberofactivesites,crystallinephases,and betweenWCandPt,moreattentionhasbeenfocusedonusing
+nanoparticlemorphology.Lvetal.113adoptedasimpleapproach this material as a substrate for Pt electrocatalysts, although its
+tocreateWC@rGOinorder toincreaseHERactivity inboth mechanism is still unknown.115 Researchers are currently
+acidic and alkaline environments. In order to increase charge focusingonreducingthePtcontentofPt/WCelectrocatalysts
+transfer and change the size of the WC particle in order to withlowcost,highefficiency,andgoodstabilityforHER.
+achieve effective and stable HER performance, this study Mo CalsohasPt-likeelectrocatalyticactivityfortheHER.In
+2
+employed the efficiently conductive rGO as a support. The addition,acomparativestudyshowedthatmolybdenumcarbide
+overpotentials of the synthesized electrocatalyst are about 2.5 had better electrocatalytic performance than nitride and
+timessmallerthanthoseofthepristineWCtoachieve10mA boride.116 Liu et al.117 used CO as the feedstock to create a
+2
+cm−2insolutions(acidicandalkaline).AsshowninFigure6a self-standing MoC−Mo C catalytic electrode. High perform-
+2
+and 6b, the Pt-modified WC electrocatalyst with low Pt anceofthesynthesizedelectrodewithlowoverpotentialat500
+accumulation(4%byweight)showsevenheightenedperform- mA cm−2 was observed in both acidic and alkaline mediums
+anceoftheelectrocatalyst(Tafelslopeandη10of21mVdec−1 (256and292mV,respectively),duetoitshydrophilic porous
+and54mVinsolutionofacidand28mVdec−1and61mVin surface and inherent mechanical strength, the long-lasting
+solutionofalkaline)tocommercialPt/C.Theauthor’smethod lifetime of more than 2400 h, and performance at high
+makes it possible to prepare environmentally friendly, temperatures (70 °C). By DFT calculations, the authors show
+inexpensive,stable,andeffectiveHERelectrodes. thatthesuperiorperformanceoftheHERdiscontinuouscarbide
+Itisworthnotingthatthesurfaceoftheelectrocatalystmust electrodeinbothacidicandalkalinestatesisdeterminedbythe
+befreeof tungstenoxideorsimilarcompoundstoachieve the heterogeneousbondingofMoC(001)−Mo C(101)withΔG
+2 H*
+flawless electrocatalytic activity, as the oxygen species in −0.13eVinacid.
+7320 https://doi.org/10.1021/acsomega.3c07911
+ACSOmega2024,9,7310−7335
+
+ACSOmega http://pubs.acs.org/journal/acsodf Review
+Figure7.(a)SchematicIllustrationoftheformationprocessofNCMP.(b)HERpolarizationcurvesofNCMP-x(x=1,2,3,and4)andCoMoPin1
+MKOH;inset:partialenlargement of(b).(c)CorrespondingTafelplots.(d)Nyquistplots ofNCMP-x(x=1, 2,3, and4)andCoMoP.(e)
+CorrespondingCdlofCoMoPandNCMP-x(x=1,2,3,and4)at0.11Vvsreversiblehydrogenelectrode(RHE).(f)PolarizationcurvesofNCMP-2
+beforeandafter10htest.(g)Long-termstabilityofNCMP-2ataconstantoverpotentialfor10hin1MKOH.Datatakenfromref123.
+The Mott−Schottky phenomenon between a metal with a intermittentoperationremainsacriticalconcernsincecarbon-
+higher work function and an n-type semiconductor with a based materials are naturally prone to corrosion, even under
+greater Fermi level will make electron transmission from the mild oxidative circumstances. As a result, it is proposed that
+semiconductortothemetaleasier.Asaconsequence,designing future study in this field concentrates on strengthening the
+optimumH*adsorptionactivesitesusingΔG isapossibility. stability under anodic polarization that can occur after the
+H*
+Jietal.118reportedthatcarbonizationwasusedtocreateMoC electrolyzeristurnedoff.119
+nanoparticles embedded in N, P-codoped carbon from 4.2.2. Transition Metal Phosphides. Transition metal
+polyoxometalates and polypyrrole nanocomposites. Based on phosphides (TMPs), due to their inherent activity and high
+anincreaseincarrierdensityandanincreaseinelectrontransfer stability in both acidic and alkaline environments, have
+rateinMoCafterreducingtheworkfunctionduetotheMott− presented themselves as potential candidates for HER electro-
+Schottky effect with n-type domains in N, P-codoped carbon, catalysis.120 In TMPs’ structure, the P atom plays an essential
+synthesizedelectrocatalystscanleadtoacurrentdensityof10 roleinelectrocatalyticactivityduetoitsexcellentconductivity
+mA cm−2 at 175 mV with a Tafel slope of 62 mV dec−1. In and unique electronic structure. One of the reasons for the
+addition,theTOFvalueat150mVis1.49s−1,asisthelong-term superiority of metal phosphides is that the activity of these
+stabilityofH generation.Metalcarbidesareapromisingchoice compounds is not limited to the crystal edge sites. However,
+2
+for HER catalysts in alkaline conditions due to their low cost, HERcanalsooccurinbulkmaterials.IntheTMPs,Ni-andCo-
+high frequency, and the ability of obtaining alkaline activity based phosphides are among thelucky members of this group
+approaching that of Pt. Regardless of its distinguishing for HER. Computational studies and empirical evidence have
+characteristics, the durability of this class of catalysts during always suggested that NiPx alloys are potential candidates for
+7321 https://doi.org/10.1021/acsomega.3c07911
+ACSOmega2024,9,7310−7335
+
+ACSOmega http://pubs.acs.org/journal/acsodf Review
+Figure8.XPSdataoftheMo3dregionfor(a)pristineandH-annealedverticalMoS nanosheetsfor(b)5,(c)10,(d)15,(e)20,(f)25,(g)30and
+2 2
+(h)35min,respectively.(i)EISofpristine,H-annealed,andresulfurizedverticalMoS nanosheets.Allofthespectrawerecollectedbyscanningfrom
+2 2
+0.1to106Hzwithanoverpotentialof0.3V.(g)CathodicpolarizationcurvesoftheH-annealedMoS for20minbeforeandafter5000,7000,and
+2 2
+10000cycles,respectively.Inset:time-dependentcurrentdensityoftheH-annealedMoS for20minunderastaticoverpotentialof400mVfor8h.
+2 2
+(k−n)SEMimagesofH-annealedverticalMoS nanosheetsfor5,10,and35min,respectively;scalebar:1μm.(d)High-magnificationSEMimageof
+2 2
+H-annealedverticalMoS nanosheetsfor20min,showingroughedgesinducedbyH annealing;scalebar:200nm.Datatakenfromref129.
+2 2 2
+HERelectrocatalysis.121Zhangetal.122discoveredamultiphase doseis0.02mM,itshowsthemostprominentoverpotentialsof
+nickel phosphide electrocatalyst composed of porous nickel 46mVat10mAcm−2.Itshouldbenotedthatthephosphidesof
+powder as a matrix with manganese doped into porous nickel thetransitionmetalsarereactiveduetothenegativelycharged
+powder containing phosphorus powder. After a high-temper- P-sites.Asaresultofthisreactivity,apassivelayercanquickly
+ature phosphating operation, a multiphase nickel phosphide form on the electrocatalyst surface, which can completely
+electrocatalyst(Ni P,Ni P,Ni P )(Mn−NiP)wasfabricated disrupt the electrocatalytic reaction. Studies have shown that
+3 2 12 5
+with a bimetallic compound. Transition metal phosphides are even shallow doses of NiP can effectively improve the HER
+2
+thought to be affordable and excellent HER catalysts. The performance(Figure7).
+activity of the doped catalyst with the right quantity of 4.2.3. Transition Metal Chalcogenides (Sulfides and
+manganese has risen due to the regulatory influence of doped Selenides). Transition metal chalcogenides,relying on proper-
+manganese on the electronic structure of nickel and the ties such as being inexpensive and ease of preparation, are
+electronic contact among nickel and phosphorus. The evolu- promising candidates to replace noble metals for HER.
+tionaryactivityof3Mn−NiPhydrogeninthewholepHrange According to the existing studies, metal selenides show higher
+showed outstanding results. The overpotentials required to catalyticactivitythanothermembersofthechalcogenides.48,124
+produceacurrentdensityof10mAcm−2of3Mn−NiPwere164 The structures of metal sulfides are more straightforward than
+and77mVatacidicandalkalinesolutions,respectively.Wanget those of metal electrocatalysts, and their structure must be
+al.123 demonstrated a one-step hydrothermal method for carefully adjusted for efficient HER operation.125 Contrary to
+synthesizing NiP with CoMoP nanosheets (NCMP) under popular belief, metal sulfides are not vulnerable to the sulfur
+2
+low-temperature phosphidation conditions. In the synthesized position. It is worth noting that these electrocatalysts can
+electrocatalyst, the synergistic effect of two different compo- performwellinlowHcoatings,buttheirelectricalconductivity
+nents, NiP and CoMoP, is induced. In this study, to find the decreasessignificantlywithincreasingHcoating.126
+2
+superiorcatalyst,theeffectofnickelcontentontheperformance The shortage of highly efficient and inexpensive catalysts
+ofthecatalystisalsostudied,anditisfoundthatwhenthenickel severely hinders the spread of HER on a large scale. Among
+7322 https://doi.org/10.1021/acsomega.3c07911
+ACSOmega2024,9,7310−7335
+
+ACSOmega http://pubs.acs.org/journal/acsodf Review
+Figure9.(a)HERpolarizationcurvesforCo/Se−MoS−NFwithdifferentCo-dopingcontentsincomparisonwithCo−MoS−NFand40%Pt/C.
+2 2
+Allsamplesaredrop-castedonglassycarbonelectrodeformeasurements.TheTafelplots(b)andtheelectrochemicalimpedancespectroscopy(EIS)
+Nyquistplots(c)ofCo/Se−MoS−NFsamplecomparedwithCo−MoS−NF,Se−MoS−NF,MoS−NF,andcommercial40%Pt/C.(d)HER
+2 2 2 2
+polarizationcurvesforCo/Se−MoS−NFunderlargecurrentdensitiesincomparisonwith40%Pt/Candcarbonpaper.Co/Se−MoS−NFand40%
+2 2
+Pt/Caredrop-castedoncarbonpaperformeasurements.(e)Chronopotentiometricmeasurementsoflong-termstabilityforCo/Se−MoS−NFand
+2
+40% Pt/C at 1000 mA cm−2. The vertical dotted lines in (e) mark the time span (every 72 h) of replacing the electrolyte in the 360 h
+chronoamperometrytest.AlltheHERmeasurementswereconductedina0.5MHSO electrolyteat25°C.Datatakenfromref131.
+2 4
+metalsulfides,molybdenumsulfideisoneofthemostcommon the HER activity of vertical MoS nanosheets remarkably.
+2
+candidates for HER electrocatalysts due to its cheapness and AccordingtoFigure8,XPSresultsshowaminorS:Moratioafter
+flexibility in design.127 It can be considered a pioneer in this H annealing,indicatingincreasedS-vacancy.Inthemeanwhile,
+2
+group of electrocatalysts. In the MoS electrocatalyst, only the EIS measurements demonstrate that H annealing speeds up
+2 2
+edges and voids S are the active catalytic sites for HER. loadtransfer.SEMimagesshowthatH annealingroughensthe
+2
+Therefore, to increase the electrocatalytic activity, it is very edgesofMoS andcreatesmoreedgesites,whichimprovesthe
+2
+importanttoincreaseandimprovethestructureoftheedgesites electrocatalystbehaviorforHER.
+and the S-vacancy.128 He et al.129 demonstrated HER activity Inanidealstructure,MoS isa2DnetworkwithsixSatoms
+2
+enhancement by combining vertical nanosheets with H aroundeachMoatominanoctagonalconfiguration.MoS alone
+2 2
+annealing in a modified MoS . Due to a greater number of suffers from low catalytic performance for HER.1,130 Zheng et
+2
+edges,horizontalMoS nanosheetswiththisstructuralalteration al.131 proposed a triple-layer MoS nanofoam structure that
+2 2
+demonstrated stronger HER activity than pure vertical MoS encloses the surface selenium and cobalt in the inner layer,
+2
+nanosheets. In justifying the increase in electrocatalytic whose HER activity is higher than all reported heteroatom-
+properties,itshouldbesaidthatH annealingfurtherenhanced doped MoS . As shown in Figure 9, the Co/Se−MoS −NF-
+2 2 2
+7323 https://doi.org/10.1021/acsomega.3c07911
+ACSOmega2024,9,7310−7335
+
+ACSOmega http://pubs.acs.org/journal/acsodf Review
+Figure10.(a)SchematicdiagramoftheformationofMoSe−NiSe hybridnanoelectrocatalysts.Polarizationcurves(b)andcorrespondingTafel
+2 3 4
+plots(c)ofMoSe,MoNi,MoNi,MoNi,NiSe,andPt/C.(d)Nyquistplotsatanoverpotentialof250mV.(e)PolarizationcurvesofaMoNi
+2 5 1 2 1 1 1 3 4 2 1
+samplebeforeandafter1000cycles.Datatakenfromref139.
+synthesizedsampleexhibitsamuchloweroverpotentialof382 catalystsforindustrialhydrogenproductionapplications.Inthis
+mVthanthatof671mVovercommercialPt/Ccatalystatahigh study,Figure9ashowstheHERpolarizationcurvesoftheSe-
+current density of 1000 mA cm−2. Also, the high activity can doped MoS nanofoam (Se−MoS −NF) with different Se-
+2 2
+remain stable with the long-term stability of more than 360 h dopingcontentsandCo/Se-codopedMoS nanofoam(Co/Se−
+2
+withoutdestruction.Accordingtothisstudy,structureengineer- MoS −NF) with different Co-doping contents. The onset
+2
+ing of MoS via coconfining multielements proposal is a overpotentialsfordeliveringcurrentdensitiesof−10and−100
+2
+promisingandfeasiblewayofdevelopinghigh-performanceand mA cm−2 in 0.5 M H SO electrolyte at 25 °C are plotted for
+2 4
+low-cost MoS electrocatalysts for large-scale HER. DFT comparison. The Se−MoS −NF sample with 9.1% Se-doping
+2 2
+calculations show that the Co atoms enclosed in the inner contentexhibitsthelowestonsetoverpotentialsforbothcurrent
+layerofthestructureexcitetheadjacentSatoms.Incontrast,the densities,indicatingthehighestHERactivity.ThisisbecauseSe
+Seatomsenclosethesurfaceofthestructure,whichallowsthe doping introduces more edge sites in the MoS nanoflakes,
+2
+creationofcomprehensiveactivesitesinsidetheplateandedge which are more active for HER. As the Se-doping content
+with optimal hydrogen adsorption activity. The strategy in increases from 9.1% to 14.6%, the HER activity gradually
+questionprovidesaviablepathwayfordevelopingMoS -based decreases.ThisisbecauseexcessiveSedopingmayleadtothe
+2
+7324 https://doi.org/10.1021/acsomega.3c07911
+ACSOmega2024,9,7310−7335
+
+ACSOmega http://pubs.acs.org/journal/acsodf Review
+Figure11.(a)SchematicillustrationofthefabricationprocessofMoN/CeO@nickelfoamandthecatalyticprocess.(b)Currentvsoverpotential
+2 2
+plotsforMoN/CeO@NF-0.05,CeO@NF,MoN@NF,andPt/C.(c)TafelplotsforMoN/CeO@NF-0.05,CeO@NF,MoN@NF,andPt/C.
+2 2 2 2 2 2 2 2
+(d)NyquistplotsforMoN/CeO@NF-n(n=0.02,0.04,0.05,and0.06),CeO@NF,andMoN@NF.Inset,enlargedviewofNyquistplotsfor
+2 2 2 2
+MoN/CeO@NF-n(n=0.02,0.04,0.05,and0.06).(e)Currentdensityasafunctionofscanrateofvariouselectrodes,wherethesloperepresents
+2 2
+Cdl.Datatakenfromref144.
+formation of overcoordinated S atoms with weakened electron transfer in the HER reaction. A lower Tafel slope
+adsorption of H* at the edge sites. The Co/Se−MoS −NF indicatesafasterrateofelectrontransfer,whichmeansamore
+2
+samplewith10.4%Co-dopingcontentexhibitsthelowestonset efficientcatalyst.TheCo(10.4)/Se−MoS −NFsampleexhibits
+2
+overpotentials for all three current densities, indicating the the lowest Tafel slope of 67 mV dec−1, which is significantly
+highestHERactivity.ThisisbecauseCodopingpromotesthe lower than the Tafel slopes of the Se−MoS −NF (75 mV
+2
+formation of more edge sites and also enhances the electronic dec−1), Co(10.4)−MoS −NF (77 mV dec-1), and undoped
+2
+conductivityofthecatalyst.Figure9bshowstheTafelslopesof MoS −NF (83 mV dec−1) samples. This clearly demonstrates
+2
+theHERpolarizationcurvesoftheSe−MoS −NFandCo/Se− thesuperiorHERkineticsoftheCo/Se-codopedMoS catalyst.
+2 2
+MoS −NFsamples.TheTafelslopeisameasureoftherateof Also,Figure9cshowstheresultsofelectrochemicalimpedance
+2
+7325 https://doi.org/10.1021/acsomega.3c07911
+ACSOmega2024,9,7310−7335
+
+ACSOmega http://pubs.acs.org/journal/acsodf Review
+spectroscopy (EIS) measurements of the Se−MoS −NF and medium,metalselenideshavebeensuccessfullytestedinacidic
+2
+Co/Se−MoS −NF samples. EIS measurements are used to media.
+2
+measurethechargetransferresistance(R )ofacatalyst,whichis 4.2.4. Transition Metal Nitrides. Transition metal nitrides
+ct
+ameasureoftheintrinsicresistancetoelectrontransfer.Alower (TMNs), known as transition alloys, have recently been
+R valueindicatesamoreefficientcatalyst.TheCo(10.4)/Se− proposed as efficient HER electrocatalysts as alternatives to
+ct
+MoS −NFsampleexhibitsthelowestR valueofallthesamples, noble metal electrocatalysts due to their exceptional electrical
+2 ct
+whichconfirmsthatitisthemostefficientHERcatalyst. conductivity, corrosion resistance, mechanical robustness, and
+Fractal-shaped MoS has been shown to exhibit enhanced highelectrochemicalstability.140Metalnitridesareparticularly
+2
+hydrogenevolutionreaction(HER)performancecomparedto appealing for future investigation due to their exceptional
+itsplanarcounterpart.Thisisattributedtotheincreasednumber properties.Directnitridationisthetraditionalwayofproducing
+of edge sites, which are the active sites for HER. The fractal metalnitrides.HeatinganNF(nickelfoam)inanNH atm,for
+3
+morphologyofMoS canbeinducedbynonequilibriumgrowth example, can provide an active Ni N/Ni foam electrocatalyst
+2 3
+conditions, such as rapid heating rates and high Mo precursor withexceptionalqualities(overpotential121mVat10mAcm−2
+concentrations.TheenhancedHERactivityoffractalMoS can andevenstableinanalkalineenvironment,1MKOH,32h).141
+2
+beattributedtotheincreasednumberofedgesites.Edgesites TMNs containing Mo or Ni can achieve Pt-like activity in
+are more reactive than basal plane sites due to their higher alkaline environments.142,143 Wang et al.144 published a self-
+exposuretotheelectrolyte.Thehigherreactivityofedgesitesis supportingelectrocatalystpreparingthegrowthofaMO Nlayer
+2
+duetotheweakerbondingbetweenedgeatomsandtheMoS onaCeO layerdepositedonNF.AccordingtoFigure11a,the
+2 2
+lattice. Thisweaker bonding allows edgeatoms to more easily synthesized MO N/CeO @NF showed an attractive catalytic
+2 2
+dissociate hydrogen from water molecules. The fractal activityfortheHERat1.0MKOHevenmoreefficientlythan
+morphology can be induced by nonequilibrium growth thePt/Celectrodeandrelativelylowoverpotentialof26mVfor
+conditions, and the enhanced activity can be attributed to the a current density of 10 mA cm−2. The stability of this
+increased number of edge sites and the higher surface area.132 electrocatalyst for a long time (24 h) was also evaluated. The
+Like metal sulfides, the metal selenides have attracted much results offer great hope for building an inexpensive and stable
+attentioninthepastdecade.Becausetheintendedreactiononly TMNselectrocatalystforawater-splittingreaction.
+occursonthecrystal’sedges,selenides’electrocatalystactivityis Thisstudydiscussesthecurrentdensityversusoverpotential
+greatly determined by the amount of active sites on its plots (Figure 11a) obtained from linear sweep voltammetry
+surface.133 Therefore, catalyst surface optimization seems to (LSV) measurements. It compares the HER activities of
+be critical for creating active and enriched edge locations. In different electrodes, including Pt/C, CeO @NF, Mo N@NF,
+2 2
+general,metalselenides,likemetalsulfides,followasimilarroute andMo N/CeO @NF-n.Thetexthighlightstheoverpotentials
+2 2
+duetotheirpropensitytofunctionasanactivecatalystforHER and current densities at 10 mA/cm2 for each electrode,
+inanalkalineenvironment.134Asidefromsurfacemodification, demonstrating the performance of Mo N/CeO @NF-0.05 as
+2 2
+combining a metal selenide with another group(s) (such as theelectrodewiththesmallestoverpotentialforHERinalkaline
+phosphides or sulfides) can have a significant impact on the solution,comparabletoPt.AuthorsprovidesTafelplots(Figure
+electrocatalyst’s efficiency.135 The strategy of this method is 11b) to analyze the kinetics of the HER for the different
+based on increasing the number of active sites in the electrodes. The Tafel slopes obtained from these plots are
+electrocatalyst, which leads to increased electrode activity. compared, with Mo N/CeO @NF-0.05 and Pt/C showing
+2 2
+MoSe isconsideredapromisingelectrocatalystfortheHERto smaller slopes than CeO @NF and Mo N@NF. This
+2 2 2
+producegreenenergyduetoitsavailabilityandlowpreparation comparisonsuggeststhatMo N/CeO @NF-0.05isasefficient
+2 2
+cost.136 Applicable structural changes in the building of this as the Pt electrode for HER in alkaline solution. Additionally,
+MoSe can significantly improve its efficiency.137 In the past this report includes Nyquist plots (Figure 11c) obtained from
+2
+decade,theuseof2Dstructuresandhybridnanoelectrocatalysts electrochemicalimpedancespectroscopy(EIS)measurements.
+for HER has emerged as efficient and cost-effective electro- TheanalysisoftheNyquistplotsindicatesthatMo N/CeO @
+2 2
+catalysts. A MoSe hybrid with other transition metal NF-0.05 exhibits the fastest electron transfer in the HER
+2
+dichalcogenidestoformanoptimalnanostructureisaneffective process, as reflected by the smallest semicircle radius. This
+way to increase HER electrocatalytic activity to replace a Pt observation aligns with the electrode’s lowest Tafel slope and
+electrocatalyst.138Wuetal.139adoptedaseed-inducedsolution suggeststhatMo N/CeO @NF-0.05hasthebestHERactivity
+2 2
+techniquetocreateMoSe −Ni Se hybridnanoelectrocatalysts amongthedifferentMo N/CeO @NF-nelectrodes.
+2 3 4 2 2
+withaflowerlikeshape(Figure10.Inthestructure,theNi Se ThefabricationofNi-basedelectrodematerialshasattracted
+3 4
+componentinstinctivelytendstonucleateinsteadofindepend- muchattentionduetotheirsuitableactivityandgoodstabilityto
+entnucleationtoformindividualnanocrystals,growingonthe replaceexpensivePtforproducingmolecularhydrogenthrough
+surfaces of very thin MoSe nanoparticles to form an efficient theelectrolysisofwater.Supportingelementssuchascarbonare
+2
+hybrid nanostructure. The HER catalytic activities of MoSe − commonly utilized in this context to boost electrical
+2
+Ni Se hybridnanoelectrocatalystswithvariedMo:Niratiosare conductivity and catalytic activity. Balaji et al.145 observed a
+3 4
+compared. The comparison of MoSe −Ni Se hybrid nano- particularpathwayforfabricatingcarbon-backedNi N/Niasan
+2 3 4 3
+electrocatalysts with varied Mo:Ni ratios reveals that Mo:Ni efficient HER electrocatalyst in both 0.5 M H SO and 1 M
+2 4
+ratios impact HER activities. The MoSe −Ni Se hybrid has a KOH environments. By providing intrinsically active sites,
+2 3 4
+Mo:Ni molar ratio of 2:1 and increased HER characteristics, carbonsupportcaneffectivelyenhancetheelectronicstructure
+withaTafelslopeof57mVdec−1andanoverpotentialof203 ofNi N/Ni.Superiorelectricalconductivityandchargetransfer
+3
+mVat10mAcm−2.Itshouldbenotedthatonlythetriangular rate are demonstrated by the optimized Ni N/Ni@C electro-
+3
+prismphaseedgelocationshaveHERelectrocatalyticproperties catalyst.TheTMNscompositealsoshowedimprovedelectro-
+and the base plate, which usually does not have defective/ catalyticbehaviorwithalowoverpotentialof163and172mVat
+unsaturated locations, is inactive. In addition to the alkaline 10 mA cm−2 and durability over 1000 cycles in acidic and
+7326 https://doi.org/10.1021/acsomega.3c07911
+ACSOmega2024,9,7310−7335
+
+ACSOmega http://pubs.acs.org/journal/acsodf Review
+Figure12.(a)Heteroatom-dopingprocessongraphiticcarbon.(b)Nitrogen-dopedverticalgrapheneasametal-freecatalystforHERexhibitsagood
+activityandanexcellentstability,whichcanbeascribedtotheoptimizationofΔG byNdopingandtherobuststructureofVG.Datatakenfromref
+(H)
+159.
+alkalinesolutionsforHERapplication.InTMNs,thedensityof nanoparticlesandthebondingoffunctionalsurfacespecies,are
+statesinthed-bandofthecorrespondingmetalisregulatedby useful in increasing the activity of the catalysts.150 However,
+thenitrogenatom.143,146Therefore,thereisaminordeficiency MOF-basedcatalystsaremoreattractiveanddiversethanother
+in the occupation of the d-band. In this respect, they can typesofporouscatalystsduetothevariouscompoundsofmetal
+competewithTMCs.AnexcitingfeatureofTMNsisthatthey centersandorganicligands.Thesecompounds,likemostother
+canbeusedinalkalineenvironmentswithhighstability. porous catalysts, can be utilized in “pristine”, “precursor”, or
+Kamran et al. reported the development of a novel “derived” forms for the dispersion or separation of active
+nanoheterostructured catalyst for the HER in alkaline electro- catalytic species added to porous networks. According to
+lytes.Thecatalyst,Ni(OH) @Ni−N/Ni−C/NF, iscomposed research studies, the combination of nanoparticles and MOF
+2
+ofNi(OH) nanoparticlesembeddedinanouterlayerofNi−N/ compoundscanproduceamazingsynergisticeffectsthatleadto
+2
+Ni−C.ThenanoheterointerfacingbetweenNi(OH) andNi− muchbetterperformancefortheHER.151
+2
+N/Ni−C phases is shown to enhance the HER activity As mentioned, electrocatalytic HER is usually achieved by
+significantly compared to monophasic Ni(OH) . The authors establishing an electrical current due to a potential difference
+2
+attributetheenhancedHERactivitytotheinterphasicsynergy through an aqueous electrolyte to produce O at the anode
+2
+between Ni(OH) and Ni−N/Ni−C phases. Ni(OH) is a through the OER process and produce H at the cathode side
+2 2 2
+strong water-splitting promoter, but it has a strong affinity for throughtheHERprocess.Thehalf-reactionatthecathodeside
+hydrogen,whichhindersthehydrogenevolutionprocess.Ni− isthefocusofmostelectrocatalyticHERresearch.However,in
+N/Ni−C phases, on the other hand, have labile electronic the case of water splitting, the performance of MOF-based
+propertiesandcanfacilitatethedissociationofhydrogenfrom catalysts at HER and OER must be compared.152 MOFs are
+adsorbedhydrogenspecies.Thenanoheterointerfacingbetween frequently employed as supports or precursors; MOF-based
+Ni(OH) and Ni−N/Ni−C phases allows for the efficient derivatives or composite materials may retain the original
+2
+transferofelectronsfromNi(OH) tohydrogenspeciesonNi− MOF’s porous structure, but the pore volume and specific
+2
+N/Ni−Cphases,leadingtoenhancedHERactivity.Theauthors surfaceareaaredecreased.ReducedporosityinMOFderivatives
+demonstrated the superior performance of Ni(OH) @Ni−N/ is caused by the collapse of the crystalline porous structure
+2
+Ni−C/NFbycomparingitsHERactivitytothatofmonophasic caused by breaking coordination bonds and eliminating
+Ni(OH) and other benchmark catalysts. Ni(OH) @Ni−N/ noncarbon components at high temperatures.153 When MOF
+2 2
+Ni−C/NF exhibited the lowest overpotentials for delivering is utilized as a support, it usually results in the colonization of
+current densities of −10 and −100 mA cm−2 in 1 M KOH pores by guest particles.154 The reduction in porosity in this
+compared to monophasic Ni(OH) and other catalysts. The exampleisproportionaltothesizeanddispersionoftheguest
+2
+Tafel slope of Ni(OH)2@Ni−N/Ni−C/NF was also lower particles.155
+thanthatofmonophasicNi(OH) ,indicatingafasterreaction However,theperformanceofMOFderivativesisnotalways
+2
+rate.ThisworkfurtherdemonstratedthestabilityofNi(OH) @ compromised by lower porosity. It is important to note that
+2
+Ni−N/Ni−C/NF in alkaline electrolytes by subjecting it to MOF heat treatment is frequently used to produce MOF
+cyclic voltammetry (CV) and chronopotentiometry (CP). derivatives with particular chemical makeups and structures,
+Ni(OH) @Ni−N/Ni−C/NF exhibited good stability during such as metaloxides, metalcarbides, metalnitrides, and metal
+2
+CVandCP,withminimaldegradationovertime.147 sulfides. Yan et al.156 synthesized nickel−cobalt bimetallic
+4.3. MOF-Based Electrocatalysts. The use of metal− phosphide nanotubes from MOF-74−Co Ni bimetallic for
+x y
+organicframeworks(MOFs)inelectrocatalytic,photocatalytic, electrocatalytic water distribution. The specific surface area of
+and chemocatalytic processes makes them a strong choice for pristineMOFreducedfrom1100to55.6m2g−1afteroxidation
+extremely effective HER.148 Research on MOF-based HER andphosphorylation.Encapsulationofguestmolecules,onthe
+catalystsinvolvesawiderangeofporousmaterialsincludingas other hand, tries to add more catalytically active sites into the
+zeolite, polymer, carbon, and composite materials.149 These original MOF or to increase the synergy between guest
+species have evolved porosity with high specific surface area, moleculesandhostmaterials.In 2017,Haoetal.157 published
+flexible crystalline porous frameworks, and big pore volume, theintroductionofMoS quantumdotsandgrapheneintoUiO-
+2
+whichistheprimarypropertyoftheirapplicabilityintheHER 66−NH (Zr-containing MOF) for HER. The specific surface
+2
+process. Aside from the intrinsic features indicated, external area of the original MOF is 712.3 m2 g−1, which decreases to
+changes to the main MOFs, such as the loading of active about457.24m2g−1afterloadingMoS (5.0%byweight)and
+2
+7327 https://doi.org/10.1021/acsomega.3c07911
+ACSOmega2024,9,7310−7335
+
+ACSOmega http://pubs.acs.org/journal/acsodf Review
+graphene. Zhen et al.158 improved the Ni nanoparticle-loaded (g) Thesubstrate surfaceplaysan important role, especially
+MOF-5. After synthesis, due to the much-dispersed nano- forelectroactivemonolayersorultrathinfilms.Thiseffect
+particles,thecorrespondingspecificsurfaceareareducedslightly is seen on both the smooth surface and the particle
+(from 2973 to 2961 m2 g−1). These MOF-based materials coating.
+mentioned above perform better in HER catalysis than their
+(H) Planar deformation and strain engineering can assist
+primaryprecursors(Figure12).
+activateputativeelectrocatalyticsitesonbasesurfaces.
+5. SUMMARYANDPERSPECTIVES (i) MOF-based materials demonstrate significant activity in
+theHERduetotheirhighporosity,controlledporosity,
+Hydrogenisafavoredalternativetofossilfuelssinceithasthe
+and suitable structure. These materials are utilized as
+highestgravitationalenergydensityandproducesnopollution,
+electrocatalysts for HER for several reasons. First, they
+making it a clean and sustainable energy source. In the
+offer an opportunity to enhance and replace expensive
+meanwhile, establishing water-dividing cells as an energy-
+noblemetal-basedcatalystswithmoreaffordablemetals.
+efficient conversion mechanism is critical to hydrogen
+Second,theyaidinreducingthenecessaryoverpotential
+generation. However, due to the sluggish reaction kinetics of
+forHER,therebyimprovingtheoverallefficiency.Lastly,
+the OER and HER for the high overpotential, the energy
+MOF-based materials contribute to improved reaction
+efficiency of water electrolysis is low, and its practical use is
+kinetics,enablingmoreefficientHERprocesses.Overall,
+hampered. HER is most likely the simplest and most direct
+theuniquecharacteristicsofMOFsmakethempromising
+methodofproducinghigh-qualityandselectivehydrogen.Pthas
+candidatesforHERelectrocatalysis.
+longbeenasuitableHERelectrocatalyst,butitslimitedsupplies
+and high cost make developing HER impracticable. Further- Despitesignificantadvancesinunderstandingelectrocatalytic
+more, since Pt must be utilized in combination with a carbon processesanddesigningsuitableelectrodesfortheHER,there
+catalystsupport,themechanicalstabilityoftheelectrocatalystis areseveralchallengestothecost-effective productionoflarge-
+a feature that might raise operating expenses. Pt recycling is scale hydrogen by split water electrolysis. To ensure the
+anotherissuethatplaguesPt-basedsystems.Asaresult,ashiftin successfulprogressoftheresearch,itisnecessarytointegratethe
+the approach of classic electrocatalysts appears to be testprotocolinordertobeabletocomparedifferentmaterials.
+unavoidable. However, enhancing present Pt electrocatalysts In addition, when designing novel cathodic catalysts in the
+asasolutioncandrasticallyloweroperatingexpenses.Practical researchphase,theeaseofpreparationandpotentialscalability
+methodsforHERelectrocatalystshaverecentlybeenestablished for industrial applications should be considered. However,
+using non-noble metals and related compounds. To assist the recent interest in a different approach to energy sources, the
+practical use of water distribution in enterprises, the design of importance of environmental protection in the future, and
+effective catalysts is critical inOER andHER to limit possible economic issues are expected to lead to new advances in the
+overcapacity,booststability,andimproveefficiency.Themost designofactive,sustainable,andlow-costHERelectrocatalysts
+common electrocatalytic activity parameters, such as over- for mass commercialization of water-based hydrogen produc-
+potential at constant current density (10 mA cm−2) and Tafel tion.
+slope,alongwithatleastoneoftheclassicalstabilitytests,were ■
+selected as the main comparison parameters. The main AUTHORINFORMATION
+parameters affecting the resulting catalytic activity can be CorrespondingAuthors
+summarizedasfollows: FaranakManteghi−ResearchLaboratoryofInorganic
+(a) The incorporation of transition metals into the electro- ChemistryandEnvironment,DepartmentofChemistry,Iran
+catalyst design can be advantageous. Although these UniversityofScienceandTechnology,16846-13114Tehran,
+beneficial effects are tunable, optimal synergistic effects Iran; orcid.org/0000-0002-2590-5063;
+betweenvariousmetalsboostelectrocatalyticcapabilities. Email:f_manteghi@iust.ac.ir
+ZariTehrani−TheFutureManufacturingResearchInstitute,
+(b) The catalyst core/shell design is a realistic and practical
+FacultyofScienceandEngineering,SwanseaUniversity,SA1
+strategy to enhance the active sites for HER electro-
+8ENSwansea,UnitedKingdom; orcid.org/0000-0002-
+catalysis while making the material feasible for develop-
+5069-7921;Email:z.tehrani@swansea.ac.uk
+ment. It is particularly effective and successful in
+increasing active sites around the borders of two- Author
+dimensional layered structures. However, although the AmirKazemi−ResearchLaboratoryofInorganicChemistry
+core/shell design enhances catalytic performance, the
+andEnvironment,DepartmentofChemistry,IranUniversityof
+overall structure may be inadequate for industrial
+ScienceandTechnology,16846-13114Tehran,Iran
+operation.
+Completecontactinformationisavailableat:
+(c) A high-level carbon catalyst is required for support. To
+https://pubs.acs.org/10.1021/acsomega.3c07911
+obtain adequate performance, even with Pt, a sufficient
+carboncatalystsupportmustbeutilized(andnotjustlow
+Notes
+overpotential). However, the physical and chemical
+Theauthorsdeclarenocompetingfinancialinterest.
+structure of carbon is undeniably important in electro-
+■
+catalyticefficacy.
+ACKNOWLEDGMENTS
+(d) Transition-based chemicals such as sulfides, selenides,
+Theauthorsgratefullyacknowledgethefinancialsupportofthe
+phosphides,andcarbidesarethemostpromisingoptions.
+Research Council of the Iran University of Science and
+(e) The employment of transition metals in electrocatalytic Technology, Swansea University, and the Royal Academy of
+architecture,similartodoping,canbeadvantageous. Engineering.
+7328 https://doi.org/10.1021/acsomega.3c07911
+ACSOmega2024,9,7310−7335
+
+ACSOmega http://pubs.acs.org/journal/acsodf Review
+■
+REFERENCES (17)Song,D.;Sun,J.;Sun,L.;Zhai,S.;Ho,G.W.;Wu,H.;Deng,W.
+Q. Acidic media regulated hierarchical cobalt compounds with
+(1)Shi,Y.;Ma,Z.-R.;Xiao,Y.-Y.;Yin,Y.-C.;Huang,W.-M.;Huang,
+phosphorous doping as water splitting electrocatalysts. Adv. Energy
+Z.-C.;Zheng,Y.-Z.;Mu,F.-Y.;Huang,R.;Shi,G.-Y.;etal.Electronic
+Mater.2021,11(22),2100358.
+metal-supportinteractionmodulatessingle-atomplatinumcatalysisfor
+(18)Voitic,G.;Hacker,V.Recentadvancementsinchemicallooping
+hydrogenevolutionreaction.Nat.Commun.2021,12(1),1−11.
+watersplittingfortheproductionofhydrogen.RscAdvances2016,6
+(2)Dou,Y.;Wang,A.;Zhao,L.;Yang,X.;Wang,Q.;Sudi,M.S.;Zhu,
+(100),98267−98296.
+W.;Shang,D.Boostedhydrogenevolutionreactionforanitrogen-rich
+(19)Hermesmann,M.;Müller,T.Green,Turquoise,Blue,orGrey?
+azo-bridgedmetallatedporphyrinnetwork.J.ColloidInterfaceSci.2023,
+Environmentally friendly Hydrogen Production in Transforming
+650,943−950.
+Energy Systems. Prog. Energy Combust. Sci. 2022, 90, 100996.
+(3)Vijayapradeep,S.;Logeshwaran,N.;Ramakrishnan,S.;Kim,A.R.;
+Haverkort, J.; Rajaei, H. Voltage losses in zero-gap alkaline water
+Sampath, P.; Kim, D. H.; Yoo, D. J. Novel Pt-carbon core-shell
+electrolysis.J.PowerSources2021,497,229864.
+decorated hierarchical CoMo2S4 as efficient electrocatalysts for
+(20)Li,Y.;Shi,X.;Phoumin,H.Astrategicroadmapforlarge-scale
+alkaline/seawater hydrogen evolution reaction. Chem. Eng. J. 2023,
+green hydrogen demonstration and commercialisation in China: A
+473,145348.
+reviewandsurveyanalysis.Int.J.HydrogenEnergy2022,47,24592−
+(4) Ramachandran, E.; Krishnaiah, R.;Venkatesan, E. P.; Shaik, S.;
+24609.
+Saleel,C.A.;Hussain,F.InvestigationintotheIdealConcoctionfor
+(21) Miller, H. A.; Bouzek, K.; Hnat, J.; Loos, S.; Bernäcker, C. I.;
+PerformanceandEmissionsEnhancementofJatrophaBiodiesel-Diesel
+Weißgärber, T.; Röntzsch, L.; Meier-Haack, J.Green hydrogen from
+withCuONanoparticlesUsingResponseSurfaceMethodology.ACS
+anion exchange membrane water electrolysis: a review of recent
+omega2023,8(42),39067−39079.
+developmentsincriticalmaterialsandoperatingconditions.Sustainable
+(5)Riaz,A.;Qyyum,M.A.;Hussain,A.;Lee,M.Tappingtheenergy
+Energy&Fuels2020,4(5),2114−2133.
+and exergy benefits of channeling liquid air energy system in the
+(22)Zhang,P.;Cheng,H.;Gu,F.;Hong,S.;Dong,H.;Li,C.Progress
+hydrogen liquefaction process. Journal of Energy Storage 2023, 72,
+on iron-series metal-organic frameworks materials towards electro-
+108193.
+catalytichydrogenevolutionreaction.SurfacesandInterfaces2023,42,
+(6)Hoang,A.T.;Pandey,A.;DeOsés,F.J.M.;Chen,W.-H.;Said,Z.;
+Ng, K. H.; Aǧbulut, D. C.; Tarełko, W.; Ölçer, A. I.; Nguyen, X. P. 103368.
+(23)Wang,J.;Gao,Y.;Kong,H.;Kim,J.;Choi,S.;Ciucci,F.;Hao,Y.;
+Technologicalsolutionsforboostinghydrogenroleindecarbonization
+Yang, S.; Shao, Z.; Lim, J. Non-precious-metal catalysts for alkaline
+strategies and net-zero goals of world shipping: Challenges and
+waterelectrolysis:operandocharacterizations,theoreticalcalculations,
+perspectives.RenewableSustainableEnergyRev.2023,188,113790.
+andrecentadvances.Chem.Soc.Rev.2020,49(24),9154−9196.
+(7) Longchamps, R. S.; Yang, X.-G.; Wang, C.-Y. Fundamental
+(24)Dinh,K.N.;Sun,Y.;Pei,Z.;Yuan,Z.;Suwardi,A.;Huang,Q.;
+Insights into Battery Thermal Management and Safety. ACS Energy
+Lett.2022,7(3),1103−1111. Liao,X.;Wang,Z.;Chen,Y.;Yan,Q.Electronicmodulationofnickel
+disulfide toward efficient water electrolysis. Small 2020, 16 (17),
+(8)Li,Y.;Zhou,Q.;Weng,S.;Ding,F.;Qi,X.;Lu,J.;Li,Y.;Zhang,X.;
+1905885.Grigoriev,S.;Fateev,V.;Bessarabov,D.;Millet,P.Current
+Rong, X.; Lu, Y.; et al. Interfacial engineering to achieve an energy
+status,researchtrends,andchallengesinwaterelectrolysisscienceand
+densityofover200Whkg-1insodiumbatteries.Nat.Energy2022,7
+(6),511−519.Kumar,A.;Bui,V.Q.;Lee,J.;Jadhav,A.R.;Hwang,Y.;
+technology.Int.J.HydrogenEnergy2020,45(49),26036−26058.
+(25) Wan, L.; Xu, Z.; Wang, P.; Lin, Y.; Wang, B. H2SO4-doped
+Kim,M.G.;Kawazoe,Y.;Lee,H.Modulatinginterfacialchargedensity
+polybenzimidazole membranes for hydrogen production with acid-
+of NiP2-FeP2 via coupling with metallic Cu for accelerating alkaline
+hydrogenevolution.ACSEnergyLett.2021,6(2),354−363. alkalineamphotericwaterelectrolysis.J.Membr.Sci.2021,618,118642.
+(9)Biggins,F.;Kataria,M.;Roberts,D.;Brown,S.Greenhydrogen Cheikh, J. A.; Zakari, R.; Bhosale, A. C.; Villagra, A.; Leclerc, N.;
+investments: Investigating the option to wait. Energy 2022, 241, Floquet, S.; Ghosh, P. C.; Ranjbari, A.; Cadot, E.; Millet, P.; et al.
+122842.Fei,B.;Chen,Z.;Liu,J.;Xu,H.;Yan,X.;Qing,H.;Chen,M.; Electrocatalyticpropertiesof{Mo3S4}-basedcomplexeswithregard
+Wu,R.Ultrathinningnickelsulfidewithmodulatedelectrondensityfor to the hydrogen evolution reaction and application to PEM water
+efficientwatersplitting.Adv.EnergyMater.2020,10(41),2001963.
+electrolysis.Mater.Adv.2020,1(3),430−440.
+(10) Thirumal, V.; Yuvakkumar, R.; Saravanakumar, B.; Ravi, G.; (26)Huang,W.-H.;Li,X.-M.;Yang,X.-F.;Zhang,H.-B.;Wang,F.;
+Isacfranklin, M.; Shobana, M.; Al-Sehemi, A. G.; Velauthapillai, D. Zhang, J. Highly efficient electrocatalysts for overall water splitting:
+CarbonizationandoptimizationofbiomasswasteforHERapplication. mesoporousCoS/MoS2withhetero-interfaces.Chem.Commun.2021,
+Fuel2022,324,124466. 57(39),4847−4850.Ji,Y.;Liu,J.;Hao,S.;Xiao,Y.;Li,L.;Liu,X.Full
+(11)Fakayode,O.A.;Yusuf,B.A.;Zhou,C.;Xu,Y.;Ji,Q.;Xie,J.;Ma, watersplittingbyananoporousCeO2nanowirearrayunderalkaline
+H. Simplistic two-step fabrication of porous carbon-based biomass- conditions.InorganicChemistryFrontiers2020,7(13),2533−2537.
+derivedelectrocatalystforefficienthydrogenevolutionreaction.Energy (27) Lin, L.; Sherrell, P.; Liu, Y.; Lei, W.; Zhang, S.; Zhang, H.;
+ConversionandManagement2021,227,113628. Wallace, G.G.; Chen, J. Engineered 2Dtransition metal dichalcoge-
+(12)Huner,B.;Demir,N.;Kaya,M.F.HydrogenEvolutionReaction nides�a vision of viable hydrogen evolution reaction catalysis. Adv.
+PerformanceofNi-Co-CoatedGraphene-Based3DPrintedElectrodes. EnergyMater.2020,10(16),1903870.
+ACSomega2023,8(6),5958−5974. (28)Wang,X.;Zheng,Y.;Sheng,W.;Xu,Z.J.;Jaroniec,M.;Qiao,S.-
+(13) McCrum,I. T.; Koper, M. The role of adsorbed hydroxide in Z.Strategiesfordesignofelectrocatalystsforhydrogenevolutionunder
+hydrogen evolution reaction kinetics on modified platinum. Nature alkalineconditions.Mater.Today2020,36,125−138.Pu,Z.;Amiinu,I.
+Energy2020,5(11),891−899. S.;Cheng,R.;Wang,P.;Zhang,C.;Mu,S.;Zhao,W.;Su,F.;Zhang,G.;
+(14)Hao,J.;Zhuang,Z.;Cao,K.;Gao,G.;Wang,C.;Lai,F.;Lu,S.; Liao, S.; et al. Single-atom catalysts for electrochemical hydrogen
+Ma, P.; Dong, W.; Liu, T.; et al. Unraveling the electronegativity- evolution reaction: recent advances and future perspectives. Nano-
+dominated intermediate adsorption on high-entropy alloy electro- MicroLett.2020,12(1),1−29.Shang,P.;Ye,Z.;Ding,Y.;Zhu,Z.;
+catalysts.Nat.Commun.2022,13(1),1−13. Peng,X.;Ma,G.;Li,D.Nanosponge-likesolidsolutionofNiMowitha
+(15)Tang,Z.;Wei,S.;Wang,Y.;Dai,L.Three-dimensionalreduced high hydrogen evolution reaction performance over a wide range of
+graphene oxide decorated with cobalt metaphosphate as high cost- currentdensities. ACSSustainableChem. Eng. 2020,8(29),10664−
+efficiency electrocatalysts for the hydrogen evolution reaction. RSC 10672.
+Adv.2022,12(17),10522−10533. (29) Liu, Y.; Yong, X.; Liu, Z.; Chen, Z.; Kang, Z.; Lu, S. Unified
+(16)Wang,T.;Tao,L.;Zhu,X.;Chen,C.;Chen,W.;Du,S.;Zhou,Y.; catalyst for efficient and stable hydrogen production by both the
+Zhou, B.; Wang, D.; Xie, C.; et al. Combined anodic and cathodic electrolysis of water and the hydrolysis of ammonia borane. Adv.
+hydrogenproductionfromaldehydeoxidationandhydrogenevolution SustainableSyst.2019,3(5),1800161.dosSantos,K.G.;Eckert,C.T.;
+reaction.Nat.Catal.2022,5(1),66−73. DeRossi,E.;Bariccatti,R.A.;Frigo,E.P.;Lindino,C.A.;Alves,H.J.
+7329 https://doi.org/10.1021/acsomega.3c07911
+ACSOmega2024,9,7310−7335
+
+ACSOmega http://pubs.acs.org/journal/acsodf Review
+Hydrogen production in the electrolysis of water in Brazil, a review. hydrogenbindingenergyonmonometallicsurfaces.EnergyEnviron.Sci.
+RenewableandSustainableEnergyReviews2017,68,563−571. 2013,6(5),1509−1512.
+(30) Wang, Y.; Sun, D.; Wang, M.; Feng, Z.; Hall, A. S. Oxygen (39) Zheng, Y.; Jiao, Y.; Vasileff, A.; Qiao, S. Z. The hydrogen
+ReductionElectrocatalysisonOrderedIntermetallicPd-BiElectrodes evolution reaction in alkaline solution: from theory, single crystal
+IsEnhancedbyaLowCoverageofSpectatorSpecies.J.Phys.Chem.C models, to practical electrocatalysts. Angew. Chem., Int. Ed. 2018, 57
+2020,124(9),5220−5224.Wang,J.;Qiu,T.;Chen,X.;Lu,Y.;Yang, (26),7568−7579.
+W. N-doped carbon@ Ni-Al2O3 nanosheet array@ graphene oxide (40)Kim,J.;Jung,H.;Jung,S.-M.;Hwang,J.;Kim,D.Y.;Lee,N.;
+composite as an electrocatalyst for hydrogen evolution reaction in Kim,K.-S.;Kwon,H.;Kim,Y.-T.;Han,J.W.;etal.Tailoringbinding
+alkalinemedium.J.PowerSources2015,293,178−186.Schmidt,T.J.; abilities by incorporating oxophilic transition metals on 3D nano-
+Stamenkovic, V.; Ross, P. N., Jr.; Markovic, N. M. Temperature structured Ni arrays for accelerated alkaline hydrogen evolution
+dependent surface electrochemistry on Pt single crystals in alkaline reaction. J. Am. Chem. Soc. 2021, 143 (3), 1399−1408. Ugwu, L. I.;
+electrolytePart3.Theoxygenreductionreaction.Phys.Chem.Chem. Morgan,Y.;Ibrahim,H.Applicationofdensityfunctionaltheoryand
+Phys.2003,5(2),400−406. machine learning in heterogenous-based catalytic reactions for
+(31)Cai,J.;Ding,J.;Wei,D.;Xie,X.;Li,B.;Lu,S.;Zhang,J.;Liu,Y.; hydrogenproduction.Int.J.HydrogenEnergy2022,47(4),2245−2267.
+Cai, Q.; Zang, S. Coupling of Ru and O-Vacancy on 2D Mo-Based (41) Ibn Shamsah, S. M. Earth-abundant electrocatalysts for water
+Electrocatalyst Via a Solid-Phase Interface Reaction Strategy for splitting:currentandfuturedirections.Catalysts2021,11(4),429.
+Hydrogen Evolution Reaction. Adv. Energy Mater. 2021, 11 (26), (42)Krishtalik,L.I.Kineticisotopeeffectinthehydrogenevolution
+2100141.Kou,T.;Chen,M.;Wu,F.;Smart,T.J.;Wang,S.;Wu,Y.; reaction.Electrochimicaacta2001,46(19),2949−2960.Qi,Q.;Shao,
+Zhang, Y.; Li, S.; Lall, S.; Zhang, Z. J. N. c.; et al. Carbon doping D.;Zhou,Y.;Wang,Q.;Yu,X.-Y.Plasma-inducedimplantingofactive
+switching on the hydrogen adsorption activity of NiO for hydrogen species in metal-organic frameworks for efficient hydrogen evolution
+evolutionreaction.Nat.Commun.2020,11(1),1−10.Li,W.;Liu,G.; reaction.JournalofMaterialsChemistryA2023,11(29),15663−15669.
+Li,J.;Wang,Y.;Ricardez-Sandoval,L.;Zhang,Y.;Zhang,Z.J.A.S.S. (43)Wu,H.;Feng,C.;Zhang,L.;Zhang,J.;Wilkinson,D.P.Non-
+Hydrogenevolutionreactionmechanismon2H-MoS2electrocatalyst. noble metal electrocatalysts for the hydrogen evolution reaction in
+Appl.Surf.Sci.2019,498,143869.Liu,Z.;Yang,X.;Hu,G.;Feng,L.Ru waterelectrolysis.ElectrochemicalEnergyReviews2021,4(3),473−507.
+nanoclusters coupled on Co/N-doped carbon nanotubes efficiently (44) Zhou, F.; Zhou, Y.; Liu, G.-G.; Wang, C.-T.; Wang, J. Recent
+catalyzedthehydrogenevolutionreaction.ACSSustainableChem.Eng. advances in nanostructured electrocatalysts for hydrogen evolution
+2020,8(24),9136−9144.Zhou,M.;Li,H.;Long,A.;Zhou,B.;Lu,F.; reaction.RareMetals2021,40(12),3375−3405.Chen,L.-W.;Liang,
+Zhang,F.;Zhan,F.;Zhang,Z.;Xie,W.;Zeng,X.;etal.Modulating3d H.-W.Ir-basedbifunctionalelectrocatalystsforoverallwatersplitting.
+Orbitals of Ni Atoms on Ni-Pt Edge Sites Enables Highly-Efficient Catal.Sci.Technol.2021,11,4673−4689.
+Alkaline Hydrogen Evolution. Adv. Energy Mater. 2021, 11 (36), (45)Zhang,X.-Y.;Xie,J.-Y.;Ma,Y.;Dong,B.;Liu,C.-G.;Chai,Y.-M.
+2101789. Anoverviewoftheactivesitesintransitionmetalelectrocatalystsand
+(32)Yu,X.;Xu,S.;Wang,Z.;Cheng,X.;Du,Y.;Chen,G.;Sun,X.; their practical activity forhydrogen evolution reaction. Chem. Eng. J.
+Wu,Q.AnMn-dopedNiCoPflower-likestructureasahighlyefficient 2022,430,132312.
+electrocatalyst for hydrogen evolution reaction in acidic and alkaline (46)Theerthagiri,J.;Lee,S.J.;Murthy,A.P.;Madhavan,J.;Choi,M.
+solutionswithlongduration.Nanoscale2021,13(25),11069−11076. Y.Fundamentalaspectsandrecentadvancesintransitionmetalnitrides
+(33)He,H.-z.;Zhang,Y.;Li,Y.;Wang,P.Recentinnovationsofsilk- as electrocatalysts for hydrogen evolution reaction: A review. Curr.
+derived electrocatalysts for hydrogen evolution reaction, oxygen Opin.SolidStateMater.Sci.2020,24(1),100805.
+evolution reaction and oxygen reduction reaction. Int. J. Hydrogen (47)Ge,Z.;Fu,B.;Zhao,J.;Li,X.;Ma,B.;Chen,Y.Areviewofthe
+Energy2021,46(11),7848−7865. electrocatalystsonhydrogenevolutionreactionwithanemphasison
+(34)Wen,Q.;Zhao,Y.;Liu,Y.;Li,H.;Zhai,T.Ultrahigh-Current- Fe,CoandNi-basedphosphides.J.Mater.Sci.2020,55(29),14081−
+DensityandLong-Term-DurabilityElectrocatalystsforWaterSplitting. 14104.
+Small2022,18(4),2104513.Hao,J.;Wei,F.;Zhang,X.;Li,L.;Zhang, (48) Anantharaj, S.; Kundu, S.; Noda, S. Progress in nickel
+C.; Liang, D.; Ma, X.; Lu, P. Defect and doping engineered penta- chalcogenideelectrocatalyzedhydrogenevolutionreaction.Journalof
+grapheneforcatalysisof hydrogen evolutionreaction.Nanoscale Res. MaterialsChemistryA2020,8(8),4174−4192.
+Lett.2021,16(1),1−9. (49)Li,T.;Hu,T.;Dai,L.;Li,C.M.Metal-freephoto-andelectro-
+(35)Wang,S.;Xu,B.;Huo,W.;Feng,H.;Zhou,X.;Fang,F.;Xie,Z.; catalystsforhydrogenevolutionreaction.JournalofMaterialsChemistry
+Shang,J.K.;Jiang,J.EfficientFeCoNiCuPdthin-filmelectrocatalystfor A2020,8(45),23674−23698.
+alkaline oxygen and hydrogen evolution reactions. Appl. Catal. B: (50) Luo, W.; Wang, Y.; Cheng, C. Ru-based electrocatalysts for
+Environmental2022,313,121472. hydrogen evolution reaction: recent research advances and perspec-
+(36)Tymoczko,J.;Calle-Vallejo,F.;Schuhmann,W.;Bandarenka,A. tives.MaterialsTodayPhysics2020,15,100274.Ogundipe,T.O.;Shen,
+S. Making the hydrogen evolution reaction in polymer electrolyte L.;Lu,Z.;Yan,C.;Yan,C.RecentAdvancesonBimetallicTransition
+membraneelectrolysersevenfaster.Nat.Commun.2016,7(1),1−6. Metal Phosphides for Enhanced Hydrogen Evolution Reaction.
+Lacň jevac,U.;Vasilic,́ R.;Dobrota,A.;Đurđic,́ S.;Tomanec,O.;Zborǐl, ChemistrySelect2022,7(23),No.e202200291.
+R.;Mohajernia,S.;Nguyen,N.T.;Skorodumova,N.;Manojlovic,́ D.; (51)Chen,Q.;Yu,Y.;Li,J.;Nan,H.;Luo,S.;Jia,C.;Deng,P.;Zhong,
+et al. High-performance hydrogen evolution electrocatalysis using S.; Tian, X. Recent Progress in Layered Double Hydroxide-Based
+proton-intercalatedTiO2nanotubearraysasinteractivesupportsforIr Electrocatalyst for Hydrogen Evolution Reaction. ChemElectroChem.
+nanoparticles.J.Mater.Chem.A2020,8(43),22773−22790.Zhang, 2022,9(9),No.e202101387.Zhou,D.;Li,P.;Lin,X.;McKinley,A.;
+W.;Huang,B.;Wang,K.;Yang,W.;Lv,F.;Li,N.;Chao,Y.;Zhou,P.; Kuang, Y.; Liu, W.; Lin, W.-F.; Sun, X.; Duan, X. Layered double
+Yang, Y.; Li, Y.; et al. WOx-Surface Decorated PtNi@ Pt Dendritic hydroxide-based electrocatalysts for the oxygen evolution reaction:
+Nanowires as Efficient pH-Universal Hydrogen Evolution Electro- identification and tailoring of active sites, and superaerophobic
+catalysts.Adv.EnergyMater.2021,11(3),2003192. nanoarrayelectrodeassembly.Chem.Soc.Rev.2021,50(15),8790−
+(37)Wendt,H.;Spinacé,E.V.;OliveiraNeto,A.;Linardi,M.J.Q.N. 8817.
+Electrocatalysis and electrocatalysts for low temperature fuel cells: (52)Chen,J.;Cheng,H.;Ding,L.-X.;Wang,H.Competinghydrogen
+fundamentals,stateoftheart,researchanddevelopment.Quiḿ icaNova evolution reaction: a challenge in electrocatalytic nitrogen fixation.
+2005, 28 (6), 1066−1075. Koper, M. T. Thermodynamic theory of MaterialsChemistryFrontiers2021,5(16),5954−5969.Zhu,J.;Yang,
+multi-electron transfer reactions: Implications for electrocatalysis. J. R.;Zhang,G.Atomicallythintransitionmetaldichalcogenidesforthe
+Electroanal.Chem.2011,660(2),254−260. hydrogenevolutionreaction.ChemPhysMater.2022,1,102.
+(38)Sheng,W.;Myint,M.;Chen,J.G.;Yan,Y.J.E.Correlatingthe (53)Hansen,J.N.;Prats,H.;Toudahl,K.K.;MørchSecher,N.;Chan,
+hydrogen evolution reaction activity in alkaline electrolytes with the K.;Kibsgaard,J.;Chorkendorff,I.IsthereanythingbetterthanPtfor
+7330 https://doi.org/10.1021/acsomega.3c07911
+ACSOmega2024,9,7310−7335
+
+ACSOmega http://pubs.acs.org/journal/acsodf Review
+HER?ACSenergyletters2021,6(4),1175−1180.Beyene,B.B.;Hung, (66)Zhai,L.;She,X.;Zhuang,L.;Li,Y.;Ding,R.;Guo,X.;Zhang,Y.;
+C.-H.Recentprogressonmetalloporphyrin-basedhydrogenevolution Zhu,Y.;Xu,K.;Fan,H.J.;etal.ModulatingBuilt-InElectricFieldvia
+catalysis.Coord.Chem.Rev.2020,410,213234. VariableOxygenAffinityforRobustHydrogenEvolutionReactionin
+(54)Aggarwal,P.;Sarkar,D.;Awasthi,K.;Menezes,P.W.Functional NeutralMedia.Angew.Chem.,Int.Ed.2022,61(14),No.e202116057.
+role of single-atom catalysts in electrocatalytic hydrogen evolution: Chen, Y.; Ding, R.; Li, J.; Liu, J. Highly active atomically dispersed
+Currentdevelopmentsandfuturechallenges.Coord.Chem.Rev.2022, platinum-based electrocatalyst for hydrogen evolution reaction
+452,214289. achieved by defect anchoring strategy. Appl. Catal. B: Environmental
+(55)Zahra,R.;Pervaiz,E.;Yang,M.;Rabi,O.;Saleem,Z.;Ali,M.; 2022,301,120830.
+Farrukh,S.Areviewonnickelcobaltsulphideandtheirhybrids:Earth (67)Ghamami,S.;KazemiKorayem,A.;Baqeri,N.Productionand
+abundant,pHstableelectro-catalystforhydrogenevolutionreaction. purification of titanium dioxide with titanium tetrachloride nano-
+Int.J.HydrogenEnergy2020,45(46),24518−24543. particles from eliminate concentrate of Kahnooj mine in Kerman. J.
+(56)Yang,W.;Chen,S.Recentprogressinelectrodefabricationfor Appl.Chem.2020,15(55),189−206.Ren,B.;Jin,Q.;Li,Y.;Li,Y.;Cui,
+electrocatalytichydrogenevolutionreaction:Aminireview.Chem.Eng. H.; Wang, C. Activating titanium dioxide as a new efficient
+J.2020,393,124726. electrocatalyst:fromtheorytoexperiment.ACSAppl.Mater.Interfaces
+(57)Chen,S.;Pan,Y.InfluenceofgroupIIIandIVelementsonthe 2020,12(10),11607−11615.
+hydrogenevolutionreactionofMoS2disulfide.J.Phys.Chem.C2021, (68)Kweon,D.H.;Okyay,M.S.;Kim,S.-J.;Jeon,J.-P.;Noh,H.-J.;
+125(22),11848−11856. Park, N.; Mahmood, J.; Baek, J.-B. Ruthenium anchored on carbon
+(58)Feng,W.;Pang,W.;Xu,Y.;Guo,A.;Gao,X.;Qiu,X.;Chen,W. nanotube electrocatalyst for hydrogen production with enhanced
+Transition metal selenides for electrocatalytic hydrogen evolution Faradaicefficiency.Nat.Commun.2020,11(1),1−10.
+reaction.ChemElectroChem.2020,7(1),31−54. (69)Bao,X.;Chen,Y.;Mao,S.;Wang,Y.;Yang,Y.;Gong,Y.Boosting
+(59)Drosou,M.;Kamatsos,F.;Mitsopoulou,C.A.Recentadvances the performance gain of Ru/C for hydrogen evolution reaction via
+inthemechanismsofthehydrogenevolutionreactionbynon-innocent surfaceengineering.EnergyEnviron.Mater.2023,6(5).
+sulfur-coordinating metal complexes. Inorganic Chemistry Frontiers (70)Malik,B.;Anantharaj,S.;Karthick,K.;Pattanayak,D.K.;Kundu,
+2020,7(1),37−71. S.J.C.S.Technology.MagneticCoPtnanoparticle-decoratedultrathin
+(60)Liu,Y.;Wang,Q.;Zhang,J.;Ding,J.;Cheng,Y.;Wang,T.;Li,J.; Co (OH) 2 nanosheets: an efficient bi-functional water splitting
+Hu, F.; Yang, H. B.; Liu, B. Recent Advances in Carbon-Supported catalyst. Catalysis Science & Technology 2017, 7 (12), 2486−2497.
+Noble-Metal Electrocatalysts for Hydrogen Evolution Reaction: Thiel,F.;Geissler,D.;Nielsch,K.;Kauffmann,A.;Seils,S.;Heilmaier,
+Syntheses, Structures, and Properties. Adv. Energy Mater. 2022, 12, M.;Utt,D.;Albe,K.;Motylenko,M.;Rafaja,D.J.A.M.;etal.Originsof
+2200928. strengthandplasticityinthepreciousmetalbasedhigh-entropyalloy
+(61)Zheng,X.;Peng,L.;Li,L.;Yang,N.;Yang,Y.;Li,J.;Wang,J.; AuCuNiPdPt.ActaMater.2020,185,400−411.Liu,H.;Xi,C.;Xin,J.;
+Wei,Z.J.C.s.Roleofnon-metallicatomsinenhancingthecatalytic Zhang,G.;Zhang,S.;Zhang,Z.;Huang,Q.;Li,J.;Liu,H.;Kang,J.J.C.
+activity of nickel-based compounds for hydrogen evolution reaction. E. J. Free-standing nanoporous NiMnFeMo alloy: An efficient non-
+Chemicalscience2018,9(7),1822−1830. preciousmetalelectrocatalystforwatersplitting.Chem.Eng.J.2021,
+(62)Kozhushner,A.;Zion,N.;Elbaz,L.J.C.O.i.E.Methodsfor 404,126530.
+assessment and measurement of the active site density in platinum (71)Scofield,M.E.;Zhou,Y.;Yue,S.;Wang,L.;Su,D.;Tong,X.;
+groupmetal-freeoxygenreductionreactioncatalysts.CurrentOpinionin Vukmirovic, M. B.; Adzic, R. R.; Wong, S. S. Role of chemical
+Electrochemistry2021,25,100620.Carmo,M.;Fritz,D.L.;Mergel,J.; composition in the enhanced catalytic activity of Pt-based alloyed
+Stolten,D.AcomprehensivereviewonPEMwaterelectrolysis.Int.J. ultrathinnanowiresforthehydrogenoxidationreactionunderalkaline
+HydrogenEnergy2013,38(12),4901−4934.Safizadeh,F.;Ghali,E.; conditions.ACSCatal.2016,6(6),3895−3908.
+Houlachi, G. Electrocatalysis developments for hydrogen evolution (72)Santos,D.;Sequeira,C.;Maccio,̀ D.;Saccone,A.;Figueiredo,J.
+reactioninalkalinesolutions-Areview.Int.J.HydrogenEnergy2015,40 Platinum-rareearthelectrodesforhydrogenevolutioninalkalinewater
+(1),256−274. electrolysis.Internationaljournalofhydrogenenergy2013,38(8),3137−
+(63) Markovicá , N. M.; Sarraf, S. T.; Gasteiger, H. A.; Ross, P. N. 3145. Stojic,́ D. L.; Grozdic,́ T. D.; Kaninski, M. M.; Maksic,́ A. D.;
+Faraday Transactions. Hydrogen electrochemistry on platinum low- Simic,́ N.D.Intermetallicsasadvancedcathodematerialsinhydrogen
+indexsingle-crystalsurfacesinalkalinesolution.J.Chem.Soc.,Faraday production via electrolysis. International journal of hydrogen energy
+Trans. 1996, 92 (20), 3719−3725. Gottesfeld, S. Fuel cell science: 2006,31(7),841−846.
+Theory,fundamentals,andbiocatalysis;JohnWiley&Sons:NewYork, (73)Naveen,M.H.;Huang,Y.;BisalereKantharajappa,S.;Seo,K.-D.;
+2011. Kobayashi, S.; Tryk, D.; Uchida, H. J. E. C. Enhancement of Park,D.-S.;Shim,Y.-B.Enhancedelectrocatalyticactivitiesofinsitu
+hydrogen evolution activity on Pt-skin/Pt3Co [(111),(100), and produced Pd/S/N-doped carbon in oxygen reduction and hydrogen
+(110)] single crystal electrodes. Electrochem. Commun. 2020, 110, evolutionreactions.ACSAppl.EnergyMater.2021,4(1),575−585.
+106615. (74)Zhang,L.;Xiao,W.;Zhang,Y.;Han,F.;Yang,X.Nanocarbon
+(64)Lee,W.-J.;Wan,Z.;Kim,C.-M.;Oh,I.-K.;Harada,R.;Suzuki,K.; encapsulating Ni-doped MoP/graphene composites for highly
+Choi,E.-A.;Kwon,S.-H.J.C.o.M.AtomiclayerdepositionofPtthin improved electrocatalytic hydrogen evolution reaction. Compos.
+films using dimethyl (N, N-dimethyl-3-butene-1-amine-N) platinum Commun.2021,26,100792.
+andO2reactant.Chem.Mater.2019,31(14),5056−5064.Lopes,P.P.; (75)Pu,M.;Wang,D.;Zhang,Z.;Guo,Y.;Guo,W.Flexoelectricity
+Li, D.; Lv, H.; Wang, C.; Tripkovic, D.; Zhu, Y.; Schimmenti, R.; enhanced water splitting and hydrogen evolution reaction on grain
+Daimon,H.;Kang,Y.;Snyder,J.J.N.M.;etal.Eliminatingdissolution boundaries of monolayer transition metal dichalcogenides. Nano
+ofplatinum-basedelectrocatalystsattheatomicscale.Nat.Mater.2020, Research2022,15(2),978−984.
+19(11),1207−1214. (76)Lai,J.;Huang,B.;Chao,Y.;Chen,X.;Guo,S.J.A.M.Strongly
+(65)Fu,H.Q.;Zhou,M.;Liu,P.F.;Liu,P.;Yin,H.;Sun,K.Z.;Yang, CoupledNickel-CobaltNitrides/CarbonHybridNanocageswithPt-
+H.G.;Al-Mamun,M.;Hu,P.;Wang,H.-F.;etal.Hydrogenspillover- LikeActivityforHydrogenEvolutionCatalysis.Adv.Mater.2019,31
+bridgedVolmer/Tafelprocessesenablingampere-levelcurrentdensity (2),1805541.
+alkaline hydrogen evolution reaction under low overpotential. J. Am. (77)Kuttiyiel,K.A.;Sasaki,K.;Chen,W.-F.;Su,D.;Adzic,R.R.Core-
+Chem.Soc.2022,144(13),6028−6039.Lao,M.;Li,P.;Jiang,Y.;Pan, shell, hollow-structured iridium-nickel nitride nanoparticles for the
+H.; Dou, S. X.; Sun, W. From Fundamentals and Theories to hydrogenevolutionreaction.J.Mater.Chem.A2014,2(3),591−594.
+HeterostructuredElectrocatalystDesign:AnIn-depthUnderstanding (78) Zhang,L.; Wang,T.; Sun, L.; Sun, Y.;Hu, T.; Xu,K.;Ma, F.
+of Alkaline Hydrogen Evolution Reaction. Nano Energy 2022, 98, Hydrothermalsynthesisof3DhierarchicalMoSe2/NiSe2composite
+107231. nanowires on carbon fiber paper and their enhanced electrocatalytic
+7331 https://doi.org/10.1021/acsomega.3c07911
+ACSOmega2024,9,7310−7335
+
+ACSOmega http://pubs.acs.org/journal/acsodf Review
+activityforthehydrogenevolutionreaction.J.Mater.Chem.A2017,5 MOFs-directed strategy: an efficient electrocatalyst for the hydrogen
+(37),19752−19759. evolutionreaction.J.Mater.Chem.A2016,4(16),6006−6013.
+(79)Wang,X.;Zheng,Y.;Yuan,J.;Shen,J.;Hu,J.;Wang,A.-j.;Wu,L.; (96)Cao,B.;Veith,G.M.;Neuefeind,J.C.;Adzic,R.R.;Khalifah,P.
+Niu,L.J.E.A.PorousNiCodiselenidenanosheetsarrayedoncarbon G.Mixedclose-packedcobaltmolybdenumnitridesasnon-noblemetal
+cloth as promising advanced catalysts used in water splitting. electrocatalystsforthehydrogenevolutionreaction.J.Am.Chem.Soc.
+Electrochim.Acta2017,225,503−513. 2013,135(51),19186−19192.
+(80)Chen,Q.;Wang,R.;Yu,M.;Zeng,Y.;Lu,F.;Kuang,X.;Lu,X.J. (97)Chen,W.F.;Schneider,J.M.;Sasaki,K.;Wang,C.H.;Schneider,
+E.A.Bifunctionaliron-nickelnitridenanoparticlesasflexibleandrobust J.;Iyer,S.;Iyer,S.;Zhu,Y.;Muckerman,J.T.;Fujita,E.J.C.Tungsten
+electrodeforoverallwatersplitting.Electrochim.Acta2017,247,666− carbide-nitride on graphene nanoplatelets as a durable hydrogen
+673. evolutionelectrocatalyst.ChemSusChem2014,7(9),2414−2418.
+(81)Chen,Y.;Zhang,J.;Guo,P.;Liu,H.;Wang,Z.;Liu,M.;Zhang, (98)Fang,Z.;Peng,L.;Qian,Y.;Zhang,X.;Xie,Y.;Cha,J.J.;Yu,G.
+T.; Wang, S.; Zhou, Y.; Lu, X. J. A. a. m.; et al. interfaces. Coupled DualtuningofNi-Co-A(A=P,Se,O)nanosheetsbyanionsubstitution
+heterostructure of Mo-Fe selenide nanosheets supported on carbon andholeyengineeringforefficienthydrogenevolution.J.Am. Chem.
+paperasanintegratedelectrocatalystforefficienthydrogenevolution. Soc.2018,140(15),5241−5247.
+ACSAppl.Mater.2018,10(33),27787−27794. (99) Wang, J.; Yang, W.; Liu, J. CoP 2 nanoparticles on reduced
+(82)Zhang,N.;Cao,L.;Feng,L.;Huang,J.;Kajiyoshi,K.;Li,C.;Liu, grapheneoxide sheetsasasuper-efficientbifunctional electrocatalyst
+Q.; Yang, D.; He, J. J. N. Co, N-Codoped porous vanadium nitride
+forfullwatersplitting.J.Mater.Chem.A2016,4(13),4686−4690.
+nanoplates as superior bifunctional electrocatalysts for hydrogen (100) Majhi, K. C.; Yadav, M. Fuels. Sphere-Shaped Bimetallic
+Sulphoselenide: An Efficient Electrocatalyst for Hydrogen Evolution
+evolution and oxygen reduction reactions. Nanoscale 2019, 11 (24),
+11542−11549.
+Reaction.Energy2021,35(15),12473−12481.Li,D.;Liao,L.;Zhou,
+H.;Zhao,Y.;Cai,F.;Zeng,J.;Liu,F.;Wu,H.;Tang,D.;Yu,F.J.M.T.
+(83)Read,C.G.;Callejas,J.F.;Holder,C.F.;Schaak,R.E.J.A.a.m.
+P. Highly active non-noble electrocatalyst from Co2P/Ni2P nano-
+interfaces. General strategy for the synthesis of transition metal
+hybridsforpH-universalhydrogenevolutionreaction.MaterialsToday
+phosphide films for electrocatalytic hydrogen and oxygen evolution.
+Physics2021,16,100314.Hua,W.;Sun,H.-H.;Xu,F.;Wang,J.-G.J.R.
+ACSappliedmaterials2016,8(20),12798−12803.
+M.Areviewandperspectiveonmolybdenum-basedelectrocatalystsfor
+(84)Pan,Y.;Lin,Y.;Chen,Y.;Liu,Y.;Liu,C.Cobaltphosphide-based
+hydrogen evolution reaction. Rare Metals 2020, 39 (4), 335−351.
+electrocatalysts:synthesisand phasecatalyticactivity comparisonfor
+Zhang,W.;Cui,L.;Liu,J.J.J.o.A.Compounds.Recentadvancesin
+hydrogenevolution.J.Mater.Chem.A2016,4(13),4745−4754.
+cobalt-based electrocatalysts for hydrogen and oxygen evolution
+(85)Wang,M.-Q.;Tang,C.;Ye,C.;Duan,J.;Li,C.;Chen,Y.;Bao,S.-
+reactions.JournalofAlloys2020,821,153542.
+J.; Xu, M. J. J. o. M. C. A. Engineering the nanostructure of
+(101) Lin, F.; Dong, Z.; Yao, Y.; Yang, L.; Fang, F.; Jiao, L.
+molybdenum nitride nanodot embedded N-doped porous hollow
+Electrocatalytic hydrogen evolution of ultrathin Co-Mo5N6 hetero-
+carbonnanochainsforrapidallpHhydrogenevolution.J.Mater.Chem.
+junction with interfacial electron redistribution. Adv. Energy Mater.
+A2018,6(30),14734−14741.
+2020,10(42),2002176.
+(86)Callejas,J.F.;McEnaney,J.M.;Read,C.G.;Crompton,J.C.;
+(102)Zhang,F.;Shan,W.;Hu,Q.;Jiang,W.;Li,D.;Zhang,B.The
+Biacchi,A.J.;Popczun,E.J.;Gordon,T.R.;Lewis,N.S.;Schaak,R.E.J.
+EffectofMoAdditiononElectrocatalyticActivityandStabilityofFe-
+A. n. Electrocatalytic and photocatalytic hydrogen production from
+Co-PC Metallic Glasses for Hydrogen Evolution. J. Electrochem. Soc.
+acidic and neutral-pH aqueous solutions using iron phosphide
+2021, 168 (7), 076510. Pentland, N.; Bockris, J. M.; Sheldon, E.
+nanoparticles.ACSNano2014,8(11),11101−11107.
+Hydrogenevolutionreactiononcopper,gold,molybdenum,palladium,
+(87)Liu,Y.;Kelly,T.G.;Chen,J.G.;Mustain,W.E.J.A.C.Metal
+rhodium,andiron:mechanismandmeasurementtechniqueunderhigh
+carbidesasalternativeelectrocatalystsupports.ACSCatal.2013,3(6),
+purityconditions.J.Electrochem.Soc.1957,104(3),182.
+1184−1194.
+(103)Hu,X.;Tian,X.;Lin,Y.-W.;Wang,Z.J.R.a.Nickelfoamand
+(88)Ramesh,R.;Nandi,D.K.;Kim,T.H.;Cheon,T.;Oh,J.;Kim,S.-
+stainlesssteelmeshaselectrocatalystsforhydrogenevolutionreaction,
+H.J.A.a.m.xsinterfaces.Atomic-layer-depositedMoNxthinfilmson
+oxygenevolutionreactionandoverallwatersplittinginalkalinemedia.
+three-dimensionalNifoamasefficientcatalystsfortheelectrochemical RSCAdv.2019,9(54),31563−31571.Lin,Y.;Sun,K.;Chen,X.;Chen,
+hydrogen evolution reaction. ACS applied materials 2019, 11 (19),
+C.;Pan,Y.;Li,X.;Zhang,J..High-precisionregulationsynthesisofFe-
+17321−17332.
+dopedCo2Pnanorodbundlesasefficientelectrocatalystsforhydrogen
+(89)Zhou,Y.;Yang,Y.;Wang,R.;Wang,X.;Zhang,X.;Qiang,L.; evolutioninall-pHrangeandseawater.J.EnergyChem.2021,55,92−
+Wang,W.;Wang,Q.;Hu,Z.RhombicporousCoP2nanowirearrays 101.
+synthesized by alkaline etching as highly active hydrogen-evolution- (104)Mahmood,N.;Yao,Y.;Zhang,J.W.;Pan,L.;Zhang,X.;Zou,J.
+reactionelectrocatalysts.J.Mater.Chem.A2018,6(39),19038−19046.
+J. Electrocatalysts for hydrogen evolution in alkaline electrolytes:
+(90)Jin,H.;Liu,X.;Vasileff,A.;Jiao,Y.;Zhao,Y.;Zheng,Y.;Qiao,S.- mechanisms, challenges, and prospective solutions. Adv. Sci. 2018, 5
+Z. J. A. N. Single-crystal nitrogen-rich two-dimensional Mo5N6 (2),1700464.
+nanosheets for efficient and stable seawater splitting. ACS Nano (105)AliShah,S.;Xu,L.;Sayyar,R.;Bian,T.;Liu,Z.;Yuan,A.;Shen,
+2018,12(12),12761−12769. X.; Khan, I.; Ali Tahir, A.; Ullah, H. J. C. E. J. Growth of MoS2
+(91)Yu,M.;Zhao,S.;Feng,H.;Hu,L.;Zhang,X.;Zeng,Y.;Tong,Y.; nanosheets on M@ N-doped carbon particles (M= Co, Fe or CoFe
+Lu,X.J.A.E.L.EngineeringthinMoS2nanosheetsonTiNnanorods: Alloy) as an efficient electrocatalyst toward hydrogen evolution
+advancedelectrochemicalcapacitorelectrodeandhydrogenevolution reaction.Chem.Eng.J.2022,428,132126.Li,Y.;Li,H.;Li,Y.;Peng,
+electrocatalyst.ACSEnergyLett.2017,2(8),1862−1868. S.;Hu,Y..Fe-BalloycoupledwithFeclustersasanefficientcocatalyst
+(92) Chen, T.; Tan, Y. J. N. R. Hierarchical CoNiSe2 nano- forphotocatalytichydrogenevolution.Chem.Eng.J.2018,344,506−
+architecture as a high-performance electrocatalyst for water splitting. 513.
+NanoResearch2018,11(3),1331−1344. (106) Müller, C. I.; Rauscher, T.; Schmidt, A.; Schubert, T.;
+(93) Jiao, C.; Bo, X.; Zhou, M. J. J. o. E. C. Electrocatalytic water Weißgärber, T.; Kieback, B.; Röntzsch, L. Electrochemical inves-
+splitting at nitrogen-doped carbon layers-encapsulated nickel cobalt tigations on amorphousFe-base alloysfor alkalinewater electrolysis.
+selenide.J.EnergyChem.2019,34,161−170. Int. J. Hydrogen Energy 2014, 39 (17), 8926−8937. Schäfer, H.;
+(94)Liang,C.;Ying,P.;Li,C.J.C.o.m.Nanostructuredβ-Mo2C Chatenet, M. J. A. E. L. Steel: the resurrection of a forgotten water-
+preparedbycarbothermalhydrogenreductiononultrahighsurfacearea splittingcatalyst.ACSEnergyLett.2018,3(3),574−591.
+carbonmaterial.Chemistryofmaterials2002,14(7),3148−3151. (107)Ekspong,J.;Wågberg,T.J.M.Stainlesssteelasabi-functional
+(95)Shi,Z.;Wang,Y.;Lin,H.;Zhang,H.;Shen,M.;Xie,S.;Zhang,Y.; electrocatalyst�Atop-downapproach.Materials2019,12(13),2128.
+Gao, Q.; Tang,Y. Porous nanoMoC@ graphite shell derivedfrom a Benavente Llorente, V.; Diaz, L. A.; Lacconi, G. I.; Abuin, G. C.;
+7332 https://doi.org/10.1021/acsomega.3c07911
+ACSOmega2024,9,7310−7335
+
+ACSOmega http://pubs.acs.org/journal/acsodf Review
+Franceschini,E.A.J.J.o.A.Compounds.EffectofdutycycleonNiMo ureaglassroute.JournalofMaterialsChemistryA2015,3(16),8361−
+alloys prepared by pulsed electrodeposition for hydrogen evolution 8368.
+reaction.J.AlloysCompounds2022,897,163161.Nandanapalli,K.R.; (117)Liu,W.;Wang,X.;Wang,F.;Du,K.;Zhang,Z.;Guo,Y.;Yin,H.;
+Mudusu, D.; Karuppannan, R.; Hahn, Y.-B.; Lee, S. J. C. E. J. Wang, D. A durable and pH-universal self-standing MoC-Mo2C
+PredominantlyenhancedcatalyticactivitiesofsurfaceprotectedZnO heterojunctionelectrodeforefficienthydrogenevolutionreaction.Nat.
+nanorods integrated stainless-steel mesh structures: A synergistic Commun.2021,12(1),1−10.
+impactonoxygenevolutionreactionprocess.Chem.Eng.J.2022,429, (118)Ji,X.;Wang,K.;Zhang,Y.;Sun,H.;Zhang,Y.;Ma,T.;Ma,Z.;
+132360. Hu,P.;Qiu,Y.MoCbasedMott-Schottkyelectrocatalystforboosting
+(108) Kim, M.; Ha, J.; Shin, N.; Kim, Y.-T.; Choi, J. J. E. A. Self- the hydrogen evolution reaction performance. Sustainable Energy &
+activatedanodicnanoporousstainless steelelectrocatalystswithhigh Fuels2020,4(1),407−416.
+durabilityforthehydrogenevolutionreaction.Electrochim.Acta2020, (119)Hu,W.;Zheng,M.;Xu,B.;Wei,Y.;Zhu,W.;Li,Q.;Pang,H.
+364,137315. Design of hollow carbon-based materials derived from metal-organic
+(109)Liu,X.;You,B.;Sun,Y.J.A.S.C.Engineering.Facilesurface frameworks for electrocatalysis and electrochemical energy storage.
+modification of ubiquitous stainless steel led to competent electro- JournalofMaterialsChemistryA2021,9(7),3880−3917.
+catalystsforoverallwatersplitting.ACSSustainableChemistry2017,5 (120) Chen, Y.; Li, T.; Zhao, Q.; Liu, D.; Li, C. M. The in situ
+(6),4778−4784.Zayat,B.;Mitra,D.;Narayanan,S.R.Inexpensiveand preparation of iron phosphide using ionic liquids as iron and
+efficientalkalinewaterelectrolyzerwithrobuststeel-basedelectrodes.J. phosphorus sources for efficient hydrogen evolution reactions. RSC
+Electrochem.Soc.2020,167(11),114513.Gao,Y.;Xiong,T.;Li,Y.; Adv.2020,10(55),33026−33032.Zhou,Q.;Wang,D.3Dnanoporous
+Huang,Y.;Li,Y.;Balogun,M.-S.J.T.Asimpleandscalableapproachto NiCoPasahighlyefficientelectrocatalystforthehydrogenevolution
+remarkably boost the overall water splitting activity of stainless steel reaction in alkaline electrolyte. New J. Chem. 2022, 46 (16), 7490−
+electrocatalysts.ACSOmega2019,4(14),16130−16138.
+7496.
+(110)Yang,C.;Zhao,R.;Xiang,H.;Wu,J.;Zhong,W.;Li,W.;Zhang, (121)Kumari,A.;Kaushal,S.;Singh,P.P.Bimetallicmetalorganic
+Q.;Yang,N.;Li,X.Ni-activatedtransitionmetalcarbidesforefficient frameworks heterogeneous catalysts: Design, construction, and
+hydrogenevolutioninacidicandalkalinesolutions.Adv.EnergyMater.
+applications. Materials Today Energy 2021, 20, 100667.
+2020, 10 (37), 2002260. Jun, H.; Kim, S.; Lee, J. Development
+Sirisomboonchai, S.; Kitiphatpiboon, N.; Chen, M.; Li, S.; Li, X.;
+strategiesintransitionmetalcarbideforhydrogenevolutionreaction:A
+Kongparakul,S.;Samart,C.;Zhang,L.;Abudula,A.;Guan,G.Multi-
+review. Korean Journal of Chemical Engineering 2020, 37 (8), 1317−
+Hierarchical Porous Mn-Doped CoP Catalyst on Nickel Phosphide
+1330.Peng,O.;Hu,Q.;Zhou,X.;Zhang,R.;Du,Y.;Li,M.;Ma,L.;Xi,
+FoamforHydrogenEvolutionReaction.ACSAppl.EnergyMater.2022,
+S.; Fu, W.; Xu, Z.-X.; et al. Swinging hydrogen evolution to nitrate
+5(1),149−158.Park,Y.;Kang,H.;Hong,Y.-k.;Cho,G.;Choi,M.;
+reductionactivityinmolybdenumcarbidebyrutheniumdoping.ACS
+Cho, J.; Ha, D.-H. Influence of the phosphorus source on iron
+Catal.2022,12(24),15045−15055.
+phosphide nanoparticle synthesis for hydrogen evolution reaction
+(111)Chen,P.;Ye,J.;Wang,H.;Ouyang,L.;Zhu,M.Recentprogress
+catalysis.Int.J.HydrogenEnergy2020,45(57),32780−32788.
+oftransitionmetalcarbides/nitridesforelectrocatalyticwatersplitting.
+(122)Zhang,C.;Li,D.;Xu,Y.Mn-dopedNiP:Facilesynthesisand
+J.AlloysCompd.2021,883,160833.He,C.;Tao,J.Transitionmetal
+enhancedelectrocatalyticactivityforhydrogenevolution.J.Mater.Res.
+carbidescoupledwithnitrogen-dopedcarbonasefficientandstableBi-
+2022,37(3),807−817.
+functional catalysts for oxygen reduction reaction and hydrogen
+(123)Wang,Y.;Wang,Y.;Bai,J.;Lau,W.-M.TraceAmountofNiP2
+evolution reaction. Int. J. Hydrogen Energy 2022, 47 (27), 13240−
+Cooperative CoMoP Nanosheets Inducing Efficient Hydrogen
+13250.
+Evolution.ACSomega2021,6(48),33057−33066.
+(112)Zhang,X.;Zhu,Z.;Liang,X.;Ma,F.-X.;Zhang,J.;Tan,Y.;Pan,
+(124)Ge,L.;Yuan,H.;Min,Y.;Li,L.;Chen,S.;Xu,L.;GoddardIII,
+Z.; Bo, Y.; Wu, C.-M. L. Encapsulating dual-phased Mo2C-WC
+W.A.Predictedoptimalbifunctionalelectrocatalystsforthehydrogen
+nanocrystals into ultrathin carbon nanosheet assemblies for efficient
+evolution reaction and the oxygen evolution reaction using
+electrocatalytichydrogenevolution.Chem.Eng.J.2021,408,127270.
+chalcogenide heterostructures based on machine learning analysis of
+Yan,P.;Wu,Y.;Wei,X.;Zhu,X.;Su,W.Preparationofrobusthydrogen
+insilicoquantummechanicsbasedhighthroughputscreening.J.Phys.
+evolutionreactionelectrocatalystWC/Cbymoltensalt.Nanomaterials
+Chem.Lett.2020,11(3),869−876.
+2020,10(9),1621.Hu,Z.;Chen,J.;Pan,P.;Liu,C.;Zeng,J.;Ou,Y.;
+(125)Tseng,C.-A.;Lee,C.-P.TransitionMetalChalcogenidesforthe
+Qi,X.;Liang,T.PorousN-dopedMo2C@Cnanoparticlesforhigh-
+Electrocatalysis of Water. In Advanced Functional Materials; In-
+performancehydrogenevolutionreaction.Int.J.HydrogenEnergy2022,
+techOpen:London,2020.Iffelsberger,C.;Ng,S.;Pumera,M.Catalyst
+47(7),4641−4652.
+coatingof3Dprintedstructuresviaelectrochemicaldeposition:Caseof
+(113)Lv,Z.;Liu,D.;Tian,W.;Dang,J.DesignedsynthesisofWC-
+the transition metal chalcogenide MoSx for hydrogen evolution
+basednanocompositesaslow-cost,efficientandstableelectrocatalysts
+reaction. Appl. Mater. Today 2020, 20, 100654. Moschkowitsch, W.;
+for the hydrogen evolution reaction. CrystEngComm 2020, 22 (27),
+4580−4590. Lori,O.;Elbaz,L.RecentProgressandViabilityofPGM-FreeCatalysts
+(114)Wang,F.;Wu,Y.;Dong,B.;Lv,K.;Shi,Y.;Ke,N.;Hao,L.;Yin, forHydrogenEvolutionReactionandHydrogenOxidationReaction.
+L.; Bai, Y.; Xu, X.; et al. Robust Porous WC-Based Self-Supported
+ACSCatal.2022,12(2),1082−1089.
+Ceramic Electrodes for High Current Density Hydrogen Evolution (126)Ali,T.;Qiao,W.;Zhang,D.;Liu,W.;Sajjad,S.;Yan,C.;Su,R.
+Reaction.Adv.Sci.2022,9,2106029.Huang,J.;Jian,C.;Cai,Q.;Hong, Surface sulfur vacancy engineering of metal sulfides promoted
+W.; Liu, W. A large scale self-supported WP-W 2 C nanoporous desorptionofhydrogenatomsforenhancedelectrocatalytichydrogen
+networkforefficienthydrogenevolutionreactioninalkalinemedia.J. evolution.J.Phys.Chem.C2021,125(23),12707−12712.Duraisamy,
+Mater.Chem.A2022,10,10990. S.;Ganguly,A.;Sharma,P.K.;Benson,J.;Davis,J.;Papakonstantinou,
+(115)Morishita,M.;Nozaki,A.;Yamamoto,H.;Fukumuro,N.;Mori, P.One-stephydrothermalsynthesisofphase-engineeredMoS2/MoO3
+M.; Araki, K.; Sakamoto, F.; Nakamura, A.; Yanagita, H. Catalytic electrocatalysts for hydrogen evolution reaction. ACS Appl. Nano
+activity of Co-nanocrystal-doped tungsten carbide arising from an Mater.2021,4(3),2642−2656.
+internalmagneticfield.RSCAdv.2021,11(23),14063−14070.Tian, (127)Mei,X.;Li,C.; Lam,F.L.-Y.;Hu,X.Nanosheet-liketernary
+D.; Denny, S. R.; Li, K.; Wang, H.; Kattel, S.; Chen, J. G. Density metal sulfide as a pH-universal catalyst for the hydrogen evolution
+functional theory studies of transition metal carbides and nitrides as reaction.ACSAppl.EnergyMater.2020,3(7),6172−6179.Aslan,E.;
+electrocatalysts.Chem.Soc.Rev.2021,50,12338. Yanalak, G.; Hatay Patir, I. Enhanced Hydrogen Evolution Reaction
+(116)Ma,L.;Ting,L.R.L.;Molinari,V.;Giordano,C.;Yeo,B.S. Catalysis at Template-Free Liquid/Liquid Interfaces by In Situ
+Efficient hydrogen evolution reaction catalyzed by molybdenum ElectrodepositedAmorphousMolybdenumSulfideonCarbonNano-
+carbide and molybdenum nitride nanocatalysts synthesized via the tubes.ACSAppl.EnergyMater.2021,4(8),8330−8339.
+7333 https://doi.org/10.1021/acsomega.3c07911
+ACSOmega2024,9,7310−7335
+
+ACSOmega http://pubs.acs.org/journal/acsodf Review
+(128)Wang,S.;Huang,B.;Dai,Y.;Wei,W.OriginoftheEnhanced (139)Wu,P.;Sun,G.;Chen,Y.;Xu,W.;Zheng,H.;Xu,J.;Wang,L.;
+Hydrogen Evolution Reaction Activity of Grain Boundaries in Peng, D.-L. MoSe2-Ni3Se4 hybrid nanoelectrocatalysts and their
+MoS2Monolayers. J. Phys. Chem. C 2022, 126 (14), 6215−6222. enhanced electrocatalytic activity for hydrogen evolution reaction.
+Zhou,W.;Dong,L.;Tan,L.;Tang,Q.First-principlesstudyofsulfur NanoscaleRes.Lett.2020,15(1),1−10.
+vacancyconcentrationeffectontheelectronicstructuresandhydrogen (140)Hu,W.;Shi,Q.;Chen,Z.;Yin,H.;Zhong,H.;Wang,P.Co2N/
+evolutionreactionofMoS2.Nanotechnology2021,32(14),145718. Co2Mo3O8 heterostructure as a highly active electrocatalyst for an
+(129) He, M.; Kong, F.; Yin, G.; Lv, Z.; Sun, X.; Shi, H.; Gao, B. alkalinehydrogenevolutionreaction.ACSAppl.Mater.Interfaces2021,
+Enhancedhydrogenevolutionreactionactivityofhydrogen-annealed 13(7),8337−8343.Dan,Z.;Liang,W.;Gong,X.;Lin,X.;Zhang,W.;
+verticalMoS2nanosheets.RSCAdv.2018,8(26),14369−14376. Le, Z.; Xie, F.; Chen, J.; Yang, M.; Wang, N.; et al. Substitutional
+(130)Zhu,J.;Tu,Y.;Cai,L.;Ma,H.;Chai,Y.;Zhang,L.;Zhang,W. Doping Engineering toward W2N Nanorod for Hydrogen Evolution
+Defect-AssistedAnchoringofPtSingleAtomsonMoS2Nanosheets ReactionatHighCurrentDensity.ACSMater.Lett.2022,4(7),1374−
+Produces High-Performance Catalyst for Industrial Hydrogen 1380.
+Evolution Reaction. Small 2022, 18 (4), 2104824. Zheng, J.; Lu, L.; (141)Tong,R.;Xu,M.;Huang,H.;Zhang,C.;Ma,Y.;Wang,X.;Hu,
+Lebedev,K.;Wu,S.;Zhao,P.;McPherson,I.J.;Wu,T.-S.;Kato,R.;Li, X.;Qu,Y.;Wang,S.;Pan,H.Co2N0.67/MoO2Heterostructureas
+Y.;Ho,P.-L.;etal.Feonmolecular-layerMoS2asinorganicFe-S2-Mo High-EfficiencyElectrocatalystsfortheHydrogenEvolutionReaction.
+motifs for light-driven nitrogen fixation to ammonia at elevated ACSAppl.EnergyMater.2022,5(1),440−448.Xing,Z.;Li,Q.;Wang,
+temperatures.Chem.Catalysis2021,1(1),162−182. D.;Yang,X.;Sun,X.Self-supportednickelnitrideasanefficienthigh-
+(131)Zheng,Z.;Yu,L.;Gao,M.;Chen,X.;Zhou,W.;Ma,C.;Wu,L.; performance three-dimensional cathode for the alkaline hydrogen
+Zhu,J.;Meng,X.;Hu,J.;etal.BoostinghydrogenevolutiononMoS2 evolutionreaction.Electrochim.Acta2016,191,841−845.
+via co-confining selenium in surface and cobalt in inner layer. Nat. (142)Zhou,W.;Huang,S.;Sun,C.Ni3Mo3Ncoupledwithnitrogen-
+Commun.2020,11(1),1−10. richcarbonmicrospheresasanefficienthydrogenevolutionreaction
+(132) Kazemi Korayem, A.; Ghamami, S.; Bahrami, Z. Fractal catalystandelectrochemicalsensorforH2O2detection.Int.J.Hydrogen
+propertiesandmorphologicalinvestigationofnano-amiodaroneusing Energy2022,47(33),14906−14915.
+imageprocessing.SignalImageVideoProcess.2019,13(2),281−287. (143)Park,S.H.;Kang,S.H.;Youn,D.H.DirectOne-StepGrowthof
+Guo,B.;Yu,K.;Li,H.;Qi,R.;Zhang,Y.;Song,H.;Tang,Z.;Zhu,Z.; Bimetallic Ni2Mo3N on Ni Foam as an Efficient Oxygen Evolution
+Chen,M.Coral-shapedMoS2decoratedwithgraphenequantumdots Electrocatalyst.Materials2021,14(16),4768.
+performing as a highly active electrocatalyst for hydrogen evolution (144)Wang,C.;Lv,X.;Zhou,P.;Liang,X.;Wang,Z.;Liu,Y.;Wang,
+reaction.ACSAppl.Mater.Interfaces2017,9(4),3653−3660.Park,T.; P.;Zheng,Z.;Dai,Y.;Li,Y.Molybdenumnitrideelectrocatalystsfor
+Bae,C.;Lee,H.;Leem,M.;Kim,H.;Ahn,W.;Kim,J.;Lee,E.;Shin,H.; hydrogen evolution more efficient than platinum/carbon: Mo2N/
+Kim,H.Non-equilibriumfractalgrowthofMoS2forelectrocatalytic CeO2@ nickel foam. ACS Appl. Mater. Interfaces 2020, 12 (26),
+hydrogenevolution.CrystEngComm2019,21(3),478−486.Kazemi 29153−29161.
+Korayem, A.; Ghamami, S.; Bahrami, Z. Fractal properties and (145)Balaji,D.;Madhavan,J.;AlSalhi,M.S.;Aljaafreh,M.J.;Prasad,
+morphological investigation of Nano hydrochlorothiazide is used to S.; Show, P. L. Carbon supported Ni3N/Ni heterostructure for
+treathypertension.BMCPharmacol.Toxicol.2018,19,1−9. hydrogen evolution reaction in both acid and alkaline media. Int. J.
+(133)Ge,Y.;Shi,Z.;Tan,C.;Chen,Y.;Cheng,H.;He,Q.;Zhang,H. HydrogenEnergy2021,46(60),30739−30749.
+Two-dimensional nanomaterials with unconventional phases. Chem. (146)Zhang,J.;Zhang,L.;Du,L.;Xin,H.L.;Goodenough,J.B.;Cui,
+2020,6(6),1237−1253.Ma,X.;Yang,J.;Xu,X.;Yang,H.;Peng,C. Z. Composition-Tunable Antiperovskite CuxIn1- xNNi3 as Superior
+NiSe/Ni 3 Se 2 on nickel foam as an ultra-high-rate HER ElectrocatalystsfortheHydrogenEvolutionReaction.Angew.Chem.,
+electrocatalyst: common anion heterostructure with built-in electric Int.Ed.2020,59(40),17488−17493.
+fieldandefficientinterfacialchargetransfer.RSCAdv.2021,11(55), (147)Dastafkan,K.;Shen,X.;Hocking,R.K.;Meyer,Q.;Zhao,C.
+34432−34439. Monometallic interphasic synergy via nano-hetero-interfacing for
+(134)Deng,W.;Xie,W.;Li,D.;Gai,Y.;Chen,Z.;Yu,J.;Yang,R.;Bao, hydrogen evolution in alkaline electrolytes. Nat. Commun. 2023, 14
+X.; Jiang, F. Controllable tuning of polymetallic Co-Ni-Ru-S-Se (1),547.
+ultrathinnanosheetstoboostelectrocatalyticoxygenevolution.NPG (148) Wang, H.-F.; Chen, L.; Pang, H.; Kaskel, S.; Xu, Q. MOF-
+AsiaMater.2022,14(1),1−13. derived electrocatalysts for oxygen reduction, oxygen evolution and
+(135)Wang,K.;Lin,Z.;Tang,Y.;Tang,Z.;Tao,C.-L.;Qin,D.-D.; hydrogen evolution reactions. Chem. Soc. Rev. 2020, 49 (5), 1414−
+Tian, Y. Selenide/sulfide heterostructured NiCo2Se4/NiCoS4 for 1448.Sahu,N.;Das,J.K.;Behera,J.NiSe2NanoparticlesEncapsulated
+oxygenevolutionreaction,hydrogenevolutionreaction,watersplitting in N-Doped Carbon Matrix Derived from a One-Dimensional Ni-
+and Zn-air batteries. Electrochim. Acta 2021, 368, 137584. Pang, Y.; MOF: An Efficient and Sustained Electrocatalyst for Hydrogen
+Zhu, S.; Cui, Z.; Liang, Y.; Li, Z.; Wu, S. Self-supported amorphous Evolution Reaction. Inorg. Chem. 2022, 61 (6), 2835−2845.
+nanoporous nickel-cobalt phosphide catalyst for hydrogen evolution Aleksandrzak, M.; Sielicki, K.; Mijowska, E. Enhancement of photo-
+reaction. Progress in Natural Science: Materials International 2021, 31 catalytichydrogenevolutionwithcatalystsbasedoncarbonizedMOF-5
+(2),201−206. andgC3N4.RSCAdv.2020,10(7),4032−4039.
+(136)Xiao,D.;Bao,D.-L.;Liang,X.;Wang,Y.;Shen,J.;Cheng,C.; (149) Wang, X.; Maeda, K.; Thomas, A.; Takanabe, K.; Xin, G.;
+Chu,P.K.Experimentalandtheoreticalinvestigationofthecontroland Carlsson, J. M.; Domen, K.; Antonietti, M. A metal-free polymeric
+balance of active sites on oxygen plasma-functionalized MoSe2 photocatalystforhydrogenproductionfromwaterundervisiblelight.
+nanosheets for efficient hydrogen evolution reaction. Appl. Catal. B: Naturematerials2009,8(1),76−80.Sprick,R.S.;Bonillo,B.;Clowes,
+Environmental2021,288,119983. R.;Guiglion,P.;Brownbill,N.J.;Slater,B.J.;Blanc,F.;Zwijnenburg,M.
+(137) Chang, Y.; Chen, C.; Ho, C.; Cheng, C.; Chen, H.; Fu, T.; A.;Adams,D.J.;Cooper,A.I.Visible-light-drivenhydrogenevolution
+Huang,Y.;Ke,S.;Du,H.;Lee,K.;etal.Surfaceelectronaccumulation usingplanarizedconjugatedpolymerphotocatalysts.Angew.Chem.,Int.
+and enhanced hydrogen evolution reaction in MoSe2 basal planes. Ed.2016,55(5),1792−1796.Rahman,M.Z.;Davey,K.;Qiao,S.-Z.
+NanoEnergy2021,84,105922. Carbon,nitrogenandphosphoruscontainingmetal-freephotocatalysts
+(138)Yang,X.;Liu,W.;Han,C.;Zhao,C.;Tang,H.;Liu,Q.;Xu,J. forhydrogen production: progressand challenges. J. Mater. Chem. A
+Mechanistic insights into charge carrier dynamics in MoSe2/CdS 2018,6(4),1305−1322.Gopi,S.;Panda,A.;Ramu,A.;Theerthagiri,
+heterojunctions for boosted photocatalytic hydrogen evolution. J.;Kim,H.;Yun,K.J.Bifunctionalelectrocatalystsforwatersplitting
+MaterialsTodayPhysics2020,15,100261.Ruqia,B.;Kabiraz,M.K.; fromabimetallic(Vdoped-NixFey)Metal-OrganicframeworkMOF@
+Hong,J.W.;Choi,S.-I.Catalystactivation:Surfacedopingeffectsof Graphene oxide composite. Int. J. Hydrogen Energy 2022, 47, 42122.
+groupVItransitionmetaldichalcogenidestowardshydrogenevolution Liu,Y.;Cheng,H.;Cheng,M.;Liu,Z.;Huang,D.;Zhang,G.;Shao,B.;
+reactioninacidicmedia.J.EnergyChem.2022,72,217. Liang,Q.;Luo,S.;Wu,T.J.C.E.J.;etal.TheapplicationofZeolitic
+7334 https://doi.org/10.1021/acsomega.3c07911
+ACSOmega2024,9,7310−7335
+
+ACSOmega http://pubs.acs.org/journal/acsodf Review
+imidazolateframeworks(ZIFs)andtheirderivativesbasedmaterialsfor (159)Li,Y.;Ai,C.;Deng,S.;Wang,Y.;Tong,X.;Wang,X.;Xia,X.;
+photocatalytic hydrogen evolution and pollutants treatment. Chem. Tu,J.Nitrogendopedverticalgrapheneasmetal-freeelectrocatalystfor
+Eng.J.2021,417,127914. hydrogenevolutionreaction.Mater.Res.Bull.2021,134,111094.
+(150)Zhu,B.;Qu,C.;Gao,S.;Liang,Z.;Zhang,H.;Zou,R.J.C.
+Ultralow Loading Ruthenium Nanoparticles on Nitrogen-Doped
+Graphene Aerogel for Trifunctional Electrocatalysis. ChemCatChem.
+2018,10(5),1113−1121.Zhu,B.;Wen,D.;Liang,Z.;Zou,R.J.C.C.
+R. Conductive metal-organic frameworks for electrochemical energy
+conversionandstorage.Coord.Chem.Rev.2021,446,214119.
+(151)Gao,H.;Shen,H.;Wu,H.;Jing,H.;Sun,Y.;Liu,B.;Chen,Z.;
+Song,J.;Lu,L.;Wu,Z.J.E.;etal.ReviewofPristineMetal-Organic
+Frameworks for Supercapacitors: Recent Progress and Perspectives.
+EnergyFuels2021,35(16),12884−12901.Qiu,T.;Gao,S.;Liang,Z.;
+Wang,D.G.;Tabassum,H.;Zhong,R.;Zou,R.J.A.C.I.E.Pristine
+Hollow Metal-Organic Frameworks: Design, Synthesis and Applica-
+tion.Angew.Chem.,Int.Ed.2021,60,17314.
+(152) Sonowal, K.; Saikia, L. Metal-organic frameworks and their
+compositesforfuelandchemicalproductionviaCO2conversionand
+watersplitting.RSCAdv.2022,12(19),11686−11707.Li,P.;Zheng,
+D.; Gao, M.; Zuo, X.; Sun, L.; Zhou, Q.; Lin, J. Bimetallic MOF-
+Templated Fabrication of Porous Zn, N Co-doped Mo2C for an
+EfficientHydrogenEvolutionReaction.ACSAppl.EnergyMater.2021,
+4(9),8875−8882.Zheng,H.-b.;Chen,H.-h.;Wang,Y.-l.;Gao,P.-z.;
+Liu, X.-p.; Rebrov, E. V. Fabrication of magnetic superstructure
+NiFe2O4@ MOF-74 and its derivative for electrocatalytic hydrogen
+evolutionwithACmagneticfield.ACSAppl.Mater.Interfaces2020,12
+(41),45987−45996.
+(153) Ao, K.; Wei, Q.; Daoud, W. A. MOF-derived sulfide-based
+electrocatalyst and scaffold for boosted hydrogen production. ACS
+Appl.Mater.Interfaces2020,12(30),33595−33602.Qi,W.;Wang,C.;
+Yu,J.;Adimi,S.;Thomas,T.;Guo,H.;Liu,S.;Yang,M.MOF-Derived
+PorousTernaryNickelIronNitrideNanocubeasaFunctionalCatalyst
+toward Water Splitting Hydrogen Evolution for Solar to Chemical
+EnergyConversion.ACSAppl.EnergyMater.2022,5,6155.
+(154)Kazemi,A.;Moghadaskhou,F.;Pordsari,M.A.;Manteghi,F.;
+Tadjarodi,A.;Ghaemi,A.EnhancedCO2capturepotentialofUiO-66-
+NH2synthesizedbysonochemicalmethod:experimentalfindingsand
+performance evaluation. Sci. Rep. 2023, 13 (1), 19891.
+Ramezanalizadeh,H.;Manteghi,F.Mixedcobalt/nickelmetal-organic
+framework, an efficient catalyst for one-pot synthesis of substituted
+imidazoles.MonatsheftefürChemie-ChemicalMonthly2017,148,347−
+355. Ramezanalizadeh, H.; Manteghi, F. Synthesis of a novel MOF/
+CuWO4 heterostructure for efficient photocatalytic degradation and
+removalofwaterpollutants.JournalofCleanerProduction2018,172,
+2655−2666.Abhari,P.S.;Manteghi,F.;Tehrani,Z.Adsorptionoflead
+ionsbyagreenAC/HKUST-1nanocomposite.Nanomaterials2020,10
+(9),1647.
+(155)Li,Y.-W.;Wu,Q.;Ma,R.-C.;Sun,X.-Q.;Li,D.-D.;Du,H.-M.;
+Ma,H.-Y.;Li,D.-C.;Wang,S.-N.;Dou,J.-M.ACo-MOF-derivedCo9
+S 8@ NS-C electrocatalyst for efficient hydrogen evolution reaction.
+RSCAdv.2021,11(11),5947−5957.Sun,Y.;Xue,Z.;Liu,Q.;Jia,Y.;
+Li,Y.;Liu,K.;Lin,Y.;Liu,M.;Li,G.;Su,C.-Y.Modulatingelectronic
+structure of metal-organic frameworks by introducing atomically
+dispersed Ru for efficient hydrogen evolution. Nat. Commun. 2021,
+12(1),1369.
+(156)Yan,L.;Cao,L.;Dai,P.;Gu,X.;Liu,D.;Li,L.;Wang,Y.;Zhao,
+X.J.A. F.M. Metal-organicframeworksderivednanotubeof nickel-
+cobaltbimetalphosphidesashighlyefficientelectrocatalystsforoverall
+watersplitting.Adv.Funct.Mater.2017,27(40),1703455.
+(157)Hao,X.;Jin,Z.;Yang,H.;Lu,G.;Bi,Y.J.A.C.B.E.Peculiar
+synergetic effect of MoS2 quantum dots and graphene on Metal-
+Organic Frameworks for photocatalytic hydrogen evolution. Appl.
+Catal.B.:Environ.2017,210,45−56.
+(158) Zhen, W.; Ma, J.; Lu, G. Small-sized Ni (1 1 1) particles in
+metal-organic frameworks with low over-potential for visible photo-
+catalytichydrogengeneration.Appl.Catal.B:Environmental2016,190,
+12−25.
+7335 https://doi.org/10.1021/acsomega.3c07911
+ACSOmega2024,9,7310−7335
+

@@ -1,0 +1,622 @@
+Article
+Self-Supported Porous High-Entropy Phosphide Film Electrodes
+for Hydrogen Evolution in Diverse Electrolytes
+ShicaoLi1,ShouquanXiang1,JunshengYang1,*,HuaTan2,3andHuangchuChen1
+1 SchoolofMechanicalEngineering,WuhanPolytechnicUniversity,Wuhan430024,China
+2 StateKeyLaboratoryofMaterialProcessingandDie&MouldTechnology,SchoolofMaterialsScienceand
+Engineering,HuazhongUniversityofScienceandTechnology,Wuhan430074,China
+3 GuangdongHUSTIndustrialTechnologyResearchInstitute,Dongguan523808,China
+* Correspondence:yangjunsheng2008@163.com
+Abstract
+Aself-supportedporousFeCoNiCuMohigh-entropyalloyphosphide(HEAP)filmelec-
+trode was prepared by brush coating followed by CVD phosphidation. XRD analysis
+identifiedthecrystallinephasesofthefilmelectrodes. XPSwasusedtoanalyzethesurface
+chemicalstates.TheirsurfacefeatureswereobservedbySEM,whileEDSmappingresolved
+thespatialdistributionoftheconstituentelements. Hydrogenevolutionmeasurementson
+theHEAPelectrodeswereconductedinathree-electrodeconfiguration. Fourelectrolytes
+wereused: 1MKOH,0.5MH SO ,1MKOH+1MNa S,and1MKOH+1MNaCl.
+2 4 2
+Phosphidation temperature had a pronounced effect on catalytic activity. Among the
+electrodesexamined,HEAP-550showedthebestoverallperformance. Itrequiredoverpo-
+tentialsof63,59,60,and57mVtodeliver10mA·cm−2inthefourelectrolytes,respectively.
+Electrochemicalimpedancespectroscopydistinguishedtheelectrodesintermsofcharge-
+transferresistance. TheC valuesderivedfromcyclicvoltammetryreflecteddifferences
+dl
+inelectrochemicallyaccessiblesurfaceareaacrossthethreephosphidationtemperatures.
+HEAP-550exhibitedrelativelylowcharge-transferresistancetogetherwithalargeECSA.
+ThesecharacteristicsareconsistentwithitssuperiorHERactivity. Furthermore,theHEAP-
+550electrodedemonstratedexcellentlong-termstability,maintainingstableoperationat
+a current density of 100 mA cm−2 for 24 h in all four electrolytes. This work provides
+anovelstrategyfordesigningself-supportedporoushigh-entropyphosphidefilmelec-
+trodesbyintegratingmulticomponentalloydesignwithCVDphosphidation,offeringnew
+insightsintotheregulationofsynergisticcatalyticsitesforefficientHER.Thedeveloped
+self-supportedHEAPelectrodeholdsgreatpotentialforpracticalapplicationsinefficient
+waterelectrolysisandsustainablehydrogenproduction.
+Keywords: self-supportedfilms;watersplitting;porousmaterials;phosphides;high-entropy
+alloys
+AcademicEditor:Aleksey
+A.Vedyagin
+Received:22August2026
+Revised:16September2026 1. Introduction
+Accepted:21September2026
+Hydrogenisacleanandefficientenergycarrierthatsupportstheglobaltransition
+Published:23September2026
+towarddecarbonizedenergysystems. Waterelectrolysisoffersanenvironmentallybenign
+Copyright:©2026bytheauthors.
+and scalable route to hydrogen production and has attracted sustained research inter-
+LicenseeMDPI,Basel,Switzerland.
+Thisarticleisanopenaccessarticle est [1–4]. However, its overall energy efficiency remains constrained by the hydrogen
+distributedunderthetermsand evolutionreaction(HER).Interfacialchargetransfer,togetherwiththereversibleadsorp-
+conditionsoftheCreativeCommons tionandsubsequentdesorptionofreactionintermediatesonthecatalystsurface,constitutes
+Attribution(CCBY)license.
+Hydrogen2026,7,137 https://doi.org/10.3390/hydrogen7040137
+
+Hydrogen2026,7,137 2of18
+anessentialcomponentofthehydrogenevolutionreaction(HER)process. Theassociated
+kineticbarriersandelectrodeoverpotentialsleadtoadditionalenergylosses. Thepractical
+useofplatinum-basedHERcatalystsremainslimitedbythecostandrestrictedsupplyof
+platinum,despitetheirsuperioractivity[5].
+Developinglow-costtransition-metalHERelectrodesasalternativestonoble-metal-
+based electrodes is a major research strategy [6,7]. Among the available candidates,
+transition-metalphosphides(TMPs)haveshownparticularlyfavorableHERactivity.Repre-
+sentativeexamplesincludeNi Pnanoparticles(130mV@20mA·cm−2)[8],electrodeposited
+2
+CoPfilms(85mV@10mA·cm−2)[9],MoPparticles(180mV@30mA·cm−2)[10],andultra-
+thinporousCoPnanosheets(56mV@10mA·cm−2)[11]. TheseresultsestablishTMPsas
+effectiveHERcatalysts,althoughtheirperformancecanstillbeimproved. Single-metal
+TMPslackheterometallicelectroniccouplingandsynergisticeffects,limitingcontrolover
+theirelectronicstructuresandlocalchemicalenvironments. Introducingmultiplemetals
+into phosphides has therefore become a common approach to tailoring surface charge
+distributionandintermediateadsorption[12,13]. Interactionsbetweendifferentmetals
+can induce local charge redistribution, modify the electronic states of active sites, and
+tunehydrogen-intermediateadsorption. Together,theseeffectscanimproveHERkinet-
+ics[14–16].
+BimetallicandmultimetallicphosphidesarewidelystudiedforHERelectrocatalysis.
+Theyexhibitimprovedelectronicstructuresandfasterreactionkinetics. Recentstudies
+onW-dopedNi–B–PmicrospheresandternaryW CoB furtherconfirmthatmulticompo-
+3 3
+nentregulationcaneffectivelyenhanceHERperformance[17,18]. However,thelimited
+number of constituent elements restricts control over local chemical environments and
+active-sitestructures[19,20]. High-entropyphosphidescontainseveralprincipalmetals.
+This multicomponent chemistry creates complex local coordination environments and
+broadensthescopefortuningelectronicstructuresandactivesites. Hydrogen-intermediate
+adsorptionandinterfacialchargetransfermayalsobemodulatedbylatticedistortion,local
+structural disorder, and electronic interactions among the constituent elements [21–23].
+Existingstudiesassociatemultielementsynergywithchangesinlocalchargedistribution
+andelectronicstructure,aswellasimprovedHERperformance[24–26]. Self-supported
+andnanoporoushigh-entropyphosphideelectrodeshavebeenreported. However,HER
+studiesonself-supportedporoushigh-entropyphosphidefilmsremainlimited.
+Inthiswork,aself-supportedporoushigh-entropyalloyfilmmatrixwasconstructed
+viabrushcoatingfollowedbyhigh-temperaturevacuumsintering. Chemicalvapordepo-
+sition(CVD)phosphidationconvertedtheprecursorintoaself-supportedporoushigh-
+entropyphosphidefilmelectrode. Comparedwithpreviouslyreportedfreestanding/high-
+entropyphosphideelectrodes,theHEAPfilmelectrodedevelopedinthisworkfeatures
+aself-supportedporousarchitecturefabricatedthroughacombinedalloydesignandCVD
+phosphidation strategy. The synergistic interaction among multiple metallic elements
+andphosphorusincorporationenableseffectiveregulationoftheelectronicstructureand
+catalyticactivesites,contributingtoenhancedHERperformance. ItsHERperformance
+wassystematicallyevaluatedunderfourelectrolyteconditions.Theseincludedacidic0.5M
+H SO ,alkaline1MKOH,simulatedseawatercontaining1MNaCland1MKOH,and
+2 4
+asulfide-containingalkalinemediumcomposedof1MNa Sand1MKOH.Thiswork
+2
+providesinsightsintotheroleofmultielementsynergisticinteractionsandphosphidation-
+induced structural/electronic regulation in improving HER activity of self-supported
+high-entropyelectrodes.
+https://doi.org/10.3390/hydrogen7040137
+
+Hydrogen2026,7,137 3of18
+2. PreparationandCharacterization
+FeCoNiCuMohigh-entropyalloyfilmswerepreparedaccordingtothemethodre-
+portedinRef.[27]. Thefilmswerethenphosphidatedbychemicalvapordeposition(CVD).
+Fromeachfilm,a1cm×1cmspecimenwascutandimmersedin1MHClfor30min.
+Afteracidtreatment, thespecimenwasalternatelyrinsedwithultrapurewaterandab-
+solute ethanol and dried under Ar. It was then placed in a quartz boat at the center of
+theconstant-temperaturezoneofatubefurnace. A0.2gportionofphosphoruspowder
+waspositionedupstream,andArwassuppliedat100mL·min−1. Forremovalofresidual
+moisture,thefurnaceunderwenta10◦C·min−1temperaturerampto120◦C,followedby
+a30mindwellatthattemperature. Thetemperaturewassubsequentlyincreasedto450,
+500,or550◦Candmaintainedfor3htocompletephosphidation. Oncethereactionhad
+ended,thefurnacecoolednaturallytoroomtemperature. Thesamplesunderwent10min
+ofsonicationin1wt%NaOHtoremovesurfaceresidues. Afterrinsingwithultrapure
+waterandethanol,theyweredriedunderArat60◦Cfor2hbeforeuse.
+Chemical-stateinformationfortheconstituentelementswasobtainedfromspectra
+collected with an AMICUS X-ray photoelectron spectrometer (ORTEC, Oak Ridge, TN,
+USA).AJSM-5600LVscanningelectronmicroscope(JEOLLtd.,Tokyo,Japan)provided
+images of the surface microstructure. Elemental-distribution data were acquired with
+an Octane SDD energy-dispersive X-ray spectrometer (EDAX Inc., Mahwah, NJ, USA)
+coupledtothemicroscope. DiffractionpatternsoftheFeCoNiMoCu–Pfilmelectrodeswere
+collectedonaDmax2500VBdiffractometer(RigakuCorporation,Tokyo,Japan)withCu
+Kαradiation(λ=1.541Å)todeterminetheirphasestructure.
+Allelectrochemicaldatawerecollectedfromaconventionalthree-electrodecellcon-
+trolledbyaCHI660Eworkstation. Theelectrodeassemblycomprisedanas-preparedfilm
+workingelectrodeandaPtcounterelectrode. Referenceselectionwaselectrolyte-specific:
+SCEfor0.5MH SO ,Hg/HgOfor1MKOH,andAg/AgClforboth1MNaCl+1MKOH
+2 4
+and1MNa S+1MKOH.Theequationsbelowwereappliedtoexpressthemeasured
+2
+potentialsrelativetothereversiblehydrogenelectrode(RHE).
+E =E +0.241+0.0592pH
+RHE SCE
+E =E +0.098+0.0592pH
+RHE Hg/HgO
+E =E +0.197+0.0592pH
+RHE Ag/AgCl
+Here,E ,E ,andE denotethemeasuredpotentialsversustheSCE,
+SCE Hg/HgO Ag/AgCl
+Hg/HgO,andAg/AgClreferenceelectrodes,respectively,involts. ThepHvaluerefersto
+thepHoftheelectrolyte.
+3. ResultsandDiscussion
+3.1. StructuralFeaturesandConstituent-ElementAnalysis
+The XRD patterns recorded for the samples appear in Figure 1. Diffraction peaks
+correspondingtoMo-,Cu-,andCo-basedphosphidesareclearlyobserved. Theformation
+of Ni C is attributed to the reaction between Ni and carbon released from the thermal
+3
+decompositionofPVBduringprecursorpreparation. ElementalMoisalsodetected. This
+phasemayresultfromthelimitedsolidsolubilityofMoinFe,Ni,andCu. Thepresenceof
+metallicFeindicatesincompletephosphidation,withpartoftheFeretainedinacrystalline
+metallicstate. Localphasesegregationorinsufficientphosphidationmayaccountforthis
+residualFe.
+https://doi.org/10.3390/hydrogen7040137
+
+Hydrogen2026,7,137 4of18
+Figure1.XRDpatternsoftheHEAPfilms.
+Figure 2 presents SEM images of the sample at different magnifications. The film
+exhibits a rough surface with an interconnected porous structure at low magnification.
+Higher-magnificationimagesrevealdistinctsheet-likefeatures. Thishierarchicalmorphol-
+ogy may increase the exposed surface area and facilitate electrolyte transport, thereby
+promotingHERkinetics.
+Figure2.(a–d)SEMmicrographsoftheHEAPfilmrecordedatvariousmagnifications.
+Figure3presentstheEDSelementalmappingsofthesample.CombinedSEMandEDS
+analysesconfirmauniformdistributionofallconstituentelementsthroughoutthefilm.The
+https://doi.org/10.3390/hydrogen7040137
+
+Hydrogen2026,7,137 5of18
+XPSspectraofthesampleappearinFigure4. Threepairsofsignalscanbedistinguished
+intheFe2pspectrumshowninFigure4b. Thecomponentsat706.90and720.10eVare
+assigned to Feδ+ 2p / and Feδ+ 2p / , respectively. Fe2+ is represented by the 2p /
+3 2 1 2 3 2
+featureat710.59eVandthe2p / featureat723.43eV.TheFe3+contributioncomprisesthe
+1 2
+sametwospin–orbitcomponentsat713.67and727.19eV,respectively. Thesimultaneous
+presence of these species indicates that iron phosphides and iron oxides coexist on the
+samplesurface.Thesignalsat717.69and731.39eVareassignedtothesatellitepeaksofFe2+
+2p[28–31]. DeconvolutionoftheCo2pspectruminFigure4cidentifiedthreespin–orbit
+doubletsandtwosatellitefeatures. TheCo0 contributionconsistsofthe2p / signalat
+3 2
+778.48eVandthe2p / signalat793.17eV.ForCo2+,the2p / and2p / components
+1 2 3 2 1 2
+arelocatedat780.38and795.58eV,respectively. TheCo3+speciesgivesrisetothe2p /
+3 2
+peak at 778.98 eV and the 2p / peak at 794.26 eV. Additional features at 787.08 and
+1 2
+802.48eVareassignedtotheCo2+2psatellitepeaks[28–31]. ThreesetsofNi2pfeatures
+areidentifiedinFigure4d. TheNi0pairconsistsofa2p / componentat852.17eVanda
+3 2
+2p / componentat870.38eV.Asecondpairat853.88and871.48eVisassignedtoNi2+
+1 2
+2p / andNi2+ 2p / ,respectively. Thefeaturesat853.66and871.15eVoriginatefrom
+3 2 1 2
+Niδ+ 2p / andNiδ+ 2p / innickelphosphides. Ni3+ speciesgiverisetothepeaksat
+3 2 1 2
+857.68and875.12eV.Thesignalsat861.20and878.83eVareassignedtothesatellitepeaks
+ofNi2+2p[28–31]. AnalysisoftheCu2pspectruminFigure4eidentifiestwosignalsfrom
+metallicCuat932.20and952.10eV.ForCu2+,the2p / and2p / componentsarelocated
+3 2 1 2
+at933.20and953.40eV,respectively,whiletheassociatedsatellitefeaturesoccurat943.30
+and962.60eV[31,32].Figure4fcontainstwodistinctMo3dcontributions.Bindingenergies
+of228.08and231.60eVcharacterizethemetallicMocontribution,whereasthoseat230.18
+and233.30eVareassignedtotheMo2+3d / andMo2+3d / components,respectively.
+5 2 3 2
+TheP2pspectruminFigure4gcontainstwolow-binding-energycomponentsat129.30and
+130.30eVfromphosphorusinmetalphosphides. Asecondpairat134.60and135.70eV
+originatesfromoxidizedphosphorusspecies[28–34].
+Figure3.EDSelementalmappingsoftheHEAPfilm.
+https://doi.org/10.3390/hydrogen7040137
+
+Hydrogen2026,7,137 6of18
+Figure4.XPSspectraoftheHEAPfilm:(a)survey;(b)Fe2p;(c)Co2p;(d)Ni2p;(e)Mo3d;(f)Cu
+2p;(g)P2p.
+3.2. ElectrochemicalPerformance
+3.2.1. HERActivityin0.5MH SO
+2 4
+TheHERactivityofthreeHEAPfilmelectrodeswasfirstevaluatedin0.5MH SO .
+2 4
+Theelectrodeswerephosphidatedat450,500,and550◦CanddenotedasHEAP-450,HEAP-
+500,andHEAP-550,respectively. ThepHofthe0.5MH SO electrolyteisapproximately
+2 4
+0.27. TheLSVcurvesinFigure5ashowanoveralldecreaseinoverpotentialwithincreasing
+phosphidationtemperature,indicatingprogressivelyenhancedHERactivity. HEAP-550
+reached10mA·cm−2atanoverpotentialof63mV,comparedwith88mVforHEAP-500and
+103mVforHEAP-450.TheelectrodekineticstowardtheHERweresubsequentlyexamined
+throughTafelanalysis. AsshowninFigure5b,theTafelslopesofHEAP-550,HEAP-500,
+andHEAP-450were101.37,105.89,and126.83mV·dec−1,respectively. Thesevaluesare
+generallyclosetothetheoreticalvalueofapproximately120mV·dec−1foraVolmer-limited
+process. This result suggests that proton discharge and adsorption may constitute the
+primarykineticlimitationoftheHER.
+https://doi.org/10.3390/hydrogen7040137
+
+Hydrogen2026,7,137 7of18
+Figure5.(a)LSVpolarizationcurvesin0.5MH SO ;(b)thecorrespondingTafelplots.
+2 4
+TheinfluenceofphosphidationtemperatureonHERperformancewasfurtherexam-
+inedthroughEIS.Figure6pairstheNyquistplotsinpanelawiththeequivalentcircuit
+inpanelb. Eachsampleexhibitstwocapacitivearcsofdifferentsizes. Thetwofrequency-
+dependent arcs are governed by separate resistance terms: R accounts for the high-
+p
+frequencymass-transportresponse,andR accountsforthelow-frequencycharge-transfer
+ct
+response. ParametervaluesobtainedfromthefittingprocedurearecompiledinTable1.
+BothR andR decreaseasthephosphidationtemperatureincreases,indicatingreduced
+p ct
+interfacialresistance. HEAP-550exhibitsthelowestimpedancevaluesamongthethree
+samples. FollowingEIS,cyclicvoltammetry(CV)wasusedtoassesstheelectrochemically
+active surface area of the electrodes. The scan-rate-dependent CV curves provided the
+basisforcalculatingthedouble-layercapacitance(C ). AsshowninFigure7d,HEAP-500
+dl
+exhibitsthelowestC ,whereasHEAP-550showsthehighestvalue. AhigherC generally
+dl dl
+indicatesalargerelectrochemicallyaccessiblesurfacearea. CombinedwiththeLSVand
+EISresults,HEAP-550exhibitsbotharelativelyhighC andlowinterfacialresistance. It
+dl
+alsorequiresthelowestoverpotentialfortheHER.Theseresultssuggestthatthephos-
+phidationtemperatureaffectstheelectrochemicallyaccessiblesurfaceareaandinterfacial
+charge-transferbehavioroftheelectrodes. Ofthethreesamplestestedin0.5MH SO ,the
+2 4
+electrodeobtainedbyphosphidationat550◦CdeliveredthehighestHERperformance.
+Figure6.(a)Nyquistplotsofthesamplesin0.5MH SO ;(b)thecorrespondingequivalentcircuit.
+2 4
+https://doi.org/10.3390/hydrogen7040137
+
+Hydrogen2026,7,137 8of18
+Table1.FittedEISparametersoftheHEAPfilmspreparedatdifferentphosphidationtemperatures
+in0.5MH SO .
+2 4
+Rs R CPE-T CPE-P CPE-T CPE-P R
+p 1 1 2 2 ct
+HEAP-450 0.4975 1.47 2.721×10−5 0.8556 0.0031 0.4974 27.53
+HEAP-500 1.129 0.386 4.704×10−3 0.6961 0.1925 0.4449 5.83
+HEAP-550 1.023 0.0779 3.722×10−3 0.8910 0.1374 0.8004 4.192
+Figure7.CVcurvesof(a)HEAP-450,(b)HEAP-500,and(c)HEAP-550in0.5MH SO ;(d)corre-
+2 4
+spondingC plots.
+dl
+According to the method reported in Ref. [35], the HER polarization curves were
+normalized by ECSA using (Cs ≈ 20µF·cm−2). The results indicate that the superior
+geometric HER performance of the optimal sample is mainly associated with its larger
+electrochemicallyaccessiblesurfacearea. Inaddition,the24hchronopotentiometrictest
+(Figure8b)at100mA·cm−2confirmsitsgoodlong-termstability.
+Figure8.(a)ECSA-normalizedHERpolarizationcurveofthecatalystin0.5MH SO .(b)Chronopotentio-
+2 4
+metricstabilitycurverecordedataconstantcurrentdensityof100mA·cm−2for24hin0.5MH SO .
+2 4
+https://doi.org/10.3390/hydrogen7040137
+
+Hydrogen2026,7,137 9of18
+3.2.2. HERActivityin1MKOH
+Aftercompletionoftheacidicmeasurements,testingwasextendedto1MKOHto
+examine the HER activity of these phosphide films. The effects of phosphidation tem-
+peraturewerealsoexamined. Figure9ashowstheLSVpolarizationcurvesofthethree
+electrodes. ThepHofthe1MKOHelectrolyteisapproximately14.0. Theoverpotentialsat
+10mA·cm−2decreasedwithincreasingphosphidationtemperature. HEAP-550required
+an overpotential of only 59 mV, compared with 77 mV for HEAP-500 and 109 mV for
+HEAP-450. Noobviouspolarizationanomalieswereobservedathighercurrentdensities.
+Figure9bshowsthecorrespondingTafelplots. TheTafelslopesofHEAP-450,HEAP-500,
+andHEAP-550were164.14, 151.79, and108.16mV·dec−1, respectively. TheTafelslope
+decreasedwithincreasingphosphidationtemperature,indicatingprogressivelyimproved
+HERkinetics. Thesevaluesareclosetoor higherthanthe theoreticalvalueof approxi-
+mately 120 mV·dec−1 associated with a Volmer-limited process. This suggests that the
+Volmerstepmayimposetheprimarykineticlimitation.Inalkalinemedia,thisstepinvolves
+waterdissociationandtheformationofadsorbedhydrogen. Amongthethreeelectrodes,
+HEAP-550hadthesmallestTafelslopeandthemostrapidHERkinetics.
+Figure9.(a)LSVpolarizationcurvesin1MKOH.(b)ThecorrespondingTafelplots.
+Figure10showstheNyquistplotsofthethreesamplesin1MKOHtogetherwith
+theequivalentcircuit. Table2reportstheparametervaluesyieldedbythefittinganalysis.
+BothR andR decreaseprogressivelywithincreasingphosphidationtemperature. The
+p ct
+impedance arcs in Figure 10a also become smaller. These results indicate that a higher
+phosphidationtemperaturereducesthetransportresistanceandinterfacialcharge-transfer
+resistanceoftheelectrodes. HEAP-550exhibitsthelowestR andR valuesamongthe
+p ct
+threesamples. Figure11compilestheCVcurvesmeasuredovermultiplescanratesandthe
+fitsusedtodetermineC .TheC increasesprogressivelywithphosphidationtemperature.
+dl dl
+HEAP-550exhibitsthehighestC andthelowestR andR . Theseresultssuggestthat
+dl p ct
+ahigherphosphidationtemperatureisassociatedwithmorefavorableinterfacialcharge-
+transfercharacteristicsandalargerelectrochemicallyaccessiblesurfacearea.Thesefeatures
+maypartlyaccountfortheenhancedHERactivityofHEAP-550inalkalinemedia.
+Figure12presentstheECSA-normalizedLSVcurveandthe24hchronopotentiometric
+stabilitytestat100mA·cm−2in1MKOH.TheECSA-normalizedresultindicatesthatthe
+superior geometric HER activity is largely associated with the larger electrochemically
+accessiblesurfacearea,whilethelong-termtestconfirmsgoodoperationalstabilityunder
+alkalineconditions.
+https://doi.org/10.3390/hydrogen7040137
+
+Hydrogen2026,7,137 10of18
+Figure10.(a)Nyquistplotsofthesamplesin1MKOH;(b)thecorrespondingequivalentcircuit.
+Table2.FittedEISparametersoftheHEAPfilmspreparedatdifferentphosphidationtemperatures
+in1MKOH.
+Rs R CPE T CPE P CPE T CPE P R
+p 1 1 2 2 ct
+HEAP-450 0.0968 0.7103 3.488×10−5 0.9906 0.2341 0.8064 317.8
+HEAP-500 0.1020 0.5585 3.399×10−5 0.9258 0.2532 0.8507 126.2
+HEAP-550 0.1755 0.3718 3.646×10−5 0.9544 0.2618 0.7801 73.38
+Figure11.CVcurvesof(a)HEAP-450,(b)HEAP-500,and(c)HEAP-550in1MKOH;(d)correspond-
+ingC plots.
+dl
+https://doi.org/10.3390/hydrogen7040137
+
+Hydrogen2026,7,137 11of18
+Figure12.(a)ECSA-normalizedHERpolarizationcurveofthecatalystin1MKOH.(b)Chronopotentio-
+metricstabilitycurverecordedataconstantcurrentdensityof100mA·cm−2for24hin1MKOH.
+3.2.3. HERActivityin1MKOH+1MNaCl
+HERtestingofthethreeelectrodeswasthenextendedtoamixedelectrolytecontaining
+1MNaCl+1MKOH,followingmeasurementsin1MKOH.Thiselectrolytewasusedto
+assesstheirHERperformanceunderalkalinesimulatedseawaterconditions. Figure13a
+juxtaposestheLSVpolarizationcurvesobtainedfromthethreesamples. ThepHofthe
+1MKOH+1MNaClelectrolyteisapproximately14.0. HEAP-550reached10mA·cm−2
+atanoverpotentialof60mV,whereasHEAP-500andHEAP-450required82and99mV,
+respectively. Theseresultsindicatethatahigherphosphidationtemperaturefavorsthe
+HER activity of the electrodes in an alkaline saline electrolyte. Figure 13b presents the
+correspondingTafelplots. TheTafelslopesofHEAP-450,HEAP-500,andHEAP-550are
+104.5,109.7,and122.1mV·dec−1,respectively. Thesevaluesfallwithinarelativelynarrow
+range,suggestingbroadlysimilarHERkineticcharacteristicsinthiselectrolyte. Theyare
+alsogenerallyclosetothetheoreticalvalueofapproximately120mV·dec−1associatedwith
+aVolmer-limitedprocess. Waterdissociationandtheformationofadsorbedhydrogenmay
+thereforeimposetheprimarykineticlimitation.
+Figure13.(a)LSVpolarizationcurvesin1MKOH+1MNaCl.(b)ThecorrespondingTafelplots.
+EISandCVmeasurementsweresubsequentlyconductedinthealkalinesimulated
+seawaterelectrolyte. TheNyquistplotsarepresentedinFigure14a. Bothimpedancearcs
+becomesmallerasthephosphidationtemperatureincreases. TheEISfittingyieldedthe
+parameter values reported in Table 3. The R decreases from 9.834 Ω for HEAP-450 to
+p
+https://doi.org/10.3390/hydrogen7040137
+
+Hydrogen2026,7,137 12of18
+0.8833ΩforHEAP-500andthento0.7152ΩforHEAP-550. Asimilartrendisobserved
+forRct,whichdecreasesfrom61.89to44.40and9.202Ω,respectively. ThelowerR and
+p
+R valuessuggestreducedtransportresistanceandinterfacialcharge-transferresistanceat
+ct
+higherphosphidationtemperatures. TheCVcurvesandcorrespondingC fittingresults
+dl
+arealsopresentedinFigure15. HEAP-550exhibitsthehighestC , suggestingalarger
+dl
+electrochemicallyaccessiblesurfaceareathantheothertwoelectrodes.Thelargeraccessible
+interfacemayprovidemoresurfaceareaforelectrochemicalreactions. Togetherwiththe
+LSV results, HEAP-550 combines the lowest overpotential, the lowest R and R , and
+p ct
+thehighestC . ItsenhancedHERactivityisconsistentwithimprovedinterfacialcharge
+dl
+transportandanincreasedelectrochemicallyaccessiblesurfacearea.
+Figure14.(a)Nyquistplotsofthesamplesin1MNaCl+1MKOH;(b)thecorrespondingequivalentcircuit.
+Figure15.CVcurvesof(a)HEAP-450,(b)HEAP-500,and(c)HEAP-550in1MKOH+1MNaCl;
+(d)correspondingC plots.
+dl
+https://doi.org/10.3390/hydrogen7040137
+
+Hydrogen2026,7,137 13of18
+Table3.FittedEISparametersoftheHEAPfilmspreparedatdifferentphosphidationtemperatures
+in1MKOH+1MNaCl.
+Rs R CPE T CPE P R CPE T CPE P
+p 1 1 ct 2 2
+HEAP-450 0.8490 9.8340 0.0021 0.6101 61.89 0.4991 0.7961
+HEAP-500 0.5413 0.8833 0.0528 0.5327 44.4 0.1272 0.7469
+HEAP-550 0.9241 0.7152 0.3019 0.4002 9.202 0.0936 0.7609
+Figure16presentstheECSA-normalizedLSVcurveandthe24hchronopotentiometric
+stabilitytestat100mA·cm−2 in1MKOH+1MNaCl. Thenormalizedresultsuggests
+thattheenhancedHERperformanceisstronglyrelatedtotheenlargedelectrochemically
+accessiblesurfacearea, whilethestabilitytestconfirmsgooddurabilityinthechloride-
+containingalkalineelectrolyte.
+Figure16. (a)ECSA-normalizedHERpolarizationcurveofthecatalystin1MKOH+1MNaCl.
+(b)Chronopotentiometricstabilitycurverecordedataconstantcurrentdensityof100mA·cm−2for
+24hin1MKOH+1MNaCl.
+3.2.4. HERActivityin1MKOH+1MNa S
+2
+Followingthemeasurementsinalkalinesimulatedseawater,Na Swasintroduced
+2
+into1MKOHtoprepareasulfide-containingalkalineelectrolyte. TheHERperformance
+ofthesampleswasthenevaluatedunderthismorecomplexelectrolytecondition. The
+pH of the 1 M KOH + 1 M Na S electrolyte is approximately 14.1. Figure 17a presents
+2
+theLSVpolarizationcurvesofthethreesamples. Theη valuesdecreasewithincreasing
+10
+phosphidationtemperature. HEAP-450,HEAP-500,andHEAP-550requireoverpotentials
+of98,76,and57mV,respectively. HEAP-550exhibitsthelowestoverpotential. Ahigher
+phosphidationtemperaturethereforefavorstheHERactivityoftheelectrodesinthesulfide-
+containingalkalineelectrolyte. Figure17bpresentsthecorrespondingTafelplots. TheTafel
+slopesofHEAP-450,HEAP-500,andHEAP-550are174.8,137.43,and107.86mV·dec−1,
+respectively. ThegradualdecreaseinTafelslopeindicatesimprovedHERkineticsathigher
+phosphidation temperatures. HEAP-550 exhibits the lowest Tafel slope and the fastest
+reactionkineticsamongthethreeelectrodes.
+TheNyquistplotsofthethreesamplesin1MNa S+1MKOHappearinFigure18.
+2
+The associated equivalent circuit is included in the same figure. Each sample displays
+acapacitivearcathighfrequenciesandadiffusion-relatedresponseatlowfrequencies. The
+capacitivearcbecomessmallerasthephosphidationtemperatureincreases. Thischange
+indicatesadecreaseintheoverallelectrodeimpedance. ThefittedEISparametersarelisted
+https://doi.org/10.3390/hydrogen7040137
+
+Hydrogen2026,7,137 14of18
+inTable4. R decreaseswithincreasingphosphidationtemperature. Itfallsfrom2.227Ω
+p
+forHEAP-450to0.1252ΩforHEAP-550. Thistrendsuggeststhathigherphosphidation
+temperaturesreducetheresistanceassociatedwithelectrodetransportprocesses. Figure19
+contains the CV curves measured at different scan rates. The corresponding C fitting
+dl
+resultsarealsoincluded. Bothη andR decreasewithincreasingphosphidationtem-
+10 p
+perature. HEAP-550hasthelowestη andR . ItalsoexhibitsthehighestC . Itshigher
+10 p dl
+HERactivityisconsistentwithlowerelectroderesistanceandalargerelectrochemically
+accessiblesurfacearea.
+Figure17.(a)LSVpolarizationcurvesin1MKOH+1MNa S.(b)ThecorrespondingTafelplots.
+2
+Figure18.(a)Nyquistplotsofthesamplesin1MNa S+1MKOH;(b)thecorrespondingequiva-
+2
+lentcircuit.
+Table4.FittedEISparametersoftheHEAPfilmspreparedatdifferentphosphidationtemperatures
+in1MKOH+1MNa S.
+2
+Rs Rp CPE-T CPE-P W-R W-T W-P
+HEAP-450 1.524 2.227 0.1474 0.3662 1.178 1.323 0.3712
+HEAP-500 0.629 0.4341 0.0779 0.5435 1.02 0.8745 0.3618
+HEAP-550 1.302 0.1252 0.0012 0.7471 0.1228 0.0057 0.3770
+https://doi.org/10.3390/hydrogen7040137
+
+Hydrogen2026,7,137 15of18
+Figure19. CVcurvesof(a)HEAP-450,(b)HEAP-500and(c)HEAP-550in1MKOH+1MNa S;
+2
+(d)correspondingC plots.
+dl
+Figure20presentstheECSA-normalizedLSVcurveandthe24hchronopotentiometric
+stabilitytestat100mA·cm−2in1MKOH+1MNa S.Thenormalizedresultindicatesthat
+2
+theenhancedHERperformanceislargelyassociatedwiththeincreasedelectrochemically
+accessiblesurfacearea,whilethelong-termtestdemonstratesgooddurabilityinthesulfide-
+containingalkalineelectrolyte.
+Figure20. (a)ECSA-normalizedHERpolarizationcurveofthecatalystin1MKOH+1MNa S.
+2
+(b)Chronopotentiometricstabilitycurverecordedataconstantcurrentdensityof100mA·cm−2for
+24hin1MKOH+1MNa S.
+2
+https://doi.org/10.3390/hydrogen7040137
+
+Hydrogen2026,7,137 16of18
+4. Conclusions
+(1) Self-supported porous high-entropy alloy phosphide films were obtained by CVD
+phosphidation.Thefilmscontaininterconnectedporesandsheet-likesurfacestructures.
+(2) HEAP-550reaches10mA·cm−2 in0.5MH SO atanoverpotentialof63mV.The
+2 4
+correspondingvaluesforHEAP-500andHEAP-450are88and103mV,respectively.
+The sample phosphidated at 550 ◦C therefore has the highest acidic HER activity
+amongthethreeelectrodes.
+(3) In1MKOH,theoverpotentialdecreasesasthephosphidationtemperatureincreases.
+At10mA·cm−2,HEAP-450,HEAP-500,andHEAP-550requireoverpotentialsof109,
+77,and59mV,respectively.
+(4) Asimilartrendwithrespecttophosphidationtemperatureisalsoobservedinalkaline
+simulatedseawatercontaining1MNaCl+1MKOH.TheoverpotentialsofHEAP-450,
+HEAP-500,andHEAP-550are99,82,and60mV,respectively,at10mA·cm−2.
+(5) In1MNa S+1MKOH,theoverpotentialsofHEAP-450,HEAP-500,andHEAP-550
+2
+are98,76,and57mV,respectively,at10mA·cm−2. HEAP-550alsohasthelowest
+overpotentialinthesulfide-containingelectrolyte.
+Increasing the phosphidation temperature improves the HER performance of the
+HEAP film electrodes in each electrolyte. HEAP-550 requires the lowest overpotential
+underallfourconditions. ItsHERactivityisthereforemaintainedacrossacidic,alkaline,
+saline,andsulfide-containingelectrolytes. Futureworkshouldfocusonfurtheroptimizing
+thecompositionandphosphidationconditionsofHEAPelectrodesandelucidatingthe
+underlyingstructure–activityrelationships.
+AuthorContributions:Supervision,J.Y.;formalanalysis,S.L.andS.X.;conceptualization,J.Y.;data
+curation,S.L.andH.C.;fundingacquisition,J.Y.;writing—originaldraftpreparation,S.L.andJ.Y.;
+validation,S.L.;projectadministration,H.T.andJ.Y.;visualization,S.L.andJ.Y.;methodology,S.L.;
+writing—reviewandediting,J.Y.andS.L.;investigation,S.L.andS.X.Allauthorshavereadand
+agreedtothepublishedversionofthemanuscript.
+Funding:ThisstudyreceivedfinancialsupportfromtheGuangdongS&TProgram(2023B0101200001)
+andtheNationalNaturalScienceFoundationofChina(51704221and52371074).
+InstitutionalReviewBoardStatement:Notapplicable.
+InformedConsentStatement:Notapplicable.
+DataAvailabilityStatement:Theoriginalcontributionspresentedinthisstudyareincludedinthe
+article.Furtherinquiriescanbedirectedtothecorrespondingauthor.
+ConflictsofInterest:Theauthorsreportnoconflictsofinterest.
+References
+1. Cassol,G.S.;Shang,C.;An,A.K.;Khanzada,N.K.;Ciucci,F.;Manzotti,A.;Westerhoff,P.;Song,Y.;Ling,L.Ultra-fastgreen
+hydrogenproductionfrommunicipalwastewaterbyanintegratedforwardosmosis-alkalinewaterelectrolysissystem. Nat.
+Commun.2024,15,2617.[CrossRef]
+2. Terlouw,T.;Rosa,L.;Bauer,C.;McKenna,R.Futurehydrogeneconomiesimplyenvironmentaltrade-offsandasupply-demand
+mismatch.Nat.Commun.2024,15,7043.[CrossRef]
+3. Kim,H.J.;Kim,H.Y.;Joo,J.;Joo,S.H.;Lim,J.S.;Lee,J.;Huang,H.;Shao,M.;Hu,J.;Kim,J.Y.;etal.Recentadvancesinnon-precious
+groupmetal-basedcatalystsforwaterelectrolysisandbeyond.J.Mater.Chem.A2022,10,50–88.[CrossRef]
+4. Molahalli,V.; Sanjith,C.; Shetty,S.L.; Sharma,A.; Ganesha,H.; Vijeth,H.; Chattham,N.Advancedmaterialsforhydrogen
+production,storage,andconversion:Mechanisticinsights,comparativebenchmarks,andsustainabilityroadmaps.Int.J.Hydrogen
+Energy2026,202,152904.[CrossRef]
+5. Zhao,Y.;Kumar,P.V.;Tan,X.;Lu,X.;Zhu,X.;Jiang,J.;Pan,J.;Xi,S.;Yang,H.Y.;Ma,Z.;etal.ModulatingPt-O-Ptatomicclusters
+withisolatedcobaltatomsforenhancedhydrogenevolutioncatalysis.Nat.Commun.2022,13,2430.[CrossRef]
+https://doi.org/10.3390/hydrogen7040137
+
+Hydrogen2026,7,137 17of18
+6. Jamesh,M.-I.;Hu,D.;Wang,J.;Naz,F.;Feng,J.;Yu,L.;Cai,Z.;Colmenares,J.C.;Lee,D.-J.;Chu,P.K.;etal.Recentadvancesin
+noblemetal-freeelectrocatalyststoachieveefficientalkalinewatersplitting.J.Mater.Chem.A2024,12,11771–11820.[CrossRef]
+7. Shahroudi,A.;Habibzadeh,S.Enhancedhydrogenevolutionreactionactivitythroughsamarium-dopednickelphosphide(Ni P)
+2
+electrocatalyst.Sci.Rep.2024,14,16818.[CrossRef]
+8. Popczun,E.J.;McKone,J.R.;Read,C.G.;Biacchi,A.J.;Wiltrout,A.M.;Lewis,N.S.;Schaak,R.E.NanostructuredNickelPhosphide
+asanElectrocatalystfortheHydrogenEvolutionReaction.J.Am.Chem.Soc.2013,135,9267–9270.[CrossRef]
+9. Saadi,F.H.;Carim,A.I.;Verlage,E.;Hemminger,J.C.;Lewis,N.S.;Soriaga,M.P.CoPasanAcid-StableActiveElectrocatalystfor
+theHydrogen-EvolutionReaction:ElectrochemicalSynthesis,InterfacialCharacterizationandPerformanceEvaluation.J.Phys.
+Chem.C2014,118,29294–29300.[CrossRef]
+10. Xiao, P.; Alam Sk, M.; Thia, L.; Ge, X.; Lim, R.J.; Wang, J.-Y.; Lim, K.H.; Wang, X. Molybdenum phosphide as an efficient
+electrocatalystforthehydrogenevolutionreaction.EnergyEnviron.Sci.2014,7,2624–2629.[CrossRef]
+11. Zhang,C.;Huang,Y.;Yu,Y.;Zhang,J.;Zhuo,S.;Zhang,B.Sub-1.1nmultrathinporousCoPnanosheetswithdominantreactive
+{200}facets:Ahighmassactivityandefficientelectrocatalystforthehydrogenevolutionreaction.Chem.Sci.2017,8,2769–2775.
+[CrossRef]
+12. Zhang,P.;Xu,S.;Li,H.;Cui,C.;Huang,S.;Li,Z.;Song,H.J.;Mao,L.;Chung,C.-H.;Park,H.S.;etal. Multi-metalsynergistic
+integrationforelectronicstructureregulationinschreibersite-typeMo Fe Ru Pelectrocatalysts:Exceptionalenhancementof
+2 0.8 0.2
+activityandstabilityforalkalinehydrogenevolutionreaction.J.EnergyChem.2025,108,665–674.[CrossRef]
+13. Zhou,J.;Huang,C.;Zhou,Q.;Xie,Y.;Yang,L.;Yu,L.;Yu,Y.ElectronicStructureRegulationofNickelPhosphideforEfficient
+OverallWaterSplitting.Inorg.Chem.2022,61,9318–9327.[CrossRef]
+14. Cao,Q.;Hao,S.;Wu,Y.;Pei,K.;You,W.;Che,R.InterfacialchargeredistributionininterconnectednetworkofNi P–Co P
+2 2
+boostingelectrocatalytichydrogenevolutioninbothacidicandalkalineconditions.Chem.Eng.J.2021,424,130444.[CrossRef]
+15. Bhunia,K.;Chandra,M.;Sharma,S.K.;Pradhan,D.;Kim,S.-J.Acriticalreviewontransitionmetalphosphidebasedcatalystfor
+electrochemicalhydrogenevolutionreaction: Gibbsfreeenergy,composition,stability,andtrueidentityofactivesite. Coord.
+Chem.Rev.2023,478,214956.[CrossRef]
+16. Liu,D.;Xu,G.;Yang,H.;Wang,H.;Xia,B.Y.RationalDesignofTransitionMetalPhosphide-BasedElectrocatalystsforHydrogen
+Evolution.Adv.Funct.Mater.2023,33,2208358.[CrossRef]
+17. Habib, A.; Dristy, S.A.; Lin, S.; Joni, M.H.; Najibullah, M.; Mandavkar, R.; Lee, J. Electrochemical-Doping of Tungsten on
+Nickel-Boron-PhosphideMicrospheresforAcceleratedIndustrial-ScaleWaterElectrolysisatHighCurrentDensity.Adv.Mater.
+Technol.2025,10,70021.[CrossRef]
+18. Habib,A.;Mandavkar,R.;Burse,S.;Lin,S.;Kulkarni,R.;Patil,C.S.;Jeong,J.-H.;Lee,J.Designofboron-basedternaryW CoB
+3 3
+electrocatalystfortheimprovedHERandOERperformances.Mater.TodayEnergy2022,26,101021.[CrossRef]
+19. Zhao,H.;Liu,M.;Wang,Q.;Li,Y.;Chen,Y.;Zhu,Y.;Yue,Z.;Li,J.;Wang,G.;Zou,Z.;etal.Strongtransboundaryelectrontransfer
+ofhigh-entropyquantum-dotsdrivingrapidhydrogenevolutionkinetics.EnergyEnviron.Sci.2024,17,6594–6605.[CrossRef]
+20. Yin,H.;Rong,F.;Xie,Y.Areviewoftypicaltransitionmetalphosphideselectrocatalystsforhydrogenevolutionreaction.Int.J.
+HydrogenEnergy2024,52,350–375.[CrossRef]
+21. Cao,G.;Yang,S.;Ren,J.-C.;Liu,W.Electronicdescriptorsfordesigninghigh-entropyalloyelectrocatalystsbyleveraginglocal
+chemicalenvironments.Nat.Commun.2025,16,1251.[CrossRef]
+22. Huang,K.;Cao,X.;Lu,Y.;Xiu,M.;Cui,K.;Zhang,B.;Shi,W.;Xia,J.;Woods,L.M.;Zhu,S.;etal.Lattice-DisorderedHigh-Entropy
+AlloyEngineeredbyThermalDezincificationforImprovedCatalyticHydrogenEvolutionReaction.Adv.Mater.2024,36,2304867.
+[CrossRef]
+23. Li,H.;Han,Y.;Zhao,H.;Qi,W.;Zhang,D.;Yu,Y.;Cai,W.;Li,S.;Lai,J.;Huang,B.;etal. Fastsite-to-siteelectrontransferof
+high-entropyalloynanocatalystdrivingredoxelectrocatalysis.Nat.Commun.2020,11,5437.[CrossRef]
+24. Li,W.;Cheng,G.;Peng,S.;Sun,M.;Wang,S.;Han,S.;Liu,Y.;Zhai,T.;Yu,L.Tuninghydrogenbindingenergybyinterfacialcharge
+transferenablespH-universalhydrogenevolutioncatalysisofmetalphosphides.Chem.Eng.J.2022,430,132699.[CrossRef]
+25. Yuan,Q.;Liu,T.;Ma,D.;Liao,Y.;Wang,W.;Meng,H.;You,Q.;Zeng,F.;Xie,M.;Huang,H.;etal. Synergistichigh-entropy
+phosphideswithphosphorusvacanciesasrobustbifunctionalcatalystsforefficientwatersplitting.J.ColloidInterfaceSci.2025,
+684,783–791.[CrossRef]
+26. Wang, Y.; Liu, Y.; Sutra, P.; Qin, G.W.; Li, S.Freestandinghigh-entropyphosphideelectrodesforindustrial-scalehydrogen
+evolutionviafar-from-equilibriumelectrosynthesis.J.Mater.Chem.A2025,13,40305–40312.[CrossRef]
+27. Huang,W.;Yang,J.;Jiang,W.;Tan,H.PreparationofFeCoNiMoCuHigh-EntropyAlloyThinFilmElectrodeandItsWater
+SplittingPerformance.Coatings2025,15,1409.[CrossRef]
+28. Lv,S.;Deng,Y.;Liu,Q.;Fu,Z.;Liu,X.;Wang,M.;Xiao,Z.;Li,B.;Wang,L.Carbon-quantum-dots-involvedFe/Co/Niphosphide
+opennanotubesforhigheffectiveseawaterelectrocatalyticdecomposition.Appl.Catal.BEnviron.2023,326,122403.[CrossRef]
+29. Ping,T.;Das,T.K.;Jena,B.K.In-situconstructionofporousFe/Ni/Co-phosphideheterostructureswithelectronredistributionfor
+theefficientwateroxidationreaction.Electrochim.Acta2023,459,142504.[CrossRef]
+https://doi.org/10.3390/hydrogen7040137
+
+Hydrogen2026,7,137 18of18
+30. Dong,S.;Tang,H.;Wang,K.;Zheng,Q.;Huang,T.Modulatingtheelectronicstructureofternarytransitionmetalphosphidefor
+enhancedhydrogenevolutionactivity.DaltonTrans.2022,51,18722–18733.[CrossRef]
+31. Zhou,Y.;Gao,L.;Chen,H.;Wang,H.;Zhang,J.;Li,X.;Duo,F.;Guan,G.FabricationofamorphousFeCoNiCuMnPxhigh-entropy
+phosphide/carboncompositeswithaheterostructuredfusiformmorphologyforefficientoxygenevolutionreaction.J.Mater.Sci.
+Technol.2024,168,62–70.[CrossRef]
+32. Shen,H.;Wei,T.;Ding,J.;Liu,X.CopperPhosphideNanowiresasHigh-PerformanceCatalystsforUrea-AssistedHydrogen
+EvolutioninAlkalineMedium.Materials2023,16,4169.[CrossRef]
+33. Li,G.;Sun,Y.;Rao,J.;Wu,J.;Kumar,A.;Xu,Q.N.;Fu,C.;Liu,E.;Blake,G.R.;Werner,P.;etal.Carbon-TailoredSemimetalMoPas
+anEfficientHydrogenEvolutionElectrocatalystinBothAlkalineandAcidMedia.Adv.EnergyMater.2018,8,1801258.[CrossRef]
+34. McEnaney,J.M.;Crompton,J.C.;Callejas,J.F.;Popczun,E.J.;Biacchi,A.J.;Lewis,N.S.;Schaak,R.E.AmorphousMolybdenum
+PhosphideNanoparticlesforElectrocatalyticHydrogenEvolution.Chem.Mater.2014,26,4826–4831.[CrossRef]
+35. Chen,B.;Liu,J.;Wang,S.;Huang,H.;He,Y.;Guo,Z.PreparationandelectrochemicalpropertiesofanovelporousTi/Sn–Sb-
+RuOx/β-PbO
+2
+/MnO
+2
+anodeforzincelectrowinning.RSCAdv.2021,11,19136–19146.[CrossRef]
+Disclaimer/Publisher’sNote: Thestatements, opinionsanddatacontainedinallpublicationsaresolelythoseoftheindividual
+author(s)andcontributor(s)andnotofMDPIand/ortheeditor(s).MDPIand/ortheeditor(s)disclaimresponsibilityforanyinjuryto
+peopleorpropertyresultingfromanyideas,methods,instructionsorproductsreferredtointhecontent.
+https://doi.org/10.3390/hydrogen7040137
+

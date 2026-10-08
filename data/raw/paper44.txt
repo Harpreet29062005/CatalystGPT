@@ -1,0 +1,994 @@
+Article
+Metal–N-Heterocyclic Carbene Porous Organic Polymers as
+Efficient Bifunctional Water-Splitting Electrocatalysts
+ShashaMa1,ZhaobinYe1,GuangShi2andJianyongZhang1,*
+1 MOELaboratoryofPolymericCompositeandFunctionalMaterials,SchoolofMaterialsScienceand
+Engineering,SunYat-senUniversity,Guangzhou510275,China
+2 SchoolofChemistry,SouthChinaNormalUniversity,Guangzhou510006,China
+* Correspondence:zhjyong@mail.sysu.edu.cn
+Abstract
+Thedesignandmanufactureofbifunctionalelectrocatalystsareofgreatsignificanceinthe
+electrolysisofwater. Herein,porousorganicpolymers(POPs)ofmetal–N-heterocycliccar-
+beneweresynthesizedfromimidazoliumborateionicPOPsandsupportedonanickelfoam
+surface (Pd–NHC/NF, Ag–NHC/NF, and Cu–NHC/NF). Among them, Pd–NHC/NF
+exhibited high activity for both hydrogen evolution reaction and oxygen evolution re-
+action. The oxygen evolution overpotential of Pd–NHC/NF was 245 mV with a Tafel
+slope of 83 mV dec−1; the hydrogen evolution overpotential was 139 mV with a Tafel
+slope of 94 mV dec−1 at 10 mA cm−2 in alkaline media. Additionally, the assembled
+Pd–NHC/NF||Pd–NHC/NFelectrolyzerdemonstratedexcellentperformanceinelec-
+trocatalytic water-splitting, achieving a voltage of 1.55 V at 10 mA cm−2 and showing
+outstandingstabilityforover90hinthelong-termtest. Theresultshighlightedthesub-
+stantialcapabilityofPd–NHCasabifunctionalcatalystforelectrocatalyticwater-splitting.
+Keywords: porousorganicpolymers;metal–N-heterocycliccarbene;bifunctionalcatalysts;
+water-splitting
+1. Introduction
+Hydrogenenergywithhighenergydensityandstorabilityisregardedasapromising
+energyresource. Electrochemicalwater-splittingcanbeusedforefficientandlarge-scale
+hydrogengeneration[1,2]. Durableandefficientelectrocatalystsarerequiredtopromote
+hydrogenevolutionreaction(HER)andoxygenevolutionreaction(OER)inlarge-scale
+water-splitting[3]. Presently,rutheniumoxide(RuO )andiridiumoxide(IrO )arebench-
+2 2
+mark OER electrocatalysts, while platinum (Pt) is preferred for HER [4]. However, the
+highcostandscarceresourcesofpreciousmetalslimittheircommercial-scaleapplications.
+Therefore,itiscriticaltocontroltheamountofpreciousmetalsused.
+AcademicEditor:TieruiZhang
+CatalystsplayanimportantroleinreducingOER/HERoverpotentialandimprov-
+Received:30May2026
+ing water electrolysis efficiency [5–7]. Transition metal-based oxides [8,9], metal com-
+Revised:17June2026
+plexes/coordinationpolymers[10,11],andlayereddoublehydroxides[12]arewidelyused
+Accepted:18June2026
+Published:21June2026 inOER.Meanwhile,phosphides[13],sulfides[14],andcarbides[15]arepromisingHER
+Copyright:©2026bytheauthors. catalysts. Inordertoimprovetheelectrocatalyticactivityanddecompositionefficiencyof
+LicenseeMDPI,Basel,Switzerland. water-splitting,asignificantnumberofbifunctionalelectrocatalystshavebeendesignedand
+Thisarticleisanopenaccessarticle synthesized. Variousstrategieshavebeenadoptedtooptimizecatalystperformancesuch
+distributedunderthetermsand
+asadjustinglocalelectronicstructures[16–18],enhancingchargetransferefficiency[19–21],
+conditionsoftheCreativeCommons
+andoptimizingexposedactivesites[22,23].
+Attribution(CCBY)license.
+Nanomaterials2026,16,781 https://doi.org/10.3390/nano16120781
+
+Nanomaterials2026,16,781 2of16
+Inrecentyears,nitrogen–heterocycliccarbenes(NHCs)havebeenwidelyusedinthe
+fieldoforganometalliccatalysisduetotheirsimplesynthesis,easeofhandling,non-toxicity,
+robuststability,andtunablecatalyticactivity[24,25]. BecauseNHCsarestrongσ-donors,
+metalcomplexesboundtoNHCstypicallyexhibitinertM–NHCbonds,whichenhance
+theoverallstability[26,27]. Tofacilitatetheseparationandrecovery, M–NHCcatalysts
+havebeenimmobilizedonporousorganicpolymers(POPs)byvirtueoftheirhighsurface
+areaandtailor-madefunctionalgroups[28]. M–NHCcatalystshavebeenemployedto
+catalyzearangeofchemicalreactions,includingcross-coupling[29],olefinmetathesis[30],
+and hydrogenation reactions [31]. However, research on M–NHC functionalized coor-
+dinationpolymersinelectrocatalysisremainslimited. Introducingmetalactivesitesvia
+post-syntheticmodificationofimidazoliumporousorganicpolymersandutilizingthem
+forelectrocatalyticwater-splittingholdsgreatsignificance.
+Herein, a series of metal–N-heterocyclic carbene POPs were synthesized from imi-
+dazoliumborateionicPOPsandsupportedonfoamnickel(Pd–NHC/NF,Ag–NHC/NF
+andCu–NHC/NF)asbifunctionalelectrocatalystsforelectrocatalyticwater-splitting. The
+POPsserveasmultifunctionalcatalyticplatformsinwater-splittingreactions. Theirporous
+architecturefacilitatesefficientmasstransportandelectrolyteaccessibility,whilethetun-
+ablecoordinationenvironmentenablesstrongmetal–ligandinteractionsthatregulatethe
+electronicstructureofactivesites. Suchsynergisticeffectscanoptimizetheadsorptionener-
+geticsofkeyintermediates(*H,*OH,*O,*OOH),therebyenhancingHERandOERkinetics.
+Inaddition,thenetworksofPOPscanstabilizedispersedmetalspeciesandpreventaggre-
+gationunderelectrochemicalconditions,ensuringlong-termcatalyticdurability. Among
+them,Pd–NHC/NFwithPdnanoparticlesloadedinitsmatrixexhibitedlowoverpotential
+of245mV(η )forOER,and139mV(η )forHERinalkalinemedium. Additionally,the
+10 10
+Pd–NHC/NF||Pd–NHC/NFelectrolyzerdemonstratedexcellentactivity,withavoltage
+of1.55Vat10mAcm−2andmaintainedhighstabilityforoverallwater-splittingcatalysis
+overa90hlong-term(E-t)test.
+2. MaterialsandMethods
+2.1. SynthesisofBIM-ph
+1,4-Bis(bromomethyl)benzene (151.0 mg, 0.50 mmol) was dissolved in 30 mL of
+CH CN under N atmosphere and Na[B(IM) ] (307.8 mg, 1.17 mmol) was added. The
+3 2 4
+mixturewasheatedtorefluxfor48h. Themixturewascooledtoroomtemperatureand
+subsequentfiltrationaffordedawhiteprecipitate. Theprecipitatewaswashedwithace-
+tonitrile(5mL×3)andEtOH(5mL×3)andthendriedundervacuumtoobtainawhite
+solid(273.1mg,89%).
+2.2. SynthesisofPd–NHC
+AreactionmixtureofBIM-ph(33.2mg,0.04mmol)andPd(OAc) (36.0mg,0.16mmol)
+2
+in25mLofDMFwasstirredandheatedtorefluxfor24hunderN atmosphere. Afterthe
+2
+reactionmixturewascooledtoroomtemperature,theprecipitatewascollectedbyfiltration,
+washedthreetimeswithacetone(5mL×3),anddriedinavacuumtoobtainadarkgrey
+solid(29.8mg,59%).
+2.3. SynthesisofAg–NHC
+A mixture of BIM-ph (33.2 mg, 0.04 mmol) and Ag O (19.0 mg, 0.08 mmol) was
+2
+suspendedinanhydrousacetonitrile(20mL).Thereactionmixturewasstirredandheated
+at70◦CunderN atmospherefor24hindark,protectedfromlight. Aftercooling,thesolid
+2
+wasfilteredunderanhydrousandoxygen-freeconditionsandwashedwith10%NH ·H O
+3 2
+https://doi.org/10.3390/nano16120781
+
+Nanomaterials2026,16,781 3of16
+toremoveresidualAg O.Theresultingprecipitatewascollectedbyfiltrationandwashed
+2
+withwater(5mL×3)andEtOH(5mL×3)toobtainagreysolid(29.0mg,69%).
+2.4. SynthesisofCu–NHC
+BIM-ph(33.2mg,0.04mmoL)wasdispersedinacetoneunderN atmosphere,and
+2
+then CuCl (15.8 mg, 0.16 mmoL) and K CO (44.2 mg, 0.32 mmoL) were added to the
+2 3
+mixture. Theresultingmixturewasheatedtorefluxfor24h. Aftercooling,themixturewas
+filteredunderN protectionandwashedwithacetone(5mL×3)andethanol(5mL×3)
+2
+toyieldayellowsolid(16.7mg,39%).
+2.5. PreparationofPd–NHC/NF,Ag–NHC/NF,andCu–NHC/NF
+Foamnickelwastreatedbyultrasonicationinacetone,distilledwater,0.2molL−1
+NaBH , and water for 30 min, and then dried at 70 ◦C. The preparation of the catalyst
+4
+inkinvolvedthedispersingof5.0mgPd–NHCinamixtureof145µLofH O,335µLof
+2
+isopropanol,and20µLofnafion. Theinkwassubjectedtoultrasonictreatmentfor30min
+toachieveahomogenizeddispersionandthendrop-castedontothetreatednickelfoamto
+obtainPd–NHC/NF;theloadingmassofthecatalystwas1.2mgcm−2.
+Ag–NHC–NFandCu–NHC–NFwerepreparedusingthesamemethodbyreplacing
+Pd–NHCwithAg–NHCandCu–NHC,respectively.
+2.6. ElectrochemicalMeasurements
+ElectrochemicalOER,HER,andwater-splittingperformanceofthepreparedcatalysts
+wereevaluatedusinganelectrochemicalworkstation(CHI660E,CHIInstruments,Shang-
+hai,China)atroomtemperature(25◦C).Thetestswereconductedusingathree-electrode
+system with an electrolyte of 1.0 mol L−1 KOH. The working electrode (Pd–NHC/NF,
+Ag–NHC/NForCu–NHC/NF)waspreparedbycoatingPd–NHC,Ag–NHC,orCu–NHC
+ontonickelfoam(NF,0.25cm−2),asshownabove. Acarbonrodwithanareaof3.0cm−2
+was used as the counter electrode; a Hg/HgO electrode containing 1.0 mol L−1 KOH
+electrolytewasusedasthereferenceelectrode. Themeasuredpotentialwasreferenced
+tothereversiblehydrogenelectrode(RHE)byapplyingtheequationE(vs. RHE)=E(vs.
+Hg/HgO)+0.059×pH+0.098. ThescanningrateofLSVwas10mVs−1. TheTafelslopes
+weredeterminedbylinearlyfittingtheexperimentaldatausingtheTafelequation,η=a+
+blog|j|,whereη,b,andjcorrespondtooverpotential,Tafelslope,andcurrentdensity,
+respectively. EISmeasurementswereperformedat0.500VfortheOERand−0.132Vfor
+theHER,withanACvoltageamplitudeof5mVoverafrequencyrangeof105Hz–0.01Hz.
+Thedouble-layercapacitance(C )atthesolid–liquidinterfacewasdeterminedbycyclic
+dl
+voltammetry(CV)toestimatetheECSA.Themeasurementswerecarriedoutinthepo-
+tentialrangesof1.10to1.20V(vs. RHE)forOERand0.10to0.20V(vs. RHE)forHER
+toensurenegligibleFaradiccurrentontheworkingelectrode. CVmeasurementswere
+conductedatscanningratesof20,40,60,80,and100mVs−1. A95%iRcompensationwas
+appliedtoallreportedelectrochemicaldata.
+3. ResultsandDiscussion
+3.1. PreparationandCharacterization
+Metal N-heterocyclic carbene polymers (Pd–NHC, Ag–NHC and Cu–NHC) were
+prepared from an imidazolium borate ionic POP (Figure 1). First, sodium tetrakis(1-
+imidazolyl)borate(Na[B(IM) ])wasobtainedbyheatingthemixtureofimidazoleand
+4
+NaBH at225◦CunderanN atmosphere,accordingtopreviouslyreportedprocedures[32].
+4 2
+Then,Na[B(IM) ]reactedwith1,4-bis(bromomethyl)benzeneviaasolvothermalmethod
+4
+toformimidazoliumborateionicPOPwithBr- ascounterions(BIM-ph)[33]. BIM-phis
+https://doi.org/10.3390/nano16120781
+
+Nanomaterials2026,16,781 4of16
+ionic POP with positively charged imidazolium groups and negatively charged borate
+groups. BIM-ph,asaprecursorofNHCligand,formstablemetal–N-heterocycliccarbene
+polymers,Pd–NHC,Ag–NHC,andCu–NHC,aftercomplexationwithPd(OAc) ,Ag O
+2 2
+andCuCl(Figure2). NHCspossessstrongσ-donatingabilityandformstableM–NHC
+bondsuponcoordinationwithmetalions(Pd2+,Ag+andCu+). Thestrongmetal–carbene
+bondsendowedthemetal–N-heterocycliccarbenepolymerswithexcellentstabilitytoair
+andmoisture.
+N
+Pd re (O flu A x c , ) 2 2, 4 D h MF N Pd Pd NB N N N P P d d N
+N
+Pd-NHC
+N N
+N N N N BN N 7 A 0 g o 2 C O , , d M ar e k C , N 24 h N Ag NB N N N Ag N
+Ag Ag
+N 3Br N
+BIM-ph
+Ag-NHC
+CuCl, K2CO3, Acetone
+Cl N
+reflux, 24 h Cl N C C u u NB N N N C C u u N Cl
+N Cl
+Cu-NHC
+Figure1.SynthesisofPd–NHC,Ag–NHC,andCu–NHC.
+Figure2.SchematicdiagramofthefabricationprocessforPd–NHC/NF.
+Scanningelectronmicroscopy(SEM)wasusedtostudythemorphology(Figure3).
+SEMrevealedthatPd–NHCconsistedofaggregatedsphericalparticlesof1–1.2µm. Ag–
+NHCalsopossessedaporousstructurewithaggregatedsphericalparticles,measuring
+approximately1.2µmindiameter. Similarly,Cu–NHChadamorphologyofaggregated
+sphericalparticleswithadiameterof2–2.4µm. ThemorphologyofPd–NHCwerealso
+https://doi.org/10.3390/nano16120781
+
+Nanomaterials2026,16,781 5of16
+investigatedbyhigh-resolutiontransmissionelectronmicroscopy(TEM).TEMimagesre-
+vealeduniformdistributionofPdNPswithparticlessized10to15nmimmobilizedwithin
+thePd–NHCmatrix. HR-TEMimagesrevealeddistinctlatticefringes. Theinterplanar
+spacing of 0.23 nm is attributable to the (111) planes of metallic Pd [34]. Additionally,
+selected-areaelectrondiffraction(SAED)exhibitedapolycrystallineringpattern,which
+is consistent with the diffraction planes of metallic Pd and the standard reference data
+forpalladium(JCPDSCardNo. 05-0681)[35]. Furthermore,thepalladiumcontentofPd–
+NHCwasdeterminedtobe9.74wt%usinginductivelycoupledplasma–opticalemission
+spectrometry(ICP–OES).
+Figure3. SEMimagesof: (a)Pd–NHC;(b)Ag–NHC;(c)Cu–NHC;(d)TEMimage;(e)HR-TEM
+image;and(f)thecorrespondingSAEDpatternofPd–NHC.
+Powder X-ray diffraction (PXRD) of Pd–NHC revealed diffraction peaks at 39.06◦,
+45.41◦,66.17◦ and79.60◦,whichareassignedtothe(111),(200),(220)and(311)planesof
+Pdmetal,respectively(JCPDSCardNo.05-0681)[35],indicatingthatPd2+maybereduced
+to Pd0 in DMF (Figure 4). Ag–NHC exhibited weak diffraction peaks at 38.12◦, 44.28◦
+and 64.20◦, assignable to the (111), (200) and (220) crystallographic planes of Ag metal,
+respectively(JCPDSCardNo.87-0597)[36], indicatingthatasmallamountofAg+ may
+havebeenreducedtoAg0. Cu–NHCshowedabroadpeakatabout21◦, suggestingits
+amorphousnature.
+10 20 30 40 50 60 70 80
+.u.a
+/ ytisnetnI )002(
+)022( )113(
+(a)
+Pd-NHC
+2 θ / o
+)111(
+PDF #87-0637
+10 20 30 40 50 60 70 80
+.u.a
+/ ytisnetnI )111(
+(b)
+Ag-NHC
+PDF #87-0597
+2 θ / o
+)002(
+)022(
+(c)
+10 20 30 40 50 60 70 80
+2 θ / o
+.u.a
+/ ytisnetnI
+Cu-NHC
+Figure4.XRDpatternsof:(a)Pd–NHC;(b)Ag–NHC;and(c)Cu–NHC.
+FT–IRspectroscopywasemployedtomonitortheformationofPd–NHCatdifferent
+reaction times (0, 5, 12, 24 and 30 h) (Figure 5). For BIM-ph, the band at 1141 cm−1 is
+attributedtotheC–N+ stretchingvibrationoftheimidazolering[33,37–39]. Theexsitu
+https://doi.org/10.3390/nano16120781
+
+Nanomaterials2026,16,781 6of16
+FT–IRspectrarevealedgradualweakeningoftheimidazoliumC–N+bondasthereaction
+progressed, confirming the formation of metal–NHC complexes [40,41]. Similarly, the
+characteristicbandat1141cm−1correspondstotheimidazoliumC–N+stretchingvibration
+forCu–NHC,whichwasobviouslyweakenedcomparedwithBIM–ph,demonstratingthe
+successfulpreparationofCu–NHCpolymers[42]. Additionally,thestretchingfrequency
+of the C–N+ bond decreases from 1141 cm−1 to 1132 cm−1 for Ag–NHC. The red shift
+isattributedtothemetal–NHCbonding,probablyresultingfromchargedelocalization
+withintheparticlesduetoreducedmetal–ligandinterfacialresistance[43].
+4000350030002500200015001000 500
+Wavenumber / cm −1
+.u.a
+/
+ecnattimsnarT
+(a)
+0 h
+5 h
+12 h 1141 24 h C-N+
+30 h
+2000 1500 1000 500
+Wavenumber / cm−1
+.u.a
+/
+ecnattimsnarT
+(b)
+0 h
+5 h
+12 h 24 h 1141
+30 h C-N+
+Pd-NHC
+4000350030002500200015001000 500
+.u.a
+/
+ecnattimsnarT
+(c)
+C-N+
+BIM-ph
+Pd-NHC
+1141
+Ag-NHC
+1132 Cu-NHC
+2000 1500 1000 500
+Wavenumber / cm−1
+.u.a
+/
+ecnattimsnarT
+(d)
+C-N+
+BIM-ph
+1141
+Ag-NHC
+1132 Cu-NHC
+Wavenumber / cm−1
+Figure5.(a,b)ExsituFT–IRspectraofPd–NHCatdifferentreactiontimes(0h,5h,12h,24hand
+30h),and(c,d)FT–IRspectraofPd–NHC,Ag–NHC,Cu–NHCandBIM-ph.
+X-rayphotoelectronspectroscopy(XPS)wasemployedtoanalyzetheelementsandde-
+terminetheelectronicpropertiesofPd–NHC(Figure6). Thehigh-resolutionXPSC1sspec-
+trumconsistsofthreedeconvolutedpeaks,whichwereassignedtoC=C/C–C(284.6eV),
+C=N(286.0eV),andthesp2-hybridizedcarbonoftheN–C=Ngroup(288.4eV)[44]. The
+resolutionoftheN1sspectrumintotwopeakssuggeststwochemicallydifferenttypesof
+nitrogenatoms,N–C(400.4eV)andN=C(398.5eV).ThePd3dregionconsistedoftwo
+spin-orbitcomponentsof3d and3d [27]. Specifically,thechemicalstatesofthepalla-
+5/2 3/2
+diumspeciesinPd–NHCwereassessed. ThePd3dregionexhibitedfourdistinctpeaksof
+Pd0andPd2+,whichwereassignedtoPd2+3d at336.8eV,Pd2+3d at342.1eV,Pd0
+5/2 3/2
+3d at335.2eV,andPd03d at340.5eV[25,45]. ComparedwithPd(OAc) ,thebinding
+5/2 3/2 2
+energiesofPd2+3d and3d inPd–NHCshowednegativeshiftsof1.3eVand1.4eV,
+5/2 3/2
+respectively,demonstratingastrongchemicalcoordinationinteractionbetweenPd2+and
+theN-heterocycliccarbene[46]. ThepresenceofPd0indicatedthataportionofPd2+was
+reducedduringthecoordinationoftheNHCligand. Asshownabove,thePdnanoparticles
+werealsoobservedbyXRDandTEM.
+https://doi.org/10.3390/nano16120781
+
+Nanomaterials2026,16,781 7of16
+295 290 285 280
+.u.a
+/ ytisnetnI
+(b) C 1s
+284.6 eV
+C=C/C-C
+286.0 eV
+C-N
+288.4 eV
+N-C=N
+Binding energy / eV
+410 405 400 395 390
+.u.a
+/ ytisnetnI
+(c)
+N 1s
+400.4 eV Pd0 3d 3/2 Pd0 3d 5/2
+Imidazolium N+
+398.5 eV Pd2+ 3d
+Imidazolium N 5/2
+350 345 340 335 330
+Binding energy / eV
+.u.a
+/
+ytisnetnI
+800 600 400 200 0
+(d)
+Pd 3d
+340.5 eV 335.2 eV
+342.1 eV
+Pd2+ 3d
+3/2 336.8 eV
+Binding energy / eV
+.u.a
+/ ytisnetnI
+(a)
+Binding energy / eV
+p3
+dP
+s1
+N
+d3
+dP s1
+C
+p3
+rB+s1
+B
+d3
+rB
+Figure6. (a)XPSsurveyspectrum;(b)C1s;(c)N1s;and(d)Pd3ddeconvolutedhigh-resolution
+XPSspectraofPd–NHC.
+3.2. PerformanceofOxygenEvolutionReaction
+TheOERcatalyticactivityofPd–NHC,Ag–NHCandCu–NHC,depositedonanNF
+electrode,wasinvestigatedwithasweeprateof10mVs−1in1.0molL−1KOHastheelec-
+trolyte(Figure7).BIM-ph/NFandRuO /NFwerestudiedasthecontrol.Alinearscanning
+2
+voltammetry(LSV)testwascarriedoutontheelectrocatalysts. Pd–NHC/NFexhibited
+thehighestactivityforOERamongallelectrocatalysts,withtheoverpotentialof245mV
+atacurrentdensityof10mAcm−2, surpassingAg–NHC/NF(343mV),Cu–NHC/NF
+(366mV),BIM-ph/NF(369mV),andcommercialRuO /NF(261mV).Bymeasuringthe
+2
+overpotentialsatdifferentcurrentdensities,theOERperformancewasfurtherevaluated.
+TheoverpotentialsrequiredforPd–NHC/NFtoreach100,200,and300mAcm−2 were
+331, 356 and 370 mV, respectively. In comparison, the overpotentials required for Ag–
+NHC/NF,Cu–NHC/NF,BIM-ph/NF,andRuO /NFtoreach100mAcm−2were501,515,
+2
+524, and408mV,respectively, furtherdemonstratingthesuperiorOERperformanceof
+Pd–NHC/NF.Additionally,themassactivityofPd–NHCwasdeterminedtobehigh,up
+to85.56mAmg−1attheoverpotentialof245mV.
+TheTafelslopewasdeterminedtoinvestigatethekineticcharacteristicsofelectro-
+catalytic reactions. Pd–NHC/NF showed the Tafel slope of 83 mV dec−1, significantly
+smallerthanAg–NHC/NF(125mVdec−1),Cu–NHC/NF(144mVdec−1),BIM-ph/NF
+(149mVdec−1),andRuO /NF(104mVdec−1). ItindicatesthatPd–NHC/NFhashigher
+2
+activity,astheOERprocessrateincreasesmoresignificantlywithincreasingpotential.
+The OER process involves a complex four-electron transfer through a multi-step
+mechanism;theformationofeachoxygenmoleculerequiresthetransferoffourelectrons.
+TheOERprocessinalkalinemediainvolvesthreereactionintermediates,NHC–M–OH,
+NHC–M–O,andNHC–M–OOH,whereNHC–Mistheactivemetalcenteroftheelectrocat-
+alysts[47,48]. Theintermediatesrepresentadsorbedoxygenspeciesattachedtotheactive
+metalcenterofM–NHCpolymer. Typically,underelectrochemicaloxidationconditions,
+hydroxylionsfirstinitiatetheformationofNHC–M–OH,followedbydeprotonationand
+oxidationstepstoformtheNHC–M–OandNHC–M–OOHintermediates,culminatingin
+thereleaseofO .
+2
+https://doi.org/10.3390/nano16120781
+
+Nanomaterials2026,16,781 8of16
+(c)0.5 Pd-NHC/NF Ag-NHC/NF
+Cu-NHC/NF BIM-ph/NF 0.4 NF
+RuO/NF 2
+0.3
+0.2 0.5 1.0 1.5 2.0 Log (j / mA cm−2)
+V / laitnetoprevO 149
+mV
+1
+d
+4
+e
+4
+c− 1
+mV
+dec−1
+98 mV
+dec−1
+125 mV
+dec−1
+104 mV dec−1 83 mV dec−1
+(d) 300
+CPE 250 Rs Rct 200 150 100
+50
+0 0 50 100 150 200 250 300
+Z' / Ohm
+mhO / ''Z−
+(b) 500
+400
+300
+200
+100
+0
+Pd-NHC/NF Ag-NHC/NF Cu-NHC/NF BIM-ph/NF NF
+Tafel
+slope
+(mV
+dec
+)
+−1
+Ag-NHC/N C F u-NHC/NF BIM-ph/NF NF RuO/ 2 NF
+)Vm( 2−mc
+Am 01@laitnetoprevO
+Pd-NHC/NF
+5
+400 4 Initial 300 After 30 h 200 3 100 0 2 1.2 1.3 1.4 1.5 1.6 1.7
+1
+0 0 5 10 15 20 25 30
+2−mc Am / ytisned tnerruC
+(e)
+Potential / V (vs. RHE)
+Time / h
+)EHR .sv( V/laitnetoP
+400 Pd-NHC/NF Ag-NHC/NF
+300 Cu-NHC/NF BIM-ph/NF
+NF 200 RuO/NF 2
+100
+0 1.2 1.3 1.4 1.5 1.6 1.7 1.8 1.9
+Pd-NHC/NF
+2−mc
+Am
+/ ytisned
+tnerruC
+(a)
+Potential / V (vs. RHE)
+600
+500 400 300 200
+100
+0
+Electrocatalyst
+Vm/2−mc Am 01@laitnetoprevO FN/CHN-dP r r - B P -2F iN O ) M aL,eF( 1.0oC3.0eF-legH FN d @ P /P F ux N C-yn iN M oxC eF eF oC-lp-STC syo F ll N a / H FN O / O P e -o F C -2/ e P S -e iN F / -3i O N2eF BATC-OGC FN/OoMoCiN-C@oCiN C/AEH eCoMiNoCeF F F I/ N )e /2S O (H oM O / O P e o F C 2-PoC-nM G + SB-r h2-004-C@M-iN/)2.0(eF 1-O-iNeFoC oC F D + 3 lA /s + W 0 N 5 O 7xuC@uC-tP sTNCN-CoMiN sFOM-EHM P-oC-NV CC@CN@OoC/oC CC/sWN PoC-eC
+(f)
+Figure7.(a)LSVcursesofPd–NHC/NF,Ag–NHC/NF,Cu–NHC/NF,BIM-ph/NF,andRuO /NF
+2
+in1.0molL−1KOHforOER;(b)summaryofoverpotentialandTafelslopesashistogramsforPd–
+NHC/NF,Ag–NHC/NF,Cu–NHC/NF,BIM-ph/NF,andRuO /NF;(c)TafelcurvesofPd–NHC/NF,
+2
+Ag–NHC/NF,Cu–NHC/NF,BIM-ph/NF,andRuO /NFin1.0molL−1KOH;(d)Nyquistplotsof
+2
+Pd–NHC/NF,Ag–NHC/NF,Cu–NHC/NF,BIM-ph/NF,andRuO /NFin1.0molL−1 KOHfor
+2
+OER(insetshowstheequivalentcircuitdiagram);(e)chronopotentiometryE-tcurveofPd–NHC/NF
+(insetillustratesthepolarizationcurvesrecordedinitiallyandafter30h); and(f)comparisonof
+overpotentialsat10mAcm−2withrecentlyreportedOERelectrocatalysts.
+Electrochemical impedance spectroscopy (EIS) was used to further investigate the
+chargetransferresistanceandkineticbehaviorofPd–NHC/NF,Ag–NHC/NFandCu–
+NHC/NF in alkaline media with a testing frequency range of 0.01–105 Hz. EIS serves
+toelucidatethemechanismatelectrode–electrolyteinterfaces,wherethecomponentsin
+theequivalentelectrochemicalcircuit(EEC)correspondtotheircharacteristics,solution
+resistance(R ),double-layercapacitance(CPE),andchargetransferresistance(R ). The
+s ct
+EISresultsshowthattheR ofPd–NHC/NFwas71.3Ω,significantlylowerthanthoseof
+ct
+Ag–NHC/NF(148.3Ω),Cu–NHC/NF(196.3Ω),andBIM-ph/NF(279.2Ω)(Figure7d).
+ThechargetransferimpedancefollowstheorderofPd–NHC<Ag–NHC<Cu–NHC<BIM-
+ph. Amongthem,Pd–NHChasthesmallestchargetransferresistance,indicatingthatit
+hasthefastestelectrontransferrate. Therefore,thefavorableOERkineticsobservedfor
+Pd–NHC/NFmaybeattributedtotheenhancedchargetransferability[19,47,49].
+Along-termdurabilitytestofPd–NHCwasconductedat10mAcm−2for30h,during
+whichitmaintainedastablecurrentdensity(Figure7e). LSVindicatesthatthepotential
+ofPd–NHC/NFhadnosignificantchangebeforeandafterthe30–hstabilityevaluation
+at10mAcm−2. Moreover,thepotentialdecreasedbyonly1.17%at50mAcm−2,further
+demonstratingtheexcellentcyclingstabilityofPd–NHC/NFforOER.
+TostudytheintrinsicOERelectrocatalyticactivityofthecatalysts,cyclicvoltammetry
+(CV) curves were recorded in the voltage range of 1.10–1.20 V (vs. RHE) (Figure S1).
+The electrochemical active area (ECSA) was evaluated by measuring the double-layer
+capacitance(C ). TheC ofPd–NHC/NF(8.2mFcm−2)exceededthoseofAg–NHC/NF
+dl dl
+(5.6mFcm−2),Cu–NHC/NF(5.2mFcm−2),andBIM-ph/NF(3.2mFcm−2). Itindicates
+thatPd–NHC/NFpossessedalargerelectrochemicallyactiveareaandhigherdensityof
+activesites[50,51],inagreementwithitsexcellentOERperformance.
+https://doi.org/10.3390/nano16120781
+
+Nanomaterials2026,16,781 9of16
+The activity of Pd–NHC/NF is superior to that of many previously reported OER
+catalysts,includingPOPs(Figure7f,TableS1)[51–74]. Incomparison,NF@Hgel-Fe Co
+0.3 0.1
+(hydrogelcontainingFeandCo)demonstratedanoverpotentialof280mVatacurrent
+densityof10mAcm−2[52],THT-PyDAN(C=Cbond-linkedPOPcontainingnitrogenand
+sulfuractivesites)possessedanoverpotentialof283mVat10mAcm−2[53],TDA-Trz-POP
+(nitrogen/sulfur-richthiadiazole-andtriazine-linkedPOP)revealedanoverpotentialof
+410mVat10mAcm−2 [54],andAu(I)–NHCdinuclearcomplexexhibitedanOERover-
+potentialof1140mVin1.0molL−1KOH[55]. Thepresentstudyprovidesaninnovative
+approachforboostingOERperformance.
+3.3. PerformanceofHydrogenEvolutionReaction
+The HER performance of Pd–NHC, Ag–NHC, and Cu–NHC, deposited on an NF
+electrode, was studied in 1.0 mol L−1 KOH (Figure 8). According to the LSV test, the
+overpotentialofPd–NHC/NF(139mV)wassignificantlylowerthanthatofAg–NHC/NF
+(153mV),Cu–NHC/NF(158mV),andBIM-ph/NF(202mV)at10mAcm−2,suggesting
+thatPd–NHC/NFwasmoreeffectiveandneededlessenergytopromoteHERreactions.
+TheoutstandingHERactivityofPd–NHC/NFmayarisefromthestrongσ-donorability
+oftheNHCligand,whichformsstrongPd-CbondswithPd2+ andexposesmoreactive
+sites by the metal ions [47]. Furthermore, Pd–NHC/NF has a smaller Tafel slope, of
+94mVdec−1,thanAg–NHC/NF(110mVdec−1),Cu–NHC/NF(121mVdec−1),andBIM-
+ph/NF(129mVdec−1). Asthecontrol,commercialPt/C/NFexhibitedanoverpotentialof
+39mVat10mAcm−2withaTafelslopeof107mVdec−1. TheTafelslopeofPd–NHC/NF
+mayarisefromtheVolmer–Heyrovskymechanismofhydrogenelectrochemicaldesorption,
+withtheHeyrovskystepbeingthepossiblerate-determiningstep[7,75].
+10 0 -100 5 -200 -300 -0.3 -0.2 -0.1 0.0 Potential / V (vs. RHE) 0
+-5 0 5 10 15 20 25 30
+2−mc Am / ytisned tnerruC Initial After 30 h
+Time / h
+)EHR .sv( V / laitnetoP
+0
+-100
+Pd-NHC/NF
+-200 Ag-NHC/NF Cu-NHC/NF BIM-ph/NF
+-300 Pt/C/NF
+NF
+-0.5 -0.4 -0.3 -0.2 -0.1 0.0
+(e) Pd-NHC/NF
+2−mc
+Am /
+ytisned
+tnerruC
+(a) 0.4
+Pd-NHC/NF
+Ag-NHC/NF
+Cu-NHC/NF 0.3 N B P I t F M /C - / p N h F /NF 129 m 1 V 2 1 d e m c− V 1 dec−1
+0.2
+0.1 9 1 4 0 7 m m V V d e d c e −1 c−1
+115 mV dec−1
+110 mV dec−1
+0.0
+1.0 1.5 2.0
+Potential / V (vs. RHE)
+V / laitnetoprevO
+(b)300 (c)
+200
+100
+0
+Log (j / mA cm−2)
+Tafel slope
+/ mV
+dec
+−1
+Ag-NHC/N
+C
+F u-NHC/NF BIM-ph/NF NF Pt/C/NF
+Vm
+/ 2−mc Am
+01@laitnetoprevO
+Pd-NHC/NF
+400 300 200
+100
+0
+Electrocatalyst
+Vm / 2−mc Am 01@laitnetoprevO FN/CHN-dP eF-iN 4-FN/eSiN/eSiN 4 3 2 FN/rZeFoC 005-CHR-oC/eF FN/eSeFnM/sDQC-B
+FN/OoM/PoC
+2
+GOM- eF iN 4.0 6.0 01-C@PoC/oC 2 3-TNC/PiN/PoC 2 2 SoC-eF/C 2 h2-004-C@M-iN/)2.0(eF 008-CN@iN C/iNrCeF-A SoM-dP 2 CC/sWN PoC-eC 250 (f) Pd-NHC/NF Ag-NHC/NF 200 Cu-NHC/NF BIM-ph/NF 150 NF 100
+50
+0 0 50 100 150 200 250
+mhO / ''Z− (d)
+Z' / Ohm
+Figure8.(a)LSVcursesofPd–NHC/NF,Ag–NHC/NF,Cu–NHC/NF,BIM-ph/NF,andPt/C/NFin
+1.0molL−1KOHforHER;(b)histogramsofoverpotentialandTafelslopesforPd–NHC/NF,Ag–
+NHC/NF,Cu–NHC/NF,BIM-ph/NF,andPt/C/NF;(c)TafelcurvesofPd–NHC/NF,Ag–NHC/NF,
+Cu–NHC/NF,BIM-ph/NF,andPt/C/NFin1.0molL−1KOH;(d)NyquistplotsofPd–NHC/NF,
+Ag–NHC/NF,Cu–NHC/NF,BIM-ph/NF,andPt/C/NFin1.0molL−1KOHforHER(insetshows
+theequivalentcircuitdiagram); (e)E-tcurveofPd–NHC/NF(insetpresentsthecorresponding
+polarizationcurvesbeforeandafterchronopotentiometrymeasurementsfor30h);and(f)comparison
+ofoverpotentialsat10mAcm−2withrecentlyreportedHERelectrocatalysts.
+https://doi.org/10.3390/nano16120781
+
+Nanomaterials2026,16,781 10of16
+The electrode kinetics of the catalyst was studied through EIS measurement. The
+chargetransferresistanceofPd–NHC/NF(37.2Ω)waslowerthanthatofAg–NHC/NF
+(67.8Ω),Cu–NHC/NF(116.2Ω),andBIM-ph/NF(179.0Ω),indicatingfasterchemical
+reaction kinetics (Figure 8d). The long-term durability performance of Pd–NHC/NF
+was evaluated for 30 h at 10 mA cm−2 (Figure 8e). The LSV curves of Pd–NHC/NF
+before and after long-term stability testing were nearly superimposed, confirming its
+excellentdurability.
+TheECSAwasevaluatedbasedontheC measuredviaCV.InFigureS2,Pd–NHC/NF
+dl
+exhibited the highest C (1.5 mF cm−2), which is superior to those of Ag–NHC/NF
+dl
+(1.2mFcm−2),Cu–NHC/NF(0.6mFcm−2),andBIM-ph/NF(0.5mFcm−2),indicating
+thatPd–NHC/NFhadhigherECSA,meaningthatithasalargercatalyticactiveareaand
+moreactivesites.
+Pd–NHC/NFexhibitscompetitiveHERperformance,whichiscomparabletomanyad-
+vancedelectrocatalysts,includingPOPs(Figure8f,TableS2)[76–87].Forexample,Ni@COP
+(nickel-doped2Dcovalentorganicpolymer)exhibitedanoverpotential(η )of290mV
+10
+andaTafelslopeof112mVdec−1in0.5molL−1H SO [76],TPA-OMe(triphenylamine-
+2 4
+basedPOP)demonstratedanoverpotential(η )of353mVin0.5molL−1H SO [77],and
+10 2 4
+SMCOP-4(triazine-containingiminePOP)indicatedaHERoverpotentialof139mVat
+10mAcm−2[78].
+3.4. PerformanceofOverallWater-Splitting
+The above investigations indicate that the Pd–NHC/NF electrode exhibited ex-
+cellent OER and HER activity and can be used as a bifunctional electrocatalyst. Pd–
+NHC/NFwassubsequentlyusedasanodeandcathodeinatwo-electrodeconfiguration
+toexploretheoverallwater-splittingperformance(Figure9a). ThePd–NHC/NF||Pd–
+NHC/NF electrolyzer required a voltage of 1.55 V to achieve a current density of
+10mAcm−2atin1.0molL−1KOH(Figure9b),whichisbetterthanthatofthebenchmark
+Pt/C/NF||RuO /NF (1.56 V) at 10mAcm−2. For Pt/C/NF||RuO /NF, commercial
+2 2
+Pt/CandRuO wereusedascathodeandanode,respectively. Additionally,chronopoten-
+2
+tiometrytestsonthePd–NHC/NF||Pd–NHC/NFelectrodeforoverallwaterdecomposi-
+tionshowedthatthepotentialonlyincreasedby5%after90hofelectrolysisataconstant
+currentdensityof10mAcm−2,demonstratingexcellentstability(Figure9c). Thenearly
+overlappingLSVcurvesbeforeandafterthetestsfurtherconfirmeditsoutstandingdura-
+bility. Interestingly,thewater-splittingactivityofPd–NHC/NF||Pd–NHC/NFsurpasses
+and/ormatchesthatofadvancedcatalystsreportedintheliteratureforelectrocatalytic
+water-splitting[17,88–93]suchasNiTAPP–NiACQ(porphyrinPOPcathodewithacell
+voltageof1.59Vat10mAcm−2)[88],MoS /Ni S (heterostructurewithacellvoltageof
+2 3 2
+approximately1.56Vat10mAcm−2)[89],Fe(0.2)/Ni-M@C-400-2h(iron-dopedannealed
+Ni–MOFcompositewithacellvoltageof1.62Vat10mAcm−2)[17],andsoon(Figure9d
+andTableS3).
+FurthercharacterizationwasconductedtoinvestigatethestructuralintegrityofPd–
+NHCafterthelong-termstabilitytestusingTEM,FT–IR,andXRD(FigureS3). TEMimages
+indicatedthatthestructuredidnotchange. PdNPswithasizedistributionof10–15nm
+wereuniformlydispersedwithinthePd–NHCmatrix.HR-TEManalysisshowedlattice
+fringeswithaninterplanarspacingof0.23nm. Additionally,theSAEDpatternobtained
+fromthePd–NHCregionfurtherconfirmeditscrystallinestructure. IntheFT–IRspectra,
+thebandat1630cm−1and1141cm−1wasassignedtothestretchingvibrationsoftheC=N
+bondandtheC-N+bondwithintheimidazolering,respectively. TheXRDpatternofthe
+spentPd–NHCcatalystshoweddiffractionpeaksat2θ=39.06◦,45.41◦,66.17◦ and79.60◦,
+whichwereassignabletothe(111),(200),(220)and(311)BraggreflectionsofmetallicPd
+https://doi.org/10.3390/nano16120781
+
+Nanomaterials2026,16,781 11of16
+(Pd0),respectively. Thisisconsistentwiththatofthefreshcatalyst,demonstratingthat
+thePd–NHCcatalysthadexcellentstructuralstabilityunderthereactionconditions. The
+structuralcharacteristicsofPd–NHCremainedunchangedafterelectrocatalysis,suggesting
+thatthematerialpossessesexcellentstabilityforelectrocatalyticwater-splitting.
+Figure9.(a)DigitalphotographofthePd–NHC/NF||Pd–NHC/NFelectrolyzer;(b)linearsweep
+voltammetriccurvesofPd–NHC/NF(+)||Pd–NHC/NF(−)inthetwo-electrodesystem;(c)stability
+ofPd–NHC/NF(+)||Pd–NHC/NF(−)at10mAcm−2(insetshowstheLSVcurvesrecordedinitially
+andafter90hoftesting);and(d)cellvoltagetoreach10mAcm−2withreportedcatalystsforthe
+overallwater-splittingperformancein1.0molL−1KOH.
+Toquantitativelyassessthenumberandefficiencyofactivesitesandprovidefurther
+evidenceforthesuperiorelectrocatalyticperformanceofPd–NHC,turnoverfrequency
+(TOF)wasdeterminedinalkalielectrolytes[4,94]. TOFwascalculatedusingtheequation,
+TOF = jA/(zFn),wherejisthemeasuredcurrentdensityataspecifiedoverpotential,A
+isthegeometricareaoftheNFworkingelectrode(0.25cm−2 inthiswork),zdenotesthe
+amountofactivesitesavailableforcatalysis,FistheFaradayconstant(96,485Cmol−1),
+and n equals 4 for the OER or 2 for the HER. Pd–NHC showed OER activity with an
+overpotentialof245mVtoachieve10mAcm−2,correspondingtoTOF of0.024s−1.
+OER
+Similarly,Pd–NHCrequiredanoverpotentialof139mVtoachieve10mAcm−2fortheHER,
+yieldingTOF of0.047s−1. Theremarkableelectrocatalyticactivitymaybeascribedto
+HER
+thecatalyst’sabundanceofhighlyconcentratedactivesites,whichfacilitatetheefficient
+adsorptionanddesorptionofH+andOH− ions.
+4. Conclusions
+To sum up, a series of metal–nitrogen heterocyclic carbenes supported on nickel
+foam(Pd–NHC/NF,Ag–NHC/NF,andCu–NHC/NF)weredevelopedasbifunctional
+electrocatalystsforefficientwaterelectrolysis. Metal–nitrogenheterocycliccarbenes(M–
+NHCs)weresynthesizedfromimidazoliumborateionicPOPandmetalions(Pd2+,Ag+,
+andCu+). TheutilizationofimidazoliumborateionicPOPasNHCligandleadstostrongly
+boundM–NHCspecieswithmetalions,facilitatedbythestrongelectron-donatingcharacter
+of the NHCs. Among the materials, Pd–NHC with Pd NPs loaded in its networked
+matrixdemonstratedsuperiorperformanceinboththeHERandtheOER.Toachievea
+currentdensityof10mAcm−2 inalkalinemedium,Pd–NHC/NFexhibitedalowOER
+overpotential of 245 mV in alkaline medium with a Tafel slope of 83 mV dec−1, and a
+https://doi.org/10.3390/nano16120781
+
+Nanomaterials2026,16,781 12of16
+lowoverpotentialof139mVinHERwithaTafelslopeof94mVdec−1. Moreover,Pd–
+NHC also demonstrated outstanding overall water-splitting activity (1.55 V at η ) on
+10
+NFandexhibitedexceptionaldurability,withnonoticeabledecayduringacontinuous
+90-hE-tcurveinalkalinemedium. Overall,thisworkpresentsanefficientbifunctional
+electrocatalystforefficientwater-splitting.
+SupplementaryMaterials:Thefollowingsupportinginformationcanbedownloadedat:https://
+www.mdpi.com/article/10.3390/nano16120781/s1.Additionalexperimentaldetails,electrocatalysis
+andcharacterizationdata. TableS1. ComparisonofOERperformanceofPd-NHCwiththoseof
+reportedelectrocatalysts. TableS2. ComparisonofHERperformanceofPd-NHCwiththoseof
+reportedelectrocatalysts. TableS3. Comparisonoftheoverallwatersplittingperformancewith
+previouslyreportedcomparableelectrocatalystsaselectrolyzers. FigureS1. (a)CVcurvesofPd-
+NHC/NFatvariousscanrates,(b)CVcurvesofAg-NHC/NFatvariousscanrates,(c)CVcurvesof
+Cu-NHC/NFatvariousscanrates,(d)CVcurvesofBIM-ph/NFatvariousscanrates,(e)CVcurves
+ofRuO2/NFatvariousscanrates,(f)plotsof∆JversusscanrateforPd-NHC/NF,Ag-NHC/NF,
+Cu-NHC/NF,BIM-ph/NFandRuO2/NFatvariousscanrates. FigureS2. (a)CVcurvesofPd-
+NHC/NFatvariousscanrates;(b)CVcurvesofAg-NHC/NFatvariousscanrates;(c)CVcurvesof
+Cu-NHC/NFatvariousscanrates;(d)CVcurvesofBIM-ph/NFatvariousscanrates;(e)CVcurves
+ofPt/C/NFatvariousscanrates;(f)plotsof∆JversusscanrateforPd-NHC/NF,Ag-NHC/NF,Cu-
+NHC/NF,BIM-ph/NFandPt/C/NFatvariousscanrates.FigureS3.(a)TEMimage,(b)HR-TEM
+image,and(c)thecorrespondingSAEDpatternofPd-NHCafterlong-termwatersplittingfor90h.
+(d)FT-IRspectraand(e)powderXRDpatternsofPd-NHCbeforeandafterlong-termwatersplitting
+for90h.
+AuthorContributions:S.M.:Investigation,Formalanalysis,Datacuration,Writing—originaldraft.
+Z.Y.: Investigation, Data curation. G.S.: Data curation. J.Z.: Conceptualization, Data curation,
+Writing—reviewandediting,Supervision.Allauthorshavereadandagreedtothepublishedversion
+ofthemanuscript.
+Funding:ThisworkwassupportedbytheGuangdongBasicandAppliedBasicResearchFoundation
+(2025A1515011588).
+DataAvailabilityStatement:Theoriginalcontributionspresentedinthisstudyareincludedinthe
+article.Furtherinquiriescanbedirectedtothecorrespondingauthor.
+ConflictsofInterest:Theauthorsdeclarenoconflictsofinterest.
+References
+1. Tiwari,A.P.;Yoon,Y.;Novak,T.G.;An,K.-S.;Jeon,S.Continuousnetworkofphase-tunednickelsulfidenanostructuresfor
+electrocatalyticwatersplitting.ACSAppl.NanoMater.2019,2,5061–5070.[CrossRef]
+2. Luo,C.;Liu,X.;Yang,K.;Xu,J.;Zhu,Z.;Tang,Z.;Shen,S.;Fan,J.;Luo,D.;Alshammari,N.A.H.;etal.Coordinationstructure
+engineeringofCu-basedelectrocatalystsforelectrocatalyticwatersplitting.Coord.Chem.Rev.2024,516,215936.[CrossRef]
+3. Chhetri, K.; Muthurasu, A.; Dahal, B.; Kim, T.; Mukhiya, T.; Chae, S.-H.; Ko, T.H.; Choi, Y.C.; Kim, H.Y. Engineering the
+abundantheterointerfacesofintegratedbimetallicsulfide-coupled2DMOF-derivedmesoporousCoS nanoarrayhybridsfor
+2
+electrocatalyticwatersplitting.Mater.TodayNano2022,17,100146.
+4. Zhou,J.;Dou,Y.;Wu,X.-Q.;Zhou,A.;Shu,L.;Li,J.-R.Alkali-etchedNi(II)-basedmetal–organicframeworknanosheetarraysfor
+electrocatalyticoverallwatersplitting.Small2020,16,1906564.
+5. Al-Naggar,A.H.;Shinde,N.M.;Kim,J.-S.;Mane,R.S.Watersplittingperformanceofmetalandnon-metal-dopedtransitionmetal
+oxideelectrocatalysts.Coord.Chem.Rev.2023,474,214864.
+6. Yu,H.;Li,J.;Gao,G.;Zhu,G.;Wang,X.;Lu,T.;Pan,L.Metal-organicframeworksderivedcarbon-incorporatedcobalt/dicobalt
+phosphide microspheres as Mott–Schottky electrocatalyst for efficient and stable hydrogen evolution reaction in wide-pH
+environment.J.ColloidInterfaceSci.2020,565,513–522.[PubMed]
+7. Tran,D.T.;Le,H.T.;Doan,T.L.L.;Kim,N.H.;Lee,J.H.PtnanodotsmonolayermodifiedmesoporousCu@CuxOnanowiresfor
+improvedoverallwatersplittingreactivity.NanoEnergy2019,59,216–228.
+https://doi.org/10.3390/nano16120781
+
+Nanomaterials2026,16,781 13of16
+8. Xu,L.;Jiang,Q.;Xiao,Z.;Li,X.;Huo,J.;Wang,S.;Dai,L.Plasma-engravedCo O nanosheetswithoxygenvacanciesandhigh
+3 4
+surfaceareafortheoxygenevolutionreaction.Angew.Chem.Int.Ed.2016,55,5277–5281.
+9. Abdelghafar,F.;Xu,X.;Jiang,S.P.;Shao,Z.Perovskiteforelectrocatalyticoxygenevolutionatelevatedtemperatures. Chem-
+SusChem2024,17,e202301534.[CrossRef][PubMed]
+10. Okamura,M.;Kondo,M.;Kuga,R.;Kurashige,Y.;Yanai,T.;Hayami,S.;Praneeth,V.K.K.;Yoshida,M.;Yoneda,K.;Kawata,S.;
+etal.Apentanuclearironcatalystdesignedforwateroxidation.Nature2016,530,465–468.[CrossRef][PubMed]
+11. Khrizanforov,M.N.;Samorodnova,A.P.;Bezkishko,I.A.;Gainullin,R.R.;Kholin,K.V.;Gubaidullin,A.T.;Shekurov,R.P.;Miluykov,
+V.A.2Dcoordinationpolymersoftransitionmetalsascatalystsforoxygenevolutionreaction.Mater.Rep.Energy2025,5,100334.
+[CrossRef]
+12. Wang,Y.;Xie,C.;Zhang,Z.;Liu,D.;Chen,R.;Wang,S.Insituexfoliated,N-doped,andedge-richultrathinlayereddouble
+hydroxidesnanosheetsforoxygenevolutionreaction.Adv.Funct.Mater.2018,28,1703363.
+13. Zhang,Y.;Liu,Y.;Ma,M.;Ren,X.;Liu,Z.;Du,G.;Asiri,A.M.;Sun,X.AMn-dopedNi Pnanosheetarray: Anefficientand
+2
+durablehydrogenevolutionreactionelectrocatalystinalkalinemedia.Chem.Commun.2017,53,11048–11051.
+14. Yin,Y.;Zhang,Y.;Gao,T.;Yao,T.;Zhang,X.;Han,J.;Wang,X.;Zhang,Z.;Xu,P.;Zhang,P.;etal.Synergisticphaseanddisorder
+engineeringin1T-MoSe nanosheetsforenhancedhydrogen-evolutionreaction.Adv.Mater.2017,29,1700311.
+2
+15. Wan,J.;Wu,J.;Gao,X.;Li,T.;Hu,Z.;Yu,H.;Huang,L.StructureconfinedporousMo Cforefficienthydrogenevolution.Adv.
+2
+Funct.Mater.2017,27,1703933.[CrossRef]
+16. Gupta,J.;Das,D.;Borse,P.H.;Sarada,B.V.InsituPd-dopedMoS nanosheetsasanHERelectrocatalystforenhancedelectrocat-
+2
+alyticwatersplitting.Sustain.EnergyFuels2024,8,1526–1539.
+17. Srinivas, K.; Chen, Y.; Wang, B.; Yu, B.; Lu, Y.; Su, Z.; Zhang, W.; Yang, D. Metal–organic framework-derived Fe-doped
+Ni Fe/NiFe O heteronanoparticle-decoratedcarbonnanotubenetworkasahighlyefficientanddurablebifunctionalelectrocata-
+3 2 4
+lyst.ACSAppl.Mater.Interfaces2020,12,55782–55794.[PubMed]
+18. Wei,M.;Zhang,D.;Wang,L.;Xiao,X.;Wang,S.;Song,M.;Zhao,S.;Wu,X.Amorphous–crystallineheterostructurewithample
+oxygenvacancyinsituevolvedfromheterojunctionNi(OH) @V–Ni S /NFtowardefficientwaterelectrolysis.EnergyFuels2023,
+2 3 2
+37,16160–16171.
+19. Liu,Z.;Lu,Z.;Cao,Y.;Xie,J.;Hu,J.;Hao,A.StronglycoupledheterostructuredCoP/MoO asanadvancedelectrocatalystfor
+2
+urea-assistedwaterelectrolysis.Inorg.Chem.2024,63,2803–2813.[PubMed]
+20. Wang,P.;Qi,J.;Chen,X.;Li,C.;Li,W.;Wang,T.;Liang,C.Three-dimensionalheterostructuredNiCoP@NiMn-layereddouble
+hydroxidearrayssupportedonNifoamasabifunctionalelectrocatalystforoverallwatersplitting.ACSAppl.Mater.Interfaces
+2020,12,4385–4395.[PubMed]
+21. Prakash,S.;Kamlesh;Tavar,D.;Bandyopadhyay,S.;Singhai,S.;Srivastava,A.K.;Singh,A.GraphenesupportedpillaredNi–Co
+metal–organic framework as an efficient electrocatalyst for the water oxidation reaction. ACS Appl. Energy Mater. 2023, 6,
+8422–8433.
+22. Ye, Y.; Li, C.; Zhao, X.; Feng, H.; Chen, H. CoFe O deposited on the rice husk-derived cordyceps-like SiC as an effective
+2 4
+electrocatalystforoverallwatersplitting.Int.J.HydrogenEnergy2024,49,723–733.
+23. Xu,W.;Wang,H.Earth-abundantamorphouscatalystsforelectrolysisofwater.Chin.J.Catal.2017,38,991–1005.[CrossRef]
+24. Ulu,Ö.D.;Kuruçay,A.;Ates¸,B.;Özdemir,I˙.Synthesis,characterization,invitroantibacterial,andanticancerstudiesofAg(I)-N-
+heterocycliccarbene(NHC)complexes.Chem.Pap.2023,77,423–435.
+25. Lin,H.;Gao,X.;Yao,H.;Luo,Q.;Xiang,B.;Liu,C.;Ouyang,Y.;Zhou,N.;Xiang,D.ImmobilizationofaPd(II)-containing
+N-heterocycliccarbeneligandonporousorganicpolymers:EfficientandrecyclablecatalystsforSuzuki–Miyaurareactions.Catal.
+Sci.Technol.2021,11,3676–3680.
+26. Kaeffer,N.;Liu,H.-J.;Lo,H.-K.;Fedorov,A.;Copéret,C.AnN-heterocycliccarbeneligandpromoteshighlyselectivealkyne
+semihydrogenationwithcoppernanoparticlessupportedonpassivatedsilica.Chem.Sci.2018,9,5366–5371.[CrossRef][PubMed]
+27. Bahadori,M.;Tangestaninejad,S.;Moghadam,M.;Mirkhani,V.;Mechler,A.;Mohammadpoor-Baltork,I.;Zadehahmadi,F.Metal
+organicframework-supportedN-heterocycliccarbenepalladiumcomplex:Ahighlyefficientandreusableheterogeneouscatalyst
+forSuzuki-MiyauraC-Ccouplingreaction.MicroporousMesoporousMater.2017,253,102–111.
+28. Xu,S.;Song,K.;Li,T.;Tan,B.PalladiumcatalystcoordinatedinknittingN–heterocycliccarbeneporouspolymersforefficient
+Suzuki–Miyauracouplingreactions.J.Mater.Chem.A2015,3,1272–1278.
+29. Froese,R.D.J.;Lombardi,C.;Pompeo,M.;Rucker,R.P.;Organ,M.G.DesigningPd–N-heterocycliccarbenecomplexesforhigh
+reactivityandselectivityforcross-couplingapplications.Acc.Chem.Res.2017,50,2244–2253.[PubMed]
+30. Vougioukalakis,G.C.;Grubbs,R.H.Ruthenium-basedheterocycliccarbene-coordinatedolefinmetathesiscatalysts.Chem.Rev.
+2017,110,1746–1787.
+31. Zhao,D.;Candish,L.;Paul,D.;Glorius,F.N-heterocycliccarbenesinasymmetrichydrogenation.ACSCatal.2016,6,5978–5988.
+[CrossRef]
+https://doi.org/10.3390/nano16120781
+
+Nanomaterials2026,16,781 14of16
+32. Hamilton,B.H.;Kelly,K.A.;Malasi,W.;Ziegler,C.J.Tetrakis(imidazolyl)borate-basedcoordinationpolymers:GroupIInetwork
+solids,M[B(Im) ] (H O) (M=Mg,Ca,Sr).Inorg.Chem.2003,42,3067–3073.[PubMed]
+4 2 2 2
+33. Ma,S.;Chen,D.;Xu,J.;Ye,Z.;Zhang,J.GlassycarbonelectrodesmodifiedwithRunanoparticlesloadedinB-dopedimidazolium
+porousorganicpolymersforhydrogenevolutionreaction.Chem.AsianJ.2025,20,e202401042.[PubMed]
+34. Zhang,Z.;Lu,J.;Zhang,B.;Shi,W.;Guob,Y.;Cui,F.InsightintothesizeeffectofPdnanoparticlesonthecatalyticreductionof
+nitriteinwateroverPd/Ccatalysts.Environ.Sci.Nano2020,7,2117–2129.[CrossRef]
+35. Odoom-Wubah,T.;Rubio,S.;Tirado,J.L.;Ortiz,G.F.;Akoi,B.J.;Huang,J.;Li,Q.WastePd/fish-collagenasanodeforenergy
+storage.Renew.Sustain.EnergyRev.2020,131,109968.
+36. Panahi,P.N.;Alimohammadi,S.;Norouzi,F.Gas-phasephotocatalyticdegradationofamixtureofVOCsonAgNPsdecorated
+ZnO.ChemistrySelect2024,9,e202402234.
+37. Kandathil,V.;Siddiqa,A.;Patra,A.;Kulkarni,B.;Kempasiddaiah,M.;Sasidhar,B.S.;Patil,S.A.;Rout,C.S.;Patil,S.A.NHC-Pd
+complexheterogenizedongrapheneoxideforcross-couplingreactionsandsupercapacitorapplications.Appl.Organomet.Chem.
+2020,34,e5924.
+38. Wang,Y.;Nie,J.;Lu,C.;Wang,F.;Ma,C.;Chen,Z.;Yang,G.Imidazolium-basedpolymericionicliquidsforheterogeneous
+catalyticconversionofCO intocycliccarbonates.MicroporousMesoporousMater.2020,292,109751.[CrossRef]
+2
+39. Yang,Z.-Z.;Zhao,Y.;Ji,G.;Zhang,H.;Yu,B.;Gao,X.;Liu,Z.Fluoro-functionalizedpolymericionicliquids: Highlyefficient
+catalystsforCO cycloadditiontocycliccarbonatesundermildconditions.GreenChem.2014,16,3724.
+2
+40. Lei,Y.; Lan,G.; Fan,M.; Li,G.PalladiumcoordinatedinN-heterocycliccarbene-functionalizedporousorganicpolymerfor
+efficientoxidativecarbonylationofglycerol.Catal.Commun.2020,140,106007.
+41. Let,S.;Dam,G.K.;Samanta,P.;Fajal,S.;Dutta,S.;Ghosh,S.K.Palladium-anchoredN-heterocycliccarbenesinaporousorganic
+polymer:Aheterogeneouscompositecatalystforeco-friendlyC–Ccoupling.J.Org.Chem.2022,87,16655–16664.[PubMed]
+42. Lei,Y.;Fan,M.;Lan,G.;Li,G.CoppersupportedonN-heterocycliccarbene-functionalizedporousorganicpolymerforefficient
+oxidativecarbonylationofmethanol.Appl.Organomet.Chem.2020,34,e5794.
+43. Zhang, F.; Huang, L.; Zou, J.; Yan, J.; Zhu, J.; Kang, X.; Chen, S. Nitrile-functionalized ruthenium nanoparticles: Charge
+delocalizationthroughRu–N≡Cinterface.J.Nanopart.Res.2017,19,106.
+44. Zhang,H.;Duan,X.;Han,M.;Liu,F.;Zhang,G.;Gao,K.;Liu,M.Experimentalandtheoreticalinvestigationsofzwitterionic
+hypercrosslinkedpolymersasrobustcatalystsforCO fixationundercocatalyst-andsolvent-freeconditions.Sep.Purif.Technol.
+2
+2025,354,128817.
+45. Yang,H.;Han,X.;Li,G.;Wang,Y.N-Heterocycliccarbenepalladiumcomplexsupportedonionicliquid-modifiedSBA-16:An
+efficientandhighlyrecyclablecatalystfortheSuzukiandHeckreactions.GreenChem.2009,11,1184–1193.
+46. Wu,F.;Huang,T.;Hu,Y.;Yang,X.;Ouyang,Y.;Xie,Q.Differentialpulsevoltammetricsimultaneousdeterminationofascorbic
+acid,dopamineanduricacidonaglassycarbonelectrodemodifiedwithelectroreducedgrapheneoxideandimidazoliumgroups.
+Microchim.Acta2016,183,2539–2546.[CrossRef]
+47. Vijayakumar,M.;Achar,G.;Yhobu,Z.;Malecki,J.G.;Nagaraju,D.H.;Keri,R.S.;Budagumpi,S.Augmentingtheelectrocatalytic
+activitiesofmetal-N-heterocycliccarbenecomplexesasbifunctionalelectrocatalystsforhydrogenandoxygenevolutionreactions
+bycarboncompositestrategy.EnergyFuels2025,38,5421–5432.
+48. Suen,N.-T.;Hung,S.-F.;Quan,Q.;Zhang,N.;Xu,Y.-J.;Chen,H.M.Electrocatalysisfortheoxygenevolutionreaction:Recent
+developmentandfutureperspectives.Chem.Soc.Rev.2016,46,337–365.
+49. Wu,Y.;Wang,L.;Bo,T.;Chai,Z.;Gibson,J.K.;Shi,W.Boostinghydrogenevolutioninneutralmediumbyacceleratingwater
+dissociationwithRuclustersloadedonMo CTxMXene.Adv.Funct.Mater.2023,33,2214375.[CrossRef]
+2
+50. Chen,J.-B.;Ying,J.;Xiao,Y.-X.;Tian,G.;Dong,Y.;Shen,L.;deTorresi,S.I.C.;Symes,M.D.;Janiak,C.;Yang,X.-Y.Directedmass
+andelectrontransferpromotedbyhierarchicalporousCo–P–Oleadstoenhancementoftheoverallwatersplittingefficiency.
+ACSCatal.2023,13,14802–14812.
+51. Wang,H.;Li,W.;Wu,J.;Wang,D.;Hou,D.;Sheng,M.;Guo,R.Interface-modifiedNi–Fe–P/Co–P/NFalloysforelectrocatalytic
+watersplittinginalkalinesolution.EnergyFuels2023,37,19103–19112.
+52. Tang,C.;Thomas,B.;Ramírez-Hernández,M.;Mikmeková,E.M.;Asefa,T.Metal-functionalizedhydrogelsasefficientoxygen
+evolutionelectrocatalysts.ACSAppl.Mater.Interfaces2022,14,20919–20929.[CrossRef][PubMed]
+53. Sadhukhan,A.;Karmakar,A.;Koner,K.;Karak,S.;Sharma,R.K.;Roy,A.;Sen,P.;Dey,K.K.;Mahalingam,V.;Pathak,B.;etal.
+Functionalitymodulationtowardthianthrene-basedmetal-freeelectrocatalystsforwatersplitting.Adv.Mater.2024,36,2310938.
+54. Ghosh,A.;Mondal,M.;Manna,R.N.;Bhaumik,A.Targetedsynthesisofametal-freethiadiazolatebasednitrogenandsulfurrich
+porousorganicpolymerforanunprecedentedhydrogenevolutionintheelectrochemicalwatersplitting.J.ColloidInterfaceSci.
+2024,658,415–424.[PubMed]
+55. Yhobu,Z.;Markandeya,G.B.;Małecki,J.G.;Srinivasa,H.T.;Keri,R.S.;Nagaraju,D.H.;Azam,M.;Al-Resayes,S.I.;Budagumpi,B.
+Pyridine-functionalizedN-heterocycliccarbenegold(I)binuclearcomplexesasmolecularelectrocatalystsforoxygenevolution
+reactions.Appl.Organomet.Chem.2022,36,e6837.
+https://doi.org/10.3390/nano16120781
+
+Nanomaterials2026,16,781 15of16
+56. Wang,D.;Sun,Z.;Cui,W.;He,C.;Zhao,Z.Multi-interfacialnanosheet-intercalatedstructurewithabundantoxygenvacancies
+promoteselectrocatalyticoxygenevolution.Catal.Sci.Technol.2024,14,5324–5330.
+57. Qi,Q.;Zhang,Y.;Zhang,C.;Liu,F.;Liu,R.;Hu,J.Halogen-modifiediron-basedmetal−organicframeworksforremarkably
+improvedelectrocatalyticoxygenevolution.J.Phys.Chem.C2024,128,1936–1945.
+58. Gong,G.;Zhou,J.;Guo,X.;Xie,R.;Zeng,X.;Zhang,M.;Wen,K.;Hu,T.;Shan,S.;Yao,K.Mn-mediatedefficientoxygenevolution
+reactiononphosphorizedNiFeelectrocatalyst.Chem.Eng.J.2025,506,159975.
+59. Wang,S.;Xu,B.;Huo,W.;Feng,H.;Zhou,X.;Fang,F.;Xie,Z.;Shang,J.K.;Jiang,J.EfficientFeCoNiCuPdthin-filmelectrocatalyst
+foralkalineoxygenandhydrogenevolutionreactions.Appl.Catal.B2022,313,121472.
+60. Lofek,M.;Wojtasik,M.;Markowski,J.;Stelmachowski,P.Exploringthepotentialofbiocharsforboostingelectrocatalyticoxygen
+evolutionreaction.BiomassBioenergy2025,197,107770.[CrossRef]
+61. Liu,S.;Wang,F.;Wang,J.;Wang,Z.;He,X.;Zhang,T.;Zhang,Z.;Liu,Q.;Liu,X.;Zhang,X.Denseheterogeneousinterfacesboost
+theelectrocatalyticoxygenevolutionreaction.Appl.Catal.B2024,355,124148.[CrossRef]
+62. Gao,H.;Yang,M.;Liu,X.;Dai,X.;Bao,X.-Q.;Xiong,D.HydrothermalsynthesizeddelafossiteCuGaO asanelectrocatalystfor
+2
+wateroxidation.Front.Optoelectron.2022,15,8.[PubMed]
+63. Qian,G.;Chen,J.;Yu,T.;Luo,L.;Yin,S.N-dopedgraphene-decoratedNiCoalloycoupledwithmesoporousNiCoMoOnano-sheet
+heterojunctionforenhancedwaterelectrolysisactivityathighcurrentdensity.Nano-MicroLett.2021,13,77.
+64. Zhang,W.;Guo,R.;Yue,Q.;Huang,Y.;Zhang,G.;Guan,L.Preparationofhigh-entropyalloybifunctionalcatalystswithrare
+earthCecoordinationandefficientwatersplittingresearch.Ionics2024,30,3403–3416.[CrossRef]
+65. Niu,S.;Jiang,W.-J.;Wei,Z.;Tang,T.;Ma,J.;Hu,J.-S.;Wan,L.-J.Se-dopingactivatesFeOOHforcost-effectiveandefficient
+electrochemicalwateroxidation.J.Am.Chem.Soc.2019,141,7005–7013.[PubMed]
+66. Liu,Y.;Ran,N.;Ge,R.;Liu,J.;Li,W.;Chen,Y.;Feng,L.;Che,R.PorousMn-dopedcobaltphosphidenanosheetsashighlyactive
+electrocatalystsforoxygenevolutionreaction.Chem.Eng.J.2021,425,131642.[CrossRef]
+67. Li,L.;Hagiwara,S.;Jiang,C.;Kusaka,H.;Watanabe,N.;Fujita,T.;Kuroda,F.;Yamamoto,A.;Miyakawa,M.;Taniguchi,T.;etal.
+Boronmonosulfideasanelectrocatalystfortheoxygenevolutionreaction.Chem.Eng.J.2023,471,144489.[CrossRef]
+68. Cao,Z.;Jiang,Z.;Li,Y.;Huang,C.;Li,Y.Metal-organicgel-derivedmultimetaloxidesaseffectiveelectrocatalystsfortheoxygen
+evolutionreaction.ChemSusChem2019,12,2480–2486.[PubMed]
+69. Sielicki,K.;Chen,X.;Mijowska,E.Theroleofaluminiuminmetal–organicframeworksderivedcarbondopedwithcobaltin
+electrocatalyticoxygenevolutionreaction.Mater.Des.2023,231,112021.[CrossRef]
+70. Liu,H.-J.;Zhang,S.;Qiao,W.-Z.;Fan,R.-Y.;Liu,B.;Wang,S.-T.;Hu,H.;Chai,Y.-M.;Dong,B.Bimetallicmetal-organicframework-
+derivedbamboo-likeN-dopedcarbonnanotube-encapsulatedNi-dopedMoCnanoparticlesforwateroxidation.J.ColloidInterface
+Sci.2024,657,208–218.[PubMed]
+71. Li,J.;Wang,B.;Wang,J.;Dai,Y.;Lv,X.;Dang,J.Entropystabilizationandmetal–oxygencovalencyoptimizationstrategiesfor
+enhancedoxygenevolutionelectrocatalysis.J.EnergyChem.2025,103,225–236.
+72. Yang,H.;Hu,Y.;Huang,D.;Xiong,T.;Li,M.;Balogun,M.-S.;Tong,Y.Efficienthydrogenandoxygenevolutionelectrocatalysis
+bycobaltandphosphorusdual-dopedvanadiumnitridenanowires.Mater.TodayChem.2019,11,1–7.[CrossRef]
+73. Dai,K.;Zhang,N.;Zhang,L.;Yin,L.;Zhao,Y.;Zhang,B.Self-supportedCo/CoOanchoredonN-dopedcarboncompositeas
+bifunctionalelectrocatalystforefficientoverallwatersplitting.Chem.Eng.J.2021,414,128804.
+74. Li,S.;Chen,W.;Zhu,Y.;Guan,J.;Wang,L.;Guo,B.;Zhang,M.ModifyingpropertiesandenduranceofCoPbyceriumdopingto
+enhancesoverallwatersplittinginalkalinemedium.J.Electroanal.Chem.2022,922,116748.[CrossRef]
+75. Markandeya,G.B.;Yhobu,Z.;Małecki,J.G.;Nagaraju,D.H.;Betageri,V.S.;Budagumpi,S.Palladium(II)-N-heterocycliccarbene
+complex-basedelectrocatalystsforhydrogenevolutionreaction.EnergyFuels2023,37,2237–2244.
+76. Samal,A.;Kori,D.K.K.;Jain,A.;Das,A.K.Anickel-dopedtwo-dimensionalcovalentorganicpolymer(2D-COP)forelectrocat-
+alytichydrogenevolutionreaction.ACSAppl.EnergyMater.2024,7,2715–2725.
+77. Kumar,M.;Singh,S.;Samanta,D.;Kar,K.K.;Ghorai,M.K.Electrocatalytichydrogenevolutionreaction(HER)withtriphenylamine
+basedmetal-freeconjugatedporousorganicpolymers(POPs).Small2025,21,2500502.
+78. Chakraborty,A.;Roy,S.;Hassan,S.;Porwal,P.;Sarkar,S.;Dar,M.A.;Roy,S.;Mukhopadhyay,S.Aconjugatedporousorganic
+polymerasametal-freebifunctionalelectrocatalystforenhancedwatersplitting.Chem.Eur.J.2025,31,e202500003.[PubMed]
+79. Zhang,Z.;Wu,Y.;Zhang,D.Potentiostaticelectrodepositionofcost-effectiveandefficientNi-FeelectrocatalystsonNifoamfor
+thealkalinehydrogenevolutionreaction.Int.J.HydrogenEnergy2022,47,1425–1434.
+80. Tan,L.; Yu,J.;Wang,H.;Gao,H.;Liu,X.;Wang,L.; She,X.; Zhan,T.Controllablesynthesisandphase-dependentcatalytic
+performanceofdual-phasenickelselenidesonNifoamforoverallwatersplitting.Appl.Catal.B2022,303,120915.
+81. Liu,W.;Jiang,K.;Hu,Y.;Li,Q.;Deng,Y.;Bao,J.;Lei,Y.Zr-dopedCoFe-layereddoublehydroxidesforhighlyefficientseawater
+electrolysis.J.ColloidInterfaceSci.2021,604,767–775.[PubMed]
+82. Zhang,W.;Guo,M.;Chai,D.-F.;Dong,G.;Bai,L.;Zhang,Z.;Zhang,X.;Guo,D.HeterogeneousinterfaceofMnFeSeelectrocatalyst
+forhigh-performanceoverallwatersplitting.Int.J.HydrogenEnergy2025,99,485–493.
+https://doi.org/10.3390/nano16120781
+
+Nanomaterials2026,16,781 16of16
+83. Zhang,X.;Zhao,H.;Li,C.;Li,S.;Liu,K.;Wang,L.Facilecoordinationdrivensynthesisofmetal-organicgelstowardefficiently
+electrocatalyticoverallwatersplitting.Appl.Catal.B2021,299,120641.[CrossRef]
+84. Ding,Z.;Yu,H.;Liu,X.;He,N.;Chen,X.;Li,H.;Wang,M.;Yamauchi,Y.;Xu,X.;Amin,M.A.;etal. Prussianblueanalogue
+derived cobalt-nickel phosphide/carbon nanotube composite as electrocatalyst for efficient and stable hydrogen evolution
+reactioninwide-pHenvironment.J.ColloidInterfaceSci.2022,616,210–220.[PubMed]
+85. Fang,B.;He,N.;Li,Y.;Lu,T.;He,P.;Chen,X.;Zhao,Z.;Pan,L.Prussianblue-derivedhollowcarbon-wrappedFe-dopedCoS
+2
+nanocagesasdurableelectrocatalystforefficienthydrogenevolution.Electrochim.Acta2023,448,142187.
+86. Xu,Y.;Tu,W.;Zhang,B.;Yin,S.;Huang,Y.;Kraft,M.;Xu,R.Nickelnanoparticlesencapsulatedinfew-layernitrogendoped
+graphenederivedfrommetal-organicframeworksasefficientbifunctionalelectrocatalystsforoverallwatersplitting.Adv.Mater.
+2017,29,1605957.
+87. Song,L.;Xue,T.;Shen,Z.;Yang,S.;Sun,D.T.;Yang,J.;Hong,Y.;Su,Y.;Wang,H.;Peng,L.;etal.Metal-organicaerogelderived
+hierarchicalporousmetal-carbonnanocompositesasefficientbifunctionalelectrocatalystsforoverallwatersplitting.J.Colloid
+InterfaceSci.2022,621,398–405.[PubMed]
+88. Wang,A.;Yang,X.;Wang,Q.;Dou,Y.;Zhao,L.;Zhu,W.;Zhao,W.;Zhu,G.Acenaphthenediiminecomplex-bridgedporphyrin
+porousorganicpolymerwithenrichedactivesitesasarobustwatersplittingelectrocatalyst. J.ColloidInterfaceSci. 2024,657,
+748–756.[PubMed]
+89. Zhang, J.; Wang, T.; Pohl, D.; Rellinghaus, B.; Dong, R.; Liu, S.; Zhuang, X.; Feng, X.InterfaceengineeringofMoS /Ni S
+2 3 2
+heterostructuresforhighlyenhancedelectrochemicaloverall-water-splittingactivity.Angew.Chem.Int.Ed.2016,55,6702–6707.
+90. Hu,G.;Fu,W.;Lin,Y.;Yue,Y.;Wang,M.;Liu,P.;Li,Y.;Li,J.;Wei,L.;Zhao,X.;etal.Highlyefficientnanoflower-likebifunctional
+electrocatalystCo-W-BP/CFforoverallwatersplitting.ACSAppl.EnergyMater.2022,5,4259–4269.
+91. Zheng, X.; Sasikala, S.P.; Kim, Y.; Kim, T.-D.; Lee, G.S.; Kim, J.T.; Kim, S.O.; Prabhakaran, P. Dimension-engineered gold
+heterostructureswithtransitionmetaldichalcogenideforefficientoverallwatersplitting.J.ColloidInterfaceSci.2025,686,516–524.
+[CrossRef][PubMed]
+92. Li,S.;Guo,Y.;Wang,Z.;Zhao,D.;Guo,R.;Gao,Q.;Zhang,Z.Acore–shellPt–NiSe@NiFe-LDHheterostructureforbifunctional
+alkalinewatersplitting.Molecules2025,30,4654.[PubMed]
+93. Liu,Y.;Jiang,S.;Li,S.;Zhou,L.;Li,Z.;Li,J.;Shao,M.Interfaceengineeringof(Ni,Fe)S @MoS heterostructuresforsynergetic
+2 2
+electrochemicalwatersplitting.Appl.Catal.B2019,247,107–114.
+94. Anantharaj,S.;Karthik,P.E.;Noda,S.Thesignificanceofproperlyreportingturnoverfrequencyinelectrocatalysisresearch.
+Angew.Chem.Int.Ed.2021,60,23051–23067.[CrossRef][PubMed]
+Disclaimer/Publisher’sNote: Thestatements, opinionsanddatacontainedinallpublicationsaresolelythoseoftheindividual
+author(s)andcontributor(s)andnotofMDPIand/ortheeditor(s).MDPIand/ortheeditor(s)disclaimresponsibilityforanyinjuryto
+peopleorpropertyresultingfromanyideas,methods,instructionsorproductsreferredtointhecontent.
+https://doi.org/10.3390/nano16120781
+

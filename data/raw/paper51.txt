@@ -1,0 +1,440 @@
+Article
+Self-Supported Nanoporous High-Entropy Alloy Electrodes with
+W-Modulated Surface Reconstruction for Alkaline
+Hydrogen Evolution
+FurongXu1,*,NanaYang2,*,YaliXu3andHaoruiLiu2,4
+1 SchoolofMechanicalEngineering,LanzhouPetrochemicalUniversityofVocationalTechnology,
+Lanzhou730060,China
+2 SchoolofMaterialsEngineering,LongdongUniversity,Qingyang745100,China
+3 SecondOilProductionPlant,ChangqingOilfield,Qingyang745100,China
+4 SchoolofMaterialsScienceandEngineering,LanzhouUniversityofTechnology,Lanzhou730050,China
+* Correspondence:xufurong1104@126.com(F.X.);nanayang_material@163.com(N.Y.)
+Abstract
+Efficientanddurablenon-noblecatalystsarecrucialforalkalinehydrogenevolution(HER),
+andhigh-entropyalloys(HEAs)offerapromisingplatformduetotheirmulticomponent
+synergyandtunablesurfacechemistry. Herein,self-supportednanoporoushigh-entropy
+alloyelectrodes,Fe Co Ni Mo andFe Co Ni Mo W ,werepreparedbyarcmelting
+35 25 30 10 35 25 30 7 3
+followedbyelectrochemicaldealloyingin1MHCl. XRDresultsshowthatbothalloys
+retainanFCCframeworkafterdealloying,whereasSEMrevealsthatWpromotesamore
+continuoussponge-likenanoporousstructure.In1MKOH,dealloyedFe Co Ni Mo W
+35 25 30 7 3
+shows enhanced HER activity, requiring an overpotential of 178 mV at 10 mA cm−2,
+whichislowerthanthatofdealloyedFe Co Ni Mo andtheprecursors. Dealloyed
+35 25 30 10
+Fe Co Ni Mo W alsoexhibitsfasterkinetics(Tafelslope98.5mVdec−1;Rct3.33Ω)
+35 25 30 7 3
+andalargerC (19.2mFcm−2)thandealloyedFe Co Ni Mo . Theseresultshighlight
+dl 35 25 30 10
+W-enableddealloying-inducedreconstructionasaneffectiveroutetorobustnanoporous
+HEAelectrodesforalkalineHER.
+Keywords: high-entropyalloy(HEA);hydrogenevolutionreaction(HER);electrocatalysts;
+dealloying
+1. Introduction
+Hydrogeniswidelyregardedasaneco-friendlyandenergy-densecarbon-freeenergy
+carrier,anditslarge-scaleproductionfromrenewableresourcesisessentialforasustain-
+ableenergyfuture. Amongvarioushydrogen-productiontechnologies,waterelectrolysis
+enablesthesustainablegenerationofhigh-purityhydrogenandhasthereforeattracted
+AcademicEditor:EunDuckPark
+increasingattention[1–4]. However,theoverallefficiencyofwaterelectrolysiscritically
+Received:25March2026
+dependsonhighlyactiveanddurableelectrocatalysts,especiallyforalkalinesystemsthat
+Revised:7May2026
+areattractiveforpracticaldeployment.
+Accepted:8May2026
+Published:11May2026 Electrocatalystsusedinwaterelectrolyzershavetraditionallyreliedonnoblemetals
+Copyright:©2026bytheauthors. such as Pt, Ru, and Pd, which suffer from limited abundance and high cost. Conse-
+LicenseeMDPI,Basel,Switzerland. quently,thedevelopmentofnon-noble-metalelectrocatalystshasbecomeamajorresearch
+Thisarticleisanopenaccessarticle direction[5,6]. Nevertheless,manyconventionalnon-preciouscatalystsaretypicallypre-
+distributedunderthetermsand
+paredaspowderstomaximizespecificsurfacearea, andsuchpowderedsystemsoften
+conditionsoftheCreativeCommons
+Attribution(CCBY)license.
+Molecules2026,31,1603 https://doi.org/10.3390/molecules31101603
+
+Molecules2026,31,1603 2of10
+requirepolymericbindersandconductiveadditivestofabricateelectrodes. Theseauxil-
+iarycomponentscanintroduceadditionalresistance,blockactivesites,andcompromise
+long-term stability and scalability, thereby limiting their practical application [7,8]. Ac-
+cordingly,self-supportedelectrocatalystsprovideanattractivealternativebyeliminating
+binders and conductive additives and enabling integrated electrode architectures with
+improved mechanical integrity and charge transport [9,10]. In particular, nanoporous
+metalliccatalystsderivedfromdealloyinghavebeenwidelyexploredbecausetheirbicon-
+tinuouspore/ligamentnetworksofferlargeelectrolyte-accessiblesurfaceareas,rapidmass
+transportpathways,andintrinsicallyhighelectricalconductivity[9,11,12].
+High-entropyalloys(HEAs),consistingofmultipleprincipalelements,haverecently
+emergedasversatileelectrocatalystplatformsowingtotheircompositionalflexibilityand
+multielementsynergy[13,14]. Bytuningelementalspeciesandatomicratios,theelectronic
+structureandlocalcoordinationenvironmentcanbemodulated,therebyenablingactivity
+optimizationforhydrogenevolution[15,16]. Combiningtheadvantagesofthenanoporous
+structureandHEAs,nanoporousHEAsareexpectedtodeliverbothoutstandingmechani-
+calrobustnessandenhancedelectrocatalyticperformance. Forexample,Yaoetal. reported
+ahierarchicalnanoporousCuscaffoldfacilitatingelectrontransport,whereananoporous
+CuAlNiMoFeelectrodeexhibitedsuperiorHERactivityundernonacidicconditions[17].
+Wangetal. designedahierarchicalporoussandwichstructurefabricatedbydealloyinga
+FeCoNiCuAl MnHEA,achievinganoverpotentialof9.7mVat10mAcm−2andaTafel
+2
+slopeof56.9mVdec−1in1MKOH[18]. Lietal. preparedaself-supportedhierarchical
+porousHEAcontainingmultipletransitionmetalsviaphysicalmetallurgyanddealloying,
+where the bicontinuous mesoporous structure provided enlarged surface area and the
+synergisticelectroniceffectscontributedtoimprovedintrinsicreactivity[19].
+Beyond the porous architecture, rational element selection plays a decisive role in
+dictatingcatalyticperformance. Amongtransitionmetals,3delementssuchasNi,Fe,and
+Coaremostcommonlyemployedasactivecomponents[20,21]. Inaddition, 4dand5d
+metalsgenerallyexhibitbroaderelectronicbandwidthsthan3dmetals,offeringadditional
+orbitaldegreesoffreedomtoregulatetheelectronicbandstructure[22,23]. High-valence
+metalssuchasMo6+,Nb5+,andW6+havealsobeenreportedtotunetheelectronicstructure
+ofmetaloxidesowingtotheiruniquephysicochemicalproperties[24–26]. Theseconsidera-
+tionssuggestthatincorporating4d/5dmetalsintoHEAsystemsmayprovideaneffective
+strategytomodulatesurfacechemistryandelectrocatalyticbehavior.
+Herein, wereportthesynthesisoftwoFeCoNi-basedhigh-entropyalloys, FeCoN-
+iMo and FeCoNiMoW, by arc melting, in which W is introduced to regulate the alloy
+chemistry. Subsequently,electrochemicaldealloyingin1MHClisemployedtoconstruct
+self-supported nanoporous electrodes. The structural characteristics and alkaline HER
+performanceofthedealloyedelectrodesaresystematicallyinvestigated,andtheroleofW
+incorporationinpromotingtheelectrocatalyticperformanceisdiscussedbasedoncompar-
+ativeanalysesofmorphology,surfacechemistry,andelectrochemicalmetrics. Thiswork
+providesinsightsintocompositionaldesignofnanoporousHEAelectrodesandoffersa
+practicalroutefordevelopingefficient,self-supportedHERcatalysts.
+2. ResultsandDiscussion
+2.1. StructureCharacterization
+Figure1eshowstheXRDpatternsofFe Co Ni Mo (Mo )andFe Co Ni Mo W
+35 25 30 10 10 35 25 30 7 3
+(Mo W )beforeandafterdealloying. TheMo10-precursorexhibitsdiffractionpeaksat
+7 3
+44.18◦,51.12◦,and74.99◦,whereastheMo W -precursorshowspeaksat42.87◦,49.95◦,
+7 3
+and 73.66◦, which are indexed to the FCC (111), (200), and (220) planes [23,27]. The
+leftwardpeakshiftforMo W -precursorisconsistentwithlatticeexpansionassociated
+7 3
+https://doi.org/10.3390/molecules31101603
+
+Molecules2026,31,1603 3of10
+with W incorporation. After dealloying, both dealloyed Mo W and dealloyed Mo
+7 3 10
+largelypreservetheFCCphase. Meanwhile,therelativepeakintensitieschange,withthe
+(111)reflectionbecomingweakerthanthe(200)reflection,whichmaysuggestpreferential
+dissolutionandareorientedresidualframework. Notably, Mo W showsaslightshift
+7 3
+inthepeakstowardhigheranglesafterdealloying,whichsuggeststhatWadditionmay
+influence the corrosion selectivity during dealloying. In line with the XRD results, the
+HRTEMimage(Figure1a–d)confirmsthattheFCCframeworksofMo W andMo 0are
+7 3 1
+bothretainedafterdealloying. ThecorrespondinginverseFFT(IFFT)images(Figure1c,d)
+reveal interplanar distances of 0.180 nm and 0.179 nm, which correspond to the FCC
+(200)planes. AsshowninFigure1f,thedealloyedMo W stillretainsthefive-element
+7 3
+high-entropyalloycomposition,withtheconstituentelementsuniformlydistributed.
+Figure1.HRTEMimagesof(a)dealloyedMo W ,(b)dealloyedMo10and(c,d)thecorresponding
+7 3
+IFFTimages.(e)XRDpatternsofMo W andMo beforeandafterdealloying.(f)EDSmapping
+7 3 10
+imagesofdealloyed-Mo W .
+7 3
+Afterelectrochemicaldealloying,thetwohigh-entropyalloysexhibitdistinctlydif-
+ferent surface morphologies. For Mo , open cracks are visible at low magnification.
+10
+Athighermagnification,thesurfaceremainsrelativelyflat,withonlyscatteredparticle-
+like features. In contrast, Mo W also exhibits cracks at low magnification, whereas
+7 3
+higher-magnificationimagesrevealacontinuoussponge-likeporouslayerwithaninter-
+connectedframework(Figure2). ThiscomparisonindicatesthatWincorporationfavors
+dealloying-inducedsurfacereconstructionandpromotestheformationofamorecontinu-
+ousnanoporousstructure.
+XPSanalysisrevealsthatafterdealloying,thesurfacesofbothalloysarepredominantly
+composedofoxidizedspecies,withoutnoticeablezero-valencemetalsasshowninFigure3.
+Fordealloyed Mo anddealloyed Mo W , theFe 2p, Co2p, and Ni2p regions canbe
+10 7 3
+consistentlyfittedwithmixed-valencecomponents(Fe2+/Fe3+,Co2+/Co3+,andNi2+/Ni3+),
+accompaniedbythecorrespondingsatellitefeatures(Figure3a–c),indicativeofthehighly
+oxidizedstatesofthemetalelementspresentonthesurface[28–30]. Inaddition, Mois
+presentexclusivelyashigh-valenceMospecies(Mo6+)inbothalloys,asevidencedbyMo
+3d andMo3d doubletsat~231.5eVand~234.5eV(Figure3d)[31]. Notably,Win
+5/2 3/2
+dealloyedMo W isalsoinahigh-valencestate(W6+),withW4f andW4f peaksat
+7 3 7/2 5/2
+36.2eVand38.4eV(Figure3e)[32].
+https://doi.org/10.3390/molecules31101603
+
+Molecules2026,31,1603 4of10
+Figure2.Low-andhigh-magnificationSEMimagesof:(a,b)dealloyedMo and(c,d)dealloyedMo W .
+10 7 3
+Figure3.High-resolutionXPSspectraofdealloyedMo anddealloyedMo W .(a)Fe2p,(b)Co2p,
+10 7 3
+(c)Ni2p,(d)Mo3d,and(e)W4f.
+https://doi.org/10.3390/molecules31101603
+
+Molecules2026,31,1603 5of10
+2.2. HydrogenEvolutionPerformanceoftheCatalysts
+Toassesstheelectrocatalyticperformanceofthepreparedcatalysts,theHERactivity
+wastestedin1MKOHelectrolytesusingathree-electrodesystem. Figure4acomparesthe
+HERpolarizationcurvesofMo andMo W beforeandafterelectrochemicaldealloying.
+10 7 3
+A clear positive shift in the LSV curves is observed after dealloying, indicating that a
+givencathodiccurrentdensitycanbeachievedatlessnegativepotentials. Quantitatively,
+the overpotential at 10 mA cm−2 decreases from 331 mV (Mo ) to 279 mV (dealloyed
+10
+Mo ),andmoreprominentlyfrom336mV(Mo W )to178mV(dealloyedMo W ). The
+10 7 3 7 3
+dealloyedMo W catalystdemonstratedthelowestoverpotentialamongalltestedsamples.
+7 3
+TheseresultsdemonstratethatdealloyingiseffectiveinenhancingtheHERperformance
+for both alloys, while the W-containing alloy exhibits a much larger improvement and
+deliversthebestHERperformanceafterdealloyingunderthesametestingconditions.
+Figure4. ElectrochemicalHERperformanceofpreparedcatalystsin1MKOH.(a)LSVcurvesof
+HER.(b)Tafelplots.(c)Nyquistplots.(d)C measurements.(e)ECSA-normalizationLSVcurves
+dl
+ofdealloyedMo anddealloyedMo W .(f)ChronopotentiometriccurveofdealloyedMo W at
+10 7 3 7 3
+10mAcm−2andSEMimageofdealloyedMo W afterthestabilitytest.
+7 3
+https://doi.org/10.3390/molecules31101603
+
+Molecules2026,31,1603 6of10
+The HER kinetics were further assessed from the Tafel plots derived from the po-
+larizationcurves. AsshowninFigure4b,thedealloyedMo W catalystdemonstratesa
+7 3
+Tafelslopeof98.5mVdec−1,whichislowerthanthatofdealloyedMo (158.4mVdec−1),
+10
+Mo W (194.8 mV dec−1), Mo (199.8 mV dec−1). Importantly, after dealloying, both
+7 3 10
+alloysshowmarkedlysmallerTafelslopes. Accordingly,thistrendindicatesthattheper-
+formancegainsobservedintheLSVcurvesarenotsolelyattributabletohighercurrent
+densities,butarealsoaccompaniedbyfasterapparentinterfacialkinetics. Notably,deal-
+loyedMo W exhibitsasubstantiallylowerslopethandealloyedMo10. Thisdifference
+7 3
+isconsistentwiththeSEMobservationthatW-containingMo W developsamorecon-
+7 3
+tinuous,interconnectedporousnetwork,whichcanimproveelectrolytepenetrationand
+alleviatetransportlimitations,therebysupportingimprovedHERkineticsunderidentical
+testingconditions. Moreover,thereactionkineticswasfurtherexploredbyEISanalysis.
+AsdepictedinFigure4c, thecharge-transferresistanceofdealloyedMo W (3.33 Ω)is
+7 3
+smallerthanthatofdealloyedMo (4.62Ω),indicatingmoreefficientinterfacialcharge
+10
+transfer. AssummarizedinFigure4d, thedouble-layercapacitances(C )ofdealloyed
+dl
+Mo W anddealloyedMo weredeterminedfromtheslopeofthelinearfitofcapacitive
+7 3 10
+currentversusscanrate,extractedfromCVcurvescollectedinanon-Faradaicpotential
+window. ThedealloyedMo W catalystexhibitsamuchlargerdouble-layercapacitance
+7 3
+(19.2 mF cm−2) than dealloyed Mo (3.8 mF cm−2), suggesting a substantially higher
+10
+electrochemicallyaccessiblesurfaceareaunderidenticalconditions. Thisincreasedinter-
+facialareaisconsistentwiththemorecontinuousporousnetworkobservedbySEMand
+canoffermoreelectrolyte-accessiblesites,therebysupportinghighergeometriccurrent
+densities. After normalization by ECSA as shown in Figure 4e, the HER polarization
+curvesofdealloyedMo W anddealloyedMo becomeveryclose,indicatingthattheir
+7 3 10
+area-normalizedactivitiesarecomparable. Thisresultsuggeststhatthesuperiorgeometric
+HERactivityofdealloyedMo W mainlyoriginatesfromitsmuchlargerelectrochemically
+7 3
+accessible surface area, rather than a pronounced enhancement in intrinsic site activity.
+Therefore, W incorporation mainly contributes to the HER performance by promoting
+theformationofamorecontinuousnanoporoussurfacelayerduringdealloying,rather
+thanapronouncedimprovementinintrinsicsiteactivity. Theelectrocatalyticstabilityof
+dealloyed Mo W was confirmed under a constant current density of 10 mA cm−2 for
+7 3
+20hbyChronopotentiometrytest,asshowninFigure4f. ThedealloyedMo W catalyst
+7 3
+exhibitsstablechronopotentiometricbehavioroverprolongedoperation,showingonlya
+smallpotentialfluctuationafteraninitialstabilizationperiod. Theabsenceofanobvious
+continuouspotentialincreaseindicatesgoodoperationaldurabilityunderthetestedHER
+conditions. Furthermore,themorphologyofthedealloyedMo W catalystpreservesa
+7 3
+nearlysponge-likeporousstructureevenafter20hofstabilitytesting. Insummary,thein-
+corporationofWpromotesamorefavorabledealloying-inducedreconstructionofMo W ,
+7 3
+resulting in a continuous and interconnected porous architecture. Benefiting from the
+W-enabledstructure,dealloyedMo W exhibitsfasterinterfacialcharge-transferkinetics
+7 3
+and a substantially larger electrochemically accessible surface area, thereby delivering
+betterHERcatalyticperformance.
+3. MaterialsandMethods
+3.1. PreparationofAlloys
+The Fe Co Ni Mo W and Fe Co Ni Mo high-entropy alloys were synthe-
+35 25 30 7 3 35 25 30 10
+sizedbyvacuumarcmeltingusinghigh-puritymetalelements(Fe,Co,Ni,Mo,andW,
+≥99.9%). Beforearcmelting,thechamberwasevacuatedandbackfilledwithhigh-purity
+Ar. Then, titanium balls were melted to absorb the oxygen and other impurities in the
+atmosphere. Duetothehighmeltingpointsofmolybdenumandtungsten,whichcanlead
+https://doi.org/10.3390/molecules31101603
+
+Molecules2026,31,1603 7of10
+toincompletemeltingandcompositionalinhomogeneity,abinarypre-alloyingstrategy
+was employed prior to the final melting. Specifically, tungsten and molybdenum were
+separatelypre-alloyedwithnickeltoformhomogeneousNi-WandNi-Mobinaryalloys,
+whichfacilitatedthecompletedissolutionofWandModuringsubsequentmeltingowing
+to their high melting points. The pre-alloyed Ni-W and Ni-Mo ingots, along with the
+remainingmetallicelements(Fe,Co)werethenmeltedtogether. Toensureahomogeneous
+chemicaldistributionandasingle-phasesolidsolution,thealloyingotwassubjectedto
+fivecyclesofre-melting.
+3.2. PreparationofElectrodes
+Theas-preparedalloyingotswerecutinto10×10×2mmslices. Thesurfaceswere
+mechanically polished to a mirror finish, followed by sequential ultrasonic cleaning in
+ethanolandrinsingwithdeionizedwatertoremoveresidualcontaminants. Subsequently,
+thesamplesunderwentelectrochemicaldealloyinginaconventionalthree-electrodesystem,
+usingagraphiterodasthecounterelectrodeandanAg/AgClelectrodeasthereference
+electrode. BothFe Co Ni Mo W andFe Co Ni Mo wereelectrochemicallydeal-
+35 25 30 7 3 35 25 30 10
+loyedin1MHClat−0.1Vvs. Ag/AgClfor120mintoselectivelyremovecomponents
+andgenerateaporous,catalyticallyactivesurface. Afterdealloying,theelectrodeswere
+thoroughlyrinsedthreetimeswithethanolandultrapurewater,andthendriedunderan
+Arstreamforsubsequentelectrochemicalmeasurements.
+3.3. Characterization
+The crystal structures and phase compositions of the samples were analyzed by
+X-ray diffraction (XRD, D8 Advance, Bruker AXS, Karlsruhe, Germany) using Cu Kα
+radiation(λ=0.15418nm)withastepsizeof0.02◦ andascanningrateof2.4◦min−1. The
+surfacemorphologyandmicrostructuralfeatureswereobservedusingscanningelectron
+microscopy(SEM,S-4800,Hitachi,Tokyo,Japan). Detailednanostructuralcharacterization
+wasperformedusingatransmissionelectronmicroscope(TEM-EDS,JEM-2100M,JEOL,
+Tokyo, Japan). The surface elemental composition and chemical states of the samples
+wereanalyzedbyX-rayphotoelectronspectroscopy(XPS,AxisSupra,KratosAnalytical,
+Manchester,UK).
+3.4. ElectrochemicalMeasurements
+Electrochemicalmeasurementswereperformedonanelectrochemicalworkstation
+(Interface1000,Gamry,Warminster,PA,USA)usingastandardthree-electrodeconfigura-
+tion. Theself-supportednanoporousFeCoNiMoWandFeCoNiMoalloysserveddirectly
+as the working electrodes. A platinum mesh and a saturated Ag/AgCl electrode were
+employedasthecounterelectrodeandreferenceelectrode,respectively. Allelectrochemical
+testswereconductedin1MKOH(pH=14)atroomtemperature. Themeasuredpotentials
+versus Ag/AgCl were converted to the reversible hydrogen electrode (RHE) using the
+followingequation:
+E = E +0.199+0.059×pH (1)
+RHE Ag/AgCl
+HERactivitieswereevaluatedbylinearsweepvoltammetry(LSV)atascanrateof
+5mVs−1overthepotentialrangefrom0to−0.5Vvs. RHE.Theelectrochemicaldouble-
+layercapacitance(C )wasdeterminedfromcyclicvoltammetry(CV)curvesrecordedin
+dl
+a non-faradaic potential region at scan rates ranging from 20 to 100 mV·s−1. The Tafel
+slopewasobtainedbyfittingthelinearregionofthepolarizationcurvesaccordingtothe
+Tafelequation:
+η = a+blog|j| (2)
+whereηistheoverpotential,bistheTafelslope,andjisthecurrentdensity.
+https://doi.org/10.3390/molecules31101603
+
+Molecules2026,31,1603 8of10
+Electrochemicalimpedancespectroscopy(EIS)wascarriedoutatacathodicoverpo-
+tentialof−0.2Vvs. RHEoverafrequencyrangeof100kHzto0.1Hz. Thediameterofthe
+semicircleintheNyquistplotreflectsthecharge-transferresistance(R ). TheECSAvalue
+ct
+wascalculatedbythefollowingequation:
+C
+ECSA= dl (3)
+C
+s
+whereC isthespecificcapacitanceofmaterials,whichis40µFcm−2inthispaper.
+s
+4. Conclusions
+Inthiswork,self-supportedporousFeCoNiMoandFeCoNiMoWhigh-entropyalloy
+electrodeswerefabricatedthroughhigh-temperaturemeltingfollowedbyelectrochemical
+dealloying. XRD results indicate that both alloys retain an FCC phase before and after
+dealloying,indicatingthatthetreatmentmainlyinducessurfacereconstructionratherthan
+abulkphasechange. Notably,Wincorporationlikelyaltersthedissolution-rearrangement
+behaviorduringdealloying,enablingFeCoNiMoWtoformamorecontinuousnanoporous
+structure,assupportedbyitsmuchlargerdouble-layercapacitance. Moreover,thelower
+Tafelslopeandsmallercharge-transferresistancesuggestthatWmayfurtherreducethe
+apparentkineticbarriersforHER.ThisworkhighlightsW-enableddealloyingreconstruc-
+tionasapracticalroutetobuildrobustnanoporousHEAelectrodesandprovidesasimple
+designguidelineforimprovingalkalineHERcatalysts.
+AuthorContributions:F.X.,N.Y.,Y.X.andH.L.participatedinthediscussionandinterpretationof
+theresults.Allauthorseditedandproofreadthefinalmanuscript.Allauthorshavereadandagreed
+tothepublishedversionofthemanuscript.
+Funding:ThisworkwasfinanciallysupportedbytheGansuProvincialNaturalScienceFoundation
+(25JRRM005,24JRRA738).
+InstitutionalReviewBoardStatement:Notapplicable.
+InformedConsentStatement:Notapplicable.
+DataAvailabilityStatement:Datawillbemadeavailableonrequest.
+ConflictsofInterest: YaliXuisanemployeeofChangqingOilfield. Theotherauthorsdeclareno
+conflictsofinterest. ChangqingOilfieldhadnoroleinthedesignofthestudy; inthecollection,
+analyses,orinterpretationofdata;inthewritingofthemanuscript;orinthedecisiontopublish
+theresults.
+References
+1. Hou,L.;Li,C.;Jang,H.;Kim,M.G.;Jiang,J.-Z.;Cho,J.;Liu,S.;Liu,X.RationallydesignedMo/Ru-basedmulti-siteheterogeneous
+electrocatalystforacceleratedalkalinehydrogenevolutionreaction.Adv.Mater.2024,36,2410039.[CrossRef]
+2. Chen,Y.;Tang,Z.;Liu,Z.;Huang,W.-H.;Yeh,M.-H.;Pao,C.-W.;Tao,H.;Xu,M.;Dong,Z.;Yuan,L.;etal. TowardtheIdeal
+AlkalineHydrogenEvolutionElectrocatalyst:ANobleMetal-FreeAntiperovskiteOptimizedwithA-SiteTuning.Adv.Mater.
+2025,37,2504607.[CrossRef]
+3. Wang,X.;Li,Q.;Feng,S.;Liu,Y.;Xu,C.;Zhu,Q.;Liu,H.;Yan,Q.InsituConstructionofFree-StandingHigh-Performance
+Ni-BasedDualIntermetallicCompositesforAlkalineHydrogenEvolution.Trans.TianjinUniv.2025,31,131–144.[CrossRef]
+4. Qadeer,M.A.;Zhang,X.;Farid,M.A.;Tanveer,M.;Yan,Y.;Du,S.;Huang,Z.-F.;Tahir,M.;Zou,J.-J.Areviewonfundamentalsfor
+designinghydrogenevolutionelectrocatalyst.PowerSources2024,613,234856.[CrossRef]
+5. Shi, X.; Gu, W.; Zhang, B.; Zhao, Y.; Zhang, A.; Xiao, W.; Wei, S.; Pang, H. Research progress of non-noble metal-based
+self-supportingelectrodeforhydrogenevolutionreactionathighcurrentdensity.Adv.Funct.Mater.2025,35,2423760.[CrossRef]
+6. Zhao,P.;Zhao,Y.;Liang,H.;Song,X.;Yu,B.;Liu,F.;Ragauskas,A.J.;Wang,C.Novelwaste-derivednon-noblemetalcatalyststo
+accelerateacidicandalkalinehydrogenevolutionreaction.Chem.Eng.J.2023,466,143140.[CrossRef]
+https://doi.org/10.3390/molecules31101603
+
+Molecules2026,31,1603 9of10
+7. Xiong,H.;Zhuang,R.;Cheng,B.;Liu,D.;Du,Y.;Wang,H.;Liu,Y.;Xu,F.;Wang,H.Self-supportedmetallicalkalinehydrogen
+evolutionelectrocatalyststolerantforampere-levelcurrentdensities.Adv.EnergyMater.2025,15,2404077.[CrossRef]
+8. Feidenhans’l,A.A.;Regmi,Y.N.;Wei,C.;Xia,D.;Kibsgaard,J.;King,L.A.Preciousmetalfreehydrogenevolutioncatalystdesign
+andapplication.Chem.Rev.2024,124,5617–5667.[CrossRef]
+9. Lin,Y.; Xu,W.; Gao,Z.; Liang,Y.; Jiang,H.; Li,Z.; Wu,S.; Cui,Z.; Sun,H.; Zhang,H.; etal. Self-supportinghigh-entropy
+Co-Cr-Fe-Ni-Nboxideelectrocatalystwithnanoporousstructureforoxygenevolutionreaction.Chem.Eng.J.2024,489,151233.
+[CrossRef]
+10. Zhou,R.;Han,X.;Chen,Q.;Peng,L.;Qiu,X.;Wang,P.;Guo,C.;Wang,J.;Wang,Z.;Hao,J.Surfacedecorationonself-supporting
+highentropyalloyelectrodesforenhancedelectrochemicalwatersplitting.Mater.Chem.A2024,12,5719–5730.[CrossRef]
+11. Zhou,Q.;Liu,H.;Jiao,S.;Feng,C.Phosphorus-dopedNiS electrocatalystwithahybridstructureforhydrogenevolution.Sci.
+2
+ChinaTechnol.Sci.2022,65,1506–1512.[CrossRef]
+12. Liu, H.; Qin, H.; Kang, J.; Ma, L.; Chen, G.; Huang, Q.; Zhang, Z.; Liu, E.; Lu, H.; Li, J.; etal. Afreestandingnanoporous
+NiCoFeMoMn high-entropy alloy as an efficient electrocatalyst for rapid water splitting. Chem. Eng. J. 2022, 435, 134898.
+[CrossRef]
+13. Gao,G.;Yu,Y.;Zhu,G.;Sun,B.;He,R.;Cabot,A.;Sun,Z.Highentropyalloyelectrocatalysts.EnergyChem.2024,99,335–364.
+[CrossRef]
+14. Cai, H.; Yang, H.; He, S.; Wan, D.; Kong, Y.; Li, D.; Jiang, X.; Zhang, X.; Hu, Q.; He, C.Size-adjustablehigh-entropyalloy
+nanoparticlesasanefficientplatformforelectrocatalysis.Angew.Chem.Int.Ed.2025,64,e202423765.[CrossRef][PubMed]
+15. Zhu,J.;Yu,X.;Guo,M.;Chen,Z.;Ni,B.-J.DesignFrontiersofHigh-EntropyMaterialsforAdvancedElectrocatalysis.Adv.Funct.
+Mater.2026,36,e22077.[CrossRef]
+16. Ren,L.;Zhang,K.;Huang,Y.-C.;Lu,Y.R.;Deng,H.;Ding,Y.;Chen,C.;Huang,B.;Hua,W.;Fu,L.;etal.Tailoredinteratomic
+interactionsinhigh-entropyalloysforenhancedelectrocatalytichydrogenevolutionreactioninalkalinewater.ACSCatal.2025,
+15,11022–11033.[CrossRef]
+17. Yao,R.-Q.;Zhou,Y.-T.;Shi,H.;Wan,W.-B.;Zhang,Q.-H.;Gu,L.;Zhu,Y.-F.;Wen,Z.;Lang,X.-Y.;Jiang,Q.NanoporousSurface
+High-EntropyAlloysasHighlyEfficientMultisiteElectrocatalystsforNonacidicHydrogenEvolutionReaction.Adv.Funct.Mater.
+2021,31,2009613.[CrossRef]
+18. Wang,C.;Zhao,S.;Han,G.;Bian,H.;Zhao,X.;Wang,L.;Xie,G.Hierarchicalporousnonprecioushigh-entropyalloysforultralow
+overpotentialinhydrogenevolutionreaction.SmallMethods2024,8,2301691.[CrossRef]
+19. Li,R.;Liu,X.;Liu,W.;Li,Z.;Chan,K.C.;Lu,Z.Designofhierarchicalporosityviamanipulatingchemicalandmicrostructural
+complexitiesinhigh-entropyalloysforefficientwaterelectrolysis.Adv.Sci.2022,9,2105808.[CrossRef]
+20. Hao,J.;Wu,K.;Lyu,C.;Yang,Y.;Wu,H.;Liu,J.;Liu,N.;Lau,W.-M.;Zheng,J.Recentadvancesininterfaceengineeringof
+Fe/Co/Ni-basedheterostructureelectrocatalystsforwatersplitting.Mater.Horiz.2023,10,2312–2342.[CrossRef]
+21. Liu,S.;Zhang,Y.;Hao,L.;Nsabimana,A.;Shen,S.DesigningternaryCo-Ni-Felayereddoublehydroxideswithinanovel3D
+cross-flowerframeworkforefficientcatalyticperformanceinoxygenevolutionreaction.ColloidInterfaceSci.2025,678,924–933.
+[CrossRef]
+22. Zhu,B.;Huang,S.;Seo,O.;Cao,M.;Matsumura,D.;Gu,H.;Wu,D.StabilizingtheUnstable:EnhancingOERDurabilitywith
+3d-OrbitalTransitionMetalMultielementalAlloyNanoparticlesbyAtomicallyDispersed4d-OrbitalPdfora100-FoldExtended
+Lifetime.J.Am.Chem.Soc.2025,147,11250–11256.[CrossRef]
+23. Ren,J.-T.;Chen,L.;Wang,H.-Y.;Yuan,Z.-Y.Non-preciousmetalhigh-entropyalloyswithd–delectroninteractionsforefficient
+androbusthydrogenoxidationreactionsinalkalinemedia.Inorg.Chem.Front.2024,11,2029–2038.[CrossRef]
+24. Antink,W.H.;Lee,S.;Lee,H.S.;Shin,H.;Yoo,T.Y.;Ko,W.;Shim,J.;Na,G.;Sung,Y.-E.;Hyeon,T.High-valencemetal-driven
+electronicmodulationforboostingoxygenevolutionreactioninhigh-entropyspineloxide.Adv.Funct.Mater.2024,34,2309438.
+[CrossRef]
+25. Pang,C.;Xu,W.;Liang,Y.;Li,Z.;Wu,S.;Cui,Z.;Sun,H.;Jiang,H.;Zhu,S.Improvedhydrogenevolutionperformanceof
+Ni-basednanoporouscatalystwithMoandBco-addition.ColloidInterfaceSci.2024,656,262–269.[CrossRef]
+26. Zhang,T.;Zhao,H.-F.;Chen,Z.-J.;Yang,Q.;Gao,N.;Li,L.;Luo,N.;Zheng,J.;Bao,S.-D.;Peng,J.;etal. High-entropyalloy
+enablesmulti-pathelectronsynergismandlatticeoxygenactivationforenhancedoxygenevolutionactivity.Nat.Commun.2025,
+16,3327.[CrossRef][PubMed]
+27. He,R.;Yang,L.;Zhang,Y.;Jiang,D.;Lee,S.;Horta,S.;Liang,Z.;Lu,X.;Moghaddam,A.O.;Li,J.;etal.A3d-4d-5dHighentropy
+alloyasabifunctionaloxygencatalystforrobustaqueouszinc–airbatteries.Adv.Mater.2023,35,2303719.[CrossRef]
+28. Li,L.;Qiao,L.;Liu,D.;Yu,Z.;An,K.;Yang,J.;Liu,C.;Cao,Y.;Pan,H.High-ValenceMetalsAcceleratetheReactionKineticsfor
+BoostingWaterOxidation.Small2025,21,2403992.[CrossRef][PubMed]
+29. Gao,M.;Tang,S.;Gao,P.;Lei,T.;Ren,Z.;Yin,G.;Du,Y.HeterogeneousporositybimetallicphosphideFeP/CoP/CPasan
+efficientelectrocatalystforhydrogenevolutionreaction.PowerSources2025,630,236092.[CrossRef]
+https://doi.org/10.3390/molecules31101603
+
+Molecules2026,31,1603 10of10
+30. Ding,J.;Yang,H.;Zhang,H.;Wang,Z.;Liu,Q.;Feng,L.;Hu,G.;Luo,J.;Liu,X.DealloyedNiTiZrAgasanefficientelectrocatalyst
+forhydrogenevolutioninalkalineseawater.Int.J.HydrogenEnergy2024,53,318–324.[CrossRef]
+31. Guo,L.; Huang,Y.; Qin,Y.; Chen,B.; Liu,C.; Chen,H.; Zhang,J.; Zhang,X.; Wang,Q.Self-reconstructionofFeCoNiMoW
+highentropyalloytoboostOERactivitywithrobuststabilityforanionexchangemembranewaterelectrolyzer.Nanoscale2025,
+17,17312–17323.[CrossRef]
+32. Wang,X.;Chen,Y.;Yu,B.;Wang,Z.;Wang,H.;Sun,B.;Li,W.;Yang,D.;Zhang,W.HierarchicallyporousW-dopedCoPnanoflake
+arraysashighlyefficientandstableelectrocatalystforPH-universalhydrogenevolution. Small2019,15,1902613. [CrossRef]
+[PubMed]
+Disclaimer/Publisher’sNote: Thestatements, opinionsanddatacontainedinallpublicationsaresolelythoseoftheindividual
+author(s)andcontributor(s)andnotofMDPIand/ortheeditor(s).MDPIand/ortheeditor(s)disclaimresponsibilityforanyinjuryto
+peopleorpropertyresultingfromanyideas,methods,instructionsorproductsreferredtointhecontent.
+https://doi.org/10.3390/molecules31101603
+

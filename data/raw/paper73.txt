@@ -1,0 +1,420 @@
+ORIGINALRESEARCH
+published:15April2021
+doi:10.3389/fchem.2021.655583
+NiO Nanosheets Coupled With CdS
+Nanorods as 2D/1D Heterojunction
+for Improved Photocatalytic
+Hydrogen Evolution
+LinWei1,DeqianZeng1*,ZongzhuoXie1,QingruZeng1,HongfeiZheng2,ToyohisaFujita1*
+andYuezhouWei1
+1GuangxiKeyLaboratoryofProcessingforNon-ferrousMetalsandFeaturedMaterials,SchoolofResources,Environment
+andMaterials,GuangxiUniversity,Nanning,China,2CollaborativeInnovationCenterofChemistryforEnergyMaterials,
+CollegeofMaterials,XiamenUniversity,Xiamen,China
+Designing low-cost, environment friendly, and highly active photocatalysts for water
+splitting is a promising path toward relieving energy issues. Herein, one-dimensional
+(1D) cadmium sulfide (CdS) nanorods are uniformly anchored onto two-dimensional
+(2D) NiO nanosheets to achieve enhanced photocatalytic hydrogen evolution. The
+optimized 2D/1D NiO/CdS photocatalyst exhibits a remarkable boosted hydrogen
+generation rate of 1,300 µmol h−1 g−1 under visible light, which is more than eight
+Editedby:
+timeshigherthanthatofCdSnanorods.Moreover,theresultant5%NiO/CdScomposite
+JunkuoGao,
+ZhejiangSci-TechUniversity,China displays excellent stability over four cycles for photocatalytic hydrogen production.
+Reviewedby: The significantly enhanced photocatalytic activity of the 2D/1D NiO/CdS heterojunction
+KulamaniParida, can be attributed to the efficient separation of photogenerated charge carriers driven
+SikshaOAnusandhanUniversity,India
+from the formation of p-n NiO/CdS heterojunction. This study paves a new way to
+XiaofeiYang,
+NanjingForestryUniversity,China develop2Dp-typeNiOnanosheets-decoratedn-typesemiconductorphotocatalystsfor
+*Correspondence: photocatalyticapplications.
+DeqianZeng
+dqzeng@gxu.edu.cn Keywords: NiO nanosheets, CdS nanorods, nanocomposites, p-n heterojunction, photocatalytic hydrogen
+ToyohisaFujita generation
+fujitatoyohisa@gxu.edu.cn
+INTRODUCTION
+Specialtysection:
+Thisarticlewassubmittedto
+InorganicChemistry, Photocatalysis has been recognized as an auspicious strategy to confront the energy and
+asectionofthejournal environmentalcrises(Shaoetal.,2019;Wangetal.,2019).Developinglow-costandhighlyefficient
+FrontiersinChemistry heterojunction photocatalysts is pivotal for the large-scale commercialization of photocatalytic
+Received:19January2021 hydrogen generation. Since TiO 2 was first reported as a promising semiconductor for water
+Accepted:22March2021 splitting (Fujishima and Honda, 1972), a significant number of semiconductor photocatalysts,
+Published:15April2021 such as metal sulfides (Chandrasekaran et al., 2019), metal oxides (Kumaravel et al., 2019), g-
+Citation: C 3 N 4 (Rhimietal.,2020),andmetal-organicframeworks(Luoetal.,2020),havebeenexplored
+WeiL,ZengD,XieZ,ZengQ, forphotocatalyticwatersplitting.
+ZhengH,FujitaTandWeiY(2021) Cadmiumsulfide(CdS),asavisible-lightphotocatalyst,hasattractedtremendousattentiondue
+NiONanosheetsCoupledWithCdS
+toitssuitablebandgapandband-edgepositionforwatersplitting(Xuetal.,2018;Ruanetal.,2020).
+Nanorodsas2D/1DHeterojunctionfor
+Nevertheless,thephotoactivityofCdSwasgreatlylimitedowingtoitsterriblephotostabilityand
+ImprovedPhotocatalyticHydrogen
+Evolution.Front.Chem.9:655583. photo-corrosion and rapid recombination of charge carriers (Zhou X. et al., 2017; Kuang et al.,
+doi:10.3389/fchem.2021.655583 2020). To address these issues, some strategies have been applied to improve its photocatalytic
+FrontiersinChemistry|www.frontiersin.org 1 April2021|Volume9|Article655583
+
+Weietal. 2D/1DNiO/CdSHeterojunctionPhotocatalyst
+activity, such as co-catalyst modifying (Liu W. et al., 2018), wasobtainedbyusingcentrifugationandwashedwithDIwater
+structureandmorphologycontrolling(Vaqueroetal.,2017;Jiang andethanolbeforevacuumdrying.
+et al., 2020), and heterojunction construction (Xu et al., 2020;
+Yangetal.,2020;Dingetal.,2021).Inparticular,thefabricationof PreparationofNiONanosheets
+semiconductor–semiconductor heterojunctions has turned out The NiO nanosheets were prepared by the calcination of
+tobeaneffectivetactictobroadenthelight-responserangeand α-Ni(OH) nanosheets. Firstly, α-Ni(OH) nanosheets were
+2 2
+accelerate the separation of electron-hole pairs (Liu J. et al., synthesized through a modified method based on a previous
+2018; Zhai et al., 2018; Lu X. et al., 2020). Notably, the p-n report (Wang D. et al., 2018). Typically, 1 mmol of nickel
+junction has proven to be an efficient approach to boost the nitrate hexahydrate [Ni(NO ) ·6H O] and 2 mmol of urea
+3 2 2
+photoactivity on the account that the formed internal electric (CH N S)weredissolvedin35mlofethanol.Themixturewas
+4 2
+fieldattheinterfacecanpromotetheseparationofelectron-hole then transferred into 50ml of Teflon-lined autoclave and kept
+pairs(Zhangetal.,2018;Tangetal.,2019).Forinstance,thep-n at 120 ◦ C for 8h. The α-Ni(OH) nanosheets were obtained
+2
+NiSe 2 /CdScompositesdisplayeda2.7-foldhigherphotocatalytic after centrifugation, washed, and vacuumed dried. Finally, the
+hydrogenproductionratethanpristineCdSduetotheireffective NiOnanosheetswerepreparedbyannealingtheas-obtainedα-
+separation and transfer of charge carriers (Chen et al., 2019). Ni(OH) nanosheets at 350 ◦ C for 1h under air with a heating
+2
+Zhang et al. (2013) reported that the p-n NiS/CdS composites rateof1 ◦ C/min.
+loading with 5 mol% NiS exhibited improved photocatalytic
+hydrogengenerationactivity.Furthermore,WangL.etal.(2018) PreparationofNiO/CdSComposites
+reportedthatthep-nCu 2 O/CdSheterojunctionphotoelectrode TheNiO/CdScompositesweresynthesizedthroughasolution-
+display improved photoactivity compared to CdS because the phasemethod.Firstly,NiOnanosheetsandCdSnanorodswere
+formed p-n junction facilitates the separation and transfer dispersedin40mlofethanol.Then,themixturewasmagnetically
+of photoinduced charges. Therefore, incorporating a suitable stirred for 12h. Finally, the product was obtained after the
+and stable p-type semiconductor into CdS can ensure a p-n mixturewaswashedandvacuumdried.Thefinalproductswere
+heterojunctionforimprovedphotocatalyticperformance. denotedasx%NiO/CdS,inwhichx%representedthemassratio
+Nickeloxide(NiO),asalow-costandearth-abundantp-type ofNiOtotheNiO/CdScomposite.
+semiconductor, has attracted significant attention in the field
+ofphotocatalysis,includingphotocatalyticdegradation(Ahmad
+Characterization
+et al., 2018; Sabzehmeidani et al., 2018), photocatalytic CO
+2
+The crystal phases of the samples were carried out using a
+reduction (Chen et al., 2018), and photocatalytic hydrogen
+powder X-ray diffractometer (XRD, Smartlab-3KW). The
+evolution (Shi et al., 2019; Lin et al., 2020). However, many
+scanningelectronmicroscopy(SEM)imagewasobtainedusinga
+previous studies mainly focused on the NiO nanoparticles; the
+HITACHIS-3400Nmicroscope.Theimagesfromtransmission
+2D sheet-like NiO nanosheets for photocatalytic application
+electron microscopy (TEM) were acquired from a TECNAI
+were seldom discussed. The p-type NiO nanosheets with a
+F-30microscope(FEICompany,Hillsboro,OR,UnitedStates).
+large surface area can provide more active sites and inhibit the
+The UV-visible spectra of the samples were obtained on a
+aggregationofthephotogeneratedcarrier,whichisfavorablefor
+PerkinElmer,Lambda750.Thephotoluminescence(PL)spectra
+the enhanced photocatalytic performance. Hence, it is highly
+were obtained using FL3C-111 (HORIBA Instruments Inc.).
+desirabletoexplore2DNiOnanosheet-basedp-nheterojunction
+The x-ray photoelectron spectroscopy (XPS) measurements
+photocatalystsforhydrogenproduction.
+were acquired using an ESCALAB 250Xi spectrometer.
+In this study, the NiO/CdS composite composed of p-type
+For the photoelectrochemical (PEC) tests, photocurrent
+2D NiO nanosheets and the n-type 1D CdS nanorods were
+responses, electrochemical impedance spectra (EIS), and
+prepared using a solution-phase hybridization approach. The
+Mott–Schottky plots were performed on a Bio-Logic VSP-300
+5% NiO/CdS composite exhibited a prominently enhanced
+potentiostat in a 0.1M Na SO solution, where a Pt sheet,
+photocatalytichydrogenevolutionactivitywhencomparedwith 2 4
+Ag/AgCl, and photocatalyst-coated ITO glass were used
+CdSnanorods.Inaddition,thephotocatalyticmechanismofthe
+as the counter electrode, reference electrode, and working
+2D/1DNiO/CdSp-nheterojunctionwasproposedbasedonthe
+electrode,respectively.
+photoluminescence (PL) and photoelectrochemical (PEC) tests.
+This current research highlights the advantages of the 2D/1D
+p-n heterojunctions toward improved photocatalytic hydrogen Photocatalytic Measurements
+generationperformance. ThephotocatalyticH productionactivitiesweremeasuredona
+2
+closed-circulationapparatus.Typically,thephotocatalyst(40mg)
+EXPERIMENTAL SECTION was suspended into a 0.2M Na 2 S/0.35M Na 2 SO 3 aqueous
+solution (60ml). The mixture was then irradiated under a
+Preparation 300W Xe lamp (CEL-HXF300, Beijing Aulight, λ > 420nm).
+PreparationofCdSNanorods The amount of H was determined using gas chromatography
+2
+First, 2 mmol of cadmium acetate [Cd(OAc) ·2H O] and 4 (GC-7920) using a thermal conductivity detector. After the
+2 2
+mmol of thiourea (CH N S) were initially dissolved into 50ml H in the previous cycle was fully removed, the cycling tests
+4 2 2
+of ethylenediamine. The mixture was then placed in a 100-ml for the photocatalytic H production were carried out under
+2
+Teflon-linedautoclaveandheatedto180◦Cfor16h.Theproduct identicalconditions.
+FrontiersinChemistry|www.frontiersin.org 2 April2021|Volume9|Article655583
+
+Weietal. 2D/1DNiO/CdSHeterojunctionPhotocatalyst
+favor the separation of photogenerated charge carriers (Chen
+etal.,2019;LuY.etal.,2020;Zhaoetal.,2020).Furthermore,the
+high-angleannulardark-field(HAADF)andthecorresponding
+scanning TEM energy dispersive x-ray (STEM-EDX) elemental
+mapping images of NiO/CdS (Figures2e–i) illustrated that Ni
+andOwereofhomogeneousdistributionintheNiOnanosheets,
+whileCdandSwereintherod-likeCdSstructures,implyingthe
+coexistenceof2DNiOnanosheetsand1DCdSnanorodsinthe
+NiO/CdScomposite.
+The XPS further analyzed the elemental composition and
+chemical states of the 5% NiO/CdS sample. Two peaks appear
+at 853.9 and 872.2eV in the Ni 2p spectrum (Figure3A),
+correspondingtothebindingenergiesofNi2+
+2p 3/2 ,and2p 1/2 ;
+thepeaksat860.1and878.8eVcouldbeattributedtothesatellite
+peaks(Yangetal.,2019;Wuetal.,2020).AsshowninFigure3B,
+the peak located at 530.6eV could be attributed to the lattice
+oxygen of NiO (Wang et al., 2010; Liu et al., 2012; Hu et al.,
+FIGURE1|XRDpatternsofpristineNiO,cadmiumsulfide(CdS),NiO/CdS
+2018).Figure3Cdisplaysthehigh-resolutionXPSspectraofCd
+compositeswithdifferentcontentsofNiOnanosheets.
+3d;thebindingenergiesat405.2and411.9eVcorrespondtothe
+Cd3d 5/2 andCd3d 3/2
+oftheCd2+
+inCdSnanorods,respectively
+(Bai et al., 2010; Zhou P. et al., 2017; Behera et al., 2019). The
+RESULTS AND DISCUSSION XPSspectrumofS(Figure3D)presentstwopeaksat162.8and
+161.7eVthatwereassignedtothecharacteristicbindingenergies
+Synthesis and Characterization of S 2p 1/2 and S 2p 3/2 of S2− . The XPS results further indicate
+Figure1 shows the XRD patterns of pure CdS, NiO, and theconstructionofthe2D/1DNiO/CdScomposite,whichwere
+NiO/CdScompositeswithdifferentNiOcontents.Thediffraction well-matchedwiththeSEM(SupplementaryFigure5)andTEM
+peaks of the as-obtained CdS sample can be well-indexed to images(Figure2).
+those of hexagonal CdS (JCPDS No. 77-2306) (Zhang S. et al., Figure4A displays the UV-vis diffuse reflectance spectra
+2012; Shen et al., 2020). All of the diffraction peaks of the (DRS)oftheCdS,NiO,andNiO/CdScomposites.TheNiO/CdS
+NiO sample matched with cubic NiO (JCPDS No. 89-7130), composites present a similar absorption edge to pristine CdS,
+indicating the successful preparation of NiO by the calcination indicating that the intrinsic bandgap of CdS could be retained
+of α-Ni(OH) (SupplementaryFigure1, JCPDS No. 22-0444). afterloadingasmallamountofNiOcontent(WangL.etal.,2018;
+2
+Moreover,theNiO/CdSphotocatalystsexhibitsimilardiffraction Chen et al., 2019). Besides, a significantly increased absorption
+peakstoCdS,whichcanbeattributedtothelowcontentofNiO in the range of 550–800nm for the NiO/CdS composites with
+(Chen et al., 2019; Tang et al., 2019). To reveal the coexistence the increasing NiO content could be assigned to the strong
+ofNiOandCdSinthecomposite,thefollowingSEM,TEM,and absorptionoftheNiOnanosheets.ThebandgapenergiesofCdS
+XPSmeasurementswereperformed. and NiO were measured based on the transformed Kubelka–
+The morphology and structure of photocatalysts were Munkfunction(Carboneetal.,2017;Chenetal.,2019;Xuetal.,
+identified by SEM. As shown in SupplementaryFigures2, 3, 2021).AccordingtotheTaucplots(Figure4B),thebandgapof
+the NiO could retain the 2D sheet-like morphologies of the theCdSnanorodsandNiOnanosheetswerecalculatedtobe2.37
+α-Ni(OH) after the calcination process. In the meantime, the and3.17eV,respectively(Kandietal.,2020).
+2
+CdS exhibited rod-like morphology with a length of 100– The photocatalytic hydrogen generation performance of the
+500nm (SupplementaryFigure4). It can be observed in the as-prepared photocatalysts was measured under visible light.
+SEM image of 5% NiO/CdS (SupplementaryFigure5) that As illustrated in Figure5A, the NiO nanosheets exhibit trace
+the CdS nanorods were uniformly deposited onto the NiO amounts of hydrogen evolution, which could be attributed to
+nanosheetsafterhybridizationtreatment.Tofurtherconfirmthe the fast recombination of the photogenerated charge carriers.
+microstructuresandinterfacesoftheNiO/CdScomposite,TEM The pristine CdS displays a hydrogen production rate of 150
+andhigh-resolutionTEM(HRTEM)werecarriedout.Asshown µmol h −1 g −1. Notably, the hydrogen generation amount of
+in Figures2a,b, the NiO nanosheets were intimately attached all of the NiO/CdS photocatalysts was higher than that of
+to the CdS nanorods. Moreover, the continuous lattice fringes CdS. It is impressive that the optimal 5% NiO/CdS sample
+(Figure2c)intheHRTEMrevealthatthelatticefringespacings exhibited a hydrogen generation rate of 1,300 µmol h −1 g −1,
+of 0.329 and 0.242nm were assigned to (100) plane of the CdS which is more than eight times higher than that of pristine
+nanorods and (111) plane of the NiO nanosheets, respectively. CdS. By further increasing the NiO loading up to 8 wt.%, the
+Similarly, CdS (002) and NiO (200) also can be observed in hydrogen evolution activity was slightly decreased due to the
+the HRTEM image (Figure2d), indicating the presence of an shielding effect caused by the excessive amount of NiO (Zeng
+intimate interface between the NiO nanosheets and the CdS etal.,2019).Moreover,asdisplayedinSupplementaryFigure6,
+nanorods. Such tight contact in the NiO/CdS composite would the 5% NiO/CdS samples using UV-vis light source (λ >
+FrontiersinChemistry|www.frontiersin.org 3 April2021|Volume9|Article655583
+
+Weietal. 2D/1DNiO/CdSHeterojunctionPhotocatalyst
+FIGURE2|(a,b)TEMand(c,d)HRTEMimagesof5%NiO/CdS;(e)HAADFand(f–i)thecorrespondingelementalmappingimagesofCd,S,Ni,andOof5%
+NiO/CdS.
+350nm) exhibited enhanced activity when compared to CdS and the PEC tests of the as-obtained photocatalysts were
+and NiO, further implying that the formed 2D/1D NiO/CdS carried out. As illustrated in Figure6A, pristine CdS shows a
+heterojunction was beneficial for the separation and transfer of pronounced emission peak, revealing its rapid charge carrier
+photoexcitedelectron-holepairs.Meanwhile,tofurtherevaluate recombination. Notably, the PL intensity of the 5% NiO/CdS
+therecyclingstabilityofthe5%NiO/CdScomposites,fourcycles photocatalysts was significantly decreased, implying that the
+of photocatalytic hydrogen production were carried out. As enhanced separation efficiency of photogenerated carriers was
+depicted in Figure5B, the NiO/CdS composite photocatalysts achieved after loading the NiO nanosheets (Kandi et al., 2017;
+exhibit superior stable hydrogen generation activity during the Li et al., 2020). Furthermore, the time resolved PL (TRPL)
+multi-cyclephotocatalyticreactionwithin18h.Furthermore,the spectrawereconductedtounveilthedynamictransferofcharge
+crystal structure of the used 5% NiO/CdS sample was studied. carriers of the NiO/CdS composite. As illustrated in Figure6B
+AsrevealedbytheXRDpatterns(SupplementaryFigure7),the andSupplementaryTable1,thePLlifetimeofthe5%NiO/CdS
+crystalphasebasicallyremainedunchangedafterthecyclingtests. composite(1.93µs)ishigherthanthatofthepristineCdS(1.73
+Suchresultsdemonstratetheexcellentphotoactivityandstability µs), illustrating the effective charge transfer in the NiO/CdS
+oftheNiO/CdScomposite. nanohybrids (Hao et al., 2019; Kandi et al., 2019; Peng et al.,
+To deeply investigate the effect of NiO nanosheets on 2021; Yang et al., 2021). For PEC measurements, as displayed
+the enhanced photocatalytic performance of CdS, the PL in Figure6C, the photocurrent response of the 5% NiO/CdS
+FrontiersinChemistry|www.frontiersin.org 4 April2021|Volume9|Article655583
+
+Weietal. 2D/1DNiO/CdSHeterojunctionPhotocatalyst
+FIGURE3|XPSspectraof(A)Ni2p,(B)O1s,(C)Cd3d,and(D)S2pofthe5%NiO/CdSsample.
+FIGURE4|(A)UV-visDRSand(B)TaucplotsoftheCdS,NiO,andNiO/CdScomposites.
+composite is significantly higher than that of the pristine CdS, for the conversion of Ag/AgCl to the reversible hydrogen
+indicating that the 2D NiO nanosheets can effectively promote electrode (RHE) scale. The positive and negative slopes of CdS
+thechargeseparationintheNiO/CdSphotocatalyst(Chaietal., and NiO were observed, corresponding to n-type and p-type
+2018; Shao et al., 2019; Chen et al., 2020). Also, as revealed semiconductors,respectively.Furthermore,basedontheMott–
+by the EIS Nyquist plots (Figure6D), the radius of the 5% Schottkyplots,theconductionband(CB)ofCdSandthevalence
+NiO/CdS composites is significantly smaller than that of the band (VB) of NiO were estimated to be ∼−0.58 and 2.06eV,
+CdS,suggestingthatthechargetransferresistancewasdecreased respectively(Qiuetal.,2017;Chenetal.,2019;Ruanetal.,2020).
+considerably after incorporating NiO nanosheets, which was CombinedwiththebandgapvaluesofCdSandNiOderivedfrom
+beneficialinimprovingthephotocatalyticactivity(ZhangJ.etal., Taucplots(Figure4B),theVBandtheCBofCdSwerelocated
+2012;Kuangetal.,2020). tobeat1.79and−1.11eV,respectively.
+As depicted in Figure7, the Mott–Schottky curves of CdS A possible photocatalytic hydrogen evolution mechanism of
+andNiOat500,1,000,and1,500Hzweremeasured,according the 2D/1D NiO/CdS heterojunction is proposed in Figure8.
+to the equation (E = E + 0.059 × pH + 0.205) After coupling the n-type CdS nanorods with the p-type NiO
+RHE Ag/AgCl
+FrontiersinChemistry|www.frontiersin.org 5 April2021|Volume9|Article655583
+
+Weietal. 2D/1DNiO/CdSHeterojunctionPhotocatalyst
+FIGURE5|(A)PhotocatalyticH2productionactivitiesofCdS,NiO,andNiO/CdScomposites.(B)RecyclingtestsofphotocatalyticH2generationover5%NiO/CdS.
+FIGURE6|(A)PLand(B)TRPLspectraofCdSandNiO/CdS.(C)Photocurrentresponsecurvesand(D)EISNyquistplotsofpristineCdS,NiO,and5%NiO/CdS
+samples.
+nanosheets, the charge carriers at the interphase boundary NiO/CdSheterojunctioncouldefficientlypromotetheseparation
+undergo redistribution to balance the Fermi level (Chen et al., andmigrationofthephotoexcitedelectron-holepairs(Xiaoetal.,
+2011,2019).Thus,theenergyband(VBandCB)ofp-typeNiO 2020; Zhao et al., 2020), resulting in improved photocatalytic
+wasraisedtoalocationhigherthanthatofCdS,andtheformed hydrogenproductionactivity.
+p-njunctionwasfavorabletobuildtheinnerelectricfieldatthe
+interfacebetweenCdSandNiO(WangL.etal.,2018;Shietal., CONCLUSIONS
+2019). When the p-n NiO/CdS is irradiated under visible light,
+theelectronswereexcitedfromtheVBtotheirCBinCdSand In summary, the CdS nanorods were uniformly anchored onto
+NiO.ThephotoexcitedelectronsintheCBofNiOcouldmigrate the NiO nanosheets through a solution-phase hybridization
+tothatofCdS,whereastheholesintheCdSweretransferredto method. The 2D/1D NiO/CdS heterojunction photocatalyst
+the VB of NiO. Therefore, the construction of the p-n 2D/1D unveiled efficient photoactivity toward hydrogen production
+FrontiersinChemistry|www.frontiersin.org 6 April2021|Volume9|Article655583
+
+Weietal. 2D/1DNiO/CdSHeterojunctionPhotocatalyst
+FIGURE7|Mott–Schottkyplotsof(A)CdSand(B)NiO.
+FIGURE8|ThepossiblephotocatalyticmechanismforNiO/CdSsystem.
+under visible light. The resultant 5% NiO/CdS exhibited a DATA AVAILABILITY STATEMENT
+photocatalytic hydrogen production rate of 1,300 µmol h −1
+g −1, which is more than eight times higher than that of The raw data supporting the conclusions of this
+the CdS nanorods. Moreover, the NiO/CdS composite displays article will be made available by the authors, without
+excellent stability over four cycles of photocatalytic hydrogen unduereservation.
+production. According to the results from the PL, the TRPL,
+the PEC, Mott–Schottky plots, the improved photocatalytic AUTHOR CONTRIBUTIONS
+hydrogen evolution performance was mainly attributed to the
+efficientseparationofchargecarrierscausedbytheformedp-n LW and DZ planned the experimental work, wrote the
+NiO/CdSheterojunction.Thisstudyprovidesnewopportunities manuscript, and helped in the analysis. ZX, QZ, and HZ
+inimprovingphotocatalyticactivitybyconstructing2D/1Dp-n methodology, formal analysis, and data curation. DZ, TF,
+heterojunctionphotocatalysts. and YW review, editing, and funding acquisition. All authors
+FrontiersinChemistry|www.frontiersin.org 7 April2021|Volume9|Article655583
+
+Weietal. 2D/1DNiO/CdSHeterojunctionPhotocatalyst
+contributed to the article and approved the submitted version. (Nos. AA17204100 and AA18118030), and the Bagui Talent of
+GuangxiProvince.
+FUNDING
+SUPPLEMENTARY MATERIAL
+This work was supported by the the Central
+Guided Local Science and Technology Development The Supplementary Material for this article can be found
+Project (No. GUIKE-AD20238052), the Science and online at: https://www.frontiersin.org/articles/10.3389/fchem.
+Technology Major Project of Guangxi Province 2021.655583/full#supplementary-material
+REFERENCES
+Jiang,J.,Wang,H.,An,H.,andDu,G.(2020).ControlledgrowthofCdSnanostep
+structuredarraystoimprovephotoelectrochemicalperformance.Front.Chem.
+Ahmad,J.,Majid,K.,andDar,M.A.(2018).Controlledsynthesisofp-typeNiO/n- 8:e577582.doi:10.3389/fchem.2020.577582
+typeGOnanocompositewithenhancedphotocatalyticactivityandstudyof Kandi,D.,Behera,A.,Martha,S.,Naik,B.,andParida,K.M.(2019).Quantum
+temperatureeffectonthephotocatalyticactivityofthenanocomposite.Appl. confinement chemistry of CdS QDs plus hot electron of Au over TiO2
+Surf.Sci.457,417–426.doi:10.1016/j.apsusc.2018.06.200 nanowire protruding to be encouraging photocatalyst towards nitrophenol
+Bai, J., Li, J., Liu, Y., Zhou, B., and Cai, W. (2010). A new glass substrate conversionandciprofloxacindegradation.J.Environ.Chem.Eng.7:102821.
+photoelectrocatalyticelectrodeforefficientvisible-lighthydrogenproduction: doi:10.1016/j.jece.2018.102821
+CdSsensitizedTiO2 nanotubearrays.Appl.Cataly.B:Environ.95,408–413. Kandi, D., Behera, A., Sahoo, S., and Parida, K. (2020). CdS QDs modified
+doi:10.1016/j.apcatb.2010.01.020 BiOI/Bi2MoO6nanocompositefordegradationofquinoloneandtetracycline
+Behera,A.,Kandi,D.,Sahoo,S.,andParida,K.(2019).Constructionofisoenergetic types of antibiotics towards environmental remediation. Separat. Purificat.
+bandalignmentbetweenCdSQDsandCaFe2O4@ZnFe2O4 heterojunction: Technol.253:117523.doi:10.1016/j.seppur.2020.117523
+a promising ternary hybrid toward norfloxacin degradation and H2 energy Kandi,D.,Martha,S.,Thirumurugan,A.,andParida,K.M.(2017).CdSQDs-
+production.J.Phys.Chem.C123,17112–17126.doi:10.1021/acs.jpcc.9b03296 decorated self-doped γ-Bi2MoO6: a sustainable and versatile photocatalyst
+Carbone,M.,MariaBauer,E.,Micheli,L.,andMissori,M.(2017).NiOmorphology towardphotoreductionofCr(VI)anddegradationofphenol.ACSOmega2,
+dependent optical and electrochemical properties. Colloids Surfaces A: 9040–9056.doi:10.1021/acsomega.7b01250
+Physicochem.Eng.Aspects532,178–182.doi:10.1016/j.colsurfa.2017.05.046 Kuang,W.,Meng,X.,Wang,C.,Talluri,B.,Thomas,T.,Jiang,C.,etal.(2020).
+Chai,B.,Xu,M.,Yan,J.,andRen,Z.(2018).Remarkablyenhancedphotocatalytic Nitridation of CoWO4/CdS nanocomposite formed metal nitrides assisting
+hydrogen evolution over MoS2 nanosheets loaded on uniform CdS efficiently photocatalytic hydrogen evolution. ACS Omega 5, 9969–9976.
+nanospheres.Appl.Surf.Sci.430,523–530.doi:10.1016/j.apsusc.2017.07.292 doi:10.1021/acsomega.0c00288
+Chandrasekaran, S., Yao, L., Deng, L., Bowen, C., Zhang, Y., Chen, S., et al. Kumaravel, V., Mathew, S., Bartlett, J., and Pillai, S. C. (2019). Photocatalytic
+(2019). Recent advances in metal sulfides: from controlled fabrication to hydrogenproductionusingmetaldopedTiO2:Areviewofrecentadvances.
+electrocatalytic,photocatalyticandphotoelectrochemicalwatersplittingand Appl.Catal.B:Environ.244,1021–1064.doi:10.1016/j.apcatb.2018.11.080
+beyond.Chem.Soc.Rev.48,4178–4280.doi:10.1039/C8CS00664D Li,X.,Xue,F.,Li,N.,Wei,X.,Liu,H.,Zhou,J.,etal.(2020).One-pothydrothermal
+Chen, C.-J., Liao, C.-H., Hsu, K.-C., Wu, Y.-T., and Wu, J. C. S. (2011). P–N synthesisofMoS2/Zn0.5Cd0.5SheterojunctionforenhancedphotocatalyticH2
+junctionmechanismonimprovedNiO/TiO2 photocatalyst.Catal.Commun. production.Front.Chem.8:779.doi:10.3389/fchem.2020.00779
+12,1307–1310.doi:10.1016/j.catcom.2011.05.009 Lin,Y.-Z.,Wang,K.,Zhang,Y.,Dou,Y.-C.,Yang,Y.-J.,Xu,M.-L.,etal.(2020).
+Chen,S.,Yu,J.,andZhang,J.(2018).EnhancedphotocatalyticCO2 reduction Metal–organicframework-derivedCdS–NiOheterostructureswithmodulated
+activityofMOF-derivedZnO/NiOporoushollowspheres.J.CO2Utilizat.24, morphologyandenhancedphotocatalytichydrogenevolutionactivityinpure
+548–554.doi:10.1016/j.jcou.2018.02.013 water.J.Mater.Chem.C8,10071–10077.doi:10.1039/C9TC07042G
+Chen, Z., Cheng, C., Xing, F., and Huang, C. (2020). Strong interfacial Liu, B., Wei, A., Zhang, J., An, L., Zhang, Q., and Yang, H. (2012). Synthesis
+coupling for NiS thin layer covered CdS nanorods with highly efficient andphotocatalyticactivityofmonodispersesinglecrystallineNiOoctahedrons
+photocatalytic hydrogen production. New J. Chem. 44, 19083–19090. by the selective adsorption of Cl– ions. J. Alloys Compd. 544, 55–61.
+doi:10.1039/D0NJ04335D doi:10.1016/j.jallcom.2012.06.111
+Chen, Z., Gong, H., Liu, Q., Song, M., and Huang, C. (2019). NiSe2 Liu, J., Jia, Q., Long, J., Wang, X., Gao, Z., and Gu, Q. (2018). Amorphous
+nanoparticles grown in situ on CdS nanorods for enhanced photocatalytic NiO as co-catalyst for enhanced visible-light-driven hydrogen generation
+hydrogen evolution. ACS Sustain. Chem. Eng. 7, 16720–16728. over g-C3N4 photocatalyst. Appl. Catal. B: Environ. 222, 35–43.
+doi:10.1021/acssuschemeng.9b04173 doi:10.1016/j.apcatb.2017.09.073
+Ding, M., Xiao, R., Zhao, C., Bukhvalov, D., Chen, Z., Xu, H., et al. (2021). Liu, W., Wang, X., Yu, H., and Yu, J. (2018). Direct photoinduced
+Evidencing interfacial charge transfer in 2D CdS/2D MXene schottky synthesisofamorphousCoMoSx cocatalystanditsimprovedphotocatalytic
+heterojunctions toward high-efficiency photocatalytic hydrogen production. H2-evolution activity of CdS. ACS Sustain. Chem. Eng. 6:12436–12445.
+SolarRRL5:2000414.doi:10.1002/solr.202000414 doi:10.1021/acssuschemeng.8b02971
+Fujishima, A., and Honda, K. (1972).Electrochemical photolysis of water at a Lu,X.,Toe,C.Y.,Ji,F.,Chen,W.,Wen,X.,Wong,R.J.,etal.(2020).Light-
+semiconductorelectrode.Nature238,37–38.doi:10.1038/238037a0 induced formation of MoOxSy clusters on CdS nanorods as cocatalyst for
+Hao, X., Hu, Y., Cui, Z., Zhou, J., Wang, Y., and Zou, Z. (2019). enhanced hydrogen evolution. ACS Appl. Mater. Interfaces 12, 8324–8332.
+Self-constructed facet junctions on hexagonal CdS single crystals doi:10.1021/acsami.9b21810
+with high photoactivity and photostability for water splitting. Lu, Y., Fan, D., Chen, Z., Xiao, W., Cao, C., and Yang, X. (2020). Anchoring
+Appl. Catal. B: Environ. 244, 694–703. doi: 10.1016/j.apcatb.2018.1 Co3O4nanoparticlesonMXeneforefficientelectrocatalyticoxygenevolution.
+2.006 Sci.Bull.65,460–466.doi:10.1016/j.scib.2019.12.020
+Hu, J., Yang, J., Wang, W., Xue, Y., Sun, Y., Li, P., et al. Luo,H.,Zeng,Z.,Zeng,G.,Zhang,C.,Xiao,R.,Huang,D.,etal.(2020).Recent
+(2018). Synthesis and gas sensing properties of NiO/SnO2 progressonmetal-organicframeworksbased-andderived-photocatalystsfor
+hierarchical structures toward ppb-level acetone detection. watersplitting.Chem.Eng.J.383:123196.doi:10.1016/j.cej.2019.123196
+Mater. Res. Bull. 102, 294–303. doi: 10.1016/j.materresbull.2018.0 Peng, J., Shen, J., Yu, X., Tang, H., Zulfiqar, and Liu, Q. (2021). Construction
+2.006 of LSPR-enhanced 0D/2D CdS/MoO3−x S-scheme heterojunctions for
+FrontiersinChemistry|www.frontiersin.org 8 April2021|Volume9|Article655583
+
+Weietal. 2D/1DNiO/CdSHeterojunctionPhotocatalyst
+visible-light-driven photocatalytic H2 evolution. Chin. J. Catal. 42, 87–96. Xu, H.-Q., Yang, S., Ma, X., Huang, J., and Jiang, H.-L. (2018).
+doi:10.1016/S1872-2067(20)63595-1 Unveiling charge-separation dynamics in CdS/metal–organic framework
+Qiu, B., Zhu, Q., Du, M., Fan, L., Xing, M., and Zhang, J. (2017). composites for enhanced photocatalysis. ACS Catal. 8, 11615–11621.
+Efficient solar light harvesting CdS/Co9S8 hollow cubes for Z-scheme doi:10.1021/acscatal.8b03233
+photocatalytic water splitting. Angewandte Chem. Int. Edn. 56, 2684–2688. Xu, J., Zhu, J., Niu, J., Chen, M., and Yue, J. (2020). Efficient and stable
+doi:10.1002/anie.201612551 photocatalytichydrogenevolutionactivityofmulti-heterojunctioncomposite
+Rhimi,B.,Wang,C.,andBahnemann,D.(2020).Latestprogressing-C3N4based photocatalysts:CdSandNiS2co-modifiedNaNbO3nanocubes.Front.Chem.
+heterojunctionsforhydrogenproductionviaphotocatalyticwatersplitting:a 7:880.doi:10.3389/fchem.2019.00880
+minireview.J.Phys.Energy2:042003.doi:10.1088/2515-7655/abb782 Yang, F., Zhang, Q., Zhang, J., Zhang, L., Cao, M., and Dai, W.-L.
+Ruan,Q.,Ma,X.,Li,Y.,Wu,J.,Wang,Z.,Geng,Y.,etal.(2020).One-dimensional (2020). Embedding Pt nanoparticles at the interface of CdS/NaNbO3
+CdS@Cd0.5Zn0.5S@ZnS-Ni(OH)2nano-hybridswithepitaxialheterointerfaces nanorods heterojunction with bridge design for superior Z-Scheme
+andspatiallyseparatedphoto-redoxsitesenablinghighly-efficientvisible-light- photocatalytic hydrogen evolution. Appl. Catal. B: Environ. 278:119290.
+drivenH2evolution.Nanoscale12,20522–20535.doi:10.1039/D0NR04007J doi:10.1016/j.apcatb.2020.119290
+Sabzehmeidani, M. M., Karimi, H., and Ghaedi, M. (2018). Electrospinning Yang, P., Peng, W., Li, L., Yu, S., and Zheng, H. (2019). The bipolar
+preparation of NiO/ZnO composite nanofibers for photodegradation of resistiveswitchingandnegativedifferentialresistanceofNiOfilmsinduced
+binary mixture of rhodamine B and methylene blue in aqueous solution: by the interface states. J. Mater. Sci. Mater. Electron. 30, 16659–16665.
+central composite optimization. Appl. Organomet. Chem. 32:e4335. doi:10.1007/s10854-019-02046-w
+doi:10.1002/aoc.4335 Yang, Y., Qiu, M., Chen, F., Qi, Q., Yan, G., Liu, L., et al. (2021).
+Shao,B.,Liu,X.,Liu,Z.,Zeng,G.,Zhang,W.,Liang,Q.,etal.(2019).Synthesisand Charge-transfer-mediated photocatalysis of W18O49@CdS nanotubes to
+characterizationof2D/0Dg-C3N4/CdS-nitrogendopedhollowcarbonspheres boost photocatalytic hydrogen production. Appl. Surf. Sci. 541:148415.
+(NHCs)compositeswithenhancedvisiblelightphotodegradationactivityfor doi:10.1016/j.apsusc.2020.148415
+antibiotic.Chem.Eng.J.374,479–493.doi:10.1016/j.cej.2019.05.202 Zeng,D.,Zhou,T.,Ong,W.-J.,Wu,M.,Duan,X.,Xu,W.,etal.(2019).Sub-5nm
+Shen,S.,Yan,L.,Song,K.,Lin,Z.,Wang,Z.,Du,D.,etal.(2020).NiSe2/CdS ultra-fineFePnanodotsasefficientco-catalystsmodifiedporousg-C3N4 for
+compositenanoflakesphotocatalystwithenhancedactivityundervisiblelight. precious-metal-freephotocatalytichydrogenevolutionundervisiblelight.ACS
+RSCAdv.10,42008–42013.doi:10.1039/D0RA09272J Appl.Mater.Interfaces11,5651–5660.doi:10.1021/acsami.8b20958
+Shi, J.-W., Zou, Y., Cheng, L., Ma, D., Sun, D., Mao, S., et al. (2019). In- Zhai, X. L., Liu, J., Hu, L. Y., Bao, J. C., and Lan, Y. Q. (2018).
+situphosphatingtosynthesizeNi2PdecoratedNiO/g-C3N4 pnjunctionfor Polyoxometalate-decoratedg-C3N4-wrappingsnowflake-likeCdSnanocrystal
+enhanced photocatalytic hydrogen production. Chem. Eng. J. 378:122161. forenhancedphotocatalytichydrogenevolution.Chemistry24,15930–15936.
+doi:10.1016/j.cej.2019.122161 doi:10.1002/chem.201803621
+Tang,Y.,Zhang,D.,Qiu,X.,Zeng,L.,Huang,B.,Li,H.,etal.(2019).Fabrication Zhang, J., Qiao, S. Z., Qi, L., and Yu, J. (2013). Fabrication of NiS
+of a NiCo2O4/Zn0.1Cd0.9S pn heterojunction photocatalyst with improved modified CdS nanorod p–n junction photocatalysts with enhanced visible-
+separationofchargecarriersforhighlyefficientvisiblelightphotocatalyticH2 light photocatalytic H2-production activity. Phys. Chem. Chem. Phys. 15,
+evolution.J.AlloysCompd.809:151855.doi:10.1016/j.jallcom.2019.151855 12088–12094.doi:10.1039/c3cp50734c
+Vaquero,F.,Navarro,R.,andFierro,J.(2017).Influenceofthesolventonthe Zhang, J., Yu, J., Jaroniec, M., and Gong, J. R. (2012). Noble metal-
+structure,morphologyandperformanceforH2evolutionofCdSphotocatalysts free reduced graphene oxide-ZnxCd1−xS nanocomposite with enhanced
+prepared by solvothermal method. Appl. Catal. B: Environ. 203, 753–767. solarphotocatalyticH2-productionperformance.NanoLett.12,4584–4589.
+doi:10.1016/j.apcatb.2016.10.073 doi:10.1021/nl301831h
+Wang, D., Guan, B., Li, Y., Li, D., Xu, Z., Hu, Y., et al. (2018). Morphology- Zhang,S.,Chen,Q.,Wang,Y.,andGuo,L.(2012).Synthesisandphotoactivity
+controlledsynthesisofhierarchicalmesoporousα-Ni(OH)2microspheresfor of CdS photocatalysts modified by polypyrrole. Int. J. Hydrog. Energy 37,
+high-performanceasymmetricsupercapacitors.J.AlloysCompd.737,238–247. 13030–13036.doi:10.1016/j.ijhydene.2012.05.060
+doi:10.1016/j.jallcom.2017.12.095 Zhang, Y., Jin, Z., Yuan, H., Wang, G., and Ma, B. (2018). Well-regulated
+Wang, L., Wang, W., Chen, Y., Yao, L., Zhao, X., Shi, H., et al. (2018). nickelnanoparticlesfunctionalmodifiedZIF-67(Co)derivedCo3O4/CdSpn
+Heterogeneousp–njunctionCdS/Cu2Onanorodarrays:synthesisandsuperior heterojunctionforefficientphotocatalytichydrogenevolution.Appl.Surf.Sci.
+visible-light-drivenphotoelectrochemicalperformanceforhydrogenevolution. 462,213–225.doi:10.1016/j.apsusc.2018.08.081
+ACSAppl.Mater.Interfaces10,11652–11662.doi:10.1021/acsami.7b19530 Zhao,C.,Yang,X.,Han,C.,andXu,J.(2020).Sacrificialagent-freephotocatalytic
+Wang, S., Zhu, B., Liu, M., Zhang, L., Yu, J., and Zhou, M. (2019). oxygenevolutionfromwatersplittingoverAg3PO4/MXenehybrids.SolarRRL
+Direct Z-scheme ZnO/CdS hierarchical photocatalyst for enhanced 4:1900434.doi:10.1002/solr.202070082
+photocatalytic H2-production activity. Appl. Catal. B: Environ. 243, 19–26. Zhou,P.,Le,Z.,Xie,Y.,Fang,J.,andXu,J.(2017).Studiesonfacilesynthesisand
+doi:10.1016/j.apcatb.2018.10.019 propertiesofmesoporousCdS/TiO2compositeforphotocatalysisapplications.
+Wang,Z.,Li,Z.,Sun,J.,Zhang,H.,Wang,W.,Zheng,W.,etal.(2010).Improved J.AlloysCompd.692,170–177.doi:10.1016/j.jallcom.2016.09.039
+hydrogen monitoring properties based on p-NiO/n-SnO2 heterojunction Zhou,X.,Sun,H.,Zhang,H.,andTu,W.(2017).One-pothydrothermalsynthesis
+compositenanofibers.J.Phys.Chem.C114,6100–6105.doi:10.1021/jp9100202 ofCdS/NiSphotocatalystsforhighH2evolutionfromwaterundervisiblelight.
+Wu,P.,Wu,J.,Si,H.,Zhang,Z.,Liao,Q.,Wang,X.,etal.(2020).3Dholey- Int.J.Hydrog.Energy42,11199–11205.doi:10.1016/j.ijhydene.2017.03.179
+graphene architecture expedites ion transport kinetics to push the OER
+performance.Adv.EnergyMater.10:2001005.doi:10.1002/aenm.202001005 ConflictofInterest:Theauthorsdeclarethattheresearchwasconductedinthe
+Xiao, R., Zhao, C., Zou, Z., Chen, Z., Tian, L., Xu, H., et al. (2020). absenceofanycommercialorfinancialrelationshipsthatcouldbeconstruedasa
+In situ fabrication of 1D CdS nanorod/2D Ti3C2 MXene nanosheet potentialconflictofinterest.
+Schottky heterojunction toward enhanced photocatalytic hydrogen
+evolution. App. Catal. B: Environ. 268:118382. doi: 10.1016/j.apcatb.2019. Copyright©2021Wei,Zeng,Xie,Zeng,Zheng,FujitaandWei.Thisisanopen-
+118382 access article distributed under the terms of the Creative Commons Attribution
+Xu, H., Xiao, R., Huang, J., Jiang, Y., Zhao, C., and Yang, X. License(CCBY).Theuse,distributionorreproductioninotherforumsispermitted,
+(2021). In situ construction of protonated g-C3N4/Ti3C2 MXene providedtheoriginalauthor(s)andthecopyrightowner(s)arecreditedandthatthe
+Schottky heterojunctions for efficient photocatalytic hydrogen originalpublicationinthisjournaliscited,inaccordancewithacceptedacademic
+production. Chin. J. Catal. 42, 107–114. doi: 10.1016/S1872-2067(20) practice.Nouse,distributionorreproductionispermittedwhichdoesnotcomply
+63559-8 withtheseterms.
+FrontiersinChemistry|www.frontiersin.org 9 April2021|Volume9|Article655583
+

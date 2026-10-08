@@ -1,0 +1,936 @@
+ARTICLE
+https://doi.org/10.1038/s41467-021-24322-2 OPEN
+Solvent-free microwave synthesis of ultra-small
+Ru-Mo C@CNT with strong metal-support
+2
+interaction for industrial hydrogen evolution
+Xueke Wu1, Zuochao Wang1, Dan Zhang1,2, Yingnan Qin1, Minghui Wang1, Yi Han1, Tianrong Zhan1, Bo Yang2,
+✉ ✉
+Shaoxiang Li2, Jianping Lai 1 & Lei Wang 1,2
+Exploring a simple, fast, solvent-free synthetic method for large-scale preparation of cheap,
+highly active electrocatalysts for industrial hydrogen evolution reaction is one of the most
+promising work today. In this work, a simple, fast and solvent-free microwave pyrolysis
+method is used to synthesize ultra-small (3.5nm) Ru-Mo C@CNT catalyst with hetero-
+2
+geneous structure and strong metal-support interaction in one step. The Ru-Mo C@CNT
+2
+catalyst only exhibits an overpotential of 15mV at a current density of 10mAcm−2, and
+exhibitsalargeturnoverfrequencyvalueupto21.9s−1underanoverpotentialof100mVin
+1.0M KOH. In addition, this catalyst can reach high current densities of 500mAcm−2 and
+1000mAcm−2atlowoverpotentials of56mVand78mVrespectively,anditdisplayshigh
+stabilityof1000h.Thisworkprovidesafeasiblewayforthereasonabledesignofotherlarge-
+scale production catalysts.
+1KeyLaboratoryofEco-chemicalEngineering,KeyLaboratoryofOptic-electricSensingandAnalyticalChemistryofLifeScience,TaishanScholarAdvantage
+andCharacteristicDisciplineTeamofEcoChemicalProcessandTechnology,CollegeofChemistryandMolecularEngineering,QingdaoUniversityofScience
+andTechnology,Qingdao,P.R.China.2ShandongEngineeringResearchCenterforMarineEnvironmentCorrosionandSafetyProtection,Collegeof
+✉
+EnvironmentandSafetyEngineering,QingdaoUniversityofScienceandTechnology,Qingdao,P.R.China. email:jplai@qust.edu.cn;inorchemwl@126.com
+NATURECOMMUNICATIONS| (2021) 12:4018 |https://doi.org/10.1038/s41467-021-24322-2|www.nature.com/naturecommunications 1
+;,:)(0987654321
+
+ARTICLE
+NATURECOMMUNICATIONS|https://doi.org/10.1038/s41467-021-24322-2
+E
+nvironmental pollution and energy shortage have become sites and synergistically improve its catalytic activity is still a
+twoofthemostseriousproblemsfacingtoday’ssociety1.As difficult problem46.
+an ideal clean energy and an important chemical raw Finally, the stability of the catalyst can be enhanced by con-
+material,hydrogenhasreceivedextensiveattentionfromallover structing a strong metal-support interaction (SMSI)47. SMSI can
+the world2,3. Electrocatalytic water splitting is an important not only prevent the agglomeration of the loaded nanoparticles
+meanstoproducehydrogenonalargescaleandatalowcost,and andpromotetheelectrontransferprocessbetweenthecarrierand
+it is also considered to be one of the potential strategies to solve the load, but also make the load firmly anchored on the carrier
+thesetwomajorsocialproblems4–6.Reasonabledesignofefficient andgreatlyincreasethestabilityofthematerial48.Inadditionto
+and stable catalysts is a major problem in the current electro- common metal oxide supports, low cost, controllable carbon
+catalytic hydrogen evolution reaction
+(HER)7–9.
+At present, pla- materials can also be used as supports, but so far, there are few
+tinum(Pt)-basedcatalystisthebesthydrogenevolutioncatalyst, studies on such materials49,50.
+butthelownaturalcontentofPtanditshighpricelimititslarge- To sum up, although there are many design methods for Ru-
+scale
+production10–12.
+The design and development of high- based catalysts, it is still an arduous challenge to simultaneously
+performance and low-cost catalysts with low precious metal reducecosts,increaseactivity,andenhancestabilitytorealizethe
+loading catalysts have become the top priority in this field13–15. industrialized production of catalysts for H production51,52.
+2
+Ruthenium(Ru),due toitslowcost(only1/3oftheprice ofPt) In this work, Ru-M C@CNT (M=Mo, Co, Cr) was synthe-
+x
+and highactivity (the Gibbsfree energy (ΔG )ofRu–H bond is sizedinonestepusingasimple,fastandsolvent-freemicrowave
+H
+veryclose to the free energy of Pt–H bond in thecenter of HER pyrolysismethod.Theacidtreatedcarbonnanotubesweremixed
+volcanic map), so it has become one of the cheap substitutes for with metal carbonyl salts (Ru (CO) , M(CO) ) at room tem-
+3 12 x
+Pt16,17. Therefore, the reasonable design and large-scale pre- perature. Under the rapid action of microwave radiation, the
+paration of Ru-based catalysts with low cost, high activity and carbonyl salts decomposed to produce CO gas, which rapidly
+highstabilityisoneofthekeyscientificissuestorealizelow-cost reduced metal ions to nanoparticles and had strong interaction
+electrolysis of water for hydrogen production18,19. with CNT support. This whole synthesis process only requires a
+Up to now, researchers have taken a series of measures to simplestep,nosolventisinvolved,anditisveryfast,solvent-free
+designRu-based catalysts thatcan beused for productionof H . and high yield. A series of physical characterizations and
+2
+On the one hand, the cost of preparing the catalyst can be experimentalresultsshowthatatrapidhightemperature,Ruand
+reduced by reducing the content of Ru and improving the pre- M C form a Ru-M C heterojunction, and bond with the carbon
+x x
+paration method20,21. In the former, the addition of transition elementonthemulti-wallcarbonnanotube(MWCNT)toforma
+metal elements is usually used to reduce the content of Ru22,23. strong metal-support interaction, and the size of the formed
+For the latter preparation method, the traditional synthesis heterojunction is only 3.5nm, which improve the electro-
+methodsofRu-basedcatalyst(suchashydrothermalmethod24,25, chemistry hydrogen evolution performance and increase struc-
+high-temperature calcination method26, electrochemical deposi- tural stability. Among them, the Ru-Mo C@CNT catalyst shows
+2
+tion method27, etc.) are not only time-consuming, highly equip- superior performance to commercial Pt/C in 1.0M KOH elec-
+mentdemanding,easytoformlargenanoparticles,butalsolowin trolyte. The catalyst only shows an overpotential of 15mV at a
+yield and difficult to mass production28,29. Moreover, in non- currentdensityof10mAcm −2,anditsTafelslopeisonly26mV
+traditional heating techniques such as high-temperature pulse dec
+−1.
+The catalyst Ru-Mo C@CNT has a superior intrinsic
+2
+method30, etc., although it can quickly prepare catalysts, it has activity, which turnover frequency (TOF) value reaches 21.9s −1
+high requirements on equipment and the process is difficult to atanoverpotentialof100mV.Inaddition,thiscatalystcanreach
+control31.Inaddition,thesynthesisprocessgenerallyinvolvesthe highcurrentdensitiesof500mAcm −2and1000mAcm −2atlow
+participationofsolvents,whichconsumeshighenergyandeasily overpotentials of 56 and 78mV, respectively. At the same time,
+causespollution32,33.Therefore,itisstillahugechallengetousea this catalyst has high electrochemical stability and structural
+simple, fast and solvent-free synthesis method to prepare small- stability.After1000hlong-termelectrochemicaltest,thecurrent
+sized, low-ruthenium-loaded catalysts that can be mass- densityhasbasicallynotattenuated,andthestructurehasalsonot
+produced34. changed.
+Ontheotherhand,thecatalyticactivityofRu-basedmaterials
+canbeimprovedmainlyfromthefollowingtwokeyfactors:(1)to
+increasethenumberofaccessibleactivesitesofcatalysts,whichis Results
+usually achieved by increasing the specific surface area of the Synthesis and characterizations of Ru-Mo C@CNT catalyst.
+2
+catalyst materials35,36. For example, the loading of small-sized The Ru-M C@CNT (M=Mo, Co, Cr) catalyst with a strong
+x
+Ru-based materials on carbon nanotubes can not only fully metal-supportinteractionwassynthesizedbyasimplemicrowave
+exposetheactivesitesoftheRu-basedmaterials,butalsoincrease pyrolysis method using acidified multi-walled carbon nanotubes
+the electrical conductivity of materials37. (2) To enhance the (MWCNT) (Supplementary Figs. 1, 2) as the carrier, and only
+intrinsic activity of the material, it is generally achieved by con- needed to be reacted at a high temperature in a household
+structing multiple active sites (adopting the methods of element microwave oven for 100s (Supplementary Fig. 3). Using
+doping38–40, constructing heterogeneous structure41, surface MWCNT with high specific surface area, high mechanical
+modification42,etc.).However,nanoparticleswithmultipleactive strengthandhighconductivityasacarrier,theactivecomponents
+sites synthesized by conventional methods usually have a large are highly and uniformly dispersed, which can increase the
+size(generallygreaterthan10nm)43.Whiletheinherentsynergy number of active sites accessible to the catalyst. In order to
+betweenmultipleactivesitescanpromotethedissociationofH O confirmtheoptimalmetaltosupportratio,weexploredtheHER
+2
+and coordinate the adjustment of the free energy of adsorption catalyticactivityofcatalystswithdifferent Ru-Mo C:CNTratios.
+2
+and desorption of the reaction intermediates and products to As shown in Supplementary Fig. 4, when the ratio of metal to
+facilitate the reaction44, but large-sized particles will produce supportis1:1,thecatalyticperformanceisthebest.Basedonthe
+unexpectedly long reaction paths, which will lead to undesirable 1:1ratioofmetalandsupport,thebestcontentratioofRu:Mo C
+2
+transport and reaction resistance45. Therefore, what method was explored. Among them, the initial reactants Ru (CO) and
+3 12
+should be adopted to comprehensively control small-sized Ru- Mo(CO) with mass ratios of 1:2, 1:1, and 2:1 were placed in a
+6
+based catalysts to shorten the distance between multiple active microwave oven for reaction. Different ratios of samples were
+2 NATURECOMMUNICATIONS| (2021) 12:4018 |https://doi.org/10.1038/s41467-021-24322-2|www.nature.com/naturecommunications
+
+50
+40
+30
+20
+10
+0 2.0 2.5 3.0 3.5 4.0 4.5 5.0
+tested by inductively coupled plasma atomic emission spectro- can be observed from the image, which proved the typical het-
+meter (ICP-AES) to obtain the actual ratio of Ru:Mo element erojunction structure of Ru-Mo C. The d-spacing were 2.05Å
+2
+content after the reaction was completed (Supplementary and2.28Å,correspondingtothe(101)crystalplaneofRuandthe
+Table 1). Electrochemical hydrogen evolution tests were per- (102) crystal plane of Mo C, respectively, which were very con-
+2
+formed on three samples of different proportions in 1.0M KOH sistentwiththeXRDresults.Inaddition,theenergy-dispersiveX-
+solution,andwefoundthattheelectrochemicalperformancewas ray spectroscopy (EDX) element mapping images (Fig. 1e and
+the best when the Ru:Mo C element content ratio was 2:1 Supplementary Fig. 7) showed that Ru and Mo elements are
+2
+(SupplementaryFig.5).AnditwasestimatedbyICP-AESresults uniformly distributed on the CNT.
+that the loading of Ru-Mo C in the catalyst Ru-Mo C@CNT is In order to deeply explore the valence state and unique
+2 2
+about 19wt%. Figure 1a showed the X-ray diffraction (XRD) electronic structure of Ru-Mo C@CNT catalyst, X-ray photo-
+2
+patternofRu-Mo C@CNT.Amongthem,therearefourobvious electronspectroscopy(XPS)wasusedtotestthiscatalystandthe
+2
+characteristic peaks at 39.5°, 52.1°, 61.6°, and 69.5°, which cor- comparativesamplesRu@CNTandMo C@CNT.First,aseriesof
+2
+respond to the (102), (221), (321) and (023) crystal planes of physical characterizations such as SEM, TEM, XRD, and XPS
+Mo C (PDF#31-0871) substances53. The characteristic peaks at proved the successful preparation of comparative samples
+2
+38.4°, 42.2°, 44.0°, 58.3°, 69.4°, and 78.4° belong to the (100), Ru@CNT(SupplementaryFigs.8–10)andMo C@CNT(Supple-
+2
+(002), (101), (102), (110), and (103) crystal planes of ruthenium mentary Figs. 11–13). The existence of Ru, Mo and C elements
+(PDF#06-0663),respectively51.Themorphologyandstructureof wasobservedinSupplementaryFig.14,whichfurtherconfirmed
+thecatalystRu-Mo C@CNTwerefirstcharacterizedbyscanning the successful preparation of Ru-Mo C@CNT catalyst. Figure 2a
+2 2
+electronmicroscope(SEM)andtransmissionelectronmicroscope shows the XPS spectrum of C 1s, where the peaks of binding
+(TEM). As shown in Fig. 1b and Supplementary Fig. 6, the energy(BE)of284.5and286.5eVcorrespondtoC=CandC=O,
+nanoparticles were uniformly anchored on the CNT, with an respectively. Compared with the single CNT material, its peak
+average size of about 3.5nm. According to Fig. 1c, it was found positionmigratedtoahigherBE,indicatingthatundertheaction
+that the active component loaded on the CNT formed carbon of microwave heat radiation, charge transfer occurred between
+layercladdingundertheactionofmicrowaveheatradiation,and the heterojunction particles and the carrier, resulting in SMSI
+it was preliminarily believed that SMSI might be generated phenomenon,inwhichelectronsweretransferredfromtheCNT
+between the active component and the carrier CNT. The high- carriertotheRu-Mo Cinterface.AccordingtoFig.2b,thesignal
+2
+resolution transmission electron microscope (HRTEM, Fig. 1d) peakofC1sispartiallycoincidentwiththesignalpeakofRu3d.
+imageshowedthemoreintuitivestructuralfeaturesofthecatalyst The peaks at 280.5 and 285.7eV are metal Ru, corresponding to
+Ru-Mo C@CNT. The obvious interface between Ru and Mo C Ru 3d and Ru 3d , respectively, while the peak at 281.0eV
+2 2 5/2 3/2
+)%(
+egatnecreP
+MoC PDF#31-0871
+2
+Ru-Mo2C@CNT
+Ru PDF#06-0663
+30 40 50 60 70 80
+Size (nm)
+).u
+.a(
+ytisnetnI
+ARTICLE
+NATURECOMMUNICATIONS|https://doi.org/10.1038/s41467-021-24322-2
+Ru-MoC@CNT
+2
+Degree / 2
+Fig.1PhysicalcharacterizationofRu-Mo C@CNTcatalyst.aTheXRDpatternofRu-Mo C@CNT.bTEMimageofRu-Mo C@CNT,theinsetisthesize
+2 2 2
+distributionofnanoparticles.c,dHRTEMimagesofRu-Mo C@CNT.eHAADF-STEMimageandcorrespondingEDXmapsofRu-Mo C@CNTforRu,Mo,
+2 2
+andRu+Mo,respectively.
+NATURECOMMUNICATIONS| (2021) 12:4018 |https://doi.org/10.1038/s41467-021-24322-2|www.nature.com/naturecommunications 3
+
+279 282 285 288 291
+belongs to RuO . The valence distribution of Ru was further of the D band and the G band (I /I ) of the catalyst Ru-
+2 D G
+observed from the deconvolution peak of Ru 3p (Fig. 2c). The Mo C@CNT is 1.45, which was significantly higher than the
+2
+spectrum showed two peaks at about 462.6 and 467.6eV, intensity ratio of the control samples Ru@CNT (0.91) and
+corresponding to the metallic ruthenium and ruthenium dioxide Mo C@CNT(1.23).ThisindicatedthattheformationoftheRu-
+2
+of Ru 3p . Correspondingly, the two signal peaks of metallic Mo C heterojunction in the microwave process induces more
+3/2 2
+ruthenium and ruthenium dioxide were attributed to Ru 3p defects on the CNT, which facilitated the utilization of more
+1/2
+appear at 484.9 and 488.9eV, respectively51. The presence of active sites and enhances the performance of HER.
+ruthenium dioxide may be caused by slight oxidation of the
+sample when exposed to air. In addition, the above two figures
+also showed the changes of the binding energy of Ru element in Electrocatalytic performance tests toward HER. The electro-
+the catalyst Ru-Mo C@CNT compared with Ru@CNT. chemicalHERperformanceofRu-MoC@CNT(catalystloadingis
+2 2
+Obviously, after the introduction of Mo element, both Ru 3p 0.14mgcm −2, equals to a Ru-Mo C loading of ca. 0.03mgcm −2)
+2
+and Ru 3d binding energies moved towards higher binding was evaluated in 1.0M KOH solution saturated with N . For
+2
+energies, indicating that the introduction of Mo element caused comparison, the HER performance of CNT, MoC@CNT,
+2
+thechargetransferbetweenRuandMo Ccomponents.Figure2d Ru@CNT, and commercial Pt/C were measured under the same
+2
+showed the XPS spectrum of Mo 3d in the Ru-Mo 2 C@CNT test conditions, which proved that the best electrocatalytic activity
+sample.Amongthem,thesignalpeaksat228.4,229.1,231.4,and mainlycomesfromtheformationofRu-Mo Cheterojunction.The
+234.5eV attributed to Mo δ+ (0<δ<4) speciesareusually Mo 2 C linear sweepvoltammetric (LSV) curves of t 2 he five electrocatalysts
+substances. Since Mo C was easily oxidized on the surface, the tested in 1.0M KOH solution were shown in Fig. 3a. Compared
+2
+characteristicpeaksofMo6+
+at232.6eVand235.7eVcanalsobe withbareCNTwhichhavebasicallynoelectrocatalyticactivity,the
+observed.Inaddition,signalpeaksattributedtometallicMowere HER activity of other catalysts increases in the following order:
+not detected54. Compared with Mo 2 C@CNT, it can be clearly Mo 2 C@CNT<Ru@CNT<Pt/C<Ru-Mo 2 C@CNT. As shown in
+observedthatthepeakpositionofMoelementinthecatalystRu- Fig. 3c, it is worth noting that Ru-Mo C@CNT only needs a low
+2
+Mo 2 C@CNT has also changed. The XPS analysis showed that overpotentialof15mVtoreachthecurrentdensityof10mAcm −2,
+there is a charge transfer between the carrier CNT and the which is nearly 48mV lower than Ru@CNT (63mV) and about
+heterojunction Ru-Mo C, which further proves the existence of 309mV lower than MoC@CNT (324mV). Correspondingly, Ru-
+2 2
+theSMSIeffect.Moreover,theRuandMopeaksbetweenthetwo MoC@CNTcatalystshowedloweroverpotentialthancommercial
+2
+components of the heterojunction also shifted, indicating the Pt/C(33mV),whichfurtherindicatedthatRu-Mo C@CNThada
+2
+existence of strong electron interaction between Ru and Mo C bestelectrocatalyticHERactivity.Inaddition,wefurthercompared
+2
+components. Combining the following experiments proved that theoverpotentialsofthematerialsofMo C@CNT,Ru@CNT,Pt/C
+2
+allthesecontributetotheimprovementofcatalyticperformance. andRu-Mo C@CNTata currentdensityof20mAcm −2,and the
+2
+In addition, the defects of Ru@CNT, Mo C@CNT and Ru- resultsshowedthattheoverpotentialsofthefoursamplesexhibited
+2
+Mo C@CNTwerefurtherexploredthroughRamanspectroscopy. asignificantdecreasetrend(SupplementaryFig.16).AlowerTafel
+2
+ItcanbeseenfromSupplementaryFig.15thattheintensityratio slope is also an important indicator for the performance of
+).u
+.a(
+ytisnetnI
+C 1s Ru-MoC@CNT
+2
+C=C/C-C CNT
+C-O
+C=O
+279 282 285 288 291
+Binding Energy (eV)
+).u
+.a(
+ytisnetnI
+Ru 3d Ru-MoC@CNT
+2
+Ru 3d Ru 3d Ru@CNT 5/2 3/2
+Ru RuO Ru
+2
+Binding Energy (eV)
+Ru 3p Ru-MoC@CNT 2
+Ru@CNT Ru
+RuO Ru RuO 2 2
+460 470 480 490 500
+).u
+.a(
+ytisnetnI
+Mo 3d Ru-MoC@CNT 2
+Ru 3p 3/2 Ru 3p 1/2 Mo 2 C@CNT Mo6+
+Mo4+ Mo2+ Mo4+ Mo6+
+Mo2+
+228 231 234 237
+Binding Energy (eV)
+).u
+.a(
+ytisnetnI
+ARTICLE
+NATURECOMMUNICATIONS|https://doi.org/10.1038/s41467-021-24322-2
+Mo 3d Mo 3d 3/2 5/2
+Binding Energy (eV)
+Fig.2High-resolutionXPSspectraofRu-Mo C@CNT.aHigh-resolutionXPSspectrumofC1sofCNTandRu-Mo C@CNT.bHigh-resolutionXPS
+2 2
+spectrumofRu3dspectraofRu@CNTandRu-Mo C@CNT.cHigh-resolutionXPSspectrumofRu3pofRu@CNTandRu-Mo C@CNT.dHigh-resolution
+2 2
+XPSspectrumofMo3dofMo C@CNTandRu-Mo C@CNT.
+2 2
+4 NATURECOMMUNICATIONS| (2021) 12:4018 |https://doi.org/10.1038/s41467-021-24322-2|www.nature.com/naturecommunications
+
+0
+-20
+CNT
+MoC@CNT
+2
+-40 Ru@CNT
+Pt/C
+-60 Ru-Mo 2 C@CNT
+-80
+-100
+-0.4 -0.3 -0.2 -0.1 0.0
+electrocatalysis. In 1.0M KOH solution, Ru-Mo C@CNT only commercial Pt/C (2.3mAcm
+−2)
+(Fig. 3c and Supplementary
+2
+showed a low Tafel slope of 26mV dec
+−1
+(Fig. 3b), which was Fig. 18b). The exchange current densities of Ru@CNT and
+much lower than Pt/C (44mV dec
+−1),
+Ru@CNT (76mV dec
+−1)
+MoC@CNT were 2.0 and 0.28mAcm
+−2,
+respectively, (Fig. 3c),
+2
+andMo C@CNT(197mVdec
+−1),whichimpliestheVolmer-Tafel
+which were slightly lower than the J of the Pt/C catalyst. These
+2 0
+mechanism as the HER pathway, in which recombination of che- valuesareingoodagreementwiththefittingresultsoftheButler-
+misorbed hydrogen atoms is the rate-determining step. Exchange Volmer equation in the Tafel region (Supplementary Fig. 17a and
+current density (J ) is another important parameter reflecting SupplementaryFig.18a).Obviously,theintrinsiccatalyticactivityof
+0
+translationkinetics,whichcanprovidetheinternalelectrontransfer Ru-MoC@CNTwithasmall-sizedRu-Mo Cheterostructureisthe
+2 2
+ratebetweentheelectrodeandthecatalystsurface55.Theexchange best, and it exhibits the best HER performance in alkaline
+current density (J ) of the catalyst was extracted from the linear media57,58. FromFig.3d, itwas clear thatthe HERactivity of our
+0
+fitting of the micropolarization region (−10 to 10mV)56. The catalystwasbetterthanmostpreciousmetalcatalysts(includingPt-
+exchange current density of Ru-Mo C@CNT was 4.3mAcm
+−2
+based and Ru-based HER catalysts) and non-precious metal cata-
+2
+(Fig. 3c and Supplementary Fig. 17b), which was better than lysts. In order to evaluate the electrochemical surface area (ECSA)
+)2-mc
+Am(
+ytisned
+tnerruC
+0.3
+MoC@CNT
+2
+Ru@CNT
+Pt/C
+0.2 Ru-MoC@CNT 197 mV dec-1
+2
+0.1
+76 mV dec-1
+0.0 44 mV dec-1 26 mV dec-1
+0.0 0.2 0.4 0.6 0.8 1.0
+Potential (V vs. RHE)
+)EHR
+.sv
+V(
+laitnetoP
+Log [J (mA cm-2)]
+400
+300
+200
+100
+0
+Exchange
+current
+density
+(mA
+cm
+-2)
+Vm (
+2-mc
+Am
+01
+ta
+laitnetoprevO
+6
+4
+2
+0
+TNC@CoM-uR
+2 C/tP
+TNC@uR TNC@CoM
+2
+TNC@CoM-uR
+2 C/tP TNC@uR TNC@CoM
+2
+80
+60
+Ru@CQDs
+Cu S@Ru NPs 2-x 40
+RuCo@NC
+20
+RuP/WO@NPC
+2 3
+superior
+performance 20 40 60 80 100
+)1-ced
+Vm(
+epols
+lefaT
+Ru@NG-4 RuP@NPC RuPx@NPC 2
+RuO-NWs@g-CN 2
+PP-Ru/RuO-GC CoRu@NC 2 ah-RuO@C 2
+Ru@CN
+Ru ND/C Ru-Ni@NiP-HNRs 2Pt/C
+Ru@NC Ru-NGC
+Ru-MoO 2 CNx@Ru/MWCNT This work
+Overpotential (mV at 10 mA cm-2
+30
+MoC@CNT
+2
+Ru@CNT
+20 Pt/C
+Ru-MoC@CNT
+2
+10
+0
+-0.10 -0.08 -0.06 -0.04 -0.02 0.00
+)1-S(
+FOT
+0
+-20
+-40
+-60
+-80
+-100
+-0.4 -0.3 -0.2 -0.1 0.0
+Potential (V vs. RHE)
+)2-mc
+Am(
+ytisned
+tnerruC
+ARTICLE
+NATURECOMMUNICATIONS|https://doi.org/10.1038/s41467-021-24322-2
+MoC@CNT 2
+after 10000 cycles
+Ru@CNT
+after 10000 cycles
+Pt/C
+after 10000 cycles
+Ru-MoC@CNT
+2
+after 10000 cycles
+Potential (V vs. RHE)
+Fig.3ElectrocatalyticHERperformancetestofcatalystsinN -saturated1.0MKOHsolution.aHERpolarizationcurvesofCNT,Mo C@CNT,Ru@CNT,
+2 2
+Pt/C,andRu-Mo C@CNTcatalysts.bTafelplotsobtainedfromthepolarizationcurvesina.cComparisonofoverpotentialchangesat10mAcm−2and
+2
+exchangecurrentdensity.dIn1.0MKOHsolution,comparedwiththerecentlyreportedHERcatalystTafelslopeandoverpotentialat10mAcm−2.eThe
+potential-dependentTOFcurvesofMo C@CNT,Ru@CNT,Pt/C,andRu-Mo C@CNT.fPolarizationcurvesforMo C@CNT,Ru@CNT,Pt/C,andRu-
+2 2 2
+Mo C@CNTcatalystsbeforeandafter10,000cycles.
+2
+NATURECOMMUNICATIONS| (2021) 12:4018 |https://doi.org/10.1038/s41467-021-24322-2|www.nature.com/naturecommunications 5
+
+ARTICLE
+NATURECOMMUNICATIONS|https://doi.org/10.1038/s41467-021-24322-2
+of the catalyst, low potential copper deposition (Cu-UPD) was catalyst,Cu-UPDwasperformedontheRu-Co C@CNTandRu-
+3
+performed on the Ru-Mo C@CNT catalyst (Supplementary Cr C @CNT catalysts, respectively, (Supplementary Fig. 32a-b).
+2 23 6
+Fig. 19). The ECSA of Ru-Mo C@CNT is 97.6 m2g −1 , which is By calculation, the ECSA of Ru-Co C@CNT and Ru-
+2 Ru 3
+larger than Pt/C (73.8 m2g −1), Ru@CNT (69.1 m2g −1) and Cr C @CNTcatalystswere76.2and88.1m2g −1 ,respectively,
+23 6 Ru
+Mo C@CNT(42.8m2g −1)(SupplementaryFig.20).Thisisbecause (Supplementary Fig. 32c). The TOF value was obtained
+2
+the formation of the Ru-Mo C heterojunction increases the active by the same method, as shown in Supplementary Fig. 30d,
+2
+specificsurfaceareaofthecatalystcomparedwiththesingleactive Ru-Co C@CNT, Ru-Cr C @CNT, and Ru-Mo C@CNT all
+3 23 6 2
+site of Ru and Mo C. When evaluating HER electrocatalysts, the showed a large TOF value, which was 10.3, 9.2, and 21.9s
+−1
+2
+TOFvalueandtheoverpotentialat10mAcm
+−2respectivelyreveal
+under the overpotential of 100mV, respectively. This result
+the intrinsic activity of the catalyst and the potential for practical provedthatthesematerialsallhadhighintrinsiccatalyticactivity.
+applications.Accordingtotheestimatednumberofactivesites,the In addition, double-layer capacitance (C ) was used to further
+dl
+TOF value of each active site of Ru-Mo C@CNT, Pt/C, Ru@CNT evaluate the active surface area of the material. In 1.0M KOH
+2
+and MoC@CNT in alkaline electrolyte was calculated (Supple- solution, the capacitors (C ) of Ru-Co C@CNT, Ru-
+2 dl 3
+mentaryFig.21).AsshowninFig.3e,thecatalystRu-Mo C@CNT Cr C @CNT, and Ru-Mo C@CNT were 14.5, 10.8, and 17.2
+2 23 6 2
+exhibited a larger TOF of 21.9s
+−1
+under an overpotential of 100 mF cm
+−2,
+respectively, (Supplementary Fig. 33), indicating that
+mV, which showed an activity better than most of the catalysts these three samples all had a large active specific surface area.
+reportedintheliterature(SupplementaryTable2).Inaddition,the Besides, the electrochemical impedance spectroscopy (EIS)
+double-layer capacitance (C ) was used to further evaluate the (Supplementary Fig. 34) showed that both Ru-Co C@CNT
+dl 3
+active surface area of the material, which was calculated by mea- (24.1 Ω) and Ru-Cr C @CNT (22.4 Ω) also had smaller
+23 6
+suring the CV curve in the potential range of 0.86 to 0.96V (vs impedance values, indicating that such materials had higher
+RHE,reversiblehydrogenelectrode)(SupplementaryFig.21a-c).In chargetransferratesandeasierHERreactionkinetics.Unexpect-
+1.0M KOH solution, the capacitance (C ) of Ru-Mo C@CNT is edly, the three catalysts prepared by microwave pyrolysis have
+dl 2
+17.2 mF cm
+−2,
+which was much higher than Ru@CNT (9.5 mF high electrochemical stability. As shown in Supplementary
+cm
+−2)
+and Mo C@CNT (7.2 mF cm
+−2),
+and this result was con- Fig. 30e, after 10,000 cycles of scanning, the polarization curves
+2
+sistent with the conclusion drawn by the Cu-UPD method (Sup- ofRu-Co C@CNTandRu-Cr C @CNTwerealmostnotshifted.
+3 23 6
+plementary Fig. 22). The electrochemical impedance spectroscopy Thecurrent-time(i–t)test(SupplementaryFig.30f)showedthat
+(EIS)fittingresultsshowedthatthechargetransferresistanceofRu- the current density remained almost constant for 100h. All the
+Mo C@CNT (21.3 Ω) is smaller than that of Ru@CNT (26.0 Ω) resultsshowthatthiskindofcatalysthashighlong-termstability.
+2
+and Mo C@CNT (30.6 Ω) (Supplementary Fig. 23). The results
+2
+showed that the formation of Ru-Mo 2 C heterostructure and the Large-scale production of Ru-Mo 2 C@CNT catalyst for HER.
+presence of SMSI effect improved the conductivity and interfacial Finally,inordertoprovethattheRu-Mo C@CNTcatalystcanbe
+2
+electrontransportcapacityofthecatalyst,increasedthenumberof producedonalargescale,therawmaterialwasexpandedby200
+accessible active sites, and improved the electrocatalytic timesandtheexperimentwascarriedouttoobtainabout1.6044g
+performance. ofproduct(Fig.4a),withayieldofupto80.2%.Theproduction
+Ru-Mo 2 C@CNTcatalystwassuccessfullypreparedbysolvent- method of this catalyst is fast, solvent-free and efficient, has low
+free microwave pyrolysis and its synthesis methodis fast, simple requirements on experimental equipment, and can realize high-
+and high in yield. Moreover, the catalyst had heterojunction throughputproduction,whichgreatlyreducesitsproductioncost.
+structure and SMSI effect at the same time, showing high In addition, in order to further explore the Ru-Mo C@CNT
+2
+hydrogenevolutionperformancein1.0MKOHsolution.Inorder catalyst can be used for large-scale industrial production of H ,
+2
+tofurther prove thereliabilityand universality of themicrowave the catalyst was directly drip-coated on the foamed nickel (NF)
+pyrolysis method, the samples Ru-Co 3 C@CNT and Ru- (Fig. 4b), which HER performance was tested in 1.0M KOH
+Cr 23 C 6 @CNT were successfully synthesized under the same electrolyte (Fig. 4c). When the Ru-Mo 2 C loading amount in the
+conditions. The SEM images, TEM images, XRD patterns, and catalyst supported on NF is 0.95mgcm −2, the catalyst Ru-
+XPS spectra shown in Supplementary Figs. 24−2 indicate the Mo C@CNT achieved the industrial current densities of 500
+2
+successful preparation of the catalysts Ru-Co 3 C@CNT and Ru- mAcm −2and1000mAcm −2atlowoverpotentialsof56mVand
+Cr 23 C 6 @CNT. Under the same operating environment and test 78mV (Fig. 4d), respectively, which were better than all the
+conditions, the HER performance of Ru-Co 3 C@CNT and Ru- catalysts reported (Fig. 4h and Supplementary Table 5). More-
+Cr 23 C 6 @CNTweretestedin1.0MKOHsolution.Supplementary over,gaschromatographytechnologywasusedtoevaluatethegas
+Figure 30a showed the LSV curves of these three catalysts. The productsandthecorrespondingFaradayefficiencyin1.0MKOH
+LSV curve showed that the three electrocatalysts prepared by electrolyte (Fig. 4e). It can be reflected from this figure that the
+microwave solid-phase pyrolysis all have high electrochemical efficiencyofelectronconversioninvolvedinthecatalyticreaction
+HER activity. The Ru-Co 3 C@CNT and Ru-Cr 23 C 6 @CNT cata- is determined to be close to 100%, which means that almost all
+lysts only need 32mV and 27mV overpotentials to reach the electrons are used to generate hydrogen in the water electrolysis
+current density of 10mAcm
+−2
+(Supplementary Fig. 30c). More- process.
+over, only 57 and 56mV overpotentials are required for Ru- Furthermore, in order to study the stabilityof the catalyst Ru-
+C of o 3 2 C 0 @ m C A N c T m a -2 nd (S R u u p - p C le r m 23 C en 6 @ tar C y N F T ig t . o 3 a 1 c ) h . ie I v n e a th d e di c ti u o r n re , n t t he de T n a si f t e y l M pe o rf 2 o C r @ m C ed NT af , ter a 10 v ,0 o 0 lt 0 -a c m yc p l e e r s e of c C ha V ra c c y te c r le is s ti a c nd cu c r h v r e ono sc p a o n ten w tio as -
+slopes of Ru-Co 3 C@CNT and Ru-Cr 23 C 6 @CNT catalysts are 56 metric test and chronoamperometric test were performed. After
+and 53mV dec
+−1,
+respectively, (Supplementary Fig. 30b). The 10,000 cyclesof CV, the LSVcurve basically did notshift, which
+low Tafel slope indicates that this kind of catalyst prepared by furtherprovedthestabilityoftheRu-Mo C@CNTelectrocatalyst
+2
+microwave pyrolysis can effectively accelerate HER dynamics. (Fig.4f).Moreimportantly,theactivitycanbewellmaintainedfor
+The exchange current densities of Ru-Co 3 C@CNT and Ru- more than 1000h without decay at the large current density of
+Cr 23 C 6 @CNT are also studied from linear fitting of micropolar- 500mAcm −2 (Fig. 4g). In addition, as shown in Supplementary
+ization regions, which are 2.7 and 3.6mAcm
+−2,
+respectively, Fig. 35, the chronopotentiometric curve of the Ru-Mo C@CNT
+2
+(Supplementary Fig. 30c). In order to evaluate the ECSA of the electrodewastestedataconstantcurrentdensityof500mAcm −2
+6 NATURECOMMUNICATIONS| (2021) 12:4018 |https://doi.org/10.1038/s41467-021-24322-2|www.nature.com/naturecommunications
+
+0
+-1000
+78 mV
+-2000
+116 mV
+-3000
+-0.4 -0.3 -0.2 -0.1 0.0
+for 500h. And this result further prove that the Ru-Mo C@CNT electrocatalytic HER activity and stability. The catalyst Ru-
+2
+materialhashighstability.Moveover,asshowninSupplementary Mo C@CNTonlyshowedanoverpotentialof15mVatacurrent
+2
+Fig.36,thecomparativesamplesRu@CNTandMo C@CNTalso densityof10mAcm
+−2,anditsTOFvalueisashighas21.9s −1at
+2
+showed high electrochemical stability. In addition, the SEM and an overpotential of 100mV in 1.0M KOH alkaline solution. In
+TEM images of Ru-Mo C@CNT after the long-term stabilitytest addition,thiscatalystcanreachhighcurrentdensitiesof500and
+2
+showed no change in the morphology of the material, and the 1000mAcm
+−2
+at low overpotentials of 56 and 78mV, respec-
+XRD pattern and XPS spectra further reflected that the structure tively.Moreover,ithasahighstabilitywhichthecurrentdensity
+ofthismaterialdidnotchange(SupplementaryFigs.37-38).This remainsbasicallyunchangedafterthe1000hi–ttest.Ultra-small
+discovery shows that the catalyst synthesized by microwave heterojunctionnanocatalystswithSMSIeffectaresynthesizedby
+pyrolysis has a high stability, and provide a feasible way for the a simple, fast, and solvent-free microwave pyrolysis method,
+designof other highly stable materials. which provides a feasible way for the reasonable design of other
+large-scale production catalysts.
+Discussion
+In summary, an ultra-small (3.5nm) Ru-M C@CNT (M=Mo, Methods
+x
+Co, Cr) catalyst with heterogeneous structure and strong metal- Materials.Molybdenumhexacarbonyl(Mo(CO) 6 ,98%)wasboughtfrom
+Sigma–Aldrich.Hexacarbonylchromium(Cr(CO),99%)andOctacarbonyldico-
+support interaction was synthesized by a simple, fast, envir- 6
+balt(Co(CO))weresuppliedbyAlfaAesar.Trirutheniumdodecacarbonyl
+onmentally friendly solid-phase microwave pyrolysis method. A 2 8
+(Ru(CO) ,98%)waspurchasedfromAladdin.Carbonnanotubewasbought
+3 12
+series of physical characterization and chemical tests show that fromAladdin.
+the unique heterojunction synergy and the SMSI between the
+nano-heterojunction particles and the CNT substrate of Ru-
+Mo C@CNT composite materials lead to this material has
+PreparationofMWCNT.Disperse50mgMWCNTpowderinamixedsolution
+2 withaconcentrationofHSO:HNO =3:1forultrasonictreatmentfor1–2h,and
+superior electronic conductivity, abundant active sites and stable thenexposeitto1MHC 2 lfor 4 ultraso 3 nictreatmentfor30min.Finally,filterthe
+structure, which are the fundamental reasons for its high acidifiedCNT,washitwithionizedwateruntilpH=7,anddryitat60°Cfor12h.
+)2-mc
+Am(
+ytisned
+tnerruC Ni foam
+Ru-MoC@CNT
+2
+Potential (V vs. RHE)
+0
+Ru-MoC@CNT initial
+2
+After 10000 cycles
+-1000
+-2000
+-3000
+-0.3 -0.2 -0.1 0.0
+)2-mc
+Am(
+ytisned
+tnerruC
+-200
+-400
+-600
+-800
+Potential (V vs. RHE) 0 200 400 600 800 1000
+)2-mc
+Am(
+ytisned
+tnerruC
+20
+Theoretial results
+Experimental results
+15
+10
+5
+0
+10 20 30 40 50 60
+Ru-MoC@CNT
+2
+Time (h)
+H 2
+1.6044 g
+Time (min)
+1500
+1000
+500
+0
+)Vm(
+laitnetoprevO
+at 500 mA cm-2
+OoM/iNoM
+x-3
+4
+FN/rIeF
+SoMiN/xOoMiN
+FI/OeF-P 4
+3
+NoM-oC 6 5 PiN/PeF 2 FN/PiN
+2
+FN-SoM-eS/)4.01(oC
+2
+CoM/SoM-CH
+2
+2
+FN/NoMiN/CN
+3
+3
+CN/eFrI
+at 1000 mA cm-2
+krow
+sihT
+ARTICLE
+NATURECOMMUNICATIONS|https://doi.org/10.1038/s41467-021-24322-2
+Catalysts
+Fig.4Testoflarge-scaleproductionofRu-Mo C@CNTcatalystforHER.aPhotographofcatalystoutput.bPhotoofRu-Mo C@CNTcatalystdirectly
+2 2
+drip-coatedontheNF.cPhotoofH bubblesleavingthesurfaceofRu-Mo C@CNTcatalyst.dPolarizationcurvesforRu-Mo C@CNTin1.0MKOH
+2 2 2
+solution.eTheoreticalandexperimentalresultsofH productionofRu-Mo C@CNT.fPolarizationcurvesforRu-Mo C@CNTbeforeandafter10,000
+2 2 2
+cycles.gThecurrent-time(i–t)curveofRu-Mo C@CNTunderthetemporalevolutionofthepotentialrequiredtomaintain500mAcm−2for1000h.hIn
+2
+1.0MKOHsolution,comparisonoftheoverpotentialsat500mAcm−2and1000mAcm−2fortherecentreportedcatalysts.
+NATURECOMMUNICATIONS| (2021) 12:4018 |https://doi.org/10.1038/s41467-021-24322-2|www.nature.com/naturecommunications 7
+
+ARTICLE
+NATURECOMMUNICATIONS|https://doi.org/10.1038/s41467-021-24322-2
+PreparationofRu-Mo 2 C@CNT.First,10mgofprocessedMWCNT,5mgMo equation:
+(CO),and5mgRu(CO) weremixedandgroundinamortarfor30mintomix
+6 3 12 1 1 1
+evenly.Then,themixturewasputintoa10mLquartzbottleandmicrowavedina ¼ þ ð2Þ
+j j j
+householdmicrowaveovenfor100s. k d
+inwhichj obeystheLevichequation:
+d
+PreparationofRu@CNTandMo 2 C@CNT.First,mix10mgofprocessed j ¼0:62nFD2=3υ(cid:2)1=6C ω1=2 ð3Þ
+MWCNTand5mgRu(CO) or5mgMo(CO),grinditinamortarfor30min d 0
+andmixevenly,thenp
+3
+utitin
+12
+a10mLquartzbo
+6
+ttleandmicrowaveitina
+inwhichFistheFaradayconstant(96,485Cmol−1),nisthenumberofelectrons
+householdmicrowaveoven100s. i d n if v f o u l s v i e o d n i c n o t e h ffi e c o ie x n id t a o ti f o t n he re r a e c a t c io ta n n , t C ( 0 cm is 2 t s h − e 1) H , 2 ν c i o s n t c h e e n v tr i a sc ti o o s n ity in o s f o t l h u e tio e n le , c D tro i l s y t t h e e
+(cm2s−1),andωistherotationspeed(rpm).
+PreparationofRu-Mo
+2
+C@CNTindifferentCNTproportions.Respectivelyusing
+5mgofRu(CO) ,5mgofMo(CO),and5mg/10mg/20mgMWCNTmixing,
+3 12 6
+grindinginthemortarhomogeneously30min,andthenputsitinto10mLof Activesitescalculations.Theunderpotentialdeposition(UPD)ofcopper(Cu)
+quartzinthebottle,andmicrowaveprocessinginthemicrowaveovenfor100s. wasusedtocalculatetheactivesitesoftheRu-Mo 2 C@CNTandothercomparative
+samples.Inthismethod,thenumberofactivesites(n)canbecalculatedbasedon
+theUPDcopperstrippingcharge(Q ,Cu →Cu2++2e−)usingthefollowing
+PreparationofRu-Mo
+2
+C@CNTindifferentRu:Mo
+2
+Cproportions.Respectively
+equation.
+Cu upd
+using4mgofRu(CO) and8mgofMo(CO),6mgofRu(CO) and6mgMo
+3 12 6 3 12
+(CO) 6 and8mgofRu 3 (CO) 12 and4mgMo(CO) 6 and12mgMWCNTmixing, n¼ Q Cu ð4Þ
+grindinginthemortarhomogeneously30min,andthenputsitinto10mLof 2*F
+quartzinthebottle,andmicrowaveprocessinginthemicrowaveovenfor100s. whereFistheFaradayconstant(96,485.3Cmol−1).
+PreparationofRu-Co 3 C@CNTandRu-Cr 23 C 6 @CNT.Mo(CO) 6 intheprepara- ECSAmeasurements.TheECSAofthecatalysthasbeenalreadyprovedcould
+tionprocessofRu-Mo 2 C@CNTcatalystwasdirectlyreplacedwithCo 2 (CO) 8 orCr becalculatedbyCuunderpotentialdeposition(UPD)method.TheECSAsof
+(CO) 6 ,andtheremainingstepsweresynthesizedinthesameoperationmethod. catalystswerecalculatedbyintegratingthechargeassociatedwithoxidationof
+Cu(onthesurfaceofcatalystbyCu-UPD)inelectrolytecontaining50mMCuSO
+Characterization.Tostudythemorphologyandstructureofthecatalyst,a and0.5MH 2 SO 4 ,byassumingachargeof420µCcm−2.TheECSAcanbecali- 4
+scanningelectronmicroscope(SEM)wastestedonHitachiS-4800instrument.The bratedas:
+transmissionelectronmicroscope(TEM)andhigh-resolutionTEM(HRTEM)of Q
+thecatalystweretestedusingFEITecnai-G2F30atanacceleratingvoltageof300
+ECSAðcm2
+metal
+=g
+metal
+Þ¼
+M ´42
+C
+0
+u
+μCcm(cid:2)2
+ð5Þ
+KV,andthestructureofthecatalystwasfurthercharacterized.PowderX-ray metal
+diffraction(XRD)patternrecordingwasperformedonanX’Pert-PROMPDdif- whereM
+metal
+isthemassloadingofmetalonacertaingeometricareaofthe
+fractometer,whichwasrunwithCuKαradiationat40KVand40mA.The workingelectrode.
+contentofelementsisdeterminedbyinductivelycoupledplasmaatomicemission
+spectrometer(ICP-AES,Varian710-ES).X-rayphotoelectronspectroscopy(XPS) Measurementoftheturnoverfrequency(TOF).TheTOF(s−1)wascalculated
+analysiswasperformedwithanAxisSupraspectrometerusingamonochromatic bythefollowingformula.
+AlKɑsourceat15mAand14kV.Scananalysiswithananalysisareaof300×700
+micronsandapassenergyof100eV.Thespectrumwascalibratedbycarbon1s TOFðs(cid:2)1Þ¼ I ð6Þ
+spectrum,anditsmainlinewassetto284.8eV,andthenthevalencestateofthe 2*F*n
+catalystwasanalyzedusingCasaXPSsoftware.Thecatalystthathasbeentestedfor whereIisthecurrent(A)duringlinearsweepvoltammetry(LSV),FistheFaraday
+stabilityisscrapedfromtheworkingelectrodebyultrasonictreatmentandcol- constant(96,485.3Cmol−1),nisthenumberofactivesites(mol).Thefactor1/2is
+lectedforthenextstepofSEM,TEM,andXRDcharacterization. basedontheassumptionthattwoelectronsarenecessarytoformonhydrogen
+molecules.
+Electrochemicalmeasurements.Disperse1mgofthecatalystin1mLofamixed Toobtainmonolayerofcopper,Ru-Mo 2 C@CNTwasfirstpolarizedat0.23V
+solutionofisopropanol+ultrapurewater+5%Nafion(v:v:v=3:1:0.05),after for100s.Forthegivenpolarizationpotential,therewereonlytwooxidationpeaks
+sonicationfor1h,thedifferentcatalystswiththeconcentrationof1mgmL−1was relatedtobulkandmonolayerofCu.
+obtained.
+Electrochemicalmeasurementswerecarriedoutinaconventionalthree-
+electrodebatteryofaCHI760EElectrochemicalWorkstation(ShanghaiChenhua Data availability
+InstrumentCorporation,China).Agraphiterodelectrodewasusedasthecounter Thedatathatsupportthefindingsofthisstudyareavailablefromthecorresponding
+electrode,andthereferenceelectrodewasasaturatedcalomelelectrode(SCE).A authoruponreasonablerequest.
+glassycarbonelectrode(GCE,diameter:3mm,area:0.07065cm2)wasusedasthe
+workingelectrode.Take10μLofthemixedslurryanddropitevenlyonthesurface
+Code availability
+oftheGCE.Afteritisnaturallydried,furtherelectrochemicaltestsareperformed.
+Allpotentialsreportedinthisworkarecorrectedusingreversiblehydrogen
+Allcodesupportingthefindingsofthisstudyareavailablefromthecorresponding
+electrodes(RHE).Ina1.0MKOHsolutionsaturatedwithN,linearsweep authoronrequest.
+2
+voltammetry(LSV)wasusedtotestandevaluatetheHERperformanceofthe
+catalystatasweeprateof5mVs−1.Allpolarizationcurveswerecorrectedfor95%
+Received: 8 December 2020;Accepted: 14June 2021;
+iR.Thedurabilitytestwasperformedin1.0MKOHsolutionusing
+chronoamperometry.Inaddition,theLSVafter10,000cyclesofCVwasmeasured
+tofurtherevaluatethestabilityofthecatalyst.Electrochemicalimpedance
+spectroscopy(EIS)measurementwasperformedatafrequencyof0.1Hzto100
+kHzina1.0MKOHsolutionsaturatedwithN.
+2
+References
+Electrochemicalhydrogenproduction/oxidation(HER/HOR)reactiontest.At
+thistime,adiskelectrode(RDEarea:0.196cm2)wasusedastheworkingelectrode. 1. Chu,S.&Majumdar,A.Opportunitiesandchallengesforasustainableenergy
+future.Nature488,294–303(2012).
+In1.0MKOHelectrolytesaturatedwithN,theCVscanwasperformedatascan
+2 2. Gasteiger,H.A.&Marković,N.M.Justadream—orfuturereality?Science
+rateof100mV/sfrom0.05Vto1.10Vvs.RHEuntilitstabilized.TheHER/HOR
+testwasperformedbylinearsweepvoltammetry(LSV)ina1.0MKOHsolution
+324,48–49(2009).
+saturatedwithH usingasweeprateof10mV/s,arotationspeedof1600rpm,and 3. Rausch,B.,Symes,M.D.,Chisholm,G.&Cronin,L.Decoupledcatalytic
+alldatawereiR 2 corrected.Theexchangecurrentdensity(J)andthesymmetry hydrogenevolutionfromamolecularmetaloxideredoxmediatorinwater
+factor(α)areobtainedbyfittingkineticcurrentdensity(j)a 0 tsmallcurrentdensity splitting.Science345,1326–1330(2014).
+k
+regionintotheButler-Volmerequationasfollows: 4. Debe,M.K.Electrocatalystapproachesandchallengesforautomotivefuel
+cells.Nature486,43–51(2012).
+j k ¼j 0 ðe α R F T η(cid:2)e ðα(cid:2) R 1 T ÞFηÞ ð1Þ 5. p K o in ly g m ,L er .A el . ec e t t ro al l . yt A em no e n m -p b r r e a c n i e ou e s le m ctr e o ta ly l s h e y r. d N ro a g t e . n N c a a n t o a t ly ec s h t n in ol. a 1 c 4 o , m 1 m 07 e 1 r – c 1 ia 0 l 74
+Thecurrentdensity(j)obtainedfromtheworkingelectrodeisthesumoftwo (2019).
+currents:dynamiccurrentdensity(j)anddiffusioncurrentdensity(j ).The 6. Feng,J.-X.,Tong,S.-Y.,Tong,Y.-X.&Li,G.-R.Pt-likehydrogenevolution
+dynamiccurrentdensity(j)isderiv k edfromthefollowingKoutecky–L d evich electrocatalysisonPANI/CoPhybridnanowiresbyweakeningtheshacklesof
+k
+8 NATURECOMMUNICATIONS| (2021) 12:4018 |https://doi.org/10.1038/s41467-021-24322-2|www.nature.com/naturecommunications
+
+ARTICLE
+NATURECOMMUNICATIONS|https://doi.org/10.1038/s41467-021-24322-2
+hydrogenionsonthesurfacesofcatalysts.J.Am.Chem.Soc.140,5118–5126 37. Li,M.etal.Ultrafinejaggedplatinumnanowiresenableultrahighmass
+(2018). activityfortheoxygenreductionreaction.Science354,1414–1419(2016).
+7. Seh,Z.W.etal.Combiningtheoryandexperimentinelectrocatalysis:insights 38. Cargnello,M.etal.Substitutionaldopinginnanocrystalsuperlattices.Nature
+intomaterialsdesign.Science355,146–157(2017). 524,450(2015).
+8. Chen,H.etal.Activesiteengineeringinporouselectrocatalysts.Adv.Mater. 39. Wang,J.,Wei,Z.,Mao,S.,Li,H.&Wang,Y.HighlyuniformRunanoparticles
+32,2002435(2020). overN-dopedcarbon:pHandtemperature-universalhydrogenreleasefrom
+9. Feng,J.-X.etal.Efficienthydrogenevolutionelectrocatalysisusingcobalt waterreduction.EnergyEnviron.Sci.11,800–806(2018).
+nanotubesdecoratedwithtitaniumdioxidenanodots.Angew.Chem.Int.Ed. 40. Huang,X.etal.High-performancetransitionmetal–dopedPtNioctahedra
+3
+56,2960–2964(2017). foroxygenreductionreaction.Science348,1230–1234(2015).
+10. Liu,D.etal.Atomicallydispersedplatinumsupportedoncurvedcarbon 41. Geim,A.K.&Grigorieva,I.V.VanderWaalsheterostructures.Nature499,
+supportsforefficientelectrocatalytichydrogenevolution.Nat.Energy4, 419–425(2013).
+512–518(2019). 42. Li,Y.etal.PartiallyexposedRuP surfaceinhybridstructureendowsits
+2
+11. Alinezhad,A.etal.DirectgrowthofhighlystrainedPtislandsonbranchedNi bifunctionalityforhydrazineoxidationandhydrogenevolutioncatalysis.Sci.
+nanoparticlesforimprovedhydrogenevolutionreactionactivity.J.Am.Chem. Adv.6,eabb4197(2020).
+Soc.141,16202–16207(2019). 43. Liu,T.etal.InterfacialelectrontransferofNiP-NiP polymorphsinducing
+2 2
+12. Tiwari,J.N.etal.MulticomponentelectrocatalystwithultralowPtloading enhancedelectrochemicalproperties.Adv.Mater.30,1803590(2018).
+andhighhydrogenevolutionactivity.Nat.Energy3,773–782(2018). 44. Zhai,P.etal.Engineeringactivesitesonhierarchicaltransitionbimetal
+13. Li,H.etal.Fastsite-to-siteelectrontransferofhigh-entropyalloynanocatalyst oxides/sulfidesheterostructurearrayenablingrobustoverallwatersplitting.
+drivingredoxelectrocatalysis.Nat.Commun.11,5437(2020). Nat.Commun.11,4067(2020).
+14. Ye,S.etal.HighlystablesinglePtatomicsitesanchoredonaniline-stacked 45. Dotan,H.etal.Decoupledhydrogenandoxygenevolutionbyatwo-step
+grapheneforthehydrogenevolutionreaction.EnergyEnviron.Sci.12, electrochemical–chemicalcycleforefficientoverallwatersplitting.Nat.Energy
+1000–1007(2019). 4,786–795(2019).
+15. Feng,J.-X.etal.Silica–polypyrrolehybridsashigh-performancemetal-free 46. Li,F.etal.MechanochemicallyassistedsynthesisofaRucatalystforhydrogen
+electrocatalystsforthehydrogenevolutionreactioninneutralmedia.Angew. evolutionwithperformancesuperiortoPtinbothacidicandalkalinemedia.
+Chem.Int.Ed.56,8120–8124(2017). Adv.Mater.30,1803676(2018).
+16. Zheng,Y.etal.Highelectrocatalytichydrogenevolutionactivityofan 47. vanDeelen,T.W.,HernándezMejía,C.&deJong,K.P.Controlofmetal-
+anomalousrutheniumcatalyst.J.Am.Chem.Soc.138,16174–16181 supportinteractionsinheterogeneouscatalyststoenhanceactivityand
+(2016). selectivity.Nat.Catal.2,955–970(2019).
+17. Mahmood,J.etal.AnefficientandpH-universalruthenium-basedcatalystfor 48. Karim,W.etal.Catalystsupporteffectsonhydrogenspillover.Nature541,
+thehydrogenevolutionreaction.Nat.Nanotechnol.12,441–446(2017). 68–71(2017).
+18. Liu,Y.etal.Rumodulationeffectsinthesynthesisofuniquerod-like 49. Yan,Q.-Q.etal.Reversingthechargetransferbetweenplatinumandsulfur-
+Ni@Ni 2 P-Ruheterostructuresandtheirremarkableelectrocatalytichydrogen dopedcarbonsupportforelectrocatalytichydrogenevolution.Nat.Commun.
+evolutionperformance.J.Am.Chem.Soc.140,2731–2734(2018). 10,4977(2019).
+19. Mao,J.etal.Acceleratingwaterdissociationkineticsbyisolatingcobaltatoms 50. Wu,Y.etal.SurfacediggingeffectstabilizedsupportedNicatalystforefficient
+intorutheniumlattice.Nat.Commun.9,4958(2018). methaneoxidation.Angew.Chem.Int.Ed.58,18388–18393(2019).
+20. Pu,Z.,Amiinu,I.S.,Kou,Z.,Li,W.&Mu,S.RuP 2 -basedcatalystswith 51. Kweon,D.H.etal.Rutheniumanchoredoncarbonnanotubeelectrocatalyst
+platinum-likeactivityandhigherdurabilityforhydrogenevolutionreactionat forhydrogenproductionwithenhancedFaradaicefficiency.Nat.Commun.
+allpHvalues.Angew.Chem.Int.Ed.56,11559–11564(2017). 11,1278(2020).
+21. Lu,B.etal.Rutheniumatomicallydispersedincarbonoutperformsplatinum 52. Lai,J.etal.Unprecedentedmetal-free3Dporouscarbonaceouselectrodesfor
+towardhydrogenevolutioninalkalinemedia.Nat.Commun.10,631(2019). fullwatersplitting.EnergyEnviron.Sci.9,1210–1214(2016).
+22. Zhang,D.etal.AdvancedultrathinRuPdM(M=Ni,Co,Fe)nanosheets 53. Yu,F.etal.ElectrocatalyticperformanceofultrasmallMoCaffectedby
+2
+electrocatalystboostshydrogenevolution.ACSCent.Sci.5,1991–1997(2019). differenttransitionmetaldopantsinhydrogenevolutionreaction.Nanoscale
+23. Su,J.etal.Ruthenium-cobaltnanoalloysencapsulatedinnitrogen-doped 10,6080–6087(2018).
+grapheneasactiveelectrocatalystsforproducinghydrogeninalkalinemedia. 54. Yan,H.etal.HoleyreducedgrapheneoxidecoupledwithanMoN-MoC
+2 2
+Nat.Commun.8,14969(2017). heterojunctionforefficienthydrogenevolution.Adv.Mater.30,1704156
+24. Wang,D.etal.Atomicandelectronicmodulationofself-supportednickel- (2018).
+vanadiumlayereddoublehydroxidetoacceleratewatersplittingkinetics.Nat. 55. Baek,D.S.etal.Orderedmesoporousmetastableα-MoC withenhanced
+1-x
+Commun.10,3899(2019). waterdissociationcapabilityforboostingalkalinehydrogenevolutionactivity.
+25. Shi,Y.etal.Site-specificelectrodepositionenablesself-terminatinggrowthof Adv.Funct.Mater.29,1901217(2019).
+atomicallydispersedmetalcatalysts.Nat.Commun.11,4558(2020). 56. Duan,Y.etal.Bimetallicnickel-molybdenum/tungstennanoalloysforhigh-
+26. Liu,Y.etal.Ageneralroutetofabricatelow-ruthenium-basedbimetals efficiencyhydrogenoxidationcatalysisinalkalineelectrolytes.Nat.Commun.
+electrocatalystsforpH-universalhydrogenevolutionreactionviacarbon 11,4789(2020).
+quantumdots.Angew.Chem.Int.Ed.59,1718–1726(2020). 57. Bhowmik,T.,Kundu,M.K.&Barman,S.Palladiumnanoparticle–graphitic
+27. Liu,Y.,Gokcen,D.,Bertocci,U.&Moffat,T.P.Self-terminatinggrowthof carbonnitrideporoussynergisticcatalystforhydrogenevolution/oxidation
+platinumfilmsbyelectrochemicaldeposition.Science338,1327–1330(2012). reactionsoverabroadrangeofpHandcorrelationofitscatalyticactivitywith
+28. Lai,J.,Huang,B.,Chao,Y.,Chen,X.&Guo,S.Stronglycouplednickel–cobalt measuredhydrogenbindingenergy.ACSCatal.6,1929–1941(2016).
+nitrides/carbonhybridnanocageswithPt-likeactivityforhydrogenevolution 58. Kumar,K.M.,Tanmay,B.,Ranjit,M.&Sudip,B.Platinumnanostructure/
+catalysis.Adv.Mater.30,1805541(2019). nitrogen-dopedcarbonhybrid:enhancingitsbasemediaactivitythroughbi-
+29. Weidong,L.etal.Carbon-quantum-dots-loadedrutheniumnanoparticlesas functionalityofthecatalyst.ChemSusChem11,2388–2401(2018).
+anefficientelectrocatalystforhydrogenproductioninalkalinemedia.Adv.
+Mater.30,1800676(2018).
+Acknowledgements
+30. Xu,S.etal.Uniform,scalable,high-temperaturemicrowaveshockfor
+nanoparticlesynthesisthroughdefectengineering.Matter1,759–769(2019). ThisworkwassupportedbytheNationalNaturalScienceFoundationofChina
+31. Zhong,G.etal.Synthesisofmetaloxidenanoparticlesbyrapid,high- (22001143,21571112,51572136,51772162,51802171),theTaishanScholarsProgram,
+temperature3Dmicrowaveheating.Adv.Funct.Mater.29,1904282(2019). NaturalScienceFoundationofShandongProvince,China(ZR2018BB031,ZR2019JQ14),
+32. Huang,H.etal.Rapidandenergy-efficientmicrowavepyrolysisforhigh-yield OpenFundoftheKeyLaboratoryofEco-chemicalEngineering(QingdaoUniversityof
+productionofhighly-activebifunctionalelectrocatalystsforwatersplitting. ScienceandTechnology,No.KF1702),theTaishanScholarProjectofShandongPro-
+EnergyEnviron.Sci.13,545–553(2020). vince(tsqn201909123).
+33. Fei,H.etal.Microwave-assistedrapidsynthesisofgraphene-supportedsingle
+atomicmetals.Adv.Mater.30,e1802146(2018). Author contributions
+34. Xu,J.etal.Boostingthehydrogenevolutionperformanceofruthenium
+L.W.andJ.L.supervisedtheresearch.J.L.conceivedtheresearch.J.L.andX.W.designed
+clustersthroughsynergisticcouplingwithcobaltphosphide.EnergyEnviron.
+Sci.11,1819–1827(2018). theexperiments.X.W.performedmostoftheexperimentsanddataanalysis.Z.W.,D.Z.,
+andY.Q.preparedtheelectrodesandhelpedwithelectrochemicalmeasurements.M.W.,
+35. Yu,J.etal.Biggerissurprisinglybetter:agglomeratesoflargerRuP
+Y.H.,andT.Z.helpedanalyzephysicalcharacterizationdata.B.Y.andS.L.helpedanswer
+nanoparticlesoutperformbenchmarkPtnanocatalystsforthehydrogen
+somequestions.Allauthorsdiscussedtheresultsandcommentedonthemanuscript.
+evolutionreactio.Adv.Mater.30,1800047(2018).
+36. Chen,C.-H.etal.Ruthenium-basedsingle-atomalloywithhigh
+electrocatalyticactivityforhydrogenevolution.Adv.EnergyMater.9,1803913 Competing interests
+(2019). Theauthorsdeclarenocompetinginterests.
+NATURECOMMUNICATIONS| (2021) 12:4018 |https://doi.org/10.1038/s41467-021-24322-2|www.nature.com/naturecommunications 9
+
+ARTICLE
+NATURECOMMUNICATIONS|https://doi.org/10.1038/s41467-021-24322-2
+Additional information Open Access This article is licensed under a Creative Commons
+SupplementaryinformationTheonlineversioncontainssupplementarymaterial Attribution 4.0 International License, which permits use, sharing,
+availableathttps://doi.org/10.1038/s41467-021-24322-2. adaptation,distributionandreproductioninanymediumorformat,aslongasyougive
+appropriatecredittotheoriginalauthor(s)andthesource,providealinktotheCreative
+CorrespondenceandrequestsformaterialsshouldbeaddressedtoJ.L.orL.W. Commonslicense,andindicateifchangesweremade.Theimagesorotherthirdparty
+materialinthisarticleareincludedinthearticle’sCreativeCommonslicense,unless
+PeerreviewinformationNatureCommunicationsHamedMehrabiandother,
+indicatedotherwiseinacreditlinetothematerial.Ifmaterialisnotincludedinthe
+anonymous,reviewersfortheircontributionstothepeerreviewofthiswork.Peerreview article’sCreativeCommonslicenseandyourintendeduseisnotpermittedbystatutory
+reportsareavailable.
+regulationorexceedsthepermitteduse,youwillneedtoobtainpermissiondirectlyfrom
+thecopyrightholder.Toviewacopyofthislicense,visithttp://creativecommons.org/
+Reprintsandpermissioninformationisavailableathttp://www.nature.com/reprints
+licenses/by/4.0/.
+Publisher’snoteSpringerNatureremainsneutralwithregardtojurisdictionalclaimsin
+publishedmapsandinstitutionalaffiliations. ©TheAuthor(s)2021
+10 NATURECOMMUNICATIONS| (2021) 12:4018 |https://doi.org/10.1038/s41467-021-24322-2|www.nature.com/naturecommunications
+
