@@ -1,0 +1,18 @@
+# Virtual environment
+venv/
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data files (large)
+data/papers/*.pdf
+data/raw/*.pdf
+*.h5
+*.pth
+*.pt
+
+# OS files
+.DS_Store
+Thumbs.db
