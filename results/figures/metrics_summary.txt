@@ -1,0 +1,18 @@
+CatalystGPT — Final Metrics Summary
+=======================================================
+
+Model                    MAE         RMSE        R2        
+-------------------------------------------------------
+Baseline (mean)          79.36       95.63       N/A       
+Random Forest            45.56       70.71       0.447     
+EdgeGNN (proposed)       49.35       71.99       0.427     
+
+Samples: 173 catalysts
+Evaluation: 5-fold cross-validation, nested early stopping
+
+Top 5 features:
+  1. electron_affinity_mean (0.4688)
+  2. atomic_radius_mean (0.0915)
+  3. Z_std (0.0653)
+  4. melting_point_max (0.0498)
+  5. melting_point_mean (0.0493)
