@@ -1,0 +1,533 @@
+Energy &
+Environmental
+Science
+Published on 28 July 2023
+PAPER
+Licence and permissions
+High-entropy alloy nanocrystal assembled
+by nanosheets with d–d electron interaction
+Cite this: Energy Environ. Sci., for hydrogen evolution reaction†
+2023, 16, 4009
+Min Wei,a Yuyan Sun,a Junyu Zhang,a Fei Ai,a Shibo Xi *b and Jike Wang *a
+The development of efficient catalysts with superior performance for water splitting into hydrogen is
+urgently required in the catalysis community. Herein, for the first time, we report unique high-entropy
+alloy(HEA)catalysts–PtMoPdRhNinanocrystals(NCs)withstrongd–delectroninteractionencapsulated
+with radial nanosheets. Through the exploration of the atomic ratio of PtMoPdRhNi, the obtained
+Pt Mo Pd Rh Ni NCswiththestrongestd–delectroninteractiondisplaythehighestalkalinehydro-
+28 6 28 27 15
+gen evolution reaction (HER) activity, with the overpotential as low as 9.7 mV at a current density of
+(cid:2)10 mA cm(cid:2)2. The superior HER performance mainly originated from the d–d electron interaction in
+constituent metals and multi-active sites with optimized energy barriers of HEAs. In situ surface-
+Received12thJune2023, enhanced Raman spectroscopy (SERS) and theoretical calculations are combined to reveal the mecha-
+Accepted21stJuly2023 nism in both water dissociation and H* adsorption/desorption. This study not only elucidates the
+DOI:10.1039/d3ee01929b complexstructuralinformationandthecatalyticmechanismsofmultielementHEAsystemsindepthfor
+further rational design of efficient catalysts but also highlights HEAs as sufficiently advanced catalysts
+rsc.li/ees andacceleratestheresearchofHEAsinenergy-relatedapplications.
+Broadercontext
+Alkalineanionexchangemembraneelectrolyzerspossesssignificantadvantages,suchaslowsystemcost,lesscorrosiveandhighlyefficientH2production.The
+development of an effective catalyst for water splitting into hydrogen is urgent in the catalysis community. High-entropy alloys (HEAs) with unique
+physicochemicalpropertieshaveattractedtremendousattentioninmanyfields,yettheprecisecontrolofmorphologyattheatomiclevelremainsaformidable
+challenge. Herein, PtMoPdRhNi nanocrystals (NCs), assembled by nanosheets, were fabricated by applying a one-step wet chemistry method. The
+Pt28Mo6Pd28Rh27Ni15NCsexhibitextremelylowoverpotentialat(cid:2)10mAcm(cid:2)2inalkalineelectrolytes,whichisaslowas9.7mV.Theoverpotentialismuch
+lower than that of mostreportedcatalysts. ThesuperiorHER performanceof Pt28Mo6Pd28Rh27Ni15 NCs mainly originates from thestrong d–delectron
+interactioninconstituentmetalsandmulti-activesiteswithoptimizedenergybarriers.InsituSERSandtheoreticalcalculationsidentifiedthatthePtandNi
+sitesfacilitatedH2Odissociation.ThePtandRhsitessimultaneouslyacceleratedthecombinationofH*toH2inPtMoPdRhNiNCs.Thisstudynotonly
+elucidatesthecomplexstructuralinformationandcatalyticmechanismofHEAsbutalsopromotestheresearchofHEAsinenergy-relatedapplications.
+Introduction showsclearadvantages(suchaslong-termstabilityandmature
+commercialization)versusacidicwaterelectrolysisforlarge-scale
+Hydrogenisregardedasoneofthecleanestandmostpromising and low-cost hydrogen production.3,4 However, the sluggish
+energy carriers for substitutable fossil fuels owing to its zero kinetics and circumventing complex multi-electron reaction
+pollution and high energy density. Electrocatalytic water split- pathways of water dissociation in alkaline electrodes lead to a
+tingisconsideredasthemostgreenandsustainablemethodof highenergybarrier,whichbecomeamajorobstacletoalkaline
+renewableenergystorage.1,2Moreover,alkalinewaterelectrolysis water electrolysis. To solve this problem, numerous advanced
+electrocatalystsforalkalineHERhavebeenexplored.5–7Todate,
+aTheInstituteforAdvancedStudies,WuhanUniversity,Wuhan,430072,China. Pt-basedcatalystsarestillconsideredasthemosteffectivecatalysts
+E-mail:Jike.Wang@whu.edu.cn for HER owing to their low overpotential and fast reaction
+bInstituteofChemicalandEngineeringSciences,A*STAR(AgencyforScience, kinetics.8–10Unfortunately,thehighcostandthescarceresources
+TechnologyandResearch),Singapore627833,Singapore.
+limit its further large-scale application. Thus, it is pivotal to
+E-mail:xi_shibo@partner.nus.edu.sg
+rationallydesignPt-basedcatalyststomaximizetheutilizationof
+†Electronicsupplementaryinformation(ESI)available.SeeDOI:https://doi.org/
+10.1039/d3ee01929b activesitesandboostintrinsicactivitytowardalkalineHER.
+This journal is © The Royal Society of Chemistry 2023 Energy Environ. Sci., 2023, 16, 4009–4019 | 4009
+
+Paper Energy&EnvironmentalScience
+There are two main pathways to rationally design high- forthecontrollablesynthesisofPtMoPdRhNiNCsandlaysthe
+performance Pt-based catalysts. Decorating/alloying Pt with foundationforacomprehensiveunderstandingofthecatalytic
+maingroup/transitionelementstoimprovetheintrinsicactivity mechanismsofHEAs.
+of alkaline HER is considered an effective strategy.11,12 For
+example, a unique Pt–Pd-graphene stack with controllable Pt
+shell thickness results in surface polarization on the Pt surface Results and discussion
+andmodulatesitschargestate,thusimprovingHERactivity.13–15
+Bimetallic Pt Ni nanoalloys could efficiently reduce the Gibbs ThenovelPtMoPdRhNiNCsweresynthesizedbyasimpleone-
+x y
+free energies as the downward-shifted dband center of the Pt step wet chemistry strategy (Fig. 1a) in which triethylbenzyl-
+activesites.16Giventheexcellentstability,regulableelectronic ammonium (TEBA), as a surfactant, plays a major role in the
+structure and cocktail effect, HEAs exhibit great potential in formation of the morphology of PtMoPdRhNi NCs. Organo-
+electrocatalysis.17However,HEAsstillsufferfromvariouschal- metallic precursors were dissolved in triethylene-glycol and
+lenges owing to the incomplete understanding of structural then reduced by D-(+)-Glucose. Moreover, the atomic ratio of
+informationandcomplicatedcatalyticmechanisms.It’sacknowl- theconstituentmetalsinPtMoPdRhNiNCsisregulatedbythe
+edgedthatPthavesignificantH*adsorption/desorptioncatalytic amountofNiprecursors.Ni2+isfirstreducedundertheaction
+activity and Rh play an important role in water dissociation. of the reducing agent owing to the relatively low potential of
+Hence, Pt and Rh are the main active sites for alkaline HER. theredoxelectrode.Asthereactionproceedscontinuously,the
+The transition metals (Fe/Co/Ni) can effectively reduce the galvanicreplacementoccursinthepreciousmetalions(Pt,Rh
+e –t and tune the electronic structure of Pt/Rh, thus enhan- and Pd) and metallic Ni, and finally co-reduced under the
+g 2g
+cing electron transfer in the electrocatalytic process.18 Based action of the reducing agent.22 Therefore, the content of con-
+on the 1s22s22p63s23p63d84s2, 1s22s22p63s23p63d104s24p64d85s1 stituentmetalsinthePtMoPdRhNiNCssystemismainlydriven
+and 1s22s22p63s23p63d104s24p64d105s25p64f145d96s1 electron bythekineticsoftheco-reductionreactionandelectrochemical
+configurations of Ni, Rh, and Pt, the introduction of half-full replacement.Duringthisprocess,thechangeofMocontentis
+(4d5)andfull(4d10)valenceelectronofMoandPdtoregulate3d, negligible because of the decomposition of carbon monoxide
+4d, and5delectron orbitalsfacilitatesd–d electron interactions and metallic Mo at high temperatures, and galvanic replace-
+andresultsinfavorableelectrocatalysis.Furthermore,HEAscan mentmainlyoccursinNiandothermetals(Pt,Rh,andPd).
+increase the entropy in the alloy to improve the stability of the As shown in Fig. 1b, the representative high-angle annular
+catalyst.Therefore,itissignificantlymeaningfultooptimizethe dark-fieldscanningtransmissionelectronmicroscope(HAADF-
+designofHEAsbyregulatingelectronicstoenhanceHERactivity. STEM) at a low magnification image of Pt Mo Pd Rh Ni
+28 6 28 27 15
+Another approach is constructing open structures, such as NCs indicates that the PtMoPdRhNi NCs are flower-like. Two
+nanowires, nano-multipods, and Tri-Star, to improve the utili- differentregions(Fig.1candd)ofFig.1bclearlyshowthatthe
+zation of Pt and enhanced the HER performance.19–21 The flower-likestructureisassembledbynanosheets.Bothsizeand
+controllable synthesis of Pt-based nanomaterials, especially morphology contribute to the efficient proton transfer and
+HEAs with tailored morphology and dimension at the atomic enhancedelectrocatalysticactivity.Moreover,theselectedarea
+level, remains a great challenge owing to the lattice disorder electron diffraction (SAED) image expressly shows four bright
+amongconstituentmetals. concentricrings,whichareattributedtothe(111),(200),(220),
+Herein, PtMoPdRhNi (Pt Mo Pd Rh Ni , Pt Mo Pd - and(311)crystalplanesinsequence,reflectingthepolycrystal-
+23 6 23 43 5 33 6 33
+Rh Ni ,Pt Mo Pd Rh Ni ,andPt Mo Pd Rh Ni )NCs linecharacteristicsofPt Mo Pd Rh Ni NCs(Fig.S1,ESI†).
+18 10 28 6 28 27 15 18 6 24 12 40 28 6 28 27 15
+assembled by nanosheets were fabricated by one-step wet Thefringepatternofthenanosheetsdisplaysalatticespacing
+chemistry method. In particular, the Pt Mo Pd Rh Ni of 0.218 nm, close to 0.230 nm of standard metallic Pt(111)
+28 6 28 27 15
+NCs with the strongest d–d electron interaction exhibit extre- (Fig. 1e and e ), indicating that the crystal structure of
+1 2
+mely low overpotential at (cid:2)10 mA cm(cid:2)2, which deliver to PtMoPdRhNi NCs is a (111) crystal plane corresponding to
+9.7 mV and lower than that of most reported catalysts. More- the face-centered cubic (fcc) structure. The HAADF-STEM
+over, no obvious decay of HER activity was observed after images and the corresponding elemental mappings of
+5000cyclesintheaccelerateddurabilitytests(ADTs),indicating PtMoPdRhNiNCs(Fig.1f –f andFig.S2–S5,ESI†)clearlyshow
+1 6
+theenhanceddurabilityofPt Mo Pd Rh Ni NCsforHER. thatPt,Mo,Pd,Rh,andNiareuniformlydistributedandwell-
+28 6 28 27 15
+By investigating the HER performance with different atomic mixed without composition segregation. The atomic ratio of
+ratios inPtMoPdRhNi NCs,the HERactivityishighest forthe Pt/Mo/Pd/Rh/Ni in PtMoPdRhNi NCs is almost in accordance
+Pt Mo Pd Rh Ni NCs,which corresponds tothe strongest withtheoverallcompositionanalysis,measuredbyinductively
+28 6 28 27 15
+d–d electron interaction. Density functional theory (DFT) coupled plasma-atomic emission spectroscopy (ICP-AES)
+calculation also demonstrates the strong d–d interaction in (TableS1,ESI†).
+constituentmetalsandmulti-activesitestowardwaterdissocia- X-raydiffraction(XRD)wasconductedtofurtherinvestigate
+tion and H* adsorption/desorption. In particular, in situ SERS the crystal phase of PtMoPdRhNi NPs and PtMoPdRhNi NCs.
+combined with DFT calculations identified the role of consti- Obviously,theXRDpatternsofPtMoPdRhNiNPsexhibitposi-
+tutemetals inbothwater dissociation and the H* adsorption/ tive shift compared to commercial Pt/C and standard Pt
+desorptionofalkalineHER.Thisstudyprovidesafacilestrategy (PDF#04-0802),indicatingthealloyedfccphaseofPtMoPdRhNi
+4010 | Energy Environ. Sci., 2023, 16, 4009–4019 This journal is © The Royal Society of Chemistry 2023
+
+Energy&EnvironmentalScience Paper
+Fig.1 (a)SynthesisschemeofPtMoPdRhNiNCs.(b)HAADF-STEM,(c)HADDF-STEM,(d)HADDF-STEM,(e)(e )HRTEMimagesofPtMoPdRhNiNCs.(f)
+1 2 1
+HAADF-STEMimageandthecorresponding(f )energydispersivespectrometer(EDS)mappingofPtMoPdRhNiNCs.
+2–6
+NPs(Fig.S6,ESI†).Apparently,thethreemaindiffractionpeaks positively shifted diffraction peaks have lower lattice spacing
+of Pt Mo Pd Rh Ni and Pt Mo Pd Rh Ni NCs around andconsequentlylowerlatticeconstants.
+23 6 23 43 5 18 6 24 12 40
+40.71, 47.41 and 69.41 are corresponding to (111), (200), and The chemical composition and electronic properties of
+(220)facetsofthefccphase.Themaindiffractionpeaksfeature commercialPt/C,PtMoPdRhNiNPsandPtMoPdRhNiNCswere
+clear shoulder diffraction peaks at B42.21, 49.11, and 72.51, investigated using X-ray photoelectron spectroscopy (XPS).
+demonstrating theexistenceofanother phaseinPt Mo Pd - Fig.2bdepictsthePt4fsignalofPt Mo Pd Rh Ni NCsin
+23 6 23 28 6 28 27 15
+Rh Ni and Pt Mo Pd Rh Ni NCs. As shown in Fig. S6 which two concentrated peaks are designated to the core-level
+43 5 18 6 24 12 40
+(ESI†)andFig.2a,thediffractionpeaksofPtMoPdRhNiNCsare photoemissionofPt4f (70.8eV)andPt4f (74.1eV),which
+7/2 5/2
+located between those of standard metallic Pt (PDF#04-0802) are associated with the metallic state (Pt0). Moreover, the
+and metallic fcc Ni (PDF#89-7128). According to Bragg’s binding energies at about 71.4 and 74.7 eV are assigned to
+equation (2dsiny = nl), the sin2y corresponding to the two the oxidized Pt of Pt 4f and Pt 4f respectively, originating
+7/2 5/2
+diffraction peaks in the immediate neighbourhood are 1.04, fromtheOabsorbedonPt.24ThePt4f signalofPtMoPdRhNi
+7/2
+indicating that Pt Mo Pd Rh Ni and Pt Mo Pd Rh Ni NCs has a negative shift relative to commercial Pt/C owing to
+23 6 23 43 5 18 6 24 12 40
+NCs are composed of two fcc phases. The differences in the the electron interaction induced by alloying.25 Noticeably, a
+diffraction of PtMoPdRhNi NCs are mainly attributed to a negative shift occurs in the Pt 4f signal of Pt Mo Pd -
+7/2 28 6 28
+combination of the atomic size, the valence electron concen- Rh Ni NCs compared to that of other PtMoPdRhNi NCs,
+27 15
+tration and the mixing entropy of constituent metals.23 Exces- demonstratingthattheinteractionbetweenconstitutemetalsis
+siveamountsofasinglecomponentmaycausestructuralbias, stronger than that of the other PtMoPdRhNi NCs. The Ni 2p
+leading to the existence of shoulder peaks in Pt Mo Pd - spectrum in Fig. 2c shows that two intense peaks of Ni 2p
+23 6 23 3/2
+Rh Ni and Pt Mo Pd Rh Ni NCs, and not in Pt Mo - and Ni 2p appear at 851.9 and 869.2 eV, which are derived
+43 5 18 6 24 12 40 33 6 1/2
+Pd Rh Ni and Pt Mo Pd Rh Ni NCs. Furthermore, the from the characteristics of metallic Ni. The two more fitted
+33 18 10 28 6 28 27 15
+fittedlatticeparametersofPtMoPdRhNiNCsandPtMoPdRhNi peaks at 855.4 and 873.0 eV are in line with the oxidized Ni,
+NPs are shown in Table S2 (ESI†). It’s obviously show that whichmaycomefromtheinteractionbetweenmetallicNiand
+Pt Mo Pd Rh Ni and Pt Mo Pd Rh Ni NCs with absorbed oxygen.26 The blue shift occurred in the Ni 2p
+33 6 33 18 10 28 6 28 27 15 3/2
+This journal is © The Royal Society of Chemistry 2023 Energy Environ. Sci., 2023, 16, 4009–4019 | 4011
+
+Paper Energy&EnvironmentalScience
+Fig.2 (a)XRDpatternsofcommercialPt/CandPt Mo Pd Rh Ni NCs.XPSsignalsof(b)Pt4f,(c)Ni2p,(d)Rh3d,(e)Pd3d,and(f)Mo3dof
+28 6 28 27 15
+Pt Mo Pd Rh Ni NCs.
+28 6 28 27 15
+binding energies of PtMoPdRhNi NCs compared to that of energy of other constituent metals. The degree of binding
+metallic Ni, further implying that Ni is engaged in electron energy shift follows the order Ni 4 Mo 4 Rh 4 Pt 4 Pd,
+interactionsinthePtMoPdRhNiNCs.27Moreover,theNi2p demonstratingthatthecontentofNiisanimportantdescriptor
+3/2
+binding energy of Pt Mo Pd Rh Ni NCs exhibit 0.5 eV in the formation of HEAs and in the degree of the electronic
+28 6 28 27 15
+negative shift compared to PtMoPdRhNi NPs, and as the Ni interaction.
+content increases in PtMoPdRhNi NCs (Fig. S7b, ESI†), the Synchrotron X-ray absorption near-edge structure (XANES)
+bindingenergyofNi0varies,demonstratingthattheinteraction andextendedX-rayabsorptionfinestructure(EXAFS)ofPtfoil
+betweenelectronsalsovaries. andPtMoPdRhNiNCsareanalyzedfortheatomicarrangement
+Inaddition,aspin–orbitdoubletat306.6eV(Rh3d )and and coordination bond length. The intensity of the white line
+5/2
+311.4 eV (Rh 3d ) binding energies shown in Fig. 2d are (WL)peaksofthePtL -edgeXANESsignalisdirectlyrelatedto
+3/2 3
+associated with metallic Rh, while peaks located at 307.7 eV thetransitionfromtheoccupiedPt2p core-electrontoempty
+3/2
+(Rh 3d ) and 311.9 eV (Rh 3d ) indicate the presence of 5d states. Thus, the WL intensity is relative to the density of
+5/2 3/2
+oxidizedRh.28InconsiderationoftheoverlayofRh3d andPt unoccupiedPt5dorbitals.32Clearly,thepositionoftheinflec-
+3/2
+4d orbitals, the additional peaks centred at 313.3 eV and tion point of PtMoPdRhNi NCs is identical to that of Pt foil,
+5/2
+314.9eVneartheRh3dspectrumareassignedtoPt0andPt2+, illustrating the metallic characteristics of Pt in PtMoPdRhNi
+respectively.29 Similarly, the high-resolution Pd 3d spectrum NCs. Moreover, the relative extent of empty states and the
+indicatesthepresenceofmetallicPdandoxidizedPd(335.0eV splitting of the Pt 5d orbital can be revealed through the
+5/2
+forPd03d ,340.3eVforPd03d ,336.2eVforPd2+3d ,and intensity (H ) and width (W ) of the main absorption peak,
+5/2 3/2 5/2 A A
+341.6eVforPd2+3d ,Fig.2e).AsshowninFig.2f,thepeaksat as illustrated in Fig. 3a.33,34 The absorption intensity of
+3/2
+231.3 and 234.3 eV are attributed to Mo4+ 3d and 3d , PtMoPdRhNiNCsincreasescomparedtothatofPtfoil,andthe
+5/2 3/2
+respectively. The peaks at 232.4 and 235.3 eV are assigned to charge localization among Pt, Ni, Mo, Pd and Rh is enhanced
+Mo6+ 3d and 3d , and the single peak located at 227.8 eV withtheincreaseinPtcontent.Moreover,thewidestW reflects
+5/2 3/2 A
+correspondstometallicMo.30,31Itisworthnotingthattheshift thehighestextentof5d splittinginPt Mo Pd Rh Ni NCs
+5/2 28 6 28 27 15
+occurred in Pt 4f, Rh 3d, Mo 3d, Ni 2p, and Pd 3d binding among these catalysts, which is related to the d–d electron
+energiesasthecontentvaried,implyingdifferentchargetrans- interaction of the constituent metals in HEAs.35 The post edge
+fer and electronic interactions between constituent metals in oftheXANESspectraisrelativetotheinterferenceofphotoelec-
+PtMoPdRhNi NCs (Fig. S7a–e, ESI†). With an increase in Pt tronswithlocalatoms,whichwereusedtodescribetheextentof
+content,thenegativeshiftinbindingenergyincreases,andthe localstructuralorderingaroundthetargetatom.Theoscillatory
+contentofPtplaysadecisiveroleinthechangeofthebinding hump strength (H ) andhump width (W ) of PtMoPdRhNi NCs
+p p
+4012 | Energy Environ. Sci., 2023, 16, 4009–4019 This journal is © The Royal Society of Chemistry 2023
+
+Energy&EnvironmentalScience Paper
+Fig.3 X-rayabsorptionspectraof(a)XANESofPtL -edgeofstandardPtfoilandPtMoPdRhNiNCs;theinsetshowstheenlargedpost-edgeregion.
+3
+Thecorresponding(b)FT-EXAFSandthecorrespondingfittingcurves.(c)XANESoftheNiK-edgeofstandardNifoil,PtMoPdRhNiNCs,and(d)FT-EXAFS
+andthecorrespondingfittingcurves.
+are much greater than those of Pt foil, indicating the existence of Pt Mo Pd Rh Ni NCs shows the lowest value among
+28 6 28 27 15
+of a disordered structure in PtMoPdRhNi NCs. Noticeably, PtMoPdRhNi NCs, while the Pt–Rh bond length exhibits the
+Pt Mo Pd Rh Ni NCsexhibitthebroadestW andstrongest largestvalueamongPtMoPdRhNiNCs.Tofurtherqualitatively
+28 6 28 27 15 p
+H among PtMoPdRhNi NCs, which means that their Pt 5d characterize the local structure of Pt, wavelet transform (WT)
+p
+electronshave the strongest d–delectroninteractionwithother wasappliedtothePtL -edgeofPtMoPdRhNiNCs.Asshownin
+3
+constituent metals. Furthermore, the absorption edge position Fig. S8 (ESI†), for Pt foil, an intense peak is present around
+andwhiteline peakintensityof NiK-edge inPtMoPdRhNiNCs R = 2.76 Å at a maximum k-region of backscattering around
+(Fig. 3c) are higher than those of Ni foil, indicating that the 10.7Å(cid:2)1,withrespecttothePt–Ptbond.InPtMoPdRhNiNCs,
+Ni species in PtMoPdRhNi NCs are considered metallic with different degrees of distorted structure appear due to the
+partial oxidationstatesowing toalloying.36TheWL intensityof alloyingeffectofthecomponentandd–delectroninteraction,
+Pt Mo Pd Rh Ni NCs is the lowest in PtNiMoPdRh NCs, whichleadtovariationsinRandk.Notably,twoormorelobes
+28 6 28 27 15
+indicatingthatNipreferstoalloywithothermetalsratherthan areapparentinthePtMoPdRhNiNCsinthefirstshell,signify-
+presentinanoxidizedform. ing verified that Pt is multi-coordination in the first shell,
+Inaddition,Fig.3bandTableS3(ESI†)presenttheFourier- furtherillustratingthedisorderlycharacteristicandcomplexity
+transformedextendedX-rayabsorptionfinestructure(FT-EXAFS) of the HEA.37 In addition, the coordination environment of
+spectra(radialstructurefunction,RSF)ofthePtL -edgeofPtfoil the Ni K-edge in PtMoPdRhNi NCs and Ni foil was identified.
+3
+andPtMoPdRhNiNCs.Itisclearthatthecoordinationenviron- As shown in Fig. 3d and Table S4 (ESI†), the coordination
+mentofPtismainlycomposedofPt–Pt,Pt–Ni,andPt–Pd,where environmentofNiinPtMoPdRhNiNCsismainlycomposedof
+thebond length Pt–Ptofthe PtMoPdRhNi NCs shows a signifi- Ni–Ni,Ni–Pt,andNi–RhwhileNi–Oaccountsforaverylimited
+cantdecreasewithrespecttothePtfoil.ThePt–Ptbondlength amount,indicatingthatNiismainly presentinthealloystate
+This journal is © The Royal Society of Chemistry 2023 Energy Environ. Sci., 2023, 16, 4009–4019 | 4013
+
+Paper Energy&EnvironmentalScience
+inPtMoPdRhNiNCs.Interestingly,thebondlengthofNi–Niin Tafelstepscorrespondto120,40,and30mVdec(cid:2)1,respectively.
+PtMoPdRhNi NCs is much longer than that of Ni foil due to As shown in Fig. 4c, the Tafel slopes of Pt Mo Pd Rh Ni ,
+23 6 23 43 5
+alloying.ThedecreaseinRandk ofPt Mo Pd Rh Ni NCs Pt Mo Pd Rh Ni , Pt Mo Pd Rh Ni , and Pt Mo Pd -
+28 6 28 27 15 33 6 33 18 10 28 6 28 27 15 18 6 24
+illustratestheincreasedalloyingofNi/Pd/Rh/MowithPt,which Rh Ni NCs(30.3,26.9,25.9,and30.5mVdec(cid:2)1,respectively)
+12 40
+matches well with the XANES of Ni K-edge (Fig. S9, ESI†), arelowerthanthoseofPtMoPdRhNiNPs(54.5mVdec(cid:2)1)and
+further explaining the strongest electronic interaction of con- commercial Pt/C (63.5 mV dec(cid:2)1), demonstrating that their
+stituent metals in Pt Mo Pd Rh Ni NCs. The variation in HER follows the Volmer–Tafel mechanism.40 In general, the
+28 6 28 27 15
+coordination bond lengths with Pt/Ni as the central atom is first step in alkaline electrolyte is the Volmer step, in which
+mainlyattributedtothevariationinthecoordinationenviron- additional energy is required to dissociate water molecules by
+ment, while the coordination environment affects electro- breakingthestrongH–O–Hcovalentbond,withtheconsequent
+chemicalperformance. formation of M–H* (M + H O + e(cid:2) = 2M–H* + OH(cid:2)).41 In the
+2
+Alkaline water electrolysis is of paramount significance in followingstep,theH*atomcombineswithanelectronandH O
+2
+the treatmentofexcretedalkaline waterinindustries, suchas to form a hydrogen molecule (H* + H O + e(cid:2) - H + OH(cid:2),
+2 2
+water-alkaliandchlor-alkalielectrolyzers.38Toassessthecata- Heyrovskystep)ortwoH*atomsaredirectlybondedtoforma
+lyticperformanceofPtMoPdRhNiNCs,PtMoPdRhNiNPs.and hydrogenmolecule(H*+H*-H ,Tafelstep).42
+2
+commercialPt/C,theHERactivitywasevaluatedin1.0MKOH. In addition, electrochemical impedance spectroscopy (EIS)
+Theelectrochemicallyactivesurfacearea(ECSA)ofthecatalysts wasmeasuredtoverifytheinterfacialpropertiesandascertain
+was reflected by the electrochemical double-layer capacitance, the electrontransfer process.43 Asshown inFig.4dand Table
+C , which was calculated from CV curves recorded in a S6(ESI†),PtMoPdRhNiNCsdisplaylowercharge-transferresis-
+dl
+potential range of nonfaradaic currents with different scan tance(R )thanPtMoPdRhNiNPs(11.9O)andcommercialPt/C
+ct
+rates.39TheCVcurvesofcatalystsarecollectedatthepotential (36.9O),indicatingfasterreactionkineticsofPtMoPdRhNiNCs
+ranging from 0.1 to 0.2 V (Fig. S10, ESI†), and the corres- in alkaline HER. The R value of Pt Mo Pd Rh Ni NCs
+ct 28 6 28 27 15
+pondingC ofPt Mo Pd Rh Ni NCsis0.00277mF,which (3.1O)isthelowestinPtMoPdRhNiNCs,suggestingitssuper-
+dl 28 6 28 27 15
+is higher than that of PtMoPdRhNi NPs (0.00171 mF), iorinterfacialchargetransferkinetics.44,45
+Pt Mo Pd Rh Ni NCs (0.00183 mF), Pt Mo Pd Rh Ni Long-termstabilityisanimportantdescriptorinevaluating
+23 6 23 43 5 33 6 33 18 10
+NCs(0.00205mF),Pt Mo Pd Rh Ni NCs(0.00270mF),and the electrochemical performance of a high-efficiency electro-
+18 6 24 12 40
+commercialPt/C(0.00125mF)(Fig.S11,ESI†).Thecomparison catalyst,especiallyforpracticalapplications.ADTsandchrono-
+of C indicatesthatPt Mo Pd Rh Ni NCshavethelargest potentiometry(CP)wereconductedtomeasurethedurabilityof
+dl 28 6 28 27 15
+ECSA with enriched active sites, thus enhancing activity in Pt Mo Pd Rh Ni NCs. After 5000 cycles, the HER activity
+28 6 28 27 15
+alkaline electrolytes. As shown in Fig. 4a, both PtMoPdRhNi loss is negligible and the overpotential at (cid:2)10 mA cm(cid:2)2 is
+NPsandPtMoPdRhNiNCsexhibitenhancedHERactivityover 16.6 mV, which is a negative shift by 6.9 mV compared to the
+commercialPt/C,andthePtMoPdRhNiNCspossessextremely initialvalue(Fig.4e).TheSTEMimagesofPt Mo Pd Rh Ni
+28 6 28 27 15
+enhanced HER performance compared to PtMoPdRhNi NPs. NCsafterADTs(Fig.S13a,ESI†)alsoshowthatthenanostruc-
+Moreover,thePt Mo Pd Rh Ni NCsshowedoptimumHER ture and morphology unchanged, demonstrating the excellent
+28 6 28 27 15
+activityamongthePtMoPdRhNiNCs.ThePt Mo Pd Rh Ni stability of the Pt Mo Pd Rh Ni NCs. The corresponding
+28 6 28 27 15 28 6 28 27 15
+NCs require the lowest overpotential (9.7 mV and 57.7 mV) to EDSmapping(Fig.S13b–h,ESI†)showstheelementalcontent
+achieveacurrentdensityof(cid:2)10mAcm(cid:2)2and(cid:2)100mAcm(cid:2)2, remains,furtherillustratingtheenhancedstabilityofPt Mo -
+28 6
+which is lower than that of commercial Pt/C (Fig. 4b). Com- Pd Rh Ni NCs. In addition, the CP curve at (cid:2)10 mA cm(cid:2)2
+28 27 15
+pared with the previously reported Pt-based catalysts listed in for 30 h ofPt Mo Pd Rh Ni NCs is shown inFig. 4f. This
+28 6 28 27 15
+TableS5(ESI†),thePt Mo Pd Rh Ni NCsexhibitoutstand- shows that Pt Mo Pd Rh Ni NCs display long-term stabi-
+28 6 28 27 15 28 6 28 27 15
+ing catalytic performance due to the synergistic mechanism lity without obvious potential shift. Combined with the ADT
+of multiple active sites in the HEA, the efficient utilization of and CP results, Pt Mo Pd Rh Ni NCs possess superior
+28 6 28 27 15
+activeatoms,andtheuniquemorphologyinfavorofmassand durability during the HER process. The excellent stability of
+electrontransport.Inaddition,theH productwasmeasuredto Pt Mo Pd Rh Ni NCs may originate from the decreased
+2 28 6 28 27 15
+calculate the faradaic efficiency (FE). As shown in Fig. S12a bondlengthandd–delectroninteractionbetweenconstituent
+(ESI†), the H product of Pt Mo Pd Rh Ni NCs is highest metalsinHEAs.
+2 28 6 28 27 15
+among these catalysts at the same overpotential. The FE of Density functional theory (DFT) calculations were carried
+commercial Pt/C and PtMoPdRhNi NPs are 93.7% and 96.6%, outtoidentifytherolesofindividualmetalandtheirsynergistic
+respectively.Moreover,theFEofPt Mo Pd Rh Ni ,Pt Mo - effect with multi-active sites in alkaline HER. As shown in
+23 6 23 43 5 33 6
+Pd Rh Ni ,Pt MoPd Rh Ni ,andPt MoPd Rh Ni NCs Fig.S14a(ESI†),toensuretheaccuracyoftheDFTmodel,the
+33 18 10 28 6 28 27 15 18 6 24 12 40
+are corresponding to 98.9%, 98.3%, 99.7%, and 99.1%, which atomic ratio is set close to Pt Mo Pd Rh Ni NCs in the
+28 6 28 27 15
+arecloseto100%. experiment for calculation. Thus, the Pt Mo Pd Rh Ni
+30 5 25 25 15
+IntheprocessofexploringHERdynamicsinalkalinemedia, modelwasusedtodiscussthed–delectroninteractionbetween
+TafelslopeisarepresentativedescriptorobtainedfromtheLSV individual metallic elements in HEAs. The crystalline spacing
+curve.TheTafelslopecanbecalculatedbytheTafelequation: ofPt Mo Pd Rh Ni (111)isconsistentwiththeexperiment,
+30 5 25 25 15
+Z=b(cid:3)logj+a.TheTafelslopesoftheVolmer,Heyrovsky,and anditscorrespondingvalueisapproximately2.16Å.Thecalculated
+4014 | Energy Environ. Sci., 2023, 16, 4009–4019 This journal is © The Royal Society of Chemistry 2023
+
+Energy&EnvironmentalScience Paper
+Fig.4 ElectrocatalyticperformanceofPtMoPdRhNiNCs,PtMoPdRhNiNPs,andcommercialPt/CforHERin1.0MKOHsolution:(a)HERpolarization
+curves,(b)overpotentialatcurrentdensitiesof(cid:2)10and(cid:2)100mAcm(cid:2)2,(c)Tafelslopecurves,and(d)EIScurvesmeasuredoverafrequencyrangeof
+100kHz–10mHz.(e)PolarizationcurvesofPt Mo Pd Rh Ni NCsforADTswererecordedbeforeandafter5000cycles.(f)Chronopotentiometry
+28 6 28 27 15
+curveofPt
+28
+Mo
+6
+Pd
+28
+Rh
+27
+Ni
+15
+NCsatacurrentdensityof(cid:2)10mAcm(cid:2)2for30h.
+totaldensitiesofstates(TDOS)ofPt Mo Pd Rh Ni exceed (PDOS) was calculated to evaluate the electronic structure of
+30 5 25 25 15
+the Fermi level (E), as shown in Fig. 5a, demonstrating the individualmetals,asshowninFig.5b.Pt-5d,Pd-3d,andRh-3d
+f
+metallicnatureoftheHEA.46Moreover,inHEAs,theindividual occupiedthedeeperpositionfarawayfromtheE,actingasthe
+f
+constituentmetalsactdifferentlyandthusregulatetheelectro- electronreservoirforthereductionprocess,suchasHER.The
+nicstructure.ItcanbeobservedthatthecontributiontoTDOS Ni-3dorbitaldominatesthebandnearE,locatedatEv-0.83eV,
+f
+ismainlyderivedfromthedelectronorbitalsoftheconstituent in favor of the electron depletion center for HER. The board
+elements (Pt, Mo, Pd, Rh, and Ni), further demonstrating the Mo-4d orbitals exhibit E –t splitting with a small barrier,
+g 2g
+delectroninteractioninHEAs.Theprojecteddensityofstates contributingtofastelectrontransfer.47,48
+This journal is © The Royal Society of Chemistry 2023 Energy Environ. Sci., 2023, 16, 4009–4019 | 4015
+
+Paper Energy&EnvironmentalScience
+Fig.5 (a)TDOSofandPDOSspectra,(b)PDOSfordorbitalsinconstituentelements,reactionenergyprofileforwaterdissociationatconstitutemetals
+with(c)maximumdbandcenterand(d)minimumdbandcenter,(e)reactionenergyprofileforH*adsorptionand(f)thecontributionofconstitutemetals
+toH*adsorption/desorptionactivityofPt Mo Pd Rh Ni (111).(g)InsituSERSwithdifferentappliedpotentialsofPt Mo Pd Rh Ni NCs.
+30 5 25 25 15 28 6 28 27 15
+Itisacknowledgedthatthemostimportantstepinalkaline Herein, according to the d band center of surface metals, the
+HER is water dissociation from the absorbed water (*H O). free energy of H O absorbed, the breaking of the OH–H bond
+2 2
+4016 | Energy Environ. Sci., 2023, 16, 4009–4019 This journal is © The Royal Society of Chemistry 2023
+
+Energy&EnvironmentalScience Paper
+andthecoadsorptionofH*andOH*intermediatesonconsti- ofPtsitesislargestat83.4%comparedtoRhsites(13.0%),Pd
+tuent metals were calculated to describe the process of the sites (1.9%), Mo sites (1.1%), and Ni sites (0.6%) (Fig. 5f),
+Volmerstep.Thearrangementwithlabelsonthesurfaceofthe suggesting that the H* absorption/desorption is preferentially
+modelisshowninFig.S14a(ESI†),andthelabelssuchasPt46 atthePtandRhsitesinPtMoPdRhNialloy.
+correspond to the arrangement position of Pt in the model at In situ SERS with different potentials was conducted to
+No. 46. Tofurther determine the roleof constituent metals in further investigate the role of constituent metals in Pt Mo -
+28 6
+theVolmerstep,thewaterdissociationenergiesofconstituent Pd Rh Ni NCs toward alkaline HER. As shown in Fig. 5g,
+28 27 15
+metalswiththemaximumandminimumdbandcenterswere therearenocharacteristicpeakswithoutappliedvoltage.After
+calculated(Fig.S14b–f,ESI†).Forthefreeenergyofconstituent theappliedpotentialvariedfrom(cid:2)0.1to(cid:2)0.3V,characteristic
+metalswithminimumdbandcenter,asshowninFig.5c,the peaks appeared at 465 cm(cid:2)1 and 550 cm(cid:2)1, corresponding to
+energybarrier forbreakingOH–HonthePtsiteofHEAisthe Ni–O and Pt–O, respectively.51,52 This result indicates that
+lowest at 0.61 eV compared with the Ni site (0.91 eV), Rh site Pt and Ni are directly involved in the Volmer step and are
+(0.97 eV), Pd site (1.99 eV), and Mo site (1.68 eV). For the free direct active sites for water dissociation.53 For H* adsorption/
+energy of constituent metals with maximum d band center desorption, the characteristic peaks at B1912 cm(cid:2)1 and
+(Fig.5d),theenergybarrierforbreakingOH–HonthePtsiteof 2048cm(cid:2)1areoriginatedfromtheRh–HandPt–Hrespectively,
+HEAisthelowestat0.47eVcomparedwiththeNisite(0.59eV), demonstrating that Pt and Rh are the direct active sites to H*
+Rh site (0.67 eV), Pd site (1.54 eV), and Mo site (1.90 eV). adsorption/desorption.54
+The corresponding binding configurations are shown in
+Fig.S15–S19(ESI†).TheseresultsindicatethattheH Oadsorp-
+2
+tionanddissociationaremoreinfavorofPtandNiactivesites, Conclusions
+whichisbeneficialinacceleratingthewaterdissociationinthe
+Volmerstep. In summary, PtMoPdNiRh NCs with different atomic ratio
+Furthermore,forHER,thehydrogenadsorptionfreeenergy encapsulated with radial ultra-nanosheets were successfully
+(DG )reflectstheelectrocatalyticactivityandkinetics.Accord- synthesized by applying a one-step wet chemistry strategy.
+H*
+ing to the Sabatier principle, if DG 4 0, the H-binding Comparative experiments and DFT calculations reveal that
+H*
+strengthisweakandtheactivationofintermediates/absorbate the multi-active sites and strong d–d electron interaction con-
+onthe catalystsurfaceisdifficult. IfDG o0, theH-binding tribute to efficient alkaline HER activity. Moreover, the XAFS
+H*
+strengthisstrongenoughforintermediate/absorbateoccupied resultsindicatethatthedecreaseinHEAbondlengthiscaused
+on the active sites, thus resulting in the poisoning effect. The by ligand effects and the strongest d–d interaction exhibits
+maximum HER activity in H* adsorption/desorption corre- optimal HER performance in Pt Mo Pd Rh Ni NCs. The
+28 6 28 27 15
+spondstoDG =0.49Inthisregard,basedonthedisorderin Pt Mo Pd Rh Ni NCs exhibit an extremely low overpoten-
+H* 28 6 28 27 15
+theHEA,thesynergizedeffectofmulti-activesitesofdifferent tial (9.7 mV) and enhanced stability. Furthermore, a combi-
+sites on the surface was explored by the hydrogen absorption nationofinsituSERSandtheoreticalcalculationsidentifythat
+energy at on-top sites of Pt Mo Pd Rh Ni (111). Impress- thePtandNisitesfacilitatedH Odissociation,whilethePtand
+30 5 25 25 15 2
+ively, as illustrated in Table S7 (ESI†), the results show that Rh sites simultaneously accelerated the combination of H* to
+DG for more than 2/3 of the active sites was greater than H in PtMoPdRhNi NCs toward alkaline HER. This study
+H* 2
+(cid:2)0.25 eV at the on-top active sites, with several DG values providesastraightforwardsynthesismethodforPt-basedHEA
+H*
+close to (cid:2)0.1 eV, suggesting that the overall H* adsorption of nanomaterialsandprovidesafundamentaltheoreticalstudyof
+the Pt Mo Pd Rh Ni requires a lower energy barrier than HEA, such as synergistic interaction and the local chemical
+30 5 25 25 15
+that of Pt(111). To further investigate the synergistic effect of environment.
+multiple active sites in HEA, as listed in Table S7 (ESI†) and
+Fig. 5e, the representative Pt on-top, Rh on-top, Pd–Rh–Rh,
+Pt–Ni–Rh sites, etc., act as active centers for H* adsorption/ Author contributions
+desorption in HER. The different active sites have different
+H*adsorptionfreeenergies,correspondingtothefactthatthe M.W.performedthesamplesynthesis,carriedouttheelectro-
+local coordination environment also significantly affects per- chemical measurements, analysed the experimental data and
+formance under the strong interaction of HEAs. Moreover, writing.Y.S.,J.Z.andF.A.conductedtheDFTsimulationand
+under electronic modulation and structure optimization in theoretical analyses. S. X. conducted the XAFS measurements
+Pt Mo Pd Rh Ni (111), H* is adsorbed on Pt and Rh top andanalysedthedata.J.W.conceivedthesoftware,supervision
+30 5 25 25 15
+sitesandthecorrespondingDG ishigherthanPt(111),while and funding acquisition. All the authors were involved in the
+H*
+H* is adsorbed on Pd, Mo, and Ni mainly at the hexagonal discussionandanalysisofthemanuscript.
+close-packed(hcp)site.
+Tofurtherevaluatethecontributionofconstituentmetalsto
+H*adsorption/desorption,theactivity(A)basedontheSabatier Conflicts of interest
+volcano with 40 different atomic configurations isapproximately
+calculated.50Amongtheseconstituentmetals,thecontribution Therearenoconflictstodeclare.
+This journal is © The Royal Society of Chemistry 2023 Energy Environ. Sci., 2023, 16, 4009–4019 | 4017
+
+Paper Energy&EnvironmentalScience
+Acknowledgements
+22 L.Han,P.Wang,H.Liu,Q.TanandJ.Yang,J.Mater.Chem.
+A,2016,4,18354–18365.
+Thenumericalcalculationsinthispaperhavebeendoneonthe
+23 L.Jiang,JOM,2020,72,2949–2956.
+supercomputing system in the Supercomputing Center of
+24 M. Wei, L. Huang, S. Huang, Z. Chen, D. Lyu, X. Zhang,
+WuhanUniversity.
+S. Wang, Z. Q. Tian and P. K. Shen, J. Catal., 2020, 381,
+385–394.
+Notes and references 25 M.Wei,L.Huang,L.Li,F.Ai,J.SuandJ.Wang,ACSCatal.,
+2022,12,6478–6485.
+1 P. J. McHugh, A. D. Stergiou and M. D. Symes, Adv. Energy 26 Z. Liu, J. Qi, M. Liu, S. Zhang, Q. Fan, H. Liu, K. Liu,
+Mater.,2020,10,2002453. H. Zheng, Y. Yin and C. Gao, Angew. Chem., Int. Ed., 2018,
+2 Y.Zheng,Y.Jiao,M.JaroniecandS.Z.Qiao,Angew.Chem., 57,11678–11682.
+Int.Ed.,2015,54,52–65. 27 K.-W.Park,J.-H.Choi,B.-K.Kwon,S.-A.LeeandY.-E.Sung,
+3 Z.Y.Yu,Y.Duan,X.Y.Feng,X.Yu,M.R.GaoandS.H.Yu, J.Phys.Chem.B,2002,106,1869–1877.
+Adv.Mater.,2021,33,e2007100. 28 Y. Zhu, L. Bu, Q. Shao and X. Huang, ACS Catal., 2019, 9,
+4 N. Mahmood, Y. Yao, J. W. Zhang, L. Pan, X. Zhang and 6607–6612.
+J.J.Zou,Adv.Sci.,2018,5,1700464. 29 Y.Jin,F.Chen,J.Wang,L.Guo,T.JinandH.Liu,J.Power
+5 Y.Xie,J.Cai,Y.Wu,Y.Zang,X.Zheng,J.Ye,P.Cui,S.Niu, Sources,2019,435,226798.
+Y. Liu, J. Zhu, X. Liu, G. Wang and Y. Qian, Adv. Mater., 30 P. Wang, H. Cui and C. Wang, Chem. Eng. J., 2022, 429,
+2019,31,e1807780. 132435.
+6 P. Wang, X. Zhang, J. Zhang, S. Wan, S. Guo, G. Lu, J. Yao 31 X. Fu, J. Zhang, S. Zhan, F. Xia, C. Wang, D. Ma, Q. Yue,
+andX.Huang,Nat.Commun.,2017,8,14580. J.WuandY.Kang,ACSCatal.,2022,12,11955–11959.
+7 Y.Jiao,Y.Zheng,M.JaroniecandS.Z.Qiao,Chem.Soc.Rev., 32 I. Ledezma-Yanez, W. D. Z. Wallace, P. Sebasti´an-Pascual,
+2015,44,2060–2086. V. Climent, J. M. Feliu and M. T. M. Koper, Nat. Energy,
+8 J.Greeley,T.F. Jaramillo,J. Bonde,I.B.Chorkendorffand 2017,2,1–7.
+J.K.Norskov,Nat.Mater.,2006,5,909–913. 33 S. Fang, X. Zhu, X. Liu, J. Gu, W. Liu, D. Wang, W. Zhang,
+9 C. Tsounis, B. Subhash, P. V. Kumar, N. M. Bedford, Y.Lin,J.Lu,S.Wei,Y.LiandT.Yao,Nat.Commun.,2020,
+Y. Zhao, J. Shenoy, Z. Ma, D. Zhang, C. Y. Toe, S. Cheong, 11,1029.
+R. D. Tilley, X. Lu, L. Dai, Z. Han and R. Amal, Adv. Funct. 34 N. Cheng, S. Stambula, D. Wang, M. N. Banis, J. Liu,
+Mater.,2022,32,2203067. A.Riese,B.Xiao,R.Li,T.K.Sham,L.M.Liu,G.A.Botton
+10 Z. Wang,B. Xiao,Z. Lin, Y. Xu, Y. Lin, F. Meng, Q.Zhang, andX.Sun,Nat.Commun.,2016,7,13638.
+L.Gu,B.Fang,S.GuoandW.Zhong,Angew.Chem.,Int.Ed., 35 S.Dai,J.P.Chou,K.W.Wang,Y.Y.Hsu,A.Hu,X.Panand
+2021,60,23388–23393. T.Y.Chen,Nat.Commun.,2019,10,440.
+11 Z.Zhao,H.Liu,W.Gao,W.Xue,Z.Liu,J.Huang,X.Panand 36 Q. Jia, Z. Zhao, L. Cao, J. Li, S. Ghoshal, V. Davies,
+Y.Huang,J.Am.Chem.Soc.,2018,140,9046–9050. E. Stavitski, K. Attenkofer, Z. Liu, M. Li, X. Duan,
+12 Y.Yan,R.Zhang,Y.Yu,Z.Sun,R.Che,B.Wei,A.P.LaGrow, S. Mukerjee, T. Mueller and Y. Huang, Nano Lett., 2018,
+Z.WangandW.Zhou,Appl.Catal.,B,2021,291,120100. 18,798–804.
+13 S. Bai, C. Wang, M. Deng, M. Gong, Y. Bai, J. Jiang and 37 J.Guan,S.Yang,T.Liu,Y.Yu,J.Niu,Z.ZhangandF.Wang,
+Y.Xiong,Angew.Chem.,Int.Ed.,2014,53,12120–12124. Angew.Chem.,Int.Ed.,2021,60,21899–21904.
+14 K.LiandW.Chen,Mater.TodayEnergy,2021,20,100638. 38 L.Li,P.Wang,Q.ShaoandX.Huang,Chem.Soc.Rev.,2020,
+15 Z.Jin,J.Lyu,Y.-L.Zhao,H.Li,Z.Chen,X.Lin,G.Xie,X.Liu, 49,3072–3106.
+J.-J.KaiandH.-J.Qiu,Chem.Mater.,2021,33,1771–1780. 39 C. C. McCrory, S. Jung, I. M. Ferrer, S. M. Chatman,
+16 C. Zhang, X. Liang, R. Xu, C. Dai, B. Wu, G. Yu, B. Chen, J. C. Peters and T. F. Jaramillo, J. Am. Chem. Soc., 2015,
+X.WangandN.Liu,Adv.Funct.Mater.,2021,31,2008298. 137,4347–4357.
+17 L. Tao, M. Sun, Y. Zhou, M. Luo, F. Lv, M. Li, Q. Zhang, 40 S.Jing,J.Lu,G.Yu,S.Yin,L.Luo,Z.Zhang,Y.Ma,W.Chen
+L. Gu, B. Huang and S. Guo, J. Am. Chem. Soc., 2022, 144, andP.K.Shen,Adv.Mater.,2018,30,e1705979.
+10582–10590. 41 G. Chen, T. Wang, J. Zhang, P. Liu, H. Sun, X. Zhuang,
+18 G. Feng, F. Ning, J. Song, H. Shang, K. Zhang, Z. Ding, M.ChenandX.Feng,Adv.Mater.,2018,30,1706279.
+P. Gao, W. Chu and D. Xia, J. Am. Chem. Soc., 2021, 143, 42 B. Geng, F. Yan, X. Zhang, Y. He, C. Zhu, S. L. Chou,
+17117–17127. X.ZhangandY.Chen,Adv.Mater.,2021,33,e2106781.
+19 Q. Chen, B. Wei, Y. Wei, P. Zhai, W. Liu, X. Gu, Z. Yang, 43 E. Lo´pez-Fern´andez, J. Gil-Rostra, J. P. Espino´s, A. R.
+J. Zuo, R. Zhang and Y. Gong, Appl. Catal., B, 2022, Gonz´alez-Elipe, A.de LucasConsuegra andF. Yubero,ACS
+301,120754. Catal.,2020,10,6159–6170.
+20 N.Du,C.Wang,X.Wang,Y.Lin,J.JiangandY.Xiong,Adv. 44 H. Duan, C. Wang, G. Li, H. Tan, W. Hu, L. Cai, W. Liu,
+Mater.,2016,28,2077–2084. N.Li,Q.Ji,Y.Wang,Y.Lu,W.Yan,F.Hu,W.Zhang,Z.Sun,
+21 Z. Cao, Q. Chen, J. Zhang, H. Li, Y. Jiang, S. Shen, G. Fu, Z. Qi, L. Songand S. Wei,Angew. Chem., Int. Ed., 2021, 60,
+B.A.Lu,Z.XieandL.Zheng,Nat.Commun.,2017,8,15131. 7251–7258.
+4018 | Energy Environ. Sci., 2023, 16, 4009–4019 This journal is © The Royal Society of Chemistry 2023
+
+Energy&EnvironmentalScience Paper
+45 Q. Dai, L. Wang, K. Wang, X. Sang, Z. Li, B. Yang, J. Chen, 50 T. A. A. Batchelor, J. K. Pedersen, S. H. Winther, I. E.
+L.Lei,L.DaiandY.Hou,Adv.Funct.Mater.,2021,32,2109556. Castelli, K. W. Jacobsen and J. Rossmeisl, Joule, 2019, 3,
+46 S.Wang,B.Xu,W.Huo,H.Feng,X.Zhou,F.Fang,Z.Xie, 834–845.
+J.K.ShangandJ.Jiang,Appl.Catal.,B,2022,313,121472. 51 W.Du,Y.Shi,W.Zhou,Y.YuandB.Zhang,Angew.Chem.,
+47 H.Li,Y.Han,H.Zhao,W.Qi,D.Zhang,Y.Yu,W.Cai,S.Li, Int.Ed.,2021,60,7051–7055.
+J.Lai,B.HuangandL.Wang,Nat.Commun.,2020,11,5437. 52 S. Lin, H. Ze, X. G. Zhang, Y. J. Zhang, J. Song, H. Zhang,
+48 C. Zhan, Y. Xu, L. Bu, H. Zhu, Y. Feng, T. Yang, Y. Zhang, H.L.Zhong,Z.L.Yang,C.Yang,J.F.LiandZ.Zhu,Angew.
+Z. Yang, B. Huang, Q. Shao and X. Huang, Nat. Commun., Chem.,Int.Ed.,2022,61,e202203511.
+2021,12,6261. 53 J. Hao, Z. Zhuang, K. Cao, G. Gao, C. Wang, F. Lai, S. Lu,
+49 B. Hinnemann, P. G. Moses, J. Bonde, K. P. Jørgensen, P.Ma,W.Dong,T.Liu,M.DuandH.Zhu,Nat.Commun.,
+J. H. Nielsen, S. Horch, I. Chorkendorff and J. K. Nørskov, 2022,13,2662.
+J.Am.Chem.Soc.,2005,127,5308–5309. 54 S.ZhuandM.Shao,Catal.Sci.Technol.,2022,12,3228–3233.
+This journal is © The Royal Society of Chemistry 2023 Energy Environ. Sci., 2023, 16, 4009–4019 | 4019
+

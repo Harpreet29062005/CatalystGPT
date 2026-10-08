@@ -1,0 +1,885 @@
+Article https://doi.org/10.1038/s41467-023-44261-4
+Unusual Sabatier principle on high entropy
+alloy catalysts for hydrogen evolution
+reactions
+Received:30March2023 ZhiWenChen 1,2,6,JianLi1,6,PengfeiOu 3,JiananErickHuang3,ZiWen 1,
+LiXinChen2,XueYao 2,GuangMingCai4,ChunChengYang 1,7 ,
+Accepted:6December2023
+ChandraVeerSingh 2,5,7 &QingJiang 1,7
+Checkforupdates TheSabatierprincipleiswidelyexploredinheterogeneouscatalysis,graphi-
+callydepictedinvolcanoplots.Themostdesirableactivityislocatedatthe
+peakofthevolcano,andfurtheradvancesinactivitypastthisoptimumare
+possiblebydesigningacatalystthatcircumventsthelimitationentailedbythe
+Sabatierprinciple.Herein,bydensityfunctionaltheorycalculations,wedis-
+coveredanunusualSabatierprincipleonhighentropyalloy(HEA)surface,
+distinguishingthe“justright”(ΔG =0eV)intheSabatierprincipleof
+H*
+hydrogenevolutionreaction(HER).Anewdescriptorwasproposedtodesign
+HEAcatalystsforHER.Asaproof-of-concept,thesynthesizedPtFeCoNiCuHEA
+catalystendowsahighcatalyticperformanceforHERwithanoverpotentialof
+10.8mVat−10mAcm−2and4.6timeshigherintrinsicactivityoverthestate-of-
+the-artPt/C.Moreover,theunusualSabatierprincipleonHEAcatalystscanbe
+extendedtoothercatalyticreactions.
+IntheSabatierprinciple,theadsorbateshouldbindneithertooweakly systems. This alloy was synthesized and tested experimentally and
+(lestreactantsfailtoactivate)nortoostrongly(lestproductsfailto showedimprovedHERperformancecomparedwithPt,however,still
+dissociate)1,2. It provides useful guidance in heterogeneous catalysis belowthevolcanopeak14.
+andisalsoheldupasaruleorlimittobecircumventedwhenoneseeks Circumventingthevolcanorelationshipisplausibletoachievea
+further to advance catalytic performance3–8. The resultant volcano breakthroughoroverthevolcanoincatalyticactivity15,andnumerous
+plotshavebeenusedtoguidecatalystdesignfortheCO reduction effortshavebeenfocusedonthisissue8,16,17.Forexample,Chenetal.
+2
+reaction (CO RR)9, nitrogen reduction reaction (NRR)10, hydrogen demonstratedthatthevolcanorelationshipcanbebrokenbybuilding
+2
+evolutionreaction(HER)11,andoxygenreduction/evolutionreaction an interfacebetween transition metalsand LiH18.Unfortunately,the
+(ORR/OER)12,13.“Justright”adsorptionenergyisthepursuitofallche- relativelyfewactivesiteshaveimpededthewideapplicationofinter-
+mical reactions. However, although we achieve the “just right” face catalysis19. Another strategy of strain effect was proposed by
+adsorptionenergy,thecatalyticactivityisjustinfinitelyclosetothe Khorshidi et al., the surface strain has to occur either externally by
+peak.Furtherbreakthroughsoroverthevolcanoincatalyticactivity applyingmechanicalloadingorinternallybycreatingcomplexcore-
+are almost impossible. For instance, Nørskov et al. applied high- shell structures or interfaces8. Another potential phenomenon that
+throughputdensityfunctionaltheory(DFT)calculationstoscreenout couldcircumventthevolcanorelationshipisH*spillover,inwhichH*
+BiPt with the optimal adsorption energy of H* among 736 alloy exhibits the ability to diffuse between different active sites20–22. Dai
+1KeyLaboratoryofAutomobileMaterials(JilinUniversity),MinistryofEducation,andSchoolofMaterialsScienceandEngineering,JilinUniversity,Changchun
+130022,China.2DepartmentofMaterialsScienceandEngineering,UniversityofToronto;184CollegeStreet,Suite140,Toronto,ONM5S3E4,Canada.
+3DepartmentofElectricalandComputerEngineering,UniversityofToronto,Toronto,ONM5S1A4,Canada.4DepartmentofChemicalEngineeringand
+AppliedChemistry,UniversityofToronto;200CollegeStreet,Toronto,ONM5S3E5,Canada.5DepartmentofMechanicalandIndustrialEngineering,
+UniversityofToronto;5King’sCollegeRoad,Toronto,ONM5S3G8,Canada.6Theseauthorscontributedequally:ZhiWenChen,JianLi.7Theseauthorsjointly
+supervisedthiswork:ChunChengYang,ChandraVeerSingh,QingJiang. e-mail:ccyang@jlu.edu.cn;chandraveer.singh@utoronto.ca;jiangq@jlu.edu.cn
+NatureCommunications|( 2024)1 5:359 1
+;,:)(0987654321 ;,:)(0987654321
+
+Article https://doi.org/10.1038/s41467-023-44261-4
+etal. reported a single-phase complex oxide La 2 Sr 2 PtO 7+δ as a high −1.75,−1.89, and −2.03eV for 1.4%-HEA (HEA with 1.4%compressive
+performanceHERelectrocatalystutilizinganatomic-scaleH*spillover strain),3.2%-HEA,5.0%-HEA,and6.8%-HEA,respectively.Thecompo-
+effect between multifunctional catalytic sites23. High entropy alloys sition-strain-ε -activityrelationallowsfordesigningHEAcatalystswith
+d
+(HEAs)withhugecompositionspacehavecomplexsurfaceactivesites, optimaladsorptionenergyviacompositionregulation25.
+resulting in spatially varying adsorption of intermediates24. Some
+activesiteswithstrongadsorptioncanbeusedtoactivatereactants, GaussiandistributionofΔG onPtFeCoNiCuHEA
+H*
+while some active sites with weak adsorption are favorable for the ΔG wascalculatedonthedesignedHEA(111)withdifferentstrains
+H*
+formationofproducts,whichcircumventstheSabatierprincipleifthe (see Fig. 1d and Supplementary Fig. 2), including more than 400
+intermediatescaneasilydiffuseontheHEAsurface.ItmeanstheHEA datapoints.TheΔG distributionroughlyconformstotheGaussian
+H*
+catalystsprovidenewopportunitiestoachieveabreakthroughover distribution[X~N(μ,σ2)].Herein,μandσ2determinethelocationand
+thevolcanoincatalyticactivity. the variance of ΔG , respectively. As shown in Fig. 1d, the μ value
+H*
+Inthisarticle,wefoundthatHEAsurfacewithspatiallyvarying increaseswithincreasingcompressivestrain.Thisisconsistentwith
+adsorptionfreeenergyofH*(ΔG )circumventstheSabatierprinciple the d-band center theory, where a larger compressive strain brings
+H*
+ofHER.DFTcalculationsindicatethattheΔG onHEAcatalystsfol- more negative ε , resulting in weaker adsorption28,29. The corre-
+H* d
+lowsaGaussiandistribution[X~N(μ,σ2),μ:expectation;σ:standard spondingstructure(strain)-property(ε )-performance(μ)relation is
+d
+deviation]duetothegradientelectrondistributionandthediffusion showninSupplementaryFig.3.Notethatthecompressivestrainshows
+ofH*onHEAsurfaceisfairlyeasywiththesmallbarrierof0.232eV. little influence on the σ value. A larger σ value indicates that some
+Some sites with strong adsorption (ΔG <μ−σ) are used for H* adsorption sites have stronger adsorptions while other adsorption
+H*
+adsorption,whilesomesiteswithweakadsorption(ΔG >μ+σ)are siteshaveweakeradsorptions,whichrequiresalargerelectronicgra-
+H*
+usedforH formation.ItmeansthatthecatalyticactivityforHERwill dientonthesurface.Aboveall,thetwoparameters(μandσ)inthe
+2
+bebetteriftheμiscloserto0eVandtheσislarger,whichisdefinedas Gaussian distribution of ΔG could be regulated by the type and
+H*
+anunusualSabatierprinciple.Theμandσvaluescouldberegulatedby numberofalloyingelementsinHEA,whichbringvariousstrainsand
+thecomposition,straineffects,andsynthesisconditionsofHEAcata- surfaceelectronicgradients.
+lysts.Guidedbythesetheoreticalfindings,aPtFeCoNiCucatalystwith Asiswellknown,ΔG =0eVdenotestheoptimalcatalyticper-
+H*
+electron and composition gradients has been precisely fabricated, formanceofcatalystsforHERbasedontheSabatierprinciple11.Dif-
+exhibiting excellent catalytic performance with an overpotential of ferent from the traditional bimetallic and ternary metallic
+10.8mV at −10mA cm−2 and more than four times higher intrinsic catalysts14,26,30,theactivesitesofHEAaremorediverseandtheirΔG
+H*
+activityoverthestate-of-the-artPt/C.Wealsoshowthatthisunusual values follow a Gaussian distribution, rather than a definite value.
+Sabatierprinciplecanbeextendedtootheradsorbents(C*,O*,andN*) Hence,theSabatierprincipleandthecriterionofΔG =0eVareno
+H*
+onHEAsurfaces,indicatingpotentialapplicationsforvarietyofcata- longerefficientforHEAcatalysts.Inthiswork,weproposedanunusual
+lyticreactions. Sabatierprinciple,wheretheGaussiandistributionofΔG withaμ
+H*
+valuecloserto0eVandalargerσvalueonHEAcatalystscouldbeused
+Results asthedescriptorofthehighercatalyticactivityforHER.Theoretically,
+DualgradientPtFeCoNiCuHEAmodel thesiteswithΔG <μ−σandΔG >μ+σserveastheactivecenters
+H* H*
+APtFeCoNiCuHEAcatalystwasoriginallydesignedbasedonthefol- for Volmer and Tafel (or Heyrovsky) reactions (see Supplementary
+lowingthreeaspects:(1)PtcatalyzesHERandisagoodchoiceofthe Fig.4),respectively.Thelargerσvalueindicatesthattheactivecenter
+active site for HER14; (2) the smaller atomic radii of Fe (1.56Å), Co fortheVolmerreactionhasastrongerH*adsorptionwhiletheactive
+(1.52Å),Ni(1.49Å),andCu(1.45Å)thanthatofPt(1.77Å)wouldpro- centerforTafel(orHeyrovsky)reactionhasaweakerH*adsorption
+ducecompressivestrainontheHEAsurface,resultinginaweakerH* (seeSupplementaryFig.5).Thismeansthatalargerσvalueresultsin
+adsorptiononsurfacePtsites,whichpromotesthecatalyticperfor- fasterVolmerandTafel(orHeyrovsky)reactions,indicatingahigher
+mance for HER25,26; and (3) the cost of catalysts could be greatly catalytic activity for HER. Moreover, the symmetry of the Gaussian
+reducedbyusingnon-noblemetals27. distributiondictatesthatthesetwoactivecentersareguaranteedtobe
+Takingintoconsiderationthat(i)somemetals(Fe,Co,Ni,Cu)will thestrongestandtheweakest,respectively,onlyifμ=0eV(seeSup-
+becorrodedawayinanacidicelectrolyteduringtheHERprocess,and plementary Fig. 6). Meanwhile, other sites with moderate ΔG (μ -
+H*
+(ii)theouteratomiclayerswillbeetchedmoreseriouslythantheinner σ<ΔG <μ+σ)arethediffusionregion(DR).ThediffusionofH*on
+H*
+layers,aPtFeCoNiCuHEAmodelwithaPtconcentrationgradientof theHEAsurfacesisknownasH*spillover,whichwillbediscussedin
+100.0%,50.0%,25.0%,12.5%,and12.5%forthefivelayershasbeen detailbelow.
+designed,asshowninFig.1a.ThecoordinationatomstosurfacePt
+active sites are diverse due to the nature of HEA, which results in ReactionmechanismofHERonPtFeCoNiCuHEA
+various electron redistributions (electronic gradient), as shown in The 5.9%-HEA system was used as an example for studying the H*
+Fig.1b.ThecorrespondingBaderchargedistributionisdescribedin spilloverbasedonthenewdescriptorofGaussiandistributionofΔG
+H*
+Supplementary Fig. 1. Such an electronic gradient causes different withthepreferableμ=−0.034eVandσ=0.041eV(seeSupplementary
+adsorption abilities for H*, where surface Pt sites with strong H* Fig.7).TheΔG valuesonsomeadsorptionsites(48sites,including
+H*
+adsorptionareactivecentersfortheVolmerreaction(*+H++e−→H*) threetypesofadsorptionsites,asshowninSupplementaryFig.8)of
+whiletheoneswithweakH*adsorptionareactivecentersfortheTafel 5.9%-HEAareshowninFig.2a,wherethegreenareadenotestheDR.
+(H*+H*→H )orHeyrovskyreaction(H*+H++e−→H ). The active center for the Volmer reaction has the smallest ΔG of
+2 2 H*
+Fe,Co,Ni,andCuwithsmalleratomicradiithanthatofPtwill −0.099eVandtheactivecenterfortheTafelorHeyrovskyreactionhas
+inducea compressive strain on the surfacePtatoms,whichfurther thelargestΔG of0.075eV.
+H*
+regulatestheelectronstructuresofactivesites25.Figure1cshowsthat Both Volmer–Heyrovsky (V-H) and Volmer–Tafel (V-T) mechan-
+theenergylevelofdorbitalsinsurfacePtatomsisgraduallyawayfrom ismsinHERareconsideredonPt(111)and5.9%-HEA(111),asdepicted
+the Fermi level with increasing compressive strain, indicating the inFig.2b,c.FortheV-HmechanismonPt(111),thepotentiallimiting
+diminished activity. This phenomenon can be further quantified by step(PLS)istheHeyrovskystepwithΔG =0.375eV,anendothermic
+Hey
+theird-bandcenter(ε )values,whereamorenegativeε valueindi- reactionwiththeoverpotentialof0.375V.However,noPLSexistsin
+d d
+catesaweakeradsorptionability28.Withtheincreaseofcompressive theV-Hmechanismon5.9%-HEA(111)whenconsideringtheH*spil-
+strain,theε valueschangefrom−1.66eV(HEAwithoutstrain)to−1.72, lover.BoththeVolmerandHeyrovskystepsareexothermicreactions
+d
+NatureCommunications|( 2024)1 5:359 2
+
+60
+HEA
+40
+20
+60
+1.4%-HEA
+40
+20
+60
+40
+20
+60
+40
+20
+60
+40
+20
+0
+-6 -4 -2 0 2
+with ΔG =−0.099eV and ΔG =−0.075eV, respectively. The HEA(111).Aboveall,theH*spilloverprocessesonbothDRswouldn’t
+Vol-1 Hey
+adsorbedH*diffusesfromSiteAtoSiteBthroughtheDR1(seeFig.2d) be the PLS or RDS during HER on 5.9%-HEA (111). To eliminate any
+withthemaximumenergybarrierof0.124eV,whichismuchsmaller potentialinfluencearisingfromspecificactivecenters,werandomly
+thantheenergybarrierleadingtoareactionrateofabout1site−1s−1at selectedanadditionalactivecenteronthe5.9%-HEA(111)andcalcu-
+roomtemperature31,indicatingtheexceedinglyfastdiffusionofH*. latedthecatalyticperformanceforHER,asshowninSupplementary
+FortheV-Tmechanism,thefirsttwoVolmerstepsareexothermic Fig.10andSupplementaryTable1.Theobservedcongruenceincat-
+reactions(ΔG =−0.375eV,ΔG =−0.201eV)onPt(111).Theyare alyticperformancetrendssuggeststhatthecatalyticperformanceof
+Vol-1 Vol-2
+alsoexothermicreactions(ΔG =−0.099eV,ΔG =−0.091eV)on 5.9%-HEA(111)isnotlimitedtoaparticularactivecenter.
+Vol-1 Vol-2
+5.9%-HEA(111).ThefollowingTafelstephasalargeenergybarrierof Moreover,thereactionprocessesofHERon5.9%-HEA(111)with-
+1.128eVonPt(111).Althoughtheenergybarrierdecreasesto0.466eV outH*spilloverarealsoconsidered,asshowninSupplementaryFig.11.
+withincreasingH*coverage(seeSupplementaryFig.9),itisstillmuch ForV-Hmechanism,thereactionfreeenergyvaluesofPLSare0.075eV
+largerthanthaton5.9%-HEA(111)(0.297eV).FortheV-Tmechanism, and0.099eVontheweakandstrongadsorptionsites,respectively.It
+DR2isinvolvedduringthereactionprocess,asshowninFig.2e.The meansthattheoverpotentialvaluesare0.075/0.099Vonweak/strong
+maximumenergybarrierinDR2is0.232eV,whichissmallerthanthe adsorptionsites,whicharemuchsmallerthanthat(0.375V)ofPt(111).
+ratedeterminingstep(RDS)oftheTafelreaction(0.297eV)on5.9%- WiththeconsiderationofH*spillover,alltheelectrochemicalsteps
+)Ve/nortcele(SODP
+30
+HEA
+20
+10
+30
+1.4%-HEA
+20
+10
+30
+3.2%-HEA 20
+10
+5.0%-HEA
+6.8%-HEA
+Energy (eV)
+tnuoC
+Article https://doi.org/10.1038/s41467-023-44261-4
+a b
+100.0% Pt
+50.0% Pt
+25.0% Pt
+12.5% Pt
+12.5% Pt
+Pt Fe Co Ni Cu
+c d
+= -1.66 eV = -0.258 eV
+d = 0.039 eV
+= -0.217eV = -1.72eV
+d = 0.033eV
+d = -1.75eV 3.2%-HEA = -0.149eV = 0.036eV
+30
+d = -1.89eV 5.0%-HEA = -0.074eV
+20 = 0.039 eV
+10
+30
+= -2.03eV 6.8%-HEA = -0.007eV
+d 20 = 0.044eV
+10
+0
+-0.4 -0.2 0.0 0.2
+G (eV)
+H*
+Fig.1|DFTcalculationofPtFeCoNiCuHEAmodel.aTheHEA(111)structurewith Fermilevelissettobe0andtheverticaldashedlineisthed-bandcenter(ε d).
+Ptconcentrationgradient.bTheelectronlocalizationfunction(ELF)contourfor dGaussiandistributionofadsorptionfreeenergyofH*(ΔG )withthecorre-
+H*
+HEA(111)plane.Theredareasrepresentrichelectrondistributions.cPartialdensity spondingμandσonHEAswithdifferentstrains.
+ofstates(PDOS)ofd-bandonsurfacePtatomsinHEAswithdifferentstrains.The
+NatureCommunications|( 2024)1 5:359 3
+
+0.5
+0.4
+0.3
+TS8
+0.2
+0.1
+HB-HC
+0.0 MS6
+HB-HA MS7
+-0.1
+becomespontaneousreactions,andtheRDSmanifestsastheH*spil- proved to occur20,32,33. It means that the H* spillover should further
+loveronthesurfaceof5.9%-HEA(111)withthelargestenergybarrierof improve the catalytic activity of HEA systems. As expected, the
+0.124eV.Similarly,forV-Tmechanism,thereactionfreeenergyvalue designed catalysts should have greatly enhanced catalytic perfor-
+ofthePLSis0.075eVontheweakadsorptionsite,whichwillbecome mancethanPt.NotethattheadsorptionsitesconsideredinDFTcal-
+spontaneouselectrochemicalreactionwithconsideringH*spillover. culations are very limited relative to those on the HEA surface. In
+For the case on the strong adsorption site, the energy barrier is practice, the active centers for the Volmer (Tafel/Heyrovsky) steps
+0.519eVfortheformationofH ,whichislargerthanthat(0.297eV) should have stronger (weaker) H* adsorption, respectively, which
+2
+with H* spillover. Moreover, the H* spillover is much easier on our indicatesbettercatalyticactivitiesofHEAs.
+designedHEAsystemswiththesmallerenergybarrierof~0.23eVthan Undoubtedly, the influence of strain effect holds a pivotal sig-
+those (0.45~1.19eV) on other reported systems where H* spillover nificance in the enhancement of catalytic performance within HEA
+)Ve(ygrenEeerFnoitcaeR
+0.2
+0.1
+0.0
+-0.1
+-0.2
+TS6
+Diffusion Region 2
+)Ve(
+G
+*H
+H-hcp H-B H-fcc
+Adsorption sites
+0.2
+Diffusion Region 1
+HB
+G
+Hey
+0.0
+H+ + e- 1/2 H
+2
+HA
+G G -0.2 Vol-1 Hey
+-0.4 H*
+)Ve(ygrenEeerFnoitcaeR
+0.8
+Diffusion Region 2 TS
+G 0.4 Diffusion Region 1 G Tafel TS
+Vol-1
+G
+Vol-2
+G
+Vol-1
+HB HB-HC
+H 2
+0.0
+H+ + e- HB-HA G
+G
+HA Tafel
+Vol-1
+-0.4 H* G
+Vol-2 Pt(111)
+HEA(111) H*-H*
+-0.8
+Reaction Path
+)Ve(ygrenEeerFnoitcaeR
+Pt(111)
+HEA(111)
+Reaction Path
+0.5
+0.4
+0.3
+TS5
+0.2
+HB
+0.1 TS2 TS3 TS4
+MS4
+MS3
+0.0 MS1 MS2
+HA
+-0.1
+)Ve(ygrenEeerFnoitcaeR
+Article https://doi.org/10.1038/s41467-023-44261-4
+a
+Active center for
+Diffusion Region
+Heyrovsky or Tafel step
+Active center for
+Volmerstep
+b c
+d e
+TS1
+Diffusion Region 1
+Fig.2|ReactionmechanismstudiesbyDFTcalculations.aThedistributionof H*.bVolmer–HeyrovskymechanismofHERon5.9%-HEA(111)andPt(111).
+ΔG H*onHEAwith5.9%compressivestrain(5.9%-HEA),includingdifferent cVolmer-TafelmechanismofHERon5.9%-HEA(111)andPt(111).dTheH*spillover
+adsorptionsites(hcphollowsite,fcchollowsite,andbridgesite).Thereddashed onDR1(diffusionregionforthefirstH*)for5.9%-HEA(111).eTheH*spilloveron
+circlesindicatetheactivecentersforVolmerandHeyrovsky(orTafel)steps, DR2(diffusionregionforthesecondH*)for5.9%-HEA(111).
+respectively.Thegreenarearepresentsthediffusionregion(DR)fortheadsorbed
+NatureCommunications|( 2024)1 5:359 4
+
+Article https://doi.org/10.1038/s41467-023-44261-4
+catalysts.Furthermore,ourinvestigationextendedtoencompassthe distinct,leadingtoagradientinelectrondistributiononsurfacePt,
+catalyticprocessofHERonboththePt(111)andtheunstrainedHEA whichisconsistentwithourproposedDFTmodel.
+(111) (see Supplementary Fig. 12).Notably, our comparative analysis TakingHEA-400asanexample,Pt,Fe,Co,Ni,andCuelements
+revealsthat,withoutanystrains,HEAcatalystexhibitssuperiorcata- follow an atomic ratio of 18.8: 19.9: 22.3: 20.2: 18.8, according to
+lyticperformancewhenjuxtaposedwithPt(111).Thisdiscernibledis- inductivelycoupledplasmaopticalemissionspectroscopy(ICP-OES).
+parity can potentially be attributed to the intricate interplay of Toexcludetheimpactofimpurephaseandtobringcomponentgra-
+adsorption energies of H* stemming from the variegated electronic dientinHEA,CVmeasurementsareconductedforactivationatarange
+gradientspresentacrossthesurfaceofHEAcatalysts.Furthermore,we of 100~530mV (vs. RHE). The contents of Fe, Co, Ni and Cu in the
+constructedanidealized5.9%-PtNistructurecomprisingonetoplayer electrolytearedetectedtoincreasecontinuouslywiththeCVactiva-
+ofPtandfourbottomlayersofNi,resultinginaΔG of0.025eV.This tionprocess(seeSupplementaryTable2).Toinvestigatethesurface
+H*
+valueiscomparabletotheΔG (−0.099~0.075eV)on5.9%-HEA(111). stateofHEA-400afterdifferentcyclesofCVtest,HRTEMcharacter-
+H*
+ThecorrespondingPLSistheVolmerstepwithaΔG of0.025eVand izations are performed and analyzed. 2000 cycles of CV test are
+Vol
+theenergybarrierforH formationis0.612eV,whichisstillhigher insufficienttointroducecomponentgradientinHEA-400,asshownin
+2
+thanthat(0.297eV)on5.9%-HEA(111),asillustratedinSupplementary Supplementary Fig. 23. After 5000 cycles of CV test, a component
+Fig.13.SuchaDFTresultsuggeststhat,inadditiontotheweakened gradient appears in HEA-400-5000 (see Supplementary Fig. 24 and
+adsorptionenergy(duetothecompressivestrainandligandeffects), SupplementaryNote2).After10000cyclesofCVtest,smallPtparti-
+H*spilloverplaysapivotalroleinenhancingthecatalyticactivity.This clesappearinHEA-400-10000(seeSupplementaryFig.25).Thisresult
+hasalsobeendemonstratedinrecentopenliteratures20,22,23,34. indicatesthatextraCVtestswillleadtoexcessiveetchingofnon-noble
+elementsinHEA-surface,whichwillreducethecomponentgradient.
+SynthesisandcharacterizationofPtFeCoNiCuHEA Allthesefindingsconfirmthecorrosionofnon-Ptelementsduringthe
+Asaproof-of-concept,thePtFeCoNiCuHEAcatalystsweresynthesized activation. Correspondingly, the average HEA-400 (111) lattice spa-
+through a solvothermal reaction followed by thermal annealing, as cingsincreasewiththeactivationcycles,whichstatestheincreaseofPt
+illustrated in Supplementary Fig. 14. Based on different annealing componentproportion(seeSupplementaryFig.26).Tofurtherana-
+temperatures(300,400,and500°C),thesynthesizedHEAsamples lyze the phase of HEA-400 after different cycles of CV test, XRD
+arenamedasHEA-300,HEA-400,andHEA-500,respectively.Thesize characterizationsareperformed,asshowninSupplementaryFig.27a.
+of the synthesized HEA nanoparticles increases with the annealing HEA-400-initialpresentssomeimpuritypeakscorrespondingtoCoor
+temperature,asshowninSupplementaryFig.15.Figure3ashowsthe CoFespecies.After100cyclesofCVtest,allthepeaksofCoorCoFe
+XRDpatterns,whereallHEAspresentaface-centeredcubicstructure speciesdisappear,indicatingthatHEA-400-100isawell-definedHEA.
+withthreemaincharacteristicpeakscorrespondingto(111),(200),and TheCoandCoFespeciesthatfailtoformHEAareetchedfirstduring
+(220) planes.Thesharppeaksat15.7° and16.2° in HEA-300can be theCVprocess.InadditiontoHEA-400-100,HEA-400-2000,HEA-400-
+assignedtothetransitionmetalchlorideoftheprecursor,suggesting 5000andHEA-400-10000allpresentwell-definedHEApeaks.
+that300°CisnothighenoughtotransformtheprecursorintoHEA APtconcentrationgradientisgeneratedonthesurfaceoftheHEA
+thoroughly.Comparedwiththe(111)peakpositionofPt/C,theHEA- catalyst,asshowninthehigh-angleannulardark-fieldscanningTEM
+300,HEA-400,andHEA-500samplesshowpositiveshiftsof1.8°,2.3°, (HAADF-STEM)imageofHEA-400-5000(seeFig.3c).The(111)planein
+and2.3°,respectively,implyingtheexistenceofcompressivestrainin HEA-surface has a lattice spacing of 0.226nm (see Supplementary
+theHEAscausedbyalloyingwithFe,Co,Ni,andCu35,36.Largercom- Fig.28),whichisconsistentwiththePt(111)spacing,indicatingthe
+pressivestrainsappearinHEA-400andHEA-500thanthatinHEA-300, predominanceofPtinsurfacelayers.The(111)latticespacinginthe
+demonstratingtheinfluenceofannealingtemperatureonthestrain, coreismeasuredtobe0.210nm,whichisthesameasthatinHEA-400
+whichresultsintheregulationofμvalueintheGaussiandistributionof beforeactivation(seeSupplementaryFig.16b).Namely,theetching
+ΔG .Correspondingly,HEA-300,HEA-400,andHEA-500present(111) effectonlyappearsintheoutermostlayers(15~20layers)ofHEA.A
+H*
+latticespacingsof0.213,0.210,and0.207nm,respectively,asshownin (111)latticespacinginthetransitionlayerismeasuredtobe0.217nm,
+SupplementaryFig.16.ComparedwiththePt(111)plane(0.226nm,see beingbetweenthoseinPt(111)andHEA-400(111),indicatingthepartial
+SupplementaryFig.17),HEA-300,HEA-400andHEA-500showcom- etchingofnon-Ptelements.Thegraduallydiminishedlatticespacings
+pressivestainsof5.8%,7.1%and8.4%,respectively.Itiscausedbythe from the outermost layers to the core indicate a Pt concentration
+alloying ofFe,Co,Ni,and Cu with smallerradii into Pt,which isin gradient(seeFig.3d).TheHAADF-EDSelementalmapsdemonstrate
+accordwiththeDFTmodel.BasedontheDFTresults,thePtFeCoNiCu the homogeneously distributed elements in the nanoparticle (see
+withacompressivestrainof6.8%shouldhaveaμvaluecloserto0eV, Fig.3e).Moreover,thePtconcentrationgradientisfurtherconfirmed
+indicatingahighercatalyticactivity.InagreementwiththeDFTresult, inthenear-surfaceelementalmaps(seeSupplementaryFigs.29–31),
+theexperimentalresultsindicateHEA-400with7.1%strainhasabetter where Fe, Co, and Ni are less detected than Cu and Pt, due to the
+catalyticperformancethanHEA-300(5.8%strain)andHEA-500(8.4% susceptibility to corrosion of Fe, Co, and Ni during the activation
+strain),asshowninSupplementaryFig.18.Therefore,thesystemof process.Furthermore,theHAADFlinescanresults(seeSupplementary
+HEA-400isourmainresearchobjectinthefollowingstudy. Fig. 32 and 33) also display the gradually increased degree of the
+X-ray photoelectron spectroscopy (XPS) analysis (see Supple- etchingofFe,Co,andNifromthecoretotheoutermostlayersinHEA-
+mentary Figs. 19–22) was performed to explore the charge redis- 400-5000.AlltheseresultsindicatethatthesynthesizedHEAcatalysts
+tributioninHEAcatalysts.AsshowninFig.3b,bothPt04f and4f are consistent with the designed dual gradient PtFeCoNiCu
+7/2 5/2
+peaks in HEA-400 shift negatively compared with that of Pt/C, HEAmodel.
+demonstratingtheelectrontransferfromothercomponentstoPtin
+HEA, which agrees well with their electronegativity differences (Fe: CatalyticperformanceofPtFeCoNiCuHEA
+1.83,Co:1.88,Ni:1.91,Cu:1.90,andPt:2.28)30,36,37.After5000cyclesof The HER performance of the HEA catalysts was measured in 0.5M
+cyclicvoltammetry(CV)activating,boththePt04f and4f peaksin H SO usingatypicalthree-electrodeconfiguration.Figure4ashows
+7/2 5/2 2 4
+HEA-400-5000 (HEA-400 after 5000-cycle CV activation) shift posi- polarizationcurvesofHEA-400beforeandafterCVactivationtests.
+tivelycomparedwiththoseofHEA-400.Thisiscausedbythecorro- TheHEA-400showsanoverpotentialof96.8mVat−100mAcm−2in
+sionofFe,Co,Ni,andCu during theactivationprocess.Therefore, theinitialpolarizationcurve.Afterthe100-cycleCVtest,theHEA-400-
+reducedelectronsaretransferredtothePtelement.Thetransferred 100showsagreatlyimprovedHERperformancewithanoverpotential
+electron amounts between Pt atom and its different neighbors are of 37.8mV at −100mA cm−2. The HER performance of HEA-400 is
+NatureCommunications|( 2024)1 5:359 5
+
+10 20 30 40 50 60 70 80
+gradually enhanced with continuous CV tests until the best perfor- attenuationperformancecomparedwiththatofHEA-400-5000(see
+mance(theoverpotentialof30.7mVat−100mAcm−2)isachievedafter Supplementary Fig. 34). Even so, the catalytic activity of HEA-400-
+5000CVcycles.ThisiscausedbytheexposureofmorePtelementson 10000isstillbetterthanthatofPt/C.Besides,thehighstabilityofHEA-
+thesurface.ThePt,Fe,Co,NiandCuelementsinHEA-400-5000follow 400-5000isverifiedthroughthegalvanostaticmeasurementduring
+an atomic ratio of 35.0: 12.3: 14.8: 17.3: 20.6 according to ICP-OES an80-htest(seeSupplementaryFig.35).ThefaradicefficiencyofHEA-
+results,consistentwithourassumptionofthedissolutionofFe,Co,Ni, 400-500 is also calculated to be 99% (see Supplementary Fig. 36),
+andCucomponentsonthesurfaceduringtheCVactivation.Further demonstratingthatalmostallofthecurrentinthetestisusedforHER.
+cycling will make excess Fe, Co, Ni, and Cu elements dissolved, The activation effect of HEA-400 is further demonstrated by the
+resultinginasmallerelectrongradientontheHEAsurfaceandthusa electrochemical double-layer capacitance (C ), as shown in Fig. 4b.
+dl
+smaller σ value. This is the reason that HEA-400-10000 shows an Consistent with the tendency of HER activity, the C of HEA-400
+dl
+)111( )002( )022(
+HEA Pt
+HEA-500
+HEA-400
+HEA-300
+Pt/C
+Pt JCPDS70-2431 NiJCPDS04-0850
+CuJCPDS70-3039 FeJCPDS06-0696
+CoJCPDS89-7093
+).u.a(ytisnetnI
+2.2degree Pt0 Pt 4f 7/2 Pt0 Pt/C
+Pt 4f Pt2+ 5/2
+Pt2+
+Pt4+
+0.6 eV 0.5 eV HEA-400
+1.8degree
+Pt0
+Pt 4f 7/2
+Pt0
+Pt 4f 5/2
+Pt2+ Pt2+
+0.4 eV 0.3 eV HEA-400-5000
+Pt0 Pt 4f Pt0 Pt 4f
+7/2 5/2
+Pt2+ Pt2+
+68 70 72 74 76 78 80
+(degree)
+).u.a(ytisnetnI
+Binding energy (eV)
+HEA-transition layer
+(111)0.217nm
+HEA-surface
+(111)0.226nm
+HEA-core
+(111)0.210nm
+1 nm
+1.13nm 2.19nm 1.05nm
+HEA-surface HEA-transitionlayer HEA-core
+d=0.226nm d=0.219nm d=0.210nm
+0 1 2 3 4 5
+).u.a(ytisnetnI
+Article https://doi.org/10.1038/s41467-023-44261-4
+a b
+2
+c e
+10 nm 10 nm
+d 10 nm 10 nm
+Distance (nm) 10 nm 10 nm
+Fig.3|StructuralcharacterizationofHEAcatalysts.aXRDpatternsofHEA-300, fromthesurfacetothecoreinHEA-400-5000asframedinc.eHAADF-EDSele-
+HEA-400,andHEA-500.bPt4fhigh-resolutionXPSspectraofPt/C,HEA-400,and mentalmapsofHEA-400-5000.
+HEA-400-5000.cHAADF-STEMimageofHEA-400-5000.dIntensitylineprofile
+NatureCommunications|( 2024)1 5:359 6
+
+0
+HEA-400
+22.5 mV15.3 mV10.8 mV HEA-500 Pt/C -20
+0.05
+-40 0.04 -60 0.03 -80 0.02
+50 100
+-100
+-0.30 -0.25 -0.20 -0.15 -0.10 -0.05 0.00
+increasescontinuouslytoreachthemaximumvalueof111.7mFcm−2 performancethanthoseofPtFeCoandPtFeCoNi,demonstratingthe
+after 5000 CV cycles. This indicates the greatly increased electro- benefitsofthedualgradientcatalyticsysteminHEA.Inaddition,the
+chemicalsurfacearea(ECSA)broughtfromthedualgradientformed HERperformanceofHEAsystemswithoutnoblemetalsaremeasured.
+inHEA.MoredetailedHERperformanceofHEA-400beforeandafter AsshowninSupplementaryFig.42,noactivationbehaviorispresentin
+CVtestsareprovidedinSupplementaryFigs.37and38.Inorderto FeCoNiCuMn or FeCoNiCrMn, indicating that the electrochemical
+highlighttheadvantagesofPtFeCoNiCuHEAcatalysts,theHERper- activationbehaviormayexistonlyinaHEAsystemwithspecificactive
+formancesofaternaryPtFeCoalloyandaquaternaryPtFeCoNialloy sites,whichpossessexcellentacidcorrosionresistance.
+arecompared(seeSupplementaryFigs.39–41).AsshowninSupple- TheelectrochemicalactivationeffectisalsoobservedinHEA-500,
+mentary Fig. 41, the PtFeCoNiCu catalyst presents better HER as shown in Supplementary Figs. 43 and 44. A comparison of HER
+)2-mcAm(ytisnedtnerruC : 10
+Ta T fe a l T f e s a l l f o e s p l l o e s p : l o e 2 p : 9 e 3 .5 : 5 2 . m 3 8 V . m 1 d V m e d V c e - 1 d c e j -1 0 c : j - 3 1 0 : . j 5 8 0 8 : . 8 8 m 6 .9 A m 9 A c m m c A - m 2 c -2 m-2
+Potential (V vs. RHE)
+)V( laitnetoprevO
+0
+HEA-400-initial
+HEA-400-100
+-20 HEA-400-2000
+HEA-400-5000
+-40
+-60
+-80
+-100
+-120
+-0.10 -0.08 -0.06 -0.04 -0.02 0.00
+Current density (mA cm-2)
+)2-mcAm(ytisnedtnerruC
+12
+HEA-400-initial
+HEA-400-100 111.7 mF cm-2
+10 HEA-400-2000
+HEA-400-5000
+8
+76.1 mF cm-2
+30.7 mV 6
+35.1 mV
+96.8 mV
+4 64.7 mF cm-2
+37.8 mV
+2 12.5 mF cm-2
+0
+20 40 60 80 100
+Potential (V vs. RHE)
+)2-mcAm(ytisnedtnerruC
+Scan rate (mV s-1)
+7.0E-02
+6.0E-02
+5.0E-02 4.0E-02 3.0E-02 2.0E-02 1.0E-02
+0.0E+00
+C/tP
+004-AEH
+= 20 mV 6.02
+4.36 0.98
+Catalysts
+)1-s(FOT 005-AEH
+100
+80
+60
+40
+20
+0
+)Vm(2-mcAm01-@
+004-AEH PoCuR CN/
+lCtP
+K
+4
+2
+GA/tP
+NOC/rI
+bP
+dP/tP-LA 3 SoM/tP 2
+PoC/tP-GE
+WNiS/rI
+FN/TN/AStP
+CM/tP
+tP-
+T
+CiT
+oM
+AS
+x
+2
+2
+SoM/tP
+2 CLO/
+tP 1
+OW/tP 3
+OeCuR/tP
+x
+sNGN/tPDLA
+eS
+oC-pn/tP
+58.0
+PiNuCtPbP
+SoM/hR
+2
+MCP/tP
+-2.0
+-1.5 -1.0 -0.5
+0.0
+Catalysts
+C/tP
+004-AEH
+= 20 mV -1.77
+-1.39 -0.30
+Catalysts
+)
+2-mAm(ytisnedtnerruC
+ASCE
+005-AEH
+Article https://doi.org/10.1038/s41467-023-44261-4
+a b
+c d e
+f
+Fig.4|Electrochemicalperformance.aPolarizationcurvesofHEA-400before activatedHEA-400,activatedHEA-500,andPt/Catη=20mV.eTOFsofactivated
+andaftercyclicvoltammetry(CV)activation.bPlotsofcapacitivecurrentswith HEA-400,activatedHEA-500,andPt/Catη=20mV.fComparisonofHERperfor-
+variousscanratesforHEA-400beforeandafterCVactivation.cPolarizationcurves manceforHEA-400withotherreportedcatalystsin0.5MHSO (seeSupple-
+2 4
+ofactivatedHEA-400,activatedHEA-500,andPt/C.ThecorrespondingTafelplots mentaryTable3formoredetails).
+andexchangecurrentdensity(j 0)aredescribedintheinset.dSpecificactivitiesof
+NatureCommunications|( 2024)1 5:359 7
+
+Article https://doi.org/10.1038/s41467-023-44261-4
+activity among the activated HEA-400 (HEA-400-5000), activated duetotheirstrongeradsorptionsthanthatofH*.Herein,theadsorp-
+HEA-500(HEA-500-2000),andPt/CisshowninFig.4c,wheretheHEA- tionenergiesofC*,O*,andN*onthedesigned5.9%-HEAwerecalcu-
+400 has the smallest overpotential of 10.8mV at −10mA cm−2. The lated,asshowninSupplementaryFigs.54–56.Theiradsorptionenergy
+correspondingTafelplots(seetheinsetinFig.4c)indicatethatthe valuesalsoroughlyfollowtheGaussiandistributionwithμandσvalues
+activatedHEA-400presentsthesmallestTafelslopeof28.1mVdec−1, of1.662and0.125eV,2.072and0.135eV,2.103and0.104eV,forC*,O*,
+denotingthebestHERkinetics,whichisfurtherverifiedbythelargest andN*,respectively.SimilartotheadsorptionofH*,thedesigned5.9%-
+exchange current density (j =8.99mAcm−2)38,39. Additionally, when HEAstillhastwoactivecenterswithstrongandweakadsorptionsof
+0
+normalizedtoECSA(seeSupplementaryFig.45),HEA-400presents theseadsorbates.TheC*,O*,andN*spilloversbetweenthetwoactive
+4.6 times higher specific electrochemical activity (−1.39mA m(cid:1)2 ) centersareshowninSupplementaryFigs.57–59.Thediffusionbarrier
+ECSA
+thanthatofPt/C(−0.30mAm(cid:1)2 ,seeFig.4d)atanoverpotentialof valuesoftheirRDSare0.772,0.463,and0.801eVforC*,O*,andN*,
+ECSA
+20mV.Meanwhile,theturnoverfrequencyofHEA-400(4.36×10−2s−1) respectively. Although thesediffusion barrier values arelarger than
+atthispotentialisalsomuchhigherthanthatofPt/C(0.98×10−2s−1), thatofH*,theyarestillrelativelysmallvalues,beingsufficientforthe
+further confirming the excellent intrinsic activity (see Fig. 4e). The spilloversofC*,O*,andN*tooccuratroomtemperature31.Therefore,
+greatlyenhancedintrinsicactivityofHEA-400derivesfromthedual theproposedunusualSabatierprincipleinthisworkcanbeextended
+gradient structures, where H* spillover phenomenon exists. The H* toothercatalyticreactionsassociatedwiththeseadsorbates,suchas
+spilloverphenomenoncanbeintuitivelyobservedthroughthecolor CO RR,ORR/OER,NRR,etc.
+2
+changeinthemixtureofcatalystandWO duringtheHERprocess.As
+3
+showninSupplementaryFig.46,thecolorsofWO andPt/C@WO Discussion
+3 3
+remain unchanged after an 1800-s HER test(the HERprocesses are In summary, we discovered the unusual Sabatier principle on HEA
+presentedinSupplementaryFig.47).However,thecolorofHEA-400- catalysts for HER. The new descriptors of μ and σ are proposed to
+5000@WO changedfromdarkyellowtodarkblueafteronlya170-s indicatethecatalyticactivityofHEAcatalystsforHERbasedonthe
+3
+HERtest.Thisisbecausethespilled-overhydrogenmigratesonHEA Gaussiandistribution[X~N(μ,σ2)]ofΔG .Mathematically,alargerσ
+H*
+surfaceandreadilyreactswithWO
+3
+toformdarkblueHxWO
+3
+23,40.The valueresultswithμ=0eVresultsinahighercatalyticactivityforHER.
+abovecolorchangeconfirmstheH*spilloverphenomenononHEA, Physically,theHEAcatalystswiththewideradsorptionenergyrange
+while no H* spillover occurs on Pt/C. Besides, the H* spillover phe- around0eVpromotedtheadsorptionofH*andtheformationofH ,
+2
+nomenon on HEA is verified through the pH-dependent relation of simultaneously.Accordingtothenewtheoreticalinsights,aPtFeCo-
+HER.Basedonpreviousreports,theH*spilloverbasedHERcatalyst NiCu catalyst with dual-gradient (electronic and composition gra-
+possessesatheoreticalreactionorderof2.0betweenlog|j|andpH dients) is precisely synthesized. The designed HEA catalyst has an
+value20,41,42. At a potential of −0.05V (vs. RHE, see Supplementary excellent catalytic performance for HER with an ovepotential of
+Fig. 48a), the pH-dependent reaction order for HEA-400-5000 is 10.8mVat−10mAcm−2and4.6timeshigherintrinsicactivitythanthat
+measuredtobe2.03(seeSupplementaryFig.48b),whichisinaccord of Pt/C. The unusual Sabatier principle proved to be applicable to
+with the theoretical value of 2.0, thus confirming the H* spillover otheradsorbentsaswell.Thesefindingscouldacceleratethedevel-
+phenomenon. In addition, in situ hydrogen desorption kinetics is opmentofHEAcatalystsandopenavenuestoachieveabreakthrough
+studiedtofurthersupporttheH*spilloverphenomenononHEA.To incatalyticperformance.
+determinethehydrogendesorptionkinetics,CVtestsareperformed
+from0.1~0.6V(vs.RHE)toobservethehydrogendesorptionpeaks20. Methods
+AsshowninSupplementaryFig.49a,b,thehydrogendesorptionpeaks Chemicals
+shift with increasing scan rates for both Pt/C and HEA-400-5000. Iron(III) chloride (FeCl ), Chromium(II) chloride (CrCl ), Cobalt(II)
+3 2
+Therefore, their hydrogen desorption kinetics can be quantified chloride hexahydrate (CoCl ·6H O), Nickel(II) chloride hexahydrate
+2 2
+throughcomparingtheslopesbetweenthehydrogendesorptionpeak (NiCl ·6H O), Copper(II) chloride dihydrate (CuCl ·2H O), Mangane-
+2 2 2 2
+positionvs.scanrates.AsshowninSupplementaryFig.49c,HEA-400- se(II) chloride tetrahydrate (MnCl ·4HO), Chloroplatinic acid
+2 2
+5000presentsasignificantlyreducedslopethanPt/C,demonstrating (H PtCl ·6H O)andpolyvinylpyrrolidone(PVP)werepurchasedfrom
+2 6 2
+theimprovedhydrogendesorptionkinetics.Previousstudyreported SigmaAldrich.Allchemicalsareofanalyticalpurityandusedwithout
+that the H* spillover effect can effectively accelerate the hydrogen furtherpurification.
+desorption kinetics for electrocatalysts20,23,43. Thus, the accelerated
+hydrogen desorption kinetics for HEA-400-5000 could derive from SynthesisofPtFeCoNiCuHEAcatalyst
+the H* spillover phenomenon on the surface. Additionally, the HER 0.5mmol of FeCl , CoCl ·6H O, NiCl ·6H O, CuCl ·2H O and
+3 2 2 2 2 2 2
+performanceofHEA-400-5000wasalsocomparedwithaPtNi system H PtCl ·6H Owereaddedinto40mLultrapurewatertoformauni-
+3 2 6 2
+withoutH*spillovereffect,asshowninSupplementaryFig.50.HEA- formmixture.Themixturewasstirredconstantlyinanoilbathat80°C
+400-5000 shows better HER performance than PtNi (31.2mV at untilallwaterevaporated,formingadarkyellowslurry.TheHEA-300,
+3
+−10mAcm−2),eventhough theΔG valueofPtNi maybeinclose HEA-400 HEA-500, HEA-700 and HEA-900 were obtained through
+H* 3
+proximity to that of HEA-400-5000 (ΔG in range around annealingtheslurryunder5%H /Aratmospherefor2hat300,400,
+H* 2
+−0.099~0.075eV),indicatingthespilloverofH*playsapivotalrolein 500,700and900°C,respectively.
+enhancing the catalytic activity. More detailed electrochemical HER
+comparison between HEA and Pt/C are provided in Supplementary SynthesisofPtFeCoNiandPtFeCocatalysts
+Figs. 51–53. Compared with other reported catalysts for HER (see ThesynthesismethodofPtFeCoNiisthesamewiththatofHEA-400,
+Fig.4eandSupplementaryTable3),thedesigneddualgradientHEA exceptthattheprecursorofCuCl ·2H Owasnotadded.Thesynthesis
+2 2
+showsthesmallestoverpotentialof10.8mVat−10mAcm−2,indicating methodofPtFeCoisthesamewiththatofHEA-400,exceptthatthe
+abreakthroughinthecatalyticperformanceforHER. precursorsofCuCl ·2H OandNiCl ·6H Owerenotadded.
+2 2 2 2
+ExtensiontoC*,O*,andN* SynthesisofFeCoNiCrMnHEAcatalyst
+TheunusualSabatierprincipleisalsoextendedtootheradsorbates 0.5mmol of FeCl , CoCl ·6H O, NiCl ·6H O, CrCl and MnCl ·4H O
+3 2 2 2 2 2 2 2
+(C*, O*, and N*) on the designed HEA catalysts. Based on the BEP wereaddedinto40mLultrapurewatertoformauniformmixture.The
+relation,thestrong adsorption leadsto alarge diffusion barrier for mixturewasstirredconstantlyinanoilbathat80°Cuntilallwater
+adsorbates.ThismeansthatC*,O*,andN*spillovershouldbedifficult evaporated, forming a dark gray slurry. The FeCoNiCrMn HEA was
+NatureCommunications|( 2024)1 5:359 8
+
+Article https://doi.org/10.1038/s41467-023-44261-4
+obtainedthroughannealingtheslurryunder5%H /Aratmospherefor reversiblehydrogenevolutionpotentialandthemeasuredpotential,
+2
+2hat500°C. respectively.
+SynthesisofFeCoNiCuMnHEAcatalyst Densityfunctionaltheorycalculation
+0.5mmol of FeCl , CoCl ·6H O, NiCl ·6H O, CuCl ·2H O and AllcalculationswereperformedusingtheViennaabinitiosimulation
+3 2 2 2 2 2 2
+MnCl ·4H Owereaddedinto40mLultrapurewatertoformauniform package (VASP) based on spin-polarized density function theory
+2 2
+mixture.Themixturewasstirredconstantlyinanoilbathat80°Cuntil (DFT)45.Theprojector-augmentedwavepseudopotentialwasapplied
+allwaterevaporated,formingadarkyellowslurry.TheFeCoNiCuMn totreatthecoreelectrons46.Thegeneralizedgradientapproximation
+HEA was obtained through annealing the slurry under 5% H /Ar (GGA)withthePerdew–Burke–Ernzerhoffunctional(PBE)wasadop-
+2
+atmospherefor2hat500°C. tedintheDFTcalculations47.Thekineticenergycutoffforthewave-
+functioncalculationswassetto550eV.TheFermismearingfunction
+SynthesisofPtNi catalyst wasappliedwithasmearingwidthof0.1eV.The4×4supercellwith
+3
+ThesynthesisofPtNi wasusingthemethodaccordingtothereportof fivelayerswasconsideredforallsystems.TheMonkhorst-Packgridof
+3
+Wang et al.44. Typically, 0.4mmol of H PtCl ·6H O, 1.2mmol k-points was2×2×1,and a vacuum gapof~15Åwasused to avoid
+2 6 2
+Ni(NO ) ·6H Oand287.2mgPVPweredissolvedinto50mLultrapure interactionsbetweenthesystemanditsmirrorimages.Thegeometric
+32 2
+waterandsonicatedfor1h.Then,thesolutionwassprayedontoaglass relaxationwasstoppedwhentheincrementalchangesintotalenergy
+platemaintainedat400°Cforrapidevaporation.Thecollectedpow- and forces were smaller than1 ×10−5eV and 0.05eV/Å, respectively.
+derwasthencleanedthroughcentrifugationfor3timeswithultrapure The van der Waals interaction was considered through the DFT-D3
+water.ThePtNi wasobtainedthroughannealingthepowderunder5% methodproposedbyGrimme48.Allthetransitionstateswereobtained
+3
+H /Aratmospherefor2hat500°C. usingtheclimbingimagenudgedelasticband(CI-NEB)methodwitha
+2
+convergenceforcesmallerthan0.05eV/Å49.
+Materialcharacterization Theadsorptionenergy(ΔE )ofadsorbates(X=H,C,O,N)was
+X*
+For the structural characterization, X-raydiffraction (XRD) wasper- calculatedbythefollowingequation:
+formed on a D/max2500pc diffractometer with a Cu Kα radiation.
+X-ray photoelectron spectroscopy (XPS) detection was through an ΔEx*=Ex*(cid:1)Ecat(cid:1)Ex ð1Þ
+ESCALAB250XispectrometerwithamonochromaticAl-Ksource.The
+morphology characterization was conducted using a JEM-2100F whereE ,E ,andE representthetotalenergyofthecatalystwiththe
+X* cat X
+transmission electron microscope (TEM) for TEM images, high- adsorbate, isolated catalyst, and the corresponding adsorbate,
+resolution TEM (HRTEM) images and selected area electrondiffrac- respectively. Note that the energies of H, C, O, and N refer to the
+tion(SAED)patterns.Thehighangleannulardarkfield(HAADF)ima- energiesofH ,graphene,H O,andNH ,respectively.Theadsorption
+2 2 3
+geswereobtainedthroughadouble-correctedFEITitanThemis300 energy was corrected by considering the zero-point energy and
+electronmicroscope.Thecomponentanalysiswasconfirmedusingan entropy,asshownbelow:
+inductivelycoupledplasmaopticalemissionspectroscopy(ICP-OES).
+ΔGx*=ΔEx*+ΔZPE(cid:1)TΔS ð2Þ
+Electrochemicalmeasurements
+AllelectrochemicalmeasurementswereperformedonanIvium-n-Stat whereΔG ,ΔZPE,andTΔSdenotetheadsorptionfreeenergy,zero-
+X*
+electrochemicalworkstationunderastandardthree-electrodesystem. pointenergychange,andentropychange,respectively.
+A graphite electrode, a saturated calomel electrode (SCE) and a
+rotatingdiskelectrode(RDE)coveredwithcatalystfilmswereusedas Reportingsummary
+the counter electrode, reference electrode, and working electrode, Further information on research design is available in the Nature
+respectively. 3mg of each catalyst powders distributed into 0.5mL PortfolioReportingSummarylinkedtothisarticle.
+water-isopropanolsolution(4:1,v/v)wereusedasthecatalystink.30
+μL of the catalyst ink was taken and dried on the RDE surface for Dataavailability
+measurementeachtime.15μLNafion-isopropanolsolution(1:19,v/v) AlldataareavailablewithintheArticle,SupplementaryFiles,andthe
+wastakenandcoveredonthedriedcatalystfilmsasabinder. repository(https://github.com/chandrasinghuoft/PtFeCoNiCu.git),or
+The HER performance measurements were conducted in N - availablefromthecorrespondingauthorsonreasonablerequest.
+2
+saturated0.5MH SO .FortheactivationofPtFeCoNiCu,PtFeCoNi,
+2 4
+PtFeCo,FeCoNiCrMnandFeCoNiCuMncatalysts,cyclicvoltammetry References
+(CV) tests were performed at a potential range of 100~530mV (vs. 1. Sabatier,P.Lacatalyseenchimieorganique(UniversityofMichigan
+reversible hydrogen electrode, RHE) at a scan rate of 400mVs−1. Library,1913).
+Linearsweepvoltammetry(LSV)testswereconductedatascanrate 2. Nørskov,J.K.etal.Universalityinheterogeneouscatalysis.J.Catal.
+of5mVs−1witharotationrateof2025rpm.Formeasuringthedouble- 209,275–278(2002).
+layercapacitance,CVtestswereperformedatapotentialrangeof100 3. Calle-Vallejo,F.,Loffreda,D.,Koper,M.T.&Sautet,P.Introducing
+to200mV(vs.RHE)atscanratesof20,40,60,80and100mVs−1, structuralsensitivityintoadsorption-energyscalingrelationsby
+respectively.Galvanostatictestswereperformed atanappliedcur- meansofcoordinationnumbers.Nat.Chem.7,403–410(2015).
+rent density of −10mA cm−2 for 80h. Electrochemical impedance 4. Calle-Vallejo,F.etal.Findingoptimalsurfacesitesonhetero-
+measurementswereperformedat10mV(vs.RHE)from100kHzto geneouscatalystsbycountingnearestneighbors.Science350,
+0.1Hz.Thehydrogenproductionwasmeasuredwithagaschroma- 185–189(2015).
+tograph (GC-2014),using athermalconductivitydetector(TCD)to 5. Norskov,J.K.,Bligaard,T.,Rossmeisl,J.&Christensen,C.H.
+detect H content every 10min. For detecting the amount of pro- Towardsthecomputationaldesignofsolidcatalysts.Nat.Chem.1,
+2
+duced H , 1mg catalyst was loaded on the Ni foam with sufficient 37–46(2009).
+2
+Nafionasthebinder.Allthemeasurementswereperformedatroom 6. Seh,Z.W.etal.Combiningtheoryandexperimentinelectro-
+temperature.AllthepotentialsconvertedtotheRHEwerethrough catalysis:insightsintomaterialsdesign.Science355,
+E =E +0.059pH+0.267V, where E and E denote the eaad4998(2017).
+RHE SCE RHE SCE
+NatureCommunications|( 2024)1 5:359 9
+
+Article https://doi.org/10.1038/s41467-023-44261-4
+7. Meirer,F.&Weckhuysen,B.M.Spatialandtemporalexplorationof 28. Hammer,B.&Nørskov,J.K.Theoreticalsurfacescienceand
+heterogeneouscatalystswithsynchrotronradiation.Nat.Rev. catalysis-calculationsandconcepts.Adv.Catal.45,71–129(2000).
+Mater.3,324–340(2018). 29. Kitchin,J.R.,Nørskov,J.K.,Barteau,M.A.&Chen,J.G.Roleofstrain
+8. Khorshidi,A.,Violet,J.,Hashemi,J.&Peterson,A.A.Howstraincan andligandeffectsinthemodificationoftheelectronicandche-
+breakthescalingrelationsofcatalysis.Nat.Catal.1,263–268(2018). micalpropertiesofbimetallicsurfaces.Phys.Rev.Lett.93,
+9. Kuhl,K.P.etal.Electrocatalyticconversionofcarbondioxideto 156801(2004).
+methaneandmethanolontransitionmetalsurfaces.J.Am.Chem. 30. Li,C.Z.etal.Dendriticdefect-richpalladium-copper-cobalt
+Soc.136,14107–14113(2014). nanoalloysasrobustmultifunctionalnon-platinumelectrocatalysts
+10. Montoya,J.H.,Tsai,C.,Vojvodic,A.&Norskov,J.K.Thechallengeof forfuelcells.Nat.Commun.9,3702(2018).
+electrochemicalammoniasynthesis:anewperspectiveontherole 31. Nørskov,J.K.,FelixS.,FrankA.P.&ThomasB.Fundamentalcon-
+ofnitrogenscalingrelations.ChemSusChem8,2180–2186 ceptsinheterogeneouscatalysis(JohnWiley&Sons,2014).
+(2015). 32. Karim,W.etal.Catalystsupporteffectsonhydrogenspillover.
+11. Nørskov,J.K.etal.Trendsintheexchangecurrentforhydrogen Nature541,68–71(2017).
+evolution.J.ElectrochemSoc.152,J23(2005). 33. Mori,K.etal.Hydrogenspillover-drivensynthesisofhigh-entropy
+12. Nørskov,J.K.etal.Originoftheoverpotentialforoxygenreduction alloynanoparticlesasarobustcatalystforCO hydrogenation.Nat.
+2
+atafuel-cellcathode.J.Phys.Chem.B108,17886–17892(2004). Commun.12,3884(2021).
+13. Bajdich,M.,García-Mota,M.,Vojvodic,A.,Nørskov,J.K.&Bell,A.T. 34. Chen,J.etal.ReversiblehydrogenspilloverinRu-WO enhances
+3-x
+Theoreticalinvestigationoftheactivityofcobaltoxidesforthe hydrogenevolutionactivityinneutralpHwatersplitting.Nat.
+electrochemicaloxidationofwater.J.Am.Chem.Soc.135, Commun.13,5382(2022).
+13521–13530(2013). 35. Wang,H.T.etal.Directandcontinuousstraincontrolofcatalysts
+14. Greeley,J.,Jaramillo,T.F.,Bonde,J.,Chorkendorff,I.B.&Norskov, withtunablebatteryelectrodematerials.Science354,
+J.K.Computationalhigh-throughputscreeningofelectrocatalytic 1031–1036(2016).
+materialsforhydrogenevolution.Nat.Mater.5,909–913 36. Qin,Y.C.etal.Fine-tuningintrinsicstraininpenta-twinnedPt-Cu-
+(2006). Mnnanoframesboostsoxygenreductioncatalysis.Adv.Funct.
+15. Huang,Z.F.etal.Strategiestobreakthescalingrelationtoward Mater.30,1910107(2020).
+enhancedoxygenelectrocatalysis.Matter1,1494–1518(2019). 37. Zhan,C.etal.Subnanometerhigh-entropyalloynanowiresenable
+16. Hong,X.,Chan,K.,Tsai,C.&Norskov,J.K.HowdopedMoS breaks remarkablehydrogenoxidationcatalysis.Nat.Commun.12,
+2
+transition-metalscalingrelationsforCO electrochemicalreduc- 6261(2021).
+2
+tion.ACSCatal.6,4428–4437(2016). 38. Shi,Y.&Zhang,B.Recentadvancesintransitionmetalphosphide
+17. Sun,G.etal.Breakingthescalingrelationshipviathermallystable nanomaterials:synthesisandapplicationsinhydrogenevolution
+Pt/Cusingleatomalloysforcatalyticdehydrogenation.Nat.Com- reaction.Chem.Soc.Rev.45,1529–1541(2016).
+mun.9,1–9(2018). 39. Huang,Z.P.etal.Cobaltphosphidenanorodsasanefficient
+18. Wang,P.etal.Breakingscalingrelationstoachievelow- electrocatalystforthehydrogenevolutionreaction.NanoEnergy9,
+temperatureammoniasynthesisthroughLiH-mediatednitrogen 373–382(2014).
+transferandhydrogenation.Nat.Chem.9,64–70(2016). 40. Khoobiar,S.Particletoparticlemigrationofhydrogenatomson
+19. Subbaraman,R.etal.Enhancinghydrogenevolutionactivityin platinum-aluminacatalystsfromparticletoneighboringparticles.J.
+watersplittingbytailoringLi+-Ni(OH) -Ptinterfaces.Science334, Phys.Chem.68,411–412(1964).
+2
+1256–1260(2011). 41. Zhu,L.etal.Arhodium/siliconco-electrocatalystdesignconceptto
+20. Li,J.etal.Afundamentalviewpointonthehydrogenspillover surpassplatinumhydrogenevolutionactivityathighover-
+phenomenonofelectrocatalytichydrogenevolution.Nat.Com- potentials.Nat.Commun.7,12272(2016).
+mun.12,3502(2021). 42. Cheng,Y.etal.Rh-MoS nanocompositecatalystswithPt-like
+2
+21. Jiang,L.etal.Facetengineeringacceleratesspilloverhydrogena- activityforhydrogenevolutionreaction.Adv.Funct.Mater.27,
+tiononhighlydilutedmetalnanocatalysts.Nat.Nanotechnol.15, 1700359(2017).
+848–853(2020). 43. Park,J.etal.Investigationofthesupporteffectinatomicallydis-
+22. Fu,H.Q.etal.Hydrogenspillover-bridgedVolmer/Tafelprocesses persedPtonWO forutilizationofPtinthehydrogenevolution
+(3-x)
+enablingampere-levelcurrentdensityalkalinehydrogenevolution reaction.Angew.Chem.Int.Ed.58,16038–16042(2019).
+reactionunderlowoverpotential.J.Am.Chem.Soc.144, 44. Wang,S.etal.Synthesisofstructurallystableandhighlyactive
+6028–6039(2022). PtCo orderednanoparticlesthroughaneasilyoperatedstrategy
+3
+23. Dai,J.etal.Hydrogenspilloverincomplexoxidemultifunctional forenhancedoxygenreductionreaction.ACSAppl.Mater.Inter-
+sitesimprovesacidichydrogenevolutionelectrocatalysis.Nat. faces13,827–835(2021).
+Commun.13,1189(2022). 45. Kresse,G.&Furthmuller,J.Efficientiterativeschemesforabinitio
+24. Lu,Z.,Chen,Z.W.&Singh,C.V.Neuralnetwork-assisteddevel- total-energycalculationsusingaplane-wavebasisset.Phys.Rev.B
+opmentofhigh-entropyalloycatalysts:decouplingligandand 54,11169(1996).
+coordinationeffects.Matter3,1318–1333(2020). 46. Blochl,P.E.Projectoraugmented-wavemethod.Phys.Rev.B50,
+25. Wang,D.etal.Tailoringlatticestraininultra-finehigh-entropy 17953–17979(1994).
+alloysforactiveandstablemethanoloxidation.Sci.ChinaMater. 47. Perdew,J.P.,Burke,K.&Ernzerhof,M.Generalizedgradient
+64,2454–2466(2021). approximationmadesimple.Phys.Rev.Lett.77,3865(1996).
+26. Escudero-Escribano,M.etal.TuningtheactivityofPtalloyelec- 48. Grimme,S.,Antony,J.,Ehrlich,S.&Krieg,H.Aconsistentand
+trocatalystsbymeansofthelanthanidecontraction.Science352, accurateabinitioparametrizationofdensityfunctionaldispersion
+73–76(2016). correction(DFT-D)forthe94elementsH-Pu.J.Chem.Phys.132,
+27. Kodama,K.,Nagai,T.,Kuwaki,A.,Jinnouchi,R.&Morimoto,Y. 154104(2010).
+ChallengesinapplyinghighlyactivePt-basednanostructuredcat- 49. Henkelman,G.,Uberuaga,B.P.&Jonsson,H.Aclimbingimage
+alystsforoxygenreductionreactionstofuelcellvehicles.Nat. nudgedelasticbandmethodforfindingsaddlepointsandmini-
+Nanotechnol.16,140–147(2021). mumenergypaths.J.Chem.Phys.113,9901–9904(2000).
+NatureCommunications|( 2024)1 5:359 10
+
+Article https://doi.org/10.1038/s41467-023-44261-4
+Acknowledgements Correspondenceandrequestsformaterialsshouldbeaddressedto
+WewishtothankthefinancialsupportsfromtheNationalNaturalSci- ChunChengYang,ChandraVeerSinghorQingJiang.
+enceFoundationofChina(No.52130101),ScienceandTechnology
+DevelopmentProgramofJilinProvince,China(No.20230402058GH), PeerreviewinformationNatureCommunicationsthanksSUPAREAK
+InterdisciplinaryIntegrationandInnovationProjectofJLU(No. Praserthdam,HanZhuandtheother,anonymous,reviewersfortheir
+JLUXKJC2021ZY01),theFundamentalResearchFundsfortheCentral contributiontothepeerreviewofthiswork.
+Universities,China,theNatureSciencesandEngineerResearchCouncil
+ofCanada(NSERC),HartProfessorshipandtheUniversityofToronto.We Reprintsandpermissionsinformationisavailableat
+thankProf.EdwardSargentforthehelpfuldiscussions.Wealso http://www.nature.com/reprints
+acknowledgeDigitalResearchAllianceofCanadaforprovidingcom-
+putingresourcesattheSciNet,CalculQuebec,andWestgridconsortia. Publisher’snoteSpringerNatureremainsneutralwithregardtojur-
+Z.W.C.dedicatesthisworktohisbaby,Enxi,whoisexpectedtojoinhis isdictionalclaimsinpublishedmapsandinstitutionalaffiliations.
+familyonJan.1st,2024.Maythepursuitofknowledgeandscientific
+inquiryinspireherjourneyasshegrowsandexplorestheworld. OpenAccessThisarticleislicensedunderaCreativeCommons
+Attribution4.0InternationalLicense,whichpermitsuse,sharing,
+Authorcontributions adaptation,distributionandreproductioninanymediumorformat,as
+C.C.Y.,C.V.S.,andQ.J.conceivedtheprojectandoversawallthe longasyougiveappropriatecredittotheoriginalauthor(s)andthe
+researchphases.Z.W.C.andJ.L.designedtheproject.Q.J.,Z.W.C.,and source,providealinktotheCreativeCommonslicence,andindicateif
+P.O.conceivedthetheoreticalmodel.C.V.S.andZ.W.C.conductedthe changesweremade.Theimagesorotherthirdpartymaterialinthis
+theoreticalcalculations.C.C.Y.andJ.L.conductedtheexperiments. articleareincludedinthearticle’sCreativeCommonslicence,unless
+Z.W.C.,J.L.,andP.O.conducteddatacollectionandanalysis.J.E.H., indicatedotherwiseinacreditlinetothematerial.Ifmaterialisnot
+Z.W.,L.C.,X.Y.,andG.C.discussedtheresultsandcommentedonthe includedinthearticle’sCreativeCommonslicenceandyourintended
+manuscript. useisnotpermittedbystatutoryregulationorexceedsthepermitted
+use,youwillneedtoobtainpermissiondirectlyfromthecopyright
+Competinginterests holder.Toviewacopyofthislicence,visithttp://creativecommons.org/
+Theauthorsdeclarenocompetinginterests. licenses/by/4.0/.
+Additionalinformation ©TheAuthor(s)2024
+SupplementaryinformationTheonlineversioncontains
+supplementarymaterialavailableat
+https://doi.org/10.1038/s41467-023-44261-4.
+NatureCommunications|( 2024)1 5:359 11
+

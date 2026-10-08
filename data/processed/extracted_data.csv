@@ -1,0 +1,161 @@
+paper,catalyst_elements,overpotential_mV,tafel_mV_per_dec,sentence
+paper1.txt,MoNiPdPtRhV,9.7,,"Through the exploration of the atomic ratio of PtMoPdRhNi, the obtained
+Pt Mo Pd Rh Ni NCswiththestrongestd–delectroninteractiondisplaythehighestalkalinehydro-
+28 6 28 27 15
+gen evolution reaction (HER) activity, with the overpotential as low as 9.7 mV at a current density of
+(cid:2)10 mA cm(cid:2)2"
+paper1.txt,MoNiPdPtRhV,9.7,,"The
+Pt28Mo6Pd28Rh27Ni15NCsexhibitextremelylowoverpotentialat(cid:2)10mAcm(cid:2)2inalkalineelectrolytes,whichisaslowas9.7mV.Theoverpotentialismuch
+lower than that of mostreportedcatalysts."
+paper1.txt,MoNiPdPtRhV,9.7,,"1e and e ), indicating that the crystal structure of
+1 2
+mely low overpotential at (cid:2)10 mA cm(cid:2)2, which deliver to PtMoPdRhNi NCs is a (111) crystal plane corresponding to
+9.7 mV and lower than that of most reported catalysts."
+paper1.txt,NiV,30.0,30.0,"Interestingly,thebondlengthofNi–Niin Tafelstepscorrespondto120,40,and30mVdec(cid:2)1,respectively.
+"
+paper1.txt,MoNiPdPtRhV,16.6,,"4a, both PtMoPdRhNi loss is negligible and the overpotential at (cid:2)10 mA cm(cid:2)2 is
+NPsandPtMoPdRhNiNCsexhibitenhancedHERactivityover 16.6 mV, which is a negative shift by 6.9 mV compared to the
+commercialPt/C,andthePtMoPdRhNiNCspossessextremely initialvalue(Fig.4e).TheSTEMimagesofPt Mo Pd Rh"
+paper1.txt,MoPtV,9.7,,"The corresponding
+28 6 28 27 15 28 6 28 27 15
+NCs require the lowest overpotential (9.7 mV and 57.7 mV) to EDSmapping(Fig.S13b–h,ESI†)showstheelementalcontent
+achieveacurrentdensityof(cid:2)10mAcm(cid:2)2and(cid:2)100mAcm(cid:2)2, remains,furtherillustratingtheenhancedstabilityofPt Mo -
+28 6
+which i"
+paper2.txt,CuFeNiPtRuVW,34.0,23.1,"Asanelectrocatalysttowardhydrogen
+alysts has demonstrated that surface and
+evolutionreaction(HER),Ru–PtFeNiCuW/CNTsexhibitslowoverpotentialsof interface engineering can modify the ac-
+9,16,and34mVatacurrentdensityof10mAcm−2andTafelslopesof19.2,
+tive sites and regulate the adsorption–
+27.9,and23.1mVd"
+paper2.txt,CuFeNiPtRuVW,13.0,19.2,"(13mV),Ru–PtFeNiCu/CNTs(58mV),Ru–PtFeNiCu-CO/CNTs
+tialofW3+/W0pair(0.100V)thanPt2+/Pt(1.180V)andCu2+/Cu (18mV),andPtFeNiCuW/CNTs(57mV).Ru–PtFeNiCuW/CNTs
+(0.342V),thegalvanicreplacementof(Cu2++W0⇌Wn++Cu0) exhibits a Tafel slope of 19.2 mV dec−1, lower than that of
+and(Pt2++W0⇌Wn++Pt0)notonlypromotest"
+paper2.txt,CuFeNiPtRuVW,16.0,27.9,"In 0.5 H SO , Ru–PtFeNiCuW/CNTs KOH (𝜂 = 16 mV, Tafel slope = 27.9 mV dec−1, and j
+2 4 10 0
+catalyst achieves the lowest overpotential (𝜂 ) of 9 mV at = 0.264 mA cm−2), superior to that of Ru–PtFeNiCu/CNTs, 10
+Adv.Mater.2024,36,2400433 2400433(5of12)"
+paper3.txt,CoCuFeMoNiPtV,10.8,,"Herein,bydensityfunctionaltheorycalculations,wedis-
+coveredanunusualSabatierprincipleonhighentropyalloy(HEA)surface,
+distinguishingthe“justright”(ΔG =0eV)intheSabatierprincipleof
+H*
+hydrogenevolutionreaction(HER).Anewdescriptorwasproposedtodesign
+HEAcatalystsforHER.Asaproof-of-concept,thesynthesized"
+paper3.txt,CoCuFeNiPtVW,10.8,,"Guidedbythesetheoreticalfindings,aPtFeCoNiCucatalystwith Asiswellknown,ΔG =0eVdenotestheoptimalcatalyticper-
+H*
+electron and composition gradients has been precisely fabricated, formanceofcatalystsforHERbasedontheSabatierprinciple11.Dif-
+exhibiting excellent catalytic performance with an overpotenti"
+paper3.txt,CoCuFeNiV,96.8,,"tivelycomparedwiththoseofHEA-400.Thisiscausedbythecorro- TheHEA-400showsanoverpotentialof96.8mVat−100mAcm−2in
+sionofFe,Co,Ni,andCu during theactivationprocess."
+paper3.txt,PtV,37.8,,"Thetransferred 100showsagreatlyimprovedHERperformancewithanoverpotential
+electron amounts between Pt atom and its different neighbors are of 37.8mV at −100mA cm−2."
+paper3.txt,CoV,30.7,,"The HER performance of HEA-400 is
+NatureCommunications|( 2024)1 5:359 5
+
+10 20 30 40 50 60 70 80
+gradually enhanced with continuous CV tests until the best perfor- attenuationperformancecomparedwiththatofHEA-400-5000(see
+mance(theoverpotentialof30.7mVat−100mAcm−2)isachievedafter Supplementary Fig. 3"
+paper3.txt,CoCuNiPtVW,30.7,,"Potential (V vs. RHE)
+)V( laitnetoprevO
+0
+HEA-400-initial
+HEA-400-100
+-20 HEA-400-2000
+HEA-400-5000
+-40
+-60
+-80
+-100
+-120
+-0.10 -0.08 -0.06 -0.04 -0.02 0.00
+Current density (mA cm-2)
+)2-mcAm(ytisnedtnerruC
+12
+HEA-400-initial
+HEA-400-100 111.7 mF cm-2
+10 HEA-400-2000
+HEA-400-5000
+8
+76.1 mF cm-2
+30.7 "
+paper3.txt,CoPtV,10.8,,"andexchangecurrentdensity(j 0)aredescribedintheinset.dSpecificactivitiesof
+NatureCommunications|( 2024)1 5:359 7
+
+Article https://doi.org/10.1038/s41467-023-44261-4
+activity among the activated HEA-400 (HEA-400-5000), activated duetotheirstrongeradsorptionsthanthatofH*.Herein,theadsorp-
+HEA-500(HEA-"
+paper3.txt,V,28.1,28.1,"The lated,asshowninSupplementaryFigs.54–56.Theiradsorptionenergy
+correspondingTafelplots(seetheinsetinFig.4c)indicatethatthe valuesalsoroughlyfollowtheGaussiandistributionwithμandσvalues
+activatedHEA-400presentsthesmallestTafelslopeof28.1mVdec−1, of1.662and0.125eV,2.072and0.135eV,2.103and0.104eV,for"
+paper3.txt,PtV,20.0,,"TheC*,O*,andN*spilloversbetweenthetwoactive
+4.6 times higher specific electrochemical activity (−1.39mA m(cid:1)2 ) centersareshowninSupplementaryFigs.57–59.Thediffusionbarrier
+ECSA
+thanthatofPt/C(−0.30mAm(cid:1)2 ,seeFig.4d)atanoverpotentialof valuesoftheirRDSare0.772,0.463,and0.801eVforC*,O*,andN*"
+paper3.txt,CoFePtV,10.8,,"Thesynthesis
+2 2
+showsthesmallestoverpotentialof10.8mVat−10mAcm−2,indicating methodofPtFeCoisthesamewiththatofHEA-400,exceptthatthe
+abreakthroughinthecatalyticperformanceforHER."
+paper4.txt,AuPtV,25.0,,"At an overpotential of 25 mV, the turnover
+Received26thApril2020
+frequenciesofHEANPswere9.5and7.8timeshigherthanthoseofacommercialPtcatalystin0.05M
+Accepted5thAugust2020
+H SO and1.0MKOHelectrolytes,respectively."
+paper4.txt,V,25.0,,"In the binding energy range of 60–80 eV, the
+in both acidic and alkaline solutions, with 9.5 and 7.8 times
+higher turnover frequency (TOF) values at an overpotential of
+25mV,respectively.PlottingtheHERactivitiesasafunctionof
+the d-band centre showed that the HEA NPs with a superior
+HER activitydid n"
+paper4.txt,CoIrPdPtRhRuV,50.0,,"The difference of the spectra is shown as cyan densitiesatanoverpotentialof50mV,and(candf)TOFofIrPdPtRhRu
+regions.(b)ComparisonoftheVBspectraofIrPdPtRhRuHEANPsand HEA NPs and other monometallic catalysts in (a–c) 0.05 M H SO
+2 4
+PtNPs."
+paper4.txt,IrPdPtRhRuV,50.0,,"At an superior stability of IrPdPtRhRu HEA NPs compared with the
+geo
+overpotentialof50mV,thej ofIrPdPtRhRuHEANPsis3.4 commercialPt/Ccatalyst."
+paper4.txt,IrPdPtRhRuVW,17.0,,"Wesupposethatthelongcyclinglife
+geo
+(4.3),2.5(8.4),4.8(321.5),1.5(18.3),and1.6(15.2)timeshigher of IrPdPtRhRu HEA NPs might be derived from the high
+thanthoseofthemonometallicRu,Rh,Pd,Ir,andPtcatalysts corrosionresistanceofHEAalloys.4
+inacidic(alkaline)solution,respectively(Fig.4bande).Onan It is wi"
+paper4.txt,IrPdPtRhRuV,50.0,,"The TOF values at an overpotential of is, a deeper d-band centre corresponds to higher activity,
+25and50mVofIrPdPtRhRuHEANPswere1.4and3.2H pers whichisconsistentwithpreviousreports.29,40Here,wenote
+2
+in 0.05 M H SO , respectively, which were 7.8 and 3.1 times that the Ir NPs showed a slight deviatio"
+paper4.txt,V,10.0,,"Thedashedarrowdemonstratesthelossof light blue regions show the trend of the activity following d-band
+overpotentialataj of10mVcm(cid:2)2."
+paper5.txt,MoNiPdPtV,13.0,,"The PdMoGaInNi HEA nanosheets
+exhibitahighHERactivitywithlowoverpotentialsof13mVat10mA
+cm−2,outperformingcommercialPd/CandPt/Ccatalysts."
+paper5.txt,PtV,13.0,,"The
+HEA nanosheets exhibit a lower overpotential (η = 13 mV at
+configurations were thoroughly annealed in AIMD to obtain
+10 mA cm−2) and a higher exchange current density (i =
+0 stable configurations, which were further optimized by DFT, 10−1.79A/cm2)in0.5MH SO aqueouselectrolyte,compared
+2 4 and th"
+paper5.txt,V,10.0,,"After such most promising HER electrocatalyst (Figure 1b).
+11956 https://doi.org/10.1021/acscatal.2c02778
+ACSCatal.2022,12,11955−11959
+Downloaded
+from
+pubs.​acs.​org/​accacs/​article-pdf/​12/​19/​11955/​4816376/​cs2c02778.​pdf
+by
+NATL
+INST
+TECHLGY
+SRINAGAR
+user
+on
+08
+October
+2026
+
+ACS Catalysis pubs"
+paper5.txt,MoNiPdPtV,13.0,,"The HAADF-STEM the PdMoGaInNi HEA nanosheets exhibit excellent HER
+images and the corresponding energy-dispersive X-ray spec- activity with an overpotential of only 13 mV at the current
+troscopy (EDS) elemental mappings (Figures 2d and S4−S9) density of 10 mA cm−2, which is better than the commercia"
+paper5.txt,VW,370.0,,"Chengjie Wang − Institute of Fundamental and Frontier
+WhenthePEMwaterelectrolyzerwasoperatedatthecurrent Sciences, University of Electronic Science and Technology of
+density of 100 mA/cm2, the cell voltage was 1.6 V (i.e., an China, Chengdu, Sichuan 610054, China
+overpotential of 370 mV) for water s"

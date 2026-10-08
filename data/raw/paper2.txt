@@ -1,0 +1,1130 @@
+RESEARCH ARTICLE
+www.advmat.de
+Octahedral Nanocrystals of Ru-Doped PtFeNiCuW/CNTs
+High-Entropy Alloy: High Performance Toward pH-Universal
+Hydrogen Evolution Reaction
+Chaohui Wang, Jun Zhang, Kanghua Miao, Mairui Long, Siyuan Lai, Shijun Zhao,*
+and Xiongwu Kang*
+decarbonizationofenergysystems,there-
+Integratinghigh-entropyphilosophyandnanocrystal-specificorientationinto search of water electrolysis for hydrogen
+asinglecatalystrepresentsapromisingstrategyindevelopmentof productionisrequiredinevitably.[1] Hydro-
+high-performancecatalysts.Nonetheless,shape-controlledsynthesisof gen evolution reaction (HER) on the cath-
+ode of an electrolyzer needs catalysts to
+high-entropyalloy(HEA)nanocrystalsischallengingowingtothedistinct
+lowertheelectrochemicaloverpotentialfor
+redoxpotentialsandgrowthdynamicsofmetalelements.Herein,aone-pot
+high-efficiencyoutput;andsofar,platinum
+co-reductionmethodisdevelopedtofabricateruthenium(Ru)-doped
+(Pt)-based alloys have been the excellent
+PtFeNiCuWoctahedralHEAnanocrystalsontocarbonnanotubes candidatesduetoimprovedactivity,stabil-
+(Ru–PtFeNiCuW/CNTs).ItisdemonstratedthatRudopantsandW(CO) ity, and economy originating from ensem-
+6
+promotetheconcurrentreductionandgrowthofothermetalprecursorsto bleeffects,ligandeffects,andgeometricef-
+fects by incorporation of cheap metals.[2]
+obtainhigheryieldandlargersizeofHEAnanocrystals,despitelowRu
+A tremendous number of metallic cat-
+contentinRu–PtFeNiCuW/CNTs.Asanelectrocatalysttowardhydrogen
+alysts has demonstrated that surface and
+evolutionreaction(HER),Ru–PtFeNiCuW/CNTsexhibitslowoverpotentialsof interface engineering can modify the ac-
+9,16,and34mVatacurrentdensityof10mAcm−2andTafelslopesof19.2,
+tive sites and regulate the adsorption–
+27.9,and23.1mVdec−1inacidic,alkaline,andneutralelectrolytes, desorptionbehaviorsofreactants,interme-
+diates, and products, thereby improving
+respectively.Asacathodiccatalyst,Ru–PtFeNiCuW/CNTsoperatesforupto
+the catalytic reactivity.[3] High-entropy al-
+1500and1200hinacidicandalkalineelectrolyte,respectively,atacurrent
+loys (HEAs), with their unique multivari-
+densityof50mAcm−2inatwo-electrodesystemforfullwatersplitting.
+ate endowment and complex atomic con-
+TheoreticalcalculationsrevealacceleratedkineticsofH 2 OdissociationonW figurations, offer a vast scope of possibil-
+sitesand*HdesorptiononhollowCu–Cu–CuandCu–Cu–Ptsites. ities. In particular, their surface electronic
+and geometric structures can be regulated
+to a greater extent to design catalysts with
+unexpected performance. An expansive
+1.Introduction compositional space provides more flexible compositional
+choices for catalyst design and adjustment.[4] The complex
+As a highly efficient and environmentally benign energy car- atomic configurations derived from the random multi-element
+rier,hydrogenhasgainedrisinginterest,andthehydrogenen- mixingbringupadiverserangeofadsorptionsitesandanear-
+ergy economy has been vigorously advocated. To achieve the continuous binding energy distribution pattern.[5] The larger
+configuration entropy contributes to the formation of a stable
+single-phasesolidsolutionstructureratherthanafragileinter-
+C.Wang,K.Miao,M.Long,S.Lai,X.Kang metalliccompound.[6] Moreover,thesufficientincorporationof
+NewEnergyResearchInstitute
+non-noblemetalsintoPt-basedHEAremarkablyreducesthecost
+SchoolofEnvironmentandEnergy
+ofcatalysts;while,maintainingorevenenhancingtheintrinsic
+SouthChinaUniversityofTechnology
+Guangzhou510006,China activityofthealloycatalysts.[7]Asaresult,thehigh-entropyphi-
+E-mail:esxkang@scut.edu.cn losophy has been actively pursued for heterogeneous catalysis
+J.Zhang,S.Zhao fromboththeoreticalandexperimentalperspectives.[8]
+DepartmentofMechanicalEngineering Delicatestructuralormorphologicaldesignprevailsinthedo-
+CityUniversityofHongKong
+main of mono-, bi-, or trimetallic catalysis, based on which, a
+HongKong999077,China
+E-mail:shijzhao@cityu.edu.hk sophisticated structure–property–reactivity relationship can be
+established.[9] To date, such correlation remains ambiguous
+TheORCIDidentificationnumber(s)fortheauthor(s)ofthisarticle and challenging in HEA catalysis due to the unavailability of
+canbefoundunderhttps://doi.org/10.1002/adma.202400433 nano-catalysts with surface facets of a specific index. To this
+DOI:10.1002/adma.202400433 end, the synthesis of uniform HEA nanocrystals with tailored
+Adv.Mater.2024,36,2400433 2400433(1of12) ©2024Wiley-VCHGmbH
+
+www.advancedsciencenews.com www.advmat.de
+size,shape,composition,andnanocrystalstructureisindispens- spondsto(111)and(200)reflectionsofface-centeredcubic(FCC)
+able. Over the past few years, several synthetic methodologies, crystallinephase.ThebrightspotsinthefastFouriertransform
+such as carbothermal shock,[10] solvothermal,[11] continuous- (FFT)pattern(insetinFigure1e)furtherprovethehighlycrys-
+flow reactor,[12] liquid metal-assisted,[13] and combinatorial co- tallineFCCstructures.
+sputtering,[4b] have successfully been used to prepare HEA The FCC phase structure of Ru–PtFeNiCuW HEA octahe-
+nanoparticles. Nevertheless, precise control of specific orienta- dra is also identified by powder X-ray diffraction (PXRD). As
+tionforHEAnanocrystalsremainsagrandchallengeowingto depicted by Figure 1f, the four characteristic peaks of the
+the distinct reduction, nucleation, and growth kinetics of con- FCC phase at 41.6°, 48.4°, 70.9°, and 85.6° are indexed to
+stituentmetals.Fortunately,thematureempiricaltheoriesofbi- (111), (200), (220), and (331), respectively, similar to those of
+naryandternaryalloybringusenormousinspiration.Numerous Cu Pt(JCPDSNo.35–1358).PXRDimageofourpreviouslyre-
+3
+examples point out an effective wet-chemistry method that the ported Ru–PtFeNiCuMo/CNTs is provided in Figure S3, Sup-
+successfulsynthesisofwell-definedshape-selectivenanocrystals porting Information for comparison. The intensity ratio be-
+ofsinglemetalandalloyisdeterminedbyacarefuldesignofsyn- tween the two main peaks of (200) and (111) is 0.28 for Ru-
+theticprotocolinvolvingpropersurfactants,reducingagents,and PtFeNiCuW, which is lower than 0.38 for the Cu Pt bulk ma-
+3
+solvents.[14] terials, indicating that single-phase HEA nano-octahedra are
+Herein, a one-pot co-reduction protocol is reported to fabri- dominated by {111}-terminated facets. The atomic ratio of
+cate uniform octahedra nanocrystals of Ru-doped PtFeNiCuW Pt/Fe/Ni/Cu/Ru/WforRu-PtFeNiCuWoctahedraisdetermined
+HEAboundedby{111}facets,withanaveragesizeof≈17nm tobe24.8/12.7/7.1/34.5/0.2/20.8(TableS1,SupportingInforma-
+oncarbonnanotubes(Ru–PtFeNiCuW/CNTs).Aseriesofcontrol tion)byinductivelycoupledplasmaopticalemissionspectrome-
+experiments demonstrate that both ruthenium (Ru) and tung- ter(ICP-OES),showingthetraceamountofRudopingintoHEA.
+sten hexacarbonyl (W(CO) ) play a crucial role in the homoge- The TEM energy dispersive X-ray spectroscopy (STEM-EDS)
+6
+neousreductionofdistinctmetalcationsandgrowthofoctahe- elementalmappingimagesinFigure1gshowdistinctlyvisible
+dralnanocrystals,despitethelowcontentofRuinthefinaloc- octahedral profiles, and six elements are homogeneously dis-
+tahedra HEA nanocrystals. As an electrocatalyst for HER, Ru– tributed throughout the whole HEA octahedra, demonstrating
+PtFeNiCuW/CNTsshowexceptionallyhighHERcatalyticactivity the formation of homogeneous alloy in Ru–PtFeNiCuW HEA
+and robust stability. Theoretical calculations reveal that the en- octahedra. The HAADF image in STEM mode is used to ob-
+hancedintrinsicactivityisascribabletoinitialwateradsorption serve the atomic arrangement in Ru–PtFeNiCuW HEA octahe-
+anddissociationonWsitesfortheproductionofample*Hin- dra.AsshowninFigure2a,brightanddarkspotsarerandomly
+termediates,whichthenmigratetoanddesorbontheneighbor dispersedinaclearlyvisibleoctahedron.TheenlargedHAADF-
+reactivehollowsites(e.g.,Cu–Cu–Pt);thus,acceleratingtheover- STEMimagesandthecorrespondingsimulatedatomicmodels
+allHERkinetics. (Figure2b,c)illustratetheuniformmixingofvariouselements
+with different atomic weights. It is found that oxygen evenly
+2.ResultsandDiscussion spreadsovertheentirebackground,andthereisnodistincten-
+richmentontheHEAoctahedroninitsmappingimage(Figure
+The Ru–PtFeNiCuW/CNTs octahedra catalyst is fabricated by S4,SupportingInformation),demonstratingnoapparentoxida-
+grindingcarbonnanotubes(CNTs)withequimolarPt,Fe,Ni,Cu, tionofthesemetalsinHEA.
+andRuacetylacetonateprecursorsandadditivetungstenhexacar- Further,X-rayabsorptionspectroscopy(XAS)isutilizedtoin-
+bonyl (W(CO) ), which are then subjected to one-pot oil phase vestigatethechemicalstatesofRu–PtFeNiCuW/CNTs.Astheac-
+6
+synthesisat220°Cfor2h.Inthisprotocol,oleylaminefunctions quisitionofthePtL -edgeisdisruptedbyWL -edge;thus,the
+3 3
+asthesolvent,CNTsassupports,glucoseasthereducingagent, X-ray absorption near-edge structure (XANES) of Pt L -edge is
+2
+andcetyltrimethylammoniumchloride(CTAC)asthesurfactant, measured. Pt L -edge and Cu K-edge (Figure 2d,e) both show
+2
+respectively. Tungsten hexacarbonyl (W(CO) ) is verified as an similarfeatureswithreferencetothePtandCufoil,demonstrat-
+6
+indispensablefactorcontributingtothereductionofmetalpre- ingtheirmetallicstate.AsshowninFigure2f,theobviousde-
+cursors, nucleation, and subsequent growth of specific octahe- viationsinpre-absorptionedgefeatureandwhiteline(WL)in-
+dralnanocrystals.Consideringobstructionoftheelectrocatalytic tensitysuggestthatWinHEAhasahigherchemicalstatethan
+sitesofnanocrystals,oleylaminesurfactantsareremovedbysoak- metallicW.ThisisprobablybecauseWhasthelowestelectroneg-
+inginaceticacidsolutionfor4hat45°C.Ru–PtFeNiCuWHEA ativity out of the six elements (Table S2, Supporting Informa-
+octahedraaredeterminedbyhigh-angleannulardark-fieldscan- tion), which donates electron density; and thus, modulates lo-
+ningtransmissionelectronmicroscopy(HAADF-STEM)images, calelectronicstructure.Ontheotherhand,partoftheWatoms
+asshowninFigure1a,b,whichareuniformlydispersedonthe may be oxidized due to their high oxygen affinity (Figures S4
+carbonnanotubeswithanaverageaxiallengthof16.6±1.9nm, andS5,SupportingInformation).TheFouriertransformsofex-
+asevidencedbythestatisticalhistogramdisplayedinFigureS1, tended X-ray absorption (FT-EXAFS) spectra are conducted to
+SupportingInformation.ThemagnifiedTEMimages(Figure1c; further investigate the local coordination structure of the ele-
+Figure S2, Supporting Information) are in agreement with the ments.TheFT-EXAFSspectrumforPtinRu–PtFeNiCuW/CNTs
+projectedshapesofanoctahedralmodelatdifferentorientations, (Figure2g)displaysobvioustwometalcoordination,Pt–M ,with
+1
+further revealing the feature of octahedra-shaped nanocrystals. abondlengthof2.33Åandcoordinationnumberof9.09;and
+AsshowninFigure1d,e,thehigh-resolutionTEM(HRTEM)im- Pt–M with a bond length of 2.44 Å and coordination number
+2
+agesshowthesingle-crystalstructurewithwell-definedfringes of3.49 (FigureS6and Table S3,SupportingInformation).The
+and interplanar spacings of 0.217 and 0.188 nm, which corre- FT-EXAFSspectrumforCuinRu-PtFeNiCuW/CNTs(Figure2h)
+Adv.Mater.2024,36,2400433 2400433(2of12) ©2024Wiley-VCHGmbH
+15214095,
+2024,
+33,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.202400433
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.advmat.de
+Figure1. a)Alow-magnificationHAADF-STEMimageandb)anenlargedHAADF-STEMimageofRu–PtFeNiCuW/CNTs.c)TEMimagesofaRu–
+PtFeNiCuWoctahedronandthecorrespondingprojectedoctahedronmodel(insetin[c]).d,e)HRTEMimagesofRu–PtFeNiCuW/CNTsfordetermination
+ofinterplanarspacing.Theinsetin(e)isthecorrespondingFFTpattern.f)PXRDimagesofAlfoil,CNTs,andRu–PtFeNiCuW/CNTs.g)HAADF-STEM
+andthecorrespondingSTEM-EDSmappingimagesofaRu–PtFeNiCuWoctahedron.
+showscoordinationofCu–M andCu–M ,withbondlengthsof 2pspectrumshowsthepresenceofNi0andNi2+species,andthe
+1 2
+2.55and2.67Åandcoordinationnumbersof4.11and8.20,re- BEsat853.6,870.7,856.7,and873.8eVareascribedtoNi02p ,
+3/2
+spectively. The W and Ni FT-EXAFS spectra (Figure 2i; Figure Ni0 2p ,Ni2+ 2p ,andNi2+ 2p ,respectively.Theothertwo
+1/2 3/2 1/2
+S7, Supporting Information) demonstrate similar coordination peakswithBEsat862.3and879.4eVareattributedtothesatellite
+to their oxides, indicating oxidized chemical states for W and peaksofNi2p.AsforRu,thecontentofRuistoolowtoshow
+Ni. distinguishablepeaks.
+In addition, X-ray photoelectron spectroscopy (XPS) is per- The role of CNTs in the formation of Ru–PtFeNiCuW octa-
+formed to investigate the surface elemental charge state of the hedra nanocrystals is indispensable. As shown in Figure S9,
+as-preparedRu–PtFeNiCuW/CNTs(FigureS8,SupportingInfor- Supporting Information, it is clearly observed that nanoparti-
+mation).Thehigh-resolutionPt4fspectrumsuggeststhecoexis- cles, clusters, and some amorphous metal oxides co-exist for
+tenceofPt04f (71.6eV),Pt04f (74.9eV),Pt2+4f (72.9eV), the Ru–PtFeNiCuW counterpart without using CNTs as sup-
+7/2 5/2 7/2
+andPt2+4f (76.2eV).[7c]TheXPSofCu2pindicatesthepres- port,indicatingthephaseseparationandnonuniformdispersion
+5/2
+ence of Cu0 (932.5 and 952.6 eV for Cu0 2p and Cu0 2p ) of nanoparticles and metal elements in Ru–PtFeNiCuW with-
+3/2 1/2
+and Cu2+ (935.1 and 957.1 eV for Cu2+ 2p and Cu2+ 2p ). out CNTs support. It is proposed that the defects and chemi-
+3/2 1/2
+The W atoms on the surface are only found in their oxidation cal groups on the large surface areas of CNTs provide ample
+states,W5+ andW6+.Themaindoubletsat35.6,37.8,36.2,and anchoringsitesforuniformheterogeneousnucleationandcon-
+38.4eVcorrespondtoW5+ 4f ,W5+ 4f ,W6+ 4f ,andW6+ tinuous growth of the nuclei to nanocrystals through the co-
+7/2 5/2 7/2
+4f ,respectively.[15] TheFe2pXPSdisplaystwopeaksat706.6 reductionofvariousprecursors.Differentvarietiesofcarbonsup-
+5/2
+and719.9eV,correspondingtoFe0 2p andFe0 2p ,andthe ports could result in nanocrystals with different compositions 3/2 1/2
+othertwopeaksat712.0and725.3eVareattributedtoFe2+2p andsizedistributions.[16]Conversely,withoutCNTsandthecor-
+3/2
+andFe2+2p ,respectively.Twosatellitepeaks(markedas“Sat.”) responding chemical groups, it requires much higher concen-
+1/2
+appearatbindingenergies(BEs)of717.6and730.9eV.TheNi tration of reduced metal atoms for concurrent reduction and
+Adv.Mater.2024,36,2400433 2400433(3of12) ©2024Wiley-VCHGmbH
+15214095,
+2024,
+33,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.202400433
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.advmat.de
+Figure2. a)TheHAADF-STEMimageandb,c)atomicallyresolvedHAADF-STEMimagesandthecorrespondingsimulatedatomicimagesofanocta-
+hedralRu–PtFeNiCuWnanocrystal.XANESspectraforrepresentatived)Pt,e)Cu,andf)Welement.FT-EXAFSspectraforrepresentativeg)Pt,h)Cu,
+andi)Welements.
+homogeneous nucleation of the six metal elements, which is understandtheindividualroleofCOfromW(CO) inthereduc-
+6
+morechallengingtocontrolthenucleationandsequentialepitax- tion of metal cations and selective growth of nanocrystals. Dif-
+ialgrowthtowell-definednanocrystals.Thus,phaseseparation ferentfromthesparsenanoparticlesofRu–PtFeNiCu/CNTspro-
+andnonuniformdistributionofmetalelementsandaggregates ducedwithoutW(CO) ,theintroductionofCOresultsinahigher
+6
+areobservedfortheRu–PtFeNiCuWcounterpartwithoutusing yield and dense distribution of nanoparticles on CNTs (Figure
+CNTsassupport. S12,SupportingInformation),suggestingthatCOpromotesthe
+To elucidate the mechanism for preferential nanocrystal ori- reduction of metal ions as a strong reductant. It is noted that
+entation, a series of control experiments is designed. The diverse Ru–PtFeNiCu-CO nanowires, polygon, and octahedra-
+first control sample is denoted as Ru–PtFeNiCu/CNTs, where shaped nanocrystals are obtained. The octahedral nanocrystals
+W(CO) is removed from the precursor solution; while, oley- show a smaller diagonal length of 11.5 ± 2.3 nm relative to
+6
+lamineandglucoseserveasreductants.TheTEMimagesofRu– that of Ru–PtFeNiCuW/CNTs. The diameter of nanowires is
+PtFeNiCu/CNTsshowthatfewernanoparticlesareformedand ≈1.6nm,andEDSmappingequallyindicatestheuniformdis-
+supported on CNTs with poor morphology uniformity (Figure tribution of the metal components over the nanowires and
+S10, Supporting Information), suggesting a much lower yield nanocrystals (Figure S12, Supporting Information). It is spec-
+of Ru–PtFeNiCu nanocrystals on CNTs without using W(CO) . ulated that preferential CO adsorption onto the specific {111}
+6
+ThisisconsistentwiththedecreasedintensityofXRDpeaksof facets regulates the nanocrystal morphology. Nonetheless, the
+Ru–PtFeNiCu/CNTs(FigureS11,SupportingInformation).Itis local enrichment of Cu is observed in both mapping and the
+believed that the thermal decomposition of W(CO) generates XRD pattern (Figure S11, Supporting Information), indexed
+6
+COgasandmetallicWspecies(W0),[17]regulatingthereduction to the faster redox kinetics of Cu2+/Cu than Pt2+/Pt.[18] The
+ofmetalcationsandnucleationandgrowthdynamicsofmetal distinct redox potentials of these metal ion/metal pairs (com-
+nanocrystals. piled in Table S4, Supporting Information) determine the re-
+AcontrolsampleofRu–PtFeNiCu-COonCNTsissynthesized ductionkineticsofmetalionsandnucleationkineticsofmetal
+inCOatmospherewithoutusingW(CO) precursortoexplicitly atoms. 6
+Adv.Mater.2024,36,2400433 2400433(4of12) ©2024Wiley-VCHGmbH
+15214095,
+2024,
+33,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.202400433
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.advmat.de
+InthepresenceofW(CO) ,thermalrefluxatelevatedtempera- a current density of 10 mA cm−2, superior to that of Pt/C
+6 tureresultsinW0species.Duetothemorenegativeredoxpoten- (13mV),Ru–PtFeNiCu/CNTs(58mV),Ru–PtFeNiCu-CO/CNTs
+tialofW3+/W0pair(0.100V)thanPt2+/Pt(1.180V)andCu2+/Cu (18mV),andPtFeNiCuW/CNTs(57mV).Ru–PtFeNiCuW/CNTs
+(0.342V),thegalvanicreplacementof(Cu2++W0⇌Wn++Cu0) exhibits a Tafel slope of 19.2 mV dec−1, lower than that of
+and(Pt2++W0⇌Wn++Pt0)notonlypromotestheinitialcon- Ru−PtFeNiCu-CO/CNTs(26.6mVdec−1),Pt/C(27.2mVdec−1),
+current reduction of Cu2+ and Pt2+ but also acts as a “buffer” Ru–PtFeNiCu/CNTs (38.4 mV dec−1), and PtFeNiCuW/CNTs
+to prevent the overconsumption of Cu2+ and Pt2+ at the initial (44.7 mV dec−1), demonstrating a Volmer–Tafel mechanism
+nucleationstage,ensuringthesufficientfeedstockforthesubse- for Ru–PtFeNiCuW/CNTs and Ru–PtFeNiCu-CO/CNTs, but a
+quenthomogeneousgrowth.[19]Asforthosemorereactivemet- Volmer–HeyrovskymechanismforRu–PtFeNiCu/CNTsandPt-
+als(FeandNi),ithasbeenreportedthattinyW0speciescanact FeNiCuW/CNTs (Figure 3b).[21] The exchange current density
+asasacrificialreducingagent.[20]The“reservoir”roleofW0can (j ) (Figure 3c) is calculated by normalizing the exchange
+0
+regulatetheconcurrentreduction,homogeneousnucleation,and current to the electrochemical surface area (ECSA) derived
+growthkineticsofdiversemetalprecursorsandfavortheforma- from the charges associated with underpotential deposition
+tionofHEAsolidsolution.Therefore,W(CO) isindispensable (UPD) of Cu (Figure S20, Supporting Information) to evalu-
+6
+tothesynthesisofuniformHEAnano-octahedra. ate the intrinsic activity,[22] which is more accurate to deter-
+AlthoughthecontentofRuinRu–PtFeNiCuW/CNTsislower mine ECSA for Pt-based alloys.[23] j is 0.198 mA cm −2
+0 ECSA
+than 1%, it equally plays a significant role in the formation forRu-PtFeNiCuW/CNTs,overwhelmingthatofRu–PtFeNiCu–
+ofRu–PtFeNiCuW/CNTsoctahedralnanocrystals.OctahedralPt- CO/CNTs(0.111mAcm −2),Ru–PtFeNiCu/CNTs(0.118mA
+ECSA
+FeNiCuWHEAnanocrystalsaremuchlowerinyieldandsmaller cm −2), Pt/C (0.054 mA cm −2), and PtFeNiCuW/CNTs
+ECSA ECSA
+insizethanoctahedralRu–PtFeNiCuWHEAnanocrystals,asev- (0.032mAcm −2).Ru–PtFeNiCuW/CNTsoutperformsthead-
+ECSA
+idencedinPXRDandTEMimages(FigureS13,SupportingIn- vanced HEA or alloy catalysts reported in the recent literature
+formation);although,theoctahedralnanocrystalshapeismain- (Figure3f)andisoneofthebestHERelectrocatalystsinanacidic
+tained very well in the absence of Ru. PtFeNiCuW octahedron environment,intermsofTafelslopeand𝜂 .
+10
+has an average axial length of 10.8 ± 0.8 nm, which is smaller Thespecificactivitiesareevaluatedbynormalizingthecurrent
+than that of the Ru–PtFeNiCuW counterpart (16.6 ± 1.9 nm). densitytoECSA.AsshowninFigure3d,Ru–PtFeNiCuW/CNTs
+The full width at half maximum (FWHM)of the (111) peak in exhibits excellent specific activity, which is superior to that
+the PXRD pattern is determined to be 1.122° and 1.705° for of Ru–PtFeNiCu-CO/CNTs, Ru–PtFeNiCu/CNTs, Pt/C, and Pt-
+samples with and without Ru doping, respectively. The corre- FeNiCuW/CNTs in the entire potential region. In addition, the
+spondingXRDcrystallitesizeanalysisviatheScherrermethod mass activity of Ru–PtFeNiCuW/CNTs is also calculated, with
+shows a crystalline domain size of 5.0 nm for PtFeNiCuW, respect to the mass of noble metals (Pt and Ru) (Figure 3e),
+which is also smaller to that of the Ru-containing counterpart overwhelming that of Pt/C, evidencing the high advantage of
+(7.6 nm). These results indicate that the Ru element promotes octahedra-shapedHEA.
+the reduction, nucleation, and growth of the rest of the metal AspresentedinFigureS21a,SupportingInformation,afterac-
+atomsinRu–PtFeNiCuW/CNTs;thus,resultinginhigheryield, celerateddegradationtests(ADT)for10000CVcyclesbetween
+higher crystallinity, and larger nanocrystal domain size. Even 𝜂 and +0.2 V , the LSV curve of Ru–PtFeNiCuW/CNTs
+100 RHE
+thoughtheamountofRuintheinitialfeedstocksolutiondou- shows a reduction of ESCA by 8.9% due to agglomeration of
+bles or quadruples, no apparent increase of Ru content in Ru– metalnanoparticles,andthe𝜂 remainsat9mV.Incontrast,the
+10
+PtFeNiCuW/CNTsisobserved(FiguresS14andS15,Supporting 𝜂 ofPt/Cincreasesfrom12to19mVafterADT(FigureS21b,
+10
+Information). SupportingInformation),whichiscausedbysevereaggregation
+BothCuPtW/CNTsandCuPt/CNTsshowonlysphericalshape, ofnanoparticlesandlargelyreducedECSAby25.7%(FiguresS22
+andnooctahedralshapeisobserved.Inaddition,somenanoclus- andS23,SupportingInformation).Ru–PtFeNiCuW/CNTsexhibit
+ter impurities with much smaller size are also discernible in along-termstabilityfor50hin0.5mH SO solution(Figure3g).
+2 4
+the TEM image (Figure S16, Supporting Information). CuPtW Afterrigorousoperationfor50h,theindicated𝜂 increasesby
+10
+nanoparticleshavelargerlatticeparametersthanCuPtbecause only7mV(insetsofFigure3g).Nevertheless,thecomposition
+oftheintroductionofWatomswithalargeratomicradiusthan ofRu–PtFeNiCuW/CNTsisbasicallysteady,reflectedbytheXRD
+CuorPt.TheseresultsunderscoretheimportanceofFe/Ni/Ru imageandlatticefringes,whichexhibitsimilarfeaturesbefore
+atomsinthegrowthofoctahedralnanocrystals,despitetheirrel- andafterthestabilitytest(FigureS21,SupportingInformation).
+ativelylowcontentsinthefinalPtFeNiCuRuW/CNTsproduct. Moreover,theoctahedralmorphologyofnanoparticlesremains
+TheelectrochemicalHERperformanceiscomprehensivelyin- intact.Theseresultscomprehensivelydemonstratetheexcellent
+vestigated in a conventional three-electrode cell, at room tem- stability of Ru–PtFeNiCuW/CNTs toward corrosion resistance.
+perature in N -saturated electrolyte. All catalyst inks are pre- TheremarkablestabilityofRu–PtFeNiCuW/CNTsisascribedto
+2
+pared with sonication for 1 h to guarantee the film qual- thespecificHEAcompositionandtheenclosed{111}facetsof
+ity (Figures S17 and S18, Supporting Information). All poten- Ru–PtFeNiCuWHEAoctahedrananocrystals,whichshowsone
+tials are calibrated with iR-correction based on R measured orderofmagnitudeslowerdissolutionratethan{100}.[24]
+s
+by electrochemical impedance spectroscopy (Figure S19 and Ru-PtFeNiCuW/CNTs also exhibits excellent HER perfor-
+Table S5, Supporting Information). Figure 3a exhibits the cur- mance in alkaline media. As shown in Figure 4a–c, Ru–
+rent density normalized to the geometric area of the glassy PtFeNiCuW/CNTs achieves a preeminent activity in 1.0 m
+carbon electrode (GCE). In 0.5 H SO , Ru–PtFeNiCuW/CNTs KOH (𝜂 = 16 mV, Tafel slope = 27.9 mV dec−1, and j
+2 4 10 0
+catalyst achieves the lowest overpotential (𝜂 ) of 9 mV at = 0.264 mA cm−2), superior to that of Ru–PtFeNiCu/CNTs, 10
+Adv.Mater.2024,36,2400433 2400433(5of12) ©2024Wiley-VCHGmbH
+15214095,
+2024,
+33,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.202400433
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.advmat.de
+Figure3. HERperformancein0.5mH SO electrolyte.a)HERpolarizationcurves(normalizedbygeometricareaofelectrode),b)Tafelplots,c)the
+2 4
+histogramforTafelslopesandexchangecurrentdensities,andd)ECSA-normalizedHERpolarizationcurvesofcommercialPt/C,Ru–PtFeNiCuW/CNTs,
+Ru–PtFeNiCu/CNTs,Ru–PtFeNiCu-CO/CNTs,andPtFeNiCuW/CNTs.e)QuantitativecomparisonsofthemassactivityofRu–PtFeNiCuW/CNTsand
+commercialPt/Catvariouspotentials.f)Overpotentialat10mAcm−2(𝜂 )andTafelslopecomparisonsofRu–PtFeNiCuW/CNTswithhigh-entropy
+10
+materials(darkercolors)andbinaryorternaryalloys(lightercolors)reportedintherecentliterature(TablesS6andS7,SupportingInformation).g)
+Long-termstabilitytestofRu–PtFeNiCuW/CNTsat−0.03VversusRHEfor50h.Theinsetsin(g)aretheLSVcurvesbeforeandafterthestabilitytest
+(left),andSTEM-EDSmappingimagesofthespentsampleafterthestabilitytest(right).
+Ru–PtFeNiCu-CO/CNTs,PtFeNiCuW/CNTs,andPt/C,interms are impervious to erosion during the long-term operation in
+of𝜂 ,Tafelslope,andj .TheintroducedWsitesinHEAacceler- such a strong basic solution. In addition, the LSV curves col-
+10 0
+atewateractivationanddissociationandmayberesponsiblefor lected before and after ADT for 30 000 CV cycles nearly over-
+promotingHERactivityofRu–PtFeNiCuW/CNTsinalkalineme- lap with each other, suggesting the ultrahigh stability of Ru–
+dia.Ru–PtFeNiCuW/CNTsdisplaysanexchangecurrentdensity PtFeNiCuW/CNTs (Figure S25, Supporting Information). As
+of0.264mAcm −2,whichis7.0,2.5,3.3,and3.8timeshigher showninFiguresS26andS27andTableS9,SupportingInforma-
+ECSA
+thanthatofPt/C,Ru–PtFeNiCu/CNTs,Ru–PtFeNiCu-CO/CNTs, tion,Ru–PtFeNiCuW/CNTscatalystalsoexhibitsexcellentHER
+and PtFeNiCuW/CNTs, respectively (Figure 4c). The mass ac- performance and robust stability in 1.0 m phosphate-buffered
+tivity of Ru–PtFeNiCuW/CNTs is ≈6.5 times relative to that of saline (PBS) solution. The superior pH-universal HER perfor-
+Pt/C in the measured potential range (Figure S24, Supporting manceofRu–PtFeNiCuW/CNTstothatofRu–PtFeNiCu/CNTs,
+Information). Ru–PtFeNiCuW/CNTs also outperforms most of Ru–PtFeNiCu-CO/CNTs, and PtFeNiCuW/CNTs might be as-
+the reported binary, ternary, and HEA catalysts in alkaline me- cribed to the unique elemental composition and structure of
+dia (Figure 4d). As shown in Figure 4e, Ru–PtFeNiCuW/CNTs Ru–PtFeNiCuWHEAoctahedrananocrystalsenclosedby(111)
+presentsappealingrobustnesswithnegligibleactivitydecaydur- facets.
+ing the test of 50 h, with a mere increase of 1 mV in 𝜂 . TheroleofCNTsintheelectrochemicalHERisalsoevaluated,
+10
+TheoctahedramorphologyandcompositionofRu–PtFeNiCuW as shown in Figure S28, Supporting Information. It is clearly
+Adv.Mater.2024,36,2400433 2400433(6of12) ©2024Wiley-VCHGmbH
+15214095,
+2024,
+33,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.202400433
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.advmat.de
+Figure4. HERperformancein1.0mKOHelectrolytes.a)HERpolarizationcurves(normalizedbygeometricarea),b)Tafelslopes,andc)thehis-
+togramforTafelslopesandexchangecurrentdensitiesofcommercialPt/C,Ru–PtFeNiCuW/CNTs,Ru–PtFeNiCu/CNTs,Ru–PtFeNiCu–CO/CNTs,and
+PtFeNiCuW/CNTsin1.0mKOHelectrolyte.d)Overpotentialat10mAcm−2andTafelslopecomparisonsofRu–PtFeNiCuW/CNTswithrecentlyre-
+portedHEA,binary,andternaryalloysinliterature(TableS8,SupportingInformation).e)Long-termstabilitytestofRu–PtFeNiCuW/CNTsin1.0m
+KOHat−0.05VversusRHEfor50h.Theinsetsin(e)aretheLSVcurvesbeforeandafterthestabilitytest(left),andSTEM-EDSmappingimagesof
+Ru–PtFeNiCuW/CNTsafterstabilitytest(right).
+observed that CNTs show little activity toward HER, and HER H SO electrolyte; although, the polarization curve of Ru–
+2 4
+performanceofRu–PtFeNiCuWwithoutCNTssupportismuch PtFeNiCuW/CNTsiscomparabletothatofPt/C(Figure5a),de-
+lower than that of Ru–PtFeNiCuW/CNTs, ascribed to the com- livering a geometrical current density of 1.0 A cm−2 at 1.97 V.
+pletelydifferentmorphology,size,andelementaldistributionin Ru–PtFeNiCuW/CNTsmaintainssteadyoperationat50mAcm−2
+thesamplecausedbythesupportofCNTs.Inaddition,theen- (Figure5b)upto1500h,outperformingthatofPt/C(350h).In
+hanceddispersion,electronicconductivity,andmasstransporta- 1.0KOH,asshowninFigure5c,Ru–PtFeNiCuW/CNTsexhibits
+tion of PtFeNiCuRuW nanocrystals offered by CNTs may also amuchhigheractivitythanPt/C,affordingacurrentdensityof
+promotethecatalyticperformance.Afteronly1000cyclesofADT 1.0Acm−2at2.22V,andworkssteadilyat50mAcm−2forupto
+testin0.5mH SO ,Ru–PtFeNiCuWnanoparticlesshowsevere 1200h,confirmingitsextremelyrobuststructureofHEAocta-
+2 4
+agglomerationandactivityattenuation(FigureS29,Supporting hedrananocrystals(Figure5d).
+Information).
+To further highlight the importance of introducing the Fe, 3.DensityFunctionalTheory(DFT)Calculations
+Co,Ni,andRuinHEAcatalysts,theHERperformanceofboth
+CuPt/CNTsandCuPtW/CNTs,ascontrolexamplesofnon-HEA Density functional theory (DFT) calculations are used to gain
+catalysts, are examined, and the lower HER activity than Ru– insight into the cooperation of multiple adsorption sites in the
+PtFeNiCuW/CNTs in three different electrolytes demonstrates acidicandnonacidicHER,respectively.Accordingtothecompo-
+thesignificanceofFe/Ni/Ruatomsforthesurfacesiteswithop- sitionofHEAandtheexposed(111)facetsofoctahedraofFCC
+timumadsorptionenergies,despitetheirrelativelylowcontents phase,thefivemoststableHEAconfigurationsareconstructed
+(FigureS30,SupportingInformation). (FigureS33,SupportingInformation).Typically,theatomiccon-
+TheHERperformancesofRu–PtFeNiCuW/CNTsandPt/Cin figurations of the crucial adsorbates *H, *H O, and *OH+*H
+2
+acidic(pH=0.5),neutral(pH=7.0),andalkaline(pH=13.6) forHERonHEAmodelsaredepictedinFigure6a.Thecharge
+electrolyteareplottedinasinglepanelbyrefencingthepotential density difference (Figure S34, Supporting Information) visu-
+tostandardhydrogenelectrode(SHE),asshowninFigureS31, allyexhibitselectrontransferfromtheHEAinterfacetothead-
+SupportingInformation.ThedrasticdecreaseinactivitywithpH sorbed*H O,*OH,and*H.ThePDOSofeachmetalinHEA
+2
+increaseisobvious,demonstratingthepH-dependentbehavior isshowninFigure6b,andthedbandcenterpositionofmetal
+oftheHER.[25] components in HEA follows the order: Pt ≈ Cu < Ni < Fe ≈
+The robust and superior electrochemical HER performance Ru < W, and the d band centers of W and Pt shift downward;
+ofRu–PtFeNiCuW/CNTsisalsoverifiedinatwo-electrodecon- whereas, those of Ru, Fe, Ni, and Cu experience upward shifts
+figuration (Figure S32, Supporting Information). In a 0.5 m ascomparedtothatofthepuremetal(FigureS35,Supporting
+Adv.Mater.2024,36,2400433 2400433(7of12) ©2024Wiley-VCHGmbH
+15214095,
+2024,
+33,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.202400433
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.advmat.de
+Figure5. Electrochemicalperformancefortwo-electrodewatersplitting.PolarizationcurvesofRu–PtFeNiCuW/CNTs‖IrO andPt/C‖IrO electrolyzers
+2 2
+ina)0.5mH SO andc)1.0mKOH,respectively.Long-termdurabilitytestsat50mAcm−2inb)0.5mH SO andd)1.0mKOH,respectively.Black
+2 4 2 4
+arrowsrepresentthereplacementofelectrolytes.
+Information). It is noted that the d band center of Cu in HEA whichmigratestotheadjacenthollowsite(TableS12,Supporting
+movesupto−2.22eV,approachingthatofpurePt(−2.25eV), Information).
+indicatinganoptimalhydrogenfreeenergy(ΔG )towardacidic
+H*
+HER.[21,22]Hatompreferstoadsorbonhollowsites(FiguresS36
+4.Conclusion
+andS37andTableS10,SupportingInformation)andthevalues
+ofΔG (Figure6c)followtheorder:Cu≈Pt>Ni>Fe>Ru>W, In summary, Ru–PtFeNiCuW HEA nano-octahedra are fabri-
+*H
+whichisconsistentwiththattrendpredictedbythed-bandtheory. catedontocarbonnanotubesthroughadelicateco-reductionpro-
+BothCuandPtserveasthemostfavorablecomponentsthatdom- cess, which combines morphologic control and the modulated
+inatetheΔG andhydrogendesorption,whereCu–Cu–Cuand reductionkineticsempoweredbyinsitugeneratedCOgasand
+*H
+Cu–Cu–Pthollowsites(Figure6d)arethemostactivesites,with W0species.Ruthenium(Ru)promotestheconcurrentreduction
+ΔG of0.017and−0.026eV,respectively.AsshowninFigure andgrowthofothermetalprecursors,achievinghigheryieldand
+*H
+S38,SupportingInformation,thehydrogendesorptiononCu Pt larger size of HEA nanocrystals, despite the low Ru content in
+3
+ismuchlessfavorableenergeticallythanthatonHEA,underlin- Ru–PtFeNiCuW/CNTs.AsanelectrocatalystforHERinthewide
+ingtheeffectofthosespectatoratomsFe/Ni/Ruinmodulating pH region, Ru–PtFeNiCuW/CNTs achieves improved HER cat-
+theelectronicstructureandcatalyticactivityofthesurface-active alyticactivity,intermsofoverpotential,Tafelslope,andexchange
+sites. currentdensity.Asacathodiccatalystofatwo-electrodesystem,
+In the nonacidic environment, the dissociation of H O in- Ru–PtFeNiCuW/CNTsoperatessteadilyforupto1500and1200
+2
+volved in the Volmer and Heyrovsky step is typically consid- hinacidicandalkalineelectrolyte,respectively,atacurrentden-
+eredastherate-determiningstep(RDS)formostofthereported sity of 50 mA cm−2 for full water splitting, ascribing to the ro-
+catalysts.[27] The free energy of *H O (ΔG ) (Figure 6e) in- bust structure of Ru–PtFeNiCuW HEA octahedra nanocrystals
+2 *H2O
+dicates that H O is preferably adsorbed on the top site of W enclosed by (111) facets. The origin of the enhanced intrinsic
+2
+(TableS11,SupportingInformation),withamedianΔG of activityisascribabletothemodulatedelectronicstructuresand
+*H2O
+−0.45eV.Theenergybarrierofthetransitionstate(TS)ofwa- improvedadsorptionenergies,specificallythetransformationof
+ter dissociation on the W site is the lowest (0.67 eV) among Cufrominactivetoactivesites.HollowCu–Cu–CuandCu–Cu–
+the four metal sites, as shown in Figure 6f, indicating that the Ptsitesacceleratethekineticsof*Hdesorption;while,Wsites
+WsiteaccountsforH Odissociationtogenerate*OHand*H, favorH Odissociation.Thisworkhighlightstheimportanceof 2 2
+Adv.Mater.2024,36,2400433 2400433(8of12) ©2024Wiley-VCHGmbH
+15214095,
+2024,
+33,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.202400433
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.advmat.de
+Figure6. Theoreticalcalculationresults.a)TheatomicconfigurationsofRu–PtFeNiCuWHEAwithadsorbed*H,H O*,and*OH+H*.b)Projected
+2
+densityofstatesofdorbitalsforeachmetalinRu–PtFeNiCuWHEA.Thegreydashedlinerepresentsthed-bandcenterofpurePtmetal(−2.25eV)
+calculatedbyNorskovetal.[26]Theboldcoloreddashlinerepresentsthed-bandcenterofthemetalcomponentinRu–PtFeNiCuWHEA.c)Theviolin
+plotsofthecalculatedfreeenergy(ΔG )ofhydrogenatomsoneachmetal-relatedsite.Themaximumandminimumvaluesareatbothendsofthe
+*H
+whiskerline,andthereddotsrepresentthemedianvalue.Thefreeenergiesonbridgeorhollowsitesarecountedoneachbindingatom.d)TheΔG
+*H
+profilesonvarioustypesofrepresentativesites.e)TheviolinplotofthecalculatedfreeenergyofH Oadsorbedondifferentelements.f)Thereaction
+2
+energyprofilesfortransitionstates(TS)ofwaterdissociationonfourmetalsites.
+shape-controlledsynthesisofoctahedralHEAnanocrystalsinde- that the authors’ group reported before with a few modifications.[7c]
+signingthehigh-performanceelectrocatalysts. CTAC(100mg)wasdissolvedinoleylamine(25mL)ina100mLflask
+under magnetic stirring at 300 rpm. After sonication for 30 min at
+≈25°C,equimolarPt(acac) (15.0mg),Fe(acac) (13.4mg),Ni(acac)
+2 3 2
+(9.8mg),Cu(acac) (10.0mg),andRu(acac) (15.2mg),aswellasglu-
+2 3
+5.ExperimentalSection cose(100.0mg),CNTs(56.6mg),andW(CO) (60.0mg),wereground
+6
+evenlyinamortaruntilsamplesbecameasinglegreycolor,addedinto
+Materials: Nickel acetylacetonate (Ni(acac) , 98%), iron 2,4- theaboveflask,andfollowedbysonicationof3hat≈25°C.Allsonication
+2
+pentanedionate (Fe(acac) , 98%), copper acetylacetonate (Cu(acac) , experimentswereconductedinaKQ5200DEultrasonicinstrumentwith
+3 2
+98%), platinum acetylacetonate (Pt(acac) , 98%), ruthenium acetylace- 200wattsofultrasonicinputpowerand40kHzofultrasonicfrequency
+2
+tonate (Ru(acac) , 98%), tungsten hexacarbonyl (W(CO) , 98%), and (KunshanUltrasonicInstrumentCo.,LTD,China).Theflaskwasheated 3 6
+Pt/C(Pt:20wt%,<5nmindiameter)weresuppliedbySigma–Aldrich. to220°Cat30°Cmin−1;andthen,keptfor2hundermagneticstirring
+Oleylamine(OAM,80–90%),(1-hexadecyl)trimethylammoniumchloride at 300 rpm. After cooling down to room temperature by cooling water
+(CTAC, 96%), and glucose (99%) were from Energy Chemical. Nafion (≈10 °C), the black products were precipitated by centrifugation at
+solution(5wt%,AlfaAesar),potassiumhydroxide(KOH,90%,Aladdin), 9000rpmandwashedthreetimeswithanethanol/cyclohexane(1:1,vol%)
+and multi-walled carbon nanotubes (CNTs, >97%, Sinopac Chemical mixture.Then,thecatalystswerefurthersoakedin0.5maceticacidsolu-
+ReagentCo.,LTD.China)were usedasreceived. Cyclohexane(98.5%), tioninethanolundersonicationfor30minat≈25°C;andthen,keptfor
+ethanol(99%),aceticacid(99.5%),andsulfuricacid(98%)weresupplied 4hat45°Ctoremoveorganiccappingligands.Finally,theproductswere
+by Tianjin Damao Chemical Plant. Deionized (DI) water was supplied collectedbycentrifugationat9000rpm,washedwithethanolthreetimes,
+fromaBarnsteadNanopurewatersystem(18.2MΩcm). anddriedinavacuumovenfor12hat60°C.
+Preparation of Carbon Nanotubes Supported Ru–PtFeNiCuW High PreparationofControlSamples: ForRu–PtFeNiCu/CNTs,asimilarsyn-
+Entropy Alloy (HEA) Octahedra Catalyst (Ru–PtFeNiCuW/CNTs): Ru– thesisprotocolwasfollowedexceptfortheremovalofW(CO) .ForRu–
+6
+PtFeNiCuW/CNTs was synthesized by a one-pot co-reduction method PtFeNiCu–CO/CNTs,apartfromremovingW(CO) ,COwaspumpedinto 6
+Adv.Mater.2024,36,2400433 2400433(9of12) ©2024Wiley-VCHGmbH
+15214095,
+2024,
+33,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.202400433
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.advmat.de
+theflaskatarateof15mLmin−1duringthethermalrefluxprocessuntil alkalineelectrolytewas1.0mKOH(pH=13.63).Foractivationofthecat-
+thesolutioncooleddowntoroomtemperature.ForPtFeNiCuW/CNTs, alysts,cyclicvoltammetry(CV)wasperformedinthepotentialrangeof
+a similar synthesis protocol was followed except for the removal of ≈0.3to−0.2V (≈40cycles)atasweeprateof100mVs−1 inaN -
+RHE 2
+Ru(acac) .Ru–PtFeNiCuWwithoutCNTssupportwasequallyprepared saturatedelectrolyte,toobtainastablevoltammogram.Theelectrochem-
+3
+by a similar synthesis protocol. For CuPtW/CNTs, Pt(acac) (18.8 mg) icalperformanceofthecatalystswasevaluatedbylinearsweepvoltam-
+2
+andCu(acac) (37.5mg)wereusedasmetalprecursors,andotherpro- metry(LSV)withascanrateof10mVs−1 inanN -saturatedsolution.
+2 2
+cedureswerethesameastheprior.ForCuPt/CNTs,Pt(acac) (18.8mg) Electrochemicalimpedancespectroscopy(EIS)measurementsweremea-
+2
+andCu(acac) (37.5mg)wereusedasmetalprecursors,W(CO) wasre- suredat𝜂 inthefrequencyrangefrom10kHzto0.01Hz.Thedurability
+2 6 10
+moved,andotherprocedureswerethesameastheprior. tests(i–t)wereperformedbychronoamperometrictestsatthepotentialof
+MaterialCharacterizations: PowderXRD(PXRD)measurementswere 𝜂 (thepotentialtoachieveacurrentdensityof10mAcm−2recordedin
+10
+performed on a Bruker D8 diffractometer using a Cu K𝛼 source (𝜆 = LSVcurve).Theaccelerateddurabilitytest(ADT)wascarriedoutthrough
+0.1541nm)operatingat40kVand40mA.ThePXRDpatternwasrecorded CVbetween+0.1Vand𝜂 (thepotentialtoachieveacurrentdensityof
+100
+with2𝜃rangingfrom10°to90°.Alfoilwasusedastheinternalstandard. 100mAcm−2)at100mVs−1,andLSVcurvesbeforeandafterADTwere
+The morphologies and composition of the samples were characterized collected.
+byhigh-resolutiontransmissionelectron microscopy(HRTEM; Thermo Inaprotocolofelectrochemicalsurfacearea(ECSA)measurement,CV
+Fisher,Talos-F200x,200kV)equippedwithanEDSinstrument.Theinduc- wasfirstperformedinthepotentialrangeof≈0.05–0.95V (20cycles)
+RHE
+tively coupled plasma-atomic emission spectrometry (ICP-OES, Agilent withasweeprateof100mVs−1inaN -saturated0.05mH SO +0.05m
+2 2 4
+720ES)wasusedtomeasurethemetalloadingsandalloycomposition. CuSO solutiontoobtainastablevoltammogram.[23]Then,threeCVcy-
+4
+X-rayphotoelectronspectroscopy(XPS)wascollectedwithaThermoSci- cleswereperformedinthepotentialrangeof≈0.35–0.95V withascan
+RHE
+entificK-Alphaspectrometer.Theatomicmixingofvariousmetalelements rateof5mVs−1.ThethirdcyclewasusedtodeterminetheCu -based
+UPD
+wasdeterminedbyhigh-angleannulardark-fieldscanningtransmission ECSAbyintegratingthecopperdesorptionchargefrom0.4to0.9V RHE
+electronmicroscopy(HAADF-STEM)onaJEOLARM200F(JEOL,Tokyo, followingEquation(1):
+Japan).
+SynchrotronRadiation-BasedX-RayAbsorptionSpectroscopy: PtL 2 -edge ECSA = S Cu ×100 (1) (13273eV),CuK-edge(8979eV),WL 3 -edge(10207eV),andNiK-edge V scan ×0.42 × m Pt (8333eV)X-rayabsorptionfinestructure(XAFS)spectrawereacquiredus-
+ingthetransmissionmodeattheBL14W1beamlinelocatedattheShang- whereECSA(m2g −1)istheelectrochemicalsurfaceareaofelectrocata-
+Pt
+haiSynchrotronRadiationFacility(SSRF)inChina.Thestorageringsat lysts,S (mAV)istheintegralareaofcopperdesorptionregion,m (μg
+Cu Pt
+thefacilitywereoperatedatanenergyof3.5GeVandwithanelectron cm−2)isthemassloadingofPtinGCEworkingelectrode,and0.42(mC
+beamcurrentof230mA.AttheBL14W1beamlineoftheShanghaiSyn- cm−2) is a charge density conversion factor during copper adsorption-
+chrotronRadiationFacility(SSRF),theX-raybeamwasmonochromatized desorptionareaofPt-basednanoparticles.Inparticular,thechargeden-
+usingadouble-crystalmonochromator(DCM)thatwasequippedwithSi sityonthe(111)surfacewasassumedtobe0.48mCcm−2forPt-based
+(111)(Cu,Ni)andSi(311)(Pt,W)crystals.AllXAFSspectrawereana- nano-octahedra.[23]
+lyzedusingtheDemetersoftwarepackage(UniversityofChicago).The Mass activity (MA) and specific activity (SA) were calculated using
+XANESrawdatawerenormalizedbyaprocedureconsistingofseveral Equations(2)and(3),respectively.
+steps.Initially,thephotonenergywascalibratedbyreferencingtheCu4f
+peakandRu5fofafreshlysputteredgoldwafer.Thisstepensuredaccurate i
+MA = (2)
+energycalibrationfortheX-rayabsorptionfinestructure(XAFS)measure- m
+Pt+Ru
+ments.Subsequently,asubstratelinewasemployedtosetthepre-edge
+ofthespectraatzero,allowingforaconsistentbaselinereferenceforfur- whereMAistheHERcatalyticmassactivity(Amg −1)oftheelectro-
+Pt+Ru
+theranalysis.Finally,thespectrawerenormalizedtoyieldanedge-jump catalyst,iistheexperimentalcurrent,andm isthemassloadingof
+Pt+Ru
+toone.Duringthefittingprocess,thetheoreticalcurved-wavebackscat- PtandRuonworkingelectrode.
+teringamplitude(Fj(k)),phase-shiftfunctions(ϕj(k)),andthemeanfree
+path(l)inangstroms(Å)forallscatteringpathswerecalculatedusingthe i
+SA = (3)
+FEFF8.2code,developedbytheUniversityofWashington.Byincorporat- ECSA × m
+Pt
+ingthesecalculatedvaluesintothefittingmodels,itbecamepossibleto
+analyzeandinterprettheexperimentalXAFSspectra,intermsof,thelocal whereSAistheHERcatalyticspecificactivity(mAcm−2)oftheelectro-
+atomicstructureandelectronicpropertiesofthesample. catalyst,iistheexperimentalcurrent,ECSAistheelectrochemicalactive
+ElectrochemicalHydrogenEvolutionTests: 5mgcatalyst(HEA/CNTsor surfaceareaofthecatalyst,andm isthemassloadingofPtonworking
+Pt
+Pt/C)wasdispersedinamixtureof1mL(490μLultrapurewater,490μL electrode.
+isopropanol,and20μLNafionsolution)bysonicationfor1htoobtainthe OverallWaterSplittingTest: Theoverallwatersplittingwasperformed
+catalystinkof5mg catalyst mL−1.Beforeloadingthecatalystink,theglassy in a two-electrode cell in 1.0 m KOH and 0.5 m H 2 SO 4 aqueous elec-
+carbonelectrode(GCE)waswashedin0.1maqueousH 2 SO 4 ,HNO 3 , trolytes,respectively.ThesynthesizedRu–PtFeNiCuW/CNTsHEAcatalyst
+andDIwater,sequentially.Foreachtest,12μLcatalystinkwasdropped wassprayedontoacarbonpaper(1.0mg cm−2)ascathodicelec-
+ontheprecleanedGCE(diameter:4mm,area:0.1256cm2;theloading
+trode,andtitaniumfeltwasloadedwithIr
+c
+O
+ataly
+c
+s
+a
+t
+talystasananodicelec-
+ofthecatalystswas0.48mgcm−2)anddriedintheairbynaturalevapo-
+trode.Pt/Cwasusedoncathodeasareferen
+2
+ceexperiment.Thecellvolt-
+ration.Then,electrochemicalvoltammetrywasconductedonaCHI750E agewascalibratedwithohmicpotentialdrop(iR)compensation.
+electrochemicalworkstation(ShanghaiChenhuaInstrumentCorporation, Computational Methods: The first principle calculations were per-
+China)inaconventionalthree-electrodecell.ThepreparedGCEwasused formed for all spin-polarization density functional theory (DFT) calcu-
+asaworkingelectrode,acarbonrodasthecounterelectrode,andasat- lationswithinthegeneralizedgradientapproximation(GGA)usingthe
+uratedcalomelelectrode(SCE)(acidicorneutralelectrolyte)orHg/HgO Perdew–Burke–Ernzerhof (PBE) formulation.[28] Thesoftwareusedwas
+(alkalineelectrolyte)electrodeasthereferenceelectrode.Allthepoten- Vienna ab initio simulation package (VASP). The DFT-D3 method was
+tialsreportedinthisworkwereconvertedtothereversiblehydrogenelec- adoptedtocorrectvdW-dispersionenergy.[29]Projectedaugmentedwave
+trode(RHE).ThepotentialswereconvertedtotheRHEscaleaccordingto (PAW)potentials[30] wereusedtodescribetheioniccoresandtakeva-
+thefollowingequations:E RHE =E SCE +0.24V+0.0591×pHorE RHE = lenceelectronsintoaccountusingaplanewavebasissetwithakinetic
+E Hg/HgO +0.098V+0.0591×pH. energycutoffof500eV.PartialoccupanciesoftheKohn–Shamorbitals
+Theacidicelectrolytewas0.5mH 2 SO 4 (pH=0.51),theneutralelec- wereallowedusingtheMethfessel–Paxtonmethodandasmearingwidth
+trolytewas1.0m(phosphate-bufferedsaline,PBS,pH=6.98),andthe of0.1eV.Theelectronicenergywasconsideredself-consistentwhenthe
+Adv.Mater.2024,36,2400433 2400433(10of12) ©2024Wiley-VCHGmbH
+15214095,
+2024,
+33,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.202400433
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit, Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.advmat.de
+energychangewassmallerthan10−4 eV.Ageometryoptimizationwas [2] a)P.Strasser,S.Koh,T.Anniyev,J.Greeley,K.More,C.Yu,Z.Liu,
+consideredconvergentwhentheenergychangewassmallerthan0.05eV S.Kaya,D.Nordlund,H.Ogasawara,M.F.Toney,A.Nilsson,Nat.
+Å−1.Thevacuumspacinginadirectionperpendiculartotheplaneofthe Chem.2010,2,454;b)C.Chen,Y.Kang,Z.Huo,Z.Zhu,W.Huang,
+structurewas12Å.TheBrillouinzoneintegrationwasperformedusing3× H.L.Xin,J.D.Snyder,D.Li,J.A.Herron,M.Mavrikakis,M.Chi,
+3×1Monkhorst-Packk-pointsampling.Intheauthors’alloystructure,the K. L. More, Y. Li, N. M. Markovic, G. A. Somorjai, P. Yang, V. R.
+surfacemodelwithFCCstructurewassimulatedwithaboxcontaining96 Stamenkovic,Science2014,343,1339;c)R.Huang,W.Liao,M.Yan,
+atomsand6atomiclayersalongthe<111>direction.Forthegeometrical
+S.Liu,Y.Li,X.Kang,J.Electrochem.2023,29,2203081;d)T.Gan,J.
+optimizationofthebulkstructure,atomicpositionsandcellshapewereall
+Wu,S.Liu,W.Ou,J.Electrochem.2022,28,2201241.
+fullyrelaxed.Thecellshapeandthreelayersofatomsatthebottomwere
+[3] a)V.R.Stamenkovic,B.Fowler,B.S.Mun,G.Wang,P.N.Ross,C.
+fixedduringtherelaxationofthesurfacestructure.Thetransitionstates
+A.Lucas,N.M.Markovi´c,Science2007,315,493;b)E.Skúlason,
+werelocatedwiththenudgedelasticband(NEB)method.[31]Finally,the
+V. Tripkovic, M. E. Björketun, S. Gudmundsdóttir, G. Karlberg, J.
+adsorptionenergies(E )werecalculatedasEquation(4):
+ads Rossmeisl,T.Bligaard,H.Jónsson,J.K.Nørskov,J.Phys.Chem.C
+2010,114,18182;c)S.Bai,C.Wang,M.Deng,M.Gong,Y.Bai,J.
+E = E − E − E (4)
+ads ad∕sub ad sub Jiang,Y.Xiong,Angew.Chem.,Int.Ed.2014,53,12120;d)X.Long,
+J.Meng,J.Gu,L.Ling,Q.Li,N.Liu,K.Wang,Z.Li,Chin.J.Struct.
+whereE ,E ,andE arethetotalenergiesoftheoptimizedadsor-
+ad/sub ad sub
+bate/substratesystem,theadsorbateinthestructure,andthecleansub- Chem.2022,41,2204046;e)Y.Qiu,J.Liu,M.Sun,J.Yang,J.Liu,X.
+strate,respectively.ThefreeenergywascalculatedusingtheEquation(5): Zhang,X.Liu,L.Zhang,Chin.J.Struct.Chem.2022,41,2207040;f)J.
+Xie,H.Zhao,Y.Dong,Y.Wu,D.Liu,Y.Chai,B.Dong,Chin.J.Struct.
+Chem.2022,41,2207053;g)Z.An,H.Xue,J.Sun,N.Guo,T.Song,
+G = E+ZPE−TS (5) J.Sun,Y.Hao,Q.Wang,Chin.J.Struct.Chem.2022,41,2208037;
+h)A.Zhou,W.Guo,Y.-Q.Wang,J.Zhang,J.Electrochem.2022,28,
+whereG,E,ZPE,andTSarethefreeenergy,totalenergyfromDFTcalcu- 2214007.
+lations,zero-pointenergy,andentropiccontributions,respectively. [4] a)J.Zhang,C.Wang,S.Huang,X.Xiang,Y.Xiong,B.Xu,S.Ma,H.
+Fu,J.Kai,X.Kang,S.Zhao,Joule2023,7,1832;b)T.A.A.Batchelor,
+T.Löffler,B.Xiao,O.A.Krysiak,V.Strotkötter,J.K.Pedersen,C.M.
+SupportingInformation Clausen, A. Savan, Y. Li, W. Schuhmann, J. Rossmeisl, A. Ludwig,
+Angew. Chem., Int. Ed. 2021, 60, 6932; c) Y. Yao, Z. Liu, P. Xie, Z.
+SupportingInformationisavailablefromtheWileyOnlineLibraryorfrom Huang,T.Li,D.Morris,Z.Finfrock,J.Zhou,M.Jiao,J.Gao,Y.Mao,
+theauthor. J.Miao,P.Zhang,R.Shahbazian-Yassar,C.Wang,G.Wang,L.Hu,
+Sci.Adv.2020,6,eaaz0510.
+[5] a)T.A.A.Batchelor,J.K.Pedersen,S.H.Winther,I.E.Castelli,K.
+Acknowledgements
+W.Jacobsen,J.Rossmeisl,Joule2019,3,834;b)T.Löffler,F.Waag,B.
+Gökce,A.Ludwig,S.Barcikowski,W.Schuhmann,ACSCatal.2021,
+ThisworkwassupportedbytheNaturalScienceFoundationofGuang-
+11,1014.
+dongProvince(No.2024A1515010030)andtheNationalNaturalScience
+[6] a) Y. Yao, Z. Huang, L. A. Hughes, J. Gao, T. Li, D. Morris, S. E.
+Foundation of China (No. 22272059). The authors also appreciate the
+Zeltmann,B.H.Savitzky,C.Ophus,Y.Z.Finfrock,Q.Dong,M.Jiao,
+BL14W1beamlineoftheShanghaiSynchrotronRadiationFacility(SSRF)
+forhelpinXANESandEXAFScharacterization. Y.Mao,M.Chi,P.Zhang,J.Li,A.M.Minor,R.Shahbazian-Yassar,L.
+Hu,Matter2021,4,2340;b)P.Xie,Y.Yao,Z.Huang,Z.Liu,J.Zhang,
+T.Li,G.Wang,R.Shahbazian-Yassar,L.Hu,C.Wang,Nat.Commun.
+ConflictofInterest 2019,10,4011.
+[7] a)G.Feng,F.Ning,J.Song,H.Shang,K.Zhang,Z.Ding,P.Gao,W.
+Theauthorsdeclarenoconflictofinterest. Chu,D.Xia,J.Am.Chem.Soc.2021,143,17117;b)C.Zhan,Y.Xu,L.
+Bu,H.Zhu,Y.Feng,T.Yang,Y.Zhang,Z.Yang,B.Huang,Q.Shao,X.
+Huang,Nat.Commun.2021,12,6261;c)Z.Chen,J.Wen,C.Wang,
+DataAvailabilityStatement X.Kang,Small2022,18,2204255.
+[8] a)H.Zhu,S.Sun,J.Hao,Z.Zhuang,S.Zhang,T.Wang,Q.Kang,
+Thedatathatsupportthefindingsofthisstudyareavailablefromthecor- S.Lu,X.Wang,F.Lai,T.Liu,G.Gao,M.Du,D.Wang,EnergyEn-
+respondingauthoruponreasonablerequest. viron.Sci.2023,16,619;b)H.Li,Y.Pan,J.Lai,L.Wang,S.Feng,
+Chin.J.Struct.Chem.2022,41,2208003;c)J.Tian,Y.Rao,W.Shi,
+J.Yang,W.Ning,H.Li,Y.Yao,H.Zhou,S.Guo,Angew.Chem.,Int.
+Keywords
+Ed.2023,62,202310894;d)M.Li,C.Huang,H.Yang,Y.Wang,X.
+Song, T. Cheng, J. Jiang, Y. Lu, M. Liu, Q. Yuan, Z. Ye, Z. Hu, H.
+electrocatalysis,nanocrystals,octahedra,watersplitting,wetchemistry
+Huang,ACSNano2023,17,13659;e)F.Yang,J.Ye,L.Gao,J.Yu,
+Z.Yang,Y.Lu,C.Ma,Y.-J.Zeng,H.Huang,Adv.EnergyMater.2023,
+Received:January9,2024 13,2301408;f)C.Zhan,L.Bu,H.Sun,X.Huang,Z.Zhu,T.Yang,H.
+Revised:June12,2024 Ma,L.Li,Y.Wang,H.Geng,W.Wang,H.Zhu,C.-W.Pao,Q.Shao,
+Publishedonline:June22,2024
+Z.Yang,W.Liu,Z.Xie,X.Huang,Angew.Chem.,Int.Ed.2023,62,
+202213783.
+[9] a) X. Wang, S.-I. Choi, L. T. Roling, M. Luo, C. Ma, L. Zhang, M.
+Chi, J. Liu, Z. Xie, J. A. Herron, M. Mavrikakis, Y. Xia, Nat. Com-
+[1] a)T.M.Gür,EnergyEnviron.Sci.2018,11,2696;b)Z.P.Cano,D. mun.2015,6,7594;b)L.Zhang,L.T.Roling,X.Wang,M.Vara,M.
+Banham,S.Ye,A.Hintennach,J.Lu,M.Fowler,Z.Chen,Nat.En- Chi,J.Liu,S.-I.Choi,J.Park,J.A.Herron,Z.Xie,M.Mavrikakis,Y.
+ergy2018,3,279;c)M.F.Lagadec,A.Grimaud,Nat.Mater.2020, Xia,Science2015,349,412;c)J.Li,L.Feng,J.Electrochem.2022,28,
+19,1140;d)T.Zhang,Y.Liu,Q.Ye,H.Fan,J.Electrochem.2022,28, 2214001;d)D.Guo,H.Yu,J.Chi,Z.Shao,J.Electrochem.2022,28,
+2214006. 2214003.
+Adv.Mater.2024,36,2400433 2400433(11of12) ©2024Wiley-VCHGmbH
+15214095,
+2024,
+33,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.202400433
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.advmat.de
+[10] Y.Yao,Z.Huang,P.Xie,S.D.Lacey,R.J.Jacob,H.Xie,F.Chen,A.Nie, [21] a) M. Luo, J. Cai, J. Zou, Z. Jiang, G. Wang, X. Kang, J. Mater.
+T.Pu,M.Rehwoldt,D.Yu,M.R.Zachariah,C.Wang,R.Shahbazian- Chem.A2021,9,14941;b)Y.-H.Fang,Z.-P.Liu,ACSCatal.2014,4,
+Yassar,J.Li,L.Hu,Science2018,359,1489. 4364.
+[11] M.Bondesgaard,N.L.N.Broge,A.Mamakhel,M.Bremholm,B.B. [22] R.Wan,M.Luo,J.Wen,S.Liu,X.Kang,Y.Tian,J.EnergyChem.2022,
+Iversen,Adv.Funct.Mater.2019,29,1905933. 69,44.
+[12] S. Gao, S. Hao, Z. Huang, Y. Yuan, S. Han, L. Lei, X. Zhang, R. [23] M.Shao,J.H.Odell,S.Choi,Y.Xia,Electrochem.Commun.2013,31,
+Shahbazian-Yassar,J.Lu,Nat.Commun.2020,11,2016. 46.
+[13] G.Cao,J.Liang,Z.Guo,K.Yang,G.Wang,H.Wang,X.Wan,Z.Li,Y. [24] T.Fuchs,J.Drnec,F.Calle-Vallejo,N.Stubb,D.J.S.Sandbeck,M.
+Bai,Y.Zhang,J.Liu,Y.Feng,Z.Zheng,C.Lu,G.He,Z.Xiong,Z.Liu, Ruge,S.Cherevko,D.A.Harrington,O.M.Magnussen,Nat.Catal.
+S.Chen,Y.Guo,M.Zeng,J.Lin,L.Fu,Nature2023,619,73. 2020,3,754.
+[14] a)C.Jin,Y.Lou,J.Liu,F.Wang,ACSAppl.Mater.Interfaces2021,13, [25] D.Strmcnik,M.Uchimura,C.Wang,R.Subbaraman,N.Danilovic,
+45406;b)L.Gan,C.Cui,M.Heggen,F.Dionigi,S.Rudi,P.Strasser, D.vanderVliet,A.P.Paulikas,V.R.Stamenkovic,N.M.Markovic,
+Science2014,346,1502;c)L.Bu,N.Zhang,S.Guo,X.Zhang,J.Li,J. Nat.Chem.2013,5,300.
+Yao,T.Wu,G.Lu,J.Ma,D.Su,X.Huang,Science2016,354,1410;d) [26] B. Hammer, J. K. Nørskov, Advances in Catalysis, Academic Press,
+K.D.Gilroy,A.Ruditskiy,H.C.Peng,D.Qin,Y.Xia,Chem.Rev.2016, Cambridge,MA2000.
+116,10414;e)A.Ruditskiy,H.Peng,Y.Xia,Annu.Rev.Chem.Biomol. [27] M.T.Tang,X.Liu,Y.Ji,J.K.Norskov,K.Chan,J.Phys.Chem.C2020,
+Eng.2016,7,327. 124,28083.
+[15] Z.Wang,P.Zuo,G.Yin,J.AlloysCompd.2009,479,395. [28] a) G. Kresse, J. Hafner, Phys. Rev. B 1993, 47, 558; b) G. Kresse,
+[16] M.Xie,Y.Shi,C.Wang,R.Chen,M.Shen,Y.Xia,ACSAppl.Mater. J. Furthmüller, Comput. Mater. Sci. 1996, 6, 15; c) G. Kresse, J.
+Interfaces2021,13,51988. Furthmüller,Phys.Rev.B1996,54,11169.
+[17] a)L.M.Fillman,S.C.Tang,Thermochim.Acta1984,75,71;b)M.H. [29] S.Grimme,J.Antony,S.Ehrlich,H.Krieg,J.Chem.Phys.2010,132,
+Magnusson,K.Deppert,J.-O.Malm,J.Mater.Res.2000,15,1564. 154104.
+[18] Y.Sun,W.Zhang,Q.Zhang,Y.Li,L.Gu,S.Guo,Matter2023,6,193. [30] a)G.Kresse,D.Joubert,Phys.Rev.B1999,59,1758;b)P.E.Blöchl,
+[19] J.Zhang,J.Fang,J.Am.Chem.Soc.2009,131,18543. Phys.Rev.B1994,50,17953.
+[20] X.Zhao,Q.Di,M.Li,Q.Yang,Z.Zhang,X.Guo,X.Fan,K.Deng,W. [31] D.Sheppard,P.Xiao,W.Chemelewski,D.D.Johnson,G.Henkelman,
+Chen,J.Zhang,J.Fang,Z.Quan,Chem.Mater2019,31,4614. J.Chem.Phys.2012,136,074103.
+Adv.Mater.2024,36,2400433 2400433(12of12) ©2024Wiley-VCHGmbH
+15214095,
+2024,
+33,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.202400433
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+

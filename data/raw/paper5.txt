@@ -1,0 +1,399 @@
+pubs.acs.org/acscatalysis Letter
+High-Entropy Alloy Nanosheets for Fine-Tuning Hydrogen Evolution
+Xianbiao Fu, Jiahao Zhang, Shaoqi Zhan, Fanjie Xia, Chengjie Wang, Dongsheng Ma, Qin Yue,
+Jinsong Wu, and Yijin Kang*
+CiteThis:ACSCatal.2022,12,11955−11959 ReadOnline
+ACCESS *
+Metrics&More ArticleRecommendations sı SupportingInformation
+ABSTRACT: The electrolysis of water is promising for hydrogen
+production. The development of high-performance and low-cost
+hydrogen evolution reaction (HER) electrocatalysts is particularly
+important for the wide application of water electrolyzers. Tuning the
+hydrogen binding energy (HBE) of materials is an effective way to
+optimize the HER electrocatalysts, particularly for applications in an
+acidic environment. Here, we report the discovery of a Pt-free
+combination, PdMoGaInNi, which has the HBE optimum, via
+computer-facilitated screening. As the exploratory example of the
+two-dimensional high-entropy alloy (HEA) for HER, the PdMoGaIn-
+Ni HEA nanosheets were synthesized to realize the predicted Pt-free
+combination with optimal HBE. The PdMoGaInNi HEA nanosheets
+exhibitahighHERactivitywithlowoverpotentialsof13mVat10mA
+cm−2,outperformingcommercialPd/CandPt/Ccatalysts.Giventhehighentropy,latticedistortion,andsluggishdiffusioneffectsof
+HEA, the PdMoGaInNi shows great long-term durability for at least 200 h in a proton exchange membrane water electrolyzer.
+KEYWORDS: electrocatalysis, high-entropy alloy, two-dimensional materials, hydrogen evolution reaction, hydrogen binding energy
+1. INTRODUCTION phase segregation often occurs due to the different miscibility
+of elements. The fine-tunability is particularly necessary for a
+Hydrogen is not only a vital feedstock in chemical industries,
+Pt-free combination since the starting point would be further
+for processes such as ammonia synthesis and various
+awayfromthepeakinthevolcanoplotcomparedtothatofPt. hydrogenation reactions, but also an important energy
+carrier.1−3 Electrolysis of water is one of the most promising As one option to enable the fine-tunability of HBE via
+approachestoproducinggreenhydrogen.Recently,theproton multicomponents,thehigh-entropyalloyhasrecentlyattracted
+exchange membrane (PEM) water electrolyzer became great attention inthecatalysis community due toits four core
+particularlyattractiveforitsadvantagessuchasreadycoupling effects:highentropyeffect,latticedistortion,sluggishdiffusion,
+with renewable energies, ultralong lifetime, high purity, high and cocktail effects which may substantially improve catalytic
+rate of hydrogen production, and so on.4,5 The hydrogen activity and stability.9−18 Although advanced synthetic
+evolution reaction (HER) is responsible for the hydrogen methods/techniques, such as scanning-probe block copolymer
+productioninthewaterelectrolyzerandismostlycatalyzedby lithography,9 carbothermal shock,10,13,14 fast-moving bed
+Pt-based catalysts.6−8 For the high cost and scarcity of Pt, the pyrolysis,15 and solution phase method,16−18 are developed
+development of Pt-free HER electrocatalysts with high to prepare HEA nanoparticles, the precisely tailored
+performance is highly desirable. compositions, sizes, and morphologies of HEA nanomaterials
+In the acidic environment which is the case for PEM water remain a great challenge to meet the needs for practical
+electrolyzers, hydrogen binding energy (HBE) is the sole applications in electrocatalysis.11
+descriptor for the activity of HER electrocatalysts. The well- Herein, by computation, we predicted that PdMoGaInNi
+known volcano plot in which activity is plotted against the
+wouldbeaPt-freecombinationthathastheoptimalHBE,and
+HBE of catalyst, visualizes the Sabatier Principle (Figure 1a).
+subsequently,weenabledsuchacombinationofelementsina
+Pt is the single element that is closest to the peak of the
+volcano plot (i.e., HBE optimum), while there is still much
+Received: June8, 2022
+room to improve it by slightly weakening the HBE of Pt.
+Revised: September14, 2022
+Alloying Pt with another element is proven to be an effective
+Published: September19, 2022
+waytotunetheHBEofPt,asthesecondelementmodifiesthe
+d-bandstructureofPt,electronically.Whilemorecomponents
+in the alloy offer finer tunability of HBE, alloying of
+multicomponents always remains highly challenging, as the
+©2022AmericanChemicalSociety https://doi.org/10.1021/acscatal.2c02778
+11955 ACSCatal.2022,12,11955−11959
+Downloaded
+from
+pubs.​acs.​org/​accacs/​article-pdf/​12/​19/​11955/​4816376/​cs2c02778.​pdf
+by
+NATL
+INST
+TECHLGY
+SRINAGAR
+user
+on
+08
+October
+2026
+
+ACS Catalysis pubs.acs.org/acscatalysis Letter
+Figure 1. Computational prediction of desirable composition for HER electrocatalyst. (a) A volcano plot is constructed from experimentally
+derivedexchangecurrentdensitiesandcomputationalcalculatedHBE(intermsofGibbsfreeenergy,ΔG )ofsingleelements.8 Thescreened
+H*
+compositionsareplottedonthevolcanoplotaccordingtotheircalculatedHBE,inordertopredicttheirHERactivity.(b)Sideandtopviewof
+PdMoGaInNithathas the optimalHBE.
+Figure2.Electronmicroscopiccharacterizationofhigh-entropyalloyPdMoGaInNinanosheets.(a)TEMimage.(b)HAADF-STEMimage.(c)
+High-resolution HAADF-STEMimage andcorresponding fastFouriertransformpattern. (d)STEM andEDS elementalmappings.
+HEA nanosheet, which is the first example (to the best of our preliminary screening, Fe, Co, Ni, Cu, Zn, Ga, Mo, Ru, Pd,
+knowledge) of two-dimensional (2D) HEA where the Ag, Cd, In, Sn, and Au were picked. The ab initio molecular
+utilization of the materials is much improved. It has been dynamics (AIMD) combined with density functional theory
+successfully demonstrated that the HBE can be fine-tuned by (DFT) calculations were used to construct the configurations
+multiple elements. As a result, toward HER the PdMoGaInNi
+of HEAs with a random distribution of atoms. The
+HEA nanosheets exhibit a lower overpotential (η = 13 mV at
+configurations were thoroughly annealed in AIMD to obtain
+10 mA cm−2) and a higher exchange current density (i =
+0 stable configurations, which were further optimized by DFT, 10−1.79A/cm2)in0.5MH SO aqueouselectrolyte,compared
+2 4 and then were used to calculate HBE (in terms of Gibbs free
+tothestate-of-the-artplatinumoncarbon(Pt/C)catalyst(η=
+17 mV at 10 mA cm−2, i = 10−1.85 A/cm2). Moreover, the energy, ΔG H* ) by DFT. Such a process was programmed and
+0 ran automatically, and the combinations with ΔG close to
+PdMoGaInNi HEA nanosheets show excellent long-term H*
+durability for at least 200 h at 100 mA cm−2 in a PEM water zero were identified by the computer and plotted in the
+electrolyzer. Such Pt-free HEA catalysts are highly promising volcano plot shown in Figure 1. It should be noted that other
+to replace the commercial Pt/C catalysts for hydrogen sites with nonoptimal HBE can also contribute to the HER
+production in PEM water electrolyzers. activity at a higher potential region. Pd−Mo−Ga family
+emergedas apromisingcandidate,foritsmore desirableHBE
+2. RESULTS AND DISCUSSION than that of Pt. For the quaternary combination on top of
+PdMoGa,PdMoGaInhastheoptimalHBE.Addingonemore
+Computationaltoolswereemployedtoscreenandidentifythe
+element to form a quinary HEA, PdMoGaInNi was identified
+promising element combinations for the optimal HBE. Metals
+fromperiods4−6wereconsidered.Amongthem,alkalimetals, astheoptimalcombination.Byaddingmoreelementsbeyond
+alkaline earth metals, and some early transition metals were the senary HEA, the HBE was not further improved. Taking
+excluded for their particular difficulty in alloy nanomaterial the materials synthesis into consideration as well as optimized
+synthesis; rare earth metals and precious metals with HBE, the quinary combination of PdMoGaInNi may be the
+particularly low reserve were also excluded. After such most promising HER electrocatalyst (Figure 1b).
+11956 https://doi.org/10.1021/acscatal.2c02778
+ACSCatal.2022,12,11955−11959
+Downloaded
+from
+pubs.​acs.​org/​accacs/​article-pdf/​12/​19/​11955/​4816376/​cs2c02778.​pdf
+by
+NATL
+INST
+TECHLGY
+SRINAGAR
+user
+on
+08
+October
+2026
+
+ACS Catalysis pubs.acs.org/acscatalysis Letter
+Figure3.Electrocatalyticperformanceofthehigh-entropyalloyandotheralloynanosheetswiththesamecatalystsloadingontheglassycarbon
+electrode.(a)Linearsweepvoltammetriccurvesweremeasuredin0.5MHSO withiR-compensationatascanrateof10mVs−1.(b)Tafelplots
+2 4
+wereobtainedfromsteady-statechronoamperometryresponses.Errorbarsarestandarddeviation,n≥3.(c)Nyquistplotswererecordedatabias
+of−10 mVvs RHE. (d)Stability ofcatalystswith aconstant currentdensityof 10mA cm−2.
+The Pd−Mo−Ga family HEA nanosheets (Figures 2a and The corresponding EDS spectra also provide the composition
+S1) were solution-phase synthesized by mixing metal of the alloy nanosheets (Figure S10). The atom ratio of
+precursors in oleylamine, using excess Mo(CO) as the PdMoGaInNi HEA nanosheets is Pd:Mo:Ga:In:Ni = 6
+reducing agent and the in situ generated CO as the capping 56:14:7:13:10 (Figure S10). To analyze the composition
+agent (see details in the Supporting Information).19−21 It is near the surface, the X-ray photoelectron spectroscopy (XPS)
+believed that the strong adsorption of CO on the Pd (111) of PdMoGaInNi HEA nanosheets was performed (Figure
+surface prevents growth along the [111] direction, which is S11). All the above results evince that the single-phase HEA
+responsible for the morphology of nanosheets. Without nanosheets were successfully produced. To our best knowl-
+Mo(CO) , the morphology of PdGa and PdInFeCoNi is the edge,this is the firstexampleof 2D HEA nanomaterials,since
+6
+nanoparticulate aggregate (Figure S2). X-ray diffraction typical methods for HEA nanomaterials preparation rely on
+(XRD) was employed to determine the phase and structure harsh conditions (e.g., high-temperature, rapid cooling) to
+of the alloy nanosheets. The characteristic diffraction peaks in ensure homogeneous distribution of elements, which are not
+XRD patterns (Figure S3) are ascribed to a single-phase face- suitable for the preparation of 2D HEA nanosheets.10,13−15
+centered cubic (fcc) structure. The transmission electron As the 2D nanosheets have a much better materials
+microscopy (TEM) images (Figures 2a and S1) reveal the utilization rate than their nanoparticulate counterparts, the
+morphologyofPd-basedalloyandHEAas2Dnanosheetsthat HEAnanosheetsareparticularlysuitablefortheapplicationsof
+are analogous to graphene. The high-angle annular dark-field catalysis. HEA nanosheets were incorporated onto carbon
+scanning transmission electron microscopy (HAADF-STEM) black (Cabot, Vulcan XC-72) as the electrocatalysts (Figure
+image(Figure2b)demonstratesthatthePdMoGaInNiHEAis S12). The commercial Pt/C and Pd/C catalysts were used as
+apleatednanosheetwithathicknessofapproximately1.6nm. the benchmark catalysts (Figure S13). The HER activity was
+Theatomic-resolutionHAADF-STEMimageofPdMoGaInNi evaluated in a two-compartment electrochemical cell with a
+HEAnanosheets(Figure2c)revealsalatticefringedistanceof Nafion 117 membrane between two chambers, at room
+0.24nm,whichislargerthanthatofPd{111}facets(0.22nm) temperature in 0.5 M H SO .22,23 As shown in Figure 3a,
+2 4
+due to lattice distortion after alloying. The HAADF-STEM the PdMoGaInNi HEA nanosheets exhibit excellent HER
+images and the corresponding energy-dispersive X-ray spec- activity with an overpotential of only 13 mV at the current
+troscopy (EDS) elemental mappings (Figures 2d and S4−S9) density of 10 mA cm−2, which is better than the commercial
+of HEA nanosheets reveal the homogeneous distribution of Pd/CandPt/Ccatalystswithoverpotentialsof42mVand17
+each element throughout the whole nanosheets, which is mV at 10 mA cm−2, respectively. The electrochemically active
+consistent with XRD results (i.e., single-phase solid-solution). surface area (ECSA) was determined by the electrochemical
+11957 https://doi.org/10.1021/acscatal.2c02778
+ACSCatal.2022,12,11955−11959
+Downloaded
+from
+pubs.​acs.​org/​accacs/​article-pdf/​12/​19/​11955/​4816376/​cs2c02778.​pdf
+by
+NATL
+INST
+TECHLGY
+SRINAGAR
+user
+on
+08
+October
+2026
+
+ACS Catalysis pubs.acs.org/acscatalysis Letter
+double-layer capacitance (C ) in the non-Faradaic region promising Pt-free electrocatalyst that can be used in water-
+dl
+(Figure S14). The C of commercial Pd/C is 3.8 mF cm−2, splitting devices.
+dl
+whereasthatofPdMoGaInNiHEAnanosheetsis2.3mFcm−2
+(FigureS15).Thisresultindicates thattheintrinsicactivity of 3. CONCLUSION
+PdMoGaInNi HEA nanosheets is higher than that of In summary, we havedemonstrated that multiplecomponents
+commercial Pd/C. To compare the intrinsic activity, for of an alloy catalyst render a fine-tunability of catalytic
+example,turnoverfrequency(TOF),theactivesitesnumberof properties, in light of the example in which HBE is fine-
+PdMoGaInNi HEA nanosheets and commercial Pt/C were tuned for the optimized HER electrocatalyst. Through the
+determinedby CO-stripping (Figure S16). As shown inTable automatedcomputation,thePd−Mo−Gafamilywasidentified
+S1,theTOFofH 2 onthePdMoGaInNiis1.2site−1s−1which as the promising Pt-free HER electrocatalysts, and among
+istwicethatonthecommercialPt/C.Itshouldbementioned them, PdMoGaInNi exhibited the optimal HBE. Solution-
+thatthelowerTOFofthePt/Cmayresultfromhigherloading phasesynthesiswasemployedtorealizethepredictedstructure
+and mass-transport limitation.24 in the form of 2D HEA nanosheets which optimize the
+Tafelanalysiswasemployedtoofferinsightintothepossible utilization of the materials. Owing to the benefit of high
+reactionmechanism.Tafelplotsweremeasuredbysteady-state entropy, PdMoGaInNi exhibited great stability while it
+chronoamperometry (CA).25 The Tafel slopes and exchange outperformed Pt/C and Pd/C in HER activity, offering a
+current densities are summarized in Table S2 and Figure S17. promising replacement for Pt-based electrocatalysts in the
+Tafel slopes of commercial Pd/C and Pt/C are 185.5 ± 6.5 application of water electrolyzers.
+mVdec−1and127.6±8.0mVdec−1(Figure3b),respectively,
+■
+which indicates that the rate-determining steps are the mixed ASSOCIATED CONTENT
+Volmer step (lower coverage region) and Heyrovsky step * sı Supporting Information
+(higher coverage region θ > 0.6).26−28 The Tafel slope of
+H The Supporting Information is available free of charge at
+PdMoGaInNi HEA nanosheets is close to that of commercial
+https://pubs.acs.org/doi/10.1021/acscatal.2c02778.
+Pt/C,whichsuggestsasimilarreactionmechanism.Moreover,
+the charge transfer resistance of the PdMoGaInNi HEA Materials and methods, experimental details, computa-
+nanosheets is lower than that of commercial Pd/C, which tional methods and details, and additional figures and
+indicatesthefasterelectrontransferprocessandsuperiorHER tables (PDF)
+kinetics (Figure 3c). Besides tailoring the catalytic activity by ■
+the featured effects of HEA, the high entropy effect and AUTHOR INFORMATION
+sluggish diffusion effect can also improve the stability of HEA
+Corresponding Author
+catalysts. As shown in Figure 3d, the long-term stability tests
+Yijin Kang − Institute of Fundamental and Frontier Sciences,
+were performed at a constant current density of 10 mA cm−2.
+University of Electronic Science and Technology of China,
+Incontrasttotheintuitionthatleachingof nonpreciousmetal
+Chengdu,Sichuan610054,China; orcid.org/0000-0002-
+from alloy catalysts in the acid electrolyte may be detrimental
+3627-5845; Email: kangyijin@uestc.edu.cn
+to the catalyst performance, the PdMoGaInNi HEA nano-
+sheets exhibit great stability with no noticeable decay during Authors
+the HER process for 12 h, while the commercial Pd/C shows XianbiaoFu−InstituteofFundamentalandFrontierSciences,
+significant activity decay. After a 12-h stability test, the University of Electronic Science and Technology of China,
+nanoparticlesofthecommercialPt/CandPd/Ccatalystswere Chengdu,Sichuan610054,China; orcid.org/0000-0001-
+aggregatedandcoalesced,whichmayaccountforadecreasein 5172-3354
+catalyst stability (Figure S18). XRD patterns of PdMoGaInNi Jiahao Zhang − Institute of Fundamental and Frontier
+showssimilarfeaturesbeforeandafterthestabilitytest(Figure Sciences, University of Electronic Science and Technology of
+S19). The TEM images (Figure S20) and EDS mapping/ China, Chengdu, Sichuan 610054, China
+spectra (Figure S21 and S22) show no noticeable change in Shaoqi Zhan − Department of Chemistry�BMC, Uppsala
+the morphology and composition. These results demonstrate University, S-751 23 Uppsala, Sweden; Department of
+the good structural stability of the PdMoGaInNi HEA Chemistry, University of Oxford, Oxford OX1 3QZ, U.K.
+nanosheets toward HER. FanjieXia−StateKeyLaboratoryofAdvancedTechnologyfor
+The long-term stability of PdMoGaInNi HEA nanosheets Materials Synthesis and Processing, Wuhan University of
+for hydrogen production was performed in a PEM water Technology, Wuhan 430070, China
+electrolyzer using Nafion 117 membrane (Figures S23, S24). Chengjie Wang − Institute of Fundamental and Frontier
+WhenthePEMwaterelectrolyzerwasoperatedatthecurrent Sciences, University of Electronic Science and Technology of
+density of 100 mA/cm2, the cell voltage was 1.6 V (i.e., an China, Chengdu, Sichuan 610054, China
+overpotential of 370 mV) for water splitting (Figure S24). Dongsheng Ma − Institute of Fundamental and Frontier
+WhenthecommercialPd/Cwasusedascathodecatalysts,the Sciences, University of Electronic Science and Technology of
+averagecellvoltagewasapproximately1.9V(FigureS25).The China, Chengdu, Sichuan 610054, China
+MEAwithPdMoGaInNiHEAnanosheetsascathodecatalysts Qin Yue − Institute of Fundamental and Frontier Sciences,
+was able to operate steadily for at least 200 h at the current University of Electronic Science and Technology of China,
+density of 100 mA/cm2. After a 200 h long-term stability test, Chengdu,Sichuan610054,China; orcid.org/0000-0002-
+the concentration of Pd cations for PdMoGaInNi HEA 4687-1747
+nanosheetsintheacidicelectrolytewas15.6ppbbyinductively Jinsong Wu − State Key Laboratory of Advanced Technology
+coupled plasma mass spectrometry (ICP-MS), whereas 80.1 for Materials Synthesis and Processing, Wuhan University of
+ppb for the commercial Pd/C (Figure S26). All the results Technology, Wuhan 430070, China; orcid.org/0000-
+above demonstrate that PdMoGaInNi HEA nanosheets are a 0002-7305-7927
+11958 https://doi.org/10.1021/acscatal.2c02778
+ACSCatal.2022,12,11955−11959
+Downloaded
+from
+pubs.​acs.​org/​accacs/​article-pdf/​12/​19/​11955/​4816376/​cs2c02778.​pdf
+by
+NATL
+INST
+TECHLGY
+SRINAGAR
+user
+on
+08
+October
+2026
+
+ACS Catalysis pubs.acs.org/acscatalysis Letter
+Complete contact information is available at: (14)Xie,P.F.;Yao,Y.G.;Huang,Z.N.;Liu,Z.Y.;Zhang,J.L.;Li,
+https://pubs.acs.org/10.1021/acscatal.2c02778 T.Y.;Wang,G.F.;Shahbazian-Yassar,R.;Hu,L.B.;Wang,C.Highly
+efficient decomposition of ammonia using high-entropy alloy
+catalysts. Nat. Commun.2019, 10,4011.
+Author Contributions
+(15)Gao,S.J.;Hao,S.Y.;Huang,Z.N.;Yuan,Y.F.;Han,S.;Lei,L.
+X.F. and J.Z. contributed equally to this paper.
+C.; Zhang, X. W.; Shahbazian-Yassar, R.; Lu, J. Synthesis of high-
+Notes entropy alloy nanoparticles on supports by the fast moving bed
+pyrolysis. Nat. Commun.2020, 11,2016.
+The authors declare no competing financial interest.
+(16)Zhan,C.H.;Xu,Y.;Bu,L.Z.;Zhu,H.Z.;Feng,Y.G.;Yang,
+■ T.; Zhang, Y.; Yang, Z. Q.; Huang, B. L.; Shao, Q.; Huang, X. Q.
+ACKNOWLEDGMENTS Subnanometer high-entropy alloy nanowires enable remarkable
+hydrogen oxidation catalysis.Nat. Commun.2021, 12,6261.
+The work is supported by the National Natural Science
+(17) Wu, D. S.; Kusada, K.; Yamamoto, T.; Toriyama, T.;
+Foundation of China, under Award 21972016, 21773023.
+Matsumura, S.; Kawaguchi, S.; Kubota, Y.; Kitagawa, H. Platinum-
+■ Group-Metal High-Entropy-Alloy Nanoparticles. J. Am. Chem. Soc.
+REFERENCES 2020, 142 (32),13833−13838.
+(18)Li,H.D.;Han, Y.;Zhao,H.; Qi,W.J.; Zhang,D.;Yu,Y.D.;
+(1)Zhu,J.;Hu,L.S.;Zhao,P.X.;Lee,L.Y.S.;Wong,K.Y.Recent
+Cai,W.W.;Li,S.X.;Lai,J.P.;Huang,B.L.;Wang,L.Fastsite-to-site
+Advances in Electrocatalytic Hydrogen Evolution Using Nano-
+electron transfer of high-entropy alloy nanocatalyst driving redox
+particles. Chem.Rev. 2020,120 (2),851−918. electrocatalysis.Nat. Commun.2020, 11, 5437.
+(2)Chen,J.G.;Crooks,R.M.;Seefeldt,L.C.;Bren,K.L.;Bullock,
+(19) Huang, X. Q.; Tang, S. H.; Mu, X. L.; Dai, Y.; Chen, G. X.;
+R.M.;Darensbourg,M.Y.;Holland,P.L.;Hoffman,B.;Janik,M.J.;
+Zhou, Z. Y.; Ruan, F. X.; Yang, Z. L.; Zheng, N. F. Freestanding
+Jones,A.K.;Kanatzidis,M.G.;King,P.;Lancaster,K.M.;Lymar,S.
+palladium nanosheets with plasmonic and catalytic properties. Nat.
+V.; Pfromm, P.; Schneider, W. F.; Schrock, R. R. Beyond fossil fuel-
+Nanotechnol. 2011, 6 (1),28−32.
+driven nitrogen transformations. Science 2018, 360 (6391),
+(20)Shan,H.;Liu,L.;He,J.Q.;Zhang,Q.;Chen,W.L.;Feng,R.;
+No. eaar6611.
+Chang,C.;Zhang,P.;Tao,P.;Song,C.Y.;Shang,W.;Deng,T.;Wu,
+(3)Chen,C.;Kang,Y.J.;Huo,Z.Y.;Zhu,Z.W.;Huang,W.Y.;Xin,
+J. B. Controllable assembly of Pd nanosheets: a solution for 2D
+H.L.L.;Snyder,J.D.;Li,D.G.;Herron,J.A.;Mavrikakis,M.;Chi,
+materials storage. CrystEngComm2017, 19(25),3439−3444.
+M.F.;More,K.L.;Li,Y.D.;Markovic,N.M.;Somorjai,G.A.;Yang,
+(21)Luo,M.C.;Zhao,Z.L.;Zhang,Y.L.;Sun,Y.J.;Xing,Y.;Lv,
+P. D.; Stamenkovic, V. R. Highly Crystalline Multimetallic Nano-
+F.;Yang,Y.;Zhang,X.;Hwang,S.;Qin,Y.N.;Ma,J.Y.;Lin,F.;Su,
+frames with Three-Dimensional Electrocatalytic Surfaces. Science
+D.; Lu, G.; Guo, S. J. PdMo bimetallene for oxygen reduction
+2014, 343(6177),1339−1343.
+catalysis. Nature2019, 574 (7776),81−85.
+(4) Mustain, W. E.; Chatenet, M.; Page, M.; Kim, Y. S. Durability
+(22) Chen, R.; Yang, C. J.; Cai, W. Z.; Wang, H. Y.; Miao, J. W.;
+challengesofanionexchangemembranefuelcells.EnergyEnviron.Sci.
+Zhang, L. P.; Chen, S. L.; Liu, B. Use of Platinum as the Counter
+2020, 13(9),2805−2838.
+Electrode to Study the Activity of Nonprecious Metal Catalysts for
+(5) Ehelebe, K.; Escalera-Lopez, D.; Cherevko, S. Limitations of
+the Hydrogen Evolution Reaction. ACS Energy Lett. 2017, 2 (5),
+aqueousmodelsystemsinthestabilityassessmentofelectrocatalysts
+1070−1075.
+for oxygen reactions in fuel cell and electrolyzers. Curr. Opin.
+(23) Ji, S. G.; Kim, H.; Park, C.; Kim, W.; Choi, C. H.
+Electroche.2021, 29,100832.
+Underestimation of Platinum Electrocatalysis Induced by Carbon
+(6) Cheng, N. C.; Stambula, S.; Wang, D.; Banis, M. N.; Liu, J.;
+Monoxide Evolved from Graphite Counter Electrodes. ACS Catal.
+Riese,A.;Xiao,B.W.;Li,R.Y.;Sham,T.K.;Liu,L.M.;Botton,G. 2020, 10(18),10773−10783.
+A.; Sun, X. L. Platinum single-atom and cluster catalysis of the
+(24)Hansen,J.N.;Prats,H.;Toudahl,K.K.;Secher,N.M.;Chan, hydrogen evolutionreaction.Nat. Commun.2016, 7, 13638.
+K.; Kibsgaard, J.; Chorkendorff, I. Is There Anything Better than Pt
+(7) Morales-Guio, C. G.; Stern, L. A.; Hu, X. L. Nanostructured
+forHER? ACSEnergy Lett. 2021, 6(4), 1175−1180.
+hydrotreatingcatalystsforelectrochemicalhydrogenevolution.Chem.
+(25) Anantharaj, S.; Noda, S.; Driess, M.; Menezes, P. W. The Soc.Rev.2014, 43(18),6555−6569.
+Pitfalls of Using Potentiodynamic Polarization Curves for Tafel
+(8)Norskov,J.K.;Bligaard,T.;Logadottir,A.;Kitchin,J.R.;Chen,
+AnalysisinElectrocatalyticWaterSplitting.ACSEnergyLett.2021,6
+J.G.;Pandelov,S.;Stimming,U.Trendsintheexchangecurrentfor
+(4), 1607−1611.
+hydrogen evolution.J. Electrochem. Soc. 2005, 152(3), J23−J26.
+(26) Fang, Y. H.; Liu, Z. P. Tafel Kinetics of Electrocatalytic
+(9)Chen,P.C.;Liu,X.L.;Hedrick,J.L.;Xie,Z.;Wang,S.Z.;Lin,
+Reactions: From Experiment to First-Principles. ACS Catal. 2014, 4
+Q. Y.; Hersam, M. C.; Dravid, V. P.; Mirkin, C. A. Polyelemental (12),4364−4376.
+nanoparticlelibraries. Science2016, 352(6293),1565−1569.
+(27)Shinagawa,T.;Garcia-Esparza,A.T.;Takanabe,K.Insighton
+(10)Yao,Y.G.;Huang,Z.N.;Xie,P.F.;Lacey,S.D.;Jacob,R.J.;
+Tafel slopes from a microkinetic analysis of aqueous electrocatalysis
+Xie,H.;Chen,F.J.;Nie,A.M.;Pu,T.C.;Rehwoldt,M.;Yu,D.W.;
+forenergyconversion.Sci. Rep.2015, 5, 13801.
+Zachariah, M. R.; Wang, C.; Shahbazian-Yassar, R.; Li, J.; Hu, L. B.
+(28) Dubouis, N.; Yang, C. Z.; Beer, R.; Ries, L.; Voiry, D.;
+Carbothermal shock synthesis of high-entropy-alloy nanoparticles.
+Grimaud, A. Interfacial Interactions as an Electrochemical Tool To
+Science2018, 359(6383),1489−1494.
+Understand Mo-Based Catalysts for the Hydrogen Evolution
+(11)Xin,Y.;Li,S.H.;Qian,Y.Y.;Zhu,W.K.;Yuan,H.B.;Jiang,P.
+Reaction. ACS Catal.2018, 8(2), 828−836.
+Y.; Guo, R. H.; Wang, L. B. High-Entropy Alloys as a Platform for
+Catalysis:Progress,Challenges,andOpportunities.ACSCatal.2020,
+10(19),11280−11306.
+(12)Chen,J.;Zhou,X.Y.;Wang,W.L.;Liu,B.;Lv,Y.K.;Yang,W.;
+Xu,D.P.;Liu,Y.Areviewonfundamentalofhighentropyalloyswith
+promising high-temperature properties. J. Alloys Compd. 2018, 760,
+15−30.
+(13)Li,T.Y.;Yao,Y.G.;Ko,B.H.;Huang,Z.N.;Dong,Q.;Gao,J.
+L.;Chen,W.;Li,J.G.;Li,S.K.;Wang,X.Z.;Shahbazian-Yassar,R.;
+Jiao, F.; Hu, L. B. Carbon-Supported High-Entropy Oxide Nano-
+particles as Stable Electrocatalysts for Oxygen Reduction Reactions.
+Adv.Funct.Mater. 2021, 31(21),2010561.
+11959 https://doi.org/10.1021/acscatal.2c02778
+ACSCatal.2022,12,11955−11959
+Downloaded
+from
+pubs.​acs.​org/​accacs/​article-pdf/​12/​19/​11955/​4816376/​cs2c02778.​pdf
+by
+NATL
+INST
+TECHLGY
+SRINAGAR
+user
+on
+08
+October
+2026
+
