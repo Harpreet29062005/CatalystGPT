@@ -1,0 +1,362 @@
+Journal of
+Materials Chemistry A
+Published on 04 August 2025
+PAPER
+Licence and permissions
+Ultrathin high-entropy alloy nanowires as
+a bi-functional catalyst for the hydrogen evolution
+Citethis:J.Mater.Chem.A,2025,13,
+†
+reaction and methanol oxidation reaction
+28019
+Sumei Han, ‡* Lei Xu,‡ Chaoqun Ma,‡ Wenbin Cao * and Qipeng Lu *
+High-entropyalloys(HEAs)havebeenusedascriticalelectrocatalysts.However,achievingpreciseatomic-
+level control over their dimensions and morphologies remains a formidable challenge. In this work,
+distinctivePtPdRuFeCoNiHEAnanowires(NWs)thatpossessanaveragediameterof1.36±0.05nmare
+successfully synthesized. The prepared HEA NWs can serve as a bi-functional electrocatalyst for the
+hydrogenevolutionreaction(HER)andmethanoloxidationreaction(MOR)inalkalinesolution.TheHEA
+NWs exhibit an ultrasmall overpotential of 14 mV at 10 mA cm−2 for alkaline HER and long-term
+Received11thMay2025
+durabilityover50h.Furthermore,theHEANWsexhibitexcellentcatalyticperformancefortheMORwith
+Accepted21stJuly2025
+a mass activity of 10.4 A mg −1, 13.0 times as high as that of commercial Pt/C. This work offers
+PGM
+DOI:10.1039/d5ta03751d
+a facile approach for the synthesis of HEA NWs and facilitates the use of highly active HEA-based
+rsc.li/materials-a catalystsincleanenergyconversionandutilization.
+Introduction advancingrenewableenergysolutions.Pt-basednanomaterials
+remainthepredominantelectrocatalystsfortheMORandHER
+Themethanoloxidationreaction(MOR),servingasakeyanode duetotheiridealadsorptionpropertiesforintermediates.2,6,15–18
+processindirectmethanolfuelcells,facilitateshighlyefficient However,thewidespreadcommercialuseofPt-basedcatalysts
+energy conversion.4,10 Concurrently, the hydrogen evolution is limited by their high cost and insufficient stability under
+reaction (HER) also holds signicant importance in clean operatingconditions.Therefore,therationaldesignofefficient,
+energy systems, contributing to the efficient generation of cost-effective and stable Pt-based catalysts for the MOR and
+hydrogen as a renewable fuel source.13,14 Developing high- HERisofgreatsignicance.
+performance catalysts for both reactions is thus essential to The unique composition and intricate surface structure of
+high-entropy alloys (HEAs) endow them with outstanding
+physical and chemical properties, making them highly
+SchoolofMaterialsScienceandEngineering,UniversityofScienceandTechnology appealing as potential catalysts.19–22 The incorporation of
+Beijing,Beijing100083,China.E-mail:sumei@ustb.edu.cn
+diverse elements facilitates the formation of a solid solution
+†Electronic supplementary information (ESI) available. See DOI: phase, effectively preventing phase segregation. Moreover,
+https://doi.org/10.1039/d5ta03751d
+‡Theseauthorscontributedequallytothiswork.
+multipleelementscancreatesynergisticeffectsandfurtherlead
+to some unique catalytic properties of HEAs.23–26 Compared to
+traditional catalysts, HEAs exhibit superior performance and
+Sumei Han received her B.E. stabilityinawiderangeofenergyconversionreactionssuchas
+degree at the University of the MOR, HER, hydrogen oxidation reaction (HOR), oxygen
+Science and Technology Beijing reduction reaction, oxygen evolution reaction, nitrogen reduc-
+in 2018. She received her PhD tionreactionandCO 2 reductionreaction.However,challenges
+degree at the University of persist in HEA catalyst development. Synthesis methods are
+Science and Technology Beijing oen complex or non-generalizable, and the structural infor-
+in2024followedbypostdoctoral
+mationandcatalyticmechanismsofHEAsremaininsufficiently
+training at the University of understood.27,28 For catalytic reactions, ultrathin nanowires
+Science and Technology Beijing (generally <2 nm) with large surface areas can expose more
+aswell.Herresearchinterestsare active sites to achieve high utilization of active atoms.25,29
+related to the synthesis, proper- However, the precise tailoring of dimensions and morphology
+ties andthe application ofnoble still faces great challenges, which severely impedes their
+metal nanomaterials in electro- applications.8,10,25,30 Hence, developing simple and efficient
+SumeiHan
+catalyticreactions. methods to create HEAs with unique morphologies that can
+Thisjournalis©TheRoyalSocietyofChemistry2025 J.Mater.Chem.A,2025,13,28019–28025 | 28019
+
+JournalofMaterialsChemistryA Paper
+effectively improve the catalytic performance is of great single-phase nature of the HEA NWs (Fig. S2†). The lattice
+importance. parametersareestimatedas:a=b=c=3.90,a=b=g=90°
+Herein,wesynthesizePtPdRuFeCoNiHEAnanowires(NWs) (TableS1†).ComparedwithpurefccPt(a=b=c=3.92,a=b=
+withanultra-smallaveragediameterof1.36±0.05nmthrough g = 90°), the lattice of HEA NWs is compressed due to the
+afacileco-reductionmethod,andtheobtainedelectrocatalysts alloying with the other atoms, indicating the formation of Pt-
+show high activity for alkaline HER and MOR. The HEA NWs based fcc alloys.31 The acquired ultrane NWs, averaging 1.36
+exhibitaremarkablylowoverpotentialfortheHER(i.e.14mVat ± 0.05 nm in diameter, were revealed through transmission
+10 mA cm −2 in 1.0 M KOH). We further investigate the elec- electron microscopy (TEM) and dark-eld scanning TEM (DF-
+trocatalyticactivityofHEANWsfortheMOR,revealingamass STEM) images (Fig. 1b, c and S3†). Furthermore, the (111)
+activity of 10.4 A mg
+−1.
+This value is 13.0 times the mass interplanar distance in HEA nanowires (2.19 Å) contracts
+PGM
+activity of commercial Pt/C. Additionally, the mass activity for compared to that of fcc Pt (2.26 Å) owing to the alloying of
+the MOR remains virtually unchanged even aer 20000 s of smaller-radius elements (Fig. 1d). All the elements uniformly
+continuousi–ttesting,underscoringtheexceptionalstabilityof distribute in the HEA NWs as revealed by the STEM image
+HEANWs. The excellent performance of the HEANWs results coupled with energy-dispersive X-ray spectroscopy (EDS)
+fromtheirgoodintrinsicactivityandabundantactivesites. elemental mapping (Fig. 1e), further conrming the alloy
+structure.ScanningelectronmicroscopeenergydispersiveX-ray
+spectrometry(SEM-EDS)inFig.S4†conrmsthecoexistenceof
+Results and discussion
+sixmetallicelements(i.e.Pt,Pd,Ru,Ni,Fe,andCo)intheNWs,
+withanapproximateatomicratioofPt/Ru/Pd/Co/Fe/Ni=23.4/
+Pt,Pd,Ru,Ni,Fe,andCo-containingHEANWswereprepared
+5.3/10.7/27.0/14.9/18.6.
+viaco-reductionat220°Cfor2h(seedetailsintheESI†).The
+The high-resolution XPS results conrm the coexistence of
+peaksintheX-raydiffraction(XRD)patternofHEANWsalign
+Pt, Pd, Ru, Ni, Fe, and Co elements, providing additional
+with Pt (JCPDS No. 04-0802), showing a slight positive shi evidence for the formation of the HEA NWs (Fig. S5†). In
+(Fig.1a).Notably,nodistinctdiffractionpeakscorrespondingto
+Fig.S5a,†twodistinctpeaksat71.4and74.7eVareobservedin
+Pd,Ru, Ni, Fe, orCopeaks appear inthe XRD pattern, dueto theXPSspectrumofPt4f,conrmingtheexistenceofmetallic
+their homogeneous incorporation into the Pt lattice to form
+PtwithintheHEANWs.Moreover,thetwosmallpeaksat72.3
+asingle-phaseHEAstructure(Fig.S1†).Andthecorresponding
+and75.6eVcorrespondtoPt2+.Theaboveresultsdemonstrate
+Rietveld renement has been performed, demonstrating the
+Fig.1 (a)TheXRDpatternofHEANWs.(b)Dark-fieldscanningTEM(DF-STEM)imageofHEANWs.(c)TEMimageofHEANWs.(d)DF-STEM
+imageofHEANWs.(e)TheHAADF-STEMimageandcorrespondingelementalmappingsofHEANWs.
+28020 | J.Mater.Chem.A,2025,13,28019–28025 Thisjournalis©TheRoyalSocietyofChemistry2025
+
+Paper JournalofMaterialsChemistryA
+thatthePtintheHEANWsmainlyexistsinthemetallicstate. products were obtained by replacing W(CO) by Mo(CO) . As
+6 6
+Similarly,themajorityofPdandRuareinthemetallicstateas shown in Fig. S12,† the shape of the products also resembles
+well(Fig.S5bandc†).AsforFe,CoandNi,alargepartofthem ultrathin NWs. This result indicates that the carbonyl group
+areintheoxidationstateduetotherelativelyweakantioxidant decomposedfromtheW(CO) ratherthantungstenactsasthe
+6
+abilityofnon-noblemetals(Fig.S5d–f†).Itshouldbenotedthat structure-directingagentfortheformationofNWs,likelyowing
+satellitepeaksexistintheXPSspectraofCo2pandNi2p.32To to the strong adsorption of carbonyl on Pt atoms. The above
+investigate the composition of HEA NWs, inductively coupled results indicate that although HEA NPs could be obtained
+plasmaopticalemissionspectroscopy(ICP-OES)measurements without the application of W(CO) , the presence of W(CO) is
+6 6
+were conducted. As shown in Table S2,† the ratio of different essential for the formation of NWs. The morphology of the
+atoms in HEA NWs is Pt/Ru/Pd/Co/Fe/Ni = 20.8/7.8/13.9/23.4/ productwasalsoaffectedbyCTAB.AsshownintheXRDpattern
+15.2/19.0, which aligns closely with the data from SEM-EDS (Fig.S13a†),thediffractionpeaksalignwithPt(JCPDSNo.04-
+analysis. 0802) with a slight positive shi, similar to those of Pt-based
+Notably,W(CO) isessentialforthepreparationofHEANWs. HEA NWs. However, the morphology of the products resem-
+6
+To conrm this, products are synthesized under the same blesnanoowersratherthanultrathinNWs(Fig.S13bandc†).
+conditions except for the use of W(CO) . As presented in Pt-based electrocatalysts exhibit excellent performance in
+6
+Fig. S6,† the shape of the products resembles nanoparticles theHERandMOR.33,34Herein,theHERactivityandstabilityof
+(NPs) and the average diameter of the NPs is about 10.5 ± HEA NWs were systematically investigated rst by a series of
+0.2 nm. And the lattice spacing of the (111) plane in the NPs electrochemical tests in 1.0 M KOH. The reference electro-
+(2.24Å)isthesameasthatinHEANWs(Fig.S7†).Moreover,the catalysts, i.e. Pt/C and HEA NPs, were tested under the same
+XRDpatternoftheNPsismostlythesameasthatofHEANWs conditions.Inthiswork,allpotentialshavebeenreferencedto
+(Fig.S8†)withoutthecharacteristicpeaksofpurePt,Ru,Pd,Co, thereversiblehydrogenelectrode(RHE).AsdepictedinFig.2a,
+FeandNi.BasedontheICP-OESresult,theelementcomposi- the iR-corrected linear sweep voltammetry (LSV) polarization
+tioninNPsissimilartothatofHEANWswithanatomicratioof curves reveal that HEA NWs exhibit a remarkably reduced
+Pt/Ru/Pd/Co/Fe/Ni=19.7/5.9/12.7/22.7/13.4/21.5(Fig.S9†).The overpotentialcomparedtothebenchmarks(i.e.commercialPt/
+high-resolutionXPSspectraindicatethatthenoblemetalsare CandHEANPs).Atacurrentdensityof10mAcm
+−2,HEANWs
+mainlyinthemetalstatesandalargepartoftheoxidizedstate exhibit an overpotential of just 14 mV (Fig. 2b, le), a value
+existsinthenon-noblemetals(Fig.S10†).Furthermore,W(CO) notablylowerthanthatofHEANPs(20mV)andcommercialPt/
+6
+strongly affects the uniformity of the products. As shown in C(28mV).Moreover,atanoverpotentialof70mV,thecurrent
+Fig. S11,† the ratio of the NWs in the products increases with densityforHEANWs(119.9 mAcm −2)ishigherthanthoseof
+theamountofW(CO) .Tofurtherinvestigatewhethertungsten HEANPs(44.7mAcm
+−2)andcommercialPt/C(42.1mAcm −2)
+6
+or the carbonyl group impact the nal morphology, the (Fig. 2b, right). As shown in Fig. S14,† among all current
+Fig.2 (a)HERpolarizationcurvesofHEANWs,HEANPsandcommercialPt/Cin1.0MKOH(scanrate:5mVs−1).(b)Overpotentialsofcatalysts
+atacurrentdensityof10mAcm−2(left)andcurrentdensitiesatanoverpotentialof70mV(right).(c)CorrespondingTafelplots.(d)C values.(e)
+dl
+Electrochemicalimpedancespectroscopy(EIS)curvesofdifferentcatalysts.Inset:theequivalentelectricalcircuit.(f)HERpolarizationcurvesfor
+HEANWsbeforeandafter10000CVcycles.Inset:i–ttestofHEANWswithaconstantcurrentdensityof100mAcm−2in1.0MKOH.
+Thisjournalis©TheRoyalSocietyofChemistry2025 J.Mater.Chem.A,2025,13,28019–28025 | 28021
+
+JournalofMaterialsChemistryA Paper
+densities, HEA NWs demonstrated the lowest overpotential. resistance (R ) among all the catalysts (Fig. 2e). The above
+ct
+Since the HEA NWs are designed to reduce the cost of the results highlight the structural advantage of HEA NWs, which
+catalysts,thecurrentdensitiesintheHERalsoarenormalized expose more active sites and exhibit signicantly improved
+to the mass of noble metals (Fig. S15†). The overpotential of catalyticperformancecomparedtothebenchmarks.
+HEA NWs at 0.5 A mg
+−1
+is only 8 mV, lower than those of Apart from electrocatalytic activity, stability is another
+PGM
+HEA NPs (13 mV) and commercial Pt/C (45 mV). At the over- crucial factor inassessing the performance ofelectrocatalysts.
+potential of 25 mV, the current density of HEA NWs is 2.0 A To further assess the electrochemical stability of HEA NWs,
+mg
+−1,twoandtentimeshigherthanthoseofHEANPsand
+accelerateddegradationtests(ADTs)wereconducted,involving
+PGM
+commercial Pt/C, indicating the outstanding mass activity of 10000continuousCVcycles.Fig.2fillustratestheLSVcurvesof
+HEA NWs for the HER. The Tafel slope is used to investigate HEA NWs before and aer the ADTs. The negligible over-
+HER kinetics and mechanisms, and a lower Tafel slope value potential shi conrms superior stability versus HEA NPs and
+means more rapid reaction kinetics. As shown in Fig. 2c, the Pt/C benchmarks (Fig. S18†). Moreover, continuous operation
+TafelslopevalueofHEANWsis34.5mVdec −1,lowerthanthose at 100 mA cm −2 conrms the exceptional durability of HEA
+of HEA NPs (37.6 mV dec
+−1)
+and commercial Pt/C (37.9 mV NWs,showingnegligibledegradationover50h(Fig.2finset).In
+dec −1).ThelowTafelslopevaluesuggeststhattheHERprocess addition,characterizationoftheHEANWswascarriedoutaer
+onHEANWsfollowstheVolmer–Tafelmechanism.35Relativeto thelong-termdurabilitytesttoconrmtheirstructuralstability.
+other reported noble metal-based HER electrocatalysts under AsshowninFig.S19,†thechangeoftheshapeandtheXRDof
+alkaline conditions, HEA NWs demonstrate exceptional cata- theNWsisnegligibleaerthei–ttest,indicatingthestructural
+lyticactivity(Fig.S16†). stabilityofHEANWs.
+Considering the positive correlation between the double- The MOR performance of HEA NWs was also investigated.
+layer capacitance (C ) and the electrochemical active surface BeforeMORtests,allthecatalystswereactivatedin1.0MKOH,
+dl
+area(ECSA),cyclicvoltammetry(CV)curvesofHEANWsandthe whichwassaturatedwithN ,throughCVmeasurements.Aer
+2
+referencesampleswereevaluatedacrossascanraterangeof20 that,theMORactivitiesofthesecatalystswererecordedin1.0M
+to200mVs
+−1(Fig.S17†).Fig.2drevealsthatthecalculatedC
+KOH + 1.0 M methanol by CV cycles. The HEA NWs exhibit
+dl
+forHEANWs(29.71mFcm
+−2)exceedsthoseofcommercialPt/C
+higher activity for the MOR compare with the HEA NPs and
+(12.66 mF cm
+−2)
+and HEA NPs (17.60 mF cm
+−2).
+This result commercial Pt/C as displayed in Fig. 3a. Clearly, HEA NWs
+suggests that the HEA NWs, with a large surface area, expose possessthesmallestonsetpotential(∼531mV)comparedwith
+more active sites. Electrochemical impedance spectroscopy thoseofHEANPs(∼607mV)andcommercialPt/C(∼741mV)
+(EIS)analysisdemonstratesenhancedelectron/protontransfer (Fig.S20†),indicatingtheMORcanoccurmoreeasilyonHEA
+kinetics, with HEA NWs showing the lowest charge transfer NWs. The currents are normalized to the mass of Pt-group
+Fig.3 (a)CVcurvesofHEANWs,HEANPsandcommercialPt/Cin1.0MKOH+1.0Mmethanol(scanrate:50mVs−1).(b)Histogramsofmass
+activities(normalizedtothemassofPt-groupmetals,PGM)towardtheMOR.(c)ComparisonoftheMORperformanceofreportedelectro-
+catalystsandHEANWs.1–12(d)i–ttestofHEANWs,HEANPsandcommercialPt/Cat0.72Vvs.RHE.(e)ThemassactivitiesonHEANWsbefore
+andafterthei–ttest.(f)CO-strippingcurvesofdifferentcatalysts.
+28022 | J.Mater.Chem.A,2025,13,28019–28025 Thisjournalis©TheRoyalSocietyofChemistry2025
+
+Paper JournalofMaterialsChemistryA
+metals (PGM) to compare the mass activities of different cata- wasconductedtoinvestigatewhethertheelementsareoxidized
+lysts.Specically,asshowninFig.3b,themassactivityofHEA aer the i–t test for the MOR. As shown in Fig. S23,† the
+NWs for the MOR is 10.4 A mg
+−1,
+which is about 1.9 and chemicalstatesofalltheelementsarethesameasthosebefore
+PGM
+13.0 times as high as that of HEA NPs (5.4 A mg −1) and the i–t test. The above characterization demonstrates the
+PGM
+commercial Pt/C (0.8 A mg −1), respectively. Relative to other structural and compositional stability aer the long-term
+Pt
+reportedPt-basedelectrocatalysts,HEANWsshowremarkable durability test in the MOR. During electrocatalytic reactions,
+MORactivityinanalkalineenvironment(Fig.3candTableS3†). COintermediates,whicharisefromthedissociationofalcohol
+Furthermore,theelectrocatalyticstabilityofthecatalystswas molecules, tend to adsorb onto Pt-based catalysts. This
+evaluatedusingthei–ttest.AsillustratedinFig.3d,HEANWs adsorption leads to a decline in the catalyst's activity.34,36,37 To
+maintain superior activity even aer 20000 s of i–t testing evaluatetheCOresistanceofthecatalysts,asshowninFig.3f,
+compared to the other electrocatalysts under the same condi- the oxidation potential for CO on HEA NWs and HEA NPs is
+tions, suggesting that the HEA NWs possess better electro- lowerthanthatoncommercialPt/CintheCOstrippingcurves.
+catalyticstability.AsshowninFig.S21,†thecurrentdensitiesof ThisresultindicatesthattheHEAcatalystsexhibitexcellentCO
+HEA NPs and commercial Pt/C decrease 17.9% and 37.1%, anti-poisoningperformance.
+respectively, aer the i–t test. In comparison, no signicant Density functional theory (DFT) calculations are conducted
+degradation is observed in the current density of HEA NWs to shed light on the reasons for the improved HER and MOR
+(Fig. 3e). And the shape of the NWs aer the i–t test is also performance.ThetheoreticalmodelsofHEA(111)andPt(111)
+maintainedandtheXRDpatternindicatestheexistenceofPt- wereconstructedasshowninFig.4abasedontheICPandEDS
+based HEA alloys (Fig. S22†). Besides, the XPS of the catalysts results.Thed-bandcenter,derivedfromtheprojecteddensities
+Fig.4 (a)ThetheoreticalmodelsofHEA(111)andPt(111).(b)ThePDOSsofPtsitesinHEA(111)andPt(111).(c)Thefreeenergydiagramofwater
+dissociationforalkalineHERonHEA(111)andPt(111).(d)ThefreeenergyofhydrogenadsorptiononHEA(111)andPt(111).(e)Thefreeenergy
+diagramfortheMORonHEA(111)andPt(111).(f)TheadsorptionenergycomparisonofCH OH,CO ,andCOonHEA(111)andPt(111).
+3 2
+Thisjournalis©TheRoyalSocietyofChemistry2025 J.Mater.Chem.A,2025,13,28019–28025 | 28023
+
+JournalofMaterialsChemistryA Paper
+ofstates(PDOSs)inHEA(111)andPt(111),servesasaneffec- electrocatalytic activities and stabilities for both alkaline HER
+tivedescriptorforpredictingelectrocatalyticactivity.Relativeto andMOR.TheHEANWsdeliverimpressiveHERactivitychar-
+pure Pt (111), the d-band center of HEA (111) shis slightly acterizedbyaverylowoverpotentialof14mVat10mAcm −2.
+downward in energy. This shi reduces the over-binding of Additionally,theHEANWsexhibitoutstandingcatalyticactivity
+intermediates, ensuring efficient electrocatalysis (Fig. 4b). In fortheMORwithamassactivityof10.4Amg −1.Themass
+PGM
+ordertothoroughlyunderstandthefactorscontributingtothe activityvalueis1.9timesthatofHEANPsand13.0timesthatof
+enhancedHERactivityinalkalinemedia,detailedcalculations commercial Pt/C, respectively. DFT calculation demonstrates
+oftheGibbsfreeenergydiagramsfortherate-determiningstep thattheformationofHEAoptimizesthebindingenergiesofkey
+(RDS), i.e. water dissociation, were conducted (Fig. 4c). The intermediatesanddecreasestheenergybarriersofPDSinboth
+correspondingtheoreticalmodelsaredepictedinFig.S24and the HER and MOR. This work not only offers an effective and
+S25.† The HEA possesses a lower activation barrier (DG = practical strategy for precise tailoring of the dimensions and
+RDS
+0.58eV)thanpurePt(DG =0.61eV)forbreakingtheOH–H morphologyofHEAsattheatomic-levelbutalsoforimproving
+RDS
+bondinH O,suggestingmorefavoredadsorbedhydrogen(*H) theelectrocatalyticperformanceofHEAs.
+2
+and adsorbed OH group (*OH) production. In addition, as
+showninFig.4d,theadsorptionfreeenergyof*HonHEA(111)
+Data availability
+(DG*H =−0.06eV)iscloserto0thanthatonpurePt(111)(DG*H
+=−0.40eV).AccordingtoSabatier'sprinciple,themostactive
+Thedata supportingthisarticle havebeenincludedaspartof
+HERelectrocatalystsareexpectedtobepositionedatthepeakof theESI.†
+thevolcanoplotwithDG*H =0,indicatingthattheHEAexhibits
+superiorintrinsicactivitytopurePt.Theseresultsdemonstrate Conflicts of interest
+that HEA could not only facilitate H O dissociation but also
+2
+enhancethe*HadsorptionduringalkalineHER,thusexhibit-
+Therearenoconictstodeclare.
+ingimprovedHERactivity.
+InthecaseoftheMOR,thefreeenergydiagramsofthefull
+Acknowledgements
+pathwayareillustratedinFig.4e.Thecorrespondingtheoretical
+modelsaredisplayed inFig.S26and S27.†Clearly, theenergy
+barriersofallnon-spontaneousreactionstepsonHEA(111)are
+Q.L.acknowledgesnancialsupportfromtheBeijingNatural
+lowerthanthoseonPt(111).Forexample,theenergybarrierof Science Foundation (No. 2242008 and 2254087), the National
+themethanoladsorptionstepontheHEA(111)is0.15eV,lower Natural Science Foundation of China (No. 52471220), the
+thanthat(0.24eV)onPt(111),indicatingtheeasieradsorption FundamentalResearchFundsfortheCentralUniversities(No.
+GJRC003), and the Guangdong Basic and Applied Basic
+ofmethanolonPt-basedHEANWs.Asfortheinitialdehydro-
+ResearchFoundation(No.2022A1515140051).W.C.isthankful
+genationstepsonHEA(111)andPt(111),botharespontaneous
+forthesupportfromtheNationalNaturalScienceFoundation
+reactionstepswithoutanenergybarrier.Notably,inthewhole
+pathway, the RDS is the oxidation of CHO* to HCOOH. The of China (No. 51972026) and the Beijing Nova Program-Inter-
+energybarrierofRDSonHEA(111)is0.71eV,lowerthanthat disciplinaryProjects(No.20240484608).
+(0.92eV)onPt(111),revealingthesuperiorMORactivityofHEA
+NWs. Fig. 4f illustrates the adsorption energy of CH OH, CO Notes and references
+3
+and CO on HEA (111) and Pt (111). The adsorption energy of
+2
+CH OH on HEA is smaller than that on Pt, beneting the 1 Y.Li,H.Li,Y.Zhao,D.Ji,P.Guo,G.LiandX.Zhao,Small,
+3
+following oxidation process of CH OH. Meanwhile, the 2023,19,2303065.
+3
+adsorptionenergyofCO onHEA(111)islargerthanthatonPt 2 A.Pei,R.Xie,L.Zhu,F.Wu,Z.Huang,Y.Pang,Y.-C.Chang,
+2
+(111),indicatingthattheproduct(i.e.CO )oftheMORiseasier G. Chai, C.-W. Pao, Q. Gao, C. Shang, G. Li, J. Ye, H. Zhu,
+2
+todesorbfromthesurfaceofHEA.Furthermore,theHEA(111) Z.YangandZ.Guo,J.Am.Chem.Soc.,2025,147,3185–3194.
+surface demonstrates a reduced tendency to adsorb CO mole- 3 Y. Lv, L. Lin, R. Xue, P. Zhang, F. Ma, T. Gan, J. Zhang,
+cules,therebyenhancingitstolerancetoCO-inducedpoisoning D. Gao, X. Zheng, L. Wang, Y. Qin, H. Zhao, Y. Dong,
+in the MOR. The optimized electronic structure of HEA Y.WangandY.Zhu,Adv.EnergyMater.,2024,14,2304515.
+promotes stronger binding of reaction intermediates while 4 J. Zhu, L. Xia, R. Yu, R. Lu, J. Li, R. He, Y. Wu, W. Zhang,
+facilitatingtheRDSbyreducingitsactivationenergyinalkaline X. Hong, W. Chen, Y. Zhao, L. Zhou, L. Mai and Z. Wang,
+HERandMORprocesses. J.Am.Chem.Soc.,2022,144,15529–15538.
+5 K. Guo, D. Fan, J. Bao, Y. Li and D. Xu, Adv. Funct. Mater.,
+Conclusion 2022,32,2208057.
+6 S. Li, G. Wang, H. Lv, Z. Lin, J. Liang, X. Liu, Y.-G. Wang,
+Inconclusion,wehavesuccessfullysynthesizedPtPdRuFeCoNi Y. Huang,G. WangandQ.Li,J.Am.Chem. Soc.,2024, 146,
+HEA with an ultrathin NW structure through a simple co- 17659–17668.
+reduction method under ambient conditions. The electro- 7 S. Chen, N. Liu, J. Zhong, R. Yang, B. Yan, L. Gan, P. Yu,
+catalytic testing indicates that the synthesized HEA NWs, X.Gui,H.Yang,D.Yu,Z.ZengandG.Yang,Angew.Chem.,
+serving as bi-functional electrocatalysts, possess outstanding Int.Ed.,2022,61,e202209693.
+28024 | J.Mater.Chem.A,2025,13,28019–28025 Thisjournalis©TheRoyalSocietyofChemistry2025
+
+Paper JournalofMaterialsChemistryA
+8 C. Li, P. Qin, G. Peng, G. I. N. Waterhouse, L. Shang and 24 Z. Lei, X. Liu, Y. Wu, H. Wang, S. Jiang, S. Wang, X. Hui,
+T. Zhang, Matter, 2025, 102096, DOI: 10.1016/ Y. Wu, B. Gault, P. Kontis, D. Raabe, L. Gu, Q. Zhang,
+j.matt.2025.102096. H. Chen, H. Wang, J. Liu, K. An, Q. Zeng, T. G. Nieh and
+9 X.Zhang,L.Hui,F.HeandY.Li,J.Am.Chem.Soc.,2025,147, Z.Lu,Nature,2018,563,546–550.
+436–445. 25 C. Zhan, Y. Xu, L. Bu, H. Zhu, Y. Feng, T. Yang, Y. Zhang,
+10 F.Yang,J.Ye,L.Gao,J.Yu,Z.Yang,Y.Lu,C.Ma,Y.-J.Zeng Z. Yang, B. Huang, Q. Shao and X. Huang, Nat. Commun.,
+andH.Huang,Adv.EnergyMater.,2023,13,2301408. 2021,12,6261.
+11 Y. Qin, K. Yu, G. Wang, Z. Zhuang, Y. Dou, D. Wang and 26 Y. Wan, W. Wei, S. Ding, L. Wu, H. Qin and X. Yuan, Adv.
+Z.Chen,Angew.Chem.,Int.Ed.,2025,64,e202420817. Funct.Mater.,2025,35,2414554.
+12 S. Zhang, Z. Zeng, Q. Li, B. Huang, X. Zhang, Y. Du and 27 X. Yan, Y. Zhou and S. Wang, Adv. Funct. Mater., 2025, 35,
+C.-H.Yan,EnergyEnviron.Sci.,2021,14,5911–5918. 2413115.
+13 S. Wang, B. Xu, W. Huo, H.Feng, X. Zhou, F. Fang,Z. Xie, 28 C. He, D. Pan, X. Li, Z. Lu, K. Chen, G. Wang, Z. Zhang,
+J.K.ShangandJ.Jiang,Appl.Catal.,B,2022,313,121472. H. Zhang, Y. Zhang and Z. Wen, Coord. Chem. Rev., 2025,
+14 J.KibsgaardandI.Chorkendorff,Nat.Energy,2019,4,430– 531,216496.
+433. 29 L.Han,H.Qing-Ling,Y.Yun-Chao,S.Feng,C.PeiandC.Yu,
+15 P. Kuang, Y. Wang, B. Zhu, F. Xia, C.-W. Tung, J. Wu, EnergyMater.,2025,5,500068.
+H.M.ChenandJ.Yu,Adv.Mater.,2021,33,2008599. 30 X. Ma, S. Zhang, Y. Zhou, W. Lei, Y. Zhai, Y. Zhao and
+16 J.Chen,G.Qian,H.Zhang,S.Feng,Y.Mo,L.LuoandS.Yin, C.Shan,J.Mater.Chem.A,2024,12,8862–8868.
+Adv.Funct.Mater.,2022,32,2107597. 31 Y.Yao,Q.Dong,A.Brozena,J.Luo,J.Miao,M.Chi,C.Wang,
+17 Z.-X.Ge,Y.Ding,T.-J.Wang,F.Shi,P.-J.Jin,P.Chen,B.He, I.G.Kevrekidis,Z.J.Ren,J.Greeley,G.Wang,A.Anapolsky
+S.-B.YinandY.Chen,J.EnergyChem.,2023,77,209–216. andL.Hu,Science,2022,376,eabn3103.
+18 X.-L.Liu,Y.-C.Jiang,J.-T.Huang,W.Zhong,B.He,P.-J.Jin 32 C.Ma,H.Zhang,J.Xia,X.Zhu,K.Qu,F.Feng,S.Han,C.He,
+andY.Chen,CarbonEnergy,2023,5,e367. X.Ma,G.Lin,W.Cao,X.Meng,L.Zhu,Y.Yu,A.-L.Wangand
+19 Y. Yao, Z. Huang, P. Xie, S. D. Lacey, R. J. Jacob, H. Xie, Q.Lu,J.Am.Chem.Soc.,2024,146,20069–20079.
+F. Chen, A. Nie, T. Pu, M. Rehwoldt, D. Yu, 33 R.Zhou,X.Han,Q.Chen,L.Peng,X.Qiu,P.Wang,C.Guo,
+M. R. Zachariah, C. Wang, R. Shahbazian-Yassar, J. Li and J. Wang, Z. Wang and J. Hao, J. Mater. Chem. A, 2024, 12,
+L.Hu,Science,2018,359,1489–1494. 5719–5730.
+20 T.A.A.Batchelor,J.K.Pedersen,S.H.Winther,I.E.Castelli, 34 W.Chen,S.Luo,M.Sun,M.Tang,X.Fan,Y.Cheng,X.Wu,
+K.W.JacobsenandJ.Rossmeisl,Joule,2019,3,834–845. Y.Liao,B.HuangandZ.Quan,Small,2022,18,e2107803.
+21 Y.Yao,Z.Liu,P.Xie,Z.Huang,T.Li,D.Morris,Z.Finfrock, 35 J.Mohammed-IbrahimandX.Sun,J.EnergyChem.,2019,34,
+J. Zhou, M. Jiao, J. Gao, Y. Mao, J. Miao, P. Zhang, 111–160.
+R. Shahbazian-Yassar, C. Wang, G. Wang and L. Hu, Sci. 36 H.Liu,R.Jia,C.Qin,Q.Yang,Z.Tang,M.LiandZ.Ma,Adv.
+Adv.,2020,6,eaaz0510. Funct.Mater.,2023,33,2210626.
+22 Y.SunandS.Dai,Sci.Adv.,2021,7,eabg1600. 37 F. Kong, X. Liu, Y. Song, Z. Qian, J. Li, L. Zhang, G. Yin,
+23 J. W. Yeh, S. K. Chen, S. J. Lin, J. Y. Gan, T. S. Chin, J.Wang,D.SuandX.Sun,Angew.Chem.,Int.Ed.,2022,61,
+T. T. Shun, C. H. Tsau and S. Y. Chang, Adv. Eng. Mater., e202207524.
+2004,6,299–303.
+Thisjournalis©TheRoyalSocietyofChemistry2025 J.Mater.Chem.A,2025,13,28019–28025 | 28025
+

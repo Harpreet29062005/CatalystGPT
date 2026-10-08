@@ -1,0 +1,1047 @@
+RESEARCH ARTICLE
+www.small-journal.com
+Synthesis Framework for Designing PtPdCoNiMn
+High-Entropy Alloy: A Stable Electrocatalyst for Enhanced
+Alkaline Hydrogen Evolution Reaction
+Athira Chandran M, Sudeshna Sahoo, Ashutosh K. Singh,* and Bhagavatula L. V. Prasad*
+surprising that the development and pro-
+Highentropyalloys(HEAs)areanemergingclassofadvancedmaterials duction of green hydrogen are at the fore-
+characterizedbytheirmultifunctionalityandpotentialtoreplacecommercial frontofcurrentresearchefforts.[1] Theex-
+catalystsinelectrocatalyticwatersplitting.Thesynergyamongthevarious isting large-scale H production methods
+2
+suchasoilrefining,steamreforming,etc.,
+alloyedelementsinHEAsmakesthemparticularlypromisingforapplications
+result in grey or blue H which are not
+inelectrocatalysis.However,preparationofHEAviabottom-upapproaches 2,
+considered environmentally friendly.[2] A
+byavoidingtheformationofmono,di,andtrimetallicalloysinthenanoscale
+greener solution uses water electrolysis to
+ischallenging.Thisaspectisaddressed,inthisstudybyexploringthe generateH ,whichisladenwithissueslike
+2
+logicalselectionofsolvents,reducingagents,andcappingagents,alongwith high production cost, efficiency, and dura-
+theirrelativefractions,inthesolvothermalsynthesisoftheHEAcomprising
+bilityofthecatalystused.[3]Pt/Cisthecom-
+mercialcatalystusedasthecathodeforwa-
+platinum-palladium-cobalt-nickel-manganese(PtPdCoNiMn).Itisestablished
+tersplittingthatcatalyzeshydrogenevolu-
+thatthereducingcapabilitiesofboththesolventandreducingagent
+tionreaction.[4]However,thisexpensivecat-
+arecrucialforthereductionofeachmetaltoformasingle-phaseHEA.The alyst needs a replacement by reducing the
+synthesizedHEA(20wt.%)/functionalizedcarbon(FC)demonstratesexcellent Ptquantityandenhancingthecatalyticac-
+performanceasanHERcatalyst,exhibitingalowoverpotentialof48.7mVat tivityandstability.[5,6]Thishighdemandfor
+−10mAcm−2inanalkalineelectrolyte.Thisperformanceischaracterizedby improvedperformanceandthereductionin
+Ptquantitycanbeachievedbyintroducing
+highreactionkineticsandstabilityatelevatedcurrentdensities.Furthermore,
+ahighlystablematerialwithmultipleactive
+thecatalystshowsimpressiveperformanceinbothsimulatedandactual
+sites having multifunctionality for electro-
+seawater.Thisdevelopmentreducestherelianceonplatinumwhileenhancing catalytichydrogenevolutionreaction.These
+thelong-termdurabilityandcatalyticefficiencyoftheelectrocatalyst. requirementscanbefulfilledbydesigning
+a high-entropy alloy (HEA) with the right
+choice of elements and composition.[7,8]
+Accordingly, HEAs have captured substantial attention in the
+1.Introduction
+fieldofcatalysisduetotheirmultifunctionalproperties.[9–12]HEA
+Green hydrogen is a critical need in today’s world, offering a canbeformedbyalloyingfiveormoreelementsincomposition
+cleanenergysolutionwithzerocarbonemissions.Thusitisnot from5–35at.%suchthatitsconfigurationalentropyΔSwillbe
+≥1.5R(R–universalgasconstant).AnincreaseinΔSovercomes
+theΔHvalueandbringstheΔGnegativeorclosetozero.[13,14]
+A.ChandranM,S.Sahoo,A.K.Singh,B.L.V.Prasad Thishelpsintheformationofasingle-phasesolidsolutionwith
+CentreforNanoandSoftMatterSciences enhancedstability.Duetothealloyingofmultipleelementswith
+Bengaluru562162,India
+different sizes, mutual hindrance causes sluggish diffusion of
+E-mail:aksingh@cens.res.in;pl.bhagavatula@ncl.res.in,
+pl.bhagavatula@cens.res.in atoms, resulting in the formation of small particles with high
+A.ChandranM,A.K.Singh,B.L.V.Prasad surfacearea.Alongwiththeseproperties,thesynergisticeffect
+ManipalAcademyofHigherEducation ofallthealloyedelementsalsocanenhancethedesiredproperty.
+Manipal,Karnataka576104,India AllthesefeaturesofHEAcanbeutilizedfordesigningabetter
+A.K.Singh electrocatalystforHER.[10,15–17]
+AcademyofScientificandInnovativeResearch(AcSIR)
+Synthesis of HEA is an uphill battle. HEA is mostly syn-
+Ghaziabad201002,India
+thesized by top-down methods where the metal chunks are
+B.L.V.Prasad
+melted or sputtered to generate pure alloy phase, which are
+PhysicalandMaterialsChemistryDivision
+NationalChemicalLaboratory(CSIR-NCL) subsequently converted to nanoscale materials by ball milling.
+Pune411008,India In mechanical alloying process, metal powders undergo ball
+millingwherecoldwelding,milling,andreweldingresultinal-
+TheORCIDidentificationnumber(s)fortheauthor(s)ofthisarticle
+loy formation.[18] Melting pure metals in an induction-melting
+canbefoundunderhttps://doi.org/10.1002/smll.202408317
+furnace or quartz tube under an argon (Ar) atmosphere can
+DOI:10.1002/smll.202408317
+Small2025,21,2408317 2408317(1of12) ©2024Wiley-VCHGmbH
+
+www.advancedsciencenews.com www.small-journal.com
+produceHEA,whichcanevenbemadeintoalloystrips.[19]Simi- anddevelopanelectrocatalystforHER.Morespecifically,anHEA
+larly,arcmeltingproducesHEAbymeltingmetalsunderanelec- composingofthemetalsPtPdCoNiMnissynthesizedusingthe
+tricarc.[20] ApartfromthebulkHEAsynthesissuchaspowder solvothermalmethod,aspartofthiswork.Combinationsofvari-
+metallurgy,inductionmelting,andarcmelting,[21]HEAcoatings oussolvents/reducingagentsandcapping/reducingagentswere
+can be made from magnetic sputtering,[22] laser cladding,[23–25] exploredinanattempttosynthesizethephasepureHEA.Itis
+spark-plasmaprocessing,[26]atomicplasmaspray,[27]etc.Besides observedthatmanycombinationswereunabletoreduceallfive
+these methods, different atomization techniques such as gas elementstoformtheHEA.Amongthecombinationstried,the
+atomization, plasma atomization, water atomization, and cen- formationofasingle-phaseHEAisfacilitatedbyaspecificratioof
+trifuge atomization generate nanoparticles of HEA with differ- benzylalcoholandoleylamine.WhentestedforHERactivity,the
+ent particle sizes and morphology. Single crystal HEA can be preparedHEAdisplayedbetterperformancecomparedtoPt/C,
+madebyBridgmansolidificationandhighgravitycastingorco- withreducedPtcontent,inalkalineelectrolyte,simulatedseawa-
+sputtering can fabricate HEA with gradient structures.[28] Syn- ter,andactualseawaterconditions.HERactivityandkineticsare
+thesisofnoblemetal-basedalloysandnanoparticleswithanar- furtherimprovedbytheremovalofthecappingagentthrough
+row size distribution can be realized utilizing simple bottom- annealing. A systematic HEA synthesis strategy and the devel-
+up chemical methods. However, it is a challenging process to opment of an electrocatalyst with significant HER activity in a
+prepare HEAs by these methods because of the requirement practicalscenarioareproposedhere.
+for simultaneous reduction of the metals from its precursors
+making it difficult to get the required composition in a repro- 2.ResultsandDiscussion
+ductive manner with high yield.[29] Wet chemistry methods,[30]
+solvothermal synthesis,[31] carbothermal shock synthesis,[32] 2.1.MaterialCharacterization
+electrodeposition,[33] microwave-assisted synthesis,[34] colloidal
+synthesis,etc.aresomeofthebottom-upsynthesismethodsby Synthesis of PtPdCoNiMn HEA by chemical route such as
+which HEA can be synthesized. The key reagents for the syn- solvothermalsynthesisisacomplexprocesswhereallthesefive
+thesis using most of these methods are 1) metal precursors, elements from their corresponding metal salts have to get re-
+the source of the metal to form the alloy, 2) reducing agent, ducedtotheirzero-oxidationstatealongwithanalloyingprocess
+to drive the reduction process and 3) capping agent/ stabiliz- suchthatitformsasingle-phasehighentropystructure.Taking
+ing agent, which helps in preventing aggregation. The selec- chlorides as the metal precursor, three different solvents were
+tion of the metal precursors (inorganic or organic) has a cru- tested separately along with a reducing agent. The selection of
+cial role because of the importance of their solubility in the the solvents is such that they can dissolve the metal chlorides
+solvent, stability, and metal oxidation state, hence their reduc- and also act as a reducing agent. Ethylene glycol, glycerol, and
+ing capability. Reducing agents can control the kinetics of the benzyl alcohol are reducing solvents that were used to test the
+reaction. The redox potential and the physiochemical proper- synthesisoftheHEA.Alongwiththesereducingsolvents,differ-
+ties of the reducing agent can influence the rate of the reac- entreducingagents/cappingagentssuchasPVAoroleylamine
+tion,shape,size,andreactionparameters.[35]Thecappingagent (OAm)werealsoaddedseparatelytotestthereducingpowerof
+prevents particle agglomeration which results in nanoparticles thesystem.Thedifferentcombinationsofsolventandreducing
+with high surface area. It can also act as a stabilizing agent agenttestedforthesynthesisofHEAareshownasaflowchart
+through surface interaction.[36] In certain situations, reducing inthesupplementaryFigureS1(SupportingInformation).The
+agentandcappingagentrolesareplayedbyasinglecompound solvothermal synthesis followed for the synthesis of PtPdCoN-
+like oleylamine, polyvinyl alcohol (PVA), polyvinylpyrrolidone iMnHEAisdemonstratedinFigure1aandexplainedinthehigh
+(PVP),andsodiumcitrate.[37] Similarly,certainsolventssuchas entropyalloy(HEA)synthesissection.
+N,N-Dimethylformamide (DMF), benzyl alcohol, glycerol, and Ethyleneglycol(EG)isareducingsolventcontainingtwoOH-
+ethylene glycol can also act as reducing agents.[38,39] The selec- groupsthatweaklyinteractwiththemetalions,formingaweak
+tionofthesethreekeyingredients,theirquantity,andratioscan complex.MolecularorbitaltheorysuggeststhatinthecaseofEG,
+influencenotonlytheparticlesizeandmorphologybutalsothe themonoanionicstateisstable.Itslowreactivitywiththemetal-
+reduction, nucleation, and growth of nanoparticles. Nanoparti- licionsisduetoitslowenergylevelHOMOassociatedwiththe
+clestructureanditsmorphologyalsocanbeengineeredtogen- structure.ThehydrogenbondwillbebrokenandEGwillattain
+erateahighsurfaceareaHEAmainlyforcatalyticapplications. ahigh-energystatewithenhancedreactivitywhenheatedclose
+Utilizationofblockcopolymermicellesinthewet-chemicalre- toboilingpoint.[42] ByusingEGasasolventwetriedtosynthe-
+duction method is one such approach. Kang et al. have devel- sizePtPdCoNiMnHEA.XRDinFigureS2a(SupportingInfor-
+oped PtPdRhRuCu multimetallic alloy by using polystyrene-b- mation)showsthefcccrystalstructureformationwithpeakposi-
+poly(ethylene oxide) (PS -b-PEO ), poly(ethylene oxide)-b- tions(2𝜃)39.9°,46.54°and67.97°correspondingto(111),(200), 5000 2200
+poly(methylmethacrylate)micellesandL-ascorbicacid[40]andPt- and(220)peaksasshowninTableS1(SupportingInformation)
+Ni-Busingpoly(styrene) -b-poly(ethyleneoxide),[41]wherethey thatmatcheswithfccPt(01-1190)withaslightshifttoahigher
+5000
+developedmesoporousnanospheres. angle.Theaveragecrystallitesizeofthesynthesizedmaterialwas
+AmongthevastchoiceofelementstoformtheHEAelectrocat- determined to be 8.9 nm (Table S1, Supporting Information).
+alyst,theselectionisgenerallymadebasedontheSabatierprinci- TheTEMimageinFigureS2b(SupportingInformation)shows
+plerelyingonsystemspossessingoptimaladsorptionstrengthof the formation of nanoparticles with subspherical shapes. The
+thereactionintermediatewiththecatalystsurface.Followingthis HRTEM image in Figure S2c (Supporting Information) shows
+concept,wetriedtosynthesizeanHEAthroughachemicalroute thelatticefringescorrespondingto(111)and(200)planeswith
+Small2025,21,2408317 2408317(2of12) ©2024Wiley-VCHGmbH
+16136829,
+2025,
+1,
+Downloaded
+from
+https://onlinelibrary.wiley.com/doi/10.1002/smll.202408317
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.small-journal.com
+Figure1. a)SchematicillustrationforsynthesisprocedureoftheHEAb)XRDoftheHEAsynthesizedusingbenzylalcohol(BA)asthesolventc)TEM
+imaged)HRTEMimageofHEAsynthesizedusingBA+OAmsysteme)XRDoftheHEAsynthesizedusingBA+OAmsystematdifferentratiosf)TEM
+image(d)HRTEMimageofHEAsynthesizedusingBA+OAmsystemat15:5ratio.
+d-spacingvaluesof2.22and1.94Å,respectively,thatmatchwith and51.58°,respectively,asshowninFigureS2a(SupportingIn-
+thePt.ApartfromtheindicationfromXRDandHRTEMdata, formation) and Table 1. This indicates that Ni and Co also got
+ICP-MSdatafromTable1alsoshowsthatbyusingEGasasol- reducedbytheEG+PVAsystemandformedaquaternarymul-
+vent,thesystemcouldreduceonlyPtandPd,formingabimetal- tiphasesystem.Thecrystallitesizeofthissystem(7.2nm)isob-
+licalloysystem.Non-noblemetalssuchasCo,Mn,andNifailed served to be lower than that obtained with EG alone. The FE-
+togetreducedusingthissystem.Toimprovethereductionpo- SEMimageinFigureS2d(SupportingInformation)showsthe
+tentialoftheoverallsystem,weintroducedPVAalongwithEG. formationoftinyclustersofparticleshavinganaveragesizeof
+25wt.%ofPVAwasaddedtothemixtureofprecursorsandsol- 50nmandtheTEMimage(FigureS2e,SupportingInformation)
+vent, followed by the solvothermal reaction. In the PXRD pat- showsthenanoparticles(≈5–10nm)makingsuchclusters.The
+ternofthefinalmaterialobtainedwithEG+PVAcombination, d-spacingvaluescorrespondtotheintenseplanesobservedinthe
+alongwiththepeakscorrespondingtoPtPd,fcc(111)and(200) SAEDpattern(FigureS2e).TheICP-MSdatafromTable1shows
+peaks corresponding to the NiCo system were found at 44.23° theelementalcompositionoftheEG+PVAreducedsystemwith
+Small2025,21,2408317 2408317(3of12) ©2024Wiley-VCHGmbH
+16136829,
+2025,
+1,
+Downloaded
+from
+https://onlinelibrary.wiley.com/doi/10.1002/smll.202408317
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.small-journal.com
+Table1.ICP-MSdatashowingtheelementalcompositionofthepreparedsamplesandtheircorrespondingconfigurationalentropyvalue.
+Sample Pt[at%] Pd[at%] Ni[at%] Co[at%] Mn[at%] ΔS
+EG 26.0 74.0 0 0 0 0.573R
+(PtPd)
+EG+PVA 15.6 50.9 15.9 17.6 0 1.23R
+(PtPd-CoNi)
+G 7.6 92.4 0 0 0 0.268R
+(PtPd)
+G+PVA 12.8 87.2 0 0 0 0.382R
+(PtPd)
+G+OAm 10.5 62.4 12.6 14.5 0 1.07R
+(PtPdCoNi)
+BA 18.3 62.7 19.0 0 0 0.919R
+(PtPdNi)
+BA+PVA 9.9 38.5 47.3 4.3 0 1.08R
+(PtPdCoNi)
+BA+OAm(18:2) 25.0 32.3 25.3 15.3 2.1 1.42R
+(PtPdCoNiMn)
+BA+OAm(15:5) 16.5 28.4 24.8 15.2 15.1 1.57R
+(PtPdCoNiMn)
+BA+OAm(10:10) 23.7 34.2 27.1 14.5 0.5 1.36R
+(PtPdCoNiMn)
+MEAswithBA+OAm(15:5)system
+PtCoNiMn 19.8 – 26.6 27.5 26.1 1.38R
+PdCoNiMn – 21.1 21.3 28.5 29.1 1.37R
+CoNiMn – – 45.5 32 22.5 1.06R
+fourelementsPtPdCoNiformingamultiphasequaternarysys- an element with high reduction potential, was not getting re-
+tem. EG and OAm combination was unable to form a product duced. So, the quest for the synthesis of a single-phase HEA
+usingthesolvothermalsynthesismethod,sowedidnotproceed continued.
+further with the system. From these results, we conclude that Moving further we considered another reducing solvent,
+EGandEG+PVAsystemsarenotabletoproducetherequired benzyl alcohol (BA), and repeated the synthesis of HEA. The
+HEA. PXRDpatternofthematerialobtainedusingBAasthesolvent
+SimilartotheEGsystem,wetriedtosynthesizeHEAusing displayed the fcc crystal structure (Figure 1b) with coagulated
+glycerol(G),G+PVA,andG+OAm(with18:2vol%)systems. nanoparticles (Figure S4a,b, Supporting Information) as indi-
+FigureS3a(SupportingInformation)showstheXRDdatawhich cated by the TEM images. The decrease in the d-spacing value
+indicates the formation of the fcc crystal structure whose peak to2.18Å(FigureS4c,SupportingInformation)andtheshiftin
+positionsaregiveninTableS1(SupportingInformation).Prod- XRD peaks indicate the incorporation of more metals into the
+uctsobtainedwithalltheabovecombinationsshowapeakshift alloy system. ICP data shows the presence of PtPdNi forming
+to a higher angle than Pt. While comparing G and G + PVA a phase pure ternary alloy. The incorporation of PVA with BA
+alloy systems, G + OAm alloy has a higher shift to 40.8° for has reduced the particle agglomeration and size, where each
+the (111) plane and 47.1° for the (200) plane along with peak of the clusters seen in the FESEM image further consists of
+broadening. Figure S3b (Supporting Information) of the G al- nanoparticlesofaveragesize≈2–5Å(FigureS4d,e,Supporting
+loy system shows nanoparticle formation (≈5–10 nm) in sub- Information). A reduced d-spacing value of 2.16 and 1.90 Å
+spherical shapes. HRTEM in Figure S3c (Supporting Informa- obtainedfor(111)and(200)planes(FigureS4f,SupportingIn-
+tion) image shows the lattice fringes corresponding to the fcc formation)indicatetheintegrationofmoreelementscompared
+crystal planes. ICP-MS data shows that using glycerol as a re- totheBAalloysystem.TheICP-MSdataconfirmedthepresence
+ducingsolventalsoledtothereductionoftwonoblemetalsPt of Co along with PtPdNi indicating the formation of a phase
+andPdformingabimetallicalloy.TheintroductionofPVAinto pure quaternary alloy. Quite gratifyingly the combination of
+glycerolformedamoredispersedsystemwithsmallerparticles BAandOAm(18:2ratio)providedsomedramaticresults.XRD
+having a similar d-spacing value (from Figure S3d–f, Support- (Figure1b)showsthesingle-phasefcccrystalstructurewithout
+ing Information). Still, only the PtPd alloy was getting formed any impurity peaks. The peaks are shifted to higher angles
+and the three non-noble metals were not getting reduced. The where the (111), (200) and (220) planes are at 40.7°, 47.65°,
+introductionofOAm(inan18:2ratioofGandOAm),aknown and 69.71°, respectively, indicating the alloying of multiple
+reducingagent,resultedintheformation(FigureS3i,Support- elementsintotheparentcrystalstructure.TheFESEMimagein
+ing Information) of a single-phase quarternary alloy PtPdCoNi Figure S5a (Supporting Information) shows spherical particle
+(Table1).HRTEMimageshowstheloweredd-spacingvalueof clusters of 50–200 nm in size. Each of these clusters consists
+2.15and1.43Åcorrespondingtothe(111)and(200)planes.The of dispersed spherical nanoparticles with an average size of
+drasticchangeinthed-spacingvalueandtheshiftintheXRD 5.5 nm, as shown in Figure 1c. The crystallite size calculated
+peakpositionshowstheincorporationofCoNiintothesystem from XRD data (Table S1, Supporting Information) shows the
+forming a single-phase alloy. The crystallite size also showed a decrease in the crystallite size value from 5.4 to 5.03 nm by
+significantdecreaseinthevalueto4.2nmwhichwasindicated the addition of PVA into the BA system and further reduction
+by the XRD peak broadening for the G + OAm alloy system. to 4.7 nm for OAm addition to the BA system. The HRTEM
+Thus,asingle-phasemulticomponentalloysystemwasproduced image (Figure 1d) shows d-spacing values of 2.15 and 1.88 Å
+successfullyusingtheglycerol-OAmsystem.Still,Mnwhichis corresponding to (111) and (200) planes which show the
+Small2025,21,2408317 2408317(4of12) ©2024Wiley-VCHGmbH
+16136829,
+2025,
+1,
+Downloaded
+from
+https://onlinelibrary.wiley.com/doi/10.1002/smll.202408317
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.small-journal.com
+lattice contraction indicating alloying. These results are alyzed. Figure 2a shows the survey spectrum where each ele-
+further validated by ICP-MS data showing the reduction of mentintheHEAisidentified.High-resolutionspectraofeach
+all five elements by the BA + OAm (18:2) system. This re- elementaretakenanddeconvoluted.Pt4f,showninFigure2b
+sult indicates the successful reduction of all five elements shows intense metallic peaks at 71.75 and 75.09 eV corre-
+forming a quinary alloy system. The solvothermal synthesis sponding to Pt(0)4f7/2 and Pt(0)4f5/2, respectively. Along with
+discussedsofarhasbeencarriedoutfor24hasmentionedin the metallic peaks, higher oxidation states of Pt, Pt(2+)4f7/2,
+thehighentropyalloysynthesissection.Thequestionofwhether and Pt(2+)4f5/2 are also present at 72.71 and 76.28 eV, re-
+it can be synthesized at a lower time can be cleared from the spectively. Pd also has intense metallic peaks at 336.04 and
+XRD in Figure S5b (Supporting Information), which shows 341.37eV,correspondingtoPd(0)3d5/2andPd(0)3d3/2,respec-
+thatina12hreaction,amultiphasematerialgetsformedwith tively,alongwithlowintensepeaksat336.87eV(Pd(2+)3d5/2)
+many impurity peaks that correspond to the metal precursors and342.86eV(Pd(2+)3d3/2).AsshowninFigure2d,thehigh-
+remainingintact.So,a24hreactionistheoptimizedtimeforthe resolution spectra of Co have metallic Co peaks at 777.67 and
+synthesis. The configurational entropy (ΔS) is calculated from 792.69eV,correspondingtoCo(0)2p3/2andCo(0)2p1/2,respec-
+theICPobtainedelementalcompositionusingtheequation, tively. Since Co is prone to surface oxidation, the peaks with
+higheroxidationnumbersaremoreintensethanmetallicpeaks.
+∑n Co(2+)2p3/2, Co(2+)2p1/2, Co(3+)2p3/2, and Co(3+)2p1/2 ap-
+ΔS =−R c lnc (1) pearat779.90,795.11,787.03,and797.29eVrespectivelythatare
+i i
+i=1 the higher oxidation peaks present in the HEA. Satellite peaks
+are also observed at higher binding energy. Ni high-resolution
+whereRistheidealgasconstantandc isthemolarconcentration spectra in Figure 2e show the metallic peak and 2+ oxidation i
+oftheith elementinthesystem.Thisformulaaccountsforthe peaks at 852.17, 869.39, 854.46, and 872.75 eV corresponding
+contributionofeachelementtotheoverallentropybasedonits toNi(0)2p3/2,Ni(0)2p1/2,Ni(2+)2p3/2andNi(2+)2p1/2respec-
+concentration.ΔSvaluecalculatedfromtheatomiccomposition tivelyalongwithsatellitepeaks.Mn,whichispronetooxidation,
+is1.42RfortheBA+OAm(18:2)alloysystemwhichisbelow alsohasmetallicpeakspresentinthisHEAsurfacealongwith
+theHEAlimitofΔS≥1.5R.ThelowamountofMnisthereason 2+and4+higheroxidationstates.ZerooxidationstatesofMn
+forthereducedentropyvalue.Tofurtherimprovetheamountof appear at 637.29 and 650.96 eV, corresponding to Mn(0)2p3/2
+Mninthemulti-componentalloy,wevariedthevol%ofBAand and Mn(0)2p1/2, respectively. Higher oxidation states of Mn,
+OAminthesystem.WesynthesizedBA+OAmat15:5and10:10 Mn(2+)2p3/2, Mn(2+)2p1/2, Mn(4+)2p3/2, and Mn(4+)2p1/2
+ratiostoincreasethecontentofMn,sothatallelementswillbe are present at 640.49, 653.14, 642.85, and 655.39 eV. Satellite
+inarangeof5–35at.%. peaks are present at 646.62 and 658.42 eV. Analyzing the XPS
+XRDdatafromFigure1eshowsthatthepeakpositionhasa data,wecanunderstandthattheHEAhasformedwitheachele-
+shift to a higher angle along with the peak broadening for BA mentinitsmetallicstatealongwithinevitablesurfaceoxidation.
++OAm(15:5)alloyandBA+OAm(10:10)alloyduetothede- Thus,weconcludethat,thesuccessfulsynthesisofPtPdCoNiMn
+crease in crystallite size as shown in Figure 1e and Table S1 single-phasehighentropyalloywasachievedbytheBA+OAm
+(Supporting Information). But BA + OAm (10:10) alloy shows (15:5)systemwithahighconfigurationalentropyvalue.
+multiphaseformationalongwithimpuritypeakswhichmaybe Following the optimized condition to synthesize HEA,
+duetotheexcessamountofOAminthesystem.Ontheother medium entropy alloy (MEA) control samples such as PtCoN-
+hand, BA + OAm (15:5) alloy has a similar morphology as the iMn,PdCoNiMn,andCoNiMnhavebeensynthesized,withthe
+BA + OAm (18:2) sample, as seen from the FESEM image in same condition as that used in the preparation of HEA. Ac-
+FigureS5c(SupportingInformation).TEMimage(Figure1f–g) cordingtotheirconfigurationalentropyvalue,theyarecalledas
+showstheformationofspheroidalstructurednanoparticlesfor MEAs.XRDofthesesamples,asshowninFigureS8a(Support-
+BA+OAm(15:5)alloyandthefurtherlatticecontractionto2.13 ingInformation),indicatesthataphasepurealloyisnotgetting
+and1.84Åindicatesthealloyingofmoreelementsintotheparent formed.Alongwiththemultiplepeakscorrespondingtomulti-
+crystalstructure.ThisisconfirmedbyICP-MSdatashowingthe ple phases present in the MEA, impurity peaks corresponding
+reductionofallelementssuchthattheconfigurationalentropy totheunreactedNiCl arealsopresent.Thisshowsthatthein-
+2
+becomes 1.57R, indicating the successful formation of a high creaseinconfigurationalentropyisfacilitatingtheformationof
+entropy alloy. The TEM elemental color mapping is shown in astablephasepurealloy.Bondesgaardetal.havealsoobserveda
+FigureS6(SupportingInformation)whichshowsthepresence similarphenomenonofphasesegregationforthetrimetallicand
+ofalltheelementsintheHEA.Furtherincreasingtheamount theintroductionofmoreelementshelpsinformingsingle-phase
+ofOAmtoformBA+OAm(10:10)onlyleadtotheformation HEA.[43]However,aphasepuresystemwasnotfoundinthecase
+ofaproductwithsomeimpuritiesasmentionedabove.TheFE- ofmediumentropysystems.TheFESEMimages(FigureS8b,d,
+SEM image of the product obtained with BA + OAm (10:10) SupportingInformation)alsoshowtheformationofsmallspher-
+(Figure S7a, Supporting Information) shows the formation of icalparticlesinthesemediumentropysamples.
+sphericalparticlesofsize50–150nm.TEMimages(FigureS7b,c,
+SupportingInformation)showthateachofthesphericalparticles
+consistsofclusteredalloynanoparticles. 2.2.ElectrochemicalEvaluationofHydrogenEvolutionReaction
+To further confirm the presence of all the elements in the
+BA + OAm (15:5) HEA and to identify the oxidation states of For testing the electrocatalytic HER activity of the HEA, it is
+each element in the alloy system, XPS was performed and an- madeintoacompositewithfunctionalizedVulcancarbonina1:4
+Small2025,21,2408317 2408317(5of12) ©2024Wiley-VCHGmbH
+16136829,
+2025,
+1,
+Downloaded
+from
+https://onlinelibrary.wiley.com/doi/10.1002/smll.202408317
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.small-journal.com
+Figure2. XPSspectraofBA+OAm(15:5)HEAa)surveyspectrumshowingthepresenceofalltheelementsintheHEA,high-resolutionspectrafor
+oxidationstateidentificationofb)Pt,c)Pdd)Coe)Nif)MnpresentintheHEA.
+ratio.Vulcancarbonisaconductivecarbonblackthatprovides ing electrode, Hg-HgO is the reference electrode and graphite
+high conductivity to the electrocatalyst and its 80% loading re- rod is the counter electrode. First, EG-based systems such as
+duces the amount of HEA loaded as the catalyst like the stan- EG/FC and EG + PVA/FC alloys were tested for HER activity.
+dardcatalystPt(20wt.%)/C.AsshowninFigure3a,Vulcancar- FigureS11a(SupportingInformation)showstheLSV,whichin-
+bonhasbeenacidfunctionalizedtoimprovetheanchoringsites dicatestheHERactivity.AllthegivenLSVsareiRcorrectedus-
+and adherence of nanoparticles on the carbon site. Acid func- ingthemethodmentionedinsection4.3“Electrochemicalmea-
+tionalization,asmentionedinthesynthesissection,willprovide surements”. It can be analyzed that HER activity is nearly the
+functionalgroupsattachedtothecarbon,asshownintheFTIR same for most of the samples at −10 mA cm−2, as shown in
+spectra(FigureS9,SupportingInformation).Abroadandstrong the bar diagram in Figure S11b (Supporting Information), but
+peak at 3431 cm−1 corresponds to the O─H group’s stretching HER activity is higher for the EG + PVA/FC quaternary alloy
+mode.Peaksat2975and2913cm−1refertoasymmetric(aCH ) than EG/FC binary alloy at higher current density. The Tafel
+2
+and symmetric (sCH ) stretching of the C─H bond. The peak slopecalculatedfromtheTafelplotinFigureS11c(Supporting
+2
+at 1744 cm−1 is due to C═O stretching mode and the peak at Information) shows 64 and 20.7 mVdec−1 for EG/FC and EG
+1383cm−1 istheC-H-bendingmode.Thepeaksat1163cm−1 + PVA/FC alloys, respectively. This indicates the huge differ-
+and1034cm−1areattributedtoC─OstretchingmodeandCOO enceintheHERkineticsofbothsystems.EG+PVA/FCalloy
+stretching modes, respectively. This proves the functionaliza- has faster kinetics compared to EG/FC alloy. The higher activ-
+tionofVulcancarbontoformfunctionalizedcarbon(FC).This ityandkineticsoftheEG+PVA/FCquaternaryalloysystemare
+FC is mixed with HEA following the procedure shown in the further proved by the lower value of charge transfer resistance
+schematic Figure 3a and in the synthesis method section, cre- (R ) from the Nyquist plot (Figure S11d, Supporting Informa- ct
+atingHEA/FC.TheTEMimageofBA+OAm(15-5)/FCHEAat tion).Similarly,glycerol-basedalloysystemswerealsotestedfor
+lower magnificationisshown inFigure3b. Itshows thatHEA HER.HereitwasobservedthatG+OAm/FCquaternaryalloy
+nanoparticles are incorporated into the FC forming HEA/FC shows a higher activity compared to G + PVA/FC binary alloy
+composite. whichishigherthanG/FCbinaryalloyasshowninFigureS12a
+TheHEA/FCcompositeistheelectrocatalystwhichwastested (SupportingInformation).Thecorrespondingoverpotentialval-
+forHER.Thecatalystinkismadeusingtheproceduregivenin uesareshowninFigureS12b(SupportingInformation).Further,
+the catalyst ink preparation section. 5 μl of the prepared ink is thecatalyticactivityofthebenzylalcoholsolventsystemwaseval-
+drop-cast on L-shaped glassy carbon (L-GC) and dried using a uated.BA+OAm/FC,thequinaryalloyisshowingthehighest
+mercurylamp.Athree-electrodeelectrochemicalsystemisused HER activity with an overpotential value of 55 mV at −10 mA
+totesttheelectrochemicalHERactivityinanalkalinemedium cm−2thanBA+PVA/FCquaternaryalloywithanoverpotential
+(1 M KOH) where the catalyst containing L-GC is the work- value of 65 mV, followed by BA/FC ternary alloy. The decrease
+Small2025,21,2408317 2408317(6of12) ©2024Wiley-VCHGmbH
+16136829,
+2025,
+1,
+Downloaded
+from
+https://onlinelibrary.wiley.com/doi/10.1002/smll.202408317
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.small-journal.com
+Figure3. a)SchematicshowingthefunctionalizationoftheVulcancarbonfollowedbythecompositemakingoftheHEAandthefunctionalizedcarbon
+(HEA/FC)forusingitastheelectrocatalystforHER.b)TEMimageshowingtheHEA/FCformationc)LSVshowingtheHERactivityd)Tafelslope
+showingthereactionkineticse)NyquistplotshowingtheimpedanceoftheBA+OAmsystematdifferentratios18:2,15:5and10:10.f)LSVshowing
+theHERactivityg)Tafelslopeshowingthereactionkineticsh)NyquistplotshowingtheimpedanceoftheBA+OAm(15:5)indifferentelectrolytes
+suchas1mKOH,simulatedseawater,andseawater.
+in the overpotential is due to the introduction of more metals cm−2 followed by 18:2 then 10:10 (Figure S14a, Supporting
+in those systems forming multi-active sites for effective cataly- Information). This implies that BA + OAm (15:5)/FC HEA
+sis to occur. However, it is observed in the case of alloys syn- is the optimized composition required for best HER activity.
+thesizedusingglycerolandbenzylalcoholsystemwithOAmor Figure 3d,e show that BA + OAm (15:5)/FC HEA has a Tafel
+PVA,eventhoughitincreasedthecatalyticactivity,thekinetics slope of 58.8 mVdec−1 and charge transfer resistance of 12.2
+(fromTafelslope)isslowerandR (fromNyquistplot)ishigher Ω, respectively. To assess the practical applicability, the opti- ct
+whencomparedwiththepuresolventsystem(FiguresS12c,dand mizedHEAistestedindifferentelectrolyteconditions,suchas
+S13c,d). simulated seawater (1 M KOH + 0.5 M NaCl) and actual sea-
+Phase pure HEA was obtained by varying the solvent to re- water and compared with 1 M KOH. LSV shown in Figure 3f
+ducing agent ratio of BA and OAm. The HER activity of BA indicates the overpotential value of all three different systems
++OAm/FCalloysatthreedifferentratios18:2,15:5,and10:10 where simulated seawater has 63.1 mV and seawater 76.3 mV
+is shown in Figure 3c–e. LSV shows the catalytic performance at−10mAcm−2 whicharecomparableto1MKOHelectrolyte
+which indicates BA + OAm (15:5)/FC HEA has the best per- (Figure S14b, Supporting Information). The results show that
+formance with an overpotential value of 53.3 mV at −10 mA the optimized catalyst has the potential to work even in harsh
+Small2025,21,2408317 2408317(7of12) ©2024Wiley-VCHGmbH
+16136829,
+2025,
+1,
+Downloaded
+from
+https://onlinelibrary.wiley.com/doi/10.1002/smll.202408317
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.small-journal.com
+Figure4. MaterialcharacterizationoftheannealedHEAsample,HEA+OAm(15:5)/FC-AAa)XRDshowingthefcccrystalstructurewithincreasing
+crystallinityb)TEMimagec)HRTEMimageindicatingthed-spacingof(111),(200)and(220)plane,electrochemicalcharacterizationofHEA+OAm
+(15:5)/FC-AAd)LSVshowingtheHERactivitye)TafelplotindicatingtheTafelslopef)Nyquistplot.
+electrolyteconditionssuchasseawater.Whentheelectrolyteis in an argon atmosphere at 300 °C for 2 h, which will be indi-
+seawater,thekineticsandR aremuchhighercomparedto1M cated as BA + OAm (15:5)/FC-AA. The XRD of the annealed
+ct
+KOHinDIwater.Electrochemicalsurfacearea(ECSA)iscalcu- HEAshowsthefcccrystalstructurewithincreasedcrystallinity.
+latedfromthenon-FaradaicregionoftheCVtakenatdifferent Figure 4b shows the TEM image of BA + OAm (15:5)/FC-AA
+scan rates (Figure S15a, Supporting Information). The double- HEA illustrating the nanoparticle incorporated functionalized
+layer capacitance (C ) calculated is 12.68 mFcm−2. Consider- carbon.Figure4cistheHRTEMimageofBA+OAm(15:5)/FC-
+dl
+ing the specific capacitance (Cs) to be 0.040 mFcm−2, ECSA is AAHEAshowingthed-spacingvalueof2.16,1.87,and1.34Å
+foundtobe317cm2 indicatingaveryhighECSAvaluemainly correspondingto(111),(200)and(220)respectively.TEMcolor
+duetothesmallsphericalnanoparticleformationofHEA.Tak- mappinginFigureS18(SupportingInformation)showstheuni-
+ing 15:5 as the optimized ratio of BA and OAm to form Pt- formdistributionofallelements.ElectrocatalyticHERactivityof
+PdCoNiMn HEA, its control samples (MEAs) such as PtCoN- BA+OAm(15:5)/FC-AAHEAistestedandcomparedwithBA
+iMn, PdCoNiMn and CoNiMn were synthesized and tested for +OAm(15:5)/FCHEA(Figure4d–f).Theoverpotentialvalueat
+HERactivityasshowninFigureS16(SupportingInformation). −10mAcm−2 calculatedfromtheLSVhasreducedto48.7mV,
+As shown in the LSV (Figure S16a, Supporting Information), Tafel slope to 27.5 mVdec−1 and observed a reduced R value.
+ct
+HEA shows the highest activity compared to all three MEAs TheLSVofBA+OAm(15:5)/FCHEAandBA+OAm(15:5)-
+and is comparable to the performance of Pt/C. PtCoMnNi has AA/FCHEA,withandwithoutiRcorrection,isshowninFigure
+shown the 2nd highest performance, followed by PdCoMnNi S24a(SupportingInformation).Theircorrespondingoverpoten-
+and CoMnNi, as shown by the overpotential values shown in tialvaluesatacurrentdensity of−10mAcm−2 aredepictedin
+Figure S16b (Supporting Information). The Tafel and Nyquist Figure S24b (Supporting Information). These results demon-
+plotsofallthecontrolsamplesaregiveninFigureS16c,d(Sup- stratethatonlyaslightdecreaseintheoverpotentialisobserved
+portingInformation). after applying the iR correction, indicating minimal resistance
+BA+OAm(15:5)HEAcontainsoleylamine,aligandrequired impactontheoverallperformance.TheincreasedHERperfor-
+fornanoparticlesynthesis.However,itcouldlowerelectrontrans- mance of BA + OAm (15:5)/FC may be due to the removal of
+fer due to its insulating nature. TGA of the HEA from Figure oleylamine from the HEA resulting in increased conductivity
+S17a (Supporting Information) shows a 13.4% mass reduction and the exposed catalytic site. ECSA is calculated from the C
+dl
+at300°C,whichcorrespondstothelossofoleylamine.Accord- valueobtainedfromCVatthenon-Faradaicregion,asshownin
+ingly,theannealingofBA+OAm(15:5)/FCHEAwasperformed FigureS19(SupportingInformation).Thevalueisobservedtobe
+Small2025,21,2408317 2408317(8of12) ©2024Wiley-VCHGmbH
+16136829,
+2025,
+1,
+Downloaded
+from
+https://onlinelibrary.wiley.com/doi/10.1002/smll.202408317
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.small-journal.com
+270cm2whichislowerthanBA+OAm(15:5)/FCHEAsample. chemical,structural,andphasestabilityasanelectrocatalystfor
+Thismaybeduetoparticleclusteringthatmighthaveoccurred HER.Acomparisontableisgiveninthesupplementaryinforma-
+duetotheremovalofoleylamine.ThemassactivityoftheHEA tion(TableS2,SupportingInformation)whichindicatesthatthis
+wascalculatedasshowninFigureS20(SupportingInformation). HEAelectrocatalystshowsenhancedperformancewithverylow
+The value at −0.2 V versus RHE is observed to be −3352 mA Ptcontent.
+μg−1 fortheHEA,whichisveryhighwhencomparedtothat
+Pt+Pd
+of Pt/C (−460.3 mA μg−1 ). This indicates the impressive cat- 3.Conclusion
+Pt
+alyticperformanceoftheHEAatnormalizedPtcontent.
+PracticalusageoftheHEAcatalystistestedbycheckingitssta- ThisstudyfocusesonthedevelopmentofaHEAelectrocatalyst
+bilityatahighercurrentdensityof−100mAcm−2 for100hin forHERwithexceptionalcatalyticactivity,rapidkinetics,andno-
+1mKOHelectrolyteasshowninFigure5.Thislong-termstabil- tablestability.ThespecificHEAunderinvestigationcomprises
+itytestwasperformedinalarge-scalesamplebydrop-castingthe Pt,Pd,Co,Mn,andNisupportedonfunctionalizedcarbon(FC).
+catalystontoacarbonpaperelectrodewithasurfaceareaof1cm2. ThesystematicsynthesisoftheHEAwascarriedoutusingdif-
+Thislargerareaprovidedabetterrepresentationofthecatalyst’s ferentsolventsandreducingagents.Thecombinationofbenzyl
+performanceinpracticalapplications,confirmingitsactivityand alcoholandoleylamineina15:5ratiowasidentifiedasthemost
+durabilityoverextendedperiods. effective, demonstrating the highest reducing power for reduc-
+BA+OAm(15:5)/FCHEAandBA+OAm(15:5)/FC-AAHEA ingallfiveelementstoformasingle-phasehighentropystruc-
+electrocatalyticstabilitywastestedbyperformingachronopoten- ture. This resulted in an fcc crystal structure with evident lat-
+tiometry test (Figure 5a). It is observed that both the catalysts tice contraction and a crystallite size of 3.6 nm. The reduction
+have maintained the overpotential for 100 h with only a small processyieldedanalloywithapproximatelythesamecomposi-
+incrementafterthestabilitytest.LSVplotsinFigure5b,cindi- tionofallelements,resultinginahighconfigurationalentropy
+catethecatalyticperformanceafterthestabilitytestandcompare of 1.57R. After annealing, the synthesized electrocatalyst BA +
+itwithitsactualperformance.TheslightreductionintheHER OAm(15:5)/FCHEAshowedimpressiveelectrocatalyticperfor-
+performance after the long stability test at a high current den- mance,withanoverpotentialof48.7mVatacurrentdensityof
+sitymaybeduetomultiplereasonssuchascatalystpoisoning, −10 mAcm−2. This performance is comparable to commercial
+andhydrogenbubbleaccumulationwhichpartiallyblocktheac- Pt/Ccatalystsbutusesameagrequantityofplatinum.Thecat-
+tive sites and hinder the reactant diffusion and may be due to alystdemonstratedexceptionalkineticsandlowchargetransfer
+localizedchangesinthepHoftheelectrolyteandionconductiv- resistance, enhancing its significance. The HEA electrocatalyst
+ity.Ourobservationsareinaccordancewiththosereportedinthe exhibitedhighcatalyticperformanceinsimulatedandactualsea-
+literature.[44–46]Post-stabilitycharacterizationswereperformedto water,underscoringitspracticalapplicability.Along-termstabil-
+checkthematerialstabilityafterthehighcurrentstabilitytest.FE- itytestover100hatahighcurrentdensityof−100mAcm−2and
+SEMimagesinFigure5d,ecorrespondstoBA+OAm(15:5)/FC −500mAcm−2withoutasignificantchangeinoverpotentialcon-
+HEA and BA + OAm (15:5)/FC-AA HEA. The small spherical firmedtheremarkablestabilityoftheelectrocatalystunderindus-
+particlestructureofBA+OAm(15:5)/FCHEAandBA+OAm trialconditions.Thestudyhighlightsthatthecombinedreducing
+(15:5)/FC-AA HEA on carbon paper, as shown in Figures S21 powerofthesolvent-reducingagentsystemisimportantforthe
+andS17d(SupportingInformation),hasbeenmaintainedafter formationoftheHEAandthedevelopmentofanelectrocatalyst,
+thelongcatalyticcycling.TEManalysisofbothsamplesafterthe whichshowsgreatpotentialasareplacementforcommercialcat-
+stabilitytestwasperformed(Figure5f–j)andobservedthatthe alystsinHERapplications.
+particleshadnotundergoneanysignificantchangesandretained
+theiroriginalstructure,asseeninFigure5f,h.However,HRTEM 4.ExperimentalSection
+images show a slight lattice expansion for both catalysts after
+theextendedstabilitytest,possiblyduetothelatticestrainintro- Materials Used: Platinum chloride (PtCl 2 ), palladium chloride
+(PdCl ), cobalt (II) chloride hexahydrate (CoCl .6H O, ≥99%), man-
+ducedbythecyclicnatureoftheHERprocess.Italsoshowsthat 2 2 2
+ganese chloride tetrahydrate (MnCl .4H O, 98%), nickel (II) chloride theHEAmaintainsthephasestabilityafterthestabilitytest.The 2 2 hexahydrate (NiCl .6H O, ≥99%), potassium hydroxide flakes (KOH),
+colormappingofBA+OAm(15:5)/FC-AAshowninFigure5j
+benzyl alcohol, o
+2
+leyla
+2
+mine, ethylene glycol, glycerol and poly(vinyl
+andFigureS22(SupportingInformation)showstheuniformdis- alcohol) with average molecular weight 31000–50000 were acquired
+tributionofalltheelementsintheHEAafterthestabilitytest.Af- from Sigma–Aldrich. Vulcan XC 72 was purchased from global
+terconductingthelong-termhydrogenevolutionreaction(HER) nontechnology.
+Materials Characterization: Field emission scanning electron mi- stabilitytest,weobservedthattheECSAvaluedidnotdecrease.
+croscopy (FESEM, TESCAN, and Bruker MIRA 3) and Energy disper- Instead,itexhibitedaslightincrease,whichmaybeattributedto
+siveX-rayspectroscopy(EDS,TESCAN,andBrukerQuantax200)were
+catalystactivationduringtheHERprocess.Thisactivationlikely usedtoexaminethesurfacemorphologyandelementalcomposition,re-
+exposedpreviouslyinactivesitestriggeredbytheremovalofsur- spectively.Thesampleswereexaminedusingtransmissionelectronmi-
+faceoxidelayers,orcausedsurfaceroughening,therebyenhanc- croscopy(TEM,ThermofisherTalosF200S)togethigh-resolutionimages.
+ingtheaccessible electrochemicalsurfacearea.Thestabilityof X-raydiffraction(XRD)studieswerecarriedoutusingPANalytical,X-pert
+thecatalystataveryhighcurrentdensityof−500mAcm−2was PRO.ChemicalorvalencestateidentificationwasinvestigatedusingX-ray
+photoelectronspectroscopy(XPS,ThermoScientificK-Alpha).Thecom- alsotestedasshowninFigureS25(SupportingInformation).The
+positionoftheHEAandMEAs(mediumentropyalloys)werestudiedus-
+catalysthasshowngoodstabilityandevenareductionintheover-
+inginductivelycoupledplasmaatomicemissionspectroscopy(ICP-AES,
+potentialwasobservedathighcurrentdensity.Allthesecharac- model:ARCOSFHS12).Gamry1010Ewasusedforalltheelectrochemical
+terizationsindicatethatPt-Pd-Co-Ni-MnHEAhasgoodelectro- studies.
+Small2025,21,2408317 2408317(9of12) ©2024Wiley-VCHGmbH
+16136829,
+2025,
+1,
+Downloaded
+from
+https://onlinelibrary.wiley.com/doi/10.1002/smll.202408317
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.small-journal.com
+Figure5. StabilitytestofBA+OAm(15:5)/FCHEAandBA+OAm(15:5)/FC-AAHEAa)chronopotentiometrytestatahighcurrentdensityof−100
+mAcm−2for100h.LSVbeforeandafterthestabilitytestandtheircorrespondingoverpotentialand−10mAcm−2ofb)BA+OAm(15:5)/FCHEAc)
+BA+OAm(15:5)/FC-AAHEA.FESEMimageafterthestabilitytestofd)BA+OAm(15:5)/FCHEAe)BA+OAm(15:5)/FC-AAHEA.TEMandHRTEM
+imagesafterthestabilitytestf,g)BA+OAm(15:5)/FCHEAh,i)BA+OAm(15:5)/FC-AAHEAj)ColourmappingofBA+OAm(15:5)/FC-AAHEA
+showingtheuniformdistributionoftheelements.
+Small2025,21,2408317 2408317(10of12) ©2024Wiley-VCHGmbH
+16136829,
+2025,
+1,
+Downloaded
+from
+https://onlinelibrary.wiley.com/doi/10.1002/smll.202408317
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.small-journal.com
+ElectrochemicalMeasurements: HERtestswereperformedinathree- Acknowledgements
+electrodesystem,withthesynthesizedcatalyst/FConL-shapedglassycar-
+bonastheworkingelectrode,graphiterodasthecounterelectrode,and TheauthorsacknowledgethefinancialsupportfromtheDepartmentof
+Hg-HgOasthereferenceelectrode.InitialHERtestswereperformedin ScienceandTechnology(DST),TheGovernmentofIndia,andtheScience
+1mKOHsolution.HERtestingwasinitiatedbyactivatingandstabilizing andEngineeringResearchBoard(Projectgrantno.CRG/2022/001633).
+thecatalystbycyclicvoltammetry(CV;50cycles).Linearsweepvoltam- TheCentralResearchFacility,CentreforNanoandSoftMatterSciences,
+metry(LSV)wasperformedtogetthepolarizationcurveusingwhichthe Bengaluruisgratefullyacknowledged.AuthorsacknowledgeSAMatRe-
+overpotentialvalueofthecatalystwascalculated.AlltheLSVmeasure- searchFacilities,JNCASR,Bangalore,IndiaforXPS.Theauthorsacknowl-
+mentsweretakenatascanrateof2mVs−1 andwereiR-correctedbe- edgeNCLPuneandVireshPomajiforperformingICPAES.
+forereporting.iRcorrectionwasdonemanuallywheretheproductofso-
+lutionresistancefromEIS(R )attheonsetpotentialanditscorrespond-
+s
+ingcurrentdensity(j)wassubtractedfromtheobtainedpotentialvalue ConflictofInterest
+(E ),E =E –(j*R ).Asteady-statemethodwasusedtogettheTafel
+0 iR-corr. 0 s
+plot,usingwhichtheTafelslopevalueswerecalculated.Electrochemical Theauthorsdeclarenoconflictofinterest.
+impedancespectroscopy(EIS)atafrequencyrangeof0.01–105 Hz,an
+ACvoltageof5mVrms,andaDCvoltageof−1VversusHg-HgOwere
+usedtogettheNyquistplotfromwhichtheimpedancevalueswerecal- AuthorContributions
+culated.CVwastakenatdifferentscanratesinapotentialwindowfrom0
+to−0.1VversusHg-HgOtocalculatetheelectrochemicalactivesurface A.C.M.performeddatacuration,formalanalysis,investigation,methodol-
+area(ECSA).Thestabilitytestwasperformedusingchronopotentiometry ogy,validation,visualization,wrotetheexperimentalpart.S.S.performed
+at−100mAcm−2and−500mAcm−2for100hofthecatalyststhatwere data curation, formal analysis. A.K.S. performed conceptualization,for-
+dropcastonacarbonpaperin1×1cm2area.Simulatedseawaterwas mal analysis, investigation, supervision, wrote reviewed and edited the
+preparedbydissolving1mKOHand0.5MNaClinDIwater,whichre- finalmanuscript,resources,projectadministrationandfundingacquisi-
+sultedinapHof12.Theseawaterusedwascollectedfromthesurface tion.B.L.V.P.performedconceptualization,formalanalysis,investigation,
+oftheArabianSea,whichhasapHof7andwasusedwithoutfurther supervision,wrotereviewedandeditedthefinalmanuscript,resources,
+purification. projectadministration,fundingacquisition.
+SynthesisMethods—HighEntropyAlloy(HEA)Synthesis: PtPdNiCoMn
+was synthesized using the solvothermal method. 5&amp;#x000A0;mm
+of each metal chloride was dissolved in a 20 mL solution of the se- DataAvailabilityStatement
+lected solvent and the reducing agents (oleylamine (OAm) or PVA) in
+the optimized ratio by continuous stirring at 80 °C for 2 h. The sam- The data that support the findings of this study are available from the
+ples were then transferred to an autoclave and treated at 180 °C for correspondingauthoruponreasonablerequest.
+24h.Afterthereaction,thesampleswere centrifugedandtheprecipi-
+tateswerewashedthreetimeswithethanolfollowedbyacetone.Then,
+thesamplesweredriedundervacuumfor6h.Asimilarprocedurewasfol-
+Keywords
+lowedforsynthesizingmediumentropyalloysPtCoMnNi,PdCoMnNi,and
+CoMnNi.
+electrocatalysts,HER,highentropyalloys,solvothermalsynthesis
+SynthesisMethods—FunctionalizationofVulcancarbon: 250mgofVul-
+canXC72carbonwasaddedtoconcentratedH SO :HNO (volumera-
+tio=4:1)andwassubjectedtostirringatroomt 2 emp 4 erature 3 for4h.After Received:September12,2024
+Revised:October9,2024
+theacidtreatment,thesolutionwasdilutedwithDIwaterandwashed
+Publishedonline:November16,2024
+withDIwatertoachieveneutralpHandfinalwashwasdonewithIPA.
+Then, the carbon was dried at 80 °C for 12 h forming functionalized
+carbon(FC).
+Synthesis Methods—Catalyst Preparation: The functionalized carbon
+andthesynthesizedHEAweretakenina4:1ratiotoform20%HEA/FC. [1] G.Afshan,S.Karim,Y.PratapKharwar,T.Aziz,S.Saha,S.Roy,A.
+8mgofFCunderwentstirringin15mLofethanolfor2h.2mgofthesyn- Dutta,Small.2024,https://doi.org/10.1002/smll.202406431.
+thesizedHEAwasaddedto5mLofethanolandsonicatedfor2h.After [2] M.Balat,EnergySources,PartA:Recovery,UtilizationandEnvironmen-
+2hofdispersionofcarbonandHEA,thetwosolutionsweremixedand talEffects.2009,31,39.
+stirredfor12hatroomtemperature.Then,itwascentrifugedandwashed [3] X.Luan,L.Guo,H.Li,W.Xiao,G.Xu,D.Chen,C.Li,Y.Du,Z.Wu,L.
+withethanol.Theprecipitateofthecompositewasdriedinthevacuumat
+Wang,Small.2024,https://doi.org/10.1002/smll.202404830.
+roomtemperaturefor6h,thusforminganHEA/FCcatalyst.
+[4] Z.Chen,L.Li,Y.Chu,F.Zhao,Y.Zhu,S.Tong,H.Zheng,Small.2024,
+SynthesisMethods—CatalystInkPreparation: Forcatalytictesting,cat-
+20,2309675.
+alystinkwaspreparedbytaking2mgoftheHEA/FCcatalystanddispers-
+[5] Q.Li,B.Zhang,C.Sun,X.Sun,Z.Li,Y.Du,J.C.Liu,F.Luo,Small.
+ingitin90μlethanoland90μlofDIwateralongwith20μlof5%Nafion
+2024,20,2400662.
+solution.Thesolutionwassonicatedfor30min.
+[6] T.D.Le,D.S.Kim,T.V.Tran,B.Urupalli,G.S.Shin,G.J.Oh,Y.T.Yu,
+Electrode Preparation: 5 μl of the catalyst ink was drop-cast on L-
+Small.2024,20,2311971.
+shaped glassycarbon (L-GC) for catalytictesting. The mass loading of
+HEA/FCwas50μgonL-GCwith0.07cm2 area.Thelong-termstability [7] H.Zhu,S.Sun,J.Hao,Z.Zhuang,S.Zhang,T.Wang,Q.Kang,S.Lu,
+testwasperformedwithHEA/FCdrop-castona1cm2areacarbonpaper X.Wang,F.Lai,T.Liu,G.Gao,M.Du,D.Wang,EnergyEnviron.Sci.
+withamassloadingof0.8mgtodemonstratethelargeareaperformance 2023,16,619.
+andforpost-stabilitycharacterizations. [8] S.Wang,B.Xu,W.Huo,H.Feng,X.Zhou,F.Fang,Z.Xie,J.K.Shang,
+J.Jiang,Appl.Catal.B.2022,313,121472.
+[9] Z.W.Chen,J.Li,P.Ou,J.E.Huang,Z.Wen,L.X.Chen,X.Yao,G.M.
+SupportingInformation Cai,C.C.Yang,C.V.Singh,Q.Jiang,Nat.Commun.2024,15,359.
+[10] Z.Hu,K.Chen,Y.Zhu,B.Liu,J.Shen,Small.2024,20,202309819.
+SupportingInformationisavailablefromtheWileyOnlineLibraryorfrom [11] X.Zhou,L.Zou,H.Zhu,M.Yan,J.Wang,S.Lan,S.Chen,H.Hahn,
+theauthor. T.Feng,Small.2024,20,202310327.
+Small2025,21,2408317 2408317(11of12) ©2024Wiley-VCHGmbH
+16136829,
+2025,
+1,
+Downloaded
+from
+https://onlinelibrary.wiley.com/doi/10.1002/smll.202408317
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on [08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.small-journal.com
+[12] G.Feng,Y.Pan,D.Su,D.Xia,Adv.Mater.2024,36,202309715. [31] M.Bondesgaard,N.L.N.Broge,A.Mamakhel,M.Bremholm,B.B.
+[13] Y.Sun,S.Dai,Sci.Adv.2021,7,eabg1600. Iversen,Adv.Funct.Mater.2019,29,201905933.
+[14] Y.Lu,K.Huang,X.Cao,L.Zhang,T.Wang,D.Peng,B.Zhang,Z. [32] Y.Yao,Z.Huang,P.Xie,S.D.Lacey,R.J.Jacob,H.Xie,F.Chen,A.Nie,
+Liu,J.Wu,Y.Zhang,C.Chen,Y.Huang,Adv.Funct.Mater.2022,32, T.Pu,M.Rehwoldt,D.Yu,M.R.Zachariah,C.Wang,R.Shahbazian-
+202110645. Yassar,J.Li,L.Hu,CScience.2018,359,1489.
+[15] B.He,Y.Zu,Y.Mei,J.AlloysCompd.2023,958,170479. [33] C.L.P.Pavithra,R.K.S.K.Janardhana,K.M.Reddy,C.Murapaka,J.
+[16] Y.He,X.Zhu,C.Zhang,Z.Liu,B.Cao,L.Sheng,Y.Yang,Q.Feng, Joardar,B.V.Sarada,R.R.Tamboli,Y.Hu,Y.Zhang,X.Wang,S.R.
+N. Wang, J. Z. Ou, Y. Xu, ACS Sustainable Chem. Eng. 2023, 11, Dey,Sci.Rep.2021,11,8836.
+5055. [34] H.Qiao,M.T.Saray,X.Wang,S.Xu,G.Chen,Z.Huang,C.Chen,G.
+[17] Q.Mao,X.Mu,K.Deng,H.Yu,Z.Wang,Y.Xu,X.Li,L.Wang,H. Zhong,Q.Dong,M.Hong,H.Xie,R.Shahbazian-Yassar,L.Hu,ACS
+Wang,Adv.Funct.Mater.2023,33,202304963. Nano.2021,15,14928.
+[18] D. C. Hofmann, J. Y. Suh, A. Wiest, G. Duan, M. L. Lind, M. D. [35] T.S.Rodrigues,M.Zhao,T.H.Yang,K.D.Gilroy,A.G.M.daSilva,
+Demetriou,W.L.Johnson,Nature.2008,451,1085. P.H.C.Camargo,Y.Xia,Chemistry–AEuropeanJournal.2018,24,
+[19] Z.Jin,J.Lyu,Y.L.Zhao,H.Li,X.Lin,G.Xie,X.Liu,J.J.Kai,H.J.Qiu, 16944.
+ACSMater.Lett.2020,2,1698. [36] H.Duan,D.Wang,Y.Li,Chem.Soc.Rev.2015,44,5778.
+[20] T.Datta,I.Manna,J.D.Majumdar,J.Mater.Eng.Perform.2024,33, [37] W.Wan,K.Liang,P.Zhu,P.He,S.Zhang,J.Mater.Sci.Technol.2024,
+5413. 178,226.
+[21] O. V. Sobol’, A. A. Andreev, V. F. Gorban’, N. A. Krapivka, V. A. [38] N. L. N. Broge, A. D. Bertelsen, F. Søndergaard-Pedersen, B. B.
+Stolbovoi,I.V.Serdyuk,V.E.Fil’chikov,Tech.Phys.Lett.2012,38, Iversen,Chem.Mater.2023,35,144.
+616. [39] N.L.N.Broge,F.Søndergaard-Pedersen,M.Roelsgaard,X.Hassing-
+[22] A. Baptista, F. J. G. Silva, J. Porteiro, J. L. Míguez, G. Pinto, L. Hansen,B.B.Iversen,Nanoscale.2020,12,8511.
+Fernandes,ProcediaManuf.2018,17,746. [40] Y.Kang,O.Cretu,J.Kikkawa,K.Kimoto,H.Nara,A.S.Nugraha,H.
+[23] V.Ocelík,N.Janssen,S.N.Smith,J.T.M.DeHosson,Jom.2016,68, Kawamoto,M.Eguchi,T.Liao,Z.Sun,T.Asahi,Y.Yamauchi,Nat
+1810. Commun.2023,14,4182.
+[24] Q.Li,H.Zhang,D.Li,Z.Chen,S.Huang,Z.Lu,H.Yan,Materials. [41] Y.Kang,S.Li,O.Cretu,K.Kimoto,Y.Zhao,L.Zhu,X.Wei,L.Fu,D.
+2019,12,2030533. Jiang,C.Wan,B.Jiang,T.Asahi,D.Zhang,H.Li,Y.Yamauchi,Science
+[25] Q.Chao,T.Guo,T.Jarvis,X.Wu,P.Hodgson,D.Fabijanic,Surf.Coat advan.2024,10,eado2442.
+Technol.2017,332,440. [42] K.Takahashi,S.Yokoyama,T.Matsumoto,J.L.CuyaHuaman,H.
+[26] W.Ji,Z.Fu,W.Wang,H.Wang,J.Zhang,Y.Wang,F.Zhang,J.Alloys Kaneko,J.Y.Piquemal,H.Miyamura,J.Balachandran,NewJ.Chem.
+Compd.2014,589,61. 2016,40,8632.
+[27] A.Anupam,R.S.Kottada,S.Kashyap,A.Meghwal,B.S.Murty,C.C. [43] M.Bondesgaard,N.L.N.Broge,A.Mamakhel,M.Bremholm,B.B.
+Berndt,A.S.M.Ang,Appl.Surf.Sci.2020,505,144117. Iversen,Adv.Funct.Mater.2019,29,201905933.
+[28] Y.Zhang,Q.Xing,EncyclopediaofMaterials:MetalsandAlloys.2021, [44] B.Yu,H.Li,J.White,S.Donne,J.Yi,S.Xi,Y.Fu,G.Henkelman,H.
+327. Yu,Z.Chen,T.Ma,Adv.Funct.Mater.2020,30,1905665.
+[29] P.F.M.DeOliveira,R.M.Torresi,F.Emmerling,P.H.C.Camargo,J. [45] W.Zhai,Y.Ma,D.Chen,J.C.Ho,Z.Dai,Y.Qu,InfoMat.2022,4,
+Mater.Chem.2020,8,16114. e12357.
+[30] M.Liu,Z.Zhang,F.Okejiri,S.Yang,S.Zhou,S.Dai,Adv.Mater.In- [46] E.Kolle-Görgen,G.Fortunato,M.Ledendecker,Chem.Mater.2022,
+terfaces.2019,6,201900015. 34,10223.
+Small2025,21,2408317 2408317(12of12) ©2024Wiley-VCHGmbH
+16136829,
+2025,
+1,
+Downloaded
+from
+https://onlinelibrary.wiley.com/doi/10.1002/smll.202408317
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+

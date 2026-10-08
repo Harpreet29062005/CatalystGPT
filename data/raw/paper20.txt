@@ -1,0 +1,2409 @@
+Review
+www.afm-journal.de
+Multi-Sites Electrocatalysis in High-Entropy Alloys
+Hongdong Li, Jianping Lai,* Zhenjiang Li, and Lei Wang*
+magnetocaloric, superconducting, and cata-
+High-entropy alloys (HEAs) have attracted widespread attention in lytic fields.[4–11] The first results on multi-
+electrocatalysis due to their unique advantages (adjustable composition, component and high-entropy alloys were
+complex surface, high tolerance, etc.). They allow for the formation of new published in 2004.[12,13] There are two defi-
+nitions of HEAs about composition and
+and tailorable active sites in multiple elements adjacent to each other, and
+entropy. Generally speaking, HEAs refer to
+the interaction can be tailored by rational selection of element configuration
+an alloy containing five or more metal ele-
+and composition. However, it needs to be further explored in catalyst design,
+ments uniformly mixed in an equal molar
+the interaction of elements, and the determination of active sites. This review ratio (equal molar ratio does not mean the
+article focuses on the important progress for multi-sites electrocatalysis in actual same molar ratio), and the concentra-
+HEAs. The classification is done on the basis of catalytic reaction, including tion of each element can range from 5 to
+35 at%. On the other hand, “high entropy”
+hydrogen evolution reaction, oxygen evolution reaction, oxygen reduction
+is introduced to define it.[14] The high mixing
+reaction, alcohol oxidation reaction, carbon dioxide reduction reaction, and
+entropy (∆S ) will reduce the free energy
+mix
+nitrogen reduction reaction. Based on experiments and theories, a more of the system and ultimately lead to higher
+in-depth exploration of the high catalytic activity of HEAs will be conducted, stability of the alloy system. Specifically, the
+including the selection of elements (the special role of each element in entropy of the system includes configura-
+tional entropy (∆S ), vibrational entropy
+catalysis) and the multi-sites effect. This review can provide the basis for conf
+(∆S ), magnetic dipole entropy (∆S ),
+the element selection and design of HEAs in some reactions, to adjust the vib mag
+and electronic randomness entropy (∆S ).
+elec
+compositions of HEAs to improve their intrinsic activity. Furthermore, the
+Generally, configurational entropy plays a
+remaining challenges and future directions for promising research fields are dominant role.[15] To avoid the difficulty of
+also provided. calculation, the ∆S of the system can be
+conf
+approximated as the ∆S of the ideal solid
+mix
+solution, which can be expressed as
+1. Introduction ∆S =∆S +∆S +∆S +∆S (1)
+mix conf vib mag elec
+High-entropy alloys (HEAs) usually contain five or more main n
+elements.[1–3] Due to its multi-element composition and unique
+∆S
+mix
+=∆S
+conf
+=−R∑c
+i
+lnc
+i
+(2)
+i=1
+properties (excellent hardness, high strength, and enhanced
+wear resistance) make it have great potential in thermoelectric, R is the molar gas constant, and c is the molar content of the
+i
+ith component. The alloy’s mixing entropy can be maximized
+H. Li, J. Lai, L. Wang by using multiple elements in an equal molar ratio to design
+Key Laboratory of Eco-chemical Engineering the alloy, c = 1/n
+Taishan Scholar Advantage and Characteristic Discipline Team of i
+Eco-Chemical Process and Technology
+College of Chemistry and Molecular Engineering ∆S =−R
+1
+ln
+1
++
+1
+ln
+1
++
+1
+ln
+1
+=−Rln
+1
+=Rlnn (3)
+Qingdao University of Science and Technology mix n n n n n n n
+Qingdao 266042, P. R. China
+E-mail: jplai@qust.edu.cn; inorchemwl@qust.edu.cn
+For the entire alloy system, the mixed Gibbs free energy
+L. Wang
+(∆G ) can be expressed as
+Shandong Engineering Research Center for Marine Environment mix
+Corrosion and Safety Protection
+College of Environment and Safety Engineering ∆G mix =∆H mix −T∆S mix (4)
+Qingdao University of Science and Technology
+Qingdao 266042, P. R. China If mixing enthalpy (∆H ) remains unchanged, increasing
+mix
+Z. Li the ∆S of the system can make the system more inclined to
+College of Materials Science and Engineering mix
+form a high-entropy alloy (solid solution) with uniformly mixed
+Qingdao University of Science and Technology
+Qingdao 266042, P. R. China elements.
+The properties of HEA different from traditional alloys are
+The ORCID identification number(s) for the author(s) of this article
+systematically summarized, including high entropy effect, lat-
+can be found under https://doi.org/10.1002/adfm.202106715.
+tice distortion effect, sluggish diffusion, and “cocktail” effect
+DOI: 10.1002/adfm.202106715 (Figure 1).[2] i) The high-entropy effect reflects the contribution
+Adv. Funct. Mater. 2021, 31, 2106715 2106715 (1 of 28) © 2021 Wiley-VCH GmbH
+
+www.advancedsciencenews.com www.afm-journal.de
+to participate in the reaction at the same time, this phenom-
+enon is called synergistic effects. The proximity of the reaction
+centers and their continuous interaction with substrate mole-
+cules provide synergy between heterogeneous catalysis.[58,59]
+M −A +M −B →M +M +A−Bheterogeneouscatalysis (5)
+1 ads 2 ads 1 2
+The performance of doping two or more metals is higher
+than that of any one of its components alone. For instance, the
+catalytic effect of Ru in the PtRu bimetallic catalyst is a typical
+synergistic effect. Pt promotes the dissociation and dehydroge-
+nation of methanol molecules, and Ru promotes the electrooxi-
+dation of H O to increase OH .[60] In electrocatalysis, it is an
+2 ads
+effective strategy to design catalytic materials to improve their
+performance through the synergy of multiple active sites. In
+the electrocatalytic HER, Ni(OH) -Pt(111) acts as a bifunctional 2
+coordination site. The edge of the Ni(OH) cluster promotes the
+2
+dissociation of water and the production of *H intermediates,
+and then these *H intermediates are adsorbed on the nearby Pt
+surface and recombined into H .[61] In addition, Edward H. Sar-
+2
+gent’s group prepared the 3D CrO /Cu-Ni multi-site catalyst,
+x
+metal (Ni) and metal oxide (CrO ) have strong binding energy
+Figure 1. Schematic illustration of the properties of HEAs. x to H and OH respectively, and their difference is large, which
+promotes dissociation of water molecules. The metal (Cu) sur-
+of the mixing entropy to the formation of the alloy phase, which face has weak binding energy to *H, which is conducive to the
+makes the system more inclined to form a solid solution and generation of H .[62] In the OER, Jiang’s group used dual-active-
+2
+improves the thermodynamic stability of the catalyst. When the sites strategies to break the interdependence restriction in
+mixing entropy of the alloy is high enough to offset the effect OER, speed up its kinetics, and improve OER performance.[63]
+of the mixing enthalpy, the formation of a solid solution will be In the ORR, the excellent ORR performance of the dual-active-
+promoted.[16] ii) Lattice distortion is due to the difference in size sites SnO /Pt-Cu-Ni heterojunction catalyst benefits from the
+x
+between different atoms in the high-entropy alloy that causes dual-site cascade reaction mechanism, in which *OOH and *O
+the lattice points to shift from the ideal position.[17] Lattice intermediates occur on the SnO site. The generated *O is then x
+distortion will not only increase the hardness of high-entropy transferred to adjacent Pt sites by cascade adsorption, so that
+alloys, but also change the physical and chemical properties the reaction steps proceed in an orderly manner.[64] The elec-
+and optimize the electronic structure of the material. Huang’s trocatalytic CO RR is also a complicated process. Feng’s group
+2
+group prepared MnFeCoNiCu high-entropy alloy nanoparti- prepared a bimetallic 2D conjugated metal-organic framework
+cles with a high degree of lattice deformation, and the induced electrocatalyst (PcCu-O -Zn), the synergistic effect of bimetallic
+8
+surface strain improved its OER performance.[18] iii) The slug- sites helps to produce CO efficiently.[65]
+gish diffusion effect refers to the lattice distortion that causes The electrocatalytic reaction is an interdependent multi-
+the diffusion activation energy of atoms in the lattice to step reaction. Therefore, when designing the catalyst, multiple
+increase, which reduces the effective diffusion rate of atoms active sites should be distributed as evenly as possible on the
+and improves the dynamic stability of the catalyst. The diffu- surface of the catalyst to break the limitation of interdepend-
+sion rate of components in high-entropy alloys is lower than ence and improve its catalytic performance. Due to the unique
+that of traditional alloys or single components.[19] iv) “Cocktail” interactions between the adjacent atoms of different elements,
+effect refers to a kind of synergistic effect brought about by the HEAs can provide a large number of unique surface binding
+interaction between various elements.[2,20] However, its specific sites, resulting in an almost continuous distribution of associ-
+physical meaning is not clear yet, and further explanation is ated adsorption energies, providing the basis for fine-tuning
+needed from experiments and theory. binding energies to modulate reaction properties.[66,67] The
+With the development of nanotechnology, HEAs have selection and proportion of elements in the alloy will affect the
+also made progress in the electrocatalysis field.[21–27] It can be number of active sites and the local composition of active sites,
+effectively used for hydrogen evolution reaction (HER),[28–37] which in turn affect the intrinsic activity of the catalyst.[27,46,66,68]
+oxygen evolution reaction (OER),[18,29,30,38–42] oxygen reduc- The selectivity of multiple components in high-entropy alloys
+tion reaction (ORR),[32,41,43–47] alcohol oxidation reaction can maximize the synergy between multiple sites and optimize
+(MOR/EOR),[34,43,48–54] carbon dioxide reduction reaction the electronic structure of alloy materials more effectively, and
+(CO RR),[55,56] and nitrogen reduction reaction (NRR).[57] In then optimize the energy barrier in the electrocatalytic pro-
+2
+catalysis, the excellent performance of the material is not just a cess and improving the reaction performance. But we should
+simple superposition of the performance of each metal ion, but remain cautious when explaining the excellent performance
+comes from the synergy between the metal ions. If the catalytic of high-entropy alloys. Importantly, the design of catalysts (the
+surface requires multiple adsorption sites (or reaction sites) selection of elements), the interaction of elements, and the
+Adv. Funct. Mater. 2021, 31, 2106715 2106715 (2 of 28) © 2021 Wiley-VCH GmbH
+16163028,
+2021,
+47,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202106715
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.afm-journal.de
+determination of active sites in HEAs are the core of guiding microstructure. According to reports, Pt has excellent proper-
+and realizing effective electrocatalysis. However, the research ties for HER.[76] Metal oxides and oxyhydroxides are beneficial
+field is in its infancy and needs further exploration. to OER kinetics.[77] In addition, rare earth oxides (such as La O )
+2 3
+The review will summarize the latest advances in electro- or rare-earth element doping have better stability under alkaline
+catalysis of HEAs, including HER, OER, ORR, MOR/EOR, conditions.[78,79] Based on the advantages of the above elements,
+CO RR, and NRR, with emphasis on the influence of multi- as shown in Figure 3c, the HER performance of HEMG-NPs is
+2
+sites catalysis in HEAs. Taking the catalytic reaction as the also significantly better than that of a single component, which
+classification, the catalytic performance and mechanism are retains the relative activity of each metal component. The mate-
+reviewed and discussed. And the effect of multi-sites or the syn- rial shows higher synergistic activity than its components, pro-
+ergy between elements in HEAs on the catalytic performance viding multifunctional activity for HER and OER. However, the
+is deeply understood through the aid of experiments and theo- catalytic properties of the materials prepared by this method
+retical calculations. At the same time, some opinions and chal- still need to be further optimized.
+lenges are given on how to develop HEAs electrocatalysts. Besides, quinary, senary, septenary, octonary, and denary
+alloys supported on granular supports were prepared by fast-
+moving bed pyrolysis (FMBP) strategy (Figure 3d,e).[33] Among
+2. Multi-Sites Electrocatalysis of High-Entropy them, FeCoPdPtIr@GO catalyst has excellent activity and sta-
+bility for HER, which is mainly due to the synergistic effect of
+Alloy Electrocatalyst in HER
+elements in HEA-NPs. Co and Ir will adjust the H* free energy
+Electrochemical water splitting, including HER and OER, can (∆G ) of FeCoPdIrPt. Pd regulates the hydrogen binding
+H*
+effectively mitigate the energy crisis by converting electrical energy on the surface of Pt.[80] Transition metals (Fe and Co)
+energy from renewable sources to chemical sources.[69,70] For and Pd can reduce the anti-bonding state of Pt, and more elec-
+the HER process (Figure 2a), the protons in the acidic medium trons will fill the anti-bonding state, thereby promoting the des-
+or the water molecules in the alkaline medium are reduced to orption of hydrogen species and hydrogen release.[81,82] Thanks
+hydrogen molecules (H ) on the electrode surface.[71,72] Spe- to these advantages, FeCoPdIrPt HEA-NPs has a mass activity
+2
+cifically, the first step is the Volmer reaction, in which pro- of 9.1 mA μg –1 at 100 mV overpotential, and has a stability of Pt
+tons (acid electrolyte: hydronium cation (H O+) and alkaline up to 150 h in 1 m KOH solution (Figure 3f,g).
+3
+electrolyte: water molecules) react with electrons to produce Recently, ultra-small (≈3.4 nm) Pt Ni Fe Co Cu HEA 18 26 15 14 27
+adsorbed hydrogen atoms (H*) on the electrode material sur- nanoparticles (NPs, Figure 4a) were synthesized by a simple
+face. Subsequently, H can be formed through the Heyrovsky one-pot oil phase strategy, and the five elements were uniformly
+2
+reaction (H+ + e− + MH* ⇌ H 2 + M; H 2 O + e− + MH* ⇌ distributed (Figure 4b).[34] As shown in Figure 4c, it exhibits the
+H 2 + OH− + M) or the Tafel reaction (2M-H* ⇌ H 2 + 2M) or 10.96 A mg Pt −1 high activity at −0.07 V versus RHE for the HER
+both.[71,73] For HER, Pt-based catalysts can accelerate HER in 1 m KOH solution. From the lattice model (Figure 4d), HEAs
+kinetics,[74] but the high cost of precious metals greatly limits exhibit a highly stable structure. Ni and Co on the surface dom-
+the sustainable production of hydrogen. Alloying noble metals inate the electroactive region near the Fermi level. In the HEAs,
+such as Pt, Pd, or Ru with a variety of non-noble metals is an surface Pt will promote electron transfer on the HEAs surface
+effective strategy.[71,75] It can not only greatly increase the uti- and acts as electron storage for the HER process (Figure 4e).
+lization rate of precious metals, but also change the coordi- For the HER process, the initial adsorption of H O molecules
+2
+nation environment and electronic environment of precious determines the efficiency of water splitting and proton transfer.
+metals, adjust the adsorption energy of intermediate species, From Figure 4f, the obvious drop of s and p orbitals in H O
+2
+and thereby change the catalytic performance of the material. indicates that the transfer of active electrons from HEAs to
+The newly developed HEAs, which are multi-component and H O has achieved stable adsorption of H O molecules. H O
+2 2 2
+adjustable, can be selectively mixed with specific elements in a molecules are initially adsorbed on Fe sites, which activates
+specific proportion to regulate the adsorption of intermediates the dissociation of water molecules and promotes the stability
+at active sites, improving catalytic activity and reducing the cost. of *OH in adjacent hollow sites. The nearby Ni and Co sites
+are stable to *H (Figure 4g). Due to the multi-sites of OH and
+H, the activation barrier for water dissociation is significantly
+2.1. Pt-Based HEAs in HER reduced (Figure 4h). The generated H can be quickly desorbed,
+2
+which is beneficial to the HER process. Therefore, the multi-
+Pt-based nano-HEAs can not only reduce costs, but also have sites adsorption and synergistic effect on HEA ensure excellent
+excellent HER electrocatalytic performance due to the multi- HER performance.
+component synergistic effect.[29,31–35] A series of high-entropy
+metallic glass (HEMGs) materials are synthesized by nan-
+odroplet-mediated electrodeposition (Figure 3a) with selec- 2.2. Pd-Based HEAs in HER
+tively doping specific elements with a specific ratio.[29] And the
+CoFeLaNiPt HEMGs are designed for HER with Pt as the active In addition to Pt-based nano-HEA, Pd-based nano-HEAs also
+site and OER with transition metal as the active site. From have excellent HER electrocatalytic performance. PdFeCoNiCu
+Figure 3b, the EDX image of CoFeNiLaPt HEMG-NP shows the HEA NPs were also prepared by one-pot oil phase strategy.[36]
+distribution of disordered elements at the atomic level. The dif- Transmission electron microscopy (TEM)-mapping (Figure 5a)
+fuse ring on the SAED pattern also represents an amorphous shows that Pd, Fe, Co, Ni, and Cu are uniformly dispersed in
+Adv. Funct. Mater. 2021, 31, 2106715 2106715 (3 of 28) © 2021 Wiley-VCH GmbH
+16163028,
+2021,
+47,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202106715
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.afm-journal.de
+Figure 2. a) Mechanism of HER on the surface of an electrode in acidic (left) and alkaline (right) solutions. Reproduced with permission.[71]
+Copyright 2020, The Royal Society of Chemistry. b) The OER mechanism for acid (blue line) and alkaline (red line) conditions. Reproduced with per-
+mission.[90] Copyright 2017, The Royal Society of Chemistry. c) Schematic illustration of the possible ORR pathways. Reproduced with permission.[103,104]
+Copyright 2012, Electrochemical Society Inc. Copyright 2019, Wiley VCH. d) Schematic of the MOR mechanism for NR-Ni(OH); Reproduced with 2
+permission.[120] Copyright 2020, Nature Publishing Group. Scheme of three active EOR pathways. Reproduced with permission.[129] Copyright 2019,
+American Chemical Society. e) The possible reaction roadmap of CORR. Reproduced with permission.[142] Copyright 2021, The Royal Society of Chem- 2 istry. f) Schematic diagram of the NRR on electrocatalysts. Reproduced with permission.[153] Copyright 2021, Wiley VCH.
+the NPs. The PdFeCoNiCu/C catalyst exhibits excellent HER the Fermi level are located near the positions of Co and Ni,
+activity with only 18 mV overpotential in 1 m KOH solution indicating potential electroactive sites in the initial water split-
+(Figure 5b). From the analysis of the calculation results, HEA ting of HER. From the PDOS (Figure 5d), it can be seen that
+surface deformation will induce surface strain (Figure 5c), the Pd and Cu sites show electron-rich characteristics, and the
+which further leads to surface electronic modulation. In addi- Ni and Co sites show high electrical activity. Specifically, Pd
+tion, the surface-active bonding and anti-bonding orbitals near will enhance the electroactive adsorption of freely migrating
+Adv. Funct. Mater. 2021, 31, 2106715 2106715 (4 of 28) © 2021 Wiley-VCH GmbH
+16163028,
+2021,
+47,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202106715
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.afm-journal.de
+Figure 3. a) Nanodroplet-mediated electrodeposition overview for controlling NP stoichiometry. b) HAADF-STEM images of a CoFeNiLaPt HEMG-NP
+with accompanying high-resolution EDX images. c) Electrocatalytic evaluation of the CoFeLaNiPt HEMG-NP electrocatalyst. (a–c) Reproduced with
+permission.[29] Copyright 2019, Nature Publishing Group. d) Schematic diagram of the FMBP experimental setup for synthesis of HEA-NPs. e) Sche-
+matic diagrams for synthesis of homogeneous and phase-separated HEA-NPs by FMBP and FBP strategies, respectively. f) The activities toward HER
+of the prepared FeCoPdPtIr@GO and Pt/C, and pure CP. g) Chronopotentiometry curve for FeCoPdIrPt@GO. (d–g) Reproduced with permission.[33]
+Copyright 2020, Nature Publishing Group.
+protons during HER. Co acts as the main electron depletion promotes the stability of OH during water splitting, and Ni also
+center, and the stable adsorption of H O is located at the Co contributes to the proton capture at the Pd site, forming H on
+2 2
+site, which can dissociate the adsorbed water. The nearby Ni the Pd site (Figure 5e). Fe will compensate the electrons in the
+Adv. Funct. Mater. 2021, 31, 2106715 2106715 (5 of 28) © 2021 Wiley-VCH GmbH
+16163028,
+2021,
+47,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202106715
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.afm-journal.de
+Figure 4. a) TEM image of Pt Ni Fe Co Cu nanoparticles. b) The corresponding elemental mapping of Pt Ni Fe Co Cu nanoparticles. c) Pt
+18 26 15 14 27 18 26 15 14 27
+mass loading normalized (mass activity) LSV curves. d) The side and top view of HEA structural configuration and the real spatial contour plots for
+bonding and anti-bonding orbitals near EF. Dark green balls = Pt, gray balls = Fe, blue balls = Co, pink balls = Ni, and orange balls = Cu. e) The site-
+dependent PDOSs of Pt, Fe, Co, Ni, and Cu in HEA. f) The PDOSs for the water adsorption. g) The binding energy mapping of HER. h) The activation
+energies of water dissociation. Reproduced with permission.[34] Copyright 2020, Nature Publishing Group.
+nearby Co position, thereby maintaining high electrical activity in electro-active sites for alkaline HER electrocatalysis. From
+during the HER process. The electron-rich copper can promote Figure 6d,e, the water-splitting barrier is reduced after the intro-
+electron transfer between metal sites. Therefore, thanks to the duction of Mo, and H O can be effectively decomposed into H*
+2
+optimized electronic environment and synergy of the five metal and HO*, which are adsorbed on Ni(Fe) and Mo, respectively.
+elements, excellent HER performance is achieved. Compared with other adsorption sites, the generated H* and
+HO* tend to be located at the Ni(Fe)-Mo bridge site and the top
+site of Mo, the former combines H* to form H , while the latter
+2
+2.3. Non-Noble Metal-Based HEAs in HER promotes water adsorption.[61,83] In addition, its layered nanopo-
+rous Cu framework is conducive to fast electron transport. Ben-
+To replace high-cost Pt/Pd-based materials, a large number efiting from multiple active sites and nanoporous structures,
+of electrocatalysts based on non-noble transition metals have the CuAlNiMoFe electrode exhibits superior non-acidic HER
+also been explored.[28,30,37,41] Among them, multi-element electrocatalysis.
+alloys (MEA) or HEA materials are expected to be used as ideal
+materials for performance optimization. Recently, the hierar-
+chical nanoporous CuAlNiMoFe electrode was prepared for 2.4. Designing Efficient HEAs Catalyst for HER
+HER (Figure 6a).[37] From the STEM-EDS element mapping
+(Figure 6b), it can be seen that a CuNiMoFe high-entropy alloy The HER process mainly includes the adsorption and dissocia-
+is formed on the CuAlNiMoFe framework. Compared with tion of water molecules (alkaline), the production of *H interme-
+other materials, the CuAlNiMoFe MEA electrode only needs diates, the adsorption and recombination of *H intermediates
+≈56 mV overpotential to reach a current density of 100 mA into molecular hydrogen, and finally the desorption of molecular
+cm−2 in 1 m KOH solution (Figure 6c), indicating that its sur- hydrogen. Both OH− and H+ participate in the reaction, and the
+face BCC CuNiMoFe high-entropy alloy plays an important role active site can be designed according to the influence of the two
+Adv. Funct. Mater. 2021, 31, 2106715 2106715 (6 of 28) © 2021 Wiley-VCH GmbH
+16163028,
+2021,
+47,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202106715
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.afm-journal.de
+Figure 5. a) The corresponding TEM elemental mapping of PdFeCoNiCu NPs. b) HER polarization curves of PdFeCoNiCu/C, Pt/C, and Pd/C in 1 m
+KOH solution. c) A side and top view of the structural configuration and real spatial contour plots for bonding and anti-bonding orbitals near EF for
+the HEA. Dark green spheres = Pd, brown spheres = Fe, blue spheres = Co, red spheres = Ni, and orange spheres = Cu. d) The PDOSs of the HEA
+surface. e) The most stable structural configurations of the reactants and key intermediate adsorption. Reproduced with permission.[36] Copyright 2021,
+The Royal Society of Chemistry.
+intermediates on the catalytic activity. The thermodynamics of the Cu-Ti bimetallic catalyst exhibits excellent HER activity.[87]
+the reaction are optimized by lowering the hydrolysis barrier In short, a proper balance of water dissociation and hydrogen
+and the reaction kinetics is enhanced by improving the catalyst- adsorption is an effective strategy to improve the activity of the
+H interaction. During the hydrolysis process, the adsorption of HER catalyst.
+OH* competes with H* on a single active site, thereby weak-
+ening the production of H . Moreover, it is very difficult to bal-
+2
+ance OH*, H*, and other intermediates on a single active site.[84] 3. Multi-Sites Electrocatalysis of High-Entropy
+This can be achieved by designing active sites with different
+Alloy Electrocatalyst in OER
+functions to obtain control over the reaction intermediates indi-
+vidually. By providing independent oxygen-philic sites that can OER is a complex four-electron/four-proton reaction process,
+bind to OH* for hydrolysis, the generation of H* can be greatly and its large over-potential greatly inhibits the decomposition
+promoted, thereby improving the kinetics of the Volmer step.[85] rate of water.[88,89] For the OER process (Figure 2b), the elec-
+For example, platinum is used as the interaction site of H*, and trocatalysis of OER is a heterogeneous reaction, in which the
+an oxyphilic metal with a good OH* interaction site (the binding internal bond interaction (MO) of the intermediates (MOH,
+energy is neither too strong nor too weak, such as Ni, Ru, Co, MO, and MOOH) is very important to the overall electrocat-
+etc.) to promote water dissociate.[86] Furthermore, some metal alytic ability.[90] The hydroxyl group is oxidized and converted to
+components can also be selected to adjust the d-band center of H O and O in the alkaline electrolyte.[91] In an acidic medium,
+2 2
+the H* binding site, optimize the binding energy, and promote two H O molecules are oxidized to generate four protons and
+2
+the dissociation of H species to produce hydrogen. Due to the O
+2
+. In contrast, acidic OER will break the strong covalent OH
+development of alloy materials, non-noble metals can also be bond of H O, resulting in slower kinetics.[89,92] For alkaline
+2
+selected as H binding sites. Alloying one metal with another OER, there are many types of catalysts, such as transition metal-
+metal can effectively adjust the d-band center of the catalyst, based oxides and hydroxides.[88,93–95] Most acidic OER catalysts
+affect the adsorption capacity of the intermediate, and also acti- are based on binary or ternary alloys of non-noble metals and
+vate the HER performance of non-noble metals. For example, precious metals (such as Ir and Ru).[89,96] To improve activity,
+Adv. Funct. Mater. 2021, 31, 2106715 2106715 (7 of 28) © 2021 Wiley-VCH GmbH
+16163028,
+2021,
+47,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202106715
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.afm-journal.de
+Figure 6. a) Typical cross-sectional scanning electron microscopy image of nanoporous CuAlNiMoFe electrode. b) STEM image and corresponding
+EDS elemental mappings of the nanoporous CuAlNiMoFe. c) Polarization curves for nanoporous Cu, CuAlNi, CuAlNiMo, CuAlNiMoFe, CuAlNiFe
+electrodes, comparing with that of nanoporous Cu supported Pt/C (Pt/C/Cu) in 1 m KOH electrolyte. d) Reaction energy diagram of water dissocia-
+tion on surface CuNi, CuNiFe, CuNiMo, and CuNiMoFe alloys at different stages of the reaction. e) Surface configuration of high-entropy CuNiMoFe
+alloy at the four different stages during the dissociating process of HO to H* and HO*. Reproduced with permission.[37] Copyright 2020, Wiley VCH.
+2
+stability and reduce costs, multi-component nano-alloys are is 377 ± 4 mV for OER (Figure 3c), which is much lower than
+needed to further enhance the catalytic activity. Nanostructured that of mono-Fe and Ni, indicating the synergistic effect of tran-
+HEAs contain a high specific surface area and more active sites, sition metal oxides.
+providing many possibilities to adjust the electronic properties
+and catalytic activity of the alloy surface.
+3.2. Ir-Based HEAs in OER
+3.1. Non-Noble Metal-Based HEAs in OER Through the controllable doping of Ir and the other four metal
+elements (Al, Ni, Co, X = Mo, Nb, V) into a single nanostruc-
+Adjusting the composition of HEAs can improve OER perfor- ture phase, the metal element X is changed, and it is found
+mance.[30,38,41] In this study, two transition metal-based HEAs that AlNiCoIrMo alloy has the high activity to OER in an acidic
+(FeNiMnCrCu and FeCoNiCrAl) were selected, which proved environment.[30] The AlNiCoIrMo catalyst has the nanopores
+that the composition of HEAs can be adjusted to improve characteristic, thereby forming a bimodal porous structure,
+OER performance.[38] Among them, Cu has a filled d orbital, and the five components are uniformly dispersed in the sample
+and electrons can be transferred to the d band of other transi- (Figure 7d). Among them, AlNiCoIrMo np-HEA has the highest
+tion metals, thereby reducing the number of d vacancies and OER activity in 0.5 m H SO solution (Figure 7e). The addi-
+2 4
+reducing the overall bonding strength. Mn with a larger radius tion of Mo and V can enhance OER activity, but Nb and Cr will
+(r = 161 pm) has an acceptable affinity for O atoms. In addi- reduce the activity. The model of the multi-component surface
+tion, the matched d vacancy number can effectively accelerate oxide is simplified to a rutile IrO structure doped with two
+2
+electron transfer, and the matched lattice spacing is conducive main elements Ni and X (X: Cr, Mo, Figure 7f). The electronic
+to the absorption of reactants and the desorption of products. origin of the enhanced catalytic activity may be related to the
+FeNiMnCrCu has more atoms on the surface to participate covalent increase of the IrO bond (Figure 7g). The calculation
+in the absorption of reactants, and high residual strain helps is consistent with the experimental results. After adding Mo,
+activate OER under low overpotential. As predicted, FeNiMn- the covalentness of the IrO bond is stronger, so it has better
+CrCu shows good activity for OER (Figure 7a), the smaller Tafel OER performance.[98] Due to the endless combination of ele-
+slope[97] (Figure 7b) and the faster OER kinetic. And the sur- ments, the obtained nanoporous high-entropy alloy (np-HEA)
+face of FeNiMnCrCu is easier to adsorb reactive species and provides infinite possibilities for adjusting the electronic prop-
+improve the electron transport efficiency (Figure 7c), which erties and catalytic activity of the alloy. Similarly, the surface of
+indicates that adjusting the composition of HEA can be used as the np-HEA is covered with high-entropy (hydroxy) oxide, and
+a means for electrocatalytic applications. Besides, the CoFeLa- its alloy composition plays a leading role in OER activity.[40] The
+NiPt HEMGs are also designed for OER with transition metal OER activity of np-AlNiCoFeX (X = Mo, Nb, Cr) is higher than
+as the active site.[29] the overpotential of CoFeLaNiPt HEMG-NP its ternary and quaternary counterparts. This also shows the
+Adv. Funct. Mater. 2021, 31, 2106715 2106715 (8 of 28) © 2021 Wiley-VCH GmbH
+16163028,
+2021,
+47,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202106715
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.afm-journal.de
+Figure 7. a) The OER polarization curves of FeCoNiCrAl and FeNiMnCrCu electrodes. b) Tafel slopes of FeCoNiCrAl and FeNiMnCrCu electrodes.
+c) The EIS spectra of FeCoNiCrAl and FeNiMnCrCu electrodes. (a–c) Reproduced with permission.[38] Copyright 2018, Springer International Publishing.
+d) STEM images of the dealloyed np-AlNiCoIrMo at different magnifications and STEM-EDS mapping of the quinary np-HEA. e) OER polarization
+curves of all these prepared samples and IrO. f) The atomic structure of doped rutile IrO (dark blue: Ir, red: O, green: Ni, and cyan: X. g) The PDOS 2 2
+onto the d states of an Ir cation and the p states of a neighboring O anion for pure IrO, Ni, Cr doped IrO, and Ni, Mo doped IrO. (d–g) Reproduced
+2 2 2
+with permission.[30] Copyright 2019, Wiley VCH.
+importance of synergistically combining five or more metal ele- technology.[41] Take the AlNiCoRuMo sample as an example, the
+ments in a single-phase nanostructure, providing greater struc- dealloyed AlNiCoRuMo exhibits a nanowire-like structure. Five
+tural and chemical freedom to improve catalytic performance. metal components and oxygen are uniformly distributed on the
+nanowire without element segregation (Figure 8a). After com-
+parison, the Al-Ni-Co-Ru-Mo nanowires show excellent OER
+3.3. Ru-Based HEAs in OER performance in 1 m KOH solution (Figure 8b). It can be seen
+from the electrocatalytic experiment results that Ru and Mo
+A series of Al-Ni-Co-Ru-X (X = Mo, Cu, V, Fe) high-entropy are two important components to enhance the activity. Take
+alloy electrocatalysts have been prepared through dealloying Figure 8c as the structural model to understand the effect of the
+Adv. Funct. Mater. 2021, 31, 2106715 2106715 (9 of 28) © 2021 Wiley-VCH GmbH
+16163028,
+2021,
+47,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202106715
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.afm-journal.de
+Figure 8. a) STEM-EDS mapping images of the dealloyed AlNiCoRuMo nanowires. b) OER polarization curves of the prepared samples. c) Crystal-
+line NiCoO with inverse spinel structure. The PDOS onto the d states of Co (d) and Ru (e) for different samples. Reproduced with permission.[41]
+2 4
+Copyright 2020, American Chemical Society.
+fifth non-noble metal transition metal additive on performance. site and a large number of active components are the keys to
+From the Figure 8d,e, the occupation trends of Co and Ru are the preparation of high-activity OER catalysts. It is one of the
+very consistent with the experimental OER activity trends. It can effective methods to optimize the structure and components of
+be proved that the synergistic combination of multiple compo- the catalyst through reasonable design, thereby regulating the
+nents in a single phase will induce complex electron interactions exposure and enrichment of active sites. One strategy is to use
+between these elements and produce multiple active sites with dual/multifunctional active sites to allow different interactions
+the best activity, which is superior to binary and ternary systems. with related intermediates. Adjacent atom adsorption sites
+with different properties must be able to interact with the site
+to be treated. Adjusting the adsorption of HO* and HOO* at
+3.4. Designing Efficient HEAs Catalyst for OER different positions can break the correlation scale relationship.
+HOO* and HO* bind to the surface of the catalyst through
+For the OER, it involves the adsorption and reaction of several oxygen atoms, and their binding energy must be optimized.
+intermediates (HO*, O*, and HOO*) on the catalyst surface. For example, the synergy of W, Fe, and Co can adjust the local
+The scale relationship between species limits the OER activity, coordination environment and electronic structure to optimize
+and traditional catalysts can only provide a limited number the binding energy of the intermediate.[100] In addition, ele-
+of active sites, this limitation cannot be overcome.[99] Suitable ments with higher electronegativity can also be introduced as
+adsorption and desorption capacity of reactants on the catalytic proton acceptors to stabilize the intermediate HOO* to produce
+Adv. Funct. Mater. 2021, 31, 2106715 2106715 (10 of 28) © 2021 Wiley-VCH GmbH
+16163028,
+2021,
+47,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202106715
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.afm-journal.de
+OO* and H*.[101] In OER, although Ir, Ru, and their oxides have to describe the catalytic activity.[46,66,68,110] For optimized cata-
+excellent OER catalytic activity, the cost of noble metal mate- lysts, the adsorption energy of key intermediates should not
+rials is high, and it is difficult to meet commercial require- be too strong or too weak. The HEAs have millions of possible
+ments. It is necessary to introduce transition metal (such as local atomic arrangements on their surface.[67] The arrange-
+Fe, Co, and Ni) catalysts, but these elements are easily oxidized. ment of these atoms has different binding energies, depending
+And it is worth noting that stable metal oxides/hydroxides are on the composition and relative position of the atoms.[67,106,111]
+formed on the surface of the catalyst. The real contributors of Through the corresponding theoretical calculation and pre-
+these excellent OER catalytic performances are considered to be diction, the active sites in the alloy can be recognized, which
+metal oxides/hydroxides, rather than the original unstable cata- guides catalyst design.
+lysts. Xia’s group designed and prepared a homogeneous multi- The HEAs surface provides sites with an arrangement of
+metallic site hydroxide electrocatalyst (consisting of Fe-doped atoms, which can achieve almost continuous adsorption energy
+NiOOH and Cu-doped) by in-situ electrochemical dealloying distribution, thereby providing extraordinary catalytic perfor-
+of multi-metal site alloys (composed of FeNi and NiCu alloys). mance.[66] Thomas A. A. Batchelor used density functional theory
+3
+The in-situ structure evolution process can manipulate the (DFT) to calculate the *OH and *O adsorption energies on the
+intermediates and enhance the oxidation performance of water, IrPdPtRhRu surface to study its ORR performance.[66] As shown
+manipulate the reaction path according to the direct deoxygena- in Figure 9a,b, the *OH and *O adsorbents are located on the top
+tion mechanism and promote the formation of OO bonds, and fcc hollow binding sites respectively, linking the adsorbed
+and accelerate the kinetics.[102] When designing high-entropy species with the local atomic environment around the atoms that
+alloys, it is necessary to select elements specifically to break the can be bound by the adsorption energy, and use this as a model
+scale relationship in the OER reaction. to calculate the adsorption energy. Using the adsorption energy
+data (Figure 9c,d) and training the model through the least-
+squares algorithm, the full range of available adsorption energy
+4. Multi-Sites Electrocatalysis of High-Entropy on the HEAs surface can be predicted. By comparing the influ-
+ence of composition in HEAs on the distribution of adsorption
+Alloy Electrocatalyst in ORR
+energy in Figure 9e, the result showed that the optimal composi-
+ORR is a four-electron or two-electron complex process that tion was allowed to find the global maximum activity. In short,
+requires highly active electrocatalysts to overcome its exces- taking into account the different combinations of elements, a
+sively high potential and slow kinetics. As shown in Figure 2c, cheaper and more active ORR catalyst was designed.
+the four-electron pathway involves four proton–electron trans- In addition, Zhuole Lu used neural network and density func-
+fers to reduce oxygen to water. The direct four-electron reaction tional theory (DFT) to study the influence of ligand effect (spatial
+can proceed through dissociation or association mechanisms. arrangement of different elements) and coordination effect (dif-
+The indirect four-electron reaction mechanism includes a two- ferent crystal faces and defects) on the catalytic performance of
+electron pathway for hydrogen peroxide and another two-electron HEAs.[68] These two effects can cause dramatic changes in the
+pathway for water. The two-electron approach is conducive to active sites. The OH* adsorption energy on IrPdPtRhRu HEA
+the production of hydrogen peroxide.[103,104] The ORR process catalyst with random element distribution and 12 unique coor-
+involves multiple intermediates, including the initial reduction dination environments was predicted by a neural network model
+and decomposition of O*, and the removal of adsorbed O*, to describe ORR (Figure 10a). For the ligand effect, it can be
+2
+HO*, and HO*.[103,105] The progress of the reaction pathway concluded from Figure 10b that the adsorption energy is deter-
+2
+depends on the nature of the catalyst. If the combination of the mined by mixing the contributions of various elements, and the
+catalyst surface with oxygen is too strong, the ORR activity will be two active site atoms directly combined with OH* are the main
+limited by electron transfer. If the combination is weak, the O–O factors that determine the adsorption energy.[112] The frequency
+bond will be difficult to break.[106] Therefore, it is very important distribution of OH* adsorption energy is continuous, which
+to adjust the interaction between the catalyst and the adsorbed indicates that the catalytic activity of HEAs can be fine-tuned to
+reactants/intermediates. Although Pt-based materials are known achieve the desired value. In addition, through machine learning
+as the most advanced electrocatalysts for ORR,[104,107] their high and data-oriented synthesis of catalysts, the effect of HEA cata-
+cost and low abundance hinder their practical application. There- lyst changes on ORR performance was studied. 10 000 equimolar
+fore, low or no Pt electrocatalysts need to be developed. Inter- HEA surfaces were generated for each coordination environ-
+estingly, the synergistic effect, ligand effect, and strain effect in ment, and all generated surfaces were predicted (Figure 10c).
+the alloy will promote ORR performance.[108,109] The number of And the adsorption energy forms a continuous distribution
+specific active sites and the local composition of the active sites on the HEA surface (Figure 10d). Through an in-depth under-
+are affected by the elemental composition. Among them, HEAs standing of the relationship between the complex coordination
+benefit from a large number of possible combinations and have environment and catalytic performance, high-performance HEA
+great potential in the design of excellent catalysts. catalysts can be rationally designed.
+4.1. Theoretical Calculation of HEAs in ORR 4.2. Noble Metal-Based HEAs in ORR
+For theoretical explanations and predictions, the binding ener- In terms of the experiment, five immiscible metals are incorpo-
+gies of O* and OH* intermediates in ORR are commonly used rated into a nano-scale solid phase by the dealloying synthesis
+Adv. Funct. Mater. 2021, 31, 2106715 2106715 (11 of 28) © 2021 Wiley-VCH GmbH
+16163028,
+2021,
+47,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202106715
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.afm-journal.de
+Figure 9. a) *OH on-top binding. Each colored zone represents a set of five parameters. b) *O fcc hollow site binding. Each colored zone represents
+a set of five parameters except zone 1, for which the set is 35 parameters. c) *OH adsorption energies for 871 2 × 2 periodic unit cells. Each color
+represents an individual on-top binding site, one for each metal as seen for zone 1 in (a). d) *O adsorption energies for 998 2 × 2 periodic unit cells.
+Each color represents an individual fcc hollow binding site, where 35 exist for such a 3-atom ensemble as seen for zone 1 in (b). e) Activities of Re-
+engineered Compositions of the HEA IrPdPtRhRu. Reproduced with permission.[66] Copyright 2019, Elsevier.
+Figure 10. a) HEA surfaces and active sites of the dataset used for model training and evaluation. b) Frequency distribution of OH* adsorption energy
+resulting from ligand effect (random distribution of HEA elements) using the (100) surface as an example. c) Different coordination environments are
+ranked in increasing order of total coordination number of nearest neighbors. d) Frequency distribution of OH* adsorption energy for each coordina-
+tion environment. Reproduced with permission.[68] Copyright 2020, Elsevier.
+Adv. Funct. Mater. 2021, 31, 2106715 2106715 (12 of 28) © 2021 Wiley-VCH GmbH
+16163028,
+2021,
+47,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202106715
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.afm-journal.de
+method.[45] Four elements (Al, Cu, Ni, and Pt) are identified, 4.3. Non-Noble Metal-Based HEAs in ORR
+and the fifth element (Pd, V, Co, Mn, etc.) is alternately used to
+obtain a series of nanoporous HEA (np-HEA). From Figure 11a, In addition, to reduce the cost of the catalyst, Schuhamnn et al.
+the dealloyed Al-Cu-Ni-Pt-Mn multi-element alloy clearly shows successfully prepared a noble metal-free CrMnFeCoNi HEA
+a bimodal porous structure. And the Al-Cu-Ni-Pt-Mn np-HEA NPs ORR catalyst, which showed a similar catalytic perfor-
+shows the best ORR catalytic activity and electrochemical cycle mance to commercial Pt/C.[44] As shown in Figure 11g, all
+durability (Figure 11b,c). It is found that the surface transition five elements are evenly distributed in the NPs, confirming
+metal may weaken the binding of the chemical species to the the formation of a single solid solution phase (HEA). The
+Pt surface layer, resulting in a catalytic surface with high ORR properties of HEAs and the number and intrinsic activity of
+activity.[113] In this catalyst, the co-existence of Cu and Ni in the active centers depend on the elemental composition. Through
+surface layer reduces the binding energy, and the binding strength experimentation, it was found that the activity decreases sig-
+is adjusted to the optimal value by adding Mn (Figure 11d). As nificantly when one group of elements is reduced. In the
+shown in Figure 11e,f, OOH is stable at the hollow fcc position absence of Mn, its activity was the lowest, indicating that Mn
+on the CuNiPt surface, but it is adsorbed on the bridging posi- had a high promotion effect on the active site. In addition, it
+tion on the CuNiPtMn surface. This indicates that the addition was found that the content of Mn had a great effect on the
+of Mn not only results in even lower Pt levels, but also enables catalytic activity (Figure 11h). These results show that not only
+the regulation of the electronic properties of the catalytic surfaces the correct selection of elements, but also their proportions
+that enhance ORR activity. These works prove that the nanostruc- can affect the activity. Thus, a good catalyst can be designed by
+tured HEAs system can be used as a platform for efficient catalyst changing composition and proportion, even if only non-noble
+design due to the combination of countless elements. metal components are used.
+Figure 11. a) STEM image of the np-AlCuNiPtMn. b,c) ORR polarization curves of all these prepared samples and Pt/C. d) Free energy profiles of the
+ORR steps on the CuNiMnPt and the CuNiPt. Adsorption configurations of the OOH on the e) CuNiPt and f) CuNiMnPt models. Each color represents
+one element, dark blue: Pt; pink: Mn; brown: Cu; green: Ni; red: O; white: H. (a–f) Reproduced with permission.[45] Copyright 2020, Elsevier. g) STEM
+image of the selected region for EDX mapping of CrMnFeCoNi NPs. h) Comparison of intrinsic activity for the CrMnFeCoNi NPs upon increase in Mn
+content under otherwise identical conditions. (g) and (h) Reproduced with permission.[44] Copyright 2018, Wiley VCH.
+Adv. Funct. Mater. 2021, 31, 2106715 2106715 (13 of 28) © 2021 Wiley-VCH GmbH
+16163028,
+2021,
+47,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202106715
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.afm-journal.de
+4.4. Designing Efficient HEAs Catalyst for ORR pathways ii) C2-4e pathway: dehydrogenation without breaking
+the CC bond, and the product is acetic acid (acidic) or acetate
+There are multiple intermediates in ORR, but all intermediates (alkaline). iii) Indirect C1-12e path: The CC bond breaks after
+in ORR have a linear relationship with the adsorption energy partial dehydrogenation and adsorbs CO as the main interme-
+of oxygen.[104,114] Therefore, the interaction between the elec- diate. The products are HCO –, CO 2–, and CO .[129] Therefore,
+3 3 2
+trocatalyst and adsorbed oxygen (O ) can be used for Sabatier it is necessary to adjust the catalyst to improve its performance.
+ads
+analysis. If the metal’s ability to adsorb O atoms is too strong, Among them, alloying can effectively improve its performance
+the active surface of the catalyst will always be occupied by O by changing the binding energy of the catalyst and the inter-
+atoms, which is not conducive to the continued progress of the mediate species. HEAs have been studied in alcohol oxidation
+reaction; if the adsorption capacity is too weak, O will not be in the early stage, but there is still a lot of research space in the
+2
+adsorbed on the active surface of the catalyst, which is not con- design of catalysts (selection of elements), the interaction of ele-
+ducive to the occurrence of the catalytic reaction.[106] Therefore, ments, and the determination of active sites.
+designing an electrocatalyst with the best interaction between
+O and electrocatalyst is the key to effectively improving ORR
+ads
+activity. The interaction between the surface of the pure plat- 5.1. Pd-Based HEAs in MOR
+inum-based catalyst and the oxygen-containing substance is too
+strong, which limits the number of oxygen adsorption sites, Pd-based materials have excellent catalytic performance for the
+thereby limiting its catalytic activity. The ORR activity can be electrooxidation of small organic molecules in alkaline media.
+improved by alloying with transition metals (such as Fe, Co, The alloying of transition metals and Pd causes changes in the
+Ni) or other elements.[108,115] The multi-metal system combines structure and electrons of Pd, resulting in the catalytic perfor-
+the properties of each metal and exhibits unprecedented char- mance of Pd alloys being better than pure Pd.[130–132] The five-
+acteristics through possible synergistic effects. The addition of element PdNiCoCuFe alloy nanotube array (NTA, Figure 12a)
+some non-noble metals will change the atomic structure of Pt, is prepared by a template-assisted electrodeposition method,
+which is more conducive to the adsorption and dissociation of and exhibits higher catalytic activity than Pd NTAs of meth-
+O 2 , accelerates the breaking of OO bonds. The selection of anol electrooxidation (Figure 12b).[50] The interaction between
+sites and elements in the high-entropy alloys can be screened Pd, Ni, Co, Cu, and Fe can promote the catalytic activity of
+through theoretical calculations (machine learning), allowing the CH cracking reaction and hydroxyl species formation
+the best composition to find the optimal activity. on Pd at a lower potential, and weaken the bonding strength
+of the hydroxyl species on the surface of the PdNiCoCuFe
+alloy NTA.[133] The strong electronic interaction between Pd,
+5. Multi-Sites Electrocatalysis of High-Entropy Ni, Co, Cu, and Fe atoms changes the electronic state of Pd
+atoms (Figure 12c). The excellent performance is attributed to Alloy Electrocatalyst in Alcohol Oxidation
+the multi-component nature of the synergy between different
+The alcohol oxidation reaction is the anode reaction of a direct metal elements, electronic effects, and the nanostructure of the
+alcohol fuel cell.[116,117] Intermediate products such as CO have hollow nanotube array.
+a serious toxic effect on the catalyst during the methanol oxi-
+dation reaction (MOR).[117–119] As shown in Figure 2d (top),
+taking NR-Ni(OH) electrochemical oxidation of methanol as 5.2. Pt-Based HEAs in MOR/EOR
+2
+an example, the MOR path is CH OH*→CH O*→CH O*→
+3 3 2
+CHO*→CO*→COOH*→CO *. The four-coordinated Ni atom In addition, Pt-based materials are also an excellent electrocatalyst
+2
+is responsible for the efficient adsorption of methanol. And for alcohol oxidation. Platinum group metal (PGM) alloying may
+because the four-coordinated Ni atom is located next to the be an ideal candidate for catalyzing complex reactions due to its
+six-coordinated Ni atom, the process of converting methanol multiple adsorption sites on the surface. It is the first report that
+to carbon dioxide is very effective. Compared with the subse- the RuRhPdOsIrPt PGM-HEA effectively promotes the ethanol
+quent steps, the dehydrogenation step in which the OH/ oxidation reaction (EOR) through a complex 12-electron/12-proton
+CH chemical bond is broken requires a relatively high energy transfer process.[53] The RuRhPdOsIrPt high-entropy alloy nano-
+barrier.[120] By introducing double (multiple) active sites, the particles were prepared by the polyol method, and each ele-
+CO adsorbed on the catalyst surface interacts with adjacent ment was uniformly and randomly distributed throughout the
+OH species to generate CO , which improves its catalysis nanoparticles (Figure 12d). In the electrocatalytic experiment,
+ad 2
+and anti-toxic properties.[121–124] However, the oxidation reac- the PGM-HEA shows the highest current density (Figure 12e).
+tion of ethanol (polyol) is a complex process involving many Through the preparation of single metal and equimolar ternary,
+important intermediate products and many products or byprod- quaternary, and pentad alloy nanoparticles as a control group to
+ucts.[125–128] The electrooxidation of ethanol includes three study the effect of each element, it was found that these six ele-
+pathways (Figure 2d, down), i) the direct C1-12e pathway: the ments on the surface may provide the optimal surface configu-
+dissociation and adsorption of ethanol break the CC bond, ration and provide ideal adsorption/desorption sites for EOR. Pd
+resulting in enrichment C1 intermediates of hydrogen, these and Pt have higher activity for EOR, and alloying of Pd with Pt
+C1 intermediates are completely oxidized (HCO –, CO 2–, and and Rh will reduce the coverage of poisoned species.[134] Ir and Rh
+3 3
+CO
+2
+) without poisoning intermediates. The pathway competes can promote dehydrogenation or CC breaking at a low poten-
+with the non-dissociative adsorption of ethanol, followed by two tial, but further oxidation is difficult.[135,136] Ru and Os do not have
+Adv. Funct. Mater. 2021, 31, 2106715 2106715 (14 of 28) © 2021 Wiley-VCH GmbH
+16163028,
+2021,
+47,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202106715
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.afm-journal.de
+Figure 12. a) TEM image of the synthesized PdNiCoCuFe nanotube arrays. b) CVs of PdNiCoCuFe alloy NTAs and Pd NTAs in 0.5 m CHOH + 1.0 m
+3
+NaOH at 50 mV s−1. c) X-ray photoelectron spectroscopy spectrum of PdNiCoCuFe NTAs and Pd NTAs. (a–c) Reproduced with permission.[50] Copy-
+right 2014, Elsevier. d) HAADF-STEM image of the as-prepared PGM-HEA and the corresponding EDX maps. e) Comparison of the EOR j values
+specific
+of PGM-HEA with those of the as-synthesized monometallic NPs and the commercial catalysts. (d) and (e) Reproduced with permission.[53] Copyright
+2020, American Chemical Society.
+high EOR activity and may promote the CC breaking at low center of MOR. The 3d orbitals of Cu, Co, and Fe not only
+potentials and accelerate the oxidation of C1 species through the lower the energy barrier of electron transfer during oxida-
+adsorption of OH.[43,137] According to reports, Ru is an efficient tion, but also promote the stability of MOR intermediates
+metal for OH adsorption at low potentials, Os can also improve (Figure 13e). In the MOR process, there is a linear relation-
+the CC breaking on Pt catalyst.[138] Therefore, adjusting the coor- ship between the s and p orbitals of key intermediates, which
+dination environment of the surface metal sites by changing the is the key to ensure the transfer of protons and electrons in
+components can balance the adsorption energy of the reactants MOR (Figure 13f). This not only supports the effective oxida-
+and intermediates on the adsorption sites, thereby obtaining tion of the intermediate, but also has the best binding strength
+higher activity in complex reactions. during the intermediate conversion process. The excellent per-
+Nanoporous-PtRuCuOsIr HEA is prepared by the chemical formance is attributed to HEA’s suitable electronic environ-
+dealloying method of mechanically alloyed AlCuPtRuOsIr pre- ment that can achieve multiple active sites, properly adsorb
+cursor.[43] From Figure 13a, the structure of the double contin- key intermediates, and effective electron transfer, to maximize
+uous ligament channel can be observed. And it has excellent the use of surface electrical activity.
+methanol oxidation activity, with area activity and mass activity
+reaching 3.0 mA cm−2 and 857.5 mA mg −1 in an acid electro-
+Pt
+lyte (Figure 13b,c). In the multi-component catalyst, Pt com- 5.3. Designing Efficient HEAs Catalyst for Alcohol Oxidation
+pletes the dissociation and chemical adsorption of methanol,
+and the alloyed 3d metal forms surface oxyhydroxides, which In alcohol oxidation, single-component catalysts (such as Pt)
+can extract active oxygen from the acidic electrolyte water.[139] are susceptible to the poisoning of CO intermediate product
+Then, the active oxygen oxidizes the carbonaceous residue to and show lower C product selectivity in polyol-oxidation. The
+1
+CO .[140] In addition, the channels and porous features in the introduction of other functional components to enhance the
+2
+material provide excellent transport paths for molecules and anti-poisoning effect of the catalyst and improve its perfor-
+electrons, which greatly promotes reaction kinetics. mance is an effective strategy.[121,122,124,141] When the alloy is
+Besides, the prepared Pt Ni Fe Co Cu HEA nanoparti- formed, the interaction between them can adjust the electronic
+18 26 15 14 27
+cles showed a mass activity as high as 15.04 A mg −1 in alka- structure of the catalyst, affect its d-band center, promote the
+Pt
+line MOR (Figure 13d).[34] The multi-sites adsorption of the combination of the catalyst with CO, CH , CH CO–, acetalde-
+x 3
+MOR process on HEAs guarantees its excellent performance. hyde (C HO), etc. And it can also affect the combination of
+2 4
+Co-3d and Ni-3d orbitals contribute to the electron depletion the catalyst and OH and promote the oxidation of CO. The
+ad
+Adv. Funct. Mater. 2021, 31, 2106715 2106715 (15 of 28) © 2021 Wiley-VCH GmbH
+16163028,
+2021,
+47,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202106715
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.afm-journal.de
+Figure 13. a) HRTEM image of the np-PtRuCuOsIr alloy. b,c) ECSA-normalized and mass-normalized CVs of the np-PtRuCuOsIr and Pt/C catalysts
+for MOR in the 0.5 m HSO + 0.5 m CHOH solution at 30 °C (scan rate: 50 mV s−1). (a–c) Reproduced with permission.[43] Copyright 2015, Elsevier.
+2 4 3
+d) MOR performance of the Pt Ni Fe Co Cu /C and Pt/C in 1 m KOH + 1 m CHOH electrolyte. e) The PDOSs for the CHOH adsorption. f) The
+18 26 15 14 27 3 3
+PDOSs for the key intermediates of MOR. (d–f) Reproduced with permission.[34] Copyright 2020, Nature Publishing Group.
+methanol oxidation reaction mainly involves the adsorption and coupling process and to reveal the internal mechanism of these
+dissociation of methanol, as well as the removal of toxic sub- complex processes. By studying the mechanism, researchers
+stances, partly oxidized to formic acid or completely oxidized can effectively design and screen ideal electrocatalysts. Recently,
+to CO
+2
+. In the oxidation of polyols, the cleavage of CC is also emerging high-entropy alloy materials have gradually been
+involved. When designing high-entropy alloys for alcohol oxida- applied to CO RR due to the large combination of elements in
+2
+tion, it is necessary to have alcohol adsorption sites (such as Pt, any proportion and the surface microstructure.
+Pd, etc.), sites that promote the breaking of CC bonds (such
+as Rh, Os, etc.), and sites that promote the oxidation of toxic
+substances (Ru, etc.), etc.[129] By changing the composition to 6.1. Theoretical Calculation of HEAs in CO RR
+2
+adjust the coordination environment of the surface metal sites,
+balance the adsorption energy of the reactants and intermedi- Materials composed of multiple elements will produce different
+ates at the adsorption sites, so as to obtain higher activity. surface sites, each of which will promote catalytic performance to
+a certain extent, and these sites have unique adsorption properties
+for reaction intermediates. By describing the adsorption energy
+6. Multi-Sites Electrocatalysis of High-Entropy of the intermediate, the surface structure and composition of the
+material can be optimized to guide its application.[66,148] Jack K.
+alloy Electrocatalyst in CO RR
+2 Pedersen calculated CO and H adsorption energy of all surface
+The carbon dioxide reduction reaction (CO RR) can convert sites on the disorderly CoCuGaNiZn and AgAuCuPdPt HEA
+2
+CO into valuable carbon-based fuels and daily chemicals, real- by the DFT combined with a supervised machine learning, and
+2
+izing the carbon cycle.[142] As shown in Figure 2e, Electrocat- predict the local optimum of disordered alloy composition.[55]
+alytic CO RR can produce a variety of products, including C The elements are selected according to sites with weak hydrogen
+2 1
+(CO, CH, CH OH, HCOOH, etc.), C (C H, C H OH, and adsorption (inhibit the formation of molecular hydrogen) and
+4 3 2 2 4 2 5
+CH COOH), and C products (C HOH).[142–144] The reaction strong CO adsorption (facilitate CO reduction), and include alloy
+3 2+ 3 7
+path is complex and involves many proton and electron cou- metal elements commonly used in CORR. It is expected that
+2
+pling processes, especially when generating more complex C most of the chemical environment around the adsorption site
+2
+and C molecules requires adjustment of the catalyst’s ability depends only on the atoms near the adsorbate. The model shown
+3
+to adsorb intermediates.[142] Therefore, the main goal of CO RR in Figure 14a is configured for the top, fcc hollow, and hcp hollow
+2
+is to improve activity, selectivity, and stability. The selectivity of adsorbed surfaces, it can effectively maintain a balance between
+the product can be adjusted according to the electrode material. time and prediction accuracy. As shown in Figure 14b,c, by
+In addition to selecting the corresponding elements, the cata- adjusting the composition of the alloy, the distribution of adsorp-
+lytic performance can also be improved through strategies such tion energy can be changed, thus the selectivity and activity of the
+as alloying, doping, valence, and porous structure.[142,143,145–147] alloy can be changed. The model can effectively predict the ability
+It is very necessary to study which properties of the catalyst of catalyst candidates, and can also optimize the composition of
+surface are beneficial to the multi-proton and multi-electron the alloy to achieve the best catalytic performance.
+Adv. Funct. Mater. 2021, 31, 2106715 2106715 (16 of 28) © 2021 Wiley-VCH GmbH
+16163028,
+2021,
+47,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202106715
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.afm-journal.de
+Figure 14. a) Surface microstructure configurations. Illustration of the neighboring atoms used to model the chemical environment around the
+adsorption site on a (111) surface. b) Selectivity-activity plots. Plot of the CORR/CORR selectivity and CORR activity space achievable by CoCuGaNiZn
+2
+and AgAuCuPdPt. c) Adsorption energy distributions. Plot of the distributions of H and CO adsorption energies for six disordered (111) alloys using
+CoCuGaNiZn and AgAuCuPdPt. Reproduced with permission.[55] Copyright 2020, American Chemical Society.
+6.2. Experimental Realization of HEAs in CO RR catalyst (d-band center),[149] only one catalytic center is selected,
+2
+that is, the presence of redox-active copper metal (Cu2+/Cu0)
+In terms of experiments, Subramanian Nellaiappan et al. used to describe[150] (Figure 15c), and other metals play a synergistic
+melting and cryogrinding to synthesize AuAgPtPdCu HEA for effect. The excellent performance is attributed to the thermody-
+CO RR.[56] As shown in the Figure 15a,b, the AuAgPtPdCu ele- namic advantages of the adsorption and desorption process of
+2
+ment in the HEA is uniformly distributed in the nanoparticles. *OCH and *O intermediates in the HEAs (Figure 15e).
+3
+By integrating the five elements into a single solid solution, the
+product selectivity is changed. The CO RR gas products of the
+2
+HEA are CO, CH, C H, H , and the Faraday efficiency reaches 6.3. Designing Efficient HEAs Catalyst for CO RR
+4 2 4 2 2
+100% (Figure 15d). This is different from the single Cu metal
+and highlights the uniqueness of the HEA. Many elements in Electrocatalytic CO RR involves multiple electron–proton
+2
+high-entropy alloys are randomly distributed on the surface, so transfer steps, and high overpotential and low selectivity usu-
+there may be a large number of catalytic centers. In this calcu- ally limit the productivity of highly reducing chemicals.[142] If
+lation, starting from the electronic principle of designing the the consecutive steps of coupling are catalyzed by a catalyst
+Adv. Funct. Mater. 2021, 31, 2106715 2106715 (17 of 28) © 2021 Wiley-VCH GmbH
+16163028,
+2021,
+47,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202106715
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.afm-journal.de
+Figure 15. a) Schematic illustration of AuAgPtPdCu HEA NPs catalyzed CORR. b) Chemical homogeneity of Au, Ag, Pt, Pd, and Cu mapping of an 2
+atom probe microscope. c) Cyclic voltammetric responses of the high-entropy alloy catalyst deposited on the glassy carbon electrode in blank 0.5 m
+KSO at a scan rate of 40 mV s−1. d) Bar diagram for the faradic efficiencies of their respective carbonaceous species and hydrogen gaseous products.
+2 4
+e) Free-energy diagram of CORR on the AuAgPtPdCu HEA surface. Optimized structures of all of the intermediates on the HEA surface are shown in
+2
+the inset. Reproduced with permission.[56] Copyright 2020, American Chemical Society.
+with multiple active sites, simple molecules can be effectively of N molecules on the catalyst surface (active sites), ii) hydro- 2
+converted into chemical substances with complex structures. genation, and iii) the desorption of NH molecules (or other
+3
+Electrochemical CO RR is a multi-electron reduction reaction intermediates).[153–155] According to different hydrogenation
+2
+involving many different surface binding reaction interme- (protonation and reduction) sequences and the breaking of
+diates. There are a large number of possible carbon dioxide NN triple bond, NRR is generally divided into dissociation
+reduction products. These products require a large amount of mechanism and association mechanism.[153] Deepening the
+proton and electron transfer and may be carried out through understanding of the mechanism is essential for the design
+different intermediates. Common materials electrocatalytic and manufacture of highly efficient selective NRR electrocata-
+CO products are as follows i) carbon monoxide (Au, Ag), ii) lysts. When designing NRR catalysts, it is necessary to focus
+2
+formate (such as Pb, Sn, In, Bi), iii) hydrocarbon (such as Cu), on their ability to absorb and activate N . Through surface con-
+2
+and iv) hydrogen (such as Pt, Ni).[151] Therefore, it is necessary trol, defect engineering, alloying, component regulation, and
+to design multi-sites catalysts to improve its selectivity. Among hybridization, and other strategies, increase the exposed active
+the alloy systems, two-component alloys are mostly studied. sites or adjust the electronic structure to improve catalytic per-
+Alloy nanostructure catalysts are usually composed of Cu and formance.[154,156–160] The promotion of selective absorption and
+other intergrowth metals (such as Zn, Ag, Au). Compared with activation of N molecules on NRR electrocatalysts through
+2
+the second metal, the combination of Cu and CO is stronger. alloying or composition adjustment has also been gradually
+When CO is desorbed from the weak binding site, CO over- studied.[160–163] Among them, HEAs may become potential
+flows from the second metal site to the Cu site, resulting in the electrocatalysts for NRR due to their adjustable components
+production of high reduction products.[152] Different active sites and high tolerance, improving the activity, selectivity, and sta-
+catalyze different reaction steps. In order to better understand bility of NRR.
+the influence of alloying on carbon dioxide, more research is
+needed, especially in the electrocatalysis of multiple alloys. The
+application of CO RR requires more calculation and experi- 7.1. Ru-Based HEAs in NRR
+2
+mental work to clarify the potential reaction mechanism and
+intermediates. Recently, RuFeCoNiCu HEA electrocatalyst has been prepared,
+which has achieved excellent NRR performance due to the
+multi-sites synergy.[57] RuFeCoNiCu HEA NPs with small size
+7. Multi-Sites Electrocatalysis of High-Entropy (≈16 nm) were prepared in the oil phase (≤250 °C) at atmos-
+pheric pressure (Figure 16a). As shown in Figure 16b, the NH
+Alloy Electrocatalyst in NRR 3
+production reaches 57.1 µg h−1 mg −1 at the 0.05 V versus RHE
+cat
+The current NRR electrocatalysts exhibit poor catalytic activity, in 0.1 m KOH electrolyte, and the corresponding Faraday effi-
+and the NH yield is also low due to the HER competitive reac- ciency reaches 38.5%. Similarly, the material also exhibits
+3
+tion. It includes three basic steps (Figure 2f): i) The adsorption excellent electrochemical performance in neutral and acidic
+Adv. Funct. Mater. 2021, 31, 2106715 2106715 (18 of 28) © 2021 Wiley-VCH GmbH
+16163028,
+2021,
+47,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202106715
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.afm-journal.de
+Figure 16. a) TEM image of RuFeCoNiCu NPs. b) NH yields and FEs at each given potential in 0.1 m KOH. c,d) side view and top view with the net-
+3
+work of the optimized structure of the RuFeCoNiCu NPs. The red, yellow, dark blue, light blue, and grey balls represent Ru, Fe, Co, Cu, and Ni atoms,
+respectively. Free energy diagrams for NRR process occurring on the e) t-Fe, f) h-Co-Ni-Ni, g) b-Fe-Fe, and h) s-Ni-Ru sites. An asterisk (*) denotes as
+the adsorption site. Reproduced with permission.[57] Copyright 2021, Wiley VCH.
+electrolytes. The improvement of NRR performance is attrib- Ru, Au, Fe, Rh, Mo, Sc, Ti, Y, and Zr.[153] Although the noble
+uted to the synergy of multiple active sites. From Figure 16c–h, metals Pt and Ir have appropriate nitrogen binding energy, their
+top-Fe (t-Fe) is the best site for N adsorption and activation. *H binding strength with hydrogen is higher than that of nitrogen,
+2
+is preferentially adsorbed on CoCu and NiRu pairs, due to which will lead to the progress of the HER (competitive reac-
+its excellent surface hydrogenation ability under low overpo- tion).[165] In addition, metals such as Ti, Y, and Zr have stronger
+tential.[164] *H can more easily activate N adsorbed by adjacent bonding strength with N and can be developed appropriately.[157]
+2
+Fe with the 0.32 eV energy barrier, which is lower than pure After nitrogen activation, the next proton–electron transfer pro-
+metals, and finally reduce to NH . The calculation of double H cess depends on the nature of the active site. Through com-
+3
+adsorption proved that the competitive reaction HER was well ponent adjustment, such as alloy engineering, the electronic
+suppressed. It can be seen that the excellent NRR performance structure and performance of various metals can be optimized,
+is that different metals play different roles and work in a synergy and the adsorption and activation of reactants on the catalyst
+manner. Therefore, understanding the synergy between metals surface can be promoted.[166] Dong’s group prepared the bime-
+can provide a huge space for component optimization, which in tallic AuCu nanowires exhibited excellent NRR performance.
+turn is of great help to the rational design of the catalyst. This is because after Cu is added to the gold lattice, the syner-
+gistic effect between the two metal atoms is enhanced, which
+promotes their interaction with the reactants and subsequent
+7.2. Designing Efficient HEAs Catalyst for NRR intermediates.[167] In addition, Ag Au nanotubes,[168] Pt Ir alloy
+2 1 93 7
+nanocrystals,[169] RhCu ultrathin nanoflake,[170] etc., its electro-
+Regarding the high-activity electrocatalyst of NRR, the rules for catalytic NRR activity is significantly enhanced compared with
+adjusting the active site to effectively guide the design have not the corresponding single metal catalyst. When designing high-
+been proposed yet. Since the adsorption/activation of N will entropy alloys, we can consider the adsorption and activation of
+2
+trigger electrochemical NRR, an effective electrocatalyst should nitrogen, hydrogenation, and suppression of hydrogen evolu-
+first have active sites for adsorbing nitrogen molecules. Nitrogen tion reactions, etc., and select elements with different activities
+molecules have moderate bonding strength on metals such as to combine to adjust the adsorption capacity of the reactants.
+Adv. Funct. Mater. 2021, 31, 2106715 2106715 (19 of 28) © 2021 Wiley-VCH GmbH
+16163028,
+2021,
+47,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202106715
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.afm-journal.de
+8. Conclusion and Outlook hollow active sites, and bridge active sites.[67] The existence of
+adjacent active sites with different properties allows the use of
+HEAs have been widely studied as high activity and stable elec- active sites with ideal properties for the reaction to carry out
+trocatalysts. In order to better understand the design of HEAs, the subsequent reaction of the primary reaction product (inter-
+including element selection, element interaction, and the deter- mediate) (Figure 17c), which can break the limitation of the
+mination of active sites. The review article focuses on recent proportional relationship and facilitate the multi-step reaction
+progress in the design of HEAs as excellent catalysts for elec- (CO RR, ORR, NRR, etc.), The interaction can be adjusted by
+2
+trocatalytic reactions. Combining experimental and theoretical rational selection of element configuration and composition. In
+research, we have a deeper understanding of the multi-sites short, most electrocatalytic reactions go through the adsorption
+electrocatalysis in the HEAs. It can be seen that the electrocata- of reactants, the dissociation (or conversion) of reactants, the
+lytic reaction is a multi-step process involving multiple inter- conversion of different intermediates (proton transfer, etc.), and
+mediates and electron transfer. The unique interaction between the formation and desorption of products (Figure 17c). In high-
+many adjacent elements in the catalyst is the basis for a large entropy alloys, different active sites can be produced to adsorb
+number of different active sites, which cover a wide range of different species, breaking the limitation of the proportional
+adsorption energies.[66] The optimization of the composition relationship. Adjacent elements can stabilize certain intermedi-
+can increase the number of active sites with favorable adsorp- ates, optimize their adsorption energy, and make the reaction
+tion energy for the reaction. In high-entropy alloys, due to the proceed effectively. The catalytic performance is higher than the
+ability to form a composite single-phase solid solution from superposition of individual elements.
+five or more components, they have the unique ability to fine- Further, put forward the challenges and future develop-
+tune the adsorption energy. The adsorption energy distribution ment directions of high-entropy alloy materials. At present, the
+curve can be affected by adjusting the element (or adjusting development direction and difficulties of high entropy alloys
+the ratio) (Figure 17a,b).[46] The arrangement of all elements are mainly as follows: i) The structure-activity relationship of
+adjacent to each other provides a unique active site composed catalysis, which requires the development of in situ charac-
+of multiple elements, such as on-top active sites, threefold terization techniques and theoretical calculations for a deeper
+Figure 17. a) A simplified scheme is used to illustrate the distribution of active sites. The strength depends on the number of similar sites. b) The
+influence of substitution or increase of high entropy alloy elements on the distribution model of adsorption energy. c) Schematic graph of the reac-
+tion process at the surface of a HEA catalyst. Among them, there is a continuous reaction containing a single intermediate or a continuous reaction
+of multiple intermediates. The reaction can occur at adjacent active sites with different properties: On-top active sites (atom), threefold hollow active
+sites, and bridge active sites.
+Adv. Funct. Mater. 2021, 31, 2106715 2106715 (20 of 28) © 2021 Wiley-VCH GmbH
+16163028,
+2021,
+47,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202106715
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.afm-journal.de
+understanding, so as to provide certain guidelines for the design performance of HEA catalysts. In addition, the compatibil-
+of catalysts. ii) To regulate the morphology or phase structure of ity of elements should also be considered when selecting
+the catalyst. At present, most of the high entropy alloy catalysts elements, and whether a single solid solution phase can be
+are particles, so it is necessary to develop effective methods to formed under certain conditions. According to the phase
+prepare high entropy materials with different morphologies and composition of the high entropy alloy and the law affect-
+phase structures. In general, a deeper understanding of high ing the phase formation, the relationship between the value
+entropy alloys is needed so that these materials can be used in range of each parameter and the phase composition of the
+a variety of fields in the future. Specifically, elements selection, high entropy alloy system is understood by using the physical
+synthesis, morphology, crystal structure (phase structure), char- and chemical parameters, such as the difference of atomic
+acterization, theoretical calculation, active sites, and application radius, electronegativity, valence electron, mixing enthalpy,
+fields are summarized and prospected (Figure 18). mixing entropy, and so on. With the development of calcula-
+tion, various thermodynamic simulation software or models
+1) Element selection. The choice of elements can be based on a can be used to predict the phase formation laws and proper-
+certain reaction to select active elements, and then other ele- ties of high entropy alloys, which can provide some guidance
+ments can be selected according to the electronic structure for the design of high entropy alloys.
+of the HEAs (d-band center and charge transfer). The com- 2) More convenient and green preparation method. The rapid
+ponents and concentration in the alloy can adjust the d-band and green preparation of the nano-HEA-based catalyst, as
+center and then affect catalytic activity and selectivity.[171] In well as the low cost and large-scale synthesis are conducive
+addition, electron transfer between different elements will to its application in the field of catalysis. Recently, the com-
+also occur, causing the redistribution of the surface charge monly used methods for preparing HEA materials include
+of the alloy, which affects the adsorption of reactants and i) carbonthermal shock synthesis.[10,11,16,174–176] The composi-
+reaction intermediates on the active sites.[172,173] Therefore, tion of the material prepared by the method is controllable,
+rational selection of elements helps to further improve the and the size is ultra-small and uniform. However, carbon
+Figure 18. Schematic illustration of the future perspectives of high entropy materials.
+Adv. Funct. Mater. 2021, 31, 2106715 2106715 (21 of 28) © 2021 Wiley-VCH GmbH
+16163028,
+2021,
+47,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202106715
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.afm-journal.de
+support is required in the synthesis process and the yield methods to prepare small-sized high-entropy alloys. ii) The
+is low. If the yield of this method can be increased, it will preparation of HEAs with unique morphology can open up
+promote the industrial application of HEAs catalysts. ii) Fast- a new way to improve the catalytic performance. Because
+moving bed pyrolysis method.[33] HEA NPs (ultra-small and the exposure of different crystal faces in the alloy will affect
+uniformly distributed) can be prepared on various substrates the catalytic activity and selectivity.[184,185] But controlling its
+such as carbon materials, zeolites, and γ-Al O by this meth- growth remains a challenge. According to the preparation
+2 3
+od. However, the method requires higher equipment due to of different morphologies in binary, ternary, and quaternary
+the high temperature and fast heating speed. iii) Wet chemi- alloys as a reference.[75,107,186] Reasonable adjustment of the
+cal method (ultrasound-assisted and solvothermal synthe- conditions in the synthesis process, such as metal precur-
+sis).[31,34,36,53,57,177] The wet chemical method is easy to operate sors, surfactants, growth control agents, solvents, reducing
+by adding different metal precursors to prepare HEAs. HEAs agents, masking agents, etc., can provide feasibility for ad-
+loaded on various substrates were obtained by ultrasound- justing the morphology of HEAs. Recently, 2D high-entropy
+assisted wet chemistry at room temperature. In addition, it sulfides and oxides have been prepared, which can provide a
+can be prepared by solvothermal synthesis (oleylamine, poly- reference for the preparation of high-entropy alloys with dif-
+ol). It applies to a wide range of elements and the cost is low. ferent morphologies. Mishra et al. used the chemical vapor
+However, the synthesis efficiency and yield are low, and the transport method to synthesize in a single zone furnace
+yield needs to be further improved. But, the HEAs prepared and then used liquid phase stripping technology to prepare
+by the solvothermal method have good crystallinity and fewer 2D high-entropy transition metal dichalcogenide alloys con-
+defects, and it is easier to process and prepare nanomaterials taining four/five transition metals. Among them, the excel-
+with different structures (morphology, phase structure) in a lent CO electroreduction performance of (MoWVNbTa)S is
+2 2
+solvent. iv) Electrochemical deposition method (nano-droplet- due to multi-site catalysis, where atomic-scale disorder opti-
+mediated conductivity deposition).[29,50,178,179] The preparation mizes the rate-limiting step of CO desorption by promoting
+process of electrodeposition is simple and the composition isolated transition metal edge sites with weak CO binding.[187]
+can be adjusted by changing the electrodeposition param- Wang’s group synthesized high-entropy oxide nanosheets
+eters. It is low cost, does not require complex and expensive rich in defect sites by low-temperature O plasma method 2
+equipment, and uses readily available raw materials that can and investigated the electrocatalytic effect of high-entropy
+be deposited on the substrate. But, the disadvantage is that oxide (FeCrCoNiCu) O on 5-hydroxymethyl furfural oxida- 3 4
+the voltage and current may be unstable, resulting in the tion reaction.[188]
+preparation of the nanomaterial is not uniform and affecting 4) The properties of high-entropy alloys are closely related to
+the performance. In addition, recent nano-droplet-mediated their phase structures (FCC, BCC, HCP, etc.), which signifi-
+conductivity deposition can be completed in a very short time cantly affect their catalytic performance.[189] Through chemi-
+(100 ms), providing a new method for the rapid preparation cal adjustment or physical adjustment strategy, the phase
+of high entropy materials. v) Sputtering deposition.[48,49,180] structure of the high-entropy alloy can be changed, its char-
+The method applies to various substrates and can adjust the acteristics and catalytic performance can be improved.[189]
+size of HEAs. But certain equipment and vacuum conditions There are many studies on the influence of phase structure
+raise the cost. vi) Kinetic controlled laser synthesis.[47,181] By on the property engineering of HEAs, mainly focusing on
+the method, ultra-small HEA NPs can be prepared and the mechanical properties,[190] magnetic properties,[191] and corro-
+production efficiency can be improved. However, specific tar- sion properties.[192] However, the effect of high-entropy alloys
+gets limit its universality. vii) Mechanical alloying.[38,42,182] It phase structure (maintaining the same composition) on elec-
+has a low cost and is suitable for the preparation of large-size trocatalysis has not been studied yet.
+materials, but its uniformity and morphology are difficult to 5) Other high-entropy materials and expand their application
+control. viii) Dealloying method.[32,37,41,43,54] The method is fields. High-entropy alloy composite materials or other high-
+suitable for high yield, more suitable for industrial applica- entropy materials also need to be further expanded, such as
+tion, and easy to prepare porous high entropy alloy with pore carbides, oxides, sulfides, nitrides, halides, diborides, phos-
+structure. However, the high temperature and inert atmos- phate, and intermetallic compounds.[193–205] Prepare different
+phere conditions in the early stage of the casting process lead high-entropy alloy composite materials, such as core–shell
+to high cost. ix) Cast cum cryo-milling method.[40,45,56,183] This structure, interface structure formed between high-entropy
+method can be used for large-scale synthesis of HEAs, but alloy and different substrates, etc., which can also adjust the
+specialized equipment is also required. As can be seen from electronic structure of high-entropy alloy (charge transfer,
+the above, the equipment, synthesis temperature, and pres- strain, bonding, etc.) to promote its catalytic effect.
+sure required for different synthesis methods determine the
+HEA’s cost, size, uniformity, and applicability. In addition, it is also necessary to expand the application
+3) High-entropy alloy with small size (<5 nm), special morphol- fields of high-entropy materials, which can be applied to the
+ogy. i) Small-sized nanomaterials can expose more active fields of photocatalysis, thermal catalysis, supercapacitors,
+sites, thereby enhancing electrocatalytic activity; and effec- energy storage, and batteries, all of which require a reasonable
+tively increase the contact area with the carrier, which facili- design of the catalyst. In the field of photocatalysis, plasma
+tates the bonding between the catalyst and the carrier, thereby metals (Au, Ag, Cu, etc.) can be introduced into high-entropy
+improving the catalytic activity and increasing the durability alloys, or they can be supported on semiconductor materials,
+of the catalyst. Therefore, it is necessary to explore suitable or high-entropy alloys can be combined with photosensitive
+Adv. Funct. Mater. 2021, 31, 2106715 2106715 (22 of 28) © 2021 Wiley-VCH GmbH
+16163028,
+2021,
+47,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202106715
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.afm-journal.de
+materials, which can cause the transfer of electrons and pro- The design of high-entropy alloys can also be screened
+mote the activation and transformation of the reactants.[22] In through theoretical calculations, which can calculate the elec-
+the field of thermal catalysis (NH decomposition and CO oxi- tronic state of the catalyst body, reaction intermediates, and
+3
+dation), high-entropy materials are widely used, and it is very reaction paths, and provide important insights for the design
+important to improve the thermal stability of the catalyst during of electrocatalysts. However, theoretical research usually uses
+the design and preparation process. CoMoFeNiCu HEA-NPs simplified models to explain complex reaction processes.
+supported on carbon nanofibers (HEA-CoxMoy) with adjust- With the continuous development of in situ technology, more
+able Co/Mo ratio were prepared by CTS method, and ammonia accurate models can be used to simulate real catalyst struc-
+decomposition reaction was carried out.[11] Recently, the rapid tures and chemical reactions. With the emergence of new
+synthesis of multi-element alloy particles at high temperature calculation methods (density functional theory, molecular
+is applied to the decomposition of NH . Due to the synergistic dynamics, machine learning, neural networks, etc.), a large
+3
+effect of multi-element mixing and alloy phase, excellent per- number of active sites can be calculated, and the possibility
+formance has been obtained.[16] Senary AlNiCuPtPdAu np-HEA of adjusting the adsorption energy of alloy components can
+with thin AlNiCu oxide coating is applied to CO oxidation, and be understood more quickly. Screening out alloy materials
+its activity and stability are higher than those of AlNiCuPtPdAu and systematically understanding their mechanism is helpful
+np-HEA and binary np-AlPt without oxide coating catalyst.[32] to the reasonable design of high-entropy alloy catalysts. Com-
+In the field of supercapacitors, some high-entropy alloys (FeN- bining in situ characterization techniques with theoretical
+iCoCrAl HEA),[206] high-entropy oxides (FeNiCoCrAl-based calculations to better understand the reaction mechanism
+HEO nanoparticles),[207] high-entropy nitride ((CrMoNbVZr) and active sites.
+N),[196] etc. have been applied. In addition, high-entropy car- In addition, the intrinsic electrochemical behavior of the
+bides, high-entropy sulfides can also be developed and applied catalyst can also be studied by scanning electrochemical cell
+to supercapacitors.[24] In the field of batteries, it is necessary microscopy, and the electrochemical microscopic behavior of a
+to develop effective catalytic materials to increase their energy single nanoparticle or a small number of nanoparticles can be
+and power density. Some high-entropy oxides have been widely studied.[211,212] It is essential for a better understanding of the
+used due to their superionic conductivity.[197,208,209] In general, function of nanoparticle-based electrocatalysts, which is also a
+the lithiation voltage can be reduced by adjusting the compo- development direction for high-entropy alloys in the future.
+sition (metal with a lower oxidation-reduction potential) or by In conclusion, the research on high-entropy alloy electro-
+changing the anion to improve energy efficiency.[210] The appli- catalysts is still in its infancy. The selection and configuration
+cation of high-entropy materials requires more exploration. of elements can be carried out according to the intermediates
+in the reaction process and the optimization of adsorption
+6) A deeper understanding of growth mechanisms and active energy. Through theoretical calculations and predictions, the
+sites. Due to the complexity of high-entropy alloys, the un- active sites in the alloy can be identified and guide catalyst
+derstanding of the structure-activity relationship of catalysis is design. According to the mechanism of the catalytic reaction,
+still unclear. By deepening the understanding of surface active calculating the activation energy of reaction intermediates and
+sites and considering the synergistic effects brought by each understanding how to control the binding energy of surface-
+active site, the catalysts can be designed more effectively. The active intermediates is the key to designing high-performance
+understanding of high-entropy alloys also requires more de- catalysts, and the design of the catalyst should be considered
+tailed in situ characterization techniques and theoretical cal- comprehensively. An important frontier in the research of
+culations to design and screen new HEA nanomaterials. First, high-entropy alloy catalysis is the development of advanced
+the growth process of the high entropy alloys can be moni- experimental and theoretical methods and the combination
+tored by the in situ characterization technique to understand with in situ characterization techniques, which can quickly
+its growth mechanism. Furthermore, in situ characterization and accurately determine the surface structure, stoichiometry,
+techniques can be used to further understand the reaction and active site identification of the catalyst under different
+mechanism, material structure, and surface active sites. In operating conditions. With the continuous development of
+situ TEM and scanning electron microscopy can observe the research, high-entropy alloy catalysts will have a profound
+growth process of HEAs or changes in the morphology and impact on the future catalysis field and put into practical
+composition of the catalyst during the electrochemical reac- applications.
+tion. X-ray photoelectron spectroscopy and X-ray absorption
+spectroscopy can provide information about the composi-
+Acknowledgements
+tion of elements, the chemical valence states, and electronic
+structures of the measured elements, which are expected to This work was supported by the National Natural Science Foundation
+be used to measure the structural evolution and actual active of China (51772162, 22001143, and 52072197), Youth Innovation and
+sites of catalysts in the electrocatalytic process. In situ Raman Technology Foundation of Shandong Higher Education Institutions,
+spectroscopy can also provide relevant information on catalyti- China (2019KJC004), Outstanding Youth Foundation of Shandong
+cally active sites, which is of great help to understanding the Province, China (ZR2019JQ14), Taishan Scholar Young Talent Program
+(tsqn201909114, tsqn201909123), Natural Science Foundation of
+reaction pathway. In addition, in situ technology can also be
+Shandong Province (ZR2020YQ34), Major Scientific and Technological
+used to characterize high-entropy alloys under reaction condi-
+Innovation Project (2019JZZY020405), and Major Basic Research
+tions, to have a deeper understanding of the changes and the Program of Natural Science Foundation of Shandong Province under
+stability in high-entropy alloy catalysts during the reaction. grant (ZR2020ZD09).
+Adv. Funct. Mater. 2021, 31, 2106715 2106715 (23 of 28) © 2021 Wiley-VCH GmbH
+16163028,
+2021,
+47,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202106715
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.afm-journal.de
+Conflict of Interest [29] M. W. Glasscott, A. D. Pendergast, S. Goines, A. R. Bishop,
+A. T. Hoang, C. Renault, J. E. Dick, Nat. Commun. 2019, 10, 2650.
+The authors declare no conflict of interest. [30] Z. Jin, J. Lv, H. Jia, W. Liu, H. Li, Z. Chen, X. Lin, G. Xie, X. Liu,
+S. Sun, H. J. Qiu, Small 2019, 15, 1904180.
+[31] M. Liu, Z. Zhang, F. Okejiri, S. Yang, S. Zhou, S. Dai, Adv. Mater.
+Keywords Interfaces 2019, 6, 1900015.
+[32] H. J. Qiu, G. Fang, Y. Wen, P. Liu, G. Xie, X. Liu, S. Sun, J. Mater.
+electrocatalysis, high-entropy alloys, multi-sites Chem. A 2019, 7, 6499.
+[33] S. Gao, S. Hao, Z. Huang, Y. Yuan, S. Han, L. Lei, X. Zhang,
+Received: July 12, 2021 R. Shahbazian-Yassar, J. Lu, Nat. Commun. 2020, 11, 2016.
+Revised: July 31, 2021 [34] H. Li, Y. Han, H. Zhao, W. Qi, D. Zhang, Y. Yu, W. Cai, S. Li, J. Lai,
+Published online: August 26, 2021 B. Huang, L. Wang, Nat. Commun. 2020, 11, 5437.
+[35] D. Wu, K. Kusada, T. Yamamoto, T. Toriyama, S. Matsumura,
+I. Gueye, O. Seo, J. Kim, S. Hiroi, O. Sakata, S. Kawaguchi,
+Y. Kubota, H. Kitagawa, Chem. Sci. 2020, 11, 12731.
+[1] E. P. George, D. Raabe, R. O. Ritchie, Nat. Rev. Mater. 2019, 4, 515. [36] D. Zhang, Y. Shi, H. Zhao, W. Qi, X. Chen, T. Zhan, S. Li, B. Yang,
+[2] D. B. Miracle, O. N. Senkov, Acta Mater. 2017, 122, 448. M. Sun, J. Lai, B. Huang, L. Wang, J. Mater. Chem. A 2021, 9, 889.
+[3] W. Zhang, P. K. Liaw, Y. Zhang, Sci. China Mater. 2018, 61, 2. [37] R. Q. Yao, Y. T. Zhou, H. Shi, W. B. Wan, Q. H. Zhang, L. Gu,
+[4] C. Li, J. C. Li, M. Zhao, Q. Jiang, J. Alloy. Compd. 2009, 475, 752. Y. F. Zhu, Z. Wen, X. Y. Lang, Q. Jiang, Adv. Funct. Mater. 2021, 31,
+[5] B. Gludovatz, A. Hohenwarter, D. Catoor, E. H. Chang, 2009613.
+E. P. George, R. O. Ritchie, Science 2014, 345, 1153. [38] X. Cui, B. Zhang, C. Zeng, S. Guo, MRS Commun. 2018, 8, 1230.
+[6] Y. Zhang, T. T. Zuo, Z. Tang, M. C. Gao, K. A. Dahmen, P. K. Liaw, [39] W. Dai, T. Lu, Y. Pan, J. Power Sources 2019, 430, 104.
+Z. P. Lu, Prog. Mater. Sci. 2014, 61, 1. [40] H. J. Qiu, G. Fang, J. Gao, Y. Wen, J. Lv, H. Li, G. Xie, X. Liu,
+[7] Z. Y. Lv, X. J. Liu, B. Jia, H. Wang, Y. Wu, Z. P. Lu, Sci. Rep. 2016, S. Sun, ACS Mater. Lett. 2019, 1, 526.
+6, 34213. [41] Z. Jin, J. Lyu, Y. L. Zhao, H. Li, X. Lin, G. Xie, X. Liu, J. J. Kai,
+[8] F. Zhang, Y. Wu, H. Lou, Z. Zeng, V. B. Prakapenka, E. Greenberg, H. J. Qiu, ACS Mater. Lett. 2020, 2, 1698.
+Y. Ren, J. Yan, J. S. Okasinski, X. Liu, Y. Liu, Q. Zeng, Z. Lu, [42] P. Ma, S. Zhang, M. Zhang, J. Gu, L. Zhang, Y. Sun, W. Ji, Z. Fu,
+Nat. Commun. 2017, 8, 15687. Sci. China Mater. 2020, 63, 2613.
+[9] Z. Lei, X. Liu, Y. Wu, H. Wang, S. Jiang, S. Wang, X. Hui, Y. Wu, [43] X. Chen, C. Si, Y. Gao, J. Frenzel, J. Sun, G. Eggeler, Z. Zhang,
+B. Gault, P. Kontis, D. Raabe, L. Gu, Q. Zhang, H. Chen, H. Wang, J. Power Sources 2015, 273, 324.
+J. Liu, K. An, Q. Zeng, T. G. Nieh, Z. Lu, Nature 2018, 563, 546. [44] T. Löffler, H. Meyer, A. Savan, P. Wilde, A. Garzón Manjón,
+[10] Y. Yao, Z. Huang, P. Xie, S. D. Lacey, R. J. Jacob, H. Xie, F. Chen, Y. T. Chen, E. Ventosa, C. Scheu, A. Ludwig, W. Schuhmann, Adv.
+A. Nie, T. Pu, M. Rehwoldt, D. Yu, M. R. Zachariah, C. Wang, Energy Mater. 2018, 8, 1802269.
+R. Shahbazian-Yassar, J. Li, L. Hu, Science 2018, 359, 1489. [45] S. Li, X. Tang, H. Jia, H. Li, G. Xie, X. Liu, X. Lin, H. J. Qiu, J. Catal.
+[11] P. Xie, Y. Yao, Z. Huang, Z. Liu, J. Zhang, T. Li, G. Wang, 2020, 383, 164.
+R. Shahbazian-Yassar, L. Hu, C. Wang, Nat. Commun. 2019, 10, [46] T. Löffler, A. Savan, H. Meyer, M. Meischein, V. Strotkötter,
+4011. A. Ludwig, W. Schuhmann, Angew. Chem., Int. Ed. 2020, 59, 5844.
+[12] J. W. Yeh, S. K. Chen, S. J. Lin, J. Y. Gan, T. S. Chin, T. T. Shun, [47] T. Löffler, F. Waag, B. Gökce, A. Ludwig, S. Barcikowski,
+C. H. Tsau, S. Y. Chang, Adv. Eng. Mater. 2004, 6, 299. W. Schuhmann, ACS Catal. 2021, 11, 1014.
+[13] B. Cantor, I. T. H. Chang, P. Knight, A. J. B. Vincent, Mater. Sci. [48] C. F. Tsai, P. W. Wu, P. Lin, C. G. Chao, K. Y. Yeh, Jpn. J. Appl. Phys.
+Eng., A 2004, 375–377, 213. 2008, 47, 5755.
+[14] J. W. Yeh, JOM 2013, 65, 1759. [49] C. F. Tsai, K. Y. Yeh, P. W. Wu, Y. F. Hsieh, P. Lin, J. Alloy. Compd.
+[15] B. Fultz, Prog. Mater. Sci. 2010, 55, 247. 2009, 478, 868.
+[16] Y. Yao, Z. Liu, P. Xie, Z. Huang, T. Li, D. Morris, Z. Finfrock, J. Zhou, [50] A. L. Wang, H. C. Wan, H. Xu, Y. X. Tong, G. R. Li, Electrochim.
+M. Jiao, J. Gao, Y. Mao, J. Miao, P. Zhang, R. Shahbazian-Yassar, Acta 2014, 127, 448.
+C. Wang, G. Wang, L. Hu, Sci. Adv. 2020, 6, eaaz0510. [51] K. V. Yusenko, S. Riva, P. A. Carvalho, M. V. Yusenko, S. Arnaboldi,
+[17] J. W. Yeh, S. Y. Chang, Y. D. Hong, S. K. Chen, S. J. Lin, A. S. Sukhikh, M. Hanfland, S. A. Gromilov, Scr. Mater. 2017, 138,
+Mater. Chem. Phys. 2007, 103, 41. 22.
+[18] K. Huang, B. Zhang, J. Wu, T. Zhang, D. Peng, X. Cao, Z. Zhang, [52] J. Feng, D. Chen, P. V. Pikhitsa, Y. h. Jung, J. Yang, M. Choi, Matter
+Z. Li, Y. Huang, J. Mater. Chem. A 2020, 8, 11938. 2020, 3, 1646.
+[19] K.-Y. Tsai, M.-H. Tsai, J. W. Yeh, Acta Mater. 2013, 61, 4887. [53] D. Wu, K. Kusada, T. Yamamoto, T. Toriyama, S. Matsumura,
+[20] H. Zheng, G. Luo, A. Zhang, X. Lu, L. He, ChemCatChem 2021, 13, S. Kawaguchi, Y. Kubota, H. Kitagawa, J. Am. Chem. Soc. 2020, 142,
+806. 13833.
+[21] H. Li, H. Zhu, S. Zhang, N. Zhang, M. Du, Y. Chai, Small Struct. [54] S. Li, J. Wang, X. Lin, G. Xie, Y. Huang, X. Liu, H. J. Qiu, Adv. Funct.
+2020, 1, 2000033. Mater. 2021, 31, 2007129.
+[22] Y. Xin, S. Li, Y. Qian, W. Zhu, H. Yuan, P. Jiang, R. Guo, L. Wang, [55] J. K. Pedersen, T. A. A. Batchelor, A. Bagger, J. Rossmeisl,
+ACS Catal. 2020, 10, 11280. ACS Catal. 2020, 10, 2169.
+[23] K. Zhao, X. Li, D. Su, Acta Phys.-Chim. Sin. 2020, 37, 2009077. [56] S. Nellaiappan, N. K. Katiyar, R. Kumar, A. Parui, K. D. Malviya,
+[24] A. Amiri, R. Shahbazian-Yassar, J. Mater. Chem. A 2021, 9, 782. K. G. Pradeep, A. K. Singh, S. Sharma, C. S. Tiwary, K. Biswas,
+[25] K. Li, W. Chen, Mater. Today Energy 2021, 20, 100638. ACS Catal. 2020, 10, 3658.
+[26] X. Wang, W. Guo, Y. Fu, J. Mater. Chem. A 2021, 9, 663. [57] D. Zhang, H. Zhao, X. Wu, Y. Deng, Z. Wang, Y. Han, H. Li, Y. Shi,
+[27] W. T. Koo, J. E. Millstone, P. S. Weiss, I. D. Kim, ACS Nano 2020, X. Chen, S. Li, J. Lai, B. Huang, L. Wang, Adv. Funct. Mater. 2021,
+14, 6407. 31, 2006939.
+[28] G. Zhang, K. Ming, J. Kang, Q. Huang, Z. Zhang, X. Zheng, X. Bi, [58] R. Maity, B. S. Birenheide, F. Breher, B. Sarkar, ChemCatChem
+Electrochim. Acta 2018, 279, 19. 2021, 13, 2337.
+Adv. Funct. Mater. 2021, 31, 2106715 2106715 (24 of 28) © 2021 Wiley-VCH GmbH
+16163028,
+2021,
+47,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202106715
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.afm-journal.de
+[59] P. Buchwalter, J. Rosé, P. Braunstein, Chem. Rev. 2015, 115, 28. [91] Y. Li, X. Du, J. Huang, C. Wu, Y. Sun, G. Zou, C. Yang, J. Xiong,
+[60] H. A. Gasteiger, N. Markovic, P. N. Ross, E. J. Cairns, J. Phys. Small 2019, 15, 1901980.
+Chem. 1994, 98, 617. [92] J. Shan, Y. Zheng, B. Shi, K. Davey, S. Z. Qiao, ACS Energy Lett.
+[61] R. Subbaraman, D. Tripkovic, D. Strmcnik, K. C. Chang, 2019, 4, 2719.
+M. Uchimura, A. P. Paulikas, V. Stamenkovic, N. M. Markovic, [93] S. Anantharaj, V. Aravindan, Adv. Energy Mater. 2020, 10, 1902666.
+Science 2011, 334, 1256. [94] R. Gao, D. Yan, Adv. Energy Mater. 2020, 10, 1900954.
+[62] C. T. Dinh, A. Jain, F. P. G. de Arquer, P. De Luna, J. Li, N. Wang, [95] L. Han, S. Dong, E. Wang, Adv. Mater. 2016, 28, 9266.
+X. Zheng, J. Cai, B. Z. Gregory, O. Voznyy, B. Zhang, M. Liu, [96] Q. Shi, C. Zhu, D. Du, Y. Lin, Chem. Soc. Rev. 2019, 48, 3181.
+D. Sinton, E. J. Crumlin, E. H. Sargent, Nat. Energy 2019, 4, 107. [97] E. Fabbri, A. Habereder, K. Waltar, R. Kötz, T. J. Schmidt, Catal. Sci.
+[63] J. Wang, J. Liu, B. Zhang, H. Wan, Z. Li, X. Ji, K. Xu, C. Chen, Technol. 2014, 4, 3800.
+D. Zha, L. Miao, J. Jiang, Nano Energy 2017, 42, 98. [98] A. Grimaud, W. T. Hong, Y. Shao-Horn, J. M. Tarascon, Nat. Mater.
+[64] X. Shen, T. Nagai, F. Yang, L. Q. Zhou, Y. Pan, L. Yao, D. Wu, 2016, 15, 121.
+Y. S. Liu, J. Feng, J. Guo, H. Jia, Z. Peng, J. Am. Chem. Soc. 2019, [99] J. Song, C. Wei, Z. F. Huang, C. Liu, L. Zeng, X. Wang, Z. J. Xu,
+141, 9463. Chem. Soc. Rev. 2020, 49, 2196.
+[65] H. Zhong, M. Ghorbani-Asl, K. H. Ly, J. Zhang, J. Ge, M. Wang, [100] B. Zhang, X. Zheng, O. Voznyy, R. Comin, M. Bajdich,
+Z. Liao, D. Makarov, E. Zschech, E. Brunner, I. M. Weidinger, M. García-Melchor, L. Han, J. Xu, M. Liu, L. Zheng,
+J. Zhang, A. V. Krasheninnikov, S. Kaskel, R. Dong, X. Feng, F. P. García de Arquer, C. T. Dinh, F. Fan, M. Yuan, E. Yassitepe,
+Nat. Commun. 2020, 11, 1409. N. Chen, T. Regier, P. Liu, Y. Li, P. De Luna, A. Janmohamed,
+[66] T. A. A. Batchelor, J. K. Pedersen, S. H. Winther, I. E. Castelli, H. L. Xin, H. Yang, A. Vojvodic, E. H. Sargent, Science 2016, 352, 333.
+K. W. Jacobsen, J. Rossmeisl, Joule 2019, 3, 834. [101] N. B. Halck, V. Petrykin, P. Krtil, J. Rossmeisl, Phys. Chem. Chem.
+[67] T. Löffler, A. Savan, A. Garzón-Manjón, M. Meischein, C. Scheu, Phys. 2014, 16, 13682.
+A. Ludwig, W. Schuhmann, ACS Energy Lett. 2019, 4, 1206. [102] B. Wang, K. Zhao, Z. Yu, C. Sun, Z. Wang, N. Feng, L. Mai,
+[68] Z. Lu, Z. W. Chen, C. V. Singh, Matter 2020, 3, 1318. Y. Wang, Y. Xia, Energy Environ. Sci. 2020, 13, 2200.
+[69] L. Li, P. Wang, Q. Shao, X. Huang, Chem. Soc. Rev. 2020, 49, 3072. [103] A. Holewinski, S. Linic, J. Electrochem. Soc. 2012, 159, H864.
+[70] J. Zhang, Q. Zhang, X. Feng, Adv. Mater. 2019, 31, 1808167. [104] Z. Zhao, C. Chen, Z. Liu, J. Huang, M. Wu, H. Liu, Y. Li, Y. Huang,
+[71] J. Zhu, L. Hu, P. Zhao, L. Y. S. Lee, K. Y. Wong, Chem. Rev. 2020, Adv. Mater. 2019, 31, 1808115.
+120, 851. [105] W. Xia, A. Mahmood, Z. Liang, R. Zou, S. Guo, Angew. Chem., Int.
+[72] C. G. Morales-Guio, L. A. Stern, X. Hu, Chem. Soc. Rev. 2014, 43, Ed. 2016, 55, 2650.
+6555. [106] V. R. Stamenkovic, B. Fowler, B. S. Mun, G. Wang, P. N. Ross,
+[73] D. Strmcnik, P. P. Lopes, B. Genorio, V. R. Stamenkovic, C. A. Lucas, N. M. Marković, Science 2007, 315, 493.
+N. M. Markovic, Nano Energy 2016, 29, 29. [107] J. Lai, S. Guo, Small 2017, 13, 1702156.
+[74] P. Quaino, F. Juarez, E. Santos, W. Schmickler, Beilstein J. Nanotechnol. [108] L. Bu, N. Zhang, S. Guo, X. Zhang, J. Li, J. Yao, T. Wu, G. Lu,
+2014, 5, 846. J.-Y. Ma, D. Su, X. Huang, Science 2016, 354, 1410.
+[75] H. Xu, H. Shang, C. Wang, Y. Du, Adv. Funct. Mater. 2020, 30, [109] J. Lai, B. Huang, Y. Tang, F. Lin, P. Zhou, X. Chen, Y. Sun, F. Lv,
+2000793. S. Guo, Chem 2018, 4, 1153.
+[76] J. Ji, Y. Zhang, L. Tang, C. Liu, X. Gao, M. Sun, J. Zheng, M. Ling, [110] T. A. A. Batchelor, T. Löffler, B. Xiao, O. A. Krysiak, V. Strotkötter,
+C. Liang, Z. Lin, Nano Energy 2019, 63, 103849. J. K. Pedersen, C. M. Clausen, A. Savan, Y. Li, W. Schuhmann,
+[77] L. Gong, X. Y. E. Chng, Y. Du, S. Xi, B. S. Yeo, ACS Catal. 2018, 8, 807. J. Rossmeisl, A. Ludwig, Angew. Chem., Int. Ed. 2021, 60, 6932.
+[78] M. A. Abreu-Sepulveda, C. Dhital, A. Huq, L. Ling, A. Manivannan, [111] K. D. Jensen, J. Tymoczko, J. Rossmeisl, A. S. Bandarenka,
+J. Electrochem. Soc. 2016, 163, F1124. I. Chorkendorff, M. Escudero-Escribano, I. E. L. Stephens, Angew.
+[79] H. Xu, C. Shan, X. Wu, M. Sun, B. Huang, Y. Tang, C. H. Yan, Chem., Int. Ed. 2018, 57, 2800.
+Energy Environ. Sci. 2020, 13, 2949. [112] A. Kulkarni, S. Siahrostami, A. Patel, J. K. Nørskov, Chem. Rev.
+[80] W. Sheng, M. Myint, J. G. Chen, Y. Yan, Energy Environ. Sci. 2013, 2018, 118, 2302.
+6, 1509. [113] Z. Duan, G. Wang, Phys. Chem. Chem. Phys. 2011, 13, 20178.
+[81] N. Du, C. Wang, X. Wang, Y. Lin, J. Jiang, Y. Xiong, Adv. Mater. [114] J. Rossmeisl, G. S. Karlberg, T. Jaramillo, J. K. Nørskov, Faraday
+2016, 28, 2077. Discuss. 2009, 140, 337.
+[82] Y. Pan, K. Sun, Y. Lin, X. Cao, Y. Cheng, S. Liu, L. Zeng, [115] C. Cui, L. Gan, M. Heggen, S. Rudi, P. Strasser, Nat. Mater. 2013,
+W. C. Cheong, D. Zhao, K. Wu, Z. Liu, Y. Liu, D. Wang, Q. Peng, 12, 765.
+C. Chen, Y. Li, Nano Energy 2019, 56, 411. [116] Z. Xia, X. Zhang, H. Sun, S. Wang, G. Sun, Nano Energy 2019, 65,
+[83] J. Durst, A. Siebel, C. Simon, F. Hasché, J. Herranz, 104048.
+H. A. Gasteiger, Energy Environ. Sci. 2014, 7, 2255. [117] X. Zhao, M. Yin, L. Ma, L. Liang, C. Liu, J. Liao, T. Lu, W. Xing,
+[84] X. Wang, Y. Zheng, W. Sheng, Z. J. Xu, M. Jaroniec, S. Z. Qiao, Energy Environ. Sci. 2011, 4, 2736.
+Mater. Today 2020, 36, 125. [118] Y. X. Chen, A. Miki, S. Ye, H. Sakai, M. Osawa, J. Am. Chem. Soc.
+[85] R. Subbaraman, D. Tripkovic, K. C. Chang, D. Strmcnik, 2003, 125, 3680.
+A. P. Paulikas, P. Hirunsit, M. Chan, J. Greeley, V. Stamenkovic, [119] S. M. M. Ehteshami, S. H. Chan, Electrochim. Acta 2013, 93, 334.
+N. M. Markovic, Nat. Mater. 2012, 11, 550. [120] X. Wang, S. Xi, W. S. V. Lee, P. Huang, P. Cui, L. Zhao, W. Hao,
+[86] J. Mahmood, F. Li, S. M. Jung, M. S. Okyay, I. Ahmad, S. J. Kim, X. Zhao, Z. Wang, H. Wu, H. Wang, C. Diao, A. Borgna, Y. Du,
+N. Park, H. Y. Jeong, J. B. Baek, Nat. Nanotechnol. 2017, 12, 441. Z. G. Yu, S. Pennycook, J. Xue, Nat. Commun. 2020, 11, 4647.
+[87] Q. Lu, G. S. Hutchings, W. Yu, Y. Zhou, R. V. Forest, R. Tao, [121] H. Li, Y. Pan, D. Zhang, Y. Han, Z. Wang, Y. Qin, S. Lin, X. Wu,
+J. Rosen, B. T. Yonemoto, Z. Cao, H. Zheng, J. Q. Xiao, F. Jiao, H. Zhao, J. Lai, B. Huang, L. Wang, J. Mater. Chem. A 2020, 8,
+J. G. Chen, Nat. Commun. 2015, 6, 6567. 2323.
+[88] F. Lyu, Q. Wang, S. M. Choi, Y. Yin, Small 2019, 15, 1804201. [122] Y. Pan, H. Li, Z. Wang, Y. Han, Z. Wu, X. Zhang, J. Lai, L. Wang,
+[89] L. Li, P. Wang, Q. Shao, X. Huang, Adv. Mater. 2021, 2004243. S. Feng, Chem. Commun. 2020, 56, 9028.
+[90] N. T. Suen, S. F. Hung, Q. Quan, N. Zhang, Y. J. Xu, H. M. Chen, [123] X. Luo, C. Liu, X. Wang, Q. Shao, Y. Pi, T. Zhu, Y. Li, X. Huang,
+Chem. Soc. Rev. 2017, 46, 337. Nano Lett. 2020, 20, 1967.
+Adv. Funct. Mater. 2021, 31, 2106715 2106715 (25 of 28) © 2021 Wiley-VCH GmbH
+16163028,
+2021,
+47,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202106715
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.afm-journal.de
+[124] W. Zhang, Y. Yang, B. Huang, F. Lv, K. Wang, N. Li, M. Luo, [156] B. Yang, W. Ding, H. Zhang, S. Zhang, Energy Environ. Sci. 2021,
+Y. Chao, Y. Li, Y. Sun, Z. Xu, Y. Qin, W. Yang, J. Zhou, Y. Du, D. Su, 14, 672.
+S. Guo, Adv. Mater. 2019, 31, 1805833. [157] Y. Huang, D. D. Babu, Z. Peng, Y. Wang, Adv. Sci. 2020, 7, 1902390.
+[125] J. Li, S. Z. Jilani, H. Lin, X. Liu, K. Wei, Y. Jia, P. Zhang, M. Chi, [158] X. Zhu, S. Mou, Q. Peng, Q. Liu, Y. Luo, G. Chen, S. Gao, X. Sun,
+Y. J. Tong, Z. Xi, S. Sun, Angew. Chem., Int. Ed. 2019, 58, 11527. J. Mater. Chem. A 2020, 8, 1545.
+[126] J. Mao, W. Chen, D. He, J. Wan, J. Pei, J. Dong, Y. Wang, P. An, [159] W. Guo, K. Zhang, Z. Liang, R. Zou, Q. Xu, Chem. Soc. Rev. 2019,
+Z. Jin, W. Xing, H. Tang, Z. Zhuang, X. Liang, Y. Huang, G. Zhou, 48, 5658.
+L. Wang, D. Wang, Y. Li, Sci. Adv. 2017, 3, e1603068. [160] Y. Yao, H. Wang, X. Yuan, H. Li, M. Shao, ACS Energy Lett. 2019,
+[127] J. Lai, F. Lin, Y. Tang, P. Zhou, Y. Chao, Y. Zhang, S. Guo, 4, 1336.
+Adv. Energy Mater. 2019, 9, 1800684. [161] Z. H. Xue, S. N. Zhang, Y. X. Lin, H. Su, G. Y. Zhai, J. T. Han,
+[128] H. F. Wang, Z. P. Liu, J. Am. Chem. Soc. 2008, 130, 10996. Q. Y. Yu, X. H. Li, M. Antonietti, J. S. Chen, J. Am. Chem. Soc. 2019,
+[129] Z. Liang, L. Song, S. Deng, Y. Zhu, E. Stavitski, R. R. Adzic, J. Chen, 141, 14976.
+J. X. Wang, J. Am. Chem. Soc. 2019, 141, 9629. [162] F. Pang, Z. Wang, K. Zhang, J. He, W. Zhang, C. Guo, Y. Ding,
+[130] X. Yu, J. Liu, J. Li, Z. Luo, Y. Zuo, C. Xing, J. Llorca, D. Nasiou, Nano Energy 2019, 58, 834.
+J. Arbiol, K. Pan, T. Kleinhanns, Y. Xie, A. Cabot, Nano Energy 2020, [163] M. Ma, X. Han, H. Li, X. Zhang, Z. Zheng, L. Zhou, J. Zheng,
+77, 105116. Z. Xie, Q. Kuang, L. Zheng, Appl. Catal. B: Environ. 2020, 265,
+[131] X. Yuan, Y. Zhang, M. Cao, T. Zhou, X. Jiang, J. Chen, F. Lyu, Y. Xu, 118568.
+J. Luo, Q. Zhang, Y. Yin, Nano Lett. 2019, 19, 4752. [164] C. Ling, Y. Zhang, Q. Li, X. Bai, L. Shi, J. Wang, J. Am. Chem. Soc.
+[132] K. Jiang, P. Wang, S. Guo, X. Zhang, X. Shen, G. Lu, D. Su, 2019, 141, 18264.
+X. Huang, Angew. Chem., Int. Ed. 2016, 55, 9030. [165] J. Greeley, T. F. Jaramillo, J. Bonde, I. Chorkendorff, J. K. Nørskov,
+[133] S. Guo, S. Zhang, X. Sun, S. Sun, J. Am. Chem. Soc. 2011, 133, Nat. Mater. 2006, 5, 909.
+15354. [166] H. Zhou, B. Xiong, L. Chen, J. Shi, J. Mater. Chem. A 2020, 8, 20286.
+[134] S. C. S. Lai, M. T. M. Koper, J. Phys. Chem. Lett. 2010, 1, 1122. [167] Y. Liu, L. Huang, X. Zhu, Y. Fang, S. Dong, Nanoscale 2020, 12, 1811.
+[135] M. Li, D. A. Cullen, K. Sasaki, N. S. Marinkovic, K. More, [168] Q. Zhang, Y. Shen, Y. Hou, L. Yang, B. Chen, Z. Lei, W. Zhang,
+R. R. Adzic, J. Am. Chem. Soc. 2013, 135, 132. Electrochim. Acta 2019, 321, 134691.
+[136] A. Kowal, M. Li, M. Shao, K. Sasaki, M. B. Vukmirovic, J. Zhang, [169] Y. J. Mao, L. Wei, X. S. Zhao, Y. S. Wei, J. W. Li, T. Sheng, F. C. Zhu,
+N. S. Marinkovic, P. Liu, A. I. Frenkel, R. R. Adzic, Nat. Mater. N. Tian, Z. Y. Zhou, S. G. Sun, Chem. Commun. 2019, 55, 9335.
+2009, 8, 325. [170] J. Bai, H. Huang, F. M. Li, Y. Zhao, P. Chen, P. J. Jin, S. N. Li,
+[137] H. Ataee-Esfahani, J. Liu, M. Hu, N. Miyamoto, S. Tominaka, H. C. Yao, J. H. Zeng, Y. Chen, J. Mater. Chem. A 2019, 7, 21149.
+K. C. W. Wu, Y. Yamauchi, Small 2013, 9, 1047. [171] Q. Shao, P. Wang, X. Huang, Adv. Funct. Mater. 2019, 29, 1806419.
+[138] V. Del Colle, V. P. Santos, G. Tremiliosi-Filho, Electrocatalysis 2010, [172] X. Du, J. Huang, J. Zhang, Y. Yan, C. Wu, Y. Hu, C. Yan, T. Lei,
+1, 144. W. Chen, C. Fan, J. Xiong, Angew. Chem., Int. Ed. 2019, 58, 4484.
+[139] K. L. Ley, R. Liu, C. Pu, Q. Fan, N. Leyarovska, C. Segre, [173] K. Odbadrakh, L. Enkhtor, T. Amartaivan, D. M. Nicholson,
+E. S. Smotkin, J. Electrochem. Soc. 1997, 144, 1543. G. M. Stocks, T. Egami, J. Appl. Phys. 2019, 126, 095104.
+[140] H. W. Lei, S. Suh, B. Gurau, B. Workie, R. Liu, E. S. Smotkin, [174] S. D. Lacey, Q. Dong, Z. Huang, J. Luo, H. Xie, Z. Lin, D. J. Kirsch,
+Electrochim. Acta 2002, 47, 2913. V. Vattipalli, C. Povinelli, W. Fan, R. Shahbazian-Yassar, D. Wang,
+[141] D. J. Chen, Y. J. Tong, Angew. Chem., Int. Ed. 2015, 54, 9394. L. Hu, Nano Lett. 2019, 19, 5149.
+[142] G. Wang, J. Chen, Y. Ding, P. Cai, L. Yi, Y. Li, C. Tu, Y. Hou, Z. Wen, [175] X. Wang, Z. Huang, Y. Yao, H. Qiao, G. Zhong, Y. Pei, C. Zheng,
+L. Dai, Chem. Soc. Rev. 2021, 50, 4993. D. Kline, Q. Xia, Z. Lin, J. Dai, M. R. Zachariah, B. Yang,
+[143] D. Karapinar, C. E. Creissen, J. G. Rivera de la Cruz, R. Shahbazian-Yassar, L. Hu, Mater. Today 2020, 35, 106.
+M. W. Schreiber, M. Fontecave, ACS Energy Lett. 2021, 6, 694. [176] Y. Yao, Z. Huang, T. Li, H. Wang, Y. Liu, H. S. Stein, Y. Mao, J. Gao,
+[144] S. Nitopi, E. Bertheussen, S. B. Scott, X. Liu, A. K. Engstfeld, M. Jiao, Q. Dong, J. Dai, P. Xie, H. Xie, S. D. Lacey, I. Takeuchi,
+S. Horch, B. Seger, I. E. L. Stephens, K. Chan, C. Hahn, J. K. Nørskov, J. M. Gregoire, R. Jiang, C. Wang, A. D. Taylor, R. Shahbazian-Yassar,
+T. F. Jaramillo, I. Chorkendorff, Chem. Rev. 2019, 119, 7610. L. Hu, Proc. Natl. Acad. Sci. USA 2020, 117, 6316.
+[145] F. Pan, Y. Yang, Energy Environ. Sci. 2020, 13, 2275. [177] M. Bondesgaard, N. L. N. Broge, A. Mamakhel, M. Bremholm,
+[146] H. Liu, Y. Zhu, J. Ma, Z. Zhang, W. Hu, Adv. Funct. Mater. 2020, 30, B. B. Iversen, Adv. Funct. Mater. 2019, 29, 1905933.
+1910534. [178] C. Z. Yao, P. Zhang, M. Liu, G. R. Li, J. Q. Ye, P. Liu, Y. X. Tong,
+[147] X. Tan, C. Yu, Y. Ren, S. Cui, W. Li, J. Qiu, Energy Environ. Sci. 2021, Electrochim. Acta 2008, 53, 8359.
+14, 765. [179] V. Soare, M. Burada, I. Constantin, D. Mitrică, V. Bădiliţă,
+[148] Z. W. Ulissi, M. T. Tang, J. Xiao, X. Liu, D. A. Torelli, M. Karamad, A. Caragea, M. Târcolea, Appl. Surf. Sci. 2015, 358, 533.
+K. Cummins, C. Hahn, N. S. Lewis, T. F. Jaramillo, K. Chan, [180] A. Garzón-Manjón, H. Meyer, D. Grochla, T. Löffler,
+J. K. Nørskov, ACS Catal. 2017, 7, 6600. W. Schuhmann, A. Ludwig, C. Scheu, Nanomaterials 2018, 8, 903.
+[149] J. K. Nørskov, F. Abild-Pedersen, F. Studt, T. Bligaard, Proc. Natl. [181] F. Waag, Y. Li, A. R. Ziefuß, E. Bertin, M. Kamp, V. Duppel,
+Acad. Sci. USA 2011, 108, 937. G. Marzun, L. Kienle, S. Barcikowski, B. Gökce, RSC Adv. 2019, 9,
+[150] Q. Li, J. Fu, W. Zhu, Z. Chen, B. Shen, L. Wu, Z. Xi, T. Wang, G. Lu, 18547.
+J. Zhu, S. Sun, J. Am. Chem. Soc. 2017, 139, 4290. [182] A. S. Rogachev, S. G. Vadchenko, N. A. Kochetov, S. Rouvimov,
+[151] G. M. Tomboc, S. Choi, T. Kwon, Y. J. Hwang, K. Lee, Adv. Mater. D. Y. Kovalev, A. S. Shchukin, D. O. Moskovskikh, A. A. Nepapushev,
+2020, 32, 1908398. A. S. Mukasyan, J. Alloys Compd. 2019, 805, 1237.
+[152] Y. Zhu, X. Cui, H. Liu, Z. Guo, Y. Dang, Z. Fan, Z. Zhang, W. Hu, [183] N. K. Katiyar, S. Nellaiappan, R. Kumar, K. D. Malviya,
+Nano Res. 2021, https://doi.org/10.1007/s12274-021-3448-2. K. G. Pradeep, A. K. Singh, S. Sharma, C. S. Tiwary, K. Biswas,
+[153] D. Liu, M. Chen, X. Du, H. Ai, K. H. Lo, S. Wang, S. Chen, G. Xing, Mater. Today Energy 2020, 16, 100393.
+X. Wang, H. Pan, Adv. Funct. Mater. 2021, 31, 2008983. [184] L. Huang, M. Liu, H. Lin, Y. Xu, J. Wu, V. P. Dravid, C. Wolverton,
+[154] L. Shi, Y. Yin, S. Wang, H. Sun, ACS Catal. 2020, 10, 6870. C. A. Mirkin, Science 2019, 365, 1159.
+[155] X. Chen, Y. Guo, X. Du, Y. Zeng, J. Chu, C. Gong, J. Huang, C. Fan, [185] W. Tong, B. Huang, P. Wang, Q. Shao, X. Huang, Natl. Sci. Rev.
+X. Wang, J. Xiong, Adv. Energy Mater. 2019, 10, 1903172. 2021, 8, nwaa088.
+Adv. Funct. Mater. 2021, 31, 2106715 2106715 (26 of 28) © 2021 Wiley-VCH GmbH
+16163028,
+2021,
+47,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202106715
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.afm-journal.de
+[186] W. Wang, X. Chen, X. Zhang, J. Ye, F. Xue, C. Zhen, X. Liao, H. Li, [199] T. Wang, H. Chen, Z. Yang, J. Liang, S. Dai, J. Am. Chem. Soc.
+P. Li, M. Liu, Q. Kuang, Z. Xie, S. Xie, Nano Energy 2020, 71, 104623. 2020, 142, 4550.
+[187] J. Cavin, A. Ahmadiparidari, L. Majidi, A. S. Thind, S. N. Misal, [200] H. Qiao, X. Wang, Q. Dong, H. Zheng, G. Chen, M. Hong,
+A. Prajapati, Z. Hemmat, S. Rastegar, A. Beukelman, M. R. Singh, C. P. Yang, M. Wu, K. He, L. Hu, Nano Energy 2021, 86, 106029.
+K. A. Unocic, A. Salehi-Khojin, R. Mishra, Adv. Mater. 2021, 33, 2100347. [201] M. H. Hsieh, M. H. Tsai, W. J. Shen, J. W. Yeh, Surf. Coat. Technol.
+[188] S. Wang, K. Gu, D. Wang, C. Xie, T. Wang, G. Huang, Y. Liu, Y. Zou, 2013, 221, 118.
+L. Tao, Angew. Chem., Int. Ed. 2021, https://doi.org/10.1002/ [202] J. Gild, Y. Zhang, T. Harrington, S. Jiang, T. Hu, M. C. Quinn,
+anie.202107390. W. M. Mellor, N. Zhou, K. Vecchio, J. Luo, Sci. Rep. 2016, 6, 37946.
+[189] X. Chang, M. Zeng, K. Liu, L. Fu, Adv. Mater. 2020, 32, 1907226. [203] R. Z. Zhang, F. Gucci, H. Zhu, K. Chen, M. J. Reece, Inorg. Chem.
+[190] T. Yang, Y. L. Zhao, Y. Tong, Z. B. Jiao, J. Wei, J. X. Cai, X. D. Han, 2018, 57, 13027.
+D. Chen, A. Hu, J. J. Kai, K. Lu, Y. Liu, C. T. Liu, Science 2018, 362, [204] Z. Deng, A. Olvera, J. Casamento, J. S. Lopez, L. Williams, R. Lu,
+933. G. Shi, P. F. P. Poudeu, E. Kioupakis, Chem. Mater. 2020, 32, 6070.
+[191] C. Jung, K. Kang, A. Marshal, K. G. Pradeep, J. B. Seol, H. M. Lee, [205] Z. Jia, T. Yang, L. Sun, Y. Zhao, W. Li, J. Luan, F. Lyu, L. C. Zhang,
+P. P. Choi, Acta Mater. 2019, 171, 31. J. J. Kruzic, J. J. Kai, J. C. Huang, J. Lu, C. T. Liu, Adv. Mater. 2020,
+[192] Z. Han, N. Chen, S. Lu, H. Luan, R. Peng, H. Xu, Y. Shao, Z. Peng, 32, 2000385.
+K. Yao, Mater. Corros. 2018, 69, 641. [206] K. Kong, J. Hyun, Y. Kim, W. Kim, D. Kim, J. Power Sources 2019,
+[193] C. R. McCormick, R. E. Schaak, J. Am. Chem. Soc. 2021, 143, 1017. 437, 226927.
+[194] J. Sure, D. Sri Maha Vishnu, H. K. Kim, C. Schwandt, Angew. [207] M. S. Lal, R. Sundara, ACS Appl. Mater. Interfaces 2019, 11, 30846.
+Chem., Int. Ed. 2020, 59, 11830. [208] Q. Wang, A. Sarkar, D. Wang, L. Velasco, R. Azmi, S. S. Bhattacharya,
+[195] X. Wang, Q. Dong, H. Qiao, Z. Huang, M. T. Saray, G. Zhong, T. Bergfeldt, A. Düvel, P. Heitjans, T. Brezesinski, H. Hahn,
+Z. Lin, M. Cui, A. Brozena, M. Hong, Q. Xia, J. Gao, G. Chen, B. Breitung, Energy Environ. Sci. 2019, 12, 2433.
+R. Shahbazian-Yassar, D. Wang, L. Hu, Adv. Mater. 2020, 32, [209] Z. Lun, B. Ouyang, D. H. Kwon, Y. Ha, E. E. Foley, T. Y. Huang,
+2002853. Z. Cai, H. Kim, M. Balasubramanian, Y. Sun, J. Huang, Y. Tian,
+[196] T. Jin, X. Sang, R. R. Unocic, R. T. Kinch, X. Liu, J. Hu, H. Liu, H. Kim, B. D. McCloskey, W. Yang, R. J. Clément, H. Ji, G. Ceder,
+S. Dai, Adv. Mater. 2018, 30, 1707512. Nat. Mater. 2021, 20, 214.
+[197] A. Sarkar, L. Velasco, D. Wang, Q. Wang, G. Talasila, L. de Biasi, [210] Y. Ma, Y. Ma, Q. Wang, S. Schweidler, M. Botros, T. Fu, H. Hahn,
+C. Kübel, T. Brezesinski, S. S. Bhattacharya, H. Hahn, B. Breitung, T. Brezesinski, B. Breitung, Energy Environ. Sci. 2021, 14, 2883.
+Nat. Commun. 2018, 9, 3400. [211] J. Ustarroz, I. M. Ornelas, G. Zhang, D. Perry, M. Kang,
+[198] A. Sarkar, Q. Wang, A. Schiele, M. R. Chellali, S. S. Bhattacharya, C. L. Bentley, M. Walker, P. R. Unwin, ACS Catal. 2018, 8, 6775.
+D. Wang, T. Brezesinski, H. Hahn, L. Velasco, B. Breitung, [212] M. Choi, N. P. Siepser, S. Jeong, Y. Wang, G. Jagdale, X. Ye,
+Adv. Mater. 2019, 31, 1806236. L. A. Baker, Nano Lett. 2020, 20, 1233.
+Hongdong Li is currently a Ph.D. student under the supervision of Prof. Jianping Lai and
+Lei Wang in Qingdao University of Science and Technology. He received her Master degree
+from College of Chemistry and Molecular Engineering in Qingdao University of Science and
+Technology (2019). His current research interests are in the synthesis and application of nanoma-
+terials in the field of electrocatalysis.
+Jianping Lai is currently a professor at Qingdao University of Science and Technology. He received
+a postdoctoral at Peking University. He received his B.S. degree from College of Chemistry in
+Fuzhou University (2011) and Ph.D. degree from Changchun Institute of Applied Chemistry,
+Chinese Academy of Sciences (2017). His research interests focus on the synthesis and electro-
+catalytic applications of nanomaterials.
+Adv. Funct. Mater. 2021, 31, 2106715 2106715 (27 of 28) © 2021 Wiley-VCH GmbH
+16163028,
+2021,
+47,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202106715
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.afm-journal.de
+Zhenjiang Li is currently a professor at Qingdao University of Science and Technology. His main
+research interests are focused on energy materials and devices (secondary batteries, supercapaci-
+tors), (photo)electrocatalytic materials, biosensors, microwave absorbing materials, and prepara-
+tion, performance, and application of new functional nanomaterials.
+Lei Wang is currently a professor at Qingdao University of Science and Technology. He obtained
+his Ph.D. degree from the Jilin University in 2006 under the direction of Prof. Shouhua Feng. And
+then, he went to Shandong University to work as a postdoctoral. His main research interests are
+focused on energy storage and conversion materials, electrocatalysis, photocatalysis, supramo-
+lecular chemistry, metal-organic coordination polymers and organic–inorganic hybrid materials.
+Adv. Funct. Mater. 2021, 31, 2106715 2106715 (28 of 28) © 2021 Wiley-VCH GmbH
+16163028,
+2021,
+47,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202106715
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+

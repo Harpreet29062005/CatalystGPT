@@ -1,0 +1,935 @@
+Journal of
+Materials Chemistry A
+Published on 22 December 2025
+PAPER
+Licence and permissions
+Exploring the electrocatalytic performance of
+PdIrSnZnMo high entropy alloy (HEA) towards the
+Citethis:J.Mater.Chem.A,2026,14,
+hydrogen evolution reaction in an acidic medium:
+4693
+a theoretically supported approach
+Rebekah Aruldhas,*a Praveena Gopalan,b Daniel Piecha, ac Mateusz Szczerba, ac
+Kostiantyn Nikiforow d and Grzegorz D. Sulka *a
+High entropy alloys (HEAs) are a versatile class of electrocatalysts with tunable surface properties,
+compositions, and synergistic elemental effects, notably enhancing the hydrogen evolution reaction
+(HER).Herein,wereportthedevelopmentofPdIrSnZnMoHEAswithvaryingPdloadings(0.01–0.05M)
+using a facile solvothermal method. The structural features and composition of the prepared
+PdIrSnZnMo HEA nanostructures were characterized using X-ray diffraction (XRD), X-ray photoelectron
+spectroscopy (XPS), field emission scanning electron microscopy (FESEM), and high-resolution
+transmission electron microscopy (HR-TEM). Systematic electrocatalytic studies revealed a remarkable
+HER performance even at a low Pd loading (0.01 M). Notably, the PdIrSnZnMo HEA with 0.05 M Pd
+exhibitedanultra-lowoverpotentialof17mVtoachieveacurrentdensityof−10mAcm−2inanacidic
+medium, surpassing the conventional Pt/C electrocatalyst. The electrocatalyst also demonstrated
+outstanding durability and maintained its stability without decomposition during prolonged operation.
+Received17thOctober2025 Density functional theory (DFT) calculations elucidated the surface atomic configurations of the
+Accepted9thDecember2025
+PdIrSnZnMoHEA,highlightingtheroleofPdactivecenterscoordinatedbyIr,Sn,Zn,andMo.Thisstudy
+DOI:10.1039/d5ta08468g
+presents versatile nanostructured HEA systems and a straightforward synthetic strategy with broad
+rsc.li/materials-a implicationsforcatalysisinenergyconversionapplications.
+1 Introduction producing ultra-pure hydrogen. PEMWEs offer multiple
+advantages, including zero carbon emissions, high current
+Global energy demand continues to rise due to the increasing densities(upto2Acm
+−2),highefficiency(80–90%),andrapid
+consumption, depletion of fossil fuels, and greenhouse gas response to load uctuations.8–10 However, challenges such as
+emissions associated with conventional energy sources.1,2 To electrocatalyst leaching and degradation limit the catalytic
+address the challenges of sustainable energy development, performanceandlong-termdurability.11,12
+hydrogenhasemergedasapromisingalternativetoprospective Todate,Ptisregardedasastate-of-the-artelectrocatalystfor
+energy solutions owing to its high energy density and zero the HER in acidic media, but it suffers from corrosion under
+carbon emissions.3,4 Electrochemical water splitting is an acidicconditions,anditsscarcitymotivatesthedevelopmentof
+effectivemethodforhydrogenproduction,involvingtheoxygen cost-effective alternatives by alloying with cheaper elements
+evolution reaction (OER) at the anode and the hydrogen without compromising activity.13–15 Therefore, developing
+evolution reaction (HER) at the cathode.5–7 Among water elec- robust,stable,andcost-effectiveelectrocatalyststhatcanoper-
+trolysis technologies, proton exchange membrane water ate under harsh acidic conditions is critical for the commer-
+electrolyzers (PEMWEs) have gained signicant attention for cialization of PEM water electrolyzers. The performance of an
+electrocatalyst is largely determined by the surface adsorption
+energies of the reaction intermediates, which are strongly
+aFaculty of Chemistry, Department of Physical Chemistry and Electrochemistry, inuencedbytheelectronicstructureoftheactivespecies.16
+Jagiellonian University, Gronostajowa 2, 30-387 Krakow, Poland. E-mail: sulka@
+Recently, high entropy materials (HEMs) have attracted
+chemia.uj.edu.pl;rebekahgladys@gmail.com
+considerable attention for electrocatalysis due to their cong-
+bDepartmentofPhysics,PSGRKrishnammalCollegeforWomen,Coimbatore,Tamil
+urational entropy arising from multiple metal species inequi-
+Nadu,641004,India
+cDoctoralSchoolofExactandNaturalSciences,JagiellonianUniversity,Lojasiewicza or near-equiatomic fractions. This high entropy enhances
+11,30-348Krakow,Poland entropic contributions, reducing the overall free energy and
+dLaboratoryofSurfaceAnalysis,InstituteofPhysicalChemistry,PolishAcademyof stabilizingcomplexstructures.20HEMsencompassawiderange
+Sciences,Kasprzaka44/52,01-224Warsaw,Poland
+Thisjournalis©TheRoyalSocietyofChemistry2026 J.Mater.Chem.A,2026,14,4693–4708 | 4693
+
+JournalofMaterialsChemistryA Paper
+of materials, including high-entropy oxides, carbides, hydrox- acidicmediumthatachievedacurrentdensityof−10mAcm −2
+ides, metal–organic frameworks (MOFs), and uorides.23 at an overpotential of only 13 mV, maintaining exceptional
+Amongthem,high-entropyalloys(HEAs)havegarneredpartic- durability of over 200 h.60 Similarly, Jeong and coworkers
+ularinterestduetotheiruniquesynergisticeffects,whichstem demonstrated that AuPdFeNiCo HEA nanoparticles (NPs)
+fromhighentropy,latticedistortion,sluggishdiffusion,andthe delivered−10mAcm −2at45mVunderacidicconditions.61In
+so-called cocktail effect, enabling enhanced catalytic activity addition,thesynthesisstrategyforHEAsplaysasignicantrole
+and stability.17,18 HEAs are composed of ve or more metal in modulating electronic structures, tuning morphology, and
+elementsthatarerandomly distributedtoformasingle solid- creatingadsorptionsitesthatarefavorableforelectrochemical
+solution phase and are characterized by high congurational activity.24,27
+entropy(>1.5R).Duetothisintrinsicfeature,structuralstability Solvothermalsynthesisoffersafacileandeffectiveroutefor
+is improved, thereby enhancing the material's resistance to fabricating nanostructured HEAs, avoiding harsh conditions
+degradation during electrochemical reactions and facilitating and requiring sophisticated instrumentation. Selecting an
+long-term electrocatalyst durability. In addition, lattice distor- appropriate solvent ensures uniform precursor dispersion,
+tion suppresses atomic diffusion, which prevents surface effective alloying, and suppression of phase separation. By
+reconstructionandfurtherimprovescorrosionresistance.The carefully controlling the reaction parameters and accounting
+high mixing entropy (DS ) reduces the Gibbs free energy for the differing reduction rates of the metallic species, sol-
+mix
+(DG = DH − TDS ), enhancing material stability, vothermalsynthesispromotestheformationofabundantactive
+mix mix mix
+particularly at elevated temperatures.21,22 Fabricating single- sites through strong chemical interactions and lattice strain
+phase HEAs is highly desirable, as they oen exhibit arisingfromatomicsizedifferences.28,29Forinstance,Zhaoetal.
+amorphous-likefeatureswithabundantcatalyticallyactivesites synthesizedPtPdRhRuCuHEAnanoparticlesviaasolvothermal
+andsurfacedefectsinducedbylatticestrain,whichcollectively processandachievedauniformsingle-phasestructurewithout
+improve the HER kinetics. Additionally, the electronic struc- phase separation. These HEA nanoparticles exhibited remark-
+tures of HEAs can be effectively tuned to facilitate charge ableelectrocatalyticactivity,requiringanoverpotentialofonly
+transferandpromotetheadsorptionofreactionintermediates 23.3mVtoreachacurrentdensityof10mAcm
+−2inanalkaline
+by modifying the overlap of atomic orbitals, thereby further medium. DFT calculations attributed this enhanced perfor-
+promoting the HER activity in acidic media.19,24,25 These mance to synergistic interactions among the active sites.30 In
+intrinsic properties endow HEAs with superior electrocatalytic the present study, PdIrSnZnMo HEAs were synthesized using
+performance, remarkable stability, structural tunability, and a simple solvothermal method. The atomic radii of the
+excellentcorrosionresistance.Thediverseelementalcomposi- constituentelements(Pd,Mo,Sn,Zn,andIr)are0.137,0.139,
+tions of HEAs also enable the rapid adsorption of reaction 0.162, 0.132, and 0.135 nm, respectively. Notably, Sn has the
+intermediates, supporting efficient hydrogen evolution at low largestatomicradius,whichincreasesitspropensitytooxidize.
+overpotentials.26ConsideringtheintrinsicadvantagesofHEAs This enhanced oxidation tendency promotes stronger interac-
+and the exceptional performance of state-of-the-art catalysts, tionswithothermetalspecies,facilitatingalloyformationand
+suchasPt,thedevelopmentofnewcatalystsbasedonPt-based generating numerous catalytically active sites. HER electro-
+HEAs for the HER in acidic media has garnered signicant catalytic performance is closely related to these atomic
+interest, offering high efficiency and reducing the required Pt arrangements and the resulting electronic structure. DFT
+content through high-entropy alloy formation. However, most calculationswerecarriedouttoexplorethestructuraldiversities
+reported HEA-based HER electrocatalysts still include Pt as ofthePdIrSnZnMoHEAandtoevaluateitsthermodynamicand
+a constituent metal to enhance their stability. To address this kinetic favorability for the HER in H SO . In addition, the d-
+2 4
+limitation, the present study focuses on developing HEA bandproperties,includingHOMO–LUMOpositionsrelativeto
+electrocatalysts without Pt. Therefore, developing a Pt-free theFermilevel,wereanalyzed,andthedensityofstates(DOS)
+electrocatalyst is the primary objective of this study, which is was examined to identify active sites, investigating the avail-
+achievedbyincorporatingothermetalswithoutcompromising abilityofelectronicstatesandtheirorbitalcontributionsfrom
+the catalytic activity. The combination of multiple elements, differentelementsneartheFermilevel.
+including earth-abundant non-noble metals, together with
+small amounts of PGMs in an alloy, enables high catalytic 2 Materials and methods
+performance while signicantly reducing the total PGM
+content. As alternatives, other PGMs, such as Pd and Ir, were The precursors used for the preparation of alloys included
+combinedwithlow-costtransitionmetals(Sn,Mo,andZn),and tetraamminepalladium (II) acetate (Pd(NH
+3
+)
+4
+(CH
+3
+CO
+2
+)
+2
+),
+their electrocatalytic performance was evaluated in acidic iridium (III) acetylacetonate (C
+15
+H
+21
+IrO
+6
+), tin (II) chloride di-
+media. The specic choice of Pd is mainly due to its high hydrate (SnCl $2H O), zinc sulphate heptahydrate (ZnSO -
+2 2 4
+activity, similar to platinum properties, and high hydrogen $7H O), molybdic acid (MoO $H O), and Naon 117 were
+2 3 2
+adsorptionenergy,whichissecondonlytothatofPt.Inaddi- purchased from Sigma Aldrich Pvt. Ltd. Ethylene glycol (EG,
+tion,Ircaneffectivelytunetheelectronenvironmentandthus (CH OH) ), isopropyl alcohol (IPA, CH CH(OH)CH ), and
+2 2 3 3
+enhance the intrinsic catalytic activity by adjusting the methanol (CH OH) were procured from Ensure Chemicals.
+3
+adsorption of active H species.69,70 For example, Fu et al. re- Graphite foil (thickness 0.4 mm, (0.015 in), 99.8%) was
+ported Pt-free PdMoGaInNi HEA nanosheets for HER in an purchasedfromThermoFischerScientic.
+4694 | J.Mater.Chem.A,2026,14,4693–4708 Thisjournalis©TheRoyalSocietyofChemistry2026
+
+Paper JournalofMaterialsChemistryA
+2.1 SolvothermalsynthesisofPdIrSnZnMoHEA distribution of the prepared nanostructures. The atomic
+concentrationsofPd,Ir,Sn,Zn,andMoweredeterminedusing
+TosynthesizePdIrSnZnMoHEA,nearlyequimolarratiosofthe
+inductively coupled plasma mass spectrometry (ICP-MS, Agi-
+respective precursors were dispersed in organic solvents. The
+lent). The valence states of the elements in the HEAs were
+precursors for Sn, Zn, Mo, and Pd were dissolved in ethylene
+analyzed by X-ray photoelectron spectroscopy (XPS, Microlab
+glycol toform solution 1, while the Irprecursorwas dissolved
+separately in methanol to form solution 2. Aer achieving 350, Thermo Electron) with peak tting performed using an
+asymmetric Gaussian/Lorentzian mixed function. All recorded
+ahomogeneoussuspensionofsolution1,solution2wasadded,
+bindingenergieswerecalibratedwithreferencetotheC1speak
+and the mixture was magnetically stirred for 4 h to ensure
+at284.7eV.
+complete blending. The resulting suspension was then trans-
+ferred to a Teon-lined stainless steel autoclave and heat-
+treated at 200 °C for 18 h. Aer the reaction, the autoclave 2.3 Electrochemicaltechniques
+was allowed to cool naturally.31 The obtained product was The electrochemical hydrogen evolution reaction (HER)
+thoroughlywashedwithdeionizedwaterandethanoltoremove performancewasevaluatedinastandardthree-electrodesetup
+residualimpurities,followedbydryingat70°Cfor5htoyield using a Biologic VMP-300 electrochemical workstation in an
+thenalPdIrSnZnMoHEA.TopreparePdIrSnZnMoHEAswith acidic medium. Graphite foil (thickness ∼0.4 mm) modied
+varying Pd concentrations (0.01–0.05 M), the same procedure with the electrocatalysts was used as the working electrode. A
+was followed while keeping the concentrations of Ir, Sn, Mo, graphiterodservedasthecounterelectrode,whileasaturated
+and Zn constant (0.05 M). The resulting samples were labeled calomelelectrode(SCE)wasusedasthereferenceelectrode.To
+Pd IrSnZnMo, Pd IrSnZnMo, Pd IrSnZnMo, Pd - investigatetheredoxbehavioroftheelectrocatalystsandensure
+0.01 0.02 0.03 0.04
+IrSnZnMo, and Pd IrSnZnMo HEA. A schematic illustration the stability of the catalyst layer, cyclic voltammograms (CVs)
+0.05
+ofthesynthesisprocedureisshowninScheme1. wererecordedinthepotentialrangefrom0.8to−0.8Vvs.SCE
+atascanrateof10mVs
+−1ina0.5MH
+SO electrolyte.These
+2 4
+measurements were conducted for all samples prepared with
+2.2 Characterizationtechniques
+varying Pd contents (Pd IrSnZnMo, Pd IrSnZnMo, Pd -
+0.01 0.02 0.03
+X-raydiffraction(XRD)analysiswasperformedusingaRigaku IrSnZnMo, Pd IrSnZnMo, and Pd IrSnZnMo). The over-
+0.04 0.05
+XRD diffractometer with Cu-K radiation (l = 1.5406 Å). The potentialrequiredtoachieveacurrentdensityof−10mAcm −2,
+a
+diffraction patterns were collected over a 2q range of 5–90° at as well as the onset potential for hydrogen evolution, was
+ascanrateof5°permin.Microstructuralandelementalanal- determinedfrompolarizationcurvesobtainedbylinearsweep
+yseswerecarriedoutusingaeldemissionscanningelectron voltammetry (LSV) in 0.5 M H SO (pH ∼0) at ambient
+2 4
+microscope (FESEM, Hitachi S-4700, Japan) equipped with an temperature. LSV was carried out in the potential range from
+energy-dispersive X-ray spectroscopy (EDS) system (Noran 0 to −0.8 V vs. SCE at a scan rate of 1 mV s −1. The reaction
+System 7). High-resolution transmission electron microscopy kinetics were analyzed by extracting Tafel slopes from Tafel
+(HR-TEM) was conducted using a Tecnai Osiris microscope plots, which were obtained by retting the polarization data
+operatingatanacceleratingvoltageof200kV.HR-TEMequip- withthelogarithmofthecurrentdensityplottedonthex-axis
+ped with EDS and high-angle annular dark-eld scanning andoverpotentialonthey-axis.Themeasuredpotentialswere
+transmission electron microscopy (HAADF-STEM) was used to converted to the reversible hydrogen electrode (RHE) scale
+examine the morphology, elemental composition, and spatial usingthefollowingequation(eqn(1)):
+Scheme1 SchematicofthesynthesisofPdIrSnZnMoHEAusingthesolvothermaltechnique.
+Thisjournalis©TheRoyalSocietyofChemistry2026 J.Mater.Chem.A,2026,14,4693–4708 | 4695
+
+JournalofMaterialsChemistryA Paper
+E =E +E 0+0.059×pH (2 cm × 1 cm) was polished with sandpaper to roughen the
+RHE SCE SCE
+(E 0=0.241,pH=0). (1) surface, thereby improving catalyst adhesion. The graphite
+SCE
+foil was subsequently washed with acetone and dried to
+The electrochemically active surface area (ECSA) was esti- ensure a clean substrate. The catalyst ink was then drop-cast
+mated from the double layer capacitance (C dl ). To determine onto the cleaned graphite foil over an active area of 1 cm ×
+C dl , CV measurements were performed at different scan rates 1cmanddriedat70°Cfor5h,yieldingawell-adheredcatalyst-
+(20–200 mV s −1) within the non-faradic potential region from modied electrode that was used for all electrochemical
+−0.1 to −0.2 V vs. SCE, which displayed a characteristic rect- measurements.
+angular prole (Fig. S1, SI). The current density at a xed
+potential (−0.15 V vs. SCE) was determined, and a plot of 3 Results and discussion
+current density versus scan rate was constructed. The slope of
+the resulting linear t corresponds to the C value (Table S1, 3.1 Structuralandcompositionanalyses
+dl
+SI). The roughness factor (R f ) is another parameter that inu- The XRD patterns of the Pd 0.01 IrSnZnMo, Pd 0.02 IrSnZnMo,
+ences the electrocatalytic performance. R f was determined as Pd 0.03 IrSnZnMo, Pd 0.04 IrSnZnMo, and Pd 0.05 IrSnZnMo HEAs
+theratiooftheECSAtothegeometricsurfaceareaoftheelec- are shown in Fig. 1(a). With an increasing Pd concentration
+trode(1cm2).ThecalculatedvaluesarelistedinTableS1(SI). from 0.02 M to 0.05 M, the intensity of the diffraction peaks
+The turnover frequency (TOF), which reects intrinsic HER increased, indicating improved crystallinity. Moreover,
+activity,wascalculatedusingthefollowingexpression(eqn(2)): anoticeableshiinpeakpositionsalongwithpeakbroadening
+J was observed, as highlighted in the extended XRD view
+TOF¼ 2(cid:2)F(cid:2)n ; (2) (Fig. 1(b)). This shi may arise from lattice contraction or
+overlappingofmultiplemetallicspeciesduringalloyformation.
+whereJrepresentsthecurrentdensityattheoverpotentialvalue
+(17mV),Fisthefaradayconstant(96485.4Cmol
+−1),andnis The prominent diffraction peaks at 2q of 39.8°, 46.2°, 67.5°,
+81.3°, and 85.7° corresponded to the (111), (200), (220), (311),
+thenumberofmolesofthecatalyst.Thelong-termdurabilityof
+and (222) planes of Pd (ICDD, PDF No. 00-005-0681), respec-
+the electrocatalysts in an acidic medium was evaluated using
+tively.32 These indexed planes conrmed the formation of
+chronopotentiometry(CP)atconstantcurrentdensities.
+a single-phase, face-centered cubic (fcc) structure. The broad
+peakobservedat∼42°mayoriginatefromthecombinationof
+2.4 Catalystinkpreparationandelectrodemodication
+theIrPdZnalloy,whichisconsistentwithICCDPDFNo.00-060-
+Theelectrocatalystinkwaspreparedbydispersing5mgofthe 0156. Furthermore, it was evident that with increasing Pd
+synthesizedelectrocatalysts(PdIrSnZnMoHEAswithvaryingPd concentration, the peak intensity increased. For the sample
+concentrations)inamixtureof5mLofNaon117and20mLof with0.05MPd(Pd IrSnZnMo),thepeakpositionwasslightly
+0.05
+isopropylalcohol(IPA).Theresultingslurrywasultrasonicated shiedtoward higherangles, whichmighthave resultedfrom
+forafewminutestoobtainahomogeneoussuspension.Priorto lattice strain or structural changes induced by the strong
+the electrocatalyst loading, the graphite foil working electrode bonding of additional Pd atoms. Importantly, no additional
+Fig.1 XRDpatternsofPd IrSnZnMo,Pd IrSnZnMo,Pd IrSnZnMo,Pd IrSnZnMo,Pd IrSnZnMoHEAs,andIrSnZnMo.(b)Enlarged
+0.01 0.02 0.03 0.04 0.05
+view of the XRD pattern (Fig. 1(a)) in the range of 39–45°. (c) Raman spectra of Pd IrSnZnMo, Pd IrSnZnMo, Pd IrSnZnMo, Pd -
+0.01 0.02 0.03 0.04
+IrSnZnMo,Pd IrSnZnMoHEAs,andIrSnZnMo.
+0.05
+4696 | J.Mater.Chem.A,2026,14,4693–4708 Thisjournalis©TheRoyalSocietyofChemistry2026
+
+Paper JournalofMaterialsChemistryA
+diffractionpeakscorrespondingtothecrystallinephasesofthe 3.2 Morphologicalanalysis
+individual elements were detected, strongly conrming the FESEM images of the Pd IrSnZnMo sample at different
+0.05
+formation of a nanostructured alloy through high entropy magnications are shown in Fig. 2(a and b), while the corre-
+mixing. sponding TEM images are presented in Fig. 2(c–e). Small
+Raman spectra of Pd IrSnZnMo, Pd IrSnZnMo, Pd -
+0.01 0.02 0.03 nanostructures attached to bulk spherical structures were
+IrSnZnMo,Pd IrSnZnMo,andPd IrSnZnMoHEAsandthe
+0.04 0.05 observed.ThebulkspheresformedbytheaggregationofIr,Sn,
+IrSnZnMo reference are presented in Fig. 1(c). The Pd -
+0.05 Zn, Mo, and Pd are largely amorphous, whereas the smaller
+IrSnZnMo sample exhibited a Raman band at 621.9 cm
+−1,
+sphericalnanostructuresbondedtothebulkarecrystallineand
+whichcanbeattributedtotheB vibrationalmodeofPdand/or
+1g primarilycomposedofPdandSn.ThebondingbetweenPdand
+the A mode of Sn.57,58 In samples with lower Pd concentra-
+1g Sn is primarily facilitated by electronic interactions: Pd
+tions, this peak displayed a blue shi (toward lower wave-
+possesses an electron-rich d-band, while Sn readily undergoes
+lengths), suggesting changes in chemical bond length or
+oxidation,givingitastrongtendencytoselectivelycoordinateto
+electronic structure caused by the intercalation of multiple
+Pd sites rather than to other metals. In addition, electron
+elements. Additionally, weak and broad bands at ∼273.6 and
+transferfromSntoPdoccursduetothelowerelectronegativity
+320.3cm
+−1wereascribedtosecondorderscatteringorpossibly
+ofSn relative toPd.66,67These electronic interactions favor the
+aresonanceeffect,respectively.33,34AlessintenseRamanband
+formationofawell-crystallizedcore–shellstructure.Incontrast,
+at422cm
+−1inthePd
+IrSnZnMosamplewasassociatedwith
+0.05 thebulkregionsexistinanamorphousphasecomposedofall
+theE g vibrationalmodeofPdand/ornanoscaleeffectsofSn.33,58 the metal components. The major factors inuencing amor-
+Furthermore,abroadbandat861.3cm
+−1wasattributedtothe
+phousphaseformationinHEAsincludemixingentropy,mixing
+A 1g /B g vibrational modes of Mo.59 Overall, the absence of enthalpy, and the atomic size differences among the constit-
+prominent or sharp Raman peaks across all samples suggests
+uent elements.68 These factors collectively result in the struc-
+stronginteractionandlatticedistortionamongtheconstituent
+turalheterogeneityobservedinthepreparedHEAs.Theregions
+elements in the HEAs. Elemental analysis by EDS during marked in Fig. 2(c) are magnied in Fig. 2(d and e). These
+HRTEMandFESEMconrmedthepresenceofIr,Sn,Zn,Mo,
+images reveal that small spherical nanostructures resemble
+and Pd without detectable impurities, further verifying the core–shellstructuresconsistingofPdandSnspecies.Asignif-
+successful synthesis of the designed HEAs (Fig. S3(a) and (b), icantfeatureofcore–shellstructuresistheirhighsurfacearea,
+SI). From the ICP-MS data, the elemental compositions of
+which can facilitate electron transfer. The HRTEM image in
+Pd IrSnZnMo, Pd IrSnZnMo, Pd IrSnZnMo, Pd -
+0.01 0.02 0.03 0.04 Fig.2(f)showswell-resolvedlatticefringes,withcorresponding
+IrSnZnMo, and Pd 0.05 IrSnZnMo HEAs were determined, as (hkl)planes identied usingImageJby processingfastFourier
+summarizedinTableS2(SI).Amongtheelements,MoandSn transform(FFT)andinverseFFTimages(Fig.2(g–i)).IntheFFT
+werepresentinthehighestamounts,followedbyPd,whereas
+image(Fig.2(g)),thethreehighlightedspotscorrespondtothe
+ZnandIrcontentswerethelowest.
+(111), (220), and (200) planes of Pd. These planes were
+Fig.2 MorphologyofPd IrSnZnMoHEA:(aandb)FESEMimages,(c–e)TEMimages,(f)correspondingHRTEMimage,(g)FFTpattern,(handi)
+0.05
+inverse FFT patterns, (j) SAED pattern, and (k1) high-resolution HAADF–STEM images and (k2–k7) the corresponding EDS elemental maps
+revealingthedistributionofelements.
+Thisjournalis©TheRoyalSocietyofChemistry2026 J.Mater.Chem.A,2026,14,4693–4708 | 4697
+
+JournalofMaterialsChemistryA Paper
+attributed to the fcc phase, which is consistent with the XRD 3.3 Electronicstructureanalysis
+results.TheinverseFFTimagedepictedinFig.2(h)highlights
+X-ray photoelectron spectroscopy (XPS) was performed to
+lattice fringes corresponding to the Pd (111) plane, while determine the surface oxidation states of the ve elements
+Fig.2(i)showsoverlappingfringes,indicatingpossiblebonding
+constitutingthealloy,asshowninFig.3.Thesurveyspectrum
+between Pd and Sn. This also highlights the lattice distortion (Fig.S2,SI)conrmedthepresenceoftheconstituentelements,
+resulting from the random distribution of atoms with varying
+thereby verifying the successful formation of the PdIrSnZnMo
+atomic sizes within the crystal structure. The selected area HEA synthesized with different Pd concentrations. The strong
+diffraction(SAED)patternshowninFig.2(j)conrmsthecrys-
+bonding among the metallic components stabilizes the high
+talline growth of Pd nanoparticles, as evidenced by the bright
+entropy alloy as a single-phase structure. The high-resolution
+dotted ring corresponding to the (111) plane ofPd, indicating
+spectrum of Pd (Fig. 3(a)) displays two prominent peaks at
+anfccstructure.Therandomlydistributedringpatternfurther bindingenergiesof∼336eV(Pd3d )and343.1eV(Pd3d ),
+5/2 3/2
+demonstrates the polycrystalline nature of the HEA, where
+which are characteristics ofmetallic Pd. The deconvolution of
+differentlyorientedsinglecrystalscoexistwithinasinglephase.
+the spectrum reveals additional peaks at about 336.1 and
+The HAADF-STEM image (Fig. 2(k1)) and the corresponding
+341.2eV,correspondingtoPd(0)(metallic)andPd(II)species
+EDSelementalmapsofPd 0.05 IrSnZnMopresentedinFig.2(k2– associatedwithoxidizedPd.35,36Theapproximation(∼)notation
+k7) conrm the homogeneous distribution of all constituent forbindingenergiesisusedbecausepeakpositionsshiacross
+elementswithintheHEA. samples with varying Pd concentrations. This shi is likely
+Fig.3 XPScore-levelspectraof(a)Pd3d,(b)Ir4f,(c)Mo3d,(d)Sn3d,(e)Zn2p,and(f)O1s.
+4698 | J.Mater.Chem.A,2026,14,4693–4708 Thisjournalis©TheRoyalSocietyofChemistry2026
+
+Paper JournalofMaterialsChemistryA
+caused by strong interactions with other metal species, which 3.4 ElectrochemicalHERstudiesinacidicmedium
+induceelectrontransferandmodifytheelectronicstructuredue
+ToassessthecatalyticperformanceofthefabricatedHEA-based
+totheinuenceofneighboringatomsorions.56Asillustratedin
+electrocatalysts, hydrogen evolution reaction (HER) tests were
+Fig.3(a),thepeakscorrespondingtothePd3d andPd3d
+5/2 3/2 conductedinanacidicmediumusingastandardthree-electrode
+oxidation states shied toward higher binding energies with cell. Prior toHER evaluation, the electrode–electrolyteinterface
+increasingPdconcentration,whichmightbeattributedtothe
+of the catalyst-coated electrode was activated by multiple (20
+partial oxidation of Pd, facilitating strong chemical bonding cycles) potential cycles usingcyclic voltammetry. Aer multiple
+with other metal species.64 The core-level spectrum of Ir 4f
+cycling tests, the CV curves were recorded again, as shown in
+(Fig. 3(b)) exhibits two asymmetric spin–orbit doublets
+Fig.4(a).TheobtainedCVcurvesdisplayedasharpandintense
+observed at binding energies of 61.8 and 64.2 eV, which are
+cathodicpeak,indicatingthestronghydrogenevolvingcapability
+attributedtotheIr4f andIr4f states,respectively.38These
+7/2 5/2 ofthepreparedelectrocatalysts.Notably,thesamplewithoutPd
+features indicate the coexistence of metallic Ir and hydrated (IrSnZnMo)exhibitedarelativelylowcurrentdensityof−4.9mA
+iridiumoxyhydroxidespecies(IrO y $nH 2 O) 7 .37TheXPScore-level cm −2, while all Pd-containing samples demonstrated signi-
+spectrum of Mo shown in Fig. 3(c) displays two prominent cantly higher currentdensities. Specically, the currentdensity
+peaks at binding energies of 235.2 and 232.2 eV, which corre-
+values for Pd IrSnZnMo, Pd IrSnZnMo, Pd IrSnZnMo,
+0.01 0.02 0.03
+spond to Mo 3d and Mo 3d levels, respectively, in the
+3/2 5/2 Pd IrSnZnMo, and Pd IrSnZnMo HEAs were found to be
+0.04 0.05
+0.01 M Pd-loaded alloy (Pd 0.01 IrSnZnMo).39 In samples with −32.3,−65.5,−104.2,−76.0,and−98.0mAcm −2,respectively.It
+higher Pd loading (Pd IrSnZnMo, Pd IrSnZnMo, Pd -
+0.02 0.03 0.04 isevidentthatwithincreasingPdcontent,thecrystallinityofthe
+IrSnZnMo, and Pd IrSnZnMo), these peaks shi to higher
+0.02 materials improved, which in turn enhanced electron transfer
+binding energies. The dominant peak observed at ∼235 eV is
+andacceleratedelectrocatalyticactivity.Amongtheinvestigated
+assigned to the Mo6+ oxidation state (Mo 3d ), while a less
+3/2 samples, Pd IrSnZnMoexhibitedthe highest current density,
+intensepeakat∼234eVcorrespondstotheMo4+oxidationstate 0.03
+whereas Pd IrSnZnMo exhibited a lower onset potential for
+of the Mo 3d level.40 Additionally, the peak at ∼231 eV is 0.05
+3/2 HER. This suggests that the Pd IrSnZnMo HEA possesses
+attributedtotheMo5+oxidationstateoftheMo3d 5/2 level.40,41 superior catalytic activity and e 0 ffi .05 ciency toward HER. This
+The high-resolution spectrum of Sn 3d shown in Fig. 3(d)
+improved performance can be attributed to the increased
+exhibits one main peak at a binding energy of ∼495.5 eV,
+number of electroactive surface sites available for proton
+ascribedtotheSn3d level.42ThedeconvolutionoftheSn3d
+5/2 5/ adsorption,followedbyelectrochemicaldischarge,leadingtoH
+peak reveals a component at 486.6–486.8 eV in all samples 2
+2 evolution.
+(Pd 0.01 IrSnZnMo, Pd 0.02 IrSnZnMo, Pd 0.03 IrSnZnMo, Pd 0.04 - To further evaluate the intrinsic catalytic efficacy of the
+IrSnZnMo,andPd IrSnZnMo),whichisattributedtotheSn4+
+0.05 fabricated electrocatalysts, polarization curves were recorded
+oxidation state.65 In addition, a weaker peak at 485.1 eV, usinglinearsweepvoltammetry(LSV).Theeffectivenessofthe
+detected in Pd IrSnZnMo, Pd IrSnZnMo, Pd IrSnZnMo,
+0.02 0.03 0.04 electrocatalysts was assessed based on the overpotential
+and Pd 0.05 IrSnZnMo, is assigned to the Sn0 (metallic Sn) requiredtoachieveacurrentdensityof−10mAcm −2,whichis
+oxidationstateoftheSn3d level.Notably,theintensityofthis
+5/2 widely regarded as a standard benchmark for the solar-to-fuel
+peak, corresponding to the Sn0 state, increased signicantly
+conversion process. This overpotential serves as a key param-
+from5%to60%,asthePdloadingsincreasedfrom0.02Mto
+eterindeterminingthecatalyticactivitytowardHER.Asshown
+0.05 M. This clearly indicates that higher Pd concentrations
+in Fig. 4(b), the Pd IrSnZnMo HEA catalyst exhibited the
+promote the formation of Sn0, driven by the strong electronic lowestoverpotentialo 0. f 05 17mVtoreachacurrentdensityof−10
+interaction between Pd and Sn, which is favored due to the
+mAcm
+−2,signicantlyoutperformingtheothercompositions.
+lower electronegativity of Sn relative to Pd. This effect can be
+In contrast, the overpotentials required for Pd IrSnZnMo,
+0.01
+attributed to interactions or bonding between Sn and Pd
+Pd IrSnZnMo, Pd IrSnZnMo, and Pd IrSnZnMo to ach-
+0.02 0.03 0.04
+species.66 The core-level XPS spectrum of Zn 2p shown in
+ieve the same current density were 293, 162, 80, and 202 mV,
+Fig.3(e)exhibitsaprominentpeakat1021.9eV,corresponding
+respectively, as shown in the comparison plot (Fig. 4(d)). The
+totheZn2p level.43Nopeakshiisobserved,corroborating
+3/2 Pd IrSnZnMo HEA electrocatalyst revealed a comparatively
+0.04
+thattheZncomponentdoesnotundergoanyoxidationprocess,
+higher overpotential, which might be attributed to the lower
+whileitsincorporationconrmssuccessfulbondingwithinthe
+number of available active sites, thereby suppressing the
+alloystructure.TheO1score-levelXPSspectrumofthePd 0.01 - adsorptionofH*intermediatesandhinderingthesubsequent
+IrSnZnMo sample displayed in Fig. 3(f) reveals three deconvo-
+desorption of H molecules, ultimately resulting in increased
+luted peaks at 531.9, 532.3, and 534.1 eV, attributed to O]C 2
+overpotential.Theresultsalsoclearlyshowedthepooractivity
+(doublybondedoxygentocarbon),O–C(singlybondedoxygen
+of the IrSnZnMo catalyst, which delivered only low current
+to carbon), and adsorbed/chemisorbed water molecules,
+densitiesandexhibitednoobservablehydrogenevolutionupto
+respectively.44 In HEAs with higher Pd loadings (Pd 0.02 - −0.4 V vs. RHE, indicating its inferior catalytic performance.
+IrSnZnMo, Pd 0.03 IrSnZnMo, Pd 0.04 IrSnZnMo, and Pd 0.05 - This strongly conrms that Pd is the primary contributor to
+IrSnZnMo),thepeaksat532.3and534.1eVshitowardlower
+facilitatingHER.
+binding energies, indicating the creation of oxygen vacancies
+ThisoutstandingactivityofthePd IrSnZnMoHEAcanbe
+0.05
+duetolatticedistortion.7
+primarily attributed to the presence of Pd, which possesses
+Thisjournalis©TheRoyalSocietyofChemistry2026 J.Mater.Chem.A,2026,14,4693–4708 | 4699
+
+JournalofMaterialsChemistryA Paper
+Fig.4 CVsrecordedinthepotentialrangefrom−0.8to0.8Vvs.SCEin0.5MH SO ,(b)linearpolarizationcurvesobtainedatthescanrateof
+2 4
+1mVs−1,(c)thecorrespondingTafelplots,and(d)comparisonofoverpotentialasafunctionofPdconcentrationinthecatalyst.
+ahydrogenadsorptionfreeenergy(DG*)equaltozero,whichis the electrocatalytic reaction.49 Furthermore, the faster forma-
+widely considered the key descriptor for efficient HER cata- tion of hydrogen intermediates from H O+, compared to H O,
+3 2
+lysts.45,47 Additionally, Ir contributes substantially to catalytic explains the enhanced catalytic activity observed in acidic
+activity,whilethesynergisticeffectsofotheralloyingelements, media. It is well established that hydrogen evolution on the
+each with distinct adsorption energies, further enhance cathodesurfaceproceedsthroughamulti-stepelectrochemical
+performanceinacidicmedia.TheHERprocessbeginswiththe pathway. Specically, in acidic electrolytes, the HER mecha-
+adsorption of H+ ions from the electrolyte onto the catalyst nism can be described by the following sequential steps (eqn
+surface, followed by the discharge of H O molecules and the (4)–(6)):50,51
+2
+formation of hydrated protons (H O+). Subsequently, various
+hydrogencontainingintermediates 3 (H*,H* 2 ,orH − )areformed, M−H 3 O++e−+M/M−H+H 2 O
+which participate in the reduction pathways leading to H (volmerstep–electrochemicalhydrogenadsorption) (4)
+2
+molecules.46,48 The kinetics of the electrochemical HER were
+M−H+H O++e−/M+H +H O
+further elucidated by analyzing the Tafel slope values. These 3 2 2
+(Heyrovskystep–electrochemicaldesorption) (5)
+wereobtainedbyplottingthelogofthecurrentdensity(x-axis)
+against the overpotential (h, y-axis), as presented in Fig. 4(c).
+2M−H/2M+H (Tafelstep–chemicalrecombination).(6)
+The slope of the linear t corresponds to the Tafel equation 2
+(eqn(3)):
+ThecalculatedTafelslopevaluesforPd IrSnZnMo,Pd -
+0.01 0.02
+dðlogjÞ 2:303RT IrSnZnMo, Pd IrSnZnMo, Pd IrSnZnMo, and Pd -
+Slope for cathodic reaction/ ¼ : (3) 0.03 0.04 0.05
+dðhÞ (cid:3)a nF IrSnZnMo HEAs were106.2, 93.3, 60.3, 101.6, and 52.7 mV per
+c
+dec.respectively.Theseresultssuggestthatthereactionkinetics
+ofHERontheseelectrocatalystsinanacidicmediumfollowthe
+Fromtheaboverelation,itisevidentthattheTafelslopeis
+Volmer-Heyrovskymechanism.49Inthispathway,theevolutionof
+inversely proportional to the charge transfer coefficient, con-
+an H molecule is facilitated by the adsorption and electro-
+rmingthatalowerTafelslopecorrespondstoamoreefficient 2
+chemical discharge of a proton onto an H atom previously
+chargetransferacrosstheelectrode–electrolyteinterfaceduring
+4700 | J.Mater.Chem.A,2026,14,4693–4708 Thisjournalis©TheRoyalSocietyofChemistry2026
+
+Paper JournalofMaterialsChemistryA
+adsorbedanddischargedatthesameactivesite.Tofurtherprobe alter charge transfer between the components depending on
+theintrinsiccatalyticactivity,theelectrochemicallyactivesurface atomicproximity,therebyaffectingtheelectronicband-structure;
+area(ECSA)wasdeterminedforeachcatalystfromtheratioofthe and (iii)structural effect – caused by 3D structural constraints,
+electrochemical double-layer capacitance (C ) to the specic leadingtovariationsinsurfaceatomicactivity.62,63Additionally,
+dl
+capacitance value. The C values were derived from CV TOF,whichreectstheintrinsiccatalyticrateofHERperactive
+dl
+measurements recorded inthe non-faradaicpotential regionat site,wascalculatedusingtheexpressiondescribedinSubsection
+different scan rates. For the Pd IrSnZnMo, Pd IrSnZnMo, 2.3.TheTOFvalueforthebest-performingPd IrSnZnMoHEA
+0.01 0.02 0.05
+Pd IrSnZnMo, and Pd IrSnZnMo HEAs, CV curves were electrocatalystwasdeterminedtobe9.02×10 −4s −1,whereasthe
+0.03 0.04
+recorded at different scan rates in the non-faradaic potential othercatalystsrevealedlowervalues,assummarizedinTableS1
+regionfrom−0.1to−0.2Vvs.SCE(Fig.S1(a–d),SI),whileforthe (SI). The higher TOF observed for the Pd IrSnZnMo HEA
+0.05
+Pd IrSnZnMo HEA, CV curves were recorded in the potential conrmsthatitpossessesnumerouscatalyticallyactivesitesthat
+0.05
+regionfrom0to−0.1Vvs.SCE(Fig.S1(e),SI).Thecorresponding facilitate the rapid evolution of H molecules. The electro-
+2
+linearplotsofcurrentdensityvs.scanrateareshowninFig.S1(f) chemical performance ofthe Pd IrSnZnMoHEA towardHER
+0.05
+and(g)(SI).ThecalculatedC ,ECSA,androughnessfactor(R) electrocatalysisinacidicmediumwascomparedwithotherhigh
+dl f
+values are summarized in Table S1 (SI). The obtained results entropy Pd-based electrocatalysts reported in the literature, as
+showedthatthePd IrSnZnMoHEAexhibitedthehighestECSA summarizedinTableS5(SI).
+0.05
+andR values,conrmingthatthecatalystpossessesnumerous
+f
+activesites,mostlikelyoriginatingfromitscore–shellstructures.
+3.5 Stabilitystudies
+Thesignicantimportanceofcoreshellarchitecturesincatalysis
+can beattributed tothree maineffects: (i)ligandeffect – inu- Stability is a crucial parameter in evaluating the practical
+encedby theadsorptionbehaviorofthecatalyst surfacedueto applicabilityofelectrocatalysts,particularlyunderharshacidic
+the presence of multiple atomic groups; (ii) ensemble effect – conditions.Toassessdurability,CPmeasurementswerecarried
+arisingfromtheinteractionsbetweenthecoreandshell,which out at different current densities, as shown in Fig. 5. At
+a constant current density of −5 mA cm −2 (Fig. 5(a)), the
+Fig.5 Chronopotentiometricanalysisat−5mAcm−2forthePd IrSnZnMo,Pd IrSnZnMo,Pd IrSnZnMo,Pd IrSnZnMoandPd -
+0.01 0.02 0.03 0.04 0.05
+IrSnZnMo HEAs over 20 h; (b) chronopotentiometric analysis at −10 mA cm−2 for the Pd IrSnZnMo, Pd IrSnZnMo, Pd IrSnZnMo,
+0.01 0.02 0.03
+Pd IrSnZnMo,andPd IrSnZnMoHEAsover25h;(c)long-termchronopotentiometricanalysisofthePd IrSnZnMoHEAat−10mAcm−2
+0.04 0.05 0.05
+for100h;and(d)LSVcurvesofthePd IrSnZnMoHEArecordedbeforeandafter100hstabilitytestintheacidicmedium.
+0.05
+Thisjournalis©TheRoyalSocietyofChemistry2026 J.Mater.Chem.A,2026,14,4693–4708 | 4701
+
+JournalofMaterialsChemistryA Paper
+Pd IrSnZnMo, Pd IrSnZnMo, Pd IrSnZnMo, Pd - attributed to the renewal of active sites, which facilitates the
+0.01 0.02 0.03 0.04
+IrSnZnMo and Pd IrSnZnMo HEA samples revealed robust rapid adsorption of H* species and the efficientdesorption of
+0.05
+stability,showingnegligiblechangesinoverpotentialevenaer H molecules. Finally, to verify the structural and electro-
+2
+20 h of continuous electrochemical activity. Similarly, when chemicalintegrityofthebest-performingPd IrSnZnMoHEA,
+0.05
+testedatahighercurrentdensityof−10mAcm −2(Fig.5(b)),all polarization curves were recorded aer 100 h of continuous
+HEAs, including Pd IrSnZnMo, maintained a stable perfor- operationataxedcurrentdensityof−10mAcm −2,asshown
+0.05
+mancewithoutanyobviouspotentialdecayover25h.Tofurther in Fig. 5(d). The results conrmed stable activity, with only
+assesslong-termdurability,CPmeasurementswereextendedto a negligible increase in overpotential, underscoring the
+100h(4daysand4h)at−10mAcm −2(Fig.5(c)).Thecatalysts outstandingdurabilityofthiselectrocatalystinacidicmedia.
+demonstrated excellent stability although minor uctuations
+were observed due to electrolyte evaporation and continuous
+gas bubbling. Importantly, replenishing electrolytes restored 3.6 Structuralandcompositionalcharacterizationsofthe
+performance, conrming that these disturbances were not electrocatalystaerHER
+relatedtocatalystdegradation.Adecreaseinoverpotentialwas To gain deeper insight into the performance of the Pd -
+0.05
+alsoobservedcomparedtothevaluerecordedduringtheinitial IrSnZnMo electrocatalyst, a series of characterizations,
+25hCPtestat−10mAcm −2(Fig.5(b)).Thisdecreasemaybe
+including XPS, FESEM, EDS, and elemental mapping, were
+Fig.6 XPScore-levelspectraof(a)Pd3d,(b)Mo3d,(c)Ir4f,and(d)O1s;(eandf)FESEMimagesofthepost-testcatalyst-coatedelectrode
+surfaceatdifferentmagnifications;(g)thecorrespondingEDSspectrum,and(h1–h6)elementalmappingsshowingthedistributionofPd,Ir,Sn,
+Mo,O,andC.
+4702 | J.Mater.Chem.A,2026,14,4693–4708 Thisjournalis©TheRoyalSocietyofChemistry2026
+
+Paper JournalofMaterialsChemistryA
+carried out to probe the oxidation states, morphology, and elemental distribution. These features are consistent with its
+elementaldistributionoftheconstituentmetals. HER performance, as the material facilitates efficient adsorp-
+The XPS core-level spectra (Fig. 6(a–d)) reveal signicant tionofreactionintermediatesandaccelerateselectrontransfer.
+insightsintotheelectronicstructureofthecatalyst.ThePd3d
+spectrum (Fig. 6(a))shows a clear shi ofthe Pd 3d and Pd
+3/2
+3d peaks to higher binding energies aer HER, indicating 3.7 DFTcalculations
+5/2
+changes in the electronic environment of the Pd atoms, likely This subsection presents theoretical studies on the conforma-
+duetochemicalinteractionsorvariationsintheoxidationstate. tionaldependenceofthethermodynamicandelectronicprop-
+Similarly,theMo3d,Ir4fandO1sspectra(Fig.6(b)–(d))exhibit ertiesofvedistinctconformationsofthePdIrSnZnMoHEAfor
+shis toward higher binding energies, revealing changes in HER electrocatalysis. Understanding the thermodynamics of
+peak positions that can be attributed to variations in electro- high-entropy metal alloys at the quantum level is important
+negativity, chemical bonding with neighboring species, and because it provides insight into how the structural and
+oxidationstatemodicationsduringelectrochemicaloperation.
+electrochemicalpropertiesdependonthequantumconforma-
+These shis suggest that the catalyst surface actively partici- tional states present in the bulk material. Exploring the
+pates in electron transfer processes, consistent with its intrinsic physical properties of these conformational states is
+enhanced HER activity. FESEM images of the Pd 0.05 IrSnZnMo particularly important for designing HEA catalysts, as they
+post-tested electrocatalyst-coated electrode surface (Fig. 6(e) directly inuence the thermodynamic feasibility and kinetic
+and (f)) were taken to investigate morphological variations. accessibilityofhydrogenevolutionreaction(HER)pathways.52
+Distinct nanostructures were not observed likely due to the Inthisstudy,thestructural,electronic,andthermodynamic
+preparation method, where the catalyst was mixed with the propertiesofselectedconformationsofmetalalloyscomposed
+binderandsolventtoformaslurry,followedbyultrasonication of d-block heavy metals, namely Ir, Zn, Sn, Pd, and Mo, were
+to ensure homogeneity. However, the coating remained investigatedatthequantumlevel.Suchananalysisalsooffers
+uniform, providing sufficient surface coverage for electro- deeper insights into the possible structural diversities present
+catalysis.Elementalcompositionanddistributionwerefurther in bulk alloys. Fig. 7 depicts the optimized geometries of ve
+examined using EDS and elemental mapping. The EDS spec- distinct conformations of the PdIrSnZnMo alloy obtained via
+trum(Fig.6(g))conrmsthepresenceofPd,Mo,Ir,andSnwith
+full geometry optimization at the B3LYP/LANL2DZ level of
+no detectable impurities. The Zn signal was not observed theory:(A)ring,(B)trigonalbipyramidalwithMoatthevertex,
+possibly due to its lower bonding contribution or low concen- (C) square pyramidal, (D) trigonal bipyramidal with Zn at the
+tration with the HEA. Elemental mapping (Fig. 6(h1–h6)) vertex,and(E)one-atomboundtetragonalconguration.These
+demonstratesauniformdistributionofPd,Ir,Sn,Mo,O,andC optimized structures serve as the basis for the subsequent
+across the electrode surface, conrming successful incorpora- analysis of the electronic properties and thermodynamic
+tion and homogeneous dispersion of all metal components. stabilityrelevanttoHERcatalysis.
+Collectively, these structural and compositional analyses indi- AllveconformationsshowninFig.7werefullyoptimizedin
+cate that the Pd 0.05 IrSnZnMo catalyst possesses well-dispersed both the gas and solvent phases using the B3LYP functional
+active sites, favorable electronic congurations, and uniform with the LANL2DZ pseudo-core potential basis set. Sulphuric
+Fig.7 Optimizedstructuresofthe(a)ring,(b)trigonalbipyramidal(withMoatthevertex),(c)squarepyramidal,(d)trigonalbipyramidal(withZnat
+thevertex),and(e)one-atomboundtetragonalconfigurationattheB3LYP/LANL2DZleveloftheory.
+Thisjournalis©TheRoyalSocietyofChemistry2026 J.Mater.Chem.A,2026,14,4693–4708 | 4703
+
+JournalofMaterialsChemistryA Paper
+acidwasusedasasolventandmodeledviatheconductor-like in the rational design of high-entropy alloy catalysts for the
+polarizable continuum model (CPCM). To evaluate the elec- HER.
+tronicproperties,theHOMO–LUMOenergygapsofthesystems ToevaluatetheHERperformanceoftheveconformations,
+were analyzed, where HOMO represents the highest occupied descriptors including the HOMO–LUMO energy gap (E ),
+g
+molecularorbitalandLUMOrepresentsthelowestunoccupied solvation free energy, and redox potential were calculated
+molecularorbital.AhigherHOMOlevelenhancestheelectron- (Tables S1 and S2). From Table S3 (SI), conformers C and D
+donating ability, which is critical for proton reduction, while exhibit the narrowest energy gaps in the solvent (1.568 and
+alowerLUMOfacilitateselectronacceptanceandstabilizesthe 1.582 eV, respectively), indicating higher chemical reactivity
+adsorbedhydrogenintermediate.53Thermodynamicproperties and more favorable H* adsorption for HER. In the solvent
+and redox potentials were assessed through calculations of phase, these conformations also displayed the highest HOMO
+solvationfreeenergies,determinedfromtheGibbsfreeenergy energiesamongallthestructuresanalyzed(C:−3.326eVandD:
+differences between geometries optimized in the gas and −3.494eV).TherelativelylowernegativeHOMOvaluessuggest
+solventphases.Theseredoxpotentialsprovideinsightsintothe astrongertendencytodonateelectrons,enhancingtheproton
+electron-transfer capacity of each conformer, which is directly reduction process. Table S4 (SI) presents the calculated solva-
+related to suitability as HER electrocatalysts. Comparing the tion free energies, showing that conformations C
+redoxpotentialacrossdifferentconformersfurtherrevealshow (−28.650kcalmol −1)andD(−29.565kcalmol −1)havesigni-
+conformationalvariationscantunecatalyticactivityandinu- cantly less negative values compared to the other conformers.
+ence HER performance.54 Additionally, density of states (DOS) Higher solvation free energy reduces the energy activation
+analysis was performed to identify potential active sites by barrier, improves reaction kinetics, and thus enhances HER
+examining the availability of electronic states near the Fermi efficiency. Additionally, the calculated redox potentials for C
+level and their elemental orbital contributions. This analysis (0.478 V) and D (0.484 V) are amongthe highest inthe series,
+providesadeeperunderstandingoftheindividualcontribution indicating that these conformations require lower over-
+ofmetalcomponentstoelectrontransferandcatalysis,aiding potentials to drive HER. These results are consistent with
+Fig.8 Totaldensityofstates(TDOS)for(a)ring,andprojecteddensityofstates(PDOS)for(bandc)panddorbitalsoftheringstructure,(d)
+TDOSforthetrigonalbipyramidalstructure(withMoatthevertex),(eandf)PDOSforpanddorbitalsofthetrigonalbipyramidalstructure(with
+Moatthevertex),(g)TDOSforthesquarepyramidalstructure,and(handi)PDOSforpanddorbitalsofthesquarepyramidalstructure(withZnat
+thevertex).Thedashedverticallinerepresentsthepositionofthehighestoccupiedmolecularorbital(HOMO).
+4704 | J.Mater.Chem.A,2026,14,4693–4708 Thisjournalis©TheRoyalSocietyofChemistry2026
+
+Paper JournalofMaterialsChemistryA
+Fig.9 (a)TDOSforthetrigonalbipyramidalstructure(withZnatthevertex),(bandc)PDOSforthepanddorbitalsofthetrigonalbipyramidal
+structure(withZnatthevertex),(d)TDOSfortheone-atomboundtetragonalconformation,and(eandf)TDOSforthepanddorbitalsofthe
+one-atomboundtetragonalstructure.
+literature reports, where small-metal clusters typically exhibit Overall, the smallerenergygaps ofconformers CandD imply
+redox potentials ranging from 0.2 to 1.6 V.55 Overall, the elec- higherchemicalreactivity,enhancingtheirsuitabilityasactive
+tronic structure, solvation behavior, and redox properties of sitesforHERandcorrelatingwellwiththeirpredictedsuperior
+conformations C and D highlight their superior potential as catalyticperformance.
+effectiveHERelectrocatalysts.
+The calculated total density of states (TDOS), representing
+4 Conclusions
+the overall distribution of electronic states, and the projected
+densityofstates(PDOS),showingthecontributionsofspecic
+In summary, a novel high entropy stabilized single-phase
+metal fragments, in the solvent phase are presented in Fig. 8
+PdIrSnZnMo HEA was successfully synthesized using a facile
+and9.FromtheTDOSofthering,trigonalbipyramidalwithMo
+solvothermalmethod.ToelucidatetheroleofPdspecies,thePd
+atthevertex,squarepyramidal,trigonalbipyramidalwithZnat
+concentration varied from 0.01 to 0.05 M, and the resulting
+the vertex, and one-atom bound tetragonal congurations
+electrocatalysts were evaluated for HER. Among the tested
+showninFig.8(a,dandg)andFig.9(aandd),itisevidentthat
+compositions, Pd IrSnZnMo (0.05 M Pd) exhibited the best
+0.05
+theTDOSnearthehighestoccupiedmolecularorbital(HOMO)
+HER performance in an acidic medium (0.5 M H SO ),
+2 4
+is primarily dominated by the d-electron orbitals of the requiring only 17 mV overpotential to achieve −10 mA cm −2,
+constituentelements(Pd,Ir,Sn,Zn,andMo),indicatingstrong
+with the reaction mechanism proceeding via the Volmer-
+electronic interactions between individual metallic sites. The
+Heyrovsky pathway. Remarkably, the electrocatalyst also
+PDOS plots (Fig. 8 and 9) provide further insight into the
+demonstrated excellent durability, retaining activity without
+contributions of individual metal fragments, showing the
+noticeable degradation. The superior performance was attrib-
+occupancies of the molecular orbitals for Ir-5d, Mo-4d, Zn-3d,
+uted to synergistic multielement interactions stabilized by the
+Pd-4d, and Sn-4d relative to the HOMO level. From the TDOS highentropyeffect,alongwiththenear-zerohydrogenadsorp-
+plots(Fig.8(a,dandg)andFig.9(aandd)),theenergygapsof tion free energy (DG* z 0) of Pd, which promotes rapid
+conformers C (1.475 eV) (Fig. 8(g)) and D (1.423 eV) (Fig. 9(a))
+adsorption and dissociation of hydrogen intermediates. DFT
+are smaller than those of the other structures, which is calculationsprovidedfurtherinsightintothestructure–activity
+consistent with the frontier molecular orbital analysis. relationship. Among the ve evaluated conformations,
+Furthermore, the PDOS analysis reveals that the d-orbitals of
+conformers C (square pyramidal) and D (trigonal bipyramidal
+Sn-4d, Ir-5d, and Mo-4d contribute most signicantly at the
+withZnatthevertex)exhibitedthenarrowestenergygaps(1.568
+HOMO level, creating electron depletion centers favorable for
+and 1.582 eV, respectively) in the acidic medium, indicating
+HER. In contrast, the Pd-4d orbitals are located slightly below enhancedreactivityandfavourableH*binding.PDOSanalysis
+theHOMOandactaselectronreservoirsduringthereduction conrmed that Sn-4d, Ir-5d, and Mo-4d orbitals contributed
+process. This indicates that the most favorable site for proton signicantly at the HOMO level, which served as electron
+adsorptionisSn,whichfacilitateselectrondepletion,whilePd
+depletion centers for HER, while Pd-4d orbitals functioned as
+serves as an electron reservoir to drive hydrogen evolution.
+electron reservoirs, facilitating the reduction process. Overall,
+Thisjournalis©TheRoyalSocietyofChemistry2026 J.Mater.Chem.A,2026,14,4693–4708 | 4705
+
+JournalofMaterialsChemistryA Paper
+both experimental and theoretical results establish nanocrystalsenablingrapidwaterredox,Adv.Funct.Mater.,
+PdIrSnZnMoHEAasanefficientanddurableelectrocatalystfor 2022,32,2110645.
+HERinanacidicmedium. 2 J. Zhao, C. Zhang, Z. Zhang, Q. Qi, Y. Zhang and J. Hu,
+Constructing high entropy alloy/MoC heterostructure as
+Conflicts of interest efficient and stable catalysts for oxygen evolution reaction,
+Appl.Catal.Gen.,2024,681,119780.
+3 T. Zhang, J. Li, B. Zhang, G. Wang, K. Jiang, Z. Zheng and
+The authors declare that they have no known competing
+nancial interests or personal relationships that could have J. Shen, High-entropy alloy CuCrFeNiCoP lm of Cu-based
+inuencedtheworkreportedinthispaper. ashigh-efficiencyelectrocatalystforwatersplitting,J.Alloys
+Compd.,2023,969,172439.
+4 H. Bian, C. Wang, S. Zhao, G. Han, G. Xie, P. Qi, X. Liu,
+Data availability
+Y. Zeng, D. Zhang and P. Wang, Preparation of highly
+efficient high-entropy alloy catalysts with electrodeposition
+Thedata supportingthisarticle havebeenincludedaspartof
+and corrosion engineering for OER electrocatalysis, Int. J.
+thesupplementaryinformation(SI)andareavailablefromthe
+HydrogenEnergy,2024,57,651–659.
+correspondingauthoruponreasonablerequest.Supplementary
+5 X.Huo,S.Nie,Y.Zhang,X.Zuo,X.Xu,N.Zhang,J.Huang
+information: CV curves recorded at different scan rates in the
+and X. Zhu, Porous high-entropy alloy coatings as highly
+non-Faradaic potential region for Pd IrSnZnMo, Pd -
+0.01 0.02 efficient electrocatalysts for electrocatalytic water splitting,
+IrSnZnMo, Pd IrSnZnMo, and Pd IrSnZnMo HEAs (from
+0.03 0.04 Chem.Eng.J.,2024,487,150622.
+−0.1to−0.2Vvs.SCE)andforthePd IrSnZnMoHEA(from
+0.05 6 T. Ahmed, S. Khatun, S. Bhattacharjee and P. Roy, High-
+0to−0.1Vvs.SCE);lineartofthedifferencebetweenanodic
+entropy borate as an active electrocatalyst for boosted
+andcathodiccurrentdensitiesat−0.15Vvs.SCEasafunction
+alkaline seawater oxidation, ACS Appl. Energy Mater., 2024,
+of scan rate and the corresponding linear plot for the Pd -
+0.05 7,3858–3865.
+IrSnZnMo electrocatalyst; XPS survey spectra; EDS spectra
+7 A. Rebekah, S. Anantharaj, C. Viswanthan and
+recordedduringHRTEMandFESEManalyses;tabulatedvalues
+N. Ponpandian, Zn-substituted MnCo O nanostructure
+of C , ECSA, R, and TOF (Table S1); atomic percentage of 2 4
+dl f anchored over rGO for boosting the electrocatalytic
+elementsinPd IrSnZnMo,Pd IrSnZnMo,Pd IrSnZnMo,
+0.01 0.02 0.03 performance towards methanol oxidation and oxygen
+Pd IrSnZnMo,andPd IrSnZnMoHEAsdeterminedbyICP-
+0.04 0.05 evolution reaction (OER), Int. J. Hydrogen Energy, 2020, 45,
+MS(TableS2);HOMO–LUMOenergygapsandredoxpotentials
+14713–14727.
+(Table S3); and total energy, Gibbs free energy, and solvation
+8 F. Qureshi, M. Asif, A. Khan, H. Aldawsari, M. Yusuf and
+free energy derived from DFT calculations (Table S4); and
+M. Y. Khan, Green hydrogen production from non-
+comparison of the catalytic performance of the outperformed
+traditional water sources: a sustainable energy solution
+Pd IrSnZnMo HEA with the existing high entropy stabilized
+0.05 with hydrogen storage and distribution, Chem. Rec., 2024,
+Pd-based electrocatalysts in an acidic medium (Table S5). See
+24,e202400080.
+DOI:https://doi.org/10.1039/d5ta08468g.
+9 R.-T. Liu, Z.-L. Xu, Fu-M. Li, F.-Y. Chen, J.-Ya Yu, Ya Yan,
+Yu Chen and B. Yu Xia, Recent advances in proton
+Acknowledgements
+exchange membrane water electrolysis, Chem. Soc. Rev.,
+2023,52,5652.
+R.A. gratefully acknowledges the nancial support from the 10 N. Sezer, S. Bayhan, U. Fesli and A. Sanlippo, A
+Polish National Agency for the Academic Exchange (NAWA)
+comprehensive review of the state-of-the-art of proton
+under the Ulam Program (grant no. BPN/ULM/2021/1/00101).
+exchange membrane water electrolysis, Mater. Sci. Energy
+The study was partially carried out using research infrastruc- Technol.,2025,8,44–65.
+turefundedbytheEuropeanUnionundertheframeworkofthe 11 X. Sun, K. Xu, C. Fleischer, X. Liu, M. Grandcolas,
+SmartGrowthOperationalProgramme,Measure4.2(GrantNo. R. Strandbakke and T. S. Bjørheim, Truls Norby and
+POIR.04.02.00-00-D001/20),“ATOMIN2.0–Centerformaterials
+Athanasios Chatzitakis, Earth-abundant electrocatalysts in
+research on ATOMic scale for the INnovative economy”. The proton exchange membrane electrolyzers, Catalysts, 2018,
+authors also acknowledge the Laboratory of Field Emission
+8,657.
+Scanning Electron Microscopy and Microanalysis at the Insti-
+12 X.Li,Y.Yao,Y.Tian,J.Jia,W.Ma,X.YanandJiLiang,Recent
+tute of Geological Sciences, Jagiellonian University, Krakow,
+advancesinkeycomponentsofprotonexchangemembrane
+Poland,forprovidingtheFESEMinstrumentationfacility. waterelectrolysers,Mater.Chem.Front.,2024,8,2493.
+13 S.Xu,H.Liu,N.ZhengandH.B.Tao,Physicaldegradation
+References ofanodecatalystlayerinprotonexchangemembranewater
+electrolysis,Adv.Mater.Interfaces,2024,12,2400549.
+1 Yu Lu, K. Huang, X. Cao, L. Zhang, T. Wang, D. Peng, 14 Qi Feng, X. −Zi Yuan, G. Liu, B. Wei, Z. Zhang, H. Li and
+B. Zhang, Z. Liu, J. Wu, Y. Zhang, C. Chen and Y. Huang, H. Wang, A review of proton exchange membrane water
+Atomically dispersed intrinsic hollow sites of M-M1-M (M1 electrolysis on degradation mechanisms and mitigation
+= Pt, Ir; M = Fe, Co, Ni, Cu, Pt, Ir) on FeCoNiCuPtIr strategies,J.PowerSources,2017,366,33–55.
+4706 | J.Mater.Chem.A,2026,14,4693–4708 Thisjournalis©TheRoyalSocietyofChemistry2026
+
+Paper JournalofMaterialsChemistryA
+15 J. Ni, Z. Shi, Y. Wang, J. Yang, H. Wu, P. Wang, M. Xiao, entropy alloy electrocatalyst for hydrogen evolution
+C. Liu and W. Xing, Development of noble metal-free reaction,Chin.J.Catal.,2024,62,156–165.
+electrocatalysts towards acidic water oxidation: From 31 Nils Lau Nyborg Broge, A. D. Bertelsen, F. Søndergaard-
+fundamental understanding to state-of-the-art catalysts, Pedersen and Bo B. Iversen, Facile solvothermal synthesis
+eScience,2025,5,100295. of Pt−Ir−Pd−Rh−Ru−Cu−Ni−Co high-entropy alloy
+16 J. Wu, H. Wang, N. Liu, B. Jia and J. Zheng, High-entropy nanoparticles,Chem.Mater.,2023,35,144–153.
+materials in electrocatalysis: understanding, design, and 32 S. Navaladian, B. Viswanathan, T. K. Varadarajan and
+development,Small,2024,20,2403162. R. P. Viswanath, A rapid synthesis of oriented palladium
+17 S. Bolar, Y. Ito and T. Fujita, Future prospects of high- nanoparticles by UV irradiation, Nanoscale Res. Lett., 2009,
+entropy alloys as next generation industrial electrode 4,181–186.
+materials,Chem.Sci.,2024,15,8664. 33 O. Demoulin, M. Navez, E. M. Gaigneaux, P. Ruiz,
+18 X.Wang,W.GuoandY.Fu,High-entropyalloys:emerging A.-S. Mamede, P. Granger and E. Payen, Operando
+materials for advanced functional applications, J. Mater. resonance Raman spectroscopic characterization of the
+Chem.A,2021,9,663. oxidation state of palladium in Pd/g-Al O catalysts during
+2 3
+19 R.Zhou,X.Han,Q.Chen,L.Peng,X.Qiu,P.Wang,C.Guo, the combustion of methane, Phys. Chem. Chem. Phys.,
+J. Wang, Z. Wang and J. Hao, Surface decoration on self- 2003,5,4394–4401.
+supporting high entropy alloy electrodes for enhanced 34 A.-S. Mamede, G. Leclercq, E. Payen, J. Grimblot and
+electrochemicalwatersplitting,J.Mater.Chem.A,2024,12, P. Granger, Surface Raman spectroscopic study of NO
+5719–5730. transformation over Pd-based catalysts, Phys. Chem. Chem.
+20 Y.SunandS.Dai,High-entropymaterialsforcatalysis:Anew Phys.,2003,5,4402–4406.
+frontier,Sci.Adv.,2021,7,1–23. 35 B. Bai, Q. Chen,X. Zhao, D. Zhuo, Z. Xu, Z. Wang, M. Wu,
+21 Y. Ma, Y. Ma, Q. Wang, S. Schweidler, M. Botros, T. Fu, H.Tan,S.PengandG.Guo,Enhancingelectroreductionof
+H. Hahn, T. Brezesinski and B. Breitung, High-entropy CO to formate of Pd catalysts loaded on TiO nanotubes
+2 2
+energymaterials:challengesandnewopportunities,Energy arrays by N, B-Support modication, ChemistrySelect, 2019,
+Environ.Sci.,2021,14,2883. 4,8626–8633.
+22 J.-T. Ren, a L. Chen, a H.-Yu Wanga and Z.-Y. Yuan, High- 36 M. Yaghmaei, A. E. Lanterna and J. C. Scaiano, Nitro to
+entropy alloys in electrocatalysis: from fundamentals to amine reductions using aqueous ow catalysis under
+applications,Chem.Soc.Rev.,2023,52,8319. ambientconditions,iScience,2021,24,103472.
+23 J.CaiandZ.Han,Surface-engineerednanostructuredhigh- 37 D. Escalera-L´opez, S. Czioska, J. Geppert, A. Boubnov,
+entropy alloys for advanced electrocatalysis, Commun. P. Röse, E. Saraci,x Ulrike Krewer, J.-D. Grunwaldt and
+Mater.,2025,6,118. S. Cherevko, Phase- and surface composition-dependent
+24 X. Han, G. Wu, S. Zhao, J. Guo, M. Yan, X. Hong and electrochemical stability of Ir-Ru nanoparticles during
+D. Wang, Nanoscale high-entropy alloy for electrocatalysis, oxygenevolutionreaction,ACSCatal.,2021,11,9300–9316.
+Matter,2023,6,1717–1751. 38 C.Massu,V.Pfeifer,X.Huang,J.Noack,A.Tarasov,S.Cap
+25 L. Peng, D. Zhang, Z. Ma, D. Chu, C. Cazorla, A. Rose and and R. Schlögl, High-performance supported iridium
+Z. Han, Enhanced pH-universal hydrogen evolution oxohydroxide water oxidation electrocatalysts,
+reactions on the Ru/a–Ni–MoO electrocatalysts, Small ChemSusChem,2017,10,1943–1957.
+3
+Struct.,2023,4,2300194. 39 C.Castillo,G.Buono-core,C.Manzur,N.Yutronic,R.Sierpe,
+26 Z.Y.Fan,M.Mucalo,J.KennedyandF.Yang,Thepotential G.CabelloandB.Chornik,Molybdenumtrioxidethinlms
+ofhigh-entropyalloysascatalystmaterialsinwater-splitting doped with gold nanoparticles grown by a sequential
+application,Int.J.HydrogenEnergy,2025,134,64–83. methodology: Photochemical metal-organic deposition
+27 W.-Yi Huo, S.-Qi Wang, W.-H. Zhu, Ze-L. Zhang, F. Fang, (PMOD) and DC-magnetron sputtering, J. Chil. Chem. Soc.,
+Z.-H. Xie and J.-Q. Jiang, Recent Progress on High-Entropy 2016,61,2816–2820.
+Materials for Electrocatalytic Water Splitting Applications, 40 BoLi,L.Jiang,X.Li,R.Peng,Z.Pei,A.Wang,L.Qu,Z.Yang,
+Tungsten,2021,vol.3,pp.161–180. Z. Cheng and Y. Lu, Preparation of monolayer MoS
+2
+28 A.Ahmad,A.Lakshmanan,R.Zheng,Y.Bai,W.Li,M.Xin, quantum dots using temporally shaped femtosecond laser
+An-jian Lu, U. Khan and J. Gao, Controllable moderate- ablation of bulk MoS targets in water, Sci. Rep., 2017, 7,
+2
+temperature synthesis of high entropy PtIrCoNi Fe for 11182.
+x 1-x
+superior hydrogen evolution reaction, Int. J. Hydrogen 41 Y.-Ju Lee, D. Barrera, K. Luo and J. W. P. Hsu, In situ
+Energy,2025,125,48–55. chemical oxidation of ultrasmall MoO nanoparticles in
+x
+29 M. Athira Chandran, S. Sahoo, A. K. Singh and suspensions,J.Nanotechnol.,2012,2012,5.
+B. L. V. Prasad, Synthesis framework for designing 42 A. Song, Y. Wang, S. Liu, Q. Wang and J. Hu, Role of
+PtPdCoNiMnhigh-entropyalloy:Astableelectrocatalystfor materials chemistry on transparent conductivity of
+enhanced alkaline hydrogen evolution reaction, Small, amorphous Nb-Doped SnO thin lms prepared by remote
+2
+2025,21,2408317. plasmadeposition,Coatings,2022,12,1111.
+30 G.Zhao,K.Lu,Y.Li,F.Lu,P.Gao,B.Nan,L.Li,Y.Zhang, 43 A.KumarandI.Ahmad,Roleofdefectsandmicrostructure
+P. Xu, Xi Liu and L. Chen, An efficient and stable high- on the electrical properties of solution-processed Al-doped
+Thisjournalis©TheRoyalSocietyofChemistry2026 J.Mater.Chem.A,2026,14,4693–4708 | 4707
+
+JournalofMaterialsChemistryA Paper
+ZnO transparent conducting ms, Appl. Phys. A, 2020, 126, 57 P. Gurunathan, P. M. Ette and K. Ramesha, Synthesis of
+598. hierarchically porous SnO microspheres and performance
+2
+44 A. Ganguly, S. Sharma, P. Papakonstantinou and evaluation as Li-ion battery anode by using different
+J. Hamilton, Probing the thermal deoxygenation of binders,ACSAppl.Mater.Interfaces,2014,6,16556–16564.
+graphene oxide using high-resolution in situ X-ray-based 58 D.H.Nguyen,N.VanQuy,LiWei,M.An,H.Song,Y.Kang,
+spectroscopies,J.Phys.Chem.C,2011,115,17009–17019. Y. Cho and D. Kim, One-dimensional tin-oxide-coated
+45 M. Athira Chandran, P. Dutta, P. Singh, A. K. Singh and single-wallcarbonnanotubesforgassensorapplications,J.
+B. L. V. Prasad, Design and synthesis of PtPdNiCoMn high- KoreanPhys.Soc.,2009,54,1893–1896.
+entropyalloyelectrocatalystfor enhancedalkaline hydrogen 59 R. Kiran Kumar Reddy, S. Kailasa, B. Geetha Rani,
+evolution reaction: A theoretically supported predictive N. Jayarambabu, H. Yasuhiko, G. Venkata Ramana and
+designapproach,Adv.Funct.Mater.,2024,35,2418644. K. Venkateswara Rao, Hydrothermal approached 1-D
+46 M.AbdulQadeer,X.Zhang,M.A.Farid,M.Tanveer,Y.Yan, molybdenum oxide nanostructures for high-performance
+S. Du, Z.-F. Huang, M. Tahir and Ji-J. Zou, A review on supercapacitorapplication,SNAppl.Sci.,2019,1,1365.
+fundamentals for designing hydrogen evolution 60 X.Fu,J.Zhang,S.Zhan,F.Xia,C.Wang,D.Ma,Q.Yue,J.Wu
+electrocatalyst,J.PowerSources,2024,613,234856. andY.Kang,High-entropyalloynanosheetsforne-tuning
+47 H.Xu,Y.Liu,K.Wang,L.Jin,J.Chen,H.ChenandG.He, hydrogenevolution,ACSCatal.,2022,12,11955–11959.
+High-entropy layered double hydroxides tailor Pt electron 61 S. Jeong, A. J. Branco, S. W. Bollen, C. S. Sullivan and
+state for promoting acidic hydrogen evolution reaction, J. M. B. Ross, Universal pH electrocatalytic hydrogen
+ColloidInterfaceSci.,2025,684,566–574. evolution with Au-based high entropy alloys, Nanoscale,
+48 G.K.Gebremariam,A.Z.Jovanovi´candI.A.Paˇsti,TheEffect 2024,16,11530.
+of Electrolytes on the Kinetics of the Hydrogen Evolution 62 H.-pengFeng,T.Lin,G.-mingZeng,Y.Zhou,Y.-chengDeng,
+Reaction,Hydrogen,2023,vol.4,pp.776–806. X.Ren,B.Song,C.Liang,M.-yunWeiandJ.-fangYu,Core-
+49 S. Anantharaj, S. R. Ede, K. Karthick, S. Sam Sankar, shell nanomaterials: Applications in energy storage and
+K. Sangeetha and P. E. Karthik, Subrata Kundu, Precision conversion,Adv.ColloidInterfaceSci.,2019,267,26–46.
+and correctness in the evaluation of electrocatalytic water 63 C.FrancoJones,L.Resina,F.C.Ferreira,P.Sanjuan-Alberte
+splitting: revisiting activity parameters with a critical and T. Esteves, Conductive core-shell nanoparticles:
+assessment,EnergyEnviron.Sci.,2018,11,744. Synthesis and applications, J. Phys. Chem. C, 2024, 128,
+50 A. Kazemi, F. Manteghi and Z. Tehrani, Metal 11083–11100.
+electrocatalysts for hydrogen production in water splitting, 64 A. L. Thomann, P. Brault, J. P. Rozenbaum, C. Andreazza-
+ACSOmega,2024,9,7310–7335. Vignolle, P. Andreazza, H. Estrade-Szwarckopf,
+51 M. D ˇ uroviˇc, J. Hn´at and K. Bouzek, Electrocatalysts for the B. Rousseau, D. Babonneau and G. Blondiaux, Chemical
+hydrogenevolutionreactioninalkalineandneutralmedia. and morphological characterization of Pd aggregates
+Acomparativereview,J.PowerSources,2021,493,229708. grown by plasmasputter deposition, J. Phys. D: Appl.Phys.,
+52 T. Yumura, M. Kumondai, Y. Kuroda, T. Wakasugi and 1997,30,3197–3202.
+H. Kobayashi, Utilizing super-atom orbital ideas to 65 S.Chen,T.Zhang,J.Han,H.Qi,S.Jiao,C.HouandJ.Guan,
+understand properties of silver clusters inside ZSM-5 Interface engineering of Fe-Sn-Co sulde/oxyhydroxide
+zeolite,RSCAdv.,2017,7,4950–4959. heterostructural electrocatalyst for synergistic water
+53 S. Yang, D. Rao, J. Ye, S. Yang, C. Zhang, C. Gao, X. Zhou, splitting,NanoRes.Energy,2024,2,e9120106.
+H.YangandX.Yan,Mechanismoftransitionmetalcluster 66 W.Guo,R.Yang,J.Fan,X.Xiang,X.Du,N.Shi,J.Baoand
+catalysts for hydrogen evolution reaction, Int. J. Hydrogen M. Han, Component-controlled synthesis of Pd Sn
+x y
+Energy,2021,46,3484–3492. nanocrystals on carbon nanotubes as advanced
+54 O. L´opez-Estrada, N. Mammen, L. Laverdure, electrocatalysts for oxygen reduction reaction, RSC Adv.,
+M. M. Melander, H. Hakkinen and K. Honkala, 2024,14,771.
+Computational criteria for hydrogen evolution activity on 67 L.Mohrhusen,S.Zhang,M.M.MontemoreandR.J.Madix,
+ligand-protected Au25-based nanoclusters, ACS Catal., ModifyingthereactivityofsinglePdsitesinatrimetallicSn-
+2023,13,8997–9006. Pd-Ag surface alloy: Tuning CO binding strength, Small,
+55 S. Jafari, Y. A. Tavares Santos, J. Bergmann, M. Irani and 2024,20,2405715.
+U. Ryde, Benchmark study of redox potential calculations 68 Q.-W.XingandY.Zhang,Amorphousphaseformationrules
+for Iron–Sulfur clusters in proteins, Inorg. Chem., 2022, 61, inhigh-entropyalloys,Chin.Phys.B,2017,26,018104.
+5991–6007. 69 S. Sarkar and S. C. Peter, An overview on Pd-based
+56 J. Baltrusaitis, B. MendozaSanchez, V. Fernandez, electrocatalysts for the hydrogen evolution reaction, Inorg.
+R. Veensra, N. Dukstiene, A. Roberts and F. Neal, Chem.Front.,2018,5,2060.
+GeneralizedmolybdenumoxidesurfacechemicalstateXPS 70 J.Shi,Y.Bao,R.Ye,JuZhong,L.Zhou,Z.Zhao,W.Kangand
+determination via informed amorphous sample model, S. B. Aidarova, Recent progress and perspective of
+Appl.Surf.Sci.,2015,326,151–161. electrocatalysts for the hydrogen evolution reaction, Catal.
+Sci.Technol.,2025,15,2104–2131.
+4708 | J.Mater.Chem.A,2026,14,4693–4708 Thisjournalis©TheRoyalSocietyofChemistry2026
+

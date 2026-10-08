@@ -1,0 +1,925 @@
+RESEARCH ARTICLE
+www.afm-journal.de
+A Multi-Site Synergistic Effect in High-Entropy Alloy for
+Efficient Hydrogen Evolution
+Yi Wan, Wenrui Wei, Shengqi Ding, Liang Wu, Haiying Qin, and Xianxia Yuan*
+development of efficient and durable elec-
+Unravelingthemechanismdrivenbyelectronegativity-dominatedelectronic trocatalysts to accelerate the HER process
+configurationiscrucialfordevelopinghigh-entropyalloysasefficientcatalyst is of great vital.[6] Noble metal catalysts,
+forhydrogenevolutionreaction(HER).Inthiswork,differentatomswith such as Pt, possess superior capability to-
+wardHER,buttheirlarge-scaleapplication
+diverseelectronegativitiesareexploredtoregulatetheelectrocatalyticactivity
+ishinderedbythehighcostandlimitedre-
+ofPtFeCoNi@HCStowardHER,resultinginPtFeCoNiCuCr@HCSwithan
+sources.Inthiscase,alloyingrepresentsan
+overpotentialof29mVat10mAcm−2andenhanceddurabilitysurpassing
+effective strategy to reduce the consump-
+thatofcommercial20%Pt/CinKOHenvironment.Basedonvarious tion of noble metals while simultaneously
+physicochemicalandelectrochemicaltechniquesaswellasdensityfunctional enhancing the electrocatalytic activity.[7,8]
+theorycalculations,amulti-sitesynergisticeffectwithinPtFeCoNiCuCr@HCS High entropy alloys (HEAs) are a type
+of materials with a multi-element struc-
+materialiselucidatedintermsofbothstructuralcompositionand
+turethatemergedrecently,[9] andthesim-
+electrocatalyticprocess.Briefly,PtandCuserveasthefundamentalelements
+ilar atomic radius or low mixing enthalpy
+toformface-centeredcubiccrystalframework,Crprimarilyfunctionsasan is crucial in their formation, as it en-
+electrondonortoregulatetheelectronicconfiguration,Coservesasthemain ables a homogeneous solid solution struc-
+activesiteforwaterdissociation,andtheproducedhydrogenspeciespreferto turetoavoidphaseseparation.[10]Manyre-
+searcheshavedemonstratedsuccessfulfab-
+transfertowardPt,Fe,andCusitesforhydrogenformation.Thisworkoffers
+rication of HEAs with stable and homo-
+anin-depthinsightonthesynergisticmechanisminhighentropyalloysandis
+geneous structure using noble (Pt, Ru, Ir,
+helpfulfordesigningefficientelectrocatalysts.
+etc.) or transition metals (Fe, Co, Ni, Cu,
+etc.),[11,12] and the resulting unique archi-
+tectureoffersseveraladvantagesonelectro-
+catalytic capability compared to traditional
+1.Introduction catalysts: 1) It allows for effective regulation of microstructure
+andelectrondistributiontooptimizetheadsorptionenergybe-
+Global energy crises and environmental concerns drive the in-
+tweenhydrogenintermediatesandactivesites,resultinginim-
+creasingdemandforsustainableandcleanenergy.[1] Hydrogen proved kinetics for hydrogen evolution;[13] 2) The high mixing
+energyisoneofthemostpromisingcandidatesduetotheadvan-
+entropycausessluggishdiffusionoftheatomswithinthestruc-
+tageofhighenergydensityandabundantsource,makingitsuit-
+ture, effectively preventing degradation and corrosion of HEA
+ableforwidespreadapplicationinthefieldsoftransportationand materials.[14] Theseintrinsicfeaturesensureagoodactivityand
+industrialproduction.Inrecentyears,electrocatalyticwatersplit-
+durability of HEA materials under harsh conditions, making
+tinghasgainedgreatattentionasanelectrochemicalenergycon-
+them a type of promising catalyst widely applicated in electro-
+version technology enabling efficient hydrogen production.[2–4]
+catalyticwatersplitting.
+Herein, the kinetics of hydrogen evolution reaction (HER) sig-
+Moreover,itappearstobeaneffectiveandviablestrategyforac-
+nificantlyaffecttheefficiencyofoverallwatersplitting,[5]andthe
+celeratingHERkineticsthroughtheincorporationofatomswith
+disparateelectronegativitiesintohighentropysystem,[15]andthe
+stability of HEAs is directly linked to the interactions between
+Y.Wan,W.Wei,S.Ding,L.Wu,X.Yuan
+SchoolofChemistryandChemicalEngineering the elements which are reflected in their electronegativities,[16]
+ShanghaiJiaoTongUniversity aselectronegativityrepresentsthevaryingelectron-attractingor
+Shanghai200240,China -donatingabilitiesofdifferentatoms.Therefore,appropriateelec-
+E-mail:yuanxx@sjtu.edu.cn
+tronegativity enables effective optimization of local electronic
+H.Qin
+configuration,therebyfacilitatingtheadsorption/desorptionpro-
+NewEnergyMaterialsResearchCenter
+cess of intermediates during the HER process and enhancing
+CollegeofMaterialsandEnvironmentalEngineering
+HangzhouDianziUniversity the stability.[17] For example, Zhu et al. compared the effects
+Hangzhou310018,China of incorporating Cr, Mn, and Cu with different electronegativi-
+tiesonelectrocatalyticperformanceofthehighentropymaterial
+TheORCIDidentificationnumber(s)fortheauthor(s)ofthisarticle of FeCoNiRu/CNF as HER catalyst,[15] and revealed that Mn is
+canbefoundunderhttps://doi.org/10.1002/adfm.202414554
+moresuitablethanbothCrandCuforregulatingtheelectronic
+DOI:10.1002/adfm.202414554
+Adv.Funct.Mater.2025,35,2414554 2414554(1of11) ©2024Wiley-VCHGmbH
+
+www.advancedsciencenews.com www.afm-journal.de
+configurationofthismaterial,whichpromotestheHERperfor- STEM(HAADF-STEM).PtFeCoNiCuCr@HCSpreservesthein-
+mancetothehighestlevelbecauseoftheinducedfavorableen- herent3DstructureofHCS(Figure1c),ensuringthedistribu-
+ergybarrierforwaterdissociationandadsorptionfreeenergyof tion of HEA nanoparticles with a diameter of ≈5 nm (Figures
+H*.Asaresult,theHERoverpotentialofFeCoNiMnRu/CNFin S3a,b, Supporting Information) throughout the carbon shell
+1MKOHat100mAcm−2was55and174mVlowerthanthatof (Figures1d,e).High-resolutionTEM(HR-TEM)imageofPtFe-
+FeCoNiCrRu/CNFandFeCoNiCuRu/CNF,respectively. CoNiCuCr@HCS nanoparticle and the corresponding diffrac-
+While actually, the uplift of HER performance for high tion ring (Figure 1f) indicate that the lattice fringes with spac-
+entropy alloys is the result of a synergistic interaction be- ingof0.225and0.193nmcanbeascribedtotheexpanded(111)
+tween multiple active sites and reaction intermediates driven and (200) facet of Cu Pt (PDF #35–1358), which is consistent
+3
+by electronegativity-dominated electronic configuration,[18] and with the result of XRD pattern. Furthermore, HAADF-STEM
+unraveling the mechanism is crucial for the structural design images and the corresponding energy dispersive spectroscopy
+and performance enhancement of high-entropy materials. In (EDS)elementalmappings(Figure1g;FiguresS3candS4,Sup-
+this work, according to Pauling electronegativity scale (𝜒 ), La portingInformation)demonstratetheuniformdistributionofPt,
+p
+(𝜒 =1.10),Mn(𝜒 =1.55),Cr(𝜒 =1.66),Cu(𝜒 =1.90)and Fe,Co,Ni,Cu,andCrformingPtFeCoNiCuCr@HCSnanopar-
+p p p p
+Mo (𝜒 = 2.16) with diverse electronegativities are selected to ticles.Theseresultsprovideadditionalcompellingevidencesup-
+p
+regulatetheelectronicstructureofhollowcarbonsphere(HCS) portingthehomogeneousstructureintheas-preparedPtFeCoN-
+supported high entropy alloy (HEA@HCS) material of quater- iCuCr@HCSmaterial.
+nary PtFeCoNi@HCS, and a series of resulted quinary (PtFe- The elemental composition in PtFeCoNiCuCr@HCS (Table
+CoNiX@HCS, X = La, Mn, Cu, Mo) and senary (PtFeCoN- S1,SupportingInformation)wasdetectedusinginductivelycou-
+iCuY@HCS, Y = Cr, Mn, Mo) HEA@HCS materials are re- pledplasmaatomicemissionspectrometry(ICP-AES),anditre-
+ported.AsCuandCrareintroducedintoPtFeCoNi@HCSinse- veals the weight percent of 7.33% for Pt, 0.92% for Fe, 1.04%
+quencetoyieldPtFeCoNiCuCr@HCS,thelocalelectronicstruc- for Co, 2.23% for Ni, 3.13% for Cu, and 0.26% for Cr in PtFe-
+ture of the material is optimized, leading to a multi-site syner- CoNiCuCr@HCS(FigureS5a,SupportingInformation),which
+gisticeffectthatenablesanimprovedHERperformancewithan means an atomic fraction of 0.51, 0.22, 0.24, 0.52, 0.67, 0.06%
+overpotentialof29mVat10mAcm−2,anditsdurabilityisevi- forPt,Fe,Co,Ni,CuandCr(FigureS5b,SupportingInforma-
+dentlybetterthanthatofcommercial20%Pt/C.Basedonexperi- tion),respectively.Apparently,theatomicratioofPtandallthe
+mentscoupledwithdensityfunctionaltheory(DFT)calculations, othermetalsofFe,Co,Ni,Cu,andCrisapproachto1:3,con-
+themulti-sitesynergisticeffectwithinthePtFeCoNiCuCr@HCS sistingoftheatomicratioofPtandCuinCu Pt.Theresultof
+3
+materialwaselucidatedintermsofbothstructuralcomposition ICP-AESmeetswellwiththeXRDpatternthatPtandCuplay
+andelectrocatalyticprocess. a crucial role as fundamental elements to form the basic crys-
+talstructureofhighentropyalloys,whileFe,Co,Ni,andCrare
+2.ResultsandDiscussion morelikelytosubstituteCuatominCu 3 PttogeneratePtFeCoN-
+iCuCr@HCSmaterialduetotheirsimilarchemicalpropertiesas
+2.1.MaterialsCharacterization transitionmetals.[19]
+X-ray absorption spectroscopy (XAS) was employed to fur-
+Monodispersepolystyrene(PS)spheres(FigureS1,Supporting ther explore the electronic and coordination structure of Pt-
+Information)wereusedasasofttemplatetosynthesizehollow FeCoNiCuCr@HCS, and the X-ray absorption near-edge struc-
+carbonspheres(HCS)(FigureS2,SupportingInformation).The ture (XANES) spectra of Pt L -edge are depicted in Figure 2a.
+3
+HCS-supportedhigh-entropyalloymaterial(HEA@HCS)ofPt- The white line intensity and pre-edge energy of PtFeCoN-
+FeCoNiCuCr@HCSwaspreparedthroughaone-stepsolvother- iCuCr@HCSisawayfromPtO ,butcomparabletothatofPtfoil,
+2
+mal method as depicted in Figure 1a, wherein multiple metal suggestingametallicstateofPtinPtFeCoNiCuCr@HCS.[20] In
+ionswerereducedtoformHEAnanoparticlesdepositedonHCS addition,theFourier-transformed(FT)k3-weightedextendedX-
+surface.X-raydiffraction(XRD)wasconductedtounveilthecrys- rayabsorptionfinestructure(EXAFS)spectracouldprovidethe
+talstructureoftheas-synthesizedPtFeCoNiCuCr@HCSandthe informationofcoordinationstructure.IntheEXAFSspectraof
+detailed information is shown in Figure 1b. The three distinct PtL -edge(Figure2b,c),theprominentpeakat2.64ÅinPtFe-
+3
+diffractionpeakslocatedat2𝜃 of41.6°,48.5°,and71.3°canbe CoNiCuCr@HCSisoriginatedfromthefirst-shellPt─Ptbond,
+attributed to (111), (200), and (220) facets of Cu Pt (PDF #35– andcarefulanalysisrevealsthatthefirst-shellPt─PtbondinPt-
+3
+1358),respectively,suggestingahomogeneousface-centeredcu- FeCoNiCuCr@HCS exhibits shift toward higher R-value com-
+bic(FCC)configurationwithinPtFeCoNiCuCr@HCSwhichre- pared to that of 2.57 Å in Pt foil, which could be attributed to
+semblesthatofCu Ptalloy.However,carefulobservationfinds themultiplemetalatomsembeddedinthelatticeofthematerial.
+3
+thatthediffractionpeaksinPtFeCoNiCuCr@HCSslightlyshift Moreover,theabsenceofPt-OshellinPtFeCoNiCuCr@HCSin-
+toward lower 2𝜃 values compared to those of standard Cu Pt dicatesawell-maintainedalloyingstructure.[21]Thesefindingsin
+3
+(PDF#35–1358),implyingtherelaxationofcrystallatticeinduced EXAFSspectrawerefurthervalidatedthroughwavelettransform
+byembeddingofmultiplemetalatomsinCu Pt.Theseresultsre- (WT)mapsofPtL -edge(Figure2d),wheretheintensityaround
+3 3
+vealahomogeneousphaseofPtFeCoNiCuCr@HCSwithPtand k value of 8.6 Å−1 in PtFeCoNiCuCr@HCS closely resembles
+Cuformingthebasiccrystallatticeasfundamentalelements. that observed in Pt foil, indicating the metallicity of PtFeCoN-
+The morphology of PtFeCoNiCuCr@HCS was observed us- iCuCr@HCS. In the XANES spectra of Cu K-edge (Figure 2e),
+ing a scanning electron microscope (SEM), transmission elec- thepre-edgeofPtFeCoNiCuCr@HCSisobviouslydifferentfrom
+tron microscope (TEM), and high-angle annular dark field- CuO,butexhibitssimilaritytotheobservedpre-edgeinCufoil,
+Adv.Funct.Mater.2025,35,2414554 2414554(2of11) ©2024Wiley-VCHGmbH
+16163028,
+2025,
+5,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202414554
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.afm-journal.de
+Figure1. a)SchematicdiagramofPtFeCoNiCuCr@HCSsynthesisandthecorrespondinghydrogenevolutionprocess.b)XRDpattern,c)SEMimage,
+d)TEMimage,e)HADDF-STEMimage,f)HR-TEMimage,andg)EDSmappingsofPtFeCoNiCuCr@HCS.
+implyingametallicstateofCuwithinPtFeCoNiCuCr@HCS.[22] afastHERprocess,[23] electronegativityplaysanimportantim-
+Moreover,theEXAFSspectraofCuK-edge(Figure2f,g)demon- pactonelectrocatalyticactivity,asitrepresentsthecapabilityof
+strateaCu-Cushellat2.29ÅinPtFeCoNiCuCr@HCS,andthe an atom to capture electrons and in turn affects the local elec-
+slightshiftofCu-CushelltowardahigherR-valuecomparedto tronicconfigurationtooptimizeadsorption/desorptionofhydro-
+thatinCufoilcouldbeascribedtothesubstitutionofCuwith genspecies.[24]AccordingtoPaulingelectronegativityscale(𝜒 ),
+p
+othermetalsinthecrystalstructure.IntheWTmapsofCuK- rare-earthmetalofLa(𝜒 =1.10)andtransitionmetals ofMn
+p
+edge(Figure2h),theintensityaroundkvalueof7.9Å−1 inPt- (𝜒 = 1.55), Cu (𝜒 = 1.90) and Mo (𝜒 = 2.16) with different
+p p p
+FeCoNiCuCr@HCSiscloselytothatofCufoil,confirmingthe electronegativities were selected to prepare PtFeCoNiX@HCS
+existenceofthefirst-shellCu─Cubond.TheseXASresultsveri- (X = La, Mn, Cu and Mo) materials. XRD patterns (Figure S6,
+fiesthemetallicpropertiesofPtFeCoNiCuCr@HCS. SupportingInformation)indicatethatallthePtFeCoNiX@HCS
+materialspossessFCCstructure,withthreediffractionpeaksat
+≈41.2°,47.9°and70.0°correspondingto(111),(200)and(220)
+2.2.ElectrochemicalHERPerformance facetsofPtFeCoNi@HCS.However,thecarefulcomparisonre-
+vealsthatthediffractionpeaksofPtFeCoNiLa@HCS,PtFeCoN-
+TheelectrochemicalHERperformancewasinvestigatedin1.0M iMn@HCS, and PtFeCoNiCu@HCS shift toward a higher 2𝜃
+KOH using a three-electrode electrochemical system. In HEA value, while that of PtFeCoNiMo@HCS shifts toward a lower
+materials,inadditiontothefactthatthehomogeneousdistribu- 2𝜃value.Moreover,thediffractionpeaksofPtFeCoNiLa@HCS,
+tionofactivesitesinducedbyhighmixingentropycouldenable PtFeCoNiMn@HCSandPtFeCoNiMo@HCSexhibitdecreased
+Adv.Funct.Mater.2025,35,2414554 2414554(3of11) ©2024Wiley-VCHGmbH
+16163028,
+2025,
+5,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202414554
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.afm-journal.de
+Figure2. ElectronicandcoordinationstructureofPtFeCoNiCuCr@HCS.a)XANESspectra,b)EXAFSspectra,c)thefittedEXAFSspectra,andd)wavelet
+transformmapsofthePtL -edge.e)XANESspectra,f)EXAFSspectra,g)thefittedEXAFSspectra,andh)wavelettransformmapsoftheCuK-edge.
+3
+intensitycomparedtoPtFeCoNi@HCS,indicatingareductionin (𝜂 )of89mV,whilethe𝜂 valueofPtFeCoNiX@HCS(X=La,
+10 10
+crystallinity.Thesefindingsconfirmtheimpactofdifferentmet- Mn, Cu, Mo) varies with the change in electronegativity of the
+als on the crystal structure of PtFeCoNi@HCS, and therefore, incorporated atoms. Among them, PtFeCoNiLa@HCS display
+theirinfluenceontheHERperformanceofPtFeCoNi@HCSma- thelargest𝜂 of313mVcomparedtoPtFeCoNi@HCS(89mV),
+10
+terialwerecompared. PtFeCoNiMn@HCS(215mV),PtFeCoNiCu@HCS(62mV)and
+The linear sweep voltammetry (LSV) curves of the PtFe- PtFeCoNiMo@HCS(188mV).Eventhrough100mAcm−2,PtFe-
+CoNi@HCS and PtFeCoNiX@HCS (X = La, Mn, Cu, Mo) CoNiLa@HCSalwaysdemonstratesthelargestoverpotentialand
+materials are shown in Figure 3a. At a current density of PtFeCoNiCu@HCSexhibitsthelowestoverpotential(Figure3a;
+10 mA cm−2, PtFeCoNi@HCS demonstrates an overpotential Table S2, Supporting Information). The different HER
+Adv.Funct.Mater.2025,35,2414554 2414554(4of11) ©2024Wiley-VCHGmbH
+16163028,
+2025,
+5,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202414554
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.afm-journal.de
+Figure3. Electrocatalyticperformance.a)HERpolarizationcurves,b)Tafelplots,c)Linefittedplotsofscanrateversus(j -j )/2at1.08Vforthe
+a c
+estimationofdoublelayercapacitance(C ),andd)EISNyquistplotsofPtFeCoNi@HCSandPtFeCoNiX@HCS(X=La,Mn,Cu,Mo).
+dl
+performance of PtFeCoNiX@HCS is probably because the sponding C are presented in Figure 3c. It is observed that
+dl
+smaller electronegativity of La than Mn, Cu, and Mo makes a PtFeCoNiCu@HCSexhibitsahigherC valueof1.64mFcm−2
+dl
+stronger capability of La atom to supply electrons that grad- thanPtFeCoNi@HCS(0.57mFcm−2),PtFeCoNiLa@HCS(0.20
+ually accumulate on active sites, which is unsuitable for the mF cm−2), PtFeCoNiMn@HCS (0.41 mF cm−2) and PtFeCoN-
+desorption process of hydrogen species. With the increase of iMo@HCS(0.22mFcm−2),implyingthelargerECSAandmore
+electronegativity from La (𝜒 = 1.10) to Mn (𝜒 = 1.55) and availableactivesitesexposedonitssurfaceforHERprocess.
+p p
+Cu (𝜒 = 1.90), the increasing capability to capture electrons Togainin-depthinsightintotheinfluenceofvariousmetals
+p
+leads to appropriate adsorption and feasible desorption of onHERperformance,EISNyquistplotsoftheHEA@HCSma-
+hydrogen species, resulting in improved HER performance. terials(Figure3d)wereanalyzedwiththeequivalentresistance-
+While for Mo with an electronegativity high up to 2.16, its capacitance circuits (Figures S9 and S10, Supporting Informa-
+pronouncedelectron-trappingcapabilityleadstoareductionof tion), where Rs is ohmic resistance, CPE1 and CPE2 are con-
+electronsonactivesitesthathinderstheadsorptionofhydrogen stant phase elements, R and R are charge transfer resis-
+ct1 ct2
+species, thereby resulting in diminished activity for the HER tance. The fitted values of total charge transfer resistance (R )
+ct
+process. Tafel slope is an essential parameter to evaluate the consistingofbothR andR arelistedinTableS2(Support-
+ct1 ct2
+electrocatalyticperformance.InFigure3b,thelowerTafelslope ingInformation),andthelowerR valueofPtFeCoNiCu@HCS
+ct
+of PtFeCoNiCu@HCS (136.42 mV dec−1) compared to that (18.8 Ω) compared to that of PtFeCoNi@HCS (48.9 Ω), PtFe-
+of PtFeCoNi@HCS (157.31 mV dec−1), PtFeCoNiLa@HCS CoNiLa@HCS(1536.0Ω),PtFeCoNiMn@HCS(243.9Ω)andPt-
+(294.61mVdec−1),PtFeCoNiMn@HCS(223.05Mvdec−1)and FeCoNiMo@HCS(165.0Ω)indicatesafasterchargetransferki-
+PtFeCoNiMo@HCS (204.13 mV dec−1) suggests an uplift of neticsinPtFeCoNiCu@HCSduringHERprocess.
+HER kinetics induced by Cu corporation. The electrochem- Theaforementionedelectrochemicalresultsconfirmthatthe
+ical active surface area (ECSA) of catalysts is generally used electronegativityofatomshasasignificanteffectontheHERper-
+to evaluate the number of accessible active sites, and directly formanceofPtFeCoNi@HCS,andCupossessessuperiorcapa-
+proportional to the electrochemical double-layer capacitance bility in regulating the electrocatalytic activity compared to La,
+(C )calculatedfromthecyclicvoltammetry(CV)curveswithin Mn,andMo.
+dl
+thenon-Faradaicpotentialrange.FiguresS7andS8(Supporting To further improve the HER performance of PtFeCoN-
+Information) illustrate the CV curves of PtFeCoNi@HCS and iCu@HCS material, Cr (𝜒 = 1.66), Mn (𝜒 = 1.55) and Mo
+p p
+PtFeCoNiX@HCS (X = La, Mn, Cu, Mo) materials obtained (𝜒 =2.16)wereintroduced,respectively,tocreatesenaryPtFe-
+p
+at potential sweeping rates of 10–50 mV s−1, and the corre- CoNiCuY@HCS(Y = Cr,Mn, Mo).XRDpatterns (FigureS11,
+Adv.Funct.Mater.2025,35,2414554 2414554(5of11) ©2024Wiley-VCHGmbH
+16163028,
+2025,
+5,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202414554
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.afm-journal.de
+Figure4. Electrocatalyticperformance.a)HERpolarizationcurves,b)Tafelplots,c)Linefittedplotsofscanrateversus(j -j )/2at1.08Vfortheesti-
+a c
+mationofdoublelayercapacitance(C ),andd)EISNyquistplotsofPtFeCoNiCu@HCSandPtFeCoNiCuY@HCS(Y=Cr,Mn,Mo).e)Performance
+dl
+comparisonoftheas-preparedHEA@HCSmaterials.f)HERperformancecomparisonofPtFeCoNiCuCr@HCSwithreportednoble-metalbasedmate-
+rials.g)LSVcurvesandh)Overpotentialsat10mAcm−2ofPtFeCoNiCuCr@HCSandcommercial20%Pt/Cbeforeandafter15000CVcycles.
+SupportingInformation)demonstratethatPtFeCoNiCuY@HCS slopeof39.24mVdec−1(Figure4b),thehighestC valueof1.86
+dl
+materials keep consistent diffraction peaks akin to PtFeCoN- mFcm−2 (Figure4c;FigureS12,SupportingInformation),and
+iCu@HCS, suggesting well maintained FCC crystal structure thesmallestR of8.4Ω(Figures4d;FigureS13,SupportingIn-
+ct
+of PtFeCoNiCu@HCS after incorporating Cr, Mn and Mo formation)amongalltheseas-preparedquaternary,quinaryand
+atom. The electrochemical performance of senary PtFeCoN- senary HEA@HCS materials (Figure 4e; Table S2, Supporting
+iCuY@HCS (Y = Cr, Mn, Mo) materials reveals that Mn and Information).Inparticular,theHERperformanceexhibitsare-
+Mo are not functional for the HER performance improve- markableimprovementwiththesequentialincorporationofCu
+ment of PtFeCoNiCu@HCS, while the incorporation of Cr andCrintoPtFeCoNi@HCSmaterial.Herein,afurtheranalysis
+could significantly enhance the performance with PtFeCoN- oftheBrunner-Emmet-Teller(BET)specificsurfaceareaforPt-
+iCuCr@HCS demonstrating a lowest overpotential of 29 mV FeCoNi@HCS,PtFeCoNiCu@HCS,andPtFeCoNiCuCr@HCS
+at 10 mA cm−2 (Figure 4a), outperforming that of PtFeCoN- wasconducted,asillustratedinFigureS14(SupportingInforma-
+iCu@HCS (62 mV), PtFeCoNiCuMn@HCS (313 mV) as well tion).ItisfoundthatPtFeCoNiCuCr@HCSpossessesahigher
+as PtFeCoNiCuMo@HCS (66 mV). And at the current density BET surface area of 54.979 m2 g−1 than both PtFeCoNi@HCS
+through100mAcm−2,PtFeCoNiCuCr@HCSalwaysdisplaysthe (29.876 m2 g−1) and PtFeCoNiCu@HCS (34.748 m2 g−1),
+lowestoverpotential(TableS2,SupportingInformation).More- suggesting more exposed active sites and accelerated reaction
+over, the PtFeCoNiCuCr@HCS material has the smallest Tafel rate.Besides,PtFeCoNiCuCr@HCSalsoexhibitssuperiorHER
+Adv.Funct.Mater.2025,35,2414554 2414554(6of11) ©2024Wiley-VCHGmbH
+16163028,
+2025,
+5,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202414554
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.afm-journal.de
+performance when compared with commercial 20% Pt/C cat- multipleatoms,anditcouldbemodulatedbythetypeofmetal-
+alyst, as evidenced by LSV (Figure S15a, Supporting Informa- licelement.Togainanin-depthunderstandingoftheimpactof
+tion), Tafel slope (Figure S15b, Supporting Information), and Cronelectronicstructureinhighentropymaterials,XPSspec-
+R (FiguresS16andS17,SupportingInformation),anditsC traofbothPtFeCoNiCu@HCSandPtFeCoNiCuCr@HCSwere
+ct dl
+value(1.86mFcm−2)is62%higherthanthatof1.15mFcm−2 recordedasshowninFigure5.InPt4fspectra(Figure5a),the
+for commercial 20% Pt/C catalyst (Figures S18 and S19, Sup- twopeaksofPtFeCoNiCu@HCSlocatedat71.0and74.4eVare
+portingInformation).Alltheseresultsverifythesuperiorcapa- assigned to Pt0 4f and Pt0 4f , respectively, confirming the
+7/2 5/2
+bility of Cr atom in regulating the electrocatalytic performance metallic state of Pt in this material. Notably, the binding en-
+of high entropy alloy materials toward HER. When compared ergy of Pt0 4f and Pt0 4f in PtFeCoNiCuCr@HCS shows
+7/2 5/2
+tothereportednoble-metal-basedmaterialsasHERcatalystsin a negative shift toward 70.9 and 74.3 eV, respectively, indicat-
+literatures,[8,26–38]theas-preparedPtFeCoNiCuCr@HCSexhibits ingareconstructionoftheelectronicconfigurationinPtFeCoN-
+distinct advantages in terms of overpotential and Tafel slope iCuCr@HCSandmoreelectronsaregatheredatPtsiteafterin-
+(Figure4f;TableS3,SupportingInformation). corporatingCratomduetotherelativestrongabilityofPtatom
+The durability of PtFeCoNiCuCr@HCS as HER electrocata- forelectron-trapping.InFe2pspectra(Figure5b),thepeaksat
+lyst was evaluated by using CV cycles and the results are dis- ≈709.6and720.2eVofPtFeCoNiCu@HCSareattributedtoFe0
+played in Figure 4g along with that of 20% Pt/C for compar- 2p andFe02p ,respectively.WhileinPtFeCoNiCuCr@HCS,
+3/2 1/2
+ison. It shows much better stability with overpotential loss of thebindingenergyofFe02p undergoesadecreaseto709.4eV
+3/2
+only 5 mV at 10 mA cm−2 after 15000 CV cycles, surpassing andthatofFe0 2p shiftsto720.1eV,alsosuggestinganelec- 1/2
+that of more than 60 mV at similar conditions for commer- tronicstructurereconfigurationandanelectronaccumulationon
+cial20%Pt/C(Figure4h).Theanti-degradationpropertyofPt- FesiteinducedbyCrincorporation.Similarly,inCo2pspectra
+FeCoNiCuCr@HCS compared to 20% Pt/C catalyst can be at- (Figure5c),theCo02p andCo02p inPtFeCoNiCu@HCSat
+3/2 1/2
+tributed to the slow diffusion of atoms in its structure, as the 779and793.7eV,respectively,shifttolowerbindingenergyof
+highentropyeffectcouldreducetheGibbsfreeenergyandpro- 778.7and793.5eVinPtFeCoNiCuCr@HCS.TheNi0 2p and
+3/2
+mote the formation of homogeneous phase, resulting in a sta- Ni0 2p (Figure5d)areawayfromthatof852.8and872.0eV
+1/2
+ble crystal structure.[25] To characterize the structure of PtFe- inPtFeCoNiCu@HCSapproaching852.7and871.9eV,respec-
+CoNiCuCr@HCS following durability test, carbon paper was tively,inPtFeCoNiCuCr@HCS.InCu2pspectra(Figure5e),Cu0
+employed as the working electrode for catalyst ink deposition, 2p (932.1eV)andCu02p (951.8eV)inPtFeCoNiCu@HCS
+3/2 1/2
+andXRD,SEM,TEMaswellasXPSmeasurementswerecon- shiftto932.0and951.7eVinPtFeCoNiCuCr@HCS,respectively,
+ducted. Given that Nafion was incorporated as a binder dur- andthedominantpeaksimplythewell-maintainedmetallicstate
+ing the electrochemical experiments, the XRD patterns of Pt- ofCuinbothmaterials.ThedownshiftinbindingenergyofCo
+FeCoNiCuCr@HCS on carbon paper before and after durabil- 2p, Ni 2p, and Cu 2p orbitals also indicates an increased elec-
+itytestareillustrated(FigureS20,SupportingInformation),and tron density surrounding Co, Ni, and Cu sites introduced by
+it is observed that PtFeCoNiCuCr@HCS retains its diffraction the incorporation of Cr, mainly due to their superior capabil-
+peaks consistent with that before durability test, suggesting a ity to capture electrons than Cr. Moreover, the two prominent
+well-preservedcrystalstructure.SEM(FigureS21,SupportingIn- peaksinCr2pspectrum(Figure5f)ofPtFeCoNiCuCr@HCSat
+formation)andTEM(FiguresS22a,b,SupportingInformation) ≈577.2and586.8eVarefromCr3+2p andCr3+2p ,respec-
+3/2 1/2
+images demonstrate a complete 3D spherical structure of Pt- tively, providing evidence supporting the single chemical state
+FeCoNiCuCr@HCS,withHEAnanoparticlesattachonthesur- ofchromium,andsuggestingapreferenceforCrsitetosupply
+face of carbon shell. In HR-TEM images (Figures S22c,d, Sup- electrons within PtFeCoNiCuCr@HCS, consequently resulting
+portingInformation),thedistinctcrystallatticecanbeattributed inadecreaseofelectrondensityaroundit.TheseXPSresultsre-
+to the well-maintained (111) facet of PtFeCoNiCuCr@HCS. In veal the reconstruction of the electronic configuration induced
+addition, EDS result exhibits all the elements of Pt, Fe, Co, byCratomincorporation,wherelocalelectronsescapefromthe
+Ni,CuandCrinPtFeCoNiCuCr@HCSafterthedurabilitytest CrsiteandgraduallyaccumulateonadjacentPt,Fe,Co,Ni,and
+(FigureS23,SupportingInformation).Notably,theFelementde- Cusites.ThiselectronredistributionmightaffecttheHERelec-
+tectedinEDSisfromNafion,whichisalsoevidentintheX-ray trocatalyticperformanceasitcouldpromotetheoptimizationof
+photoelectronspectroscopy(XPS)(FigureS24,SupportingInfor- adsorption/desorptionenergybetweenintermediatesandactive
+mation).However,onlyPtandCuelementsaredistinctlyobserv- sites.[39]
+able in the XPS spectrum of PtFeCoNiCuCr@HCS due to the Densityfunctionaltheory(DFT)calculationswereperformed
+interference from Nafion. Given that Pt and Cu constitute the to further clarify the influence of Cr on the electronic config-
+fundamentalframeworkofPtFeCoNiCuCr@HCS,theirpredom- uration of the metal sites within PtFeCoNiCuCr@HCS and
+inantmetallicstate(FiguresS24b,c,SupportingInformation)fur- the intrinsic mechanism for HER performance enhancement.
+thercorroboratesthestructuralstabilityofPtFeCoNiCuCr@HCS The atomic models of quinary PtFeCoNiCu@HCS material
+afterdurabilitytest. (Figure S25, Supporting Information) were constructed based
+ontheexperimentalfindingsdiscussedabove,andthe(111)crys-
+talplane(FigureS26,SupportingInformation)waschosenasthe
+2.3.AnalysisofElectronicConfiguration adsorption/desorption surface for hydrogen intermediates tak-
+ingintoaccounttheXRDpatternandcrystalorientationobtained
+The electronic configuration surrounding the active sites is a fromHR-TEMimage.Moreover,theatomicmodelsofthe(111)
+comprehensiveoutcomeresultingfromtheinteractionsamong crystal plane for senary PtFeCoNiCuCr@HCS material
+Adv.Funct.Mater.2025,35,2414554 2414554(7of11) ©2024Wiley-VCHGmbH
+16163028,
+2025,
+5,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202414554
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.afm-journal.de
+Figure5. TheXPSspectraofPtFeCoNiCu@HCSandPtFeCoNiCuCr@HCS.a)Pt4f.b)Fe2p.c)Co2p.d)Ni2p.e)Cu2p.f)Cr2p.
+(Figure S27, Supporting Information) were obtained by sub- similarenergybarriersof≈0.30eVduringtheconversionfrom
+stituting part of Cu with Cr on the (111) crystal plane of PtFe- H O*toH*andOH-,indicatingthatPtandNipossesscompa-
+2
+CoNiCu@HCS.Theobtainedelectrondistributiononthe(111) rablecapabilitytofacilitatethebreakingofH─OHbond.While
+crystal plane of PtFeCoNiCu@HCS and PtFeCoNiCuCr@HCS Fe,CuandCrsitesareweakerinpromotingthedissociationof
+areillustratedinFigures6a,b,respectively,wheretheredregion water molecules with higher energy barriers of 1.34, 1.04, and
+representstheaccumulationofelectronswhilethegreenregion 0.79eV,respectively.Moreover,itisinterestingthatadecreasein
+signifiesthereductionofelectrons.ForPtFeCoNiCu@HCSma- freeenergyisobservedatCosite,implyingthethermodynamic
+terial(Figure6a),electronsarepredominantlylocalizedaround favorability for water dissociation process which is more likely
+Pt due to its strong electron-attracting capability, followed by tooccuratthissite.Therefore,itcouldbeinferredthatCoplays
+Fe and Co. The introduction of Cr atom induces a significant apivotalroleinpromotingH─OHbondbreakagebyPtFeCoN-
+alteration of electron distribution in PtFeCoNiCuCr@HCS iCuCr@HCSasthecatalyst.
+(Figure 6b). The low electron density surrounding Cr atom
+suggeststhatCrfunctionsasanelectrondonor,facilitatingthe H O+e−+∗→H∗+OH− (Volmer step) (1)
+2
+transfer of its electrons to the adjacent region. As a result, the
+electron density surrounding Pt, Fe, Co, Ni, and Cu increases, H∗+H∗→H +2∗(Tafelstep) (2)
+2
+indicating a gradual accumulation of electrons around these
+atoms.Theseresultsmatchwellwiththeexperimentalfindings The HER activity can be effectively evaluated by the Gibbs
+obtained from XPS spectra, validating a change of electronic free energy (∆G ), and the catalyst with a |∆G | value ap-
+H* H*
+configuration induced by the incorporation of Cr atom into proaching zero possesses an ideal HER activity.[40] Herein, the
+PtFeCoNiCu@HCS. GibbsfreeenergyduringtheconversionofH*toH onvarious
+2
+The hydrogen evolution process occurs via the Volmer-Tafel metalsitesinPtFeCoNiCuCr@HCSwerecalculatedasdepicted
+mechanismasshowninequation(1and2).DuringtheVolmer inFigure6c.Notably,thePtsitedemonstratesthelowest|∆G |
+H*
+step,watermoleculesareadsorbedontheactivesite(*)which valueof0.20eV,indicatingitssuperiorHERactivityandahigher
+facilitatesthecleavageofH─OHbondtogenerateH*andOH- likelihoodforconversionofH*toH .TheFeandCusitesdisplay
+2
+species.Then,theadsorbedH*undergoesconversiontoH via similar|∆G |valuesof0.25and0.23eV,respectively,whichare
+2 H* Tafelstep.[8] ThefreeenergyoftheVolmerstepwascalculated closetothatofPt,suggestingthatFeandCumayalsohavecom-
+as shown with the diagrams in Figures S28 and S29 (Support- parablepowertopromoteH generation.Whileonthecontrary,
+2
+ingInformation).ItisrevealedthatbothPtandNisitesexhibit the|∆G |valuesofCo,Ni,andCrare0.40,0.36,and0.39eV, H*
+Adv.Funct.Mater.2025,35,2414554 2414554(8of11) ©2024Wiley-VCHGmbH
+16163028,
+2025,
+5,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202414554
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.afm-journal.de
+Figure6. Electrondistributionina)quinary(PtFeCoNiCu@HCS)andb)senary(PtFeCoNiCuCr@HCS)materials.c)Gibbsfreeenergydiagramof
+variousmetalsitesinPtFeCoNiCuCr@HCS.PDOSofd)Pt,e)Fe,andf)Cusitesinquinaryandsenarymaterials.ComparisonofGibbsfreeenergyof
+g)Pt,h)Feandi)Cusitesinquinaryandsenarymaterials.
+respectively. These significantly larger|∆G |values compared energytowardtheFermilevelcouldenhancethebondstrength
+H*
+tothatofPt,Fe,andCusitessuggestalimitedcapabilityforH* andresultinfavorableHadsorptionenergyonPt,FeandCusites
+conversiononCo,NiandCrsites.TheseresultsdisclosethatPt, inPtFeCoNiCuCr@HCS,[41] insuringafasthydrogenevolution
+FeandCuarethemainactivesitesforH formation.Therefore, process.
+2
+thepartialdensityofstates(PDOS)ofPt,Fe,andCuinbothPt- TheinfluenceofCrintroductiononGibbsfreeenergyofPt,
+FeCoNiCu@HCSandPtFeCoNiCuCr@HCSmaterialswascal- Fe,andCusiteswascalculatedandcomparedasdemonstratedin
+culated to further elucidate the underlying mechanism behind Figures6g–i.Thedecreased|∆G |ofPtsitefrom0.21to0.20eV
+H*
+theirHERactivity,andthecorrespondingd-bandcenterwasem- (Figure6g)andFesitefrom0.31to0.25eV(Figure6h)indicate
+ployedtopredicttheadsorptioncapabilityofeachmetalsiteto- thattheconversionprocessfromH*toH becomemorefeasible
+2
+ward hydrogen intermediates.[8] As shown in Figure 6d, the d- onPtandFesitesafterCrincorporation.ForCusite(Figure6i),
+bandcenterofPt5dorbitinPtFeCoNiCuCr@HCSupshiftsto theuphillofGibbsfreeenergyinPtFeCoNiCu@HCSsuggests
+a higher energy of −0.50 eV near the Fermi level compared to an unsuitable hydrogen desorption process that requires more
+thatofPtFeCoNiCu@HCS,suggestingaloweroccupationofan- energy,whileitchangestodownhillafterCrincorporationalong
+tibondingorbitwithinthebondingpairformedbythesorbitof withadecreased|∆G |valueof0.23eV,implyinganoptimized
+H*
+HandthedorbitofPt.Similarenergyevolutionsalsoexistin hydrogenevolutionprocess.TheseresultsfigureoutthatCrin-
+Fe3d(Figure6e)andCu3d(Figure6f)orbits,whereFe3dor- corporationcouldpromotetheconversionofH*toH anden-
+2
+bitshiftsfrom−1.10to−0.99eV,andthatforCu3dorbitfrom ableanupliftinelectrocatalyticactivitytowardHER.Moreover,
+−2.28to−2.26eVafterincorporatingCratom.Theseupshiftsof it is noteworthy that Cr shows weak capability for both water
+Adv.Funct.Mater.2025,35,2414554 2414554(9of11) ©2024Wiley-VCHGmbH
+16163028,
+2025,
+5,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202414554
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.afm-journal.de
+Figure7. Schematicdiagramofthemulti-sitesynergisticeffectinPtFeCoNiCuCr@HCSforefficientHER.
+dissociationandH*conversion(Figure6c;FiguresS20andS21, hydrogenspeciestransfertoPt,Fe,andCusitestoproducehy-
+SupportingInformation),suggestingthatitdoesnotactasmain drogenwithahighHERactivity.Thisworkprovidesavaluable
+activesiteduringHERprocess.Whileinstead,itprimarilyfunc- perspectiveforunderstandingthemulti-sitesynergisticeffectin
+tionsasanelectrondonortopromotetheredistributionofelec- highentropyalloysaselectrocatalysts.
+tronssurroundingvariousmetalsitesinPtFeCoNiCuCr@HCS,
+yieldinganoptimizedelectronicconfigurationwhichplaysapiv-
+otalroleinboostingthehighelectrocatalyticactivityforHER.[42] SupportingInformation
+Basedonalltheaboveresults,amulti-sitesynergisticmech-
+anism is proposed for PtFeCoNiCuCr@HCS toward efficient SupportingInformationisavailablefromtheWileyOnlineLibraryorfrom
+HERasdepictedinFigure7:Intermsofstructuralcomposition, theauthor.
+Cu PtprovidesthefundamentalcrystalframeworkinPtFeCoN-
+3
+iCuCr@HCS with homogeneous FCC structure, where Pt and
+Cuplayavitalroleasthebasicelements,whiletheothermetals Acknowledgements
+ofFe,Co,Ni,andCrareincorporatedintothematerialbypartially
+The authors are grateful for the financial support of this work by the
+substitutingCuatom.Regardingtheelectrocatalyticprocess,Cr
+Oceanic Interdisciplinary Program of Shanghai Jiao Tong University
+acts as an electron donor and promotes electron accumulation
+(SL2022ZD105),andtheBL11BbeamlineoftheShanghaiSynchrotronRa-
+onadjacentmetalsites(stepI),leadingtoareconstructioninthe diationFacility(SSRF)forprovidingtheXASbeamtime.
+localelectronicconfigurationandthereducedGibbsfreeenergy
+onPt,FeandCusitesinPtFeCoNiCuCr@HCS.Inthiscase,the
+watermoleculeundergoesdissociationonCosite(stepII)togen- ConflictofInterest
+eratehydrogenspecies,whichthentransferfromCositetoPt,
+FeandCusites(stepIII)drivenbytheoptimizedenergyforhy- Theauthorsdeclarenoconflictofinterest.
+drogenadsorptiontoproduceH (stepIV),enablingafastHER
+2
+process.
+DataAvailabilityStatement
+3.Conclusions
+The data that support the findings of this study are available from the
+correspondingauthoruponreasonablerequest.
+A high entropy alloy material of PtFeCoNiCuCr@HCS with a
+low HER overpotential and improved durability outperforming
+thatofcommercial20%Pt/Ccatalystisdeveloped,andamulti-
+sitesynergisticeffectisdisclosedbycouplingexperimentswith Keywords
+DFT calculations. Specifically, Pt and Cu serve to fabricate the
+electronegativity,electronicconfiguration,high-entropyalloys,hydrogen
+fundamentalcrystalframework,andCrprimarilyactsasanelec-
+evolution,multi-sitesynergisticeffect
+trondonortomodulatetheelectronicstructure,leadingtolower
+Gibbs free energy of hydrogen species adsorption/desorption
+Received:August9,2024
+andenhancedhydrogenevolutionkinetics.DuringHER,water Revised:September18,2024
+dissociation primarily occurs at Co site, and then the resulting Publishedonline:October4,2024
+Adv.Funct.Mater.2025,35,2414554 2414554(10of11) ©2024Wiley-VCHGmbH
+16163028,
+2025,
+5,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202414554
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.afm-journal.de
+[24] Z.Zheng,L.Yu,M.Gao,X.Chen,W.Zhou,C.Ma,L.Wu,J.Zhu,X.
+[1] A. Muzammil, R. Haider, W. Wei, Y. Wan, M. Ishaq, M. Zahid, W. Meng,J.Hu,Y.Tu,S.Wu,J.Mao,Z.Tian,D.Deng,Commun2020,
+Yaseen,X.Yuan,Mater.Horiz.2023,10,2764. 11,3315.
+[2] Y.Ehrnst,P.Sherrell,A.Rezk,L.Yeo,Adv.EnergyMater.2022,13, [25] X. Cui, Y. Liu, X. Wang, X. Tian, Y. Wang, G. Zhang,
+2203164. T. Liu, J. Ding, W. Hu, Y. Chen, ACS Nano 2024, 18,
+[3] W.Zhang,M.Liu,X.Gu,Y.Shi,Z.Deng,N.Cai,Chem.Rev.2023, 2948.
+123,7119. [26] Z.Cao,Q.Chen,J.Zhang,H.Li,Y.Jiang,S.Shen,G.Fu,B.Lu,Z.Xie,
+[4] Z.Yu,Y.Duan,X.Feng,X.Yu,M.Gao,S.Yu,Adv.Mater.2021,33, L.Zheng,Nat.Commun.2017,8,15131.
+2007100. [27] W.Chen,B.Wu,Y.Wang,W.Zhou,Y.Li,T.Liu,C.Xie,L.Xu,S.Du,M.
+[5] J.Zhang,Q.Zhang,X.Feng,Adv.Mater.2019,31,1808167. Song,D.Wang,Y.liu,Y.Li,J.Liu,Y.Zou,R.Chen,C.Chen,J.Zheng,
+[6] W.Zhai,Y.Ma,D.Chen,J.Ho,Z.Dai,Y.Qu,InfoMat2022,4,12357. Y.Li,J.Chen,S.Wang,EnergyEnviron.Sci.2021,14,6428.
+[7] G.Gao,G.Zhu,X.Chen,Z.Sun,A.Cabot,ACSNano2023,17,20804. [28] S.Fang,X.Zhu,X.Liu,J.Gu,W.Liu,D.Wang,W.Zhang,Y.Lin,J.Lu,
+[8] W.Yang,P.Cheng,Z.Li,Y.Lin,M.Li,J.Zi,H.Shi,G.Li,Z.Lian,H. S.Wei,Y.Li,T.Yao,Nat.Commun.2020,11,1029.
+Li,Adv.Funct.Mater.2022,32,2205920. [29] Q.He,D.Tian,H.Jiang,D.Cao,S.Wei,D.Liu,P.Song,Y.Lin,L.
+[9] K.Wang,J.Huang,H.Chen,Y.Wang,W.Yan,X.Yuan,S.Song,J. Song,Adv.Mater.2020,32,1906972.
+Zhang,X.Sun,Electrochem.EnergyRev.2022,5,17. [30] Z.Jia,K.Nomoto,Q.Wang,C.Kong,L.Sun,L.Zhang,S.Liang,J.Lu,
+[10] J.Ren,L.Chen,H.Wang,Z.Yuan,Chem.Soc.Rev.2023,52,8319. J.Kruzic,Adv.Funct.Mater.2021,31,2101586.
+[11] H.Li,Y.Han,H.Zhao,W.Qi,D.Zhang,Y.Yu,W.Cai,S.Li,J.Lai,B. [31] T.Jiang,L.Yu,Z.Zhao,W.Wu,Z.Wang,N.Cheng,Chem.Eng.J.2022,
+Huang,L.Wang,Nat.Commun.2020,11,5437. 433,133525.
+[12] S.Bueno,A.Leonardi,N.Kar,K.Chatterjee,X.Zhan,C.Chen,Z. [32] D. Li, X. Chen, Y. Lv, G. Zhang, Y. Huang, W. Liu, Y. Li, R.
+Wang,M.Engel,V.Fung,S.Skrabalak,ACSNano2022,16,18873. Chen, C. Nuckolls, H. Ni, Appl. Catal. B-Environ. 2020, 269,
+[13] R.Yao,Y.Zhou,H.Shi,W.Wan,Q.Zhang,L.Gu,Y.Zhu,Z.Wen,X. 118824.
+Lang,Q.Jiang,Adv.Funct.Mater.2020,31,2009613. [33] L.Li,Y.Ji,X.Luo,S.Geng,M.Fang,Y.Pi,Y.Li,X.Huang,Q.Shao,
+[14] H.Li,J.Lai,Z.Li,L.Wang,Adv.Funct.Mater.2021,31,2106715. Small2021,17,2103798.
+[15] J.Hao,Z.Zhuang,K.Cao,G.Gao,C.Wang,F.Lai,S.Lu,P.Ma,W. [34] Z.Li,C.Wang,Y.Liang,H.Jiang,S.Wu,Z.Li,W.Xu,S.Zhu,Z.Cui,
+Dong,T.Liu,M.Du,H.Zhu,Nat.Commun.2022,13,2662. Appl.Catal.B-Environ.2024,345,123677.
+[16] R.Oshiya,B.Varghese,A.Datta,J.Am.Chem.Soc2024,146,17995. [35] S.Wang,B.Xu,W.Huo,H.Feng,X.Zhou,F.Fang,Z.Xie,J.Shang,
+[17] Y.Li,M.Yuan,H.Yang,K.Shi,Z.Sun,H.Li,C.Nan,G.Sun,Appl. J.Jiang,Appl.Catal.B-Environ.2022,313,121472.
+Catal.B-Environ.2023,323,122167. [36] Q.Yang,H.Liu,P.Yuan,Y.Jia,L.Zhuang,H.Zhang,X.Yan,G.Liu,
+[18] Y.He,X.Zhu,C.Zhang,Z.Liu,B.Cao,L.Sheng,Y.Yang,Q.Feng,N. Y.Zhao,J.Liu,S.Wei,L.Song,Q.Wu,B.Ge,L.Zhang,K.Wang,X.
+Wang,J.Ou,Y.Xu,ACSSustainableChem.Eng.2023,11,5055. Wang,C.R.Chang,X.Yao,J.Am.Chem.Soc.2022,144,2171.
+[19] T.Shen,D.Xiao,Z.Deng,S.Wang,L.An,M.Song,Q.Zhang,T.Zhao, [37] X.Zeng,J.Shui,X.Liu,Q.Liu,Y.Li,J.Shang,L.Zheng,R.Yu,Adv.
+M.Gong,D.Wang,Angew.Chem.,Int.Ed.2024,63,e202403260. EnergyMater.2017,8,1701345.
+[20] J.Gu,L.Li,Q.Yang,F.Tian,W.Zhao,Y.Xie,J.Yu,A.Zhang,L.Zhang, [38] L.Zhang,Y.Jia,H.Liu,L.Zhuang,X.Yan,C.Lang,X.Wang,D.Yang,
+H.Li,J.Zhong,J.Jiang,Y.Wang,J.Liu,J.Lu,J.Am.Chem.Soc.2024, K.Huang,S.Feng,X.Yao,Angew.Chem.,Int.Ed.2019,58,9404.
+146,5355. [39] J.Xie,J.Qi,F.Lei,Y.Xie,Chem.Commun.2020,56,11910.
+[21] G.Feng,F.Ning,J.Song,H.Shang,K.Zhang,Z.Ding,P.Gao,W. [40] Y.Guo,B.Hou,X.Cui,X.Liu,X.Tong,N.Yang,Adv.EnergyMater.
+Chu,D.Xia,J.Am.Chem.Soc.2021,143,17117. 2022,12,2201548.
+[22] H.Zhu,S.Sun,J.Hao,Z.Zhuang,S.Zhang,T.Wang,Q.Kang,S.Lu, [41] C.Tsounis,B.Subhash,P.Kumar,N.Bedford,Y.Zhao,J.Shenoy,Z.
+X.Wang,F.Lai,T.Liu,G.Gao,M.Du,D.Wang,EnergyEnviron.Sci. Ma,D.Zhang,C.Toe,S.Cheong,R.Tilley,X.Lu,L.Dai,Z.Han,R.
+2023,16,619. Amal,Adv.Funct.Mater.2022,32,2203067.
+[23] H.Shi,X.Y.Sun,S.P.Zeng,Y.Liu,G.F.Han,T.H.Wang,Z.Wen,Q. [42] S.Niu,Z.Yang,F.Qi,Y.Han,Z.Shi,Q.Qiu,X.Han,Y.Wang,X.Du,
+R.Fang,X.Y.Lang,Q.Jiang,SmallStruct.2023,4,2300042. Adv.Funct.Mater.2022,32,2203787.
+Adv.Funct.Mater.2025,35,2414554 2414554(11of11) ©2024Wiley-VCHGmbH
+16163028,
+2025,
+5,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202414554
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on [08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+

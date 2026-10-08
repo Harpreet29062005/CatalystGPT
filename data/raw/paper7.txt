@@ -1,0 +1,755 @@
+RESEARCH ARTICLE
+www.afm-journal.de
+Multisite Synergism-Induced Electron Regulation of
+High-Entropy Alloy Metallene for Boosting Alkaline
+Hydrogen Evolution Reaction
+Qiqi Mao, Xu Mu, Kai Deng, Hongjie Yu, Ziqiang Wang, You Xu, Xiaonian Li,
+Liang Wang, and Hongjing Wang*
+due to expensive proton exchange mem-
+Designingthehigh-entropyalloys(HEAs)electrocatalystswithcontrollable branes and slow kinetics of acidic oxy-
+nanostructuresisofgreatsignificanceforthedevelopmentofefficient gen evolution reaction (OER), the acidic
+alkalinehydrogenevolutionreaction(HER)electrocatalysts.Inthisstudy,an HER is greatly limited for further utiliza-
+tioninindustrialHER.[5] Itisnotablethat
+ultrathinHEA-PdPtRhIrCumetallenewithabundantlatticedistortionsand
+alkalineHERcanavoidtheseproblems.[5b]
+defectsispreparedviaafacileone-stephydrothermalmethod.The
+Presently, some reported advanced mate-
+synthesizedHEA-PdPtRhIrCumetalleneexhibitssuperiorHERperformance
+rials have been widely utilized to pro-
+ina1mKOHsolution,wheretherequiredoverpotentialofHEA-PdPtRhIrCu mote electrocatalytic HER under alkaline
+metalleneisonly15mVtoreachacurrentdensityof−10mAcm−2while conditions.[6] Nevertheless,thesematerials
+possessingalowTafelslopefor37mVdec−1.Densityfunctionaltheory still have drawbacks in the whole reaction
+process, including sluggish catalytic kinet-
+calculationsfurtherprovethatthesynergisticeffectofthefiveelementscan
+ics and poor catalytic stability.[7] Hence, it
+optimizetheelectronicstructuretoenhancetheHERactivityofthecatalysts.
+isanessentialresearchprospecttodevelop
+Inparticular,thestrongcouplingeffectandthestrongbondingarisingfrom efficientandstablealkalineHERcatalysts.
+theinteractionbetweenthemulti-metalcomponentscanfacilitatethe High-entropyalloys(HEAs),anoveland
+electrontransferofthesurfaceandhighelectroactivity.Moreover,the unique multi-metallic alloy, are composed
+of five or more elements.[8] Due to their
+optimizedPtelectronicstructureinHEA-PdPtRhIrCumetallenepromotesthe
+superior physicochemical properties over
+optimalPt–HbindingatthePtsite,thuspromotingHERperformance.
+conventional alloys, HEAs present impor-
+tant prospects in fields such as new ma-
+terials and catalysis.[9] More importantly,
+multipleelementsrandomlydistributedin
+1.Introduction
+theHEAsphasecancauseseverelatticedistortionaswellasthe
+synergisticeffectbetweenmultipleelementscaninducethetun-
+Hydrogen,asoneofthemostpromisingnext-generationclean
+ableelectronicstructure,whichshowpromisingapplicationsin
+renewableenergysources,iswidelyconsideredasthefirstchoice
+thefieldofelectrocatalysis.[10] Encouragingly,thecurrentHEAs
+to satisfy the increasing energy demand and reduce environ-
+catalysts exhibit great potential in electrocatalytic HER.[11] Be-
+mental pollution.[1] As it is well known, electrochemical water
+sides,thepreviousresearchesforHEAshavemainlyfocusedon
+splitting driven by renewable electricity is a promising hydro-
+themodulationofelementalcomponents.[12] Moreimportantly,
+genproductiontechnologyforgeneratinggreenhydrogen,where
+thestructureengineeringbyprecisecontrolofmaterialstructure
+thepurityofthegeneratedhydrogencanreach99.9999%.[2]Ca-
+at the nanoscale is also an advantageous approach to improve
+thodichydrogenevolutionreaction(HER)isafundamentalpro-
+the electrocatalytic performance of materials,[13] but it is rarely
+cess in electrocatalytic water splitting,[3] and HER can be con-
+appliedinthefabricationofHEAs.Recently,metallene,anewly
+ductedunderbothacidicandalkalineconditions.[4]Nevertheless,
+emerged 2D metallic material of atomically thin layers,[14] pos-
+sesses some unique properties (such as ultrahigh specific sur-
+face area, high atomic utilization, and coordination of unsatu-
+Q.Mao,X.Mu,K.Deng,H.Yu,Z.Wang,Y.Xu,X.Li,L.Wang,H.Wang
+StateKeyLaboratoryBreedingBaseofGreen-ChemicalSynthesis ratedmetalatoms),whicharehighlybeneficialfortheirapplica-
+Technology tioninelectrocatalysis.[15] Moreover,theatomsinthemetallene
+CollegeofChemicalEngineering exhibit higher connectivity compared with conventional metal
+ZhejiangUniversityofTechnology
+nanoparticles, which can provide higher electron transfer dur-
+Hangzhou310014,P.R.China
+E-mail:hjw@zjut.edu.cn ing the electrocatalytic process.[16] Thus, combining the multi-
+elemental properties of HEAs and the unique structure advan-
+TheORCIDidentificationnumber(s)fortheauthor(s)ofthisarticle tages of metallene, this offers a novel and ideal model for the
+canbefoundunderhttps://doi.org/10.1002/adfm.202304963 designofefficientandstableHERelectrocatalysts.
+DOI:10.1002/adfm.202304963
+Adv.Funct.Mater.2023,33,2304963 2304963(1of9) ©2023Wiley-VCHGmbH
+
+www.advancedsciencenews.com www.afm-journal.de
+Figure1. a)SchematicdiagramforthepreparationprocessoftheHEA-PdPtRhIrCumetallene.b)HAADF-STEMimage,c)high-magnificationTEM
+image,d)AFMimageandcorrespondingheightprofile,e)aberration-correctedHAADF-STEMimageandthecorrespondingEDSmappingimages,and
+f)atomicratioforvariouselementsoftheHEA-PdPtRhIrCumetallene.
+Herein,wedevelopafacileandfastsolvothermalmethodto More importantly, DMF can be decomposed to form dimethy-
+synthesizetheHEA-PdPtRhIrCumetallene.Duetotheultrathin lamine(DMA)inthepresenceofKOH,andinsituformedDMA
+high-entropymetallenestructureandthesynergisticeffectofthe canpromotethebindingofnanosheetsandfacetcontroltoin-
+multi-metal,theHEA-PdPtRhIrCumetalleneexhibitsexcellent ducethe2Dstructuregrowth.[17] Highangleannulardarkfield
+HER performance under alkaline conditions (1 m KOH), with scanning transmission electron microscopy (HAADF-STEM),
+anoverpotentialofonly15mVat−10mAcm−2andalowTafel transmissionelectronmicroscopy(TEM),andscanningelectron
+slopeof37mVdec−1,whilepresentingremarkabledurabilityand microscopy(SEM)imagesofHEA-PdPtRhIrCumetallenereveal
+stability.Densityfunctionaltheory(DFT)calculationsrevealthat anultrathinandwrinkled2Dgraphene-likenanosheetstructure
+theexcellentHERactivityisascribedtothesynergisticeffectof withtheaveragelateralsizeuptoseveralhundrednanometers
+thevariouselementsandthetunableelectronicstructure,where (Figure1b,c;FigureS1,SupportingInformation).Atomicforce
+themulti-elementsynergisticeffectinducestheoptimizedelec- microscopy (AFM) technology further proves the ultrathin na-
+tronicstructureofPtsitestopromotetheoptimalPt-Hbonding tureofHEA-PdPtRhIrCumetallene,demonstratingathickness
+atPtsitesthuspromotingHERactivity,theelectronicstructure of≈1.31nmequivalentto6–7atomiclayers(Figure1d).Notably,
+balance caused by differences in the d-band centers of various the 2D metallene structure can provide high specific surface
+elementscontributetotheelectrocatalyticHERstabilityofHEA- area, maximized atomic utilization, and activated metal atom
+PdPtRhIrCu metallene, and the strong coupling effect and the surface energy thus improving the adsorption and activation
+strongbondinginducedbythemulti-elementinteractionspro- of reactants on the metallene.[14] Besides, the ultrathin feature
+motethesite-to-siteeffectiveelectrontransferandstrongreduc- of metallene can effectively optimize the diffusion distance be-
+tionabilitytowardHER. tweenreactantsandproductsaswellasthechargetransferrate,
+whichacceleratesthemass/chargetransferduringthecatalytic
+2.ResultsandDiscussion
+process.[15c]Asdisplayedbyaberration-correctedHAADF-STEM
+image and the associated energy dispersive X-ray spectroscopy
+Figure 1a illustrates the HEA-PdPtRhIrCu metallene was (EDS)elementalimagingdistributions(Figure1e),itillustrates
+prepared by adopting a facile and rapid one-step solvother- thehomogenousdistributionofPd,Pt,Rh,Ir,andCuelements
+mal method, where Pd(acac) , Pt(acac) , C H O Rh , intheHEA-PdPtRhIrCumetallene.Simultaneously,theatomic
+2 2 8 12 8 2
+Na IrCl ·6H O, and Cu(acac) were employed as metal pre- ratios(Pd/Pt/Rh/Ir/Cu=33.6/21.1/20.5/5.2/19.6)ofvariousele-
+2 6 2 2
+cursors, N,N-dimethylformamide (DMF) and ethylene glycol mentsinHEA-PdPtRhIrCumetalleneareanalyzedbySEM-EDS
+(EG)asthesolvents,anddiethylenetriamine(DETA)asadiamine (Figure1f;FigureS2,SupportingInformation),andinductively
+ligandcanfacilitatetheformationof2Dnanosheetstructure.[17] coupledplasmaopticalemissionspectroscopy(ICP-OES)result
+Adv.Funct.Mater.2023,33,2304963 2304963(2of9) ©2023Wiley-VCHGmbH
+16163028,
+2023,
+42,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202304963
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.afm-journal.de
+Figure2. a)Aberration-correctedHAADF-STEMimageandthecorrespondingFFTpattern,b)XRDpattern,c)crystalstructure,andd)aberration-
+correctedHAADF-STEMimageoftheHEA-PdPtRhIrCumetallene.e)TheintegratedpixelintensitiesofHEA-PdPtRhIrCumetallenefortheselectedareas
+IandIIin(d).f)aberration-correctedHAADF-STEMandg)false-coloraberration-correctedHAADF-STEMimagesoftheHEA-PdPtRhIrCumetallene.
+further indicates that the weight ratio of Pd/Pt/Rh/Ir/Cu is correctedHAADF-STEMimageshowthattheHEA-PdPtRhIrCu
+32.6/22.5/19.9/6.7/18.3. metallene possesses abundant lattice distortions and defects
+ToinvestigateindetailtheHEA-PdPtRhIrCumetalleneatthe (Figure2f),whichcanbemainlycausedbytheincorporationof
+atomiclevel,theaberration-correctedHAADF-STEMimagesof differentelementswithvariousatomicsizesintheHEA.[10d]The
+randomly regional HEA-PdPtRhIrCu metallene were collected. introduction of multiple elements induces lattice mismatches
+Theaberration-correctedHAADF-STEMimageofsurfaceatomic andchangesinbonddistancesinthelatticestructure,causing
+distributiononHEA-PdPtRhIrCumetalleneandassociatedfast theformationoflatticedistortionsanddefects.[10d,14a]False-color
+Fouriertransform(FFT)patternindicatethatHEA-PdPtRhIrCu aberration-correctedHAADF-STEMimagefurthershowsthelat-
+metalleneexhibitsacharacteristicface-centeredcubic(fcc)struc- ticedistortionsanddefectsinaclearerform(Figure2g).Onthe
+ture observed along the [111] zone axis and the corresponding onehand,thelatticedistortionsanddefectsinHEA-PdPtRhIrCu
+exposedfacetisdeterminedtobethe{111}facet(Figure2a).As metallenecanimprovethephysicochemicalpropertiesandelec-
+displayedinFigure2b,thediffractionpeaksoftheX-raydiffrac- tronicstructureoftheHEA,thusoptimizingtheintrinsicactivity
+tion (XRD) pattern also reveal a typical single-phase fcc struc- ofthecatalystactivesite.[8a,9b,10d] Ontheotherhand,thelattice
+ture, demonstrating the formation of a HEA.[11b] Furthermore, distortions in HEA-PdPtRhIrCu can induce strain effect,[8a,9b]
+theweakandbroaddiffractionpeaksintheXRDpatterncanbe whichcancontributetotheweakeningofhydrogenbindingen-
+assignedtoatomicstackingfaultsinanatomicplanecausedby ergythuspromotingHERactivity.[4b]
+latticedistortioninHEA-PdPtRhIrCumetallene.Figure2cillus- X-ray photoelectron spectroscopy (XPS) characterization was
+tratestheschematiccrystalstructureofHEA-PdPtRhIrCumet- implemented to investigate the surface elemental composition
+allene.AsrevealedinFigure2d,e,thereisanobviousdifference and valence states of HEA-PdPtRhIrCu metallene. Figure 3a
+intheintegratedpixelintensitiesfor(111)latticesofvariousse- showstheXPSsurveyspectrumforHEA-PdPtRhIrCumetallene,
+lectedregionsIandIIinHEA-PdPtRhIrCumetallene,inwhich indicatingtheexistenceofPd,Pt,Rh,Ir,andCuelements.Inthe
+theaveragelatticespacingchangesfrom0.224to0.232nm,indi- Pd3dXSPspectrum(Figure3b),twoobviouspeaks(340.96eV,
+catingtheappearanceoflatticedistortionsinHEA-PdPtRhIrCu 335.72eV)areascribedtoPd03d andPd03d ,respectively,[18]
+3/2 5/2
+metallene.[10d,11b]Apparently,thewhitecircleareaofaberration- whiletheothertwopeaks(342.87eV,337.11eV)areattributedto
+Adv.Funct.Mater.2023,33,2304963 2304963(3of9) ©2023Wiley-VCHGmbH
+16163028,
+2023,
+42,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202304963
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.afm-journal.de
+Figure3. a)XPSsurveyspectrum,b)Pd3dXPSspectrum,c)Pt4fXPSspectrum,d)Rh3dXPSspectrum,e)Ir4fXPSspectrum,f)Cu2pXPSspectrum
+oftheHEA-PdPtRhIrCumetallene.
+Pd2+.[19] As for the Pt 4f XPS spectrum (Figure 3c), the peaks vents. Furthermore, the nanosheet structure growth is also af-
+located at 74.87 and 71.51 eV are assigned to Pt0 4f and fectedbyvariousKOHcontents(FigureS6,SupportingInforma-
+5/2 Pt0 4f ,[20] respectively, and there are two peaks at 76.51 and tion).Onlyirregularandaggregatednanoparticlesareformedin
+7/2
+72.43eVassignedtoPt2+.[21]TheRh3dXPSspectrumcanbesep- theabsenceofKOH,andasthecontentofKOHisincreasedfrom
+aratedintosixpeaks(Figure3d),wherethepeaksat312.38and 0to500mg,themorphologyofobtainedsamplesisincomplete
+307.65eVareattributedtometallicRh0,[22] thepeaksat314.03 andpoornanosheetstructurewithseveralnanoparticles.These
+and 308.97 eV are attributed to Rh3+.[23] Notably, there are two resultsrevealthatKOHandDMFplayaninstrumentalroleinthe
+peaks at 317.23 and 315.47 eV attributed to Pt2+ 4d and Pt0 growthof2Dnanosheetstructure,whichoriginatesfromthatthe
+5/2
+4d respectively.[10a]IntheIr4fXPSspectrum(Figure3e),the insitugeneratedDMAbyKOH-promotedDMFdecomposition
+5/2,
+peaksat65.34,64.03,62.06,and61.09eVareascribedtoIr4+4f , canfacilitatethegrowthof2Dnanosheetstructure.[17]Also,the
+5/2
+Ir0 4f ,Ir4+ 4f ,andIr0 4f respectively.[24] TheCu2pXPS DETAasastructureguideisvitalfortheformationofnanosheet
+5/2 7/2 7/2
+spectrumcanbedividedintosixpeaks(Figure3f),wheretwodis- structure.IntheabsenceofDETAorwhenDETAisreplacedwith
+tinctpeaks(952.09eV,932.03eV)areassignedtoCu0,[25]andthe otherN-containingreagents,TEMimagesoftheobtainedsam-
+otherfourpeaks(954.81eV,934.47eV,962.54eV,942.38eV)are plesdisplaytheabsenceofintegratedandwell-formednanosheet
+assignedtoCu2+andsatellitepeaks.[26]Theseresultssuggestthe structure(FiguresS7andS8,SupportingInformation).Thecrit-
+HEA-PdPtRhIrCumetalleneismainlycomposedinthemetallic icalroleoftheamineligandDETAcanbeattributedtothefact
+state. thatDETAcan coordinatewithmetalionstoeffectively reduce
+ToinvestigatetheformationmechanismofHEA-PdPtRhIrCu thereductionrateofmetals,whichcanpromotetheformationof
+metallene,aseriesofexperimentsandsampleswithdifferentre- nanosheetstructure.[17] Theaboveconclusionsindicatethatthe
+action conditions were performed and prepared. As shown in synergisticeffectsofKOH,DMF,andDETAco-guidetheforma-
+Figure S3 (Supporting Information), TEM images of the pre- tion of 2D ultrathin nanosheet structure for HEA-PdPtRhIrCu
+paredsamplesbyalteringtheprecursoramountdisplaythatthe metallene.
+alteration of precursor amount influences the well-formed 2D Inathree-electrodesystem,theelectrocatalyticalkalineHER
+nanosheet and the formed nanosheets have partial agglomera- activityofHEA-PdPtRhIrCumetallenewasinvestigatedina1m
+tion,whichindicatesthattheappropriateprecursorratioandel- KOH solution, where the Pd metallene and Pt/C were mea-
+ement composition play an important role in the formation of sured and investigated as comparisons. Figure S9 (Supporting
+HEA-PdPtRhIrCumetallene.FiguresS4andS5(SupportingIn- Information) illustrates the morphology and structure of Pd
+formation)illustratethatonlyirregularnanoparticlesareformed metallene and Pt/C. The electrochemically active surface areas
+in the absence of DMF or by replacing DMF with other sol- (ECSAs) for various catalysts were evaluated by CO stripping
+Adv.Funct.Mater.2023,33,2304963 2304963(4of9) ©2023Wiley-VCHGmbH
+16163028,
+2023,
+42,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202304963
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.afm-journal.de
+Figure4. a)HERpolarizationcurves,b)thecomparisonofoverpotentialat−10mAcm−2,c)Tafelplots,andd)EIScurvesforvariouscatalystsin1m
+KOHelectrolyte.e)HERpolarizationcurvesoftheHEA-PdPtRhIrCumetallenebeforeandafter10000cyclesina1mKOHsolution.f)Chronopoten-
+tiometrycurvesoftheHEA-PdPtRhIrCumetalleneundertheconstantcathodiccurrentdensityof−10mAcm−2 for20hina1mKOHsolution.g)
+MechanismdiagramoftheelectrocatalyticHERforHEA-PdPtRhIrCumetalleneinthealkalineelectrolyte.
+experiments(FigureS10a–c,SupportingInformation).Basedon paredwithPdmetallene(0.01mAcm−2 )andPt/C(0.49mA
+ECSA
+the calculation, the ECSAs values of HEA-PdPtRhIrCu metal- cm−2 )at−0.025V(vsRHE).ForthesuperiorHERactivityof
+ECSA
+lene,Pdmetallene,andPt/Cwere89.24m2 g−1,47.39m2 g−1, HEA-PdPtRhIrCumetallene,ontheonehand,thisisattributed
+and 49.50 m2 g−1, respectively (Figure S10d, Supporting Infor- tonumerouslatticedistortionsanddefectsinthehigh-entropy
+mation). The largest ECSA value for HEA-PdPtRhIrCu metal- metallene structure that can provide more active sites,[10d] on
+lene indicates more active sites owing to the optimized metal- the other hand, the synergistic effect and adjustable electronic
+lenestructureandmultiplecomponents.Figure4avisuallydis- structure among the five elements in HEA-PdPtRhIrCu metal-
+plays that the HEA-PdPtRhIrCu metallene possesses the most lene can optimize the adsorption and activation of intermedi-
+outstandingalkalineHERperformancecomparedwithothercat- ates in electrocatalytic reaction. For investigating the HER ki-
+alysts.Meanwhile,asillustratedinFigure4b,anultralowover- neticbehaviorofvariouscatalysts,theTafelslopeplotswereob-
+potential of only 15 mV can achieve a cathode current density tained (Figure 4c). The Tafel slope value of HEA-PdPtRhIrCu
+of−10mAcm−2 forHEA-PdPtRhIrCumetallene,whichissig- metallene (37 mV dec−1) is lower than those of Pd metallene
+nificantlylowerthanthoseofPdmetallene(273mV)andPt/C (173mVdec−1)andPt/C(64mVdec−1),indicatingtheremark-
+(57 mV). The ECSA-normalized HER polarization curves were able HER kinetics of HEA-PdPtRhIrCu metallene. Moreover,
+analyzedtofurtherinvestigatetheintrinsicactivityofthevarious the Tafel slope value of HEA-PdPtRhIrCu metallene (< theo-
+catalysts (Figure S11a, Supporting Information). As displayed retical value of 40 mV dec−1 in alkaline media) demonstrates
+inFigureS11b(SupportingInformation),theHEA-PdPtRhIrCu that the HER mechanism follows a fast Volmer-Tafel step on
+(1.55 mA cm−2 ) possesses a higher specific activity com- HEA-PdPtRhIrCumetallene.[27] ApartfromtheTafelslope,the ECSA
+Adv.Funct.Mater.2023,33,2304963 2304963(5of9) ©2023Wiley-VCHGmbH
+16163028,
+2023,
+42,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202304963
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.afm-journal.de
+exchange current density (J ) is an essential factor for assess- HEA-H*+OH−.Step(II):Tafelreaction:H*+HEA-H*→H
+0 2
+ingtheHERactivityofthecatalyst.TheHEA-PdPtRhIrCumet- +HEA.
+allene possesses a higher J value (3.84 mA cm−2) compared Density functional theory (DFT) calculations were imple-
+0
+with Pd metallene (0.25 mA cm−2) and Pt/C (1.50 mA cm−2), mented to investigate the electronic structure and the mecha-
+suggesting a faster and stable charge transfer between HEA- nismofimprovedHERperformanceforHEA-PdPtRhIrCumet-
+PdPtRhIrCumetalleneandelectrolyte.Furthermore,HERpolar- allene. Figure 5a displays a top view of the HEA-PdPtRhIrCu
+ization curves of samples with various elements compositions metallenemodelaftergeometricoptimization,wherethesitesof
+were performed to investigate the effect of elements composi- variouselementsexhibitslightdistortions,butthewholestruc-
+tions and ratios on HER performance (Figure S12, Supporting ture maintains stability, proving the structural stability of the
+Information).HERpolarizationcurvesindicatethatthesynthe- HEA-PdPtRhIrCu metallene. Figure 5b and Figure S18 (Sup-
+sizedHEA-PdPtRhIrCumetallenewithwell-definedmorphology portingInformation)presenttheelectrondistributionforHEA-
+undertypicalsynthesisconditionspossessesagreaterHERactiv- PdPtRhIrCu metallene near the Fermi level (E ). It is notable
+F
+ity compared with the synthesized sample by altering the pre- that the interaction between different components in HEA-
+cursor amount, which indicates that the appropriate elements PdPtRhIrCu metallene causes the strong coupling effect to fa-
+compositionsandratioshaveaninfluenceonHERactivity.No- cilitate electron transfer between various sites, which can opti-
+tably, the HER performance of HEA-PdPtRhIrCu metallene is mizetheelectronicstructurethuspromotingHERactivity.[10a,b]
+also comparable to the previously reported alkaline HER elec- Moreover, the detailed contributions of the electronic structure
+trocatalysts(TableS1,SupportingInformation).Meanwhile,the intheHEA-PdPtRhIrCumetallenearefurtherrevealedviapro-
+HER performance of HEA-PdPtRhIrCu metallene was also in- jected partial density of states (PDOSs) (Figure 5c). Obviously,
+vestigatedindifferentelectrolytes.Intheacidicelectrolyte(0.5m the strong overlapping between the d-orbitals of different ele-
+H SO ),theHERpolarizationcurvessignificantlyindicateasu- mentsdemonstratesthestrongcouplingeffectofbondingand
+2 4
+perior HER activity for the HEA-PdPtRhIrCu metallene com- anti-bonding orbitals as well as strong bonding resulting from
+paredwithotherelectrocatalysts(FigureS13,SupportingInfor- theinteractionbetweenthemulti-metalcomponents,whichcan
+mation).Tofurtherinvestigatetheinterfacialelectrontransferki- notonlyfacilitatetheoptimizationofsite-to-siteelectrontrans-
+neticsinelectrocatalyticHER,electrochemicalimpedancespec- ferbetweenvariousmetalsites,butalsocanprovidemultipleac-
+troscopy (EIS) was performed (Figure 4d). Visually, the small- tivesitesforelectrocatalyticreaction.[10a,d]Notably,thed-orbitals
+estsemicircleofHEA-PdPtRhIrCumetallenematchesthelowest ofvariouselementscrosstheE ,revealingafeasibleabilityfor
+F
+chargetransferresistance(R ).ThecalculatedR valueforHEA- electrontransferbetweenthesurfaceofHEA-PdPtRhIrCumet-
+ct ct
+PdPtRhIrCumetalleneis20.04Ω,whichislowerthanthoseof alleneandtheadsorbate,whichisbeneficialforoptimizingthe
+Pdmetallene(172.40Ω)andPt/C(70.07Ω),indicatingafaster electrocatalyticreaction.[10d]Besides,Figure5dshowsthediffer-
+electron conductivity. Catalyst stability is a critical factor in as- ences in the d-band centers of the various elements, revealing
+sessingtheelectrocatalyticHERperformance.Figure4edisplays theelectronicstructurebalanceinducedbyvariouselements.It
+theHERpolarizationcurvesofHEA-PdPtRhIrCumetalleneafter canbeobservedthatthed-bandcenterofCu-3disverycloseto
+10000cyclesalmostoverlappingwiththeinitialcurve,withneg- thatofHEA.Moreover,thed-bandcentersoftheRh-4dandIr-
+ligiblereductionincurrentdensity.Itisnotablethatthespecific 5d orbitals are close to E , indicating a strong adsorption abil-
+F
+overpotentialonlyexhibitsaslightincreaseatacurrentdensityof ityofthesites,however,thePt-5dorbitalsexhibitalowerposi-
+−10mAcm−2after10000cycles(FigureS14,SupportingInfor- tionatE -2.14eV(E =0eV),indicatingaweakbondingability
+V V
+mation).Furthermore,thechronopotentiometry(V–t)measure- thusfacilitatingthereleaseofH ,whichisbeneficialfortheHER
+2
+mentsrevealonlyasmallincreaseintheoverpotentialofHEA- process.[10a,12a] Therefore,thedifferencesinthehighandlowd-
+PdPtRhIrCumetalleneatcurrentdensitiesof−10mAcm−2for bandcenters oftheelementscanensure thecatalytic abilityof
+20h(Figure4f).Notably,atacurrentdensityof−10mAcm−2, HEA-PdPtRhIrCumetallenetowardHER.Forfurtheranalyzing
+theHEA-PdPtRhIrCumetalleneexhibitssuperiorlong-termsta- theelectronicregulation,thesite-dependentPDOSsofeachele-
+bilitycomparedwithPt/C(FigureS15,SupportingInformation). mentinHEA-PdPtRhIrCumetallenewereinvestigated.ForPd
+More importantly, the morphology, structure, and components site and Pt site, the Pd-4d and Pt-5d orbitals display a gradual
+of HEA-PdPtRhIrCu metallene were investigated after stability increasefromthebulktothesurfaceofHEA-PdPtRhIrCumet-
+testingbySEM,TEM,XRD,andXPStechnologies(FiguresS16 allene approaching the E (Figure 5e,f), indicating that the en-
+F
+and S17, Supporting Information), where SEM and TEM im- hancedelectroactiveadsorptionofprotonsonthesurfaceinthe
+ages show that the HEA-PdPtRhIrCumetallene still maintains HER reaction, which contributes to the enhancement of HER
+agood2Dmetallenestructureafterstabilitytesting.FigureS17a electroactivity.[11a] It is notable that a similar phenomenon of
+(Supporting Information) shows that HEA-PdPtRhIrCu metal- changeisobservedinpurePtmetal(FigureS19,SupportingIn-
+lenestillmaintainsagoodcrystallinestructureafterstabilitytest- formation).Nevertheless,comparedwiththepurePtmetalsur-
+ing, and XPS results before and after stability testing illustrate face(−2.28eV),thed-bandcenter(−2.19eV)ofPt-5dorbitalfor
+thattheelementscompositionforHEA-PdPtRhIrCumetallene HEA-PdPtRhIrCu metallene surface is closer to the E , which
+F
+remainsstableafterstabilitytesting(FigureS17b–f,Supporting furtherillustratestheoptimizedprotonadsorptionatthePtsite
+Information). These experimental results illustrate the superb duetothemulti-elementsynergisticeffectthuspromotingHER
+stability of HEA-PdPtRhIrCu metallene toward electrocatalytic activity.[11a] Significantly,theelectron-richRhalsoshiftstoward
+HER.Figure4gfurtherpresentstheHERmechanismofHEA- E to boost electron transfer between the different metal sites F
+PdPtRhIrCu metallene in alkaline media via the Volmer-Tafel (Figure5g).Fromthebulktothesurface,the5dbandofIrsiteis
+step,asfollows.Step(I):Volmerreaction:H O+HEA+e− → accompaniedbyanupwardshiftofthebandcenter(Figure5h), 2
+Adv.Funct.Mater.2023,33,2304963 2304963(6of9) ©2023Wiley-VCHGmbH
+16163028,
+2023,
+42,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202304963
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.afm-journal.de
+Figure5. a)ThetopviewofHEA-PdPtRhIrCumetallenemodelaftergeometryoptimization.Thered,green,orange,blue,andcyanballsrepresentPd,
+Pt,Rh,Ir,andCuatoms,respectively.b)The3DcontourplotoftheelectrondistributionneartheFermilevelandc)thePDOSofHEA-PdPtRhIrCu
+metallene.d)Thecomparisonofd-bandcenterbetweensingleelementsandHEA.Thesite-dependentPDOSofe)Pd-4d,f)Pt-5d,g)Rh-4d,h)Ir-5d,
+andi)Cu-3d.Thevariationofj)d-bandcenterandk)e -t splittingforvariouselements.
+g 2g
+indicatingimprovedHERactivityattheIrsiteontheHEAsur- surface,PtsiteonpurePt(111)surface,PdsiteonpurePd(111)
+face. Moreover, the Cu-3d orbitals maintains a relatively stable surface, Rh site on pure Rh (111) surface, Cu site on pure Cu
+electronicstructurefromthebulktothesurface(Figure5i),ex- (111)surface,andIrsiteonpureIr(111)surface.Notably,most
+hibitingapowerfulelectron-depletioncapacityofdissociatedad- ofthesitesintheHEA-PdPtRhIrCumetallenearesuperiortothe
+sorbed water for the HER process.[11a] Figure 5j indicates that puremetalsites,wherethe∆G value(−0.09eV)ofthePtPtIr
+H*
+thed-bandcentersforallelementspresentanincreasingtrend siteintheHEA-PdPtRhIrCumetalleneismuchclosertotheopti-
+from the bulk to the surface, which further demonstrates the malcriteria(∆G =0eV)forHERcomparedwithotherconsid-
+H*
+higherHERelectroactivityoftheHEAsurfacepromotedbythe eredsites,indicatingtheoptimalHERactivityofthePtPtIrsitein
+multi-metalsites.[10a]Also,basedonthee -t splittingvariation theHEA-PdPtRhIrCumetallene.Theoptimizedelectronicstruc-
+g 2g
+analysis(Figure5k),theCu-3dorbitalsexhibitthesteadyfluctu- tureofPtresultingfromthesynergisticeffectofvariouselements
+ationsonthee -t splitting,guaranteeingthehighlystableva- promotesthePtsitetoachievetheoptimalPt-Hbinding,which
+g 2g
+lence states on the Cu sites. In comparison, the e -t splitting cancontributetoacceleratingtheprocessforH*adsorptionand
+g 2g
+of Pd-4d, Pt-5d, Rh-4d, and Ir-5d orbitals display the increased H release hence promoting HER performance.[12a] Therefore,
+2
+splitting,whichoptimizesthecouplingeffectoforbitalsthuspro- thetheoreticalcalculationofHEA-PdPtRhIrCumetalleneproves
+motingthesurfaceelectrontransfer.[10a,11a]Itisawidespreadand thatthesynergisticeffectforthefiveelementsoptimizestheelec-
+suitabledescriptortoevaluatethecatalyticactivityofHERbythe tronicstructuretoenhancetheintrinsicactivityofthecatalyst.
+hydrogenadsorptionfreeenergy(∆G )forthecatalyst.[11b]Con- Based on the analysis of above conclusions, the origins of
+H*
+sideringthePd,Pt,Rh,Ir,andCuaspotentialactivesites,the the superior HER activity for HEA-PdPtRhIrCu metallene can
+optimizedstructuresforH*absorbedonvarioussitesarecon- beascribedtoasfollows.First,theultrathinhigh-entropymet-
+sideredinthisstudy(Figure6a–i;FigureS20,SupportingInfor- allene structure with the lattice distortion and defects can pro-
+mation).Figure6jandTableS2(SupportingInformation)further vide ultrahigh specific surface area, maximum atomic utiliza-
+display the calculated ∆G values of HER for Pd site, Pt site, tion, and active surface metal atoms, which contribute to pro-
+H*
+Rhsite,Irsite,andCusiteonHEA-PdPtRhIrCumetallene(111) moting the adsorption and dissociation of species in catalytic
+Adv.Funct.Mater.2023,33,2304963 2304963(7of9) ©2023Wiley-VCHGmbH
+16163028,
+2023,
+42,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202304963
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.afm-journal.de
+Figure6. a–i)The3DcontourviewsoftheoptimizedstructureofH*absorbedforPtPtIr,PtPtPd,PtPtCu,PtPtRh,PtPtPt,CuCuPd,IrIrPd,RhRhPd,and
+PdPdPdsitesonthesurfacesofHEA-PdPtRhIrCumetallene(111).Thered,green,orange,blue,andcyanballsrepresentPd,Pt,Rh,Ir,andCuatoms,
+respectively.j)CalculatedhydrogenfreeenergyprofilesofHERforrepresentativesitesonthesurfacesofHEA-PdPtRhIrCumetallene(111),Ptsiteon
+purePt(111),PdsiteonpurePd(111),RhsiteonpureRh(111),CusiteonpureCu(111),andIrsiteonpureIr(111).
+reactions.[14]Second,thesynergisticeffectofthefiveelementsin variouselementsachievestheoptimalPt-Hbondingtopromote
+HEA-PdPtRhIrCu metallene can not only optimize the surface the HER performance. This work offers a novel and attractive
+electrontransferbutalsoimprovethed-bandcenter.Thirdly,the strategyforthesynthesisofhigh-entropymetallenetowardvari-
+tunableelectronicstructureofHEA-PdPtRhIrCumetalleneen- ousfieldsofmaterialsandcatalysis.
+ablestheoptimalHERactivityatdifferentelementalsites.
+SupportingInformation
+3.Conclusions
+SupportingInformationisavailablefromtheWileyOnlineLibraryorfrom
+In conclusion, we have successfully synthesized the HEA- theauthor.
+PdPtRhIrCumetallenewithabundantlatticedistortionsandde-
+fects by a one-step solvothermal method. The excellent HER
+Acknowledgements performance for HEA-PdPtRhIrCu metallene reveals an ul-
+tralowoverpotentialof15mV(−10mAcm−2),aTafelslopeof
+This work was financially supported by the National Natural Sci-
+37mVdec−1aswellasexcellentdurabilityandstabilityinalkaline
+ence Foundation of China (No. 21972126, 21978264, 21905250, and
+solutions.TheexcellentHERperformanceismainlyattributed 22278369), Natural Science Foundation of Zhejiang Province (No.
+totheuniquehigh-entropymetallenestructureandthesynergis- LQ22B030012andLQ23B030010),andChinaPostdoctoralScienceFoun-
+tic effect of multiple elements. DFT calculations further reveal dation(2021M702889).
+theoptimizationofHERactivitybythesynergisticeffectbetween
+multiplemetalsandthetunableelectronicstructure.Thestrong ConflictofInterest
+coupling effect and the strong bonding induced by the multi-
+elementinteractionspromotethesurfaceelectrontransferand Theauthorsdeclarenoconflictofinterest.
+high HER electroactivity, the differences in the d-band centers
+of various elements reveal the balance of electronic structures
+DataAvailabilityStatement
+induced by various elements, which ensure the electrocatalytic
+HERstabilityofHEA-PdPtRhIrCumetallene,theoptimizedelec- Thedatathatsupportthefindingsofthisstudyareavailableinthesup-
+tronicstructureofPtsitesinducedbythesynergisticeffectfor plementarymaterialofthisarticle.
+Adv.Funct.Mater.2023,33,2304963 2304963(8of9) ©2023Wiley-VCHGmbH
+16163028,
+2023,
+42,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202304963
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.afm-journal.de
+Keywords [11] a)D.Zhang,Y.Shi,H.Zhao,W.J.Qi,X.L.Chen,T.R.Zhan,S.X.Li,
+B.Yang,M.Z.Sun,J.P.Lai,B.L.Huang,L.Wang,J.Mater.Chem.
+electrocatalysts,high-entropyalloys,hydrogenevolutionreactions,metal- A2021,9,889;b)X.B.Fu,J.H.Zhang,S.Q.Zhan,F.J.Xia,C.J.
+lenes,synergisticeffect Wang,D.S.Ma,Q.Yue,J.S.Wu,Y.J.Kang,ACSCatal.2022,12,
+11955.
+Received:May5,2023 [12] a)G.Feng,F.Ning,J.Song,H.Shang,K.Zhang,Z.Ding,P.Gao,W.
+Publishedonline:June14,2023 Chu,D.Xia,J.Am.Chem.Soc.2021,143,17117;b)L.Fan,Y.Ji,G.
+Wang,J.Chen,K.Chen,X.Liu,Z.Wen,J.Am.Chem.Soc.2022,144,
+7224.
+[13] a)T.J.Wang,Y.C.Jiang,J.W.He,F.M.Li,Y.Ding,P.Chen,Y.Chen,
+[1] a)K.L.Zhou,Z.Wang,C.B.Han,X.Ke,C.Wang,Y.Jin,Q.Zhang,J. CarbonEnergy2022,4,283;b)Q.Q.Mao,K.Deng,H.J.Yu,Y.Xu,Z.
+Liu,H.Wang,H.Yan,Nat.Commun.2021,12,3783;b)J.A.Turner, Q.Wang,X.N.A.Li,L.Wang,H.J.Wang,Adv.Funct.Mater.2022,32,
+Science2004,305,972;c)G.DiLiberto,L.A.Cipriano,G.Pacchioni, 2201081;c)Y.T.Yan,J.H.Lin,T.X.Xu,B.S.Liu,K.K.Huang,L.Qiao,
+J.Am.Chem.Soc.2021,143,20431;d)S.Sultan,J.N.Tiwari,A.N. S.D.Liu,J.Cao,S.C.Jun,Y.Yamauchi,J.L.Qi,Adv.EnergyMater.
+Singh,S.Zhumagali,M.Ha,C.W.Myung,P.Thangavel,K.S.Kim, 2022,12,2200434;d)N.L.W.Septiani,Y.V.Kaneti,K.B.Fathoni,K.
+Adv.EnergyMater.2019,9,1900624. Kani,A.E.Allah,B.Yuliarto,Nugraha,H.K.D.,Z.A.Alothman,D.
+[2] a)Y.Li,C.K.Peng,H.Hu,S.Y.Chen,J.H.Choi,Y.G.Lin,J.M.Lee, Golberg,Y.Yamauchi,Chem.Mater.2020,32,7005.
+Nat.Commun.2022,13,1143;b)Y.Guo,T.Park,J.W.Yi,J.Henzie, [14] a)P.Prabhu,J.M.Lee,Chem.Soc.Rev.2021,50,6700;b)C.Cao,Q.
+J.Kim,Z.Wang,B.Jiang,Y.Bando,Y.Sugahara,J.Tang,Y.Yamauchi, Xu,Q.-L.Zhu,ChemCatal2022,2,693.
+Adv.Mater.2019,31,1807134. [15] a)J.Wu,J.Fan,X.Zhao,Y.Wang,D.Wang,H.Liu,L.Gu,Q.Zhang,
+[3] a)Y.Li,P.Kidkhunthod,Y.Zhou,X.Wang,J.M.Lee,Adv.Funct.Mater. L.Zheng,D.J.Singh,X.Cui,W.Zheng,Angew.Chem.,Int.Ed.2022,
+2022,32,2205985;b)M.Wang,Y.Xu,C.K.Peng,S.Y.Chen,Y.G.Lin, 61,202207512;b)V.H.Do,P.Prabhu,V.Jose,T.Yoshida,Y.Zhou,
+Z.Hu,L.Sun,S.Ding,C.W.Pao,Q.Shao,X.Huang,J.Am.Chem. H.Miwa,T.Kaneko,T.Uruga,Y.Iwasawa,J.M.Lee,Adv.Mater.2023,
+Soc.2021,143,16512. 35,2208860;c)M.Luo,Z.Zhao,Y.Zhang,Y.Sun,Y.Xing,F.Lv,Y.
+[4] a)T.Ling,D.Y.Yan,H.Wang,Y.Jiao,Z.Hu,Y.Zheng,L.Zheng,J. Yang,X.Zhang,S.Hwang,Y.Qin,J.Y.Ma,F.Lin,D.Su,G.Lu,S.Guo,
+Mao,H.Liu,X.W.Du,M.Jaroniec,S.Z.Qiao,Nat.Commun.2017, Nature2019,574,81;d)F.Lin,F.Lv,Q.Zhang,H.Luo,K.Wang,J.
+8,1509;b)S.Liu,Z.Hu,Y.Wu,J.Zhang,Y.Zhang,B.Cui,C.Liu,S. Zhou,W.Zhang,W.Zhang,D.Wang,L.Gu,S.Guo,Adv.Mater.2022,
+Hu,N.Zhao,X.Han,A.Cao,Y.Chen,Y.Deng,W.Hu,Adv.Mater. 34,2202084.
+2020,32,2006034. [16] a)S.Huang,S.Lu,S.Gong,Q.Zhang,F.Duan,H.Zhu,H.Gu,W.
+[5] a)Z.Li,Y.Feng,Y.L.Liang,C.Q.Cheng,C.K.Dong,H.Liu,X.W. Dong,M.Du,ACSNano2022,16,522;b)M.Xie,B.Zhang,Z.Jin,P.
+Du,Adv.Mater.2020,32,1908521;b)B.Lu,L.Guo,F.Wu,Y.Peng,J. Li,G.Yu,ACSNano2022,16,13715.
+E.Lu,T.J.Smart,N.Wang,Y.Z.Finfrock,D.Morris,P.Zhang,N.Li, [17] Q.Yang,L.Shi,B.Yu,J.Xu,C.Wei,Y.Wang,H.Chen,J.Mater.Chem.
+P.Gao,Y.Ping,S.Chen,Nat.Commun.2019,10,631. A2019,7,18846.
+[6] a)X.Qin,L.Zhang,G.-L.Xu,S.Zhu,Q.Wang,M.Gu,X.Zhang,C. [18] S.Han,C.Wang,Y.Wang,Y.Yu,B.Zhang,Angew.Chem.,Int.Ed.
+Sun,P.B.Balbuena,K.Amine,M.Shao,ACSCatal.2019,9,9614;b) 2021,60,4474.
+J.Fan,J.Wu,X.Cui,L.Gu,Q.Zhang,F.Meng,B.H.Lei,D.J.Singh, [19] Z.P.Wu,D.T.Caracciolo,Y.Maswadeh,J.Wen,Z.Kong,S.Shan,J.
+W.Zheng,J.Am.Chem.Soc.2020,142,3645. A.Vargas,S.Yan,E.Hopkins,K.Park,A.Sharma,Y.Ren,V.Petkov,
+[7] a) J. J. de la Cruz-Cruz, M. A. Domínguez-Crespo, E. Ramírez- L.Wang,C.J.Zhong,Nat.Commun.2021,12,859.
+Meneses,A.M.Torres-Huerta,S.B.Brachetti-Sibaja,A.E.Rodríguez- [20] J.M.Kim,J.H.Kim,J.Kim,Y.Lim,Y.Kim,A.Alam,J.Lee,H.Ju,H.
+Salazar,E.Pastor,L.E.González-Sánchez,Int.J.HydrogenEnergy C.Ham,J.Y.Kim,Adv.Mater.2020,32,2002210.
+2022,47,15655;b)R.-Q.Yao,Y.-T.Zhou,H.Shi,Q.-H.Zhang,L.Gu, [21] K.Yin,Y.Chao,F.Lv,L.Tao,W.Zhang,S.Lu,M.Li,Q.Zhang,L.Gu,
+Z.Wen,X.-Y.Lang,Q.Jiang,ACSEnergyLett.2019,4,1379. H.Li,S.Guo,J.Am.Chem.Soc.2021,143,10822.
+[8] a) H. D. Li, J. P. Lai, Z. J. Li, L. Wang, Adv. Funct. Mater. 2021, [22] Y.Guo,X.B.Yang,X.C.Liu,X.L.Tong,N.J.Yang,Adv.Funct.Mater.
+31,2106715;b)T.Loffler,A.Ludwig,J.Rossmeisl,W.Schuhmann, 2023,33,2209134.
+Angew.Chem.,Int.Ed.2021,60,26894. [23] Z.X.Ge,T.J.Wang,Y.Ding,S.B.Yin,F.M.Li,P.Chen,Y.Chen,Adv.
+[9] a)D.Wu,K.Kusada,T.Yamamoto,T.Toriyama,S.Matsumura,I. EnergyMater.2022,12,2103916.
+Gueye,O.Seo,J.Kim,S.Hiroi,O.Sakata,S.Kawaguchi,Y.Kubota, [24] a)B.Jiang,Y.Guo,J.Kim,A.E.Whitten,K.Wood,K.Kani,A.E.Rowan,
+H.Kitagawa,Chem.Sci.2020,11,12731;b)K.Huang,B.Zhang,J. J.Henzie,Y.Yamauchi,J.Am.Chem.Soc.2018,140,12434;b)W.H.
+Wu,T.Zhang,D.Peng,X.Cao,Z.Zhang,Z.Li,Y.Huang,J.Mater. Lee,H.N.Nong,C.H.Choi,K.H.Chae,Y.J.Hwang,B.K.Min,P.
+Chem.A2020,8,11938. Strasser,H.-S.Oh,ApplCatalB2020,269,118820.
+[10] a)H.D.Li,M.Z.Sun,Y.Pan,J.Xiong,S.H.Feng,Z.J.Li,J.P.Lai, [25] C.Peng,G.Luo,Z.Xu,S.Yan,J.Zhang,M.Chen,L.Qian,W.Wei,Q.
+B.L.Huang,L.Wang,ApplCatalB2022,312,121431;b)C.Zhan,Y. Han,G.Zheng,Adv.Mater.2021,33,2103150.
+Xu,L.Bu,H.Zhu,Y.Feng,T.Yang,Y.Zhang,Z.Yang,B.Huang,Q. [26] F.Y.Chen,Z.Y.Wu,S.Gupta,D.J.Rivera,S.V.Lambeets,S.Pecaut,
+Shao,X.Huang,Nat.Commun.2021,12,6261;c)W.Chen,S.Luo, J.Y.T.Kim,P.Zhu,Y.Z.Finfrock,D.M.Meira,G.King,G.Gao,W.Xu,
+M.Sun,X.Wu,Y.Zhou,Y.Liao,M.Tang,X.Fan,B.Huang,Z.Quan, D.A.Cullen,H.Zhou,Y.Han,D.E.Perea,C.L.Muhich,H.Wang,
+Adv.Mater.2022,34,2206276;d)L.Tao,M.Sun,Y.Zhou,M.Luo,F. Nat.Nanotechnol.2022,17,759.
+Lv,M.Li,Q.Zhang,L.Gu,B.Huang,S.Guo,J.Am.Chem.Soc.2022, [27] Y.Zheng,Y.Jiao,M.Jaroniec,S.Z.Qiao,Angew.Chem.,Int.Ed.2014,
+144,10582. 127,52.
+Adv.Funct.Mater.2023,33,2304963 2304963(9of9) ©2023Wiley-VCHGmbH
+16163028,
+2023,
+42,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202304963
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on [08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+

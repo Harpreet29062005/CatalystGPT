@@ -1,0 +1,952 @@
+RESEARCH ARTICLE
+www.advmat.de
+Lattice-Disordered High-Entropy Alloy Engineered by
+Thermal Dezincification for Improved Catalytic Hydrogen
+Evolution Reaction
+Kang Huang, Xun Cao, Yu Lu, Mingzhen Xiu, Kang Cui, Bowei Zhang,* Wencong Shi,*
+Jiuyang Xia, Lilia M. Woods, Siyu Zhu, Zheng Wang, Chunxian Guo, Changming Li,
+Zheng Liu,* Junsheng Wu,* and Yizhong Huang*
+1.Introduction
+Adisorderedcrystalstructureisanasymmetricalatomiclatticeresultingfrom
+themissingatoms(vacancies)orthelatticemisarrangementinasolid-state Hydrogen is considered the best resource
+material.Ithasbeenwidelyproventoimprovetheelectrocatalytichydrogen for green and renewable energy to solve
+theincreasingenvironmentalpollutionand
+evolutionreaction(HER)process.Inthepresentwork,duetothespecial
+energy crisis.[1–3] Nowadays, the electro-
+physicalproperties(thelowevaporationtemperatureofbelow900°C),Znis
+catalysis of water splitting is widely uti-
+utilizedasasacrificialcomponenttocreatesenaryPtIrNiCoFeZnhigh-entropy lized as one of the most promising ap-
+alloy(HEA)withhighlydisorderedlattices.Thestructureofthe proaches to producing high-purity H .[4–6]
+2
+lattice-disorderedPtIrNiCoFeZnHEAischaracterizedbythethermaldiffusion Thus,electrocatalystsareakeycomponent
+that allows the fast facilitation of the wa-
+scattering(TDS)intransmissionelectronmicroscope.Densityfunctional
+ter redox.[7–9] To date, noble metals (such
+theorycalculationsrevealthatlatticedisordernotonlyacceleratesboththe
+asPt,Pd,andRh)arerecognizedasstate-
+VolmerstepandTafelstepduringtheHERprocessbutalsooptimizesthe
+of-the-art electrocatalysts for the hydrogen
+intensityanddistributionofprojecteddensityofstatesneartheFermienergy evolution reaction (HER).[10–20] However,
+aftertheH OandHadsorption.AnomalouslyhighalkalineHERactivityand the scarcity, uneconomic, and poor stabil-
+2
+stabilityareprovenbyexperimentalmeasurements.Thisworkintroducesa itypreventtheirapplicationonalargescale.
+Therefore,theexplorationanddevelopment
+novelapproachtopreparingirregularlatticesofferinghighlyefficientHEAand
+ofhighlyefficientandstableelectrocatalysts
+aTDScharacterizationmethodtorevealthedisorderedlatticeinmaterials.It
+that are cost-effective, safe, and environ-
+providesanewroutetowardexploringanddevelopingthecatalyticactivities mentallyfriendlyforHERarestillfacinga
+ofmaterialswithasymmetricallydisorderedlattices. substantialchallengeforresearchers.[21–24]
+K.Huang,B.Zhang,J.Xia,J.Wu W.Shi
+InstituteforAdvancedMaterialsandTechnology SchoolofPhysicalScienceandTechnology
+UniversityofScienceandTechnologyBeijing NorthwesternPolytechnicalUniversity
+Beijing100083,China Xi’an,Shanxi710072,China
+E-mail:bwzhang@ustb.edu.cn;wujs@ustb.edu.cn E-mail:wshi@nwpu.edu.cn
+K.Huang L.M.Woods
+SchoolofOpticalandElectronicInformation DepartmentofPhysics
+SuzhouCityUniversity UniversityofSouthFlorida
+Suzhou215104,China Tampa,FL33620,USA
+X.Cao,Y.Lu,K.Cui,S.Zhu,Z.Liu,Y.Huang Z.Wang
+SchoolofMaterialsScienceandEngineering SchoolofChemistry,ChemicalEngineeringandBiotechnology
+NanyangTechnologicalUniversity NanyangTechnologicalUniversity
+50NanyangAvenue,Singapore639798,Singapore 62NanyangDrive,Singapore637459,Singapore
+E-mail:z.liu@ntu.edu.sg;yzhuang@ntu.edu.sg C.Guo,C.Li
+M.Xiu SchoolofMaterialsScienceandEngineering
+EnergyResearchInstitute SuzhouUniversityofScienceandTechnology
+InterdisciplinaryGraduateProgramme Suzhou215009,China
+NanyangTechnologicalUniversity
+50NanyangAvenue,Singapore639798,Singapore
+TheORCIDidentificationnumber(s)fortheauthor(s)ofthisarticle
+canbefoundunderhttps://doi.org/10.1002/adma.202304867
+DOI:10.1002/adma.202304867
+Adv.Mater.2024,36,2304867 2304867(1of10) ©2024Wiley-VCHGmbH
+
+www.advancedsciencenews.com www.advmat.de
+Figure1. SynthesisandmicrostructuralcharacterizationofPtIrNiCoFeZnHEAnanoparticles.a)SchematicillustrationofthesynthesisofPtIrNiCoFeZn
+HEAnanoparticles.b,c)LowandhighmagnificationFESEMimagesofPtIrNiCoFeZnHEAnanoparticles.d)XRDpatternofPtIrNiCoFeZnHEAnanopar-
+ticles.
+To improve the intrinsic activity of electrocatalysts, various thetransmissionelectronmicroscope(TEM).Thesedisordered
+strategies have been adopted.[25–30] Defect engineering, among latticesdemonstratetheimprovedHERperformanceoftheelec-
+thevastmajorityofoptions,hasprovedtobeaviablestrategyfor trocatalyst. Only 10 and 55 mV overpotentials are required to
+furtheradvancementoftheelectrocatalyticactivityofelectrocat- achievetherespectivecurrentdensitiesof10and100mAcm−2,
+alyststhroughtuningtheconductivityofelectrocatalysts,charge withtheTafelslopeofonly16.90mVdec−1.Inaddition,senary
+distribution,electronicstructure,surfacecomposition,andlocal PtIrNiCoFeZn HEA nanoparticles also show remarkable struc-
+environmentaroundactivesites.[31–38] tureandcompositionstabilitywithoutanyphasetransformation
+Adisorderedlatticeisacrystaldefectthatinterruptstheperfect and element dissolution after a 50 h long-term stability test at
+stackofatomsintheintrinsicstructureofasolidstate.However, 100mAcm−2currentdensityinthealkalinesolution.DFTcalcu-
+theeffectoflatticedisorderonthecatalysisofmetallicmaterials, lationsindicatethatthedisorderedlatticecanaccelerateVolmer
+suchashigh-entropyalloys(HEAs)hasbeenhardlystudiedso and Tafel steps in the HER process and optimize the intensity
+far.Inthepresentwork,astrategyofengineeringlatticedisorder and distribution of the total density of states (TDOS) near the
+inaseriesofalloysfrombinarytosenaryisreportedwhichisful- Fermi energy. Both experiment and calculation results suggest
+filledbytheevaporationofactiveelementswithlowevaporation that the imperfection of lattice can improve the electrocatalytic
+point. Zn, a transitional metal, evaporated less than 900 °C,[39] HERperformanceofelectrocatalysts.Thisworkprovidesanin-
+isusedasasacrificialcomponenttocreatelatticedistortion.Zn sightfuldirection/pathwaytodesignandfabricatematerialswith
+itselfiselectrochemicallyinertforHERandrarelyusedasanac- highlydisordered/distortedlatticesforenergystorageandcon-
+tivecomponentofelectrocatalystsforHER.[40,41] Inthepresent version.
+study,unary(Pt/Ir)tosenary(PtIrNiCoFeZnHEA)nanoparticles
+weresynthesizedonthesurfaceofmultiwallcarbonnanotubes 2.Results
+(MWCNTs) by using laser irradiation (Figures S1–S8, Support-
+ingInformation).Theschematicdiagramforthesyntheticpro- 2.1.ThePreparationandCharacterizationofPtIrNiCoFeZnHEA
+cessofsenaryPtIrNiCoFeZnHEAnanoparticlesisillustratedin
+Figure1a.Itstartedwithpreparingasolvent,amixtureofthecho- PtIrNiCoFeZn HEA nanoparticles were viewed in a field-
+senmetalions.ApieceofpaperwithMWCNTswasthenwetted emission scanning electron microscope (FESEM), which are
+usingthesolventfollowedbylaserirradiationafterbeingdried. seen to be uniformly dispersed over the surface of MWCNTs
+ThedetailedsynthesisisdescribedintheExperimentalSection. (Figure 1b,c). The size of these nanoparticles is estimated to
+Theatomiclatticesofas-receivedPtIrNiCoFeZnHEAnanoparti- be sub-10 nm from Figure 1c. PtIrNiCoFeZn HEA nanopar-
+clesaredisorderedarisingfromthethermaldezincification(i.e., ticles present a single solid-solution phase face-centered cu-
+Zinc evaporation) when subject to high energetic incidence of bic (FCC) structure as determined from their X-ray diffrac-
+thelaserbeam.Thedisorderedlatticesareverifiedbyanalyzing tion (XRD) pattern (Figure 1d). The two diffraction peaks lo-
+the thermal diffusion scattering (TDS) of the electron beam in cated at two theta angles of 42.3° and 48.8° correspond to the
+Adv.Mater.2024,36,2304867 2304867(2of10) ©2024Wiley-VCHGmbH
+15214095,
+2024,
+32,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.202304867
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.advmat.de
+Figure2. MicrostructureanalysisofPtIrNiCoFeZnandPtIrNiCoFe.a)High-resolutionSTEMimageofPtIrNiCoFeZnHEAnanoparticle.b)FFTpattern
+of(a).c)IFFTimageofcorrespondingFFTpattern(inset).d)SchematicillustrationofTDS.e)Color-mixedimageof(a)and(c),(a)issetasgreen,(c)as
+red.f)High-resolutionSTEMimageofPtIrNiCoFeHEAnanoparticle.g)FFTpatternof(f).h)STEM-EDSmappingofPtIrNiCoFeZnHEAnanoparticle.
+(1 1 1) and (2 0 0) lattice planes, respectively. The distribution thelatticewhenitisorganizedinadisorderedmanner.Likewise,
+of PtIrNiCoFeZn HEA nanoparticles across the MWCNTs sur- theFFTspotsdiffractedfromthenoblemetalreconstructedlat-
+face was further examined using scanning transmission elec- ticeareindexedas2/5(200)or2/5(−200),2/5(020)or2/5
+tron microscopy (STEM).Figure S9a (Supporting Information) (0−20),and2/5(−220)or2/5(2−20)latticeplanes.Theyare
+isalow-magnifiedSTEMimagetakenfromPtIrNiCoFeZnHEA notaperfectarraythesameasthereciprocallatticeofanFCC
+nanoparticlesatahigh-angleannualdark-field(HAADF)mode, crystalstructure.2/5referstothereciprocallatticespacingofthe
+where nanoparticles are evenly decorated over the surface of noblemetalreconstructedFCCstructure,whichislessthanthe
+MWCNTs.Theyhaveanaveragesizeof8.33nmmeasuredfrom original FCC structure. This is reasonable since the atomic ra-
+theirsizedistributionasshowninFigureS9b(SupportingInfor- dius of noble metals is larger than that of transitional metals.
+mation),ingoodagreementwiththeestimationofFESEM. However,thestrongbackgroundwithhighintensityaroundthe
+Almost all PtIrNiCoFeZn HEA nanoparticles performed in transmittedspotoriginatesfromtheTDSwhenthelatticeofthe
+STEM display disordered lattices compared to the perfectly ar- sampleisdisordered.Althoughbothincoherentelectronsemit-
+rangedlatticesoftheircounterpartsfreeofZn.Asanexample, ted from the electron beam in TEM and the thick sample can
+Figure2ashowsanatomiclatticestructure,imagedfromasingle bringabouttheTDS,theimagingofthepresentworkwasper-
+PtIrNiCoFeZnHEAnanoparticlebySTEM,whichishighlydis- formedinaCs-correctedSTEMequippedwithafield-emission
+ordered.Twodifferentatomiclatticestructuresaretheresultof gun,whichprovidesabeamofelectronsbeinghighlycoherent.
+theresponsetothermaldezincification.Onelatticestructureis Consideringtheparticlesofsub-10nmthin,thesetwofactorswill
+arrayedbynoblemetals(i.e.,PtandIr),withhighZcontrast,that notcontributetotheTDS.Thus,theTDSintensitiesarebuiltup
+showsmuchbrighterthantheotherlatticestructure.Thislattice asaconsequenceofthelocal/temporallatticedeviationfromthe
+isapparentlypreservedfromtheoriginallatticeofthenanopar- long-rangeorderedstructure.Figure2cisaninversefastFourier
+ticle.Thetworeassembledlatticestructuresaredeterminedby transform(IFFT)latticeimage,processedbasedontheFFT(in-
+thecorrespondingtwosetsoffastFouriertransforms(FFTs)in set)exclusiveoftheFFToftheoriginallatticestructure,which
+Figure2b.Theredcircledspotsarediffractedfromthelatticeof appears very disordered/distorted and is seen to present many
+noblemetalwhiletheyellowcircledspotsarereflectedfromthe defects(suchasthosevacanciesasmarkedbytheyellowarrows).
+original lattice. Both FFTs are oriented close to the same zone TDS,illustratedschematicallyinFigure2d,isreliableforthelat-
+axis of [0 0 1]. It is worth noting that the FFT diffraction spots ticedisorder.Theredlinesrepresenttheelectronwavesthatsat-
+generatedfromtheoriginallatticeandassignedas(200)or(−2 isfytheBragganglesandarediffractedresultinginthespotsas
+00)and(020)or(0−20)latticeplanesarearrayednotexactly projectedonthebackfocalplane.Incontrast,thoselinesingreen
+inalignmentwithanFCCcrystalstructure.Thisistheresultof aretheelectronwavesthatengagethediffusionscatteringevent
+Adv.Mater.2024,36,2304867 2304867(3of10) ©2024Wiley-VCHGmbH
+15214095,
+2024,
+32,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.202304867
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.advmat.de
+inproximitytothetransmittedbeamowingtothedisorderedlat- formance with the minimum overpotential value (Figure 3a).
+tice.ThesuperimpositionofFigure2a,cformsthecolor-mixed Only 10/55 mV is required to reach a current density of
+image of Figure 2e which clearly reveals the disordered lattice 10/100 mA cm−2 much lower than 14/76 mV of quinary PtIr-
+and defects. In contrast, Figure 2f is an atom-perfectly-ordered NiCoFeHEAnanoparticlesand34/183mVofcommercialPt/C
+STEMimageofPtIrNiCoFefreeofZinc,whichhashardlyany (20%). It suggests that the addition of zinc into PtIrNiCoFe
+occurrenceofTDSwhenviewedinTEMasprovenfromitsFFT HEA can better the electrocatalytic HER performance of elec-
+(Figure2g).TheelementaldistributionwithinthePtIrNiCoFeZn trocatalysts. Since zinc is electrochemically inert for HER, the
+HEAnanoparticlewasmappedusingenergy-dispersiveX-rayat- improved electrocatalytic performance is attributed to the lat-
+tached to scanning transmission electron microscopy (STEM- tice disorder resulting from zinc evaporation as stated above.
+EDX). All the elements were detected and are uniformly dis- The local deviation of the PtIrNiCoFeZn HEA atomic lattice
+tributedacrossnanoparticleswithoutelementalsegregationand from its long arranging ordered lattice will create numerous
+phaseseparation(Figure2h;andFigureS10,SupportingInfor- lattice defects/vacancies, which act as active sites favorable for
+mation). In addition, the relatively low signal intensity of zinc the catalysis. Table S1 (Supporting Information) lists the elec-
+over other elements further demonstrates the loss of zinc un- trocatalytic HER performance for the state-of-the-art and even
+der the laser irradiation process. Furthermore, electron energy benchmarked electrocatalysts, in which senary PtIrNiCoFeZn
+lossspectroscopy(EELS)wasutilizedtocharacterizethedistri- HEA nanoparticles are top positioned and ranked in the best
+butionandelectronstatesoflightmetalsinPtIrNiCoFeZnHEA spot.PtIrNiCoFeZnHEAnanoparticlesdemonstratethelowest
+nanoparticles. As shown in Figure S11 (Supporting Informa- Tafel slope of 16.90 mV dec−1 (Figure 3b) compared to PtIrNi-
+tion),startingfromasinglemetalcenter,alllightmetalsignals CoFeHEAnanoparticles(19.14mVdec−1)andPt/C(28.60mV
+are visible except Zn, which is attributed to the evaporation of dec−1).ThisrevealsthatPtIrNiCoFeZnHEAnanoparticlesfacil-
+Zn. It is also proven that the light metals have a uniform dis- itate the fastest catalytic kinetics and electrochemical reactions
+tribution in PtIrNiCoFeZn HEA nanoparticles. Meanwhile, all ofHERelectrocatalysisoverothers.Thereactionkineticsofthe
+EELspectraofthelightmetalspresentmetalstatesratherthan PtIrNiCoFeZn HEA electrode can be further examined by the
+oxide states, indicating that the PtIrNiCoFeZn HEA nanoparti- Nyquistcurveswhichweremeasuredusingtheelectrochemical
+clesarefreefromoxidation.[42,43] X-rayabsorptionspectroscopy impedancespectroscopy(EIS)technique.Fromthetest,PtIrNi-
+(XAS) was employed to reveal further the valence state of PtIr- CoFeZnHEAnanoparticleswereseentohavethesmallestdiam-
+NiCoFeZnHEAnanoparticles.[44]ThenormalizedX-rayabsorp- eterofthesemiarcofchargetransferresistanceagainstothers,
+tionnear-edgestructure(XANES)spectraatCoK-edgeofPtIr- indicatingitsultrahighchargetransfercapacity(Figure3c;and
+NiCoFeZnHEAnanoparticlesandreferencesample(Cofoil)in- TableS2,SupportingInformation).ToevaluatetheintrinsicHER
+dicatethattheCoisatthemetalstate(FigureS12a,Supporting catalyticactivityofas-preparedelectrocatalysts,electrochemically
+Information).ThecorrespondingFourier-transformextendedX- activesurfacearea(ECSA)wascalculated(FigureS21,Support-
+rayabsorptionfinestructure(EXAFS)spectrademonstratefur- ing Information). As shown in Figure 3d, PtIrNiCoFeZn HEA
+therthattheCoisalloyed(FigureS12b,SupportingInformation). nanoparticles possess the highest electrochemical double-layer
+Inaddition,thechemicalandelectronicstatesofPtIrNiCoFeZn capacitance(C )value(170mFcm−2)comparedtoPtIrNiCoFe
+dl
+nanoparticles were also characterized by X-ray photoelectron HEAnanoparticles(143mFcm−2),andPt/C(104mFcm−2),sug-
+spectroscopy (XPS). The high-resolution spectra of all metals gestingthatitcanprovidethemostcatalyticactivesites.Turnover
+demonstrate that PtIrNiCoFeZn nanoparticles are not oxidized frequency(TOF),animportantparameter,whichgivesthenum-
+(Figures S13 and S14, Supporting Information). The elemen- berofmoleculesreactedperactivesiteofcatalyst,wasalsoused
+talcontentinPtIrNiCoFeZnHEAnanoparticleswasmeasured to evaluate the intrinsic catalytic activity of as-prepared electro-
+using an inductively coupled plasma massspectrometry (ICP- catalysts.PtIrNiCoFeZnHEAnanoparticlesarecalculatedatthe
+MS).TheamountofeachelementisshowninFigureS15(Sup- overpotentialof50mVtohaveaTOFvalueof0.1952S−1which
+portingInformation).Allelementsmeettherequirementofthe is42timeshigherthanPt/C(Figure3e)indicatingtheirremark-
+atomicpercentagebasedonthedefinitionofHEAs.[45,46]Again, ableelectrocatalyticHERperformance.Concerningthepractical
+Zinc has the lowest content in PtIrNiCoFeZn HEA nanoparti- application,themassactivitymustbecalculatedbyconsidering
+clesfurtherconfirmingthatthedepletionundergoesduringthe the normalization of the precious metal content at the overpo-
+synthesisprocess.ThisresultisalsoconsistentwiththeSTEM tentialof50mV.AsshowninFigureS22(SupportingInforma-
+and EDX mapping analysis above. Except for the senary PtIr- tion),PtIrNiCoFeZnHEAnanoparticlesprovidenearly3times
+NiCoFeZnsystem,thelatticedisorderisfoundtoequallyoccur moremassactivitythanthecommercialPt/Celectrocatalyst,and
+duetothezincevaporationinquinaryPtIrNiCoZn,quaternary thusareanidealHERelectrocatalysttoreplacethecommercial
+PtIrNiZn, ternary PtIrZn, and binary IrZn and PtZn systems Pt/Cinpractice.BesidestheelectrocatalyticHERperformance,
+(FiguresS16–S20,SupportingInformation). thelong-termHERstabilityofPtIrNiCoFeZnHEAnanoparticles
+isalsoconsideredanequallyimportantfactorforpracticalappli-
+cations.Theoverpotentialonlyincreasedby5mVafter50hof
+2.2.ElectrocatalyticHERPerformancesofPtIrNiCoFeZnHEA stabilitytestingatacurrentdensityof100mAcm−2(Figure3f).It
+provesthelong-termstabilityofPtIrNiCoFeZnHEAnanoparti-
+Motivated by the attractive structure of senary PtIrNiCoFeZn cleswhensubjectedtotheappliedexternalconditions.Exceptfor
+HEA nanoparticles, the HER performance of the as-prepared thesenaryPtIrNiCoFeZnHEAnanoparticles,theelectrocatalytic
+electrocatalysts was evaluated in the alkaline solution. The HERperformanceofothersamplesisshowninFiguresS23–S28
+senaryPtIrNiCoFeZnHEAnanoparticlesofferthebestHERper- andTablesS3–S8(SupportingInformation).
+Adv.Mater.2024,36,2304867 2304867(4of10) ©2024Wiley-VCHGmbH
+15214095,
+2024,
+32,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.202304867
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.advmat.de
+Figure3. EvaluationofthealkalineelectrocatalyticHERperformanceoftheas-preparedelectrocatalysts.a)Linearsweepvoltammetry(LSV)curves
+ofPtIrNiCoFeZn,PtIrNiCoFe,andcommercialPt/C(20%)in1mKOHelectrolyte.b)CorrespondingTafelslopeoftheas-preparedelectrocatalysts
+calculatedfromthechronoamperometrycurves.c)EISNyquistplotsoftheelectrocatalysts.d)Electrochemicaldouble-layercapacitance(C )collected
+dl
+fromCyclicVoltammetry(CV)measurementsbetweenthewindowof0.05–0.10VversusRHEwithdifferentscanrates(4,6,8,10,and12mVs−1).e)
+TOFcalculatedattheoverpotentialof50mVforPtIrNiCoFeZnandcommercialPt/C.f)ChronopotentiometrycurveofPtIrNiCoFeZnHEArecordedat
+acurrentdensityof100mAcm−2.
+2.3.CharacterizationofPtIrNiCoFeZnHEAaftertheHER NiCoFeZn HEA nanoparticles on the surface of MWCNTs and
+StabilityTest theabilitytoresistthestrongerosioncorrosioninducedbythe
+bubbling of a large number of hydrogen molecules in the al-
+ThestabilityoftheHERelectrodewithlong-termtoleranceisa kaline solution in the course of a long-time stability test. The
+componentthatisequallyimportantastheelectrocatalyticHER microstructuresofPtIrNiCoFeZnHEAelectrocatalystsafterthe
+performanceduringthepracticalapplication.Assuch,aseries stability test were analyzed further using HAADF-STEM. The
+of measurements were conducted to understand the structural atomicSTEMimageshowstheequivalentdimensionoflattice
+stabilityofsenaryPtIrNiCoFeZnHEAelectrocatalystswhenthey disordered PtIrNiCoFeZn HEA nanoparticles. Figure 4a, taken
+are experiencing the long-term stability test. Figure S29 (Sup- atazoneaxisof[212],isoneofthemwheretheTDSremains
+portingInformation),obtainedfromICP-MSmeasurement,dis- andisvisibleradiallyaroundthecentralspotfromFigure4b,the
+playstheelementalcontentsdissolvedintheelectrolyteafterthe FFT pattern of Figure 4a. The steady preservation of the disor-
+stability test. The extremely low amount of all the elements in deredlatticeallowsthecontinuousrobustnessofactivesitesover
+theelectrolyteprojectstheoutstandingcompositionalstabilityof thecatalystsurfacefacilitatingtheelectrocatalyticperformancein
+thePtIrNiCoFeZnHEAwhensubjecttoreactionconditions.The thelongrun.Tofurtherdistinguishthelatticedisorder,theIFFTs
+phasestructureofPtIrNiCoFeZnHEAelectrocatalystsafterthe wereperformedfromtheFFT(insetinFigure4c)withtheTDS
+stabilitytestwasexaminedfurtherusingtheXRD(FigureS30, free and the FFT (inset in Figure 4e) of the TDS, respectively.
+Supporting Information). Almost identical diffraction peaks of TheircorrespondingcoloredimagesaredisplayedinFigure4d
+PtIrNiCoFeZn HEA electrocatalysts before and after the stabil- (green)andFigure4f(red).ThesuperimpositionofFigure4d,f
+itytestdemonstratethatthePtIrNiCoFeZnHEAelectrocatalysts formsthecolor-mixedimageofFigure4g,wherethelatticedis-
+remainapureFCCalloystructurewithoutanyoxidationoccur- orderanddefectscanbeclearlyvisualized.STEM-EDXwasre-
+ring on the surface of the PtIrNiCoFeZn HEA electrocatalyst. peatedlyperformedtoseetheelementaldistributionwithinthe
+Rightafterthestabilitytest,thePtIrNiCoFeZnHEAelectrocat- PtIrNiCoFeZnHEAnanoparticle.Asexpected,alltheelements
+alystwasimmediatelyplacedandviewedinFESEM(FigureS31, aredetectedandareuniformlydistributedacrossnanoparticles
+SupportingInformation).Thesamplesurfaceisfreeofchange withoutelementalsegregationandphaseseparationafterthesta-
+withthosePtIrNiCoFeZnHEAnanoparticlesthatarestillmain- bilitytest(Figure4h;andFiguresS32andS33,SupportingIn-
+tainedanduniformlydecoratedacrossthesurfaceofMWCNTs. formation).Theevendispersedoxygensignalcanfurtherprove
+ThisdemonstratestheexcellentstructuralreliabilityofthePtIr- thatPtIrNiCoFeZnHEAnanoparticlesarestillinametallicalloy
+Adv.Mater.2024,36,2304867 2304867(5of10) ©2024Wiley-VCHGmbH
+15214095,
+2024,
+32,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.202304867
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.advmat.de
+Figure4. MicrostructuralcharacterizationofPtIrNiCoFeZnHEAnanoparticlesafterthelong-termstabilitytest.a)High-resolutionSTEMimageof
+PtIrNiCoFeZnHEAnanoparticleafterthestabilitytest.b)FFTpatternof(a).c)IFFTimageofcorrespondingFFTpattern(inset).d)Greencolorimage
+of(c).e)IFFTimageofcorrespondingFFTpattern(inset).f)Redcolorimageof(e).g)Color-mixedimageof(d)and(f).h)STEM-EDSmappingof
+PtIrNiCoFeZnHEAnanoparticleafterthestabilitytest.
+state after the stability test. The signal of oxygen is believed to structure)vacancies(FigureS36,SupportingInformation),[47,48]
+beattributedtothealkalineresidual.Inaddition,thenormalized were calculated by using density functional theory (DFT). Slab
+XANESspectra(FigureS35a,SupportingInformation)andthe modelsofFCCPtIrNiCoFeZnHEAwithandwithoutvacancies
+corresponding Fourier-transform EXAFS spectra (Figure S35b, were constructed based on the detailed structural and compo-
+SupportingInformation)provethatnoCooxidationisdetected sitional characterizations described above. Pt and Zn are con-
+aftertheHERstabilitytest.TheseresultssuggestthatHEAsare sidered the best and worst electrocatalytic HER active sites in
+notoxidizedaftertheHERstabilitytest. the PtIrNiCoFeZn HEA system. Therefore, DFT calculations
+focus on these two active sites. Pt active sites on the sur-
+face of PtIrNiCoFeZn-V and PtIrNiCoFeZn-P are denoted as
+2.4.DFTCalculations PtIrNiCoFeZn-V-PtandPtIrNiCoFeZn-P-Pt.Likewise,Znactive
+sitesonthesurfaceofPtIrNiCoFeZn-VandPtIrNiCoFeZn-Pare
+To unveil the impact of vacancies or disordered lattice on the denotedasPtIrNiCoFeZn-V-ZnandPtIrNiCoFeZn-P-Zn.
+electrocatalyticHERperformanceofPtIrNiCoFeZn,thekinetic First, the calculation was performed on the electrocat-
+energy barriers of the Volmer step (water dissociation step, alytic HER performance of Pt active sites in both struc-
+ΔG ) and the subsequent Tafel step (hydrogen desorption tures. As shown in Table S9 (Supporting Information), the
+H2O
+step, ΔG ) corresponding to the process pathways of the as- PtIrNiCoFeZn-V-Pt shows more negative water adsorption en-
+H
+builtadsorptionH O,activatedH O(transitionstep),OH*,and ergy(−0.2730eV)thanPtIrNiCoFeZn-P-Pt(−0.1321eV),indicat-
+2 2
+H* intermediates on the surface of PtIrNiCoFeZn HEA with ingthestrongerwateradsorptionabilityofPtIrNiCoFeZn-V-Pt
+(denoted as PtIrNiCoFeZn-V, V represents vacancy) and with- than PtIrNiCoFeZn-P-Pt. Meanwhile, the PtIrNiCoFeZn-
+out (denoted as PtIrNiCoFeZn-P, P represents ordered lattice V-Pt shows almost the same water dissociation energy
+Adv.Mater.2024,36,2304867 2304867(6of10) ©2024Wiley-VCHGmbH
+15214095,
+2024,
+32,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.202304867
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.advmat.de
+Figure5. DFTcalculations.a,b)CalculatedfreeenergydiagramsofVolmerstepa)andTafelstepb)atPtIrNiCoFeZn-V-PtandPtIrNiCoFeZn-P-Ptactive
+sites.c,d,e)TDOSandPDOSplotsofPtIrNiCoFeZn-V-Ptc),anditsadsorptionforH Od)andHe),Energy = E−E ,E representFermienergy.f,g)
+2 F F
+CalculatedfreeenergydiagramsofVolmerstepf)andTafelstepg)atPtIrNiCoFeZn-V-ZnandPtIrNiCoFeZn-P-Znactivesites.h,i,j)TDOSandPDOS
+plotsofPtIrNiCoFeZn-V-Znh),anditsadsorptionforH Oi)andHj).PinkisPt,redisIr,blueisNi,cyanisCo,yellowisFe,greenisZn,orangeisO,
+2
+andgrayisH.
+(ΔG = 0.4270eV) as PtIrNiCoFeZn-P-Pt (ΔG = According to the Sabatier principle,[49,50] the ΔG has been
+0.421
+H
+0
+2O
+eV).suggestingthattheyhaveasimilarVolmerste
+H
+p
+2O
+en- recognized as the most valuable parameter to d
+H
+escribe the
+ergybarrier(Figure5a).Moreimportantly,thePtIrNiCoFeZn-V- HERactivity.TheclosertozeroforthevalueofΔG ,themore
+H
+PtpresentsacloserzeroΔG value(ΔG = −0.0381eV)com- efficientHadsorptionanddesorptionprocessduringtheHER,
+H H
+pared to PtIrNiCoFeZn-P-Pt (ΔG = 0.5126eV) (Figure 5b). leadingtohigherelectrocatalyticHERactivity.Thesetheoretical H
+Adv.Mater.2024,36,2304867 2304867(7of10) ©2024Wiley-VCHGmbH
+15214095,
+2024,
+32,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.202304867
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.advmat.de
+resultsdemonstratethatthevacancies/latticedisordercanhighly activesitescontributingtothealloywiththehighHERperfor-
+promotetheelectrocatalyticHERperformance. mance.ThelatticedisorderengineeredbytheevaporationofZn
+In addition to the reaction Gibbs free energy, the TDOS of furtheradvancestheHERcatalysis.
+PtIrNiCoFeZn-V-Pt and its adsorption H O and H were also
+2
+calculated. Figure 5c is the TDOS plot for PtIrNiCoFeZn-V-Pt,
+3.Conclusion
+where the TDOS value of PtIrNiCoFeZn-V-Pt drops to nil at
+0.057eVrelativetotheFermienergy(thex-axisisshiftedwith
+In summary, the senary PtIrNiCoFeZn HEA with highly disor-
+respecttoFermienergysothatEnergy = E−E ).However,
+Fermi dered/distorted lattices was synthesized via the evaporation of
+afterawatermoleculeisadsorbedonthePtIrNiCoFeZn-V-Ptac-
+Znwhensubjecttolaserirradiation.ThislatticedisorderedPtIr-
+tivesite,theTDOSabruptlyrisestoaveryhighvalue.Underthis
+NiCoFeZnHEAisevaluatedtoofferelectrocatalyticHERperfor-
+condition,moreelectronstatesareavailableforelectrocatalysis
+manceandlong-termstabilitybeyondourexpectations.Reaching
+reaction after the H O adsorption (Figure 5d). A similar result
+2 acurrentdensityof10/100mAcm−2requiresanextremelylow
+is obtained when H adsorption on the PtIrNiCoFeZn-V-Pt ac-
+overpotentialdownto10/55mVwiththeTafelslopevalueofjust
+tivesiteoccurs.TheTDOSneartheFermienergywithavalue
+16.90mVdec−1.Inaddition,thealloycantoleratea50hstability
+thatisverylargeandevenlydistributedwhenHadsorptionon testwithoutanystructuralandcompositionaldeterioration.DFT
+PtIrNiCoFeZn-V-Pt active site (Figure 5e). Consequently, more
+calculationsdemonstratethattheaccelerationoftheVolmerstep
+electronstatesareinvolvedtofacilitatetheelectrocatalyticHER
+andtheTafelstepintheHERprocess,optimizationsintensity,
+process whentheHisadsorbedonthePtIrNiCoFeZn-V-Ptac-
+and distribution of TDOS near the Fermi energy benefit from
+tivesites.TheTDOSresultsfurtherdemonstratethatvacancies
+thelatticedisorder.Theapproachbroughtoutfromthepresent
+enableoptimizingelectrocatalyticHERperformanceofelectro-
+workprovidesinsighttoexploreanddevelopcatalyticmaterials
+catalysts.
+withdisordered/distortedlatticesforpracticalapplications.
+TheelectrocatalyticHERperformanceofZnactivesitesinthe
+twostructureswassubsequentlycalculated.PtIrNiCoFeZn-V-Zn
+exhibitsawateradsorptioncapacitystrongerthanPtIrNiCoFeZn-
+4.ExperimentalSection
+P-Zn due to its lower water adsorption energy (Tabel S9,
+Supporting Information). In the meantime, PtIrNiCoFeZn-V- Chemicals: TheMWCNTspaperwasboughtfromNanjingXianfeng
+Zn that presents smaller water dissociation energy (ΔG = NanoCo.(Nanjing,China).Iridium(III)chloridehydrate(99.8%)waspur-
+0.2895eV)thanPtIrNiCoFeZn-P-Zn(ΔG = 0.3974eV
+H
+),
+2O
+has chasedfromAlfaAesar.Chloroplatinicacidhydrate(≥99.9%),NiCl ·6H O
+alowerVolmerstepenergybarrier(Figur
+H
+e
+2O
+5f).Inaddition,low (≥98.0%), CoCl 2 ·6H 2 O (≥98.0%), FeCl 2 ·4H 2 O (≥99.0%), ZnCl
+2
+2 ·2H
+2
+2 O
+ΔG value (ΔG = 0.3746eV) of PtIrNiCoFeZn-V-Zn over
+(≥99.0%),nitricacid(69%–70%),anhydrousethanol,andpotassiumhy-
+H H droxide(KOH90%,AR,grade)wereobtainedfromSigma-Aldrich. PtIrNiCoFeZn-P-Zn (ΔG = 0.5158eV) renders its smaller
+H SynthesisofPtIrNiCoFeZnHEA: Priortothesynthesis,thepurchased
+Tafel step energy barrier (Figure 5g). These theoretical results
+MWCNTspaperwastreatedinamixedsolutionofnitricacidandwater
+showclearevidencethatvacanciescangreatlyadvancetheelec- with a volume ratio of 1:1 for 24 h to remove residual metal ions and
+trocatalytic HER performance by accelerating both the Volmer produceoxygen-containedfunctionalgroupsontheirsurface.Then,the
+andTafelsteps. MWCNTpaperwaswashedseveraltimeswithdeionizedwaterandanhy-
+Besides the reaction Gibbs free energy, the TDOS of drousethanolfollowedbydryingat60°Cintheair.Allthechloridepre-
+cursorswithanequalMooreamountweredissolvedinanhydrousethanol
+PtIrNiCoFeZn-V-Zn and its adsorption H O and H were also
+2 topreparethemixedsaltsolutionwithatotalmetalsaltsconcentration
+calculated.Figure5histheTDOSplotforPtIrNiCoFeZn-V-Zn, was50mmolL−1.Subsequently,themixedsaltssolutionwasdropped
+which shows the TDOS of PtIrNiCoFeZn-V-Zn has a dip (the onthesurfaceofMWCNTspaperacrossageometricareaoftheMWC-
+valueofTDOSisclosetozero)neartheFermienergy.Thedip NTspaperof1.2cm2(1×1.2),eachsquarecentimeterofMWCNTspaper
+neartheFermienergystillexistswhenawatermoleculeisad- loadedwith100μLsolution.Afterdryingnaturally,theMWCNTspaper
+sorbedonPtIrNiCoFeZn-V-Znactivesite(Figure5i).However, isirradiatedbyalaserbeamintheinertatmosphere(N 2 ).Theparame-
+tersofthelaserbeamaresetas40mms−1scanrate,1Woutputpower,
+if comparing the TDOS value and PDOS value in Figure 5h,i
+900kHzfrequency,and2nspulsewidth,inalignmentwiththecommercial
+byzoominginthenarrowregionneartheFermienergy,itwill
+lasersource(JPT-M7-100W).Aftertheirradiationprocess,PtIrNiCoFeZn
+befoundthatallthemetalelementsoffermoreelectronstates HEAnanoparticlesaresuccessfullysynthesizedonthesurfaceofMWC-
+nearFermienergyafterawatermoleculeadsorptioncompared NTs.Later,thePtIrNiCoFeZnHEA@MWCNTspaperwaswashedseveral
+tonowatermoleculeadsorption.Thissuggeststhatmoreelec- timeswithanhydrousethanolanddistilledwater.TheloadingmassofPtIr-
+tron states are useful for electrocatalysis after the H O adsorp- NiCoFeZnHEAnanoparticlesonthesurfaceofMWCNTspaperiscalcu-
+2 latedtobe0.28mgcm−2. tiononPtIrNiCoFeZn-V-Znactivesites.FromtheTDOSplotof
+Characterization: Themorphologiesofthesynthesizedmaterialswere
+HadsorptiononthePtIrNiCoFeZn-V-Znactivesites,asshown
+performed using field-emission scanning electron microscopy (FESEM,
+in Figure 5j, the dip near Fermi energy disappears. However,
+JEOLJSM-7600f).Thehigh-angleannulardark-fieldscanningtransmis-
+the TDOS near the Fermi energy is extremely increased indi- sion electron microscopy (HAADF-STEM) and energy-dispersive X-ray
+cating that more electron states are available for the electrocat- spectroscopy(EDS)mappingwereexaminedbyaJEOLJEM-ARM200F
+alytic HER process when the H is adsorbed on PtIrNiCoFeZn- withdoublesphericalaberrationcorrectors.X-raydiffraction(XRD)pat-
+V active sites. The TDOS results demonstrate further that va- ternswererecordedusinganX-raydiffractometer(ShimadzuXRD-6000)
+withCuK𝛼 radiation(𝜆=1.5406Å).X-rayphotoelectronspectroscopy
+cancies/disordered lattices can optimize electrocatalytic HER
+(XPS)wascollectedusinganX-rayphotoelectronspectrometer(Kratos
+performance. AXIS Supra), with nonmonochromatized Al K𝛼 X-rays as the excitation
+It is worth noting that PtIrNiCoFeZn-P free of vacan- source.Thecontentofmetalelementswasmeasuredusinganinductively
+cies/disorderedlatticeprovidesZnactivesites,comparabletoPt coupledplasmamassspectrometry(ICP-MS,ElanDRC-e).
+Adv.Mater.2024,36,2304867 2304867(8of10) ©2024Wiley-VCHGmbH
+15214095,
+2024,
+32,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.202304867
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.advmat.de
+ElectrochemicalMeasurements: Alltheelectrochemicalmeasurements TheH OadsorptionenergyisdefinedasEquation(2)
+2
+were conducted on an electrochemical workstation (Autolab PGSTAT
+302N)withastandardthree-electrodesetupin1mKOHelectrolyteat ΔE =E −E −E (2)
+H2O HEA+H2O HEA H2O
+room temperature. As-prepared electrocatalyst materials were used as
+theworkingelectrode,thegraphiterodasthecounterelectrode,andthe wheretheE isthetotalenergyofonewatermoleculeadsorption
+Ag/AgClelectrodeinsaturatedKClservedasthereferenceelectrode.The onthesurfa
+H
+ce
+EA
+o
++
+f
+H
+H
+2O
+EA,E istheenergyofHEA,E istheenergyofa
+conversionofthepotentialreferencedtothereversiblehydrogenelectrode singlewatermolecule.
+HEA H2O
+(RHE)ismadebyusingEquation(1) TheadsorptionfreeenergyforwaterisdefinedasEquation(3)
+( ) ΔG =ΔE +ΔE −TΔS (3)
+E =E +0.059∗pH+E0 E0 =0.197Vat25 ◦ C
+H2O H2O ZPE
+RHE Ag∕AgCl Ag∕AgCl Ag∕AgCl
+where ΔE istheadsorptionenergy,ΔE andΔSarethezero-point
+H2O ZPE
+(1) energydifferenceandentropychangeofwateradsorption.Thezero-point
+energyandentropywerecalculatedunderroomtemperature(298.15K).
+TheHadsorptionenergyisdefinedasEquation(4)
+TheelectrocatalyticHERactivityofas-preparedelectrocatalystmateri-
+alswasperformedbylinearsweepvoltammetry(LSV)atascanrateof 1 ΔE =E −E − E (4)
+5mVs−1.AllthemeasuredLSVpotentialsinthisworkwereexamined H H∗ ∗ 2 H2
+withiRcompensation(90%).TheTafelplotswereconstructedbasedon
+previousliterature.[51]Inbrief,the100thsecondofeverychronoamperom- wheretheE H* isthetotalenergyofsinglehydrogenatomadsorptionon
+etryresponseobtainedatdifferentpotentialsisrecognizedasthesteady thesurfaceofHEA,E * istheenergyofHEA,E H2 istheenergyofasingle
+state.Thepotentialwindowissetupat1.03–1.12VversusAg/AgClrefer- hydrogenmolecule.
+enceelectrodewithanintervalof10mV.ThepotentialiscorrectedwithiR TheadsorptionfreeenergyforhydrogenisdefinedasEquation(5)
+compensation(100%).TheEISspectrawererecordedinafrequencyrange
+of100kHzto0.01Hzatanoverpotentialcorrespondingto10mAcm−2 ΔG
+H
+=ΔE
+H
++ΔE
+ZPE
+−TΔS+ΔG
+pH
+(5)
+currentdensity.
+Inthiswork,thecommercialPt/Celectrocatalystisutilizedasthework- where the ΔE H is the adsorption energy, ΔE ZPE and ΔS are the zero-
+ingelectrodeforcomparison,5mgPt/Celectrocatalystsweredispersed pointenergydifferenceandentropychangeofhydrogenadsorption.The
+inamixedsolventthatcontains360μLdeionizedwater,120μLanhydrous zero-pointenergyandentropywerecalculatedunderroomtemperature
+ethanol,and20μLNafion(5%),followedbyultrasoundforatleast30min (298.15K).ΔG pH isthefreeenergycorrectionofpH.
+formingahomogeneousink.ThePt/Cinkwasthendroppedontothesur-
+faceofMWCNTpaperwithaloadingmassof0.28mgcm−2.
+MDandDFTCalculations: Asthereareanastronomicalnumberof SupportingInformation
+possiblearrangementsofHEAatoms,onefirstgenerates10000different
+structuresviasubstitutinggivenatomsontheatomicsitesrandomly.As SupportingInformationisavailablefromtheWileyOnlineLibraryorfrom
+itistoocomputationallycostlytouseDFTcomputationonthesestruc- theauthor.
+tures,thefastermoleculardynamics(MD)computationisfirstusedto
+sievethroughthesestructuresandfindthemostenergeticallystableones
+thatwillbecomputedindetailusingDFT.TheMDcomputationofthe
+Acknowledgements
+structuresisperformedusingaLarge-scaleAtomic/MolecularMassively
+ParallelSimulator(LAMMPS).[52]
+ThisworkwassupportedbytheNaturalScienceFoundationofBeijing
+AllcalculationsbasedonDFTwerecarriedoutwiththeViennaabini-
+Municipality(GrantNo.2212037),theNationalNaturalScienceFounda-
+tiosimulationpackage(VASP).[53–55]Thegeneralizedgradientapproach
+tionofChina(GrantNos.51771027,51901018,and21676216),theFun-
+(GGA) of the Perdew–Burke–Ernzerhof (PBE) functional was employed
+damentalResearchFundsfortheCentralUniversities(GrantNo.FRF-AT-
+todescribetheelectron–electronexchangecorrelation.[56] Theprojector
+20-07),theNationalScienceandTechnologyResourcesInvestigationPro-
+augmented-wave (PAW) method was used to describe the electron-ion
+gramofChina(GrantNo.2019FY101400),YoungEliteScientistsSpon-
+interaction.[57] Thecutoffenergyfortheplanewavebasisforthestruc-
+sorshipProgrambyChinaAssociationforScienceandTechnology(YESS,
+tureissettobe520eV.Theconvergencecriteriaforthetotalenergyand
+2019QNRC001), and Singapore MOE AcRF Tier 1 grant RG79/20. The
+forceweresetto10−4eVand10−2eVÅ−1,respectively.Theclimbingim-
+FacilityforAnalysis,Characterization,Testing,andSimulation,Nanyang
+agenudgedelasticbandmethod(CI-NEB)[58,59]implementedintheVTST
+TechnologicalUniversity,Singaporeisacknowledgedforitssupplyofelec-
+toolkitwasperformedtofindtransitionstatekineticenergybarriersofwa-
+tronmicroscopy/X-rayfacilities.TheauthorsthankedtheX-rayAbsorption
+terdissociationwiththeinitialstateofH Oadsorbedonthesurfaceofthe
+2 Finestructureforthecatalysisbeamline(XAFCA)intheSingaporeSyn-
+electrocatalystsandthefinalstateofH*andOH*adsorbedonthesurface
+chrotronLightSource(SSLS)managedbyDr.XiShibo.
+oftheelectrocatalysts,where8imagesareinsertedthroughthecompu-
+tation.Thevacuumlayerof11.08ÅintheZdirectionwasintroducedto
+eliminatetheinteractionsbetweentheperiodicimages.
+The unit cell of PtIrNiCoFeZn HEA with and without vacancies was ConflictofInterest
+constructed based on following the principle. For PtIrNiCoFeZn HEA
+without vacancies, the ratio of each atom is considered to be equal Theauthorsdeclarenoconflictofinterest.
+(Pt:Ir:Ni:Co:Fe:Zn=1:1:1:1:1:1).Thenumberofeachatomintheunitcell
+issetto18,whichmeansthetotalnumberofatomsintheunitcellis108.
+ForPtIrNiCoFeZnHEAwithvacancies,theratioofeachatomissimplified AuthorContributions
+toPt:Ir:Ni:Co:Fe:Zn=6:2:2:4:4:1basedontheresultsofICP-MS(Figure
+S13,SupportingInformation).ItisassumedtheamountofPtatomsis K.H.,X.C.,andY.L.contributedequallytothiswork.K.H.,J.S.W.,andY.Z.H.
+unchangedbeforeandafterthelaserirradiationprocessduetothehigh- initiatedthemanuscriptconceptanddesignedtheexperiments.K.H.,X.C.,
+estboilingpointofPt.Therefore,theamountofeachatomintheunitcell andY.L.performedtheexperiments,analyzedthedata,anddraftedthe
+ofPtIrNiCoFeZnHEAafterthelaserirradiationisconsideredPt=18,Ir= manuscriptandequalcontributors.X.C.carriedouttheSTEMcharacter-
+6,Ni=6,Co=12,Fe=12,andZn=3. ization.Y.L.conductedtheSEMcharacterization.M.Z.X.andK.C.helped
+Adv.Mater.2024,36,2304867 2304867(9of10) ©2024Wiley-VCHGmbH
+15214095,
+2024,
+32,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.202304867
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.advmat.de
+with the XRD and XPS measurements. K.H. and M.Z.X. processed the [22] J.Kwon,S.Sun,S.Choi,K.Lee,S.Jo,K.Park,Y.K.Kim,H.B.Park,
+XAFScharacterization.K.H.engagedinthetheoreticaldiscussion.W.C.S. H.Y.Park,J.H.Jang,Adv.Mater.2023,35,2300091.
+andL.M.W.setupthemodelandexecutedtheDFTcalculations.K.H., [23] C.He,C.Ma,J.Xia,H.Zhang,S.Han,Y.Tian,A.Wang,X.Meng,W.
+Y.Z.H.,X.C.,Y.L.,B.W.Z.,J.Y.X.,S.Y.Z.,Z.W.,C.G.,C.L.,Z.L.,andJ.S.W. Cao,Q.Lu,Adv.Funct.Mater.2024,34,2311683.
+implementedtheanalysisofexperimentaldata.Allauthorsdiscussedthe [24] S.Anantharaj,S.Noda,V.R.Jothi,S.Yi,M.Driess,P.W.Menezes,
+resultsandrevisedthemanuscript. Angew.Chem.,Int.Ed.2021,60,18981.
+[25] K.Huang,B.Zhang,J.Wu,T.Zhang,D.Peng,X.Cao,Z.Zhang,Z.
+Li,Y.Huang,J.Mater.Chem.A2020,8,11938.
+DataAvailabilityStatement [26] D.Voiry,J.Yang,M.Chhowalla,Adv.Mater.2016,28,6197.
+[27] J.Zhu,L.Hu,P.Zhao,L.Y.S.Lee,K.-Y.Wong,Chem.Rev.2019,120,
+Thedatathatsupportthefindingsofthisstudyareavailablefromthecor- 851.
+respondingauthoruponreasonablerequest.
+[28] Z.Zhou,Z.Pei,L.Wei,S.Zhao,X.Jian,Y.Chen,EnergyEnviron.Sci.
+2020,13,3185.
+[29] M.Lao,P.Li,Y.Jiang,H.Pan,S.X.Dou,W.Sun,NanoEnergy2022,
+Keywords 98,107231.
+[30] K.Huang,D.Peng,Z.Yao,J.Xia,B.Zhang,H.Liu,Z.Chen,F.Wu,J.
+high-entropyalloys,hydrogenevolutionreaction,lattice-disordered,ther-
+Wu,Y.Huang,Chem.Eng.J.2021,425,131533.
+maldezincification,thermaldiffusionscattering
+[31] X.Wang,Y.Zheng,W.Sheng,Z.J.Xu,M.Jaroniec,S.-Z.Qiao,Mater.
+Today2020,36,125.
+Received:May23,2023 [32] J.Xu,G.Shao,X.Tang,F.Lv,H.Xiang,C.Jing,S.Liu,S.Dai,Y.Li,J.
+Revised:May20,2024 Luo,Nat.Commun.2022,13,2193.
+Publishedonline:June10,2024 [33] C.Lv,C.Lee,L.Zhong,H.Liu,J.Liu,L.Yang,C.Yan,W.Yu,H.H.
+Hng,Z.Qi,ACSNano2022,16,8213.
+[34] Z.Zhang,G.Liu,X.Cui,Y.Gong,D.Yi,Q.Zhang,C.Zhu,F.Saleem,
+B.Chen,Z.Lai,Sci.Adv.2021,7,eabd6647.
+[1] J.A.Turner,Science2004,305,972. [35] S.Jiao,X.Fu,S.Wang,Y.Zhao,EnergyEnviron.Sci.2021,14,1722.
+[2] S.Chu,A.Majumdar,Nature2012,488,294. [36] W.Li,D.Wang,Y.Zhang,L.Tao,T.Wang,Y.Zou,Y.Wang,R.Chen,
+[3] L.Lin,W.Zhou,R.Gao,S.Yao,X.Zhang,W.Xu,S.Zheng,Z.Jiang, S.Wang,Adv.Mater.2020,32,1907879.
+Q.Yu,Y.-W.Li,Nature2017,544,80. [37] X.Wang,Y.Zhang,H.Si,Q.Zhang,J.Wu,L.Gao,X.Wei,Y.Sun,Q.
+[4] T.F.Jaramillo,K.P.Jørgensen,J.Bonde,J.H.Nielsen,S.Horch,I. Liao,Z.Zhang,J.Am.Chem.Soc.2020,142,4298.
+Chorkendorff,Science2007,317,100. [38] Q.Wang,Y.Lei,D.Wang,Y.Li,EnergyEnviron.Sci.2019,12,1730.
+[5] Z.Li,J.-Y.Fu,Y.Feng,C.-K.Dong,H.Liu,X.-W.Du,Nat.Catal.2019, [39] Y.Pan,K.Sun,S.Liu,X.Cao,K.Wu,W.-C.Cheong,Z.Chen,Y.Wang,
+2,1107. Y.Li,Y.Liu,J.Am.Chem.Soc.2018,140,2610.
+[6] T.Wang,L.Tao,X.Zhu,C.Chen,W.Chen,S.Du,Y.Zhou,B.Zhou, [40] S. Trasatti, J. Electroanal. Chem. Interfacial Electrochem. 1972, 39,
+D.Wang,C.Xie,Nat.Catal.2022,5,66. 163.
+[7] Y.Jiao,Y.Zheng,M.Jaroniec,S.Z.Qiao,Chem.Soc.Rev.2015,44, [41] I.Roger,M.A.Shipman,M.D.Symes,Nat.Rev.Chem.2017,1,0003.
+2060. [42] Y.Tian,X.Liu,L.Xu,D.Yuan,Y.Dou,J.Qiu,H.Li,J.Ma,Y.Wang,D.
+[8] Z.W.Seh,J.Kibsgaard,C.F.Dickens,I.B.Chorkendorff,J.K.Nørskov, Su,Adv.Funct.Mater.2021,31,2101239.
+T.F.Jaramillo,Science2017,355,eaad4998. [43] Z.Yin,W.Zhao,J.Li,X.Peng,C.Lin,M.Zhang,Z.Zeng,H.Liao,H.
+[9] J.N.Hausmann,S.Mebs,H.Dau,M.Driess,P.W.Menezes,Adv. Chen,H.Lin,Adv.Funct.Mater.2022,32,2107190.
+Mater.2022,34,2207494. [44] B.Ravel,M.Newville,J.Synchrotron.Radiat.2005,12,537.
+[10] Y.Lu,K.Huang,X.Cao,L.Zhang,T.Wang,D.Peng,B.Zhang,Z.Liu, [45] J.W.Yeh,S.K.Chen,S.J.Lin,J.Y.Gan,T.S.Chin,T.T.Shun,C.H.
+J.Wu,Y.Zhang,Adv.Funct.Mater.2022,32,2110645. Tsau,S.Y.Chang,Adv.Eng.Mater.2004,6,299.
+[11] M.Li,K.Duanmu,C.Wan,T.Cheng,L.Zhang,S.Dai,W.Chen,Z. [46] W.Zhang,P.K.Liaw,Y.Zhang,Sci.ChinaMater.2018,61,2.
+Zhao,P.Li,H.Fei,Nat.Catal.2019,2,495. [47] S.Sultan,J.N.Tiwari,A.N.Singh,S.Zhumagali,M.Ha,C.W.Myung,
+[12] K.Huang,J.Xia,Y.Lu,B.Zhang,W.Shi,X.Cao,X.Zhang,L.M. P.Thangavel,K.S.Kim,Adv.EnergyMater.2019,9,1900624.
+Woods,C.Han,C.Chen,Adv.Sci.2023,10,2300094. [48] K.L.Zhou,Z.Wang,C.B.Han,X.Ke,C.Wang,Y.Jin,Q.Zhang,J.
+[13] J. Zheng, W. Sheng, Z. Zhuang, B. Xu, Y. Yan, Sci. Adv. 2016, 2, Liu,H.Wang,H.Yan,Nat.Commun.2021,12,3783.
+e1501602. [49] J.Greeley,T.F.Jaramillo,J.Bonde,I.B.Chorkendorff,J.K.Nørskov,
+[14] W.Zhang,B.Huang,K.Wang,W.Yang,F.Lv,N.Li,Y.Chao,P.Zhou, Nat.Mater.2006,5,909.
+Y.Yang,Y.Li,Adv.EnergyMater.2021,11,2003192. [50] A.B.Laursen,A.S.Varela,F.Dionigi,H.Fanchiu,C.Miller,O.L.
+[15] G.Feng,F.Ning,J.Song,H.Shang,K.Zhang,Z.Ding,P.Gao,W. Trinhammer,J.Rossmeisl,S.Dahl,J.Chem.Educ.2012,89,1595.
+Chu,D.Xia,J.Am.Chem.Soc.2021,143,17117. [51] S.Anantharaj,S.Noda,M.Driess,P.W.Menezes,ACSEnergyLett.
+[16] H.Cheng,N.Yang,G.Liu,Y.Ge,J.Huang,Q.Yun,Y.Du,C.Sun,B. 2021,6,1607.
+Chen,J.Liu,Adv.Mater.2020,32,1902964. [52] A.P.Thompson,H.M.Aktulga,R.Berger,D.S.Bolintineanu,W.M.
+[17] Y.Zhang,G.Li,Z.Zhao,L.Han,Y.Feng,S.Liu,B.Xu,H.Liao,G.Lu, Brown,P.S.Crozier,P.J.in’tVeld,A.Kohlmeyer,S.G.Moore,T.D.
+H.L.Xin,Adv.Mater.2021,33,2105049. Nguyen,Comput.Phys.Commun.2022,271,108171.
+[18] Y.-R.Hong,S.Dutta,S.W.Jang,O.F.NgomeOkello,H.Im,S.-Y. [53] G.Kresse,J.Hafner,Phys.Rev.B1994,49,14251.
+Choi,J.W.Han,I.S.Lee,J.Am.Chem.Soc.2022,144,9033. [54] G.Kresse,J.Furthmüller,Comput.Mater.Sci.1996,6,15.
+[19] Z.Wei,H.Wang,C.Zhang,K.Xu,X.Lu,T.Lu,Angew.Chem.,Int.Ed. [55] G.Kresse,J.Furthmüller,Phys.Rev.B1996,54,11169.
+2021,133,16758. [56] J.P.Perdew,K.Burke,M.Ernzerhof,Phys.Rev.Lett.1996,77,3865.
+[20] C.He,L.Yu,N.Lu,W.Wang,W.Chen,S.Lu,Y.Yang,D.Ma,S.Huang, [57] P.E.Blöchl,Phys.Rev.B1994,50,17953.
+NanoRes.2020,13,646. [58] G.Henkelman,B.P.Uberuaga,H.Jónsson,J.Chem.Phys.2000,113,
+[21] Y.Yao,Q.Dong,A.Brozena,J.Luo,J.Miao,M.Chi,C.Wang,I.G. 9901.
+Kevrekidis,Z.J.Ren,J.Greeley,Science2022,376,eabn3103. [59] G.Henkelman,H.Jónsson,J.Chem.Phys.2000,113,9978.
+Adv.Mater.2024,36,2304867 2304867(10of10) ©2024Wiley-VCHGmbH
+15214095,
+2024,
+32,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.202304867
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by the
+applicable
+Creative
+Commons
+License
+

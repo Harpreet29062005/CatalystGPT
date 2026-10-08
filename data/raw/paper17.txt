@@ -1,0 +1,759 @@
+Full PaPer
+www.afm-journal.de
+Nanoporous Surface High-Entropy Alloys as Highly
+Efficient Multisite Electrocatalysts for Nonacidic
+Hydrogen Evolution Reaction
+Rui-Qi Yao, Yi-Tong Zhou, Hang Shi, Wu-Bin Wan, Qing-Hua Zhang, Lin Gu,
+Yong-Fu Zhu, Zi Wen, Xing-You Lang,* and Qing Jiang*
+1. Introduction
+Electrocatalytic hydrogen evolution in alkaline and neutral media offers the
+possibility of adopting platinum-free electrocatalysts for large-scale elec- Molecular hydrogen (H ) as a clean and
+2
+trochemical production of pure hydrogen fuel, but most state-of-the-art sustainable energy carrier is an attractive
+alternative to fossil fuels for meeting future
+electrocatalytic materials based on nonprecious transition metals operate
+energy needs.[1] Among many hydrogen-
+at high overpotentials. Here, a monolithic nanoporous multielemental
+production approaches, electrochemical
+CuAlNiMoFe electrode with electroactive high-entropy CuNiMoFe surface is
+water splitting driven by electricity from
+reported to hold great promise as cost-effective electrocatalyst for hydrogen renewable solar and wind resources is one
+evolution reaction (HER) in alkaline and neutral media. By virtue of a sur- of the most promising energy-conversion
+face high-entropy alloy composed of dissimilar Cu, Ni, Mo, and Fe metals technologies in view that it can produce
+highly pure hydrogen without any green-
+offering bifunctional electrocatalytic sites with enhanced kinetics for water
+house gas emissions.[2,3] In the water
+dissociation and adsorption/desorption of reactive hydrogen intermediates,
+electrolysis, there takes place hydrogen
+and hierarchical nanoporous Cu scaffold facilitating electron transfer/mass evolution reaction (HER) on the cathode
+transport, the nanoporous CuAlNiMoFe electrode exhibits superior nonacidic to generate H from either hydronium ion
+2
+HER electrocatalysis. It only takes overpotentials as low as ≈240 and ≈183 mV in acidic media[4] or water in basic/neutral
+to reach current densities of ≈1840 and ≈100 mA cm−2 in 1 m KOH and pH 7 solutions,[5–9] with the efficiency relying
+on the heterogeneous electrocatalysis of
+buffer electrolytes, respectively; ≈46- and ≈14-fold higher than those of
+electrode materials,[8,10,11] in addition to the
+ternary CuAlNi electrode with bimetallic Cu–Ni surface alloy. The outstanding reactant species.[4–9] It primarily involves
+electrocatalytic properties make nonprecious multielemental alloys attractive mass transport of ions/molecules toward
+candidates as high-performance nonacidic HER electrocatalytic electrodes in electroactive sites in electrolyte,[12] electron
+water electrolysis. transfer from conductive support to active
+sites in electrode,[13] and reduction reac-
+tion kinetics at electroactive site/electrolyte
+interface.[2,5–9,14] These indispensable pro-
+cesses highlight the demand for the development of versatile
+electrode materials, with high pathways for electron transfer/
+Dr. R.-Q. Yao, Dr. Y.-T. Zhou, Dr. H. Shi, Dr. W.-B. Wan, Prof. Y.-F. Zhu,
+mass transport and plentifully accessible electroactive sites
+Prof. Z. Wen, Prof. X.-Y. Lang, Prof. Q. Jiang
+with high intrinsic activity,[6,7,15–17] in particular for the alkaline
+Key Laboratory of Automobile Materials (Jilin University)
+Ministry of Education and School of Materials Science and Engineering or neutral HER that generally suffers from a sluggish kinetics
+Jilin University due to additional water dissociation.[5–9,18,19] Platinum (Pt), the
+Changchun 130022, China most active HER catalyst in acidic media,[20,21] shows two or
+E-mail: xylang@jlu.edu.cn; jiangq@jlu.edu.cn
+three orders of magnitude lower activity when operated in non-
+Prof. Q.-H. Zhang, Prof. L. Gu acidic media.[5–8,18,20] Despite surface incorporation of heteroge-
+Beijing National Laboratory for Condensed Matter Physics
+The Institute of Physics neous transition-metal oxides/hydroxides/sulfides with proper
+Chinese Academy of Sciences hydroxyl binding energies onto Pt surface has been verified to
+Beijing 100190, China effectively boost the nonacidic HER kinetics by making use of
+Prof. X.-Y. Lang their bifunctional effects to accelerate water dissociation and
+State Key Laboratory of Automotive Simulation and Control
+mediate the adsorption/desorption of reactive hydrogen inter-
+Jilin University
+mediates (H ),[22–25] the use of Pt always encounters cost and
+Changchun 130022, China *
+scarcity issues, essentially impeding its practical application for
+The ORCID identification number(s) for the author(s) of this article
+can be found under https://doi.org/10.1002/adfm.202009613. large-scale hydrogen production.[26–28] With an aim to replace
+high-cost Pt-based materials,[22] considerable research efforts
+DOI: 10.1002/adfm.202009613 have been focused on exploring cost-effective electrocatalysts
+Adv. Funct. Mater. 2021, 31, 2009613 2009613 (1 of 9) © 2020 Wiley-VCH GmbH
+
+www.advancedsciencenews.com www.afm-journal.de
+based on nonprecious transition metals, including bimetallic microscope energy-dispersive X-ray spectroscopy (SEM-EDS)
+Ni–Mo,[29] Cu–Ti,[30] Ni–Cu,[31–33] Cu–Ru,[34] Ru–Co alloys,[35] elemental mappings, the (Cu Ni Mo Fe ) Al 8/w x/w y/w z/w17.7 82.3
+and MoNi intermetallic compounds,[36–38] as well as their car- (x = y = z = 1) alloy comprises the alternating α-Al and Cu-
+4
+bides,[39,40] sulfides,[19,41] phosphides,[42,43] and nitrides.[44–46] rich intermetallic lamellas, with the uniform distribution of
+Although these materials exhibit more or less enhanced cata- Ni, Mo, and Fe as a result of Al Ni, Al Mo, Al Fe precipi-
+3 5 13 4
+lytic activities compared with their monometallic catalysts, most tates in Al phase and high-entropy CuAlNiMoFe in the BCC
+of them still require substantial overpotentials to reach desirable AlCu matrix, respectively (Figure S3, Supporting Informa-
+4 9
+current densities in nonacidic media probably due to the prob- tion). When chemically dealloyed in KOH solution, the mul-
+lems in electroactive site and/or electrode architecture levels: tiphase structure enables a hierarchically lamella-structured
+the absence of electroactive sites for the water dissociation, nanoporous Cu skeleton as a consequence of two-step etching
+the improper hydrogen binding energy for the H* adsorption process, that is, the dissolution of α-Al phase together with the
+and combination,[29–33,37] or the poor electron transferability/ Al Ni, Al Mo, Al Fe precipitates and the selective etching of
+3 5 13 4
+mass transportability of electrodes made of low-dimensional less-noble Al component from Al Cu.[51,52] Owing to the BCC
+2
+nanostructures that using insulative polymer binders to main- high-entropy CuAlNiMoFe being beyond the parting limit,[53]
+tain electric contact.[29,39,41–46] Therefore, it is highly desirable to there takes place a surface etching to selectively remove sur-
+explore novel and versatile electrode materials, particularly in face Al atoms, leading to in situ formation of surface high-
+multielemental alloys (MEAs), which are expected as ideal plat- entropy CuNiMoFe alloy. As demonstrated by XRD patterns
+form materials for catalyst discovery and property optimization, of as-dealloyed (Cu Ni Mo Fe ) Al (x, y, z = 1)
+8/w x/w y/w z/w17.7 82.3
+with an expansive compositional space.[47–50] alloy (Figure 1a), there appears evident characteristic peaks at
+In this work, we report monolithic nanoporous CuAlNiMoFe 2θ = 30.86, 44.24, 64.25, and 81.31 corresponding to the (300),
+MEA electrodes, on which surface high-entropy CuNiMoFe (330), (600), and (633) planes of BCC AlCu phase in space
+4 9
+alloy is in situ formed at the body-centered cubic (BCC) CuAl- group P4 /m, apart from ones attributed to the FCC Cu skel-
+3
+NiMoFe precipitates and seamlessly anchored on hierarchical eton (JCPDS 04–0836). Relative to the standard line patterns of
+Cu skeleton, for highly efficient HER electrocatalysis in nona- intermetallic AlCu (JCPDS 24-0003),[54] these BCC diffraction
+4 9
+cidic media. Therein, the BCC surface high-entropy alloy com- peaks shift slightly to lower angles and attenuate remarkably
+posed of dissimilar Cu, Ni, Mo, and Fe atoms works as bifunc- because of the incorporation of Ni, Mo and Fe atoms with a high-
+tional sites to boost water dissociation and facilitate H* adsorp- entropy effect (Figure S4, Supporting Information).[55] As shown
+tion/desorption, while the hierarchical nanoporous Cu skeleton in representative SEM-EDS elemental mapping (Figure S5,
+serves as a scaffold for fast electron transfer and ion/molecule Supporting Information), the Ni, Mo, and Fe elements uni-
+transport along the interconnective Cu ligaments and the inter- formly distribute along the lamellar Al- and Cu-rich ligaments.
+penetrating lamella-structured large channels, respectively. As Figure 1b shows a representative SEM image of hierarchical
+a result, the monolithic nanoporous CuAlNiMoFe electrode nanoporous CuAlNiMoFe electrode, displaying ≈200-nm-width
+exhibits superior nonacidic HER electrocatalysis. It can reach large channels and ≈400-nm-width nanoporous CuAlNiMoFe
+current densities of ≈1840 and 100 mA cm−2 at –240 mV in lamellas that consist of uniform interpenetrative nanopores
+1 m KOH and –183 mV in the neutral solution of 1 m phosphate and interconnective metallic ligaments with characteristic
+buffer saline (PBS), respectively, outperforming most state-of- length of as small as ≈10 nm (Figure 1c). Such unique bimodal
+the-art nonprecious electrocatalytic materials. porous architecture not only facilitates electron transfer along
+the interconnective Cu ligaments, but offers high accessibility
+of the electroactive sites of surface high-entropy CuNiMoFe
+2. Results and Discussion by virtue of the large lamellar channels and the small nano-
+pores.[12] Figure 1d shows an atomic-resolution high-angle
+2.1. Preparation and Structure of Electrocatalysts annual-dark-field scanning transmission electron microscope
+(HAADF-STEM) image of CuAlNiMoFe ligaments viewed
+Monolithic nanoporous MEA hybrid electrodes are prepared along the [–114] zone axis. The reduced fast Fourier transform
+by a facile and scalable alloying/dealloying approach, wherein (FFT) patterns of the image demonstrates that the CuAlNiMoFe
+their nanoporous microstructures associated with the chemical keeps the BCC structure of AlCu (Figure 1e),[54] but with evi-
+4 9
+components are regulated by making use of short-range dif- dent lattice distortion due to the incorporation of Ni, Mo, and
+fusion of more-noble elements at the electrolyte/alloy inter- Fe atoms (Figure 1f). STEM-EDS elemental mapping images
+face during the dissolution of less-noble component.[51,52] In illustrate that the Ni, Mo, and Fe atoms evenly distribute on the
+this regard, multiphase-nanostructured quasi-eutectic alloys of Cu-rich skeleton with low-concentration Al at the rims, indi-
+Cu Ni Mo Fe ) Al (at%, w = 8 + x + y + z and x, y, cating the formation of high-entropy CuNiMoFe alloy on the
+8/w x/w y/w z/w17.7 82.3
+z = 0 or 1) (Figure S1a–e, Supporting Information) are designed CuAlNiMoFe skeleton (Figure 1g). X-ray photoelectron spectro-
+and mass-produced by arc-melting pure Al and Cu metals with scopy (XPS) analysis further verifies the presence of Ni, Mo, and
+the addition of equal-molar Ni and/or Mo, Fe. X-ray diffraction Fe (Figure S6, Supporting Information), with an atomic ratio
+(XRD) characterizations reveal that these precursor alloys are pri- of ≈1:1:1 according to inductively coupled plasma optical emis-
+marily composed of α-Al phase and intermetallic face-centered sion spectroscopy (ICP-OES). The Ni 2p, Fe 2p, and Mo 3d XPS
+cubic (FCC) Al Cu and BCC AlCu phases, in addition to the spectra indicate that the majority of Ni is in the metallic state
+2 4 9
+Al Ni and/or Al Mo, Al Fe precipitates (Figure S2, Supporting (Figure 2a) and that the surface Fe and Mo are mainly in the
+3 5 13 4
+Information). As shown in representative scanning electron chemical states of in Fe3+ and Fe2+, Mo6+ and Mo4+, in addition
+Adv. Funct. Mater. 2021, 31, 2009613 2009613 (2 of 9) © 2020 Wiley-VCH GmbH
+16163028,
+2021,
+10,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202009613
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on [08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.afm-journal.de
+Figure 1. Microstructural properties. a) XRD patterns of as-dealloyed nanoporous Cu, CuAlNi, CuAlNiMo, and CuAlNiMoFe electrodes, where there
+appear neoformative diffraction peaks of BCC phase in the three multielemental alloys and their intensity decreases with the addition of Mo and Fe
+atoms. b) Typical cross-sectional SEM image of nanoporous CuAlNiMoFe electrode, which exhibits a hierarchical nanoporous architecture consisting
+of quasi-periodic large channels and CuAlNiMoFe lamellas with ultrasmall nanopores. c) Low-magnification STEM image of nanoporous CuAlNiMoFe
+with uniform small nanopores. d) Atomic-resolution HAADF-STEM image of BCC phase of CuAlNiMoFe. e) Reduced FFT patterns of BCC phase
+shown in d. f) Magnified atomic-resolution HAADF-STEM image, demonstrating the lattice distortion resulting from the incorporation of Mo, Ni,
+and Fe atoms. g) STEM image and corresponding EDS elemental mappings (Cu in magenta, Al in red, Ni in cyan, Mo in yellow and Fe in blue) of the
+nanoporous CuAlNiMoFe.
+to a little Fe0 and Mo0 corresponding to their internal atoms, for electrochemical measurements in a classic three-electrode
+respectively (Figure 2b,c).[31,38,41,43] configuration. The graphite rod and the Ag/AgCl electrode
+are employed as the counter electrode and the reference elec-
+trode, respectively, and all potentials are calibrated with respect
+2.2. Electrochemical Characterization of Alloy Electrocatalysts to the reversible hydrogen electrode (RHE). Figure 3a shows a
+typical HER polarization curve of monolithic nanoporous CuAl-
+To assess their nonacidic HER electrocatalysis, all nano- NiMoFe MEA electrode in N -saturated 1 m KOH electrolyte,
+2
+porous alloy electrodes are directly used as working electrodes comparing with those of nanoporous CuAlNi, CuAlNiMo, and
+Figure 2. Chemical characterization. a–c) XPS spectra of Ni 2p (a), Fe 2p (b), and Mo 3d (c) in nanoporous CuAlNiMoFe electrode with surface high-
+entropy CuNiMoFe alloy.
+Adv. Funct. Mater. 2021, 31, 2009613 2009613 (3 of 9) © 2020 Wiley-VCH GmbH
+16163028,
+2021,
+10,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202009613
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.afm-journal.de
+Figure 3. Electrochemical characterization of nanoporous electrodes. a) Polarization curves for nanoporous Cu, CuAlNi, CuAlNiMo, CuAlNiMoFe,
+CuAlNiFe electrodes, comparing with that of nanoporous Cu supported Pt/C (Pt/C/Cu) in 1 m KOH electrolyte. Scan rate: 1 mV s−1. b) Tafel plots com-
+paring the Tafel slopes of different catalysts obtained from the polarization curves in a. c) Comparison of specific activity at the overpotential of 240 mV
+for nanoporous Cu, CuAlNi, CuAlNiMo, CuAlNiMoFe, and CuAlNiFe electrodes. d) EIS spectra of nanoporous Cu, CuAlNi, CuAlNiMo, CuAlNiMoFe,
+and CuAlNiFe electrodes.
+CuAlNiFe electrodes with the BCC CuNi, CuNiMo, and CuNiFe the nanoporous CuAlNiMoFe electrode to achieve exceptionally
+alloy surfaces, respectively (Figure S7, Supporting Information). high current density of ≈1840 mA cm−2 at the overpotential of
+For comparison, the polarization curve of commercially avail- as low as 240 mV, in sharp contrast with nanoporous CuAlNi,
+able Pt/C catalysts that are immobilized on nanoporous Cu by CuAlNiFe, and CuAlNiMo electrodes with the Tafel slopes of
+using Nafion as polymer binder to maintain electrical contact ≈154, ≈132, and ≈76 mV dec−1, respectively (Figure S8, Sup-
+is also included in this plot with geometric current density and porting Information).
+iR corrected potential. Despite all nanoporous electrodes have To evaluate the intrinsic alkaline HER activities of mono-
+their nanoporous architectures to simultaneously facilitate lithic nanoporous electrodes, electrochemical surface areas
+electron transfer and ion/molecule accessibility/transport along (ECSAs) are measured by a double-layer capacitance (C )
+dl
+the interconnective Cu ligaments and the interpenetrative method (Figure S9, Supporting Information),[7,19,43] where cyclic
+channels, respectively, the nanoporous CuAlNiMoFe electrode voltammetry is performed in a non-Faradaic voltage window
+exhibits an outstanding alkaline HER electrocatalysis, with and the C value is determined by the linear slope in the plot of
+dl
+the lowest overpotentials at various current densities ranging the capacitive current at the centered potential and the scan rate
+from 0 to 2000 mA cm−2. As shown in Figure 3a, it only takes (Figure S9g, Supporting Information). The average intrinsic
+the overpotential of ≈56 mV to reach the current density of activity of nanoporous CuAlNiMoFe electrode at 240 mV is cal-
+100 mA cm−2, much lower than the values of nanoporous CuAl- culated to be ≈150 µA cm−2 , which is enhanced relative to
+ECSA
+NiMo (≈65 mV), CuAlNiFe (≈186 mV), CuAlNi (≈316 mV). the values of nanoporous CuAlNi, CuAlNiFe, and CuAlNiMo by
+These observations demonstrate the important role of the BCC factors of ≈38, 11, and 3, respectively (Figure 3c and Figure S10,
+high-entropy CuNiMoFe alloy surface as electroactive sites in Supporting Information). These discriminating enhancements
+the alkaline HER electrocatalysis. Moreover, this overpotential imply the key role of Ni–Mo–Fe as the active center in the
+is ≈176 mV lower than that of nanoporous Cu supported Pt/C surface high-entropy CuNiMoFe alloy for the alkaline HER,
+electrode probably due to the insulating polymer binder cov- wherein the Ni(Fe) and Mo sites have high binding energies
+ering the electroactive Pt nanoparticles or blocking their elec- for hydrogen and hydroxyl groups. It is expected to destabilize
+tron transport to the conductive Cu skeleton. The remarkably HOH bond and thus accelerate water dissociation for the
+enhanced HER kinetics on nanoporous CuAlNiMoFe electrode generation of H* and the subsequent combination into H .
+2
+with surface high-entropy CuNiMoFe alloy is also reflected by This expectation is also illustrated by density functional theory
+the lowest Tafel slope (≈60 mV dec−1) (Figure 3b). This enlists (DFT) calculations. As shown in Figure 4a, the energy barrier
+Adv. Funct. Mater. 2021, 31, 2009613 2009613 (4 of 9) © 2020 Wiley-VCH GmbH
+16163028,
+2021,
+10,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202009613
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.afm-journal.de
+Figure 4. Theoretical calculation of HER on surface high-entropy CuNiMoFe alloy with a BCC crystallographic structure. a) Reaction energy diagram of
+water dissociation on surface CuNi, CuNiFe, CuNiMo, and CuNiMoFe alloys at different stages of the reaction, wherein the high-entropy CuNiMoFe
+alloy shows the lowest energy barrier for water dissociation. b) Surface configuration of high-entropy CuNiMoFe alloy at the four different stages during
+the dissociating process of HO to H* and HO*. 2
+for the water dissociation is reduced to 0.52 eV on the CuNi- because of the capping Nafion lowers the activity of electroac-
+MoFe surface from 0.91 eV on the CuNiFe surfaces because of tive CuNiMoFe sites and blocks their electrolyte accessibility
+the incorporation of Mo, on which the H O is efficiently dis- and electron transfer (Figure S13b–d, Supporting Information).
+2
+sociated into H* and HO* as a consequence of hydrogen and This fact underlines the significant role of 3D nanoporous Cu
+hydroxyl adsorption on Ni(Fe) and Mo, respectively (Figure 4b). skeleton in assuring the high-performance HER electrocatalysis
+Compared with other adsorption sites (Table S1, Supporting of monolithic nanoporous CuAlNiMoFe electrode as a conse-
+Information), the produced H* and HO* prefer to locate at quence of facilitating electron transfer and improving accessi-
+the Ni(Fe)–Mo bridge sites and Mo top sites, where the former bility of electroactive CuNiMoFe sites with a bare surface.
+enable the combination of H* to form H and the later facili- The electrochemical durability of nanoporous CuAlNiMoFe
+2
+tate further adsorption of H O via HO group.[21–25,56,57] To electrode is tested at the overpotential of 50 mV for more than
+2
+estimate the intrinsic activity of the high-entropy CuNiMoFe 200 h in 1 m KOH. As shown in Figure 5a, there is not evident
+alloy surface, the nanoporous CuAlNiMoFe electrode is fur- change in the current density of ≈60 mA cm−2, demonstrating
+ther treated in 0.5 m H SO to partially remove Fe, Ni, or Mo the remarkable electrochemical stability. The excellent dura-
+2 4
+atoms. As shown in Figure S11a, Supporting Information, the bility is further confirmed by the polarization curves before and
+H SO-treated nanoporous CuAlNiMoFe electrode exhibits evi- after durability test, which completely overlap with each other
+2 4
+dent degradation of HER catalysis relative to the pristine one. (inset of Figure 5a). This is due to the steady nanoporous high-
+With an assumption that the dramatic reduction in geometric entropy CuAlNiMoFe alloy skeleton that supports the electro-
+current density results from the ECSA change due to the loss active CuNiMoFe alloy surface. As illustrated in representative
+of Fe, Ni, or Mo atoms (Figure S11b, Supporting Information), SEM image of nanoporous CuAlNiMoFe electrode after long-
+the intrinsic activity of high-entropy CuNiMoFe is evaluated term durability test, it displays the initial microstructure (inset
+to be ≈580 µA cm−2 at the overpotential of 240 mV. The of Figure 5a). Furthermore, the high-resolution XPS spectra of
+ECSA
+outstanding electrocatalytic activity is further evidenced by elec- Ni, Fe, and Mo reveal that they keep the almost same chemical
+trochemical impedance spectroscopy (EIS) analysis at the over- states as the initial ones (Figure 5b–d). Along with the Tafel
+potential of 100 mV. As shown in the Nyquist plots (Figure 3d), slope and the overpotential at 10 mA cm−2 that are smaller than
+the EIS spectra of nanoporous electrocatalytic electrode display those of state-of-the-art nonprecious catalysts previous reported
+characteristic semicircles, but with different diameters that rep- (Table S2, Supporting Information),[19,32,33,38,40,43] the nano-
+resent their distinct charge-transfer resistances (R ) to boost porous CuAlNiMoFe MEA electrode is one of the best nonpre-
+CT
+the sluggish reaction kinetics.[5–9,14] Following the general cious metal-based electrocatalysts for the alkaline HER.
+descriptors in the equivalent circuit (inset of Figure 3d), the The neutral HER electrocatalytic performance of nanoporous
+monolithic nanoporous CuAlNiMoFe electrode has the lowest CuAlNiMoFe MEA hybrid electrode is further characterized
+R value (≈2.5 Ω), in contrast with nanoporous CuAlNiMo in 1 m PBS electrolyte (pH = 7). As shown by the polarization
+CT
+(≈3.4 Ω), CuAlNiFe (≈10.3 Ω), CuAlNi (≈12.2 Ω), and pure Cu curve in Figure 6a, the nanoporous CuAlNiMoFe electrode
+electrodes (≈22.5 Ω) (Figure S12, Supporting Information). also exhibits an outstanding HER activity in neutral media.
+While for the electrode that is assembled with the pulverized It can achieve a geometric current density of 10 mA cm−2 at
+high-entropy CuAlNiMoFe particles by using Nafion as polymer the record-low overpotential of ≈23 mV, outperforming nano-
+binder to maintain electrical contact, it exhibits very poor HER porous CuAlNi (≈202 mV) and CuAlNiMo (≈53 mV), as well
+electrocatalysis compared with the monolithic nanoporous one. as commercially available Pt/C catalyst (≈30 mV) (Figure 6b).
+As shown in Figure S13a, Supporting Information, it has to take The superior electroactivity of nanoporous CuAlNiMoFe is also
+the overpotential of as high as ≈350 mV to deliver 100 mA cm−2, reflected by the lowest Tafel slope of ≈50 mV dec−1, compared
+Adv. Funct. Mater. 2021, 31, 2009613 2009613 (5 of 9) © 2020 Wiley-VCH GmbH
+16163028,
+2021,
+10,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202009613
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.afm-journal.de
+Figure 5. Electrochemical durability. a) Long-term stability measurement of nanoporous CuAlNiMoFe alloy electrode at overpotential of 50 mV in
+1 m KOH electrolyte for 200 h. Insets: Polarization curves (left) and SEM image of nanoporous CuAlNiMoFe electrode after long-term stability test
+for 200 h. b–d) High-resolution Ni 2p (b), Fe 2p (c), and Mo 3d (d) XPS spectra of nanoporous CuAlNiMoFe electrode after stability measurement.
+with those of nanoporous CuAlNiMo (≈58 mV dec−1), CuAlNi facilitate the electron transfer along the interconnective Cu liga-
+(≈148 mV dec−1), and Pt/C (≈60 mV dec−1) (Figure 6c). To the ments, but enable sufficient accessibility of the BCC CuNiMoFe
+best of our knowledge, the Tafel slope and overpotential at electroactive sites by virtue of the interpenetrating lamellar
+10 mA cm−2 of the nanoporous CuAlNiMoFe are lowest in channels and small nanopores. As a consequence of remark-
+the values reported for non-noble HER catalysts operating in ably enhanced activity of the BCC high-entropy CuNiMoFe
+neutral media (Table S3, Supporting Information), such as surface, the monolithic nanoporous CuAlNiMoFe electrodes
+CrO /Cu–Ni (48 mV and 64 mV dec−1),[7] RhP (38 mV and exhibit superior HER electrocatalysis, with a low Tafel slope,
+x x
+56 mV dec−1),[58] MoP (84 mV and 63 mV dec−1).[59] Moreover, a high electrocatalytic activity and an exceptional durability, in
+galvanostatic and potential cycling measurements demonstrate both alkaline and neutral electrolytes. Typically, the nanoporous
+the superior electrochemical durability of nanoporous CuAlNi- CuAlNiMoFe electrodes can achieve geometric current densi-
+MoFe hybrid electrode in the 1 m PBS solution. As shown in ties of 1840 and 100 mA cm−2 only at overpotentials of ≈240 and
+inset of Figure 6d, it shows stable current response at the over- ≈183 mV in 1 m KOH and 1 m PBS electrolytes, respectively,
+potential of 50 mV for 125 h. After potential cycling test in a outperforming most state-of-the-art nonprecious metal-based
+potential range from −0.2 to 0.1 V versus RHE for 10 000 cycles, electrocatalysts previously reported.
+the nanoporous CuAlNiMoFe electrode still maintains the ini-
+tial nanoporous structure and thus exhibits the polarization
+curve overlapping with the initial one (Figure 6d). 4. Experimental Section
+Preparation of Nanoporous Alloy Electrocatalysts: Precursor
+(Cu Ni Mo Fe ) Al (at%, w = 8 + x + y + z and x, y, z = 0 8/w x/w y/w z/w17.7 82.3
+3. Conclusions or 1) MEA ingots, that is, Cu Al Ni Mo Fe , 12.87 82.30 1.61 1.61 1.61
+Cu Al Ni Mo , Cu Al Ni Fe , Cu Al Ni , and
+14.16 82.30 1.77 1.77 14.16 82.30 1.77 1.77 15.73 82.30 1.97 In summary, we have demonstrated that nonprecious multiel- Cu Al , were prepared by arc-melting Cu (99.9%) and Al (99.9%)
+17.7 82.30
+emental high-entropy alloys hold great promise as cost-effective with/without the addition of Ni (99.9%), Mo (99.9%), or/and Fe (99.9%)
+electrocatalytic materials for highly efficient HER in nona- in Ar atmosphere, with a furnace cooling. Nanoporous MEA sheets with
+cidic media. Based on judicious precursor design of lamella- thickness of ≈400 µm were fabricated by chemically dealloying their
+alloy precursor slices in a N-purged 6 m KOH aqueous electrolyte at
+nanostructured eutectic multiphase alloys, we have developed 2
+ambient temperature until there was no gas to be generated. These
+3D hierarchical nanoporous CuAlNiMoFe hybrid electrodes by
+nanoporous electrocatalysts were rinsed in pure water (18.2 MΩ cm) to
+a facile and scalable dealloying strategy. Therein, the bimodal remove chemical substance in nanopore channels and directly used for
+nanoporous FCC Cu skeleton works as a scaffold to not only electrochemical measurements and microstructure characterizations.
+Adv. Funct. Mater. 2021, 31, 2009613 2009613 (6 of 9) © 2020 Wiley-VCH GmbH
+16163028,
+2021,
+10,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202009613
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.afm-journal.de
+Figure 6. Electrochemical performance in neutral electrolyte. a,b) Polarization curves (a) and overpotentials at 10 mA cm−2 (b) for nanoporous Cu,
+CuAlNi, CuAlNiMo, CuAlNiMoFe electrodes and Pt/C immobilized on glassy carbon electrode in 1 m PBS electrolyte. Scan rate: 1 mV s−1. c) The Tafel
+plots comparing the Tafel slopes of nanoporous electrodes in (a). d) Polarization curves of nanoporous CuAlNiMoFe electrode before and after stability
+test. Scan rate: 1 mV s−1. Inset: stability test at the overpotential of 50 mV and the SEM image of nanoporous CuAlNiMoFe electrode after stability test.
+To estimate the intrinsic activity of electroactive sites, the as-dealloyed of 1 m KOH and 1 m PBS were carried out at the overpotential of 50 mV
+nanoporous CuAlNiMoFe was further treated in N-purged HSO for 200 h. Their EIS was collected at the overpotential of 0.1 V in a
+2 2 4
+solution at 70 °C for 30 min. Pt/C catalyst ink was prepared by mixing frequency range from 100 kHz to 10 mHz with an amplitude of 5 mV.
+commercially available Pt/C (20 wt%) with a Nafion (0.05% v/v, Sigma Density Functional Theory Calculations: All DFT calculations were
+Aldrich) solution containing isopropanol (20% v/v) and water (80% v/v) performed on the Dmol3 code for six-layer slab models of BCC Cu(100)
+under rigorous sonication. 100 and 30 µL Pt/C ink was drop-cast onto surface with Cu atoms replaced by Ni, Mo, and/or Fe. Under the premise
+nanoporous Cu and glassy carbon electrode with diameter of 5 mm for that these heterogeneous atoms adjacently locate on the surface, all
+electrochemical measurements. configurations had been investigated to confirm the adsorption sites
+Structural Characterization: The microstructures and chemical of H* and OH*. The exchange-correlation potential was described by
+compositions of all nanoporous MEA electrocatalysts were characterized the generalized gradient approximation with Perdew–Burke–Ernzerhof
+using a field-emission scanning electron microscope (JEOL JSM-6700F, functional. The DFT semi-core pseudo potentials core treatment which
+15 keV) equipped with an EDS. High-resolution scanning transmission replaced core electrons by a single effective potential and introduced some
+electron microscopy was performed on a field-emission transmission degree of relativistic correction into the core was adopted to consider the
+electron microscope (JEM-ARM200CF, JEOL) operated at 200 keV electron–core interactions. The global orbital cutoff was set to 4.9 Å. The
+and equipped with double spherical-aberration correctors for both double numerical plus polarization with the version of 3.5 was chosen as
+condenser and objective lens. XRD measurements were carried out on the basis set. A thermal smearing of 0.005 Ha (1 Ha = 27.21 eV) of the
+a D/max 2500pc diffractometer using Cu K radiation. XPS analysis was orbital occupation was used to accelerate the electronic self-consistent
+α
+conducted on a Thermo ESCALAB 250Xi with an Al anode. Charging field convergence. The k-point sampling was set to 4 × 4 × 1 for integrating
+effects were compensated by shifting binding energies based on the the Brillouin zones. The geometrical configurations were optimized with
+adventitious C 1s peak (284.8 eV). Atomic ratio of elements was analyzed the energy, maximum force, and maximum displacement convergences of
+using ICP-OES (Thermo electron). 1 × 10–5 Ha, 0.002 Ha Å−1, and 0.005 Å, respectively.
+Electrochemical Measurements: All electrochemical experiments
+were carried out in a classic three-electrode setup, with a graphite
+rod and an Ag/AgCl electrode as the counter electrode and the Supporting Information
+reference electrode, respectively. All nanoporous MEA electrodes
+and Pt/C catalyst ink casted on nanoporous Cu were directly used Supporting Information is available from the Wiley Online Library or
+as working electrodes for electrochemical measurements. The HER from the author.
+polarization curves were collected in N-purged aqueous electrolytes
+2
+of 1 m KOH and pH 7 buffer solution (1 m KH 2 PO 4 + K 2 HPO 4 ) (PBS), Acknowledgements
+respectively, at room temperature. All potentials were iR corrected
+and converted to the RHE potential according to the equation R.Q.Y., Y.T.Z., and H.S. contributed equally to this work. This work
+E RHE = E Ag/AgCl + 0.197 + 0.059 × pH. The stability tests in the electrolytes was supported by National Natural Science Foundation of China
+Adv. Funct. Mater. 2021, 31, 2009613 2009613 (7 of 9) © 2020 Wiley-VCH GmbH
+16163028,
+2021,
+10,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202009613
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.afm-journal.de
+(No. 51871107 and 51631004), Top-notch Young Talent Program of China [21] J. Durst, A. Siebel, C. Simon, F. Hasché, J. Herranz, H. A. Gasteiger,
+(W02070051), Chang Jiang Scholar Program of China (Q2016064), Key Energy Environ. Sci. 2014, 7, 2255.
+Scientific and Technological Research and Development Project of Jilin [22] R. Subbaraman, D. Tripkovic, D. Strmcnik, K. C. Chang,
+Province (20180201080GX), Project of Natural Science Foundation of M. Uchimura, A. P. Paulikas, V. Stamenkovic, N. M. Markovic, Sci-
+Jilin Province (20200201019JC), Program for JLU Science and Technology ence 2011, 334, 1256.
+Innovative Research Team (JLUSTIRT, 2017TD-09), Fundamental [23] R. Subbaraman, D. Tripkovic, K. C. Chang, D. Strmcnik,
+Research Funds for the Central Universities, and Program for Innovative
+A. P. Paulikas, P. Hirunsit, M. Chan, J. Greeley, V. Stamenkovic,
+Research Team (in Science and Technology) in University of Jilin
+N. M. Markovic, Nat. Mater. 2012, 11, 550.
+Province.
+[24] P. Wang, X. Zhang, S. Wan, S. Guo, G. Lu, J. Yao, X. Huang, Nat.
+Commun. 2017, 8, 14580.
+[25] L. P. Han, R. Q. Yao, W. B. Wan, H. Shi, Z. Wen, X. Y. Lang, Q. Jiang,
+Conflict of Interest J. Mater. Chem. A 2019, 7, 25925.
+[26] J. Kibsgaard, I. Chorkendorff, Nat. Energy 2019, 4, 430.
+The authors declare no conflict of interest. [27] X. K. Wan, H. B. Wu, B. Y. Guan, D. Luan, X. W. Lou, Adv. Mater.
+2020, 32, 1901349.
+[28] R. Li, X. Liu, R. Wu, J. Wang, Z. Li, K. C. Chan, H. Wang, Y. Wu,
+Keywords Z. Lu, Adv. Mater. 2019, 31, 1904989.
+[29] J. R. McKone, B. F. Sadtler, C. A. Werlang, N. S. Lewis, H. B. Gray,
+electrocatalysts, high-entropy alloys, hydrogen evolution reaction, ACS Catal. 2013, 3, 166.
+multielemental alloys, nanoporous metals [30] Q. Lu, G. S. Hutchings, W. Yu, Y. Zhou, R. V. Forest, R. Tao,
+J. Rosen, B. T. Yonemoto, Z. Cao, H. Zheng, J. Q. Xiao, F. Jiao,
+Received: November 10, 2020 J. G. Chen, Nat. Commun. 2015, 6, 6567.
+Published online: December 18, 2020 [31] J. G. Hou, Y. Q. Sun, Z. W. Li, B. Zhang, S. Y. Cao, Y. Z. Wu,
+Z. M. Gao, L. C. Sun, Adv. Funct. Mater. 2018, 28, 1803278.
+[32] Y. Shen, Y. F. Zhou, D. Wang, X. Wu, J. Li, J. Y. Xi, Adv. Energy Mater.
+2018, 8, 1701759.
+[1] J. A. Turner, Science 2004, 305, 972. [33] Q. Q. Sun, Y. J. Dong, Z. L. Wang, S. W. Yin, C. Zhao, Small 2018,
+[2] I. Roger, M. A. Shipman, M. D. Symes, Nat. Rev. Mater. 2017, 1, 14, 1704137.
+0003. [34] Q. Wu, M. Luo, J. Han, W. Peng, Y. Zhao, D. Chen, M. Peng, J. Liu,
+[3] A. L. Goff, V. Artero, B. Jousselme, P. D. Tran, N. Guillet, R. Métayé, F. M. F. de Groot, Y. Tan, ACS Energy Lett. 2020, 5, 192.
+A. Fihri, S. Palacin, M. Fontecave, Science 2009, 326, 1384. [35] J. Mao, C. T. He, J. Pei, W. Chen, D. He, Y. He, Z. Zhuang, C. Chen,
+[4] K. C. Neyerlin, W. Gu, J. Jorne, H. A. Gasteiger, J. Electrochem. Soc. Q. Peng, D. Wang, Y. Li, Nat. Commun. 2018, 9, 4959.
+2007, 154, B631. [36] J. Zhang, T. Wang, P. Liu, Z. Liao, S. Liu, X. Zhuang, M. W. Chen,
+[5] N. Mahmood, Y. Yao, J. W. Zhang, L. Pan, X. Zhang, J. J. Zou, Adv. E. Zschech, X. Feng, Nat. Commun. 2017, 8, 15437.
+Sci. 2018, 5, 1700464. [37] L. Röɮner, M. Armbrüster, ACS Catal. 2019, 9, 2018.
+[6] Y. Zheng, Y. Jiao, A. Vasileff, S. Z. Qiao, Angew. Chem., Int. Ed. 2018, [38] Y. M. An, X. Long, M. Ma, J. Hu, H. Lin, D. Zhou, Z. Xing,
+57, 7568. B. L. Huang, S. H. Yang, Adv. Energy Mater. 2019, 9, 1901454.
+[7] C. T. Dinh, A. Jain, F. P. G. de Arquer, P. D. Luna, J. Li, N. Wang, [39] X. F. Lu, L. Yu, J. Zhang, X. W. Lou, Adv. Mater. 2019, 31, 1900699.
+X. Zheng, J. Cai, B. Z. Gregory, O. Voznyy, B. Zhang, M. Liu, [40] X. H. Wu, S. Zhou, Z. Y. Wang, J. S. Liu, W. Pei, P. J. Yang, J. J. Zhao,
+D. Sinton, E. J. Crumlin, E. H. Sargent, Nat. Energy 2019, 4, 107. J. S. Qiu, Adv. Energy Mater. 2019, 9, 1901333.
+[8] V. R. Stamenkovic, D. Strmcnik, P. P. Lopes, N. M. Markovic, Nat. [41] J. Yang, A. R. Mohmad, Y. Wang, R. Fullon, X. Song, F. Zhao,
+Mater. 2017, 16, 57. I. Bozkurt, M. Augustin, E. J. G. Santos, H. S. Shin, W. Zhang,
+[9] J. Zhu, L. Lu, P. Zhao, L. Y. S. Lee, K. Y. Wong, Chem. Rev. 2020, 120, D. Voiry, H. Y. Jeong, M. Chhowalla, Nat. Mater. 2019, 18, 1309.
+851. [42] R. Zhang, X. Wang, S. Yu, T. Wen, X. Zhu, F. Yang, X. Sun, X. Wang,
+[10] C. Tang, H. F. Wang, Q. Zhang, Acc. Chem. Res. 2018, 51, 881. W. Hu, Adv. Mater. 2017, 29, 1605502.
+[11] C. Tang, R. Zhang, W. Lu, L. He, X. Jiang, A. M. Asiri, X. Sun, [43] X. F. Lu, L. Yu, X. W. Lou, Sci. Adv. 2019, 5, eaav6009.
+Adv. Mater. 2017, 29, 1602441. [44] L. Yu, Q. Zhu, S. Song, B. McElhenny, D. Wang, C. Wu, Z. Qin,
+[12] C. Zhu, D. Du, A. Eychmüller, Y. Lin, Chem. Rev. 2015, 115, 8896. J. Bao, Y. Yu, S. Chen, Z. Ren, Nat. Commun. 2019, 10, 5103.
+[13] T. W. van Deelen, C. H. Mejía, K. P. de Jong, Nat. Catal. 2019, 2, [45] C. Panda, P. W. Menezes, M. Zheng, S. Orthmann, M. Driess, ACS
+955. Energy Lett. 2019, 4, 747.
+[14] Z. W. She, J. Kibsgaard, C. F. Dickens, I. Chorkendorff, J. K. Nørskov, [46] M. S. Faber, S. Jin, Energy Environ. Sci. 2014, 7, 3519.
+T. F. Jaramillo, Science 2017, 355, eaad4998. [47] Y. Yao, Z. Huang, P. Xie, S. D. Lacey, R. J. Jacob, H. Xie, F. Chen,
+[15] Y. Jiao, Y. Zheng, M. Jaroniec, S. Z. Qiao, Chem. Soc. Rev. 2015, 44, A. Nie, T. Pu, M. Rehwoldt, D. Yu, M. R. Zachariah, C. Wang,
+2060. R. Shahbazian-Yassar, J. Li, L. Hu, Science 2018, 359, 1489.
+[16] H. H. Li, S. H. Yu, Adv. Mater. 2019, 31, 1803503. [48] M. W. Glasscott, A. D. Pendergast, S. Goines, A. R. Bishop,
+[17] H. Sun, Z. Yan, F. Liu, W. Xu, F. Cheng, J. Chen, Adv. Mater. 2020, A. T. Hoang, C. Renault, J. E. Dick, Nat. Commun. 2019, 10,
+31, 1806326. 2650.
+[18] D. Strmcnik, M. Uchimura, C. Wang, R. Subbaraman, N. Danilovic, [49] Y. Yao, Y. Liu, P. Xie, Z. Huang, T. Li, D. Morris, Z. Finfrock, J. Zhou,
+D. van der Vliet, A. P. Paulikas, V. R. Stamenkovic, N. M. Markovic, M. Jiao, J. Gao, Y. Mao, J. Miao, P. Zhang, R. Shahbazian-Yassar,
+Nat. Chem. 2013, 5, 300. C. Wang, G. Zhang, L. Hu, Sci. Adv. 2020, 6, eaaz0510.
+[19] Y. Yang, H. Q. Yao, Z. H. Yu, S. M. Islam, H. Y. He, M. W. Yuan, [50] Z. Jia, T. Yang, L. Sun, Y. Zhao, W. Li, J. Luan, F. Lyu, L. C. Zhang,
+Y. H. Yue, K. Xu, W. C. Hao, G. B. Sun, H. F. Li, S. L. Ma, P. Zapol, J. J. Kruzic, J. J. Kai, J. C. Huang, J. Lu, C. T. Liu, Adv. Mater. 2020,
+M. G. Kanatzidis, J. Am. Chem. Soc. 2019, 141, 10417. 32, 2000385.
+[20] W. Sheng, M. Myint, J. G. Chen, Y. Yan, Energy Environ. Sci. 2013, 6, [51] J. Erlebacher, M. J. Aziz, A. Karma, N. Dimitrov, K. Sieradzki, Nature
+1509. 2001, 410, 450.
+Adv. Funct. Mater. 2021, 31, 2009613 2009613 (8 of 9) © 2020 Wiley-VCH GmbH
+16163028,
+2021,
+10,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202009613
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.afm-journal.de
+[52] I. McCue, E. Benn, B. Gaskey, J. Erlebacher, Annu. Rev. Mater. Res. [57] J. Rossmeisl, K. Chan, E. Skúlason, M. E. Björketun, V. Tripkovic,
+2016, 46, 263. Catal. Today 2016, 262, 36.
+[53] J. Erlebacher, J. Electrochem. Soc. 2004, 151, C614. [58] J. Q. Chi, X. J. Zeng, X. Shang, B. Dong, Y. M. Chai,
+[54] R. Besson, M. N. Avettand-Fènoël, L. Thuinet, J. Kwon, A. Addad, C. G. Liu, M. Marin, Y. D. Yin, Adv. Funct. Mater. 2019, 29,
+P. Roussel, A. Legris, Acta Mater. 2015, 87, 216. 1901790.
+[55] M. H. Tsai, J. W. Yeh, Mater. Res. Lett. 2014, 2, 107. [59] X. Zhang, F. Zhou, W. Y. Pan, Y. Y. Liang, R. H. Wang, Adv. Funct.
+[56] K. Chan, J. K. Kørskov, J. Phys. Chem. Lett. 2016, 7, 1686. Mater. 2018, 28, 1804600.
+Adv. Funct. Mater. 2021, 31, 2009613 2009613 (9 of 9) © 2020 Wiley-VCH GmbH
+16163028,
+2021,
+10,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202009613
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+

@@ -1,0 +1,387 @@
+Journal of
+Materials Chemistry A
+Published on 10 December 2020
+COMMUNICATION
+Licence and permissions
+The facile oil-phase synthesis of a multi-site
+synergistic high-entropy alloy to promote the
+Citethis:J.Mater.Chem.A,2021,9,
+†
+alkaline hydrogen evolution reaction
+889
+Received30thOctober2020 DanZhang,‡abYueShi,‡aHuanZhao,aWenjingQi, dXileiChen, bTianrongZhan,a
+Accepted8thDecember2020 Shaoxiang Li,b Bo Yang,b Mingzi Sun, c Jianping Lai, *a Bolong Huang *c
+and Lei Wang *ab
+DOI:10.1039/d0ta10574k
+rsc.li/materials-a
+Although intensive efforts have been made and great progress has Introduction
+been achieved relating to the electrocatalytic hydrogen evolution
+reaction(HER),anadvancedsynthesisstrategyforanefficientelec- Hydrogen evolution reaction (HER) of the cathode in an elec-
+trocatalystisstillthemostsignificantgoal.Inthispaper,weintroduce trolyticcellcaneffectivelyconverttheelectricenergygenerated
+PdFeCoNiCu high-entropy alloy (HEA) nanoparticles as an efficient by solar and wind energy into chemical energy.1–10 As is well
+electrocatalystfortheHER,whichhasbeenpreparedinanoilphase known, Pt/C is currently recognized as the best HER catalyst.
+under facile conditions for the first time. PdFeCoNiCu/C shows However, Pt resource is scarce and expensive, and it cannot
+excellentalkalineHERcatalyticperformancewithanoverpotentialof promote water splitting under alkaline conditions. Therefore,
+only18mVandaTafelslopeof39mVdec(cid:1)1.Meanwhile,weachieved
+developing alternative electrocatalysts for Pt still has much
+the highest mass activity (6.51 A mg
+Pd
+(cid:1)1 at (cid:1)0.07 V vs. RHE) in the scopeinthealkalineHER.11–18Moreover,thelong-termstability
+alkalineHERamongallnon-Ptelectrocatalysts.PdFeCoNiCu/Calso of Pt/C is another potential issue since it can easily decay
+showssurprisinglystablecatalyticpropertiesforover15dayswithout prematurely during the electrolysis process.19,20 According to
+notable decay. Based on theoretical calculations, the HEA surface our previous research, it was found that Pd can effectively
+demonstrates the optimization of electronic structures based on promote the water splitting process under alkaline conditions
+asynergisticeffectbetweenallmetals.PdandCoareconfirmedtobe andpromoteHER.21However,thecatalytickineticsandstability
+thedominantelectroactivesitesforbothH 2 formationandinitialwater ofPd-basedmaterialsarestillinadequatethroughoutthewhole
+splitting,whichareassistedbyNi,Fe,andCupromotion,enhancing reactionprogress.22–24
+electron transfer and optimizing the binding energies of hydrogen Inaddition,thecontinuingemergenceofnewmaterialshas
+intermediates. This work has supplied significant insight into the also injected fresh blood into electrocatalysis. Through
+designofanefficientelectrocatalystbasedonHEAmaterials. precisely controlling the coordination entropy, high-entropy
+alloys (HEAs) are synthesized from ve or more metal
+elements with the same atomic ratio.25,26 Research has proved
+thatHEAsexhibitdistinctivepropertiessuchasextremelyhigh
+mechanical strength and corrosion resistance under severe
+conditions.27 These unique characteristics are due to the high
+aKeyLaboratoryofEco-chemicalEngineering,KeyLaboratoryofOptic-electricSensing entropyeffectcausedbythelatticedistortionandslowdiffusion
+and Analytical Chemistry of Life Science, Taishan Scholar Advantage and
+as the number of components increases.28 In the catalytic
+CharacteristicDisciplineTeamofEcoChemicalProcessandTechnology,Collegeof
+Chemistry and Molecular Engineering, Qingdao University of Science and
+process,alloyingcansignicantlyadjusttheadsorptionenergy
+Technology, Qingdao 266042, P. R. China. E-mail: inorchemwl@126.com; jplai@ ofmoleculesandintermediatesonthecatalystsurface,thereby
+qust.edu.cn enhancingitscatalyticactivity.Whatismore,priormethodsof
+bShandongEngineeringResearchCenterforMarineEnvironmentCorrosionandSafety synthesizing HEAs include arc melting method, carbothermal
+Protection, College of Environment and Safety Engineering, Qingdao University of
+shock method, melt spinning method, aerosol spray pyrolysis
+ScienceandTechnology,Qingdao266042,P.R.China
+method, ball milling method, solvothermal method, etc.29–33
+cDepartmentofAppliedBiologyandChemicalTechnology,TheHongKongPolytechnic
+University,HungHom,Kowloon,HongKongSAR,China.E-mail:bhuang@polyu.edu. Nevertheless, these methods not only oen produce nano-
+hk particles (NPs) with large average size and irregular
+dCollegeofChemistry,ChongqingNormalUniversity,Chongqing401331,P.R.China morphology, but also face challenges such as complicated
+†Electronic supplementary information (ESI) available. See DOI: process, high processing cost, or low yield. In addition, these
+10.1039/d0ta10574k processes oen require high-temperature and high-pressure
+‡Equalcontribution.
+Thisjournalis©TheRoyalSocietyofChemistry2021 J.Mater.Chem.A,2021,9,889–893 | 889
+
+JournalofMaterialsChemistryA Communication
+conditions.Theselimitationshavehinderedthepracticalusage
+ofHEAsinvariousapplications.
+In this paper, a Pd-based HEA (PdFeCoNiCu NPs) was
+successfullyobtainedatlowtemperature(#250(cid:3)C)andatmo-
+sphericpressurewithsmallsize((cid:4)34nm)inanoilphaseforthe
+rst time and applied to the alkaline electrocatalytic HER.
+Nano-sizedalloyparticlesincreasedthespecicsurfaceareaof
+the electrocatalyst, and when combined with Ketjen Black, it
+hasalargercontactarea,whichexposedmoreactivesitesinthe
+alkalineHER.Accordingtotheexperimentalresults,themass
+activity reached 6.51 A mg (cid:1)1 at (cid:1)0.07 V vs. RHE. The over-
+Pd
+potentialis18mVat10mAcm
+(cid:1)2.Itisanon-Ptelectrocatalyst
+withthehighestmassactivityinalkalineHERsofar,evenmore
+thanthatofmostPt-basedcatalysts(TableS2†).Subsequently,
+itsstabilitywasexplored.Aer15daysofuninterruptedtesting,
+itscatalyticactivityremainedinitsoriginalstateanditsstruc-
+ture remained intact. From DFT calculations, the optimal
+balanceoftheelectronicstructuresbetweenmetalsontheHEA
+surface has been conrmed. The exible Ni sites are bifunc-
+tionalinpromotingbothprotonandOHstabilizationtoPdand
+Co sites. Both Cu and Fe are essential in stabilizing the elec-
+troactivityandthemorphology.
+Results and discussion
+The PdFeCoNiCu HEA NPs were synthesized by a one-step
+route. In a typical synthesis method, Pd(acac) , Co(acac) ,
+2 3
+Fe(acac) , Cu(acac) , Ni(acac) and Mo(CO) were added into
+3 2 2 6
+oleylamineinavialandsonicatedfor30min.Thesolutionwas
+heatedto220(cid:3)Cfromroomtemperatureundermagneticstir-
+ringandheldfor2h.Thenthenalblackgelatinousproducts
+were collected bycentrifugation andstoredin cyclohexane for Fig.1 (a)ATEMimageofPdFeCoNiCuNPs.(b)Thesizedistributionof
+furtheruse.Inthesynthesisprocess,oleylamineandcarbonyl PdFeCoNiCu NPs. (c) TEM and HRTEM images of PdFeCoNiCu NPs
+(the lattice fringes are shown in the inset). (d) The XRD pattern of
+may play an important role in coordination and merge with
+PdFeCoNiCuNPs.(e)ThecorrespondingTEMelementalmappingof
+differentmetalions.ThemorphologyofPdFeCoNiCuNPswas
+PdFeCoNiCuNPs.
+characterized by transmission electron microscopy (TEM).
+Synthesized NPs are uniform in size (Fig. 1a). Fig. 1b displays
+the size distribution details of the PdFeCoNiCu NPs, and the mixinginnanometer-levelstructure.34,35Wealsoevaluatedthe
+size distribution is relatively balanced. The high-resolution
+thermodynamic parameters of the PdFeCoNiCu HEA. If the
+TEM (HRTEM) micrograph clearly shows the lattice fringes HEAsatisestheatomicsizedifferenced#6.6%,(cid:1)11.6<DH
+mix
+(Fig. 1c), corresponding to 0.204 nm (111). TEM mapping
+< 3.2 (kJ mol
+(cid:1)1),
+it means that a solid solution HEA is
+(Fig. 1e) shows that the ve metals Pd, Fe, Co, Ni, and Cu are formed.36–39Inthiswork,thecalculatedDH is2.58kJmol (cid:1)1,
+mix
+locatedonthesurfaceoftheNPs.Theabovecharacterizations DS ¼ 13.29 J K (cid:1)1 mol (cid:1)1, the atomic size difference is d ¼
+mix
+proved that the synthesis of PdFeCoNiCu NPs was successful. 3.6%#6.6%,andDG ¼(cid:1)3.97kJmol (cid:1)1,soItcanbeinferred
+mix
+Inductivelycoupledplasmaatomicemissionspectroscopy(ICP-
+thatPdFeCoNiCuisasolidsolutionalloy.
+AES) was used to explore the composition of the PdFeCoNiCu
+InordertoexplorethevalencestatesofPd,Fe,Co,NiandCu,
+NPs,beingclosetoPd:Fe:Co:Ni:Cuz19:21:20:22:17
+X-ray photoelectron spectroscopy (XPS) testing was performed
+(TableS1†),whichmatchedtheEDXimageofPdFeCoNiCuNPs
+(Fig. S2†). At the same time, from XPS it was found that the
+(Fig.S1†).TheXRDpatternofthePdFeCoNiCuNPsisshownin
+content ratio of Pd:Fe:Co:Ni:Cu is
+Fig. 1d. Since the FeNi content ratio is higher in the PdFeCo-
+18.3:23.1:21.0:21.3:16.3,whichisbasicallyconsistentwith
+NiCu NPs, the measured XRD pattern matches JCPDS no. 38-
+the ICP-AES test data, which further proves the successful
+0419.AsFig.1dindicates,thereisastrongdiffractionpeakat
+preparationoftheHEA.Byconsultingtheliterature,mostofthe
+(cid:4)44.1(cid:3),whichisascribedtothebody-centeredcubic(111).The
+alloyssynthesizedinoilphaseshavesomemetaloxidespecies
+diffractionpeaksof(220)and(200)areextremelyweak,which
+asfoundfromXPS.Themetallicoxidepeakmightbegenerated
+proved that the (111) crystal plane dominates in the PdFeCo- from supercial oxide species. Pd0 3d and Pd0 3d are
+NiCuNPs,andthediffractionpeakof(111)isslightlywidedue
+concentratedat335.1eVand340.5eV,r
+5
+e
+/
+s
+2
+pectively(Fig.
+3
+S
+/2
+2a†);
+to the small size of the synthesized PdFeCoNiCu NPs and
+890 | J.Mater.Chem.A,2021,9,889–893 Thisjournalis©TheRoyalSocietyofChemistry2021
+
+Communication JournalofMaterialsChemistryA
+forFe2p ,thepeakat709.4eVisattributedtoFe0.Thepeaks theoretical hydrogen production. Faraday efficiency is close to
+3/2
+around 713.6 eV belong to the high valence state of Fe2+. The 100%(Fig.S8†).
+peaksaround720.2eVand724.0eVbelongtoFe02p andFe2+ Furthermore, the catalytic stability of PdFeCoNiCu/C was
+1/2
+2p respectively (Fig. S2b†); forCo2p, peaks at778.1 eVand evaluated by the CV cycle, the long-term current versus time
+1/2
+793.3eVbelongtoCo02p andCo02p ,andthoseat780.9eV curve,andthevoltageversustimecurve.Theattenuationtrend
+3/2 1/2
+and 796.5 eV belong to Co2+ 2p and Co2+ 2p (Fig. S2c†). ofthepolarizationcurvesbeforeandaerthetestiscompletely
+3/2 1/2
+Fig.S2d†shows2p ofNi0andNi2+,andtwopeakscorrespond negligible(Fig.3a).Then,therelationshipbetweencurrentand
+3/2
+to852.4eVand854.4eVrespectively;thepeaksaround870.0eV time(I–t)wastested(Fig.3b).Aer15days,theattenuationof
+and 871.2 eV belong to 2p of Ni0 and Ni2+. Fig. S2e† shows the current density was negligible. We compared the voltage–
+1/2
+that Cu belongs to Cu0, and the two peaks are located at timecurvesofPt/CandPdFeCoNiCu/C.Itcanbeclearlyfound
+932.6eVand952.5eV. thatthePt/Cvoltageissignicantlymoreattenuatedthanthat
+Subsequently,PdFeCoNiCuNPswerecombinedwithKetjen forPdFeCoNiCu/Catacurrentdensityof10mAcm
+(cid:1)2(Fig.S9†).
+BlacktoformPdFeCoNiCu/C(Fig.S3†)electrocatalystof1mg Insummary,PdFeCoNiCu/Chasexcellentstability.Thecatalyst
+mL (cid:1)1.PdFeCoNiCu/Cwasplacedin1.0MKOHelectrolyteand aer the stability test was characterized by TEM (Fig. S10a†),
+itsHERpropertieswerestudiedusingathree-electrodesystem. XRD(Fig.S10b†),andHRTEM(Fig.S10c†).PdFeCoNiCu/Caer
+In order to highlight the superiority of hydrogen evolution thereactiondidnotdetachfromthecarbonmaterial,andthere
+activity of PdFeCoNiCu/C, we compared it with Pd/C and was no difference from before the reaction. However, Pt/C
+commercial Pt/C catalysts. The polarization curves (Fig. 2a) showed obvious agglomeration (Fig. S11†). XRD analysis also
+indicate that the initial potential of PdFeCoNiCu/C is very indicatesthatitstillhasgoodcrystallinity.
+minor, and the overpotential at 10 mA cm
+(cid:1)2
+is only 18 mV The HER performance of HEAs under an alkaline environ-
+(Fig. 2b), which is 5 times less than that of Pt/C (91 mV), and menthasbeenstudiedindetail.FortheHEAstructures,surface
+comparedtoPd/C(418mV),improvedby400mV.Thehydrogen distortion was observed, especially near the Cu sites, forming
+evolutionactivityofPdFeCoNiCu/Cwasalsoevaluatedbymass astep-likesurfacestructure.Theinducedsurfacestrainfurther
+activity(Fig.2candS4†).At(cid:1)0.07Vvs.RHE,themassactivityof leads to surface electronic modulation. The surface-active
+PdFeCoNiCu/C reached 6.51 A mg
+(cid:1)1,
+while that of Pt/C was bonding and anti-bonding orbitals near the Fermi level (E )
+Pd F
+only0.65Amg
+(cid:1)1.Inaddition,theTafelslopeisalsothelowest
+havebeenlocatednearCoandNisites,indicatingthepotential
+Pt
+ofthesematerials(Fig.2d).Impedancecanbeusedtoexplore electroactivesitesfortheinitialwatersplittingeffectforHERin
+the interfacial properties of the catalyst, and smaller imped- thealkalineenvironment(Fig.4aandb).Theprojecteddensity
+ancescanalsoincreasetheactivityofPdFeCoNiCu/C(Fig.S5†). ofstates(PDOSs)oftheHERsurfaceshavebeendeterminedto
+At the same time, PdFeCoNiCu/C has a large electrochemical illustrate the local electronic environment. Pd and Cu sites
+double-layer capacitance (Fig. S6†), indicating that show an electron-rich feature, both locating near E -2.5 eV. A
+v
+PdFeCoNiCu/Chasahigherelectrochemicalactivearea.When broadFe-3dbandisnoticedwithevidente andt splitting.Ni-
+g 2g
+theoverpotentialis200mV,theTOFofPdFeCoNiCu/Creaches 3d shows a sharp peak at E -1.0 eV while Co-3d shows the
+v
+10.3s
+(cid:1)1(Fig.S7†).Gaschromatographywasusedtodetectthe
+evident crossing of E with high electron density, which
+F
+hydrogen produced during the reaction process, and the rela- supports the high electroactivity for both Ni and Co sites
+tionshipbetweenthehydrogenyieldandtimeshowsaperfect (Fig.4c).Furtherdetailedstudiesofthesite-dependentPDOSs
+linear relationship, the result being consistent with the of each element in the HEA were conducted to compare their
+individualrolesinpromotingHERperformance.Fromsurface
+to bulk sites, an obvious shi towards the lower position has
+been noticed for Pd-4d orbitals, supporting the enhanced
+electroactiveadsorptionofthefreelymigratingprotonsduring
+theHER.MovingfromthebulkFetothesurfaceFesites,thee –
+g
+t gapslightlydecreasestoenhancethed–delectroncoupling,
+2g
+which compensates the electrons at the nearby Co-sites to
+Fig. 2 (a) HER polarization curves, (b) the overpotential at 10 mA Fig.3 (a)HERpolarizationcurvesofPdFeCoNiCu/Cbeforeandafter
+cm(cid:1)2,(c)themassactivityat(cid:1)0.07Vvs.RHEand(d)theTafelslopesof 10000 CV cycles. (b) Galvanostatic measurement results of FeCo-
+PdFeCoNiCu/C,Pt/C,andPd/Cin1.0MKOHsolution. NiCu/CfortheHERat18mV.
+Thisjournalis©TheRoyalSocietyofChemistry2021 J.Mater.Chem.A,2021,9,889–893 | 891
+
+JournalofMaterialsChemistryA Communication
+physicochemical trend of alkaline HER as in experiment
+observations(Fig.4e).Moreimportantly,theHEAsurfaceshows
+smallactivationenergyof0.21eVforwatersplitting,conrming
+the energetically favorable water-splitting process, which
+contributes to the remarkable HER performance in alkaline
+media (Fig. 4f). Therefore, theoretical calculations of the HEA
+show the synergistic effect of the ve metal elements in opti-
+mizingtheelectronicenvironmenttoachievesatisfactoryHER
+performance.
+Conclusions
+Insummary,PdFeCoNiCuHEANPsweresuccessfullyprepared
+forthersttimeinanoilphaseatlowtemperature(#250(cid:3)C)
+andatatmosphericpressure.Theelectrocatalyticpropertiesof
+the PdFeCoNiCu HEA NPs show that the mass activity of
+Fig.4 (a)Asideviewofthestructuralconfigurationandrealspatial PdFeCoNiCu/Creached6.51Amg (cid:1)1at(cid:1)0.07Vvs.RHE,and
+contour plots for bonding and anti-bonding orbitals near E F for the the overpotential is only 18 mV (1 P 0 d mA cm (cid:1)2) for the alkaline
+HEA.Darkgreenspheres¼Pd;brownspheres¼Fe;bluespheres¼
+Co;redspheres¼Ni;andorangespheres¼Cu.(b)Atopviewofthe HER, which exceeds the mass activity of previously reported
+realspatialcontourplotsofthebondingandanti-bondingorbitalsnear non-Pt catalysts. In addition, the surprising stability of
+E fortheHEA.(c)ThePDOSsoftheHEAsurface.(d)Themoststable PdFeCoNiCu/C is another unique feature. Even aer half
+F
+structural configurations of the reactants and key intermediate amonthofuninterruptedtesting,therewasnosignofadecline
+adsorption. (e) The energetic pathway of the HER under alkaline
+intheelectroactivity.Andthestructureoftheelectrocatalystis
+conditions.(f)TheactivationbarrierofwatersplittinginHEA.
+well preserved. DFT calculations have revealed the signicant
+role of each metal component in the HEA for realizing the
+superior HER performance. Fe enhances the d–d electron
+preservethehighelectroactivityduringtheHERprocess.With
+coupling and compensates the electrons at the Co position,
+the protection by Fe sites, the Co-3d band center has been
+thereby maintaining high electrical activity during the HER
+pinnedatE -1.6eVfrombulktosurface,whichactsasthemain
+v process. Electron-rich Cu promotes overall electron transfer
+electron-depletioncentertodissociatetheadsorbedwater.The
+betweenmetalsites.ThepinningofelectroactiveCositesfavors
+Nisiteswiththehighestconcentrationhaveshownagradually
+water splitting, while nearby Ni facilitates *OH stabilization
+merged3dbandfromthebulktothesurface,accompanyingthe
+fromwatersplitting.AndhighlyactivePdsitesforH formation
+upwardsshiingofthebandcenter.Theintermediateposition 2
+determine the efficient HER process in alkaline media. This
+oftheNi-3dbandactsasaexibleboosterforbothHandH O
+2 work not only supplies a simple low-temperature oil-phase
+splitting of nearby Pd and Co sites, respectively. The electron-
+synthesis method for realizing the large-scale production of
+richCualsoshistowardsE topromotetheholisticelectron
+F HEAsinthefuture,butitalsoopensupapromisingdirection
+transferbetweenmetalsites(Fig.S12†).Forthekeyadsorption
+fordesigninghighlyefficientalkalineHERcatalysts.
+oftheinitialreactantH O,strongp–dcouplingisnoticeddueto
+2
+the 1.48 eV downshiing of s, p bands by water adsorption,
+Author contributions
+guaranteeingasufficientsupplyofprotonsforHER(Fig.S13a†).
+Meanwhile, we further noticed the efficient p–d couplings of
+D.Z.andY.S.contributedequallytothiswork.J.L.conceived
+*OHwithCoandNisites,indicatingtheefficientwatersplitting
+and supervised the research. L. W. guided the entire experi-
+and stable adsorption of *OH, which play a double role for
+ment.D.Z.designedtheexperiments.D.Z.andY.S.performed
+asuperiorHERperformance(Fig.S13b†).Forthefreemigrating
+mostoftheexperimentsanddataanalysis.H.Z.,X.C.,W.Q.,T.
+H*,the small gapbetweenH-1s andPd-4d bandsbenets the
+Z.,B.Y.,andS.L.participatedinvariousaspectsoftheexper-
+fast Tafel reaction of H combination for H generation
+ads 2 iments and discussion. B. H. and M. S. performed the DFT
+(Fig.S13c†).
+simulations. D. Z. and B. H. wrote the paper. All authors dis-
+The most stable structural congurations of the reactants
+cussedtheresultsandcommentedonthemanuscript.
+andkeyintermediateadsorptionaredemonstrated.Thestable
+adsorption of H 2 O is located on Co sites while the nearby Ni Conflicts of interest
+facilitatesOHstabilizationfromwatersplitting.Fortheproton
+capture for HER, the facilitation of Ni to the Pd sites is also
+Therearenoconictstodeclare.
+noted, which is consistent with the electronic structures. The
+desorption of the formed H is noticed near the Pd sites
+2 Acknowledgements
+(Fig.4d).Fromanenergeticviewpoint,thealkalineHERonthe
+HEA surface shows a continuous downward trend with a total
+This work was supported by the National Natural Science
+energy release of 1.37 eV, supporting a stronger
+Foundation of China (22001143, 51772162, 51802171,
+892 | J.Mater.Chem.A,2021,9,889–893 Thisjournalis©TheRoyalSocietyofChemistry2021
+
+Communication JournalofMaterialsChemistryA
+21771156), the Taishan Scholars Program, Natural Science 21 D.Zhang,H.Zhao,B.Huang,B.Li,H.Li,Y.Han,Z.Wang,
+Foundation of Shandong Province, China (ZR2018BB031), X.Wu,Y.Pan,Y.Sun,X.Sun,J.LaiandL.Wang,ACSCent.
+Youth Innovation of Shandong Higher Education Institutions, Sci.,2019,5,1991–1997.
+China (2019KJC004), Outstanding Youth Foundation of Shan- 22 J.Fan,X.Cui,S.Yu,L.Gu,Q.Zhang,F.Meng,Z.Peng,L.Ma,
+dong Province, China (ZR2019JQ14), the Taishan Scholar J.-Y. Ma, K. Qi, Q. Bao and W. Zheng, ACS Nano, 2019, 13,
+Project of Shandong Province (tsqn201909123) and the Early 12987–12995.
+Career Scheme (ECS) fund (grant no. PolyU 253026/16P) from 23 R.-Q. Yao, Y.-T. Zhou, H. Shi, Q.-H. Zhang, L. Gu, Z. Wen,
+theResearchGrantCouncil(RGC)inHongKong. X.-Y.LangandQ.Jiang,ACSEnergyLett.,2019,4,1379–1386.
+24 T.Bhowmik,M.K.KunduandS.Barman,ACSCatal.,2016,
+Notes and references 6,1929–1941.
+25 E. P. George, D. Raabe and R. O. Ritchie, Nat. Rev. Mater.,
+1 J. Zhu, L. Hu, P. Zhao, L. Y. S. Lee and K.-Y. Wong, Chem. 2019,4,515–534.
+Rev.,2020,120,851–918. 26 X.Chang,M.Zeng,K.LiuandL.Fu,Adv.Mater.,2020,32,
+2 Y.Zheng,Y.Jiao,M.JaroniecandS.Z.Qiao,Angew.Chem., 1907226.
+Int.Ed.,2015,54,52–65.
+27 Y.Yao,Z.Liu,P.Xie,Z.Huang,T.Li,D.Morris,Z.Finfrock,
+3 Y. Xu, M. Kra and R. Xu, Chem. Soc. Rev., 2016, 45, 3039– J. Zhou, M. Jiao, J. Gao, Y. Mao, J. Miao, P. Zhang,
+3052. R. Shahbazian-Yassar, C. Wang, G. Wang and L. Hu, Sci.
+4 X.F.Lu,L.Yu,J.ZhangandX.W.Lou,Adv.Mater.,2019,31, Adv.,2020,6,eaaz0510.
+1900699. 28 G.R.M.Tomboc,T.Kwon,J.JooandK.Lee,J.Mater.Chem.
+5 P.Yu,F.Wang,T.A.Shifa,X.Zhan,X.F.XiaandJ.He,Nano A,2020,8,14844–14862.
+Energy,2019,58,244–276.
+29 M. Bondesgaard, N. L. N. Broge, A. Mamakhel and
+6 S.-Y. Bae, J. Mahmood, I.-Y. Jeon and J.-B. Baek, Nanoscale B.B.Iversen,Adv.Funct.Mater.,2019,29,1905933.
+Horiz.,2019,4,43–56.
+30 Y. G. Yao, Z. N. Huang, P. F. Xie, S. D. Lacey, R. J. Jacob,
+7 X.-K.Wan,H.B.Wu,B.Y.Guan,D.LuanandX.W.Lou,Adv. H. Xie, F. J. Chen, A. M. Nie, T. C. Pu, M. Rehwoldt,
+Mater.,2020,32,1901349.
+D. W. Dai, M. R. Zachariah, C. Wang, S. Y. Reza, J. Li and
+8 Y.Zhao,T.Ling,S.Chen,B.Jin,A.Vasileff,Y.Jiao,L.Song, L.B.Hu,Science,2018,359,1489–1494.
+J. LuoandS.Qiao,Angew.Chem.,Int.Ed.,2019,58,12252– 31 Z.F.Lei,X.J.Liu,Y.Wu,H.Wang,S.H.Jiang,S.D.Wang,
+12257. X. D. Hui, Y. D. Wu, B. Gault, P. Kontis, D. Raabe, L. Gu,
+9 N. Yao, P. Li, Z. Zhou, Y. Zhao, G. Cheng, S. Chen and Q. H. Zhang, H. W. Chen, H. T. Wang, J. B. Liu, K. An,
+W.Luo,Adv.EnergyMater.,2019,9,1902449. Q.S.Zeng,T.-G.NiehandZ.P.Lu,Nature,2018,563,546–
+10 D.Zhao,K.Sun,W.-C.Cheong,L.Zheng,C.Zhang,S.Liu, 550.
+X. Cao, K. Wu, Y. Pan, Z. Zhuang, B. Hu, D. Wang, 32 Z.Y.Jin,J.Lv,H.L.Jia,W.H.Liu,H.L.Li,Z.H.Chen,X.Lin,
+Q. Peng, C. Chen and Y. Li, Angew. Chem., Int. Ed., 2019, G.Q.Xie,X.J.Liu,S.H.SunandH.J.Qiu,Small,2019,15,
+59,8982–8990.
+1904180.
+11 Y.Li,X.Tan,R.K.Hocking,X.Bo,H.Ren,B.Johannessen, 33 X. Z. Wang, Z. N. Huang, Y. G. Yao, H. Y. Qiao, G. Zhong,
+S.C.SmithandC.Zhao,Nat.Commun.,2020,11,2720.
+Y.Pei,C.L.Zheng,D.Kline,Q.Q.Xia,Z.W.Lin,J.Q.Dai,
+12 J.-X.Feng,S.-Y.Tong,Y.-X.TongandG.-R.Li,J.Am.Chem. M. R. Zachariah, B. Yang, S. Y. Reza and L. B. Hu, Mater.
+Soc.,2018,140,5118–5126. Today,2020,35,106–114.
+13 Y.-W.Peng,C.Shan,H.-J.Wang,L.-Y.Hong,S.Yao,R.-J.Wu, 34 W.Zhang,Y.Yang,B.Huang,F.Lv,K.Wang,N.Li,M.Luo,
+Z.-M. Zhang and T.-B. Lu, Adv. Energy Mater., 2019, 9, Y.Chao,Y.Li,Y.Sun,Z.Xu,Y.Qin,W.Yang,J.Zhou,Y.Du,
+1900597. D.SuandS.Guo,Adv.Mater.,2019,31,1805833.
+14 J. Wang, F. Xu, H. Jin, Y. Chen and Y. Wang, Adv. Mater., 35 K.Jiang,D.Zhao,S.Guo,X.Zhang,X.Zhu,J.Guo,G.Luand
+2017,29,1605838. X.Huang,Sci.Adv.,2017,3,e1601705.
+15 J.-Q.Chi,X.-J.Zeng,X.Shang,B.Dong,Y.-M.Chai,C.-G.Liu, 36 P. Xie, Y. Yao, Z. Huang, Z. Liu, J. Zhang, T. Li, G. Wang,
+M.MarinandY.Yin,Adv.Funct.Mater.,2019,29,1901790.
+R. Shahbazian-Yassar, L. Hu and C. Wang, Nat. Commun.,
+16 L. Dai, Z.-N. Chen, L. Li, P. Yin, Z. Liu and H. Zhang, Adv. 2019,10,4011.
+Mater.,2020,32,1906915. 37 A. Takeuchi and A. Inoue, Mater. Trans., 2005, 46, 2817–
+17 D.Zhang,H.Mou,F.Lu,C.SongandD.Wang,Appl.Catal., 2829.
+B,2019,54,471–478. 38 X. Yang and Y. Zhang, Mater. Chem. Phys., 2012, 132, 233–
+18 J.Lai,B.Huang,Y.Chao,X.ChenandS.Guo,Adv.Mater., 238.
+2019,31,1805541. 39 S.Guo,Q.Hu,C.NgandC.T.Liu,Intermetallics,2013,41,
+19 Z.Pu,I.S.Amiinu,Z.Kou,W.LiandS.Mu,Angew.Chem., 96–103.
+Int.Ed.,2017,56,11559–11564.
+20 J. Yin, J. Jing, H. Zhang, M. Lu, Y. Peng, B. L. Huang,
+P. X. P. Xi and C.-H. Yan, Angew. Chem., Int. Ed., 2019, 58,
+18676–18682.
+Thisjournalis©TheRoyalSocietyofChemistry2021 J.Mater.Chem.A,2021,9,889–893 | 893
+

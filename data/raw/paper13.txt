@@ -1,0 +1,2224 @@
+REVIEW
+www.advmatinterfaces.de
+Recent Progress in High-Entropy Alloy Electrocatalysts for
+Hydrogen Evolution Reaction
+Qian Wang, Jiacheng Xie, Yao Qin, Yafen Kong, Shunxin Zhou, Qingyi Li, Qian Sun,
+Bo Chen,* Peng Xie,* Zengxi Wei,* and Shuangliang Zhao
+have a wide range of applications in
+High-entropyalloys(HEAs)materials,aspromisingnanomaterials,have various fields, including serving as
+garneredsignificantattentionfromresearchersduetotheirexcellent high-temperature materials for hy-
+performanceinthefieldofhydrogenevolutionreaction(HER).Thefourcore personic aircraft engine components,
+radiation-resistant materials for nu-
+effectsofHEAs,includingthehigh-entropyeffect,severelatticedistortion
+clear energy, lightweight materials in
+effect,sluggishdiffusioneffect,andcocktaileffect,arepivotalinunderpinning
+the aerospace sector, and catalysts for
+theirremarkablemechanicalandthermodynamicproperties.Nevertheless, different reactions.[2] The development
+theintricategeometricandelectronicstructuresofHEAsmaketheircatalytic of HEAs can be traced back to 1788. A
+mechanismsexceptionallycomplexandchallengingtodecipher.Inparticular, metallurgist named Achard published
+athoroughanalysisoftheunderlyingfactorsresponsiblefortheoutstanding a French book titled “Recherches sur
+les Propriétés des Alliages Métallique,”
+catalyticactivity,selectivity,andtheabilitytomaintainstablehydrogen
+documenting over 900 alloy structures,
+production,evenathighcurrentdensities,inHEAsislacking.Toprovidea
+including multi-principal element al-
+systematicexplorationofthedesignandapplicationofHEAsinHERsystems, loys with 5–7 different elements.[3] In
+thisreviewcommenceswithanexaminationofthephysicochemical 1981, Cantor et al. achieved a world
+propertiesofHEAs.Itcoversawiderangeoftopics,includingthesynthesis record by crafting an alloy consisting
+of 20 distinct elements, each contribut-
+methodsofHEAs,andthemajorreactionmechanismsofHERs,andpresents
+ing 5% to the composition. In 2004,
+innovativemethodsandapproachesfordesigningHEAsspecificallyinthe
+Cantor et al.[4] published a series of
+contextofHERs.
+articles on multi-component alloys in
+public journals, capturing the atten-
+tion of researchers. In that same year,
+1.Introduction Yehetal.[5,6]independentlyinvestigatedmulti-componentalloys
+andcoinedtheterm“high-entropyalloys.”Thismarkedtheini-
+High-entropy alloys (HEAs) showcase exceptional characteris- tialpresentationofthehigh-entropyalloyconcept.
+tics, excelling in terms of strength, toughness, corrosion resis- The distinctive characteristics of HEAs can be attributed to
+tance, and thermal stability.[1] The HEAs have been found to fourcoreeffectsresultingfromthecombinationofmultiplecom-
+ponents:high-entropyeffect,severelatticedistortioneffect,slug-
+Q.Wang,J.Xie,Y.Qin,Y.Kong,S.Zhou,Q.Li,Q.Sun,B.Chen,P.Xie, gishdiffusioneffect,andcocktaileffect.[7] Thehigh-entropyef-
+Z.Wei,S.Zhao fect is characterized by the observation that the entropy of the
+GuangxiKeyLaboratoryofPetrochemicalResourceProcessingand hybridconfigurationincreasesproportionallywiththenumberof
+ProcessIntensificationTechnologyandSchoolofChemistryand
+alloyingcomponents.[8]Thegreatertheentropyofthemixedcon-
+ChemicalEngineering
+GuangxiUniversity figuration,themoresignificanttheimpactontheformationof
+Nanning530004,China thealloyphasebecomes.[9,10]Themixingentropy(S )exhibits
+mix
+E-mail:chenbo@gxu.edu.cn;pxie@gxu.edu.cn;zengxiwei@gxu.edu.cn a notableincrease asan equal-atomic ratioalloy system with n
+S.Zhao elements transitions from a pure metal to a randomly mixed
+StateKeyLaboratoryofFeaturedMetalMaterialsandLife-cycleSafetyfor phase state.[11] As an illustration, the mixing entropy of a five-
+CompositeStructures
+memberalloy,measuring1.61R,surpassesthatofalow-entropy
+GuangxiUniversity
+Nanning53004,China alloy(0.69R)andevensurpassestheentropyofmeltingobserved
+inmostconventionalmetalalloys(1R).[12] Atagivenpressure,
+TheORCIDidentificationnumber(s)fortheauthor(s)ofthisarticle
+a five-membered alloy system theoretically has six equilibrium
+canbefoundunderhttps://doi.org/10.1002/admi.202301020
+phasesaccordingtotheGibbsphaserule.However,inpractice,
+©2024TheAuthors.AdvancedMaterialsInterfacespublishedby
+thefive-memberedalloysystemoftenformsastablesinglesolid
+Wiley-VCHGmbH.Thisisanopenaccessarticleunderthetermsofthe
+CreativeCommonsAttributionLicense,whichpermitsuse,distribution solutionphase,whichissignificantlyfewerinnumberthanwhat
+andreproductioninanymedium,providedtheoriginalworkisproperly is predicted by the Gibbs phase rule. Therefore, the high en-
+cited. tropyeffectprovidesanexplanationforthediscrepancybetween
+DOI:10.1002/admi.202301020 theactualnumberofphasesformedinhigh-entropyalloysand
+Adv.Mater.Interfaces2024,11,2301020 2301020(1of26) ©2024TheAuthors.AdvancedMaterialsInterfacespublishedbyWiley-VCHGmbH
+
+www.advancedsciencenews.com www.advmatinterfaces.de
+thehighernumberpredictedbytheoreticalcalculations.[10]More- ticepotentialenergyactasatomtraps,impedingatomdiffusion.
+over,thehighmixingentropyplaysacrucialroleinreducingthe Therefore,whenanatomtransitionstoalow-potentialstate,the
+free energy of the alloy and enhancing its stability. This is pri- probabilityofitescapingfromthatstateisconsiderablyreduced.
+marilyduetothefactthatahighmixingentropypromotesthe Ontheotherhand,ifanatommovestoahighpotentialstate,itis
+formationofrandomsolidsolutions.Whenthemixingentropy morelikelytoreturntoitsoriginalposition.Thisisbecausethe
+ofanalloysurpassesthemixingenthalpy,itfavorsthedevelop- energy barrier and activation energy for diffusion increase un-
+mentofhigh-entropysolidsolutionalloys.Thesealloystendto dersuchconditions.Asaresult,bothscenariosdescribedabove-
+adopt simple crystal structures such as face-centered cubic or atomstrappedinlowpotentialstatesandatomsfacinghighen-
+body-centered cubic, comprising multiple major elements in a ergy barriers-contribute to hindering atomic diffusion and im-
+randomarrangement.Thehighmixingentropyinthealloysig- peding particle coarsening.[17] Low-energy sites exhibit consid-
+nificantlyenhancesthedegreeofmixing.Thisleadstoarandom erably longer occupation times, ≈1.73 times longer than high-
+distributionofmetalatomswithinlatticepositions,reducingthe energysites,owingtothesubstantialenergydifferencesbetween
+likelihoodofatomicorderingandsegregation.Consequently,the them.[20] The sluggish diffusion effect during the solidification
+alloysystemexhibitsimprovedstabilityandareducedpropensity processresultsinlownucleationandgrowthrates,leadingtothe
+forphaseseparationortheformationofdetrimentalintermetal- formationofultrafinecrystalsorevenamorphousphases.[14]Fur-
+liccompounds.[13] thermore, the sluggish diffusion effect causes supersaturation
+In high-entropy alloys, the random occupation of different andpromotesfineprecipitation,resultinginanelevatedrecrys-
+elements within the lattice matrix, characterized by variations tallizationtemperatureandreducedgraincoarsening.Thesead-
+inatomicsizes,bondconfigurations,andlatticepotentials,can vantagesfacilitatebettercontroloverthemicrostructure,thereby
+lead to significant lattice distortion influenced by atomic size, influencingthecatalyticpropertiesofthematerial.
+chemicalbonding,andelectrondistributionbetweenconstituent Thecocktaileffect,initiallyproposedbyRanganathan[21]arises
+elements.[14] The imbalance in atomic positions within the lat- fromthefundamentalcharacteristicsoftheconstituentelements
+ticeduetorandomdistributionresultsinpronouncedlatticedis- andtheirinteractions.Thisphenomenonconsiderstheimpact
+tortions,aslargeratomsdisplaceneighboringatomstooccupy ofmultipleprimaryelementsonthemacroscopicpropertiesof
+more space, while smaller atoms fill in the remaining spaces. an alloy at the atomic scale. Essentially, the microscopic prop-
+Thisleadstocompressivestrainscausedbylargeratomsandten- ertiesoftheprincipalelementsinanalloyaredirectlyreflected
+sile strains caused by smaller atoms within the lattice.[15] As a inthemacroscopicpropertiesofthealloy,encompassingawide
+result,theelevationinfreeenergycausedbylatticedistortions range of characteristics such as density, strength, oxidation re-
+leadstodecreasedstability,therebyinfluencingawiderangeof sistance,andcorrosionresistance.[22,23]Theoverallpropertiesof
+physicalandchemicalpropertiesexhibitedbythelattice.[16]The analloydependonvariousfactors,includingtheshape,distribu-
+bondingenergybetweenatomsisanadditionalfactorcontribut- tion,andboundariesofthephasespresent,aswellasthecollec-
+ingtolatticedistortion,wherestrongerbondsresultinsmaller tivecontributionofeachphasetothematerial’sproperties.These
+bonddistancescomparedtoweakerbonds.Consequently,ifthe propertiesarenotsolelydeterminedbytheindividualcharacteris-
+natureandstructureoftheprincipalelementsdiffersignificantly, ticsoftheconstituentelementsaccordingtothemixingrule,but
+the material system may not sustain its original stable lattice, alsobytheinteractionsbetweentheseelements.Thissynergis-
+leading to collapse and the formation of an amorphous struc- ticeffectisprominentlyobservedinthethermoelectricresponse,
+ture.Furthermore,latticedistortioninducesatomic-scalefluctu- mechanicalproperties,andmagneticpropertiesofalloys.[24]Sci-
+ationsinresidualstrain,whichcanresultintheshiftingofthe entistswidelyacknowledgethatthecocktaileffectinHEAsisa
+center of the d-band in the alloy. This, in turn, influences the complexsynergisticmechanismthatcontributestotheirexcep-
+adsorptionpatternsandcatalyticselectivityofintermediates.[17] tional catalytic properties. By incorporating highly active metal
+Upuntilnow,theprofoundlatticedistortionspresentinHEAs components,suchasnoblemetalsortransitionmetals,intoal-
+havebeendirectlyobservedthroughadvancedtechniquessuch loys,thecatalyticactivityissignificantlyenhanced.Thisenhance-
+ashigh-resolutiontransmissionelectronmicroscopy(HRTEM), mentisattributedtothesynergisticmixingofelementsandthe
+X-raydiffraction(XRD),andneutronscattering,providingvalu- abilitytoeasilyadjusttheelectronicandgeometricstructure,all
+ableinsightsintotheirstructuralcharacteristics.[18,19] ofwhichareattributedtothe“cocktail”effectinhigh-entropyal-
+Inphasetransitionsgovernedbydiffusion,theformationof loys.Itisworthhighlightingthatthemechanismunderlyingthe
+new phases usually requires the coordinated diffusion of ele- multicomponentsynergyinHEAsisstillnotfullyunderstood.
+ments to achieve an equilibrium distribution of phases.[17] In Further investigation is needed to explore potential synergistic
+solid solutions with high concentrations of multiple elements, mechanismsfromtheperspectivesoflatticedistancesandelec-
+thediffusionofatomsbecomesmorechallenging,primarilydue trondistributions.[17]
+tofluctuationsinthebondingenvironmentwithinthelattice.[20] Inrecentyears,HEAshavefoundextensiveapplicationsinvar-
+TheprincipalelementsinHEAscanbeconsideredasbothso- iouscatalyticreactions,encompassingprocessessuchasoxygen
+luteandsolventatoms,leadingtoincreasedresistanceandde- reductionreaction(ORR),oxygenevolutionreaction(OER),car-
+creasedrateofatomicdiffusion.Thishindersphaseseparation, bondioxidereductionreaction(CO RR),hydrogenevolutionre- 2
+aswellastheformationandgrowthofnewphases,resultingin action (HER), and so on.[25–28] Particularly in HERs, the HEAs
+thesluggishdiffusioneffectonthekineticsofHEAs.[17] Conse- demonstratedoutstandingcatalyticactivity.Moreover,HEAsen-
+quently,eachsiteinthelatticepossessesadistinctlocalenergy ableefficientandstablehydrogenproductionevenathighcur-
+attributedtovariouslocalatomicconfigurationsandtheircorre- rent densities. The distinctive physicochemical properties of
+spondingbondingcharacteristics.Numeroussiteswithlowlat- HEAs hold the potential for them to become star materials in
+Adv.Mater.Interfaces2024,11,2301020 2301020(2of26) ©2024TheAuthors.AdvancedMaterialsInterfacespublishedbyWiley-VCHGmbH
+21967350,
+2024,
+14,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/admi.202301020
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.advmatinterfaces.de
+Figure1. MethodsforsynthesisofHEAs.
+HER.WhiletherehavebeenrelevantreviewsontheuseofHEAs solidification,lasercladding,andthermalsprayingforcoatingap-
+inthefieldoftheHER,acomprehensivereviewisstilllacking. plications.Themeltingandcastingmethodistypicallyconducted
+Severalcrucialquestionsremainunaddressed.Forexample,how inambientair,makingitsusceptibletometalelementoxidation
+toidentifythereactionsitesofHEAscatalysts, whythesecata- andtheintroductionofimpurities,thuspresentingcertainlimi-
+lystscanmaintainhighstabilityevenathighcurrentdensities, tations.Incontrast,vacuumarcmeltingboastsrapidpreparation,
+andhowtoanalyzethestructure-activityrelationshipsofHEAs minimalalloyloss,andareducedriskofintroducingimpurities,
+withcomplexelementalcompositionsandsites.Therefore,this makingitawidelyfavoredtechniqueforsynthesizingHEAs.[29]
+reviewwillthoroughlyexplorethesequestions,offeringpotential TheprocessforproducingHEAsviavacuumarcmeltingfollows
+solutionsandconclusions.Throughthisreview,weaspiretoof- thesesteps:1)choosetheappropriateelementalcomponentsto
+ferfreshperspectivesandmethodsforthedesignandutilization achieve the desired HEA composition, 2) prepare consumable
+ofHEAsinthecontextofHER. metalelectrodesusingtheselectedelements,3)establishavac-
+uumchamberoracontrolledatmosphereenvironment,4)cre-
+ateanelectricarcbetweentheconsumablemetalelectrodeanda
+2.MethodsforSynthesisofHEAs
+water-cooledcoppercrucible,5)high-temperaturearcmeltsand
+vaporizestheelectrode,6)vaporizedmetalcondensesandsolid- In various fields, researchers have devised numerous synthe-
+ifiesonawater-cooledcoppercollector,formingtheHEAs.
+sisstrategiesforHEAs,generallycategorizedintothefollowing
+Yang et al.[30] successfully pioneered the synthesis of mainroutes:solid-,liquid-,gas-phase,electrochemical,andother
+nanoporous Cu–Au–Pt–Pd quasi-HEA microspheres by em-
+approaches,ascanbeseeninFigure1.
+ploying a novel approach that combines melt spinning and
+dealloying. As depicted in Figure 2a, this method primarily
+2.1.Liquid-PhaseMethodsforSynthesisofHEAs accomplishesthecontrollablepreparationofnanoporousquasi-
+HEAthroughthreesteps.Initially,metalingots(Cu Au Pt Pd )
+97 1 1 1
+Liquid-phase methods are often employed to fabricate HEAs, were obtained through the vacuum melting method.
+such as vacuum arc melting, conventional melting, directional Subsequently, the metal ingots were transformed into metal
+Adv.Mater.Interfaces2024,11,2301020 2301020(3of26) ©2024TheAuthors.AdvancedMaterialsInterfacespublishedbyWiley-VCHGmbH
+21967350,
+2024,
+14,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/admi.202301020
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.advmatinterfaces.de
+Figure2. a)Synthesisofnanoporousquasi-HEAmicrospheres.Reproducedwithpermission.[30]Copyright2004,ElsevierLtd.b)Thesynthesismethod
+consistsofthefollowingstages:followingultrashort-pulselaserirradiationofbulkHEAs,bulkatomization/ionizationtoformaplume,followedby
+nucleationandcondensationoftheablativesubstanceintheliquidvaporphase,andelectrostaticstabilizationofcolloidalhighentropyalloynanoparti-
+clesinethanol.c)Theprogressivesynthesisofnanoscaleparticlesfromasinglemetal.Fiveindividualmetalmicropowdersweresuccessivelyweighed,
+groundandmixed,pressedintosecondaryparticles,heattreatedparticles,laserablationofmetalsheetsanddepositionofnanoparticlesoncarbon
+black.Reproducedwithpermission.[52]Copyright2019,RoyalChemistrySociety.
+microspheresthroughtheutilizationofthemelt–spinningtech- tabledegreeofversatility.Brifetal.[31]werepioneersinreporting
+nique.Finally,ina2mnitricacidsolution,theexcesscopperwas the fabrication of HEAs using selective laser melting, specifi-
+dissolvedthroughtheprocessofdealloying,ultimatelyresulting cally creating the FeCoCrNi HEA. The findings demonstrated
+in the formation of a quasi-HEA. This method allows for the a substantial improvement in performance when compared
+productionofdiverseporousHEAmaterials,showcasingano- to conventional casting alloys. Similarly, Yu et al.[32] prepared
+Adv.Mater.Interfaces2024,11,2301020 2301020(4of26) ©2024TheAuthors.AdvancedMaterialsInterfacespublishedbyWiley-VCHGmbH
+21967350,
+2024,
+14,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/admi.202301020
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.advmatinterfaces.de
+Al CoCrFeNi and Al CoCrFeNi HEA at an extraction rate of andcoldspraying.[50]Extensivefocusisplacedonevaluatingthe
+0.6 1.2
+150 μm s−1 through arc melting and directional solidification. microstructure,mechanicalcharacteristics,andoxidationprop-
+Upon comparing the microstructure, elemental distribution, ertiesofthesecoatings.Wangetal.[51] innovativelysynthesized
+and compression properties of HEAs produced through these a range of HEA-NPs by fine-tuning the type and proportion of
+twomethods,theresearchersobservedamoreorderlydendrite metalprecursorsthroughtheapplicationofconstrainedauxiliary
+arrangement following directional solidification. Notably, the arc and plasma shock (APS) techniques. Notably, TiNbTaCrMo
+thirddendriteinAl CoCrFeNiHEAbecamemorepronounced, HEA-NPs exhibited distinctive corrosion resistance, establish-
+1.2
+possibly attributed to the lower cooling rate during directional ingitasapromisingcandidatematerialfortheelectrocatalytic
+solidification. HERinnaturalseawater.Thisstudynotonlyintroducesanovel
+Lasercladdingtechnologytypicallyservesasasurfacemodifi- method for crafting refractory HEA-NPs but also significantly
+cationmethodwhereincladdingmaterialsareaddedtothesub- broadensthematerial’spotentialapplications.
+strate’s surface.[33] This process utilizes a high-energy density Laserablationstandsoutasaprominenttechniqueforcraft-
+laser beam for rapid melting, expansion, and solidification, re- ingHEAsthroughliquid-phasesynthesis.Waagetal.[52]demon-
+sultingintheformationofcladdinglayerswithdistinctivephys- strated the synthesis of CoCrFeMnNi HEA colloidal nanoparti-
+ical, chemical, or mechanical properties on the substrate’s sur- cleswithequimolarstoichiometryanddiameterslessthan5nm.
+face.Noteworthyadvantagesincludehighenergydensity,rapid Thiswasachievedbyultrashort-pulselaserablationoffivemetal
+solidification, and fast cooling speeds. Furthermore, laser alloy micropowders in a liquid medium. The synthesis method and
+coatingexhibitsarefinedmicrostructure,excellentmetallurgical underlyingprinciplesareillustratedinFigure2b.Underthein-
+bonding properties, and minimal mixing with the matrix.[34,35] fluenceofultrashort-pulselaserablation,theCoCrFeMnNiHEA
+Hence,itisparticularlywell-suitedforcraftingHEAscoatings. undergoesaseriesofstagestotransitionintocolloidalparticles:
+The element type, process parameters, heat treatment, and ul- plume-cavitationbubble-condense.TheresultingHEAscolloidal
+trasonic assistance play pivotal roles in guaranteeing the qual- NPsexhibitedhighstability,andthepreparationprocesselimi-
+ity of the coating.[36] Laser cladding has the capability to pro- natedtheneedforanyligands.Moreover,theseHEAscolloidal
+duce free-form 3D metal components,[37–39] and has been suc- NPsweresuccessfullyemployedinthebasicOERforheteroge-
+cessfullyappliedinthemanufacturingofdiverseHEAs.[39–43]For neouscatalysis.Inordertoascertaintheindustrialapplicability
+instance,Chenetal.preparedAlxCoFeNiCu HEAonAlSi O ofthismethod,researchersaccomplishedtheconversionofin-
+1−x 3 4
+substrate,observinganincreaseinmaterialhardnesswithrising dividualmetalsintocolloidalparticlesusingtheaforementioned
+aluminumcontent. approach(Figure2c).
+Thermal spraying technology involves utilizing heat from a
+heatsourcetoelevatethecoatingmaterialtoitsmeltingpoint.[44]
+Subsequently,themoltencoatingmaterialisatomizedintofine 2.2.Solid-StateMethodsforSynthesisofHEAs
+particlesbyahigh-speedairflow.Withtheassistanceofexternal
+thrust,thesefineparticlesarepropelledontothesurfaceofthe The preparation of HEAs through powder metallurgy is a cru-
+substrate,creatingamodifiedcoating.Plasmaspraying,apromi- cial method involving two key steps: mechanical ball milling
+nenttechniquewithinthermalspraying,employsanHEAheated (ormechanicalalloying)followedbysubsequentsintering.[53]In
+to a molten or semi-molten state. The molten plasma is then the initial stage of HEAs powder preparation, mechanical ball
+rapidlysprayedontoaselectedmetalsubstrate,resultinginthe millingiscategorizedintolowenergyballmillingandhighen-
+formationofaprotectivelayerwithasmoothsurface. ergy ball milling based on the energy input. Low-energy ball
+In this intricate process, heat is generated either through a milling primarily aims to uniformly mix the original powder,
+combustible gas or an electric arc within a thermal spray gun. whilehighenergyballmillingservesthedualpurposeofreduc-
+ThiscausesthefinelyrefinedHEApowdertoundergomelting ingparticlesizeandformingalloypowderwithananostructure.
+onaspecifiedbase,leadingtotheformationofaspraydeposit. The internal stress in the ball-milled powder can be alleviated
+Asthetargetmaterialgraduallyreachesamoltenstatethrough throughannealingtreatment.Astheproductofballmillingisin
+the application of compressed gas, the controlled-flow acceler- powderform,furthersinteringisnecessarytoobtainaconsoli-
+ated plasma is expelled onto the substrate. Upon impact, the datedsolid.Presently,varioussinteringmethodsareemployed,
+plasmaflattensandshapesthesubstratesurface,creatingirreg- including hot-isostatic-pressing (HIP),[54] vacuum-hot-pressing
+ularlycompatiblesheetsthatintegrateseamlesslywiththepre- (VHP),[55] and spark-plasma-sintering (SPS).[56] Notably, HEAs
+fabricatedsubstratesurface.Thethermalsprayingprocessfacili- producedthroughpowdermetallurgyexhibitsuperiorproperties
+tatestheapplicationofHEAsascoatings,leveragingtheirdistinc- compared to other methods, showcasing minimal component
+tivemicrostructuretoconferexceptionalphysicalandmechan- segregation,astablemicrostructure,andreducedinternalstress.
+ical properties. These properties encompass outstanding resis- Presently, powder metallurgy finds extensive applications in
+tancetowear,corrosion,oxidation,andthermalstabilityevenin various fields such as transportation, machinery, electronics,
+challengingenvironmentalconditions.Thegrowingneedforin- aerospace, weapons, biology, new energy, information, and the
+novativeprotectivecoatingsindemandingengineeringenviron- nuclear industry.[57] Powder metallurgy is favored for its ad-
+mentshasdrivenadvancementsinthedevelopmentofthermal vantages, including low energy consumption, high precision,
+sprayingHEAcoatings.[44]Withinthethermalsprayingdomain, and excellent stability.[58] Notably, the HEAs prepared through
+theAlCoCrFeNiHEA,withanequalproportioncomposition,has powder metallurgy exhibit a uniform composition distribu-
+beenemployedasarawmaterialforvariousprocesses,includ- tion and fine structure, facilitating convenient powder sinter-
+ingplasmaspraying,[45–48] high-velocityoxygenfuel(HVOF),[49] ing processes.[59] The mechanical alloying stands out as a key
+Adv.Mater.Interfaces2024,11,2301020 2301020(5of26) ©2024TheAuthors.AdvancedMaterialsInterfacespublishedbyWiley-VCHGmbH
+21967350,
+2024,
+14,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/admi.202301020
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.advmatinterfaces.de
+advantage within powder metallurgy technology, notably en- beamepitaxy(MBE),atomiclayerdeposition(ALD),pulsedlaser
+hancing the solid solubility of HEAs.[60] This notable benefit deposition(PLD),andothers.[67]
+arisesfromthehigh-energyinternalforcesinvolvedintheme- Inrecentyears,notableadvancementshavebeenreportedin
+chanicalalloyingprocess.[60–62] Unlikeconventionalmechanical thesynthesisofHEAmaterialsusingpulsedlaserdepositionand
+milling, mechanical alloying at the atomic level induces struc- chemicalvapordeposition,resultinginmaterialswithcommend-
+tural changes, such as the disintegration of particle aggregates ableproperties.Thesetechniquesinvolveresistanceheating,arc,
+oralterationsinparticleshapeandsurfacecharacteristics,pro- andionbombardmentsputteringofHEAmaterials.[68,69]Forex-
+viding distinct advantages.[59] Zhao et al.[63] reported the influ- ample,Wangetal.[70]utilizedthemagnetronsputteringmethod
+enceofHEAcontentonthemicrostructureandmechanicalprop- todepositaFeCoNiCuPdfilmwithasingleFCCstructureoncar-
+erties of TiB -HEA ceramics. Under low-temperature sintering bonfibercloth,asdepictedinFigure3c.Inalkalineconditions,
+2
+conditions at 1500 °C, TiB -HEA ceramics with varying initial the newly developed HEA/carbon fiber cloth (CFC) system ex-
+2
+HEA loading rates demonstrated a dense microstructure and hibitedsuperiorHERandOERactivitiescomparedtocommer-
+outstandingmechanicalproperties.Thisunderscoresthesignif- ciallyavailablecatalysts.Kimetal.[73] employedthemagnetron
+icant potential of metal sintering aids in the sintering process sputteringmethodtosuccessfullyproduceTiZrHfNiCuCoHEA
+forhigh-performanceceramics.Furthermore,inastudybyZhao thinfilmswithadjustablethickness.Thekeyparametersinmag-
+etal.,[64] Co CrCuFeMnNiHEApowderwaspreparedusingthe netronsputteringarepower,time,andamountofnitrogengas
+x
+mechanicalalloyingmethod.Theresearchersexploredtheeffect flow (R ). As depicted in the diagram (Figure 3d–f), maintain-
+N
+ofmillingtime,Cocontent,andvacuumannealingonthestruc- ing a constant deposition time (30 mins) and R (0.25), the N
+tureevolution,thermalstability,andmagneticpropertiesofthe thicknessoftheHEAfilmnotablyescalatedfrom87to419nm
+alloy.Notably,aftergrindingfor50h,theCo CrCuFeMnNiHEA withtheprogressiveaugmentationofsputteringpower.Subse-
+0.5
+powder exhibited a predominantly face-centered cubic (FCC) quently,whilekeepingthesputteringpowerconstant,thesput-
+phasewithasmallamountofbody-centeredcubic(BCC)phases, teringtimewasincreased.Theresultsrevealedthatasthesput-
+whereastheotherthreeHEAspowdersconsistedofasingleFCC teringtimeincreased from60to90mins,thethickness ofthe
+phase.ThefindingsrevealthataugmentingCocontentorextend- TiZrHfNiCuCoHEAthinfilmelevatedfrom827(Figure3g)to
+ing pellet forming time contributes to the enhancement of the 1210nm(Figure3h).Moreover,intheabsenceofnitrogengas
+softmagneticpropertiesofHEApowder.Duanetal.[66]demon- (R = 0), the thickness of the thin film increased to 2320 nm
+N
+strated the successful synthesis of flake-structure FeCoNiAlCr (Figure3i).Thisobservationdemonstratestheeffectivecontrol
+x
+HEA containing both BCC and FCC phases using a mechani- ofthethicknessofHEAthinfilmsbymanipulatingthesethree
+calalloyingmethod,asdepictedinFigure3a.Theparticlesize parameters.
+distributionanalysisindicatesthattheincreasedCrelementen-
+hances the likelihood of particles with a larger surface area in
+FeCoNiAlCr alloypowders.Theinsightsgainedfromthisstudy 2.4.ElectrochemicalMethodsforSynthesisofHEAs
+x
+holdsignificantimplicationsfortheexplorationofinnovativeab-
+sorbentmaterialsintherealmofelectromagneticwaveabsorp- Electrochemical methods have gained widespread application
+tion.Similarly,intheworkbyZhangetal.(Figure3b),AlCoCr- in the designing of the HEAs. The electrochemical deposition
+FeNiHEApowdersweresuccessfullysynthesizedthroughhigh- method entails connecting a power supply to the anode and
+energyballmilling.[30]Employingadditionalwetballmillingfur- cathode of an electrolyte, which can be either water-soluble or
+ther optimized the powder size and shape for Electromagnetic organic-soluble, to establish an electrical circuit. This setup in-
+Interference (EMI) applications. The HEAs sample exhibited a duces an electrochemical reaction driven by an electric field.
+maximumtotalshielding(SET)of20dB,surpassingthe8.44dB Througharedoxreaction, ionsprecipitate toformdense, pure
+oftheHEALsample.Thisimprovementwasprimarilyattributed metal,oralloycoatingsonasubstrate,therebyachievingthede-
+tothesurfaceenhancedabsorption(SEA),whichincreasedfrom siredcoating.Thismethodprovesversatileingeneratingmulti-
+6.8dBforHEALto18.0dBforHEAs.Consequently,thesmaller- functionalcoatingsonmaterialsurfaces.Bymeticulouscontrol
+sizedHEAs,preparedthroughwetballmilling,emergesasanap- ofelectrochemicaldepositionprocessparameters,includingcur-
+pealingcandidateformicrowaveshieldingapplications.Sharma rent,solutionpH,depositiontime,temperature,andconcentra-
+etal.[68]hassuccessfullyfabricatednanocrystallineCu–Pballoys, tion, precise management of the chemical composition, thick-
+alongwithCu–Pb–TiB andCu–Pb–cBNnanocompositesusing ness, and structure of the deposited layer can be achieved. Ad- 2
+the SPS. In addition to establishing a correlation between mi- ditionally, the electrochemical deposition of HEA thin films is
+crostructureandproperties,theresearchextensivelydelvedinto a straightforward and rapid process. However, it is essential to
+thetribologicalpropertiesofthesematerials. notethatcontrollingthegrowthrateofcrystalnucleionthesub-
+stratesurfaceposeschallenges,oftenresultinginpredominantly
+polycrystallineoramorphouscompositefilmswithlimitedper-
+2.3.GasPhaseMethodsforSynthesisofHEAs formance.Wangetal.[72]devisedandsynthesizedapolymetallic
+nanotube array (NTA) catalyst consisting of PdNiCoCuFe HEA
+The gas-phase methods for preparing HEAs primarily involve using an efficient template-assisted electrodeposition method,
+techniquessuchasreactivemagnetronsputtering,chemicalva- depicted in Figure 4a. Despite the lower Pd content, the elec-
+por deposition, and the conversion of metal salt precursors trocatalytic activity of the synthesized PdNiCoCuFe alloy NTA
+intoagaseousstate,followedbysolidificationunderspecificat- wasfoundtobesignificantlyenhancedwhencomparedtoboth
+mospheres.Examplesofgas-phase methodsincludemolecular Pd NTA and commercial Pd/C catalysts. The electroreduction
+Adv.Mater.Interfaces2024,11,2301020 2301020(6of26) ©2024TheAuthors.AdvancedMaterialsInterfacespublishedbyWiley-VCHGmbH
+21967350,
+2024,
+14,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/admi.202301020
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.advmatinterfaces.de
+Figure3. a)SchematicofSPSset-up,cut-awayviewofSPSchamberandcross-sectionalviewofthedie.Reproducedwithpermission.[65]Copyright
+2020,ElsevierLtd.b)SchematicdiagramofthesyntheticmechanismoftheplanetaryballmilltoformHEApowders.Reproducedwithpermission.[30]
+Copyright2019,MDPILtd.c)SchematicdiagramofkeystepsofFeCoNiCuPdfilmpreparation.Reproducedwithpermission.[70]Copyright2022,Elsevier
+Ltd.Withthegradualincreaseofsputteringability,thethicknessoftheHEAfilmincreasedsignificantlyfromd)87toe)323nmandthentof)419nm.
+Asthesputteringtimeincreases,thethicknessoftheTiZrHfNiCuCoHEAfilmincreasesfromg)827toh)1210nm.Intheabsenceofnitrogen(R =
+N
+0),thethicknessofthefilmincreasestoi)2320nm.Reproducedwithpermission.Reproducedwithpermission.[71]Copyright2019,ElsevierLtd.
+ofmetaloxidesinhigh-temperaturemoltensaltsservesasadi- et al.[79] utilized a stable Ni Fe Cu inert oxygen evolution an-
+11 10
+rect method for the preparation of metals or alloys.[73–75] Elec- odetoelectrolyzemetaloxidesinaNa CO –K CO moltensolu-
+2 3 2 3
+trochemical methods have been employed for the synthesis of tion.ThesynthesisprinciplewasillustratedinFigure4b,where
+HEAs using oxide precursor systems in fused chlorides, such ahomogeneousFCCphaseFe CoNiCuZn HEAwassuccess-
+0.5 x
+asFeCoNiCrMn,[76]TiNbTaZrHf,[77]andAlCrNbTaTi.[78]Huang fully prepared. The use of oxide precursors and low synthesis
+Adv.Mater.Interfaces2024,11,2301020 2301020(7of26) ©2024TheAuthors.AdvancedMaterialsInterfacespublishedbyWiley-VCHGmbH
+21967350,
+2024,
+14,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/admi.202301020
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.advmatinterfaces.de
+Figure4. a)PreparationmethodofPdNiCoCuFealloyNTAs.Reproducedwithpermission.[72]Copyright2014,ElsevierLtd.b)Schematicdiagramof
+Fe CoNiCuZn HEAspreparedbymoltensaltelectrolysis.Reproducedwithpermission.[79]Copyright2021,ElsevierLtd.c)Thecurrenttransientofa
+0.5 x
+singlenanodropletcollidesonacarbonfiberwithabiasof−0.4VrelativetoAg/AgClandrepresentationofnanodropletcollisionevents,highlighting
+therapidformationofNPatthewater/substrateinterfaceandthechargebalanceguaranteedbyTBAtransferattheoil/waterinterface.d)Correlation
+ICP-MSandEDXresultsofCo Ni ,Co Ni ,andCo Ni MG-NPsdemonstratetheprecisecontrolofNPstoichiometry.e)Confirmationof
+0.5 0.5 0.25 0.75 0.75 0.25
+amorphousmicrostructurebythelackofcrystallinityathighresolutionandthepresenceofdispersionringsontheSAEDmap.f)Electrodepositionof
+alloyfilmsbyaqueoussolutionsofequimolarmetalsaltprecursors,showingphaseandstoichiometricinhomogeneity.g)Evaluationofelectrocatalytic
+performanceofCoFeLaNiPtHEMG-NPelectrocatalyst.Reproducedwithpermission.[86]Copyright2019,SpringerNature.
+temperatureisadvantageousfortheefficientpreparationofHEA Electrodeoxidationisarelativelynovelmetallurgicaltechnique
+containing zinc and other highly volatile elements, offering a employed for the direct extraction of metals and alloys from
+straightforward and environmentally friendly method for the solidoxides.[74,80,81] Generalmetaloxideisusedasthecathode,
+preparationofhighlyvolatileHEAs.Byregulatingthestructure graphiteastheanode,andmoltenCaCl saltastheelectrolyte.
+2
+and composition of HEAs, the OER activity can be effectively Inthisprocess,atypicalsetupinvolvesutilizingageneralmetal
+modulated. oxide as the cathode, graphite as the anode, and molten CaCl
+2
+Adv.Mater.Interfaces2024,11,2301020 2301020(8of26) ©2024TheAuthors.AdvancedMaterialsInterfacespublishedbyWiley-VCHGmbH
+21967350,
+2024,
+14,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/admi.202301020
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.advmatinterfaces.de
+salt as the electrolyte. The cathode polarization potential is ad- electricalpulseparameters,itisalsopossibletoproducephase
+equate to expel oxide ions from the oxide into the molten salt, separation nanoparticles by reducing the cooling rate. The ver-
+while avoiding the electrolytic molten salt. The oxide ions are satilecapabilitiesofCTStechnologyopenupextensiveopportu-
+transported through the electrolyte, and they are expelled and nities for the synthesis of alloys and nanocrystals, showcasing
+removedattheanode as carbonoxides.[82–84] Sureetal.[85] pio- substantialpotentialforawiderangeofapplications.
+neeredthesynthesisofHEAsthroughelectrochemicalreduction Xu et al.[90] synthesized HEA nanoparticles using electric
+in molten salts. They achieved it by subjecting premixed solid pulses,asillustratedinFigure6a.Thismethoddemonstratedthe
+metaloxidestocathodicpolarizationinamoltenCaCl saltelec- capabilityofuniformlydepositingHEAnanoparticlesoncarbon
+2
+trolyteat1173K.Thisinnovativeapproachresultedinthepro- nanofibers(CNF)andexploredthevariationinHEAnanoparti-
+ductionofisoatomicrefractoryalloys,specificallyTiNbTaZrand cle growth with the direction of CTS current. By means of the
+TiNbTaZrHf,inasingle-stepalloyingprocess.Importantly,this CTSmethod,FeNiCoMnMgnanoparticlesof≈30nmandFeNi-
+study serves as a crucial link between the concepts of molten CoMuCunanoparticlesof≈50nmwereobtained.
+salt electrodeoxidation and the synthesis of HEAs, offering a Microwave heating, recognized as an effective method to
+bridge between these two metallurgical methodologies. Glass- induce heat energy, has found applications in the synthesis
+cott et al.[86] implemented a novel approach by confining the of various materials, including organic carbon materials,[91]
+metal salt precursor within a suspended water nanodroplet of high-quality carbon materials,[92–98] and carbon-carrying
+dichloroethane(DCE).Thisinnovativemethodallowsfortheiso- nanomaterials.[99–106] Qiaoetal.[107] utilizedmicrowaveheating
+lationofaspecificnumberofprecursorsaltmoleculesduringlo- tosynthesizeHEAnanoparticles,asdepictedinFigure6b.They
+calnucleationandgrowthwhenthenanodropletcollideswiththe employedapartiallyreducedgrapheneoxide(rGO-570)filmin
+conductor.[87,88]Inthismethod,knownasnanodroplet-mediated argonat≈570Kasasubstrateforthemodel.Thisscalableand
+electrodeposition,theoutcomeoftransferringprecursoratoms straightforward high-temperature synthesis method induced
+tothesubstrateisadroplet/electrodecontactradiusoflessthan bymicrowaveheatingcanbeadaptedtoacontinuouscoilpro-
+10nmatthetimeofnanodropletcollision.Thissetupisutilized cess,asillustratedinFigure6c.Thisadaptabilityallowsforthe
+toobservethereal-timenucleationandgrowthofindividualPt scalable manufacturing of nanomaterials, suitable for various
+NPsonthemicroelectrode.Itwasdeterminedthatmasstransfer applicationssuchascatalysisandenergy.
+withinthenanodroplet,involvingtherapidreductionofchloro- Whilethehigh-temperaturemethodsmentionedaboveareef-
+platinate to Pt0, played an indispensable role in the formation fective for synthesizing HEAs, they come with high demands
+of porous Pt NPs. The stoichiometry and microstructure con- forlaboratoryequipmentandsafetymeasures.Consequently,re-
+trol of NPs in nanodroplet-mediated electrodeposition were il- searchers are actively exploring more environmentally friendly
+lustratedinFigure4c–f,whiletheevaluationofelectrocatalytic and safer synthesis methods. As an example of more environ-
+performancewasdepictedinFigure4d,g. mentallyfriendlysynthesismethods,Wuetal.[108] attemptedto
+obtainextremelysmallmetalnanoparticles.Theyaddedsixtypes
+of metal precursors to a preheated triethylene glycol solution
+2.5.OtherPreparationMethodsforSynthesisofHEAs (TEG)containingpoly(N-vinyl-2-pyrrolidone)(PVP)asaprotec-
+tiveagentat230°C,maintaininganequalmolarratio(≈16.7%)of
+Yao et al.[91] introduced an innovative approach to synthesize mixedwatersolution.Thesimplicityofthiswetchemicalmethod
+HEAsthrougharobustheattreatmentmethod.Intheirpioneer- offers the flexibility to adjust the composition and structure of
+ingwork,theydevelopedatechniqueinvolvingtheblendingof HEAtoaccommodatevariouscomplexreactions.Zhangetal.[109]
+up to eight distinct elements to create single-phase solid solu- synthesized RuFeCoNiCu HEA nanoparticles at low tempera-
+tion nanoparticles. This process includes subjecting metal pre- tures(≤250°C)andatmosphericpressure,applyingittonitro-
+cursors,positionedonanoxygen-containingcarbonsubstrate,to genreductionreaction(NRR).TheRuFeCoNiCu/CPconfigura-
+rapidheatingandcooling.Operatingatascorchingtemperature tionexhibitedremarkableNRRperformanceina0.1mKOHso-
+of≈2000K,withashockdurationof≈55msandrampratesof lution.Thisstudynotonlyintroducesanewmethodforthesyn-
+≈105Ks−1,theysuccessfullyproducedHEAsnanoparticlesin- thesisofHEAsbutalsoextendstheirapplicationtothefieldof
+corporatinguptoeightdifferentmetalelements. NRR,showcasinganovelNRRmechanism.Xuetal.[110]devised
+Thecarbonthermalshock(CTS)synthesisofHEAnanoparti- astraightforwardinsitureductionmethod,employingguanine
+clesonacarbonsupportisillustratedinFigure5a–d.Thepoly- and transition metal nitrate as precursors for the synthesis of
+metallicnanoparticlesproducedthroughCTSsynthesisexhibit NiCeLaFeCoandNiCeLaFeCumesentropicalloy(MEA)nanopar-
+smallsizeandauniformdispersiononthecarboncarrier.The ticlesonnitrogenandoxygenco-dopedcarboncarriers.Thesyn-
+combinationofhightemperatureandthecatalyticactivityofliq- thesis method was depicted in Figure 6d. The resulting FCC
+uidmetalplaysacrucialroleinpromotingrapidparticle“fission” NiCeLaFeCo MEA nanoparticles exhibited a small particle size
+and“fusion.”Thisphenomenonleadstothehomogeneousmix- (≈21.1nm)andamoderatemixingentropy(1.31R).Tobroaden
+ingofvariouselementswithinthenanoparticles.Foradetailed theapplicationofMEAnanoparticles,theresearchersconducted
+explanationofthecatalytic-drivenparticlefission/fusionmecha- toluenecrackingexperimentstoassesstolueneconversionand
+nism,referredtoFigure5e. hydrogen generation. This study presents a simple and viable
+Subsequent to this process, the rapid cooling rate assumes method for the synthesis of functionalized carbon-based poly-
+a crucial role in governing the kinetics of the thermodynamic metallicnanoparticlesanddemonstratestheirexcellentcatalytic
+mixingstate,enablingtheformationofcrystallinesolidsolution performanceintoluenecrackingandhydrogenproduction.Mc-
+nanoparticles,asillustratedinFigure5f.Bymodifyingtheinput Cormick et al.[111] successfully obtained colloidal nanoparticles
+Adv.Mater.Interfaces2024,11,2301020 2301020(9of26) ©2024TheAuthors.AdvancedMaterialsInterfacespublishedbyWiley-VCHGmbH
+21967350,
+2024,
+14,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/admi.202301020
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.advmatinterfaces.de
+Figure5. a)Microscopicimagesoftinyprecursorsaltparticlesonacarbonnanofiber(CNF)carrierbeforethermalshock,andwell-dispersed(PtNi)
+nanoparticlessynthesizedafterCTS.b)Timeevolutionoftemperatureduringsamplepreparationandthermalshockat55ms.c)Diagramsoflow-rate
+andsingle-particleelements,HAADFimages,andcorrespondingatomicdiagramsofbinaryPtNialloys.d)ElementaldiagramofHEA-NPcomposed
+ofeightdifferentelements(Pt,Pd,Ni,Co,Fe,Au,Cu,andSn).e)Descriptionofthecatalyticdrivenparticlefission/fusionmechanismforthesynthesis
+ofuniformlydispersedHEANP.f)Schematiccomparisonofphaseseparationheterostructuressynthesizedbyconventionalslowreductionprocedures
+(slowkinetics)withsolidsolutionHEANP(fastkinetics)synthesizedbytheCTSmethod.Reproducedwithpermission.[89]Copyright2018,American
+AssociationfortheAdvancementofScience.
+of high entropy metal sulfide at low temperatures by introduc- Recognizingthelimitationsoftraditionalsolvothermalmeth-
+ingmulti-ionexchangeasapost-syntheticmodificationstrategy. ods in terms of complex processes and low yields for prepar-
+ThesynthesismethodisdepictedinFigure6e.Thestoichiomet- ing HEAs,[112] researchers are exploring the development of a
+ricratioofdifferentmetalcomponentsinthenanoparticlescan simplerbuthigh-throughputmethodforsynthesizingHEAcata-
+beadjustedbyvaryingtheratioofcationsexchangedinthesolu- lysts.Themetal–organicframework(MOF)derivedmethodhas
+tion.Thecationexchangeprocess,whichleadstotheformation proventobeaneffectiveapproachforproducingbinary/ternary
+of high entropy material, is favorable in terms of both entropy alloy@(N-doped)carboncomposites.Theresultingmaterialsex-
+and enthalpy. It results in an ordered structure through cation hibitahighspecificareaandanadjustablecrystalstructure.[113]
+randomization separation. This method offers a new approach The (N-doped) carbon carrier accompanying the material sig-
+fordesigningandsynthesizingHEM. nificantly improves stability. These polymetallic MOF derived
+Adv.Mater.Interfaces2024,11,2301020 2301020(10of26) ©2024TheAuthors.AdvancedMaterialsInterfacespublishedbyWiley-VCHGmbH
+21967350,
+2024,
+14,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/admi.202301020
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.advmatinterfaces.de
+Figure6. a)SchematicdiagramofHEANPsformationonCNFssubstratebyCTSmethod.Reproducedwithpermission.[90]Copyright2020,Elsevier
+Ltd.b)Schematicdiagramofroll-to-rollprocessforsynthesizingHEANPusingmicrowaveheating.c)SchematicdiagramofHEANPformedon
+rGObymicrowaveheating.Reproducedwithpermission.[107]Copyright2021,RoyalSocietyChemistry.d)SynthesisofNi-richMEAnanoparticleson
+oxygenandnitrogenco-dopedcarboncarrier.Reproducedwithpermission.[110] Copyright2022,ElsevierLtd.e)Highentropywurtzitemetalsulfide
+Zn Co0 Cu In Ga Sformation,themetalsulfidesarecomposedofa(butnotall)Cu+cationexchangeatthesametimeinthegreenpyroxene
+0.25 .22 0.28 0.16 0.11
+Cu S+,Zn2+,Co In3+andGa3+form.Reproducedwithpermission.[111]Copyright2021,AmericanChemistrySociety.
+1.8 2
+materials are considered promising electrocatalysts.[114] Wang However, the synthesis of polymetallic hollow nanoparticles is
+et al.[115] prepared a nano-sized HEA@C electrocatalyst (CoN- currentlylimitedtotwoorthreeelementsduetothechallengesin
+iCuMnAl@C)usingasimpleandscalablemethod,asillustrated controllingmorphologyunderharshalloyingconditions.Wang
+inFigure7a.TheMOFprecursorissynthesizedthroughroom et al.[116] reported the rapid and continuous synthesis of hol-
+temperatureprecipitation,makingitsuitableforpracticalappli- lowHEAnanoparticlesusingthecontinuous“droplettoparticle”
+cations,unliketraditionalsolvothermalmethods.[112] method.Theevolutiondiagramofthedroplettoparticleduring
+InadditiontoMOFderivations,themixingofpolymetallicele- theformationofhollowHEAparticlesisillustratedinFigure7b.
+mentsinhollowstructurednanoparticlesisapromisingstrategy TheformationofthesehollowHEAnanoparticlesisachievedby
+for the synthesis of highly efficient and cost-effective catalysts. thedecompositionofagasfoamingagent,wherealargeamount
+Adv.Mater.Interfaces2024,11,2301020 2301020(11of26) ©2024TheAuthors.AdvancedMaterialsInterfacespublishedbyWiley-VCHGmbH
+21967350,
+2024,
+14,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/admi.202301020
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.advmatinterfaces.de
+Figure7. a)Schematicdiagramofpreparationstepsofelectrocatalyst.Reproducedwithpermission.[115] Copyright2022,ElsevierLtd.b)Schematic
+diagramofdroplettoparticleevolutionduringtheformationofhollowHEAparticles.c)HAADF-STEMimagesandHAADF-EDSelementalimagesof
+asingleHEA-RuIrFeCoNinanoparticle.Reproducedwithpermission.[116] Copyright2020,Wiley-VCH.d)Schematicdiagramofsynthesisprocessof
+HEA@air@NiOandHEA@air@Ni-NiOmicrospheres.Reproducedwithpermission.[118]Copyright2019,ElsevierLtd.
+of gas is generated in situ, “suctioning” droplets during heat- Thehighactivesite/massratioofthishollowHEAnanoparticles
+ing,followedbythedecompositionofmetalsaltprecursorsand makesitaneffectivecandidateforenergyandelectrocatalyticap-
+thenucleation/growthofpolymetallicparticles.Thehigh-angle plications.Thisworkprovidesafeasiblestrategyforthecontinu-
+annular dark-field scanning transmission electron microscopy ousfabricationofhollowHEAnanomaterials,whichcanhavea
+(HAADF-STEM)imageandtheHAADF-EDSelementimageof widerangeofapplicationsinenergyandcatalysis.Taoetal.[117]
+asingleHEA-RuIrFeCoNinanoparticlewereshowninFigure7c. havealsoemployedthetemplatemethodasasynthesisapproach.
+Adv.Mater.Interfaces2024,11,2301020 2301020(12of26) ©2024TheAuthors.AdvancedMaterialsInterfacespublishedbyWiley-VCHGmbH
+21967350,
+2024,
+14,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/admi.202301020
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.advmatinterfaces.de
+They have developed a new general synthesis method to man- scale industrial settings owing to its remarkable stability and
+ufactureultrathin2DHEAsubnanoribbon(SNR)composedof comparativelylowcost.Nevertheless,challengeslikelowcurrent
+uptoeightmetallicelementsbyusingAgnanowire(NW)asa densitiesandoperatingpressureshaveanadverseimpactonthe
+template.TheformationofHEASubnanoribbon(HEA-SNR)has systemsizeandcostofhydrogenproduction.[120,121]PEMEChas
+beendemonstratedthrough1)thenucleationofdifferentmetal gainedrecognitionamongresearchersandisprimarilyusedfor
+atoms via electrical exchange reactions between various metal small-scaleapplications.ItoutperformsAECintermsofhigher
+precursorsandAgnanowiretemplates,2)co-reductionofdiffer- currentdensityandcellefficiency.PEMECalsooffersadvantages
+entmetalprecursorsonthenanowiretemplates,and3)removal suchasfastresponsetimesandawiderrangeofpowerrequire-
+ofinternalAgnuclei.Similarly,utilizingatwo-stephydrothermal ments for operation. However, the use of noble metal catalysts
+methodfollowedbycalcination,Wuetal.[118]successfullysynthe- likeIrandPt,alongwiththeirlimitedlifespan,hashinderedits
+sizedHEA@air@NiOandHEA@air@Ni-NiOcore–shellmicro- broaderapplication.TheprincipleofoperationforaSOECcan
+spheres.Theschematicdiagramofthesynthesisprocessisillus- beconsideredasthereverseofaSolidOxideFuelCell(SOFC).
+tratedinFigure7d.Thismarksthefirstreportonpreparingcore– Bothdevicesconsistofadenseelectrolytelayersandwichedbe-
+shellmicro/nanostructuresfromHEAstoachieverobustelec- tweentwoporouselectrodes.Thisdesignallowsthesamedevice
+tromagneticabsorptionproperties.TheHEAcorecontributesto tofunctionasbothanSOFCandanSOECconcurrently,leading
+magneticloss,whilethenickeloxidehousingprovidesdielectric totheterm“solidoxidecell”(SOC).[122]
+lossesandimprovesimpedancematching.Thisrationaldesign HER as a half-reaction of water in cathodic electrolysis
+allowspureHEAmicrosphereswithalmostnoelectromagnetic (Figure 8a). Efficiency in the HER relies heavily on the choice
+waveabsorptionabilitytoattainexcellentelectromagneticwave ofappropriatecatalystsandelectrolytes.Duetotheirexceptional
+absorptioncapability. protontransferefficiency,acidicelectrolytesareextensivelyem-
+Insummary,theremarkablepropertiesofHEAsmakethem ployedintheHERprocess.However,inanacidicelectrolyteen-
+an intriguing subject for comprehensive investigation by re- vironment, the requirement for costly Pt-group catalysts leads
+searchers. Alongside the synthesis methods discussed earlier, to substantial production expenses. Furthermore, the reaction
+numerousalternativeapproachesarecurrentlyindevelopment, vessel necessitates the use of an acidic proton exchange mem-
+eachwithitsownsetofadvantagesandlimitations(Table1).The brane (Figure 8b,c). Additionally, it is worth noting that acidic
+keytosuccessfulHEAspreparationliesinthecarefulselection electrolytesexhibitanotablystrongcorrosivenature.Acidicelec-
+andrefinementoftheappropriatemethod,consideringthespe- trolytes not only tend to corrode the electrolysis cell easily but
+cific elements, the desired alloy performance, and the environ- alsoresultinthereleaseofacidicgases,whichcancontaminate
+mentalconditions.Presently,HEAsresearchisinfullswing,and theproducedhydrogengas.Employingnon-preciousmetalcat-
+aspreparationmethodsforHEAscontinuetoimproveandtech- alystsinalkalineelectrolytescansubstantiallyslashproduction
+nologicaladvancementsoccur,theapplicationofthisinnovative expenses. Alkaline electrolytes can effectively enhance system
+alloyisexpectedtobecomeevenmorewidespread. stability.Regrettably,theslowkineticprocessesinalkalineelec-
+trolytesposeasignificantlimitationtotheirreactionefficiency.
+3.HydrogenEvolutionReactionsandMechanisms Researchfindingsdemonstratethatthereactionkineticsinacidic
+electrolytesareelevatedby2–3ordersofmagnitudecomparedto
+Hydrogen(H )energyboastsaremarkablemass–energydensity alkaline electrolytes. Hence, significant research endeavors are
+2
+of 120–142 MJ kg−1, alongside high conversion efficiency, zero directed toward the development of highly efficient and stable
+carbonemission,andanontoxic,harmlessnature.Startingfrom electrocatalystsfortheeffectiveproductionofhydrogeninacidic
+1820,hydrogenenergyhasprogressivelyshifteditsfocusfrom electrolytes.[123,124]
+aviationpropulsiontoground-basedapplications.Itemergesas In general, HER is a chemical process involving two elec-
+a crucial path in the global shift toward sustainable energy de- trons.However,whentheelectrolytevariesatdifferentpHval-
+velopment.TheproductiontechnologyofH standsasacrucial ues,theelectrodereactionprocessesalsobecomemorecomplex.
+2
+direction for the widespread application of hydrogen energy. It AsshowninFigure8d(left),thereactionstepsprimarilyinvolve
+encompasses primarily hydrogen generation from fossil fuels, two pathways in acidic electrolyte. In general, the initial step
+electrolysis,industrialby-producthydrogen,andhydrogenpro- oftheHER,referredtoastheVolmerreaction,entailsprotons
+duction from renewable energy sources, among others. Up to intheelectrolyteacquiringelectronsfromtheelectrodesurface
+thispoint,morethan95%(≈105milliontons)ofglobalannual to form adsorbates (H ). Furthermore, protons in acidic elec- ads
+hydrogenproductionhasbeenderivedfromfossilfuels.Never- trolytestendtoexistintheformofH O+.TheH O+ facilitates
+3 3
+theless,thisproductionmethod,reliantonfossilfuels,notonly thecouplingofelectronstoformH ,whileconcurrentlyreleas- ads
+exhibits low efficiency but also gives rise to substantial carbon ingH O.Thenextstepinthehydrogenationprocessprimarily 2
+dioxide (CO ) emissions. Utilizing renewable energy for water involvestwopathways.Whenthecoverageofadsorbedhydrogen
+2
+electrolysis(electrochemicalwatersplitting),characterizedbyits islow,theadsorbedhydrogencombineswithprotonsintheelec-
+cleanliness,eco-friendliness,andhighefficiency,standsasavital trolytetogenerateH (Heyrovskyreaction).Conversely,twoad-
+2
+pathwayforfuturehydrogenproductiontechnology. jacentadsorbedHatomsismorelikelytocombineandproduce
+Currently, there are three primary technologies employed in H athighcoverageofadsorbedhydrogen(Tafelreaction).
+2
+the field of water electrolysis: alkaline electrolysis cells (AEC), Unlikeacidicelectrolytes,wateristheprimaryreactantinal-
+protonexchangemembraneelectrolysiscells(PEMEC),andsolid kalineorneutralelectrolytes(Figure8d,right).IntheVolmerre-
+oxide electrolysis cells (SOEC).[119] AEC, being the most preva- action,theinitialstepoftheHERinvolvesthebreakdownofwa-
+lentelectrolysistechnology,findswidespreadapplicationinlarge- termoleculestogenerateadsorbedhydrogen.Afteradsorption,
+Adv.Mater.Interfaces2024,11,2301020 2301020(13of26) ©2024TheAuthors.AdvancedMaterialsInterfacespublishedbyWiley-VCHGmbH
+21967350,
+2024,
+14,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/admi.202301020
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.advmatinterfaces.de
+Table1.SummaryoftheprosandconsforHEAssynthesismethods.
+Classificationofsynthesismethods Synthesismethod Advantages Disadvantages
+Liquid-phasesynthesis Vacuumarcmeltingmethod 1) Preparationspeed; 1) Notapplicabletolow;
+2) Highyield; 2) Meltingpointelements;
+3) Lessimpurities 3) Highenergyconsumption
+Meltingcastingmethod 1) Simpleprocess 1) Elementsareeasilyoxidized;
+2) Easilyintroduceimpurities;
+3) Highenergyconsumption
+Directionalcoagulationmethod 1) Controlledworkpieceshape; 1) Largematerialsize;
+2) Highyield 2) Lowcoolingrate
+Lasercladdingmethod 1) Widerangeofpreparations; 1) Highenergyconsumption
+2) Highyield;
+3) Fastreactionspeed
+Cold(hot)spraying 1) Simpleprocess 1) Highenergyconsumption
+Solid-phasesynthesis Mechanicalalloying 1) Stabilizedproductmix; 1) Longballmillingtime;
+2) Simpleprocess; 2) Fullofimpurities;
+3) Highyield 3) Unevenmaterialdimensions;
+4) Lowproductpurity
+Powdermetallurgy 1) Lowenergyconsumption; 1) Productsaresusceptibletocontami-
+2) Stabilizedproductmix; nation;
+3) Simpleprocess 2) Lowproductpurity
+Gas-phasesynthesis Magnetronsputtering 1) Lowsubstratetemperature 1) Narrowpreparationrange
+2) Highfilm-formingrate 2) Lowtargetutilization
+3) Uniformcoating 3) Productinstability
+Chemicalvaporphaseprecipitation 1) Simpleprocess; 1) Productinstability;
+Molecularbeamepitaxy 2) Controlled product morphol-2) Productsaresusceptibletocontami-
+ogy; nation;
+Atomiclayerprecipitation
+3) Smallmaterialdimensions 3) Highequipmentrequirements
+Lasermetalprecipitation
+Pulsedlaserdeposition
+Plasmaimpact
+Electrochemicalmethod Electrodeposition Electrochemicaldeposition 1) Simpleprocess; 1) Productsaremostlyamorphous;
+Nanodroplet-mediated 2) Controlled material morphol-2) Unstablematerialstructure
+electrodeposition ogy;
+3) Lowenergyconsumption
+Template-assisted
+electrodeposition
+Electrodeoxidationsynthesis 1) Lowenergyconsumption 1) Narrowreactionrange
+Moltensaltelectrolysis / /
+Othermethods Extremelyhightemperature Carbonthermalshock 1) Fastpreparation; 1) Highequipmentrequirements;
+synthesis method 2) Widerangeofpreparations; 2) Highenergyconsumption
+Fastmovingbedpyrolysis 3) Uniformityofmaterial
+Wetchemicalmethod Solvothermal
+1) Simpleprocess; 1) Unevenmaterialsizes;
+Templatemethod 2) Smallmaterialsize; 2) Lowyield;
+Impregnationadsorption 3) Controlledmaterialsize; 3) Onlyforsmallsizematerials
+method 4) Mildreactionconditions;
+Aerosoldroplet-mediated 5) Highlyreproducibleresponse;
+method 6) Lowenergy
+Hydrothermal
+hydrogencombineswithahydrogenatomfromawatermolecule ableconditionforhydrogendesorption,makingitakeycriterion
+to produce H . In another scenario, two adjacent adsorbed hy- intheassessmentofcatalystactivity.Uptothispoint,Pt-based 2
+drogenatomscoupletogenerateH .Itisworthnotingthatin metals(e.g.,Pt,Ru,Ru,Ir,andPd)remaintheoptimalcatalysts
+2
+alkalineelectrolytes,theadsorptionanddesorptionofhydroxide forfacilitatinghydrogenproduction.However,despitetheirre-
+groups(OH−)arefrequentlyinvolved.Inparticular,thecompet- markablecatalyticactivity,thesepreciousmetalsencountersta-
+itiveadsorptionbetweenOH− andwatermoleculesgreatlycon- bility challenges that hinder the achievement of sustained and
+strainsthedissociationprocessofwater. reliable hydrogen production. Hence, an extensive body of re-
+Whentheadsorptionfreeenergyofhydrogenapproacheszero search has been undertaken to improve catalyst stability, em-
+(∆G = 0 eV), it indicates the thermodynamically most favor- ployingtechniquessuchasalloying,encapsulation,andsubstrate
+*H
+Adv.Mater.Interfaces2024,11,2301020 2301020(14of26) ©2024TheAuthors.AdvancedMaterialsInterfacespublishedbyWiley-VCHGmbH
+21967350,
+2024,
+14,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/admi.202301020
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.advmatinterfaces.de
+Figure8. a)Schemeofconventionalwaterelectrolyzers.Reproducedwithpermission.[125]Copyright2018,AmericanChemicalSociety.b)Electrolyzer
+setupwithAEM,CEMandmiddlebufferchamber.Reproducedwithpermission.[126]Copyright2017,Wiley-VCH.c)Overallwaterelectrolysisbasedon
+bifunctionalnonpreciouselectrocatalysts(orpre-catalysts).Reproducedwithpermission.[127]Copyright2022,RoyalSocietyofChemistry.d)Schematic
+illustrationofthehydrogenevolutionreactionmechanisminacidicandalkalinemedia.Reproducedwithpermission.[128]Copyright2022,MDPILtd.
+e)TafelslopeofHERperformance.Reproducedwithpermission.[129]Copyright2022,Wiley-VCH.f)Tafelslopesofvariouselectrodesobtainedfrom
+theLSVpolarizationcurves.Reproducedwithpermission.[130]Copyright2019,ElsevierLtd.g)TafelslopesofHEA-NPs,Ti,Nb,Ta,Cr,andMopowder.
+Reproducedwithpermission.[51]Copyright2022,ElsevierLtd.
+modification.Itiswidelyacknowledgedthatthefollowingfactors wald ripening and particle migration and coalescence. Raising
+playaroleindiminishingcatalyststability.Catalystdetachment themeltingtemperature,whilepreservingactivity,representsa
+fromtheelectrodeisaprimarycauseofactivecomponentloss. crucialresearchdirectioninmitigatingcatalystthermaldeactiva-
+Thedissolutionandsubsequentlossofmetalinacidicsolutions tion.
+canfurthercontributetoareductionincatalyststability.Under InordertoevaluatethecatalyticefficiencyoftheHER,various
+largecurrentdensity,thecatalystlossbecomessignificantlyno- evaluationapproachesarecomprehensivelyreviewed.Basedon
+ticeable.ThepresenceofasubstantialamountofH bubbleson current literature, these parameters mainly encompass overpo-
+2
+thecatalystsurfacenotonlyhinderstheactivityofthecatalyst’s tential(h),Tafelplot(b),electrochemicalimpedancespectroscopy
+activesitesbutalsoleadstocatalysterosion.Itisoftenoverlooked (EIS),Faradaicefficiency(FE),turnoverfrequency(TOF),electro-
+that large current density can result in elevated electrode tem- chemical active surface area (ECSA), mass activity and volcano
+peratures, leading to thermal deactivation of the catalyst. Cata- plot.
+lystthermaldeactivationisacrucialfactorleadingtoadecrease The overpotential (𝜂) can be thought of as the extra electri-
+in catalyst stability and can be categorized into two types: Ost- calpotentialthatpromotesthesmoothprogressoftheHER.It
+Adv.Mater.Interfaces2024,11,2301020 2301020(15of26) ©2024TheAuthors.AdvancedMaterialsInterfacespublishedbyWiley-VCHGmbH
+21967350,
+2024,
+14,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/admi.202301020
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.advmatinterfaces.de
+representsthedifferencebetweentheNernstpotential(EHER) electrolysis)andexperimentallyobserved(gaschromatography)
+andtheactualappliedpotential(E),canbeexpressedas𝜂=E hydrogengeneration.
+HER
+– E. To be more precise, the overpotential arises from the ne- TheTOF,asavitalmetricforevaluatingcatalystactivity,can
+cessitytosurmountasubstantialactivationenergyfortheHER. effectively mitigate discrepancies stemming from diverse vari-
+Linear sweep voltammetry (LSV) measurement is a common ables(e.g.,electrocatalystloadingmass,effectivenumberofac-
+methodemployedfortheanalysisofoverpotentials.Severaldis- tivesites).Costentinetal.[133] firstproposedtoutilizeTOF(i.e.,
+tincthvaluesareutilizedtodifferentiatetheactivityofcatalysts. thenumberofmoleculesreactingpersitepersecond)asameans
+h1(hat1mAcm−2)signifiesthecommencementoftheHERand toevaluatethecatalyticrateoftheHER.Sofar,theTOFhasalso
+isalsocommonlyreferredtoasthe“onsetpotential.”Tobench- beendefinedasthetotalnumberofreactionmoleculesconverted
+mark against solar water splitting devices with an efficiency of tothetargetproductperunitoftimeateachcatalyticsite,defined
+12.3%,h10(hat10mAcm−2)isfrequentlyutilizedforcompar- asTOF=jA/4nF.Aistheareaoftheworkingelectrode(W ).
+E
+ingtheactivityofdifferentcatalysts.Consideringitspracticalap- The number of moles of active materials, denoted as n, is de-
+plicationsinproduction,h1000(hat1000mAcm−2)emergesas terminedthroughtheutilizationoftheelectrochemicallyactive
+acrucialperformanceindicator. surfacearea(ECSA)ofcatalyst.However,itshouldbenotedthat
+TheTafelslope(b)unveilstheinherentactivityoftheHERand notallatomsonthecatalyst’ssurfaceareactivesites,leadingto
+showcasesitsreactionkineticscharacteristics.TheTafelslope(b) potentialerrorsandlimitationsinthismethod.Asaresult,there
+canbederivedthroughfittingoverpotential(𝜂),currentdensity(j) isanongoingneedtodevelopmoreprecisetestingmethodsfor
+andexchangecurrentdensity(j ),withtheequationexpressedas assessingtheTOFofcatalysts. 0
+𝜂=blogj/j +a.Fasterelectron-transferkineticssuggestasmaller Specific activity and mass activity are both parameters em-
+0
+bandhighj .Basedonvariousreactionmechanisms,thebcan ployed in assessing the catalytic activity. The specific activity is
+0
+beclassifiedintothreecategories: thecurrentdensityperunitrealsurfaceareaofthecatalyst,and
+it can be determined by normalizing the current to the ECSA.
+Volmer:b=2.303RT∕𝛼F≈120mVdec−1 (1) Thecurrentnormalizedbytheloadingmassisknownasmass
+activity,whichistypicallyemployedforcomparingmaterialsof
+a similar nature. Hence, when the catalyst possesses a greater
+Heyrovsky:b=2.303RT∕(1+𝛼)F≈40mVdec−1 (2)
+surfacearea,itgenerallydemonstrateshighermassactivity.
+Inrecentyears,thevolcanoplothasbecomeoneofthemain
+Tafel:b=2.303RT∕2F≈30mVdec−1 (3) methods for describing catalyst activity, and it is based on the
+Sabatierprinciple.TheSabatierprincipleembodiestheage-old
+According to the Figure 8e, it is evident that the doctrine of the Golden Mean: the principle of moderation. In
+Pt Fe Ni Cu Mo RuandPtFeNiCuMoHEAshaveastronger thecontextofcatalyticreaction,whenreactantadsorptionistoo
+34 5 20 31 9
+inclination toward hydrogen production through the Tafel pro- strong, it impedes product desorption. Conversely, when reac-
+cess.WhilethePtFeNiCuMoRu-1handPt/Cexhibitedagreater tant adsorption is too weak, it hampers the progression of the
+propensity for hydrogen synthesis through the Heyrovsky pro- reaction. In the HER systems, when the adsorption free en-
+cess. Based on Figure 8f, it is apparent that with the exception ergy of hydrogen approaches zero (∆G = 0 eV), the cata-
+*H
+of Pt rods and Ni foam, which utilize the Tafel and Heyrovsky lyst attains its peak activity. Additionally, when the adsorption
+processes respectively, the majority of catalysts predominantly free energy reaches zero, the HER achieves its highest current
+undergo hydrogen synthesis through the Volmer process. In density.
+Figure 8g, it is evident that apart from TiNbTaCrMo, which
+employstheHeyrovskyprocess,theothercatalystsprimarilyun- 4.ApplicationofHEAsinHER
+dergo hydrogen synthesis through the Volmer process. Hence,
+researchers can deduce the HER pathway based on the Tafel 4.1.Noble-MetalHEAs
+slopevalues.
+The electrochemical impedance spectroscopy (EIS) can pro- Preciousmetal-based(e.g.,Pt,Pd,Ru,Rh,Ir,andAu)HEAmate-
+vide insights into the HER kinetics processes occurring at the rialsnotonlyexhibitexcellentcatalyticactivitybutalsoenhance
+electrode/electrolyte interface. The charge transfer impedance system stability, providing a broad range of research possibili-
+(R )isassociatedwiththechargetransferprocessattheelectrode ties.Thedistinctivegeometricandelectronicstructuraleffectsof ct
+interface,anditcanbedistinguishedbythediameterofthesemi- HEAs offer limitless potentialfor theHER.[132] Pt-basedHEAs
+circleinthehigh-frequencyregion(EISNyquistplots).Research demonstrateoutstandingperformanceintheHER,attractingex-
+suggeststhatasR decreases,therateoftheHERincreases,and tensiveattentionfromresearchers.[108] ct
+theoverpotentialdecreases.Inthelow-frequencyrange,adsorp- Researchers utilized five precious metal elements to fabri-
+tionimpedance(R )playsadominantrole.R representsthe cate HEAs with the goal of maintaining a high density of ac- ad ad
+adsorptionofspeciesontheelectrodesurfaceandisassociated tive sites while simultaneously enhancing stability. As shown
+withtheonsetpotential.Iftheonsetpotentialislower,itindicates inFigure9a–c,thePtPdRuRhAuHEA,synthesizedthroughan
+alowerR . ultrasonically assisted wet-chemical method, has been demon-
+ad
+Thefaradaicefficiency(FE)isanothercrucialparameterused stratedtopossessexceptionalhydrogenproductionperformance
+forevaluatingthehydrogenevolutionactivityofcatalysts.Gen- underalkalineconditions.[133]Atacurrentdensityof30mAcm−2
+erally, inthe context of the HER,FEis defined as the ratiobe- ina1mKOHelectrolyte,thePtPdRuRhAuHEAdemonstrated
+tweenthetheoreticallypredicted(galvanostaticorpotentiostatic an overpotential of only 190 mV, a value markedly lower than
+Adv.Mater.Interfaces2024,11,2301020 2301020(16of26) ©2024TheAuthors.AdvancedMaterialsInterfacespublishedbyWiley-VCHGmbH
+21967350,
+2024,
+14,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/admi.202301020
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.advmatinterfaces.de
+Figure9. a)SchematicillustrationofsynthesisofHEA-NPs/carbon(PtAuPdRhRusupportedonXC-72carbon)catalystsandtheirapplicationinHERs.
+b)HAADFimageandEDSelementalmaps.c)PolarizationcurvesandTafelplotsofHEA-NPs/carbon-700°C,PtAuPdRh/carbon-700°C,PtAuPd/carbon-
+700°C,andcommercialPt/C(Ptloading=20wt.%)catalystsin1.0mKOH.Reproducedwithpermission.[133]Copyright2019,Wiley-VCH.d)HAADF-
+STEMimageoftheas-preparedPGMHEAandthecorrespondingEDXmaps.e)ComparisonoftheEORj valuesofPGM-HEAwiththoseofthe
+specific
+as-synthesizedmonometallicNPsandthecommercialcatalysts.ThearrowsshowthescandirectionsofCVs.Comparisonofthej andj values
+specific mass
+ofPGM-HEAatpotentialsof0.45and0.6VintheforwardscanwiththoseofthemonometalliccatalystsandthereportedAu@PtIr/C,respectively.The
+currentdensitiesofPt/Caremagnifiedtentimesforeasycomparison.ComparisonoftheinitialCVcurveforEORandtheCVcurveafter50cyclesof
+PGM-HEA.Thecurrentisnormalizedbythegeometricareaoftheelectrode.CVcurvesinthepositivescanofPGM-HEAandothermonometallicNPs
+showingdifferentelectrochemicalCOstrippingbehaviors.Thepeakpotentialsaregiven.NotethatthepeaksofRuandOsmightcomefromdissolution
+ratherthanCOstrippingaway.Reproducedwithpermission.[108]Copyright2020,AmericanChemicalSociety.
+that observed in medium-entropy alloy materials (260 mV for synergisticcatalyticmechanismsamongnoblemetalalloys.As
+PtAuPdRh and 600 mV for PtAuPd). Furthermore, at this cur- shownintheFigure9d,e,thePtPdRuRhIrHEAmaterial,synthe-
+rentdensity,thepresenceofmultiplereactionmechanismsfor sizedthroughaone-potpolyolmethod,exhibitsexceptionalsta-
+theHERisindicatedbyaTafelslopeof62mVdec−1.Itisworth bilityandactivityunderbothacidicandalkalineconditions.[108]
+notingthatfurtherresearchisstillneededtofullyunderstandthe Researchers have demonstrated that the PtPdRuRhIr catalyst
+Adv.Mater.Interfaces2024,11,2301020 2301020(17of26) ©2024TheAuthors.AdvancedMaterialsInterfacespublishedbyWiley-VCHGmbH
+21967350,
+2024,
+14,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/admi.202301020
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.advmatinterfaces.de
+Figure10. a).CVcurvesforthequinary(FeCoPtPdIr)HEA-NPs.CdlmeasurementsforthequinaryHEA-NPsinHER.ChronopotentiometryofFeCoPdP-
+tIr@GOatconstant100mAcm−2.b)Electrochemicalperformancecomparisonofsamples.c)ElementalmapsforFeCoPdIrPtsupportedonGO.
+Reproducedwithpermission.[134] Copyright2020,SpringerNature.d)CVcurvesofPt/CandPt Ni Fe Co Cu /C.Peakvaluesofmassactivity 18 26 15 14 27
+andareaactivity.ChronoamperometrictestsforMORat0.65VversusRHE.CVcurvesofthePt Ni Fe Co Cu /Cbeforeandafter1000cycles.
+18 26 15 14 27
+e)ThesideviewofthestructuralconfigurationofHEA.ThesideviewofHEAstructuralconfigurationandtherealspatialcontourplotsforbondingand
+anti-bondingorbitalsnearEF.Andthetopviewoftherealspatialcontourplotsforbondingandanti-bondingorbitalsnearEFfortheHEA.ThePDOSs
+oftheHEA.f)ThecorrespondingelementalmappingofPt Ni Fe Co Cu /Cnanoparticles.g)CVcurves.HERpolarizationcurves(geometrical
+18 26 15 14 27
+area).Ptmassloadingnormalized(massactivity)LSVcurves.ComparisonofareaactivityandmassactivityvaluesforHERat−70mVversusRHE.
+Tafelslope.HERpolarizationcurves(geometricalarea)forPt Ni Fe Co Cu /CwithdifferentCVcycle.Reproducedwithpermission.[135]Copyright
+18 26 15 14 27
+2020,SpringerNature.
+exhibitsasignificantlyhigherTOFcomparedtocommercialPt, AscanbeseenintheFigure10a–c,inanalkalineelectrolyte
+witha9.5-foldincreaseinacidicconditions(0.05mH SO )and (1mKOH),PtPdIrFeCo@GOHEA-NPsdemonstratedanover- 2 4
+a7.8-foldincreaseinalkalineconditions(1.0mKOH).Byana- potentialofjust42mVatacurrentdensityof10mAcm−2.[134]
+lyzingwithhigh-energyX-rayphotoelectronspectroscopy(HAX- TheperformancetestsforvariousindicatorsofHERalsodemon-
+PES),researchershaveunveiledthatthevalencebandspectrum strated exceptional excellence. The ECSA for PtPdIrFeCo@GO
+ofHEAsrevealsadenseelectrondensityofstates,whichprovides reached 1462.5 mA cm−2, indicating the presence of larger ac-
+aguaranteefortheefficientadvancementofHER. tivesitesforefficientHER.ThePtPdIrFeCo@GOboastsanim-
+pressive FE of 99.4%, and it also boasts a modest Tafel slope
+of 82 mV dec−1. Furthermore, the PtPdIrFeCo@GO catalyst
+4.2.Noble-MetalBasedHEAs demonstratedremarkablestability,maintainingitsperformance
+for 150 h at 10 mA cm−2 without any noticeable changes. Re-
+In comparison to elemental composition entirely of precious searchers posit that this is the result of the “cocktail effect”
+metals, HEAs formed with non-precious metals are not only brought about by HEAs. Nevertheless, it’s worth pointing out
+morecost-effectivebutalsoholdgreaterpotentialforvariousap- that the synergistic mechanism of oxidized graphene (GO) is
+plications.Recently,HEAsconsistingofnon-precioustransition notfurtherelaboratedupon.Tofurtherreducethenoblemetal
+metalsinconjunctionwithPthaveseenwidespreaduseinthe content, researchers fabricated a PtNiFeCoCu HEA through a
+HER. straightforward low-temperature oil-phase reduction method,
+Adv.Mater.Interfaces2024,11,2301020 2301020(18of26) ©2024TheAuthors.AdvancedMaterialsInterfacespublishedbyWiley-VCHGmbH
+21967350,
+2024,
+14,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/admi.202301020
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.advmatinterfaces.de
+Figure11. a)ReactionpathwaysofthealkalineHERandOERattheCusitesintheHEANPs.Thed-orbitalPDOSofFe,Co,Ni,Cu,andMnandthetotal
+valueforFeCoNiCuMn.b)STEM-EDXmappingimagesoftheHEANPssupportedonCNFs.c)PolarizationcurvesoftheFeCoNi/CNF,FeCoNiMn/CNF,
+FeCoNiCu/CNF,andFeCoNiCuMnHEA/CNFcatalystsina1mKOHaqueouselectrolytefortheHERandOER.Polarizationcurvesofvariouselectro-
+catalystsina1mKOHaqueouselectrolytefortheHERandOERbasedonthegeometricelectrodesurfaceareaandECSA.Thelong-termHERand
+OERstabilitytestoftheHEA/CNFcatalystatcurrentdensitiesof−170and230mAcm−2underalkalineconditions.OverallwatersplittingLSVcurves
+oftheHEA/CNFs||HEA/CNFandPt/C||IrO electrocatalystsinanalkalineelectrolyte.Comparisonofcurrentdensities(at1.7V)withotherreported
+2
+alkalineelectrolytecatalystsd)ReactionpathwaysofthealkalineHERandOERattheCusitesintheHEANPs.Thecalculatedenergybarriersofwater
+dissociation(ΔG –ΔG )andGibbsfreeenergy(ΔG )profilesfortheHERattheFe,Co,Ni,Cu,andMnsites.Reproducedwithpermission.[136]
+*H2O *OH *H
+Copyright2023,RoyalSocietyofChemistry.e)Electrochemicalcharacterizationofnanoporouselectrodes.f)Electrochemicalperformanceinneutral
+electrolyte.Reproducedwithpermission.[137]Copyright2020,Wiley-VCH.
+similar to Figure 10d–g. In an alkaline medium, the PtNiFe- 4.3.Non-NobleMetalHEAs
+CoCu displays a minimal overpotential of only 10 mV at a
+current density of 10 mA cm−2.[135] The mass activity of the Non-precious metal HEAs, without the addition of noble met-
+HER reached 10.96 A mg−1 at −0.07 V versus reversible hy- als,havealsobeencontinuouslydeveloped.Elementswithclosely
+Pt
+drogen electrode. As shown in the Figure 10e, theoretical cal- matchedatomicradiiaremorelikelytoformhomogeneoussolid
+culations suggested that minor changes in the stoichiomet- solutions.ResearcherspreparedHEAofFeCoNiCuMnthrough
+ric ratios of the primary elements in the HEAs have no im- electrospinning technology, as illustrated in Figure 11a–d.[136]
+pact on the electronic structure. Therefore, researchers estab- TheFeCoNiCuMnHEAwithaparticlesizedistributionwithin
+lished the most stable surface structure and conducted an in- a range of 6.3–19.5 nm, and no aggregation was observed.
+depth analysis of the reaction mechanism. Through an anal- Figure 11c shows the HEA exhibited excellent catalytic activity
+ysis of electronic density of states, the researchers have de- forHER(281mVat100mAcm−2).Theoreticalresultssuggested
+termined that Pt-5d occupies the deepest electron energy lev- that coordinating the charge distribution between Cu and Mn
+els. It suggests that Pt plays the role of electron reservoir canenhancesthekineticsoftheHER.Chargedensitydifference
+in the HER. We have compiled a list of representative Pt- analysisofFeCoNiCuMnHEAshowedanincreaseinlocalelec-
+based HEAs and presented them in Table 2. It’s worth not- trondensityattheNiandCusites,whereasadecreasewasob-
+ingthatthesecatalystsnecessitateanalkalineelectrolyteinthe servedinthelocalelectrondensityattheMn,Co,andFesites.
+HER. InactiveCucanbeactivatedbystronglocalelectroninteraction
+Adv.Mater.Interfaces2024,11,2301020 2301020(19of26) ©2024TheAuthors.AdvancedMaterialsInterfacespublishedbyWiley-VCHGmbH
+21967350,
+2024,
+14,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/admi.202301020
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.advmatinterfaces.de
+Table2.Summaryofhigh-entropyalloycatalystsfortheHER.
+Materials Overpotential Currentdensity Tafelslope Electrolytes Refs.
+[mV] [mAcm−2] [mVdec−1]
+Preciousmetal Withcarrier IrPdPtRhRu/C/N 33 10 / 1.0mKOH [138]
+catalysts PtAuPdRhRu/C 190 10 62 1.0mKOH [133]
+Withoutcarrier IrPdPtRhRu 33 10 / 0.5mHSO [139]
+2 4
+IrPdPtRhRu 17 10 / 1.0mKOH [139]
+IrPdPtRhRu 25 10 / 0.05mHSO [139]
+2 4
+IrPdPtRhRu 6 10 / 1.0mHClO [140]
+4
+Contains Withcarrier PdFeCoNiCu/C 18 10 39 1.0mKOH [141]
+precious PtNiFeCoCu/C 11 10 30 1.0mKOH [142]
+metal
+CoFeLaNiPt/C 555 10 149 0.1mKOH [86]
+catalysts Ir Ni Ta /Si 99 10 35 / [143] 35 25 40
+Pt Ni Fe Co Cu /C 11 10 30 1.0mKOH [97]
+18 26 15 14 27
+PdFeCoNiCu/C −0.07V 6.51mA TOF:4.1 1.0mKOH [144]
+μg−1 @0.1V
+Pd
+FeCoNiMnRu/C 67 10 71 / [145]
+PtNiFeCoCu /C 11 10 30 1.0mKOH [135]
+26
+Pt Ni Fe Co Cu /C 12 10 36 1.0mKOH [135]
+21 27 19 17 16
+Pt Ni Fe Co Cu /C 15 10 45 1.0mKOH [135]
+15 24 13 13 35
+IrPdRhMoW/C 15 10 15 0.5mHSO [146]
+2 4
+FeCoPdIrPt/GO 42 10 82 [134]
+Nocarrier AlNiCoRuMo 25 10 30.3 1.0mKOH [147]
+AlNiCoIrMo 18.5 10 33.2 0.05mHSO [148]
+2 4
+AlNiCuPtPdAuCoFe / / 28 0.1mHClO [149]
+4
+AlAgAuCoCuFe 32 10 30.1 0.05mH2SO [150]
+4
+IrMoNiPdPtRhRuTi
+AlNiCoRuMo 24.5 10 31.4 1.0mKOH [147]
+AlNiCoRuMo 150 10 / 1.0mKOH [147]
+S AlFeCoNiCr 155 10 / [151]
+16
+120h/20mAcm−2
+Al NiCoMnYAu 24 10 43 1.0mKOH [152]
+82 6 3 3 3 3
+CoCrFeMnNiP 136 10 85 0.5mHSO [153]
+2 4
+PdFeCoNiCu 18 10 39 1.0mKOH [154]
+PdPtCuNiP 32 10 37.4 1.0mKOH [141]
+CoFeLaNiPt 555 10 / 1.0mKOH [86]
+FeCoNiCuPd 29.7 10 49.2 / [155]
+AlNiCoIrMo 233 10 / 0.5mHSO [148]
+2 4
+NiFeMoCoCr 107 10 / 0.5mHSO [156]
+2 4
+AlNiCuPtPdAu −0.07V 6.9Amg−1 / 0.1mHClO [149]
+Pt 4
+ZnNiCoIrMn 22 10 / 0.1mHClO [157]
+4
+FeCoPdIrPt 42 10 82 1.0mKOH [134]
+Ni Fe Mo Co Cr 172 10 66 / [156]
+20 20 10 35 15
+AlNiCoRuMo 25 10 30.3 1.0mKOH [147]
+AlNiCoIrMo 18.5 10 33.2 0.5mHSO [149]
+2 4
+AlNiCuPtPdAu 72 10 28 0.1mHClO [149]
+4
+AlNiCuPtPdAu 18 10 47 0.1mKOH [150]
+NpUHEA (Al,Ag, 32 10 30.1 0.5mHSO [149]
+14 2 4
+Au,Co,Cu,Fe,Ir,Mo,
+Ni,Pd,Pt,Rh,Ru,Ti)
+FeNiCoRhPt 27 10 30.1 0.5mHSO [158] 2 4
+Pt FeNi Cu MoRu 20 10 27 1.0mKOH [129] 34 5 20 31 9
+Pt FeNi Cu MoRu 9 10 24 0.5mHSO [129]
+34 5 20 31 9 2 4
+(Continued)
+Adv.Mater.Interfaces2024,11,2301020 2301020(20of26) ©2024TheAuthors.AdvancedMaterialsInterfacespublishedbyWiley-VCHGmbH
+21967350,
+2024,
+14,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/admi.202301020
+by Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.advmatinterfaces.de
+Table2.(Continued)
+Materials Overpotential Currentdensity Tafelslope Electrolytes Refs.
+[mV] [mAcm−2] [mVdec−1]
+Non-preciousmetalcatalysts Fe Co P C 118 10 40 / [159]
+40 40 13 7
+Ni Fe Mo Co Cr 107 10 41 0.5mHSO [156]
+20 20 10 35 15 2 4
+FeCoNiAlTi 88.2 10 40.1 1.0mKOH [160]
+CuAlNiMoFe 183 100 60 1.0mKOH [161]
+AlNiCoIrMo 18.5 10 / 0.5mHSO [162]
+2 4
+FeCoNiAlTi-D15h 88.2 10 40.1 / [161]
+NiFeMoCoCr 172 10 / 1.0mKOH [156]
+TiNbTaCrMo 970 50 96.33 Acidicmedia [51]
+NiCoFeMnCrP 220 10 94.5 1.0mKOH [163]
+NiFeCoCuTi 75 10 43 / [164]
+NiFeCoCuTi 77 50 50 / [164]
+CuAlNiMoFe 42 100 82 1.0mKOH [152]
+CuAlNiMoFe 183 100 60 1.0mphosphate [152]
+buffersaline
+Ni Fe Mo Co Cr 107 10 41 0.5mHSO [156]
+20 20 10 35 15 2 4
+Ni Fe Mo Co Cr 172 10 66 1.0mKOH [156]
+20 20 10 35 15
+NiCoFeMoMn 14 10 29 1.0mKOH [165]
+induced by electronegativity differences. To enhance the elec- ochemicalpropertiesofHEAs.Hence,incorporatingHEAsinto
+tronictransfercapabilityofCuelements,researchersutilizeda the hydrogen production process not only aids in the develop-
+hierarchicalnanoporousCuscaffoldtoconstructaCuAlNiMoFe mentofefficienthydrogenproductioncatalystsbutalsoholdsthe
+HEA.[137] The surface of the CuAlNiMoFe HEA, composed of potentialtorevealtheenigmaticaspectsofthecomplexphysico-
+varyingCu,Ni,Mo,andFemetals,offersdual-functionelectro- chemicalpropertiesofHEAs.
+catalyticsites,greatlyimprovingthekineticsofwaterdissociation To date, numerous unresolved challenges persist in the uti-
+and the adsorption/desorption kinetics of hydrogen intermedi- lizationofHEAmaterialsinHERs.Notably,thesynthesisproce-
+ates.AsshowninFigure11d,e,ina1mKOHbufferelectrolyte, dures for HEA materials have historically prioritized their me-
+theCuAlNiMoFeHEAexhibitsanoverpotentialof240mVeven chanical characteristics, with a shift in focus toward catalytic
+at high current density (≈1840 mA cm−2). Jia et al. reported reactions occurring only in recent years. Consequently, it is
+an L1 -type high-entropy intermetallic (HEI) compound FeCo- imperative to thoughtfully engineer HEA materials to imbue
+2
+NiAlTi.Thisparticularperiodicstructuredisplaysasite-isolation themwithcatalyticactivitytailoredforspecificcatalyticreactions.
+effect that enhances the efficiency of HER. In an alkaline elec- Presently,existingpreparationmethodsposesignificantdifficul-
+trolyte, the HEI not only facilitates the adsorption of H O but tiesinachievingprecisecontroloverthedimensions,structure,
+2
+alsopromotesthedesorptionofH*.Comparedtonoblemetals, reactionsites,constituentconcentrations,andelementaldistri-
+theHEIdemonstratesexceptionalperformance,withanoverpo- butionofHEAmaterials.
+tentialofjust88.2mVatacurrentdensityof10mAcm−2,anda IntherealmofunderstandingHERmechanisms,thecritical
+Tafelslopeof40.1mVdec−1. first step involves identifying the atomic coordination environ-
+mentsofcatalystsurfaces.However,thecomplexatomicarrange-
+5.ConclusionsandOutlook mentsonHEAsurfacesinevitablyposesignificantchallengesfor
+in-depth research intothese reactionmechanisms. On the one
+The HEAs unquestionably possess significant potential in cat- hand,theprimarymethodsfordiscerningsurfacecoordination
+alytic reactions and areonthe brinkofexperiencing rapidand environmentsattheatomicscaleincludetechniquessuchassyn-
+explosivegrowthinthenearfuture.Athoroughunderstanding chrotronradiationandaberration-correctedelectronmicroscopy.
+ofthephysicochemicalpropertiesofHEAsisessentialfortheir Ontheotherhand,thepotentialforsignificantlyenhancingthe
+effectiveutilizationinvariouscatalyticreactions.Hydrogenen- accuracyofreactionmechanismstudiesliesintheuseofmeth-
+ergyservesasaguidinglightforfutureenergydevelopmentand odslikemachinelearninganddensityfunctionaltheoryforcom-
+standsasapioneerinthisfield.Anessentialelementofhydrogen putationalanalysisofsurface-coordinatedatoms.
+productiontechnologyistheadvancementofhigh-performance It’scrucialtoemphasizethatoneoftheprimarycriteriaforas-
+industrialcatalysts. sessingacatalyst’ssuitabilityforindustrialapplicationsisitsabil-
+Fortunately, the HER involves relatively few reaction steps, itytoefficientlyandreliablygeneratehydrogenathighcurrent
+makingitconvenientforexaminingthestructure-propertyrela- densities.However,basedoncurrentstabilitytests,existingHEA
+tionshipsofHEAsinhydrogenproduction.Insimplerterms,the catalystsstillfallshortofmeetingindustrialdemands.Thermo-
+HERprovidesamoreaccessiblemeansofuncoveringthephysic- dynamicanalysisindicatesthathighcurrentdensitiesinevitably
+Adv.Mater.Interfaces2024,11,2301020 2301020(21of26) ©2024TheAuthors.AdvancedMaterialsInterfacespublishedbyWiley-VCHGmbH
+21967350,
+2024,
+14,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/admi.202301020
+by Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.advmatinterfaces.de
+lead to significant joule heating at the electrode, as Joule heat- [6] P.K.Huang,J.W.Yeh,T.T.Shun,S.K.Chen,Adv.Eng.Mater.2004,
+ingisdirectlyproportionaltothesquareofthecurrentdensity. 6,74.
+Theheatingeffectisparticularlypronouncedattheinterfacebe- [7] E. P. George, D. Raabe, R. O. Ritchie, Nat. Rev. Mater. 2019, 4,
+tweenthecatalystmaterialandtheelectrode,renderingcatalyst 515.
+[8] Y.Xin,S.Li,Y.Qian,W.Zhu,H.Yuan,P.Jiang,R.Guo,L.Wang,ACS
+materialsmoresusceptibletothermaldeactivationathighcur-
+Catal.2020,10,11280.
+rent densities. Balancing the exceptional activity of small-sized
+[9] Z.-Z.Yang,L.Liu,A.-J.Wang,J.Yuan,J.-J.Feng,Q.-Q.Xu,Int.J.
+HEAswiththeirsusceptibilitytomeltingdeactivationiscurrently
+HydrogenEnergy2017,42,2034.
+one of the foremost challenges. Utilizing methods such as en-
+[10] M. Takahashi, H. Koizumi, W.-J. Chun, M. Kori, T. Imaoka, K.
+capsulationandloadingtoenhancethethermalstabilityofHEA Yamamoto,Sci.Adv.2017,3,e1700101.
+materialswithoutcompromisingtheactivesitesrepresentsavi- [11] F.Gao,D.W.Goodman,Chem.Soc.Rev.2012,41,8009.
+ablesolutionforaddressingcatalystdeactivationathighcurrent [12] J.-J.Sunol,L.Escoda,Materials2022,15,101.
+densities. [13] M.Lukas,V.Meded,A.Vijayaraghavan,L.Song,P.M.Ajayan,K.
+Inconclusion,thepotentialfordesigninganddevelopingHEA Fink,W.Wenzel,R.Krupke,Nat.Commun.2013,4,1379.
+materialsremainssubstantial.ByharnessingtheHERasame- [14] R.K.Nutor,Q.Cao,X.Wang,D.Zhang,Y.Fang,Y.Zhang,J.-Z.Jiang,
+Adv.Eng.Mater.2020,22,2000466.
+diator and conducting a comprehensive analysis of the physic-
+[15] A.Amiri,R.Shahbazian-Yassar,J.Mater.Chem.A2021,9,782.
+ochemical properties of HEAs, followed by the design of high-
+[16] S. K. Nemani, M. Torkamanzadeh, B. C. Wyatt, V. Presser, B.
+performance catalysts, we can employ a highly effective ap-
+Anasori,Commun.Mater.2023,4,16.
+proach. However, the vast diversity of HEA materials in terms [17] B.Wang,Y.Yao,X.Yu,C.Wang,C.Wu,Z.Zou,J.Mater.Chem.A
+oftypesandquantitiesmakesitimpracticaltoidentifysuitable 2021,9,19410.
+catalyststhroughtraditionaltrial-and-errormethods.Hence,the [18] L.J.Santodonato,Y.Zhang,M.Feygenson,C.M.Parish,M.C.Gao,
+integrationofintelligenttechniqueslikemachinelearningand R.J.K.Weber,J.C.Neuefeind,Z.Tang,P.K.Liaw,Nat.Commun.
+theoretical calculations can swiftly pinpoint appropriate HEAs 2015,6,5964.
+forcatalyticreactions.Furthermore,theestablishmentofaHEA [19] Y.Zou,S.Maiti,W.Steurer,R.Spolenak,ActaMater.2014,65,85.
+materials database through a fusion of experimental and intel- [20] E.J.Pickering,N.G.Jones,Int.Mater.Rev.2016,61,183.
+[21] S.Ranganathan,Curr.Sci.2003,85,1404.
+ligentmethodsisofparamountimportance,providingarobust
+[22] K.Wang,W.Hua,X.Huang,D.Stenzel,J.Wang,Z.Ding,Y.Cui,Q.
+platformforthedevelopmentofefficientandstablecatalysts.
+Wang,H.Ehrenberg,B.Breitung,C.Kuebel,X.Mu,Nat.Commun.
+2024,14,1487.
+[23] A.K.Ipadeola,A.K.Lebechi,L.Gaolatlhe,A.B.Haruna,M.Chitt,K.
+Acknowledgements Eid,A.M.Abdullah,K.I.Ozoemena,Electrochem.Commun.2022,
+136,107207.
+Q.W.andJ.X.contributedequallytothiswork.Thisworkwassupported
+[24] K.Wang,W.Hua,X.Huang,D.Stenzel,J.Wang,Z.Ding,Y.Cui,Q.
+by the National Natural Science Foundation of China (Nos. 22308063, Wang,H.Ehrenberg,B.Breitung,C.Kuebel,X.Mu,Nat.Commun.
+22178072,and21878078).S.Z.thanksthesupportfromGuangxiScience
+2023,14,1487.
+andTechnologyMajorProgram(Nos.AA23073019,AA23062020).Z.W.
+[25] Z.Cui,W.Jiao,Z.Huang,G.Chen,B.Zhang,Y.Han,W.Huang,
+alsothanksthesupportfromGuangxiScienceandTechnologyBaseand
+Small2023,19,e2301465.
+TalentSpecialProject(Nos.AD21075015andAD21220017).
+[26] K.Wang,J.Huang,H.Chen,Y.Wang,W.Yan,X.Yuan,S.Song,J.
+Zhang,X.Sun,Electrochem.EnergyRev.2022,5,17.
+[27] H.Li,J.Lai,Z.Li,L.Wang,Adv.Funct.Mater.2021,31,2106715.
+ConflictofInterest
+[28] Y.Zhou,X.Shen,M.Wang,L.Zhang,T.Qian,C.Yan,J.Lu,Sci.China
+Mater.2023,66,2527.
+Theauthorsdeclarenoconflictofinterest.
+[29] S.Güler,E.D.Alkan,M.Alkan,J.AlloysCompd.2022,903,163901.
+[30] L.Yang,Y.Li,Z.Wang,W.Zhao,C.Qin,Metals2019,9,345.
+[31] Y.Brif,M.Thomas,I.Todd,Scr.Mater.2015,99,93.
+Keywords [32] Z.Yu,Y.Yan,W.Gao,X.Wang,X.Liu,W.Du,Mater.Res.Express
+2022,9,016510.
+catalyticmechanisms,high-entropyalloys,hydrogenevolutionreaction,
+[33] Z.U.Arif,M.Y.Khalid,E.urRehman,S.Ullah,M.Atif,A.Tariq,J.
+preparationmethods
+Manuf.Processes2021,68,225.
+[34] X.Ye,M.Ma,Y.Cao,W.Liu,X.Ye,Y.Gu,Phy.Procedia2011,12,303.
+Received:December10,2023 [35] C.Zeng,W.Tian,W.H.Liao,L.Hua,Surf.Coat.Technol.2016,294,
+Revised:January14,2024
+122.
+Publishedonline:April2,2024
+[36] K.Lu,J.Zhu,D.Guo,M.Yang,H.Sun,Z.Wang,X.Hui,Y.Wu,
+Coatings2022,12,1023.
+[37] W.Li,L.Yan,S.Karnati,F.Liou,J.Newkirk,K.M.B.Taminger,W.J.
+Seufzer,J.Mater.Process.Technol.2017,242,39.
+[1] M.C.Gao,J.-W.Yeh,P.K.Liaw,Y.Zhang,Metals2018,8,108. [38] W.U.H.Syed,A.J.Pinkerton,Z.Liu,L.Li,Surf.Coat.Technol.2007,
+[2] Y.Sun,S.Dai,Sci.Adv.2021,7,1600. 201,7083.
+[3] F. C. Achard, Recherches sur les propriétés des alliages métalliques, [39] H.R.Sistla,J.W.Newkirk,F.F.Liou,Mater.Des.2015,81,113.
+Decker,PrairieCity,OR1788. [40] R.Wang,K.Zhang,C.Davies,X.Wu,J.AlloysCompd.2017,694,
+[4] B.Cantor,I.Chang,P.Knight,A.Vincent,Mater.Sci.Eng.,A2004, 971.
+375,213. [41] H.Zhang,Y.Pan,Y.-Z.He,Mater.Des.2011,32,1910.
+[5] J.W.Yeh,S.K.Chen,S.J.Lin,J.Y.Gan,T.S.Chin,T.T.Shun,C.H. [42] B.He,N.Zhang,D.Lin,Y.Zhang,F.Dong,D.Li,Coatings2017,7,
+Tsau,S.Y.Chang,Adv.Eng.Mater.2004,6,299. 157.
+Adv.Mater.Interfaces2024,11,2301020 2301020(22of26) ©2024TheAuthors.AdvancedMaterialsInterfacespublishedbyWiley-VCHGmbH
+21967350,
+2024,
+14,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/admi.202301020
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.advmatinterfaces.de
+[43] X.Chen,L.Yan,S.Karnati,Y.Zhang,F.W.Liou,Coatings2017,7,47. [78] H.Jiao,M.Wang,J.Tu,S.Jiao,J.Electrochem.Soc.2018,165,D574.
+[44] A.Meghwal,A.Anupam,B.Murty,C.C.Berndt,R.S.Kottada,A.S. [79] J.Huang,P.Wang,P.Li,H.Yin,D.Wang,J.Mater.Sci.Technol.2021,
+M.Ang,J.Therm.SprayTechnol.2020,29,857. 93,110.
+[45] A.S.M.Ang,C.C.Berndt,M.L.Sesso,A.Anupam,R.S.Kottada, [80] C.Schwandt,D.Fray,Electrochim.Acta2005,51,66.
+B.Murty,Metall.Mater.Trans.A2015,46,791. [81] C.Schwandt,D.Alexander,D.Fray,Electrochim.Acta2009,54,3819.
+[46] D.-y.Lin,N.-n.Zhang,B.He,B.-q.Jin,Y.Zhang,D.-y.Li,F.-y.Dong, [82] D.Fray,Int.Mater.Rev.2008,53,317.
+J.IronSteelRes.Int.2017,24,1199. [83] K.Mohandas,Miner.Process.Extr.Metall.2013,122,195.
+[47] K.-C.Cheng,J.-H.Chen,S.Stadler,S.-H.Chen,Appl.Surf.Sci.2019, [84] D.Fray,C.Schwandt,Mater.Trans.2017,58,306.
+478,478. [85] J.Sure,D.S.M.Vishnu,C.Schwandt,Appl.Mater.Today2017,9,
+[48] A.Anupam,R.S.Kottada,S.Kashyap,A.Meghwal,B.Murty,C. 111.
+Berndt,A.Ang,Appl.Surf.Sci.2020,505,144117. [86] M.W.Glasscott,A.D.Pendergast,S.Goines,A.R.Bishop,A.T.
+[49] M.Srivastava,M.Jadhav,R.Chakradhar,M.Muniprakash,S.Singh, Hoang,C.Renault,J.E.Dick,Nat.Commun.2019,10,2650.
+Surf.Coat.Technol.2019,378,124950. [87] M.W.Glasscott,J.E.Dick,Anal.Chem.2018,90,7804.
+[50] A.Anupam,S.Kumar,N.M.Chavan,B.S.Murty,R.S.Kottada,J. [88] M.W.Glasscott,A.D.Pendergast,M.H.Choudhury,J.E.Dick,ACS
+Mater.Res.2019,34,796. Appl.NanoMater.2018,2,819.
+[51] X.Wang,Q.Peng,X.Zhang,X.Lv,X.Wang,Y.Fu,J.ColloidInterface [89] Y.Yao,Z.Huang,P.Xie,S.D.Lacey,R.J.Jacob,H.Xie,F.Chen,A.
+Sci.2022,607,1580. Nie,T.Pu,M.Rehwoldt,Science2018,359,1489.
+[52] F. Waag, Y. Li, A. R. Ziefuß, E. Bertin, M. Kamp, V. Duppel, G. [90] X.Xu,Y.Du,C.Wang,Y.Guo,J.Zou,K.Zhou,Z.Zeng,Y.Liu,L.Li,
+Marzun, L. Kienle, S. Barcikowski, B. Gökce, RSC Adv. 2019, 9, J.AlloysCompd.2020,822,153642.
+18547. [91] C.O.Kappe,Angew.Chem.,Int.Ed.2004,43,6250.
+[53] J.M.Torralba,P.Alvaredo,A.García-Junceda,PowderMetall.2019, [92] J.Menéndez,A.Arenillas,B.Fidalgo,Y.Fernández,L.Zubizarreta,
+62,84. E.G.Calvo,J.M.Bermúdez,FuelProcess.Technol.2010,91,1.
+[54] Z. Tang, O. N. Senkov, C. M. Parish, C. Zhang, F. Zhang, L. J. [93] A.M.Schwenke,S.Hoeppener,U.S.Schubert,Adv.Mater.2015,
+Santodonato,G.Wang,G.Zhao,F.Yang,P.K.Liaw,Mater.Sci.Eng., 27,4113.
+A2015,647,229. [94] P.Ajayan,M.Terrones,A.DelaGuardia,V.Huc,N.Grobert,B.Wei,
+[55] Y.Xie,H.Cheng,Q.Tang,W.Chen,W.Chen,P.Dai,Intermetallics H.Lezec,G.Ramanath,T.Ebbesen,Science2002,296,705.
+2018,93,228. [95] M.Canal-Rodríguez,A.Arenillas,J.A.Menéndez,D.Beneroso,N.
+[56] C.Wang,W.Ji,Z.Fu,Adv.PowderTechnol.2014,25,1334. Rey-Raap,Carbon2018,137,384.
+[57] B.-r.Ke,Y.-c.Sun,Y.Zhang,W.-rWang,W.-mWang,P.-yMa,W.Ji, [96] W.-S.Jiang,C.Yang,G.-X.Chen,X.-Q.Yan,S.-N.Chen,B.-W.Su,
+Z.-yFu,Int.J.Min.Metall.Mater.2021,28,931. Z.-B.Liu,J.-G.Tian,J.Mater.Chem.C2018,6,1829.
+[58] A.R.Poster,H.H.Hausner,ModernDevelopmentsinPowderMet- [97] X.Zhao,Z.Xue,W.Chen,Y.Wang,T.Mu,ChemSusChem2020,13,
+allurgy,Springer,Berlin,Germany1966,pp.26–44. 2038.
+[59] M.C.Gao,J.-W.Yeh,P.K.Liaw,Y.Zhang,2016,33,2853. [98] D.Voiry,J.Yang,J.Kupferberg,R.Fullon,C.Lee,H.Y.Jeong,H.S.
+[60] M.Vaidya,G.M.Muralikrishna,B.S.Murty,J.Mater.Res.2019,3, Shin,M.Chhowalla,Science2016,353,1413.
+664. [99] M.Hassanpour,H.Safardoust,D.Ghanbari,M.Salavati-Niasari,J.
+[61] P.AjayKumar,C.S.Perugu,inTMSAnnualMeeting&Exhibition Mater.Sci.Mater.Electron.2016,27,2718.
+SupplementalProc.,Springer,Berlin,Germany2018,pp.669–675. [100] H.Fei,J.Dong,C.Wan,Z.Zhao,X.Xu,Z.Lin,Y.Wang,H.Liu,K.
+[62] C.Suryanarayana,F.Froes,J.Mater.Res.1990,5,1880. Zang,J.Luo,S.Zhao,W.Hu,W.Yan,I.Shakir,Y.Huang,X.Duan,
+[63] K.Zhao,B.Niu,F.Zhang,J.Zhang,Adv.Appl.Ceram.2017,116,19. Adv.Mater.2018,30,1802146.
+[64] R.-F.Zhao,B.Ren,G.-P.Zhang,Z.-X.Liu,J.-j.Zhang,J.Magn.Magn. [101] J.Wan,X.Yao,X.Gao,X.Xiao,T.Li,J.Wu,W.Sun,Z.Hu,H.Yu,L.
+Mater.2018,468,14. Huang,M.Liu,J.Zhou,Adv.Funct.Mater.2016,26,7263.
+[65] Y.Duan,X.Wen,B.Zhang,G.Ma,T.Wang,J.Magn.Magn.Mater. [102] G.Zhong,S.Xu,M.Cui,Q.Dong,X.Wang,Q.Xia,J.Gao,Y.Pei,Y.
+2020,497,165947. Qiao,G.Pastel,Small2019,15,1904881.
+[66] A.S.Sharma,S.Yadav,K.Biswas,B.Basu,Mater.Sci.Eng.RRep. [103] P.E.Saloga,A.F.Thünemann,Langmuir2019,35,12469.
+2018,131,1. [104] Y.Tian,S.Sarwar,Y.Zheng,S.Wang,Q.Guo,J.Luo,X.Zhang,J.
+[67] K.Li,W.Chen,Mater.TodayEnergy2021,20,100638. SolidStateElectrochem.2020,24,809.
+[68] B.Ren,Z.Shen,Z.Liu,J.AlloysCompd.2013,560,171. [105] Y.Tian,X.Yang,A.Nautiyal,Y.Zheng,Q.Guo,J.Luo,X.Zhang,Adv.
+[69] D.-C. Tsai, M.-J. Deng, Z.-C. Chang, B.-H. Kuo, E.-C. Chen, S.-Y. Compos.HybridMater.2019,2,151.
+Chang,F.-S.Shieu,J.AlloysCompd.2015,647,179. [106] H.Huang,S.Zhou,C.Yu,H.Huang,J.Zhao,L.Dai,J.Qiu,Energy
+[70] S.Wang,B.Xu,W.Huo,H.Feng,X.Zhou,F.Fang,Z.Xie,J.K.Shang, Environ.Sci.2020,13,545.
+J.Jiang,Appl.Catal.,B2022,313,121472. [107] H.Qiao,M.T.Saray,X.Wang,S.Xu,G.Chen,Z.Huang,C.Chen,
+[71] Y.S.Kim,H.J.Park,S.C.Mun,E.Jumaev,S.H.Hong,G.Song,J.T. G.Zhong,Q.Dong,M.Hong,H.Xie,R.Shahbazian-Yassar,L.Hu,
+Kim,Y.K.Park,K.S.Kim,S.I.Jeong,Y.H.Kwon,K.B.Kim,J.Alloys ACSNano2021,15,14928.
+Compd.2019,797,834. [108] D. Wu, K. Kusada, T. Yamamoto, T. Toriyama, S. Matsumura, S.
+[72] A.-L.Wang,H.-C.Wan,H.Xu,Y.-X.Tong,G.-R.Li,Electrochim.Acta Kawaguchi,Y.Kubota,H.Kitagawa,J.Am.Chem.Soc.2020,142,
+2014,127,448. 13833.
+[73] D.Fray,G.Chen,Mater.Sci.Technol.2004,20,295. [109] D.Zhang,H.Zhao,X.Wu,Y.Deng,Z.Wang,Y.Han,H.Li,Y.Shi,
+[74] G.Z.Chen,D.J.Fray,T.W.Farthing,Nature2000,407,361. X.Chen,S.Li,J.Lai,B.Huang,L.Wang,Adv.Funct.Mater.2021,31,
+[75] G.Z.Chen,D.J.Fray,T.W.Farthing,Metall.Mater.Trans.B2001, 2006939.
+32,1041. [110] X.Xu,C.Wang,J.Zou,C.Zhang,Y.Chen,Y.Du,X.Ma,Z.Zeng,L.
+[76] B.Wang,J.Huang,J.Fan,Y.Dou,H.Zhu,D.Wang,J.Electrochem. Li,J.AlloysCompd.2022,903,163935.
+Soc.2017,164,E575. [111] C.R.McCormick,R.E.Schaak,J.Am.Chem.Soc.2021,143,1017.
+[77] H.Zhang,H.Yan,H.Yu,Z.Ji,Q.Hu,N.Jia,J.Mater.Sci.Technol. [112] W.Ahn,M.G.Park,D.U.Lee,M.H.Seo,G.Jiang,Z.P.Cano,F.M.
+2020,48,146. Hassan,Z.Chen,Adv.Funct.Mater.2018,28,1802129.
+Adv.Mater.Interfaces2024,11,2301020 2301020(23of26) ©2024TheAuthors.AdvancedMaterialsInterfacespublishedbyWiley-VCHGmbH
+21967350,
+2024,
+14,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/admi.202301020
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.advmatinterfaces.de
+[113] W.-Y.Huo,S.-Q.Wang,W.-H.Zhu,Z.-L.Zhang,F.Fang,Z.-H.Xie, [141] D.Zhang,Y.Shi,H.Zhao,W.Qi,X.Chen,T.Zhan,S.Li,B.Yang,
+J.-Q.Jiang,Tungsten2021,3,161. M. Sun, J. Lai, B. Huang, L. Wang, J. Mater. Chem. A 2021, 9,
+[114] G.Qin,R.Chen,P.K.Liaw,Y.Gao,L.Wang,Y.Su,H.Ding,J.Guo, 889.
+X.Li,Nanoscale2020,12,3965. [142] K.Aryana,Y.Zhang,J.A.Tomko,M.S.BinHoque,E.R.Hoglund,
+[115] S.Wang,W.Huo,F.Fang,Z.Xie,J.K.Shang,J.Jiang,Chem.Eng.J. D.H.Olson,J.Nag,J.C.Read,C.Rios,J.Hu,P.E.Hopkins,Nat.
+2022,429,132410. Commun.2021,12,669.
+[116] X.Wang,Q.Dong,H.Qiao,Z.Huang,M.T.Saray,G.Zhong,Z.Lin, [143] Z.-J.Wang,M.-X.Li,J.-H.Yu,X.-B.Ge,Y.-H.Liu,W.-H.Wang,Adv.
+M.Cui,A.Brozena,M.Hong,Adv.Mater.2020,32,2002853. Mater.2020,32,1906384.
+[117] L.Tao,M.Sun,Y.Zhou,M.Luo,F.Lv,M.Li,Q.Zhang,L.Gu,B. [144] Y.He,X.Lin,Y.Zhou,J.H.Chen,Z.Guo,H.Zhan,Chem.Mater.
+Huang,S.Guo,J.Am.Chem.Soc.2022,144,23. 2021,33,9413.
+[118] H.Wu,D.Lan,B.Li,L.Zhang,Y.Fu,Y.Zhang,H.Xing,Composi.B [145] J.Hao,Z.Zhuang,K.Cao,G.Gao,C.Wang,F.Lai,S.Lu,P.Ma,W.
+2019,179,107524. Dong,T.Liu,M.Du,H.Zhu,Nat.Commun.2022,13,2662.
+[119] S.D.Ebbesen,S.H.Jensen,A.Hauch,M.B.Mogensen,Chem.Rev. [146] D.Zhang,Y.Shi,X.Chen,J.Lai,B.Huang,L.Wang,Chin.J.Catal.
+2014,114,10697. 2023,45,174.
+[120] O.Schmidt,A.Gambhir,I.Staffell,A.Hawkes,J.Nelson,S.Few, [147] Z.Jin,J.Lyu,Y.-L.Zhao,H.Li,X.Lin,G.Xie,X.Liu,J.-J.Kai,H.-J.
+Int.J.HydrogenEnergy2017,42,30470. Qiu,ACSMater.Lett.2020,2,1698.
+[121] G.Zhao,M.R.Kraglund,H.L.Frandsen,A.C.Wulff,S.H.Jensen, [148] Z.Jin,J.Lv,H.Jia,W.Liu,H.Li,Z.Chen,X.Lin,G.Xie,X.Liu,S.
+M.Chen,C.R.Graves,Int.J.HydrogenEnergy2020,45,23765. Sun,H.-J.Qiu,Small2019,15,1904180.
+[122] K.Tan,X.Yan,Z.Zhu,M.Zhou,F.Tian,J.Liu,Int.J.HydrogenEnergy [149] H.-J.Qiu,G.Fang,Y.Wen,P.Liu,G.Xie,X.Liu,S.Sun,J.Mater.
+2022,47,25090. Chem.A2019,7,6499.
+[123] Y.Cheng,H.Guo,L.Zhang,M.Wang,J.Zhou,T.Qian,C.Yan,Adv. [150] Z.-X.Cai,H.Goou,Y.Ito,T.Tokunaga,M.Miyauchi,H.Abe,T.Fujita,
+Funct.Mater.2023,33,2208718. Chem.Sci.2021,12,11306.
+[124] Y.Cheng,L.Zhang,S.Wang,M.Wang,C.Deng,Y.Sun,C.Yan,T. [151] G.Fang,J.Gao,J.Lv,H.Jia,H.Li,W.Liu,G.Xie,Z.Chen,Y.Huang,
+Qian,ACSNano2023,17,15504. Q.Yuan,X.Liu,X.Lin,S.Sun,H.-J.Qiu,Appl.Catalys.BEnviron.
+[125] B.You,Y.Sun,Acc.Chem.Res.2018,51,1571. 2020,268,118431.
+[126] M.Nazemi,J.Padgett,M.C.Hatzell,EnergyTechnol.2017,5,1191. [152] R.-Q.Yao,Y.-T.Zhou,H.Shi,W.-B.Wan,Q.-H.Zhang,L.Gu,Y.-
+[127] W.Li,H.Tian,L.Ma,Y.Wang,X.Liu,X.Gao,Mater.Adv.2022,3, F.Zhu,Z.Wen,X.-Y.Lang,Q.Jiang,Adv.Funct.Mater.2021,31,
+5598. 2009613.
+[128] S.G.Peera,R.Koutavarapu,L.Chao,L.Singh,G.Murugadoss,G. [153] X.Liu,S.Ju,P.Zou,L.Song,W.Xu,J.Huo,J.Yi,G.Wang,J.-Q.
+Rajeshkhanna,Micromachines2022,13,1499. Wang,J.AlloysCompd.2021,880,160548.
+[129] Z.Chen,J.Wen,C.Wang,X.Kang,Small2022,18,2204255. [154] X.Shen,C.P.Ting,G.Xu,T.J.Maimone,Nat.Commun.2020,11,
+[130] S.H.Yu,W.Chen,H.Wang,H.Pan,D.H.C.Chua,NanoEnergy 508.
+2019,55,193. [155] S.Wang,B.Xu,W.Huo,H.Feng,X.Zhou,F.Fang,Z.Xie,J.K.Shang,
+[131] C.Costentin,S.Drouet,M.Robert,J.-M.Saveant,J.Am.Chem.Soc. J.Jiang,Appl.Catalys.BEnviron.2022,313,121472.
+2012,134,11235. [156] G.Zhang,K.Ming,J.Kang,Q.Huang,Z.Zhang,X.Zheng,X.Bi,
+[132] X.Xu,Z.Shao,S.P.Jiang,EnergyTechnol.2022,10,2200573. Electrochim.Acta2018,279,19.
+[133] M.Liu,Z.Zhang,F.Okejiri,S.Yang,S.Zhou,S.Dai,Adv.Mater. [157] N.Arshad,M.S.Irshad,M.S.Asghar,M.Alomar,J.Tao,M.A.K.
+Interfaces2019,6,1900015. Y.Shah,X.Wang,J.Guo,S.Wageh,O.A.Al-Hartomy,A.Kalam,Y.
+[134] S. Gao, S. Hao, Z. Huang, Y. Yuan, S. Han, L. Lei, X. Zhang, R. Hao,Z.Ouyang,H.Zhang,Glob.Chall.2023,7,121472.
+Shahbazian-Yassar,J.Lu,Nat.Commun.2020,11,2016 [158] Y.Chen,X.Zhan,S.L.A.Bueno,I.H.Shafei,H.M.Ashberry,K.
+[135] H.Li,Y.Han,H.Zhao,W.Qi,D.Zhang,Y.Yu,W.Cai,S.Li,J.Lai,B. Chatterjee,L.Xu,Y.Tang,S.E.Skrabalak,NanoscaleHoriz.2021,6,
+Huang,L.Wang,Nat.Commun.2020,11,5437. 231.
+[136] H.Zhu,S.Sun,J.Hao,Z.Zhuang,S.Zhang,T.Wang,Q.Kang,S. [159] F.Zhang,J.Wu,W.Jiang,Q.Hu,B.Zhang,ACSAppl.Mater.Inter-
+Lu,X.Wang,F.Lai,T.Liu,G.Gao,M.Du,D.Wang,EnergyEnviron. faces2017,9,31340.
+Sci.2023,16,619. [160] P.Ma,M.Zhao,L.Zhang,H.Wang,J.Gu,Y.Sun,W.Ji,Z.Fu,J.
+[137] R.Q.Yao,Y.T.Zhou,H.Shi,W.B.Wan,Q.H.Zhang,L.Gu,Y.F.Zhu, Mater.2020,6,736.
+Z.Wen,X.Y.Lang,Q.Jiang,Adv.Funct.Mater.2020,31,2009613. [161] Z.Jia,T.Yang,L.Sun,Y.Zhao,W.Li,J.Luan,F.Lyu,L.-C.Zhang,J.
+[138] D. Wu, K. Kusada, T. Yamamoto, T. Toriyama, S. Matsumura, I. J.Kruzic,J.-J.Kai,J.C.Huang,J.Lu,C.T.Liu,Adv.Mater.2020,32,
+Gueye,O.Seo,J.Kim,S.Hiroi,O.Sakata,S.Kawaguchi,Y.Kubota, 2000385.
+H.Kitagawa,Chem.Sci.2020,11,12731. [162] K.Huang,Z.Wei,J.Liu,Z.Gong,J.Liu,M.Yan,G.He,H.Gong,Y.
+[139] D. Wu, K. Kusada, T. Yamamoto, T. Toriyama, S. Matsumura, I. Hu,Y.He,S.Zhao,G.Ye,H.Fei,Small2022,18,2201139.
+Gueye,O.Seo,J.Kim,S.Hiroi,O.Sakata,S.Kawaguchi,Y.Kubota, [163] D.Lai,Q.Kang,F.Gao,Q.Lu,J.Mater.Chem.A2021,9,17913.
+H.Kitagawa,Chem.Sci.2021,12,7196. [164] H.Shi,X.-Y.Sun,S.-P.Zeng,Y.Liu,G.-F.Han,T.-H.Wang,Z.Wen,
+[140] H.Minamihara,K.Kusada,D.Wu,T.Yamamoto,T.Toriyama,S. Q.-R.Fang,X.-Y.Lang,Q.Jiang,SmallStruct.2023,4,2300042.
+Matsumura,L.S.R.Kumara,K.Ohara,O.Sakata,S.Kawaguchi,Y. [165] H.Liu,H.Qin,J.Kang,L.Ma,G.Chen,Q.Huang,Z.Zhang,E.Liu,
+Kubota,H.Kitagawa,J.Am.Chem.Soc.2022,144,11525. H.Lu,J.Li,N.Zhao,Chem.Eng.J.2022,435,134898.
+Adv.Mater.Interfaces2024,11,2301020 2301020(24of26) ©2024TheAuthors.AdvancedMaterialsInterfacespublishedbyWiley-VCHGmbH
+21967350,
+2024,
+14,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/admi.202301020
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.advmatinterfaces.de
+QianWanggraduatedfromtheCollegeofChemistryandChemicalEngineering,NingxiaUniversity
+in2022.Sheiscurrentlypursuinghermaster’sdegreeinSchoolofChemistryandChemicalEngineer-
+ing,GuangxiUniversity,underthesupervisionofassociateprofessorPengXie.Hercurrentresearch
+focusesonthedesignandapplicationofhighentropyalloys.
+JiachengXiereceivedhisB.S.degreein2020fromtheDepartmentofChemicalEngineering,Chang’
+anUniversity.HeispursuinghisM.S.degreeunderthesupervisionofProf.ShuangliangZhaoin
+theSchoolofChemistryandChemicalEngineering,GuangxiUniversity.Hiscurrentresearchinter-
+estfocusesonacceleratinggasdissolutiondynamicsforenhancingmultiphasereactionsinmicro-
+channels.
+QianSunisanassociateprofessorintheSchoolofChemistryandChemicalEngineering,Guangxi
+University.SheobtainedaPh.D.degreefromtheUniversityofCambridge,master’s,andbachelor’s
+degreesfromBeijingUniversityofChemicalTechnology.Hermainresearchareasincludemicrocap-
+sules,nanomaterials,andhighgravitytechnology.
+BoChenisanassistantprofessorinDepartmentofChemicalEngineering,GuangxiUniversity,China.
+Hefocuseshisresearchinterestsonthesynthesisofhigh-qualityfunctionalnanomaterialsandthe
+enhancementtechnologyofchemicalprocesses.
+Adv.Mater.Interfaces2024,11,2301020 2301020(25of26) ©2024TheAuthors.AdvancedMaterialsInterfacespublishedbyWiley-VCHGmbH
+21967350,
+2024,
+14,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/admi.202301020
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.advmatinterfaces.de
+PengXieisanassociateprofessorinSchoolofChemistryandChemicalEngineering,GuangxiUniver-
+sity,China.HereceivedhisPh.D.inDepartmentofMolecularandMaterialSciencesfromKyushuUni-
+versityin2013.Hegothisbachelor’sandmaster’sdegreesfromCentralChinaNormalUniversityin
+China.HewasapostdoctoralassociateattheDalianInstituteofChemicalPhysics,ChineseAcademy
+ofSciences.Hisresearchinterestscoverthereactionmechanismsoftransitionmetacatalystsand
+developmentofself-consistentreactiondensityfunctionaltheory.
+ZengxiWeiisanassistantprofessorofChemicalEngineeringatGuangxiUniversity.Hecompleted
+hisPh.D.degreeatHunanUniversityandsubsequentlypursuedpostdoctoralresearchatGuangxi
+University.Hisresearchinterestslieinthegreensynthesisofcatalystsforhydrogenperoxideandthe
+designofmicroreactors.
+ShuangliangZhaoisaprofessorofChemicalEngineeringatGuangxiUniversity.HereceivedhisPh.D.
+inphysicalchemistryfromtheEcoleNormaleSuperieuredeLyon(France)in2007,andthencarried
+outpostdoctoralresearchattheEcoleNormaleSuperieure(Paris)andtheUniversityofCalifornia
+atRiverside(USA).Atpresent,heisleadingaresearchgrouponstructuredthermodynamicsand
+micro/nanochemicalengineering.
+Adv.Mater.Interfaces2024,11,2301020 2301020(26of26) ©2024TheAuthors.AdvancedMaterialsInterfacespublishedbyWiley-VCHGmbH
+21967350,
+2024,
+14,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/admi.202301020
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+

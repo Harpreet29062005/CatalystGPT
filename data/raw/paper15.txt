@@ -1,0 +1,878 @@
+RESEARCH ARTICLE
+www.advenergymat.de
+Artificial Intelligence-Assisted Ultrafast High-Throughput
+Screening of High-Entropy Hydrogen Evolution Reaction
+Catalysts
+Ziqi Fu, Pengfei Huang,* Xiaoyang Wang, Wei-Di Liu, Lingchang Kong, Kang Chen,
+Jinyang Li,* and Yanan Chen*
+1.Introduction
+Thedevelopmentofhigh-entropyalloy(HEA)catalystsishinderedby
+the“combinatorialexplosion”challengeinherenttotheircomplexcomponent The hydrogen evolution reaction
+(HER)[1] is a key reaction in water-
+design.Thisstudypresentsanartificialintelligence-assistedhigh-throughput
+splitting hydrogen production technol-
+frameworkthatsynergizeslargelanguagemodels(LLMs)forliteraturemining
+ogy. HER catalytic efficiency directly
+andgeneticalgorithms(GAs)foriterativeoptimizationtoovercomethischal- impacts the sustainable development
+lenge.Here,LLMsanalyzed14242publicationstoidentify10criticalhydrogen of the hydrogen energy industry.[2] Due
+evolutionreaction(HER)-activeelements(Fe,Co,Ni,Pt,etc.),narrowing to the scarcity and high cost of tradi-
+tional noble metal catalysts (e.g., Pt[3],
+thecandidatepoolto126Pt-basedHEAcombinations.GA-drivenexperiment
+Ru[4], Ir[5]), developing cost-effective
+optimizesthissubsetviaultrafasthigh-throughputmaterialsynthesisand
+alternative catalysts is a significant
+screeningusingultrafasthigh-temperaturethermalshocktechnology,achiev-
+challenge in the field of energy cataly-
+ingconvergencein4iterations(24samples)for60%reductionoftheversus sis. In recent years, high-entropy alloy
+conventionalGAapproaches.TheoptimalIrCuNiPdPt/Ccatalystexhibitsthe (HEA) catalyst[6] emerged as a novel
+record-lowHERoverpotentialsof25.5and119mVat10and100mAcm−2,sur- category of catalytic material. By in-
+corporating multiple metal elements
+passingcommercialPt/Cby49%and18%,respectively,whichdemonstrates
+into a single catalytic system, they can
+300-hstabilitywithnegligibledecay.Thisworkestablishesaparadigm-shifting
+modulate the electronic structure of the
+strategybridgingcomputationalintelligenceandautonomousexperiment, catalytic surface to enhance catalytic
+thatslashesthediscoverytimefrommillenniatohours,enablingrational performance.[7]Theuniquepropertiesof
+designofmulti-componentcatalystsforsustainableenergyapplications. HEA catalysts allow them high catalytic
+activity and stability, demonstrating
+Z.Fu,P.Huang,X.Wang,K.Chen,Y.Chen L.Kong
+SchoolofMaterialsScienceandEngineering EngineeringResearchCenterofMinistryofEducationforGeological
+KeyLaboratoryofAdvancedCeramics CarbonStorageandLowCarbonUtilizationofResources
+MachiningTechnologyofMinistryofEducation BeijingKeyLaboratoryofMaterialsUtilizationofNonmetallicMinerals
+TianjinKeyLaboratoryofCompositeandFunctionalMaterials andSolidWastes
+TianjinUniversity NationalLaboratoryofMineralMaterials
+Tianjin300072,China SchoolofMaterialSciencesandTechnology
+E-mail:cumthpf@cumt.edu.cn;yananchen@tju.edu.cn ChinaUniversityofGeosciences
+Z.Fu,P.Huang,X.Wang,K.Chen,Y.Chen Beijing100083,China
+StateKeyLaboratoryofPreciousMetalFunctionalMaterials J.Li
+TianjinUniv SchoolofChemistry
+Tianjin300072,China KeyLaboratoryofAdvancedTechnologiesofMaterials(Ministryof
+W.-D.Liu Education)
+SchoolofChemistryandPhysics SouthwestJiaotongUniversity
+ARCResearchHubinZero-emissionPowerGenerationforCarbon Chengdu610031,China
+Neutrality,andCentreforMaterialsScience E-mail:jinyang.li@swjtu.edu.cn
+QueenslandUniversityofTechnology
+Brisbane4000,Australia
+TheORCIDidentificationnumber(s)fortheauthor(s)ofthisarticle
+canbefoundunderhttps://doi.org/10.1002/aenm.202500744
+DOI:10.1002/aenm.202500744
+Adv.EnergyMater.2025,15,2500744 2500744(1of10) ©2025Wiley-VCHGmbH
+
+www.advancedsciencenews.com www.advenergymat.de
+extensive application potential in energy conversion reactions,
+suchasHERs.[8]
+HEA catalysts offer a broad design space,[9] while effi-
+cient identification of the optimal alloy combination remains
+a formidable challenge. Traditional screening methods typi-
+cally rely on extensive experiment and computation, which are
+time- and resource-consuming.[10] Moreover, the synthesis of
+HEA catalysts is often complex, with sintering processes re-
+quiring extended durations, further slowing down the devel-
+opment of catalysts.[11,12] To address these challenges, artifi-
+cial intelligence[13,14] (AI) and machine learning[15] (ML) have
+been applied to catalyst design and optimization in recent
+years, achieving significant progress. By simulating the pro-
+cess of natural selection and genetic variation, genetic algo-
+rithmscanefficientlyexplorecomplexHEAcatalystsandavoid
+falling into local optimal solutions. Meanwhile, literature min-
+ing techniques based on LLMs[16,17] can automatically identify
+keycatalystelementsrelatedtocatalyticperformancefromexten-
+sivescientificliteratures,providingpreciseguidanceforcatalyst
+design.
+In addition, the material synthesis process also impacts
+the performance and development of HEA catalysts. To fur-
+ther accelerate the preparation and optimization of HEA cat-
+Figure1. Schematicillustrationofthescreeningandoptimizationprocess
+alysts, the high-temperature thermal shock (HTS)[18,19] tech- forHEAcatalysts.a)Thetraditionalbrute-force(BF)searchmethod;b)the
+nique, as a rapid sintering technique, was employed. Specifi- CombinedmethodusingLLMandgeneticalgorithm(GA).
+cally, this technique involves instant heating of a material to
+hightemperature,dwelling,andcooling.[20] Thisrapidtemper-
+2.ResultsandDiscussion
+aturechangeintroducesdensedefects,suchasdislocationsand
+grain boundaries, which significantly enhance the atomic dif- Figure 1 illustrates the screening and optimization process for
+fusion rate and accelerate the sintering process.[21] HTS facili- HEA catalysts integrating LLMs and a genetic algorithm (GA),
+tates the interdiffusion and homogenization of constituent el- which is more efficient comparing the traditional brute-force
+ements, promoting the formation of alloy phases and grain (BF)searchmethod.InFigure1a,theBFsearchmethodinvolves
+growth.[22]Thereby,HTSsignificantlyenhancesmaterialprepa-
+selectingfiveelementsfrom90metallicelementsintheperiodic
+ration efficiency and reduces the time consumption compar- table(FigureS1,SupportingInformation),resultingin43949268
+ing with traditional sintering methods.[18] It is demonstrated possible combinations. Testing these combinations experimen-
+that HTS can improve the activity, stability, and overall perfor- tallyatarateof10samplesperdayrequires≈12040years,mak-
+manceofcatalystsbyintroducingabundantdislocationsandop- ingthismethodhighlyimpracticalduetolowefficiency.[24]
+timizingtheelectronicstructure.[23]Furthermore,HTScanalso
+Incontrast,Figure1boutlinesamoreefficientframeworkthat
+tailor the surface morphology and pore structure of the cata- combines the LLMs and GA. The LLMs narrow the candidate
+lyst, thereby influencing the adsorption and diffusion behavior pool from 90 elements to 10 by extracting promising elements
+of reactants on the catalyst surface, further enhancing catalytic from literatures. These elements, combined with a platinum
+performance.[21]
+(Pt)substrate,generateonly126potentialcombinations.GAfur-
+Herein, we propose an AI-assisted catalyst discovery frame- theroptimizesthisreduceddatasetthroughiterativescreening,
+work that synergizes literature-derived knowledge from LLMs requiring only four iterations (24 samples in total) to identify
+and iterative optimization via GA to rapidly identify high- the optimal catalyst with the lowest overpotential. Using high-
+performancePtPdIrNiCu/CHEAcatalystsforHER.LLMswere throughputjouleheating,whichcanprocess1sampleevery15
+employed to identify critical elements affecting HER perfor- min, the entire screening process can be completed in just 6
+mance.Thegeneticalgorithmswereusedtooptimizethecom- h.Thisapproachdrasticallyreducesthetimeandresourcesre-
+position of HEA catalysts. Additionally, the HTS technique quired for catalyst discovery, highlighting its significant advan-
+was applied to expedite the catalyst synthesis process. The tageoverthetraditionalBFmethod.[25]
+proposed approach not only drastically reduces the time and Figure 2a illustrates the framework of LLMs applied in this
+resource demanded for catalyst screening and synthesis, but study, which includes four stages: literature screening, knowl-
+also experimentally demonstrates the outstanding HER perfor- edge base construction, model training, and application, with
+mance of several newly developed HEA catalysts. This work the objective of establishing a closed loop encompassing basic
+provides innovative insights into the rapid screening and in- researchandpracticalapplication.Initially,literaturescreening
+telligentdesign ofefficientcatalysts, fosteringtheseamless in- servesasthefoundationforconstructingahigh-qualitydataset.
+tegration of high-throughput material synthesis with catalyst The Web of Science database was used to retrieve publications
+optimization. relatedtotheHER.AsdepictedinFigure2b,theinitialsearch
+Adv.EnergyMater.2025,15,2500744 2500744(2of10) ©2025Wiley-VCHGmbH
+16146840,
+2025,
+30,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/aenm.202500744
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for rules
+of
+use;
+OA
+articles
+are governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.advenergymat.de
+Figure2. LLMs-drivenresearchframeworkforHERmaterials.a)Frameworkoverview,consistingoffourmainphases:literaturescreening,knowledge
+baseconstruction,modelfine-tuning,andapplication;b)Resultsofliteraturescreening;c)FrequencystatisticsofelementsappearinginHEAmaterials
+literature.
+collectedtitleandabstractinformationoff79664articles.Toen- gentlyrecommendHER-relevantcatalyticelementsandexperi-
+surequalityofthedataset,weappliedaseriesoffilteringcrite- mentaldesignstrategies.Thistrainingparadigmempowersthe
+ria,includingpublicationyears(2000–2024)andanaveragecita- modeltoefficientlyextractpertinentinformationfromthelitera-
+tionrateofmorethan10citationsperyear.Afterapplyingthese ture,furnishintelligentsupportforsubsequentexperimentalde-
+refinements, a final dataset of 14242 articles was obtained for sign,andexpeditetheresearchtrajectory.[26]
+analysis.Furthermore,toenhancedatarelevance,thesearticles AspresentedinFigure2c,astatisticalanalysiswasconducted
+underwentefficientscreeningandclassificationusingtheLLMs, todeterminethefrequencyofHEA-relatedelementswithinthe
+resultingintheexclusionofpublicationswithtenuousconnec- 1225selectedpublications.Theanalysisrevealsthatamongnon-
+tionstotheresearchobjectives.Followingtworoundsofscreen- precious metal elements, Fe, Co, and Ni exhibits the highest
+ing,1225articlesdirectlyrelevanttoHERofHEAwereidentified occurrence frequencies. Conversely, within precious metal cat-
+(FigureS2,SupportingInformation).Subsequently,thefulltexts alysts, Pt demonstrates a significantly elevated frequency com-
+oftheseselectedarticleswereacquiredviaanautomatedscript, paredtootherelements.FiguresS3,S4(SupportingInformation)
+servingastheprimarydatasourceforknowledgebasedevelop- show the prompt words and Q&A examples of large language
+ment. models.Consequently,Ptwasselectedasthebasematerial,with
+Regardingmodeltraining,InternLM2.57Bwasselectedasthe the incorporation of high-frequency elements, such as Fe, Co,
+base model, and fine-tuning was performed using the XTuner andNi,forthesynthesisofHEAcatalysts.Thisliterature-driven
+toolkit in conjunction with the low-rank adaptation (LoRA) designstrategyaimsatdevelopingnovelHEAcatalystsexhibit-
+methodology.Thisfine-tuningprocesswasemployedtointelli- ing superior HER performance and establishing a theoretical
+Adv.EnergyMater.2025,15,2500744 2500744(3of10) ©2025Wiley-VCHGmbH
+16146840,
+2025,
+30,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/aenm.202500744
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.advenergymat.de
+Figure3. a)Theprocessofhigh-throughputpreparationofHEAcatalystsusingultrafasthigh-temperatureshocktechnique;b)Transmissionelectron
+microscopy(TEM)imagesandcorrespondingelementalmapping;c)X-raydiffraction(XRD)patternsofdifferentHEAsamples;d)Schematicdiagram
+ofhigh-throughputelectrochemicaltesting;e)Linearsweepvoltammetry(LSV)curvesofdifferentHEAcatalysts.
+framework and experimental foundation for catalyst optimiza- rate of 600 K s−1.[20] This ultrafast HTS not only significantly
+tionandpracticalimplementation. reduced material synthesis time but also mitigated thermal
+Figure 3 illustrates the experimental workflow for high- stress caused by non-uniform heating or cooling, thereby en-
+throughputmaterialsynthesisandscreeningusingultrafastHTS suring the structural integrity and performance stability of the
+technology.AsshowninFigure3a,thesynthesisprocesscom- HEA catalysts. To validate the effectiveness of this method,
+menceswiththemixingofelementalsaltsolutionsandcarbon SupplementaryFiguresS6b,c(SupportingInformation)further
+black.Toensurecompositionalhomogeneityoftheprecursors, reveal the micromorphology and performance homogeneity of
+theelementalsaltsolutionsandcarbonblackweremixedpropor- as-synthesized HEA catalysts. As shown in Figure S6b (Sup-
+tionallyaccordingtochemicalstoichiometryofas-designedcata- porting Information), electrochemical performance of the six
+lysts.Subsequently,themixturewassubjectedtorapidHTStreat- parallel samples shows strong consistency, indicating similar
+ment using the apparatus illustrated in Figure S5 (Supporting catalytic activity across all HEA catalysts. Additionally, Sup-
+Information).Acriticalaspectofthisprocessisthetemperature plementary Figure S6c (Supporting Information) reveals the
+control,whereadetailedtemperature-timeprofileisprovidedin particlesizedistributionofdifferentsamples,showinguniform
+FigureS6a(SupportingInformation).Notably,thetemperature- size distribution with an average particle size of ≈5 nm. For
+timeprofilesofsixparallelsamplesarehighlyconsistent,demon- comparison,thesamplesweresubjectedtoheattreatmentina
+strating high uniformity and controllability of the heating pro- tube furnace at a consistent temperature for 1 h, employing a
+cess. heatingrateof5°Cmin−1 inanargonatmosphere.Theresul-
+During the heating phase, the mixture temperature was tant sample is designated as TF-PtNiIrPdCu/C. Transmission
+rapidlyelevatedto600°Cviapulsecurrent-drivenJouleheating electron microscopy (TEM) images of the TF-PtNiIrPdCu/C
+(atheatingrateupto2000Ks−1in300ms),followedbyacooling samplesobtainedfromthetubefurnace(FigureS7,Supporting
+Adv.EnergyMater.2025,15,2500744 2500744(4of10) ©2025Wiley-VCHGmbH
+16146840,
+2025,
+30,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/aenm.202500744
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.advenergymat.de
+Information) clearly illustrate the coarsening and agglomer- tionofthe126combinations.ThehistograminFigure4areveals
+ation of HEA NPs structures, as well as the non-uniformity abroaddistributionofoverpotentials(20–160mV),highlighting
+in their size distribution. This is due to the slow heat- significantvariabilityincatalyticactivityacrossawiderangeof
+ing rate of the tube furnace, and the continuous insula- compositions.Asacomplementforthisanalysis,theheatmapin
+tion process provides sufficient energy input for Ostwald Figure 4b provides a visual representation of the performance,
+ripening, resulting in agglomeration and growth of HEA wheredarkerhuesindicatehigheroverpotentialsandlowerac-
+nanoparticles. The extremely fast heating speed and very tivity. Together, these datasets underscore the critical influence
+short heating time of HTS can effectively prevent the ofelementalselectiononHERperformance.
+nanoparticles from growing together at high temperatures. Figure 4c details the hybrid GA-Experimental iterative opti-
+A narrow particle size distribution is critical for catalytic appli- mization workflow. This hybrid approach combines GA prin-
+cations,whichincreasesthespecificsurfaceareaofthecatalyst, ciples with high-throughput experimentation and rational de-
+and enhances reaction activity and long-term stability. This sign. Initially, six random five-element Pt-based HEA catalysts
+uniformity highlights two key advantages of HTS technology: were synthesized and tested for HER performance. The top-
+high controllability of the particle size and excellent electro- performing candidate from each batch underwent partial ele-
+chemical performance, which are crucial for the application of ment substitution to generate new variants while preserving
+high-efficiencycatalysts. high-activityelements(TableS3,SupportingInformation).More
+TEM images and corresponding elemental maps are illus- specifically,theelementexhibitingsuperioractivitycomparedto
+tratedinFigureS8(SupportingInformation)andFigure3b.The analogswillberetained,whileotherelementswillbesubstituted
+STEM images of the electron microscope showed that the ele- tofurtherrefinetheperformance.Eachiteration(representedby
+mentsPt,Ni,Ir,Pd,andCuwereuniformlydistributedonthe dashedboxesinFigure4d)recordstheoverpotentialandcompo-
+carbonblack,andtheatomicratioofPt,Ni,Ir,Pd,andCuinPtNi- sition(listedelements),whichtracestheprogressionfromran-
+IrPdCu/CmeasuredbyICP-MS(TableS1,SupportingInforma- dominitialcandidatestooptimizedsolutions.Figure4eisacom-
+tion), further confirming this conclusion, confirming homoge- parisonofthebestoverpotentialsofthetwoalgorithmsateach
+neouselementalmixingachievedduringtherapidHTSsynthe- iteration.Withinfouriterations,thisstrategyidentifiedthecom-
+sisprocess.Thiscompositionaluniformityiscriticalforoptimiz- binationswiththeoptimaloverpotentials,demonstratingitseffi-
+ing catalytic performance, which is solid foundation for syner- ciencyinnavigatingcomplexHEAdesign.
+gisticinteractionsamongelements.Subsequently,Figure3cdis- Tovalidaterobustnessofthisworkflow,20independentopti-
+plays XRD patterns of as-synthesized samples. Notably, no ele- mization trials yields consistent results (Figure4f), confirming
+mentalsegregationsorprecipitationsweredetected,whichcan thehighreliability.Comparedtotraditionalbrute-forcesearches
+be attributed to the ultrafast heating and cooling rates (up to requiring ≥10 iterations for comparable performance, this ap-
+2000 K s−1) inherent to HTS technology. These extreme ther- proachreducesexperimentaliterationsby60%whilemaintain-
+malkineticssuppresselementaldiffusionandphaseseparation inghighaccuracy,acceleratingcatalystdiscoveryandconserving
+duringsynthesis,therebypreservingstructuralhomogeneityand resources.Theseresultsconclusivelydemonstratetheefficiency
+stabilityintheHEAcatalysts.TheHTStechniqueenablespre- ofGA-guidediterativeoptimizationforhigh-efficiencyHEAcat-
+cise control over HEA composition and microstructure, which alystscreening.
+directlyenhancestheHERactivity. Structural and compositional characterization of the opti-
+The high-throughput electrochemical testing protocol, illus- mized PtPdIrNiCu/C catalyst was performed. As shown in
+trated in Figure 3d, comprises three sequential steps. First, an Figure 5a, XRD analysis revealed distinct structural features,
+automatedpipettingroboticarmdepositscatalyst-containingink wherethepeakat25.1°correspondstotheVulcanXC-72Rcar-
+onto a titanium plate (Figure S9a,c, Supporting Information). bonsupport,andthenewlyemergedpeaksat41.49°,48.17°,and
+Second,acustomelectrolyticcellwithlateralmicro-aperturesen- 70.46°confirmtheformationofacrystallinephase.[27] Notably,
+suresuniformelectrolyte-samplecontact(FigureS9b,d,Support- the(111)peakofPtNiIrPdCu/Cissignificantlyshiftedto41.49°
+ing Information). Finally, a dynamic forced-convection circula- compared with the standard peak of pure platinum (111) crys-
+tion driven by an external pump optimizes reaction conditions talface(39.8°),indicatingthatalloyingresultsincontractionof
+bymaintaininginterfacialstabilityandeliminatinglocalizedcon- crystalfacespacing.Meanwhile,accordingtothestandardPDF
+centrationgradients.Figure3eandFigureS10(SupportingInfor- #652868,the(111)planespacingofpureplatinumis0.226nm,
+mation)showstheelectrochemicaltestresultsfordifferentsam- whilethelatticespacingofPtNiIrPdCu/Cis0.21nmasshown
+ples,demonstratingtheefficiencyofevaluatingcatalyticperfor- byhigh-resolutiontransmissionelectronmicroscopy(Figure5c),
+mancebythismethod. whichis7.1%lessthanthatofpureplatinum.
+Figure4depictstheoptimizationprocesstoidentifyHEAcat- This phenomenon is due to lattice distortion caused by the
+alystsusingaGA.Here,wedevelopedaGA-drivenoptimization differenceintheradiiofmulticomponentatoms.[28]Specifically,
+frameworktargetingatenhancedHERactivity.First,preliminary theatomicradiiofIr(1.36Å),Pd(1.37Å),Cu(1.28Å),andNi
+screeningviaLLMsidentified10keyelementsfromabroadcan- (1.24Å)areallsmallerthanthoseofPt(1.39Å),andtheintro-
+didatepool.Basedontheseelements,acombinatoriallibraryof duction of these smaller atoms forces the Pt lattice to undergo
+126distinctfive-elementPt-basedHEAswasscreenedout(spe- compressive strain, which significantly changes the electronic
+cificcombinationsshowninTableS2,SupportingInformation). structure of Pt due to lattice distortion. Due to the increased
+The HER performance of these candidates was evaluated elec- overlap of the d orbitals, the d-band of the alloy is broadened,
+trochemically,withoverpotentialat10mAcm−2 astheprimary resultinginadownwardshiftinthecenterofthed-band,[29–31]
+metric.Figure4a,bstatisticallyanalyzetheoverpotentialdistribu- which weakens the adsorption free energy (ΔG *) of the H
+Adv.EnergyMater.2025,15,2500744 2500744(5of10) ©2025Wiley-VCHGmbH
+16146840,
+2025,
+30,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/aenm.202500744
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.advenergymat.de
+Figure4. ScreeningandoptimizationprocessforHEAcatalystsusinggeneticalgorithm(GA).a)Overpotentialdistributionhistogramof126five-element
+Pt-basedHEAcombinationsat10mAcm−2;b)Heatmapofoverpotentialvariationsacrosscombinatorialcompositions;c)HybridGA-experimental
+iterativeworkflow;d)Evolutionofcatalystcompositionsandoverpotentialsacrossiterations;e)Comparativeanalysisofoptimaloverpotentialsachieved
+periterationbetweenGA-guidedandBFsearchstrategies;f)Robustnessvalidationthrough20independentoptimizationtrials.
+hydrogenintermediate,andisconducivetothedehydrogenation thecompositionalhomogeneityandstructuralintegrity.[21] The
+andexposureoftheactivesite.[32,33] Thegeometricphaseanaly- mainpeaksofPt0 4f andPt0 4f are71.60and74.97eVre-
+7/2 5/2
+sis(GPA)imagesobtainedfromthereddottedareainFigure5c spectively,indicatingthatplatinumismainlyinametallicstate
+usingGatandigitalmicrophotographysoftware(Figure5e)con- withasmallamountofoxidationstate(Pt2+4f peakis74.32eV
+7/2
+firm the existence of non-uniform lattice strain in HEA-NPs, andPt2+4f peakis77.40eV).Comparedwiththemetallicpeak
+5/2
+andthisnon-uniformlatticestrainresultsfromthelatticedistor- positionofPt/C,[35]thetwocharacteristicpeaksbelongingtoPt0
+tioneffectcausedbydifferentatomicradii.Broadeningofthese inthesampleareshiftedtowardthedirectionoflowbindingen-
+peaks suggests nanoscale grain size, which is consistent with ergy.ThisindicatesthattheelectrondensityofPtincreases,the
+the average particle size of 5.19 nm observed in TEM images essenceofwhichisthetransferofelectronsfromlesselectroneg-
+(Figure 5b). HAADF-STEM image and corresponding energy- ativeNiandCutoPt,forminganelectron-richsurfaceofPt.[36]In
+dispersivespectroscopy(EDS)maps(Figure5d)demonstrateho- FigureS11a(SupportingInformation),theNi2pspectrumshows
+mogeneousdistributionofPt,Pd,Ir,Ni,andCu,whichdirectly thesimultaneouspresenceofNi0(853.3and870.8eV)andNi2+
+evidencessuccessfulHEAsynthesis.[34]STEMimagesfromelec- (855.9and873.9eV),withsatellitepeaksat861.1and879.2eV,
+tron microscopy show that Pt, Ni, Ir, Pd, and Cu elements are indicatingpartialsurfaceoxidationduetothehighchemicalre-
+evenlydistributedonthecarbonblack.EDSresults(FigureS11, activity of Ni. Similarly, Cu0 2p and Cu0 2p have peaks at
+3/2 1/2
+SupportingInformation)alsoshowedthatPt,Ni,Ir,andPdwere 932.5and952.3eV,andCu2+2p andCu2+2p havepeaksat
+3/2 1/2
+uniformlydistributed,whiletheexcessivecontentofCuwasdue 934.9 and 954.7 eV. Ni2+ and Cu2+ in the oxidation states have
+totheinfluenceofcopperskeletoninthecarbon-supportedfilm. stronger positivity. As Lewis acidic sites, these oxidation state
+In order to measure element distribution more accurately, we speciespreferentlyadsorbanddissociateH O,reducingthedis-
+2
+furtherconfirmedthisconclusionbymeasuringtheatomicra- sociationenergybarrierofO-Hbond[37](Volmerstep).However,
+tiosofPt,Ni,Ir,Pd,andCuinPtNiIrPdCu/CbyICP-MS(Table thePtsitewithoptimizedelectronicstructurecansignificantly
+S1, Supporting Information). X-ray photoelectron spectroscopy improveHERreactionefficiencyinacidicmediabyreducingthe
+(XPS) analysis (Figure S12, Supporting Information) confirms H* desorbitization energy barrier (Heyrovsky/Tafel step) to co-
+the metallic states of Pt, Pd, Ir, Ni, and Cu, further validating acceleratethereactionkinetics.[36,38]
+Adv.EnergyMater.2025,15,2500744 2500744(6of10) ©2025Wiley-VCHGmbH
+16146840,
+2025,
+30,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/aenm.202500744
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.advenergymat.de
+Figure5. Structure,compositioncharacterization,andelectrocatalytichydrogenevolutionreactionofPtPdIrNiCu/C:a)XRDpattern;b,c)high-resolution
+transmissionelectronmicroscopy(HRTEM)images;d)high-angleannulardarkfieldscanningtransmissionelectronmicroscopy(HAADF-STEM)image
+andcorrespondingenergydispersivespectroscopy(EDS)elementalmapping;e)StraindistributionalongExy,correspondingtothereddashedareas
+markedin(c).Thecompressivestrainshowedashiftfromgreentodarkblue,andthetensilestrainshowedashiftfromredtobrightyellow.f)LSV
+curvesofPtPdIrNiCu/CandcommercialPt/C(20wt.%)in0.5mH SO solution(potentialsarecorrectedrelativetothereversiblehydrogenelectrode
+2 4
+(RHE));g)TafelslopesofPtPdIrNiCu/CandcommercialPt/C;(h)electrochemicalimpedancespectroscopy(EIS)spectrum;i)Cyclicvoltammetry(CV)
+wasusedtodeterminetheC_dlofPtPdIrNiCu/Ccatalystatdifferentscanrates;j)stabilitytestofPtPdIrNiCu/Catacurrentdensityof10mAcm−2.
+Adv.EnergyMater.2025,15,2500744 2500744(7of10) ©2025Wiley-VCHGmbH
+16146840,
+2025,
+30,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/aenm.202500744
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.advenergymat.de
+HERperformanceofPtPdIrNiCu/Ccatalystwasevaluatedin 4.ExperimentalSection
+0.5mH SO usingcommercialPt/C(20wt.%)asabenchmark
+2 4 Chemicals and Materials: Platinum acetylacetonate Pt(acac) , pal-
+(all potentials are referred to RHE). Linear sweep voltamme- 2
+ladium acetylacetonate Pd(acac) , iridium acetylacetonate Ir(acac) ,
+try (LSV) curves (Figure 5f) show superior activity for PtPdIr- 2 3
+rutheniumacetylacetonateRu(acac) ,cobaltacetylacetonateCo(acac) ,
+NiCu/C, with the overpotentials of 25.5 and 119 mV at 10 and nickelacetylacetonatedihydrateNi(a 3 cac) ·2H O,copperacetylacetonat 2 e
+100mAcm−2,respectively,outperformingPt/C(44and140mV).
+Cu(acac) , zinc acetylacetonate Zn(acac
+2
+) , m
+2
+anganese acetylacetonate
+2 2
+Tafelslopeanalysis(Figure5g)revealsavalueof20.5mVdec−1 Mn(acac) ,andironacetylacetonateFe(acac) wereallpurchasedfrom
+2 2
+forPtPdIrNiCu/Cversus49mVdec−1 forcom20Pt/C,indicat- Aladdin;AcetoneandanhydrousethanolwereobtainedfromTianjinJiang-
+ingenhancedreactionkinetics.Electrochemicalimpedancespec- tian Chemical Technology Co., Ltd.; Commercial Pt/C (20 wt.%) was
+purchased from Xience; Nafion solution (5 wt.%) was purchased from
+troscopy (EIS) (Figure 5h) demonstrates lower charge-transfer
+DuPont.Alltheabovechemicalswereofanalyticalgradeandusedwith-
+resistance for PtPdIrNiCu/C, correlating with its faster elec-
+outfurtherpurification.TheVulcanXC-72Rcarbonblack(CabotCorp.)
+tron transfer rate. Double-layer capacitance (C
+dl
+) measurement wasusedasthesupportmaterial.Thedeionizedwater(18.1MΩcm−1)
+(Figure5i)derivedfromcyclicvoltammetry(FigureS13,Support- usedinallexperimentswaspreparedusingaMilli-Qultrapurepurification
+ingInformation)yieldsanelectrochemicallyactivesurfacearea system(ProgardTNP2).
+of36.2mFcm−2 forPtPdIrNiCu/C,7.5timeshigherthanPt/C High-Throughput Synthesis of HEA Nanoparticles: The synthesis of
+(7.9mFcm−2).Long-termstabilitytest(Figure5j)confirmsneg- HEAnanoparticlesemploysahigh-temperaturepulsedmethod,[37]exem-
+ligibleperformancedecayover300hat100mAcm−2 compar- plifiedbythesynthesisofPtNiIrPdCu/C,withthefollowingspecificsteps:
+First,accuratelyweigh4.0mgofPt(acac) ,3.05mgofPd(acac) ,2.95mg
+ing with state-of-the-art literatures[39–47] (Figures S14; Table S4, ofNi(acac) ·2H O,4.05mgofRu(acac) 2 ,and4.95mgofIr(aca 2 c) ,along 2 2 3 3
+SupportingInformation).After5000cvcyclesin0.5mH2SO4, with5.0mgofVulcanXC-72Rcarbonblack,anddispersethemin10mL
+the polarization curve of PtNiIrPdCu/C catalyst showed negli- ofacetone.Then,stirthemixtureat50°Cuntiltheacetonecompletely
+gible overpotential shift (Figure S15, Supporting Information), evaporates,andgrindtheremainingsolidintoauniformpowder.Subse-
+quently,spreadthegroundpowderuniformlyona5cm×2cmcarbon
+andthemorphologywasconsistentwiththeinitialstate(Figure
+paper,andconnectbothendsofthecarbonpapertotheelectrodesof
+S16,SupportingInformation).Inaddition,themappingandEDS
+HTSequipment(ShenzhenZhongkejingyanCompany)usingconductive
+maps(FiguresS17,S18,SupportingInformation)alsoshowthat
+adhesiveoranothersuitablemethod.Performahigh-temperaturepulse
+Pt,Ni,Ir,Pd,andCuarestillevenlydistributedafterstabilization, treatmentat600°Cinatubefurnaceorothersuitablereactorunderan
+andtheproportionofelementsdoesnotchangesignificantly.At argonatmosphere.Specificpulseparameters(suchasvoltage,current,
+thesametime,theamountofNiintheelectrolytewasquantita- pulseduration,andinterval)shouldbeoptimizedandrecordedaccord-
+tivelymonitoredbyinductivelycoupledplasmamassspectrom- ingtoexperimentalrequirements.Aftercoolingtoroomtemperature,re-
+movethecarbonpaper,onwhichthefinalPtNiIrPdCu/CHEAnanoparti-
+etry(ICP-MS).After500CVcycles,thecontentofNiintheelec-
+clesareloaded.Themethodforpreparingothercarbon-supportedhigh-
+trolyte was 6.314 μg L−1, while after 5000 CV cycles, the disso- entropynanoparticleswithdifferentcompositions(suchasPtNiIrPd/C,
+lutionofNiincreasedonlyslightlyto6.876μgL−1 (FigureS19, PtNiIrCu/C,etc.)isthesameasforPtNiIrPdCu/C,onlyrequiringthesub-
+SupportingInformation).Itisfurtherprovedthatthesamplehas stitutionofprecursorswithequimolaramountsofcorrespondingmetal
+excellentelementalstabilityduringthelong-termelectrochemi- acetylacetonates.
+calcycle. LargeLanguageModelFine-Tuning: Inthework,theInternLM2.5Chat
+7Bmodelwasfine-tunedusingtheXTunertoolkitcombinedwithlow-rank
+adaptation(LoRA)totailoritforHER-relatedtasks.Specifically,thedataset
+3.Conclusion wasconstructedfromover5000downloadedHER-relatedpapers,which
+wereprocessedusingacustomizedprompttemplateandtruncatedto
+ThisstudydemonstratesatransformativeAI-assistedcatalystdis- 2048tokens.Forefficiency,themodelwasquantizedto4-bitprecision
+covery framework that synergizes literature-derived knowledge andadaptedusingLoRAwitharankof64,lora_alphaof16,andadropout
+from LLMs and iterative optimization via GA to rapidly iden- rateof0.1.Trainingwascarriedoutfor3epochswithabatchsizeof1per
+deviceandgradientaccumulationover16steps,employingtheAdamW
+tify high-performance PtPdIrNiCu/C HEA catalysts for HER.
+optimizerwithalearningrateof2e-4andatwo-phaselearningratesched-
+By mining 14242 HER publications, LLMs successfully nar-
+ule(linearwarmupfor3%oftheepochsfollowedbycosineannealing
+rowed 90 candidate elements down to 10 high-frequency com-
+decay).
+ponents (Fe, Co, Ni, Pt, etc.), reducing the promising combi- MaterialCharacterizations: Thephasecompositionandcrystalstruc-
+natorialcompositionsfrom43.9millionto126Pt-basedHEAs. ture of the HEA nanoparticles (NPs) were analyzed using a Bruker D8
+GAfurtheroptimizedthissubsetthroughfouriterativecyclesof
+AdvanceX-raydiffractometer(XRD)withCuK𝛼radiation.Themorphol-
+high-throughputHTSsynthesisandtest,prioritizingpartialele- ogy,elementaldistribution,andelementalratioswereexaminedthrough
+a JEOL JEM-F200 transmission electron microscope (TEM) equipped
+mentsubstitutionstorefinecompositionswhilepreservinghigh-
+withanenergy-dispersivespectrometer(EDS).X-rayphotoelectronspec-
+activitymotifs,whichultimatelyslashesexperimentaliterations
+troscopy(XPS)wasconductedusingaThermoFisherScientificESCALAB
+by60%comparedtoconventionalmethods.ThisdualAI-driven Xi+instrument,withthemainC1speakat284.8eVemployedasaref-
+strategy leveraging LLMs for knowledge extraction and GA for erenceforcalibration.Additionally,thetemperatureevolutionduringthe
+targetedexplorationenablesthediscoveryofnanoscaleHEAcat- high-temperatureliquid-state(HTLS)processwasmonitoredusinganin-
+alysts (5.19 nm) with exceptional structural homogeneity, con- fraredtemperaturesensor(SA-D30160A).
+tributing to record-low overpotentials (25.5 mV@10 mA cm−2, Electrochemical Characterization: All electrochemical measurements
+wereconductedatroomtemperatureusingathree-electrodesystemon
+49%lowerthancom20Pt/C)and300-hstability.Highefficiency
+an electrochemical workstation (CHI 660E instrument). The electrocat-
+oftheproposedframework,validatedby20independenttrials, alytic ink was prepared by dispersing 2 mg of the sample and 10 μL
+resolvesthe“curseofdimensionality”inmulti-elementcatalyst ofNafion(5wt.%)into450μLofethanoland50μLofwater,followed
+design,andestablishesascalableblueprintforacceleratingfunc- by ultrasonication for 30 min. The working electrode was prepared by
+tionalmaterialdiscovery.
+drop-casting15μLoftheelectrocatalyticinkontoaglassycarbon(GC)
+Adv.EnergyMater.2025,15,2500744 2500744(8of10) ©2025Wiley-VCHGmbH
+16146840,
+2025,
+30,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/aenm.202500744
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.advenergymat.de
+electrode (5 mm in diameter). A platinum sheet electrode and a DataAvailabilityStatement
+Hg/Hg SO electrodecontainingasaturatedpotassiumsulfatesolution
+2 4
+wereusedasthecounterelectrodeandreferenceelectrode,respectively. Thedatathatsupportthefindingsofthisstudyareavailablefromthecor-
+Theelectrolyteusedwasa0.5mH SO solution.Allmeasuredpotentials respondingauthoruponreasonablerequest.
+2 4
+werenormalizedtothereversiblehydrogenelectrode(RHE)potentialus-
+ingtheNernstEquation(1):
+Keywords
+E(RHE)=E(Hg∕Hg SO )+0.0592×pH+0.652 (1)
+2 4
+geneticalgorithms,high-entropycatalysts,high-throughputscreening,hy-
+Forthehydrogenevolutionreaction(HER)tests,thecatalystswereini-
+drogenevolutionreaction,largelanguagemodels
+tiallyactivatedtoachieveastablecurrentusingcyclicvoltammetry(CV)
+rangingfrom0.08to−0.52Vatascanrateof50mVs−1 for30cycles.
+Received:February5,2025
+Thelinearsweepvoltammetry(LSV)curvesweremeasuredfrom0.08to
+−0.72Vatascanrateof5mVs−1toassessthecatalysts’activity.AllLSV Revised:April21,2025
+Publishedonline:May12,2025
+curveswerecorrectedforsolutionOhmicresistancewith90%iRcom-
+pensation.Electrochemicalimpedancespectroscopy(EIS)wasconducted
+overafrequencyrangefrom105Hzto0.1Hzat−0.02V.Long-termdura-
+bilitywasevaluatedbymonitoringtheoverpotentialduringcontinuous
+hydrogenproductionatdifferentcurrentdensitiesof10mAcm−2.The
+[1] D.Zhou,P.Li,X.Lin,A.McKinley,Y.Kuang,W.Liu,W.-F.Lin,X.Sun,
+double-layercapacitances(C )oftheworkingelectrodeswerecalculated
+dl
+andfittedbasedonCVcurvesfromnon-Faradaicpotentialsatvariousscan X.Duan,Chem.Soc.Rev.2021,50,8790.
+rates(20,40,60,80,and100mVs−1),toestimatetheelectrochemically [2] H.Li,C.Tsai,A.L.Koh,L.Cai,A.W.Contryman,A.H.Fragapane,J.
+activesurfacearea(ECSA).TherelationshipbetweenECSAandC isex- Zhao,H.S.Han,H.C.Manoharan,F.Abild-Pedersen,J.K.Norskov,
+dl
+pressedas:ECSA=C /C ,whereCsisthespecificcapacitanceofthesam- X.Zheng,Nat.Mater.2016,15,48.
+dl s
+pleinsimilarconditions,typicallyrangingfrom20to60μFcm−2.In0.5m [3] Y.Wang,N.Gong,H.Liu,W.Ma,K.Hippalgaonkar,Z.Liu,Y.Huang,
+H SO ,amoderatevalueof40μFcm−2 isassumed.Forcomparison, Adv.Mater.2023,35,2302067.
+2 4
+theelectrocatalyticHERactivitiesofcommercialPt/C(20wt.%)catalysts [4] Y.Yang,Y.Yu,J.Li,Q.Chen,Y.Du,P.Rao,R.Li,C.Jia,Z.Kang,P.
+werealsotestedwithaloadingof127.4μgPtcm−2.Thechronocurrent
+Deng,Y.Shen,X.Tian,Nano-MicroLett.2021,13,160.
+methodwasemployedtoassessthestabilityofthecatalyst.Inastandard [5] J.Kwon,S.Sun,S.Choi,K.Lee,S.Jo,K.Park,Y.K.Kim,H.B.Park,
+three-electrodeconfiguration,carbonpaperwithaneffectiveareaof0.5×
+H.Y.Park,J.H.Jang,H.Han,U.Paik,T.Song,Adv.Mater.2023,35,
+0.5cm2 waschosenastheworkingelectrode,withacatalystloadingof 2300091.
+0.8mgcm−2.Duringthetest,aconstantcurrentdensityof100mAcm−2
+[6] D.Li,C.Liu,S.Tao,J.Cai,B.Zhong,J.Li,W.Deng,H.Hou,G.Zou,
+wasmaintained,andthelong-termstabilityofthecatalystwassystemati-
+X.Ji,Nano-MicroLett.2025,17,22.
+callyevaluatedbymonitoringchangesintheelectrodepotential.Inorder
+[7] R. B. Araujo, I. B. Pehlivan, T. Edvinsson, Nano Energy 2023, 105,
+toobtaintheamountofNidissolvedduringHERprocess,aworkingelec- 108027.
+trodewasusedin50mLof0.5mH SO electrolytesolutionatasweep
+rateof0.1Vs−1between0.04–0.11 2 Vfo 4 r5000cycles.Attheendof500 [8] M.Kim,E.B.Tetteh,O.A.Krysiak,A.Savan,B.Xiao,T.H.Piotrowiak,
+C. Andronescu, A. Ludwig, T. D. Chung, W. Schuhmann, Angew.
+and5000cyclesduringtheelectrocatalysisprocess,1.0mLelectrolytewas
+Chem.-Int.Ed.2023,62,202310069.
+extractedandthendilutedto10mLforICP-MSanalysistodeterminethe
+[9] F.Wang,P.Zou,Y.Zhang,W.Pan,Y.Li,L.Liang,C.Chen,H.Liu,S. concentrationofdissolvedNi.
+Zheng,Nat.Commun.2023,14,6019.
+[10] Y.Yao,Q.Dong,A.Brozena,J.Luo,J.Miao,M.Chi,C.Wang,I.G.
+Kevrekidis,Z.J.Ren,J.Greeley,G.Wang,A.Anapolsky,L.Hu,Science
+SupportingInformation
+2022,376,151.
+[11] M.Cui,C.Yang,B.Li,Q.Dong,M.Wu,S.Hwang,H.Xie,X.Wang,
+SupportingInformationisavailablefromtheWileyOnlineLibraryorfrom
+theauthor. G.Wang,L.Hu,Adv.EnergyMater.2021,11,2002887.
+[12] C.Triolo,K.Moulaee,A.Ponti,G.Pagot,V.DiNoto,N.Pinna,G.
+Neri,S.Santangelo,Adv.Funct.Mater.2024,34,2306375.
+[13] Y.Pan,X.Shan,F.Cai,H.Gao,J.Xu,M.Zhou,Angew.Chem.,Int.Ed.
+Acknowledgements
+2024,63,202407116.
+ThisworkwassupportedbytheNationalNaturalScienceFoundationof [14] X.Shan,Y.Pan,F.Cai,H.Gao,J.Xu,D.Liu,Q.Zhu,P.Li,Z.Jin,J.
+China(no.52171219,no.92372107)FundamentalResearchFundsforthe Jiang,M.Zhou,NanoLett.2024,24,11632.
+CentralUniversities(no.2682024ZTPY047). [15] M.H.S.Segler,M.Preuss,M.P.Waller,Nature2018,555,604.
+[16] S.Liu,T.Wen,A.S.L.S.Pattamatta,D.J.Srolovitz,Mater.Today2024,
+80,240.
+ConflictofInterest [17] K.M.Jablonka,P.Schwaller,A.Ortega-Guerrero,B.Smit,Nat.Mach.
+Intell.2024,6,161.
+Theauthorsdeclarenoconflictofinterest. [18] C.Liu,W.Zhou,J.Zhang,Z.Chen,S.Liu,Y.Zhang,J.Yang,L.Xu,W.
+Hu,Y.Chen,Y.Deng,Adv.EnergyMater.2020,10,2001397.
+[19] Z.W.Chen,J.Li,P.Ou,J.E.Huang,Z.Wen,L.Chen,X.Yao,G.Cai,
+AuthorContributions C.C.Yang,C.V.Singh,Q.Jiang,Nat.Commun.2024,15,359.
+[20] Y.Wang,Y.Chen,S.D.Lacey,L.Xu,H.Xie,T.Li,V.A.Danner,L.Hu,
+Z.F.andP.H.conceivedtheconceptanddesignedtheexperiments.Z.F., Mater.Today2018,21,186.
+X.W., L.K., and L.C. fabricated the samples, performed electrochemical [21] S.Liu,Y.Shen,Y.Zhang,B.Cui,S.Xi,J.Zhang,L.Xu,S.Zhu,Y.Chen,
+measurements,andanalyzedthedata.P.H.wrotethemanuscript,and Y.Deng,W.Hu,Adv.Mater.2022,34,2106973.
+allauthorscontributedtothediscussionandprovidedfeedbackonthe [22] C.Liu,Y.Shen,J.Zhang,G.Li,X.Zheng,X.Han,L.Xu,S.Zhu,Y.
+manuscript. Chen,Y.Deng,W.Hu,Adv.EnergyMater.2022,12,2103505.
+Adv.EnergyMater.2025,15,2500744 2500744(9of10) ©2025Wiley-VCHGmbH
+16146840,
+2025,
+30,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/aenm.202500744
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.advenergymat.de
+[23] S.Liu,Z.Hu,Y.Wu,J.Zhang,Y.Zhang,B.Cui,C.Liu,S.Hu,N. [35] M.Li,Z.Hu,H.Li,W.Zhou,Q.Yang,S.Hu,ACSAppl.NanoMater.
+Zhao,X.Han,A.Cao,Y.Chen,Y.Deng,W.Hu,Adv.Mater.2020,32, 2022,5,8243.
+2006034. [36] L.Zhang,K.Doyle-Davis,X.Sun,EnergyEnviron.Sci.2019,12,492.
+[24] M. Rittiruam, J. Noppakhun, S. Setasuban, N. Aumnongpho, A. [37] R.Subbaraman,D.Tripkovic,D.Strmcnik,K.Chang,M.Uchimura,
+Sriwattana,S.Boonchuay,T.Saelee,C.Wangphon,A.Ektarawong, A.Paulikas,V.Stamenkovic,N.Markovic,Science2011,334,1256.
+P.Chammingkwan,T.Taniike,S.Praserthdam,P.Praserthdam,Sci. [38] H.Zhu,S.Sun,J.Hao,Z.Zhuang,S.Zhang,T.Wang,Q.Kang,S.Lu,
+Rep.2022,12,16653. X.Wang,F.Lai,T.Liu,G.Gao,M.Du,D.Wang,EnergyEnviron.Sci.
+[25] Z.Lu,W.Sun,P.Cai,L.Fan,K.Chen,J.Gao,H.Zhang,J.Chen,Z. 2023,16,619.
+Wen,EnergyEnv.Sci.2025,18,2918. [39] Z.Jia,K.Nomoto,Q.Wang,C.Kong,L.Sun,L.Zhang,S.Liang,J.Lu,
+[26] L.Chen,Z.Chen,X.Yao,B.Su,W.Chen,X.Pang,K.-S.Kim,C.V. J.J.Kruzic,Adv.Funct.Mater.2021,31,2101586.
+Singh,Y.Zou,J.Mater.Inform.2022,2,19. [40] S.L.Zhang,X.F.Lu,Z.Wu,D.Luan,X.W.(David)Lou,Angew.Chem.,
+[27] H.Long,X.Zhang,Z.Zhang,J.Zhang,J.Yu,H.Yu,Nat.Commun. Int.Ed.2021,60,19068.
+2025,16,946. [41] X.Meng,C.Ma,L.Jiang,R.Si,X.Meng,Y.Tu,L.Yu,X.Bao,D.Deng,
+[28] H.Wang,Q.He,X.Gao,Y.Shang,W.Zhu,W.Zhao,Z.Chen,H. Angew.Chem.,Int.Ed.2020,59,10502.
+Gong,Y.Yang,Adv.Mater.2024,36,2305453. [42] T.Liu,W.Gao,Q.Wang,M.Dou,Z.Zhang,F.Wang,Angew.Chem.,
+[29] J.Yang,S.Yang,L.An,J.Zhu,J.Xiao,X.Zhao,D.Wang,ACSCatal. Int.Ed.2020,59,20423.
+2024,14,3466. [43] K.Jiang,B.Liu,M.Luo,S.Ning,M.Peng,Y.Zhao,Y.-R.Lu,T.-S.Chan,
+[30] Z.Xia,S.Guo,Chem.Soc.Rev.2019,48,3265. F.M.F.DeGroot,Y.Tan,Nat.Commun.2019,10,1743.
+[31] Y.Yang,Z.Jia,Q.Wang,Y.Liu,L.Sun,B.Sun,J.Kuang,S.Dai,J.He, [44] N.Cheng,S.Stambula,D.Wang,M.N.Banis,J.Liu,A.Riese,B.Xiao,
+S.Liu,L.Duan,H.Tang,L.Zhang,J.Kruzic,J.Lu,B.Shen,Energy R.Li,T.-K.Sham,L.-M.Liu,G.A.Botton,X.Sun,Nat.Commun.2016,
+Environ.Sci.2024,17,5854. 7,13638.
+[32] Y.Zhu,M.Klingenhof,C.Gao,T.Koketsu,G.Weiser,Y.Pi,S.Liu,L. [45] H.Zhang,P.An,W.Zhou,B.Y.Guan,P.Zhang,J.Dong,X.W.(David)
+Sui,J.Hou,J.Li,H.Jiang,L.Xu,W.Huang,C.Pao,M.Yang,Z.Hu, Lou,Sci.Adv.2018,4,aao6657.
+P.Strasser,J.Ma,Nat.Commun.2024,15,1447. [46] D.Wu,K.Kusada,T.Yamamoto,T.Toriyama,S.Matsumura,I.Gueye,
+[33] H.Cai,H.Yang,S.He,D.Wan,Y.Kong,D.Li,X.Jiang,X.Zhang,Q. O. Seo, J. Kim, S. Hiroi, O. Sakata, S. Kawaguchi, Y. Kubota, H.
+Hu,C.He,Angew.Chem.,Int.Ed.2025,64,202423765. Kitagawa,Chem.Sci.2020,11,12731.
+[34] S.Dou,J.Xu,X.Cui,W.Liu,Z.Zhang,Y.Deng,W.Hu,Y.Chen,Adv. [47] X.Cui,Y.Liu,X.Wang,X.Tian,Y.Wang,G.Zhang,T.Liu,J.Ding,W.
+EnergyMater.2020,10,2001331. Hu,Y.Chen,ACSNano2024,18,2948.
+Adv.EnergyMater.2025,15,2500744 2500744(10of10) ©2025Wiley-VCHGmbH
+16146840,
+2025,
+30,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/aenm.202500744
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+

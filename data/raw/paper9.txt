@@ -1,0 +1,613 @@
+pubs.acs.org/Langmuir Article
+Conformal Noble Metal High-Entropy Alloy Nanofilms by Atomic
+Layer Deposition for an Enhanced Hydrogen Evolution Reaction
+† †
+Lin Jing, Yiming Zou, Ronn Goei, Leyan Wang, Jiamin Amanda Ong, Anatoli Kurkin, Yun Li,
+Kwan W. Tan,* and Alfred Iing Yoong Tok*
+CiteThis:https://doi.org/10.1021/acs.langmuir.2c03367 ReadOnline
+ACCESS *
+Metrics&More ArticleRecommendations sı SupportingInformation
+ABSTRACT: The current synthesis methods of high-entropy alloy (HEA) thin-
+film coatings face huge challenges in facile preparation, precise thickness control,
+conformal integration, and affordability. These challenges are more specific and
+noteworthy for noble metal-based HEA thin films where the conventional
+sputtering methods encounter thickness control and high-cost issues (high-purity
+noble metal targets required). Herein, for the first time, we report a facile and
+controllablesynthesisprocessofquinaryHEAcoatingsconsistingofnoblemetals
+(Rh, Ru, Pt, Pd, and Ir), by sequential atomic layer deposition (ALD) coupled
+with electrical Joule heating for post-alloying. Furthermore, the resulting quinary
+HEA thin film with a thickness of ∼50 nm and an atomic ratio of 20:15:21:18:27 shows promising potential as a platform for
+catalysis,exhibitingenhancedelectrocatalytichydrogenevolutionreaction(HER)performanceswithloweroverpotentials(e.g.,from
+85to58mVin0.5MH SO )andhigherstability(byretainingmorethan92%oftheinitialcurrentafter20hwithacurrentdensity
+2 4
+of10mA/cm2in0.5MH SO )thanothernoblemetal-basedstructurecounterpartsinthiswork.Theenhancedmaterialproperties
+2 4
+anddeviceperformancesareattributedtotheefficientelectrontransferofHEAwiththeincreasednumberofactivesites.Thiswork
+not only presents RhRuPtPdIr HEA thin films as promising HER catalysts but also sheds light on controllable fabrication of
+conformal HEA-coated complex structures toward a broad range of applications.
+■
+INTRODUCTION comes to noble metal-based fabrication.25,26 In addition,
+magnetron sputtering itself is a time- and power-dependent High-entropyalloys(HEAs)comprisemultiple(fiveor more)
+process that can achieve fast film deposition but has poor
+principalelementsthatexhibitsuperiormechanical(e.g.,specific
+strength/hardness),1−3electrical(e.g.,superconductivity,catal- precision in terms of thickness control. A typical magnetron
+ysis),4−6 and thermal (e.g., thermal stability) properties,7−9 sputteringprocessnormallygivesfilmswiththicknessesofover
+hundredsofnanometersorinthemicrometerscale,whichare
+attributingtothedistinctdesignconceptandtheresultinghigh-
+notrequiredforcertainapplications(e.g.,catalysis)whereonlya
+entropyeffect,sluggishdiffusioneffect,severe-lattice-distortion
+effect, and cocktail effect.10−12 The development of HEA thin thin layer is needed (<100 nm).27,28 This imprecise thickness
+controlnotonlyleadstounnecessarywasteofresourcesbutalso
+films and coatings is a promising and cost-effective way to
+restricts further fabrication and applications of devices with
+incorporate HEA into broader application scenarios, such as
+miniature and complex structures (e.g., high aspect ratio).29,30
+integrationwithcomplexsubstratesorasprotectivelayersand
+soon.13−15Inparticular,noblemetal-basedHEAthinfilmsare Assuch,afacile,precise,andconformalgrowthmethodishighly
+desirable for the fabrication of noble metal-based HEA thin
+expectedtoprovidemoreactiveandstablecatalysisperformance
+films, the electrocatalytic performance of which would be of
+becauseof theirtunableadsorption energyand highstructural
+stabilityaccordingtosimulationstudies.16,17Furthermore,thin greatinteresttoinvestigate.
+Herein,wereportafacileandcontrollablesynthesisprocessof
+filmshavebeenreportedtoshowhighercatalyticactivitythan
+conformal quinary HEA thin films consisting of noble metals
+their powder counterparts,18,19 due to the latter’s particle
+(Rh,Ru,Pt,Pd,andIr),bysequentialatomiclayerdeposition
+agglomeration and negative effects from the support material
+(ALD) coupled with electrical Joule heating (EJH) for post-
+(e.g.,carbonlayer).Althoughtherehavebeensomeencouraging
+theoreticalstudiesofthefabricationofHEAthinfilms,20,21no
+experimental fabrication has been reported so far for noble Received: December14,2022
+metal-based HEA thin films, and the remaining challenges are Revised: February7, 2023
+detailedbelow.
+To date, most HEA thin films are fabricated by magnetron
+sputtering.22−24 Unfortunately, the high-purity sputtering
+targets make this process very expensive, especially when it
+©XXXXAmericanChemicalSociety https://doi.org/10.1021/acs.langmuir.2c03367
+A LangmuirXXXX,XXX,XXX−XXX
+.)CTU(
+81:31:60
+ta
+3202
+,81
+yraurbeF
+no
+VINU
+LACIGOLONHCET
+GNAYNAN
+aiv
+dedaolnwoD
+.selcitra
+dehsilbup
+erahs
+yletamitigel
+ot
+woh
+no
+snoitpo
+rof
+senilediuggnirahs/gro.sca.sbup//:sptth
+eeS
+
+Langmuir pubs.acs.org/Langmuir Article
+Figure1.FabricationprocessandcharacterizationoftheconformalRhRuPtPdIrhigh-entropyalloy(HEA)thinfilm.(a)Schematicillustrationofthe
+fabricationapproach,whichconsistsofsequentialatomiclayerdepositionandelectricalJouleheating.(b)Representativetop-viewopticalimages
+showingthecolordifferencesbetweentheglassycarbon(GC)substrate,theas-depositedRh/Ru/Pt/Pd/Ir5-layer,andtheresultantRhRuPtPdIr
+HEAthinfilmafterEJH.(c,d)Top-viewSEMandEDXmappingoftheHEAthinfilmindicatinghomogeneouselementaldistributionofRh,Ru,Pt,
+Pd,andIr,alongwiththesummaryofrespectiveelementalratios(atom%).(e)HAADF-STEMimageshowingtheHEAthinfilmcrosssectionand
+correspondingelementalmapsofRh,Ru,Pt,Pd,Ir,andtheiroverlay.
+alloying. This approach bypasses the obstacle of finding a deposited5-layershowsauniformlydispersedridge-and-valley
+common ALD temperature window for different noble metal morphologywithuniformprotrusionsof15±5nm.Afterthe
+precursorsandrealizesflexibleandconformalsynthesisofHEA EJHprocess,thefilmridgesgrowlargertoanaveragesizeof∼45
+thinfilmswithnanoscalethicknesscontrol.AquinaryHEAthin ±10nm.
+film with a thickness of ∼50 nm and an atomic ratio of We conducted top-view SEM energy-dispersive X-ray spec-
+20:15:21:18:27 was conformally deposited onto the glassy troscopy (EDX) mapping analysis to obtain quantitative
+carbonelectrode(GCE)substrate,exhibitingenhancedelectro- information of the constituent metals after the EJH process.
+catalytic hydrogen evolution reaction (HER) activities with TherepresentativeelementalmapinFigure1dshowsthatthe
+loweroverpotentialsandhigherstabilityinacidicenvironments distribution of Rh, Ru, Pt, Pd, and Ir is macroscopically
+than their unalloyed parent structures. The improved HER homogeneous across the scanned area. Furthermore, multiple
+performancesoftheHEAthinfilmareattributedtoitsefficient regions were randomly selected for the HEA thin films to
+electrontransferwithanincreasednumberofactivesites.This measure the average atomic concentrations of the component
+work not only presents noble metal-based HEA thin films as elements, yielding a Rh/Ru/Pt/Pd/Ir composition ratio of
+promising candidates for HER catalysts but also provides new 20:15:21:18:27 and a mixing entropy of 1.59R. The entropy
+strategies for fabricating conformal HEA-based complex value is higher than theoretical 1.5R and hence quantified the
+nanostructures. resultant film as a HEA material. To further confirm the
+■ thickness of the HEA thin film and the interdiffusion of each
+RESULTSANDDISCUSSION element, high-angle annular dark-field imaging scanning trans-
+First,atwo-stepapproachconsistingofsequentialALDandEJH missionelectronmicroscopy(HAADF-STEM)wascarriedout
+wasintroducedtofabricateRhRuPtPdIrHEAthinfilms.31,32As tocharacterizethefilmcrosssectionview,asshowninFigure1e.
+showninFigure1a,ALDwithprecisethicknesscontrolwasfirst The film thickness was confirmed to be ∼50 nm, showing the
+introduced to sequentially deposit the individual layers of Rh, precise nanoscale thickness control achieved by the ALD
+Ru,Pt,Pd,andIrwithauniformthicknessof∼10nmeach,onto growth. Meanwhile, the homogeneous distributions across the
+theglassycarbonelectrode(GCE)substrate.AfterALDgrowth, thicknessdirectionareexhibitedforalloftheconstituentmetals
+the as-deposited Rh/Ru/Pt/Pd/Ir 5-layer underwent EJH at Rh,Pd,Ir,Ru,andPt,confirmingthesuccessfulinterdiffusionof
+1000 °C for 1−5 s under low vacuum conditions to induce all the elements between each other even after a short EJH
+interdiffusion of various metal atoms in the out-of-plane annealing of 5 s, which is beneficial for the formation of a
+direction (i.e., along the film thickness) to obtain the HEA homogeneous solid solution toward HEA with minimized
+thinfilm.TheopticalimagesinFigure1bshowthecolorchange oxidation.Itisnotedthatsomedegreesofmetaldiffusioninto
+fromtheblackoftheGCEsurfacetothesilvercolorsoftheas- theGCEoccurredafterEJH(e.g.,IrandPt).
+depositedRh/Ru/Pt/Pd/Ir5-layerandhomogenizedHEAthin Tofurtherelucidatethestructuretransformationinducedby
+film after EJH. Top-view FESEM was conducted to further theEJHannealing,grazingincidenceX-raydiffraction(GIXRD,
+characterizethethin-filmmorphologiesofboththeas-deposited Figure2a)wascarriedoutforthethin-filmsamplesbeforeand
+andtheresultingHEAthinfilm.AsshowninFigure1c,theas- after EJH of 1, 3, and 5 s dwelling times. GIXRD patterns in
+B https://doi.org/10.1021/acs.langmuir.2c03367
+LangmuirXXXX,XXX,XXX−XXX
+
+Langmuir pubs.acs.org/Langmuir Article
+Figure2.Structuretransformationfromtheas-depositedRh/Ru/Pt/Pd/Ir5-layerfilmtotheRhRuPtPdIrHEAthinfilmafterEJH.(a)Schematicof
+theGIXRDmethodwasadoptedtocharacterizethecrystalstructureofthenanoscalethinfilm.(b)Wide-angleGIXRD(incidenceangleof1°)ofRh/
+Ru/Pt/Pd/Irthinfilms:as-depositedandthosetreatedby1,3,and5sofEJHat1000°C,wherethecharacteristicreflectionsofanfccstructurecanbe
+observed.(c)HigherresolutionGIXRDmeasurementsof(220)peaksoftheRh/Ru/Pt/Pd/Ir5-layerand(d)theHEAthinfilmafter5sofEJH.
+Figure2bshowcharacteristicpeaksofthefcccrystalstructure: peakpositionsofPt,Pd,Ir,andRhtotheangularpositionsof
+(111),(200),(220),and(311)planesaroundangularpositions 67.55,68.30,69.02,and69.80°,respectively,whichcorrespond
+2θvaluesof41.1,47.5,69.7,and84.0°,respectively.Becausethe tothe(220)diffractionpeaksinthedatabase(Pt,67.53°,COD
+constituentmetalshaveverysimilarlatticeconstants(fccRh,a= ID:1011113;Pd,68.34°,CODID:1011106;Ir,69.15°,COD
+0.38nm,fccPt,a=0.392nm;fccIr,a=0.383nm;fccPd,a= ID:9008470;Rh,69.90°,CODID:9008482).
+0.389nm),itisdifficulttoclearlydifferentiatethesingle-phase Figure2dpresentstheslow-scanGIXRDpatternsoftheRh/
+HEAsolidsolutionandpurecrystallinenoblemetals. Ru/Pt/Pd/Ir5-layerafter5sofEJHat1000°C,focusingonits
+Inthisregard,weconductedhigh-resolutionGIXRDscansof (220) reflection. Compared to the broad peak of the as-
+the5-layerRh/Ru/Pt/Pd/IrthinfilmsbeforeandafterEJHwith depositedsampleinFigure2c,thenewprimarypeakat69.80°
+an incidence angle of 1°, focusing on the (220) reflection after5sofEJHappearedsmootherandnarrower,suggestingthe
+betweenangularpositionsof66and72°.Theincidenceangleof formationofahomogeneoussolidsolutioncrystalstructure.In
+1° was selected based on our previous experience of thin-film addition, a minor peak was observed at 68.13° that could be
+samples with similar thickness, which allows sufficient X-ray attributed to some crystallites of pure Pd in the predominant
+penetration depth into the as-deposited films (Figure 2c) to HEAfilmafterEJH.Altogether,theHAADF-STEMEDXand
+providedistinctivestructuralinformationofthefourconstituent GIXRD data provide strong evidence for the successful
+metallayersofRh,Pt,Pd,andIr.33,34However,wewereunable formation of the RhRuPtPdIr HEA thin film and the fcc solid
+to differentiate the reflection of Ru likely due to its intrinsic solutioncrystalstructureafteranEJHprocessof5s.
+amorphous structure,35 as shown in the GIXRD scan of the X-ray photoelectron spectroscopy (XPS) was further
+individual Ru layer (Figure S1). We then performed the conducted to characterize the surface elemental distribution
+deconvolution operation on the (220) peak and assigned the (forafilmdepthof∼5−10nm),36,37corroboratingtheupward
+C https://doi.org/10.1021/acs.langmuir.2c03367
+LangmuirXXXX,XXX,XXX−XXX
+
+Langmuir pubs.acs.org/Langmuir Article
+Figure3.XPSspectraoftheRhRuPtPdIrHEAthinfilm,wherethe(a)surveyscan,fitted(b)Rh3d,(c)Ir4f,(d)Ru3d,(e)Pt4f,(f)Pd3d,and(g)O
+1sarepresented.
+Figure4.ElectrochemicalactivityoftheRhRuPtPdIrHEAthinfilmin0.5MHSO.(a,b)HER−LSVcurves,TafelplotsofRh,Rh/Ru/Pt/Pd/Ir5-
+2 4
+layer,andRhRuPtPdIrHEAthinfilmin0.5MHSO.(c)Electrochemicalimpedancespectroscopy(EIS)measurementsofRh,Rh/Ru/Pt/Pd/Ir5-
+2 4
+layer,andRhRuPtPdIrHEAthinfilmin0.5MHSO and(d)thezoom-inviewofEISofRhandRhRuPtPdIrHEAthinfilms.
+2 4
+diffusion of elements (i.e., Pd, Pt, Ru, Rh) toward the film scan spectra ranging from 0 to 1200 eV identify not only the
+surface(withtopIroverlayer).AsshowninFigure3a,thewide characteristicsignalofIr4fbutalsothesignalsofPd3d,Pt4f,Ru
+D https://doi.org/10.1021/acs.langmuir.2c03367
+LangmuirXXXX,XXX,XXX−XXX
+
+Langmuir pubs.acs.org/Langmuir Article
+Figure5.ChronoamperometrytestoftheRh,Rh/Ru/Pt/Pd/Ir5-layer,andRhRuPtPdIrHEAthinfilmsin0.5MHSO for20hatastaticcurrent
+2 4
+densityof−10mA/cm2.TheinsetshowstheopticalimagesofRh,5-layer,andtheHEAthinfilmsafter1runoftheLSVtest,indicatingthestabilityof
+theHEAthinfilm.
+3d,andRh3d.ConsideringthatanIrlayerof∼10nmthickness Heyrovsky step (electrochemical desorption) will follow to
+wasdepositedasthetopoverlayeroftheas-depositedfilm,the completethegenerationofH molecules.
+2
+presenceofotherelementsindicatesthediffusionalongtheout- AsshownintheHER-linearsweepvoltammetry(LSV)plots
+of-plane direction during the EJH process, enabling the of Figure 4a, with 0.5 M H SO as the electrolyte, the as-
+2 4
+structural transformation of the 5-metal-layer stack to a deposited Rh single layer, as-deposited Rh/Ru/Pt/Pd/Ir 5-
+homogeneous HEA film. The high-resolution profiles of layer, and RhRuPtPdIr HEA thin film required HER over-
+individual elements were fitted to further study the states of potentialsof74,85,and58mVtodriveacurrentdensityof10
+the component metals. As shown in Figure 3b, the Rh 3d mA/cm2, respectively. Similar trends in overpotential can be
+spectrum could be deconvoluted to identify the metallic Rh observed in the HER−LSV plots with 1 M H PO as an
+3 4
+peaksof312.6and307.8eV,wheretheoxidationpeaksof314.0 electrolyteaswell(FigureS2).TheHER−LSVplotswithwider
+and308.9eVarepresentedaswell.Similarly,Figure3c−fshows scanningrangesareshowninFigureS3.ARhsinglelayerwas
+the high-resolution profiles of Ir 4f, Ru 3d, Pt 4f, and Pd 3d, selectedasthecontrolgroupbecauseofitssubstantialpotential
+where the metallic peaks of Ir 4f 64.2/61.6 eV, Ru 3d 285.5/ for HER catalysis43,44 and strong stability compared to other
+280.9eV,Pt4f75.3/72.1eV,andPd3d341.4/336.3eVcanbe metals under diverse environments.45−47 The Tafel slopes
+identified, respectively. Meanwhile, the respective oxidation plotted in Figure 4breveal the HERkinetics in 0.5 M H SO ,
+2 4
+peaksofIr4f65.2/62.2eV,Ru3d286.1/281.7eV,Pt4f76.2/ where the values of 47, 59, and 42 mV/dec were calculated,
+73.0 eV, and Pd 342.7/337.6 eV are shown as well. The O 1s respectively,forRh,5-layer,andHEAthinfilm.ThelowestTafel
+spectra shown in Figure 3g further confirm the presence of slopevalueindicatestheHEAthinfilmhadthefastesthydrogen
+metal−oxygenbinding(M−O)withanenergyof529.6eV.This productionrate.TheoverallHERcatalyticperformanceofour
+fastoxidationduringthe5sEJHprocesscouldbeduetotwo HEAthinfilmiscomparableorevenbetterthanotherstate-of-
+mainreasons.Thefirstcauseisthepresenceofresidualoxygen the-art Rh-based electrocatalysts.48−51 The enhanced catalysis
+onthefilmsurfaceandintheEJHvacuumchamber.Thesecond activityoftheRhRuPtPdIrHEAthinfilmcomparedtotheas-
+reasoncouldbeduetotheoxidationdrivenbythecatalyticeffect depositedRhsinglelayerandthe5-layercouldbeattributedto
+oftheHEAsurface,whichhasbeenproveneffectiveindriving theefficientelectrontransferattheinterfaceoftheelectrodeand
+diverseoxidationreactions.38−42 the electrolyte,52,53 which will be discussed in the following
+Hydrogen evolution reaction (HER) tests were further sectionwithmoredetails.
+conductedtoevaluatethecatalyticpropertyoftheRhRuPtPdIr To better understand the surface reaction kinetics, charge
+HEAthinfilm,asshowninFigure4,where1MH 3 PO 4 and0.5 transfer resistance was measured through electrochemical
+M H 2 SO 4 were used as the electrolytes with a scan rate of 10 impedance spectroscopy (EIS) at an open-circuit voltage of
+mV/s(Figure4a,b).TheHERprocessisdependentonthepH V = −0.1 V (Figure 4c,d).54 The Nyquist plots were then
+RHE
+value.WithapHvalueof<7,theHERworksasbelow(eqs1−3)
+fittedwithaninsetcircuitmodel(FigureS4),whichconsistsof
+withtwoH+ionsreducedtogenerateH 2 molecules. seriesresistance(R s ),reactionintermediateformationresistance
+Volmerstep: H+ + M + e M H ads (1) ( e R le i c n t t ) r , od an es d s c h h o a w rg a e s t i r m an il s a f r er R re o s f is ∼ ta 1 nc Ω e ( in R c 0 t ) .5 . A M ll H thr S e O e t , h y in et -fi t l h m e
+s 2 4
+Tafelstep: 2M H ads 2M + H 2 (2) HEAthinfilmexhibitsalowerR int of2.6ΩcomparedtoRh(2.8
+Ω) and 5-layer (3.6 Ω) thin films. This means the faster
+Heyrovskystep: M H ads + H+ + e M + H 2 (3) formationofintermediatesattheelectrode−electrolyteinterface
+fortheHEAthin-filmelectrodeandthusloweractivationenergy
+whereM−H standsfortheHatomthatischemicallyabsorbed during electrocatalysis.52 Furthermore, the HEA thin film
+ads
+ontotheactivesitesofthecatalyst.Typically,HERinitiateswith exhibits the smallest R of 9.2 Ω that demonstrates its most
+ct
+the electrochemical hydrogen absorption driven by proton- efficientelectrontransferbetweentheproductandthereactant
+coupledelectrontransfer(i.e.,Volmerstep).AftertheVolmer duringtheHERprocess.ItshouldbenotedthatthehighR of5-
+ct
+step, either the Tafel step (chemical desorption) or the layersamples(3300Ω)couldbeduetogasbubbleformations
+E https://doi.org/10.1021/acs.langmuir.2c03367
+LangmuirXXXX,XXX,XXX−XXX
+
+Langmuir pubs.acs.org/Langmuir Article
+onthevariousmetalinterlayers.Meanwhile,EISmeasurements Pd(hfac) (min,95%,StremChemicals),RuCp (97%,Sigma-Aldrich),
+2 2
+werealsoconductedin1MH 3 PO 4 ,wheretheresultsshowed andRh(acac) 3 (97%,Sigma-Aldrich)wereusedasprecursors.High-
+similar trends (Figure S5). The HEA thin film exhibits the puritynitrogen(99.999%)withaflowrateof150sccmwasintroduced
+lowest R of 10.2 Ω compared to Rh (28.3 Ω) and 5-layer asthecarrierandpurginggasestomaintainthe1.0mbarbasepressure
+int ofthereactionchamber.Meanwhile,ozonewasintroducedforallofthe
+(107.5Ω)thinfilms.Notably,theHEAthin-filmelectrodealso
+fivenoblemetalALDprocessesasthecoreactant,whichwasprovided
+demonstratesamuchlowerR of3.7Ωamongthethreethin-
+ct bytheozonegenerator(Nanofrontier,XLK-G20)fedby40sccmhigh-
+filmelectrodes,withR valuesof31.6ΩforRhand303.9Ωfor
+ct purity oxygen (99.999%). The hand valve and pulse length were
+the5-layerthinfilm. carefully adjusted to tune the ozone concentration and keep the 1.0
+Chronoamperometry measurements further indicate the mbarbasepressureofthereactionchamber.
+significantlyenhancedHERcatalyticstabilityoftheRhRuPtP- Glassycarbonelectrodes(GCE)withthesizeof1cm×1cmwere
+dIr HEA thin film in acidic media, as shown in Figure 5. The used as the substrate for ALD growth, which were sequentially
+HEA thin film showed excellent stability with a slight current pretreatedwithdeionizedwater,ethanol,andfurtherpiranhasolution
+densitylossof∼7.5%fromthestartingHERcurrentdensityof (H 2 SO 4 /H 2 O 2 = 3:1) cleaning in an ultrasonic bath to remove the
+possible organic residues and create more anchoring sites on the
+−10mA/cm2for20hdurationunderconstantappliedpotential.
+surface.ARhlayerwithathicknessof∼10nmwasfirstdepositedonto
+The reasons for this current density loss could be due to the
+theGCEsubstrate,followedbysequentialALDgrowthsofRu,Pt,Pd,
+slight electrode corrosion,52 deactivation/poisoning of the andIrlayerswithsimilarthicknesses.MoredetailsregardingtheALD
+activesites,55orpotentialblockingbythegeneratedbubbles.56
+process (e.g., temperatures of the bubblers, tube lines and reaction
+Itshouldbenotedthatthemajorlossarisingatthebeginningof chambers,andpulselength)arelistedinTable1.Thesetemperatures
+thestabilitytestcouldbeattributedtotheequilibrationofthe
+HEAelectrodeintheelectrolyte.57Conversely,the5-layerthin
+Table1.ParametersfortheALDGrowthofRh,Ru,Pt,Pd,
+film showed an unexpected and consistent increase in current andIr
+densityattheendofthe20htimepoint,suggestingsignificant
+degradation of the electrode. Meanwhile, the Rh electrode Rh Ru Pt Pd Ir
+exhibited a similar trend of the current density drop as of the precursortemperature(°C) 170 65 150 65 185
+HEAelectrode,butwithagreaterdecreaseofover10%afterthe tubelinetemperature(°C) 175 100 150 100 190
+20 h stability test. As shown in the inset of Figure 5, severe depositiontemperature(°C) 190 240 140 200 180
+dissolution of the 5-layer thin film was observed after the first pulselengthofprecursor(s) 2.0 0.5 2.0 0.5 2.0
+cycleoftheLSVtest(−3to3V,10mA/s),whichcouldbedue pulselengthofozone(s) 0.3 0.1 0.3 0.1 0.3
+tothedifferentactivitiesofthedifferentlayersinH generation
+2
+andthusexplaintheunstableHERperformance.Ontheother
+hand, mild dissolution occurred for the Rh thin film, while no
+werecarefullyselectedtoensuretheoptimalsublimationofprecursors,
+obvious change was observed for the HEA thin film after the
+preventcondensation,andfurthertriggerthegrowthreactions.Inthe
+same LSV run, thereby corroborating their more stable HER meantime,thepulselengthsoftheprecursorsandozonewerechosento
+activities. A similar phenomenon was observed after the 20 h enablefullattachmenttothesubstratesurface,wherecertainprecursors
+stabilitytestaswell,asshowninFigureS6. werepulsedtwiceinsteadofonceforozoneduetotheirpoorvapor
+■ pressures.59Ourpreviousworkshaveconfirmedthesaturationofthese
+CONCLUSIONS ALDprocesses.59−61
+EJHAlloyingProcess.TheEJHannealingstepwasconductedwith
+In summary, this is the first reported facile and controllable thesetupandparametersfollowingourpreviouswork.32,62Inshort,the
+synthesisofconformalquinaryHEAnoblemetalalloycoatings as-depositedRh/Ru/Pt/Pd/Ir5-layerthinfilmsonGCEwereplaced
+(Rh, Ru, Pt, Pd, and Ir), through a two-step approach by ontopofacommercialcarbonfelt(FuelCellEarthInc.)underlow
+combiningALDwithEJH.Thisapproachcircumventsamajor vacuum conditions (<1 Torr). To conduct the EJH process, 3 s of
+obstacleofmergingtheALDtemperaturewindow ofdifferent temperaturerampingat105K/swasappliedfirst,andthenthesamples
+noble metal precursors and further realizes flexible, nanoscale wereannealedatatemperatureof1000°Cfor1,3,and5s.
+controlandconformalsynthesisofHEAthin-filmcoatings.The HER Electrocatalytic Measurements. The HER tests were
+carriedoutinacidicelectrolytesof1MHPO (Sigma-Aldrich)and
+resultingquinarynoblemetal-basedHEAthinfilmwith∼50nm 3 4
+0.5MHSO (Sigma-Aldrich)usingatypicalthree-electrodesetupofa
+thicknessshowssubstantiallyenhancedHERactivitywithlower 2 4
+CHI750Eelectrochemicalworkstation(CHInstruments).APtplate
+overpotentials (e.g., from 85 to 58 mV in 0.5 M H SO ) and
+2 4 and Ag/AgCl were used as the counter and reference electrodes,
+higherstability(only7.5%dropafter20hatacurrentdensityof respectively.Linearsweepvoltammetry(LSV)withascanrateof10
+10mA/cm2in0.5MH 2 SO 4 )comparedtoothernoblemetal- mV/swasadoptedtoobtainthepolarizationcurves.Meanwhile,allof
+based structures. These enhanced performances are attributed the potential values measured versus the Ag/AgCl electrode were
+tothesmallerelectricalandchargetransferresistanceimparted convertedtothescaleofthereversiblehydrogenelectrode(RHE)by
+bytheHEAstructure.Movingforward,morecomparisonswith thefollowingNernstequation:
+othernoblemetalthin-filmstructureswillbeconductedinterms E =E +0.059×pH+E0
+RHE Ag/AgCl Ag/AgCl
+oftheirHERperformances.Thisworknotonlyrealizesthefacile
+fabrication of novel noble metal-based HEA thin films with whereE0 =0.1976Vat298K.ThepHvaluesof0.5MHSO and
+Ag/AgCl 2 4
+precise control but also suggests the potential of introducing 1 M H 3 PO 4 are 0.3 and 1.08, respectively. The reference electrode
+conformal HEA coatings onto templates with complex potential and iR drop were calibrated according to the literature
+studies.63,64
+structuresfordiverseapplications.
+TheHERoverpotential(i.e.,therequiredextrapotentialabovethe
+■
+equilibrium to obtain a reasonable reaction rate) was tested under a
+EXPERIMENTALMETHODS
+standardcurrentdensityof10mA/cm2.TheTafelplotswereachieved
+SequentialALDGrowthsofRh,Ru,Pt,Pd,andIrLayers.Allof byreproducingtheLSVplotbyplottingE versusthelogarithmof
+RHE
+theALDprocesseswereconductedusingahome-builtALDsystem.58 currentdensity,wheretheTafelslopeswerefurthercalculatedandused
+Pt(acac) (97%, Sigma-Aldrich), Ir(acac) (97%, Sigma-Aldrich), tocomparethecatalyticperformancebetweeneachother.
+2 3
+F https://doi.org/10.1021/acs.langmuir.2c03367
+LangmuirXXXX,XXX,XXX−XXX
+
+Langmuir pubs.acs.org/Langmuir Article
+The chronoamperometry tests were conducted with a starting JiaminAmandaOng−SchoolofMaterialsScienceand
+current density of 10 mA/cm2 and a duration of 20 h. Constant Engineering,NanyangTechnologicalUniversity,Singapore
+potentialsof−0.1493,−0.1203,and−0.1283VwereappliedforHEA,
+639798,Singapore
+Rh,and5-layerthin-filmelectrodesduringthetests,respectively. AnatoliKurkin−SchoolofMaterialsScienceandEngineering,
+EIS Measurements. EIS was conducted on an electrochemical
+NanyangTechnologicalUniversity,Singapore639798,
+workstation(AutolabPGSTAT302N).Thealternatingcurrent(AC)
+Singapore
+impedance spectra from 100 kHz to 0.1 Hz were collected under a
+voltageperturbationof10mVversustheopen-circuitpotential(V
+YunLi−SchoolofMaterialsScienceandEngineering,Nanyang
+RHE
+of−0.1V)54inboth0.5MHSO and1MHPO electrolytes.Theas- TechnologicalUniversity,Singapore639798,Singapore
+2 4 3 4
+obtainedNyquistplotswerethenfittedusingacircuitmodelwiththe
+Completecontactinformationisavailableat:
+helpofZView4software.
+https://pubs.acs.org/10.1021/acs.langmuir.2c03367
+Characterization.Thecrystallinestructureswerecharacterizedby
+grazingincidenceX-raydiffraction(GIXRD,BrukerD8)withtheCu
+Kα source (1.54 Å radiation). The surface morphologies of the thin AuthorContributions
+filmsbeforeandafterEJHwereobtainedusingafieldemissionscanning †L.J.andY.Z.contributedequallytothiswork.
+electron microscope (FESEM, JEOL 7600F), where the atomic
+Notes
+concentrations of constituent noble metals were measured by the
+equipped EDX accessory (Oxford EDX detector). A high-resolution Theauthorsdeclarenocompetingfinancialinterest.
+transmissionelectronmicroscope(HR-TEM,JEM2100F)operatingat ■
+200 kV and equipped with an Oxford EDX Detector was used to ACKNOWLEDGMENTS
+observe the cross section of thin-film samples with EDX mapping
+conducted.Cross-sectionalTEMlamellaeoftheHEAthinfilmswere ThisworkwassupportedbytheAgencyforScience,Technology
+preparedusingafocusedionbeam(FIB,ZeissCrossbeam540).X-ray and Research (A*STAR) AME Individual Research Grant
+photoelectronspectroscopy(ShimadzuKratosAxisSupra,XPSwith15 (IRG) A1983c0032. K.W.T. and L.W. acknowledge financial
+kV and 15 mA Al Kα source) was conducted to analyze the surface supportfromtheSingaporeMinistryofEducationAcRFTier2
+elementalinformationoftheHEAthinfilm,wherethebindingenergy
+grant(MOET2EP50221-0017).Theauthorsacknowledgethe
+scale was calibrated with standard silver and gold samples. The as-
+support in electrochemical analysis from Dr. Dongshuang Wu
+obtained XPS data were fitted with the mixed 50% Gaussian−50%
+fromNTUMSEandShuoLifromNUSChBE.
+Lorentzianfunction.
+■ ■
+ASSOCIATEDCONTENT REFERENCES
+* sı SupportingInformation (1)George,E.P.;Curtin,W.A.;Tasan,C.C.HighEntropyAlloys:A
+Focused Review of Mechanical Properties and Deformation Mecha-
+The Supporting Information is available free of charge at
+nisms.ActaMater.2020,188,435−474.
+https://pubs.acs.org/doi/10.1021/acs.langmuir.2c03367.
+(2) Sathiyamoorthi, P.; Kim, H. S. High-Entropy Alloys with
+GIXRDresultoftheas-grownRusinglelayer;LSVplots HeterogeneousMicrostructure:ProcessingandMechanicalProperties.
+ofthin-filmsamplesinboth0.5MH SO and1MH PO Prog.Mater.Sci.2022,123,No.100709.
+2 4 3 4
+(3)Wang,W.-R.;Wang,W.-L.;Wang,S.-C.;Tsai,Y.-C.;Lai,C.-H.;
+with wider scanning ranges; and EIS measurements and
+Yeh,J.-W.EffectsofAlAdditionontheMicrostructureandMechanical
+fitting results of thin-film samples in both 0.5 M H SO
+2 4 PropertyofAlxcocrfeniHigh-EntropyAlloys.Intermetallics2012,26,
+and1MH PO (PDF)
+3 4 44−51.
+(4)Kozě lj,P.;Vrtnik,S.;Jelen,A.;Jazbec,S.;Jaglicic,Z.;Maiti,S.;
+■
+Feuerbacher, M.; Steurer, W.; Dolinsek, J. Discovery of a Super-
+AUTHORINFORMATION
+conductingHigh-EntropyAlloy.Phys.Rev.Lett.2014,113,No.107001.
+CorrespondingAuthors (5)Kao,Y.-F.;Chen,S.-K.;Chen,T.-J.;Chu,P.-C.;Yeh,J.-W.;Lin,S.-
+KwanW.Tan−SchoolofMaterialsScienceandEngineering, J.Electrical,Magnetic,andHallPropertiesofAlxcocrfeniHigh-Entropy
+NanyangTechnologicalUniversity,Singapore639798,
+Alloys.J.AlloysCompd.2011,509,1607−1614.
+(6)Xin,Y.;Li, S.;Qian,Y.; Zhu,W.;Yuan, H.;Jiang,P.; Guo,R.;
+Singapore; orcid.org/0000-0002-8289-6503;
+Wang, L. High-Entropy Alloys as a Platform for Catalysis: Progress,
+Email:kwtan@ntu.edu.sg
+Challenges,andOpportunities.ACSCatal.2020,10,11280−11306.
+AlfredIingYoongTok−SchoolofMaterialsScienceand
+(7) Ge, H.; Tian, F.; Wang, Y. Elastic and Thermal Properties of
+Engineering,NanyangTechnologicalUniversity,Singapore
+Refractory High-Entropy Alloys from First-Principles Calculations.
+639798,Singapore; orcid.org/0000-0003-3546-7180; Comput.Mater.Sci.2017,128,185−190.
+Email:miytok@ntu.edu.sg (8)Tsai,M.-H.;Yeh,J.-W.High-EntropyAlloys:ACriticalReview.
+Mater.Res.Lett.2014,2,107−123.
+Authors
+(9)Huang,Z.;Liu,G.;Zhang,B.;Yan,M.;Fu,Y.ATheoreticalStudy
+LinJing−SchoolofMaterialsScienceandEngineering, of the Stability, Mechanical and Thermal Properties of Alnicuco
+NanyangTechnologicalUniversity,Singapore639798, EquimolarHighEntropyAlloy.Phys.Lett.A2020,384,No.126797.
+Singapore; orcid.org/0000-0003-2282-5129 (10)George,E.P.;Raabe,D.;Ritchie,R.O.High-entropyalloys.Nat.
+YimingZou−SchoolofMaterialsScienceandEngineering, Rev.Mater.2019,4,515−534.
+(11)Yeh,J.W.;Chen,S.K.;Lin,S.J.;Gan,J.Y.;Chin,T.S.;Shun,T.
+NanyangTechnologicalUniversity,Singapore639798,
+T.;Tsau,C.H.;Chang,S.Y.NanostructuredHigh-EntropyAlloyswith
+Singapore
+Multiple Principal Elements: Novel Alloy Design Concepts and
+RonnGoei−SchoolofMaterialsScienceandEngineering,
+Outcomes.Adv.Eng.Mater.2004,6,299−303.
+NanyangTechnologicalUniversity,Singapore639798,
+(12) Stepanov, N. D.; Shaysultanov, D. G.; Salishchev, G. A.;
+Singapore; orcid.org/0000-0001-6794-0601
+Tikhonovsky,M.A.;Oleynik,E.E.;Tortika,A.S.;Senkov,O.N.Effect
+LeyanWang−SchoolofMaterialsScienceandEngineering,
+of V Content on Microstructure and Mechanical Properties of the
+NanyangTechnologicalUniversity,Singapore639798, CocrfemnnivxHighEntropyAlloys.J.AlloysCompd.2015,628,170−
+Singapore 185.
+G https://doi.org/10.1021/acs.langmuir.2c03367
+LangmuirXXXX,XXX,XXX−XXX
+
+Langmuir pubs.acs.org/Langmuir Article
+(13)Braeckman,B.R.;Depla,D.StructureFormationandProperties (31)Guo,Y.;Zou,Y.;Cheng,C.;Wang,L.;Made,R.I.;Goei,R.;Tan,
+ofSputterDepositedNbx-CocrcufeniHighEntropyAlloyThinFilms. K.W.;Li,S.;Tok,A.I.Y.NobleMetalAlloyThinFilmsbyAtomic
+J.AlloysCompd.2015,646,810−815. Layer Deposition and Rapid Joule Heating. Sci. Rep. 2022, 12,
+(14)Alvi,S.;Jarzabek,D.M.;Kohan,M.G.;Hedman,D.;Jenczyk,P.; No.2522.
+Natile, M. M.; Vomiero, A.; Akhtar, F. Synthesis and Mechanical (32) Wang, L.; Seah, G. L.; Li, Y.; Tu, W. H.; Manalastas Jr, W.;
+Characterization of a Cumotawv High-Entropy Film by Magnetron Reavley,M.J.H.;Corcoran,E.W.;Usadi,A.K.;Du,Z.;Madhavi,S.;
+Sputtering.ACSAppl.Mater.Interfaces2020,12,21070−21079. et al. Ultrafast Crystallization of Ordered Mesoporous Metal Oxides
+(15)Kim,H.;Nam,S.;Roh,A.;Son,M.;Ham,M.-H.;Kim,J.-H.; andCarbonfromBlockCopolymerSelf-AssemblyandJouleHeating.
+Choi,H.MechanicalandElectricalPropertiesofNbmotawRefractory Adv.Mater.Interfaces2022,9,No.2200151.
+High-EntropyAlloyThinFilms.Int.J.Refract.Met.HardMater.2019, (33)Roth,S.V.;Müller-Buschbaum,P.;Burghammer,M.;Walter,H.;
+80,286−291. Panagiotou,P.;Diethert,A.;Riekel,C.MicrobeamGrazingIncidence
+(16) Lu, Z.; Chen, Z. W.; Singh, C. V. Neural Network-Assisted Small Angle X-Ray Scattering�a New Method to Investigate
+DevelopmentofHigh-EntropyAlloyCatalysts:DecouplingLigandand HeterogeneousThinFilmsandMultilayers.Spectrochim.Acta,PartB
+CoordinationEffects.Matter2020,3,1318−1333. 2004,59,1765−1773.
+(17)Batchelor,T.A.A.;Pedersen,J.K.;Winther,S.H.;Castelli,I.E.; (34)Neerinck,D.G.;Vink,T.J.DepthProfilingofThinItoFilmsby
+Jacobsen, K. W.; Rossmeisl, J. High-Entropy Alloys as a Discovery GrazingIncidenceX-RayDiffraction.ThinSolidFilms1996,278,12−
+PlatformforElectrocatalysis.Joule2019,3,834−845.
+17.
+(18)Patel,N.;Patton,B.;Zanchetta,C.;Fernandes,R.;Guella,G.; (35)Xie,Q.;Jiang,Y.-L.;Musschoot,J.;Deduytsche,D.;Detavernier,
+Kale, A.; Miotello, A. Pd-C Powder and Thin Film Catalysts for C.;VanMeirhaeghe,R.L.;VandenBerghe,S.;Ru,G.-P.;Li,B.-Z.;Qu,
+Hydrogen Production by Hydrolysis of Sodium Borohydride. Int. J.
+X.-P.RuThinFilmGrownonTanbyPlasmaEnhancedAtomicLayer
+HydrogenEnergy2008,33,287−292.
+Deposition.ThinSolidFilms2009,517,4689−4693.
+(19)Tudu,B.;Nalajala,N.;PReddy,K.;Saikia,P.;Gopinath,C.S.
+(36) Caridi, F.; Torrisi, L.; Cutroneo, M.; Barreca, F.; Gentile, C.;
+ElectronicIntegrationandThinFilmAspectsofAu−Pd/Rgo/Tio2for
+Serafino,T.;Castrizio,D.XpsandXrfDepthPatinaProfilesofAncient
+Improved Solar Hydrogen Generation. ACS Appl. Mater. Interfaces
+SilverCoins.Appl.Surf.Sci.2013,272,82−87.
+2019,11,32869−32878.
+(37)Hazell,L.B.;Brown,I.;Freisinger,F.AModelforDetermining
+(20)Tunes,M.A.;Vishnyakov,V.M.MicrostructuralOriginsofthe
+the Composition of Layer Structured Samples Using Xps Electron
+High Mechanical Damage Tolerance of Nbtamow Refractory High-
+Take-OffAngleExperiments.Surf.InterfaceAnal.1986,8,25−31.
+EntropyAlloyThinFilms.Mater.Des.2019,170,No.107692.
+(38)Glaspell,G.;Fuoco,L.;El-Shall,M.S.MicrowaveSynthesisof
+(21)Kim,Y.S.;Park,H.J.;Mun,S.C.;Jumaev,E.;Hong,S.H.;Song,
+SupportedAuandPdNanoparticleCatalystsforCoOxidation.J.Phys.
+G.;Kim,J.T.;Park,Y.K.;Kim,K.S.;Jeong,S.I.;etal.Investigationof
+Chem.B2005,109,17350−17355.
+Structure and Mechanical Properties of Tizrhfnicuco High Entropy
+(39)Glaspell,G.;Hassan,H.;Elzatahry,A.;Abdalsayed,V.;El-Shall,
+Alloy Thin Films Synthesized by Magnetron Sputtering. J. Alloys
+M.S.NanocatalysisonSupportedOxidesforCoOxidation.Top.Catal.
+Compd.2019,797,834−841.
+(22) Hrusǩ a, P.; Lukác,̌ F.; Cichoň, S.; Vondrácě k, M.; Čízě k, J.; 2008,47,22−31.
+(40)Shimizu,K.-i.;Kubo,T.;Satsuma,A.SurfaceOxygen-AssistedPd
+Fekete, L.; Lancǒ k, J.; Vesely,́ J.; Minárik, P.; Cieslar, M.; et al.
+Nanoparticle Catalysis for Selective Oxidation of Silanes to Silanols.
+Oxidation of Amorphous Hfnbtatizr High EntropyAlloy Thin Films
+Chem.−Eur.J.2012,18,2226−2229.
+Prepared by Dc Magnetron Sputtering. J. Alloys Compd. 2021, 869,
+(41)Shimizu,K.-i.;Kubo,T.;Satsuma,A.;Kamachi,T.;Yoshizawa,K.
+No.157978.
+Surface Oxygen Atom as a Cooperative Ligand in Pd Nanoparticle
+(23)Khan,N.A.;Akhavan,B.;Zhou,C.;Zhou,H.;Chang,L.;Wang,
+Catalysis for Selective Hydration of Nitriles to Amides in Water:
+Y.; Liu, Y.; Fu, L.; Bilek, M. M.; Liu, Z. Rf Magnetron Sputtered
+ExperimentalandTheoreticalStudies.ACSCatal.2012,2,2467−2474.
+Alcocrcu0.5feni High Entropy Alloy (Hea) Thin Films with Tuned
+(42) Downs, E. L.; Tyler, D. R. Nanoparticle Catalysts for Nitrile
+MicrostructureandChemicalComposition.J.AlloysCompd.2020,836,
+Hydration.Coord.Chem.Rev.2014,280,28−37.
+No.155348.
+(43)Begum,A.;Bose,M.;Moula,G.GrapheneSupportedRhodium
+(24)Khan,N.A.;Akhavan,B.;Zhou,H.;Chang,L.;Wang,Y.;Sun,L.;
+Nanoparticles for Enhanced Electrocatalytic Hydrogen Evolution
+Bilek,M.M.;Liu,Z.HighEntropyAlloyThinFilmsofAlcocrcu0.5feni
+Reaction.Sci.Rep.2019,9,No.17027.
+withControlledMicrostructure.Appl.Surf.Sci.2019,495,No.143560.
+(25)Chawake,N.;Zálesá̌ k,J.;Gammer,C.;Franz,R.;Cordill,M.J.; (44) Ehsan, M. A.; Adam, A.; Rehman, A.; Qamar, M. Direct Self-
+Assembly of Hierarchically GrownRhodium Thin Filmsfor Electro-
+Kim, J. T.; Eckert, J. Microstructural Characterization of Medium
+EntropyAlloyThinFilms.Scr.Mater.2020,177,22−26. catalyticHydrogenEvolutionReaction.Catalysts2021,11,338.
+(45)Chen,M.-T.;Zhang,R.-L.;Feng,J.-J.;Mei,L.-P.;Jiao,Y.;Zhang,
+(26) Hu, M.; Cao, Q.; Wang, X.; Zhang, D.; Jiang, J.-Z. Fluence-
+L.;Wang,A.-J.AFacileOne-PotRoom-TemperatureGrowthofSelf-
+DependentMicrostructureandNanomechanicalPropertyinCo-Ni-V
+MediumEntropyAlloyThinFilms.Scr.Mater.2021,203,No.114050. SupportedUltrathinRhodium-IridiumNanosheetsasHigh-Efficiency
+(27) Wang, N.; Cao, Q.; Wang, X.; Zhang, D.; Jiang, J. Tuning Electrocatalysts forHydrogenEvolutionReaction. J. ColloidInterface
+Microstructure and Enhancing Mechanical Properties of Co-Ni-V-Al
+Sci.2022,606,1707−1714.
+Medium Entropy Alloy Thin Films Via Deposition Power. J. Alloys (46)Wang,X.-Y.;Feng,J.-J.;Zhang,L.;Luo,X.;Zhang,Q.-L.;Wang,
+Compd.2021,875,No.160003. A.-J.BioinspiredOne-PotFabricationofTriple-LayeredRh@Co@Pt-
+(28)Hu,M.;Cao,Q.;Wang,X.;Zhang,D.;Jiang,J.-Z.Ultra-Strong Skin Core-Shell Nanodendrites: A Highly Active and Durable
+NanostructuredCo-Ni-VMediumEntropyAlloyThinFilmDesigned Electrocatalyst Towards Oxygen Reduction Reaction. Electrochim.
+byInterfaceStrengthening.ThinSolidFilms2021,734,No.138866. Acta2019,321,No.134660.
+(29)Li,X.;Puttaswamy,M.;Wang,Z.;Tan,C.K.;Grimsdale,A.C.; (47) Han, Z.; Zhang, R.-L.; Duan, J.-J.; Wang, A.-J.; Zhang, Q.-L.;
+Kherani,N.P.;Tok,A.I.Y.APressureTunedStop-FlowAtomicLayer Huang, H.; Feng, J.-J. Platinum-Rhodium Alloyed Dendritic Nano-
+Deposition Process for Mos2 on High Porous Nanostructure and assemblies:AnAll-PhEfficientandStableElectrocatalystforHydrogen
+Fabrication of Tio2/Mos2 Core/Shell Inverse Opal Structure. Appl. EvolutionReaction.Int.J.HydrogenEnergy2020,45,6110−6119.
+Surf.Sci.2017,422,536−543. (48)Kundu,M.K.;Mishra,R.;Bhowmik,T.;Barman,S.Rhodium
+(30)Ke,W.;Liu,Y.;Wang,X.;Qin,X.;Chen,L.;Palomino,R.M.; Metal−RhodiumOxide(Rh−Rh2o3)NanostructureswithPt-Likeor
+Simonovis,J.P.;Lee,I.;Waluyo,I.;Rodriguez,J.A.;etal.Nucleation BetterActivityTowardsHydrogenEvolutionandOxidationReactions
+andInitialStagesofGrowthDuringtheAtomicLayerDepositionof (Her,Hor)inAcidandBase:CorrelatingItsHor/HerActivitywith
+Titanium Oxide on Mesoporous Silica. Nano Lett. 2020, 20, 6884− HydrogenBindingEnergyandOxophilicityoftheCatalyst.J.Mater.
+6890. Chem.A2018,6,23531−23541.
+H https://doi.org/10.1021/acs.langmuir.2c03367
+LangmuirXXXX,XXX,XXX−XXX
+
+Langmuir pubs.acs.org/Langmuir Article
+(49)Zhang,N.;Shao,Q.;Pi,Y.;Guo,J.;Huang,X.Solvent-Mediated
+Shape Tuning of Well-Defined Rhodium Nanocrystals for Efficient
+ElectrochemicalWaterSplitting.Chem.Mater.2017,29,5009−5015.
+(50) Kutyła, D.; Salcı, A.; Kwiecinśka, A.; Kołczyk-Siedlecka, K.;
+Kowalik, R.; Żabinś ki, P.; Solmaz, R. Catalytic Activity of Electro-
+depositedTernaryCo−Ni−RhThinFilmsforWaterSplittingProcess.
+Int.J.HydrogenEnergy2020,45,34805−34817.
+(51)Zou,Y.;Goei,R.;Ong,S.-A.;ONG,A.J.;Huang,J.;TOK,A.I.Y.
+DevelopmentofCore-ShellRh@PtandRh@IrNanoparticleThinFilm
+UsingAtomicLayerDepositionforHerElectrocatalysisApplications.
+Processes2022,10,1008.
+(52) Sivanantham, A.; Lee, H.; Hwang, S. W.; Ahn, B.; Cho, I. S.
+Preparation, Electrical and Electrochemical Characterizations of
+Cuconifemn High-Entropy-Alloy for Overall Water Splitting at
+Neutral-Ph.J.Mater.Chem.A2021,9,16841−16851.
+(53) Fabbri, E.; Habereder, A.; Waltar, K.; Kötz, R.; Schmidt, T. J.
+Developments and Perspectives of Oxide-Based Catalysts for the
+OxygenEvolutionReaction.Catal.Sci.Technol.2014,4,3800−3821.
+(54) Anantharaj, S.; Noda, S. Appropriate Use of Electrochemical
+Impedance Spectroscopy in Water Splitting Electrocatalysis. Chem-
+ElectroChem2020,7,2297−2308.
+(55)Zheng,W.;Lee,L.Y.S.;Wong,K.-Y.ImprovingthePerformance
+Stability of Direct Seawater Electrolysis: From Catalyst Design to
+ElectrodeEngineering.Nanoscale2021,13,15177−15187.
+(56)Bae,M.;Kang,Y.;Lee,D.W.;Jeon,D.;Ryu,J.Superaerophobic
+Polyethyleneimine Hydrogels for Improving Electrochemical Hydro-
+genProductionbyPromotingBubbleDetachment.Adv.EnergyMater.
+2022,12,No.2201452.
+(57)Han,X.;Yu,Y.;Huang,Y.;Liu,D.;Zhang,B.Photogenerated
+Carriers Boost Water Splitting Activity over Transition-Metal/
+Semiconducting Metal Oxide Bifunctional Electrocatalysts. ACS
+Catal.2017,7,6464−6470.
+(58)Zou,Y.;Cheng,C.;Guo,Y.;Ong,A.J.;Goei,R.;Li,S.;Yoong
+Tok,A.I.AtomicLayerDepositionofRhodiumandPalladiumThin
+Film Using Low-Concentration Ozone. RSC Adv. 2021, 11, 22773−
+22779.
+(59)Zou,Y.;Li,J.;Cheng,C.;Wang,Z.;Ong,A.J.;Goei,R.;Li,X.;Li, Recommended by ACS
+S.;Tok,A.I.Y.AtomicLayerDepositionofPalladiumThinFilmfrom
+Palladium (Ii) Hexafluoroacetylacetonate and Ozone Reactant. Thin
+Stabilizing Oxidation State of SnO for Highly Selective CO
+SolidFilms2021,738,No.138955. 2 2
+Electroreduction to Formate at Large Current Densities
+(60)Hämäläinen,J.;Munnik,F.;Ritala,M.;Leskela,M.AtomicLayer
+DepositionofPlatinumOxideandMetallicPlatinumThinFilmsfrom Yunling Jiang, Shi-Zhang Qiao, et al.
+Pt(Acac)2andOzone.Chem.Mater.2008,20,6840−6846.
+FEBRUARY 16, 2023
+(61)Hämäläinen,J.;Kemell,M.;Munnik,F.;Kreissig,U.;Ritala,M.; ACS CATALYSIS READ
+Leskelä,M.AtomicLayerDepositionofIridiumOxideThinFilmsfrom
+Ir(Acac)3andOzone.Chem.Mater.2008,20,2903−2907. Exploring the Parameters Controlling Product Selectivity in
+(62)Guo,Y.;Zou,Y.;Cheng,C.;Wang,L.;Made,R.I.;Goei,R.;Tan, Electrochemical CO Reduction in Competition with
+2
+K.W.;Li,S.;Tok,A.I.Y.NobleMetalAlloyThinFilmsbyAtomic Hydrogen Evolution Employing Manganese Bipyridine...
+Layer Deposition and Rapid Joule Heating. Sci. Rep. 2022, 12,
+No.2522. Wanwan Hong, Ainara Nova, et al.
+(63) Zeledón, J. A. Z.; Jackson, A.; Stevens, M. B.; Kamat, G. A.; FEBRUARY 16, 2023
+Jaramillo, T. F. Methods�a Practical Approach to the Reversible ACS CATALYSIS READ
+HydrogenElectrodeScale.J.Electrochem.Soc.2022,169,No.066505.
+Single Cu Atom Doping on Au Nanocluster: Its Implication
+(64)Anantharaj,S.;Noda,S.IrDropCorrectioninElectrocatalysis: 11
+EverythingOneNeedstoKnow!J.Mater.Chem.A2022,10,9348− toward Selectivity in C–C Coupling Reaction
+9354. Sayani Mukherjee, Sukhendu Mandal, et al.
+FEBRUARY 16, 2023
+CHEMISTRY OF MATERIALS READ
+Prolonged Stability of Pb-Catalyzed CO Electroreduction to
+2
+Methyl Formate in Acidic Methanol
+Dillon T. Hofsommer, Joshua M. Spurgeon, et al.
+FEBRUARY 15, 2023
+ACS APPLIED ENERGY MATERIALS READ
+Get More Suggestions >
+I https://doi.org/10.1021/acs.langmuir.2c03367
+LangmuirXXXX,XXX,XXX−XXX
+

@@ -1,0 +1,1283 @@
+RESEARCH ARTICLE
+www.afm-journal.de
+Design and Synthesis of PtPdNiCoMn High-Entropy Alloy
+Electrocatalyst for Enhanced Alkaline Hydrogen Evolution
+Reaction: A Theoretically Supported Predictive Design
+Approach
+Athira Chandran M, Pritha Dutta, Prashant Singh,* Ashutosh K. Singh,*
+and Bhagavatula L. V. Prasad*
+activesites,suggestingthepotentialforthe
+Electrocatalytichydrogengenerationrequiresamultifunctionalelectrocatalyst developmentofearth-abundantcatalystma-
+withabundantactivesitestodrivemultielectrontransferreactions. terials for efficient electrochemical energy
+Highentropyalloys(HEA)arefiveormore-elementswithhighconfigurational storage. Electrochemical water electrolysis
+isamultielectrontransferprocessinvolving
+entropyareconsidereduniquematerialsfornext-generationelectrocatalysts.
+several reactions.[1,2] A two-electron trans-
+Here,inthiswork,basedonnewscreeningguidelinesforcatalystselections
+ferreactionhappensatthecathodeforhy-
+thatcombinedensity-functionaltheorycalculatedGibbsformation-enthalpy
+drogenevolutionreaction(HER)whichalso
+withbondlengthandelectronegativityvariance,anovelHEAelectrocatalyst involvesthebreakingofthewatermolecule
+consistingoffiveelements,namely,Pt,Pd,Ni,Co,andMnhasbeendesigned. intoprotonsandhydroxides.[3]Eventhough
+Bysimpleroomtemperatureelectrodeposition,thedesignedcatalystis PtshowsgoodHERactivity,itfailstoshow
+good stability and corrosion resistance in
+preparedanditshydrogenevolutionreaction(HER)isexploredandvalidated
+acidicelectrolytesandahigherreactionbar-
+throughexperimentalandtheoreticalapproaches.TheHEAdemonstrateda
+rierinalkalineelectrolytes.[4,5] Insuchcir-
+superiorHERactivitywithanoverpotentialof22.6mVat−10mAcm−2which
+cumstances, the concept of high-entropy
+outperformsPt/Ccommercialcatalyst.Noevidentdegradationofthematerial alloys provides a new opportunity to tai-
+isdetectedevenafter100hoursofcontinuousoperationunderhighcurrent lor desired material properties including
+HER activity by altering alloy stoichiom-
+density.Moreover,theHEAhasshownexceptionalperformanceinharsh
+etry and selecting specific elements.[6]
+electrolyteconditionssuchasinsimulatedseawaterandactualseawater.Re-
+Notably, the alloying has been used
+markably,thedensity-functionaltheorycalculatedGibbsformation-enthalpyis
+as a promising route to partially reduce
+small(≈0eV)comparedtoPt/CplacingthenewHEAneartheapexofTrasatti’s or completely remove the Pt-content
+modelofVolcanoplot,whichisalsosuggestiveofsuperiorHERactivity. in designing materials with improved
+catalytic activity.[7,8] For example, there
+have been several attempts in the past
+to completely replace Pt with other
+1.Introduction transitionmetalstodesignnewalloyssuchCo-Ni,[9] Mo-Co,[10]
+NiMo,[11,12] CoFe,[13] FePd,[14] NiZn,[15] FeCoNi,[16] NiMoCo,[17]
+High-entropy materials are an emerging class in the de- PdCeMoCuRu,[18] and CoNiB.[19] However, the catalytic perfor-
+velopment of highly active (electro)catalysts. Their appeal manceofnewalloyswasgreatlycompromisedwhencomparedto
+lies in their inherent tunability and coexistence of multiple Pt/C.Ontheotherhand,thealloyswithreducedPtcontenthave
+A.ChandranM,P.Dutta,A.K.Singh,B.L.V.Prasad P.Singh
+CentreforNanoandSoftMatterSciences AmesNationalLaboratory
+Bengaluru562162,India U.S.DepartmentofEnergy
+E-mail:aksingh@cens.res.in;pl.bhagavatula@ncl.res.in IowaStateUniversity
+A.ChandranM,P.Dutta,A.K.Singh,B.L.V.Prasad Ames,IA50011-3020,USA
+ManipalAcademyofHigherEducation E-mail:psingh84@ameslab.gov
+Manipal,Karnataka576104,India B.L.V.Prasad
+PhysicalandMaterialsChemistryDivision
+NationalChemicalLaboratory(CSIR-NCL)
+TheORCIDidentificationnumber(s)fortheauthor(s)ofthisarticle
+Pune411008,India
+canbefoundunderhttps://doi.org/10.1002/adfm.202418644
+DOI:10.1002/adfm.202418644
+Adv.Funct.Mater.2025,35,2418644 2418644(1of14) ©2024Wiley-VCHGmbH
+
+www.advancedsciencenews.com www.afm-journal.de
+showncomparableperformancetoPt/C.[20]Thelatterapproach synthesismethod.Theyobservedalowoverpotentialvalueand
+clearlyshowspotentialforachievingHERperformancecompara- usingDFTcalculation,theyshowedtheactivesitesforHERand
+bletoorbetterthanthecommercialcatalyst,withabetterreaction low activation barrier for water dissociation. FeCoPdIrPt@GO,
+rateandstabilityatalowercost.[21] Pt-Co,[22] Pt-Ni,[23] Pt-Cu,[24] synthesizedbyfast-movingbedpyrolysisfollowingathree-step
+Pd@PdPt,[25]Pt-Ni-Co,[26]Pt-Co-Cu,[27]Pt-Ni-Mg,[28]Pt-Fe-Ni,[29] formationfromprecursorstonanocrystals,hasshownanover-
+Co-Fe-Pt,[30]Pt(Co/Ni)MoPdRh,[31]andPt-Ru-M(M=Cr,Fe,Co, potentialof42mVat−10mAcm−2lowerthanPt/CwithaTafel
+Ni,Mo)[32]aresomeofthePt-basedalloysstudiedforHER. slope value of 82 mV dec−1. The catalyst showed good stability
+Alloys function synergistically by optimizing their elec- for150hat−10mAcm−2 withoutobviouspotentialchange.[38]
+tronic properties. Particularly when five or more elements are Lietal.usedscalablemicrowaveheatingtopreparePtRhCoNiCu
+in near-equiatomic proportions or with high concentrations HEAembeddedincarboncloth,whichshowstheHERactivity
+(from5to35at%)high-entropyalloys(HEAs)areformed.HEAs with170mVat−1000mAcm−2andstabilityfor150h.[39]Wang
+showincreasedconfigurationalentropyofmixing,oftenexceed- etal.studiedtheeffectofthesurfacestrainofHEAcauseddueto
+ing1.5timestheuniversalgasconstant(ΔS≥1.5R).[33]HEAsex- thelatticedistortioneffectonthecatalyticactivitywhichisfound
+hibitsomeinterestingpropertiessuchas1)highconfigurational to regulate the catalyst intermediate binding energy by varying
+entropywhichhelpsintheformationofstablesingle-phasesolid themetal-to-metalbondenergy.Thestudyisperformedbyvary-
+solutionandincreasesthestabilityofthecatalyst;2)thelattice ingthecatalystsizeandconfigurationalentropyofthesystem.
+distortion,duetothedissimilarityintheatomicsizeoftheele- TheHEAPtIrCuNiCrhasanoverpotentialof200mVat−100mA
+mentscausesanincreaseinthehardnessofHEA;3)thesluggish cm−2whichisbetterthanPt/Cwith274mV.[40]Fixingfourmetal
+diffusion constrains the surface atom diffusion due to mutual contentsandvaryingthefifthmetalHEANPsweresynthesized
+hindrance between atoms and helps in the formation of small byaroomtemperatureshear-assistedliquidmetalsurfacereduc-
+HEAparticleswithincreasedsurfacearea;and4)thecocktailef- tionprocess.Co-Fe-Ni-Pt-XNPstestedforHERactivitywiththe
+fect,whereallthealloyedelementswillhaveasynergisticbehav- fifthelementXbeingeitherofthesefivemetals,Hf,Mg,W,Cr,
+iorthatenhancesthecatalyticactivity.[34] andTa.WhenX=Ta,thehighestHERperformanceisobserved
+Electrocatalyticwatersplittinginalkalineelectrolytesisaslug- withgoodstability.[41] However,inmanyoftheseworksthese-
+gish process because of the requirement for water dissociation lectionofthemetalsformingtheHEAwasempiricalorthecata-
+toformthereactionintermediates,H+ andOH−,knownasthe lystswerenotreallytestedunderpracticallyrelevantharshcondi-
+Volmerreaction.ThisisfollowedbyeithertheHeyrovskyorTafel tionssuchassimulatedseawateroractualseawater.Manyofthe
+reaction.ForanefficientHERcatalyst,itmustfacilitatethesere- synthesismethodsinvolvedsolvothermalconditionswherecon-
+actions at the catalyst–electrolyte interface. The catalyst should trolling the compositional variation is rather difficult.[37] Com-
+assist in water dissociation by having relatively strong adsorp- paredtotheseHEAelectrocatalysts,wetriedtobringamethod-
+tiontoH+comparedtotheH─OHbondstrength.Thisadsorp- ology for the down-selection of elements and their composi-
+tion needs to be strong enough to facilitate water dissociation tion.Comparedtothesecomplexsynthesismethodsfollowedfor
+and the subsequent reduction reaction, but not so strong that HEAsynthesis,wefollowedelectrodeposition,asimple,scalable,
+it hampers the desorption of the products. As per the Sabatier low-cost, room-temperature, and ambient pressure synthesis
+principle,thereshouldbeanoptimalbindingstrengthbetween method.
+the reaction intermediate and the catalyst surface. Designing Recently, HEA synthesis by electrodeposition has caught
+such an electrocatalyst with a free energy of hydrogen adsorp- the attention of researchers in various applications.[42–46] This
+tion near zero is crucial for multifunctional HER electrocataly- bottom-upsynthesisrouteallowsforprecisecontrolovernanos-
+sisinalkalineelectrolytes.Becauseofthecomplexreactionen- tructuremorphologyandcompositionthroughadjustabledepo-
+vironment,apartfromthehydrogenbindingstrength,otherde- sitionparameterssuchasdepositionpotential,electrolytecom-
+scriptorssuchaswaterdissociationbarrier,hydroxylbindingen- position, deposition time and temperature.[47] Notably, organic
+ergyandsolvatedelectrolytecationsalsoneedtobeconsidered. solventsystemsofferadvantagesoveraqueoussolvents,interms
+The designing principles of an electrocatalyst for HER in alka- of the large potential window, good chemical stability, a wide
+lineelectrolytesareasfollows.(1)Volcanoplotofthehydrogen working temperature range, and good thermal stability.[48] The
+bindingstrengthandalkalineHERactivity,wherethedesigned HERactivityofpreparedHEAcompositionswastestedinanal-
+catalystshouldbepositionedatthetopofthevolcano.(2)Elec- kalinemedium,simulatedseawater,andactualseawater,reveal-
+tronicstructure;theadsorbatebindingstrengthisaffectedbythe ingsuperioractivitycomparedtoPt/Cinthealkalinemedium
+electronicstructureofthematerial.Electronicstructuremodifi- withahighelectrochemicalsurfacearea.TheproposedHEAcat-
+cationcanbeachievedbyphasetransition,doping,alloying,etc., alystshavedemonstratedaverylowoverpotentialvaluenotonly
+whichwillalterthed-bandcenterpositiontherebycatalyticper- inalkalinemediumbutalsoinsimulatedseawaterwhichindi-
+formance. (3) Nanostructuring can also be implemented to get catestheirpracticalapplicability.
+noble metal-like performance. This is further supported by re-
+centstudiesinthefield.[35,36]
+Therefore,utilizingthekeyintrinsicfeaturesofHEAsandthe 2.ResultandDiscussion
+superiority of Pt-based catalysts to design new Pt-based HEAs
+is of great interest in the field of HER, offering both reduced 2.1.ScreeningGuidelinesforHigh-EntropyCatalysts
+Pt content and enhanced catalytic activity by allowing the for-
+mationofhigh-entropystructures.[37] Lietal.havesynthesized Our choice of down-selecting Mn-Co-Ni-Pt-Pd-based high-
+Pt Ni Fe Co Cu /C ultrasmall (≈3.4 nm) HEA by colloidal entropycatalystswasbasedonfollowingadditionalfilteringsteps 18 26 15 14 27
+Adv.Funct.Mater.2025,35,2418644 2418644(2of14) ©2024Wiley-VCHGmbH
+16163028,
+2025,
+17,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202418644
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.afm-journal.de
+Figure1. DFT-drivendown-selectionguidelinesforhigh-entropyalloycatalysts.a)Volcanoplotshowingexchangecurrentdensityasafunctionofthe
+hydrogenadsorptionenergy(ΔG )ofTM─Hbondsforvariouspuremetals.[53,54]Acut-through5Dcompositionspaceshowingb)thevariancein H*
+bondlengthonTM─Hsurface,c)mixing-enthalpy(ΔH ),andd)electronegativitydifference(Δ𝜒)for{Pd-Pt}-Ni-{Co-Mn}HEAs.Themarkedtwo
+mix
+compositions,i.e.,NiCoMnandPtPdNiCoMn,fromtwoenergeticallydistinctregionsbasedontheproposeddesignhypothesis.
+proposedinthiswork,whichcanpossiblyhelpreducethetrial- canoplotinFigure1aalsoindicatesthatearlytransitionmet-
+and-errorstepsoutofthedesignframework. alshavestrongermetal-hydrogenbondstrengthandonthe
+weakly binding side are the late transition metals and sp-
+1) Optimalhydrogenadsorptionenergy(ΔG *)rangeonmetalsur- metals. Inspired by this model, an alloy of these transition
+H
+face: The ΔG * range of best high-entropy catalysts are ex- metalsfromeithersideofthevolcanoplotmaygiveamedium
+H
+pected to fall in the energy range −0.2 eV < ΔG * (ΔG = H*bindingstrength.
+H
+ΔH − TΔS) < +0.2 eV. The ΔG * range provides a sense 3) Phase stability (ΔH ) combined with configurational entropy
+H mix
+of H-bonding with metal surfaces. This corroborates well (ΔS ):Thethermodynamiclimitfor“entropy-driven”syn-
+mix
+with the ΔG * range based on the extended Sabatier prin- thesis,ingeneral,isdeterminedbytheGibbsfreeenergy,i.e.,
+H
+ciple,whichsuggestsweakerhydrogenbondingratherthan ΔG=ΔH −TΔS ,whichsuggestsimprovedentropicsta-
+mix mix
+thermoneutrality.[49,50] The ideal HER electrocatalyst should bilizationwithtemperatures.Thus,weprovideasingle-phase
+adsorb hydrogen with a small ΔG *. If the binding energy solid solution stability criteria based on formation enthalpy
+H
+of H* is too strong (ΔG
+H
+* ≪ 0) or too weak (ΔG
+H
+* ≫ 0), (see Figure 1c) and chemical entropy, i.e∑., −150 eV-atom−1
+seeFigure1a,oneneedstoapplyanoverpotential,𝜂,todrive <ΔH <+50eV-atom−1andΔS (−R n c lnc)≥1.5R,
+mix mix i=1 i i
+theHERandovercomethelimitingHatomremovalinHey- respectively, where R is the ideal gas constant and c is the
+i
+rovsky or Tafel step (H*/H ) or slow discharge reaction in molar concentration. Here, we set an upper limit such that
+2
+Volmerstep(H+/H*),respectively.Thus,thebest-performing themiscibilitygap(TMG)islowerthantheannealingtemper-
+c
+elementalmetalHERelectrocatalystsareontheapexofthe ature(Ta),i.e.,TMG<Ta(where158K≈25meV/atom)while
+c volcanoplotcenteredaroundasmallΔG *. thelowerlimitissetintherangeof“−T S ”,requiredfor
+H a mix
+2) TM-H surface bonding: By taking a perspective from the ex- localkinetics.Theannealingtemperaturefollowstheapprox-
+tended Sabatier principle, we propose a possible range of imate range of 0.55of the melting temperature range (T ),
+m
+variance in bond length, i.e., ΔBL ≥ 0.075 ± 0.005 Å (see i.e.,T ≈750to1000K.[51,52] a
+Figure1b),thatisexpectedtoenableincreasedselectivityre- 4) Electronegativity difference (Δ𝜒): A-prior knowledge of the
+quiredfor balanced chargesharing. Trasatti’s modelofVol- role played by charge-transfer in influencing the electronic
+Adv.Funct.Mater.2025,35,2418644 2418644(3of14) ©2024Wiley-VCHGmbH
+16163028,
+2025,
+17,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202418644
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.afm-journal.de
+structure and thereby tailoring the chemical process would thepotentialofHEAsforsustainableandhigh-performanceelec-
+allow us to control key functionalities such as HER activ- trocatalysis.
+ityinH√EAs.Themacroscopicdifferenceofelectronegativity
+∑
+(Δ𝜒 = x (𝜒−<𝜒> )2;⟨𝜒⟩ istheweightedav-
+i i i element element 2.2.MaterialsCharacterization
+erageofelectronegativityoverallelements)wouldbethekey
+quantity directly connected with the charge transfer during To test our hypothesis, we chose to synthesize four
+thealloyingprocess.[55]ThecalculatedΔ𝜒ofPd-Pt-basedelec- HEAs as shown by stars in Figure 1b–d from formula
+trocatalystsshowsavarianceintherangeof0.05(seeFigure (Pd Pt ) (NiCoMn) for {x,y} combinations of {0, 0}, {0,
+x 1−x y 1−y
+1d),whichsuggestsanobviouslimitofΔ𝜒todesignHERac- 0.25}, {1, 0.25}, and {0.50, 0.40}, i.e., NiCoMn, PtNiCoMn,
+tivematerials,i.e.,Δ𝜒 ≤0.10.Torationalizethisidea,wear- PdNiCoMn, and PtPdNiCoMn, respectively. These HEAs were
+guethatifΔ𝜒istoogreat(>0.10),theTM-hydrogenbonding synthesizedusingtheelectrodepositionmethodwithanorganic
+wouldbetoostrongorweaktoallowforaneffectiveactivation solventsystem.Literaturehasshownthatamixedsolventsystem
+oftheH-Hbonds. gives the advantage to electrodeposition such as i) increasing
+5) Thermodynamicpreferenceof{Li+,Na+,K+}cations:Thether- the potential window for the metal reduction, ii) ion diffusion
+modynamicpreferenceofcationsdependsontheirabilityto in the solvent is varied, iii) increasing the possibility of metal
+optimizeΔG ∗andchargetransferproperties.Inliterature, salt dissolution, iv) altering the double-layer structure, which
+H
+Na+ andK+ havebeenshowntoprovideauniversalbalance determinesthesolventadsorption,andv)changestheelectron
+supportingawiderangeofPd/Pt/Ni-basedalloysbypromot- transfer kinetics for metal reduction. When two miscible sol-
+ingefficientchargemobility,whichexcelsonstrong-binding ventshavingtwodifferentphysicalandchemicalpropertiesget
+surfaces.Ontheotherhand,Li+isbestsuitedforstabilizing mixed, electrodeposition properties are influenced depending
+very weakly bound H*; therefore, it is not useful for Pt-Pd- on the ratio of both solvents. N, N-dimethylformamide (DMF)
+Mn-Co-Nibasedalloys.[56,57] and acetonitrile are two organic solvent systems preferred for
+the electrodeposition of HEAs.[60,61] We have taken different
+The concept of high configurational entropy, combined ratios of DMF (denoted as D) and acetonitrile (denoted as A)
+with quantum-mechanical principles, offers an efficient way such as D, D:A = 4:1, D:A = 1:1, D:A = 1:4, A, along with
+to design new electrocatalysts. HEAs provide a flexible plat- the metal precursors PtCl , PdCl , CoCl ·6H O, MnCl ·4H O,
+2 2 2 2 2 2
+form to optimize key properties such as stability, electronic and NiCl ·6H O in a three-electrode system and these HEA
+2 2
+structure (e.g., d-band center), and hydrogen-binding ener- samples will be referred to as D, D:A = 4:1, D:A = 1:1, D:A =
+gies (ΔG * ).[58] The diverse combinations of elements like 1:4,respectively(Figure2).Fortheelectrodeposition,aconstant
+H {Pd, Pt, Co, Mn, Ni} in HEAs provide numerous compo- potential of −2 V versus Ag/Ag+ is applied for 1000 s at room
+sitional choices. However, a challenge lies in ensuring that temperature.
+enough active sites are available to enhance catalytic perfor- Figure 2a shows the XRD pattern of the HEA PtPdNiCoMn
+mance. Selecting elements with suitable electronegativity dif- depositedoncarbonpaperusingdifferentsolventsystems.(111)
+ferences (Δ𝜒) and Gibbs formation enthalpies can help ex- and (200) peaks indicate the formation of the fcc crystal struc-
+clude chemically less active components, improving overall ture.Itindicatestheformationofasingle-phasealloy.Theother
+activity. intense peaks correspond to the carbon substrate. The surface
+The choice of {Mn, Co, Ni} in this system is well thought morphologyofallthesesamplesisshowninFigureS1(Support-
+off, for example, manganese’s redox properties reduce costs ingInformation).Differentsurfacemorphologywithdifferences
+and create a favorable environment for the HER, as seen inparticlesize,porosity,androughnessindicatesthatthemor-
+in its synergy with metals like Ir. Cobalt and nickel, on the phologyofthesystemchangeswiththechangeinthesolventof
+other hand, stabilize the FCC phase due to their magnetic theelectrolyte.HEAdepositedwithsmallparticlesizeandgood
+properties, preserving the solid-solution characteristics of the porosityobtainedintheD:A=4:1ratioisshowninFigure2b.
+parent {Pd, Pt} based alloys. Replacing precious metals {Pt, ElementalmappingofthesameHEA(FigureS2,SupportingIn-
+Pd} with non-isoelectronic {Mn, Co, Ni} introduces chemi- formation)impliestheuniformdistributionofalltheelements.
+cal heterogeneity, maintaining active sites necessary for HER Table1ashowstheICPcompositionofallthealloyssynthesized
+while lowering reliance on platinum group metals (PGMs). forsolventoptimizationwhichindicatesthepresenceofallthe
+Recent studies, including those by Batchelor et al.,[59] con- elementsthatformahigh-entropyalloy.TheformationofHEA
+firm that high configurational entropy improves HER perfor- canalsobeverifiedthroughahigh-entropydesignguidebased
+mancebyenhancingthedistributionandaccessibilityofactive on formation enthalpy and configuration entropy presented in
+sites. Figure1.Furthermore,asshowninFigure2c,mostofthesam-
+Finally,inthissection,wepresentedarangeanddescription plesareat/neartheboundaryofhigh-entropymixingasrequired
+offivedescriptorsthatplaycrucialrolesduringelectrocatalysis, for entropic stabilization. Among these, “D:A = 4:1” and “A”
+namely, hydrogen adsorption energy, TM─H surface bonding, HEAs have a value of 1.49R showing the best composition to
+phasestability,electronegativityvariance,andcationicpreference formahigh-entropysystem.
+inHER.Ourstudyprovidessomekeytheoreticalguidelinestore- Figure 2d is the LSV plot for understanding the HER activ-
+placecriticalPGMswithabundantalternativeslike{Mn,Co,and ity of the alloys. The overpotential value calculated at a partic-
+Ni}byoptimizingtheirelementalcombinations.Theabilitytore- ular current density is used for determining the HER perfor-
+placecriticalPGMswithabundantalternativesfurtherhighlights mance. Figure 2e is the Tafel plot where the overpotential is
+Adv.Funct.Mater.2025,35,2418644 2418644(4of14) ©2024Wiley-VCHGmbH
+16163028,
+2025,
+17,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202418644
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.afm-journal.de
+Figure2. MaterialcharacterizationsandelectrochemicalcharacterizationsofPt-Pd-Ni-Co-MnHEAwithdifferentsolventsystems.a)XRDofallthesam-
+plespreparedwithdifferentsolventconditions.b)FESEMimageshowingthemorphologyofHEAwiththesolventsystemD:A=4:1.c)Configurational
+entropyvalueofallthesamples.d)LSVshowingthepolarizationcurveofalltheHEAat2mVs−1forHERactivity.e)TafelplotofalltheHEA.f)Bar
+diagramshowingtheoverpotentialvalueat−10mAcm−2andTafelslopevalues.
+plotted against the log of current density from which the Tafel temfollowstheVolmer–Heyrovsky(VH)mechanism.Allsam-
+slopecanbecalculatedwhichisusedforunderstandingtheki- plesarereproducedfourtimes,andtheaveragedataandstan-
+neticsandreactionmechanism.Figure2fshowstheoverpoten- darddeviationsaregivenforallHERtesting.Massactivity(mA
+tialandTafelslopevaluesofallthesamplesunderdifferentsol- μg−1 )iscalculatedforallthesamples(FigureS3a,Supporting
+Pt
+ventconditions.D:A=4:1HEAhasshownthelowestoverpoten- Information),anditisobservedthatD:A=4:1HEAhasahigher
+tialvalueofabout23.9mVat−10mAcm−2 withalowvalueof mass activity when compared to other samples in the solution
+Tafelslopeof77.7mVdec−1.Tafelslopevalueshowsthatthesys- optimization experiment. This shows that, even if it has larger
+Table1.ICPcompositionofalltheelementsoftheHEAsdepositeda)forsolventoptimization,b)forpotentialoptimization,andc)controlsamples.
+Sample Pt[at%] Pd[at%] Co[at%] Ni[at%] Mn[at%]
+(a)Solventoptimization D 14.69 21.18 7.65 43.33 13.14
+D:A=4:1 15.451 40.98 14.146 14.498 14.925
+D:A=1:1 14.63 23.68 2.87 40.84 17.97
+D:A=1:4 8.92 10.12 12.78 46.93 21.25
+A 10.1 5.11 5.55 62.57 16.67
+(b)Potentialoptimization HEA(−1V) 6.353 25.119 14.405 31.147 22.976
+HEA(−1.5V) 10.091 28.823 23.867 20.997 16.223
+HEA(−2V) 15.451 40.98 14.146 14.498 14.925
+HEA(−2.5V) 6.6822 16.309 11.669 43.305 22.035
+(c)Controlsamples PtPdNiCoMn 10.091 28.823 23.867 20.997 16.223
+PtNiCoMn 22.3 – 20.59 27.35 29.72
+PdNiCoMn – 27.17 12.01 47.21 13.61
+NiCoMn – – 24.39 53.53 22.08
+Adv.Funct.Mater.2025,35,2418644 2418644(5of14) ©2024Wiley-VCHGmbH
+16163028,
+2025,
+17,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202418644
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.afm-journal.de
+Figure3. Pt-Pd-Ni-Co-MnHEAmaterialcharacterizationandelectrochemicalcharacterizationsforpotentialoptimization.a)XRDoftheHEAdeposited
+atdifferentpotentials−1,−1.5,−2,and−2.5Vshowingsingle-phasefcccrystalstructure.b)FESEMimageoftheHEAdepositedat−1.5V.c)EDXcolor
+mappingofthe−1.5VHEAindicatingtheuniformdeposition.d)TEMimagesof−1.5VHEAshowingthesmallsphericalparticleformation.e)HRTEM
+imagesshowingthed-spacingvalueandinsetshowingtheSAEDpattern.f)Particlesizedistributionof−1.5VHEAcalculatedfromTEMimages.g)
+LSVshowingtheHERperformanceofalltheHEAsdepositedunderdifferentpotentials.h)Tafelplotforstudyingthekineticsandmechanism.i)Bar
+diagramshowingtheoverpotentialandTafelslopevalues.
+quantity of Pt in D:A = 4:1 when compared to others, it has a tential was carried out. With DMF and acetonitrile in a 4:1 ra-
+higherHERmassactivity.Theturnoverfrequency(TOF)ofall tio,wevariedthedepositionpotential,−1,−1.5,−2V(solution-
+the samples is calculated, and the details of the calculation are optimizedsample)and−2.5VversusAg/Ag+ forthesamepe-
+givenintheSupportingInformation.FigureS3b(SupportingIn- riod of deposition (1000 s). After the deposition of the HEA,
+formation)showstheCVtakenatascanrateof20mVs−1.TOF materialcharacterizationswereperformed.XRDdatashownin
+wascalculatedatdifferentpotentialvalues(FigureS3c,Support- Figure 3a indicate the formation of a single-phase fcc crystal
+ingInformation)foralltheHEA,anditindicatesthatHEA“A” structure with (111), (200), and (220) crystal planes along with
+followedby“D”andthen“D:A=4:1”havethehighestTOF.It thesubstratepeaks.AclearerXRDdataoftheHEAdepositedat
+maybebecauseofthelowerelectrontransferquantity(thehy- −1.5VonFTOisshowninFigureS4(SupportingInformation).
+drogendesorptionpeak)ofHEA“A”and“D”whencomparedto Along with the FTO peaks (111) and (200) XRD peaks are ob-
+others. served.FESEMimagesoftheHEAdepositedatallthedifferent
+ThesolutionoptimizationwithD:A=4:1solventsystemre- potentials−1,−1.5,−2,and−2.5Vatlowerandhighermagnifi-
+sulted in the Pt-Pd-Ni-Co-Mn HEA electrocatalyst with a high cationsareshowninFigureS5(SupportingInformation),where
+value of configurational entropy of 1.49R and with the lowest smallsphericalstructuredparticlesareformed,whichhelpsin
+valueofoverpotentialof23.9mVat−10mAcm−2.Considering thecatalyticactivitywithhighsurfacearea.Amongthese,−1.5V
+thesameasthebest,furtheroptimizationofthedepositionpo- HEAhas50–100nmparticlesthatareformedbytheaggregation
+Adv.Funct.Mater.2025,35,2418644 2418644(6of14) ©2024Wiley-VCHGmbH
+16163028,
+2025,
+17,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202418644
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.afm-journal.de
+Figure4. a)XPSanalysisofHEA−1.5Vtounderstandthesurfacechemistrysurveyspectrumindicatingthepresenceofallelementsincludingcarbon.
+b–f)High-resolutionspectraofPt,Pd,Co,Mn,andNiindicatethepresenceofzero-valencymetallicstatealongthehigheroxidationstates.
+ofeven smaller particles. Figure4c shows the EDX color map- identifytheelementspresentandtheoxidationstateofeachele-
+pingofthe−1.5VHEAsamplewhichshowstheuniformdis- ment.Figure4ashowsthesurveyspectruminthefullscanrange
+tributionofthefiveelementsinthesample.Table1bshowsthe which detects the presence of all elements in the HEA. Along
+ICP composition of all the HEA deposited under potential op- withthepeakscorrespondingtothefivemetalsalloyed,C1s,C
+timization. It shows that the presence of all the elements in a KLL,O1s,OKLL,andCl2parealsopresent.Cl2pcorresponds
+required quantity helps to form a high-entropy structure. The to theunreduced metalchlorides presentinthe sample and O
+configurationalentropycalculatedfromtheseICPdataisgiven 1sduetotheunavoidablesurfaceoxidation.Thehigh-resolution
+inFigureS6(SupportingInformation),whereHEA−1.5Vhas spectraofeachelementaretaken(Figure4b–f)togainfurther
+1.55Rvalue,whichisthehighestamongallsamples.Tovisualize insightsintothechemicalnatureoftheelementspresentatthe
+theHEAnanoparticleandtounderstandfurtherthecrystalstruc- surface of the alloy. Deconvolution of the peaks indicates that
+tureTEManalysisofHEA−1.5Vwasperformed(Figure3d)and eachelementispresentinthemetallicstatehavingzerooxida-
+theHEAwasseentohavesphericalmorphology.TheHRTEM tionwithahigherintensityalongwithotheroxidationstates.Pt
+imageinFigure3eshowsthed-spacingvalueof2.18Åof(111) 4fishavingPt(0)4f7/2at71.47eVandPt(0)4f5/2at74.82eV.
+planeand1.9Åof(200)planeand1.35Åof(220)whichmatches Along with that, Pt peaks at 72.52 and 76.17 eV correspond to
+theXRDdata.Thischangeinthed-spacevalueindicatesthelat- Pt(2+) 4f7/2 and Pt(2+) 4f5/2, respectively. Pd also has a large
+ticedistortionduetothealloyingoffivedifferenttransitionmet- quantityofmetallicpeakscomparedtothoseinahigheroxida-
+alsintoasingle-phasecrystalstructure.SAEDpatternintheinset tionstate.DeconvolutedpeaksappearatPd(0)3d5/2at335.89eV,
+showsthepolycrystallinenatureofHEA.UsingtheTEMimages, Pd(0)3d3/2at341.20eV,Pd(2+)3d5/2at336.73eV,andPd(2+)
+particlesizewasdeterminedbyGaussianfitting.Itwasobserved 3d3/2at342.53eV.Cobalt,ontheotherhand,hasshownahigher
+thattheHEAhasanaverageparticlesizeof4nm.Theformation concentration of oxidized state at the surface when compared
+ofthesmallHEAnanoparticlesisduetothesluggishdiffusion to the zero-oxidation state. Co(0) 2p3/2 appears at 778.59 eV,
+effect that comes from the mutual hindrance between atoms. Co(0) 2p1/2 at a binding energy of 793.66 eV, Co(2+) 2p3/2 at
+High-magnificationcolormapping(FigureS7,SupportingInfor- 781.23eV,andCo(2+)2p1/2at796.86eV.Twosatellitepeaksap-
+mation)andlinemapping(FigureS8,SupportingInformation) pearat817.66and803.37eV.Mn(0)peaksappearat639.71and
+usingtheTEMimageswereperformed,andtheuniformdistri- 648.05eV,correspondingto2p3/2and2p1/2andappeartohave
+butionofalltheelementspresentintheHEAwasobserved.So, a higher quantity in comparison to the other oxidation states.
+thePt-Pd-Ni-Co-MnHEAstructuralandmorphologicalcharac- Mn(4+)2p3/2andMn(4+)2p1/2werepositionedat641.88and
+teristicsshowallthepropertiesofahigh-entropyalloy. 653.35 eV, respectively. Along with that, two satellite peaks ap-
+TheXPScharacterizationwasperformedontheHEA−1.5V pearat644.49and657.17eV.XPSofNiconsistofNi(0),Ni(2+)
+sample to understand the surface chemistry. It has helped to deconvoluted peaks at binding energies 852.91 and 870.13 eV
+Adv.Funct.Mater.2025,35,2418644 2418644(7of14) ©2024Wiley-VCHGmbH
+16163028,
+2025,
+17,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202418644
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.afm-journal.de
+(Ni(0)-2p3/2 and 1/2), 855.22 and 873.55 eV (Ni(2+)-2p3/2 and 3) control samples were synthesized for performance compari-
+1/2), respectively, and Ni(sat) peaks. XPS analysis reveals the sonundertheoptimizedconditions(solvent–D:A=4:1,poten-
+presenceofbothzerooxidationstatesandhigheroxidationstates tial:−1.5V).Thefourmetalandthreemetalalloysareconsid-
+atthesurface,whichisattributedtooxygenchemisorption.This ered here as medium-entropy alloys in terms of their configu-
+suggeststheformationofathinoxidelayerratherthanabulkox- rationalentropyvalue(ΔS≤1.0Rforlow-entropyalloy,1.0R<
+idephase.TheO1sXPSspectrumanalysis(FigureS9,Support- ΔS<1.5RforMEA,andΔS≥1.5RforHEA).Accordingly,Pt-
+ingInformation)identifiesthreepeakscorrespondingtolattice NiCoMn, PdNiCoMn, and NiCoMn are identified as MEA and
+oxide,hydroxide/defectoxide,andwater/organicspecies.These representedinthisworkasMEA-1,MEA-2,andMEA-3respec-
+resultsindicatethattheHEAsurfacecontainsM─O/M─OOH, tively.
+M─OH,andH Ospecies.Importantly,thelowerintensityoflat- The FESEM images of the MEAs are shown in Figure S12
+2
+ticeoxidecomparedtohydroxidesupportsthehypothesisofsur- (SupportingInformation).ItshowsthatMEA-1andMEA-2have
+faceoxidationratherthanadistinctoxidephaseformation.The smallsphericalparticlesthatcoagulateandformparticlesofsize
+configurationalentropyofthealloyprimarilyarisesfromtheran- around 200 nm. However, MEA-3 has a flat morphology with
+domdistributionofconstituentelementswithintheFCClattice. a very low surface area. ICP elemental composition given in
+Thepresenceofathinoxidelayerduetosurfaceoxidationisex- Table 1c shows the composition of each synthesized alloy, and
+pected to have a negligible impact on the bulk configurational theircorrespondingconfigurationalentropyvaluesareshownin
+entropy.However,weacknowledgethatsurfacephases,suchas FigureS13a(SupportingInformation).WeobservethatPtPdNi-
+M─O/M─OOH and M─OH species, could contribute to local- CoMn formed HEA with ΔS of 1.55R, whereas PtNiCoMn,
+mix
+izeddeviationsfromidealmetallicentropy. PdNiCoMn, and NiCoMn formed MEA with 1.37R, 1.23R, and
+TheHERperformancesofallthepotentialoptimizationsam- 1.01R,respectively.HERactivityistestedin1mKOHsolution
+ples were carried out in 1 m KOH solution. The polarization forallthecontrolsamplesandcomparedwiththatofHEAand
+curveobtainedfromLSV(Figure3g)showsHERactivitywhere Pt/Cdrop-castedoncarbonpaper.LSV(Figure5a)showsthepo-
+HEA −1.5 V and HEA −2 V have achieved high current den- larizationcurveanditcanbeseenthatHERactivityoftheHEA
+sity at low potential. Their corresponding overpotential at −10 isfollowedbyMEAasconcludedfromthehighcurrentdensity
+mAcm−2 is shown in Figure 3i, from which the highest active atlowpotential.TheoverpotentialvalueisshowninFigure5c.
+materialisHEA−1.5Vwiththelowestoverpotentialof22.6mV MEA-1andMEA-2showasimilaroverpotentialvalueof68.6and
+at −10 mA cm−2 which is better than commercial Pt/C cata- 73mVat−10mAcm−2whichislowerthantheMEA-3electrocat-
+lystforHER.TafelslopevaluesobtainedfromtheTafelplotin alyst.TheHEAasmentionedaboveshowsanoverpotentiallower
+Figure 3h show the lowest Tafel slope of 77.5 mV dec−1 with thanthePt/Ccommercialcatalyst. TheTafelslopevalue(from
+thebestelectrontransferkineticsforHEA−1.5Vfollowingthe Figure5b)showsslowerelectrontransferkineticsforMEAcom-
+Volmer–Heyrovskymechanism.CVwastakenatdifferentscan paredtoHEAandasimilarvalueforPt/C.TheNyquistplotin
+rates from 20 to 100 mV s−1 in a potential window from 0.86 Figure4dshowsalowvalueofchargetransferresistance(R )for
+ct
+to0.96VversusRHE.Double-layercapacitance(C )wascalcu- theHEAcomparedtoothercontrolsampleswhichmaybeone
+dl
+latedfromtheslopeofthelinewhentheaveragecurrentdensity ofthereasonsfortheenhancedperformanceofHEAoveroth-
+from each CV was plotted against the corresponding scan rate ers.ECSAiscalculatedfromC forallthecontrolsamplesand
+dl
+asshowninFigureS10(SupportingInformation).Theobtained theresultsareshowninFigureS13b,c(SupportingInformation).
+valueofC fortheHEAwas8.57mFcm−2.Theelectrochemi- HEAisobservedtoshowthehighestECSAfollowedbyMEA-2.
+dl
+calsurfaceareawascalculatedfromC ,anditwasobservedto MEA-3hastheleastwhichagreeswiththepreviouslyobserved
+dl
+be107.1cm2.Themassactivityofthecatalystsiscalculatedand surfacemorphology.
+plottedintheLSVcurve(FigureS11,SupportingInformation). The search for a better catalyst for HER in this work has
+Thecurrentobtainedforeachcatalystinthepolarizationcurveis reachedatargetwherethehigh-entropyalloyPt-Pd-Ni-Co-Mnde-
+normalizedwiththeamountofPtobtainedfromtheICPcalcu- positedat−1.5VversusAg/Ag+ inD:A=4:1solventinroom
+lationtogetthemassactivity.At0.05Voverpotential,themass temperaturefor1000shasturnedouttobethebestcatalystwith
+activityofHEA(−1.5V)is0.486and0.456mAμgPt−1forPt/C.It extremelylowoverpotentialvalue.Lookingforwardtousingitas
+indicatesthatthemassactivityhasbeenimprovedforthesynthe- acommercialcatalyst,itisimportanttounderstandtheperfor-
+sizedHEAcomparedtothecommercialPt/C.TheTOFofallthe manceoftheelectrocatalystunderpracticalapplicationssuchas
+HEA synthesized at different potentials (Figure S11c, Support- undersalinewaterandseawaterelectrolyteconditions.Tounder-
+ingInformation)iscalculatedfromtheCVgiveninFigureS11b standtheactivityofPt-Pd-Ni-Co-MnHEAinsuchconditions,we
+(SupportingInformation).ItshowsthatHEA−1.5,−1,and−2V tested HER performance under simulated seawater (1 m KOH
+havesimilarTOFvalues.Itisfoundtobealittlelessfor−2.5V +0.5mNaCl)andactualseawaterasshowninFigure5.Simu-
+HEA.ItindicatesthattheintrinsicactivityofthesethreeHEAs latedseawaterispreparedbyadding1mKOHand0.5mNaCl
+issimilarbuthassomedifferencesathigherappliedpotentials. to deionized water. The mixture undergoes stirring for 10 min
+Potentialoptimizationhasshownthatusingtheoptimizedsol- atroomtemperaturetoformaclearsolution.IthasapHof12.
+ventsystem,electrodepositionatdifferentpotentialsgaveaphase TheseawatercollectedfromthesurfaceleveloftheArabianSea
+pure HEA system. The best Pt-Pd-Ni-Co-Mn HEA electrocata- isusedforcatalytictestingafterfilteringthroughaWhatmanfil-
+lystforHERisobservedtobetheHEA−1.5Vwiththelowest terpaper(90mmdiameter)toremovethesand,whichhasapH
+value of overpotential and Tafel slope. Considering this as the of7.FromLSV(Figure6a)wecanobserveasimilarpolarization
+bestHEAforHERperformance,medium-entropyalloys(MEAs) behaviorfortheHEAundersimulatedseawateranddistilledwa-
+PtNiCoMn (MEA-1), PdNiCoMn (MEA-2), and NiCoMn (MEA- terwith1mKOHandareasonableperformanceinseawater.The
+Adv.Funct.Mater.2025,35,2418644 2418644(8of14) ©2024Wiley-VCHGmbH
+16163028,
+2025,
+17,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202418644
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.afm-journal.de
+Figure5. HERactivityofthecontrolsamplesalongwithoptimizedHEA:a)LSVshowingthepolarizationcurve,b)Tafelplotforunderstandingthe
+kineticsandmechanism,c)bardiagramshowingtheoverpotentialvalueandTafelslopeforcomparison,andd)Nyquistplotforunderstandingthe
+impedanceofthesystem.
+TafelplotshowninFigure6balsoshowssimilarbehaviorunder canobservethatthesphericalmorphologyoftheHEAcatalystis
+simulatedseawaterandinDIwaterwith1mKOHcondition,but retainedafterthestabilitytest,alongwiththepresenceofalayer
+underseawaterconditions,itisobservedtoshowslowerkinetics. offlake-likemorphologyatthesurface.Thismaybeduetothe
+Thevaluesofoverpotentialat−10mAcm−2 andTafelslopeare stressorstrainexperiencedbythecatalyticduetoprolongedelec-
+showninFigure6c.Undersimulatedseawater,Pt-Pd-Ni-Co-Mn trochemicaltesting.Thisslightspallingofthesurfacelayersmay
+showsanoverpotentialvalueofonly43.7mVwithaTafelslope bethereasonfortheslightincreaseinoverpotentialafter100h
+valueof75.5mVdec−1.Underseawater,anexcitingoverpotential of the stability test. XPS was performed after the stability test
+ofonly62mVisobservedat−10mAcm−2,butwithahighvalue whichisshowninFigureS14(SupportingInformation).Thesur-
+ofTafelslope. veyspectruminFigureS14a(SupportingInformation)showsthe
+Thestabilityoftheelectrocatalystisacrucialparameterinun- presenceofeachelementafterthestresstest.Thehigh-resolution
+derstandinganelectrocatalyst.TheabilitytoproduceH atahigh images(FigureS14b–f,SupportingInformation)ofeachelement
+2
+currentdensitywithouthugechangesinoverpotentialoveralong show the zero-valance state and the oxidized state of each ele-
+periodisanessentialrequirementofanelectrocatalyst.Tounder- mentexceptCo.Theslightdecreaseinthebindingenergyofthe
+standthat,wehavedonethestabilitytestbychronopotentiometry HEAafterthestabilitytestisduetothesmallalterationsinthe
+at−100mAcm−2for100h,asshowninFigure6d.Thelargepo- electronicenvironment,especiallyformoreelectronegativeele-
+tentialdropatthebeginningofthechronopotentiometrycanbe ments. The less electronegative elements, such as Mn and Co,
+attributedtothecapacitivechargingoftheelectricdoublelayerat haveexperiencedmoresurfaceoxidation,resultinginthedisap-
+theelectrodesurface.Thisrapidchargingprocessoccursimme- pearanceofthemetallicpeaks.Thesechangesintheelectronic
+diatelyuponapplyingthecurrent,resultinginthesharppotential environmentsareduetoprolongedexposuretoelectrochemical
+dropobserved.Afterthisstresstest,theHEAdisplayedanover- conditions. O1s XPS spectra (Figure S15, Supporting Informa-
+potentialof39mVat−10mAcm−2,whichisshowninFigure6f tion) after the stability test show no major change. A slight in-
+obtainedfromtheLSVinFigure6e.Theobservedreductionin crease in the peak at 533.55 eV corresponds to adsorbed water
+theHERperformanceafterthestabilitytestathighcurrentden- ororganicspeciesobservedafterthestabilitytest.Tounderstand
+sitycanbecausedbycatalyticsiteblockagebythegeneratedhy- theHERactivityofthePt-Pd-Ni-Co-MnHEAwithotherHEAin
+drogenbubbles,catalystpoisoningbyelectrolytecation,andlo- theliterature,aplotofoverpotentialandTafelslopeofmanyHEA
+calizedchangesintheelectrolytepH.Thestructuralstabilityis samplesisgiveninFigure6h.OurHEAhasaverylowoverpo-
+testedbyobservingtheFESEMimageafterthestabilitytest.We tentialbutincomparison,itdoesnothavegreatkinetics.
+Adv.Funct.Mater.2025,35,2418644 2418644(9of14) ©2024Wiley-VCHGmbH
+16163028,
+2025,
+17,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202418644
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.afm-journal.de
+Figure6. HERtestingundersimulatedseawaterandseawaterandstabilitytest.a)LSVshowingtheHERactivity.b)Tafelplotshowtheelectrontransfer
+kineticsandmechanism.c)Valuesofoverpotentialat−10mAcm−2andTafelslopeobtainedfromLSVandTafelplot.HERstabilitytestwasperformed
+underDIwaterwith1mKOH.d)Chronopotentiometrytestatahighcurrentdensityof−100mAcm−2for100h.e)LSVbeforeandafterthestability
+test.f)Overpotentialvaluesat−10mAcm−2beforeandafterthetest.g)FESEMimageofthesampleafterthestabilitytest.h)Acomparisonfigurefor
+overpotentialandTafelslopeoftheHEAinthisworktootherHEAsamplesfromliterature(referencegivenintheSupportingInformation).
+2.3.DFTModelingofThermodynamicsandElectronicStructure tionintoaccountduetothepresenceofmagneticelements,i.e.,
+ofHEACatalyst {Fe,Co,Ni}.
+Tovalidateourapproach,wefullyassessedthethermodynamic
+In this section, we present an electronic-structure study to un- stabilityof{111}orientedfccsurfacesofbestTMcatalysts,i.e.,
+derstandtheeffectofhydrogen–TMinteractionontheHERac- {Pt,Ir,Pd},aswellas{Ni,Co,Mn}.BasedontheΔG range,
+H*
+tivity of HEA catalysts. Before going into the electronic struc- wefoundthatadsorptionenergyforPGMgroupmetalsisclos-
+ture, firstly, we fully assessed the Gibbs formation enthalpy esttothevolcanopeakwhile{Ni,Co,Mn}showmuchstronger
+(ΔG ) after hydrogen adsorption on different alloy surfaces, bondingand,therefore,lowerdG ,asshowninFigure1a.In
+H* H*
+which was compared with other known catalysts as shown in our DFT calculated dG , we also found that {Ni, Co, Fe, Mn}
+H∗
+Table 2. Secondly, the electronic-structure analysis including TMsoverbindthehydrogencomparedtoPGMgroupmetals.If
+charge-density difference (Δ𝜌) and electronic density of states weputareference,thenIristhebestelementalcatalystwhileall
+(DOS) were performed on thermodynamically preferred (111) theothersoverbindthehydrogen,whichagreeswiththelitera-
+orientedHEA(PtPdNiCoMn)surfacewithfullhydrogencover- turedata,seeTable2.
+age. Despite the higher cost of including magnetic configura- From the thermodynamic perspective, we calculated the hy-
+tions,weperformedallDFTcalculationsbytakingspinpolariza- drogenadsorptionenergiesofthreePt-Pd-Ni-Co-MnHEAs(see
+Adv.Funct.Mater.2025,35,2418644 2418644(10of14) ©2024Wiley-VCHGmbH
+16163028,
+2025,
+17,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202418644
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.afm-journal.de
+Table2.TheDFTcalculatedtheaveragetotal-energy(ΔE )[0K],average attheHEA-Hinterface,theelectrondensityofH*inFigure7b
+H*
+free-energy(ΔG H* )[300K],andGibbsformationenthalpy(dG H* )[300K] was found to show a decreasing trend at the Mn < Co < Ni <
+forhydrogenabsorptionon(111)HEAsurfacecomparedtowell-known Pd < Pt sites, which also reflects the order of charge transfer
+electrocatalysts,i.e.,Pd,Pt,orIr.TheenergeticswerecalculatedforfullH
+coveragewithhydrogenoccupyingallthehallowFCCsites.Theground fromH*tothe(111)HEAsurface.Theeffectiveelectrontransfer
+stateofCoandMnishcpandcomplexbccphase,butweconsiderboth fromH*tothecatalystsurfaceisalsoevidentinthe3Dcharge
+inthehypotheticalfccphaseforone-to-onecomparison. densityplotsinFigure7b,whichisrequiredforanefficienthy-
+drogenevolutionprocess.InFigure7c,wefoundthat,theelec-
+Alloysurface ΔE H a) ΔG H a) dG H a) tronicDOSof{Ni,Co,Mn}showsasignificantincreaseatthe
+[eV/atom/H] Fermi level (E ) compared to {Pd, Pt} and case with no hy-
+Fermi
+drogencoverage,whichexpectedlyfacilitatestheelectrontrans-
+{111}FCCsurface[thiswork]
+fer at the HEA surface as shown through difference in charge
+Pt −0.38 −0.17 −0.13
+densityinFigure7b.Furthermore,theTM─Hinteraction-driven
+Ir −0.37 −0.16 −0.11
+chargetransfershiftsthed-bandcenterof{Co,Mn}andbrings
+Pd −0.47 −0.26 −0.21
+them closer to the Fermi level while {Pt, Pd, Ni} shift away
+Ni −0.53 −0.34 −0.33 when compared to the case with no hydrogen coverage (see
+Co −0.51 −0.30 −0.26 Table3).Notably,theHEAsurfacewithhydrogenadditionshows
+Mn −0.73 −0.52 −0.47 againinelectronicstatesintheenergyrangeof−6to−8.5eV
+Literature[62] (Figure7c,c ).ThemagnifiedregionofDOSinFigure7c also
+1 1
+Pt(111) −0.38 −0.17 −0.13 showsenhancedelectronicstatesin−6to−8.5eVenergyrange,
+Ni(111) −0.55 −0.34 −0.33 which we attribute to increased TM-d and H-1s hybridization.
+Co(0001) −0.11 +0.10 −0.03 Thiscanfurtherbeconnectedbacktoourdiscussionrelatedto
+increased surface charge activity in Figure 7b. Our DFT analy-
+Fe(110) +0.01 +0.22 +0.27
+sis reveals moderate hydrogen adsorption (see Table 2) on the
+Cr(110) −0.22 −0.01 −0.01
+designedPtPdNiCoMncatalystsurfacecomparedtootheralloy
+NiCoFeCr −0.68 −0.47 −0.40
+surfaces,indicatingthatHEAsatisfiestherequiredstabilityand
+HEAs[Thiswork]
+an optimal HER electrocatalytic activity for this catalyst as dis-
+PtPd −0.512 −0.302 −0.28 cussedwithFigure1.
+NiCoMn[MEA-3] −0.58 −0.36 −0.31 We further tried to connect the local Stoner crite-
+PtNiCoMn[MEA-1] −0.53 −0.31 −0.27 rion,D(E )I >1,whichiswellknowntogoverntheformation
+F SC
+PdNiCoMn[MEA-2] −0.54 −0.32 −0.28 oflocalmomentonthetransitionmetalsites,whereD(E )and
+F
+PtPdNiCoMn[HEA] −0.17 +0.04 +0.08 I ared-electronDOS(atE )andStonerintegral,respectively.
+SC F
+Notably,theStonercriterionisdisturbedlocallyduetoincreased
+a)Atomsarearrangedwiththeirdecreasingatomicnumber.
+hybridization or band-filling in complex alloys such as high-
+entropyalloysthatmaymodifythealloyd-bandcenter.Asshown
+Table 1) and compared them with PtPd and NiCoMn alloys. inTable3,thed-bandcenterfor{Co,Mn}inHEA-Hhasmoved
+DFT results show that PtPd (−0.302 eV/atom/H), NiCoMn closertotheFermilevelwhile{Pt,Pd}andNishowsadownward
+(−0.36 eV/atom/H), PtNiCoMn (−0.31 eV/atom/H), and PdNi- shiftwhencomparedtoHEAwithnohydrogen.Thisisindica-
+CoMn (−0.32 eV/atom/H) overbind the hydrogen compared to tiveofincreasedTM-Hinteractionthatinduceseffectivecharge
+PtPdNiCoMn(+0.04eV/atom/H).WhenweputdG incontext transfer from hydrogen to {Pt, Pd, Ni} in HEA. Interestingly,
+H*
+withthevolcanoplotinFigure1a,thePtPdNiCoMnHEAfalls wealsonoticedinchargedensityanalysisinFigure7bthat{Co,
+nearthepeakofthevolcanoplot,whichisinthesimilarenergy Mn} sites away from the surface show charge loss while sites
+rangeas{Pt,Pd,Ir}.Notably,ourexperimentalcharacterizations at the surface become more active. Thissuggests thatcomplex
+ofHERshowthatthePtPdNiCoMnHEAisthebest-performing HEAsurfacesbecomemoreHERactiveduetoincreasedcharge
+alloyundervarioustestconditionsandsatisfiestheproposedde- activityat/nearthesurfacesites.Interestingly,themodulationof
+signcriteria.Finally,inTable2,wealsocompareddG ofHEA d-bandcenterduetohydrogenadditiononHEAsurfaceshows
+H*
+withelementslike{HCP-Co,BCC-Cr}andFCC-NiCoFeCr,which its relevance in predicting hydrogen adsorption on metal sur-
+suggestsmuch-improvedthermoneutralityandmetal-hydrogen faces.AnotherpartoftheStonercriterionisassessingtheroleof
+interactionforPtPdNiCoMnHEA. spin-polarizationonHERactivity,whichsuggeststhatmaterials
+For the best HER active alloy, i.e., PtPdNiCoMn HEA, in withlowerspin-polarizationareexpectedtoshowhigheractivity
+Figure 7, we show the DFT calculated charge density and den- compared to materials with high spin-polarization. For clarity,
+sityofstatesfor(111)orientedHEAsurface.Asdiscussedinthe we analyzed the magnetic behavior of surface versus away
+Experimental Section, it has been well established that hollow from surface magnetic sites in HEA (Figure 7a). The {Ni, Mn,
+sites are the preferred adsorption sites by atomic hydrogen on Co} at the surface show loss of moment {0.4, 1.3, 1.6}𝜇 in
+B
+the(111)facetsoffccmetals,[63,64] therefore,welimithydrogen HEA-Hcomparedtotheireffectivemoment{0.6,1.7,3.585}𝜇
+B
+adsorptionstofccthreefoldhollowsitesonthe(111)surface,as ormoment{0.8,2.2,1.95}𝜇 atsitesawayfromthesurfacefor
+B
+showninFigure7a. full hydrogen coverage. The lower spin-polarization in HEA-H
+Ingeneral,{Ni,Co,Mn}arelowactivesitescomparedto{Pt, further shows a correlation with the Stoner criterion of higher
+Pd},whichisclearfromtheirpositioninginthevolcanoplotin activity,whichcouldbeusedasadescriptortofilterHERactive
+Figure1a.However,fortheH*adsorptionontheHEAsurface materials.
+Adv.Funct.Mater.2025,35,2418644 2418644(11of14) ©2024Wiley-VCHGmbH
+16163028,
+2025,
+17,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202418644
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.afm-journal.de
+Figure7. Electronic-structurecalculationPt/Pd-HEAs,andcorrelationwithHERactivity.a)Crystal-structureof(111)orientedHEAsurfacewithfull
+hydrogencoverage.b)Threedifferentchargedensityprojectionsshowingincreasedchargeactivity(transfer)forHEAinthepresenceofhydrogen.The
+cyancolorshowstheeffectivechargetransferfromhydrogentothemetalelement.c,c )DFTcalculatedthepartialdensityofstates(states/eV-atom)
+1
+forHEAbothwithandwithouthydrogencoverage.ThezoomedregionshowsH-1sstatesweaklycoupledwithTM-dstates,whilestrongcouplingwas
+seenatlowerenergies(−6to−8.5eV)belowtheFermilevel.d)DFTcalculatedtotalDOSforHEA(#1;PtPdNiCoMn),MEA-1(#2;PtNiCoMn),MEA-2
+(#3;PdNiCoMn),andMEA-3(#4;NiCoMn).ThezoomedDOSattheFermienergy(E )showsthelowestelectronicstatesforHEA.e)Acomparative
+F
+histogramforselectedalloysshowsadirectcorrelationbetweenoverpotential(mV)andelectronicstatesatE (states/eV-unitcell). Fermi
+Notably,theexperimentalHERactivitydoesnotshowanydi- 1<MEA-2<MEA-3.ThealloywiththebestHERactivity,i.e.,
+rectcorrelationwiththechangeinconcentrationofPGMgroup HEA, shows the least electronic states at E (15.5 states/eV-
+Fermi
+elementfordown-selectedHEAs.Thus,tounderstandtheorigin unitcell)withahigherslope.ThehigherslopeinDOSatE
+Fermi
+ofthechangeinHERtrends,weanalyzedthechangeinDFTcal- is suggestive of more thermally active electronic states, which
+culatedDOSattheE forHEA,MEA-1,MEA-2,andMEA-3as iscriticalforimprovedmetal–hydrogenfunctionalizationasre-
+Fermi
+showninFigure7d.TheelectronicstructureinFigure7dshows portedrecentlyinsomeintermetalliccompounds.[65,66]TheDOS,
+thatDOSatE offourselectedalloysdecreasessystematically, particularlytheslopeneartheE ,hasbeenestablishedasakey
+Fermi Fermi
+whichcanbearrangedinthefollowingorder,i.e.,HEA<MEA- descriptor for catalytic performance, especially in HER. The d-
+bandcenteroftransitionmetals,linkedtotheDOSnearE ,
+Fermi
+governstheadsorptionstrengthofhydrogenintermediates,sig-
+nificantly influencing HER efficiency.[67] A higher slope in the
+Table3.Thed-bandcenteranalysisforHEAbothwithandwithouthydro-
+DOSindicatesagreateravailabilityofelectronicstatesatE ,
+gencoverage. Fermi
+whichfacilitateshydrogenadsorptionanddesorption,thusim-
+provingcatalyticactivity.Theimportanceoftheelectronicstruc-
+Elements d-bandcenter[eV] ture,especiallytheDOS,wasalsohighlightedinoptimizingthe
+PtPdNiCoMn-H PtPdNiCoMn bindingofhydrogenintermediates,furthersupportingtheDOS
+slopeasavaluablemetricforpredictingHERperformance.[68–70]
+Up Down Avg. Up Down Avg Recentstudiesreinforcedthisapproach,[71,72]showcasingthatby
+Pt −2.5806 −2.4344 −2.5075 −2.3367 −2.1670 −2.2517 manipulating the DOS, we can efficiently screen materials for
+Pd −3.2588 −3.0668 −3.1627 −3.1015 −2.8939 −2.9976 highcatalyticactivity.ThesefindingsunderscoretheroleofDOS
+asaneffectivedescriptorforelectrocatalysts,especiallyincom-
+Ni −1.2350 −0.6752 −0.9553 −1.2179 −0.6562 −0.9373
+plex,multi-elementsystemslikeHEAs,whererapidevaluation
+Co −1.2181 0.0835 −0.5711 −1.5333 −0.2294 −0.8845
+ofcatalystsiscrucial.Withthisanalysis,wehavecometothehy-
+Mn −0.6754 1.0571 0.1794 −1.0890 0.6716 −0.2171
+pothesisthatthermallymoreactivestatesatE willenablebet-
+HEA −2.1676 −1.4324 −1.8013 −2.0899 −1.3264 −1.7089 Fermi
+terhydrogenadsorptionwithahigherprobabilityforTM-3d/4d
+Adv.Funct.Mater.2025,35,2418644 2418644(12of14) ©2024Wiley-VCHGmbH
+16163028,
+2025,
+17,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202418644
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.afm-journal.de
+statestooverlapwithH-1sstates.ThesuperiorpropertiesofHEA isgratefullyacknowledged.TheauthorsacknowledgeSAMatResearchFa-
+towardHERareduetoasynergisticcombinationoftheincreased cilities,JNCASR,Bangalore,India,forXPS.TheauthorsacknowledgeNCL
+numberofactivesitesforHadsorptionasshowninFigure7b. PuneandVireshPomajifordoingICPAES.P.S.wassupportedbytheLabo-
+ratoryDirectedResearchandDevelopment(LDRD)programatAmesNa-
+This makes sense as random mixing of five or more elements
+tionalLaboratory.TheworkatAmesNationalLaboratorywassupportedby
+increasestheprobabilityofhavingmorechemicallydistinctand
+theU.S.DepartmentofEnergy(DOE),OfficeofScience,BasicEnergySci-
+activeTMsitesduetotheirvaryingvalenceelectroncountand ences,MaterialsSciencesandEngineeringDivision.TheAmesNational
+electronegativities. LaboratoryisoperatedfortheU.S.DOEbyIowaStateUniversityunder
+To conclude the theoretical discussion, we want to empha- ContractNo.DE-AC02-07CH11358.
+size that the observed correlation between electronic-structure
+feature, i.e., DOS with higher slope at E , and HER activ-
+Fermi ConflictofInterest
+ity (overpotential), as shown in Figure 7e, will be useful met-
+ricforquickfilteringofnovelhigh-entropyelectrocatalystswith
+Theauthorsdeclarenoconflictofinterest.
+improved HER activity. Finally, both Volmer–Tafel (VT) or VH
+mechanisms[50] inthealkalinemediumarefollowedbythefor-
+mationanddesorptionofmolecularH .Importantly,theVHor AuthorContributions 2
+VTreactionsequencesinvolvetheintermediateformationofH*,
+andtherefore,theHadsorptionenergycombinedwithDOSat A.C.M:datacuration,formalanalysis,investigation,methodology,valida-
+tion,visualization,writingofexperimentalpart.P.D.:datacuration.P.S.:
+E forHEAsorotherdisorderedmaterialscanbeusedasa
+Fermi conceptualizationofcomputationalguidelinesforHEAselection,datacu-
+descriptor to predict the electrocatalytic activity of materials to-
+ration,formalanalysis,investigation,methodology,validation,visualiza-
+wardHER. tion,writingoftheoreticalpart,resources(computational),fundingacqui-
+sition(computational).A.K.S.:conceptualization,formalanalysis,investi-
+3.Conclusion gation,supervision,writing—review&editing,resources,projectadmin-
+istration,fundingacquisition.B.L.V.P.:conceptualization,formalanalysis,
+A screening guideline was designed with five descriptors, i.e., investigation,supervision,writing—review&editing,resources,project
+administration,fundingacquisition. hydrogen absorption energy, the variance in surface TM-H
+bond length, mixing-enthalpy (ΔH ), electronegativity differ-
+mix
+ence (Δ𝜒), and cationic preference, for achieving a good HEA
+DataAvailabilityStatement
+electrocatalyst for HER. Using the hypothesis set by screening
+rules, PtPdNiCoMn high-entropy alloy was synthesized by the Thedatathatsupportthefindingsofthisstudyareavailablefromthecor-
+electrodeposition method and tested as an electrocatalyst for respondingauthoruponreasonablerequest.
+HERinanalkalineelectrolyte.Solutionoptimizationwasdone
+forelectrodeposition,andthebestcatalystforHERwasobtained
+Keywords
+whendepositedwithamixedsolventconditionof4:1DMFand
+acetonitrile. Considering the optimized solvent system, poten-
+DFT,electrocatalysts,electronicstructure,HER,high-entropyalloys
+tial optimization was performed and found that electrodeposi-
+tionat−1.5VversusAg/Ag+resultedinaphase-pureHEAwith
+Received:October3,2024
+1.55Rconfigurationalentropyandanoverpotentialof22.6mVat Revised:December5,2024
+−10 mA cm−2 in alkaline electrolyte which outperformed Pt/C Publishedonline:December29,2024
+commercial catalyst. It showed exciting HER activity even un-
+dersimulatedseawaterandseawaterelectrolytes.TheHEAhas
+shownexceptionalstabilityatahighcurrentdensityof−100mA
+cm−2for100hwithalowvalueofoverpotentialincrement.The [1] B.Chen,G.Sun,J.Wang,G.Liu,C.Tan,Y.Chen,H.Cheng,J.Chen,
+HEA PtPdNiCoMn is an excellent electrocatalyst for HER with Q.Ma,L.Huang,P.Chen,H.Zhang,Chem.Commun.2020,56,5131.
+[2] A.Sivanantham,H.Lee,S.W.Hwang,H.U.Lee,S.B.Cho,B.Ahn,
+good activity even in saline water and has high stability. Aver-
+I.S.Cho,Adv.Funct.Mater.2023,33,2301153.
+age free-energy (ΔG ) for hydrogen adsorption on (111) HEA
+H∗ [3] Y.F.Cui,S.D.aJiang,Q.Fu,R.Wang,P.Xu,Y.Sui,X.J.Wang,Z.L.
+is+0.04eV/atom/HandthermallymoreactivestatesatE show
+F, Ning,J.F.Sun,X.Sun,A.Nikiforov,B.Song,Adv.Funct.Mater.2023,
+theoptimumadsorptionofthereactionintermediatewithHEA
+33,2306889.
+surfacewhichisbetterthanPt. [4] B.Y.Tang,R.P.Bisbey,K.M.Lodaya,W.L.Toh,Y.Surendranath,Nat.
+Catal.2023,6,339.
+SupportingInformation [5] S.Pan,C.Li,T.Xiong,Y.Xie,F.Luo,Z.Yang,Appl.Catal.,B.2024,
+341,123275.
+SupportingInformationisavailablefromtheWileyOnlineLibraryorfrom [6] X.Fu,J.Zhang,S.Zhan,F.Xia,C.Wang,D.Ma,Q.Yue,J.Wu,Y.Kang,
+theauthor. ACSCatal.2022,12,11955.
+[7] X.Liu,P.Zou,L.Song,B.Zang,B.Yao,W.Xu,F.Li,J.Schroers,J.
+Acknowledgements Huo,J.Q.Wang,ACSCatal.2022,12,3789.
+[8] J.A.Bau,S.M.Kozlov,L.M.Azofra,S.Ould-Chikh,A.H.Emwas,H.
+TheauthorsacknowledgethefinancialsupportfromtheDepartmentof Idriss,L.Cavallo,K.Takanabe,ACSCatal.2020,10,12858.
+ScienceandTechnology(DST),GovernmentofIndiaandScienceandEn- [9] X.He,Z.Hu,Q.Zou,J.Yang,R.Guo,L.Wu,RSCAdv.2023,13,8901.
+gineeringResearchBoard(ProjectGrantNo.CRG/2022/001633).Thecen- [10] Z.Li,M.Gan,Y.Wang,Y.Liu,J.Han,S.Li,J.Guo,L.Qian,Appl.
+tralresearchfacility,CentreforNanoandSoftMatterSciences,Bengaluru Catal.,B.2024,358,124395.
+Adv.Funct.Mater.2025,35,2418644 2418644(13of14) ©2024Wiley-VCHGmbH
+16163028,
+2025,
+17,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202418644
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.afm-journal.de
+[11] L.Meng,S.Shang,S.Liu,L.Zhang,Q.Tang,H.Wang,F.Wang,C. [43] H.Li,H.Sun,C.Wang,B.Wei,C.Yao,Y.Tong,H.Ma,J.AlloysCompd.
+Li,Y.Sun,H.Wu,Appl.Catal.,B.2024,358,124388. 2014,598,161.
+[12] P.Liu,Y.Shi,X.Zhang,J.Yin,D.Zhang,T.Wang,J.Fei,T.Zhan,G. [44] A.Amiri,R.Shahbazian-Yassar,J.Mater.Chem.A.2021,9,782.
+Li,J.Lai,L.Wang,Appl.Catal.,B.2024,341,123332. [45] Q.Mao,X.Mu,K.Deng,H.Yu,Z.Wang,Y.Xu,X.Li,L.Wang,H.
+[13] P.Guo,R.Wu,B.Fei,J.Liu,D.Liu,X.Yan,H.Pan,J.Mater.Chem.A. Wang,Adv.Funct.Mater.2023,33,2304963.
+2021,9,21741. [46] Y.Wang,M.Ni,W.Yan,C.Zhu,D.Jiang,Y.Yuan,H.Du,Adv.Funct.
+[14] Z.Li,C.Wang,Y.Liang,H.Jiang,S.Wu,Z.Li,W.Xu,S.Zhu,Z.Cui, Mater.2024,34,2311611.
+Appl.Catal.,B.2024,345,123677. [47] Y.Wang,B.Ma,W.Li,P.K.Liaw,S.Yang,N.Zhong,Crystals.2024,
+[15] B.Hu,P.Chen,C.Xu,J.Meng,J.Cai,Y.Yang,B.Zhang,D.Yu,X. 14,171.
+Zhou,C.Chen,Appl.Catal.,B.2022,307,121183. [48] A.C.M.,S.Karumuthil,A.K.Singh,B.L.V.Prasad,Int.J.Hydrogen
+[16] M.Khalid,A.M.B.Honorato,G.TremiliosiFilho,H.Varela,J.Mater. Energy.2024,49,658.
+Chem.A.2020,8,9021. [49] M.T.M.Koper,J.SolidStateElectrochem.2013,17,339.
+[17] K.Hu,M.Wu,S.Hinokuma,T.Ohto,M.Wakisaka,J.I.Fujita,Y.Ito, [50] M.David,C.Ocampo-Martínez,R.Sánchez-Peña,J.EnergyStorage.
+J.Mater.Chem.A.2019,7,2156. 2019,23,392.
+[18] Y.Zhang,K.Nie,B.Li,L.Yi,C.Hu,Z.Wang,X.Hao,W.Zhang,Z. [51] M. C. Troparevsky, J. R. Morris, P. R. C. Kent, A. R. Lupini, G. M.
+Liu,W.Huang,Appl.Catal.,B.2025,360,124529. Stocks,Phys.Rev.X.2015,5,011041.
+[19] S.Gupta,N.Patel,R.Fernandes,R.Kadrekar,A.Dashora,A.K.Yadav, [52] A. Lnoue, T. Zhang, T. Masumoto, J. Non-Cryst. Solids. 1993, 156,
+D.Bhattacharyya,S.N.Jha,A.Miotello,D.C.Kothari,Appl.Catal.,B. 598.
+2016,192,126. [53] J.K.Nørskov,T.Bligaard,A.Logadottir,J.R.Kitchin,J.G.Chen,S.
+[20] B.Zhang,J.Wang,G.Liu,C.M.Weiss,D.Liu,Y.Chen,L.Xia,P.Zhou, Pandelov,U.Stimming,J.Electrochem.Soc.2005,152,J23.
+M.Gao,Y.Liu,J.Chen,Y.Yan,M.Shao,H.Pan,W.Sun,Nat.Catal. [54] T.F.Jaramillo,K.P.Jørgensen,J.Bonde,J.H.Nielsen,S.Horch,I.
+2024,7,441. Chorkendorff,Science.2007,317,100.
+[21] M.Li,K.Duanmu,C.Wan,T.Cheng,L.Zhang,S.Dai,W.Chen,Z. [55] H.S.Oh,S.J.Kim,K.Odbadrakh,W.H.Ryu,K.N.Yoon,S.Mu,F.
+Zhao,P.Li,H.Fei,Y.Zhu,R.Yu,J.Luo,K.Zang,Z.Lin,M.Ding,J. Körmann,Y.Ikeda,C.C.Tasan,D.Raabe,T.Egami,E.S.Park,Nat.
+Huang,H.Sun,J.Guo,X.Pan,W.A.Goddard,P.Sautet,Y.Huang, Commun.2019,10,2090.
+X.Duan,Nat.Catal.2019,2,495. [56] J.T.Bender,A.S.Petersen,F.C.Østergaard,M.A.Wood,S.M.J.
+[22] C.Han,Y.Lu,J.Zhang,L.Ge,Y.Li,C.Chen,Y.Xin,L.Wu,S.Fang,J. Heffernan,D.J.Milliron,J.Rossmeisl,J.Resasco,ACSEnergyLett.
+Mater.Chem.A.2015,3,23274. 2023,8,657.
+[23] N.Zhang,Y.Zhu,Q.Shao,X.Zhu,X.Huang,J.Mater.Chem.A.2017, [57] M.C.O.Monteiro,A.Goyal,P.Moerland,M.T.M.Koper,ACSCatal.
+5,18977. 2021,11,14328.
+[24] C.Zhang,P.Wang,W.Li,Z.Zhang,J.Zhu,Z.Pu,Y.Zhao,S.Mu,J. [58] J.Resasco,F.Abild-Pedersen,C.Hahn,Z.Bao,M.T.M.Koper,T.F.
+Mater.Chem.A.2020,8,19348. Jaramillo,Nat.Res.2022,5,374.
+[25] Y.Liu,S.Liu,Z.Che,S.Zhao,X.Sheng,M.Han,J.Bao,J.Mater. [59] T.A.A.Batchelor,J.K.Pedersen,S.H.Winther,I.E.Castelli,K.W.
+Chem.A.2016,4,16690. Jacobsen,J.Rossmeisl,Joule.2019,3,834.
+[26] Y.Pan,J.Gao,E.Lv,T.Li,H.Xu,L.Sun,A.Nairan,Q.Zhang,Adv. [60] C.Z.Yao,P.Zhang,M.Liu,G.R.Li,J.Q.Ye,P.Liu,Y.X.Tong,Elec-
+Funct.Mater.2023,41,2303833. trochim.Acta.2008,53,8359.
+[27] Y.Liu,Y.Wang,P.Yang,G.Gao,Int.J.HydrogenEnergy.2021,46, [61] S.Jayakrishnan,M.Pushpavanam,B.A.Shenoi,Surf.Technol.1981,
+37311. 13,225.
+[28] Y.Zheng,P.Shang,F.Pei,G.Ma,Z.Ye,X.Peng,D.Li,Chem.Eng.J. [62] F.McKay,Y.Fang,O.Kizilkaya,P.Singh,D.D.Johnson,A.Roy,D.P.
+2022,433,134571. Young,P.T.Sprunger,J.C.Flake,W.A.Shelton,Y.Xu,J.Phys.Chem.
+[29] G.Huang,Y.Li,R.Chen,Z.Xiao,S.Du,Y.Huang,C.Xie,C.Dong, C.2021,125,17008.
+H.Yi,S.Wang,Chin.J.Catal.2022,43,1101. [63] Y. Bai, D. Kirvassilis, L. Xu, M. Mavrikakis, Surf. Sci. 2019, 679,
+[30] Q.Zhang,Y.Kuang,Y.Li,M.Jiang,Z.Cai,Y.Pang,Z.Chang,X.Sun, 240.
+J.Mater.Chem.A.2019,7,9517. [64] D.C.Ford,Y.Xu,M.Mavrikakis,Surf.Sci.2005,587,159.
+[31] M.Wei,Y.Sun,F.Ai,S.Xi,J.Zhang,J.Wang,Appl.Catal.,B.2023, [65] S.Kong,P.Singh,G.Akopov,D.Jing,R.Davis,J.Perez-Aguilar,J.
+334,122814. Hong,S.J.Lee,G.Viswanathan,E.Soto,M.Azhan,T.Fernandes,
+[32] H.Li,Q.Tang,B.He,P.Yang,J.Mater.Chem.A.2016,4,6513. S.Harycki,A.Gundlach-Graham,Y.V.Kolen’ko,D.D.Johnson,K.
+[33] H.Li,J.Lai,Z.Li,L.Wang,Adv.Funct.Mater.2021,31,2106715. Kovnir,Chem.Mater.2023,35,5300.
+[34] Y.Zhai,X.Ren,B.Wang,S.Liu,Adv.Funct.Mater.2022,32,2207536. [66] S.Kong,P.Singh,A.Sarkar,G.Viswanathan,Y.V.Kolen’ko,Y.Mudryk,
+[35] H.Jung,S.Choung,J.W.Han,NanoscaleAdv.2021,3,6797. D.D.Johnson,K.Kovnir,Chem.Mater.2023,36,1665.
+[36] R.Q.Yao,Y.T.Zhou,H.Shi,W.BinWan,Q.H.Zhang,L.Gu,Y.F.Zhu, [67] M.Cao,K.Liu,Y.Song,C.Ma,Y.Lin,H.Li,K.Chen,J.Fu,H.Li,J.
+Z.Wen,X.Y.Lang,Q.Jiang,Adv.Funct.Mater.2021,31,2102285. Luo,Y.Zhang,X.Zheng,J.Hu,M.Liu,J.EnergyChem.2022,72,125.
+[37] A.ChandranM,S.Sahoo,A.K.Singh,B.L.V.Prasad,Small.2024, [68] B.Hammer,J.K.Norskov,Nature.1995,376,238.
+https://doi.org/10.1002/smll.202408317. [69] J.K.Nørskov,F.Abild-Pedersen,F.Studt,T.Bligaard,Proc.Natl.Acad.
+[38] S. Gao, S. Hao, Z. Huang, Y. Yuan, S. Han, L. Lei, X. Zhang, R. Sci.USA.2011,108,937.
+Shahbazian-Yassar,J.Lu,Nat.Commun.2020,11,2016. [70] C.Wei,Y.Sun,G.G.Scherer,A.C.Fisher,M.Sherburne,J.W.Ager,
+[39] H. Li, Y. Pan, J. Lai, L. Wang, S. Feng, Jiegou Huaxue. 2022, 41, Z.J.Xu,J.Am.Chem.Soc.2020,142,7765.
+2208003. [71] Z.Wang,J.Chen,E.Song,N.Wang,J.Dong,X.Zhang,P.M.Ajayan,
+[40] B.Wang,W.Liu,Y.Leng,X.Yu,C.Wang,L.Hu,X.Zhu,C.Wu,Y.Yao, W. Yao, C. Wang, J. Liu, J. Shen, M. Ye, Nat. Commun. 2021, 12,
+Z.Zou,iScience.2023,26,103626. 5960.
+[41] H.Chen,C.Guan,H.Feng,ACSAppl.NanoMater.2022,5,9810. [72] F.Gong,M.Liu,S.Ye,L.Gong,G.Zeng,L.Xu,X.Zhang,Y.Zhang,
+[42] A.Aliyu,C.Srivastava,Materialia.2019,8,100459. L.Zhou,S.Fang,J.Liu,Adv.Funct.Mater.2021,31,2101715.
+Adv.Funct.Mater.2025,35,2418644 2418644(14of14) ©2024Wiley-VCHGmbH
+16163028,
+2025,
+17,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202418644
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[08/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+

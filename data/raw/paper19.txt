@@ -1,0 +1,615 @@
+Supporting Information
+Sub-2 nm Ultrasmall High-Entropy Alloy Nanoparticles for Extremely Superior
+Electrocatalytic Hydrogen Evolution
+Guang Feng,†⊥Fanghua Ning,†⊥ Jin Song,† Huaifang Shang,† Kun Zhang,† Zhengping Ding,‡
+Peng Gao,‡ Wangsheng Chu,*ξ and Dingguo Xia*†§
+†Beijing Key Laboratory of Theory and Technology for Advanced Batteries Materials,
+College of Engineering, Peking University, Beijing 100871, P. R. China
+‡International Center for Quantum Materials & Electron Microscopy Laboratory, School of
+Physics, Peking University, Beijing 100871, PR China
+ξ National Synchrotron Radiation Laboratory, University of Science and Technology of China,
+Hefei, Anhui 230029, PR China.
+§Beijing Innovation Center for Engineering Science and Advanced Technology, Peking
+University, Beijing 100871, PR China.
+Correspondence and requests for materials should be addressed to W.C. and D.X. (email:
+chuws@ustc.edu.cn; dgxia@pku.edu.cn)
+⊥These authors contributed equally to this work.
+1
+
+Experimental Section
+Synthesis of us-HEA Nanoparticles
+Ultrasmall NiCoFePtRh HEA NPs were synthesized by the co-reduction of five metal salts
+under argon-filled conditions, followed by annealing. Using a typical procedure, FeSO ·7H O
+4 2
+(0.02 mmol), NiSO ·6H O (0.02 mmol), CoSO ·7H O (0.02 mmol), Rh (SO ) ·4H O (0.005
+4 2 4 2 2 4 3 2
+mmol), and H PtCl ·6H O (0.01 mmol) were dissolved in 0.002 M H SO solution (50 mL) in
+2 6 2 2 4
+an argon-filled box, and stirred to form a clear solution. Then, Ketjen-black carbon powders
+were added to the clear solution, and the mixture was stirred continuously to form a uniformly
+dispersed solution. Next, the saturated aqueous solution of sodium borohydride was added to
+the above solution under vigorous stirring for 8 h. Finally, the sample was separated from the
+mixture via centrifugation. The sample was then washed with argon-saturated ultrapure water
+and ethanol solution, and dried at 70 °C for 6 h in a glovebox. The obtained precursors were
+quickly transferred to a tube furnace and treated under flowing H /Ar at 350 °C for 3 h. The
+2
+obtained us-HEA/C NPs (5 wt%) were finally stored in a glovebox under Ar for further
+characterization and electrochemical measurements. The synthesis of eight other HEAs with
+different compositions and NiCoFePtRh HEA/C with other loadings followed the similar
+procedure to that of us-HEA/C NPs.
+Material Characterizations
+XRD patterns were collected on an X-ray diffractometer (Bruker D8, Cu K , λ = 1.5406 Å, 40
+α
+kV, and 40 mA) with a counting time of 8 s, and recorded with 2θ ranging from 10° to 80°.
+The morphologies and composition of the samples were characterized by high-resolution
+transmission electron microscopy (HRTEM; JEOL, JEM-2100F, 200 kV) equipped with an
+EDS instrument. The atomic structural characterization of the samples was determined using
+an aberration-corrected FEI Titan Cubed Themis G2 microscope operated at 300 kV equipped
+with an X-FEG gun and Bruker Super-X EDX detectors. The beam current was ~50 pA, the
+convergence semiangle was 30 mrad, and a collection semi-angle snap was 80-379 mrad. The
+STEM-EDX mapping are acquired at a beam current of ~50pA and counts ranging from 1k
+cps to 3k cps for ~15 min with a Bruker Super-X EDS four-detector. Due to the ultrasmall
+nanostructure, the electron exposures used should be very low to minimize irradiation damage
+during the TEM measurements. The XAFS spectra of the us-HEA at the Pt L -edge, Ni K-
+3
+edge, Co K-edge, and Fe K-edge were collected at beamline 1W1B of the Beijing
+Synchrotron Radiation Facility, and that at the Rh K-edge was collected at beamline BL14W1
+2
+
+of the Shanghai Synchrotron Radiation Facility. It should be noted that the samples were kept
+under an argon atmosphere before all the above characterizations to avoid oxidation.
+Electrochemical Measurements
+All the electrochemical measurements of the HER were performed in a standard three-
+electrode electrochemical cell using a BioLogic SP 240 electrochemical workstation. The
+glassy carbon (GC) film and mercury/mercurous sulphate electrode (Hg/HgSO ) were used as
+4
+the counter and reference electrodes, respectively. The working electrode was prepared as
+follows: 2 mg of us-HEA/C sample was dispersed in 1 mL of isopropyl alcohol, ultrapure
+water, and 5% Nafion mixture solution. The mixture was then transferred to an ultrasonic bath
+to form a homogeneous catalyst ink. The obtained suspension was pipetted onto the GC
+rotating disk electrode and dried naturally for the electrochemical measurements. The loading
+of noble metals (Pt and Rh) in us-HEA is 0.8224 µg cm-2. The working electrode fabrication
+procedures of Pt/C (20 wt%) and Rh/C (5 wt%) were similar to that of the us-HEA/C sample.
+The HER tests were conducted in N -saturated 0.5 M H SO solution at a rotation rate of 2000
+2 2 4
+rpm.
+TOF is defined as the number of H evolved on an active site per second. In us-HEA/C,
+2
+only a small percentage of Fe/Co/Ni near the Pt sites participates in HER and must depend on
+the help of Pt to complete the reaction. So, Pt is the true active site, and the H evolves mainly
+2
+on Pt active site. Rh site contributes greatly to the first step (Volmer step) of HER reaction
+due to strong adsorption strength with hydrogen. The Fe/Co/Ni atoms mainly play a role of
+effectively adjusting the electronic structures of Pt/Rh atoms and increasing the entropy of the
+us-HEAs to improve the stability. In brief, Rh and Pt are the main and direct active sites,
+mainly contributing to HER. Therefore, we calculated the mass activity and TOFs of the us-
+HEA/C mainly based on Pt and Rh sites. The TOF is calculated by the following equations1,2:
+3
+
+Operando XAS Measurements
+The operando XANES spectra of the us-HEA at the Pt L -edge, Ni K-edge, Co K-edge, and
+3
+Fe K-edge were also collected at beamline 1W1B of the Beijing Synchrotron Radiation
+Facility in fluorescence mode, and Rh K-edge was collected at beamline BL14W1. The
+operando fluorescence cell was designed by Beijing Scistar Technology Co Ltd. The
+electrochemical measurements of the HER were conducted at room temperature using a CHI
+760E electrochemical workstation. A carbon rod, Hg/HgSO , and us-HEA/C-coated carbon
+4
+paper were used as the counter electrode, reference electrode, and working electrode,
+respectively. 0.5 M H SO solution was added to the operando fluorescence cell by a
+2 4
+peristaltic pump.
+Computational Methods
+All the DFT calculations in this work were performed using the Vienna Ab-initio Simulation
+Package (VASP) 3,4 with Perdew-Burk-Ernzerhof (PBE) functional5. The planewave basis
+with a cutoff energy of 520 eV and projector-augmented wave (PAW) pseudopotential were
+used. The atomic positions were completely optimized until the Hellmann-Feynman force was
+less than 0.01 eV/Å and the total energy convergence criterion was set to 1 × 10-5 eV. The Pt
+(111) and us-HEA (111) surfaces were modelled by a symmetric periodic slab with a vacuum
+layer separation larger than 14 Å to avoid interlayer interactions. A 4 × 4 super cell with
+seven atomic layers containing 112 atoms was used. The Pt and Rh atoms are uniformly
+distributed, and Fe/Co/Ni atoms are randomly distributed in us-HEA (111) slab model, as
+EXAFS fitting results indicate that Fe/Co/Ni atoms have a completely random mixing
+distribution in us-HEAs, while Pt and Rh atoms are highly dispersed among the Fe-Co-Ni
+solid solution. The Monkhorst-Pack6 k-point grid 3 × 3 × 1 was set in all calculations. The
+calculation of the Gibbs free energy of the intermediates followed the Nørskov method7.
+The Gibbs free energy (ΔG) is defined as follows: ΔG =ΔE + ΔZPE - TΔS, where ΔE is the
+change of electronic energy obtained from DFT calculations, ΔZPE is the change of zero-
+point energy, and ΔS is the entropy difference. The contribution of vibration of all adsorbed
+species was considered in our calculation. We selected two adjacent fcc site to investigate the
+reaction barrier of the Tafel pathway. The adsorptions of two hydrogen atoms and the
+hydrogen molecule were taken as initial state and final state of the Tafel pathway (H* + H* =
+H ). The transition state of the reaction was obtained by the climbing image nudged elastic
+2
+band (CI-NEB) method8, then confirmed by vibrational frequency analysis. The Tafel
+activation energies ( ) were calculated by ( ) = G - G (G=E +ZPE-TS) where G
+TS ini DFT TS
+4
+
+and G are the free energies of the transition and initial states of hydrogen adsorption on the
+ini
+substrate.
+REFERENCES
+1. Tiwari, J. N.; Sultan, S.; Myung, C. W.; Yoon, T.; Li, N.; Ha, M.; Harzandi, A. M.; Park, H.
+J.; Kim, D. Y.; Chandrasekaran, S. S.; Lee, W. G.; Vij, V.; Kang, H.; Shin, T. J.; Shin, H. S.;
+Lee, G.; Lee, Z.; Kim, K. S. Multicomponent electrocatalyst with ultralow Pt loading and high
+hydrogen evolution activity. Nat. Energy, 2018, 3, 773-782.
+2. Liu, D.; Li, X.; Chen, S.; Yan, H.; Wang, C.; Wu, C.; Haleem, Y. A.; Duan, S.; Lu, J.; Ge,
+B.; Ajayan, P. M.; Luo, Y.; Jiang, J.; Song, L. Atomically dispersed platinum supported on
+curved carbon supports for efficient electrocatalytic hydrogen evolution. Nat. Energy. 2019, 4,
+512-518.
+3. Kresse, G.; Hafner, J. Ab initio molecular dynamics for liquid metals. Phys.Rev. B. 1993,
+47, 558-561.
+4. Kresse, G.; Furthmüller, J. Efficient iterative schemes for ab initio totalenergy calculations
+using a plane-wave basis set. Comput. Mater. Sci. 1996, 6, 15-50.
+5. Perdew, J. P.; Burke, K.; Ernzerhof, M. D. of Physics and NOL 70118 J. Quantum theory
+group Tulane University. Phys. Rev. Lett. 1996, 77, 3865-3868.
+6. Monkhorst, H. J.; Pack, J. D. Special points for brillouin-zone integrations. Phys. Rev. B.
+1976, 13, 5188-5192.
+7. Nørskov, J. K. et al. Origin of the overpotential for oxygen reduction at a fuelcell cathode. J.
+Phys. Chem. B. 2004, 108, 17886-17892.
+8. Henkelman, G.; Uberuaga, B. P.; Jónsson, H. A climbing image nudged elastic band
+method for finding saddle points and minimum energy paths. J. Chem. Phys. 2000, 113, 9901-
+9904.
+5
+
+Supplementary Figures:
+Figure S1. Powder XRD patterns of NiCoFePtRh high-entropy alloys (HEAs) with carbon
+supports (catalyst load is 25 wt% in theory) and without carbon supports. The standard XRD
+pattern of Pt (JCPDS 03-065-2868) is also shown at the base for comparison.
+6
+
+Figure S2. a High-angle annular dark-field scanning transmission electron microscopy
+(HAADF-STEM) image of NiCoFePtRh HEAs, showing a significant agglomeration.
+Corresponding energy dispersive spectroscopy (EDS) elemental mapping of (b) Fe, (c) Ni, (d)
+Co, (e) Rh, and (f) Pt.
+7
+
+Figure S3. HAADF-STEM images of the NiCoFePtRh HEA NPs with different loadings in
+theory on the carbon supports. a 1 wt%. b 2 wt%. c 5 wt%. d 10 wt%. e 20 wt%. f 25 wt%.
+As the loading increases, the size of the particles increases. When the loading exceeds 10 wt%,
+the particles begin to grow and agglomerate obviously, which is also confirmed by the sharp
+(111) peaks at 43.2° below. In contrast, 5 wt% loading has the optimal particle dispersion and
+ultrasmall particle size. So, 5 wt% loading is the most appropriate in this work. 5 wt% HEA/C
+is the us-HEA/C mentioned in this work. The loading amounts of 1 wt%, 2 wt%, 5 wt%, 10
+wt%, 20 wt%, and 25 wt% mentioned in our manuscript are the theoretical loadings and the
+total metal loadings.
+8
+
+Figure S4. Powder XRD patterns of the NiCoFePtRh HEAs/C with different loadings.
+9
+
+Figure S5. TEM image (a) and high-magnification TEM image (b) of us-HEA NPs loaded on
+the carbon support.
+10
+
+Table S1. A list of the high-entropy alloys (HEAs) reported previously.
+Size Synthetic Electrocatalysis
+HEAs Ref.
+(nm) Method (Yes/No)
+Ion beam
+HEA pillars 70-100 No Nano Lett., 2017, 17, 1569-1574
+milling
+PtFeCoNiCu NPs ~ 5.3 Carbothermal
+No Science., 2018, 359, 1489-1494
+PtPdIrRhRu NPs ~ 3.3 shock
+PH-HEAs > 1000 Arc melting No Nat. Commun., 2018, 9, 4063
+CoMoFeNiCu Carbothermal Yes (NH
+3
+~ 22 Nat. Commun., 2019, 10, 4011
+NPs shock decomposition)
+CrMnFeCoNi
+films CrFeCoNiPd > 100 Arc melting No Nature., 2019, 574, 223-227
+films
+Chemical co-
+us-HEA NPs ~ 1.68 Yes (HER) This work
+reduction
+11
+
+Figure S6. HAADF-STEM image (a) and XRD pattern (b) of us-HEA NPs annealed in a
+H /Ar flow at 550 ℃ for 5 h, showing no obvious change compared with those of the sample
+2
+treated at 350 ℃ for 3 h.
+12
+
+Figure S7. a Line scanning profiles of a single us-HEA NP, indicating that all five elements
+homogeneously disperse throughout the NP. b EDS spectrum of the us-HEA NP shown in (a).
+13
+
+Table S2. The ICP analysis of the us-HEA/C, which is roughly in accordance with the
+compositions of the nanoparticle in Supplementary Fig. 7b.
+Element At %
+Ni 26.8
+Co 26.1
+Fe 25.6
+Pt 13.6
+Rh 7.9
+14
+
+Figure S8. The elemental maps of a 2 nm NiCoFePtRh NP. The five metal elements in this
+nanoparticle are seriously damaged during the elemental map characterization. So larger
+nanoparticles were selected to obtain clear elemental maps in this work.
+15
+
+Figure S9. X-ray absorption near edge structure (XANES) spectra for the Fe K-edge.
+16
+
+Figure S10. Comparison of the experimental Fe K-edge XANES in bcc iron and the
+theoretical one.
+The XANES spectrum of the standard Fe foil with bcc structure has been reproduced
+successfully to find the appropriate non-structure parameters, including the type of potential,
+Fermi level, core hole and so on. The theoretical full potential calculation has been performed
+for the Fe K-edge XANES by using the Feff8.2 code (Phys. Rev. B: Condens. Matter Mater.
+Phys., 1998, 58, 7565).
+17
+
+Figure S11. Comparison of the experimental Fe K-edge XANES of the as-synthesized us-
+HEA/C and the theoretical spectra for different sizes. The cluster of 249 atoms around Fe
+represents the Fe is in bulk, while the Fe in the 19-atoms cluster is on (sub-) surface.
+The theoretical spectra of Fe K-edge XANES with the different cluster sizes have been
+reproduced based on the solid-state structure of fcc. The intensity of the pre-edge peak, which
+is a typical fingerprint for a metal element, becomes weaker with decease of the size, while
+the main peak intensity is stronger. This kind of XANES feature evolution with the size
+decrease is a little similar the oxidation effect, especially for the ultrasmall cluster.
+18
+
+Figure S12. Projected density of states (DOS) of the d-band for the surface Pt atoms in the
+pure Pt(111) and us-HEA(111) slab system. The horizontal dashed lines indicate the
+calculated d-band centre.
+The projected density of states (DOS) of the d-band for the surface Pt atoms in us-
+HEA(111) slab differ from that of pure Pt(111) slab, indicating that the d-band of surface Pt
+atoms is tuned by the alloying effects of the us-HEA(111) slab. The centre of the d-band
+dropped by 0.69 eV relative to the pure Pt(111) slab. The downshift of the d-band centre
+relieves the over-binding of hydrogen on the surface, resulting in weaker H adsorption, thus
+shifting the hydrogen-adsorption free energies (ΔG ) towards the optimal value.
+H*
+19
+
+Figure S13. Experimental k2-weighted EXAFS oscillations of the as-prepared us-HEA/C at
+Fe, Co, Ni, Rh K-edge and Pt L -edge.
+3
+20
+
+Figure S14. Extended XAFS spectra of us-HEA/C for Co K-edge (a), Fe K-edge (b), and Ni
+K-edge (c).
+21
+
+Figure S15. Comparison of the experimental k2-weighted EXAFS and the fitting curves in the
+R space for the as-prepared us-HEA/C at Fe, Co, Ni, Rh K-edge and Pt L -edge.
+3
+The EXAFS was fitted by using the IFEFFIT software (J. Synchrotron Rad., 2005, 12, 537-
+541). Because of the low loading content and the ultrasmall size of the us-HEA NPs, the
+EXAFS spectra in the R space only present a dominant peak at ca. 2.07 Å for Fe, Co and Ni,
+2.13 Å for Rh and 2.18 Å for Pt (without phase corrections), which is ascribe to the nearest
+neighbored shell around the absorbed center. The FT-EXAFS of the higher shells is weak and
+hard to be distinguished. Therefore, only the local atomic arrangement of the first shell
+achieved from the EXAFS is more reliable and accurate for our ultrasmall particles. In the fits,
+the scattering amplitude and phase were calculated by Feff8.2 code (Phys. Rev. B: Condens.
+Matter Mater. Phys., 1998, 58, 7565) with the fcc structure as the initial model. Due to the
+limitation of the statistical average of the EXAFS technique, the different metallic elements
+(Me: Fe, Co, Ni, Rh and Pt) around the absorbed center in the same position were represented
+by Co in the fits. In fact, the scattering amplitude and phase of Fe, Co and Ni (adjacent
+elements), which are of the majority composition elements in the HEA NPs, is almost
+identical. So this fitting strategy only leads to much limited errors.
+In the fits, the k-range data of 2-12 Å-1 and the r-range of 1.6-2.8 Å give 7 independent
+points for the first shell fits of Fe, Co and Ni K-edge FT-EXAFS, while the number of
+variable parameters (CN, R, σ2 and ΔE ) is 4. For the Rh K-edge, the r-range of 1.6-4.8 gives
+0
+22
+
+20 independent points and 16 variable parameters have been fitted until the fourth shells. For
+the Pt L -edge, the r-range of 1.6-3.8 Å gives 13 independent points and 12 variable
+3
+parameters have been fitted until the third shells, due to the weak signals in the higher range
+of FT curve.
+23
+
+Table S3. EXAFS fitting results for the HEA nanoparticles at Fe, Co, Ni and Rh K-edge
+and Pt L -edge.
+3
+metals pair Na R (Å) σ2 (×10-3Å2)b S 2 (eV)
+0
+Fe Fe-Me 8.6 ± 1.0 2.50 ± 0.02 13.6 ± 1.5 0.80
+Co Co-Me 8.5 ± 1.0 2.50 ± 0.02 13.2 ± 1.3 0.77
+Ni Ni-Me 8.5 ± 1.0 2.51 ± 0.02 13.0 ± 1.3 0.81
+Rh-Me 8.4 ± 1.0 2.59 ± 0.02 8.4 ± 0.9
+Rh Rh-Fe/Co/Ni 2.7 ± 0.3 3.68 ± 0.04 18.0 ± 2.0 0.90
+Rh-Pt 1.2 ± 0.3 3.84 ± 0.04 3.0 ± 0.5
+Pt-Me 8.4 ± 1.0 2.61 ± 0.02 8.8 ± 1.0
+Pt Pt-Fe/Co/Ni 3.2 ± 0.6 3.69 ± 0.04 16.0 ± 2.0 0.75
+Pt-Rh 0.8 ± 0.2 3.85 ± 0.04 14.0 ± 2.0
+a Product of S 2 and the coordinator number in a given shell determines its FT amplitude. Here
+0
+the value of S 2 is determined by fitting the EXAFS spectra of the standard metal foils.
+0
+24
+
+Figure S16. The HAADF-STEM images and elemental maps of as-prepared eight other
+HEAs. a PtRhAuIrPd. b CoCuZnPtPd. c NiCoCuPtAu. d CdNiPtIrPd. e CoNiCdPtPdIr. f
+CoCdPtPdIrAu. g CoNiCuCdPtPdIr. h FeCoNiCuCdPtIrPd. The above results demonstrate
+our synthesis method as a general strategy for the synthesis of high-entropy alloy NPs.
+25
+
+Table S4. Comparison of the geometric area activities of the advanced noble metal catalysts
+reported in the literatures for hydrogen evolution reaction in 0.5 M H SO . The iR refers to iR
+2 4
+compensation.
+Noble metal Overpotential at Overpotential at 10
+Catalyst Ref.
+loading amount 10 mA cm-2 (mV) mA cm-2 (mV) (iR)
+Pt ALD 3.5 ug cm-2 47 ~ Nat. Commun., 2017, 8, 1074
+Pt /OLC 1.377 ug cm-2 38 ~ Nat. Energy., 2019, 4, 512-518
+1
+Mo TiC T -Pt 12 ug cm-2 30 ~ Nat. Catal., 2018, 1, 985-992
+2 2 x SA
+ALD50Pt/N-doped Gr 1.61 ug cm-2 38 ~ Nat. Commun., 2016, 7, 13638
+L-Ag 200 ug cm-2 32 ~ Nat. Catal., 2019, 2, 1107-1114
+Pt-MoS 27 ug cm-2 80 ~ Nat. Commun., 2013, 4, 1444
+2
+Pt@PCM 11.2 ug cm-2 105 ~ Sci. Adv., 2018, 4, eaao6657
+IrNiTa 8.14 ug cm-2 99 ~ Adv. Mater., 2020, 32, 1906384
+Pt ML/Au NF 0.55 ug cm-2 100 ~ Sci. Adv., 2015, 1, e1400268
+Pt
+Li-PPS NDs 15.53 ug cm-2 ~ 91 Nat. Catal., 2018, 1, 460-468
+1% PtW O /C ~ ~ 22 Nat. Commun., 2020, 11, 490
+6 24
+Ru@C N 285 ug cm-2 ~ 22 Nat. Nanotech., 2017, 12, 441-446
+2
+us-HEA/C 0.8224 ugcm-2 27 20 This work
+26
+
+Figure S17. Tafel plots of the geometric area activities of the us-HEA/C, the precursor, and
+commercial Pt/C in 0.5 M H SO solution. Tafel slope was obtained from Tafel equation η =
+2 4
+b log j + c, where η is the potential, b is the Tafel slope, j is the current density, and c is the
+intercept.
+27
+
+Figure S18. The Nyquist plots of us-HEA/C and Pt/C at an overpotential of 25 mV with a 5
+mV AC potential from 0.1 to 105 Hz. The us-HEA/C possesses a smaller diameter of
+semicircle, indicating that it has a faster kinetics for HER.
+28
+
+Figure S19. Electrochemically active surface areas (ECSAs) of us-HEA/C (a), precursor (b),
+commercial Pt/C (c), and commercial Rh/C (d), estimated via the hydrogen absorption-
+desorption regions of the corresponding CV curves, and calculated by the equation ECSA (m2
+g -1) = Q /(210*m)*108. Q is the value of integral area of desorption peak over scanning
+upd upd
+speed and m is metal loading on working electrode. Q , 210, and m are in units of C, μC cm-
+upd
+2 and μg, respectively. The CV curves were measured at a scanning rate of 50 mV s−1 in N -
+2
+saturated 0.5 M H SO solution.
+2 4
+29
+
+Table S5. Comparison of the mass activities and TOFs of advanced noble metal catalysts
+reported in the recent literatures for hydrogen evolution reaction.
+Mass Activity at TOFs (at x
+Catalysts Electrolyte Ref.
+-0.05 V (A mg-1) overpotential) (s−1)
+Pt-Ru dimers 0.5 M H SO 23.10 ~ Nat. Commun., 2019, 10, 4936
+2 4
+Pt /N-C 0.5 M H SO 22.88 22.07 (50 mV) Nat. Commun., 2020, 11, 1029
+1 2 4
+Pt-GT-1 0.5 M H SO 19.85 7.22 (18 mV) Nat. Energy., 2018, 3, 773-782
+2 4
+Pt /hNCNC 0.5 M H SO 19.00 7.67 (20 mV) Nat. Commun., 2019, 10, 1657
+1 2 4
+PtNC/S-C 0.5 M H SO 13.73 ~ Nat. Commun., 2019, 10, 4977
+2 4
+1% PtW O /C 0.5 M H SO 13.10 33.35 (100 mV) Nat. Commun., 2020, 11, 490
+6 24 2 4
+Pt /OLC 0.5 M H SO 9.75 40.78 (100 mV) Nat. Energy., 2019, 4, 512-518
+1 2 4
+J. Am. Chem. Soc., 2019, 141, 19964-
+AL-Pt/Pd Pb 0.5 M H SO 7.83 ~
+3 2 4
+19968
+RuIrO 0.5 M H SO 6.50 ~ Nat. Commun., 2019, 10, 4875
+x 2 4
+Mo TiC T -
+2 2 x
+0.5 M H SO 5.39 ~ Nat. Catal., 2018, 1, 985-992
+2 4
+Pt
+SA
+Pt Ni NWs-
+3 2
+0.5 M H SO 2.16 ~ Nat. Commun., 2017, 8, 14580
+2 4
+S/C
+L-Ag 0.5 M H SO 0.18 ~ Nat. Catal., 2019, 2, 1107-1114
+2 4
+Angew. Chem. Int. Ed., 2019, 58, 11409-
+RuSi 0.5 M H SO 0.04 ~
+2 4
+11413
+IrHNC 0.5 M H SO ~ 4.21 (25 mV) Nat. Commun., 2019, 10, 4060
+2 4
+Li-PPS NDs 0.5 M H SO ~ 1.60 (140 mV) Nat. Catal., 2018, 1, 460-468
+2 4
+Ru@C N 0.5 M H SO ~ 0.67 (25 mV) Nat. Nanotech., 2017, 12, 441-446
+2 2 4
+IrNiTa 0.5 M H SO ~ 19.30 (100 mV) Adv. Mater., 2020, 32, 1906384
+2 4
+7.93 (18 mV)
+11.01 (25 mV)
+us-HEA/C 0.5 M H SO 28.30 This work
+2 4
+30.1 (50 mV)
+75.40 (100 mV)
+30
+
+Table S6. Comparison of the commercial Pt/C catalysts reported in the recent literatures for
+hydrogen evolution reaction in 0.5 M H SO . The iR refers to iR compensation.
+2 4
+Overpotential at
+Pt loading Mass Activity at TOFs (at x
+Catalyst 10 mA cm-2 Ref.
+amount -0.05 V (A mg-1) overpotential) (s-1)
+(mV)
+Nat. Energy., 2019, 4, 512-
+20 wt% Pt/C 102 ug cm-2 30 0.26 ~
+518
+20 wt% Pt/C 61 ug cm-2 20 0.43 ~ Nat. Commun., 2019, 10, 4936
+40 wt% Pt/C 400 ug cm-2 30 0.21 ~ Nat. Catal., 2018, 1, 985-992
+Nat. Energy., 2018, 3, 773-
+20 wt% Pt/C 56.8 ug cm-2 25.5 ~ 0.075 (18 mV)
+782
+Nat. Catal., 2019, 2, 1107-
+20 wt% Pt/C 40 ug cm-2 35 ~0.68 ~
+1114
+20 wt% Pt/C 32 ug cm-2 30 0.70 0.72 (50 mV) Our work
+20 wt% Pt/C 40 ug cm-2 33 (iR) ~0.27 (iR) 0.57 (100 mV) Nat. Commun., 2020, 11, 490
+10 wt% Pt/C 115 ug cm-2 25 (iR) 0.48 (iR) ~ Nat. Catal., 2018, 1, 460-468
+31
+
+Figure S20. LSV curves of commercial Pt/C (a) and commercial Rh/C (b) before and after
+1000 potential cycles in 0.5 M H SO solution from 0.1 to -0.2 V (vs RHE), showing
+2 4
+conspicuous negative shifts.
+32
+
+Figure S21. HAADF-STEM images of us-HEA/C (a) and Pt/C (b) after potential cycles tests,
+showing us-HEA/C has no obvious particle growth and agglomerations, while the Pt/C
+agglomerates severely.
+33
+
+Figure S22. XRD patterns of us-HEA/C nanoparticle before and after the accelerated
+degradation test, showing almost no change.
+34
+
+Figure S23. Elemental distributions of us-HEA/C after the accelerated degradation test,
+revealing that all elements are still uniformly distributed without obvious element separation
+and etching.
+35
+
+Figure S24. The bright field (a) and dark field (b) TEM images of lattice fringes of us-HEA
+NPs after stability test, fully demonstrating that the NP can maintain a good crystal structure.
+36
+
+Figure S25. The line scanning profiles of a single us-HEA NP after stability test, revealing
+that all five elements are still uniformly distributed and well-mixed without obvious element
+separation.
+37
+
+Figure S26. Quantitative comparison of the current densities of us-HEA/C before and after
+constant applied potential for 85h and 100 h.
+38
+
+Figure S27. Stability tests of commercial Pt/C (a) and Rh/C (b) through constant applied
+potential for 10 h, respectively.
+39
+
+Figure S28. Digital photograph of the operando fluorescence cell.
+40
+
+Figure S29. De-convolution of in-situ Rh K-edge XANES of us-HEA/C recorded at different
+chemical states.
+41
+
+Table S7. Amplitude and position of the main two XANES features at Rh K-edge at initial
+state and voltage-applied ones.
+amplitude Ratio
+state peak position
+(area) (P2/P1)
+P1 23237 eV 1.779
+Initial 1.254
+P2 23260 eV 2.231
+P1 23237 eV 4.815
+0.05 V 0.564
+P2 23260 eV 2.716
+42
+
+Figure S30. Enlarged view of operando XANES spectra of us-HEA/C at Fe K-edge (a), Ni
+K-edge (b), and Co K-edge (c).
+43
+
+Figure S31. Operando Rh K-edge (a) and Pt L -edge (c) XANES and the linear relationship
+3
+of oxidized on Rh and Pt sites with the edge position (b) and the WL intensity (d),
+respectively.
+It can be found that the valence states of both Rh and Pt at the initial state were a little
+lower than those of their elemental metals, demonstrating that Rh and Pt sites in the sample
+were still in the metallic state, rather than the oxidation state, achieving some electrons from
+their massively coordinated Fe/Co/Ni. When the cathodic potential of 0.05 V (no HER occurs)
+was applied, the valence state of Rh dramatically dropped compared to the initial state. It
+indicates that Rh gained numerous electrons, while a large number of hydrogen ions were
+adsorbed on the surface of Rh sites. In this case, the valence state of Pt changed a little. With
+the increase in the applied potential to -0.01 V and -0.05 V, the valence state of Rh continued
+to drop slightly. In contrast, the Pt dropped sharply when HER begins (-0.01 V), which
+illustrates that Pt sites are the dominant active sites for HER at this state. The above results
+demonstrate that the changes of the edge position for Rh XANES and the WL intensity for Pt
+one are mainly ascribed to the charge transfer between metals and reactants.
+44
+
+Table S8. Three types of representative sites on us-HEA (111) surfaces at monolayer H
+coverage (θ =1).
+H*
+Sites H*-Case ΔG (eV)
+H*
+H*-RhNiCo -0.147
+H*-RhNiNi -0.191
+Rh site
+H*-RhFeCo -0.201
+H*-RhCoCo -0.216
+H*-PtNiFe -0.004
+H*-PtNiFe -0.010
+Pt site
+H*-PtNiCo -0.030
+H*-PtCoFe -0.046
+H*-FeCoNi -0.127
+H*-FeCoNi -0.152
+Fe/Co/Ni site
+H*-CoNiNi -0.160
+H*-CoFeFe -0.177
+45
+
+Figure S32. Diagram of corresponding adsorption sites on the us-HEA (111) surface. The red,
+purple, green, blue, and cyan spheres are Rh, Pt, Fe, Co, and Ni atoms, respectively.
+46
+
+Figure S33. Structural models with different atomic distributions of HEA. (a-c) different
+Fe/Co/Ni distributions and the Pt/Rh atoms are uniformly distributed. (d) Pt/Rh atoms are
+directly bonded. The red, purple, green, blue, and cyan spheres are Rh, Pt, Fe, Co, and Ni
+atoms, respectively.
+According to the EXAFS results, the structural model of HEA (111) surface system based
+on uniformly distributed Pt/Rh atoms is reasonable.
+47
+
+Figure S34. The calculated hydrogen adsorption free energy (ΔG ) profiles at high hydrogen
+H*
+coverage (θ =1) for three representative sites on us-HEA (111) surface based on four
+H*
+different structural models. (a-c) different Fe/Co/Ni distributions and the Pt/Rh atoms are
+uniformly distributed. (d) Pt/Rh atoms are directly bonded.
+48
+
+Figure S35. The free energy diagrams of the Tafel reaction on the us-HEA (111) surface for
+fcc -fcc model (a), fcc -fcc model (b), fcc -fcc model (c), and fcc -fcc
+Rh Rh Rh Pt Fe/Co/Ni Rh Fe/Co/Ni Pt
+model (d).
+49
+
+Figure S36. The free energy diagrams of the Tafel reaction on the us-HEA (111) surface for
+top -fcc model (a), and top -fcc model (b).
+Rh Rh Fe/Co/Ni Fe/Co/Ni
+50
+
+Figure S37. The free energy diagrams of the Tafel reaction on the us-HEA (111) surface for
+top -top model (a), and top -top model (b).
+Rh Fe/Co/Ni Fe/Co/Ni Fe/Co/Ni
+51
+
+Figure S38. Specific activities of the Ni Co Fe Pt Rh /C for HER in 0.5 M H SO solution
+x y z u v 2 4
+without iR compensation (NiCoFePt Rh /C is the us-HEA mentioned in this work),
+0.5 0.5
+indicating that there is a synergistic effect among the five elements and all five elements
+contribute to the enhanced HER performance together. Meanwhile, Pt and Rh play much
+more important roles than Ni/Co/Fe in catalytic performance. Furthermore, Pt is the most
+important role among five elements. The above results are in agreement with the DFT
+calculations and operando XAS results.
+52
+
