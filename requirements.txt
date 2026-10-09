@@ -1,7 +1,7 @@
-streamlit==1.65.0
-torch==2.4.1
-torch-geometric==2.6.1
-pymatgen==2024.10.3
-pandas==2.2.3
-numpy==1.26.4
-matplotlib==3.9.2
+streamlit>=1.65
+torch==2.14.1
+torch-geometric>=2.6.1
+pymatgen>=2025.1.1
+pandas>=2.2
+numpy>=2.1
+matplotlib>=3.9
