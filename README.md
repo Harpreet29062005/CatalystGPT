@@ -1,3 +1,16 @@
+# 🚀 Live Demo
+
+**Try it now:** [**catalystgpt.streamlit.app**](https://catalystgpt.streamlit.app)
+
+[![Live App](https://img.shields.io/badge/Live%20App-catalystgpt.streamlit.app-success?style=for-the-badge&logo=streamlit)](https://catalystgpt.streamlit.app)
+[![GitHub](https://img.shields.io/badge/GitHub-CatalystGPT-black?style=for-the-badge&logo=github)](https://github.com/Harpreet29062005/CatalystGPT)
+
+**Enter a catalyst composition → get a predicted HER onset potential in seconds.**
+
+Try: `PtMoPdRhNi` · `CoFeIrNiPtZn` · `IrPdPtRhRu`
+
+---
+
 \# CatalystGPT
 
 
