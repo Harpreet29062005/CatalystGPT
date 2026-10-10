@@ -208,11 +208,11 @@ print()
 # ============================================================
 # CHEAP METAL POOL (no Pt, Pd, Ir, Rh, Ru, Au, Ag)
 # ============================================================
+# Only elements the model saw during training
+# Excluded Mg (corrodes in water) and Zn/Al (limited HEA stability)
 CHEAP_METALS = [
-    "Ni", "Fe", "Co", "Cu", "Mn", "Cr", "Mo", "W", "V", "Ti",
-    "Zn", "Al", "Ga", "Sn", "Nb", "Ta", "Zr", "Hf", "Mg", "Si",
+    "Ni", "Co", "Fe", "Cu", "Mn", "Cr", "Mo", "W",
 ]
-
 print(f"Cheap metal pool: {CHEAP_METALS}")
 print(f"Metals excluded (expensive/noble): Pt, Pd, Ir, Rh, Ru, Au, Ag, Os, Re")
 print()
