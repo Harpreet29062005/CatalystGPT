@@ -419,7 +419,69 @@ with tab3:
 # TAB 4: ABOUT
 # ============================================================
 with tab4:
+    st.markdown("### About CatalystGPT")
+    st.markdown("""
+    **CatalystGPT** is an end-to-end computational pipeline for the discovery of 
+    **High-Entropy Alloy (HEA) catalysts** for the **Hydrogen Evolution Reaction (HER)** — 
+    a critical reaction in green hydrogen production.
 
+    #### Pipeline Architecture
+
+    1. **Literature Mining** — NLP pipeline extracts catalyst data from 107 scientific papers
+    2. **Dataset Curation** — Combines with a public 180-catalyst curated dataset (Gorsse 2026)
+    3. **Graph Representation** — Each catalyst is a graph: nodes = metal atoms (10 atomic features), 
+       edges = pairwise interactions (3 features including composition-weighted average)
+    4. **EdgeGNN Model** — Edge-conditioned Graph Neural Network using NNConv layers
+    5. **Rigorous Evaluation** — 5-fold cross-validation with nested early stopping
+    6. **Discovery Engine** — Screens 20,000 novel compositions and ranks by predicted HER activity
+    """)
+
+    st.divider()
+
+    st.markdown("### Model Performance")
+    metrics_df = pd.DataFrame({
+        "Model": ["Baseline (mean)", "Random Forest", "EdgeGNN (this app)"],
+        "MAE (mV)": [79.36, 45.56, 49.35],
+        "RMSE (mV)": [95.63, 70.71, 71.99],
+        "R²": ["-0.011", "0.447", "0.427"],
+    })
+    st.dataframe(metrics_df, use_container_width=True, hide_index=True)
+
+    st.divider()
+
+    st.markdown("### Discovery Results")
+    st.markdown("""
+    - **20,000** novel earth-abundant compositions screened
+    - **10** candidates proposed (Ni-Co-Cu-Mn-W family)
+    - **24.37 mV** best predicted onset potential
+    - **No prior literature reports** (verified via Google Scholar)
+    """)
+
+    st.divider()
+
+    st.markdown("### Honest Limitations")
+    st.markdown("""
+    - **Small dataset:** 234 catalysts is proof-of-concept size
+    - **Composition-only features:** Crystal structure and experimental conditions not included
+    - **Onset potential proxy:** Different from overpotential @ 10 mA/cm²
+    - **No experimental validation:** All results are computational
+    - **External validation failed** (R² = -0.245): Model does not transfer to independently extracted data
+    """)
+
+    st.divider()
+
+    st.markdown("### Author")
+    st.markdown("""
+    **Harpreet Thappa**  
+    Chemical Engineering, 5th Semester  
+    National Institute of Technology (NIT) Srinagar  
+    happythappa5@gmail.com
+    """)
+
+    st.divider()
+
+    st.markdown("### Links")
+    st.markdown("[GitHub Repository](https://github.com/Harpreet29062005/CatalystGPT)")
 # ============================================================
 # FOOTER
 # ============================================================
