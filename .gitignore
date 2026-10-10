@@ -16,3 +16,4 @@ data/raw/*.pdf
 # OS files
 .DS_Store
 Thumbs.db
+~$*.docx
