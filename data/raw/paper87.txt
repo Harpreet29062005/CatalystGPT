@@ -1,0 +1,760 @@
+TThhiiss aarrttiiccllee iiss lliicceennsseedd uunnddeerr CCCC--BBYY 44..00
+www.acsaem.org Article
+Boron-Doped NiCoCuMoMn High-Entropy Alloys for Enhanced
+Electrocatalytic Water Splitting: An Experimental and
+Computational Study
+Hossein Mahdavi, Maryam Mansoor, Onur Ergen, Uğur U ̈ nal,* and Hadi Jahangiri*
+CiteThis:ACSAppl.EnergyMater.2025,8,17793−17804 ReadOnline
+ACCESS *
+Metrics&More ArticleRecommendations sı SupportingInformation
+ABSTRACT: High-entropyalloysofferaversatileplatformforelectrocatalysis,yet
+their optimization has so far been dominated by transition-metal compositional
+tuning. Here, we present the first demonstration of boron doping as a powerful
+nonmetalstrategytoengineerhigh-entropyalloysforwatersplitting.Incorporating
+boron into NiCoCuMoMn HEAs drives a dramatic increase in the BCC phase
+fraction, refines crystallite sizes from the nanometer to subnanometer scale, and
+induces lattice distortions that create quasi-vacancy active sites. These unique
+structural modulations, validated by X-ray diffraction, Raman spectroscopy, and
+electronmicroscopy,arecorroboratedbyfirst-principlescalculations,showingthat
+substitutional boron lowers oxygen adsorption energies and accelerates oxygen
+evolution reaction kinetics. As a result, the boron-doped HEA exhibits a
+breakthrough reduction in the oxygen evolution reaction overpotential (from
+300to200mVat10mAcm−2)andasharpdecreaseintheTafelslope(from185
+to 110 mV dec−1) while maintaining long-term stability over 48 h. Although the hydrogen evolution activity is moderately
+suppressed, this trade-off further confirms the boron-induced modulation of surface energetics. This combined experimental and
+theoreticalstudyestablishesborondopingasadesignstrategyforhigh-entropyalloyelectrocatalysts,providingmechanisticevidence
+that nonmetal incorporation can rival metal compositional tuning in dictating catalytic performance.
+KEYWORDS: high-entropy alloys, boron doping, ball-milling, lattice strain engineering, electrocatalysis
+1. INTRODUCTION stable electrocatalysts to replace noble metal-based materials.
+Transition metal-based systems have attracted significant
+High-entropy alloys (HEAs) are a novel class of materials
+attention because of their remarkable catalytic activity, low
+composed of five or more principal elements, where high
+productioncost,andstrongstabilityunderalkalineconditions.
+configurational entropy promotes the formation of highly
+stable solid solutions.1−4 Unlike traditional alloys, HEAs Asanexample,Hojjati-Najafabadietal.preparedanickel−iron
+exhibit four core effects�high entropy, sluggish diffusion, hydroxylphosphate electrocatalyst through a two-step electro-
+severe lattice distortion, and the cocktail effect�which deposition approach, achieving low overpotentials of 161 mV
+collectively enhance their stability and functional versatility.5,6 for the HER and 273 mV for the OER at a current density of
+These effects impart unique material properties including 10 mA cm−2.10
+exceptional mechanical,7 thermal,1 and catalytic properties8 Because of their tunable phase composition, electronic
+surpassing those of conventional alloys. structure, inherent stability, and multiactive sites, HEAs have
+These intrinsic properties have positioned HEAs as emerged as a compelling alternative to conventional electro-
+promising candidates for electrocatalysis, particularly in water catalysts.11−13TheelectrocatalyticefficiencyofHEAsisdriven
+splitting, an electrochemical process that decomposes water by their compositional complexity, which creates unique
+intohydrogenandoxygenusinganexternalenergysource.1,6,9
+interactions between adjacent atoms and a continuous
+Hydrogen,asacleanandrenewable fuel,holdsgreatpotential
+distribution of binding energies, leading to diverse adsorption
+in sustainable energy applications, but its large-scale
+production depends on the development of efficient, cost-
+Received: August29, 2025
+effective, and stable electrocatalysts. Noble metal-based
+Revised: October31,2025
+catalysts such as Pt for the hydrogen evolution reaction
+Accepted: October31,2025
+(HER) and IrO /RuO for the oxygen evolution reaction
+2 2
+Published: December3, 2025
+(OER) exhibit excellent activity but are limited by high cost,
+scarcity, and long-term stability issues.1 Extensive research
+efforts have been directed toward designing affordable and
+©2025TheAuthors.Publishedby
+AmericanChemicalSociety https://doi.org/10.1021/acsaem.5c02722
+17793 ACSAppl.EnergyMater.2025,8,17793−17804
+
+ACS Applied Energy Materials www.acsaem.org Article
+sitesandimprovedreactionkinetics.11,14Additionally,sluggish 2. MATERIALS AND METHODS
+diffusion decreases the reaction kinetics and the rate of phase
+2.1. Materials. Nickel (Ni, Nanografi, 99.9%), cobalt (Co,
+transformation by preventing atomic migration, resistance to
+Nanografi, 99.9%), copper (Cu, Nanografi, 99.9%), molybdenum
+grain coarsening, which enhances the stability of electro- (Mo, Nanografi, 99.9%), and manganese (Mn, Nanografi, 99.9%)
+catalysts in a wide range of pH.1,5 Severe lattice distortion, micronpowders,aswellasamorphousnanoboron(B,Pavtec,99.9%),
+arising from atomic size differences, introduces local strain werepurchased andused withoutanyfurther purification.
+fields that significantly influence mechanical, electronic, and 2.2.SamplePreparation.HomogeneousNiCoCuMoMnandB-
+superior catalytic properties.6 Furthermore, the cocktail effect doped NiCoCuMoMn HEA powders were synthesized through
+mechanicalalloyingbyusingelementalmetalpowderswithapurityof
+enhances these properties by facilitating synergistic inter-
+99.9%.EquiatomicproportionsofNi,Co,Cu,Mo,andMnpowders
+actionsbetweenelements,crystalshape,phaseboundaries,and
+weremixedwithintroducedboron.Thebatcheswerepreparedintwo
+phase distribution and tuning the electronic structure for
+separate vials: one with the addition of amorphous nanoboron as a
+optimized catalytic activity. These synergistic effects enabled dopantataweightfractionof1.6wt%andonewithouttheaddition.
+HEAs to demonstrate remarkable electrocatalytic activity in Inthefirststep,powdersweremixedfor30minwithoutaddingthe
+water splitting reactions. For example, FeCoNiAlTi has been balls,andthenthepowdersweremechanicallyalloyedfor20hat400
+identifiedasaneffectiveelectrocatalystfortheHERduetoits rpm, employing a ball-to-powder weight ratio (BPR) of 10:1 in a
+electronicsynergy,whileCrMnFeCoNiHEAexhibitssuperior high-energyplanetaryballmill(RetschPM200).Theinitial10hof
+millingwasperformedunderadryatmosphere,withthevialsloaded
+OER performance due to lattice distortions and defect-driven
+and sealed in an argon-filled glovebox. The remaining 10 h was
+reactivity.15,16 Additionally, Cu-containing HEAs, such as
+conductedinawetatmosphereusingethanolasthemillingmedium.
+FeNiMnCrCu, have shown reduced activation energy for the
+Thepowderswerecollectedanddriedatroomtemperatureovernight.
+OERduetoelectroniccontributionsfromfullyfilleddorbitals The NiCoCuMoMn HEA and B-doped NiCoCuMoMn are referred
+of Cu, which allow electrons to transit to the d-band of other to as Pristine-HEA and B-HEA, respectively, throughout the rest of
+transition metals, reducing the d-vacancy number and thereby this text.
+lowering the overall binding strength.17 He et al. fabricated 2.3. Structural and Compositional Characterization. The
+nanoporous FeCoNiCuTi-based HEA electrocatalysts through elemental composition of the synthesized powders was examined by
+using X-ray fluorescence (XRF) spectroscopy (Bruker S8 TIGER),
+chemical dealloying. The resulting porous structures with
+which confirmed the presence of all intended elements with only
+abundant active sites exhibited excellent bifunctional activity
+minor deviations from the nominal values, as detailed in Table S1.
+forboththeHERandOER,attributedtothesynergisticeffect
+However, boron could not be detected due to XRF’s limited
+of multiple metals and the enhanced surface area.18,19 sensitivitytolowatomicnumberelements,andthus,itsconcentration
+While HEAs inherently exhibit exceptional electrocatalytic was excluded from the analysis. Accordingly, inductively coupled
+properties,furtheroptimizationstrategiesarenecessarytofine- plasmamassspectrometry(ICP−MS)wasemployedtoquantifythe
+tunetheiractivity,stability,andreactionkinetics.Dopingwith boroninthesystem.Crystalstructurecharacterizationwasperformed
+nonmetal elements such as carbon,20 nitrogen,21 and boron22 using a Bruker D2 Phaser X-ray diffractometer (XRD) with Cu Kα
+radiation (λ = 1.5405 Å) across a 2θ range of 10−90°. Rietveld
+has emerged as an effective approach to modulate electronic
+refinement was conducted using TOPAS Academics V5, applying a
+properties, enhance active site availability, and introduce
+GaussianfunctiontomodelmicrostrainbroadeningandaLorentzian
+beneficial lattice distortions. Among these, boron doping has
+function for particle size effects. Surface morphology and micro-
+proven to be an effective strategy for enhancing the OER by structural features were assessed via field emission scanning electron
+simultaneously tuning the electronic structure, defect chem- microscopy(FE-SEM,ZeissUltraPlus).High-resolutiontransmission
+istry,and surfacereactivityof metal-based catalysts. Due toits electron microscopy (HRTEM, Hitachi HF5000) with aberration
+uniqueelectronegativity,boroncanreadilywithdraw electrons correctionandintegratedenergy-dispersiveX-rayspectroscopy(EDS)
+from adjacent metal atoms, thereby inducing charge redis- was used to further examine the crystallinity and elemental
+tribution and promoting the adsorption of OH* intermedi- distribution at 200 kV. Surface chemical states were analyzed by X-
+ates.23 This electron-deficient environment facilitates the
+rayphotoelectronspectroscopy(XPS)usingaThermoScientificK-α
+instrumentwithanAlKαmonochromaticsource(1486.6eV),andall
+formation of oxygen vacancies24 and accelerates the active-
+spectrawerecalibratedtotheC1speakat284.5eVusingAvantage
+phase reconstruction of metal hydroxides into high-valent 5.9 software. Raman spectroscopy was conducted with a Renishaw
+oxyhydroxides such as β-NiOOH,25,26 which are widely Invia Raman microscope.
+recognized as the true active species during the OER. 2.4. Working Electrode Preparation. To prepare the electro-
+Consequently, boron doping offers a powerful and versatile catalystink,870μLofethyleneglycolwasmixedwith130μLofa1
+route to boost catalytic kinetics, durability, and efficiency in wt%Nafionsolution,followedbytheadditionof5mgofthecatalyst
+transition-metal-based and HEA-based OER catalysts.22 powder. The resulting suspension was ultrasonicated for 60 min to
+ensureuniformdispersion.Then,3μLoftheinkwasdrop-castontoa
+Despite the promising catalytic properties of high-entropy
+precleanedglassycarbonelectrode(GCE)anddriedat60°Cfor6h
+borides,27−29 the specific effects of boron doping in HEAs
+under ambientconditions.
+remain largely unexplored. This study aims to systematically 2.5.ElectrochemicalMeasurements.Electrochemicalperform-
+investigate the impact of boron incorporation in NiCoCu- anceoftheball-milledcatalystpowderswasevaluatedbyusinglinear
+MoMn HEAs, focusing on its influence on phase distribution, sweep voltammetry (LSV) in a three-electrode configuration with a
+microstructural evolution, and electrocatalytic performance in Biologic VSP Potentiostat. A Hg/HgO (1 M KOH) electrode was
+the OER and HER. To further support these findings, first- usedasthereference,agraphiterodasthecounterelectrode,anda3
+mm modified GCE as the working electrode in the 1 M KOH
+principles calculations based on density functional theory
+electrolyte.LSVmeasurementswereconductedforboththeOERand
+(DFT) are employed to assess the thermodynamic and
+HERoverdefinedpotentialranges,andallpotentialswereconverted
+electronic properties of boron-doped HEAs. The insights
+to potentials vs reversible hydrogen electrode (RHE), according to
+gainedfromthisstudywillcontributetotherationaldesignof
+the following equation: E = E + 0.059 pH + 0.098 V.
+RHE Hg/HgO
+advanced HEA-based catalysts for sustainable hydrogen Stability was assessed using a rotating disk electrode (RDE) via
+production. chronopotentiometry at a constant current density of 10 mA cm−2.
+17794 https://doi.org/10.1021/acsaem.5c02722
+ACSAppl.EnergyMater.2025,8,17793−17804
+
+ACS Applied Energy Materials www.acsaem.org Article
+Electrochemical impedance spectroscopy (EIS) was employed to withintheFCCcrystallitesisrelativelyhighat4.6%,indicative
+examine charge transfer characteristics, while cyclic voltammetry of notable lattice distortions. In contrast, the BCC phase
+(CV) was used to calculate the double-layer capacitance (C dl ) for displays a lower strain value of 1.6%, reflecting a lower lattice
+estimatingthe electrochemically activesurface area (ECSA).
+distortion. Regarding the overall material structure, 86.0% of
+2.6. First-Principles Simulations. Spin-polarized density func-
+the sample is amorphous, lacking long-range crystalline order,
+tional theory (SP-DFT) calculations were used to determine the
+while only 14.0% is crystalline, distributed between the FCC
+impact that boron had on the HEA crystal structure and the related
+and BCC phases.
+changes in hydrogen and oxygen adsorption energies. The projector
+augmented wave method (PAW)30 and generalized gradient For the B-HEA sample, the phase composition changes to
+approximation as the exchange functional (GGA-PBE)31 were 73.7% FCC and 26.3% BCC. The addition of boron increases
+applied, as implemented in the Vienna ab initio simulation package the proportion of the BCC phase compared with the original
+(VASP)32 under the framework of MedeA3.4. The FCC and BCC alloy. The crystallite size for the FCC phase is reduced to 1.7
+structuresoftheHEAwereconstructedusingaspecialquasi-random nm,indicatingamuchfinermicrostructure,possiblyduetothe
+structure (SQS) approach,and the boron placement was considered
+influence of boron. Similarly, the BCC crystallites are also
+as both interstitial and substitutional. A plane wave cutoff energy of
+significantly smaller with a size of 3.6 nm, suggesting a more
+500 eV was used with a Hellmann−Feynman force convergence of
+lessthan10−3eV/Å,followedbyaself-consistencythresholdof10−6 refined microstructure overall. The strain within the FCC
+eV. A k-point spacing of less than 0.25 Å−1 was used for all of the phase slightly increases to 4.9%, indicating higher lattice
+models. The boron defect formation energies (ΔH) were calculated distortions with the addition of boron. The BCC phase strain
+usingeq1,whereEdefectandEpristinearethetotalelectronicenergyof showsahigherincreasewithrespecttotheoriginalalloy,going
+the cation-bearing structure and pristine cells, respectively. The nμ up to 3.7%. The amorphous content remains nearly the same
+i i
+term represents the chemical potentials of a defect’s atomic at86.3%,indicatingthatborondoesnotsignificantlyaffectthe
+constituents.33 overall amorphous nature of the material.13 The crystalline
+Hdefect= Edefect Epristine n contentalsoremainssimilarat13.7%,buttheratioofFCCto
+i i (1)
+BCC phases changes with the addition of boron. Related data
+Similarly, to better understand the impact of boron on hydrogen arelistedinTable1.ThePristine-HEAsamplepredominantly
+andoxygenadsorptionenergies,whichisanindicatoroftheHERand
+OER,theslabapproachwasusedandtheadsorptionenergiesonthe
+Table 1. Structural and Microstructural Parameters of
+100surfacesof the structureswereconsidered.34
+Pristine-HEAandB-HEAPowdersExtractedfromtheXRD
+3. RESULTS AND DISCUSSION Spectrum
+3.1. Structure, Chemistry, and Morphology of the Pristine-HEA B-HEA
+Synthesized HEA. The XRD patterns presented for Pristine- A/C 86/14 86.3/13.7
+HEA and B-HEA samples reveal that both compositions FCC(%) 77.9 55.5
+exhibitamixtureofFCCandBCCphases,asshowninFigure BCC(%) 22.1 44.5
+1. For the Pristine-HEA sample, the phase composition FCCcrystallitesize(nm) 4.6 1.7
+BCCcrystallitesize(nm) 15.2 3.6
+ε (%) 4.6 4.9
+FCC
+ε (%) 1.6 3.7
+BCC
+showsanFCCphasewithrelativelylargeBCCcrystallitesand
+is mostly amorphous with significant strain in the FCC phase.
+AddingborontothealloyincreasestheproportionoftheBCC
+phase and significantly reduces the crystallite size for both
+phases.35,36 The strain in the FCC phase slightly increases,
+while the overall amorphous and crystalline contents remain
+almost unchanged.36 These differences suggest that boron
+plays a crucial role in refining the microstructure, leading to
+smaller and potentially more stable crystallites while also
+altering the phase distribution between FCC and BCC
+structures.37 Furthermore, the XRD peaks of the B-HEA
+sample are shifted to the left side compared to those of the
+Pristine-HEAsample.Thisshiftindicatesthatthed-spacingof
+the crystal structure increases with the addition of boron.
+Boron atoms can occupy interstitial positions in the lattice,
+Figure 1.XRDpatterns of Pristine-HEAandB-HEA samples.
+which leads to increased internal strain. This increased strain,
+as measured and detected, results in breaking of the crystal
+comprises 77.6% FCC and 22.4% BCC, indicating that the structures, as evidenced by the decrease in crystallite size for
+majority of the crystalline phase adopts the FCC structure, both crystal structures. Additionally, the increase in d-spacing,
+while a smaller fraction forms the BCC structure. The shown by the leftward shift of the XRD peaks, reflects an
+crystallite size for the FCC phase is 4.6 nm, suggesting increase in the volume of the crystal structure.36
+relatively fine grains, whereas the BCC phase exhibits larger ThisobservationisinagreementwiththeDFTcalculations,
+crystallites with an average size of 15.2 nm. This disparity which demonstrated the extreme likelihood of boron place-
+suggests that the BCC phase consists of larger or more well- ment in substitutional and interstitial sites of both FCC and
+developed grains compared with the FCC phase. The strain BCC structures, with the substitutional B being more likely in
+17795 https://doi.org/10.1021/acsaem.5c02722
+ACSAppl.EnergyMater.2025,8,17793−17804
+
+ACS Applied Energy Materials www.acsaem.org Article
+Figure2.(a)DefectformationenthalpyenergiesforthesubstitutionalandinterstitialBintheFCCandBCCarenegative,demonstratingcomplete
+solubility, followed by a thermodynamic drive toward phase dissociation as well as the volumetric changes in the lattice due to B-insertion per
+formulaunitoftheHEA.(b)TheRamanspectrumofPristine-HEApowdersandB-HEApowdersdemonstratethesamestructuralfeaturesanddo
+notshowanyformationofborides,whichareotherwiseexpectedundertheequilibriumthermodynamicconditionsasdemonstratedbytheKellogg
+diagramsforthe (c) Co−B−O,(d) Ni−B−O,(e)Mo−B−O, and (f)Mn−B−Osystems.
+both cases.38−40 This is evident from the lower enthalpy of C = e( Hdefect/kT)
+formation of the boron-related defects in both structures N (2)
+(Figure2a).GiventhatthesubstitutionalBplacementinboth
+BCC and FCC demonstrates a lower enthalpy of formation, Here,Nreferstotheavailablenumberofsitesforthedefect,k
+C
+the thermodynamic drive toward formation of such defects is is the Boltzmann constant, and T is the temperature. The
+N
+higher and therefore expected in higher concentration, in
+ratio less than one indicates limited solubility, unity means
+comparison to interstitial B. The calculated changes in the
+complete solubility, and a ratio greater than one indicates not
+lattice parameters due to boron-induced strains show that the just full solubility but rather an infinite solubility, which is
+lattice should expand upon doping with B in both cases of associated with phase decomposition of the structure. Given
+interstitial and substitutional placement in the FCC crystal. that the defect formation enthalpies (-ΔHdefect) shown in
+However,weexpectcontractionofthelatticeinthecaseofthe C
+Figure2aarenegative,the >1;boronplacementisexpected
+B-substitutionalplacementintheBCCstructure.Theaddition N
+to be rather favorable, with the FCC being more severe than
+of substitutional B per formula unit of the HEA in FCC and
+BCC, which is also reflected in the experimentally found
+BCC structures resulted in a +0.2% expansion and −1.6%
+dissociation of the FCC structure as well.
+contraction,respectively.However,forthecaseofinterstitialB,
+The expected phase decompositions are also seen from the
+we expect +2.3% and +4.7% volume expansion in FCC and
+Kellogg diagrams achieved through CALPHAD calculations41
+BCC structures, respectively. The experimentally seen higher
+ontheconstituentsoftheHEA,whichdemonstrateformation
+strain in the FCC structure is also explained through these
+of borides upon addition of B. Nevertheless, due to the
+results.Theborondefectsinbothsubstitutionalandinterstitial
+nonequilibrium nature of the mechanical alloying and the
+formsintheFCCstructurecauseatensilestrain,thuscausing
+relatively low temperature reaction environment, we only
+aresonantbehavior.However,intheBCCcase,substitutional
+observe B-doping and no phase transformations, preserving a
+B causes compressive and interstitial B introduces the tensile
+boron-doped HEA structure, as verified by the XRD and
+strain, and given the higher expected concentration of the
+Raman analysis of the samples with and without B, which are
+substitutional B, and higher strains of the interstitial B, the
+inherently similar. In other words, the thermodynamic drive
+same resonant behavior does not form as the strains are in for B-insertion and the nature of mechanical alloying give rise
+opposingdirections. Thus,DFT calculationsexplain thecause to a nonequilibrium structure that is rather unique.
+of strain effects in the FCC structure. Moreover, the defect The Raman spectra of Pristine-HEA and B-HEA samples,
+formationenergiesinallcasesarenegative,whichmeansfrom presented in Figure 2b, were obtained by scanning over 20
+a thermodynamic stability point of view, there exists full distinct points on each sample to ensure reproducibility and
+solubilityforboronatomsintheHEAstructure,followedbyits account for sample heterogeneity. The spectra revealed two
+phase decomposition due to an unphysical number of B- distinct patterns. The first type exhibited a featureless profile
+induceddefects.ThisisclearfromtheArrheniuseq2ofdefect typicalofmetallicsystemswithlowRamanactivity,confirming
+concentration C with respect to defect formation energy. the metallic nature of the HEAs. The second type displayed
+17796 https://doi.org/10.1021/acsaem.5c02722
+ACSAppl.EnergyMater.2025,8,17793−17804
+
+ACS Applied Energy Materials www.acsaem.org Article
+sharperpeaksatspecificwavenumbers:106.23,273.12,348.30, spacegroupwiththe(111)and(200)planes,whiled-spacings
+498.37, 623.19, 813.76, 875.14, and 932.32 cm−1 for Pristine- of 1.5 Å and 1.3 Å were observed for the Im3̅m space group
+HEA and 106.25, 274.07, 349.32, 514.30, 639.18, 814.05, with the (200) and (211) planes, respectively. These
+880.32, and 939.13 cm−1 for B-HEA. These peaks are measurements show strong agreement with the d-spacings
+attributedtothepresenceofsomeoxidephasesformedduring extracted from XRD spectra, confirming the consistency and
+the high-energy ball milling. reliability of the structural data. Boron doping was found to
+Despite the similarity in the peak sets between the two induceanoticeablealterationinthelatticeparametersofboth
+compositions,B-HEAexhibitsasystematicshiftofthesepeaks FCC and BCC crystal structures, as evidenced by the small
+towardhigherwavenumberscomparedtotheundopedsample. shifts in d-spacing values. This lattice expansion suggests that
+This shift suggests an increase in the internal lattice strain boron introduces localized distortions and internal strain
+caused by the incorporation of boron into the HEA matrix. within the HEA matrix, aligning with prior observations from
+ThisobservationalignswiththefindingsfromXRDanalysis,42
+XRD analyses and reinforcing the role of boron in modifying
+further supporting the hypothesis that boron doping the crystal structure. The d-spacing calculation from HRTEM
+introduces local distortions into the crystal lattice. Moreover, bytheTTFmethodshowsthatthed-spacingforPristine-HEA
+the absence of Raman peaks corresponding to boride phases
+is 2.3 Å, while the d-spacing for B-HEA is 2.3 Å, which is
+reinforces the conclusion that boron does not form separate
+consistent with the SAED and XRD spectrum results. The
+boride compounds but instead is doped into the HEA solid
+addition of boron causes the lattice crystal to expand.
+solution. This is consistent with the expected behavior of
+To further study the surface composition of the powder
+boron, as a minor alloying element in the HEA system.
+samples, the high-resolution XPS spectra of all the elements
+The FE-SEM images of the mechanically alloyed powders
+present in the undoped and doped samples are provided in
+are shown in Figure 3. The morphology of the mechanically
+Figures S3 and 8, respectively. As shown in Table S1, XRF
+analysisconfirmedahomogeneousdistributionoftheprincipal
+metallic elements (Ni, Co, Cu, Mn, and Mo) in both pristine
+andB-dopedHEApowders,withnear-equiatomicratios(∼20
+at. %), indicating uniform alloy formation. However, because
+XRF and EDS are not sensitive to light elements, such as
+boron, complementary ICP−MS and XPS analyses were
+employedforaccurateboronquantification.ICP−MSrevealed
+acompositionofMn(18.2at.%),Co(18.4at.%),Ni(18.1at.
+%),Cu(17.6at.%),andMo(18.0at.%),alongwith1.74wt%
+Figure3.FE-SEMimagesofthe(a)NiCoCuMoMnand(b)B-doped boron, confirming successful bulk incorporation of B into the
+NiCoCuMoMnHEA powders. alloymatrix.Surface-sensitiveXPSfurtherverifiedthepresence
+ofboron,showing2.4at.%,whichislowerthanthebulkvalue
+duetopartialoxidationandlimitedsurfacesegregation.These
+processed HEA powders reveals that both compositions of
+complementary analyses collectively confirm that boron is
+powders exhibit a similar planar structure. Upon closer
+effectively doped throughout the HEA structure, influencing
+examination of these planes, it becomes evident that each
+both the surface and bulk chemical environments.
+consists of a combination of lamellar (layered) structures and
+3.2. Electrochemical Measurements. By carefully
+smaller particles. This means that the surface or the cross
+selecting the elements, controlling their proportions, and
+sectionsofthesepowdershaveflatorsheet-likearrangements.
+optimizingdopingstrategies,HEAsshowgreatpotentialinthe
+Within these planes, there are both layered formations and
+developmentofsustainableenergytechnologies,particularlyin
+smaller individual particles. This consistent structural pattern
+catalysis for water splitting�a process involving the OER and
+indicatesthatthemechanicalalloyingmethodsusedresultina
+HER that is crucial for hydrogen production. By minimizing
+distinctive and uniform morphology across Pristine-HEA and
+energy losses and lowering the overpotentials required for
+B-HEAsamples.Furthermore,thegeneralappearanceindicates
+these reactions, HEAs can serve as efficient catalysts, thereby
+thattheparticlesizeoftheB-HEApowdersissmallerthanthat
+improving the overall energy conversion efficiency and
+of the Pristine-HEA sample. This observation aligns with the
+contributing to the economic feasibility of hydrogen
+XRD quantitative results, which show that the crystallite size
+production as a clean energy source. Here, we have explored
+decreases with the addition of boron.
+the activity of Pristine and B-HEA samples toward the
+TheTEMelementalmappingsofbothPristine-HEAandB-
+electrocatalytic OER and HER.
+HEA samples, which are shown in Figure 4, indicate that all
+3.2.1. OER Activity. The OER activity of the HEA before
+elements are uniformly distributed throughout the powders.
+and after boron doping was evaluated in a 1 M KOH
+BoronisnotdetectablebyTEMmappingduetoitslowatomic
+electrolyte saturated with O . As seen in Figure 6a, LSV plots
+weight and is therefore not shown here. 2
+TheSAEDpatternsofPristine-HEAandB-HEApowdersas show the current density against the electrode potential vs
+shown in Figure 5 revealed their respective d-spacing values. RHE, highlighting the OER onset overpotential of the
+For the Pristine-HEA powders, d-spacings of 2.1 and 1.9 Å electrodes before and after boron doping. To gain further
+were determinedforthe Fm3̅mspace group,corresponding to information about the OER kinetics, the slopes of the Tafel
+the (111) and (200) planes, respectively. Additionally, d- plots and their corresponding Tafel slopes are considered, as
+spacingsof1.6Åand1.3ÅwereidentifiedfortheIm3̅mspace showninFigure6b.TheTafelslopescanbeobtainedfromthe
+group,associatedwiththe(200)and(211)planes.Inthecase LSV curve by the following equation43
+of B-HEA powders, the d-spacings exhibited slight variations.
+The values were calculated as 2.1 Å and 1.8 Å for the Fm3̅m = a + blogj (3)
+17797 https://doi.org/10.1021/acsaem.5c02722
+ACSAppl.EnergyMater.2025,8,17793−17804
+
+ACS Applied Energy Materials www.acsaem.org Article
+Figure 4.HRTEM imagesand elementalmappingof (a) Pristine-HEAand (b)B-HEA samples.
+whereη,j,andbrepresenttheoverpotential,currentdensity,
+and Tafel slope, respectively.
+The overpotential (η ) to achieve a current density of 10
+10
+mA cm−2 for the Pristine-HEA and B-HEA samples is 300 ±
+13 mV and 200 ± 10 mV, respectively, both surpassing the
+activity of RuO with a η of 360 ± 5 mV. Pristine-HEA and
+2 10
+B-HEA samples exhibit a Tafel slope of 185 ± 7 and 110 ± 4
+mV dec−1, respectively, which displays an enhancement in the
+kinetics of the OER after the addition of boron atoms.
+RegardingthemechanismsofOERenhancement,thepresence
+ofboronatomspromotesthetransitionofactivemetalsitesto
+higher oxidation states at lower working potentials, therefore
+Figure 5. SAED patterns of (a) Pristine-HEA powders and (b) B-
+HEApowders. providing active sites for the OER and improving the
+overpotential.29 OER performance is improved as the high
+electronegativity of boron is combined with transition metals,
+leading to weakening of metal−metal bonds and hence
+17798 https://doi.org/10.1021/acsaem.5c02722
+ACSAppl.EnergyMater.2025,8,17793−17804
+
+ACS Applied Energy Materials www.acsaem.org Article
+Figure6.(a)LSVcurvesrelatedtotheOERofPristine-HEA,B-HEA,andRuO electrocatalysts,(b)thecorrespondingTafelslopesfortheOER,
+2
+and(c)thechronopotentiometrycurvedemonstratingthelong-term(48h)stabilityoftheB-HEAsampleatacurrentdensityof10mAcm−2.
+Figure7.(a)NonfaradaiccurrentdensityversusscanratecurvesforPristine-HEAandB-HEAsamples,linearlyfittedforECSAcalculations,and
+(b)EISNyquistplots forPristine-HEAand B-HEA-modifiedelectrodes.
+enhancing charge transfer and oxygen intermediate adsorp- boronatomexhibitsmoderateelectron-withdrawingcharacter-
+tion.44 Specifically, it has been shown that the coupling of Co istics, which generally lowers the metal d-band center and
+and B atoms can lead to the adjustment of the cobalt oxide consequently weakens hydrogen adsorption (increasing
+structure and thereby improve OER activity.44 More detailed ΔG ), thereby elevating the HER overpotential.45,46 This
+H*
+discussionsaroundthemechanismsoftheOERareincludedin trend isalsoconfirmedbytheDFT results,discussedindetail
+the computational and postcharacterization studies. in the following sections. Similar HER-suppressing effects of
+Furthermore, the long-term stability measurements were boron have been reportedin othercatalytic processes, such as
+carriedoutataconstantcurrentdensityof10mAcm−2forthe the nitrogen reduction reaction (NRR).47
+B-HEA sample (Figure 6c), where the electrode showed a 3.2.3.ECSAandEISMeasurements.TheECSAofsamples
+stableoverpotentialfor48h.Theseexperimentsrevealthatthe was approximated with the double-layer capacitance (C dl )
+addition of boron atoms has led to a decrease in both method. To do so, CV measurements were done in the
+overpotential and Tafel slope while maintaining extraordinary nonfaradaic potential region at five different scan rates in the
+stability. range of 20−100 mV s−1. The corresponding CV curves are
+3.2.2. HER Activity. Similar to what was observed in OER displayed in Figure S2. ECSA values were subsequently
+measurements, the electrocatalysts were prepared for HER calculated according to the following equation
+analysisonGCelectrodes,andanegativepotentialwasapplied ECSA = C dl /C s (4)
+in 1 M KOH electrolyte. The corresponding LSV graphs and
+their Tafel plots are displayed in Figure S1. Pristine-HEA and whereC representsthespecificcapacitanceofthematerialand
+s
+B-HEAsamplesshowoverpotentialsof525±24and593±44 C is the double-layer capacitance estimated from the i vs ν
+dl c
+mV,respectively.UnlikeOERmeasurements,theoverpotential plot according to the following equation
+requiredtoachieve10mAcm−2increasesaftertheadditionof
+i c = C dl (5)
+boron atoms to the structure. To study the HER kinetics and
+determinethemainmechanism,theTafelslopesarecalculated where i is the charging current and ν is the scan rate.
+c
+as 185 ± 1 and 206 ± 3 mV dec−1 for HEA and B-HEA, IthasbeenshownthattheaveragevalueofC in1MKOH
+s
+respectively, showing a decrease in the HER kinetics. The for metallic surface can be assumed as 0.040 mF cm−2.48,49
+17799 https://doi.org/10.1021/acsaem.5c02722
+ACSAppl.EnergyMater.2025,8,17793−17804
+
+ACS Applied Energy Materials www.acsaem.org Article
+Figure8.High-resolutionXPSspectraof(a)Ni2p,(b)Co2p,(c)Cu2p,(d)Mo3d,(e)Mn2p,(f)B1s,and(g)O1sfortheB-HEAsample
+beforeandafter long-termOERmeasurements.
+According to Figures 7 and 8, the double-layer capacitance Table2.EISFittingDataforAllSpecimensObtainedUsing
+valuesforthesampleswithandwithoutboronarecalculatedas ZView Software
+0.09 ± 0.01 and 0.13 ± 0.02 mF, respectively. It is seen that
+CPE-T
+the sample with boron doping shows a higher C dl and thus a sample R s (Ω) R ct (Ω) (μΩ−1sn)s CPE-P
+higher ECSA of 3.25 ± 0.50 cm2 compared to the undoped Pristine-HEA 12.9±0.3 17654±53 7.7×10−5 0.8
+sample with an ECSA of 2.25 ± 0.25 cm2, which means a B-HEA 12.3±0.7 4861±23 10−4 0.9
+higher abundance of electrochemically active sites promoting
+the OER. Finally, the EIS technique was employed to explore
+reconstruction under the OER conditions. In the Ni 2p
+the interfacial behavior of the HEA with and without boron
+spectrum, the Ni2+ peak shifts from 850.48 to 852.78 eV after
+doping.Inthiscase,thehigh-frequencyresistanceindicatesthe
+stabilitymeasurements,indicatingpartialsurfaceoxidationand
+solution resistance (R), while the arc radius of the Nyquist
+s electronredistribution,potentiallyduetoNileachingandmild
+plot represents the charge transfer resistance (R ct ).43,50,51 As latticereconstruction.Notably,theNi3+peakremainsrelatively
+expectedfromthepreviouselectrochemicalmeasurements,the
+constant around 855 eV, suggesting that while oxidation
+boron-doped sample shows a lower R of 4861 ± 23 Ω
+ct progresses, the higher oxidation state is stabilized during the
+compared to that of the sample without boron, around 17654 OER.
+± 53 Ω. The detailed results of EIS measurements and the In the Co 2p region, the Co3+ peak shifts significantly from
+corresponding fit results are listed in Table 2. 777.98 to 780.78 eV, and the Co2+ peak shifts from 781.18 to
+3.2.4. Poststability Characterization. The high-resolution 784.18 eV. This marked shift is accompanied by an intensity
+XPS analysis of the B-HEA sample before and after long-term increase of Co3+ and a decrease in Co2+, clearly indicating a
+stability testing (e.g., 48 h of chronopotentiometry) reveals progressive oxidation of cobalt species. Such a transformation
+significant insights into surface chemical states and structural implies a surface reconstruction in which Co2+ is oxidized to
+17800 https://doi.org/10.1021/acsaem.5c02722
+ACSAppl.EnergyMater.2025,8,17793−17804
+
+ACS Applied Energy Materials www.acsaem.org Article
+Figure9.(a)Schematicofadsorptionsitesavailableaftertheintroductionofboron,(b)thedeviationsoftheisoplanarmetalsduetothepresence
+ofB thatresults inaquasi-vacancy, and adsorptionenergies predictedby DFTcalculations for(c) oxygenand (d)hydrogen.
+the more OER-active Co3+, consistent with established Finally,theO1sspectrashowaslightshifttolowerbinding
+mechanisms involving the dynamic evolution of transition energiespoststability,transitioningfromsurfacehydroxyl(M−
+metal sites under electrochemical stress. OH)tometal−oxygen(M−O)bonds.Thisevolutionsuggests
+For Cu 2p, Cu+ and Cu2+ peaks are detected at 932.31 and deprotonation of hydroxyl groups and the formation of more
+934.13 eV, respectively, before the stability test. Poststability, robustoxide/hydroxidelayers,whicharecommonlyassociated
+the Cu signals weaken and do not exhibit noticeable shifts, with enhanced catalyticdurability.The oxygencontent onthe
+suggesting partial dissolution of copper species into the Pristine-HEA powders and B-HEA powder samples indicates
+electrolyte, a known phenomenon for Cu-based systems the presence of oxide surfaces, with measured amounts of
+under anodic polarization, which limits its long-term 41.1% and 42.1%, respectively. It could be deduced that the
+contribution to catalytic activity. addition of boron to the HEA structure has increased the
+Mo 3d spectra reveal the presence of metallic Mo and surface oxidation of the sample after mechanical alloying.
+mixed-valence oxides (Mo5+/Mo6+) before the test. After the 3.2.5. Computational Studies. To complement the
+long-term operation, these peaks persist but with significantly experimental observations and provide a mechanistic under-
+reduced intensity, implying the loss of Mo from the surface, standing of theelectrocatalytic performance, DFT calculations
+likely through oxidative dissolution�a common degradation were carried out. The enhancement in the OER overpotential
+route for Mo-based components under alkaline OER is also predicted by the DFT-calculated results, which show a
+conditions. reduction in the oxygen adsorption energy upon addition of
+Mn 2p spectra initially show both metallic Mn (637.76 eV) boron. It is displayed that the boron atoms do not position
+andMn2+(642.30eV).However,after48hofoperation,only themselves in the plane of other metals but rather create an
+a strong Mn2+ peak is observed, highlighting extensive surface angular alignment in an otherwise isoplanar site (Figure 9a).
+oxidation and possibly the formation of a passivating This phenomenon creates a potential well on the surface,
+Mn(OH) or MnO layer. This transformation aligns with whichtendstobecomeanadsorbatetrapsite,actingasaquasi-
+2
+reports that Mn can undergo rapid surface redox reactions, vacancy (see Figure 9b), irrespective of the chemical
+leading to higher valence states that stabilize as Mn2+ in thermodynamic reservoirs, which are evident from Figure
+alkaline media. 9c,d,wherethechemicalpotentialsoftheOandHarekeptas
+The B 1s spectrum before the OER shows peaks at 187.57 variables. The calculation of the most probable site for B had
+and 191.15 eV, corresponding to elemental B and B O , made it clear that boron is energetically favored in substitu-
+2 3
+respectively. The quantitative analysis of the B 1s spectrum tionalsites(Figure2a).Basedonthestructurerelaxationofthe
+shows the presence of 2.4 at. % boron in the structure. After B-substitutional supercells, we find that boron deviates from
+electrochemical treatment, the elemental B peak disappears, the plane of metals, creating metal−boron−metal angles of
+and a shifted B−O peak emerges at 192.1 eV, indicating 96°, 141°, and 165°, which results in formation of an open
+complete surface oxidation of boron. This shift to higher space that very much resembles a vacancy. This quasi-vacancy
+binding energy reflects stronger B−O bonding environments, space,inturn,actsasatrapsiteforthepotentialadsorbates,as
+possibly forming BO clusters under anodic bias. shown here. The deviation also creates distortion, which is
+x
+17801 https://doi.org/10.1021/acsaem.5c02722
+ACSAppl.EnergyMater.2025,8,17793−17804
+
+ACS Applied Energy Materials www.acsaem.org Article
+■
+clear from the pair correlation functions retrieved from the ASSOCIATED CONTENT
+structures before and after relaxation. This phenomenon of * sı Supporting Information
+boron-induced quasi-vacancies is rather unique and highly
+The Supporting Information is available free of charge at
+desirablewhenitcomestomakingadsorptionsmorelikelyand
+https://pubs.acs.org/doi/10.1021/acsaem.5c02722.
+enhancing the surface reactivity. It is noteworthy that the
+XRFchemicalcompositiondataofPristine-HEAandB-
+adsorption of atomic oxygen, which was calculated through
+HEA; HER polarization and Tafel plots; ECSA cyclic
+DFT, is a direct indicator of OH adsorption on the surface,
+voltammograms; and XPS spectra of Pristine-HEA
+given that OH binds through the partial electron density of
+(PDF)
+oxygen. The same is true for the O* that are intermediate
+reactionstepsoftheOER,52 thus giving anindirectindication ■
+AUTHOR INFORMATION
+of the OER overpotential.
+This increase in the HER overpotential and the respective Corresponding Authors
+TafelslopeisalsoexplainedbytheDFTresults,whichshowa Uğur Ünal − Koç University Surface Science and Technology
+very dramatic increase in the H-adsorption energy upon Center(KUYTAM),KoçUniversity,Sariyer,Istanbul34450,
+addition of boron (Figure 9d). Moreover, the DFT results of Turkiye; Department of Chemistry, Koç University, Sariyer,
+the H-adsorption are positive, with and without boron, which Istanbul 34450, Turkiye; Koç University Hydrogen
+means H-adsorption is endothermic and not spontaneously Technologies Center (KUHyTech), Koç University, Sariyer,
+likely. Therefore, the HER process happens in the first place Istanbul 34450, Turkiye; orcid.org/0000-0003-4718-
+due to the defective nature of the structure, which must be 1243; Email: ugunal@ku.edu.tr
+localized, where H-adsorption energies are not positive (such Hadi Jahangiri − Koç University Surface Science and
+as vacancy sites). However, in the absence of any surface Technology Center (KUYTAM), Koç University, Sariyer,
+imperfections,wecalculatedanincreasedH-adsorptionenergy Istanbul 34450, Turkiye; orcid.org/0000-0003-4403-
+upon boron doping, which explains the increased HER 7385; Email: hjahangiri@ku.edu.tr
+overpotentials. Based on the calculated DFT results, we
+Authors
+predict that the Volmer step is the limiting factor and the
+appearance of any HER is attributed to the nature of Hossein Mahdavi − Materials Science and Engineering, Koç
+mechanical alloying that leaves behind reactive surfaces due University, Istanbul 34450, Turkiye; orcid.org/0000-
+to localized point defects. 0002-9302-6634
+Maryam Mansoor − Energy Institute, Istanbul Technical
+4. CONCLUSION University, Istanbul 34469, Turkiye
+OnurErgen−DepartmentofElectronicsandCommunications
+This study demonstrates that boron doping effectively
+Engineering, Istanbul Technical University, Istanbul 34469,
+engineers the structure and activity of the NiCoCuMoMn
+Turkiye
+HEAs for water splitting. B incorporation increases the BCC
+phase fraction (22.1% → 44.5%), refines the FCC crystallite Complete contact information is available at:
+size (4.6 → 1.7 nm), and introduces lattice distortions, as https://pubs.acs.org/10.1021/acsaem.5c02722
+confirmedbyXRD,Raman,andTEM.DFTcalculationsreveal
+that boron preferentially occupies substitutional sites, creating Notes
+quasi-vacancy-likecentersthatenhanceoxygenadsorptionand The authors declare no competing financial interest.
+■
+charge transfer. Electrochemical analysis shows a substantial
+ACKNOWLEDGMENTS
+OERimprovement,withtheoverpotentialreducedfrom300±
+13to200±10mV,Tafelslopefrom185±7to110±4mV This research was generously supported by the Scientific and
+dec−1,andchargetransferresistancefrom17654±53to4861 Technological Research Council of Türkiye (TÜBIṪ AK)
+±23Ω,alongsideanECSAincreasefrom2.25±0.25to3.25 under the 3501 Career Development Program (Project No.
+±0.50cm2.TheB-dopedHEAalsoexhibitsexcellentstability 122M937). MM and OE would acknowledge the grant bythe
+over 48 h. In contrast, the HER activity slightly decreases, European Research Council (QUEEN: 01043219). Fruitful
+consistent with DFT predictions of higher hydrogen communication with Mubashir Mansoor is also appreciated.
+adsorption energy. In addition to its high catalytic efficiency, The supercomputing resources are provided by the National
+the B-doped HEA demonstrates remarkable long-term opera- High-Performance Computing Center of the Republic of
+tional stability, maintaining the OER performance over 48 h Turkey (UHEM).
+without noticeable degradation, confirming its structural ■
+robustness under alkaline conditions. The synthesis approach, REFERENCES
+based on scalable alloy preparation and a simple doping (1) Ahmad, A.; Nairan, A.; Feng, Z.; Zheng, R.; Bai, Y.; Khan, U.;
+treatment, offers a feasible pathway for large-scale catalyst Gao, J. Unlocking the Potential of High Entropy Alloys in
+production. Furthermore, the use of earth-abundant transition Electrochemical Water Splitting: A Review. Small 2024, 20 (29),
+metals and boron, a low-cost dopant, underscores the 2311929.
+economic viability of this strategy for practical water-splitting
+(2)Mahdavi,H.;Kepçeoğlu,A.;Alamdari,A.A.;Ünal,U.;Jahangiri,
+H. Mixing Enthalpy-Driven Variations in Ablation Thresholds and
+applications. Overall, this work establishes boron doping as a
+Laser-Induced Crater Morphologies of CoCuFeNiMnMox (X = 0.5,
+tunable design strategy to modulate the phase composition,
+1.0, 1.5) High-Entropy Alloys under UV Nanosecond Laser Pulses.
+latticestrain,andadsorptionenergeticsinHEAs.Futureefforts
+Results Surf. Interfaces2025, 18,100415.
+will focus on optimizing boron content, exploring codoping, (3)Mahdavi,H.;Alamdari,A.A.;Quinson,J.;Ünal,U.;Jahangiri,H.
+and conducting in situ studies to deepen the mechanistic Mechanically Alloyed NiCuMnWX (X = Co, Fe, or Mo) High-
+understandingandextendthisapproachtootherHEAsystems Entropy Alloy Electrocatalysts for Alkaline Water Splitting. Faraday
+for sustainable hydrogen generation. Discuss. 2025.
+17802 https://doi.org/10.1021/acsaem.5c02722
+ACSAppl.EnergyMater.2025,8,17793−17804
+
+ACS Applied Energy Materials www.acsaem.org Article
+(4) Kar, N.; Skrabalak, S. E. Synthetic Methods for High-Entropy (21)Zhou,X.;Zou,L.;Zhu,H.;Yan,M.;Wang,J.;Lan,S.;Chen,
+Nanomaterials.Nat. Rev.Mater.2025, 10(9), 638−653. S.; Hahn, H.; Feng, T. N-Doping Effects On Electrocatalytic Water
+(5) Hsu, W.-L.; Tsai, C.-W.; Yeh, A.-C.; Yeh, J.-W. Clarifying the Splitting of Non-Noble High-Entropy Alloy Nanoparticles Prepared
+FourCoreEffectsofHigh-EntropyMaterials.Nat.Rev.Chem.2024,8 by InertGas Condensation. Small2024, 20(21),2310327.
+(6),471−485. (22) Cai, Z.-X.; Bolar, S.; Ito, Y.; Fujita, T. Enhancing Oxygen
+(6) Wang, Z.; You, J.; Zhao, Y.; Yao, R.; Liu, G.; Lu, J.; Zhao, S. Evolution Reactions in Nanoporous High-Entropy Catalysts Using
+Research Progress on High Entropy Alloys and High Entropy Boron and Phosphorus Additives. Nanoscale 2024, 16 (9), 4803−
+Derivatives as OER Catalysts. J. Environ. Chem. Eng. 2023, 11 (1), 4810.
+109080. (23)Liu,J.;Chu,B.;Li,R.;Dong,L.;Wang,F.;Li,B.;Fan,M.;Bi,
+(7) Yang, T.; Zhao, Y. L.; Tong, Y.; Jiao, Z. B.; Wei, J.; Cai, J. X.; H.; Chen, Z. Boron-Doping Induced Electron Redistribution of
+Han, X. D.; Chen, D.; Hu, A.; Kai, J. J.; Lu, K.; Liu, Y.; Liu, C. T. Carbon-Coated Nickel Nanoparticles towards Efficient Alkaline
+MulticomponentIntermetallic NanoparticlesandSuperbMechanical HydrogenEvolution. J. AlloysCompd. 2023, 960,170721.
+Behaviorsof Complex Alloys.Science2018, 362(6417), 933−937. (24)Chu,K.;Liu,Y.;Cheng,Y.;Li,Q.SynergisticBoron-Dopants
+(8) Yao, Y.; Huang, Z.; Xie, P.; Lacey, S. D.; Jacob, R. J.; Xie, H.; and Boron-Induced Oxygen Vacancies in MnO2 Nanosheets to
+Chen, F.; Nie, A.; Pu, T.; Rehwoldt, M.; Yu, D.; Zachariah, M. R.; PromoteElectrocatalyticNitrogenReduction.J.Mater.Chem.A2020,
+Wang, C.; Shahbazian-Yassar, R.; Li, J.; Hu, L. Carbothermal Shock 8 (10),5200−5208.
+Synthesis of High-Entropy-Alloy Nanoparticles. Science 2018, 359 (25)Guggenberger,P.;Patil,P.;Fickl,B.;Pichler,C.M.;Bayer,B.
+(6383),1489−1494. C.; Stockhausen, M.; Hofmann, T.; Fafilek, G.; Kleitz, F. In-Situ
+(9)Batchelor,T.A.A.;Pedersen,J.K.;Winther,S.H.;Castelli,I.E.; Formation of High-Performance β-NiOOH OER Electrocatalysts
+Jacobsen, K. W.; Rossmeisl, J. High-Entropy Alloys as a Discovery UsingBoronandPhosphorus-EnrichedNiCore−ShellNanoparticles.
+PlatformforElectrocatalysis.Joule2019, 3 (3),834−845. ACS Appl. Mater.Interfaces2025, 17(21),30773−30784.
+(10)Hojjati-Najafabadi,A.;Heidari,G.;Afsharpour,M.;Belver,C.; (26)Wang,Z.;Niu,X.;Ye,L.;Wang,X.;Wang,C.;Wen,Y.;Zong,
+Aminabhavi, T. M.; Vasseghian, Y.; He, Y. Dual-Functional L.;Wang,L.;Gao,H.;Li,X.;Zhan,T.BoronModificationPromoting
+Hierarchical NiFe Hydroxylphosphate Electrocatalyst on Copper Electrochemical Surface Reconstruction of NiFe-LDH for Efficient
+Dendrites for Hydrogen and Oxygen Evolution. Chem. Eng. J. 2025, and Stable Freshwater/Seawater Oxidation Catalysis. J. Colloid
+518,164622. Interface Sci.2024, 668, 607−617.
+(11) Li, H.; Lai, J.; Li, Z.; Wang, L. Multi-Sites Electrocatalysis in (27)Dong,S.;Li,Q.;Hu,H.;Zhang,X.;Li,Y.;Ye,K.;Hou,W.;He,
+High-EntropyAlloys.Adv. Funct.Mater.2021, 31(47),2106715. J.; Zhao, H. Application of Rare-Earth High Entropy Boride in
+(12)Mahdavi,H.;Akcan,O.Ş.;Morova,Y.;Yağcı,M.B.;Ünal,U.; Electrocatalytic Hydrogen Evolution Reaction. Appl. Surf. Sci. 2023,
+Jahangiri, H. Pulsed-Laser and Mechanical Reduction of Graphene 615, 156413.
+Oxide Combined with NiCoFeMoW High-Entropy Alloys for (28) Wang, X.; Zuo, Y.; Horta, S.; He, R.; Yang, L.; Ostovari
+Electrocatalytic Oxygen Evolution Reaction. ChemSusChem 2025, Moghaddam, A.; Ibáñez, M.; Qi, X.; Cabot, A. CoFeNiMnZnB as a
+18,No. e202500466. High-EntropyMetalBoridetoBoosttheOxygenEvolutionReaction.
+(13) Asghari Alamdari, A.; Jahangiri, H.; Yagci, M. B.; Igarashi, K.; ACS Appl. Mater.Interfaces2022, 14(42),48212−48219.
+Matsumoto, H.; Motallebzadeh, A.; Unal, U. Exploring the Role of (29)Liu,L.;Liu,T.;Xu,C.;Zhao,W.;Fan,J.;Liu,J.;Ma,X.;Fu,W.
+Mo and Mn in Improving the OER and HER Performance of FeCoCuMnRuB Nanobox with Dual Driving of High-Entropy and
+CoCuFeNi-Based High-Entropy Alloys. ACS Appl. Energy Mater. Electron-Trap Effects as the Efficient Electrocatalyst for Water
+2024, 7(6),2423−2435. Oxidation.Nano Lett.2024, 24(9),2831−2838.
+(14)Hu,J.;Guo,T.;Zhong,X.;Li,J.;Mei,Y.;Zhang,C.;Feng,Y.; (30)Blöchl,P.E.ProjectorAugmented-WaveMethod.Phys.Rev.B
+Sun,M.;Meng,L.;Wang,Z.;Huang,B.;Zhang,L.;Wang,Z.InSitu 1994, 50(24),17953−17979.
+ReconstructionofHigh-EntropyHeterostructureCatalystsforStable (31) Perdew, J. P.; Burke, K.; Ernzerhof, M. Generalized Gradient
+Oxygen Evolution Electrocatalysis under Industrial Conditions. Adv. Approximation Made Simple. Phys. Rev. Lett. 1996, 77 (18), 3865−
+Mater.2024, 36(14),2310918. 3868.
+(15) Jia, Z.; Yang, T.; Sun, L.; Zhao, Y.; Li, W.; Luan, J.; Lyu, F.; (32)Kresse,G.;Joubert,D.FromUltrasoftPseudopotentialstothe
+Zhang,L.-C.;Kruzic,J.J.;Kai,J.-J.;Huang,J.C.;Lu,J.;Liu,C.T.A Projector Augmented-Wave Method. Phys. Rev. B 1999, 59 (3),
+Novel Multinary Intermetallic as an Active Electrocatalyst for 1758−1775.
+HydrogenEvolution.Adv. Mater.2020, 32(21),2000385. (33) Freysoldt, C.; Grabowski, B.; Hickel, T.; Neugebauer, J.;
+(16)He,R.;Yang,L.;Zhang,Y.;Wang,X.;Lee,S.;Zhang,T.;Li,L.; Kresse, G.; Janotti, A.; Van de Walle, C. G. First-Principles
+Liang,Z.;Chen,J.;Li,J.;OstovariMoghaddam,A.;Llorca,J.;Ibáñez, Calculations for Point Defects in Solids. Rev. Mod. Phys. 2014, 86
+M.;Arbiol,J.;Xu,Y.;Cabot,A.ACrMnFeCoNiHighEntropyAlloy (1), 253−305.
+Boosting Oxygen Evolution/Reduction Reactions and Zinc-Air (34)Kiai,M.S.;Mansoor,M.;Ponnada,S.;Gorle,D.B.;Aslfattahi,
+BatteryPerformance.Energy Storage Mater.2023, 58, 287−298. N.; Sharma, R. K. Integration of PDAAQ and Non-Stoichiometric
+(17)Cui,X.;Zhang,B.;Zeng,C.;Guo,S.ElectrocatalyticActivityof MgO as Host Cathode Materials for Lithium-Sulfur Batteries with
+High-Entropy Alloys toward Oxygen Evolution Reaction. MRS SuperiorCycleStability:DensityFunctionalTheoryCalculationsand
+Commun.2018, 8(3), 1230−1235. ExperimentalValidations.EnergyFuels2022,36(24),15199−15209.
+(18)He,Y.;Qin,J.;Hu,F.;Mao,L.;Shen,B.;Aminabhavi,T.M.; (35) Jahangiri, H.; Öveçoğlu, M. L. Determination of Crystallite
+Vasseghian, Y.; Hojjati-Najafabadi, A. Chemical Dealloying Derived Size, Strain and Solubility in Mechanically Alloyed W-xTi (X = 0.5,
+NanoporousFeCoNiCuTiHigh-EntropyBifunctionalElectrocatalysts 1.0,4.0and10.0Wt%)PowderAlloys.Mater.Lett.2016,178,193−
+for Highly Efficient Overall Water Splitting under Alkaline 196.
+Conditions.Chem. Eng.J. 2024, 492, 152145. (36) Suryanarayana, C. Mechanical Alloying and Milling. Prog.
+(19)He,Y.;Wu,J.;Hu,F.;Mao,L.;Aminabhavi,T.M.;Vasseghian, Mater. Sci.2001, 46(1), 1−184.
+Y.; Hojjati-Najafabadi, A. Self-Supporting FeCoNiCuTiGa High- (37)Yu,Z.;Boukhvalov,D.W.;Tan,H.;Xiong,D.;Feng,C.;Wang,
+Entropy Alloy Electrodes for Alkaline Hydrogen and Oxygen J.;Wang,W.;Zhao,Y.;Xu,K.;Su,W.;Xiang,X.;Lin,F.;Huang,H.;
+Evolution Reactions: Experimental and Theoretical Insights. ACS Zhang, F.; Zhang, L.; Meng, L.; Liu, L. Sulfur and Phosphorus Co-
+Appl.Energy Mater. 2024, 7(20),9121−9133. Doped FeCoNiCrMn High-Entropy Alloys as Efficient Sulfion
+(20)Lei,X.;Tang,Q.;Zheng,Y.;Kidkhunthod,P.;Zhou,X.;Ji,B.; Oxidation Reaction Catalysts Enabling Self-Powered Asymmetric
+Tang, Y. High-Entropy Single-Atom Activated Carbon Catalysts for Seawater Electrolysis.Chem. Eng. J. 2024,494,153094.
+SustainableOxygen Electrocatalysis.Nat. Sustain.2023, 6 (7), 816− (38) Şahin, R. T.; Atak, O. .̈ F.; Burcak, A. B.; Jahangiri, H.;
+826. Motallebzadeh,A.;Aydemir,U.;Mohagheghi,S.Characterizationofa
+17803 https://doi.org/10.1021/acsaem.5c02722
+ACSAppl.EnergyMater.2025,8,17793−17804
+
+ACS Applied Energy Materials www.acsaem.org Article
+Copper Matrix Composite Reinforced with Nano/Submicron-Sized
+BoronFabricatedviaSparkPlasmaSintering.Mater.TodayCommun.
+2024, 41,110347.
+(39)Lozovoi,A.Y.;Paxton,A.T.BoroninCopper:APerfectMisfit
+intheBulkandCohesionEnhancerataGrainBoundary.Phys.Rev.B
+2008, 77(16),165413.
+(40)Füllgrabe,M.;Ittermann,B.;Stöckmann,H.-J.;Kroll,F.;Peters,
+D.;Ackermann,H.DiffusionParametersofBinCuDeterminedbyβ-
+Radiation-DetectedNMR.Phys.Rev.B 2001, 64(22),224302.
+(41)Bale,C.W.;Bélisle,E.;Chartrand,P.;Decterov,S.A.;Eriksson,
+G.; Gheribi, A. E.; Hack, K.; Jung, I.-H.; Kang, Y.-B.; Melançon, J.;
+Pelton,A.D.;Petersen,S.;Robelin,C.;Sangster,J.;Spencer,P.;Van
+Ende, M.-A. FactSage Thermochemical Software and Databases,
+2010−2016.Calphad 2016,54, 35−53.
+(42)Villalpando-Paez,F.;Son,H.;Chou,S.G.;Samsonidze,Ge.G.;
+Kim, Y. A.; Muramatsu, H.; Hayashi, T.; Endo, M.; Terrones, M.;
+Dresselhaus, M. S. Raman Spectroscopy Study of Heat-Treated and
+Boron-DopedDoubleWallCarbonNanotubes.Phys.Rev.B2009,80
+(3),035419.
+(43)Mahdavi,H.;Alamdari,A.A.;Ünal,U.;Jahangiri,H.Open-Air
+Pulsed Laser-Deposited NiCoCuFeMoMnOx High-Entropy Oxide
+Thin Films for Efficient Electrocatalytic Oxygen Evolution Reaction.
+ACSAppl. Energy Mater.2025, 8, 7013.
+(44) Zhang, M.; Luo, K.; Fan, Y.; Lu, X.; Ye, J.; Lu, N.; Dong, J.;
+Niu, Q.; Zhang, J.; Zhang, P.; Dai, S. Metal Vacancies and Self-
+ReconstructionofHighEntropyMetalBoratestoBoosttheOxygen
+EvolutionReaction. Chem. Eng. J. 2024,493,152758.
+(45)Long,H.;Zhang,X.;Zhang,Z.;Zhang,J.;Yu,J.;Yu,H.Fine-
+Tuning d-p Hybridization in Ni-Bx Cocatalyst for Enhanced
+PhotocatalyticH2 Production. Nat.Commun.2025, 16(1), 946.
+(46) Wu, J.; Zhang, Q.; Shen, K.; Zhao, R.; Zhong, W.; Yang, C.;
+Xiang,H.; Li,X.; Yang,N. ModulatingInterband Energy Separation
+of Boron-Doped Fe7S8/FeS2 Electrocatalysts to Boost Alkaline
+Hydrogen Evolution Reaction. Adv. Funct. Mater. 2022, 32 (7),
+2107802.
+(47)Yang,G.;Zhang,H.;Li,J.;Wang,Y.;Deng,K.;Yu,H.;Wang,
+H.;Wang,Z.;Wang,L.Boron-DopedPdRhMesoporousNanotubes
+forElectrocatalyticNitrogenReductiontoAmmonia.ACSAppl.Nano
+Mater.2024, 7(9), 10895−10901.
+(48) McCrory, C. C. L.; Jung, S.; Peters, J. C.; Jaramillo, T. F.
+Benchmarking Heterogeneous Electrocatalysts for the Oxygen
+EvolutionReaction.J.Am.Chem.Soc.2013,135(45),16977−16987.
+(49)Liu,H.;Qin,H.;Kang,J.;Ma,L.;Chen,G.;Huang,Q.;Zhang,
+Z.; Liu, E.; Lu, H.; Li, J.; Zhao, N. A Freestanding Nanoporous
+NiCoFeMoMnHigh-EntropyAlloyasanEfficientElectrocatalystfor
+RapidWaterSplitting.Chem. Eng. J. 2022, 435, 134898.
+(50)Mahdavi,H.;AsghariAlamdari,A.;Kepceoğlu,A.;Yağcı,M.B.;
+Ünal, U.; Jahangiri, H. Optimization of Laser-Wavelength Depend-
+enceforOpen-AirAtmosphericPressurePulsedLaserDepositionof
+AlCrFeMnTi High-Entropy Alloy for Tailored Surface Properties.
+ACSOmega 2024, 9 (20),22495−22505.
+(51)AlMahmoud,Z.;Safaei,B.;Asmael,M.;Petrů,J.;Sahmani,S.
+InvestigationfortheInfluenceofSm2O3andCeO2Nanoparticleson
+the Microstructure and Electrochemical Behavior of Epoxy and
+Prediction of Mechanical Characterizations of Adhesive Joining of
+CFPEEK via Machine Learning. J. Mater. Res. Technol. 2025, 38,
+4917−4938.
+(52) Zhang, Z.; Zhao, H.; Xi, S.; Zhao, X.; Chi, X.; Bin Yang, H.;
+Chen, Z.; Yu, X.; Wang, Y.-G.; Liu, B.; Chen, P. Breaking Linear
+Scaling Relationships in Oxygen Evolution via Dynamic Structural
+Regulationof ActiveSites. Nat. Commun.2025, 16(1), 1301.
+17804 https://doi.org/10.1021/acsaem.5c02722
+ACSAppl.EnergyMater.2025,8,17793−17804
+

@@ -1,0 +1,768 @@
+SCIENCE ADVANCES | RESEARCH ARTICLE
+MATERIALS SCIENCE Copyright©2023The
+Authors,some
+Toward controllable and predictable synthesis of high-
+rightsreserved;
+exclusivelicensee
+entropy alloy nanocrystals
+AmericanAssociation
+fortheAdvancement
+Yi-HongLiu1,Chia-JuiHsieh1,Liang-ChingHsu2,Kun-HanLin1,Yueh-ChunHsiao1, ofScience.Noclaimto
+originalU.S.Government
+Chong-ChiChi3,Jui-TaiLin1,Chun-WeiChang1,Shang-ChengLin1,Cheng-YuWu1,Jia-QiGao1,
+Works.Distributed
+Chih-WenPao2,Yin-MeiChang3,Ming-YenLu3,4,ShanZhou5,Tung-HanYang1*
+underaCreative
+CommonsAttribution
+High-entropyalloy(HEA)nanocrystalshaveattractedextensiveattentionincatalysis.However,therearenoef- NonCommercial
+fectivestrategiesforsynthesizingtheminacontrollableandpredictablemanner.WithquinaryHEAnanocrys- License4.0(CCBY-NC).
+tals made of platinum-group metals as an example, we demonstrate that their structures with spatial
+compositions can be predicted by quantitatively knowing the reduction kinetics of metal precursors and
+entropyofmixinginthenanocrystalsunderdropwiseadditionofthemixingfive–metalprecursorsolution.
+ThetimetoreachasteadystateforeachprecursorplaysapivotalroleindeterminingthestructuresofHEA
+nanocrystalswithhomogeneousalloyandcore-shellfeatures.Comparedtothecommercialplatinum/carbon
+andphase-separatedcounterparts,thedendriticHEAnanocrystalswithadefect-richsurfaceshowsubstantial
+enhancementincatalyticactivityanddurabilitytowardbothhydrogenevolutionandoxidation.Thisquantita-
+tivestudywillleadtoaparadigmshiftinthedesignofHEAnanocrystals,pushingawayfromthetrial-and-error
+approach.
+INTRODUCTION parameterscontinuetobebuiltuponqualitativeobservationsand
+High-entropyalloy(HEA)nanocrystalsconsistingofatleastfiveel- empiricallaws(31).Themultimetallicnanocrystalscantakemany
+ementsholdgreatpromiseasafamilyofcatalystsowingtothelarge distinct types of phases (e.g., solid-solution, intermetallic, and
+chemicalspaceandtunability(1–23).Theirpotentialapplications phase-separatedalloys)with variousspatialcomposition distribu-
+in electrocatalysis, photocatalysis, and thermocatalysis have been tionsofconstituentelements(e.g.,alloyandcore-shellstructures),
+widely reported in recent years. The multiprincipal element whicharedeterminedbyalargenumberofintricatelyentangledex-
+featurecontributestohighmixingentropyandfacilitatestheforma- perimentalparameters(1,2,7–9,20,28–38).Becauseofthedistinc-
+tionofsolid-solutionphaseratherthantheintermetallicphaseor tive reduction kinetics of metal precursors into atoms for their
+phase-separatedmixture(1,2,7–9,20,24–30).Comparedtocon- subsequent nucleation and growth into nanocrystals (24, 28, 29,
+ventionalmono-andbimetallicnanocrystals(24,30),HEAnano- 32,33,35),itisnotanoverstatementthatconventionaltrial-and-
+crystals can provide unique surfaces exposed by the random errorapproachesareextremelytime-consumingandalmostimpos-
+distribution of dissimilarelements. They thus have an enormous sible to control the outcome of multimetallic synthesis (the so-
+numberofdiversetypesofactivesitesanddistinctlocalelectronic called“blackbox”).Thisisespeciallyproblematicinthe synthesis
+structures,greatlyexpandinganimmensedesignspaceforcatalysts of solid-solution HEA nanocrystals containing typically five or
+withdesirableactivity,selectivity,anddurability.Forexample,the more elements. With HEA nanocrystals consisting of five plati-
+PdPtRhIrRuOsAgAu HEA nanocrystals marked a high hydrogen num-groupmetals(PGMs;Pd,Pt,Rh,Ir,andRu)asanexample,
+evolution reaction (HER) activity with a small overpotential in here, we demonstrate that their structures with different spatial
+acid over prolonged operations (23). For another example, the compositionscanbecontrolledbythequantitativeunderstanding
+PtRuCoNiFeMoHEAnanowiresshowedexcellentmassandspecif- of the reduction kinetics of the metal precursors and entropyof
+icactivitiesaswellassuperiordurabilitytowardalkalinehydrogen mixing in the nanocrystals as afunction of reaction time during
+oxidationreaction(HOR)(15). the dropwise synthesis. We select the five elements of PGMs
+Recently, various synthesis strategies including wet-chemical because each element could promote unique catalytic reactions,
+synthesis (11, 15, 17, 22, 23), thermal annealing treatments (5, 9, and, thus, alloying these elements into the solid-solution HEA
+10,12–14,16,18),andlaser-assistedmethods(19)havebeendem- nanocrystals may provide a great variety of adsorption sites on
+onstratedforthesynthesisofdiverseHEAnanocrystalswithdiffer- their surfaces for various catalyses (11). In addition, the PGMs
+entfunctionalities. However, current methods generally involvea are the neighboring elements in the periodic table and have
+trial-and-errorapproachtoreachingtheoptimizationofsynthetic similar atomic radii, which could facilitate the homogeneous
+protocols,whichcanbeattributedtothefactthattheexperimental randomelementalmixingfortheformationofHEAnanocrystals.
+Ourkineticanalysissuggeststhatthetimetoreachasteadystateof
+precursorionsforeachprecursorplaysakeyroleintheformationof
+1DepartmentofChemicalEngineering,NationalTsingHuaUniversity,Hsinchu
+30013,Taiwan.2NationalSynchrotronRadiationResearchCenter,Hsinchu30076, threedistinctiveHEAnanocrystalsincludingthetypicalPdPtRhIr-
+Taiwan.3InstrumentationCenter,NationalTsingHuaUniversity,Hsinchu30013, Ru nanocrystals, dendritic PdPtRhIrRu nanocrystals, and
+Taiwan.4DepartmentofMaterialsScienceandEngineering,NationalTsingHua
+Pd@PdPtRhIrRucore-shellnanocrystals.Inaddition,thecomposi-
+University,Hsinchu30013,Taiwan.5DepartmentofNanoscienceandBiomedical
+tional stoichiometry within PdPtRhIrRu nanocrystalsalso can be
+Engineering,SouthDakotaSchoolofMinesandTechnology,RapidCity,SD57701,
+USA. tuned by adjusting the ratios of metal precursors added to the
+*Correspondingauthor.Email:tunghanyang@mx.nthu.edu.tw
+Liuetal.,Sci.Adv.9,eadf9931(2023) 10May2023 1of17
+
+SCIENCE ADVANCES | RESEARCH ARTICLE
+synthesis, giving rise to the expanded design space for catalysts. Figure1(DtoH)showsthetransmissionelectronmicroscopy
+WhenbenchmarkedagainstthecommercialPt/Candphase-sepa- (TEM)andhigh-angleannulardark-fieldscanningTEM(HAADF-
+rated nanocrystals, the obtained PtPdRhIrRu HEA nanocrystals STEM) images of the resultant multimetallic PdPtRhIrRu nano-
+have high catalytic activityand durability toward electrocatalytic crystalswithtwodistinctsizesandshapesfromtheone-potsynthe-
+HERandHOR. sis.Thelargernanocrystalsexhibitedislandsorspikesdistributed
+onthesurface(Fig.1,EandF).ThefastFouriertransform(FFT)
+pattern in the inset of Fig. 1F showed the single-crystal face-cen-
+RESULTS teredcubic(FCC)structure,whichwasalsoconfirmedbyx-raydif-
+One-potsynthesisofphase-separatedmultimetallic fraction (XRD) pattern (fig. S2). We further analyzed these
+nanocrystals nanocrystals by energy-dispersive x-ray spectroscopy (EDS)
+Wefirstconductedtheone-pot synthesisto examinewhetherthe mapping to examine the element distribution. As shown in
+one-shotinjectionoftheprecursorsolutioninsteadofdropwisead- Fig. 1I, the Pd-richregion in the core area and the otherfour Pt,
+dition would obtain solid-solution HEA nanocrystals. Because of Ir,Rh,andRuelementsintheoutersurfacewereobserved,respec-
+the different reduction kinetics of metal precursors and thus se- tively, indicating the nonuniform elemental distribution. Apart
+quentialgenerationsofatoms,itisexpectedthattheone-potsyn- from the larger nanocrystals, there were many tiny clusters and
+thesis will induce the formation of phase-separated nanocrystals. wavy nanowires with a diameterasthin as ∼2 nm (Fig. 1, G and
+Before the synthesis, we studied the reduction kinetics of five H).Thenanowiresweregeneratedfromtheaggregationoftinyclus-
+metal precursors [i.e., Pd(II), Pt(II), Rh(III), Ir(IV), and Ru(III)] ters.TheFFTpatternintheinsetofFig.1Hshowsatypicalpoly-
+of PGMs. In the kinetic measurements, 3.0 ml of ethylene glycol crystalline diffraction pattern and the lattice constant (0.23 nm)
+(EG)precursorsolutionincludingfivedifferenttypesofmetalpre- calculated from the first diffraction ring matches that of FCC
+cursorsinanequimolarratiowasintroducedinoneshotintoapre- (111)plane.ElementalmappingbasedonEDS(Fig.1J)confirmed
+heated7.0-mlEGreactionsolutioncontainingL-ascorbicacid(AA; thatthewavynanowireswereonlycomposedofthefourPt,Rh,Ir,
+reductant)andpoly(vinylpyrrolidone)(PVP;colloidalstabilizer)at andRuelements.Theseaboveresultssuggestthatthephase-sepa-
+atemperatureof180°C.Wemeasuredtheconcentrationsofprecur- ratedmultimetallicnanocrystalswereobtained,whichisconsistent
+sorionsremaininginthereactionsolutionatdifferenttimepoints withourquantitativeresults.ThenumerousPdatomsformedfrom
+for five metal precursors using the inductively coupled plasma thePd(II)reductionwithinashorttimeunderwentnucleationand
+optical emission spectrometry (ICP-OES) (fig. S1, A to E). We growthtogeneratenanocrystals,and,subsequently,theatomsfrom
+thenderived theirreductionrate constantsk bythecurvefittings theotherprecursors[i.e.,Pt(II),Rh(III),Ir(IV),andRu(III)]with
+based on the pseudo–first-order rate law (fig. S1, F to J) (28, 29, slowerreduction kineticscanbedeposited onthejust-formedPd
+31–35). The rate constants were determined to be 6.50 × 10−2, nanocrystals,leadingtotheformationofphase-separatedmultime-
+3.18×10−2,5.29×10−3,2.28×10−3,and1.04×10−3s−1forthe tallicnanocrystalswiththePd-richcoreandPt,Rh,Ir,andRushell
+reductionofPd(II),Pt(II),Rh(III),Ir(IV),andRu(III),respectively, (Fig.1,EandF).Inaddition,thenumberofnucleationsitesprovid-
+suggesting that the reduction kinetics of precursors followed the edbythejust-formedPdnanocrystalsisnotsufficientlylargetoac-
+trendofPd(II)>Pt(II)>Rh(III)>Ir(IV)>Ru(III)(tableS1).On commodateallthefourPt,Rh,Ir,andRuatoms.Thesefouratoms
+the basis of these kinetic parameters, we derived the number of canalsoundergonucleationandgrowthtogenerateclusters/nano-
+metalprecursorionsremaininginthereactionsolutionasafunc- wires(Fig.1,GandH).Inaddition,weobtainedthephase-separat-
+tionofreactiontime,asshowninFig.1A.Ashighlightedintheinset edPdPtRhIrRunanocrystalsastheproductsusingdifferentreaction
+ofFig.1A,99.0%ofthePd(II)precursorwillbereducedtoPdatoms temperaturesof140°,160°,and200°Cthroughtheone-potsynthe-
+within1min,whichismuchfasterthanthoseoftheotherfourpre- sis(fig.S3,AtoF).
+cursors.WealsocalculatedtheinstantaneouspercentagesofPd,Pt,
+Rh,Ir, andRu atoms generated as afunction of reaction time, as Dropwisesynthesisofsolid-solutionHEAnanocrystals
+shown in Fig. 1B. The percentage of Pd atoms will dominate Wethenswitchedtotheuseofthedropwisesynthesistointroduce
+amongthesefiveelementsintheearlystageofsynthesis,followed theprecursorsolutiondropwiseintothereactionsolutionthrough
+bythePt,Rh,Ir,andRuatomsasthereactionproceeds.Further- theassistanceofasyringepumpforthesynthesisofsolid-solution
+more,weestimatedtheinstantaneousentropyofmixing(∆S )as HEA nanocrystals, while all otherexperimental conditions were
+mix
+afunctionofreactiontimeusingthefollowingequation(1,2,8,39) keptthesame.Thedetailedexperimentalproceduresareprovided
+intheexperimentalsection.Wearguethatthedropwisestrategycan
+Xn
+ΔS ¼(cid:0) R xlnx ð1Þ provide an opportunityto simultaneouslyreach a steadystate for
+mix i i
+thenumberofeachmetalprecursorinthereactionsolution.This
+i¼1
+mayallowustotightlycontrolthenumberofatomsgeneratedfrom
+whereRisthegasconstant,X themolarfractionoftheithelement,
+i thedifferenttypesofprecursorsatthesamevalueinthetimeinter-
+andndenotesthenumberofelementalcomponentsinthealloys.
+valbetweenadjacentdropsduringthesteadystate,followedbytheir
+Accordingtothecalculationofthe∆S ,alloyscanbedividedinto
+mix nucleation and then growth into HEA nanocrystals. To quantita-
+low(∆S <1R),medium(1R≤∆S ≤1.5R),andHEAs(∆S >
+mix mix mix tively understand the reduction kinetics of metal precursors in
+1.5R)(39).AsshowninFig.1C,the∆S showedarapidincrease
+mix the dropwise synthesis, we combined the kinetic measurements
+after the one-shot injection of precursor solution and decreased
+and mathematical analysis. The numberof metal precursor ions
+markedlylateron.Thevaluesaremuchsmallerthan1.5Rthrough-
+(n) remaining in the reaction solution at reaction time t can be
+outthesynthesis,resultinginahighprobabilityofformingphase- t
+separatedmultimetallicnanocrystals.
+Liuetal.,Sci.Adv.9,eadf9931(2023) 10May2023 2of17
+
+SCIENCE ADVANCES | RESEARCH ARTICLE
+Fig.1.One-potsynthesisofphase-separatedmultimetallicnanocrystals.(A)ThenumbersofPd(II),Pt(II),Rh(III),Ir(IV),andRu(III)ionsremaininginthereaction
+solution,(B)theinstantaneouspercentagesofPd,Pt,Rh,Ir,andRuatomsgenerated,and(C)theinstantaneousentropyofmixing∆S asafunctionofreaction
+mix
+time.(D)TEMimageofphase-separatedPdPtRhIrRunanocrystalswithtwodistinctsizesandshapes.(E)HAADF-STEMimageofalargerphase-separatedPdPtRhIrRu
+nanocrystal.(F)Atomic-resolutionHAADF-STEMimagetakenfromtheregionmarkedbyboxin(E).(G)HAADF-STEMimageofasmallerphase-separatedPdPtRhIrRu
+nanowire.(H)Atomic-resolutionHAADF-STEMimagetakenfromtheregionmarkedbyboxin(G).(IandJ)EDSmapsofPd,Pt,Rh,Ir,andRuelementsof(I)largerphase-
+separatedPdPtRhIrRunanocrystalsand(J)smallerphase-separatedPdPtRhIrRunanowiresmarkedbybox.
+Liuetal.,Sci.Adv.9,eadf9931(2023) 10May2023 3of17
+
+SCIENCE ADVANCES | RESEARCH ARTICLE
+calculatedasasumofcontributionsfromalldrops(32) andthecorrespondingFFTpatternofanindividualirregularnano-
+crystalrevealeditspolycrystallineFCCstructure.TheXRDpattern
+n t ¼n 0 e(cid:0) ktþn 0 e(cid:0) kðt(cid:0) τÞþn 0 e(cid:0) kðt(cid:0) 2τÞþ���þn 0 e(cid:0) kðt(cid:0) NτÞ inFig.2Gexhibitstwonotablepeaksat2θ=41.1°and47.2°,cor-
+¼n0e(cid:0)kt�½1(cid:0) ðekτÞNþ1�
+ð2Þ
+respondingtoFCC(111)and(200)planes,respectively.Asshown
+1(cid:0) ekτ
+inFig.2H,theEDSmapsdepicthomogeneousdistributionsofall
+wheren 0 isthenumberofmetalprecursorionsineachdrop,τrep- fiveelementsinthenanocrystals.Inaddition,theICP-OESresults
+resentsthedurationoftimebetweenadjacentdrops,kisthereduc- revealthattheatomicpercentagesofPd,Pt,Ir,Rh,andRuelements
+tion rate constant, and N representsthe total numberof droplets were21.7,21.2,20.7,18.0,and18.4%,respectively,whichisconsis-
+added. On the basis of this equation, the steady state for the tentwithourquantitativeprediction(fig.S4).Toanalyzethesurface
+number of precursor ions can be manipulated by controlling statesofHEAPdPtRhIrRunanocrystals,x-rayphotoelectronspec-
+threevariables,includingn 0 ,τ,andk.Thevaluesofn 0 andτcan troscopy (XPS) characterization was conducted. In the binding
+be controlled byadjusting the precursorconcentration and injec- energyregionof55to85eV(Fig.2I),thetwonotablePt4fpeaks
+tionrate,respectively,whilekcanbederivedexperimentallyfrom wereobservedat71.1and74.5eV,whichcanbeassignedtoPt4f
+7/2
+thekineticmeasurements(fig.S1). andPt4f ofPtmetal,respectively,whiletheIr4fspectrumshows
+5/2
+Afterobtainingtherateconstantsfromthekineticanalysis,the twopeaksat60.5and63.5eV,correspondingtoIr4f andIr4f
+7/2 5/2
+numberofeachmetalprecursorasafunctionofthereactiontime ofIrmetal,respectively.Inthebindingenergyregionof275to350
+(Fig. 2A)can be estimated usingEq. 2whenn 0 and τwereset to eV (Fig. 2J),the 3d doublets from Ru, Rh,and Pd were observed
+1.045 × 10−4 mmol and 68.4 s, respectively. All the Pd(II) and along with theweak Pt 4dand Ir 4dsignals. Thepeak profiles of
+Pt(II) ions (i.e., n 0 ) will have been reduced to zerovalent atoms these five elements in the XPS spectra are all in line with their
+under fast reduction kinetics and thus depleted before the next bulkmetals,suggestingthemetallicnatureofthequinaryPdPtRhIr-
+drop is added, as highlighted in the inset of Fig. 2A, suggesting RuHEAnanocrystals(40).
+the achievement of steady state for the numbers of Pd(II) and Together, these quantitative analyses and experimental results
+Pt(II)ions.FortheRh(III),Ir(IV),andRu(III)ionswithslowreduc- demonstratethatthedropwisesynthesisiseffectiveforthesynthesis
+tionkinetics,theseprecursorionswillbegraduallyaccumulatedin ofsolid-solutionPdPtRhIrRunanocrystals.Itshouldbepointedout
+thereactionsolutionwhenthenumberofdropsisincreased.Then, thatthesenanocrystalsshouldcontainthetinycorethatisrichin
+thenumbersoftheRh(III),Ir(IV),andRu(III)ionswillreachthe PdPtalloyformedintheveryearlystageofsynthesisandthethick
+steadystate,wheretheyonlyoscillatebetweenalowerlimit( 1 n (cid:0) 0e e (cid:0) (cid:0) k k τ τ ) solid-solution PdPtRhIrRu shell generated in the relatively long,
+andanupperlimit( 1(cid:0) n e 0 (cid:0)kτ ),atapproximately12,27,and80min,re- latersteady-stateperiod(Fig.2B).Wethussimplyuse“solid-solu-
+spectively.Inthiscase,onceeverydropoftheprecursormixtureis tionPdPtRhIrRunanocrystals”ratherthancore-shellnanocrystals
+addedduringthesteadystate,thenumberoftheprecursorionswill throughoutthispaper,toreflecttheirmajorphaseandstructurein
+quicklyincreasefromn low ton up and,subsequently,showanexpo- thiscase.Furthermore,wealsoshowedthatthecompositionalstoi-
+nential decay from n up to n low in the pseudo–first-order reaction chiometry within solid-solution PdPtRhIrRu nanocrystals can be
+untilthenextdropisadded.Notethatthedifferencebetweenn up tunedbyadjustingtheratiosofmetalprecursorsaddedtothesyn-
+andn low isn 0 .Onthebasisofthequantitativeanalysis,allthesefive thesis (figs. S5 and S6). For example, the nonequimolar Pt-rich
+precursors can simultaneously maintain the steadystate during a PdPtRhIrRu HEA nanocrystals were obtained by increasing the
+longperiodofsynthesisfromt=80minto6hours,ashighlighted feedingratioofPt(II)intheprecursorsolution(fig.S6).
+in the inset of Fig. 2A, indicating that the Pd, Pt, Rh, Ir, and Ru
+atomswillbegeneratedequally(i.e.,n 0 ).Furthermore,theinstan- Dropwisesynthesisofdendriticsolid-solutionHEA
+taneouspercentagesofPd,Pt,Rh,Ir,andRuelementsgeneratedas nanocrystals
+afunctionofreactiontimealsoindicatethatthesefiveelementscan ControllingthesurfacestructureofHEAwhileimprovingtheuti-
+begraduallychangedtoanequimolarratioofapproximately20% lizationefficiencyoftheatomsisalsoasubjectofgreatimportance
+after 80 min (Fig. 2B). Asexpected, the instantaneous entropyof forcatalyticapplications.Specifically,variousnanodendrites con-
+mixing ∆S mix increases larger than 1.5R within a very short sisting of a dense arrayof metal branches (e.g., Pt- and Pd-based
+period (~10min), once the precursorsolution is added dropwise metals and alloys) with low-coordination surface atoms were
+(Fig. 2C). The larger ∆S mix may contribute to the formation of found to display high catalytic activities (41–44). It is believed
+stablesolid-solutionPdPtRhIrRunanocrystals(39). thatthegrowthmode(layer-by-layerversusislandgrowthmodes)
+Figure2DshowsaTEMimageoftheresultantHEAPdPtRhIrRu ofmetalatomsonthenewlyformednuclei(orseeds)canbema-
+nanocrystals with a narrow sizedistribution at180°C for 6hours nipulatedbychangingtheratiobetween theatomdepositionrate
+through the dropwise synthesis, where n 0 and τ were setto1.045 (R dep ) and the surface diffusion rate (R diff ) (44). To facilitate the
+× 10−4 mmol and 68.4 s, respectively. The products contained a island growth mode and thus the formation of dendrites, the
+mixture of tetrahedral and irregularly shaped nanocrystals. The atomdepositionrateneedstobegreaterthanthesurfacediffusion
+HAADF-STEM image taken from an individual tetrahedron is rate(i.e.,R >R ).Therefore,weshortenthedurationoftime
+dep diff
+shown in Fig. 2E. The lattice spacing of 0.23 nm can be assigned betweenadjacentdropsfromτ=68.4to11.4sand,thus,higherR
+dep
+tothe(111)planeofFCClattice.ThecorrespondingFFTpattern byincreasingtheinjectionrateofprecursorsolutiontoobtainthe
+in the inset of Fig. 2E further confirms a characteristic FCC dendriticsolid-solutionPdPtRhIrRunanocrystalsinthe dropwise
+single-crystalstructureviewedfromthe[110]direction.Inaddition, synthesis of 180°C, while keeping n = 1.045 × 10−4 mmol. On
+0
+thedarkbrightcontrastthroughoutthenanocrystalwasobserved, the basis of reduction rate constants obtained experimentally at
+whichcanbeattributedtothedifferenceinatomicweightbetween 180°C(fig. S1, F to J), we simulated the reduction kinetics under
+thesefiveelements.AsshowninFig.2F,theHAADF-STEMimage the values of n = 1.045 × 10−4 mmol and τ = 11.4 sto estimate
+0
+Liuetal.,Sci.Adv.9,eadf9931(2023) 10May2023 4of17
+
+SCIENCE ADVANCES | RESEARCH ARTICLE
+Fig.2.Dropwisesynthesisofsolid-solutionHEAnanocrystals.(A)ThenumbersofPd(II),Pt(II),Rh(III),Ir(IV),andRu(III)ionsremaininginthereactionsolution,(B)the
+instantaneouspercentagesofPd,Pt,Rh,Ir,andRuatomsgenerated,and(C)theinstantaneousentropyofmixing∆S asafunctionofreactiontime.(D)TEMimageof
+mix
+PdPtRhIrRunanocrystals.(E)Atomic-resolutionHAADF-STEMimageanditsFFTpattern(inset)ofatetrahedralPdPtRhIrRunanocrystal.(F)Atomic-resolutionHAADF-
+STEMimageanditsFFTpattern(inset)ofanirregularPdPtRhIrRunanocrystal.(G)XRDpatternofPdPtRhIrRunanocrystals.a.u.,arbitraryunits.(H)EDSmapsofPd,Pt,Rh,
+Ir,andRuelementsofPdPtRhIrRuHEAnanocrystals.(IandJ)XPSspectraofPdPtRhIrRunanocrystalsintheregionsof(I)55to85eVand(J)275to350eV.
+thenumberofeachmetalprecursorusingEq.2.Figure3Ashows suggestingthattheirpercentagesareapproximatelythesameafter
+thatthenumberofeachmetalprecursorallreachedasteadystate ashortperiodofreactiontime.Furthermore,thecalculatedinstan-
+within80min.Thedecreaseinτeffectivelyincreasedthenumberof taneousentropyofmixing∆S >1.5Rafter~10min(Fig.3C)may
+mix
+oscillationsbetweenalowerlimitn andanupperlimitn inthe facilitate the alloying process for dendritic solid-solution HEA
+low up
+steady state and thereby increased the atom deposition rate. As nanocrystals. Figure 3 (D and E) shows the TEM and HAADF-
+shown in Fig. 3B, the instantaneous percentages of five elements STEMimagesofdendriticsolid-solutionPdPtRhIrRunanocrystals
+formed as a function of reaction time again can be estimated, whenthedropwisesynthesiswithn =1.045×10−4mmolandτ=
+0
+Liuetal.,Sci.Adv.9,eadf9931(2023) 10May2023 5of17
+
+SCIENCE ADVANCES | RESEARCH ARTICLE
+Fig.3.Dropwisesynthesisofdendriticsolid-solutionHEAnanocrystals.(A)ThenumbersofPd(II),Pt(II),Rh(III),Ir(IV),andRu(III)ionsremaininginthereactionsol-
+ution,(B)theinstantaneouspercentagesofPd,Pt,Rh,Ir,andRuatomsgenerated,and(C)theinstantaneousentropyofmixing∆S asafunctionofreactiontime.(D)
+mix
+TEMand(E)low-magnificationHAADF-STEMimagesofdendriticPdPtRhIrRunanocrystals.(F)HAADF-STEMimageofanindividualdendriticPdPtRhIrRunanocrystal.(G)
+Atomic-resolutionHAADF-STEMimagetakenfromtheregionmarkedbyboxin(F).(HandI)Atomic-resolutionHAADF-STEMimagesofPdPtRhIrRunanocrystalsshowing
+thelow-coordinationdefectsitesonthenanocrystals.(J)XRDpatternofdendriticPdPtRhIrRunanocrystals.(K)Low-and(L)high-magnificationEDSmapsofPd,Pt,Rh,Ir,
+andRuelementsofdendriticPdPtRhIrRunanocrystals.(MandN)XPSspectraofdendriticPdPtRhIrRunanocrystalsintheregionsof(M)55to85eVand(N)275to350eV.
+Liuetal.,Sci.Adv.9,eadf9931(2023) 10May2023 6of17
+
+SCIENCE ADVANCES | RESEARCH ARTICLE
+11.4 s was conducted at 180°C for 1 hour, respectively. The nanocrystalswithadendriticarchitecturebyshorteningthedura-
+PdPtRhIrRunanocrystalshadathree-dimensionaldendriticmor- tion of time between adjacent drops. Asthe control experiments
+phologyconsistingofseveralbranches.Withtheincreaseininjec- with larger values of τ = 114.0 and 273.5 s, slowerinjection rates
+tiontimeto3hours,thestructureofdendriticnanocrystalswaswell andthusdepositionratesinducedthenanocrystalswithasmooth
+maintained and evolved into a larger size (fig. S7). The dendritic surface(fig.S10).Inaddition,whenthesynthesiswithτ=11.4swas
+nanocrystals sampled at 1 hour were further characterized by switched at an elevated temperature of 200°C, the nanocrystals
+atomicresolutionHAADF-STEMtoobservethelatticedetails.As showed less dendritic morphology, which was attributed to a
+showninFig.3(FtoI),thedendriticnanocrystalscontainedmany higherdiffusionrateat200°C(fig.S11).
+stepatoms(Fig.3G),localdisorderedatoms(Fig.3H),andvacancy
+defects (Fig. 3I), revealing the abundance of low-coordination DropwisesynthesisofPd@HEAcore-shellnanocrystals
+defectsitesonthesurface.TheFFTpatternintheinsetofFig.3F Itisexpectedthattheincreasinggapsbetweenthetimetoreachthe
+shows atleasttwosetsof FCCdiffractionfeatures, suggestingthe steadystateforthePdandtheotherfourPt,Rh,Ir,andRuprecur-
+polycrystallinestructureofdendriticnanocrystals.Inaddition,the sors will result in the formation of Pd@PdPtRhIrRu core-shell
+FCCstructureofdendriticnanocrystalswasconfirmedbytheXRD nanocrystals. To prove the prediction, the dropwise synthesis in-
+pattern (Fig. 3J). The lowand high magnification EDS maps re- volvestheuseofKBrtomanipulatethereductionkineticsbyinflu-
+vealed the randomand homogeneous distributions ofPd,Pt, Rh, encing the redox potentials of metal precursor ions via ligand
+Ir,andRuelementsineachdendritenanocrystal,asFig.3(Kand exchange at 140°C. This synthetic protocol will allow us to
+L), respectively.Theatomic percentages of Pd,Pt, Ir,Rh, and Ru enlargethe rate constantratios of Pdto the other four Pt, Ir,Rh,
+were22.8,21.9,20.2,18.4,and16.7%,respectively,whichwascon- andRuprecursorsand,thus,enlargethegaptoobtainthe steady
+firmedbytheICP-OESanalysis,consistentwithourkineticanalysis state.Asshowninfig.S12(AtoE),weextendedthekineticmea-
+(fig.S8).Inaddition,asshowninFig.3(MandN),theXPSresults surementsforfivemetalprecursorsofPGMsinthepresenceofKBr
+suggestedthatthedendriticnanocrystalswereinthemetallicstate. at 140°C. The rate constants for the reduction of Pd(II), Pt(II),
+Furthermore, exsitu x-rayabsorption spectroscopy (XAS)was Rh(III), Ir(IV), and Ru(III) were derived as 9.57 × 10−3, 9.55 ×
+usedto acquiretheatomicinformationaboutthedendriticsolid- 10−4,4.03×10−4,1.50×10−4,and5.03×10−5s−1usingpseudo–
+solutionPdPtRhIrRunanocrystals,aswellastheelectronicinterac- first-orderratelaw,respectively(fig.S12,FtoJ,andtableS1).The
+tions among the five elements. The x-ray absorption near-edge ratiosofrateconstantsbetweenPd(II)/Pt(II),Pd(II)/Rh(III),Pd(II)/
+structure (XANES) results of the Pd, Pt, Rh, Ir, and Ru elements Ir(IV), and Pd(II)/Ru(III) were changed to 10.0, 23.7, 63.8, and
+in the representative dendritic solid-solution PdPtRhIrRu HEA 190.3, respectively, which were much larger than those (i.e., 2.0,
+nanocrystals, and their reference metallic foils and oxides were 12.3,28.5,and62.5,respectively)ofthekineticmeasurementsper-
+studied(Fig.4andfig.S9).Thesimilarityoftheabsorptionedges formedintheabsenceofKBrat180°C(fig.S1,FtoJ).Notethatitis
+ofall elementsin theHEA nanocrystalswiththeircorresponding insufficient to only decrease the reaction temperature to 140°C
+foilsconfirmsthattheelementswereinthemetallicstate,consistent withouttheintroductionofBr−ionsused toenlargetheratiosof
+with the above XPS analysis. In addition, the post-edges of the rate constants (figs. S13 and S14 and table S1), suggesting that
+mixedelementsintheHEAnanocrystalsexhibitedslightdeviations Br− ions have a substantial impact on the reduction kinetics of
+in the shape, intensity, and oscillation behavior when compared these five Cl−-containing precursor complexes owing to the
+with the foil references, suggesting the redistribution of electrons ligandexchangebetweenBr−andCl−(28,31).
+amongthefiveelementsanddistinctorbitalhybridizationsofthe Again,onthebasisofreductionrateconstantsdeterminedex-
+HEAnanocrystals(13,18,45).Thesefeaturesindicatedtheforma- perimentally(fig.S12,FtoJ),thenumberofeachmetalprecursor
+tion of a solid-solution PdPtRhIrRu HEA phase with the fine- in the dropwise synthesis can be calculated using Eq. 2 when the
+tuningelectronicstructure.Furthermore,thecoordinationenviron- dropwise synthesis with n = 1.045×10−4 mmol and τ = 273.5 s
+0
+mentsofthemixedelementsintheHEAnanocrystalswereinves- wasconducted inthepresenceofBr−ionsat140°Cfor24hours,
+tigatedusingtheextendedx-rayabsorptionfinestructure(EXAFS) as shown in Fig. 5A. The number of Pd(II) precursor ions
+spectra,asshowninFig.4F.TheEXAFSspectraofthemixedele- reached a steadystate after the first few drops. In contrast to the
+mentsshowedtheoverlappingofthecharacteristicpeaksowingto fast kinetics of Pd(II) precursor, the time to the achievement of
+theatomicinteractionsbetweentheconstituentelements.Inaddi- steadystateforPt(II),Rh(III),andIr(IV)precursorswasextended
+tion,theradialdistancesofthe4delements(i.e.,Pd,Rh,andRu)in to0.8,3.5,and6.7hours,respectively.Inaddition,Ru(III)precursor
+theHEAnanocrystalswereslightlyshorterthanthoseofthe5del- wasaccumulatedwiththeincreaseinreactiontime,and,eventually,
+ements (i.e., Pt and Ir)because of theirsmalleratomic radii.The the consumption of precursor from each drop reached approxi-
+radialdistancesofthe4dand5dmixedelementsalsoshoweddis- mately 98.7% of n at 24 hours, approaching the steady state.
+0
+tinctdifferencesincomparisontotheircorrespondingmetallicfoils These quantitative results suggest that the increase in gaps
+(fig.S9).Theradialdistancesofthe4delementsintheHEAnano- between the timesto reach the steadystatewas obtained. Again,
+crystalsbecamelongerthanthoseofthefoilcounterparts(fig.S9,A, boththeinstantaneouspercentagesoffiveelements (Fig.5B)and
+C,andE).Incontrast,theradialdistancesofthe5delementsinthe theinstantaneousentropyofmixing∆S (Fig.5C)asafunction
+mix
+HEAnanocrystalswereshortercomparedtotheirmetallicfoils(fig. ofreactiontimecanbeacquired.Onthebasisofthesecalculations,
+S9,BandD).TheatomicinformationrevealedbyexsituXASanal- thePdelementisexpectedtodominatetheelementalcomposition
+ysisindicatedtheformationofhigh-entropyatomicmixingrather ofthecoreformedintheearlystageofsynthesis,andthenallfive
+thanelementalsegregationintopuremetals,whichwoulddisplay elementswillresultintheformationofthePdPtRhIrRuHEAshell
+thesamelengthastheirmetallicfoils(13,18,45).Together,these inthelatersteady-statestage.
+results demonstrated the formation of solid-solutionPdPtRhIrRu
+Liuetal.,Sci.Adv.9,eadf9931(2023) 10May2023 7of17
+
+SCIENCE ADVANCES | RESEARCH ARTICLE
+Fig.4.Thecoordinationstructureandelectronicstructureofdendriticsolid-solutionPdPtRhIrRuHEAnanocrystalscharacterizedbyexsituXASanalysis.The
+correspondingmetallicfoilsandoxideswerealsocompared.(AtoE)XANESspectraforthe(A)PdK-edge,(B>)PtL-edge,(C)RhK-edge,(D)IrL-edge,and(E)RuK-edge.
+3 3
+(F)EXAFSspectraforallfiveelementsinthedendriticsolid-solutionPdPtRhIrRuHEAnanocrystals.abs,absorption.
+Figure5DshowsaTEMimageoftheresultantPd@PdPtRhIrRu STEM images of the corner (Fig. 5F) and side (Fig. 5, G and H)
+core-shellnanocrystalscontainingconcavetetrahedraandoctahe- of the concave tetrahedron were captured. The atomic-resolution
+dra, as well as irregularlyshaped nanocrystals. Figure 5E gives a HAADF-STEM image (Fig. 5F) taken from the corner of the
+HAADF-STEM image of a single Pd@PdPtRhIrRu concavecore- concave tetrahedron and the relevant FFT pattern viewed from
+shell tetrahedron, showing the intense contrast between the Pd the[110]directionshowedtheformationofanFCCstructure,con-
+core and PdPtRhIrRu shell. The atomic-resolution HAADF- sistentwiththeXRDanalysis(fig.S15).Theobserved(220)lattice
+Liuetal.,Sci.Adv.9,eadf9931(2023) 10May2023 8of17
+
+SCIENCE ADVANCES | RESEARCH ARTICLE
+Fig.5.DropwisesynthesisofPd@HEAcore-shellnanocrystals.(A)ThenumbersofPd(II),Pt(II),Rh(III),Ir(IV),andRu(III)ionsremaininginthereactionsolution,(B)the
+instantaneouspercentagesofPd,Pt,Rh,Ir,andRuatomsgenerated,and(C)theinstantaneousentropyofmixing∆S asafunctionofreactiontime.(D)TEMimageof
+mix
+Pd@PdPtRhIrRucore-shellnanocrystals.(E)HAADF-STEMimageofanindividualPd@PdPtRhIrRuconcavecore-shelltetrahedron.(F)Atomic-resolutionHAADF-STEM
+imagetakenfromthecornerregionmarkedbyredboxin(E).(GandH)Atomic-resolutionHAADF-STEMimagestakenfromtheinterior(focusonthecore)andexterior
+(focusontheshell)atthesideregionmarkedbyblueboxin(E).(I)HAADF-STEMimageofindividualPd@PdPtRhIrRuconcavecore-shelloctahedron.(J)Atomic-resolution
+HAADF-STEMimagetakenfromtheregionmarkedbyboxin(I).(KandL)EDSmapsofPd,Pt,Rh,Ir,andRuelementsofindividualPd@PdPtRhIrRu(K)concavecore-shell
+tetrahedronand(L)individualirregularlyshapednanocrystal.
+Liuetal.,Sci.Adv.9,eadf9931(2023) 10May2023 9of17
+
+SCIENCE ADVANCES | RESEARCH ARTICLE
+spacingwas0.14nm.Aperiodiclatticeisextendedacrossthejunc- potentialsofmetalprecursorionsatlowtemperatureandthusin-
+tionofPdcore(Fig.5G)andPdPtRhIrRushell(Fig.5H).Inaddi- creasinggapsbetweenthetimetoreachthesteadystateforthePd
+tion, the bright and dark contrasts in the PdPtRhIrRu shell were and the other four Pt, Ir, Rh, and Ru precursors, the products
+observedagainbecauseofthedifferentatomicweights.Theseob- becamePd@PdPtRhIrRucore-shellnanocrystals.
+servationsarealsosimilartotheHAADF-STEMimagescaptured
+from a single Pd@PdPtRhIrRu concave core-shell octahedron Electrocatalyticperformanceandmechanism
+(Fig.5,IandJ).TheEDSanalysisrevealedthatPdelementsareuni- The electrocatalytic performances of solid-solution PdPtRhIrRu
+formly distributed throughout the tetrahedron (Fig.5K), whereas nanocrystals without/with a dendritic morphology toward both
+Pt,Ir,Rh,andRuelementsareonlylocatedoutsidethetetrahedron. HERand HOR were investigated (Fig. 7 and figs. S16 to S22). In
+Asimilarresultwasalsoobtainedwhenwecharacterizedanindi- addition,thephase-separatedPdPtRhIrRunanocrystalsandcom-
+vidualirregularlyshapednanocrystal(Fig.5L).Theseresultssuggest mercial Pt/C were measured forcomparison. First, we evaluated
+that the resultant nanocrystals indeed had a Pd-rich corewith a theircatalyticactivitiesforHERintheacidic0.5MH SO electro-
+2 4
+solid-solutionPdPtRhIrRushell. lyte.Thelinearsweepvoltammogram(LSV)polarizationcurvesof
+Figure6schematicallyillustrateshowtomanipulatethereduc- thesefourcatalystsnormalizedbytheelectrodearea(0.07cm2)were
+tionkineticsandthusentropyofmixingtopreparethesolid-solu- showninFig.7A.Thedendriticsolid-solutionPdPtRhIrRunano-
+tion HEA nanocrystals with different spatial compositions and crystals exhibited the smallest overpotential of 30 mV (versus re-
+surfaceatomicstructures. Asthe controlexperiment, the one-pot versiblehydrogenelectrode,V )atacurrentdensityof10mA/
+RHE
+synthesis couldonly induce the formation ofthe phase-separated cm2amongthesecatalysts.Theirgeometriccurrentdensities,where
+PdPtRhIrRunanocrystalsduetothesequentialreductionreactions thecurrentisnormalizedbygeometricelectrodearea,werecalcu-
+of the different precursors. Compared to one-pot synthesis, the lated,asshowninFig.7B.Thetypicalsolid-solution PdPtRhIrRu
+dropwisesynthesisallowsustocontrolthenumberofatomsgener- HEAnanocrystalsandthedendriticPdPtRhIrRuHEAnanocrystals
+atedfromdifferenttypesofprecursorsatthesamevalueduringthe showedgeometriccurrentdensitiesof21.2and26.8mA/cm2ata
+steadystate,leadingtotheformationofPdPtRhIrRunanocrystals potential of −0.05 V , which were 3.78 and 4.79 times higher
+RHE
+with a typical solid-solution alloy phase. Along this line, by thanthatofthephase-separatedPdPtRhIrRunanocrystals,respec-
+furthershorteningthedurationoftimebetweenadjacentdropsto tively.This comparisonsuggested thatthe formationofthe high-
+increasetheatomdepositionrategreaterthanthesurfacediffusion entropysolid-solution mixing that could induce the fine-tuning
+rate,thedendriticsolid-solutionPdPtRhIrRunanocrystalswereob- electronic structure of HEA nanocrystals andthusthe synergistic
+tained as the product. Furthermore, by influencing the redox effect (Fig. 4 and fig. S9) isthe primary factor in enhancing the
+Fig.6.Schematicillustratinghowtomanipulatethedropwisesynthesisfortheformationofsolid-solutionHEAnanocrystalswithdifferentspatialcomposi-
+tionsandsurfaceatomicstructures.
+Liuetal.,Sci.Adv.9,eadf9931(2023) 10May2023 10of17
+
+SCIENCE ADVANCES | RESEARCH ARTICLE
+Fig.7.ElectrocatalyticactivityanddurabilityforHERandHOR.(AtoC)HERperformance.(A)LSVcurvesofsolid-solutionPdPtRhIrRu,dendriticsolid-solution
+PdPtRhIrRu,phase-separatedPdPtRhIrRunanocrystals,andcommercialPt/Cin0.5MHSO solution.(B)Comparisonofgeometriccurrentdensitiesatanoverpotential
+2 4
+of50mV.(C)ComparisonoftheinitialLSVcurvesforHERandtheLSVcurvesafter5000,10,000,and15,000cycles.(DtoF)HORperformance.(D)LSVcurvesofsolid-
+solutionPdPtRhIrRu,dendriticsolid-solutionPdPtRhIrRu,phase-separatedPdPtRhIrRunanocrystals,andcommercialPt/CinH-saturated0.1MKOHsolution.(E)Com-
+2
+parisonofgeometriccurrentdensitiesatanoverpotentialof100mV.(F)ComparisonoftheinitialLSVcurvesforHORandtheLSVcurvesafter750,1500,and3000cycles.
+Liuetal.,Sci.Adv.9,eadf9931(2023) 10May2023 11of17
+
+SCIENCE ADVANCES | RESEARCH ARTICLE
+catalyticactivitytowardHER,whileahighdensityoflow-coordina- couldbeattributedtotheincreaseofelectrondensityandthead-
+tion surface atoms on the HEA nanocrystals could additionally sorbedhydrogenionsontheRusitesduringHER(fig.S23)(13,18,
+promotethecatalyticactivity.Furthermore,thelong-termdurabil- 45,46).Bycontrast,theabsorptionedgesoftheotherfourelements
+ity tests were examined, as shown in Fig. 7C. Both PdPtRhIrRu havealmostno changewith the increase inthe applied potential.
+HEA-based nanocrystals offered remarkable durability, showing These observations suggested that Ru sites are the direct active
+negligibleactivitylossafter15,000cyclesofrepeatedcatalyticmea- sitesforHER,andtheotherelementscontributetomodifyingthe
+surements. They also exhibited good stability at aconstant high electronicstructureandincreasingtheentropyofPdPtRhIrRuHEA
+current density of 100 mA/cm2 (fig. S17). The morphologies of nanocrystals(Fig.4andfig.S9).Inaddition,theEXAFSspectraof
+theHEA-basednanocrystalsremainedunalteredafterthedurability allfiveelementsinthePdPtRhIrRuHEAnanocrystalswiththein-
+tests(fig.S18,AandB).Incontrast,thephase-separatedPdPtRhIr- creasedappliedpotentialrevealedanegligiblemismatch,indicating
+RunanocrystalsandcommercialPt/Clost49.2%and57.4%oftheir thatthePdPtRhIrRuHEAnanocrystalsmaintainedmetallicstates
+currentdensitiesat−0.05V after15,000cycles,respectively.The and exhibited extraordinary durability during HER (fig. S24)
+RHE
+outstandingdurabilitycouldbeattributedtothehigh-entropysta- (13,18).
+bilizationeffectintheHEA-basednanocrystals(2,3,7–9,13,39), Furthermore,toclarifytheeffectsofthelow-coordinationdefect
+alsooriginatingfromthemixingofmultipleelements(Figs.2C,3C, sites including step atoms (Fig. 3G), local disordered atoms
+and4andfig.S9). (Fig.3H),andvacancydefects(Fig.3I)ofthedendriticPdPtRhIrRu
+Second,westudiedthecatalyticactivitiesofthecatalystsforal- HEAnanocrystalsonHER(Fig.7,AtoC),wehaveusedthedensity
+kalineHOR,animportantprocessforthehydrogenfuelcell.The functional theory (DFT) to calculate hydrogen-adsorption free
+HORperformanceswereexaminedbyLSVpolarizationcurvesin energy (ΔG , which is widely used descriptor for the ability of
+H*
+N -and H -saturated 0.1 MKOH solution.As shown in fig. S19, HER) at the Ru active sites near these defect sites, as well asthe
+2 2
+averysmallanodiccurrentwasobservedintheN -saturatedelec- defect-freesites(Fig.8,figs.S25toS27,andtableS2)(47,48).On
+2
+trolyte. In contrast, the anodiccurrentover 0 V was obtained thebasisofthecalculatedΔG ofHERformorethan100possible
+RHE H*
+uponH saturationoftheelectrolyte,suggestingtheH oxidation, atomicconfigurationsofH-adsorbedPdPtRhIrRusurface,theRu
+2 2
+asshowninFig.7D.ComparedtothecommercialPt/Csample,the sites near the step sites have the smallest absolute ΔG among
+H*
+solid-solution PdPtRhIrRu nanocrystals without/with dendritic thefourtypesofrepresentativesites(Fig.8).Thesestatisticaldata
+morphology and phase-separated PdPtRhIrRu nanocrystals suggestthatthepresenceofthestepsitesaroundtheRuatomscould
+showed low HOR overpotentials within the full potential range. largelyweaken thehydrogen adsorptionon Ru and consequently
+Wealsotookthevaluesofgeometriccurrentdensitiesatapotential promotetheHERactivity.Giventhevariousconfigurationsofmul-
+of0.1V andplottedtheminFig.7E.Thevaluesofsolid-solution tielement high-entropy mixing, further studyalong this linewill
+RHE
+PdPtRhIrRunanocrystalswithoutandwithdendriticmorphology advanceourunderstandingofthesurface-dependentcatalyticactiv-
+andphase-separatedPdPtRhIrRunanocrystals(3.00,2.68,and2.63 ityofHEAnanocrystals.
+mA/cm2,respectively)weremuchlargerthanthatofthecommer- InthesecondsetofinsituXASexperimentsforHORintheH -
+2
+cialPt/C(1.34mA/cm2).Wethenevaluatedthelong-termdurabil- saturated0.1MKOHsolution(figs.S28andS29),wealsocollected
+ity tests for the HOR. As shown in Fig. 7F, the solid-solution theXANESspectraatPdK-edge,PtL -edge,RhK-edge,IrL -edge,
+3 3
+PdPtRhIrRunanocrystalswithoutandwithadendriticmorphology and Ru K-edge of the representative dendritic PdPtRhIrRu HEA
+stillretained85.0%(2.55mA/cm2)and 95.9%(2.57mA/cm2)geo- nanocrystalsundertheOCPanddifferentappliedpotentials(0.05
+metriccurrentdensitiesatapotentialof0.1V after3000cycles, and0.9V ).OurresultsindicatethatthePdsitesplayanimpor-
+RHE RHE
+respectively.Theirmorphologiesremainedintactwithnoobvious tantroleinHOR,asevidencedbythedramaticshiftinthemainPd
+particlegrowthandagglomeration(fig.S18,CandD).Incontrast, K-edgetowardlowerenergywhentheappliedpotentialwasgradu-
+thepolarizationcurvesofthephase-separatedPdPtRhIrRunano- ally changed from OCP, 0.05, to 0.9 V (fig. S28A). This shift
+RHE
+crystalsandPt/Csamplesshowedobviousdeterioration(Fig.7F). couldbeattributedtothepreadsorbedhydrogenatom(H )react-
+ad
+Furthermore, the HEA-based nanocrystals exhibited much better ing with the OH− in the aqueous solution and/or the adsorbed
+catalyticperformancesthantheirquaternarysolid-solutionnano- OH on the surface and, thus, the subsequent desorption of
+ad
+crystals (i.e., PtRhIrRu, PdRhIrRu, PdPtIrRu, PdPtRhRu, and water molecules from the HEA surface (49–51). In addition, the
+PdPtRhIrnanocrystals;figs.S20toS22)forHERandHOR.Togeth- veryslightincreaseinthewhitelineintensityofIrL -edgesuggests
+3
+er,itisevidentthattheHEA-basednanocrystalsnotonlyshowed thattheoxophilicnatureofthiselementleadstotheadsorptionof
+remarkable initial activities toward HER and HOR but retained OH ,whichcouldfurtherincreasetherateofHOR(fig.S28D).By
+ad
+theiractivitiestothelargestextentduringtheaccelerateddurability contrast,theabsorptionedgesoftheotherthreeelementsremained
+tests. nearly unchanged at different potentials (fig. S28, B, C, and E).
+WefurtherusedinsituXASmeasurementstorevealtheactual These observations suggest that the Pd atoms serve as the main
+activesitesandthesynergisticeffectamongfiveelementsofHEA activesitesforHOR.Again,theEXAFSspectraofallfiveelements
+nanocrystalsduringthecatalysis.InthefirstsetofinsituXASex- in the PdPtRhIrRu HEA nanocrystals showed avery minor mis-
+periments, we collected the XANES spectra at Pd K-edge, Pt L - match during in situ XAS experiments, indicating that the
+3
+edge,Rh K-edge, Ir L -edge, andRu K-edgeofthe representative PdPtRhIrRu HEA nanocrystals showed high durability for HOR
+3
+dendriticPdPtRhIrRuHEAnanocrystalsundertheopencircuitpo- (fig.S29)(13,18).Specifically,thecatalyticperformancesofHEA
+tential (OCP) and different applied potentials (0.05 and −0.05 to catalystswereenhancedthroughthedecorationoftheactivecom-
+−0.15V ) forHERin theacidic 0.5MH SO electrolyte(figs. ponents on the HEA surfaces in recent studies (52, 53). Further
+RHE 2 4
+S23andS24).WeobservedthattheabsorptionedgeofRumoved studyto promotetheinteraction or synergisticeffect between the
+tolowerenergywhentheappliedpotentialwasincreased.Theshift multielement HEA support with a unique high-entropy
+Liuetal.,Sci.Adv.9,eadf9931(2023) 10May2023 12of17
+
+SCIENCE ADVANCES | RESEARCH ARTICLE
+Fig.8.Calculatedhydrogen-adsorptionfreeenergy(ΔG )onHEAsurface.(A)Theviolinplotsofthecalculatedhydrogen-adsorptionfreeenergyforavarietyofH
+H*
+adsorptionconfigurationsonthefourdifferenttypesofrepresentativesitesforPdPtRhIrRuHEAsurfaces(smoothprimitive,smoothvacancy,smoothstep,anddisordered
+atoms).(B)TherepresentativestructuresofH-adsorbateindicatedin(A)areillustrated(topandtiltedsideview).
+Liuetal.,Sci.Adv.9,eadf9931(2023) 10May2023 13of17
+
+SCIENCE ADVANCES | RESEARCH ARTICLE
+coordination environment and the activecomponent may greatly in the supernatant. Last, the solid products were dissolved in an
+enhance the catalytic activity and thus high atomic efficiency aqua regia solution for 24 hours and further diluted with 1%
+(figs.S30andS31). (v/v)aqueousHNO solutionfortheICP-OESanalysis.
+3
+CalculationsoftheinstantaneouspercentagesofPd,Pt,Rh,
+DISCUSSION Ir,andRuatoms,theinstantaneousentropyofmixing,and
+Wehavequantitativelyanalyzedthereductionkineticsandentropy thepercentagesofPd,Pt,Rh,Ir,andRuelementsinthe
+ofmixingduringtheformationofsolid-solutionPdPtRhIrRuHEA productasafunctionofreactiontime
+nanocrystals with different spatial compositions and surface Thenumberofmetalprecursorions(n)remaininginthereaction
+t
+structures. On the basis of the quantitative data, we demonstrate solutionatreactiontimetcouldbederivedusingEq.2.ByusingEq.
+that the dropwise synthesis can manipulate a steadystate for the 2,weareabletoquantitativelyaccountforthenumbersofthemetal
+numberofeachmetalprecursoratthesameanddifferentperiods atomsgeneratedfromthereductionreactionsofmetalprecursors
+during the synthesis. Therefore, three distinctive types of HEA between each adjacent drop [n − (n − n )] as a function of
+0 t t−τ
+nanocrystalsincludingthetypicalsolid-solutionPdPtRhIrRunano- time, which could be further used to calculate the instantaneous
+crystals, dendritic solid-solution PdPtRhIrRu nanocrystals, and percentages of Pd, Pt,Rh, Ir, and Ru atoms duringthe synthesis.
+Pd@PdPtRhIrRu core-shell nanocrystals were obtained in acon- In addition, on the basis of these quantitative data, the instanta-
+trollable and predictable manner. Compared to the commercial neousentropyofmixingasafunctionoftimealsocouldbedeter-
+Pt/Candphase-separatedPdPtRhIrRunanocrystals,thedendritic minedusingEq.1.Furthermore,wecouldestimatethenumberof
+solid-solution PdPtRhIrRu nanocrystals showedgreatlyenhanced metalatomsgenerated[(n ×N)−(n)]foreachprecursorateach
+0 t t
+activityanddurabilitytowardHERandHOR.Giventhedifficulty timepointt,whereN representsthetotalnumberofdropletsadded
+t
+in decipheringtheincreasedcomplexitiesin themulticomponent uptotimet.Wecouldfurtheraddupthetotalmetalatomsgener-
+synthesis,thisworkwillshedlightonthesynthesisofHEAnano- ateduptotimetofthefiveelementsandcalculatetheirtotalper-
+crystalsandtheirderivativesforcatalysis.Themechanisticinsights centagesintheproductasafunctionofreactiontime.
+obtainedin thisworkcanbeextended toothersystemsinvolving
+HEA nanocrystals made of commonly used catalytically active One-potsynthesisofphase-separatedmultimetallic
+Au,Ag,Cu,Fe,Co,Ni,Mo,orWasmixedelements. nanocrystals
+SevenmillilitersofEGsolutioncontainingPVP(50mg)andAA(50
+mg) was added into a 250-ml long-neck round-bottom flask and
+MATERIALSANDMETHODS subsequentlypreheatedat180°Cinanoilbathundermagneticstir-
+Materials ringfor5min.Then,3mlofEGsolutionincludingNa PdCl (9.71
+2 4
+Sodiumtetrachloropalladate(II)(Na PdCl ),potassiumtetrachlor- mg), K PtCl (13.7 mg), RhCl ·xH O (8.69 mg), H IrCl ·xH O
+2 4 2 4 3 2 2 6 2
+oplatinate(II) (K PtCl ), rhodium(III) chloride hydrate (15.21mg),andRuCl ·xH O(8.63mg)atanequalmolaramount
+2 4 3 2
+(RhCl ·xH O), hydrogen hexachloroiridate(IV) chloride hydrate wasinjectedintothereactionsolutioninoneshotusingapipette.
+3 2
+(H IrCl ·xH O), ruthenium(III) chloride hydrate (RuCl ·xH O), Thevialwasthencappedandmaintainedat180°Cundermagnetic
+2 6 2 3 2
+AA, potassium bromide (KBr), and PVP (weight-average stirringfor10hours.Afterthereaction,thePdPtRhIrRuphase-sep-
+molecularweight≈55,000),aqueoushydrochloricacid(HCl;37% aratednanocrystalswerecollectedbycentrifugation, washed once
+by weight), aqueous nitric acid (HNO ; 70% by weight), and EG with acetone and three times with water, and lastly dispersed in
+3
+wereallobtainedfrom Sigma-Aldrich.Deionized(DI)waterwith waterforfurtheruse.
+aresistivityof18.2megohm·cmwasusedforalltheexperiments.
+Dropwisesynthesisofsolid-solutionHEAnanocrystals
+QuantitativeanalysisofthereductionkineticsofPd(II), Inatypicalsynthesis,7mlofEGsolutioncontainingPVP(50mg)
+Pt(II),Rh(III),Ir(IV),andRu(III)precursorsusingICP-OES andAA(50mg)wasaddedintoa250-mllong-neckround-bottom
+The reduction kinetics of the Pd(II), Pt(II), Rh(III), Ir(IV), and flaskandsubsequentlypreheatedat180°Cinanoilbathundermag-
+Ru(III) precursors were measured by analyzing the amounts of netic stirring for 5 min. Then, 3 ml of EG solution containing
+atoms in the reaction solutions at different time points through Na PdCl (9.71 mg), K PtCl (13.7 mg), RhCl ·xH O (8.69 mg),
+2 4 2 4 3 2
+the ICP-OES measurements (28). In a typical experiment, 7 ml H IrCl ·xH O(15.21mg),andRuCl ·xH O(8.63mg)atanequal
+2 6 2 3 2
+ofEGsolutioncontainingPVP(50mg),AA(50mg),andKBr(0or molaramountwasintroduceddropwiseintothereactionsolution
+75 mg) were added into a 20-mlvial andsubsequently preheated byasyringepumpataspecificrateof0.5ml/hour(τ=68.4s).After
+at a specific temperature (140° or 180°C) in an oil bath under thereaction,thePdPtRhIrRuHEAnanocrystalswerecollectedby
+magneticstirringfor5min.Then,3mlofEGsolutioncontaining centrifugation, washed once with acetone and three times with
+Na PdCl (9.71 mg), K PtCl (13.7 mg), RhCl ·xH O (8.69 mg), water, andlastly dispersed inwater for further use. Note thatthe
+2 4 2 4 3 2
+H IrCl ·xH O(15.21mg),andRuCl ·xH O(8.63mg)atanequal PdPtRhIrRuHEAnanocrystalswith different compositions(such
+2 6 2 3 2
+molar amount was injected into the reaction solution using a asthe Pd-rich and Pt-rich PdPtRhIrRu HEA nanocrystals) could
+pipette. Meanwhile, the timer started running. and 0.1 ml of also be controlled by adjusting the ratios of metal precursors
+aliquots were taken from the sample at the specific time points addedintothesynthesisunderthestandardprocedures.
+and immediately transferred to 0.9 ml of DI water held in an ice
+bath to quench the reduction of metal precursors. Afterward,
+aliquots werecentrifugedat30,000 rpmfor30 min toprecipitate
+out all the solid nanoparticles, leaving the remaining metal ions
+Liuetal.,Sci.Adv.9,eadf9931(2023) 10May2023 14of17
+
+SCIENCE ADVANCES | RESEARCH ARTICLE
+Dropwisesynthesisofdendriticsolid-solutionHEA then evenly mixed by ultrasonication at room temperature for 3
+nanocrystals hours.Then,thecarbon-supportednanocrystalswerecollectedby
+Inatypicalsynthesis,7mlofEGsolutioncontainingPVP(50mg) centrifugationandfurthertreatedin10mlofaceticacidat60°Cfor
+andAA(50mg)wasaddedintoa250-mllong-neckround-bottom 3hourstomaketheirsurfaceclean.Afterbeingwashedfourtimes
+flaskandsubsequentlypreheatedat180°Cinanoilbathundermag- with ethanol and four times with water, the samplewas dried at
+netic stirring for 5 min. Then, 3 ml of EG solution including 60°Cfor2hoursand 90°Cfor1hourinanoven.Fortheprepara-
+Na PdCl (9.71 mg), K PtCl (13.7 mg), RhCl ·xH O (8.69 mg), tionofthecatalystink,asolutioncontaining0.5mlofisopropanol,
+2 4 2 4 3 2
+H IrCl ·xH O(15.21mg),andRuCl ·xH O(8.63mg)atanequal 0.5mlofwater,and20μlof5%Nafionwasusedtouniformlydis-
+2 6 2 3 2
+molaramountwasintroduceddropwiseintothereactionsolution perse1mgofthedriedsample underultrasonicationfor15min.
+byasyringepumpataspecificrateof3ml/hour(τ=11.4s).After Then, 3.6 μl of the suspension was loaded onto a polished glassy
+the reaction, the dendritic PdPtRhIrRu HEA nanocrystals were carbon rotating disk electrode with a geometric surface area of
+collected by centrifugation, washed oncewith acetone and three 0.07 cm2 and subsequently dried underan isopropanol-saturated
+times with water, and lastly dispersed in water for further use. atmosphere at room temperature overnight. On the basis of the
+Notethatthequaternarysolid-solutionnanocrystalswithdifferent resultofICP-OES,theloadingamountofmetalswas20weight%.
+compositions (PtRhIrRu, PdRhIrRu, PdPtIrRu, PdPtRhRu, and We conducted the HER measurements in a three-electrode
+PdPtRhIr nanocrystals) were prepared using the similar standard system using a PGSTAT204 (Metrohm Autolab) electrochemical
+procedures described above except forchanging the combination workstation. N -saturated 0.5 MH SO (pH 0.2) was used asthe
+2 2 4
+oftheprecursors. electrolyte, and glassy carbon, Pt, and Ag/AgCl were used asthe
+workingelectrode, counterelectrode, andreference electrode, re-
+DropwisesynthesisofPd@HEAcore-shellnanocrystals spectively.In atypicalHER measurement, the electrodewassub-
+Inatypicalsynthesis,7mlofEGsolutioncontainingPVP(50mg), jected to 150 cycles of cyclic voltammetry (CV) with a high scan
+AA(50mg),andKBr(75mg)wasaddedintoa250-mllong-neck rate of 500 mV/s to obtain a stable surface. Then we applied
+round-bottomflaskandsubsequentlypreheatedat140°Cinanoil −0.02 V (versus RHE) for 2 minutesto eliminate surface oxides.
+bathundermagneticstirringfor5min.Then,3mlofEGsolution After the pretreatments, we recorded 5 cycles of CVs at a scan
+including Na PdCl (9.71 mg), K PtCl (13.7 mg), RhCl ·xH O rate of 50 mV/s andmade surethat theyoverlapped inthe range
+2 4 2 4 3 2
+(8.69 mg), H IrCl ·xH O(15.21 mg), andRuCl ·xH O(8.63 mg) of0.05–1.1V(versusRHE).Weconductedthelinearsweepvoltam-
+2 6 2 3 2
+atanequalmolaramountwasintroduceddropwiseintothereac- metry(LSV)from0.1to−0.25V(versusRHE)atascanrateof1
+tionsolutionbyasyringepumpataspecificrateof0.125ml/hour(τ mV/sandarotatingspeedof1600rpm/stoevaluatetheHERper-
+=273.5s).Afterthereaction,thePd@PdPtRhIrRucore-shellnano- formance. For the long-term stability test, we carried out 15,000
+crystalswerecollectedbycentrifugation,washedoncewithacetone cycles of CV in the same region as LSV for HER at 50 mV/s. All
+and three times with water, and lastly dispersed in water for electrochemical measurementswereconducted at room tempera-
+furtheruse. tureandrepeatedthreetimestoensurereproducibilitywithiRcom-
+pensation. The measured potentials versus Ag/AgCl were
+Seed-mediatedgrowthofhybridHEA-RuandHEA-Pd standardized with RHE on the basis of E versus RHE = E
+measured
+nanocrystals +0.059pH+0.199.
+In a standard seed-mediated growth for the synthesis of hybrid
+HEA-Ru nanocrystals, 1.0 ml of the suspension of the dendritic ElectrocatalyticmeasurementsforHOR
+solid-solution PdPtRhIrRu HEA nanocrystals in EG, 20 mg of Theprocedureforthepreparationofcatalystsamplesandthethree-
+AA,100mgofPVP,60mgofKBr,and2.5mlofEGwereadded electrode electrochemical system were the same asthose used for
+intoa20-mlvial.Undermagneticstirring,thereactionsolutionwas HERmeasurements.FortheHORmeasurements,anHg/HgOelec-
+heatedat110°Cfor20minandraisedto195°Cwithin20minunder trodewas served asthe reference electrode, and 0.1 M KOH was
+magnetic stirring. Then, 7 ml of RuCl ·3H O precursor solution used as the electrolyte. The electrolyte was first purged with N
+3 2 2
+(2.75×10−2and5.5×10−2mg/ml)inEGwastitratedintothereac- gasfor30minbeforetheelectrocatalyticmeasurement. Theelec-
+tionsolutionatarateof0.8ml/hourbyasyringepumpat195°C,to trodesurfacewascleanedby50cyclesofCVtestwiththepotential
+obtainthehybridHEA-RunanocrystalswiththeRuloadingsof5 rangefrom0.05to1.05V(versusRHE)atahighscanrateof500
+and10atomic%(at%),respectively.Thereactionwaskeptat195°C mV/s.Wethenperformedthecatalyticmeasurementinthe0.1M
+foranadditional1houraftertheprecursorsolutionwasintroduced. KOHsolutionpurgedwithN andH gases,respectively.TheCV
+2 2
+After the reaction, the hybrid HEA-Ru nanocrystals with Ru andLSVcurveswererecordedfrom−0.05Vto0.7V(versusRHE)
+exposedonthesurfaceofHEAnanocrystalswerecollectedbycen- underarotatingspeedof1600rpmandascanrateof10and5mV/s,
+trifugation,washedoncewithacetoneandthreetimeswithwater, respectively.Forthelong-termdurabilitytest,wecarriedout3000
+andlastlydispersedinwaterforfurtheruse.Theproceduresforthe cyclesofCVinthesameregionatascanrateof500mV/sintheH -
+2
+synthesisofhybridHEA-PdnanocrystalswiththePdloadingsof5 saturatedelectrolyte.ThemeasuredpotentialsversusHg/HgOwere
+and10at%aresimilartothestandardseed-mediatedgrowthde- standardizedwithanRHEonthebasisofEversusRHE=E
+measured
+scribedaboveexceptforchangingtheprecursortoNa PdCl . +0.059pH+0.118.
+2 4
+ElectrocatalyticmeasurementsforHER DFTcalculation
+Inastandardprocedureforthepreparationofcatalystsamples,1.5 All computations were performed using DFT with the Perdew-
+mgofthe nanocrystals and6mgof carbonsupport (VulcanXC- Burke-Ernzerhof functional (54, 55), as implemented in the
+72R) were dispersed in 3 and 12 ml of water, respectively, and Vienna Ab initio Simulation Package (56). The valence electron
+Liuetal.,Sci.Adv.9,eadf9931(2023) 10May2023 15of17
+
+SCIENCE ADVANCES | RESEARCH ARTICLE
+wavefunctionswereexpandedinplane-wavebasissetswitha400- 12. H.Li,Y.Han,H.Zhao,W.Qi,D.Zhang,Y.Yu,W.Cai,S.Li,J.Lai,B.Huang,L.Wang,Fastsite-
+eVcutoff,andtheprojectoraugmentedwavemethodwasusedto to-siteelectrontransferofhigh-entropyalloynanocatalystdrivingredoxelectrocatalysis.
+Nat.Commun. 11, 5437(2020).
+describethecore-electroninteractions(57).A6×6×1k-pointgrid
+13. G.Feng,F.Ning,J.Song,H.Shang,K.Zhang,Z.Ding,P.Gao,W.Chu,D.Xia, Sub-2nm
+wassampledusingtheMonkhorst-Packschemeforeachcomputa-
+ultrasmallhigh-entropyalloynanoparticlesforextremelysuperiorelectrocatalytichydro-
+tion.Allstructureswerefullyoptimizeduntiltheresidualforceson genevolution.J.Am.Chem.Soc. 143, 17117–17127(2021).
+the constituent atomsbecame lessthan 0.02 eV/Å, while keeping 14. K.Mori,N.Hashimoto,N.Kamiuchi,H.Yoshida,H.Kobayashi,H.Yamashita, Hydrogen
+thelatticeparameterfixed,whichwastakenfromtheexperiment. spillover-drivensynthesisofhigh-entropyalloynanoparticlesasarobustcatalystforCO2
+hydrogenation.Nat.Commun. 12, 3884(2021).
+Formoleculardynamicspart,weperformedNVTsimulationsusing
+15. C.Zhan,Y.Xu,L.Bu,H.Zhu,Y.Feng,T.Yang,Y.Zhang,Z.Yang,B.Huang,Q.Shao,X.Huang,
+Nose-HooverthermostatwithSMASS=1.0anda1.0-fsintegration
+Subnanometerhigh-entropyalloynanowiresenableremarkablehydrogenoxidationca-
+time step. For further computational details, please refer to the talysis.Nat.Commun. 12, 6261(2021).
+“Computationaldetails”sectionintheSupplementaryMaterials. 16. T.Li,Y.Yao,Z.Huang,P.Xie,Z.Liu,M.Yang,J.Gao,K.Zeng,A.Brozena,G.Pastel,M.Jiao,
+Q.Dong,J.Dai,S.Li,H.Zong,M.Chi,J.Luo,Y.Mo,G.Wang,C.Wang,R.Shahbazian-Yassar,
+Characterizations L.Hu,Denaryoxidenanoparticlesashighlystablecatalystsformethanecombustion.Nat.
+Catal. 4, 62–70(2021).
+We analyzed the element contents using an iCAP7200 ICP-OES
+17. L.Tao,M.Sun,Y.Zhou,M.Luo,F.Lv,M.Li,Q.Zhang,L.Gu,B.Huang,S.Guo, Ageneral
+(Thermo Fisher Scientific). We obtained TEM and HAADF-
+syntheticmethodforhigh-entropyalloysubnanometerribbons.J.Am.Chem.Soc. 144,
+STEMimagesandEDSmappingonasphericalaberration–correct- 10582–10590(2022).
+edfield-emissionTEM(JEOL,JEM-ARM200FTH)operatedat200 18. J.Hao,Z.Zhuang,K.Cao,G.Gao,C.Wang,F.Lai,S.Lu,P.Ma,W.Dong,T.Liu,M.Du,H.Zhu,
+kV.WestudiedthecrystalstructuresusingXRDonanx-raydiffrac- Unravelingtheelectronegativity-dominatedintermediateadsorptiononhigh-entropy
+alloyelectrocatalysts.Nat.Commun. 13, 2662(2022).
+tometer(Bruker,D8).Weanalyzedthesurfacechemistrythrough
+19. B.Wang,C.Wang,X.Yu,Y.Cao,L.Gao,C.Wu,Y.Yao,Z.Lin,Z.Zou, Generalsynthesisof
+XPS with a high-resolution x-ray photoelectron spectrometer
+high-entropyalloyandceramicnanoparticlesinnanoseconds.Nat.Synth. 1,
+(ULVAC-PHI, PHI Quantera II). The ex situ and in situ XAS 138–146(2022).
+spectrawere recorded at beamline TPS 44A of the National Syn- 20. C.-L.Yang,L.-N.Wang,P.Yin,J.Liu,M.-X.Chen,Q.-Q.Yan,Z.-S.Wang,S.-L.Xu,S.-Q.Chu,
+chrotronRadiationResearchCenter. C.Cui,H.Ju,J.Zhu,Y.Lin,J.Shui,H.-W.Liang, Sulfur-anchoringsynthesisofplatinum
+intermetallicnanoparticlecatalystsforfuelcells.Science 374, 459–464(2021).
+21. M.Cui,C.Yang,S.Hwang,M.Yang,S.Overa,Q.Dong,Y.Yao,A.H.Brozena,D.A.Cullen,
+M.Chi,T.F.Blum,D.Morris,Z.Finfrock,X.Wang,P.Zhang,V.G.Goncharov,X.Guo,J.Luo,
+SupplementaryMaterials
+Y.Mo,F.Jiao,L.Hu,Multi-principalelementalintermetallicnanoparticlessynthesizedviaa
+ThisPDFfileincludes: disorder-to-ordertransition.Sci.Adv. 8, eabm4322(2022).
+Figs.S1toS31 22. H.Minamihara,K.Kusada,D.Wu,T.Yamamoto,T.Toriyama,S.Matsumura,L.S.R.Kumara,
+TablesS1andS2 K.Ohara,O.Sakata,S.Kawaguchi,Y.Kubota,H.Kitagawa, Continuous-flowreactorsyn-
+thesisforhomogeneous1nm-sizedextremelysmallhigh-entropyalloynanoparticles.
+J.Am.Chem.Soc. 144, 11525–11529(2022).
+REFERENCESANDNOTES 23. D.Wu,K.Kusada,Y.Nanba,M.Koyama,T.Yamamoto,T.Toriyama,S.Matsumura,O.Seo,
+1. J.-W.Yeh,S.-K.Chen,S.-J.Lin,J.-Y.Gan,T.-S.Chin,T.-T.Shun,C.-H.Tsau,S.-Y.Chang, I.Gueye,J.Kim,L.S.R.Kumara,O.Sakata,S.Kawaguchi,Y.Kubota,H.Kitagawa, Noble-
+Nanostructuredhigh-entropyalloyswithmultipleprincipalelements:Novelalloydesign metalhigh-entropy-alloynanoparticles:Atomic-levelinsightintotheelectronicstructure.
+conceptsandoutcomes.Adv.Eng.Mater. 6, 299–303(2004). J.Am.Chem.Soc. 144, 3365–3369(2022).
+2. E.P.George,D.Raabe,R.O.Ritchie, High-entropyalloys.Nat.Rev.Mater. 4, 24. K.D.Gilroy,A.Ruditskiy,H.-C.Peng,D.Qin,Y.Xia, Bimetallicnanocrystals:Syntheses,
+515–534(2019). properties,andapplications.Chem.Rev. 116, 10414–10472(2016).
+3. Q.Ding,Y.Zhang,X.Chen,X.Fu,D.Chen,S.Chen,L.Gu,F.Wei,H.Bei,Y.Gao,M.Wen,J.Li, 25. P.-C.Chen,X.Liu,J.L.Hedrick,Z.Xie,S.Wang,Q.-Y.Lin,M.C.Hersam,V.P.Dravid,
+Z.Zhang,T.Zhu,R.O.Ritchie,Q.Yu,Tuningelementdistribution,structureandproperties C.A.Mirkin, Polyelementalnanoparticlelibraries.Science 352, 1565–1569(2016).
+bycompositioninhigh-entropyalloys.Nature 574, 223–227(2019). 26. P.-C.Chen,M.Liu,J.S.Du,B.Meches,S.Wang,H.Lin,V.P.Dravid,C.Wolverton,C.A.Mirkin,
+4. Z.Rao,P.-Y.Tung,R.Xie,Y.Wei,H.Zhang,A.Ferrari,T.P.C.Klaver,F.Kormann,P.T.Sukumar, Interfaceandheterostructuredesigninpolyelementalnanoparticles.Science 363,
+A.K.d.Silva,Y.Chen,Z.Li,D.Ponge,J.Neugebauer,O.Gutfleisch,S.Bauer,D.Raabe, 959–964(2019).
+Machinelearning-enabledhigh-entropyalloydiscovery.Science 378, 78–85(2022). 27. B.Shen,L.Huang,J.Shen,K.He,C.Y.Zheng,V.P.Dravid,C.Wolverton,C.A.Mirkin,Crystal
+5. J.Yan,S.Yin,M.Asta,R.O.Ritchie,J.Ding,Q.Yu, Anomaloussizeeffectonyieldstrength structureengineeringinmultimetallichigh-indexfacetnanocatalysts.Proc.Natl.Acad.Sci.
+enabledbycompositionalheterogeneityinhigh-entropyalloynanoparticles.Nat. U.S.A. 118, e2105722118(2021).
+Commun. 13, 2789(2022). 28. M.Zhou,H.Wang,M.Vara,Z.D.Hood,M.Luo,T.-H.Yang,S.Bao,M.Chi,P.Xiao,Y.Zhang,
+6. J.Ren,Y.Zhang,D.Zhao,Y.Chen,S.Guan,Y.Liu,L.Liu,S.Peng,F.Kong,J.D.Poplawsky, Y.Xia,Quantitativeanalysisofthereductionkineticsresponsiblefortheone-potsynthesis
+G.Gao,T.Voisin,K.An,Y.M.Wang,K.Y.Xie,T.Zhu,W.Chen, Strongyetductilenanola- ofPd-Ptbimetallicnanocrystalswithdifferentstructures.J.Am.Chem.Soc. 138,
+mellarhigh-entropyalloysbyadditivemanufacturing.Nature 608, 62–68(2022). 12263–12270(2016).
+7. Y.Sun,S.Dai, High-entropymaterialsforcatalysis:Anewfrontier.Sci.Adv. 7, 29. Q.Zhang,K.Kusada,D.Wu,T.Yamamoto,T.Toriyama,S.Matsumura,S.Kawaguchi,
+eabg1600(2021). Y.Kubota,H.Kitagawa, Crystalstructurecontrolofbinaryandternarysolid-solutionalloy
+nanoparticleswithaface-centeredcubicorhexagonalclose-packedphase.J.Am.Chem.
+8. Y.Yao,Q.Dong,A.Brozena,J.Luo,J.Miao,M.Chi,C.Wang,I.G.Kevrekidis,Z.J.Ren,
+Soc. 144, 4224–4232(2022).
+J.Greeley,G.Wang,A.Anapolsky,L.Hu, High-entropynanoparticles:Synthesis-structure-
+propertyrelationshipsanddata-drivendiscovery.Science 376, eabn3103(2022). 30. Y.Shi,Z.Lyu,M.Zhao,R.Chen,Q.N.Nguyen,Y.Xia, Noble-metalnanocrystalswithcon-
+trolledshapesforcatalyticandelectrocatalyticapplications.Chem.Rev. 121,
+9. Y.Yao,Z.Huang,P.Xie,S.D.Lacey,R.J.Jacob,H.Xie,F.Chen,A.Nie,T.Pu,M.Rehwoldt,
+649–735(2021).
+D.Yu,M.R.Zachariah,C.Wang,R.Shahbazian-Yassar,J.Li,L.Hu, Carbothermalshock
+synthesisofhigh-entropy-alloynanoparticles.Science 359, 1489–1494(2018). 31. T.-H.Yang,K.D.Gilroy,Y.Xia, Reductionrateasaquantitativeknobforachievingdeter-
+ministicsynthesisofcolloidalmetalnanocrystals.Chem.Sci. 8, 6730–6749(2017).
+10. P.Xie,Y.Yao,Z.Huang,Z.Liu,J.Zhang,T.Li,G.Wang,R.Shahbazian-Yassar,L.Hu,C.Wang,
+Highlyefficientdecompositionofammoniausinghigh-entropyalloycatalysts.Nat. 32. H.-C.Peng,J.Park,L.Zhang,Y.Xia, Towardaquantitativeunderstandingofsymmetry
+Commun. 10, 4011(2019). reductioninvolvedintheseed-mediatedgrowthofPdnanocrystals.J.Am.Chem.Soc.137,
+6643–6652(2015).
+11. D.Wu,K.Kusada,T.Yamamoto,T.Toriyama,S.Matsumura,S.Kawaguchi,Y.Kubota,
+H.Kitagawa, Platinum-group-metalhigh-entropy-alloynanoparticles.J.Am.Chem.Soc. 33. T.-H.Yang,H.-C.Peng,S.Zhou,C.-T.Lee,S.Bao,Y.-H.Lee,J.-M.Wu,Y.Xia, Towarda
+142, 13833–13838(2020). quantitativeunderstandingofthereductionpathwaysofasaltprecursorinthesynthesis
+ofmetalnanocrystals.NanoLett. 17, 334–340(2017).
+Liuetal.,Sci.Adv.9,eadf9931(2023) 10May2023 16of17
+
+SCIENCE ADVANCES | RESEARCH ARTICLE
+34. T.-H.Yang,S.Zhou,K.D.Gilroy,L.Figueroa-Cosme,Y.-H.Lee,J.-M.Wu,Y.Xia,Autocatalytic 50. L.Han,P.Ou,W.Liu,X.Wang,H.-T.Wang,R.Zhang,C.-W.Pao,X.Liu,W.-F.Pong,J.Song,
+surfacereductionanditsroleincontrollingseed-mediatedgrowthofcolloidalmetal Z.Zhuang,M.V.Mirkin,J.Luo,H.L.Xin,DesignofRu-Nidiatomicsitesforefficientalkaline
+nanocrystals.Proc.Natl.Acad.Sci.U.S.A. 114, 13619–13624(2017). hydrogenoxidation.Sci.Adv. 8, eabm3779(2022).
+35. Q.Zhang,K.Kusada,D.Wu,T.Yamamoto,T.Toriyama,S.Matsumura,S.Kawaguchi, 51. J.Hu,K.A.Kuttiyiel,K.Sasaki,C.Zhang,R.R.Adzic, Determinationofhydrogenoxidation
+Y.Kubota,H.Kitagawa, SelectivecontroloffccandhcpcrystalstructuresinAu-Rusolid- reactionmechanismbasedonPt−Hadenergeticsinalkalineelectrolyte.J.Electrochem.Soc.
+solutionalloynanoparticles.Nat.Commun. 9, 510(2018). 165, J3355–J3362(2018).
+36. F.Gao,Y.Zhang,Z.Wu,H.You,Y.Du, Universalstrategiestomulti-dimensionalnoble- 52. K.Zeng,J.Zhang,W.Gao,L.Wu,H.Liu,J.Gao,Z.Li,J.Zhou,T.Li,Z.Liang,B.Xu,Y.Yao,
+metal-basedcatalystsforelectrocatalysis.Coord.Chem.Rev. 436, 213825(2021). Surface-decoratedhigh-entropyalloycatalystswithsignificantlyboostedactivityand
+37. Y.Zhang,F.Gao,H.You,Z.Li,B.Zou,Y.Du, Recentadvancesinone-dimensionalnoble- stability.Adv.Funct.Mater. 32, 2204643(2022).
+metal-basedcatalystswithmultiplestructuresforefficientfuel-cellelectrocatalysis.Coord. 53. W.Shi,H.Liu,Z.Li,C.Li,J.Zhou,Y.Yuan,F.Jiang,K.Fu,Y.Yao,High-entropyalloystabilized
+Chem.Rev. 450, 214244(2022). andactivatedPtclustersforhighlyefficientelectrocatalysis.SusMat 2, 186–196(2022).
+38. Y.Zhang,F.Gao,D.Wang,Z.Li,X.Wang,C.Wang,K.Zhang,Y.Du, Amorphous/crystalline 54. J.P.Perdew,K.Burke,M.Ernzerhof, Generalizedgradientapproximationmadesimple.
+heterostructuretransition-metal-basedcatalystsforhigh-performancewatersplitting. Phys.Rev.Lett. 77, 3865–3868(1996).
+Coord.Chem.Rev. 475, 214916(2023). 55. J.P.Perdew,K.Burke,M.Ernzerhof, Generalizedgradientapproximationmadesimple.
+39. J.-W.Yeh, Alloydesignstrategiesandfuturetrendsinhigh-entropyalloys.JOM 65, Phys.Rev.Lett. 78, 1396(1997).
+1759–1771(2013). 56. G.Kresse,J.Furthmüller, Efficientiterativeschemesforabinitiototal-energycalculations
+40. J.F.Modulder,W.F.Stickle,P.E.Sobol,K.D.Bomben,HandbookofX-rayPhotoelectron usingaplane-wavebasisset.Phys.Rev.BCondensMatter. 54, 11169–11186(1996).
+Spectroscopy(Perkin-Elmer,1992). 57. G.Kresse,D.Joubert, Fromultrasoftpseudopotentialstotheprojectoraugmented-wave
+41. B.Lim,M.Jiang,P.H.C.Camargo,E.C.Cho,J.Tao,X.Lu,Y.Zhu,Y.Xia, Pd-Ptbimetallic method.Phys.Rev.B 59, 1758–1775(1999).
+nanodendriteswithhighactivityforoxygenreduction.Science 324, 1302–1305(2009).
+42. L.Bu,S.Guo,X.Zhang,X.Shen,D.Su,G.Lu,X.Zhu,J.Yao,J.Guo,X.Huang, Surfaceen- Acknowledgments:WethankNationalCenterforHigh-performanceComputing(NCHC)for
+gineeringofhierarchicalplatinum-cobaltnanowiresforefficientelectrocatalysis.Nat. providingcomputationalandstorageresources.Funding:Weacknowledgethefinancial
+Commun. 7, 11850(2016). supportbytheMinistryofScienceandTechnologyofTaiwanthroughthegrantsofMOST110-
+43. C.Li,Q.Yuan,B.Ni,T.He,S.Zhang,Y.Long,L.Gu,X.Wang,Dendriticdefect-richpalladium- 2636-E-007-024.Authorcontributions:T.-H.Y.conceivedandsupervisedtheresearch.T.-H.Y.,
+copper-cobaltnanoalloysasrobustmultifunctionalnon-platinumelectrocatalystsforfuel Y.-H.L.,andC.-J.H.performedmostoftheexperimentsanddataanalysis.Y.-C.H.,C.-W.C.,S.-C.L.,
+cells.Nat.Commun. 9, 3702(2018). andJ.-Q.G.preparedtheelectrodesandhelpedwithelectrochemicalmeasurements.C.-C.C.,J.-
+44. K.D.Gilroy,X.Yang,S.Xie,M.Zhao,D.Qin,Y.Xia, Shape-controlledsynthesisofcolloidal T.L.,Y.-M.C.,M.-Y.L.,andS.Z.conductedHAADF-STEMmicrographsandmappingimages.L.-
+metalnanocrystalsbyreplicatingthesurfaceatomicstructureontheseed.Adv.Mater.30, C.H.,C.-Y.W.,andC.-W.P.conductedthesynchrotronXASexperiments.K.-H.L.carriedoutthe
+1706312(2018). DFTcalculations.Themanuscriptwaswrittenthroughthediscussionbyallauthors.Allauthors
+haveapprovedthefinalversionofmanuscript.Competinginterests:Theauthorsdeclarethat
+45. D.Morris,Y.Yao,Y.Z.Finfrock,Z.Huang,R.Shahbazian-Yassar,L.Hu,P.Zhang, Compo-
+theyhavenocompetinginterests.Dataandmaterialsavailability:Alldataneededto
+sition-dependentstructureandpropertiesof5-and15-elementhigh-entropyalloy
+evaluatetheconclusionsinthepaperarepresentinthepaperand/ortheSupplementary
+nanoparticles.CellRep.Phys.Sci. 2, 100641(2021).
+Materials:kineticsanalysis,TEMandHAADF-STEMimages,EDSanalysis,XRDanalysis,
+46. H.Asakura,K.Teramura,T.Shishido,T.Tanaka,N.Yan,C.Xiao,S.Yao,Y.Kou, Insitutime-
+resolvedDXAFSstudyofRhnanoparticleformationmechanisminethyleneglycolatele-
+electrochemistry,XASanalysis,andDFTcomputations.Inaddition,thestructuresandΔGH*of
+variousslabsconsideredintheDFTcomputationsareavailableinthe“HER-with-PGMs”on
+vatedtemperature.Phys.Chem.Chem.Phys. 14, 2983–2990(2012).
+Zenodorepository:https://doi.org/10.5281/zenodo.7706027.
+47. J.K.Nørskov,T.Bligaard,A.Logadottir,J.R.Kitchin,J.G.Chen,S.Pandelov,U.Stimming,
+Trendsintheexchangecurrentforhydrogenevolution.J.Electrochem.Soc. 152,
+Submitted25November2022
+J23(2005).
+Accepted5April2023
+48. J.Greeley,T.Jaramillo,J.Bonde,I.Chorkendorff,J.K.Nørskov, Computationalhigh- Published10May2023
+throughputscreeningofelectrocatalyticmaterialsforhydrogenevolution.Nat.Mater. 5,
+10.1126/sciadv.adf9931
+909–913(2006).
+49. D.Strmcnik,M.Uchimura,C.Wang,R.Subbaraman,N.Danilovic,D.v.d.Vliet,A.P.Paulikas,
+V.R.Stamenkovic,N.M.Markovic, Improvingthehydrogenoxidationreactionrateby
+promotionofhydroxyladsorption.Nat.Chem. 5, 300–306(2013).
+Liuetal.,Sci.Adv.9,eadf9931(2023) 10May2023 17of17
+

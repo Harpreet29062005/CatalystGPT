@@ -1,0 +1,544 @@
+Small
+www.small-journal.com
+RESEARCHARTICLE
+Microwave-Driven Confinement Engineering of
+PtRuFeCoNi High-Entropy Alloy Nanoparticles Within
+Hierarchically Porous Carbon Nanofibers for
+High-Performance Trifunctional Electrocatalysis
+HaoyueZhao XinyuLi FangqinSu LiNiu ZheSun JianFang
+CollegeofTextileandClothingEngineering,SoochowUniversity,Suzhou,P.R.China
+Correspondence:JianFang(jian.fang@suda.edu.cn)
+Received:27February2026 Revised:10May2026 Accepted:30May2026
+Keywords:high-entropyalloy|microwaveheating|multifunctionalelectrocatalysts|porouscarbonnanofibers|spatialconfinement
+ABSTRACT
+Small-sized high-entropy alloy nanoparticles (HEA NPs) have recently emerged as promising candidates for applications in
+energyandcatalysis,owingtotheirtunablecomposition,multi-elementsynergisticeffects,andexceptionalstructuralstability.
+Nevertheless,achievingcontrolledsynthesisofuniformlysmallHEANPsremainschallenging,asthehightemperaturesrequired
+for solid-solution formation inevitably induce particle sintering. Herein, a spatial confinement strategy combined with rapid
+microwaveheatingisdevelopedtosynthesizeultrasmallPtRuFeCoNiHEANPs(sub-5nm)embeddedinhierarchicallyporous
+carbonnanofibers(PtRuFeCoNi-PCNFs).Thespatialconfinementeffect,attributedtothemicro-,meso-,andmacroporesofthe
+PCNFs,iscrucialforthehighdispersionofHEANPs,whilealsoenhancingtheexposureofactivesitesandacceleratingmass
+transportduringelectrochemicalprocesses.PtRuFeCoNi-PCNFsexhibitsuperiortrifunctionalelectrocatalyticactivityforoxygen
+reductionreaction(ORR),oxygenevolutionreaction(OER),andhydrogenevolutionreaction(HER),withanORRhalf-wave
+potentialof0.837V,andlowoverpotentialsof270and13mVat10mAcm−2forOERandHER,respectively.WhenappliedinZn-
+airbatteriesandwatersplittingelectrolyzers,PtRuFeCoNi-PCNFsachievehighefficiencyandoutstandingdurability.Thisstudy
+providesanovelperspectiveondesigningandsynthesizinghigh-performanceHEANPsforenergyandcatalyticapplications.
+1 Introduction performance in ORR and HER, and Ru- and Ir-based oxides
+are widely regarded as state-of-the-art OER catalysts, issues
+Metal-air batteries and water splitting, as promising electro- such as high cost, scarcity, and limited stability restrict their
+catalytic energy conversion systems, offer a viable route to large-scale applications [4, 5]. Multifunctional electrocatalysts
+environmental sustainability and energy scarcity [1]. Electro- capableofsimultaneouslyenhancingOER,ORR,andHERhave
+chemical reactions like the oxygen reduction reaction (ORR), attracted increasing attention due to their potential to enhance
+oxygenevolutionreaction(OER),andhydrogenevolutionreac- efficiency and simplify device integration. High-entropy alloys
+tion (HER) determine the efficiency and performance of these (HEAs), defined as solid-solution materials composed of five
+devices. However, their practical deployment remains severely ormoremetallicelements,haverecentlyemergedasapromis-
+limited by slow reaction kinetics and large energy barriers [2, ing class of catalysts for energy-related applications [6–8]. The
+3]. While Pt-based materials are known for their outstanding unique characteristics of HEAs, including high configuration
+©2026Wiley-VCHGmbH
+Small,2026;22:e74128 1of11
+https://doi.org/10.1002/smll.74128
+
+entropy, sluggish diffusion, lattice distortion, and the cocktail nanoscalehigh-entropysolid-solutionstructure.Asaresult,the
+effect,endowthemwithsuperiorcatalyticactivityandstability. as-preparedPtRuFeCoNi-PCNFsshowremarkabletrifunctional
+Therefore, alloying highly active metals like Pt, Ru, and Ir electrocatalytic performance together with excellent durability
+with transition metals (e.g., Fe, Co, and Ni) in HEA systems towardORR,OER,andHER.Specifically,anarrowpotentialgap
+can effectively reduce noble metal loading, optimize electronic (∆E)of0.663VbetweenORRandOER,alongwithasmallHER
+structures,andenhanceelectrochemicalperformance,rendering overpotential of 13 mV at a current density of 10 mA⋅cm−2, is
+HEAsidealcandidatesformultifunctionalelectrocatalysts[9,10]. achieved.Whenappliedastheaircathode,PtRuFeCoNi-PCNFs
+contributetohigh-performanceaqueousZn-airbatteries(ZABs),
+Notably,thenanoscalesizeofHEAsiscrucialfortheircatalytic achieving a maximum power density of 212 mW cm−2, a high
+performance [11, 12]. To fully exploit the potential of HEAs, specificcapacityof796mAh⋅g−1,andexcellentcyclingdurability
+reducing their size to the ultrasmall range (<5 nm) is advan- over600h/3000cycles.Moreover,thealkalinewaterelectrolyzer
+tageous, as it maximizes metal atom utilization and generates assembled with PtRuFeCoNi-PCNFs requires only 1.56 V to
+abundant highly active catalytic sites [13]. In this regard, Cai achieveacurrentdensityof10mAcm−2,whilemaintainingstable
+andco-workersdemonstratedthatreducingthesizeofHEANPs operationevenatelevatedcurrentdensities.Thisstudyhighlights
+modulates the binding energies of key intermediates at active thefeasibilityofhigh-performanceHEANPsasmultifunctional
+sites,therebyimprovingelectrocatalyticperformancecompared electrocatalystsforcatalysisandenergyapplications.
+totheirlargercounterparts[14,15].However,achievingeffective
+sizecontrolinthesynthesisofHEAsremainschallenging,with
+mostreportedHEANPsexhibitingsizeslargerthan10nm.This 2 ResultsandDiscussion
+difficultyprimarilystemsfromtherequirementforhighsynthesis
+temperatures to form a single-phase solid solution in HEAs, 2.1 StructuralCharacterizationofCatalysts
+as elevated temperatures enhance the entropic contribution
+(T∆S ,Tistemperatureand∆S ismixingentropy),which Figure 1a schematically depicts the synthesis of PtRuFeCoNi-
+mix mix
+counteractsthemixingenthalpy(∆H )andleadstoanegative PCNFs.Briefly,PCNFswerepreparedbymicrowavepyrolysisof
+mix
+Gibbs free energy of mixing (G ), according to the formula electrospun polyacrylonitrile-Pluronic F127-carbon black (PAN-
+mix
+ΔG = ΔH -TΔS [16–18].Specifically,hightemperature F127-CB) nanofibers in an N atmosphere. In this process,
+mix mix mix 2
+inevitably accelerates atomic diffusion and particle sintering, CB enhances microwave absorption, porosity, and electrical
+while traditional heating methods further exacerbate this issue conductivity, while F127 serves as a sacrificial agent for pore
+duetoslowheating/coolingratesandprolongedthermalanneal- formationandisdecomposedduringpyrolysis.Simultaneously,
+ing, rendering the process highly time- and energy-intensive PCNFsformationoccursasPANiscarbonizedintoaconductive
+and causing severe alloy aggregation into larger particles [19, carbonaceousmatrix[24].Scanningelectronmicroscopy(SEM)
+20]. To address this intrinsic thermodynamic-kinetic dilemma, imagesrevealthattheas-preparedPCNFshavearoughsurface
+employing suitable porous carbon materials as supports for morphologyandanobviousporousnanofibrousstructure,with
+confining HEA NPs has proven to be an effective strategy in an average diameter of approximately 550 nm (Figure S1). Due
+controllingparticlesize[21,22].Theporousstructureandhigh to the abundance of micropores and defects in PCNFs, metal
+specific surface area of these supports facilitate the uniform ionscanbeeasilyabsorbedontoPCNFsthroughawetimpreg-
+dispersion and enhanced stabilization of HEA NPs, effectively nation method [25]. Finally, ultrasmall PtRuFeCoNi HEA NPs
+suppressing aggregation and promoting a homogeneous size are spatially confined on PCNFs through a 1 min microwave
+distribution[18].Moreover,theabundantporestructureimproves heating process at 900◦C (Figure S2). The rapid heating and
+active site accessibility and accelerates mass transport, further cooling process of microwave heating not only facilitates the
+enhancingcatalyticperformanceviametal-supportinteractions. rapid nucleation of NPs but also restricts their further growth
+However, commonly used carbon supports, including carbon [26]. Meanwhile, the porous structure of PCNFs facilitates the
+black,carbonnanotubes,andgraphene,usuallyfeaturelowspe- excellent dispersion of HEA NPs, strengthens the interaction
+cificsurfaceareas,limitedporestructures,andinsufficientspatial betweentheHEAsandthematrix,andoffersabundantanchoring
+confinement, rendering them less effective in anchoring and sitesthatspatiallyconfinethemigrationanddiffusionofmetal
+stabilizingNPs [23].Therefore,itishighlydesirabletodevelop atoms,therebyeffectivelypreventingtheagglomerationofHEA
+novelcarbonsubstrateswithhierarchicallyporousstructures,in NPs[27].
+combinationwithrapidandenergy-efficientheatingstrategies,to
+enablethesynthesisofultrasmallHEANPsforhigh-performance Transmissionelectronmicroscopy(TEM)andhigh-angleannular
+multifunctionalelectrocatalysis. dark-fieldscanningtransmissionelectronmicroscopy(HAADF-
+STEM)wereemployedtofurthercharacterizethemicrostructure
+Herein, we propose a spatial confinement strategy combined of PtRuFeCoNi-PCNFs. As shown in Figure 1b–d, PtRuFeCoNi
+withrapidmicrowaveheatingtosynthesizeultrasmallPtRuFe- HEANPsareuniformlydispersedonthePCNFswithanaverage
+CoNiHEANPs(sub-5nm)withinhierarchicallyporouscarbon size of approximately 3.5 nm according to the particle size
+nanofibers (PtRuFeCoNi-PCNFs), effectively overcoming the statistics. Compared with their larger counterparts, ultrasmall
+thermodynamic-kinetic challenges inherent in small-size HEA HEANPsexhibitseveralintrinsicadvantages.(1)thereduction
+synthesis.Theporouscarbonframeworkwithadistinctivehier- in particle size improves the active sites exposure, thereby
+archical micro/meso/macroporous structure provides effective significantly enhancing metal atom utilization efficiency, par-
+spatialconfinementforhighlydispersedHEANPsandenables ticularly for precious metals [28] (2) the ultrasmall dimensions
+fastmasstransport,whilerapidheatingandcoolingkinetically enable surface atoms with unsaturated coordination, generat-
+suppressatomicdiffusionandaggregation,therebypreservingthe ing highly efficient active sites [29] (3) nanoscale confinement
+2of11 Small,2026
+
+FIGURE 1 (a) Schematic illustration of the synthetic process of PtRuFeCoNi-PCNFs; (b) TEM image, (c) HAADF-STEM image, and (d)
+correspondingparticlesizedistributionofPtRuFeCoNi-PCNFs;(e)HR-TEMimage(inset:FFTpatternoftheselectedregion)and(f)thecorresponding
+IFFTimage,(g)SAEDpattern,(h)HAADF-STEMimagewithcorrespondingelementalmappingforPtRuFeCoNi-PCNFs.
+brings multiple components into intimate contact, giving rise Fouriertransform(FFT)patternofarepresentativePtRuFeCoNi
+tostrengthenedsynergisticeffectsamongtheHEAcomponents NPreveallatticespacingsof0.215and0.187nm,whichcorrespond
+[30].Thesefeaturessynergisticallycontributetotheoutstanding to the (111) and (200) planes, respectively (Figure 1e) [31].
+electrochemicalperformanceofultrasmallHEANPs.Thehigh- ComparedwithpurePt(0.226nm),PtRuFeCoNiHEANPsexhibit
+resolution TEM (HR-TEM) image and the corresponding fast adistinctlatticecontraction,whichiscausedbythealloyingofPt
+Small,2026 3of11
+
+atomswithtransitionmetalelementspossessingsmalleratomic consequently promotes electrocatalytic activity [45]. As shown
+radii [18]. Figure 1f displays the inverse fast Fourier transform inFigure2b,nitrogenadsorption-desorptionmeasurementsindi-
+(IFFT) image corresponding to the (200) planes. As clearly cate that both PCNFs and PtRuFeCoNi-PCNFs display typical
+observed,theatomicradiusmismatchamongthefiveconstituent typeIVisothermswithdistincthysteresisloops.Atlowrelative
+elementsinducespronouncedlatticedefectsintheHEANPs[32]. pressure (P/P < 0.05), sharp adsorption is observed, followed
+0
+These defects are manifested as abundant stacking faults and by gradual adsorption at increased relative pressure (P/P >
+0
+lattice distortions, as highlighted by the yellow markers. Such 0.4), indicating the coexistence of micropores and mesopores
+lattice distortions are known to modulate the local electronic [46, 47]. Moreover, no plateau is observed in the isotherms of
+structure and lower the activation energy of electrochemical PCNFs and PtRuFeCoNi-PCNFs near P/P = 1, suggesting the
+0
+reactions, thereby enhancing electrocatalytic activity [33, 34]. presence of macropores [48]. The hierarchical pore structure is
+Figure1gpresentstheselectedareaelectrondiffraction(SAED) further confirmed by the pore size distributions in Figure 2c.
+pattern,whichdepictscleardiffractionringscorrespondingtothe The Brunauer–Emmett–Teller (BET) specific surface areas of
+(111),(200),(220),and(311)planes,confirmingtheface-centered- PCNFs and PtRuFeCoNi-PCNFs are calculated to be 761.1 and
+cubic (fcc) structure of PtRuFeCoNi-PCNFs [35]. Furthermore, 504.1m2g−1,respectively.Notably,thedecreasedBETsurfacearea
+the HAADF-STEM image together with the corresponding ele- and micro/mesopore volume of PtRuFeCoNi-PCNFs compared
+mental mapping results shown in Figure 1h, demonstrates the withthoseofPCNFsarelikelyattributedtopartialporeblockage
+homogeneousspatialdispersionofPt,Ru,Fe,Co,andNithrough- by the supported HEA NPs (Table S2). Specifically, the hier-
+outtheNPs,withoutanydetectablephaseseparation.Inductively archical micro-/meso-/macroporous carbon nanofiber support
+coupled plasma optical emission spectroscopy (ICP-OES) anal- plays a crucial role in enhancing electrocatalytic performance.
+ysis reveals atomic percentages of 23.63% Pt, 17.93% Ru, 20.95% Microporesincreasethespecificsurfaceareaandprovideabun-
+Fe,18.40%Co,and18.60%Ni(TableS1).Basedonthesevalues, dantanchoringsitesforultrasmallHEANPs,therebyimproving
+thecalculatedconfigurationalmixingentropy(ΔS)reaches1.61R, active-site exposure. Mesopores facilitate electrolyte infiltration
+exceedingthethresholdof1.5R,therebyconfirmingtheintrinsic andion/intermediatediffusion,whilemacroporesserveasopen
+characteristicsofastablesingle-phaseHEA[36].Asreferences, channels for rapid reactant transport and gas diffusion/release.
+PtFeCoNi-PCNFsandFeCoNi-PCNFsweresuccessfullyprepared Together with the conductive carbon nanofiber network, this
+(FiguresS3andS4).Notably,theincorporationofPt/Rupromotes hierarchicalporousarchitecturepromoteselectrontransfer,mass
+the formation of abundant nuclei while suppressing particle transport,andactive-siteutilization[46,49].
+growth and aggregation through enhanced multi-component
+interactions,latticedistortion,andstrongeranchoringwithinthe X-rayphotoelectronspectroscopy(XPS)wasusedtoinvestigate
+porous carbon nanofiber matrix, thereby leading to a reduced the elemental composition and chemical states of the samples.
+alloysize(FigureS5)[37–39]. ThesurveyspectrumofPtRuFeCoNi-PCNFsconfirmsthecoex-
+istence of Pt, Ru, Fe, Co, and Ni (Figure S7). As shown in the
+The crystalline structures of PtRuFeCoNi-PCNFs, PtFeCoNi- high-resolution Pt 4f spectrum (Figure 2d), the characteristic
+PCNFs,andFeCoNi-PCNFswereinvestigatedbyx-raydiffraction peaksat71.34and74.64eVareattributedtometallicPt0,while
+(XRD). As illustrated in Figure 2a, the diffraction peak at additionalcomponentsat72.81and75.89eVcorrespondtoPt2+
+24.8◦ for PtRuFeCoNi-PCNFs is assigned to the (002) plane of species[50].DuetotheoverlapbetweenRu3dandC1ssignals,
+graphiticcarbon,whilethepeakslocatedatapproximately42◦, a combined fitting strategy was adopted (Figure 2e), revealing
+49◦, and 71◦ correspond to the (111), (200), and (220) planes the presence of both Ru0 (280.56 and 284.61 eV) and Ru4+
+of the FCC phase [40]. In comparison with pure Pt (JCPDS species (282.93 and 286.14 eV) [51]. The nitrogen-doped carbon
+No.04–0802),thesediffractionpeaksexhibitanoverallpositive framework is verified by the appearance of C─N in the C 1s
+shifttowardhigherangles,suggestingcompressivelatticestrain spectrum and pyridinic, pyrrolic, graphitic, and oxidized N in
+due to the incorporation of smaller atoms like Ru, Fe, Co, and the N 1s spectrum (Figure S8), which are known to strengthen
+Ni [41, 42]. Notably, the diffraction peaks are relatively broad, metal-support interactions and enhance catalyst stability and
+suggestinganultrasmallsizeoftheNPsinPtRuFeCoNi-PCNFs activity [52, 53]. Further insights into the Ru chemical states
+[43].Inaddition,PtRuFeCoNi-PCNFsexhibitcharacteristicpeaks areprovidedbythehigh-resolutionRu3pspectrum(Figure2f),
+similar to those of PtFeCoNi-PCNFs, but with a slight shift which evidences the coexistence of metallic Ru0 and oxidized
+toward lower angles upon Ru incorporation, attributed to Ru- Ru4+ species [14]. The Fe 2p spectrum of PtRuFeCoNi-PCNFs
+incorporation-induced lattice expansion and lattice distortion (Figure 2g) reveals a mixed-valence nature, with contributions
+within the HEA structure. In contrast, the XRD pattern of fromFe0,Fe2+,andFe3+,assupportedbythecorrespondingmain
+FeCoNi-PCNFs closely matches that of FeNi alloy (JCPDS No. andsatellitepeaks[54].Similarly,theCo2pspectrum(Figure2h)
+47–1405). Overall, the XRD findings are consistent with the indicates the presence of Co0, Co2+, Co3+ species, along with
+TEM results, further confirming the formation of single-phase their corresponding satellite peaks, while the Ni 2p spectrum
+HEA NPs. Raman spectra of PtRuFeCoNi-PCNFs, PtFeCoNi- (Figure2i)confirmsthecoexistenceofmetallicNi0andoxidized
+PCNFs,andFeCoNi-PCNFsarepresentedinFigureS6.Thepeaks Ni2+states.Collectively,theseresultsdemonstrateamultivalent
+locatedatapproximately1338and1592cm−1 areassignedtothe electronicenvironmentwithintheHEANPs,whichisbeneficial
+D band, corresponding to defective carbon, and the G band, formodulatingsurfaceelectronicstructuresandenhancingelec-
+associated with graphitic carbon, respectively [44]. The I /I trocatalyticactivity.Thepresenceofoxidizedmetalspeciescan
+D G
+values for PtRuFeCoNi-PCNFs, PtFeCoNi-PCNFs, and FeCoNi- beprimarilyascribedtosurfaceoxidationofPtRuFeCoNi-PCNFs
+PCNFsarecalculatedtobe1.03,1.05,and1.08,respectively.These upon exposure to air [40]. Notably, compared with FeCoNi-
+resultsindicatethatPtRuFeCoNi-PCNFspossessahigherdegree PCNFs, the Fe0, Co0, and Ni0 peaks in PtRuFeCoNi-PCNFs
+of graphitization, which enhances electrical conductivity and shifttohigherbindingenergies,implyingelectronredistribution
+4of11 Small,2026
+
+FIGURE 2 (a)XRDpatternsofFeCoNi-PCNFs,PtFeCoNi-PCNFs,andPtRuFeCoNi-PCNFs;(b)Nitrogenadsorption-desorptionisothermsand
+(c)thecorrespondingporesizedistributionsofPCNFsandPtRuFeCoNi-PCNFs;XPShigh-resolutionspectraof(d)Pt4f,(e)Ru3d+C1s,(f)Ru3pfor
+PtRuFeCoNi-PCNFs;XPShigh-resolutionspectraof(g)Fe2p,(h)Co2p,and(i)Ni2pforPtRuFeCoNi-PCNFsandFeCoNi-PCNFs.
+induced by the incorporation of Pt and Ru at the Fe, Co, and (LSV) results presented in Figure 3a reveal that PtRuFeCoNi-
+Nisites.Thiselectronicredistributionoriginatesfromthehigher PCNFsandPtFeCoNi-PCNFsdeliveroutstandingORRactivity,
+electronegativity of Pt (2.28) and Ru (2.20) relative to Ni (1.91), withhalf-wavepotential(E )of0.837and0.841V,respectively.
+1/2
+Co(1.88),andFe(1.83),whichdriveselectrontransferfromthe These values are competitive with those of the benchmark
+lattermetalstowardPtandRu,ingoodagreementwiththeXPS Pt/C (0.85 V) and are markedly superior to those of FeCoNi-
+observations[55].Asaresult,theelectronicstructureoftheHEA PCNFs (0.818 V). Notably, PtRuFeCoNi-PCNFs and PtFeCoNi-
+NPs is effectively modulated, leading to optimized adsorption PCNFs exhibit much smaller Tafel slopes of 74.6 and 76.2 mV
+behaviorofkeyreactionintermediatesduringelectrocatalysisand dec−1, respectively, compared with Pt/C (96.0 mV dec−1) and
+therebyenhancedoverallelectrocatalyticperformance[56]. FeCoNi-PCNFs(82.5mVdec−1),indicatingmorefavorableORR
+kinetics (Figure 3b). In addition, the kinetic current densities
+(J ) of PtRuFeCoNi-PCNFs and PtFeCoNi-PCNFs reach 24.95
+k
+2.2 ORR/OER/HERTrifunctional and 34.44 mA cm−2 at 0.80 V, respectively, which are higher
+ElectrocatalyticPerformance thanthoseobtainedforPt/C(24.0mAcm−2)andFeCoNi-PCNFs
+(9.26 mA cm−2) (Figure S10). The electron transfer number (n)
+TheORRperformanceofPtRuFeCoNi-PCNFswasfirstevaluated andH O yieldweredeterminedbyrotatingring-diskelectrode
+2 2
+in0.1mKOHelectrolyteusingastandardthree-electrodeconfig- (RRDE) measurements. In the potential window of 0.2–0.8 V,
+uration.AsillustratedinFigureS9,thecyclicvoltammetry(CV) PtRuFeCoNi-PCNFs show an H O yield below 20%, with a n
+2 2
+profilesofallsamplesshowpronouncedoxygenreductionpeaks value ranging from 3.67 to 3.83, which is close to that of Pt/C
+inO -saturatedelectrolytes,whereasnearlyfeaturelessresponses (3.87–3.97), suggesting that the ORR process is dominated by
+2
+are observed under N -saturated conditions, confirming their a near-four-electron pathway with limited peroxide formation.
+2
+considerable ORR activity. The ORR linear sweep voltammetry (Figure S11). Furthermore, accelerated stability tests (ADTs)
+Small,2026 5of11
+
+FIGURE 3 (a)ORRLSVcurvesat1600rpmin0.1mKOHsolution,(b)correspondingTafelslopes,and(c)chronoamperometriccurvesat0.5V
+(vs.RHE);(d)OERLSVcurvesin1.0mKOHsolutionand(e)correspondingTafelslopes,and(f)chronopotentiometriccurvesat10mA⋅cm−2;(g)HER
+LSVcurvesin1.0mKOHsolution,(h)correspondingTafelslopes,and(i)chronopotentiometriccurvesat10mA⋅cm−2.
+andchronoamperometrytestswereperformedtoassesscatalyst PtFeCoNi-PCNFs (294 mV and 67.5 mV dec−1), and FeCoNi-
+stability.Remarkably,PtRuFeCoNi-PCNFsshowanoutstanding PCNFs(279mVand74.5mVdec−1).Notably,theincorporation
+stability, with minimal E decay even after 5000 CV cycles of Ru and the synergistic interactions between multiple metal
+1/2
+(FigureS12),andonlyaslightdecreaseincurrentdensityduring componentsarecrucialforachievingsuperiorOERactivityand
+12hofcontinuousoperation(Figure3c).Suchsuperiordurability stability. To further elucidate the OER charge-transfer kinetics,
+is caused by the well-maintained structure of PtRuFeCoNi- electrochemical impedance spectroscopy (EIS) measurements
+PCNFs after ADTs, without obvious particle agglomeration were performed (Figure S14). PtRuFeCoNi-PCNFs exhibit the
+(FigureS13).TheexceptionalORRactivityofPtRuFeCoNi-PCNFs smallest charge-transfer resistance (R ) of 7.7 Ω, suggesting
+ct
+canbemainlyascribedtothesynergisticandlatticestraineffects facilitated electron transport across the electrode-electrolyte
+arisingfrommulti-metalinteractions,whichcollectivelyregulate interface.AsshowninFigure3f,PtRuFeCoNi-PCNFsmaintains
+theadsorptionbehaviorofoxygenatedspecies(O* andOOH*), nearly constant overpotential under sustained operation at 10
+therebyboostingtheORRperformance. mA⋅cm−2for100h.Moreover,after3000ADTcycles,thereisonly
+aslightoverpotentialincreaseof11mVat10mA⋅cm−2isobserved
+The OER and HER electrocatalytic activities of PtRuFeCoNi- (FigureS15).StructuralcharacterizationafterADTsconfirmsthe
+PCNFs, as well as the comparison samples, were evaluated in well-preserved morphology and composition of PtRuFeCoNi-
+1.0mKOHelectrolyte.AsdepictedinFigure3d,e,PtRuFeCoNi- PCNFs, demonstrating their excellent OER durability
+PCNFs require an OER overpotential of only 270 mV to reach (FigureS16).
+10 mA⋅cm−2, accompanied by a small Tafel slope of 53.5 mV
+dec−1. These electrochemical metrics markedly outperform For the HER, PtRuFeCoNi-PCNFs deliver outstanding activity,
+those of commercial RuO (314 mV and 148.1 mV dec−1), requiring ultralow overpotentials of 13 and 74 mV to achieve
+2
+6of11 Small,2026
+
+10 and 100 mA cm−2, respectively. These values are notably control samples using a traditional thermal annealing method.
+lowerthanthoseobservedforcommercialPt/C(22and140mV), AsshowninFigureS23,T-PtRuFeCoNi-PCNFsshowarelatively
+PtFeCoNi-PCNFs(21and130mV),andFeCoNi-PCNFs(225and broad and uneven particle size distribution, with an increased
+396 mV) (Figure 3g and Figure S17). Kinetic analysis further average particle size of 11.3 nm, compared with PtRuFeCoNi-
+reveals that PtRuFeCoNi-PCNFs possess a small Tafel slope PCNFspreparedbymicrowaveheating.Notably,thepresenceof
+of 24.6 mV⋅dec−1, lower than those of Pt/C and other control large NPs with diameters exceeding 10 nm is observed, which
+samples, indicating a Volmer-Heyrovsky-dominated HER path- substantiallyreducestheavailabilityofexposedactivesitesand
+way with accelerated reaction kinetics (Figure 3h). Consistent consequentlyleadstodegradedORR/OER/HERelectrocatalytic
+with this observation, the HER activity of PtRuFeCoNi-PCNFs performance (Figure S24). This phenomenon can be mainly
+outperformsthatofmostrecentlyreportedHERelectrocatalysts ascribed to the poor heat-transfer efficiency and non-uniform
+(FigureS18andTableS3).Thefastreactionkineticsarefurther temperature distribution associated with traditional heating,
+corroborated by EIS. As shown in Figure S19, PtRuFeCoNi- resultinginslowheatingandcoolingratesaswellasprolonged
+PCNFsexhibitaremarkablysmallR ofonly4.7Ω,significantly thermalannealing,whichkineticallypromotesatomicdiffusion
+ct
+lower than those of the reference catalysts, confirming effi- andexcessivecrystalgrowth.
+cientelectrontransportacrosstheelectrode-electrolyteinterface.
+To evaluate the effective electrochemically active surface area
+(ECSA), the double-layer capacitance (C ) was estimated from 2.3 ElectrochemicalPerformanceof
+dl
+CV measurements recorded in the non-faradaic potential win- RechargeableZABs
+dow of 0.12–0.22 V at different scan rates. The C values (in
+dl
+proportion to ECSA) of PtRuFeCoNi-PCNFs, PtFeCoNi-PCNFs, EfficientrechargeableZABsdependonhigh-performanceORR
+FeCoNi-PCNFs, and Pt/C are 17, 16.2, 14.0, and 14.8 mF cm−2, andOERelectrocatalysts.Thepotentialgap(ΔE=E j=10 −E 1/2 )
+respectively, suggesting a higher density of accessible active betweenOERandORRiscommonlyconsideredakeydescriptor
+sitesonPtRuFeCoNi-PCNFs(FigureS20).Intermsofdurability, forassessingbifunctionaloxygenelectrocatalysts[60,61].Bene-
+PtRuFeCoNi-PCNFs maintains almost constant overpotential fitingfromtheirexcellentORRandOERactivities,PtRuFeCoNi-
+during prolonged HER operation at 10 mA cm−2 over 100 h PCNFsdeliverasmallΔEvalueof0.663V,whichislowerthan
+(Figure3i).Moreover,negligibleperformancedecayisobserved thatofcommercialPt/C+RuO andsuperiortomostpreviously
+2
+after 10 000 ADT cycles, even better than that of commercial reported state-of-the-art bifunctional oxygen catalysts (Table
+Pt/C (Figure S21). In addition, TEM analysis performed after S5). Motivated by these electrochemical merits, a liquid-state
+the HER durability test shows no significant changes in the rechargeableZABwasconstructedbyusingPtRuFeCoNi-PCNFs
+morphologyorcompositionofPtRuFeCoNi-PCNFs,furthercon- astheaircathodecatalystandaZnplateastheanode(Figure4a).
+firming its excellent durability in alkaline media (Figure S22). AsshowninFigure4b,theresultingPtRuFeCoNi-PCNFs-based
+Recentstudies[20,57–59]suggestthatRu-dopingacceleratesH O ZABdemonstratesasignificantlysmallerdischarge–chargevolt-
+2
+dissociation, FeCoNi sites optimize H* diffusion kinetics, and agegapoverawiderangeofcurrentdensitiescomparedwiththe
+Pt-richregionsfacilitateefficientH*recombination,collectively Pt/C + RuO -based ZAB, highlighting its superior reversibility
+2
+boosting the alkaline HER. In contrast, ORR and OER involve and charge–discharge performance. Besides, the PtRuFeCoNi-
+multiple proton/electron transfer steps and oxygen-containing PCNFs-basedZABdeliversahighpeakpowerdensityof212mW
+intermediates, resulting in intrinsically more sluggish kinetics cm−2 at338.1mAcm−2,whichissubstantiallyhigherthanthat
+thanHER. ofthePt/C+RuO counterpart(76mWcm−2at180.7mAcm−2)
+2
+(Figure4c).Theopen-circuitvoltageofthePtRuFeCoNi-PCNFs-
+To evaluate the utilization efficiency of noble metals in basedZABreaches1.480V,exceedingthatofthePt/C+RuO -
+2
+PtRuFeCoNi-PCNFs, the mass activity (MA) was further baseddevice(1.427V)(Figure4d).AsillustratedinFigure4e,f,
+normalizedbythetotalmassloadingofPtandRu.Asshownin the PtRuFeCoNi-PCNFs-based ZAB delivers a larger discharge
+TableS4,PtRuFeCoNi-PCNFsdeliverMAsof119.4mAmg Pt+Ru −1 specific capacity of 796 mAh g−1 at 10 mA cm−2, along with a
+for ORR at 0.8 V, 988.9 mA mg Pt+Ru −1 for OER at 1.53 V, and higher gravimetric energy density of 999.5 Wh kg−1, calculated
+1719.4 mA mg Pt+Ru −1 for HER at −0.05 V. These values exceed basedonthemassofconsumedZn.Thesevaluesclearlysurpass
+thoseofthecorrespondingbenchmarkcatalysts,confirmingthe thoseofthePt/C+RuO -basedZAB(759mAhg−1and874.9Wh
+2
+efficientutilizationofPtandRuintheHEAcatalyst.Notably,the kg−1).Thelong-termcyclingdurabilitywasfurtherexaminedvia
+enhanced trifunctional catalytic performance of PtRuFeCoNi- galvanostaticdischarge–chargemeasurements(12minpercycle).
+PCNFscanbemainlyattributedtothesynergisticeffectsbetween Remarkably, the PtRuFeCoNi-PCNFs-based ZAB maintains a
+themulti-componentHEANPsandtheporouscarbonnanofiber stable voltage gap over 3000 cycles, corresponding to 600 h of
+framework.TheincorporationofPt,Ru,Fe,Co,andNiinduces continuousoperationat5mAcm−2,whilethePt/C+RuO -based
+2
+strong electronic interactions and lattice distortion within ZAB shows pronounced voltage increase after only 750 cycles
+the HEA NPs, which may regulate the adsorption/desorption (150h)(Figure4g).Notably,theround-tripefficiencydecreases
+behaviorofkeyintermediatesinvolvedinORR,OER,andHER. byonly3.6%aftermorethan600hofoperation,furtherconfirm-
+Pt-andRu-relatedsitesaregenerallyfavorableforORRandHER ing the exceptional cycling stability of the PtRuFeCoNi-PCNFs
+kinetics, while Fe/Co/Ni species may facilitate the adsorption catalyst. More impressively, the electrochemical performance
+andconversionofoxygen-containingintermediatesduringOER. of PtRuFeCoNi-PCNFs-based ZAB surpasses that of the most
+In addition, the porous carbon nanofiber network promotes previouslyreportedZABs(TableS6).AsillustratedinFigure4h,
+electrontransport,electrolytepenetration,andexposureofactive two PtRuFeCoNi-PCNFs-based ZABs connected in series can
+sites. To clarify the influence of rapid heating on HEA NPs continuouslypoweralight-emittingdiode(LED),demonstrating
+formation, T-PtRuFeCoNi-PCNFs catalysts were synthesized as theirpromisingpotentialforpracticalenergyapplications.
+Small,2026 7of11
+
+FIGURE 4 (a)Schematicillustrationofaliquid-stateZAB;(b)Charge–dischargepolarizationcurvesofPt/C+RuO andPtRuFeCoNi-PCNFs
+2
+catalysts;(c)Dischargepolarizationcurvesandcorrespondingpowerdensityplots;(d)Open-circuitvoltageplots;(e)Specificcapacityplots;(f)Energy
+densityplots;(g)galvanostaticdischarge–chargecyclingcurvesat5mA⋅cm−2;(h)DigitalphotographofLEDscreenpoweredbytwoserialZABs.
+2.4 ElectrocatalyticOverallWaterSplitting electrolyzer.Notably,theexcellentdurabilityisfurtherevidenced
+Performance bytheabilitytosustainlowandstableoperatingvoltageseven
+at elevated current densities of 20, 50, and 100 mA cm−2 for
+Considering the excellent HER and OER activities of morethan100h(Figure5c).Forfurtherpracticaldemonstration
+PtRuFeCoNi-PCNFs, a two-electrode electrolyzer was of the trifunctional PtRuFeCoNi-PCNFs electrode, a self-
+constructed in which PtRuFeCoNi-PCNFs functioned powered overall water splitting system was constructed by
+simultaneously as both the anode and cathode to evaluate integratingPtRuFeCoNi-PCNFs-basedliquid-stateZABstodrive
+theirpracticalbifunctionalcapabilityforoverallwatersplitting. the PtRuFeCoNi-PCNFs-based electrolyzer. As illustrated in
+Impressively, the PtRuFeCoNi-PCNFs -based electrolyzer Figure5e,oncetheZABsareswitchedon,abundantgasbubbles
+requiresonly1.56Vtoachieveacurrentdensityof10mAcm−2, arecontinuouslygeneratedonthesurfacesofthePtRuFeCoNi-
+whichissignificantlylowerthanthatrequiredforthecommercial PCNFselectrodes,clearlydemonstratingthehighfeasibilityand
+Pt/C || RuO system (1.64 V) and also surpasses most recently promisingprospectsofadvancedenergyconversionsystems.
+2
+reported multifunctional catalysts under alkaline conditions.
+(Figure 5a,d and Table S7). The operational stability of the
+electrolyzerwasfurtherexaminedthroughchronopotentiometric 3 Conclusions
+testing. As shown in Figure 5b, the PtRuFeCoNi-PCNFs-based
+electrolyzer operates steadily for over 100 h at 10 mA cm−2 In summary, we report a spatial confinement strategy com-
+without noticeable voltage degradation, while maintaining a bined with rapid microwave heating to synthesize ultrasmall
+consistentlyloweroperatingvoltagethanthePt/C||RuO -based PtRuFeCoNi HEA NPs within hierarchically porous carbon
+2
+8of11 Small,2026
+
+FIGURE 5 (a)LSVcurvesofPt/C||RuO andPtRuFeCoNi-PCNFscellsforoverallwatersplittingin1.0mKOHsolution;(b)Chronopotentiometric
+2
+curvesat10mA⋅cm−2forPt/C||RuO andPtRuFeCoNi-PCNFs;(c)ChronopotentiometriccurvesofPtRuFeCoNi-PCNFsmeasuredunderdifferent
+2
+currentdensities;(d)Comparisonofthecellvoltagesat10mA⋅cm−2 forPtRuFeCoNi-PCNFswiththoseofpreviouslyreportedbi-/multifunctional
+electrocatalysts;(e)DigitalphotographofthewatersplittingsystempoweredbytwoserialZABs.
+nanofibers,effectivelyaddressingtheintrinsicthermodynamic- DataAvailabilityStatement
+kineticdilemmaassociatedwithsmall-sizeHEAsynthesis.The The data that support the findings of this study are available in the
+hierarchical micro/meso/macroporous carbon framework, fea- supplementarymaterialofthisarticle.
+turingalargesurfaceareaandsufficientporevolume,provides
+effective spatial confinement, ensuring uniform dispersion of
+References
+HEANPsandfastmasstransport.Meanwhile,therapidheating
+1.Z.W.Seh,J.Kibsgaard,C.F.Dickens,I.Chorkendorff,J.K.Nørskov,
+andcoolingprocesskineticallysuppressesatomicdiffusionand
+andT.F.Jaramillo,“CombiningTheoryandExperimentinElectrocatal-
+aggregation,therebypreservingthenanoscalehigh-entropysolid-
+ysis:InsightsIntoMaterialsDesign,”Science355(2017):aad4998.
+solutionstructure.Asaresult,theresultantPtRuFeCoNi-PCNFs
+2.G.Yasin,M.Tabish,S.Ajmal,etal.,“SingleAtomHorizonsforShaping
+exhibit outstanding trifunctional electrocatalytic performance,
+theFutureofCatalysisandSustainability:TheNextFrontiersinEnergy
+delivering a positive ORR E of 0.837 V, while requiring low
+1/2 ConversionandStorage,”ProgressinMaterialsScience155(2026):101525.
+overpotentialsof270and13mVtoreach10mAcm−2forOERand
+3.S.Liu,J.Zhang,Y.Gao,etal.,“IodineSpeciesAnchoredandConverted
+HER,respectively,aswellasexcellentdurability.Whenusedas
+by CoO/Co Heterostructure in Confined Micro-Mesoporous Carbon
+theaircathode,PtRuFeCoNi-PCNFs-basedZABsdisplayahigh
+Nanoreactors for High-Performance Zinc‑Iodine Batteries,” Chemical
+peakpowerdensityof212mWcm−2,alargespecificcapacityof
+EngineeringJournal526(2025):171429.
+796 mAh⋅g−1, and a long cycling life over 600 h. Furthermore,
+4.G.Gao,Y.Yu,G.Zhu,etal.,“HighEntropyAlloyElectrocatalysts,”
+whenemployedasboththecathodeandanodeforoverallwater
+JournalofEnergyChemistry99(2024):335–364.
+splitting,alowcellvoltageofonly1.56Vissufficienttodeliver
+adensityof10mAcm−2,accompaniedbyexcellentoperational 5.L. Xia, P. Dai, C. Qu, et al., “High-Entropy Alloy Self-Supporting
+BifunctionalElectrocatalystsWithExceptionalPerformanceforFlexible
+stability. This study offers a practical and effective strategy for Zinc–AirBatteries,”JournalofMaterialsChemistryA13,no.45(2025):
+developing high-performance HEA NPs for renewable energy 39382–39392.
+technologies.
+6.J. Shi, X. He, H. Zhang, et al., “High-Entropy Alloy Catalysts With
+TunableElectronicConfigurationsforEnhancedSulfurReductionElec-
+trocatalysis,”ChemicalScience16(2025):14956–14966.
+7.H.-B.Cui,Y.Wang,Y.-C.Wang,C.Chen,G.Guan,andM.-Y.Han,
+“FromMultinarySolidSolutionstoHigh-EntropyNanomaterials,”ACS
+Acknowledgements
+Nano19(2025):40641–40661.
+The authors are thankful for the funding support from the National
+8.Y. Kang, O. Cretu, J. Kikkawa, et al., “Mesoporous Multimetal-
+NaturalScienceFoundationofChina(52173059).
+lic Nanospheres With Exposed Highly Entropic Alloy Sites,” Nature
+Communications14(2023):4182.
+ConflictsofInterest
+9.D. Wu, K. Kusada, T. Yamamoto, et al., “On the Electronic Struc-
+Therearenoconflictstodeclare. ture and Hydrogen Evolution Reaction Activity of Platinum Group
+Small,2026 9of11
+
+Metal-Based High-Entropy-Alloy Nanoparticles,” Chemical Science 11 28.Y.Li,J.Luo,P.Liu,etal.,“SulfurDopingActivatedMetal–Support
+(2020):12731–12736. Interaction Drives Pt Nanoparticles to Achieve Acid–Base Hydrogen
+EvolutionReaction,”JournalofMaterialsChemistryA13,no.16(2025):
+10.H.Li,J.Lai,Z.Li,andL.Wang,“Multi-SitesElectrocatalysisinHigh-
+11518–11529.
+EntropyAlloys,”AdvancedFunctionalMaterials31(2021):2106715.
+11.T. H. Dolla, S. P. Mbokazi, T. Matthews, et al., “Nano High- 29.X.Chen,H.Su,T.Li,I.Lynch,H.Zhang,andR.Zou,“Structuraland
+Entropy Materials for Bifunctional Oxygen Electrocatalysis: Rational InterfacialDesignofAtomicallyThinMaterialsandTheirHeterostruc-
+Design,Structure-ActivityRelationships,andApplicationsinRecharge- tures for Advancing Electrocatalysis,” Advanced Materials 38 (2025):
+ableMetal-AirBatteries,”EnergyStorageMaterials79(2025):104357. 15722.
+12.L.Yao,F.Zhang,S.Yang,etal.,“Sub-2nmIrRuNiMoCoHigh-Entropy 30.Y. Ai, M. Q. He, H. Sun, et al., “Ultra-Small High-Entropy Alloy
+AlloyWithIridium-RichMedium-EntropyOxideShelltoBoostAcidic Nanoparticles:EfficientNanozymeforEnhancingTumorPhotothermal
+OxygenEvolution,”AdvancedMaterials36(2024):2314049. Therapy,”AdvancedMaterials35(2023):2302335.
+13.X.Huo,H.Yu,B.Xing,X.Zuo,andN.Zhang,“ReviewofHighEntropy 31.K.Jiang,Y.Jiang,Z.Liang,etal.,“RareEarthValveManipulatesDual
+AlloysElectrocatalystsforHydrogenEvolution,OxygenEvolution,and RegulationofElectronicStatesandAdsorptionGeometryintheSelective
+OxygenReductionReaction,”TheChemicalRecord22(2022):202200175. HydrogenationofEthynylbenzene,”MaterialsHorizons12,no.21(2025):
+9094–9105.
+14.H.Cai,H.Yang,S.He,etal.,“Size-AdjustableHigh-EntropyAlloy
+NanoparticlesasanEfficientPlatformforElectrocatalysis,”Angewandte 32.Z.Hu,Q.Geng,S.Dong,etal.,“MOF-DerivedLowRu-LoadedHigh
+ChemieInternationalEdition64(2025):202423765. EntropyAlloyasanEfficientandDurableSelf-SupportingElectrodein
+RechargeableLiquid/FlexibleZn-AirBatteries,”JournalofColloidand
+15.C. Meng, X. Wang, Z. Li, et al., “Synthesis of FeCoNiCuPt High-
+InterfaceScience671(2024):34–45.
+Entropy Alloy Nanoparticle Electrocatalysts With Various Pt Contents
+byaSolid-StateReactionMethod,”MaterialsAdvances5,no.2(2024): 33.Z. Chen, X. Duan, W. Wei, S. Wang, and B.-J. Ni, “Iridium-Based
+719–729. Nanomaterials for Electrochemical Water Splitting,” Nano Energy 78
+(2020):105270.
+16.G.He,X.Zhang,J.Liu,J.Chong,G.Ye,andH.Fei,“Hydrocarbother-
+malFlowSynthesisofCarbon-SupportedSmallandDenseHigh-Entropy 34.H.Liang,A.N.Gandi,C.Xia,etal.,“AmorphousNiFe-OH/NiFeP
+Alloy Nanoparticles as Electrocatalysts,” Nature Communications 16 Electrocatalyst Fabricated at Low Temperature for Water Oxidation
+(2025):8172. Applications,”ACSEnergyLetters2(2017):1035–1042.
+17.Z.Li,M.Hou,B.Yao,etal.,“One-PotSynthesisofSub-3NmHigh- 35.F. Hu, J. Wei, X. Quan, and Q. Ouyang, “Rational Design of
+Entropy Alloy Nanoparticles in Hollow Nanospheres for Ph-Universal Defect-Rich MoS 2 -Modified V 2 CTx Electrodes for Advanced Flexible
+HydrogenEvolution,”JournalofColloidandInterfaceScience702(2026): Supercapacitor,”ChemicalEngineeringJournal525(2025):170003.
+139029. 36.J.-T.Ren,L.Chen,H.-Y.Wang,andZ.-Y.Yuan,“High-EntropyAlloys
+18.S.Bolar,Y.Ito,andT.Fujita,“FutureProspectsofHigh-EntropyAlloys in Electrocatalysis: From Fundamentals to Applications,” Chemical
+asNext-GenerationIndustrialElectrodeMaterials,”ChemicalScience15 SocietyReviews52(2023):8319–8373.
+(2024):8664–8722. 37.M.Li,F.Lin,S.Zhang,etal.,“High-EntropyAlloyElectrocatalystsgo
+19.P.Zhao,X.Wu,Y.Zhang,etal.,“UltrafastThermalEngineeringin to(sub-)Nanoscale,”ScienceAdvances10(2024):adn2877.
+EnergyMaterials:Design,Recycling,andFutureDirections,”ACSNano
+38.X.Jiang,D.Zhao,Q.Wang,etal.,“Ruthenium-MediatedSynthesisof
+19(2025):17199–17227. UltrafineFePtCoNiRuHigh-EntropyAlloyNanoparticlesforEnhanced
+20.Y.Zhang,H.Li,X.Liu,etal.,“Sub-3nmHigh-EntropyAlloyNanopar- HydrogenEvolutionCatalysis,”JournalofAlloysandCompounds1031
+ticles With Triple Functionalities for Efficient Electrolytic Hydrogen (2025):180933.
+Production,”AdvancedMaterials37(2025):08975.
+39.P.Zhao,Q.Cao,W.Yi,etal.,“FacileandGeneralMethodtoSynthesize
+21.M.Xie,Y.Lu,X.Xiao,etal.,“SpatiallyImmobilizedPtPdFeCoNias Pt-BasedHigh-Entropy-AlloyNanoparticles,”ACSNano16(2022):14017–
+anExcellentBifunctionalOxygenElectrocatalystforZinc–AirBattery,” 14028.
+AdvancedFunctionalMaterials35(2025):2414537.
+40.K. Wang, R. Chen, H. Yang, et al., “The Elements Selection of
+22.S. Z. Naghshbandi, “Hierarchical Assembled Sulfur-Doped Mo Fe High Entropy Alloy Guided by Thermodynamics and the Enhanced
+Polyoxometalate/ZIF-67onNiFoam:ANovelandEfficientElectrocat- ElectrocatalyticMechanismforOxygenReductionReaction,”Advanced
+alystforWaterSplittingandUreaOxidation,”JournalofElectroanalytical FunctionalMaterials34(2024):2310683.
+Chemistry999(2025):119580.
+41.P. Zhang, X. Hui, Y. Nie, et al., “New Conceptual Catalyst on
+23.X.Huang,G.Yang,S.Li,etal.,“Noble-Metal-BasedHigh-Entropy- SpatialHigh-EntropyAlloyHeterostructuresforHigh-PerformanceLi-O 2
+AlloyNanoparticlesforElectrocatalysis,”JournalofEnergyChemistry68 Batteries,”Small19(2023):2206742.
+(2022):721–751. 42.Y. Li, Y. Ma, A. Hameed, et al., “Synergistic p-d Hybridization in
+24.H. Zhang, L. Yu, T. Chen, W. Zhou, and X. W. Lou, “Surface UltrafinePdInBi/CNanoparticlesEnablingEfficientC–CBondCleavage
+Modulation of Hierarchical MoS Nanosheets by Ni Single Atoms for foretHyleneGlycolElectrooxidation,”JournalofEnergyChemistry115
+2
+Enhanced Electrocatalytic Hydrogen Evolution,” Advanced Functional (2026):576–583.
+Materials28(2018):1807086.
+43.Y.Yu,F.Xia,C.Wang,etal.,“High-EntropyAlloyNanoparticlesasa
+25.J.Li,J.Liu,C.Chen,etal.,“PtNanoclustersAnchoredonOrdered PromisingElectrocatalysttoEnhanceActivityandDurabilityforOxygen
+MacroporousNitrogen-DopedCarbonforAcceleratedWaterDissociation Reduction,”NanoResearch15(2022):7868–7876.
+TowardSuperiorAlkalineHydrogenProduction,”ChemicalEngineering
+44.H. Zhao, B. Song, H. Li, et al., “Controllable Microwave Heating
+Journal436(2022):135186.
+for Energy-Efficient and Universal Synthesis of Atomically Dispersed
+26.H. Qiao, M. T. Saray, X. Wang, et al., “Scalable Synthesis of High MetalsonNitrogen-DopedCarbonNanofibers,”Small21,no.4(2025):
+EntropyAlloyNanoparticlesbyMicrowaveHeating,”ACSNano15(2021): 2407700.
+14928–14937. 45.B.Mishra,S.Biswal,andB.P.Tripathi,“EngineeringRu–N Single
+4
+27.J.Cai,J.Chen,Y.Chen,J.Zhang,andS.Zhang,“EngineeringCarbon Atom Catalysts on Ni-MOF-Derived Porous Graphitic Carbon for pH
+Semi-TubesSupportedPlatinumCatalystforEfficientOxygenReduction UniversalWaterElectrolysis,”JournalofMaterialsChemistryA13,no.9
+Electrocatalysis,”iScience26(2023):106730. (2025):6792–6803.
+10of11 Small,2026
+
+46.G. Zhou, G. Liu, X. Liu, et al., “1D/3D Heterogeneous Assembling
+Body as Trifunctional Electrocatalysts Enabling Zinc–Air Battery and
+Self-PoweredOverallWaterSplitting,”AdvancedFunctionalMaterials32
+(2022):2107608.
+47.P.Balasubramanian,H.Khan,J.-H.Baek,andS.-H.Kwon,“Binary
+NiCoNanoalloysandSingle-AtomsImplantedNitrogen-DopedCarbon
+NanotubesasHighlyEfficient,RobustElectrocatalystforOverallWater
+Splitting,”ChemicalEngineeringJournal471(2023):144378.
+48.X.Ao,L.Li,S.Y.Yun,etal.,“HighlyAccessibleDual-MetalAtomic
+PairsforEnhancingOxygenRedoxReactioninZinc−AirBatteries,”Nano
+Energy118(2023):108952.
+49.C.Fu,L.Feng,H.Yin,etal.,“SynergisticCouplingofHierarchical
+HeterostructuredNi P/Ni/VNMicroflowerElectrocatalystforEnhanced
+3
+HydrogenEvolutionReaction,”ChemCatChem15(2023):202201399.
+50.C.Chen,J.Guo,J.Liu,etal.,“QuinaryRuRhPdPtAuHigh-Entropy
+AlloyasanEfficientElectrocatalystfortheHydrogenEvolutionReac-
+tion,”ChemicalCommunications59(2023):12863–12866.
+51.C. Jian, J. Yuan, T. Wang, L. Zeng, and W. Liu, “Construction
+of Ru Single-Atom and Cluster/np-Mo Synergistic Active Sites With
+HydrogenSpilloverforEfficientHydrogenEvolutionReaction,”Chemical
+EngineeringJournal510(2025):161683.
+52.Y.Li,Z.Zhang,Y.Yao,etal.,“Hetero-StructuredRu–Mo CNanopar-
+2
+ticles Loaded on N,P Co-Doped Carbon for a pH Universal Hydrogen
+EvolutionReaction,”DaltonTransactions53(2024):17581–17587.
+53.C.Wu,Q.Wu,H.Gao,F.Wen,G.Xu,andL.Zhang,“InterfaceEngi-
+neering Design Of Three-Phase Cobalt Selenide/Zinc Selenide/Cobalt
+Iron Alloy Heterostructure to Enhance the Performance of Zinc-Air
+Batteries,”JournalofEnergyStorage146(2026):119941.
+54.G. Li, R. Tan, B. Gao, et al., “Hierarchical Composite CoFe-
+K/GC@MnO @MXeneforExcellentElectromagneticWaveAbsorption,”
+2
+JournalofAlloysandCompounds979(2024):173580.
+55.Y.Wang,H.Su,Y.He,etal.,“AdvancedElectrocatalystsWithSingle-
+Metal-AtomActiveSites,”ChemicalReviews120(2020):12217–12314.
+56.D.Lai,Q.Kang,F.Gao,andQ.Lu,“High-EntropyEffectofaMetal
+PhosphideonEnhancedOverallWaterSplittingPerformance,”Journal
+ofMaterialsChemistryA9(2021):17913–17922.
+57.Y. Lu, S. Xu, L. Zhang, et al., “The Characteristics of Excellent
+Electrocatalytic Hydrogen Evolution for FeCoNi Based High Entropy
+Alloys,”SustainableMaterialsandTechnologies33(2022):00455.
+58.J.Yan,R.Wu,G.Jin,L.Jia,G.Feng,andX.Tong,“TheHybridPt
+Nanoclusters/Ru Nanowires Catalysts Accelerating Alkaline Hydrogen
+EvolutionReaction,”AdvancedPowderMaterials3(2024):100214.
+59.Z. W. Chen, J. Li, P. Ou, et al., “Unusual Sabatier Principle on
+HighEntropyAlloyCatalystsforHydrogenEvolutionReactions,”Nature
+Communications15(2024):359.
+60.C.Zhou,X.Chen,S.Liu,etal.,“SuperdurableBifunctionalOxygen
+ElectrocatalystforHigh-PerformanceZinc–AirBatteries,”Journalofthe
+AmericanChemicalSociety144(2022):2694–2704.
+61.W.Tang,J.Tang,K.Liao,andZ.Shao,“Self-ReconstructionofHighly
+ActiveNiCo O WithTriple-ContinuousTransferofElectrons,Ions,and
+2 4
+OxygenforZn-AirBatteries,”ChemicalEngineeringJournal455(2023):
+140855.
+SupportingInformation
+AdditionalsupportinginformationcanbefoundonlineintheSupporting
+Informationsection.
+SupportingFile:smll74128-sup-0001-SuppMat.docx.
+Small,2026 11of11
+

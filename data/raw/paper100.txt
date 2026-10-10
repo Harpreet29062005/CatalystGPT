@@ -1,0 +1,2173 @@
+REVIEW
+www.advmat.de
+High-Entropy Materials for Water Splitting: An Atomic
+Nanoengineering Approach to Sustainable Hydrogen
+Production
+Yufei Zhao, Jinhu Wu, Xianjun Cao, Dongfang Li, Peng Huang,* Hong Gao, Qinfen Gu,
+Jinqiang Zhang,* Guoxiu Wang, and Hao Liu*
+promising renewable energy carrier due
+Greenhydrogenproductionviawaterelectrolysisispivotalforachieving to its exceptionally high mass-energy den-
+energysustainability.However,theinherentlysluggishkinetics sity, making it an attractive alternative to
+ofthehydrogenevolutionreactionandoxygenevolutionreactionimpede conventionalfuels.[1–4] However,thelarge-
+scale production of hydrogen is still lim-
+theprogressofwater-splittingtechnology.Recently,high-entropymaterials
+ited by its synthesis approach that relies
+(HEMs)composedofatleastfiveelementshavegarneredsignificantattention
+heavilyonsteamreformingofnaturalgas,
+aspromisingelectrocatalystsforwatersplitting,owingtotheircompositional
+inevitably accompanied by emissions of
+versatility,structuralrobustness,andsynergisticinteractionsamongelements. carbon dioxide.[5–7] Water splitting, on the
+ThisreviewcomprehensivelyexploresthedevelopmentofHEMs,tracingtheir otherhand,isanalternativewaytogenerate
+emergenceandstructuralevolutionviaatomicnanoengineeringstrategies
+hydrogenwithzerocarbonemissions.[8–11]
+Nevertheless,thewidespreadapplicationof
+(i.e.,frombulktonanostructuring,fromrandomdistributionstorelatively
+waterelectrolysisishinderedbyitsreliance
+orderedarchitectures,frombareHEMstoreconstructedHEMs,fromintact
+onhighlyefficientcatalysts,whicharecur-
+HEMstodefectivestructures,frompristineHEMstofunctionalizedvariants) rently based on precious metals such as
+andrevealinghowtheseevolutionarystepscontributetotheproperties platinum (Pt), ruthenium (Ru), and irid-
+andenhancecatalyticperformanceinwatersplitting.Thefundamentalroles ium (Ir).[12] The high cost and scarcity of
+these precious metal-based catalysts sig-
+ofindividualelements(e.g.,activesites,promoters,stabilizers)inshaping
+nificantly restrict the scalability of water-
+thestructure,stability,andcatalyticactivityofHEMsareexamined,laying
+splitting electrolyzers. Therefore, develop-
+afoundationfortherationaldesignofefficientHEM-basedelectrocatalysts.
+ing active and cost-effective catalysts for
+ThereviewalsohighlightsrecentadvancesinHEM-basedcatalystsfor water-splitting systems is critical for po-
+watersplitting,emphasizingdesirablepropertiesandelementalcontributions. tential large-scale production of hydrogen.
+Finally,theremainingchallengesandperspectivesonthefuturedirections Transition metal-based electrocatalysts,
+such as sulfides, phosphides, carbides, ni-
+ofHEM-basedmaterialsinenergyconversiontechnologiesarediscussed.
+trides,oxides,alloys,etc.,havedrawninten-
+siveattentioninthepastfewdecades.[13–18]
+However, they face limitations in stability,
+1.Introduction conductivity,selectivity,andscalability,whichhindertheirlong-
+term efficiency and industrial applicability in water splitting.
+Hydrogen is a clean and sustainable energy resource with sig- High-entropy materials (HEMs), defined by comprising typi-
+nificant potential to replace fossil fuels. It is considered a cally five principal elements or more in near-equimolar ratios,
+J.Wu,X.Cao,H.Gao Y.Zhao,X.Cao,D.Li,J.Zhang,G.Wang,H.Liu
+JointInternationalLaboratoryonEnvironmentalandEnergyFrontier SchoolofMathematicalandPhysicalSciences
+Materials FacultyofScience
+SchoolofEnvironmentalandChemicalEngineering UniversityofTechnologySydney
+ShanghaiUniversity Broadway,Sydney,NSW2007,Australia
+Shanghai200444,China E-mail:Jinqiang.Zhang@uts.edu.au;Hao.Liu@uts.edu.au
+P.Huang
+TheORCIDidentificationnumber(s)fortheauthor(s)ofthisarticle SchoolofChemistryandMaterialsScience
+canbefoundunderhttps://doi.org/10.1002/adma.202506117 JiangsuNormalUniversity
+Xuzhou,Jiangsu221116,China
+©2025TheAuthor(s).AdvancedMaterialspublishedbyWiley-VCH
+E-mail:huangpeng@jsnu.edu.cn
+GmbH.ThisisanopenaccessarticleunderthetermsoftheCreative
+CommonsAttributionLicense,whichpermitsuse,distributionand Q.Gu
+reproductioninanymedium,providedtheoriginalworkisproperlycited. AustralianSynchrotron
+ANSTO
+DOI:10.1002/adma.202506117 800BlackburnRd,Clayton,VIC3168,Australia
+Adv.Mater.2025,37,2506117 2506117(1of39) ©2025TheAuthor(s).AdvancedMaterialspublishedbyWiley-VCHGmbH
+
+www.advancedsciencenews.com www.advmat.de
+possesssignificantpotentialowingtothehighlydisorderedho- making HEMs increasingly attractive as next-generation
+mogeneous single-phase and high configurational entropy of electrocatalysis.
+mixing.[19–21] The development of HEMs can be traced back to Several reviews have summarized the synthesis methods,
+theearly 2000s withtwo seminal papers published onmetallic properties, effects, design strategies, and potential applications
+alloyscontainingfiveorsixprincipalcomponents.[22,23]Theseal- of HEMs.[59–63] However, a comprehensive review detailing the
+loys quickly attract attention within the materials science com- evolutionofHEMsfromstructuralfoundationstofunctionality,
+munity due to their core effects, including the high-entropy aswellasanin-depthunderstandingoftheroleseachelement
+effect, lattice distortion effect, and cocktail effect. Specifically, plays,isstilllacking.Thisupdatedreviewfocusesonrecentad-
+the high-entropy effect refers to the thermodynamic stabiliza- vancementsinHEMsforwatersplitting.Inthisreview,wewill
+tion resulting from the large configurational entropy gener- discuss the emergency and structural evolution of HEMs, cov-
+ated by mixing multiple principal elements. The lattice distor- eringthestructuralprogressionfrombulkformstonanostruc-
+tion effect arises from atomic size mismatches and complex tured,fromrandomatomicdistributionstomoreorderedstruc-
+chemical interactions among the constituent elements, lead- tures,frombareHEMstoreconstructed,fromintacttodefective
+ing to local lattice strain. Meanwhile, the cocktail effect de- structures,andfrompristineHEMstofunctionalizedHEMs,all
+scribes the unexpected synergies and emergent properties that of which significantly enhance their properties for water split-
+result from the intricate interactions among the diverse ele- tingapplications.Wethenelaborateonhoweachelementcon-
+ments within HEMs.[24–27] The family of HEMs has expanded tributestooverallstructure,stability,andperformancetoidentify
+from HEAs to high entropy oxides (HEOs), high entropy car- elementalrolesinHEMs,providingafoundationfordesigning
+bides (HECs), high entropy nitrides (HENs), high entropy sul- efficientHEM-basedelectrocatalysts.Thisreviewwillalsosum-
+fides(HESs),highentropyborides(HEBs),etc.[28–36]Therandom marizeHEM-basedcatalystswithdesiredpropertiesandidenti-
+distributionofmultiplemetalelementsinHEMspromotesex- fiedelementalrolesforbothhydrogenevolutionreaction(HER)
+ceptionalhomogeneity,potentiallysurpassingthepropertiesof andoxygenevolutionreaction(OER)inwatersplitting.Finally,
+single or unary element-based materials. HEMs leverage syn- weaddresscurrentchallengesandfutureperspectivesforHEM-
+ergistic interactions (the combined effect of multiple compo- basedcatalystsinenergyconversionapplications(Figure1).
+nentsisgreaterthanthesumoftheirindividualeffects)among
+multiple principal elements, leading to a higher density of ac-
+tive sites, optimized electronic structures, and superior struc- 2.TheEmergenceandStructureEvolutionofHigh
+turalintegrity.[37–39]Theseuniquefeaturesenhanceelectrochem-
+EntropyMaterials
+ical activity and ensure outstanding stability for water-splitting
+applications.[40,41] 2.1.TheEmergenceofHighEntropyMaterials
+With continuous advancements in nanotechnology, HEMs
+haveundergonesignificantstructuralevolution,leadingtosub- The development from non-high-entropy materials to HEMs
+stantial enhancements in their electrocatalytic activity. Unlike markedtheemergenceofanewdesignparadigm,whichlever-
+conventional alloys or metal compounds, HEMs possess a di- ages multiple principal elements (≥5) in near-equimolar ratios
+verserangeofuniquesurfacebindingsites,providingaversatile toharnessconfigurationalentropyandunlockuniquematerial
+platformforpreciselytuningbindingenergiestooptimizereac- properties (Figure 2).[64–69] This transition reflects a shift from
+tionproperties.[42]Thisabilityiscrucialforwatersplittingwhich simplicity and predictability to controlled complexity and tun-
+reliessignificantlyontheinteractionofactivesiteswithreactants ability, opening a new frontier in functional materials design.
+andintermediates.[43,44]Inparticular,thestructuralevolutionof HEMsresolvethelimitationofthestability,corrosionresistance,
+HEMsplaysavitalroleintailoringthegeometricandelectronic andversatilityintraditionalnon-high-entropymaterials,display-
+featurestomodulatetheadsorptionenergy,therebyenhancing ingenhancedstability,chemicalproperties,cocktaileffects,etc.,
+their catalytic efficiency for water splitting.[45,46] The selection makingthempromisingforwatersplitting.[70,71]
+and composition of elements in HEMs influence both the Generally, the simplest nanocrystals are monometal-based
+density and local environment of active sites, thereby directly compounds,consistingofauniformarrangementofatomsfrom
+impacting the intrinsic catalytic activity.[47–49] Furthermore, a single metallic element.[72–75] Their properties are primarily
+downsizingHEMsfrombulktothenanoscaleandengineering governed by the intrinsic nature of the metal, crystal struc-
+porousorhierarchicalnanostructurescandramaticallyincrease ture, and particle size. Their relatively simple composition al-
+surfacearea,facilitateelectronandmasstransport,andimprove lows for precise control over their synthesis and the investi-
+atomicutilization,allofwhichcontributetoacceleratedreaction gationofstructure–catalyticproperties.Advancementsinalloy-
+kinetics and enhanced catalytic performance.[50–54] Another ing and doping strategies with additional metal elements fur-
+critical structural advancement involves the transition from a therenablepreciseengineeringofthepropertiesofmonometal-
+randomlydistributedatomicarrangementtoarelativelyordered based structures, which typically consist of two or three com-
+configuration,whichfurtheroptimizesHEMsforwater-splitting positional elements with one primary component.[76–78] This
+applications.[55] Otherthanthestructureevolutionforthepris- strategy has facilitated the development of numerous materi-
+tineHEMs,surfaceengineeringapproaches,includingcreating alsbasedonaprimarycomponentcoupledwithadditionalmi-
+reconstructed, defective, or functionalized HEMs, offer addi- norelementsimprovedconductivityandcatalyticactivity.Forin-
+tionalpathwaysforexpandingandrefiningtheirproperties.[56–58] stance, we have designed Ni-doped CoP and Co-doped MnO
+2
+Thesesurfacemodificationscanintroducenewactivesites,en- for water splitting, effectively modulating the electronic struc-
+hance stability, and further improve catalytic performance, tures of the primary metals, namely Co and Mn, respectively,
+Adv.Mater.2025,37,2506117 2506117(2of39) ©2025TheAuthor(s).AdvancedMaterialspublishedbyWiley-VCHGmbH
+
+www.advancedsciencenews.com www.advmat.de
+Figure1. OverviewofstructuralevolutionandelementalrolesofHEMsforwatersplitting.
+Figure2. HistoricaltimelineofemergencyandstructuralevolutionofHEMsforwatersplitting.
+Adv.Mater.2025,37,2506117 2506117(3of39) ©2025TheAuthor(s).AdvancedMaterialspublishedbyWiley-VCHGmbH
+
+www.advancedsciencenews.com www.advmat.de
+to significantly enhance their catalytic performance.[79,80] Al- opment of reconstructed, defective, and functionalized HEMs
+though proven effective, these strategies often lead to localized representsasignificantadvancement,comparedtothepristine
+effects,andthecentralpropertiesofthemulticomponentphase structures, to further optimize the properties and catalytic ca-
+spacemaydeviatesignificantlyfromthecorrespondingcorners pabilities of HEMs. Thus, in this section, we will focus on the
+andedges.Moreover,thedopedmetalcompoundsoftensuffer critical steps of the structural evolution in HEMs with an in-
+fromdopantleachingorphasesegregationunderharshreaction depth understanding of properties and optimized catalytic per-
+conditions. formance,namelyfrombulktonanostructuring,fromrandom
+Further development of metal alloys or compounds has distributiontorelativelyorderedstructure,frompristineHEMs
+progressedfromsimplemonometal-basedcompoundsordoped to their reconstructed, defect-engineered, and functionalized
+materialstomorecomplexsystems(e.g.,ternaryorquaternary), forms.
+allowingforincreasedtunabilityofcomposition,structure,and
+functionality.[81] Forinstance,Ni–Feoxideaerogelssynthesized
+via a modified epoxide route exhibited high catalytic activity 2.2.1.FromBulktoNanostructuring
+forOER,achieving10mAcm−2 atanoverpotentialof380mV
+with an optimized Ni/Fe ratio.[82] Similarly, modulated NiFeX While most studies of HEMs mainly focus on adjusting the
+andFeCoX(X=W,Mo,Nb,Ta,andRe)oxyhydroxidecatalysts chemical composition to optimize the catalytic performance,
+demonstrated excellent OER performance, attributed to the structural engineering, especially the regulation of size and di-
+facilitated oxidation of 3d transition metals induced by the mensionality, has also emerged as a critical approach to im-
+incorporation of high-valence modulators.[83] This systematic provecatalyticefficiency.HEMsarepredominantlysynthesized
+progression toward multi-metallic systems paves the way for as bulk materials using conventional methods (e.g., melt pro-
+the design of HEMs, which composed of multiple principal cessing), due to the challenges associated with mixing ele-
+elementsinnearlyequiatomicproportions.HEMsexhibitsignif- ments with vastly different chemical and physical properties,
+icantlyhigherconfigurationalentropy,enhancedmulti-element as well as cooling rate constraints.[22,94] Reducing the size of
+synergy, superior structural stability, and tunable electronic HEMs to the nanoscale with controlled morphologies is sig-
+properties, offering unconventional compositions with many nificant for enhancing nanostructural diversity and investi-
+possibilities to regulate catalytic performance and overcome gating relationships between structures and properties. The
+the limitations of single-element or doped catalysts. These typical low-dimensional HEMs are nanoparticles, which fea-
+enable them to be a highly promising alternative for water ture small size and high specific surface area, exposing abun-
+splitting. Various HEMs have been designed and prepared, for dant active sites and maximizing atom utilization.[95–99] A typ-
+example, PtCoNiRuIr HEA-NPs, PtRuMoFeCoNi ultra-small ical example is the well-dispersed sub-10 nm (MoWVNbTa)C
+HEA quantum dots, PtRuPdCoNi HEA nanoparticles, M- HEC nanoparticles, which were successfully synthesized via
+RuIrFeCoNiO , have exhibited unique properties and excellent electricaldischarge-inducedbulk-to-nanoparticletransformation
+2
+HER/OER performance.[84–87] Further to precious metal-based (Figure3a,b).TheseHECnanoparticleshavedemonstratedout-
+HEMs, non-precious metal-derived HEMs, composed of mul- standing catalytic activity and long-term durability for HER,
+tiple inexpensive elements, offer cost-effective alternatives whichwasattributedtotheiruniquemicrostructureandtheen-
+while maintaining exceptional catalytic performance. HEMs hancedelectronicinteractionsarisingfromhighconfigurational
+such as CoFeMnCuZn, FeCoMoW, and Co (VMnNiZn) PS entropy(Figure3c).[100] Similarly,PdCuPtNiCoHEAnanoparti-
+0.6 0.4 3
+nanosheets, with high-concentration active sites, have been clesweresynthesizedusingPdCunanoparticlesasseedstoini-
+successfully developed, exhibiting enhanced HER/OER tially form PdCu/PtNiCo core–shell structures, followed by an
+performance.[88–90] annealing process.[101] Generally, substrates are critical to con-
+trollingthesizeofHEMnanoparticles.Thecommonlyusedsub-
+stratesarecarbonnanotubes,graphene,andorganicmaterials-
+2.2.TheStructureEvolutionofHighEntropyMaterials derivedcarbonsubstrates,amongothers.[102,103]Acarbonshock
+method has been developed to synthesize HEA and HEO
+SincethefirstappearanceofHEMs,thestructuralevolutionof nanoparticles uniformly dispersed on carbon substrates.[104,105]
+HEMs plays a crucial role in expanding their structural, elec- The high synthesis temperature ensured the formation of ho-
+tronic, and catalytic properties, significantly broadening their mogeneousalloystructureswhilesimultaneouslystrengthening
+potential applications. Typically, several significant steps have thebondingbetweentheHEA/HEOnanoparticlesandthecar-
+markedtheevolutionofHEMs.Thefirstistointroducenanos- bon substrate, thereby enhancing structural durability. In par-
+tructures to the bulky HEMs which can significantly enhance ticular, the smallest possible form of nanoparticles is single-
+the surface-to-volume ratio, exposing a greater density of ac- atom catalysts (SACs), which represent the ultimate downsiz-
+tive sites and facilitating improved mass transport.[91–93] This ing of HEMs to the atomic level, forming single-atom HEMs.
+evolutionoptimizeschargetransferdynamicsandcatalyticeffi- The unique electronic properties and maximum atom utiliza-
+ciency,leadingtosuperiorperformanceforwatersplitting.An- tion make single-atom HEMs favorable to the catalysis pro-
+other structural evolution is from the random distribution of cess. For example, a substrate-mediated SACs formation strat-
+metalelementsinthecrystallatticetoarelativelyorderedstruc- egy has been employed to prepare single-atom HEMs, lever-
+ture in HEMs which can maintain entropy stabilization from aging reversible redox reactions at the TMDs (substrate)/TM
+inherent disorder while generating unique electronic proper- ion interface. The as-achieved Pt,Ru,Rh,Pd,Re-MoSe delivered
+2
+ties from controlled structural ordering. Moreover, the devel- excellent hydrogen evolution reaction (HER) performance in
+Adv.Mater.2025,37,2506117 2506117(4of39) ©2025TheAuthor(s).AdvancedMaterialspublishedbyWiley-VCHGmbH
+
+www.advancedsciencenews.com www.advmat.de
+Figure3. a)SchematicprocessofproceedingHECbulktonanoparticlesbyWEDM.b)High-AngleAnnularDark-FieldScanningTransmissionElec-
+tronMicroscopy(HAADF-STEM)imageof(MoWVNbTa)CHECNPs.c)Comparisonof𝜂 betweentheHECNPsandothernonpreciousmetal-based
+10
+catalysts.a–c)Reproducedwithpermission.[100]Copyright2022,Wiley-VCH.d–f)schematicdiagram,ScanningElectronMicroscope(SEM)andOER
+polarizationcurvesofthesynthesisprocessofCoZnCdCuMnS@CF.d–f)Reproducedwithpermission.[114]Copyright2022,SpringerNature.g)OER
+reactionenergydiagramon𝛽-NiOOHand𝛾-NiOOHmodels.g)Reproducedwithpermission.[120] Copyright2022,Elsevier.h)Aberration-corrected
+HAADF-STEMimageviewedalongthe[001]zoneaxis.h)Reproducedwithpermission.[43]Copyright2020,Wiley-VCH.
+alkaline conditions.[106] Further transitioning from nanoparti- 2.2.2.FromRandomDistributiontoRelativelyOrderedStructure
+cles/singleatomstohigher-dimensionalstructures,suchas1D
+(nanowires and nanotubes, etc.), 2D (nanosheets, nanoplates, HEMs rely heavily on the formation of crystalline or amor-
+nanospheres,etc.),and3D(nanoflowers,nanodendrites,hollow phous solid-solution phases, usually exhibiting a highly disor-
+structure,etc.),expandsthepropertiesandkineticsofHEMsfor dered atomic arrangement. Specifically, multiple principal ele-
+electrocatalysis.[107–113]Forinstance,high-entropysulfidenanoar- ments are randomly distributed within the lattice, leading to
+rays (CoZnCdCuMnS@CF) were synthesized through a low- increased configurational entropy, which stabilizes the single-
+temperaturecationexchangereactionbyusingCo S @CFwith phasesolidsolutionandpreventsphasesegregation.[118,119] The
+9 8
+a structure of vertical needle-like nanowires as a precursor, atomicdisordersignificantlyinfluencesthecatalyticproperties,
+demonstratingexceptionalperformanceforalkalinewatersplit- which are crucial for optimizing catalytic activity and stability.
+ting(Figure3d–f).[114]Agrowingvarietyof2DHEMshavebeen Moreover,theinherentrandomnessinelementaldistributionen-
+developedforwatersplitting,includingsub-nanometerribbons, ables tunable local environments, enhancing synergistic inter-
+2Dhighentropyoxides,andsulfides,layereddoublehydroxides actions between different elements. For instance, the designed
+(LDHs), high entropy metal–organic frameworks.[115,116] More- NiFeCoMnAloxidefeaturedarandomdistributionofelements,
+over,3Dhollow-structuredHEOs(ZnFeNiCuCoRu-O)featurea enablingeachcomponenttocontributesynergisticallytoOERac-
+largesurfaceareaandrapidmasstransferkinetics,deliveringex- tivity.Inparticular,Niservedastheprimaryactivesite,whilethe
+ceptionalOERcatalyticperformanceacrossawidepHrange.[117] incorporation of Mn created an electron-rich environment that
+Adv.Mater.2025,37,2506117 2506117(5of39) ©2025TheAuthor(s).AdvancedMaterialspublishedbyWiley-VCHGmbH
+
+www.advancedsciencenews.com www.advmat.de
+Figure4. a)TheHERactivitycomparisonofIrFeCoNiCuHEAandotherIr-basedcatalystsatdifferentoverpotentials.b)HighresolutionHAADF-STEM
+imageshowinganIr-enrichedsurfacelayer(indicatedbywhitearrows)ontheHEAcoreafterelectrochemicalactivation.a,b)Reproducedundertheterms
+oftheCC-BYCreativeCommonsAttribution4.0Internationallicense.[132]Copyright2023,AmericanChemicalSociety.c)AFMimageandcorresponding
+heightprofileoftheHEA-PdPtRhIrCumetallene.d)HAADF-STEMimageandfalse-coloraberration-correctedimageoftheHEA-PdPtRhIrCumetallene.
+c,d)Reproducedwithpermission.[142]Copyright2023,Wiley-VCH.e)DiagramofFeCoNiMnCrHEA-HEO/CNTcatalyst.f)Polarizationcurvesbefore
+andafterthestabilitytest.e,f)Reproducedwithpermission.[149]Copyright2024,Wiley-VCH.
+enhances the catalytic activity of Ni active sites. Co-doping im- numberofconstituentmetalsnotonlyenhancesthekineticsta-
+proved the electrical conductivity, and Al doping facilitates the bilityofthenanoparticlesbutalsosuppressesundesiredsidere-
+formation of a nanoporous structure via a dealloying process. actions.TheHEIscombinethemeritsofbothhigh-entropyand
+Thisrandomelementaldistributionensuresthateachelement orderedintermetallicproperties,potentiallyenablingspecificef-
+playsadistinctandcomplementaryroleinboostingtheoverall fectstoboostthewater-splittingperformance.Forinstance,the
+electrocatalyticefficiency(Figure3g).[120] dendrite-likeporousL1 -typeHEI,derivedfromthedual-phase
+2
+Although the disordered atomic arrangement of HEMs ex- FeCoNiAlTiHEI(whereFeCoNiservedaspotentialactivesites
+hibitsuniqueadvantages,thischaracteristicmaypotentiallyhin- andAlTienhancedtheformationofanorderedatomicconfigu-
+der the precise control of electronic and catalytic properties. ration), exhibited a specific site-isolation effect that further sta-
+Therefore, understanding how to control the atoms within a bilizesH O/H*adsorptionanddesorption(Figure3h).[43] This
+2
+chemically ordered distribution and figuring out which atomic significantlyoptimizestheenergybarrierforhydrogenevolution.
+configurationsbenefittheactivityremainthechallengeinHEM
+development. Multimetallic alloys or compounds with a partic-
+ular ordered structure should be promising to overcome this 2.2.3.FromBareHEMstoSurfaceReconstructedHEMs
+challenge.[121–123] Localshort-rangechemicalorderinghasbeen
+observed in a concentrated solution of single-phase medium- FurtherengineeringHEMstoformappealingstructuresbyre-
+entropyalloys(MEA)withacompositionnearthecenterofthe finingtheirstructural,electronic,andsurfacepropertiescanin-
+phasediagram.[124] Moreover,themosttypicalHEMswithrela- duceadditionalenhancements,leadingtoimprovedcatalyticef-
+tivelyorderedstructuresarehighentropyintermetallics(HEIs), ficiency and stability for water splitting. For instance, selective
+whichareaclassoforderedHEMswheremultipleprincipalele- leaching of3dtransitionmetalsduringtheelectrochemical ac-
+mentsformanintermetalliccompoundinsteadofarandomsolid tivationprocessleadstotheformationofapreciousmetal-rich
+solution.[125–130] HEIs still retain the high configurational en- surface.AtypicalexampleisIrFeCoNiCuHEA,whichresultedin
+tropywhilefeaturingorderedatomicarrangementsbasedonin- anIr-enrichedsurfacelayerthatsignificantlyenhancedOERcat-
+termetalliccompounds,offeringuniqueelectronicandcatalytic alyticcapabilityforalowoverpotentialof≈302mVat10mAcm−2
+properties. HEIs can be synthesized using parent binary inter- (Figure 4a,b).[132] Surface reconstruction to form an oxidized
+metallics, such as PtSn, to serve as the initial reactant. In this or reduced layer on the surface of HEMs is another emerg-
+structure,PtsiteswerepartiallysubstitutedwithNiandCo,while ingstrategytodynamicallychangetheatomicarrangementand
+SnsiteswerepartiallyreplacedwithInandGa.[131]Theincreased electronicstructure,leadingtounconventionalproperties.[133–135]
+Adv.Mater.2025,37,2506117 2506117(6of39) ©2025TheAuthor(s).AdvancedMaterialspublishedbyWiley-VCHGmbH
+
+www.advancedsciencenews.com www.advmat.de
+Especially,thenon-HEOs(e.g.,HEAsorHEmetalcompounds) efficientlylowerthelimitingenergybarrier,facilitatingimproved
+underwent rapid in situ electrochemical oxidation, into metal reactionkinetics,whiletheirhigherFermilevelsservedaselec-
+(oxy)hydroxides or oxides, which are considered the real OER trondonorstoactivatethemetalsites.[147]Thiscocktaileffectop-
+activesitesinalkalinesolution.[136–139] Forinstance,thesurface timizeschargetransferandadsorptionenergy,ultimatelyleading
+statesofHEAsheets(Ti,Cr,Mn,Fe,Co,Ni,Zr,Nb,andMo)ex- tosuperiorOERperformance.Beyondmetalelements,thesur-
+hibitednosignificantchangesbetweentheOCPandHERstate, faceofHEMscanalsobefunctionalizedwithnon-metalliccom-
+indicatingthatthemetallicnatureoftheHEAwasmaintained ponents or stabilized on carbon substrates. Stabilizing HEMs
+duringthereductionprocesses.[140]Incontrast,duringtheOER onconductivecarbon-basedsubstratescansignificantlyimprove
+process,allelementsintheHEAswerepartiallyoxidizedtoform electrical conductivity, structural integrity, and mechanical sta-
+oxidelayers.Similarly,FeNiCoCrMnS alsoexperiencedinsitu bility, ensuring long-term stability for water splitting. A typi-
+2
+structuralself-reconstructionduringOER,fullyconvertinginto calexampleisCuNiFeCoCrTi@N-dopedgraphenenanoparticles
+metal(oxy)hydroxideat1.2VversusRHE,whichservedasthe (CuNiFeCoCrTi@NC NPs) with precisely controlled N-doped
+realactivesitesforOER.Additionally,theremainingsulfatean- graphene shell layers.[148] Reducing the graphene layer thick-
+ionalsosynergisticallyboostedtheOERcatalyticactivity.[141] ness and increasing the number of elements in the alloy sig-
+nificantly boosted the HER performance. Moreover, construct-
+inghigh-entropyheterostructurescanenhancestructuralstabil-
+2.2.4.FromIntactHEMstoDefectiveHEMs
+ityandcorrosionresistance,contributingtosustainedOERactiv-
+ityunderharshelectrochemicalconditions.ACr-inducedspon-
+Other than surface reconstruction, forming defective HEMs
+taneousreconstructionstrategywasemployedtosynthesizeFe-
+can also significantly influence their physicochemical prop-
+CoNiMnCr HEA and HEO heterocatalysts.[149] These materials
+erties, which directly affect the adsorption of the reac-
+provideactivesiteswithstablevalencestates,ensuringlong-term
+tants/intermediates. There are various defects, such as lattice
+durability for OER, even under industrial operating conditions
+distortion, stacking faults, and vacancies, observed in HEMs,
+(Figure4e,f).
+whichcanbeformedduringthepreparationprocess.[142,143] For
+instance,anultrathinHEA-PdPtRhIrCumetallenerichinlattice
+3.ElementalRolesinHighEntropyMaterials
+distortions and defects was synthesized through a simple hy-
+drothermalmethod(Figure4c,d).[142]Whileatomic-levelmixing
+ThediverseelementalcompositionofHEMsendowsthemwith
+of multiple elements may already be effective to form defects,
+a range of unique synergistic properties, making them highly
+developing methods to specifically introduce desired defects
+promising for water splitting.[150,151] However, this same com-
+forHEMsismoresignificant.Plasmastrategy,electrochemical
+plexityalsopresentsasignificantchallengetounderstandingthe
+dealloying,high-temperaturetreatment,etc.,havebeenapplied
+individualroleofeachelement.InHEMs,eachelementcancon-
+to create cation and anion vacancies for HEMs. For example,
+tributedifferently,suchasservingasactivesites,increasingcon-
+low-temperature plasma techniques facilitated the transfor-
+ductivity, maintainingcorrosion resistance, and promotingsta-
+mation of LDHs into HEO nanosheets with abundant oxygen
+bility.Therefore,clearlyunderstandingtheinfluenceofeachel-
+vacanciesandahighsurfacearea.[144]Alow-temperaturesurface
+ement on the overall structure, stability, and functional perfor-
+carbonization–decarbonizationstrategyhasalsobeendeveloped
+manceofHEMsiscriticalfortherationaldesignandoptimiza-
+byencapsulatinghigh-entropyoxideswithacarbonaceouslayer
+tionoftheseHEMs.Itiswellestablishedthatthecatalyticper-
+and precisely controlling the decomposition to introduce and
+formanceofwatersplitting(HERandOER)iscloselyrelatedto
+modulateoxygenvacanciesinCoMnFeNiZn-O HEOs.[143] The
+v theadsorptionenergyofreactantsorintermediatesatactivesites
+oxygen vacancies formed in HEOs enhance both *OH adsorp-
+of HEMs. Achieving optimal catalytic activity typically requires
+tionanddeprotonationsimultaneously,leadingtoexcellentOER
+anoptimizedadsorptionstrength,whichisoftendeterminedby
+activity.
+theactivesites.Thus,identifyingtheactivesitesofHEMsforwa-
+tersplittingisconsideredthefirstvitalapproach.Bytuningthe
+2.2.5.FromPristineHEMstoFunctionalizedHEMs propertiesorelectronicstructureofHEMsthroughthestructural
+evolution discussed in Section 2, the adsorption energy can be
+Similartoconventionalcatalysts, thesurfaceofpristineHEMs precisely modulated to enhance catalytic performance in water
+canbefunctionalizedbyintroducingadditionalforeignspecies, splitting.Thishighlightstheimportanceofidentifyingnotonly
+enablingappealingpropertiesandhighercatalyticactivity.Non- theelementsthatservedirectlyasactivesitesbutalsothosethat,
+metal doping (e.g., N, F, P, and B) is an effective strategy for whilenotdirectlyinvolvedincatalysis,stillplaysignificantroles
+tailoringthepropertiesofHEMs.Forexample,Nincorporation ininfluencingoverallcatalyticactivity.Inadditiontocatalyticac-
+intoNFeCoNiAlMoO activatedlatticeoxygenbymodulatingthe tivity,thestabilityofHEMsisacriticalfactorinfluencingoverall
+x
+hybridization between active site Mo 3d orbitals and O 2p or- catalyticperformance.Understandinghowindividualelements
+bitals,therebyenhancingOERactivity.[145]Anothereffectiveand contribute to stability is also essential. This session will focus
+straightforward approach is the incorporation of single atoms, onexploringtheatomic-levelrolesofindividualelementswithin
+clusters,ornanoparticles,whichintroducescocktaileffectstoen- HEMs,aimingtouncoverfundamentalinsightsthatdrivemate-
+hancethereactionkineticsanddurabilityofHEMs.AlloyingPd rialinnovation.Wewillexaminetheelementsintermsofthree
+withthesurfaceatomsonnon-nobleHEA-NPsenhancedcatalyst distinctroles:activesites,promoters,andstabilizers(Figure5).
+stabilitywhileminimizingnoblemetalusage.[146]Agclustersin- A few approaches have been applied to can identify the el-
+corporatedinhighentropyCuCoFeAgMo(oxy)hydroxidescould ement role of HEMs for water splitting. The first approach is
+Adv.Mater.2025,37,2506117 2506117(7of39) ©2025TheAuthor(s).AdvancedMaterialspublishedbyWiley-VCHGmbH
+
+www.advancedsciencenews.com www.advmat.de
+Figure5. TheelementroleofHEMsas(a,b)activesites,c)promotersand(d)stabilizersforwatersplitting.
+the poisoning experiment. The roles of metal species are typi- encestheadsorptionenergyofreactantsorintermediates,asad-
+cally identified using poisoning agents that selectively bind to sorption onto these sites is a necessary first step to initiate the
+specific metals, reducing catalytic activity and indicating the catalyticprocess.[158–160]
+functional sites.[152–154] However, HEMs generally contain five
+or more metal elements, and many show similar properties,
+which makes it challenging to pinpoint the element roles us- 3.1.ElementsasActiveSites
+ingthisapproach.Insitucharacterizationtechniquesarewidely
+employedtostudythewatersplittingprocessunderrealisticop- HEMsexhibitacomplexcompositionofmultiplemetalspecies,
+erating conditions, offering valuable insights into the underly- resultinginadiversearrayofpotentialactivesitesforHERand
+ingrelationshipbetweencatalyststructureandactivesites.For OER. In particular, precious metals such as Pt, Pd, Ir, and Ru
+instance,operandoIRandRamanspectroscopyareparticularly inHEMshavedemonstratedtheircapabilitytosignificantlyen-
+importantforcharacterizingHEMs,astheyenabledirectmon- hance catalytic activity. In Pt-based HEMs, Pt atoms typically
+itoring of interactions between intermediates and the catalyst serveastheprimaryactivesitesforHER,asobservedincomposi-
+surface (binding sites). Additionally, in situ, X-ray absorption tionssuchasPtIrFeCoNi,PtPdRuIrAu,andPtCoMoPdRh.[161–163]
+spectroscopy allows the monitoring of the dynamic process of For instance, the investigation for PtCoMoPdRh indicates that
+water splitting, revealing changes in electronic states, identify- the ΔG values at most active sites were superior to that of
+H*
+ingactivesites,anduncoveringsynergisticeffectswithinHEM the Pt(111) surface, highlighting the significant support from
+catalysts.[125,155,156] Meanwhile,duetothecomplexityofHEMs, the high entropy elements to the active sites within the HEA
+DFTcalculationsplayessentialrolesinidentifyingtheelement (Figure6a,b).[58] Especially,hydrogenadsorptiononPttopsites
+rolesforwatersplitting.[157]AstheHERorOERcatalyticactivity forms stable M─H* bonds with the lowest ΔG , confirming
+H*
+islargelygovernedbytheinherentelectronicstructureofHEMs, thatthesePttopsitesservedastheprimaryandmostactivecen-
+the d-band theory is developed to predict the bonding interac- tersduringtheTafelstepoftheHERmechanism.SimilartoPt-
+tionsbetweenHEMsurfacesandintermediates.Thetotalden- basedHEMsforHER,inIr-basedHEMsincludingIrFeCoNiCu
+sityofstates(DOS)iscommonlyusedtoindicatetheconductiv- HEA nanoparticles and Ir-rich IrRuNiMo shell@IrRuCoNiMo
+ityofHEMs,withahigherDOSneartheFermilevelfacilitating core structures,[53,164] Ir atoms typically act as the primary ac-
+more efficient electron transfer. The projected density of states tivesitesforOER.ThesecatalystsexhibitenhancedOERactiv-
+(PDOS),derivedfromthetotalDOS,providesdetailedinsights itycomparedtomonometallicIrandotherhighlyactiveIr-based
+intotheelectronicstructureandisstronglycorrelatedwithHER bimetallicalloys.OtherpreciousmetalsinHEMs,suchasRuin
+and OER activity, which is a good indicator to identify the ele- FeCoNiMoPtRu,RhinPtRhNiFeCuandPtMoPdRhNi,andPdin
+ment roles. ΔG diagrams are widely recognized as a powerful PtPdIrRuAucanactasactivesitesforHERorOER,eitherinde-
+toolforidentifyingtherate-determiningstep(RDS)intheHER pendentlyorcollaborativelyboosttheperformance.[86,165–167]For
+andOERpathways.Theactivityoftheactivesitesdirectlyinflu- example,insituRamanspectroscopyhasidentifiedcharacteristic
+Adv.Mater.2025,37,2506117 2506117(8of39) ©2025TheAuthor(s).AdvancedMaterialspublishedbyWiley-VCHGmbH
+
+www.advancedsciencenews.com www.advmat.de
+Figure6. a)Bindingconfigurationsandb)Adsorptionfree-energylandscapeofatomichydrogenonofPt Mo Pd Rh Ni (111).a,b)Reproduced
+30 5 25 25 15
+with permission.[58] Copyright 2023, Elsevier. c) In situ SERS with different applied potentials of Pt Mo Pd Rh Ni NCs. c) Reproduced with
+28 6 28 27 15
+permission.[166]Copyright2023,RoyalSocietyofChemistry.d)StandardfreeenergydiagramoftheOERprocessat0VofFeCoNiPdWOOHforvarious
+activesites.d)Reproducedwithpermission.[172]Copyright2024,RoyalSocietyofChemistry.e)Schemeofthedifferentadsorptionstrengthsofinterme-
+diatesonmetalsitesinHEAsandCucatalystsandreactionpathwaysofthealkalineHERandOERattheCusitesintheHEANPs.e)Reproducedwith
+permission.[110]Copyright2023,RoyalSocietyofChemistry.f)EdgemodelsofCo,P,andSsitesforCoVMnNiZnPS andCoPS .g)Gibbsfree-energy
+3 3
+profileofHERoccurringonthecharacterizededgeconfigurations(f).f,g)ReproducedunderthetermsoftheCC-BYCreativeCommonsAttribution4.0
+Internationallicense.[88]Copyright2022,AmericanChemicalSociety.h)AdsorptionsitesofPd-AubridgingonthesurfaceofHEA-1.4andadsorption
+energiesofhydrogenatoms.h)Reproducedwithpermission.[176]Copyright2025,Wiley-VCH.i)Optimaladsorptionintermediatesandj)Adsorption
+free-energyonHEAs-Co RuO -Ru.i,j)Reproducedwithpermission.[181]Copyright2025,Wiley-VCH.
+2 4
+peaksat1912and2048cm−1,correspondingtoRh─HandPt─H Co,andNiwithhighoxidationstatesactasactivesitesforOER.
+bonds,respectively.ThesefindingsconfirmthatPtandRhserved Asaresult,thiscatalystexhibitsanexceptionallylowOERoverpo-
+astheprimaryactivesitesforH*adsorptionanddesorptionin tentialof227mVatacurrentdensityof10mAcm−2(Figure6d).
+Pt Mo Pd Rh Ni NCs(Figure6c).[166] Inadditiontoactivetransitionmetals,traditionallyinactivemet-
+28 6 28 27 15
+Moreover, both catalytically active transition metals (such as alsinHEMscanalsofunctionascatalyticactivesitesforHER
+Fe, Co, and Ni) and typically inactive ones (such as Cu and andOER.Thisunexpectedactivityarisesfromtheuniquelocal
+Zn) can serve as effective active sites in HEMs for HER and chemicalenvironmentsandelectronicstructuremodulationin-
+OER. This is attributed to the unique high-entropy structures ducedbythehigh-entropyconfiguration,whichcanactivatein-
+that create a highly disordered atomic environment to modu- ertmetalsbyalteringtheiradsorptionenergies.Forinstance,the
+late the local electronic structure and facilitate synergistic in- electronegativitydifferencesamongMn,Cu,Fe,Co,andNiin-
+teractions among multiple elements, which may enhance the ducelocalelectronredistribution,increasingelectrondensityat
+catalytic capability these metal species as active sites for HER the Ni and Cu sites. (Figure 6e) This electron enrichment acti-
+andOER.Forexample,theactivetransitionmetalsNiinNNM- vatedCusitestoserveaseffectiveactivesitesforbothHERand
+HEA@CF,NiinFeCoNiMoWHEA,Fe/NiinCoFeNiCrMnP/NF, OER. Therefore, the FeCoNiCuMn HEA nanoparticles demon-
+Fe/Co/Ni in CrMnFeCoNi, Fe/Co/Ni in (FeNiCoCrMnV) HEO, stratedexcellentelectrocatalyticperformance,achievinganover-
+etc. have demonstrated catalytic contributions to the HER or potential of 281 mV at 100 mA cm−2 for HER and 386 mV at
+OERprocess.[36,67,168–172]Specifically,FeCoNiPdWPhigh-entropy 200mAcm−2 forOER.[110] Moreover,intheH-FeCoNiCuMoor
+phosphide(HEP)nanoparticlesundergosurfacereconstruction Fe FeNiCuWRu catalyst, the inactive Cu could collaborate with
+toformaFeCoNiPdWhigh-entropyoxyhydroxide,inwhichFe, CoorNitopromotetheHERprocess,resultinginexceptional
+Adv.Mater.2025,37,2506117 2506117(9of39) ©2025TheAuthor(s).AdvancedMaterialspublishedbyWiley-VCHGmbH
+
+www.advancedsciencenews.com www.advmat.de
+electrocatalyticactivityandlong-termstability.[173]Inadditionto enablingfine-tuningofsurfacepropertiesandimprovedoverall
+metalsites,non-metallicsitescanalsobeidentifiedasactivecen- catalyticperformance.Oneofthemostcommonmechanismsfor
+ters.Forexample,inCo (VMnNiZn) PS nanosheets,Mnsites therestelementsaspromoterstoenhancecatalyticperformance
+0.6 0.4 3
+play a crucial role in facilitating water dissociation. Simultane- inHEMsisthroughelectrontransferbetweenthepromoterele-
+ously,optimizedsulfursitesattheedgesandphosphorussites mentsandtheactivesitesduetotheircloseinteraction.[26,182,183]
+onthebasalplaneserveasactivesitesforhydrogenadsorption For instance, in the PtFeCoNiCuCr@HCS, Cr primarily acted
+(Figure6f,g).[88]ThissynergisticallyenhancesHERperformance, asanelectrondonor,modulatingtheelectronicconfigurationof
+achievingalowoverpotentialof65.9mVat10mAcm−2. thesurroundingactivesitestoenhancetheircatalyticproperties
+Beyond the commonly recognized top sites, bridge and hol- (Figure 7a).[184] Co served as the principal active site for water
+lowsitescanalsoserveaseffectiveactivesitestoenhanceHER dissociation to generate hydrogen intermediates, which prefer-
+or OER performance.[50,86,163,174,175] For example, Pd-Au bridge entially migrated toward Pt, Fe, and Cu sites, where hydrogen
+siteshavebeenshowntocontributesignificantlytoHERactivity moleculeformationoccurred.Inaddition,thesizemismatchbe-
+(Figure6h).[176] AmongvariousPdPtRuRhAuHEAswithdiffer- tween different elements and active sites in HEAs can induce
+entparticlesizes,thesamplewithanaveragesizeof3.14nmex- compressive strain on the catalyst surface, which in turn en-
+hibitedthehighestproportionofbridgesites(18.97%),resulting hancescatalyticactivity.Forexample,inthePtFeCoNiCuHEA,
+inthebestcatalyticperformanceandachievinganoverpotential theatomicradiiofFe,Co,Ni,andCuareallsmallerthanthat
+ofjust70.07mVatacurrentdensityof10mAcm−2.Similarly,in ofPt.[185] Whenthesesmalleratomswereincorporatedintothe
+the(RuSnSbReF)O electrocatalyst,Ru–Rebridgesitesenabled HEA matrix, they exerted compressive strain on the surround-
+x
+electrontransferfromRutoReviaoxygenbridges,therebytun- ing Pt atoms at the surface. This strain effect modified the lo-
+ingtheelectronicstructureandoxidationstates.[177]Thesebridge calelectronicstructureofthePtactivesites,resultinginanop-
+sitesservedasactivecentersforacidicOER,playingakeyrolein timizedH*adsorptiononsurfacePtsites,whichpromotesthe
+determiningtheenergybarrieroftheRDS.Hollowsiteshavealso HERprocess(Figure7b–d).Non-metalcanalsoworkaspromot-
+beenidentifiedasactivecenters,offeringadditionaladsorption ers,includingN,P,F,Te,andB,tofacilitatetheenhancementof
+configurationsthatfurtherpromotereactionkinetics.InthePt- theOERprocess.FspeciesincreasedtheoverlapbetweenCo/Fe
+NiFeCoCuHEA,Fesitesactivelypromotewateradsorption,ini- 3dandO2penergybands,therebyenhancingthecovalencyof
+tiating the alkaline HER process.[44] The resulting OH species Co─OandFe─Obonds,whichpromotedmoreefficientelectron
+werestabilizedbyadjacenthollowsites,whilehydrogenadsorp- transfer between Co/Fe and the OER intermediates, contribut-
+tionpreferentiallyoccurredathollowsitesnearNiandCoatoms, ing to the high intrinsic catalytic activity of 𝛾-FeCoNi F (OH)
+2 4 4
+facilitatingefficientHERactivityunderalkalineconditions. (Figure7e).[186]Theincorporationofnon-metallicTeinCoFeNi-
+Reconstructed surface species can also serve as active MoWTeN-HECGsfacilitatedefficientelectrontransferbetween
+sites for water splitting.[178–180] Ag-decorated Co-Cu-Fe-Ag-Mo Teandmetalspecies,leadingtoincreasedvalencestatesofmetal
+(oxy)hydroxide (Ag@CoCuFeAgMoOOH) electrocatalysts were cationsthatpromoteOERactivity.[187]Additionally,nitrogen(N),
+synthesized via an electrochemical reconstruction method.[147] another non-metallic element, activated lattice oxygen by mod-
+Remarkably, the Ag sites within the Ag clusters acted as com- ulating the hybridization between Mo 3d orbitals (active sites)
+parably active sites for OER, synergistically enhancing the cat- andO2porbitalsinNFeCoNiAlMoO .[145]Thismodificationen-
+x
+alytic performance by achieving a low overpotential of 270 mV ablesashiftinthereactionpathwayfromtheadsorbateevolution
+at 100 mA cm−2. Moreover, the optimized self-reconstructed mechanism(AEM)tothelatticeoxygenmechanism(LOM)dur-
+PtRu Fe Co Ni HEA, featuring an interface with cobalt ing the formation of *OOH in step 3. The synergistic effect of
+2.9 0.15 1.5 1.3
+ruthenate (HEAs-Co RuO ), demonstrated enhanced HER cat- AEMandLOMsignificantlyboostsOERactivity.
+2 4
+alyticactivity(Figure6i,j).[181] Inthisheterostructure,Co2+ and Defectsorvacanciescanactaspromoterstoenhancethecat-
+Ru3+speciesinCo RuO functionedasactivesitesforbothH O alytic performance of HEMs.[143,188] In (MoWVNbTa)C, W, and
+2 4 2
+dissociation and hydrogen adsorption, which is different from MoserveasthemostactivesitesfortheHER.[100]Furtherinvesti-
+pureHEA,whereRuatomswithinthealloywerethemainac- gationsrevealthattheseactivesites,whenadjacenttovacancies,
+tivesites.Thissynergisticinterfacesignificantlyboostedalkaline exhibit more favorable ΔG values than those in a defect-free
+H*
+HERperformance,withHEAs-Co RuO achievingacurrentden- structure.Thisimprovementisattributedtotheshieldingeffect
+2 4
+sity of 41.8 mA cm−2 at 0.07 V versus RHE, which is 2 times ofvacanciesonelectrontransfer,leadingtooptimizedΔG and
+H*
+higherthanPtRu Fe Co Ni HEA. highHERactivity.Similarly,thepresenceofphosphorusvacan-
+2.9 0.15 1.5 1.3
+cies(V )caneffectivelyactivatethesurroundingCoatoms,which
+P
+aretheactivesitesinV -CoNiCuZnFeP.[189]Twinboundaries,as
+P
+3.2.ElementsasPromoters planar defects, also play a key role in modulating surface elec-
+tronicstructures.Whencombinedwiththepromotereffectfrom
+WhilesomeelementsinHEMsmaynotactasdirectactivesites electron-richBatomsinB-dopedFeCoNiCuMoBHEAfilm,they
+forwatersplitting,theycanplayacrucialroleaspromotersby leadtooptimizedatomicconfigurationsthatsynergisticallypro-
+modulatingthegeometricconfigurationandelectronicstructure moteafavorablepathwayforbothHERandOER.[116]
+ofneighboringactivesites.Thesepromoterelementscaninflu- Theincorporatedspeciesorformingheterostructurecanalso
+encefactorssuchaselectrondensity,oxidationstates,adsorption act as promoters, modifying the electronic structure of the ac-
+energy,andcoordinationenvironment,therebyenhancingthein- tive sites. In V CuCoNiFeMn, the incorporation of V alters the
+x
+trinsiccatalyticactivityofthetrueactivesites.Theirpresencecon- electronicenvironmentofneighboringelements(particularlyCu
+tributestothesynergisticeffectwhichisoftenobservedinHEMs, and Fe) through electron sharing from the high-valent V.[190]
+Adv.Mater.2025,37,2506117 2506117(10of39) ©2025TheAuthor(s).AdvancedMaterialspublishedbyWiley-VCHGmbH
+
+www.advancedsciencenews.com www.advmat.de
+Figure7. a)HERpolarizationcurvesofPtFeCoNiCuCr@HCS.a)Reproducedwithpermission.[184]Copyright2024,Wiley-VCH.b)ΔG distribution
+H*
+on5.9%-HEA(5.9%compressivestrain)showingadsorptionsites(hcp,fcc,bridge).ReddashesmarkVolmer/Heyrovsky(orTafel)activesites;green
+indicatesH*diffusion(DR).c)Volmer–Heyrovskymechanismandd)Volmer–TafelmechanismofHERon5.9%-HEA(111)andPt(111).b–d)Repro-
+ducedunderthetermsoftheCC-BYCreativeCommonsAttribution4.0Internationallicense.[185]Copyright2024,SpringerNature.e)Activesitemodel
+ofHEALDHanditselectrochemicalproperties.e)Reproducedwithpermission.[186] Copyright2024,Wiley-VCH.f)TheLHBcenterpositionsand
+(g)Computedfreeenergies(ΔG)ofOERstepsofAu -MnFeCoNiCuOOHandMnFeCoNiCuOOH.f,g)ReproducedunderthetermsoftheCC-BYCre-
+SA
+ativeCommonsAttribution4.0Internationallicense.[24]Copyright2023,SpringerNature.h)ToF-SIMSimageoftheFeCoNiMnMoSPHEAafter1000h
+ofcontinuousstabilitytesting.h)ReproducedunderthetermsoftheCC-BYCreativeCommonsAttribution4.0Internationallicense.[195] Copyright
+2022,AmericanChemicalSociety.i)ActivesitemodelofHE-MOFs.i)ReproducedunderthetermsoftheCC-BYCreativeCommonsAttribution4.0
+Internationallicense.[196]Copyright2024,AmericanChemicalSociety.j)currentdensity–timecurveofFeCoNiRu-450.j)Reproducedunderthetermsof
+theCC-BYCreativeCommonsAttribution4.0Internationallicense.[197]Copyright2022,Wiley-VCH.
+This electronic modulation shifts the preferred active site for intoMnFeCoNiCu(Au -MnFeCoNiCuLDH)promotesthere-
+SA
+H O adsorption and dissociation from Fe (in the pristine Cu- leaseoflatticeoxygen,therebyfavoringtheLOMandenhancing
+2
+CoNiFeMn) to Cu sites (in V CuCoNiFeMn). The resulting H+ theintrinsiccatalyticactivity(Figure7f,g).[24]Au -MnFeCoNiCu
+x SA
+isthenreadilyadsorbedonadjacentFesites,wherethebinding LDHachievesalowoverpotentialof213mVat10mAcm−2and
+energybarrierisreducedduetotheoptimizedelectronicstruc- animpressivemassactivityof732.925Ag−1atanoverpotential
+ture of V -HEA, facilitated by efficient electron transfer. As a of250mVforalkalineOER.Carbonmaterials,includingcarbon
+1.0
+result,theengineeredV CuCoNiFeMnexhibitsanoverpotential nanotubes (CNTs) and graphene, can also act as effective pro-
+x
+of250mVat50mAcm−2,whichis≈170mVlowerthanthatof motersforHEMsinwatersplitting.Thehybridizationbetween
+non-engineeredHEA(422mV).IncorporatingAusingleatoms themetald-orbitalsoftheRuPdIrPtAuHEAandthe𝜋-electrons
+Adv.Mater.2025,37,2506117 2506117(11of39) ©2025TheAuthor(s).AdvancedMaterialspublishedbyWiley-VCHGmbH
+
+www.advancedsciencenews.com www.advmat.de
+ofCNTsinduceslocalizedchargeredistributionattheinterface ementscanactasprotectivebarriersagainstcorrosionanddis-
+betweenCNTsandHEA,highlyfacilitatingchargetransferand solutionunderharshelectrochemicalconditions.Stabilitystud-
+electroniccoupling.[191]Thissynergyenablesultralowoverpoten- ies on the FeCoNiRu HEA reveal that its exceptional durability
+tialsof30.7mVforHERand330mVforOERatacurrentdensity isprimarilyattributedtotheformationofaspineloxidesurface
+of10mAcm−2.Moreover,theheterostructurefacilitateselectron layerduringtheelectrochemicalreaction.[107] Thisspinelstruc-
+transfer,therebyenhancingtheintrinsiccatalyticactivityofthe tureeffectivelypreservestheactivesitesderivedfromtheintrin-
+activesites.Theengineeredcore–shellFeCoNiMoAl-basedHEA sicarchitectureoftheHEA,therebymaintaininghighcatalytic
+features a shell that lowers electron transfer resistance and of- performanceandcontributingtothematerial’sremarkablesta-
+ferssupplementaryactivesites,withacrystallinecorethatsup- bility(Figure7j).Moreover,theoxidizedPandSspeciesinhigh-
+ports improved conductivity and long-term stability.[192] More- entropyphosphorussulfide(HEPS)formananionicprotective
+over,chargeredistributionatthecore–shellinterfaceelevatesthe layerthatshieldsthecatalyticallyactivemetalsitesfromaggrega-
+valencestatesofNiandCospecies,furtherpromotingtheOER tionanddissolution.[197]Simultaneously,theinsituformationof
+process. V O speciesservesasastabilizertoagainstadditionaloxidation
+2 x
+ofHEPS,furtherenhancingthedurabilityforOER.Asaresult,
+maintainsstableperformanceforover1200hinapracticalelec-
+3.3.ElementsasStabilizers trolyzerwithnegligibleactivityloss.
+OnedisadvantageofHEMsistheirsluggishdiffusioneffecton
+kinetics, which significantly influences the phase transitions. 4.HighEntropyMaterialsforWaterSplitting
+Thepresenceofmultipleelementswithvaryingatomicradiiand
+chemicalactivitiesinHEMsleadstolatticedistortion,whichim- Watersplittingisapromisingmethodtoproducegreenhydro-
+pedes atomic movement and limits diffusion rates.[193,194] The gen.However,efficientwatersplittingrequirescatalyststhatcan
+suppressed diffusion impacts not only phase stability but also sustainhighcatalyticactivityandstabilityunderextremeopera-
+plays a pivotal role in governing the overall performance of tionalconditions(acidicandalkalinemedia).HEMs,composed
+the HEM system. For instance, the as-prepared FeCoNiMnMo ofmultipleprincipalelementswithalteredelectronicstructures,
+HEMs demonstrate excellent electrocatalytic performance for surfacechemistries,adsorptionproperties,andstability,cansig-
+OER,achievingalowoverpotentialof279mVat10mAcm−2and nificantly boost the catalytic performance for HER and OER.
+maintainingremarkablestabilityforover1000h.[195]Theresults Moreover,HEMsoffertheflexibilitytoincorporatemoreabun-
+revealMoasakeycontributortotheenhancedcatalyticactivity dantandcost-effectiveelementsintothepreciousmetals(Pt,Ir)-
+andlong-termdurability.Thehigh-entropyeffectplaysavitalrole basedelectrocatalyststoreducethecostwithnocompromiseof
+insuppressingMoleaching,therebypreservingthestructuralin- thecatalyticperformance.ThissectionwillfocusonHEMsfor
+tegrityandthicknessoftheactivecatalyticlayerthroughoutthe watersplitting,highlightingtheiruniquepropertiesandthespe-
+OER process (Figure 7h). Moreover, the incorporation of high- cificrolesofeachelement(Table1and2).
+valencemetalssuchasMoandWintoCoFe-basedoxidesimpart
+self-healing properties to the electrocatalysts, enabling them to
+maintainhighOERactivityandlong-termstability.[90] 4.1.HydrogenEvolutionReaction
+In addition to the intrinsic high-entropy effect, which pro-
+vides enhanced structural and chemical stability compared to The primary strategy for generating hydrogen through electro-
+single-metalelectrocatalysts,manyHEMsarefurtherengineered catalysisisHER,akeyhalf-reactioninwatersplitting.HERin-
+throughtheincorporationofspecificstabilizingelements.These volvestwo-electrontransferwithmultiplereactionstepsoccurred
+added elements can improve resistance to corrosion, suppress atthecathode–electrolyteinterface.TheprotonsourceforHER
+thedissolutionofactivesitesunderharshelectrochemicalcon- dependsontheelectrolytepH,thatis,H producedviathere-
+2
+ditions, and maintain the integrity of the active phase during ductionofH O+ inacidicconditionsandthereductionofH O
+3 2
+long-termwater-splittingoperations.Theatomic-leveldispersion inalkalinemedia.TherearetwostepsforHERinacidiccondi-
+ofRuandMowithinHE(Ru,Mo)-MOFnanosheetsleadstothe tions,includingtheVolmerreactionwiththeadsorptionofhy-
+formationofdenselypackedO-bridgedRuModual-atomactive drogenatomsonthecatalystsurface(formingH*),andtheHey-
+sites.[196] TheincorporationofMopromotesthestabilizationof rovsky or the Tafel reaction when H is produced. In the Hey-
+2
+FeandNiinloweroxidationstates(+2),contrastingwiththeef- rovsky pathway, a hydrogen molecule is formed by the combi-
+fectofRu,whichtendstoinducehigheroxidationstatesofFeand nationofanadsorbedhydrogenatom(H*)andtheproton(H+)
+Ni.Additionally,inMo-dopedHE(Ru,Mo)-MOFsamples,theRu fromtheelectrolytewithoneelectronfromtheelectrode.Incon-
+3ppeaksshifttowardhigherbindingenergies,indicatingade- trast,theTafelreactioninvolvesthedirectcombinationoftwoad-
+creaseinelectrondensityaroundRuatomsduetoelectronicin- jacentadsorbedhydrogenatoms(H*)toproducemolecularhy-
+teractionswithMo.Thesefindingssuggestthatthehigh-valent drogen(H ).Similarly,HERinalkalineconditionsalsoproceeds
+2
+Mospecieshelpbalanceandstabilizetheoverallcoordinationen- viaeithertheVolmer–HeyrovskyorVolmer–Tafelmechanisms.
+vironmentandelectronicstructure,therebyenhancingthelong- However,anadditionalwaterdissociationstepisrequiredtogen-
+termstabilityofHE(Ru,Mo)-MOFsforOER(Figure7i). erateH*andOH− (Volmerstep).Subsequently,H*reactswith
+Theformationofsurfacelayersplaysacriticalroleinenhanc- anotherwatermoleculeandanelectrontoformH ,astepknown
+2
+ing the structural and electrochemical stability of HEMs dur- as the Heyrovsky step in alkaline conditions. Alternatively, the
+ingwatersplitting.Thesurfacelayersenrichedwithspecificel- Tafelstep,involvingthecombinationoftwoH*speciestoform
+Adv.Mater.2025,37,2506117 2506117(12of39) ©2025TheAuthor(s).AdvancedMaterialspublishedbyWiley-VCHGmbH
+
+www.advancedsciencenews.com www.advmat.de
+Table1.SummaryofHEMsfortheHER.
+Strategies Catalysts Electrolyte Overpotential[mV] Tafelslope Refs.
+for10mAcm−2 [mVdec−1]
+0DHEMs PdPtRuRhAuHEAs 0.5m 70.07 30.3 [163]
+HSO
+2 4
+Pt-Pd-Ni-Co-Mn 1mKOH 22.6 77.5 [201]
+1mKOH 11 30 [44]
+Pt Ni Fe Co Cu /C
+18 26 15 14 27
+PtCoNiRuIr/C 0.5m 18 34.2 [87]
+HSO
+2 4
+PtPdIrRhAuAgCu- 1mKOH 11.3 59.9 [95]
+rEGO
+NiCoMoPtRu 1mKOH 9.5 29.8 [52]
+HEANCs
+Pt4FeCoCuNi 1mKOH 20 31 [51]
+Ru– 1mKOH 16 27 [50]
+PtFeNiCuW/CNTs
+PtRuPdCoNiHEA 0.5m 16 27 [84]
+HSO
+2 4
+PtRuMoFeCoNi 0.5m 11 28.7 [86]
+HSO
+2 4
+PdFeCoNiCu/C 1mKOH 18 39 [146]
+PtPdCoNiMn 1mKOH 48.7 20.7 [96]
+PtPdCoNiMn 1mKOH 13 29.6 [91]
+PtFeCoNiIr/C 0.5m 20.3 12.9 [99]
+HSO
+2 4
+NiCoFeMoMn@6h 1mKOH 14 29 [208]
+FeCoNiCuMnHEA 1mKOH 281(100) 53 [110]
+FeCoNiCuMo 6mKOH 68 100 [97]
+NiCoFeMnCrP 1mKOH 253 94.5 [98]
+1DHEMs Al−Ni−Co−Ru−Mo 1mKOH 24.5 30.3 [204]
+PtNiCoFeMo 0.5m 42(100) 21.2 [203]
+HSO
+2 4
+CuNiCoRuIrHEA 1mKOH 22 69 [202]
+NT
+1mKOH 173 93.4 [114]
+CoZnCdCuMnS@CF
+FeCoNiCuMnN/CC- 1mKOH 184 113 [111]
+400
+2DHEMs PdMoGaInNi 0.5m 13 127.6 [205]
+HSO
+2 4
+Pt/HE-LDH 0.5m 42 42 [112]
+HSO
+2 4
+1mKOH 65.9 65.5 [88]
+Co (VMnNiZn) PS
+0.6 0.4 3
+CrFeCoNiZnHES 0.5m 15 105 [92]
+HSO
+2 4
+(MoWNbTaV)S 0.5m 84 90 [93]
+2
+HSO
+2 4
+FeNiCoMnVOx 1mKOH 81 88 [209]
+(FeMnMoNi)Se 1mKOH 30.5 49.6 [210]
+2
+FeCoNiCuP 1mKOH 113 52.4 [34]
+3DHEMs PtPdRuMoNi-HEA 0.1mKOH 25 38 [175]
+PtFeCoNi@HCS 1mKOH 29 136.42 [190]
+(Continued)
+Adv.Mater.2025,37,2506117 2506117(13of39) ©2025TheAuthor(s).AdvancedMaterialspublishedbyWiley-VCHGmbH
+
+www.advancedsciencenews.com www.advmat.de
+Table1.(Continued)
+Strategies Catalysts Electrolyte Overpotential[mV] Tafelslope Refs.
+for10mAcm−2 [mVdec−1]
+Pt-Pd-Ni-Co-Mn 1mKOH 43.7 75.5 [184]
+HEA
+FeCoNiRu-450 1mKOH 40 84 [201]
+PtMoPdRhNi 1mKOH 9.7 25.9 [107]
+PtFeCoNiCuHEA 0.5m 30.7 28.1 [166]
+HSO
+2 4
+0.5m 9 27 [185]
+Pt FeNi Cu MoRu HSO
+34 5 20 31 9 2 4
+Pt IrFe Co Ni 1mKOH 29 44.5 [113]
+26 7 13 22 32
+NiCoMoZnCu 1mKOH 242.9(500) 61.4 [161]
+HEANFA
+V CuCoNiFeMn 1mKOH 50(50) 148 [212]
+1.0
+NNM-HEA@CF 1mKOH 85.2(100) 86.3 [168]
+H-FeCoNiCuMo 1mKOH 21 18.5 [173]
+Mil53MOF 1mKOH 206 118.7 [211]
+CoFeNiCrMnP/NF 1mKOH 51(100) 48 [36]
+HEOC 0.5m 57 34.6 [33]
+HSO
+2 4
+Defect (MoWVNbTa)C 0.5m 156 78 [100]
+HSO
+2 4
+(FeCoNiB ) Pt 1mKOH 27 30.9 [216]
+0.75 97 3
+IrRuRhMoWHEA 0.1mKOH 28 51 [217]
+Pt(Co/Ni)MoPdRh 1mKOH 16.5 26.8 [58]
+HEAs
+HEA-PdPtRhIrCu 1mKOH 15 37 [142]
+CoNiCuZnFeP 1mKOH 318 121.3 [189]
+PdFeCoNiCu- 1mKOH 38.4 29 [215]
+pHENs
+HESAs PtIrCuNiCo 1mKOH 22 / [213]
+PtRuRhPdRe-MoSe 1mKOH 35 90 [106]
+2
+OrderedHEMs PtFeCoCuNi 1mKOH 20 31 [51,214]
+4
+PCPAF-HEA/C 0.5m 24 29
+HSO
+2 4
+FeCoNiAlTi 1mKOH 88.2 40.1 [43]
+NiCoFeMoMn 1mKOH 14 29 [208]
+FeCoNiMnRu/CNFs 1mKOH / 67.4 [121]
+HEI_800/C 1mKOH 128 21 [122]
+(FeCoNi)(RuPt)HEI 1mKOH / 47.1 [127]
+(CoNiRhIrRu)Sb 0.5m 200 / [128]
+3
+HSO
+2 4
+PtRuFeCoNi 0.5m 41.3 / [123]
+HSO
+2 4
+FeCoNiMnMoP 1mKOH 55 65.2 [129]
+Reconstructive 1mKOH 11.8 26.3 [107,181,
+HEMs PtRu Fe Co Ni 1mKOH 40 84 218]
+2.9 0.15 1.5 1.3
+FeCoNiRu-450 3.5%NaCl 37.9 36.2
+NiFeCrVTiHEA
+AlCoCrFeNi 1mKOH 92.89 [133]
+CNFMPO 1mKOH 43 33.5 [134]
+NiCoMoZnCu/CFC 1mKOH / 61.4 [212]
+(Continued)
+Adv.Mater.2025,37,2506117 2506117(14of39) ©2025TheAuthor(s).AdvancedMaterialspublishedbyWiley-VCHGmbH
+
+www.advancedsciencenews.com www.advmat.de
+Table1.(Continued)
+Strategies Catalysts Electrolyte Overpotential[mV] Tafelslope Refs.
+for10mAcm−2 [mVdec−1]
+FeCoNiVCrZnHEA 1mKOH 249 50 [135]
+FeCoNiCuPdHEA 1mKOH 29.7 47.2 [109]
+Functionalized HEA@Pt 1mKOH 13.7 30.6 [112,225]
+HEMs Pt/HE-LDH 0.5m 42 42
+HSO
+2 4
+HEPi/C 0.5m 40 36 [119]
+HSO
+2 4
+Pt/(FeCoNiCrAl) O 1mKOH 22 25.9 [228]
+3 4
+Pt- 0.5m 12 10 [219]
+(LaCeSmYErGdYb)O HSO
+2 4
+PtNiCuMnMoHEA 1mKOH 44 74 [231]
+PtCoNiMoRh@Rh 0.5m 9.1 8.74 [232]
+HSO
+2 4
+MoS@HEP 1mKOH 71 58 [233]
+2
+HEA/MoS/MoP 1mKOH 148 71.98 [270]
+2
+PtRhCoNiCu/CC 1mKOH 19 26.9 [222]
+V-CoP@HE 1mKOH 33 47.44 [271]
+2
+NiMoCoMnLa@Ni 1mKOH 146 79 [226]
+HEA/CNT-10 1mKOH 30.7 71 [191]
+MoS@HEP 1mKOH 71 58 [233]
+2
+1mKOH 200 24 [230]
+FeCoNiWCuOOH@Cu
+AC-HEA- 0.5m 9.5 31 [220]
+CuAgAuPtPd HSO
+2 4
+NiFeCoZn/NiZn- 1mNaOH / 46.58 [229]
+Ni/NF
+FeCoNiMnZn/N- 1mKOH 184 112 [221]
+CNT
+CoNiCuMgZn- 1mKOH 158 36.1 [227]
+40@C
+1mKOH 223 39.8 [192]
+Fe Co Ni Mo Al
+20 20 20 20 20
+0.5m 40 36 [119]
+(WNiCoMoRu)PO/C HSO
+x 2 4
+H ,remainsunchangedfromthatinacidicmedia.Theadditional tronic properties. The synergistic interactions among multiple
+2
+water dissociation step introduces an extra energy barrier and metal elements in HEMs may significantly enhance their cat-
+leads to a higher overpotential for HER in alkaline conditions. alytic performance for HER. PdPtRuRhAu HEAs with a parti-
+Therefore,highlyefficientelectrocatalystsareessentialforreduc- clesizeof3.14nmhavedemonstratedexceptionalHERperfor-
+ingtheoverpotentialandimprovingthecatalyticperformanceof mance, with negligible activity loss over 100 h at high current
+HER.Amongvariouscatalysts,HEMshaveemergedaspromis- densitiesof500and1000mAcm−2.ThePd-Aubridgesiteshave
+ingcandidatesforHERduetotheiruniqueproperties,includ- beenidentifiedastheactivesitesforHER.[44]Moreover,alloying
+ingthehigh-entropyeffect,latticedistortioneffect,andcocktail thesenoblemetalswithtransitionmetalsisalsoaneffectivestrat-
+effect.[198–200] egytoenhanceHERperformancewhilesimultaneouslyreduc-
+ingnoblemetalusage.Thetypesandcompositionsofalloying
+transitionelementsarehighlytunable,allowingforbroadflexi-
+4.1.1.PristineNobleMetal-BasedHEMs bilityincatalystdesign.AnovelPtPdNiCoMnHEAhasbeenpre-
+paredbyroom-temperatureelectrodepositionmethod.[201]Theo-
+Preciousmetal-basedmaterials,suchasPt,Ru,Pd,Rh,andAu, reticalcalculationsrevealedthatthenoblemetals,surfacePt,and
+havelongbeenconsideredthebenchmarkforHER,duetotheir Pd sites exhibited optimized hydrogen adsorption capabilities,
+outstandingintrinsicactivity,favorableelectronicstructures,and servingastheprimaryactivesites.TheNiandCospecieswith
+robust stability. Alloying these noble metals together to form their high density of states near the Fermi level facilitated the
+HEMscanleadtothedevelopmentofuniquestructuralandelec- electrontransferandacceleratetheHERkinetics(Figure8a,b).
+Adv.Mater.2025,37,2506117 2506117(15of39) ©2025TheAuthor(s).AdvancedMaterialspublishedbyWiley-VCHGmbH
+
+www.advancedsciencenews.com www.advmat.de
+Table2.SummaryofHEMsfortheOER.
+Strategies Catalysts Electrolyte Overpotential[mV] Tafelslope Refs.
+for10mAcm−2 [mVdec−1]
+0DHEMs RuMnFeMoCo 0.5m 170 49.7 [20]
+HSO
+2 4
+IrFeCoNiCu-HEA 0.1m 302 58 [164]
+HClO
+4
+(RuIrFeCoNi)O 0.5m 261 56.35 [239]
+2
+HSO
+2 4
+FeNiCuWRu 1mKOH 267 32.4 [234]
+PtFeCoNiMnGa 1mKOH 243 40.2 [183]
+HEA
+1mKOH 281 47.5 [235]
+FeCoNiMnRuLa/CNT
+IrRuNiMoCo 0.5m 243 56.2 [53]
+HSO
+2 4
+IrPdCuFeNiCoMo 0.5m 235 51 [27]
+HSO
+2 4
+FeCoNiPdW 1mKOH 227 33 [182]
+(FeNiCoCrMnV) 1mKOH 247 45 [170]
+HEO
+CoFeNiCrMnHEO 1mKOH 307 34.7 [25]
+1mKOH 325 51.2 [151]
+La(CrMnFeCoNi)O
+2 3
+(CrMnFeCoNi)Sx 1mKOH 295(100) 66 [29]
+FeCoNiMoWHEA 1mKOH 233 36.7 [54]
+1mKOH 250 / [236]
+HEOH(FeNiCoCrMn)
+Cl
+FeCoNiCuMn 1mKOH 383(0.5) / [110]
+CoFeNiMnMoPi 1mKOH 277.5 74 [237]
+FeCoNiCuMo-O 1mKOH 272 41 [170]
+1DHEMs AlNiCoRuMo 1mKOH 250 54.5 [204]
+AlNiCoIrMonp-HEA 0.5m 233 55.2 [160]
+HSO
+2 4
+FeCoNiCuPd 1mKOH 194 39.8 [109]
+CrMnFeCoNi 1mKOH 360 41 [245]
+HESOs
+2DHEMs (FeCoNiMoRu) O 1mKOH 199 40 [241]
+3 4
+CoCuFeAgRu 1mKOH 280 70.7 [26]
+FeCoCuMnRuB 1mKOH 233 61 [108]
+1mKOH 199 48.8 [41]
+CoCuFeMoOOH@Cu
+CoFeMnCuZn 1mKOH 267 45 [89]
+CoFeNiMoWTe 0.5m 373 40.6 [187]
+HSO
+2 4
+FeCoMoW 1mKOH 332 63.6 [90]
+(CrFeCoNiMo) O 1mKOH 255.3 37 [32]
+3 4
+1mKOH 200 23 [230]
+FeCoNiWCuOOH@Cu
+FeCuCoNiZn 1mKOH 236 43 [240]
+3DHEMs M-RuIrFeCoNiO 0.5m 189 49 [85]
+2
+HSO
+2 4
+(RuSnSbReF)Ox 0.5m 156 23.87 [177]
+HSO
+2 4
+(Continued)
+Adv.Mater.2025,37,2506117 2506117(16of39) ©2025TheAuthor(s).AdvancedMaterialspublishedbyWiley-VCHGmbH
+
+www.advancedsciencenews.com www.advmat.de
+Table2.(Continued)
+Strategies Catalysts Electrolyte Overpotential[mV] Tafelslope Refs.
+for10mAcm−2 [mVdec−1]
+1mKOH 310 88.7 [65]
+PtPdFeCoNi/HOPNC
+ZnNiCoIrMn 0.5m 237 46 [69]
+HSO
+2 4
+FeCoNiRu 1mKOH 306 45 [107]
+MnCoNiCuZn 1mNaOH 300 57 [246]
+NiFeCoMnOOH 1mKOH 194 67.96 [171]
+FeCoNiMnMo 1mKOH 279 56.1 [195]
+FeNiCoCrMnS2 1mKOH 199 39.1 [141]
+FeCoNiMoCrOOH 1mKOH 172 35.53 [64]
+MnFeCoNiVPS 1mKOH 245 63.43 [197]
+ZnCoNiFeV 1mKOH 253 49 [68]
+FeCoNiCuYP/C 1mKOH 259 64 [67]
+HE-MHOFs 1mNaOH 410(100) 57 [246]
+FeNiCoCrMn 1mKOH 229 40 [71]
+Ni-HEA 1mKOH 217 46.3 [243]
+FeCoNiMoMn 1mKOH 218 53 [244]
+Defect CoFeMnCuZn 1mKOH 267 45 [245]
+1mKOH 253 64 [180]
+(CrMnCoNiFe) BO
+0.2 x
+FeCoNiCuMoB 1mKOH 201 41.3 [116]
+CrMnFeCoNi 0.1mKOH 265 37.9 [251]
+HEOs-Ov 1mKOH 284 53 [143]
+FeCoNiMnW@CCC 1mKOH 253 41 [188]
+FeCoNiCrMn 1mKOH 282 64.3 [249]
+HESAs FeCoNiRu-HESAC 1mKOH 280 / [248]
+1mKOH 253 51.75 [247]
+(FeCoNiCrCuAl)S@La
+OrderedHEMs MCPS 0.1mKOH 288 27.7 [55,130]
+Al NiCoCrMo 1mKOH 327 168.91
+0.5 0.5
+Reconstructive FeNiCoCrXS 1mKOH 199 39.1 [107,136,
+2
+HEMs (CoNiFeCuCr)Se 1mKOH / 46.78 141]
+x
+FeCoNiRu-450 1mKOH 243 45
+FeNiCoCrMnV 1mKOH 220 / [170]
+NiFeCoMnAl 1mKOH 190 47.62 [120]
+AlCoCrFeNi 1mKOH / 39.7 [133]
+FeCoNiCuPd/CFC 1mKOH 194 39.8 [109]
+NiCoZnCuMg) 1mKOH 286 136 [258]
+FeO
+2 4
+CNFMPO 1mKOH 252 44.3 [134]
+a-NiFeCoVMo 1mKOH 172 / [137]
+(FeCoMnZnMg) O 1mKOH 240 59 [138]
+3 4
+FeCoNiCrMn 1mKOH 263 50.9 [139]
+FeCoNiCrVB 1mKOH 237 24.2 [259]
+(VFeNiCoCu) O 1mKOH 181 48.49 [260]
+3 4
+HESO
+HES/NF 1mKOH / 47.6 [261]
+FeCoNiZnOOH/NF 1mKOH / 49.2 [252]
+FeCoNiMnBPO 1mKOH 248 42.3 [253]
+x
+1mKOH 201 39.4 [254]
+FeCoNiCuMoOOH/NF
+RuCoNiCuMn-BDC 1mKOH 240 33 [257]
+5
+(Continued)
+Adv.Mater.2025,37,2506117 2506117(17of39) ©2025TheAuthor(s).AdvancedMaterialspublishedbyWiley-VCHGmbH
+
+www.advancedsciencenews.com www.advmat.de
+Table2.(Continued)
+Strategies Catalysts Electrolyte Overpotential[mV] Tafelslope Refs.
+for10mAcm−2 [mVdec−1]
+FeCoNiMnBO 1mKOH 266 64.5 [262]
+x
+HEO-P-1 1mKOH 254 47.4 [35]
+FCNMWO 1mKOH 313 40.95 [255]
+(FeCoNiCuRu)S 1mKOH 193 46 [256]
+2
+1mKOH 257 37.8 [273]
+N@ZrFeCoNiAlOSO
+y 4
+FeCoNiF(OH) 1mKOH 298 56 [10]
+2 4 4
+Functionalized CrZr-HEA-Rgo 0mKOH / 75.33 [24,182,
+HEMs Au -MnFeCoNiCu 1mKOH 213 27.5 196]
+SA
+HE(Ru,Mo)-MOF 1mKOH 267 36.3
+1mKOH 246 51.75 [247]
+(FeCoNiCrCuAl)S@La
+np-HEO/Pt 1mKOH 260 50.5 [268]
+1mKOH 218 35.3 [147]
+Ag@CoCuFeAgMoOOH
+FeCoNiMnCr 1mKOH 261 42.2 [149]
+HEO-NPs@C@HE- 1mKOH / 43.9 [274]
+MOF
+(FeNiCuCoZn) 1mKOH 228 23.6 [269]
+V P
+90-x 20 10
+1mKOH 210 40.3 [275]
+FeCoNiMnCr@MoS-
+2
+C
+HEA/MoS/MoP 1mKOH 230 63.54 [270]
+2
+(CrFeCoNi) O 1mKOH 196 29 [66]
+97 3
+IrRuCoNiCu/CC 1mKOH 166 69.1 [222]
+V-CoP@HE 1mKOH 227 53.77 [271]
+2
+MnCrO@O-HEA 1mKOH 268 51.6 [272]
+2 4
+NiCo(FeCrCoNiAl 1mKOH 381 60.9 [263]
+)Ox
+0.1
+FeCoNiMnCuP/C 1mKOH 239 72.5 [264]
+x
+FeCoNiMo 1mKOH 232 61.47 [265]
+HEA-MoC
+FeCoNiMnCr 1mKOH 255 37.3 [266]
+HEA-HEO
+R-SNCFCA 1mKOH 228 80.52 [267]
+4.5
+HEO/TiCT 1mKOH 360 99 [193]
+3 2 x-0.5
+The PtPdNiCoMn HEA demonstrated an overpotential of only Although low-dimensional nanoparticles offer a high sur-
+22.6mVatacurrentdensityof10mAcm−2 foralkalineHER. face area and numerous active sites, they are susceptible to
+Exceptfornoblemetalsascatalyticsites,thetransitionmetalcan aggregation, which can compromise long-term stability and
+alsobetheadsorptionsitesforHER.Forinstance,Ptcombined catalytic efficiency. In contrast, HER electrocatalysts based
+with transition metals formed ultrasmall and uniformly sized on 1D, 2D, or 3D HEMs further expand their properties and
+Pt Ni Fe Co Cu HEAs(Figure8c),inwhichPtatomsacted kinetics. For instance, 1D HEM structures (e.g., nanowires
+18 26 15 14 27
+aselectronreservoirs,modulatingtheelectronicstructureofthe or nanotubes), can not only facilitate rapid electron transport
+surroundingtransitionmetalstoboostthealkalineHER.[44]Dur- along their longitudinal axis, but also enhance reaction ki-
+ingtheHERprocess,thewatermoleculesinitiallyadsorbedonto netics and structural stability.[202,203] The etched AlNiCoRuMo
+Fesites,whiletheresulting*OHspeciesarestabilizedbyadja- HEAsexhibiteda1Dnanowire-likemorphologywithdiameters
+centhollowsites.H*adsorptionpreferentiallyoccurredathollow ranging from 20 to 100 nm, featuring ultrafine nanopores on
+sitesnearNiandCo(Figure8d),andthissynergisticinteraction the surface.[204] The distinctive 1D nanowire structure pro-
+among the elements collaboratively enhanced the HER perfor- vided efficient pathways for electron transport (Figure 8e),
+mance,achievinganultra-lowoverpotential(𝜂 )ofonly11mV significantly enhancing the structural stability. Remarkably,
+10
+foralkalineHER. the AlNiCoRuMo nanowires maintained 95.2% of their initial
+Adv.Mater.2025,37,2506117 2506117(18of39) ©2025TheAuthor(s).AdvancedMaterialspublishedbyWiley-VCHGmbH
+
+www.advancedsciencenews.com www.advmat.de
+Figure8. a)PDOS(states/eV-atom)forHEAwithandwithouthydrogencoverage.b)H-1sstatesareweaklycoupledwithTM-dstates.a,b)Reproduced
+withpermission.[201]Copyright2024,Wiley-VCH.c,d)TheelementalmappingandthebindingenergymappingofPt Ni Fe Co Cu nanoparticles
+18 26 15 14 27
+(scalebar,5nm).c,d)ReproducedunderthetermsoftheCC-BYCreativeCommonsAttribution4.0Internationallicense.[44]Copyright2020,Springer
+Nature.e,f)HERpolarizationcurvesandlong-termdurabilitytestofAlNiCoRuMo.e,f)ReproducedunderthetermsoftheCC-BYCreativeCommons
+Attribution4.0Internationallicense.[204]Copyright2020,AmericanChemicalSociety.g,h)TEMandHAADF-STEMimagesofPdMoGaInNinanosheets.
+g,h)ReproducedunderthetermsoftheCC-BYCreativeCommonsAttribution4.0Internationallicense.[205]Copyright2022,AmericanChemicalSociety.
+i)HERpolarizationcurvesfornanoporousNiCoFeMoMn.j–k)ThecoloredΔG andΔE comparisonsofSAandun-SA;thepureredareameans
+H* H2O
+thissiteisnoteasytobeadsorbed.l)Thed-PDOSplotsofH OandMo,Mn,NiandFeadsorbedbyH Odirectlyonun-SAsurface.i–l)Reproduced
+2 2
+withpermission.[208]Copyright2022,Elsevier.
+activityafter100hofcontinuousHERtesting,demonstratingthe rapidmasstransportduringthereaction.Moreover,3Dporous
+positiveroleoftheirstructuralstabilityinensuringHERdurabil- frameworks further enhance mass transport and active site
+ity(Figure8f).2DHEMswithlayeredstructuresofferabalance accessibility.[161]Theirinterconnectedporousnetworksimprove
+between active site exposure and robust stability. The unique gasdiffusionandelectrolytepenetration,enablingefficientcatal-
+2D nanosheets can also facilitate charge transfer and optimize ysisatindustrial-scalecurrentdensitieswithlowoverpotentials.
+ΔG , thereby accelerating HER kinetics. 2D PdMoGaInNi Forinstance,Pt(Co/Ni)MoPdRhHEAnanoflowers,assembled
+H*
+HEAnanosheetshavebeensynthesizedusingasolution-phase from ultrathin nanosheets (≈1.68 nm), exhibited remarkable
+method,whichexhibitedagraphene-like,wrinkled,single-phase advantages in alkaline HER.[205] Furthermore, the mesoporous
+face-centered cubic structure and an approximate thickness of 3D structures of PtPdRuMoNi nanospheres achieved by low-
+1.6 nm (Figure 8g,h).[205] These nanosheets demonstrated an temperature triblock copolymer-assisted wet-chemical method
+exceptionally low overpotential of merely 13 mV at a current featuredamesoporesizeof10–12nmandaninter-poredistance
+densityof10mAcm−2,alongwithexcellentlong-termstability of≈16nm.[175]Themesoporousstructurehighlyexposedactive
+forover200hat100mAcm−2inaprotonexchangemembrane sitesandachievesamassactivityof167Ag−1atanoverpotential
+water electrolyzer. This significant durability and performance of 30 mV, far exceeding that of commercial Pt/C (34 A g−1).
+improvement can be attributed to the introduction of Pd to The high entropy properties enable electron transfer among
+protectthisunique2Dlayeredstructure,whichisconduciveto themulti-elements,optimizingthed-bandcenterofPt,Pd,and
+Adv.Mater.2025,37,2506117 2506117(19of39) ©2025TheAuthor(s).AdvancedMaterialspublishedbyWiley-VCHGmbH
+
+www.advancedsciencenews.com www.advmat.de
+Ru, and effectively regulating the adsorption energy of HER demonstrated excellent electrocatalytic performance for HER,
+intermediates. achieving a current density of 10 mA cm−2 at an overpoten-
+tial of 173 mV. 2D materials offer several unique advantages
+due to their ultrathin, atomically layered structures. For in-
+4.1.2.PristineNon-NobleMetal-BasedHEMs stance,Co (VMnNiZn) PS highentropy2Dnanosheetswith
+0.6 0.4 3
+a thickness of ≈2.8 nm were synthesized by combining con-
+While precious metal-based HEMs offer excellent HER cat- ventionalsolid-phasereactionandultrasonic-assistedtechnology
+alytic performance, their high cost and scarcity have driven (Figure 9a).[88] The nanosheet structure enabled it to expose
+the search for alternative materials. Non-precious metal cata- abundantactivesites,achievingalowoverpotentialof65.9mV
+lysts have emerged as promising candidates due to their natu- andaTafelslopeof65.5mVdec−1 foralkalineHER.Moreover,
+ral abundance, cost-effectiveness, and tunable electronic struc- mechanisticinvestigationssuggestthatMnsitesloweredtheen-
+tures. Non-precious metal-based HEMs for HER primarily in- ergybarrierforwaterdissociation,therebyfacilitatingtheVolmer
+clude transition metals such as Ni, Co, Fe, Mo, W, V, Mn, and step,whiletheedgeSsitesandsubstratePsitesservedasactive
+Cr.Differentelementsaregenerallysuitedtodifferenttypesof sitesforhydrogenadsorption,collaborativelyenhancingthealka-
+HEMs and contribute distinct properties that influence HER lineHERperformance(Figure9b).The3Dhierarchicalarchitec-
+performance.[206,207] For instance, Ni, Co, and Fe-based alloys tureswithinterconnectedconductivenetworkscanefficientlyex-
+have been widely used as alkaline HER electrocatalysts due to poseactivesiteswhilemaintainingmechanicalintegrity.Benefit-
+their excellent electrical conductivity and moderate hydrogen ingfromtheadvantageofa3Duniquestructure,NiCoMoZnCu
+bindingenergy.MoandW-basedsulfidesorcarbidescanform HEA nanoflower array (HEANFA) exhibited outstanding HER
+Pt-like active sites and exhibit excellent HER activity. V, Ti, Cr, activity,requiringonly242.9and307.5mVtoachieveindustrial-
+etc. contribute to electronic modulation and structural stabil- levelcurrentdensitiesof500and1000mAcm−2,considerably
+ityinHEMs.Integratingtransitionmetalswithhighlymatched outperformingthecommercialPt/Ccatalyst(365and437mV)
+atomicradiiintoHEMscangeneratehomogeneoussolidsolu- (Figure9c–e).[212]DFTcalculationswereperformedtodetermine
+tions,leveragingcocktaileffectstoboostcatalyticperformance. thewaterdissociationenergybarriersbyinvestigatingeachele-
+For instance, the NiCoFeMoMn HEA nanoparticles achieved a mentinNiCoMoZnCuHEANFAastheactivesite.Theresultsin-
+remarkablylowoverpotentialof≈14mVatacurrentdensityof dicatethattheH OdissociationenergybarriersatCo,Mo,Cu,Ni,
+2
+10mAcm−2,significantlyoutperformingthecommercialPt/C andZnsitesare0.51,0.43,0.76,0.61,and0.39eV,respectively,all
+electrode(32mV)(Figure8i).[208]Amongthemultipleelements, significantlylowerthanthatofpurePt(0.95eV).Thissuggests
+Ni,Co,andFewerethemainactivecentersforHER,promoting that the HEANFA surface facilitated the H O dissociation into
+2
+hydrogenadsorption(ΔG =−0.05,−0.03,and0.01eV)andthe H*duringtheVolmerstep.Additionally,thefreeenergyofthe
+H*
+adsorptionenergyofH O(ΔG =−0.15,−0.19,and−0.3eV). HeyrovskystepatvariousHEANFAsurfacemetalsites(−0.12,
+2 H2O
+(Figure8j–l)Mocontributedbyenhancingwateradsorptionand 0.11,−0.05,and−0.23eV)isalsomarkedlylowerthanthatonPt
+dissociation through strong orbital interactions between its d- (0.23eV),optimizingΔG closertozeroandtherebyenhancing
+H*
+orbital spin density and the O 2p orbital of H O, thereby fur- HERactivity.
+2
+theracceleratingHERkinetics.Inadditiontotheactiveelements
+(Fe,Co,andNi)servingasHERactivesites,thesynergisticef-
+fectswithinHEMscantransformtraditionallyinactiveelements 4.1.3.HighEntropySingleAtomsCatalysts
+(e.g.,Cu)intohighlycompetitiveactivesitesforHER.Ahighly
+active FeCoNiCuMn HEA nanoparticle was developed through Highentropysingle-atomcatalysts(HESACs)maximizetheuti-
+a polymer fiber nanoreactor strategy.[110] The strong local elec- lizationofmetalatomsandoptimizethegeometricstructureof
+tronicinteractionsamongthemultiplemetalsiteswithintheFe- activemetalsforHER.Themetalcationsadjacenttotheactive
+CoNiCuMnHEAenabledCutoserveastheprimaryactivesite metalactaspromoterstoregulatetheelectronicstructure,orbital
+for alkaline HER.This is attributedto itslowest H O dissocia- configuration, and catalytic activity of the active metal through
+2
+tionbarrier(0.54eV)andtheclosestH*adsorption-freeenergy non-bondingandinteraction.Duetothehighenergyofisolated
+(−0.085 eV) to the ideal value of 0 eV. The FeCoNiCuMn HEA metalspecies,theHESACsrequiresubstratestoanchorandsta-
+demonstratedanoverpotentialof281mVatahighcurrentden- bilizethesemultipleisolatedmetalatoms,includingcarbon(e.g.,
+sityof100mAcm−2,surpassingtheperformanceofcommercial carbon black, carbon quantum dots, and graphene.) and non-
+Pt/Ccatalysts(302mV). carbonsubstrates(transitionmetalsulfides,oxides,etc.).Forin-
+Similar to noble metal-based HEMs, transitioning from stance, a one-step laser implantation strategy has been used to
+nanoparticles to higher-dimensional structures (1D, 2D, and anchor Pt, Ir, Cu, Ni, and Co metal atoms on defective carbon
+3D) further accelerates the reaction kinetics of HEMs for black (Figure 9f).[213] The defects on carbon black acted as an-
+HER.[33,209–211] 1D nanowire high-entropy CoZnCdCuMnS ex- choring sites to load 42 wt.% of multiple atoms of high qual-
+hibitedaneedle-likemorphology.[114] Thisuniquestructurenot ity. The cocktail effect results in a mass activity of PtIrCuNiCo
+onlyshortensthediffusionpathwaysofreactantsandproducts HESACwithlownoblemetalloading11timeshigherthanthat
+but also increases the exposure of active sites. Specifically, Co ofcommercialPt/C.Combiningtheoreticalcalculationsandex-
+served as the primary active sites, and the other elements effi- perimentalresults,itisfoundthatthedistributionofeachatom
+ciently modulate the electronic distribution of the active sites, ratioinPtIrCuNiCoHESACsisclosertotheactivitydistribution
+thereby optimizing the H* adsorption energy and achieving of the corresponding metal in the HER volcano diagram, thus
+highHERperformance.In1mKOHsolution,CoZnCdCuMnS achieving excellent catalytic activity (Figure 9g). Furthermore,
+Adv.Mater.2025,37,2506117 2506117(20of39) ©2025TheAuthor(s).AdvancedMaterialspublishedbyWiley-VCHGmbH
+
+www.advancedsciencenews.com www.advmat.de
+Figure9. a)TheCoVMnNiZnPS crystallizesinamonoclinicstructure(spacegroupC2/m),withtop-viewillustrationsdemonstratingthestructural
+3
+evolutionfrompristineCoPS toCoVMnNiZnPS .b)HERfree-energydiagramofdifferentsitesinCoVMnNiZnPS .a,b)Reproducedwithpermission.[88]
+3 3 3
+Copyright2022,AmericanChemicalSociety.c)SEMimageandd)HAADF-STEMimageandEDSmappingofNiCoMoZnCuHEAnanoflower.e)LSV
+curvesofHEANFAandothercomparativecatalystsin1.0MKOHsolution.c–e)Reproducedwithpermission.[212] Copyright2024,Wiley-VCH.f)
+HAADFSTEMimagesofPtSAsinCB.g)CalculateddistributionplotsforPtIrCuNiCoHESACs.f,g)Reproducedwithpermission.[213]Copyright2023,
+AmericanChemicalSociety.h)PolarizationcurvesofPtRuRhPdRe-MoSe andothercomparativecatalystsinacidicandelectrolytes.h)Reproducedwith
+2
+permission.[106]Copyright2024,Wiley-VCH.
+the chalcogens (S, Se) in 2D transition metal dichalcogenides natingwithSewithoutmetallicbondformation(Figure9h).In
+(TMDs)havelonepairsofelectronsandcertainelectronegativ- bothacidicandalkalinemedia,HESAs-01showedexcellentHER
+ity,whichcaninteractwithmetalatomstoachieveastableeffect. activity(𝜂 =32mV,𝜂 =35mV),whichisbetterthan
+10,acid 10,alkaline
+Inaddition,theabundantvacanciesonthesurfaceofTMDscan thestate-of-the-artsingle-atommaterials.Themulti-metalsingle
+actasanchoringsitestostabilizethemetalatoms.Throughthe atoms enhanced the metal–support interaction and further ad-
+substrate-mediatedstrategytocontrolthereversibleredoxreac- justtheelectronicstateofMoSe ,stimulatinghighHERactivity
+2
+tion at the interface of TMDs and transition metal ions, high- andstability.
+atom-densityPtRuRhPdRe-MoSe (HESAs-01)wasobtained.[106]
+2
+Chemically synthesized MoSe contained electron-donating Se
+2
+vacanciesthatendowedredoxcapability,whereastheMovacan- 4.1.4.HighEntropyIntermetallic
+ciesweregeneratedupontheintroductionofPt,Ru,Rh,Pd,or
+Re ions. The incorporated metal cations are reduced by MoSe Compared to the traditional disordered HEMs, HEI possess
+2
+andspontaneouslymigratetooccupytheMovacancies,coordi- higher structural stability, more precise electronic regulation,
+Adv.Mater.2025,37,2506117 2506117(21of39) ©2025TheAuthor(s).AdvancedMaterialspublishedbyWiley-VCHGmbH
+
+www.advancedsciencenews.com www.advmat.de
+moreeffectivesiteisolationeffect,andmultifunctionality.There- ture,duetoamoderatedd-bandcentervalueandtheshielding
+fore, HEI inherits the advantages of HEMs and intermetallic effectofthevacancyforelectrontransfer.Theuniquedefect-rich
+compoundstobepromisingcandidatesforHER.Whenthedis- microstructureandhighconfigurationalentropysynergistically
+orderedHEMstransformintoanorderedHEIstructure,itisusu- boostedtheacidicHERactivity,exhibitingalowoverpotentialof
+allyaccompaniedbyachangeintheelectronicstructure,forex- 156mVat10mAcm−2,outperformingmonometalliccarbides
+ample,adjusting thed-bandcenter. For example, changingthe (238–495mV)andbulkHECs(402mV).Thesefindingsfurther
+annealing temperature and time can effectively adjust the or- reinforce that defect-rich structures, particularly those incorpo-
+der degree of Pt FeCoCuNi nanocrystals to achieve highly or- ratingvacanciesandlatticedistortions,playacrucialroleinen-
+4
+dered,partiallyordered,andfullydisorderedsamples.[51] Com- hancingHERactivity.
+paredwithpartiallyorderedandfullydisorderedPt FeCoCuNi, Defectsengineeringhigh-entropymetallicglass(HEMG)sur-
+4
+inthehighlyorderedsample,thed-bandcenterwaspositioned facescanalsodramaticallyenhanceHERefficiency.Significant
+closesttotheFermilevel,whichsignificantlyimprovedthebind- lattice distortions and stacking faults have been introduced to
+ing affinity of HER intermediates and boosted catalytic effi- thenanoporous(FeCoNiB ) Pt HEMGwithananocrystalline
+0.75 97 3
+ciency. Moreover, the alternating stacking of Pt in the highly surface structure, which optimized atomic configurations and
+ordered Pt FeCoCuNi crystal structure promoted H* coupling modulatedelectronicinteractions.[216]Moreover,suchlatticedis-
+4
+and Fe/Co/Cu/Ni species favor water dissociation, synergisti- tortionsignificantlyenhancestheadsorptionenergyofH OatFe
+2
+callyenhancingtheHERactivity.Asaresult,thehighlyordered andCositesinthestackingfaultsstructure.Duringthewaterad-
+Pt FeCoCuNionlytook20mVtoreachjof10mAcm−2,which sorptionstep,theH OadsorptionenergiesatFeandCositesin
+4 2
+ismuchlowerthantheothertwocounterparts(32and47mV, thestackingfaultsstructurereached−0.70and−0.44eV,respec-
+respectively).Inadditiontotheannealingconditionaffectingthe tively,substantiallyhigherthanthoseonthePt(111)surface.This
+orderdegreeofHEMs,themetalspeciesalsopromotethetrans- indicatesthatdefectsfacilitatetheoptimizationofatomicconfig-
+formationfromdisorderedtoorderedHEIstructure.Forexam- urationsandpromotewateradsorption.IntheHERprocess,sites
+ple,theintroductionofFeinducedthechangeofPtCuPdAgfrom suchasPttop,Pt-Cobridge,andPt-Ni-Nihollowexhibitfavorable
+the L1 phase (PCPAF-HEA/C) to the L1 intermetallic phase ΔG values,servingascriticalactivesites.Notably,thePtsites
+1 0 H*
+(PCPAF-HEI/C).[214] In 0.5 m H SO solution, PCPAF-HEI/C coordinatedwithBatomsdemonstrateΔG valuesclosetozero
+2 4 H*
+showedhighspecificactivity(SA=34.9mAcm−2)andlowTafel (0.0074and0.0312eV),contributingsignificantlytotheenhance-
+slope (29 mV dec−1), which is significantly better than that of mentofHERperformance.Theresultingdefect-richarchitecture
+PCPAF-HEA/C(SA=26.16mAcm−2,Tafelslope=38mVdec−1) enabledultralowoverpotentialsof104mVat1000mAcm−2for
+andPt/C(SA=1.681mAcm−2,Tafelslope=35mVdec−1).The HERunderalkalineconditions,withexceptionallong-termsta-
+excellentalkalineHERactivityofPCPAF-HEI/Ccanbeattributed bility exceeding 200 h at 100 mA cm−2. The lattice distortions
+tothestrongerd–dinteractionandhighentropystabilizationef- can also result in unsaturated oxygen sites to enhance the sur-
+fectinitsorderedstructurecomparedwithPCPAF-HEA/C.Com- faceoxophilicity.Duetothehighentropyeffect,theintroduction
+paredwithpurePt(−0.587eV),theH*ofthePtsiteinPCPAF- ofMoandWcausedlocaltensileandcompressivemicrostrain
+HEI/CwasoptimizedwithaΔG of−0.434eV,whichfurther inIrRuRhMoWHEAsub-nanoparticles(Figure10d–f).[217]These
+H*
+alleviatestheexcessivebindingofhydrogenonthesurfaceand straindefectsgeneratedalargenumberofunmatchedOsiteson
+acceleratesthedesorptionofH . thesurfaceofIrRuRhMoWHEA,resultinginOdefectsthatef-
+2
+fectivelyreducethed-bandcenter.In0.1mKOH,IrRuRhMoW
+HEAachievedaturnoverfrequency(TOF)of5.93H s−1 atan
+2
+4.1.5.DefectiveHEMs overpotential of 70 mV, which is 4.6 times that of commercial
+Pt/Ccatalysts.Therefore,precisecontrolofdefectsiscrucialto
+Defectsplayacrucialroleinmodifyingelectronicstructures,in- improveHERcatalyticactivity.
+creasingactivesites,andimprovingreactionkinetics.Common
+typesofdefectsincludevacancies,dislocations,stackingfaults,
+and voids, all of which play a significant role in boosting the 4.1.6.SurfaceReconstructedHEMs
+HERcatalyticperformance.[215]Wireelectricaldischargemachin-
+ing (WEDM) technique produces ultra-high temperatures fol- Surface reconstruction in HEMs has emerged as a key strat-
+lowedbyrapidquenching,enablingthetransformationofbulk egy for enhancing HER performance and the reconstructed
+(MoWVNbTa)Cintosub-10nmnanoparticles.[100] Interestingly, layers can optimize hydrogen adsorption energy, promote
+high-entropycarbidenanoparticlesexhibitahighdensityofde- efficient water dissociation, and introduce additional active
+fects, including steps, vacancies, and stacking faults, resulting sites. Reconstruction can be induced by electrochemical pro-
+fromtheultrafastquenchingprocess(Figure10a,b).DFTcalcu- cessesorexternalenergyinput.Forinstance,self-reconstructed
+lationswereconductedusingvacancydefectsasarepresentative PtRu Fe Co Ni -Co RuO HEAhasbeenachievedviaelec-
+2.9 0.15 1.5 1.3 2 4
+model.SitescontainingMoorWspeciesshowlowΔG ,sug- trochemically induced oxidation.[181] During cyclic voltamme-
+H*
+gesting they serve as active sites for acidic HER. The DFT cal- try activation in acidic media, the formation of an interfa-
+culation took the vacancy defect as a representative. Sites con- cial Co RuO phase on the HEA surface significantly reduced
+2 4
+tainingMoorWspeciesshowlowΔG ,suggestingtheyserved the Helmholtz layer, promoting enhanced electrolyte interac-
+H*
+as active sites for acidic HER (Figure 10c). Furthermore, when tion (Figure 10g). This structural transition facilitated H O
+2
+surroundedbyvacancydefects,thesesitesexhibitedmorefavor- adsorption at Co2+/Ru3+ sites while weakening H* adsorp-
+ableΔG valuescomparedtothoseintheintactcrystalstruc- tion, thereby accelerating alkaline HER kinetics. This hybrid
+H*
+Adv.Mater.2025,37,2506117 2506117(22of39) ©2025TheAuthor(s).AdvancedMaterialspublishedbyWiley-VCHGmbH
+
+www.advancedsciencenews.com www.advmat.de
+Figure10. a,b)HAADF-STEMimagesandthezoom-insitesofHECNPs.c)Gibbsfree-energydiagramofHER.a–c)Reproducedwithpermission.[100]
+Copyright2022,Wiley-VCH.d)HAADF-STEMimageofanindividualIrRuRhMoW.e)fastFouriertransform(FFT)patternoftheregionin(d).f)3D
+topographicimageofatomicsitesandrelativeintensitydistributionofIrRuRhMoWHEANPs.d–f)Reproducedwithpermission.[217]Copyright2024,
+Wiley-VCH.g)ThestructurereconstructionofHEAs-Co RuO .h)LSVsof5%HEAs-Co RuO andthecomparisonmaterials.g,h)Reproducedwith
+2 4 2 4
+permission.[181]Copyright2025,Wiley-VCH.
+structure demonstrated an exceptionally low overpotential of lution and 55.9 mV in natural seawater at a current density of
+11.8mVat10mAcm−2,withacurrentdensityof41.8mAcm−2 10mAcm−2,surpassingconventionalnon-preciouselectrocata-
+at0.07VversusRHE,outperformingconventionalPt-basedcat- lysts.Thestronginteractionbetweenthehigh-entropymatrixand
+alysts (Figure 10h). External energy input, such as laser etch- theinsitureconstructedoxidelayerplayedacrucialroleinsta-
+ing, could also effectively trigger self-reconstruction and opti- bilizingactivesites,furtherimprovingcatalyticdurability.These
+mize the catalytic activity of HEMs. The NiFeCrVTi HEA un- findingshighlightthepotentialofsurfacereconstructionstrate-
+derwentlaserprocessingtogenerateahierarchicalporousstruc- giesinHEMs,offeringnewinsightsintorationalcatalystdesign
+ture,whichnotonlyfacilitatedelectrontransferbutalsoexposed forhigh-performanceelectrocatalysis.
+abundantactivesites.[218] Laseretchingalsolocallyinducedox-
+idation, forming surface NiOOH/NiO layers, reducing the ad-
+x
+sorption and dissociation energy barriers of H O. Similarly in 4.1.7.FunctionalizedHEMs
+2
+seawater, the optimized Nickel-based high-entropy alloy etched
+by 30 W laser (Ni-HEA-30) catalyst exhibited remarkable HER While pristine, defective, surface reconstructed HEMs provide
+performance, achieving overpotentials of 37.9 mV in NaCl so- aversatileplatformforwatersplitting,furtherfunctionalization
+Adv.Mater.2025,37,2506117 2506117(23of39) ©2025TheAuthor(s).AdvancedMaterialspublishedbyWiley-VCHGmbH
+
+www.advancedsciencenews.com www.advmat.de
+Figure11. a)TheTEMimagesofHEA@Pt.b)ThestabilitytestsofPt,commercialPt/CandHEA@Pt,theinsetisthemassactivityofthecomparative
+catalystandHEA@Pt.a,b)ReproducedunderthetermsoftheCC-BYCreativeCommonsAttribution4.0Internationallicense.[225]Copyright2022,Wiley-
+VCH.c)SEMimageofHEPi/Chybridnanosheets.d,e)HERpolarizationcurvesandoverpotentialofHE-MOFnanosheetsandcomparativecatalysts.
+c–e)Reproducedwithpermission.[119]Copyright2022,Elsevier.f)LinearscanspectrumofPtCoNiMoRh@Rh.g)HR-STEMimage,theinsetisthefast
+Fouriertransformmodeoftheshell–coreregion.h)LSVpolarizationcurvesofPtCoNiMoRh@Rhbeforeandafter5000cyclesinacidicmedium.f–h)
+Reproducedwithpermission.[232]Copyright2024,Wiley-VCH.
+can maximize their catalytic capability.[219–223] Strategies such withPtclustersuniformlystabilizedonaFeCoNiCuHEAcore
+as incorporating single atoms, clusters, nanoparticles, surface has been prepared by ultra-fast shock synthesis and galvanic
+engineering,andforminghybrids,producecocktaileffectsand replacement.[225] Theuniquecore–shellstructureandsynergis-
+havesignificantlyoptimizedtheirperformanceasHERelectro- tic effect between atomic cluster and HEA led to a remarkable
+catalysts.Forinstance,MosingleatomsmodifiedPdPtNiCuZn HERmassactivityof235Ag −1 at−0.05V,whichis9.4times
+Pt
+HEAnanosheetspromotedstrongelectrontransfertoadjacent higher than homogeneous HEA-Pt and 1.9 times higher than
+Ptatoms,increasingtheelectrondensityofPtatomswhileren- commercial Pt/C (Figure 11a,b). Additionally, the HEA@Pt
+deringMoelectron-deficient.[224] Thismodificationalsoshifted catalystexhibitedoutstandinglong-termstability,withnegligible
+thed-bandcenterofthestrainedMo -PdPtNiCuZnsystemup- performancedecayover100hofoperation,furtherdemonstrat-
+1
+ward,reducingantibondingorbitaloccupancyandsignificantly ingtheeffectivenessofHEAsupportinstabilizingPtactivesites.
+altering the binding energies of key reaction intermediates. The integration of HEMs with non-metallic materials, such as
+AtomicclustersornanoparticlesincorporationtoHEMscanalso carbon-basedstructuresandmetal–organicframeworks(MOFs),
+boosttheHERcatalyticperformance.AHEA@Pthybridcatalyst has also garnered significant attention.[226,227] High-entropy
+Adv.Mater.2025,37,2506117 2506117(24of39) ©2025TheAuthor(s).AdvancedMaterialspublishedbyWiley-VCHGmbH
+
+www.advancedsciencenews.com www.advmat.de
+phosphate/carbon (HEPi/C) hybrid nanosheets achieved by togenerateO andH+,aprocessthatismorecomplexandre-
+2
+high-temperature phosphidation with high-entropy MOF quires breaking the strong O─H covalent bonds in H O, lead-
+2
+nanosheets as precursors.[119] The HEPi/C hybrid structure ingtoslowerreactionkinetics.Therearethreeprimarycatalytic
+integrated the unique electronic states and surface properties mechanismsforOER,includingtheadsorbateevolutionmech-
+of high-entropy phosphates with the excellent conductivity and anism (AEM), the lattice oxygen-mediated mechanism (LOM),
+structural stability of carbon, demonstrating remarkable acidic andtheoxidationpathwaymechanism(OPM).InAEM,oxygen
+HERactivity(anoverpotentialofonly40mVat10mAcm−2and evolutionoccursthroughthestepwiseadsorptionandtransfor-
+Tafel slope of 38 mV dec−1) (Figure 11c–e). DFT calculations mationofintermediatessuchas*O,*OH,and*OOH.Incon-
+indicate that the d-band center of high-entropy phosphates trast,theLOMinvolvestheparticipationoflatticeoxygentoen-
+shifted significantly downward compared to single-metal cata- abledirectO─Obondformation,whiletheOPMfacilitatesthe
+lysts,whichhelpsweakentheadsorptionenergyofH*andthus couplingofadjacent*Ointermediateswithouttheformationof
+enhancingtheHERactivity. *OOH.Eachofthesepathwayshasuniqueadvantagesandchal-
+Integrating HEMs with functional components forming in- lenges. The gap between the adsorption energies of *OH and
+terfaces, including metal layers, oxides, carbides, and phos- *OOHinAEM(3.2eV)limitstheOERoverpotentialandshows
+phides, has emerged as a promising strategy to enhance HER poorcatalyticactivity.TheparticipationoflatticeoxygeninLOM
+performance.[228–230] By leveraging the synergistic effects be- can significantly reduce the overpotential, but the generated O
+tweendifferentphases,hybridcatalystscaneffectivelymodulate vacanciesaggravatethecollapseofthecatalyststructureandmay
+activesites,leadingtosuperiorcatalyticactivity.Adual-phasePt- showpoorstability.OPMhashighrequirementsfortheatomic
+NiCuMnMoHEAwithbothFCCandBCCphaseshasbeenpre- structureofthedesignedcatalystandcanonlybetriggeredatthe
+pared via arc melting.[231] X-Ray Diffraction and Transmission optimalatomicspacing.Theaboveissuesfurtherhighlightthe
+electron microscope (TEM) analyses revealed that the unique importanceofspeciallytailoredcatalyststoenhancetheOERcat-
+atomiccoordinationenvironmentatphaseboundariesinduced alyticactivity.
+latticemismatch,generatingstrainfieldsthatmodifiedtheelec-
+tronicstructureandchargetransferbehavior.Thecoexistenceof
+FCCandBCCphasesnotonlyenhancedtheelectricalconductiv- 4.2.1.PristineNobleMetal-BasedHEMs
+ityofthematerialbutalsoimprovedhydrogenadsorptionenergy,
+furtherfacilitatingalkalineHERperformancewithanoverpoten- Noble-metal-based HEMs, incorporating elements like Ru, Ir,
+tialof44mVforacurrentdensityof10mAcm−2.Moreover,the Rh, and Pt, modulate electronic structures and oxygen adsorp-
+core–shell architectures PtCoNiMoRh@Rh have been achieved tion energies to enhance catalytic efficiency and stability. The
+viaaone-stepwetchemicalmethod,whicheffectivelyprotected diverse structural configurations of these materials, spanning
+theinnertransitionmetals,preventingdissolutionandmaintain- fromatomic-scaleclusterstoextendedframeworks,enablepre-
+ingstructuralintegrityunderharshelectrochemicalconditions cisecontroloveractivesitedensityandreactionkinetics.Bysys-
+(Figure11f,g).[232]Thecatalystsdemonstrateremarkablestability tematicallytuningthecompositionandmorphologyofHEMs,it
+withtheoverpotentialincreasedbyonly1mVafter5000cycles canpavethewayfortherationaldesignofnext-generationelec-
+(Figure11h).Moreover,themassactivitiesofPtCoNiMoRh@Rh trocatalysts.0Dhigh-entropynanoparticleshavegarneredsignif-
+were5.8,2.79,and91.8timeshigherthanthatofRh/Cinacidic, icantattentionforOERduetotheirultra-smallsize,whichmaxi-
+neutral,andalkalineelectrolytes,indicatingthemodificationef- mizesthenumberofexposedactivesitesandfacilitateselectron
+fectofHEAcorewiththeRhshellinenhancingHERcatalytic transfer.[234–238] Ru-containingHEMseffectivelyimprovethein-
+performance.IncorporatingactivecomponentsintoHEMscre- stabilityoftraditionalRu-basedmaterialsinacidicOER.Forex-
+atesheterostructuresinducingcocktaileffectsandmoreexposed ample,single-phasesolidsolutionRuMnFeMoConanoparticles
+active sites. The stabilization of FeCoNiCrMn on MoS , form- (diameterof≈10–20nm)werepreparedusingcarbonfelt(CF)as
+2
+ing1DMoS @HEPhybridnanowires,inducedstrongelectron the substrate under a rapid Joule heating synthesis method.[20]
+2
+transferfromMoS tothehigh-entropyphase.[233]Thiselectronic In 0.5 m H SO electrolyte, RuMnFeMoCo exhibited an over-
+2 2 4
+modulation effectively lowers the free energy of hydrogen ad- potential of 170 mV at 10 mA cm−2 and maintained stable op-
+sorption (ΔG ) at the edge active sites of MoS , thereby sig- eration for 1000 h under these conditions. The excellent OER
+H* 2
+nificantly enhancing the HER performance. The MoS @HEP activity and stability of RuMnFeMoCo were due to the cock-
+2
+hybrid nanowires exhibited outstanding alkaline HER perfor- tail effect of multiple metals, which weakens the adsorption
+mance,achievinganoverpotentialof71mVatjof10mAcm−2. energy of oxygen-containing intermediates and promotes the
+formation of *OOH.[132] The post-characterization further con-
+firms that RuMnFeMoCo maintained the geometric and elec-
+4.2.OxygenEvolutionReaction tronicstructure,showingexcellentdurability.Thecorrosionre-
+sistanceofIrprovidesanoptionfordesigningHEMcatalystsfor
+TheOERisakineticallysluggishandcomplexprocessinvolving acidicOER.IrFeCoNiCu-HEAnanoparticles(averagesize≈20–
+fourproton-coupledelectrontransfers,whichisacriticalbottle- 200 nm) were synthesized on carbon paper using microwave-
+neckinelectrochemicalwatersplitting.Dependingontheacid- assistedimpactsynthesis.Duringtheelectrochemicalactivation,
+ityandalkalinityoftheelectrolytesolution,theOERundergoes thesurfacetransitionmetalsofIrFeCoNiCu-HEAgraduallydis-
+differentreactionprocesses.Inalkalineconditions,thehydroxyl solvedinacidicconditions,forminganIr-richlayerwithathick-
+groupasthereactantisgraduallyoxidizedtoformO andH O. nessof≈2–6nmonthesurfaceofthenanoparticles.Theinter-
+2 2
+In contrast, in acidic electrolytes, water molecules are oxidized nalundissolvedtransitionmetalshaveanelectronicregulation
+Adv.Mater.2025,37,2506117 2506117(25of39) ©2025TheAuthor(s).AdvancedMaterialspublishedbyWiley-VCHGmbH
+
+www.advancedsciencenews.com www.advmat.de
+Figure12. a)LSVpolarizationcurvesofIrRu-HEOandcomparativesamplesinacidicmedium.b)Overpotentialcomparison.c,d)OERGibbsfreeenergy
+diagramsandPDOSforIrRu-HEO.a–d)Reproducedwithpermission.[239] Copyright2024,Elsevier.e)HRTEMimageofthedealloyedAlNiCoRuMo
+nanowires.f)Tafelcurvesofpreparedsamples.e,f)Reproducedwithpermission.[204]Copyright2020,AmericanChemicalSociety.g)STEMimagesof
+AlNiCoIrMoHEA.h)OERpolarizationcurvesofallthesepreparedsamples.g,h)Reproducedwithpermission.[160] Copyright2025,Elsevier.i)SEM
+imagesof(FeCoNiCrMn) O .j)Topviewofthechargedensitydifferenceofthesefourmodels.i,j)Reproducedwithpermission.[241]Copyright2024,
+3 4
+RoyalSocietyofChemistry.
+effectonthesurfaceactiveIr,achievingalowoverpotential(𝜂) introductionofmetalMotoNWsmakesthee orbitaloccupancy
+g
+of302mVforacurrentdensityof10mAcm−2in0.1mHClO . oftheactivesiteRucloserto1,whichoptimizestheadsorption
+4
+ThecoexistenceofIrandRuinHEOscanfurtherpromotethe strengthofmultipleintermediatesintheOERprocess.Similar
+acidicOER.The(RuIrFeCoNi)O (IrRu-HEO)nanoparticles(50– totheperformanceofHE-NWscontainingnoblemetalRu,no-
+2
+60nm)synthesizedbymoltensaltoxidationmethodachievedan blemetalHE-NWscontainingIralsoshowedoutstandingOER
+overpotentialof261mVforacurrentdensityofat10mAcm−2 activity.TheAlNiCoIrMoHEAhasaporousnanoligamentstruc-
+in 0.1 m HClO , which was better than other metal oxides ture(diameterof≈100nm),whichpromotesmassandgastrans-
+4
+IrRuO (304mV),FeCoNiO (655mV)andIrFeCoNiO (281mV) port, and active site exposure resulting in a high electrochemi-
+x x x
+(Figure 12a,b).[239] The high OER activity of IrRu-HEO is at- callyactivesurfaceareaof57.6m2g−1forOER(Figure12g).[160]
+tributedtothecomplexmetal─Obonds,whichshiftthed-band Inacidicmedia,theoverpotentialsofAlNiCoIrMoHEAatacur-
+center of Ir and Ru downward under the regulation of mul- rentdensityof10or20mAcm−2areonly233and255mV,respec-
+tiple components, reducing the OER reaction energy barrier tively,whichissignificantlylowerthanthatofIrO (𝜂 =300mV,
+2 10
+(Figure12c,d). 𝜂 =330mV)(Figure12h).TheenhancedOERactivityoftheAl-
+20
+SimilartotheHER,OERelectrocatalystsbasedon1D,2D,or NiCoIrMoHEAisprimarilyattributedtothecovalentnatureof
+3D HEMs further expand their properties and kinetics. For in- theIr─Obond,whichissignificantlypromotedbyModoping.
+stance, the inherent structural flexibility of nanowires provides The high surface-to-volume ratio of 2D high-entropy
+enhanced durability during prolonged OER cycling. High en- nanosheets ensures efficient mass transport, while their
+tropynanowires(HE-NWs)composedofnoblemetalscaninduce uniqueelectronicstates-tunedbymulticomponentinteractions-
+complexelectronicinteractionsbetweendifferentcomponentsin enhancetheadsorptionanddesorptionkineticsofkeyreaction
+asinglephasewithmultiplemetals.Forexample,five-element intermediates.[26,240] 2D (FeCoNiMoRu) O HEOs prepared by
+3 4
+AlNiCoRuMo NWs were prepared by melt spinning combined rapid Joule heating and self-sacrificial template method, pos-
+withalkalitreatment,wherethediameterofthenanowireswas sessedalargeactivesurfacearea,whichisconducivetoshortened
+≈20–100nm.[204]AlNiCoRuMoNWshavestrongerelectronicin- iontransportpaths(Figure12i).[241] (FeCoNiMoRu) O showed
+3 4
+teractions,makingtheirTafelslopeinalkalineelectrolytesaslow excellent catalytic activity (𝜂 = 199 mV, 𝜂 = 266 mV) for
+10 100
+as54.5mVdec−1,revealingfastOERkinetics(Figure12e,f).The OER, which was better than (FeCoNiCrMn) O (𝜂 = 263 mV,
+3 4 10
+Adv.Mater.2025,37,2506117 2506117(26of39) ©2025TheAuthor(s).AdvancedMaterialspublishedbyWiley-VCHGmbH
+
+www.advancedsciencenews.com www.advmat.de
+𝜂 = 364 mV) and (FeCoNiMoMn) O (𝜂 = 362 mV, tentials(both0.34V)withsecondarycontributions(Figure13b,c).
+100 3 4 10
+𝜂 = 416 mV). This is mainly attributed to the fact that Ru Notably,thevariationinadsorptionenergiesatactivesitescorre-
+100
+hasagreaterelectronegativitythanothermetals,whichactedas latesstronglywithlocalstraineffects.Forinstance,Feneighbors
+anelectronacceptortopromotethenucleophilicreactionofH O. expandCo─Obondsandstrengthen*O/*OHbinding,whileMn
+2
+Inaddition,theformedabundantOvacanciesonthesurfaceof andCrneighborscausebondcontractionandweakentheirad-
+(FeCoNiMoRu) O alsopromotedtheOER.3DHEMspresenta sorption.Theseresultshighlighthowtuningatomicradiiofsur-
+3 4
+hierarchicalarchitecturethatintegratesnanoscaleporositywith roundingmetalscanmodulateadsorptionenergiesoftheactive
+interconnectednetworks,promotingenhancedreactantaccessi- sites,offeringatomic-levelinsightintothestructure–activityre-
+bilityandelectrontransport.Thehigh-entropyIr-Ru-basedoxide lationshipinHEOcatalysts.
+RuIrFeCoNiO assembled from nanosheets exhibited excellent Similar to noble metal-based HEMs, transitioning from
+2
+OERperformanceinacidicmedia(𝜂 =189mV),whichissu- nanoparticles to higher-dimensional structures (1D, 2D, and
+10
+periortothoseofcommercialRuO (𝜂 =253mV)andC-Ir/C 3D) further accelerates the reaction kinetics of HEMs for
+2 10
+(𝜂 = 292 mV).[242] The 3D interconnected stacked nanosheet OER. 1D (CrMnFeCoNi) O (CN-NFs) spinel-structured oxide
+10 3 4
+structure significantly increased the specific surface area and nanofibers obtained by electrospinning are composed of poly-
+effectively exposed active sites.[243,244] Under multi-element hedral nanoparticles, resulting in abundant pores on their sur-
+modulation, Ru as the active sites efficiently transfer electrons faces(Figure13d,e).[245]The(CrMnFeCoNi) O (CN-NFs)spinel
+3 4
+to surrounding metal elements, which increases the bonding oxide exhibited a lower Tafel slope of 59.6 mV dec−1 than
+state of the metal d state and the oxygen 2p state and reduces those of 62.5 mV dec−1 of (CrMnFeCoZn) O (CZ-NFs) and
+3 4
+theantibondingstateseffectivelypromotingthestabilityofthe 59.6 mV dec−1 of (CrMnFeNiZn) O (NZ-NFs) when replacing
+3 4
+RuIrFeCoNiO structure.Figure12jshowsthevalencecloudof Ni or Co by Zn for alkaline OER, which is mainly due to the
+2
+themetalatomdstateandtheoxygenatompstate.Additionally, largerradiusofZn2+ionsleadingtothedestructionofthetetra-
+theacid-resistantpreciousmetalIr,alongwithtransitionmetals hedral structure and reducing the OER activity (Figure 13f).
+Fe, Co, and Ni, further stabilizes lattice oxygen, shifting the In recent years, 2D nanosheet materials represented by tran-
+oxygenevolutionpathwaytowardtheAEMmechanism. sition metal (oxy) hydroxide have been selected as OER cat-
+alysts. Cross-linked CoCuFeMoOOH nanosheets (thickness of
+≈1.5nm)exhibitedalowerreactionbarrier(1.735eV),stronger
+4.2.2.PristineNon-NobleMetal-BasedHEMs metal-O covalency and O─H bond-breaking ability compared
+with ternary CoCuMoOOH and CoFeMoOOH.[41] The overpo-
+Transition metal-based catalysts have shown great potential for tential of CoCuFeMoOOH is 199 mV (𝜂 ) for alkaline OER,
+10
+OER. Non-noble metal HEMs composed of multiple transition which is better than that of CoFeMoOOH (𝜂 = 253 mV) and
+10
+metals will synergistically regulate the d orbital electrons, re- CoCuMoOOH(𝜂 =273mV).Thesuperioractivityismainlyat-
+10
+distributethecharge,andthusreducethecatalyticreactionen- tributedtotheshort-rangeorderedstructureandtheincreaseof
+ergybarrier.TheelectronicpropertiesofHEMscanbeeffectively high-valentCo3+ speciesinquaternaryCoCuFeMoOOHHEMs.
+tunedthroughstrategicelementselection,withthediverserange 3Dhigh-entropystructuresbasedonnon-preciousmetalscom-
+oftransitionmetalsofferingabundantopportunitiesfordesign- bine high porosity with interconnected conductive networks,
+ingefficientOERcatalysts.Atpresent,elementssuchasFe,Co, maximizing mass and charge transport for efficient OER. A
+Ni,andMnshowinherentperformanceforOER,buttheircat- high-entropy metal hydroxide-organic framework (HE-MHOF)
+alyticactivityremainsunsatisfactory.Therefore,withmetalssuch demonstratedexceptionalOERperformance.[246] The3Darchi-
+as Fe, Co, Ni, and Mn as the main elements, the introduction tecture of HE-MHOF provided abundant active sites for OER,
+ofothernon-preciousmetalelements(Cr,Cu,andTi,etc.)and where the metal cations coordinated with hydroxyl groups and
+thedesignofnanoscale(0D,1D,2D,and3D)structureswillfur- organic linkers create a highly dispersed active site distribu-
+therenhancetheOERperformance.Forinstance,FeNiCoCrMnV tion.Remarkably,theHE-MHOFachieved acurrentdensityof
+HEO0Dnanoparticleswithadiameterrangeof20–80nmwere 100mAcm−2 atalowpotentialof≈1.64VversusRHE.Struc-
+insitusynthesizedoncarbonfibersforefficientOER.InFeNiC- turalanalysisshowedthattheHE-MHOFretainsaNi-MOF-like
+oCrMnVHEO,Fe,Co,andNiareactivesitesforOER,andCr, framework but features lattice distortion from uniformly dis-
+Mn, and V optimize the oxidation state of the active metals to tributedmulti-metalcations,formingastable3Dstructureand
+improvetheintrinsicactivityoftheactivesites.[170]Theintroduc- enablingover100hofstableoperationat10mAcm−2.
+tionofCrcanalsomaximizethesurfaceadsorbedhighlyoxidized
+species and surface oxygen species (O 2−/O−), which are often
+2
+regardedasdescriptorsofenhancedOERactivity.Thus,FeNiC- 4.2.3.HighEntropySingleAtomsCatalysts
+oCrMnVHEOachievedhighalkalineOERactivitywithanover-
+potential of 247 mV at 10 mA cm−2. Moreover, the spinel-type HESACspossessahighdensityofactivesites,breakingthelin-
+HEO incorporating five metal cations (Co, Fe, Ni, Cr, and Mn) earscalebetweenthecatalyticactivityandmetalloadingofcon-
+also demonstrated excellent alkaline OER performance with a ventionalsingle-atomcatalysts(SACs).Inaddition,thedistance
+lowoverpotentialofonly307mVat10mAcm−2(Figure13a).[25] between adjacent metal atoms in HESACs is close enough to
+DFTcalculationsof*OHbindingenergiesatdifferentactivesites beinterconnected,whichisconducivetomulti-electroncoupling
+revealedthatCositesexhibitedthelowesttheoreticaloverpoten- andeffectivediffusionofreactants,makingitsuitableforcatalyz-
+tial(0.29V),contributingmostsignificantlytotheoverallOER ingOER.[247]UndertheevaluationofDFTandmachinelearning
+activity,whileCrandFesitesshowedmoderatelyloweroverpo- (ML),avarietyofmetalatomswerescreenedonthesurfaceof
+Adv.Mater.2025,37,2506117 2506117(27of39) ©2025TheAuthor(s).AdvancedMaterialspublishedbyWiley-VCHGmbH
+
+www.advancedsciencenews.com www.advmat.de
+Figure13. a)OERpolarizationcurvesnormalizedtogeometricareain1mKOHelectrolyte.b)TheoreticalOERoverpotentialsarepresentedas2D
+volcanoplotheatmapsbasedonfirst-principlescalculationsof*Oand*OHbindingenergiesforHEO,withthe*OOHenergyconstrained.c)Dynamic
+redistributionofCr,Co,andFeactivesitesinHEOunderelectrochemicalOERconditions.a–c)ReproducedunderthetermsoftheCC-BYCreative
+CommonsAttribution4.0Internationallicense.[25]Copyright2023,SpringerNature.d)TEMande)HAADF-STEMimagesof(CrMnFeCoNi) O .f)Tafel
+3 4
+curvesof(CrMnFeCoNi) O andcomparisonmaterials.d–f)Reproducedwithpermission.[245]Copyright2023,Wiley-VCH.g,h)SEMandfastFourier
+3 4
+transformation(FFT)-filteredHRTEMofMCPS.i)OERpolarizationcurves,j)TafelcurvesofMCPSandRuO in0.1mKOH.g–j)Reproducedwith
+2
+permission.[55]Copyright2020,Wiley-VCH.
+nitrogen-dopedgraphene,andtheobtainedFeCoNiRu-HESACs porousstructurehasbeenpreparedbyselectivelyetchingeutec-
+showedthehighestOERactivity.[248]Specifically,Coatomsacted tic precursors (FCC and Laves) (Figure 13g,h).[55] As shown in
+asactivesitesforOER,whileFe,Ni,andRusitesefficientlypro- Figure 13i,j, MCPS shows a low overpotential (𝜂 = 0.288 V)
+10
+motedtheintrinsiccatalyticactivityofCositesbychangingthe and Tafel slope (27.7 mV dec−1), which is better than RuO
+2
+dorbitalelectrontransferthroughnon-bondedinteractions.The (𝜂 =0.384V,Tafelslope=106mVdec−1).Thepresenceofabun-
+10
+resultsshowedthattheformationof*OintermediatesistheRDS dantoxidesandhydroxidesonthesurfaceofMCPScouldreduce
+oftheentireOERinFeCoNiRu-HESAC,withatheoreticalover- theOERenergybarrier.Inaddition,Fe,Co,Ni,andCrwereoxi-
+potentialof0.28V. dizedtohighervalencestatesduringtheOERprocess,whichis
+conducivetotheabsorptionofpolarizedmoleculestopromote
+OER. Nb was reduced during the OER process (Nb5+→Nb4+),
+4.2.4.HighEntropyIntermetallic which is conducive to local charge transfer. This local oxida-
+tion/reductionandorderedmulti-activesitesinMCPSpromote
+Multiple active sites and specific atomic arrangements in HEI theOERprocess.
+facilitateOERthroughstepwisereactionsatdifferentsites.Inre-
+centyears,HEIswithorderedstructuressuchasL1 ,B2,Heusler,
+2
+Laves, and C40 have been synthesized and applied in different 4.2.5.DefectiveHEMs
+fields. Unlike the FCC solid solution, the ordered Laves phase
+has strong corrosion resistance. Taking advantage of this fea- Defect engineering plays a crucial role in enhancing the OER
+ture, Laves phase Fe-Co-Ni-Cr-Nb HEI (MCPS) with a layered activityofHEMsbymodulatingelectronicstructure,facilitating
+Adv.Mater.2025,37,2506117 2506117(28of39) ©2025TheAuthor(s).AdvancedMaterialspublishedbyWiley-VCHGmbH
+
+www.advancedsciencenews.com www.advmat.de
+Figure14. a)SchematicdiagramforthesynthesisofCoMnFeNiZnandCoMnFeNiZn-O .b)OERLSVcurvesofCoMnFeNiZn-O andothercomparative
+v v
+samples.a,b)Reproducedwithpermission.[143]Copyright2024,Wiley-VCH.c)X-rayPhotoelectronSpectroscopyofCr2pin(CrMnCoNiFe) BO before
+0.2 x
+andafterOERreaction.d)OERGibbsfreeenergydiagramof(CrMnCoNiFe) BO andcomparativecatalysts.c,d)Reproducedwithpermission.[180]
+0.2 x
+Copyright2024,Elsevier.e)HRTEMimageofFeCoNiCuMoBHEA.f)(Inverse)FFTimagecorrespondingtotheselectedareain(e).g)Stabilitytestof
+FeCoNiCuMoBHEAin1mKOHat800mAcm−2.e–g)Reproducedwithpermission.[251]Copyright2025,Elsevier.
+electrontransport,andoptimizingtheadsorptionenergiesofkey have been prepared via electrospinning and low-temperature
+reaction intermediates (*O, *OH, *OOH), thereby improving calcination.[245] Low-temperature treatment induces a transfor-
+catalytic performance. Various types of defects can be strategi- mation from tetrahedral to octahedral coordination in cations,
+cally introduced into HEMs to boost OER performance.[249,250] leadingtotheformationofO andcoordinatively unsaturated
+Vs
+Vacancydefects(e.g.,oxygenandmetalvacancies)createunsat- metal octahedra (MO ), which served as active sites for OER.
+6-x
+urated coordination sites that enhance catalytic activity, while Specifically, (Cr Mn Fe Co Ni ) O HEO nanofibers
+1/5 1/5 1/5 1/5 1/5 3 4
+structural defects like dislocations and grain boundaries alter calcined at 500 °C exhibited the best OER activity, with the
+thelocalcoordinationenvironmenttofacilitatereactionkinetics. lowest overpotential (360 mV for 10 mA cm−2) and Tafel
+Bypreciselydesigningthesedefects,asynergisticeffectamong slope (41 mV dec−1).[143] Moreover, oxygen vacancies in HEOs
+multiple elements can be achieved, thereby optimizing the can also be introduced through a low-temperature surface
+activity and stability of HEMs for practical OER applications. carbonization-decarbonization strategy (Figure 14a). The re-
+Spinel-type HEO nanofibers rich in oxygen vacancies (O ) sulting CoMnFeNiZn-O not only promoted the pre-oxidation
+Vs v
+Adv.Mater.2025,37,2506117 2506117(29of39) ©2025TheAuthor(s).AdvancedMaterialspublishedbyWiley-VCHGmbH
+
+www.advancedsciencenews.com www.advmat.de
+process for faster OH− adsorption but also enabled a unique vationsconfirmedsignificantmorphologicalchangesinFeNiC-
+bridge-sitepathwaythatfacilitateseasierdeprotonation,thereby oCrMnVHEO,includingtheformationofsmallernanoparticles
+enhancing its OER performance (Figure 14b). Beyond oxygen andSACs.[141]ThereconstructedFeNiCoCrMnVexhibitedexcep-
+vacancies,metalvacanciesserveasequallycriticalstructuralfea- tionalOERperformancewithanoverpotentialofonly220mVat
+turesthatmodulatetheelectronicconfigurationandenhancethe currentdensityof10mAcm−2.Interestingly,theleachingpro-
+intrinsic catalytic performance of high-entropy materials. The cessnotonlyexposesadditionalactivesitestoimproveOERac-
+high entropy metal borate (CrMnCoNiFe) BO generated Cr tivitybutalsofacilitatesself-healingthroughsurfacemigration,
+0.2 x
+vacanciesduringtheOERprocess(Figure14c),whicheffectively minimizing active site loss and enhancing stability. The intro-
+promoted the charge transfer between OER intermediates and ductionofhigh-valentmetalsMoandWeffectivelyregulatedthe
+adjuststheadsorptionstrength.[180]Inaddition,unlikeotherqua- OER activity and stability of high-entropy layered oxides FeCo-
+ternarymetaloxides,theRDSof(CrMnCoNiFe) BO changed MoW.ThecompensatorsMoandW,andthehighentropyprop-
+0.2 x
+fromthe*O→*OOHsteptothe*OH→*Ostep,andthereaction ertiesofFeCoMoWthemselves,repairedthelossofsiteCo2+.In
+energybarrierdecreasesfrom0.302–0.867eVto0.259eV,which boratebuffer(KB,pH=14)withasmallamountofCo2+inten-
+i
+showsthatHEMscanadjusttheRDSandthusenhancetheOER tionallyadded,itcanbemaintainedat1.56VversusRHEforup
+activity(Figure14d).Inalkalinemedia,(CrMnCoNiFe) BO ex- to100h.
+0.2 x
+hibitedexcellentOERperformancewithanoverpotentialofonly Additionally, surface reconstruction has become a powerful
+236mV(𝜂 )at10mAcm−2 andaTafelslopeof64mVdec−1, method for tuning the structure and electronic properties of
+10
+which is better than (MnCoNiFe) BO (𝜂 = 267 mV, HEMs,significantlyenhancingtheircatalyticperformance.Un-
+0.25 x 10
+90.6mVcm−1),(CrCoNiFe) BO (𝜂 =267mV,99.3mVcm−1), der electrochemical conditions, HEMs, particularly HEAs and
+0.25 x 10
+(CrMnNiFe) BO (𝜂 = 253 mV, 99.8 mV cm−1), high-entropy metal compounds, often undergo in situ surface
+0.25 x 10
+(CrMnCoNi) BO (𝜂 = 253 mV, 84.9 mV cm−1), and oxidation or reduction, forming metastable (oxy)hydroxides or
+0.25 x 10
+(CrMnCoFe) BO (𝜂 =256mV,102.8mVcm−1). oxides that act as active sites for OER. Usually, the presence
+0.25 x 10
+DesigningstructuraldefectstructuresinHEMscanfine-tune of Fe, Co, and Ni elements facilitates self-reconstruction in
+theatomicandelectronicstructures,therebyoptimizingthead- OER to generate corresponding metal (oxy)hydroxides.[259–262]
+sorption behavior of OER intermediates. FeCoNiCuMoB HEA For example, (Ni Co Zn Cu Mg ) Fe O nanofibers un-
+0.2 0.2 0.2 0.2 0.2 2 4
+electrocatalysts with coherent twin boundaries were prepared derwent surface reconstruction at a lower voltage and gen-
+on Ni foam (NF) by magnetron sputtering, in which abundant erated CoOOH, NiOOH, and FeOOH species with higher
+twinboundariesfacilitatedspontaneouselectronmigrationand charge density, compared with other corresponding single, bi-
+optimizedthed-bandcenter,therebystrengtheningtheadsorp- nary,ternaryandquaternaryoxides.[170]Thesepropertiesendow
+tionandactivationofkeyOERintermediates.[116] Moreover,in- (Ni Co Zn Cu Mg )Fe O withsuperioralkalineOERac-
+0.2 0.2 0.2 0.2 0.2 2 4
+terstitial B-doped HEA films induce HEA films to exhibited a tivity with an overpotential of 286 mV for a current density of
+fivefold twin boundary structure, which optimized the surface 10 mA cm−2, and the Tafel slope of 136 mV dec−1. Moreover,
+electronic structure and improves the charge transfer kinetics FeNiCoCrMnS notonlygraduallytransformedfromtheinitial
+2
+(Figure14e,f).Asaresult,theFeCoNiCuMoBHEAachievedan yolk–shellstructuretoaporoussponge-likemorphology,butalso
+ultra-lowoverpotentialof201mVat10mAcm−2,andmaintained continuously generated metal oxyhydroxides (MOOH) with in-
+long-termstability(120h)(Figure14g).Similarly,CrMnFeCoNi creasingcrystallinityduringtheOERprocess.[90]Inaddition,the
+HEA with twin defects (induced by Cr) and significant lattice sulfideshavebeenoxidizedtogeneratesulfates(SO 2−)during
+4
+distortionsalsoshowedefficientchargetransferandmodulated electrochemicalconditions,andtheformedSO 2−collaboratively
+4
+electronicstructure,achievingexcellentOERperformancewith withMOOHfunctionedastherealactivecentersforOER.The
+anoverpotentialof265mVat10mAcm−2 andaTafelslopeof surfacereconstructedFeNiCoCrMnS achievedcurrentdensities
+2
+37.9mVdec−1.[251] DFTcalculationsrevealedthatthesedefects of10,100,500,and1000mAcm−2atoverpotentialsof199,246,
+significantlyloweredtheenergybarrierfortheRDSofOER,par- 285,and308mV.Itmaintained12000cyclesand55hofcontin-
+ticularlyforthetransitionfrom*Oto*OOH,thusboosttheOER uousoperationof500mAcm−2.
+performance.
+4.2.7.FunctionalizedHEMs
+4.2.6.SurfaceReconstructedHEMs
+SimilartoHER,furtherfunctionalizingHEMswithsingle-atom
+Selectiveleachingordissolutionofsurfaceelementscanexpose doping,metalclusters,heterostructureformation,surfacemod-
+specificactivesites,furtherboostingcatalyticactivity.Duringthe ifications, and hybridization with conductive supports can fur-
+OERprocess,themetalscontinuouslyleachedfromHEMscan theroptimizetheirOERcatalyticproperties.[263–267]Thesestrate-
+leadtodynamicstructuralchangesandfurtheractivationofac- giesintroducecocktaileffectsthatenhanceactivesiteexposure,
+tivesites.[252–257] Forexample,relativelyunstableelements(e.g., tuneelectronicstructures,andimprovereactionkinetics,signif-
+Mn, Cr, and V) in FeNiCoCrMnV HEO gradually leached out icantlyboostingcatalyticefficiencyandstability.Single-atomin-
+fromthenanoparticlesduringtheOERprocess.[258] Thisleach- corporationintoHEMsoffersapowerfulstrategyforoptimizing
+ingeffectexposedmoreactivesites(suchasFe,Ni,andCo)on OERperformancebyfundamentallyalteringthecatalyticmech-
+thecatalystsurface,increasingthenumberofavailablesitesfor anism. For instance, atomically dispersed Au on high-entropy
+bindingreactionintermediatesandtherebyenhancingOERac- MnFeCoNiCuLDHs,achievedacurrentdensityof10mAcm−2
+tivity.Scanningtransmissionelectronmicroscopy(STEM)obser- at an overpotential of only 213 mV for alkaline OER, which
+Adv.Mater.2025,37,2506117 2506117(30of39) ©2025TheAuthor(s).AdvancedMaterialspublishedbyWiley-VCHGmbH
+
+www.advancedsciencenews.com www.advmat.de
+Figure15. a,b)HAADF-STEMimageandatomicstructureschematicsofAu -MnFeCoNiCuLDH.c)PolarizationcurvesofAu -MnFeCoNiCuLDH,
+SA SA
+MnFeCoNiCuLDHandIrO .d)FreeenergyofAu -MnFeCoNiCuLDHandMnFeCoNiCuLDH.a–d)ReproducedunderthetermsoftheCC-BYCreative
+2 SA
+CommonsAttribution4.0Internationallicense.[24]Copyright2020,SpringerNature.e,f)PDOSofHEAandHEA-HEO.g)PolarizationcurvesofHEA-
+HEOandothercomparativecatalysts.e–g)Reproducedwithpermission.[149]Copyright2024,Wiley-VCH.
+is 110 mV lower than that of the pristine MnFeCoNiCu LDH Fe,Mn,andCr3dorbitalsoptimizedtheoverallelectronicstruc-
+(Figure15a–c).[24] Theenhancedactivityisascribedtothehigh ture,providingmoreactivesitesforOER.StrongHEA-HEOin-
+electronegativity of Au single atoms, which strengthened the teractionsalsoenhancestabilitybypreventingmetalaggregation
+metal-oxygencovalency,facilitatedlatticeoxygenactivation,and and disordered oxide shell formation. In 1 m KOH, FeCoNiM-
+triggered the LOM, thereby reducing the OER reaction energy nCrHEA-HEO/CNTachievedanoverpotentialofonly261mV
+barrier (Figure 15d). Furthermore, the high-entropy effect en- at10mAcm−2andmaintainedalowoverpotentialof320Vata
+hancedthestructuralstabilitybysuppressingmetaldissolution highcurrentdensityof500mAcm−2(Figure15g).
+withtheAu -MnFeCoNiCuLDHshowingonlya6.4%dropin Hybridizing HEMs with non-metallic materials, such as
+SA
+currentdensityover700h,confirmingexcellentlong-termdura- carbon-based supports or MOFs, can not only improve con-
+bility.Anotherapproachistointroduceatomicclustersontothe ductivity and stability but also tune the electronic struc-
+HEMsurface,whichwilloptimizetheinteractionofHEMwith ture of active sites.[222,274] FeCoNiAlMo/CNT composites were
+OER active intermediates. A chemical dealloying strategy was formedbyanchoringHEAnanoparticlesontocarbonnanotubes
+used todirectly modifythesurface of(AlCoFeMoCr) O spinel (CNTs),whichenhancedelectrontransportandensureduniform
+3 4
+HEOwithadiameterof≈1.5nm(np-HEO/Pt).[268]Thesurface- nanoparticle dispersion.[179] The FeCoNiAlMo/CNT composite
+distributedPtclustersnotonlyimprovedtheelectronicconduc- exhibited excellent alkaline OER activity, achieving a low over-
+tivityofHEO/Ptbutalsopromotedtheformationof*OOHac- potential of 311 mV at 100 mA cm−2. It maintained the activ-
+tive intermediates and the desorption of oxygen molecules. In itywithoutobviousdegradationina12hchronoamperometric
+addition,thedopingofMoandCrmadethenumberofe elec- test.MOFmaterialscanprovidesynergisticeffectsandarecon-
+g
+tronsofCoFeattheactivesiteclosestto1,significantlyincreas- sideredtobegoodcarriersofmetaloxidenanoparticles.Loading
+ingtheOERactivity.In1mKOHsolution,theoverpotentialof HEMsonMOFsmayobtainnewphysicochemicalpropertiesand
+np-HEO/Ptat10mAcm−2was≈260mV,whichwasbetterthan further enhance OER. For example, the defect-rich MnFeCoN-
+np-HEO(≈290mV). iCu HEO NPs and porous MnFeCoNiCu-MOF/NF (HE-MOF)
+Constructing heterostructures in HEMs can stabilize active werecompositedtoformHEO-NPs@C@HE-MOF.Structurally,
+metal sites via heterointerfaces, thereby enhancing the OER this hybridization creates numerous oxygen vacancies and lat-
+activity and stability.[269,270,222,271–273] For example, FeCoNiMnCr ticedistortions,providingactivesiteswithunsaturatedelectronic
+nanoparticles with heterostructured HEA and HEO dispersed structuresthatenhancetheadsorptionabilityforOH−.Moreover,
+on carbon nanotubes (FeCoNiMnCr HEA-HEO/CNT) were in the porous structure of the HE-MOF promotes mass transfer,
+situsynthesizedviaaCr-inducedself-reconstructionstrategy.[149] preventsHEOnanoparticleagglomeration,andensuresoverall
+HEO formation in the heterostructure weakens the overlap of stability during the OER process. In 1 m KOH solution, HEO-
+3d orbitals, shifting the 3d orbitals of Ni and Co closer to the NPs@C@HE-MOFdeliveredacurrentdensityof50mAcm−2at
+Fermi level, thereby increasing electron density and OER cat- theoverpotentialofonly266mVandalsohighstabilityatacur-
+alytic activity (Figure 15e,f). Simultaneously, the modulation of rentdensityof50mAcm−2 for24h.[275] Additionally,coupling
+Adv.Mater.2025,37,2506117 2506117(31of39) ©2025TheAuthor(s).AdvancedMaterialspublishedbyWiley-VCHGmbH
+
+www.advancedsciencenews.com www.advmat.de
+HEMs with metal compounds, including phosphides, sulfides, (DOS),andchargetransfercharacteristics.Itisalsoimportantto
+andnitrides,facilitateschargetransferandoptimizesadsorption considerelectrontransferbetweentheselectedelements,asthis
+energies.TheOERactivitycanbefurtherimprovedbycombining canleadtosurfacechargeredistributioninthematerialandthus
+2DMoS withHEMs,whichhavealargespecificsurfaceareaand affecttheadsorptionofreactants/intermediates.Additionally,the
+2
+abundantactivesites.2Dflower-like2H-MoS waspreparedon compatibility of elements can be also assessed using theoreti-
+2
+carboncloth(MoS -CC)bythehydrothermalmethod,andamor- cal calculations, helping to avoid a time-consuming “trial-and-
+2
+phousFeCoNiMnCrHEAwasuniformlydepositedonMoS -CC error” approach and determine whether a single solid solution
+2
+(FeCoNiMnCr@MoS -CC)byelectrodepositiontechnology.Itis phasecanformundergivenconditions.Suchadatabasenotonly
+2
+worthnotingthat2H-MoS underwentaredoxreactionduring streamlinesmaterialselectionandoptimizationbutalsoopens
+2
+the electrodeposition process, which strengthened the interac- upexcitingopportunitiesforuncoveringnewmaterialswithen-
+tionbetween2H-MoS andHEA,allowingFeCoNiMnCr@MoS - hancedperformanceforelectrocatalysis.
+2 2
+CC to reach a current density of 10 mA cm−2 at an overpoten-
+tial of only 210 mV in alkaline electrolyte. This is higher than
+5.2.TheScalabilityofHEMSynthesisMethods
+FeCoNiMnCr-CC(239mV)andcommercialRuO (323mV).
+2
+ToenablethepracticaluseofHEMsforhydrogenproductionvia
+watersplitting,itisessentialtodevelopsynthesisstrategiesthat
+5.SummaryandPerspective
+offermoderatetohighproductivity.Currently,thefabricationof
+HEMsmostlyinvolvesharshconditions,includinghightemper-
+HEMs have emerged as a promising class of materials for cat-
+ature,rapidquenching,orhighpressure,significantlylimiting
+alyzingwatersplitting(HERandOER).Withtheiruniquemulti-
+their scalability for large-scale catalyst production. Importantly,
+elementcompositionsandhighconfigurationalentropy,HEMs
+thedevelopmentofadvancedsyntheticstrategiescanenablepre-
+demonstrateseveraladvantagesinwatersplitting,suchastun-
+cisecontrolovermorphology,surfacearea,andporosity,thereby
+able electronic structures, more accessible active sites, and en-
+exposingmoreactivesitesandenhancingcatalyticperformance.
+hanced stability. These properties address some of the critical
+Wet-chemicalroutessuchassol–gelsynthesis,co-precipitation,
+challenges in water splitting for hydrogen production, where
+andhydrothermalorsolvothermalmethodsholdgreatpromise
+materials should be durable, efficient, and cost-effective. This
+forlarge-scaleproduction,offeringfinecontrolovercomposition,
+review aims to detail the evolution of HEMs from their struc-
+morphology,andporosityatrelativelylowtemperatures.Inaddi-
+tural foundations to functional applications in water splitting.
+tion,techniqueslikespraydryingandmechanochemicalsynthe-
+The transition from single-metal to multi-component systems
+siscouldbeconsideredforHEMsynthesisatanindustrialscale
+improvedtheirchemicalstability,enhancedintrinsicproperties,
+duetotheiroperationalsimplicityandcompatibilitywithcontin-
+and leveraged synergistic cocktail effects. The shift from ran-
+uousmanufacturingprocesses.Moreover,greenchemistryprin-
+dom to more ordered atomic configurations has further opti-
+ciples,suchasusingrecyclableprecursors,andenergy-efficient
+mizedtheircatalyticperformance.Additionally,thetransforma-
+heating techniques like microwave or ultrasound-assisted syn-
+tion from bulk materials to nanostructured forms has signifi-
+thesis,mayalsobeconsideredwhenpreparingHEMstoenhance
+cantly exposed more active sites and improved mass transport.
+thesustainabilityoftheproductionprocess.
+The development from pristine to reconstructed, defective, or
+functionalizedHEMsmarksacrucialadvancement,enablingfur-
+thertuningoftheircatalyticproperties.Exceptforthestructure 5.3.ElectrodynamicInstabilityandPhaseSeparation
+andfunctionevolution,thisreviewalsoprovidesanin-depthun-
+derstandingoftheroleseachelementplaysforwatersplitting, StabilityremainsamajorchallengeforHEMs,especiallyinharsh
+whichwillprovideadeepunderstandingofHEMsattheatomic electrolyticenvironmentsforlong-termoperation.Theinherent
+levelandalsoprovideguidanceforfurtherdesignhighlyefficient compositionalcomplexitythatgivesrisetotheiruniqueproper-
+HEM-basedelectrocatalysts. ties also leads to intricate phase behavior, which can result in
+Despitetheirpotentialaspromisingcatalystsforwatersplit- thesegregationofelementsortheformationofundesiredsec-
+ting,thedevelopmentofHEMsinelectrocatalysisremainsinits ondaryphases.Thesephenomenacanseverelyimpactthestruc-
+earlystages,withsignificantchallengestoaddressinthefuture. tural integrity, activity, and durability of HEM-based catalysts.
+Theintegrationofcomputationalmethods,high-throughputex-
+perimentation,andinsitu/operandocharacterizationtoolswill
+becriticalinunravelingthecomplexinterplaybetweenentropy,
+5.1.BuildingaHEMsDatabaseforElementSelection
+enthalpy, and reaction environment to understand the catalytic
+decaymechanism.Exploringthelimitsofphasestabilityandun-
+Theoreticalcalculations(suchasDFT,MD,ML,andANN)can
+derstandinghowphasetransitionsinfluencethelocalstructure
+beusedtobuildaHEMsdatabaseandopennewopportunities,
+andcatalyticperformanceofHEMswillcontributetotherational
+asthecombinationoffiveormoreelementsoffersvirtuallylimit-
+designofmorerobustmaterialsforelectrocatalysis.
+lesspossibilities.Byleveragingemerginghigh-throughputtech-
+niques,itbecomespossibletorapidlygenerateandevaluateavast
+numberofHEMspecimens,significantlyacceleratingmaterials 5.4.IdentificationofActiveCenters
+discoveryanddevelopment.Forexample,selectingelementsfor
+aspecificreactioncanstartbyevaluatingtheirelectronicstruc- The unique multi-element nature of HEMs creates a vast ar-
+ture within HEMs, such as the d-band center, density of states ray of potential active sites with varying atomic arrangements
+Adv.Mater.2025,37,2506117 2506117(32of39) ©2025TheAuthor(s).AdvancedMaterialspublishedbyWiley-VCHGmbH
+
+www.advancedsciencenews.com www.advmat.de
+and chemical environments. However, the individual contribu- Received:March31,2025
+tionsofeachelementtotheoverallcatalyticperformanceremain Revised:May26,2025
+largelyunclear.Moreover,activesitescanevolvedynamicallyun- Publishedonline:June16,2025
+der reaction conditions for HEMs, especially for OER, which
+makestherealactivephasetobere-examinedforwatersplitting.
+Therefore,identifyingtherealactivesitesinhigh-entropywater-
+splitting catalysts remains a significant challenge. Other than [1] J.Luo,J.-H.Im,M.T.Mayer,M.Schreier,M.K.Nazeeruddin,N.-G.
+computationallyevaluatingtheelectronicstructure,reactionin- Park,S.D.Tilley,H.J.Fan,M.Graetzel,Science2014,345,1593.
+termediates,andreactionpathways,thedevelopmentandutiliza- [2] H. Nishiyama, T. Yamada, M. Nakabayashi, Y. Maehara, M.
+tionofHEMdatabasesofferpromisingavenuestouncoveractive Yamaguchi,Y.Kuromiya,Y.Nagatsuma,H.Tokudome,S.Akiyama,
+centersthroughnoveldescriptorsandtoestablishnewmechanis- T.Watanabe,R.Narushima,S.Okunaka,N.Shibata,T.Takata,T.
+ticinsights.Operandoandinsitucharacterizationtechniquesare Hisatomi,K.Domen,Nature2021,598,304.
+[3] T.Takata,J.Jiang,Y.Sakata,M.Nakabayashi,N.Shibata,V.Nandal,
+stronglyrecommendedtodeepenourunderstandingofcatalytic
+K.Seki,T.Hisatomi,K.Domen,Nature2020,581,411.
+behaviorinHEMs.Moreover,thehighlydiversesurfacesitesin-
+[4] H.Xie,Z.Zhao,T.Liu,Y.Wu,C.Lan,W.Jiang,L.Zhu,Y.Wang,D.
+ducedensembleeffectshouldalsocarefullybeconsideredwhen
+Yang,Z.Shao,Nature2022,612,673.
+determining the active sites, as each site may exhibit different
+[5] B.Rausch,M.D.Symes,G.Chisholm,L.Cronin,Science2014,345,
+sensitivitiestoelementaryreactionsteps. 1326.
+[6] T.vonMuenchow,S.Dana,Y.Xu,B.Yuan,L.Ackermann,Science
+2023,379,1036.
+5.5.IntegrationwithAdvancedElectrolyzerSystems [7] P.Zhou,I.A.Navid,Y.Ma,Y.Xiao,P.Wang,Z.Ye,B.Zhou,K.Sun,
+Z.Mi,Nature2023,613,66.
+WhilethestructuraladvantagesofHEMshaveacceleratedtheir [8] Y.-H. Wang, S. Zheng, W.-M. Yang, R.-Y. Zhou, Q.-F. He, P.
+developmentinwatersplitting,theirpracticalapplicationisstill Radjenovic,J.-C.Dong,S.Li,J.Zheng,Z.-L.Yang,G.Attard,F.Pan,
+initsearlystages.TheintegrationofHEMsintoadvancedelec- Z.-Q.Tian,J.-F.Li,Nature2021,600,81.
+[9] Y.-R. Zheng, J. Vernieres, Z. Wang, K. Zhang, D. Hochfilzer, K.
+trolyzersystemsholdsgreatpromiseforenhancingcatalyticeffi-
+Krempl,T.-W.Liao,F.Presel,T.Altantzis,J.Fatermans,S.B.Scott,N.
+ciencyandlong-termdurability.However,italsopresentschal-
+M.Secher,C.Moon,P.Liu,S.Bals,S.VanAert,A.Cao,M.Anand,
+lenges in the scalability of synthesis methods, electrochemi-
+J.K.Norskov,J.Kibsgaard,I.Chorkendorff,Nat.Energy2022,7,55.
+calstability,compatibilitywithexistingelectrolyzercomponents,
+[10] B.Li,J.Zhong,H.Wang,J.Gu,F.Lyu,S.Chen,H.Wu,L.Li,C.Zhi,
+andperformancepredictability due tothe multicomponentna- J.Lu,Y.Y.Li,Angew.Chem.,Int.Ed.2024,63,1521.
+tureofHEMs.Developingstandardizedsynthesisprotocols,ro- [11] F.Fan,B.Lei,X.Song,J.Liang,W.Cai,Y.Zhong,Y.Wu,N.Bao,L.
+bustcomputationaltoolsforpropertyprediction,andadvanced Zhang,Angew.Chem.,Int.Ed.2024,64,202419718.
+in situ characterization techniques to monitor material behav- [12] H.Xu,Z.Jin,Y.Zhang,X.Lin,G.Xie,X.Liu,H.-J.Qiu,Chem.Sci.
+ior under operating conditions will advance the integration of 2023,14,771.
+HEMsinwaterelectrolyzersystems.Moreover,cross-disciplinary [13] P.D.Tran,T.V.Tran,M.Orio,S.Torelli,Q.D.Truong,K.Nayuki,Y.
+Sasaki,S.Y.Chiam,R.Yi,I.Honma,J.Barber,V.Artero,Nat.Mater.
+approachesthatintegratematerialsscience,electrochemicalen-
+2016,15,640.
+gineering,anddata-drivendesignwillbealsoessentialtoacceler-
+[14] H.-W.Liang,S.Brueller,R.Dong,J.Zhang,X.Feng,K.Muellen,Nat.
+atenext-generationelectrolyzertechnologieswithHEMsforsus-
+Commun.2015,6,7992.
+tainablehydrogenproduction.
+[15] X.Xu,Y.Lu,J.Shi,X.Hao,Z.Ma,K.Yang,T.Zhang,C.Li,D.Zhang,
+X.Huang,Y.He,Nat.Commun.2023,14,7708.
+[16] R. Subbaraman, D. Tripkovic, K.-C. Chang, D. Strmcnik, A. P.
+Acknowledgements Paulikas,P.Hirunsit,M.Chan,J.Greeley,V.Stamenkovic,N.M.
+Markovic,Nat.Mater.2012,11,550.
+Y.Z.,J.W.,andX.C.contributedequallytothiswork.Thisworkwassup-
+[17] M.Luo,Z.Zhao,Y.Zhang,Y.Sun,Y.Xing,F.Lv,Y.Yang,X.Zhang,
+portedbytheNationalNaturalScienceFoundationofChina(22209103),
+S.Hwang,Y.Qin,J.-Y.Ma,F.Lin,D.Su,G.Lu,S.Guo,Nature2019,
+the Australian Research Council (FT180100705, DP230101579,
+574,81.
+DE240100868), UTS Collaboration Scheme. All authors are grateful
+[18] J. Zhang, Y. Cao, P. Ou, G. Lee, Y. Zhao, S. Liu, E. Shirzadi, R.
+for support from the “Joint International Laboratory on Environmental
+Dorakhan,K.Xie,C.Tian,Y.Chen,X.Li,Y.C.Xiao,A.Shayesteh
+and Energy Frontier Materials” and the “Innovation Research Team of
+Zeraati,R.K.Miao,S.Park,C.P.O’Brien,J.Ge,X.Zhou,D.Sinton,
+High-LevelLocalUniversitiesinShanghai”.
+OpenaccesspublishingfacilitatedbyUniversityofTechnologySydney, E.H.Sargent,Nat.Commun.2025,16,3553.
+aspartoftheWiley-UniversityofTechnologySydneyagreementviathe [19] L.He,H.Kang,G.Hou,X.Qiao,X.Jia,W.Qin,X.Wu,Chem.Eng.
+CouncilofAustralianUniversityLibrarians. J.2023,460,141675.
+[20] J.Chen,J.Ma,T.Huang,Q.Liu,X.Liu,R.Luo,J.Xu,X.Wang,T.
+Jiang,H.Liu,Z.Lv,T.Yao,G.Wang,X.Zheng,Z.Li,W.Chen,Angew.
+ConflictofInterest Chem.,Int.Ed.2025,64,202503330.
+[21] I. A. Cechanaviciute, R. P. Antony, O. A. Krysiak, T. Quast, S.
+Theauthorsdeclarenoconflictofinterest. Dieckhoefer, S. Saddeler, P. Telaar, Y.-T. Chen, M. Muhler, W.
+Schuhmann,Angew.Chem.,Int.Ed.2023,62,202218493.
+[22] J.W.Yeh,S.K.Chen,S.J.Lin,J.Y.Gan,T.S.Chin,T.T.Shun,C.H.
+Keywords Tsau,S.Y.Chang,Adv.Eng.Mater.2004,6,299.
+[23] B.Cantor,I.T.H.Chang,P.Knight,A.J.B.Vincent,Mater.Sci.Eng.
+elementroles,highentropymaterials,structuralevolution,watersplitting A2004,375,213.
+Adv.Mater.2025,37,2506117 2506117(33of39) ©2025TheAuthor(s).AdvancedMaterialspublishedbyWiley-VCHGmbH
+
+www.advancedsciencenews.com www.advmat.de
+[24] F.Wang,P.Zou,Y.Zhang,W.Pan,Y.Li,L.Liang,C.Chen,H.Liu,S. [55] Z.Ding,J.Bian,S.Shuang,X.Liu,Y.Hu,C.Sun,Y.Yang,Adv.Sus-
+Zheng,Nat.Commun.2023,14,6019. tainableSyst.2020,4,1900105.
+[25] J.Baek,M.D.Hossain,P.Mukherjee,J.Lee,K.T.Winther,J.Leem, [56] K.Huang,X.Cao,Y.Lu,M.Xiu,K.Cui,B.Zhang,W.Shi,J.Xia,L.
+Y.Jiang,W.C.Chueh,M.Bajdich,X.Zheng,Nat.Commun.2023, M.Woods,S.Zhu,Z.Wang,C.Guo,C.Li,Z.Liu,J.Wu,Y.Huang,
+14,5936. Adv.Mater.2024,36,2304867.
+[26] Z. Qiu, X. Guo, S. Cao, M. Du, Q. Wang, Y. Pi, H. Pang, Angew. [57] Y.Wang,W.Luo,S.Gong,L.Luo,Y.Li,Y.Zhao,Z.Li,Adv.Mater.
+Chem.,Int.Ed.2025,64,202415216. 2023,35,2302499.
+[27] M.Long,S.Lai,K.Miao,W.Jiang,W.Fan,X.Kang,Angew.Chem., [58] M.Wei,Y.Sun,F.Ai,S.Xi,J.Zhang,J.Wang,Appl.Catal.BEnviron.
+Int.Ed.2025,64,202419956. 2023,334,122814.
+[28] J. Gild, Y. Zhang, T. Harrington, S. Jiang, T. Hu, M. C. Quinn, [59] H.Wang,Q.He,X.Gao,Y.Shang,W.Zhu,W.Zhao,Z.Chen,H.
+W. M. Mellor, N. Zhou, K. Vecchio, J. Luo, Sci. Rep. 2016, 6, Gong,Y.Yang,Adv.Mater.2024,36,2305453.
+37946. [60] Y.Sun,S.Dai,Sci.Adv.2021,7,abg1600.
+[29] M.Cui,C.Yang,B.Li,Q.Dong,M.Wu,S.Hwang,H.Xie,X.Wang, [61] J.-T.Ren,L.Chen,H.-Y.Wang,Z.-Y.Yuan,Chem.Soc.Rev.2023,52,
+G.Wang,L.Hu,Adv.EnergyMater.2021,11,2002887. 8319.
+[30] J.Hu,Q.Yang,S.Zhu,Y.Zhang,D.Yan,K.Gan,Z.Li,Nat.Commun. [62] X.Yan,Y.Zhou,S.Wang,Adv.Funct.Mater.2025,35,2413115.
+2023,14,5717. [63] Y.Ma,Y.Ma,Q.Wang,S.Schweidler,M.Botros,T.Fu,H.Hahn,T.
+[31] L.Su,H.Huyan,A.Sarkar,W.Gao,X.Yan,C.Addiego,R.Kruk,H. Brezesinski,B.Breitung,EnergyEnviron.Sci.2021,14,2883.
+Hahn,X.Pan,Nat.Commun.2022,13,2358. [64] L.Wang,Z.Gao,K.Su,N.T.Nguyen,R.-T.Gao,J.Chen,L.Wang,
+[32] W.HoochAntink,S.Lee,H.S.Lee,H.Shin,T.Y.Yoo,W.Ko,J.Shim, Adv.Funct.Mater.2024,34,2403948.
+G.Na,Y.-E.Sung,T.Hyeon,Adv.Funct.Mater.2024,34,2309438. [65] M.Xie,Y.Lu,X.Xiao,D.Wu,B.Shao,H.Nian,C.Wu,W.Wang,J.
+[33] S.Jo,K.H.Shin,E.Kim,J.I.Sohn,Small2025,21,2411883. Gu,S.Han,M.Gu,Q.Xu,Adv.Funct.Mater.2025,35,2414537.
+[34] L.Song,C.Ma,P.Shi,X.Zhu,K.Qu,L.Zhu,Q.Lu,A.-L.Wang, [66] Z.-J.Chen,T.Zhang,X.-Y.Gao,Y.-J.Huang,X.-H.Qin,Y.-F.Wang,K.
+GreenChem.2024,26,10921. Zhao,X.Peng,C.Zhang,L.Liu,M.-H.Zeng,H.-B.Yu,Adv.Mater.
+[35] Z.Bai,G.Mustafa,Z.Zhang,C.Meng,Y.Pan,Z.Chen,W.Ma,J. 2021,33,2101845.
+AlloysCompd.2024,1003,175696. [67] X.Li,Z.Xie,S.Roy,L.Gao,J.Liu,B.Zhao,R.Wei,B.Tang,H.Wang,
+[36] K.Li,J.He,X.Guan,Y.Tong,Y.Ye,L.Chen,P.Chen,Small2023,19, P.Ajayan,K.Tang,Adv.Mater.2025,37,2410295.
+2302130. [68] Y.Ding,Z.Wang,Z.Liang,X.Sun,Z.Sun,Y.Zhao,J.Liu,C.Wang,
+[37] P.Rao,Y.Deng,W.Fan,J.Luo,P.Deng,J.Li,Y.Shen,X.Tian,Nat. Z.Zeng,L.Fu,M.Zeng,L.Tang,Adv.Mater.2023,2302860,https:
+Commun.2022,13,5071. //doi.org/10.1002/adma.202306689.
+[38] N.Zhang,X.Feng,D.Rao,X.Deng,L.Cai,B.Qiu,R.Long,Y.Xiong, [69] J.Kwon,S.Sun,S.Choi,K.Lee,S.Jo,K.Park,Y.K.Kim,H.B.Park,
+Y.Lu,Y.Chai,Nat.Commun.2020,11,4066. H.Y.Park,J.H.Jang,H.Han,U.Paik,T.Song,Adv.Mater.2023,35,
+[39] X.Lei,Q.Tang,Y.Zheng,P.Kidkhunthod,X.Zhou,B.Ji,Y.Tang, 2300091.
+Nat.Sustain.2023,6,816. [70] Y.Mei,J.Chen,Q.Wang,Y.Guo,H.Liu,W.Shi,C.Lin,Y.Yuan,Y.
+[40] K.Miao,W.Jiang,Z.Chen,Y.Luo,D.Xiang,C.Wang,X.Kang,Adv. Wang,B.Y.Xia,Y.Yao,Sci.Adv.2024,10,adq6758.
+Mater.2023,36,2308490. [71] T.X.Nguyen,Y.H.Su,C.C.Lin,J.Ruan,J.M.Ting,Adv.Sci.2021,
+[41] L.Zhang,W.Cai,N.Bao,Adv.Mater.2021,33,2100745. 8,2002446.
+[42] S. Gao, S. Hao, Z. Huang, Y. Yuan, S. Han, L. Lei, X. Zhang, R. [72] Y.Yang,X.Sun,G.Han,X.Liu,X.Zhang,Y.Sun,M.Zhang,Z.Cao,
+Shahbazian-Yassar,J.Lu,Nat.Commun.2020,11,2016. Y.Sun,Angew.Chem.,Int.Ed.2019,58,10644.
+[43] Z.Jia,T.Yang,L.Sun,Y.Zhao,W.Li,J.Luan,F.Lyu,L.C.Zhang,J. [73] Y.Oh,J.Theerthagiri,M.L.A.Kumari,A.Min,C.J.Moon,M.Y.
+J.Kruzic,J.J.Kai,J.C.Huang,J.Lu,C.T.Liu,Adv.Mater.2020,32, Choi,J.EnergyChem2024,91,145.
+2000385. [74] X.Liu,W.Liu,M.Ko,M.Park,M.G.Kim,P.Oh,S.Chae,S.Park,A.
+[44] H.Li,Y.Han,H.Zhao,W.Qi,D.Zhang,Y.Yu,W.Cai,S.Li,J.Lai,B. Casimir,G.Wu,J.Cho,Adv.Funct.Mater.2015,25,5799.
+Huang,L.Wang,Nat.Commun.2020,11,5437. [75] K.Li,J.Zhang,R.Wu,Y.Yu,B.Zhang,Adv.Sci.2016,3,1500426.
+[45] D. Wu, K. Kusada, T. Yamamoto, T. Toriyama, S. Matsumura, I. [76] K.L.Zhou,Z.Wang,C.B.Han,X.Ke,C.Wang,Y.Jin,Q.Zhang,J.
+Gueye,O.Seo,J.Kim,S.Hiroi,O.Sakata,S.Kawaguchi,Y.Kubota, Liu,H.Wang,H.Yan,Nat.Commun.2021,12,3783.
+H.Kitagawa,Chem.Sci.2020,11,12731. [77] X.Cao,L.Sun,F.Pan,Z.Wu,D.Li,X.Nie,X.Li,P.Huang,L.Gao,
+[46] Z.Jia,K.Nomoto,Q.Wang,C.Kong,L.Sun,L.C.Zhang,S.X.Liang, C.Gong,Y.Zhao,Q.Cai,J.Zhang,G.Wang,H.Liu,Appl.Catal.,B
+J.Lu,J.J.Kruzic,Adv.Funct.Mater.2021,31,2101586. 2025,375,125415.
+[47] R.Q.Yao,Y.T.Zhou,H.Shi,W.B.Wan,Q.H.Zhang,L.Gu,Y.F.Zhu, [78] J.Li,J.Song,L.Luo,H.Zhang,J.Feng,X.Zhao,X.Guo,H.Dong,S.
+Z.Wen,X.Y.Lang,Q.Jiang,Adv.Funct.Mater.2020,31,2009613. Chen,H.Liu,G.Shao,T.D.Anthopoulos,Y.Su,F.Wang,G.Wang,
+[48] C.Zhan,Y.Xu,L.Bu,H.Zhu,Y.Feng,T.Yang,Y.Zhang,Z.Yang,B. Adv.EnergyMater.2022,12,2200894.
+Huang,Q.Shao,X.Huang,Nat.Commun.2021,12,6261. [79] Y.Wang,Y.Zhao,J.Liu,Z.Li,G.I.N.Waterhouse,R.Shi,X.Wen,T.
+[49] Y.Liao,R.Zhu,W.Zhang,H.Zhu,Y.Sun,J.Chen,Z.Dong,R.Lv, Zhang,Adv.EnergyMater.2020,10,1902860.
+NanoRes.2023,17,3379. [80] Y.Zhao,J.Zhang,Y.Xie,B.Sun,J.Jiang,W.-J.Jiang,S.Xi,H.Y.Yang,
+[50] C.Wang,J.Zhang,K.Miao,M.Long,S.Lai,S.Zhao,X.Kang,Adv. K.Yan,S.Wang,X.Guo,P.Li,Z.Han,X.Lu,H.Liu,G.Wang,Nano
+Mater.2024,36,2400433. Lett.2021,21,823.
+[51] Y.Wang,N.Gong,H.Liu,W.Ma,K.Hippalgaonkar,Z.Liu,Y.Huang, [81] L.Lu,W.Jinhu,S.Limeng,P.Fengying,L.Dongfang,C.Xianjun,G.
+Adv.Mater.2023,35,2302067. Li,Z.Yuxia,G.Hong,L.Qing,Z.Jinqiang,Z.Yufei,L.Hao,Energy
+[52] G.Feng,Y.Pan,D.Su,D.Xia,Adv.Mater.2024,36,2309715. Mater2025,5,500096.
+[53] L.Yao,F.Zhang,S.Yang,H.Zhang,Y.Li,C.Yang,H.Yang,Q.Cheng, [82] W.Moschkowitsch,N.Zion,H.C.Honig,N.Levy,D.A.Cullen,L.
+Adv.Mater.2024,36,2314049. Elbaz,ACSCatal.2022,12,12162.
+[54] R.He,L.Yang,Y.Zhang,D.Jiang,S.Lee,S.Horta,Z.Liang,X.Lu, [83] B.Zhang,L.Wang,Z.Cao,S.M.Kozlov,F.P.GarcíadeArquer,C.
+A.O.Moghaddam,J.Li,M.Ibanez,Y.Xu,Y.Zhou,A.Cabot,Adv. T.Dinh,J.Li,Z.Wang,X.Zheng,L.Zhang,Y.Wen,O.Voznyy,R.
+Mater.2023,35,2303719. Comin,P.DeLuna,T.Regier,W.Bi,E.E.Alp,C.-W.Pao,L.Zheng,
+Adv.Mater.2025,37,2506117 2506117(34of39) ©2025TheAuthor(s).AdvancedMaterialspublishedbyWiley-VCHGmbH
+
+www.advancedsciencenews.com www.advmat.de
+Y.Hu,Y.Ji,Y.Li,Y.Zhang,L.Cavallo,H.Peng,E.H.Sargent,Nat. [111] C. Liu, H. Zhu, S. Lu, F. Duan, M. Du, New J. Chem. 2021, 45,
+Catal.2020,3,985. 22255.
+[84] H.Cai,H.Yang,S.He,D.Wan,Y.Kong,D.Li,X.Jiang,X.Zhang,Q. [112] H.Xu,Y.Liu,K.Wang,L.Jin,J.Chen,H.Chen,G.He,J.Colloid
+Hu,C.He,Angew.Chem.,Int.Ed.2025,64,202423765. InterfaceSci.2025,684,566.
+[85] C.Hu,K.Yue,J.Han,X.Liu,L.Liu,Q.Liu,Q.Kong,C.-W.Pao,Z. [113] Z.Chen,J.Wen,C.Wang,X.Kang,Small2022,18,2204255.
+Hu,K.Suenaga,D.Su,Q.Zhang,X.Wang,Y.Tan,X.Huang,Sci. [114] Y.Lei,L.Zhang,W.Xu,C.Xiong,W.Chen,X.Xiang,B.Zhang,H.
+Adv.2023,9,adf9144. Shang,NanoRes.2022,15,6054.
+[86] H.Zhao,M.Liu,Q.Wang,Y.Li,Y.Chen,Y.Zhu,Z.Yue,J.Li,G.Wang, [115] M.V.Kante,M.L.Weber,S.Ni,I.C.G.vandenBosch,E.vander
+Z.Zou,Q.Cheng,H.Yang,EnergyEnviron.Sci.2024,17,6594. Minne,L.Heymann,L.J.Falling,N.Gauquelin,M.Tsvetanova,D.
+[87] X.Cui,Y.Liu,X.Wang,X.Tian,Y.Wang,G.Zhang,T.Liu,J.Ding,W. M.Cunha,G.Koster,F.Gunkel,S.Nemšák,H.Hahn,L.Velasco
+Hu,Y.Chen,ACSNano2024,18,2948. Estrada,C.Baeumer,ACSNano2023,17,5329.
+[88] R.Wang,J.Huang,X.Zhang,J.Han,Z.Zhang,T.Gao,L.Xu,S.Liu, [116] S.Wang,H.Yan,W.Huo,A.Davydok,M.Zaja˛c,J.Ste˛pien´,H.Feng,
+P.Xu,B.Song,ACSNano2022,16,3593. Z.Xie,J.K.Shang,P.H.C.Camargo,J.Jiang,F.Fang,Appl.Catal.B
+[89] S.Liu,B.Jia,Y.Wang,Y.Zhao,L.Liu,F.Fan,Y.Qin,J.Liu,Y.Jiang, 2025,363,124791.
+H.Liu,H.Zhao,H.Li,W.Zhou,H.Wu,D.Zhang,X.Qu,M.Qin, [117] K.Miao,W.Jiang,Z.Chen,Y.Luo,D.Xiang,C.Wang,X.Kang,Adv.
+Adv.Mater.2024,36,2409530. Mater.2024,36,2308490.
+[90] D.Gao,W.Zhu,J.Chen,K.Qin,M.Ma,J.Shi,Q.Wang,Z.Fan,Q. [118] C.Duan,X.Li,D.Wang,Z.Wang,H.Sun,R.Zheng,Y.Liu,Sustain-
+Shao,F.Liao,M.Shao,Z.Kang,ACSCatal.2024,14,3700. ableEnergyFuels2022,6,1479.
+[91] A.ChandranM,S.Sahoo,A.K.Singh,B.L.V.Prasad,Small2025, [119] Z.Wang,X.Zhang,X.Wu,Y.Pan,H.Li,Y.Han,G.Xu,J.Chi,J.Lai,
+21,2408317. L.Wang,Chem.Eng.J.2022,437,135375.
+[92] V. Buravets, E. Miliutina, V. Burtsev, K. Severa, V. Shilenko, J. [120] M.Han,C.Wang,J.Zhong,J.Han,N.Wang,A.Seifitokaldani,Y.
+Rosenkranzova,P.Hönicke,T.Hrbek,V.Svorcik,O.Lyutakov,Appl. Yu,Y.Liu,X.Sun,A.Vomiero,H.Liang,Appl.Catal.,B2022,301,
+Surf.Sci.2025,681,161600. 120764.
+[93] Z.Wang,X.Chen,Y.Ding,X.Zhu,Z.Sun,H.Zhou,X.Li,W.Yang, [121] J. Hao, Z. Zhuang, K. Cao, G. Gao, C. Wang, F. Lai, S. Lu, P.
+J.Liu,R.He,J.Luo,T.Yu,M.Zeng,L.Fu,J.Am.Chem.Soc.2025, Ma, W. Dong, T. Liu, M. Du, H. Zhu, Nat. Commun. 2022, 13,
+147,1392. 2662.
+[94] Z.Li,K.G.Pradeep,Y.Deng,D.Raabe,C.C.Tasan,Nature2016, [122] N.Kar,A.Leonardi,M.McCoy,R.Selvaraj,S.E.Skrabalak,Angew.
+534,227. Chem.,Int.Ed.2025,https://doi.org/10.1002/anie.202505523.
+[95] X.Li,J.Cao,G.Chen,J.Xie,C.Gu,X.Li,F.C.Walsh,Y.Wang,W. [123] C.-Y.Wu,Y.-C.Hsiao,Y.Chen,K.-H.Lin,T.-J.Lee,C.-C.Chi,J.-T.Lin,
+Hu,ACSNano2025,19,7851. L.-C.Hsu,H.-J.Tsai,J.-Q.Gao,C.-W.Chang,I.T.Kao,C.-Y.Wu,Y.-R.
+[96] M.Jia,J.Jiang,J.Tian,X.Wang,L.Yang,Q.Wu,Z.Hu,NanoRes. Lu,C.-W.Pao,S.-F.Hung,M.-Y.Lu,S.Zhou,T.-H.Yang,Sci.Adv.
+2024,17,9518. 2024,10,adl3693.
+[97] L.Chen,Z.Chen,X.Yao,Z.Carroll,R.Chen,C.Cheng,W.Wang, [124] X.Chen,Q.Wang,Z.Cheng,M.Zhu,H.Zhou,P.Jiang,L.Zhou,Q.
+X.Pang,G.Li,R.Black,K.S.Kim,Y.Zou,C.V.Singh,EnergyFuels Xue,F.Yuan,J.Zhu,X.Wu,E.Ma,Nature2021,592,712.
+2025,39,3611. [125] T. Shen, D. Xiao, Z. Deng, S. Wang, L. An, M. Song, Q. Zhang,
+[98] D.Lai,Q.Kang,F.Gao,Q.Lu,J.Mater.Chem.A2021,9,17913. T. Zhao, M. Gong, D. Wang, Angew. Chem., Int. Ed. 2024, 63,
+[99] Y.Zhang,Z.Wang,L.Wang,L.Zong,Small2024,20,2400892. 202403260.
+[100] S.Niu,Z.Yang,F.Qi,Y.Han,Z.Shi,Q.Qiu,X.Han,Y.Wang,X.Du, [126] J.Hao,T.Wang,J.Cai,G.Gao,Z.Zhuang,R.Yu,J.Wu,G.Wu,S.
+Adv.Funct.Mater.2022,32,2203787. Lu,X.Wang,M.Du,D.Wang,H.Zhu,Angew.Chem.,Int.Ed.2025,
+[101] Y.Chen,X.Zhan,S.L.A.Bueno,I.H.Shafei,H.M.Ashberry,K. 64,202419369.
+Chatterjee,L.Xu,Y.Tang,S.E.Skrabalak,NanoscaleHoriz.2021,6, [127] Y.Liu,J.Cai,W.Zhang,J.Hao,Y.Zhou,X.Pan,H.Zhu,Chem.Com-
+231. mun.2025,61,3195.
+[102] J.Huo,Z.Shen,X.Cao,L.Li,Y.Zhao,H.Liu,G.Wang,Small2022, [128] S.S.Soliman,Z.Mitarotonda,G.R.Dey,R.E.Schaak,Chem.Mater.
+18,2202394. 2025,37,1403.
+[103] J.Guo,J.Huo,Y.Liu,W.Wu,Y.Wang,M.Wu,H.Liu,G.Wang,Small [129] Z.Wang,J.Li,S.Yuan,J.Yang,Z.Jin,X.Tan,J.Dang,W.Mu,G.Li,
+Methods2019,3,1900159. Q.Wang,Chem.Eng.J.2024,497,154650.
+[104] L.Yang,R.He,J.Chai,X.Qi,Q.Xue,X.Bi,J.Yu,Z.Sun,L.Xia,K. [130] G.Liu,R.Yao,J.You,L.Liu,B.Yi,Y.Zhao,Y.Li,H.Zhang,Mater.
+Wang,N.Kapuria,J.Li,A.O.Moghaddam,A.Cabot,Adv.Mater. TodayCommun2024,39,109052.
+2025,37,2412337. [131] F.Xing,J.Ma,K.-i.Shimizu,S.Furukawa,Nat.Commun.2022,13,
+[105] G.Cao,J.Liang,Z.Guo,K.Yang,G.Wang,H.Wang,X.Wan,Z.Li, 5065.
+Y.Bai,Y.Zhang,J.Liu,Y.Feng,Z.Zheng,C.Lu,G.He,Z.Xiong,Z. [132] A.L.Maulana,P.-C.Chen,Z.Shi,Y.Yang,C.Lizandara-Pueyo,F.
+Liu,S.Chen,Y.Guo,M.Zeng,J.Lin,L.Fu,Nature2023,619,73. Seeler,H.D.Abruña,D.Muller,K.Schierle-Arndt,P.Yang,Nano
+[106] Z.Luo,Y.Guo,C.He,Y.Guan,L.Zhang,Y.Li,Q.Zhang,C.He,X. Lett.2023,23,6637.
+Sun,X.Ren,Angew.Chem.,Int.Ed.2024,63,202405017. [133] Y.X.Yu,J.L.Xu,L.W.Zhang,Y.C.Ma,J.M.Luo,Int.J.Hydrogen
+[107] K.Huang,J.Xia,Y.Lu,B.Zhang,W.Shi,X.Cao,X.Zhang,L.M. Energy2024,72,209.
+Woods,C.Han,C.Chen,T.Wang,J.Wu,Y.Huang,Adv.Sci.2023, [134] H.-M.Zhang,L.Zuo,Y.Gao,J.Guo,C.Zhu,J.Xu,J.Sun,J.Mater.
+10,2300094. Sci.Technol.2024,173,1.
+[108] L.Liu,T.Liu,C.Xu,W.Zhao,J.Fan,J.Liu,X.Ma,W.Fu,NanoLett. [135] W.Zuo,Z.Xu,J.Qian,G.Cheng,P.Zhao,Mater.Chem.Front.2025,
+2024,24,2831. 9,325.
+[109] S.Wang,B.Xu,W.Huo,H.Feng,X.Zhou,F.Fang,Z.Xie,J.K.Shang, [136] Z.Jiang,Y.Yuan,L.Tan,M.Li,K.Peng,Appl.Surf.Sci.2023,627,
+J.Jiang,Appl.Catal.,B2022,313,121472. 157282.
+[110] H.Zhu,S.Sun,J.Hao,Z.Zhuang,S.Zhang,T.Wang,Q.Kang,S. [137] B.Ye,H.Liu,C.Li,T.Zhang,Y.Li,X.Liang,R.Chen,T.Tang,F.
+Lu,X.Wang,F.Lai,T.Liu,G.Gao,M.Du,D.Wang,EnergyEnviron. Huang,S.Li,L.Zhang,A.Noori,M.F.Mousavi,X.Xia,Y.Zhang,J.
+Sci.2023,16,619. EnergyChem.2025,108,307.
+Adv.Mater.2025,37,2506117 2506117(35of39) ©2025TheAuthor(s).AdvancedMaterialspublishedbyWiley-VCHGmbH
+
+www.advancedsciencenews.com www.advmat.de
+[138] S. C. Karthikeyan, S. Ramakrishnan, S. Prabhakaran, M. R. [167] Z.Hu,K.Chen,Y.Zhu,B.Liu,J.Shen,Small2024,20,2309819.
+Subramaniam,M.Mamlouk,D.H.Kim,D.J.Yoo,Small2024,20, [168] S.Liu,Y.Wang,T.Jiang,S.Jin,M.Sajid,Z.Zhang,J.Xu,Y.Fan,X.
+2402241. Wang,J.Chen,Z.Liu,X.Zheng,K.Zhang,Q.Nian,Z.Zhu,Q.Peng,
+[139] P.Yang,Z.Jiang,Y.Shi,X.Ren,L.Liang,Q.Shao,K.Zhu,J.Alloys T.Ahmad,K.Li,W.Chen,ACSNano2024,18,4229.
+Compd.2023,947,169699. [169] R.He,L.Yang,Y.Zhang,D.Jiang,S.Lee,S.Horta,Z.Liang,X.Lu,
+[140] A.A.H.Tajuddin,M.Wakisaka,T.Ohto,Y.Yu,H.Fukushima,H. A.OstovariMoghaddam,J.Li,M.Ibáñez,Y.Xu,Y.Zhou,A.Cabot,
+Tanimoto,X.Li,Y.Misu,S.Jeong,J.-i.Fujita,H.Tada,T.Fujita,M. Adv.Mater.2023,35,2303719.
+Takeguchi,K.Takano,K.Matsuoka,Y.Sato,Y.Ito,Adv.Mater.2023, [170] A.Abdelhafiz,B.Wang,A.R.Harutyunyan,J.Li,Adv.EnergyMater.
+35,2207466. 2022,12,2200742.
+[141] T.X.Nguyen,Y.H.Su,C.C.Lin,J.M.Ting,Adv.Funct.Mater.2021, [171] Y.Zhang,J.Kang,H.Xie,H.Yin,Z.Zhang,E.Liu,L.Ma,B.Chen,
+31,2106229. J.Sha,L.Qian,W.Hu,C.He,N.Zhao,Appl.Catal.,B2024,341,
+[142] Q.Mao,X.Mu,K.Deng,H.Yu,Z.Wang,Y.Xu,X.Li,L.Wang,H. 123331.
+Wang,Adv.Funct.Mater.2023,33,2304963. [172] R. He, S. Wang, L. Yang, S. Horta, Y. Ding, C. Di, X. Zhang,
+[143] Y.Liu,C.Ye,L.Chen,J.Fan,C.Liu,L.Xue,J.Sun,W.Zhang,X.Wang, Y. Xu, M. Ibanez, Y. Zhou, S. Mebs, H. Dau, J. N. Hausmann,
+P.Xiong,J.Zhu,Adv.Funct.Mater.2024,34,2314820. W. Huo, P. W. Menezes, A. Cabot, Energy Environ. Sci. 2024, 17,
+[144] K.Gu,X.Zhu,D.Wang,N.Zhang,G.Huang,W.Li,P.Long,J.Tian, 7193.
+Y.Zou,Y.Wang,R.Chen,S.Wang,J.EnergyChem.2021,60,121. [173] C.-L. Huang, Y.-G. Lin, C.-L. Chiang, C.-K. Peng, D. S. Raja, C.-T.
+[145] S.Guan,B.Xu,X.Yu,Y.Ye,Y.Liu,T.Guan,Y.Yang,J.Gao,K.Li,J. Hsieh,Y.-A.Chen,S.-Q.Chang,Y.-X.Yeh,S.-Y.Lu,Appl.Catal.,B
+Wang,ACSCatal.2024,14,17806. 2023,320,122016.
+[146] D.Zhang,Y.Shi,H.Zhao,W.Qi,X.Chen,T.Zhan,S.Li,B.Yang,M. [174] R.-Q.Yao,Y.-T.Zhou,H.Shi,W.-B.Wan,Q.-H.Zhang,L.Gu,Y.-
+Sun,J.Lai,B.Huang,L.Wang,J.Mater.Chem.A2021,9,889. F.Zhu,Z.Wen,X.-Y.Lang,Q.Jiang,Adv.Funct.Mater.2021,31,
+[147] L.Zhang,W.Cai,N.Bao,H.Yang,Adv.Mater.2022,34,2110511. 2009613.
+[148] Q.Gao,Z.Wang,W.Gao,H.Yin,Chem.Eng.J.2024,489,151370. [175] R.Nandan,H.Nara,H.N.Nam,Q.M.Phung,Q.P.Ngo,J.Na,J.
+[149] J.Hu,T.Guo,X.Zhong,J.Li,Y.Mei,C.Zhang,Y.Feng,M.Sun,L. Henzie,Y.Yamauchi,Adv.Sci.2024,11,2402518.
+Meng,Z.Wang,B.Huang,L.Zhang,Z.Wang,Adv.Mater.2024,36, [176] Q.Wang,Y.Qin,J.Xie,Y.Kong,Q.Sun,Z.Wei,S.Zhao,Adv.Mater.
+2310918. 2025,37,2420173.
+[150] H.-J.Qiu,G.Fang,J.Gao,Y.Wen,J.Lv,H.Li,G.Xie,X.Liu,S.Sun, [177] Q.Huang,Z.Ye,X.Peng,P.Ao,H.Lv,J.Huang,D.Li,Adv.Funct.
+ACSMater.Lett.2019,1,526. Mater.2024,35,2414449.
+[151] T.X.Nguyen,Y.C.Liao,C.C.Lin,Y.H.Su,J.M.Ting,Adv.Funct. [178] C.Luan,D.Escalera-Lopez,U.Hagemann,A.Kostka,G.Laplanche,
+Mater.2021,31,2101632. D.Wu,S.Cherevko,T.Li,ACSCatal.2024,14,12704.
+[152] Q.Wang,Z.-Y.Zhou,Y.-J.Lai,Y.You,J.-G.Liu,X.-L.Wu,E.Terefe,C. [179] Y.Wang,M.Ni,W.Yan,C.Zhu,D.Jiang,Y.Yuan,H.Du,Adv.Funct.
+Chen,L.Song,M.Rauf,N.Tian,S.-G.Sun,J.Am.Chem.Soc.2014, Mater.2024,34,2311611.
+136,10882. [180] M.Zhang,K.Luo,Y.Fan,X.Lu,J.Ye,N.Lu,J.Dong,Q.Niu,J.Zhang,
+[153] Y.Zhao,P.V.Kumar,X.Tan,X.Lu,X.Zhu,J.Jiang,J.Pan,S.Xi,H.Y. P.Zhang,S.Dai,Chem.Eng.J.2024,493,152758.
+Yang,Z.Ma,T.Wan,D.Chu,W.Jiang,S.C.Smith,R.Amal,Z.Han, [181] Y.Jin,X.Fan,Q.Li,M.Guo,J.Bai,H.Lin,Y.Pi,S.Cao,C.C.Hou,
+X.Lu,Nat.Commun.2022,13,2430. S.Bai,Small2025,21,2408165.
+[154] H.Zhang,P.An,W.Zhou,B.Y.Guan,P.Zhang,J.Dong,X.W.Lou, [182] J.BibKhan,P.KumarPanda,P.Dash,C.-T.Hsieh,Chem.-Eur.J.2025,
+Sci.Adv.2018,4,aao6657. 31,202403863.
+[155] H.Zhu,Z.Zhu,J.Hao,S.Sun,S.Lu,C.Wang,P.Ma,W.Dong,M. [183] L.Luo,R.Tang,L.Su,J.Kou,X.Guo,Y.Li,X.Cao,J.Cui,S.Gong,
+Du,Chem.Eng.J.2022,431,133251. EnergyStorageMater.2024,72,103773.
+[156] Z.Hao,X.Shi,W.Zhu,Z.Yang,X.Zhou,C.Wang,L.Li,W.Hua, [184] Y.Wan,W.Wei,S.Ding,L.Wu,H.Qin,X.Yuan,Adv.Funct.Mater.
+C.-Q.Ma,S.Chou,ACSNano2024,18,9354. 2024,35,2414554.
+[157] G.Feng,F.Ning,J.Song,H.Shang,K.Zhang,Z.Ding,P.Gao,W. [185] Z.W.Chen,J.Li,P.Ou,J.E.Huang,Z.Wen,L.Chen,X.Yao,G.Cai,
+Chu,D.Xia,J.Am.Chem.Soc.2021,143,17117. C.C.Yang,C.V.Singh,Q.Jiang,Nat.Commun.2024,15,359.
+[158] H.Wu,Q.Lu,Y.Li,M.Zhao,J.Wang,Y.Li,J.Zhang,X.Zheng,X. [186] B.Li,J.Zhong,H.Wang,J.Gu,F.Lyu,S.Chen,H.Wu,L.Li,C.Zhi,
+Han,N.Zhao,J.Li,Y.Liu,Y.Deng,W.Hu,J.Am.Chem.Soc.2022, J.Lu,Y.Y.Li,Angew.Chem.,Int.Ed.2024,63,202410978.
+145,1924. [187] S.Jo,M.C.Kim,K.B.Lee,H.Choi,L.Zhang,J.I.Sohn,Adv.Energy
+[159] H.Wu,Q.Lu,Y.Li,J.Wang,Y.Li,R.Jiang,J.Zhang,X.Zheng,X. Mater.2023,13,2301420.
+Han,N.Zhao,J.Li,Y.Deng,W.Hu,NanoLett.2022,22,6492. [188] C.Song,J.Wu,Y.Li,Z.Fang,F.Wang,F.Meng,J.Zhang,B.Shen,
+[160] Z.Jin,J.Lv,H.Jia,W.Liu,H.Li,Z.Chen,X.Lin,G.Xie,X.Liu,S. Appl.Surf.Sci.2024,678,161088.
+Sun,H.J.Qiu,Small2019,15,1904180. [189] Q.Yuan,T.Liu,D.Ma,Y.Liao,W.Wang,H.Meng,Q.You,F.Zeng,
+[161] X.Ma,Y.Zhou,S.Zhang,W.Lei,Y.Zhao,C.Shan,Small2025,21, M.Xie,H.Huang,C.Liu,X.Liang,J.ColloidInterfaceSci.2025,684,
+2411394. 783.
+[162] M.Wei,Y.Sun,F.Ai,S.Xi,J.Zhang,J.Wang,Appl.Catal.BEnviron. [190] A.Sivanantham,H.Lee,S.W.Hwang,H.U.Lee,S.B.Cho,B.Ahn,
+Energy2023,334,122814. I.S.Cho,Adv.Funct.Mater.2023,33,2301153.
+[163] Q.Wang,Y.Qin,J.Xie,Y.Kong,Q.Sun,Z.Wei,S.Zhao,Adv.Mater. [191] C.E.Park,J.Theerthagiri,V.Maheskumar,A.Kumar,G.H.Jeong,
+2025,37,2420173. M.Y.Choi,Small2025,https://doi.org/10.1002/smll.202410304.
+[164] A.L.Maulana,P.-C.Chen,Z.Shi,Y.Yang,C.Lizandara-Pueyo,F. [192] Y.F.Cui,S.D.Jiang,Q.Fu,R.Wang,P.Xu,Y.Sui,X.J.Wang,Z.
+Seeler,H.D.Abruna,D.Muller,K.Schierle-Arndt,P.Yang,Nano L.Ning,J.F.Sun,X.Sun,A.Nikiforov,B.Song,Adv.Funct.Mater.
+Lett.2023,23,6637. 2023,33,2306889.
+[165] C.E.Park,G.H.Jeong,V.Maheskumar,J.Theerthagiri,M.Y.Choi, [193] C.E.Park,R.A.Senthil,G.H.Jeong,M.Y.Choi,Small2023,19,
+J.Mater.Chem.A2024,12,21744. 2207820.
+[166] M.Wei,Y.Sun,J.Zhang,F.Ai,S.Xi,J.Wang,EnergyEnviron.Sci. [194] Q.Zhang,T.Shen,M.Song,S.Wang,J.Zhang,X.Huang,S.Lu,D.
+2023,16,4009. Wang,J.EnergyChem.2023,86,158.
+Adv.Mater.2025,37,2506117 2506117(36of39) ©2025TheAuthor(s).AdvancedMaterialspublishedbyWiley-VCHGmbH
+
+www.advancedsciencenews.com www.advmat.de
+[195] P.Li,X.Wan,J.Su,W.Liu,Y.Guo,H.Yin,D.Wang,ACSCatal.2022, [226] S.Zhang,J.Huang,J.Tang,Z.Liu,X.Deng,Appl.Surf.Sci.2024,
+12,11667. 667,160417.
+[196] X.Mu,M.Yu,X.Liu,Y.Liao,F.Chen,H.Pan,Z.Chen,S.Liu,D. [227] D.Feng,Y.Dong,P.Nie,L.Zhang,Z.-A.Qiao,Chem.Eng.J.2022,
+Wang,S.Mu,ACSEnergyLett.2024,9,5763. 430,132883.
+[197] Y.Dai,X.Tu,K.Yue,Y.Wan,P.Zhao,X.Shi,F.Huang,Y.Yan,Adv. [228] M.-Y.Fan,J.-J.Wang,J.Zhao,H.Zhang,T.-Y.Ma,X.-P.Han,W.-B.
+Funct.Mater.2025,35,2417211. Hu,RareMet.2024,43,1537.
+[198] D.Guan,J.Zhou,Y.-C.Huang,C.-L.Dong,J.-Q.Wang,W.Zhou,Z. [229] Q.Zhang,X.Wang,T.Jian,W.Ma,C.Xu,Q.Zhou,H.Liu,Chin.J.
+Shao,Nat.Commun.2019,10,3755. Chem.2024,42,1465.
+[199] M.Kim,Y.Kim,M.Y.Ha,E.Shin,S.J.Kwak,M.Park,I.-D.Kim,W.-B. [230] C.-X.Zhang,D.Yin,Y.-X.Zhang,Y.-X.Sun,X.-J.Zhao,W.-G.Liao,J.
+Jung,W.B.Lee,Y.Kim,H.-T.Jung,Adv.Mater.2023,35,2211497. C.Ho,Adv.Sci.2024,11,2406008.
+[200] C.Li,Z.Wang,M.Liu,E.Wang,B.Wang,L.Xu,K.Jiang,S.Fan,Y. [231] T.Gu,F.Yu,Z.Yu,Y.Qi,Y.Li,F.Miao,Z.Yan,J.ColloidInterfaceSci.
+Sun,J.Li,K.Liu,Nat.Commun.2022,13,3338. 2025,688,308.
+[201] M.A.Chandran,P.Dutta,P.Singh,A.K.Singh,B.L.V.Prasad,Adv. [232] M. Wei, Y. Sun, J. Zhang, J. Zeng, J. Wang, Small 2024, 20,
+Funct.Mater.2024,35,2418644. 2403353.
+[202] C.Yang,J.Yao,S.Meng,P.Wang,M.He,P.Li,P.Xiao,J.Xiao,Y.Liu, [233] L.Yang,Q.Wang,W.Wu,J.Yin,X.Tian,Y.Wan,X.Zhang,Y.Yang,
+Z.Li,J.Am.Chem.Soc.2025,147,9865. L.Tang,R.Liu,X.Yuan,J.Electroanal.Chem.2025,980,118945.
+[203] H.Yang,Z.Zhang,Z.Wang,F.Zhang,S.Liu,L.Zhang,C.Shi,P.-X. [234] Z.Lu,W.Sun,P.Cai,L.Fan,K.Chen,J.Gao,H.Zhang,J.Chen,Z.
+Hou,H.-M.Cheng,X.Wang,C.Liu,Adv.Funct.Mater.2024,https: Wen,EnergyEnviron.Sci.2025,18,2918.
+//doi.org/10.1002/adfm.202425156. [235] Z.-L.Wang,G.-Y.Huang,G.-R.Zhu,H.-C.Hu,C.Li,X.-H.Guan,
+[204] Z.Jin,J.Lyu,Y.-L.Zhao,H.Li,X.Lin,G.Xie,X.Liu,J.-J.Kai,H.-J. H.-B.Zhu,Appl.Catal.,B2025,361,124585.
+Qiu,ACSMater.Lett.2020,2,1698. [236] A. Abdelhafiz, A. N. M. Tanvir, M. Zeng, B. Wang, Z. Ren, A. R.
+[205] X.Fu,J.Zhang,S.Zhan,F.Xia,C.Wang,D.Ma,Q.Yue,J.Wu,Y. Harutyunyan,Y.Zhang,J.Li,Adv.Sci.2023,10,2300426.
+Kang,ACSCatal.2022,12,11955. [237] H.Qiao,X.Wang,Q.Dong,H.Zheng,G.Chen,M.Hong,C.-P.Yang,
+[206] F.McKay,Y.Fang,O.Kizilkaya,P.Singh,D.D.Johnson,A.Roy,D.P. M.Wu,K.He,L.Hu,NanoEnergy2021,86,106029.
+Young,P.T.Sprunger,J.C.Flake,W.A.Shelton,Y.Xu,J.Phys.Chem. [238] C.Zhou,J.Gao,Y.Deng,M.Wang,D.Li,C.Xia,Nat.Commun.2023,
+C2021,125,17008. 14,3592.
+[207] R.Wei,K.Zhang,P.Zhao,Y.An,C.Tang,C.Chen,X.Li,X.Ma,Y. [239] L.Li,M.Wang,D.Feng,Y.Zhang,H.Ren,P.Kang,J.AlloysCompd.
+Ma,X.Hao,Appl.Surf.Sci.2021,549,149327. 2024,1009,176947.
+[208] H.Liu,H.Qin,J.Kang,L.Ma,G.Chen,Q.Huang,Z.Zhang,E.Liu, [240] M.Hao,J.Chen,J.Chen,K.Wang,J.Wang,F.Lei,P.Hao,X.Sun,J.
+H.Lu,J.Li,N.Zhao,Chem.Eng.J.2022,435,134898. Xie,B.Tang,J.ColloidInterfaceSci.2023,642,41.
+[209] S.Ding,Y.Sun,F.Lou,L.Yu,B.Xia,J.Duan,Y.Zhang,S.Chen,J. [241] X.Tian,H.Li,R.Chang,Y.Yang,Z.Wang,T.Dong,J.Lai,S.Feng,L.
+PowerSources2022,520,230873. Wang,J.Mater.Chem.A2024,12,3276.
+[210] Y.Fu,H.Liu,B.Gao,J.Mu,G.Guan,Z.Feng,Chem.Eng.J.2025, [242] C.Hu,K.H.Yue,J.J.Han,X.Z.Liu,L.J.Liu,Q.N.Liu,Q.Y.Kong,
+511,162264. C.W.Pao,Z.W.Hu,K.Suenaga,D.Su,Q.B.Zhang,X.Y.Wang,Y.
+[211] R.Cheng,X.He,B.Ran,H.Li,W.Tang,F.Sun,K.Li,X.Shao,H. Z.Tan,X.Q.Huang,Sci.Adv.2023,9,adf9144.
+Chen,C.Fu,NanoEnergy2025,134,110529. [243] C.Duan,H.Zhang,Z.Hu,Z.Li,W.Bian,C.Jing,J.-Q.Wang,L.
+[212] S.Li,Y.Hou,G.Feng,Q.Li,H.Zhai,Q.Hua,R.Hu,M.Xu,C.Zhang, Zhang,J.Mater.Chem.A2025,13,5336.
+Z.Huang,D.Xia,Adv.Mater.2024,37,2416200. [244] D.Liu,P.Guo,X.Yan,Y.He,R.Wu,Mater.Today2024,80,101.
+[213] B.Wang,X.Zhu,X.Pei,W.Liu,Y.Leng,X.Yu,C.Wang,L.Hu,Q.Su, [245] C.Triolo,K.Moulaee,A.Ponti,G.Pagot,V.DiNoto,N.Pinna,G.
+C.Wu,Y.Yao,Z.Lin,Z.Zou,J.Am.Chem.Soc.2023,145,13788. Neri,S.Santangelo,Adv.Funct.Mater.2023,34,2306375.
+[214] S.Zheng,J.Hu,R.Feng,J.Xu,Y.Yu,L.Li,W.Liu,W.Zhang,F.Huo, [246] A. Roy, S. Kumar, A. Guilherme Buzanich, C. Prinz, E. Götz, A.
+F.Saleem,SmallStruct.2024,5,2300537. Retzmann, T. Hickel, B. Bhattacharya, F. Emmerling, Adv. Mater.
+[215] Y.Liu,W.Ding,J.Liu,G.Zhao,W.Li,Y.Liu,J.Mater.Chem.A2024, 2024,36,2408114.
+12,30757. [247] Y.Wan,W.Wei,L.Li,L.Wu,H.Qin,X.Yuan,Small2025,https:
+[216] X.Zhang,Y.Yang,Y.Liu,Z.Jia,Q.Wang,L.Sun,L.C.Zhang,J.J. //doi.org/10.1002/smll.202502039.
+Kruzic,J.Lu,B.Shen,Adv.Mater.2023,35,2303439. [248] M.Tamtaji,M.Kazemeini,J.Abdi,Int.J.HydrogenEnergy2024,80,
+[217] H.Luo,L.Li,F.Lin,Q.Zhang,K.Wang,D.Wang,L.Gu,M.Luo,F. 1075.
+Lv,S.Guo,Adv.Mater.2024,36,2403674. [249] P.Yang,Y.Shi,T.Xia,Z.Jiang,X.Ren,L.Liang,Q.Shao,K.Zhu,J.
+[218] Z. Liu, H.Li,C. Yang,M.Jiang,J.Zhang,C. Fu,Small 2023,20, AlloysCompd.2023,938,168582.
+2309078. [250] Y.Wang,M.Zhang,Z.Kang,L.Shi,Y.Shen,B.Tian,Y.Zou,H.Chen,
+[219] Y.Jiang,Z.Liang,H.Fu,M.Sun,S.Wang,B.Huang,Y.Du,J.Am. X.Zou,Nat.Commun.2023,14,5119.
+Chem.Soc.2024,146,9012. [251] R.He,L.Yang,Y.Zhang,X.Wang,S.Lee,T.Zhang,L.Li,Z.Liang,J.
+[220] X.Yu,X.Gong,H.Qiao,X.Liu,C.Ma,R.Xiao,R.Li,T.Zhang,Small Chen,J.Li,A.OstovariMoghaddam,J.Llorca,M.Ibáñez,J.Arbiol,
+Methods2024,8,2400793. Y.Xu,A.Cabot,EnergyStorageMater.2023,58,287.
+[221] H.Ye,J.Su,G.Yang,L.Zhou,Y.Xie,X.Zhan,J.Tian,X.Tong,Mater. [252] X.Liang,K.Xu,W.Gao,J.Liang,T.Lv,H.Zhang,J.Lu,L.Zou,J.Liu,
+TodayCommun2025,45,112365. J.Mater.Chem.A2024,12,22030.
+[222] H.Li,Y.Pan,J.Lai,L.Wang,S.Feng,Chin.J.Struct.Chem.2022,41, [253] X.Li,Z.Zhang,M.Shen,Z.Wang,R.Zheng,H.Sun,Y.Liu,D.Wang,
+3 C.Liu,J.ColloidInterfaceSci.2022,628,242.
+[223] G.R.Dey,H.L.Young,S.Teklu,S.S.Soliman,R.E.Schaak,ACS [254] W.Shen,Y.Du,H.Liu,C.-W.Tsang,X.Chen,C.Liang,Small2024,
+Nano2025,19,8826. 20,2404379.
+[224] L.He,M.Li,L.Qiu,S.Geng,Y.Liu,F.Tian,M.Luo,H.Liu,Y.Yu,W. [255] Z.-J.Zhang,N.Yu,Z.-Y.Jin,W.-L.Yu,Y.-S.Zhang,Y.-C.Li,Y.-L.Zhou,
+Yang,S.Guo,Nat.Commun.2024,15,2290. Y.-M.Chai,B.Dong,ColloidsSurf.,A2024,684,133073.
+[225] W.Shi,H.Liu,Z.Li,C.Li,J.Zhou,Y.Yuan,F.Jiang,K.Fu,Y.Yao, [256] W.Peng,Z.Lv,W.Cheng,J.Li,S.Zhao,B.Yan,L.Shang,J.Zhou,T.
+SusMat2022,2,186. Zhang,H.Gou,Chem.Commun.2025,61,7261.
+Adv.Mater.2025,37,2506117 2506117(37of39) ©2025TheAuthor(s).AdvancedMaterialspublishedbyWiley-VCHGmbH
+
+www.advancedsciencenews.com www.advmat.de
+[257] J.Hou,N.Chen,D.Bi,Z.Liu,Y.Liang,Int.J.HydrogenEnergy2025, [266] W.Guan,C.Zhang,Y.Zhang,Y.Feng,Y.Mei,Q.Qi,Y.Song,J.Hu,
+101,1070. NanoEnergy2025,134,110528.
+[258] M.Zhang,X.Zhou,K.Luo,Y.Fan,C.He,Q.Niu,J.Zhang,P.Zhang, [267] Y.Deng,T.Wang,Q.Sun,J.Guo,J.Sun,G.Liu,L.Wang,D.Wang,
+S.Dai,J.Mater.Chem.A2025,13,1287. S.Zhang,J.AlloysCompd.2024,1004,175879.
+[259] X.Zhong,Y.a.Zhu,W.Dai,J.Yu,T.Lu,Y.Pan,NewJ.Chem.2022, [268] Z.Jin,J.Lyu,Y.-L.Zhao,H.Li,Z.Chen,X.Lin,G.Xie,X.Liu,J.-J.Kai,
+46,8398. H.-J.Qiu,Chem.Mater.2021,33,1771.
+[260] X.Wang,R.Lu,S.Gong,S.Yang,W.Wang,Z.Sun,X.Zhang,J.Liu, [269] J.Yao,Y.Zhu,T.Dai,T.Lu,Y.Pan,NewJ.Chem.2024,48,15904.
+X.Lv,Chem.Eng.J.2025,503,158488. [270] W.Chen,X.Yan,Z.Liu,X.Zhang,C.Du,Int.J.HydrogenEnergy2023,
+[261] H.Liu,X.Liu,A.Sun,C.Xuan,Y.Ma,Z.Zhang,H.Li,Z.Wu,T.Ma, 48,29969.
+J.Wang,Adv.Mater.2025,37,2501186. [271] W.Ma,Z.Qiu,J.Li,L.Hu,Q.Li,X.Lv,J.Dang,J.EnergyChem.2023,
+[262] S.Jiang,K.Tian,X.Li,C.Duan,D.Wang,Z.Wang,H.Sun,R.Zheng, 85,301.
+Y.Liu,J.ColloidInterfaceSci.2022,606,635. [272] S.Zhang,J.Guo,T.Li,J.Sun,Y.Meng,J.Kang,L.Tan,z.Zhang,
+[263] S. Zhao, H. Wu, R. Yin, X. Wang, H. Zhong, Q. Fu, W. Wan, T. Appl.Surf.Sci.2023,608,155221.
+Cheng,Y.Shi,G.Cai,C.Jiang,F.Ren,J.AlloysCompd.2021,868, [273] B.Zhai,Y.He,J.Chen,X.Cui,L.Liu,J.Mater.Sci.Technol.2025,234,
+159108. 151.
+[264] Y.Zhou,L.Gao,H.Chen,H.Wang,J.Zhang,X.Li,F.Duo,G.Guan, [274] Z.Liu,J.Xu,F.Zhang,L.Ji,Z.Shi,Int.J.HydrogenEnergy2023,48,
+J.Mater.Sci.Technol.2024,168,62. 14622.
+[265] J.Zhao,C.Zhang,Z.Zhang,Q.Qi,Y.Zhang,J.Hu,Appl.Catal.,A [275] W.Cao,X.Yang,W.Dai,B.Wu,Y.Zhang,C.Zhao,Y.Sui,S.Huang,
+2024,681,119780. NewJ.Chem.2023,47,12670.
+YufeiZhaoisalecturerattheFacultyofScience,UniversityofTechnologySydney.Shereceivedherdual
+Ph.D.degreesfromtheBeijingInstituteofTechnologyandtheUniversityofTechnologySydney.After
+receivingherPh.D.,sheworkedasapostdoctoralresearchassociateattheUniversityofNewSouth
+Wales,theUniversityofTechnologySydney,theSouthChinaUniversityofTechnology,andassociate
+professoratShanghaiUniversity.Herresearchinterestfocusesonthesynthesisandapplicationof
+atomicallydispersedcatalysts,highentropymaterials,preciousmetalalloysforelectrocatalyticcon-
+versionreactions.
+PengHuangiscurrentlyanassociateprofessoratJiangsuNormalUniversity.HereceivedhisPh.D.
+fromNortheastNormalUniversityin2015.In2018,heservedasaseniorvisitingscholarattheUni-
+versityofWollongong.Hisresearchinterestsfocusonthedesignandsynthesisofmaterialsforenergy
+storageandconversiontechnologies.Inrecentyears,hehasledandparticipatedinseveralprojects
+fundedbytheNationalNaturalScienceFoundationofChina.Hehasauthoredover40publicationsin
+prestigiousinternationaljournals.
+Adv.Mater.2025,37,2506117 2506117(38of39) ©2025TheAuthor(s).AdvancedMaterialspublishedbyWiley-VCHGmbH
+
+www.advancedsciencenews.com www.advmat.de
+JinqiangZhangobtainedhisPh.D.degreefromtheUniversityofTechnologySydneyin2018.After
+graduation,hehasworkedasapostdoctoralfellowattheUniversityofTechnologySydneyandthe
+UniversityofToronto.Currently,heisachancellor’sresearchfellowandDECRAfellowattheFacultyof
+Science,UniversityofTechnologySydney.Hisworkmainlyfocusesonthematerialsdesignandsystem
+optimizationinenergyconversionandstoragesystems.Hehaspublishedover90publicationsin
+prestigiousinternationaljournalswithanh-indexof59.hehasbeennamedahighlycitedresearcherin
+Cross-FieldbyClarivateAnalyticsin2024.
+HaoLiuobtainedhisPh.D.fromtheUniversityofWollongongin2011.Heworkedasaresearchasso-
+ciateattheUniversityofQueenslandbeforejoiningtheUniversityofTechnologySydneyasachancel-
+lor’spostdoctoralresearchfellow.HeisaFutureFellowawardedbytheAustralianResearchCouncil.
+Dr.Liu’sresearchinterestslieinthesynthesisofnanostructuredmaterialsandtheirapplicationsin
+rechargeablebatteriesandelectrocatalysis.Hehasbeenlistedasa“HighlyCitedResearcher”byClari-
+vateandrankedamongthe“World’sTop2%Scientists”byStanfordUniversity.
+Adv.Mater.2025,37,2506117 2506117(39of39) ©2025TheAuthor(s).AdvancedMaterialspublishedbyWiley-VCHGmbH
+

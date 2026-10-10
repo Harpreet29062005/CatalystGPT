@@ -1,0 +1,970 @@
+This article is licensed under CC-BY 4.0
+pubs.acs.org/IC Article
+Heptanuclear Mixed-Valence Co IIICo II Molecular Wheel�A
+4 3
+Molecular Analogue of Layered Double Hydroxides with Single-
+Molecule Magnet Behavior and Electrocatalytic Activity for
+Hydrogen Evolution Reactions
+Biplab Biswas, # Anjila I. Siddiqui, # Mithun Chandra Majee, Swadhin Kumar Saha, Biswajit Mondal,*
+Rajat Saha,* and Carlos J. Gómez García*
+CiteThis:Inorg.Chem.2024,63,6161−6172 ReadOnline
+ACCESS *
+Metrics&More ArticleRecommendations sı SupportingInformation
+ABSTRACT: We present a bifunctional heptanuclear cobalt(II)/cobalt(III) molecular complex formulated as [Co (μ −
+7 3
+OH) (H L1) (HL2) ](NO ) ·6H O (1) (where H L1 is 2,2′-(((1E,1′E)-((2-hydroxy-5-methyl-1,3-phenylene)bis-
+4 2 2 2 3 6 2 5
+(methanylylidene))bis(azanylylidene))bis(propane-1,3-diol)) and H L2 is 2-amino-1,3-propanediol). Compound 1 has been
+2
+characterized by single-crystal X-ray diffraction analysis along with other spectral and magnetic measurements. Structural analysis
+indicatesthat1containsamixed-valenceCo clusterwhereacentralCo(II)ionisconnectedtosixdifferentCocenters(fourCoIII
+7
+and two CoII ions) by four μ −OH groups, giving rise to a planar heptanuclear cluster that resembles a molecular fragment of a
+3
+layered double hydroxide (LDH). Two triply deprotonated (H L1)3− ligands form the outer side of the cluster while two singly
+2
+deprotonated (HL2)− ligands are located at the top and bottom of the central heptanuclear core. Variable temperature magnetic
+measurements indicate the presence of weak ferromagnetic CoII···CoII interactions (J = 3.53(6) cm−1) within the linear trinuclear
+CoIIcluster.ACsusceptibilitymeasurementsshowthat1isafield-inducedsingle-moleculemagnet(SMM)withτ =8.2(7)×10−7s
+0
+and U = 11.3(4) K. The electrocatalytic hydrogen evolution reaction (HER) activity of 1 in homogeneous phase shows an
+eff
+overpotential of 455 mV, with a Faradaic efficiency of 81% and a TOF of 8.97 × 104 μmol H h−1 mol−1.
+2
+1. INTRODUCTION Single-moleculemagnets(SMMs)areaclassofcompounds
+The design of bi/multifunctional magnetic materials1 with thatshowslowrelaxationofthemagnetizationonremovalofa
+magnetizing field.8 Such slow relaxation arises due to the
+additionalpropertiessuchaselectricalconductivity,2porosity,3
+combined effect of high-spin ground state (S ) and uniaxial
+luminescence,4 optical properties,5 etc. has gained much T
+magnetic anisotropy (D, defined by the Hamiltonian H = D
+interest in order to modulate one functionality by an external S 2), which creates an energy barrier for the magnetic spin
+magnetic field. Recently, magnetoeletrochemistry,6 in which re T versal. The energy barrier Δ is calculated as |D| S 2 for
+T
+the electrocatalytic properties of a magnetic material can be
+modulatedbyanexternalmagneticfield,hasemergedasanew
+Received: November17,2023
+research topic though its industrial application has not been Revised: January26,2024
+realizedyet.Initialattemptsmadeinrecentyearsonthistopic Accepted: February26, 2024
+indicate that the synergy between the magnetic and electro- Published: March25,2024
+catalytic properties in a material is a keycriterion fordifferent
+applications.7
+©2024TheAuthors.Publishedby
+AmericanChemicalSociety https://doi.org/10.1021/acs.inorgchem.3c04065
+6161 Inorg.Chem.2024,63,6161−6172
+
+Inorganic Chemistry pubs.acs.org/IC Article
+integer spin and |D| (S 2 − 1/4) for half-integer spin.9 SMMs acceptor moieties on the axial pyridyl group attached to the
+T
+are envisioned as potential candidates for high-density square planar Co complex.28 Dutta and co-workers have
+information storage, spintronics, quantum computing, mag- modulated the electrocatalytic HER activity by incorporating
+netic refrigeration, etc.10 Research on SMMs follows diverse severalfunctionalgroupsattheattachedaxialpyridylmoietyof
+directions including better performance, moderate operating thecobaloximeframework.29Again,theyhavealsoshownthat
+conditions, deposition on solid substrates, high blocking thepresenceofproticfunctionalitiesattheoutercoordination
+temperature, and tuning the molecular magnetism by external sphere of the metal ions has a strong influence on the
+stimuli like temperature, pressure, etc.11 One of the major electrocatalytic activity.30 Nevertheless, the use of mixed-
+goals is the understanding of the structure−property relation- valence Co complexes as molecular HER catalysts is rare.28
+shiptodeveloprationaldesignprinciplesforSMMs.12Thefirst In the present work, to design a bifunctional molecular
+reported SMM, [Mn O (OAc) (H O) ],13 motivated in- material, by encompassing both single-molecule magnet
+12 12 16 2 4
+organic chemists to design polynuclear homo/heterometallic behaviorandelectrocatalyticHERactivity,wefollowastrategy
+clusters showing SMM behavior.14 basedoncobaltionsandaheptadentatecompartmentalligand
+To date, different transition metal-based polynuclear since (i) cobalt can simultaneously show interesting magnetic
+complexes have been synthesized for the above-said purpose, and catalytic properties, (ii) cobalt(II), when coordinated to
+but, in this regard, cobalt(II) complexes are less explored.15 moderate or strong field ligands, can be easily oxidized to
+Due to strong orbital contribution, in six or five coordinated cobalt(III) and can form mixed-valence (II/III) compounds,
+complexes, CoII (S = 3/2) ions show large zero-field splitting highly sought-after in electrocatalysis, and (iii) the use of a
+andKramersdoublets(KDs).Thehighlyanisotropiclow-lying heptadentatecompartmentalligandthatcanbindtomorethan
+energy Kramers levels constitute a thermal energy barrier for onemetalcenterisexpectedtoformalargemolecularcluster.
+the reversal of magnetization, which results in SMM.16 Following this strategy, by using a mixed N,O-donor
+Following such intriguing characteristics, the design of polydentate ligand, we have prepared a heptanuclear mixed-
+SMMs using polynuclear cobalt complexes has gained much valence cobalt(II/III) compound formulated as [Co (μ −
+7 3
+attention. OH) (H L1) (HL2) ](NO ) ·6H O (1) (where H L1 is 2,2′-
+4 2 2 2 3 6 2 5
+Rapid depletion of fossil fuel reserves and the consequent (((1E,1′E)-((2-hydroxy-5-methyl-1,3-phenylene)-bis-
+growing energy demands as well as global warming have (methanylylidene))-bis(azanylylidene))-bis(propane-1,3-
+triggered the search for alternative sustainable energy diol)) and H L2 is 2-amino-1,3-propanediol). Compound 1
+2
+sources.17 Green hydrogen is considered one of the best has been characterized by single-crystal X-ray crystallography,
+choicesasarenewablefuelforitshigh-energystoragecapacity, spectroscopic techniques, magnetic measurements, and elec-
+carbon-free,andenvironmentallybenignnature.18Hydrogenis trocatalyticHERactivitystudies.Structuralanalysisshowsthat
+also an important reagent for the reduction of different 1 is a heptanuclear molecular wheel that contains three CoII
+chemicals, the synthesis of ammonia, hydrocarbons, etc.19 andfourCoIIIionsconnectedbyfourinternalμ −OHbridges.
+3
+Electrocatalytic reduction of aqueous protons is considered Compound 1 shows field-induced SMM behavior and
+oneofthemostreliablestrategiesforsustainableproductionof electrocatalytic HER activity with an onset potential value of
+hydrogen,20 and thus, electrocatalytic hydrogen evolution −0.77VwithaFaradaicefficiencyof81%andaTOFof8.97×
+reaction (HER) from water has become a contemporary area 104 μmol H h−1 mol−1.
+2
+of interest.21 Pt is considered the most efficient catalyst for
+HER; however, low abundance and high cost restrict its 2. EXPERIMENTAL SECTION
+industrial applications.22 Therefore, the search for cheap,
+2.1.MaterialsandMethods.Cobalt(II)nitratehexahydrateand
+efficient, and non-noble metal-based robust catalysts for HER
+hasbecomeakeychallengeinrecentyears.23Recently,cobalt- 2-amino-1,3-propanediol (H 2 L2; 98%) were purchased from Aldrich
+and used as received. 2-Hydroxy-5-methylisophthalaldehyde was
+based molecular complexes have emerged as realistic synthesized by using the procedure described in the literature.31 All
+candidates for H 2 evolution catalysts due to their intrinsic other chemicals were AR grade and were used as received, without
+oxygen tolerance and moderate proton reduction ability.24 furtherpurification.Elementalanalysis(C,H,andN)wascarriedout
+Several cobalt complexes with N-, S-, or mixed N, O-donor- using a PerkinElmer 240C elemental analyzer. Fourier transform
+based ligands have been reported in the past decade.25 infrared (FT-IR) spectra were recorded with a Nicolet Impact 410
+However,thelowaqueoussolubilityofthesecobaltcomplexes spectrometer with KBr pellets in the range of 400−4000 cm−1.
+has limited the investigations to organic media or a mixed Absorption spectra were recorded on a SHIMADZU UV 1800
+spectrometer in solution. 1H NMR spectra were recorded on 400
+organic−aqueous medium; thus, there is huge interest in
+MHzBrukerNMRspectrometersusingTMSastheinternalstandard.
+designing water-soluble cobalt-based molecular catalysts for
+Chemical shiftsare reported inpartsper million (ppm).When peak
+the direct evolution of hydrogen from water. Bren et al. have
+multiplicitiesaregiven,thefollowingabbreviationsareused:s,singlet;
+reported a water-soluble biomolecular catalyst, acylated Co- br s, broad singlet; d, doublet; t, triplet; and m, multiplet. Powder
+microperoxidase-11 (CoMP11-Ac), which shows electro- XRDpatternswererecordedbyusingCu−Kαradiation(BrukerD8;
+catalytic HER activity from water (pH = 7) with an 40kV,40mA).Themorphologyofthesampleswascharacterizedby
+overpotential of 850 mV, a Faradaic efficiency of 95 ± 3%, field emission scanning electron microscopy (FE-SEM, Carl Zeiss,
+and a TON of 2.5 × 104.26 The same authors have also Germany) at 5 kV. X-ray photoelectron spectroscopy (XPS) was
+performed a detailed investigation of a water-soluble cobalt- performedonaSCIENTA,R-3000Analyzerusingamonochromatic
+Al Kα source (hν = 1486.6 eV). The typical vacuum in the analysis
+(III) complex having small peptide chain as the only ligand
+chamberduringthemeasurementswasintherangeof1×10−10Torr.
+(Gly−Gly−His) that shows electrocatalytic HER behavior
+Charge neutralization was used for all measurements by using a
+with an overpotential of 600 mV (pH = 8), a Faradaic combinationof low-energy Ar+ions and electrons.
+efficiency of 91 ± 3%, and a TON of 275.27 Detailed 2.2.SynthesisoftheLigandH L1[C H N O ].Amethanolic
+5 15 22 2 5
+investigations have revealed that the stability and catalytic solution(5mL)of2-hydroxy-5-methylisophthalaldehyde(164mg,1
+overpotential depend on the presence of electron donor/ mmol)wasaddedtoamethanolicsolution(10mL)ofserinol(182
+6162 https://doi.org/10.1021/acs.inorgchem.3c04065
+Inorg.Chem.2024,63,6161−6172
+
+Inorganic Chemistry pubs.acs.org/IC Article
+mg, 2 mmol), and the resulting solution was stirred for 3 h. The Table 1. Crystallographic Data Collection and Refinement
+orange−yellowsolidthatprecipitatedwasseparatedthroughfiltration Parameters of Compound 1
+andcharacterizedbyIRandCHNanalyses.Yield:90%.Anal.Calcfor
+C H NO:C,58.05;H,7.15;N,9.03%.Found:C,58.1;H,7.35; formula C H CoN O
+15 22 2 5 36 70 7 12 42
+N,9.05%.IR(KBr,cm−1):3355,3137,2940,2833,1644,1528,1420,
+formulaweight 1755.55
+1385,1244,1228,1080.1HNMR(400MHz,DMSO-d)8.55(2H,
+6 crystalsystem triclinic
+s), 7.53 (2H, s), 4.65 (4H, brs), 3.63 (8H, m), 3.45 (2H, m), 2.26
+spacegroup P-1
+(3H,s).AsignalcorrespondingtophenolicOHwasnotseendueto
+a(Å) 11.483(6)
+peak broadening.
+2.3. Synthesis of the Complex [Co (μ −OH) (H L1) (HL2) ]- b(Å) 11.602(5)
+7 3 4 2 2 2
+(NO ) ·6H O(1).Amethanolicsolution(5mL)ofCo(NO).6HO c(Å) 13.269(3)
+36 2 3 2 2
+(873.4mg,3mmol)wasaddedtoamethanolicsolution(10mL)of α(°) 114.536(19)
+the ligand H 5 L1 (310.2 mg, 1 mmol), and the resultant mixture was β(°) 104.80(3)
+refluxedfor12hat65°C.Theredsolutionobtainedwasfilteredand γ(°) 99.03(2)
+keptforcrystallization.After2weeks,rod-likedeepred-coloredX-ray V(Å3) 1483.6(12)
+quality single crystals (Figure S1) were collected. Yield: 40%. Anal.
+Z 1
+Calc.forC H CoN O :C,24.63;H,4.03;N,9.57%.Found:C,
+24.60; H, 4 3 . 6 00; 70 N, 7 9.6 1 0 2 %. 42 IR (KBr, cm−1): 3215, 1633, 1552, 1375, ρ calc (g/cm3) 1.965
+μ(MoKα)(mm) 2.031
+1315,1260, 1019.
+2.4.Single-CrystalX-RayDataCollectionandRefinement.A F(000) 895
+single crystal of compound 1 was mounted on a Bruker SMART crystalsize(mm3) 0.12×0.16×0.20
+diffractometerequippedwithagraphitemonochromatorandMoKα temperature,T(K) 296
+radiation(λ=0.71073Å).Unitcellparametersweredeterminedby θ min−max (°) 2.1and27.2
+using the APEX232 program. Data reduction was carried out by the totaldata 20488
+SAINT32program,andcorrectionofabsorptionwasperformedusing
+uniquedata 6155
+theSADABS32program.ThestructurewassolvedusingthePatterson
+R 0.092
+method with SHELXS-2018/333 embedded in WINGX software int
+observeddata[I>2.0σ(I)] 3744
+package34 and refined using SHELXL-2018/3.35 Subsequent differ-
+N 6155
+ence Fourier synthesis and least-squares refinement revealed the ref
+N 440
+positionsoftheremainingnon-hydrogenatoms.Non-hydrogenatoms par
+were refined with independent anisotropic displacement parameters. R 0.0821
+Hydrogenatomswereplacedinidealizedpositionsandrefinedusing wR 2 0.1512
+a riding model, with their displacement parameters fixed to be 1.2 S 1.02
+times larger than those of the attached non-hydrogen atom. All
+FiguresweredrawnusingPLATON36andORTEP.37Datacollection
+and structure refinement parameters and crystallographic data for hydroxy-5-methylisophthalaldehyde and 2-amino-1,3-propane-
+compound1 aregiveninTable 1. diol in methanol afforded an orange−yellow Schiff base, H L1
+5
+2.5. Magnetic Measurements. Variable temperature magnetic (Scheme 1). This heptadentate ligand contains four different
+susceptibilitymeasurementswerecarriedoutinthetemperaturerange compartmentstobindmultiplemetalcenters(A−DinScheme
+2−300 K with an applied magnetic field of 0.1 T (1000 Oe) on a 1). The reaction between Co(NO ) .6H O and H L1 in a 3:1
+3 2 2 5
+polycrystalline sample with a mass of 11.038 mg using a Quantum ratio resulted inthe tetra μ −OH bridged heptanuclear cobalt
+Design MPMS-XL-5 SQUID magnetometer. Isothermal magnet- complex1withtheconcom 3 itantdecompositionofsomeH L1
+izations were performed at 1.9 and 5.0 K on the same sample with 5
+ligands to serinol moieties, which also act as bridges between
+magnetic fields of up to 5 T. AC susceptibility measurements were
+Co centers within the heptanuclear cluster (Scheme 1).
+performedonthesamesampleat2.0Kwithdifferentapplieddcfields
+(intherange0−500mT)withafieldof8Oeoscillatingintherange The IR spectrum of the ligand H 5 L1 (Figure S2) shows a
+10−10000 Hz using a Quantum Design PPMS-9 equipment. From peakat1644cm−1duetotheazomethine(C�N)group.The
+the plot of the relaxation time vs the DC field (see below), we coordination of the ligand H L1 shifts the peak at lower
+5
+determinedanoptimumDCfieldof200mT(2000Oe).Accordingly, wavenumbers. Thus, the azomethine group appears at 1633
+weperformedthefrequencysweepfrom10to10000Hzatdifferent cm−1incompound1(FigureS3),confirmingthecoordination
+temperaturesintherange2−4KwithanappliedDCfieldof200mT.
+of the azomethine group to the metal centers. Compound 1
+The susceptibility data were corrected for the sample holder also shows a broad band centered at 3215 cm−1 attributed to
+previously measured using the same conditions and for the
+theμ -bridgingO−H,theO−Hbandsofthelatticewater,the
+diamagneticcontributionofthesampleasdeducedbyusingPascal’s 3
+constanttables.38 −NH 2 and−OHgroupsofthetridentateserinolligand,aswell
+2.6. HER Activity Measurements. The electrochemical study as the −OH groups of the ligand H 2 L2. The ligand H 5 L1 has
+wasperformedusingaMetrohmPGSTAT101Autolabwithathree-
+alsobeencharacterizedby1HNMRspectroscopy(FigureS4).
+electrodesystem.Ag/AgCl(saturatedKCl)andPtwirewereusedas The UV−Vis absorption spectra of H L1 and compound 1
+5
+reference and counter electrodes, respectively, and the scan rate was werecollectedinmethanolicsolutionintherangeof200−800
+keptat50mV/s.Aglassycarbonelectrodewasusedastheworking nm (Figures S5 and S6). The absorption spectrum of H L1
+5
+electrode.Thecatalyst(0.5mM)wasdissolvedin100mMphosphate shows bands at 448, 348, and 243 nm, attributed to n → π*
+buffercontaining100mMNaClasasupportingelectrolyteatpH=2. and π → π* transitions involving free phenolic and alcoholic
+The pH was gradually increased to 3, 5, 7, 9, and 11 by adding the −OHgroupsandfreeiminegroups.39Incompound1,thelow
+requiredamountsofaNaOHsolution.ThepHwasmeasuredwithan
+intensityandlowerenergybandsat526and404nmaredueto
+OaktonpH700 pH-meter.
+the d−d transition of octahedrally coordinated cobalt centers.
+Thebroadbandat404nmmaybeduetotheoverlapofthen
+3. RESULTS AND DISCUSSION
+→ π* ligand band with the d−d transitions. The other
+3.1. Synthesis and Characterization of [Co (μ − expected transitions could not be observed since, in the high-
+7 3
+OH) (H L1) (HL2) ](NO ) ·6H O (1). Condensation of 2- energy region, these bands overlap with the charge transfer
+4 2 2 2 3 6 2
+6163 https://doi.org/10.1021/acs.inorgchem.3c04065
+Inorg.Chem.2024,63,6161−6172
+
+Inorganic Chemistry pubs.acs.org/IC Article
+Scheme 1. Synthesis of the Ligand H L1 and Compound 1
+5
+bands.Thephasepurityof1hasalsobeenconfirmedwiththe
+X-ray powder diffraction analysis (Figure S7). The SEM
+micrographsofamicrocrystallinesampleofcompound1show
+flake-like crystals that agglomerate to form flower-like
+structures (Figure S8). XPS clearly shows the presence of
+both CoII and CoIII within 1 (Figure S9).
+3.2. Crystal Structure of [Co (μ −OH) (H L1) (H L2) ]-
+7 3 4 2 2 1 2
+(NO ) ·6H O (1). Compound 1 crystallizes in the triclinic
+3 6 2
+space group P-1. The asymmetric unit is formed by one
+(H L1)3− ligand, one deprotonated serinol ligand (HL2)−
+2
+(CH OH−CH(NH )−CH O)−, two μ3-OH− groups, four
+2 2 2
+cobalt atoms (Co1−Co4, with Co1 located on an inversion
+center), three noncoordinated NO − anions, and three
+3
+crystallization water molecules (Figure S10). The application
+of the inversion center gives rise to the formula [Co (μ −
+7 3
+OH) 4 (H 2 L1) 2 (HL2) 2 ](NO 3 ) 6 ·6H 2 Oobservedfor1.Thebond Figure 1. (a) View of the heptanuclear complex in 1 (H atoms are
+valence sum (BVS, see below) calculations indicate that the omittedforclarity).(b)Innerheptanuclearcoreofthecomplexin1.
+oxidationstateofCo1andCo4is+2,whereasitis+3forCo2 (c)SideviewofthecentralCo cluster(Colorcode:C=Gray,O=
+7
+and Co3.40 Since Co1 is located on an inversion center, the Red,N = Blue,CoII = pink,and CoIII = violet).
+cluster contains four CoIII ions (two Co2 and two Co3) and
+three CoII ions (two Co4 and one Co1). The complex can be by four O atoms (O8, O8′, and O9 and O9′) from the four
+described as a wheel-shaped cluster formed by mixed-valence μ −OH− groups and two O atoms (O6 and O6′) from two
+3
+C o 3 I I C o 4 I I I u n i t s , f o r m u l a t e d a s symmetry-related (HL2)− ligands. The Co4 center is
+[Co 3 IICo 4 III(H 2 L1) 2 (HL2) 2 (μ 3 −OH) 4 ]6+ (Figure 1a). The coordinated by four O atoms (O2, O3, O4′ and O5′) from
+total positive charge of the seven cobalt ions in the cluster is two(H L1)3−ligandsandbytwoOatoms(O8′andO9)from
+2
++18 (three CoII and four CoIII), whereas the anionic charge is two μ −OH− groups.
+3
+−12 (two (H L1)−3 plus two (HL2)− plus four (μ −OH)−), AscanbeseeninFigureS11,thetwoCoIIIcenters(Co2and
+2 3
+resultinginatotalcationicchargeforthecluster of+6,thatis Co3) present different coordination environments: Co2 has a
+balanced by six NO − anions. CoN O coordination environment formed by two N-donor
+3 2 4
+In the mixed-valence Co IICo III units, Co1 occupies the atoms (N2 and N3) from (H L1)3− and (HL2)− ligands,
+3 4 2
+inversioncenteratthecenterofthewheel,whereasCo2,Co3, respectively, and by four oxygen atoms: two (O1 and O5)
+and Co4 (and their centrosymmetric equivalents) are located from an (H L1)3− ligand, one (O6) from an (HL2)− ligand,
+2
+on the rim, connected by four μ −OH− groups to the central and one (O8) from a μ −OH− group. In contrast, Co3 has a
+3 3
+Co1 center (Figure 1b). CoNO coordinationenvironmentformedbyanNatom(N1)
+5
+The seven cobalt ions present slightly distorted octahedral from an (H L1)3−ligandand five oxygenatoms: two(O1 and
+2
+coordination environments. The Co−N/O bond distances O3) from an (H L1)3− ligand, one (O7) from an (HL2)−
+2
+around the two CoIII centers (Co2 and Co3) are in the range ligand, and two (O6 and O9) from two μ −OH− groups.
+3
+1.856(5)−1.976(4) Å, whereas for the two CoII centers (Co1 The cohesion of the Co cluster is assured not only by the
+7
+andCo4),thesedistancesarelongerasexpected(intherange four central μ −OH− groups that connect all the cobalt
+3
+2.032(4) to 2.128(4) Å). centers, but also by the two different ligands (H L1)3− and
+2
+The two CoII centers (Co1 and Co4) present a CoO (HL2)−. (H L1)3− coordinates to the four cobalt ions through
+6 2
+coordination environment (Figure S11). In Co1, it is formed two N and five O atoms, whereas (HL )− coordinates to the
+2
+6164 https://doi.org/10.1021/acs.inorgchem.3c04065
+Inorg.Chem.2024,63,6161−6172
+
+Inorganic Chemistry pubs.acs.org/IC Article
+Co1, Co2, and Co3 centers through one N and two O atoms
+(Figure S12).
+Selected coordination bond lengths and bond angles are
+giveninTablesS1andS2,respectively.Toassigntheoxidation
+states of the four cobalt centers, we carried out BVS
+calculations. The BVS values obtained are 3.47 and 3.25 for
+Co2 and Co3, respectively, and 2.02 and 1.87 for Co1 and
+Co4,respectively.Thesevaluessupporttheformulationofthe
+clusterincompound1as[Co IICo III(H L1) (HL2) (OH) ]6+.
+3 4 2 2 2 4
+These cationic clusters are connected by hydrogen bonds
+involving the crystallization water molecules and the nitrate
+anions with the amino and hydroxymethyl groups of the Figure 2. Thermal variation of χ T for compound 1. A solid line is
+m
+cationic units (Table S3). These interactions lead to the the best fit to the model (see the text). The inset shows the Co
+3
+formation of chains along the c-axis, formed by the cationic cluster withthe exchange coupling scheme.
+units with a Co1···Co1 distance of 13.269 Å, which is much
+longer than the average distance between the central Co1 The plot of the thermal variation of the zero-field-cooled
+center and the peripheral Co2−Co4 centers inside the cluster (ZFC) and field-cooled (FC) magnetic susceptibility shows
+(3.041 Å). The seven Co centers in the cluster are almost identical behaviors for both measurements (Figure S16),
+perfectly planar, as can be seen in Figure 1c, with a mean indicativeoftheabsenceofalong-rangemagneticorderatlow
+square root deviation of 0.00007 Å2. temperatures, in agreement with the absence of an out-of-
+The Co 7 cluster is planar and formed by edge-sharing phase AC signal with zero applied DC field.
+octahedra,showingaclosestructuralresemblancewithlayered Sincethestructureof1showsthatthethreeCoIIcentersare
+double hydroxides (LDHs) (Figure S13). In recent years, connected through identical symmetry-related double μ −
+3
+LDHshavegainedmuchattentionfortheirmanyapplications OH−groups,wehavefitthemagneticpropertiesofcompound
+in electrocatalysis, magnetism, water purifications, and for the 1withasimplesymmetriclinearCoIItrimerandtwoidentical
+fine-tuning of their properties through judicious selection of couplingconstants(J),includingaspin−orbitcoupling(λ),an
+the metal ions.41,42 In LDHs, the metallic layer is sandwiched orbital reduction parameter (σ), and a zero-field splitting
+betweentwodifferenthydroxidelayersandcharge-compensat- (ZFS) in the CoII centers (D) using the program PHI.46 This
+ing anions along with guest water molecules are located in model reproduces very satisfactorily the magnetic data of
+betweensuchlayers.43Withinthelayers,thehydroxideanions
+compound 1 in the whole temperature range with the
+connect three different metal centers, and thus, LDHs show following parameters: J = +3.53(6) cm−1, σ = 0.70(3), λ =
+strong magnetic coupling. Different research groups have 170(1) cm−1, and |D| = 11.8(7) cm−1 (with a Hamiltonian of
+studiedthemagneticpropertiesofsuchLDHsandestablished the type −J(S S + S S ), solid line in Figures 2 and S14).
+1 2 2 3
+that the magnetic properties of LDHs depend on their Additionally, we have included a temperature-independent
+composition.41,42Ontheotherhand,duetoeasysynthesis,low paramagnetism(Nα=2.37(3)×10−3cm3mol−1),toaccount
+cost,highstability,compositionalversatility,andhighcatalytic for the contribution of the CoIII centers. The observed J value
+activity,LDHshavebeenutilizedinelectrocatalysisforenergy is close to the expected value for a double hydroxide bridge
+storage and conversion.44 Herein, the metallic layer of with Co−O−Co bond angles of 95.21(15)° and 97.22(16)°,
+Co IIICo II is sandwiched between hydroxide layers, and the where the coupling is expected to be ferromagnetic for Co−
+4 3
+cobalt ions present an edge-sharing octahedral coordination O−Co bond angles close to 90°.47 In compound 1, the Co−
+geometry. Based on such structural similarity, besides the O−Cobondanglesarearound95−97°,and,accordingly,theJ
+magnetic properties, we have also studied electrocatalytic valueisexpectedtobeweakbutferromagnetic.Notethatthis
+behavior of the Co IIICo II cluster (see below). weak ferromagnetic coupling does not result in an increase of
+4 3
+3.3.MagneticPropertiesof1.Theproductofthemolar χ T with decreasing the temperature since it is weak and
+m
+magnetic susceptibility per Co cluster times the temperature cannot overcome the decrease in χ T due to the spin−orbit
+7 m
+(χ T)for1shows,atroomtemperature,avaluecloseto8cm3 coupling and ZFS.
+m
+Kmol−1,whichistheexpectedoneforthreeindependentCoII Theferromagneticcouplingfoundincompound1leadstoa
+centers in an octahedral environment with an orbital high-spin ground state and, therefore, points to the possible
+contribution.45 This value agrees with the presence of three existence of a slow relaxation of the magnetization in
+CoIIandfourdiamagneticCoIIIcenters.Whenthetemperature compound 1. Accordingly, we performed AC susceptibility
+is decreased, the χ T value shows a continuous decrease to measurements at low temperatures with different applied DC
+m
+reach a value close to 2 cm3 K mol−1 at 2 K (Figure 2). This fieldsanddifferentACfrequencies.Thesemeasurementsshow
+behaviorindicatesthatthethreeCoIIionspresentaspin−orbit the presence of an out-of-phase signal (χ” ) only when a DC
+m
+coupling and a possible weak magnetic exchange through field is applied (Figure 3a). This out-of-phase signal shows a
+double hydroxido bridges. frequency dependence with a maximum that shifts to lower
+The isothermal magnetization per formula unit (i.e., three frequencies as the DC field increases and reaches a minimum
+CoII ions) at 1.9 K shows a value at 5 T of almost 7 μ and frequencyforDCfieldsaround200mT.ForhigherDCfields,
+B
+points to a saturation value close to 8 μ for higher fields the χ” signal shifts to higher frequencies (Figure 3a). The fit
+B m
+(Figure S15). This value suggests the presence of a large ofthefrequencydependenceofχ” totheDebyemodelgives
+m
+magneticanisotropy. The values at1.9 Kare below those at 5 the corresponding relaxation times for different DC fields. As
+K, indicative of the presence of zero-field splitting at very low canbeseeninFigureS17,therelaxation timeincreasesasthe
+temperatures,inagreementwiththefitofthethermalvariation DCfieldincreasesandreachesamaximumvalueataround200
+of the χ T product. mT. The relaxation time follows the expected variation with
+m
+6165 https://doi.org/10.1021/acs.inorgchem.3c04065
+Inorg.Chem.2024,63,6161−6172
+
+Inorganic Chemistry pubs.acs.org/IC Article
+Figure3.(a)Frequencydependenceofχ” at2.0KwithdifferentappliedDCfields.(b)Frequencydependenceofχ” withanappliedDCfieldof
+m m
+200mTat differenttemperaturesforcompound1.Solidlines arethe best fitto theDebye model.
+the DC field (eq 1)48 with the following parameters: n = parameters: A = 1.52(3) × 104 s−1 K−1, τ = 8.2(7) × 10−7
+0
+0.42(14), A = 2.9(3) s−1 mT−n, B = 2.9(4) × 104 s−1, B = s, and U = 11.3(4) K (solid line in Figure 4).
+1 2 eff
+6.8(5) × 10−5 mT−2, and D = 3.7(1) × 102 s−1 (solid line in AsearchintheCCDCdatabaseshowsthattherearearound
+Figure S17). 170Co complexesofanykindreportedtodate.Amongthem,
+7
+B there are 47 wheel-shaped complexes with any type of double
+1 = AHn + 1 + B 1 2 H2 + D (1) O in R co o m r p O o H un b d ri 1 dg ( e T s a c b o le nn 2 e ) c . t T in h g e th m e o c st ob co al m t c m e o n n ter o s x , id as at o io b n se s r t v a e t d e
+Since the maximum relaxation time is observed for a DC field ofthecobaltcentersisCo 7 II(23examplesreported),although
+ofaround200mT,wehavestudiedthethermaldependenceof there are also known examples of the type Co 4 IICo 3 III (16
+therelaxationtimeforcompound1withanappliedDCof200 examples), Co 6 IICoIII (6 examples), and even Co 5 IICo 2 III and
+mT (Figure 3b). Co IICo III(withoneexampleofeach,Table2).Compound1
+3 4
+These measurements show a frequency-dependent χ” is, therefore, the second-reported wheel-shaped Co cluster
+m 7
+signal with a maximum that moves to higher frequencies as with a Co IICo III core.
+3 4
+the temperature increases. The relaxation time at each Unfortunately, the magnetic characterization has only been
+temperaturehasbeendeterminedwiththefitofthefrequency performed on 26 of these clusters, and among them, only in
+dependence of χ” to the Debye model. The Arrhenius plot five cases a model was used to fit the magnetic exchange
+m
+(lnτ vs 1/T, Figure 4) shows a linear behavior at high through the double OR bridges. In these five compounds, the
+coupling was found to be weak and ferromagnetic, as in
+compound 1. Furthermore, the qualitative analysis of the
+magnetic properties performed in many of the reported Co
+7
+wheel-shaped clusters shows that most of them present weak
+ferromagnetic couplings with Co−O−Co angles in the range
+90−98°, as observed in compound 1. In summary, the weak
+ferromagnetic coupling found in 1 agrees well with the
+observed trend in this kind of clusters.
+Interestingly, among these 47 clusters, only six show single-
+molecule magnet (SMM) behavior at very low temperatures
+(three Co II, one Co IICoIII cluster, and two Co IICo III
+7 6 4 3
+clusters). Compound 1 is, therefore, the first Co IICo III
+3 4
+cluster of this type, showing SMM behavior. As can be seen
+Figure4.ArrheniusplotoftherelaxationtimeswithaDCfieldof200 in Table 2, only in one case (a Co II cluster), the full
+7
+mT for 1. The solid line is the best fit to eq 2 with the direct and
+characterization of the relaxation process was performed in
+Orbachterms(see the text).
+order to determine the energy barrier for the thermally
+activated process (Orbach mechanism). Compound 1 is,
+therefore, the first mixed-valence characterized SMM Co
+temperatures and a slight curvature at low temperatures. This 7
+cluster.
+behavior indicates that the relaxation of the magnetization in
+3.4. Electrochemical HER Activity. Given the structural
+compound 1 follows a thermally activated mechanism at high
+similarity with LDHs, we studied the electrochemical water-
+temperatures (Orbach mechanism, second term in eq 2).
+splittingcatalyticactivityof1.Incontrasttotheinsolubilityof
+Albeit, in order to reproduce satisfactorily the behavior at low
+LDHs, compound 1 is readily soluble in water, and therefore,
+temperatures, we need to include the direct (D) mechanism
+wehaveperformedthecatalyticstudiesforhydrogenevolution
+(first term in eq 2).48
+reaction (HER) with a 0.5 mM catalyst concentration at
+i U y different pH in aqueous solutions. In the presence of the
+1= AT +
+0
+1expjjjjj
+k T
+effzzzzz
+catalyst, the electrocatalytic response shows a lower over-
+k B { (2) potential for the HER than without the catalyst (Figure S18).
+Thus,thefitofthethermaldependenceoftherelaxationtimes Theelectrocatalyticresponseshowsagradualanodicshiftwith
+to a model including direct and Raman mechanisms (eq 2) anincreaseofthecurrentwhenthepHisloweredfrompH11
+reproduces the experimental data with the following to2,suggestingthecatalysttobeactiveforHERacrossawide
+6166 https://doi.org/10.1021/acs.inorgchem.3c04065
+Inorg.Chem.2024,63,6161−6172
+
+Inorganic Chemistry pubs.acs.org/IC Article
+Table2.MagneticDataofAlltheReportedCo ClusterswithaWheel-ShapedStructurewithAnyTypeofDoubleORBridges
+7
+Connecting the Cobalt Centers
+# CCDC CoII CoIII J(cm−1) SMM U (K) ref
+eff
+1 AGACIV 4 3 2.6(1) no 49
+2 AKUZOX 7 0 >0 no 50
+3 ALACIB 7 0 <0 yes 50
+4 ANIDIL 7 0 51
+5 DALCUQ 7 0 J −23.0(2)J =14.8(2) no 52
+xy z
+6 DIZZAP 4 3 7.4(2) yes 53
+7 DODWEA 7 0 54
+8 DODWEA 6 1 54
+9 FIVLUU 6 1 55
+10 GIGYON 7 0 6.4(1) 56
+11 HALFIM 7 0 >0 yes 18.8(18) 57
+12 HOMQOS 7 0 >0 no 58
+13 ICICEE 7 0 >0 no 59
+14 ISAWOQ 7 0 >0 yes 60
+15 ISORIU 4 3 61
+16 ISOROA 4 3 62
+17 ISUCOR 4 3 62
+18 JILWUX 4 3 >0 yes 62
+19 KODQEB 7 0 >0 63
+20 KOFQUT 7 0 >0 no 64
+21 OBOLUQ 7 0 65
+22 OCITIF 6 1 >0 yes 66
+23 OZOXUY 7 0 67
+24 PORQUK 7 0 >0 68
+25 QUNVIG 7 0 69
+26 SADLUG 7 0 >0 no 70
+27 SADMAN 7 0 >0 no 70,71
+28 SOGYIY 7 0 <0 72
+29 SOKHIK 3 4 1.5 no 73
+30 TATYAR 5 2 74
+31 UJOVUL 7 0 >0 no 75
+32 UTEGIL 7 0 >0 no 39
+33 VEPQOX 6 1 J =13/7.8J =20/12 no 76
+xy z
+34 VUJVAY 7 0 >0 no 77
+35 XEWYEG 4 3 78
+36 XEWYIK 4 3 78
+37 XEWYOQ 4 3 78
+38 XEWYUW 4 3 78
+39 XEWZAD 4 3 78
+40 YAJRAE 6 1 no 76
+41 ZAYFIQ 7 0 >0 79
+42 ZAYGAJ 6 1 <0 79
+43 ZEGJED 4 3 >0 No 80
+44 ZUWSUI 4 3 81
+45 ZUWTAP 4 3 81
+46 ZUWTET 4 3 81
+47 ZUWTIX 4 3 81
+48 1 3 4 3.53(6) Yes 11.3(4) Thiswork
+range of pH values (Figure 5a). At pH 2, the catalyst- of the catalyst, suggesting an easier charge transfer kinetics
+containing solution shows an onset potential of −0.77 V vs (Figure S20). Constant potential electrolysis revealed a
+Ag/AgCl (−0.57 V vs NHE with a current density of 0.9 mA Faradaic yield of ∼81% over 2 h of continuous operation
+cm−2) and has an overpotential of ∼455 mV. The plot of the (FigureS21)withaturnoverfrequencyof8.97×104μmolH
+catalyticonsetpotentialasafunctionofpHshowsaslopeof∼ 2
+h−1 mol−1 of the catalyst with no significant degradation
+−40 mV/pH unit, suggesting a proton-coupled electron
+(Figure S22). The catalyst is found to be homogeneous as
+transfer mechanism in the potential determining step (Figure
+5b).The Tafelslope is determined tobe around170 mV/dec there was no visible deposition on the glassy carbon surface,
+and remains almost constant over the pH range (Figure S19). and the rinse test was negative (Figures S23 and S24).
+Theimpedancedatashowsasmallersemicircleinthepresence Moreover, the UV−Vis spectra of the catalyst in pure water
+6167 https://doi.org/10.1021/acs.inorgchem.3c04065
+Inorg.Chem.2024,63,6161−6172
+
+Inorganic Chemistry pubs.acs.org/IC Article
+Figure5.(a)Linearsweepvoltammogramwith1asacatalystatvariouspHvaluesinaqueoussolutionsand(b)correspondingE(onset)vspH
+plot.
+and pH = 2 are identical, suggesting no significant pH- to the design of advanced materials for spin-controlled
+dependent change in the catalyst (Figure S25). electrocatalysis.
+Dutta and co-workers have described that the electro- ■
+catalytic hydrogen evolution reaction of cobalt(III) complexes ASSOCIATED CONTENT
+proceedsthroughthereductiontocobalt(II)complexes,which
+* sı Supporting Information
+are further reduced to catalytically active cobalt(I) species
+under pH < 5.28 A close look at the crystal structure of The Supporting Information is available free of charge at
+compound1revealsthatalloftheCoIIcentersaresurrounded https://pubs.acs.org/doi/10.1021/acs.inorgchem.3c04065.
+by six oxygen atoms (Co1 is connected to four hydroxides Coordination bond lengths, bond angles, and hydrogen
+while Co4 is connected to two hydroxides), whereas the CoIII bond dimensions are given in Tables S1−S3. Crystal
+ions are coordinated to both O- and N-donor atoms. morphology, IR spectra of the ligand (H L) and 1,
+5
+Therefore, it is difficult to predict which cobalt center is absorptionspectraoftheligandand1,1HNMRspectra
+catalytically active. In an acidic medium, all the N-, O-, and of the ligand, XRPD of 1, SEM micrographs of a
+hydroxido-groups have a chance to be protonated, leading to microcrystallinesampleof1,XPSof1,ORTEPdiagram
+the cleavage of the metal−ligand bond to generate an open of 1, coordination geometry of different metal centers,
+metalsitewithconsequentreductionofthemetalcentersfrom bindingmodesoftheligands,structuralcomparisonof1
+cobalt(III) to cobalt(I) via cobalt(II) or directly from with NiFe-LDH, different magnetic plots χ vs T,
+m
+cobalt(II) to cobalt(I). Then, these catalytically active isothermal magnetization at different temperatures, and
+cobalt(I) centers reduce the H+ ions to H 2 . FC-ZFC and magnetic relaxation along with different
+To date, most of the electrocatalytic HER activity has been electrochemicalplots,suchaslinearsweepvoltammetry,
+studied byusingcobalt(II)orcobalt(III) complexes withvery Tafel plots, constant potential electrolysis, absorption
+few studies performed on mixed-valence cobalt(II/III) spectra before and after electrocatalysis, image of the
+complexes.82 As far as we know, none of these few studies electrode before and after electrocatalysis, Rinse test,
+reportHERactivityinthehomogeneousphase,andtherefore, and UV−Vis spectra of 1 before and after electro-
+this is the first report of electrocatalytic HER activity of a catalysis, are presented in Figures S1−S25 within the
+mixed-valence cobalt cluster in the homogeneous phase. Supporting Information file (PDF)
+4. CONCLUSIONS Accession Codes
+CCDC 2305761 contains the supplementary crystallographic
+Insummary,wehavesynthesizedabifunctionalmixed-valence
+data for this paper. These data can be obtained free of charge
+heptanuclear Co IICo III complex showing field-induced SMM
+3 4 via www.ccdc.cam.ac.uk/data_request/cif, or by emailing
+behavior and electrocatalytic HER activity. The Co cluster is
+7 data_request@ccdc.cam.ac.uk, or by contacting The Cam-
+formed under reflux conditions via subsequent partial
+bridge Crystallographic Data Centre, 12 Union Road,
+dissociation of the compartmental Schiff base ligand along
+Cambridge CB2 1EZ, UK; fax: +44 1223 336033.
+withthepartialoxidationofcobalt(II)tocobalt(III).TheCo
+7 ■
+cluster has a centrosymmetric wheel-shaped planar structure
+AUTHOR INFORMATION
+with hydroxide groups above and below the plane in a
+disposition similar to that of LDHs. The hydroxido-bridged Corresponding Authors
+linearCo IItrimerwithintheclustershowsweakferromagnetic Biswajit Mondal − Department of Chemistry, IIT
+3
+CoII···CoII interactions through the double hydroxido bridges, Gandhinagar, Palaj 382355 Gujarat, India; orcid.org/
+and the cluster shows a field-induced SMM behavior. A 0000-0002-2339-3076;Email:mondal.biswajit@iitgn.ac.in
+detailed literature survey shows that this is the first Rajat Saha − Department of Chemistry, Kazi Nazrul
+characterized SMM mixed-valence Co cluster. University, Asansol 713340 West Bengal, India;
+7
+Additionally, compound 1 shows electrocatalytic HER Departamento de Química Inorgánica, Universidad de
+activity in the homogeneous phase over a wide range of pH Valencia, Valencia 46100, Spain; orcid.org/0000-0003-
+(from2to11).AtpH=2,itshowsHERactivityatmoderate 1943-3650; Email: rajatinorg1@gmail.com, rajat.saha@
+overpotential with significant Faradaic efficiency and TOF. uv.es
+Studies on such bifunctional materials with single-molecule Carlos J. Gómez García − Departamento de Química
+magnetbehaviorandpotentialelectrocatalyticactivitywilllead Inorgánica,UniversidaddeValencia,Valencia46100,Spain;
+6168 https://doi.org/10.1021/acs.inorgchem.3c04065
+Inorg.Chem.2024,63,6161−6172
+
+Inorganic Chemistry pubs.acs.org/IC Article
+orcid.org/0000-0002-0015-577X; Magnetism, Optical Property, Theoretical Analysis and Electrical
+Email: carlos.gomez@uv.es Conductivity. Cryst.GrowthDes.2023, 23, 7066−7075.
+(5) Xia, B.; Gao, Q.; Hu, Z.-P.; Wang, Q.-L.; Cao, X.-W.; Li, W.;
+Authors Song, Y.; Bu, X.-H. Concominant Photoresponsive Chiroptics and
+Biplab Biswas − Department of Chemistry, Kazi Nazrul Magnetism in Metal-Organic Frameworks at Room Temperature.
+University,Asansol713340West Bengal,India;Department Research 2021, 51, No.5490482, DOI:10.34133/2021/5490482.
+of Chemistry, Hooghly Mohsin College, Chinsurah 712101 (6) (a) Luo, S.; Elouarzaki, K.; Xu, Z. J. Electrochemistry in
+West Bengal, India Magnetic Fields. Angew. Chem., Int. Ed. 2022, 61, No. e20220356,
+Anjila I. Siddiqui − Department of Chemistry, IIT DOI: 10.1002/anie.202203564. (b) Zhou, W.; Chen, M.; Guo, M.;
+Hong, A.; Yu, T.; Luo, X.; Yuan, C.; Lei, W.; Wang, S. Magnetic
+Gandhinagar, Palaj 382355 Gujarat, India
+Enhancement for Hydrogen Evolution Reaction on Ferromagnetic
+Mithun Chandra Majee − Department of Chemistry, BB
+MoS Catalyst.NanoLett. 2020, 20,2923−2930.
+College, Asansol 713303 West Bengal, India 2
+(7)(a)Ling,Y.;Yu,X.;Yuan,S.;He,A.;Han,Z.;Du,J.;Fan,Q.;
+Swadhin Kumar Saha − Department of Chemistry, Kazi
+Yan,S.;Xu,Q.FlexomagneticEffectEnhancedFerromagnetismand
+Nazrul University, Asansol 713340 West Bengal, India Magnetoelectrochemistry in Freestanding High-Entropy Alloy Films.
+Complete contact information is available at: ACSNano2023,17,17299−17307.(b)Zhang,Y.;Guo,P.;Niu,S.;
+https://pubs.acs.org/10.1021/acs.inorgchem.3c04065 Wu,J.;Wang,W.;Song,B.;Wang,X.;Jiang,Z.;Xu,P.MagneticField
+Enhanced Electrocatalytic Oxygen Evolution of NiFe-LDH/Co3O4
+p-n Heterojunction Supported on Ni-foam. Small Methods 2022, 6,
+Author Contributions
+#These authors contributed equally to this work. B.B. No.2200084.(c)Ren,X.;Wu,T.;Gong,Z.;Pan,L.;Meng,J.;Yang,
+H.;Dagbjartsdottir,F.B.;Fisher,A.;Gao,H.-J.;Xu,Z.J.TheOrigin
+synthesized the material, and manuscript writing and editing.
+of Magnetization-Caused Increment in Water Oxidation. Nat.
+A.I.S. and B.M. performed the electrochemical HER activity
+Commun.2023, 14, No. 2482,DOI: 10.1038/s41467-023-38212-2.
+study and participated in writing the manuscript. M.C.M.
+(8) (a) Maniaki, D.; Pilichos, E.; Perlepes, S. P. Coordination
+performed the structural analysis and participated in writing Clusters of 3d-Metals that Behave as Single-Molecule Magnets
+themanuscript.S.K.S.performedtheX-raydatacollectionand (SMMs): Synthetic Routes and Strategies. Front. Chem. 2018, 6,
+analysis. R.S. and C.J.G.G. designed the project and wrote the No. 461, DOI: 10.3389/fchem.2018.00461. (b) Papatriantafyllopou-
+manuscript. lou,C.;Moushi,E.E.;Christou,G.;Tasiopoulos,A.J.FillingtheGap
+Notes Between the Quantum and Classical Worlds of Nanoscale Magnet-
+ism: Giant Molecular Aggregates Based on Paramagnetic 3d Metal
+The authors declare no competing financial interest.
+Ions. Chem. Soc. Rev. 2016, 45, 1597−1628. (c) Bagai, R.; Christou,
+■
+G. The Drosophila of Single-Molecule Magnetism:
+ACKNOWLEDGMENTS
+[Mn O (OCR) (HO)]. Chem. Soc.Rev.2009, 38,1011−1026.
+12 12 2 16 2 4
+R.S. is the beneficiary of the grant (Z21-070) for the (9) (a) Gatteschi, D.; Sessoli, R. Quantum tunneling of magnet-
+requalification of the Spanish University system from the izationandrelatedphenomenainmolecularmaterials.Angew.Chem.,
+MinistryofUniversitiesoftheGovernmentofSpain,modality Int. Ed. 2003, 42, 268−297. (b) Jeon, I.-R.; Clerac, R. Controlled
+“Maria Zambrano” financed by the European Union. This association of single-molecule magnets (SMMs) into coordination
+study forms part of the Advanced Materials program and was networks: towards a new generation of magnetic materials. Dalton
+supportedbytheSpanishMCIN withfunding fromEuropean Trans.2012, 41, 9569−9586.
+(10) (a) Thiele, S.; Balestro, F.; Ballou, R.; Klyatskaya, S.; Ruben,
+Union NextGeneration EU (PRTR- C17.I1) and theGeneral-
+M.; Wernsdorfer, W. Electrically Driven Nuclear Spin Resonance in
+itat Valenciana (project MFA-2022-057). We also thank the
+Single-MoleculeMagnets.Science2014,344,1135−1138.(b)Aromí,
+Grant PID2021-125907NB-I00 funded by MCIN/AEI/
+G.;Aguila,D.;Gamez,P.;Luis,F.;Roubeau,O.DesignofMagnetic
+10.13039/501100011033 and by “ERDF A way of making
+Coordination Complexes for Quantum Computing. Chem. Soc. Rev.
+Europe” and project CIPROM-2022-060 from the Generalitat
+2012, 41, 537−546. (c) Vincent, R.; Klyatskaya, S.; Ruben, M.;
+Valenciana for financial support. B.M. acknowledges IIT
+Wernsdorfer,W.;Balestro,F.ElectronicRead-OutofaSingleNuclear
+Gandhinagar internal grant and SERB-SRG (SRG/2022/ SpinUsingaMolecularSpinTransistor.Nature2012,488,357−360.
+001736)forfundingandA.I.S.acknowledgesIITGandhinagar (d) del Carmen Gimenez-Lo ́ pez, M.; Moro, F.; La Torre, A.; Go ́
+for fellowship. mez-Ǵ arcía,C.J.;Brown,P.D.;VanSlageren,J.;Khlobystov,A.N.
+■ Encapsulation of Single-Molecule Magnets in Carbon Nanotubes.
+REFERENCES Nat. Commun. 2011, 2, No. 407, DOI: 10.1038/ncomms1415.
+(e) Mannini, M.; Pineider, F.; Sainctavit, P.; Danieli, C.; Otero, E.;
+(1)(a)Coronado,E.Molecularmagnetism:fromchemicaldesignto
+Sciancalepore, C.; Talarico, A. M.; Arrio, M.; Cornia, A.; Gatteschi,
+spin control in molecules, materials and devices. Nat. Rev. Mater.
+2020,5,87−104.(b)Maspoch,D.;Ruiz-Molina,D.;Veciana,J.Old D.; Sessoli, R. Magnetic Memory of a Single-Molecule Quantum
+MagnetWired to aGold Surface.Nat. Mater.2009, 8, 194−197.
+materialswith newtricks: multifunctional open-frameworkmaterials.
+Chem.Soc.Rev.2007,36,770−818.(c)Guo,L.;Gu,X.;Zhu,X.;Sun, (11) (a) Zabala-Lekuona, A.; Seco, J. M.; Colacio, E. Single-
+X. Recent Advances in Molecular Spintronics: Multifunctional Molecule Magnets: From Mn12-ac to dysprosium metallocenes, a
+Spintronic Devices. Adv. Mater. 2019, 31, No. 1805355, travelintime.Coord.Chem.Rev.2021,441,No.213984.(b)Wood-
+DOI:10.1002/adma.201805355. ruff, D. N.; Winpenny, R. E. P.; Layfield, R. A. Lanthanide Single-
+(2) Coronado, E.; Galán-Mascarós, J. R.; Gómez-García, C. J.; Molecule Magnets.Chem. Rev.2013, 113, 5110−5148.
+Laukhin,V.Coexistenceofferromagnetismandmetallicconductivity (12)(a)Aldoshin,S.M.;Korchagin,D.V.;Palii,A.V.;Tsukerblat,
+inamolecule-basedlayeredcompound.Nature2000,408,447−449. B.S.Somenewtrendsinthedesignofsinglemoleculemagnets.Pure
+(3) Saha, R.; Kumar, S. {[Co (ndc) (bpee) ](bpee)}: a 3D Appl.Chem.2017,89,1119−1143.(b)Demir,S.;Jeonb,I.;Longa,J.
+2 2 2
+multifunctionalMOF. CrystEngComm 2012,14, 4980−4988. R.; Harris, T. D. Radical ligand-containing single-molecule magnets.
+(4)Dubey,S.K.;Biswas,B.;Halder,D.;Mallick,S.;Saha,I.;Gupta, Coord. Chem. Rev. 2015, 289−290, 149−176, DOI: 10.1016/
+K.;Giri,S.;Patra,A.S.;Rizzoli,C.;Meikap,A.K.;Bhattacharjee,S.; j.ccr.2014.10.012. (c) Lee, S.; Ogawa, T. Molecular Design for
+Saha, R. A Multifunctional Interpenetrated 3D Supramolecular Single-molecule Magnetism of Lanthanide Complexes. Chem. Lett.
+StructureBasedon1DCoordinationPolymer:SelectiveAdsorption, 2017, 46, 10−18.
+6169 https://doi.org/10.1021/acs.inorgchem.3c04065
+Inorg.Chem.2024,63,6161−6172
+
+Inorganic Chemistry pubs.acs.org/IC Article
+(13) (a) Sessoli, R.; Gatteschi, D.; Caneschi, A.; Novak, M. A. [NiFe]-, and [FeFe]-Hydrogenases. Chem. Rev. 2009, 109, 2245
+Magnetic bistability in a metal-ion cluster. Nature 1993, 365, 141− DOI: 10.1021/cr800542q.
+143. (b) Liddle, S. T.; van Slageren, J. Improving f-element single (22) Yan, Y.; Lin, J.; Xu, T.; Liu, B.; Huang, K.; Qiao, L.; Liu, S.;
+molecule magnets.Chem. Soc.Rev.2015, 44, 6655−6669. Cao,J.;Jun,S.C.;Yamauchi,Y.;Qi,J.Atomic-LevelPlatinumFilling
+(14)Bogani,L.;Wernsdorfer,W.Molecularspintronicsusingsingle- intoNi-VacanciesofDual-DeficientNiOforBoostingElectrocatalytic
+molecule magnets.Nat. Mater.2008, 7, 179−186. Hydrogen Evolution. Adv. Energy Mater. 2022, 12, No. 2200434,
+(15) (a) Murrie, M. Cobalt (II) Single-Molecule Magnets. Chem. DOI: 10.1002/aenm.202200434.
+Soc. Rev. 2010, 39, 1986−1995. (b) Wu, D.; Guo, D.; Song, Y.; (23) (a) Chong, D.; Georgakaki, I. P.; Mejia-Rodriguez, R.;
+Huang,W.;Duan,C.;Meng,Q.;Sato,O.CoIIMolecularSquarewith Sanabria-Chinchilla, J.; Soriaga, M. P.; Darensbourg, M. Y. Electro-
+Single-MoleculeMagnetProperties.Inorg.Chem.2009,48,854−860. catalysis of hydrogen production by active site analogues of the iron
+(c) Klöwer, F.; Lan, Y.; Nehrkorn, J.; Waldmann, O.; Anson, C. E.; hydrogenase enzyme: structure/function relationships. Dalton Trans.
+Powell,A.K.ModellingtheMagneticBehaviourofSquare-Pyramidal 2003, 21, 4158−4163, DOI: 10.1039/B304283A. (b) Hu, X.;
+CoIIAggregates:TuningSMMBehaviourThroughVariationsinthe Brunschwig, B. S.; Peters, J. C. Electrocatalytic Hydrogen Evolution
+5
+LigandShell.Chem.-Eur.J.2009,15,7413−7422.(d)Zeng,M.H.; at Low Overpotentials by Cobalt Macrocyclic Glyoxime and
+Yao,M.X.;Liang,H.;Zhang,W.X.;Chen,X.M.ASingle-Molecule- Tetraimine Complexes. J. Am. Chem. Soc. 2007, 129, 8988−8998.
+Magnetic, Cubane-Based, Triangular Co Supercluster. Angew. (c) Jacques, P.-A.; Artero, V.; Pecaut, J.; Fontecave, M. Cobalt and
+12
+Chem., Int. Ed. 2007, 46, 1832−1835. (e) Ferguson, A.; Parkin, A.; nickel diimine-dioxime complexes as molecular electrocatalysts for
+Sanchez-Benitez, J.; Kamenev, K.; Wernsdorfer, W.; Murrie, M. A hydrogenevolutionwithlowovervoltages.Proc.Natl.Acad.Sci.U.S.
+Mixed-Valence Co Single-Molecule Magnet with C Symmetry. A. 2009, 106, 20627−20632. (d) Helm, M. L.; Stewart, M. P.;
+7 3
+Chem. Commun. 2007, 3473−3475. (f) Murrie, M.; Teat, S. J.; Bullock, R. M.; DuBois, M. R.; DuBois, D. L. A Synthetic Nickel
+Stoeckli-Evans,H.;Güdel,H.U.SynthesisandCharacterizationofa ElectrocatalystwithaTurnoverFrequencyAbove100,000s−1forH
+2
+Cobalt(II)Single-MoleculeMagnet.Angew.Chem.,Int.Ed.2003,42, Production. Science 2011, 333, 863−866. (e) Carroll, M. E.; Barton,
+4653−4656. B.E.;Rauchfuss,T.B.;Carroll,P.J.SyntheticModelsfortheActive
+(16)(a)Kostakis,G.E.;Perlepes,S.P.;Blatov,V.A.;Proserpio,D. Siteofthe[FeFe]-Hydrogenase:CatalyticProtonReductionandthe
+M.; Powell, A. K. High-nuclearity cobalt coordination clusters: Structure of the Doubly Protonated Intermediate. J. Am. Chem. Soc.
+Synthetic,topologicalandmagneticaspects.Coord.Chem.Rev.2012, 2012,134,18843−18852.(f)McNamara,W.R.;Han,Z.;Yin,C.-J.;
+256, 1246−1278. (b) Paul, A.; Viciano-Chumillas, M.; Puschmann, Brennessel, W. W.; Holland, P. L.; Eisenberg, R. Cobalt-dithiolene
+H.;Cano,J.;Manna,S.C.Field-inducedslowmagneticrelaxationin complexes for the photocatalytic and electrocatalytic reduction of
+mixedvalencedi-andtri-nuclearCoII−CoIIIcomplexes.DaltonTrans. protonsinaqueoussolutions.Proc.Natl.Acad.Sci.U.S.A.2012,109,
+2020,49,9516.(c)Ruamps,R.;Batchelor,L.J.;Guillot,R.;Zakhia, 15594−15599.
+G.;Barra,A.-L.;Wersndorfer,W.;Guihéry,N.;Mallah,T.Ising-type (24)(a)Dempsey,J.L.;Brunschwig,B.S.;Winkler,J.R.;Gray,H.
+magnetic anisotropy and single molecule magnet behaviour in B. Hydrogen Evolution Catalyzed by Cobaloximes. Acc. Chem. Res.
+mononuclear trigonal bipyramidal Co(II) complexes. Chem. Sci. 2009, 42, 1995−2004. (b) Losse, S.; Vos, J. G.; Rau, S. Catalytic
+2014,5,3418−3424,DOI:10.1039/C4SC00984C.(d)Gómez-Coca, hydrogenproductionatcobaltcentres.Coord.Chem.Rev.2010,254,
+S.; Aravena, D.; Morales, R.; Ruiz, E. Large magnetic anisotropy in 2492−2504. (c) Artero, V.; Chavarot-Kerlidou, M.; Fontecave, M.
+mononuclear metal complexes. Coord. Chem. Rev. 2015, 289−290, SplittingWaterwithCobalt.Angew.Chem.,Int.Ed.2011,50,7238−
+379−392. (e) Shao, F.; Cahier, B.; Guihéry, N.; Rivier̀e, É.; Guillot, 7266.(d)Eckenhoff,W.T.;McNamara,W.R.;Du,P.;Eisenberg,R.
+R.;Barra,A.-L.;Lan,Y.;Wersndorfer,W.;Campbell,V.E.;Mallah,T. Cobalt complexes as artificial hydrogenases for the reductive side of
+Tuning the Ising-type anisotropy in trigonal bipyramidal Co(II) watersplitting.Biochim.Biophys.Acta,Bioenerg.2013,1827,958−973.
+complexes.Chem.Commun.2015,51,16475−16478,DOI:10.1039/ (e) Kaeffer, N.; Chavarot-Kerlidou, M.; Artero, V. Hydrogen
+C5CC07741A. (f) Woods, T. J.; Ballesteros-Rivas, M. F.; Gómez- Evolution Catalyzed by Cobalt Diimine−Dioxime Complexes. Acc.
+Coca, S.; Ruiz, E.; Dunbar, K. R. Molecules with Different Local Chem. Res. 2015, 48, 1286−1295. (f) Queyriaux, N.; Jane, R. T.;
+Symmetries and Packing Arrangements: Magnetostructural Correla- Massin,J.;Artero,V.;Chavarot-Kerlidou,M.Recentdevelopmentsin
+tionsandabinitoCalculations.J.Am.Chem.Soc.2016,138,16407− hydrogen evolving molecularcobalt(II)−polypyridyl catalysts. Coord.
+16416.(g)Mondal,A.K.;Jover,J.;Ruiz,E.;Konar,S.Investigationof Chem.Rev.2015,304−305,3−19.(g)Nesterov,D.S.;Nesterova,O.
+easy-plane magnetic anisotropy in P-ligand square-pyramidal CoII V.PolynuclearCobaltComplexesasCatalystsforLight-DrivenWater
+singleion magnets.Chem. Commun.2017, 53,5338−5341. Oxidation: A Review of Recent Advances. Catalysts 2018, 8, 602.
+(17)Turner,J.A.Arealizablerenewableenergyfuture.Science1999, (h)Symes,M.D.;Surendranath,Y.;Lutterman,D.A.;Nocera,D.G.
+285,687−689. Bidirectional and Unidirectional PCET in a Molecular Model of a
+(18) (a) Dresselhaus, M. S.; Thomas, I. L. Alternative energy Cobalt-BasedOxygen-EvolvingCatalyst.J.Am.Chem.Soc.2011,133,
+technologies.Nature2001,414,332−337.(b)Grant,P.M.Hydrogen 5174−5177. (i) McCool, N. S.; Robinson, D. M.; Sheats, J. E.;
+liftsoff�withaheavyload.Nature2003,424,129−130.(c)Lu,Q.; Dismukes, G. C. A CoO “Cubane” Water Oxidation Catalyst
+4 4
+Yu, Y.; Ma, Q.; Chen, B.; Zhang, H. 2D Transition-Metal- Inspired by Photosynthesis. J. Am. Chem. Soc. 2011, 133, 11446−
+Dichalcogenide-Nanosheet-Based Composites for Photocatalytic and 11449.(j)Ullman,A.M.;Liu,Y.;Huynh,M.;Bediako,D.K.;Wang,
+ElectrocatalyticHydrogenEvolutionReactions.Adv.Mater.2016,28, H.; Anderson, B. L.; Powers, D. C.; Breen, J. J.; Abruña, H. D.;
+1917−1933. Nocera, D. G. Water Oxidation Catalysis by Co(II) Impurities in
+(19)daSilvaVeras,T.;Mozer,T.S.;daCostaRubimMessederdos Co(III)4O4 Cubanes. J. Am. Chem. Soc. 2014, 136, 17681−17688.
+Santos, D.; César, A. Hydrogen: trends, production and character- (k)Genoni,A.;Ganga,G.L.;Volpe,A.;Puntoriero,F.;Valentin,M.
+izationofthe mainprocessworldwide. Int.J. HydrogenEnergy 2017, D.; Bonchio, M.; Natali, M.; Sartorel, A. Water oxidation catalysis
+42,2018−2033, DOI:10.1016/j.ijhydene.2016.08.219. upon evolution of molecular Co(III) cubanes in aqueous media.
+(20) Lubitz, W.; Tumas, W. Hydrogen: an overview. Chem. Rev. Faraday Discuss. 2015, 185, 121−141, DOI: 10.1039/C5FD00076A.
+2007, 107, 3900−3903. (l) Song, F.; Moré, R.; Schilling, M.; Smolentsev, G.; Azzaroli, N.;
+(21)(a)Fontecilla-Camps,J.C.;Volbeda,A.;Cavazza,C.;Nicolet, Fox,T.;Luber,S.;Patzke,G.R.{CoO}and{CoNi O}Cubane
+4 4 x 4−x 4
+Y. Structure/Function Relationships of [NiFe]- and [FeFe]-Hydro- Water Oxidation Catalysts as Surface Cut-Outs of Cobalt Oxides. J.
+genases. Chem. Rev. 2007, 107, 4273 DOI: 10.1021/cr050195z. Am. Chem. Soc. 2017, 139, 14198−14208. (m) Nguyen, A. I.;
+(b) Vignais, P. M.; Billoud, B. Occurrence, Classification, and Allsburg, K. M. V.; Terban, M. W.; Bajdich, M.; Oktawiec, J.;
+BiologicalFunctionofHydrogenases:AnOverview.Chem.Rev.2007, Amtawong, J.; Ziegler, M. S.; Dombrowski, J. P.; Lakshmi, K. V.;
+107, 4206 DOI: 10.1021/cr050196r. (c) Pickett, C. J.; Tard, C. Drisdell,W.S.;Yano,J.;Billinge,S.J.L.;Tilley,T.D.Stabilizationof
+StructuralandFunctionalAnaloguesoftheActiveSitesofthe[Fe]-, reactive CoO cubane oxygen-evolution catalysts within porous
+4 4
+6170 https://doi.org/10.1021/acs.inorgchem.3c04065
+Inorg.Chem.2024,63,6161−6172
+
+Inorganic Chemistry pubs.acs.org/IC Article
+frameworks. Proc. Natl.Acad. Sci. U.S. A. 2019, 116,11630−11639, molecular perspective. Acc. Chem. Res. 2015, 48, 1601−1611.
+DOI:10.1073/pnas.1815013116. (b) Goha, K.-H.; Lima, T.-T.; Dong, Z. Application of layered
+(25) (a) McNamara, W. R.; Han, Z.; Alperin, P. J.; Brennessel, W. double hydroxides for removal of oxyanions: A review. Water Res.
+W.; Holland, P. L.; Eisenberg, R. A Cobalt-Dithiolene Complex for 2008, 42, 1343−1368,DOI: 10.1016/j.watres.2007.10.043.
+the Photocatalytic and Electrocatalytic Reduction of Protons. J. Am. (42)(a)Fan,G.;Li,F.;Evans,D.G.;Duan,X.Catalyticapplications
+Chem.Soc.2011,133,15368−15371.(b)Eady,S.C.;MacInnes,M. of layered double hydroxides: recent advances and perspectives.
+M.;Lehnert,N.ASmorgasbordofCarbon:ElectrochemicalAnalysis Chem.Soc.Rev.2014,43,7040−7066.(b)Jijoe,P.S.;Yashas,S.R.;
+of Cobalt−Bis(benzenedithiolate) Complex Adsorption and Electro- Shivaraju, H. P. Fundamentals, synthesis, characterization and
+catalytic Activity on Diverse Graphitic Supports. ACS Appl. Mater. environmental applications of layered double hydroxides: a review.
+Interfaces. 2016, 8, 23624−23634, DOI: 10.1021/acsami.6b05159. Environ. Chem. Lett. 2021,19, 2643−2661.
+(c) Eady, S. C.; MacInnes, M. M.; Lehnert, N. Immobilized Cobalt (43) Xu, M.; Wei, M. Layered Double Hydroxide-Based Catalysts:
+Bis(benzenedithiolate) Complexes: Exceptionally Active Heteroge- Recent Advances in Preparation, Structure, and Applications. Adv.
+neousElectrocatalystsforDihydrogenProductionfromMildlyAcidic Funct. Mater. 2018, 28, No. 1802943, DOI: 10.1002/
+Aqueous Solutions. Inorg. Chem. 2017, 56, 11654−11667. (d) Solis, adfm.201802943.
+B. H.; Hammes-Schiffer, S. Computational Study of Anomalous (44)(a)Anantharaj,S.;Karthick,K.;Kundu,S.Evolutionoflayered
+Reduction Potentials for Hydrogen Evolution Catalyzed by Cobalt double hydroxides (LDH) as high performance water oxidation
+DithioleneComplexes. J. Am. Chem. Soc.2012, 134, 15253−15256. electrocatalysts: A review with insights on structure, activity and
+(26) Kleingardner, J. G.; Kandemir, B.; Bren, K. L. Hydrogen mechanism.Mater.TodayEner.2017,6,1−26.(b)Sahoo,D.P.;Das,
+EvolutionfromNeutralWaterunderAerobicConditionsCatalyzedby K.K.;Mansingh,S.;Sultana,S.;Parida,K.Recentprogressinfirstrow
+CobaltMicroperoxidase-11. J. Am. Chem. Soc.2014, 136,4−7. transition metal Layered double hydroxide (LDH) based electro-
+(27) Kandemir, B.; Kubie, L.; Guo, Y.; Sheldon, B.; Bren, K. L. catalyststowardswatersplitting:Areviewwithinsightsonsynthesis.
+HydrogenEvolutionfromWaterunderAerobicConditionsCatalyzed Coord. Chem. Rev.2022, 469, No. 214666.
+by a Cobalt ATCUN Metallopeptide. Inorg. Chem. 2016, 55, 1355− (45) Lloret, F.; Julve, M.; Cano, J.; Ruiz-García, R.; Pardo, E.
+1357. Magnetic properties of six-coordinated high-spin cobalt(II) com-
+(28)Dolui,D.;Ghorai,S.;Dutta,A.Tuningthereactivityofcobalt- plexes:Theoreticalbackgroundanditsapplication.Inorg.Chim.Acta
+based H2 production electrocatalysts via the incorporation of the 2008, 361, 3432−3445.
+peripheral basic functionalities. Coord. Chem. Rev. 2020, 416, (46) Chilton, N. F.; Anderson, R. P.; Turner, L. D.; Soncini, A.;
+No. 213335. Murray, K. S. PHI: A powerful new program for the analysis of
+(29)Dolui,D.;Khandelwal,S.;Shaik,A.;Gaat,D.;Thiruvenkatam, anisotropic monomeric and exchange-coupled polynuclear d- and f-
+V.;Dutta,A.Enzyme-InspiredSyntheticProtonRelaysGenerateFast block complexes.J. Comput. Chem. 2013, 34,1164−1175.
+and Acid Stable Cobalt-Based H Production Electrocatalysts. ACS (47) (a) Clemente-Juan, J. M.; Coronado, E.; Forment-Aliaga, A.;
+2
+Catal.2019, 9, 10115−10125. Galán-Mascarós,J.R.;Giménez-Saiz,C.;Gómez-García,C.J.ANew
+(30)Khandelwal,S.;Zamader,A.;Nagayach,V.;Dolui,D.;Mir,A. Heptanuclear Cobalt(II) Cluster Encapsulated in a Novel Hetero-
+Q.;Dutta,A.InclusionofPeripheralBasicGroupsActivatesDormant polyoxometalate Topology: Synthesis, Structure, and Magnetic
+CobaltBased Molecular Complexes for Catalytic H Evolution in Properties of [Co(HO)(OH)PW O ]16‑. Inorg. Chem. 2004,
+2 7 2 2 2 2 25 94
+Water.ACS Catal.2019, 9, 2334−2344. 43,2689−2694,DOI:10.1021/ic0354872.(b)Galán-Mascarós,J.R.;
+(31)Gagne,R.R.;Spiro,C.L.;Smith,T.J.;Hamann,C.A.;Thies, Gómez-García, C. J.; Borrás-Almenar, J. J.; Coronado, E. High
+W. R.; Shiemke, A. K. The synthesis, redox properties, and ligand nuclearity magnetic clusters: Magnetic properties of a nine cobalt
+binding of heterobinuclear transition-metal macrocyclic ligand cluster encapsulated in a polyoxometalate,
+complexes. Measurement of an apparent delocalization energy in a [Co (OH) (H O) (HPO ) (PW O ) ]16. Adv. Mater. 1994, 6,
+9 3 2 6 4 2 9 34 3
+mixed-valentcopper(I) copper(II)complex. J. Am. Chem. Soc.1981, 221−223, DOI: 10.1002/adma.19940060307. (c) Gómez-García, C.
+103,4073−4081. J.; Coronado, E.; Borrás-Almenar, J. J. Magnetic characterization of
+(32) Bruker. APEX2, SAINT and SADABS; BRUKER AXS, Inc. tetranuclear copper(II) and cobalt(II) exchange-coupled clusters
+Madison:Wisconsin, USA,2008. encapsulated in heteropolyoxotungstate complexes. Study of the
+(33) Sheldrick, G. M. A short history of SHELX. Acta Crystallogr. nature of the ground states. Inorg. Chem. 1992, 31, 1667−1673,
+2008, A64,112−122. DOI: 10.1021/ic00035a028. (d) Banerjee, A.; Banerjee, S.; Gómez-
+(34)Farrugia,L.J.WinGXandORTEPforWindows:anupdate.J. García,C.J.;Benmansour,S.;Chattopadhyay,S.Field-inducedsingle
+Appl.Crystallogr.2012, 45, 849−854. molecule magnet behavior of a dinuclear cobalt(ii) complex: a
+(35) Sheldrick, G. M. Crystal structure refinement with SHELXL. combinedexperimentalandtheoreticalstudy.DaltonTrans.2020,49,
+Acta Crystallogr.2015,C71, 3−8. 16778−16790, DOI: 10.1039/D0DT02158J.
+(36) Spek, A. L. Structure validation in chemical crystallography. (48) Demir, S.; Zadrozny, J. M.; Long, J. R. Large Spin-Relaxation
+Acta Crystallogr.2009,D65, 148−155. Barriers for the Low-Symmetry Organolanthanide Complexes
+(37)Farrugia,L.J.ORTEP-3forWindows-aversioń ofORTEP-III [Cp*Ln(BPh)] (Cp* = pentamethylcyclopentadienyl; Ln = Tb,
+2 4
+withaGraphicalUserInterface(GUI).J.Appl.Crystallogr.1997,30, Dy). Chem. - Eur. J. 2014, 20, 9524−9529, DOI: 10.1002/
+565. chem.201403751.
+(38) Bain, G. A.; Berry, J. F. Diamagnetic corrections and Pascal’s (49)Tudor,V.;Marin,G.;Lloret,F.;Kravtsov,V.Ch.;Simonov,Y.
+constants.J. Chem. Educ. 2008, 85, 532−536. A.; Julve, M.; Andruh, M. New alkoxo-bridged mixed-valence cobalt
+(39)Mahapatra,T.S.;Basak,D.;Chand,S.;Lengyel,J.;Shatruk,M.; clusters: Synthesis, crystal structures and magnetic properties. Inorg.
+Bertolasic, V.; Ray, D. Competitive coordination aggregation for V- Chim. Acta2008, 361,3446−3452.
+shaped [Co] and disc-like [Co] complexes: synthesis, magnetic (50) Yang, E.-C.; Liu, Z.-Y.; Zhang, L.; Yang, N.; Zhao, X.-J.
+3 7
+properties and catechol oxidase activity. Dalton Trans. 2016, 45, Magnetic behaviours dominated by the interplay of magnetic
+13576−13589,DOI: 10.1039/C6DT02494G. anisotropy and exchange coupling in the local CoII discs. Dalton
+7
+(40) (a) Brese, N. E.; O’Keeffe, M. Bond-Valence Parameters for Trans.2016, 45, 8134−8141.
+Solids. Acta Crystallogr. 1991, B47, 192−197, DOI: 10.1107/ (51)Kim,E.Y.;Song,Y.J.;Koo,H.G.;Lee,J.H.;Park,H.M.;Kim,
+S0108768190011041. (b) O’Keeffe, M.; Brese, N. E. Atom Sizes C.; Kwon, T.-H.; Huh, S.; Kim, S.-J.; Kim, Y. 1-D, 2-D and 3-D
+andBondLengthsinMoleculesandCrystals.J.Am.Chem.Soc.1991, coordination polymers assembled from polynuclear CoII units based
+113, 3226−3229,DOI: 10.1021/ja00009a002. on the isophthalate(−2)ligand.Polyhedron2010, 29, 3335−3341.
+(41) (a) Abellán, G.; Martí-Gastaldo, C.; Ribera, A.; Coronado, E. (52) Pattacini, R.; Teo, P.; Zhang, J.; Lan, Y.; Powell, A. K.;
+Hybrid materials based on magnetic layered double hydroxides: a Nehrkorn,J.;Waldmann,O.;Hor,T.S.A.;Braunstein,P.Synthesis,
+6171 https://doi.org/10.1021/acs.inorgchem.3c04065
+Inorg.Chem.2024,63,6161−6172
+
+Inorganic Chemistry pubs.acs.org/IC Article
+characterization, and single-molecule metamagnetism of new Co(II) heptanuclear to cubane clusters based on 2-hydroxy-3-ethoxy-
+polynuclearcomplexesofpyridine-2-ylmethanol.DaltonTrans.2011, benzaldehyde: effects of pH and temperature. RSC Adv. 2014, 4,
+40,10526−10534. 54837−54846.
+(53) Tangoulis, V.; Skarlis, M.; Raptopoulou, C. P.; Psycharis, V.; (69) Chen, K.-J.; Perry, J. J., IV; Scott, H. S.; Yang, Q.-Y.;
+Dendrinou-Samara, C. From Molecular Magnets to Magnetic Zaworotko,M.J.Double-walledpyrtopologynetworksfromanovel
+Nanomaterials − Deposition of Co Single-Molecule Magnet; fluoride-bridged heptanuclear metal cluster. Chem. Sci. 2015, 6,
+7
+Theoretical Investigation of the Exchange Interactions. Eur. J. Inorg. 4784−4789.
+Chem. 2014,2014, 2678−2686. (70) Zhou, Y.-L.; Zeng, M.-H.; Wei, L.-Q.; Li, B.-W.; Kurmoo, M.
+(54) Ullman, A. M.; Nocera, D. G. Mechanism of Cobalt Self- Traditional and Microwave-Assisted Solvothermal Synthesis and
+Exchange Electron Transfer. J. Am. Chem. Soc. 2013, 135, 15053− Surface Modification of Co Brucite Disk Clusters and Their
+7
+15061. MagneticProperties. Chem. Mater.2010, 22,4295−4303.
+(55)Slater-Parry,M.E.;Durrant,J.P.;Howells,J.M.;Pitak,M.B.; (71)Wang,W.;Hai,H.;Zhang,S.-H.;Yang,L.;Zhang,C.-L.;Qin,
+Horton, P. N.; Klooster, W. T.; Coles, S. J.; O’Connor, H. M.; X.-Y. Microwave-Assisted Synthesis, Crystal Structure and Magnetic
+Brechin, E. K.; Barra, A.-L.; Jones, L. F. Crowding out: ligand BehaviorofaSchiffBaseHeptanuclearCobaltCluster.J.ClusterSci.
+modifications and their structure directing effects on brucite-like 2014, 25, 357−365.
+{M(μ-OH)}(M=Co(II),Ni(II))coregrowthwithinpolymetallic (72) Canaj, A. B.; Nodaraki, L. E.; Ślepokura, K.; Siczek, M.;
+x 3 y
+cages.DaltonTrans.2019, 48, 1477−1488. Tzimopoulos,D.I.;Lis,T.;Milios,C.J.Afamilyofpolynuclearcobalt
+(56) Pakula, R. J.; Berry, J. F. Cobalt Complexes of the Chelating complexes upon employment of an indeno-quinoxaline based oxime
+Dicarboxylate Ligand “esp”: A Paddlewheel-Type Dimer and a ligand.RSC Adv.2014, 4, 23068−23077.
+HeptanuclearCoordinationCluster.DaltonTrans.2018,47,13887− (73)Chibotaru,L.F.;Ungur,L.;Aronica,C.;Elmoll,H.;Pilet,G.;
+13893. Luneau,D.Structure,Magnetism,andTheoreticalStudyofaMixed-
+(57)Modak,R.;Sikdar,Y.;Thuijs,A.E.;Christou,G.;Goswami,S. Valence Co 3 IICo 4 III Heptanuclear Wheel: Lack of SMM Behavior
+CoII,CoII,andaSeriesofCoIILnIII(LnIII=NdIII,SmIII,GdIII,TbIII, despite Negative Magnetic Anisotropy. J. Am. Chem. Soc. 2008, 130,
+4 7 2
+DyIII) Coordination Clusters: Search for Single Molecule Magnets. 12445−12455.
+Inorg.Chem. 2016, 55, 10192−10202. (74)Xu,J.-H.;Guo,L.-Y.;Su,H.-F.;Gao,X.;Wu,X.-F.;Wang,W.-
+(58) Gheorghe, R.; Ionita, G. A.; Maxim, C.; Caneschi, A.; Sorace, G.;Tung,C.-H.;Sun,D.HeptanuclearCo 5 IICo 2 IIIClusterasEfficient
+L.;Andruh,M.Aggregationofheptanuclear[MII](M=Co,Ni,Zn) Water OxidationCatalyst. Inorg.Chem. 2017, 56,1591−1598.
+7
+clusters by a Schiff-base ligand derived from o-vanillin: synthesis, (75) Wei, L.-Q.; Li, B.-W.; Hua, S.; Zeng, M.-H. Controlled
+crystal structures and magnetic properties. Polyhedron 2019, 171,
+assembliesofhepta-andtrideca-CoIIclustersbyarationalderivation
+269−278,DOI: 10.1016/j.poly.2019.07.014. of salicylalde schiff bases: microwave-assisted synthesis, crystal
+(59) Zhang, S. H.; Ma, L.-F.; Zou, H.-H.; Wang, Y. G.; Liang, H.; structures, ESI-MS solution analysis and magnetic properties.
+Zeng, M. H. Anion induced diversification from heptanuclear to CrystEngComm 2011, 13,510−516, DOI: 10.1039/C0CE00085J.
+tetranuclear clusters: Syntheses, structures and magnetic properties. (76) Moragues-Canovas, M.; Talbot-Eeckelaers, C. E.; Catala, L.;
+DaltonTrans.2011, 40, 11402−11409. Lloret,F.;Wernsdorfer,W.;Brechin,E.K.;Mallah,T.Ferromagnetic
+(60)Zhang,H.;Zhang,J.;Liu,R.;Li,Y.;Liu,W.;Li,W.FiveDisk- Cobalt Metallocycles.Inorg.Chem. 2006, 45, 7038−7040.
+Shaped{MII}(M=Mn,Fe,Co,Cu,Zn)ClustersandOneCapsule- (77) Zhang, S.-H.; Song, Y.; Liang, H.; Zeng, M.-H. Microwave-
+7
+Like {CuIINaI} Cluster Assembled from the Same Schiff Base assisted synthesis, crystal structure and properties of a disc-like
+Ligand.Eu 6 r. J. 2 Inorg. Chem. 2016, 2016,4134−4144. heptanuclear Co(II) cluster and a heterometallic cubanic Co(II)
+cluster.CrystEngComm 2009, 11, 865−872.
+(61)Iman,K.;Ahamad,M.N.;Monika;Ansari,A.;Saleh,H.A.M.;
+(78)Qin,B.-W.;Huang,K.-C.;Zhang,Y.;Zhou,L.;Cui,Z.;Zhang,
+Khan,M.S.;Ahmad,M.;Haque,R.A.;Shahid,M.Howtoidentifya
+K.; Zhang, X.-Y.; Zhang, J.-P. Diverse Structures based on
+smoker: a salient crystallographic approach to detect thiocyanate
+HeptanuclearCoClusterfrom0Dto3DMetalOrganicFramework:
+content.RSC Adv.2021, 11, 16881−16891.
+Magnetism and Application in Batteries. Chem. - Eur. J. 2018, 24,
+(62) Ferguson, A.; Parkin, A.; Sánchez-Benítez, J.; Kamenev, K.;
+1962−1970, DOI: 10.1002/chem.201705023.
+Wernsdorfer, W.; Murrie, M. A mixed-valence Co single-molecule
+7 (79)Meally,S.T.;McDonald,C.;Kealy,P.;Taylor,S.M.;Brechin,
+magnetwithC symmetry.Chem. Commun.2007, 3473−3475.
+3 E. K.; Jones, L. F. Investigating the solid state hosting abilities of
+(63)Zhao,R.X.;Huang,Q.P.;Li,G.;Zhang,S.H.;Zhang,H.Y.;
+homo- and hetero-valent [Co] metallocalix[6]arenes. Dalton Trans.
+Yang,L.SynthesisandCrystalStructureofanOxoBridgedDisc-like 7
+2012, 41, 5610−5616.
+Heptanuclear Co(II) Cluster with Unconventional Nona-Hydrogen
+(80) Ahamad, M. N.; Sama, F.; Akhtar, M. N.; Chen, Y.-C.; Tong,
+Bonds.J. Cluster Sci.2014, 25, 1099−1108.
+M.-L.;Ahmad,M.;Shahid,M.;Hussain,S.;Khan,K.AdisclikeCo
+(64) Huang, Q.-P.; Li, G.; Zhang, H.-Y.; Zhang, S.-H.; Li, H.-P. 7
+cluster with solvent dependent catecholase activity. New J. Chem.
+Microwave-assisted Synthesis, Structure, and Properties of a
+2017, 41, 14057−14061.
+Heptanuclear Cobalt Cluster with 2-Ethyliminomethyl-6-methoxy-
+(81)Apostol,A.A.;Vasile,G.;Mocanu,T.;Maxim,C.;Tudor,V.;
+phenol.Z. Anorg.Allg.Chem. 2014, 640,1403−1407.
+Andruh,M.AdisclikeCo clusterwithsolventdependentcatecholase
+(65)Farwa,U.;Jung,S.H.;Ryu,J.Y.;Pait,M.;Singh,N.;Cho,S.; 7
+activity. Rev.Roum.Chim. 2020,65, 711−718.
+Lee,M.H.;Lee,J.Selectiveformationofdinuclearandheptanuclear
+(82)Srivastava,A.K.;Mondal,A.;Konar,S.;Pal,S.AtetraCo(II/
+Zn(II), Ni(II), and Co(II) metal clusters from a simple dialdehyde.
+III)complexwithanopencubaneCoO coreandsquare-pyramidal
+Polyhedron2021, 210,No. 115491. 4 4
+Co(II) and octahedral Co(III) centres: bifunctional electrocatalytic
+(66) Kitos, A. A.; Efthymiou, C. G.; Papatriantafyllopoulou, C.;
+activitytowardswatersplittingatneutralpH.DaltonTrans.2022,51,
+Nastopoulos, V.; Tasiopoulos, A. J.; Manos, M. J.; Wernsdorfer, W.;
+4510.
+Christou, G.; Perlepes, S. P. The search for cobalt single-molecule
+magnets: A disk-like CoIIICoII cluster with a ligand derived from a
+6
+noveltransformationof2-acetylpyridine.Polyhedron2011,30,2987−
+2996.
+(67)Na,H.-X.;Yang,P.-Y.;Yin,Z.;Wang,Y.-H.;Chang,L.-X.;Si,
+R.; Kurmoo, M.; Zeng, M.-H. Stepwise Assembly of MII Clusters
+7
+RevealedbyMassSpectrometry,EXAFS,andCrystallography.Chem.
+-Eur. J. 2016, 22,18404−18411, DOI:10.1002/chem.201603652.
+(68) Zhang, S.-H.;Zhao, R.-X.; Li,G.; Zhang,H.-Y.;Zhang, C.-L.;
+Muller, G. Structural variation from heterometallic heptanuclear or
+6172 https://doi.org/10.1021/acs.inorgchem.3c04065
+Inorg.Chem.2024,63,6161−6172
+

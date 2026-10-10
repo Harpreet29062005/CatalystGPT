@@ -1,0 +1,383 @@
+Small
+www.small-journal.com
+RESEARCHARTICLE
+Self-Armoring Non-Noble High-Entropy Alloys with CNT
+Networks for Ultra-Stable Acid Water Electrolysis
+ZhujunKuang1 JunlinLiu1 AnyangWang2 ChenyangWang1 ShiyuYuan2 YuzhengGuo2
+MengqiZeng1 LeiFu1,3
+1CollegeofChemistryandMolecularSciences,WuhanUniversity,Wuhan,China 2SchoolofElectricalEngineeringandAutomation,WuhanUniversity,
+Wuhan,China 3SchoolofMaterialsScienceandEngineering,AnhuiUniversity,Hefei,China
+Correspondence:MengqiZeng(zengmq_lan@whu.edu.cn) LeiFu(leifu@whu.edu.cn)
+Received:9December2025 Revised:29March2026 Accepted:7April2026
+Keywords:acidwaterelectrolysis|CNTnetworks|long-termstability|non-noblehigh-entropyalloys
+ABSTRACT
+Recent advances in high-entropy alloys (HEA) have demonstrated that the electrocatalytic performance of non-noble metals
+canbeenhancedtolevelscomparabletothoseofnoblemetalsthroughthesynergisticeffectsofmultipleelements.However,
+non-nobleHEAsystemsstillencounterinherentstabilitychallengescausedbyelectrolytecorrosion,particularlyunderacidic
+conditions. Here, a highly stable non-noble HEA catalyst for acid water electrolysis is realized through self-armoring them
+withaself-supportingandself-protecting3DinterlockingCNTnetwork.TheCNTnetworksconferrobustchemicalcorrosion
+resistance to the catalyst, while the synergistic effects of the multi-element composition enable the catalyst to have superior
+electrocatalyticactivity.Remarkably,thecatalystmaintainsstableoperationforover600hwithoutsignificantperformancedecay.
+Theoverpotentialsof48and226mVat10mAcm−2in0.5MH SO forthehydrogenevolutionreactionandtheoxygenevolution
+2 4
+reactionareachieved,respectively.Thisself-armoringstrategyestablishesapathwaytoovercomeintrinsicstabilitylimitationsin
+non-nobleHEAcatalysts,supportingscalabledeploymentofnon-nobleHEAunderaggressiveelectrochemicalenvironments.
+1 Introduction inalkalinemediaaretwotothreeordersofmagnitudelowerthan
+those in acidic media, due to the additional water dissociation
+High-entropy alloys (HEA) have been identified as desirable step.Therefore,theHERinacidicmediaexhibitshigherFaradaic
+catalysts in energy conversion due to their four core effects efficiency[12–14].However,non-nobleHEAcatalystssufferfrom
+(high entropy effect, lattice distortion effect, sluggish-diffusion inherentstabilityconstraintsinharshacidicenvironments.There
+effect,andcocktaileffect).Theyhavehighlytunableelemental aremainlytworeasons.Ononehand,thehighreactivityofHEA
+composition, adjustable electronic structure, abundant active nanoparticles(HEANPs)makesthemsusceptibletocorrosion,
+sites, and excellent electrical conductivity [1]. In light of these, particularly in strongly acidic conditions [15, 16]. On the other
+HEAdemonstratespromisingnon-noblecatalyticactivityparity hand,thecontinuousgasgenerationduringtheelectrocatalytic
+withnoblemetals[2–5]inmultiplecatalysisreactionsincluding process subjects the nanoparticle catalysts to prolonged bubble
+hydrogen evolution reaction (HER) [6, 7], oxygen evolution impact, making the catalysts prone to detachment from the
+reaction(OER)[8],oxygenreductionreaction(ORR)[9],hydro- support[17,18].
+genoxidationreaction(HOR)[10],andCO reductionreaction
+2
+(CO RR)[11].HERisoneofthemostimportantreactionsingreen To enhance the stability of non-noble metal catalysts in
+2
+energyconversion.ItiscriticaltonotethatthekineticsoftheHER electrolytic environments, carbon-encapsulated metallic
+Allrightsreserved,includingrightsfortextanddataminingandtrainingofartificialintelligencetechnologiesorsimilartechnologies.
+©2026Wiley-VCHGmbH
+Small,2026;22:e74779 1of8
+https://doi.org/10.1002/smll.74779
+
+FIGURE 1 StructureofFeCoNiCuMoHEANetworks.(a)TypicalschematicdiagramforthesynthesisofHEAnetworks.(b)SEMimage.(c)TEM
+image.(d)HAADF-STEMimageandthecorrespondingEDSmappings.(e)TheHRTEMimageshowingtheinterfaceofHEAandgraphene.(f)Further
+enlargedTEMimageoftheregionmarkedbythedashedboxine.(g)Ramanspectra.(h)XRDspectraofFeCoNiCuMoHEAnetworksandFeCoNiCuMo
+HEA@C.
+architectures are widely used [19, 20]. Despite the progress ignated as HEA networks) dramatically improves the catalyst’s
+that has been made, several critical issues persist in these resistance to environmental interference, enabling continuous
+composite systems: 1) chemical corrosion and dissolution of operation for over 600 h without performance degradation in
+metals due to incomplete graphene coverage on nanoparticles strongacid.Additionally,π-conjugationandefficientd-πorbital
+[21,22],2)detachmentofthecatalystattributedtopooradhesion hybridizationattheHEA-CNTinterfaceoptimizechargetransfer
+between the catalyst and substrate [23, 24], and 3) inefficient dynamics. In summary, this methodology endows non-noble
+electron transfer kinetics caused by the inadequate interfacial metal electrocatalysts to deliver long-term stability with high
+contactbetweenmetallicparticlesandgraphiticlayers[25].The catalytic activity comparable to that of noble catalysts in harsh
+catalystlossandstructuraldegradationinthesesystemsresultin acidicelectrolytes.
+stabilitylimitationsforcarbon-encapsulatedmetalcatalysts.
+In this work, we realized the highly stable non-noble HEA 2 ResultsandDiscussion
+catalyststoresistthestronglyacidicmediathroughself-armoring
+them with 3D interlocking CNT networks. The all-around pro- 2.1 StructureoftheHEANetworks
+tected non-noble HEA NPs are directly encapsulated within
+the CNTs by employing themselves as catalytic seeds for the Figure 1b illustrates the typical structure of HEA networks.
+in-situ growth of CNT networks (Figure 1a). Distinguished Theas-synthesizedFeCoNiCuMoHEAnetworksareloadedon
+from conventional carbon-encapsulated metallic architectures, carbon cloth. The HEA NPs are connected in series by CNTs,
+the atomically adhered CNT networks can not only mitigate creatinganetworkstructure.EachHEANPisencasedin“carbon
+chemical dissolution of active species via corrosion resistance, armors”, and the elements within the nanoparticle distribute
+but also dissipate stress from bubble impact via the robust 3D evenly,asdemonstratedbyenergydispersivespectroscopy(EDS)
+interlocking network structure. As a result, this structure (des- mappingsinFigure1c,d.High-resolutiontransmissionelectron
+2of8 Small,2026
+
+microscopy(HRTEM)observationsofthesamplerevealthatthe HEA networks exhibit no apparent deterioration after the test
+crystalplanespacingoftheHEANPsisapproximately0.2nm. for650h,reflectingexcellentstability.Yet,theHEA@CNTand
+Additionally,thelatticespacingofthesurfacelayeris0.34nm, HEA@Ccatalystsshowadramaticdecreaseinaveryshorttime.
+suggestingthegraphenelayer.TheHEANPsareprotectedbyone Moreover,theelectrochemicalperformanceofHEAnetworksis
+ormorelayersofgraphenewiththethicknessoflessthan2nm superior to that of reported non-noble metal-based electrocat-
+(Figure1e,f).Theouterlayers(Figure1e)ofthesegraphenesheets alysts and even in line with noble metal-based electrocatalysts
+exhibitseveraldefects(consistentwiththeRamanspectralresults (Figure2fandTablesS1andS2).
+inFigure1g),allowingthereactionattheHEA/graphenelayer
+interface.However,theinnermostgraphenelayerisprettydense,
+which plays a central protective role for HEA NPs. Compared 2.3 MechanismStudyofHEANetworksforHER
+to HEA@C (where HEA is loaded on carbon cloth), the XRD
+peaksofHEAnetworksat26.1◦correspondingtographiticcarbon ToelucidatethestabilityoftheHEAnetworks,themorphological
+are sharper, which further supports the formation of CNTs changesofHEAnetworks,HEA@CNT,andHEA@Cwerechar-
+(Figure1h).Tohighlighttheuniversalityofourapproach,wealso acterized after reaction in an acidic electrolyte. The non-noble
+synthesized two other types of HEA networks, including both HEAdirectlyloadedontocarbonclothiseasilycorrodedbyacidic
+main-groupandtransitionmetals(FiguresS1andS2). solution due to a lack of protection, which makes the catalyst
+difficult to apply in water electrolysis under acidic conditions
+(Figure3a–c).Additionally,whenthenon-nobleHEAisdirectly
+2.2 HERPerformanceoftheHEANetworks loadedontoCNTs,itischallengingtoachievecompletecoverage
+andprotectionbyCNTs,leadingtogradualcorrosionbytheacidic
+The FeCoNiCuMo HEA networks are designed for the HER. solution (Figure S3). Notably, scanning electron microscope
+OwingtotheexcellentHERactivityofCuandMo,theyarewidely (SEM) images have confirmed the absence of morphological
+recognizedasthedominantactivesitesfortheHERwithinthe degradation in HEA networks after acid etching treatments
+alloy[26–28].Additionally,Fe,Co,andNiactasefficientcatalysts (Figure3d,e).Moreover,bothprimaryparticlesizeandstructural
+forCNTnucleationandgrowth,supplyingthenecessaryactive integrity remain invariant before and after etching, with no
+siteswithinthealloymatrix[29–31].Thissynergisticintegration detectableagglomeration.Thismorphologicalstabilityoriginates
+of multi-metallic components in the HEA catalysts achieves fromtheprotectiveeffectofCNTinHEAnetworks,wherespatial
+dualfunctionality:1)optimizinghydrogenadsorption/desorption confinement restricts atomic migration and prevents particle
+thermodynamics for enhanced HER activity [32, 33], and 2) coalescence(Figure3f).Furthermore,thecrystalstructureofthe
+catalyzing graphitic carbon assembly during in-situ growth of HEA networks remains virtually unchanged (Figure S4). The
+CNT networks as protective barriers that effectively suppress inductively coupled plasma (ICP) spectroscopy measurements
+metalleachingfromHEANPsduringacidwaterelectrolysis[34]. of the electrolyte after the stability evaluation of HER were
+performedtoanalyzethedissolutionofelementswithintheHEA
+TheelectrocatalyticperformanceofFeCoNiCuMoHEAnetworks networks, HEA@CNT, and HEA@C samples (Figure 3g). The
+for the HER was evaluated in 0.5 M H SO using a standard analysisrevealsthatbothHEA@CNTandHEA@Cexhibitvary-
+2 4
+three-electrode system. To investigate the significance of the ingdegreesofcatalystdissolutionduringelectrochemicaltesting.
+self-armored formation of HEA networks for HER, we also Notably, the HEA networks display minimal dissolution with
+fabricatedtheFeCoNiCuMoHEA@CNT(FeCoNiCuMoloading only minute traces detected. This finding further corroborates
+on CNTs) and FeCoNiCuMo HEA@C. The polarization linear theirremarkablechemicalstabilityunderthetestingconditions,
+sweepvoltammetry(LSV)curvesoftheHEAnetworks,HEA@C, and the corrosion ultimately results in the performance degra-
+and HEA@CNT are presented in Figure 2a. HEA networks dation of HEA@CNT and HEA@C in acid electrolytic water.
+deliver the current density of 10 mA cm−2 at an overpotential To verify the stress dissipation effect of the network structure
+of 48 mV. HEA networks exhibit outstanding catalytic activity induced by bubble evolution, high-current stability tests were
+with a Tafel slope of 48 mV dec−1, while those of HEA@CNT conducted to compare the performance of HEA networks with
+andHEA@Care88and254mVdec−1,respectively(Figure2b). thatofstandardHEAcatalysts.Whileunderacurrentof−100mA
+Meanwhile, the well-adhered 3D interlocking CNT networks (which triggers massive H bubble release), the HEA networks
+2
+enhancetheelectrochemicallyactivesurfacearea(ECSA),which exhibit significantly smaller current fluctuations than those of
+synergisticallybooststheoverallcatalyticperformance.ECSAis HEA@C(FigureS5).Thisindicatesthesuperiorcapabilityofthe
+closelyrelatedtothedouble-layercapacitance(C ).Thecapaci- HEAnetworkstodispersebubble-inducedstress.
+dl
+tancedensityofHEAnetworksismeasuredtobe16.5mFcm−2,
+which is higher than that of HEA@CNT (11.3 mF cm−2) and TofurtherelaborateontheexcellentelectrocatalyticHERactivity
+HEA@C(4.3mFcm−2).Thisindicatesthatalargerelectrochem- oftheHEAnetworks,densityfunctionaltheory(DFT)calcula-
+ically active surface of HEA networks significantly enhances tionswereperformedtoinvestigatetheHERcatalyticproperties
+theHERcatalyticefficiency(Figure2c).Toelucidateinterfacial ofHEAnetworks(Figure3handFigureS6).TheHERactivityin
+chargetransferkineticsacrosstheHEAnetworksduringHER, acidicelectrolytescanbeestimatedbycalculatingtheGibbsfree
+electrochemical impedance spectroscopy (EIS) was employed energyfortheH*intermediateadsorption(ΔG )onthecatalyst
+H*
+to investigate the electronic transfer resistance of the catalysts surface.AΔG valueclosetozeroindicatesoptimaladsorption
+H*
+(Figure 2d). Compared to HEA@CNT and HEA@C, HEA net- strength for HER. The ΔG for the pristine graphite shell is
+H*
+works exhibit significantly smaller charge transfer resistance, 1.23eV.Incomparison,itdecreasesto0.295eVforFeCoNiCuMo
+ensuringarapidelectrontransferrateduringthereactionprocess. networks, even lower than that of FeCoNiCuMo HEA NPs
+According to the chronopotentiometry curve (Figure 2e), the (0.586 eV), suggesting enhanced intermediate binding on the
+Small,2026 3of8
+
+FIGURE 2 TheHERperformanceofFeCoNiCuMoHEAnetworks,HEA@CNT,andHEA@C.(a)TheLSVcurves.(b)Tafelslopes.(c)C curves.
+dl
+(d)EISslopes.(e)Chronopotentiometriccurves.(f)TheactivityandstabilitycomparisonofHEAnetworksandothercatalysts.
+HEA networks (Figure S7). This is attributed to the electron 226mV.IncomparisonwithHEA@CNT(427mV)andHEA@C
+transfer interaction between the metal core and carbon shell, (609mV),theHEAnetworksexhibithighercatalyticactivity.As
+resultinginchargeredistributionwithintheHEAnetworks. expected, HEA networks own a smaller Tafel slope of 88 mV
+dec−1 compared to HEA@CNT (186 mV dec−1) and HEA@C
+(207 mV dec−1) (Figure S8a). The Nyquist plot of HEA net-
+2.4 OERPerformanceoftheHEANetworks works (Figure S8b) demonstrates the smallest charge transfer
+resistance among all the samples, which ensures the rapid
+To further confirm the universality of our synthesis to HEA electrontransferrateduringthereactionprocess.Moreover,the
+networks and its application prospects in the field of electro- ECSA of HEA networks (12.9 mF cm−2) is much higher than
+catalysis, FeCoNiCuCr and FeCoNiAlPb HEA networks were that of HEA@CNT (9.2 mF cm−2) and HEA@C (2.6 mF cm−2)
+alsofabricated(FiguresS1andS2).Amongthem,FeCoNiCuCr (FigureS8c).Furthermore,after600hofreaction,HEAnetworks
+HEA networks exhibit outstanding catalytic performance for shownoapparentdeterioration(Figure4b).FeCoNiCuCrHEA
+OER.Inthecatalyst,CuandCrserveaseffectiveOERcatalysts, networks exhibit good performance compared with reported
+functioningasactivesitesforOER[35,36],andFe,Co,andNiare non-noble metal-based catalysts and are comparable to noble
+mainlyemployedforCNTsynthesis.Toexploretheadvantages metal-based catalysts (Figure 4c and Tables S3 and S4). This
+ofHEAnetworksinOER,theelectrochemicalperformancewas further corroborates the efficacy of HEA networks in substan-
+investigatedusingtheproceduresdescribedpreviously. tially enhancing the operational stability of non-noble metal
+electrocatalysts.
+TheLSVcurvesoftheHEAnetworks,HEA@CNT,andHEA@C
+are presented in Figure 4a. HEA networks deliver the cur- Likewise, DFT calculations were also performed to investigate
+rent density of 10 mA cm−2 at a lowest overpotential of the OER catalytic properties of FeCoNiCuCr HEA networks
+4of8 Small,2026
+
+FIGURE 3 MechanismstudyofHEAnetworksforHER.(a,b)SEMimagesofHEA@Cbeforeandafteracidleaching.(c)Schemeillustrationof
+theacidcorrosionofHEA@C.(d,e)SEMimagesofHEAnetworksbeforeandafteracidleaching.(f)SchemeillustrationofHEAnetworkswiththe
+stablestructureafterwaterelectrolysis.(g)TheICPresultsofFeCoNiCuMoHEAnetworks,HEA@CNT,andHEA@Cafterstabilitytesttoevaluatethe
+dissolutionofthoseelements.(h)SchematicillustrationoftheHERprocessonFeCoNiCuMoHEAnetworks.
+(Figure 4d and Figure S9). The Gibbs free energy diagrams for and OER, including activity and stability. A current density of
+each system revealed that HEA networks demanded a lower 10 mA cm−2 is achieved in 0.5 M H SO at an overpotential of
+2 4
+energybarriercomparedtoC(FigureS10).IntheHEAnetworks 48mV(HER)and226mV(OER),respectively.Inaddition,after
+system, the rate-determining step is the formation of the inter- 600hofoperation,thecatalyticperformanceshowsnoobvious
+mediate*OOHduringtheOERprocess,withanenergybarrier deterioration.Predictably,thisstrategyexhibitsbroadgenerality,
+of1.34eVthatremainslowerthanthatinC(2.57eV).Duetothe enabling the rational fabrication of highly stable non-noble
+coverageofthein-situgrownCNToverlayer,thecatalystcould metalcatalyststailoredtomultiplereactions.Thisworkprovides
+maintain its structural integrity and catalytic activity without the possibility for studying the electrocatalytic properties of
+performance decay under the harsh oxidative potentials of the non-noble metals under acidic conditions, establishing a novel
+OER. paradigmfordesigningcost-effective,ultrastableelectrocatalysts.
+3 Conclusions 4 ExperimentalSection
+In summary, we make the realization of ultra-stable non-noble 4.1 PreparationofHEANPs
+HEAcatalystswithhighactivityinstronglyacidicmediathrough
+designing3DHEAnetworks.Thein-situgrownCNTnetworks HEANPsweresynthesizedbasedontheprotocolfromCaoetal.
+establish the protective barrier and supporting substrate that [37]. FeCoNiCuMo, FeCoNiCuCr, and FeCoNiAlPb nanoperit-
+effectively suppresses metal leaching from HEA NPs during icles were prepared for the in-situ growth of HEA networks.
+operation. The high-entropy engineering further enhances the Themetalprecursors,includingFeCl 3 ,CoCl 2 ⋅6H 2 O,NiCl 2 ⋅6H 2 O,
+intrinsic activity of non-noble metals. Therefore, the HEA net- CuCl 2 ⋅2H 2 O,MoCl 5 ,andCrCl 3 ⋅6H 2 Oofanalyticalgrade(Sigma–
+works exhibit excellent electrocatalytic performance for HER Aldrich)wereusedasreceived.
+Small,2026 5of8
+
+FIGURE 4 TheOERperformanceofFeCoNiCuCrHEAnetworks,HEA@CNT,andHEA@C.(a)TheLSVcurves.(b)Chronopotentiometrycurves.
+(c)TheactivityandstabilitycomparisonofHEAnetworksandothercatalysts.(d)SchematicillustrationoftheOERprocessonFeCoNiCuCrHEA
+networks.
+4.2 PreparationofHEANetworks 4.4 PreparationofHEA@C
+Before the synthesis of HEA networks, 10 mg HEA NPs were 10 mg HEA NPs were ultrasonically mixed with 1 mL ethanol
+ultrasonicallymixedwith1mLethanolfor10min.Then,theHEA for10min.Thehomogeneouscatalystinkwasloadedoncarbon
+NPsareloadedontocarboncloth,andtheamountofloadforthe cloth,andtheamountofloadforHEANPsis2mgcm−2.Then,
+HEANPsis2mgcm−2.TheconversionfromHEANPstoHEA thecarbonclothwithHEANPswasplacedinatubefurnacefor
+networkswasconductedinahorizontaltubefurnaceunderthe thermalannealingundera100sccmArgasflowanda50sccmH
+2
+Ar,H andCH atmosphere.First,thefurnacewasheatedupto gasflow.Thefurnacewasheatedupto923Kwithin30min.After
+2, 4
+1173Kunderthe100sccmArand50sccmH atmosphere,the remaining at923Kfor5min,thefurnacewasnaturallycooledto
+2
+heatingratewas15Kmin−1.ThentheCH gaswasintroducedat roomtemperature.
+4
+aflowrateof25sccmfor5min.Finally,thefurnacewasquickly
+cooledtoroomtemperature.Asaresult,theHEAnetworkswere
+obtained. 4.5 ElectrochemicalMeasurements
+Electrocatalytic experiments were performed on a CHI 660E
+4.3 PreparationofHEA@CNT electrochemicalanalyzer(CHInstruments,Inc.,Shanghai)with
+a three-electrode cell system for OER. The prepared carbon
+10 mg HEA NPs, 2 mg CNT, 950 µL ethanol, and 50 µL 5% cloth was used as the working electrode, the Pt foil was used
+Nafion solution were mixed for 1 h by ultrasound. Then, the as the counter electrode, and an Ag/AgCl electrode was used
+homogeneouscatalystinkwasloadedontocarboncloth,witha as the reference electrode. Due to the poor potential stabil-
+loadof2mgcm−2forHEANPs,andlefttosetforatleast6h. ity of the Ag/AgCl electrode under acidic conditions during
+6of8 Small,2026
+
+long-term cycling, a saturated calomel electrode was employed DataAvailabilityStatement
+forthestabilitytests.Theelectrolytewasa0.5MH 2 SO 4 aqueous Thedatathatsupportthefindingsofthisstudyareavailablefromthe
+solution,whichwassaturatedbyH forHERandO forOER.All correspondingauthoruponreasonablerequest.
+2 2
+potentialshereinwerereferencedtothereversiblehydrogenelec-
+trode (RHE). HER and OER polarization curves were obtained
+References
+using LSV at a scan rate of 5 mV s−1 with IR compensation
+(automatically measured with the CHI 660E electrochemical 1.T.Löffler,A.Ludwig,J.Rossmeisl,andW.Schuhmann,“WhatMakes
+High-EntropyAlloysExceptionalElectrocatalysts?,”AngewandteChemie
+workstation), and chronopotentiometric curves were measured
+InternationalEdition60(2021):26894–26903.
+withoutIRcompensation.
+2.S.Liu,Y.Wang,T.Jiang,etal.,“Non-NobleMetalHigh-EntropyAlloy-
+BasedCatalyticElectrodeforLong-LifeHydrogenGasBatteries,”ACS
+Nano18(2024):4229–4240.
+4.6 Characterization
+3.A.A.H.Tajuddin,M.Wakisaka,T.Ohto,etal.,“Corrosion-Resistant
+andHigh-EntropicNon-Noble-MetalElectrodesforOxygenEvolutionin
+SEM characterizations were performed on Tescan Clara. TEM
+AcidicMedia,”AdvancedMaterials35(2023):2207466.
+characterizationswereperformedonhigh-resolutionTEM(JEM–
+4.H. Huang, J. Zhao, H. Guo, et al., “Noble-Metal-Free High-Entropy
+F200) coupled with an EDS system operated at 200 kV. XRD
+wasperformedonSmartLab9kWwithaCuKαradiation(λ= AlloyNanoparticlesforEfficientSolar-DrivenPhotocatalyticCO 2 Reduc-
+tion,”AdvancedMaterials36(2024):2313209.
+0.15406 nm). XPS measurements were conducted on a Thermo
+5.H. Shi, X.-Y. Sun, Y. Liu, et al., “Multicomponent Intermetallic
+Scientific ESCALAB 250Xi system. The C 1s peak (284.8eV)
+NanoparticlesonHierarchicalMetalNetworkasVersatileElectrocata-
+was used as the reference to calibrate the binding energies.
+lystsforHighlyEfficientWaterSplitting,”AdvancedFunctionalMaterials
+The inductively coupled plasma-optical emission spectrometer
+33(2023):2214412.
+(ICP-OES)wasmeasuredonanAgilent5110.
+6.D. Wu, K. Kusada, Y. Nanba, et al., “Noble-Metal High-Entropy-
+AlloyNanoparticles:Atomic-LevelInsightIntotheElectronicStructure,”
+JournaloftheAmericanChemicalSociety144(2022):3365–3369.
+4.7 TheoreticalCalculation
+7.X.Fu,J.Zhang,S.Zhan,etal.,“High-EntropyAlloyNanosheetsfor
+Fine-TuningHydrogenEvolution,”ACSCatalysis12(2022):11955–11959.
+All the spin-polarized density functional theory (DFT) calcula-
+8.J.Liang,J.Liu,H.Wang,etal.,“SynthesisofUltrathinHigh-Entropy
+tionsareperformedusingViennaAbinitioSimulationPackage
+Oxides with Phase Controllability,” Journal of the American Chemical
+(VASP). The projector-augmented wave (PAW) method [38, 39]
+Society146(2024):7118–7123.
+and Perdew-Burke-Ernzerhof (PBE) functional are used. The
+9.L.Tao,M.Sun,Y.Zhou,etal.,“AGeneralSyntheticMethodforHigh-
+Kohn-Sham wave functions are expanded in a plane wave
+EntropyAlloySubnanometerRibbons,”JournaloftheAmericanChemical
+basis set with a cutoff energy of 500 eV. The Brillouin zone Society144(2022):10582–10590.
+is sampled by the 2 × 2 × 1 Monkhorst–Pack k-point mesh.
+10.X. Ma, S. Zhang, Y. Zhou, et al., “PtIrFeCoNiMo High-Entropy
+All atoms are allowed to relax until the forces fall below
+Alloy Nanodendrites for Boosting the Alkaline Hydrogen Oxidation
+0.02eV/Å. Performance,”JournalofMaterialsChemistryA12(2024):8862–8868.
+11.K.Mori,N.Hashimoto,N.Kamiuchi,H.Yoshida,H.Kobayashi,and
+SincetheadsorptionofH*mainlyoccursonthesurfaceofCNTs,
+H. Yamashita, “Hydrogen Spillover-Driven Synthesis of High-Entropy
+the model of HEA networks is simplified as a FeCoNiCuMo AlloyNanoparticlesasaRobustCatalystforCO Hydrogenation,”Nature
+2
+(for HER) or FeCoNiCuCr (for OER) HEA NP well-adhered to Communications12(2021):3884.
+apieceofgraphene.TheFeCoNiCuMoalloycluster,comprising 12.J. Wu, Q. Zhang, K. Shen, et al., “Modulating Interband Energy
+a total of 49 metal atoms, is isolated from the reaction system SeparationofBoron-DopedFe S /FeS ElectrocatalyststoBoostAlkaline
+7 8 2
+via a graphene layer. The atomic ratios are Fe:Co:Ni:Cu:Mo = HydrogenEvolutionReaction,”AdvancedFunctionalMaterials32(2022):
+8:7:14:16:4forFeCoNiCuMoHEA,determinedbyEDSanalysis. 2107802.
+Likewise,theFeCoNiCuCrHEAnetworksalsocompriseatotal 13.P.Wang,T.Wang,R.Qin,etal.,“SwappingCatalyticActiveSitesFrom
+of 49 metal atoms, with an atomic ratio of Fe:Co:Ni:Cu:Cr = CationicNitoAnionicSinNickelSulfideEnablesMoreEfficientAlkaline
+11:12:12:10:4.Thegraphenesubstrateismodeledasasinglesheet HydrogenGeneration,”AdvancedEnergyMaterials12(2022):2103359.
+with44atoms. 14.J. Zhang, C. Cheng, L. Xiao, et al., “Construction of Co–Se–W
+at Interfaces of Phase-Mixed Cobalt Selenide via Spontaneous Phase
+Transition for Platinum-Like Hydrogen Evolution Activity and Long-
+TermDurabilityinAlkalineandAcidicMedia,”AdvancedMaterials36
+(2024):2401880.
+Acknowledgements
+15.J.Deng,P.Ren,D.Deng,L.Yu,F.Yang,andX.Bao,“HighlyActive
+TheresearchwassupportedbytheNationalKeyResearchandDevelop- and Durable Non-Precious-Metal Catalysts Encapsulated in Carbon
+mentProgramofChina(GrantNo.2022YFA1402500),NationalNatural NanotubesforHydrogenEvolutionReaction,”Energy&Environmental
+ScienceFoundationofChina(GrantNos.52572035and22502148),andthe Science7(2014):1919–1923.
+PostdoctoralFellowshipProgramofCPFS(GZB20240567).Wethankthe
+16.T. Wang, H. Xie, M. Chen, et al., “Precious Metal-Free Approach
+CoreFacilityofWuhanUniversityfortheirsubstantialsupportinsample
+toHydrogenElectrocatalysisforEnergyConversion:FromMechanism
+characterization,includingICP-OES,XPS,SEM,andXRD.Wethankthe
+UnderstandingtoCatalystDesign,”NanoEnergy42(2017):69–89.
+CoreFacilityofIAS(WHU)fortheirassistanceinTEMcharacterization.
+17.M. Bae, Y. Kang, D. Lee, D. Jeon, and J. Ryu, “Superaerophobic
+Polyethyleneimine Hydrogels for Improving Electrochemical Hydro-
+ConflictsofInterest
+gen Production by Promoting Bubble Detachment,” Advanced Energy
+Theauthorsdeclarenoconflictsofinterest. Materials12(2022):2201452.
+Small,2026 7of8
+
+18.Q. Song, Z. Xue, C. Liu, et al., “General Strategy to Optimize Gas 38.P.Blöchl,“ProjectorAugmented-WaveMethod,”PhysicalReviewB50
+EvolutionReactionviaAssembledStriped-PatternSuperlattices,”Journal (1994):17953.
+oftheAmericanChemicalSociety142(2020):1857–1863.
+39.G. Kresse and D. Joubert, “From Ultrasoft Pseudopotentials to the
+19.Y. Pan, J. Gao, E. Lv, et al., “Integration of Alloy Segregation and ProjectorAugmented-WaveMethod,”PhysicalReviewB59(1999):1758–
+SurfaceCo-OHybridizationinCarbon-EncapsulatedCoNiPtAlloyCat- 1775.
+alystforSuperiorAlkalineHydrogenEvolution,”AdvancedFunctional
+Materials33(2023):2303833.
+20.Y.Pan,Y.Li,A.Nairan,etal.,“ConstructingFeNiPt@CTrifunctional SupportingInformation
+Catalyst by High Spin-Induced Water Oxidation Activity for Zn-Air AdditionalsupportinginformationcanbefoundonlineintheSupporting
+BatteryandAnionExchangeMembraneWaterElectrolyzer,”Advanced Informationsection.
+Science11(2024):2308205. SupportingFile:smll74779-sup-0001-SuppMat.pdf.
+21.Y. Wang, Y. Zhang, P. Xing, et al., “Self-Encapsulation of High-
+EntropyAlloyNanoparticlesinsideCarbonizedWoodforHighlyDurable
+Electrocatalysis,”AdvancedEnergyMaterials36(2024):2402391.
+22.Y.Mei,J.Chen,Q.Wang,etal.,“MoZn-BasedHighEntropyAlloy
+CatalystsEnabledDualActivationandStabilizationinAlkalineOxygen
+Evolution,”ScienceAdvances10(2024):adq6758.
+23.Z.Gong,P.Chen,H.Gong,K.Huang,G.Ye,andH.Fei,“General
+DesignofAligned-ChannelPorousCarbonElectrodesforEfficientHigh-
+Current-DensityGas-EvolvingElectrocatalysis,”AdvancedMaterials36
+(2024):2409292.
+24.P. Kempler, R. Coridan, and L. Luo, “Gas Evolution in Water
+Electrolysis,”ChemicalReviews124(2024):10964–11007.
+25.J. Yoo, H. Shin, D. Chung, and Y. Sung, “Carbon Shell on Active
+NanocatalystforStableElectrocatalysis,”AccountsofChemicalResearch
+55(2022):1278–1289.
+26.G.Qian,Y.Wang,L.Li,etal.,“StrategiesforTuningTensileStrain
+and Localized Electrons in a Mo-Doped NiCoCu Alloy for Enhancing
+Ampere-LevelCurrentDensityHERPerformance,”AdvancedFunctional
+Materials34(2024):2404055.
+27.Y. Zhang, K. Li, Y. Li, et al., “Charge Redistribution of Lattice-
+MismatchedCo─Cu PBoostingpH-UniversalWater/SeawaterHydrogen
+3
+Evolution,”Small20(2024):2400244.
+28.S.-Y. Lu, C. Wu, T. Hu, et al., “Ternary Ni:Fe-Activated Inert Cu-
+BasedElectrocatalystasEfficientBifunctionalElectrocatalystsforWater
+Splitting,”ChemicalEngineeringJournal504(2025):158627.
+29.X.Chen,H.Duan,andB.Cao,“EvolutionMechanismofSolid-Phase
+CatalystsDuringCatalyticGrowthofSingle-WalledCarbonNanotubes,”
+Small20(2024):2310543.
+30.M.Li,F.Yang,L.Ding,etal.,“Diameter-SpecificGrowthofSingle-
+WalledCarbonNanotubesUsingTungstenSupportedNickelCatalysts,”
+Carbon118(2017):485–492.
+31.R. Waelder, C. Park, A. Sloan, et al., “Improved Understanding of
+CarbonNanotubeGrowthviaAutonomousJumpRegressionTargeting
+ofCatalystActivity,”Carbon228(2024):119356.
+32.F. Yang, X. Wang, D. Zhang, et al., “Chirality-Specific Growth of
+Single-WalledCarbonNanotubesonSolidAlloyCatalysts,”Nature510
+(2014):522–524.
+33.M. He, S. Zhang, Q. Wu, et al., “Designing Catalysts for Chirality-
+SelectiveSynthesisofSingle-WalledCarbonNanotubes:PastSuccessand
+FutureOpportunity,”AdvancedMaterials31(2019):1800805.
+34.H.Luo,L.Li,F.Lin,etal.,“Sub-2nmMicrostrainedHigh-Entropy-
+AlloyNanoparticlesBoostHydrogenElectrocatalysis,”AdvancedMateri-
+als36(2024):2403674.
+35.Z.Yu,J.-P.Li,X.-K.Xu,etal.,“UncoveringInterfacialOxygen-Bridged
+BinuclearMetalCentersofHeterogenizedMolecularCatalystforWater
+Electrolysis,”AdvancedScience12(2025):2417607.
+36.Y. Wang, S. Liu, Y. Qin, et al., “Chromium Promotes Phase Trans-
+formationtoActiveOxyhydroxideforEfficientOxygenEvolution,”ACS
+Catalysis14(2024):13759–13767.
+37.G.Cao,J.Liang,Z.Guo,etal.,“LiquidMetalforHigh-EntropyAlloy
+NanoparticlesSynthesis,”Nature619(2023):73–77.
+8of8 Small,2026
+

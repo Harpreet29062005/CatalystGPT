@@ -1,0 +1,789 @@
+RESEARCH ARTICLE
+www.advancedscience.com
+Unconventional Hexagonal Close-Packed High-Entropy
+Alloy Surfaces Synergistically Accelerate Alkaline Hydrogen
+Evolution
+Ting-Hsin Hu, Cheng-Yu Wu, Zong Ying He, Yi Chen, Liang-Ching Hsu, Chih-Wen Pao,
+Jui-Tai Lin, Chun-Wei Chang, Shang-Cheng Lin, Rachel Osmundsen, Lee Casalena,
+Kun Han Lin, Shan Zhou, and Tung-Han Yang*
+1.Introduction
+Acceleratingthealkalinehydrogenevolutionreaction(HER),whichinvolves
+theslowcleavageofHO-Hbondsandtheadsorption/desorptionofhydrogen Heterogeneous metal nanocatalysts hold
+immenseimportanceinvariousindustries
+(H*)andhydroxyl(OH*)intermediates,requiresdevelopingcatalystswith
+and applications due to their exceptional
+optimalbindingstrengthsfortheseintermediates.Here,theunconventional
+catalytic performance in terms of activity,
+hexagonalclose-packed(HCP)high-entropyalloy(HEA)atomiclayersare
+selectivity, and durability. These catalysts,
+preparedcomposedoffiveplatinum-groupmetalstoenhancethealkaline typically composed of transition elements
+HERsynergistically.Thebreakthroughismadebylayer-by-layer like platinum-group metals (Ruthenium
+heteroepitaxialdepositionofsubnanometerRuRhPdPtIrHEAlayersonthe (Ru), Rhodium (Rh), Palladium (Pd),
+Platinum (Pt), and Iridium (Ir)), iron-
+HCPRuseeds,despitethethermodynamicstabilityofRh,Pd,Pt,andIrina
+group metals (Iron (Fe), Cobalt (Co),
+face-centeredcubic(FCC)structureexceptforRu.ThesynchrotronX-ray
+and Nickel (Ni)), Gold (Au), Silver (Ag),
+absorptionspectroscopy(XAS)confirmstheatomicmixingandcoordination and Copper (Cu) are pivotal in driving
+environmentofHCPRuRhPdPtIrHEA.Mostimportantly,theyexhibitnotable chemical reactions and processes for-
+improvementsinbothelectrocatalyticactivityanddurabilityfortheHERinan ward with high efficiency. Very recently,
+diverse high-entropy alloy (HEA) nanocat-
+alkalineenvironment,ascomparedtotheirFCCRuRhPdPtIrcounterparts.
+alysts consisting of at least five elements
+Electrochemicalmeasurements,operandoXASanalysis,anddensity
+have been proven to exhibit excellent
+functionaltheoryunveilthatthebindingstrengthsofH*andOH*
+catalytic performance in many electro-
+intermediatesontheactivePtandIrsitescanbeweakenedandstrengthened catalytic and thermal catalytic reactions,
+toamoderatelevel,respectively,bymixingnon-activeRu,Rh,andPdatoms achieving efficiencies that are beyond
+withPtandIratomswithintheHCPHEAwithstrongsynergisticelectronic the capabilities of mono- and bi-metallic
+nanocatalysts.[1–23]Theuniqueinterplaybe-
+effects.
+tweenthemultipleelementsonthesurface
+T.-H.Hu,C.-Y.Wu,Y.Chen,J.-T.Lin,C.-W.Chang,S.-C.Lin,K.H.Lin, L.-C.Hsu
+T.-H.Yang DepartmentofSoilandEnvironmentalSciences
+DepartmentofChemicalEngineering NationalChungHsingUniversity
+NationalTsingHuaUniversity Taichung40227,Taiwan
+Hsinchu300044,Taiwan L.-C.Hsu,C.-W.Pao
+E-mail:tunghanyang@mx.nthu.edu.tw NationalSynchrotronRadiationResearchCenter
+Z.Y.He,T.-H.Yang Hsinchu300092,Taiwan
+CollegeofSemiconductorResearch R.Osmundsen,L.Casalena
+NationalTsingHuaUniversity ThermoFisherScientific
+Hsinchu300044,Taiwan Hillsboro,OR97124,USA
+S.Zhou
+DepartmentofNanoscienceandBiomedicalEngineering
+SouthDakotaSchoolofMinesandTechnology
+TheORCIDidentificationnumber(s)fortheauthor(s)ofthisarticle
+RapidCity,SD57701,USA
+canbefoundunderhttps://doi.org/10.1002/advs.202409023
+T.-H.Yang
+©2024TheAuthor(s).AdvancedSciencepublishedbyWiley-VCH
+HighEntropyMaterialsCenter
+GmbH.ThisisanopenaccessarticleunderthetermsoftheCreative
+NationalTsingHuaUniversity
+CommonsAttributionLicense,whichpermitsuse,distributionand
+Hsinchu300044,Taiwan
+reproductioninanymedium,providedtheoriginalworkisproperlycited.
+DOI:10.1002/advs.202409023
+Adv.Sci.2025,12,2409023 2409023(1of15) ©2024TheAuthor(s).AdvancedSciencepublishedbyWiley-VCHGmbH
+
+www.advancedsciencenews.com www.advancedscience.com
+ofHEAnanocatalystsandthussynergisticeffect(oftenreferred tiesduetothedifferentsynergisticeffectsarisingfromthedis-
+toasthecocktaileffect)cancreateadiverserangeofactivesites tinct stacking sequences of atoms in the structure and atomic
+withoptimalbindingenergiesforreactants,intermediates,and arrangementsonthesurface.Itwillofferanavenuefortheratio-
+products.[4,8–11]Forexample,recenttheoreticalcalculationshave nalsynthesisofhigh-performanceHEAnanocatalystsforvarious
+validatedapronouncedsynergisticeffectarisingfromthemulti- catalyticapplications.
+elementcompositionofPtFeCoNiCuHEAnanoparticles.[11]This In this work, we report the controlled synthesis of atomic-
+effectdemonstratespotentialinfine-tuningthefreeenergyofhy- mixing RuRhPdPtIr HEA atomic layers made of all platinum-
+drogenadsorption(ΔG ),acommonlyuseddescriptorforthe group metals into an unconventional HCP structure, although
+H*
+efficiencyofthehydrogenevolutionreaction(HER).Theoptimal four constituent elements of Rh, Pd, Pt, and Ir are thermody-
+ΔG value on the HEA surface is obtained by combining the namicallystableinaFCCstructureexceptforRuwithapreferred
+H*
+stronghydrogen-bindingcapabilitiesofFe,Co,andNiwiththe HCPlattice(Figure1A).Ourbreakthroughismadepossibleby
+moderatehydrogenbindingofPt,aswellastheweakerhydro- robust layer-by-layer heteroepitaxial deposition of RuRhPdPtIr
+genbindingofCu,followingtheSabatierprinciple.Inaddition, HEAatomiclayersontheHCPRuseedsthroughthedropwise
+thehighdegreeofdisorderattheatomiclevelcanevenconvert addition of the mixed metal precursor mixtures in a polyol
+inactivesitesintoactiveonesforcatalysis.[12]Furthermore,HEA synthesis. Through synchrotron high-resolution powder X-ray
+nanocatalystsoftenexhibitadecreasedsusceptibilitytocatalyst diffraction(HRPXRD)withinsituheating,wedemonstratethat
+poisoningbycontaminantsorreactantsduringthecatalysis,as theHCPstructureofRuRhPdPtIrHEAisstableupto500°C.
+wellasexceptionaldurabilitytoharshreactionconditionsowing Importantly, HCP RuRhPdPtIr layers exhibit notable improve-
+toahigh-entropyatomicenvironment.[13–18] mentsinbothelectrocatalyticactivityanddurabilityfortheHER
+While compositional control shows significant potential for inanalkalineenvironment,comparedtotheirFCCRuRhPdPtIr
+catalystdiscovery,currentHEAnanocrystalsarepredominantly HEA counterparts. This demonstrates that the HER catalytic
+restricted to a face-centered cubic (FCC) structure constructed performance is highly dependent on the crystal structure of
+by the close stacking in ABC|ABC sequence (Figure 1A; and HEA. Furthermore, electrochemical measurements, operando
+Table S1, Supporting Information).[5–21] This limitation arises XASanalysis(XAS),anddensityfunctionaltheory(DFT)unveil
+fromtheincreaseddifficultyofachievingmulti-elementatomic strong synergistic electronic interactions among the five ele-
+mixing,whichisnecessaryfortheformationofasolid-solution mentswithintheHCPRuRhPdPtIrduringalkalineHER.These
+HEAphase.Asaresult,syntheticstrategiesmustbedevisedto atomic-scale interactions result in suitable H and OH binding
+facilitate high-entropy random mixing, thereby expediting the strengthsforHCPRuRhPdPtIr,withPtandIractivesitesspecif-
+inter-diffusion of metal atoms and ultimately resulting in the ically undergoing H and OH adsorption, respectively, thereby
+formationoftheFCCstructure.TheFCCstructurealignswith contributingtotheobservedHERcatalyticenhancement.
+thethermodynamicallystableconfigurationsoftheprincipalcon-
+stituent elements involved, especially since the majority of cat- 2.ResultsandDiscussion
+alytic metals adopt the FCC structure. For example, octonary
+PtPdCoNiFeCuAuSnHEAnanocrystalsfeaturinghomogeneous 2.1.SynthesisandCharacterizationsofHCPandFCCHEA
+mixing undergo crystallization in the FCC structure by ther- Structures
+mallyshockingmetalprecursormixturesatahightemperature
+of ≈2000 K.[18] For another example, the FCC structure of the Inthiswork,wesynthesizeatomic-mixingRuRhPdPtIr HEA
+nL
+quinaryPtIrCuNiCrHEAnanocrystalsissynthesizedinnanosec- shellswithdifferentnumbers(n)ofatomiclayersontheHCPRu
+onds using laser scanning ablation.[19] Furthermore, through seedstoreplicatethestructureoftheseedsthroughtheheteroepi-
+thetightcontroloverthereductionkineticsofthemixedmetal taxial growth in the dropwise synthesis (Figure 1C). This het-
+precursor solution during wet-chemical synthesis at tempera- eroepitaxialgrowthisprimarilygovernedbytherelativeratesof
+tures ≈500 K, the quinary PdPtIrRuRh and octonary PdPtIr- atomicdepositionandatomicdiffusionontheseedsurface.[27,28]
+RuRhOsAuAg HEA nanocrystals both show the polycrystalline When atomic diffusion on the surface is faster than deposi-
+FCCstructure.[10,20]Thesepioneeringstudieshighlightthatcur- tion, a “hit-and-run” mechanism allows the deposited atoms
+rent synthetic approaches predominantly yield HEA nanocrys- to migrate and organize themselves in a layer-by-layer growth
+tals in their thermodynamically stable FCC structures. Despite mode. This results in a smooth, conformal shell, particularly
+the advances in synthesis, achieving alternative crystal struc- whenfewatomiclayersaredeposited.WefirstprepareHCPRu
+tures is still difficult, limiting the exploration of other poten- seedsthroughapolyolsynthesis,resultinginproductscontain-
+tially beneficial configurations. How to not only engineer the ing ≈94.5% spherical-like nanocrystals with an average size of
+crystal structures of HEA nanocrystals consisting of predom- 6.7nm,alongwith5.5%plate-likenanosheets(FigureS1,Sup-
+inant transition elements into unconventional structures but porting Information).[29,30] We then deposit equiatomic RuRh-
+alsotoachieveasignificantlevelofmulti-elementatomicmix- PdPtIr HEA alloys with ≈4 atomic layers on the HCP Ru
+ing remains a great challenge. Given the well-established su- seeds through the heteroepitaxial growth strategy for the fabri-
+perior electrocatalytic performance of hexagonal close-packed cation of Ru@Ru Rh Pd Pt Ir core-shell nanocrystals
+0.2 0.2 0.2 0.2 0.2-4L
+(HCP)-structured nanocatalysts in alkaline HER, as evidenced with an unconventional HCP structure. A precursor mixture
+by previous studies,[24–26] our investigation centers on an HCP ofRu(acac) ,Rh(acac) ,Pd(acac) ,Pt(acac) ,andH IrCl ·xH O
+3 3 2 2 2 6 2
+HEA structure featuring the characteristic AB|AB stacking se- in ethylene glycol (EG; solvent and reducing agent) is very
+quence (Figure 1B). The manipulation of crystal structure in slowly injected at a rate of 0.8 mL h−1 into another EG solu-
+HEAnanocrystalsisanticipatedtoefficientlytunetheirproper- tionthatcontainedRuseeds,ascorbicacid(AA;reducingagent),
+Adv.Sci.2025,12,2409023 2409023(2of15) ©2024TheAuthor(s).AdvancedSciencepublishedbyWiley-VCHGmbH
+
+www.advancedsciencenews.com www.advancedscience.com
+Figure1. SyntheticdesignandcharacterizationofHCPRu@RuRhPdPtIrcore-shellnanocrystals.A)Thethermodynamicallystablecrystalstructuresof
+transitionmetals(HCPhighlightedinorange,FCChighlightedinblue,andBCChighlightedingreen).B)TheunitcellsofFCCandHCPRuRhPdPtIr
+HEA.C)SchematicofepitaxialgrowthtoobtainHCPRuRhPdPtIrshellsonRuseeds.D–H)TEM,HAADF-STEM,FFT,andEDSmappinganalysisof
+Ru@Ru Rh Pd Pt Ir core-shellnanocrystals.I)SynchrotronHRPXRDanalysisofRuseedsandRu@Ru Rh Pd Pt Ir withinsitu
+0.2 0.2 0.2 0.2 0.2-4L 0.2 0.2 0.2 0.2 0.2-4L
+heating.J)ICP-OESanalysisofRu Rh Pd Pt Ir shell.K,L)XPSspectraofRu@Ru Rh Pd Pt Ir intheregionsof(K)50–85eVand
+0.2 0.2 0.2 0.2 0.2-4L 0.2 0.2 0.2 0.2 0.2-4L
+(L)275–350eV.
+Adv.Sci.2025,12,2409023 2409023(3of15) ©2024TheAuthor(s).AdvancedSciencepublishedbyWiley-VCHGmbH
+
+www.advancedsciencenews.com www.advancedscience.com
+potassiumbromide(KBr;manipulationofreactionrate[21]),and ofRu,Rh,andPdareobservedinthe275–350eVrange,while
+polyvinylpyrrolidone(PVP;colloidalstabilizer)atahightemper- the4forbitalsofPtandIraredetectedinthe50–85eVrange.The
+atureof160°C.InthecaseofIr,H IrCl ·xH Oisutilizedasthe HCPHEAshellsareprimarilyinthemetallicstate,withasmall
+2 6 2
+precursorbecauseoftheslowerreductionkineticsobservedwith portionexistingintheoxidizedstate,asevidencedbythebinding
+Ir(acac) (FigureS2,SupportingInformation).Thegradualintro- energyvalueslistedinTableS3(SupportingInformation)andthe
+3
+ductionoftheprecursorsolution,dropbydrop,enablesprecise XPSfittingresults(FigureS3,SupportingInformation).Tofur-
+controloverthegenerationofatomsfromthereductionofallfive therexpandthecompositionaldiversityofHCPHEA,Ag,Fe,and
+precursors,maintaininganearlyuniformpaceforeach.[21,31]The Nielementsaresuccessfullyincorporatedtosynthesizeoctonary
+highdiffusionraterelativetodepositionallowsforlayer-by-layer HCP RuRhPdPtIrAgFeNi HEA shells on Ru seeds (Figure S4,
+growth.Consequently,itfacilitatestheepitaxialgrowthofRuRh- SupportingInformation).Thisisachievedthroughheteroepitax-
+PdPtIr onto the Ru seeds, resulting in an atomic-mixing HEA ialgrowthinadropwisesynthesis.Inthissynthesis,thesolvent
+phasewithanunusualHCPstructure. ischangedtotriethyleneglycol(TEG)insteadofEG,andthere-
+Figure1Dshowsthetransmissionelectronmicroscopy(TEM) action temperature is increased from 160 to 240 °C due to the
+image of Ru Rh Pd Pt Ir HEA shells on the 6.7- lowerreductionpotentialsofFe(III)andNi(II)precursorsused.
+0.2 0.2 0.2 0.2 0.2-4L
+nm HCP Ru seeds. The size of the major nanocrystals with Thisdemonstrationindicatesthattheepitaxialengineeringstrat-
+spherical-like shape is increased to 8.4 nm. Given that the to- egyisscalable.
+tal thickness of the HEA shells is ≈1.7 nm, with each side The thermal stability of the Ru@Ru Rh Pd Pt Ir
+0.2 0.2 0.2 0.2 0.2-4L
+contributing ≈0.85 nm, this corresponds to ≈4 atomic lay- core-shellnanocrystalsisexaminedusingsynchrotronHRPXRD
+ers. To further observe the atomic arrangement, the obtained with in situ heating under vacuum conditions. Figure 1I dis-
+Ru@Ru Rh Pd Pt Ir core-shell nanocrystals are char- playsthediffractionpatternscollectedatvarioustemperatures,
+0.2 0.2 0.2 0.2 0.2-4L
+acterized by the high-angle annular dark-field scanning trans- rangingfromroomtemperatureto500°C.Forcomparison,the
+mission electron microscopy (HAADF-STEM) with atomic res- corresponding Ru seeds are also presented in Figure S5 (Sup-
+olution(Figure1E,F).AcontrastisobservedbetweentheRucore porting Information).At roomtemperature, it can be observed
+andtheouterRuRhPdPtIrsurfacecomposedofafewatomiclay- thatthetwosmallpeaks≈38.5°and43.9°appearaftertheepi-
+ers,whichcanbeattributedtothedifferenceinatomicnumber taxialgrowthofRuRhPdPtIrHEAcomparedtoRuseeds,corre-
+amongtheelements.Fortheindividualspherical-likenanocrys- spondingtoHCP-(100)andHCP-(101)planes,respectively.How-
+tal, the periodic lattice extending across the whole nanocrystal ever,themajorcharacteristicpeaksoftheHCP(002)and(110)
+reveals epitaxial growth mode. The corresponding fast Fourier planesshownosignificantshiftineithersample,consistentwith
+transform(FFT)patternshowsonlyonesetofanHCP-diffraction theHAADF-STEMresults.Asthetemperaturerises,theinten-
+patternalongthe[011]zoneaxisofanHCPstructure.Thelattice sitiesoftheseHCPcharacteristicpeaksincreaseinboththeRu
+„
+spacing of (011) planes for both the Ru cores and RuRhPdPtIr seedsandRu@Ru Rh Pd Pt Ir samples.Thissuggests
+0.2 0.2 0.2 0.2 0.2-4L
+shellsareidentical,measuring≈0.19nm.Theatomic-resolution animprovementincrystallinityatelevatedtemperatures.Impor-
+HAADF-STEMimageandthecorrespondingFFTpatternreveal tantly,nocharacteristicpeaksoftheFCCstructureareobserved,
+that the individual sheet-like nanocrystal retains the character- indicatingtheremarkablethermalstabilityoftheunconventional
+istic hexagonal atomic arrangement when observed along the HCP structure of the RuRhPdPtIr HEA on the Ru seeds up to
+HCP [001] zone axis. The lattice distance for the Ru cores and 500°C.
+theRuRhPdPtIr(010)planeismeasuredtobe≈0.23nm.These Asacontrolexperiment,thecrystalstructureofRuRhPdPtIr
+observationshighlightthepreservationoftheHCPstructurein HEAwith≈4atomiclayerscanbetunedtoFCCstructurewhen
+theRucoreandHEAshell,withpreciseatomicalignmentand weswitchtotheuseofFCCspherical-likePdseedswithanav-
+latticematching. eragesizeof7.70nm(FigureS6,SupportingInformation).The
+The energy-dispersive X-ray spectrometry (EDS) elemental increaseinthesizeoftheobtainednanocrystalsto≈9.29nmaf-
+mappingsconfirmtherandomandhomogeneousdistributions tergrowthsuggeststhattheHEAshellscomprise≈4atomiclay-
+offiveelementsontheRucores(Figure1G,H).Inaddition,the ers, as shown in Figure S6 (Supporting Information). Figure 2
+3DEDStomographyfurtherrevealsthespatialelementaldistri- shows the TEM, HAADF-STEM images, FFT pattern, EDS
+butionsofRucoresandRuRhPdPtIrshells(VideoS1,Support- mappings, and XRD analysis of Pd@Ru Rh Pd Pt Ir
+0.2 0.2 0.2 0.2 0.2-4L
+ingInformation).TheatomicpercentagesoftheRu,Rh,Pd,Pt, core-shellnanocrystals,confirmingtheformationofconformal
+and Ir elements of the HEA shells are determined to be 20%, HEAshells.Thespecificatomicarrangementextendingacross
+18.7%,19.5%,20.2%,and21.6%throughtheinductivelycoupled the core-shell structure is confirmed in the enlarged atomic-
+plasma optical emission spectrometry (ICP-OES), respectively resolutionHAADF-STEMimageandFFTpattern,revealingthat
+(Figure1J).Again,theaveragenumberofHEAatomiclayerson thePd@Ru Rh Pd Pt Ir core-shellnanocrystalsadopt
+0.2 0.2 0.2 0.2 0.2-4L
+theRuseedsisestimatedtobe≈4atomiclayers,whichisderived anFCCstructure(Figure2B–D).ThelatticespacingofFCC-(11 „ 1)
+fromtheatomicpercentagesinthenanocrystals,withthecore planeis≈0.22nm.Additionally,theXRDpatterninFigure2G
+constituting51.2%andtheshell48.8%,asdeterminedbyICP- shows two notable peaks at 2𝜃 = 39.5° and 45.9°, correspond-
+OES and quantitative analysis (Table S2, Supporting Informa- ingtoFCC(111)and(200)planes,respectively.TheEDSmap-
+tion).ThisestimationalignswellwiththeobservationofaHEA pings(Figure2F)validatethattheseshellsconsistofdeposited
+thicknessof≈1.7nmintheTEMimage.Ontheotherhand,the fivePGMsinasolid-solutionphase.
+surface chemical states of Ru@Ru Rh Pd Pt Ir core- Furthermore,weexplorehowvaryingthethicknessoftheHEA
+0.2 0.2 0.2 0.2 0.2-4L
+shellnanocrystalsarecharacterizedbyX-rayphotoelectronspec- shellsimpactsthecrystalstructureadoptedbytheHEAshells.
+troscopy(XPS)(Figure1K,L).[32] Thedoubletsofthe3dorbitals In this approach, the HCP structure of the Ru core serves as
+Adv.Sci.2025,12,2409023 2409023(4of15) ©2024TheAuthor(s).AdvancedSciencepublishedbyWiley-VCHGmbH
+
+www.advancedsciencenews.com www.advancedscience.com
+Figure2. CharacterizationofFCCPd@Ru Rh Pd Pt Ir core-shellnanocrystals.A)TEMimage.B)HAADF-STEMimage,enlargedHAADF-
+0.2 0.2 0.2 0.2 0.2-4L
+STEMimagesfortheC)PdcoreandD)HEAshell,E)FFTpattern,andF)EDSmappingsof(B).G)XRDpatternsofPd@Ru Rh Pd Pt Ir and
+0.2 0.2 0.2 0.2 0.2-4L
+PdseedsdispersedonVulcanXC72Rcarbonblack.
+a template for the Ru Rh Pd Pt Ir HEA shell during by-layertoislandgrowthcanbeattributedtothediminishingin-
+0.2 0.2 0.2 0.2 0.2-nL
+thegrowth.WhentheHEAshellisthin,theshellcanadoptthe fluenceofthetemplatingeffectofRuseedsastheshellthickness
+same HCP structure as the Ru core through layer-by-layer epi- increases,allowingtheatomsintheshellgreaterflexibilitytode-
+taxial growth under the proper synthetic conditions (Figure 1). viatefromepitaxialalignment.Therefore,toachieveHCPHEA
+In addition, the strain also can be generated within the shell structures,itiscrucialtoensurethattherateofatomicdiffusion
+due to the mismatch (1.33% on a axis and 5.76% on c axis, remains higher than the rate of deposition. Additionally, maxi-
+Table S4, Supporting Information) in the atomic arrangement mizingthetemplatingeffectofRuseedsiskeytomaintaining
+between the Ru core and the HEA shell. When the HEA shell thedesiredstructure,especiallyduringtheearlystagesofshell
+grows thicker, the templating and strain effects induced at the formation.
+core-shell interface will be diminished since the atoms in the
+shellhavemoreflexibilityastheyarefartherfromthecore.There-
+fore,itisanticipatedthatthetransitionfromthenonconventional 2.2.ElectronicInteractionsandAtomicMixingofHCPandFCC
+HCPstructuretothethermodynamicallymorestableFCCstruc- HEAStructures
+turewilloccurastheshellthickens.Inthisstudy,thenumber
+of HEA atomic shells can be controlled to ≈2, 4, 6, and more The HCP and FCC structures of HEA atomic layers are antic-
+than6byadjustingtheconcentrationoftheprecursormixture, ipated to induce distinct synergistic electronic effects owing to
+asshowninFigure3.Thecore-shellnanocrystalscontainingdif- the different stacking sequences of atoms within the structure
+ferentnumbersofHEAatomiclayersarealsoconfirmedbyTEM, and the arrangements of atoms on the surface. Therefore, we
+HAADF-STEM images, and FFT patterns. The corresponding employsynchrotronXASanalysistoprobetheelectronicinter-
+EDS mappings are provided in Figures S7–S9 (Supporting In- actions between the elements and further reveal their atomic
+formation). When the number of HEA atomic layers is below details in both the HCP Ru@Ru Rh Pd Pt Ir and
+0.2 0.2 0.2 0.2 0.2-4L
+4(Figure1and3A),thesmoothsurfacesoftheHEAshellson FCCPd@Ru Rh Pd Pt Ir core-shellnanocrystals,each
+0.2 0.2 0.2 0.2 0.2-4L
+theRuseedsareobserved.Theseobservationssuggesttheepi- possessingashellthicknessof≈4atomiclayers.Acomparison
+taxialgrowthofHEAandthustheHCPstructure.Asthenum- ofX-rayabsorptionnear-edgestructure(XANES)spectraforall
+ber of atomic layers increases to ≈6 (Figure 3B), the morphol- elementsinbothHCPRu@Ru Rh Pd Pt Ir andFCC
+0.2 0.2 0.2 0.2 0.2-4L
+ogy of the final products exhibits slight roughness, implying a Pd@Ru Rh Pd Pt Ir samples,alongwiththeirmetallic
+0.2 0.2 0.2 0.2 0.2-4L
+gradualshiftfromepitaxialgrowthtowardislandgrowth.With foils and oxides, is shown in Figure 4A–E. The four samples
+the increase in the number of atomic layers exceeding 6 (i.e., exhibitminorvariationsintheirabsorptionedgeandpost-edge
+Ru@Ru Rh Pd Pt Ir ), significantly rough sur- regions,evidentindifferencesinshape,intensity,andoscillation
+0.2 0.2 0.2 0.2 0.2-islandgrowth
+facesareobservedonbothsphericalandsheet-likenanocrystals patterns. These deviations likely suggest orbital hybridizations
+(Figure3C).Asaresult,thegrowthmodeoftheHEAshellson amongthemixedelements,indicatingchangesintheelectronic
+theRuseedsiscompletelyswitchedfromlayer-by-layertoisland structure. To further investigate the chemical states of Ru, Rh,
+growth.Inaddition,asmallportionoftinyparticlesof≈3–5nmis and Pd elements in the HEA samples, we determine their
+formedintheproducts,whichcanbeascribedtoself-nucleation. absorptionK-edgepositionsbyidentifyingtheinflectionpoints
+Mostimportantly,theHAADF-STEMimagesandrelevantFFT of the pre-edges (Figure S11, Supporting Information). Subse-
+patternstakenfromtheHEAshellsrevealtheformationofmixed quently,wederivetheirchemicalstatesbyestablishingalinear
+FCC/HCP and pure FCC structures, consistent with the syn- relationshipbetweenabsorptionedgepositionsandthechemi-
+chrotron wide-angle X-ray scattering (WAXS) analysis (Figure calstatesofcontrolsamplesincludingmetallicfoilsandoxides
+S10,SupportingInformation).TheunconventionalHCPstruc- (Figure 4F–H).[33] Note that in the XAS spectra, the Ru signal
+ture of Ru Rh Pd Pt Ir HEA can be maintained within should be contributed from both Ru cores and Ru in the HEA
+0.2 0.2 0.2 0.2 0.2
+≈6atomiclayersbutshifttothethermodynamicallystableFCC shellsfortheHCPHEAsample,whilethePdsignalshouldorig-
+structureasthethicknessincreasesfurther.Thisshiftfromlayer- inatefrombothPdcoresandPdintheHEAshellsfortheFCC
+Adv.Sci.2025,12,2409023 2409023(5of15) ©2024TheAuthor(s).AdvancedSciencepublishedbyWiley-VCHGmbH
+
+www.advancedsciencenews.com www.advancedscience.com
+Figure3. TEM,HAADF-STEM,andFFTpatternsofRu@Ru Rh Pd Pt Ir core-shellnanocrystalswithdifferentshellthickness.A)2atomiclayers
+0.2 0.2 0.2 0.2 0.2
+ofshell.B)6atomiclayersofshell.C)Islandgrowthofshell(self-nucleationparticlesaremarkedbyredcircles).
+HEAsample.Additionally,theelectronegativitiesofRuandPd ofRh O ,suggestingelectrontransferfromRhtoneighboring
+2 3
+areboth2.20,implyingthatthedifferenceinelectronicproperties atomsinthehigh-entropyenvironment.ForPd,theaverageva-
+shouldbeattributedtothedistinctatomicarrangementsofHCP lencestateofPdisinthissequence:Pdfoil(Pd0)<PdinFCC<
+andFCCstructuresratherthanthedifferentcorematerials.For PdinHCP<PdO(Pd2+).Ontheotherhand,wealsoexaminethe
+Ru,theaveragevalencestatesinbothHCPandFCCHEAstruc- chemicalstatesofPtandIrintheHEAsamples,alongwiththeir
+turesare≈0.However,RhandPdexhibithighervalencestates formald-bandholecount,byintegratingtheareaofthewhite-line
+in the HCP HEA sample compared to the FCC HEA sample. peakintheL -edgeXANESspectra(Figure4I,J;FigureS12,Sup-
+3
+Surprisingly,forRh,theaveragevalencestateintheHCPHEA portingInformation).[34–37]ForPt,thevalencestatesinboththe
+sampleisevenslightlyhigherthanthatinthereferencesample HCPandFCCHEAstructuresshowcomparablechemicalstates
+Adv.Sci.2025,12,2409023 2409023(6of15) ©2024TheAuthor(s).AdvancedSciencepublishedbyWiley-VCHGmbH
+
+www.advancedsciencenews.com www.advancedscience.com
+Figure4. ElectronicstructuresandatomiccoordinationenvironmentsofHCPRu@Ru Rh Pd Pt Ir andFCCPd@Ru Rh Pd Pt Ir
+0.2 0.2 0.2 0.2 0.2-4L 0.2 0.2 0.2 0.2 0.2-4L
+core−shellnanocrystals.A–E)XANESspectraofHCPRu@Ru Rh Pd Pt Ir ,FCCPd@Ru Rh Pd Pt Ir ,andtheircorresponding
+0.2 0.2 0.2 0.2 0.2-4L 0.2 0.2 0.2 0.2 0.2-4L
+metallicfoilsandoxidationstatesatthe(A)RuK-edge,(B)RhK-edge,(C)PdK-edge,(D)PtL -edge,and(E)IrL -edge.(F-J)Determinationofchemical
+3 3
+statesandformald-bandholecountofRu,Rh,Pd,Pt,andIrelementsforHCPRu@Ru Rh Pd Pt Ir andFCCPd@Ru Rh Pd Pt Ir :
+0.2 0.2 0.2 0.2 0.2-4L 0.2 0.2 0.2 0.2 0.2-4L
+F–H)Absorptionenergypositionversuschemicalstateof(F)RuK-edge,(G)RhK-edge,and(H)PdK-edge;I,J)White-linepeakareadifferenceversus
+formald-bandholecountof(I)PtL -edgeand(J)IrL -edge.K–O)FT-EXAFSspectra(lines)andcurvefits(points)ofHCPRu@Ru Rh Pd Pt Ir
+3 3 0.2 0.2 0.2 0.2 0.2-4L
+andFCCPd@Ru Rh Pd Pt Ir atthe(K)RuK-edge,(L)RhK-edge,(M)PdK-edge,(N)PtL -edge,and(O)IrL -edge.Thedataarek2-weighted
+0.2 0.2 0.2 0.2 0.2-4L 3 3
+andwithoutphasecorrection.
+thatarenearthemetallicstate.ForIr,thevalencestatesofIrin Rh, Pd, Pt, and Ir are determined to be 3.22/3.01, 3.10/4.35,
+theHCPandFCCHEAstructuresfollowthistrend:Irfoil(Ir0) 3.45/4.49, and 3.77/4.98, respectively. The radial distances of
+<IrinFCC<IrinHCP<IrO (Ir4+).Theabovequantitativein- Pt-5d(2.713Å)andIr-5d(2.607Å)withintheHCPHEAatomic
+2
+formationsuggeststhattherearedistinctelectronicinteractions layers are shorter than the Pt-Pt (2.750 Å) and Ir-Ir (2.706 Å)
+betweenthemixedelementspresentintheHCPandFCCHEA distances in the corresponding Pt and Ir foils. In addition,
+structures. the coordination numbers of M-4d and M-5d bonds are all
+Furthermore, the Fourier-transformed extended significantly higher than those of M-O bonds, confirming that
+X-ray absorption fine structure (FT-EXAFS) of these elements primarily exist in their metallic states. These
+the HCP Ru@Ru Rh Pd Pt Ir and FCC findingssuggestthat4dand5delementsarecapableofforming
+0.2 0.2 0.2 0.2 0.2-4L
+Pd@Ru Rh Pd Pt Ir core-shell nanocrystals shows bondswitheachother,indicatingthepresenceofahigh-entropy
+0.2 0.2 0.2 0.2 0.2-4L
+alloydoubletpeaksbetweenR=1.8and2.7Åforallelements atomic-mixing phase instead of elemental segregation. For the
+compared to their metallic foils, as shown in Figure 4K–O Ru, an increased ratio of 6.52/2.05 is confirmed, which can be
+and Figure S13 (Supporting Information). These observa- ascribed to the XAS signals originating from the Ru cores and
+tions can be attributed to the atomic interactions occurring HEAshells,highlightingasignificantpresenceofRu-Rubond-
+between the constituent elements.[38–41] The FT-EXAFS ing.AsimilarphenomenonisobservedforPdinthecaseofFCC
+spectra are fitted to further elucidate the coordination en- Ru Rh Pd Pt Ir onthePdseeds.Moreover,thewavelet
+0.2 0.2 0.2 0.2 0.2-4L
+vironment of HCP Ru@Ru Rh Pd Pt Ir and FCC analysis of the k2-weighted EXAFS (WT-EXAFS) demonstrates
+0.2 0.2 0.2 0.2 0.2-4L
+Pd@Ru Rh Pd Pt Ir ,alongwiththeirrespectiveseeds a significant difference in coordination environments between
+0.2 0.2 0.2 0.2 0.2-4L
+and the metallic foils for each element (Figure 4K–O; Figures HCP and FCC HEA structures as well as their corresponding
+S14 and S15, Supporting Information and Table 1). Based on metallicfoilsandoxides(FigureS16,SupportingInformation),
+the fitting results for Ru@Ru Rh Pd Pt Ir , the co- indicating that each element is surrounded by distinct species.
+0.2 0.2 0.2 0.2 0.2-4L
+ordination values of M-4d (Ru, Rh, and Pd)/M-5d (Pt, Ir) for Together,theaboveXASmeasurementsnotonlyrevealdistinct
+Adv.Sci.2025,12,2409023 2409023(7of15) ©2024TheAuthor(s).AdvancedSciencepublishedbyWiley-VCHGmbH
+
+www.advancedsciencenews.com www.advancedscience.com
+Table 1. The EXAFS fitting results of Ru@Ru Rh Pd Pt Ir , far, the limited HER activity and durability have hindered
+0.2 0.2 0.2 0.2 0.2-4L
+Pd@Ru 0.2 Rh 0.2 Pd 0.2 Pt 0.2 Ir 0.2-4L ,Ruseeds,Pdseeds,andthecorrespond- their applications, particularly in the context of alkaline wa-
+ingfoils.
+ter electrolysis. Therefore, we investigate the impact of crys-
+tal structure on the catalytic performance of Ru@RuRhPdPtIr
+Samplea) Bond CNb) Rc)[Å] 𝜎2d) S 0 2e) ΔE 0 f) R- core−shell nanocrystals, with the aim of attaining superior
+[eV] factorg)
+catalytic activity and long-term durability. In the first set of
+Rufoil Ru-Ru 12 2.653 0.00300 0.701 −1.008 0.041 electrochemicalmeasurements,weexaminetheelectrocatalytic
+Ruseeds Ru-Ru 9.20 2.661 0.00456 HERactivitiesofHCPRu@Ru Rh Pd Pt Ir andFCC
+0.2 0.2 0.2 0.2 0.2-nL
+Ru_Ru@HEA Ru-5d 2.05 2.855 0.00634 Pd@Ru Rh Pd Pt Ir samplesinanalkaline1.0mKOH
+0.2 0.2 0.2 0.2 0.2-4L
+Ru-4d 6.52 2.706 0.00302 electrolyte, as shown in Figure 5A,B. The corresponding cata-
+Ru_Pd@HEA Ru-5d 3.09 2.768 0.00814 lysts,includingcommercialPt/CandRuseeds,areusedasrefer-
+ences.Thelinearsweepvoltammetry(LSV)curvesofthetested
+Ru-4d 4.11 2.737 0.00339
+catalystsshowthattheHCPRu@Ru Rh Pd Pt Ir core-
+Ru-O 1.46 2.018 0.00354 0.2 0.2 0.2 0.2 0.2-4L
+shell nanocrystals exhibit the lowest HER overpotential of
+Rhfoil Rh-Rh 12 2.685 0.00323 0.768 −2.029 0.023
+50.8 mV (vs the reversible hydrogen electrode, RHE) at a cur-
+Rh_Ru@HEA Rh-5d 3.01 2.721 0.00798
+rentdensityof−10mAcm−2 (wherethecurrentisnormalized
+Rh-4d 3.22 2.716 0.00628 bygeometricelectrodeareaof0.07cm2(FigureS17,Supporting
+Rh-O 2.57 2.027 0.00313 Information)). To further characterize their intrinsic activities,
+Rh_Pd@HEA Rh-5d 3.34 2.744 0.00584 thevaluesofspecificactivities(wherethecurrentisnormalized
+Rh-4d 4.00 2.741 0.00315 bytheelectrochemicallyactivesurfacearea,ECSA(FigureS18,
+Rh-O 1.37 2.029 0.00788 SupportingInformation))atapotentialof−0.1Varecompared
+Pdfoil Pd-Pd 12 2.749 0.00501 0.765 1.062 0.018 inFigure5B.TheHCPRu@Ru Rh Pd Pt Ir core-shell
+0.2 0.2 0.2 0.2 0.2-4L
+Pdseeds Pd-Pd 9.10 2.737 0.00534
+nanocrystalsreachthehighestspecificactivityof1.35mAcm−2
+at−0.1V,whichis2.8,6.4,and9.0timeshigherthanthoseof
+Pd_Ru@HEA Pd-5d 4.35 2.694 0.00364
+theirFCCcounterparts(0.49mAcm−2),commercialPt/Crefer-
+Pd-4d 3.10 2.675 0.00302
+ence(0.21mAcm−2),andRuseeds(0.15mAcm−2),respectively.
+Pd-O 0.80 1.983 0.00467
+In the second set of electrochemical measurements,
+Pd_Pd@HEA Pd-5d 3.18 2.769 0.00570
+we study the electrocatalytic HER activities in an acidic
+Pd-4d 6.98 2.762 0.00407
+0.5 m H SO electrolyte, as shown in Figure 5C,D.
+2 4
+Ptfoil Pt-Pt 12 2.750 0.00390 0.757 4.637 0.023 Again, the HCP Ru@Ru Rh Pd Pt Ir samples
+0.2 0.2 0.2 0.2 0.2-4L
+Pt_Ru@HEA Pt-5d 4.49 2.713 0.00388 show a much better HER electrocatalytic activity than
+Pt-4d 3.45 2.694 0.00303 the FCC Pd@Ru Rh Pd Pt Ir samples. The val-
+0.2 0.2 0.2 0.2 0.2-4L
+Pt-O 0.51 1.988 0.00337 ues of the specific activities at an overpotential of −0.1 V
+Pt_Pd@HEA Pt-5d 4.49 2.720 0.00304 of the HCP Ru@Ru Rh Pd Pt Ir samples is
+0.2 0.2 0.2 0.2 0.2-4L
+Pt-4d 4.72 2.708 0.00416 2.47 mA cm−2, which is 2.1, 1.6, and 3.6 times higher
+than those of their FCC counterparts (1.18 mA cm−2),
+Irfoil Ir-Ir 12 2.706 0.00358 0.809 0.792 0.025
+commercial Pt/C reference (1.54 mA cm−2), and Ru seeds
+Ir_Ru@HEA Ir-5d 4.98 2.607 0.00304
+(0.68 mA cm−2), respectively. It should be emphasized
+Ir-4d 3.77 2.573 0.00817
+that the HCP Ru@Ru Rh Pd Pt Ir nanocata-
+Ir_Pd@HEA Ir-5d 4.47 2.685 0.00429 0.2 0.2 0.2 0.2 0.2-4L
+lysts exhibit a more significant improvement in specific
+Ir-4d 4.96 2.659 0.00587
+activity in the alkaline electrolyte (6.4 times) compared
+a)Thedatafittingsareconductedinthekrangefrom3to10Å−1forRu,Rh,Pd,and to their performance in the acidic solution (1.6 times)
+PtwithinRu@Ru 0.2 Rh 0.2 Pd 0.2 Pt 0.2 Ir 0.2-4L ,Pd@Ru 0.2 Rh 0.2 Pd 0.2 Pt 0.2 Ir 0.2-4L ,Ruseeds, when benchmarked against commercial Pt/C catalysts. The
+andPdseeds.ForRu,Rh,Pd,andPtfoils,thefittedkrangeisfrom3to11.5Å−1.For
+electrochemical impedance spectroscopy (EIS) measure-
+Ir,thefittedkrangeisfrom3to8.5Å−1.Furthermore,alltheelementsarefittedin
+theRrangefrom1to3Å; b)CN=coordinationnumber; c)R=radialdistance; d)𝜎2 ments for HCP Ru@Ru 0.2 Rh 0.2 Pd 0.2 Pt 0.2 Ir 0.2-4L core-shell
+=meansquarerelativedisplacements; e)S2=passiveelectronreductionfactor; nanocrystals and commercial Pt/C catalysts are conducted
+f)ΔE
+0
+=fittedenergyshift; g)R-factor=Σ(da 0 ta-fit)2/Σdata2. undervariousoverpotentialsof0,−0.05,−0.1,and−0.15V,as
+shown in Figure S19 (Supporting Information). The detailed
+measurementproceduresareprovidedintheupdatedsupport-
+electronicinteractionsintheHCPandFCCHEAstructuresbut
+ing information. The Nyquist plots in Figure S19 (Supporting
+alsoidentifytheirhigh-entropyatomic-mixingphases.
+Information)revealatrendofdecreasingresistancewithincreas-
+ing overpotentials. Notably, the Ru@Ru Rh Pd Pt Ir
+0.2 0.2 0.2 0.2 0.2-4L
+2.3.ElectrocatalyticHERPerformance:HCPversusFCCHEA core-shell nanocrystals (Figure S19A, Supporting Information)
+Structures display a smaller semicircle across the applied potentials com-
+paredtothePt/Ccatalyst(FigureS19B,SupportingInformation),
+The platinum-group metals are widely recognized as promis- indicatingalowerchargetransferresistanceandmoreefficient
+ing electrocatalysts for both alkaline and acidic water elec- electron transfer at the electrode-electrolyte interface during
+trolysis, offering an attractive method to generate environ- the HER process.[42,43] This aligns with the enhanced catalytic
+mentally friendly hydrogen energy.[8–11,14,15,19–21] However, so performance observed in these Ru@Ru Rh Pd Pt Ir
+0.2 0.2 0.2 0.2 0.2-4L
+Adv.Sci.2025,12,2409023 2409023(8of15) ©2024TheAuthor(s).AdvancedSciencepublishedbyWiley-VCHGmbH
+
+www.advancedsciencenews.com www.advancedscience.com
+Figure5. ElectrocatalyticHERperformancesofHCPRu@Ru Rh Pd Pt Ir andFCCPd@Ru Rh Pd Pt Ir core-shellnanocrystals.
+0.2 0.2 0.2 0.2 0.2-nL 0.2 0.2 0.2 0.2 0.2-4L
+A,B)HERin1.0mKOHsolution:A)PolarizationcurvesandB)specificactivitiesat−0.1V .C,D)HERin0.5mH SO solution:C)Polarizationcurves
+RHE 2 4
+andD)specificactivitiesat-0.1V .E–L)Durabilitytestsof(E,I)HCPRu@Ru Rh Pd Pt Ir ,(F,J)FCCPd@Ru Rh Pd Pt Ir ,(G,K)
+RHE 0.2 0.2 0.2 0.2 0.2-4L 0.2 0.2 0.2 0.2 0.2-4L
+Ruseeds,and(H,L)commercialPt/Cin1.0mKOHsolution.(M)ChronopotentiometrymeasurementofHCPRu@Ru Rh Pd Pt Ir dispersed
+0.2 0.2 0.2 0.2 0.2-4L
+onacarbonpapersupport(inset)at−15mAcm−2in1.0mKOHsolution.
+Adv.Sci.2025,12,2409023 2409023(9of15) ©2024TheAuthor(s).AdvancedSciencepublishedbyWiley-VCHGmbH
+
+www.advancedsciencenews.com www.advancedscience.com
+core-shell nanocrystals. These results highlight the uncon- 2.4.ElectrocatalyticHERMechanismandSynergisticEffect
+ventional HCP HEA nanocatalysts as excellent HER catalysts, UnveiledbyElectrochemicalAnalysisandOperandoXAS
+particularlyinalkalineenvironments. Analysis
+Given that the degradation of commercial Pt/C is more
+pronouncedinanalkalinesolutionthaninanacidicelectrolyte, Thetwo-electrontransferalkalineHERconsistsofthreeelemen-
+wethusfocusonthedurabilitytestsofourcatalystsforalkaline tarysteps,inwhichactivecatalysts(M)arerequiredtoreducethe
+HER. As shown in Figure 5E, there is no significant change energybarriersineachstep:
+in the LSV curves for the HCP Ru@Ru Rh Pd Pt Ir
+0.2 0.2 0.2 0.2 0.2-4L
+samplesafter5000,10000,and15000cycles.Incontrast,theFCC M+H O+e−→ M−H +OH− (Volmerstep) (1)
+2 ad
+Pd@Ru Rh Pd Pt Ir , commercial Pt/C, and Ru seeds
+0.2 0.2 0.2 0.2 0.2-4L
+exhibit a gradual decrease in activity throughout the durability M−H +H O+e− → M+H +OH− (Heyrovskystep) (2)
+ad 2 2
+tests(Figure5F–H).AsshowninFigure5I,after15000cycles,the
+HCPRu@Ru Rh Pd Pt Ir samplesdemonstrateonlya M−H +M−H → 2M+H (Tafelstep) (3)
+0.2 0.2 0.2 0.2 0.2-4L ad ad 2
+9.1%decreaseincatalyticactivityatapotentialof−0.1V,whereas
+theirFCCcounterparts,commercialPt/C,andRuseedsexperi- Thegenerallyacceptedpathwaysareassociatedwiththewater
+ence drops of 25.3%, 30.3%, and 29.2% in activity, respectively dissociation and adsorption/desorption of a hydrogen interme-
+(Figure 5J–L). Additionally, the Ru@Ru Rh Pd Pt Ir diate(H*)onthecatalyststhrougheithertheVolmer-Heyrovsky
+0.2 0.2 0.2 0.2 0.2-4L
+nanocrystalsdispersedontheconductivecarbonpapersubstrate ortheVolmer-Tafelmechanism.[50–55] Thewaterdissociationin
+also demonstrate no significant change in overpotential, with bothVolmerandHeyrovskystepsrequiresconsiderableenergyto
+a fluctuation of less than 20% at a constant current density of breaktheHO-Hbond,contributingtotheslowerreactionrateob-
+−15 mA cm−2 over a 100 h operating period (Figure 5M). By servedinalkalineHER.Importantly,recentsimulationsalsosug-
+the end of the durability test, the final overpotential decreases gestthebindingstrengthofhydroxyl(OH*)alsoplaysanimpor-
+slightlyfromaninitialvalueof≈−52to≈−43mV.Thismodest tantroleinhydrogenevolutionreactionkinetics.Whencatalysts
+improvementincatalyticactivityoverthe100hperiodislikely exhibitaweakbindingaffinityforOH*,therate-limitingstepis
+due to the gradual removal of surface oxides during the HER. oftenthedissociationofwater.Conversely,asthestrengthofOH*
+Based on previous studies,[44–47] a 100 h chronoamperometric bindingincreases,theadsorptionofOH*occursonthecatalysts,
+test at a high current density of −15 mA cm−2 is deemed suf- leadingtoaslowerOH*desorptionrate.Basedontheir3Dvol-
+ficient to assess the durability of catalysts under alkaline HER canoplot,therateofhydrogenevolutionisfurtherdeterminedby
+conditions. The TEM, HAADF-STEM images, and EDS map- thestrengthofbindingbetweenhydrogen/hydroxylandthecata-
+pingsindicatethatthestructureandhomogeneousdistribution lystsurface.[56]Itisexpectedthatcatalystswithamoderatebind-
+of the elements in most HCP Ru@Ru Rh Pd Pt Ir ingstrengthofhydrogen/hydroxylexhibithighalkalineHERac-
+0.2 0.2 0.2 0.2 0.2-4L
+samples are maintained after the durability tests (Figure S20, tivity.
+Supporting Information). Additionally, the ICP-OES results re- In general, the Tafel slope serves as a good indicator of re-
+vealnodetectableelementdissolution.Theseresultssuggestthat action kinetics and the rate-determining step (RDS) in elec-
+the HCP Ru@Ru Rh Pd Pt Ir samples have superior trocatalytic reactions.[57] Varying values of the Tafel slope typ-
+0.2 0.2 0.2 0.2 0.2-4L
+durabilityduringthealkalineHER.Duetothesmallamountof ically correspond to different reaction mechanisms and RDS.
+catalystused,withonly0.2mgofRu@Ru Rh Pd Pt Ir AsshowninFigure6A,theHCPRu@Ru Rh Pd Pt Ir
+0.2 0.2 0.2 0.2 0.2-4L 0.2 0.2 0.2 0.2 0.2-4L
+withonly4atomiclayersofHEAshellsdispersedontheVulcan catalysts exhibit a Tafel slope value of 63.7 mV dec−1, sug-
+XC72RcarbonandmixedwiththeNafionsolutiontoformcata- gesting that the HER follows the Volmer-Heyrovsky pathway
+lystink,whichisthendrop-castontoaglassycarbonelectrodefor withtheHeyrovskystepbeingtheRDS.[58,59]ThisRDSinvolves
+HERelectrocatalyticmeasurements,itischallengingtorecover the cleaving of the HO-H bond to react with the adsorbed hy-
+asufficientamountforXPSanalysis.However,sincetheHERis drogen on the catalysts, leading to the formation of a hydro-
+conductedundernegativepotentials,oxidationofthesamplesis gen molecule and a hydroxyl species. However, as the layer
+unlikely,andthemetalsareexpected toremainpredominantly thickness increases to six, either the Volmer-Tafel or Volmer-
+intheirmetallicstates.Thisinferenceissupportedbythedura- Heyrovsky pathway becomes dominant, with the Volmer step
+bility results of HCP Ru@Ru Rh Pd Pt Ir samples. astheRDS(FigureS21,SupportingInformation).Accordingto
+0.2 0.2 0.2 0.2 0.2-4L
+As referenced in recent literature,[48,49] HEA-based materials the Tafel-slope findings in this study, the alkaline HER activ-
+exhibit enhanced stability due to the absence of preferential ity is governed by the binding strength of both intermediates
+initiationsitesfordegradationorphaseseparation.Therandom H* and OH* involved in the rate-determiningHeyrovsky step.
+distributionofelementsinHEA-basedmaterialsminimizesthe To gain deeper insights into the catalytic mechanism, we uti-
+formationofgrainboundariesorcorrosion-pronesites,further lize electrochemical desorption curves for hydrogen underpo-
+supportedbytheuniformatomicdistributionobservedinEDS tentialdeposition (HUPD;Figure6B)and CO-strippingcurves
+mappingsandsynchrotronXASanalysisinthisstudy.Also,our (Figure 6C) for both the HCP Ru@Ru Rh Pd Pt Ir
+0.2 0.2 0.2 0.2 0.2-4L
+findings show that the HCP Ru@Ru Rh Pd Pt Ir andFCCPd@Ru Rh Pd Pt Ir catalysts.Theyarecon-
+0.2 0.2 0.2 0.2 0.2-4L 0.2 0.2 0.2 0.2 0.2-4L
+nanocrystals demonstrate superior durability compared vincing electrochemical tools for examining the binding affin-
+to their FCC counterparts. This aligns with other stud- ity of H* and OH* on the catalysts, respectively.[59,60] Ad-
+ies on HEA-based materials, which have shown that their ditionally, the corresponding catalysts, including commercial
+unique atomic arrangements delay or prevent electrochemical Pt/C, Ru seeds, and Ru@Pt Ir samples, are used as ref-
+0.5 0.5-4L
+degradation.[49] erences. In the cyclic voltammetry (CV) experiments for the
+Adv.Sci.2025,12,2409023 2409023(10of15) ©2024TheAuthor(s).AdvancedSciencepublishedbyWiley-VCHGmbH
+
+www.advancedsciencenews.com www.advancedscience.com
+Figure6. ElectrochemicalcharacterizationforrevealingthecatalyticmechanismofalkalineHER.A)TafelplotsofHCPRu@Ru Rh Pd Pt Ir ,
+0.2 0.2 0.2 0.2 0.2-4L
+FCCPd@Ru Rh Pd Pt Ir ,RuseedsandcommercialPt/Cobtainedfromcorrespondingpolarizationcurves.B)CVcurvesandC)COstrip-
+0.2 0.2 0.2 0.2 0.2-4L
+pingcurvesofHCPRu@Ru Rh Pd Pt Ir ,FCCPd@Ru Rh Pd Pt Ir ,HCPRu@Pt Ir ,RuseedsandcommercialPt/C.D)A
+0.2 0.2 0.2 0.2 0.2-4L 0.2 0.2 0.2 0.2 0.2-4L 0.5 0.5-4L
+summaryofhydrogenbindingstrengthandhydroxyladsorptionabilityaccordingtothepotentialsofHUPDdesorptionpeaksandCOoxidationpeaks.
+HUPD, stronger hydrogen binding can be identified by ob- <Ru@Pt Ir (0.74V)≈commercialPt/C(0.74V).Wecom-
+0.5 0.5-4L
+serving the shift of HUPD peaks toward higher potentials. As paredtheCO-strippingpeaksofdifferentcatalystsbyidentifying
+shown in Figure 6B,D, the trend of HUPD peaks for the cata- thepeakpotentialatwhichthemaximumcurrentdensityoccurs.
+lysts is as follows: commercial Pt/C (0.28 V) > Ru@Pt Ir TheCO-strippingpeakforFCCHEAdisplaysashoulder,likely
+0.5 0.5-4L
+(0.21 V) > FCC Pd@Ru Rh Pd Pt Ir (0.19 V) > HCP attributedtothepresenceofdifferentfacetsonthecatalystsur-
+0.2 0.2 0.2 0.2 0.2-4L
+Ru@Ru Rh Pd Pt Ir (0.16 V) > Ru seeds (0.13 V). face,afeaturealsoobservedincommercialPt/C.[61] Again,the
+0.2 0.2 0.2 0.2 0.2-4L
+TheseresultssuggestthatthebindingstrengthofH onHCP HCPRu@Ru Rh Pd Pt Ir sampleexhibitsamoderate
+ad 0.2 0.2 0.2 0.2 0.2-4L
+HEAstructuresfallswithinamoderaterangeofstrengthwhen binding strength compared to these catalysts. The oxidation of
+compared to the FCC HEA and the other mono- or bi-metallic adsorbedCOiseasierontheFCCPd@Ru Rh Pd Pt Ir
+0.2 0.2 0.2 0.2 0.2-4L
+catalysts. In addition, we performed CO stripping experiments comparedtotheHCPRu@Ru Rh Pd Pt Ir ,duetothe
+0.2 0.2 0.2 0.2 0.2-4L
+to evaluate the binding affinity of OH* since OH* can pro- stronger adsorption of OH on the FCC HEA surface. The
+ad
+mote the removal of surface-adsorbed CO* intermediates into Pd@Ru Rh Pd Pt Ir sample,possessingthestrongest
+0.2 0.2 0.2 0.2 0.2-4L
+CO . Typically, lower potentials of CO-stripping peaks indicate adsorption affinity for OH* among these catalysts, may result
+2
+higher abilities for OH adsorption. As shown in Figure 6C,D, inaslowerOH*desorptionrateduringwaterdissociation.Con-
+thetrendofCO-strippingpeaksforthecatalystscanbesumma- versely,forsampleslikeRuseeds,Ru@Pt Ir ,andcommer-
+0.5 0.5-4L
+rized as follows: FCC Pd@Ru Rh Pd Pt Ir (0.62 V) < cialPt/C,whichexhibitamuchweakerbindingaffinityforOH*,
+0.2 0.2 0.2 0.2 0.2-4L
+HCPRu@Ru Rh Pd Pt Ir (0.65V)<Ruseeds(0.73V) therateofwaterdissociationonthesurfacecouldbelimited.
+0.2 0.2 0.2 0.2 0.2-4L
+Adv.Sci.2025,12,2409023 2409023(11of15) ©2024TheAuthor(s).AdvancedSciencepublishedbyWiley-VCHGmbH
+
+www.advancedsciencenews.com www.advancedscience.com
+Furthermore,operandoXASmeasurementsareutilizedtoelu- ticemismatchandthusstraineffectsbetweentheseedsandHEA
+cidate the synergistic electronic interactions among the mixed shells likely contribute to the observed variations in electronic
+elementsandidentifytheactualactivesiteswithpossibleinter- interactions (Tables S4 and S5, Supporting Information).[65–67]
+mediatesinvolvedinthealkalineHERmechanismfortherepre- Therefore,thedistinctelectronicinteractionsinHCPandFCC
+sentativeHCPRu@Ru Rh Pd Pt Ir sample,asshown HEA structures are likely due to differences in atomic stack-
+0.2 0.2 0.2 0.2 0.2-4L
+in Figure 7.[8,21,62–64] The measurements are performed for Ru, ingsequences,surfaceatomicarrangements,andstraineffects
+Rh, Pd, Pt, and Ir elements under both open circuit potential withintheHEAsurfaces.Itshouldbeemphasizedthatthesyn-
+(OCP) and applied potentials from −0.05 to −0.15 V through ergisticeffectobservedinmulti-componenthigh-entropymate-
+XANES. Interestingly, when the applied potential switch from rialsisrecognizedasacomplexandintertwinedmechanismthat
+OCP to −0.15 V, where the HER launched, there is a decrease is crucial for achieving exceptional catalytic performance.[4,8–11]
+inthewhitelineintensityofthePtL -edge(Figure7A),accom- The nature of understanding the intricate workings of multi-
+3
+paniedbyanincreaseinthewhitelineintensityoftheIrL -edge componentsynergywithinHEAisstillelusive.Furtherinvestiga-
+3
+(Figure7C).Thisphenomenonindicatesasignificanttransferof tionsusingadvancedtechniques,suchashigh-throughputDFT
+electronsfromIrsitestoPtsitesand/ortheadsorptionofreaction computations,[68]couldsignificantlyenhanceourunderstanding
+intermediatesonbothPtandIrsitesduringthealkalineHER. ofthesynergisticeffectsofHEAcatalysts.[2,69–71]
+ThisresultsinelectrongainatPtsitesandelectrondonationat WeperformedDFTcalculationstostudytheadsorptionfree
+Ir sites. During the Volmer step, H* preferentially adsorbs on energiesofH*(ΔG )andOH*(ΔG )ontheHCPRuRhPdP-
+H* OH*
+PtactivesitesofHCPHEA,whileIrsitesactivelyparticipatein tIrsurface.[8,72] FortheΔG ,wesamplemorethan150possi-
+H*
+waterdissociation,followedbytheadsorptionanddesorptionof bleatomicconfigurationsoftheH-adsorbedPdPtRhIrRusurface
+OH*.Subsequently,anotherwatermoleculeadsorbedonIrsites includingtop,hollow,andbridgesites,resultingin≈80unique
+reactswiththeadsorbedH*togenerateH intheHeyrovskystep H-adsorptionconfigurationsaftergeometryoptimization.Inthe
+2
+(Figure7E).ThiscomplementaryinteractionbetweenPtandIr caseoftopsites,wefindthatthemajorityofhydrogenmigrates
+shouldlikelyoccurbetweenadjacentPtandIratoms(Table1),as to the top sites of Pt and Ir compared to those of Ru, Rh, and
+isolatedPtandIratomswouldbetoofaraparttoeffectivelyen- Pd.ThissuggeststhatPtandIrprovidethemostfavorableHad-
+hancetheoverallcatalyticperformance.Theproximityofthese sorptionsitesontheHCPRuRhPdPtIrsurface.Additionally,the
+PtandIratomsallowsforefficientsynergy,demonstratingthe adsorption free energy of Pt (−0.0791 eV) is closer to the ideal
+crucialrolesoftheseactivesitesinoptimizingtheHERprocess. value(0eV)thanIr(−0.2385eV),asshowninFigure7F.This
+ItisnoteworthythattheabsorptionedgesofRu,Rh,andPd comparisonindicatesthatthePttopsiteisanidealactivesitefor
+K-edgesremainedlargelyunchangedduringtheHER,suggest- HER,withadsorptionstrengththatisneithertoostrongnortoo
+ingthatthesethreeelementsontheHCPHEAsurfacearenot weak,aligningwiththeSabatierprinciple.Ir,bycontrast,shows
+directactivesites(FigureS22,SupportingInformation).Impor- strongerhydrogenadsorption,whichmaynotbeasoptimalas
+tantly,ourcontrolexperimentsshowedthatthespecificactivity Pt. This trend is also observed in the adsorption of hydrogen
+ofbimetallicRu@Pt Ir (0.60mAcm−2)ismuchlowerthan onthehollowandbridgesites(FigureS24,SupportingInforma-
+0.5 0.5-4L
+thatoftheRu@Ru Rh Pd Pt Ir (1.35mAcm−2)(Figure tion).Thisconsistencyacrossdifferentadsorptionsitesfurther
+0.2 0.2 0.2 0.2 0.2-4L
+S23,SupportingInformation).Theseexperimentsindicatethat highlightstheroleofPtinprovidingoptimalH-adsorptionsites
+thepresenceofnon-activeRu,Rh,andPdelementsmixedwith ontheHCPRuRhPdPtIrsurface,consistentwithoperandoXAS
+activePtandIrelementscouldenhancetheconfigurationalen- measurements(Figure7A).
+tropyandfinelytunetheelectronicstructureoftheHEAsurface FortheΔG ,wepositionedOHmoleculesonthetopsites
+OH*
+throughsynergisticeffectsamongtheelements,whicharebene- of each metal atom on the HCP RuRhPdPtIr surface. Ideally,
+ficialforthecatalyticperformance.Thesesynergisticeffectscan theΔG shouldbemoderate,neithertoostrongnortooweak,
+OH*
+alsobeconfirmedthroughtheHUPDandCO-strippingexper- to facilitate efficient catalysis. A moderately enhanced OH* ad-
+iments(Figure6B–D),demonstratingthatthebindingstrength sorption strength can create potential active sites on the HCP
+ofH*andOH*canbeweakenedandstrengthenedtoamoder- RuRhPdPtIrsurface.However,tooptimizetheconversionfrom
+atelevel,respectively,bymixingnon-activeRu,Rh,andPdatoms OH toOH−,thedesorptionabilityalsoplaysakeyrole,asitis
+ad
+withactivePtandIratoms.Furthermore,thecorrespondingFT- closelyrelatedtothesurfacechargepropertiesandiscrucialfor
+EXAFSspectraofPtandIrintheRu@Ru Rh Pd Pt Ir catalyticperformance.Interestingly,ourcalculationsrevealthat
+0.2 0.2 0.2 0.2 0.2-4L
+displaynegligiblechangesastheappliedpotentialvariesduring ΔG valuesatthetopsitesofIrandRuexhibitstrongeradsorp-
+OH*
+thealkalineHER(Figure7B,D).Thisobservationalsosuggests tion compared to those of Rh, Pd, and Pt (Figure 7G). Specifi-
+theirdurability.Together,thesynergisticeffectsamongthemixed cally, the calculated ΔG for Ru (0.313 eV) and Ir (0.475 eV)
+OH*
+elementsintheHCPHEAstructurecouldleadtomoderatebind- at top sites suggest that these elements are the most oxophilic
+ing strengths of H* and OH* on the active Pt and Ir sites, re- sites.[72] Nevertheless, significantly stronger OH adsorption of
+spectively, which could contribute to improved catalytic perfor- Ru (0.313 eV) may impede OH desorption, potentially slowing
+mance in alkaline HER. In this study, the composition, ratios, subsequentHERsteps.ThisstrongOHbindingisalsoobserved
+and atomic layers of the Ru Rh Pd Pt Ir HEA on the at the top, hollow, and bridge sites where Ir or Ru are present
+0.2 0.2 0.2 0.2 0.2-4L
+HCPRuandFCCPdseedsarecontrolledtobesimilar,withthe (FigureS25,SupportingInformation).Thisinferenceisfurther
+primarydifferencebeingtheHCPversusFCCstructuralvaria- supportedbytheunchangingoperandoXASsignalsforRuun-
+tionsandthedifferentseedmaterialsused.Despitethesimilar derdifferentappliedpotentialsduringalkalineHER,suggesting
+electronegativitiesofRuandPd(both2.20),whichsuggestcom- thatitsadsorptionstrengthmaybetoostrong,thuspreventing
+parableelectronicinteractionswiththeseeds,differencesinlat- efficientOHdesorption(FigureS22A,SupportingInformation).
+Adv.Sci.2025,12,2409023 2409023(12of15) ©2024TheAuthor(s).AdvancedSciencepublishedbyWiley-VCHGmbH
+
+www.advancedsciencenews.com www.advancedscience.com
+Figure7. OperandosynchrotronXASmeasurementsofRu@Ru Rh Pd Pt Ir underalkalineHERandschematicofcatalyticmechanism.A,B)
+0.2 0.2 0.2 0.2 0.2-4L
+OperandoXANESandFT-EXAFSofPtL -edgeundertheappliedpotentialfromOCP,−0.05to−0.15V.C,D)OperandoXANESandFT-EXAFSofIr
+3
+L -edgeundertheappliedpotentialfromOCP,−0.05to−0.15V.E)SchematicofthealkalineHERcatalyticmechanism:PtsitesadsorbH*,whileIr
+3
+sitesfacilitatewaterdissociationandtheadsorptionanddesorptionofOH*.F)AdsorptionstrengthofH*atthetopsitesofPtandIr.G)Adsorption
+strengthofOH*atthetopsitesofelementsontheHCPRuRhPdPtIrsurface.
+Adv.Sci.2025,12,2409023 2409023(13of15) ©2024TheAuthor(s).AdvancedSciencepublishedbyWiley-VCHGmbH
+
+www.advancedsciencenews.com www.advancedscience.com
+Therefore, these DFT results suggest that Ir offers a more bal- Council,NSTC(112-2221-E-007-022-MY3,113-2628-E-007-017,113-2218-
+ancedOHadsorptionbehaviorcomparedtotheotherelements E-007-013,and113-2224-E-007-001forT.-H.Y.,111-2222-E-007-004-MY2,
+ontheHCPRuRhPdPtIrsurface.TheyalignwithoperandoXAS 112-2628-E-007-015,and113-2628-E-007-005forK.-H.L.).Thisworkwas
+alsofinanciallysupportedbythe“HighEntropyMaterialsCenter”from
+measurementsobtainedinthisstudy,whereIrisidentifiedasan
+TheFeaturedAreasResearchCenterProgramwithintheframeworkofthe
+electron-donatingsite(Figure7C),enablingefficientconversion
+HigherEducationSproutProjectbytheMinistryofEducation(MOE)in
+ofOH ad toOH−(OH ad +e−→OH−),[73]therebyacceleratingthe Taiwan.TheauthorsalsothankYung-ShengChenforthesphericalaber-
+Volmerstep.Ourexperimentalfindingsmayopennewavenues rationcorrectedfieldemissionTEManalysis(InstrumentationCenterat
+for the rational design of unconventional HEA structures with NTHU). The authors thank the National Center for High-performance
+strongatomic-scaleinteractionsforelectrocatalyticreactionsin- Computing(NCHC)forprovidingcomputationalandstorageresources.
+volvingmultipleintermediates.
+ConflictofInterest
+3.Conclusion Theauthorsdeclarenoconflictofinterest.
+In this study, we demonstrate unconventional HCP RuRhPdP-
+tIr HEA atomic layers using a method involving the dropwise DataAvailabilityStatement
+addition of metal precursor mixtures in the presence of HCP
+Thedatathatsupportthefindingsofthisstudyareavailablefromthecor-
+Ruseeds,facilitatinglayer-by-layerepitaxialgrowth.TheirHCP
+respondingauthoruponreasonablerequest.
+structurescanbeobtainedwithin≈6atomiclayersbutchangeto
+thethermodynamicallystableFCCstructureasthethicknessin-
+creasesfurther.TheXASfittingresultsofHCPRuRhPdPtIrHEA Keywords
+revealthatthefiveconstituentelementscanbondwitheachother
+alkalinehydrogenevolution,atomicmixing,hexagonalclose-packedstruc-
+andleadtouniqueelectronicinteractions,distinguishingthem
+ture,high-entropyalloy,operandoX-rayabsorptionspectroscopy
+fromthetraditionalFCCRuRhPdPtIrHEA.Additionally,HCP
+RuRhPdPtIrHEAatomiclayersarestableevenattemperatures
+Received:August6,2024
+upto500°C,confirmedbyHRPXRDanalysiswithinsituheat-
+Revised:October12,2024
+ing.Mostimportantly,HCPRuRhPdPtIrHEAlayersexhibitno- Publishedonline:November8,2024
+tableimprovementsinbothelectrocatalyticactivityanddurabil-
+ityfortheHERinanalkalineenvironment,ascomparedtotheir
+FCCRuRhPdPtIrcounterparts.Interestingly,theyexhibitamore
+significantimprovementinactivityinthealkalineelectrolyte(6.4 [1] J.W.Yeh,S.K.Chen,S.J.Lin,J.Y.Gan,T.S.Chin,T.T.Shun,C.H.
+times)comparedtotheirperformanceintheacidicsolution(1.6 Tsau,S.Y.Chang,Adv.Eng.Mater.2004,6,299.
+times) when benchmarked against commercial Pt/C catalysts. [2] W.-L.Hsu,C.-W.Tsai,A.-C.Yeh,J.-W.Yeh,Nat.Rev.Chem.2024,8,
+Furthermore,operandoXASanalysesrevealelectronenrichment 471.
+[3] Y.Sun,S.Dai,Sci.Adv.2021,7,abg1600.
+atPtsitesandelectronwithdrawalatIrsitesontheHCPHEA
+[4] Y.Yao,Q.Dong,A.Brozena,J.Luo,J.Miao,M.Chi,C.Wang,I.G.
+surfacesduringthealkalineHER,indicatingpreferentialadsorp-
+Kevrekidis,Z.J.Ren,J.Greeley,Science2022,376,abn3103.
+tionofH*onPtsitesandOH*onIrsites.Additionally,theelec-
+[5] L.Fan,Y.Ji,G.Wang,J.Chen,K.Chen,X.Liu,Z.Wen,J.Am.Chem.
+trochemicalHUPDdesorptionanalysesandCO-strippingexperi-
+Soc.2022,144,7224.
+mentsalsoindicatethatthebindingstrengthsofH*andOH*in- [6] Y.Yao,Z.Liu,P.Xie,Z.Huang,T.Li,D.Morris,Z.Finfrock,J.Zhou,
+termediatesontheHEAcanbeweakenedandstrengthenedtoa M.Jiao,J.Gao,Sci.Adv.2020,6,aaz0510.
+moderatelevel,respectively,byincorporatingnon-activeRu,Rh, [7] R.He,L.Yang,Y.Zhang,D.Jiang,S.Lee,S.Horta,Z.Liang,X.Lu,A.
+andPdatomswithactivePtandIratoms.Theseresultshighlight OstovariMoghaddam,J.Li,Adv.Mater.2023,35,2303719.
+theimportanceofengineeringunconventionalHEAstructures [8] G.Feng,F.Ning,J.Song,H.Shang,K.Zhang,Z.Ding,P.Gao,W.
+andsurfaceswithappropriatebindingstrengthsforintermedi- Chu,D.Xia,J.Am.Chem.Soc.2021,143,17117.
+[9] H.Luo,L.Li,F.Lin,Q.Zhang,K.Wang,D.Wang,L.Gu,M.Luo,F.
+atespecieswhendesigninghigh-performancealkalineHERcat-
+Lv,S.Guo,Adv.Mater.2024,36,2403674.
+alysts.Thisapproachcanpotentiallybeextendedtoothermulti-
+[10] D.Wu,K.Kusada,Y.Nanba,M.Koyama,T.Yamamoto,T.Toriyama,
+componentcatalystsandcatalyticreactionsinvolvingmultiplein-
+S.Matsumura,O.Seo,I.Gueye,J.Kim,J.Am.Chem.Soc.2022,144,
+termediates.
+3365.
+[11] Z.W.Chen,J.Li,P.Ou,J.E.Huang,Z.Wen,L.Chen,X.Yao,G.Cai,
+C.C.Yang,C.V.Singh,Nat.Commun.2024,15,359.
+SupportingInformation [12] H.Zhu,S.Sun,J.Hao,Z.Zhuang,S.Zhang,T.Wang,Q.Kang,S.Lu,
+X.Wang,F.Lai,EnergyEnviron.Sci.2023,16,619.
+SupportingInformationisavailablefromtheWileyOnlineLibraryorfrom [13] D. Wu, K. Kusada, T. Yamamoto, T. Toriyama, S. Matsumura, S.
+theauthor. Kawaguchi, Y. Kubota, H. Kitagawa, J. Am. Chem. Soc. 2020, 142,
+13833.
+[14] H. Minamihara, K. Kusada, D. Wu, T. Yamamoto, T. Toriyama, S.
+Acknowledgements Matsumura,L.S.R.Kumara,K.Ohara,O.Sakata,S.Kawaguchi,J.
+Am.Chem.Soc.2022,144,11525.
+T.-H.H. and C.-Y.W. contributed equally to this work. The authors ac- [15] H.Li,Y.Han,H.Zhao,W.Qi,D.Zhang,Y.Yu,W.Cai,S.Li,J.Lai,B.
+knowledgethefinancialsupportbytheNationalScienceandTechnology Huang,Nat.Commun.2020,11,5437.
+Adv.Sci.2025,12,2409023 2409023(14of15) ©2024TheAuthor(s).AdvancedSciencepublishedbyWiley-VCHGmbH
+
+www.advancedsciencenews.com www.advancedscience.com
+[16] C.Zhan,Y.Xu,L.Bu,H.Zhu,Y.Feng,T.Yang,Y.Zhang,Z.Yang,B. [43] M.Wei,Y.Sun,J.Zhang,F.Ai,S.Xi,J.Wang,EnergyEnviron.Sci.2023,
+Huang,Q.Shao,Nat.Commun.2021,12,6261. 16,4009.
+[17] K.Mori,N.Hashimoto,N.Kamiuchi,H.Yoshida,H.Kobayashi,H. [44] B.You,N.Jiang,M.Sheng,M.-W.Bhushan,Y.Sun,ACSCatal.2016,
+Yamashita,Nat.Commun.2021,12,3884. 6,714.
+[18] Y.Yao,Z.Huang,P.Xie,S.D.Lacey,R.J.Jacob,H.Xie,F.Chen,A. [45] Y.Zhou,Z.Wang,Z.Pan,L.Liu,J.Xi,X.Luo,Y.Shen,Adv.Mater.
+Nie,T.Pu,M.Rehwoldt,Science2018,359,1489. 2018,31,1806769.
+[19] B.Wang,C.Wang,X.Yu,Y.Cao,L.Gao,C.Wu,Y.Yao,Z.Lin,Z.Zou, [46] H.-J.Song,H.Yoon,B.Ju,G.-H.Lee,D.-W.Kim,Adv.EnergyMater.
+Nat.Synth.2022,1,138. 2018,8,1802319.
+[20] D.Wu,K.Kusada,T.Yamamoto,T.Toriyama,S.Matsumura,I.Gueye, [47] Y.Ko,J.Park,J.Mo,S.Lee,Y.Song,Y.Ko,H.Lee,Y.Kim,J.Huh,S.-W.
+O.Seo,J.Kim,S.Hiroi,O.Sakata,Chem.Sci.2020,11,12731. Lee,J.Cho,Adv.Funct.Mater.2021,31,2102530.
+[21] Y.-H.Liu,C.-J.Hsieh,L.-C.Hsu,K.-H.Lin,Y.-C.Hsiao,C.-C.Chi,J.-T. [48] Z.Tang,L.Huang,W.He,P.-K.Liaw,Entropy2014,16,895.
+Lin,C.-W.Chang,S.-C.Lin,C.-Y.Wu,Sci.Adv.2023,9,adf9931. [49] Y.Fu,J.Li,H.Luo,C.Du,X.Li,J.Mater.Sci.Technol.2021,80,217.
+[22] D.Kim,S.Surendran,Y.Jeong,Y.Lim,S.lm,S.Park,J.-Y.Kim,S. [50] N.Mahmood,Y.Yao,J.W.Zhang,L.Pan,X.Zhang,J.J.Zou,Adv.Sci.
+Kim,T.-H.Kim,B.Koo,K.Jin,U.Sim,Adv.Mater.Technol.2022,8, 2018,5,1700464.
+202200882. [51] Y.Zheng,Y.Jiao,A.Vasileff,S.Z.Qiao,Angew.Chem.,Int.Ed.2018,
+[23] S.Im,D.Kim,S.Surendran,J.Choi,D.-J.Moon,J.-Y.Kim,H.Lee, 57,7568.
+D.-H.Nam,U.Sim,Curr.Opin.Electrochem.2023,39,101293. [52] J.Wei,M.Zhou,A.Long,Y.Xue,H.Liao,C.Wei,Z.J.Xu,Nano-Micro
+[24] R.Liu,M.Sun,X.Liu,Z.Lv,X.Yu,J.Wang,Y.Liu,L.Li,X.Feng,W. Lett.2018,10,75.
+Yang,Angew.Chem.2023,135,202312644. [53] G.Janani,H.Choi,S.Surendran,U.Sim,MRSBull.2020,45,539.
+[25] Q. Zhang, K. Kusada, D. Wu, T. Yamamoto, T. Toriyama, S. [54] D.Kim,J.An,S.Surendran,J.Jim,H.-Y.Jeong,S.Im,J.-Y.Kim,K.-T.
+Matsumura,S.Kawaguchi,Y.Kubota,H.Kitagawa,J.Am.Chem.Soc. Nam,U.Sim,J.ColloidInterfaceSci.2023,650,1406.
+2022,144,4224. [55] G. Janani, S. Surendran, D.-K. Lee, S. Shanmugapriya, H. Lee, Y.
+[26] S.Zhao,S.-F.Hung,L.Deng,W.-J.Zeng,T.Xiao,S.Li,C.-H.Kuo,H.-Y. Subramanian,U.Sim,Aggregate2023,5,430.
+Chen,F.Hu,S.Peng,Nat.Commun.2024,15,2728. [56] I.T.McCrum,M.T.Koper,Nat.Energy2020,5,891.
+[27] X.Xia,S.Xie,M.Liu,H.-C.Peng,N.Lu,J.Wang,M.-J.Kim,Y.Xia, [57] T.Shinagawa,A.T.Garcia-Esparza,K.Takanabe,Sci.Rep.2015,5,
+Proc.Natl.Acad.Sci.USA2013,110,6669. 13801.
+[28] K.-D.Gilroy,X.Yang,S.Xie,M.Zhao,D.Qin,Y.Xia,Adv.Mater.2018, [58] X.F.Lu,L.Yu,X.W.Lou,Sci.Adv.2019,5,aav6009.
+30,1706312. [59] Q.Hu,K.Gao,X.Wang,H.Zheng,J.Cao,L.Mi,Q.Huo,H.Yang,J.
+[29] A. Janssen, V. Pawlik, A. D. von Rueden, L. Xu, C. Wang, M. Liu,C.He,Nat.Commun.2022,13,3958.
+Mavrikakis,Y.Xia,Adv.Mater.2021,33,2103801. [60] T.Tang,X.Liu,X.Luo,Z.Xue,H.-R.Pan,J.Fu,Z.-C.Yao,Z.Jiang,
+[30] Q.N.Nguyen,E.M.Kim,Y.Ding,A.Janssen,C.Wang,K.K.Li,J. Z.-H.Lyu,L.Zheng,J.Am.Chem.Soc.2023,145,13805.
+Kim,K.A.Fichthorn,Y.Xia,J.Am.Chem.Soc.2024,146,12040. [61] E.G.Ciapina,S.F.Santos,E.R.Gonzalez,J.Electroanal.Chem.2018,
+[31] C.Wang,Z.Huang,Y.Ding,M.Xie,M.Chi,Y.Xia,J.Am.Chem.Soc. 815,47.
+2022,145,2553. [62] Q.Wu,M.Luo,J.Han,W.Peng,Y.Zhao,D.Chen,M.Peng,J.Liu,F.
+[32] J.F.Modulder,W.F.Stickle,P.E.Sobol,K.D.Bomben,Handbookof M.DeGroot,Y.Tan,ACSEnergyLett.2019,5,192.
+X-rayphotoelectronspectroscopy,Perkin-ElmerCorporation,Shelton, [63] Z.Zhuang,Y.Wang,C.-Q.Xu,S.Liu,C.Chen,Q.Peng,Z.Zhuang,
+USA1992. H.Xiao,Y.Pan,S.Lu,Nat.Commun.2019,10,4875.
+[33] J. L. Eslava, A. Iglesias-Juez, G. Agostini, M. Fernández-Garcı´a, A. [64] Y.Zuo,S.Bellani,G.Saleh,M.Ferri,D.V.Shinde,M.I.Zappia,J.
+Guerrero-Ruiz,I.Rodrı´guez-Ramos,ACSCatal.2016,6,1437. Buha,R.Brescia,M.Prato,R.Pascazio,J.Am.Chem.Soc.2023,145,
+[34] J.Chen,Y.Z.Finfrock,Z.Wang,T.-K.Sham,J.Phys.Chem.C2021, 21419.
+125,2327. [65] M.Luo,S.Guo,Nat.Rev.Mater.2017,2,17059.
+[35] S.Fang,X.Zhu,X.Liu,J.Gu,W.Liu,D.Wang,W.Zhang,Y.Lin,J.Lu, [66] Z.Xia,S.Guo,Chem.Soc.Rev.2019,48,3265.
+S.Wei,Nat.Commun.2020,11,1029. [67] R.Li,K.Xiang,Z.Peng,Y.Zou,S.Wang,Adv.EnergyMater.2021,11,
+[36] X.Zheng,J.Yang,P.Li,Q.Wang,J.Wu,E.Zhang,S.Chen,Z.Zhuang, 2102292.
+W.Lai,S.Dou,Sci.Adv.2023,9,adi8025. [68] Y.Yao,Q.Dong,A.Brozena,J.Luo,J.Maio,M.Chi,C.Wang,I.-G.
+[37] W.H.Lee,Y.-J.Ko,J.H.Kim,C.H.Choi,K.H.Chae,H.Kim,Y.J. Kevrekidis,Z.-J.Ren,J.Greeley,G.Wang,A.Anapolsky,L.Hu,Science
+Hwang,B.K.Min,P.Strasser,H.-S.Oh,Nat.Commun.2021,12, 2022,376,abn3103.
+4271. [69] J.K.Nørskov,T.Bligaard,J.Rossmeisl,C.H.Christensen,Nat.Chem.
+[38] D.Morris,Y.Yao,Y.Z.Finfrock,Z.Huang,R.Shahbazian-Yassar,L. 2009,1,37.
+Hu,P.Zhang,CellRep.Phys.Sci.2021,2,100641. [70] Z.Lu,Z.W.Chen,C.V.Singh,Matter2020,3,1318.
+[39] X.Zhang,Z.Sun,R.Jin,C.Zhu,C.Zhao,Y.Lin,Q.Guan,L.Cao,H. [71] T.A.Batchelor,T.Löffler,B.Xiao,O.A.Krysiak,V.Strotkötter,J.K.
+Wang,S.Li,Nat.Commun.2023,14,530. Pedersen, C. M. Clausen, A. Savan, Y. Li, W. Schuhmann, Angew.
+[40] T.Shibata,B.A.Bunker,Z.Zhang,D.Meisel,C.F.Vardeman,J.D. Chem.,Int.Ed.2021,60,6932.
+Gezelter,J.Am.Chem.Soc.2002,124,11989. [72] Y.Men,D.Wu,Y.Hu,L.Li,P.Li,S.Jia,J.Wang,G.Cheng,S.Chen,
+[41] F.Liu,D.Wechsler,P.Zhang,Chem.Phys.Lett.2008,461,254. W.Luo,Angew.Chem.,Int.Ed.2023,62,202217976.
+[42] R.-Q.Liu,Y.-T.Zhou,H.Shi,W.-B.Wan,Q.-H.Zhang,L.Gu,Y.-F.Zhu, [73] B.Mao,P.Sun,Y.Jiang,T.Meng,D.Guo,J.Qin,M.Cao,Angew.
+Z.Wen,X.-Y.Lang,Q.Jiang,Adv.Funct.Mater.2020,31,2009613. Chem.2020,132,15344.
+Adv.Sci.2025,12,2409023 2409023(15of15) ©2024TheAuthor(s).AdvancedSciencepublishedbyWiley-VCHGmbH
+

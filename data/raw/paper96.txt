@@ -1,0 +1,684 @@
+ScieNce Adv ANceS | ReSeAR ch AR ticle
+ELECTROCHEMISTRY copyright © 2024 the
+Authors, some rights
+MoZn- based high entropy alloy catalysts enabled dual
+reserved; exclusive
+licensee American
+activation and stabilization in alkaline oxygen evolution
+Association for the
+Advancement of
+Yunjie Mei1†, Jinli Chen1†, Qi Wang2†, Yaqing Guo1,3, Hanwen Liu1, Wenhui Shi1, Cheng Lin1, Science. No claim to
+original U.S.
+Yifei Yuan3, Yuhua Wang4*, Bao Yu Xia5*, Yonggang Yao1*
+Government Works.
+distributed under a
+It remains a grand challenge to develop electrocatalysts with simultaneously high activity, long durability, and
+creative commons
+low cost for the oxygen evolution reaction (OER), originating from two competing reaction pathways and often Attribution license 4.0
+trade- off performances. The adsorbed evolution mechanism (AEM) suffers from sluggish kinetics due to a linear (cc BY).
+scaling relationship, while the lattice oxygen mechanism (LOM) causes unstable structures due to lattice oxygen
+escape. We propose a MoZnFeCoNi high- entropy alloy (HEA) incorporating AEM- promoter Mo and LOM- active Zn
+to achieve dual activation and stabilization for efficient and durable OER. Density functional theory and chemical
+probe experiments confirmed dual- mechanism activation, with representative Co- Co†- Mo sites facilitating AEM
+and Zn- O†- Ni sites enhancing LOM, resulting in an ultralow OER overpotential (η10 = 221 mV). The multielement
+interaction, high- entropy structure, and carbon network notably enhance structural stability for durable catalysis
+(>1500 hours at 100 mA cm−2). Our work offers a viable approach to concurrently enhance OER activity and stabil-
+ity by designing HEA catalysts to enable dual- mechanism synergy.
+INTRODUCTION with oxyphilic elements such as Mo, among others (6). On the other
+Electrochemical water splitting requires highly active, long- durable, hand, the lattice- oxygen–mediated mechanism (LOM) occurs via
+and cost- effective catalysts to meet the increasing needs for large- the O─O coupling of O* with lattice oxygen of oxides and does not
+scale green hydrogen production and renewable energy storage, par- involve the *OOH intermediate species, which overcomes the LSR
+ticularly for the sluggish and corrosive oxygen evolution reaction constraint and results in much better theoretical OER activity (8). For
+(OER). Co- , Ni- , and Fe- based catalysts have been considered as instance, Zn was incorporated to partially replace Co in CoOOH to
+potential candidates to replace noble metals due to their tunable 3d activate the lattice oxygen by weakening the Co─O bonds. Never-
+electron configuration and spin state, versatility in terms of crystal theless, the resultant surface oxygen vacancies in the catalysts can
+and electronic structures, as well as abundance in nature (1, 2). How- lead to severe structural reconstruction and therefore insufficient
+ever, owing to the highly oxidative and corrosive conditions, Co-, Ni-, stability (e.g., ~40 hours at 20 mA cm−2) (1).
+and Fe-b ased alloy catalysts undergo destructive reconstruction and Obviously, catalysts with either AEM or LOM present a trade-o ff
+are prone to erosion during long-t erm OER, thus jeopardizing their in activity and stability. It is, therefore, crucial to delicately control
+practical implementation (3, 4). Thus far, it remains a grand chal- the reaction pathway between AEM and LOM to realize optimiza-
+lenge to develop advanced OER electrocatalysts with simultaneously tion between activity and stability or ideally achieve dual activation
+high activity and long- term durability. and stabilization of AEM and LOM toward the next generation of
+In electrochemical OER, there are two major reaction mecha- highly efficient OER catalysts (9). High- entropy alloy (HEA) cata-
+nisms as guiding principles for catalyst development. Generally, OER lysts are an emerging material platform that has received extensive
+proceeds on Co-, Ni-, and Fe-b ased alloys via four concerted proton- attention due to their unique structural features, including the high-
+electron transfer steps, also known as the adsorbate evolution mech- entropy effect, lattice distortion, slow diffusion, and the “cocktail
+anism (AEM) (5, 6). Hence, the OER activity is mainly influenced by effect” (10–13). These properties endow HEAs with simultaneously
+the adsorption energetics of the oxygen intermediates (O*, OH*, and outstanding structural stability and active site tunability. Intuitively,
+OOH*) on the catalysts, which follow the Sabatier principle and the by rational composition design, the multielement synergy can simul-
+linear scaling relation (LSR), rendering a minimum theoretical over- taneously activate both AEM and LOM, while the high entropy con-
+potential of ~370 mV even for the best possible material (7). A figuration can largely improve stability (1, 14). Yet, the preparation
+common strategy to promote the AEM pathway is to regulate the of HEA typically requires high- temperature alloying, while the un-
+adsorption energetics of the oxygen intermediates by alloying FeCoNi controlled pyrometallurgy can easily lead to particle sintering, phase
+separation (such as MoC formation, ΔG carburization = −94.2 kJ/mol),
+and severe volatilization (such as Zn, >10- Pa vapor pressure at
+1State Key laboratory of Materials Processing and die & Mould technology, School of
+1200°C), making these desirable HEA catalysts (dual activation and
+Materials Science and engineering, huazhong University of Science and technology,
+Wuhan 430074 china. 2Science and technology on Surface Physics and chemistry stabilization) remain unexplored or underdeveloped (15–17).
+laboratory, Mianyang, Sichuan 621908, china. 3college of chemistry and Materials Here, we report the rational incorporation of AEM- promoter
+engineering, Wenzhou University, Wenzhou, china. 4hubei Province Key laboratory
+Mo and LOM-a ctive Zn into FeCoNi alloy, achieving MoZn-b ased
+of Science in Metallurgical Process, Wuhan University of Science and technology,
+Wuhan 430081, china.5Key laboratory of Material chemistry for energy conversion HEA (MoZnFeCoNi) catalysts that show superior OER activity and
+and Storage (Ministry of education), School of chemistry and chemical engineering, particularly long- term stability, owing to the dual activation and sta-
+huazhong University of Science and technology, Wuhan 430074, china.
+bilization of AEM and LOM (Fig. 1A). Specifically, by density func-
+*corresponding author. email: yaoyg@ hust. edu. cn (Y.Y.); byxia@ hust. edu. cn (B.Y.X.);
+wangyuhua@ wust. edu. cn (Y.W.) tional theory (DFT) calculation, compared to FeCoNi showing higher
+†these authors contributed equally to this work. reaction energy barriers (AEM: 0.555 eV and LOM: 0.595 eV),
+Mei et al., Sci. Adv. 10, eadq6758 (2024) 20 November 2024 1 of 13
+
+ScieNce Adv ANceS | ReSeAR ch AR ticle
+Fig. 1. The design of MoZn- based HEA for dual activation and stabilization in OER. (A) Schematic of FecoNi showing sluggish AeM and MoZn-b ased heA with dual
+activation of AeM and lOM. (B) calculated limiting energy barriers in different OeR mechanisms, proving the dual activation in MoZnFecoNi. (C) comparative analysis of
+catalyst activity and stability following recent literature.
+MoZn-b ased HEA exhibits much lower energy barriers for both AEM Zn evaporation. The ligand coordination largely avoids rapid Zn
+and LOM (AEM: 0.438 eV and LOM: 0.430 eV; Fig. 1B), where evaporation during the alloying process and eventually forms a hier-
+Co-C o†-M o sites largely facilitate AEM to enable rapid deprotonation, archically porous structure with a three-d imensional (3D) intercon-
+while Zn-O †- Ni sites follow LOM and can trigger efficient O─O nected carbon framework, which is deemed beneficial for active site
+coupling, thus proving dual activation. The multielement interaction exposure, mass transport, and catalyst stability.
+(e.g., MoNi and ZnNi pairs), entropy stabilization, and the 3D car- In detail, first, the 2,5- dihydroxyterephthalic acid (H DOBDC)
+4
+bon network are critical to stabilizing the whole structure for long ligand with various metal ions including Ni2+, Fe3+, Co2+, MoO −,
+4
+durable OER. As a result, the MoZn-b ased HEA shows an ultralow and Zn2+ were assembled as the building blocks of the MoZnFeCoNi
+overpotential of 221 mV at 10 mA cm−2 and outstanding long- term high- entropy MOF, where the metal sites are spatially confined in
+stability with negligible activity loss at 100 mA cm−2 for >1500 hours, the MOF structure. Then, carbothermal shock (CTS) pyrolysis (i.e.,
+considerably superior to its counterpart without Mo/Zn and other 1200°C for 0.1 s) could trigger instant MOF decomposition and car-
+HEA anodes (Fig. 1C). This work thus offers an approach to enable bonization, while the short duration is critical to avoid severe metal
+dual activation and stabilization of OER mechanisms in HEA cata- evaporation (e.g., Zn) and carbide formation (e.g., Mo C). Mean-
+2
+lysts and serves as a feasible strategy to concurrently enhance OER while, the rapid pyrolysis inherits the multiscale porous structure of
+activity and stability. the MOF and results in a unique hierarchically porous architecture
+interconnected by a 3D carbon framework, forming MoZnFeCoNi
+HEA by spatiotemporal confined synthesis (i.e, ST- HEA). Control
+RESULTS samples were also prepared, including (i) precursor metal ions with-
+Although Mo and Zn are beneficial for OER, they are usually hard out ligand or MOF formation followed by thermal shock pyrolysis
+for single phase alloys because of either the oxidation or carburiza- (i.e., only temporal confinement, named T- HEA) and (ii) MOF pre-
+tion reaction in Mo and the easy volatility of Zn at high tempera- cursor pyrolyzed by furnace heating at 1000°C for 3 hours under Ar
+tures. For example, the vapor pressure of Zn is >10 Pa at 1200°C, atmosphere (i.e., only spatial confinement, named S- HEA).
+indicating serious volatility. This is in sharp contrast to typical X- ray diffraction (XRD) analysis was conducted on catalysts syn-
+FeCoNi, with a vapor pressure of 10−8 Pa. Therefore, we specifi- thesized using various strategies (Fig. 2, B to D). As shown in Fig.
+cally designed a spatial- temporal confined strategy by combining 2B, the XRD patterns of ST- HEA illustrate a clear face- centered
+spatially confined precursors [e.g., MoZnFeCoNi metal nodes in cubic (FCC) structure with distinct diffraction peaks attributed to
+metal- organic frameworks (MOFs)] and temporally precise thermal (111), (200), and (220) planes. Especially, compared with the dif-
+shock pyrolysis (e.g., 1200°C, 0.1 s) to synthesize MoZn-b ased HEA fraction peaks of Fe- based alloy and Ni- based alloy, the position
+(Fig. 2A) (18). The initial high-e ntropy MOF structure benefits facile of the diffraction peaks of the ST- HEA is shifted. Furthermore, the
+alloying as these metal elements are already highly mixed at the atomic other peaks can be assigned to commercial carbon paper (CP) sub-
+scale in the precursor. Meanwhile, a rapid thermal shock process strate. This proves that these elements were successfully introduced
+is used so that the high temperature is essential to trigger uniform into the nanocatalysts to form a single-p hase HEA structure. How-
+alloying while the short duration avoids potential Mo reaction and ever, without the proper spatial or temporal confinement, T-H EA
+Mei et al., Sci. Adv. 10, eadq6758 (2024) 20 November 2024 2 of 13
+
+ScieNce Adv ANceS | ReSeAR ch AR ticle
+Fig. 2. Synthesis and structural characterization of MoZn- based HEA and control samples. (A) considering easily reactive Mo and Zn, the spatial- temporal confined
+synthesis offers advantages in the synthesis of MoZn-b ased heA catalysts. (B to D) XRd analysis and (E) the Zn content measured by x-r ay photoelectron spectroscopy
+(XPS) and inductively coupled plasma optical emission spectrometer (icP- OeS) of St- heA, t- heA, and S- heA. (F) N2 adsorption- desorption isotherms of different samples
+and (G) Brunauer, emmett, and teller (Bet) values for high- entropy catalysts recently reported in the literature. a.u., arbitrary units.
+and S-H EA lead to obvious second phases, as indicated in the XRD alloy catalysts (Fig. 2G and table S2), benefited by the inherited 3D
+of carbides and other phases (Fig. 2, C and D). To further investigate porous structure from the rapid pyrolysis of MOF (19).
+the content of volatile Zn, x-r ay photoelectron spectroscopy (XPS) The morphology and elemental distribution of MoZn-b ased HEA
+was performed. The content ratio of the Zn element in ST- HEA, were examined by scanning electron microscopy (SEM), transmis-
+T- HEA, and S- HEA are determined as 5.75, 1.05, and 0%, respec- sion electron microscopy (TEM), and energy- dispersive x- ray spec-
+tively (Fig. 2E and table S1). In addition, the bulk composition is troscopy (EDS). As shown in Fig. 3A, the high- entropy MOF
+also confirmed by the inductively coupled plasma optical emission precursor exhibits a flower- like structure composed of staggered
+spectrometer (ICP-O ES). It can be seen that the volatile element Zn and overlapping sheets with a large surface area, which serves as the
+can be retained to the greatest extent by our spatial- temporal con- basis for the formation of the hierarchical structure in HEA. More
+fined synthesis, which is consistent with the XPS results (Fig. 2E specifically, elemental EDS mapping of the HEM confirms that six
+and table S1). These results further prove the successful synthesis elements, C (yellow), Fe (red), Co (purple), Ni (blue), Mo (green),
+of MoZn- based HEA by spatial- temporal confinement that avoids and Zn (light green) are homogeneously distributed over the selected
+element evaporation and easy side reactions. particle area, as depicted in Fig. 3, B and C. After the MOF precursor
+Furthermore, the ST- HEA catalysts inherit the high specific sur- was converted to ST-H EA, the SEM result in Fig. 3D showed the
+face area of MOF, which is revealed by the N isothermal adsorption- shape of a highly porous sphere self- assembled by numerous
+2
+desorption isotherm. As shown in Fig. 2F, the surface area of the nanoparticles connected by the carbon framework (derived from
+ST- HEA was analyzed by the BET (Brunauer, Emmett, and Teller), the pyrolyzed ligand in the MOF precursor). EDS mapping of
+showing an exceptional BET surface area of 139.25 m2/g, higher ST- HEA demonstrates that the five elements are homogeneously
+than T- HEA (3.45 m2/g) and S- HEA (81.61m2/g). The BET surface dispersed without element segregation after pyrolysis at high tem-
+of ST- HEA is outstanding among alloy particles derived from con- peratures (Fig. 3E). Also, the real composition of MOF precursor
+ventional pyrolysis (86.21 m2/g) and various reported high- entropy and ST- HEA are shown in table S3.
+Mei et al., Sci. Adv. 10, eadq6758 (2024) 20 November 2024 3 of 13
+
+ScieNce Adv ANceS | ReSeAR ch AR ticle
+Fig. 3. Detailed characterization of MoZn-b ased HEA. (A) SeM image of high- entropy MOF and (B) edS mapping of Fe, co, Ni, Mo, Zn, c, and N elements with uniform
+dispersions. (C) teM images of high- entropy MOF. (D) SeM images of St- heA. (E) edS mapping images of Fe, co, Ni, Mo, Zn, c, and N elements with uniform dispersions.
+(F) Particle size distribution of St- heA. (G) teM of a single multilayered St- heA. (H) edS mapping of Fe, co, Ni, Mo, Zn, c, and N elements with uniform dispersions.
+(I) hRteM images of heA present the heAs encapsulated by the carbon shell layer. (J) OeR polarization curves, (K) eiS Nyquist plots, and (L) the comparison of the over-
+potential at 10 mA cm−2 and charge transfer resistance (Rct) of St- heA, S- heA, high- entropy MOF, and t- heA catalysts.
+A more detailed microstructure of the ST- HEA was analyzed higher activity by enabling MoZn-HEA. Electrochemical imped-
+by TEM in Fig. 3F, where ST- HEA displays a uniform nanoparticle ance spectroscopy (EIS) analysis was performed to probe the charge
+morphology with a size of 12.81 ± 0.19 nm, interconnected by the transfer phenomena at the catalyst-e lectrolyte interface. In Fig. 3K,
+carbon framework. These nanoparticles also demonstrate a uniform Nyquist plots consist of two semicircles, the former signifies the
+element distribution to indicate HEA formation throughout the struc- electron transfer from catalyst to the working electrode, while the
+ture (Fig. 3, G and H). In the high- resolution image (Fig. 3I and fig. latter reflects the electron- mediated electrochemical oxidation of
+S1), the lattice fringes were identified as 0.205 nm, ascribed to the water molecules. The charge transfer resistance (R ) of ST- HEA
+ct
+(111) crystal face of HEA. Notably, a thin carbon shell (derived from is 2.5 ohm, far lower than control materials, thus demonstrating
+the MOF template) covers the alloy particles seamlessly. Such a highly a much faster charge transfer during the OER process on ST-H EA,
+porous structure enables full exposure of active sites and electrolyte which can be attributed to the hierarchically porous structure
+penetration for improved catalytic performance. The interconnected and graphitized carbon shells (Fig. 3L). This result further illus-
+carbon framework is also important to protect the HEA catalysts trates that the porosity of the ST- HEA is expected to supply more
+from easy dissolution during long OER catalysis. catalytic active sites, leading to the enhancement of their charge
+To emphasize the significance of the spatial- temporal confined and mass transport.
+synthesis, the electrocatalytic OER activity of ST-H EA and other con- To explore the role of incorporating Mo and Zn in HEA on the
+trol catalysts were tested in a three-e lectrode system in N - saturated OER activity, the performances of MoZnFeCoNi, FeCoNi, ZnFeCoNi,
+2
+1.0 M KOH solution at room temperature (Fig. 3, J to L). The ST- MoFeCoNi (all synthesized by the same method), commercial IrO
+2
+HEA presents the earliest current response compared with T-H EA catalysts, and nickel foam (NF) were studied for OER under the
+and S- HEA. The ranking (Fig. 3J) of overpotential (η) at 10 mA same conditions (Fig. 4A). According to the polarization curves
+cm−2 is as follows: ST- HEA (221 mV) < T-H EA (242 mV) < S- HEA shown in Fig. 4A and fig. S3, the MoZnFeCoNi catalyst exhibits the
+(276 mV). Notably, despite the surface carbon coating, our ST-H EA lowest overpotential of 221 mV at a current density of 10 mA cm−2
+shows better activity than T-H EA (without carbon), suggesting better compared to that of the FeCoNi (300 mV), ZnFeCoNi (277 mV),
+dispersion by the carbon coating and nonpoisoning of the active sites MoFeCoNi (278 mV), commercial IrO (337 mV), and NF (391 mV).
+2
+(fig. S2). These results suggest that our strategy could contribute to Impressively, the obtained MoZnFeCoNi catalyst achieves an ultralow
+Mei et al., Sci. Adv. 10, eadq6758 (2024) 20 November 2024 4 of 13
+
+ScieNce Adv ANceS | ReSeAR ch AR ticle
+Fig. 4. The electrocatalytic properties of the prepared catalysts and commercial catalysts. (A) iR- corrected polarization curves at 10 mA cm−2 and (B) tafel plots of
+the MoZnFecoNi, ZnFecoNi, MoFecoNi, and FecoNi catalysts in 1.0 M KOh solution at room temperature. (C) Nyquist plots of the MoZnFecoNi, irO2, and NF eiS. (D) com-
+parison of overpotentials at 10 mA cm−2 for MoZnFecoNi catalyst with recently reported high- entropy OeR electrocatalysts in 1.0 M KOh. (E and F) in situ Raman spectra
+collected on MoZnFecoNi for the OeR in 1 M KOh. (G) XPS analysis of the catalyst before and after OeR activation of O 1 s. (H) Schematic representation of the surface
+reconstruction and dual activation of OeR mechanisms of MoZnFecoNi composite after OeR activation. (I) corresponding edX mapping images of MoZnFecoNi.
+overpotential of 341 mV at a high current density of 500 mA cm−2, than that of the commercial IrO 2 (18.3 ohm), demonstrating the
+indicating great potential for practical application. The Tafel slope highest electronic conductivity and much faster charge transfer
+of the MoZnFeCoNi catalyst (48.78 mV dec−1) is also lower than during the electrochemical OER process. Given the low overpoten-
+that of IrO (109.41 mV dec−1) (Fig. 4B), confirming a faster OER tial at 10 mA cm−2, the OER activity of MoZnFeCoNi also surpasses
+2
+kinetics on the MoZnFeCoNi catalyst. many recently reported OER high- entropy electrocatalysts, as sum-
+It is known that the electrochemically active surface area (ECSA) marized in Fig. 4D and table S4 (3, 20–36). To further optimize
+of the electrocatalyst is proportional to the electrochemical double- the OER performances, different MoZn ratios in MoZn- based HEA
+layer capacitance (C ), which can be evaluated by measuring the were prepared. As shown in fig. S8, as Zn increases, the OER activity
+dl
+scan rate–dependent cyclic voltammetry (CV) in the non- Faraday first increases and then decreases. This result shows that by tuning
+region (figs. S4 and S5). As shown in fig. S6, the measured C value the MoZn ratios, the OER properties can accordingly change and
+dl
+of the MoZnFeCoNi catalyst is 11.84 mF cm−2, which is a bit higher the proper MoZn ratio leads to optimal OER activity. This may be
+than that of IrO (6.04 mF cm−2) catalysts. We then compared the balanced by increasing Zn to trigger efficient LOM yet without com-
+2
+ECSA- normalized OER activities of the catalysts, which still follow promising the structural integrity and exposure of AEM active sites.
+the order of MoZnFeCoNi > ZnFeCoNi > MoFeCoNi > FeCoNi Moreover, excessive Zn or LOM can cause structural destabiliza-
+(fig. S7). These results indicated that the intrinsic OER activity of tion and poor activity (1). These results confirmed the dual activa-
+MoZnFeCoNi is still superior to that of other control samples, sug- tion in MoZnFeCoNi HEA, which facilitates both AEM and LOM to
+gesting improved OER kinetics from the catalysts consideration. achieve a balance of activity and stability.
+To further illustrate the electrode reaction kinetics, EIS was per- To identify the actual OER active sites of MoZnFeCoNi, in-s itu
+formed for the above samples. As shown in Fig. 4C, the Nyquist and operando Raman spectra were performed using a customized
+plots reveal that MoZnFeCoNi has the lowest R of about 2.5 ohm electrochemical cell, as shown in Fig. 4E. At 0 to 1.20 V versus a
+ct
+at the overpotential of 300 mV in 1.0 M KOH, which is much smaller reversible hydrogen electrode (RHE), MoZnFeCoNi did not show
+Mei et al., Sci. Adv. 10, eadq6758 (2024) 20 November 2024 5 of 13
+
+ScieNce Adv ANceS | ReSeAR ch AR ticle
+spectral peaks, indicating that the catalyst had not been oxidized at Figure 5B shows the partial density of states (PDOS) of the sur-
+this voltage. With an increase in the applied voltage from 1.2 to 1.4 V face atoms in the MoZnFeCoNiOOH model, where the results of
+versus RHE or the residence time of the catalyst in the electrolyte, FeCoNiOOH without MoZn are also presented. The strong d-d
+as a general trend, a pair of bands at 473.0 and 552.4 cm−1 appeared Coulomb interaction splits the d orbitals into a filled lower Hubbard
+on the as- prepared catalysts assigned to M- O vibrations in M- OOH band (LHB) and an empty upper Hubbard band (UHB) (1). The
+(M = Fe, Co, Ni, Mo, Zn) (Fig. 4, E and F), indicating the structural centers of LHB and UHB of the surface as well as each element type
+reconstruction of catalyst during the OER process. In addition, are calculated and presented in table S7 (Materials and Methods).
+in situ Raman can also observe changes in reaction intermediates We find that Co atoms have the highest LHB center, and the states
+during the OER process (37, 38). The other three peaks at 808, near E are mainly contributed by Co atoms (Fig. 5B). This is in
+fermi
+914, and 980 cm−1 are all characteristic peaks of oxygen-c ontaining accordance with our results showing that Co sites demonstrate the
+intermediates (O*, OH*, and OOH*). Moreover, the Raman peak lowest AEM overpotential. After adding Mo and Zn, the overall LHB
+at 1063 cm−1 is regarded as *O
+2
+− gradually becoming stronger and center downshifts from −4.342 to −4.794 eV. Meanwhile, the O- 2p
+sharper with the potential increasing, which may be an intermediate band upshifts from −2.480 eV of the FeCoNiOOH to −2.210 eV of
+product of activated lattice oxygen (Fig. 4, E and F). The presence of the MoZnFeCoNiOOH (Fig. 5B). The downward shift of the LHB
+oxygen-c ontaining intermediates and *O
+2
+− species indicates AEM center and the upward shift of the O-2 p center in MoZnFeCoNiOOH
+and LOM dual activation in the MoZnFeCoNi OER process. lead to a reduced overlap between the metal d orbitals and O- 2p orbit-
+High- resolution XPS was used to further explore the structure of als, which weakens the metal-o xygen bond and can trigger the LOM
+the catalyst after activation. Compared to ST-H EA before activation, mechanism (1, 8, 43). Fig. 5 (C and D) presents a comparison of the
+the ratios of Fe0/Fe2+ (about 1.501), Co0/Co2+ (about 1.204), Ni0/Ni2+ charge density difference of MoZnFeCoNiOOH and FeCoNiOOH,
+(about 1.56), Mo0/Mo2+ (about 1.59), and Zn0/Zn2+ (about 1.510) and Fig. 5E shows a statistical analysis of Bader charges on the sur-
+for ST- HEA after the activation test are slightly decreased (fig. S9). face metal sites. We observe notable charge depletion around the Mo
+Meanwhile, Fig. 4G shows the three oxygen peaks at 530.2, 531.7, atoms (Fig. 5C), and the Bader charges are ~2.67, reflecting a high-
+and 532.8 eV that represent lattice oxygen (M-O ), defective oxygen valence state. Zn adopts a low-v alence Zn2+ state with a completely
+(M- OH), and adsorbed oxygen species (M-O OH), respectively. The filled 3d electron shell. This results in electron localization around
+high- resolution XPS survey spectrum after the activity test for the the O atom along the Zn─O bond and weakens the bond strength
+MoZnFeCoNi catalyst reveals the presence of M- O (23.58 atomic (Fig. 5C). Compared to that of FeCoNiOOH, the average Bader
+%), suggesting that the metals are gradually oxidized to generate charges of Fe, Co, and Ni sites overall decrease (Fig. 5D), and their
+MOOH, which is considered to be the true catalytic species of OER SDs notably increase. This change is in accord with previous reports
+(table S5) (39, 40). This result is consistent with the results of Raman when adding high-v alence elements into oxyhydroxide (44). This re-
+spectroscopy (Fig. 4, G and H). The content of MoZn- based HEA distribution modulates the electronic structures of both the metal
+after activation exhibits slight dissolution due to metal recon- and O sites (Fig. 5B), which is crucial for optimal OER performances.
+struction to corresponding oxides or hydroxides (table S6). The Next, the OER performances of active sites in MoZnFeCoNiOOH
+activated HEA was characterized by corresponding high- resolution and FeCoNiOOH are examined by DFT calculations, with both AEM
+TEM (HRTEM) and EDX mapping. The superposition of the in- and LOM pathways considered (Materials and Methods). For the
+verse fast Fourier transform images, plotted using the blue and red M -M †-M arrangement in the AEM scenario, Co atoms exhibit
+1 2 3
+reflection points corresponding to MOOH and HEA matrix in fig. the highest LHB center, and the states near the Fermi level are pre-
+S10, confirms that the actual OER active sites of MoZnFeCoNi are dominantly contributed by Co 3d electrons (Fig. 5B), signifying Co
+MOOH (Fig. 4I). as the primary active site. Hence, we focus on the Co atom as the
+DFT calculations are conducted to clarify the OER mechanisms active center (M 2 = Co) and explore the impact of neighboring at-
+of MoZnFeCoNi. Generally, OER electrocatalysts reconstruct into oms (M 1 , M 3 = Mo, Zn, Fe, Co, and Ni) on its OER performance.
+(oxy)hydroxides on their surface, with MOOH functioning as the We investigated C2 5 = 10 scenarios, with M 1 and M 3 involving a pair
+actual catalytic material (1, 41). Consequently, MoZnFeCoNiOOH from the five elements (pairs where M and M that are identical are
+1 3
+is used as a representative model. We construct a model featuring an not considered here), which can be categorized into two groups:
+interior of β-N iOOH with surface-d oped with MoZnFeCo (as shown (i) pre- existing combinations such as Fe- Co†-N i, Fe-C o†-C o, and
+in Fig. 5A) based on the high content of Ni in the alloy (Fig. 2I), and Co–Co†-N i, which are also present in FeCoNiOOH and (ii) new com-
+select the widely studied lateral (0112) facets for investigation (42). binations such as Mo-C o†- Fe, Mo- Co†- Co, Mo- Co†- Ni, Mo- Co†- Zn,
+Spin- polarized DFT + U calculations with Grimme’s D3 correction Zn- Co†- Fe, Zn- Co†- Co, and Zn- Co†- Ni, arising from the addition
+are performed (Materials and Methods). Both AEM and LOM path- of Mo and Zn. The slab models, intermediate adsorption configura-
+ways are considered to identify the active sites. As depicted in tions (*O, *OH, and *OOH) and the Gibbs free energies diagrams
+Fig. 5A, the five- coordinated unsaturated metal sites (M ) act as for each combination are presented in fig. S11. When the Co site
+5c
+active sites for AEM, while the two- coordinated oxygen atoms (O ) is adjacent to Co and Mo and forming a Co- Co†- Mo site, the over-
+2c
+can engage in the OER via the LOM pathway. In the AEM pathway, potential can be lowered to 0.438 V (Fig. 5, F and G). This is caused
+not only the center metal atom (denoted as M
+2
+) but also adjacent by the slight increase in the energy cost of adsorbing *OH, which
+metal atoms M and M influence the reaction. This M -M †-M becomes the potential- determining step (PDS) but optimizes the
+1 3 1 2 3
+arrangement is crucial for the AEM analysis, where the active site is overall overpotential by facilitating the conversion from *OH to *O
+decorated with †. For the LOM pathway, the M -O †-M arrange- (Fig. 5G). In the FeCoNiOOH case, the Ni-C o†- Fe site shows the
+1 2
+ment is critical, with the metals adjacent to the O atom playing lowest overpotential (0.555 V), and the PDS is the deprotonation
+2c
+substantial roles. of *OH (Fig. 5G).
+Mei et al., Sci. Adv. 10, eadq6758 (2024) 20 November 2024 6 of 13
+
+ScieNce Adv ANceS | ReSeAR ch AR ticle
+Fig. 5. DFT calculation and mechanism analysis in the OER process. (A) Model of the MoZnFecoNiOOh (0112) facet for dFt calculations. the blue and green circles
+denote the active sites for AeM and lOM pathways. the coordination of metal and oxygen atoms is marked, where 5c, 3c, and 2c represent five-, three-, and twofold coor-
+dination. the M1- M2*- M3 and M1- O*- M2 are the arrangements that are critical to AeM and lOM performance. (B) PdOS of surface Fe, co, Ni, Mo, Zn, and O atoms in the
+MoZnFecoNiOOh model, where the results of FecoNiOOh are presented as gray lines. (C and D) Slab model and charge density difference of MoZnFecoNiOOh and
+FecoNiOOh. Yellow and blue colors represent electron accumulation and depletion, respectively, with an iso-s urface value of 0.02 eÅ−3. (E) Statistical analysis of Bader
+charges at sites on the outer surface of MoZnFecoNiOOh (solid dots) and FecoNiOOh (open dots). the dot and error bar show the average and Sd of the Bader charges.
+(F and G) AeM pathway and the corresponding Gibbs free energy diagram of OeR steps of the co- co*-M o site. the free energies are obtained at 1.23 v versus Rhe. the free
+energy diagram of FecoNiOOh is presented for comparison. (H and I) lOM pathway and the corresponding Gibbs free energy diagram of OeR steps of the Zn- O*-N i site.
+(J) Relationship between the overpotential in the MOR and the current difference leading to the filled area in catalysts. (K) lSv curves of FecoNi and MoZnFecoNi in 1.0 M
+KOh and 1.0 M tMAOh, respectively. (L) Relationship between the logarithm of the current density of MoZnFecoNi and FecoNi at the potential of 1.5 v versus Rhe and ph.
+As to the LOM pathway, the O atoms between different metals Zn- Co†- Ni, stemming from the inclusion of Mo and Zn. The single-
+serve as the active centers, denoted as M - O†- M . We also investi- site LOM pathway that involves the formation and refilling of lattice
+1 2
+gated 10 scenarios to explore the neighboring effects: (i) pre-e xisting oxygen vacancy is considered (Materials and Methods). The detailed
+combinations such as Fe-O †- Ni, Fe- O†- Co, and Co- O†- Ni, common results for these M - O†- M combinations are presented in fig. S12.
+1 2
+in FeCoNiOOH and (ii) new combinations such as Mo- O†- Fe, The new inclusion of Zn introduces the Zn-C o†- Ni and Zn- Co†- Co
+Mo-O †-C o, Mo-O †-N i, Mo-O †-Z n, Zn-C o†-F e, Zn-C o†-C o, and sites, which show optimal overpotentials of 0.430 V and 0.538 V,
+Mei et al., Sci. Adv. 10, eadq6758 (2024) 20 November 2024 7 of 13
+
+ScieNce Adv ANceS | ReSeAR ch AR ticle
+respectively (Fig. 5, H and I, and fig. S12). These improvements are amount of oxygen- containing intermediates during OER, thus
+attributed to the upshift of the O-2 p band center and the weakening proving the effective triggering of the LOM, while FeCoNi shows
+of Zn─O bonds, which enhances the activity of lattice oxygen. For minimum change and does not trigger LOM. Meanwhile, because
+the FeCoNiOOH, the PDS is the first step namely the attack of LOM is a nonconcerted proton-e lectron transfer pathway and exhib-
+the hydroxyl group, yielding an overpotential of 0.595 V (Fig. 5I). its strong pH-dependent OER activity, we also investigated the pH-
+This overpotential is higher than that of the AEM case (0.555 V), dependent OER activity of the MoZnFeCoNi, FeCoNi, ZnFeCoNi,
+indicating that LOM is not favored in FeCoNiOOH. In the case and MoFeCoNi. As displayed in Fig. 5L, the OER activity of
+of MoZnFeCoNiOOH, the overpotentials of AEM and LOM, i.e., MoZnFeCoNi was highly dependent on the pH of the electrolyte,
+0.438 V and 0.430 V, are quite comparable, suggesting a large pos- whereas this pH dependence was very weak on catalysts without
+sibility of dual activation of these pathways. This synergy uses both Mo and Zn, further suggesting LOM in MoZnFeCoNi. Therefore,
+metal and oxygen atoms as active sites, notably increasing the OER the above experimental results (methanol probe, TMA probe, and
+performance. We also would like to note that our investigated sites pH dependence) confirm the dual activation of AEM and LOM in
+are still restricted, and the reported dependency of OER perfor- MoZnFeCoNi HEA.
+mance on elemental combinations represents a general trend. The Besides the superior catalytic activity, long-t erm operational sta-
+catalytic performance can also be influenced by the intricate bond bility is undoubtedly another important performance parameter
+lengths, angles, and potentially the local environments within a cut- that affects the wide application of OER electrocatalysts (4). In this
+off distance of up to 5 to 10 Å. In the future, we plan to construct work, we assessed the stability of MoZnFeCoNi using a chronopo-
+a larger dataset and use a machine learning–assisted approach to tentiometry (CP) method by applying a voltage that maintains a cur-
+build a more comprehensive relationship. Despite this, our findings rent density of 100 mA cm−2 in a 1.0 M KOH electrolyte. As shown
+still provide useful insights into the general trend of chemical im- in Fig. 6A, the MoZnFeCoNi demonstrated a sustained catalytic ac-
+pact on OER mechanisms. tivity for >1500 hours, representing a substantial improvement over
+To experimentally confirm the dual mechanism activation, the commercial IrO (only lasting for 24 hours). Moreover, the stability
+2
+methanol oxidation reaction (MOR) and the tetramethylammoni- of the catalyst at this current density exceeds that of most cata-
+um cation (TMA+) molecular probe were used to investigate the lysts reported so far (typically <100 hours) (table S8). The stability
+oxygen transfer path under AEM or LOM dominance. Three oxygen- of MoZnFeCoNi, ligandless MoZnFeCoNi (i.e., no carbon shell),
+containing intermediates *OH, *O, and *OOH (* refers to the FeCoNi, and FeCoNiZn (i.e., less intermetallic bonding and entropy
+surface ctive site) are generated during the four- electron transfer effect) were further evaluated by maintaining a current density of
+process of OER during AEM (2). The nucleophilic reagent methanol 500 mA cm−2. From Fig. 6B, the potential of the MoZnFeCoNi is
+can easily adsorb the electrophilic reagent *OH in the process of almost unchanged after 800 hours stability tests at 500 mA cm−2.
+OER, which forms a competitive relationship with the adsorption In contrast, the apparent activity of ST-F eCoNi starts to deteriorate
+of *OH by OER. Therefore, the MOR is considered as an electronic rapidly after 100 hours, suggesting the importance of MoZn incor-
+probe assaying the adsorption of OER intermediates, that is, the in- poration and the formed HEA structure. Meanwhile, the stability
+crease of current density in MOR is positively correlated with the of ligandless MoZnFeCoNi also decreased gradually over time.
+coverage of intermediate *OH. These results suggest the importance of carbon coating and MoZn
+We then probed the MOR and *OH adsorption for MoZnFeCoNi, incorporation for improved OER stability. Particularly, it seems that
+individual elements, and other catalysts by CV (figs. S13 and S14). multielement interaction and the high- entropy structure (after re-
+The filled areas between the LSV curves with and without methanol construction) contribute more to the improved durability.
+were calculated to reflect the extent of surface coverage of *OH To verify the practical application potential, the MoZn-H EA and
+(S MoZnFeCoNi = 5.27, S FeCoNi = 1.06, S MoFeCoNi = 5.83, S ZnFeCoNi = 4.35, commercial Pt/C electrodes were directly used as the anode and
+S Fe = 0.37, S Co = 3.51, S Ni = 5.92, and S Mo = 1.91, and S Zn = 0.09). cathode for assembling anion-e xchange-m embrane water electrolyzer
+With an increase in the adsorption of the reaction intermediate *OH, (AEMWE). The polarization curves show that a MoZn-HEA–based
+the OER electrocatalytic activity of these catalysts exhibits a AEMWE device only needs 1.91 V to reach an industrial current
+volcano- like trend (Fig. 5J), where the MoZnFeCoNi shows the density of 1000 mA cm−2. The stability curve of the MoZn- HEA
+highest OER activity and moderate *OH adsorption. According to electrolyzer exhibits a well- maintained cell voltage over 350 oursh
+Sabatier’s principle, excessively strong or weak adsorption is not at 1000 mA cm−2 in 1.0 M KOH at 50°C (fig. S16). The superior
+conducive to efficient catalysis, and the moderate adsorption in durability of MoZn- HEA may be due to the hierarchical carbon
+MoZnFeCoNi proves its optimal OER reactivity through the acti- shell connecting all catalysts as well as the increased multielement
+vated AEM process. interaction and the high-e ntropy stabilization. Our findings indicate
+On the other hand, in the LOM route, due to direct O─O cou- that the MoZn- HEA has notable potential for commercial applica-
+pling bypasses, the correlated intermediate adsorption in the AEM, tions in AEMWE.
+superperoxo- like (O−), and peroxo-l ike (O 2−) species was generated. The corrosion resistance of the catalysts was evaluated using po-
+2 2
+On the basis of this phenomenon, the TMA+ can be introduced as a tentiodynamic polarization (PDP) curves. The PDP curves (Fig. 6C)
+chemical probe to trace these negatively charged oxygen-containing describe that MoZnFeCoNi and FeCoNi have similar electrochemi-
+species by binding strongly to the negative intermediates. This can cal corrosion behavior in 1.0 M KOH, but the corrosion potential of
+be revealed by the fact that the OER activity of MoZnFeCoNi sharp- MoZnFeCoNi (0.83 V versus RHE) is higher than that of FeCoNi
+ly decreased after adding the TMA+ species to the electrolyte, while (0.73 V versus RHE), which indicate that MoZnFeCoNi that has
+the OER activities of FeCoNi remained nearly unchanged after add- superior anticorrosion ability is less prone to corrosion and degra-
+ing TMA+ species (Fig. 5K and fig. S15). This result confirms that dation in the alkaline environment of the electrolyte, thus enhanc-
+the introduction of Zn will cause the catalyst to produce a large ing the catalytic stability. We also characterized the catalysts after
+Mei et al., Sci. Adv. 10, eadq6758 (2024) 20 November 2024 8 of 13
+
+ScieNce Adv ANceS | ReSeAR ch AR ticle
+Fig. 6. Electrocatalytic OER stability of the MoZnFeCoNi. (A) catalytic stability by chronopotentiometry measurement in 1.0 M KOh at 100 mA cm−2 and (B) at 500 mA cm−2.
+(C) corrosion potential analysis of the catalysts. (D) teM images of MoZnFecoNi after stability test at 500 mA cm−2 (the inset is the particle size distribution of single particles in
+hierarchical MoZnFecoNi). (E) corresponding ion concentrations in electrolyte after stability test at a constant current density of 100 mA cm−2. (inset SeM is the carbon network
+of the MoZnFecoNi after strong acid etching.) (F) Formation energies between element pairs in MoZnFecoNi with reference to the Fcc structures of constituent elements.
+long- term operation. From TEM images and EDX results in figs. stabilization. First, the catalyst was subjected to a 24- hour etching
+S17 and S18, TEM images of MoZnFeCoNi show that the hierarchi- process at 80°C in 1.0 M HCl, which resulted in complete metal
+cal structure keeps well and the Fe, Co, Ni, Mo, Zn, C, N, and O ele- etching and the formation of a highly porous carbon network, as
+ments are still evenly distributed throughout the whole region of the observed in the SEM image of the catalyst after etching (inset of Fig.
+MoZnFeCoNi catalyst, suggesting its excellent stability. The statisti- 6E). This allows us to directly observe such a carbon network in our
+cal analysis of the particle size of the catalyst after stability testing catalysts, which could effectively protect the metal catalysts from
+showed that the single-p article size of the catalyst was substantially rapid dissolution.
+larger (inset of Fig. 6D). This increase in size may be caused by DFT calculations were performed to shed light on how Mo and Zn
+surface oxidation following the electrochemical reconstruction of incorporation boosted the long- term durability of MoZnFeCoNi
+the catalyst (Fig. 6D and fig. S17). catalysts for OER. In Fig. 6F, the stability analysis is based on FCC
+We analyzed the composition of electrocatalysts after the 1500-hour formation energy calculations between pairs of elements. In this anal-
+stability test at 100 mA cm−2 by ICP- OES (table S3) and found that ysis, the formation energy is calculated with reference to the FCC
+the Fe/Co/Ni/Mo MoZn- based HEA showed slight change, while phases of the constituent elements despite that FCC is not necessarily
+Zn showed a larger solubility. The dissolution of Fe, Co, Ni, Mo, and the most stable allotrope for each element. We use this calculation
+Zn in MoZnFeCoNi in the electrolyte after the stability test is much setup to directly assess the elemental intermixing and entropic stabili-
+lower than FeCoNi and ZnFeCoNi (Fig. 6E and table S9). It is also zation within the alloy and evaluate the alloy’s resistance to segregation
+much superior to the advanced FeCoNi OER catalyst reported in and phase separation, which are critical for the long-t erm stability of
+the literature (table S9) (45). Notably, although Zn has a higher catalysts. Notably, Mo and Zn display negative binding energies with
+solubility, if we average it through the life cycle (1500 hours), then almost all other elements (Fig. 6F), and the degree of negativity
+it only shows a dissolution rate of 1.27 parts per billion/hour. follows the order Ni > Fe > Co, signifying that Ni favors the strongest
+Namely, the dissolution in our MoZnFeCoNi is small during the intermixing with Mo and Zn, followed by Fe, and then Co. This
+whole OER process, thus ensuring OER durability. The suppressed sequence aligns well with the elemental dissolution result in Fig.
+dissolution rate from the MoZnFeCoNi may be due to the carbon 6E. These results reveal that the multielement interaction and high-
+shell preventing direct contact between the metal and the electrolyte entropy stabilization facilitated by Mo and Zn incorporation play an
+and the increased multielement interaction and the high- entropy important role in improving the structural and long-t erm OER stability.
+Mei et al., Sci. Adv. 10, eadq6758 (2024) 20 November 2024 9 of 13
+
+ScieNce Adv ANceS | ReSeAR ch AR ticle
+DISCUSSION Electrocatalytic measurements
+This study proposed that the spatial- temporal confined strategy can Electrochemical measurements of the as-s ynthesized samples were
+construct MoZn- based HEA with a hierarchical porous structure performed with a CHI760E electrochemistry workstation (CH In-
+interconnected by a 3D carbon framework, which demonstrates su- struments Inc.) using a standard three- electrode electrochemical
+perior and simultaneous enhancement in OER activity and stability. cell with Pt sheet and Hg/HgO as the counter electrode and the
+The MoZnFeCoNi achieves an ultralow overpotential of 221 mV reference electrode, respectively. The catalyst ink for OER tests was
+at 10 mA cm−2 and excellent long- term stability at 100 mA cm−2 prepared as following: 5 mg of catalysts was dispersed into a mixed
+over >1500 hours. DFT calculation and chemical probe experiment solution of 300 μl of 0.5% Nafion ethanol solution and 200 μl of DI
+confirmed the dual activation of AEM and LOM in MoZn- based water and then ultrasonicated for 30 min to obtain a homogeneous
+HEA catalysts, where Co- Co†- Mo can enable rapid deprotonation solution. A total of 50 μl of the catalysts ink was loaded on a clean
+(AEM), while Zn- O†- Ni can trigger O─O coupling step (LOM). NF electrode (0.5 cm2) by drop coating to form the electrode and
+The dual activation can break through the linear scaling limit to dried slowly at room temperature. The final mass loading of the
+facilitate highly efficient OER. The multielement interaction, entro- catalysts on electrode is around 1 mg cm−2.
+py stabilization, and 3D carbon network are critical to stabilizing The electrochemical measurements were all performed at room
+the whole structure for long durable OER. This work offers a unique temperature, and the potential was referenced to that of the RHE.
+strategy to design and tailor the OER mechanisms and achieves dual For the RHE calibration, the potential difference between Hg/HgO
+activation and stabilization in HEA catalysts. The proposed spatial- and RHE was measured in 99.999% pure H - saturated 1.0 M KOH
+2
+temporal confined synthesis is also general for HEAs containing aqueous solution. During the measurement, high-p urity H is bub-
+2
+easily volatile and reactive elements. bled into the electrolyte to saturate the electrolyte and fix the revers-
+ible hydrogen potential.
+Cyclic voltammograms were taken several cycles to bubble
+MATERIALS AND METHODS away the surface contaminates and at the same time stabilize the
+Materials catalysts. The polarization curves were obtained by linear sweeping
+Iron acetate tetrahydrate [Fe(CO 2 CH 3 ) 2 ·4H 2 O], cobalt nitrate hexahy- with a scan rate of 1.0 mV s−1 in O 2 - saturated 1.0 M KOH aque-
+drate [Co(NO 3 ) 2 ·6H 2 O], nickel nitrate hexahydrate [Ni(NO 3 ) 2 ·6H 2 O], ous solution. Double layer capacitance (C dl ) was estimated by the
+zinc nitrate [Zn(NO 3 ) 2 ·6H 2 O], carbon nanotubes, ammonium molyb- cyclic voltammogram cures at various scan rates (10 to 50 mV) in the
+date tetrahydrate [(NH 4 ) 6 Mo 7 O 24 ·4H 2 O], N,N- dimethylformamide potential region of 0.1 to 0.2 V versus RHE. All the polarization
+(DMF), 2,5-d ihydroxyterephthalic acid, carbon nanotube pyromellitic curves were iR-c orrected, except as otherwise noted. EIS is recorded
+dianhydride (KOH, analytial reagent (AR), 90%), and ethanol (EtOH) at an applied potential of 1.53 V versus RHE from 100 kHz to 0.1 Hz.
+were bought from Aladdin Reagent. CP responses curve was performed under a high constant cur-
+All of the above chemicals were of analytical grade and used as rent density of 100 mA cm−2 in 1.0 M KOH using carbon rod as the
+received without further purification. Ultrapure deionized (DI) water counter electrode at room temperature.
+(18.2 megohm cm−1) was used in all experiments. Commercial NF
+(thickness: 1.7 mm) was purchased from Taiyuan Liyuan Lithium Bat- The ECSAs
+tery Technology Co. Ltd and cut into small pieces, having a geometric ECSAs were calculated by dividing C by a specific capacitance (C,
+dl s
+area of 1 cm × 3 cm. NF was first ultrasonicated in 0.5 M H 2 SO 4 for assumed as 0.04 mF cm−2 in 1.0 M KOH).
+1 hour to remove the thin oxide layer formed on the surface, then washed
+with DI water alternately three times, and let dry at room temperature. Material characterization
+Powder XRD patterns were recorded using a Rigaku D/Max- 2200
+Synthesis of spatio- temporal FeCoNiMoZn HEA PC diffractometer in the diffraction angle range 2θ = 5° to 80° with
+The synthesis of FeCoNiMoZn MOFs started with the dissolution of Cu Ka radiation (λ = 1.5418 Å) at 40 kV, 40 mA. XPS was measured
+0.25 mmol of Fe(CO 2 CH 3 ) 2 ·4H 2 O, 0.25 mmol of Co(NO 3 ) 2 ·6H 2 O, on a PerkinElmer model PHI 5500 XPS system with a resolution of
+0.25 mmol of Ni(NO 3 ) 2 ·6H 2 O, 0.25 mmol of Zn(NO 3 ) 2 ·4H 2 O, 0.25 mmol 0.3 to 0.5 eV from a monochromated aluminum anode x- ray source
+of Na 2 MoO 4 , and 0.34 mmol of 2,5- dihydroxyterephthalic acid in with Mo Kα radiation (1486.6 eV). All XPS spectra were calibrated
+the mixture of 22.5 ml of DMF, 1.35 ml of anhydrous ethanol, and using the C 1s peak of carbon present at 284.80 eV. Field-e mission
+1.35 ml of DI water. Then, the mixture sonicated at least 60 min. SEM was characterized by a Nona-N ano SEM450 at the accelerating
+Subsequently, the mixture was immediately transferred into a 50-m l voltage of 5 kV. TEM, HRTEM, and high-a ngle annular dark- field
+autoclave and then heated to 120°C for 24 hours. The synthe- scanning transmission electron microscopy–energy dispersive x-r ay
+sized FeCoNiMoZn MOFs precursor was washed with ultrapure DI spectroscopy (HAADF- STEM- EDX) were performed on Tecnai
+water, DMF, and EtOH in sequence for several times and dried for G2 TF30 operating at 300 kV. Fourier transform infrared (FTIR)
+12 hours at 70°C. A large current pulse (20 A, 100 ms) was used for spectra (KBr pellets) were conducted on a Thermo Electron NEXUS
+CTS in an Ar atmosphere. The current output mode is adopted 670 FTIR spectrometer.
+and the maximum output voltage is 30 V. The fast heating rate of
+~104°C/s is achieved by an instant pulsing current to 10 A in 100 ms In situ Raman measurements
+(~100 A/s), and other slower heating rates (100° and 1000°C/s) can The electrochemical Raman measurements were carried out on a con-
+be achieved by programming the current stepwise at rates of 1 and focal LabRAM Soleil Raman Microscope Raman system (HORIBA
+10 A/s from 0 to 10 A. Last, a heating rate of 0.1°C/s is obtained by FRANCE SAS). An He-N e laser with 532-n m excitation wavelength
+conventional furnace treatment (6°C/min). and a 50× microscope objective with a numerical aperture of 0.55
+Mei et al., Sci. Adv. 10, eadq6758 (2024) 20 November 2024 10 of 13
+
+ScieNce Adv ANceS | ReSeAR ch AR ticle
+were used in all measurements. Raman frequency was calibrated by a The computational hydrogen electrode model was applied to
+standard silicon (Si) wafer to 520.7 cm−1 during each experiment. simulate the OER pathway and determine the Gibbs free energy
+In situ electrochemical Raman experiments were used in a Raman cell, diagrams for different sites (53). Both AEM and LOM pathways
+and an electrochemical workstation CHI 760E potentiostat was used are considered to identify the active sites. For the AEM pathway,
+to control the potential. Raman curves were recorded ranging from the following four proton- electron transfer steps are considered
+50 to 2000 cm−1. Operando Raman spectra were performed using a
+∗+OH−→∗OH+e−
+(3)
+homemade open spectro-e lectrochemical cell consisting of a three-
+electrode system. A calibrated Hg/HgO (1 M KOH) electrode and a Pt
+plate served as the reference and counter electrodes, respectively. ∗OH+OH−→∗O+H
+2
+O+e−
+(4)
+Methods
+DFT calculations
+∗O+OH−→∗OOH+e−
+(5)
+DFT calculations with Hubbard- U corrections were performed
+using the Vienna Ab Initio Simulation Package (version 5.4.4) (46).
+Th by e th e e le P c e tr r o d n ew ic - e B x u c r h k a e n - g E e r n an ze d r h co o r f r ( e P la B t E io ) n f o in rm ter o a f c t g i e o n n e s r w al e iz r e e d d g es r c a r d i i b e e n d t ∗OOH+OH−→∗+O 2 +H 2 O+e− (6)
+approximation (46) and the projector- augmented wave method (47) where * denotes the active site of the catalyst surface and *O, *OH,
+were used. We use the effective Hubbard-U (U eff = U − J) parameters and *OOH indicate the intermediate species adsorbed on the active
+from Wei et al. (42), Baek et al. (48) and Winther et al. (49) that are site. For each of the four steps, the Gibbs free energy change (ΔG) of
+optimized to match the M(OH)/MOOH redox features, i.e., 4.38 (Mo), the intermediate was defined as
+2
+3.0 (Zn), 4.3 (Fe), 3.32 (Co), and 5.5 (Ni). The β- MOOH (R3m space ΔG=ΔE+ΔZPE−TΔS
+(7)
+group) with (0112)-terminated surface was selected as our slab model,
+and a 3 × 2 × 3 supercell was established. The bottom two layers are where ΔE is the electronic energy difference; ΔZPE and ΔS are the
+kept as NiOOH, and the top layer is doped with Mo, Zn, Fe, and Co. A difference of zero- point energies and the change of entropy, re-
+vacuum layer of 15 Å was introduced in the z direction to prevent inter- spectively, which can be obtained by vibrational frequency analysis;
+actions between periodic images. During optimization, the two bottom and T is 298.15 K.
+layers were fixed to mimic bulk structures, while the top layer (and the The following formula was used to calculate overpotential (η) to
+adsorbates) was fully relaxed. The electronic wave function was ex- compare OER activity
+panded in plane wave basis sets with a cutoff energy of 450 eV with η=max[ΔG 1 ,ΔG 2 ,ΔG 3 ,ΔG 4 ]∕e−1.23V (8)
+a Monkhorst-P ack (50) 2 × 2 × 1 k-p oint grid. The energy and force
+convergence criteria were set to be 10−5 eV and 0.05 eV Å−1, respec- For the LOM pathway, the single- site LOM mechanism is con-
+tively. The dispersion corrected PBE-D 3 method in the Grimme’s sidered, which involve the following four steps
+scheme (51) was used to include the van der Waals interactions. ∗+OH−→∗OH+e−
+(9)
+Because of the strong d- d Coulomb interaction, the d orbitals are
+split into a filled LHB and an empty UHB (1). The centers of LHB
+and UHB can be calculated from the PDOS distribution below and ∗OH+OH−→∗O vac +H 2 O+O 2 (g)+e− (10)
+above Efermi, respectively
+0
+εDOS(ε)dε
+∗O
+vac
++OH−→∗H+e−
+(11)
+∫
+−∞
+ε LHB = 0 (1) ∗H+OH−→∗+H O+e−
+(12)
+2
+DOS(ε)dε
+∫
+−∞ In this scenario, a hydroxyl group initially attacks the oxide sur-
+face, bonding with a lattice oxygen atom. The surface hydroxyl then
+loses a proton, resulting in the desorption of O and the creation
+2
++∞ of a lattice oxygen vacancy (*O vac ). Subsequently, another hydroxyl
+group fills the vacancy, and following a second deprotonation step,
+εDOS(ε)dε
+∫ the surface is completely restored. Following Eqs. 7 and 8, the LOM
+ε = 0 overpotential and Gibbs free energy diagrams can be derived from
+UHB +∞ (2) the four OER steps.
+DOS(ε)dε
+∫
+0
+Supplementary Materials
+where ε represents the energy level and DOS(ε) denotes the density This PDF file includes:
+Supplementary text
+of states at this energy level. Because of the 3d states of Zn being
+Figs. S1 to S18
+completely filled, Zn does not have an UHB. Bader charge analysis is
+tables S1 to S9
+performed using the algorithm developed by Henkelman et al. (52). References
+Mei et al., Sci. Adv. 10, eadq6758 (2024) 20 November 2024 11 of 13
+
+ScieNce Adv ANceS | ReSeAR ch AR ticle
+REFERENCES AND NOTES 22. P. li, X. Wan, J. Su, W. liu, Y. Guo, h. Yin, d. Wang, A single- phase FecoNiMnMo
+1. Z. F. huang, J. J. Song, Y. h. du, S. B. Xi, S. dou, J. M. v. Nsanzimana, c. Wang, Z. c. J. Xu, high- entropy alloy oxygen evolution anode working in alkaline solution for over 1000 h.
+X. Wang, chemical and structural origin of lattice oxygen oxidation in co- Zn ACS Catal. 12, 11667–11674 (2022).
+oxyhydroxide oxygen evolution electrocatalysts. Nat. Energy 4, 329–338 (2019). 23. l. he, N. Wang, B. Sun, l. Zhong, M. Yao, W. hu, S. Komarneni, high- entropy FecoNiMn
+2. h. B. tao, Y. h. Xu, X. huang, J. Z. chen, l. J. Pei, J. M. Zhang, J. G. G. chen, B. liu, A general (Oxy)hydroxide as high- performance electrocatalyst for OeR and boosting clean carrier
+method to probe oxygen evolution intermediates at operating conditions. Joule 3, production under quasi- industrial condition. J. Clean. Prod. 356, 131680 (2022).
+1498–1509 (2019). 24. Z. Jin, J. lyu, Y.- l. Zhao, h. li, X. lin, G. Xie, X. liu, J.- J. Kai, h.- J. Qiu, Rugged high- entropy
+3. R. he, l. l. Yang, Y. Zhang, d. Jiang, S. lee, S. horta, Z. F. liang, X. lu, A. O. Moghaddam, alloy nanowires with in situ formed surface spinel oxide as highly stable electrocatalyst in
+J. S. li, M. ibáñez, Y. Xu, Y. t. Zhou, A. cabot, A 3d-4 d- 5d high entropy alloy as a zn–air batteries. ACS Mater. Lett. 2, 1698–1706 (2020).
+bifunctional oxygen catalyst for robust aqueous zinc- air batteries. Adv. Mater. 35, 25. W. dai, t. lu, Y. Pan, Novel and promising electrocatalyst for oxygen evolution reaction
+202303719 (2023). based on MnFecoNi high entropy alloy. J. Power Sources 430, 104–111 (2019).
+4. Q. W. Zhang, Y. X. hu, h. F. Wu, X. R. Zhao, M. l. Wang, S. h. Wang, R. h. Feng, Q. chen, 26. X. h. Zhao, Z. M. Xue, W. J. chen, Y. Q. Wang, t. c. Mu, eutectic synthesis of high- entropy
+F. Song, M. W. chen, P. liu, entropy-s tabilized multicomponent porous spinel nanowires metal phosphides for electrocatalytic water splitting. Chemsuschem 13, 2038–2042
+of NiFexO4 (x = Fe, Ni, Al, Mo, co, cr) for efficient and durable electrocatalytic oxygen (2020).
+evolution reaction in alkaline medium. ACS Nano 17, 1485–1494 (2023). 27. J. tang, J. l. Xu, Z. G. Ye, X. B. li, J. M. luo, Microwave sintered porous cocrFeNiMo high
+5. X. Wang, h. Zhong, S. Xi, W. S. v. lee, J. Xue, Understanding of oxygen redox in the oxygen entropy alloy as an efficient electrocatalyst for alkaline oxygen evolution reaction.
+evolution reaction. Adv. Mater. 34, 202107956 (2022). J. Mater. Sci. Technol. 79, 171–177 (2021).
+6. Y. Mei, Y. Feng, c. Zhang, Y. Zhang, Q. Qi, J. hu, high- entropy alloy with Mo- coordination 28. Z. ding, J. Bian, S. Shuang, X. liu, Y. hu, c. Sun, Y. Yang, high entropy intermetallic- oxide
+as efficient electrocatalyst for oxygen evolution reaction. ACS Catal. 12, 10808–10817 core- shell nanostructure as superb oxygen evolution reaction catalyst. Adv. Sustain. Syst.
+(2022). 4, 1900105 (2020).
+7. M. lu, Y. Zheng, Y. hu, B. l. huang, d. G. Ji, M. Z. Sun, J. Y. li, Y. Peng, R. Si, P. X. Xi, c. h. Yan, 29. t. Zhang, J. li, B. Zhang, G. Wang, K. Jiang, Z. Zheng, J. Shen, high- entropy alloy
+Artificially steering electrocatalytic oxygen evolution reaction mechanism by regulating cucrFeNicoP film of cu- based as high- efficiency electrocatalyst for water splitting.
+oxygen defect contents in perovskites. Sci. Adv. 8, eabq3563 (2022). J. Alloys Compd. 969, 172439 (2023).
+8. Z. Y. he, J. Zhang, Z. h. Gong, h. lei, d. Zhou, N. A. Zhang, W. J. Mai, S. J. Zhao, Y. chen, 30. F. M. liu, M. Yu, X. chen, J. h. li, h. h. liu, F. Y. cheng, defective high- entropy rocksalt
+Activating lattice oxygen in NiFe- based (Oxy)hydroxide for water electrolysis. Nat. oxide with enhanced metal- oxygen covalency for electrocatalytic oxygen evolution.
+Commun. 13, 2191 (2022). Chinese J. Catal. 43, 122–129 (2022).
+9. A. K. tomar, U. N. Pan, N. h. Kim, J. h. lee, enabling lattice oxygen participation in a triple 31. X. h. Zhao, Z. M. Xue, W. J. chen, X. Y. Bai, R. F. Shi, t. c. Mu, Ambient fast, large- scale
+perovskite oxide electrocatalyst for the oxygen evolution reaction. ACS Energy Lett. 8, synthesis of entropy-s tabilized metal- organic framework nanosheets for electrocatalytic
+565–573 (2022). oxygen evolution. J. Mater. Chem. A 7, 26238–26242 (2019).
+10. K. huang, J. Y. Xia, Y. lu, B. W. Zhang, W. c. Shi, X. cao, X. Y. Zhang, l. M. Woods, c. c. han, 32. X. d. cui, B. l. Zhang, c. Y. Zeng, S. M. Guo, electrocatalytic activity of high- entropy alloys
+c. J. chen, t. Wang, J. S. Wu, Y. Z. huang, Self- reconstructed spinel surface structure toward oxygen evolution reaction. MRS Commun. 8, 1230–1235 (2018).
+enabling the long- term stable hydrogen evolution reaction/oxygen evolution reaction 33. h. J. Qiu, G. Fang, J. J. Gao, Y. R. Wen, J. lv, h. l. li, G. Q. Xie, X. J. liu, S. h. Sun, Noble
+efficiency of feconiru high- entropy alloyed electrocatalyst. Adv. Sci. 10, 202300094 metal- free nanoporous high- entropy alloys as highly efficient electrocatalysts for oxygen
+(2023). evolution reaction. ACS Mater. Lett. 1, 526–533 (2019).
+11. Y. G. Yao, Z. N. huang, P. F. Xie, S. d. lacey, R. J. Jacob, h. Xie, F. J. chen, A. M. Nie, t. c. Pu, 34. l. h. liu, N. li, M. han, J. R. han, h. Y. liang, Scalable synthesis of nanoporous high
+M. Rehwoldt, d. W. Yu, M. R. Zachariah, c. Wang, R. Shahbazian- Yassar, J. li, l. B. hu, entropy alloys for electrocatalytic oxygen evolution. Rare Met. 41, 125–131 (2022).
+carbothermal shock synthesis of high- entropy- alloy nanoparticles. Science 359, 35. R. he, l. l. Yang, Y. Zhang, X. Wang, S. lee, t. Zhang, l. X. li, Z. F. liang, J. W. chen, J. S. li,
+1489–1494 (2018). A. O. Moghaddam, J. llorca, M. ib, J. Arbiol, Y. Xu, A. cabot, A crMnFecoNi high entropy
+12. Z. Jing, Y. Guo, Q. Wang, X. Yan, G. Yue, Z. li, h. liu, R. Qin, c. Zhong, M. li, d. Xu, Y. Yao, alloy boosting oxygen evolution/reduction reactions and zinc- air battery performance.
+Y. Yao, M. Shuai, Ambient hydrogenation of solid aromatics enabled by a high entropy Energy Storage Mater. 58, 287–298 (2023).
+alloy nanocatalyst. Nat. Commun. 15, 5806 (2024). 36. l. Y. Yi, S. M. Xiao, Y. P. Wei, d. Z. li, R. F. Wang, S. F. Guo, W. h. hu, Free- standing
+13. l. l. Yu, K. Z. Zeng, c. h. li, X. R. lin, h. W. liu, W. h. Shi, h. J. Qiu, Y. F. Yuan, Y. G. Yao, high- entropy alloy plate for efficient water oxidation catalysis: Structure/composition
+high- entropy alloy catalysts: From bulk to nano toward highly efficient carbon and evolution and implication of high- valence metals. Chem. Eng. J. 469, 144015 (2023).
+nitrogen catalysis. Carbon Energy 4, 731–761 (2022). 37. R. R. Zhang, l. Pan, B. B. Guo, Z. F. huang, Z. X. chen, l. Wang, X. W. Zhang, Z. Y. Guo, W. Xu,
+14. l. he, M. li, l. Qiu, S. Geng, Y. liu, F. tian, M. luo, h. liu, Y. Yu, W. Yang, S. Guo, Single- atom K. P. loh, J. J. Zou, tracking the role of defect types in co3O4 structural evolution and
+Mo- tailored high- entropy- alloy ultrathin nanosheets with intrinsic tensile strain enhance active motifs during oxygen evolution reaction. J. Am. Chem. Soc. 145, 2271–2281 (2023).
+electrocatalysis. Nat. Commun. 15, 2290–2290 (2024). 38. c. J. hu, Y. F. hu, c. h. Fan, l. Yang, Y. t. Zhang, h. X. li, W. Xie, Surface- enhanced raman
+15. Z. J. li, S. Q. Ji, c. Wang, h. X. liu, l. P. leng, l. du, J. c. Gao, M. Qiao, J. h. horton, Y. Wang, spectroscopic evidence of key intermediate species and role of NiFe dual- catalytic center
+Geometric and electronic engineering of atomically dispersed copper- cobalt diatomic in water oxidation. Angew. Chem. Int. Ed. 60, 19774–19778 (2021).
+sites for synergistic promotion of bifunctional oxygen electrocatalysis in zinc-a ir 39. c. Wang, P. l. Zhai, M. Y. Xia, W. liu, J. F. Gao, l. c. Sun, J. A. hou, identification of the origin
+batteries. Adv. Mater. 35, 202300905 (2023). for reconstructed active sites on oxyhydroxide for oxygen evolution reaction. Adv. Mater.
+16. M. Miao, J. Pan, t. he, Y. Yan, B. Y. Xia, X. Wang, Molybdenum carbide- based 35, 09307 (2023).
+electrocatalysts for hydrogen evolution reaction. Chem. Eur. J. 23, 10947–10961 40. h. Q. chu, R. J. li, P. P. Feng, d. Y. Wang, c. X. li, Y. l. Yu, M. Yang, ligands defect- induced
+(2017). structural self- reconstruction of Fe- Ni- co- hydroxyl oxides with crystalline/amorphous
+17. Y. G. Yao, Z. N. huang, l. A. hughes, J. l. Gao, t. Y. li, d. Morris, S. e. Zeltmann, heterophase from a 2d metal- organic framework for an efficient oxygen evolution
+B. h. Savitzky, c. Ophus, Y. Z. Finfrock, Q. dong, M. l. Jiao, Y. M. Mao, M. F. chi, P. Zhang, reaction. ACS Catal. 14, 1553–1566 (2024).
+J. li, A. M. Minor, R. Shahbazian- Yassar, l. B. hu, extreme mixing in nanoscale transition 41. e. Fabbri, M. Nachtegaal, t. Binninger, X. cheng, B. J. Kim, J. durst, F. Bozza, t. Graule,
+metal alloys. Matter 4, 2340–2353 (2021). R. Schäublin, l. Wiles, M. Pertoso, N. danilovic, K. e. Ayers, t. J. Schmidt, dynamic surface
+18. W. h. Shi, Z. Z. li, Z. h. Gong, Z. h. liang, h. W. liu, Y. c. han, h. t. Niu, B. Song, X. d. chi, self- reconstruction is the key of highly active perovskite nano- electrocatalysts for water
+J. h. Zhou, h. Wang, B. Y. Xia, Y. G. Yao, Z. Q. tian, transient and general synthesis of splitting. Nat. Mater. 16, 925–931 (2017).
+high- density and ultrasmall nanoparticles on two- dimensional porous carbon via 42. l. Z. Wei, M. d. hossain, M. J. Boyd, J. Aviles- Acosta, M. e. Kreider, A. c. Nielander,
+coordinated carbothermal shock. Nat. Commun. 14, 2294 (2023). M. B. Stevens, t. F. Jaramillo, M. Bajdich, c. hahn, insights into active sites and
+19. Y. X. Wang, Y. Zhang, P. Y. Xing, X. Q. li, Q. Y. du, X. Q. Fan, Z. B. cai, R. Yin, Y. G. Yao, mechanisms of benzyl alcohol oxidation on nickel- iron oxyhydroxide electrodes. ACS
+W. t. Gan, Self- encapsulation of high- entropy alloy nanoparticles inside carbonized wood Catal. 13, 4272–4282 (2023).
+for highly durable electrocatalysis. Adv. Mater. 36, 02391 (2024). 43. Y. M. Sun, h. B. liao, J. R. Wang, B. chen, S. N. Sun, S. J. h. Ong, S. B. Xi, c. Z. diao, Y. h. du,
+20. B. talluri, K. Yoo, J. Kim, high entropy spinel metal oxide (cocrFeMnNi)3O4 nanoparticles J. O. Wang, M. B. h. Breese, S. Z. li, h. Zhang, Z. c. J. Xu, covalency competition dominates
+as novel efficient electrocatalyst for methanol oxidation and oxygen evolution reactions. the water oxidation structure- activity relationship on spinel oxides. Nat. Catal. 3, 959–959
+J. Environ. Chem. Eng. 10, 106932 (2022). (2020).
+21. l. Sharma, N. K. Katiyar, A. Parui, R. das, R. Kumar, c. S. tiwary, A. K. Singh, A. halder, 44. B. Zhang, l. Wang, Z. cao, S. M. Kozlov, F. P. G. de Arquer, c. t. dinh, J. li, Z. Y. Wang,
+K. Biswas, low- cost high entropy alloy (heA) for high- efficiency oxygen evolution X. l. Zheng, l. S. Zhang, Y. Z. Wen, O. voznyy, R. comin, P. de luna, t. Regier, W. l. Bi,
+reaction (OeR). Nano Res. 15, 4799–4806 (2022). e. e. Alp, c. W. Pao, l. R. Zheng, Y. F. hu, Y. J. Ji, Y. Y. li, Y. Zhang, l. cavallo, h. S. Peng,
+Mei et al., Sci. Adv. 10, eadq6758 (2024) 20 November 2024 12 of 13
+
+ScieNce Adv ANceS | ReSeAR ch AR ticle
+e. h. Sargent, high- valence metals improve oxygen evolution reaction performance sub- 5 nm pure face- centred cubic high- entropy alloy electrocatalyst. J. Mater. Chem. A 8,
+by modulating 3d metal oxidation cycle energetics. Nat. Catal. 3, 985–992 (2020). 11938–11947 (2020).
+45. J. Wang, J. Zhang, l. Zhang, l. chen, G. he, h. Jiang, Modulating metal- oxygen 64. Z. chen, J. Wen, c. Wang, X. Kang, convex cube- shaped Pt34Fe5Ni2cu31Mo9Ru high
+interactions of high- entropy oxide electrocatalysts enables highly- active and ultra- stable entropy alloy catalysts toward high- performance multifunctional electrocatalysis. Small
+water oxidation. Appl. Catal. B. Environ. 342, 123382 (2024). 18, 2204255 (2022).
+46. J. P. Perdew, K. Burke, M. ernzerhof, Generalized gradient approximation made simple. 65. Y. M. Zhang, J. l. Kang, h. A. Xie, h. X. Yin, Z. J. Zhang, e. Z. liu, l. Y. Ma, B. chen, J. W. Sha,
+Phys. Rev. Lett. 77, 3865–3868 (1996). l. h. Qian, W. B. hu, c. N. he, N. Q. Zhao, Boosting the oxygen evolution of high- entropy
+47. P. e. Blöchl, Projector augmented- wave method. Phys. Rev. B 50, 17953–17979 (Oxy)hydroxide epitaxially grown on high entropy alloy by lattice oxygen activation.
+(1994). Appl. Catal. B. Environ. 341, 123331 (2024).
+48. J. Baek, M. d. hossain, P. Mukherjee, J. h. lee, K. t. Winther, J. leem, Y. Jiang, W. c. chueh, 66. J. h. cha, S. h. cho, d. h. Kim, d. Jeon, S. Park, J. W. Jung, i. Kim, S. Y. choi, Flash- thermal
+M. Bajdich, X. l. Zheng, Synergistic effects of mixing and strain in high entropy spinel shock synthesis of high- entropy alloys toward high- performance water splitting. Adv.
+oxides for oxygen evolution reaction. Nat. Commun. 14, 5936 (2023). Mater. 35, 202305222 (2023).
+49. K. Winther, M. hoffmann, O. Mamun, J. Boes, M. Bajdich, t. Bligaard, catalysis- hub.Org: An 67. A. N. Nguyen, N. M. tran, h. Yoo, direct growth and post- treatment of zeolitic imidazolate
+open electronic structure database for surface reactions and catalytic materials. Abstr. framework- 67 on carbon paper: An effective and stable electrode system for
+Pap. Am. Chem. Soc. 257, 88 (2019). electrocatalytic reactions. J. Mater. Chem. A 10, 20770–20778 (2022).
+50. h. J. Monkhorst, J. d. Pack, Special points for brillouin- zone integrations. Phys. Rev. B 13, 68. Y. li, Q. Zhang, X. Zhao, h. Wu, X. Wang, Y. Zeng, Q. chen, M. chen, P. liu, vapor phase
+5188–5192 (1976). dealloying derived nanoporous co@coO/RuO2 composites for efficient and durable
+51. S. Grimme, J. Antony, S. ehrlich, h. Krieg, A consistent and accurate ab initio oxygen evolution reaction. Adv. Funct. Mater. 33, 202214124 (2023).
+parametrization of density functional dispersion correction (dFt- d) for the 94 elements 69. W. Zhang, M. Niu, J. Yu, S. li, Y. Wang, K. Zhou, Mechanochemical post-s ynthesis of
+h- pu. J. Chem. Phys. 132, 154104 (2010). metal- organic framework- based pre- electrocatalysts with surface Fe- O- Ni/co bonding
+52. G. henkelman, A. Arnaldsson, h. Jónsson, A fast and robust algorithm for bader for highly efficient oxygen evolution. Adv. Funct. Mater. 33, 202302014 (2023).
+decomposition of charge density. Comput. Mater. Sci. 36, 354–360 (2006). 70. Y. F. cui, S. d. Jiang, Q. Fu, R. Wang, P. Xu, Y. Sui, X. J. Wang, Z. l. Ning, J. F. Sun, X. Sun,
+53. J. K. Nørskov, J. Rossmeisl, A. logadottir, l. lindqvist, J. R. Kitchin, t. Bligaard, h. Jónsson, A. Nikiforov, B. Song, cost- effective high entropy core–shell fiber for stable oxygen
+Origin of the overpotential for oxygen reduction at a fuel- cell cathode. J. Phys. Chem. B. evolution reaction at 2 A cm−2. Adv. Funct. Mater. 33, 202306889 (2023).
+108, 17886–17892 (2004). 71. K. Yu, h. Yang, h. Zhang, h. huang, Z. Wang, Z. Kang, Y. liu, P. W. Menezes, Z. chen,
+54. J. hu, l. cao, Z. Wang, J. liu, J. Zhang, Y. cao, Z. lu, h. cheng, hollow high- entropy metal immobilization of oxyanions on the reconstructed heterostructure evolved from a
+organic framework derived nanocomposite as efficient electrocatalyst for oxygen bimetallic oxysulfide for the promotion of oxygen evolution reaction. Nanomicro. Lett.
+reduction reaction. Compos. Commun. 27, 100866 (2021). 15, 186 (2023).
+55. Z.- J. Zhang, J.- P. Guo, S.- h. Sun, Q. Sun, Y.- W. Zhao, Y.- F. Zhang, Z.- Y. Yu, c.- S. li, Y. Sun, 72. M. li, X. Wang, K. liu, Z. Zhu, h. Guo, M. li, h. du, d. Sun, h. li, K. huang, Y. tang, G. Fu,
+M.- M. Zhang, Y. Jiang, Optimized valence state of co and Ni in high- entropy alloy for high ce- induced differentiated regulation of co sites via gradient orbital coupling for
+active- stable oer. Rare Met. 42, 3607–3613 (2023). bifunctional water- splitting reactions. Adv. Energy Mater. 13, 202301162 (2023).
+56. P. Yang, Y. An, c. Feng, Y. liu, S. liu, l. Gao, Y. Zhou, X. li, P. li, F. Zeng, heterogeneous 73. S. Wang, W. huo, h. Feng, Z. Xie, J. K. Shang, e. v. Formo, P. h. c. camargo, F. Fang, J. Jiang,
+high- entropy catalyst nanoparticles for oxygen evolution reaction: impact of oxygen and enhancing oxygen evolution reaction performance in prussian blue analogues:
+fluorine introduction. Int. J. Hydrogen Energy 51, 1218–1228 (2024). triple- play of metal exsolution, hollow interiors, and anionic regulation. Adv. Mater. 35,
+57. G. Raj, R. Nandan, K. Kumar, d. B. Gorle, A. B. Mallya, S. M. Osman, J. Na, Y. Yamauchi, e2304494 (2023).
+K. K. Nanda, high entropy alloying strategy for accomplishing quintuple- nanoparticles
+grafted carbon towards exceptional high- performance overall seawater splitting. Mater. Acknowledgments
+Horiz. 10, 5032–5044 (2023). Funding: this work was supported by the National Key R&d Program of china
+58. J. X. Yang, B. h. dai, c. Y. chiang, i. c. chiu, c. W. Pao, S. Y. lu, i. Y. tsao, S. t. lin, c. t. chiu, (2021YFA1202300), the National Natural Science Foundation of china (52371223 and
+J. W. Yeh, P. c. chang, W. h. hung, Rapid fabrication of high- entropy ceramic 52101255), the Knowledge innovation Program of Wuhan-S huguang Project, the
+nanomaterials for catalytic reactions. ACS Nano 15, 12324–12333 (2021). interdisciplinary Research Program of hUSt (2023JcYJ004), and the Open Fund of State Key
+59. h. Y. Wang, R. Wei, X. M. li, X. l. Ma, X. G. hao, G. Q. Guan, Nanostructured amorphous laboratory of New textile Materials and Advanced Processing technologies (FZ2022005). We
+Fe29co27Ni23Si9B12 high- entropy- alloy: An efficient electrocatalyst for oxygen evolution thank the test support from the Analytical and testing center of huazhong University of
+reaction. J. Mater. Sci. Technol. 68, 191–198 (2021). Science & technology and the State Key laboratory of Materials Processing and die & Mould
+60. S. Q. Zhao, h. Y. Wu, R. Yin, X. N. Wang, h. Z. Zhong, Q. Fu, W. J. Wan, t. cheng, Y. Shi, technology. Author contributions: Y.M. and J.c. performed most of the experiments and data
+G. X. cai, c. Z. Jiang, F. Ren, Preparation and electrocatalytic properties of (FecrcoNiAl0.1)Ox analysis. Q.W. carried out the dFt calculations. Y.G. and Y.Yu. conducted hAAdF-S teM
+high- entropy oxide and Nico- (FecrcoNiAl0.1)Ox heterojunction films. J. Alloys Compd. micrographs and mapped images. W.S., h.l., and c.l. prepared the electrodes and helped with
+868, 159108 (2021). electrochemical measurements. B.Y.X. and Y.W. conducted the data analysis and supervised
+61. P. Y. Ma, S. c. Zhang, M. t. Zhang, J. F. Gu, l. Zhang, Y. c. Sun, W. Ji, Z. Y. Fu, hydroxylated the project. Y.Ya. conceived of and supervised the research. All authors have approved the final
+high- entropy alloy as highly efficient catalyst for electrochemical oxygen evolution version of the manuscript. Competing interests: the authors declare that they have no
+reaction. Sci. China Mater. 63, 2613–2619 (2020). competing interests. Data and materials availability: All data needed to evaluate the
+62. K. Z. Gu, X. Y. Zhu, d. d. Wang, N. N. Zhang, G. huang, W. li, P. long, J. tian, Y. Q. Zou, conclusions in the paper are present in the paper and/or the Supplementary Materials.
+Y. Y. Wang, R. chen, S. Y. Wang, Ultrathin defective high- entropy layered double
+hydroxides for electrochemical water oxidation. J. Energy Chem. 60, 121–126 Submitted 27 May 2024
+(2021). Accepted 18 October 2024
+63. K. huang, B. Zhang, J. Wu, t. Zhang, d. Peng, X. cao, Z. Zhang, Z. li, Y. huang, exploring Published 20 November 2024
+the impact of atomic lattice deformation on oxygen evolution reactions based on a 10.1126/sciadv.adq6758
+Mei et al., Sci. Adv. 10, eadq6758 (2024) 20 November 2024 13 of 13
+

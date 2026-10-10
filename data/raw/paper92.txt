@@ -1,0 +1,643 @@
+RESEARCH ARTICLE
+www.advancedscience.com
+Self-Reconstructed Spinel Surface Structure Enabling the
+Long-Term Stable Hydrogen Evolution Reaction/Oxygen
+Evolution Reaction Efficiency of FeCoNiRu High-Entropy
+Alloyed Electrocatalyst
+Kang Huang, Jiuyang Xia, Yu Lu, Bowei Zhang,* Wencong Shi, Xun Cao, Xinyue Zhang,
+Lilia M. Woods, Changcun Han, Chunjin Chen,* Tian Wang, Junsheng Wu,*
+and Yizhong Huang*
+1.Introduction
+Highcatalyticefficiencyandlong-termstabilityaretwomaincomponentsfor
+theperformanceassessmentofanelectrocatalyst.Previousattentionhas The electrocatalysis is known to be a pro-
+cess that occurs in the interface between
+beenpaidmoretoefficiencyotherthanstability.Thepresentworkisfocused
+the surface of electrocatalysts and various
+onthestudyofthestabilityprocessedontheFeCoNiRuhigh-entropyalloy
+electrolytes.[1]Thevastmajorityofresearch
+(HEA)incorrelationwithitscatalyticefficiency.Thiscatalysthas
+effortshaveaddressedthesynthesisofnew
+demonstratednotonlyperformingthesimultaneoushydrogenevolution andcost-effectivecatalyticmaterialstopur-
+reaction(HER)andoxygenevolutionreaction(OER)withhighefficiencybut sue high catalytic performance over the
+alsosustaininglong-termstabilityuponHERandOER.Thestudyrevealsthat
+pastdecades.[2–5]However,long-termstabil-
+ity,anessentialcharacteristicofelectrocata-
+theoutstandingstabilityisattributedtothespineloxidesurfacelayer
+lysts,hasnotbeenin-depthstudiedandun-
+developedduringevolutionreactions.Thespinelstructurepreservesthe
+derstood so far.[6–8] The poor stability has
+activesitesthatareinheritedfromtheHEA’sintrinsicstructure.Thiswork substantially restrained the practical elec-
+willprovideaninsightfuldirection/pathwayforthedesignandmanufacturing trocatalytic applications.[9] Water splitting,
+activitiesofothermetallicelectrocatalystsandabenchmarkforthe for instance, involves two half-reactions,
+thatis,hydrogenevolutionreaction(HER)
+assessmentoftheirefficiency–stabilityrelationship.
+happeningonthecathodeandoxygenevo-
+lution reaction (OER) on the anode,[10,11]
+and has been extensively studied with the
+assistanceofelectrocatalysts.[12–15] Subjecttotheappliedpoten-
+tialandaggressiveenvironments,theredoxreactionsoccurring
+K.Huang,J.Xia,B.Zhang,J.Wu W.Shi
+InstituteforAdvancedMaterialsandTechnology SchoolofBiologicalSciences
+UniversityofScienceandTechnologyBeijing NanyangTechnologicalUniversity
+Beijing100083,P.R.China 50NanyangAvenue,Singapore639798,Singapore
+E-mail:bwzhang@ustb.edu.cn;wujs76@163.com L.M.Woods
+Y.Lu,X.Cao,X.Zhang,Y.Huang DepartmentofPhysics
+SchoolofMaterialsScienceandEngineering UniversityofSouthFlorida
+NanyangTechnologicalUniversity Tampa,FL33620,USA
+50NanyangAvenue,Singapore639798,Singapore C.Han,Y.Huang
+E-mail:yzhuang@ntu.edu.sg CollegeofScience
+HubeiUniversityofTechnology
+Wuhan430068,P.R.China
+C.Chen
+TheORCIDidentificationnumber(s)fortheauthor(s)ofthisarticle InstituteofMetalResearch
+canbefoundunderhttps://doi.org/10.1002/advs.202300094 ChineseAcademyofSciences
+Shenyang110016,P.R.China
+©2023TheAuthors.AdvancedSciencepublishedbyWiley-VCHGmbH.
+E-mail:cjchen16s@imr.ac.cn
+ThisisanopenaccessarticleunderthetermsoftheCreativeCommons
+AttributionLicense,whichpermitsuse,distributionandreproductionin T.Wang
+anymedium,providedtheoriginalworkisproperlycited. DepartmentofChemistry
+NationalUniversityofSingapore
+DOI:10.1002/advs.202300094 3ScienceDrive3,Singapore117543,Singapore
+Adv.Sci.2023,10,2300094 2300094(1of12) ©2023TheAuthors.AdvancedSciencepublishedbyWiley-VCHGmbH
+
+www.advancedsciencenews.com www.advancedscience.com
+on both electrodes require their strong durability for a long- andwasdeterminedasasinglecrystalstructurebyX-raydiffrac-
+term run. The execution of catalytic activities facilitated by cat- tion(XRD)(Figure1d).Afterthepyrolysis,FeCoNiRuHEMOFs
+alystsiswellunderstoodthroughthekineticprocessonthesur- were completely decomposed into the carbon skeleton without
+face of electrodes as determined by active sites.[16,17] However, collapsing and agglomerating, as indicated in Figure 1e,f. The
+the fundamental catalytic mechanism by which the electrodes shape of HEMOF remains intact but the surface is decorated
+are maintained in a stable state during the electrochemical re- byconsiderabletinynanoparticlesovertheskeleton(Figure1f),
+action in the electrolytic cell is still unclear due to the lack of which are estimated to be under 10 nanometers in size. This
+investigation.[18–20] This is result of the difficulty in the simul- is demonstrated by the fairly broad face-centered cubic (FCC)
+taneousinspectionoftheself-reconstructionoverthesurfaceof XRD peaks (inset) in Figure 1g. The content of each element
+electrodeswhenthestabilitytestisinprogress.[21,22] inFeCoNiRu-450wasdeterminedfromthemeasurementofan
+Alloysareonetypeamongthevastmajorityofcatalyststhat inductivelycoupledplasmamass-spectrometry(ICP-MS,Figure
+havebeenwidelyusedintheelectrocatalysisofwatersplitting.It S5,SupportingInformation).Theresultsuggeststhattheatomic
+isaprocessthatoccursthroughsurfacemetalatomsdissolution, percentageofeachelementinFeCoNiRu-450isbetween5%and
+insituoxidationofmetalatoms,dissolution-redepositionproce- 35%,inconsistencewiththedesignedHEAs.[30]
+dure,ortheircombination.Theproductsoverthesurfacealloys Further analysis of microstructures of FeCoNiRu-450 using
+developedduringtheself-reconstructionprocessarehighlyde- high-angle annual dark-field scanning transmission electron
+pendentonthespecificsubstrateandrelevantenvironmentsand microscopy (HAADF-STEM) proves the uniform dispersion of
+can increase or decrease the catalytic activity of alloys.[23–29] In nanoparticlesonthecarbonskeleton(Figure2a)withtheaver-
+addition,self-reconstructionmustconsiderotherfactorssuchas agesizeof7.4±2.0nmestimatedfromtheirsizedistribution
+themorphology,composition,andlatticephasestructureofal- (insetinFigure2b).TheatomicSTEMimageconfirmstheFCC
+loys.Sothereisnosingleself-reconstructionmechanismisap- nanocrystallinestructureoftheFeCoNiRu-450(Figure2c).Fig-
+plicable to the diverse alloys. This motivates us to explore why ure2d–f,istheinversefastFouriertransform(IFFT)imagesper-
+FeCoNiRu high-entropy alloy (HEA) remains equally high effi- formedfrom(111),(200),and(220)latticeplanes,whichenable
+ciency even though its surface is covered with a layer of oxide revealingthelatticedefectssuchasstackingfaultsanddisloca-
+formedbyself-reconstruction. tions.Theyellowandredmarksindicatethestackingfaultsand
+HEAs,haveattractedgreatinterestaselectrocatalystsforwa- dislocations,respectively.Thesestackingfaultsanddislocations
+tersplittingthanbinaryandternaryalloysinrecentyearsdueto canacceleratetheelectrochemicalprocessesbydecliningthere-
+theirhugepotentialincompositionandelectronstructureadjust- actionactivationenergy.Theelementalmappingwasexamined
+ment.However,thedifferencesinchemicalandphysicalprop- usingSTEMenergy-dispersiveX-raymapping.Alltheelements
+erties of each element lead to great difficulties in synthesizing areuniformlydistributedwithinnanoparticleswithoutelemental
+single-phaseHEA.Metal-organicframeworks(MOFs)template segregationand/orphaseseparation(Figure2g).Importantly,N
+methodisprovedtobeasimpleandeffectiveapproachtosyn- atomsarealsosuccessfullydopedintocarbonframeworkslead-
+thesizing HEA nanoparticles for the first time in our previous ingtoadditionaldefectactivesitesandimprovementoftheelec-
+work.[14] Therefore, in the present work, FeCoNiRu HEA elec- tricalconductivityoftheelectrocatalyst.[31]
+trocatalystderivedfromhigh-entropymetal-organicframeworks TheadditionalcharacterizationofFeCoNiRu-450wascarried
+(HEMOFs)precursor,isprepared.Thecarbonskeletonderived outusingBET(FigureS6,SupportingInformation),Ramanspec-
+fromMOFprecursorwithaporousstructureandsufficientchan- troscopy (Figure S7, Supporting Information), and X-ray pho-
+nels allows the fast transfer of reaction species, mitigates the toelectron spectroscopy (XPS) (Figure S8, Supporting Informa-
+growthofnanoparticles,andavoidstheiraggregation.Italsoen- tion).TheseresultsareallpresentedinSupportingInformation.
+ablesexcellentstructuralandcompositionalstabilityagainstthe
+HERandOER.Meanwhile,duetothehugedifferenceinelec-
+tronegativitybetweenRuandothertransitionmetals,theaddi- 2.2.HydrogenEvolutionReactionEvaluationofthe
+tionofRuwillgiverisetothenumerousactivesitesoverthesur- FeCoNiRu-450Electrocatalyst
+faceofHEAwhicharebeneficialforbothHERandOER.This
+rendersthealloythatcanactasbothanodeandcathodeatthe Figure 3a shows the electrocatalytic HER performance of as-
+sametimeinanoverallelectrolyticcell.Asaresult,thestabilities prepared electrocatalysts in which FeCoNiRu-450 exhibits the
+of HER and OER can be evaluated simultaneously at identical bestHERcatalyticactivitycomparabletocommercialPt/C,which
+conditions. requires an overpotential of 40 mV to achieve a current den-
+sity of 10 mA cm−2, smaller than FeCoNiRu-350 (122 mV),
+2.ResultsandDiscussion FeCoNiRu-400(61mV),FeCoNiRu-500(117mV),andthecom-
+mercialRuO (87mV).TheelectrocatalyticHERperformanceof
+2
+2.1.CharacterizationoftheFeCoNiRu-450Electrocatalyst FeCoNiRu-450 is also superior to that of the recently reported
+HEAsandnoblemetal-basedHERelectrocatalystscounterparts.
+ThesyntheticprocessofFeCoNiRu-450compositesisschemat- ThecomparisonofthemislistedinTableS1,SupportingInfor-
+ically illustrated in Figure 1a. The FeCoNiRu HEMOFs overall mation.ThesmallerTafelslopeofFeCoNiRu-450(84mVdec−1)
+precursor was viewed to be uniformly assembled as shown in than FeCoNiRu-350 (161 mV dec−1), FeCoNiRu-400 (120 mV
+Figure1b,asecondaryelectronimagetakeninascanningelec- dec−1),FeCoNiRu-500(122mVdec−1),andthecommercialRuO
+2
+tron microscope (SEM) at low magnification. It appears a rice (191mVdec−1),indicatesit’smostfavorablecatalyticHERreac-
+shapewitharoughsurfaceinthemagnifiedimage(Figure1c) tionkineticsclosingtothecommercialPt/C(Figure3b).Nyquist
+Adv.Sci.2023,10,2300094 2300094(2of12) ©2023TheAuthors.AdvancedSciencepublishedbyWiley-VCHGmbH
+
+www.advancedsciencenews.com www.advancedscience.com
+Figure1. Morphologicalandphasestructurecharacterization.a)SchematicofthesynthesisofFeCoNiRuHEAscomposites.b)Lowandc)highmag-
+nificationFESEMimagesandd)XRDspectrumofHEMOFsprecursor.e)Lowandf)highmagnificationFESEMimagesandg)XRDspectrumof
+FeCoNiRu-450.
+curves from as-prepared electrocatalysts were measured using cm−2),FeCoNiRu-400(13.03mFcm−2),andFeCoNiRu-500(9.24
+theelectrochemicalimpedancespectroscopy(EIS)techniqueto mFcm−2),demonstratingthattheFeCoNiRu-450electrocatalyst
+furtherprovethereactionkineticsoftheelectrode.[32,33]Asshown affordsthemostcatalyticactivesites.Tofurtherclarifytheintrin-
+inFigure3c,FeCoNiRu-450showsthesmallestdiameterofthe siccatalyticactivityofelectrocatalysts,turnoverfrequency(TOF),
+semi-arcofchargetransferresistancecomparedtoothers,sug- asanotherpowerfulparameterhasbeencalculated.FeCoNiRu-
+gestingitsexcellentchargetransfercapacity(TablesS2andS3, 450showsaTOFvalueof0.046S−1at𝜂=100mV,whichiscom-
+Supporting Information). The normalized mass activity of pre- parable to the commercial Pt/C electrocatalyst and twice more
+ciousmetalsisanessentialreferencetopracticalapplicationsof than the commercial RuO electrocatalyst (Table S4, Support-
+2
+electrocatalysts.FeCoNiRu-450andthecommercialnoblemetal- ingInformation).ItfurtherprovestheoutstandingHERperfor-
+based electrocatalysts (Pt/C and RuO ) were both estimated at mance of the FeCoNiRu-450 electrocatalyst. Besides, the long-
+2
+𝜂 = 100 mV with the results presented in Figure 3d, where termstabilityofHERelectrocatalystsisconsideredamoreim-
+FeCoNiRu-450 supplies the higher mass activity than the com- portant factor than the activity of catalytic for practical applica-
+mercial Pt/C and 30 times more than that of the commercial tions. The remarkable long-term stability of the FeCoNiRu-450
+RuO .ItisapotentialHERelectrocatalystthatcouldreplacethe electrocatalystwasevaluatedbychronoamperometrictechnique
+2
+commercialPt/Cforpracticalapplications.Inaddition,electro- underreactionconditions(Figure3k).Thecurrentdensityiscon-
+chemicallyactivesurfacearea(ECSA)reflectstheintrinsicHER stantlymaintainedat10mAcm−2 after40h.Itisworthnoting
+catalyticactivityoftheas-preparedelectrocatalysts,whichcanbe thattheHERperformanceoftheFeCoNiRu-450electrocatalystis
+determined by the double-layer capacitance (C ). As shown in alsobetterthanunaryCo,binaryFeCo,ternaryFeCoNi,FeCoRu,
+dl
+Figure3l,theFeCoNiRu-450electrocatalystprovidesthehighest FeNiRu,andCoNiRuelectrocatalystswiththemeasuredresults
+C value(31.48mFcm−2)comparedtoFeCoNiRu-350(4.74mF showninFigureS16andTableS5,SupportingInformation.
+dl
+Adv.Sci.2023,10,2300094 2300094(3of12) ©2023TheAuthors.AdvancedSciencepublishedbyWiley-VCHGmbH
+
+www.advancedsciencenews.com www.advancedscience.com
+Figure2. HAADF-STEMandelementalanalysisofFeCoNiRu-450.a)LowmagnificationSTEMimage,b)highmagnificationSTEMimage(inset:size
+distribution),c)high-resolutionSTEMimage,d–f)theIFFTimagestransformedalong(0−22),(−220),and(−202),g)elementalmaps.
+2.3.OxygenEvolutionReactionEvaluationoftheFeCoNiRu-450 theFeCoNiRu-450electrocatalystsuppliesthehighestmassac-
+Electrocatalyst tivity,18timesmorethanthecommercialRuO and≈40times
+2
+more than the commercial Pt/C. Meanwhile, the TOF value of
+Parallel to the HER, the OER performance of the as-prepared FeCoNiRu-450wascalculatedtobe0.084S−1basedonthesame
+electrocatalysthasalsobeenevaluated.Linearsweepvoltamme- overpotential, which is higher than the commercial RuO and
+2
+try(LSV)curvesshowninFigure3edemonstratethatFeCoNiRu- 28timeslargerthanthecommercialPt/C(TableS4,Supporting
+450deliversthebestOERperformancewiththeminimumover- Information)implyingitssuperiorOERperformance.Thelong-
+potentialvalueofonly243mVrequiredtoreachacurrentden- termstabilityoftheOERelectrodesisalsoconsideredakeyfac-
+sityof10mAcm−2incomparisonwithFeCoNiRu-350(304mV), torinpractice.ThestabilityoftheFeCoNiRu-450electrocatalyst
+FeCoNiRu-400(269mV),FeCoNiRu-500(276mV),commercial isevaluatedbythechronoamperometrictechniqueconvincingof
+RuO (258mV),andcommercialPt/C(346mV).Theelectrocat- itsremarkablelong-termstabilityunderreactionconditions(Fig-
+2
+alyticOERperformanceofFeCoNiRu-450isalsobetterthanthat ure3k).Thecurrentdensityisconstantlymaintainedat10mA
+of the recently reported HEAs and precious-metal-based OER cm−2 after 40 h. Besides, the OER performance of FeCoNiRu-
+electrocatalystcounterparts(TableS7,SupportingInformation). 450 is also better than unary Co, binary FeCo, ternary FeCoNi,
+FeCoNiRu-450alsoexhibitsthefastestcatalyticOERkineticsand FeCoRu,FeNiRu,andCoNiRuasshowninFigureS18andTable
+mechanismoverothers.Figure3fshowsthattheFeCoNiRu-450 S10,SupportingInformation.
+electrocatalystpossessesaTafelslopeof45mVdec−1,whichis
+lowest amongst FeCoNiRu-350 (103 mV dec−1), FeCoNiRu-400
+(50mVdec−1),FeCoNiRu-500(60mVdec−1),commercialRuO 2.4.OverallWaterSplittingEvaluationoftheFeCoNiRu-450
+2
+(79mVdec−1),andcommercialPt/C(132mVdec−1),indicating Electrocatalyst
+itsfastestelectrodereactionkinetics.Itcanbefurtherprovenby
+NyquistcurvesasshowninFigure3g.Thesmallestdiameterof FeCoNiRu-450 combined with the equally outstanding perfor-
+the semi-arc of charge transfer resistance over others suggests mancesinbothcatalyticefficiencyandstabilityofHERandOER
+the superb charge transfer capacity (Figure 3g, Tables S8 and canactasabifunctionalelectrocatalystinanoverallcellforwa-
+S9,SupportingInformation).ThemassactivityofFeCoNiRu-450 ter splitting. Theoverall splitting activity ofFeCoNiRu-450 was
+andcommercialnoblemetal-based(Pt/CandRuO )isbothesti- examined in 1 m KOH in a two-electrode configuration, where
+2
+matedat𝜂=330mVwiththeresultsshowninFigure3h,where FeCoNiRu-450servesbothcathodesforHERandanodeforOER
+Adv.Sci.2023,10,2300094 2300094(4of12) ©2023TheAuthors.AdvancedSciencepublishedbyWiley-VCHGmbH
+
+www.advancedsciencenews.com www.advancedscience.com
+Figure3. ElectrocatalyticperformanceevaluationofFeCoNiRuelectrocatalysts.a)LSV,b)Tafel,c)EIS,d)massactivityforHER,e)LSV,f)Tafel,g)EIS,
+h)massactivityforOER,i)overallwatersplittingwithoutiRcompensation,j)LSVofFeCoNiRu-450‖FeCoNiRu-450beforeandafter3000cycles,k)
+currentdensity-timecurve,andl)C values.
+dl
+withoutiRcompensation(insetofFigure3i).Forcomparison,a The results show that the top sites of metal are the places for
+similartwo-electrodecellconsistingofcommercialPt/Casthe the stable adsorption of H O molecules. The H+ adsorption is
+2
+cathodefortheHERandcommercialRuO astheanodeforthe onlystableonthesurfacehollowsites.Incontrast,theOH−ad-
+2
+OERwasalsoconstructed.AsshowninFigure3i,FeCoNiRu-450 sorptionisstableonthetopsitesofRubesidesthehollowsites.
+prevailsbetteroverallwatersplittingperformancewithacellvolt- For HER in alkaline conditions, the adsorption of H O is con-
+2
+ageof1.563Vtoattainthecurrentdensityof10mAcm−2,than sideredacriticalprocessforthecatalysisofwater.Basedonthe
+commercialnoblemetalformedtwo-electrodesystem(1.565V). calculation, the sequential stability order of H O adsorption is
+2
+Asaconsequence,thehighercurrentdensityathighvoltagepro- numberedinFigure4awiththemoststabletopsiteofRu(Ta-
+videdbytheFeCoNiRu-450catalyticsystemthanthecommercial bleS12,SupportingInformation).ItisdemonstratedthatRuen-
+noblemetalcatalyticsystem,determinesthebettercatalytickinet- ablestheimprovementoftheelectrocatalyticHERperformance
+icsofFeCoNiRu-450thanthecommercialnoblemetalstoward of HEAs. In addition, the desorption of H is the last process
+2
+overall water splitting. In addition, FeCoNiRu-450 also shows of HER. The lower adsorption-free energy of H+ leads to bet-
+prominentoverallwater-splittingstabilityasprovenbythealmost terelectrocatalyticHERperformanceduetostrongerH desorp-
+2
+overlapoftheI–Vcurvebeforeandafter3000cycles(Figure3j). tion.ThehollowsitesmarkedinFigure4brequirethelowesten-
+ergyforH moleculesdesorption,whichispositionednearthe
+2
+Ru atom (see Table S13, SupportingInformation,for more de-
+2.5.DensityFunctionalTheoryCalculation tails).ItisfurtherprovedthatRucanenhancetheelectrocatalytic
+HERperformanceofHEAs.Toin-depthunderstandtheintrinsic
+TorevealtheexcellentoverallwatersplittingperformanceofFe- mechanismthattheRuelementpromotestheHER,thecharge
+CoNiRu,density functionaltheory(DFT)calculations based on densitydifferences(CDD)oftheslabmodelwerecalculated.The
+thefirstprincipaltheorywereperformedinwhichtheslabmodel CDDcanpredictthedirectionofelectronsofeachcompositional
+ofFCCFeCoNiRuwasconstructedandtheMonteCarlomethod elementinHEAsduringtheirformationprocess.Asshownin
+was used to optimize the randomly distributed elements. The Figure4c,Ruatomstendtodonatevalenceelectronstothesur-
+{1 1 1} lattice facet is selected as the exposed surface since it roundinghollowsitesduetothelargedifferenceinelectroneg-
+is most stable over the rest lattice facets (Figure S20, Support- ativity between Ru and other transition metals. For HER, H O
+2
+ingInformation).Allthepossibleadsorptionpositions(i.e.,hol- moleculeswithtwopairsofisolatedelectronseachintendtoad-
+low,bridge,andtopsites)ofH O,H+,andOH−werecalculated. sorbontothesurfacesitesofelementsthatexhibitmoreempty
+2
+Adv.Sci.2023,10,2300094 2300094(5of12) ©2023TheAuthors.AdvancedSciencepublishedbyWiley-VCHGmbH
+
+www.advancedsciencenews.com www.advancedscience.com
+Figure4. DFTcalculations.a)ThetopsitesforH Oadsorption.b)ThehollowsitesforH+adsorption.c)AppendwiththeCDDplotforthealloymodel.
+2
+Theisovaluewasset0.012eVbohr−3.Thepinkcolorindicatestheaccumulationofelectrons.d)Baderanalysis.e)H O,H,andOHadsorptionfree
+2
+energyofFeCoNiRuHEA,ternaryFeCoNialloy,binaryFeCoalloy,andunaryCo.f)TheRutopsitesandhollowsitesforOH−adsorption.g)Schematic
+oftheOERmechanismontheRutopsite1andhollowsite32(Fe-Fe-Fe).YellowisRu,cyanisNi,greenisCo,brownisFe,redisO,andgreyisH.
+orbits.Therefore,theRutopsiteisthepreferentialplaceforH O thesesiteswerealsocalculated.TwoRutopsiteswiththelowest
+2
+adsorption.Meanwhile,valenceelectronsaccumulateatthehol- OH− adsorption-freeenergyaremarkedbypurplenumbersin
+lowsitesnearRuatomsandtheirfillingintotheantibondingor- Figure4fwiththeircorrespondingadsorption-freeenergiespre-
+bitalsoftheadsorbatewillweakenthecouplingstrengthbetween sentedinTableS14,SupportingInformation.Duetotheconsis-
+theadsorbateandalloysurface.[34]Inaddition,todeterminethe tentchangesofthereactionenthalpyacrossthewholeOERpath-
+electrongainsandlossesofeachsurfaceatom(Figure4d,apos- way,thelowerOH−adsorption-freeenergyisassociatedwiththe
+itivenumbermeansthegainofelectrons,andnegativenumber lower O desorption energy, that is, better electrocatalytic OER
+2
+thelossofelectrons),theworsechargeofthesurfaceatomswas performance. The free energy of the entire OER reaction path
+calculated.[35] Theresultsshowthattheelectronstransferfrom fortheRutopsite(thelowestOH− adsorption-freeenergy)and
+theatomofRutothetransitionmetalatomsincloseofRu.These thehollowsite32(thehighestOH−adsorptionenergy)werefur-
+transitionmetalatomsgainadditionalelectronsresultinginthe thercalculated.ThefreeenergyofeachOERstepattheRutop
+electron-enrichedhollowsitesthatweakentheadsorptionenergy siterisesupcomparedtothehollowsite32(Figure4g)demon-
+ofH .TheRutopsitesarethebestpositionforH Oadsorption stratingthattheincorporationofRuisfavorablefortheOERof
+2 2
+whilstthehollowsitesclosetoRuarethepreferentialpositions HEAs.Besides,thecalculationsoftheOH-adsorptionfreeenergy
+forH desorption.ApartfromtheFeCoNiRusystem,theH O/H- ofunaryCo,binaryFeCo,andternaryFeCoNialloysshowthatthe
+2 2
+adsorptionfreeenergyofunaryCo,binaryFeCo,andternaryFe- FeCoNiRu HEA exhibits the lowest OH-adsorption free energy
+CoNialloyswerealsocalculated.AsshowninFigure4e,theFe- overothers(Figure4e).Thisisadditionalevidencetoprovethat
+CoNiRuHEApresentsthestrongestH O-adsorptionfreeenergy theRuaccommodatedinHEAscanfurtherenhancetheOERper-
+2
+andlowestH-adsorptionfreeenergyoverothers,provingthatthe formanceingoodalignmentwiththeexperimentalresultsabove.
+FeCoNiRuHEAwinsthebestHER.
+Hence,theadditionoftheRuelementenablessignificantHER
+enhancement,inagreementwiththeexperimentalresultsabove. 2.6.SurfaceStructuresoftheFeCoNiRu-450Electrocatalystupon
+Incontrast,theOERisamorecomplexreactionprocessthatin- theLong-TermHydrogenEvolutionReactionStabilityTest
+volvesafour-electrontransferinthecourseofOH− adsorption
+andO desorption.SinceOH−canbestablyadsorbedonbothRu However, the highly efficient catalytic performance of electro-
+2
+topsitesandhollowsites,theadsorptionenergiesofOH− over catalysts is not interlinked with the stability in the long-term
+Adv.Sci.2023,10,2300094 2300094(6of12) ©2023TheAuthors.AdvancedSciencepublishedbyWiley-VCHGmbH
+
+www.advancedsciencenews.com www.advancedscience.com
+Figure5. Morphologicalcharacterization.a)FESEMandb,c)HRTEMofFeCoNiRu-450electrocatalystsaftertheHERLSVtest.d)FESEMande,f)
+HRTEMofFeCoNiRu-450electrocatalystsaftertheHERstabilitytest.g)Themodelofspineloxide,yellowtrianglerepresenthollowsite.h)Water
+adsorptionfreeenergyofRutopsiteofFeCoNiRu-450andFe Ni Co hollowsiteofspineloxide,tet,andoctrepresenttetrahedronandoctahedron.
+tet oct oct
+i)Hydrogenadsorptionfreeenergyofhollowsiteswithdifferenttetrahedronatoms.
+run. Catalysis relies on the surface configuration of intrinsic formation).Anotherparticleencapsulatedbythelayeredcarbon
+catalysts in contact with electrolytes. This is different from the (Figure5c)isalsoremainedasthepurealloydemonstratedfrom
+long-termstabilityofcatalystsascontrolledbythesurfaceself- theFFT(inset)andisfreefromoxidization.Likewise,itcontains
+reconstructionevolutionprocesswhensubjecttothecyclicpo- manylatticedefects(suchasstackingfaultsanddislocations)as
+tential externally applied. Before the stability test, the morpho- seen from the IFFT images taken from different lattice planes
+logical and phase structures formed over the surface of the (FigureS23,SupportingInformation).Theseresultsconvinced
+FeCoNiRu-450 electrocatalyst right after the LSV process were thefactthatthereductionreaction(i.e.,HER)occursonthecat-
+first analyzed by using SEM and transmission electron micro- alystsurfaceduringLSV.
+scope(TEM)sinceLSVwasreportedtoenabletheactivationof The HER stability test of FeCoNiRu-450 was carried out af-
+the working electrode surface.[36–39] One of the SEM images is teralonger-termduration(40h).Ingeneral,thedissolutionof
+showninFigureS21a,SupportingInformation,wheretherice- electrocatalysts is one of the challenges of holding their stabil-
+shaped structures are seen to be uniformly covered across the ity. Therefore, to clarify that the catalyst is free from dissolu-
+entireNifoamsurface.Theserice-shapedstructuresarecarbon tionduringthestabilitytest,theelectrolyteafterHERwasmea-
+skeletonsasverifiedfromthemagnifiedSEMimage(Figure5a sured by using ICP-MS. As shown in Figure S24, Supporting
+and inset) and are decorated with many nanoparticles. These Information, all the elements experience an extremely low dis-
+nanoparticles were further examined in TEM at a high resolu- solutionrateaftertheHERstabilitytestathighcurrentdensity
+tion. Figure 5b is one of the TEM images showing the surface under the strong alkaline condition, indicating its outstanding
+latticestructurewithdifferentphasecontrasts.ThefastFourier compositionalstabilityupontheelectrocatalyticprocess.Suchre-
+transform (FFT) pattern (inset in Figure 5b), a reciprocal im- markablestabilityisbenefitedfromtheprotectivecarbonskele-
+agetransferredfromthenanoparticlemarkedbythecyansquare tonandhighcorrosionresistancenatureofHEAs.FigureS21b,
+fullyexposedtotheelectrolyte,isindexedalongazoneaxisof[1 SupportingInformation,andFigure5daretheimagestakenin
+01]andcontributedfromthepurealloywithoutbeingoxidized. SEMatbothlowandhighmagnifications.IdenticaltotheLSV
+Theparticleremainsintactwithoutbeingdestroyedalthoughitis test,therice-shapedFeCoNiRu-450structuresareuniformlyfree-
+viewedtobeverylatticedefectiveasindicatedbytheIFFTimages standingoverthesurfaceofNifoam(FigureS21b,Supporting
+convertedfromvariouslatticeplanes(FigureS22,SupportingIn- Information).Theymaintaintheiroriginalmorphologywithout
+Adv.Sci.2023,10,2300094 2300094(7of12) ©2023TheAuthors.AdvancedSciencepublishedbyWiley-VCHGmbH
+
+www.advancedsciencenews.com www.advancedscience.com
+collapsing,agglomeration,andpeelingoff(Figure5d).Thisin- dron site, almost all the hollow sites show more negative H O
+2
+dicatestheoutstandingstructuralstabilityoftheFeCoNiRu-450 adsorption-freeenergywhenFeandCooccupytetrahedron(Ta-
+electrocatalystandthehighresistancetothestrongmechanical bleS15,SupportingInformation),verifyingthatthehollowsites
+impactinducedbythebubblingofalargenumberofhydrogen havestrongerH OadsorptionabilitywhenFeandCoarelocated
+2
+moleculesathighcurrentdensities.Meanwhile,thenanoparti- attetrahedron.Thisisalsoinagreementwiththeexperimentre-
+clesuniformlydecoratedonthesurfaceofcarbonskeletonsare sultsthatFeandCotendtooccupytetrahedronsitesmorepref-
+stillvisibleanddistinct(Figure5dandinset),whichfurtherprove erentiallythanNiduringthesurfaceself-reconstructionprocess.
+thestabilityofFeCoNiRu-450nanoparticleswhensufferingfrom The same results are also discovered for hydrogen adsorption-
+theHERinthealkalinecondition.TheseFeCoNiRu-450nanopar- freeenergy.Forallthehollowsites,comparedwithNiposition-
+ticles after the HER stability test were immediately transferred ing at tetrahedron sites, the occupation of Fe and Co at tetra-
+intoTEMforadditionalanalysis.Figure5eisahigh-resolution hedron sites brings about the hydrogen adsorption-free energy
+TEM (HRTEM) where a thin layer (around 5 nm in thickness) closertozero(TableS16,SupportingInformation,andFigure5i).
+isseentobegrownfromtheoriginalsurfaceofthecatalyst.It Itconsequentlymakesmoreefficienthydrogenadsorptionand
+consistsofnanocrystalswhicharedeterminedtohaveaspinel desorptionprocessduringHER,leadingtoextremelyhighelec-
+structureintheformofAB O byusingtheanalysisofFFT(yel- trocatalyticHERactivityoftheelectrocatalyst.[42,43]Theseresults
+2 4
+lowsquareinsetinFigure5eandFigureS26c,SupportingInfor- demonstratethatthelong-termHERstabilityofFeCoNiRu-450
+mation)takenalongazoneaxisof[101].Thisspinelcrystalis originatesfromthesurfaceself-reconstructionprocess.
+theresultofthelong-termreactionoccurringintheinterfacebe-
+tweenthecatalystandalkalinesolution.Thespineloxidecrystal
+unitcellispackedbyCo,Fe,orNiatomsthatoccupytetrahedron 2.7.SurfaceStructuresoftheFeCoNiRu-450Electrocatalystupon
+sites,andNi,Fe,Co,orRuatomsarepositionedatoctahedron theLong-TermOxygenEvolutionReactionStabilityTest
+sites.Ruhasthelargestatomicsizethatisincorporatedinthe
+spinellatticeandaccommodatesattheoctahedronsites.Cotends Basedontheexperimentsabove,theFeCoNiRu-450electrocata-
+tooccupythetetrahedronsitesandwhilstNiresidestowardocta- lystcanprovideequivalentlyexcellentOERstability.Toactivate
+hedronsites.Sothecompositionalphaseofthespinelstructure theFeCoNiRu-450surface,theLSVtestforOERwasalsocarried
+inthecaseofHERisreasonablypredictedtobe(Fe,Co)(Fe,Ni, out first before the stability assessment, which is subsequently
+Ru) O .ThispredictionisfurtherprovenbytheXPSexamina- observed in SEM and TEM. Figure S31a, Supporting Informa-
+2 4
+tion.TheresultsshowthatFe2+andFe3+ ionsremainedalmost tion, and Figure 6a display two images with one taken at low
+identicalacrosstheoxidefilm(FigureS29a1,SupportingInfor- magnificationandtheotherathighmagnificationrespectively.
+mation). The main valences of Co and Ni are correspondingly Figure S31a, Supporting Information, presents a uniform dis-
+associatedwith+2and+3determinedfromthehigh-resolution persionofrice-shapedstructureswhichareagaincarbonskele-
+Co2pandNi2pspectrum(FigureS29b1,c1,SupportingInfor- tons. These skeletons appear in their original geometry with-
+mation).Asaconsequence,wecanclaimthatthegrownthinox- out any deterioration. Their surface are seen with the decora-
+idelayerisconstructedbythespinelphase(i.e.,(Fe,Co)(Fe,Ni, tion of nanoparticles (Figure 6a and inset). These results indi-
+Ru) O ).Thestructureandhollowactivesitesofspineloxideare catetheinitialstabilityoftheFeCoNiRu-450electrocatalystinre-
+2 4
+inheritedfromtheoriginalHEAcatalyst.Inaddition,theincor- sponsetotheOERLSVtest.Thetwotypesofnanoparticlesare
+poration of the external elements into the spinel structure will alsovisualizedthroughthesurfaceself-reconstructionprocessof
+enablethedevelopmentofthedefectsandlatticestrainoverthe FeCoNiRu-450nanoparticlesundertheOERtest.Thenanoparti-
+surfacethatfacilitiestheHERforhighhydrogenproduction(Fig- cleistheoneexposedtotheelectrolytewhichiscoatedbyathin
+ureS26,SupportingInformation).Itisnotedthattherearevast layer(Figure6b).Thegrowthofthethinoxidelayerisresulted
+carbon-encapsulated nanoparticles that are not directly in con- from the surface self-reconstruction process of the FeCoNiRu-
+tactwiththeelectrolyte.Theyhavebeenreportedtobeequally 450whenitundergoestheOERprocess.Theoxideisidentifiedto
+contributedtoHER.[40,41]Figure5fisanexamplewherethepar- bealsoaspinelstructurebyusingHRTEMthroughtheanalysis
+ticlemarkedbythecyansquareisacarbon-encapsulatedone.It oftheFFTpattern(yellowsquareinsetinFigure6b).Figure6c
+isremainedapurealloywithoutbeingoxidizedduringthelong- showstheothertypeofnanoparticlewhichismarkedbythecyan
+termHERprocess.Itisthecarbonlayerthatisresponsiblefor square.TheinsetisthecorrespondingFFTpattern,whichisgen-
+thenon-oxidizationoftheparticle. eratedfromthepurealloywithoutbeingoxidized.Itisthecarbon
+To further elucidate the HER performance of the spinel ox- layerthatpreventsthealloyfromoxidization.
+idewhichisinsituformedonthesurfaceofFeCoNiRu-450dur- When FeCoNiRu-450 experiences a long-term OER stability
+ingtheHERstabilitytest,DFTcalculationswerecarriedout.For test, the electrolyte was measured using ICP-MS to determine
+spineloxide,asshowninFigure5g,thehollowsitesconsistof thedissolutionrateofalltheelements(FigureS24,Supporting
+twooctahedronatomsandonetetrahedronatom.Accordingto Information).Theresultsshowtheextremelylowdissolutionrate
+theanalysisabove,Fe,Co,orNiatomsarepositionedatthetetra- ofalltheelementsaftertheOERlong-termstabilitytestathigh
+hedron,andFe,Co,Ni,orRuatomsoccupyatoctahedrons.Inthe current density under the strong alkaline condition, indicating
+alkaline condition, H O adsorption is the first and critical pro- itsbrilliantcompositionalstabilityoftheelectrocatalyticprocess.
+2
+cessofHER.Thespineloxideexhibitsastrongerwateradsorp- Thisexcellentstabilityshouldbebeneficialfromtheinertcarbon
+tionabilitythanFeCoNiRu-450duetoitslargerwateradsorption skeletonandHEAitselfwithhighcorrosionresistance.Afterthe
+free energy (Tables S12 and S15, Supporting Information, and OERlong-termstabilitytest,thesurfaceofFeCoNiRu-450turns
+Figure5h).Moreimportantly,comparedwithNiatthetetrahe- toFigure6d–fandshowsthemorphology(i.e.,thecarbonskele-
+Adv.Sci.2023,10,2300094 2300094(8of12) ©2023TheAuthors.AdvancedSciencepublishedbyWiley-VCHGmbH
+
+www.advancedsciencenews.com www.advancedscience.com
+Figure6. Morphologicalcharacterization.a)FESEMandb,c)HRTEMofFeCoNiRu-450electrocatalystsaftertheOERLSVtest.d)FESEMande,f)
+HRTEMofFeCoNiRu-450electrocatalystsaftertheOERstabilitytest.g)OERenergydiagramofhollowsiteswithdifferenttetrahedronatoms.
+tondistributionandgeometricalshape)thatisalmostidenticalto CoandNiarecorrespondinglyassociatedwith+3and+2deter-
+theprevioussurfaceaftertheLSVtest(FigureS31b,Supporting minedfromthehigh-resolutionCo2pandNi2pspectrum(Fig-
+Information, and Figure 6d). Nanoparticles are also uniformly ureS43b1,c1,SupportingInformation).Thenanoparticle“C”in
+dispersedacrossthecarbonskeletons(Figure6dandinset)and Figure6fremainsthepurealloywithoutoxidizationasverified
+fully oxidized. The fairly smooth surface in Figure 6d and the fromtheFFTpattern(FigureS41,SupportingInformation).As
+inset is the evidence that a thin oxide layer seems to cover the such,itisreasonabletoestimatethedistancebetweentheedge
+entiresurfaceofthecarbonskeleton.Thisoxidelayerisfurther and the left surface of particle C as the oxide surface, which is
+determinedfromFigure6ewhereallcatalystnanoparticleshave measuredtobe≈10nm.
+beenoxidized(suchasthoseyellowsquaremarkedareas:1–4). DFTcalculationswereusedtofurtherclarifytheOERperfor-
+SameastheLSVtest,theoxideisaspinelstructure,determined manceofthespineloxidewhichisinsituformedonthesurface
+fromtheFFTsof1’-4,’A,’andB’(thecorrespondingFFTspat- of FeCoNiRu-450 during the OER stability test. For OER in al-
+ternshowninFiguresS35–S40,SupportingInformation).Itcon- kalineconditions,thelowerOH− adsorptionfreeenergycorre-
+sistsofspinelnanocrystalswhichhaveastructureintheformof spondstothesmallerO desorptionfreeenergy,demonstrating
+2
+AB O asprovenbytheFFT(FiguresS35–S40,SupportingIn- betterelectrocatalyticOERperformance.Therefore,theOH−ad-
+2 4
+formation).ThespineloxidecrystalunitcellispackedbyCo,Fe, sorptionfreeenergyofallthehollowsiteswascalculated.Com-
+orNiatomsthatoccupytetrahedronsitesandNi,Fe,Co,orRu paredwithFeandCooccupyingtetrahedronsites,almostallthe
+atomspositionedatoctahedronsites.Ruhasthelargestatomic hollowsitesshowlowerOH−adsorptionfreeenergywhenNiis
+sizethatisincorporatedinthespinellatticeandaccommodatesat positionedattetrahedronsites(TableS17,SupportingInforma-
+theoctahedronsites.CoandNitendtooccupytheoppositesites tion).ItisalsoinagreementwiththeexperimentresultsthatNi
+afterHER,thatis,theoctahedronandtetrahedronsites,respec- tendstooccupytetrahedronsitesmorepreferentiallythanFeand
+tively.Asaresult,thecompositionalphaseofthespinelstructure Co during the surface self-reconstruction process. In addition,
+inthecaseofOERisreasonablyidentifiedtobe(Fe,Ni)(Fe,Co, duetobothCoandRuthattendtopositionatoctahedron,thefree
+Ru) O ,asfurtherverifiedbytheXPSanalysis.Theresultsshow energyoftheentireOERreactionpathforNi -Ru -Co ,Co -
+2 4 tet oct oct tet
+thatFe2+andFe3+ionsarealmostidenticalacrosstheoxidefilm Ru -Co ,andFe -Ru -Co hollowsiteswerecalculated.As
+oct oct tet oct oct
+(Figure S43a1, Supporting Information). The main valences of showninFigure6g,Ni -Ru -Co hollowsitepresentsthelow-
+tet oct oct
+Adv.Sci.2023,10,2300094 2300094(9of12) ©2023TheAuthors.AdvancedSciencepublishedbyWiley-VCHGmbH
+
+www.advancedsciencenews.com www.advancedscience.com
+est OH− adsorption free energy (ΔG ) and O desorption free ofC H O mixedwith4.5mLofDMF,0.27mLofanhydrousethanol,and
+1 2 8 6 6
+energy(ΔG )overothers,indicatingthatthishollowsiteexhibits 0.27mLofdeionizedwatersolventforatleast30minwithsonication
+4
+the best electrocatalytic OER performance. It is also consistent formingauniformsolution.Subsequently,thesolutionwasimmediately
+transferredintoa10mLautoclavewithapieceofacid-treatedNFfixed,
+with the analysis above. Moreover, Ni -Ru -Co hollow site
+tet oct oct whichwasfollowedbyverticallyimmersingitintothesolution.Afterthat,
+wascalculatedtohavethesmallestfreeenergychangeattherate-
+theautoclavewasheatedto150°Candremainedfor48hallowingthe
+determining step, further suggesting that this hollow site with solvothermalreaction.Finally,thequaternaryHEMOFs/NFproductswere
+NioccupyingthetetrahedralsitestopstheOERoftheHEA(Fig- washedwithDIwater,DMF,andEtOHinsequenceseveraltimesanddried
+ure 6g). Furthermore, except for the slightly higher OOH* re- at60°C.
+action formation free energy than Co -Ru -Co hollow site, Synthesisofunary,binary,andternaryMOFsprecursorwasthesameas
+tet oct oct
+thesynthesisofquaternaryHEMOFs,additionofcorrespondingprecursor
+Ni -Ru -Co hollowsitepresentsthelowestreactioninterme-
+tet oct oct salt,respectively.
+diates(OH*,O*,andOOH*)formationfreeenergyoverother
+Synthesis of FeCoNiRu High-Entropy Alloys: Synthesis of FeCoNiRu
+hollow sites (Figure 6g). This fact demonstrates that Ni occu- HEAsnanoparticles@N-dopedporouscarbon/NF:FeCoNiRu-X(X=1,2,
+pying tetrahedron sites can accelerate the entire OER reaction 3,4,5)werecarriedoutthroughthepyrolysisofHEMOFs/NFprecursors
+pathway. These DFT calculations unravel that the surface self- inatubefurnaceatdifferenttemperatures.TheHEMOFs/NFprecursors
+reconstruction process enables the long-term sustainable OER werefirstpretreatedat350°Cfor1h,andthenwentonheatingatdifferent
+stabilityofFeCoNiRu-450.
+temperatures(i.e.,350,400,450,500,and550°C,denotedasFeCoNiRu-
+350, FeCoNiRu-400, FeCoNiRu-450, FeCoNiRu-500, and FeCoNiRu-550,
+respectively)forcarbonizationandmaintainedateachtemperaturefor
+2hwitharamprateof5°Cmin−1 andunderamixedgasH /Ar(5%
+2
+3.Conclusion H )flow.NotethattheloadingmassofactivematerialofFeCoNiRu-350,
+2
+FeCoNiRu-400,FeCoNiRu-450,andFeCoNiRu-500compositesonNFwas
+Insummary,FeCoNiRuHEAelectrocatalystissuccessfullypre- estimatedtobe≈2.00,≈0.65,≈0.34,and≈0.19mgcm−2,respectively.
+paredandevaluatedtoprovidebothhighcatalyticefficiencyand Synthesisofunary,binary,andternaryalloysfollowedthesameproce-
+excellent long-term stability for water redox. The results reveal durestepsasthesynthesisofFeCoNiRu-450apartfromthealternationof
+differentprecursortemplatesinatubefurnace.
+that the intrinsic hollow active sites dispersed over the surface
+MaterialCharacterization: Themorphologiesofthesynthesizedma-
+of the catalyst contributed to the high performances of HER
+terialswereexaminedusingfield-emissionscanningelectronmicroscopy
+and OER. However, the same hollow active sites preserved in (Regulus8100,Hitachi,Japan).TheHAADF-STEMandenergy-dispersive
+thespinelstructureareinheritedfromtheoriginalHEAcatalyst X-rayspectroscopymappingwereperformedbyaJEOLJEM-ARM200F
+whensubjecttotheexternalpotential/currentapplied.Theyare withdoublesphericalaberrationcorrectors.XRDpatternswerecollected
+susceptibletoH+andOH−andfacilitatethecorrespondingHER usinganX-raydiffractometer(UltimaIV,Rigaku,Japan)withCuK𝛼radi-
+andOER.Thisunravelsthatthecatalystconstantlyremainshigh
+ation(𝜆=1.5406Å).RamanmeasurementswereperformedonaRaman
+spectrometer(HR800,HoribaJobin-Yvon,France)usinga532nmlaser.
+catalyticactivityafter40h’sstabilitytest.Inaddition,theaccom-
+ThespecificsurfaceareawasdeterminedfromtheresultsofN physisorp-
+modationofRuinthecatalystbringsaboutthedistortionofthe 2
+tionat77K(MicromeriticsASAP2460,Micromeriticsinstrumentcorpora-
+surfacelatticeaswellasdefectsthatalsospeedsuptheHERand tion,USA)byusingtheBET(Brunauer-Emmet-Teller).XPSwasrecorded
+OER.Itisbelievedthatthisworkwillprovidenewinsightinto usinganX-rayphotoelectronspectrometer(EscalabXi+,ThermoFisher
+thesurfaceself-reconstructionofelectrocatalystsunderHERand
+Scientific,USA),withnon-monochromatizedAlK𝛼X-raysastheexcitation
+OERreactionconditionsandabenchmarkfortheevaluationof source.ThecontentofmetalelementswasmeasuredusinganICP-MS
+(icap6300,ThermoFisherScientific,USA).
+theefficiency–stabilityrelationship.
+ElectrochemicalMeasurements: Alltheelectrochemicalmeasurements
+were conducted on an electrochemical workstation (Autolab PGSTAT
+302N)withastandardthree-electrodesetupatroomtemperaturewhere
+4.ExperimentalSection theas-preparedelectrocatalystmaterialswereusedastheworkingelec-
+trodeandthegraphiterodandAg/AgClelectrodeinsaturatedKClserved
+Experimental Procedures: Chemicals and Reagents: Iron ac- asthecounterandreferenceelectrodes,respectively.Itshouldbenoticed,
+etate tetrahydrate (Fe(CO CH ) ·4H O), cobalt nitrate hexahydrate topreparethecommercialPt/CandRuO electrocatalystastheworking
+2 3 2 2 2
+(Co(NO ) ·6H O), ruthenium acetylacetonate (C H O Ru), N,N- electrodeforcomparison,5mgcatalystsweredispersedinamixedsol-
+3 2 2 15 21 6
+Dimethylformamide(DMF,C H NO),potassiumhydroxide(KOH),the ventthatcontains360μLdeionizedwater,120μLisopropanol,and20μL
+3 7
+commercial Pt/C 20 wt% catalyst, and the commercial RuO catalyst Nafion(5%),followedbysonicationforatleast30minformingahomoge-
+2
+were purchased from Shanghai Macklin Biochemical Co. Nickel nitrate neousink.ThecatalystinkwasthenloadedontothesurfaceofNFfollowed
+hexahydrate (Ni(NO ) ·6H O), isopropanol (C H O), and anhydrous bydryingatroomtemperature.
+3 2 2 3 8
+ethanol(C H O)wereboughtfromBeijingTongguangFineChemicals TheHERandOERperformanceswereevaluatedinN -saturatedand
+2 6 2
+Company. 5 wt% Nafion solution, and 2,5-dihydroxyterephthalic acid O -saturated1mKOHsolution,respectively.Theelectrocatalyticactivity
+2
+(C H O ) were obtained from Sigma-Aldrich. Hydrochloric acid was oftheas-preparedsampleswasexaminedbyLSVatascanrateof10mV
+8 6 6
+acquiredfromSinopharmchemicalreagentCo.Ltd.Allthereagentswere s−1.AllthemeasuredLSVpotentialsinthisworkwereperformedwithiR
+usedasreceivedwithoutanyfurtherpurification. compensation(90%).TheEISspectrawerecollectedinafrequencyrange
+SynthesisofQuaternaryFeCoNiRuHigh-EntropyMetal-OrganicFrame- of100kHzto0.01Hzatanoverpotentialcorrespondingto10mAcm−2
+worksPrecursor: Beforethesynthesis,thepurchasedNifoam(NF)was currentdensity.Thecycledurabilitywasmeasuredbycyclicvoltammetry
+washedindilutehydrochloricacidtoremovetheoxidelayerontheirsur- (CV,sweeprate,100mVs−1)andachronoamperometricresponse.
+face.TheNFwasthenultrasoniccleanedindeionizedwaterandtrans- OverallWaterSplitting: Theoverallwatersplittingwasrecordedina
+ferredinanhydrousethanoltorepeatultrasoniccleaning,followedbydry- two-electrodesystemin1mKOHsolution.TheFeCoNiRu-450servedas
+ing.ThesynthesisofquaternaryHEMOFs/NFstartedwiththedissolu- bothnegativeandpositiveelectrodesforHERandOER.Forcomparison,
+tionof0.06mmolofFe(CO CH ) ·4H O,0.06mmolofCo(NO ) ·6H O, thecommercialPt/CandRuO electrocatalystloadonthesurfaceofNFas
+2 3 2 2 3 2 2 2
+0.06mmolofNi(NO ) ·6H O,0.10mmolofC H O Ru,and0.10mmol negativeandpositiveelectrodesforHERandOER,respectively.Thecom-
+3 2 2 15 21 6
+Adv.Sci.2023,10,2300094 2300094(10of12) ©2023TheAuthors.AdvancedSciencepublishedbyWiley-VCHGmbH
+
+www.advancedsciencenews.com www.advancedscience.com
+mercialPt/CandRuO electrocatalystloadingsarethesame(i.e.,0.34mg SupportingInformation
+2
+cm−2).
+Theelectrochemicalactivesurfacearea(ECSA)ofthecatalystwasesti- SupportingInformationisavailablefromtheWileyOnlineLibraryorfrom
+matedusingthefollowingequation: theauthor.
+ECSA=C C (1)
+dl s
+Acknowledgements
+whereC andC representthedouble-layercapacitanceandspecificca-
+dl s ThisworkwassupportedbytheNaturalScienceFoundationofBeijing
+pacitance,respectively.TheC valuewasmeasuredfromcyclicvoltamme-
+try(CV)curvesatdifferentsca d n l rates(10,20,30,40,50mVs−1)withinthe Municipality(GrantNo.2212037),theNationalNaturalScienceFounda-
+tionofChina(GrantNos.51771027,51901018,and21676216),theFun-
+non-faradaicpotentialrangeof0.05–0.10VversusRHE,andbyplotting
+Δj=(j −j )/2at0.075VversusRHEasafunctionofthescanrate.The damentalResearchFundsfortheCentralUniversities(GrantNo.FRF-AT-
+a c 20-07),theNationalScienceandTechnologyResourcesInvestigationPro-
+slopeofthelinearfitcorrespondstotheC value.
+dl gramofChina(GrantNo.2019FY101400),YoungEliteScientistsSpon-
+TheTOFvalueswerecalculatedfromtheequation:
+sorshipProgrambyChinaAssociationforScienceandTechnology(YESS,
+JA 2019QNRC001),andSingaporeMOEAcRFTier1(GrantNo.RG79/20).
+TOF= (HER) (2)
+2Fn
+JA ConflictofInterest
+TOF= (OER) (3)
+4Fn
+Theauthorsdeclarenoconflictofinterest.
+whereJisthecurrentdensityatacertainoverpotential,Aisthesurfacearea
+oftheelectrode,2and4isthemoleofelectronstransferredtogenerate
+AuthorContributions
+onemoleofH andO ,respectively,FistheFaradayconstant(96485C
+2 2
+mol−1),andnisthenumberofmolesofactivesites.TOFswererecorded
+K.H.,J.X.,andY.L.contributedequallytothiswork.K.H.,B.Z.,J.W.,and
+basedontheassumptionthatalltransitionmetalatomsinthesamples
+Y.H.designedthestudy.K.H.andJ.X.performedtheexperimentsandan-
+arecatalyticallyactive.
+alyzedthedata.K.H.andY.L.draftedthemanuscript.W.S.andC.C.setup
+DensityFunctionalTheoryCalculations: TheDFTcomputationswere
+obtainedwiththeGGA-PBEexchange-correlationfunctional[44]asimple- themodelandexecutetheDFTcalculations.X.C.,X.Z.,L.M.W.,andT.W.
+mented in the Vienna Ab initio simulation package.[45] The initial slab implementedtheanalysisofexperimentalandDFTcalculationdata.J.W.
+modeloftheFCCHEAcontaining64atoms(Ru:Ni:Co:Fe=7:21:21:15) andY.H.supervisedtheresearch.Allauthorsdiscussedtheresultsand
+revisedthemanuscript.
+wasconstructedbyrandomlysubstitutingelements.AhybridMonte-Carlo
+molecular-dynamicswasthenperformedtosearchthestabledistributions
+ofelements.MonteCarloswapsofatomswereperformedateachof10
+DataAvailabilityStatement
+molecular-dynamicsstepsandtheswapprobabilitiesweredictatedbya
+Metropoliscriterion.Theslabmodelobtainedfromthefinalstructureafter
+Thedatathatsupportthefindingsofthisstudyareavailablefromthecor-
+5000stepsisshowninFigureS20,SupportingInformation.Theinterac-
+respondingauthoruponreasonablerequest.
+tionbetweenvalenceelectronsandioniccoreswasdescribedbyprojected
+augmented waves with a cut-off energy of 400 eV. 3 × 3 × 1 Gamma-
+centeredMonkhorst-Packk-gridsareemployedduringcalculations.The
+convergencethresholdwassetas1.0e−6eVinand0.02eVÅ−1inforce, Keywords
+respectively.
+atomic lattice hollow sites, high-entropy alloys, overall water splitting,
+Inaddition,unaryCo,binaryFeCo,andternaryFeCoNialloyswerealso
+spineloxide,surfaceself-reconstruction
+calculatedusingthesamemethodwithFeCoNiRuHEA.Theslabmodel
+contains64atomswiththeatomsratioofFe:Co=1:1forbinaryFeCoalloy
+andFe:Co:Ni=1:1:1forternaryFeCoNialloy. Received:January5,2023
+TheCalculationofFreeEnergies: Theadsorption-freeenergyofH/H O Revised:February12,2023
+2
+(ΔG ,MrepresentHorH O)isusuallyusedtoevaluatetheHERactivity, Publishedonline:March22,2023
+M* 2
+andiscalculatedby
+ΔG M∗ =ΔE M∗+ΔZPE−TΔS (4)
+[1] S.Yang,J.-Y.Zhu,X.-N.Chen,M.-J.Huang,S.-H.Cai,J.-Y.Han,J.-S.
+wheretherespectiveΔE M* ,ΔZPE,andΔSrepresentthebindingenergy, Li,Appl.Catal.,B2022,304,120914.
+zeropointenergychange,andentropychangeofH*orH 2 O*adsorption. [2] L.N.Zhang,Z.L.Lang,Y.H.Wang,H.Q.Tan,H.Y.Zang,Z.H.Kang,
+TheΔG H2O∗ ateachtopsiteandΔG H* ateachhollowsitearescannedas Y.G.Li,EnergyEnviron.Sci.2019,12,2569.
+showninFigure4a,bandTablesS12andS13,SupportingInformation. [3] Q.Ju,R.Ma,Y.Pei,B.Guo,Z.Li,Q.Liu,T.Thomas,M.Yang,G.J.
+Theadsorption-freeenergyofOH(ΔG )iscalculatedby
+OH* Hutchings,J.Wang,Adv.EnergyMater.2020,10,2000067.
+[4] I.Roger,M.A.Shipman,M.D.Symes,Nat.Rev.Chem.2017,1,0003.
+ΔG =ΔE −𝜇 + 1𝜇 +ΔG (5) [5] F.Song,L.Bai,A.Moysiadou,S.Lee,C.Hu,L.Liardet,X.Hu,J.Am.
+OH∗ OH∗ H2O 2 H2
+Chem.Soc.2018,140,7748.
+whereΔE andΔGrepresenttherespectivebindingenergyofOHand [6] C.C.L.McCrory,S.Jung,I.M.Ferrer,S.M.Chatman,J.C.Peters,T.
+OH*
+relativecontributionsfromvibrationalenergyincludingzeropointenergy F.Jaramillo,J.Am.Chem.Soc.2015,137,4347.
+andinternalenergy.𝜇 and𝜇 representthecorrespondingfreeen- [7] F.-Y.Chen,Z.-Y.Wu,Z.Adler,H.Wang,Joule2021,5,1704.
+ergiesofH OandH H2 m O olecule H s. 2 TheΔG atRutopsitesandeach [8] J.Kibsgaard,I.Chorkendorff,Nat.Energy2019,4,430.
+2 2 OH*
+hollowsiteisscannedasshowninFigure4fandTableS14,Supporting [9] J.C.Meier,I.Katsounaros,C.Galeano,H.J.Bongard,A.A.Topalov,
+Information.ThewholestandardfreeenergydiagramfortheOERwithU A.Kostka,A.Karschin,F.Schueth,K.J.J.Mayrhofer,EnergyEnviron.
+=1.23eVandpH=14iscalculatedaccordingtotherefs.[46,47]. Sci.2012,5,9319.
+Adv.Sci.2023,10,2300094 2300094(11of12) ©2023TheAuthors.AdvancedSciencepublishedbyWiley-VCHGmbH
+
+www.advancedsciencenews.com www.advancedscience.com
+[10] C.Hu,L.Zhang,J.Gong,EnergyEnviron.Sci.2019,12,2620. [29] S. Zuo, Z. Wu, H.Zhang,X. W.Lou, Adv.Energy Mater. 2022,12,
+[11] P.J.McHugh,A.D.Stergiou,M.D.Symes,Adv.EnergyMater.2020, 2103383.
+10,2002453. [30] W.Zhang,P.K.Liaw,Y.Zhang,Sci.ChinaMater.2018,61,2.
+[12] W.Zhong,B.Xiao,Z.Lin,Z.Wang,L.Huang,S.Shen,Q.Zhang,L. [31] Y.Pan,K.Sun,S.Liu,X.Cao,K.Wu,W.-C.Cheong,Z.Chen,Y.Wang,
+Gu,Adv.Mater.2021,33,2007894. Y.Li,Y.Liu,J.Am.Chem.Soc.2018,140,2610.
+[13] W.Li,J.Liu,P.Guo,H.Li,B.Fei,Y.Guo,H.Pan,D.Sun,F.Fang,R. [32] R.N.Singh,M.Kumar,A.S.K.Sinha,Int.J.HydrogenEnergy2012,
+Wu,Adv.EnergyMater.2021,11,2102134. 37,15117.
+[14] K.Huang,B.Zhang,J.Wu,T.Zhang,D.Peng,X.Cao,Z.Zhang,Z. [33] K.Huang,D.Peng,Z.Yao,J.Xia,B.Zhang,H.Liu,Z.Chen,F.Wu,J.
+Li,Y.Huang,J.Mater.Chem.A2020,8,11938. Wu,Y.Huang,Chem.Eng.J.2021,425,131533.
+[15] X.-M.Liu,X.Cui,K.Dastafkan,H.-F.Wang,C.Tang,C.Zhao,A.Chen, [34] J.K.Nørskov,F.Studt,F.Abild-Pedersen,T.Bligaard,Fundamental
+C.He,M.Han,Q.Zhang,J.EnergyChem.2021,53,290. ConceptsinHeterogeneousCatalysis,JohnWiley&Sons,Hoboken,NJ
+[16] B.Zhang,C.Li,J.Hu,D.Peng,K.Huang,J.Wu,Z.Chen,Y.Huang, 2014.
+NanoRes.2021,14,4073. [35] W.Tang,E.Sanville,G.Henkelman,J.Phys.:Condens.Matter2009,
+[17] Y. Lu, C. Li, Y. Zhang, X. Cao, Y. Huang, Nano Energy 2021, 83, 21,084204.
+105800. [36] B.Wang,C.Tang,H.Wang,B.Li,X.Cui,Q.Zhang,SmallMethods
+[18] H. Wang, Z. Chen, D. Wu, M. Cao, F. Sun, H. Zhang, H. You, W. 2018,2,1800055.
+Zhuang,R.Cao,J.Am.Chem.Soc.2021,143,4639. [37] L.Sharma,N.K.Katiyar,A.Parui,R.Das,R.Kumar,C.S.Tiwary,A.
+[19] F.A.Garcés-Pineda,M.Blasco-Ahicart,D.Nieto-Castro,N.López,J. K.Singh,A.Halder,K.Biswas,NanoRes.2021,15,4799.
+R.Galán-Mascarós,Nat.Energy2019,4,519. [38] W.Zhang,B.Huang,K.Wang,W.Yang,F.Lv,N.Li,Y.Chao,P.Zhou,
+[20] C.Zhu,A.Wang,W.Xiao,D.Chao,X.Zhang,N.H.Tiep,S.Chen,J. Y.Yang,Y.Li,Adv.EnergyMater.2021,11,2003192.
+Kang,X.Wang,J.Ding,Adv.Mater.2018,30,1705516. [39] L.Gao,Z.Yang,T.Sun,X.Tan,W.Lai,M.Li,J.Kim,Y.Lu,S.Choi,W.
+[21] X.Zhang,H.Zhao,C.Li,S.Li,K.Liu,L.Wang,Appl.Catal.,B2021, Zhang,Adv.EnergyMater.2022,12,2103943.
+299,120641. [40] T.Mohammad,K.Tanja,R.Olivier,G.Albert,C.Nasibulin,Angew.
+[22] B.You,N.Jiang,M.Sheng,M.W.Bhushan,Y.Sun,ACSCatal.2016, Chem.2015,54,4535.
+6,714. [41] J.Lu,S.Yin,K.S.Pei,Electrochem.EnergyRev.2019,2,105.
+[23] Y.Pi,Q.Shao,P.Wang,J.Guo,X.Huang,Adv.Funct.Mater.2017,27, [42] J.Greeley,T.F.Jaramillo,J.Bonde,I.B.Chorkendorff,J.K.Nørskov,
+1700886. Nat.Mater.2006,5,909.
+[24] J.Shan,T.Ling,K.Davey,Y.Zheng,S.Qiao,Adv.Mater.2019,31, [43] A.B.Laursen,A.S.Varela,F.Dionigi,H.Fanchiu,C.Miller,O.L.
+1900510. Trinhammer,J.Rossmeisl,S.Dahl,J.Chem.Educ.2012,89,1595.
+[25] D.Cao,H.Xu,D.Cheng,Adv.EnergyMater.2020,10,1903038. [44] J.P.Perdew,K.Burke,M.Ernzerhof,Phys.Rev.Lett.1996,77,3865.
+[26] C.-T.Hsieh,C.-L.Huang,Y.-A.Chen,S.-Y.Lu,Appl.Catal.,B2020, [45] G.Kresse,J.Furthmüller,Phys.Rev.B1996,54,11169.
+267,118376. [46] H.H.Pham,M.-J.Cheng,H.Frei,L.-W.Wang,ACSCatal.2016,6,
+[27] D.Liu,H.Ai,J.Li,M.Fang,M.Chen,D.Liu,X.Du,P.Zhou,F.Li,K. 5610.
+H.Lo,Adv.EnergyMater.2020,10,2002464. [47] L.C.Seitz,C.F.Dickens,K.Nishio,Y.Hikita,J.Montoya,A.Doyle,
+[28] T. X. Nguyen, Y. Su, C. Lin, J. Ting, Adv. Funct. Mater. 2021, 31, C.Kirk,A.Vojvodic,H.Y.Hwang,J.K.Norskov,Science2016,353,
+2106229. 1011.
+Adv.Sci.2023,10,2300094 2300094(12of12) ©2023TheAuthors.AdvancedSciencepublishedbyWiley-VCHGmbH
+

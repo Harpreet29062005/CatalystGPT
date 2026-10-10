@@ -1,0 +1,1440 @@
+TThhiiss aarrttiiccllee iiss lliicceennsseedd uunnddeerr CCCC--BBYY 44..00
+pubs.acs.org/cm Review
+Bifunctional Electrocatalysts with High-Entropy Alloys: Bridging
+Hydrogen Evolution and Oxygen Reduction
+Published as part of Chemistry of Materials special issue “Bifunctional Electrocatalysts”.
+Jialu Li, Jianzhuo Wu, Abdulrahman Allangawi, Yu Li, Honglin Li, Yongfeng Guo, Huabin Zhang,*
+and Wan-Lu Li*
+CiteThis:Chem.Mater.2026,38,3066−3087 ReadOnline
+ACCESS
+Metrics&More ArticleRecommendations
+ABSTRACT: High-entropy alloys (HEAs) have emerged as a promising class of
+bifunctional electrocatalysts capable of simultaneously driving the hydrogen evolution
+reaction (HER) and the oxygen reduction reaction (ORR) with high activity and
+durability. Their near-equiatomic multicomponent compositions give rise to unique
+physicochemicalcharacteristics,includinglatticedistortion,sluggishdiffusion,high-entropy
+stabilization, and pronounced electronic heterogeneity, that collectively generate diverse
+and synergistic active sites inaccessible in conventional alloys. This review summarizes
+recent progress in HEA-based bifunctional electrocatalysis, with a focus on the
+fundamental mechanisms governing HER and ORR activity, stability, and selectivity. We
+discuss advances in synthesis strategies, ranging from confined growth and step-alloying to scalable continuous-flow methods, that
+enable precise control over composition, size, and surface structure. Complementary computational and data-driven approaches,
+including density functional theory, machine-learning-assisted screening, and descriptor development, are highlighted as essential
+tools for navigating the vast HEA design space and establishing structure−property relationships. Particular attention is paid to
+adsorption-energydistributions,multisitecooperativity,andenvironmentaleffectsunderrealisticelectrochemicalconditions.Finally,
+weoutlinecurrentchallengesandfutureopportunitiesforintegratingmechanisticunderstandingwithAI-guided,closed-loopdesign
+frameworks to accelerate the discovery of next-generation HEA bifunctional electrocatalysts for sustainable energy conversion.
+1. INTRODUCTION disordered atomic configurations.18,19 This compositional
+disorder gives rise to several characteristic effects such as
+The growing global demand for environmentally sustainable
+and carbon-neutral energy conversion technologies has driven lattice distortion, sluggish diffusion, high-entropy stabilization,
+extensive research into efficient electrocatalysts for key and the cocktail effect, which collectively enhance structural
+electrochemical reactions, most notably the hydrogen stability, electronic heterogeneity, and a broad distribution of
+evolution reaction (HER) and the oxygen reduction reaction local atomic environments.20−22 Also, such diversity enables
+(ORR).1−6 HER underpins hydrogen production in water- the modulation of adsorption energies for key reaction
+splitting systems, while ORR largely governs the performance intermediates (*H, *O, *OH, *OOH) across distinct surface
+of fuel cells and metal−air batteries through its multielectron sites, providing a materials-level basis for accommodating the
+reactionpathway.7−9Despitesubstantialadvances,thereliance
+differing adsorption requirements of HER and ORR within a
+on noble-metal catalysts remains a major bottleneck for single catalyst.5,11,23 At the nanoscale, these intrinsic features
+scalableimplementation.State-of-the-artcatalystsbasedonPt- can be further leveraged through controlled synthesis and
+andRu-group metals exhibit high activity but suffer from high compositional engineering.19 Recent progress in confined
+cost, limited elemental abundance, and durability concerns growth, step-alloying, and continuous-flow synthesis has
+under operating conditions.10−14 Consequently, the develop-
+enabled the preparation of HEA nanoparticles with well-
+ment of stable, cost-effective bifunctional catalysts capable of defined size, composition, and elemental dispersion.24−26 In
+efficiently catalyzing both HER and ORR remains a central
+challenge in electrochemical energy research.
+Received: January6, 2026
+High-entropy alloys (HEAs) have attracted increasing
+Revised: March23,2026
+attention as catalytic materials owing to their distinctive
+Accepted: March26,2026
+physicochemical characteristics arising from compositional
+complexity.15−17 Unlike conventional alloys dominated by Published: April 1,2026
+oneortwoelements,HEAsarecomposedofmultipleprincipal
+elements in near-equiatomic ratios, resulting in intrinsically
+©2026AmericanChemicalSociety https://doi.org/10.1021/acs.chemmater.6c00035
+3066 Chem.Mater.2026,38,3066−3087
+
+Chemistry of Materials pubs.acs.org/cm Review
+such systems, multicomponent surfaces can host spatially
+differentiatedactivemotifs,suchasoxophilicsitesthatfacilitate
+water activation and metallic sites that favor hydrogen or
+oxygen intermediate conversion. In parallel, compositional
+tuning induces systematic electronic modulation, including
+shifts in the d-band center, which governs adsorption−
+desorption energetics.2,27 Together, nanoscale structure
+control and electronic heterogeneity position HEAs as a
+versatile platform for exploring bifunctional electrocatalysis
+beyondthelimitationsofconventionalnoble-metalcatalysts.28
+Despite these advantages, the rational design of HEA-based
+bifunctional catalysts remains challenging. The vast composi-
+tionalspace and intrinsic atomic-scale disorder complicate the
+identification of clear structure−property relationships, while
+dynamic surface reconstruction and cooperative effects under
+electrochemical operating conditions are not yet well under-
+stood. Addressing these challenges requires an integrated
+approach that combines controlled synthesis, theoretical
+modeling, and data-driven analysis to resolve mechanistic
+pathwaysandguidethetargeteddiscoveryofhigh-performance
+HEAs for HER and ORR.29−32
+This review summarizes recent advances in the design,
+synthesis, and computational understanding of high-entropy
+Figure 1. Schematic illustration of the four core effects and the
+alloy catalysts for bifunctional electrocatalysis. We first outline
+synergistic effect that define the advantages of HEAs in electro-
+the key physicochemical effects and synergistic mechanisms
+catalysis.
+that govern catalytic behavior in HEAs, followed by an
+assessmentoftheirbifunctionalperformancetowardHERand
+ORR. We then discuss emerging synthesis strategies and
+computational methodologies that enable precise structural
+Sluggish diffusion is a kinetic consequence of severe
+control and predictive performance evaluation across the vast
+chemical disorder, where the presence of multiple elements
+HEA compositional space. Finally, we highlight current
+with different migration barriers suppresses long-range atomic
+challenges and future opportunities for data-driven and mobility.19 This effect inhibits grain growth, surface
+mechanism-guided HEA design, offering perspectives on the
+coalescence, and elemental segregation during synthesis and
+development of next-generation bifunctional electrocatalysts electrochemical operation.34 From a catalytic standpoint,
+for sustainable energy conversion.
+sluggish diffusion contributes to enhanced structural robust-
+ness by stabilizing nanoscale features and preserving active
+2. PHYSICOCHEMICAL ORIGINS OF CATALYTIC surfacemotifsunderprolongedcycling,elevatedtemperatures,
+ACTIVITY IN HIGH-ENTROPY ALLOYS or highly oxidative or reductive environments.
+High-entropy stabilization originates from the large config-
+2.1. Core Effects of HEAs
+urational entropy associated with multicomponent solid
+HEAs are composed of multiple principal elements in near- solutions, which thermodynamically favors homogeneous
+equiatomic proportions, resulting in physicochemical charac- disordered phases over ordered intermetallic compounds.18
+teristics that differ fundamentally from those of conventional This stabilization effect plays a crucial role in suppressing
+single- or binary-metal catalysts. Rather than being governed phase separation and maintaining uniform elemental distribu-
+by a dominant elemental component, HEAs derive their tions, particularly under nonequilibrium conditions encoun-
+structuralstabilityandcatalyticbehaviorfromcollectiveeffects tered during electrocatalysis.20 By stabilizing single-phase
+associatedwithcompositionalcomplexity.Thesebehaviorsare structures across broad compositional ranges, high-entropy
+commonlyrationalizedintermsoffourinterrelatedcoreeffects stabilization provides a reliable platform for systematic
+(Figure 1): lattice distortion, sluggish diffusion, high-entropy composition tuning while preserving long-term catalytic
+stabilization, and the cocktail effect.18−20,22,33 durability.5
+Lattice distortion arises from the mismatch in atomic radii The cocktail effect captures the nonlinear and often
+and bonding preferences among constituent elements, leading nonadditive interactions among different elemental compo-
+to local strain fields and deviations from ideal lattice nents in HEAs.20,22 Through combined ligand effects, charge
+symmetry.22 At the atomic scale, such distortions generate a redistribution, and orbital hybridization, the presence of
+widespectrumofcoordinationenvironmentsandbondlengths multiple elements enables continuous tuning of electronic
+at both bulk and surface sites.20 This structural heterogeneity structureparameters,suchasthed-bandcenteranddensityof
+alters orbital overlap and local electronic density, directly states near the Fermi level.5 These electronic variations
+influencingtheadsorptionenergeticsofreactionintermediates. reshape the adsorption-energy landscape across the surface,
+Consequently, it produces a distribution of active sites with allowingcatalyticactivityandselectivitytobeadjustedbeyond
+varying affinities toward *H, *O, *OH, and *OOH species.5 what is achievable in single-component systems. Importantly,
+As a result, HEA surfaces can support multiple reaction steps the cocktail effect does not imply a simple averaging of
+acrossdifferentsites,afeaturethatisparticularlyadvantageous elementalpropertiesbutrathertheemergenceofnewcatalytic
+for complex, multistep electrocatalytic processes.33 behavior arising from multicomponent interactions.20
+3067 https://doi.org/10.1021/acs.chemmater.6c00035
+Chem.Mater.2026,38,3066−3087
+
+Chemistry of Materials pubs.acs.org/cm Review
+Figure2.Representativesynergisticinterfacesinmulticomponentcatalystsillustratingcooperativereactionpathways.(a)APt−Ni(OH) interface
+2
+enablesspatiallyseparatedHERsteps,whereNi(OH) promoteswaterdissociationandsuppliesprotons,whileadjacentPtsitescatalyzeproton
+2
+reduction,resultinginanefficientcooperativeHERmechanism.ReproducedfromSubbaramanetal.,Science,41334,1256−1260(2011),AAAS.*
+(b) Dual-site surface architectures allow independent optimization of hydrogen-binding and hydroxyl-binding energies, alleviating conventional
+scaling constraintsand enhancing alkalineORR activity.42 (c) Ru−Ptinterfacial synergyfacilitates CO oxidation,in whichRu generatesmobile
+OH speciesthatmigratetoneighboringPtsitestoremovestronglyboundCO,therebymitigatingcatalystpoisoningandimprovingturnover.
+ads
+Reprintedwithpermission from ref 43.Copyright2007, AmericanChemical Society.
+2.2. Synergistic Interactions in Multicomponent HEA This spatial separation of functionality opens reaction
+Catalysts pathways that are inaccessible on uniform, single-element
+Beyond the intrinsic physicochemical effects discussed above,
+surfaces.40
+synergisticinteractionsamongmultipleelementsplayacentral Figure 2 illustrates representative synergistic interfaces in
+role in governing the bifunctional electrocatalytic behavior of multicomponent catalysts that exemplify the cooperative
+HEAs. These interactions arise from atomic-scale coupling mechanisms relevant to HEA electrocatalysis.23 In Figure 2a,
+between chemically distinct elements and manifest through thePt−Ni(OH) interfaceestablishesaspatiallyresolvedHER
+2
+several interconnected mechanisms, including electronic pathway in which distinct reaction steps are distributed across
+modulation, strain-induced geometric effects, and cooperative chemically complementary sites. Ni(OH) domains, owing to
+2
+adsorption.23 their oxophilic character, lower the kinetic barrier for water
+Electronic synergy originates from interactions between dissociation and supply protons via the Volmer step, while
+elements with different electronegativities and d-band filling adjacent Pt sites efficiently catalyze proton reduction through
+characteristics, leading to charge redistribution within the the Heyrovsky step.37,41 This division of catalytic roles
+alloy.35 Thisredistributionmodifiesthelocald-band centerof suppresses kinetic bottlenecks associated with single-site
+surfaceatomsanddirectlyinfluencestheadsorptionenergiesof operation and highlights the advantage of spatially separated
+key intermediates such as *H, *OH, and *OOH, thereby
+functionality.
+affecting bothHER and ORR activity.36 For example, alloying
+Figure 2b presents a dual-site surface design in which
+Pt with Ni induces a downward shift of the Pt d-band center,
+hydrogen adsorption and hydroxyl adsorption are independ-
+weakening hydrogen binding and improving reaction kinetics entlyoptimizedonchemicallydistinctmotifs.42Bydecoupling
+relative to monometallic Pt.37
+hydrogen-binding energy (HBE) and hydroxyl-binding energy
+Geometricandstrain-relatedeffectsarisefromdifferencesin
+(OHBE), this architecture circumvents the conventional
+atomic radii among constituent elements, which introduce
+scaling relations that constrain monometallic catalysts in
+locallatticestrainanddistortcoordinationenvironmentsatthe
+alkaline ORR.42,44 The resulting enhancement in proton-
+surface. These distortions generate a diversity of adsorption
+transfer kinetics and OH− desorption underscores how
+geometries, such as locally under- or overcoordinated sites,
+engineered heterogeneity can expand the accessible activity
+that can stabilize different intermediates along multistep
+reaction pathways.38,39 Such geometric heterogeneity is landscape beyond that dictated by single-descriptor optimiza-
+tion.45
+particularly important for multielectron processes like ORR,
+In Figure 2c, Ru−Pt synergy provides a mechanistic
+wheresequentialadsorptionandtransformationofoxygenated
+species are required.11 framework for mitigating surface poisoning during CO
+In addition, HEAs enable cooperative adsorption through oxidation.46 While Pt binds CO strongly and is susceptible
+the coexistence of chemically distinct surface sites. Different todeactivation,neighboringRusitespromotewateractivation
+reaction steps can occur preferentially on different elemental and generate mobile OH ads adsorbed species.47 These OH ads
+motifs.5 For example, water activation on oxophilic sites and species migrate to adjacent Pt−CO sites, facilitating oxidative
+hydrogen or oxygen intermediate conversion on metallic sites, CO removal and regenerating active Pt surfaces.43,47,48 This
+thereby reducing competition between elementary steps.37 bifunctional interplay demonstrates how cooperative adsorp-
+3068 https://doi.org/10.1021/acs.chemmater.6c00035
+Chem.Mater.2026,38,3066−3087
+
+Chemistry of Materials pubs.acs.org/cm Review
+Figure3.MechanisticpathwaysoftheHERandORRinacidicandalkalinemedia,andthesynergisticcatalyticbehaviorenabledbyHEAs.(a)
+HERmechanismsunderacidicandalkalineconditions,highlightingtheVolmer,Tafel,andHeyrovskystepsandtheirdifferingproton-orwater-
+activationrequirements.(b)ORRpathways,includingthefour-electronpathwayleadingtowater(orOH−inalkalinemedia)andthetwo-electron
+pathwayproducingperoxideintermediates,governedbythebindingenergeticsof*O,*OOH,*O,and*OHspecies.(c)Synergisticcatalysison
+2
+HEA surfaces, where diverse local atomic environments provide multiple active sites that cooperatively facilitate proton adsorption, water
+dissociation,O activation,and *OOH conversion,therebyalleviating the bifunctional trade-offsinherentto monometallic catalysts.
+2
+tion and intermediate transport between dissimilar elemental Figure 3 summarizes the mechanistic pathways of HER and
+sitescanstabilizecatalyticactivityunder reactiveconditions.49 ORR under acidic and alkaline conditions, as well as the
+Collectively,theseexamplesillustratehowspatial,electronic, synergistic catalytic behavior enabled by HEAs.56,57 Figure 3b
+and chemical heterogeneity enable cooperative reaction depicts the two primary ORR pathways: a four-electron
+pathways that are inaccessible on uniform surfaces. Such pathway that directly reduces O to H O in acidic media or
+2 2
+principlesdirectlymotivatethedesignofHEAs,whereintrinsic OH−inalkalinemedia,andatwo-electronpathwaythatyields
+atomic-scale disorder and compositional diversity naturally peroxide intermediates.9,11 The preferred reaction route and
+generate analogous synergistic motifs for HER, ORR, and overall kinetics are governed by the adsorption energetics of
+related electrochemical processes. oxygenated intermediates, including *O , *OOH, *O, and
+2
+*OH.58Whilethefour-electronpathwayisgenerallyfavoredin
+3. BIFUNCTIONAL CATALYSTS OF HEAS FOR HER acidic electrolytes, both pathways may coexist in alkaline
+AND ORR conditionsdependingonsurfacechemistryandlocalelectronic
+structure. The challenge in designing bifunctional electro-
+3.1. Mechanistic Considerations of HER and ORR
+catalysts arises from the fundamentally different adsorption
+As illustrated in Figure 3a, conventional electrocatalysts are requirements of HER and ORR.59 HER favors near-
+typicallyoptimizedforasingledominantreactionpathway.50,51 thermoneutral hydrogen adsorption, whereas ORR requires
+Inacidicelectrolytes,HERproceedsviaprotonadsorptionand moderate binding of oxygenated intermediates to balance
+electron transfer in the Volmer step, followed by molecular activation and desorption steps. These competing energetic
+hydrogen formation through either the Tafel or Heyrovsky requirements impose a well-recognized trade-off in conven-
+step.52,53 In alkaline environments, HER requires the initial tional catalysts, making it difficult to simultaneously optimize
+activation of water molecules to generate adsorbed hydrogen, both reactions on uniform surfaces.60,61
+introducing an additional elementary step that is highly Incontrast,Figure3cillustrateshowHEAscanmitigatethis
+sensitive to surface composition and local coordination.54,55 limitation through intrinsic compositional and structural
+3069 https://doi.org/10.1021/acs.chemmater.6c00035
+Chem.Mater.2026,38,3066−3087
+
+Chemistry of Materials pubs.acs.org/cm Review
+Figure4.BifunctionalelectrocatalyticperformanceofHighEntropyAlloy-Nanoparticles(HEA-NPs)preparedviadifferentsyntheticstrategies.(a
+andb)Size-tunablePtRuPdCoNiHEAnanoparticlessynthesizedthroughaconfinedspacemethod.Smallerparticlesrevealamoredownshiftedd
+bandcenteralongwithmoreoptimalΔG andbetterenergeticsfor*OOHformation,whichtogetherleadtoenhancedHERandORRactivity.25
+H*
+Reproducedwith permission from ref 25. Available under a CC-BY 4.0 license. Copyright 2025Springer Nature.(c and d)Multielement HEA
+nanoparticleswithupto14elementsobtainedbyastepalloyingstrategy.Thesecatalystsexhibitexceptionalbifunctionality,reachinganORRhalf-
+wavepotentialof0.86VversusReversibleHydrogenElectrode(RHE)andaTafelslopeof30.7mVdec−1forHER,whichisindicativeofveryfast
+chargetransferkinetics.26Reprintedwithpermissionfromref26.Copyright©2023Wiley.(eandf)FeCoNiCuPtHEAnanoparticlesmadeby
+hydrothermalflowsynthesisandsupportedoncarbon.ThesecompoundsproducemorepositiveORRhalf-wavepotentialsthancommercialPt/C
+andhaveloweroverpotentialsforHER,thusconfirmingacceleratedreactionkinetics.24Reproducedwithpermissionfromref24.Copyright©YYYY
+JohnWiley & Sons.
+heterogeneity.3 Multielement HEA surfaces naturally provide Figure 4 summarizes representative examples of HEA-NPs
+spatially and electronically distinct active sites that can synthesized using different strategies. Figure 4a,b show size-
+preferentially facilitate different elementary steps. Certain tunable PtRuPdCoNi HEA nanoparticles prepared via a
+local environments may promote HER-related processes such confined-space synthesis method. Decreasing particle size
+as water activation or proton adsorption,62 while others are leads to pronounced changes in polarization behavior,
+better suited for ORR steps, including O activation and reflecting enhanced activity for both HER and ORR.
+2
+*OOH transformation.9,63 This distribution of catalytic roles Complementary density functional theory (DFT) calculations
+emergesfromtheinterplaybetweenlocalatomicconfiguration indicate that smaller particles exhibit a downshifted d-band
+and element-specific electronic structure.56 center, resulting in more favorable hydrogen adsorption free
+Beyond site diversity, the characteristic HEA effects, energies (ΔG H* ) and reduced energetic barriers for *OOH
+including lattice distortion, sluggish diffusion, high-entropy formation, both of which contribute to improved bifunctional
+stabilization, and the cocktail effect,22 further modify performance.25
+coordination environments, adsorption energetics, and surface Using a different design approach, Wang et al. employed a
+energy landscapes. As a result, reaction mechanisms on HEAs step-alloying strategy to synthesize multielement HEA nano-
+are inherently more complex and flexible than those on particles containing up to 14 constituent elements while
+conventional catalysts.64 Although a complete mechanistic maintainingahomogeneoussolid-solutionstructure.Asshown
+descriptionofbifunctionalcatalysisonHEAsremainsanopen in Figure 4c,d, these High entropy alloy-Nanoparticles (HEA-
+challenge, their compositionally diverse and dynamically NPs) exhibit an ORR half-wave potential of 0.86 V versus
+responsive surfaces provide a robust materials basis for Reversible Hydrogen Electrode (RHE), exceeding that of
+enabling concurrent HER and ORR activity.3 commercial Pt/C, along with a low HER Tafel slope of 30.7
+mV dec−1. These metrics indicate efficient charge transfer and
+3.2. Bifunctional HEA Catalysts for HER and ORR
+hydrogen binding strengths close to optimal values. The
+Recent advances demonstrate that rationally designed high- reported electrochemical performance highlights the effective-
+entropy alloy nanoparticles (HEA-NPs) can exhibit robust ness of extensive compositional tuning in modulating
+bifunctional electrocatalytic activity toward both HER and electronic structure and catalytic behavior.26
+ORR. The combination of multicomponent synergy, tunable In a third approach, FeCoNiCuPt HEA nanoparticles were
+electronic structure, and nanoscale structural control enables synthesized via hydrothermal flow methods and uniformly
+the emergence of multiple active sites capable of catalyzing supported on carbon substrates. Figure 4e,f show that these
+distinct reaction steps within a single material. catalysts deliver enhanced ORR activity relative to Pt/C, as
+3070 https://doi.org/10.1021/acs.chemmater.6c00035
+Chem.Mater.2026,38,3066−3087
+
+Chemistry of Materials pubs.acs.org/cm Review
+Figure5.StructuraldurabilityandelectronicstabilizationofHEA-NPs.(aandb)High-AngleAnnularDark-FieldScanningTransmissionElectron
+Microscopy (HAADF-STEM) elemental mapping and atomic-resolution imaging reveal homogeneous multimetal distribution, single-phase
+crystallinity,andpronouncedlatticedistortion,withlatticefringesandSelectedAreaElectronDiffraction(SAED)patternsconfirmingstructural
+integrity.26 Reproduced with permission from ref 26. Copyright © 2023 John Wiley & Sons. (c) PtRuPdCoNi HEA-NPs exhibit excellent
+electrochemicalstability,retainingover90%oftheinitialcurrentdensityafter30,000cycles,attributedtosuppressedatomicdiffusionandinhibited
+nanoparticlecoalescence.25Reproducedwithpermissionfromref25.AvailableunderaCC-BY4.0license.Copyright2025SpringerNature.(dand
+e)Chargedensitydifferenceandprojecteddensityofstates(PDOS)analysesdemonstratesubstantialinterelementelectronicredistributionandan
+upwardshiftofthePtd-bandcenterrelativetomonometallicPt,leadingtomoderatedintermediateadsorptionandenhancedresistancetosurface
+poisoning.24 Reproducedwithpermission from ref24. Copyright©2025John Wiley & Sons.
+evidencedbymorepositivehalf-wavepotentials,togetherwith negligible changes in polarization behavior. Such remarkable
+reduced HER overpotentials and steeper polarization slopes. stability is attributed to sluggish atomic diffusion and strong
+These results indicate accelerated reaction kinetics and lattice distortion within the multicomponent matrix, which
+improved adsorption energetics, demonstrating the viability collectively suppress nanoparticle coalescence and surface
+of scalable synthesis routes for producing catalytically active reconstruction during prolonged cycling.25
+HEA nanostructures.24 Collectively, these studies illustrate In addition to structural robustness, HEAs exhibit tunable
+how compositional diversity, uniform atomic dispersion, and electronic properties that further enhance surface stability.
+strain-induced electronic modulation in HEAs generate a Figure 5d reveals substantial charge redistribution among Pt,
+broad spectrum of active sites, enabling efficient bifunctional
+Ru,Pd,Co,andNirelativetotheirmonometalliccounterparts,
+catalysis across HER and ORR.62
+indicating strong interelement electronic interactions and
+Beyond catalytic activity, the long-term durability and
+extensive charge delocalization. Consistent with this observa-
+structural stability of HEA-NPs are critical for practical
+tion, the projected density of states (PDOS) in Figure 5e
+electrochemical applications. Uniform elemental mapping by
+shows an upward shift of the Pt d-band center, leading to
+High-Angle Annular Dark-Field Scanning Transmission
+moderated adsorption of reaction intermediates and reduced
+Electron Microscopy (HAADF-STEM) (Figure 5a) demon-
+susceptibility to surface poisoning. Taken together, the
+strates that each nanoparticle contains all five constituent
+combined structural and electronic stabilization mechanisms
+elementsinahomogeneousmanner,confirmingtheformation
+indicate that HEA nanoparticles are inherently resistant to
+of a multicomponent solid-solution phase. This uniform
+corrosion, aggregation, and phase segregation. The synergy of
+elemental distribution, together with the pronounced lattice
+these attributes positions HEAs as a promising class of
+distortion revealed by clear lattice fringes and Selected Area
+Electron Diffraction (SAED) patterns indexed to the (111) bifunctional electrocatalysts with the durability and efficiency
+and(200)planesinFigure5b,providesdirectevidenceofthe required for long-term energy conversion applications.24
+single-phase nature and intrinsic structural robustness of the The mechanistic analysis above indicates that bifunctional
+HEA framework.26 activity in HEAs arises from compositionally and structurally
+This structural integrity directly translates into electro- heterogeneous active sites rather than from a single optimal
+chemical durability. As shown in Figure 5c, ultrafine motif. Achieving this level of complexity in real materials
+PtRuPdCoNi HEA-NPs retain more than 90% of their initial therefore requires advanced synthetic strategies capable of
+current density after 30,000 electrochemical cycles, with precisely controlling elemental distribution, particle size, and
+3071 https://doi.org/10.1021/acs.chemmater.6c00035
+Chem.Mater.2026,38,3066−3087
+
+Chemistry of Materials pubs.acs.org/cm Review
+Figure 6. Schematic illustrations of representative synthetic strategies for HEA-NPs. (a) Electrospinning-assisted metal−organic frameworks
+(MOFs)confinement,inwhichmultimetalprecursorsencapsulatedwithinMOFsandpolyacrylonitrile(PAN)fibersarepyrolyzedtoyieldwell-
+dispersedHEA-NPsembeddedinporouscarbonnanofibers.24Reproducedwithpermissionfromref24.Copyright©2025JohnWiley&Sons.(b)
+Continuous-flowspraypyrolysis,whereaerosolizedsolutionsofmetalsaltsandgrapheneoxideundergorapidthermaldecompositiontoproduce
+ultrasmall,uniformlydistributedHEA-NPsoncarbonsupports.25Reproducedwithpermissionfromref25.AvailableunderaCC-BY4.0license.
+Copyright 2025 Springer Nature. (c) Step-alloying synthesis involving sequential ion anchoring, NaBH reduction to form a Pt-rich core, and
+4
+subsequentthermaldiffusiontogeneratecompositionallyhomogeneousHEA-NPs.26Reproducedwithpermissionfromref26.Copyright©2023
+JohnWiley & Sons.
+interfacial structure. These challenges are discussed in the been directed toward the synthesis of HEA-NPs, where
+following section. multicomponent synergistic effects and a high density of
+accessible surface sites can be more effectively exploited.70
+4. SYNTHESIS OF HEAS FOR HER AND ORR Meetingtheserequirementsnecessitatesthedevelopmentof
+advanced synthetic strategies capable of fully leveraging the
+Early studies of HEAs primarily focused on bulk materials
+compositionalcomplexityandcatalytictunabilityofHEA-NPs.
+synthesized using conventional metallurgical techniques, such
+Given the nearly limitless combinations of constituent
+as arc melting, induction melting, melt spinning, mechanical
+elements and the associated atomic-scale complexity, precise
+alloying, laser ablation, high-energy ball milling, and spark
+plasmasintering.65−69Theseapproachestypicallyinvolvehigh- control over particle size, elemental distribution, and
+temperature melting followed by rapid solidification to dispersion on conductive supports is essential for achieving
+promote elemental mixing and the formation of single-phase optimalelectrocatalyticperformance.74 Inresponse,arangeof
+solid solutions, resulting in alloys with face-centered cubic scalable and robust synthesis methods has been developed,
+(FCC), body-centered cubic (BCC), or hexagonal close- offering diverse routes to the rational design of bifunctional
+packed (HCP) crystal structures.70,71 HEA catalysts.74,75
+WhileeffectiveforproducingbulkHEAs,thesemethodsare Thissectionisnotintendedtoprovideanexhaustivesurvey
+not well suited for electrocatalytic applications, which require of allreportedsynthesis strategies.Instead, representative case
+high surface area, nanoscale particle sizes, tunable surface studies are selected to distill general design principles and
+structures, and compatibility with conductive supports.70,72 practical considerations relevant to bifunctional HEA electro-
+Bulk HEAs generally suffer from low active-site utilization, catalysts. In Figure 6a, electrospinning-assisted metal−organic
+limited intrinsic activity, and insufficient interface engineering, frameworks (MOF) confinement is employed, where multi-
+all of which constrain their performance in bifunctional metal precursors encapsulated within MOFs are combined
+electrocatalysis.73 Consequently, increasing attention has with polyacrylonitrile (PAN) and electrospun into composite
+3072 https://doi.org/10.1021/acs.chemmater.6c00035
+Chem.Mater.2026,38,3066−3087
+
+Chemistry of Materials pubs.acs.org/cm Review
+fibers. Subsequent pyrolysis converts PAN into conductive constraints, particularly when noble metals or complex
+carbon and decomposes the MOF, yielding well-dispersed multistep synthetic routes are required. Moreover, accurate
+HEA-NPs embedded within porous carbon nanofibers. The characterization of atomic-scale elemental distributions and
+combinedconfinementeffectsoftheMOFandfibrouscarbon surface compositions remains difficult, and experimentally
+matrixeffectivelyregulatenanoparticlenucleationandsuppress synthesized HEAs often exhibit structural and compositional
+aggregation at elevated temperatures, while the resulting fiber heterogeneity.78 This heterogeneity complicates the establish-
+morphology facilitates mass transport and exposes abundant ment of clear structure−activity relationships.79 Finally,
+active sites.24 isolating the influence of local geometric and electronic
+Among the reported methods, continuous-flow spray environments on catalytic performance is challenging using
+pyrolysis (CFSP), shown in Figure 6b, is particularly notable experimental techniques alone, especially under realistic
+foritsscalabilityandabilitytocontrolnanoparticledispersion. electrochemical operating conditions where surface recon-
+In this process, ultrasonic nebulization generates aerosol structionanddynamicrestructuringoccur.20,69Together,these
+droplets containing metal salts and graphene oxide dispersed limitations highlight the need for approaches that can
+in water, which are subsequently transported into a heated systematically probe compositional complexity, resolve local
+tubularreactor.Rapidthermaldecomposition,accompaniedby atomic environments, and disentangle structure−property
+in situ hydrocarbothermal reduction driven by hydrogen relationships beyond the reach of experiment alone.
+generated from carbon−water reactions, promotes uniform Within this context, computational methodologies have
+alloy formation without the need for external reducing agents. emerged as indispensable tools for the design and under-
+The short residence time and rapid heating rates effectively standing of HEA electrocatalysts. Techniques such as density
+limit particle coalescence, producing ultrasmall, single-phase functional theory (DFT), atomistic modeling, and machine
+HEA-NPs suitable for large-scale production.25 learning (ML) enable systematic exploration of vast composi-
+Figure 6c depicts a modular step-alloying strategy that tional and configurational spaces that are inaccessible to
+enables fine control over composition and elemental experiments. By providing atomic-level insight into local
+distribution. In this approach, metal cations are sequentially geometric and electronic environments, these methods
+anchored onto polyvinylpyrrolidone (PVP)-stabilized carbon facilitate the establishment of structure−activity relationships,
+nanotubes, followed by chemical reduction to form a Pt-rich supporthigh-throughputscreeningandrationalcatalystdesign,
+metallic core. Subsequent thermal treatment drives atomic and significantly accelerate materials discovery while reducing
+diffusion and alloying of additional elements, resulting in reliance on costly and time-consuming experimental trial-and-
+compositionally homogeneous HEA-NPs containing up to 14 error.
+constituent elements. This stepwise method provides excep-
+5.1. Modeling Approaches for Complex HEA Structures
+tional control over compositional complexity and electronic
+structure, both of which are critical parameters for tailoring AccuratelydepictingtheintrinsicdisorderofHEAsisthebasis
+catalytic behavior. Therefore, the synthesis strategies men- forknowingtheirthermodynamicstability,electronicstructure,
+tioned above offer complementary pathways toward achieving mechanicalresponse,andcatalyticbehavior.Asaresultoftheir
+precise structural control, compositional homogeneity, and multicomponent composition, highly distorted lattice, and
+scalability. By integrating atomic-level design with tunable totally random atomic arrangements, HEAs present a great
+processing conditions, these approaches constitute a versatile challenge to existing alloy modeling frameworks.78 In the last
+toolkit for the development of next-generation HEA-based decades,numeroustheoreticalstrategieshavebeenintroduced
+bifunctional electrocatalysts for HER, ORR, and broader to compromise between accuracy and computational feasi-
+energy conversion applications.26 bility, namely mean field approximations, quasi-random
+Although advanced synthetic strategies have significantly supercells, and statistical sampling approaches.80 Figure 7
+improved control over composition, particle size, and shows the representative structural models for these different
+elemental distribution in HEA-based electrocatalysts, the approaches.
+resulting materials still exhibit substantial atomic-scale 5.1.1. Mean-Field Approaches. Mean field methods like
+complexity and heterogeneity. This intrinsic disorder makes the virtual crystal approximation (VCA) and the coherent
+it challenging to establish unambiguous structure−activity potential approximation (CPA) treat chemical disorder by
+relationshipsacrossthevastcompositionalandconfigurational means of replacing a heterogeneous lattice with an effective
+space using experimental approaches alone. Consequently, medium.83−85 In VCA, each lattice site gets a single “virtual
+computationalanddata-drivenmethodshaveincreasinglybeen atom” whose potential stands for a weighted average of the
+integrated with experiments to address this limitation. These constituentelements.86CPAgoesbeyondthatbyaddingsome
+approaches enable systematic interrogation of diverse local correctionsforelectronscatteringarisingfromthefluctuations
+atomic environments, thereby facilitating rational catalyst of atomic potentials.87 Both approaches provide computation-
+design, as discussed in the following section. ally efficient access to macroscopic properties, including
+equilibrium lattice parameters and mean electronic structures.
+5. COMPUTATIONAL DESIGN OF HEAS FOR
+However, these approaches inherently average over local
+BIFUNCTIONAL ELECTROCATALYSTS
+atomic environments and therefore fail to capture local lattice
+Despite their demonstrated potential, the experimental distortions and short-range chemical fluctuations, which are
+discoveryandoptimizationofHEAelectrocatalystsfaceseveral central to the structure of high-entropy alloys. This limitation
+inherent challenges. The enormous configurational space becomes evident when comparing VCA representations with
+arising from the large number of possible elemental corresponding specialquasirandom structure(SQS) models.88
+combinations makes comprehensive experimental exploration For example, in Figure 7a,d, metal alloys made up of
+throughtrial-and-errorapproachesimpractical.76,77Inaddition, chemically similar 3d transition metals only, such as Fe, Co,
+precursoravailabilityandsynthesiscostscanimposesignificant Ni, Cr systems,show almost perfectcubic symmetries bothin
+3073 https://doi.org/10.1021/acs.chemmater.6c00035
+Chem.Mater.2026,38,3066−3087
+
+Chemistry of Materials pubs.acs.org/cm Review
+shownthatthisapproachreliablycaptureskeybulkproperties,
+includingformationenergies,elasticconstants,phononspectra,
+and local lattice distortions.90,91
+Figure7jshowsarepresentative125-atomSQSsupercellfor
+aquinarybccalloy.Suchlargesupercellsaretypicallyrequired
+to accurately reproduce first- and second-nearest-neighbor
+correlations in random multicomponent systems.82,92 While
+this explicit treatment of disorder enables high fidelity in
+describinglocalstructuralrelaxationandelectronicstructure,it
+alsoincurssubstantialcomputationalcost,particularlyforfirst-
+principles calculations involving large compositional spaces or
+surfacemodels.Moreover,anindividualSQSrepresentsonlya
+single realization of disorder and therefore does not explicitly
+sample the full statistical distribution of local atomic
+environments.5 In particular, for surface catalysis studies, a
+single SQS slab cannot represent the full adsorption energy
+distribution arising from diverse local atomic motifs. This
+limitation is especially relevant for catalytic HEAs, where
+variabilityinadsorptionenergiesarisesfromabroadensemble
+of distinct surface sites rather than a single structural
+configuration.
+Figure 7. Representative structural modeling strategies for capturing
+chemical disorder in HEAs. (a−c) Special quasirandom structure 5.1.3. Small Set of Ordered Structures (SSOS). To
+(SQS)modelsforFeCoNiCr-basedalloys,reproducingnear-neighbor mitigate the sizable computational demand of SQS as well as
+correlation functions and lattice distortions characteristic of random the absence of local environment resolution in mean field
+multicomponentsolidsolutions.81Reproducedwithpermissionfrom methods,theSmallSetofOrderedStructures(SSOS)method
+ref 81. Copyright © 2021 Elsevier. (d−f) Virtual crystal was developed as a resourceful statistical framework for
+approximation (VCA) models for the same systems, in which each modeling random multicomponent solid solutions.82,93 The
+latticesiteisrepresentedbyanaveragedvirtualatom;VCAprovides
+principal idea of SSOS is that three five-atom structures, each
+reasonable agreement with SQS when constituent elements have
+with a different atomic ordering, representing a quinary alloy,
+similaratomicsizesandelectronicstructures,butfailsinthepresence
+ofsignificantchemicalorsizemismatch(e.g.,Ge-containingalloys).81 are shown in Figure 7g−i. The combination of the three is
+intended to reproduce the first and second nearest neighbor
+Reproducedwithpermissionfromref81.Copyright©2021Elsevier.
+(g−i) Small set of ordered structures (SSOS), consisting of three correlationfunctionsofa125-atomSQSdepictedinFigure7j,
+minimalorderedconfigurationswhoseweightedensemblereproduces even though each of the structures is extremely small. In fact,
+short-range statistical features of random alloys at substantially energiesandvolumesaveragedovertheensembleandderived
+reduced computational cost compared with SQS.82 Reprinted with fromthesesmallSSOSmodelsarewithinafewmeVperatom
+permissionfromref82.Copyright©2016AmericanPhysicalSociety. ofSQSresults,thusthecomputationalcostisloweredbymore
+(l) Representative fully random multicomponent configuration than 1 order of magnitude.82
+illustrating the diverse local atomic environments that realistic HEA
+Moreover,thesamplingmethodinspiredbySSOShasbeen
+models must capture.82 Reprinted with permission from ref 82.
+extensively used in HEA surface modeling besides bulk
+Copyright©2016American Physical Society.
+systems, where catalytic behavior is the result of diverse local
+atomic configurations. By preparing a representative ensemble
+VCAandSQS,81andthesamedegreeofconformityispresent of small slab models with different surface site occupations,
+in the five-component FeCoNiCrMn mixture depicted in SSOS makes the adsorption energy distributions an efficient
+Figure 7b,e.81 In contrast, pronounced deviations arise when estimation and the identification of active motifs possible, i.e.,
+one of the alloying elements exhibits a significantly larger functionalities that are exceptionally difficult to realize by a
+atomic radius and a distinct electronic configuration. This single SQS surface model.
+behavior arises because the SQS model of the FeCo- 5.1.4. Machine Learning-Driven Generative Models.
+NiCrMnGe alloy exhibits significant lattice distortion, Recently, the data-driven materials design has been revolu-
+reflecting the local structural response to atomic size and tionizedbythegenerativeMLmodelsthatareusedforquickly
+chemical mismatch (Figure 7c,f). In contrast, the correspond- and efficiently exploring the vast compositional and structural
+ingVCArepresentationremainsartificiallycubic,anartifactof spaces of HEAs. Such models, including variational autoen-
+the averaged potential inherent to the method. coders(VAEs),graphneuralnetworks(GNNs),anddiffusion-
+5.1.2.SpecialQuasirandomStructures(SQS).TheSQS based models, are capable of learning the latent structure
+approach provides an explicit atomistic representation of property relationships from the existing density functional
+chemical disorder by constructing a finite periodic supercell theory (DFT) data sets and, hence, can suggest new stable
+whosenear-neighborcorrelationfunctionscloselymatchthose HEA configurations having the desired properties.
+of an ideal random alloy. In practice, SQS models are Li et al. used a generative model informed by physics that
+generatedbyoptimizingatomicarrangementssothatpair(and was based on a diffusion variational autoencoder framework.
+sometimeshigher-order)correlationfunctionsreproducethose Besides that, they have introduced short-range order
+expected for a perfectly random solid solution.88,89 For constraints and particle swarm optimization iterations to
+complex quaternary and quinary HEAs, SQS structures can obtain stable structure modeling of multicomponent amor-
+be efficiently generated using tools such as Alloy Theoretic phous materials.94 The resulting structures were confirmed
+Automated Toolkit (ATAT), and numerous studies have through theory and experiment to exhibit excellent perform-
+3074 https://doi.org/10.1021/acs.chemmater.6c00035
+Chem.Mater.2026,38,3066−3087
+
+Chemistry of Materials pubs.acs.org/cm Review
+Figure 8. Computational elucidation of catalytic mechanisms using AI-driven feature discovery. (a) The SISSO+α method enables robust
+descriptordiscoveryfromsparsedatasets.Reproducedfromref106.AvailableunderaCC-BY4.0license.Copyright2024SpringerNature.(b)
+Symbolicregression(SR)analysisofperovskite oxidesdisplaysthePareto front,whichidentifiesoptimaldescriptorsby balancingmathematical
+complexitywithpredictionerror(MAE).Reproducedfromref107.AvailableunderaCC-BY4.0license.Copyright2020SpringerNature.(c)The
+SR-deriveddescriptorμ/t(octahedralfactordividedbytolerancefactor)exhibitsastronglinearcorrelationwithOERactivity(V ),validatingits
+RHE
+use for rapid materials screening. Reproduced from ref 107. Available under a CC-BY 4.0 license. Copyright 2020 Springer Nature. (d) Partial
+dependence plots derived from unsupervised Principal Component Analysis (PCA) reveal that the first principal component (PC1) of the
+electronicdensityofstateseffectivelygovernstheadsorptionenergytrendsforC,O,N,andHspecies.Reproducedwithpermissionfromref108.
+Copyright©2021Elsevier.
+ance in OER. Complementing such atomic-level structural and reproduce near-neighbor correlation functions, enabling
+modeling, generative architectures have also been extensively more accurate descriptions of local structure and energetics,
+deployed for the compositional design of HEAs. For instance, albeit at significantly higher computational cost and with
+Debnath et al. utilized Conditional Generative Adversarial limited statistical sampling. Local site-sampling strategies,
+Networks (CGAN) to model the complex mapping between including SSOS and related ensemble-based approaches,
+latent compositional spaces and mechanical properties, further bridge this gap by approximating disorder statistics
+facilitating the inverse design of refractory HEAs.95 Further-
+throughareducedsetofrepresentativeconfigurations,thereby
+more, extending the modeling scope to property-driven
+achievingafavorabletrade-offbetweenaccuracyandefficiency.
+discovery,Raoetal.integratedgenerativemodelswithMarkov
+Such methods are particularly advantageous for modeling
+Chain Monte Carlo (MCMC) sampling to efficiently traverse
+catalyticsurfaces,whereactivityemergesfromadistributionof
+the HEA space, successfully identifying candidates with
+distinct local environments rather than a single idealized
+targeted thermal expansion coefficients.96 These diverse
+structure. Collectively, these frameworks constitute a hier-
+approaches collectively advance the generative modeling of
+archicalmodelingtoolkit,allowingthelevelofcomplexitytobe
+HEAsfrommacroscopiccompositionscreeningtomicroscopic
+matched to the target properties and available computational
+atomic ordering.
+resources.
+From a practical modeling standpoint, these approaches
+Nevertheless, as the compositional and configurational
+occupy complementary roles in balancing accuracy, computa-
+dimensionality of HEAs expands, even ensemble-based atom-
+tional cost, and physical fidelity when describing disordered
+isticapproachesstruggletoefficientlysamplethevastspaceof
+HEA structures. Mean-field methods, such as VCA and CPA,
+provide high computational efficiency and are well suited for local environments and to uncover emergent structure−
+rapid screening of bulk thermodynamic and electronic trends; property relationships. This limitation has driven the growing
+however, by construction, they average over local atomic integration of machine learning−based generative models,
+environments and therefore cannot capture lattice distortions which provide a complementary strategy for learning latent
+or short-range chemical fluctuations. In contrast, SQS models representations of disorder and accelerating exploration of
+offer explicit atomistic representations of chemical disorder complex HEA design spaces.
+3075 https://doi.org/10.1021/acs.chemmater.6c00035
+Chem.Mater.2026,38,3066−3087
+
+Chemistry of Materials pubs.acs.org/cm Review
+5.2. Mechanism Elucidation and Performance Evaluation identifying interpretable descriptors linked to catalytic
+5.2.1. Mechanism Elucidation of the HEA Catalyst. A
+performance.105,106
+mechanistic understanding of catalytic processes is fundamen- As a representative example of interpretable, small-data
+tal to the rational design and performance optimization of modeling, the sure independence screening and sparsifying
+electrocatalysts. For conventional catalyst systems, reaction operator (SISSO) framework has been widely adopted.
+pathways can often be systematically analyzed using well- Recently, Oh et al. demonstrated that coupling SISSO with
+established computational frameworks. Descriptor-based ap- the agreement (α) method significantly enhances model
+proaches such as volcano plots, linear scaling relations, and robustness when dealing with sparse data sets.106 As shown
+structure−activitycorrelationsarewidelyemployedtoconnect in Figure 8a, the prediction performance for the conduction
+surface electronic structure and adsorption energetics with band minimum (ε CBM ) is compared between the standard
+catalytic activity and selectivity.97−99 These methodologies SISSO framework and the SISSO+α approach. While the
+have played a central role in catalyst screening and materials standard SISSO model exhibits signs of overfitting, evidenced
+development. by the divergence of the validation RMSE (purple) from the
+A representative example is the seminal work by No̷rskov training/testingscores,theSISSO+αmodelmaintainssuperior
+and co-workers, who introduced thehydrogen adsorptionfree adaptability and low error rates across all data sets. Notably,
+energy(ΔG ) calculatedfrom DFT asa singledescriptorfor the validation set in this study was composed of quaternary
+H*
+evaluating HER activity across metal surfaces, leading to the compounds, whereas training was performed on simpler
+widely adopted HER volcano relationship.44 Similarly, for ternary systems. The ability of the SISSO+α model to
+ORR, the binding energies of oxygenated intermediates (*O, generalize to these higher-order complexities is further
+*OH,and*OOH)havebeenidentifiedaskeydescriptorsthat highlighted by the inset parity plot in Figure 8a, where
+govern reaction kinetics and pathway selection, enabling predictions remain tightly clustered around the diagonal even
+rational identification of active materials under different as the number of training points is drastically reduced. This
+electrochemical conditions.11 In the context of single-atom demonstrates that advanced symbolic regression techniques
+catalysis, Wang and Chen et al. further demonstrated that the can effectively identify physical descriptors that hold true
+local coordination environment of isolated Fe centers in across different regions of the chemical space.
+nitrogen-doped carbon can be systematically correlated with In addition to directly extracting critical features, machine
+ORR activity through descriptors associated with charge learning also serves as a powerful tool for discovering novel,
+transfer and spin state.100 These descriptor-based frameworks high-value descriptors that capture complex local interactions.
+are effective largely because traditional catalyst systems Yang et al. combined 3D atomic electron tomography (AET)
+typically feature relatively simple and uniform active-site with DFT to formulate a machine-learning-derived Local
+geometries.14 Under such conditions, assumptions including Environment Descriptor (LED).105 Functionally, this descrip-
+site homogeneity and linear scaling relationships remain tor mathematically integrates the geometric and electronic
+reasonably valid, allowing catalytic mechanisms to be effectsbycouplingthecoordinationnumber(CN) ofnearest-
+simplified and interpreted with clarity. Consequently, neighbor Pt atoms with an exponential strain term, while
+computational predictions based on these descriptors often simultaneously accounting for ligand effects through the
+show good agreement with experimental observations, generalized coordination number (gCN) of surrounding Ni
+providing a reliable basis for rational catalyst design. atoms. This data-driven formulation effectively disentangles
+However, HEAs present substantially greater complexity. the complex interplay between strain and ligand effects on
+Theircatalyticbehaviorisgovernedbyadramaticexpansionin realistic nanocatalyst surfaces. By applying this descriptor to
+compositional diversity, local structural heterogeneity, and the oxygen reduction reaction (ORR), a clear structure−
+adsorption-site variability.64,101−103 This complexity signifi- activity relationshipemerges,yieldingadistinct volcanotrend.
+cantly increases computational demands and complicates Furthermore, comparative analysis against conventional geo-
+mechanistic interpretation, as catalytic performance arises metric descriptors, such as the gCN, demonstrated the
+fromthecoupledeffectsofelectronicstructure,localgeometry, superiority of this ML-derived approach. On a data set of 39
+lattice strain, and elemental interactions. These factors are DFT-calculated Pt atomic structures, the LED significantly
+intrinsically intertwined and cannot be readily isolated. outperformed gCN�both with and without strain correc-
+Moreover, HEA surfaces host a broad distribution of tions�in capturing binding energy variations, achieving a
+nonequivalent active sites rather than a single representative remarkably low root-mean-square error (RMSE) of 0.076 eV.
+motif, and there is currently no unified theoretical framework TheseresultsunderscorethecriticalroleofMLincondensing
+capable of fully capturing this complexity.64,104 As a result, complex, multidimensional structural features into unified
+reliance on simple, single-value descriptors such as a descriptors that accurately predict catalytic performance.
+characteristic ΔG for HER or a single oxygen-intermediate Beyond selecting features from a predefined pool, AI can
+H*
+binding energy for ORR, can lead to oversimplified also function as a “mathematician″ to distill physical laws
+interpretations. Although such descriptors may correlate with directly from data. Weng et al. applied symbolic regression
+overall activity trends, they fail to resolve the site-specific (SR) to oxide perovskites to discover interpretable mathemat-
+contributions of different elements. This limitation obscures ical formulas that describe catalytic activity.107 As shown in
+mechanisticinsightandhindersinterpretable,element-resolved Figure8b,thealgorithmgeneratesaParetofrontthatbalances
+catalyst design. To overcome the limitations of conventional the complexity of the mathematical formula against its
+descriptors, data-driven methodologies have emerged as prediction error (MAE), allowing researchers to identify the
+powerful tools for extracting physically meaningful features optimal trade-off between accuracy and simplicity. From this
+from complex catalytic systems. Machine learning (ML), in frontier, a simple yet powerful descriptor, μ/t (where μ is the
+particular, enables systematic exploration of the vast composi- octahedral factor and t is the tolerance factor), was identified.
+tional and configurational spaces characteristic of HEAs while Figure 8cdemonstrates that this ratioexhibits a strikinglinear
+3076 https://doi.org/10.1021/acs.chemmater.6c00035
+Chem.Mater.2026,38,3066−3087
+
+Chemistry of Materials pubs.acs.org/cm Review
+Figure9.Mechanismelucidationofatomicordering/disorderingeffects.(aandb)Geometriceffect:Disorderedsolid-solutionPdBiexhibitslower
+3
+activationenergy(E)thantheorderedphaseduetooptimizedsurfacePdensemblesizes.Reprintedwithpermissionfromref109.Copyright©
+a
+2025 American Chemical Society. (c and d) Electronic effect: SRO in FeCoNiCuAl HEAs modulates the d-band center to optimize hydrogen
+adsorptionenergetics(ΔG ≈0).Reprintedwithpermissionfromref110.Copyright©2024Elsevier.(eandf)Structuralflexibilityandstrain
+H*
+effects: Long-range disorder in B-doped RuO imparts structural flexibility to modify reaction pathways, while short-range ordered Ta atoms in
+2
+RuO introduce lattice strain to stabilize active units via oxygen bridges.Reprinted with permission from ref 111. Copyright©2024 Wiley-VCH
+2
+GmbH. (g and h) Quantitative decoupling of SRO contributions: Workflow for calculating SRO “contribution scores” by integrating Warren−
+Cowley (α) and LDD (δ) parameters. Score heatmap quantifying the distinct impacts of surface and bulk SRO patterns on thermodynamic
+ij j
+stability.Reproducedfrom ref112.Available undera CC-BY4.0license. Copyright2025The Authors.
+correlation with the experimentally measured OER activity Complementing supervised methods, unsupervised learning
+(V ) across a wide range of perovskite compositions. This offers a route to uncover hidden patterns in electronic
+RHE
+structures without biased labels. Esterhuizen et al. utilized
+linear trend provides a transparent physical rule for rapid
+Principal Component Analysis (PCA) to extract electronic
+materials screening, circumventing the need for computation- features directly from the density of states (DOS) of metal
+ally expensive DFT calculations for every new candidate. alloys.108 Unlike traditional descriptors that rely on specific
+3077 https://doi.org/10.1021/acs.chemmater.6c00035
+Chem.Mater.2026,38,3066−3087
+
+Chemistry of Materials pubs.acs.org/cm Review
+moments like the d-band center, PCA captures the full shape introducing localized compressive strain by incorporating
+and fine structure of the electronic states. Figure 8d illustrates larger Ir atoms into a Ru-based HEA can efficiently modulate
+the partial dependence plots derived from this analysis, the electronic structure and strengthen interatomic inter-
+revealing how the first principal component (PC1) quantita- actions. This strain-induced effect shifts the OER pathway
+tivelygovernstheadsorptionenergytrendsforvariousspecies fromtheconventionaladsorbateevolutionmechanism(AEM)
+including C, O, N, and H. The plots show a monotonic totheoxidepathwaymechanism(OPM),therebysuccessfully
+relationship where increasing the PC1 score leads to stronger breaking the activity−stability trade-off.114 These findings
+adsorption energies, demonstrating that unsupervised AI can collectivelyunderscorethat“disorder″inHEAsisnotmerelya
+extract physically meaningful electronic descriptors that unify randomfeaturebutatunableparameterthatcanbeengineered
+the behavior of diverse adsorbates. to optimize catalysis through geometric, electronic, and
+On the other hand, beyond automated feature discovery, mechanical dimensions.
+explicitly extracting and analyzing specific physical features, To achieve a more precise resolution of ordered or
+particularly atomic ordering and disordering, provides a disordered effects within complex HEA spaces, Wu et al.
+“white-box” pathway to elucidate catalytic mechanisms in recently proposed a quantitative framework to decouple the
+solid-solution systems. Recent studies have highlighted that specific contributions of SRO to catalytic performance.112 By
+even with similar compositions, the spatial arrangement of integrating the Warren−Cowley (W−C) parameters for
+atomssignificantlydictatescatalyticperformance.Forinstance, pairwise correlations and Local Density Deviation (LDD)
+Gong et al. investigated Pd Bi alloys and revealed that the
+3 parametersforelementaldistribution,theydefinedastatistical
+atomicarrangementservesasacriticalgeometricdescriptor.109
+“contribution score” to quantify the distinct impact of local
+Strikingly, experimental characterizations confirmed that these
+atomicenvironmentsasshowninFigure9g.Thismethodology
+polymorphs possess nearly identical electronic structures;
+transforms the ambiguous “cocktail effect” into interpretable
+however, their catalytic behaviors diverge significantly. As
+design rules. For example, as shown in Figure 9h, the
+shown in Figure 9a, the disordered solid solution facilitates
+framework successfully visualized the impact of SRO on
+oxidative C−H bond cleavage by offering optimized Pd
+thermodynamic stability for quinary La−Sn−Bi−Co-Ni nano-
+ensemble sizes, thereby reducing the apparent activation
+particles.Thescoreheatmapexplicitlyrevealsthatthestability
+energy (E ) compared to its ordered counterpart. The
+a is governed by specific SRO patterns, such as surface
+geometric origin of this enhancement is visually captured in
+enrichment of Bi and the bulk enrichment of Co/Ni. This
+Figure9b,whichcontraststhesmall,inactivePdensembleson
+approach provides a systematic route to navigate the
+the ordered surface (left) with the larger, catalytically active
+structure−performance landscape of complex catalysts, en-
+ensembles on the solid-solution surface (right). Moreover,
+abling the rational design of stable and active high-entropy
+their impact is not limited to simple geometric effects but
+materials. As research on HEA catalysts continues to develop,
+extends to modulating catalytic performance through diverse
+more universal methods or descriptors may emerge in the
+physicochemical mechanisms such as electronic coupling and
+future, further advancing our understanding of these complex
+lattice strain. Yang et al. demonstrated that SRO induced by
+systems.
+magnetic interactions in FeCoNiCuAl alloys can directly
+5.2.2. Theoretical Evaluation of HER and ORR
+optimize the electronic structure of active sites.110 As
+Performance. Experimental studies have established the
+illustratedinFigure9c,d,theformationofspecificSROmotifs
+bifunctional electrocatalytic activity of HEA nanoparticles;
+modulates the d-band center to prevent the overbinding or
+however,detailedmechanisticinterpretationoftendependson
+weak-binding of intermediates like *H and *OH, effectively
+computationalanalysesthatprobetheelectronicstructureand
+breakingthescalingrelationsandenhancingbifunctionalwater
+reaction energetics. Accordingly, descriptor-based theoretical
+splitting activity via an electronic origin. In addition to
+frameworks are commonly used to interpret and predict the
+electronic modulation, the degree of disorder can also
+HER and ORR performance of HEA catalysts.
+influence the reaction pathway and structural robustness.
+For HER, descriptor-based theoretical analysis has tradi-
+Chen et al. utilized boron doping to disrupt the long-range
+crystallinityofRuO ,creatingahighlydisorderedlattice.111As tionallydependedonhydrogenadsorptionfreeenergy(ΔG H* )
+2 as themain measureof catalytic activity.11,44 According tothe
+depicted in Figure 9e, unlike the rigid crystalline RuO (top),
+2
+whereoxygenevolutionisconstrainedbyfixedlatticesites,the classical Sabatier principle, the best catalyst should interact
+disordered A-RuO structure (bottom) offers structural withhydrogeninsuchawaythatitisneithertoostronglynor
+2
+flexibility. This flexibility modifies the coordination environ- too weakly bound, which results in the well-known volcano
+ment of Ru sites, thereby enabling a more favorable reaction correlation between ΔG H* and HER activity.115 Nevertheless,
+pathwaythatfacilitatesoxygenevolutionwhilesuppressingthe HEAs are by design much more complex than single metal or
+dissolution of active metal sites. Similarly, SRO can serve as a binary catalysts in the nature of their catalytic activity. The
+source of local lattice strain to enhance stability. Wang et al. difference in their highly heterogeneous atomic configurations
+incorporatedshort-rangeorderedTasingleatomsintoaRuO leadstovariationsinlocalelectronicstructures,thuscreatinga
+2
+matrix.113 Figure 9f explicitly illustrates the formation of broad distribution of adsorption strengths rather than a single
+specific Ru−O−Ta(−O−Ta) motifs, which introduce signifi- characteristic ΔG H* . Due to this structural and electronic
+cant tensile strain and create oxygen vacancies. This unique diversity, HER on HEAs cannot be sufficiently described by
+local structure accelerates the OER process, indicated by the one single ΔG H* value or the classical Sabatier volcano trend.
+“Fast″ cycle, compared to the “Slow″ cycle on conventional Theoretically, different surface sites may serve different
+Ru−O−Ru sites. The Ta atoms act as electron donors to catalyticfunctions:stronglybindingsiteswouldberesponsible
+adjacentRusitesviaoxygenbridges,effectivelysuppressingthe for H* adsorption, while weakly binding ones would facilitate
+over-oxidation of Ru and stabilizing the active unit during H release.Intheeventoffastsurfacediffusion,thesedifferent
+2
+acidic OER. Similarly, Zhao et al. recently revealed that sites can operate in tandem, thus overriding the limitation of
+3078 https://doi.org/10.1021/acs.chemmater.6c00035
+Chem.Mater.2026,38,3066−3087
+
+Chemistry of Materials pubs.acs.org/cm Review
+Figure10.ElectronicdescriptorsandtheoreticalmodelsexplainingHERandORRactivityinHEAs.(a)PDOSchangesunderlatticestrainreveal
+gradualdownshiftsofthedbandcenter(ε ),whichdirectlyregulatehydrogenadsorptionenergetics(ΔG ).Reproducedfromref116.Available
+d H*
+underaCC-BY4.0license.Copyright2024SpringerNature.(b)GaussianΔG distributionsoverHEAsurfaces,describedbythemean(μ)and
+H*
+standarddeviation(σ).Catalystswithμ≈zeroandlargerσshowincreasedHERperformance.Reproducedfromref116.AvailableunderaCC-BY
+4.0 license. Copyright 2024 Springer Nature. (c) ΔG spatial variation depicting the strongest binding sites for H* adsorption, the weakest
+H*
+bindingsites forH release, and diffusion routes thatallow multisite cooperative HER. Reproducedfrom ref 116. Available under aCC-BY 4.0
+2
+license.Copyright2024SpringerNature.(d)MachinelearningresultsshowingclosephysicalcorrespondencewithDFTcalculatedΔΔE ,thus
+H*
+allowing a large-scale HER activity screening in diverse HEA configurations. Reproduced from ref 117. Available under a CC-BY 4.0 license.
+Copyright2024AmericanChemicalSociety.(e)Widerangesof*OHadsorptionfreeenergies(ΔG )forconstituentmetalenvironments,thus
+*OH
+HEAs can accommodate multiple ORR active sites close to the volcano peak. Reproduced from ref 117. Available under a CC-BY 4.0 license.
+Copyright2024American ChemicalSociety.
+adsorptionanddesorptionstepsoccurringonthesametypeof where both the energy of binding and the heterogeneity of
+surface site. adsorption sites are equally important.
+By exploring the distinct surface complexity of HEAs, a In addition, the spatial ΔG distribution over the HEA
+H*
+recent work has put forward a mechanistic model called the surface depicted in Figure 10c emphasizes the existence of
+“unusual Sabatier principle” that aims at describing HER differentkindsof activecenters.Strongbindingsites(ΔG <
+H*
+intensity beyond the conventional single descriptor para- 0 eV) are sites for H adsorption, whereas weak binding sites
+digm.116 As depicted in Figure 10a, the DFT calculations (ΔG > 0 eV) are places where H is released through
+H* 2
+implemented on a systematic basis unveiled that imposing Heyrovsky or Tafel steps. The sites are connected via a low-
+latticestrainonHEAsresultsinthegradualdownshiftsofthed barrier diffusion region (∼0.124 eV), which enables hydrogen
+bandcenter, whichpointsto amodifiableelectronic structure. atoms to move from one site to another. This cooperative
+This electronic alteration is linked with hydrogen adsorption multisite mechanism is thus a very efficient way of separating
+freeenergy (ΔG )changes that areusually referred toas the adsorption and desorption steps, thereby accelerating HER
+H*
+main descriptor for HER activity. kinetics. Combined with the classical Sabatier volcano, this
+However, instead of a single characteristic ΔG , different model extends the latter by introducing (μ, σ) as a dual
+H*
+sites on HEA surfaces have a Gaussian distribution of ΔG descriptor instead of a single descriptor.116 It is better at
+H*
+values,whichisshowninFigure10b.Twosignificantstatistical representingHERonHEAsand,therefore,providesinvaluable
+parameters arise: the mean (μ), which represents the average insightintothedesignofthenextgenerationofHERcatalysts
+adsorption strength, and the standard deviation (σ), which that would exploit surface complexity and spatially resolved
+characterizes the range of adsorption site diversity. Catalysts activity.
+with μ values close to 0 eV, corresponding to the best In comparison to HER, ORR shows a significantly more
+hydrogen binding, and larger σ values have better HER complicated theoretical scenario due to its multielectron,
+efficiency.116Thisisconsistentwiththedualdescriptormodel, multistep reactionpathway,which involvesseveral oxygenated
+3079 https://doi.org/10.1021/acs.chemmater.6c00035
+Chem.Mater.2026,38,3066−3087
+
+Chemistry of Materials pubs.acs.org/cm Review
+intermediates such as *O , *OOH, *O, *OH. Even though configurations that are difficult to realize on compositionally
+2
+DFT offers a very solid base for calculating the binding uniform surfaces.102,117 Collectively, these results demonstrate
+energetics of these species, its direct use with HEAs is very that the ORR activity of HEAs is best understood from a
+much constrained.11,32,118 The reason is that HEA surfaces statistical and site-distribution perspective, where catalytic
+have millions of different local atomic environments, and the performance arises from the coexistence of numerous near-
+adsorptionenergyofoxygenintermediatesishighlydependent optimaladsorptionsitesratherthanfromasingle“ideal”active
+on the exact coordination of each site. Additionally, for HEA center.Inthiscontext,theintegrationofDFTcalculationswith
+compositions containing magnetic elements (e.g., Fe, Co, Ni, machine-learning−accelerated surface sampling provides a
+Mn), spin polarization may significantly influence the local practical and scalable route to map adsorption-energy
+electronic structure and adsorption energetics. Neglecting landscapes and to rationally screen high-entropy electro-
+these magnetic moments in first-principles calculations may catalysts for oxygen reduction.
+lead to inaccurate predictions of intermediate binding Fromacatalystdesignpointofview,theseresultsimplythat
+strengths, particularly for oxygenated species active in the the next generation of HEA electrocatalysts should not just
+ORR.110 Therefore, a brute force DFT sampling is computa- focusontryingtoachieveasingleidealadsorptionenergy.On
+tionallyveryexpensiveifonewantstomaptheentirereactivity the contrary, rational design approaches should be based on
+landscape of HEAs.119 For example, sampling on the order of themodificationofthestatisticalfeaturesoftheadsorptionand
+104 distinct surface local environments for adsorption studies energy distributions.
+would typically require ∼105−106 CPU hours with conven- InthecaseofHER,itisaboutsettingthedistributioncenter
+tional DFT, making brute-force enumeration impractical. (μ) of G to the thermoneutral binding condition and at the
+*H
+Tomitigatethisdifficulty,acoupleofrecentpapershaveput same time increasing the distribution width (σ) to raise the
+forward DFT-integrated ML frameworks that basically open fractionofhydrogen,bindingsiteswithnear,optimalenergies,
+the way for a quick evaluation of ORR activity on HEAs. A thus allowing cooperative adsorption and desorption over
+typical tactic is the DFT + ML high-throughput screening several surface motifs. Similarly, for ORR, the oxygenated,
+method, where *OH adsorption energies calculated by DFT intermediate adsorption energies (especially G ) distribu-
+*OH
+onaveryfewsitesareusedtocreatepredictivemodelsthatcan tionneedstobemodifiedsothatalargeportionofthesurface
+estimate ΔG for the vast number of possible adsorption siteswouldfallclosetotheORRvolcanomaximuminsteadof
+*OH
+environments.120 Another convincing method is the one that optimizing a single site only.
+usesdeeplearninginteratomicpotentialstogetherwithMonte InthecaseofbifunctionalHEAcatalysts,thesedistribution-
+Carlo (MC) simulations for the production of compositional based design rules point out the necessity of simultaneously
+HEA surface configurations that are as close to reality as satisfying different but complementary adsorption require-
+possible. After that, these structures are evaluated by physics- ments of HER and ORR related intermediates. By adjusting
+guided ML models like TinNet that can locate adsorption composition, strain engineering, and intentional creation of
+energies with almost DFT accuracy.117 TinNet, as depicted in localatomicenvironments,onecanfine-tuneboththelocation
+Figure10d,isinverycloseagreementwithDFT(MAE≈0.14 and size of adsorption, energy distributions, thus opening up
+eV for HEA test sets) and thus allows, in principle, unlimited the maximum number of catalytically active sites for each
+sampling of complex HEA surfaces at a huge scale.117 Among reaction and achieving real bifunctionality in a single material.
+the computational approaches discussed, the *OH adsorption 5.2.3. Performance Evaluation for Bifunctional Cata-
+free energy (ΔG ) has emerged as the most robust and lysts. Designing bifunctional catalysts for HER and ORR
+*OH
+transferable single descriptor for evaluating ORR activity.121 introduces additional complexities, as these catalysts must
+Owing to the well-established linear scaling relations among balance the performance requirements for two distinct
+oxygenated intermediates (*O , *OOH, *O, and *OH), reactions. The optimization process is particularly challenging
+2
+ΔG alone can effectively reconstruct the ORR volcano in two aspects. The first difficulty lies in designing standards.
+*OH
+relationship and capture the classical Sabatier-type balance Unlikesingle-functioncatalysts,bifunctionalcatalystscurrently
+between intermediate binding strength and catalytic turn- lack a standardized metric for evaluating their overall
+over.117 As illustrated in Figure 10e, HEAs intrinsically performance.Althoughcatalyststhatexhibitexcellentperform-
+generate a broad distribution of ΔG values as a direct anceinbothHERandORRhavebeensuccessfullysynthesized
+*OH
+consequenceoftheirhighlydiverselocalatomicenvironments. experimentally,fromthecomputationaldesignperspective,the
+Rather than exhibiting a single characteristic adsorption ability to rapidly model different structures is undoubtedly an
+strength, a single HEA surface hosts a wide spectrum of advantage.26 However,toachievemoreefficientscreeningand
+adsorption sites spanning weak-, intermediate-, and strong- performance optimization, it is essential to establish more
+binding regimes. Importantly, this broad distribution enables rational and targeted design standards. Developing a unified
+multiplesurfacemotifswithinthesamecatalysttoresideator descriptor or performance index that accounts for both
+nearthepeakoftheORRvolcano,providingamolecular-level reactions remains a significant challenge. A second challenge
+explanation for the superior ORR performance frequently arises from the intrinsic complexity of bifunctional catalyst
+observed in HEA systems.117 And Figure 10e also reveals that design. Achieving stability, activity, and selectivity for a single
+adsorption sites associated with elements such as Pt and Pd electrochemical reaction is already nontrivial; satisfying these
+predominantly populate the optimal binding region close to requirements simultaneously for both HER and ORR further
+the volcano maximum, whereas Cu- and Ni-centered environ- increases the design difficulty. The two reactions impose
+ments tend to shift ΔG toward either weaker or stronger distinct kinetic and thermodynamic constraints, and optimiza-
+*OH
+binding regimes.117 This element-resolved distribution high- tion toward one pathway can readily compromise the other.
+lights how HEAs combine chemically distinct local environ- For instance, surfaces optimized for near-thermoneutral
+ments within a single solid-solution framework, thereby hydrogen adsorption (ΔG ≈ 0) to promote HER may
+H*
+achieving simultaneous access to multiple ORR-active bind oxygenated intermediates too strongly, thereby suppress-
+3080 https://doi.org/10.1021/acs.chemmater.6c00035
+Chem.Mater.2026,38,3066−3087
+
+Chemistry of Materials pubs.acs.org/cm Review
+ingORRactivity.Whilethediverselocalatomicenvironments perturbations arising from local electric fields, proton
+in HEAs enable bifunctionality, they also complicate rational availability, or solvent stabilization can lead to pronounced
+design,asmotifsfavorableforhydrogenadsorptioncanhinder changes in activity and selectivity, rendering static, vacuum-
+oxygen reduction. based DFT descriptions insufficient and often inconsistent
+Recent advances in computational catalyst design suggest with experimental observations.
+that multiobjective optimization strategies provide a viable A primary consequence of the electrochemical environment
+routetoaddressing thesechallenges.79 Rather than identifying is the applied electrode potential, which generates a strong
+a single optimal descriptor, these approaches define a set of interfacialelectricfieldacrosstheHelmholtzlayer.126Thisfield
+trade-off solutions, commonly represented by a Pareto front, directly modulates the energetics, dipole moments, and
+where improvement in one objective cannot be achieved orientations of adsorbed intermediates. Importantly, electric
+without degrading another.115 Recent studies have addressed field effects are intrinsically coupled to pH, as reaction
+this. For instance, Xu et al. developed a Pareto-based mechanisms dependon theinterplaybetweeninterfacial fields
+optimization framework to explore the vast compositional and proton availability. Acidic conditions typically favor
+spaceofHEAs,enablingsimultaneousoptimizationofcatalytic concerted proton−electron transfer (CPET), whereas alkaline
+activity and structural stability. By training machine-learning environments often promote stepwise electron-transfer or
+models to predict key descriptors such as ΔG and surface proton-transfer pathways due to kinetic decoupling.127,128 To
+OH
+formationenergiesacrossmillionsofcandidateconfigurations, capture these effects and rationalize experimentally observed
+theauthorsidentifiedalloycompositionsthatachievebalanced trends such as pH-dependent Tafel slopes, constant-potential
+performance.122 This framework enables concurrent tuning of approaches where the electrode is treated as an electron
+hydrogen adsorption free energy (ΔG ) governing HER and reservoir, are generally more appropriate than fixed-charge
+H*
+hydroxyl adsorption free energy (ΔG ) governing ORR, models.129,130 These methods explicitly account for field−
+OH*
+providing a systematic pathway toward bifunctional optimiza- adsorbate interactions, which are especially critical for ORR
+tion.5,23 Despite these advances, challenges remain, including selectivity, where the stability of polar intermediates such as
+accurate modeling of local atomic environments, treatment of *OOH is sensitive to field orientation and magnitude.
+intermediate cross-reactivity, and the limited availability of Beyondactivity,catalyststabilityunderoperandoconditions
+reliable data sets encompassing multiple reaction mechanisms represents an equally important yet frequently underexplored
+in complex HEA systems. aspect of computational screening.131 Although Pourbaix
+It is essential to distinguish between descriptors that analysis provides a useful thermodynamic framework for
+primarily govern intrinsic catalytic activity and those that identifying stability windows and dissolution tendencies,
+more accurately reflect long-term structural stability. Activity- thermodynamics alone is insufficient.132 Kinetic factors,
+related descriptors, such as adsorption energetics and including dissolution barriers, surface segregation, and
+electronicstructureparameters,aretypicallyusedtorationalize reconstruction pathways, must also be considered. In HEAs,
+catalytic performance under simplified and idealized atomic configurational entropy stabilizes the bulk phase, but surfaces
+environments. In contrast, stability-related descriptors are remain vulnerable to selective leaching, oxidation-driven
+more closely associated with phenomena occurring under reconstruction,ordynamicsegregation.Asaresult,adsorption
+realisticoperatingconditions,includingsurfacereconstruction, energetics can evolve with time, implying that descriptors
+elemental segregation, and thermodynamic driving forces. derived from pristine surfaces may not reliably predict long-
+These aspects are discussed in greater detail in the following term catalytic performance. This dynamic behavior highlights
+section. theneedforstability-awaremodelingstrategiesinHEAcatalyst
+design. Beyond activity, catalyst stability under operando
+5.3. Realistic Electrochemical Environment Effects:
+conditions represents an equally important yet frequently
+Solvent, Electric Field, pH, and Catalyst Stability
+underexplored aspect of computational screening. Although
+Density functional theory (DFT) calculations have played a Pourbaixanalysisprovidesausefulthermodynamicframework
+central role in elucidating fundamental electrocatalytic for identifying stability windows and dissolution tendencies,
+mechanisms. However, most conventional DFT studies are thermodynamicsaloneisinsufficient.Kineticfactors,including
+performed under idealized vacuum or gas-phase conditions, dissolution barriers, surface segregation, and reconstruction
+which neglect the complex and dynamic nature of the solid− pathways, must also be considered. In HEAs, configurational
+liquid interface where electrochemical reactions occur. This entropy stabilizes the bulk phase, but surfaces remain
+interfacecomprisessolventmolecules,theelectricdoublelayer vulnerable to selective leaching, oxidation-driven reconstruc-
+(EDL), interfacial electric fields, and pH-dependent ionic tion,ordynamicsegregation.Asaresult,adsorptionenergetics
+species, all of which can substantially influence reaction can evolve with time, implying that descriptors derived from
+energetics and pathways.123 These limitations are particularly pristine surfaces may not reliably predict long-term catalytic
+pronounced for bifunctional electrocatalysts such as HEAs, performance. This dynamic behavior highlights the need for
+whose chemically heterogeneous surfaces host multiple stability-aware modeling strategies in HEA catalyst design.
+competing active sites. In such systems, even modest Finally, the solvent itself actively participates in electro-
+perturbations arising from local electric fields, proton catalysis rather than serving as a passive dielectric
+availability, or solvent stabilization can lead to pronounced medium.133,134 Solvent molecules stabilize charged intermedi-
+changes in activity and selectivity, rendering static, vacuum- ates, mediate proton transfer through hydrogen-bonding
+based DFT descriptions insufficient and often inconsistent networks, and can significantly lower reaction barriers.135 For
+with experimental observations.124,125 These limitations are instance, explicit water stabilization of *OH on HEA surfaces
+particularly pronounced for bifunctional electrocatalysts such canalterdesorptionkineticsandshiftreactionpathways.136To
+as HEAs, whose chemically heterogeneous surfaces host capture these effects, computational studies increasingly
+multiple competing active sites. In such systems, even modest employ implicit solvation models to describe average electro-
+3081 https://doi.org/10.1021/acs.chemmater.6c00035
+Chem.Mater.2026,38,3066−3087
+
+Chemistry of Materials pubs.acs.org/cm Review
+staticscreening,aswellasexplicitapproachessuchasabinitio directions that can not only convert the intricacy of HEAs
+moleculardynamics(AIMD)toresolveinterfacialfluctuations into a strong design leverage but also clarify the confusion.
+and solvent−adsorbate interactions directly.137 Incorporating First of all,developing artificial intelligence drivenstrategies
+these realistic environmental factors is therefore essential for forthedesignoftheHEAcatalystistheprimarytechnological
+achieving reliable predictions of both activity and durability, advancementthatshouldbeaccompaniedbytheestablishment
+ultimately enabling the rational design of HEA-based bifunc- of proper data infrastructures. These data infrastructures
+tional electrocatalysts. Finally, the solvent itself actively should be specially constructed for the disordered multi-
+participates in electrocatalysis rather than serving as a passive componentsystemsaswellasbifunctionalperformancetargets.
+dielectric medium. Solvent molecules stabilize charged The extremely large compositional design space, short-range
+intermediates, mediate proton transfer through hydrogen- order, the heterogeneity of active sites, and dynamic surface
+bondingnetworks,andcansignificantlylowerreactionbarriers. reconstruction under the working conditions make conven-
+For instance, explicit water stabilization of *OH on HEA tional brute force simulations or purely empirical screening
+surfaces can alter desorption kinetics and shift reaction infeasible.Hence,data-centricmethodologiesbecometheonly
+pathways. To capture these effects, computational studies efficient and accurate way of dealing with such complexity.
+increasingly employ implicit solvation models to describe While crystalline catalyst databases become more and more
+average electrostatic screening, as well as explicit approaches mature, HEA data sets are still very limited and often
+such as AIMD to resolve interfacial fluctuations and solvent− inconsistent. In general, they do not comprise paired HER
+adsorbate interactions directly. Incorporating these realistic and ORR activity metrics; standardized testing such as
+environmental factors is therefore essential for achieving electrolyte type or pH; durability information; or details
+reliable predictions of both activity and durability, ultimately about catalyst supports and interfaces. A HEA database
+enabling the rational design of HEA-based bifunctional devoted to this purpose should incorporate structural
+electrocatalysts. descriptors at different scales that include elemental
+However, the application of these realistic models is composition, short-range ordering patterns, coordination
+constrained by significant computational costs. Constant- number distributions, strain statistics, and key electronic
+potential methods, for instance, require iterative optimization characteristics. These descriptors should be connected with
+ofthesurfacechargetomaintainthetargetFermilevel,which catalytic metrics such as hydrogen adsorption free energy
+can increase the simulation time by an order of magnitude ΔG , oxygenated intermediate binding energies including
+H*
+compared to standard constant-charge calculations.123,128 *OOH and *O, half wave potentials, Tafel slopes, mass
+Similarly, the choice of solvent model presents a critical activities, and stability measurements. Hybrid workflows that
+trade-off: while implicit models provide a computationally include rapid surrogate models and uncertainty-aware active
+efficientdescriptionofdielectricscreening,theyfailtocapture learning, as well as targeted high-accuracy DFT simulations
+the specific hydrogen-bonding networks that are essential for andoperandoexperiments,willbenecessarytostrikeabalance
+stabilizing intermediates like *OH.132,137 Conversely, explicit between computational cost and predictive fidelity. The
+solvent models combined with ab initio molecular dynamics establishment of shared data standards, benchmarking
+(AIMD)offerhighaccuracybutareoftentoocomputationally protocols,andtraceablemetadatapracticesisnotonlyessential
+expensive for the high-throughput screening required to fordatareliabilitybutalsoservesasabasisforthemechanistic
+explore the vast HEA configurational space. Therefore, a and closed-loop strategies discussed below.
+hierarchical sampling strategy, utilizing static DFT with Second, it is a prerequisite to comprehend the cooperative
+implicit solvation for broad compositional screening, followed and synergistic interactions in HEAs at a deeper mechanistic
+by targeted AIMD simulations for precise mechanistic levelinordertohaveacatalystdesignthatisinterpretableand
+verification, is typically the most practical approach.123 directional. Nonlinear interactions among the constituent
+Beyond computational expense, these models introduce elements are mostly responsible for the catalytic behavior of
+physical approximations that limit quantitative accuracy. HEAs. These interactions manifest as the coupling of
+Constant-potential and electric-field approaches typically electronic and geometric, local lattice strain, broadened
+treat the EDL within a mean-field continuum framework, adsorption energy distributions, and interfacial charge
+which is insufficient for HEA surfaces where strong electronic redistribution. It is impossible to derive these effects reliably
+heterogeneity produces highly localized, nonuniform electric from the trends established for single-component catalysts. In
+fields.123−125 In addition, pH-dependent models such as the thecase ofbifunctionaloperation,adesign problemarises: on
+Computational Hydrogen Electrode (CHE) assume thermo- the one hand, HER performance necessitates ΔG
+H*
+dynamic equilibrium for proton−electron transfer, reducing optimization, on the other hand, ORR performance depends
+reliability under kinetic regimes, particularly in alkaline media on the energetics of intermediates such as *OOH and *O. In
+or at high overpotentials, where decoupled transfer steps and fact, these requirements have to be reconciled over a broad
+site-specific solvation environments create barriers not distributionofactivesiteswhoseidentitiesandelectronicstates
+captured by bulk thermodynamic corrections.127,128 may change under the applied potential. Interpretable data
+driven models such as symbolic regression, SISSO type
+6. CHALLENGE AND OPPORTUNITY
+descriptoridentification,andgraphbasedlearningframeworks
+HEAs are fast becoming one of the most fascinating, though with attribution capabilities ought to form connections
+verychallenging,bifunctionalelectrocatalysisplatforms.Onthe between structurally measurable motifs in the experiment
+one hand, their compositional variety and inherent structural such as short-range ordering, local coordination geometries,
+disorder provide the possibility of meeting the catalytic needs andgradientsinelectronegativityordbandcharacteristics,and
+of the HER and the ORR simultaneously. On the other hand, mechanistic indicators like rate limiting barriers, selectivity
+theyposetheproblemofhowtounifytheserequirements.We trends, and the relationships between activity and stability.
+put forward the idea of first addressing three research These models ought to be strongly coupled with operando
+3082 https://doi.org/10.1021/acs.chemmater.6c00035
+Chem.Mater.2026,38,3066−3087
+
+Chemistry of Materials pubs.acs.org/cm Review
+characterization tools such as X-ray absorption spectroscopy, Abdulrahman Allangawi − Center for Renewable Energy and
+Raman spectroscopy, electrochemical transmission, or scan- Storage Technologies (CREST), Physical Science and
+ningtunnelingmicroscopy,andonlinemassspectrometry.The Engineering Division, King Abdullah University of Science
+couplingmakesitpossibletodeterminetherealworkingactive and Technology (KAUST), Thuwal 23955-6900, Saudi
+sites, the main reconstruction pathways, and the sources of Arabia
+deactivation. Hence, empirical correlations can be turned into Yu Li − Aiiso Yufeng Li Family Department of Chemical and
+testable causal hypotheses that explain how HEAs achieve Nano Engineering, University of California San Diego, La
+bifunctional performance. Jolla, California 92093, United States
+Third, after enhancing the progress not only in the data HonglinLi−AiisoYufengLiFamilyDepartmentofChemical
+infrastructure but also in the mechanistic understanding, the and Nano Engineering, University of California San Diego,
+industry should embrace a closed-loop design system that La Jolla, California 92093, United States
+unites theory, synthesis, characterization, and electrochemical Yongfeng Guo − Aiiso Yufeng Li Family Department of
+evaluation without any interruption. In this system, predictive Chemical and Nano Engineering, University of California
+models with quantified uncertainty identify candidate HEA San Diego, La Jolla, California 92093, United States
+compositions, synthesis pathways, and targeted short-range
+Complete contact information is available at:
+ordering motifs. Automated or high-throughput synthesis
+https://pubs.acs.org/10.1021/acs.chemmater.6c00035
+platforms and standardized HER and ORR measurement
+protocolscanthencreateconsistentexperimentaldata.Allthis
+Notes
+data, including the unsuccessful attempts, is the learning
+framework’s feedback to refine descriptors, improve model The authors declare no competing financial interest.
+accuracy, and update prior assumptions. Multiobjective ■
+optimization may be used to balance catalytic activity, ACKNOWLEDGMENTS
+selectivity, long-term durability, and practical constraints
+TheauthorsacknowledgesupportfromtheAirForceOfficeof
+involving elemental cost, corrosion resistance, and resource
+Scientific Research grants FA9550-25-1-0355, the National
+availability. For instance, recent work on scalable MOF-based
+Science Foundation under Grant No. DMR-2522541 and the
+electrodes has demonstrated the critical value of integrating
+ACS Petroleum Research Fund under Doctoral New
+techno-economic analysis (TEA) and life cycle assessment
+Investigator Grant 69037-DNI10. W.-L. Li also acknowledges
+(LCA) early in the design phase to quantify hydrogen
+support of the Hellman Fellowship, University of California
+production costs and environmental carbon footprints, setting
+a benchmark for practical catalyst development.138 Synthetic San Diego. The authors also acknowledge the KAUST
+Supercomputing Core Laboratory under project K10175.
+feasibility-related constraints are considered through physics-
+based surrogate models. The iteration cycle can be shortened ■
+REFERENCES
+dramatically with the increased use of autonomous exper-
+imentation and standardized data practices, thus enabling the (1) Quan, L.; Jiang, H.; Mei, G.; Sun, Y.; You, B. Bifunctional
+rapidandinterpretabledevelopment ofHEAcatalysts.Nowis Electrocatalysts for Overall and Hybrid Water Splitting. Chem. Rev.
+the time to realize this AI-guided, mechanism-informed, 2024, 124 (7),3694−3812.
+closed-loop design paradigm. The way it is implemented can (2)Li,M.;Lin,F.;Zhang,S.;Zhao,R.;Tao,L.;Li,L.;Li,J.;Zeng,
+turnHEAsintopracticalandscalablebifunctionalcatalyststhat L.; Luo, M.; Guo, S. High-entropy alloy electrocatalysts go to (sub-
+can meet the strict performance requirements of both HER )nanoscale. Sci. Adv.2024, 10(23),No. eadn2877.
+(3)Jiménez-Arévalo,V.M.;Martin,P.;Sepuĺveda,M.F.;Azocar,M.
+andORR,insteadofbeinghighlycomplexresearchcuriosities.
+I.;Zhou,X.;GalleguillosMadrid,F.M.;Ramirez,C.G.;Zagal,J.H.;
+■ Páez, M. Recent advances in high-entropy alloys for electrocatalysis:
+AUTHOR INFORMATION From rational design to functional performance. Mater. Des. 2025,
+258,No. 114633.
+Corresponding Authors
+(4) Chu, S.; Majumdar, A. Opportunities and challenges for a
+Huabin Zhang − Center for Renewable Energy and Storage sustainable energyfuture.Nature2012, 488 (7411),294−303.
+Technologies (CREST), Physical Science and Engineering (5)Batchelor,T.A.A.;Pedersen,J.K.;Winther,S.H.;Castelli,I.E.;
+Division,KingAbdullahUniversityofScienceandTechnology Jacobsen, K. W.; Rossmeisl, J. High-Entropy Alloys as a Discovery
+(KAUST), Thuwal 23955-6900, Saudi Arabia; PlatformforElectrocatalysis.Joule 2019, 3(3), 834−845.
+(6) Vesborg, P. C. K.; Jaramillo, T. F. Addressing the terawatt
+orcid.org/0000-0003-1601-2471;
+challenge:scalabilityinthesupplyofchemicalelementsforrenewable
+Email: huabin.zhang@kaust.edu.sa
+energy. RSCAdv. 2012, 2(21),7933−7947.
+Wan-Lu Li − Program of Materials Science and Engineering
+(7) Abdin, Z.; Zafaranloo, A.; Rafiee, A.; Mérida, W.; Lipinś ki, W.;
+and Aiiso Yufeng Li Family Department of Chemical and
+Khalilpour,K.R.Hydrogenasanenergyvector.RenewableSustainable
+Nano Engineering, University of California San Diego, La Energy Rev.2020, 120, No. 109620.
+Jolla, California 92093, United States; orcid.org/0000- (8)Dotan,H.;Landman,A.;Sheehan,S.W.;Malviya,K.D.;Shter,
+0003-0098-0670; Email: wal019@ucsd.edu G.E.;Grave,D.A.;Arzi,Z.;Yehudai,N.;Halabi,M.;Gal,N.;etal.
+Decoupled hydrogen and oxygen evolution by a two-step electro-
+Authors chemical−chemical cycle for efficient overall water splitting. Nat.
+Energy 2019, 4 (9),786−795.
+Jialu Li − Program of Materials Science and Engineering,
+(9) Shao, M.; Chang, Q.; Dodelet, J.-P.; Chenitz, R. Recent
+University of California San Diego, La Jolla, California
+Advances in Electrocatalysts for Oxygen Reduction Reaction. Chem.
+92093, United States Rev.2016, 116 (6),3594−3657.
+Jianzhuo Wu − Aiiso Yufeng Li Family Department of (10) Danilovic, N.; Subbaraman, R.; Chang, K. C.; Chang, S. H.;
+Chemical and Nano Engineering, University of California Kang, Y. J.; Snyder, J.; Paulikas, A. P.; Strmcnik, D.; Kim, Y. T.;
+San Diego, La Jolla, California 92093, United States Myers, D.; et al. Activity-Stability Trends for the Oxygen Evolution
+3083 https://doi.org/10.1021/acs.chemmater.6c00035
+Chem.Mater.2026,38,3066−3087
+
+Chemistry of Materials pubs.acs.org/cm Review
+Reaction on Monometallic Oxides in Acidic Environments. J. Phys. principles modeling and simulations. Mater. Res. Lett. 2023, 11 (9),
+Chem. Lett.2014, 5(14),2474−2478. 713−732.
+(11) No̷rskov, J. K.; Rossmeisl, J.; Logadottir, A.; Lindqvist, L.; (31) Liu, X.; Zhang, J.; Pei, Z. Machine learning for high-entropy
+Kitchin,J.R.;Bligaard,T.;Jónsson,H.OriginoftheOverpotentialfor alloys:Progress,challengesandopportunities.Prog.Mater.Sci.2023,
+OxygenReductionataFuel-CellCathode.J.Phys.Chem.B2004,108 131,No. 101018.
+(46),17886−17892. (32)Wang,S.;Xin,H.PredictingCatalyticActivityofHigh-Entropy
+(12) Li, Y.; Zhang, Y.; Qian, K.; Huang, W. Metal−Support Alloys forElectrocatalysis.Chem. 2019, 5(3), 502−504.
+InteractionsinMetal/OxideCatalystsandOxide−MetalInteractions (33) Pedersen, J. K.; Batchelor, T. A. A.; Bagger, A.; Rossmeisl, J.
+in Oxide/Metal Inverse Catalysts. ACS Catal. 2022, 12 (2), 1268− High-Entropy Alloys as Catalysts for the CO2 and CO Reduction
+1287. Reactions. ACS Catal.2020, 10(3),2169−2176.
+(13) Wang, W.; Lei, B.; Guo, S. Engineering Multimetallic (34)Tsai,M.-H.;Yeh,J.-W.High-EntropyAlloys:ACriticalReview.
+Nanocrystals for Highly Efficient Oxygen Reduction Catalysts. Adv. Mater. Res.Lett. 2014, 2(3),107−123.
+Energy Mater.2016, 6(17),No. 1600236. (35)Li,H.;Han,Y.;Zhao,H.;Qi,W.;Zhang,D.;Yu,Y.;Cai,W.;
+(14)Greeley,J.;Stephens,I.E.L.;Bondarenko,A.S.;Johansson,T. Li, S.; Lai, J.; Huang, B.; et al. Fast site-to-site electron transfer of
+P.; Hansen, H. A.; Jaramillo, T. F.; Rossmeisl, J.; Chorkendorff, I.; high-entropy alloy nanocatalyst driving redox electrocatalysis. Nat.
+No̷rskov,J.K.Alloysofplatinumandearlytransitionmetalsasoxygen Commun.2020, 11(1), 5437.
+reductionelectrocatalysts.Nat. Chem. 2009, 1(7), 552−556. (36) Hammer, B.; No̷rskov, J. K. Theoretical surface science and
+(15) George, E. P.; Raabe, D.; Ritchie, R. O. High-entropy alloys. catalysis�calculationsandconcepts.InAdv.Catal.,vol45;Academic
+Nat.Rev. Mater.2019, 4(8), 515−534. Press, 2000; pp71−129.
+(16) Yan, X.; Zhou, Y.; Wang, S. Nano-High Entropy Materials in (37) Subbaraman, R.; Tripkovic, D.; Chang, K.-C.; Strmcnik, D.;
+Electrocatalysis.Adv.Funct.Mater. 2025, 35(2),2413115. Paulikas, A. P.; Hirunsit, P.; Chan, M.; Greeley, J.; Stamenkovic, V.;
+(17)Cantor,B.MulticomponentandHighEntropyAlloys.Entropy Markovic,N.M.Trendsinactivityforthewaterelectrolyserreactions
+2014, 16(9),4749−4768.
+on 3d M(Ni,Co,Fe,Mn) hydr(oxy)oxide catalysts. Nat. Mater. 2012,
+(18) Cantor, B.; Chang, I. T. H.; Knight, P.; Vincent, A. J. B. 11(6), 550−557.
+Microstructural development in equiatomic multicomponent alloys.
+(38)Liu,J.;Huang,P.;Xia,Y.;Liu,Y.;Luo,Y.;Zhang,H.;Zou,Y.;
+Mater.Sci. Eng.A2004, 375−377, 213−218.
+Chu,H.;Zhang,G.; Sun,S.;etal.High-entropyalloysforhydrogen
+(19)Yeh,J.-W.;Chen,S.-K.;Lin,S.-J.;Gan,J.-Y.;Chin,T.-S.;Shun,
+storage, separation, and detection: recent progress and prospects.
+T.-T.;Tsau,C.-H.;Chang,S.-Y.NanostructuredHigh-EntropyAlloys
+eScience 2025, 6, No. 100506.
+withMultiplePrincipalElements:NovelAlloyDesignConceptsand
+(39)Mavrikakis,M.;Hammer,B.;No̷rskov,J.K.EffectofStrainon
+Outcomes.Adv.Eng. Mater.2004, 6 (5),299−303.
+theReactivityofMetalSurfaces.Phys.Rev.Lett.1998,81(13),2819−
+(20)Miracle,D.B.;Senkov,O.N.Acriticalreviewofhighentropy
+2822.
+alloysandrelated concepts.Acta Mater.2017, 122,448−511.
+(40) Siahrostami, S.; Verdaguer-Casadevall, A.; Karamad, M.;
+(21)Yu,B.;Ren,Y.;Zeng,Y.;Ma,W.;Morita,K.;Zhan,S.;Lei,Y.;
+Deiana, D.; Malacrida, P.; Wickman, B.; Escudero-Escribano, M.;
+Lv,G.;Li,S.;Wu,J.Recentprogressinhigh-entropyalloys:Afocused
+Paoli, E. A.; Frydendal, R.; Hansen, T. W.; et al. Enabling direct
+reviewofpreparationprocessesandproperties.J.Mater.Res.Technol.
+H2O2productionthroughrationalelectrocatalystdesign.Nat.Mater.
+2024, 29,2689−2719.
+2013, 12(12),1137−1143.
+(22) Zhang, Y.; Zuo, T. T.; Tang, Z.; Gao, M. C.; Dahmen, K. A.;
+(41) Subbaraman, R.; Tripkovic, D.; Strmcnik, D.; Chang, K.-C.;
+Liaw,P.K.;Lu,Z.P.Microstructuresandpropertiesofhigh-entropy
+Uchimura, M.; Paulikas, A. P.; Stamenkovic, V.; Markovic, N. M.
+alloys.Prog. Mater.Sci. 2014,61, 1−93.
+Enhancing Hydrogen Evolution Activity in Water Splitting by
+(23)Pedersen,J.K.;Batchelor,T.A.A.;Yan,D.;Skjegstad,L.E.J.;
+Tailoring Li+-Ni(OH)-Pt Interfaces. Science 2011, 334 (6060),
+Rossmeisl, J. Surface electrocatalysis on high-entropy alloys. Curr. 2
+1256−1260.
+Opin. Electrochem. 2021,26, No. 100651.
+(42) Dinh, C.-T.; Jain, A.; de Arquer, F. P. G.; De Luna, P.; Li, J.;
+(24)Cai,H.;Yang,H.;He,S.;Wan,D.;Kong,Y.;Li,D.;Jiang,X.;
+Wang,N.;Zheng,X.;Cai,J.;Gregory,B.Z.;Voznyy,O.;etal.Multi-
+Zhang, X.; Hu, Q.; He, C. Size-Adjustable High-Entropy Alloy
+site electrocatalysts for hydrogen evolution in neutral media by
+Nanoparticles as an Efficient Platform for Electrocatalysis. Angew.
+destabilizationofwatermolecules.Nat.Energy2019,4(2),107−114.
+Chem.,Int. Ed. 2025,64(13),No. e202423765.
+(43) Zhuang, L.; Jin, J.; Abruña, H. D. Direct Observation of
+(25) He, G.; Zhang, X.; Liu, J.; Chong, J.; Ye, G.; Fei, H.
+Electrocatalytic Synergy. J. Am. Chem. Soc. 2007, 129 (36), 11033−
+Hydrocarbothermal flow synthesis of carbon-supported small and
+dense high-entropy alloy nanoparticles as electrocatalysts. Nat. 11035.
+Commun.2025, 16(1),8172.
+(44)No̷rskov,J.K.;Bligaard,T.;Logadottir,A.;Kitchin,J.R.;Chen,
+(26)Wang,Y.;Luo,W.H.;Gong,S.;Luo,L.X.;Li,Y.X.;Zhao,Y. J.G.;Pandelov,S.;Stimming,U.TrendsintheExchangeCurrentfor
+Y.; Li, Z. Synthesis of High-Entropy-Alloy Nanoparticles by a Step- HydrogenEvolution. J. Electrochem. Soc.2005, 152 (3),J23.
+Alloying Strategy as a Superior Multifunctional Electrocatalyst. Adv. (45) Man, I. C.; Su, H.-Y.; Calle-Vallejo, F.; Hansen, H. A.;
+Mater.2023, 35(36),No. e2302499. Martínez,J.I.;Inoglu,N.G.;Kitchin,J.;Jaramillo,T.F.;No̷rskov,J.
+(27) Yang, C.; Gao, Y.; Ma, T.; Bai, M.; He, C.; Ren, X.; Luo, X.; K.;Rossmeisl,J.UniversalityinOxygenEvolutionElectrocatalysison
+Wu, C.; Li, S.; Cheng, C. Metal Alloys-Structured Electrocatalysts: OxideSurfaces. ChemCatChem2011, 3 (7),1159−1165.
+Metal−Metal Interactions, Coordination Microenvironments, and (46)Watanabe,M.;Motoo,S.Electrocatalysisbyad-atoms:PartII.
+Structural Property−Reactivity Relationships. Adv. Mater. 2023, 35 Enhancementoftheoxidationofmethanolonplatinumbyruthenium
+(51),2301836. ad-atoms. J. Electroanal. Chem. Interfacial Electrochem. 1975, 60 (3),
+(28) Sun, Y.; Dai, S. High-entropy materials for catalysis: A new 267−273.
+frontier.Sci. Adv.2021, 7(20),No. eabg1600. (47) Gasteiger, H.; Markovic,́ N.; Ross, P.; Cairns, E. CO
+(29) Jain, A.; Ong, S. P.; Hautier, G.; Chen, W.; Richards, W. D.; Electrooxidation on Well-Characterized Pt-Ru Alloys. J. Phys. Chem.
+Dacek,S.;Cholia,S.;Gunter,D.;Skinner,D.;Ceder,G.;Persson,K. 1993, 97, 12020−12029.
+A.Commentary:TheMaterialsProject:Amaterialsgenomeapproach (48) Gasteiger, H. A.; Markovic, N. M.; Ross, P. N., Jr.
+to accelerating materials innovation. APL Mater. 2013, 1 (1), Electrooxidation of CO and H2/CO Mixtures on a Well-
+No. 011002. Characterized Pt3Sn Electrode Surface. J. Phys. Chem. 1995, 99
+(30)Huo,W.Y.;Wang,S.Q.;Dominguez-Gutierrez,F.J.;Ren,K.; (22),8945−8949.
+Kurpaska,L.;Fang,F.;Papanikolaou,S.;Kim,H.S.;Jiang,J.Q.High- (49)Markovic,́ N.M.;Ross,P.N.Surfacesciencestudiesofmodel
+entropy materials for electrocatalytic applications: a review of first fuelcell electrocatalysts.Surf.Sci. Rep.2002, 45(4), 117−229.
+3084 https://doi.org/10.1021/acs.chemmater.6c00035
+Chem.Mater.2026,38,3066−3087
+
+Chemistry of Materials pubs.acs.org/cm Review
+(50) Zhu, J.; Hu, L.; Zhao, P.; Lee, L. Y. S.; Wong, K.-Y. Recent (69)Huo, W.-Y.;Wang,S.-Q.; Zhu,W.-H.;Zhang,Z.-L.;Fang,F.;
+Advances in Electrocatalytic Hydrogen Evolution Using Nano- Xie,Z.-H.;Jiang,J.-Q.Recentprogressonhigh-entropymaterialsfor
+particles. Chem.Rev. 2020,120 (2),851−918. electrocatalytic water splitting applications. Tungsten 2021, 3 (2),
+(51) Morales-Guio, C. G.; Stern, L.-A.; Hu, X. Nanostructured 161−180.
+hydrotreatingcatalystsforelectrochemicalhydrogenevolution.Chem. (70)Li,H.;Zhu,H.;Zhang,S.;Zhang,N.;Du,M.;Chai,Y.Nano
+Soc.Rev.2014, 43(18),6555−6569. High-Entropy Materials: Synthesis Strategies and Catalytic Applica-
+(52)Bockris,J.O.M.;Potter,E.C.TheMechanismoftheCathodic tions.SmallStruct. 2020, 1(2), 2000033.
+HydrogenEvolutionReaction.J.Electrochem.Soc.1952,99(4),169. (71) Lee, S. A.; Bu, J.; Lee, J.; Jang, H. W. High-Entropy
+(53) Parsons, R.; Bockris, J. O. M. Calculation of the energy of Nanomaterials for Advanced Electrocatalysis. Small Sci. 2023, 3 (5),
+activation of discharge of hydrogen ions at metal electrodes. Trans. 2200109.
+FaradaySoc.1951, 47,914−928. (72) Al Zoubi, W.; Putri, R. A. K.; Abukhadra, M. R.; Ko, Y. G.
+(54) Strmcnik, D.; Lopes, P. P.; Genorio, B.; Stamenkovic, V. R.; Recent experimental and theoretical advances in the design and
+Markovic, N. M. Design principles for hydrogen evolution reaction science of high-entropy alloy nanoparticles. Nano Energy 2023, 110,
+catalystmaterials. NanoEnergy 2016, 29,29−36. No. 108362.
+(55) Sheng, W.; Myint, M.; Chen, J. G.; Yan, Y. Correlating the (73) Yao, Y.; Dong, Q.; Brozena, A.; Luo, J.; Miao, J.; Chi, M.;
+hydrogen evolution reaction activity in alkaline electrolytes with the Wang,C.;Kevrekidis,I.G.;Ren,Z.J.;Greeley,J.;etal.High-entropy
+hydrogen binding energy on monometallic surfaces. Energy Environ. nanoparticles: Synthesis-structure-property relationships and data-
+Sci.2013, 6 (5),1509−1512. driven discovery. Science2022, 376(6589),No. eabn3103.
+(56)Lu,Z.L.;Chen,Z.W.;Singh,C.V.NeuralNetwork-Assisted (74) Plenge, M. K.; Pedersen, J. K.; Mints, V. A.; Arenz, M.;
+Development of High-Entropy Alloy Catalysts: Decoupling Ligand Rossmeisl, J. Following Paths of Maximum Catalytic Activity in the
+andCoordination Effects. Matter-Us2020, 3 (4),1318−1333. CompositionSpaceofHigh-EntropyAlloys.Adv.EnergyMater.2023,
+(57) Batchelor, T. A. A.; Löffler, T.; Xiao, B.; Krysiak, O. A.; 13(2), 2202962.
+Strotkötter, V.; Pedersen, J. K.; Clausen, C. M.; Savan, A.; Li, Y.; (75) Zhang, B.; Mu, Q.; Pei, Y.; Hu, S.; Liu, S.; Sun, T.; Gao, G.
+Schuhmann, W.; et al. Complex-Solid-Solution Electrocatalyst Synthesis Strategies and Multi-field Applications of Nanoscale High-
+Discovery by Computational Prediction and High-Throughput Entropy Alloys.Nano-Micro Lett.2025, 17(1), 283.
+Experimentation.Angew. Chem.,Int. Ed. 2021,60(13),6932−6937. (76) Potyrailo, R. A.; Takeuchi, I. Role of high-throughput
+(58) Jensen, K. D.; Tymoczko, J.; Rossmeisl, J.; Bandarenka, A. S.; characterization tools in combinatorial materials science. Meas. Sci.
+Chorkendorff, I.; Escudero-Escribano, M.; Stephens, I. E. L. Technol. 2005, 16(1), 1.
+Elucidation of the Oxygen Reduction Volcano in Alkaline Media (77)Potyrailo,R.;Rajan,K.;Stoewe,K.;Takeuchi,I.;Chisholm,B.;
+using a Copper-Platinum(111) Alloy. Angew. Chem., Int., Ed. Engl. Lam,H.CombinatorialandHigh-ThroughputScreeningofMaterials
+2018, 57(11),2800−2805. Libraries: Review of State of the Art. ACS Comb. Sci. 2011, 13 (6),
+(59)Stamenkovic,V.R.;Fowler,B.;Mun,B.S.;Wang,G.;Ross,P. 579−633.
+N.; Lucas, C. A.; Markovic,́ N. M. Improved Oxygen Reduction (78) Pickering, E. J.; Jones, N. G. High-entropy alloys: a critical
+ActivityonPt Ni(111)viaIncreasedSurfaceSiteAvailability.Science assessment of their founding principles and future prospects. Int.
+3
+2007, 315(5811),493−497. Mater. Rev.2016, 61(3),183−202.
+(60)Löffler,T.;Meyer,H.;Savan,A.;Wilde,P.;GarzónManjón,A.; (79) Tran, K.; Ulissi, Z. W. Active learning across intermetallics to
+Chen, Y.-T.; Ventosa, E.; Scheu, C.; Ludwig, A.; Schuhmann, W. guide discovery of electrocatalysts for CO2 reduction and H2
+Discovery of a Multinary Noble Metal−Free Oxygen Reduction evolution. Nat. Catal.2018, 1 (9),696−703.
+Catalyst.Adv.Energy Mater. 2018,8 (34),1802269. (80) Widom, M. Modeling the structure and thermodynamics of
+(61) Fairhurst, A. R.; Snyder, J.; Wang, C.; Strmcnik, D.; high-entropy alloys.J. Mater.Res. 2018, 33(19),2881−2898.
+Stamenkovic, V. R. Electrocatalysis: From Planar Surfaces to (81) Wang, S.; Xiong, J.; Li, D.; Zeng, Q.; Xiong, M.; Chai, X.
+Nanostructured Interfaces.Chem. Rev.2025, 125(3), 1332−1419. Comparisonoftwocalculationmodelsforhighentropyalloys:Virtual
+(62)Zhao,G.;Lu,K.;Li,Y.;Lu,F.;Gao,P.;Nan,B.;Li,L.;Zhang, crystalapproximationandspecialquasi-randomstructure.Mater.Lett.
+Y.; Xu, P.; Liu, X.; et al. An efficient and stable high-entropy alloy 2021, 282, No. 128754.
+electrocatalyst for hydrogen evolution reaction. Chin. J. Catal. 2024, (82) Jiang, C.; Uberuaga, B. P. Efficient Ab initio Modeling of
+62,156−165. Random Multicomponent Alloys. Phys. Rev. Lett. 2016, 116 (10),
+(63)Yu,Y.;Xia,F.;Wang,C.;Wu,J.;Fu,X.;Ma,D.;Lin,B.;Wang, No. 105501.
+J.;Yue,Q.;Kang,Y.High-entropyalloynanoparticlesasapromising (83)Yonezawa,F.;Morigaki,K.CoherentPotentialApproximation
+electrocatalysttoenhanceactivityanddurabilityforoxygenreduction. —Basicconceptsandapplications.Prog.Theor.Phys.Suppl.1973,53,
+NanoRes.2022, 15(9), 7868−7876. 1−76.
+(64) Wang, Q.; Yao, Y. Harnessing machine learning for high- (84) Huang, S.; Tian, F.; Vitos, L. Elasticity of high-entropy alloys
+entropy alloy catalysis: a focus on adsorption energy prediction. npj from abinitiotheory. J.Mater. Res.2018, 33(19),2938−2953.
+Comput.Mater. 2025, 11(1),91. (85) Bellaiche, L.; Vanderbilt, D. Virtual crystal approximation
+(65) Xiang, T.; Du, P.; Cai, Z.; Li, K.; Bao, W.; Yang, X.; Xie, G. revisited: Application to dielectric and piezoelectric properties of
+Phase-tunable equiatomic and non-equiatomic Ti-Zr-Nb-Ta high- perovskites. Phys.Rev.B 2000, 61(12),7877−7882.
+entropy alloys with ultrahigh strength for metallic biomaterials. J. (86) Mayahi, R. An investigation concerning generalized stacking
+Mater.Sci. Technol.2022, 117, 196−206. fault behavior of AlCoxCrFeNi (0.25 ≤ x ≤ 2) high entropy alloys:
+(66)Daryoush,S.;Mirzadeh,H.;Ataie,A.Amorphization,mechano- Insights from first-principles study. J. Alloys Compd. 2020, 818,
+crystallization, and crystallization kinetics of mechanically alloyed No. 152928.
+AlFeCuZnTihigh-entropyalloys.Mater.Lett.2022,307,No.131098. (87) Soven, P. Coherent-Potential Model of Substitutional
+(67) Yang, J.; Jiang, L.; Liu, Z.; Tang, Z.; Wu, A. Multifunctional DisorderedAlloys. Phys.Rev.1967, 156(3), 809−813.
+interstitial-carbon-doped FeCoNiCu high entropy alloys with (88) Zunger, A.; Wei, S. H.; Ferreira, L. G.; Bernard, J. E. Special
+excellent electromagnetic-wave absorption performance. J. Mater. quasirandom structures. Phys.Rev.Lett. 1990,65(3), 353−356.
+Sci.Technol. 2022, 113,61−70. (89) Gao, M. C.; Niu, C.; Jiang, C.; Irving, D. L. Applications of
+(68) Waag, F.; Li, Y.; Ziefuß, A. R.; Bertin, E.; Kamp, M.; Duppel, Special Quasi-random Structures to High-Entropy Alloys. In High-
+V.; Marzun, G.; Kienle, L.; Barcikowski, S.; Gökce, B. Kinetically- EntropyAlloys:FundamentalsandApplications,Gao,M.C.;Yeh,J.-W.;
+controlledlaser-synthesisofcolloidalhigh-entropyalloynanoparticles. Liaw,P.K.;Zhang,Y.,Eds.;SpringerInternationalPublishing,2016;
+RSCAdv. 2019, 9(32),18547−18558. pp 333−368.
+3085 https://doi.org/10.1021/acs.chemmater.6c00035
+Chem.Mater.2026,38,3066−3087
+
+Chemistry of Materials pubs.acs.org/cm Review
+(90) van de Walle, A.; Asta, M.; Ceder, G. The alloy theoretic (109)Gong,T.;Qiu,G.;He,M.-R.;Safonova,O.V.;Yang,W.-C.;
+automatedtoolkit: Auserguide. Calphad2002, 26(4), 539−553. Raciti, D.; Oses, C.; Hall, A. S. Atomic Ordering-Induced Ensemble
+(91) Troparevsky, M.; Morris, J.; Däne, M.; Wang, Y.; Lupini, A.; Variation in Alloys Governs Electrocatalyst On/Off States. J. Am.
+Stocks, G. Beyond Atomic Sizes and Hume-Rothery Rules: Under- Chem. Soc. 2025,147 (1), 510−518.
+standingandPredictingHigh-EntropyAlloys.JOM2015,67,2350− (110)Yang,Y.;Jia,Z.;Zhang,X.;Liu,Y.;Wang,Q.;Li,Y.;Shao,L.;
+2363. Di,S.;Kuang,J.;Sun,L.;etal.Chemicalshort-rangeorderinmulti-
+(92) van de Walle, A. Multicomponent multisublattice alloys, principal element alloy with ordering effects on water electrolysis
+nonconfigurational entropy and other additions to the Alloy performance. Mater.Today 2024, 72,97−108.
+Theoretic AutomatedToolkit. Calphad2009, 33(2),266−278. (111) Chen, G.; Lu, R.; Ma, C.; Zhang, X.; Wang, Z.; Xiong, Y.;
+(93) Sorkin, V.; Tan, T. L.; Yu, Z. G.; Zhang, Y. W. Generalized Han,Y.ALong-RangeDisorderedRuO2CatalystforHighlyEfficient
+smallsetoforderedstructuresmethodforthesolid-solutionphaseof Acidic Oxygen Evolution Electrocatalysis. Angew. Chem., Int. Ed.
+high-entropyalloys.Phys.Rev. B2020, 102 (17),No. 174209. 2024, 63(50),No. e202411603.
+(94) Li, H.; Liu, C.; Guo, Y.; Luo, X.; Chen, Y.; Li, W.-L. (112)Wu,J.;Jia,X.;Guo,Y.;Li,H.;Li,Y.;Wang,Y.;Li,J.;Liu,G.;
+Conditional Generative Modeling for Amorphous Multi-Element Ding, Y.; Li, H.; et al.ARCADE: A New Paradigm for a Fully
+MaterialsarXiv preprintarXiv:2503.07043 Mar.10th, 2025. AutomatedandInterpretableDesignofComplexCatalysts.ChemRxiv
+(95) Debnath, A.; Krajewski, A. M.; Sun, H.; Lin, S.; Ahn, M.; Li,
+Dec. 10th, 2025. DOI: . https://chemrxiv.org/engage/chemrxiv/
+W.;Priya,S.;Singh,J.;Shang,S.;Beese,A.M.;etal.Generativedeep
+article-details/692feaa7ef936fb4a2c9c078;.
+learningasatoolforinversedesignofhighentropyrefractoryalloys.J.
+(113)Wang,X.;Li,Z.;Jang,H.;Chen,C.;Liu,S.;Wang,L.;Kim,
+Mater.Inf. 2021,1 (1),3.
+M. G.; Cho, J.; Qin, Q.; Liu, X. RuO2 with Short-Range Ordered
+(96) Rao, Z.; Tung, P.-Y.; Xie, R.; Wei, Y.; Zhang, H.; Ferrari, A.;
+Tantalum Single Atoms for Enhanced Acidic Oxygen Evolution
+Klaver,T.P.C.;Körmann,F.;Sukumar,P.T.;KwiatkowskidaSilva,
+Reaction. Adv. EnergyMater. 2025, 15(6),No. 2403388.
+A.; et al. Machine learning−enabled high-entropy alloy discovery.
+(114)Zhao,T.;Shi,L.;Zhang,G.;Guo,Y.;Li,Y.;Wang,J.;Kong,
+Science2022, 378(6615),78−85.
+S.;Zheng,Q.;Yang,Y.R.;Tan,T.;etal.Compressivestraininhigh-
+(97) No̷rskov, J. K.; Rossmeisl, J.; Logadottir, A.; Lindqvist, L.;
+entropy alloy for high-performance acidic oxygen evolution. Matter
+Kitchin,J.R.;Bligaard,T.;Jónsson,H.OriginoftheOverpotentialfor
+2025, 8 (5),No. 102091.
+OxygenReductionataFuel-CellCathode.J.Phys.Chem.B2004,108
+(115) Medford, A. J.; Vojvodic, A.; Hummelsho̷j, J. S.; Voss, J.;
+(46),17886−17892.
+Abild-Pedersen,F.;Studt,F.;Bligaard,T.;Nilsson,A.;No̷rskov,J.K.
+(98)Hammer,B.;Norskov,J.K.Whygoldisthenoblestofallthe
+FromtheSabatierprincipletoapredictivetheoryoftransition-metal
+metals.Nature1995, 376(6537), 238−240.
+heterogeneous catalysis.J. Catal. 2015, 328, 36−42.
+(99)Zhao,Z.;Sihang,L.;Zha,S.;Cheng,D.;Studt,F.;Henkelman,
+(116)Chen,Z.W.;Li,J.;Ou,P.;Huang,J.E.;Wen,Z.;Chen,L.;
+G.;Gong,J.Theory-guideddesignofcatalyticmaterialsusingscaling
+Yao, X.; Cai, G.; Yang, C. C.; Singh, C. V.; et al. Unusual Sabatier
+relationships and reactivity descriptors. Nat. Rev. Mater. 2019, 4,
+principle on high entropy alloy catalysts for hydrogen evolution
+792−804.
+reactions. Nat. Commun.2024, 15(1),359.
+(100) Wan, X.; Chen, W.; Yang, J.; Liu, M.; Liu, X.; Shui, J.
+(117)Huang,Y.;Wang,S.-H.;Wang,X.;Omidvar,N.;Achenie,L.
+Synthesis and Active Site Identification of Fe−N−C Single-Atom
+E.K.;Skrabalak,S.E.;Xin,H.UnravelingReactivityOriginofOxygen
+Catalysts for the Oxygen Reduction Reaction. ChemElectroChem.
+Reduction at High-Entropy Alloy Electrocatalysts with a Computa-
+2019, 6(2),304−315.
+tional and Data-Driven Approach. J. Phys. Chem. C 2024, 128 (27),
+(101) Zheng, X.; Wang, T.; Lu, Y.; Hao, J.; Gao, G.; Wu, G.;
+11183−11189.
+Zhuang, Z.; Zhu, H. Navigating Complexity to Design Nano-
+(118)Rossmeisl,J.;Qu,Z.W.;Zhu,H.;Kroes,G.J.;No̷rskov,J.K.
+structured High-Entropy Alloy Catalysts. Adv. Energy Mater. 2026,
+Electrolysisofwateronoxidesurfaces.J.Electroanal.Chem.2007,607
+16,No. e04545.
+(1), 83−89.
+(102)Xin,Y.;Li,S.;Qian,Y.;Zhu,W.;Yuan,H.;Jiang,P.;Guo,R.;
+(119) Lucchetti, L. E. B.; de Almeida, J. M.; Siahrostami, S.
+Wang, L. High-Entropy Alloys as a Platform for Catalysis: Progress,
+Challenges, and Opportunities. ACS Catal. 2020, 10 (19), 11280− RevolutionizingORRcatalystdesignthroughcomputationalmethod-
+11306. ologies and materials informatics††Electronic supplementary in-
+(103) Ma, H.; Jiao, Y.; Guo, W.; Liu, X.; Li, Y.; Wen, X. Machine formation (ESI) available. See DOI: 10.1039/d4ey00104d. EES
+learning predicts atomistic structures of multielement solid surfaces Catalysis 2024, 2 (5),1037−1058.
+forheterogeneouscatalystsinvariableenvironments.Innovation2024, (120) Ram, S.; Lee, A. S.; Lee, S.-C.; Bhattacharjee, S. Advanced
+5(2), No. 100571. Multifunctional Electrocatalysts: Integrating DFT and Machine
+(104) Boes, J. R.; Mamun, O.; Winther, K.; Bligaard, T. Graph Learning for OER, HER, and ORR Reactions. Chem. Mater. 2025,
+TheoryApproachtoHigh-ThroughputSurfaceAdsorptionStructure 37(10),3608−3621.
+Generation.J. Phys.Chem. A2019, 123 (11),2281−2285. (121)Viswanathan,V.;Hansen,H.A.;Rossmeisl,J.;No̷rskov,J.K.
+(105)Yang,Y.;Zhou,J.;Zhao,Z.;Sun,G.;Moniri,S.;Ophus,C.; UniversalityinOxygenReductionElectrocatalysisonMetalSurfaces.
+Yang,Y.;Wei,Z.;Yuan,Y.;Zhu,C.;etal.Atomic-scaleidentification ACS Catal.2012, 2 (8),1654−1660.
+ofactivesitesofoxygenreductionnanocatalysts.Nat.Catal.2024,7 (122)Krishna,Y.V.;Jaiswal,U.K.;Rahul,M.R.Machinelearning
+(7),796−806. approach to predict new multiphase high entropy alloys. Scr. Mater.
+(106) Oh, S.-H. V.; Yoo, S.-H.; Jang, W. Small dataset machine- 2021, 197, No. 113804.
+learning approach for efficient design space exploration: engineering (123) Zhao, H.; Lv, X.; Wang, Y.-G. Realistic Modeling of the
+ZnTe-basedhigh-entropyalloysforwatersplitting.npjComput.Mater. Electrocatalytic Process at Complex Solid-Liquid Interface. Adv. Sci.
+2024, 10(1),166. 2023, 10(32),No. 2303677.
+(107)Weng, B.; Song, Z.; Zhu,R.;Yan,Q.;Sun, Q.;Grice,C.G.; (124)Schwarz,K.;Sundararaman,R.Theelectrochemicalinterface
+Yan,Y.;Yin,W.-J.Simpledescriptorderivedfromsymbolicregression in first-principles calculations. Surf. Sci. Rep. 2020, 75 (2),
+acceleratingthediscoveryofnew perovskitecatalysts.Nat. Commun. No. 100492.
+2020, 11(1),3513. (125) Chan, K.; No̷rskov, J. K. Electrochemical Barriers Made
+(108) Esterhuizen, J. A.; Goldsmith, B. R.; Linic, S. Uncovering Simple. J. Phys.Chem. Lett.2015, 6 (14),2663−2668.
+electronic and geometric descriptors of chemical activity for metal (126) Filhol, J.-S.; Neurock, M. Elucidation of the Electrochemical
+alloys and oxides using unsupervised machine learning. Chem. Catal. ActivationofWateroverPdbyFirstPrinciples.Angew.Chem.,Int.Ed.
+2021, 1(4),923−940. 2006, 45(3), 402−406.
+3086 https://doi.org/10.1021/acs.chemmater.6c00035
+Chem.Mater.2026,38,3066−3087
+
+Chemistry of Materials pubs.acs.org/cm Review
+(127) Koper, M. T. M. Thermodynamic theory of multi-electron
+transfer reactions: Implications for electrocatalysis. J. Electroanal.
+Chem. 2011,660 (2),254−260.
+(128) Gong, M.; Jiao, D.; Li, P.; Fan, J.; Zhang, L.; Xu, Y.; Zhang,
+W.;Zheng,W.;Wang,D.;Chen,S.;etal.ReversedpHDependence
+BehaviorinAlkalineEnvironmentsforHydrogenEvolutionReaction.
+ACSCatal. 2025, 15(11),9236−9245.
+(129) Melander, M. M.; Kuisma, M. J.; Christensen, T. E. K.;
+Honkala,K.Grand-canonicalapproachtodensityfunctionaltheoryof
+electrocatalyticsystems:Thermodynamicsofsolid-liquidinterfacesat
+constant ion and electrode potentials. J. Chem. Phys. 2018, 150 (4),
+No. 041706.
+(130)Otani,M.;Sugino,O.First-principlescalculationsofcharged
+surfaces and interfaces: A plane-wave nonrepeated slab approach.
+Phys.Rev.B 2006,73(11),No. 115407.
+(131) Peng, J. Toward data-driven predictive modeling of electro-
+catalyststabilityandsurfacereconstruction.J.Chem.Phys.2025,163
+(4),No. 040902.
+(132)Persson,K.A.;Waldwick,B.;Lazic,P.;Ceder,G.Prediction
+of solid-aqueous equilibria: Scheme to combine first-principles
+calculations of solids with experimental aqueous states. Phys. Rev. B
+2012, 85(23),No. 235438.
+(133)Mathew,K.;Sundararaman,R.;Letchworth-Weaver,K.;Arias,
+T. A.; Hennig, R. G. Implicit solvation model for density-functional
+study of nanocrystal surfaces and reaction pathways. J. Chem. Phys.
+2014, 140(8), No. 084106.
+(134) Andreussi, O.; Dabo, I.; Marzari, N. Revised self-consistent
+continuum solvation in electronic-structure calculations. J. Chem.
+Phys.2012, 136(6), No. 064102.
+(135) Cheng, T.; Xiao, H.; Goddard, W. A., 3rd Full atomistic
+reactionmechanismwithkineticsforCOreductiononCu(100)from
+abinitiomoleculardynamicsfree-energy calculationsat298K.Proc.
+Natl.Acad. Sci.U.S. A. 2017,114 (8),1795−1800.
+(136) Skuĺason, E.; Karlberg, G. S.; Rossmeisl, J.; Bligaard, T.;
+Greeley, J.; Jónsson, H.; No̷rskov, J. K. Density functional theory
+calculationsforthehydrogenevolutionreactioninanelectrochemical
+doublelayeronthePt(111)electrode.Phys.Chem.Chem.Phys.2007,
+9(25),3241−3250.
+(137) Groß, A.; Sakong, S. Ab Initio Simulations of Water/Metal
+Interfaces.Chem. Rev.2022, 122 (12),10746−10776.
+(138) Guo, Y.; Shi, L.; Shi, X.; Zhao, T.; Tian, W.; Zhang, S.; Liu,
+D.; Li, Y.; Zhong, F.; Zhao, S. Scalable metal−organic framework-
+based electrodes for efficient alkaline water electrolysis. Nat. Chem.
+Eng. 2025,2 (8),474−483.
+3087 https://doi.org/10.1021/acs.chemmater.6c00035
+Chem.Mater.2026,38,3066−3087
+

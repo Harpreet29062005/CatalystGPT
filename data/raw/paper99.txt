@@ -1,0 +1,829 @@
+Small
+www.small-journal.com
+RESEARCHARTICLE
+Transient Thermal Engineering of Pt@rGO Nanocatalysts
+via Oxygen Anchoring and Chlorine Coordination for
+Efficient Hydrogen Generation
+XinLi1 XinyuZhu1 ShaorouKe1 ShitaoMin2 ShujieYang1 WenhaoPeng1 YanghongLi1
+ZhaohuiHuang1 MinghaoFang1 FengmeiWang2 XinMin1
+1EngineeringResearchCenterofMinistryofEducationforGeologicalCarbonStorageandLowCarbonUtilizationofResourcesBeijingKeyLaboratoryof
+MaterialsUtilizationofNonmetallicMineralsandSolidWasters,NationalLaboratoryofMineralMaterials,SchoolofMaterialsScienceandTechnology,China
+UniversityofGeoscience(Beijing),Beijing,P.R.China 2StateKeyLaboratoryofChemicalResourceEngineering,BeijingUniversityofChemicalTechnology,
+Beijing,P.R.China
+Correspondence:FengmeiWang(wangfm@buct.edu.cn) XinMin(minx@cugb.edu.cn)
+Received:14February2026 Revised:27May2026 Accepted:18June2026
+Keywords:electron–metal–supportinteractions|hydrogenevolutionreactions|Jouleheatingsynthesis|Pt-basedelectrocatalysts|reducedgrapheneoxide
+ABSTRACT
+The accelerating transition to clean hydrogen energy demands highly efficient and stable platinum-based electrocatalyst for
+the hydrogen evolution reaction (HER). However, achieving uniform low-Pt-loading catalysts remains challenging due to
+weak interfacial interactions and inadequate dispersion control. Herein, we developed a synergistic interfacial coordination
+engineering strategy through integrating freeze-drying with transient non-equilibrium Joule heating, enabling the ultrafast
+synthesis of uniformly dispersed 1.84 ± 0.58 nm Pt nanoclusters on the reduced graphene oxide (i.e., Pt@rGO-T) within
+20 s. Structural characterizations and theoretical calculations reveal that oxygen anchoring sites and chlorine coordination
+cooperatively strengthen the electron–metal–support interaction and modulate the Pt d-band center, thereby tuning the H*
+adsorptionfreeenergytowardamorefavorable,near-thermoneutralrange.Notably,thisinterfacialconfigurationmaypromote
+interfacialmodulationandpossibleH*migrationbetweenPtnanoclustersandtherGOsupport.Asaresult,thePt@rGO-Tdelivers
+lowoverpotentialsof29.6and73.0mVat10and100mAcm−2,respectively,alongwithahighmassactivityof6.23Amg−1and
+excellentdurabilityover200h.Thistransientthermalengineeringstrategyoffersageneralizablepathwayfortherationaldesign
+ofinterfacesandcoordinationenvironmentsinadvancednoblemetal-basedelectrocatalysts.
+1 Introduction of the final global energy demand by 2050, underscoring its
+strategicimportance[1–4].However,currentindustrialhydrogen
+Theescalatingglobalenergycrisisandenvironmentaldegrada- productionremainsheavilyreliantonfossilfuel-basedprocesses,
+tion have intensified the urgency to develop sustainable clean particularly within the petroleum sector, perpetuating depen-
+energy alternatives to fossil fuels, establishing this field as a denceonnon-renewableresources,exacerbatingenvironmental
+core research focus for both academia and industry. Hydrogen pollution,andacceleratingthedepletionoffiniteenergyreserves
+energyhasgarneredsignificantattentionduetoitszerocarbon [5–7]. Electrochemical water splitting has emerged as a piv-
+emissions,highenergydensity,andefficientenergyconversion otal pathway for sustainable hydrogen generation, recognized
+capabilities. Hydrogen energy could account for up to 34% for its operational simplicity, low cost, high efficiency, and
+©2026Wiley-VCHGmbH
+Small,2026;22:e74462 1of18
+https://doi.org/10.1002/smll.74462
+
+well-established reaction mechanisms [8–11]. When integrated [30]. Similarly, Sun et al. demonstrated that strong EMSI in
+withrenewableenergysources,suchassolarandwindelectricity Ni-V layered double hydroxides effectively stabilizes Ru active
+power,thistechnologyispoisedtoserveasakeyenablerforthe sites[31].Inthisregard,carbon-basedmaterialsareconsidered
+large-scaleindustrializationofcleanhydrogenenergy[12–14]. more promising support candidates for the HER due to their
+superiorelectricalconductivity,chemicalstability,andmechan-
+Asoneofthemostefficientcatalystsforthehydrogenevolution ical robustness [32, 29]. Nonetheless, the chemical inertness
+reaction(HER),platinum(Pt)exhibitssuperiorperformancewith of carbon materials poses a challenge for establishing strong
+low overpotential, a small Tafel slope, and a high exchange electronic interactions with metal nanoparticles, restricting the
+current density [15, 16]. Nevertheless, the practical applica- tunability of the electronic structure. To overcome this limita-
+tionofPt-basedcatalystsfacessignificantchallenges,including tion,functionalizationofcarbonmaterialsthroughintroducing
+nanoparticleagglomeration,lowutilizationofactivesites,andthe functionalgroupsonthesurfacecouldfacilitateorbitalhybridiza-
+highPtloading(typically>20wt%),whichsubstantiallyincrease tion,enhanceinterfacialelectroncoupling,andimprovecharge
+hydrogenproductioncostsandhinderlarge-scaledeployment[17, transfer efficiency [33–36]. Furthermore, rational design of the
+18].Toaddresstheselimitations,supportedcatalystsystemshave coordination environment of active sites is equally crucial. For
+emerged as a prominent research focus. This strategy involves example, Hao et al. demonstrated that halogen coordination
+thehighlydispersedimmobilizationofactivemetalslikePtonto (e.g.,Cl−)caneffectivelymodulatetheelectronicstructureofPt,
+suitablesupportmaterials,whichnotonlymitigatesnanoparticle optimizeitsd-bandcenter,andconsequentlyimprovehydrogen
+aggregationbutalsoenhancesmetal–supportelectronicinterac- adsorption/desorptionbehavior[37].
+tions,therebyimprovingboththestabilityandintrinsicactivity
+ofthecatalysts[19–21]. Unfortunately,theconventionalpreparationmethodsforcarbon-
+supported metal catalysts are subject to significant limitations.
+Recent advances in hydrogen electrocatalysis have demon- Steady-stateequilibriumheatingintubefurnaces(SHT)isusu-
+strated that rational interface and coordination engineering is ally applied in the traditional method, characterized by slow
+highly effective for improving catalytic activity, stability, and heatingandcoolingratesaswellasprolongedprocessingtimes.
+noble-metal utilization. For instance, strongly coupled Ru– Thesefactorsoftenresultinnanoparticleagglomeration,lossof
+CrO cluster–clusterheterostructurescanredistributeinterfacial coordination environments, and diminished surface functional
+x
+chargeandoptimizehydrogen-relatedintermediateadsorption, groups,underminingtheformationofEMSIandcompromisethe
+whilesequentiallyconvertedNi P–Ni P @Ni S heteronanorod regulationofactivesites(Figure1a).Incontrast,Transientnon-
+2 12 5 3 2
+arrays promote water dissociation and hydrogen adsorption equilibrium heating driven by Joule heating (THJ) technology
+across a wide pH range [22, 23]. In addition, atomically dis- achievesrapidtemperatureelevationwithinseconds,effectively
+persed Cr(OH) clusters on Ru nanoparticles highlight the preservingsurfacefunctionalgroupsandchlorinecoordination
+1 x
+role of hydroxyl/oxygen coordination in promoting hydrogen onthecarbonsupport.While,ifthepristine,unmodifiedcarbon
+spillover, and Co@N-CNTs@rGO demonstrates the advantages supports are employed, the electronic coupling between the
+ofconductivecarbonarchitecturesfornon-nobleHERcatalysis metal and the support remains weak, which limits the density
+[24, 25]. These studies indicate that regulating metal–support and uniform distribution of active sites (Figure 1b). The inte-
+coupling,interfacialelectronicstructure,andlocalcoordination gration of functionalized graphene oxide with the THJ process
+environmentsiscriticalforadvancedhydrogenelectrocatalysis. enables the synergistic anchoring of metal ions through abun-
+Nevertheless,achievinguniformlydispersedlow-Pt-loadingnan- dant oxygen-containing functional groups, enhances interfacial
+oclusters while preserving strong anchoring sites and favorable electronic interactions, promotes the rapid reduction of metal
+coordination environments under rapid synthesis conditions precursors, and preserves partial chlorine–metal coordination.
+remainschallenging. This combined strategy facilitates the construction of stable,
+well-dispersed, and tunable active sites, offering a promising
+The catalytic performance of supported catalysts is predomi- avenueforadvancedelectrocatalystdesign(Figure1c).Itshould
+nantlygovernedbytheefficiencyofinterfacialcouplingbetween be noted that transient or pulsed heating has recently been
+Ptandthesupportwiththeelectron–metal–supportinteraction exploredforthesynthesisofsupportedmetalnanocatalysts,par-
+(EMSI)beingacriticalregulatorymechanism[26,27].Strategies, ticularlyforkineticallysuppressingmetalmigrationandsintering
+includingheteroatomdoping,organicligandengineering,precise underhigh-temperatureconditions.Nevertheless,mostreported
+particle size control, and support modification, can modulate systemsmainlyfocusonparticle-sizeregulation,heteroatomdop-
+the electronic structure and surface morphology of Pt-based ing, oxide-assisted metal–support interactions, or anti-sintering
+catalysts,optimizingthebindingenergybetweenactivesitesand effects,whilethesimultaneousconstructionofoxygen-mediated
+reaction intermediates [28]. In particular, thermodynamically anchoringandhalogencoordinationaroundPtnanoclusterson
+stableinterfacialbondsbetweenPtandthesupportcanmodify rGOremainsrarelyaddressed.Therefore,developingarapidsyn-
+thelocalelectronicstructureofPtandstrengthenmetal–support thetic strategy that can concurrently immobilize Pt precursors,
+coupling,therebystabilizingPtspeciesandtuningtheadsorption suppressPtaggregation,preservefavorablecoordinationspecies,
+energetics of HER intermediates. However, the catalytic ben- andregulatetheelectronicstructureofPtactivesitesisstillhighly
+efit does not arise simply from an electron-deficient Pt state, desirable.
+becauseexcessivestrengtheningofPt─Hadsorptionmaybecome
+unfavorable for H desorption [29]. For instance, Wang et al. Basedonthisanalysis,herein,weproposeanovelstrategythat
+2
+reportedthatenhancedEMSIinaPt-Ru/ZrO systempromotes synergisticallyconstructsastrongEMSIandatailoredchemical
+2
+water molecule activation and dissociation during the HER, coordination environment. By freeze-drying pretreatment and
+leadingtohighcurrentdensityandexceptionalcyclingstability transient non-equilibrium heating, we successfully synthesized
+2of18 Small,2026
+
+FIGURE 1 Comparisonofdifferentpreparationmethods.a)Schematicillustrationofthetraditionalsteady-stateequilibriumheatingdrivenby
+tubefurnaces.b)Schematicillustrationoftransientnon-equilibriumheatingdrivenbyJouleheatingwithoutfunctionalizedprecursors.c)Schematic
+illustrationoftransientnon-equilibriumheatingdrivenbyJouleheating.
+a nanocomposite catalyst comprising uniformly distributed Pt cyclic voltammetry (CV) testing, the overpotential increase for
+nanoclustersanchoredonrGOviacombiningoxygen-mediated Pt@rGO-Tisonly9.91mV,significantlylowerthanthe25.95mV
+anchoringwithchloridecoordinationengineering(i.e.,Pt@rGO- increase observed for Pt@C, demonstrating outstanding elec-
+T).ThisapproachfacilitatestheformationofPt─O─Cbondsfor trochemicalstability.Complementarymaterialcharacterizations
+stableclusteranchoringandEMSIenhancement,whileconcur- andtheoreticalcalculationsconfirmthatPt─O─Cbondingcon-
+rentlypreservingCl−coordinationtosynergisticallymodulatethe tributestoclusterstabilizationandEMSIenhancement,whilethe
+electronicstructureofPt.Electrochemicalevaluationsrevealthat combined Pt─O─C/Pt─Cl coordination environment tunes the
+thePt@rGO-Tcatalystexhibitsanexceptionallylowoverpoten- PtelectronicstructureandbringstheH*adsorptionfreeenergy
+tialof29.66mVat10mAcm−2,outperformingcommercialPt@C closer to thermoneutrality. During the rapid thermal shock
+(47.62mV),non-functionalizedPt@graphene-T(40.20mV),and process,theresidualClatomscoordinatewithPtatomsthrough
+conventionally prepared Pt@rGO-S (48.11 mV). At an overpo- stablePt─Clbonds,andthiscoordinationfurtherinfluencesthe
+tential of 100 mV, it achieves a high turnover frequency (TOF) electronic distribution of Pt, thereby optimizing its adsorption
+of 4.02 s−1 and a mass activity of 6.23A mg−1, both surpassing energytowardreactionintermediatesandenhancingitsintrinsic
+those of Pt@C counterpart. Furthermore, after 2000 cycles of catalytic activity. This work establishes a new paradigm for
+Small,2026 3of18
+
+thesynthesisofhigh-performancePt-basedelectrocatalystswith excellent size uniformity and precise controllability over nan-
+evenlydistributedPtclusters,offeringsignificanttheoreticaland oclustergrowthduringsynthesis.High-angleannulardark-field
+practicalimplicationsforenergyconversionandgreencatalysis. scanning transmission electron microscopy (HAADF-STEM)
+(Figure 2f) imaging visually reinforces the highly dispersed
+nature of the Pt nanoclusters, exhibiting pronounced contrast
+2 ResultsandDiscussion anduniformspatialdistributionconsistentwiththeTEMobser-
+vations. Moreover, energy dispersive X-ray spectrometry (EDS)
+2.1 MaterialSynthesisandCharacterization elemental mapping (Figure 2g) demonstrates that the spatial
+distributionofPtoverlapswiththoseofC,Cl,andO,confirming
+Figure 2a presents a schematic illustration of the synthesis the homogeneous anchoring of Pt nanoclusters onto the rGO
+mechanismofthePt@rGO-Tcatalyst.Accordingtothesupplier’s support. This spatial concurrence provides structural evidence
+productinformation,thegrapheneoxide(GO)nanosheetswere forthesynergisticinteractionbetweenthesupportandtheactive
+preparedbyamodifiedHummersmethod[38].Thesemonolayer metalsites.Furthermore,variationsinprecursorconcentration,
+nanosheetspossessabundantsurfacefunctionalgroups,includ- reactiontemperature,andreactiontimeduringsynthesissignifi-
+ing carboxyl, hydroxyl, and epoxy groups, which facilitate the cantlyinfluencethesizeandspatialdistributionoftheresulting
+adsorption and dispersion of platinum precursor. Upon mixing Ptnanoclusters(FiguresS3–S5).Forinstance,suitableprecursor
+GO with an aqueous solution of H PtCl , platinum ions are concentrationscurbthenucleationdensityandgrowthratesof
+2 6
+uniformlyimmobilizedontheGOsurfacethroughelectrostatic Pt,optimalreactiontemperaturesenhancereductionkineticsand
+interactionsandcoordinationwithoxygen-containingfunctional facilitateuniformclusterdispersion,whereasprolongedreaction
+groups.Theresultingmixtureisthensubjectedtofreeze-dryingto time to 40 s tend to promote nanoparticle (>5 nm) growth
+obtainasolid-stateprecursormaterial,aprocessthateffectively andaggregation.Carefuloptimizationoftheseparametersoffers
+prevents premature aggregation of components prior to high- precisecontrolovernanoparticlesizeanddistribution.Insum-
+temperature treatment. Subsequently, the freeze-dried sample mary, the transient non-equilibrium heating method not only
+is wrapped in conductive carbon paper and subjected to rapid enablestheefficientreductionandsynthesisofuniformlysized,
+transientnon-equilibriumheating(700◦C,20s),enablinginstan- well-dispersed Pt nanoclusters, but also suppresses unwanted
+taneoushigh-temperaturecarbonthermaltreatment(FigureS1). growth/agglomerationofPtnanoclusterswhilepreservingOand
+This process accomplishes two critical mechanistic steps: first, Clelements.Thisleadstotheformationofasynergisticinterface
+the rapid thermal reduction of GO to rGO, accompanied by structure,whereinPtisanchoredontorGOthroughOmediation
+partial decomposition of labile oxygen-containing functional and further coordinated by Cl. Consequently, the Pt@rGO-T
+groups while retaining certain interfacial oxygen species and catalystfeaturesaCl─Pt─O─Cinterfacialconnection,whichis
+edge/defect-relatedfeaturesinthegrapheneframework;second, criticalforenhancedcatalyticperformance.
+theinsitureductionofPtCl 2−tometallicPtnanoclustersunder
+6
+transientnon-equilibriumheating,whichpromotesrapidnucle- In contrast, the TEM image of the Pt@rGO-S counterpart
+ation and uniform spatial distribution of Pt nanoclusters while prepared by conventional steady-state equilibrium heating
+minimizing particle growth and agglomeration. As a result, a (Figure3a)showsclearPtnanoparticlesdepositedonthesurface
+highlydispersedcompositematerialisobtained.Ascomparison, of the rGO support, along with significant Pt aggregation.
+Pt nanoparticles with larger particle size and uneven distri- This aggregation is associated with the prolonged high-
+bution, without chloride ion coordination and loaded on rGO temperature exposure during the conventional furnace-heating
+(i.e., Pt@rGO-S), was synthesized by steady-state equilibrium process,whichmaypromotePtmigration,particlegrowth,and
+heatinginatubefurnace.Meanwhile,Ptnanoclusterswithlow coalescence under near-equilibrium thermal conditions. This
+loading, uneven dispersion, chloride ion coordination but no particle agglomeration can lead to a reduction in the effective
+oxygenatom-mediatedanchoring(i.e.,Pt@graphene-T)wasalso specific surface area, potentially inhibiting the exposure of
+synthesizedbytransientnon-equilibriumheatingdrivenbyJoule active catalytic sites and thereby adversely affecting catalytic
+heatingusingunfunctionalizedgrapheneasthesupport. performance. Particle size distribution analysis (Figure 3b)
+revealsthattheaveragediameterofPtnanoparticlesinPt@rGO-
+Transmission electron microscopy (TEM) image (Figure 2b) of S is 12.66 ± 7.30 nm, which is much larger than the size
+the synthesized Pt@rGO-T composite catalyst demonstrates a (≈1.84 nm) of Pt nanocluster in Pt@rGO-T sample. Although
+highly uniform dispersion of Pt nanoclusters on single-layer Pt@rGO-S possesses a higher actual Pt loading than Pt@rGO-
+rGO sheets without evident agglomeration. This homogeneous T, its much larger particle size suggests that the prolonged
+distribution provides a robust microscopic structural founda- steady-state heating promotes Pt migration, coalescence, and
+tion for the catalyst’s enhanced performance and stability. As particle growth. In contrast, transient Joule heating combined
+showninthehigh-resolutiontransmissionelectronmicroscopy with oxygen-mediated anchoring kinetically suppresses Pt
+(HRTEM) image in Figure 2c, the lattice spacing ranges from aggregation,resultinginsmallerandmoreuniformlydispersed
+0.222to0.228nm,whichcorrespondstothe(111)planesofface- Pt nanoclusters in Pt@rGO-T. The relatively large standard
+centered cubic (fcc) Pt. The selected area electron diffraction deviation indicates pronounced non-uniformity in particle
+(SAED)patternpresentedinFigure2dshowsdistinctdiffraction size, reflecting the lack of effective control over Pt particle
+rings corresponding to the (111), (200), (220), and (311) planes growthandaggregationduringthesynthesisprocess,withsome
+oftheface-centeredcubic(fcc)structureofthePtnanoclusters. nanoparticlesundergoingexcessivegrowth.TheHRTEMimage
+Statistical analysis of the particle size distribution (Figure 2e) ofPt@rGO-S(Figure3c)revealsclearlatticefringes:aspacingof
+reveals an average Pt nanoclusters diameter of 1.84 ± 0.58 nm, 0.222nmcorrespondstothe(111)planeofPt,whilefringeswith
+featuring a narrow half-width at half-maximum, indicative of a spacing of approximately 0.196–0.198 nm correspond to the
+4of18 Small,2026
+
+FIGURE 2 StructuralcharacterizationofthePt@rGO-Tcatalyst.a)Schematicillustrationofthesynthesisstrategy.b)TEMimage.c)HRTEM
+image.d)SAEDpattern.e)Particlesizedistributionhistogram.f)HAADF-STEMimage.g)CorrespondingEDSelementalmapping.
+Small,2026 5of18
+
+FIGURE 3 Structuralcharacterizationofdifferentcatalysts.a–f)TEMimages,particlesizedistributionhistograms,HRTEMimages,HAADF-
+STEMimages,andcorrespondingEDSelementalmappingofPt@rGO-S.g–l)TEMimages,particlesizedistributionhistograms,HRTEMimages,
+HAADF-STEMimages,andcorrespondingEDSelementalmappingofPt@graphene-T.
+6of18 Small,2026
+
+(200)plane,therebyconfirmingthecrystallographicfeaturesof [39,40].Duetothehighspectralsimilarityamongthesamples,
+thePtparticles.TheSAEDpattern(Figure3d)furthervalidates this study employs the Sadezky method to perform deconvolu-
+thecrystalstructure,displayingdistinctdiffractionringsindexed tionanalysisonthewell-resolvedfirst-orderRamanbands(see
+tothe(111),(200),and(311)planesofPt.Theorderofdiffraction Figure 4b). The intensity ratios of the D band versus G band
+ring intensities is consistent with the HRTEM observations, forPt@rGO-T,Pt@rGO-S,andPt@graphene-Tare0.95,1.01,and
+thus conclusively confirming the presence of well-defined 0.99,respectively.ThesecomparableI /I valuesindicatethatthe
+D G
+fcc Pt nanoparticles in Pt@rGO-S. The HAADF-STEM image transient thermal treatment does not substantially increase the
+(Figure3e)furtherpresentsthedistributionofPtnanoparticles overallstructuraldisorderofthegrapheneframework.Instead,
+in the rGO matrix, with particles exhibiting large sizes and the similar Raman features suggest preservation of the mono-
+significant aggregation. EDS elemental mapping (Figure 3f) layer graphene structure, while the retained oxygen-containing
+elucidates the spatial distribution of elements, showing Pt as a groups and edge/defect-related sites mainly serve as interfacial
+dispersedphase,whichalignswithmorphologicalobservations anchoringandcoordinationsitesforPtspecies.Theobservation
+from TEM and HAADF-STEM. Notably, no Cl signal was thatsamplessynthesizedundervariousprocessparametersalso
+detected, indicating that Cl was fully volatilized under steady- displaysimilarRamanspectra(FiguresS9–S11)furtherconfirms
+state thermal treatment, confirming that Pt@rGO-S exists the structural robustness of the graphene-based framework.
+with a Pt─O─C interfacial bonding configuration. Figure 3g This suggests that the synthetic procedures employed do not
+showstheTEMimageofthePt@graphene-Tsample,wherePt significantly alter the fundamental structure of the graphene
+nanoclusters are clearly and uniformly distributed along the support,ensuringreliabilityandreproducibilityintheresulting
+edgesoronthecurledstructuresofthegraphenesupport.The materials.
+averagediameterofPtnanoclustersinPt@graphene-Tis2.83±
+0.96nm(Figure3h),whichisclosetothesizeofPtnanoclusters In addition, the Fourier transform infrared spectroscopy (FT-
+in Pt@rGO-T sample. The use of non-functionalized graphene IR)analysisshowsthepresenceofoxygen-containingfunctional
+weakens the interaction between Pt precursor species and the groupsinPt@rGO-T,Pt@rGO-S,andPt@graphene-T(Figure4c).
+support, leading to lower precursor retention after thermal The absorption band at 3440 cm−1 was attributed to the O─H
+treatmentandthusaloweractualPtloadingof10.12wt%.This stretchingvibrationofcarboxylgroups[41].Thepeakat1141cm−1
+result also indicates the important role of oxygen-containing correspondedtotheasymmetricstretchingvibrationofC─O─C,
+groupsonGOinstabilizingPtprecursorspeciesandpromoting whiletheC═Cstretchingvibrationwithintheconjugatedframe-
+Ptdispersion.TheHRTEMimageofPt@graphene-T(Figure3i) workappearedat1627cm−1[42].DuringtheTHJprocess,PtCl 2−
+6
+reveals well-defined lattice fringes, combined with the SAED and oxygen-containing functional groups were simultaneously
+pattern (Figure 3j), confirms the presence of both the (111) and reduced. The formation of Pt─O bonds through interactions
+(200) crystallographic planes of Pt. The HAADF-STEM image betweenoxygen-containingfunctionalgroupsandPtnanoclus-
+(Figure 3k) further reveals the distribution of Pt nanoclusters tersresultedinasignificantattenuationordisappearanceofthese
+on the graphene support. Due to the lack of anchoring effects vibrationalsignalsintherepresentativesamples,asevidencedby
+from functional groups, the size uniformity of Pt nanoclusters the FT-IR spectra in Figure 4c. In addition, a weak absorption
+is relatively poor. EDS elemental mapping (Figure 3l) further band around 700 cm−1 is observed, which may be attributed
+highlights the spatial distribution of C, Pt, and Cl elements totheout-of-planebendingvibrationofaromatic═C─Hgroups
+withinthePt@graphene-Tsample. and/or edge-defect-related vibrations in the sp2 carbon frame-
+work of GO/rGO. This weak band indicates the presence of
+The phase structure of the synthesized materials was analyzed residualgraphiticdomainsanddefectivecarbonstructuresafter
+using X-ray diffraction (XRD). As illustrated in Figure 4a, no reduction,andisthereforeconsideredasanauxiliaryfeatureof
+distinct Pt diffraction peaks were observed in the Pt@rGO-T the GO/rGO carbon framework rather than direct evidence for
+and Pt@graphene-T samples, which is due to the suppressed the formation of a new dominant chemical bond. Notably, in
+aggregation of Pt nanoclusters during ultrarapid heating and Pt@rGO-T,theexceptionallysmallsizeanduniformdispersionof
+cooling process enabled by the THJ method. In contrast, the PtnanoclustersonthesupportfacilitatedtheformationofPt─O
+Pt@rGO-Ssampleexhibitedcleardiffractionpeaksat39.7◦,46.2◦, bonds,whicheffectivelyenhancedcatalyticstabilityduringthe
+67.6◦, and 81.3◦, which are in excellent agreement with the HERoverextendedoperationperiods[43,44].
+standard reference pattern for Pt (PDF#4-802), confirming the
+successful formation of Pt nanoclusters in this sample. Conse- X-rayphotoelectronspectroscopy(XPS)analysiswasconducted
+quently,thePtnanoclustersinthePt@rGO-TandPt@graphene-T and presented in Figure 4d–h and Table S3. Full-spectrum
+samples exhibit sizes below 3 nm and are highly dispersed, scanning (Figure 4d) reveals C, Pt, O, and Cl coexist on the
+resulting in their XRD signals being too broad or weak to be surface of the Pt@rGO-T catalyst, whereas Cl is not detected
+detected under the current experimental conditions. Similarly, in the Pt@rGO-S sample. This observation aligns with the
+therewerestillnoadditionalpeaksobservedonotherPt@rGO-T previousEDScharacterizationresults,confirmingthesuccessful
+samples synthesized under different conditions (Figures S6– incorporation of these elements onto the single-layer reduced
+S8). The Raman spectra of the Pt@rGO-T, Pt@rGO-S, and grapheneoxidesupport.Thebroadpeakinthehigh-resolutionC
+Pt@graphene-T samples presented in Figure 4b and Table S2 1sspectrum(Figure4e)canbedeconvolutedintothreedistinct
+revealcomparablestructuralcharacteristics.Allsamplesexhibit components: the dominant peak at 284.8 eV is attributed to
+twodistinctpeaksinthefirst-orderRamanbandregion,located the C═C functional group in C─C bonds, while the secondary
+at 1336.45 cm−1(D band) and 1583.78 cm−1 (G band), which are peaks at 285.9 eV and 289.8 eV correspond to C─O and C═O
+associated with the vibrational modes of disordered and sp2- bonds in rGO, respectively [45–47]. Notably, the Pt@rGO-S
+hybridized carbon domains in graphitic materials, respectively sample exhibits the lowest intensities for the C─O and C═O
+Small,2026 7of18
+
+FIGURE 4 Phaseandchemicalstructurecharacterizationofthesamples.a)XRDpatternsofPt@rGO-T,Pt@rGO-S,Pt@graphene-T,andthePt
+standardreference.b)RamanspectraofPt@rGO-T,Pt@rGO-S,andPt@graphene-T.c)FT-IRspectraofPt@rGO-T,Pt@rGO-S,andPt@graphene-T.d)
+XPSsurveyspectra.e)High-resolutionC1sspectra.f)High-resolutionO1sspectra.g)High-resolutionCl2pspectra.h)High-resolutionPt4fspectra.
+bondsignals,indicating thatduringtheprolonged heatingand deconvolution analysis of the sub-peaks in the O 1s spectrum
+cooling process in the conventional SHT, oxygen-containing (Figure4f)revealsthatthechemicalcomponentspresentinthe
+functional groups are progressively reduced. Consequently, Pt Pt@rGO-T sample can be attributed to C─O and Pt─O bond-
+nanoparticlesundergogradualgrowthandlosetheiranchoring ing environments. In contrast, no detectable Pt─O signal was
+mechanismviaC─O─Ptbondingonthesupport.Theseresults observedinthePt@rGO-Ssample,whichunderwentprolonged
+indicatethattherepresentativecatalystspossessdistinctsurface reaction conditions, or in the unfunctionalized Pt@graphene-
+compositionsandinterfacialbondingenvironments,asevidenced Tsample.Furthermore,inthePt@rGO-Tsample,theintensity
+bytheXPSspectrainFigure4d–h.Thishighlightsthekeyrole of the C─O peak is comparable to that of the Pt─O peak,
+of process optimization in tailoring the metal–support inter- indicating that Pt nanoclusters are anchored onto the reduced
+action and catalytic performance of Pt-based composites. The grapheneoxideviaPt─O─Cbondinginteractions.Thepresence
+8of18 Small,2026
+
+of oxygen-containing functional groups on the graphene oxide HR-TEM revealed that all samples subjected to transient non-
+surface provides abundant anchoring sites for Pt nanoclusters, equilibriumheatingexhibiteduniformlydistributedmetalnan-
+therebyensuringtheirlong-termstructuralstability[46,48,49]. oclusterswiththesizeofthesemetalnanoclusterssmallerthan
+Nevertheless,consideringthelimitationofconventionalexsitu 3 nm, showing no signs of agglomeration on the rGO support.
+XPS,aminorcontributionfromsurface-oxidizedPtspeciestothe Furthermore,EDSelementalmappinganalysisconfirmsspatially
+Pt─O-related signal cannot be completely excluded. Therefore, homogeneous distribution of target metal elements alongside
+the Pt─O signal is more cautiously assigned to Pt─O species oxygen and chlorine species, indicating the preservation of
+associated with interfacial Pt─O─C interactions. As shown in chlorineligandsatmetalcentersandoxygenfunctionalgroups
+Figure 4g and Table S3, distinct Cl 2p signals are observed for onthesupportsurface.Thesecomponentscollectivelyparticipate
+Pt@rGO-TandPt@graphene-T,confirmingthepartialretention in forming a stable. “Cl-M-O-C” interfacial architecture. This
+ofchlorinespeciesaftertransientJouleheating.Thecomponent configuration not only constrains the mobility of metal species
+located at around 198.08 eV is assigned to Pt─Cl coordination, butalsomodulatesthechargedensityofmetalcentersthrough
+while the feature at around 199.88 eV is attributed to C─Cl electronicinteractions,therebyenhancingtheirbindingaffinity
+species. In contrast, no obvious Cl 2p signal is detected for withthesupport.
+Pt@rGO-S, indicating substantial chlorine loss during the pro-
+longed tube-furnace treatment. These results demonstrate that
+transient Joule heating can partially preserve chlorine-related 2.2 HydrogenEvolutionReactionPerformance
+coordinationspecies,whereasconventionalsteady-stateheating ofPt@rGO-TCatalyst
+promotes dechlorination [37, 50]. In contrast, the absence of
+a discernible Cl 2p signal in the Pt@rGO-S sample indicates The HER catalysis activity of Pt@rGO-T, Pt@rGO-S, and
+substantial dechlorination during SHT process. This finding is Pt@graphene-T catalysts combined with the 20 wt% Pt@C as
+inagreementwiththeelementalcompositiondataderivedfrom reference was then evaluated under acidic conditions using a
+EDSanalysis,furthersupportingtheconclusionthatSHTprocess three-electrodesystemin0.5mH SO electrolytesaturatedwith
+2 4
+promotes chlorine loss. The Pt 4f XPS spectra were further N .Figure6apresentsthelinearscanvoltammetry(LSV)curves
+2
+analyzedtoinvestigatetheelectronicstructureofPtindifferent collected from different electrodes. Overpotentials at current
+catalysts.AsshowninFigure4handTableS3,bothmetallicPt0 densities of 10, 50, and 100 mA cm−2 (denoted as η , η , and
+10 50
+andelectron-deficientPtδ+speciesarepresentintheinvestigated η , respectively) were presented and compared in Figure 6b.
+100
+samples,whereastheirbindingenergiesandrelativeproportions Notably,Pt@rGO-TdemonstratedsuperiorHERcatalyticactivity,
+differ depending on the interfacial coordination environment. achievingoverpotentialsofonly29.66mV(η ),50.37mV(η ),
+10 50
+Compared with Pt@graphene-T, Pt@rGO-T exhibits a positive and73.03mV(η ),whicharesignificantlylowerthanthoseof
+100
+shift of the Pt 4f binding energy and a higher proportion of commercial20wt%Pt@C(η =47.62mV,η =70.54mV,η =
+10 50 100
+Ptδ+species,indicatingstrongerinterfacialelectronicinteraction 99.08mV).Incontrast,Pt@rGO-S,synthesizedviaslowheating
+between Pt nanoclusters and the functionalized rGO support. in a conventional SHT process, exhibited higher overpotentials
+ThiselectronicmodulationisconsistentwiththeO1sandCl2p (η = 48.11 mV, η = 92.56 mV, η = 139.19 mV), while
+10 50 100
+results,whichsuggesttheformationofoxygen-mediatedanchor- unfunctionalizedPt@graphene-Tshowedmoderateperformance
+ingandpartialchlorinecoordinationinPt@rGO-T.Incontrast, (η = 40.20 mV, η = 76.71 mV, η = 117.92 mV), with
+10 50 100
+Pt@rGO-S shows weaker interfacial coordination due to the both materials displaying inferior HER activity compared to
+substantiallossofchlorinespeciesandpartialremovalofoxygen- the commercial catalyst. The observed unimodal trend in the
+containingfunctionalgroupsduringtheprolongedtube-furnace electrochemical performance of Pt@rGO-T samples prepared
+treatment[51,52].Theseresultssupportthatthesynergisticoxy- underdifferentprocessparameterssuggeststheexistenceofan
+genanchoringandchlorinecoordinationinPt@rGO-Teffectively optimalsetofsynthesisconditions(FiguresS12–S29).Thisunder-
+modulatethelocalelectronicstructureofPt,therebycontributing scorestheimportanceofpreciseprocesscontrolduringcatalyst
+totheenhancedintrinsicHERactivity. fabrication, as deviations from optimal conditions can lead to
+reducedcatalyticperformance.Figure6cillustratesthattheTafel
+Figure5aelucidatestheunderlyingmechanismofthetransient slopeofPt@rGO-Tis14.7mVdec−1,whichisnotablylowerthan
+non-equilibriumheatingprocessinmodulatingthestructureof that of commercial 20 wt% Pt@C (20.6 mV dec−1). In contrast,
+supported metal catalysts. In contrast to conventional steady- Pt@rGO-S(36.3mVdec−1)andPt@graphene-T(27.5mVdec−1)
+state equilibrium heating approaches, THJ technique enables exhibithigherTafelslopes,indicatingslowerreactionkinetics.To
+rapid heating to elevated temperatures within an ultrashort furthercomparetheinterfacialelectrochemicalcharacteristicsof
+duration followed by immediate cooling process. This process thecatalysts,theelectrochemicaldouble-layercapacitance(C )
+dl
+disruptsthermodynamicequilibriumconditionsandsuppresses was evaluated from cyclic voltammetry curves recorded in the
+predominantatomicdiffusionpathways.Consequently,iteffec- non-Faradaic potential region. The corresponding CV profiles
+tivelyinhibitstheagglomerationofmetalactivespeciesinduced recorded at different scan rates are provided in Figure S30. As
+by surface migration and coalescence during high-temperature illustratedinFigure6d,theC valuesofPt@rGO-T,Pt@rGO-S,
+dl
+treatment.Therapidheatingregimefacilitatesefficientanchor- Pt@graphene-T,and20wt%Pt@Cweredeterminedtobe16.00,
+ing and nucleation of metal precursors on the rGO support, 1.03, 2.16, and 5.08 mF cm−2, respectively. Pt@rGO-T exhibited
+ultimately yielding highly dispersed metal nanostructures. To the highest C value among the tested samples, suggesting a
+dl
+demonstrate the broad applicability of this synthesis strategy, more electrochemically accessible catalyst/electrolyte interface.
+we investigated several representative metal elements, such as However, C should not be interpreted as a direct quantitative
+dl
+Ru,Rh,Ir,andPd,whichplaypivotalrolesinvariouscatalytic measure of the true Pt electrochemically active surface area,
+processes in Figure 5b–u. Comprehensive characterization via particularly for catalysts with different Pt dispersion states,
+Small,2026 9of18
+
+FIGURE 5 Thenon-equilibriumheatingprocessenabledtheuniversalsynthesisofdifferentnoblemetalcatalysts.a)Schematicillustrationof
+steady-stateequilibrium heating and transientnon-equilibrium heating processes.b–u) HAADF-STEM images and corresponding EDS elemental
+mappingofCl─Ru─O─C,Cl─Rh─O─C,Cl─Ir─O─C,andCl─Pd─O─Ccatalysts,respectively.
+10of18 Small,2026
+
+FIGURE 6 HERperformancein0.5mH SO .a)LSVcurvesofPt@rGO-T,Pt@rGO-S,Pt@graphene-T,andcommercialPt@Catascanrateof
+2 4
+10mVs−1.b)Overpotentialsatcurrentdensitiesof10,50,and100mAcm−2.c)TafelslopesderivedfromLSVcurves.d)C valuesobtainedfrom
+dl
+capacitivecurrentfitting.e)Massactivitiesat100mAcm−2.f)TOFcurves.g)LSVcurvesofPt@rGO-TandcommercialPt@Cbeforeandafter2000CV
+cycles.h)RadarplotscomparingHERperformancemetrics.i)ComparisonofHERperformancewithstate-of-the-artcatalystsreportedintheliterature.
+surface functional groups, wettability, and interfacial contact fold, 2.1-fold, and 1.5-fold higher than that of Pt@rGO-S (2.30
+characteristics.SincePt@rGO-SandPt@graphene-Talsopossess A mg−1), Pt@Graphene-T (3.03 A mg−1), and 20 wt% Pt@C
+similargraphene-frameworkfeatures,thehigherC ofPt@rGO- (4.04Amg−1),respectively. Furthermore,theintrinsiccatalytic
+dl
+T cannot be solely ascribed to the monolayer rGO structure. activitiesofPt@rGO-T,Pt@rGO-S,Pt@graphene-T,and20wt%
+Instead,itismorereasonablyattributedtothecombinedeffects Pt@C were assessed through TOF measurements (Figure 6f).
+ofhighlydispersedultrasmallPtnanoclusters,retainedoxygen- At an overpotential of 100 mV, the corresponding TOF values
+containing surface groups, improved wettability, and extensive are calculated as 4.02, 0.99, 3.03, and 2.04 s−1, respectively,
+Pt–rGOinterfacialcontact,whichcollectivelyenhanceelectrolyte demonstrating that Pt@rGO-T possesses the highest intrinsic
+accessibilityandprotonmasstransferduringHER. activityamongthetestedcatalysts(seeMethodsfordetails).
+Besides, to quantitatively evaluate the Pt utilization efficiency Itshouldbenotedthatthemassactivitieswerecalculatedbased
+during HER, the mass activity of each catalyst was calculated on the actual Pt loadings determined by ICP-OES, rather than
+by normalizing the HER current to the actual Pt loading the nominal precursor feeding amounts. The corresponding Pt
+determined by ICP-OES. To reveal the activity trend over a contentsaresummarizedinTableS1.Therefore,theinfluenceof
+broaderpotentialrange,themassactivity–overpotentialcurvesof differentPtloadingsamongthecatalystshasbeenconsideredin
+differentcatalystsareprovidedinFigureS31.Forrepresentative themass-normalizedcomparison.Althoughthecontrolsamples
+quantitativecomparison,themassactivitiesatanoverpotential show different particle sizes as a consequence of their distinct
+of 100 mV are summarized in Figure 6e. Pt@rGO-T electrode synthesisroutesandsupportsurfacechemistries,Pt@rGO-Tstill
+exhibits the highest mass activity of 6.23 A mg−1, which is 2.7- deliversthehighestPt-mass-normalizedactivityandTOF.This
+Small,2026 11of18
+
+resultsuggeststhatthesuperiorHERperformanceofPt@rGO-T densitydifferencedistributionsforeachsystemareillustratedin
+isnotmerelycausedbythedifferenceinPtloading,butisclosely Figure7a–d,wheregreenandyellowdenoteregionsofelectron
+associatedwiththehighlydispersedultrasmallPtnanoclusters accumulation and depletion, respectively, with an isosurface
+andtheoptimizedinterfacialcoordinationenvironmentinduced thresholdsetat±0.004ebohr−3.Combinedanalysisofthecharge
+byoxygenanchoringandchlorinecoordination. density difference and Bader charge results reveals that the
+Cl─Pt─O─C model demonstrates the most pronounced charge
+Theelectrochemicalstabilityofcatalystsisofparamountimpor- transfer,indicativeofstrongelectronicredistribution.Thissub-
+tancefortheirpracticalapplication.AsillustratedinFigure6g, stantialchargetransferisconducivetooptimizingtheadsorption
+within the overpotential range of 1.2 to -0.2 V versus RHE, the and desorption behaviors of reaction intermediates, thereby
+Pt@rGO-Tcatalystexhibitsnegligibleactivitydegradationafter significantlyacceleratingthekineticsofthehydrogenevolution
+2000CVcycles.Specifically,atacurrentdensityof100mAcm−2, reaction.BeyondPt-centereddescriptors,thepronouncedinter-
+theoverpotentialincreasesbyonly9.91mV.Incomparison,the facialchargeredistributioninCl─Pt─O─Cisexpectedtopolarize
+commercial Pt@C catalyst shows an overpotential increase of the Pt─O─C linkage and may render adjacent O/C moieties
+25.95mVunderidenticaltestingconditions.Theseresultsindi- morechemicallyresponsiveaspotentialrelaysites.Accordingly,
+catethatthesynthesizedPt@rGO-Tcatalystpossessessuperior a possible interfacial H* migration pathway is schematically
+stability for the hydrogen evolution reaction in acidic media. illustrated in Figure S34, where H* is generated on Pt (site 1)
+Moreover, when subjected to a chronopotentiometry stability and may subsequently interact with adjacent interfacial O/C
+testatacurrentdensityof10mAcm−2,thePt@rGO-Tcatalyst moietiesthroughanO─H*configuration(site2),aninterfacial
+exhibitsoutstandingdurability,maintainingstableoperationfor O─H*─Cconfiguration(site3),andaslightlymoredistantC─H*
+200 h, whereas the commercial Pt@C catalyst shows inferior configuration(site4).Itshouldbenotedthatthepresentresults
+long-termstabilityunderidenticalconditions(FigureS32).After donotconstitutedirectoperandoevidenceforhydrogenspillover.
+the long-term HER stability test, HR-TEM and EDS elemental Therefore,theproposedinterfacialH*migrationpathwayshould
+mappingwerefurtherconductedtoevaluatethestructuralstabil- be regarded as a plausible mechanistic interpretation derived
+ityofPt@rGO-T.AsshowninFigureS33,althoughtheaveragePt from interfacial charge redistribution and electronic-structure
+particlesizeslightlyincreasedto5.34±0.11nm,thePtparticles modulation. Direct verification of hydrogen spillover would
+stillremainednanosizedandrelativelyuniformlydistributedon require further operando/in situ or quasi-in situ spectroscopic
+the rGO support. The EDS mapping images further show that investigationsunderHERconditions.
+C, O, Cl, and Pt elements are still homogeneously distributed
+after long-term HER operation. These results demonstrate that To quantify intrinsic activity descriptors for Pt under different
+Pt@rGO-T retains good structural and compositional stability interfacialenvironments,thePtd-bandcenterwasevaluated,as
+during prolonged HER electrolysis. Additionally, as shown in showninFigure7e.TheCl─Pt─O─Csiteexhibitsanupshifted
+Figure6h,Pt@rGO-Tdemonstratesenhancedperformancerel- Pt d-band center of -1.52 eV compared with Pt─C (-2.38 eV),
+ativetoPt@rGO-S,Pt@graphene-T,and20wt%Pt@Ccatalysts Cl─Pt─C(-2.11eV),andPt─O─C(-1.84eV),indicatingmodified
+withrespecttooverpotential,massactivity,Tafelslope,TOF,and Pt─Hinteractionstrength.Importantly,theHERactivityisnot
+ECSA.Notably,thecatalyticperformanceofPt@rGO-Texceeds governed by stronger H adsorption alone, but by achieving
+thatofotherstate-of-the-artcatalystsreportedintheliterature, a balanced adsorption/desorption energetics. Consistently, the
+assummarizedinFigure6iandTableS4[53–57,52,58–66]. Gibbs free energy of hydrogen adsorption (ΔG , Figure 7f) for
+H*
+Cl─Pt─O─C(-0.28eV)isclosesttothermoneutralityamongthe
+investigatedmodels,comparedwithPt─C(-0.43eV),Cl─Pt─C(-
+2.3 TheoreticalCalculations 0.41eV),andPt─O─C(-0.34eV).Densityofstates(DOS)analysis
+(Figure 7g and Figure S35) further corroborates the strong
+Toclarifytherationaleformodelconstruction,theDFTmodels metallic character and orbital hybridization in Cl─Pt─O─C,
+usedhereweredesignedasrepresentativelocalinterfacialstruc- with substantial Pt d-state contributions near the Fermi level
+tures rather than exact replicas of the real catalyst. A small Pt and enhanced carbon states around the Fermi level, indicative
+cluster was adopted to capture the local electronic interaction of improved conductivity and faster charge transport during
+of ultrasmall and highly dispersed Pt nanoclusters observed catalysis.
+experimentally, while maintaining reasonable computational
+cost.TheintroducedClatomwasusedtorepresentthepartially The experimentally observed Pt@rGO-T exhibits the lowest
+retainedClcoordinationenvironmentsuggestedbyXPSandEDS overpotential, the highest mass activity, and the best stability,
+results, rather than a fully Cl-saturated Pt surface. Therefore, whichiscloselyrelatedtothekeytheoreticalindicators,namely
+the Pt─C, Cl─Pt─C, Pt─O─C, and Cl─Pt─O─C models were the optimal d-band center and the ΔG value closest to zero
+H*
+constructed to compare the relative effects of carbon interac- obtainedfromtheCl─Pt─O─Cmodel.Thisconsistencysupports
+tion, Cl coordination, oxygen anchoring, and their synergistic the proposed mechanism that oxygen anchoring and chlorine
+interfacial configuration on the electronic structure and H* coordinationsynergisticallyregulatethelocalelectronicstructure
+adsorption behavior of Pt. Four distinct configurations were and interfacial stability of Pt. Such regulation enables a more
+constructed to simulate diverse interfacial bonding motifs: the favorable H* adsorption free energy and improved Pt anchor-
+Pt─C model (Figure 7a), representing direct bonding between ing, thereby contributing to the enhanced HER activity and
+PtandC;theCl─Pt─Cmodel(Figure7b),correspondingtothe durability.Thecooperativeeffectofoxygen-mediatedanchoring
+Pt@graphene-T catalyst; the Pt─O─C model (Figure 7c), rep- and chlorine coordination enables efficient electronic coupling
+resenting the Pt@rGO-S furnace catalyst; and the Cl─Pt─O─C betweenPtandthecarbonsupport,whichnotonlysubstantially
+model(Figure7d),simulatingthePt@rGO-Tcatalyst.Thecharge enhancesthestructuralstabilityofthecatalystbutalsoeffectively
+12of18 Small,2026
+
+FIGURE 7 DFTinsightsintointerfacialelectroniccouplingandspillover-assistedHERonPt–carboncoupledstructures.a–d)Chargedensity
+differenceplotsforPt─C,Cl─Pt─C,Pt─O─C,andCl─Pt─O─Cmodels,respectively.e)Calculatedd-bandcentersofPtindifferentcoupledmodels.
+f)GibbsfreeenergyprofilesforHERonPt─C,Cl─Pt─C,Pt─O─C,andCl─Pt─O─Cmodels.g)CalculateddensityofstatesoftheCl─Pt─O─Cmodel.
+h)Baderchargetransfer(electrontransferquantity)ofdifferentcoupledmodels.i,j)ComparisonofΔG andd-bandcenteramongdifferentcoupled
+H*
+models.
+optimizes its electronic structure. This synergistic mechanism structure is directly reflected in the electron transfer, the ΔG
+H*
+modulatesthelocalchargedistributionaroundPtatoms,thereby value is close to thermal neutrality, and the Pt d-band center
+promoting efficient electron transfer between Pt active sites (Figure7h–j;FigureS36,andTableS5),resultinginasubstantial
+and the carbon substrate. Additionally, owing to the high elec- enhancementofthecatalyticactivity.Thisdesignstrategydemon-
+tronegativity of oxygen and the d-orbital modulation induced stratesgreatpotentialforimprovingnoblemetalatomutilization
+bychloridecoordination,thed-bandcenterofPtshiftsupward, and reducing Pt loading, providing valuable guidance for the
+indicatingamodifiedandstrengthenedinteractionbetweenH* rationaldesignofothernoblemetal-basedelectrocatalysts.
+andthePtsurface.However,thecatalyticactivityisnotgoverned
+by stronger H* adsorption alone, but by achieving a balanced
+adsorption/desorption energetics. The synergistic Cl─Pt─O─C 3 Conclusion
+coordination environment tunes the H* adsorption free energy
+toward thermoneutrality, thereby facilitating the overall HER In summary, we developed a rapid synthetic strategy for the
+process. The above-mentioned optimization of the electronic precise anchoring of Pt nanoclusters onto reduced graphene
+Small,2026 13of18
+
+oxide (rGO) via oxygen-mediated anchoring and chloride ion tive carbon papers and subjected to Transient non-equilibrium
+coordination.ByengineeringthePt–supportinterfaceandmod- thermal treatment under a high-purity argon atmosphere. The
+ulating the local coordination environment, electron–metal– resultant black powder was collected for subsequent physico-
+supportinteractions(EMSI)areenhanced,optimizingthed-band chemical characterization. To optimize the synthesis protocol,
+centerandfacilitatingfavorablehydrogenadsorptionenergetics. the influence of key parameters—including platinum loading
+A transient non-equilibrium heating process enables uniform (10, 15, 20 wt%), annealing temperature (600, 700, 800◦C), and
+dispersion of various noble metals on rGO while establishing heatingduration(5,20,40s)—wassystematicallyevaluated.The
+robust oxygen anchoring and chlorine coordination. This dual- optimal conditions were determined to be 15 wt% Pt loading,
+regulation approach is versatile across metals and precursors, 700◦C, and 20 s, respectively. In this work, the material syn-
+yieldingcatalystswithabundantactivesites,highspecificsurface thesized via transient non-equilibrium heating is designated as
+area, and strong anti-sintering capability, ensuring long-term Pt@rGO-T.
+stability. Comprehensive experimental investigations combined
+with DFT calculations reveal that the cooperative effects of
+oxygen anchoring and chloride coordination induce signifi- 4.3 SynthesisofPt@rGO-S
+cant and homogeneous interfacial charge transfer, efficiently
+alleviatinginterfacialchargeaccumulation.Thiscreatesanelec- The precursor was prepared using the same procedure as that
+tronically open interface that optimizes hydrogen adsorption for Pt@rGO-T. The key distinction is that, following freeze-
+and desorption. As a result, the Pt@rGO-T catalyst exhibits drying, the precursor was transferred into a crucible and
+a remarkably low overpotential of 29.66 mV at 10 mA cm−2, subjected to steady-state equilibrium heating in tube furnace
+superiormassactivityof6.23Amg−1 withaTOFof4.02s−1 at under an inert atmosphere. The sample was heated at 700◦C
+100mVandstability.Overall,thisstudydoesnotsimplyextend for 2 h with a heating rate of 5◦C min−1, followed by natural
+transient heating to Pt@rGO synthesis; rather, it demonstrates cooling to room temperature. Upon completion of the heat-
+that transient thermal treatment can serve as a coordination- ing treatment, the resulting black powder was designated as
+engineering tool to simultaneously preserve oxygen anchoring Pt@rGO-S. In this work, Pt@rGO-S was used as a representa-
+andchlorinecoordination,therebyconstructingahighlyactive tive catalyst prepared by conventional steady-state equilibrium
+andstableCl─Pt─O─CinterfaceforHER.Thisfindingprovides heating rather than as a strictly time-matched counterpart of
+ausefuldesignprinciplefordevelopinglow-Pt-loadingcarbon- Pt@rGO-T. It should be noted that the thermal behavior of a
+supported electrocatalysts with optimized local coordination conventional tube furnace is intrinsically different from that
+environments. of transient non-equilibrium Joule heating. Owing to the large
+thermal inertia of the furnace chamber and sample holder, a
+nominal 20 s treatment in a tube furnace cannot reproduce
+4 ExperimentalSection the ultrafast heating/cooling rate, transient thermal gradient,
+and non-equilibrium thermal environment achieved by Joule
+4.1 Materials heating. Therefore, the conventional 2 h steady-state thermal
+treatment was selected to represent the typical furnace-heating
+Allchemicalswereofanalyticalgrade.Hexachloroplatinicacid route.
+hexahydrate(H PtCl ⋅6H O)wasobtainedfromAladdin.Single-
+2 6 2
+layergrapheneandcommercialmonolayergrapheneoxide(GO)
+nanosheetswerepurchasedfromSuzhouCarbonrichGraphene 4.4 SynthesisofPt@Graphene-T
+TechnologyCo.,Ltd.Accordingtothesupplier’sproductinforma-
+tion,themonolayerGOnanosheetswerepreparedbyamodified ThesyntheticprocedurewasidenticaltothatofPt@rGO-T,except
+Hummers method. As a carbon-based material with excellent thatnon-functionalizedsingle-layergraphenewasemployedas
+dielectric properties, efficient microwave absorption, and supe- thestartingcarbonsupportinplaceofgrapheneoxide.
+riorelectricalconductivity,grapheneandgrapheneoxideplayed
+dualcriticalrolesinthisstudy:convertinginputelectricalenergy
+efficientlyintothermalenergyfordrivingsynthesis,andserving 4.5 MaterialsCharacterization
+asactivesitesupports.Ultrapuredeionizedwater(18.2MΩcm)
+wasusedinallexperiments. X-ray diffraction (XRD) patterns were collected on a Rigaku
+SmartLabSE(2θ:5◦–90◦,scanrate:10◦ min−1).High-resolution
+transmission electron microscopy (HR-TEM; FEI Titan Cubed
+4.2 SynthesisofPt@rGO-T Themis G2 300) and aberration-corrected High-angle annular
+dark-fieldscanningtransmissionelectronmicroscopy(HAADF-
+A monolayer graphene oxide (GO) nanosheet dispersion at a STEM; FEI Themis Z) were employed to characterize the
+concentration of 10 mg mL−1 was prepared via ultrasonica- nanostructural features of the samples. Element compositions
+tion. Concurrently, an aqueous solution of H PtCl with the weremeasuredviainductivelycoupledplasma–opticalemission
+2 6
+same concentration (10 mg mL−1) was prepared and magneti- spectrometry(ICP-OES,Agilent5110).FTIR(ThermoScientific
+callystirredtoensurecompletehomogenization.Subsequently, Nicolet iS20) and Raman spectroscopy (Horiba LabRAM HR
+50 mL of the GO dispersion was combined with 18.74 mL Evolution, 514 nm laser) were employed to analyze functional
+of the H PtCl solution under vigorous stirring. The resulting groups and molecular structure. XPS (Thermo Fisher K-Alpha,
+2 6
+homogeneous mixture was then freeze-dried to obtain solid AlKαsource)wasusedtoprobesurfacechemistryandelemental
+precursor.Thisprecursorwassandwichedbetweentwoconduc- valencestates.
+14of18 Small,2026
+
+4.6 ElectrochemicalMeasurements Ak-pointssamplingof2×3×1withMonkhorst-Packscheme
+wasusedinallcalculationsandallcalculationswereconsidered
+AllelectrochemicalmeasurementswereconductedusingaCHI thespinpolarizationeffect[67–69].
+760Eworkstation(ShanghaiChenhuaInstrumentCo.,Ltd.)ina
+conventionalthree-electrodecell,with0.5mH SO astheelec- The HER in acidic media represents a fundamental electro-
+2 4
+trolyte.Agraphiterod,anAg/AgClelectrode(saturatedKCl),and chemicalprocessforhydrogenproductioninacidicelectrolytes.
+a catalyst-coated glassy carbon electrode served as the counter, The reaction mechanism primarily involves two elementary
+reference, and working electrodes, respectively. Each catalyst steps. The first step is a proton-coupled electron transfer that
+(5 mg) was dispersed in a mixture of 850 µL ethanol, 100 µL occurs on the catalyst surface, wherein protons (H+) from the
+ultrapure water, and 50 µL 5 wt% Nafion via ultrasonication. electrolyte combine with electrons supplied by the electrode to
+Apply10µLofthedispersiondropletontotheworkingelectrode formadsorbedhydrogenatoms(H*)atthecatalyst’sactivesites.
+anddryitinair.Electrochemicalevaluationwascarriedoutusing This intermediate species is commonly referred to as adsorbed
+linear sweep voltammetry (LSV) and cyclic voltammetry (CV), atomichydrogen,andthestepisknownastheVolmerreaction.
+and the obtained data were converted to values relative to the The second step entails the conversion of adsorbed hydrogen
+reversiblehydrogenelectrode(RHE)accordingtothefollowing into molecular hydrogen (H ) and its subsequent desorption.
+2
+equation(1). Twoprimarypathwaysarerecognized:theHeyrovskýreaction,
+in which an additional proton and electron react with an
+𝐸 RHE =𝐸 measured +0.059pH+0.197 (1) adsorbed H* to produce H 2 and regenerate an active site; and
+the Tafel reaction, which involves the recombination of two
+Furthermore, the data obtained by LSV are systematically adjacent H* atoms to yield H (H*+H*→H + 2*). The relative
+2 2
+corrected through the adoption of a compensation correction dominance of these pathways is influenced by factors such as
+method to eliminate measurement deviations caused by fac- the surface coverage of H* species and their surface diffusion
+tors such as solution resistance, the double-layer effect on kinetics. Throughout the HER process, the binding strength
+the electrode surface, and the non-ideal mass transfer pro- between H* and the catalyst surface plays a critical role and is
+cess. The correction was carried out using the following typicallyquantifiedbythehydrogenadsorptionGibbsfreeenergy
+Equation(2). (△G ),athermodynamicparameterderivedfromthefollowing
+H*
+equation:
+𝐸 corrected =𝐸 RHE −𝑖𝑅 (2)
+Δ𝐺 H∗ =Δ𝐸 H∗ +Δ EZPE −𝑇Δ𝑆 (3)
+Priortotheelectrochemicalmeasurements,thecatalystwassub-
+jectedtoanactivationandstabilizationprocesscomprising20CV wheretheΔE ,ΔE ,andΔSrepresenttheadsorptionenergy,
+H* ZPE
+cyclesin0.5mH SO .Subsequently,LSVwasperformedwithin zero-pointenergy,andentropychange[70].
+2 4
+the potential range of -0.08 to -0.44 V at a scan rate of 10 mV
+s−1.Thedouble-layercapacitance(C )wasquantifiedfromCV It is worth emphasizing that the construction of all model sys-
+dl
+measurementsconductedinthenon-Faradaicpotentialwindow tems(Pt-C,Cl─Pt─C,Pt─O─C,Cl─Pt─O─C)inthisstudywas
+of0.57to0.67V,withscanratesvaryingfrom20to120mVs−1. rigorouslygroundedinexperimentalcharacterizationdata.XPS,
+The obtained C values were used to compare the interfacial HAADF-STEM,andEDSelementalmappingresultsdemonstrate
+dl
+electrochemicalcharacteristicsandelectrochemicallyaccessible thatPt,O,andClatomsaresimultaneouslypresentonthesurface
+catalyst/electrolyte interface of different samples, rather than of the rGO support in the Pt@rGO-T catalyst. Consequently,
+to directly quantify the true Pt electrochemically active surface theCl─Pt─O─CmodelemployedinDFTcalculationsaccurately
+area. To evaluate electrochemical stability, accelerated durabil- represents the predominant catalytic active sites in Pt@rGO-
+ity tests were carried out by repeated CV cycling within the T; the Pt─O─C model reflects the structural configuration of
+potentialrangeof1.2to-0.2Vin0.5mH SO atascanrateof thePt@rGO-Scatalystfollowingsteady-statethermalequilibra-
+2 4
+10mVs−1. tion; the Cl─Pt─C model corresponds to the Cl-coordination
+environment on non-functionalized graphene in Pt@graphene-
+T; and the Pt─C model serves as a reference system devoid of
+4.7 DFTCalculations heteroatomcoordination.TheDFTmodelsareconstructedunder
+reasonable assumptions involving idealized interfacial bonding
+Thedensityfunctionaltheory(DFT)calculationswereperformed and local coordination geometries. While the actual catalyst
+using the Vienna Ab initio Simulation Package (VASP), with surfacemayexhibitstructuraldefectsormetalclustering,spectro-
+the generalized gradient approximation (GGA) Perdew–Burke– scopicandanalyticalevidenceindicatesthatthedominantactive
+Ernzerhof (PBE) functional to describe electron exchange and centers predominantly adopt the Cl─Pt─O─C configuration.
+correlation.Theprojector-augmentedplanewave(PAW)poten- Thus,thismodelingapproachenablesasystematicelucidationof
+tialswereusedtodescribethecore–valenceelectroninteraction fundamentalelectronicstructuremodulationmechanisms.The
+andtakevalenceelectronsintoaccountusingaplanewavebasis resulting electronic properties and H* adsorption trends show
+setwithakineticenergycutoffof500eV.Theelectronicenergy strong correlation with experimentally measured HER activity
+was considered self-consistent when the energy change was and kinetic parameters, providing robust mechanistic insights
+smaller than 10−5 eV. A geometry optimization was considered into the structure–activity relationship within this catalytic
+convergentwhentheforcechangewassmallerthan0.02eVÅ−1. system.
+Small,2026 15of18
+
+Evolution Reaction,” ChineseJournalofCatalysis 43 (2022): 1535–1543,
+https://doi.org/10.1016/S1872-2067(21)63977-3.
+Acknowledgements
+14.J.-P.Sun,Y.Zheng,Z.-S.Zhang,X.-C.Meng,andZ.-Z.Li,“Modulation
+This work was financially supported by the National Natural Science ofD-OrbitaltoRealizeEnrichedElectronicCobaltSitesinCobaltSulfide
+FoundationofChina(No.52174379),theNaturalScienceFoundationof for Enhanced Hydrogen Evolution in Electrocatalytic Water/Seawater
+SichuanProvince,China(No.2025ZNSFSC0362). Splitting,”RareMetals43(2024):511–521,https://doi.org/10.1007/s12598-
+023-02427-5.
+ConflictsofInterest 15.C.Liu,Z.Wei,M.Cao,andR.Cao,“PtNanodendriteswithaPtIrAlloy
+Surface Structure Exhibit Excellent Stability toward Acidic Hydrogen
+Theauthorsdeclarenoconflictsofinterest.
+EvolutionReaction,”NanoResearch17(2024):4844–4849,https://doi.org/
+10.1007/s12274-024-6454-3.
+DataAvailabilityStatement
+16.W. Shi, H. Liu, Z. Li, et al., “High-Entropy Alloy Stabilized and
+Thedatathatsupportthefindingsofthisstudyareavailablefromthe Activated Pt Clusters for Highly Efficient Electrocatalysis,” SusMat 2
+correspondingauthoruponreasonablerequest. (2022):186.
+17.J.Wang,F.Xu,H.Jin,Y.Chen,andY.Wang,“Non-NobleMetal-Based
+References CarbonCompositesinHydrogenEvolutionReaction:Fundamentalsto
+Applications,”AdvancedMaterials29(2017):1605838,https://doi.org/10.
+1.M. Zhou, Y. Zhao, Z. Liu, et al., “Edge Dislocation-Induced Strains
+1002/adma.201605838.
+BreaktheLimitofPtNiAlloysinBoostingPtMassActivityforEfficient
+Alkaline Hydrogen Evolution,” Nano Research 17 (2024): 4711–4719, 18.J.Tian,Q.Liu,A.M.Asiri,andX.Sun,“Self-SupportedNanoporous
+https://doi.org/10.1007/s12274-023-6359-6. CobaltPhosphideNanowireArrays:anEfficient3DHydrogen-Evolving
+Cathode over the Wide Range of pH 0–14,” Journal of the American
+2.M.-Y.Fan,J.-J.Wang,J.Zhao,etal.,“High-EntropyOxide-Supported
+ChemicalSociety136(2014):7587–7590,https://doi.org/10.1021/ja503372r.
+PlatinumNanoparticlesforEfficientHydrogenEvolutionReaction,”Rare
+Metals43(2024):1537–1546,https://doi.org/10.1007/s12598-023-02553-0. 19.W. Shi, T. Shen, C. Xing, et al., “Ultrastable Supported Oxygen
+Evolution Electrocatalyst Formed by Ripening-Induced Embedding,”
+3.X.Chen,S.Xie,F.Zhou,etal.,“Carbonized-NitridatedMo N-MoCHet-
+2 Science387(2025):791–796,https://doi.org/10.1126/science.adr3149.
+erostructurestowardsUniversal-MediumHydrogenEvolutionReaction,”
+ChemicalEngineeringJournal500(2024):156908,https://doi.org/10.1016/ 20.Y. Wan, R. Li, J. Su, et al., “Single–Atom Supported Catalysts and
+j.cej.2024.156908. Beyond,”AdvancedMaterials37(2025):2504518,https://doi.org/10.1002/
+adma.202504518.
+4.W.Lai,L.Zhang,W.Hua,etal.,“Generalπ-Electron-AssistedStrategy
+forIr,Pt,Ru,Pd,Fe,NiSingle-AtomElectrocatalystswithBifunctional 21.J. Li, F. Yang, and L. Feng, “Progress of Supported Pt-Based Cata-
+Active Sites for Highly Efficient Water Splitting,” Angewandte Chemie lysts for Electrochemical Methanol Energy Conversion,” Coordination
+InternationalEdition58(2019):11868–11873,https://doi.org/10.1002/anie. Chemistry Reviews 534 (2025): 216603, https://doi.org/10.1016/j.ccr.2025.
+201904614. 216603.
+5.J.Liu,Z.Wang,J.Li,L.Cao,Z.Lu,andD.Zhu,“StructureEngineering 22.B. Zhang, J. Wang, G. Liu, et al., “A Strongly Coupled Ru–CrOx
+of MoS via Simultaneous Oxygen and Phosphorus Incorporation for Cluster–cluster Heterostructure for Efficient Alkaline Hydrogen Elec-
+2
+ImprovedHydrogenEvolution,”Small16(2020):1905738. trocatalysis,”NatureCatalysis7(2024):441–451,https://doi.org/10.1038/
+s41929-024-01126-3.
+6.Y. Tong, H. Ma, F. Xiao, S. Bohm, H. Fu, and Y. Luo, “Precision
+EngineeringofPreciousMetalCatalystsforEnhancedHydrogenProduc- 23.H. Yang, P. Guo, R. Wang, et al., “Sequential Phase Conversion-
+tionEfficiency,”ProcessSafetyandEnvironmentalProtection178(2023): InducedPhosphidesHeteronanorodArraysforSuperiorHydrogenEvolu-
+559–579,https://doi.org/10.1016/j.psep.2023.08.066. tionPerformancetoPtinWidepHMedia,”AdvancedMaterials34(2022):
+2107548,https://doi.org/10.1002/adma.202107548.
+7.Y.Xu,C.Wang,Y.Huang,andJ.Fu,“RecentAdvancesinElectrocat-
+alystsforNeutralandLarge-Current-DensityWaterElectrolysis,”Nano 24.B.Zhang,B.Zhang,G.Zhao,etal.,“AtomicallyDispersedChromium
+Energy80(2021):105545,https://doi.org/10.1016/j.nanoen.2020.105545. CoordinatedwithHydroxylClustersEnablingEfficientHydrogenOxida-
+8.Y. Zhou, L. Zhang, H. Suo, et al., “Atomic Cobalt Vacancy-Cluster tiononRuthenium,”NatureCommunications13(2022):5894,https://doi.
+EnablingOptimizedElectronicStructureforEfficientWaterSplitting,” org/10.1038/s41467-022-33625-x.
+AdvancedFunctionalMaterials31(2021):2101797,https://doi.org/10.1002/ 25.Z.Chen,R.Wu,Y.Liu,etal.,“UltrafineCoNanoparticlesEncapsu-
+adfm.202101797. latedinCarbon-Nanotubes-GraftedGrapheneSheetsasAdvancedElec-
+9.X. Zhang, Z. Zhu, X. Liang, et al., “Encapsulating Dual-Phased trocatalystsfortheHydrogenEvolutionReaction,”AdvancedMaterials30
+Mo C-WC Nanocrystals into Ultrathin Carbon Nanosheet Assemblies (2018):1802011,https://doi.org/10.1002/adma.201802011.
+2
+forEfficientElectrocatalyticHydrogenEvolution,”ChemicalEngineering 26.Y. Li, X. Zhang, L. Liu, et al., “Ultra-Low Pt Doping and Pt–Ni
+Journal408(2021):127270,https://doi.org/10.1016/j.cej.2020.127270. Pair Sites in Amorphous/Crystalline Interfacial Electrocatalyst Enable
+10.C.Yang,Z.Wu,Z.Zhao,etal.,“Mn-OxygenCompoundsCoordinated EfficientAlkalineHydrogenEvolution,”Small19(2023):2300368,https://
+RutheniumSiteswithDeprotonatedandLowOxophilicMicroenviron- doi.org/10.1002/smll.202300368.
+ments for Membrane Electrolyzer-Based H 2 -Production,” Advanced 27.Z.Shi,X.Zhang,X.Lin,etal.,“Phase-DependentGrowthofPton
+Materials35(2023):2303331,https://doi.org/10.1002/adma.202303331. MoS for Highly Efficient H Evolution,” Nature 621 (2023): 300–305,
+2 2
+11.J. Ruiz Esquius and L. Liu, “High Entropy Materials as Emerging https://doi.org/10.1038/s41586-023-06339-3.
+Electrocatalysts for Hydrogen Production through Low-Temperature 28.L.LiuandA.Corma,“BimetallicSitesforCatalysis:fromBinuclear
+WaterElectrolysis,”MaterialsFutures2(2023):022102,https://doi.org/10. Metal Sites to Bimetallic Nanoclusters and Nanoparticles,” Chemi-
+1088/2752-5724/accbd8. cal Reviews 123 (2023): 4855–4933, https://doi.org/10.1021/acs.chemrev.
+12.Q. Liang, Y. Huang, Y. Guo, et al., “Efficient Osmosis-Powered 2c00733.
+ProductionofGreenHydrogen,”NatureSustainability7(2024):628–639, 29.L. Zhou, Y. Shao, F. Yin, J. Li, F. Kang, and R. Lv, “Stabilizing
+https://doi.org/10.1038/s41893-024-01317-7. Non-IridiumActiveSitesbyNon-StoichiometricOxideforAcidicWater
+13.Y. Ding, K.-W. Cao, J.-W. He, et al., “Nitrogen-Doped Graphene OxidationatHighCurrentDensity,”NatureCommunications14(2023):
+Aerogel-SupportedRutheniumNanocrystalsforpH-UniversalHydrogen 7644,https://doi.org/10.1038/s41467-023-43466-x.
+16of18 Small,2026
+
+30.Q. Wang, Y. Chen, X. Zang, et al., “Trace Pt Induced Electron- HydrogenEvolution,”RareMetals44(2025):2513–2521,https://doi.org/
+EnrichedRutoBoostInterfacialWater-ActivationforAlkalineHydrogen 10.1007/s12598-024-03111-y.
+GenerationunderIndustrialCondition,”ChemicalEngineeringJournal
+47.B.Ren,J.Huang,P.Li,W.Xu,andB.Dong,“UltrastableMonolithic
+512(2025):162421,https://doi.org/10.1016/j.cej.2025.162421.
+ElectrodeswithSingle-AtomPlatinum-OxygenSitesforEfficientHydro-
+31.H.Sun,C.-W.Tung,Y.Qiu,etal.,“AtomicMetal–SupportInteraction gen Evolution in Acidic Conditions,” Journal of Colloid and Interface
+Enables Reconstruction-Free Dual-Site Electrocatalyst,” Journal of the Science678(2025):511–519,https://doi.org/10.1016/j.jcis.2024.08.198.
+AmericanChemicalSociety144(2022):1174–1186,https://doi.org/10.1021/
+48.H. Wang, Y. Jiao, G. Zhang, et al., “Stabilizing Electron-Deficient
+jacs.1c08890.
+Ru Nanoclusters via Strong Electronic Metal-Support Interaction for
+32.Y.Li,J.Luo,P.Liu,etal.,“SulfurDopingActivatedMetal–Support PracticalAnion-ExchangeMembraneElectrolyzer,”AdvancedFunctional
+InteractionDrivesPtNanoparticlestoAchieveAcid–BaseHydrogenEvo- Materials35(2025):2418617,https://doi.org/10.1002/adfm.202418617.
+lutionReaction,”JournalofMaterialsChemistryA13(2025):11518–11529,
+49.L.Lu,J.Li,X.Li,S.Yang,B.Mei,andZ.Jiang,“Pt–OHeterointerface
+https://doi.org/10.1039/D4TA08499C.
+EnhancedtheHydrogenEvolutionReaction,”ChemCatChem18(2026):
+33.Z.Lang,X.Wang,S.Jabeen,etal.,“DestabilizationofSingle-Atom 202401988,https://doi.org/10.1002/cctc.202401988.
+Catalysts:Characterization,Mechanisms,andRegenerationStrategies,”
+50.C.Ma,C.Yang,H.Zhuo,etal.,“TailoredCl—LigationonSupported
+Advanced Materials 37 (2025): 2418942, https://doi.org/10.1002/adma.
+PtCatalystsforSelectivePrimaryC–HBondOxidation,”Journalofthe
+202418942.
+American Chemical Society 145 (2023): 10890–10898, https://doi.org/10.
+34.V.-H.DoandJ.-M.Lee,“SurfaceEngineeringforStableElectrocatal- 1021/jacs.3c03257.
+ysis,”ChemicalSocietyReviews53(2024):2693–2737,https://doi.org/10.
+51.Y.Kuang,F.Yang,andL.Feng,“AdvancementsinRuthenium(Ru)-
+1039/D3CS00292F.
+Based Heterostructure Catalysts: Overcoming Bottlenecks in Catalysis
+35.L. Gloag, S. V. Somerville, J. J. Gooding, and R. D. Tilley, “Co- forHydrogenEvolutionReaction,”AdvancedEnergyMaterials14(2024):
+Catalytic Metal–Support Interactions in Single-Atom Electrocatalysts,” 2402043,https://doi.org/10.1002/aenm.202402043.
+NatureReviewsMaterials9(2024):173–189,https://doi.org/10.1038/s41578-
+52.Z. Wu, P. Yang, Q. Li, et al., “Microwave Synthesis of Pt Clusters
+023-00633-2.
+on Black TiO with Abundant Oxygen Vacancies for Efficient Acidic
+2
+36.S.Chen,X.Li,C.Kao,etal.,“UnveilingtheProton-FeedingEffect ElectrocatalyticHydrogenEvolution,”AngewandteChemieInternational
+in Sulfur-Doped Fe−N−C Single-Atom Catalyst for Enhanced CO Edition62(2023):202300406,https://doi.org/10.1002/anie.202300406.
+2
+Electroreduction,”AngewandteChemieInternationalEdition 61(2022):
+53.H.Yang,Y.Ji,Q.Shao,etal.,“Metastable-PhasePlatinumOxidefor
+202206233,https://doi.org/10.1002/anie.202206233.
+ClarifyingthePt–OActiveSitefortheHydrogenEvolutionReaction,”
+37.F. Hao, J. Zhong, F. Hao, et al., “Simple “Directional Trimming” Energy & Environmental Science 16 (2023): 574–583, https://doi.org/10.
+StrategyEngineeredPlatinumAtomicClusterswithControllableCoordi- 1039/D2EE03351H.
+nationNumbersforEfficientHydrogenEvolution,”AngewandteChemie
+54.H. Yuan, D. Jiang, Z. Li, et al., “Laser Synthesis of PtMo Single-
+InternationalEdition64(2025):202504828.
+Atom Alloy Electrode for Ultralow Voltage Hydrogen Generation,”
+38.J.Chen,B.Yao,C.Li,andG.Shi,“AnImprovedHummersMethodfor Advanced Materials 36 (2024): 2305375, https://doi.org/10.1002/adma.
+Eco-FriendlySynthesisofGrapheneOxide,”Carbon64(2013):225–229, 202305375.
+https://doi.org/10.1016/j.carbon.2013.07.055.
+55.W. Yu, Z. Chen, Y. Fu, et al., “Superb All-pH Hydrogen Evo-
+39.J.-B.Wu,M.-L.Lin,X.Cong,H.-N.Liu,andP.-H.Tan,“RamanSpec- lution Performances Powered by Ultralow Pt-Decorated Hierarchical
+troscopy of Graphene-Based Materials and Its Applications in Related Ni-MoPorousMicrocolumns,”AdvancedFunctionalMaterials33(2023):
+Devices,”ChemicalSocietyReviews47(2018):1822–1873,https://doi.org/ 2210855,https://doi.org/10.1002/adfm.202210855.
+10.1039/C6CS00915H.
+56.G.Li,T.Sun,H.-J.Niu,etal.,“TripleInterfaceOptimizationofRu-
+40.A.C.FerrariandD.M.Basko,“RamanSpectroscopyasaVersatile BasedElectrocatalystwithEnhancedActivityandStabilityforHydrogen
+ToolforStudyingthePropertiesofGraphene,”NatureNanotechnology8 EvolutionReaction,”AdvancedFunctionalMaterials33(2023):2212514,
+(2013):235–246,https://doi.org/10.1038/nnano.2013.46. https://doi.org/10.1002/adfm.202212514.
+41.Y.Li,K.Jiang,J.Yang,etal.,“TungstenOxide/ReducedGraphene 57.J. Ying, G. Jiang, Z. P. Cano, L. Han, X.-Y. Yang, and Z. Chen,
+OxideAerogelwithLow-ContentPlatinumasHigh-PerformanceElec- “Nitrogen-Doped Hollow Porous Carbon Polyhedrons Embedded with
+trocatalystforHydrogenEvolutionReaction,”Small17(2021):2102159,
+Highly Dispersed Pt Nanoparticles as a Highly Efficient and Stable
+https://doi.org/10.1002/smll.202102159. Hydrogen Evolution Electrocatalyst,” Nano Energy 40 (2017): 88–94,
+42.J.Y.Loh,J.J.Foo,F.M.Yap,H.Liang,andW.-J.Ong,“Unleashing https://doi.org/10.1016/j.nanoen.2017.07.032.
+the Versatility of Porous Nanoarchitectures: A Voyage for Sustainable 58.W. Zhong, W. Tu, Z. Wang, et al., “Ultralow-Temperature Assisted
+ElectrocatalyticWaterSplitting,”ChineseJournalofCatalysis58(2024):
+Synthesis of Single Platinum Atoms Anchored on Carbon Nanotubes
+37–85,https://doi.org/10.1016/S1872-2067(23)64581-4. for Efficiently Electrocatalytic Acidic Hydrogen Evolution,” Journal of
+43.S.Shen,Q.Li,H.Zhang,etal.,“Negative-ValentPlatinumStabilized Energy Chemistry 51 (2020): 280–284, https://doi.org/10.1016/j.jechem.
+byPt─NiElectronBridgesonOxygen-DeficientNiFe-LDHforEnhanced 2020.04.035.
+Electrocatalytic Hydrogen Evolution,” Advanced Materials 37 (2025): 59.L. A. Zavala, K. Kumar, V. Martin, et al., “Direct Evidence of the
+2500595,https://doi.org/10.1002/adma.202500595. RoleofCoorPt,CoSingle-AtomPromotersonthePerformanceofMoS
+2
+44.F. Guo, T. J. Macdonald, A. J. Sobrido, L. Liu, J. Feng, and G. Nanoclusters for the Hydrogen Evolution Reaction,” ACS Catalysis 13
+He, “Recent Advances in Ultralow-Pt-Loading Electrocatalysts for the (2023):1221–1229,https://doi.org/10.1021/acscatal.2c05432.
+Efficient Hydrogen Evolution,” Advanced Science 10 (2023): 2301098, 60.T. Gao, X. Tang, X. Li, et al., “Understanding the Atomic and
+https://doi.org/10.1002/advs.202301098. Defective Interface Effect on Ruthenium Clusters for the Hydrogen
+45.W.Gou,Y.Wang,M.Zhang,X.Tan,Y.Ma,andY.Qu,“AReviewon EvolutionReaction,”ACSCatalysis13(2023):49–59,https://doi.org/10.
+FundamentalsforDesigningStableRuthenium-BasedCatalystsforthe 1021/acscatal.2c04586.
+HydrogenandOxygenEvolutionReactions,”ChineseJournalofCatalysis
+61.H. Zhang, P. An, W. Zhou, et al., “Dynamic Traction of Lattice-
+60(2024):68–106,https://doi.org/10.1016/S1872-2067(24)60013-6. ConfinedPlatinumAtomsintoMesoporousCarbonMatrixforHydrogen
+46.H.Yao,X.Yu,Y.-X.Jia,etal.,“SynergisticInteractionofMonodisperse EvolutionReaction,”ScienceAdvances4(2018):aao6657,https://doi.org/
+PtNanoparticleswithDefect-RichGrapheneAerogelforEfficientAcidic 10.1126/sciadv.aao6657.
+Small,2026 17of18
+
+62.H.Xiao,M.Bai,M.Zhao,etal.,“InterfacialCarbonDotsIntroduced
+Distribution-StructureModulationofPtLoadingonGraphenetowards
+Enhanced Electrocatalytic Hydrogen Evolution Reaction,” Journal of
+ColloidandInterfaceScience656(2024):214–224,https://doi.org/10.1016/
+j.jcis.2023.11.102.
+63.X.-X. Lin, A.-J. Wang, K.-M. Fang, J. Yuan, and J.-J. Feng, “One-
+Pot Seedless Aqueous Synthesis of Reduced Graphene Oxide (rGO)-
+Supported Core–Shell Pt@Pd Nanoflowers as Advanced Catalysts
+for Oxygen Reduction and Hydrogen Evolution,” ACS Sustainable
+Chemistry & Engineering 5 (2017): 8675–8683, https://doi.org/10.1021/
+acssuschemeng.7b01400.
+64.X.WeiandN.Li,“TungstenCarbide/CarbonCompositesCoatedwith
+LittlePlatinumNanoParticlesDerivedfromtheRedoxReactionbetween
+In-SituSynthesizedWC 1−X andChloroplatinicAcidastheElectrocatalyst
+for Hydrogen Evolution Reaction,” AppliedSurfaceScience 463 (2019):
+1154–1160,https://doi.org/10.1016/j.apsusc.2018.09.043.
+65.H.Yang,Z.Yang,Z.Han,etal.,“HighlyDispersedPlatinumDeposited
+onNitrogen-DopedVerticalGrapheneArrayforEfficientElectrochemical
+HydrogenEvolution,”2DMaterials9(2022):045011,https://doi.org/10.
+1088/2053-1583/ac805a.
+66.X. Zhou, Q. Zhang, X. Luo, et al., “Drop-Coated C N Electrode
+2
+forHydrogenEvolutionReaction,”MaterialsLetters309(2022):131428,
+https://doi.org/10.1016/j.matlet.2021.131428.
+67.X.Zhu,M.Fang,B.Yang,etal.,“RapidSynthesisofActivePtSingle
+AtomsandRuClustersonCarbonBlackviaaHighlyEfficientMicrowave
+Strategy for the Hydrogen Evolution Reaction in Acidic and Alkaline
+media,”JournalofMaterialsChemistryA12(2024):4108–4122,https://
+doi.org/10.1039/D3TA05396B.
+68.W.Liu,L.Zhang,X.Liu,etal.,“DiscriminatingCatalyticallyActive
+FeN X Species of Atomically Dispersed Fe–N–C Catalyst for Selective
+OxidationoftheC–HBond,”JournaloftheAmericanChemicalSociety
+139(2017):10790–10798,https://doi.org/10.1021/jacs.7b05130.
+69.B.Jiang,M.Gil-Sepulcre,P.Garrido-Barros,etal.,“Unravellingthe
+MechanisticPathwayoftheHydrogenEvolutionReactionDrivenbya
+Cobalt Catalyst,” Angewandte Chemie International Edition 61 (2022):
+202209075,https://doi.org/10.1002/anie.202209075.
+70.J. K. Noerskov, T. Bligaard, A. Logadottir, et al., “Trends in the
+Exchange Current for Hydrogen Evolution,” ChemInform 36 (2005):
+200524023,https://doi.org/10.1002/chin.200524023.
+SupportingInformation
+AdditionalsupportinginformationcanbefoundonlineintheSupporting
+Informationsection.
+SupportingFile:smll74462-sup-0001-SuppMat.docx.
+18of18 Small,2026
+

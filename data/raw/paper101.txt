@@ -1,0 +1,664 @@
+Article
+Heat Treatment-Assisted Optimization of the Water Splitting
+Performance of CoCrNi0.5Ti0.3V0.2Al0.4 Eutectic
+High-Entropy Alloy
+MingranSun1,2,ZixiangYin1,2,ShuaiLiu1,2,YangchuanCai1,2,* andYuZhang1,2,*
+1 SchoolofMaterialsScienceandEngineering,TianjinUniversityofTechnology,Tianjin300384,China;
+m15081643686@163.com(M.S.);15290259270@163.com(Z.Y.);15933687828@163.com(S.L.)
+2 TianjinKeyLaboratoryofAdvancedFunctionalPorousMaterials,InstituteforNewEnergyMaterialsand
+Low-CarbonTechnologies,SchoolofMaterialsScienceandEngineering,TianjinUniversityofTechnology,
+Tianjin300384,China
+* Correspondence:18622265848@163.com(Y.C.);yzhang8@email.tjut.edu.cn(Y.Z.);Tel.:+86-18622265848(Y.C.)
+Abstract
+Inthisstudy,thesynergistictuningmechanismofheattreatment(600,800,and1000◦C)
+anddealloying(40,60,and80◦C)onthemicrostructureandelectrocatalyticperformance
+ofanFCC+BCC-typeCoCrNi0.5Ti0.3V0.2Al0.4eutectichigh-entropyalloy(EHEA)was
+systematicallyinvestigated. Thefindingsindicatethatwithanincreaseinheattreatment
+temperature,thereisagradualincreaseingrainsizeandachangeinthefractionofthe
+twophases. Notably,heattreatmentat800◦CresultedinanFCC-dominateddual-phase
+structure with uniformly refined grains. As the dealloying temperature increased, the
+poresizealsoincreased,leadingtoauniformdistributionoftheinternalFCCandBCC
+phases. Thesamplesubjectedtoheattreatmentat800◦Canddealloyingat80◦Cexhibited
+an OER overpotential of only 265 mV and a Tafel slope of 67.84 mV/dec, significantly
+enhancingtheelectrocatalyticactivityandstabilityofthealloy. Thisstudyelucidatesthe
+mechanismbywhichthecombinationofheattreatmentanddealloyingprocessesoptimizes
+theelectrocatalyticperformanceofeutectichigh-entropyalloys,providinganovelstrategy
+forthedesignofnon-preciousmetalelectrocatalysts.
+Keywords: eutectichigh-entropyalloy;nanoporousmaterials;heattreatment;dealloying;
+Received:8July2025
+microstructure;electrocatalyticperformance
+Revised:12August2025
+Accepted:18August2025
+Published:27August2025
+Citation: Sun,M.;Yin,Z.;Liu,S.;
+1. Introduction
+Cai,Y.;Zhang,Y.Heat
+Treatment-AssistedOptimizationof Waterelectrolysisisconsideredakeytechnologyfordevelopingcleanenergyand
+theWaterSplittingPerformanceof
+consistsoftwohalf-reactions: theanodicoxygenevolutionreaction(OER)andthecathodic
+CoCrNi0.5Ti0.3V0.2Al0.4Eutectic
+hydrogenevolutionreaction(HER)[1]. However,thekineticsofthisreactionaretypically
+High-EntropyAlloy.Materials2025,
+slow[2],necessitatingtheuseofhigh-performanceelectrochemicalcatalyststoimprove
+18,4015. https://doi.org/10.3390/
+ma18174015 efficiency. PtanditsalloysareregardedasthebestHERelectrocatalysts,whereasIrO 2 and
+RuO aregenerallyconsideredthebestOERelectrocatalysts[3,4]. However,theirhighcost
+Copyright:©2025bytheauthors. 2
+andlowelementalabundanceprecludethemfrommeetingtherequirementsoflarge-scale
+LicenseeMDPI,Basel,Switzerland.
+Thisarticleisanopenaccessarticle practicalapplications.Therefore,researchershavebegunexploringwater-splittingcatalysts
+distributedunderthetermsand thatarelow-cost,highlyactive,andhavehighenergyconversionefficiency.
+conditionsoftheCreativeCommons Nanoporous metals have been extensively studied because of their high specific
+Attribution(CCBY)license
+surface area, good electrical and thermal conductivity, catalyst recyclability, and high
+(https://creativecommons.org/
+mechanicalrigidity[5–7]. Fortyetal.[8]werethefirsttostudythedealloyingofanAu–Ag
+licenses/by/4.0/).
+Materials2025,18,4015 https://doi.org/10.3390/ma18174015
+
+Materials2025,18,4015 2of17
+alloyinconcentratednitricacidtoformnanoporousgoldandproposedaporeformation
+mechanism. Chenetal.[9]dealloyedaCu Ti Al precursoralloytoobtainabimodal
+19 1 80
+nanoporous CuTi (np-CuTi), which achieved a specific surface area of 46 m2·g−1 and
+exhibitedaHERonsetoverpotentialcomparabletothatofcommercialPt/Ccatalystsalong
+with a higher current density in 0.1 M KOH. Zhang et al. [10] dealloyed a Ni Fe Al
+2 1 97
+precursor (composed of α-Al, Al Ni, and Al Fe phases) using 1 M NaOH, yielding a
+3 13 4
+bimodalporousnanowirenetworkconsistingofNiFe O andNiphases. In1MKOH,this
+2 4
+catalystdeliveredanOERoverpotentialof244mVat10mA·cm−2 withaTafelslopeof
+39mV·dec−1. Thesestudiesdemonstratethatnanoporousmetalspreparedbydealloying
+possess a self-supporting three-dimensional porous structure. The continuous metallic
+ligamentnetworknotonlyprovideselectrontransportpathwaysduringelectrocatalysis,
+butitslargespecificsurfaceareaensuresthatactivesitesontheligamentsurfacesorany
+species loaded on the ligaments are fully exposed, thereby increasing the utilization of
+catalyticallyactivesites. Meanwhile,theinterconnectedporechannelsensuresufficient
+diffusionofthereactantsandproductsthroughtheelectrolyteduringelectrocatalysis.
+Atpresent,traditionalalloycatalystsforwatersplittinghavealimitedcompositional
+tuningrange,whichrestrictsthemodulationoftheelectronicstructureandchemicalad-
+sorption of reaction intermediates [11]. High-entropy alloys (HEAs), first proposed by
+Yeh [12] and Cantor [13], are a new class of alloys consisting of five or more principal
+elementsinequiatomicornear-equiatomicratios[14,15]. Owingtotheirlatticedistortion
+effect,high-entropyeffect,cocktaileffect,andsluggishdiffusioneffect,HEAshavepotential
+applicationsinelectrocatalysis[16–18]. Thedisparityinatomicsizesinducessignificant
+latticedistortion,whichhelpsreducetheoverallenergyofthesystemandfacilitatestheac-
+tivationofactivesitesaswellasthetransportofactivespeciesduringcatalysis[19,20]. The
+high-entropyeffectpromotestheformationofasinglesolid-solutionphaseandsuppresses
+the formation of intermetallic compounds. The high configurational entropy and low
+Gibbsfreeenergyconferexceptionalthermalandchemicalstabilitytothecrystalstructures.
+The presence of multiple elements in the same lattice, that is, multiple types of atomic
+sites,significantlyexpandsthetunabilityofthecatalyticallyactivesitesforelectrocatalytic
+reactions[21]. Thecocktaileffectresultsinadisorderedsurfacethatincreasesthevariety
+ofactivesiteswithdifferentadsorptionbehaviors;theseactivesitescanserveasreaction
+intermediatesinelectrocatalysis,yieldingaperformancesuperiortothesimplesumofeach
+component’sperformance[22,23]. Thesluggishdiffusioneffectfacilitatestheformationof
+fineprecipitates,promotesthedevelopmentofanamorphousstructure,suppressesgrain
+growth,andraisestherecrystallizationtemperature,whicheffectivelyslowscoarsening
+andenhancescreepresistance,therebycontrollingtheformationofnanostructures[24].
+Luetal.[25]werethefirsttocombinetheconceptsofeutecticalloysandhigh-entropy
+alloys, proposingtheconceptofeutectichigh-entropyalloys(EHEAs). EHEAspossess
+thecharacteristicsofbothhigh-entropyandeutecticalloys,canformadual-phaseeutectic
+structure,andcanachieveoutstandingsynergisticpropertiesthroughcompositionaldesign.
+Eutecticmicrostructurescanbeusedtofabricateelectrodematerialswithcomplexhier-
+archicalporestructures,whichprovideagreaterspecificsurfaceareaandmoreeffective
+masstransferchannels,therebyimprovingtheefficiencyofwater-splittingreactions[26,27].
+Chen et al. [28] employed a phosphorus-doped Ni Co Fe Cr Al W eutectic high-
+30 30 10 10 18 2
+entropyalloy,findingthatthe1P-HEArequiredoverpotentialsofonly70mVand211mV
+toreach10mA·cm−2 forthehydrogenevolutionreaction(HER)andoxygenevolution
+reaction(OER),respectively. Lietal.[29]usedphysicalmetallurgytechniquestoalloyZr
+withanFeCoNiCrmedium-entropyalloy(MEA),therebydesigninganFeCoNiCrZr .
+0 25
+HEAwithamultiphasespatialstructure. Thisself-supportingcatalystfeaturesanintercon-
+nectedtri-scalegradientporousarchitecture,achievingOERoverpotentialsof215mVat
+
+Materials2025,18,4015 3of17
+10mA·cm−2and370mVat1000mA·cm−2. Yaoetal.[30]developedathree-dimensional
+hierarchicalnanoporousCuAlNiMoFehybridelectrodethatachievedcurrentdensitiesof
+1840mA·cm−2in1MKOHand100mA·cm−2in1MPBSatoverpotentialsofonly240mV
+and183mV,respectively. Therefore,throughrationalcompositiondesigntoformaeutectic
+microstructure,anexcellentoverallperformancecanbeachieved.
+HeattreatmentisacommonapproachfortuningthemicrostructureofEHEAsand
+improvingtheirproperties[31–33]. Lietal.[34]heat-treatedanAl Co V FeNieutectic
+0.4 0.5 0.6
+high-entropyalloyat1000,1100,and1200◦Candfoundthatheattreatmentat1200◦C
+increasedtheFCCphasecontent,producedadensermicrostructure,andledtopronounced
+compositionalsegregation.Sunetal.[35]studiedthemicrostructureevolutionandmechan-
+icalpropertiesofanAl Cr FeMn Ni EHEAannealedbetween300◦Cand800◦Cand
+0.9 0.8 0.8 2.0
+foundthatannealingat600◦Cfor2hsignificantlyincreasedtheBCCphasefraction,im-
+provingthealloy’sstrength;athigherannealingtemperatures(700–800◦C),alargeamount
+oftheFCCphasedissolved,leadingtotheformationofacicularorderedB2(Al-andNi-rich)
+precipitatesandareductioninmechanicalproperties. Zhangetal.[36]reportedthatheat
+treatmentcanoptimizethestrengthofaNi Fe Co Cr Mo HEAandadjustitsHER
+20 20 35 15 10
+efficiency;notably,thealloyheat-treatedat1150◦CexhibitedthelowestHERoverpotential.
+These studies indicate that appropriate heat treatment can optimize the microstructure
+andelementaldistributionofEHEAs,therebyinfluencingthedealloyingprocessandthe
+resultingporousstructureforwater-splittingperformance. However,existingstudieson
+theeffectofheattreatmentonEHEAshavemainlyfocusedonmicrostructuralevolution,
+conventionalmechanicalproperties,andcorrosionproperties,withfewreportsonitsinflu-
+enceontheelectrocatalyticperformanceforwatersplitting. Therefore,inthisstudy,we
+employedheattreatmenttooptimizethemicrostructureofanEHEAandappliedasuitable
+dealloyingprocesstoinvestigatetheircombinedeffectsonwater-splittingperformance.
+Insummary,ourteampreviouslyobtainedanFCC+BCC-typeCoCrNi0.5Ti0.3V0.2Al0.4
+EHEAthroughphasediagramcalculations. Byutilizingphase-diagram-guidedmethods
+tocontroltherelationshipbetweenheattreatmentandmicrostructureandbypairingwith
+anappropriatedealloyingprocess,weaimtoelucidatethecouplingamongheattreatment,
+microstructure,andwaterelectrolysisperformance,therebyprovidingtheoreticalsupport
+forthedesignofefficientelectrocatalysts.
+2. MaterialsandMethods
+2.1. AlloyPreparationandHeatTreatmentProcess
+Inapreviousstudy,ourteamusedtheThermal-Calcthermodynamicsoftware(Copy-
+right © Thermo-Calc Software AB, Stockholm, Sweden) and Scheil model to simulate
+solidificationand,basedontheleverrule,designedaCoCrNi0.5Ti0.3V0.2Al0.4eutectic
+high-entropyalloy[37]. Thisalloywaspreparedfromhigh-purity(>99.9wt.%)Co,Cr,Ni,
+Ti,V,andAlandcastunderanargonatmosphereusinganXC-500vacuumarcmelting
+furnace(ShenyangScientificInstrumentCo.,Ltd. ChineseAcademyofSciences,Shenyang,
+China). The ingot was remelted five times to ensure a uniform elemental distribution.
+The cast precursor was placed in a KSL-1200X muffle furnace (Hefei Kejing Materials
+TechnologyCo.,Ltd.,Hefei,China)andheatedat10◦C/mintothetargettemperatures
+(600,800,and1000◦C),heldfor2h,andthenfurnace-cooledtoroomtemperature.
+2.2. DealloyingProcess
+Thecastprecursorwascutintocuboidsmeasuring18mm×5mm×1mmusing
+electricdischargewirecutting. Thespecimenswereimmersedin1MHClat40,60,and
+80 ◦C for 1 h for dealloying, followed by rinsing with deionized water to identify the
+optimaldealloyingconditions.
+
+Materials2025,18,4015 4of17
+Theprecursorwasthencutintocuboidsof18mm×5mm×0.5mm. Thesesamples
+wereimmersedin1MHClundertheselectedoptimaldealloyingconditionstoproducea
+porousstructure,whichwasusedasthewaterelectrolysiselectrode.
+2.3. MaterialCharacterization
+The precursors before and after heat treatment were ground with abrasive paper,
+mechanicallypolished,andetchedfor10swithKroll’sreagent(2%HF,6%HNO ,92%
+3
+H O).AHitachiS-4700scanningelectronmicroscope(SEM)wasusedtocharacterizethe
+2
+microstructure,andanenergy-dispersiveX-rayspectroscope(EDS)wasusedtoevaluate
+the elemental composition and its distribution. A Tecnai G2 F20 transmission electron
+microscope(TEM)wasusedtoobtainhigh-resolutionimages,elementalmaps,andselected
+areaelectrondiffraction(SAED)patternsoftheas-castsample. Thephasecomposition
+wasanalyzedusingaShimadzuXRD-6100X-raydiffractometer(ShimadzuCorporation,
+Kyoto, Japan, Cu Kα radiation, 40 kV, 40 mA, scan speed 10◦/min, 2θ range 20–100◦).
+Forthedealloyedsamples,SEMwasusedtocharacterizethesurfaceandcross-sectional
+morphologies, andXRDwasusedtoanalyzethephasecomposition. EDSwasusedto
+assesstheelementalcompositionanddistributionofthesampledealloyedat60◦C.
+2.4. ElectrochemicalTesting
+Electrochemical measurements were conducted using a CHI 760E electrochemical
+workstation(CHInstruments,Inc.,Austin,TX,USA)inathree-electrodeconfiguration,
+with the sample as the working electrode, Hg/HgO as the reference electrode, and a
+carbonrodasthecounterelectrode. Theelectrolytewasa1MKOHsolution. Thetests
+included linear sweep voltammetry (LSV, scan rate 5 mV/s), cyclic voltammetry (CV,
+scanrates20–100mV/s),electrochemicalimpedancespectroscopy(EIS,frequencyrange
+10−2–105Hz),andchronopotentiometricstabilitytesting(48hataconstantpotential). All
+electrochemicaltestswereconductedinthreeindependentreplicateexperimentstoensure
+statisticalreliabilityoftheresults.
+Afterthe48hstabilitytest,thesamplewasanalyzedbyXRDtodeterminethephase
+composition,bySEMtoexaminethesurfaceandcross-sectionalmorphology,andbyEDS
+toevaluatetheelementalcompositionanddistribution.
+3. ResultsandDiscussion
+3.1. EffectofHeatTreatmentontheMicrostructureofthe
+As-CastCoCrNi0.5Ti0.3V0.2Al0.4EHEA
+XRDanalysis(Figure1a)indicatesthattheas-castCoCrNi0.5Ti0.3V0.2Al0.4EHEAis
+composedprimarilyofBCCandFCCphases,withanFCCcharacteristicpeakat47.28◦.The
+SEMimages(Figure1b–d)showthatthegrainsofthecastalloyexhibitatypicalirregular
+eutecticmorphology. Withinthegrains,theeutecticstructureisveryfine(100nmlamellae
+thickness),whereas,nearthegrainboundaries,theeutecticstructureisnoticeablycoarser
+(500nmthick). Theirregulareutecticmorphologyofthisalloymainlyoriginatesfromthe
+Ti-inducedasymmetricgrowthmechanism. Tipreferentiallysegregatestothehardphase,
+leadingtointerfacialenergyanisotropyandakineticimbalancebetweentheFCCmatrix
+andhardphase,whichdestabilizestheadvancingeutecticfrontandresultsinadegenerate
+lamellarstructure[38]. Meanwhile,Tireducesthediffusivityofthemelt,disruptingthe
+coupledsoluteredistributionrequiredforregulareutecticgrowth. Thecoarseningofthe
+eutecticnearthegrainboundarieswasattributedtoakinetictransitioninthelatestages
+ofsolidification. IntheearlystageofEHEAsolidification,underahighcoolingrate,the
+eutecticnucleatesatalargeundercooling[39]. Inthefinalstageofsolidification,solute
+enrichment in the grain boundary regions reduces the local undercooling, slowing the
+
+Materials2025,18,4015 5of17
+growth rate into a diffusion-controlled regime and significantly increasing the eutectic
+spacing[40]. Simultaneously,Ostwaldripeningintheinterdendriticliquidcausessmall
+eutecticcoloniestodissolve,furtherexacerbatingcoarsening[41]. TEMexaminationof
+thefineirregulareutecticstructurewithinthegrainsshowedthatthelighterregionswere
+the FCC phase and the darker regions were the BCC phase. EDS results indicated that
+theFCCphasewasenrichedwithCoandNi,whereastheBCCphasewasenrichedwith
+Cr. TheenrichmentofCrinthisphasecaneffectivelyenhanceitscorrosionresistance[42],
+sothisphasewasretainedduringthemetallographicpreparation,whichdiffersfromthe
+microstructuresreportedinotherFCC/BCCdual-phaseeutecticHEAs.
+Figure 1. Phase composition, microstructure, and elemental distribution of the as-cast
+CoCrNi0.5Ti0.3V0.2Al0.4 EHEA: (a) XRD pattern; (b–d) SEM micrographs; (e) TEM image and
+SAEDpattern;(f)elementaldistribution.
+
+Materials2025,18,4015 6of17
+XRD analysis of the heat-treated samples (Figure 2a) shows that for the HT-600 ◦C
+sample,themainpeakoftheFCCphaseisat44.42◦withanintensityof468.43.Astheheat
+treatmenttemperatureincreased,theFCCpeakfirstincreasedandthendecreased,andthe
+peak broadened. At 800 ◦C, the FCC main peak reached a maximum intensity of 475.22,
+whichthenweakenedto299.12at1000◦C,andtheFCCpeakgraduallyshiftedtotheleft(to
+44.28◦)withincreasingtemperature. Thissuggeststhat800◦Cisthetemperatureatwhich
+FCCprecipitationismostpronounced;elementdiffusionbecomesactiveinthistemperature
+rangebuthasnotyetreachedfullhomogenization, resultinginsignificantcompositional
+inhomogeneitywithintheFCCphase.Excessiveheatingcausesover-diffusionofelements,
+leadingtothedissolutionoftheFCCphaseandapartialtransformationtoBCC.Thenewly
+formedBCCphasehasveryfinegrainsintheearlystagesofnucleationandgrowthwitha
+highdensityofdefects[43],causingpeakbroadeningandaccompanyinglatticeexpansion.
+TheSEMimages(Figure2b–d)showthatwithincreasingheattreatmenttemperature,the
+phaseconstitutionremainsBCC+FCC,thegrainsizeincreasesfrom150nmto200nm,the
+graininteriorsbecomedenserandmoreuniform,themicrostructurenearthegrainboundaries
+becomesnoticeablycoarser,andtheeutecticregionsdonotundergophasedecomposition,
+indicatingthattheeutecticstructurehasgoodthermalstability.EDSanalysisindicatedthat
+thevolumefractionoftheFCCphaseincreasedmarkedlyat800◦C,whichwasattributedto
+theenhanceddiffusionrateofCo,resultingintheprecipitation,growth,andcoarseningofthe
+FCCphase. CombiningtheSEMandXRDresults,itisclearthatheattreatmentinfluences
+atomicdiffusion,therebyalteringthetwo-phasedistributionandgrainmorphology.
+Figure 2. Phase constitution, microstructure, and elemental distribution of the
+CoCrNi0.5Ti0.3V0.2Al0.4EHEAprecursorafterheattreatment:(a)XRDpattern;(b–d)SEMmicro-
+graphsof(b)600◦Csample,(c)800◦Csample,and(d)1000◦Csample;(e)elementaldistribution.
+
+Materials2025,18,4015 7of17
+3.2. EffectofDealloyingonthePorousStructureFormattingofMathematicalComponents
+Figure3showsthesurfaceSEMimagesoftheCoCrNi0.5Ti0.3V0.2Al0.4EHEApre-
+cursordealloyedatdifferenttemperatures. Upondealloyingat40◦C(Figure3(a1–d1)),
+thesurfacemicrostructurewassimilartothatoftheprecursoralloy,withaclearlyvisible
+eutecticstructureandgrainboundaries. At60◦C(Figure3(a2–d2)),themorphologyofthe
+as-castsampleafterdealloyingwassimilartothatat40◦C,butthedifferencesbetween
+thegrainboundaryregionsandthegraininteriorbecamemorepronounced. Astheheat
+treatmenttemperatureincreased,thegraininteriorregionsafterdealloyingbecameseverely
+corroded,makingtheeutecticstructuremoredistinct,whereasthegrainboundaryregions
+remainedintact. Whenthedealloyingtemperatureisraisedto80 ◦C(Figure3(a3–d3)),
+theporesizeincreasestoabout50–100µmwithamoreuniformdistribution,forminga
+regularhoneycomb-likearrangement;thegrainboundaryregionsarepreserved,whereas
+theeutecticstructureinsidethegrainsiscompletelydissolvedbythedealloyingsolution.
+EDSanalysis(Figure4)indicatesthattheseobservationsareduetotheuniqueeutectic
+dual-phase(FCC/BCC)structureandthemarkedlydifferentelectrochemicalbehaviors
+ofthesephasesinacorrosiveenvironment. Thegraininteriorisprimarilycomposedof
+a Co-rich FCC phase, which has a lower corrosion potential and tends to dissolve. In
+contrast,thegrainboundaryregioniscomposedofaCr-richBCCphase,which,beingrich
+inpassivatingelements,canformahighlystableprotectiveoxidefilmandthusexhibitsa
+highercorrosionpotentialandexcellentcorrosionresistance[44].
+However,varyingtheheattreatmenttemperaturealsoaffectsthesurfacemorphology
+afterdealloying. Atlowerheattreatmenttemperatures,atomicdiffusionislimited,andthe
+grainsizedoesnotchangesignificantly. Astheheattreatmenttemperatureincreased,the
+atomicdiffusionrateaccelerated,thegrainsizeincreasedfrom150to200nm,thevolume
+fractionoftheBCCphaseincreasedslightly,andthesegregationofelementssuchasCoand
+Nibecamemorepronouncedinthealloy. Thealloyalsobecomesdenser,whichreduces
+thelatticedistortion,resultinginamoreuniformandorderlyporousstructure.
+Thephasestructuresofthedealloyedsamplesalsochanged. Atthesamedealloying
+temperature,asthepriorheat-treatmenttemperatureincreasedafromas-castto1000◦C,
+thediffractionpeaksoftheFCCandBCCphasesgraduallybroadened,theintensityof
+the FCC peaks steadily decreased, and the BCC peaks were enhanced. For dealloying
+at 40 ◦C, the intensity of the FCC main peak in the as-cast sample was 697, whereas it
+was only 257 in the sample heat-treated at 1000 ◦C. For the 60 ◦C dealloying, the FCC
+mainpeakintensitydroppedfrom525(as-cast)to351(1000◦Cheat-treated). For80◦C
+dealloying,itdecreasedfrom201(as-cast)to119(1000◦Cheat-treated). Thisisbecause
+high-temperatureheattreatmentacceleratesatomicdiffusionandphasetransformationsin
+thealloy,causingpartialdissolutionoftheFCCphaseanditsconversiontotheBCCphase
+athightemperatures.Atthesameheattreatmenttemperature,thepeakintensityoftheFCC
+phasegraduallydecreasedwithincreasingdealloyingtemperature. At40◦Cdealloying,
+onlyasmallamountoftheFCCphasedissolved,andtheoverallphasestructureremained
+similartothatbeforedealloying. Asthedealloyingtemperatureincreasesto60◦Cand
+80◦C,alargefractionoftheFCCphasedissolves,itspeakintensityprogressivelyweakens,
+theBCCdiffractionpeaksbecomestronger,andthephasefractionisadjustedaccordingly.
+
+Materials2025,18,4015 8of17
+Figure 3. Surface microstructure and elemental distribution of CoCrNi0.5Ti0.3V0.2Al0.4 EHEA
+after heat treatment and subsequent dealloying: (a–d) SEM images; (a1–d1) dealloyed at 40 ◦C;
+(a2–d2)dealloyedat60◦C;(a3–d3)dealloyedat80◦C;(e)elementaldistribution.
+Figure5showscross-sectionalSEMimagesoftheCoCrNi0.5Ti0.3V0.2Al0.4EHEA
+precursorafterdealloyingatdifferenttemperatures. At40◦Cdealloying(Figure5(a1–d1)),
+thecross-sectionexhibitsalmostnopores. At60◦C(Figure5(a2–d2)),thedealloyingdepth
+increased,andtheas-castsampleexhibitedfewporesandanunevenporedistribution.With
+higherpriorheat-treatmenttemperatures,thecross-sectionalporousstructureandeutectic
+morphologybecamemoreevident. Whenthedealloyingtemperatureisincreasedto80◦C
+(Figure5(a3–d3)),theporouslayerthicknessreachesitsmaximumandtheporedistribution
+becomesmoreuniform,indicatingthatdealloyingat80◦Cismoreefficient.Simultaneously,
+as the heat treatment temperature increased, the dealloyed layer thickness decreased,
+suggestingthatheattreatmentimprovedthecorrosionresistanceofthesample. Overall,
+increasing the dealloying temperature led to a thicker porous layer, and this uniform
+porousstructurewasbeneficialforensuringsufficientcontactbetweentheelectrolyteand
+theinteriorofthealloy,therebyenhancingtheefficiencyoftheelectrochemicalreaction.
+Based on these results, the sample dealloyed at 80 ◦C was selected for electrocatalytic
+performancetesting.
+
+Materials2025,18,4015 9of17
+Figure4.XRDpatternsofCoCrNi0.5Ti0.3V0.2Al0.4EHEAbeforeandafterheattreatmentfollowed
+bydealloying:(a)dealloyedat40◦C,(b)dealloyedat60◦C,and(c)dealloyedat80◦C.
+Figure5.Cross-sectionalmicrostructure(SEM)ofCoCrNi0.5Ti0.3V0.2Al0.4EHEAafterheattreat-
+mentanddealloying:(a1–d1)dealloyedat40◦C;(a2–d2)dealloyedat60◦C;(a3–d3)dealloyedat
+80◦C.
+
+Materials2025,18,4015 10of17
+3.3. ElectrocatalyticPerformance
+To evaluate the electrocatalytic performance of the prepared porous HEA catalyst,
+HERandOERmeasurementswereperformedin1MKOHusingastandardthree-electrode
+system. Allpotentialswerecalibratedtothereversiblehydrogenelectrode(RHE)reference.
+Figure 6a shows the HER polarization curves of the catalysts after different heat
+treatments.Thedataerrorforallsampleswaslessthan5%,indicatingthattheexperimental
+system had good stability and reproducibility of the results. At a current density of
+10mA·cm−2, the HT-800 ◦C sample exhibited the lowest overpotential of 140 mV, but
+at1000 ◦C,the overpotentialincreasedto 196mV atthe samecurrent density. To meet
+thecompletenessrequirementsofthekineticanalysis, SupplementaryFigureS1shows
+completeTafelcurvesforallthecatalysts. Thelinearfittingregionsaremarked,andthe
+goodness-of-fitR2 valuesareallhigherthan0.995,confirmingthereliabilityoftheTafel
+slope calculations. Figure 6c shows the Tafel slopes of the catalyst electrodes. The HT-
+800◦CsamplehasaTafelslopeofonly122.8mV/dec,whichismuchlowerthanthatofthe
+as-castsample(138.1mV/dec),theHT-600◦Csample(140.6mV/dec),andtheHT-1000◦C
+sample(130.1mV/dec),indicatingthattheHT-800◦Celectrodepossessesexcellentreaction
+kinetics. This is because the HT-600 ◦C sample suffers from elemental segregation and
+microstructuralinhomogeneity,resultinginasmallerelectrochemicallyactivesurfacearea,
+thuslimitingtheavailablereactivesurface. Incontrast,theHT-800◦Ctreatmentexposesa
+highdensityofactivesitesandoptimizesthehydrogenadsorptionfreeenergy[45],andits
+porousstructuresignificantlyincreasestheelectrochemicallyactivesurfacearea. However,
+theHT-1000◦Csampleexperiencedseveregraincoarsening,areductionintheactivesite
+density,andmarkedlyretardedreactionkinetics.
+Figure6bshowsacomparisonoftheOERpolarizationcurvesofthecatalystsafter
+differentheattreatments.Thedataerrorforallsampleswaslessthan5%,indicatingthatthe
+experimentalsystemhadgoodstabilityandreproducibility. Theas-castcatalystexhibited
+relativelypoorOERactivity,withanoverpotentialof314mVat10mA·cm−2. Atthesame
+currentdensity,theHT-800◦Csampleshowsthelowestoverpotential,only265mV,which
+islowerthanthatofacommercialRuO catalyst(290mV).However,withafurtherincrease
+2
+in the heat treatment temperature, the overpotential of the HT-1000 ◦C sample slightly
+increasedto288mVat10mA·cm−2. Figure6eshowstheTafelslopevaluesfortheOERof
+eachcatalyst.AllsamplesexhibitedlowTafelslopes(<70mV/dec),withtheas-castsample
+(60.94mV/dec),HT-600◦Csample(67.35mV/dec),HT-800◦Csample(67.84mV/dec),
+andHT-1000◦Csample(61.97mV/dec),indicatingthatthecatalystelectrodeexhibited
+excellentreactionkineticsperformance. Althoughtheas-castsamplehadthelowestTafel
+slope, it exhibited the highest overpotential, which was attributed to the non-uniform
+microstructure (obvious coarsening of the eutectic region at the grain boundaries) and
+elementsegregation,resultinginalimitedeffectiveactivearea. Incontrast,theHT-800◦C
+samplehadaslightlyhigherTafelslopebutexhibitedthelowestoverpotential,whichwas
+attributedtoitsoptimizeddual-phasestructureanduniformporousmorphology,which
+significantlyenhancedtheelectrochemicallyactivearea. Underthesametestconditions,
+the catalyst in this study exhibited performance comparable to that of the NiFe LDH
+studiedbySulimanetal.[46](Tafelslopeof48.6mV/decandoverpotentialof270mV)
+and slightly outperformed the Co-Mn-P@ Ni-Co nanostructure catalyst (Tafel slope of
+56mV/decandoverpotentialof309mV)studiedbyAbedietal.[47],butitsperformance
+wasstillinferiortothatoftheCo-Cr-Fe-Ni-Nbhigh-entropyoxideelectrocatalyst(Tafel
+slopeof42.7mV/decandoverpotentialof251mV)studiedbyLinetal. Thiscatalyststill
+hasroomforimprovementintermsofenhancingthekineticratesandotheraspectsin
+thefuture. Thechargetransferresistance(EIS)testingisshowninFigure6g,wherethe
+insetshowsthecorrespondingequivalentcircuitdiagram. AfterfittingtheNyquistplots
+
+Materials2025,18,4015 11of17
+of each catalyst electrode, it was observed that all electrocatalysts had a small solution
+resistance (Rs) and charge transfer resistance (Rct). The solution resistance used in the
+test(2.656–2.995Ω)remainedessentiallyunchanged,indicatingthatthetestenvironment
+remainedfundamentallystable. TheelectrochemicalimpedancespectrumoftheHT-600◦C
+sampleexhibitedasmallerarc,withachargetransferresistanceof21.73Ω,whilethecharge
+transferresistanceofthecastcatalystwas27.47Ω. Thechargetransferresistanceofthe
+HT-800◦Csampleis38.27Ω,andthechargetransferresistanceoftheHT-1000◦Csample
+is45.09Ω,indicatingthattheHT-600◦Csamplehasthehighestchargetransferefficiency
+withtheelectrolyte. Toevaluatetheelectrochemicalactivityofthesamplessubjectedto
+differentheattreatmenttemperatures,EISwasfittedtoobtainCdl. Theresultsshowed
+thattheHT-800◦CsamplehadthehighestCdlvalueof3.34mF/cm2,whiletheCdlvalues
+forthecast,HT-600◦C,andHT-1000◦Csampleswere2.81mF/cm2,2.76mF/cm2,and
+2.54mF/cm2,respectively. Toensureaccuracy,SupplementaryFigureS2showsthemulti-
+scanrateCVcurvesforeachcatalyst,withcyclicvoltammetrytestsconductedatscanrates
+rangingfrom20to100mV/sinthenon-Faradaicregion. Fordouble-layercapacitance,
+thereisalinearrelationshipbetweenthecurrentandscanrate: ∆j=(CDL/A)·v+b.The
+linearslopeofthecurrentdensitydatapointsateachscanrateintheCVcyclerepresentsthe
+double-layercapacitanceoftheelectrodeperunitgeometricareaoftheelectrode.Therefore,
+by performing linear fitting with the scan rate (ν) as the x-axis and the current density
+(∆j) as the y-axis, the slope of the fitted line represents Cdl, as shown in Figure 6h. As
+showninthefigure,withanincreaseintheheattreatmenttemperature,thedouble-layer
+capacitancefirstincreasedandthendecreased,reachingamaximumvalue(3.71mF/cm2)
+atHT-800◦C,indicatingalargeractivearea. Thisisbecausetheoptimizedmicrostructure
+andporoussurfaceareconducivetoelectrontransferandtheadsorptionanddesorption
+of intermediate products, thereby accelerating the reaction. The Cdl values obtained
+from the CV calculations were slightly higher than those obtained from the EIS fitting.
+This is because the CV method integrates charge at low frequencies, where deep pore
+responses are primarily observed, capturing a higher capacitive contribution from the
+overallporestructureoftheelectrode. Incontrast,theEISmethodprimarilyreflectsthe
+interfaceresponsesathighfrequenciesandislesssensitivetoiontransportindeeppores.
+Additionally,CVmeasurementsdeterminethedynamicaveragecapacitancewithinawide
+potentialwindow,whereasEIScharacterizesthesteady-stateinstantaneouscapacitance
+attheopen-circuitpotential. Thefundamentalmethodologicaldifferencesaccountforthe
+variationsintheCdlvalues,buttheerrorislessthan10%,andtheperformancetrendsof
+allcatalystsareconsistent,indicatingthatthedatapossesshighreliability. Stabilitytesting
+(Figure6i)showedthatallsamplesmaintainedacurrentdensityretentionrateofupto90%
+after48hofconstantpotentialtesting,demonstratingexcellentelectrochemicalstability.
+As shown in Table 1, the Al-Co-Cr-Fe-Ni EHEA catalyst developed in this study
+outperformsmostadvancedmaterialsreportedintheliteratureintermsofoverpotential
+(265mV)andreactionkinetics(Tafelslopeof67.8mV/dec). Themechanismbehindthis
+performanceenhancementcanbeattributedtothefactthatheattreatmentoptimizesthe
+intrinsicelectronicstructureofthealloybyregulatingtheBCC/FCCphaseratio,while
+dealloying treatment constructs a three-dimensional porous surface through selective
+corrosion. Thesynergisticeffectofthesetwoprocessesresultsinananoporousstructure
+thatprovidesabundantactivesites,therebyacceleratingthereactionkineticsandreducing
+theactivationenergy.
+
+Materials2025,18,4015 12of17
+Figure6.(a)LSVpolarizationcurvesforHER;(b)LSVpolarizationcurvesforOER;(c)Tafelplots
+forHER;(d)TafelplotsforOER;(e)overpotentialsat10mA·cm−2 forHER;(f)overpotentialsat
+10mA·cm−2 forOER;Errorbarsrepresentstandarddeviationfromthreeindependentreplicates.
+(g)NyquistplotsfromEIS(inset:equivalentcircuit);(h)double-layercapacitancecomparison;(i)48h
+stabilitytest.
+
+Materials2025,18,4015 13of17
+Table1.ComparisonofalkalineOERcatalystperformance.
+Overpotentials(mV)
+CatalystComposition ElectrolyteType TafelSlopes(mV/dec)
+10mA/cm2
+CoCrNi0.5Ti0.3V0.2Al0.4EHEA 1MKOH 265 67.84
+Ni2Fe1Al97 1MKOH 244 39
+P-Ni30Co30Fe10Cr10Al18W2 1MKOH 211 41.3
+FeCoNiCrZr0.25HEA 1MKOH 215 44.9
+NiFeLDH 1MKOH 270 48.6
+Co-Mn-P@Ni-Co 1MKOH 309 56
+FeCoMnCuAlHEA[48] 1MKOH 280 76.13
+Co-Cr-Fe-Ni-Nb 1MKOH 251 42.7
+Li-NiFe-LDH/g-C N [49] 1MKOH 276 51.1
+3 4
+CoSe @Co O [50] 1MKOH 252 69
+2 3 4
+RuO 1MKOH 290 82.1
+2
+3.4. EffectoftheElectrocatalyticReactionontheMicrostructureof
+CoCrNi0.5Ti0.3V0.2Al0.4EHEA
+Afterthe48hconstant-potentialstabilitytest, themicrostructure, elementaldistri-
+bution,andphasecompositionofthealloywereexamined(Figure7). TheSEMimages
+(Figure7a–d)revealthatthesurfaceoftheas-castsamplehasaclearlyporousstructure
+withirregularprotrusions. Astheheattreatmenttemperaturewasincreasedto800 ◦C,
+thesurfaceexhibitedmoreprotrusionsandpores;at1000◦C,thenumberofprotrusions
+decreased. EDS maps (Figure 7e) show that the oxygen content is generally high in all
+samples owing to the reaction of the alloy with oxygen during the electrolysis process,
+forminganoxidefilmonthesurface. Notably,thesampleheat-treatedat800◦Ccontained
+a significantly higher oxygen content, indicating that more intense oxidation occurred
+duringwaterelectrolysis. Tofurtheridentifytheoxidecomposition,XRDanalysiswas
+performedonthesamples.
+Intheas-castsampleafterelectrolysis,oxidesofNi,Co,V,Ti,andAlweredetected.
+Astheheattreatmenttemperatureincreasedfrom600to1000 ◦C,thediffractionpeaks
+ofV,Ni,andCooxidesbecamestronger. TheelectrocatalyticOERprocessandlong-term
+stabilitytestinducedtheinsituformationofa(hydroxy)oxidelayeronthealloysurface
+thatwasrichinmultipletransitionmetalelements. Thiscomplexoxidelayerservesasthe
+trueactivephase;itscomposition(oxidesofNi,Co,V,andTi)andsynergisticinteractions
+provideoptimizedactivesites.Inparticular,high-valencemetalions(Ni3+/4+,Co3+/4+)are
+keyforadsorbingoxygenatedintermediates(OH,O,*OOH)anddrivingthereaction[51],
+whilethepresenceofoxygenvacanciesfurtheradjuststheintermediateadsorptionenergies
+andmaypromotechargetransfer[52]. Theporousstructuresignificantlyincreasestheelec-
+trochemicallyactivesurfacearea,exposingmorepotentialactivesites. Itsinterconnected
+porenetworkeffectivelyfacilitatesthetransportofOH− reactantstotheactivesitesand
+therapiddetachmentofO bubbles,markedlyreducingtheconcentrationpolarizationand
+2
+bubblecoverageeffects,therebysustainingthereactionkineticsathighcurrentdensities.
+The tight integration of the in situ formed, structurally stable porous scaffold with the
+surface-activeoxidelayerconstructsahighlyefficientanddurableelectrocatalyticinterface,
+enabling the material to maintain high catalytic activity and structural stability during
+long-termOERoperation.
+
+Materials2025,18,4015 14of17
+Figure7. Microstructure, elementaldistribution, andphasecompositionofsamplesaftera48h
+stabilitytest:(a–d)SEMimagesof(a)as-castsample,(b)600◦Csample,(c)800◦Csample,(d)1000◦C
+sample,(e)elementaldistributionmaps,and(f)XRDpattern.
+4. Conclusions
+(1). As the heat treatment temperature increased, the fraction of the FCC phase
+firstincreasedandthendecreased. Heattreatmentat800◦CformedanFCC-dominated
+dual-phasestructure,andheattreatmenteffectivelyenhancedthecorrosionresistanceof
+thealloy.
+(2). Dealloying at 80 ◦C produces a uniform porous structure with pore sizes of
+50–100µm,whichincreasestheactivesurfaceareaandsignificantlyimprovestheelectro-
+catalyticactivityandstabilityofthecatalyst.
+(3).Electrochemicaltestsshowedthatthesampleheat-treatedat800◦CachievedanOER
+overpotentialofonly265mV,exhibitingexcellentperformanceunderalkalineconditions.
+
+Materials2025,18,4015 15of17
+(4). After a 48 h constant-potential stability test, the surface of the 800 ◦C sample
+containedabundantCoandNioxides,andthehigh-valencemetalionseffectivelypromoted
+oxygenadsorption.
+Thisstudyprovidesanovelapproachforthemicrostructuraldesignofhigh-entropy
+alloys. Thecombinedprocessingstrategycanbeextendedtoothernon-preciousmetal
+electrocatalyst systems, promoting the practical application of high-entropy alloys in
+energyconversion.
+SupplementaryMaterials: Thefollowingsupportinginformationcanbedownloadedat: https:
+//www.mdpi.com/article/10.3390/ma18174015/s1,FigureS1:originalcompletecurves(a)HER;
+(b)OER;FigureS2:themulti-scanCVcurves:(a)as-cast;(b)600◦Csample;(c)800◦Csample;and
+(d)1000◦Csample.
+AuthorContributions:Conceptualization,Y.Z.;methodology,M.S.;software,M.S.;validation,M.S.,
+Z.Y.andS.L.;formalanalysis,Z.Y.;investigation,Y.C.;resources,Y.C.;datacuration,M.S.;writing—
+originaldraftpreparation,M.S.;writing—reviewandediting,Y.C.;visualization,Z.Y.;supervision,
+S.L.;projectadministration,Y.C.;fundingacquisition,Y.C.andY.Z.Allauthorshavereadandagreed
+tothepublishedversionofthemanuscript.
+Funding: ThisresearchwasfundedbytheNationalNaturalScienceFoundationofChina,grant
+number52205409.AndtheAPCwasfundedbytheNationalNaturalScienceFoundationofChina.
+InstitutionalReviewBoardStatement:Notapplicable.
+InformedConsentStatement:Notapplicable.
+DataAvailabilityStatement:Theoriginalcontributionspresentedinthisstudyareincludedinthe
+article/SupplementaryMaterials.Furtherinquiriescanbedirectedtothecorrespondingauthors.
+Acknowledgments:TheauthorsthankTianjinUniversityofTechnologyforprovidingtheexperi-
+mentalsite.
+ConflictsofInterest:Theauthorsdeclarenoconflictofinterest.
+References
+1. Hong,W.T.;Risch,M.;Stoerzinger,K.A.;Grimaud,A.;Suntivich,J.;Shao-Horn,Y.TowardtheRationalDesignofNon-Precious
+TransitionMetalOxidesforOxygenElectrocatalysis.EnergyEnviron.Sci.2015,8,1404–1427.[CrossRef]
+2. Chen, D.; Chen, C.; Baiyee, Z.M.; Shao, Z.; Ciucci, F.NonstoichiometricOxidesasLow-CostandHighly-EfficientOxygen
+Reduction/EvolutionCatalystsforLow-TemperatureElectrochemicalDevices. Chem. Rev. 2015,115,9869–9921. [CrossRef]
+[PubMed]
+3. Lee,J.E.;Jeon,K.-J.;Show,P.L.;Lee,I.H.;Jung,S.-C.;Choi,Y.J.;Rhee,G.H.;Lin,K.-Y.A.;Park,Y.-K.MiniReviewonH2Production
+fromElectrochemicalWaterSplittingAccordingtoSpecialNanostructuredMorphologyofElectrocatalysts.Fuel2022,308,122048.
+[CrossRef]
+4. Saad, A.; Liu, D.; Wu, Y.; Song, Z.; Li, Y.; Najam, T.; Zong, K.; Tsiakaras, P.; Cai, X.AgNanoparticlesModifiedCrumpled
+BoropheneSupportedCo O CatalystShowingSuperiorOxygenEvolutionReaction(OER)Performance.Appl.Catal.BEnviron.
+3 4
+2021,298,120529.[CrossRef]
+5. Ahmad, A.; Nairan, A.; Feng, Z.; Zheng, R.; Bai, Y.; Khan, U.; Gao, J. Unlocking the Potential of High Entropy Alloys in
+ElectrochemicalWaterSplitting:AReview.Small2024,20,2311929.[CrossRef]
+6. Wang, Z.; Liu, P.; Han, J.; Cheng, C.; Ning, S.; Hirata, A.; Fujita, T.; Chen, M. Engineering the Internal Surfaces of Three-
+DimensionalNanoporousCatalystsbySurfactant-ModifiedDealloying.Nat.Commun.2017,8,1066.[CrossRef]
+7. Li,M.;Duanmu,K.;Wan,C.;Cheng,T.;Zhang,L.;Dai,S.;Chen,W.;Zhao,Z.;Li,P.;Fei,H.;etal. Single-AtomTailoringof
+PlatinumNanocatalystsforHigh-PerformanceMultifunctionalElectrocatalysis.Nat.Catal.2019,2,495–503.[CrossRef]
+8. Forty,A.J.CorrosionMicromorphologyofNobleMetalAlloysandDepletionGilding.Nature1979,282,597–598.[CrossRef]
+9. Lu,Q.;Hutchings,G.S.;Yu,W.;Zhou,Y.;Forest,R.V.;Tao,R.;Rosen,J.;Yonemoto,B.T.;Cao,Z.;Zheng,H.;etal.HighlyPorous
+Non-PreciousBimetallicElectrocatalystsforEfficientHydrogenEvolution.Nat.Commun.2015,6,6567.[CrossRef]
+10. Dong,C.;Kou,T.;Gao,H.;Peng,Z.;Zhang,Z.Eutectic-DerivedMesoporousNi-Fe-ONanowireNetworkCatalyzingOxygen
+EvolutionandOverallWaterSplitting.Adv.EnergyMater.2018,8,1701347.[CrossRef]
+
+Materials2025,18,4015 16of17
+11. Li,M.;Lin,F.;Zhang,S.;Zhao,R.;Tao,L.;Li,L.;Li,J.;Zeng,L.;Luo,M.;Guo,S.High-EntropyAlloyElectrocatalystsGoto
+(Sub-)Nanoscale.Sci.Adv.2024,10,eadn2877.[CrossRef][PubMed]
+12. Yeh,J.W.;Chen,S.K.;Lin,S.J.;Gan,J.Y.;Chin,T.S.;Shun,T.T.;Tsau,C.H.;Chang,S.Y.NanostructuredHigh-EntropyAlloyswith
+MultiplePrincipalElements:NovelAlloyDesignConceptsandOutcomes.Adv.Eng.Mater.2004,6,299–303.[CrossRef]
+13. Cantor,B.;Chang,I.T.H.;Knight,P.;Vincent,A.J.B.MicrostructuralDevelopmentinEquiatomicMulticomponentAlloys.Mater.
+Sci.Eng.A-Struct.Mater.Prop.Microstruct.Process.2004,375,213–218.[CrossRef]
+14. Miracle,D.B.;Senkov,O.N.ACriticalReviewofHighEntropyAlloysandRelatedConcepts. ActaMater. 2017,122,448–511.
+[CrossRef]
+15. Zhang,Y.;Zuo,T.T.;Tang,Z.;Gao,M.C.;Dahmen,K.A.;Liaw,P.K.;Lu,Z.P.Microstructuresandpropertiesofhigh-entropyalloys.
+Prog.Mater.Sci.2014,61,1–93.[CrossRef]
+16. Zhen, P.; Jian, S.; Luan, H.W.; Na, C.; Yao, K.F. Effect of Mo on the high temperature oxidation behavior of
+Al 19 Fe 20−x Co 20−x Ni 41 Mo 2x highentropyalloys.Intermetallics2023,155,107845.[CrossRef]
+17. Zhu,H.;Zhu,Z.;Hao,J.;Sun,S.;Lu,S.;Wang,C.;Ma,P.;Dong,W.;Du,M.High-EntropyAlloyStabilizedActiveIrforHighly
+EfficientAcidicOxygenEvolution.Chem.Eng.J.2022,431,133251.[CrossRef]
+18. Louis,M.P.;Peter,F.AsynthesisoftheBrewer-EngelandSamsonov-Pryadko-Pryadkoelectroncorrelationsformetals.J.Solid
+StateChem.1979,27,239–253.[CrossRef]
+19. Lin,Y.;Xu,W.;Gao,Z.;Liang,Y.;Jiang,H.;Li,Z.;Wu,S.;Cui,Z.;Sun,H.;Zhang,H.;etal. Self-SupportingHigh-Entropy
+Co-Cr-Fe-Ni-NbOxideElectrocatalystwithNanoporousStructureforOxygenEvolutionReaction.Chem.Eng.J.2024,489,151233.
+[CrossRef]
+20. Chongjun,Z.;Wenlei,C.;Nan,S.;Shi,C.;Wenbin,J.;Chunhua,Z.Facilepreparationofporoushigh-entropyalloyFeCoNiCuMn
+anditsOERperformance.J.Phys.Chem.Solids2024,184,111668.[CrossRef]
+21. Zhu,J.;Bian,P.;Sun,G.;Zhang,J.;Lou,G.;Song,X.;Zhao,R.;Liu,J.;Xu,N.;Li,A.;etal.PracticalHigh-VoltageLithiumMetal
+BatteriesEnabledbytheIn-SituFabricationofMain-ChainFluorinatedPolymerElectrolytes. Angew. Chem. Int. Ed. 2025,64,
+e202424685.[CrossRef]
+22. Wang,C.;Zhao,S.;Han,G.;Bian,H.;Zhao,X.;Wang,L.;Xie,G.HierarchicalPorousNonpreciousHigh-entropyAlloysfor
+UltralowOverpotentialinHydrogenEvolutionReaction.SmallMethods2024,8,2301691.[CrossRef]
+23. Huang, K.; Xia, J.; Lu, Y.; Zhang, B.; Shi, W.; Cao, X.; Zhang, X.; Woods, L.M.; Han, C.; Chen, C.; etal. Self-Reconstructed
+SpinelSurfaceStructureEnablingtheLong-TermStableHydrogenEvolutionReaction/OxygenEvolutionReactionEfficiencyof
+FeCoNiRuHigh-EntropyAlloyedElectrocatalyst.Adv.Sci.2023,10,2300094.[CrossRef][PubMed]
+24. Lu,F.;Zong,L.;Zhang,G.;Li,P.;Fan,K.;Jiang,S.;Chen,X.;Liu,P.;Wang,L.UltrafinehighentropyalloyswithRuactivatedsites
+forhighlydurableandindustrialgradeelectrocatalyticwatersplitting.Compos.PartBEng.2025,301,112501.[CrossRef]
+25. Lu, Y.; Dong, Y.; Guo, S.; Jiang, L.; Kang, H.; Wang, T.; Wen, B.; Wang, Z.; Jie, J.; Cao, Z.; etal. APromisingNewClassof
+High-TemperatureAlloys:EutecticHigh-EntropyAlloys.Sci.Rep.2014,4,6200.[CrossRef][PubMed]
+26. Shi, H.; Zhou, Y.T.; Yao, R.Q.; Wan, W.B.; Zhang, Q.H.; Gu, L.; Wen, Z.; Lang, X.Y.; Jiang, Q.IntermetallicCu5ZrClusters
+AnchoredonHierarchicalNanoporousCopperasEfficientCatalystsforHydrogenEvolutionReaction. Research2020,2020,
+2987234.[CrossRef]
+27. Luo, M.; Peng, W.; Zhao, Y.; Lan, J.; Peng, M.; Han, J.; Li, H.; Tan, Y.Dilutemolybdenumatomsembeddedinhierarchical
+nanoporouscopperacceleratethehydrogenevolutionreaction.Scr.Mater.2021,191,56–61.[CrossRef]
+28. Chen,Q.;Han,X.;Xu,Z.;Chen,Q.;Wu,Q.;Zheng,T.;Wang,P.;Wang,Z.;Wang,J.;Li,H.;etal.Atomicphosphorusinduces
+tunablelatticestraininhighentropyalloysandboostsalkalinewatersplitting.NanoEnergy.2023,110,108380.[CrossRef]
+29. Zhang,Q.;Guo,Q.;Zhang,Y.;He,Y.;Gong,W.;Liu,W.;Liu,X.;Li,R.ArchitectingGradientHierarchicallyPorousCatalystvia
+NegativeMixingEnthalpyHigh-EntropyAlloyforDurableWaterSplittingatAmpere-LevelCurrentDensity.Adv.Funct.Mater.
+2025,35,2414446.[CrossRef]
+30. Yao,R.Q.;Zhou,Y.T.;Shi,H.;Wan,W.B.;Zhang,Q.H.;Gu,L.;Zhu,Y.F.;Wen,Z.;Lang,X.Y.;Jiang,Q.NanoporousSurface
+High-EntropyAlloysasHighlyEfficientMultisiteElectrocatalystsforNonacidicHydrogenEvolutionReaction.Adv.Funct.Mater.
+2021,31,200961.[CrossRef]
+31. Li,R.;Liu,X.J.;Wang,H.;Zhou,D.Q.;Wu,Y.;Lu,Z.P.Formationmechanismandcharacterizationofnanoporoussilverwith
+tunableporosityandpromisingcapacitiveperformancebychemicaldealloyingofglassyprecursor.ActaMater.2016,105,367–377.
+[CrossRef]
+32. Munitz,A.;Salhov,S.;Hayun,S.;Frage,N.Heattreatmentimpactsthemicro-structureandmechanicalpropertiesofAlCoCrFeNi
+highentropyalloy.J.AlloysCompd.2016,683,221–230.[CrossRef]
+33. Zahra,Z.;Milad,Z.;Amir,M.;Saeed,S.;Mahesh,S.Effectofheattreatmentregimeonmicrostructureandphaseevolutionof
+AlMo0.5NbTa0.5TiZrrefractoryhighentropyalloy.J.AlloysCompd.2023,949,169818.[CrossRef]
+34. Li, Y.; Yang, Z.; Duan, H.; Ma, Z.; Wu, C.; Bai, Y.; Sun, C.; Wang, P.; Li, J. Microstructure and mechanical properties of
+Al0.4Co0.5V0.6FeNihigh-entropyalloysprocessedbyhomogenizationtreatment.Intermetallics2023,159,107941.[CrossRef]
+
+Materials2025,18,4015 17of17
+35. Sun,H.;Liu,T.;Hashimoto,N.;Oka,H.EffectsofvacuumheattreatmentonnovelCo-freeAl Cr FeMn Ni eutectichigh
+0.9 0.8 0.8 2.0
+entropyalloy:Microstructureevolutionandmechanicalproperties.Vacuum2024,222,113038.[CrossRef]
+36. Zhang, G.; Ming, K.; Kang, J.; Huang, Q.; Zhang, Z.; Zheng, X.; Bi, X. High entropy alloy as a highly active and stable
+electrocatalystforhydrogenevolutionreaction.Electrochim.Acta2018,279,19–23.[CrossRef]
+37. Gao,Y.;Han,J.;Ge,F.;Zhang,X.;Cai,Y.;Cui,Y.Designofeutectichigh-entropyalloysintheCo-Cr-Ni-V-Ti-Alsystemusing
+Scheilsolidificationpathoptimization.J.AlloysCompd.2024,1002,175327.[CrossRef]
+38. Chen,X.;Xie,W.;Zhu,J.;Wang,Z.;Wang,Y.;Ma,Y.;Yang,M.;Jiang,W.;Yu,H.;Wu,Y.;etal.InfluencesofTiadditionsonthe
+microstructureandtensilepropertiesofAlCoCrFeNi2.1eutectichighentropyalloy.Intermetallics2021,128,107024.[CrossRef]
+39. He,J.Y.;Liu,W.H.;Wang,H.;Wu,Y.;Liu,X.J.;Nieh,T.G.;Lu,Z.P.EffectsofAladditiononstructuralevolutionandtensile
+propertiesoftheFeCoNiCrMnhigh-entropyalloysystem.ActaMater.2014,62,105–113.[CrossRef]
+40. Yan, P.X.; Chang, J.; Wang, W.L.; Zhu, X.N.; Lin, M.J.; Wei, B.J.A.M. Eutectic growth kinetics and microscopic mechanical
+propertiesofrapidlysolidifiedCoCrFeNiMo0.8highentropyalloy.ActaMater.2022,237,118149.[CrossRef]
+41. Kyoungdoc,K.;Peter,W.V.Ostwaldripeningofspheroidalparticlesinmulticomponentalloys.ActaMater.2018,152,327–337.
+[CrossRef]
+42. Zhao,L.;Zhisong,C.;Lingyu,W.;Zhou,W.;Qi,L.;Jianfeng,W.;Wei,X.EffectofCronhigh-temperatureoxidationresistanceof
+Cr–Si–Mnalloyedpress-hardenedsteelduringpresshardening.J.Mater.Res.Technol.2024,32,1552–1564.[CrossRef]
+43. Zhang,Y.;Li,J.;Wang,J.;Wang,W.Y.;Kou,H.;Beaugnon,E.TemperaturedependentdeformationmechanismsofAl CoCrFeNi
+0.3
+high-entropyalloy,startingfromserratedflowbehavior.J.AlloysCompd.2018,757,39–43.[CrossRef]
+44. Song,L.;Hu,W.;Liao,B.;Wan,S.;Guo,X.CorrosionbehaviorofAlCoCrFeNi eutectichigh-entropyalloyinCl--containing
+2.1
+solution.J.AlloysCompd.2023,938,168609.[CrossRef]
+45. Qi,L.;Guan,J.Electronicstructuremodulationofhighentropymaterialsforadvancedelectrocatalysis.GreenEnergyEnviron.
+2025,10,917–936.[CrossRef]
+46. Munzir,S.;Abdullah,A.G.;Turki,B.Q.D.;Mohd,R.Z.Y.;Mohammad,Q.Growthofultrathinnanosheetsofnickelironlayered
+doublehydroxidefortheoxygenevolutionreaction.Int.J.HydrogenEnergy2022,47,23498–23507.[CrossRef]
+47. Rokhsareh,A.;Ghasem,B.D.InterfacialsurfaceengineeringofCo-Mn-PultrathinnanosheetsonNi-Cohierarchicalnanostructure
+forboostingelectrochemicalactivesitesinoverallwatersplitting.J.PowerSources2025,641,236840.[CrossRef]
+48. Zhu,X.;Huang,W.;Lou,Y.;Yao,Z.;Ying,H.;Dong,M.;Tan,L.;Zeng,J.;Ji,H.;Zhu,H.;etal.Ultrafastjoule-heatingsynthesisof
+FeCoMnCuAlhigh-entropy-alloynanoparticlesasefficientOERelectrocatalysts. Prog. Nat. Sci. Mater. Int. 2024,34,880–887.
+[CrossRef]
+49. Li,Z.;Liu,M.;Yan,J.;Lee,L.Y.S.A“doping–interfacing”StrategyEnablesEfficientAlkalineFreshwaterandSeawaterOxidation
+byNiFe-layeredDoubleHydroxides.Chem.Eng.J.2023,473,145293.[CrossRef]
+50. Abdul,H.;Muhammad,Y.S.;Muhammad,N.L.;Abdulaziz,A.;Muhammad,A.S.;Abdul,J.L.;Imtiaz,A.S.;Muhammad,I.A.;
+Mukesh,K.;Umair,A.CoSe @Co O nanostructures:Apromisingcatalystforoxygenevolutionreactioninalkalinemedia.Catal.
+2 3 4
+Commun.2024,186,106830,ISSN1566-7367.[CrossRef]
+51. Frydendal,R.;Paoli,E.A.;Knudsen,B.P.;Wickman,B.;Malacrida,P.;Stephens,I.E.L.;Chorkendorff,I.BenchmarkingtheStability
+ofOxygenEvolutionReactionCatalysts: TheImportanceofMonitoringMassLosses. ChemElectroChem2014, 1, 2075–2081.
+[CrossRef]
+52. Cheng,F.;Zhang,T.;Zhang,Y.;Du,J.;Han,X.;Chen,J.EnhancingElectrocatalyticOxygenReductiononMnO withVacancies.
+2
+Angew.Chem.Int.Ed.2013,52,2474–2477.[CrossRef][PubMed]
+Disclaimer/Publisher’sNote: Thestatements, opinionsanddatacontainedinallpublicationsaresolelythoseoftheindividual
+author(s)andcontributor(s)andnotofMDPIand/ortheeditor(s).MDPIand/ortheeditor(s)disclaimresponsibilityforanyinjuryto
+peopleorpropertyresultingfromanyideas,methods,instructionsorproductsreferredtointhecontent.
+

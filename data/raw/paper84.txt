@@ -1,0 +1,1220 @@
+Review
+High-Entropy Alloys and Their Derived Compounds as
+Electrocatalysts: Understanding, Preparation and Application
+XianjieYuan1,*,XiangdiYin1,YiruiZhang2andYuanpanChen1
+1 SchoolofMechanicalEngineering,NorthChinaUniversityofWaterResourcesandElectricPower,
+Zhengzhou450045,China;17504341325@163.com(X.Y.);c1827892921@163.com(Y.C.)
+2 SmartManufacturingInstitute,ZhengzhouUniversityofEconomicsandBusiness,2ShuanghuAve,
+Zhengzhou451191,China;18860371233@163.com
+* Correspondence:xjyuan@ncwu.edu.cn;Tel.:+86-0371-6912-7259
+Abstract
+High-entropyalloy(HEA)catalystshaveattractedsignificantattentionfromresearchers.
+In many cases, HEAs exhibit high activity and selectivity for catalytic reactions due to
+four“coreeffects”: highentropyeffect,latticedistortioneffect,slowdiffusioneffect,and
+mixingeffect. However,asystematicsummaryofHEAcatalystdesignandunderstanding
+islacking. Inthisreview,thereasonsfortheoutstandingperformanceofHEAcatalystsare
+firstdiscussedfrommultipleperspectives,suchasexcellentmechanicalproperties,ultra-
+high-performancestability,andthepotentialforcompositionaloptimization. Furthermore,
+to deepen our understanding of HEA catalysts, the rational design of HEA catalysts is
+introduced,coveringdesignprinciples,elementselection,andtheuseofalgorithmsfor
+prediction.Next,severalcommonpreparationmethodsforHEAsareintroduced,including
+chemicalco-reduction,solutioncombustion,mechanicalalloying,andsol–gelmethods.
+Finally,theresearchprogressofHEAcatalystsinhydrogenevolutionreactions,oxygen
+evolutionreactions,andoxygenreductionreactionsispresented. Unlikeexistingreviews,
+thisworkestablishesaunifiedframeworkconnectingHEAfundamentals(entropyeffects),
+computational design, scalable synthesis, and application-specific performance, while
+identifyingunderexploredpathwayslikelattice-oxygen-mediatedmechanisms(LOM)for
+futureresearch.
+AcademicEditor:VlassiosLikodimos
+Keywords: high-entropyalloys;catalyst;rationaldesign;preparation;application
+Received:1August2025
+Revised:14August2025
+Accepted:22August2025
+Published:27August2025
+1. Introduction
+Citation: Yuan,X.;Yin,X.;Zhang,Y.;
+Chen,Y.High-EntropyAlloysand Intoday’ssociety,withtheadvancementoftechnology,energyisanindispensable
+TheirDerivedCompoundsas partofdevelopment[1]. However,alongwithdevelopmentcomestheincreasingscarcity
+Electrocatalysts:Understanding, oftraditionalnon-renewableenergysources,suchasfossilfuels,aswellasthegreenhouse
+PreparationandApplication.Materials
+effect and environmental pollution caused by their excessive use. Therefore, humanity
+2025,18,4021. https://doi.org/
+is eager to find alternative green and eco-friendly energy sources to replace traditional
+10.3390/ma18174021
+non-renewableones. Asaresult,electricity,asacleanenergysource,hascomeintohuman
+Copyright:©2025bytheauthors.
+focusandisregardedasthecoredrivingforceofthemodernindustrialsystem[2]. Specif-
+LicenseeMDPI,Basel,Switzerland.
+ically, electricity can be produced through diverse and ecologically friendly pathways,
+Thisarticleisanopenaccessarticle
+distributedunderthetermsand such as wind power, hydropower, photovoltaic power generation, and nuclear energy
+conditionsoftheCreativeCommons conversion[3]. Notably,theapplicationscenariosofelectricityalreadycovernumerous
+Attribution(CCBY)license fieldsincludinglightingsystems,chemicalproduction,textileindustry,andinformation
+(https://creativecommons.org/
+transmission. Inthefieldofcleanenergyconversiontechnologies,recentresearchconfirms
+licenses/by/4.0/).
+Materials2025,18,4021 https://doi.org/10.3390/ma18174021
+
+Materials2025,18,4021 2of27
+thatelectrochemicallydrivenenergycanparticipateinvariousimportantreactionsystems,
+includingbutnotlimitedto: waterelectrolysisforhydrogenproduction[4],whichutilizes
+electricitytosplitwaterintohydrogenandoxygen,producinggreenhydrogen(H )asa
+2
+cleanfuelorindustrialrawmaterial,achievingzerocarbonemissionswhencombinedwith
+renewableenergysources(suchaswindandsolar)[5];electrochemicalCO reductionreac-
+2
+tion(CO RR)[6],whichconvertsCO intohigh-value-addedchemicals(suchasCO,formic
+2 2
+acid,methane,ethylene,etc.),reducinggreenhousegasemissionswhilesynthesizingfuels
+orchemicalfeedstocks[7];electrochemicalammoniasynthesis(NRR)[8],whichutilizes
+electricity to convert nitrogen gas (N ) and water into ammonia (NH ) under ambient
+2 3
+temperatureandpressure,replacingthetraditionalhigh-energy-consumptionHaber–Bosch
+processtoachievegreenammoniaproduction(usedforfertilizersorhydrogencarriers);
+andmetal–airbatteries(e.g.,zinc–airbatteries),characterizedbyexceptionalenergyden-
+sity (>400 Wh kg−1), enabling their deployment in electric transportation systems and
+large-scalestationarygridstorageapplications. Catalystsfunctionbyloweringreaction
+energybarriers,enhancingkinetics,andsteeringreactionpathways,therebyoptimizing
+energyutilizationefficiencyandproductdistributionselectivitybeyondthermodynamic
+constraints [9]. The following presents the application prospects of electrocatalysis as
+showninTable1.
+Table1.Applicationscenariosofelectrocatalysts.
+ReactionType CatalystExamples TargetFunction Reference
+EfficientH
+WaterElectrolysis Pt,MoS ,Ni-Mo 2
+2 Production,Lower [10]
+forH Production Alloy
+2 Overpotential
+Selective
+CuNanowires,Ag GenerationofCO,
+CO Reduction
+2 Nanoparticles CH ,orC +
+4 2
+Products
+EnhanceFuelCell
+OxygenReduction Pt-CoAlloy, Efficiency,Reduce
+[11]
+Reaction Fe-N-CMaterials PreciousMetal
+Usage
+AccelerateWater
+OxygenEvolution Splitting,Extend
+IrO ,NiFe-LDH
+Reaction 2 Electrolyzer
+Lifespan
+ActivateN to
+2
+NitrogenReduction GenerateNH at
+Ru-BasedMaterials, 3
+forAmmonia Ambient [12]
+BiNanosheets
+Synthesis Temperatureand
+Pressure
+Currently,manyresearchersareengagedindesigningelectrocatalystswithexcellent
+activity,lowcost,andhighstability[13–15]. Commonelectrocatalystsincludeprecious
+metal-based catalysts [16,17], transition metal-based catalysts [18], carbon-based cata-
+lysts[19],MOFs/COFs[20],single-atomcatalysts[21],andnon-metalliccatalysts,each
+withdistinctadvantagesanddisadvantages[22],aslistedinTable2,whichcomparesthe
+pros,cons,andapplicationscenariosofthesesixcatalysttypes.
+
+Materials2025,18,4021 3of27
+Table2.ComparisonofCommonCatalysts.
+CatalystType Advantages Disadvantages TypicalApplications
+Ultra-highActivity,
+Precious Cost,Resource FuelCells,Water
+GoodStability
+Metal-Based Scarcity Electrolysis
+High
+Transition LowCost,High LowerActivity, AlkalineWater
+Metal-Based Tunability PoorStability Electrolysis,CO RR
+2
+HighSpecific
+PoorConductivity,
+SurfaceArea,
+MOFs/COFs Insufficient CO RR,OER
+Designable 2
+Stability
+Structure
+GoodConductivity, Dependenceon
+Carbon-Based ORR,Metal–Air
+Environmentally Doping,Structure
+Materials Batteries
+Friendly PronetoCollapse
+HighAtom
+Single-Atom ComplexSynthesis, High-Selectivity
+Utilization,
+Catalysts EasyDeactivation Reactions(e.g.,NRR)
+ExcellentSelectivity
+LowActivity,
+Non-Metallic Metal-Free, Photo/Electrocatalytic
+Narrow
+Catalysts CorrosionResistant WaterSplitting
+Applicability
+Pioneering research by Yeh et al. in 2004 established the foundational paradigm
+ofhigh-entropyalloys[23]. Thismaterialsinnovationtranscendsconventionalalloyde-
+signframeworksthroughconfigurationalentropystabilization,enablingunprecedented
+compositionalspaceexploration. Theirdefiningfeatureresidesinsingle-phasesolidso-
+lutionsstabilizedbyconfigurationalentropy,comprising≥5principalconstituentswith
+equimolar/near-equimolarstoichiometry(eachelementatomicpercentagebetween5and
+35%)[24]. Unliketraditionalalloysdesignedwith1–2primaryelements,HEAsachieve
+uniformmixingofmultipleelementsandhighlydisorderedatomicarrangements. These
+alloyspredominantlyformentropy-stabilizedsingle-phasestructureswithhigh-symmetry
+crystallographicmotifs(FCC,BCC,orHCP),effectivelysuppressingtheformationofin-
+tricateintermetalliccompoundsandamorphousphasesthroughentropicselection. This
+characteristicsignificantlyenhancesthecomprehensivepropertiesofthematerial[25]. Fur-
+thermore,HEAshavebecomearesearchhotspotinmaterialsscienceduetotheirunique
+“fourcoreeffects”[26]. High-entropyalloycatalystsexhibitultra-highactivityandstabil-
+ityinmanyreactions, includinghydrogenevolutionreaction[27,28], oxygenevolution
+reaction[29],oxygenreductionreaction[30],carbondioxidereductionreaction,nitrogen
+reductionreaction[31,32],methanoloxidationreaction[33],ethanoloxidationreaction[34],
+glyceroloxidationreaction[35],etc. Tounderstandtheunderlyingprinciplesofthesereac-
+tions,explorewhyhigh-entropyalloyscanserveasexcellentcatalysts,andcomprehend
+howtofabricateordesignstable,high-performanceHEAcatalysts,thispaperprovides
+acomprehensivereviewbasedonrecentreportsandpublicationsontheunderstanding,
+fabrication,andapplicationofHEAsassuperiorcatalysts. Whilepriorreviewsfocuson
+HEAsynthesisorspecificapplications(e.g.,HERorOER),asystematicanalysislinking
+the‘fourcoreeffects’ofHEAstoelectrocatalyticmechanisms,rationaldesignalgorithms
+(e.g.,ML/DFT),andindustrial-scalabilitychallengesofpreparationmethodsislacking.
+ThefollowingFigure1intuitivelyintroducesthecoreroleofhigh-entropyalloys.
+
+Materials2025,18,4021 4of27
+Figure1.Thecoreeffectsofhigh-entropyalloys(HEAs).
+2. FundamentalPrinciplesofHEACatalysts
+2.1. SuperiorCatalyticPerformanceofHEAs
+Inthefieldofcatalysisresearch,researchershavelongbeendedicatedtodeveloping
+high-activityandhigh-stabilitycatalysts.Duetothe“fourcoreeffects”andtheirrecognition
+asexcellentheterogeneouscatalystcandidates,thissectionwillexplainthereasonsforthe
+superiorcatalyticperformanceofHEAs.
+2.1.1. OutstandingMechanicalProperties
+HEAcatalystsexhibitexceptionalmechanicalpropertiesowingtotheiruniquemulti-
+elementsynergisticeffectsandhigh-entropyeffect. Forinstance,multi-elementalloyslike
+FeCoNiCrMn,aftersurfacemodification,canformnanostructureswithhigh-densityactive
+sites, significantly enhancing their catalytic efficiency in the oxygen evolution reaction
+andhydrogenevolutionreaction,withoverpotentialsaslowas22mV(in0.5MH SO at
+2 4
+25◦C)[36]. Themulti-componentnatureendowsHEAswithhighstrengthandductility
+duringdeformation. Forexample, theCoCrFeNialloymaintainsgoodtoughnesseven
+atlowtemperatures,withafracturetoughnessexceeding200MPa·m1/2,farhigherthan
+traditionalalloys[37]. Inthecatalyticfield,theactualperformanceandeffectivenessofcat-
+alystsareinseparablefromtheirmechanicalstrengthparameters. Theseparameters,such
+ascompressivestrength(typicallyrequiring80–150N/cm2or̸<120N/particlestandards),
+attritionrate,andparticleshapeandsize(attritionrateneedstomeetindustrystandards,
+generally≤3.0%;bulkfractureneedsextraattentioninhigh-temperaturefluidizedenvi-
+ronments;particleshapepreferablyring-shapedortrefoilforlowpressuredropandhigh
+specificsurfacearea;particlesizedistributionwidth(PDI(particledispersionindex)<0.2)
+shouldbestrictlycontrolled,withfixedbedspreferring3–8mmandfluidizedbedsfocus-
+ingon50–100µm),arekeyindicatorsformeasuringcatalyticactivity. Incatalystsystems,
+practicalperformanceiscloselyrelatedtomechanicalstrengthparameters,whichserve
+askeyindicatorsofcatalyticactivity. Understandingtheseparametersenablesanalysisof
+catalystbehaviorandoperatingconditions,makingthemessentialforoptimizedcatalyst
+designandapplication.
+2.1.2. Ultra-High-PerformanceStability
+Equallyimportant,HEAstypicallypossessultra-highstabilityinhigh-temperature
+and corrosive media, primarily attributed to their sluggish diffusion effect. For exam-
+ple,addingelementslikeNbandTi,asintheFeCoCrNiMnNb alloy,canfurtherrefine
+2
+
+Materials2025,18,4021 5of27
+grainsandacceleratetheformationofpassivationfilms,therebyenhancingcorrosionre-
+sistance[38]. Inextremecorrosiveenvironments,suchashigh-temperaturesaltsolutions
+oracidicmedia,HEAsmaintainstablecorrosionresistanceinextremeenvironmentsdue
+tohighconfigurationalentropyand“cocktaileffect”,makingthemateriallessproneto
+micro-galvaniccorrosionincomplexenvironments. Incatalysis,HEAnanocatalystsform
+abilayernanostructureonthesurface,notonlyimprovingthecatalyticactivityforOER
+butalsopossessingadynamiccompensationmechanismensuringlong-termstability. In
+termsofmechanicalproperties,HEAscombinehighstrength,highhardness,andgood
+ductility. For instance, the CoCrFeNi alloy maintains excellent creep resistance at high
+temperatures,withsignificantlyhigheryieldstrengthandultimatestrengththantraditional
+alloys [39]. This ultra-high stability enables high-entropy alloys to be applied in harsh
+catalyticreactionsunderreal-worldconditions.
+2.1.3. OptimizableCompositionandStructure
+Traditionalbinaryandternaryalloyshavelimitedcontinuousadjustabilityoftheir
+composition. Incontrast,HEAswithfourormoreelementsallowforcontinuoustuning
+andmodificationoftheircompositionandstructure. Throughtheseflexibleadjustments,
+thecatalyticactivityofHEAscanbefinelytunedwithease. Thevastcompositionalspace
+ofmulti-componentHEAsprovidesnumerouspossibilitiesfordesigningHEAcatalysts.
+Fromacompositionalperspective,thepreciseregulationofthed-bandcenterthrough
+multi-elementsynergyisthecoremechanismforoptimizingtheelectronicstructure. The
+positionofthed-bandcenteroftransitionmetalsdirectlyaffectstheadsorptionstrengthof
+reactionintermediates: anupwardshiftenhancesadsorptionenergy,whileadownward
+shiftweakensit[40]. HEAsachievecontinuoustunabilityofthed-bandcenterthrough
+electrontransferbetweenmulti-componentelements(e.g.,highworkfunctionelements
+Pt/NiwithlowworkfunctionelementsFe/Co/Cu). Forexample: Tianetal. demonstrated
+through a series of HEA catalysts (FeCoNiMn > PtIr > FeCoNiMnPtIr, etc.) that the d-
+bandcenterexhibitsavolcano-typerelationshipwithcatalyticactivityinlithium-oxygen
+batteries(LOB);amoderated-bandcenteroptimizesLiO adsorptionenergy,yieldingthe
+2
+lowestoverpotential[41]. Densityfunctionaltheorycalculationsfurtherrevealedthatthe
+d-bandcenterofAu Ir HEAshiftsdownby0.5eVcomparedtopurePt,reducingthe
+0.5 0.5
+adsorptionenergyofoxygenintermediatesby0.2eV,enhancingoxygenreductionreaction
+activity. Inammoniasynthesis,thePt Fe Co Ni Cu intermetalliccompound,with
+0.8 0.2 0.2 0.2 0.2
+a d-band centerat −2.24 eV, lowers the dissociationenergy ofthe N-H bond, resulting
+inanenergybarrierofonly0.23eVfortheNO→NOHstep,farsuperiortosingle-metal
+catalysts[42]. Machinelearning-assistedmulti-objectiveoptimizationcanefficientlyscreen
+d-bandcenterpositions,predictingadsorptionenthalpieswitherrors<0.16eV,highlighting
+thetrendtowardsintelligentcompositionaldesign[43].
+From a structural perspective, the diversity and synergistic effects of active sites
+arekeyfactors. HEAscomposedoffiveormoreprincipalelementsexhibithighsurface
+heterogeneity, forming a large number of active sites with different local coordination
+environments [44]. This structural heterogeneity allows reactant molecules (e.g., H O,
+2
+O ,N )toachievedifferentiatedadsorptionandactivationatdifferentsites,breakingthe
+2 2
+limitationsoflinearadsorptionenergyrelationshipsintraditionalcatalysts. Forexample:
+Fengetal. confirmedviainsituX-rayabsorptionspectroscopy(XAS)thatinFeCoNiRhPt
+ultra-smallHEAnanoparticles,PtandRhsitesdominatehydrogenadsorptiondissociation
+andtheoverallreactionpath,respectively,whileFe/Co/Nisitesindirectlyenhanceactivity
+bymodulatingtheelectronicstructureofneighboringsites[45]. Furthermore,theselection
+ofconstituentelementsandtheirmolarratioscriticallygovernsthepopulationofactive
+sitesandtheirlocalatomiccoordination,consequentlymodulatingtheintrinsicactivity
+
+Materials2025,18,4021 6of27
+ofthesesites[46]. Forexample: Zhanetal. developedsubnanometernanowires(SNWs)
+composedofPtRuNiCoFeMohigh-entropyalloy(HEA)forthealkalinehydrogenoxidation
+reaction[47]. TheresultingHEASNWs/Ccatalystexhibitedmassandspecificactivities
+reaching 6.75 A mg−1 and 8.96 mA cm−2, respectively, which represent mass activity
+enhancementsof2.8-fold,4.1-fold,and19.8-fold,andspecificactivityimprovementsof
+2.6-fold,2.4-fold,and18.7-foldrelativetoHEANPs/C,commercialPtRu/C,andPt/C,
+respectively. Furthermore,nanoporousstructuredesigncanincreasethespecificsurface
+area up to 70 times that of traditional alloys, and surface roughness promotes reactant
+diffusion,significantlyincreasingtheexposuredensityofactivesites[48]. Thismulti-site
+synergistic mechanism is particularly prominent in electrocatalytic water splitting. For
+instance, the CoCrFeNiNb HEA operates stably for over 100 h at a current density of
+100mAcm−2,attributedtothedynamiccomplementaryeffectofactivesites.
+Notably,significantfunctionaldifferentiationexistsamongsitesincatalyticsystems:
+some sites serve as direct active centers dominating the reaction process, while others
+participateinsystemregulationbutarenotdirectcatalyticsites.Suchnon-directactivesites
+mayindirectlyinfluencereactionefficiencybymodulatingelectronicstructure,adsorption
+behavior,orspatialconformation. Forexample:Fengetal. foundinNiCoFePtRhHEA-NPs
+forHER,throughinsitucharacterization,thatPtandRhareprominentactivesites[45].
+2.2. RationalDesignofHEACatalysts
+The rational design of HEA electrocatalysts remains a challenge. Designing HEA
+electrocatalystsfirstrequiressatisfyingthecompositionalconditionsforHEAs: (1)Atomic
+radiusdifference(δ)≤6.6%(2)−11.6<Mixingenthalpy(∆H)<3.2kJmol−1. Incurrent
+research,mostHEAelectrocatalystsareprimarilycomposedofpreciousmetals(e.g.,Pt,Pd,
+Ru,Rh,Au,Ag,Ir)combinedwithabundanttransitionmetalsincludingMg,Al,Ni,Co,Cu,
+Cr,Fe,andMn[45]. Incatalystdesign,combiningpreciousmetalswithtransitionmetals
+oftenreducesmaterialcostsandenhancescatalyticactivitythroughsynergisticeffects. For
+HEAelectrocatalystdesign, priorityshouldbegiventoselectingelementswithsimilar
+atomicradiiandpotentialregulatoryeffectsonthetargetreaction. Therelativecontent
+oftheseelementsshouldbepreciselycontrolledtooptimizetheadsorptionenergyofkey
+intermediates,therebyimprovingoverallcatalyticperformance.
+Advancedcomputationalapproaches—includingDensityFunctionalTheory(DFT),
+MolecularDynamics(MD),MonteCarlotechniques,High-ThroughputScreening(HTS),
+MachineLearning(ML),andArtificialNeuralNetworks(ANNs)—enableinsightsinto
+catalyticmechanismsandrationalcatalystdesign[49]. Thesemethodologiesenableboth
+acceleratedidentificationofoptimalconstituentelementsforHEAsandquantitativede-
+terminationofadsorptionenergeticsforcriticalintermediatesoncatalyticsurfaces,which
+subsequentlyfacilitatespathwayelucidationandmechanisticdeciphering[50,51]. Among
+them: DFTisbasedonquantummechanicsprinciples,predictingmaterialground-state
+properties(e.g.,bandstructure,elasticmodulus,phasestability)bycalculatingelectronden-
+sitydistributions,providingatomic-scalemechanisticexplanationsforhardcoatingdesign
+(e.g.,transitionmetalnitrides)[52]. MDsimulationnumericallysolvesNewton’sequations
+ofmotion,simulatingthetrajectoriesofatoms/moleculesunderclassicalforcefieldsor
+quantumpotentialenergysurfaces,revealingmaterialmicroscopicdeformationmecha-
+nisms(e.g.,dislocationevolutioninNi-basedsuperalloys,fracturebehaviorofgraphene)
+andthermodynamicproperties[53]. MonteCarloSimulationusesrandomsamplingto
+buildprobabilitymodels,simulatingmaterialmicrostructureevolution(e.g.,precipitate
+nucleation in aluminum alloys), cumulative error analysis in tolerance design, and un-
+certaintyquantificationinmechanicalsystemreliabilityassessment[54]. HTScombines
+automatedexperimental/computationalplatforms(e.g.,combinatorialchemicaldeposi-
+
+Materials2025,18,4021 7of27
+tion,CALPHADphasediagramcalculation)totestthousandsofmaterialformulationsin
+parallel,rapidlyidentifyingcomponentswithtargetproperties(e.g.,catalystmechanical
+strength,cartilagetissueengineeringmaterials),significantlyshorteningR&Dcycles[55].
+ML utilizes data-driven models (e.g., support vector machines, decision trees) to mine
+structure-propertyrelationshipsbetweenmaterialmicroscopicfeaturesandmacroscopic
+performance, enablingrapidpredictionofpropertieslikeelasticmodulusandstrength
+basedonhigh-throughputdatabases,replacingtraditionaltrial-and-errorexperiments[56].
+ANNslearnnonlinearmappingrelationshipsthroughmulti-layerperceptronstructures,
+predicting mechanical properties of steel alloys (e.g., yield strength, elongation) based
+onchemicalcomposition/heattreatmentparameters,ordirectlyoutputtingtheeffective
+stiffnessofcompositesbasedonmicrostructureimages.
+Forexample,Pedersenetal. utilizedfirst-principles-baseddensityfunctionaltheory
+(DFT)tocompareHEAswithpristineCu(111)surfaces,establishingthereasonsbehindthe
+catalyticactivityandselectivityofHEAsforCO electroreduction[57].TheycombinedDFT
+2
+withmachinelearningtostudyCOandCO reductionreactionsonHEAs. Ultimately,they
+2
+demonstratedthatnanocrystallineequiatomicAu-Ag-Pt-Pd-CuHEAspreparedbyalow-
+temperaturemethodexhibitunprecedentedcatalyticactivityforefficientelectrochemical
+CO RR.Basedonfreeenergycalculationsofintermediates,DFTstudiesshowedthatHEAs
+2
+aresuperiorcatalystscomparedtopristineCumetal. Byoptimizingthecompositionof
+theHEA,thesideeffectsofHEAsweresuppressed,andtheselectivityforCOandCO
+2
+reductionwasimproved.
+Toengineerbifunctionalcatalystsexhibitingsuperioroxygenevolutionreaction(OER)
+andnitrogenreductionreaction(NRR)activity, Sunetal. employeddensityfunctional
+theory (DFT) calculations to identify high-entropy oxides (HEOs) incorporating Ni-Fe-
+Co-Mn-Vconstituentsaspromisingcandidatesfordual-functionalcatalysis. Subsequent
+experimentalsynthesiswasconductedtovalidatethiscomputationalprediction[31]. They
+establishedatheoreticalmodelofsingle-phasespinel-structuredHEOscomposedof1/3
+M(II)O and 2/3 M(III)O. Density of States (DOS) and differential charge density were
+used to predict the N activation capability of the HEO surface, as shown in Figure 2a.
+2
+Subsequently,theDOSanalysisrevealeddominantcontributionsfromNi/Co/Fe/Mn/Vd-
+orbitalsandOp-orbitalsneartheFermilevelintheseHEOs. Thisd-porbitalhybridization
+createshighlydelocalizedelectronicstates,endowingthecatalystswithenhancedelectron
+mobilitycriticalforfacilitatingnitrogenactivationduringNRRprocesses. TheDOSspectra
+afterNadsorptionontotheHEOsurfacewereanalyzed,DFTanalysisrevealssignificant
+spin polarization in vanadium d-orbitals near the Fermi level following N-adsorption,
+withdistinctα/βorbitalsplittingfacilitatingN≡Nbondelongationthroughspin-selective
+electron donation. This electronic reorganization enhances d-π* backdonation, directly
+weakeningthetriplebond(Figure2b). Complementarychargedensitydifferencemaps
+(Figure2c–e)demonstratepronouncedchargeaccumulationatoxygensitesanddepletion
+fromtransitionmetalcenters,confirmingligand-to-metalchargetransferduringactivation.
+Thevacantd-orbitalsoftransitionmetalsserveaselectronacceptorsforoxygen-derived
+electron density, endowing these sites with enhanced proton-coupled electron transfer
+capabilitythatfacilitatesadsorbed*OHdeprotonationduringinitialOERsteps. Ultimately,
+theysuccessfullyconfirmedtheinitialpredictionandsynthesizedHEOsintheformofsea
+urchin-likehollownanospheresassembledfrom2Dnanosheets. TheseHEOsexhibited
+excellentNRR,OER,andneutralwaterelectrolysiscatalyticactivity.
+
+Materials2025,18,4021 8of27
+(a)
+(b) (c)
+(d) (e)
+Figure2. (a)CrystalstructureofspinelHEOandmodelof*N andfreeN . (b)SimulatedDOS
+2 2
+neartheFermilevelofHEObeforeandafterN adsorption.(c–e)PredictionofanodicOERactivity:
+2
+(c)SimulatedDOSneartheFermilevelofHEOsafteradsorbingOH−. Chargedensitydifference
+mapof*OHin(d)topview(e)sideview.Developedonthebasisof,andreprintedwithpermission
+from,Ref.[31].Copyright©2022Wiley-VCHGmbH.
+3. PreparationMethodsofHigh-EntropyAlloys
+Recently,anincreasingnumberofresearchershavefocusedonHEAcatalysts,and
+HEAs have also excelled in various fields of catalysis. This has led to the exploration
+of various preparation methods, such as chemical co-reduction, solution combustion,
+mechanicalalloying,vacuumarcmelting,andsol–geltechniques. Duetothecountless
+elementcombinations,researchershavevariousmethodstotunetheelectronicstateand
+structureofHEAs. Owingtothefour“coreeffects”ofHEAs,comparedtosinglemetals
+
+Materials2025,18,4021 9of27
+andphase-separatedalloys,HEAcatalystsexhibitsuperioractivityandstabilityinvarious
+electrocatalyticreactions. ThepreparationmethodsofHEAsarediscussedbelow.
+3.1. ChemicalCo-ReductionMethod
+Chemicalco-reductionisamethodforpreparinghigh-entropyalloy(HEA)catalysts
+bysimultaneouslyreducingmultiplemetalprecursorsviasolvothermalorwet-chemical
+strategies[58]. Itscoreliesinutilizingthesynergisticeffectofmulti-metalsystemsand
+thehigh-entropyeffect(i.e.,highconfigurationalentropysuppressingphaseseparation)to
+achieveco-reductionanduniformmixingofdifferentmetalelementsinsolution,forming
+single-phaseormulti-phasesolidsolutionstructures[59]. Thismethodrequiresprecise
+controlofmetalsaltprecursors,reducingagents,chelatingagents,andreactionconditions
+toovercomekineticimbalancescausedbydifferencesintheintrinsicreductionpotentials
+ofdifferentmetals. Localnon-equilibriumenvironments(e.g.,activehydrogengeneration)
+promotesynchronousco-reductionandinhibitphaseseparation.
+The advantages of the chemical co-reduction method for preparing HEA catalysts
+aremainlyreflectedinitscompositionalflexibilityandstructuralhomogeneity[60]: By
+preciselyadjustingprecursorratiosorintroducingchelatingagents(e.g.,ethylenediaminete-
+traaceticacid, EDTA),preciseatomic-scalecontrolof multi-metalelementratios canbe
+achieved. Simultaneously,non-equilibriumreductionenvironments(e.g.,activehydrogen
+generationorlaser-inducedconditions)suppressthermodynamicphaseseparation,pro-
+moteuniformelementdistribution, andformstablesolidsolutionstructureswithhigh
+configurationalentropy. Additionally,latticedistortionandelectronicstructureoptimiza-
+tioninducedbymulti-elementsynergisticeffectscansignificantlyenhancecatalyticactivity
+andstability. Forexample,thesluggishdiffusioneffectofHEAscandelaycatalystsur-
+facedeactivation. However, thismethodstillfacesdualchallengesofreductionkinetic
+imbalance and process complexity: Differences in intrinsic reduction potentials lead to
+preferential reduction of some metals, requiring reliance on chelating agents or special
+reactionconditions(e.g.,localhightemperature/pressure)tocontrolthereductionpathand
+maintainsynchronousco-reduction[61]. Simultaneously,thesynthesisprocessrequires
+strictcontrolofparameterssuchasprecursorconcentration,temperaturegradients,and
+reducingagentconcentration. Forinstance,thefinecontrolofsurfactantsanddealloying
+conditionsinoil-phaseco-reductionincreasesprocessdifficulty. Moreover,techniqueslike
+solvothermalmethodshavehighequipmentrequirements,makinghomogeneitycontrol
+andlarge-scaleproductionstabilitybottlenecksthatlimittheirpracticalapplicationrange.
+Fengetal. employedthisversatileandfacilechemicalco-reductionmethodtopre-
+pareaseriesofcarbon-supportedultra-smallhigh-entropyalloy(us-HEA)nanoparticles
+(NPs)[45]. Thecarbon-supportedhigh-entropyalloynanoparticulates(NiCoFePtRh/C)
+demonstrated exceptional dispersion homogeneity, exhibiting a record-setting average
+diameterof1.68nm—theminimalnanoscalearchitecturedocumentedinHEAsystemsto
+date. HAADF-STEMandXAFSmeasurementsrevealedtheatomicstructure,electronic
+structure,andcoordinationstructureoftheus-HEAs. Theus-HEA/Ccatalystdelivered
+exceptionalmassactivity(28.3Amg−1at−0.05Vvs. RHE),surpassingcommercialPt/C
+and Rh/C by factors of 40.4× and 74.5×, respectively (Figure 3a–c). At η = 50 mV, it
+achievedaturnoverfrequency(TOF)of30.1s−1,representinga41.8-foldenhancement
+overPt/C.Remarkably, thecatalystretained>99%initialactivityafter10,000potential
+cycles(Figure3d),demonstratingunparalleleddurability. InsituX-rayabsorptionspec-
+troscopy and theoretical calculations revealed the actual active sites, fine-tuning of the
+electronicstructure,andsynergisticeffectsamongthefiveelements,whichendowedthe
+us-HEAwithsignificantlyenhancedHERactivity. Theexceptionalperformanceofthese
+
+Materials2025,18,4021 10of27
+supportedus-HEANPsmakesthempotentiallyapplicableasadvancedHERcatalystsfor
+futurerenewableenergystorage.
+(a) (b)
+(c) (d)
+Figure3. AllHERtestsperformedin0.5MH SO at25 ◦C.(a,b)HERpolarizationcurvesand
+2 4
+ECSA-normalizedHERpolarizationcurvesofNiCoFePtRhHEAnanoparticlesandtheircounter-
+parts. (c)ECSA-normalizedactivitycomparisonatdifferentpotentials. (d)HERstabilitytestof
+NiCoFePtRh HEA nanoparticles. Reprinted with permission from Ref. [45]. Copyright © 2021,
+AmericanChemicalSociety.
+Cheng et al. synthesized PtCuNiCoMn HEA nanoparticles supported on reduced
+grapheneoxide(rGO)viaco-reductionandusedthemaselectrocatalystsformethanoland
+formicacidelectrooxidation(Figure4)[62]. ThePtCuNiCoMn/rGOcatalystexhibiteda
+specificactivityof789.4mAmg−1,higherthanPtCuNiCo/rGO,PtCuNi/rGO,PtCu/rGO,
+Pt/rGO, and commercial Pt/C catalysts. It also demonstrated better resistance to CO
+poisoning. Furthermore,chronoamperometryandcyclicvoltammetrytestsrevealedthe
+betterstabilityofthePtCuNiCoMn/rGOcatalyst. XPSresultsindicatedthattheelectronic
+structure of Pt in PtCuNiCoMn HEA nanoparticles changed due to synergistic effects
+amongtheconstituentmetals,therebyenhancingthereactionkineticsofmethanoland
+formicacidelectrooxidationonPt. Moreover,duetothehigh-entropyeffectandsluggish
+diffusioneffect,PtCuNiCoMnHEAnanoparticlesexhibitedgoodcompositionalstability
+duringelectrochemicaltesting.
+
+Materials2025,18,4021 11of27
+Figure4.SchematicdiagramofthesynthesisofPtCuNiCoMnHEAnanoparticlesonrGO.Reprinted
+withpermissionfromRef.[62].Copyright©2024,AmericanChemicalSociety.
+Nieetal. synthesizedahigh-entropyalloyaerogel,AgRuPdAuPt,viaco-reduction
+(Figure5)[63]. TheoptimizedAgRuPdAuPtexhibitedultra-smalloverpotentialsof22mV
+(at10mAcm−2)andexcellentstabilityfor24hin1.0MKOHelectrolyte.
+Figure5. PrincipleofAgRuPdAuPtaerogelformation. ReprintedwithpermissionfromRef.[63].
+Copyright©2023,AmericanChemicalSociety.
+Zhouetal. preparednanoscaleFe-Co-Ni-Cu-ZnHEAfilmsviapotentiostaticelectro-
+chemicaldepositioninanaqueouselectrolyte(Figure6)[61].Thefilmsconsistedofparticles
+withsizesrangingfromapproximately200to550nmandformedasingleface-centered
+cubic(FCC)solidsolutionphasestructure. Theyexhibitedsignificantsoftmagneticprop-
+erties(saturationmagnetizationof23.22emu/g,coercivityof90Oe)andgoodelectrical
+performance(resistivityof4.67mΩ·cm).
+Figure 6. SEM morphological images of Fe-Co-Ni-Cu-Zn high entropy alloy films at different
+magnifications., (a) 20 microns. (b) 10 microns. (c) 5 microns. (d) 2 microns. Reprinted with
+permissionfromRef.[61]Openaccess.
+
+Materials2025,18,4021 12of27
+3.2. SolutionCombustionSynthesis
+Solutioncombustionsynthesis(SCS)forpreparingHEAcatalystsisanefficientsynthe-
+sisstrategybasedontherapidself-propagatingcombustionreactionofmetalnitrateswith
+organicfuels(e.g.,glycine)[64]. Itenablesprecisecontrolofporestructure,specificsurface
+area,andelementdistributionbyadjustingthemolarratioofmetalsaltstofuelandthe
+subsequentreductiontemperature. Forexample,theFeCoNiCu HEA,afterparameter
+0.5
+optimization,exhibitsarichporousstructureandhighspecificsurfacearea(upto50m2/g),
+significantlyenhancinghydrogenevolutionreaction(HER)catalyticactivityandstabil-
+ity[65]. Additionally,thismethodcombinedwithhydrogenreductionprocessesachieves
+uniformdispersionofmulti-metalcomponentsandsynergisticeffectsofsurfaceactivesites.
+DFTcalculationsshowthatelectronicinteractionsbetweenFe,Co,Ni,andCuelements
+optimizeH*adsorptionenergyandaccelerateH desorptionkinetics[65,66]. However,its
+2
+disadvantagesincludehighsensitivitytoprecursorcompositionratiosandcombustion
+conditions. Imbalanceinthefuel-to-metalsaltratiocanleadtoincompletecombustion
+orresidualcarbonimpurities,requiringsubsequenthigh-temperaturereductionoracid
+washingtooptimizesurfacecleanliness, increasingprocesscomplexity. Moreover, SCS
+typicallyreliesonrapidexothermicreactions,whichmaycauseelementsegregationor
+graincoarseningduetolocaltemperaturegradients. Dynamicquenchingtechniquesneed
+tobecombinedtoinhibitgraingrowthandmaintainnanostructures[66,67].
+The preparation of precursors is crucial as it directly determines the phase purity,
+microstructure,andperformanceofthefinalproduct. Precursors,asorganicpolymersor
+saltmixturescontainingtargetmetalelements(e.g.,compositesystemsofmetalnitrates
+andfuels),benefitfrommolecular-levelhomogeneousmixing,significantlyshorteningdif-
+fusiondistancesbetweenelements. Thisreducesthetemperaturerequiredforsubsequent
+combustionreactions(typicallyfromover1000◦Cintraditionalmethodsto350–500◦C),
+effectivelyinhibiting abnormal graingrowthand ensuringuniform phasecomposition
+and fine grain size [68]. For example, in preparing ceramic powders, the distribution
+uniformityofmetalionsintheprecursordirectlyaffectsthespecificsurfaceareaandpore
+structureofthepowderaftercombustion-co-precipitationforprecursorsmayformlarger
+grains,whilethesol–gelmethodcangeneratenanostructureswithhighspecificsurface
+area[69]. Furthermore,thechemicalstateoftheprecursor(e.g.,oxidationdegree)playsa
+keyregulatoryroleinthereactionpath: Oxidizedprecursorswithmetalcontentdeviating
+fromthetheoreticalvalue,ifsubjectedtothecalcinationregimeofunoxidizedprecursors,
+willleadtoacapacityreductionofabout10mAh/g. Incontrast,high-valenceprecursors
+(e.g.,Ni Co Mn OOH)comparedtolow-valencesystems(e.g.,hydroxides),under
+1/3 1/3 1/3
+thesamesynthesisconditions,canincreasethefirstdischargecapacityoflithiumbattery
+cathodematerialsto153mAh/gandimprovecyclestabilitybyover25%[70]. Themor-
+phologycharacteristicsoftheprecursoralsoinfluencethefinalproductthrougha“genetic
+effect.”Flakyprecursorsformlarge-sizedgrainsaftercalcination,whilefineparticlepre-
+cursorsgeneratesubmicroncrystals,withsignificantdifferencesincompactiondensityand
+rateperformance. Inreactioncontrol,precursorsolutionconcentration,pH,andmixing
+temperature(e.g.,gelationat80◦Corsolformationat65◦C)preciselyregulatecombustion
+rateandexothermicintensity,avoidingcompositionsegregationcausedbylocaloverheat-
+ing[71].Forinstance,preparingaluminumprecursorsabove95◦Cacceleratesprecipitation
+but requires weighing yield loss [72]. Therefore, precursor preparation is the core hub
+balancingreactionkinetics,thermodynamics,andproductperformance. Itsdesignneedsto
+simultaneouslyoptimizemolecularmixingdegree,redoxcharacteristics,andmorphology
+controltomeetstringentmaterialstructurerequirementsforspecificapplications.
+
+Materials2025,18,4021 13of27
+Common chemicals used for preparing precursors can be categorized as follows:
+MetalSalts,Fuel,Additives,andSolvent. MetalSaltSolutions: Typicallymetalnitrates,
+chlorides, or acetates. Nitrates are preferred due to good water solubility, low decom-
+position temperature (200–400 ◦C), and decomposition products (NO , O ) promoting
+2 2
+combustion. Fuel: Typically urea (CO(NH ) ), glycine (C H NO ), hydrazines (N H ),
+2 2 2 5 2 2 4
+citric acid (C H O ), or sucrose/glucose. Solvent: Generally water or organic solvents.
+6 8 7
+Waterensuresthoroughdissolutionofmetalsaltsandfuel;organicsolventsenhancefuel
+solubility. Additives: Includecombustionpromoters,chelatingagents,dispersants,etc.,
+servingvariousfunctions.
+Liuetal. preparedCa-richbrownmilleriteoxidesviasolutioncombustionsynthesis
+andcalcination[73]. Thesynthesisprocessformulti-elementmetal(oxy)hydroxideultra-
+thinnanosheetsisillustratedinFigure7a. Itsflexiblestructurefacilitateseasyelemental
+adjustment. Subsequently,immersingthebrownmilleriteinalkaliinducedOH− iondiffu-
+sionintothestructureanddissolvedCaions,causingthecollapseofthebrownmillerite
+structureanditstopologicaltransformationintoan(oxy)hydroxidephase.Thistransforma-
+tioninvolvedashiftfromtheoriginalcorner-sharingstructureofmetal-oxygenoctahedra
+toanedge-sharingstructure. Usingbrownmilleriteasaprecursor,theysuccessfullysynthe-
+sizedCoFeZnternary,quaternaryCoFeMnZn,andpentanaryhigh-entropyCoFeCuMnZn
+(oxy)hydroxideultrathinnanosheetswithuniformmixingofmetalelements. Introducing
+Zn into CoFe (oxy) hydroxide caused the O 2p band center to shift towards the Fermi
+level,promotingthelatticeoxidationmechanism(LOM)pathway. DirectO-Ocouplingin
+LOMwasidentified,verifiedbytetramethylammoniumcations(TMA+)chemicalprobes
+detectingperoxide-like(O 2−)species. Consequently,thecatalystprovidedanultra-low
+2
+overpotentialof267mV(Figure7d)andanexceptionallylowTafelslopeof45mVdec−1
+(Figure7e). DuetoenhancedresistancetoFeleaching,significantstabilitywasachieved
+evenafter10,000cyclicvoltammetry(CV)cycles,withnegligibleoverpotentialdifference.
+Guoetal. combinedsolutioncombustionandhydrogenreductionmethodstoprepare
+poroushomogeneousFeCoNiCuhigh-entropyalloys(Figure8)[65]. First,compositeoxide
+precursorswithtunableelementalmolarratiosandporousstructuresweresynthesized
+usingSCS,achievinguniformelementdistributionthroughprecisecontrolofcombustion
+parameters. Subsequently,theoxideprecursorsweresubjectedtohydrogenreductionatan
+optimizedtemperature,successfullyobtainingbulkporousHEAs(FeCoNiCuHEA)com-
+posedofsingle-phasesolidsolutions. Structuralcharacterizationrevealedthatthematerial
+possessedarichporestructureandhighspecificsurfacearea,exhibitingexcellentcatalytic
+performanceinalkalineHER.ElectrochemicaltestsshowedthatFeCoNiCuHEArequired
+overpotentials of only 71 mV and 127 mV to achieve current densities of 10 mA·cm−2
+and50mA·cm−2,respectively(Figure9). Itscatalyticactivitywassignificantlysuperior
+toelemental,binary,andternaryalloycounterparts. After1000CVcyclesor50hofcon-
+stantcurrentelectrolysis,thematerialmaintainedstablecatalyticperformance,confirming
+itsgoodelectrochemicaldurability. CombinedwithDFTcalculations,themechanismof
+electronic interaction among Fe, Co, Ni, and Cu multi-components was revealed: The
+introductionofFeoptimizedthed-bandcenterpositionofCo/Niactivesites,whilethe
+presenceofCureducedthewaterdissociationenergybarrierbyregulatingsurfacecharge
+distribution. Themulti-elementsynergysignificantlyimprovedtheadsorption/desorption
+kineticsoftheH*intermediate. Thisstudyestablishedasystematicmethodforpreparing
+porousHEAcatalystsviaSCScombinedwithhydrogenreduction. Bycouplingcomponent
+designwithmicrostructurecontrol,itprovidedanewstrategyfordevelopingefficientand
+stableHERcatalysts,whilethesynthesisroutehasuniversalpotentialforexpansionin
+multi-componentcatalyticmaterialsystems.
+
+Materials2025,18,4021 14of27
+(a)
+(b) (c)
+(d) (e)
+Figure7.(a)Schematicillustratingthesynthesisstrategyforderivingmulti-componenttransition
+metal(oxy)hydroxidesfrombrownmilleriteoxides.(b)XRDpatterns,(c)TEMimage.OERperfor-
+mancesweremeasuredin1mKOHelectrolyte. (d)η10,(e)correspondingTafelplots. Reprinted
+withpermissionfromRef.[73].Copyright©2024Wiley-VCHGmbH.
+Luetal. synthesized(Co Ni Mn Zn )Fe O high-entropyoxide(HEO)elec-
+0.25 0.25 0.25 0.25 2 4
+trodesviasolutioncombustionsynthesisandstudiedtheirOERcatalyticperformance[74].
+Theyfoundthatfornon-activatedHEOelectrodes,theoverpotentialatacurrentdensityof
+10mA/cm2was276mV.Aftera100hi-ttest,theoverpotentialfurtherdecreasedto230mV,
+a reduction of 46 mV. However, the CV activation process improved the OER catalytic
+
+Materials2025,18,4021 15of27
+performance. I-t testing revealed that the core of HEO particles maintained the spinel
+structure,buttheflocculationaroundthecoreappearedasacombinationofspineland
+non-crystallinestructures,likelyduetoselectiveelementleachingandincreasedoxygen
+vacanciescausingsurfacereconstruction.
+Figure8.SchematicofthepreparationprocessforporousFeCoNiCuhigh-entropyalloy.Reprinted
+withpermissionfromRef.[65]. Copyright©2024ElsevierB.V.Allrightsarereserved,including
+thosefortextanddatamining,AItraining,andsimilartechnologies.
+Xieetal. preparedhigh-surface-area(CoMnFeCrNi) O catalystsviasolutioncom-
+3 4
+bustionsynthesis[75]. Subsequently,Pt/(CoMnFeCrNi) O compositecatalystsforC H
+3 4 3 8
+combustion were synthesized by atomic layer deposition. Catalytic testing in dry air
+(C H /O /N =1/10/89vol%). StudiesshowedthatPt/HEO-EAachieved90%propane
+3 8 2 2
+conversionat302 ◦C,whilePt/HEO-GlyandPt/Al O failedtoachievecompletecon-
+2 3
+version even at 400 ◦C. HEO-EA exhibited excellent catalytic activity and water vapor
+resistance. Theapparentactivationenergy(Ea)ofPt/HEO-EAwas80.9kJ/mol, lower
+thanPt/HEO-GlyandPt/Al O ,indicatingsuperiorintrinsiccatalyticactivity. H -TPR
+2 3 2
+andO -TPDtestsindicatedthatPt/HEO-EAhadstrongeractivationanddesorptioncapa-
+2
+bilitiesforoxygenspeciesatlowtemperatures. Itwasconcludedthatthehighcatalytic
+activity of Pt/HEO-EA was attributed to the easy activation of oxygen species at the
+Pt-HEO interface, promoting the decomposition of intermediates during propane com-
+bustion. ThisstudydemonstratesthepotentialofHEOsassupportsforpreciousmetal
+catalysts,providinganewstrategyfordevelopingefficientcatalystsforlow-temperature
+lighthydrocarboncombustion.
+(a) (b) (c)
+Figure9.Cont.
+(d) (e) (f)
+(g) (h) (i)
+
+Materials2025,18,4021 16of27
+(a) (b) (c)
+(d) (e) (f)
+(g) (h) (i)
+Figure9.In1MKOH,25◦C(a)HERpolarizationcurvesofFeCoNiCuandunitarymetalcatalysts
+(commercial Pt/C, Fe, Co, Ni, Cu). (b) HER polarization curves, (c) Tafel plots, (d) Local Tafel
+plotwithrelatedlinearfittingresults, (e)Nyquistplots, (f)C~dl~valuesand(g)TOFvaluesat
+100mAcm−2 currentdensityforFeCoNiCuandunitary(Ni), binary(FeNi, CoCu), andternary
+(FeCoNi,FeNiCu)catalysts.(h)HERpolarizationcurvesofporousFeCoNiCuHEAbeforeandafter
+1000CVcycles.(i)Long-termstabilitytestofporousFeCoNiCuHEAat127mVvs.RHE.Reprinted
+withpermissionfromRef.[65]. Copyright©2024ElsevierB.V.Allrightsarereserved,including
+thosefortextanddatamining,AItraining,andsimilartechnologies.
+3.3. MechanicalAlloyingMethod
+Mechanicalalloying(MA)forpreparingHEAcatalystsisanefficientsolid-statenon-
+equilibriumprocessingtechniqueperformedatroomtemperature. Itscoreprincipleisthe
+useofmechanicalforcesfromhigh-energyballmillingtoachieveatomic-levelmixingof
+multipleelements. Differentmetalpowdersundergorepeatedcoldwelding,fracturing,
+andplasticdeformation,ultimatelybreakingsurfaceoxidelayersandpromotingatomic
+diffusiontoformalloypowderswithuniformnanostructures[76]. Thespecificprocess
+involvesmixingequimolarorspecificratiosofmetalpowders(e.g.,Fe,Co,Ni,Cr,Mn)ina
+ballmilljar. Throughviolentcollisionsandfrictionofthegrindingballs,powderparticles
+experiencecoldweldingtoformlayeredcomposites. Subsequently,duetoworkhardening,
+theyfracture,exposingfreshsurfacesthatweldagain. Thiscyclerepeatsuntilatomic-level
+mixingisachieved,formingHEApowderwithgrainsizesrefinedtothenanometerscale.
+Thismethodavoidsthehighenergyconsumptionandelementsegregationproblemsof
+traditionalmeltingmethods,makingitparticularlysuitableformulti-componentsystems
+withlargemeltingpointdifferencesorthermodynamicimmiscibility[77].
+
+Materials2025,18,4021 17of27
+Panetal.successfullypreparedFeCoNiCrPhigh-entropyalloypowderviamechanical
+alloying[78]. Subsequently,thepowderwasloadedontocarbonfiberpapertofabricate
+anelectrocatalystforwaterelectrolysisoxygenevolution. Studiesfoundthattheexcellent
+performanceofFeCoNiCrPwasattributedtothehighsurfaceactivityofthepowderand
+itslargespecificsurfacearearesultingfromthehighenergyinputduringtheMAprocess.
+Furtherelectrochemicalactivationusingcyclicvoltammetryinducedsurfacereconstruction
+of FeCoNiCrP. Electrochemical measurements revealed exceptional catalytic efficiency,
+achievingacurrentdensityof10mAcm−2atmerely286mVoverpotential(η)withaTafel
+slopeof27.6mVdec−1. Cyclicvoltammetryactivationsignificantlyexpandedtheelectro-
+chemicalactivesurfaceareaoftheFeCoNiCrPalloy,therebyaugmentingaccessibleactive
+sites. Furthermore,thisprocessinducedinsituformationofoxyhydroxideflocculeson
+particlesurfaces,generatinghighlyactivemetal(oxyhydr)oxidespeciesthatsynergistically
+enhancedtheOERperformance.
+Wuetal. successfullypreparedFeCoNiMoCrandFeCoNiMoCuhigh-entropyalloy
+powdersusingmechanicalalloyingandconductedin-depthstudies[79]. Themechani-
+callyalloyedCr-HEAandCu-HEApowderspossessedamorphous/BCCandFCC/BCC
+structures,respectively. Studiesfoundthatoxygenevolutionreactioninducednanoniza-
+tionoftheamorphousphaseintheCr-basedHEA(Cr-HEA),simultaneouslyenhancing
+grain crystallinity. The Cr-HEA/NF electrode exhibited the best catalytic activity: The
+catalystachievedbenchmarkcurrentdensity(10mAcm−2)atη=271mV,demonstrat-
+ingamoderateTafelslope(69.1mVdec−1)withmassactivityof1.53Amg−1 at1.23V
+vs. RHE.ItsperformancesignificantlysurpassedthatoftheCu-basedHEA(Cu-HEA),
+commercialRuO /NF,andbareNFelectrodes. Thecatalystoperatedstablyfor48hin
+2
+1 M KOH solution (10 mA/cm2), maintained a current density of 500 mA/cm2 under
+industrial-grade conditions (6 M KOH/85 ◦C) for 100 h, and showed only slight fluc-
+tuationsduringa100hconstantcurrenttest(100mA/cm2), confirmingitsexceptional
+long-termstability(Figure10). Mechanisticstudiesindicatedthatsynergisticeffectsamong
+metal active sites enhanced catalytic activity by regulating the adsorption–desorption
+behaviorofoxygen-containingintermediates. Theintroductionofchromiumeffectively
+modulatedtheelectronicstructureoftheHEA,significantlyreducingtheenergybarrierof
+therate-determiningstep(∆G valuesat0Vand1.23Vdecreased),therebyloweringthe
+3
+overpotential.Furthermore,themulti-levelnestedheterogeneousinterfaceformedbetween
+theamorphousphaseandmetastablenanocrystals,synergizingwiththeinsitugenerated
+multi-phasestructure,collectivelypromotedthecatalyticperformanceofCr-HEA/NF.
+(a) (b) (c)
+Figure10.Cont.
+
+Materials2025,18,4021 18of27
+(d) (e) (f)
+Figure10.(a)ElectrocatalyticperformanceofpreparedCr-HEA/NF,Cu-HEA/NFHEAs,NF,and
+RuO/NFelectrocatalysts.OERpolarizationcurvesoftestedelectrocatalystsmeasuredin1mol/L
+KOH solution, with IR compensation and local enlarged view; (b) Tafel plots; (c) Performance
+comparisonat10mA/cm2 at1.53V(vs. RHE);(d)Capacitivecurrentdensityvs. scanrateplots;
+(e)LSVfrom(a)normalizedtoECSA;(f)Nyquistplotmeasuredatoverpotential1.53V(vs.RHE),
+equivalentcircuit(lowerpart)andenlargedview(upperright). Reprintedwithpermissionfrom
+Ref.[79].Openaccess.
+3.4. Sol–GelMethod
+Thesol–gelmethodisalow-temperaturesynthesistechniqueforpreparinginorganic
+ororganic-inorganichybridmaterialsthroughliquid-phasechemicalreactions[80]. Itscore
+stepsinvolvethehydrolysisandcondensationofprecursorstoformasol, followedby
+gelationtoformathree-dimensionalnetwork-structuredgel. Thetargetmaterialisfinally
+obtainedthroughpost-treatmentslikedryingandsintering. Originatinginthe1970s,this
+methodiswidelyusedincatalysts,ceramics,opticalmaterials,etc.,duetoitsmildreaction
+conditions(typicallyatroomtemperatureto100◦C),highproductpurity,andcontrollable
+microstructure(e.g.,porosity,particlesize,crystalphase).
+Asaversatileliquid-phasesyntheticapproach,thesol–gelmethodologyenablespre-
+cisecontrolovercompositionalhomogeneityandnanostructuralevolutionatnear-ambient
+conditions,offeringdistinctbenefitsincluding: Itenablesthepreparationofhigh-purity,
+composition-controllable multifunctional materials (e.g., nanoparticles, doped oxides,
+organic-inorganichybrids)throughmolecular-leveluniformmixingandlow-temperature
+reactionconditions[81]. Italsooffersflexibilityinshapingtheproductasfilms,fibers,or
+monoliths, being particularly suitable for coating complex substrates. Furthermore, its
+environmentalfriendlinessisreflectedinlowenergyconsumptionandminimalpollution.
+However,thismethodalsohassomedisadvantages: Relianceonexpensivemetalalkox-
+idesandtoxicsolventsincreasescostandsafetyrisks. Thelengthysolaginganddrying
+processescaneasilyleadtomaterialshrinkageandcracking. Residualmicroporesand
+organicsrequirehigh-temperaturecalcinationforremoval,butexcessiveheattreatment
+maydamagethematerialstructure. Thefinecontrolofprocessconditions(e.g.,pH,hydrol-
+ysisrate)furtherconstrainslarge-scaleproductionefficiency. Figure11belowshowsthe
+implementationroadmapofthesol-gelmethod.
+Tangetal.preparedMgMnFeCoNiB-sitehigh-entropyperovskitecobaltitesusingthe
+sol–gelmethodandcomprehensivelyevaluatedtheirOERelectrocatalyticperformance[82].X-
+rayspectroscopiccharacterizationindicatedthatchangesinthechargestatesofmultipleB-site
+cationsandalternationintheelectronicconfigurationofoxygenionscollectivelypromotedthe
+enhancementofintrinsicOERactivity.Theyalsodemonstratedthatconfigurationalentropy
+canserveasaneffectivetooltomitigatetheformationofoxygenvacancies,greatlyenhancing
+theOERontheelectrocatalystviathelatticeoxygenoxidationmechanismpathway.
+
+Materials2025,18,4021 19of27
+Wangetal. alsosynthesizedFeCoNiCrhydroxideviathesol–gelmethod. Studies
+revealedthatFeCoNiCrhydroxideexhibitedaverylowoverpotentialof224mVinalkaline
+media,52mVlowerthanCr-freeFeCoNihydroxide,anddemonstratedoutstandingcom-
+prehensiveperformanceintheoxygenevolutionreaction(OER)[83]. Experimentaltests
+showeditsTafelslopewasonly42.7mVdec−1,significantlylowerthantypicalmetaloxide
+catalysts(e.g.,74.9mVdec−1forRuO ). Thisexcellentkineticcharacteristicstemmedfrom
+2
+thecatalyst’soptimizedregulationoftheadsorptionenergyofOERintermediates,bringing
+the reaction path closer to the theoretical optimum. In terms of stability, the material
+maintainedcontinuousoperationforover150hat10mAcm−2,anditspolarizationcurve
+remainedsimilartotheinitialstateafter500cycles,withanoverpotentialshiftoflessthan
+5%,meetingindustrial-gradecatalystrequirementsfordurability(Figure12).
+Figure11.Implementationroadmapofthesol–gelmethod.
+Figure12. (a)FreeenergiesofM(OH),toMOOHinFeCoNiandFeCoNiCrhydroxides. (b)Free
+energiesofM(OH),toMOOHinFeCoandFeCoCrhydroxides.(c)FreeenergiesofM(OH),toMOOH
+inFeNiandFeNiCrhydroxides. (d)SchematicillustrationofFeCoNiCrhydroxidesynthesisby
+aqueoussol–gel.ReprintedwithpermissionfromRef.[83].Openaccess.
+
+Materials2025,18,4021 20of27
+Whenappliedinazinc–airbatterysystem,thecatalystexhibitedadischarge/charge
+voltage difference of 0.70 V and showed no voltage drop or catalyst structure collapse
+during160hofcontinuouscycling. Thislowpolarizationcharacteristiciscloselyrelatedto
+itsbifunctionalcatalyticactivity,withitsvoltagedifferencemetricsignificantlysuperior
+to the traditional Pt/C+Ir/C system (initial difference 0.8 V, failure after 400 cycles). It
+isimportanttonotethatthestabilityofbatteryperformanceisstronglycorrelatedwith
+the intrinsic stability of the catalyst. X-ray absorption spectroscopy (XAS) verified the
+preservationofatomic-scalestructuralintegrityatmetalcoordinationcentersthroughout
+electrochemical cycling, demonstrating unaltered local environments compared to the
+pristinecatalyst.
+ThefollowingTable3presentsthecomposition,applicationscenarios,andpreparation
+methods of several high-entropy alloys. Table 4 provides a brief assessment of these
+preparationmethods.
+Table3.HEAcompositionsandapplications.
+Application Composition PreparationMethod Reference
+HER NiCoFePtRh ChemicalCo-reduction [45]
+Methanol/FormicAcid
+PtCuNiCoMn ChemicalCo-reduction [62]
+Electrooxidation
+HER FeCoNiCu SolutionCombustionSynthesis [65]
+OER FeCoNiCrP MechanicalAlloying [78]
+HER CoFeCuMnZn SolutionCombustionSynthesis [73]
+OER FeCoNiMoCr MechanicalAlloying [79]
+OER MgMnFeCoNi Sol–Gel [82]
+OER FeCoNiCr Sol–Gel [83]
+HER PtPdRhRuCu SolutionCombustionSynthesis [84]
+Low-TemperatureThermal
+HER PtRuCoNiCu [85]
+Reduction
+OER CoCrFeNiAl HydroxylationviaHFtreatment [86]
+ORR AlCuNiPtMn Dealloying [87]
+ORR AlNiCuPtPdAu Dealloying [88]
+CO2RR AuAgPtPdCu Low-TemperatureMethod [57]
+NRR,OER Ni,Fe,Co,Mn,V SolutionCombustionSynthesis [31]
+HOR PtRuNiCoFeMo SolutionCombustionSynthesis [47]
+PropaneCombustion CoMnFeCrNi SolutionCombustionSynthesis [75]
+Table4.ComparativeassessmentofHEAsynthesismethods.
+Suitabilityfor
+Method Advantages Limitations
+Electrocatalysis
+Uniformnanoparticles
+Toxicreagents;Scalability High(e.g.,HER/ORR
+ChemicalCo-reduction (1–3nm);Precise
+challenges nanocatalysts)
+compositioncontrol
+Residual
+Rapid;Porousstructures; Moderate(e.g.,OER
+SolutionCombustion carbon/impurities;
+Scalable oxides)
+Compositiondrift
+Elementalsegregation Low(requires
+Solvent-free;Bulk
+MechanicalAlloying (Figure10c); post-annealingfor
+production
+Contaminationrisk homogeneity)
+Homogeneousdoping; High(e.g.,perovskiteOER
+Sol–Gel Longprocessing;Highcost
+Thin-filmcompatibility catalysts)
+
+Materials2025,18,4021 21of27
+4. ApplicationsofHigh-EntropyAlloysinCatalysis
+Withtheurgentdemandforefficientelectrocatalyticmaterialsdrivenbytheenergy
+transition, high-entropy alloys have emerged as a new paradigm to overcome the per-
+formancebottlenecksoftraditionalcatalysts,leveragingtheirmulti-elementsynergistic
+effectsandstructuraltunability. Traditionalpreciousmetalcatalystsaredifficulttomeet
+large-scaleapplicationdemandsduetohighcost,resourcescarcity,andlimitationsofsingle
+activesites. Incontrast,HEAs,throughlatticedistortionandthe“cocktaileffect”among
+multi-elementatoms,exhibithighactivity,strongstability,andcostadvantagesinreactions
+suchashydrogenevolution,oxygenevolution,andoxygenreduction. Theirhigh-entropy
+characteristicssuppresselementsegregationandoptimizeelectronicstructure. Combined
+withnanoscaledesignexposingabundantactivesites,theyprovidenovelapproachesfor
+regulatingthekineticsandthermodynamicsofelectrocatalyticreactions.
+4.1. HydrogenEvolutionReaction(HER)
+Thehydrogenevolutionreaction(HER)isakeycathodicstepinwaterelectrolysis.
+Itscoreisthereductionofhydrogenionsorwatermoleculestohydrogengasviaelectron
+transfer. ThereactionfollowstheVolmer–HeyrovskyorVolmer–Tafelmechanism,where
+the Volmer step involves hydrogen atom adsorption, and the Heyrovsky or Tafel steps
+generateH viaelectrochemicalorchemicaldesorption,respectively[89].
+2
+Accordingtorecentresearchprogress,HEAcatalystssignificantlyenhanceHEReffi-
+ciencywhilereducingdependenceonpreciousmetalsthroughsynergisticeffectsofmulti-
+metalcomponentsandoptimizedstructuraldesign. Forexample,Jiaetal. successfully
+synthesizedPtRuCoNiCuHEAnanoparticlesvialow-temperaturethermalreduction[85].
+StudiesfoundthatinPtRuCoNiCuHEA,PtandRuservedasprimaryactivesitesdirectly
+involvedinthereaction,whileCo,Ni,andCupromotedtheadsorption/desorptionprocess
+oftheH*intermediatebymodulatingtheelectronicstructure,acceleratingH generation
+2
+andrelease. ItexhibitedtremendousHERactivityandstabilityinacidicmedia,promot-
+ingsynergisticcharge/masstransferkineticsandimprovingmetal-supportinteractions,
+leadingtoenhancedHERactivityandstabilitywhilereducingpreciousmetalusage.
+Zhaoetal. synthesizedhigh-entropyalloyPtPdRhRuCunanoparticlesusingsolution
+combustionsynthesis[84]. TheyfoundthatthePtPdRhRuCu/Ccatalystachievedamass
+activityof3.0Amg−1Ptin1mol/LKOHelectrolyte,7.9timeshigherthancommercialPt/C
+(0.38Amg−1Pt). Comparedtoconventionalmulti-componentalloys,thisHEAexhibited
+superiorcatalyticactivityandstabilityinHER.Theenhancedcatalyticperformancestems
+fromcooperativeinteractionsamongmultimetallicactivesites. OperandosynchrotronX-
+rayabsorptionspectroscopytrackingofCu/Ptoxidationstatesandcoordinationgeometries
+confirmedthepreservationofatomic-scaledisorderinPtPdRhRuCu/Cthroughoutalkaline
+electrolysis, with no detectable phase segregation or elemental redistribution. Density
+functionaltheory(DFT)calculationsfurtherelucidateditscatalyticmechanism: Rusites
+optimizedtheH Oadsorptionconfiguration,loweringthewaterdissociationenergybarrier
+2
+(0.62eV);PtsitesactedasprotoncapturecentersacceleratingH*intermediatedesorption;
+whileCu-inducedlatticecontractionweakenedthebondingstrengthofadsorbedspecies.
+Thesynergisticactionofthesethreesignificantlyoptimizedthethermodynamicpathways
+oftheVolmerstep(waterdissociation)andHeyrovskystep(H generation).
+2
+4.2. OxygenEvolutionReaction(OER)
+Theoxygenevolutionreaction(OER),functioningastheanodiccounterpartinwater
+electrolysiscells,proceedsthroughaquaternaryproton-coupledelectrontransferpathway
+withconcomitantO-Obondformation. Thismulti-stepprocessimposessubstantialkinetic
+barriers,necessitatingsignificantoverpotentialstodrivepracticalreactionrates. Thereac-
+
+Materials2025,18,4021 22of27
+tionmechanismsarecategorizedintoadsorbateevolutionmechanism(AEM)andlatticeox-
+idationmechanism(LOM):AEMcompletesviastepwisedeprotonationofOH→O→OOH*
+intermediates,whileLOMreliesontheoxidativecouplingoflatticeoxygen.
+Maetal. treatedahigh-entropyalloy(HEA)withHFtohydroxylateit(HF-HEA)and
+performedinsituelectrochemicalactivation,successfullypreparinganovelhighlyefficient
+CoCrFeNiAlHEA-supportedCo,Fe,Ni-(O)OHelectrocatalyst[86]. Thiscatalystdemon-
+stratedremarkableelectrocatalyticefficacyfortheoxygenevolutionreaction,achieving
+thebenchmarkcurrentdensityof10mAcm−2atanoverpotentialη=240mV,withaTafel
+slopeof52.7mVdec−1. StudiesshowedthatCrandAlelementsplayedkeypromoting
+rolesintheHEA/Co,Fe,Ni-(O)OHsystem,notonlyenhancingitselectrochemicalactivity
+butalsofurtherboostingcatalyticperformancebyincreasingtheNi3+/Ni2+ molarratioon
+theNi(OH) /NiOOHsurface. Furthermore,duringelectrochemicalactivation,theleaching
+x
+ofCr3+andAl3+significantlyincreasedtheelectrochemicalactivesurfacearea(ECSA)of
+theHF-HEA,therebyimprovingoverallcatalyticefficiency. Thisresearchprovidesnew
+insightsfortheapplicationofHEAsinelectrocatalysisandisexpectedtoadvancetheir
+developmentinhigh-efficiencyelectrocatalysts.
+Zhouetal. addressedtheissuesofexpensiveandinefficientelectrodesandtheex-
+ceptionally low efficiency of hydrogen production in alkaline water electrolysis (AWE)
+byusingAlCoCrFeNihigh-entropyalloyasahigh-efficiencyelectrode[90]. Theyfound
+thatafteranodicoxidationtreatmentoftheHEAin1molL−1 HCl,itssurfaceconsisted
+of metals, oxides, and oxyhydroxides, forming some pore structures. Subsequently, in
+1molL−1KOHsolution,theanodizedHEAexhibitedexcellenthydrogenevolutionreac-
+tion(HER)andoxygenevolutionreaction(OER)performance. ItsHERoverpotentialwas
+only84.5mVat500mAcm−2,andOERoverpotentialwas88.0mVat−500mAcm−2. Ina
+fullwater-splittingcell,thiselectrocatalystachievedacurrentdensityof500mAcm−2atan
+overpotentialof3.00Vandmaintainedgoodstabilityevenafterprolongedoperation(over
+100h). InsituRamanspectroscopyanalysisfurtherrevealedthecriticalroleofmulti-metal
+elementsinHER,whilemulti-metaloxyhydroxidesdominatedtheOER.Additionally,the
+bulkHEAstructureformedbyanodizationshowsgreatpotentialinindustrial-scaleAWE
+systems,promisingtobeanefficientandstableelectrodematerial.
+4.3. OxygenReductionReaction(ORR)
+Theoxygenreductionreaction(ORR)isthecorecathodicprocessinfuelcells,where
+oxygen is reduced to water or hydrogen peroxide via a four-electron or two-electron
+pathway. Thefour-electronpathwayishighlyvaluedduetoitshighenergyefficiencybut
+requiresovercomingthehighactivationenergyforO dissociation. Thereactionpathway
+2
+selectivityispredominantlygovernedbythecatalyst’soxygenadsorptionenergeticsand
+kineticfacilityforO-Obondscission.
+Qiuetal. usedasimplealloying-dealloyingprocesstouniformlymixfivedifferent
+metal elements in variable combinations and compositions, forming a nanoscale body-
+centeredcubic(BCC)structurephase[87]. ThepreparedHEAswithlowPtcontent(approx.
+20–30at.%)exhibitedabimodalporousstructureandultra-finemulti-componentalloy
+nanochains. Bystudyingandscreeningthecompositioneffect,ahighlyORR-activenp-
+AlCuNiPtMncatalystwasdiscovered,exhibitingahalf-wavepotentialof0.945Vinacidic
+mediaandamassactivityapproximately16timeshigherthanPt/C.Thisnp-HEAoffers
+avastdesignspace,providinganewpathwayfordiscoveringhigh-qualitycatalystsfor
+differentchemicalreactions[88].
+Further research showed that the dealloying strategy can efficiently prepare HEA
+materialswithporousstructures,significantlyincreasingtheirspecificsurfaceareaand
+exposingmoreactivesites,therebyenhancingelectrocatalyticperformance. Forinstance,
+
+Materials2025,18,4021 23of27
+Leeetal. successfullysynthesizedvariousnanoporousHEAs,includingAlNiCuPtPdAu,
+bycombiningmeltspinninganddealloying[91]. TheyfoundthattheAlCuNiPtMnHEA
+outperformedPt/CcatalystinORRcatalyticactivityandelectrochemicalcyclingstability.
+Moreover,thenp-HEAexhibitedexcellentdurabilityinacidicsolution,maintaining92.5%
+ofitsinitialactivityevenafter100electrochemicalcycles. ThefollowingTable5liststhe
+performancecomparisonofhigh-entropyalloycatalystsinthreereactions.
+Table5.PerformancecomparisonofHEAcatalystsinkeyreactions.
+HEA
+Reaction Overpotential(η) TafelSlope Stability Conditions Reference
+Composition
+0.5MH SO ,
+HER NiCoFePtRh/C 28mV@10mAcm−2 30.1s−1TOF >99%(10kcycles) 25◦C 2 4 [45]
+1MKOH,
+OER FeCoNiCrP 286mV@10mAcm−2 27.6mVdec−1 >24h@100mAcm−2 25◦C [78]
+0.1MHClO ,
+ORR np-AlCuNiPtMn E 1 / 2 =0.945V Unclear 92.5%(100cycles) 25◦C 4 [89]
+1MKOH,
+HER FeCoNiCu 71mV@10mAcm−2 45mVdec−1 >50h@50mAcm−2 25◦C [65]
+5. Conclusions
+High-entropy alloy catalysts (HEAs), leveraging their unique high-entropy effect,
+latticedistortioneffect,sluggishdiffusioneffect,and“cocktaileffect,”havebrokenthrough
+the design limitations of traditional alloys. As multi-principal element near-equimolar
+solidsolutions,theyexhibitsignificantcomprehensiveperformanceadvantagesinthefield
+ofelectrocatalysis. Theirflexibletunabilityincompositionandstructureprovidesbroad
+scopeforoptimizingelectronicstates,exposinghigh-densityactivesites,andregulating
+theadsorptionbehaviorofkeyintermediates. Thedevelopmentofvariouspreparation
+methods(e.g.,chemicalco-reduction,solutioncombustion,mechanicalalloying,sol–gel),
+combinedwiththeoreticalcalculationsanddata-drivenstrategies,hasfurtherpropelled
+materialdesignandperformanceenhancement. Incoreelectrocatalyticreactionssuchas
+hydrogenevolution,oxygenevolution,andoxygenreduction,HEAsdemonstrateactivity
+andstabilitysurpassingtraditionalcatalysts. Theirperformanceimprovementstemsfrom
+theoptimizationofreactionpathwaysandkineticsthroughmulti-elementsynergy.
+Futureresearchneedstodeeplyrevealthedynamicreactionmechanismsatmulti-
+componentsurfaceactivesitesanddevelopcross-scaletheoreticalcalculationsandma-
+chine learning-assisted rational design methods to accelerate the development of high-
+performancenon-preciousmetalHEAsystems. Simultaneously,bottlenecksinlarge-scale
+preparation concerning compositional uniformity, structural stability, and cost control
+needtobeovercome. Nanostructuredesignandsurface/interfaceengineeringshouldbe
+optimized,andtheirapplicationpotentialincomplexpracticalsystems(e.g.,industrial-
+grade electrolysis, fuel cells) needs to be expanded. Establishing unified and rigorous
+performanceevaluationstandardsiskeytorealizingthetransitionofHEAcatalystsfrom
+fundamentalresearchtoindustrialapplication. Withdeepeningmechanisticunderstand-
+ingandinnovationinpreparationtechnologies, HEAcatalystsareexpectedtoprovide
+breakthroughsolutionsforcleanenergyconversionandstoragetechnologies.
+Futureworkmustaddress: (i)toaddresskineticenergybottlenecksatmulti-elemental
+active sites by in situ spectroscopy; (ii) the discovery of low-cost, non-precious metal-
+basedmixed-elementalloysystemsthroughmachinelearningguidance;(iii)challengesin
+industrial-scalesynthesis(e.g.,compositionuniformityinthesol–gelroute);(iv)Standard-
+izedtestprotocolsforindustrialbenchmarking.
+
+Materials2025,18,4021 24of27
+Author Contributions: Writing—original draft, X.Y. (Xiangdi Yin); Conceptualization, Y.Z., X.Y.
+(XiangdiYin);writing—reviewandediting,X.Y.(XiangdiYin),X.Y.(XianjieYuan)andY.C.;Method-
+ology,Y.Z.,andY.C.;supervision,X.Y.(XianjieYuan);fundingacquisition,X.Y.(XianjieYuan);project
+administration,X.Y.(XianjieYuan),X.Y.(XiangdiYin)andY.Z.Allauthorshavereadandagreedto
+thepublishedversionofthemanuscript.
+Funding:ThisresearchwasfundedbytheHenanProvinceKeyR&DandPromotionSpecialProject
+(ScienceandTechnologyResearch),grantnumber232102230051.
+InstitutionalReviewBoardStatement:Notapplicable.
+InformedConsentStatement:Notapplicable.
+DataAvailabilityStatement:Nonewdatawerecreatedoranalyzedinthisstudy.Datasharingis
+notapplicabletothisarticle.
+ConflictsofInterest:Theauthorsdeclarenocompetinginterests.
+References
+1. Ghosh,A.;Dhiman,S.;Gupta,A.;Jain,R.ProcessEvaluationofScandiumProductionandItsEnvironmentalImpact.Environments
+2022,10,8.[CrossRef]
+2. Pachauri,N.;Ahn,C.;Choi,T.Biocharenergypredictionfromdifferentbiomassfeedstocksforcleanenergygeneration.Environ.
+Technol.Innov.2025,37,104012.[CrossRef]
+3. Fu,X.;Zhang,J.;Kang,Y.RecentAdvancesandChallengesofElectrochemicalAmmoniaSynthesis.ChemCatal.2022,2,2590–2613.
+[CrossRef]
+4. Hu,Q.;Wang,H.;Dai,C.;Lei,X.;Wang,B.;Liu,X.ResearchAdvancesinHigh-EntropyAlloyCatalystsforWaterElectrolysis
+underAcidicConditions.J.Electroanal.Chem.2024,964,118313.[CrossRef]
+5. Kai,A.;Tomisaki,M.;Matsumoto,H.SequentialGenerationofHydrogenandOxygenByWaterElectrolysisUsingIodineRedox.
+Meet.Abstr.2024,MA2024-02,3517.[CrossRef]
+6. Wang,C.;Wang,Y.;Xiong,Y.;Hao,F.;Liu,F.;Guo,L.;Meng,X.;Siu,C.-K.;Fan,Z.TailoredHigh-EntropyAlloyNanomaterials
+forElectrocatalyticApplications.EnergyChem2025,7,100155.[CrossRef]
+7. Cruz-Navarro, J.; Hernández-García, F.; Sánchez-Mora, A.; Moreno-Narváez, M.; Reyes-Márquez, V.; Colorado-Peralta, R.;
+Morales-Morales,D.Copper-BasedMetal–OrganicFrameworksAppliedasElectrocatalystsfortheElectroreductionofCarbon
+Dioxide(CO ER)toMethane:AReview.Methane2024,3,466–484.[CrossRef]
+2
+8. Chen,J.;Gu,Y.;Zhu,Q.AutomatedMachineLearningofInterfacialInteractionDescriptorsandEnergiesinMetal-CatalyzedN
+2
+andCO ReductionReactions.Langmuir2025,41,3490–3502.[CrossRef]
+2
+9. Cui,S.;Zhong,X.;Li,Z.;Zhu,P.;Hu,J.;Zhou,X.;Kidkhunthod,P.;Wang,X.;Mei,B.;Xu,B.NanosecondLaserSynthesisof
+MXene-DerivedTiO2/High-EntropyAlloysforPhoto-AssistedZinc–AirBatteries.Adv.Mater.2025,2504099.[CrossRef]
+10. Qin,Y.;Huang,H.;Yu,W.;Zhang,H.;Li,Z.;Wang,Z.;Lai,J.;Wang,L.;Feng,S.PorousPdWM(M=Nb,MoandTa)Trimetallene
+forHighC1SelectivityinAlkalineEthanolOxidationReaction.Adv.Sci.2021,9,2103722.[CrossRef]
+11. Hu,Y.;Guo,X.;Shen,T.;Zhu,Y.;Wang,D.HollowPorousCarbon-ConfinedAtomicallyOrderedPtCo Intermetallicsforan
+3
+EfficientOxygenReductionReaction.ACSCatal.2022,12,5380–5387.[CrossRef]
+12. Liu,W.;Feng,H.;Yang,Y.;Niu,Y.;Wang,L.;Yin,P.;Hong,S.;Zhang,B.;Zhang,X.;Wei,M.Highly-efficientRuNisingle-atom
+alloycatalyststowardchemoselectivehydrogenationofnitroarenes.Nat.Commun.2022,13,3188.[CrossRef]
+13. Ali,A.;Shen,P.K.NonpreciousMetal’sGraphene-supportedElectrocatalystsforHydrogenEvolutionReaction:Fundamentalsto
+Applications.CarbonEnergy2019,2,99–121.[CrossRef]
+14. Wang,H.;Cui,Y.NanodiamondsforEnergy.CarbonEnergy2019,1,13–18.[CrossRef]
+15. Yuan,Y.;Lu,J.DemandingEnergyfromCarbon.CarbonEnergy2019,1,8–12.[CrossRef]
+16. Abideen,Z.U.;Malik,M.;Liu,M.;Huang,T.;Hou,Q.;Wu,W.;Bibi,S.;Yang,Z.;Liu,H.DiminutiveTuningofLatticeOxygen
+ControlledbySulfur-MediatedVacanciesforOxygenEvolutionReaction.J.ColloidInterfaceSci.2025,699,138284.[CrossRef]
+[PubMed]
+17. Zhang,W.;Xie,X.-Y.;Cao,C.-S.;Li,Y.-Q.;Khan,M.I.;Zhu,Q.-L.Self-SupportedMoandZnCo-DopedCoPNanosheetArray
+ElectrodeforLarge-Current-DensityHydrogenEvolution.RareMet.2025,44,6258–6267.[CrossRef]
+18. Sun, X.; Liang, Y.; Jiang, H.; Li, Z.; Wu, S.; Gao, Z.; Cui, Z.; Fan, G.; Zhu, S.; Xu, W.AnodicOxidation-InducedInterfacial
+RegulationofNanoporousCo P/CoOOHforElectrocatalyticNitrateReductiontoAmmonia.ACSAppl.Mater.Interfaces2025,
+2
+17,28256–28266.[CrossRef][PubMed]
+
+Materials2025,18,4021 25of27
+19. Duan,X.; Xu,J.; Li,J.; Du,C.; Chen,K.; Xu,T.; Sun,Y.; Xiong,H.EnhancingCO ReductionEfficiencywithAxialOxygen
+2
+CoordinatedNi-N4ActiveSitesonHierarchicalPoreN-DopedCarbon.Chin.Chem.Lett.2025,36,110340.[CrossRef]
+20. Chu,X.;Liu,S.;Luan,B.;Zhang,Y.;Xi,Y.;Shao,L.;Zhang,F.;Lan,Y.Crystal-Facet-ControlledInternalElectricFieldinMOF/COF
+HeterojunctionTowardsEfficientPhotocatalyticOverallWaterSplitting.Angew.Chem.2025,137,e202422940.[CrossRef]
+21. Lu,J.;Liu,Y.;Zhang,S.;Nie,J.;Tang,B.;Guan,J.;Zhang,J.CouplingDimethylglyoximetoEnhanceCoordinationBondsofPd
+Single-AtomCatalystforSolvingStabilityandActivityConflict.Inorg.Chem.2025,64,11236–11245.[CrossRef]
+22. Yuan,G.;RuizPestana,L.TheEffectofSurfaceOxygenCoverageontheOxygenEvolutionReactionoveraCoFeNiCrHigh-
+EntropyAlloy.Nanomaterials2024,14,1058.[CrossRef]
+23. Yeh,J.-W.;Chen,S.-K.;Lin,S.-J.;Gan,J.-Y.;Chin,T.-S.;Shun,T.-T.;Tsau,C.-H.;Chang,S.-Y.NanostructuredHigh-EntropyAlloys
+withMultiplePrincipalElements:NovelAlloyDesignConceptsandOutcomes.Adv.Eng.Mater.2004,6,299–303.[CrossRef]
+24. Ren,J.-T.;Chen,L.;Wang,H.-Y.;Yuan,Z.-Y.High-EntropyAlloysinElectrocatalysis:FromFundamentalstoApplications.Chem.
+Soc.Rev.2023,52,8319–8373.[CrossRef]
+25. Zhang,Q.;Lian,K.;Qi,G.;Zhang,S.;Liu,Q.;Luo,Y.;Luo,J.;Liu,X.High-entropyalloysinwaterelectrolysis:Recentadvances,
+fundamentals,andChallenges.Sci.ChinaMater.2023,66,1681–1701.[CrossRef]
+26. Yu,Y.;Xia,F.;Wang,C.;Wu,J.;Fu,X.;Ma,D.;Lin,B.;Wang,J.;Yue,Q.;Kang,Y.High-EntropyAlloyNanoparticlesasaPromising
+ElectrocatalysttoEnhanceActivityandDurabilityforOxygenReduction.NanoRes.2022,15,7868–7876.[CrossRef]
+27. Li,L.;Wang,P.;Shao,Q.;Huang,X.MetallicNanostructureswithLowDimensionalityforElectrochemicalWaterSplitting.Chem.
+Soc.Rev.2020,49,3072–3106.[CrossRef]
+28. Wang,Y.;Lv,H.;Sun,L.;Jia,F.;Liu,B.OrderedMesoporousIntermetallicTrimetalsforEfficientandpH-UniversalHydrogen
+EvolutionElectrocatalysis.Adv.EnergyMater.2022,12,2201478.[CrossRef]
+29. Hao,J.;Zhuang,Z.;Cao,K.;Gao,G.;Wang,C.;Lai,F.;Lu,S.;Ma,P.;Dong,W.;Liu,T.;etal.UnravelingtheElectronegativity-
+DominatedIntermediateAdsorptiononHigh-EntropyAlloyElectrocatalysts.Nat.Commun.2022,13,2662.[CrossRef]
+30. Zhu,G.;Jiang,Y.;Yang,H.;Wang,H.;Fang,Y.;Wang,L.;Xie,M.;Qiu,P.;Luo,W.ConstructingStructurallyOrderedHigh-Entropy
+AlloyNanoparticlesonNitrogen-RichMesoporousCarbonNanosheetsforHigh-PerformanceOxygenReduction.Adv.Mater.
+2022,34,2110128.[CrossRef]
+31. Sun,Y.; Yu,L.; Xu,S.; Xie,S.; Jiang,L.; Duan,J.; Zhu,J.; Chen,S.Battery-DrivenN ElectrolysisEnabledbyHigh-Entropy
+2
+Catalysts:FromTheoreticalPredictiontoPrototypeModel.Small2022,18,2106358.[CrossRef]
+32. Zhang,D.;Zhao,H.;Wu,X.;Deng,Y.;Wang,Z.;Han,Y.;Li,H.;Shi,Y.;Chen,X.;Li,S.;etal.Multi-SiteElectrocatalystsBoost
+pH-UniversalNitrogenReductionbyHigh-EntropyAlloys.Adv.Funct.Mater.2020,31,2006939.[CrossRef]
+33. Wang,D.;Chen,Z.;Huang,Y.-C.;Li,W.;Wang,J.;Lu,Z.;Gu,K.;Wang,T.;Wu,Y.;Chen,C.;etal. TailoringLatticeStrainin
+Ultra-FineHigh-EntropyAlloysforActiveandStableMethanolOxidation.Sci.ChinaMater.2021,64,2454–2466.[CrossRef]
+34. Li,H.;Sun,M.;Pan,Y.;Xiong,J.;Du,H.;Yu,Y.;Feng,S.;Li,Z.;Lai,J.;Huang,B.;etal.TheSelf-ComplementaryEffectthrough
+StrongOrbitalCouplinginUltrathinHigh-EntropyAlloyNanowiresBoostingpH-UniversalMultifunctionalElectrocatalysis.
+Appl.Catal.BEnviron.2022,312,121431.[CrossRef]
+35. Fan,L.; Ji,Y.; Wang,G.; Chen,J.; Chen,K.; Liu,X.; Wen,Z.HighEntropyAlloyElectrocatalyticElectrodetowardAlkaline
+GlycerolValorizationCouplingwithAcidicHydrogenProduction.J.Am.Chem.Soc.2022,144,7224–7235.[CrossRef]
+36. Gludovatz,B.;Hohenwarter,A.;Catoor,D.;Chang,E.H.;George,E.P.;Ritchie,R.O.AFracture-ResistantHigh-EntropyAlloyfor
+CryogenicApplications.Science2014,345,1153–1158.[CrossRef]
+37. Wang,Y.;Yu,B.;He,M.;Zhai,Z.;Yin,K.;Kong,F.;Zhang,Z.Eutectic-DerivedHigh-EntropyNanoporousNanowiresforEfficient
+andStableWater-to-HydrogenConversion.NanoRes.2021,15,4820–4826.[CrossRef]
+38. Sheng,Y.;Wang,K.;Gao,P.;Cui,T.Researchstatusandprospectsofcorrosionresistanceofhighentropyalloys.Mater.Prot.2024,
+57,53–66.[CrossRef]
+39. Li,W.;Guo,W.;Zhang,H.;Xu,H.;Chen,L.;Zeng,J.;Liu,B.;Ding,Z.InfluenceofMoontheMicrostructureandCorrosion
+BehaviorofLaserCladdingFeCoCrNiHigh-EntropyAlloyCoatings.Entropy2022,24,539.[CrossRef]
+40. Han, F.; Zhang, L.; Jin, Q. High Rate and Long-Cycle Life of Lithium–Sulfur Battery Enabled by High d-Band Center of
+High-EntropyAlloys.ACSNano2025,19,9182–9195.[CrossRef]
+41. Tian,J.;Rao,Y.;Shi,W.;Yang,J.;Ning,W.;Li,H.;Yao,Y.;Zhou,H.;Guo,S.SabatierRelationsinElectrocatalystsBasedon
+High-entropyAlloyswithWide-distributedD-bandCentersforLi-O Batteries. Angew. Chem. Int. Ed. 2023,62,e202310894.
+2
+[CrossRef]
+42. Zhu,G.;Bao,W.;Xie,M.;Qi,C.;Xu,F.;Jiang,Y.;Chen,B.;Fan,Y.;Liu,B.;Wang,L.;etal.AcceleratingTandemElectroreduction
+ofNitratetoAmmoniaviaMulti-SiteSynergyinMesoporousCarbon-SupportedHigh-EntropyIntermetallics.Adv.Mater.2024,
+37,2413560.[CrossRef][PubMed]
+43. Xu,W.;Diesen,E.;He,T.;Reuter,K.;Margraf,J.T.DiscoveringHighEntropyAlloyElectrocatalystsinVastCompositionSpaces
+withMultiobjectiveOptimization.J.Am.Chem.Soc.2024,146,7698–7707.[CrossRef][PubMed]
+
+Materials2025,18,4021 26of27
+44. Zhu,H.;Sun,S.;Hao,J.;Zhuang,Z.;Zhang,S.;Wang,T.;Kang,Q.;Lu,S.;Wang,X.;Lai,F.;etal. AHigh-EntropyAtomic
+EnvironmentConvertsInactivetoActiveSitesforElectrocatalysis.EnergyEnviron.Sci.2023,16,619–628.[CrossRef]
+45. Feng,G.;Ning,F.;Song,J.;Shang,H.;Zhang,K.;Ding,Z.;Gao,P.;Chu,W.;Xia,D.Sub-2NmUltrasmallHigh-EntropyAlloy
+NanoparticlesforExtremelySuperiorElectrocatalyticHydrogenEvolution.J.Am.Chem.Soc.2021,143,17117–17127.[CrossRef]
+46. Zhou, Y.; Shen, X.; Wang, M.; Zhang, L.; Qian, T.; Yan, C.; Lu, J.TheUnderstanding, RationalDesign, andApplicationof
+High-EntropyAlloysasExcellentElectrocatalysts:AReview.Sci.ChinaMater.2023,66,2527–2544.[CrossRef]
+47. Zhan,C.;Xu,Y.;Bu,L.;Zhu,H.;Feng,Y.;Yang,T.;Zhang,Y.;Yang,Z.;Huang,B.;Shao,Q.;etal.SubnanometerHigh-Entropy
+AlloyNanowiresEnableRemarkableHydrogenOxidationCatalysis.Nat.Commun.2021,12,6261.[CrossRef]
+48. Meng,F.;Zhang,Y.;Yang,J.Researchprogressoncatalyticperformanceofhigh-entropyalloys.Trans.Mater.HeatTreat.2023,44,
+20–27.[CrossRef]
+49. Yao,Y.;Dong,Q.;Brozena,A.;Luo,J.;Miao,J.;Chi,M.;Wang,C.;Kevrekidis,I.G.;Ren,Z.J.;Greeley,J.;etal. High-Entropy
+Nanoparticles:Synthesis-Structure-PropertyRelationshipsandData-DrivenDiscovery.Science2022,376,eabn3103.[CrossRef]
+50. Zheng,H.; Luo,G.; Zhang,A.; Lu,X.; He,L.TheSynthesisandCatalyticApplicationsofNanosizedHigh-EntropyAlloys.
+ChemCatChem2020,13,806–817.[CrossRef]
+51. Zhang,Y.;Wang,D.;Wang,S.High-EntropyAlloysforElectrocatalysis:Design,Characterization,andApplications.Small2021,
+18,2104339.[CrossRef][PubMed]
+52. Hafner,J.; Wolverton,C.; Ceder,G.TowardComputationalMaterialsDesign: TheImpactofDensityFunctionalTheoryon
+MaterialsResearch.MRSBull.2006,31,659–668.[CrossRef]
+53. Qiu, J.; Xu, Z.; Song, J.; Hu, C.; Miao, L.; He, X.MolecularDynamicsSimulationofaNewInhomogeneousConcentration
+DistributionModelBasedonFrictionalBehaviorofFeNiCrCoCuHigh-EntropyAlloy.Mater.TodayCommun.2023,35,106337.
+[CrossRef]
+54. Moura,A.D.;Esteves,A.SimulationofthenucleationoftheprecipitateAl3Scinanaluminumscandiumalloyusingthekinetic
+montecarlomethod.InProceedingsofthe201313thIEEEInternationalConferenceonNanotechnology(IEEE-NANO2013),
+Beijing,China,5–8August2013;IEEE:Piscataway,NJ,USA,2013;pp.438–441.[CrossRef]
+55. Liu, Y.; Tian, X.; Han, Y.-C.; Chen, Y.; Hu, W.High-TemperatureShockSynthesisofHigh-Entropy-AlloyNanoparticlesfor
+Catalysis.Chin.J.Catal.2023,48,66–89.[CrossRef]
+56. Fan,X.;Chen,L.;Huang,D.;Tian,Y.;Zhang,X.;Jiao,M.;Zhou,Z.FromSingleMetalstoHigh-EntropyAlloys:HowMachine
+LearningAcceleratestheDevelopmentofMetalElectrocatalysts.Adv.Funct.Mater.2024,34,2401887.[CrossRef]
+57. Pedersen,J.;Batchelor,T.;Bagger,A.;Rossmeisl,J.High-EntropyAlloysasCatalystsfortheCO andCOReductionReactions.
+2
+ACSCatal.2020,10,2169–2176.[CrossRef]
+58. Zhang,R.;Li,J.-Q.;Wang,A.-J.;Song,P.;Liu,W.;Feng,J.-J.;Cheang,T.Y.UniformPtCoRuRhFeHigh-EntropyAlloyNanoflowers:
+Multi-SiteSynergisticSignalAmplificationforColorimetricAssayofCaptopril.Microchim.Acta2024,191,717.[CrossRef]
+59. Zhang,Z.;Yu,P.;Liu,Z.;Liu,K.;Mu,Z.;Wen,Z.;She,J.;Bai,Y.;Zhang,Q.;Cheng,T.;etal. Off-EquilibriumHydrothermal
+SynthesisofHigh-EntropyAlloyNanoparticles.J.Am.Chem.Soc.2025,147,9640–9652.[CrossRef]
+60. Tang,C.;Lv,C.-L.;Chen,P.;Wang,A.-J.;Feng,J.-J.;YunCheang,T.;Xia,H.DendriticQuinaryPtRhMoCoFeHigh-Entropy
+AlloyasaRobustImmunosensingNanoplatformforUltrasensitiveDetectionofBiomarker.Bioelectrochemistry2024,157,108639.
+[CrossRef]
+61. Zhou, J.; Sun, P.; Wang, X. A Nanoscale High-Entropy Alloy Thin Film Fabricated by Electrochemical Deposition and Its
+PhysicochemicalProperties.J.Adv.Phys.Chem.2023,12,140–146.[CrossRef]
+62. Cheng,W.;Sun,C.;Liu,W.;Wang,Z.High-EntropyAlloyPtCuNiCoMnNanoparticlesonrGOforElectrooxidationofMethanol
+andFormicAcid.Langmuir2024,40,2343–2351.[CrossRef]
+63. Nie,N.;Zhang,Y.;Gu,Y.;Du,H.;Yuan,Y.;Yang,Y.;Li,H.;Yang,B.;Lai,J.;Wang,L.ChelatingCo-ReductionStrategyforthe
+SynthesisofHigh-EntropyAlloyAerogels.Inorg.Chem.2023,62,12337–12344.[CrossRef][PubMed]
+64. Zhang,H.;Zhang,Y.;Guo,F.;Kang,J.;Liu,Z.;Zhang,L.;Cao,H.;Yu,L.;He,X.;Zheng,G.LowTemperatureCaH2-Assisted
+MoltenSaltSynthesisofUltrafineHighEntropyAlloyPowdersforCOCatalyticOxidation.J.AlloysCompd.2025,1032,181131.
+[CrossRef]
+65. Guo,F.;Zhang,Y.;Shen,B.;Wan,L.;Hou,G.;Cao,H.;Zheng,G.;Zhao,Y.;Zhang,H.Multi-SiteSynergisticHydrogenEvolution
+ReactionsonPorousHomogeneousFeCoNiCuHigh-EntropyAlloysFabricatedbySolutionCombustionSynthesisandHydrogen
+Reduction.J.AlloysCompd.2024,1002,175356.[CrossRef]
+66. Li,H.;Han,Y.;Zhao,H.;Qi,W.;Zhang,D.;Yu,Y.;Cai,W.;Li,S.;Lai,J.;Huang,B.;etal. FastSite-to-SiteElectronTransferof
+High-EntropyAlloyNanocatalystDrivingRedoxElectrocatalysis.Nat.Commun.2020,11,5437.[CrossRef][PubMed]
+67. Li,M.;Lin,F.;Zhang,S.;Zhao,R.;Tao,L.;Li,L.;Li,J.;Zeng,L.;Luo,M.;Guo,S.High-EntropyAlloyElectrocatalystsGoto
+(Sub-)Nanoscale.Sci.Adv.2024,10,eadn2877.[CrossRef]
+68. Sangeetha,A.;Chikkahanumantharayappa;Nagabhushana,B.M.ComparativeStudyofPhotoluminescenceofSingleandMixed
+PhaseZrTiO PreparedbySolutionCombustionandPolymericPrecursorMethod.J.Mol.Struct.2019,1179,126–131.[CrossRef]
+4
+
+Materials2025,18,4021 27of27
+69. Mararakin,M.D.;Vartanyan,M.A.;Makarov,N.A.;Sazhin,I.V.Sol-GelSynthesisbyMeansOfEutecticAdditivesforSilicon
+CarbideBasedCeramic.GlassCeram2018,74,326–328.[CrossRef]
+70. Chang,Z.;Chen,Z.;Wu,F.ComparisonoftheperformanceofsphericalLiNi Mn Co O preparedfromprecursorswith
+1/3 1/3 1/3 2
+differentvalencestatesofmetalions.RareMet.Mater.Eng.2009,38,500–505.[CrossRef]
+71. Cai,B.;Liu,H.;Han,W.SolutionCombustionSynthesisofFe O -BasedCatalystforAmmoniaSynthesis.Catalysts2020,10,1027.
+2 3
+[CrossRef]
+72. Jin,X.;Ye,W.;Feng,Z.;Qi,Q.;Yan-bin,C.PreparationofUltrafineA-Al2o3PowderbyHomogenousPrecipitation.Zhongguo
+YouseJinshuXuebao2007,5,783–788.[CrossRef]
+73. Liu,S.;Jia,B.;Wang,Y.;Zhao,Y.;Liu,L.;Fan,F.;Qin,Y.;Liu,J.;Jiang,Y.;Liu,H.;etal.TopologicalSynthesisof2DHigh-Entropy
+Multimetallic(Oxy)HydroxideforEnhancedLatticeOxygenOxidationMechanism.Adv.Mater.2024,36,2409530.[CrossRef]
+74. Lu,T.;Zhang,Y.;Ding,L.;Zheng,H.;Pan,Y.SolutionCombustionSynthesisofHigh-EntropyMetalSpinelOxideasOxygen
+EvolutionReactionCatalyst.ChinaFoundry2022,19,551–558.[CrossRef]
+75. Xie,L.;Dun,Y.;Wang,Q.;Xu,J.;Li,S.;Chen,R.;Du,C.;Shan,B.PtDecorated(CoMnFeCrNi) O High-EntropyOxidefor
+3 4
+Low-TemperatureCombustionofC H .Fuel2025,394,135090.[CrossRef]
+3 8
+76. Jimenez-Arevalo,V.M.;Martin,P.;Pio,E.;Pavez,J.;Aguilar,C.C.;Suryanarayana,C.;Páez,M.EnergyTransferbyMechanical
+AlloyingandElectrocatalyticPerformanceoftheAs-SinteredSelf-SupportedHigh-EntropyAlloyFeNiCoCuMo.Adv.Eng.Mater.
+2024,27,2400807.[CrossRef]
+77. Kumar,A.;Mucalo,M.;Bolzoni,L.;Li,Y.;Qu,Y.;Yang,F.FacileSynthesisofaNiMnFeCrCuHighEntropyAlloyforElectrocat-
+alyticOxygenEvolutionReactions.Mater.TodaySustain.2023,22,100360.[CrossRef]
+78. Pan,Y.;Zhong,X.;Zhu,Y.PreparationandElectrocatalyticOxygenEvolutionPerformanceofHigh-EntropyAlloyFeCoNiCrP.
+Mater.Rep.2022,36,33–37.[CrossRef]
+79. Wu,C.;Zhang,X.;Zhang,Y.;Ma,W.;Zhao,D.;Ren,B.;Zhang,Z.;Wang,Y.MechanicalAlloyedFeCoNiMoM(M=Cr,Cu)
+High-EntropyAlloyPowdersasElectrocatalystsforOxygenEvolutionReaction.J.Mater.2025,11,101046.[CrossRef]
+80. Dashtizad,S.;Alizadeh,P.;Yourdkhani,A.ImprovingPiezoelectricPropertiesofPVDFFibersbyCompositingwithBaTiO -Ag
+3
+ParticlesPreparedbySol-GelMethodandPhotochemicalReaction.J.AlloysCompd.2021,883,160810.[CrossRef]
+81. SanchezMendez,M.;Jia,Z.;Traore,M.;BenAmar,M.;Nikravech,M.;Kanaev,A.NucleationandGrowthofMixedVanadium-
+TitaniumOxo-AlkoxyNanoparticlesinSol-GelSynthesis.ColloidsSurf.APhysicochem.Eng.Asp.2021,610,125636.[CrossRef]
+82. Tang,L.;Yang,Y.;Guo,H.;Wang,Y.;Wang,M.;Liu,Z.;Yang,G.;Fu,X.;Luo,Y.;Jiang,C.;etal. HighConfigurationEntropy
+ActivatedLatticeOxygenforO2FormationonPerovskiteElectrocatalyst.Adv.Funct.Mater.2022,32,2112157.[CrossRef]
+83. Wang, Y.; Liu, S.; Qin, Y.; Zhao, Y.; Liu, L.; Zhang, D.; Liu, J.; Liu, Y.; Chu, A.; Wu, H.; et al. Chromium Promotes Phase
+TransformationtoActiveOxyhydroxideforEfficientOxygenEvolution.ACSCatal.2024,14,13759–13767.[CrossRef]
+84. Zhao,G.;Lu,K.;Li,Y.Anefficientandstablehigh-entropyalloyelectrocatalystforhydrogenevolutionreaction.Chin.J.Catal.
+2024,62,10.[CrossRef]
+85. Jia, M.; Jiang, J.; Tian, J.; Wang, X.; Yang, L.; Wu, Q.; Hu, Z.UltrasmallHigh-EntropyAlloyNanoparticlesonHierarchical
+N-DopedCarbonNanocagesforTremendousElectrocatalyticHydrogenEvolution.NanoRes.2024,17,9518–9524.[CrossRef]
+86. Ma,P.;Zhang,S.;Zhang,M.Hydroxylatedhigh-entropyalloyashighlyefficientcatalystforelectrochemicaloxygenevolution
+reaction.Sci.ChinaMater.2020,63,2613–2619.[CrossRef]
+87. Qiu,H.-J.;Fang,G.;Gao,J.;Wen,Y.;Lv,J.;Li,H.;Xie,G.;Liu,X.;Sun,S.NobleMetal-FreeNanoporousHigh-EntropyAlloysas
+HighlyEfficientElectrocatalystsforOxygenEvolutionReaction.ACSMater.Lett.2019,1,526–533.[CrossRef]
+88. Zhao,K.;Li,X.;Su,D.High-EntropyAlloyNanocatalystsforElectrocatalysis.ActaPhys.-Chim.Sin.2021,37,2009077.[CrossRef]
+89. Zhang,Q.;Zheng,D.;Liu,X.Researchprogressonhigh-performancehydrogenevolutionreactionelectrocatalystsunderhigh
+currentdensity.Low-CarbonChem.Chem.Eng.2024,49,96–104.[CrossRef]
+90. Zhou,P.;Wong,P.K.;Niu,P.;Chen,M.;Kwok,C.T.;Tang,Y.;Li,R.;Wang,S.;Pan,H.AnodizedAlCoCrFeNiHigh-EntropyAlloy
+forAlkalineWaterElectrolysiswithUltra-HighPerformance.Sci.ChinaMater.2022,66,1033–1041.[CrossRef]
+91. Lee,S.A.;Bu,J.;Lee,J.;Jang,H.W.High-EntropyNanomaterialsforAdvancedElectrocatalysis. SmallSci. 2023,3,2200109.
+[CrossRef]
+Disclaimer/Publisher’sNote: Thestatements, opinionsanddatacontainedinallpublicationsaresolelythoseoftheindividual
+author(s)andcontributor(s)andnotofMDPIand/ortheeditor(s).MDPIand/ortheeditor(s)disclaimresponsibilityforanyinjuryto
+peopleorpropertyresultingfromanyideas,methods,instructionsorproductsreferredtointhecontent.
+

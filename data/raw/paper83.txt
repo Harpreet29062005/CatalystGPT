@@ -1,0 +1,700 @@
+RESEARCH ARTICLE
+www.advancedscience.com
+Tailored Design of Mesoporous Nanospheres with High
+Entropic Alloy Sites for Efficient Redox Electrocatalysis
+Ravi Nandan, Hiroki Nara, Ho Ngoc Nam, Quan Manh Phung, Quynh Phuong Ngo,
+Jongbeom Na,* Joel Henzie,* and Yusuke Yamauchi*
+1.Introduction
+HighEntropyAlloys(HEAs)areaversatilematerialwithuniqueproperties,
+tailoredforvariousapplications.TheyenablepH-sensitiveelectrocatalytic Multi-metallic nanomaterials have gained
+significant attention due to their di-
+transformationslikehydrogenevolutionreaction(HER)andhydrogen
+verse compositional and configurational
+oxidationreactions(HOR)inalkalinemedia.Mesoporousnanostructures
+possibilities.[1–3] The inherent hetero-
+withhighsurfaceareaarepreferredfortheseelectrochemicalreactions,but geneity allows for increased functionality
+designingmesoporousHEAsischallenging.Toovercomethischallenge,a owing to multi-elemental synergy, making
+low-temperaturetriblockcopolymer-assistedwet-chemicalapproachis them desirable for various applications
+including energy storage and conver-
+developedtoproducemesoporousHEAnanospherescomposedof
+sion, biomedicine, catalysis, sensing,
+PtPdRuMoNisystemswithsufficiententropicmixing.Owingtoactivesites
+electronics, and photonics.[4–8] The re-
+withinherententropiceffect,mesoporousfeatures,andincreased
+cent introduction of high entropy alloy
+accessibility,optimizedHEAnanospherespromotestrongHER/HOR (HEA) nanostructures incorporating five
+performanceinalkalinemedium.At30mVnominaloverpotential,itexhibitsa or more principal elements has expanded
+massactivityof≈167(HER)and151Ag −1(HOR),farexceeding the multi-metallic material library, creat-
+Pt
+commercialPt-Celectrocatalysts(34and48Ag −1)andmanyrecently ing unique opportunities to explore and
+Pt optimizethestructure-propertycorrelation
+reportedvariousalloys.TheMott-SchottkyanalysisrevealsHEAnanospheres
+for targeted complex applications.[2,3,5,9–15]
+inherithighchargecarrierdensity,positiveflatbandpotential,andsmaller ThehigherconfigurationalentropyinHEA
+chargetransferbarrier,resultinginbetteractivityandfasterkinetics.This systems overrides the enthalpy penalties,
+micelle-assistedsyntheticenabletheexplorationofthecompositionaland preventing phase segregation by boosting
+the elemental solubility and resulting in
+configurationalspacesofHEAsatrelativelylowtemperature,while
+higher phase purity.[3,16] Achieving phase
+simultaneouslyfacilitatingtheintroductionofmesoporousnanostructuresfor
+purity in HEA results in the confinement
+awiderangeofcatalyticapplications.
+of multiple atomic species into the same
+lattice through entropic contributions.[9,17]
+R.Nandan,J.Henzie,Y.Yamauchi H.N.Nam,Y.Yamauchi
+ResearchCenterforMaterialsNanoarchitectonics DepartmentofMaterialsProcessEngineering
+NationalInstituteforMaterialsScience(NIMS) GraduateSchoolofEngineering
+1-1Namiki,Tsukuba,Ibaraki305-0044,Japan NagoyaUniversity
+E-mail:HENZIE.Joeladam@nims.go.jp;y.yamauchi@uq.edu.au Nagoya464-8603,Japan
+H.Nara Q.M.Phung
+WasedaResearchInstituteforScienceandEngineering DepartmentofChemistry
+WasedaUniversity GraduateSchoolofScience
+3-4-1Okubo,Shinjuku,Tokyo169-8555,Japan NagoyaUniversity
+Furo-cho,Chikusa-ku,Nagoya464-8602,Japan
+Q.M.Phung
+InstituteofTransformativeBio-Molecules(WPI-ITbM)
+NagoyaUniversity
+TheORCIDidentificationnumber(s)fortheauthor(s)ofthisarticle Furo-cho,Chikusa-ku,Nagoya464-8601,Japan
+canbefoundunderhttps://doi.org/10.1002/advs.202402518 Q.P.Ngo,J.Na
+©2024TheAuthor(s).AdvancedSciencepublishedbyWiley-VCH MaterialsArchitecturingResearchCenter
+GmbH.ThisisanopenaccessarticleunderthetermsoftheCreative KoreaInstituteofScienceandTechnology(KIST)
+CommonsAttributionLicense,whichpermitsuse,distributionand 5,Hwarang-ro14-gil,Seongbuk-gu,Seoul02792,RepublicofKorea
+reproductioninanymedium,providedtheoriginalworkisproperlycited. E-mail:jongbeom@kist.re.kr
+DOI:10.1002/advs.202402518
+Adv.Sci.2024,11,2402518 2402518(1of14) ©2024TheAuthor(s).AdvancedSciencepublishedbyWiley-VCHGmbH
+
+www.advancedsciencenews.com www.advancedscience.com
+Phase purity confers two significant benefits: i) the differing to dissolution and agglomeration during aggressive operating
+sizesoftheatomicspeciescausepronouncedlatticedistortion, conditions.[10,29,30]Theseeffectscombinetoreducethelongevity
+whichnotonlylowerstheoverallsystemenergybutalsoslows and overall effectiveness of electrocatalysts. Additional catalytic
+downinteratomicdiffusion,resultinginhigheroverallstructural supportplatformsareneededtoinducestability;however,they
+stability.[17]Besides,latticedistortionaffectsthelocalinteratomic maydecreasethespecificcapacityofthecatalysts,triggerdiffu-
+interactions, which regulate the adsorption energies of active sionlimitation,andcomplicatematerialsynthesis.[31] Theseis-
+sites.[5,9,17,18]Andii),theconfinementofmultipleatomicspecies suescanbeaddressedbyadoptingthemesoporousapproachin
+generates“cocktaileffects”thatbroadenthecatalyticrangeand catalystdesign.Mesoporousarchitecturesenhancetheeffective
+activesiteabilitybeyondwhatcanberealizedwithmonometallic surface area, exposing more active atomic sites to the environ-
+ortraditionalalloyingsystems.[5,9,17,18] ment while increasing the effective utilization of materials. At
+Theoxygenevolutionreaction(OER)/oxygenreductionreac- the same time, porous channels boost the effective transporta-
+tion(ORR)isacomplexmulti-electrontransferprocessthatplays tionofreactant/intermediatespecies.[4,5,32–34]Adoptingthehigh
+anessentialroleinelectrochemicalenergydeviceslikewaterelec- entropic alloying strategy with embedded mesoporous features
+trolyzers/fuelcells.[19–23]Itisessentialtonotethatthisprocessis has the potential to open a new avenue for the rational design
+morefavorableinalkalinemediums,whilethecomplementary and development of next-generation electrocatalysts. However,
+half-cellreaction,hydrogenevolutionreaction(HER)/hydrogen currentsyntheticapproacheslikecarbothermal,electrosynthesis,
+oxidationreaction(HOR),ismorekineticallyfavorableinacidic solvothermalpyrolysis,mechanicalmilling,reactivesputterde-
+mediums.[20,24–27] Unfortunately, integrating these reactions in position,andlaserablationhavelimitedabilitytocontrollablyim-
+the same electrochemical device presents practical difficulties, posemesoporosityinHEAsystems.[10,12,17,28,35–39]Althoughpost-
+which makes it challenging for electrolyzers and fuel cells to synthesis acid leaching has effectively created meso-porosity, it
+function efficiently. It is also worth noting that when it comes leadstomateriallossandaddscomplexitytothesynthesisand
+to HER/HOR, Pt/C-based electrocatalysts are considered state- handlingprocess.Analternativeapproachcouldinvolveexplor-
+of-the-artinacidicmediums.[26,27]However,theyfallshortwhen ingawetchemicalsynthesisprotocolincombinationwithsoft
+used in alkaline conditions.[26,27] This is because the nature of templatingmethodstoavoidmaterialloss.[40]
+theintermediatespeciesaswellastheirconcomitantadsorption In this work, we successfully developed an effective design
+energychangesdependingonthepHoftheoverallreaction,and protocolforcreatingmesoporousHEAnanospheresofPtPdRu-
+themono-metallicortraditionalalloyingsystemshaveactivesites MoNi. This is achieved using a single-pot wet chemical strat-
+thatonlyofferdiscreteadsorptionenergychoices.[9,24,26,27] They egy that utilizes the soft templating feature of Pluronic F-127
+cannot effectively counter the changes in a dynamic reaction (F127), a triblock copolymer (as shown in Figure 1a) with a
+environment, leading to overall decreased efficiency of electro- polypropylene glycol as the central hydrophobic block flanked
+catalysts.This,inturn,requireshigherenergyconsumptionin withtwohydrophilicblocksofpolyethyleneglycol(PEG).Byad-
+electrolyzers and reduced working/operating voltage (open cir- justing conditions including the solvent composition and reac-
+cuitvoltage)windowsinfuelcells.HEAsareapotentialstrategy tion time, the morphology and reactivity of the final HEA sys-
+toaddresstheabovelimitations.[9,17,28] Thisapproachleverages temsaretunedeffectively.Importantly,theoverallprocessdoes
+fourcriticaleffects:highentropy,cocktail,sluggishinteratomic notrequire/demandanysophisticatedanddedicatedinstrumen-
+diffusion, and lattice distortion, leading to a near-continuous tationfacilityandhenceisimmediatelyscalable.Theoptimized
+range of adsorption energies.[9,17,28] HEA sites are expected mesoporousPtPdRuMoNinanospheredemonstratesitssuperior
+to offer an expanded catalytic range and greater tolerance to- catalytic efficiency through electrocatalytic hydrogen evolution
+wardvariationsinreactionpHwithoutcompromisingcatalytic and oxidation studies, HER and HOR, in an otherwise kineti-
+efficacy.[9,18] cally less favored alkaline medium. At a nominal overpotential
+In general, electrochemical reactions occur mainly on cat- of30mV,thePtPdRuMoNinanosphereexhibitsaspecificactiv-
+alytic surfaces, and nanoparticles (≤10 nm) are favorable due ity of approximately 167 (HER) and 151 A g −1 (HOR), which
+Pt
+to their high surface-to-volume ratio, but they are susceptible is significantly much higher than that of state-of-the-art Pt-C-
+basedelectrocatalysts(34and48Ag −1,respectively)andvarious
+Pt
+other recently reported multi-metallic systems (Table S1, Sup-
+porting Information). The computational insights demonstrate
+J.Na the high entropic alloying effect of PtPdRuMoNi nanospheres,
+KHU-KISTDepartmentofConvergingScienceandTechnology resultinginanincreasedinherentcatalyticability,asevidenced
+KyungHeeUniversity by its higher exchange current density of 2.83 mA cm−2 com-
+Seoul02447,RepublicofKorea
+paredtoPt-C(1.67mAcm−2),anintrinsicmaterialproperty.The
+J.Na,Y.Yamauchi
+SchoolofChemicalEngineeringandAustralianInstitutefor mesoporous structure of the PtPdRuMoNi nanosphere further
+BioengineeringandNanotechnology(AIBN) facilitatestheexposureofnumerousHEAsites,enablingthemi-
+TheUniversityofQueensland grationofreactingspeciesandcontributingtoitsexcellentcat-
+Brisbane,QLD4072,Australia
+alyticperformance.ThemethodologyusedtodesignthePtPdRu-
+Y.Yamauchi
+MoNinanosphereissimpleandeffectivefordevelopingavariety
+DepartmentofPlant&EnvironmentalNewResources
+ofcatalyticallyactivemesoporousHEAnanostructuresandcan
+KyungHeeUniversity
+1732, Deogyeong-daero, Giheung-gu, Yongin-si, Gyeonggi-do 17104, befurtherexploredtodevelopawiderangeofmesoporousHEA
+RepublicofKorea systemsfordiversefieldsofapplications.
+Adv.Sci.2024,11,2402518 2402518(2of14) ©2024TheAuthor(s).AdvancedSciencepublishedbyWiley-VCHGmbH
+
+www.advancedsciencenews.com www.advancedscience.com
+Figure1. a)SchematicillustrationofmesoporousPtPdRuMoNiHEAnanospheresformationusingaone-potwetchemicalreductionprocessforoverall
+hydrogenevolutionandoxidationreactionsinalkalinemedia.Therepresentativeb)SEM,c)TEM,andd)HAADF-STEMimagesofHEA10(mesoporous
+PtPdRuMoNiHEAnanospheres).Theassociatede)HRTEMimage,f)FTpattern,deducedfrom(e),g–j)correspondingsetofplanesandconcomitant
+interplanarspacing,deducedfrom(e)and(f)forHEA10.
+2.ResultsandDiscussion aqueous medium such as water, it forms micelles with the hy-
+drophobicbranchasthecore.
+2.1.StructuralStudiesofMesoporousHEANanospheres Thedynamiclightscattering(DLS)studyrevealsthatthemean
+diameterofthemicellesis≈14nm,asshowninFigureS1(Sup-
+The process for designing mesoporous PtPdRuMoNi HEA portingInformation).Thehydrophilicexteriorsurfaceofthemi-
+nanospheres is illustrated in Figure 1a. This result is achieved cellescanaccommodatemetalioncomplexesthrougheitherhy-
+through a simple one-pot wet chemical reduction process that drogen bonding or electrostatic interactions, depending on the
+utilizestheF-127triblockcopolymerasapore-institutingagent. numberofwatermoleculespresentinthecoordinationsphere
+F-127 consists of a hydrophobic block at the center, flanked by of the metal ion complexes in an aqueous solution.[33,41–43] To
+two hydrophilic blocks. When the copolymer interacts with an probe the possible interaction of metal ions with F127-based
+Adv.Sci.2024,11,2402518 2402518(3of14) ©2024TheAuthor(s).AdvancedSciencepublishedbyWiley-VCHGmbH
+
+www.advancedsciencenews.com www.advancedscience.com
+micelles, if any, we measured the UV–vis absorption spectra atomicratios,thefinalHEAmesoporousnanospheresarecom-
+of metal ions containing precursor solution with and without parativelyrichinPtandPdatomslikelyduetothefavorablere-
+copolymer micelles (Figure S2, Supporting Information). The ductionkineticsofPtandPdmetalionsamongPtPdRuMoNiele-
+absorption spectra of the respective metal salts containing so- mentalgrouping.Theestimatedconfigurationalentropy(ΔS )
+mix
+lutions exhibit characteristic typical absorption peaks. Interest- based on ICP-OES measurement for HEA10 is 1.5R, making
+ingly,themetalsaltsolutionwithmicellesexhibitsimilarpeaks themHEAmaterials.[2]
+withanoticeablehyperchromiceffect.Thishyperchromiceffect, Thecombinedevaluationofelementalmappingandlinescan-
+wheretheabsorptionspectrashiftedtoincreasedabsorbancein- ningprofilesuggeststhatthoughallfiveelementsaredistributed
+tensity values without affecting the position of the peaks, indi- throughouttheHEA10nanospheres,thecoreseemstoberich
+catesanintimateinteractionbetweenmetalioncomplexesand in palladium, while the exterior is rich in platinum. This in-
+themicellesinthesolution(pleaseseetheSupportingInforma- fers that, though the standard reduction potential of Pt com-
+tionfordetails).[33] F127polymerwasfirstdissolvedentirelyin plexes([PtCl ]2−/Pt≈+0.76VvsSHE)ishigherthanPdcom-
+4
+water,creatingatransparentsolutioncontainingmicelles,asevi- plexes([PdCl ]2−/Pd≈+0.59VvsSHE),theprocessstartswith
+4
+dencedbytheTyndalleffect(FigureS3,SupportingInformation). the preferable reduction of Pd species. This anomalous behav-
+Afterward, aqueous metal salt solutions of Ni, Mo, Ru, Pd, Pt, iorhasbeenobservedpreviously,eveninabimetallicsystemof
+and a reducing agent, L-ascorbic acid (L-AA), were added in a PtPd-basednanostructureswherethecorewasrichinPdwhile
+controlled manner. The HCl solution was used to regulate the Pt was preferentially concentrated at the exterior.[40] In a mul-
+L-AA-reducingpower.[44] Thereactionsolutionwasthenplaced tielement co-reduction process, the reduction of metal species
+inanoilbathat95°Cforvaryingreactiontimes.Thefinalprod- is very complex and cannot be governed solely by their stan-
+uct,mesoporousPtPdRuMoNiHEAnanospheres,wascollected dard reduction potentials found in the reference literature.[44]
+using centrifugation and treated with multiple washes of ace- Thereductionkineticsbecomemorecomplicatedduetothepres-
+tone/ethanolandwatertoremovethepolymericmicellesbefore ence of multiple metal ion complexes, their coordination envi-
+undergoing structural characterization. The mesoporous HEA ronment,organicadditives,choiceofreducingagent,andreac-
+nanospheresarenamedHEAX,whereXrepresentstheindivid- tionambiance.[4,44,47,48]
+ualmetalsaltconcentrationusedforthesynthesis.Forexample, To further understand the high entropy alloying feature of
+HEA10 indicates a concentration of 10 mm for each metal salt active sites in mesoporous HEA10 nanospheres, we have em-
+solutionofPt/Pd/Ru/Mo/Niusedduringsynthesis.Therepre- ployed a surface-sensitive probing technique, X-ray photoelec-
+sentativescanningelectronmicroscopic(SEM)image(Figure1b) tron spectroscopy (XPS).The intense peaks associated with Pt,
+ofHEA10showssphericalnanosphereswithmesoporousexteri- Pd, Ru, Mo, and Ni moieties (Figure S5, Supporting Informa-
+ors. This is further confirmed in the bright field transmission tion)suggestthemulti-elementalcharacteroftheHEA10exte-
+electron microscopic (TEM) and the high angle annular dark rior.Inhighentropyalloyingsystems,theinherentheterogene-
+field(HAADF)scanningTEM(STEM)images(Figure1c,d)due ity and cocktail effects cause very complex interatomic interac-
+tocontrastdifferences.Thehigh-resolutionTEM(HRTEM)im- tionandhybridizationsbetweentheneighboringatoms,which
+ageneartheedges(Figure1e)suggestsacrystallinenaturewith modify the valance state giving rise to the core level shift.[9,17]
+visiblelatticefringes.ArandomlyselectedareaintheHRTEM Hence,wenotetheshiftof≈0.5eVforPt04f peakinHEA10
+7/2
+image, indicated by the red box (Figure 1e), was processed to towardthelowerenergysidecomparedtostandardmonometal-
+generate a fast Fourier transform (FT) pattern, as shown in lic Pt systems (Figure S5b, Supporting Information). This ob-
+Figure1f.ThespotsintheFTpatternindicatethepresenceof servation suggests that the interaction of Pt with other neigh-
+(111),(200),and(220)setsofplanescorrespondingtotheface- boring heteroatoms results in an electron transfer from other
+centeredcubic(fcc)crystalarrangement.[45]TheinverseFT(IFT) metallicmoietiestoPt.PtismoreelectronegativethanPd,Ru,
+processing was used to obtain the lattice fringes and concomi- Mo,andNi,indicatingtheelectron-withdrawingtendencyofPt
+tantinterplanarspacingsassociatedwith(111),(200),and(220) during interatomic neighboring interactions, which could lead
+sets of planes (Figure 1g–j). The interplanar spacing for (111), toregulatingthebindingenergy(adsorption/desorption)ofreac-
+(200),and(220)setsofplaneswerefoundtobe0.22,0.19,and tant/intermediate species.[5,11,17,18,45,49–51] Thewave functionsof
+0.13nm,respectively(Figure1g–j),similartostandardfcc-phase Pt4fandPt5dlevelsoverlapsignificantly,suggestingtheincrease
+Ptsystems.[45,46] Theoverall TEMstudy suggests thatthese Pt- inelectrondensity,whichcancauseandownwardshiftofthed-
+PdRuMoNinanospheresaremesoporousandcrystalizedinthe bandcenter,thusmodifyingtheadsorption/desorptionenergyas
+fccphase.Subsequently,weusedenergydispersivespectroscopy thedifferencebetweenthed-bandcenterandFermilevelusedas
+(EDS)studywithHAADF-STEMtoanalyzeelementaldistribu- amatrixofbindingenergiesforreactantspecies.[45,51]Moreover,
+tionintheHEA10system.Thestudyrevealsthattherandomly thePt-richexteriorwithmesoporesandintrinsicallysupported
+selectedmesoporousHEA10nanospheres(Figure2a)contained with high entropy alloying features is expected to benefit our
+metallicPt,Pd,Ru,Mo,andNi,whicharedistributedthroughout aimedapplicationofHERandHORinanalkalinemedium.[26,27]
+thestructure(Figure2b–f).Thisobservationisfurtherconfirmed ToshedsomelightonthestablesolidsolutionphaseofHEA10,
+inaSTEM-EDSlinescanofasingleparticle(FigureS4,Support- itspowderX-raydiffraction(XRD)patternisshowninFigure2g,
+ing Information). The inductive coupled plasma-optical emis- whichunveilsthefcc-phasewithcharacteristicfccpeakscentered
+sion spectroscopy (ICP-OES) further confirms that the HEA10 at39.4,46,67.4,81.3,and85.7degreescorrespondtothe(111),
+mesoporousnanospherescontainPt,Pd,Ru,Mo,andNimetals (200),(220),(311),and(222)setsofplanes,respectively.[52] The
+(TableS2,SupportingInformation).Thecombineddatasuggests interplanarspacingobtainedfromXRDpeaksusingBragg’slaw
+thatalthoughthestartingprecursorsolutioncontainsequivalent for(111),(200),and(220)setsofplanes(Figure2g)arefoundto
+Adv.Sci.2024,11,2402518 2402518(4of14) ©2024TheAuthor(s).AdvancedSciencepublishedbyWiley-VCHGmbH
+
+www.advancedsciencenews.com www.advancedscience.com
+Figure2. a)HAADF-STEMimage,b–f)correspondingelementaldistributionpatternsofPt,Pd,RuMo,andNi,respectively.g)TheXRDpatternof
+HEA10.h)TheHAXPESspectrumshowingthevalancebandofHEA10andPtusingaCrK𝛼 source.i)TheSAXSpatternofHEA10mesoporous
+nanospheres.(ThescatteringvectorqforSAXSisgivenbyq=4𝜋sin𝜃/𝜆,where𝜆isthewavelengthofX-rayradiation).
+be0.22,0.19,and0.13nm,respectively,whichmatchesTEMob- monometallic Pt-system exhibits distinct peaks as expected.[11]
+servation(Figure1g–j).Thelatticeconstantofthemesoporous Incontrast,theHEA10spectrumisbroadandfeatureless,char-
+PtPdRuMoNiHEA10nanospheres,deducedfromtheXRDpat- acteristic of high entropy alloys due to the complex orbital hy-
+tern, is 0.393 nm. This lattice constant is larger than the indi- bridizationthatreflectselectronicstructuremodification.[11,53,54]
+viduallatticeconstantsofthecomprisingmono-metals(i.e.,Mo TheoveralldiameteroftheHEA10mesoporousnanospheresis
+(0.315nm),Ni(0.349nm),Ru(0.271nm),Pd(0.385nm),and ≈125±10nmwithaporesizeof10to12nm.Toevaluatetheperi-
+Pt (0.391 nm)), which can be attributed to the phase purity of odicityofthepores,asmall-angleX-rayscattering(SAXS)pattern
+HEA10.Thecomparativelylargerlatticeconstantcanaccountfor wasrecordedonHEA10,whichshowsapeakatq=0.374nm−1
+thedifferingsizesoftheatomicspeciesgettingaccommodated correspondingtoapore-to-poredistanceof≈16nm(Figure2i).
+in a single unit cell, causing pronounced lattice distortion to Thecombinedstructuralandmorphologicalstudiessuggestthat
+lowertheoverallsystemenergyforglobalstructuralstability.[17] wehavesuccessfullyemployedthewetchemicalapproachwith
+Thus, the XRD measurements indicate that the PtPdRuMoNi assistedtriblockcopolymerstodesignPtPdRuMoNimesoporous
+HEAmesoporousnanospherescrystalizepredominantlyinthe highentropyalloynanospheres.
+fcc crystal lattice system (Figure 2g) which agrees with TEM
+measurements(Figure1f–j).Thevalencebandspectrumwasex-
+aminedusinghardX-rayphotoelectronspectroscopy(HAXPES) 2.2.StructuralandMorphologicalOptimizationStudies
+withaCrK𝛼sourcetoprobetheimpactofentropiceffectsonthe
+electronicstructureofthematerial.ThehighenergyoftheCrK𝛼 In the process of creating inorganic nanocrystals through wet
+source(5.4keV)enablesnon-destructiveanalysisdeeperinside chemical synthesis, adding a reducing agent to a solution of
+the material, beyond the surface. Figure 2h shows the valence metal salt causes nucleation to occur, resulting in a colloidal
+band(VB)spectrumofmonometallicPtsystemandHEA10.The solution.[4,55,56] Subsequently, the nuclei in this solution grow
+Adv.Sci.2024,11,2402518 2402518(5of14) ©2024TheAuthor(s).AdvancedSciencepublishedbyWiley-VCHGmbH
+
+www.advancedsciencenews.com www.advancedscience.com
+Figure3. a)SEMandb)bright-fieldTEMimagesofHEA10NF.c)TEMimageofamagnifiedportionofHEA10NF.d)TheHAADF-STEMimageande–i)
+correspondingelementaldistributionpatternsinHEA10NF.g)N adsorption-desorptionisotherms,andj)BETsurfaceareasforHEA10andHEA10NF.
+2
+through continuous growth or coalescence, or a combination ing synthesis brings twofold effects, evident from the morpho-
+of both.[4,55–60] In our study, we examined this process by syn- logicalappearanceofHEA10andHEA10NF.First,itinstitutes
+thesizing a PtPdRuMoNi HEA system using the same method theporousfeatureinthefinalstructure(Figures1b–dand3a–d),
+asforHEA10mesoporousnanospheresbutwithouttheuseof which was manifested from the physicochemical studies of ni-
+F127 copolymer, leading to the creation of HEA10NF (Figure trogenadsorption/desorptionisothermsanddeducedBrunauer–
+3, the NF stands for no F127 was used during synthesis). Emmett–Teller (BET)specific surface area (Figure 3j,k, HEA10
+HEA10NF has an agglomerated structure consisting of bulk ≈ 170 m2 g−1 and HEA10NF ≈ 19.6 m2 g−1). Second, the hy-
+sheets and nanospheres (Figure 3a). The bright field TEM im- drophilicexteriorofmicellesengageswiththemetalionscom-
+ages (Figure 3b,c) in combination with the HAADF-STEM im- plexes(FigureS2,SupportingInformation),thuslocalizingthe
+age(Figure3d),showthatthestructureismadeupofindividual nucleationsites.Itisalsoexpectedtoreducetheoverallmobil-
+smallnanoparticles(≈4nm)thatcoalescedtogether.Thiscanbe ityofnucleiand,hence,thecollisionfrequency.Thiscanbere-
+explainedbythemultiplecoalescenceeventsthatrandomlyoccur flectedintermsofincreasednanospheresdispersionaswellas
+to reduce the high surface energy caused by the large surface- thesmallersizeofHEA10nanospheres(Figure1b),whiletheab-
+to-volume ratio and high collision frequency, which drives the senceofmicelles-supportedsynthesisresultsintheoverallstruc-
+ensemblegrowthofthefinalstructureinsteadoftheindividual turalagglomerationinHEA10NF(Figure3a).
+growthofthesmallnanoparticles.[56–58,61] Wefurtherstudiedthetimedependenceandconcentrationde-
+The EDS elemental distribution studies in HAADF-STEM pendenceofthesynthesisprotocol.Forover16h,weexamined
+mode on HEA10NF suggest the distributionof Pt,Pd Ru, Mo, howthestructureofHEA20evolvedusingSEM(Figure4a–d),
+andNithroughoutthestructure(Figure3e–i,TableS2,Support- XRD (Figure 4e–h), and physisorption measurements (Figure
+ingInformation),likethatofinHEA10.Thisfurtherinfersthat S6, Supporting Information). The associated time-dependent
+theuseofacopolymerlikeF127,asofttemplatingapproach,dur- XRD studies on HEA20 (Figure 4e–h) show the characteristic
+Adv.Sci.2024,11,2402518 2402518(6of14) ©2024TheAuthor(s).AdvancedSciencepublishedbyWiley-VCHGmbH
+
+www.advancedsciencenews.com www.advancedscience.com
+Figure4. a–d)Time-dependentSEMstudiesandconcomitante–h)XRDpatternsofHEA20.
+(111), (200), (220), (311), and (222) fcc peaks matching HEA10 semblyandgrowth,themetalsaltconcentrationinprecursorso-
+(Figure 2g). No additional diffraction peaks for monometal- lution was varied (1, 2, 5, and 10 mm), keeping other reaction
+lic/intermetallic or oxides-based systems are observed in XRD, conditionsunchanged(i.e.,F127copolymerconcentration,reac-
+suggestingthatmesoporousHEA20nanospherescrystallizedin tiontime≈16h,amountofL-AAandHCl).Accordingly,thefi-
+predominantly fcc phase. In addition, the physisorption mea- nalproductswerenamedHEA1,HEA2,HEA5,andHEA10,re-
+surements (Figure S6, Supporting Information) show that the spectively.InHEA1,thelowconcentrationofmetalionsinthe
+effective surface area and pore volume are noticeably high for precursorsolutionresultsinirregularnanostructureswitharbi-
+mesoporous nanospheres obtained for a reaction time of 16 h. trarysizes(FigureS10a,b,SupportingInformation).Basedonthe
+The EDS elemental mapping and line scans show that Pt, Pd, XRDpattern,HEA1isamorphous,however,sphericalnanofea-
+Ru,Mo,andNiareuniformlydistributedintheHEA20meso- turesemergeastheconcentrationofmetalionsintheprecursor
+porous nanospheres (Figures S7–S9, Supporting Information). solution increased from 1 to 2 mm (Figure S10c,d, Supporting
+Thus,thetime-dependentstudiesindicatethattheoptimumre- Information).AsmallpeakintheXRDpatternat39.5°indicated
+actiontimeformesoporousHEAnanospheresis≈16h.Further- overallpoorcrystallinity.Thispeakbecomesmoreprominentas
+more, to study the effect of nucleation on overall structure as- the concentration of metal ions increases to 5 mm for HEA5
+Adv.Sci.2024,11,2402518 2402518(7of14) ©2024TheAuthor(s).AdvancedSciencepublishedbyWiley-VCHGmbH
+
+www.advancedsciencenews.com www.advancedscience.com
+(Figure S10e,f, Supporting Information). Another peak at 46°, we utilized cyclic voltammetry (CV) in non-Faradic regions, as
+characteristicofthefccstructure,alsobeginstoemerge(Figure wellaselectrochemicalimpedancespectroscopy(EIS),hydrogen
+S10g,SupportingInformation).[52] ThefinalstructureofHEA5 underpotentialdeposition(HUPD),andcarbonmonoxide(CO)
+hasmoreprominentsphericalfeaturesthanHEA1andHEA2. stripping to evaluate the double-layer capacitance (C , Figures
+dl
+Theseexperimentalstudiessuggestthatlowmetalionconcen- S12–S15, Supporting Information)).[63] This matrix is directly
+trationsintheprecursorsolutionmaynotproduceenoughnu- proportionaltotheeffectiveelectrochemicalactivesurfacearea
+cleation and collision events, hindering the growth and evolu- of the catalyst.[63] The experimental findings demonstrate that
+tionoftheoverallstructure.Thelackofmetalionconcentration HEA10hasthehighestC values(TablesS3–S6,SupportingIn-
+dl
+intheprecursorsolutionandthesubsequentnucleationevents formation)amongHEA10,HEA10NF,andHEA20,whichaligns
+may adversely affect the crystalline health of the overall struc- withthetrendobservedinourphysisorptionstudies(FigureS11,
+ture.Effectively,withaconcentrationof10mmmetalionsinthe Supporting Information). The C values for Pt-C and HEA20,
+dl
+solution, the final structure of HEA10 is well-dispersed, meso- asdeducedfromHUPDstudies,aresimilar(TableS5,Support-
+porousnanosphereswithgoodcrystallinityandapredominant ing Information), indicating the similar electroactive nature of
+single-phasedfccsystem(Figures1and2).Thismethodologycan catalytic sites. This similarity is reflected in the VB spectrum
+beusefulindesigninganddevelopinghigh-entropyalloymeso- ofHEA20,whichexhibitspeak-typefeaturessimilartothoseof
+porous systems at mild reaction conditions. These mild reac- monometallicPtsystem(FigureS16,SupportingInformation).
+tionconditionsareuniquecomparedtotypicalhigh-temperature ThissuggeststhatthehighentropiceffectinHEA20isnotvery
+methodsandcouldthusofferanopportunitytofurtherexpand prominentinregulatingtheoverallelectronicstructure.Incon-
+thecompositionalspaceofHEAnanostructures. trast,theVBspectrumofHEA10isfeaturelessasdemonstrated
+inFigure2h.AlthoughHEA10andHEA20havesimilarXRDand
+STEMEDSdata,thelowcatalyticactivityofHEA20isattributed
+2.3.ElectrocatalyticCharacterization to minimal entropic effects, as demonstrated in the HAXPES
+spectrum(FigureS16,SupportingInformation).[11]Theseexperi-
+Theelectrochemicalhydrogenevolutionfromwater,HER,issen- mentalresultssuggestthatHEA10mesoporousnanospheresare
+sitive to pH and is sluggish in an alkaline environment.[26,27] theoptimalcatalyticmaterialforHER/HORprocessesinanalka-
+High pH adversely affects virtually all aspects of HER, includ- linemedium.Wealsoincludedthestate-of-the-artcommercially
+ing water dissociation, the adsorption/desorption energy of in- availablePt-Celectrocatalyst forHER/HORprocesses forcom-
+termediates,andrecombinationstrengthtoH ,makingtheHER parison.
+2
+processenergyintensive.[24,26,27]Similarly,theHORisanimpor- Figure 5a displays the normalized polarization curves con-
+tant half-cell reaction in hydrogen-based fuel cells and is also cerning the overall catalyst loading for HER-HOR in an alka-
+kinetically unfavorable in an alkaline media.[25] Therefore, de- linemedium(0.1MKOH).TheresultsrevealthatHEA10meso-
+signing efficient catalysts for HER/HOR applications in an al- porous nanospheres outperform the Pt-C electrocatalyst under
+kalinemediumiscrucial.[26]Highentropyalloyswithdiverseac- similarexperimentalconditions.Theplateauregionobservedin
+tivesurfacesitesofferingnear-continuumadsorption/desorption the HOR branch (the positive potential side) is due to the lim-
+energiesandmesoporousfeaturescouldbesuitablecatalystsfor itedtransportofH fromtheelectrolytesolutiontothecatalyst
+2
+HER/HORinanalkalinemedium.[1,17]Inthisstudy,HER/HOR surface.[25,27] To showcase the superiority of HEA10 over Pt-C,
+reactionsareusedtoevaluatethemultifunctionalelectrocatalytic Figure5bdisplaysaselectedportionofthepolarizationcurves
+ability and versatility of mesoporous HEA nanospheres in al- (±100Ag −1).HEA10requiresanoverpotentialofonly9and
+cat
+kaline media. Before electrochemical measurements, the sur- 25mVforHORandHER,respectively,toachieveaspecificcur-
+face physisorption features of HEA10, HEA10NF, and HEA20 rent density of 50 A g −1 (Figure 5b). These values are much
+cat
+werestudiedusingnitrogenadsorption-desorptionisotherms,as better than those of Pt-C (33 mV and 36 mV), indicating the
+these electrochemical processes depend sensitively on the sur- inherently bifunctional active natureof HEA10. To understand
+faceareaofmaterials(FigureS11,SupportingInformation).The thecomparativeHORkinetics,therespectiveHORpolarization
+isotherms profiles for HEA10 and HEA20 exhibit an H1 type curveswerenormalizedwiththeirmaximumplateauvaluecur-
+hysteresisloopandtypeIVadsorptionisotherm,indicatingthe rent(i.e.,diffusion-limitedcurrentdensity,I ,Figure5c)toneu-
+lim
+inheritedpresenceofmesoporeswithuniformopengeometry, tralizetherespectivestructural/geometricalfeaturesofPt-Cand
+whichisingoodagreementwithSEMobservations(Figures1b HEA10.Figure5cshowsthestartingpointoftheHORplateau,
+and4d).[62]TheisothermprofileofHEA10NFindicatesitisnon- where the overall polarization curves are shifted positively by
+porous, matching SEM and TEM observations (Figure 3). The ≈40mVforPt-C.ThisindicatesthatPt-Chaslessfavorablere-
+correspondingBETsurfacearea,porevolume,andporeareafor action kinetics under the same experimental conditions versus
+HEA10(≈170m2g−1,0.231ccg−1,and≈102m2g−1)arefound HEA10.[27]ThisisfurthersupportedbythefactthatHEA10has
+tobesuperiortoHEA20(≈148m2g−1,0.19ccg−1,and≈74m2 a higher kinetic current and smaller Tafel slopes than Pt-C, as
+g−1) and nonporous HEA10NF (≈20 m2 g−1, 0.109 cc g−1, and shown in Figure 5d. The exchange current value is an intrin-
+≈8.5m2 g−1)(FigureS10,SupportingInformation).Thevalues sic material property directly correlating to the catalyst’s inher-
+for HEA10NF are markedly lower, illustrating the role of poly- ent electrochemical active nature, and it is higher for HEA10
+meric pore-directing agents in increasing the effective surface (2.83mAcm−2)thanforPt-C(1.67mAcm−2).[26]Theimproved
+area.PhysisorptionstudiesindicatethattheHEA10mesoporous reactionrate,betterkineticcurrent,lowTafelslopes,andhighex-
+nanosphereshaveoptimalsurfacefeatures.Tofurtherexamine changecurrentforHEA10canbeattributedtoitsinherenthigh
+these surface features from an electrochemical point of view, entropic alloying feature. This is well reflected in its ultrahigh
+Adv.Sci.2024,11,2402518 2402518(8of14) ©2024TheAuthor(s).AdvancedSciencepublishedbyWiley-VCHGmbH
+
+www.advancedsciencenews.com www.advancedscience.com
+Figure5. a)LSV-polarizationcurvesforHER-HORonPt-CandHEA10inanalkalinemedium(0.1mKOH).b)ThemagnifiedportionofLSVcurves
+from(a)isintherangeof±100Ag −1.c)HORpolarizationcurvesofPt-CandHEA10normalizedtotheirrespectivemaximumlimitingcurrent
+cat
+d)Tafelcurvesofrespectivekineticcurrentdensities,e)HER-HORpolarizationcurvesnormalizedconcerningthePtweightforPt-CandHEA10.f)
+Overpotentialcomparativestudy(@J )forHERinanalkalinemediumonHEA10withsomeoftherecentlyreportedHEA,multi-metallic,andPt-based
+10
+electrocatalysts(tabulatedinsupportinginformationTableS1,SupportingInformation).
+massactivity,whichis≈167(HER)and151Ag −1 (HOR)ata S17a, Supporting Information). This is because HEA10NF
+Pt
+nominal overpotential of 30 mV. These values are significantly nanosphereshavelimitedactivesitesavailable,astheywerepre-
+higher than those of state-of-the-art Pt-C-based electrocatalysts, paredwithoutusingthemicelletemplates(Figure3;FigureS11,
+whichareonly34and48Ag −1,respectively(Figure5e). SupportingInformation).Thiswasconfirmedbyphysisorption
+Pt
+TheHEA10materialhasbothhighentropyalloyingandmeso- and electrochemical studies using CV, EIS, HUPD, and CO-
+porousfeatures,makingithighlyeffectiveforHER-HORactivi- stripping (Tables S3–S6, Supporting Information). The HEA10
+ties.NonporousHEA10NFnanospheresshowinferiorHERper- mesoporous nanospheres show better HER activity than many
+formancecomparedtomesoporousHEA10nanospheres(Figure recently reported HEAs, multi-metallic, and Pt-based alloys in
+Adv.Sci.2024,11,2402518 2402518(9of14) ©2024TheAuthor(s).AdvancedSciencepublishedbyWiley-VCHGmbH
+
+www.advancedsciencenews.com www.advancedscience.com
+an alkaline medium (Figure 5f; Table S1, Supporting Informa- tronicinteractionsattheelectrode-electrolyteinterfaceofferopti-
+tion). The potentiometric study also shows that HEA10 can maladsorption/desorptionofintermediatespeciesandcompara-
+maintainstableperformancewhensubjectedtoHERformore tivelyfastchargetransferkinetics.[65–67]Thiseffectisfurthersup-
+than10h(FigureS17b,SupportingInformation).TheXRDand portedbythemorefavorablepositionoftheflatbandpotential
+SEMstudiessuggestthatHEA10nanospheresretaintheirstruc- (V ,Figure6a,b)forHEA10.
+fb
+tural and mesoporous features in post-electrochemical studies The magnitude of V represents the upward band bending
+fb
+(FigureS18,SupportingInformation).Thedouble-layercapaci- for an n-type system when exposed to electrolyte at thermody-
+tance,i.e.,C ,isalsonearlycomparable(TableS7,SupportingIn- namicequilibrium,hencerepresentingthemagnitudeoftheki-
+dl
+formation),indicatingtheoperationalstabilityofHEAsystems. neticbarrierforchargetransfer,asillustratedinFigure6c.[65–67]
+Inspired by promising HER and HOR performance, we also TheV forHEA10(−0.223V,Figure6c)isfoundtobepositively
+fb
+performed the oxygen reduction reaction (ORR) on HEA10 placed concerning that for commercial Pt-C (V = −0.246 V),
+fb
+mesoporous nanospheres in an alkaline medium (Figure S19, representing a comparatively reduced energy barrier for bet-
+Supporting Information) under identical reaction conditions. ter charge transfer owing to smaller upward band bending for
+ThecomparativeORRpolarizationcurvesintermsofmassactiv- HEA10.Overall,theMSanalysisofHEA10showsithasn-type
+ity(A)onPt-CandHEA10areshowninFigureS19(Supporting behavior,highchargecarrierdensity,comparativelyminorband
+Information).Thediffusion-limitedcurrentdensityat0.4Vver- bending owing to a more positive flat band potential, and a
+susRHEforHEA10(−780Ag −1)isnearlythreetimeshigher smaller charge transfer barrier during reactions in an alkaline
+pt
+thanPt-C(−260Ag −1).Throughouttheworkingpotentialwin- mediaversusPt-C.TheseobservationsshowthatHEA10hasen-
+pt
+dowofHEA10,peroxide(HO −)generationandaverageelectron hancedcatalyticactivityandconcomitantfastchargetransferki-
+2
+transfernumber(n)involvedinperoxygenmoleculereduction netics,asevidencedbyitssuperiorelectrochemicalperformance
+arebelow5%and3.91,respectively.Theseobservationssuggest (Figure5;FiguresS17andS18,SupportingInformation).
+thatmesoporousHEA10nanospherescanfunctionaselectrocat- Tofurthersupportandgaininsightsintotheenhancedelec-
+alystsinbothfuelcellsandmetal-airbatterysystems. trochemical performance of HEA10, density functional theory
+(DFT)calculationswereperformed.InFigure6d,theHERand
+HORprocesses[68]werecalculatedforthePt(111)andrepresen-
+2.4.Mott–Schottky(MS)andComputationalAnalysis tative HEA10 surfaces at an electrode potential of 0.0 V versus
+RHE.WefirstconsidertheHERunderalkalineconditions,start-
+To gain a deeper understanding of electrocatalysts’ behavior at ingwiththeVolmerstepH O+e− +*→*H+OH−.[69] This
+2
+the electrode-electrolyte interface, Mott-Schottky (MS) analysis consists of three elementary reactions; one can readily observe
+was employed in an alkaline medium.[64,65] Figure 6a,b show distinct differences between HEA and Pt surfaces. In the first
+theMSplots(1/C 2 vsV,whereC isthespacechargecapac- reaction,H Oisadsorbed,whichisexergonicontheHEAsur-
+cs cs 2
+itanceandVistheappliedpotential)forPt-CandHEA10,pro- face (−0.52 eV) and endergonic on Pt(111) (0.1 eV). The ad-
+viding valuable insights into the inherent catalytic ability and sorbedH Omoleculedissociatesinto*Hand*OHinthesec-
+2
+electrontransfercharacteristicsofelectrocatalysts.Thepositive ond reaction. The activation energy of this reaction is ≈0.9 eV
+slopesoftheMSplotsindicatethatbothelectrocatalystsaren- on the Pt(111), while on the HEA surface, it is notably lower
+type.[64,65] Moreover, the slope of the MS plot is inversely pro- (only 0.45 eV). The reduced activation energy on the HEA sur-
+portionaltothechargecarrierdensity,which,inthiscase,isthe face,consistentwiththeEvans–Polanyiprinciple,isattributedto
+electron.[65,66] HEA10 displays a slope value that is an order of itsenhancedabilitytostronglybind*Hand*OHspecies. This
+magnitudesmallerthancommerciallyavailablePt-Celectrocat- reductionofactivationenergy,indicativeofimprovedwaterdis-
+alyst (5.12 × 108 compared to 7.12 × 109), indicating a higher sociation, should directlycontributetothehigher HERactivity
+chargecarrierdensityinHEA10.Innanostructuredelectrocata- observedontheHEAsurface.AttheendoftheVolmerstep,the
+lystsystems,thechargecarriersextendintotheelectrodeupto *OH species is converted into OH−. This conversion is down-
+a distance of 100–10 000 Å from the surface, creating a space hillonPt(111)by0.95eV,whereasontheHEAsurface,itgoes
+chargedistribution.[65]Whenexposedtoelectrolytes,theseelec- uphill by 0.27 eV. In the subsequent Tafel step (*H → ½H ),
+2
+trocatalystsexperiencespacechargeredistributionduetoanelec- theactivationfreeenergyontheHEAsurfaceiscalculatedtobe
+tron transfer from the electrode to the electrolyte in an n-type 0.58eV,whereasthePt(111)surfaceexhibitsbetterH desorption
+2
+system.[64–66]Thistransferofchargecarrierscreatesacapacitive withaslightlysmalleractivationfreeenergy(0.38eV).However,
+region known as the space charge double layer, with an asso- foracomprehensivecomparisonofthecatalyticactivitybetween
+ciated electric field that facilitates facile charge transfer during PtandHEA,itisessentialtoidentifytherate-determiningstep
+reactions.[65]Thisspacechargedoublelayerisanintrinsicmate- (RDS)oftheentireVolmer-Tafelmechanism.OnthePt(111)sur-
+rialpropertyanddiffersfromtheinterfacialelectrode-electrolyte face, the RDS is determined to be the water dissociation step,
+doublelayer,whichisproportionaltotheeffectivesurfaceareaor characterizedbyanactivationenergyof0.9eV,whereastheRDS
+electroactivesitedensity—anextrinsicfeaturethatdependson ontheHEAsurfaceispredictedtobetheTafelstepwithanacti-
+thematerialdesign(TablesS3–S6,SupportingInformation).[31,65] vationenergyof0.58eV.Overall,amongthreefactorsgoverning
+The Mott–Schottky equation measures the space charge capac- thealkalineHERactivity[1]—*Hbinding,*OHbinding,andwa-
+itance (C ) as a function of applied potential.[66] The HEA10, terdissociation—thelatterappearstoexplainthesuperiorHER
+cs
+withitshighchargecarrierdensity,wasexpectedtoexhibitbetter activityobservedontheHEA10surface.
+spacechargeredistribution,generatingastrongerbuilt-inelec- Similarly, we briefly discuss the Gibbs free energy diagram
+tricfieldinthespacechargeregion.Theresultingenhancedelec- for the HOR (as the reverse process of the HER shown in
+Adv.Sci.2024,11,2402518 2402518(10of14) ©2024TheAuthor(s).AdvancedSciencepublishedbyWiley-VCHGmbH
+
+www.advancedsciencenews.com www.advancedscience.com
+Figure6. Mott–Schottkyplotsfora)Pt-Candb)HEA10innitrogenpurged0.1mKOHaqueoussolution(X-interceptinMSplotshowstherespective
+flatbandpotential(V )).c)Anillustrationshowinganupwardbendingofthebandedgesforann-typematerialattheelectrode-electrolyteinterface
+fb
+atthermodynamicalequilibrium.(Flatbandpotentialdeterminesthemagnitudeofbandbending.)d)CalculatedGibbsfreeenergyprofiles(ineV)for
+HERandHORonthe(111)facetofHEAandPtsystemsat0.0VversusRHE.Thebrownandtealnumberscorrespondtotheactivationfreeenergyof
+therate-determiningstepofHERandHOR,respectively.
+Figure 6d). Although the HEA surface exhibits a rather high 3.Conclusion
+affinity toward hydrogen, its surface also demonstrates good
+ability in adsorbing OH−, which can readily combine with *H Inthisstudy,awet-chemicalmethodutilizingatriblockcopoly-
+to form *H O. Accordingly, this combination step turns out to merhasbeendevelopedtocreatemesoporousHEAnanospheres
+2
+betheRDSwithanactivationenergyof0.78eV.Incontrast,the consistingofPtPdRuMoNi.Thesurfaceelectronicstructureand
+RDSonthePt(111)surfaceinvolvesthe*H+OH−→*H-*OH overall morphology of these HEA nanospheres can be modu-
+reaction, with an activation free energy of up to 0.95 eV. The lated by varying reaction conditions. The growth of these HEA
+lower activation energy on the HEA surface obtained in our nanospheresisgovernedbymultiplecoalescenceevents,result-
+calculationsisconsistentwiththeobservedhigherHORkinetics inginensemble-drivenoverallgrowthofthestructure.Thestudy
+thanPt-C-basedelectrocatalysts. alsofindsthatthecrystallinehealthofthefinalproductdepends
+Adv.Sci.2024,11,2402518 2402518(11of14) ©2024TheAuthor(s).AdvancedSciencepublishedbyWiley-VCHGmbH
+
+www.advancedsciencenews.com www.advancedscience.com
+on the metal ion concentration in the precursor solution. The withaqueoussolutionsofK PtCl (10mm,6ml),Na PdCl (10mm,6ml),
+2 4 2 4
+useofpolymericmicellessuccessfullycreatesmesoporesinthe RuCl 3 .xH 2 O(10mm,6ml),MoCl 5 (10mm,6ml),NiCl 2 .6H 2 O(10mm,
+HEA nanospheres, increasing their effective surface area, pore 6ml)undersonicationtocompletelydissolvedtheF127.Furthermore,
+0.8mlof6mHClwasaddedtothissolution.Thisprecursorsolutionwas
+volume, and accessibility to reactant species. The optimized
+gentlystirredfor30minforhomogeneousmixingandtransferredtooil
+mesoporousHEAnanosphere(HEA10)demonstratesexcellent
+bathkeptat95°C.After10min,8mLL-asocrbicacid(L-AA,0.1m)so-
+hydrogenevolutionandoxidationreactionactivitieswithfaster lutionwascarefullyintroducedintotheprecursorsolutionundergentle
+reactionkineticsinanalkalinemedium.HEA10exhibitsamass stirringconditionsfor16hreactiontimeunderreflux.ThenonporousPt-
+activity of approximately 167 (HER) and 151 A g −1 (HOR) at PdRuMoNi(HEA10NF)waspreparedusingasimilarmethodwithoutus-
+Pt
+anominaloverpotentialof30mV,whichissignificantlyhigher ingF127copolymer.ToexploretheinsightsofHEAnanospheressynthesis
+process,themetalsaltsolutionsconcentration(1,2,5,10,20mm)and
+than that of state-of-the-art Pt-C-based electrocatalysts (34 and
+reactiontime(1,2,4,16h)werevariedaccordingly(Figure4,maintext
+48Ag −1).ThishighactivityisattributedtoHEA10’sintrinsic
+Pt andFigureS10,SupportingInformation).Thefinalproduct,post-reaction,
+catalytic active nature and tendency for faster charge transfer
+wascollectedbycentrifuging(14000rpm,25min)andwashedmultiple
+owing to its high entropy alloying features, as revealed by ex- timeswithacetone/ethanol/watertoremovesoftpolymertemplates.
+perimentaloutcomes,MSanalysis,andcomputationalinsights. Electrochemical Characterization: The high entropy alloys (HEAs)
+Ourstrategycanopenanavenueforcopolymers-assisteddesign nanospheresweregrinnedbyamortar.TheHEAs(10mg)weresonicated
+of a wide range of multifunctional mesoporous high entropy in5mlofhexanebeforeadding40mgcarbonblack(XC-72)and30mL
+hexane,followedbysonicationfor1hatroomtemperature.Theresulting
+nanoalloys with rational morphologies for a diverse range of
+powderwascollectedbycentrifugation(12000rpm)andwashedthree
+targetedapplications.
+timeswithethanol.Thepowderwasdriedinavacuumoven(DP-200,Yam-
+atoScientificco.,ltd.)at60˚Cfor12h.Topreparetheworkingelectrode,
+4.ExperimentalSection 5.0mgofthecarbon-supportedcatalystswasdispersedina950μLmixture
+ofDIandisopropanol(1:2vol,v/v)anda50μLof5wt.%Nafionsolution.
+Materials: Allthechemicalsusedinthesynthesiswerereceivedwith- Thesuspensionwasultrasonicatedforatleast60mintoobtainahomo-
+outfurtherpurification.ThemetalsaltsusedwerePotassiumtetrachloro-
+geneousink(catalystconcentrationof5mgmL−1).Theinkwasdrop-
+platinate(II)(K PtCl ,98%),Sodiumtetrachloropalladate(II)(Na PdCl , castedona3and4mmdiameterglassycarbondiskelectrodeforRDE
+98%), Rutheniu
+2
+m(II
+4
+I) chloride hydrate (RuCl .xH O, 99.98%),
+2
+Molyb
+4
+-
+andRRDE,respectively,toobtainthecatalystdensityof0.25mgcm−2.
+3 2
+denum (V) chloride (MoCl , 95%) and Nickle(II) chloride hexahydrate Anaqueousalkalinesolution(0.1mKOH)mediawasusedtostudythe
+5
+(NiCl .6H O,99.9%),purchasedfromSigma-Aldrich.Thetriblockcopoly- hydrogenevolutionreaction(HER),hydrogenoxidationreaction(HOR),
+2 2
+merPluronicF-127(C H O.C H ) BioReagentgrade),L-ascorbicacid andoxygenreductionreaction(ORR).
+3 6 2 4 x,
+(C H O ,MW.176.12,Reagentgrade), Nafionperfluorinatedresinso- Computational Details: Plane-wave DFT calculations employing the
+lut
+6
+ion
+8
+(5
+6
+wt.%)werepurchasedfromSigmaAldrich.Thecarbonblack
+Perdew–Burke–Ernzerhof(PBE)function[70]wereperformedwiththeVi-
+Vulcan(XC-72R)usedduringcatalystinkpreparationwaspurchasedfrom ennaAbinitioSimulationPackage(VASP)package.[71,72] Theprojector
+TheFuelCellStore.EthanolandacetonewerepurchasedfromNacalai augmentedwave(PAW)method[73,74] withwavefunctionsexpandedto
+Tesque, Inc. For all synthesis, washing, and electrochemical measure- anenergycutoffof450eV.Grimme’sD3correctionBecke-Johnsondamp-
+mentsMilli-Qwaterwithanionicpurity18.2MΩwasused. ingfunctionwasappliedtoaccountforweakdispersioninteractions.[75]
+MaterialsCharacterization: Thestructuralandmorphologicalobser- AGaussiansmearingwidthof0.2eVwasappliedtoallcalculations.The
+vationandanalysiswerecarriedoutusingFE-SEM+EDX[SU8000]scan- irreducibleBrillouinzonewassampledusingaΓ-centeredk-pointmeshof
+ningelectronmicroscope(SEM,HitachiHighTechnologies/Bruker,model 2×2×1.Themetalsurfacesweresimulatedusinga5×5slabcellconsist-
+no.-SU8000/QuantaxFQ5060)and200kVfieldemissiontransmission ingof100atoms(fouratomiclayers).Thetwobottomlayerswerefixed,
+electron microscope (TEM, JEM-2100F1) JEOL Ltd.). Surface elemental
+whereastheremainingatomswererelaxedwiththresholdsof10−4eVand
+compositionwasprobedusingX-rayphotoelectronspectroscopic(XPS)
+5×10−2eVÅ−1fortheenergyandresidualforce,respectively.Inallcal-
+analysis device (Quantera SXM) from ULVAC-PHI Co., Ltd. Monochro- culations,avacuumof15Åalongthez-directionwasusedtominimize
+matic Al K𝛼 (1486.6 eV) focused X-ray source was used for excitation. Coulombicinteractionswithperiodicself-images.
+TheC1sbindingenergy(284.6eV)wasusedforcalibration.Thesame To obtain the Gibbs free energy profile for HER and HOR, the
+instrument was used to obtain valance band (VB) spectra with Cr K𝛼 widely used Nørskov’s computational hydrogen electrode model was
+(5417eV)focusedX-raysourceforexcitation.Theelementalcomposition adopted,[76–78] inwhichtheGibbsfreeenergyofaproton–electronpair
+wasobtainedusinganinducedbindingplasmaemissionopticalanaly- wasestimatedasG(H++e−)=1/2G(H 2 )andtheGibbsfreeenergyof
+sisdevice(ICP-OES,highresolutiontype)(SPS3520UV-DD)fromHitachi OH−wascalculatedasG OH– =G H2O −1/2G(H 2 ).TheGibbsfreeenergy
+High-TechScienceCo.,Ltd.ThepowderX-raydiffractionpatternswere ofotherreactionintermediateswascomputedasG=E+E ZPE +TSwhere
+recordedusingMiniFlex600system(X-raywavelength:CuK𝛼)fromRigaku E,E
+ZPE
+,andSrepresenttheDFTtotalenergy,zero-pointenergy,andvibra-
+Co.,Ltd.Thesmall-angleX-rayscattering(SAXS)patternwasrecorded tionalentropyofadsorbates(calculatedunderstandardconditionsofp=
+usingRigakuNANO-Viewerforpore-to-poredistancemeasurement.Ni- 1atmandT=298.15K),respectively.[79] Transitionstates(TS)ofH 2 O
+trogenadsorption–desorptionisothermswereobtainedusingBELSORP- andH 2 desorptionprocesseswerecalculatedusingtheclimbingimage
+mini(BEL,Japan)at77K,andthespecificsurfaceareaandporousfea- nudgedelasticband(CINEB)method.[80]Inparticular,theactivationbar-
+tureanalysiswerecarriedoutusingBrunauer–Emmett–Teller(BET)and rierwasdefinedbythedifferencebetweentheTSandthecorresponding
+Barrett‒Joyner‒Halenda(BJH)models.ParticlesizeanalyzerfromOtsuka stableconfigurationsofreactants.
+ElectronicsCo.,Ltd.(ModelNo.ELSZ-2000ZS,particlesizeanalysisspec-
+SupportingInformation
+ification:0.6nmto8μm)wasusedtoevaluatetheaveragesizeofmicelles
+dispersedinaqueousmedium. TheUV–visspectroscopicsystemfrom
+SupportingInformationisavailablefromtheWileyOnlineLibraryorfrom
+TECAN(modelno.-M200PRO)wasusedtorecordtheabsorptionspec-
+theauthor.
+traofmetalsaltsolutionwithandwithoutpolymermicellesinanaqueous
+medium.
+PtPdRuMoNi-HEANanospheresSynthesis: ThePtPdRuMoNihighen- Acknowledgements
+tropyalloys(HEA)nanospheresweresynthesizedbytheassemblyofa
+triblockcopolymer(F127)micellesusingawet-chemicalapproach.Ina R.N.andY.Y.acknowledgefinancialsupportfromtheJapanSocietyfor
+typicalsynthesis,200mgofPluronicF127triblockcopolymerwasmixed thePromotionofScience(JSPS,No.P22063).J.H.acknowledgesfinancial
+Adv.Sci.2024,11,2402518 2402518(12of14) ©2024TheAuthor(s).AdvancedSciencepublishedbyWiley-VCHGmbH
+
+www.advancedsciencenews.com www.advancedscience.com
+supportfromtheJSPSGrants-in-AidforScientificResearchKakenhiPro- [12] J.W.Yeh,S.K.Chen,S.J.Lin,J.Y.Gan,T.S.Chin,T.T.Shun,C.H.
+gram(20K05453).TheauthorsacknowledgetheJST-ERATOYamauchiMa- Tsau,S.Y.Chang,Adv.EnergyMater.2004,6,299.
+terialsSpace-TectonicsProject(JPMJER2003),theKISTinstitutionalpro- [13] R.Chen,Y.Yan,W.Zhang,F.Liu,H.Kang,E.Guo,Z.Chen,T.Wang,
+gram(2E33241and2V10082),theNationalResearchFoundationofKo- Chem.Mater.2023,35,2202.
+rea(NRF)grantfundedbytheKoreangovernment(MSIT)(No.RS-2023- [14] G.Raj,R.Nandan,K.Kumar,D.B.Gorle,A.B.Mallya,S.M.Osman,
+00259920andNo.RS-2024-00350423),andtheESProgram(untilMay J.Na,Y.Yamauchi,K.K.Nanda,Mater.Horiz.2023,10,5032.
+2024)viaNagoyaUniversity.TheauthorsexpressthegratitudefortheEn- [15] H.Li,J.Lai,Z.Li,L.Wang,Adv.Funct.Mater.2021,31,2106715.
+glisheditingsoftware,suchasWileyEditingServicesandChatGPT,for
+[16] M.Bondesgaard,N.L.N.Broge,A.Mamakhel,M.Bremholm,B.B.
+refiningthelanguageandcheckinggrammaticalerrorsinthemanuscript.
+Iversen,Adv.Funct.Mater.2019,29,1905933.
+Additionally,thisworkutilizedtheQueenslandnodeoftheNCRIS-enabled
+[17] B.Wang,Y.Yao,X.Yu,C.Wang,C.Wu,Z.Zou,J.Mater.Chem.A
+AustralianNationalFabricationFacility(ANFF).
+2021,9,19410.
+OpenaccesspublishingfacilitatedbyTheUniversityofQueensland,as
+[18] X.Xu,Y.Guo,B.P.Bloom,J.Wei,H.Li,H.Li,Y.Du,Z.Zeng,L.Li,
+partoftheWiley-TheUniversityofQueenslandagreementviatheCouncil
+D.H.Waldeck,ACSNano2020,14,17704.
+ofAustralianUniversityLibrarians.
+[19] Y.Zhao,D.P.AdiyeriSaseendran,C.Huang,C.A.Triana,W.R.Marks,
+H.Chen,H.Zhao,G.R.Patzke,Chem.Rev.2023,123,6257.
+[20] N.Ramaswamy,S.Mukerjee,J.Phys.Chem.C2011,115,18015.
+ConflictofInterest
+[21] R.Nandan,H.R.Devi,R.Kumar,A.K.Singh,C.Srivastava,K.K.
+Nanda,ACSAppl.Mater.Interfaces2020,12,36026.
+Theauthorsdeclarenoconflictofinterest.
+[22] N.Ramaswamy,U.Tylus,Q.Jia,S.Mukerjee,J.Am.Chem.Soc.2013,
+135,15443.
+[23] R.Nandan,A.Gautam,K.K.Nanda,J.Mater.Chem.A2018,6,20411.
+DataAvailabilityStatement
+[24] E.Liu,J.Li,L.Jiao,H.T.T.Doan,Z.Liu,Z.Zhao,Y.Huang,K.M.
+Abraham,S.Mukerjee,Q.Jia,J.Am.Chem.Soc.2019,141,3232.
+Researchdataarenotshared.
+[25] C.A.Campos-Roldán,N.Alonso-Vante,TheHydrogenOxidationRe-
+actioninAlkalineMedium:AnOverview,Vol.2,SpringerScienceand
+BusinessMedia,Berlin2019,pp.312.
+Keywords [26] J.Durst,C.Simon,A.Siebel,P.J.Rheinländer,T.Schuler,M.Hanzlik,
+J.Herranz,F.Hasché,H.A.Gasteiger,ECSTrans.2014,64,1069.
+highentropyalloys,hydrogenevolution,hydrogenoxidation,mesoporous
+[27] W.Sheng,Z.Zhuang,M.Gao,J.Zheng,J.G.Chen,Y.Yan,Nat.Com-
+nanospheres,Mott–Schottky
+mun.2015,6,5848.
+[28] W.T.Koo,J.E.Millstone,P.S.Weiss,I.D.Kim,ACSNano2020,14,
+Received:March18,2024 6407.
+Revised:June13,2024
+[29] P.Parthasarathy,A.V.Virkar,J.PowerSources2013,234,82.
+Publishedonline:July19,2024
+[30] R.Nandan,G.K.Goswami,K.K.Nanda,ACSAppl.Mater.Interfaces
+2020,12,53749.
+[31] Z.W.She,J.Kibsgaard,C.F.Dickens,I.Chorkendorff,J.K.Nørskov,
+T.F.Jaramillo,Science2017,355,6321.
+[1] H.Qing-Miao,Y.Rui,Science2022,378,26. [32] H.Lim,K.Kani,J.Henzie,T.Nagaura,A.S.Nugraha,M.Iqbal,Y.S.
+[2] X.H.Yan,P.K.Liaw,Y.Zhang,Metall.Mater.Trans.A2021,52,2111. Ok,M.S.A.Hossain,Y.Bando,K.C.W.Wu,H.J.Kim,A.E.Rowan,
+[3] Y.Yao,Z.Huang,L.A.Hughes,J.Gao,T.Li,D.Morris,S.E.Zeltmann, J.Na,Y.Yamauchi,Nat.Protoc.2020,15,2980.
+B.H.Savitzky,C.Ophus,Y.Z.Finfrock,Q.Dong,M.Jiao,Y.Mao,M. [33] M.Iqbal,Y.Kim,C.Li,B.Jiang,T.Takei,J.Lin,B.Yuliarto,Y.Bando,
+Chi,P.Zhang,J.Li,A.M.Minor,R.Shahbazian-Yassar,L.Hu,Matter J.Henzie,Y.Yamauchi,ACSAppl.Mater.Interfaces2019,11,36544.
+2021,4,2340. [34] B.Jiang,K.Kani,M.Iqbal,H.Abe,T.Kimura,M.S.A.Hossain,O.
+[4] M. L. De Marco, W. Baaziz, S. Sharna, F. Devred, C. Poleunis, A. Anjaneyulu,J.Henzie,Y.Yamauchi,Chem.Mater.2018,30,428.
+Chevillot-Biraud,S.Nowak,R.Haddad,M.Odziomek,C.Boissière, [35] G.Cao,J.Liang,Z.Guo,K.Yang,G.Wang,H.Wang,X.Wan,Z.Li,Y.
+D.P.Debecker,O.Ersen,J.Peron,M.Faustini,ACSNano2022,16, Bai,Y.Zhang,J.Liu,Y.Feng,Z.Zheng,C.Lu,G.He,Z.Xiong,Z.Liu,
+15837. S.Chen,Y.Guo,M.Zeng,J.Lin,L.Fu,Nature2023,619,73.
+[5] Y.Kang,O.Cretu,J.Kikkawa,K.Kimoto,H.Nara,A.S.Nugraha,H. [36] Y.H.Liu,C.J.Hsieh,L.C.Hsu,K.H.Lin,Y.C.Hsiao,C.C.Chi,J.
+Kawamoto,M.Eguchi,T.Liao,Z.Sun,T.Asahi,Y.Yamauchi,Nat. T.Lin,C.W.Chang,S.C.Lin,C.Y.Wu,J.Q.Gao,C.W.Pao,Y.M.
+Commun.2023,14,4182. Chang,M.Y.Lu,S.Zhou,T.H.Yang,Sci.Adv.2023,9,eadf9931.
+[6] Y.Wei,Z.Ma,W.Li,C.Li,B.Yang,C.Sun,S.Gang,W.Zhang,H.Long, [37] Y.Yao,Z.Huang,P.Xie,S.D.Lacey,R.J.Jacob,H.Xie,F.Chen,A.Nie,
+X.Li,Q.Jiang,D.Zhang,Y.Luo,J.Yang,Adv.Funct.Mater.2024,34, T.Pu,M.Rehwoldt,D.Yu,M.R.Zachariah,C.Wang,R.Shahbazian-
+2313719. Yassar,J.Li,L.Hu,Science2018,359,1489.
+[7] F.Jin,Y.Zhu,L.Li,Z.Pan,D.Pan,M.Gu,Q.Li,L.Chen,H.Wang, [38] R.Nandan,M.Y.Rekha,H.R.Devi,C.Srivastava,K.K.Nanda,Chem-
+Adv.Funct.Mater.2023,33,2214273. Comm2021,57,611.
+[8] Y.Li,L.Yang,Y.Liao,R.Zhao,L.Ji,R.Su,D.Xu,F.Wang,Adv.Funct. [39] R.Nandan,G.Raj,K.K.Nanda,ACSAppl.Mater.Interfaces2022,14,
+Mater.2023,33,2302712. 16108.
+[9] T.Löffler,A.Ludwig,J.Rossmeisl,W.Schuhmann,Angew.Chem.,Int. [40] L.Wang,Y.Yamauchi,J.Am.Chem.Soc.2013,135,16762.
+Ed.2021,60,26894. [41] C.Albayrak,A.M.Soylu,Ö.Dag,Langmuir2008,24,10592.
+[10] G.Feng,F.Ning,J.Song,H.Shang,K.Zhang,Z.Ding,P.Gao,W. [42] M.Iqbal,C.Li,K.Wood,B.Jiang,T.Takei,Ö.Dag,D.Baba,A.S.
+Chu,D.Xia,J.Am.Chem.Soc.2021,143,17117. Nugraha,T.Asahi,A.E.Whitten,M.S.A.Hossain,V.Malgras,Y.
+[11] D.Wu,K.Kusada,Y.Nanba,M.Koyama,T.Yamamoto,T.Toriyama, Yamauchi,Chem.Mater.2017,29,6405.
+S.Matsumura,O.Seo,I.Gueye,J.Kim,L.S.RosanthaKumara,O. [43] J.F.Boily,T.M.Seward,Geochim.Cosmochim.Acta2005,69,3773.
+Sakata,S.Kawaguchi,Y.Kubota,H.Kitagawa,J.Am.Chem.Soc.2022, [44] B.Jiang,C.Li,M.Imura,J.Tang,Y.Yamauchi,B.Jiang,C.Li,M.Imura,
+144,3365. J.Tang,Y.Yamauchi,Adv.Sci.2015,2,1500112.
+Adv.Sci.2024,11,2402518 2402518(13of14) ©2024TheAuthor(s).AdvancedSciencepublishedbyWiley-VCHGmbH
+
+www.advancedsciencenews.com www.advancedscience.com
+[45] W.Chen,J.Cao,J.Yang,Y.Cao,H.Zhang,Z.Jiang,J.Zhang,G.Qian, [61] J.Li,F.L.Deepak,Chem.Rev.2022,122,16911.
+X.Zhou,D.Chen,W.Yuan,X.Duan,Nat.Commun.2021,12,6888. [62] F.J.Sotomayor,K.A.Cychosz,M.Thommes,Acc.Mater.Surf.Res.
+[46] M.Haub,T.Günther,M.Bogner,A.Zimmermann,Appl.Sci.2021, 2018,3,34.
+11,11793. [63] M.Łukaszewski,M.Soszko,A.Czerwin´ski,Int.J.Electrochem.Sci.
+[47] S.W.Kang,Y.W.Lee,Y.Park,B.S.Choi,J.W.Hong,K.H.Park,S.W. 2016,11,4442.
+Han,ACSNano2013,7,7945. [64] K.Gelderman,L.Lee,S.W.Donne,J.Chem.Educ.2007,84,685.
+[48] Y.Park,Y.W.Lee,S.W.Kang,S.W.Han,Nanoscale2014,6,9798. [65] A.W.Bott,Curr.Sep.1998,17,87.
+[49] A.D.McNaught,A.Wilkinson,CompendiumofChemicalTerminology, [66] M.Ye,J.Gong,Y.Lai,C.Lin,Z.Lin,J.Am.Chem.Soc.2012,134,
+TheGoldBook,2ndEdition,BlackwellScience,1997. 15720.
+[50] H.Wang,M.S.Bootharaju,J.H.Kim,Y.Wang,K.Wang,M.Zhao, [67] X.Ji,K.Wang,Y.Zhang,H.Sun,Y.Zhang,T.Ma,Z.Ma,P.A.Hu,Y.
+R.Zhang,J.Xu,T.Hyeon,X.Wang,S.Song,H.Zhang,J.Am.Chem. Qiu,Sustain.EnergyFuels2019,4,407.
+Soc.2023,145,2264. [68] S.Zhu,X.Qin,F.Xiao,S.Yang,Y.Xu,Z.Tan,J.Li,J.Yan,Q.Chen,M.
+[51] I.A.Abrikosov,W.Olovsson,B.Johansson,Phys.Rev.Lett.2001,87, Chen,M.Shao,Nat.Catal.2021,4,711.
+176403. [69] Y.Zheng,Y.Jiao,A.Vasileff,S.Qiao,Angew.Chem.,Int.Ed.2018,57,
+[52] P.Zhao,Q.Cao,W.Yi,X.Hao,J.Li,B.Zhang,L.Huang,Y.Huang,Y. 7568.
+Jiang,B.Xu,Z.Shan,J.Chen,ACSNano2022,16,14017. [70] J.P.Perdew,K.Burke,M.Ernzerhof,Phys.Rev.Lett.1996,77,3865.
+[53] D.Wu,K.Kusada,T.Yamamoto,T.Toriyama,S.Matsumura,I.Gueye, [71] G.Kresse,J.Furthmüller,Comput.Mater.Sci.1996,6,15.
+O. Seo, J. Kim, S. Hiroi, O. Sakata, S. Kawaguchi, Y. Kubota, H. [72] G.Kresse,J.Hafner,Phys.Rev.B1993,47,558.
+Kitagawa,Chem.Sci.2020,11,12731. [73] P.E.Blöchl,Phys.Rev.B1994,50,17953.
+[54] D. Wu, K. Kusada, T. Yamamoto, T. Toriyama, S. Matsumura, S. [74] G.Kresse,D.Joubert,Phys.Rev.B1999,59,1758.
+Kawaguchi, Y. Kubota, H. Kitagawa, J. Am. Chem. Soc. 2020, 142, [75] S.Grimme,S.Ehrlich,L.Goerigk,J.Comput.Chem.2011,32,1456.
+13833. [76] J.K.Nørskov,J.Rossmeisl,A.Logadottir,L.Lindqvist,J.R.Kitchin,
+[55] J.Gu,Y.W.Zhang,F.Tao,Chem.Soc.Rev.2012,41,8050. T.Bligaard,H.Jónsson,J.Phys.Chem.B2004,108,17886.
+[56] C.B.Murray,Science2009,324,1276. [77] Y.Jiao,Y.Zheng,M.Jaroniec,S.Z.Qiao,J.Am.Chem.Soc.2014,136,
+[57] B.Lim,M.Jiang,T.Yu,P.H.C.Camargo,Y.Xia,NanoRes.2010,3, 4394.
+69. [78] H.N.Nam,Q.M.Phung,P.Choeichom,Y.Yamauchi,N.Saito,Phys.
+[58] X.Huang,Y.Li,Y.Chen,E.Zhou,Y.Xu,H.Zhou,X.Duan,Y.Huang, Chem.Chem.Phys.2024,26,10711.
+Angew.Chem.,Int.Ed.2013,52,2520. [79] V.Wang,N.Xu,J.-C.Liu,G.Tang,W.-T.Geng,Comput.Phys.Commun.
+[59] N.Ortiz,S.E.Skrabalak,Angew.Chem.,Int.Ed.2012,51,11757. 2021,267,108033.
+[60] H.Zheng,R.K.Smith,Y.W.Jun,C.Kisielowski,U.Dahmen,A.Paul [80] G.Henkelman,B.P.Uberuaga,H.Jónsson,J.Chem.Phys.2000,113,
+Alivisatos,Science2009,324,1309. 9901.
+Adv.Sci.2024,11,2402518 2402518(14of14) ©2024TheAuthor(s).AdvancedSciencepublishedbyWiley-VCHGmbH
+

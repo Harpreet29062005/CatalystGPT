@@ -1,0 +1,1095 @@
+pubs.acs.org/JPCC Article
+CoCrFeNi High-Entropy Alloy as an Enhanced Hydrogen Evolution
+Catalyst in an Acidic Solution
+Frank McKay, Yuxin Fang, Orhan Kizilkaya, Prashant Singh, Duane D. Johnson, Amitava Roy,
+*
+David P. Young, Phillip T. Sprunger, John C. Flake, William A. Shelton, and Ye Xu
+CiteThis:J.Phys.Chem.C2021,125,17008−17018 ReadOnline
+ACCESS *
+Metrics&More ArticleRecommendations sı SupportingInformation
+ABSTRACT: High-entropy alloys (HEAs) have intriguing material properties, but their
+potentialascatalystshas notbeenwidelyexplored.Basedonaconcise theoreticalmodel,
+wepredictthatthesurfaceofaquaternaryHEAofbasemetals,CoCrFeNi,shouldgofrom
+being nearly fully oxidized except for pure Ni sites when exposedto O to being partially
+2
+oxidizedinanacidicsolutionundercathodicbias,andthatsuchapartiallyoxidizedsurface
+should be more active for the electrochemical hydrogen evolution reaction (HER) in
+acidic solutions than all the component metals. These predictions are confirmed by
+electrochemical and surface science experiments: the Ni in the HEA is found to be most
+resistant to oxidation, and when deployed in 0.5 M H SO , the HEA exhibits an
+2 4
+overpotential of only 60 mV relative to Pt for the HER at a current density of 1 mA/cm2.
+■
+INTRODUCTION a parameterization approach,9,12,25,26 that one particular HEA,
+CoCrFeNi, shows activity for the electrochemical HER that is
+Platinum-groupmetalsareusedinavarietyofcriticalcatalytic
+closertothatofPtthanalloftheindividualcomponentmetals.
+processes in petrochemical, automotive, pharmaceutical, and
+This is then confirmed through electrochemical testing of the
+otherindustries.Duetohighcostsandlimitationsonsupplies,
+HEA in a 0.5 M aqueous solution of H SO . In addition, the
+both the United States and the EU have placed Pt-group 2 4
+surface oxidation behavior of the HEA is probed using X-ray
+metalsoncriticalmaterialslists,1,2seekingtheirreplacementby
+photoelectronspectroscopy(XPS)andislikewisefoundtobe
+more earth-abundant materials in the near future.3 High- c■onsistent with our theoretical findings.
+entropy alloys (HEAs) are known to exhibit a range of
+interesting material properties including high yield strengths,
+METHODS
+fracture resistance, and
+superconductivity.4−7
+Recently, more-
+over, HEAs have captured the attention of catalysis
+AlloyPreparation.Equimolaramountsofpure(99.99+%)
+researchers.8−12 Co, Cr, Fe, and Ni powders were arc-melted in an argon
+Alloying has long been practiced to modify the catalytic atmosphere on a water-cooled copper hearth with a tungsten
+performance.13Yet,thefieldofcatalysishaslargelydwelledon electrode. The polycrystalline button of CoCrFeNi thus
+binaryalloysorwell-definedstructures(e.g.,intermetallicsand formed wasturned over several times and re-melted to ensure
+core−shell particles).14−17 It has not ventured far with a homogeneoussample.Thereafter,thebutton wassliced into
+multimetallic alloys (MMAs), which offer a large, mostly thin wafers (ca. 8 × 5 × 1 mm3) by electrical discharge
+machining, and each wafer was mechanically polished with
+unexplored design space beyond bimetallic systems where
+alumina powder (0.2 μm, 99.99%, Alfa Aesar).
+compositions may exist that mimic precious metal catalysts.
+Sample Characterization. X-ray diffraction (XRD)
+However, the complexity of MMAs has hindered the
+measurements were performed using a PANalytical Empyrean
+understanding of their surface reactivity at the molecular
+level and the scientific progress in MMA catalysis. X-ray diffractometer employing a reflection transmission
+spinner with a minimum step size of 0.026° through a range
+Alloying 3d base metals, including Co, Cr, Fe, and Ni, with
+of 10°−90°. Moreover, electron-backscattered diffraction
+Pt has been studied as a way to reduce the use of Pt and
+(EBSD) and energy-dispersive X-ray spectroscopy (EDS)
+enhance its activity in low-temperature fuel cells, but the
+presence of Pt remains indispensable to desired function-
+ality.18−20 Related alloys (e.g., Ni−Co,21 Ni−Fe−Mo−Co− Received: April 23,2021
+Cr,11 and Co−Cr−Fe−Ni−Al22) have been tested for Revised: July5, 2021
+hydrogen evolution reaction (HER) without fundamental Published: August3, 2021
+insights into the chemical origin of their activity. Here, we
+predict, through a theoretical analysis of the surface reactivity
+ofthisHEAusinganapproximatesurfacemodel23,24insteadof
+©2021TheAuthors.Publishedby
+AmericanChemicalSociety https://doi.org/10.1021/acs.jpcc.1c03646
+17008 J.Phys.Chem.C2021,125,17008−17018
+
+The Journal of Physical Chemistry C pubs.acs.org/JPCC Article
+measurements were performed using a FEI Quanta 3D alumina powder to refresh the surface and to limit oxidation
+DualBeam FEG FIB-SEM at the Shared Instrumentation before each test. The Co, Cr, Fe, Ni, and SS304 electrodes
+Facility at Louisiana State University. were prepared from fresh metal foils for respective tests.
+X-ray absorption and photoelectron experiments were Currents were normalized by the geometric area of each
+performed at LSU’s synchrotron facility, Center for Advanced electrode.
+Microstructures and Devices (CAMD). Extended X-ray The electrochemical stability of the HEA was evaluated by
+absorption fine structure (EXAFS) spectra were collected for cycling between 0 and −0.45 V in a 0.5 M H SO at a rate of
+2 4
+the metal K edges in the fluorescence mode at a multipole 20 mV/s for 1000 times (a total of 12.5 h). For comparison,
+wigglerbeam lineintherangeof −200 to+800eVrelativeto another sample was separately immersed in 0.5 M H SO for
+2 4
+their respective metal foil energy. For comparison, EXAFS the same amount of time without an applied potential. Both
+spectra were also collected for the standard foils (Cr 5.989 the post-reaction electrolyte solution and the control electro-
+keV;Fe7.112keV;Co7.709keV;andNi8.333keV)andthe lytesolutionweredilutedwith5%HNO andanalyzedforCo,
+3
+HEA at the same beam line in the transmission mode. The Cr, Ni, and Fe content with an Optima 8000 inductively
+intensity was corrected with Booth fluorescence correction in coupled plasma optical emission spectrometer (ICP-OES,
+Athena as the composition is well known.27 EXAFS spectra PerkinElmer).
+were collected over as wide an energy range as possible Computational Methods. Density functional theory
+because all the four 3d elements are close to one another on (DFT)calculationswereperformedinthegeneralizedgradient
+the periodic table. The above experiments were performed on approximation using the Perdew, Burke, and Ernzerhof
+as-cut and mechanically polished wafers. functional (GGA-PBE).28 The properties of the bulk
+XPS experiments were performed in an UHV chamber that CoCrFeNi HEA, which crystalizes in an A1 face-centered
+wasequippedwithanOmicronDAR400X-raysourceandan cubic(fcc)structure,29werecalculatedusingtwomethods:(1)
+Omicron EA125 hemispherical electron energy analyzer. All the Korringa−Kohn−Rostoker coherent potential approxima-
+XPS spectra were taken using Mg Kα X-rays (h̵ω = 1254 eV) tion (KKR-CPA), which requires only one-atom unit cells for
+withananalyzerpassenergyof25eV.BeforeperformingXPS homogeneous fcc alloys, and (2) the plane-wave pseudo-
+experiments on a wafer, it was inserted into a ultra-high potential method as implemented in the Vienna Ab Initio
+vacuum (UHV) chamber with a base pressure of 1 × 10 −10 SimulationPackage(VASP),30whichinvolvestheuseoflarge,
+Torrandcleanedbyrepeatedcyclesofneonionsputtering(45 explicit unit cells with an equimolar composition (see below).
+min), heating (to 800 °C in ca. 5 min), and cooling (to Calculations for surface adsorption were done using VASP on
+ambient temperature over a period of ca. 30 min). Sample explicit slab models cut from the large bulk supercell (see
+cleanlinesswascheckedwithXPStoverifytheabsence(<2%) below).
+ofoxygenandcarboninthenear-surface(<1nm)regioninthe TheKKRmethodisanall-electronGreen’sfunctionmethod
+spectra.In addition, angle-dependent XPS wasalso performed for calculating the electronic structure and total
+energy.31−34
+with a Specs Phoibos 150 Electron Analyzer with a The CPA is a mean-field theory method for calculating the
+monochromatedAl KαX-ray (h̵ω = 1487 eV)source. Dosing configurationallyaveragedGreen’sfunctionforsubstitutionally
+ofoxygen(99.999%),manuallycontrolledviaaleakvalve,was disordered
+alloys.33−36
+Together, the KKR-CPA performs
+typicallydoneatachamberpressureofca.10 −5Torrforapre- configurational averaging and DFT charge self-consistency
+set time (1 L = 10 −6 Torr·s) at ambient temperature. simultaneously. The atomic potentials were modeled within
+Electrochemical Measurements. Polarization curves the atomic sphere approximation,37 supplemented by a
+were measured using linear sweep voltammetry at a scan rate variationally optimized potential energy zero, resulting in
+of 20 mV/s from 0 to −0.7 V with a SP-150 potentiostat formation energies matching full potential results.38 The
+(BioLogic) in a 0.5 M H SO aqueous solution (ACS grade; valence states were expanded in a spherical harmonic basis
+2 4
+pH 0.3) at ambient temperature and pressure. Graphite was that included angular momentum up to l = 5 (i.e., electron
+max
+used as the counter electrode, and Ag/AgCl (BASi-5B, with 3 symmetries of s, p, d, and f electrons). Green’s function (and
+M NaCl) was used as the reference electrode. The electrolyte hencesite-decomposedelectronicdensities)forthesystemwas
+solution (50 mL) and graphite were freshly prepared in each found using a semi-circular Gauss−Chebyshev contour
+experiment to prevent ion contamination. The working integration with 20 complex energy points. As it approaches
+electrodewasasliceoftheHEAthatwas0.5mminthickness singularity when the energies approach the Fermi level (ε ),
+F
+and5.6mmindiameter,cutandpolishedusingtheprocedure two Monkhorst−Pack (MP) k-point meshes39 were used. For
+described above, and attached to the electrical wire with a energieswithanimaginarypartgreaterthan0.25Ry,a12×12
+silver paste for electric conductivity. The electrode was sealed ×12MPk-pointmeshwasused,andforenergypointswithan
+with a crystal bond (509) to ensure a constant exposed active imaginary part less than 0.25 Ry (i.e., in the vicinity of ε ), a
+F
+surface area. Resistance was corrected in all electrochemical denser 18 × 18 × 18 MP k-point mesh was used. These
+experiments by performing resistance check before any parameters were determined to provide an accuracy of a 10
+−5
+waveform,anditwasfoundtobenegligiblebeforepotentiostat Ry in the total energy.
+correction.BesidestheHEA,Crfoil(99.997%,AlfaAesar),Co ThelargebulksupercellwasgeneratedusingtheSuper-Cell
+rod (99.995%, Alfa Aesar), Fe foil (99.99%, MTI Corp.), Ni RandomApproximates(SCRAPs)methodbyJohnsonandco-
+foil(99.99%,MTICorp.),SAE304stainlesssteel(referredto workers24 and calculated using VASP. While no supercell of a
+belowasSS304),andaPtelectrodewerealsotestedusingthe finite, practical size could be a unique representation of the
+samesetup.SS304wasincludedforcomparisonbecauseitisa HEA, the 108-atom Co Cr Fe Ni supercell was generated
+27 27 27 27
+commonalloyofFe,Cr,andNi(17−20%Cr,8−11%Ni,and using a hybrid Cuckoo Search algorithm40 with combinato-
+afewotherelementsat2%orless,withthebalancebeingFe) rially optimized atomic point probabilities (site compositions)
+andis known forits resistance to a variety of corrosive media. and pair probabilities (related to atomic short-range order) to
+The HEA and Pt electrodes were mechanically polished with ensure a configuration with zero short-range order for up to
+17009 https://doi.org/10.1021/acs.jpcc.1c03646
+J.Phys.Chem.C2021,125,17008−17018
+
+The Journal of Physical Chemistry C pubs.acs.org/JPCC Article
+three nearest-neighbor shells at every atomic site (Figure 1), facetofpurefccmetals.FortheHEA,wecalculatetheaverage
+mimicking a “scrap” of the actual equimolar homogeneous surface energy of the two as-cut, unrelaxed slab models to be
+disordered alloy. +0.91 and +1.72 eV/atom, respectively, for (111) and (100),
+suggesting(111)alsotobethelowestenergyfacetoftheHEA.
+Periodic slabs were separated in the z-direction by five layers
+equivalent of vacuum, with electrostatic decoupling applied in
+thez-direction.42ThesurfaceBrillouinzonewassampledona
+2 × 2 × 1 MP k-point mesh for each surface unit cell.
+Increasing the density of the k-point mesh to 3 × 3 × 1 was
+found to affect the total energy of the system by less than 0.1
+eV.Afirst-orderMethfessel−Paxtonschemewasusedtosmear
+the electronic states with a width of 0.2.43 All total energies
+were extrapolated to 0 K.
+Adsorption was modeled on one of the two sides of each
+slabonly.Alladsorbatesandthetwometallayersnearesttothe
+adsorbates in the slab were relaxed, while the remaining two
+layers were held fixed at their bulk positions. Geometry
+optimization was considered to be converged when the
+Figure 1. 108-atom SCRAPs supercell for CoCrFeNi HEA (Co = residual force in eachrelaxed degreeof freedomin thesystem
+green;Cr= dark gray;Fe= yellow; andNi= white). was lower than 0.03 eV/Å. The average adsorption energy
+(ΔE ̃ A*) of n H or O atoms was calculated as
+Calculations for surface adsorption on the CoCrFeNi HEA ΔE A ̃ * = (E nA* − E surf − 2 nE A 2 (g) )/n, where E nA*, E surf , and
+were done using VASP on slab models cut from the large E arethetotalenergiesofasurfaceplusnadsorbateatoms,
+SCRAPs bulk supercell. The potentials due to the core
+A2(g)
+thesurfacewithouttheadsorbates,andthereferencegas-phase
+electrons were described using the projector augmented wave
+species,whichisH orO fortheadsorptionofatomicHorO,
+method.41 The Kohn−Sham one-electron valence states 2 2
+respectively.
+[Cr(3p3d4s), Fe(3d4s), Co(3d4s), Ni(3d4s), O(2s2p), and
+The free-energy correction to the adsorption energy of an
+H(1s)]wereexpandedinaplane-wavebasisupto650eV.The
+adsorbed H or O atom was calculated as
+(111)slabmodelhada(6×6)surfaceunitcellandconsisted
+offourlayersofmetal(Figure2a).The(100)slabmodelhada 1
+(4√2 × 4√2) surface unit cell and also consisted of four ΔΔG A* = δG A* (T) − 2 δG A 2 (g) (T, p) (1)
+layersofmetal(FigureS1intheSupportingInformation).See
+the Supporting Information also for the atomic coordinates of See ref 44 for how the free energy corrections (δG) to the
+the as-cut slab models. The (111) facet is the lowest energy total energies are defined for adsorbed atomic H and O
+δ
+(δ
+G
+G A*(
+(
+T
+T
+)
+,
+)
+p)
+an
+w
+d
+as
+f
+c
+o
+a
+r
+lc
+g
+u
+a
+la
+s
+t
+-
+e
+p
+d
+ha
+u
+s
+s
+e
+in
+m
+g
+o
+th
+le
+e
+cu
+ap
+la
+p
+r
+ro
+H
+ac
+2
+h
+(
+o
+δ
+f
+G
+M
+H2
+a
+(g
+r
+)
+t
+(
+in
+T
+́ e
+,p
+z
+)
+e
+)
+t
+.
+O2(g)
+al.to avoidtheerrorinherent intheGGA totalenergy of gas-
+phase O .45 At ambient temperature and pressure (298.15 K
+2
+and 1 bar), ΔΔG was estimated to be 0.21 eV (in agreement
+with Nørskov et al.46) and 0.13 eV per adsorbed H and O
+atom, respectively. The effect of an aqueous phase on ΔE ̃ H*
+was tested using the implicit solvation model of Mathew et
+al.47 for all the monometallic surfaces listed in Table 1 and
+found to be no larger than 0.01 eV per H atom in any of the
+cases. Therefore, it was neglected from the HEA surface
+■calculations.
+RESULTS AND DISCUSSION
+TheoreticalModeling.CoCrFeNicrystalizesinanA1fcc
+structure in a paramagnetic (PM) state with a lattice constant
+of 3.564 Å.48,49 It is larger than what Vegard’s law would
+predict based on an elemental nearest-neighbor, equimolar
+assumption and is larger than pure Ni (3.52 Å). KKR-CPA
+determines the equilibrium lattice constant of the HEA to be
+3.529 Å in the PM state, with the average magnitude of the
+magnetic moments of the component elements (Co, Cr, Fe,
+and Ni) being 0.016, 0, 1.850, and 0 μB, respectively.
+Figure2.(6×6)surfacemodelforthe(111)facetoftheCoCrFeNi
+AccordingtoKKR-CPA,theelectronicgroundstateisactually
+HEA. (a) Clean surface with the surface unit cell outlined (black
+ferromagnetic (FM), with a slightly larger lattice constant of
+line);(b)extenttowhichthesurfacewillbeoxidizedat0VvsSHE
+and pH 0, with all remaining fcc sites occupied by H atoms. Color 3.553 Å and average moments of 1.218, −0.953, 2.152, and
+code:Co=green;Cr=darkgray;Fe=yellow;Ni=white;O=red; 0.313 μB, respectively. Energetically, the FM state is 21.5
+andH = white(small). meV/atom more stable than the PM state. Assuming that the
+17010 https://doi.org/10.1021/acs.jpcc.1c03646
+J.Phys.Chem.C2021,125,17008−17018
+
+The Journal of Physical Chemistry C pubs.acs.org/JPCC Article
+Table 1. Average Total Energy, Average Free Energy, and dissociated atomicoxygen.Todetermine theextentof oxygen
+Δ
+D
+Su G
+iff
+r ̃ f H
+e
+a *
+r
+c ,
+e
+e
+n
+a s n
+t
+a
+i
+d
+al
+d
+F
+G
+re
+H
+e
+*,
+E
+i
+n
+n
+e
+e
+rg
+V
+y
+p
+o
+e
+f
+r
+A
+H
+dso
+A
+r
+t
+p
+o
+t
+m
+io
+)
+n
+o
+f
+n
+or
+R
+A
+e
+t
+s
+o
+p
+m
+ec
+ic
+tiv
+H
+e
+(ΔẼ H*,
+w ×
+co
+it
+v
+6 h
+e
+)
+r
+1
+a
+s
+g
+u M
+e
+rf L
+o
+a
+n
+c o e f
+t
+)
+h
+a
+e
+a d n s
+s
+o d
+u
+r
+r
+b c
+fa
+e a
+c
+d lc
+e
+u O
+w
+la
+h
+t a e
+e
+to
+n
+t m h
+s
+e s
+ub
+( d
+j
+o
+e
+iff n
+c
+e
+t
+a r
+t
+l e l
+o
+n t t h
+a
+i
+m
+a e l f
+b
+c r
+i
+e c
+e
+d
+n
+s u
+t
+it c e
+O
+t s io 2 o
+,
+n n
+w
+e
+e
+t n h
+s
+e e
+t
+r
+a
+( g
+r
+6 y
+t
+(dGred) of an fcc site as follows
+Surface ΔE ̃ H* ΔG ̃ H* dG H*
+1
+Pt(111) −0.38 −0.17 −0.13 dGred = E + E − E − ΔΔG
+Ni(111) −0.55 −0.34 −0.33 (n−1)O* 2 O 2 (g) nO* O* (2)
+Co(0001)-1O −0.11 +0.10 −0.03 where n = 36. This is the energy required to remove an
+Fe(110)-2O +0.01 +0.22 +0.27 adsorbed O atom from a given site at overall 1 ML coverage
+Cr(110)-3O −0.22 −0.01 −0.01 and put it in gas phase as part of an O molecule. A negative
+2
+HEA(111) dGred indicates that it is energetically favorable for a site to
+topside −0.68 −0.47 −0.40±0.08 remainun-oxidized.Theresults,whenplottedagainstthesum
+topside-18O −0.33 −0.12 −0.09±0.10 of the atomic numbers of the three metal atoms that
+reverseside −0.66 −0.45 −0.39±0.06 immediately make up a given fcc site, show a linear trend
+reverseside-15O −0.37 −0.16 −0.13±0.09 (dGred=−0.22(Σ Z)+18.24,R2=0.96;Figure3),indicating
+HEA(100) −0.62 −0.41 −0.38±0.05 3
+HEA(100)-14O −0.36 −0.15 −0.09±0.13
+aValuesarebasedonfullHcoverage,thatis,withHatomsoccupying
+allopenfccsites.Partiallyoxidizedsurfacesarelabeledbythenumber
+ofresidualOatomspersurfaceunitcell.Allpuremetalsarecalculated
+on(2×2)surfaceunitcells.ΔE ̃ H*onPt(111)andNi(111)aretaken
+fromref23.Co(0001),Fe(110),andCr(110)arecalculatedusingthe
+sameparametersasPt(111)andNi(111).Theaverageandstandard
+deviationofdG H*arecalculatedbyindividuallysampling18Hatoms
+ontheHEA(111)(Figure2)andHEA(100)(FigureS1)modelsand
+21HatomsonthereversesideoftheHEA(111)model(FigureS2).
+transition of the magnetic state occurs at a temperature (i.e.,
+the Curie temperature) where interatomic diffusion does not
+occuratappreciablerates,thisdifferenceintotalenergycanbe Figure 3. Differential reduction free energy (dGred) of adsorbed
+used to estimate T based on a mean-field Heisenberg-like atomicoxygenat1MLcoverageonarandomlychosensubsetofthe
+C
+model50 to be as low as T = 2/3 (21.5 meV)/k = 166 K,51 fccsitesontheHEAsurfacemodel(Figure2a)vsthesumofatomic
+which may be why it C has not been readi B ly detected numbers of the three metal atoms that make up a site (Σ 3 Z). This
+particularsurfacemodeldoesnotexhibitanypureCr(ΣZ=72)or
+experimentally. 3
+In handling for electrochemical applications, it is difficult to d pu iff r e e re N n i t m (Σ o 3 s Z t s = tab 8 l 4 e ) p f h c a c se s s ite o s f . O Th w e it t h hr r e e e sp s e h c a t d t e o d d r G egio : n a s ds r o e r p b r e e d sen O t
+avoid exposure of electrode materials to oxygen-containing red
+atom(>2.47eV);liquidwater(referencedtogas-phaseO andH at
+molecules in the environment, for example, O and water. To 2 2
+2 the standard state; < 2.47eV);and gas-phaseO 2 (<0 eV).
+explore the potential catalytic properties of the HEA, surface
+oxidation needs to be taken into account. At ambient
+conditions, we do not expect the surface of the HEA to that the elemental makeup of the first nearest-neighbor shell
+undergo significant reconstruction, which justifies the use of a has a strong effect on the site reducibility. According to the
+fcc(111) slab as a model for the HEA surface. Just as no bulk trend line, dGred drops below the free energy of gas-phase O
+2
+supercellofanypracticalsizecanfullyrepresentthebulkHEA, whenΣ Zexceeds83.Thatis,allsitesexceptthosecomposed
+no finite-size surface model can uniquely represent the HEA of all N 3 i atoms are predicted to be oxidized upon exposure to
+surface. Nonetheless, we use approximate surface models to ambient O , resulting in a nearly complete oxygen coverage.
+capture potential surface heterogeneity and coverage effects. Notethatt 2 hetrendlinewould shiftupwardanditsslopemay
+Forpracticality,weusea(6×6)surfaceunitcellforthe(111)
+change if the coverage of atomic oxygen decreases due to
+facetanda(4√2×4√2)surfaceunitcellforthe(100)facet
+reductionprocesses.Thelinearcorrelationdoesnotimplythat
+constructed as described in the Methods sections with the the validity of the Σ Z ansatz extends beyond the given HEA.
+3
+calculated lattice constant of the PM state, 3.529 Å, to model When an HEA(111) surface that has been exposed to
+oxygen and hydrogen adsorption using plane wave-based ambient O is then exposed to an acidic solution under a
+2
+GGA-PBE calculations.All VASP calculationshavebeen done potential,someoftheOatomswouldberemovedasH Ovia
+2
+withoutspinpolarizationasan approximation ofthePM state reduction by H+/e − . To compare the stability of adsorbed O
+because the prohibitive costs of non-collinear calculations and atoms to liquid water instead of gas-phase O , we note that
+2
+exhaustive enumeration of possible initial magnitudes and
+1
+directionsofmagneticmomentsonthemetalatomsneededto G = (G − G ) + 2.47eV
+O(g) HO(aq) H(g)
+model PM states. 2 2 2 2
+Welimitatomicadsorptionstofcc3-foldhollowsitesonthe = (G HO(aq) − 2(G H+ + G e−)) + 2.47eV (3)
+(111) surface, shown in Figure 2a, which are the preferred 2 (aq)
+adsorptionsitesbyatomichydrogenandoxygenonthe(111) at standard conditions, which replaces the O term in eq 2.
+facets of fcc
+metals.52−54
+O dissociation on base metals is Here, the free energy of aqueous-phase H O
+2(g)
+is taken to be
+2 2
+known to have small barriers.54,55 We assume that upon equal to that of gas-phase H O at 0.0317 bar, that is, the
+2
+exposure to O , the HEA surface is rapidly covered in saturation pressure of H O at ambient temperature. In an
+2 2
+17011 https://doi.org/10.1021/acs.jpcc.1c03646
+J.Phys.Chem.C2021,125,17008−17018
+
+The Journal of Physical Chemistry C pubs.acs.org/JPCC Article
+electrochemicalsetting,gas-phaseH atstandardconditionsis This is different from the role played by surface oxide species
+2
+equivalenttoprotonsinanaqueoussolutionataconcentration inpromotingwaterdissociationinHERinalkalinesolutions.63
+of1M(i.e.,pH0)ande − at0Vversusthestandardhydrogen As indicated in Table 1, the differential binding strength of
+electrode(SHE).Atypicalelectrolytesolutionusedfortesting individual H atoms at high coverage varies tightly around a
+HER activity is a dilute aqueous solution of sulfuric mean value. Approximately 55−70% of all the open sites on
+acid,11,21,56−59
+which has a pH slightly higher than 0. Thus, thepartiallyoxidizedHEAsurfacesarewithinca.0.1eVofthe
+the reduction limit for an adsorbed O atom with respect to Pt(111)value,assumingnormaldistribution.Fewerthan4%of
+liquid water at 0 V and pH = 0 lies at 2.47 eV positive of the the sites on the partially oxidized HEA surfaces that we have
+reduction limit with respect to gas-phase O . The stability examined exist outside two respective standard deviations.
+2
+limits are indicated in Figure 3. Although on pure metals all surface sites of a given symmetry
+Based on this understanding, we take the 1 ML O-covered areidenticalbeforeanycoverageeffectsetsin,itisnottrueon
+HEA(111)surfaceandsequentiallyremovetheOatomsinthe the HEA surfaces. Because of this, we could expect responses
+orderoflargesttosmallestΣ ZvaluesandstopwhendGredfor to macroscopiccatalytic activitymeasurements, whethertaken
+3
+removingthenextOatomwouldexceedtheliquidwaterlevel. inareactororinanelectrochemicalcell,tobeintrinsicallyless
+ThisprocedureallowsustoconstructapartiallyoxidizedHEA sharpthanonpuremetals.Incidentally,dGredinFigure3yields
+surfacewhere19ofthe36fccsitesareoxidized.Theremaining +0.83 ± 0.64 eV for atomic O at 1 ML, a significantly wider
+18 open fcc sites (or 50% of all the fcc sites), which are spreadthanforatomicH.Aflatterpotentialenergysurfacefor
+predominantly composed of Ni and Co, are then populated H adsorption is commonly seen on transition metal surfaces
+with H atoms (Figure 2b). We have also considered the O than for O adsorption.
+atoms as adsorption sites for H but found them to be Iftheelectrodepotentialissweptfrom0Vtomorenegative
+considerably less stable than the open fcc sites for H. In values,thereductionpowerofH+/e − wouldincreaseandmore
+comparison, the same procedure when applied to the pure oftheOatomswouldberemoved.Duetothestrongerbinding
+metals predicts that Pt(111) and Ni(111) should remain in a of atomic Othan atomic Hat mediumto lowcoverage,when
+clean (i.e., un-oxidized) state, whereas some O atoms remain any provided overpotential removes additional O atoms from
+on Co(0001), Fe(110), and Cr(110). Note that formation of the surface, the newly opened sites become immediately
+bulk oxide surfaces is not considered for the pure metals. available for adsorption of H atoms and active for HER. For
+ThefreeenergyofadsorptionforatomicH(ΔG H*)haslong example,weestimatebythesameprocedurementionedabove
+been used as the activity descriptor for HER formetals.46,60,61 that 50% more fcc sites will become reduced at an
+We calculate the average ΔG H*, or ΔG ̃ H*, for adsorbed H overpotential of 0.4 V than at 0 V. 0.4 V × e − = 0.4 eV
+atoms at full coverage61 according to eq 4 exceeds the amount by which ΔG ̃ H* varies from the partially
+oxidized state to the un-oxidized state of the HEA surface
+ΔG̃ = ΔẼ + ΔΔG
+H* H* H* (spanning ca. 0.3 eV, Table 1).
+n Thesameprocedureisrepeatedonthereversesideofthe(6
+= E nH* − E surf − 2 E H 2 (g) /n + ΔΔG H* (4) × 6) (111) slab, yielding another representation of
+CoCrFeNi(111) (Figure S2 in the Supporting Information),
+Forthepuremetalsurfaces,E
+surf
+isthetotalenergyofaclean andononesideofthe(4√2×4√2)(100)slab(FigureS1in
+surface and n i jjj = 4 for (2 × 2) surfac y zzz e unit cells. For the un- the Supporting Information). For the reverse side of the (6 ×
+oxidized HEkA(111) surface, n = 3{6 (Figure 2a). For the 6) (111) slab, the partially oxidized surface that results from
+partially oxidized HEA(111) surface (Figure 2b), E surf is the the same procedure has 21 open fcc sites that are populated
+e F n u e r r th gy erm of or t e h , e t H he EA co s rr u e r s fa p c o e nd w in it g h d 1 i 8 ffe O ren a t t ia o l m f s re a e nd en n erg = y 1 o 8 f . t w h i a th n H on ato P m t( s 1 . 1 T 1 h ), e w Δ h G e ̃ H re * a f s or o t n he th 21 e H fir a st to m m o s d is el 0. i 0 t 2 is eV 0. w 0 e 5 ak e e V r
+adsorption (dG H*) is also calculated according to eq 5 weaker than on Pt(111) (Table 1). For the (4√2 × 4√2)
+(100)slab,theresultingpartiallyoxidizedsurfacehas18open
+1
+dG H* = E nH* − E (n−1)H* − E H(g) + ΔΔG H* 4-fold hollow sites that are populated with H atoms (bridge
+2 2 (5)
+and top sites are markedly less stable than hollow sites). The
+Here, E (n−1)H* is the total energy of a fully H-covered surface ΔG ̃ H* for the 18 H atoms is 0.03 eV weaker than on Pt(111)
+with one H i jjj atom removed. The resultsfo y zzz r theHEA are listed (Table 1). Thus, in their un-oxidized state, all of these HEA
+in Table 1kin comparison to Pt(111),{Ni(111), Co(0001), surface models overbind H compared to Ni(111), while their
+Fe(110), and Cr(110). reactivity toward H adsorption is much closer to Pt(111) in
+The un-oxidized HEA(111) surface overbinds H compared the partially oxidized state.
+to Ni(111), which in turn overbinds H compared to Pt(111), Alloy Synthesis. To test the theoretical predictions, we
+indicating that they are both less active than Pt. On the other synthesize CoCrFeNi via arc-melting of the pure metals in
+hand,thereactivitytowardHontheopensitesofthepartially argon. Figure 4 shows the XRD of a typical freshly made and
+oxidized HEA surface is closer to that on Pt(111) than both
+cutCoCrFeNisample.Thestrong2θpeaks,withanarrowline
+theun-oxidizedNi(111)andpartiallyoxidizedCr,Fe,andCo
+widthat44°,51°,75°,and91°correspondtodiffractionfrom
+surfaces, the latter adsorbing H too weakly, whether on the the (111), (200), (220), and (311) planes, respectively, of a
+basis of ΔG ̃ H* or dG H*. From this, we conclude that the HEA homogeneous, single-phase fcc crystal structure with large,
+surfaces should be more active for HER than all the coherent domains. The lattice constant is determined to be
+component metals. It remains debated whether base metals 3.56 Å in agreement with the literature,48,49 resulting in a
+such as Ni are less active than Pt because they overbind or nearest-neighbor distance of 2.52 Å. Alloying Cr, Fe, Co, and
+underbind H.46,62 Our approach suggests that the adsorbed O Ni produces little lattice distortion because the four elements
+atoms play an important role in moderating the surface are neighboring3dtransitionmetalsontheperiodictableand
+reactivityofthemetalsurfacestowardHinacidicelectrolytes. have nearly identical interatomic distances (ca. ±0.5%). EDS
+17012 https://doi.org/10.1021/acs.jpcc.1c03646
+J.Phys.Chem.C2021,125,17008−17018
+
+The Journal of Physical Chemistry C pubs.acs.org/JPCC Article
+Figure 4.XRDof atypicalfccCoCrFeNi sample.
+andscanning electron microscopy (SEM) (Figure 5)show no
+compositional inhomogeneity down to 10 nm. The overall Figure6.χ(R),theFouriertransformsofEXAFSoscillations,showing
+the radial distance for the nearest-neighbor shells. The dashed line
+indicates aradial distance of2.52Å.
+phase shifts, the spectra of the HEA and the foils are
+normalized by a linear shift of the same amount, so that the
+average center of the nearest-neighbor peaks of the four
+componentsintheHEAcorrespondstotheXRDresultof2.52
+Å. The EXAFS analysis indicates that the four elements have
+nearly identical first nearest-neighbor distances (the positions
+of the largest peaks) compared to the foils, with some subtle
+differences in the second and subsequent neighbor distances.
+Beyond3Å,whilethespectraofCoandNiintheHEA(blue)
+and in the pure metal foils (red) are nearly identical, clear
+differences exist between the HEA and the Cr and Fe foils
+because pure Cr and Fe prefer the bcc structure.
+Electrochemical Testing. The electrochemical HER
+activity of the HEA is then tested in 0.5 M H SO , as well
+2 4
+as the activities of the individual component metals, SS304,
+and Pt for comparison. As shown in Figure 7, Pt is the most
+active HER electrode among these materials. The onset
+potential(U)forHERasmeasuredatacurrentdensity(j)of1
+mA/cm2isfoundtobe−0.26V(Pt),−0.32V(HEA),−0.51
+V(SS304),and−0.57V(Ni).BasedonU,theHEAisonly60
+Figure 5. (a) SEM and (b) corresponding EDS images of a typical
+CoCrFeNi HEA sample showing the same area containing a grain
+boundary(indicatedbyredarrows).Insetsshowanenlargedareaof
+thesame sample awayfrom the grainboundary.
+Co:Cr:Fe:Ni composition is measured to be
+26.5:23.7:25.0:24.8, very close to equimolar composition.
+EDS also shows that the near-surface composition (<80 nm)
+does not vary along grain boundaries, so we do not expect
+grain boundary effects to be a significant factor. Additionally,
+EBSDdata(FigureS3intheSupportingInformation)confirm
+thatwehaveobtainedlarge grainstructures100−1,000 μm in
+size.
+Figure 7. Polarization curves of CoCrFeNi, individual base metals,
+Fourier transforms of EXAFS spectra yield the radial
+SS304,andPtin0.5MHSO atambienttemperatureandpressure
+2 4
+distribution of the coordination shells for each of the four at a scan rate of 20 mV/s. The inset shows a magnified view of the
+elementsintheHEAalloy(solidblue,Figure6)versusthatof areaaroundtheorigin.SeeFigureS4intheSupportingInformation
+pure metallic foils (dashed red, Figure 6). To compensate for forthe corresponding Tafelplot.
+17013 https://doi.org/10.1021/acs.jpcc.1c03646
+J.Phys.Chem.C2021,125,17008−17018
+
+The Journal of Physical Chemistry C pubs.acs.org/JPCC Article
+mV less active than Pt, which is comparable to the HER where dissolution of metals likely commences, by Cr or the
+activityofMoS inH SO
+aqueoussolutions,56−58andismore
+other oxide species that are more resistant to dissolution than
+2 2 4
+active than each of the base metals by 250 mV and more. the metals may have protected the metallic domains of the
+These results thus validate our theoretical predictions. Among HEA from rapid dissolution.
+the base metals, Ni is the most active, whereas Cr remains Superior corrosion resistance properties of HEAs including
+mostly passivated between 0 and −0.7 V and shows minimal CoCrFeNi have been noted before.71 In 0.5 M H SO , Ni
+electrochemical activity.64 At j = 1 mA/cm2, Ni has an alloys and stainless steel are less corrosion resist 2 ant 4 than
+overpotential of 310 mV compared to Pt, which is consistent CoCrFeNi.67,72 While the HEA is by no means free of
+with the electrochemical studies of Ni in acidic solutions dissolution, there is no indication that the button electrode
+reported in the literature.21,59,65,66 For SS304, U is 250 mV suffered any significant loss of electrochemical active surface
+lowerthanPt,whichisalsoinlinewiththepreviouslyreported
+areaasoftenoccurswithcarbon-supportednanoparticlesused
+electrochemical activity for stainless steel in acidic solu-
+as active materials.
+tions.67,68ThecurrentfeatureobservedforPtat0Visdueto
+Oxidation Characteristics. To begin exploring the
+sulfateanionadsorption.69,70Itisunclearwhethertheoriginof
+oxidationcharacteristicsoftheHEA,weexposeacleansample
+the0VfeaturefortheHEAisalsoduetosulfateadsorptionor
+to increasing doses (5, 10, 100, 500, and 1000 L) of O in
+to reduction of certain surface oxide species.64,67 2
+UHV. XPS spectra are taken after each dose to monitor how
+The stability of CoCrFeNi is tested by cycling between 0
+the surface electronic structure evolves. While our current
+and−0.45Vatarateof20mV/sfor1000times(foratotalof
+UHV experiments do not probe surface oxidation of the HEA
+12.5 h). The results are shown in Figure 8. There is some
+in electrochemicalsettings, theyserve asa useful reference for
+future, more in-depth studies of this alloy, and more
+immediately, they help validate our theoretical methodology
+by verifying whether surface Ni is indeed less likely to be
+oxidized than the other elements. Figure 9 shows the selected
+Figure8.CyclingofCoCrFeNibetween0and−0.45VvsAg/AgCl
+in a 0.5 M HSO aqueous solution at a scan rate of 20 mV/s at
+2 4
+ambientconditions.
+current degradation during first 100 cycles, but the current
+stabilizesafterthisstage.Dissolvedmetalionsintheelectrolyte
+solutionhave been examined with ICP-OES (Table 2). In the
+Table 2. Amounts (in μg) of Dissolved Metals from
+CoCrFeNi Immersed in 0.5 M H SO at an Open Circuit
+2 4
+andafter1000Cyclesbetween0and−0.45V,Bothfor12.5
+h
+treatment Co Cr Fe Ni
+freshelectrolytesolution 3.27 1.92 0.00 2.76
+opencircuit 3.60 2.64 1.62 3.57
+1000cycles 21.51 18.12 19.62 22.32
+controlexperimentwherenovoltageisapplied,smallamounts
+of all the component metals are dissolved and detected in the
+electrolyte solution. The amounts of dissolved metal ions
+increasesby5−10foldinthecyclingtest,butthetotalweight
+loss amounts to only ca. 0.1 wt % of the starting HEA Figure 9. XPS spectra of the 2p peaks of the four elements in the
+electrode. Thedifferences do not suggest a preferential lossof HEA:(a)Co,(b)Cr,(c)Fe,and(d)Niatvariousdosages(1L=1
+any particular metal. The occupation of surface defect sites, × 10−6Torr·s) ofO atambienttemperature.
+2
+17014 https://doi.org/10.1021/acs.jpcc.1c03646
+J.Phys.Chem.C2021,125,17008−17018
+
+The Journal of Physical Chemistry C pubs.acs.org/JPCC Article
+spectra of each element to represent the onset and saturation contributiontothespectrafromtheoxidefeaturesincreasesas
+ofoxidationofthatelementversusacleansample.Thespectra the emission angle is increased. Analysis of a clean sample
+ofacleansurfaceexhibit2p and2p levelscharacteristicof showsthatthelayer-dependentcompositionoftheun-oxidized
+1/2 3/2
+the individual metals.73 With exposure to O 2 , additional HEA does not change significantly with depth; that is, the
+features appear at higher binding energies, indicating the sameconcentrationextendsfromthebulktothesurface.Thus,
+formationofoxides.73 Croxidesformquickly(within5LO 2 ) the increase in the ratio at higher angles means that the oxide
+and saturate well below 500 L O 2 . Fe and Co are the next to species are confined to the surface selvage (ca. 0.5 nm), and
+oxidize,saturatingataround500LO 2 .Because thepeaksdue there is no indication of oxygen diffusing into the subsurface
+tomanyrelatedoxidespecies(e.g.CrO andCr O )overlapin
+2 2 3 region. Moreover, the lower exposure (10 L) data reveal that
+energy,thedeterminationoftherelativeconcentrationofeach
+the initial oxidation of Cr and Fe is almost entirely within the
+oxide species is beyond this study. Ni does not show any new firstatomiclayer,whileNiremainsessentiallyunperturbed.At
+peakassociatedwithnickeloxidesupto1000LO ,andascan
+2 the higher exposure (1000 L), while surface Ni remains
+beseeninFigure9,thereisnoshiftinthepositionofthe2p
+3/2 unreactedwithoxygen,theoxidationoftheotherthreemetals
+peak of Ni even at 1000 L O , which suggest lack of Ni oxide
+2 (Cr, Fe, and Co) is limited to the surface only. Additionally,
+formation consistent with our calculations. Moreover, there is
+comparison of a clean sample before and after exposure to
+no discernible indication of a characteristic NiO shake-up at a
+binding energy of 861 eV,74 while the metallic shake-up oxygen shows that the elemental composition of the surface
+persists at 858 eV. In comparison, Ni oxides form on pure Ni region remains unchanged after oxidation. The angle-depend-
+at much lower doses of O .75 ent XPS results support the use of a metal slab with adsorbed
+2
+Furthermore, XPS spectra are taken by varying the electron O atoms to model the HEA surface under lightly oxidizing
+emission angle (i.e., the take-off angle) between the surface conditions.
+■
+normalofthesampleandthedetectorof0°,20°,40°,and60°
+foracleansampleandwithoxygenexposures.Astheemission CONCLUSIONS
+angle is adjusted to a more grazing configuration, the probe
+In summary, we have theoretically analyzed the surface
+depth includes a higher contribution from the surface
+reactivity of a quaternary equimolar HEA, CoCrFeNi, using
+passivation layer. This method, which is a standard XPS
+a surface model derived from an optimally constructed finite-
+technique, is based on the universal curve of electron escape
+depths and their relation to the emission angle.76 By sized SCRAPs supercell approximating the bulk HEA. The
+comparing each metal oxide/metal ratio, this technique results suggest that the HEA surface should exist in a partially
+provides information on how the individual76 metals and oxidized state when it is exposed to an acidic solution in the
+their oxides contribute to this layer. For each of the clean HER potential regime. On such a surface, the more reactive
+surfacespectra,theareaattributingtothe2p metalpeakwas sites are occupied by oxygen, but a high percentage of sites
+3/2
+fit using the commercial software CasaXPS77 following the would remain open, where hydrogen adsorption is modulated
+removal of the secondary electron background using the bytheadsorbedOatomstoalevelthatsuggestsahigherHER
+standard Shirley method.78 For the data taken following O 2 activity than the individual metals. Electrochemical testing of
+exposure, the spectra were fit with the same parameters as thisHEAof3dbasemetalsina0.5MH SO aqueoussolution
+those obtained from the peak fitting of the clean samples. confirmsittobehighlyactivefortheHE 2 R.T 4 heoverpotential,
+Additionalpeakswerethenfittothespectraoftheconstituent
+asmeasuredat1mA/cm2,isonly60mVlargerthanthatofPt.
+metals to represent the contribution of the corresponding
+The HEA is more stable than the individual base metals and
+oxides to the spectra.
+shows only minor dissolution after cycling between 0 and
+Figure10showsaplotoftheratiooftheoxidetometalpeak −0.45Vfor1000timeswithoutsignificantlossofactivity.The
+areasobtainedbythisprocedureattwodosages(10and1000
+shifts in the binding energy of the primary 2p peaks of the
+L O ) as a function of emission angle. It can be seen that the 3/2
+2 component elements in XPS spectra show that the HEA
+preferentiallyoxidizestoextentsthatareintheorderofCr≫
+Fe>Co,withnoevidenceofNioxidationevenafter1000Lof
+O exposure.TheresistanceofNitooxidationalsoagreeswith
+2
+our theoretical results.
+Theexperimentalconfirmationsuggeststhatourapproachis
+effectivefortheanalysisofthecatalyticactivityofrandomalloy
+surfaces. We further anticipate that slight strengthening of H
+adsorptionshouldmakethisfour-componentrandomalloystill
+moreactiveforHER.Thiscouldperhapsbebestaccomplished
+by a small increase of the concentration of Ni, which would
+lessentheextenttowhichthealloysurfaceisoxidizedandshift
+itsreactivityinthedirectionofPt.Thepossibilityofdialingin
+on desired catalytic activity with theoretically predicted
+random alloy compositions points to a systematic approach
+for guiding the substitution of precious metals with other,
+more earth-abundant metals, and to a need to better
+Figure 10. Ratio of oxide to metal peak areas at 10 (top) and 1000
+(bottom)LofO atvariousphotoemissionangles.Shadesrepresent understand the role of electronic structure in complex alloys
+2
+errorsassociated with thedata. in catalysis.
+17015 https://doi.org/10.1021/acs.jpcc.1c03646
+J.Phys.Chem.C2021,125,17008−17018
+
+■The Journal of Physical Chemistry C pubs.acs.org/JPCC Article
+ASSOCIATED CONTENT Science Program, under award #DE-SC0018408 and used
+* sı Supporting Information high-performance computing resources provided by Louisiana
+State University (hpc.lsu.edu) and by the National Energy
+The Supporting Information is available free of charge at
+https://pubs.acs.org/doi/10.1021/acs.jpcc.1c03646. Research Scientific Computing Center, an Office of Science
+User Facility supported by the U.S. Department of Energy
+Images of a four-layer (4√2 × 4√2) slab model of the
+undercontractno.DE-AC02-05CH11231.Samplepreparation
+(100)facetoftheHEAandthereversesideofthefour-
+and characterization were supported by the U.S. National
+layer(6×6)slabmodelofthe(111)facetoftheHEA;
+ScienceFoundationundergrants#OIA-1541079(Consortium
+EBSD image of a typical HEA sample; Tafel plot; and for Innovation in Manufacturing and Materials) and #OIA-
+atomic coordinates (in bulk positions) of the slab
+1946231 (Louisiana Materials Design Alliance) and the
+modelsofthe(111)and(100)facetsoftheHEA(PDF)
+■ Louisiana Board of Regents. Electrochemical experiments
+were supported by the Chevron Innovative Research Support
+AUTHOR INFORMATION
+Fund of LSU. D.P.Y. acknowledges support from the U.S.
+Corresponding Author NationalScienceFoundationundergrant#DMR-1904636.All
+YeXu−CainDepartmentofChemicalEngineering,Louisiana
+of the above work was performed at LSU. Computational
+State University, Baton Rouge, Louisiana 70803, United materialssoftware(KKR-CPAandSCRAPs)developmentwas
+States; orcid.org/0000-0002-6406-7832; Email: yexu@ developed at Ames Laboratory andwas supportedby theU.S.
+lsu.edu Department of Energy, Office of Science, Basic Energy
+Sciences, Materials Science & Engineering Division. Ames
+Authors
+Laboratory is operated by Iowa State University for the U.S.
+Frank McKay − Department of Physics and Astronomy, Department of Energy under contract #DE-AC02-
+Louisiana State University, Baton Rouge, Louisiana 70803,
+07CH11358.
+United States ■
+Yuxin Fang − Cain Department of Chemical Engineering,
+REFERENCES
+Louisiana State University, Baton Rouge, Louisiana 70803,
+United States (1) Final List of Critical Minerals, Federal Register 2018; https://
+Orhan Kizilkaya − Center for Advanced Microstructures and www.federalregister.gov/documents/2018/05/18/2018-10667/final-
+Devices, Louisiana State University, Baton Rouge, Louisiana list-of-critical-minerals-2018 (accessedJuly31,2021).
+70803, United States (2) Critical Raw Materials Resilience: Charting a Path towards
+Prashant Singh − United States Department of Energy, Ames greater Security and Sustainability, Communication from the
+CommissiontotheEuropeanParliament,theCouncil,theEuropean
+Laboratory,Ames,Iowa50011,UnitedStates; orcid.org/
+EconomicandSocialCommitteeandtheCommitteeoftheRegions
+0000-0002-3460-9290
+2020; https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=
+Duane D. Johnson − United States Department of Energy,
+CELEX:52020DC0474.
+Ames Laboratory, Ames, Iowa 50011, United States;
+(3)Bullock,R.M.;Chen,J.G.;Gagliardi,L.;Chirik,P.J.;Farha,O.
+DepartmentofMaterialsScienceandEngineering,IowaState K.;Hendon,C.H.;Jones,C.W.;Keith,J.A.;Klosin,J.; Minteer,S.
+University, Ames, Iowa 50011, United States; orcid.org/ D.; et al. Using nature’s blueprint to expand catalysis with Earth-
+0000-0003-0794-7283 abundantmetals.Science 2020,369,No. eabc3183.
+Amitava Roy − Center for Advanced Microstructures and (4) Cantor, B.; Chang, I. T. H.; Knight, P.; Vincent, A. J. B.
+Devices, Louisiana State University, Baton Rouge, Louisiana Microstructural development in equiatomic multicomponent alloys.
+70803, United States Mater. Sci.Eng., A 2004, 375−377,213−218.
+David P. Young − Department of Physics and Astronomy, (5)Yeh,J.-W.;Chen,S.-K.;Lin,S.-J.;Gan,J.-Y.;Chin,T.-S.;Shun,
+T.-T.; Tsau, C.-H.; Chang, S.-Y. Nanostructured high-entropy alloys
+Louisiana State University, Baton Rouge, Louisiana 70803,
+with multiple principal elements: Novel alloy design concepts and
+United States outcomes. Adv.Eng. Mater. 2004, 6, 299−303.
+PhillipT.Sprunger−DepartmentofPhysicsandAstronomy,
+(6) Zhang, Y.; Zuo, T. T.; Tang, Z.; Gao, M. C.; Dahmen, K. A.;
+Louisiana State University, Baton Rouge, Louisiana 70803,
+Liaw,P.K.;Lu,Z.P.Microstructuresandpropertiesofhigh-entropy
+United States; orcid.org/0000-0003-1105-9609 alloys. Prog.Mater. Sci.2014,61, 1−93.
+John C. Flake − Cain Department of Chemical Engineering, (7)vonRohr,F.;Winiarski,M.J.;Tao,J.;Klimczuk,T.;Cava,R.J.
+Louisiana State University, Baton Rouge, Louisiana 70803, EffectofelectroncountandchemicalcomplexityintheTa-Nb-Hf-Zr-
+United States; orcid.org/0000-0002-9187-3143 Ti high-entropy alloy superconductor. Proc. Natl. Acad. Sci. U.S.A.
+William A. Shelton − Cain Department of Chemical 2016,113,No. E7144.
+Engineering, Louisiana State University, Baton Rouge, (8) Yao, Y.; Huang, Z.; Xie, P.; Lacey, S. D.; Jacob, R. J.; Xie, H.;
+Chen, F.; Nie, A.; Pu, T.; Rehwoldt, M.; et al. Carbothermal shock
+Louisiana 70803, United States; orcid.org/0000-0003-
+synthesis of high-entropy-alloy nanoparticles. Science 2018, 359,
+4280-5109
+1489−1494.
+Complete contact information is available at: (9)Batchelor,T.A.A.;Pedersen,J.K.;Winther,S.H.;Castelli,I.E.;
+https://pubs.acs.org/10.1021/acs.jpcc.1c03646 Jacobsen, K. W.; Rossmeisl, J. High-entropy alloys as a discovery
+platform forelectrocatalysis.Joule2019,3,834−845.
+Notes (10) Yusenko, K. V.; Riva, S.; Carvalho, P. A.; Yusenko, M. V.;
+T■he authors declare no competing financial interest. Arnaboldi, S.; Sukhikh, A. S.; Hanfland, M.; Gromilov, S. A. First
+hexagonal close packed high-entropy alloy with outstanding stability
+ACKNOWLEDGMENTS under extreme conditions and electrocatalytic activity for methanol
+oxidation. Scripta Mater.2017,138,22−27.
+The modeling work was performed at Louisiana State (11)Zhang,G.;Ming,K.;Kang,J.;Huang,Q.;Zhang,Z.;Zheng,X.;
+University. It was supported by the U.S. Department of Bi,X.Highentropyalloyasahighlyactiveandstableelectrocatalyst
+Energy, Office of Science, Basic Energy Sciences, Catalysis forhydrogenevolutionreaction.Electrochim.Acta2018,279,19−23.
+17016 https://doi.org/10.1021/acs.jpcc.1c03646
+J.Phys.Chem.C2021,125,17008−17018
+
+The Journal of Physical Chemistry C pubs.acs.org/JPCC Article
+(12) Pedersen, J. K.; Batchelor, T. A. A.; Bagger, A.; Rossmeisl, J. (32)Kohn,W.;Rostoker,N.Solutionoftheschrodingerequationin
+High-entropy alloys as catalysts for the CO and CO reduction periodic lattices with an application to metallic lithium. Phys. Rev.
+2
+reactions. ACSCatal.2020,10,2169−2176. 1954,94, 1111−1120.
+(13) Sinfelt, J. H. Bimetallic Catalysts: Discoveries, Concepts, and (33)Johnson,D.D.;Nicholson,D.M.;Pinski,F.J.;Györffy,B.L.;
+Applications; Wiley, 1983. Stocks, G. M. Total-energy and pressure calculations for random
+(14) Kitchin, J. R.; Nørskov, J. K.; Barteau, M. A.; Chen, J. G. substitutionalalloys.Phys.Rev.B:Condens.MatterMater.Phys.1990,
+Modification of the surface electronic and chemical properties of 41, 9701−9716.
+Pt(111)bysubsurface3dtransitionmetals.J.Chem.Phys.2004,120,
+(34)Stocks,G.M.;Nicholson,D.M.C.;Shelton,W.A.;Györffy,B.
+10240−10246. L.; Pinski, F. J.; Johnson, D. D.; Staunton, J. B.; Ginatempo, B.;
+(15)Zhang,J.;Vukmirovic,M.B.;Xu,Y.;Mavrikakis,M.;Adzic,R. Turchi, P. E. A.; Sluiter, M. Statics and Dynamics of Alloy Phase
+R. Controlling the catalytic activity of platinum-monolayer electro- Transformations; Springer:Boston, 1994.
+(35) Soven, P. Coherent-potential model of substitutional
+catalystsforoxygenreductionwithdifferentsubstrates.Angew.Chem.,
+Int.Ed. 2005,44,2132−2135. disordered alloys.Phys.Rev.1967,156,809−813.
+(36)Johnson,D.D.;Nicholson,D.M.;Pinski,F.J.;Györffy,B.L.;
+(16) Strasser, P.; Koh, S.; Greeley, J. Voltammetric surface
+Stocks, G. M. Density-functional theory for random alloys: Total
+dealloying of Pt bimetallic nanoparticles: An experimental and DFT
+computational analysis. Phys. Chem. Chem. Phys. 2008, 10, 3670− energy within the coherent-potential approximation. Phys. Rev. Lett.
+1986,56, 2088−2091.
+3683.
+(37) Andersen, O. K. Linear methods in band theory. Phys. Rev. B
+(17)Li,J.;Sharma,S.;Wei,K.;Chen,Z.;Morris,D.;Lin,H.;Zeng, 1975,12, 3060−3083.
+C.; Chi, M.; Yin, Z.; Muzzio, M.; et al. Anisotropic strain tuning of
+(38) Alam, A.; Johnson, D. D. Optimal site-centered electronic
+L10 ternary nanoparticles for oxygen reduction. J. Am. Chem. Soc.
+structure basis set from a displaced-center expansion: Improved
+2020, 142, 19209−19216.
+resultsviaaprioriestimatesofsaddlepointsinthedensity.Phys.Rev.
+(18)Mukerjee,S.;Srinivasan,S.;Soriaga,M.P.;McBreen,J.Roleof
+B: Condens.Matter Mater. Phys.2009,80,125123.
+structural and electronic properties of Pt and Pt alloys on
+(39)Monkhorst, H.J.; Pack,J.D. SpecialpointsforBrillouin-zone
+electrocatalysis of oxygen reduction: An in situ XANES and EXAFS integrations. Phys.Rev.B 1976,13,5188−5192.
+investigation.J. Electrochem. Soc.1995,142,1409−1422. (40) Yang, X.; Suash, D. World Congress on Nature & Biologically
+(19) Stamenkovic, V.; Mun, B. S.; Mayrhofer, K. J. J.; Ross, P. N.; Inspired Computing 2009,2009; pp 210−214.
+Markovic, N. M.; Rossmeisl, J.; Greeley, J.; Nørskov, J. K.Changing (41)Kresse,G.;Joubert, D.Fromultrasoftpseudopotentialstothe
+the activity of electrocatalysts for oxygen reduction by tuning the projector augmented-wave method. Phys. Rev. B: Condens. Matter
+surface electronic structure. Angew. Chem., Int. Ed. 2006, 45, 2897− Mater. Phys.1999, 59,1758.
+2901. (42) Neugebauer, J.; Scheffler, M. Adsorbate-substrate and
+(20)Yano,H.;Kataoka,M.;Yamashita,H.;Uchida,H.;Watanabe, adsorbate-adsorbate interactions of Na and K adlayers on Al(111).
+M.OxygenReductionActivityofCarbon-SupportedPt−M(M=V, Phys.Rev. B:Condens.Matter Mater. Phys.1992, 46,16067−16080.
+Ni, Cr, Co, and Fe) Alloys Prepared by Nanocapsule Method. (43) Methfessel, M.; Paxton, A. T. High-precision sampling for
+Langmuir2007,23,6438−6445. Brillouin-zone integration in metals. Phys. Rev. B: Condens. Matter
+(21) Badawy, W. A.; Nady, H.; Negem, M. Cathodic hydrogen Mater. Phys.1989, 40,3616−3621.
+evolution in acidic solutions using electrodeposited nano-crystalline (44) Fang, Y.; Cheng, X.; Flake, J. C.; Xu, Y. CO 2 electrochemical
+Ni-Cocathodes. Int. J. HydrogenEnergy 2014,39, 10824−10832. reductionatthiolate-modifiedbulkAuelectrodes.Catal.Sci.Technol.
+(22)Ma,P.;Zhao,M.;Zhang,L.;Wang,H.;Gu,J.;Sun,Y.;Ji,W.;
+2019,9,2689−2701.
+Fu, Z. Self- supported high-entropy alloy electrocatalyst for highly (45) Martínez, J. I.; Hansen, H. A.; Rossmeisl, J.; Nørskov, J. K.
+efficientH evolutioninacidcondition.J.Materiomics2020,6,736− Formation energies of rutile metal dioxides using density functional
+2
+theory.Phys.Rev. B:Condens.Matter Mater. Phys.2009, 79,045120.
+742.
+(46)Nørskov,J.K.;Bligaard,T.;Logadottir,A.;Kitchin,J.R.;Chen,
+(23) Zhang, S.; Johnson, D. D.; Shelton, W. A.; Xu, Y. Hydrogen
+J.G.;Pandelov,S.;Stimming,U.Trendsintheexchangecurrentfor
+adsorptiononorderedanddisorderedPt-Nialloys.Top.Catal.2020,
+63,714−727. hydrogen evolution. J. Electrochem. Soc.2005,152,J23.
+(47)Mathew,K.;Sundararaman,R.;Letchworth-Weaver,K.;Arias,
+(24)Singh,R.;Sharma,A.;Singh,P.;Balasubramanian,G.;Johnson,
+T. A.; Hennig, R. G. Implicit solvation model for density-functional
+D. D. Accelerating the computational design of high-entropy alloys.
+Nat.Comput. Sci. 2021, 1, 54−61. study of nanocrystal surfaces and reaction pathways. J. Chem. Phys.
+2014,140,084106.
+(25)Boes,J.R.;Gumuslu,G.;Miller,J.B.;Gellman,A.J.;Kitchin,J. (48)Lucas,M.S.;Wilks,G.B.;Mauger,L.;Muñoz,J.A.;Senkov,O.
+R.Estimatingbulk-composition-dependentH adsorptionenergieson
+2 N.;Michel,E.;Horwath,J.;Semiatin,S.L.;Stone,M.B.;Abernathy,
+Cu x Pd 1−x alloy(111)surfaces. ACSCatal. 2015, 5,1020−1026. D. L.; et al. Absence of long-range chemical ordering in equimolar
+(26) Batchelor, T. A. A.; Löffler, T.; Xiao, B.; Krysiak, O. A.;
+FeCoCrNi. Appl. Phys.Lett. 2012, 100, 251907.
+Strotkötter, V.; Pedersen, J. K.; Clausen, C. M.; Savan, A.; Li, Y.; (49)Lucas,M.S.;Mauger,L.;Muñoz,J.A.;Xiao,Y.;Sheets,A.O.;
+Schuhmann, W.; et al. Complex-solid-solution electrocatalyst
+Semiatin, S. L.; Horwath, J.; Turgut, Z. Magnetic and vibrational
+discovery by computational prediction and high-throughput exper-
+propertiesof high-entropyalloys. J. Appl.Phys.2011,109,07E307.
+imentation.Angew. Chem. Int.Ed. 2021,60, 6932−6937. (50) Sato, K.; Bergqvist, L.; Kudrnovsky,́ J.; Dederichs, P. H.;
+(27)Ravel,B.;Newville,M.ATHENA,ARTEMIS,HEPHAESTUS: Eriksson, O.; Turek, I.; Sanyal, B.; Bouzerar, G.; Katayama-Yoshida,
+Data analysis for X-ray absorption spectroscopy using IFEFFIT. J. H.; Dinh, V. A.; et al. First-principles theory of dilute magnetic
+SynchrotronRadiat. 2005,12,537−541. semiconductors. Rev.Mod. Phys.2010, 82,1633−1690.
+(28) Perdew, J. P.; Burke, K.; Ernzerhof, M. Generalized Gradient (51) Singh, P.; Marshal, A.; Smirnov, A. V.; Sharma, A.;
+ApproximationMadeSimple. Phys.Rev.Lett. 1996,77,3865−3868. Balasubramanian, G.; Pradeep, K. G.; Johnson, D. D. Tuning phase
+(29)Tsai,M.-H.Physicalpropertiesofhighentropyalloys.Entropy stability and short-range order through Al doping in-
+2 ( 0 3 1 0 3 ) , 1 K 5 r , e 5 ss 3 e 3 , 8 G − . 5 ; 3 F 4 u 5 r . thmüller, J. Efficient iterative schemes for ab 0 (C 75 o 0 C 0 r 2 F . eMn) 100‑x Al x high-entropy alloys. Phys. Rev. Mater. 2019, 3,
+initiototal-energycalculationsusingaplane-wavebasisset.Phys.Rev. (52) Ford, D. C.; Xu, Y.; Mavrikakis, M. Atomic and molecular
+B:Condens. MatterMater. Phys.1996,54,11169. adsorption onPt(111). Surf. Sci.2005,587,159−174.
+(31)Korringa,J.OnthecalculationoftheenergyofaBlochwavein (53) Bai, Y.; Kirvassilis, D.; Xu, L.; Mavrikakis, M. Atomic and
+ametal.Physica 1947,13,392−400. molecularadsorption onNi(111). Surf. Sci.2019,679,240−253.
+17017 https://doi.org/10.1021/acs.jpcc.1c03646
+J.Phys.Chem.C2021,125,17008−17018
+
+The Journal of Physical Chemistry C pubs.acs.org/JPCC Article
+(54) Eichler, A.; Mittendorfer, F.; Hafner, J. Precursor-mediated hydrogenevolutionreaction.Int.J.HydrogenEnergy2018,43,7397−
+adsorptionofoxygenonthe(111)surfacesofplatinum-groupmetals. 7404.
+Phys.Rev.B:Condens. Matter Mater.Phys.2000,62,4744−4755. (73)Biesinger,M.C.;Payne,B.P.;Grosvenor,A.P.;Lau,L.W.M.;
+(55)Błonś ki,P.;Kiejna,A.;Hafner,J.DissociativeadsorptionofO Gerson, A. R.; Smart, R. S. C. Resolving surface chemical states in
+2
+moleculesonO-precoveredFe(110)andFe(100):Density-functional XPSanalysisoffirstrowtransitionmetals,oxidesandhydroxides:Cr,
+calculations. Phys. Rev. B: Condens. Matter Mater. Phys. 2008, 77, Mn,Fe, Co andNi. Appl. Surf.Sci. 2011,257,2717−2730.
+155424. (74) Lambers, E. S.; Dykstal, C. N.; Seo, J. M.; Rowe, J. E.;
+(56) Jaramillo, T. F.; Jorgensen, K. P.; Bonde, J.; Nielsen, J. H.; Holloway, P. H. Room-temerature oxidation of Ni(110) at low and
+Horch, S.; Chorkendorff, I. Identification of active edge sites for atmosphericoxygen pressures. Oxid.Met.1996,45, 301−321.
+electrochemicalH evolutionfromMoS nanocatalysts.Science2007, (75) Fleisch, T.; Winograd, N.; Delgass, W. N. Chemisorption of
+317, 100−102. 2 2 oxygenonNi(100)bySIMSandXPS.Surf.Sci.1978,78,141−158.
+(57) Li, H.; Tsai, C.; Koh, A. L.; Cai, L.; Contryman, A. W.; (76) Jablonski, A. Escape depth of photoelectrons. Surf. Interface
+Fragapane, A. H.; Zhao, J.; Han, H. S.; Manoharan, H. C.; Abild- Anal.1994,21, 758−763.
+Pedersen, F.; et al. Activating and optimizing MoS basal planes for (77) Peak fitting in XPS; Casa Software Ltd., 2019; http://www.
+hydrogen evolution through the formation of
+2
+strained sulphur
+casaxps.com/help_manual/manual_updates/peak_fitting_in_xps.pdf.
+vacancies.Nat. Mater.2016,15,48−53. (78) Shirley, D. A. High-resolution X-Ray photoemission spectrum
+(58) Li, G.; Zhang, D.; Qiao, Q.; Yu, Y.; Peterson, D.; Zafar, A.; of the valence bands of gold. Phys. Rev. B: Condens. Matter Mater.
+Kumar, R.; Curtarolo, S.; Hunte, F.; Shannon, S.; et al. All the
+Phys.1972,5,4709−4714.
+catalyticactivesitesofMoS forhydrogenevolution.J.Am.Chem.Soc.
+2
+2016, 138, 16632−16638.
+(59) El Alami, H.; Creus, J.; Feaugas, X. Influence of the plastic
+strain on the hydrogen evolution reaction on polycrystalline nickel
+electrodesin HSO.Electrochim.Acta 2006,51,4716−4727.
+2 4
+(60)Parsons,R.Therateofelectrolytichydrogenevolutionandthe
+heatofadsorptionofhydrogen.Trans.FaradaySoc.1958,54,1053−
+1063.
+(61) Trasatti, S. Work function, electronegativity, and electro-
+chemical behaviour of metals. III. Electrolytic hydrogen evolution in
+acid solutions. J. Electroanal. Chem. Interfacial Electrochem. 1972, 39,
+163−184.
+(62)Zeradjanin,A.R.;Grote,J.-P.;Polymeros,G.;Mayrhofer,K.J.
+J. A critical review on hydrogen evolution electrocatalysis: Re-
+exploring the volcano-relationship. Electroanalysis 2016, 28, 2256−
+2269.
+(63) Danilovic, N.; Subbaraman, R.; Strmcnik, D.; Chang, K.-C.;
+Paulikas, A. P.; Stamenkovic, V. R.; Markovic, N. M. Enhancing the
+alkalinehydrogenevolutionreactionActivitythroughthebifunction-
+ality of Ni(OH)/metal catalysts. Angew. Chem. Int. Ed. 2012, 51,
+2
+12495−12498.
+(64) Popic,́ J. P.; Dražic,́ D. M. Electrochemistry of active
+chromium:PartII.Threehydrogenevolutionreactionsonchromium
+insulfuricacid. Electrochim.Acta 2004, 49,4877−4891.
+(65) Cheng, X.; Ma, H.; Chen, S.; Chen, X.; Yao, Z. Corrosion of
+nickelinacidsolutionswithhydrogensulphide.Corros.Sci.2000,42,
+299−311.
+(66) Feng, L.; Vrubel, H.; Bensimon, M.; Hu, X. Easily-prepared
+dinickel phosphide (NiP) nanoparticles as an efficient and robust
+2
+electrocatalystforhydrogenevolution.Phys.Chem.Chem.Phys.2014,
+16,5917−5921.
+(67) Kao, Y.-F.; Lee, T.-D.; Chen, S.-K.; Chang, Y.-S. Electro-
+chemical passive properties of AlCoCrFeNi (x=0, 0.25, 0.50, 1.00)
+x
+alloysinsulfuricacids.Corros. Sci.2010,52,1026−1034.
+(68) Bagheri, R.; Wattoo, A. G.; Yao, Y.; Liu, J.; Xu, C.; Moradi-
+Haghighi, M.; Song, Z. Efficient and stable electrocatalyst for
+hydrogenevolutionreactionpreparedbyhybridtechniqueinsurface
+engineering:Electrochemicalandmagnetronsputteringmethods.Int.
+J. HydrogenEnergy 2018,43, 757−771.
+(69) Ye, J.-Y.; Attard, G. A.; Brew, A.; Zhou, Z.-Y.; Sun, S.-G.;
+Morgan, D. J.; Willock, D. J. Explicit detection of the mechanism of
+platinumnanoparticleshapecontrolbypolyvinylpyrrolidone.J.Phys.
+Chem. C2016, 120, 7532−7542.
+(70) Su, Z.; Climent, V.; Leitch, J.; Zamlynny, V.; Feliu, J. M.;
+Lipkowski,J.QuantitativeSNIFTIRSstudiesof(bi)sulfateadsorption
+at the Pt(111) electrode surface. Phys. Chem. Chem. Phys. 2010, 12,
+15231−15239.
+(71) Shi, Y.; Yang, B.; Liaw, P. Corrosion-resistant high-entropy
+alloys:A review.Metals 2017,7,43.
+(72) Pavul Raj, R.; Kumaraguru, S.; Mohan, S. Benign synthesis of
+robust nickel thin films as stretchable electrodes for electrochemical
+17018 https://doi.org/10.1021/acs.jpcc.1c03646
+J.Phys.Chem.C2021,125,17008−17018
+

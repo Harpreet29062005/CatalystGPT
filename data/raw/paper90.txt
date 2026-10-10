@@ -1,0 +1,728 @@
+Small
+www.small-journal.com
+RESEARCHARTICLE
+Pulse Electrodeposited NiFeCoMoW High-Entropy Alloy
+Electrode for Efficient Alkaline Water Electrolysis
+ZiyaoChen1 YiweiSun1 MengqingHu1 MingliLi1 KaidiZhang1 WanhongZhang1 ZhongZheng2
+RuthKnibbe2 KaicaiFan3 LingboZong3 YuhaiDou4 YiJia5,6,7 YunWang1 HuaiQinFu1
+PorunLiu1 HuijunZhao1
+1SchoolofEnvironmentandScience,GoldCoastCampus,GriffithUniversity,GoldCoast,Australia 2SchoolofMechanicalandMiningEngineering,The
+UniversityofQueensland,Brisbane,Australia 3CollegeofChemistryandMolecularEngineering,QingdaoUniversityofScienceandTechnology,Qingdao,
+China 4InstituteofEnergyMaterialsScience,UniversityofShanghaiforScienceandTechnology,Shanghai,China 5CollegeofChemicalEngineering,
+PetroleumandChemicalIndustryKeyLaboratoryofOrganicElectrochemicalSynthesis,ZhejiangUniversityofTechnology,Hangzhou,China 6Zhejiang
+CarbonNeutralInnovationInstitute&ZhejiangInternationalCooperationBaseforScienceandTechnologyonCarbonEmissionReductionandMonitoring,
+ZhejiangUniversityofTechnology,Hangzhou,China 7MoganshanInstituteofZhejiangUniversityofTechnologyatDeqing,Huzhou,China
+Correspondence:HuaiQinFu(h.fu@griffith.edu.au) PorunLiu(p.liu@griffith.edu.au) HuijunZhao(h.zhao@griffith.edu.au)
+Received:31October2025 Revised:19January2026 Accepted:10March2026
+Keywords:alkalinewatersplitting|highentropyalloys|insituRamancharacterizations|Mo/W-oxoframework|pulseelectrodeposition
+ABSTRACT
+High-entropyalloys(HEAs)offeraversatileplatformforbifunctionalelectrocatalysis,yettheiractivity-stabilitybalanceunder
+industrial-levelcurrentdensityremainsinsufficientlyunderstood.Here,wereportaself-supportedNiFeCoMoWHEAelectrode
+fabricated by pulse electrodeposition on copper foam, forming a binder-free hierarchical architecture with homogeneous
+elementaldistribution.In1.0MKOH,NiFeCoMoW@CFdeliversstrongbifunctionalactivity,requiringanoverpotentialof251mV
+toreach10mAcm−2 forOER,andenablesoverallwatersplittingwithalowcellvoltageof1.52Vat10mAcm−2 and1.83V
+at 1000 mA cm−2. The electrolyzer operates stably at 1000 mA cm−2 for 100 h with minimal voltage increase. In situ Raman
+spectroscopyrevealsapotential-dependentsurfaceevolution:apersistentMo/W-OsignatureisretainedacrossHERandOER,
+while Ni/Fe/Co reconstruct into an oxyhydroxide-rich surface state under OER, consistent with post-test XPS/HRTEM. This
+coupledstabilization–reconstructionbehavior,enabledbymulticomponentcouplingandpulse-engineeredaccessibility,provides
+mechanisticinsightandapracticalstrategyfordurable,noble-metal-freealkalinewaterelectrolysis.
+1 Introduction on noble-metal catalysts such as Pt, Ir, and Ru, which suffer
+fromhighcostandlimiteddurabilityunderindustrialoperating
+Thegrowingdemandforsustainableandcarbon-neutralenergy conditions[8–11].Therefore,developingefficient,stable,andlow-
+technologieshasintensifiedinterestinhydrogenasacleanenergy cost electrocatalysts for both the hydrogen evolution reaction
+carrier[1–4].Amongvarioushydrogenproductionroutes,alka- (HER) and oxygen evolution reaction (OER) remains a critical
+line water electrolysis powered by renewable electricity is con- challenge.However,translatinglaboratory-scaleelectrocatalysts
+sideredoneofthemostpracticalpathwaysforlarge-scalegreen intopracticalhydrogenproductionrequireselectrodesthatcan
+hydrogengeneration[5–7].However,itswidespreaddeployment operate stably at industrial-level current densities with robust
+is still hindered by sluggish reaction kinetics and the reliance masstransportandmechanicalintegrity.
+ThisisanopenaccessarticleunderthetermsoftheCreativeCommonsAttribution-NonCommercial-NoDerivsLicense,whichpermitsuseanddistributioninanymedium,providedtheoriginalwork
+isproperlycited,theuseisnon-commercialandnomodificationsoradaptationsaremade.
+©2026TheAuthor(s).SmallpublishedbyWiley-VCHGmbH
+Small,2026;22:e13525 1of13
+https://doi.org/10.1002/smll.202513525
+
+High-entropy alloys (HEAs), composed of multiple principal layer uniformly covers the 3D conductive skeleton of CF and
+elements, have recently emerged as a promising class of elec- exhibitsacharacteristicnodular(“cauliflower-like”)morphology
+trocatalysts owing to their unique electronic structures and composed of stacked clusters. Such hierarchical features are
+compositional tunability [12–17]. A growing body of work has commonlyobservedinhigh-rateelectrodepositionandareclosely
+demonstratedthatintroducingspecificelementsintoHEAscan associatedwiththecombinedeffectsofnon-uniformlocalelectric
+significantly regulate water-splitting activity. For example, Ni- fields and concurrent gas evolution [31]. Such hierarchical fea-
+, Fe-, and Co-based HEAs provide conductive backbones and turesaretypicalofhigh-rateelectrodepositionandareassociated
+redox-active sites, while incorporating oxophilic elements such with concurrent gas evolution. Gas chromatography confirms
+asMoorWhasbeenreportedtopromotealkalineHERkinetics H as the dominant gaseous product during deposition (Figure
+2
+(e.g., facilitating water activation/dissociation) and to stabilize S1),supportingbubble-assistednucleation/growthofthetextured
+oxidized surface intermediates under OER conditions [18–21]. surface[32].Theimpactofcompositionanddepositionmodeon
+However, element-resolved roles and operando surface evolu- microstructuralassemblywasfurtherexamined.Itisimportant
+tionofmulticomponentHEAs—especiallyunderindustrial-level tonotethatMo6+andW6+cannotbeelectrodepositedasmetallic
+currentdensities—remainunclear,motivatingin-situ/operando species from aqueous electrolytes, their incorporation typically
+mechanisticinterrogation. relies on induced co-deposition with iron-group metals [33–
+35].Accordingly,thefinalcomposition/microstructuredoesnot
+Fromapracticalperspective,thesynthesisofHEAsalsopresents necessarily scale linearly with precursor ratios, and parameter
+notable challenges. Conventional fabrication methods such as optimization is required [36]. As shown in Figure S2, the qua-
+arc melting, ball milling, and sputtering are energy-intensive ternary controls and compositional variants largely retain the
+and often yield powder catalysts that require binders, limiting nodulartexture,whereasvaryingdepositionparameters(current
+theirscalability[22–26].Whileelectrodepositionoffersascalable density, pulse mode, and deposition time) induce noticeable
+alternative, current protocols often suffer from high energy morphologicaldefects(FiguresS3–S5),highlightingthenecessity
+input,typicallyrequiringhighcontinuouscurrentdensitiesand of the optimized pulse protocol. Cross-sectional SEM and the
+prolongeddepositiontimestoachievestableelectrodes[27–30]. correspondingelementallineprofiles(Figure1c)indicateacon-
+Furthermore,thelargedifferencesinreductionpotentialsamong tinuouscoatingwithathicknessof∼26µmandahomogeneous
+multiplemetalionsmakeuniformco-depositiondifficult,andthe distribution of Ni, Fe, Co, Mo, and W across the cross-section.
+nonequilibriumgrowthbehavioranditsinfluenceonmultimetal Extendingthedepositionbeyond15mindoesnotproportionally
+synergyremain poorlyexplored. Developing a “green,” energy- increase the coating thickness but instead leads to excessive
+efficient electrodeposition strategy to fabricate industrial-grade accumulation and dense agglomeration on the outer surface
+HEAelectrodesremainsasignificanthurdle. (FigureS6).
+Herein,wereportaself-supportedNiFeCoMoWHEAelectrode Figure 1d shows the X-ray diffraction (XRD) patterns of NiFe-
+fabricatedoncopperfoam(CF)viaarapidandenergy-efficient CoMoW@CF and the bare Cu foam substrate. The Cu foam
+pulseelectrodepositionstrategy.ByintegratingbothMoandW displaystypicalpeaksat2θ=43.3◦,50.4◦,and74.1◦,indexedto
+into a NiFeCo-based HEA framework, the resulting electrode the (111), (200), and (220) planes of Cu (PDF#85-1326). In con-
+exhibitsa3Dinterconnectedarchitecturewithuniformelemental trast,NiFeCoMoW@CFexhibitsabroadpeakcenteredat44.9◦,
+distribution.TheNiFeCoMoW@CFelectrodedeliversoutstand- correspondingtothe(111)planeofaface-centercubic(fcc)solid-
+ing bifunctional performance in alkaline media, requiring only solutionphasewithaninterplanarspacingof2.01Å.Compared
+33.5 and 251.0 mV to drive HER and OER at 10 mA cm−2, with the Cu(111) reflection, the shifted (111) position suggests
+respectively, and achieving 100 mA cm−2 at 1.52 V for overall latticedistortionassociatedwithmultielementincorporationand
+water splitting. Notably, it maintains industrial-level stability defect/microstraineffectsinducedbynonequilibriumpulseelec-
+at 1000 mA cm−2 for 100 h, surpassing many reported HEAs. trodeposition. The pronounced peak broadening together with
+More importantly, in situ Raman spectroscopy combined with diffusescatteringbackgroundindicatesananocrystalline,defect-
+electrochemicalanalysisandpost-electrolysisXPSprovidesdirect rich structure with significant microstrain [28, 37], consistent
+mechanistic insight into the Mo–W synergistic stabilization withtherestrictedatomicdiffusionandsuppressedgraingrowth
+effect,revealingaMo/W–oxo(Mo–O/W–Ocoordinated)frame- under pulsed deposition conditions [41]. To further elucidate
+workthatstabilizesthesurfaceacrossHERandOER.Meanwhile, thestructuralcharacteristicsofNiFeCoMoW@CF,thedeposited
+Ni,Fe,andCodynamicallyreconstructintoOERactiveM-OOH particleswereexaminedbyhigh-resolutiontransmissionelectron
+species under OER conditions. This work elucidates how mul- microscopy(HRTEM)andenergy-dispersiveX-rayspectroscopy
+ticomponent interactions govern catalytic activity and stability (EDS) analyses. As shown in Figure 1e, NiFeCoMoW@CF
+in HEAs, offering guidance for the rational design of durable, exhibits clear lattice fringes in selected regions, evidencing
+binder-freeelectrocatalystsforalkalinewaterelectrolysis. well-ordered crystalline domains within the electrodeposited
+particles. In addition to these ordered domains, some low-
+contrast regions that may reflect defect-/strain-rich domains
+2 ResultsandDiscussion typicalofnonequilibriumelectrodeposition,whichisreasonable
+fornonequilibriumgrowthunderpulsedelectrodeposition.The
+NiFeCoMoW HEA electrode was fabricated via pulsed cur- corresponding fast Fourier transform (FFT) pattern collected
+rent electrodeposition onto CF (denoted as NiFeCoMoW@CF) fromthelattice-resolved regionshowsdistinctdiffractionspots
+and subsequently used as both the cathode and anode for that can be indexed to an fcc-type (111) reflection, confirm-
+alkaline water electrolysis. As illustrated in the scanning elec- ing short-range crystallographic ordering at the nanoscale. The
+tron microscopy (SEM) images (Figure 1a,b), the deposited peakbroadening(XRD)andlocallatticecontrast(HRTEM)are
+2of13 Small,2026
+
+FIGURE 1 (a)SEMimageand(b)HighresolutionSEMimageofNiFeCoMoW@CF;(c)Thecross-sectionalchemicalcompositionsandSEMimage
+ofNiFeCoMoW@CF;(d)XRDpatternofNiFeCoMoW@CF;(e)HRTEMimageofNiFeCoMoWparticlesandenlargedinverseFFTHRTEMimagefrom
+theselectedareainpanel;(f)EDSelementalmappingimagesofNiFeCoMoW@CF.
+consistentwithananocrystalline,defect-/microstrain-containing limitationsandpreferentialdeposition,therebyleadingtocompo-
+HEA formed under pulsed deposition [42, 43]. The interplanar sitionalheterogeneity.Collectively,theseresultssubstantiatethat
+spacings measured from HRTEM are d = 2.01 Å for NiFeCo- thepulsedprotocoliscriticalnotonlyforconstructingauniform
+MoW@CF (Figure S7), in excellent agreement with the XRD hierarchical morphology but also for achieving a composition-
+results,furthersupportingtheformationofasolidsolutionwith allyhomogeneousmulticomponentcoating,providingareliable
+localizedcrystaldistortionfrommulti-elementalincorporation. structural basis for subsequent electrocatalytic evaluation. To
+quantifythebulkelementalcompositionofthedepositedHEA
+EDS Elemental mapping (Figure 1f) confirms that Ni, Fe, Co, coating,inductivelycoupledplasmamassspectrometry(ICP-MS)
+Mo,andWarehomogeneouslydistributedthroughouttheHEA wasperformed.TheICP-MSresultsshowthattheHEAcoating
+particles, with no evidence of elemental segregation or clus- composition of NiFeCoMoW is Fe: Ni: Co: Mo: W = 30.7: 36.5:
+tering, which is consistent with the EDS linear profiles result 21.0:6.5:5.3,whichisconsistentwiththeEDSdataandlieswithin
+obtainedfromSEM.Thesefindingsdemonstratethesuccessful the 5–35 at. % range characteristic of HEAs, as shown in Table
+co-deposition of multiple metal species into a compositionally S1.Basedontheseatomicratios,thethermodynamicparameters,
+uniform,homogenousHEA,offeringastructurallystablefoun- i.e.,mixingentropy(ΔS ),mixingenthalpy(ΔH ),atomicsize
+mix mix
+dationforhigh-performanceelectrocatalysis.FigureS8presents difference (δ) and valence electron concentration (VEC) were
+theEDSspectrumcollectedfromarepresentativeregionofNiFe- calculatedasΔS =11.6Jmol−1K−1(≈1.39R),ΔH =−1.9kJ
+mix mix
+CoMoW@CF,confirmingthecoexistenceofNi,Fe,Co,Mo,and mol−1,δ=3.6%,andVEC=8.6.Accordingtothesolid-solution
+Welementsinthedepositedlayer.Forcomparison,theconstant- formation theory proposed by Guo et al. [44], a solid-solution
+currentelectrodepositedsampleshowsanoticeablylessuniform phaseisfavoredwhen−22≤ΔH ≤7kJmol−1,11≤ΔS ≤19.5
+mix mix
+elemental distribution, where Fe-rich regions can be observed Jmol−1K−1,and0≤δ≤8.5%.Theobtainedparametersmeetall
+(FigureS9),suggestingthatcontinuousdepositionunderhighly thesecriteria,andVEC>8furthersupportsthestabilisationofan
+nonequilibrium conditions can amplify local mass-transport fccsolid-solutionstructure,consistentwiththeaforementioned
+Small,2026 3of13
+
+XRD and HRTEM results. Notably, the calculated ΔS ≈ 1.39 a pronounced activity loss (η increases to 90.6 and 79.6 mV,
+mix 10
+R, which falls within the 1.36–1.61R range that has been used respectively), demonstrating that concurrent Mo/W incorpora-
+to classify multicomponent alloys as high-entropy alloys [38, tionisnecessaryratherthaninterchangeable.Second,whenthe
+39]. Overall, these findings confirm that NiFeCoMoW forms a electrode was prepared under constant-current deposition, the
+compositionallyuniformandstructurallystablefcc-phaseHEA, activity decreased relative to pulse deposition, indicating that
+providing diverse atomic environments and tunable electronic thepulsedprotocoliscriticalforconstructingthehighlyactive
+statesbeneficialforHERandOERelectrocatalysis. architecture. Third, deviations from the optimized deposition
+window(0.8Acm−2,15min)leadtonoticeablemorphologydete-
+X-ray photoelectron spectroscopy (XPS) analysis has been per- rioration(e.g.,over-accumulation/cracking;FiguresS3–S5)anda
+formed to evaluate the surface speciation of NiFeCoMoW@CF concomitantperformancedecrease.Thesecomposition-process-
+electrode.Thesurveyspectrum(Figure2a)displaysNi2p,Fe2p, performancetrendsremainconsistentacrossthefullcomparison
+Co2p,Mo3d,andW4fpeaks,confirmingthecoexistenceofall matrix (Figure S11 and Table S3), supporting that the balanced
+constituentelements,whileC1sandO1sarisefromatmospheric quinary stoichiometry and the pulse-enabled microstructure
+adsorption and minor surface oxidation. All XPS spectra were jointlyunderpintheoutstandingalkalineHERactivity.
+calibrated using C 1s = 284.8 eV. The high-resolution Ni 2p
+spectrum(Figure2b)exhibitsNi0(852.5eV),Ni2+(855.8eV),and TheHERkineticswerefurtheranalyzedbyTafelplots(Figure3b).
+Ni3+ (857.2 eV) components with satellites, indicating metallic NiFeCoMoW@CFdisplaysasmallTafelslopeof43.9mVdec−1,
+Niandsurfaceoxides[40].TheFe2pregion(Figure2c)shows lowerthanthatofPt/C@CF(52.8mVdec−1).Moreimportantly,
+Fe0 (706.5 eV), Fe2+ (710.0 eV), and Fe3+ (711.3 eV), suggest- theoptimizedHEAoutperformsthecontrolgroups(TableS3):the
+ing coexistence of metallic Fe and mixed-valence oxides [21]. quaternary NiFeCoMo@CF and the constant-current deposited
+The Co 2p spectrum (Figure 2d) reveals Co0 (778.0 eV), Co2+ sample exhibit much higher Tafel slopes of 95.9 and 64.9 mV
+(780.7 eV), and Co3+ (782.5 eV), indicative of partial surface dec−1, respectively, highlighting the concurrent Mo/W incor-
+oxidation to Co(II/III) (oxy)hydroxide/oxide species [27]. The poration and the pulse-enabled architecture as key factors for
+Mo 3d spectrum (Figure 2e) can be deconvoluted into Mo0 acceleratedalkalineHERkinetics.Theslopenear40mVdec−1
+(227.8 eV), Mo4+ (229.5 eV), and Mo6+ (232.3 eV) [41], while W isconsistentwithVolmer-Heyrovsky-typebehavior,whereelec-
+4f spectrum (Figure 2f) exhibits W0 (31.6 eV), W4+ (34.4 eV), trochemical desorption is often rate-influencing under alkaline
+and W6+ (36.3 eV), confirming the coexistence of metallic and conditions.Inthiscontext,theoxophilicMo/W-containingsur-
+oxidizedspecies[28].Theseresults(TableS2)collectivelyindicate facechemistrymayfacilitatewateractivation,whiletheoverall
+that while the bulk alloy possesses a single-phase metallic fcc reactionrateisgovernedbythesubsequenthydrogenevolution
+structure, the surface manifests high-valence oxidation states. steps. To elucidate interfacial charge-transfer characteristics,
+This is attributed to the unavoidable spontaneous oxidation of electrochemical impedance spectroscopy (EIS) was performed
+thereactivemetalsurfaceuponexposuretoairandtheaqueous underHERconditions(−0.08VvsRHE).Spectrawerefittedwith
+electrolyte. Such mixed-valence surface species indicate partial thecircuitR(Q R )(Q R ),whereR,Q,R ,Q andR represent
+s c c dl ct s c c dl ct
+oxidation in air/electrolyte and suggest a chemically versatile solution resistance, impedance caused by coating capacitance,
+interface,whichisfurthercorrelatedwiththefavorablekinetics coatingresistance,impedancecausedbyelectricaldoublelayer
+andreconstructionbehaviordiscussedbelow(insituRaman,EIS, capacitance, and charge transfer resistance, respectively [42].
+andpost-testXPS). As shown in Figure 3c, NiFeCoMoW@CF exhibits the lowest
+R of 5.84 Ω together with a small R of 1.92 Ω, indicating
+ct s
+Allcatalyticevaluationsinthisworkwereconductedinalkaline efficientelectron/iontransportandfastinterfacialchargetransfer
+electrolyte, because the NiFeCoMoW HEA was designed for duringHER.ComparedwithPt/C@CFandbareCF,thelower
+alkaline water electrolysis and the Cu-foam-supported config- R of NiFeCoMoW@CF suggests a more conductive coating
+c
+uration is not acid-tolerant. In a preliminary test, immersing layer.Consistently,thecomprehensiveNyquistplots(FigureS12)
+NiFeCoMoW@CFin0.5MH SO ledtorapidgasevolutioneven show that all compositional variants and the constant-current
+2 4
+at open circuit, indicating severe parasitic corrosion; therefore, sampledisplaysignificantlylargersemicirclesthantheoptimized
+systematic acidic testing is beyond the scope of this study. The NiFeCoMoW@CF,corroboratingitssuperiorinterfacialkinetics.
+electrocatalytic performance of NiFeCoMoW@CF toward HER
+wasfirstevaluatedin1.0MKOHusinglinearsweepvoltammetry For OER, the NiFeCoMoW@CF electrode exhibits outstanding
+(LSV)with85%iRcompensationatroomtemperature(Figure3a). anodicactivity(Figure3d),requiringlowoverpotentialsofη =
+10
+Forcomparison,commercialPt/C@CF,bareCF,andalibraryof 251.0mVandη =323.8mV,outperformingRuO @CF(η =
+100 2 10
+controlelectrodesweremeasuredunderidenticalconditions.As 258.4mV,η =351.3mV).BareCFremainstheleastactive(η
+100 10
+a noble-metal-free, self-supported electrode, NiFeCoMoW@CF =372.3mV).ItisworthnotingthatNiFeCoMoW@CFstandsout
+deliverslowoverpotentialsof33.5and123.1mVtoreachj=10and as the best-performing candidate across the entire investigated
+100mAcm−2,respectively,anditmaintainsaremarkablysmall compositionalandparametricspace(TableS3).Forexample,the
+overpotentialof191.9mVevenatj=1000mAcm−2(FigureS10a). quaternarycontrolsNiFeCoMo@CFandNiFeCoW@CFrequire
+Notably,thishigh-currentperformancesurpassesPt/C@CF(η much higher overpotentials of 287 and 278.9 mV at 10 mA
+10
+= 44.1 mV; η = 142.9 mV) and is far superior to bare CF cm−2,respectively,furthersupportingthenecessityofconcurrent
+100
+(η = 420.5 mV), highlighting the benefit of the binder-free Mo/Wincorporation.Crucially,thisadvantageextendstohigh-
+10
+HEA architecture. To connect performance with both com- currentoperation:theelectroderequiresonly405.8mVtosustain
+position and fabrication, we benchmarked NiFeCoMoW@CF an industrial-level current density of 1000 mA cm−2 (Figure
+against representative controls that isolate key variables. First, S10b), a performance metric that significantly outperforms the
+removing W (NiFeCoMo@CF) or Mo (NiFeCoW@CF) causes control samples (Figure S11c,g) and highlights its potential for
+4of13 Small,2026
+
+FIGURE 2 XPSanalysisofNiFeCoMoW@CF:(a)Surveyscanspectrum;(b)Ni2pspectrum;(c)Fe2pspectrum;(d)Co2pspectrum;(e)Mo3d
+spectrum;(f)W4fspectrum.
+practicalalkalinewatersplitting.Tafelslopeanalysis(Figure3e) the mass transport and gas bubble release during the slug-
+gives a slope of 38.4 mV dec−1 for NiFeCoMoW@CF, which is gish OER process. A slope near ∼40 mV dec−1 is commonly
+significantlylowerthanthatofRuO @CF(84.2mVdec−1).More associated with a favorable coverage/kinetic regime in alkaline
+2
+importantly, when compared to the constant-current deposited OER and is consistent with accelerated formation/turnover of
+sample (82.7 mV dec−1), the pulse-deposited electrode exhibits oxygenatedintermediatesonthereconstructedsurface[43].EIS
+a nearly twofold improvement in reaction kinetics (Table S3). measurements further support the kinetic advantage. Under
+Thissharpcontrastsuggeststhatthepulse-inducedhierarchical OER conditions, NiFeCoMoW@CF maintains a lower charge-
+structurenotonlyprovidesmoreactivesitesbutalsofacilitates transferresistance(R =2.39Ω)thanthebenchmark(Figure3f).
+ct
+Small,2026 5of13
+
+FIGURE 3 (a)LSVpolarizationcurvesofdifferentelectrodesin1MKOHwithascanrateof1mVs−1forHER;(b)correspondingTafelslopes
+forHER;(c)Nyquistplotsat−0.08VvsRHE;(d)LSVpolarizationcurvesofdifferentelectrodesin1MKOHwithascanrateof1mVs−1forOER;(e)
+correspondingTafelslopesforOER;(f)Nyquistplotsat1.52VvsRHE;(g)C ofNiFeCoMoW@CFandCF;(h)TOFforNiFeCoMoW@CFduringHER;
+dl
+(i)TOFforNiFeCoMoW@CFduringOER.
+Comprehensive impedance analysis (Figure S12c,d) further from the linear plots of Δj vs scan rate (Figure 3g), yielding
+revealsthatallcompositionalvariantsandtheconstant-current C = 20.91 mF cm−2 for NiFeCoMoW@CF and C = 2.7 mF
+dl dl
+sample exhibit considerably larger semicircles compared to the cm−2 forCF.Itissignificanttocomparethiswiththeconstant-
+optimized HEA. This confirms that the synergistic Ni–Fe–Co– currentdepositedsample,whichshowsamuchlowerC of12.31
+dl
+Mo–Wcompositioncreatesahighlyconductiveactivelayerthat mF cm−2 (Figure S25g). This quantitative difference confirms
+minimizestheenergybarrierforelectrontransferattheanode thatthepulse-electrodepositionstrategysuccessfullyengineersa
+interface. Furthermore, the observation that NiFeCoMoW@CF hierarchical,porousarchitecturethatnearlydoublesthedensity
+exhibitsthelowestR indicatesastable,low-impedancesurface of accessible active sites compared to conventional continuous
+c
+layerunderanodicpolarization,aligningwiththesuperiorOER deposition.SinceECSAisproportionaltoC ,themuchhigher
+dl
+overpotentials(TableS2). C confirms that the HEA electrode provides far more active
+dl
+sites. Using a specific capacitance of 40 µF cm−2, the ECSA
+The electrochemically active surface area (ECSA) is commonly of NiFeCoMoW@CF is estimated to be ∼522.75 cm2, validating
+used as a proxy for the electrochemically accessible surface, thatthealloyarchitectureoffersabundantaccessibleactivesites,
+reflecting the extent of exposed/accessible interface for cataly- promoting charge transfer and enhancing catalytic efficiency.
+sis. Figure S13 shows the CV curves of NiFeCoMoW@CF, the The intrinsic catalytic activities of NiFeCoMoW@CF and CF
+comparableelectrodes,andbareCFrecordedinanon-Faradaic were further evaluated by calculating the turnover frequency
+potential window (0.97–1.07 V vs RHE) at scan rates of 20– (TOF)valuesforbothHERandOER.AsshowninFigure3h,i,
+200 mV s−1. The double-layer capacitance (C ) was extracted NiFeCoMoW@CF exhibits markedly higher TOF values than
+dl
+6of13 Small,2026
+
+FIGURE 4 (a)ChronoamperometricgascollectioncurveofNiFeCoMoW@CFataconstantcurrentdensityof100mAcm−2;(b)Chronopotentiom-
+etryforHERat1Acm−2for100h;(c)ChronopotentiometryforOERat1Acm−2−for100h;(d)InsituRamanspectroscopyofNiFeCoMoW@CFforHER
+atdifferentappliedpotentials;(e)InsituRamanspectroscopyofNiFeCoMoW@CFforOERatdifferentappliedpotentials.(f)LSVpolarizationcurve
+forwaterelectrolysiswithNiFeCoMoW@CFserveasbothanodeandcathode;(g)ChronoamperometrystudyofNiFeCoMoW@CF||NiFeCoMoW@CF
+at 1000 mA cm−2 for 100 h; (h) Comparison of the water splitting performance of NiFeCoMoW@CF with the reported HEA electrocatalysts at
+10mAcm−2.
+CFacrosstheentirepotentialrange,demonstratingitssuperior splitting reaction (2 H O → 2 H + O ). The time required to
+2 2 2
+intrinsicactivity.Atanoverpotentialof150mV,theHERTOFof collect10mLofH wasapproximately803s.Theexperimental
+2
+NiFeCoMoW@CF reaches 0.81s−1, which is nearly three orders gas volumes closely matched the theoretical values calculated
+of magnitude higher than that of CF (0.01 s−1). For OER, at from the total charge passed, yielding Faradaic efficiencies of
+400 mV overpotential, the corresponding TOF values are 1.91 99.8%forHERand94.9%forOER.Theseresultsindicatenear-
+s−1 forNiFeCoMoW@CFand0.23s−1 forCF.Togetherwiththe quantitative charge-to-gas conversion for HER and a high FE
+ECSA/C analysis,theseresultssuggestthatthemulticomponent for OER, with the measured gas volumes closely matching the
+dl
+HEAcoatingnotonlyincreaseselectrochemicalaccessibilitybut theoretical values derived from the passed charge. In addition,
+also delivers an intrinsic activity advantage over the substrate, Table S5 compares the overpotentials at 10 mA cm−2 for both
+consistentwiththesynergisticroleofmultipletransition-metal HER and OER of NiFeCoMoW@CF with those of previously
+centers. reported HEA electrocatalysts. Remarkably, NiFeCoMoW@CF
+displays one of the lowest HER overpotentials among all listed
+The Faradaic efficiencies (FEs) of NiFeCoMoW@CF for both materials, outperforming most reported HEAs and bimetallic
+HER and OER were quantitatively evaluated by the water catalysts.Simultaneously,itsOERperformancealsoranksamong
+displacement method. As shown in Figure 4a, under a cur- the best, even surpassing several catalysts containing noble-
+rent density of 100 mA cm−2, the generated volumes of H metal components. Overall, the combination of a binder-free
+2
+and O increased linearly with electrolysis time, maintaining conductivescaffold,pulse-enabledhierarchicalaccessibility,and
+2
+a stoichiometric ratio of 2:1, consistent with the overall water- themulticomponentHEAsurfacechemistryjointlycontributes
+Small,2026 7of13
+
+to the high bifunctional performance. Together with the high- XPSspectrashownegligiblechangescomparedwiththepristine
+current capability and operando/post-test evidence discussed electrode: Ni/Fe/Co do not exhibit a pronounced increase in
+below, these results support the practical promise of NiFeCo- high-valence oxyhydroxide-related components, while Mo and
+MoW@CFforalkalinewatersplitting. W remain predominantly in high oxidation states. In contrast,
+after OER testing, evident changes are observed in the sur-
+The long-term durability of the NiFeCoMoW@CF electrode in face chemical states. The Ni 2p, Fe 2p, and Co 2p spectra
+1.0MKOHwasevaluatedusingtwocomplementaryprotocols: show an increased contribution from higher-valence compo-
+accelerated cycling and chronopotentiometry (CP) at constant nents, accompanied by enhanced M-O/M-OH features in the
+currentdensities.AsshowninFigureS14a,after10,000CVcycles O 1s region, characteristic of anodically formed (oxy)hydroxide
+the HER polarization curve displays only a minor change, at species.Notably,MoandWstillremainmainlyinhighoxidation
+100mAcm−2,theoverpotentialincreasesfromη =123.1mVto statesafterOER,consistentwiththepersistentMo/W-Osigna-
+100
+η =124.2mV,correspondingtoadegradationof<2%.TheOER ture observed during operation. Overall, these results support
+100
+activity of the same electrode is likewise robust (Figure S14b), a potential-dependent surface evolution: the electrode remains
+withtheoverpotentialincreasingslightlyfromη =323.8mV chemically stable under HER, while undergoing controlled
+100
+to η 100= 330.4 mV after cycling, highlighting the inherent cor- surface reconstruction into an oxyhydroxide-rich layer under
+rosionresistanceandstructuralintegrityoftheHEAcoatingon OER.
+copperfoam.Durabilityundercontinuousoperationwasfurther
+examinedbyCPtestsduring100hHERelectrolysis(Figure4b,c), To elucidate the dynamic structural evolution of the NiFe-
+the potential drift quantified as Δη/η is limited to 1.5% at CoMoW@CF electrode during HER and OER, in-situ Raman
+0
+1000 mA cm−2, indicating stable interfacial kinetics and strong spectroscopywas performedin 1.0MKOH usinga customized
+adhesionofthecatalystlayer.UnderOERconditions,thesame electrochemicalcell.Thespectrawerecollectedinthe200–1000
+electrodeexhibitsevensmallerdrifts,only3.2%at1000mAcm−2, cm−1 range after holding each potential for 5 min to ensure
+demonstratingexcellenttolerancetostrongoxidativepotentials. steady-state surface conditions. The resulting profiles capture
+Collectively,theminimaldecayobservedinbothacceleratedand potential-dependentchangesinsurface(oxy)hydroxides,metal-
+long-termtestssupportstherobustnessofthemulticomponent oxidelattices,andMo/W-basedoxoframeworksthatgovernthe
+HEA coating under high-current alkaline electrolysis. This sta- bifunctional electrocatalytic behavior. During the HER process
+bility is consistent with the configurational-entropy-stabilized, (Figure4d),atopen-circuitpotential(OCP),asinglebandcen-
+solid-solution-like HEA lattice and the presence of refractory terednear∼805cm−1isobservedandisassignabletoMo–O/W–O
+Mo/Wspecies,whichmaycontributetosuppressingperformance stretching [44–46] Because Mo and W are difficult to deposit
+lossduringprolongedoperation. in metallic form from aqueous electrolytes due to their highly
+negativereductionpotentials,theyaregenerallyincorporatedas
+Post-stability characterization was performed to elucidate the oxo-compoundsormixedmetal-oxygenspeciesduringelectrode-
+structural evolution of NiFeCoMoW@CF after long-term HER position[47].UponsteppingthepotentialtoE=−0.02to0.1V
+and OER operation. SEM images (Figure S15) show that the (vsRHE),this∼805cm−1bandpersistswithsimilarlineshapeand
+cauliflower-like morphology is well preserved after 100 h elec- intensity,whereasnodiscerniblefeaturesappearat∼445/555/690
+trolysis, with no obvious delamination or collapse. Elemental cm−1, where surface M–OH / M–OOH vibrations are typically
+mapping (Figures S16 and S17) indicates that Ni, Fe, Co, Mo, expected [48, 49]. These observations suggest that, within the
+andWremainuniformlydistributedacrosstheelectrodesurface. investigated HER potential window, the electrode surface does
+Consistently, the bulk atomic ratios determined by ICP (Table notundergoapronouncedRaman-detectablereconstructioninto
+S1)arelargelyunchangedafterstabilitytests,suggestingminimal oxyhydroxidephases,andtheMo/W–O-relatedsurfacesignature
+compositionaldeviationduringoperation.XRDpatterns(Figure remainsstableundercathodicpolarization[50,51].Thisspectro-
+S18) further indicate that the overall crystalline framework is scopicstabilityisconsistentwiththeinterfacialkineticsrevealed
+largelypreservedafterHER,asevidencedbynegligiblepeakshift byEIS:NiFeCoMoW@CFexhibitsamarkedlysmallerR under
+ct
+and minimal change in peak width. After OER, the diffraction HERconditionsthanthecontrolelectrodes(Figure3c),suggest-
+peaks become noticeably broadened, which can be attributed ingthatMo/W-oxoframeworkdoesnotimpedechargetransfer
+to a reduced coherent crystallite size and/or increased lattice andisconsistentwithakineticallyfavorableinterfaceforHER.
+disorder associated with anodic surface reconstruction. Corre- Togetherwithpost-HERXPSshowingthatMoandWremainpre-
+spondingly,HRTEMimages(FigureS19)revealaslightincrease dominantlyinhigh-valencestateswithoutasubstantialincrease
+in the lattice fringe spacing from 2.01 to 2.06 Å after OER test. ofoxyhydroxide-likecomponentsforNi/Fe/Co(FigureS20),the
+This lattice expansion provides direct structural evidence for data suggest that the Mo/W-oxo species remain stable and are
+anodicsurfacereconstructionfromthemetallicalloytowardan likely electronically coupled with the multicomponent surface
+oxyhydroxide-richsurfacestate.Suchstrain-associatedstructural during HER, which may contribute to the observed fast HER
+relaxation is widely observed in transition-metal-based OER kinetics.
+catalysts and is generally considered beneficial for modulating
+surface electronic properties and stabilizing oxygenated reac- In contrast, the spectral evolution during OER (Figure 4e)
+tion intermediates, thereby facilitating OER kinetics. XPS was reveals a distinct, potential-dependent surface reconstruction.
+employed to examine the surface chemical states of NiFeCo- In the lower potential region (0–50 mV), the spectra remain
+MoW@CF after HER and OER tests (Figures S20 and S21 and dominatedbythe∼805cm−1 Mo/W–Oband.However,starting
+Table S2). The fitted relative fractions of each oxidation state at an overpotential of +150 mV, new broad Raman features
+for Ni, Fe, Co, Mo, and W before and after HER/OER are emerge in the ∼530–560 cm−1 region, which can be deconvo-
+summarized in Table S6. After prolonged HER operation, the lutedintoNiOOH(556cm−1),FeOOH(543cm−1),andCoOOH
+8of13 Small,2026
+
+(538 cm−1) components [48]. Importantly, the appearance of 3 Conclusion
+these oxyhydroxide-related features coincides with the poten-
+tial window where the OER current increases rapidly in the In summary, a self-supported NiFeCoMoW high-entropy alloy
+polarization curve (Figure 3d), and their intensities increase (HEA) electrode was fabricated by pulse electrodeposition,
+synchronouslywiththeappliedpotentialupto250mV.Thiscor- enabling a binder-free hierarchical architecture with uniform
+relationstronglysupportsthatthepotential-inducedformationof multi-element distribution. The optimized NiFeCoMoW@CF
+Ni/Fe/Co-(oxy)hydroxidespeciesiscloselyassociatedwithOER delivers excellent bifunctional performance in alkaline media,
+activation, consistent with the widely accepted oxyhydroxide requiring 251 mV to drive OER at 10 mA cm−2, and enabling
+surfacestateasthecatalyticallyrelevantphaseinalkalineOER stable overall water splitting at an industrially relevant current
+[52, 53]. Meanwhile, the persistent ∼805 cm−1 Mo/W–O band densityof1000mAcm−2 for100h.Importantly,insituRaman
+throughoutanodicpolarizationsuggeststheretentionofMo/W- spectroscopycombinedwithpost-testanalysesrevealsacoupled
+containing oxo species during OER. Together with post-OER stabilization-reconstruction behavior: Mo/W–O motifs remain
+XPSresultsshowinganincreasedcontributionofhigher-valence spectroscopically persistent across both HER and OER, while
+Ni/Fe/Co components and predominantly high-valence Mo/W Ni/Fe/Co undergo potential-dependent reconstruction into an
+species (Figure S21), the data support a coupled reconstruction oxyhydroxide-richsurfaceunderOERconditions.Theseresults
+scenario: an oxyhydroxide-rich surface develops under OER highlightpulseelectrodepositionasapracticalroutetointegrate
+conditions while Mo/W–O-related species remain stable and highactivityanddurabilityinmulticomponentHEAelectrocata-
+electronically coupled within the multicomponent matrix. In lystsforalkalinewaterelectrolysis.
+addition,HRTEMafterOERstabilitytestingshowsanincreased
+lattice fringe spacing, further corroborating surface oxida-
+tion/reconstructionunderanodicconditions.Overall,thein-situ
+4 ExperimentalSection
+Ramanandpost-testanalysesconsistentlyindicatethatMo/W-
+oxo species remain stable across both HER and OER, while
+4.1 ChemicalsandMaterials
+Ni/Fe/Co undergo potential-dependent surface reconstruction
+primarily under OER conditions, together correlating with the
+Unlessotherwisespecified,allchemicalswereusedasreceived
+favorablekineticsanddurabilityofNiFeCoMoW@CFinalkaline
+without further purification. Nickel (II) chloride hexahydrate
+media.
+(NiCl ⋅6H O), iron(III) chloride hexahydrate (FeCl ⋅6H O),
+2 2 3 2
+cobalt (II) chloride hexahydrate (CoCl ⋅6H O), sodium
+ConsideringtheexcellentHERandOERactivityofNiFeCoMoW 2 2
+molybdate dihydrate (Na MoO ⋅2H O), sodium tungstate
+in alkaline media, a two-electrode electrolyzer was assembled 2 4 2
+dihydrate (Na WO ⋅2H O), trisodium citrate dihydrate,
+using1MKOHastheelectrolyte.Figure4f,gpresenttheoverall 2 4 2
+ammonium hydroxide (NH OH), potassium hydroxide (KOH),
+water-splitting(OWS)performanceofthissystem,withNiFeCo- 4
+Nafion. solution (5 wt.%, in a mixture of lower alcohols
+MoW@CFservingasthecathodeandanode.Theassembledcell
+and water), and ruthenium dioxide (RuO ) powder were all
+exhibits cell voltages of 1.52 and 1.69 V at current densities of 2
+10and100mA⋅cm−2,respectively—bothsignificantlylowerthan purchasedfromSigma-Aldrich.Copperfoam(CF)wassupplied
+byHezeTianyuCo.Sodiumdodecylsulfate(SDS)wasobtained
+thoseofthenoble-metal-basedbenchmarkPt/C@CF||RuO @CF
+2 from BIO-RAD, and commercial platinum on carbon catalyst
+(V = 1.55 V, V = 1.76 V). It is noteworthy that NiFeCo-
+10 100 (Pt/C,5wt.%Pt,drypowder)wassourcedfromAlfaAesar.All
+MoW@CF || NiFeCoMoW@CF only needs 1.83 V to reach to
+the current density of 1000 mA cm−2, as shown in Figure S22.
+solutionswerepreparedusingdeionizedwater(18.2MΩ⋅cm).
+ThisdemonstratesthesynergisticcatalyticadvantageoftheNiFe-
+Copperfoamwaspretreatedby10minultrasoniccleaningin1M
+CoMoW@CF electrodes for both HER and OER. Furthermore,
+HCl,ethanol,anddeionizedwatertoremoveoxides,thendried
+the long-term durability of the electrolyzer was challenged at
+anindustrial-levelcurrentdensityof1000mAcm−2.Asshown
+at50◦C.
+inFigure4g,theNiFeCoMoW@CF||NiFeCoMoW@CFcouple
+operatesstablyfor100hwithonlya6.1%increaseincellvoltage.
+These results confirm that the bifunctional NiFeCoMoW@CF 4.2 PreparationofNiFeCoMoW@CFElectrodes
+high-entropy alloy electrodes deliver both high activity and
+robust stability for overall water splitting in alkaline media, TheNiFeCoMoWhigh-entropyalloyelectrodesweresynthesized
+providing a strong material foundation for the development of usingathree-electrodesystem,withcopperfoam(CF)(dimen-
+high-performance,low-costwaterelectrolysissystems.Tofurther sions: 15 × 10 × 1.6 mm) as the working electrode, a carbon
+evaluate the overall catalytic superiority of NiFeCoMoW, its rod as the counter electrode, and a saturated Ag/AgCl (KCl)
+performance was compared with other recently reported high- electrodeasthereference.Theelectrodepositionbathconsisted
+andmedium-entropycatalysts,assummarizedinFigure4h.The of 0.35 M trisodium citrate dihydrate (as a complexing agent),
+NiFeCoMoW@CF electrolyzer exhibits the lowest cell voltage 0.25 M NiCl ⋅6H O, 0.1 M CoCl ⋅6H O, 0.15 M FeCl ⋅6H O,
+2 2 2 2 3 2
+of 1.52 V at 10 mA cm−2, outperforming most non-noble-metal 0.01 M Na MoO ⋅2H O, and 0.03 M Na WO ⋅2H O. These
+2 4 2 2 4 2
+systemsandevenrivalingnoble-metalcatalysts(TableS7).This metalsaltsweredissolvedsequentiallyindeionizedwater,with
+performance advantage is consistent with the multicomponent Na MoO ⋅2H O and Na WO ⋅2H O added only after the com-
+2 4 2 2 4 2
+coupling in the HEA and the stable/reconstructive surface plete dissolution of Ni2+, Co2+, and Fe3+ to avoid precipitation.
+behaviorevidencedbyoperandoRamanandpost-testanalyses, Subsequently, NH OH (aq): H O = 1:1 (v/v) was slowly added
+4 2
+whichtogetherenableefficientbifunctionalcatalysisinalkaline to adjust the pH to 6.0 ± 0.2, and the pH was monitored in
+media. real time using a pH meter. Finally, 0.01 wt.% SDS was added
+Small,2026 9of13
+
+asasurfactant,andthetotalvolumewasadjustedto100mLto JSM-7100Ffieldemissioninstrument.Microstructuralandlattice
+completethepreparationoftheplatingsolution. detailswerefurtherinvestigatedusinghigh-resolutiontransmis-
+sion electron microscopy (TEM, Hitachi HF5000) operated at
+Electrodeposition was carried out at room temperature using a 200kV.
+pulsedcurrentmethodwithacurrentdensityof0.8A⋅cm−2and
+anon/offcycleof0.2s/0.2sforatotaldepositiontimeof15min. CrystalstructureswereexaminedbyX-raydiffraction(XRD)ona
+After deposition, the electrodes were thoroughly rinsed with BrukerD8ADVANCEECOdiffractometerequippedwithCuKα
+deionizedwateranddried.Theresultingsamplesweredenoted radiation(λ=1.5418Å),operatedat40kVand25mA.Surface
+asNiFeCoMoW@CFandweresubsequentlyusedforstructural chemical states were analyzed using X-ray photoelectron spec-
+characterizationandelectrocatalyticperformanceevaluation. troscopy(XPS,KratosAxisSupraPlus).TheC1speakat284.8eV
+servedastheinternalreference.DataprocessingincludedShirley
+background subtraction and Voigt-function peak fitting, with
+4.3 PreparationofComparisonSamples parameters such as binding energy and FWHM constrained
+withinappropriaterangestoensurereliableresults.Inductively
+To elucidate the effects of composition and deposition param- coupledplasmamassspectrometry(ICP-MS)(Agilent7900)was
+eters, a series of control electrodes were prepared under oth- used to quantify the elemental composition (Ni/Fe/Co/Mo/W,
+erwise identical electrodeposition conditions. For composition- at. %) oftheelectrodeposited HEAcoating after acid digestion.
+controlledsamples,theMo/Wratiointheplatingbathwasselec- RamanspectroscopywasacquiredbyaRenishawinViaRaman
+tivelyvariedbyadjustingtheconcentrationsofNa MoO ⋅2H O Microscope.Thegaseousproductsgeneratedduringelectrochem-
+2 4 2
+and Na WO ⋅2H O, while keeping the concentrations of Ni2+, icalmeasurementswereanalyzedbygaschromatography(GC)to
+2 4 2
+Fe3+,Co2+salts,complexingagent,surfactant,pH(6.0±0.2),and identifyandquantifytheevolvedgases.
+depositionparametersunchanged.Theresultingelectrodeswere
+denotedasNiFeCoMo@CF,NiFeCoW@CF,NiFeCoMo W@CF,
+2
+NiFeCoMo W@CF, NiFeCoMoW @CF, NiFeCoMoW @CF, 4.6 ElectrochemicalMeasurements
+0.5 2 0.5
+NiFeCoMo W @CF,andNiFeCoMo W @CF.
+2 2 0.5 0.5
+All electrochemical characterizations were conducted using a
+In addition, deposition-parameter-controlled samples were fab- CHI760Delectrochemicalworkstation.Thecatalyticactivityfor
+ricated to evaluate the influence of current density, deposition HERandOERwasmeasuredinastandardthree-electrodesetup
+time, and current mode. Specifically, pulsed electrodeposition with 1 M KOH as the electrolyte. The exposed geometric area
+was conducted at current densities of 1600 and 400 mA cm−2 of the working electrode was controlled at 0.25 cm2, while an
+(denotedas1600and400mAcm−2),whilemaintainingallother Ag/AgClelectrode(saturatedKCl)andacarbonrodfunctioned
+conditions constant. Time-dependent samples were prepared as the reference and counter electrodes, respectively. Prior to
+withdepositiondurationsof5,10,20,and25min.Furthermore,a datacollection,60cyclicvoltametric(CV)scansatasweeprate
+constant-current-depositedelectrodewassynthesizedat400mA of100mV⋅s−1 wereappliedtostabilizetheelectrode–electrolyte
+cm−2,correspondingtothesameaveragecurrentdensityasthatof interface. HER and OER polarization curves were obtained by
+thepulsedNiFeCoMoW@CFelectrode,withthepulsedcurrent LSVoverpotentialwindowsof−0.8to−2.0Vand0.2to0.8V
+replacedbyadirectcurrentmode.Intotal,fifteencontrolsamples (vsAg/AgCl),usingascanrateof1mV⋅s−1tosuppresscapacitive
+wereobtainedforsystematiccomparison. currents.Themeasuredpotentialswere correctedusing85% iR
+compensation,acompromisechosentooffsetohmicresistance
+without introducing oscillations at high current densities. The
+4.4 PreparationofBenchmarkElectrodes recorded potentials were converted to the reversible hydrogen
+electrode(RHE)scaleusingthefollowingequation:
+Tocomparativelyevaluatethecatalyticperformance,Pt/C@CF
+andRuO 2 @CFwerepreparedasbenchmarkelectrodes.Specif- 𝐸 𝑅𝐻𝐸 =𝐸 𝐴𝑔∕𝐴𝑔𝐶𝑙 +0.059×𝑝𝐻+0.205 (1)
+ically, 20 mg of Pt/C or RuO powder was mixed with 100 µL
+2
+of Nafion. solution and dispersed in a 1.9 mL mixture of Electrochemicalimpedancespectroscopy(EIS)wasemployedto
+water and isopropanol (v/v = 1:1). The resulting suspension probecharge-transfercharacteristics,withmeasurementstaken
+wasultrasonicatedfor40mintoobtainauniformcatalystink. at−0.08VvsRHEforHERand1.52VvsRHEforOERacrossa
+Theinkwasdrop-castontothepretreatedcopperfoamsurface, frequencyspectrumof0.1Hzto100kHz,applyingasinusoidal
+with each layer air-dried at room temperature or dried at a perturbation of 1 mV. The uncompensated solution resistance
+temperaturebelow60◦C.Thisprocesswasrepeateduntilatotal (R)wasidentifiedfromtheNyquistplotatthehigh-frequency
+s
+catalystloadingofapproximately12mg⋅cm−2wasachieved.The intercept. The Faradaic efficiency for both HER and OER was
+resultingelectrodesweredesignatedasPt/C@CFandRuO @CF quantified by comparing the experimentally measured gas vol-
+2
+forcontrolexperiments. umeswiththeoreticalvalues.Theexperimentswereconducted
+inaclosedtwo-compartmentH-cellataconstantcurrentdensity
+of100mAcm−2for60min.TheproducedH andO gaseswere
+2 2
+4.5 MaterialsCharacterization simultaneouslycollectedbythewater-displacementmethod.The
+FEwascalculatedusingthefollowingequation:
+Morphological features and elemental mapping of the samples
+𝑛
+wereexaminedbyscanningelectronmicroscopy(SEM)equipped 𝐹𝐸= 𝑒𝑥𝑝 ×100% (2)
+𝑛
+with energy-dispersive X-ray spectroscopy (EDS) on a JEOL 𝑡ℎ𝑒𝑜
+10of13 Small,2026
+
+wheren istheamountofH (orO )experimentallydetected, Science 366, no. 6471 (2019): aax3100 , https://doi.org/10.1126/science.
+exp 2 2
+andn isthetheoreticallycalculatedvaluefromthetotalcharge aax3100.
+theo
+passed(Q=I×t)usingFaraday’slaw(n =Q/zF).Toestimate
+3.P. Patrizio, Y. W. Pratama, and N. Mac Dowell, “Socially Equitable
+theo
+theelectrochemicallyactivesurfacearea(ECSA),CVexperiments EnergySystemTransitions,”Joule4,no.8(2020):1700–1713,https://doi.
+wereconductedinanon-Faradaicpotentialregionatscanrates org/10.1016/j.joule.2020.07.010.
+of20–180mV⋅s−1.Theresultingcapacitivecurrentdensitieswere 4.H.G.Xu,X.Y.Zhang,Y.Ding,etal.,“RationalDesignofHydrogen
+plottedasafunctionofscanrate,andtheslopeprovidedC ,from Evolution Reaction Electrocatalysts for Commercial Alkaline Water
+dl
+whichECSAwascalculatedusingtherelation: Electrolysis,”SmallStructures4,no.8(2023):2200404.
+5.P. F. Liu, H. Yin, H. Q. Fu, M. Y. Zu, H. G. Yang, and H. Zhao,
+𝐶 “Activation Strategies of Water-Splitting Electrocatalysts,” Journal of
+𝐸𝐶𝑆𝐴= 𝐶 𝑑𝑙 (3) MaterialsChemistryA8,no.20(2020):10096–10129,https://doi.org/10.
+𝑠
+1039/D0TA01680B.
+wherethespecificcapacitanceC istakenas0.04mF⋅cm−2in1M 6.M. Jin, X. Zhang, S. Niu, et al., “Strategies for Designing High-
+s
+Performance Hydrogen Evolution Reaction Electrocatalysts at Large
+KOH.Catalyststabilitywasassessedbychronopotentiometryat
+constantcurrentdensitiesof10and100mA⋅cm−2.Theturnover Current Densities Above 1000 mA cm−2,” ACSNano 16, no. 8 (2022):
+11577–11597,https://doi.org/10.1002/smll.202202336.
+frequency (TOF) was determined by assuming that all surface-
+7.K. Fominykh, P. Chernev, I. Zaharieva, et al., “Iron-Doped Nickel
+exposedmetalatomsparticipatedascatalyticallyactivesites.The
+OxideNanocrystalsasHighlyEfficientElectrocatalystsforAlkalineWater
+TOFwascalculatedaccordingtothefollowingequation:
+Splitting,”ACSNano9,no.5(2015):5180–5188,https://doi.org/10.1021/
+acsnano.5b00520.
+𝑗𝑆
+𝑇𝑂𝐹= (4) 8.B. You, N. Jiang, M. Sheng, S. Gul, J. Yano, and Y. Sun, “High-
+𝑧𝐹𝑛
+Performance Overall Water Splitting Electrocatalysts Derived From
+Cobalt-Based Metal–Organic Frameworks,” Chemistry of Materials
+wherej(mAcm−2)isthemeasuredcurrentdensity,S(cm−2)is
+27, no. 22 (2015): 7636–7642, https://doi.org/10.1021/acs.chemmater.
+thegeometricareaoftheworkingelectrode,zisthenumberof 5b02877.
+electrons transferred per molecule of generated gas (z = 2 for
+9.J.Mohammed-IbrahimandX.Sun,“RecentProgressonEarthAbun-
+H evolution and z = 4 for O evolution), F (96485 C mol−1)
+2 2 dantElectrocatalystsforHydrogenEvolutionReaction(HER)inAlkaline
+istheFaradayconstant,andn(mol)representsthetotalmoles Medium to Achieve Efficient Water Splitting—A Review,” Journal of
+ofcorrespondingmetalatomswithinthecatalyst.Overallwater Energy Chemistry 34 (2019): 111–160, https://doi.org/10.1016/j.jechem.
+splitting (OWS) performance was evaluated in 1 M KOH using 2018.09.016.
+a two-electrode configuration, with NiFeCoMoW@CF as the
+10.Z.Chen,H.Q.Fu,Y.Sun,etal.,“OrderedMacroporousNickelElec-
+anode and cathode, respectively. Prior to testing, 60 CV cycles trodeforHigh-Current-DensityHydrogenProduction,”Energy&Fuels39
+wereappliedatascanrateof100mV⋅s−1.Thecellvoltagewas (2025):14821–14832,https://doi.org/10.1021/acs.energyfuels.5c02729.
+scanned from 0 to 2 V using LSV at 1 mV⋅s−1, and durability
+11.Z. Chen, H. Q. Fu, M. Dong, Y. Zou, P. Liu, and H. Zhao,
+wasfurtherassessedbychronopotentiometrictestingat10and
+“HydrogenSpilloverinElectrochemicalHydrogenEvolutionReaction,”
+100mA⋅cm−2toevaluatelong-termstabilityoftheoverallwater
+General Chemistry 8, no. 3-4 (2022): 220007, https://doi.org/10.21127/
+splittingsystem. yaoyigc20220007.
+12.B.Wang,Y.Yao,X.Yu,C.Wang,C.Wu,andZ.Zou,“Understanding
+theEnhancedCatalyticActivityofHighEntropyAlloys:FromTheory
+to Experiment,” Journal of Materials Chemistry A 9, no. 35 (2021):
+19410–19438,https://doi.org/10.1039/D1TA02718B.
+Acknowledgements
+13.L. Xiao, Z. Wang, and J. Guan, “Optimization Strategies of High-
+The authors thank the financial support from the Australian
+EntropyAlloysforElectrocatalyticApplications,”ChemicalScience14,no.
+Research Council Discovery Projects (DP200100965, DP210104010
+45(2023):12850–12868,https://doi.org/10.1039/D3SC04962K.
+andDP230102504)andFutureFellowship(FT240100514).
+14.F.Lu,L.Zong,G.Zhang,etal.,“UltrafineHighEntropyAlloysWith
+OpenaccesspublishingfacilitatedbyGriffithUniversity,aspartofthe
+RuActivatedSitesforHighlyDurableandIndustrialGradeElectrocat-
+Wiley - Griffith University agreement via the Council of Australasian
+alyticWaterSplitting,”CompositesPartB:Engineering301(2025):112501,
+UniversityLibrarians
+https://doi.org/10.1016/j.compositesb.2025.112501.
+15.D.B.MiracleandO.N.Senkov,“ACriticalReviewofHighEntropy
+ConflictsofInterest AlloysandRelatedConcepts,”ActaMaterialia122(2017):448–511,https://
+Theauthorsdeclarenoconflictsofinterest. doi.org/10.1016/j.actamat.2016.08.081.
+16.H.Kuang,Z.Xu,X.Tan,K.Yu,andC.Chen,“HighlyDispersedUltra-
+smallHigh-EntropyAlloysNanoparticlesasEfficientElectrocatalystsfor
+DataAvailabilityStatement
+OxygenReductioninAcidicMedia,”Small20,no.25(2024):2308421,
+The data that support the findings of this study are available in the
+https://doi.org/10.1002/smll.202308421.
+supplementarymaterialofthisarticle.
+17.Z.Hu,K.Chen,Y.Zhu,B.Liu,andJ.Shen,“SynergisticEffectsof
+PtRhNiFeCuHighEntropyAlloyNanocatalystforHydrogenEvolution
+References and Oxygen Reduction Reactions,” Small 20, no. 26 (2024): 2309819,
+1.Y.Xu,K.Fan,Y.Zou,etal.,“RationalDesignofMetalOxideCatalysts https://doi.org/10.1002/smll.202309819.
+forElectrocatalyticWaterSplitting,”Nanoscale13,no.48(2021):20324– 18.A.Sivanantham,H.Lee,S.W.Hwang,etal.,“ComplementaryFunc-
+20353,https://doi.org/10.1039/D1NR06285A. tionsofVanadiuminBoostingElectrocatalyticActivityofCuCoNiFeMn
+2.S. Díaz, J. Settele, E. S. Brondízio, et al., “Pervasive Human-Driven High-EntropyAlloyforWaterSplitting,”AdvancedFunctionalMaterials
+DeclineofLifeonEarthPointstotheNeedforTransformativeChange,” 33,no.34(2023):2301153,https://doi.org/10.1002/adfm.202301153.
+Small,2026 11of13
+
+19.R.Q.Yao,Y.T.Zhou,H.Shi,etal.,“NanoporousSurfaceHigh-Entropy 35.D.Ahmadkhaniha,J.Kruemmling,andC.Zanella,“Electrodeposition
+AlloysasHighlyEfficientMultisiteElectrocatalystsforNonacidicHydro- of High Entropy Alloy of Ni-Co-Cu-Mo-W From an Aqueous Bath,”
+genEvolutionReaction,”AdvancedFunctionalMaterials31,no.10(2021): JournalofTheElectrochemicalSociety169,no.8(2022):082515,https://
+2009613,https://doi.org/10.1002/adfm.202009613. doi.org/10.1149/1945-7111/ac87d5.
+20.D.B.Miracle,“High-EntropyAlloys:ACurrentEvaluationofFound- 36.Y. Tian, L. Ma, X. Xi, and Z. Nie, “Induced Electrodeposition of
+ingIdeasandCoreEffectsandExploring“NonlinearAlloys”,”JOM69, AlloyCoatingsFromBathsContainingDifferentSystemsofComplexing
+no.11(2017):2130–2136,https://doi.org/10.1007/s11837-017-2527-z. Agents:PreparationandEnhancedPropertiesofCo-Mo-Ni-WCoatings,”
+JournalofElectroanalyticalChemistry921(2022):116700,https://doi.org/
+21.Z. Chen, J. Wen, C. Wang, and X. Kang, “Convex Cube-Shaped
+10.1016/j.jelechem.2022.116700.
+Pt Fe Ni Cu Mo Ru High Entropy Alloy Catalysts Toward High-
+34 5 20 31 9
+PerformanceMultifunctionalElectrocatalysis,”Small18,no.45(2022): 37.M. Dehestani, S. Sharafi, and G. R. Khayati, “The Effect of Pulse
+2204255,https://doi.org/10.1002/smll.202204255. Current Density on the Microstructure, Magnetic, Mechanical, and
+Corrosion Properties of High-Entropy Alloy Coating Fe–Co–Ni–Mo–
+22.Y.Zhang,D.Wang,andS.Wang,“High-EntropyAlloysforElectro-
+W,AchievedThroughElectroCo-Deposition,”Intermetallics147(2022):
+catalysis: Design, Characterization, and Applications,” Small 18, no. 7
+107610,https://doi.org/10.1016/j.intermet.2022.107610.
+(2022):2104339,https://doi.org/10.1002/smll.202104339.
+38.Y.Xin,S.Li,Y.Qian,etal.,“High-EntropyAlloysasaPlatformfor
+23.A.Verma,P.Tarate,A.Abhyankar,etal.,“HighTemperatureWearin
+Catalysis:Progress,Challenges,andOpportunities,”ACSCatalysis10,no.
+CoCrFeNiCuxHighEntropyAlloys:TheRoleofCu,”ScriptaMaterialia
+19(2020):11280–11306,https://doi.org/10.1021/acscatal.0c03617.
+161(2019):28–31,https://doi.org/10.1016/j.scriptamat.2018.10.007.
+39.D.S.Raja,Y.-C.Ting,T.-Y.Lin,etal.,“Quad-MetallicMOF-Derived
+24.A.AsghariAlamdari,H.Jahangiri,M.B.Yagci,etal.,“Exploringthe
+Carbon-Armored Pseudo-High Entropy Alloys as a Bifunctional Elec-
+Role of Mo and Mn in Improving the OER and HER Performance of
+trocatalyst for Alkaline Water Electrolysis at High Current Densities,”
+CoCuFeNi-BasedHigh-EntropyAlloys,”ACSAppliedEnergyMaterials7,
+JournalofMaterialsChemistryA11,no.46(2023):25283–25297,https://
+no.6(2024):2423–2435,https://doi.org/10.1021/acsaem.3c03227.
+doi.org/10.1039/D3TA04670B.
+25.P.Ma,M.Zhao,L.Zhang,etal.,“Self-SupportedHigh-EntropyAlloy
+40.Z.Zhang,Y.Li,Z.Zhang,etal.,“AnElectrochemicalModification
+Electrocatalyst for Highly Efficient H Evolution in Acid Condition,”
+2 StrategytoFabricateNiFeCuPtPolymetallicCarbonMatricesonNickel
+JournalofMateriomics6,no.4(2020):736–742,https://doi.org/10.1016/
+FoamasStableElectrocatalystsforWaterSplitting,”ChemicalScience13,
+j.jmat.2020.06.001.
+no.30(2022):8876–8884,https://doi.org/10.1039/D2SC02845J.
+26.H. Kamaruddin, Z. Jianghong, L. Yu, W. Yuefan, and H. Yizhong,
+41.P.-S. Jhu, C.-W. Chang, C.-C. Cheng, et al., “Non-Precious High
+“A Review of Noble Metal-Free High Entropy Alloys for Water Split-
+EntropyAlloysandHighlyAlkali-ResistantCompositeMembranesBased
+ting Applications,” Journal of Materials Chemistry A 12, no. 17 (2024):
+High Performance Anion Exchange Membrane Water Electrolyzers,”
+9933–9961,https://doi.org/10.1039/D4TA00690A.
+Nano Energy 126 (2024): 109703, https://doi.org/10.1016/j.nanoen.2024.
+27.C.Yu,X.Wang,W.He,Z.Zheng,X.Dang,andY.Zhang,“Electrode- 109703.
+positionofFeCoNiCuMnHigh-EntropyAlloyNanoparticlesasEfficient
+Bifunctional Electrolytic Water Catalyst,” Surfaces and Interfaces 46 42.Y.Ma,T.Li,S.-R.Zhao,Z.-T.Feng,andJ.-K.Liu,“DesignSynthesis
+(2024):104084,https://doi.org/10.1016/j.surfin.2024.104084. andSynergisticAnticorrosionPerformanceofZIF-8/NiAlLDHHetero-
+junction Nanocontainers,” Nano Research 18, no. 1 (2025): 94907000,
+28.H.Bian,R.Wang,K.Zhang,etal.,“FacileElectrodepositionSynthesis
+https://doi.org/10.26599/NR.2025.94907000.
+andSuperPerformanceofNano-PorousNi-Fe-Cu-Co-WHighEntropy
+Alloy Electrocatalyst,” Surface and Coatings Technology 459 (2023): 43.N.-T.Suen,S.-F.Hung,Q.Quan,N.Zhang,Y.-J.Xu,andH.M.Chen,
+129407,https://doi.org/10.1016/j.surfcoat.2023.129407. “Electrocatalysis for the Oxygen Evolution Reaction: Recent Develop-
+mentandFuturePerspectives,”ChemicalSocietyReviews46,no.2(2017):
+29.S.-Q. Chang, C.-C. Cheng, P.-Y. Cheng, C.-L. Huang, and S.-Y. Lu,
+337–365,https://doi.org/10.1039/C6CS00328A.
+“PulseElectrodepositedFeCoNiMnWHighEntropyAlloysasEfficient
+and Stable Bifunctional Electrocatalysts for Acidic Water Splitting,” 44.M.P.ThiandG.Velasco,“RamanStudyofWO ThinFilms,”Solid
+3
+ChemicalEngineeringJournal446(2022):137452,https://doi.org/10.1016/ StateIonics14,no.3(1984):217–220,https://doi.org/10.1016/0167-2738(84)
+j.cej.2022.137452. 90101-2.
+30.C.-L.Huang,Y.-G.Lin,C.-L.Chiang,etal.,“AtomicScaleSynergistic 45.S.Delice,M.Isik,N.Gasanly,N.Darvishov,andV.Bagiev,“Growth
+Interactions Lead to Breakthrough Catalysts for Electrocatalytic Water and Temperature-Tuned Band Gap Characteristics of LiGd (MoO )
+4 2
+Splitting,”AppliedCatalysisB:Environmental320(2023):122016,https:// SingleCrystalsforOptoelectronicApplications,”CeramicsInternational
+doi.org/10.1016/j.apcatb.2022.122016. 49,no.15(2023):25840–25847,https://doi.org/10.1016/j.ceramint.2023.05.
+131.
+31.Z.L.Carroll,M.J.Haché,B.Wang,etal.,“ElectrodepositedNiFe-
+CoMoW High-Entropy Alloys With Nanoscale Amorphous Structure 46.E. Carocci, L. Truche, M. Cathelineau, M.-C. Caumon, and E. F.
+asEffectiveHydrogenEvolutionElectrocatalysts,”ACSAppliedEnergy Bazarkina, “Tungsten (VI) Speciation in Hydrothermal Solutions up
+Materials 7, no. 19 (2024): 8412–8422, https://doi.org/10.1021/acsaem. to 400◦C as Revealed by In-Situ Raman Spectroscopy,” Geochimica
+4c01316. etCosmochimicaActa317(2022):306–324,https://doi.org/10.1016/j.gca.
+2021.11.004.
+32.C.-L. Huang, X.-F. Chuah, C.-T. Hsieh, and S.-Y. Lu, “NiFe Alloy
+Nanotube Arrays as Highly Efficient Bifunctional Electrocatalysts for 47.E.PodlahaandA.Kola,“ElectrodepositionofNi-Fe-Mo-WAlloys-Part
+OverallWaterSplittingatHighCurrentDensities,”ACSAppliedMaterials 8,”ProductsFinishing79,no.10(2015):18–27.
+&Interfaces11,no.27(2019):24096–24106,https://doi.org/10.1021/acsami.
+48.R.He,L.Yang,Y.Zhang,etal.,“A3d-4d-5dHighEntropyAlloyas
+9b05919.
+aBifunctionalOxygenCatalystforRobustAqueousZinc–AirBatteries,”
+33.S.Sun,T.Bairachna,andE.Podlaha,“InducedCodepositionBehavior Advanced Materials 35, no. 46 (2023): 2303719, https://doi.org/10.1002/
+of Electrodeposited NiMoW Alloys,” Journal of The Electrochemical adma.202303719.
+Society160,no.10(2013):D434–D440,https://doi.org/10.1149/2.014310jes.
+49.R.Diab,L.El-Deen,M.Nasr,A.El-Hamalawy,andA.Abouhaswa,
+34.M.Obradović,R.M.Stevanović,andA.R.Despić,“Electrochemical “Structural, Cation Distribution, Raman Spectroscopy, and Magnetic
+DepositionofNi–WAlloysFromAmmonia–CitrateElectrolyte,”Journal FeaturesofCo-DopedCu–EuNanocrystallineSpinelFerrites,”Journalof
+ofElectroanalyticalChemistry552(2003):185–196,https://doi.org/10.1016/ MaterialsScience:MaterialsinElectronics35,no.4(2024):290,https://doi.
+S0022-0728(03)00151-7. org/10.1007/s10854-024-12047-z.
+12of13 Small,2026
+
+50.P.Yao,Q.Bao,Y.Yao,etal.,“EnvironmentallyStable,Robust,Adhe-
+sive,andConductiveSupramolecularDeepEutecticGelsasUltrasensitive
+Flexible Temperature Sensor,” Advanced Materials 35, no. 21 (2023):
+2300114,https://doi.org/10.1002/adma.202300114.
+51.B.Zhou,R.Gao,J.J.Zou,andH.Yang,“SurfaceDesignStrategyof
+CatalystsforWaterElectrolysis,”Small18,no.27(2022):2202336,https://
+doi.org/10.1002/smll.202202336.
+52.M.Chen,D.Liu,J.Feng,etal.,“In-SituGenerationofNi-CoOOH
+ThroughDeepReconstructionforDurableAlkalineWaterElectrolysis,”
+ChemicalEngineeringJournal443(2022):136432,https://doi.org/10.1016/
+j.cej.2022.136432.
+53.P.Yan,Q.Liu, H.Zhang,L.Qiu,H.B.Wu,and X.-Y.Yu,“Deeply
+Reconstructed Hierarchical and Defective NiOOH/FeOOH Nanoboxes
+WithAcceleratedKineticsfortheOxygenEvolutionReaction,”Journal
+ofMaterialsChemistryA9,no.28(2021):15586–15594,https://doi.org/10.
+1039/D1TA03362J.
+SupportingInformation
+AdditionalsupportinginformationcanbefoundonlineintheSupporting
+Informationsection.
+SupportingFile:smll73125-sup-0001-SuppMat.docx.
+Small,2026 13of13
+

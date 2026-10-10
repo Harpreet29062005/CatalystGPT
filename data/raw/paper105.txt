@@ -1,0 +1,1092 @@
+RESEARCH ARTICLE
+www.advmat.de
+Sub-3 nm High-Entropy Alloy Nanoparticles with Triple
+Functionalities for Efficient Electrolytic Hydrogen Production
+Ying Zhang, Hui Li, Xu Liu, Zhen Xin Hui, Zhi Wen Chen,* Jian Li, Zi Wen,
+Chun Cheng Yang,* and Qing Jiang*
+evolution reaction (HER), involving the
+High-entropyalloys(HEA)exhibitgreatpromiseforalkalinehydrogenevolution priorH Odissociationandthelaterreactive
+2
+reaction(HER)duetotunablestructures,yetsufferfromlowatomicutilization, hydrogen (H*) adsorption-combination,
+insufficientcurrentdensity,andunclearcatalyticmechanism.Herein,ultra- suffers from sluggish kinetics, severely
+hinderingtheoperatingefficiencyofAEM
+smallsub-3nmPtRuFeCoNiCuHEAnanoparticlesaresynthesizedoncarbon
+electrolyzers.[9,10] Therefore, exploiting
+fiberpaper(CFP)viaa0.5sultraquickthermalshockstrategy(us-HEA/CFP).
+high-efficiency electrocatalysts for alkaline
+Theas-preparedhybriddemonstratesthebest-levelperformanceamong
+HER is essential to promoting large-scale
+reportedcatalysts,achievingultralowoverpotentialsof31.4and102.5mVat H production via AEM electrolyzers.
+2
+-100and-1000mAcm−2,respectively,inalkalinemedia.Suchexceptionalcat- While platinum (Pt) is regarded as the
+alyticperformancestemsfromthetriple-functionalnatureoftheHEAsurface: state-of-the-art HER catalyst in acid media
+owing to its ideal H* adsorption energy,
+Ru-dominatedregionsfacilitatingrapidH Odissociation,FeCoNiCusitesen-
+2 its effectiveness in alkaline environments
+ablingoptimalH*diffusionkinetics,andPt-richzonespromotingefficientH*
+is substantially inferior due to inadequate
+combination.Thissynergisticdissociation-diffusion-combinationmechanism H O dissociation capabilities.[11,12] Hence,
+2
+hasbeenunequivocallyvalidatedviainsituRamanspectroscopyanddensity a high-performance alkaline HER cata-
+functionaltheorycalculations.Practically,theassembledanionexchange lyst must simultaneously optimize two
+membraneelectrolyzeronlyrequires1.94Vtodeliver1000mAcm−2andcan critical functions: favorable H* adsorp-
+tion/combination kinetics and efficient
+operatestablyfor500h,showingstrongpotentialforlarge-scaleH production.
+2 H O dissociation capability. High-entropy
+2
+alloys (HEA) possess diverse elemen-
+tal compositions, fine-tuned electronic
+1.Introduction structures, and notable strain effects, making it possible
+to integrate efficient H O dissociation and H* adsorption-
+2
+Hydrogen (H ), as an eco-friendly fuel with high energy den- combination sites.[13–15] For instance, Wei et al. developed
+2
+sity, offers a sustainable solution to the energy crisis and envi- Pt Mo Pd Rh Ni nanocrystals for alkaline HER, in which
+28 6 28 27 15
+ronmental deterioration resulting from heavy reliance on fos- Pt and Ni sites facilitated H O dissociation while Rh and Pt
+2
+silfuels.[1–3] Electrochemicalwater splittingforH production, sites promoted the combination of H*.[16] Hao et al. clarified
+2
+particularlypoweredbyrenewableelectricity(e.g.,solar,hydro, thesynergisticeffectbetweenCo(astheH Odissociationsite)
+2
+and wind), is highly significant for a low-carbon economy.[4,5] and Ru (as the adsorption-combination site) in enhancing al-
+Amongexistingelectrochemicalwatersplittingtechnologies,an- kalineHERperformance.[17] Nevertheless, thesize controland
+ionexchangemembrane(AEM)electrolyzersintegratetheadvan- syntheticmethodologyofHEArequirefurtheroptimization.Re-
+tages of both proton exchange membrane (PEM) and alkaline cently,Chaetal.reportedaflash-thermalshockstrategyforsyn-
+water electrolyzers (AWE), such as rapid response, high-purity thesizing senary PtIrFeNiCoCe HEA nanoparticles, emphasiz-
+H , and compact structure, showing great potential for indus- ingaconvenient,scalable,andcost-effectiveapproachformulti-
+2
+trial applications.[6–8] However, the cathodic alkaline hydrogen metalcatalystsynthesis.[18] Fengetal.employedachemicalco-
+reduction method to prepare ultrasmall quinary NiCoFePtRh
+HEAnanoparticles(1.68nmaveragesize),highlightingthesyn-
+Y.Zhang,H.Li,X.Liu,Z.X.Hui,Z.W.Chen,J.Li,Z.Wen,C.C.Yang, ergistic effect of five elements on catalytic activity.[19] The con-
+Q.Jiang
+cernedworksoffercriticalinsightsintosynthesismethodologies
+KeyLaboratoryofAutomobileMaterials(JilinUniversity)
+MinistryofEducation andnanoscalesizecontrol.[20,21]However,thesesystemsexhibit
+andSchoolofMaterialsScienceandEngineering limitationsincatalyticperformanceatindustrialcurrentdensi-
+JilinUniversity ties, lack clear mechanistic insights into alkaline HER, and al-
+Changchun130022,China
+mostremainunappliedinpracticaldevices.Specifically,1)cur-
+E-mail:zwchen@jlu.edu.cn;ccyang@jlu.edu.cn;jiangq@jlu.edu.cn
+rent HEA catalysts struggle to sustain industrial-grade current
+TheORCIDidentificationnumber(s)fortheauthor(s)ofthisarticle
+densities(>1000mAcm−2)drivenbylowoverpotentials;2)due
+canbefoundunderhttps://doi.org/10.1002/adma.202508975 tothecomplexelectronicconfigurationsandcompositionalhet-
+DOI:10.1002/adma.202508975 erogeneity of HEA surface, it is difficult to precisely identify
+Adv.Mater.2025,37,e08975 e08975(1of12) ©2025Wiley-VCHGmbH
+
+www.advancedsciencenews.com www.advmat.de
+active sites and to elucidate the corresponding catalytic mech- noble metal atoms with smaller radii.[23–25] Note that the (111)
+anism, especially for alkaline HER involving the prior H O peakisrelativelybroad,whichimpliesthatthesizeofnanopar-
+2
+dissociation and the later reactive hydrogen (H*) adsorption- ticles in us-HEA/CFP hybrid is small.[26] The overall morphol-
+combination processes[9,10] and 3) the practical device applica- ogyofus-HEA/CFPisshowninscanningelectronmicroscope
+tions of the as-prepared catalysts remain underexplored ade- (SEM) images (Figure S1, Supporting Information), where the
+quately. HEAnanoparticlesaredenselyanduniformlydispersedoncar-
+To address the aforementioned issues, we synthesized a bonfibers.Toaccuratelydeterminenanoparticlesize,thedimen-
+novelus-HEA/CFPcatalyst,featuringsub-3nmPtRuFeCoNiCu sions of 30 well-defined nanoparticles with discernible bound-
+nanoparticlesdenselyanchoredoncarbonfiberpaper(CFP),viaa ariesorcontinuouslatticefringesusingNanoMeasurerwerean-
+thermalshockmethodwithinonly0.5s.Theus-HEA/CFPhybrid alyzed,obtaininganaveragediameterof2.30nm(Figure1dand
+demonstratesexceptionalalkalineHERperformance,achieving Figure S2, Supporting Information). Besides, additional large-
+ultralow overpotentials of merely 31.4 and 102.5 mV at -100 scalehigh-angleannulardark-fieldscanningtransmissionelec-
+and −1000 mA cm−2, respectively, while maintaining remark- tron microscope (HAADF-STEM, Figure S3, Supporting Infor-
+ablestabilityfor500h,representingalmostthebestperformance mation) and high-resolution transmission electron microscope
+amongreportedHEAcatalysts.InsituRamanspectroscopy,in (HRTEM,FigureS4,SupportingInformation)imageshavealso
+situ Fourier transform infrared (FTIR) spectroscopy, and den- been provided, further confirming the average size of HEA
+sityfunctionaltheory(DFT)calculationscollectivelyrevealedthe nanoparticlesinus-HEA/CFPremains≈2.30nm,smallerthan
+triplefunctionalitiesinHEAsurface:Ru-dominatedregionsfa- mostofthereportedvalues(TableS1,SupportingInformation).
+cilitatingrapidH Odissociation,FeCoNiCusitesenablingopti- Comparedwithlargercounterparts,theultrasmallHEAnanopar-
+2
+malH*diffusionkinetics,andPt-richzonespromotingefficient ticles offer distinct advantages in the following dimensions: 1)
+H* combination. This unique triple functionality, dissociation- asparticlesizedecreases,thespecificsurfaceareaofultrasmall
+diffusion-combination,ontheHEAsurfacesignificantlyacceler- nanoparticlesincreasesexponentially,enablingexceptionalatom
+atesalkalineHER.Theus-HEA/CFPcatalystalsoexhibitsexcel- utilization efficiency;[27] 2) the ultrasmall size enriches surface
+lentHERactivityinbothacidicandneutralmedia,makingita atoms with unsaturated coordination, ensuring a high density
+highly competitive candidate across a wide pH range. In prac- of active sites;[20] and 3) the confined ultrasmall volume forces
+tice,theassembledAEMelectrolyzeremployingus-HEA/CFPas multipleconstituentelementsintointimateproximity,fostering
+cathodeonlyrequires1.94Vtodeliveranindustrial-gradecur- strongerorevenunprecedentedsynergisticinteractionsbetween
+rentdensityof1000mAcm−2 andcanoperatestablyfor500h, the components.[28] To sum up, the ultrasmall HEA nanopar-
+superiortomostofthereportedelectrolyzers,demonstratingits ticles combine a high surface-to-volume ratio, efficient active
+readinessforpracticalenergyapplications.Thesefindingsopen atom utilization, unsaturated surface coordination and inten-
+newavenuesfortherationaldesignofHEA-basedmaterialsin sified multi-element synergy. These characteristics collectively
+sustainablehydrogenproductionsystems. underpintheremarkableelectrochemicalperformanceofultra-
+smallHEAnanoparticles.[29–31] Theatomic-resolutionHAADF-
+2.ResultsandDiscussion STEMimage(Figure1e)ofanindividualHEAnanoparticlere-
+vealslatticefringeswithaninterplanarspacingof0.221nm,cor-
+2.1.MaterialSynthesisandCharacterization respondingtothe(111)plane.RelativetopurePt(0.226nm),us-
+HEA/CFPshowsadistinctlatticeshrinkage,whichiscausedby
+Figure 1a schematically illustrates the synthetic procedure of thealloyingeffectofsmall-radiuselements.[32,33]Thecorrespond-
+us-HEA/CFP, which combines the impregnation-drying and ingfastFouriertransform(FFT)patterninFigure1fandselected
+thermal-shockmethod.First,CFPwasimmersedinanethanol areaelectrondiffraction(SAED)imagesinFigureS5(Support-
+solutioncontainingPt4+,Ru3+,Fe3+,Co2+,Ni2+,andCu2+.After ingInformation)collectivelyconfirmthefcccrystalstructureof
+dryingat80°C,theaforementionedmetalprecursorswereuni- HEAnanoparticles,inconsistentwiththeXRDresult.Figure1g
+formlydistributedontheCFPsurface,formingaprecursor/CFP presentstheSTEMenergy-dispersiveX-rayspectroscopy(EDS)
+composite. This step follows the impregnation-drying method. mappingandtheelementoverlapimages,wherePt,Ru,Fe,Co,
+Second,atransientcurrentof20Awasappliedtoprecursor/CFP Ni,andCuatomsareevenlydistributedinus-HEA/CFP,inac-
+for0.5sunderanAratmospherethroughaJoulethermalsyn- cordancewiththesignalsintheXPSsurveyspectrum(FigureS6,
+thesizer.Thisprocessemploysthethermal-shockmethod.Dur- SupportingInformation).Inaddition,theline-scanEDSanalysis
+ingthisprocess,precursor/CFPwasheatedupto1023Kwithan acrosstwoadjacentHEAnanoparticlesrevealsahomogeneous
+extremelyfastrate(≈2333Ks−1)andthencooleddownat302 elementaldistributionofPt,Ru,Fe,Co,Ni,andCuwithoutde-
+K s−1, as exhibited in Figure 1b. Such an ultrafast heating rate tectable segregation (Figure S7, Supporting Information). The
+and an extremely short shock time not only facilitate the rapid atomicpercentagesofPt,Ru,Fe,Co,NiandCuobtainedfromthe
+nucleationofnanoparticlesbutalsohindertheirfurthergrowth, inductivelycoupledplasma-opticalemissionspectroscopy(ICP-
+thus resulting in the formation of ultrasmall HEA nanoparti- OES)analysisare17.0%,11.4%,15.9%,19.0%,18.1%and18.6%,
+cles on CFP.[22] Figure 1c displays the X-ray diffraction (XRD) respectively (FigureS8andTableS2,SupportingInformation),
+pattern of us-HEA/CFP, in which the diffraction peak located yielding a mixing entropy (ΔS) of 1.79R. This value is larger
+at41.1°correspondstothe(111)planeoftheface-centeredcu- than1.61R,indicatingtheintrinsicnatureofstablesingle-phase
+bic (fcc) phase. Compared to pure Pt, this peak exhibits a posi- HEA[34].
+tiveshiftof1.3°,indicatingtheexistenceofcompressivestrain Given the vital roles of noble metals on catalytic perfor-
+causedbyalloyingwithRu,Fe,Co,Ni,andCu,especiallynon- mance, we systematically investigated the chemical states and
+Adv.Mater.2025,37,e08975 e08975(2of12) ©2025Wiley-VCHGmbH
+15214095,
+2025,
+42,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.202508975
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[09/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.advmat.de
+Figure 1. a) Schematic illustration of the synthetic procedure, b) temperature change curve during the thermal shock process, c) XRD pattern,
+d)HAADF-STEMimage,e)atomic-resolutionHAADF-STEMimage,f)FFTpatternandg)EDSelementmappingandthecorrespondingoverlapimages
+ofus-HEA/CFP.Theinsetofd)showsastatisticalchartofparticlesizes.
+coordinationenvironmentofPtandRuthroughhigh-resolution differencesinelectronegativityofdifferentHEAcomponents.[23]
+X-ray photoelectron spectroscopy (XPS) and X-ray absorption Specifically,high-electronegativityPt(2.28)atomsserveaselec-
+fine structure (XAFS) analysis. As shown in Figure 2a, the Pt tronacceptorstowithdrawelectronsfromneighboringFe(1.83),
+4f XPS spectrum is deconvoluted into four peaks of Pt0 4f , Co (1.88), Ni (1.91), and Cu (1.90) atoms with low electroneg-
+7/2
+Pt2+ 4f , Pt0 4f and Pt2+ 4f at 70.84, 72.74, 74.19, and ativity. For the Ru 3p XPS spectrum in Figure 2b, the charac-
+7/2 5/2, 5/2
+76.01 eV, respectively.[23] Compared with Pt/CFP, the Pt0 4f teristic peaks at 461.31, 464.21, 483.64, and 486.46 eV corre- 7/2
+peak in us-HEA/CFP has negative shifts toward lower binding spond to the Ru0 3p , Run+ 3p , Ru0 3p and Run+ 3p ,
+3/2 3/2 1/2, 1/2
+energy(0.40eV),indicatingachargeredistributionofPtatoms respectively.[35]TheXPSmeasurements,withalimiteddetection
+inHEAnanoparticles.Thischargeredistributionarisesfromthe depthofafewnanometers,canbeaffectedbysurfacecharging
+Adv.Mater.2025,37,e08975 e08975(3of12) ©2025Wiley-VCHGmbH
+15214095,
+2025,
+42,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.202508975
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[09/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.advmat.de
+Figure2. a)High-resolutionPt4fXPSspectraofus-HEA/CFPandPt/CFP.b)High-resolutionRu3pXPSspectraofus-HEA/CFP.c)PtL -edgeXANES,
+3
+d)FT-EXAFSande)WT-EXAFSspectraofPtfoil,PtO andus-HEA.f)RuK-edgeXANES,g)FT-EXAFSandh)WT-EXAFSspectraofRufoil,RuO and 2 2
+us-HEA.
+and matrix effects in heterogeneous systems, potentially com- lower intensity than those of Pt foil and PtO , indicating elec-
+2
+plicating chemical state analysis.[36] In contrast, X-ray absorp- tron density redistribution in HEA nanoparticles,[19] in agree-
+tionnear-edgestructure(XANES)providesbulk-averagedinfor- ment with the above XPS analysis. The Fourier transforms of
+mation,enablingmorereliablechemicalstatedeterminationin extendedXAFS(FT-EXAFS,Figure2d)revealonlyanintensesig-
+complex materials.[37,38] Figure 2c presents the XANES spectra nalat2.61Å,correspondingtothePt-M(M:Pt,Ru,Fe,Co,Ni,
+of Pt L -edge, where the white line peak of us-HEA exhibits a and Cu) bond. Compared to the Pt-Pt bond distance in Pt foil 3
+Adv.Mater.2025,37,e08975 e08975(4of12) ©2025Wiley-VCHGmbH
+15214095,
+2025,
+42,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.202508975
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[09/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.advmat.de
+(2.64Å), theslightnegative shiftinthePt-Mbondlengthsug- curves with iR compensation, where us-HEA/CFP exhibits su-
+gestsamodifiedcoordinationenvironmentofPtatoms.[16] The perioralkalineHERperformancecomparedtocommercial20%
+wavelettransform(WT)EXAFScontourplots(Figure2e)show Pt/C.Notably,asillustratedinFigure3b,us-HEA/CFPachieves
+thatthemaximumintensityofPt-Minus-HEAislocatedat8.33 currentdensitiesof–100and–500mAcm−2 atremarkablylow
+Å−1, lower than that of Pt-Pt (9.63 Å−1) in the Pt foil. This fur- overpotentials of 31.4 and 69.2 mV, respectively, far exceeding
+therconfirmsthecoordinationbetweenPtandothermetalswith 20%Pt/C(72.6and197.8mV).Moreimpressively,us-HEA/CFP
+smallatomicradii,suchasFe(1.56Å),Co(1.52Å),Ni(1.49Å), possesses a quite low overpotential of 102.5 mV at an ampere-
+and Cu (1.45 Å).[39] The detailed structural parameters, includ- level current density of –1000 mA cm−2, highlighting its enor-
+ing coordination numbers and bond length of Pt atoms, were mous potential for industrial-scale hydrogen production. The
+summarized through the high-quality EXAFS fitting (Figures LSV curve of us-HEA/CFP without iR-compensation and with
+S9,S10,andTableS3,SupportingInformation).TheRuK-edge cyclic voltammetry (CV) activation is also provided in Figures
+XANES spectra (Figure 2f) reveal that the absorption edge en- S16,S17 (Supporting Information). Figure 3c exhibits the Tafel
+ergyofus-HEAliesbetweenthoseofRufoilandRuO ,indicat- curves generated from LSV plots, in which us-HEA/CFP has a
+2
+inganaverageRuvalencestatebetween0and+4.[35]Thisisdue lowerTafelslope(28.9mVdec−1)than20%Pt/C(45.3mVdec−1).
+to the high surface energy of ultrasmall nanoparticles and the Theexchangecurrentdensityofus-HEA/CFP,extrapolatedfrom
+enhancedoxidationstatescausedbynon-equilibriumsynthesis, the Tafel curve, is determined to be 8.5 mA cm−2, superior to
+whichhasbeenobservedinpreviousworks.[40,41]TheFT-EXAFS thatof20%Pt/C(6.8mAcm−2,FigureS18,SupportingInforma-
+spectrumofus-HEA(Figure2g)showsapeakat2.49Å,corre- tion).TheremarkablysmallTafelslopeandlargeexchangecur-
+spondingtoRu-Mcoordination,whichisdeviatedfromtheRu- rentdensitycollectivelydemonstratefastreactionkineticsinus-
+RucoordinationdistanceintheRufoil.Thisphenomenonisat- HEA/CFP.[19,44,45]ThroughfittingtheNyquistplotsinFigureS19
+tributedtoalloyingwithPt,Fe,Co,Ni,andCuatoms.[17]Notice- (Supporting Information), the charge transfer resistance (R )
+ct
+ably,adistinctpeakat1.69Å,correspondingtoRu-Ocoordina-
+valueofus-HEA/CFPisonly0.26Ω,overmatchingthatof20%
+tion,isobservedandappearsrelativelystrongerthantheRu-M Pt/C (R = 0.80 Ω), manifesting a faster charge transfer pro-
+ct
+peak. This observation is attributed to partial surface oxidation cessbetweenHEAnanoparticlesandelectrolyte.[46] Toevaluate
+oftheultrasmallHEAnanoparticlesratherthantheabsenceof theelectrochemicalsurfacearea(ECSA)ofcatalysts,thedouble-
+alloying.[42] TheWT-EXAFSplotsofus-HEA(Figure2h)show- layercapacitance(C )wasmeasuredwithinthenon-faradaicin- dl
+casetwointensitymaximaat4.76and12.14Å−1,corresponding tervalonaccountofthepositivecorrelationbetweenECSAand
+toRu-OandRu-M,respectively,inlinewiththeFT-EXAFSanal- C .[47,48]AsshowninFigure3dandFigureS20(SupportingIn-
+dl
+ysis.High-qualityfittingrevealscoordinationnumbersof4.5for
+formation),afterlinearfitting,us-HEA/CFPdeliversalargeC
+dl
+Ru-Oand2.9forRu-M(FiguresS11,S12,andTableS3,Support- of 80.1 mF cm−2, ≈5.3 times than that of 20% Pt/C (15.2 mF
+ingInformation),stronglyconfirmingthesuccessfulintegration
+cm−2),demonstratingmoreexposedactivesitesinus-HEA/CFP
+of Ru atoms into the HEA lattice. The coexistence of metallic duringtheelectrocatalyticreactions.Furthermore,theintrinsic
+andoxidizedstatesinthereported3.5nmHEAparticleshighly activities of us-HEA/CFP and 20% Pt/C were explored by nor-
+aligns with our observations [42], supporting the universality of malizingtoECSA(Figure3e).Atanoverpotentialof100mV,us-
+thisphenomenon.Notably,Chenetal.synthesizedPtRuZnCoN- HEA/CFPshowcasesaspecificelectrochemicalactivityof-2.39
+iCuHEAnanoparticles(1.3nmaveragesize)withamoredom- mAcm −2 andaTOFof1.50s−1,respectively,muchhigherthan
+ECSA
+inant Ru-M signal in their FT-EXAFS spectra compared to us- thoseof20%Pt/C(-0.69mAcm −2 and1.05s−1).Thisreveals
+ECSA
+HEA/CFP.[43] Thisdiscrepancylikelystemsfromenhancedox- enhancedintrinsicactivityofus-HEA/CFP,originatingfromthe
+idation states caused by non-equilibrium synthesis.[40,41] In ad- synergisticeffectofmultiplecomponentswithinHEAnanoparti-
+dition, the high-resolution XPS spectra of Fe 2p, Co 2p, Ni 2p, cles.ThelargeECSAandhighintrinsicactivitycollectivelyleadto
+andCu2p(FigureS13,SupportingInformation)revealthepres- thepromotedelectrochemicalperformanceofus-HEA/CFPfor
+ence of both metallic and oxidation states. The systematic pos- alkalineHER.WhennormalizedLSVcurvestothemassofnoble
+itive binding energy shifts (0.20–0.36 eV) of the M0 states in metals (0.58 mg cm−2 in us-HEA/CFP, obtained through ICP-
+us-HEA/CFPunambiguouslydemonstratetheelectrondonation OES measurements in Table S4, Supporting Information), us-
+of Fe/Co/Ni/Cu components upon alloying. This aligns with HEA/CFPpresentssignificantadvantagesoverPt/C,asshownin
+established charge redistribution mechanisms in multimetallic Figure3f.Atanoverpotentialof100mV,us-HEA/CFPattainsan
+systems.[17,23] Theobservedoxidationstatesoriginatefrompar- ultrahighmassactivityof–1.7Amg−1,3.4timesasmuchasthat
+tialsurfaceoxidationofHEAnanoparticles,consistentwiththe of20%Pt/C(-0.5Amg−1),showingitsfavorableeconomicben-
+XAFS results. The intensified metal signals in XPS spectra af- efits. From the electrochemical measurement results in Figure
+ter etching further validate this point (Figure S14, Supporting S21(SupportingInformation),Pt/CFPandRu/CFPpossessanal-
+Information). ogousHERperformance.Besides,Pt/CFPandRu/CFPdisplay
+C values of 61.2 and 40.0 mF cm−2, respectively, both lower
+dl
+thanthatofus-HEA/CFP,highlightingtheadvantageofahigh
+2.2.HERPerformance ECSAinHEAnanoparticles(FiguresS22,S23,SupportingInfor-
+mation).
+TheHERelectrocatalyticperformanceoftheas-synthesizedus- RuFeCoNiCu/CFP and PtFeCoNiCu/CFP exhibit overpoten-
+HEA/CFP and 20% Pt/C with geometric surface areas of 0.5 tialsof132.3and144.9mVat-500mAcm−2,respectively,both
+cm2 (FigureS15,SupportingInformation)wasevaluatedin1.0 inferior to that of us-HEA/CFP (Figure S24, Supporting Infor-
+mKOH.Figure3apresentsthelinearsweepvoltammetry(LSV) mation).TodecoupletherespectivecontributionsofPtandRu
+Adv.Mater.2025,37,e08975 e08975(5of12) ©2025Wiley-VCHGmbH
+15214095,
+2025,
+42,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.202508975
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[09/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.advmat.de
+Figure3. a)LSVcurves,b)overpotentialsat-100and-500mAcm−2,c)Tafelplots,d)C curves,e)electrochemicalspecificactivities(left)andTOF
+dl
+values(right)at𝜂=100mVandf)massactivitiesofus-HEA/CFPand20%Pt/C.g)Chronopotentiometrycurvesofus-HEA/CFPat–100and–500mA
+cm−2for500h.h)ComparisonofalkalineHERperformanceforus-HEA/CFPwithotherreportednoblemetal-involvedHEAcatalysts.
+elements on electrochemical activity, we have calculated their respectively, manifesting the gradual improvement along with
+C , specific activity, and TOF. From Figures S25,S26a (Sup- theincreaseofnon-noblemetalcomponents.Ononehand,the
+dl
+porting Information), the fitted C of RuFeCoNiCu/CFP and compressivestrain,generatedbyintroducingnon-noblemetals
+dl
+PtFeCoNiCu/CFP are 43.0 and 62.9 mF cm−2, respectively. A withsmallradii,improvesthewholeconductivityandoptimizes
+larger disparity of us-HEA/CFP and RuFeCoNiCu/CFP means H* adsorptionenergy.[49,50] Ontheotherhand,thesenon-noble
+that Pt is more effective in increasing the ECSA. Besides, Pt- metals can serve as partial sites for H*/H O* diffusion.[51,52]
+2
+FeCoNiCu/CFPexhibitssubstantiallylowerTOF(0.51s−1)and Coupling these advantages, the alkaline HER process is ac-
+specific electrochemical activity (-0.50 mAcm −2 ) compared celerated. In addition, some counterparts with different shock
+ECSA
+with us-HEA/CFP, manifesting Ru significantly enhances the times at 20 A (denoted as HEA/CFP-0.7 s and HEA/CFP-0.3
+reactionkinetics(FigureS26b,SupportingInformation).There- s) were synthesized to explore the optimal conditions. At –500
+fore,theseresultsindicatethatforthetwonoblemetalcompo- mAcm−2,theoverpotentialsofHEA/CFP-0.7sandHEA/CFP-
+nents,Ptprimarilyincreasesthedensityofexposedactivesites 0.3 s are 117.8 and 81.3 mV, respectively, both worse than that
+(higher ECSA), while Ru significantly boosts the intrinsic ac- of us-HEA/CFP (Figure S28, Supporting Information). Their
+tivitypersite(higherTOF/specificactivity).Thissynergisticef- phase compositions, element distributions, crystal structures,
+fectleadstotheexceptionalHERperformanceforus-HEA/CFP. and particle sizes are shown in Figures S29–S36 (Supporting
+FigureS27(SupportingInformation)showsthattheoverpoten- Information), respectively. Based on these analysis, extended
+tials of PtRu/CFP, PtRuFe/CFP, PtRuFeCo/CFP, and PtRuFe- shockdurationspromotePtphasesegregationandenhancecrys-
+CoNi/CFP are 98.3, 90.4, 87.4, and 80.1 mV at -500 mA cm−2, tallinity,thusloweringitselectrochemicalperformance.Besides,
+Adv.Mater.2025,37,e08975 e08975(6of12) ©2025Wiley-VCHGmbH
+15214095,
+2025,
+42,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.202508975
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[09/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.advmat.de
+insufficient shock time inhibits complete HEA crystallization. mation)presentstheLSVcurvesandcorrespondingoverpoten-
+Amorphous regions can contribute to enhanced catalytic per- tialhistogram,whereus-HEA/CFPhasanoverpotentialof56.7
+formancethroughtheirabundantsurfacedefectsandcoordina- mV to reach −300 mA cm−2, a Tafel slope of 18.6 mV dec−1
+tivelyunsaturatedsites.[53]However,asdemonstratedinprevious and a R of 0.47 Ω, much better than 20% Pt/C (126.1 mV,
+ct
+studies,amorphousphasestypicallyexhibitinherentlimitations 22.5mVdec−1and1.14Ω,respectively),suggestinganexcellent
+includingpoorstabilityandinferiorelectricalconductivity.[54,55] activityinacidicsolutions(FigureS46c,d,SupportingInforma-
+TheinferiorelectricalconductivityinHEA/CFP-0.3smaybea tion). In 1.0 m PBS media, it needs 83.4 mV to reach -50 mA
+critical factor contributing to its suboptimal HER performance cm−2inus-HEA/CFP,overmatchingthatin20%Pt/C(183.2mV,
+(FigureS37,SupportingInformation).Hence,theoptimalshock FigureS47a,b,SupportingInformation).Besides,us-HEA/CFP
+timeis0.5sinthiswork. exhibitsrapidreactionkineticsandefficientchargetransfer,as
+Apartfromcatalyticproperties,electrochemicalstabilityisalso evidenced by its small Tafel slope of 62.1 mV dec−1 and R of
+ct
+animportantassessmentcriterionforevaluatingthepracticalap- 1.93Ω(FigureS47c,d,SupportingInformation).Theoverpoten-
+plication prospects of catalysts. Under different current densi- tialcomparisonofus-HEA/CFPacrossalkaline,acidicandneu-
+tiesfrom–50to–400mAcm−2,us-HEA/CFPdisplayssmooth tralconditionsispresentedinFigureS48(SupportingInforma-
+and steady potential curves, and its potential retention rate is tion), clearly demonstrating that it performs similarly in alka-
+≈100%whenthecurrentdensityreturnsto−50mAcm−2,reveal- lineandacidicenvironments,butlessfavorableinneutralme-
+ingexcellentstabilityagainstcontinuouscurrentchanges(Figure dia.Thisstemsfromagreaterchallengeforwaterdissociationin
+S38,SupportingInformation).Forthelong-termdurabilityofus- neutralenvironments.[61,62]Notably,us-HEA/CFPdemonstrates
+HEA/CFP,achronopotentiometrytestwasperformed.Asshown superiorHERactivityinbothacidicandneutralconditions,out-
+in Figure 3g, after 500 h, there is an extremely small potential performing the vast majority of advanced catalysts, and thus
+attenuation of 20 mV at –100 mA cm−2. What’s more, based highlightingitsbroadpHadaptability(TablesS7,S8,Supporting
+onSEM,TEM,HRTEM,EDS,XPS,andICP-OESanalysis,us- Information).
+HEA/CFP retains its morphological integrity, elemental homo-
+geneity, and surface chemical stability under prolonged stabil-
+itytest(FiguresS39–S42andTableS5,SupportingInformation). 2.3.CatalyticMechanism
+Theremarkablestabilityofus-HEA/CFPcanbeattributedtothe
+high-entropy stabilization effect and lattice distortion-induced In situ Raman spectroscopy was utilized to investigate the dy-
+suppressionofatomicdiffusion.[56] Similarultrasmallnanopar- namicadsorptionbehaviorofreactionintermediatesduringal-
+ticleswithexcellentelectrochemicalstabilityhavebeenreported kalineHERonus-HEA/CFP.TheRamanspectra(Figure4a)ob-
+in many literature.[26,29,31] Remarkably, us-HEA/CFP is capable tainedatanopencircuitpotential(OCP)exhibitonlythreechar-
+of operating for 500 h equably at −500 mA cm−2 with merely acteristicpeaksat1348,1691,and2698cm−1,correspondingto
+anattenuationof32mV,highlightingitsindustrialapplication the D band, G band, and 2D band of CFP, respectively, indi-
+values.Ramanspectrometry,chronoamperometrytest,andmass cating the metallic nature of ultrasmall HEA nanoparticles.[63]
+analysiscollectivelydemonstratethatthecarboncorrosionisal- Basedonpriorstudies,theRamanshiftsassociatedwithmetal-
+mostnegligibleatacurrentdensityof−500mAcm−2 (Figures O vibrations (induced by H O dissociation) for Fe, Co, Ni, Cu,
+2
+S43–S45, Supporting Information). Combining the advantages Pt,andRuarewell-documentedat290,704,530,280,533,and
+of ultrasmall nanoparticles and multi-component synergy, us- 516cm−1,respectively.[17,64,65]Fornon-noblemetal-Hspecies,Ra-
+HEA/CFP possesses superior electrochemical activity and sta- manshiftstypicallyappear≈2100cm−1,asexemplifiedbyNi-H
+bilityforalkalineHER,rankingamongthehighest-performing (2049cm−1),[66] Co-H(2019cm−1)[67] andCu-H(2090cm−1).[68]
+HEA catalysts reported to date (Figure 3h and Table S6, Sup- Meanwhile,Ru-HandPt-Hvibrationsarereportedat1827and
+portingInformation).Thisremarkableperformancestemsfrom 2028cm−1,respectively.[64,69]InourinsituRamananalysisofus-
+its unique structural configuration, which confers superiority HEA/CFP,twodistinctpeaksemergeat480and2027cm−1un-
+over even the highly efficient high-entropy single-atom cata- deranappliedpotentialof−20mVvs.RHE.Theseshiftsalign
+lysts (HESACs). While HESACs offer near 100% atomic uti- closelywiththeliteraturevaluesforRu-O(516cm−1)andPt-H
+lization through their isolated active sites, the as-synthesized (2028cm−1),respectively,whiledeviatingsignificantlyfromother
+us-HEA/CFPdemonstratesdistinctadvantagesinelectrochem- metal-Oormetal-Hsignatures.Thesefeaturesmarktheonsetof
+icalactivityandstability.Firstly,themetal-metaldistanceinus- thealkalineHERandfurthercorroboratetheexceptionalelectro-
+HEA/CFPis≈2.5Å,significantlyshorterthanthatinHESACs chemicalactivityofus-HEA/CFP.Withincreasingthenegative
+(e.g., 9 Å in MnFeCoNiCu-HESAC and 6.1 Å in FeCoNiRu- potential ranging from -20 to -100 mV, the intensities of Ru-O
+HESAC).[57,58]Thiscloseproximityenablesstrongerintermetal- and Pt-H peaks gradually increase, which is caused by the ac-
+lic electronic coupling, optimizing intermediate adsorption en- cumulationofHERintermediatesonus-HEA/CFP.Theevolu-
+ergies for superior activity.[59,60] Secondly, the inherent high- tion of interfacial H O is crucial for the electrochemical reac-
+2
+entropyeffectandlatticedistortionarisingfromatomicsizemis- tionsinvolvingH Odissociation,especiallyforalkalineHER.As
+2
+match effectively suppress elemental segregation,[56] endowing displayed in Figure 4b, the broad peak located at ≈3400 cm−1
+us-HEA/CFPwithexcellentstructuralstability. is ascribed tothe interfacialH O,which can be furtherdecon-
+2
+Giventhepressingdemandforhighlyefficientcatalystsatvar- voluted into 4-coordinated hydrogen-bonded H O (4-HB-H O,
+2 2 iouspHcircumstances,theHERperformancesofus-HEA/CFP 3227 cm−1), 2-coordinated hydrogen-bonded H O (2-HB-H O,
+2 2
+in0.5mH SO and1.0mphosphate-bufferedsaline(PBS)elec- 3430cm−1),andhydratedK+ion(K+-H O,3587cm−1).[64]Gener-
+2 4 2
+trolytes were also measured. Figure S46a,b (Supporting Infor- ally,the4-HB-H OeasilyparticipatesinHERprocesseswhilethe 2
+Adv.Mater.2025,37,e08975 e08975(7of12) ©2025Wiley-VCHGmbH
+15214095,
+2025,
+42,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.202508975
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[09/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.advmat.de
+Figure4. a,b)InsituRamanspectraofus-HEA/CFPwithdifferentpotentials.c)Normalizedintensitiesof4-HB-H OandK+-H Oinus-HEA/CFP.Insitu 2 2
+FTIRspectraofus-HEA/CFPaboutd)Pt-H,e)H-O-Handf)O-HpeaksfromOCPto-0.8Vversus.RHE,respectively.g)ELFcontourofPtRuFeCoNiCu
+(111),wherethegray,grassgreen,darkcyan,orange,blueandpinkballscorrespondtoPt,Ru,Fe,Co,NiandCuatoms,respectively.h)Partialdensityof
+states(PDOS)ofd-bandonsurfaceatomsinHEAs.TheFermilevelissettobe0andtheverticaldashedlinesarethed-bandcenters.i)Thedistribution
+ofadsorptionenergyofH*,OH*,andH O*onPtRuFeCoNiCu(111).j)ReactionprocessofHERonPtRuFeCoNiCu(111).
+2
+Adv.Mater.2025,37,e08975 e08975(8of12) ©2025Wiley-VCHGmbH
+15214095,
+2025,
+42,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.202508975
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[09/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.advmat.de
+K+-H Oisidentifiedasaninactivemolecule.[70]Asthepotential sorptionstrength.Inadditiontotheadsorptionofkeyinterme-
+2
+decreases,thepercentageof4-HB-H Oincreasesfrom42.3%to diates,theirdiffusionbehavioronthePtRuFeCoNiCu(111)was
+2 46.3%andtheK+-H Oratiodecreases,whichrevealstheefficient investigated,asshowninFiguresS50–S52(SupportingInforma-
+2
+H Odissociation,andthusboostingalkalineHERperformance tion).OH*diffusionexhibitsthehighestenergybarrier(0.47eV),
+2
+(Figure4c).AsshownininsituFTIRspectra(Figure4d),afaint likely attributable to the significantly broader ΔG * distribu-
+OH
+characteristicpeakemergesat≈2100cm−1 withincreasingpo- tion,whileH* andH O* diffusionrequireminimalenergybar-
+2
+tential,assignedtoPt-Hbonding,[71]indicatingtheadsorptionof riersof0.34eVand0.28eV,respectively.Notethattheselected
+H intermediates on Pt-rich regions. Besides, Figure 4e,f reveal diffusionpathwayismerelyoneofthemostpossibilities.Forin-
+distinctpeaksat1641and3328cm−1,correspondingtoH-O-H stance,asillustratedinFigureS53(SupportingInformation),the
+bendingandO-Hstretchingvibrations,respectively.[72] Notably, adsorption energies of H* at Sites 1-4 are −0.50, −0.45, −0.43,
+thesepeaksundergosignificantredshiftsasappliedpotentialin- and−0.33eV,respectively.Thesmallenergydifference(0.05eV)
+creases:theH-O-Hbandshiftsfrom1641to1636cm−1,while betweenSites1and2suggeststhatH*diffusionishighlyfavor-
+theO-Hbandshiftsfrom3328to3312cm−1.Thisbehaviorre- ablefromSite1toSite2.Therefore,wesuggestamechanistic
+flectsstrongerH O* adsorptiononHEAnanoparticlesurfaces, separation: H O splitting is thermodynamically favored at the
+2 2
+promotingO-HbondcleavageandacceleratingtheVolmerstep strongestadsorptionsites(e.g.,Ru-dominatedregions),whereas
+intheHERprocess[73]. H formation preferentially occurs at the weakest adsorption
+2
+To further explore the multifunctional active sites of HEA sites(e.g.,Pt-richregions).ThefacilediffusionofH* andH O*
+2
+nanoparticles and their catalytic processes, DFT calculations betweenthesesitesfurtheroptimizesreactionefficiencybyspa-
+were performed using the model of PtRuFeCoNiCu (111) with tiallydecouplingtheVolmerandHeyrovsky/Tafelsteps,leverag-
+theatomicpercentagesof15.6%,12.5%,15.6%,18.8%,18.8%, ingbothfavorablethermodynamics(viasite-specificadsorption)
+and18.8%,respectively,whichareconsistentwiththeICP-OES andenhancedkinetics(vialow-barrierdiffusion).
+analysis. The most representative surface structure from 200 To validate our hypothesis, we propose a detailed mechanis-
+PtRuFeCoNiCu(111)generatedbytheneuralevolutionstructure ticstudytoelucidatethealkalineHERpathwayonthePtRuFe-
+(NES)methodwasselectedforcatalyticperformanceevaluation. CoNiCu (111) surface, as shown in Figure 4j. Leveraging Ru’s
+TheNESmethodcombinesartificialneuralnetworksandevolu- strongeradsorptioncapacity,H Oinitiallyadsorbsanddissoci-
+2
+tionaryalgorithmstogenerateHEAstructuresbasedonpairdis- atesatRu-activesitesintoOH* andH* intermediates,withthe
+tributionfunctionsandatomicproperties,withaspeed-upfactor cleavagestepexhibitinganenergybarrierof0.23eV.Theresult-
+of≈1000withrespecttothespecialquasi-randomstructures.[74] ingOH*stabilizesattheRu-Ni-Cohollowsite,whileH*localizes
+The geometric structure and the electron localization function attheadjacentRu-Co-Nihollowsite,ingoodagreementwiththe
+(ELF)contourofPtRuFeCoNiCu(111)weredisplayedinFigure insituRamanresults.Crucially,H* migrationfromtheRu-Co-
+S49(SupportingInformation)andFigure4g,respectively,with Ni site to the Fe-Pt-Ni hollow site through three steps requires
+randomlydistributedsurfaceatoms.TheELFanalysisindicates overcomingthelargestfreeenergybarrierof0.20eV(FigureS54,
+pronounced variations in surface electron distribution among SupportingInformation).Asevidencedbyotherreports[75–77]hy-
+different active atoms, arising from the high-entropy effect of drogenspilloveristypicallyhinderedbyhighdiffusionbarriers
+HEAaswellasthediversityofcoordinationenvironments.Bader arisingfromlargeworkfunctiondifferencesinbinarycatalysts
+chargeanalysisindicatesthatthesurfaceelectronstransferfrom or between metals and supports. This is fundamentally due to
+Fe(+0.41),Co(+0.18),Ni(+0.03),Cu(+0.14)toRu(−0.08)and thesubstantial adsorption energydifferences for H*,which di-
+Pt (−0.52), in good agreement with the XPS results. As illus- rectlyincreasethediffusionbarrier.Consequently,directH*mi-
+tratedinFigure4h,thecalculatedd-bandcenter(𝜖 )valuesfor grationfromRu-Co-Ni(thestrongestadsorptionsite)toFe-Pt-Ni
+d
+metal atoms on the HEA surface are −2.78 eV (Pt), −1.59 eV (theweakestadsorptionsite)sitesisenergeticallyunfavorable—
+(Ru), −2.27 eV (Fe), −2.08 eV (Co), −1.66 eV (Ni), and −2.53 thoughnotentirelyprohibited,asH*adsorptionenergyisinflu-
+eV(Cu),respectively.Thisdistributionrevealsatriplefunction- enced not only by individual Ru or Pt atoms but also by their
+ality:siteswithstrongadsorptionstrengthpreferentiallycatalyze neighboringatomicenvironments.Whilethemulti-stepmigra-
+theVolmerstep,whileweaklyadsorptionsitesfacilitatetheHey- tionprocesscouldtheoreticallyincreasekineticbarriers,theH*
+rovsky/Tafelstepinalkalinemedia.Themoderate-strengthsites diffusiondistanceinourHEAsystemremainsinherentlyshort
+mayenableefficientadsorbatediffusionbetweenactivecenters, (only2-3atomicspacings),effectivelymitigatingthiseffect.The
+therebyoptimizingtheoverallreactionkinetics. colortransitionofWO (yellow→darkblue)providesdirectvi-
+3
+The adsorption free energies of key intermediates (ΔG , sualevidencefortheH*spillovermechanism(FiguresS55,S56,
+X*
+where X* = H*, OH*, and H
+2
+O*) on the PtRuFeCoNiCu (111) SupportingInformation),asitsignifiestheformationofHxWO
+3
+weresystematicallyevaluated,asdepictedinFigure4i.TheΔG * viaactiveH*insertionintotheWO lattice.Finally,theHeyrovsky
+H 3
+andΔG *distributionsexhibitGaussian-likeprofileswithnar- stepattheweaklyadsorbingFe-Pt-Nisite,wheretheformation
+H2O rowerenergyspans(≈0.30eV),whereastheΔG *distribution of H is a thermodynamically favorable process with the reac-
+OH 2
+followsasimilartrendbutdisplaysasignificantlybroaderspread tion free energy of 0.22 eV. For comparison, the HER process
+(1.31eV).Notably,adsorptionsitesinvolvingRuatomsdemon- was also calculated on Pt (111), as shown in Figure S57 (Sup-
+strate stronger binding interactions, while those dominated by portingInformation).TheenergybarrierforH OsplittingonPt
+2
+Ptatomsexhibitweakeradsorptionbehavior,ascorroboratedby (111)is0.79eV,significantlyhigherthanthatonPtRuFeCoNiCu
+thedatainTablesS9–S11(SupportingInformation).Thistrend (111) (0.23 eV), indicating that the Ru incorporation enhances
+alignswellwiththeearlierd-bandcenteranalysis,reinforcingthe H Odissociationactivity.Furthermore,thereactionfreeenergy
+2
+criticalroleofsite-specificelectronicstructureinmodulatingad- for H formation on Pt (111) (0.25 eV) is slightly higher than 2
+Adv.Mater.2025,37,e08975 e08975(9of12) ©2025Wiley-VCHGmbH
+15214095,
+2025,
+42,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.202508975
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[09/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.advmat.de
+Figure5. a)SchematicillustrationofatypicalAEMelectrolyzer.b)Polarizationcurvesandc)cellvoltagesat500mAcm−2ofus-HEA/CFP||NiFeO
+x
+and 20% Pt/C||NiFeO electrolyzers (without iR correction). d) Chronopotentiometry curve of us-HEA/CFP||NiFeO at 1000 mA cm−2 for 500 h.
+x x
+e)Comparisonofus-HEA/CFP||NiFeO performancewithotherreportedAEMelectrolyzers. x
+thatonPtRuFeCoNiCu(111)(0.22eV),suggestingthatPtinthe electrolyzersbasedonus-HEA/CFPis$0.86perkg,demonstrat-
+PtRuFeCoNiCualloyexhibitssuperiorH formationactivitycom- ing15.7%reductioncomparedtoconventionalPt/C($1.02per
+2
+pared to Pt (111). The spatial decoupling of H
+2
+O activation kg).AsshowninFigure5c,us-HEA/CFP||NiFeOxrequiresonly
+(strong Ru sites) and H
+2
+desorption (weak Pt-rich sites), medi- 1.75Vtodeliver500mAcm−2,outperforming20%Pt/C||NiFeOx
+ated by kinetically facile H* diffusion, aligns with the unique (2.25V).Itisworthnotingthatwhenthecurrentdensityreaches
+triple functionality HEA surface, which underpins the excep- 1000 mA cm−2, only 1.94 V is required. The electrolyzer con-
+tionalHERcatalyticperformanceonPtRuFeCoNiCu(111).This tainingus-HEA/CFPpossessesareducedR incomparisonto
+ct
+synergistic dissociation-diffusion-combination mechanism pro- 20% Pt/C||NiFeOx, verified by a smaller semicircle in Nyquist
+vides an in-depth understanding on the development of high- plots (Figure S58, Supporting Information). Moreover, after a
+performanceHEAcatalystsforHER. 500-hlongstabilitytestrunningunder1000mAcm−2,amini-
+AccordingtoourDFTresults,H
+2
+OreadilydissociatesonRu- malvoltagelossisobservedinus-HEA/CFP||NiFeOx(Figure5d).
+dominated sites, leading to the local oxidation of Ru atoms. In TheSEM,TEM,HAADF-STEM,EDS,XPS,andICP-OESchar-
+the presence of local surface oxidation, the energy barrier for acterizations collectively confirm that the morphology, elemen-
+H* spillover remains as low as 0.20 eV. Additionally, the reac- talcomposition,andsurfacechemicalstateofus-HEA/CFPre-
+tionfreeenergyforH formationchangesmarginally,from0.23 main stable after 500h operationin AEM electrolyzers, under-
+2
+eV(unoxidizedHEAsurface)to0.22eV(oxidizedHEAsurface). scoringitsexceptionaldurabilityforHERapplications(Figures
+More importantly, under electrochemical reduction conditions, S59–S62, and Table S12, Supporting Information). On the ba-
+localoxidizedRuwillbereducedbacktoitsmetallicstate.While sis of the above results, the us-HEA/CFP||NiFeOx electrolyzer
+thestrongadsorptioncapacityofRumakesdirectreductionchal- demonstrates superb electrochemical activity and robust dura-
+lenging,itisimportanttonotethatOH*exhibitsalowdiffusion bility,outperformingmostreportednoblemetal-basedAEMsys-
+barrierof0.47eVontheHEAsurface.ThisallowsOH* tomi- tems(Figure5eandTableS13,SupportingInformation),high-
+gratefromRusitestoothermetalsiteswithweakeradsorption, lighting its tremendous application prospect for large-scale hy-
+whereitcanbemoreeasilyreduced.Thus,localRuoxidationhas drogenproduction.
+anegligibleimpactonHERduringthereactionprocess.
+3.Conclusion
+2.4.AEMPerformance Insummary,anadvancedcatalystintegratingsub-3nmsenary
+HEAnanoparticlesandCFPwassynthesizedthroughanultra-
+Considering the prominent high-current performance of us- fastthermalshockstrategywithinonly0.5s.Thepreparedus-
+HEA/CFP in alkaline media, a flow-type AEM electrolyzer was HEA/CFP hybrid possesses a superior electrochemical activity
+constructedtofurtherinvestigateitsfeasibilityunderactualin- for alkaline HER with overpotentials of 31.4 and 102.5 mV at
+dustrial conditions. The schematic diagram for a typical AEM −100and−1000mAcm−2,respectively,alongwithexcellentsta-
+electrolyzer is shown in Figure 5a, in which us-HEA/CFP and bility,overmatchingcommercial20%Pt/Candthecurrentlyre-
+commercialNiFeOxserveasthecathodeandanode,respectively. portedHEAmaterials.InsituRamanspectroscopy,insituFTIR
+Figure 5b presents the polarization curves measured at 60 °C spectroscopy, and DFT calculations disclosed a dissociation-
+(withoutiRcorrection),whereus-HEA/CFP||NiFeOxhasabetter diffusion-combination mechanism on the triple functionality
+electrochemicalperformancethan20%Pt/C||NiFeOx.Aftercal- of HEA surface, which couples H
+2
+O dissociation sites (Ru-
+culation,theunithydrogenproductioncostofthedesignedAEM dominated regions), H* diffusion regions (FeCoNiCu), and H 2
+Adv.Mater.2025,37,e08975 e08975(10of12) ©2025Wiley-VCHGmbH
+15214095,
+2025,
+42,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.202508975
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[09/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.advmat.de
+formationareas(Pt-richregions),therebyboostingalkalineHER [9] R.L.Zhang,Y.Z.Li,X.Zhou,A.Yu,Q.Huang,T.T.Xu,L.T.Zhu,P.
+performance.Practically,aconstructedAEMelectrolyzerdelivers Peng,S.Y.Song,L.Echegoyen,F.F.Li,Nat.Commun.2023,14,2460.
+1000mAcm−2 at1.94V,surpassingmostofthepreviousstud- [10] G.K.Li,H.Jang,S.G.Liu,Z.J.Li,M.G.Kim,Q.Qin,X.E.Liu,J.Cho,
+ies.ThisworkprovidescriteriaforfabricatingHEAcatalystswith Nat.Commun.2022,13,1270.
+[11] L.Y.Zeng,Z.L.Zhao,Q.Z.Huang,C.H.Zhou,W.X.Chen,K.Wang,
+ultrahighactivityandstability,offeringaviablepathwaytoward
+M.G.Li,F.X.Lin,H.Luo,Y.Gu,L.Li,S.P.Zhang,F.Lv,G.Lu,M.C.
+industrial-scaleAEMelectrolysis.
+Luo,S.J.Guo,J.Am.Chem.Soc.2023,145,21432.
+[12] T.Y.Zhang,J.Jin,J.M.Chen,Y.Y.Fang,X.Han,J.Y.Chen,Y.P.Li,Y.
+Wang,J.F.Liu,L.Wang,Nat.Commun.2022,13,6875.
+SupportingInformation
+[13] Q.Q.Ding,Y.Zhang,X.Chen,X.Q.Fu,D.K.Chen,S.J.Chen,L.Gu,
+F.Wei,H.B.Bei,Y.F.Gao,M.R.Wen,J.X.Li,Z.Zhang,T.Zhu,R.O.
+SupportingInformationisavailablefromtheWileyOnlineLibraryorfrom
+Ritchie,Q.Yu,Nature2019,574,223.
+theauthor.
+[14] Y.F.Sun,S.Dai,Sci.Adv.2021,7,abg1600.
+[15] Y.H.Liu,C.J.Hsieh,L.C.Hsu,K.H.Lin,Y.C.Hsiao,C.C.Chi,J.
+T.Lin,C.W.Chang,S.C.Lin,C.Y.Wu,J.Q.Gao,C.W.Pao,Y.M.
+Acknowledgements Chang,M.Y.Lu,S.Zhou,T.H.Yang,Sci.Adv.2023,9,adf9931.
+[16] M.Wei,Y.Y.Sun,J.Y.Zhang,F.Ai,S.B.Xi,J.K.Wang,EnergyEnviron.
+This project is financially supported from Science and Technol-
+Sci.2023,16,4009.
+ogy Development Program of Jilin Province (Nos. 20230402058GH,
+[17] J.Hao,Z.C.Zhuang,K.C.Cao,G.H.Gao,C.Wang,F.L.Lai,S.L.
+20240101128JC),ScienceandTechnologyResearchProjectoftheEduca-
+Lu,P.M.Ma,W.F.Dong,T.X.Liu,M.L.Du,H.Zhu,Nat.Commun.
+tionDepartmentofJilinProvince(No.JJKH20250103BS),andNational 2022,13,2662.
+NaturalScienceFoundationofChina(No.52130101).
+[18] J.H.Cha,S.H.Cho,D.H.Kim,D.Jeon,S.Park,J.W.Jung,I.D.Kim,
+S.Y.Choi,Adv.Mater.2023,35,2305222.
+[19] G.Feng,F.H.Ning,J.Song,H.F.Shang,K.Zhang,Z.P.Ding,P.Gao,
+ConflictofInterest
+W.S.Chu,D.G.Xia,J.Am.Chem.Soc.2021,143,17117.
+[20] M.G.Li,F.X.Lin,S.P.Zhang,R.Zhao,L.Tao,L.Li,J.Y.Li,L.Y.Zeng,
+Theauthorsdeclarenoconflictofinterest.
+M.C.Luo,S.J.Guo,Sci.Adv.2024,10,adn2877.
+[21] X.Y.Sun,Y.G.Sun,Chem.Soc.Rev.2024,53,4400.
+[22] Y.G.Yao,Z.N.Huang,P.F.Xie,S.D.Lacey,R.J.Jacob,H.Xie,F.J.
+DataAvailabilityStatement
+Chen,A.M.Nie,T.C.Pu,M.Rehwoldt,D.W.Yu,M.R.Zachariah,C.
+Wang,R.S.Yassar,J.Li,L.B.Hu,Science2018,359,1489.
+The data that support the findings of this study are available from the
+[23] Z.W.Chen,J.Li,P.F.Ou,J.E.Huang,Z.Wen,L.X.Chen,X.Yao,
+correspondingauthoruponreasonablerequest.
+G.M.Cai,C.C.Yang,C.V.Singh,Q.Jiang,Nat.Commun.2024,15,
+359.
+[24] D.D.Wang,Z.W.Chen,Y.C.Huang,W.Li,J.Wang,Z.L.Lu,K.Z.
+Keywords Gu,T.H.Wang,Y.J.Wu,C.Chen,Y.Q.Zhang,X.Q.Huang,L.Tao,
+C.L.Dong,J.Chen,C.V.Singh,S.Y.Wang,Sci.ChinaMater.2021,
+anionexchangemembraneelectrolyzers,DFTcalculations,high-entropy
+64,2454.
+alloys,hydrogenevolutionreaction,Sub-3nmnanoparticles
+[25] Y.J.Zhang,K.K.Nie,B.J.Li,L.X.Yi,C.Hu,Z.Y.Wang,X.R.Hao,
+W.L.Zhang,Z.Q.Liu,W.Huang,Appl.Catal.,B2025,360,124529.
+Received:May12,2025 [26] H.Minamihara,K.Kusada,D.S.Wu,T.Yamamoto,T.Toriyama,S.
+Revised:July9,2025
+Matsumura,L.S.R.Kumara,K.Ohara,O.Sakata,S.Kawaguchi,Y.
+Publishedonline:August1,2025
+Kubota,H.Kitagawa,J.Am.Chem.Soc.2022,144,11525.
+[27] L.Zhang,K.D.Davis,X.L.Sun,EnergyEnviron.Sci.2019,12,492.
+[28] L.P.Yao,F.R.Zhang,S.Yang,H.Zhang,Y.Z.Li,C.L.Yang,H.Yang,
+Q.Q.Cheng,Adv.Mater.2024,36,2314049.
+[1] Z.W.Seh,J.Kibsgaard,C.F.Dickens,I.Chorkendorff,J.K.Nørskov, [29] H.Luo,L.Li,F.X.Lin,Q.H.Zhang,K.Wang,D.W.Wang,L.Gu,M.
+T.F.Jaramillo,Science2017,355,146. C.Luo,F.Lv,S.J.Guo,Adv.Mater.2024,36,2403674.
+[2] J.N.Tiwari,S.Sultan,C.W.Myung,T.Yoon,N.N.Li,M.Ha,A.M. [30] Y.X.Wang,Y.Zhang,P.Y.Xing,X.Q.Li,Q.Y.Du,X.Q.Fan,Z.B.Cai,
+Harzandi,H.J.Park,D.Y.Kim,S.S.Chandrasekaran,W.G.Lee,V.Vij, R.Yin,Y.G.Yao,W.T.Gan,Adv.Mater.2024,36,2402391.
+H.Kang,T.J.Shin,H.S.Shin,G.Lee,Z.Lee,K.S.Kim,Nat.Energy [31] Y.Wang,N.Gong,H.F.Liu,W.Ma,K.Hippalgaonkar,Z.Liu,Y.Z.
+2018,3,773. Huang,Adv.Mater.2023,35,2302067.
+[3] A.Han,X.F.Zhou,X.J.Wang,S.Liu,Q.H.Xiong,Q.H.Zhang,L. [32] T.Y.Luan,J.M.Zhao,T.C.Gao,F.D.Wang,H.C.Xu,Z.Q.Song,L.
+Gu,Z.C.Zhuang,W.J.Zhang,F.X.Li,D.S.Wang,L.J.Li,Y.D.Li, X.Luo,S.Gong,B.Liu,Adv.Funct.Mater.2025,2506851.
+Nat.Commun.2021,12,709. [33] T.B.N.Huynh,J.Song,H.E.Bae,Y.Kim,M.D.Dickey,Y.E.Sung,
+[4] J.J.Song,C.Wei,Z.F.Huang,C.T.Liu,L.Zeng,X.Wang,Z.J.Xu, M.J.Lim,O.J.Kwon,Adv.Funct.Mater.2023,33,2301999.
+Chem.Soc.Rev.2020,49,2196. [34] J.T.Ren,L.Chen,H.Y.Wang,Z.Y.Yuan,Chem.Soc.Rev.2023,52,
+[5] O.J.Guerra,J.Eichman,J.Kurtz,B.M.Hodge,Joule2019,3,2425. 8319.
+[6] D.G.Li,E.J.Park,W.L.Zhu,Q.R.Shi,Y.Zhou,H.Y.Tian,Y.H.Lin, [35] Y.Zhang,C.Q.Ma,X.J.Zhu,K.Y.Qu,P.D.Shi,L.Y.Song,J.Wang,
+A.Serov,B.Zulevi,E.D.Baca,C.Fujimoto,H.T.Chung,Y.S.Kim, Q.P.Lu,A.L.Wang,Adv.EnergyMater.2023,13,2301492.
+Nat.Energy2020,5,378. [36] X.R.Zheng,X.P.Han,Y.H.Cao,Y.Zhang,D.Nordlund,J.H.Wang,
+[7] L.B.Xie,L.L.Wang,X.Liu,J.M.Chen,X.X.Wen,W.W.Zhao,S.J. S.L.Chou,H.Liu,L.L.Li,C.Zhong,Y.D.Deng,W.B.Hu,Adv.Mater.
+Liu,Q.Zhao,Nat.Commun.2024,15,5702. 2020,32,2000607.
+[8] G.A.Lindquist,Q.C.Xu,S.Z.Oener,S.W.Boettcher,Joule2020,4, [37] G.H.Xu,J.S.Li,Y.Z.Zeng,Z.P.Shi,W.Qi,K.Li,M.L.Xiao,C.P.
+2549. Liu,W.Xing,J.B.Zhu,EnergyEnviron.Sci.2025,18,6273.
+Adv.Mater.2025,37,e08975 e08975(11of12) ©2025Wiley-VCHGmbH
+15214095,
+2025,
+42,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.202508975
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[09/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by the
+applicable
+Creative
+Commons
+License
+
+www.advancedsciencenews.com www.advmat.de
+[38] M. Y. Huang, L. N. Song, N. Wang, Y. N. Fu, R. C. Ren, Z. J. [59] C.H.Yao,N.Guo,S.B.Xi,C.Q.Xu,W.Liu,X.X.Zhao,J.Li,H.Y.
+Li, Y. C. Lu, J. J. Xu, Q. C. Liu, Angew. Chem., Int. Ed. 2025, 64, Fang,J.Su,Z.X.Chen,H.Yan,Z.Z.Qiu,P.Lyu,C.Chen,H.M.Xu,
+202414893. X.N.Peng,X.Z.Li,B.Liu,C.L.Su,S.J.Pennycook,C.J.Sun,J.Li,
+[39] X.Y.Zhang,Y.Y.Yang,Y.J.Liu,Z.Jia,Q.Q.Wang,L.G.Sun,L.C. C.Zhang,Y.H.Du,J.Lu,Nat.Commun.2020,11,4389.
+Zhang,J.J.Kruzic,J.Lu,B.L.Shen,Adv.Mater.2023,35,2303439. [60] Z.Y.Luo,Y.R.Guo,C.J.He,Y.Guan,L.Zhang,Y.L.Li,Q.L.Zhang,
+[40] Z.C.Gong,R.Liu,H.S.Gong,G.L.Ye,J.J.Liu,J.C.Dong,J.W.Liao, C. X. He, X. L. Sun, X. Z. Ren, Angew. Chem., Int. Ed. 2024, 136,
+M.M.Yan,J.B.Liu,K.Huang,L.L.Xing,J.F.Liang,Y.M.He,H.L. 202405017.
+Fei,ACSCatal.2021,11,12284. [61] J.D.Chen,C.H.Chen,M.K.Qin,B.Li,B.B.Lin,Q.Mao,H.B.Yang,
+[41] H.J.Li,F.L.Yang,G.H.Wang,L.H.Guan,F.L.Lai,N.Zhang,T.X. B.Liu,Y.Wang,Nat.Commun.2022,13,5382.
+Liu,ACSNano2025,19,14434. [62] Y.Z.Wu,L.Wang,T.Bo,Z.F.Chai,J.K.Gibson,W.Q.Shi,Adv.Funct.
+[42] H.W.Huang,J.W.Zhao,H.L.Guo,B.Weng,H.W.Zhang,R.A. Mater.2023,33,2214375.
+Saha,M.L.Zhang,F.L.Lai,Y.F.Zhou,R.Z.Juan,P.C.Chen,S.B. [63] Z.P.Wang,Z.P.Lin,Y.L.Wang,S.J.Shen,Q.H.Zhang,J.C.Wang,
+Wang,J.A.Steele,F.L.Zhong,T.X.Liu,J.Hofkens,Y.M.Zheng,J.L. W.W.Zhong,Adv.Mater.2023,35,2302007.
+Long,M.B.J.Roeffaers,Adv.Mater.2024,36,2313209. [64] X. Chen, X. T. Wang, J. B. Le, S. M. Li, X. Wang, Y. J. Zhang, P.
+[43] T.Chen,J.F.Cai,H.C.Wang,C.Gao,C.L.Yuan,K.Zhang,Y.Yu,W. Radjenovic,Y.Zhao,Y.H.Wang,X.M.Lin,J.C.Dong,J.F.Li,Nat.
+K.Xiao,T.Luo,D.G.Xia,EnergyEnviron.Sci.2025,18,853. Commun.2023,14,5289.
+[44] Q.Q.Mao,X.Mu,K.Deng,H.J.Yu,Z.Q.Wang,Y.Xu,X.N.Li,L. [65] S.C.Lin,H.J.Ze,X.G.Zhang,Y.J.Zhang,J.Song,H.M.Zhang,H.
+Wang,H.J.Wang,Adv.Funct.Mater.2023,33,2304963. L.Zhong,Z.L.Yang,C.Y.Yang,J.F.Li,Z.Zhu,Angew.Chem.,Int.Ed.
+[45] Y.M.Jiang,J.C.Leng,S.Q.Zhang,T.Y.Zhou,M.X.Liu,S.M.Liu,Y. 2022,61,202203511.
+H.Gao,J.W.Zhao,L.Yang,L.Li,W.Zhao,Adv.Sci.2023,10,2302358. [66] T.Z.Xiong,J.T.Li,J.C.Roy,M.Koroma,Z.X.Zhu,H.Yang,L.Zhang,
+[46] X.L.Zhao,G.Wu,X.S.Zheng,P.Jiang,J.D.Yi,H.Zhou,X.P.Gao, T.Ouyang,M.S.Balogun,M.A.Mamun,J.EnergyChem.2023,81,
+Z.Q.Yu,Y.E.Wu,Angew.Chem.,Int.Ed.2023,62,202300879. 71.
+[47] S.Q.Wang,B.L.Xu,W.Y.Huo,H.C.Feng,X.F.Zhou,F.Fang,Z.H. [67] Z.L.Chen,S.Mebs,I.Mondal,H.Y.Yang,H.Dau,Z.H.Kang,M.
+Xie,J.K.Shang,J.Q.Jiang,Appl.Catal.,B2022,313,121472. Haumann,S.Ghosh,W.L.Cen,M.Driess,P.W.Menezes,Adv.Funct.
+[48] M.Wei,Y.Y.Sun,F.Ai,S.B.Xi,J.Y.Zhang,J.K.Wang,Appl.Catal.,B Mater.2024,34,2402699.
+2023,334,122814. [68] Z.Li,Y.S.Wang,H.Liu,Y.Feng,X.W.Du,Z.H.Xie,J.H.Zhou,Y.
+[49] G.L.Gao,G.Zhu,X.L.Chen,Z.X.Sun,A.Cabot,ACSNano2023, Liu,Y.Song,F.Wang,M.L.Sui,Y.Lu,F.Fang,D.L.Sun,Nat.Mater.
+17,20804. 2025,24,424.
+[50] M.Zhou,C.Q.Cheng,C.K.Dong,L.Y.Xiao,Y.Zhao,Z.W.Liu,X.R. [69] A. Guha, M. Sahoo, K. Alam, D. K. Rao, P. Sen, T. N. Narayanan,
+Zhao,K.Sasaki,H.Cheng,X.W.Du,J.Yang,Adv.EnergyMater.2023, iScience2022,25,104835.
+13,2202595. [70] Q. Z. Dai, L. Wang, K. X. Wang, X. H. Sang, Z. J. Li, B. Yang, J.
+[51] A.Sivanantham,H.Lee,S.W.Hwang,H.U.Lee,S.B.Cho,B.Ahn, M.Chen,L.C.Lei,L.M.Dai,Y.Hou,Adv.Funct.Mater.2022,32,
+I.S.Cho,Adv.Funct.Mater.2023,33,2301153. 2109556.
+[52] C.H.Wang,J.Zhang,K.H.Miao,M.R.Long,S.Y.Lai,S.J.Zhao,X. [71] L.P.Ren,K.N.Zhang,Y.C.Huang,Y.R.Lu,H.Deng,Y.Ding,C.Y.
+W.Kang,Adv.Mater.2024,36,2400433. Chen,B.Huang,W.B.Hua,L.Fu,X.H.Zhao,S.H.Shen,J.J.Wei,J.
+[53] B. K. Li, Z. Y. Zhong, H. Li, M. Z. Yue, Q. M. Niu, L. Liu, W. Chen,ACSCatal.2025,15,11022.
+F. Xie, M. Li, M. F. Shao, Q. Wang, Angew. Chem., Int. Ed. 2025, [72] N.Z.Nie,D.Zhang,Z.C.Wang,W.H.Yu,S.J.Ge,J.Xiong,Y.L.Gu,
+202509502. B.Yang,J.P.Lai,L.Wang,Appl.Catal.,B2022,318,121808.
+[54] K.J.Bu,Q.Y.Hu,X.H.Qi,D.Wang,S.H.Guo,H.Luo,T.Q.Lin,X. [73] W. J. Shao, Z. Y. Xing, X. H. Xu, D. P. Ye, R. Yan, T. Ma, Y. Wang,
+F.Guo,Q.S.Zeng,Y.Ding,F.Q.Huang,W.G.Yang,H.K.Mao,X.J. Z. Y. Zeng, B. Yin, C. Cheng, S. Li, J. Am. Chem. Soc. 2024, 146,
+Lü,Nat.Commun.2022,13,4650. 27486.
+[55] M. Singh, D. C. Cha, T. I. Singh, A. Maibam, D. R. Paudel, D. [74] C.G.T.Feugmo,K.Ryczko,A.Anand,C.V.Singh,I.Tamblyn,J.Chem.
+H. Nam, T. H. Kim, S. Yoo, S. Lee, Mater. Chem. Front. 2023, 7, Phys.2021,155,044102.
+6254. [75] J.Y.Li,J.Hu,M.K.Zhang,W.Y.Gou,S.Zhang,Z.Chen,Y.Q.Qu,Y.
+[56] Y.F.Zhao,J.H.Wu,X.J.Cao,D.F.Li,P.Huang,H.Gao,Q.F.Gu,J. Y.Ma,Nat.Commun.2021,12,3502.
+Q.Zhang,G.X.Wang,H.Liu,Adv.Mater.2025,2506117. [76] H.Y.Li,M.Abdelgaid,J.R.Paudel,N.P.Holzapfel,V.Augustyn,J.
+[57] Y.Zhang,T.Yu,R.Xiao,P.Tang,R.P.Fang,Z.N.Li,H.M.Cheng,Z. R.McKone,G.Mpourmpakis,E.J.Crumlin,J.Am.Chem.Soc.2025,
+H.Sun,F.Li,Adv.Mater.2025,37,2413653. 147,6472.
+[58] M.Tamtaji,M.G.Kim,J.Wang,P.R.Galligan,H.Y.Zhu,F.F.Hung, [77] J. H. Jiang, G. C. Xu, B. B. Gong, J. J. Zhu, W. W. Wang, T. Zhao,
+Z.H.Xu,Y.Zhu,Z.T.Luo,W.A.G.III,G.H.Chen,Adv.Sci.2024,11, Y.Y.Feng,Q.H.Wu,S.Liu,L.Zhang,Adv.Funct.Mater.2025,35,
+2309883. 2412685.
+Adv.Mater.2025,37,e08975 e08975(12of12) ©2025Wiley-VCHGmbH
+15214095,
+2025,
+42,
+Downloaded
+from
+https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.202508975
+by
+Nat
+Institution
+Of
+Tech,
+Srinagar
+Nit,
+Wiley
+Online
+Library
+on
+[09/10/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+

@@ -1,0 +1,1173 @@
+ARTICLE
+OPEN
+https://doi.org/10.1038/s41467-020-15934-1
+Synthesis of high-entropy alloy nanoparticles on
+supports by the fast moving bed pyrolysis
+Shaojie Gao 1, Shaoyun Hao 1, Zhennan Huang 2, Yifei Yuan 2,3, Song Han 4, Lecheng Lei 1,5,
+✉ ✉
+Xingwang Zhang 1,5 , Reza Shahbazian-Yassar 2 & Jun Lu 3
+High-entropyalloynanoparticles(HEA-NPs)areimportantclassofmaterialswithsignificant
+technological potential. However, the strategies for synthesizing uniformly dispersed HEA-
+NPsongranularsupportssuchascarbonmaterials,γ-Al O ,andzeolite,whichisvitaltotheir
+2 3
+practicalapplications,arelargelyunexplored.Herein,wepresentafastmovingbedpyrolysis
+strategytoimmobilizeHEA-NPsongranularsupportswithanarrowsizedistributionof2nm
+up to denary (MnCoNiCuRhPdSnIrPtAu) HEA-NPs at 923K. Fast moving bed pyrolysis
+strategy ensures the mixed metal precursors rapidly and simultaneously pyrolyzed at high
+temperatures, resulting in nuclei with a small size. The representative quinary (FeCoPdIrPt)
+HEA-NPs exhibit high stability (150h) toward hydrogen evolution reaction with high mass
+activity, which is 26 times higher than the commercial Pt/C at an overpotential of 100mV.
+Our strategy provides an improved methodology for synthesizing HEA-NPs on various
+supports.
+1KeyLaboratoryofBiomassChemicalEngineeringofMinistryofEducation,CollegeofChemicalandBiologicalEngineering,ZhejiangUniversity,310027
+Hangzhou,ZhejiangProvince,China.2DepartmentofMechanicalandIndustrialEngineering,UniversityofIllinoisatChicago,Chicago,IL60607,USA.
+3ChemicalSciencesandEngineeringDivision,ArgonneNationalLaboratory,9700S.CassAvenue,Lemont,IL60439,USA.4SchoolofEnvironmentand
+SafetyEngineering,JiangsuUniversity,212013Zhenjiang,JiangsuProvince,China.5InstituteofZhejiangUniversity-Quzhou,78JiuhuaBoulevardNorth,
+✉
+324000Quzhou,China. email:xwzhang@zju.edu.cn;junlu@anl.gov
+NATURECOMMUNICATIONS| (2020) 11:2016 |https://doi.org/10.1038/s41467-020-15934-1|www.nature.com/naturecommunications 1
+;,:)(0987654321
+
+ARTICLE
+NATURECOMMUNICATIONS|https://doi.org/10.1038/s41467-020-15934-1
+H
+igh-entropy alloys, containing five or even more metals, speedof20cms −1)withthetemperatureintheheatingzoneonly
+have attracted significant attentions1–5, because of their dropping to 920K (Fig. 1a and Supplementary Movie 1). The
+unique chemical and physical complexity, which endow FMBP strategy ensures the simultaneous pyrolysis of the mixed
+alloys with tunable features and properties such as thermal sta- metal precursors (Supplementary Figs. 1 and 2) due to rapidly
+bility, superior corrosion resistance, high hardness, exceptional reaching the high temperature (above the pyrolysis temperature
+ductility, and
+superparamagnetism6–10.
+A wide range of resear- of all precursors), resulting in the high supersaturation of
+cheshaverevealedthatthenanoparticlesloadingonthesupports monomers, in turn forming smaller nuclei clusters to form
+could significantly improve specific surface area and surface HEA-NPs without phase separation (Fig. 1b). In contrast, the
+energy compared with the bulk materials or the nanoparticles FBP strategy can only synthesize phase-separated alloy, because
+themselves11,12. In addition, in industrial applications, the nano- each metal precursor would be reduced in sequence for their
+particlesneedtobedispersedlyimmobilizedongranularsupports, various reduction potentials during temperature programming
+such as Al O , zeolite, and carbon materials etc., which can make (20Kmin
+−1)(Fig.1b).Moreover,wesimulatetheheattransferof
+2 3
+the catalysts feature with tunable size, shape, and stability, enhan- 20mgofprecursors/grapheneoxide(GO)placedinaquartzboat
+cingthecatalyticperformance13–15.Therefore,thesupportedhigh-
+(thecommercialANSYSFLUENTsoftware).Theresultsshowed
+entropyalloynanoparticles(HEA-NPs)canbepromisinglyapplied thatGOcouldreach923Kwithin5s,whichwasconsistentwith
+incatalysis,chemicalsensing,biology,andenergyconversion16–21.
+the time of the actual experimental operation (Fig. 1c, Supple-
+However, the common extreme high temperature related approa- mentary Movie 2).
+chessuchasarcmelting16andlasercladding22arenotsuitablefor
+supporting HEA-NPs due to the rapid growth and aggregation of
+nanoparticles23. Although multimetallic nanoparticles can be pro- Crystal structure and composition characterization. As-proof-
+duced at relatively mild conditions, including magnetron sputter- concept,thedenary(MnCoNiCuRhPdSnIrPtAu)HEA-NPswere
+ing24, the mixed metal oxides inking25, electrodeposition26, and synthesizedbytheFMBPstrategy.Firstly,themixeddenarymetal
+polymerlithographymethods27,28,whicharedifficultforuniformly chloride salts precursors coordinated with 1,10-Phenanthroline
+immobilizing HEA-NPs on granular supports. Notably, Yao et al. (Phen) were loaded on GO by the wet impregnation method,
+applied carbothermal shock method successfully supported 8 ele- then, followed by the reductive pyrolysis to obtain HEA-NPs at
+mental HEA-NPs on conductive activated carbon fiber through 923K through the FMBP strategy (details in experimental sec-
+flash heating and cooling strategy29, but it is very challenging for tion). It was seen that the denary (MnCoNiCuRhPdSnIrPtAu)
+this joule heating method to immobilize HEA-NPs on granular HEA-NPs were uniformly dispersed on GO with an ultrasmall
+supports(independentoftheirelectricalconductivity)suchasactive size ~2nm (Fig. 1d). The high-resolution scanning transmission
+carbon, alumina oxide, and zeolite. Exploring the efficient method electron microscope (HR-STEM) revealed that the crystalline
+forimmobilizingHEA-NPsonthesegranularsupportsisobviously structure of denary HEA-NPs was face-centered cubic (fcc)
+significant for facilitating the industrial application of HEA-NPs (Fig. 1e). Additionally, the elemental maps indicated that 10
+and providing facile platform for designing catalysts and under- elements were uniformly distributed in the nanoparticles, sug-
+standingsupport-metal interaction effect. gestingthatthedenaryHEA-NPswereatomicallymixingwithout
+Presently, wet impregnation followed by reductive pyrolysis in phaseseparation(Fig.1f).ItshouldbepointedoutthattheHEA-
+the programmed temperature heating way, which is always con- NPs with a low loading of HEA-NPs on GO (3wt%) were too
+ductedinthefixedbedpyrolysis(FBP)reactor,isthemostpopular small to obtain clear mapping images in high resolution with
+method for preparation of supported nanoparticles on granular energy-dispersive X-ray (EDX) spectroscopy, so we used a high
+supports13,14.However,intheconventionalFBPprocess,themetal loading of HEA-NPs on GO (10wt%), as shown in Fig. 1f.
+ionsaresequentiallyreducedduetothedifferentstartingreductive Our FMBP strategy can facilely synthesize a wide range of
+temperatures of precursors, which are mainly resulted from HEA-NPs, including the quinary (e.g., CuPdSnPtAu), senary
+the different chemical reductive potentials30,31. According to the (e.g., NiCuPdSnPtAu), septenary (e.g., NiCuPdSnIrPtAu), and
+classical LaMer mechanism of the formation of nanocrystals, the octonary (e.g., CoNiCuPdSnIrPtAu) alloy at 923K (Fig. 2),
+highersupersaturationofmonomerscaninduceaburstnucleation illustratingthereliabilityandgeneralityoftheFMBPstrategyfor
+and the smaller nuclei
+formation32–35.
+The theoretical and synthesis of HEA-NPs. The elemental maps clearly revealed that
+experimental results of nanoalloying have shown that decreasing each element in these alloys supported on GO was uniformly
+critical size of nuclei could reduce the excess free energy cost for mixed without phase separation (Fig. 2a–g). Besides that, the
+formation of nanoalloys avoiding phase
+separation36–41.
+corresponding elemental maps for the atomic scale HAADF-
+Here we show a general and facile fast moving bed pyrolysis STEM image of CuSnPdAuPt HEA-NPs further revealed these
+(FMBP) strategy following wet impregnation for the preparation elements were uniformly distributed in these HEA-NPs(Supple-
+of ultrasmall and highly dispersed HEA-NPs coming up to 10 mentaryFig.3).Additionally,high-resolutionhigh-angleannular
+immiscibleelements(Mn,Co,Ni,Cu,Rh,Pd,Sn,Ir,Pt,andAu) dark-field imaging in scan transmission electron microscopy
+viathepyrolysisofthemixedmetalchloridesprecursorsloading (HAADF-STEM) showed that the lattice fringe spacing in the
+on various granular supports such as carbon support (carbon denarynanoparticle(50nm)was2.21Å,whichwaswellidentical
+blackandgrapheneoxide),γ-Al O ,andzeolite(Permutit).Inthe with that in the denary nanoparticle with the size of 2nm
+2 3
+FMBPprocess,theformationofHEA-NPsisthermodynamically (Fig. 1e), revealing that the nanoparticles in the denary high-
+favored due to the low free energy of the formation of nuclei, entropy alloy forming homogeneous alloys. Simultaneously, the
+which results from the fast pyrolysis of precursors at high tem- formationofquinary(CuPdSnPtAu)andoctonary(CoNiCuPdS-
+peratures. The representative quinary (FeCoPdIrPt) HEA-NPs nIrPtAu) HEA-NPs were also confirmed by HAADF-STEM
+possess the high activity and exceptional stability toward hydro- (Supplementary Figs. 3 and 4). Additionally, in order to prove
+gen evolution in water splitting. that the synthesized alloy nanoparticles are atomically mixed
+withoutphasesegregation,therepresentativequinaryanddenary
+HEA-NPs were characterized with powder X-ray diffraction
+Results (XRD), which revealed that the homogeneous HEA-NPs by the
+TheFMBPstrategyforHEA-NPs.OurFMBPstrategyallowsthe FMBP strategy were successfully synthesized (Supplementary
+metal precursors to rapidly reach 923K within 5s (a propulsion Figs. 5 and 6).
+2 NATURECOMMUNICATIONS| (2020) 11:2016 |https://doi.org/10.1038/s41467-020-15934-1|www.nature.com/naturecommunications
+
+a
+HEA-NPs Precusors
+b
+2 3
+Monomers
+Nanocrystals
+Nuclei
+Monomers
+2 3 4
+c d e
+Denary HEA-NPs
+MnCoNiCuRhPdSnIrPtAu@GO
+(111) 2.21 Å
+0 5 10 15 20
+f
+Denary MnCoNiCuRhPdSnIrPtAu
+Mn Co Ni Cu Rh Pd Sn Ir Pt Au
+ThecompositionratioofeachelementintheseHEA-NPswas ratio of the quinary, octonary, and denary HEA-NPs was very
+analyzed through EDX (Supplementary Figs. 7–13, showing that close to the results obtained by the EDX (Supplementary
+the atomic ratio of each element was very close to the expected Tables 1–3). Furthermore, the ternary, octonary, and denary
+ratio.Thecompositionofindividualparticles(FeCoPdPtIrHEA- HEA-NPs were respectively characterized with X-ray photoelec-
+NPs)wasfurtheranalyzedtoproveeachelementinHEA-NPsis tron spectroscopy (XPS) (Supplementary Figs. 15–19), confirm-
+uniformlydistributed.Theatomicratioofeachelementwasclose ingthehomogenousHEA-NPs.Thus,thisindicatesthegenerality
+totheaveragecompositions(SupplementaryFig.14).Theatomic of our method to achieve various mixing compositions in HEA-
+ratioerrorinthesealloysisbelow15%,whichmaybeduetothe NPs on different substrates.
+possibleevaporationofmetalprecursorsandtheanalysiserror.In
+order to further prove that the proportion of each element is Immobilizing HEA-NPs on various supports. Our FMBP
+equal to the desired ratio of metals, we used inductively coupled strategy can be readily extended to immobilize HEA-NPs on
+plasma optical emission spectroscopy (ICP-OES) to analyze the various granular supports including γ-Al O , zeolite,and carbon
+2 3
+composition of HEA-NPs. The results showed that the element black(Fig.3),takingthequinary(CuPdSnPtAu)HEA-NPsasan
+)K(
+erutarepmeT
+ARTICLE
+NATURECOMMUNICATIONS|https://doi.org/10.1038/s41467-020-15934-1
+FMBP
+Phen
+1
+Nuclei
+Evaporation
+1
+GO, Carbon black, FBP
+Al O , Zeolite
+2 3
+998
+GO 20 mg
+898
+923 K
+798
+823 K
+698
+723 K
+598
+623 K
+498
+398 423 K
+298 K
+298
+Time(s)
+Fig.1TheFMBPstrategyforsynthesisofHEA-NPs.aSchematicdiagramoftheFMBPexperimentalsetupforsynthesisofHEA-NPs.bSchematic
+diagramsforsynthesisofhomogeneousandphase-separatedHEA-NPsbyFMBPandFBPstrategies,respectively.cThesimulationofthetimerequiredfor
+precursors/GO(20mg,3wt%)toreach923KintheFMBPprocess.Center:themetalprecursors/GOinthequartzboat.dHAADF-STEMimagesforthe
+denary(MnCoNiCuRhPdSnIrPtAu)HEA-NPshighlydispersedonGOsynthesizedbytheFMBPstrategy(TheloadingofHEA-NPsonGOwas3wt%).
+eTheHR-STEMimageforthedenary(MnCoNiCuRhPdSnIrPtAu)HEA-NPs(inset,theFouriertransformanalysisfordenary(MnCoNiCuRhPdSnIrPtAu)
+HEA-NPsindicatedthatthedenaryHEA-NPsfeaturedwithanfcccrystalframework).fElementalmapsfordenary(MnCoNiCuRhPdSnIrPtAu)HEA-NPs
+(TheloadingofHEA-NPsonGOwas10wt%).TheelementsinHEA-NPshavetheequalatomicratio.Scalebard:10nm,e:0.5nm,andf:10nm.
+NATURECOMMUNICATIONS| (2020) 11:2016 |https://doi.org/10.1038/s41467-020-15934-1|www.nature.com/naturecommunications 3
+
+ARTICLE
+NATURECOMMUNICATIONS|https://doi.org/10.1038/s41467-020-15934-1
+a c
+Quinary (CuPdSnPtAu@GO) Septenary (CoNiCuPdSnPtAu@GO)
+Cu Pd Sn Pt Au Co Ni Cu Pd Sn Pt Au
+b d
+Senary (NiCuSnPdPtAu@GO) Septenary (NiCuPdSnIrPtAu@GO)
+Ni Cu Pd Sn Pt Au Ni Cu Ir Pd Sn Pt Au
+e
+Octonary (CoNiCuPdSnIrPtAu@GO)
+Co Ni Cu Pd Sn Ir Pt Au
+f Octonary (CoNiCuPdSnIrPtAu@GO)
+Co Ni Cu Sn Pd Pt Ir Au
+g h
+Denary (MnCoNiCuRhPdSnIrPtAu@GO) Denary HEANs
+Overlay Mn Co Ni Cu
+(111)
+Rh Pd Sn Ir Pt Au
+2.21 Å
+Fig.2HAADFandelementalmapsforHEA-NPssynthesizedbyFMBP.HAADFandelementalmapsforthequinary(CuPdSnPtAu)(a),senary
+(NiCuPdSnAuPt)(b),septenary(CoNiCuPdSnPtAu)(c),septenary(NiCuPdSnIrPtAu)(d),octonary(CoNiCuPdSnIrPtAu)(e)and(f),anddenary
+(MnCoNiCuRhPdSnIrPtAu)alloy(g),andsupportedonGO.hThehigh-resolutionTEMimageforthedenary(MnCoNiCuRhPdSnIrPtAu@GO)HEA-NPs.
+TheinsetshowstheFouriertransformanalysisfordenaryHEA-NPsindicatingthatthedenaryHEA-NPsexhibitedanfcccrystalframework.Theloadingof
+HEA-NPsonGOwas10wt%.TheelementsinHEA-NPshavetheequalatomicratio.Scalebar(a–c,e,f):50nm,d:20nm,g:10nm,andh:1nm.
+example. It should be pointed out that when γ-Al O or zeolite Effect of temperature on alloy formation. We carried out con-
+2 3
+was used as supports, the reduction of metal precursors was trol experiments to verify the assumption that the strategy of
+achieved with H (100 sccm) under 923K. As shown in Fig. 3d, pyrolysis reduction of mixed metal precursors governed the for-
+2
+the elemental mapsclearly revealed that elements in the quinary mationofalloys(Fig.4).Wetooktheternary(NiPdPt@GO)alloy
+(CuPdSnPtAu) HEA-NPs on γ-Al O and zeolite were also uni- as an example to investigate the influence of different pyrolysis
+2 3
+formly mixed without phase separation, suggesting formation of strategies on alloy formation, because more elements will make
+homogenous alloys, in agreement with results of Fig. 2 (GO as thecharacterizationmuchmorecomplicatedandchallenging.In
+supports). These results indicated that our FMBP method is the FMBP process, the NiPdPt alloy was formed without phase
+general to immobilize HEA-NPs on various supports. Moreover, segregation (Fig. 4b). In contrast, as shown in Fig. 4d, when the
+the HEA-NPs synthesized by our FMBP method exhibited a propulsion speed was decreased to 1cms
+−1
+(20s for precursors
+uniform and small particle size distribution (~5nm) when the toreachtheheatingzone),namelytheslowmovingbedpyrolysis
+loading of alloys was 3wt% (Fig. 3e and Supplementary Figs. 20 (SMBP), the phase-separated NiPdPt nanoparticle was clearly
+and 21). For example, the sizes of these particles from 1.5 to formed, where Pt and Pd were not uniformly in the NiPdPt
+2.5nm occupy 73.8% in the size distribution for the denary nanoparticles. More obviously, Pd only existed in the core of
+(MnCoNiCuRhPdSnIrPtAu@GO) HEA-NPs (Supplementary NiPdPt nanoparticles obtained by the conventional FBP strategy
+Fig. 21). These HEA-NPs are mostly smaller than 5nm in dia- (923K)withaheatingrateof20Kmin
+−1(~31minfrom298Kto
+meter and uniformly dispersed on carbon supports (GO and 923K), indicating a completely phase segregation (Fig. 4f, Sup-
+carbon black), γ-Al O , and zeolite. It should be noted that the plementary Fig. 22). Besides that, the pyrolysis strategy also
+2 3
+HR-TEM pictures of HEA-NPs supported on GO, carbon black, changed and affected the particle size of the synthesized alloy
+γ-Al O , and zeolite all showed clear crystal lattices (Fig. 3f, (Fig.4a,c,e).Thesecontrolsclearlyillustratedthekeyroleofthe
+2 3
+Supplementary Figs. 7–13), suggesting HEA-NPs were highly pyrolysis strategies of the mixed metal precursors for formation
+crystalline. of HEA-NPs.
+4 NATURECOMMUNICATIONS| (2020) 11:2016 |https://doi.org/10.1038/s41467-020-15934-1|www.nature.com/naturecommunications
+
+ARTICLE
+NATURECOMMUNICATIONS|https://doi.org/10.1038/s41467-020-15934-1
+a b c
+HEA-NPs@Al O HEA-NPs@zeolite HEA-NPs@carbon black
+2 3
+d
+CuPdSnPtAu@Al O
+2 3
+Overlay Cu Pd Sn Pt Au Al O
+CuSnPdPtAu@zeolite
+Overlay Cu Sn Pd Pt Au Al Si O
+e
+CuPdSnPtAu@Al O CuPdSnPtAu@zeolite CuPdSnPtAu@carbon black CuPdSnPtAu@GO
+2 3
+f
+CuPdSnPtAu@Al O CuPdSnPtAu@zeolite CuPdSnPtAu@carbon black CuPdSnPtAu@GO
+2 3
+Fig.3SupportingHEA-NPsonvarioussupports.TheschematicdiagramsforHEA-NPsdispersedonγ-Al O (a),zeolite(b),andcarbonblack(c).dThe
+2 3
+elementalmapsforquinary(CuPdSnPtAu)supportedonAl O andzeolite,(TheloadingofHEA-NPsonγ-Al O andzeolitewas10wt%).eSTEMimages
+2 3 2 3
+revealedthattheHEA-NPssynthesizedbyFMBPstrategywerehighlydispersedonγ-Al O ,zeolite,carbonblack,andGO.fHR-TEMimagesforHEA-NPs
+2 3
+supportedonγ-Al O ,zeolite,carbonblack,andGOsynthesizedbyFMBPstrategy(TheloadingofHEA-NPsonsupportswas3wt%).Theelementsin
+2 3
+HEA-NPshavetheequalatomicratio.Scalebard:10nm,e:20nm,f:5nm.
+Mechanism of formation of HEA-NPs. The formation of
+nanocrystalsisgenerallydividedintothreestepsaccordingtothe
+RTlnS
+LaMer’s nucleation mechanism (Fig. 5a, b)32,39,42: ΔG ¼(cid:2) ð2Þ
+V V
+m
+Precursors!Monomers$Nuclei!Nanocrystal
+4 4 RTlnS
+ΔG ¼4πr2γþ πr3ΔG ¼4πr2γ(cid:2) πr3 ð3Þ
+r 3 V 3 V
+m
+The correlation of free energy of nuclei with HEA-NPs is
+significantfornuclei,becausedifferentenergycanleadtoforming Where r is the nucleation radius, γ is surface free energy in per
+alloys or phase-separated nanocrystal. The overall free energy unit area, R is the ideal gas constant, ΔG is the free energy gap
+V
+change versus the nucleus size during the formation of nuclei for per unit volume of metal solids and solute particles, T is the
+(Fig. 5c and Supplementary Fig. 23) as follows33,34,39: temperature for nucleation, V is solid molar volume, S is the
+m
+ratio of supersaturation concentration to equilibrium concentra-
+ΔG ¼4πr2γþ 4 πr3ΔG ð1Þ tion, and ΔG r is excess free energy, which is related with the
+r 3 V surface energy (4πr2γ) and volume free energy (4/3)πr3ΔG .
+V
+NATURECOMMUNICATIONS| (2020) 11:2016 |https://doi.org/10.1038/s41467-020-15934-1|www.nature.com/naturecommunications 5
+
+a b OOvveerrllaayy Ni Pd Pt
+c d OOvveerrllaayy Ni Pd Pt
+e f OOvveerrllaayy Ni Pd Pt
+Fig.4SynthesisofNiPdPtbydifferentmethods.aTheSTEMimageofNiPdPtobtainedbyFMBP(923K).bTheelementalmapsofNiPdPtobtainedby
+FMBP(923K).cTheSTEMimageofNiPdPtobtainedbySMBP(923K).dTheelementalmapsofNiPdPtobtainedbySMBP.eTheSTEMimageofNiPdPt
+obtainedbyFBP.fTheelementalmapsofNiPdPtobtainedbyFBP.TheloadingofHEA-NPsonGOwas3wt%fora,c,e.TheloadingofHEA-NPsonGO
+was10wt%fortheNiPdPtalloyforelementalmaps.Scalebara:10nm,(b–d,f):50nm,e:200nm.
+a
+CNu
+max
+CNu
+min
+I II III
+Time
+r
+0
+r* r*
+FMBP FBP
+noitartnecnoc
+cimotA
+CNu max
+CNu
+min
+Time
+FBP
+FMBP
+noitartnecnoc
+cimotA
+b
+FMBP, 923 K FBP, 923 K
+C
+s
+C s I II III
+c d
+td/Nd
+r
+ARTICLE
+NATURECOMMUNICATIONS|https://doi.org/10.1038/s41467-020-15934-1
+ΔG
+r
+ΔG
+r*
+ΔG
+r*
+Nucleation temperature
+Fig.5MechanismofformationofnanocrystalsbyFMBPandFBP.aThediagramsofformationofmonomers(I),nucleation(II),andgrowthof
+nanocrystal(III)versusthereactiontimebyFMBP.bThediagramsofformationofmonomers(I),nucleation(II),andgrowthofnanocrystal(III)phases
+versusthereactiontimebyFBP.cThecorrespondingoverallfreeenergychange((ΔG r)versusthenucleussize(r)viaFMBP,andFBPstrategies.dThe
+effectofnucleationtemperatureonthenucleationrate(dN r/dt).
+6 NATURECOMMUNICATIONS| (2020) 11:2016 |https://doi.org/10.1038/s41467-020-15934-1|www.nature.com/naturecommunications
+
+0.6
+0.5
+0.4
+0.3
+0.2
+400 500 600 700 800 900 1000110012001300
+AsshowninFig. 5c,whentheradius ofnucleiissmallerthan were easily formed due to the smaller nuclei radius and the fast
+the critical value, the nuclei is easily decomposed, and the new nucleation rate.
+nuclei forms resulting from the aggregation of monomers or the We investigated thepyrolysis reduction temperatures of metal
+small nuclei. When the nucleus size is larger than the critical precursors ontheformationofalloysintheFMBPprocess.Also
+radius(r*),thenucleationsystemwilldecreaseitsfreeenergyby takingtheternaryNiPdPtalloyasexample,itwasobviouslyseen
+the growth of bigger clusters39. The critical radius r* and the that NiPdPt alloy cannot be obtained under the pyrolysis
+correspondingcriticalexcessfreeenergyΔG r*canbedescribedas temperature of 673K. The Ni element was scattered on the GO
+the followings by solving the equation dG/dr=0: support,andthebimetallicPdPtalloycanbeformedduetotheir
+r
+similar chemical reduction potentials (Supplementary Fig. 26).
+r (cid:3) ¼
+2γV
+m ð4Þ Whenthereductionpyrolysistemperatureincreasedto923Kand
+RTlnS 1173K, the NiPdPt alloy was successfully synthesized with
+uniformly mixing of Ni, Pt, and Pd (Fig. 4b and Supplementary
+ΔG
+r(cid:3)
+¼4πr (cid:3)2γ(cid:2) 4
+3
+πr (cid:3)3 R
+V
+TlnS ð5Þ F
+u
+i
+n
+g
+d
+.
+er
+26
+1
+)
+1
+.
+73
+H
+K
+ow
+p
+e
+r
+v
+o
+e
+d
+r
+u
+,
+c
+t
+e
+h
+d
+e
+la
+N
+rg
+i
+e
+P
+r
+d
+a
+P
+n
+t
+d
+a
+a
+ll
+g
+o
+g
+y
+reg
+sy
+a
+n
+te
+t
+d
+he
+H
+si
+E
+ze
+A
+d
+-N
+w
+P
+i
+s
+th
+pa
+F
+r
+M
+tic
+B
+le
+P
+s
+m (SupplementaryFig.27).Additionally,accordingtothecalculated
+Therefore, we can get the quantitative relation between the free energy and Boltzmann distribution, the rate of the
+temperature and critical radius of nuclei (r*) according to Eq. 4 transformation of metal precursors to nuclei clusters (d N /d t )
+(Fig. 6a). Then, the quantitative relation between the critical was close to 1 at 923K, when S (the ratio of supersaturation
+excess free energy (ΔG r*) and the critical radius (r*) can be concentrationtoequilibriumconcentration)wasinrangeof5–20
+furthercalculatedaccordingtoEq.5(Fig.6bandSupplementary (SupplementaryFig.25).Thenucleationratedirectlydetermined
+Tables4and5).Obviously,thereactiontemperaturehasastrong thesizeandnumberofnucleigeneratedinthesupersaturationof
+effect on the critical radius of nuclei (r*) and the critical excess monomers. The faster the pyrolysis rate of precursors, the
+free energy (ΔG r*), for example, at 923K, r*, and ΔG r* were supersaturation of monomer will be higher. Thus, the larger the
+0.313nm and 2.54×10 −20J, respectively (Supplementary number of the nuclei clusters, and the smaller the nanocrystals
+Table 6). In contrast, at 673K, r*, and ΔG r* were 0.442nm and generated. Overall therefore, the reasonable reduction pyrolysis
+5.08×10 −20J, respectively. temperature of 923K is important for our FMBP strategy to get
+In our FMBP,the mixedmetal precursors could rapidly reach the HEA-NPs with small size.
+thehightemperature(e.g.923K).Thetimeforthesupportssuch Actually, the annealing time for synthesizing HEA-NPs was
+asGO,zeolite,andγ-Al O supportingprecursorstoreach923K also investigated in detail, including 30min, 120min, and 180
+2 3
+in the FMBP process were simulated. The results revealed that min. Different annealing time will affect the formation of high-
+these supports could reach 923K within 5s, showing almost no entropy alloys. When the annealing time was set at 30min, the
+difference with the practical operation (Supplementary Fig. 24 CuSnPdPtAu HEA-NPs would be wrapped by carbon (Supple-
+andMovies1and2).Itshouldbenotedthatallmetalprecursors mentary Fig. 28), which cannot be sufficiently decomposed.
+with different properties could be efficiently decomposed under Moreover, as can be seen from Supplementary Fig. 28, whenthe
+923K (Supplementary Tables 4–8). Therefore, in the FMBP annealingtimewassetat180min,thesizeofCuSnPdPtAuHEA-
+process (Fig. 5a, c), the formation of HEA-NPs was thermo-
+NPswouldsignificantlyincrease.Thus,theannealingtimeof120
+dynamically favored due to the low critical excess free energy min was chosen as the suitable time for synthesizing the
+(ΔG r*)39–42.Thenucleiofalloyswiththesmallsizewillbemuch ultrasamll HEA-NPs. Besides that, the selective reaction time
+favorable due to the fact that these monomers only need little wasalsobasedonthediffusionofreactantsanddrainingofgases
+energyfornucleation43,44.Incontrast,inFBP(Fig.5b)orSMBP, produced from precursors.
+theformationofalloysslowlygoingthroughthelowtemperature
+(e.g. 673K) with the slow heating way would result in the larger HERtests.OurFMBPstrategycanfacilelyproducevariousHEA-
+radiusofnuclei,andthephaseseparationwouldoccurduetothe NPs,whichhavemanypotentialapplications.Asaproofconcept,
+high ΔG r* (Fig. 4c–f). The total number of the nuclei clusters weappliedFeCoPdIrPt@GOHEA-NPs(SupplementaryFigs.29–
+obeys the Boltzmann distribution, and the increase of nuclei 33) loaded on carbon paper (CP) as the working electrode for
+radius will decrease the number of nuclei35,39,40. The higher hydrogen evolution reaction (HER) in the solution containing
+nucleationtemperatureisbeneficialtothenucleationrate(Fig.5d, KOH (1M). In order to prove FeCoPdIrPt@GO prepared by
+SupplementaryFig.25,andSupplementaryNote1).Therefore,in FMBPpossesshighperformancetowardHER,thesingle-metallic
+our FMBP, the homogenous HEA-NPs with small size (2nm) (e.g., Fe@GO), bi-metallic (e.g., CoPd@GO), tri-metallic (e.g.,
+)mn(
+*r
+1.0
+0.8
+0.6
+0.4
+0.2
+0.0
+0.150.200.250.300.350.400.450.500.550.600.65
+T (K) r* (nm)
+)J(
+9101×*rGΔ
+ARTICLE
+NATURECOMMUNICATIONS|https://doi.org/10.1038/s41467-020-15934-1
+a b
+Fig.6Thequantitativeanalysisofnucleationprocess.aThecriticalradiusofnuclei(r*)asfunctionsofnucleationtemperature(T).bThecriticalexcess
+freeenergy(ΔG r*)asfunctionsofcriticalradius(r*).
+NATURECOMMUNICATIONS| (2020) 11:2016 |https://doi.org/10.1038/s41467-020-15934-1|www.nature.com/naturecommunications 7
+
+a b
+0.25
+0.15
+0.05
+-0.05
+-0.15
+-0.25
+0 30 60 90 120 150
+PtPdIr@GO) samples, even the FeCoPdIrPt@GO prepared by addition, although Pd itself has the poor HER activity, it is ben-
+FBP were employed for HER (Supplementary Fig. 32). Through eficialtomodulatethehydrogenbindingenergy(HBE)onthePt
+comparison these samples, FeCoPdIrPt@GO (FMBP) exhibited surface47, improving the HER activity. Moreover, based on the
+the best performance toward HER. As shown in Fig. 7a, the theoreticalsimulations,theelectronicstructure(i.e.d-bandcenter)
+FeCoPdIrPt@GO exhibited a low overpotential (ɳ) of 42mV at isanimportantindicatoroftheactivityofelectrocatalyst,because
+the current density of 10mAcm −2, which was much lower than the d-orbital electrons determine both bond formation (ΔG H*)
+that of the commercial Pt/C (ɳ =64mV). Besides that, at the and bond-breaking48,49. If the d-band center was too close to or
+10
+ɳ=100mV,theFeCoPdIrPt@GOexhibitedwithamassactivityof far from the Fermi level, the electrocatalytic activity of catalysts
+9.1mAμg ,whichwas26timeshigherthan0.35mAμg forPt/ wouldbereduced.ForFeCoPdIrPt,thetransitionmetals(Feand
+Pt Pt
+C.Moreover,itshouldbenotedthatFeCoPdIrPt@GOpossessed Co)50,51 and Pd52 could downshift the antibonding states of Pt,
+thesuperiorperformanceascomparedwithotherelectrocatalysts and more electrons would fill the antibonding states, which
+(Supplementary Table 9). The value of R (charge transfer facilitated the desorption of hydrogen species accelerating
+ct
+resistance) for FeCoPdIrPt@GO was much smaller than that of hydrogen evolution. Therefore, the tuned d-band center of
+Pt/C (Supplementary Fig. 32), revealing a much more relatively FeCoPdIrPt contributed to its enhanced HER activity. These
+rapid charge transfer between the interface for FeCoPdIrPt@GO results reveal that the FeCoPdIrPt@GO is a highly active and
+and the electrolyte, which boosted the HER activity. In order to stable catalyst, possessing a promising potential application in
+confirm the excellent performance of FeCoPdIrPt@GO toward practical and commercial conditions. The stability test for
+HER, the electrochemical active surface area (ECSA) was also FeCoPdIrPt@GOwasperformedwithchronopotentiometryunder
+analyzed, calculating from C (double-layer capacitance), which the same conditions. As shown in Fig. 7b, FeCoPdIrPt@GO
+dl
+wasascribedtoCV(cyclicvoltammetry)curvestestedinthenon- exhibitedalongstabilityof150hat10mAcm
+−2withoutobvious
+Faradaic region (Supplementary Fig. 33a). The ECSA for change.Simultaneously,FeCoPdIrPt@GOalsocouldrunfor150h
+FeCoPdIrPt@GOreached1462.5mAcm −2(C =58.5mFcm −2), at 100mAcm −2 with a decreasing overpotential of 46mV (Sup-
+dl
+demonstrating that the larger ECSA also contributed to the high plementaryFig.33c).Moreover,themorphologyandcomposition
+HER performance of FeCoPdIrPt@GO. The Tafel slopes of dif- of FeCoPdIrPt on GO maintained well after the HER test (Sup-
+ferent samples composed of various metals were calculated to plementary Fig. 34). The high stability of the quinary HEA-NPs
+investigate the mechanism of HER (Supplementary Fig. 32e). It toward HER was related with entropic stabilization, which leads
+was seen that the Tafel slopes of Ir and CoPd were 117 and thethermodynamicstablestate,thus,preventingadequatedriving
+204mVdec −1, respectively, indicating the limiting step for these forces from degradationof HEA-NPs53.
+samples was the Volmer step (water dissociation)45. In contrast,
+the Tafel slopes of Pt, PtPdIr, and FeCoPtPdIrwere decreased to Discussion
+98,97,and82mVdec
+−1,respectively,indicatingthelimitingsteps
+In summary, we develop a facile synthesis strategy, i.e. fast
+of HER on Pt-based alloys were Heyrovsky-Tafel steps (adsorp- moving bed pyrolysis, for synthesizing the ultrasmall homo-
+tion/desorptionofhydrogenspecies)45.FeCoPtPdIrpossessedthe
+geneous HEA-NPs with up to ten elements (MnCoNi-
+smallest Tafel slope, indicating the fastest kinetic toward HER. CuRhPdSnIrPtAu)highlydispersedonvariousgranularsupports.
+Furthermore,theFaradayefficiencyforFeCoPdIrPt@GOis99.4%,
+Our strategy can ensure the mixed metal precursors to be
+indicating the current mainly came from HER instead of side simultaneously pyrolyzed at high temperatures, which results in
+reactions(Fig.7c).TheexcellentperformanceofFeCoPdIrPt@GO the high supersaturation of monomers and the small size of
+toward HER could be ascribed to the electronic effects of homo- nuclei, producing the highly dispersed HEA-NPs on supports.
+genous alloys, due to the synergic effect of HEAs so called Theparametersandmechanismoffastmovingbedpyrolysisfor
+“cocktail effect”19,46. In addition, multi-element interactions can producing HEA-NPs are carefully investigated. The representa-
+leadtoahugedivergenceofthepropertiesandstatesofthecenter tive FeCoPdIrPt HEA-NPs exhibit the smaller overpotential and
+atoms as compared to atoms in the single-element material26,46. thehighermassactivityofHERinelectrochemicalwatersplitting
+According to the theory of electrochemical HER, the free energy as compared with the commercial Pt/C. The enhanced HER
+for hydrogen species (ΔG H*) on catalysts close to 0V would performance is attributed to the synergic effect of elements in
+optimizetheHERactivityduetothelowerreactionbarrier,which HEA-NPs.Further,weproposeascalablemethodforproduction
+resulted from the balance of adsorption and desorption47. of supported HEA-NPs (Supplementary Fig. 35). The resultant
+Therefore,thecompromisebetweenCo(strongadsorption)andIr HEA-NPs holds a promising future for the applications in cata-
+(weak adsorption) would moderate ΔG H* of FeCoPdIrPt. In lysis, chemical sensing, biology, and energy conversion. Our
+EHR
+.sv
+)V(
+laitnetoP
+c
+0 FeCoPdIrPt
+Pt/C
+-20 CP
+-40
+10 mA cm-2
+-60
+-80
+-100
+-0.4 -0.3 -0.2 -0.1 0.0
+Potential (V) vs. RHE Time (h)
+)2–mc
+Am(
+ytisned
+tnerruC
+300
+250
+200
+150
+100
+50
+0
+0 20 40 60 80 100
+)lomμ(
+H
+fo
+emuloV
+2
+ARTICLE
+NATURECOMMUNICATIONS|https://doi.org/10.1038/s41467-020-15934-1
+Time (min)
+Fig.7ElectrochemicalHERperformanceofsamples.aTheactivitiestowardHERofthepreparedFeCoPdPtIr@GOandPt/C,andpureCPeOurFMBP
+strategyallowslectrodes.Linearsweepvoltammetry(LSV)curveswereconductedtoevaluatetheactivitytowardHERatascanrateof5mVs−1withiR
+correction.ThemassloadingofHEA-NPsonGOwas3wt%.bChronopotentiometrycurveforFeCoPdIrPt@GO.cTheamountofH duringHER.
+2
+8 NATURECOMMUNICATIONS| (2020) 11:2016 |https://doi.org/10.1038/s41467-020-15934-1|www.nature.com/naturecommunications
+
+ARTICLE
+NATURECOMMUNICATIONS|https://doi.org/10.1038/s41467-020-15934-1
+FMBP strategy opens a venue for synthesizing alloys and nano- Simulatingtemperaturevariationofsupports/precursors.Thetimeforpre-
+materials with tunable compositions, which have a wide of cursors@GOreaching923Kor1173KintheFMBPstrategywassimulatedwith
+potential applications. theANSYSFLUENTsoftware.Details:
+Geometry:wall-in(mm)=350,wall-out(mm)=150;wall-heat(mm)=250,
+Innerdiameteroftube(mm)=23;Density(kgm−3):GO=100,zeolite=640,
+AlO =460,Quartz=2650;Meshnumber:1154045.
+Methods 2 Sp 3 ecificheatcapacity(Jkg−1K−1):GO=700,zeolite=950,AlO =840,
+Materialsandreagents.Grapheneoxide(GO,thickness,0.8–1.2nm)waspur- Quartz=800. 2 3
+chasedfromNanjingXFNANOMaterialsTech.Co.,Ltdandemployedasthe Coefficientofthermalconductivity(Wm−1K−1):GO=5300,zeolite=0.15,
+support.1,10-Phenanthroline(C 12 H 8 N 2 ,97.0%),Zeolite(Permutit)andγ-Al 2 O 3 Al 2 O 3 =30,Quartz=2.
+wereallpurchasedfromAladdin.CarbonblackVX72wasboughtfromCabot Boundaryconditions:wall-out=298K,wall-in=298K,wall-heat=923Kor
+Corporation.Acetone,Cobalt(II)chloridehexahydrate(CoCl
+2
+·6H
+2
+O,99.0%), 1173K,velocitymagnitudeofgas(ms−1)=0.004;Timestepsize=0.2s,number
+Copper(II)chloridedihydrate(CuCl
+2
+·2H
+2
+O,99.0%),Manganese(II)chloridetet- oftimesteps=50.
+rahydrate(MnCl·4HO,99.0%),andPalladium(II)chloride(PdCl,99.99%)were
+2 2 2
+receivedfromSinopharmChemicalReagentCo.,Ltd.Rhodium(III)chloridetri-
+Physicalandchemicalcharacterizations
+hydrate(RhCl·3HO,98%),Chloroauricacid(HAuCl),andChloroplatinicacid
+3 2 4 XRDcharacterization.X-raypowderdiffraction(XRD)patternsforHEA-NPswere
+hexahydrate(HPtCl6·6HO,99.99%)werepurchasedfromShanghaiMacklin
+2 2 characterizedbyaRigakuD/Max2400X-raydiffractometerfurnishingwithCuKα
+BiochemicalCo.,Ltd.Nickelchloridehexahydrate(NiCl 2 ·6H 2 O,99.999%),Stannic radiation(λ=1.5406Å)withascanrateof5°min−1.Allthepatternswere
+chloridehydrated(SnCl·5HO,99.995%),andIridiumchloride(IrCl,99.8%)
+werereceivedfromAlad
+4
+din.
+2
+Allthereagentswereusedwithoutfurth
+3
+erpurifica-
+recordedintherangeof30–90°(2-Theta).
+tion.UltrapureMilli-Qwater(18.2MΩcm−1)wasusedtopreparealltheaqueous
+solutionsandwashsamples.EthanolwasreceivedfromShanghaiLingfengche- XPScharacterization.ThepatternsofX-rayphotoelectronspectroscopy(XPS)for
+micalregentCo.,Ltd.Pt/C(20wt%)waspurchasedfromMACKLINBiochemical thesampleswereallperformedonaKratosAxisUltraDLDusingMgKαasthe
+TechnologyCo.,Ltd. excitationsource.
+TEM characterization. The morphology and microstructure of the multimetallic
+Supportingmetalprecursors.Beforethepreparationofthemetalprecursors alloywerecharacterizedbyanatomicresolutionanalyticaltransmissionelectron
+loadingonGO(zeolite,γ-AlO,andcarbonblack),theGOwassuspendedinto microscopy(TEM)(TitanG280–200ChemiSTEM,FEIworkedat200kVand
+2 3
+ultrapureMilli-Qwaterandethylalcoholbyultrasoundfor12hundertherecycled equippedwith4probesuperEDS)featuringwithhigh-resolutionTEM(HRTEM),
+water,maintainingthetemperatureat318K.Then,differentmetalchlorideswere high-angleannulardark-fieldscanningtransmissionelectronmicroscopy
+sequentiallyaddedtotheultrasonicallyGOsolutioncontainingacertainamountof (HAADF-STEM),andcorrespondingenergy-dispersiveX-ray(EDX)spectrometry.
+Pheninorderofthemetalactivity(theorderwaslistedasfollows:MnCl 2 ·4H 2 O> ThesampleswerepreparedviadroppingtheHEA-NPs,whichweredispersedin
+CoCl·6HO>NiCl·6HO>CuCl·2HO>RhCl·3HO>PdCl >SnCl·5HO> ethanol,ontothecarbon-coatedmolybdenumTEMgridsemployingcapillaryat
+2 2 2 2 2 2 3 2 2 4 2
+IrCl >HPtCl·6HO>HAuCl).Eachmetalchloridewasaddedintothemixing leastfivetimes.
+3 2 6 2 4
+solutionatanintervalof15min,avoidingtheactivemetalsaltbeingdirectly
+reduced.Simultaneously,theaqueoussolutionwasevaporatedtodrynessat323K ICP characterization. The HEA-NPs loading was determined with inductively
+intheultrasoundsystem. coupledplasma(ICP)analysiscarriedoutonanAgilentICP-OES730instrument.
+Thequinary(CuSnPdPtAu),octonary(CoNiCuPdSnIrPtAu),anddenary
+(MnCoNiCuRhPdSnIrPtAu)alloywerecharacterized.Firstly,acertainamountof
+TheFMBPstrategyforpreparationofsupportedHEA-NPs.Wesynthesizedthe thesampleswereweighed,then,thesesampleswereaddedtoamixedsolution
+HEA-NPsviaafastmovingbedpyrolysis(FMBP)strategy.Theloadingofthe containing6mLofaquaregiaand1mLofhydrofluoricacid.Thenovenwas
+HEA-NPsonthesupportswas3wt%forpreparationoftheultra-smallHEA-NPs. heatedto458Kandkeepingfor8h.Aftercoolingtoroomtemperature,trans-
+Beforecalcination,thequartzboatcleanedbyultrasonicationinacetoneand ferring,andtestinginaconstantvolumeinstrument.
+ethanolfor15min,respectively.Besidesthat,theprocessedquartzboatwasdried
+invacuumdryingovenfor2hat355K.Firstly,thepreparedmetalprecursors
+TheelectrochemicaltestforHER.TheHERperformanceofthepreparedelectrode
+loadingonGOwasevenlyplacedinaquartzboat,whichwasplacedinaregion
+wasperformedonaBio-LogicVSPpotentiostatwithastandardthree-electrode
+outsideofthefurnaceabout20cm.
+system.Thepreparedquinary(FeCoPdPtIr)HEA-NPssupportedonGO(3wt%)
+Afterwards,avacuumpumpwasusedtoextractthegasfor30mintomakethe wereloadedoncarbonpaper(CP,1×1cm2),whichwasemployedastheworking
+pressuregaugedisplaybelow100Pa.Then,theswitchforArgas(99.999%)is
+electrode.Inordertoprovethequinary(FeCoPdPtIr)alloyexhibitedanexcellent
+turnedon,keepingflowingAr(100sccm)for30mintopurgethetube.Secondly,
+thefurnacerisesto923Kwithaheatingrateof10Kmin−1.Thequartzboat a
+m
+c
+a
+ti
+s
+v
+s
+it
+o
+y
+f
+t
+t
+o
+h
+w
+e
+a
+q
+rd
+uin
+H
+a
+E
+ry
+R,
+(F
+th
+e
+e
+Co
+p
+P
+u
+d
+re
+Pt
+C
+Ir
+P
+@
+w
+G
+a
+O
+s
+)
+al
+H
+so
+EA
+ap
+-N
+pl
+P
+ie
+s
+d
+o
+a
+n
+s
+C
+th
+P
+e
+w
+w
+a
+o
+s
+rk
+1
+in
+m
+g
+g
+e
+c
+l
+m
+ec
+−
+tr
+2
+o
+.
+d
+S
+e
+i
+.
+m
+T
+i
+h
+-
+e
+s
+s
+u
+p
+p
+ee
+p
+d
+or
+o
+t
+f
+in
+2
+g
+0
+t
+c
+h
+m
+es
+s
+a
+−
+m
+1
+p
+fo
+le
+r
+s
+F
+w
+M
+a
+B
+s
+P
+th
+(
+e
+T
+n
+h
+p
+e
+u
+q
+s
+u
+h
+a
+ed
+rtz
+in
+b
+t
+o
+o
+a
+t
+t
+h
+c
+e
+o
+c
+u
+e
+ld
+nt
+r
+e
+e
+r
+a
+o
+ch
+ft
+t
+h
+h
+e
+e
+h
+c
+o
+e
+t
+nt
+z
+e
+o
+r
+n
+o
+e
+f
+w
+th
+it
+e
+h
+h
+a
+ot
+larly,theweightofthecommercialPt/CloadedonCPwas1.2mgcm−2.Besides
+that,thegraphiterodandHg/HgOwereusedasthecounterandreferenceelec-
+zonewithin1s).Afterannealingfor120minat923K,thefurnacewascooled
+trodes,respectively.TheLSVcurvesofthepreparedsampleswereconductedina
+naturallytotheroomtemperature.Finally,theHEA-NPscanbeobtained. 1-MKOHsolution(pH=13.8).Simultaneously,theobtainedpotentialswereall
+Similarly,whenZeoliteandγ-AlO wererespectivelyusedassupports,H
+2 3 2 calculatedwithiRcorrectionandtransformedintoreversiblehydrogenelectrode
+(100sccm)wasemployedasthereductiongasintheFMBPstrategy.
+(RHE).Alltheelectrochemicalimpedancespectroscopy(EIS)testsforthese
+sampleswereconductedattheonsetpotentialfrom0.01Hzto100kHz.The
+stabilityforthepreparedquinary(FeCoPdPtIr)alloywascarriedout1MKOH
+TheFMBPstrategyforpreparationoftheHEA-NPsforEDX.Themethodfor solutionataconstantcurrentdensityof10mAcm−2towardHER.Moreover,the
+preparationofHEA-NPsforelementalmapswassimilartothemethodforpre- commercialPt/C(20%,1mgcm−2)wereusedtowardHERasthecomparedtest.
+parationoftheultrasmallHEA-NPs.Exceptthat,theloadingofalloyonthe Thedoublelayeredcapacitances(C )oftheworkingelectrodeswerecalculatedby
+supportswas10wt%forelementalmaps. CVcurvesfromthepotentials(0.1 d 1 l –0.21VvsRHE)withdifferentscanrates
+(10–30mVs−1).Thecurrentdensitieswerelinearwiththescanrates,andthe
+slopewasC .InordertocalculateECSA,theappliedthespecificcapacitance
+TheFBPstrategyforsynthesizingphase-separatedNiPdPt.Themethodfor (20–60μFcm
+dl−2)wassetas40μFcm−2.
+preparationofphase-separatedHEA-NPswasdifferentwithFMBPandSMBP
+s
+c
+t
+u
+r
+r
+a
+s
+t
+o
+e
+r
+g
+s
+ie
+i
+s
+n
+.T
+po
+h
+r
+e
+ce
+d
+l
+i
+a
+ff
+in
+ere
+b
+n
+o
+c
+a
+e
+tw
+am
+as
+o
+h
+n
+e
+g
+a
+t
+t
+h
+ed
+em
+to
+is
+92
+in
+3K
+th
+(
+e
+~
+a
+3
+n
+1
+n
+m
+ea
+i
+l
+n
+in
+)
+g
+w
+p
+it
+r
+h
+oc
+a
+e
+r
+s
+a
+s.
+te
+T
+o
+h
+f
+e
+2
+m
+0
+e
+K
+ta
+m
+l
+i
+p
+n
+r
+−
+e-
+1
+ECSA¼C
+dl
+=C
+s
+´ASA ð6Þ
+undertheflowingofAr(100sccm)andmaintained120min.Then,thefurnacewas
+alsonaturallycooltoroomtemperature.Afterthat,thephase-separatedHEA-NPs WhereC s isthespecificcapacitanceandASAistheactualsurfaceareaof
+wereobtained. substrates.
+Calculation of Faradaic efficiency. The Faradaic efficiency (FE) for quinary
+TheSMBPstrategyforpreparationofphase-separatedNiPdPt.Themethod (FeCoPdPtIr)alloyin1MKOHsolutionduringHERwasconductedinathree-
+forpreparationofphase-separatedHEA-NPswassimilartothatoftheFMBP.The electrodeconfiguration.TheamountofH duringreactionwasdetectedbyagas
+2
+differencebetweentwomethodsisintheannealingprocess.Themetalprecursors chromatography(GC,9790II,HangzhouGataiScientificInstruments),usingthe
+inquartzboatwaspushedintothefurnacewithaspeedof1cms−1(20s)and thermalconductivitydetector.Beforetest,theelectrolyte(understirring)andcell
+heatedat923Kfor2hundertheflowingofAr(100sccm).Then,thefurnacewas werefirstdegassedtoremoveairwithArgonfor30minatleast.Aconstantcurrent
+alsonaturallycooltoroomtemperature.Afterthat,thephase-separatedHEA-NPs of10mAwasusedforproducinghydrogen.Thegaseoussamplesweredrawnwith
+wereobtained. agastightsyringe,andtheamountofhydrogenwasobtainedtheGCinstrument.
+NATURECOMMUNICATIONS| (2020) 11:2016 |https://doi.org/10.1038/s41467-020-15934-1|www.nature.com/naturecommunications 9
+
+ARTICLE
+NATURECOMMUNICATIONS|https://doi.org/10.1038/s41467-020-15934-1
+Thegasesweredrawnandanalyzedthreetimesandtheaveragevalueofthem 24. Meyer,H.,Meischein,M.&Ludwig,A.Rapidassessmentofsputtered
+wasused. nanoparticleionicliquidcombinations.ACSComb.Sci.20,243–250
+TheFaradaicefficiency(FE)ofHERonelectrodesiscalculatedwiththe (2018).
+equation: 25. Kenel,C.,Casati,N.P.M.&Dunand,D.C.3Dink-extrusionadditive
+V ´2´F´i´t manufacturingofCoCrFeNihigh-entropyalloymicro-lattices.Nat.Commun.
+FEðH ;%Þ¼ H2 ´100% ð7Þ 10,904(2019).
+2 V
+m 26. Glasscott,M.W.etal.Electrosynthesisofhigh-entropymetallicglass
+V H2 isthemeasuredvolumeofH 2 ,FistheFaradayconstant(96,485Cmol−1),i nanoparticlesfordesigner,multi-functionalelectrocatalysis.Nat.Commun.
+isthecurrent,tisthetimeforelectrolysisforproducinghydrogen,andV m isthe 10,2650(2019).
+molarvolumeofthegas. 27. Huo,F.etal.Polymerpenlithography.Science321,1658(2008).
+28. Chen,P.C.etal.Polyelementalnanoparticlelibraries.Science352,1565
+Data availability (2016).
+Allsourcedatasupportingthefindingsofthisstudyareavailablefromthecorresponding 29. Yao,Y.etal.Carbothermalshocksynthesisofhigh-entropy-alloy
+authorsuponreasonablerequest. nanoparticles.Science359,1489(2018).
+30. Villa,A.,Wang,D.,Su,D.S.&Prati,L.Newchallengesingoldcatalysis:
+bimetallicsystems.Catal.Sci.Technol.5,55–68(2015).
+Received: 30August 2019; Accepted: 30March2020; 31. Sun,Y.&Xia,Y.Alloyinganddealloyingprocessesinvolvedinthe
+preparationofmetalnanoshellsthroughagalvanicreplacementreaction.
+NanoLett.3,1569–1572(2003).
+32. LaMer,V.K.&Dinegar,R.H.Theory,productionandmechanismof
+formationofmonodispersedhydrosols.J.Am.Chem.Soc.72,4847–4854
+(1950).
+References 33. Hendricks,M.P.,Campos,M.P.,Cleveland,G.T.,Jen-LaPlante,I.&Owen,
+1. Zhang,Y.etal.Microstructuresandpropertiesofhigh-entropyalloys.Prog.
+J.S.Atunablelibraryofsubstitutedthioureaprecursorstometalsulfide
+Mater.Sci.61,1–93(2014). nanocrystals.Science348,1226–1230(2015).
+2. Ye,Y.F.,Wang,Q.,Lu,J.,Liu,C.T.&Yang,Y.High-entropyalloy:challenges 34. Abe,S.,Čapek,R.K.,DeGeyter,B.&Hens,Z.Tuningthepostfocusedsizeof
+andprospects.Mater.Today19,349–362(2016). colloidalnanocrystalsbythereactionrate:fromtheorytoapplication.ACS
+3. Pickering,E.J.&Jones,N.G.High-entropyalloys:acriticalassessmentof
+Nano6,42–53(2012).
+theirfoundingprinciplesandfutureprospects.Int.Mater.Rev.61,183–202 35. Gilroy,K.D.,Ruditskiy,A.,Peng,H.C.,Qin,D.&Xia,Y.Bimetallic
+(2016). nanocrystals:syntheses,properties,andapplications.Chem.Rev.116,
+4. Yeh,J.W.etal.Nanostructuredhigh-entropyalloyswithmultipleprincipal
+10414–10472(2016).
+elements:novelalloydesignconceptsandoutcomes.Adv.Eng.Mater.6, 36. Polte,J.Fundamentalgrowthprinciplesofcolloidalmetalnanoparticles–a
+299–303(2004). newperspective.CrystEngComm17,6809–6830(2015).
+5. George,E.P.,Raabe,D.&Ritchie,R.O.High-entropyalloys.Nat.Rev.Mater. 37. Pippard,A.B.Thephasetransitioninsuperconductors.Physica22,99–102
+4,515–534(2019). (1956).
+6. Fu,Z.etal.Ahigh-entropyalloywithhierarchicalnanoprecipitatesand 38. Christensen,A.,Stoltze,P.&Norskov,J.K.Sizedependenceofphase
+ultrahighstrength.Sci.Adv.4,eaat8712(2018).
+separationinsmallbimetallicclusters.J.Phys.Condens.Matter7,1047–1057
+7. Gludovatz,B.etal.Afracture-resistanthigh-entropyalloyforcryogenic (1995).
+applications.Science345,1153(2014). 39. Peng,Z.&Yang,H.Designerplatinumnanoparticles:controlofshape,
+8. Zou,Y.,Wheeler,J.M.,Ma,H.,Okle,P.&Spolenak,R.Nanocrystallinehigh- compositioninalloy,nanostructureandelectrocatalyticproperty.NanoToday
+entropyalloys:anewparadigminhigh-temperaturestrengthandstability.
+4,143–164(2009).
+NanoLett.17,1569–1574(2017). 40. Bøjesen,E.D.&Iversen,B.B.Thechemistryofnucleation.CrystEngComm
+9. Liang,Y.J.etal.High-contentductilecoherentnanoprecipitatesachieve
+18,8332–8353(2016).
+ultrastronghigh-entropyalloys.Nat.Commun.9,4063(2018). 41. Becker,R.&Döring,W.Kinetischebehandlungderkeimbildungin
+10. Li,P.,Wang,A.&Liu,C.T.Aductilehighentropyalloywithattractive
+übersättigtendämpfen.Ann.derPhys.416,719–752(1935).
+magneticproperties.J.AlloysCompd.694,55–60(2017). 42. Pound,G.M.&Mer,V.K.L.Kineticsofcrystallinenucleusformationin
+11. White,R.J.,Luque,R.,Budarin,V.L.,Clark,J.H.&Macquarrie,D.J.
+supercooledliquidtin.J.Am.Chem.Soc.74,2323–2332(1952).
+Supportedmetalnanoparticlesonporousmaterials.Methodsand 43. Luckhaus,S.&Modica,L.Thegibbs-thompsonrelationwithinthegradient
+applications.Chem.Soc.Rev.38,481–494(2009). theoryofphasetransitions.Arch.Ration.Mech.Anal.107,71–83
+12. Hansen,P.L.etal.Atom-resolvedimagingofdynamicshapechangesin (1989).
+supportedcoppernanocrystals.Science295,2053(2002). 44. Shevchenko,E.V.etal.Studyofnucleationandgrowthinthe
+13. Wong,A.,Liu,Q.,Griffin,S.,Nicholls,A.&Regalbuto,J.R.Synthesisof organometallicsynthesisofmagneticalloynanocrystals:theroleof
+ultrasmall,homogeneouslyalloyed,bimetallicnanoparticlesonsilicasupports. nucleationrateinsizecontrolofCoPt 3 nanocrystals.J.Am.Chem.Soc.125,
+Science358,1427(2017).
+9090–9101(2003).
+14. Ding,K.etal.Ageneralsynthesisapproachforsupportedbimetallic 45. Durst,J.etal.Newinsightsintotheelectrochemicalhydrogenoxidationand
+nanoparticlesviasurfaceinorganometallicchemistry.Science362,560(2018).
+evolutionreactionmechanism.EnergyEnviron.Sci.7,2255–2260(2014).
+15. Rekha,M.Y.,Mallik,N.&Srivastava,C.Firstreportonhighentropyalloy 46. Yusenko,K.V.etal.Firsthexagonalclosepackedhigh-entropyalloywith
+nanoparticledecoratedgraphene.Sci.Rep.8,8737(2018). outstandingstabilityunderextremeconditionsandelectrocatalyticactivityfor
+16. Yang,T.etal.Multicomponentintermetallicnanoparticlesandsuperb
+methanoloxidation.Scr.Mater.138,22–27(2017).
+mechanicalbehaviorsofcomplexalloys.Science362,933(2018). 47. Sheng,W.,Myint,M.,Chen,J.G.&Yan,Y.Correlatingthehydrogen
+17. Lei,Z.etal.Enhancedstrengthandductilityinahigh-entropyalloyvia evolutionreactionactivityinalkalineelectrolyteswiththehydrogen
+orderedoxygencomplexes.Nature563,546–550(2018). bindingenergyonmonometallicsurfaces.EnergyEnviron.Sci.6,
+18. Braic,V.etal.Characterizationofmulti-principal-element(TiZrNbHfTa)N
+1509–1512(2013).
+and(TiZrNbHfTa)Ccoatingsforbiomedicalapplications.J.Mech.Behav. 48. Hwang,J.etal.Perovskitesincatalysisandelectrocatalysis.Science358,
+Biomed.Mater.10,197–205(2012). 751–756(2017).
+19. Löffler,T.etal.Discoveryofamultinarynoblemetal–freeoxygenreduction 49. Tian,X.etal.EngineeringbunchedPt-Nialloynanocagesforefficientoxygen
+catalyst.Adv.EnergyMater.8,1802269(2018).
+reductioninpracticalfuelcells.Science366,850–856(2019).
+20. Liu,M.etal.Entropy-maximizedsynthesisofmultimetallicnanoparticle 50. Pan,Y.etal.Electronicstructureandd-bandcentercontrolengineeringover
+catalystsviaaultrasonication-assistedwetchemistrymethodunderambient
+M-dopedCoP(M=Ni,Mn,Fe)hollowpolyhedronframesforboosting
+conditions.Adv.Mater.Interfaces6,1900015(2019).
+hydrogenproduction.NanoEnergy56,411–419(2019).
+21. Batchelor,T.A.A.etal.High-entropyalloysasadiscoveryplatformfor 51. Du,N.etal.TrimetallictriStarnanostructures:tuningelectronicandsurface
+electrocatalysis.Joule3,834–845(2019). structuresforenhancedelectrocatalytichydrogenevolution.Adv.Mater.28,
+22. Zhang,H.,Pan,Y.&He,Y.-Z.SynthesisandcharacterizationofFeCoNiCrCu
+2077–2084(2016).
+high-entropyalloycoatingbylasercladding.Mater.Des.32,1910–1915 52. Zhong,X.etal.PtPdalloyembeddedinnitrogen-richgraphenenanopores:
+(2011). high-performancebifunctionalelectrocatalystsforhydrogenevolutionand
+23. Jo,Y.H.etal.Cryogenicstrengthimprovementbyutilizingroom-
+oxygenreduction.Carbon114,740–748(2017).
+temperaturedeformationtwinninginapartiallyrecrystallizedVCrMnFeCoNi 53. Löffler,T.etal.Towardaparadigmshiftinelectrocatalysisusingcomplex
+high-entropyalloy.Nat.Commun.8,15719(2017).
+solidsolutionnanoparticles.ACSEnergyLett.4,1206–1214(2019).
+10 NATURECOMMUNICATIONS| (2020) 11:2016 |https://doi.org/10.1038/s41467-020-15934-1|www.nature.com/naturecommunications
+
+ARTICLE
+NATURECOMMUNICATIONS|https://doi.org/10.1038/s41467-020-15934-1
+Acknowledgements CorrespondenceandrequestsformaterialsshouldbeaddressedtoX.Z.orJ.L.
+ThisworkwassupportedbytheNaturalScienceFoundationofZhejiangProvince(No.
+LR17B060003)andtheNaturalScienceFoundationofChina(ProjectNo.21776248and PeerreviewinformationNatureCommunicationsthankstheanonymousreviewersfor
+21676246).R.Shahbazian-YassaracknowledgesthefinancialsupportfromNSFAward theircontributiontothepeerreviewofthiswork.
+no.DMR-1809439.WorkatArgonneNationalLaboratorywassupportedbytheU.S.
+DepartmentofEnergy(DOE),OfficeofEnergyEfficiencyandRenewableEnergy,Vehicle Reprintsandpermissioninformationisavailableathttp://www.nature.com/reprints
+TechnologiesOffice.ArgonneNationalLaboratoryisoperatedforDOEOfficeofScience
+byUChicagoArgonne,LLC,undercontractnumberDE-AC02-06CH11357.Thisstudy
+Publisher’snoteSpringerNatureremainsneutralwithregardtojurisdictionalclaimsin
+wasalsosupportedbytheFundamentalResearchFundsfortheCentralUniversities.
+publishedmapsandinstitutionalaffiliations.
+Author contributions
+Open Access This article is licensed under a Creative Commons
+S.Y.H.andS.J.G.madethesamecontributionstothiswork.X.W.Z.conceivedtheidea,
+Attribution 4.0 International License, which permits use, sharing,
+wrotethemanuscript,andguidedthewholeteam.S.J.G.synthesizedtheHEA-NPs.S.Y.H.
+andS.J.G.characterizedtheHEA-NPs.S.Y.H.wrotethemanuscriptandanalyzedthe adaptation,distributionandreproductioninanymediumorformat,aslongasyougive
+data.Z.N.H.andR.S.-Y.characterizedpartoftheHEA-NPs.S.H.conductedasimulation appropriatecredittotheoriginalauthor(s)andthesource,providealinktotheCreative
+theoreticalcalculationonthemasstransferprocessoftheexperiment.Y.F.Y.,R.S.-Y., Commonslicense,andindicateifchangesweremade.Theimagesorotherthirdparty
+L.C.L.,andJ.L.helpedrevisethemanuscript.Alltheauthorscommentedtheresultsand
+materialinthisarticleareincludedinthearticle’sCreativeCommonslicense,unless
+approvedthefinalversionofthemanuscript. indicatedotherwiseinacreditlinetothematerial.Ifmaterialisnotincludedinthe
+article’sCreativeCommonslicenseandyourintendeduseisnotpermittedbystatutory
+regulationorexceedsthepermitteduse,youwillneedtoobtainpermissiondirectlyfrom
+Competing interests
+thecopyrightholder.Toviewacopyofthislicense,visithttp://creativecommons.org/
+Theauthorsdeclarenocompetinginterests. licenses/by/4.0/.
+Additional information
+ThisisaU.S.governmentworkandnotundercopyrightprotectionintheU.S.;foreign
+Supplementaryinformationisavailableforthispaperathttps://doi.org/10.1038/s41467-
+copyrightprotectionmayapply2020
+020-15934-1.
+NATURECOMMUNICATIONS| (2020) 11:2016 |https://doi.org/10.1038/s41467-020-15934-1|www.nature.com/naturecommunications 11
+

@@ -1,0 +1,486 @@
+JThermSprayTech(2024)33:951–963
+https://doi.org/10.1007/s11666-024-01718-2
+ORIGINAL RESEARCH ARTICLE
+Preparation and Electrocatalytic Hydrogen Evolution
+Performance of FeCoNiCrMo High-Entropy Alloy Porous
+Electrode with Different Pore-Forming Agent Content
+Ma Jingwen1 • Wang Xin1 • Xing Bowei1 • Yu Huishu1 • Zuo Xiaojiao1 •
+Zhang Nannan1
+Submitted:9October2023/inrevisedform:8December2023/Accepted:2January2024/Publishedonline:1February2024
+(cid:2)ASMInternational2024
+Abstract The electrocatalytic hydrogen evolution perfor- catalyticelectrodewithahighperformance.Thisstudywill
+mance of FeCoNiCrMo high-entropy alloy (HEA) coating provide a new idea for organizing and designing catalytic
+with different porosity prepared by plasma spray was electrodes.
+investigated in this study. The feedstock powder is pre-
+paredbyatomizationmethodandmechanicallymixedwith Keywords HER performance (cid:2) high-entropy alloy
+an additional content of Al powder. The plasma spray coatings (cid:2) plasma spraying (cid:2) porous electrodes
+prepares the mixture coatings on the Cu substrate. The
+porous electrocatalytic electrodes are obtained by the
+dealloyingmethod.TheporousHEAelectrodespresentthe Introduction
+major FCC phase, the phase FeCrNiMo, and the phase
+Al O ,whereintheAl O formedduetotheresidualofthe Hydrogen from electrolyzed water is considered to be the
+2 3 2 3
+Alelement.TheoxidesonthesurfacecomposedofFe O , best way to the future ‘‘hydrogen economy’’ due to its
+2 3
+FeO, Co O , CoO, NiO, Ni O , Cr O , MoO , and MoO . carbon-neutral or even carbon-negative friendly charac-
+2 3 2 3 2 3 2 3
+Adding Al content increases the porosity, approaching teristics, which can be combined with unstable electricity
+13.19%, 29.68%, and 47.34%. The pores are fine and dis- from renewable energy sources to produce hydrogen for
+persed in the 30 vol.% Al HEA coating, expected to pre- useasagreenenergysourceandtoincreasetheutilization
+sent high performance. The electrochemical tests revealed ofrenewableenergysourcesandtheirshareofthetotal.On
+that the 30 vol.% Al HEA coating presents the lowest the other hand, the current state-of-the-art high-perfor-
+overpotential, - 0.174 V, and the lowest charge transfer mance electrocatalysts are based on precious metals com-
+resistance, 61.91X, corresponding to the highest HER bined with carbon carriers, and their high cost and
+electrocatalytic activity. In addition, after 1000 and 2000 complicated processing methods are the main factors hin-
+cyclesoftheCVtest,theoverpotentialisstill- 0.181and dering their large-scaleengineering applications.Thus,the
+- 0.19 V, respectively, which indicates the porous HEA design of alloy compositions and microstructure modula-
+coating exhibits outstanding stability. To sum up, the tion to enhance the overall catalytic efficiency and the
+FeCoNiCrMo HEA system shows a potential for electro- rapidandlarge-scalepreparationofcatalyticelectrodesfor
+catalyzingHER.Meanwhile,theplasmasprayfollowedby efficient, economical, and sustainable hydrogen energy
+dealloying is a feasible method to prepare the porous preparation are the main problems facing the research at
+this stage.
+High-entropy alloys (HEAs) (Ref 1, 2) break the tradi-
+& WangXin tional alloy’s design concept, which consists of five or
+xwang@sut.edu.cn
+more metal atoms arranged close to each other to produce
+& ZhangNannan four significant effects. Compared with conventional sin-
+zhangnn@sut.edu.cn
+gle-major element alloys, doping multiple metals can cre-
+1 DepartmentofMaterialScienceandEngineering,Shenyang atemoreactiveadsorptioncenterswithdifferentadsorption
+UniversityofTechnology,Shenyang,China energies and realize the synergistic regulation of adsorbed
+123
+
+952 JThermSprayTech(2024)33:951–963
+species by multiple adsorption centers during the reaction established in a wide range of sustainable spraying, and
+process. High-entropy alloys have a broad composition other advantages, and at once to meet the low-cost can be
+design, more manageable properties, more suitable prepa- normalized processing needs.
+rationtechniques,andbecomeanewcatalyticalloysystem Under the premise of a constant intrinsic activity of the
+with excellent potential for application due to their multi- catalyst, increasing the specific surface area of the moti-
+componentproperties,theaccompanyinghigh-entropyand vationcaneffectivelyboostthecatalyticactivity.Thehigh
+‘‘cocktail’’ effects (Ref 3). Wu et al. (Ref 4) investigated specific surface area allows for more active sites per unit
+the hydrogen precipitation reaction of IrPdPtRhRu high- volume of catalyst, thus increasing the reaction rate. Li
+entropy alloy in both acid and alkali environments. The et al. (Ref 20)prepared high-entropy alloy precursorswith
+currentdensitiesinacidandalkalienvironmentscanreach multi-scalephase-separatedorganizationalstructuresbased
+1.6 and 15.2 times the commercial Pt catalysts at 50 mV on properties of the strong alloying effect of high-entropy
+overpotential.Meanwhile,thetransitionfrequencies(TOF) alloys, among others, Utilizing non-precious-metal transi-
+can get 9.5 and 7.8 times the commercial Pt catalysts, tion group elements, such as Fe, Co, Ni, and Cu. The
+respectively. On this basis, transition metal doping can be dealloying method modulates the high-entropy alloy’s
+realized to maintain the catalytic activity of electrolytic porous structure, effectively expanding its specific surface
+water while reducing the amount of precious metals and area. Owing to the strong alloying effect of high-entropy
+lowering the cost. Zhang et al. (Ref 5) reported that the multi-majorelementsandtheinternalhighspecificsurface
+overpotential of hydrogen precipitation reaction of CoCr- area, matrix transfer efficiency, and structural stability
+FeNiMo high-entropy alloy in both acid and alkali envi- provided by the porous structure, the high-entropy alloy
+ronments was 107 and 172 mV when the current density shows excellent electrocatalytic hydrogen precipitation
+was100 mA/cm2,respectively,whichwerelowerthanthat performance and stability under high current density with
+of platinum sheet electrode. Thus, high-entropy alloys can an overpotential of 31.7 mV and a Tafel slope as low as
+be used as non-precious metal electrocatalysts with high 42.2 mV/dec at a current density of 10 mA/cm2. Never-
+catalytic activity, stability, and low-cost. theless, the impact of the porogenic content and distribu-
+Loading catalysts as coatings on conductive substrates tion on the pore structure of the coating surface and the
+as catalytic electrodes for charge transfer and catalytic electrocatalytic hydrogen separation performance of the
+conversioncanreduceproductioncosts.Currenttechniques prepared porous electrodes needs to be investigated
+for preparing coatings (Ref 6) include laser cladding (Ref urgently.
+7, 8), arc cladding (Ref 9, 10), plasma cladding (Ref In this paper, the microstructure of the catalyst surface
+11, 12), thermal spraying (Ref 13, 14), magnetron sput- was controlled through pore formation, the microstructure
+tering (Ref 15, 16), electrochemical deposition (Ref 17), regulation by utilizing the strong alloying effect of high-
+etc.Thermalsprayinghasthemeritsoflowproductioncost entropyalloyswithmultipleprincipalelementsisachieved
+and high efficiency as a broadly applied material surface by altering the content of the pore-forming agent based on
+modification technology. Schiller et al. (Ref 18) success- previous studies to realize the regulation of microstructure
+fully prepared Ni/Co O coating on nickel substrate by of the coating surface and the enhancement of hydrogen
+3 4
+vacuum plasma spraying. They carried out long-term tests precipitationperformanceofcatalyticelectrodes.Giventhe
+on the prepared electrodes in 20 wt.% KOH electrolyte, outstanding electrocatalytic hydrogen precipitation perfor-
+which showed that the HER overpotential of the prepared mance of FeCoNiCrMo five-membered high-entropy alloy
+electrodes was only 100 mV (vs. RHE), which is nearly andthebenefitsoflow-costandsustainablesprayingovera
+300 mV lower than that of the unsprayed electrodes, and vast area of the atmospheric plasma spraying process.
+the area of prepared electrodes was as high as 600 cm2, Adopting the transition metals Fe, Co, Ni, Cr, and Mo as
+which is enough to meet the industrial applications. Dis- thehigh-entropyalloycomponentswithequalmolarratios,
+tinct from the vacuum plasma spraying harsh process adjusting the percentage content of the pore-making agent
+conditions, atmospheric plasma spraying (Ref 19) heat torealizetheregulationofthemicroscopicporousstructure
+source temperature of up to 10,000 (cid:3)C or more, minimal through the atmospheric plasma spraying process, and
+thermal impact on the substrate, easy to control, it characterizingthemicroscopicmorphology,physicalphase
+123
+
+JThermSprayTech(2024)33:951–963 953
+Table1 Plasmasprayingprocessparameters
+Powder Voltage, Current, Powderfeedingrate, Sprayingdistance, Protectivegas, Plasmaarcmovementspeed,
+V A g/min mm psi mm/min
+FeCoNiCrMo?Al 40 600 20 30 54 2000
+and electrochemical properties of the prepared electrodes. used to prepare a mixture of powder sprayed on the
+The porous electrode organization and electrocatalytic sandblasted copper substrate, spraying parameters as
+hydrogen separation properties of FeCoNiCrMo high-en- shown in Table 1, to ensure the mechanical bonding
+tropy alloys with different pore-forming agent contents strength between the coating and the substrate and made
+were investigated. Optimization of the performance of the thickness of the coating as possible to 500 lm. The
+catalytic electrodes for water electrolysis achieved and specimen were wire cut into small pieces of 5 mm 9 5
+provides a reference for the realization of high-entropy mm 9 3 mm, and washed with deionized water, dried.
+alloy coating with the advantages of low-cost and high- Dealloying method was adopted, the samples in the
+efficiency preparation in the scale industrial application of sprayed state were chemically activated by placed them in
+hydrogen precipitation in electrolytic water. a mixture of 30 wt.% KOH and 10 wt.% K-Na-tartrate,
+heatedinawaterbathat70 (cid:3)Cfor24 h.Thesampleswere
+then chemically activated in a mixture of 30 wt.% KOH
+Experimental and 10 wt%. K-Na-tartrate. Subsequently, inlaid the
+sprayed and activated specimens, sanded step by step with
+Preparation of spray powder SiC sandpaper to 5000# until the surface was smooth and
+bright, polished to a mirror finish, washed and blown dry
+The atomization method was adopted, using high-pressure with anhydrous ethanol.
+airflowtocrushthemetalliquidstreamintoliquiddroplets.
+After condensation, we could get the uniform organization Microstructural Characterization
+ofsphericalFeCoNiCrMoalloypowder,withparticlesizes
+between 15 and 43 lm. The sprayed powders were mixed Thesurfacemorphologyandcompositionoftheelectrodes
+with Al power configured by mechanical mixing method were analyzed by field emission scanning electron micro-
+according to the volume ratios FeCoNiCrMo ? 10 vol.% scopy (FESEM, GeminiSEM 300, Germany) with an
+Al (sample A), FeCoNiCrMo ? 30 vol.% Al (sample B), attached energy spectrometer (EDS). The phases structure
+andFeCoNiCrMo ? 50 vol.%Al(sampleC),respectively. ofHEAcoatingswasanalyzedbyX-raydiffraction(XRD,
+Added about the same mass of SiO balls with a diameter Shimadzu 7000, Japan), using Cu Ka radiation, the scan-
+2
+of about 3-4 mm and about 20 ml of anhydrous ethanol to ning angle was 20(cid:3)-100(cid:3) and the scanning speed was 4 (cid:3)/
+the mixed powder, and wet grind the powder for 6 h with min. The elemental valence states of the catalytic elec-
+alcoholusedQM-3SP4PlanetaryBallMilltomakethetwo trodes was analyzed by X-ray photoelectron spectroscopy
+kinds of powders mixed evenly. A vacuum drying oven (XPS,ESCALAB250)toinferthesubstancecomposition,
+wasusedfordrying,andfinally,thepowderwasdispersed inwhichthesourcewasAlk X-rays(hv = 1486.6 eV)and
+a
+through a 300 mesh sieve and physical shaking to ensure the samples were analyzed at a depth of about 2 nm,
+the fluidity of the powder. default orbitals as elemental orbitals for routine fine spec-
+tral testing and the resulting data were calibrated using a
+Spray Coating Preparation standard peak (C 1s 248.8 eV).
+The Cu matrix was ultrasonically cleaned for 10 min to Electrochemical Testing
+remove surface impurities and roughened by blasting the
+surfacewith120#(0.125 mm)browncorundumgritat0.2 The activated samples were cleaned with deionized water,
+MPa pressure (Ref 21). The plasma spraying process was connectedwithcopperwires,andencapsulatedwithepoxy
+123
+
+954 JThermSprayTech(2024)33:951–963
+resin with cold-mounting. Afterward, they were immersed porous structure. Figure 1(g)–(i) shows the surface mor-
+in KOH (pH = 14) solution for 1-2 h for the electrode phologyofthesampleafteractivation.Withtheincreasein
+system to reach a steady state. A classical three-electrode Al doping, the pore structure formed after activation is
+system was used, with the prepared electrode as the gradually apparent. When added 10 vol.% Al, pores are
+working electrode, graphite electrode as the counter elec- small and dispersed after activation. When doping
+trode, and Hg/HgO as the reference electrode (E versus 30 vol.% Al, the pores formed after activation are small,
+RHE = E versus Hg/HgO ? 0.098 ? 0.059pH), and a dense, and dispersed. The number of pore structures
+1 mol/L KOH solution was used as the electrolyte to test obtained is more incredible than sample A. When added
+theelectrochemicalperformancesoftheelectrodes usinga 50 vol.% Al, the Al powder agglomerated during the
+Shanghai Chenhua 660E model electrochemical worksta- plasma spraying process, and there are concentrated large
+tionat 25 (cid:3)C.Firstly,we tested theopen-circuit voltage of holes on the surface of sample C. Compared to sample B,
+the electrode when the open-circuit voltage stabilized and sample C instead reduces the specific surface area of the
+continued for 10 min. Subsequently, impedance tests were electrode surface in contact with the electrolyte.
+performed to analyze the electrode kinetic process by To characterize the number and distribution pattern of
+electrochemical impedance spectroscopy (EIS) with an pores on the surface of the coating after activation more
+amplitude of 10 mV and a scanning frequency of 10 kHz- accurately, the porosity of the coating surface was calcu-
+0.01 Hz. The electrochemical active area (ECSA) of the lated by image analysis. Figure 2 shows the porosity cal-
+porous electrode was reflected by the cyclic voltammetry culation diagram. Due to the formation of pores in the
+(CV) method with different scanning rates (10, 20, 30, 50, plasmasprayingprocess,theporosityofsamplesA,B,and
+70, 100 mV/s) in the potential range of the non-Faraday C before activation is 5.749, 4.758, and 5.964%. After
+regionandthemeasuredcurrent-voltagevaluewasusedto activation, the porosity of the samples is 13.193, 29.682,
+calculate the double layer capacitance of the electrode. and47.340%.Theincreaseintheporositycausedbypore-
+Linear Sweep Voltammetry (LSV) tests were performed forming agents is 7.444, 24.924, and 41.376%, respec-
+within - 1.7to - 0.5 V versus RHE at a scan rate of tively. It showed that with the rise of the content of the
+0.5 mV/s to calculate overpotentials and Tafel slopes. The pore-forming agent, the coating porosity also increases
+stability of the prepared porous electrodes was evaluated gradually. The increase in the number of pore structures
+by potential cycling in the range of - 1.7 to - 0.5 V can effectively improve the specific surface area of the
+versusRHEfor1000and2000CVcycles.Theabovetests high-entropy alloy coating, increase the reaction contact
+were repeated three times and took the average value to surface between the catalytic electrode and electrolyte,
+ensure the repeatability and accuracy of the tests. enhance the mass-transfer efficiency, expose more active
+surface area, and improve the catalytic activity of the
+electrocatalyst.
+Results and Discussion Table 2 shows the results of EDS composition analysis
+oflocalizedareasonthesurfaceofthesamplesbeforeand
+Microscopic Morphology and Composition after activation. Figure 3 shows the sweeping diagrams of
+of Coatings the prepared specimens A, B, and C after activation. The
+resultsshowthatthesurfaceofthesamplescontainsseven
+The cross sectional histomorphometry of the samples after elementsofFe,Co,Ni,Cr,Mo,Al,andObeforeandafter
+sprayingandactivationisshowninFig. 1(a)–(f),withlocal activation.Afteractivation,manyAlelementsareremoved
+enlargements in the upper right corner. As shown in the from the samples, forming a pore structure. The elements
+figure, the thickness of the coatings prepared by plasma reactwithOtoformoxides,increasingtheOcontentofthe
+sprayingis430-600 lm,andthecoatingsaremechanically coating during plasma spraying and activation.
+well bonded tothe substrate with atypical APSmultilayer
+layered structure. The activated samples also formed Phase of Coatings
+irregular pore structures in addition to the porosity gener-
+ated during the plasma spraying process due to the trans- To analyze the phase of coatings, XRD analysis of speci-
+formationofAltoAl(OH) ,thenremovedfromthecoating mens A, B, and C, respectively. The diffraction spectral
+3
+during the activation process, which gives the coating a linesandthecorrespondingcrystalplanesofthediffraction
+123
+
+JThermSprayTech(2024)33:951–963 955
+Fig.1 Crosssectionandsurfacemorphologyofthesampleaftersprayingandactivation
+peaks are shown in Fig. 4. At the bottom of the figure are and C roughly correspond to the structure of these phases.
+the standard powder diffraction spectra of the FCC solid ThefigureshowsthatthethreesamplesareFCCphase,and
+solution phase (pink line), FeCrNiMo (green line) and itsdiffractionpeakintensityisthelargest,indicatingthatit
+Al O (orange line) for the vertical line segments, respec- accounts for a large proportion of the samples, in addition
+2 3
+tively.ItshowsthatthediffractionspectraofsamplesA,B, to the emergence of the second phase, detected as Cr-Fe-
+123
+
+956 JThermSprayTech(2024)33:951–963
+Fig.2 Porositycalculationdiagram
+Table2 Compositionanalysisofspraystateandactivatedsampleby XPS analyzed the surface of HEA coatings to investi-
+surfacescan(at.%) gate the chemical composition and elemental valence of
+the coatings. As shown in Fig. 5. Carbon contamination
+Al Fe Co Ni Cr Mo O
+calibrated all elements in the figure’s binding energies at
+SampleA 284.8 eV (C 1s) before peak fitting.
+Afterspraying 11.5 14.4 15.7 14.8 12.3 28.7 2.6 Figure 5(a)–(g) shows the characteristic narrow spec-
+Afteractivation 0.4 17.7 17.6 12.6 18.5 26.4 6.8 trum of element Fe 2p, Co 2p, Ni 2p, Cr 2p, Mo 3d, Al
+SampleB 2p and O 1s. As shown in the picture, The Fe 2p in the
+3/2
+Afterspraying 24.0 11.2 12.4 11.0 12.2 27.2 2.0 coating includes metallic Fe, Fe2?, and Fe3?, correspond-
+Afteractivation 0.8 16.0 17.4 16.2 16.2 27.5 5.9 ingtopeakbindingenergiesof706.9 eV,709.2 eV(FeO),
+SampleC and 711.0 eV (Fe O ), respectively (Ref 23). Co 2p
+2 3 3/2
+Afterspraying 49.5 8.4 7.8 7.6 8.8 15.4 2.5 includes metallic Co, Co2?, and Co3? with corresponding
+Afteractivation 0.7 15.9 16.4 15.7 15.9 28.8 6.6 peak binding energies of 777.9 eV, 780.68 eV (CoO,
+Co(OH) ) and 779.48 eV (Co O ), respectively (Ref 24).
+2 2 3
+Ni3? dominates with Ni2? with a peak binding energy of
+855.7 eV(Ni O )andalsoincludesNi2?withpeakbinding
+2 3
+Ni-Mo (Ref 22). Combined with the EDS detection, we energiesof852.8 eV,854 eV(NiO,Ni(OH) 2 )andNiinthe
+know that a small amount of Al remains on the surface of metallic state (852.3 eV) (Ref 25-29). Cr 2p 3/2 includes
+the three samples after activation. Thus, the diffraction Cr3? and metallic Cr, with corresponding peak binding
+peaks of Al 2 O 3 are also detected. In addition to the three energies of 576.7 eV (Cr 2 O 3 ) and 573.8 eV, respectively
+substances labeled in the figure, there are still some peaks (Ref 30).Mo 3d 5/2 includesmonomeric Mo, Mo6?, Mo5?,
+with lower peaks in the XRD pattern, which are presumed and Mo4?, with corresponding peak binding energies of
+to be the diffraction peaks of other metal oxides. 277.8 eV, 232.3 eV (MoO 3 ), 230.9 eV (MoCl 5 ) and
+123
+
+JThermSprayTech(2024)33:951–963 957
+Fig.3 EDSdistributionofFe,Co,Ni,Cr,Mo,AlandOaftersampleactivation
+In summary, the coating surface mainly exists in the
+form of metal monomers and metal oxides, and some
+elements react with OH- in the solution to form a small
+amount of hydroxide in the activation process. In contrast,
+the added pore-forming agent Al, due to the mixing of
+other metal elements, remains in the coating pores in a
+small amount, as Al O exists, and the combination of
+2 3
+activation of the Al elements after the EDS content shows
+thattheresidualAlelementsdon’thaveasubstantialeffect
+on the electrochemical properties of the HEA coating.
+Electrochemical Hydrogenation Performance
+The samples were tested at potentials ranging from - 1.7
+to - 0.5 V versus RHE. Convert current density (j) to
+potential (E) data into logarithm of current density and
+Fig.4 XRDpatternofactivatedsample
+overpotential(V),andthelinearpartoftheresultingcurves
+was fitted to obtain the Tafel slopes by utilizing the Tafel
+229.1 eV (MoO ) (Ref 31-34). The signals of Al elements
+2
+equations (Ref 36). The current-potential curve and Tafel
+are weak, and Al 2p is mainly in the form of Al3? with a
+slopeoftheactivatedsampleareshowninFig. 6(a).From
+peak binding energy of 74.8 eV (Al O ) (Ref 35). O 1s
+2 3
+the current-potential curves, it can be seen that at a
+characteristicspectraincludetheO2-andOH–peaks,with
+potentialof- 0.2 V,thecurrentdensitiesofsamplesA,B,
+peak binding energies of 530.9 eV and 531.9 eV,
+and C were - 6 mA cm-2, - 12 mA cm-2,
+respectively.
+123
+
+958 JThermSprayTech(2024)33:951–963
+Fig.5 XPSpatternofactivated
+sample
+123
+
+JThermSprayTech(2024)33:951–963 959
+Fig.6 Current-potentialcurveandTafelslopediagramofactivatedsample
+- 8 mA cm-2, respectively, sample B showed the highest Comparing samples A and C, sample B has the highest
+current density at the same potential. When the current HER catalytic activity.
+density is 10 mA cm-2, the overpotential of sample B is A long-time cyclic voltammetry test can judge the sta-
+- 0.174 V, which is smaller than the overpotential of bility of the electrodes. Figure 8 shows the current–po-
+sample A: - 0.221 V and sample C: - 0.209 V, which tentialcurvesofsamplesA,B,andC1000and2000cycles
+shows the best HER catalytic activity. As shown in beforeandaftertheCVtest.AscanbeseenfromFig. 8(a),
+Fig. 6(b), sample B presented the smallest Tafel slope of (b) and (c), the overpotentials of the three samples were
+101.40 mV dec-1, the smallest Tafel slope reflects the slightly increased compared to the initial state after CV
+faster reaction kinetics and better catalytic activity of the cycling, and the current densities are slightly, but not sig-
+sample. While the Tafel slopes of samples A and C were nificantly decreased. As can be seen from Fig. 8(d), after
+135.17 and 120.71 mV dec-1, respectively. The values of 1000 CV cycles, The electrode activities of samples A, B,
+Tafel slopes were correlated with the reaction rate-deter- and C are 97.29, 95.98, and 97.13% of the original ones,
+mining step, and the samples’ Tafel slopes respectively. The electrode activities of samples A, B, and
+all[100 mV dec-1, which followed the Volmer–Hey- C are reduced to 89.55, 91.4, and 93.3% after the 2000
+rovskymechanismandtheHERratecontrolstepisVolmer cyclingtest.Thelong-time cycle testshowed theexcellent
+step (Ref 37, 38). stability and activity of the catalyst.
+The electrochemically active area (ECSA) allows a Figure 9showstheACimpedancecurveandequivalent
+comparisonofthenumberofcatalyticsitesonthesurface, fitting circuit diagram of FeCoNiCrMo under open-circuit
+and the capacitance of the double layer (C ) has a linear potential measuring, with the Nyquist diagram in
+dl
+correlationwiththeECSA,whichcanbeusedtoassessthe Fig. 9(a) and the Bode diagram in Fig. 9(b). The Nyquist
+surface state of the sample under test. Figure 7 shows the plots for all three samples consisted of two circular arcs
+CV plots and the corresponding linear plot of the current withthecenterofthecirclebelowthex-axis,whichusually
+density and scan rate of samples A, B, and C at different means that charge transfer occurs at inhomogeneous
+scan rates, and the linear fitting shows that the bilayer interfaces (Ref 39). The Bode plot shows that the peaks of
+capacitances of specimens A, B, and C are 1.51 mF/cm2, thecoatingsarebroaderandfinddoublepeaksinsampleB.
+4.9 mF/cm2,and1.92 mF/cm2,respectively.SampleBhas Therefore, an R(Q(R(QR)))-type system with two-time
+the highest C for the bilayer, indicating that sample B constants is defined (Ref 40). Thus, an equivalent circuit
+dl
+possesses the largest active specific surface area and can diagram with two parts connected in parallel is created in
+expose more active sites during the HER reaction. the upper right corner of Fig. 9(a) is created. Where Rs
+123
+
+960 JThermSprayTech(2024)33:951–963
+Fig.7 ECSAcurvesandcurrentdensity-scanratecurvesofsamplesA,BandC
+represents the ohmic impedance consisting of the connec- reflect the charge transfer process betweenthe coatingand
+tion resistor, electrode resistor, and electrolyte resistor; in the substrate, which is internal resistance.
+order to compensate for the effects due to system inho- InFig. 9(a),thedotplotsaretheexperimentaldata,and
+mogeneities, the capacitors are replaced by constant phase the line plots are the equivalent circuit fitting results.
+angleelements(CPE1,CPE2)(Ref41).TheXRDandXPS AComparisonshowsthatthefitcurvesofeachsamplecan
+analysisshowsthatavarietyofphysicalphasesexistonthe overlap with the experimental results well, indicating that
+surfaceofthecoating,suchasmetaloxidefilm,etc.CPE1 the established charge transfer process modelcan simulate
+and the charge transfer resistance R1 are parallel to reflect the hydrogen precipitation process of electrolytic water
+the charge transfer process between the electrode surface electrolysis at the prepared electrodes very well. From
+and the electrolyte, the charge transfer resistance Rct. Fig. 9(a) and the fitting results, the charge transfer resis-
+CPE2 and the charge transfer resistance R2 are parallel to tances (R1) of the sample A, B, and C are 84549, 61.91,
+123
+
+JThermSprayTech(2024)33:951–963 961
+Fig.8 Thecurvesandthepercentageofelectrocatalytichydrogenevolutionactivityretentionoftheactivatedsamplesbeforeandafter1000and
+2000CVcycles
+and 8132 X, respectively, which means that the prepared formed on the surface of sample B is the least dense and
+electrode has the lowest charge transfer resistance and the has the fastest charge transfer rate.
+highestcatalyticreactionratewhenthecontentofthepore-
+forming agent is 30 vol.%. Figure 9(b) shows that the
+maximum phase angles corresponding to specimens A, C, Conclusions
+and B are 61.2(cid:3), 54.76(cid:3), and 42.15(cid:3), and the frequencies
+corresponding to their ultimate phase angles are gradually (1) The HEA coatings of FeCoNiCrMo with 10, 30 and
+shifted to higher frequencies. The closer the maximum 50 vol.% pore-making agents were prepared by the
+phase angle is to 90(cid:3), the more complete the passivation plasmasprayingprocess.Thethicknesswasbetween
+film is, and the smaller it is, the poorer the film’s integrity 430 and 600 lm, and the coatings were well
+is.Themaximumphaseanglecorrespondstothefrequency mechanically bonded to the substrate with a typical
+shift to high frequencies, indicating an accelerated elec- lamellar stacking morphology. The porous structure
+trochemical reaction (Ref 42). Therefore, the oxide film was obtained after Al removal by chemical
+123
+
+962 JThermSprayTech(2024)33:951–963
+Fig.9 NyquistdiagramandBodediagramofactivatedsample
+activation with a mixture of 30 wt.% KOH and (LJKMZ20220463), Natural Science Foundation of Liaoning Pro-
+10 wt.% K-Na-tartrate heated in a 70 (cid:3)C water bath vince(2022-MS-272).
+for 24 h.
+(2) After activation, the porous coatings had FCC
+References
+structure, together with slightly oxidized surface,
+containing metal monomers and metal oxides such
+1. W.R.Zhang,P.Liaw,andY.Zhang,ScienceandTechnologyin
+as Fe 2 O 3 , FeO, Co 2 O 3 , CoO, NiO, Ni 2 O 3 , Cr 2 O 3 , High-EntropyAlloys,Sci.ChinaMater.,2018,61(1),p2-22.
+MoO , MoO , etc. A small amount of Al residue 2. B. Cantor, I.T.H. Chang, P. Knight, and A.J.B. Vincent,
+2 3
+during the activation process results in the presence Microstructural Development in Equiatomic Multicomponent
+Alloys,Mater.Sci.Eng.A,2004,375-377(1),p213-218.
+of Al O on the surface of the coating. The porosity
+2 3 3. B.W.Xing,N.N.Zhang,J.W.Ma,X.J.Zuo,H.S.Yu,X.R.Huo,
+of the coating gradually increased with the increase and X. Zhang, Research Progress of High Entropy Alloy Elec-
+inthepore-formingagentcontent,which was13.19, trolysisofWaterElectrode,Surf.Technol.,2023,11,p1-19.
+29.68, and 47.34%, respectively. The pore structure 4. D.S. Wu, K. Kusada, T. Yamamoto, T. Takaaki, M. Syo, G.
+Ibrahima, S. Okkyun, K. Jaemyung, H. Satoshi, S. Osami, K.
+obtained from the activation when the pore-forming
+Shogo, K. Yoshiki, and K. Hiroshi, On the Electronic Structure
+agent is added at 30 vol.% is more than that and Hydrogen Evolution Reaction Activity of Platinum Group
+10 vol.%. When added to 50 vol.%, the pore was Metal-Based High-Entropy-Alloy Nanoparticles, Chem. Sci.,
+aggregated, which reduces the area of the surface of 2020,11,p12731-12736.
+5. G.L.Zhang,K.S.Ming,J.L.Kang,Q.Huang,Z.Zhang,andX.
+the coating in contact with the electrolyte instead.
+Zheng,HighEntropyAlloyasaHighlyActiveandStableElec-
+(3) Electrochemical tests showed that the HER rate trocatalystforHydrogenEvolutionReaction,Electrochim.Acta,
+controlstepsforthethreesampleswereVolmer.The 2018,279(7),p16-20.
+electrode prepared at 30 vol.% of pore-forming 6. S.H.He,F.Cheng,S.Q.Xia,W.Liu,B.Guo,J.Y.Guo,andH.Y.
+Shen, Preparation and Properties of High Entropy Alloys, Hot
+agent had the lowest overpotential (- 0.174 V),
+Work.Technol.,2022,51(18),p22-29.
+Tafel slope (101.4 mV/dec), charge transfer resis- 7. B.Q. Jin, N.N. Zhang, H.S. Yu, D.X. Hao, and Y.L. Ma, Alx-
+tance (61.91 X), and the most significant bilayer CoCrFeNiSi High Entropy Alloy Coatings with High Micro-
+capacitance (4.9 mF/cm2), with the highest number hardness and Improved Wear Resistance, Surf. Coat. Technol.,
+2020,402(4),p126328.
+of active sites per unit area, which showed the best
+8. J. Liu, H. Hao, P.J. Chen, and J.B. Hao, Microstructural Char-
+electrocatalytic hydrogen precipitation performance. acterization and Corrosion Behaviour of AlCoCrFeNiTi High-
+x
+The porous electrode had good stability and elec- Entropy Alloy Coatings Fabricated by Laser Cladding, Surf.
+trocatalytic activity, as demonstrated through 1000 Coat.Technol.,2019,361,p63-74.
+9. W.Y. Huo, H.F. Shi, and J.Y. Zhang, Microstructure and Prop-
+and 2000 CV cycles.
+ertiesofArcCladdingTiCrCuFeNiHighEntropyAlloyCoating,
+Mater.Mech.Eng.,2014,38(3),p61-64.
+10. C.M.Wang,Y.Yu,J.X.Yu,Y.Zhang,F.C.Wang,andH.D.Li,
+Acknowledgments ThisworkwassupportedbyScientificResearch
+Effect of the Macro-segregation on Corrosion Behavior of
+Funding Project of the Education Department of Liaoning Province
+CrMnFeCoNi Coating Prepared by Arc Cladding, J. Alloy.
+Compd.,2020,846,156263.
+123
+
+JThermSprayTech(2024)33:951–963 963
+11. X.T.Wang, J.F.Sun,Y.Q.Meng,andH.W.Liu, ResearchPro- 29. A.N. Mansour, and C.A. Melendres, Characterization of A-
+gressinPreparationofHighEntropyAlloyCoatingsbyPlasma Ni(OH) byXPS,Surf.Sci.Spectra,1994,3(3),p255-262.
+2
+CladdingTechnology,HotWork.Technol.,2021,50(24),p1-6. 30. S.H.Xuan,Y.X.J.Wang,K.C.F.Leung,andK.Y.Shu,Synthesis
+12. Z.H.Wang,H.Wang,D.Y.He,L.Cui,J.M.Jiang,Z.Zhou,and of Fe O @polyaniline Core/Shell Microspheres with well-de-
+3 4
+Q.Y. Zhao, Study on Microstructure of High Entropy CoCrCu- finedBlackberry-likeMorphology,J.Phys.Chem.C,2008,112,
+FeNiMn Alloy by Plasma Cladding, Rare Met. Mater. Eng., p18804-18809.
+2015,44(3),p644-648. 31. Z.Y. Jin, Study on electrocatalytic performance of nano-porous
+13. L.J.Chen,K.Bobzin,Z.Zhou,L.D.Zhao,O¨.Mehmet,K.Tim, high-entropy alloys with low noble metal content, J. Harbin
+Z. Tan, and D.Y. He, Wear Behavior of HVOF-Sprayed Al InstituteTechnol.(2020).
+0.6-
+TiCrFeCoNiHighEntropyAlloyCoatingsatDifferentTemper- 32. H.L. Xiang, P.P. Guo, and D. Liu, Microstructure and Antibac-
+atures,Surf.Coat.Technol.,2019,358,p215-220. terial Properties of Antibacterial Duplex Stainless Steel Con-
+14. X. Zhang, N.N. Zhang, B.W. Xing, C.M. Deng, and C. Wang, tainingAg,ActaMetall.Sin.,2014,50(10),p1210-1216.
+OxidationBehaviorofAlCoCrFeNiSixHighEntropyAlloyBond 33. H.Y.Mi,J.Xin,Q.F.Zheng,L.M.Fang,H.X.Huang,L.S.Turng,
+Coatings Prepared by Atmospheric Plasma Spray, Surf. Coat. and S.Q. Gong, High-Performance Flexible Triboelectric Nano-
+Technol.,2023,462,129489. generatorBasedonPorousAerogelsandElectrospunNanofibers
+15. X.Liu,Y.L.Wang,Z.Yan,andJ.L.Wang,ResearchProgresson forEnergyHarvestingandSensitiveSelf-PoweredSensing,Nano
+MagnetronSputteringPreparationandPropertiesofHighEntropy Energy,2018,48,p327-336.
+AlloyCoatings,HotWork.Technol.,2022,51(6),p17-25. 34. X.H. Liu, B. Wei, and R. Su, Mo-Doped Cobalt Phosphide
+16. X.G.Feng,G.Tang,M.Sun,X.X.Ma,L.Q.Wang,andY.Ken, Nanosheets for Efficient Hydrogen Generation in an Alkaline
+Structure and Properties of Multi-targets Magnetron Sputtered Media,EnergyTechnol.,2019,7,p1900021.
+ZrNbTaTiW Multielements Alloy Thin Flms, Surf. Coat. Tech- 35. Y.Z. Shi, Study on Microstructure and Corrosion Resistance of
+nol.,2013,228,p424-427. Al CoCrFeNi SeriesHighEntropyAlloy,J.Univ.Sci.Technol.
+x
+17. H.Li, H. Sun,C.Wang, B. Wei,C. Yao, Y.Tong,andH.Ma, B.(2018).
+ControllableElectrochemicalSynthesisandMagneticBehaviors 36. A.P.Murthy,J.Theerthagiri,andJ.Madhavan,InsightsonTafel
+ofMg-Mn-Fe-Co-Ni-GdalloyFlms,J.Alloy.Compd.,2014,598, Constant in the Analysis of Hydrogen Evolution Reaction, J.
+p161-165. Phys.Chem.C,2018,122(42),p23943-23949.
+18. G.Schiller,R.Henne,andV.Borck,VacuumPlasmaSprayingof 37. Z.L. Zhao, H.X. Wu, H.L. He, X.L. Xu, and Y.D. Jin, Self-
+High-PerformanceElectrodesforAlkalineWaterElectrolysis,J. standingNon-nobleMetal(Ni–Fe)OxideNanotubeArrayAnode
+Therm.SprayTechnnol.,1995,4(2),p185-194. Catalysts with Synergistic Reactivity for High-Performance
+19. W.Xin,Y.J.Wang,S.C.Wei,B.Wang,Y.Liang,Y.Yuan,and WaterOxidation,J.Mater.Chem.A,2015,3(13),p7179-7186.
+B.S. Xu, Research Status and Prospect of High Entropy Alloy 38. R.J. Wei, M. Fang, G.F. Dong, and J.C. Ho, Is Platinum a
+CoatingsPreparedbyThermalSpraying,J.Univ.Sci.Technol.B, SuitableCounterElectrodeMaterialforElectrochemicalHydro-
+2021,43(2),p170-178. genEvolutionReaction,Sci.Bull.,2017,62,p971-973.
+20. R. Li, X.J. Liu, W.H. Liu, Z.B. Li, K.C. Chan, and Z.P. Lu, 39. P.Bommersbach,C.Alemany-Dumont,J.P.Millet,andB.Nor-
+DesignofHierarchicalPorosityViaManipulatingChemicaland mand, Formation and Behaviour Study of an Environment-
+Microstructural Complexities in High-Entropy Alloys for Effi- FriendlyCorrosionInhibitorbyElectrochemical Methods,Elec-
+cientWaterElectrolysis,Adv.Sci.,2022,12(9),p2105808. trochim.Acta,2005,51(6),p1076-1084.
+21. Y.M.Wang,Q.H.Tang,Y.C.Xia,D.Q.Chen,X.B.Liu,andL.F. 40. G.Jin,Z.B.Cai,Y.J.Guan,X.F.Cui,Z.Liu,Y.Li,M.L.Dong,
+Liu, High Temperature Friction and Wear Properties of Super- and D. Zhang, High Temperature Wear Performance of Laser-
+sonic Flame Sprayed TiB -50Ni Composite Coating, Surf. Cladded FeNiCoAlCu Highentropy Alloy Coating, Appl. Surf.
+2
+Technol.,2020,49(10),p88-89. Sci.,2018,445,p113-122.
+22. C.D. Dai, Research on Corrosion Behavior and Mechanism of 41. Z.H.Jin,H.H.Ge,W.M.Lin,Y.W.Zong,S.J.Liu,andJ.M.Shi,
+FeCoCrNiMo HighEntropyAlloy,Univ.Sci.Technol.B.,2021. CorrosionBehaviourof316LStainlessSteelandAnti-corrosion
+x
+23. T.Yamashit,andP.Hayes,AnalysisofXPSSpectraofFe2?and MaterialsinaHighAcidifiedChlorideSolution,Appl.Surf.Sci.,
+Fe3? Ions in Oxide Materials, Appl. Surf. Sci., 2008, 254(8), 2014,322,p47-56.
+p2441-2449. 42. Z.B. Wang, H.X. Hu, C.B. Liu, and Y.Z. Zheng, The Effect of
+24. L.Wen,Q.Li,B.X.Yang,Z.N.Yang,andJ.R.Wang,Oxidation FluorideIonsontheCorrosionBehaviorofPureTitaniumin0.05
+Behavior of FeCoNiCrMo High-Entropy Coatings by Atmo- MSulfuricAcid,Electrochim.Acta,2014,135,p526-535.
+spheric Spraying on Zircaloy-4 in steam at 1100(cid:3)C, Crystals,
+2022,12(11),p1529.
+Publisher’s Note Springer Nature remains neutral with regard to
+25. R.P.Furstenau,G.Mcdougall,andM.A.Langell,InitialStagesof
+jurisdictionalclaimsinpublishedmapsandinstitutionalaffiliations.
+HydrogenReductionofNiO(100),Surf.Sci.,1985,150(1),p55-79.
+26. G.Ertl,R.Hierl,H.Kno¨zinger,N.Thiele,andH.P.Urbach,XPS
+StudyofCopperAluminateCatalysts,Appl.Surf.Sci.,1980,5(1),
+SpringerNatureoritslicensor(e.g.asocietyorotherpartner)holds
+p49-64.
+exclusiverightstothisarticleunderapublishingagreementwiththe
+27. C.L.Bianchi,M.G.Cattania,andP.Villa,XPSCharacterization
+author(s) or other rightsholder(s); author self-archiving of the
+of Ni and Mo Oxides Before and After ‘‘In Situ’’ Treatments,
+acceptedmanuscriptversionofthisarticleissolelygovernedbythe
+Appl.Surf.Sci.,1993,70-71,p211-216.
+termsofsuchpublishingagreementandapplicablelaw.
+28. K.S.Kim,andN.Winograd,X-RayPhotoelectronSpectroscopic
+Studies of Nickel-Oxygen Surfaces Using Oxygen and Argon
+Ion-Bombardment,Surf.Sci.,1974,43(2),p625-643.
+123
+

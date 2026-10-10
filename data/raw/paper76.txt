@@ -1,0 +1,347 @@
+Chemical
+Science
+EDGE ARTICLE
+On the electronic structure and hydrogen
+evolution reaction activity of platinum group
+Citethis:Chem.Sci.,2020,11,12731
+†
+metal-based high-entropy-alloy nanoparticles
+Allpublicationchargesforthisarticle
+havebeenpaidforbytheRoyalSociety
+ofChemistry DongshuangWu, *aKoheiKusada, *aTomokazuYamamoto,bTakaakiToriyama,c
+Syo Matsumura,bc Ibrahima Gueye,d Okkyun Seo,d Jaemyung Kim,d Satoshi Hiroi,d
+Osami Sakata, de Shogo Kawaguchi,f Yoshiki Kubotag and Hiroshi Kitagawa *a
+Wereportthesynthesisofhigh-entropy-alloy(HEA)nanoparticles(NPs)consistingoffiveplatinumgroup
+metals (Ru, Rh, Pd, Ir and Pt) through a facile one-pot polyol process. We investigated the electronic
+structureofHEANPsusinghardX-rayphotoelectronspectroscopy,whichisthefirstdirectobservation
+of the electronic structure of HEA NPs. Significantly, the HEA NPs possessed a broad valence band
+spectrumwithoutanyobviouspeaks.ThisimpliesthattheHEANPshaverandomatomicconfigurations
+leading to a variety of local electronic structures. We examined the hydrogen evolution reaction (HER)
+and observed a remarkably high HER activity on HEA NPs. At an overpotential of 25 mV, the turnover
+Received26thApril2020
+frequenciesofHEANPswere9.5and7.8timeshigherthanthoseofacommercialPtcatalystin0.05M
+Accepted5thAugust2020
+H SO and1.0MKOHelectrolytes,respectively.Moreover,theHEANPsshowedalmostnolossduring
+2 4
+DOI:10.1039/d0sc02351e a cycling test and were much more stable than the commercial Pt catalyst. Our findings on HEA NPs
+rsc.li/chemical-science mayprovideanewparadigmforthedesignofcatalysts.
+Introduction strengthandtohavehighthermal/chemicalstabilitiestowards
+oxidation and corrosion.4,5 Furthermore, HEAs can provide
+High-entropyalloys (HEAs)aresolidsolutionsconsistingofat unique surfaces and electronic structures compared to
+least ve elements in an approximately equal atomic ratio conventionalmonometals and binary alloys. Evenconsidering
+(recently extended to 5 to 35 at%).1 Yeh and colleagues have the nearest neighbouring atomic arrangement of one atom in
+reported that when the number of constituents is more than fcc(111)ofaquinaryalloy,therearemorethan105(59/3>105,
+ve,thecontributionofcongurationalentropy(DS$1.6R)to where5meansvekindsofelements,9isninenearestneigh-
+thetotalfreeGibbsenergy(DG¼DH(cid:2)TDS)wouldovercome bouring atoms, and 3 means three-fold symmetry of the
+thecontributionofmixingenthalpy,resultingintheformation
+fcc(111))ways,thatis,allatomsareindifferentcongurations
+of solid-solution rather than the intermetallic phase.1–3 Some andhavedistinctlocalelectronicstructures.
+HEAs are reported to show a balance of high hardness and Itiswellknownthatthecatalyticpropertiesofmonometals
+and conventional binary alloys can be understood and even
+predictedintermsoftheelectronicstructuresoftheprincipal
+aDivision of Chemistry, Graduate School of Science, Kyoto University,
+elements both experimentally and theoretically (i.e. d-band
+Kitashirakawa-Oiwakecho, Sakyo-ku, Kyoto 606-8502, Japan. E-mail:
+dongshuangwu@kuchem.kyoto-u.ac.jp; kusada@kuchem.kyoto-u.ac.jp; kitagawa@ theory).6–8 However, due to the heterogeneity of the surface
+kuchem.kyoto-u.ac.jp atoms in HEAs, the catalytic properties of HEAs might be not
+bDepartmentofAppliedQuantumPhysicsandNuclearEngineering,KyushuUniversity, limited by one principle element anymore and the d-band
+Motooka744,Nishi-ku,Fukuoka819-0395,Japan center theory might not be able to describe the activity of
+cThe Ultramicroscopy Research Center, Kyushu University, Motooka 744, Nishi-ku, HEAs.9 The neighbouring active sites with different local elec-
+Fukuoka819-0395,Japan
+tronicstructuresinHEAsalsoprovidethepossibilityfortuning
+dSynchrotronX-rayGroup,SynchrotronX-rayStationatSPring-8,NationalInstitute
+theselectivelyincomplexreactions.Forexample,Yaoetal.re-
+forMaterialsScience,Kouto,Sayo-cho,Sayo-gun,Hyogo679-5148,Japan
+eCenterforSynchrotronRadiationResearch,JapanSynchrotronRadiationResearch ported that PdPtRhRuCe HEA nanoparticles (NPs) showed
+Institute,670-5198,Japan almost 100% selectivity towards ammonia synthesis while the
+fResearch & Utilization Division, Japan Synchrotron Radiation Research Institute phase-separated alloy only had less than 20% selectivity.10 We
+(JASRI),SPring-8,Kouto,Sayo-cho,Sayo-gun,Hyogo679-5198,Japan havefoundthatIrOsPtPdRhRucouldcatalyseethanoloxidation
+gDepartment of Physical Science, Graduate School of Science, Osaka Prefecture
+witha12-electronprocess,althoughthesinglemetalsgenerally
+University,Sakai,Osaka599-8531,Japan
+prompt a four-electron process at most.11 L¨offler et al. found
+†Electronic supplementary information (ESI) available. See DOI:
+that Cr–Mn–Fe–Co–Ni complex solid solution showed at least
+10.1039/d0sc02351e
+Thisjournalis©TheRoyalSocietyofChemistry2020 Chem.Sci.,2020,11,12731–12736 | 12731
+
+ChemicalScience EdgeArticle
+comparablecatalyticactivitytoPtinoxygenreductionreaction to remove the excess PVP. Finally, the black powder was
+(ORR), in despite that none of its constituents had good ORR collectedbycentrifugationandvacuumdryingunderRT.
+activity.12InadditiontoHEA,otheralternativedenominations TheIrPdPtRhRuHEANPswererstcharacterizedbytrans-
+have also been discussed elsewhere, such as complex solid mission electron microscopy (TEM) and high-angle annular
+solutions,12–14 multiprincipal element alloys,15 polyelemental dark-eld scanning TEM (HAADF-STEM) coupled with energy-
+particles,16,17 multi-elemental alloy,18 and multimetallic clus- dispersive X-ray spectroscopy (EDX). The bright-eld TEM
+ters/particles.19 These kinds of alloys may present a class of image (Fig. S1a†) shows that the IrPdPtRhRu HEA NPs had
+promising ideal catalysts having desired activity, stability and ameandiameterof5.5(cid:4)1.2nm.Theatomic-resolutionSTEM
+selectivity and thus make a paradigm shi in catalysis image of an IrPdPtRhRu HEA NP displayed two sets of
+research.20 These alloy catalysts with appealing performances perpendicular lattice fringes with an equal planar distance of
+havebeenreportedrecently,10–12,17–19,21–24yet,theinterpretation 0.194 nm that can be assigned as the {200} facets of a face-
+ontheirpropertiesisstillchallenging.Quiterecently,Rossmeisl centredcubic(fcc)structure(Fig.S2†).
+andco-authorshavemadeagreatstepintheoreticallypredict- ThestructureofIrPdPtRhRuHEANPswasfurtherrevealed
+ingORR25andCO andCOreduction26propertiesonHEAsby bysynchrotronpowderX-raydiffraction(XRD)atthebeamline
+2
+combingdensityfunctionaltheorycalculationsandsupervised BL02B2,SPring-8.30TheRietveldrenementoftheXRDpattern
+machinelearning.Chuhmannandcolleaguesproposedthatthe revealed that IrPdPtRhRu HEA NPs had an fcc structure with
+multiple wave-shaped segments of the current–potential ORR alatticeparameterofa¼3.856(1)A ˚ andcrystalsizeof4.7nm
+curves can be used to interpret the adsorption energy distri- (Fig.S3†),whichareconsistentwiththeSTEMresults.
+bution pattern.13 However, to our knowledge, experimental Asreferencesforcatalyticmeasurements,monometallicRu,
+studiesontherelationshipbetweentheelectronicstructureand Rh,Pd,Ir,andPtNPswerealsopreparedusingapolyolmethod.
+thecatalyticpropertyofHEAhavenotbeenconducted. ThediametersofthesemonometallicNPswereintherangeof
+Todate,thereportsonHEANPsarestillscarcecomparedto 2–6nm(Fig.S1andS2†).
+HEA bulk, and almost all the syntheses require special tech- To investigate the local structure and compositions in the
+niques such as carbothermal shock,10,18,19,21 spark ablation,27 obtained IrPdPtRhRu HEA NPs, we performed electron
+sputtering,12andmechanicalballmilling.28Here,weshowthe microscopy, X-ray uorescence (XRF), and X-ray photoelectron
+chemical synthesis of single-phase HEA NPs consisting of Ru, spectroscopy (XPS). Fig. 1 and S4† (a higher resolution) show
+Rh,Pd,Ir,andPtinanearlyequalmolarratiobyasimpleone- theHAADF-STEMimagesandthecorrespondingEDXmapsof
+pot polyolmethod. We investigated theelectronic structure of Ru, Rh, Pd, Ir and Pt. These maps directly show that each
+HEA NPs using hard X-ray photoelectron spectroscopy elementishomogeneouslydistributedinthewholeNPs,thatis,
+(HAXPES),whichistherstdirectobservationoftheelectronic IrPdPtRhRusolid-solutionalloyswereobtained.XRFmeasure-
+structureofHEANPs.Theobservedvalenceband(VB)spectrum ment revealed that the atomic percentage of each element in
+are broad without any peaks which implies that the HEA NPs IrPdPtRhRuHEANPswasapproximately20%(Fig.2candTable
+haverandomatomiccongurationsleadingtoavarietyoflocal S1†).TheelectronicstateswereinvestigatedbyXPS.Asshownin
+electronic structures. The hydrogen evolution reaction (HER) Fig.2a,inthebindingenergyrangeof280–350eV,thecore-level
+waschosenasatargetreactionbecauseofthewell-established spectraofRu3d,Rh3d,andPt3dwereobservedasthemain
+relationshipsbetweenthecatalyticpropertyandtheelectronic peakswithhighintensities(bluedashedlines),andPt4dandIr
+structures of mono(binary) metal catalysts.6,29 The obtained 4d spectra also appeared with low intensities (black dashed
+IrPdPtRhRuHEANPsgreatlyoutperformedacommercialPt/C lines). In the binding energy range of 60–80 eV, the
+in both acidic and alkaline solutions, with 9.5 and 7.8 times
+higher turnover frequency (TOF) values at an overpotential of
+25mV,respectively.PlottingtheHERactivitiesasafunctionof
+the d-band centre showed that the HEA NPs with a superior
+HER activitydid not follow conventional d-band centre theory
+as expected. In addition, we note that IrPdPtRhRu HEA NPs
+showedmuchimprovedcatalyticstabilitythanthecommercial
+Pt/Cduringcyclingtesting.
+Results and discussion
+SynthesisandcharacterizationofIrPdPtRhRuHEANPs
+IrPdPtRhRuHEANPswereobtained bya facileone-pot polyol
+process.Thevemetalprecursors(inanequimolarratio)were
+dissolved in H O, and the aqueous solution was added to the
+2
+preheatedtriethyleneglycolsolutioncontainingpoly(N-vinyl-2-
+pyrrolidone)(PVP;K30,MWz40000)asaprotectingagentat
+Fig.1 (a) HAADF-STEM imageofIrPdPtRhRu HEA NPsandits cor-
+230 (cid:3)C. The resulting black solution was cooled to RT and respondingEDXmapsshowing(b)Ru-L,(c)Rh-L,(d)Pd-L,(c)Ir-L,and
+washedseveraltimeswithamixtureofethanol,water,andether (f)Pt-L.
+12732 | Chem.Sci.,2020,11,12731–12736 Thisjournalis©TheRoyalSocietyofChemistry2020
+
+EdgeArticle ChemicalScience
+hybridizationoftheorbitalsoftheconstituentsinIrPdPtRhRu
+HEA NPs. In other words, the difference is derived from the
+formation of solid-solution NPs, which is consistent with the
+STEM analyses. We further compared the VB spectrum of
+IrPdPtRhRu HEA NPs with the monometallic NPs in detail.
+AlmostallthemonometallicNPsshowedobviouspeaksinthe
+VBspectra(Fig.3bandS6†).Incontrast,IrPdPtRhRuHEANPs
+showed a broad VB spectrum without any obvious peaks. We
+calculated andsummarized the d-bandcentre ofeachcatalyst
+from the VB spectrum (Table S2†). There was some deviation
+betweenourresultsandthereportedtheoreticalvalues,6which
+mayoriginatefromthedifferencebetweenNPsandsimpleslab
+models.Thed-bandcentreofIrPdPtRhRuHEANPswaslocated
+betweenthoseofPtandIrNPs.
+CatalyticperformanceofHER
+Fig.2 Core-levelXPSspectrashowingtheexistenceoffiveelements To investigate the HER performance of IrPdPtRhRu HEA NPs,
+ofIrPdPtRhRuHEANPsintheregionsof(a)277–350eVand(b)55– werstloadedtheas-preparedNPsontoactivecarbon(Vulcan
+88 eV. The dashed lines assign the peaks. (c) Metallic compositions XC-72R) with a weight percentage of metal at around 20%. A
+obtainedbyXRFandXPS. catalyst ink with a metal concentration of 0.5 mg mL (cid:2)1 was
+prepared by mixing the carbon-loaded NPs with isopropanol,
+water, and Naon. Then, 0.01 mL of the ink was dropped on
+characteristic doublets from Ir 4f and Pt 4f are seen (Fig. 2b, a rotating disk electrode and dried at RT. For comparison,
+bluedashedlines).TheXPSspectrumofeachelementwastted
+commercial Pt/C or monometallic Ru, Rh, Pd, Ir, or Pt NPs
+withonecomponenthavingbindingenergysimilartoitsbulk electrodeswerepreparedbythesamemethod.
+metal31 (Fig. S5†), which suggests that the elements in the TheHERactivitiesofIrPdPtRhRuHEANPswereinvestigated
+IrPdPtRhRu HEA NPs are in a metallic state. Furthermore, inbothacidicandalkalineelectrolytes.Thepolarizationcurves
+considering the source energy of Mg Ka, the XPS has a probe
+depthofapproximately1nm.Therefore,the surfacecomposi-
+tion of NPs can be investigated by integrating their corre-
+sponding XPS peaks. As shown in Fig. 2c and Table S1,† the
+surface compositions obtained by XPS are similar to the bulk
+compositionsgivenbyXRF.
+The catalytic properties are closely related to the valence
+band (VB) structure of the catalysts; therefore, we performed
+HAXPEStorevealtheVBfeaturesofHEANPsforthersttime.
+We compared the experimental VB spectrum of IrPdPtRhRu
+HEANPswiththelinearcombinationoftheVBspectraofthe
+monometalNPs,whichcorrespondstoaphysicalmixtureofthe
+veelements.AsshowninFig.3a,obviousdifferencesbetween
+thesespectraareseeninthecyanregions,whichsuggeststhe
+Fig. 3 (a) Comparison of the experimental VB spectrum of
+IrPdPtRhRuHEANPsandthelinearcombinationofVBspectraofthe Fig. 4 (a and d) Polarization curves, (b and e) geometric current
+monometal NPs. The difference of the spectra is shown as cyan densitiesatanoverpotentialof50mV,and(candf)TOFofIrPdPtRhRu
+regions.(b)ComparisonoftheVBspectraofIrPdPtRhRuHEANPsand HEA NPs and other monometallic catalysts in (a–c) 0.05 M H SO
+2 4
+PtNPs. solutionand(d–f)1.0MKOHsolution.
+Thisjournalis©TheRoyalSocietyofChemistry2020 Chem.Sci.,2020,11,12731–12736 | 12733
+
+ChemicalScience EdgeArticle
+obtained at a scan rate of 5 mV s
+(cid:2)1
+under a rotation speed of currentdensity(Fig.5a).Incontrast,therewasaseriouslossin
+1600rpmin0.05MH SO and1.0MKOHareshowninFig.4a theactivityofcommercialPt/C,thatis,alossof35.5mVinthe
+2 4
+andc,respectively.Thecurrentdensitiesarenormalizedbythe overpotentialat10mAcm
+(cid:2)2(Fig.5b).Thisresultshowsthe
+geo
+geometric electrode area (0.196 cm2, marked as j ). At an superior stability of IrPdPtRhRu HEA NPs compared with the
+geo
+overpotentialof50mV,thej ofIrPdPtRhRuHEANPsis3.4 commercialPt/Ccatalyst.Wesupposethatthelongcyclinglife
+geo
+(4.3),2.5(8.4),4.8(321.5),1.5(18.3),and1.6(15.2)timeshigher of IrPdPtRhRu HEA NPs might be derived from the high
+thanthoseofthemonometallicRu,Rh,Pd,Ir,andPtcatalysts corrosionresistanceofHEAalloys.4
+inacidic(alkaline)solution,respectively(Fig.4bande).Onan It is widely accepted that the intrinsic HER activities of
+overpotential basis, IrPdPtRhRu HEA NPs require much lower catalysts (such as TOF or exchange current) are mainly
+overpotentials(33.0/17.0mV)toachievea10mAcm
+(cid:2)2than
+determined bythe adsorption energy of the intermediate H
+geo
+the monometallic Ru (77.1/60.4 mV), Rh (58.6/94.6 mV), Pd species.6,29 For the transition single metals, the intrinsic
+(78.4/245.0 mV), Ir (47.8/166.0 mV), and Pt (48.9/77.4 mV) HER activity increases the bonding between the metal and
+catalystsinacidic/alkalineelectrolytes(Fig.S7†). thesurface Hspeciesbecomesweaker.29To understandthe
+TOFisanotherimportantgureofmeritusedtorevealthe very high HER performance of IrPdPtRhRu HEA NPs, the
+intrinsicelectrocatalyticactivity.TheTOFvaluesforeachactive TOF values at 50 mV were plotted as a function of experi-
+site of these catalysts were based on the evaluation of the mentald-bandcentre(setFermilevelatzerobindingenergy)
+numbers of active sites using a Cu underpotential deposition because the metal–H binding of monometallic and most
+method that could be adapted for all platinum group metals binary catalysts can be inferred from the d-band centre.11
+(Fig. S8 and S9†).32–35 We note that the catalytic activities of Whenthed-bandcentremovestolowerenergy,themetal–H
+homemadePtNPsandcommercialPt/Caresimilar(Fig.S10†). bondingbecomesweakerandthusHERactivityincreases.As
+AsshowninFig.4candf,theIrPdPtRhRuHEANPsshowmuch showninFig.6,theTOFofthemonometallicNPsisroughly
+higher TOF values over the whole potential ranges than the correlated with their d-band centre (light blue region), that
+monometallic catalysts. The TOF values at an overpotential of is, a deeper d-band centre corresponds to higher activity,
+25and50mVofIrPdPtRhRuHEANPswere1.4and3.2H pers whichisconsistentwithpreviousreports.29,40Here,wenote
+2
+in 0.05 M H SO , respectively, which were 7.8 and 3.1 times that the Ir NPs showed a slight deviation that might origi-
+2 4
+higher than those of the commercial Pt/C catalyst (Fig. S9a†) nate from the high percentage of IrO on the surfaces. The
+x
+and 2.9–11.2 times higher than those of other monometallic IrPdPtRhRu HEA NP catalyst has deeper d-band centre
+NPs(Fig.4c).In1.0MKOH,theTOFvaluesofIrPdPtRhRuHEA locations (between Ir and Pt); thus, it was assumed to
+NPs were even larger (3.0 H per s at 25 mV; 6.4 H per s at intrinsicallyhavesimilaractivitytothePtorIrcatalyst.The
+2 2
+50mV)thanthoseofPt/C(0.3H persat25mV;0.8H persat TOF values of IrPdPtRhRu HEA NPs in both acidic and
+2 2
+50 mV) (Fig. S10b†) and the other monometallic catalysts alkaline solutions are very high and do not follow d-band
+(Fig.4f).Moreover,wenotethattheseTOFvaluesarealsolarger centre theory as expected. This suggests that the adsorp-
+than those of reported highly active catalysts tested under tionenergiesofHontheactivesitesoftheHEANPsurface
+similarconditions,suchasRu@C N(1.66H persat50mV),36 duringHERcannotbesimplyestimatedfromd-bandcentre
+2 2
+MoS /NF (1.66 H per s at 50 mV),37 and Au–Ru NWs (0.31 H theory.Theseresultsmightoriginatefromtheverycomplex
+2 2 2
+persat50mV).38 atomic arrangements of the surface and the diverseness of
+BecausethedegradationofcommercialPt/Cismoreserious thelocaldensityofstatesofthesurfacesites,asrepresented
+inanalkalinesolutionthananacidicelectrolyte,39wefocused in the HAXPES VB spectrum. Therefore, to understand the
+onthestabilityin1.0MKOHhere.Thecatalystsweresubjected reaction mechanism, it would be useful to use a combina-
+toacontinuouscyclicvoltammetrymeasurement(3000cycles, tion of density functional theory calculations and machine
+100 mV s
+(cid:2)1)
+into the HER potential region. Fig. 5 shows the learning. For example, Rossmeisl group reported a way to
+comparisonoftheinitialpolarizationcurvewiththataer3000 understand the ORR activity of PtPdRhIrRu HEAs on the
+cycles. IrPdPtRhRu HEA NPs showed no apparent loss in the quantummechanicallevel.25
+Fig.6 TOFvalueat(cid:2)0.05V asafunctionoftheexperimentald-
+RHE
+Fig.5 Comparisonofthepolarizationcurvesbetweentheinitialcycle bandcentreofthetestedcatalystsin(a)0.05MH SO and(b)1.0M
+2 4
+(red) and after 3000 cycles (black). (a) IrPdPtRhRu HEA NPs and (b) KOHsolutions.Thed-bandcentreisrelativetotheFermilevel.The
+commercialPt/Ccatalyst.Thedashedarrowdemonstratesthelossof light blue regions show the trend of the activity following d-band
+overpotentialataj of10mVcm(cid:2)2. centretheory.
+geo
+12734 | Chem.Sci.,2020,11,12731–12736 Thisjournalis©TheRoyalSocietyofChemistry2020
+
+EdgeArticle ChemicalScience
+Conclusions 4 P.Malinovskis,S.Fritze,L.Riekehr,L.Fieandt,J.Cedervall,
+D. Rehnlund, L. Nyholm, E. Lewin and U. Jansson, Mater.
+Insummary,wepreparedIrPdPtRhRuHEANPsbyafacileone- Des.,2018,149,51–62.
+pot polyol synthesis for the rst time. We experimentally 5 S. Nene, K. Liu, M. Frank, R. Mishra, R. Brennan, K. Cho,
+observedtheVBspectrumofIrPdPtRhRuHEANPsbyHAXPES. Z.LiandD.Raabe,Sci.Rep.,2017,7,16167.
+TheresultsrevealedthatHEANPshaveabroadandfeatureless 6 B.HammerandJ.Nørskov,Adv.Catal.,2000,45,71–129.
+VBspectrum,thusindicatingthatHEANPscontainavarietyof 7 H.Xin,A.Vojvodic,J.Voss,J.NørskovandF.Abild-Pedersen,
+different atomic arrangements with unique local density of Phys.Rev.B:Condens.MatterMater.Phys.,2014,89,115114.
+states.Furthermore,theobtainedHEANPsshowedmuchmore 8 J. Greeley, J. Nørskov, L. Kibler, A. EI-Aziz and D. Kolb,
+enhanced HER activities than the monometallic NPs and ChemPhysChem,2006,7,1032–1035.
+commercialPt/Ccatalystsinbothacidicandalkalinesolutions, 9 J.P´erez-Ram´ırezandN.L´opez,Nat.Catal.,2019,2,971–976.
+in addition to high stability. This enhanced activity did not 10 Y.Yao,Z.Huang,P.Xie,S.Lacey,R.Jacob,H.Xie,F.Chen,
+followthetrendofthed-bandtheoryinmonometalliccatalysts. A. Nie, T. Pu, M. Rehwoldt, D. Yu, M. Zachariah, C. Wang,
+Understanding theoretically the relationship between the R. Shahbazian-Yassar, J. Li and L. Hu, Science, 2018, 359,
+electronic structure and catalytic properties of HEA NPs 1489–1494.
+remains a challenging issue. However, given the uncountable 11 D. Wu, K. Kusada, T. Yamamoto, T. Toriyama,
+combinationsofHEAs,HEANPscanbeamajorfutureresearch S.Matsumura,S.Kawaguchi,Y.KubotaandK.Kitagawa,J.
+targetintheeldofcatalysis. Am.Chem.Soc.,DOI:10.1021/jacs.0c04807.
+12 T.L¨offler,H.Mayer,A.Savan,P.Wilde,A.Manj´on,Y.Chen,
+E. Ventosa, C. Scheu, A. Ludwig and S. Chuhmann, Adv.
+Authors contribution
+EnergyMater.,2108,8,1802269.
+13 T.L¨offler,A.Savan,H.Meyer,M.Meischein,V.Strotko¨tter,
+D. W., K. K., and H. K. conceived the idea and designed the
+A. Ludwig and S. Chuhmann, Angew. Chem., Int. Ed., 2020,
+research.D.W.andK.K.performedthesynthesisandgeneral
+59,5844–5850.
+characterization.D.W.performedtheelectrochemicaltests.T.
+14 P. Singh, A. Sharma, A. Smirnov, M. Diallo, P. Ray,
+Y.,T.T.,andS.M.conductedtheHAADF-STEMmeasurements.
+G. Balasubramanian and D. Johnson, npj Comput. Mater.,
+G.I.,O.S.,J.K.,S.H.andO.S.performedtheHAXPESexper-
+2018,4,16.
+iments. S. K. and Y. K. contributed to the synchrotron XRD
+15 B. Cantor, I. Change, P. Knight and A. Vincent, Mater. Sci.
+measurements.D.W.,K.K.,andH.K.discussedtheresultsand
+Eng.,A,2004,375–377,213–218.
+wrote the manuscript. All of the authors discussed and com-
+16 P. Chen, X. Liu, J. Hedrick, Z. Xie, S. Wang, Q. Lin,
+mentedonthemanuscript.
+M. Hersam, V. Dravid and C. Mirkin, Science, 2016, 352,
+1565–1569.
+Conflicts of interest
+17 M.Wu,M.Cui,L.Wu,S.Hwang,C.Yang,Q.Xia,G.Zhong,
+H. Qiao, W. Gan, X. Wang, D. Kline, M. Zachariah, D. Su,
+Therearenoconictstodeclare.
+T.LiandL.Hu,Adv.EnergyMater.,2020,2001119.
+18 Y.Yao,Z.Liu,P.Xie,Z.Huang,T.Li,D.Morris,Z.Finfrock,
+Acknowledgements
+J. Zhou, M. Jiao, J. Gao, Y. Mao, J. Miao, P. Zhang,
+R. Shahbazian-Yassar, C. Wang, G. Wang and L. Hu, Sci.
+We acknowledge the support from JST ACCEL program Grant Adv.,2020,6,eaaz0510.
+Number JPMJAC1501. STEM observations were performed as 19 Y. Yao, Z. Huang, T. Li, H. Wang, Y. Liu, H. Stein, Y. Mao,
+a part of a program conducted by the Advanced Characteriza- J. Gao, M. Jiao, Q. Dong, J. Dai, P. Xie, H. Xie, S. Lacey,
+tion Nanotechnology Platform sponsored by the Ministry of I. Takeuchi, J. Gregoire, R. Jiang, C. Wang, A. Taylor,
+Education,Culture,Sports,ScienceandTechnology(MEXT)of R. Shahbazian-Yassar and L.Hu, Proc. Natl. Acad. Sci.U. S.
+the Japanese government. Synchrotron XRD measurements A.,2020,117,6316–6322.
+wereperformedatSPring-8underproposalNo.2019A1125.The 20 T. L¨offler, A. Savan, A. Manj´on, M. Meischein, C. Scheu,
+HAXPES measurements were performed at SPring-8 under A. Ludwig and S. Chuhmann, ACS Energy Lett., 2019, 4,
+proposalNo.2018B4908and2019B4908.Theauthorsthankthe 1206–1241.
+assistanceofMsSaekaFujiwaraandMsMinakoShimizu. 21 P. Xin, Y. Yao, Z. Huang, Z. Liu, J. Zhang, T. Li, G. Wang,
+R. Shahbazian-Yassar, L. Hu and C. Wang, Nat. Commun.,
+Notes and references 2019,10,4011.
+22 J.Qiu,G.Feng,Y.Wen,P.LiuandS.Sun,J.Mater.Chem.A,
+1 B. Murty, J. Yeh and S. Ranganthan, High-Entropy Alloys, 2019,7,6499–6506.
+Elsevier,Netherlands,2014. 23 X. Zhao, Z. Xue, W. Chen, Y. Wang and T. Mu,
+2 E.George,D.RaabeandR.Ritchie,Nat.Rev.Mater.,2019,4, ChemSusChem,2020,13,2038–2042.
+515–534. 24 G. Zhang, K. Ming, J. Kang, Q. Huang, Z. Zhang, X. Zheng
+3 J. Yeh, S. Chen, J. Gan, T. Chin, T. Shun, C. Tsau and andX.Bi,Electrochim.Acta,2018,279,19–23.
+S.Chang,Metall.Mater.Trans.A,2004,35,2533–2536.
+Thisjournalis©TheRoyalSocietyofChemistry2020 Chem.Sci.,2020,11,12731–12736 | 12735
+
+ChemicalScience EdgeArticle
+25 B. Thomas, J. Pedersen, S. Winther, I. Castelli, K. Jacobsen 33 M. Łukaszewski, M. Soszko and A. Czerwin´ski, Int. J.
+andJ.Rossmeisl,Joule,2019,3,834–845. Electrochem.Sci.,2016,11,4442–4469.
+26 J. Pedersen, T. Batchelor, A. Bagger and J. Rossmeisl, ACS 34 M. Quiroz, Y. Meas, E. Lamy-Pitara and J. Barbier, J.
+Catal.,2020,10,2169–2176. Electroanal. Chem. Interfacial Electrochem., 1983, 157, 165–
+27 F. Waag, Y. Li, A. Ziefuß, E. Bertin, M. Kamp, V. Duppel, 174.
+G. Marzun, L. Kienle, S. Barcikowski and B. G¨okce, RSC 35 C.GreenandA.Kucernak,J.Phys.Chem.B,2002,106,1036–
+Adv.,2019,9,18547–18558. 1047.
+28 M. Rekha, N. Mallik and C. Srivastava, Sci. Rep., 2018, 8, 36 J. Mahmood, F. Li, S. Jung, M. Okyay, I. Ahmad, S. Kim,
+8737. N. Park, H. Jeong and J. Baek, Nat. Nanotechnol., 2017, 12,
+29 A. Zeradjanin, J. Grote, G. Polymeros and K. Mayrhofer, 441–446.
+Electrocatalysis,2016,28,2256–2269. 37 M.Anjum,H.Jeong,M.Lee,H.ShinandJ.Lee,Adv.Mater.,
+30 S. Kawaguchi, M. Takemoto, K. Osaka, E. Nishibori, 2018,30,1707105–1707114.
+C. Moriyoshi, Y. Kubota, Y. Kuroiwa and K. Sugimoto, Rev. 38 Q.Lu,A.Wang,Y.Gong,W.Hao,H.Cheng,J.Chen,B.Li,
+Sci.Instrum.,2017,88,085111. N.Yang,W.Niu,J.Wang,Y.Yu,X.Zhang,Y.Chen,Z.Fan,
+31 J.Modulder,W.Stickle,P.SobolandK.Bomben,Handbook X. Wu, J. Chen, J. Luo, S. Li, L. Gu and H. Zhang, Nat.
+ofX-rayPhotoelectronSpectroscopy,Perkin-ElmerCorp.,USA, Chem.,2018,10,456–461.
+1992. 39 A. Zadick, L. Dubau, N. Sergent, G. Berthom´e and
+32 B.Mun,C.Lee,V.Stamenkovic,N.MarkovicandP.Ross,J. M.Chatenet,ACSCatal.,2015,5,4819–4824.
+Chem.Phys.,2005,122,184712. 40 Y. Jiao, Y.Zheng, M.Jaroniec andS. Qiao, Chem. Soc.Rev.,
+2015,44,2060–2086.
+12736 | Chem.Sci.,2020,11,12731–12736 Thisjournalis©TheRoyalSocietyofChemistry2020
+

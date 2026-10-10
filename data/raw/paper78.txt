@@ -1,0 +1,552 @@
+iScience
+ll
+OPEN ACCESS
+Article
+Dendritic boron and nitrogen doped high-entropy
+alloy porous carbon fibers for high-efficiency
+hydrogen evolution reaction
+Jin-HuaLiu,Jie
+Zheng,MangNiu,
+...,RuLi,Jun
+Zhang,Yun-Ze
+Long
+qdzhengj@qdu.edu.cn(J.Z.)
+yunze.long@qdu.edu.cn
+(Y.-Z.L.)
+Highlights
+Quantumdot-sizedHEA
+particlesinnanofiberswere
+synthesized
+Dendriticnanofiberswere
+preparedbycarbonizing
+PANforthefirsttime
+Thedendriticnanofibers
+achievedlowoverpotential
+of38.5mVforHER
+Liuetal.,iScience27,109616
+May17,2024ª2024The
+Author(s).PublishedbyElsevier
+Inc.
+https://doi.org/10.1016/
+j.isci.2024.109616
+
+iScience
+ll
+OPEN ACCESS
+Article
+Dendritic boron and nitrogen doped
+high-entropy alloy porous carbon fibers
+for high-efficiency hydrogen evolution reaction
+Jin-HuaLiu,1JieZheng,2,*MangNiu,3XuehaoLi,1ZhihanGao,1PengWang,1ShuaijieWang,1RongxuWang,1
+SeeramRamakrishna,4RuLi,5JunZhang,1andYun-ZeLong1,6,*
+SUMMARY
+Among various electrocatalysts, high-entropy alloys (HEAs) have gained significant attention for their
+unique properties and excellent catalytic activity in the hydrogen evolution reaction (HER). However,
+theprecisesynthesisofHEAcatalystsinsmallsizesremainschallenging,whichlimitsfurtherimprovement
+in their catalytic performance. In this study, boron- and nitrogen-doped HEA porous carbon nanofibers
+(HE-BN/PCNF) with an in situ–grown dendritic structure were successfully prepared, inspired by the
+germination and growth of tree branches. Furthermore, the dendritic fibers constrained the growth of
+HEAparticles,leadingtothesynthesisofquantumdot-sized(1.67nm)HEAparticles,whichalsoprovide
+a pathway for designing HEA quantum dots in the future. This work provides design ideas and guiding
+suggestions for the preparation of borated HEA fibers with different elemental combinations and for
+theapplicationofdendriticnanofibersinvariousfields.
+INTRODUCTION
+Thedepletionoftraditionalenergysourcesandenvironmentalissueshaveposedsignificantchallengestohumandevelopment,necessi-
+tatingthedevelopmentofgreenandrenewableenergysources.1–3Hydrogenisprimarilypreparedthroughawatersplittingprocess,widely
+consideredtheultimatecleanenergyduetoitssustainability,highenergydensity,andlackofbyproducts,4–6butrequiresenergyinputto
+overcome potential obstacles in the electrochemical process and produce hydrogen and oxygen from water.7 Platinum group noble
+metal-basedcatalystsareconsideredthemostefficientHERcatalystsduetotheiroptimalhydrogenbindingenergyandotheradvantages.8,9
+Constrainedbyhighpricesandreserves,costandavailabilityneedtobeconsidered.Transitionmetal-basedcatalystshavegarneredconsid-
+erableattentionowingtotheirabundantresourcesandcost-effectivesynthesis.10However,thecatalyticperformanceofthesecatalystsstill
+lagsbehindthatofcommercialcounterparts.11–13
+Basedonclassicalcatalytictheory,nanostructurescanbeconstructedbyintroducingvacanciesordefects,aswellasalloyingandcrystal
+phaseengineeringtoregulatesurfacemetalsites,therebyregulatingthehybridizationprocessbetween2pand3dorbitals.Theintroduction
+ofeffectivemetalspecies,suchashigh-valentmetalsandnoblemetals,cannotonlyregulatethelocalcoordinationenvironmentandelec-
+tronicstructurebutalsocreatetheheterogeneousphase,whichcaneffectivelyenhancecatalyticperformance.Anotherwaytoincreasecat-
+alyticactivityistointroducemanufacturingdefectssuchasnon-metalN,B,P,etc.Thedefectscanincreasethenumberofchargeoff-domains
+oredgesites.ElementB,characterizedbyitslowatomicradius,possessesgreatereaseininfiltratingtheinterstitialspaceswithinthemetal
+lattice,therebyinducingalterationsinthecrystallinestructureofthecompositematerialcomparedtoP/S.However,anunderstandingofthe
+structure-activityrelationshipisstilllackingduetothesmallsize,randomdistribution,andlowboroncontentinthemetallattice.14High-en-
+tropyalloys(HEAs)asasolidsolutionstructure,possessexcellenthardness,toughness,corrosionresistance,andthermalstabilityduetotheir
+highconfigurationentropy,latticedistortion,sluggishdiffusion,andcocktaileffects.15–17Defects,edgesites,vacancies,andcrystallinity
+alwaysworktogethertoformefficientinterfaces,enhancesynergisticeffectsoptimizetheadsorptionofintermediates,andchangetheelec-
+tronicstructure.18–20
+1CollaborativeInnovationCenterforNanomaterials&Devices,InnovationInstituteforAdvancedNanofibers,CollegeofPhysics,QingdaoUniversity,Qingdao266071,P.R.
+China
+2IndustrialResearchInstituteofNonwovens&TechnicalTextiles,ShandongCenterforEngineeredNonwovens(SCEN),CollegeofTextilesClothing,QingdaoUniversity,
+Qingdao266071,P.R.China
+3StateKeyLaboratoryofBio-fibersandEco-textiles,InstituteofBiochemicalEngineering,CollegeofMaterialsScienceandEngineering,QingdaoUniversity,Qingdao
+266071,China
+4CenterforNanotechnology&Sustainability,DepartmentofMechanicalEngineering,CollegeofDesignandEngineering,NationalUniversityofSingapore,9Engineering
+Drive1,Singapore117576,Singapore
+5InstrumentalAnalysisCenter,QingdaoUniversity,Qingdao266071,P.R.China
+6Leadcontact
+*Correspondence:qdzhengj@qdu.edu.cn(J.Z.),yunze.long@qdu.edu.cn(Y.-Z.L.)
+https://doi.org/10.1016/j.isci.2024.109616
+iScience27,109616,May17,2024ª2024TheAuthor(s).PublishedbyElsevierInc. 1
+ThisisanopenaccessarticleundertheCCBY-NC-NDlicense(http://creativecommons.org/licenses/by-nc-nd/4.0/).
+
+iScience
+ll
+OPEN ACCESS Article
+Scheme1. IllustrationofthesynthesisofHE-BN/PCNF
+Inaddition,mostcatalystscurrentlyrequiretheadditionofbinderstopreparesolutionsanddripthemontothecarrier,resultinginuneven
+distribution.Carbonnanofibers(CNF)preparedbyelectrospinninghavelargespecificsurfaceareas,simplemanufacturingprocesses,high
+aspectratios,andgoodmechanical.21Nanofibersoftenpossessaself-supportingstructureaftercarbonization,makingthemsuitablefor
+loadingcatalystsandimprovingelectrochemicalperformance.22Specialstructuressuchasmulti-channel,porous,andhollowstructures
+canincreasethespecificsurfaceareabygeneratingdefectsonthefibersurface,23butcannotbreakthroughthelimitationsofasinglefiber.
+Thenanonetsanddendriticnanofibersarewidelyexploredinthefieldoffiltrationduetotheirlargecontactarea,extremelyfinefiberdiam-
+eter,andsmallporesize,whichcansignificantlyimprovethescreeningofparticles.Atpresent,theformationofnanonetsanddendriticfibers
+isattributedtothephaseseparationofchargeddroplets.OnlywhenbothjetanddropletaregeneratedatthetipoftheTaylorcone,nano-
+netsanddendriticfiberscanbegenerated,whichiscloselyrelatedtodropletchargedensity,humidity,andcollector.However,thematerials
+usedtopreparenanonet/tree-likenanofiberaremainlyseveralspecialpolymerssuchaspolyamide,poly(m-phenyleneisophthalamide),poly-
+urethane,andpolyvinylidenefluoride(PVDF).24,25Thesepolymernanofiberscannotbecarbonizedathightemperaturesandusedinthefield
+ofelectrochemicalenergy.Mostofthecarbonfibersusedforelectrochemicalenergyareobtainedbycarbonizationofpolyacrylonitrile(PAN),
+anditisachallengefortheindustrytomakePAN-basedCNFbreakthroughthelimitationsofasinglefiberandmaintaintheirshapeafter
+carbonization.
+Inthiswork,B-andN-dopedHEAporousdendriticcarbonnanofibers(HE-BN/PCNF)viaPAN-basedcarbonizationweresuccessfullypre-
+paredforthefirsttime.Inaddition,theformationofHEAswaslimitedduetotheformationofdendriticstructure,andquantum-dot-sized
+HEAsinnanofibers(withanaveragediameterof1.67nm)weresynthesized,whichalsoprovidedwaystodesignHEAquantum-dotnanofibers
+inthefuture.TheeffectofelementBontheHERcatalysisofHEAcarbonfiberswasinvestigatedindetail.TheintroductionofelementBcould
+enterthefibersandpenetrateintothelatticeofHEA,anditisalsokeytothegenerationofdendriticfibers.Theintroductionofboronallows
+thefiberstodifferentiateandgerminatetoformadendriticstructure,andthegenerationofdendritesallowsthefiberstodifferentiateinto
+morecontactsites.ThePCNFacceleratesthetransportofelectronsandions,therebyloweringthekineticreactionbarrier,andmoderatesthe
+electronicconfigurationsandoptimizesthermodynamichydrogenadsorption/desorptiononthesurfaceofthecatalyst,whichisresponsible
+fortheimprovedelectrocatalyticefficiency.WebelievethatdendriticfibersareoneofthefutureresearchdirectionsforHEAnanofibercatal-
+ysis,andthepresentworkwillalsoprovidedesignideasforthepreparationofboronizedHEAfiberswithotherelementcombinations.
+RESULTS
+Materialssynthesisandcharacterizations
+ThesyntheticstrategyofsituBNelement-dopedHEAporousdendriticcarbonnanofibersisdemonstratedinScheme1.PAN,PMMA,metal
+salt,andboricacidofdifferentproportionsweredissolvedinDMFtoprepareamixedsolutionandthenelectrospinningwasusedtoobtaina
+precursornanofibermembrane(FigureS1).FiguresS1AandS1Bshowpuremetalsaltsprecursornanofiberswithasmalldiameter(239nm,
+FigureS3A).Whenasmallamountofboricacidwasadded,thenanofibersbecamecoarserindiameter(FiguresS1CandS3B),andwith
+furtherintroductionofboricacid(FiguresS1D–S1F),thenanofibersbecameevenlargerindiameter(FiguresS3C–S3F),withfilamentous
+finefibersdifferentiatedonthesurface.Thenumbersandlengthsoffilamentousfibersincreasedwiththeincreaseinboricacid.Thissuggests
+thatboricacidwassuccessfullyintroducedintothenanofibersandalteredthegrowthprocess,causingthefiberstodifferentiateintofila-
+ments.Thismaybeduetotheincreaseinthechargedensityofthepolymersolutiondropletsinducedbytheelectrospinningprocess,leading
+2 iScience27,109616,May17,2024
+
+iScience
+ll
+Article OPEN ACCESS
+Figure1. PhysicalcharacterizationsofHE-BN/PCNF
+(AandB)SEMimagesofHE-B75N/PCNF.
+(C–E)TEMandmappingimagesofHE-B75N/PCNF.
+(F)XRDpatternsofHE-B0N/PCNF,HE-B10N/PCNF,HE-B25N/PCNF,HE-B65N/PCNF,HE-B75N/PCNF,andHE-B90N/PCNF.
+(G)EnlargedXRDpatterns.
+toanincreaseintheinstabilityofthechargeddroplets,resultinginmorecleavageoccurringafterconvergenceintheTaylorcone.26Inter-
+estingly,thismechanismisdifferentfromthewaynanofibersgrownanowires,asshowninFiguresS1EandS1F,wherethegrowthoffilamen-
+taryfibersonthesurfaceofthemainfibersdoesnotstop.Thefilamentaryfibersdifferentiateagainlengthen,andcontinuetolengthen,re-
+sultinginthefilamentsundergoingcross-linking.Whenboricacidisinexcess(FiguresS1G–S1I),themainfibersthickentoformbeads,and
+thecrosslinkedfilamentousfibersconvergeandbecomeknottedtoformanet.Thismorphologyisdifferentfromthereportednanonetfibers
+sofar,26andthenettingisformedbythedifferentiationandgrowthofthemainfibers,resultinginrandomness.
+Theprecursornanofiberfilmisthencarbonizedtoformasingle-phaseHEAsolidsolutiondendriticporousnanofiber(FiguresS2A–S2F).
+Comparedtotheprecursorfibermembrane,thediameterofthecarbonizedfibersbecomessmaller(FigureS3G),andthefibersurfaceex-
+hibitsaporousandmulti-channelstructure,whichisconducivetothegenerationofmorereactiveactivesites.Withtheintroductionofboric
+acid,tinyfibershootsbegintodifferentiateonthesurfaceoftheporousnanofibers(FigureS2C),andwhentheamountofboricacidisfurther
+increased,theshootsgraduallygrowandlengthentobecomedendritic(Figures1A,1B,S2D,andS2E).Interestingly,thesamedopingcon-
+centrationexhibitstwomorphologies,whereFigures1Aand1Bshowsthickermainfiberswithalargenumberofbranchesonthesurface,
+whileFigureS2Eshowsfinermainfiberswithalargenumberofshootsonthesurface.Thisalsoverifiestheprocessofshootgrowthunder
+thedopingconcentration,andthetwodifferentmorphologiesresembleamaturetreeandathrivingtree.Thegrowthmechanismofcarbon-
+izedfibersandprecursorfibersisdifferent.Despitefilamentsplittingonthesurfaceofprecursorfibers,thesurfaceofsinglefibersissmooth
+withoutfluffyshoots.ThisisbecausesomeofthesynthesizedHEAparticlesprecipitatedonthesurfaceofthefibersduringthecarbonization
+processandinteractedwithboron,carbon,andnitrogentoformshoots.Astheboroncontentincreasesandthefibersfurtherform,itallows
+theshootstograduallygrow,formingbranchesofvaryinglengthsonasinglefiber.Similarly,excessboricacidcausesthecarbonizedfibersto
+appear as beadedstructuresand dendritic knotted networks(Figure S2F). TEMand scanningtransmissionelectron microscopy-energy
+dispersiveX-rayspectroscopy(STEM-EDX)elementalmappingimages(Figures1CandS2G–S2K)verifythemulti-channeldendriticfibers
+aswellasthehomogeneousdistributionofelementsincludingFe,Co,Ni,Mn,Ru,B,C,N,andO.
+High-resolution TEM (HRTEM) images show that a large number of HEA particles are densely and uniformly anchoredin the PCNF
+(Figures1D,1E,andS4A–S4I).Asthefiberthickens,thesizeoftheHEAparticlesanchoredtothefiberincreases(FiguresS3HandS3I).
+FiguresS4BandS4CshowthatHE-B0N/PCNFconsistsofgraphitizedcarbonandamorphouscarbonatthelatticeedgewithaspacingof
+0.37nm,consistentwiththe(002)graphiticcarboncrystalface.27TheHEAparticleshaveaclearlyvisiblelatticefringeof0.26nmcorrespond-
+ingtothe(111)plane.HE-B N/PCNFhasacrystalfacespacingof0.21nmcorrespondingtothe(111)plane(FiguresS4DandS4E).Figures1D
+25
+and1Ealsoconfirmsthepresenceofdendriticfibers,andtheselectedareaelectrondiffraction(SAED)pattern(Figure1Dinset)demonstrates
+thattheHEAparticlesexhibitcharacteristiccrystalfaces(111)and(200).Figure1EisanenlargedimageofFigure1D,anditcanbethatthe
+particlesizeoftheHEAsonthebranchesbecomesmaller,withanaveragesizeof1.67nm(FigureS5).Thethickenedmainfiberexpandsthe
+boundaryconditionsandmakestheHEparticleslarger,whiletheslenderdendriticstructureshortenstheboundaryconditionsandconfines
+thegrowthofHEparticlestoalimitedarea.Therefore,thesizeoftheHEAparticlesisoptimized,whichalsoprovidesideasandmethodsfor
+thefuturedesignofHEquantumdotsbasedonnanofibers.FigureS4IshowstheSAEDofthebranchnanofibers,wherediffractionringsinthe
+SAEDpatternandlatticestripesintheHRTEMimagegraduallybecomeblurred,indicatingthetransitionfromcompletecrystallizationto
+amorphous.28FigureS6showstheinterplanarspacingstatisticsofHEAquantumdotsinHE-B N/PCNF,whichshowthecharacteristiccrystal
+75
+planesof0.209nm(111)and0.16nm(200).High-angleannulardark-fieldscanningtransmissionelectronmicroscopy(HAADF-STEM)also
+iScience27,109616,May17,2024 3
+
+iScience
+ll
+OPEN ACCESS Article
+Figure2. X-rayphotoelectronspectroscopycharacterizationsofHE-BN/PCNF
+(A)SurveyspectrumofHE-B75N/PCNF.
+(B–D)B1sofHE-B10N/PCNF,HE-B75N/PCNF,HE-B90N/PCNF.
+(E–H)N1sofHE-B0N/PCNF,HE-B10N/PCNF,HE-B75N/PCNF,HE-B90N/PCNF.
+showsauniformdistributionofHEAparticlesinthebranchfibers(FigureS7).Theproportionofamorphouscarbonandgraphitizedcarbonon
+theHE-B N/PCNFsurface(FigureS4F)furtherincreasesduetotheformationofbeadedmainfibersandnetworkedfinefibers.
+90
+The XRD patterns (Figures 1F and 1G) show three distinct peaks at 26(cid:1), 43(cid:1), and 50(cid:1), respectively. They correspond to graphite
+(002planes)27andiron-nickelalloys(111and200planes)ofthefccphases(PDF#47–1417),respectively.23NoXRDpeaksfromFe,Co,Ni,
+Mn,Ru,ormetaloxideseparationwereobserved,indicatingtheformationofasingle-phaseHEA.29Boroncanbedecomposedintometal
+oxidesbycarbothermicreductiontoformborides,asshowninEquations1and2:30
+MeO +B+C/MeB+B x O y +CO (Equation1)
+MeO +B C /MeB+CO (Equation2)
+13 2
+ComparedwithHE-B N/PCNF,thelatticeofHE-B N/PCNFwithlowborondopingisalmostunchanged.Withtheincreaseofboroncon-
+0 10
+tent,moreboronelementsparticipateinthereactiontoreducemetaloxides,resultinginmoreHEAparticlesandHEAmetalborides,sothat
+thepeakpositionofthe(111)and(200)planesmovesslightlytoalowerangle.XRDonlyshowsthepeakvalueofFeNi,sotheboratedlayer
+shouldbeamorphousorpoorlycrystalline.31Inaddition,thewideningofthepeak(111)indicatesthatBincorporationcanleadtoamplifica-
+tionoftheFeNilattice.32BecauseboronismoreelectronegativethanNi,Co,andFe,electronsaretransferredfromthemetalcentertothe
+Batom,facilitatingtheformationoftheamorphoustransitionmetalboridesstructure.19TheseamorphousB-containingsubstancesprevent
+thegrowthandoxidationofnano-sizedcrystallinenucleiinHEAparticles,whichisalsothereasonforthesynthesisofHEAquantumdots.In
+addition,theobviousincreaseofthecarbonpeakof26(cid:1)graphitealsoindicatesthesuccessfulintroductionofBelementanditscombination
+withC,andNtoformgraphitizedcarbonandamorphouscarbon.
+XPSisanothertechniquethatprovidesinformationtofurtherunderstandingofthesurfaceelementcompositionofthesampleaswellas
+thevalencestateoftheelement.Allthebindingenergies(BEs)werecalibratedbytheC1speakat284.6eVFigure2AshowstheXPSsurvey
+spectrumofHE-B N/PCNF.ItcanbeseenthatthematerialcontainselementsFe,Co,Ni,Mn,Ru,B,N,C,andO,indicatingthesuccessful
+75
+preparationofthematerial.Figures2B–3DshowsthespectraofXPSmeasurementsbasedondifferentboroncontent.B1scanbedecon-
+volvedat189.6eV,190.5eV,191.7eV,and192.7eV,correspondingtoBC ,Metal-C-B,B-N/BC O,andBCO ,respectively.33,34
+3 2 2
+TheXPSofHE-B N/PCNFdidnotfindMetal-C-B,whichindicatesthatwhenasmallamountofboronisintroducedintothefiber,the
+10
+boronelementfirstcombineswiththeC,andNelementanddoesnotentertheHEAlattice.TheXRDimagesofHE-B N/PCNFandHE-
+10
+B N/PCNFarealmostidentical,whichalsoverifiesthisresult.Whentheamountofboronisincreased,theboronelementandthehighen-
+0
+tropymetalformametal-C-Bbond.Withtheincreaseofboronelement,theratioofmetal-C-BandB-N/BC Obondalsoincreases,andthe
+2
+BC leveldisappearssuggestingelectrondonationfrommetalandBatomstoCatoms.TheMetal-C-BandB-N/BC OratiosofHE-B /PCNF
+3 2 75
+areapproximatelyequal,sotheelectrochemicalsynergieseffectisthebest.However,excessiveboronelementsinHE-B N/PCNFwillform
+90
+moreMetal-C-Bbonds,whichisnotconducivetothesynergisticeffectofHEAandB-N.Figures2E–3HshowsthefourfittedpeaksintheN1s
+spectrawithdifferentboroncontents,correspondingtographiteNbonds(401.6eV),pyrroleNbonds(399.8eV),pyridineNbonds(398.5eV),
+andB-Nbonds(398.1eV),respectively.34,35Ndopingwithporousnanofiberscanimprovetheconductivityofthecatalyst,acceleratethe
+transportofelectronsandsubstances,andavoidtheaggregationofnanoparticles.B-Nbonds,graphiteNbonds,pyrroleNbonds,and
+pyridineNbondscanaffectthechargedelocalizationofcarbon,therebyimprovingtheconductivityofthematerial.35Thepresenceofpyr-
+idineNatomsatthecarbonedgecanalsoreducetheadsorptionbarrierofreactantsonadjacentcarbonatoms.36TheO1sspectrum
+4 iScience27,109616,May17,2024
+
+iScience
+ll
+Article OPEN ACCESS
+Figure3. ElectrocatalyticHERperformance
+(A)LSVcurves.
+(B)Thecorrespondinghistogramofoverpotentialsat10mAcm(cid:3)2and50mAcm(cid:3)2.
+(C)Tafelslopesand(D)ECSA-normalizedLSVcurvesofHE-B0N/PCNF,HE-B10N/PCNF,HE-B25N/PCNF,HE-B65N/PCNF,HE-B75N/PCNF,andHE-B90N/PCNFin
+1.0MKOHelectrolyte.
+(E)ComparisonofHERoverpotentialsandTafelslopesat10mAcm(cid:3)2in1.0MKOHfordifferentcatalysts.ThoserecentlyreportedliteraturesforHER
+electrocatalystswereshowninTableS2.
+(FiguresS8A–S8D)revealspeaksat531.8and532.8eV,whichareascribedtohydroxylgroupsandresidualoxygen-containinggroupsonthe
+surface,respectively.37FiguresS8E–S8HsuggeststhecoexistenceofMn2+2p (641.6eV),andMn3+2p (654.1eV).29TheRu3pXPSspec-
+3/2 1/2
+trum(FiguresS8I–S8L)exhibitsonlymetallicRustates(461.4and484.8eVforRu03p andRu03p ).38ComparedtoHE-B N/PCNF,theOH-
+3/2 1/2 0
+shiftedtoahighervalueafterboronization,andtheproportionofRuandMnmetalsathighenergylevelsincreased.Thispositiveshiftcanbe
+attributedtotheelectronegativityofBinducingtheformationofahigheroxidationstateinthemetalcenterorloweringtheelectrondensity
+aroundit.19Theintroductionofboronintothecompositionofthefibersexpandsthediameterofthefibers,whichfurtherreducesthemass
+ratioofthemetalelementsperunitarea,andinaddition,boroninteractswithelementssuchasFe,Co,Ni,toformthemagneticpropertiesof
+thesamples,whichmakesthepeakfittingoftheFeCoNielementslessobvious.Theseresultsrevealstrongelectronicinteractionsandcharge
+distributionsbetweentheconstituentelements,whichenhancethecatalyticactivityofthemetalsites.28,39
+HERperformance
+Inordertoinvestigatetheeffectoftheboronelementontheelectrochemicalpropertiesofhighentropyalloynanofibers,alltheprepared
+catalystsweretestedasworkingelectrodesinathree-electrodesystem.Hg/HgOandgraphiterodwereusedasreferenceelectrode(RE)and
+counterelectrode(CE).HERwastestedinsidea1MKOHelectrolyteandallpotentialswerecalibratedwithareversiblehydrogenelec-
+trode(RHE).
+AsshowninFigures3A,3B,andS9A,HE-B N/PCNFcanachieveoverpotentialsof38.5mVand172.1mVat10mAcm(cid:3)2and50mAcm(cid:3)2,
+75
+respectively.Theperformanceoutperformsotherboron-dopedratiosandpurehighentropyalloysPCNF.TheHE-B N/PCNFpossessessu-
+65
+periorperformancetoHE-B N/PCNFat10mAcm(cid:3)2,butitperformspoorlyathighercurrentdensities.Interestingly,HE-B N/PCNFexhibits
+75 10
+worseHERperformancethanHE-B N/PCNF,whereasHE-B N/PCNFshowsbetterHERperformancethanHE-B N/PCNF.Thisdiscrepancy
+0 90 0
+isbecauseHE-B N/PCNFthickensthefiberdiameterwithoutgeneratingdendriticfibers.Incontrast,HE-B N/PCNFproducesthickerfibers
+10 90
+butstilloutperformsHE-B N/PCNFat10mAcm(cid:3)2duetothepresenceofentangleddendriticfibers.Figure3CindicatesthatHE-B N/PCNF
+0 75
+hasthelowestTafelslope(35.45mVdec(cid:3)1),signifyingfasterelectrontransfer,whichissuperiortotheotherlistedalloys.TheTafelslopere-
+vealsthemechanismofHER;avaluecloseto39mVdec(cid:3)1indicatesthatthedischargereactionisrapidandtheelectrochemicaldesorption
+(Heyrovskyreaction)istherate-limitingstep.7Theelectrochemicalimpedancespectrum,displayedinFigureS9B,showstheelectrodepre-
+sentingacharacteristicsemicircle.
+Toevaluatetheactivesiteandintrinsicactivityofthepreparedelectrocatalyst,theelectrochemicalsurfaceareawasmeasured(FiguresS10
+andS11A)usingthedouble-layercapacitance(C )method.23TheincreaseinC valuesindicatesthegenerationofmoreelectrocatalysis
+dl dl
+activeregions.40Theintroductionofboronoffersnumerousreactionsites,suchasboundaries,points,linedefects,discordantsites,and
+iScience27,109616,May17,2024 5
+
+iScience
+ll
+OPEN ACCESS Article
+Figure4. Densityfunctionaltheorycalculations
+(A)TheoptimalfreeenergiesofHadsorptioninpurealloyand2B-dopedalloy.
+(B)TheDOSsofRu-4dinpurealloyand2B-dopedalloy.EnergyzerowassetasFermilevelanddisplayedwithablackdashedline.Thed-bandcentersofRu-4din
+purealloyand2B-dopedalloyweredisplayedwithblueandreddashedlines,respectively.
+edgesonthecatalyst.Notably,HE-B N/PCNFdoesnothavethemaximumC value,reinforcingthatitsoptimalperformanceresultsfrom
+75 dl
+thesynergisticcatalyticeffectofmultipleactionmodes.TheECSA-normalizedLSVcurves(Figures3CandS11B)andaccompanyingdata
+(TableS1)demonstratethehighintrinsicHERactivityofthecompounds.Moreover,theoverpotentialsrequiredforacurrentdensityof
+10mAcm(cid:3)2,whencomparedwithrecentlyreportedHERelectrocatalystsin1MKOHelectrolytes(TableS1)highlighttheexceptionalactivity
+ofHE-B N/PCNF.Thechronoamperometriccurve(FigureS12)demonstratedthathighentropymaterialshavegoodstability.Wethenper-
+75
+formedcharacterizationsofthecatalystafterstabilitytest.TheRamanspectraandXRDrevealthatHE-B N/PCNFexhibitnoobviouschange
+75
+afterthedurabilitytest(FigureS13).Interestingly,theSEMimageshowsthediameterofdendriticfibersenlargedafterlong-termstability.The
+exactmicrostructurechangestillneedfurtherstudy.
+DISCUSSION
+Mechanisminvestigations
+Weperformeddensityfunctionaltheory(DFT)calculationstorevealthemechanismofHERenhancementinB-dopedalloys.Asdisplayedin
+FigureS14A,thereareninekindofsurfaceRuatomsinpurealloy.ThecalculatedfreeenergiesofHadsorption(DGH)onthesesurfaceRu
+atomsaresummarizedinFigureS15,andthecorrespondingadsorptiongeometriesaredisplayedinFigureS16.Itisfoundthattheoptimal
+DGHinpurealloyis(cid:3)0.477eV,withHatomadsorbedatthehollowsiteofRu-01atomandtwoadjacentNiatoms.Throughstructuralopti-
+mizationofdifferentconfigurations(namedRu-01(cid:4)Ru-09)andfreeenergy(DGH)calculationasshowninFigureS15andinFigureS16,we
+obtainedthelowestenergystableHEAconfiguration(Ru-01)fromthenineinitialconfigurations.BasedonthismoststableHEAconfiguration,
+westartedthecalculationofB-doping.ForB-dopedalloys,BatomswereinsertedatthehollowsitesbelowtheRu-01atom.FiguresS14B–
+S14Dshowntheoptimizedstructuresof1B-doped,2B-dopedand3B-dopedalloys.ThecalculatedDGHonsurfaceRu-01atomsinB-doped
+alloysaresummarizedinFigureS17,andthecorrespondingadsorptiongeometriesaredisplayedinFigureS18.TheDGHof1B-doped,2B-
+dopedand3Bdopedalloysare(cid:3)0.426eV,(cid:3)0.397eVand(cid:3)0.561eV,respectively.Therefore,2B-dopedalloyisthemostidealHERcatalyst.
+ThiscorrespondstotheincreasingdopingofBfromB toB duringtheexperiment.ThedecreasedactivityinHERperformancein3B-doped
+0 90
+alloycouldbeattributedtothelargestructuraldeformationsafterdoping,whichenhancedtheadsorptionofHatom.Thetheoreticalresults
+herefurtherindicatethatthegreatertheamountofBdopingisnotthebetter,whichisconsistentwiththeresultsdescribedintheexperi-
+mentalpart.ModeratedopingofBcanproducemorefiberbranchesandfinerfibers,increasetheexposedareaandactivesiteofthecatalyst,
+andimprovethecatalyticperformance.However,excessivedopingofBincreasesthepossibilityofcatalystaggregationandmakesthefiber
+branchesthicker.Itisnotconducivetotheimprovementofcatalyticperformance,whichcanalsobedemonstratedinFiguresS1andS2.As
+displayedinFigure4A,2-BdopingbelowRu-01sitecouldsignificantlyreducetheDGHandthusimprovetheactivityofHER.Thecalculated
+chargedensitydifferencesin2BdopedalloyshownthatthechargearoundthedopedBatomincreases,whereastheRu-01atomlosesits
+charge(seeinFigureS19).Asaresult,seeinFigure4B,thed-bandcenterofRu-4din2Bdopedalloy((cid:3)2.204eV)movesfarawayfromthe
+Fermilevelcomparedwiththed-bandcenterofRu-4dinpurealloy((cid:3)1.932eV).Inconclusion,2-Bdopinginalloycouldgainchargefromthe
+surfaceRu-01atom,thechargelossofsurfaceRu-01atomleadtothed-bandcenterofRu-4dmovesfarawayfromtheFermilevel,andthus
+weakenedtheDGHandimprovedtheHERperformanceofalloy.
+Conclusion
+Inthisresearch,B-andN-dopedHEAporouscarbonnanofiberswithaninsitudendriticstructurewerefabricatedforthefirsttime.Thegrowth
+processofthedendriticfibersandtheirimpactonelectrochemicalpropertiesweremeticulouslyanalyzed.Thedendriticstructurecanoffer
+morecontactsites,andthecarbonfiber-highentropyalloycombinationcanexpediteelectronandiontransport,thusdiminishingthekinetic
+6 iScience27,109616,May17,2024
+
+iScience
+ll
+Article OPEN ACCESS
+reactionbarrier.Dopingwithboronatomscanadjusttheelectronconfigurationandoptimizehydrogenadsorption/desorptiononthecata-
+lystsurface,enhancingtheelectrocatalyticefficiency.ThisstudymayguidethedevelopmentofotherboratedHEAfibersandexploretheuse
+ofdendriticfibersinvariouselectrochemicalapplications.
+Limitationsofthestudy
+Thegrowthmechanismiscomplicated,andfutureresearchwillfocusonthegrowthmechanismofdendriticfiberandexpandapplications.
+STAR+METHODS
+Detailedmethodsareprovidedintheonlineversionofthispaperandincludethefollowing:
+d KEYRESOURCESTABLE
+d RESOURCEAVAILABILITY
+B Leadcontact
+B Materialsavailability
+B Dataandcodeavailability
+d METHODDETAILS
+B Preparationoflarge-porosityHE-BN/PCNF
+B Instrumentation
+B Electrochemicalcharacterization
+B Calculationmethod
+SUPPLEMENTALINFORMATION
+Supplementalinformationcanbefoundonlineathttps://doi.org/10.1016/j.isci.2024.109616.
+ACKNOWLEDGMENTS
+ThisworkwassupportedbytheNationalNaturalScienceFoundationofChina(52273077,22103045,and11904193),andStateKeyLaboratory
+ofBio-FibersandEco-Textiles,QingdaoUniversity(RZ2000003334,ZDKT202108andG2RC202022).
+AUTHORCONTRIBUTIONS
+Conceptualization,J.L.andJ.Z.(author2);methodology,J.L.andM.N.;investigation,J.Z.(author2),Y.L.,andJ.Z.(author11_;measurements,
+J.L.,X.L.,Z.G.,P.W.,R.W.,andS.W.;writing–originaldraft,J.L.;writing–reviewandediting,J.L.,J.Z.(author2),andY.L.;fundingacquisition,
+S.R.andY.L.;supervision,J.Z.(author2)andY.L.
+DECLARATIONOFINTERESTS
+Theauthorsdeclarenocompetinginterests.
+Received:February1,2024
+Revised:March13,2024
+Accepted:March26,2024
+Published:March28,2024
+REFERENCES
+1. Yao,Y.,Dong,Q.,Brozena,A.,Luo,J.,Miao, nanoparticlesanchoredoncobalt/nitrogen- FunctionsforBoostingOverallWater
+J.,Chi,M.,Wang,C.,Kevrekidis,I.G.,Ren, dopedcarbonnanofibersforhigh- Splitting.Small19,e2304086.https://doi.org/
+Z.J.,Greeley,J.,etal.(2022).High-entropy performancealkalineandacidichydrogen 10.1002/smll.202304086.
+nanoparticles:Synthesis-structure-property evolution.J.ColloidInterfaceSci.650, 6. Yang,L.,Cao,X.,Wang,X.,Wang,Q.,and
+relationshipsanddata-drivendiscovery. 304–312.https://doi.org/10.1016/j.jcis.2023. Jiao,L.(2023).Regulativeelectronic
+Science376,eabn3103.https://doi.org/10. 06.189. redistributionofCoTe2/CoPheterointerfaces
+1126/science.abn3103. 4. Suen,N.T.,Hung,S.F.,Quan,Q.,Zhang,N., foracceleratingwatersplitting.Appl.Catal.B
+2. Zhong,M.,Xu,M.,Ren,S.,Li,W.,Wang,C., Xu,Y.J.,andChen,H.M.(2017). Environ.329,122551.https://doi.org/10.
+Gao,M.,andLu,X.(2024).Modulatingthe Electrocatalysisfortheoxygenevolution 1016/j.apcatb.2023.122551.
+electronicstructureofNi(OH)2bycoupling reaction:recentdevelopmentandfuture 7. Zhu,J.,Hu,L.,Zhao,P.,Lee,L.Y.S.,and
+withlow-contentPtforboostingtheurea perspectives.Chem.Soc.Rev.46,337–365. Wong,K.Y.(2020).RecentAdvancesin
+oxidationreactionenablessignificantly https://doi.org/10.1039/c6cs00328a. ElectrocatalyticHydrogenEvolutionUsing
+promotedenergy-savinghydrogen 5. Chen,H.Y.,Yang,L.,Wang,R.X.,Zhang,W.J., Nanoparticles.Chem.Rev.120,851–918.
+production.EnergyEnviron.Sci.17,1984– Liu,R.,Yun,Y.Z.,Wang,N.,Ramakrishna,S., https://doi.org/10.1021/acs.chemrev.
+1996.https://doi.org/10.1039/d3ee03398h. Jiao,L.,andLong,Y.Z.(2023).Constructing 9b00248.
+3. Chen,X.,Li,W.,Wang,C.,andLu,X.(2023). CoO/Mo2CHeterostructureswithInterfacial 8. Li,W.,Liu,R.,Yu,G.,Chen,X.,Yan,S.,Ren,S.,
+Wetchemicalsynthesisofrhodium ElectronRedistributionInducedbyWork Chen,J.,Chen,W.,Wang,C.,andLu,X.
+iScience27,109616,May17,2024 7
+
+iScience
+ll
+OPEN ACCESS Article
+(2023).RationallyConstructionofMn-Doped N.B.,Kaner,R.B.,andMousavi,M.F.(2022). 13,2662.https://doi.org/10.1038/s41467-
+RuO2NanofibersforHigh-ActivityandStable LayeredDoubleHydroxideTemplated 022-30379-4.
+AlkalineAmpere-LevelCurrentDensity SynthesisofAmorphousNiCoFeBasa 30. Akopov,G.,Yeung,M.T.,andKaner,R.B.
+OverallWaterSplitting.Small,e2307164. MultifunctionalElectrocatalystforOverall (2017).RediscoveringtheCrystalChemistry
+https://doi.org/10.1002/smll.202307164. WaterSplittingandRechargeableZinc–Air ofBorides.Adv.Mater.29,1604506.https://
+9. Zhong,M.,Yang,J.,Xu,M.,Ren,S.,Chen,X., Batteries.Adv.EnergyMater.13,2203002. doi.org/10.1002/adma.201604506.
+Wang,C.,Gao,M.,andLu,X.(2024). https://doi.org/10.1002/aenm.202203002. 31. Zhang,R.,Liu,H.,Wang,C.,Wang,L.,Yang,
+SignificantlyEnhancedEnergy-SavingH2 20. Feng,C.,Wang,F.,Liu,Z.,Nakabayashi,M., Y.,andGuo,Y.(2020).ElectrolessPlatingof
+ProductionCoupledwithUreaOxidationby Xiao,Y.,Zeng,Q.,Fu,J.,Wu,Q.,Cui,C.,Han, TransitionMetalBoridewithHighBoron
+Low-andNon-PtAnchoredonNiS-Based Y.,etal.(2021).Aself-healingcatalystfor ContentasSuperiorHERElectrocatalyst.
+ConductiveNanofibers.Small20,e2304782. electrocatalyticandphotoelectrochemical ChemCatChem12,3068–3075.https://doi.
+https://doi.org/10.1002/smll.202304782. oxygenevolutioninhighlyalkaline org/10.1002/cctc.202000315.
+10. Shi,H.,Sun,X.Y.,Liu,Y.,Zeng,S.P.,Zhang, conditions.Nat.Commun.12,5980.https:// 32. Lu,W.,Liu,T.,Xie,L.,Tang,C.,Liu,D.,Hao,
+Q.H.,Gu,L.,Wang,T.H.,Han,G.F.,Wen,Z., doi.org/10.1038/s41467-021-26281-0. S.,Qu,F.,Du,G.,Ma,Y.,Asiri,A.M.,andSun,
+Fang,Q.R.,etal.(2023).Multicomponent 21. Liu,R.,Hou,L.,Yue,G.,Li,H.,Zhang,J.,Liu, X.(2017).InSituDerivedCo-BNanoarray:A
+IntermetallicNanoparticlesonHierarchical J.,Miao,B.,Wang,N.,Bai,J.,Cui,Z.,etal. High-EfficiencyandDurable3DBifunctional
+MetalNetworkasVersatileElectrocatalysts (2022).ProgressofFabricationand ElectrocatalystforOverallAlkalineWater
+forHighlyEfficientWaterSplitting.Adv. ApplicationsofElectrospunHierarchically Splitting.Small13,1700805.https://doi.org/
+Funct.Mater.33,2214412.https://doi.org/10. PorousNanofibers.Adv.FiberMater.4, 10.1002/smll.201700805.
+1002/adfm.202214412. 604–630.https://doi.org/10.1007/s42765- 33. Yu,X.,Han,P.,Wei,Z.,Huang,L.,Gu,Z.,
+11. Zhang,Y.,Gao,F.,Wang,D.,Li,Z.,Wang,X., 022-00132-z. Peng,S.,Ma,J.,andZheng,G.(2018).Boron-
+W Am an o g rp , h C o ., u Z s/ h C a r n y g s , ta K ll . i , n a e n H d e D te u r , o Y s . tr (2 u 0 c 2 tu 3 r ) e . 22. W Ra a m n a g k , r X is . h -X n . a , , Y S u . , , G an .- d F. L , o Z n h g a , n Y g . , -Z J . ., (2 Y 0 u 2 , 1 M ). ., R D e o d p u e c d tio G n ra . p Jo h u e l n e e 2 f , o 1 r 6 E 1 l 0 e – c 1 tr 6 o 2 c 2 a . t h a t ly tp ti s c :/ N /d 2 oi.
+Transition-Metal-basedCatalystsforHigh- Conductivepolymerultrafinefibersvia org/10.1016/j.joule.2018.06.007.
+P R e e r v f . o 4 r 7 m 5 a , n 2 c 1 e 49 W 16 a . te h r tt S p p s l : i / t / t d in o g i . .o C rg o / o 1 r 0 d . . 1 C 01 h 6 e / m j. . e p l r e o c p t e ro rt s i p e i s n a n n in d g a : p P p re li p ca a t r i a o t n io s n . , P p ro h g y . si M ca a l ter.Sci. 34. W an a d n H g a , o S , ., X M .( a 2 , 0 F 1 . 8 , ) J . i B a a n n g d ,H ga ., p S - h T a u o n , a Y b . l , e W Po u r , o Y u ., s
+ccr.2022.214916. 115,100704.https://doi.org/10.1016/j.
+BorocarbonitrideNanosheetsforHigh
+12. Wang,Y.,Luo,W.,Gong,S.,Luo,L.,Li,Y., pmatsci.2020.100704. Energy-DensitySupercapacitors.ACSAppl.
+Zhao,Y.,andLi,Z.(2023).SynthesisofHigh- 23. Zhu,H.,Sun,S.,Hao,J.,Zhuang,Z.,Zhang,S., Mater.Interfaces10,19588–19597.https://
+EntropyAlloyNanoparticlesbyStep-Alloying
+Wang,T.,Kang,Q.,Lu,S.,Wang,X.,Lai,F., doi.org/10.1021/acsami.8b02317.
+StrategyasSuperiorMultifunctional
+Electrocatalyst.Adv.Mater.35,e2302499. etal.(2023).Ahigh-entropyatomic 35. Yang,M.,Shi,D.,Sun,X.,Li,Y.,Liang,Z.,
+environmentconvertsinactivetoactivesites Zhang,L.,Shao,Y.,Wu,Y.,andHao,X.(2020).
+https://doi.org/10.1002/adma.202302499. forelectrocatalysis.EnergyEnviron.Sci.16,
+Shuttleconfinementoflithiumpolysulfidesin
+13. Xin,Y.,Li,S.,Qian,Y.,Zhu,W.,Yuan,H.,
+619–628.https://doi.org/10.1039/ borocarbonitridenanotubeswithenhanced
+Jiang,P.,Guo,R.,andWang,L.(2020).High-
+d2ee03185j. performanceforlithium–sulfurbatteries.
+EntropyAlloysasaPlatformforCatalysis: 24. Liu,H.,Zhang,S.,Liu,L.,Yu,J.,andDing,B. J.Mater.Chem.AMater.8,296–304.https://
+14. F P A 10 a r C o . n 1 S g , 0 r M C 2 e 1 a s ., / s t a a , L c l i C . a s 1 h n c 0 a a g , l t , l a e 1 X l 1 n . . 0 , 2 g c 8 L e 0 i 0 s , 3 – , Q 6 1 a 1 1 . n , 7 3 d . C 06 u O . i, p h L p t . t o , p H r s t : u e / n , /d i X t o i . e , i. s a o . n r d g/ ( N A 2 i 0 a r 1 n F 9 o il ) fi t . r b A a e ti F r o / l N n u . f e f A y t d D F v i u l . t a e F l r u -N E nc n e t a t . w b M o le a r s k te H S r t i . g r 2 u h 9 c - , t E u 1 f r 9 fi e 0 c d i 4 e 1 n 0 c 8 y . 36. d Z K h o a a j i i . y n o o g rg s , h / N 1 i, . 0 , K . C 1 ., 0 a L 3 o i 9 , , / C L c . . 9 , , t F L a i e 1 u n 1 , g 5 Q 0 , . 0 L , e . Y , . a H n u g a , n D g . , , J a . n , dHe,
+Zou,X.(2023).Boron:Akeyfunctional https://doi.org/10.1002/adfm.201904108. J.(2019).Co,N-Codopedporousvanadium
+componentfordesigninghigh-performance 25. Zhang,K.,Li,Z.,Kang,W.,Deng,N.,Yan,J., nitridenanoplatesassuperiorbifunctional
+heterogeneouscatalysts.Chin.Chem.Lett. Ju,J.,Liu,Y.,andCheng,B.(2018). electrocatalystsforhydrogenevolutionand
+34,107275.https://doi.org/10.1016/j.cclet. Preparationandcharacterizationoftree-like oxygenreductionreactions.Nanoscale11,
+2022.02.080. cellulosenanofibermembranesviathe 11542–11549.https://doi.org/10.1039/
+15. Wu,H.,Lu,Q.,Li,Y.,Zhao,M.,Wang,J.,Li,Y., electrospinningmethod.Carbohydr.Polym. c9nr02637a.
+Zhang,J.,Zheng,X.,Han,X.,Zhao,N.,etal. 183,62–69.https://doi.org/10.1016/j. 37. Li,Z.,Xue,K.H.,Wang,J.,Li,J.G.,Ao,X.,Sun,
+(2023).StructuralFramework-Guided carbpol.2017.11.032. H.,Song,X.,Lei,W.,Cao,Y.,andWang,C.
+UniversalDesignofHigh-Entropy 26. Wang,X.,Ding,B.,Sun,G.,Wang,M.,andYu, (2020).CationandAnionCo-doped
+CompoundsforEfficientEnergyCatalysis. J.(2013).Electro-spinning/netting:Astrategy PerovskiteNanofibersforHighlyEfficient
+J.Am.Chem.Soc.145,1924–1935.https:// forthefabricationofthree-dimensional ElectrocatalyticOxygenEvolution.ACSAppl.
+doi.org/10.1021/jacs.2c12295.
+polymernano-fiber/nets.Prog.Mater.Sci.58, Mater.Interfaces12,41259–41268.https://
+16. Tao,L.,Sun,M.,Zhou,Y.,Luo,M.,Lv,F.,Li, 1173–1243.https://doi.org/10.1016/j. doi.org/10.1021/acsami.0c10045.
+M.,Zhang,Q.,Gu,L.,Huang,B.,andGuo,S. pmatsci.2013.05.001. 38. Zhang,Z.,Cai,J.,Zhu,H.,Zhuang,Z.,Xu,F.,
+(2022).AGeneralSyntheticMethodforHigh- 27. Lei,C.,Chen,H.,Cao,J.,Yang,J.,Qiu,M., Hao,J.,Lu,S.,Li,H.,Duan,F.,andDu,M.
+EntropyAlloySubnanometerRibbons.J.Am. Xia,Y.,Yuan,C.,Yang,B.,Li,Z.,Zhang,X., (2020).Simpleconstructionofruthenium
+Chem.Soc.144,10582–10590.https://doi. etal.(2018).FeN4SitesEmbeddedinto singleatomsonelectrospunnanofibersfor
+org/10.1021/jacs.2c03544. CarbonNanofiberIntegratedwith superioralkalinehydrogenevolution:A
+17. Muravev,V.,Parastaev,A.,vandenBosch,Y., ElectrochemicallyExfoliatedGraphenefor dynamictransformationfromclustersto
+Ligt,B.,Claes,N.,Bals,S.,Kosinov,N.,and OxygenEvolutioninAcidicMedium.Adv. singleatoms.Chem.Eng.J.392,123655.
+Hensen,E.J.M.(2023).Sizeofceriumdioxide EnergyMater.8,1801912.https://doi.org/10. https://doi.org/10.1016/j.cej.2019.123655.
+supportnanocrystalsdictatesreactivityof 1002/aenm.201801912. 39. Zhang,Z.,Zhang,T.,andLee,J.Y.(2018).
+highlydispersedpalladiumcatalysts.Science 28. Yang,H.,Chen,Z.,Guo,P.,Fei,B.,andWu,R. EnhancementEffectofBorateDopingonthe
+380,1174–1179.https://doi.org/10.1126/ (2020).B-doping-inducedamorphizationof OxygenEvolutionActivityofa-Nickel
+science.adf9082. LDHforlarge-current-densityhydrogen Hydroxide.ACSAppl.NanoMater.1,
+18. Zheng,Y.,Jiao,Y.,Vasileff,A.,andQiao,S.Z. evolutionreaction.Appl.Catal.BEnviron. 751–758.https://doi.org/10.1021/acsanm.
+(2018).TheHydrogenEvolutionReactionin 261,118240.https://doi.org/10.1016/j. 7b00210.
+AlkalineSolution:FromTheory,SingleCrystal apcatb.2019.118240. 40. Li,Y.,Huang,B.,Sun,Y.,Luo,M.,Yang,Y.,
+Models,toPracticalElectrocatalysts.Angew. 29. Hao,J.,Zhuang,Z.,Cao,K.,Gao,G.,Wang, Qin,Y.,Wang,L.,Li,C.,Lv,F.,Zhang,W.,and
+Chem.,Int.Ed.Engl.57,7568–7579.https:// C.,Lai,F.,Lu,S.,Ma,P.,Dong,W.,Liu,T., Guo,S.(2019).MultimetalBorides
+doi.org/10.1002/anie.201710556. etal.(2022).Unravelingtheelectronegativity- NanochainsasEfficientElectrocatalystsfor
+19. Moloudi,M.,Noori,A.,Rahmanifar,M.S., dominatedintermediateadsorptiononhigh- OverallWaterSplitting.Small15,1804212.
+Shabangoli,Y.,El-Kady,M.F.,Mohamed, entropyalloyelectrocatalysts.Nat.Commun. https://doi.org/10.1002/smll.201804212.
+8 iScience27,109616,May17,2024
+
+iScience
+ll
+Article OPEN ACCESS
+STAR+METHODS
+KEYRESOURCESTABLE
+REAGENTorRESOURCE SOURCE IDENTIFIER
+Chemicals,peptides,andrecombinantproteins
+Anhydrousferrictrichloride ShanghaiAladdinBiochemicalTechnologyCo.,Ltd. CAS#7705-08-0
+Nickelchloridehexahydrate ShanghaiAladdinBiochemicalTechnologyCo.,Ltd. CAS#7718-54-9
+Cobaltchloridehexahydrate ShanghaiAladdinBiochemicalTechnologyCo.,Ltd. CAS#7791-13-1
+Rutheniumchloridetrihydrate ShanghaiAladdinBiochemicalTechnologyCo.,Ltd. CAS#14898-67-0
+Manganesechloridetetrahydrate ShanghaiAladdinBiochemicalTechnologyCo.,Ltd. CAS#13446-34-9
+Polyacrylonitrile ShanghaiAladdinBiochemicalTechnologyCo.,Ltd. CAS#25014-41-9
+Poly(methylmethacrylate) ShanghaiAladdinBiochemicalTechnologyCo.,Ltd. CAS#9011-14-7
+Boricacid ShanghaiAladdinBiochemicalTechnologyCo.,Ltd. CAS#10043-35-3
+N,N-dimethylformamide ShanghaiAladdinBiochemicalTechnologyCo.,Ltd. CAS#68-12-2
+Nafion ShanghaiAladdinBiochemicalTechnologyCo.,Ltd. CAS#31175-20-9
+Potassiumhydroxide ShanghaiMacklinBiochemicalTechnologyCo.,Ltd. CAS#1310-58-3
+RESOURCEAVAILABILITY
+Leadcontact
+Furtherinformationandrequestsforresourcesandreagentsshouldbedirectedtoandwillbefulfilledbytheleadcontact,Yun-ZeLong
+(yunze.long@qdu.edu.cn).
+Materialsavailability
+Nonewreagentswerecreatedinthepresentedresearch.
+Dataandcodeavailability
+(cid:5) Alldatareportedinthispaperwillbesharedbytheleadcontactuponrequest.
+(cid:5) Thispaperdoesnotreportoriginalcode.
+(cid:5) Anyadditionalinformationrequiredtoreanalyzethedatareportedinthispaperisavailablefromtheleadcontactuponrequest.
+METHODDETAILS
+Preparationoflarge-porosityHE-BN/PCNF
+Amixtureof0.5mmolofMnCl $4H O(0.099g),0.5mmolofFeCl (0.081g),0.5mmolofCoCl $6H O(0.119g),0.5mmolofNiCl $6H O
+2 2 3 2 2 2 2
+(0.1188g),and0.5mmolofRuCl $3H O(0.1037g)wasprepared.Additionally,1.5gofPMMA,1.5gofPAN,andvaryingamountsofboric
+3 2
+acidweredissolvedin22gofdimethylformamide(DMF).Themixturewasmagneticallystirredtoformahomogeneoussolution.Theweights
+ofboricacidusedwere0,0.1,0.25,0.65.0.75and0.9g,respectively.Thespinningsolutionwasloadedintoa5mLsyringeforelectrospinning.
+Thevoltagebetweenthenozzleandthereceiverwassetto20kV,theflowrateofthespinningsolutionwas15mLmin-1andthedistancebe-
+tweenthereceiverandthenozzlewas18cm.Subsequently,thenanofiberswerepre-oxidizedat230(cid:1)Cwithaheatingrateof2(cid:1)Cmin-1for3h
+andcarbonizedat1000(cid:1)Cfor3hinanitrogenatmosphereatthesameheatingrate.Finally,theas-synthesizedFeCoNiMnRu-BN-porouscar-
+bonnanofiberswerelabeledasHE-B N/PCNF,HE-B N/PCNF,HE-B N/PCNF,HE-B N/PCNF,HE-B N/PCNF,andHE-B N/PCNF.
+0 10 25 65 75 90
+Instrumentation
+Field-emissionscanningelectronmicroscopy(FE-SEM,Sigma500)fittedwithenergydispersiveX-ray(EDX,Oxford),andtransmissionelec-
+tronmicroscopy(TEM,FEITecnaiG2F20)wereusedtoinvestigatethemorphologiesandstructuresofHE-BN/PCNF.Thecrystalstructure
+andelementalcompositionwerecharacterizedbypowderXRDusingKaradiation(l=1.5406A˚)from10(cid:1)to80(cid:1),andX-rayphotoelectron
+spectroscopy(XPS,ESCALABXi+).
+Electrochemicalcharacterization
+Electrochemicalmeasurementswereallconductedinatypicalthree-electrodesystemat25(cid:1)Cin1.0MKOHusingaCHI760Eelectrochemical
+station.Hg/HgOandagraphiterodwereusedasthereferenceelectrode(RE)andcountelectrode(CE),respectively.Theself-supported
+iScience27,109616,May17,2024 9
+
+iScience
+ll
+OPEN ACCESS Article
+CNFs-basedmaterialswerecutinto0.530.5cm2andservedastheworkingelectrode(WE).Potentialswereconvertedtothereversible
+hydrogenelectrode(RHE)usingtheequationERHE=0.05913pH+0.098V.Pt/C(20wt%),thepowderwastakenasacontrolanddeposited
+onaglassycarbonelectrode(GCE)withadiameterof5mmformeasurement.Topreparetheelectrocatalystink,5mgofelectrocatalystwas
+dispersedinto0.485mLofdeionizedwaterand0.485mLofethanolmixedwith30mLofNafion117solution.Afteranother30minofultra-
+sonication,5mLoftheelectrocatalystinkwascastontheGCEanddriednaturallyintheair.Alllinearsweepvoltammetry(LSV)curves
+wereobtainedatascanrateof5mVs–1with90%iR-compensation.TafelplotswereobtainedaccordingtotheTafelequation:
+h=a+blogj (Equation3)
+whereh,b,andjrepresenttheoverpotential,Tafelslope,andcurrentdensity,respectively.Electrochemicaldoublelayercapacitances(C )
+dl
+weremeasuredbyanalyzingthecyclicvoltammetry(CV)curvesatscanratesof2,4,6,8,10,and12mVs–1intherangeof–0.05to–0.15Vvs.
+Hg/HgO.ByplottingDi/2(Di=i –i ,wherei andi representthepositiveandnegativecurrent,respectively),theCdlcanbecalculatedusing
+p n p n
+theequation:C =Di/2v.Electrochemicalactivesurfacearea(ECSA)wasestimatedbytheequation:ECSA=Cdl/Cs,wherethespecific
+dl
+capacitancevalue(Cs)wastakenas0.04mFcm–2.TheECSA-normalizedLSVcurveswereacquiredusingtheequation:j =i/ECSA,where
+ECSA
+j andirepresentthecurrentdensitynormalizedtoECSAandthecurrentoftheworkingelectrode,respectively.Chronoamperometrywas
+ECSA
+performedtoevaluatethedurabilityofthesamples.
+Calculationmethod
+TheDFTcalculationswerecarriedoutusingtheViennaAb-initioSimulationPackage(VASP)withthefrozen-coreall-electronprojector-
+augment-wave(PAW)method.ThePerdew-Burke-Ernzerhof(PBE)ofgeneralizedgradientapproximation(GGA)wasadoptedtodescribe
+theexchangeandcorrelationpotential.Thecutoffenergyfortheplane-wavebasissetwassetto450eV.A5-layer333Fe(111)slab(180
+Featoms)wasused,andavacuumregionof15A˚ abovethemwasusedtoensurethedecouplingbetweenneighboringsystems.145Featoms
+inFe(111)slabwererandomlyreplacedby44Co,40Ni,15Mn,and46Ruatomstobuildthemodelofpurealloy(Fe Co Ni Mn Ru ).The
+35 44 40 15 46
+B-dopedalloywassimulatedbyinsertingBatomsbetweenthesurfaceandsub-surfaceofFe Co Ni Mn Ru .Thegeometryoptimiza-
+35 44 40 15 46
+tionswereperformeduntiltheforcesoneachionwasreducedbelow0.01eV/A˚,anda13231Monkhorst-Packk-pointsamplingoftheBril-
+louinzonewasused.TheDFT-D3methodwereusedtodescribethevanderWaalsinteraction.
+TheGibbsfree-energy(DG)iscalculatedas
+DG=EDFT+DEZPE (cid:3) TDS (Equation4)
+DE isthedifferencecorrespondingtothezeropointenergybetweentheadsorbedmoleculeandmoleculeinthegasphaseandDSis
+ZPE
+onemoleculeentropybetweenabsorbedstateandgasphase.EDFTisthetotalenergyofDFTcalculatedsystem.
+10 iScience27,109616,May17,2024
+

@@ -1,0 +1,1054 @@
+This article is licensed under CC-BY 4.0
+www.acsaem.org Article
+Exploring the Role of Mo and Mn in Improving the OER and HER
+Performance of CoCuFeNi-Based High-Entropy Alloys
+Armin Asghari Alamdari, Hadi Jahangiri, M. Baris Yagci, Keisuke Igarashi, Hiroaki Matsumoto,
+Amir Motallebzadeh, and Ugur Unal*
+CiteThis:ACSAppl.EnergyMater.2024,7,2423−2435 ReadOnline
+ACCESS *
+Metrics&More ArticleRecommendations sı SupportingInformation
+ABSTRACT: High-entropy alloys (HEAs) are a class of metallic
+materials composed of solid solutions of five or more elements in
+equi-ornear-equiatomicproportions.Thefascinatingpropertiesof
+HEAs have recently attracted considerable attention for water-
+splitting applications. Mechanical alloying (MA) is a method for
+preparing HEAs that results in crystalline, homogeneous materials
+atroomtemperature.Inthiswork,severalCoCuFeNi-basedHEAs
+werepreparedthroughMAandevaluatedaselectrocatalystsforthe
+oxygen evolution reaction (OER), hydrogen evolution reaction
+(HER), and overall water splitting in 1 M KOH. The results
+showed that CoCuFeNiMnMo with the highest amount of
+1.5
+molybdenum exhibited the best OER performance (375 ± 15 mV
+at the current density of 10 mA cm−2), and CoCuFeNiMnMo
+0.5
+with the lowest amount of molybdenum exhibited the best HER activity with lower overpotentials (275 ± 12 mV at the current
+density of 10 mA cm−2) and over 72 h of stability. The assembled CoCuFeNiMnMo (anode)∥CoCuFeNiMnMo (cathode)
+1.5 0.5
+couplerequired1.76Vtoproduce10mAcm−2,andtheFaradaicefficiencyforgeneratedH wasdeterminedtobemorethan80%.
+2
+KEYWORDS: high-entropy alloy, mechanical alloying, oxygen evolution reaction, hydrogen evolution reaction, alkaline electrolyte
+1. INTRODUCTION hydroxides have thus been evaluated as replacements for Pt/
+C as a benchmark for HER catalysts and RuO /IrO as a
+In the current century, rapid population growth and 2 2
+benchmarkforOERcatalysts.10,11However,developmentofa
+technological innovations have led to an unprecedented
+increase in the consumption of conventional fossil fuels, bifunctional electrode, which can carry out both HER and
+presenting significant environmental challenges. This surge in OER in an alkaline medium, is very challenging.
+demand exacerbates the threat of environmental degradation, Transition metal-based electrochemical catalysts have
+underscoringtheurgentneedtotransitiontowardgreenerand garnered significant attention for their role in the anodic
+more sustainable energy sources. Consequently, we have to OER during water electrolysis. These catalysts, particularly
+explore and adopt viable alternatives to fossil fuels to mitigate alloys of iron (Fe), nickel (Ni), and cobalt (Co), owe their
+these environmental risks and ensure a sustainable future.1−3 high efficiency to superior adsorption properties facilitated by
+Overall water splitting is a solution and has been studied the combined sites on the alloy surfaces. Consequently, these
+extensively to contribute to the hydrogen economy as an transitionmetalalloyshavebeeneffectivelyemployedashighly
+alternativetofossilfuels.4Asaresultofitshighenergydensity, efficient OER electrocatalysts.12,13 In addition to improving
+highabundance,andzerocarbonfootprint,hydrogenhasbeen
+mechanical properties, immunity to corrosion, and catalytic
+consideredtheidealandpotentialalternativeenergycarrierto
+efficiency, combining and alloying dissimilar metals can result
+fossil fuels to date.5,6 Furthermore, hydrogen enables the
+in a broad range of beneficial physical and chemical
+storageofrenewableelectricityaschemicalbonds.7Theoverall
+characteristics.14,15
+watersplittingisrealizedbyreductionofwateratthecathode,
+the hydrogen evolution reaction (HER), and oxidation of
+water at the anode, the oxygen evolution reaction (OER).8 In Received: December25,2023
+order to be successful, this process requires the fabrication of Revised: February21, 2024
+cheap, efficient, long-lasting, and scalable electrocatalysts.9 Accepted: February22, 2024
+Thus, there is tremendous work to develop low-cost catalysts Published: March8, 2024
+for overall water splitting, specifically in an alkaline medium.
+Transition metal (TM) nitrides, carbides, oxides, and
+©2024AmericanChemicalSociety https://doi.org/10.1021/acsaem.3c03227
+2423 ACSAppl.EnergyMater.2024,7,2423−2435
+Downloaded
+from
+pubs.​acs.​org/​aaemcq/​article-pdf/​7/​6/​2423/​9551837/​ae3c03227.​pdf
+by
+NATL
+INST
+TECHLGY
+SRINAGAR
+user
+on
+10
+October
+2026
+
+ACS Applied Energy Materials www.acsaem.org Article
+Recent research efforts have concentrated on creating The X-ray fluorescence (XRF) technique (BrukerTMS8 TIGER)
+catalysts that do not rely on expensive noble metals, aiming was used to measure the chemical composition of synthesized
+for affordability. An ideal catalyst, formulated from cheap powders, confirming that all elements specified for the composition
+transition metals, is anticipated to achieve a metal−hydrogen arepresentwithnegligibledifferencesfromthenominalcomposition
+ascanbe seeninTable1.
+(M−H) bond strength that rivals that of platinum (Pt). This
+2.2. Microstructural Characterization. Crystal structures of
+expectation is supported by the “volcano plot,” which
+ball-milledpowderswereanalyzedusingaBrukerD8AdvanceX-ray
+demonstrates that a catalyst’s effectiveness in the hydrogen diffractometer(XRD)equippedwithCuKαradiation(λ=1.5405Å)
+evolution reaction (HER) increases with the strength of the in the range of 2θ = 15−90°. Rietveld refinement was performed
+M−H bond.16 Due to the weak bonding between metals like using TOPAS Academics V5 software. The broadening of profiles
+CoandCuwithH,researchersfocusedonthecombinationof relatedtostrainwasmodeledusingtheGaussianfunction,whilethe
+suchmetalswithclassIMoorNbatomsthatbondHstrongly. broadening associated with particle size was represented by the
+The multicomponent alloy materials like NiMoCo are Lorentzian function. Zeiss Ultra Plus was used for field emission
+scanning electron microscopy (FESEM) images. The microstructure
+expected to have high catalytic activity due to the synergistic
+effects and partially filled d orbitals.17−20 Through the andcrystallinityofthesamplesandthedistributionoftheconstituent
+elementsinthemechanicallyalloyedspecimenswereinvestigatedvia
+incorporation of different elements with Mo, the electro-
+an aberration-corrected high-resolution transmission electron micro-
+chemical efficacy of the catalyst undergoes modification as a scope (HRTEM, Hitachi, HF5000), employing energy-dispersive
+consequenceoftheligandeffectstemmingfromthecreationof spectroscopy(EDS)atanaccelerationvoltageof200kV.Toanalyze
+heteroatomic bonds, as well as the strain effect resulting from X-rayphotoelectronspectroscopy(XPS),aThermoScientificK-αX-
+the adjustment in bond length, thus facilitating the catalytic rayphotoelectronspectrometerwithanAlKαmonochromatorsource
+process.21 Nonetheless, despite their high electrochemistry, (1486.6 eV) was utilized. Avantage 5.9 software was used for fitting
+mosttransitionmetalshavelimitedcorrosionresistance,which the data. All spectra were corrected with respect to a C 1s peak at
+284.5 eV.
+restricts these materials’ usability as electrocatalysts in basic
+and acidic media.22,23 2.3. Electrochemical Measurements. The linear sweep
+voltammetry (LSV) tests were carried out via a three-electrode
+There is a recently developed category of metallic materials
+systemonaBiologicVSPPotentiostattoanalyzetheelectrochemical
+identified as high-entropy alloys (HEAs). They are composed properties of ball-milled electrocatalyst powders where a Hg/HgO
+of solid solutions of five or more elements in equiatomic or electrodeandplatinumsheetwereusedasthereferenceandcounter
+near-equiatomicproportions.24−26ThecharacteristicsofHEAs
+electrodes, respectively, in 1 M KOH medium. The experiment
+are influenced by the high-entropy effect, cocktail effect, and utilized a glassy carbon (GC)electrode with a diameter of 3 mmas
+latticedistortioneffects,whichcanbestrategicallymanipulated theworkingelectrode.Topreparethecatalystink,870μLofethylene
+to enhance the catalytic activity. This involves tuning the
+glycolwasmixedwith130μLofa1wt%Nafionsolution.Intothis
+mixture, 5 mg of catalyst powder was introduced and subjected to
+composition, combining catalytically active metals, and
+ultrasonic treatment for 60 min to ensure uniform distribution.
+controlling the electronic structure, particularly the d-band
+Subsequently,3μLofthisevenlymixedcatalystinkwasappliedtothe
+center, to optimize surface energy and promote selective
+surface of a precleaned GC electrode. The electrode, with the ink
+reactivity in catalytic reactions.27,28 The fascinating properties applied,wasthenlefttodryat60°Cfor6hinanairatmosphere.The
+of HEAs, such as their strength and hardness, resistance to LSV curves were recorded between 1.2 and 1.8 V (vs reversible
+wear, stability under heat, and corrosion resistance, have hydrogen electrode(RHE))and between0.0 and−1.0V (vs RHE)
+recently attracted considerable attention for various applica- for the OER and HER experiments, respectively. For the OER, all
+tions.29−32 Preparation and manufacturing methods used for measurements were conducted in the electrolyte saturated with
+manufacturing HEAs play significant roles in their superior oxygen(O 2 )tomaintaintheO 2 /H 2 Ostabilityandequilibriumat1.23
+V vs RHE. Catalytic activities were evaluated at the potential at the
+properties. At the same time, with the various manufacturing
+current density of 10 mA cm−2. Measured potentials vs Hg/HgO
+methods for preparing HEAs, mechanical alloying (MA) is an
+electrode were converted to potentials vs reversible hydrogen
+optionforpreparingHEAsobtainingcrystallineHEAsthatare
+electrode (RHE) using E = E + 0.059 pH + 0.098. The
+homogeneous at room temperature.33−35 RHE Hg/HgO
+stability test was carried out with a rotating disk electrode (RDE).
+In this work, CoCuFeNi, CoCuFeNiMn, CoCuFeNiMo, The sample on an RDE was prepared by using the same ink as
+CoCuFeNiMnMo , CoCuFeNiMnMo, and CoCuFeNiMn- explained above. The stability of electrocatalysts was tested with the 0.5
+Mo high-entropy alloy powders were prepared via the chronopotentiometrymethodat10mAcm−2underarotationspeed
+1.5 mechanicalalloyingmethodforcatalyzingtheOERandHER. of 1600 rpm. For electrochemical impedance spectroscopy (EIS)
+Anelectrochemicaltest in1 MKOHindicatesthatHEAwith measurements, a sinusoidal potential of 10 mV was applied in a
+frequency range between 100 kHz and 0.1 Hz. Cyclic voltammetry thehighestMoamountexhibitsgreaterOERperformance.On
+(CV) tests were used to determine the double-layer capacitance
+the other hand, HEA with the lowest Mo amount exhibits the
+parameter (C ) to estimate the electrochemically active surface area
+best HER activity, like smaller overpotential and outstanding dl
+(ECSA). CV experiments were carried out at five different scanning
+stability, similar to nanostructured catalysts. rates(10,20,40,60,and80mVs−1)acrossapotentialregionof1.1−
+1.2 V (vsRHE).
+2. MATERIALS AND METHODS Theturnoverfrequency(TOF)wascalculatedattheoverpotential
+2.1. Synthesis of Electrocatalysts. Homogeneous equiatomic of 380 mVwiththe followingequation:
+and nonequiatomic CoCuFeNi, CoCuFeNiMn, CoCuFeNiMo,
+jA
+CoCuFeNiMnMo , CoCuFeNiMnMo, and CoCuFeNiMnMo TOF=
+0.5 1.5 4Fm
+high-entropyalloypowdersweresynthesizedvia mechanicalalloying M (1)
+(MA) using elemental metal powders with 99.9% purity. Metal
+powders were ball-milled for 10 h at 400 rpm with a ball-to-powder where j refers to the current density (mA cm−2) at the specified
+weight ratio (BPR) of 10:1 with a high-speed planetary ball mill overpotential, A represents the working electrode’s surface area, F
+(RestchTMPM200)intheMAexperiment.Mixtureswereprepared showstheFaradayconstant(96,485Cmol−1),mistheweightofthe
+andfilledinmillsinagloveboxunderanargonatmospheretoavoid catalyst, and M indicates the molecular weight of the mechanically
+oxidationthroughoutthe ballmilling process. alloyed HEA catalyst.36
+2424 https://doi.org/10.1021/acsaem.3c03227
+ACSAppl.EnergyMater.2024,7,2423−2435
+Downloaded
+from
+pubs.​acs.​org/​aaemcq/​article-pdf/​7/​6/​2423/​9551837/​ae3c03227.​pdf
+by
+NATL
+INST
+TECHLGY
+SRINAGAR
+user
+on
+10
+October
+2026
+
+The overall water-splitting reaction was conducted in a two-cell
+configuration utilizing a graphite electrode (GE) as the catalyst
+substrate.Theelectrolyteusedintheexperimentwasa1.0Msolution
+of KOH. The anode and cathode electrodes were prepared by
+droppingtheink(thesameinkpreparedfortheGCelectrode)onto
+the GEtocoveranareaof0.5cm×0.3cm.Agaschromatography
+instrument (GC-2014 SHIMADZU with 3-valve manual sampling
+port, Molecular Sieve 5A column), with Ar as the carrier gas, was
+utilized to quantify the hydrogen (H) and oxygen (O) gases
+2 2
+produced. The cell was connected to the sampling port of GC and
+constantlyfedwithArgasat25mL/mintocarrytheproductstothe
+GC. The volume of the sampling port was 0.5 mL. The gaseous
+productsweremonitoredevery20minbyapplyingacurrentdensity
+of 20 mA cm−2 to the two-electrode cell, which was carefully sealed
+for 120 min. The Faradaic efficiency of the hydrogen evolution
+reaction (HER)was calculatedusing eq2
+FE=(n )/(Q/nF)
+exp (2)
+where n shows the number of H moles created at 20 mA cm−2
+exp 2
+currentdensity,Qisthetotalchargegenerated,nreferstothenumber
+of electrons exchanged, which equals 2 for the HER, and F is
+Faraday’s constant(96,485 Cmol−1).37
+After the completion of long-term stability experiments, the 1 M
+KOHelectrolyteemployedwassubjectedtoanalysisusinginductively
+coupledplasmamassspectrometry(ICP-MS,Agilent7700x)inorder
+to determine the levels of constituent elemental ions that were
+released.
+3. RESULTS AND DISCUSSION
+3.1. Characterization of the Mechanically Alloyed
+Powders. Figure 1 shows the XRD patterns of the
+mechanically alloyed CoCuFeNi, CoCuFeNiMn, CoCuFeNi-
+Mo, CoCuFeNiMnMo , CoCuFeNiMnMo, and CoCuFe-
+0.5
+NiMnMo powders. As shown in Figure 1, a single-phase
+1.5
+FCC structure was achieved for CoCuFeNi and CoCuFe-
+NiMn. However, CoCuFeNiMo, CoCuFeNiMnMo , CoCu- 0.5
+FeNiMnMo,andCoCuFeNiMnMo alloysarecomposedofa
+1.5
+mixture of FCC and BCC phases. The positions of the
+diffractionpeaksfortheFCCphaseareapproximatelyat2θ=
+44, 53, and 75°. Also, the positions for BCC phases are at
+approximately 2θ = 39, 58, and 75°.
+FRX
+yb
+derusaeM
+sredwoP
+dezisehtnyS
+eht
+fo
+snoitisopmoC
+lacimehC
+.1
+elbaT
+oM
+nM
+iN
+eF
+uC
+oC
+%tw
+%mota
+%tw
+%mota
+%tw
+%mota
+%tw
+%mota
+%tw
+%mota
+%tw
+%mota
+15.0±35.52
+42.0±35.52
+84.0±24.32
+42.0±68.42
+35.0±02.62
+32.0±44.42
+34.0±16.42
+02.0±57.42
+iNeFuCoC
+±11.91
+±43.02
+16.0±2.02
+12.0±31.02
+25.0±37.91
+81.0±66.02
+06.0±3.12
+81.0±06.91
+85.0±24.91
+91.0±72.91
+nMiNeFuCoC
+06.0
+22.0
+±48.82
+±90.02
+16.0±9.71
+32.0±93.02
+66.0±71
+72.0±53.02
+06.0±7.81
+12.0±86.91
+85.0±81.71
+22.0±94.91
+oMiNeFuCoC
+62.0
+60.0
+±41.41
+70.0±11.9
+17.0±6.61
+±76.81
+56.0±4.71
+91.0±23.81
+16.0±7.61
+81.0±84.81
+26.0±5.81
+61.0±00.81
+36.0±6.61
+81.0±14.71
+oMnMiNeFuCoC
+5.0
+53.0
+12.0
+±57.42
+±17.61
+18.0±2.41
+±57.61
+86.0±3.51
+81.0±98.61
+96.0±8.41
+91.0±71.71
+56.0±1.61
+61.0±24.61
+86.0±6.41
+81.0±50.61
+oMnMiNeFuCoC
+72.0
+50.0
+32.0
+±29.23
+±54.32
+29.0±4.21
+±61.51
+27.0±8.31
+71.0±97.51
+67.0±2.31
+02.0±88.51
+96.0±2.41
+51.0±10.51
+47.0±9.21
+81.0±07.41
+oMnMiNeFuCoC
+5.1
+32.0
+30.0
+42.0
+ACS Applied Energy Materials www.acsaem.org Article
+Figure 1. X-ray diffraction patterns of the mechanically alloyed
+CoCuFeNi, CoCuFeNiMn, CoCuFeNiMo, CoCuFeNiMnMo ,
+0.5
+CoCuFeNiMnMo,and CoCuFeNiMnMo powders. 1.5
+2425 https://doi.org/10.1021/acsaem.3c03227
+ACSAppl.EnergyMater.2024,7,2423−2435
+Downloaded
+from
+pubs.​acs.​org/​aaemcq/​article-pdf/​7/​6/​2423/​9551837/​ae3c03227.​pdf
+by
+NATL
+INST
+TECHLGY
+SRINAGAR
+user
+on
+10
+October
+2026
+
+ACS Applied Energy Materials www.acsaem.org Article
+In traditional solid solutions, the rules of formation are exhibited an FCC structure. However, as Guo et al.
+guidedbythecharacteristicsofalloyscomposedofoneortwo mentioned,40 there could be some exceptions for the crystal
+principalelements.AccordingtoHume−Rothery’srule,factors structure with certain compositions. Cichooki et al. have
+such as the size difference between atoms, electronegativity, argued that in HEAs with a Mo content above 10 atom %, a
+the spatial arrangement of atoms or ions within a crystal mixedstructure(FCC+BCC)maycoexist,44whichcorrelates
+structure, and valency are pivotal in the formation of solid with our results.
+solutions. However, the formation process of simple solid In all mechanically alloyed CoCuFeNi, CoCuFeNiMn,
+solutions in HEAs diverges from these established patterns CoCuFeNiMo, CoCuFeNiMnMo , CoCuFeNiMnMo, and
+0.5
+seen in conventional alloys.38 According to Guo et al., other CoCuFeNiMnMo powders, percentage of crystallinity,
+1.5
+factors in addition to mixing entropy (ΔS ), including phases (BCC or FCC), percentage of phases, space groups,
+mix
+valence electron concentration (VEC), mixing enthalpy crystallite size, lattice strain, and lattice parameter were
+(ΔH ), and atomic size difference (δ), are also useful in determined by Rietveld refinement analysis and the results
+mix
+predictingtheformationofsolidsolutionsinHEAs.39,40ΔS , are given in Table 3. The goodness of fit parameter (χ2) for
+mix
+ΔH , δ, and VEC can be defined as the Rietveld refinement was between 2.3 and 2.8, which is a
+mix
+n typical value for optimal fitting. As given in Table 3, the
+S = R C lnC addition of Mo results in the formation of the BCC structure.
+mix i i
+i=1 (3) Inaddition,theamountoftheBCCstructureincreasedasthe
+amount of Mo increased in the structure.44,45 n
+H = 4 HmixCC 3.2. Morphology of Mechanically Alloyed Powders.
+mix ij i J The evolution of the shape of mechanically alloyed powder
+i=1,i j (4)
+after10hofhigh-energyballmillingwasfollowedbyscanning
+n electron microscopy (SEM) as shown in Figure 2 (Figure S1
+= 100 C(1 r/r)2 for higher magnifications). As is visible in Figure 2, the
+i i
+i=1 (5) mechanicallyalloyedpowdershaveaplate-likestructurewitha
+large aspect ratio. More specifically, all of the mechanically
+n
+alloyed powders become more and more anisotropic and can
+VEC = C(VEC)
+i i be qualified as “flakes” as evidenced by higher magnification
+i=1 (6) SEM images.46,47 The composition of mechanically alloyed
+Intheaboveequations,Rrepresentsthegasconstant(8.314J HEAs does not influence the final shape of the powders.
+(K mol)−1), the concentrations of components i and j are High-resolution transmission electron microscopy
+represented by C and C, respectively, as molar percentages, (HRTEM)imagesofCoCuFeNiMnMo andCoCuFeNiMn-
+i j 0.5
+∑ n C = 1, ΔHmix is the enthalpy of mixing between Mo are given in Figures 3 and 4, respectively (different
+i= 1 i ij 1.5
+components i and j, and r and (VEC) are the atomic radius magnifications in Figures S2 and S3). The selected area
+i i
+and the VEC of the ith component, respectively.41 The basic electron diffraction (SAED) patterns are also given to identify
+properties of mechanically alloyed HEAsare calculatedby eqs the crystalline structure of the mechanically alloyed HEAs.48
+3−6 and listed in Table 2. The SAED pattern can be assigned to both BCC and FCC in
+accordance with the XRD results. As is obvious in Figure 3b,
+Table 2. Parameters of ΔS, ΔH, δ, and VEC for for CoCuFeNiMnMo 0.5 , the lattice fringes display an
+Mechanically Alloyed CoCuFeNi, CoCuFeNiMn, interplanar spacing of 0.210 and 0.189 nm, corresponding to
+CoCuFeNiMo, CoCuFeNiMnMo , CoCuFeNiMnMo, and the (111) crystal plane and (200) crystal plane of the HEA,
+0.5 CoCuFeNiMnMo Powders respectively.
+1.5
+According to Figure 4b, the lattice fringes for CoCuFe-
+VEC ΔS mix J/(K·mol) ΔH mix (kJ/mol) δ NiMnMo show an interplanar spacing of 0.222 and 0.208
+1.5
+CoCuFeNi 9.5 11.52 5 4.63 nm,whichcorrespondtothe(110)and(111)crystalplanesof
+CoCuFeNiMn 9 13.38 1.76 4.61 the HEA, respectively.
+CoCuFeNiMo 8.8 13.38 4 4.76 Elemental EDS mapping of the CoCuFeNiMnMo and
+0.5
+CoCuFeNiMnMo 0.5 8.7 14.69 2.11 4.62 CoCuFeNiMnMo 1.5 samples confirms that six elements, Co
+CoCuFeNiMnMo 8.5 14.91 2.33 4.54 (yellow),Cu(violet),Fe(orange),Ni(red),Mn(green),and
+CoCuFeNiMnMo 1.5 8.3 14.78 2.46 4.44 Mo (cyan) are homogeneously distributed over the selected
+particle area as depicted in Figures 3c and 4c. It may be
+According to Guo et al., solid solutions can form in HEAs claimed that during the mechanical alloying process, the
+when−22≤ΔH ≤7kJmol−1,0≤δ≤8.5,and11≤ΔS diffusionoftheconstituentelementsintothestructureandthe
+mix mix
+≤ 19.5 J/(K·mol).42 Based on these findings and the consequenthigh-entropyeffectcausestheconstituentelements
+calculations presented in Table 2, solid solutions are most to distribute uniformly with no separation of phases.49
+likely to form in mechanically alloyed powders. 3.3.XPSStudy.Theelectrocatalyticactivityofacatalystis
+ItisimportanttonotethatavalueofVEClessthan6.87will directly related to its surface chemistry; therefore, the
+stabilize a BCC solid solution; a value of VEC between 6.87 oxidation levels of the HEA catalysts were analyzed using
+and8.0willcreateatwo-phaseFCC+BCCsolidsolution,and XPS.50 The XPS data of the specimens and their fitted graphs
+a value of VEC greater than 8 will stabilize an FCC solid can be found in Figures S4−S9. The Co 2p spectrum can be
+solution.42,43AccordingtothecalculatedVECvaluesinTable studied in three pairs of doublets: a doublet at Co 2p at
+3/2
+2,VECvaluesdecreasedwithanincreaseinMocontent.Based 778.05 ± 0.05 eV representing metallic Co, and two spin−
+on the above-mentioned VEC rule, CoCuFeNi and CoCuFe- orbit peaks with Co 2p at 780 ± 0.1 eV and satellites at
+3/2
+NiMn powders, with VEC values of 9.5 and 9, respectively, 785.8 ± 0.1 than can be attributed to CoO. For the Cu
+2426 https://doi.org/10.1021/acsaem.3c03227
+ACSAppl.EnergyMater.2024,7,2423−2435
+Downloaded
+from
+pubs.​acs.​org/​aaemcq/​article-pdf/​7/​6/​2423/​9551837/​ae3c03227.​pdf
+by
+NATL
+INST
+TECHLGY
+SRINAGAR
+user
+on
+10
+October
+2026
+
+ACS Applied Energy Materials www.acsaem.org Article
+Table 3. Some Microstructural Characteristics for the Mechanically Alloyed CoCuFeNi, CoCuFeNiMn, CoCuFeNiMo,
+CoCuFeNiMnMo , CoCuFeNiMnMo, and CoCuFeNiMnMo Powders Obtained by Rietveld Refinement
+0.5 1.5
+crystallinity(C)amorphous space crystallitesize latticestrain
+(A) structure amount group (nm) (%) a(Å)
+CoCuFeNi 99.4%(C)0.6%(A) FCC 100% Fm3̅m 15.5±0.71 0.05±0.01 3.6422±0.0041
+CoCuFeNiMn 99.8%(C)0.2%(A) FCC 100% Fm3̅m 20.5±0.75 1.11±0.07 3.6431±0.0037
+CoCuFeNiMo 99.96%(C)0.04%(A) FCC 76.94%±0.23 Fm3̅m 14.7±0.53 1.12±0.09 3.6458±0.0019
+BCC 23.06%±0.14 Im3̅m 19.8±0.66 0.987±0.02 3.1523±0.0014
+CoCuFeNiMnMo 95.75%(C)4.25%(A) FCC 88.97%±0.43 Fm3̅m 8.2±0.14 2.3±0.09 3.6188±0.0058
+0.5
+BCC 11.03%±0.20 Im3̅m 42.1±0.82 0.3±0.05 3.1345±0.0011
+CoCuFeNiMnMo 94.79%(C)5.21%(A) FCC 77.42%±0.37 Fm3̅m 9.8±0.18 1.91±0.04 3.6346±0.0025
+BCC 22.58%±0.17 Im3̅m 22.9±0.73 0.809±0.03 3.1519±0.0012
+CoCuFeNiMnMo 93.7%(C)6.3%(A) FCC 71.60%±0.38 Fm3̅m 13.3±0.41 1.28±0.07 3.6099±0.0072
+1.5
+BCC 28.40%±0.22 Im3̅m 15.1±0.58 1.23±0.07 3.1427±0.0021
+Figure 2. FESEM images of (a) CoCuFeNi, (b) CoCuFeNiMn, (c) CoCuFeNiMo, (d) CoCuFeNiMnMo , (e) CoCuFeNiMnMo, and (f)
+0.5
+CoCuFeNiMnMo powders.
+1.5
+element, in the Cu 2p spectra, Cu 2p and Cu 2p are eV for Ni 2p , but the peak at 855.6 ± 0.3 eV for Ni 2p
+3/2 1/2 3/2 3/2
+detectedat932.5±0.2and952.2±0.1eV,respectively,which confirmstheexistenceofNiOandasatelliteat861.1±0.2.In
+correspond to metallic Cu, while Cu 2p and Cu 2p are theMn2pspectra,metallicMnat641.6±0.2eVanddifferent
+3/2 1/2
+observedat934.8±0.1and954.3±0.2eV,whichcorrespond oxidation states are obvious. In the case of Mo, the Mo 3d
+toCu2+,andsatellitesat943.7±0.2eV.ForFe2pspectra,two spectraaresplitintotwopeaksat227.9±0.1and232.1±0.1
+noticeable peaks are detected, which can be attributed to eV,andaccordingly,theyareinagreementwiththeproperties
+metallic Fe (Fe 2p at 707.3 ± 0.1 eV and Fe 2p at 720.3 of metallic Mo and MoO , respectively. The introduction of
+3/2 1/2 3
+eV) and Fe2+ (Fe 2p at 712.1 eV and Fe 2p at 724.8 ± Mo into multiatomic structures and HEAs containing Fe, Ni,
+3/2 1/2
+0.1).TheNi2pspectraindicatethemetallicNiat825.8±0.1 Cu, and Co results in a slight shift in the XPS peaks of these
+2427 https://doi.org/10.1021/acsaem.3c03227
+ACSAppl.EnergyMater.2024,7,2423−2435
+Downloaded
+from
+pubs.​acs.​org/​aaemcq/​article-pdf/​7/​6/​2423/​9551837/​ae3c03227.​pdf
+by
+NATL
+INST
+TECHLGY
+SRINAGAR
+user
+on
+10
+October
+2026
+
+ACS Applied Energy Materials www.acsaem.org Article
+Figure 3.For the CoCuFeNiMnMo sample, (a) SAEDpattern,(b)HRTEM image,and (c)TEM-EDS elemental mapping.
+0.5
+metals.36,49,51−53 The shift is evidence of electron transfer clearly be attributed to the oxidization of HEA electrodes in
+between the atom on the surface, which may favor the theair.24,48ThepeaksofO1sat529.8,531.2,and533.1eVin
+adsorption of reaction intermediates on reactive sites at the the XPS spectra (Figures S4−S9 in SI) correspond to the
+surface. Higher valence state metals on the surface supply characteristics of metal oxide, metal hydroxide, and adsorbed
+active sites with favorable electronic structure. We have not H O,respectively.ThebroaderandfeaturelessO1speakafter
+2
+observed a significant shift in peak positions, but there is an the incorporation of Mo into the structure can be assigned to
+apparent decrease in the intensities of Ni0, Fe0, Cu0, and Co0 the variety of M−OH bonds on the surface of Mo-containing
+peaks relative to the peaks corresponding to the higher HEAs.
+oxidation state of these metals after the incorporation of Mn 3.4. OER Activity. OER performance of the mechanically
+and Mo atoms into the HEA structure (Figures S4−S9 in the alloyed samples was evaluated in 1 M KOH electrolyte
+Supporting Information (SI)), which is evidence of strong saturated with O . As shown in Figure 5a, linear sweep
+2
+electronic interaction between these metals. Mo exists in its voltammetry(LSV)measurementwasperformedatascanrate
+metallic and +6 state. The latter is important for optimization of10mVs−1.Inordertogainacomprehensiveunderstanding
+of the electronic structure at the surface. XPS analysis also ofOERmechanisms,TafelplotsofOERswereplottedagainst
+shows that oxygen is present on the surfaces of HEAs. The thecurrentdensityastherequiredoverpotential.Todetermine
+existence of oxides on the surface of the HEA electrodes can the OER kinetics, the slopes of these plots are taken into
+2428 https://doi.org/10.1021/acsaem.3c03227
+ACSAppl.EnergyMater.2024,7,2423−2435
+Downloaded
+from
+pubs.​acs.​org/​aaemcq/​article-pdf/​7/​6/​2423/​9551837/​ae3c03227.​pdf
+by
+NATL
+INST
+TECHLGY
+SRINAGAR
+user
+on
+10
+October
+2026
+
+ACS Applied Energy Materials www.acsaem.org Article
+Figure 4.For the CoCuFeNiMnMo sample, (a) SAEDpattern,(b)HRTEM image,and (c)TEM-EDS elemental mapping.
+1.5
+account. Figure 5b shows the Tafel slopes of mechanically OER gets underway and potential is applied, the surface,
+alloyedHEAs.TheTafelslopeisobtainedfromtheLSVcurve alreadysaturatedwithadsorbedintermediates,contributestoa
+by decrease in the OER process’ kinetic rate. Subsequently, there
+is an escalation in the value of the Tafel slope. This
+= a + blogj (7) electrochemical behavior was also observed in the literature.54
+For the CoCuFeNiMnMo electrocatalyst, long-term elec-
+, j, and b represent the overpotential, corresponding current 1.5
+trolysis stability (Figure 5d) was investigated at the current
+density, and Tafel slope, respectively.
+density of 10 mA cm−2, and the HEA electrode displayed a
+A summary of the overpotentials and slopes of the Tafel
+stable overpotential for 72 h. Remarkably, the outcome of the
+curvesfortheelectrocatalystsisshowninFigure5c.Asshown
+inFigure5c,theoverpotentialtoachieve10mAcm−2current ICP-MS examination conducted after 72 h revealed that the
+densitywas480±12,420±10,410±14,395±12,and375 presence of dissolved Co, Cu, and Mo ions in the electrolyte
+± 15 mV for CoCuFeNiMn, CoCuFeNiMo, CoCuFeNiMn- was extremely low, and no detection of other elements was
+Mo , CoCuFeNiMnMo, and CoCuFeNiMnMo , respec- observed. The experiments revealed that the insertion of Mo
+0.5 1.5
+tively. Also, the equimolar CoCuFeNiMo electrocatalyst into CoCuFeNi enhances the OER activity. On the other
+exhibits a smaller Tafel slope of 61 mV/decade compared to hand, the contribution of Mn in the structure and producing
+theothermechanicallyalloyedHEAelectrocatalysts.Whenthe equimolarCoCuFeNiMnHEAresultintheslightestimprove-
+2429 https://doi.org/10.1021/acsaem.3c03227
+ACSAppl.EnergyMater.2024,7,2423−2435
+Downloaded
+from
+pubs.​acs.​org/​aaemcq/​article-pdf/​7/​6/​2423/​9551837/​ae3c03227.​pdf
+by
+NATL
+INST
+TECHLGY
+SRINAGAR
+user
+on
+10
+October
+2026
+
+ACS Applied Energy Materials www.acsaem.org Article
+Figure 5. Electrochemical investigations for the OER in 1.0 M KOH. (a) LSV curves of different catalysts (results are not IR-corrected), (b)
+correspondingTafelslopes,(c) Tafelslope comparedto the overpotential,and (d)chronopotentiometry stability test.
+mentintheOERperformance.Duetothis,otherfactors,such that of CoCuFeNi, demonstrating that this composition is
+as electronic effects and cocktail effects, are potentially more beneficial for the best electrocatalytic performance.
+effective for performance improvement than the high-entropy As can be seen in Figure 6c, the plotted Tafel slopes for
+effect.55,56IncorporationofMointotheHEAstructuresresults mechanically alloyed catalysts show a correlation between
+in a change in the electronic state of surface atoms, which current density and overpotential, which can be used to study
+favors the adsorption of intermediate spaces on the catalyst HER kinetics and eventually determine its mechanism. In
+surface. The OER performance of the CoCuFeNiMnMo theory, the Volmer adsorption and desorption processes in an
+1.5
+catalyst was found to be superior to that of other transition alkali solution follow two paths:
+metal-based electrocatalysts, as reported in Table S1 and Volmer step: H O + e OH + H 2 ad
+Figure S10. Additionally, Table S1 presents a comparative
+analysis of the overpotential for the OER between the Heyrovsky step: H 2 O + e + H ad OH + H 2
+synthesized HEA and commercially employed electrocatalysts
+In alkaline media, H represents hydrogen adsorption.
+as well as the state-of-the-art noble metal system. This ad
+According to the Volmer adsorption process, hydrogen
+evidence highlights the potential of HEA as a viable option
+binds to the catalyst in alkaline media, followed by the
+for electrocatalytic applications.
+Heyrovsky step, which desorbs it.
+3.5. HER Activity. Similar to the case for the OER, the
+Tafel slopes in the Volmer−Heyrovsky mechanism are
+catalyst powders for the HER were loaded on the GC typically within therangeof 40−120 mV dec−1.57 Asreported
+electrodes,andanegativepotentialwindowwasgeneratedin1
+in Figure 6c, the Tafel slope of CoCuFeNiMo is 125 mV
+M KOH. An illustration of the relevant LSV curves and their dec−1, showing that the CoCuFeNiMo catalyst has the most
+TafelslopescanbefoundinFigure6a,b.Figure6csummarizes
+rapid kinetics in the HER. For the CoCuFeNiMnMo
+0.5
+the overpotentials and Tafel slopes of mechanically alloyed electrocatalyst, long-term electrolysis stability was investigated
+electrocatalyst specimens. According to this figure, the (Figure 6d) at the current density of 10 mA cm-2, and the
+overpotential for attaining −10 mA cm−2 current density was CoCuFeNiMnMo HEA electrode displayed a stable over-
+0.5
+605±10,445±14,286±11,275±12,315±14,and385± potentialfor72h.Finally,FigureS11comparesLSVcurvesfor
+13 mV for CoCuFeN, CoCuFeNiMn, CoCuFeNiMo, the HER potential region before and immediately after the
+CoCuFeNiMnMo , CoCuFeNiMnMo, and CoCuFeNiMn- stability test. The LSV curves showed little overpotential
+0.5
+Mo , respectively. The results show that the overpotential of increase at −10 mA cm−2 from 278 to 311 mV (89%
+1.5
+CoCuFeNiMnMo (275 ± 12 mV) was much smaller than retention) after 72 h. Notably, the results of the ICP-MS
+0.5
+2430 https://doi.org/10.1021/acsaem.3c03227
+ACSAppl.EnergyMater.2024,7,2423−2435
+Downloaded
+from
+pubs.​acs.​org/​aaemcq/​article-pdf/​7/​6/​2423/​9551837/​ae3c03227.​pdf
+by
+NATL
+INST
+TECHLGY
+SRINAGAR
+user
+on
+10
+October
+2026
+
+ACS Applied Energy Materials www.acsaem.org Article
+Figure 6. Electrochemical investigations for the HER in 1.0 M KOH. (a) LSV curves of different catalysts (results are not IR-corrected), (b)
+correspondingTafelslopes,(c) Tafelslope comparedto the overpotential,and (d)chronopotentiometry stability test.
+Figure7.(a)ECSAandTOFvaluesofCoCuFeNiMnMo ,CoCuFeNiMnMo,andCoCuFeNiMnMo and(b)EISNyquistspectraofproduced
+0.5 1.5
+powders.
+analysis performed after 72 h indicated that the levels of Co, Mo is better than that of other transition metal-based
+0.5
+Cu,andMoionsdissolvedintheelectrolytewereexceptionally electrocatalysts, as shown in Table S2 and Figure S12.
+minimal, and no evidence of other elements was found. The Additionally, an examination was conducted to assess the
+remarkablecatalyticcharacteristicsofhigh-entropyalloyscould impact of employing various counter electrodes on the
+be explained by the electronic effects resulting from the overpotential of the OER and HER. Two optimal samples
+particular atomic configuration and structure, as well as the for the HER and OER were selected, and the Pt counter
+synergic effect, which is commonly known as the “cocktail electrode was substituted with a pure graphite electrode. The
+effect”inHEAs.49,58TheHERperformanceofCoCuFeNiMn- outcomes depicted in Figure S13 indicated that altering the
+2431 https://doi.org/10.1021/acsaem.3c03227
+ACSAppl.EnergyMater.2024,7,2423−2435
+Downloaded
+from
+pubs.​acs.​org/​aaemcq/​article-pdf/​7/​6/​2423/​9551837/​ae3c03227.​pdf
+by
+NATL
+INST
+TECHLGY
+SRINAGAR
+user
+on
+10
+October
+2026
+
+ACS Applied Energy Materials www.acsaem.org Article
+Figure 8. Electrochemical investigations of two-electrode overall water-splitting cells. (a) Chronopotentiometric curves of CoCuFeNiMn-
+Mo ∥CoCuFeNiMnMo ,(b)theoreticalandexperimentalH productionasafunctionoftheworktimesfortheoverallwater-splittingprocess,
+1.5 0.5 2
+and(c) Faradaicefficiencyof producedH gas.
+2
+counter electrode does not influence the overpotential for electrocatalysts are 1.925, 1.3, and 1.175 for CoCuFeNiMn-
+HER and OER. Mo , CoCuFeNiMnMo, and CoCuFeNiMnMo , respec-
+1.5 0.5
+3.6. Surface Analysis of the HEA Electrode. The tively,aspresentedinFigure7a.Ithasbeendemonstratedthat
+electrochemically active surface area (ECSA) was estimated anincreaseintheconcentrationofMo(molybdenum)leadsto
+with the double-layer capacitance (C dl ) method. In order to acorrespondingincreaseintheECSA.This,inturn,resultsin
+examinetheECSA,CVsatfivedifferentscanratesintherange enhanced catalytic activity for the oxygen evolution reaction
+of10−80mV/swereconductedinthepotentialrangeof1.1− (OER)duetothelargerECSA.60Also,TOFdemonstratesthe
+1.2 V. The corresponding CVs are depicted in Figure S14.
+same order, and TOF of the CoCuFeNiMnMo catalyst
+1.5
+ECSA was calculated from the following equation: presentsahighervalueof0.004s−1attheoverpotentialof380
+ECSA = C dl /C s (8) mV,whichisincreased2timescomparedtotheTOFvalueof
+CoCuFeNiMnMo , which is 0.002 s−1.
+0.5
+inwhichC representthesample’sspecificcapacitanceandC The EIS technique was used to analyze the interfacial
+s dl
+is the double-layer capacitance estimated from the i vs ν plot behavior of HEA electrodes, and the impact of constituent
+c
+according to the equation elements on the EIS was investigated and is presented in
+Figure 7b. In this case, the high-frequency resistance indicates
+i c = C dl (9) thesolutionresistance(R),whilethearcradiusoftheNyquist
+s
+where i c is the charging current and ν is the scan rate. plot represents the charge transfer resistance (R ct ).61,62
+It has been previously indicated that C s equals 0.040 mF Obviously, the CoCuFeNiMnMo 1.5 electrode had a lower R s
+cm−2in1MKOHsolution.59FromFigureS14,thecalculated of 0.51 Ω cm2 and R
+ct
+of 57.6 Ω cm2 than the other HEA
+C value for CoCuFeNiMnMo is 0.077 mF cm−2, which is electrodes, which could be ascribed to the developed rate of
+dl 1.5
+larger than the obtained results for CoCuFeNiMnMo and the charge transfer and conversion of intermediates. Also,
+CoCuFeNiMnMo (0.052and0.047mFcm−2, respectively). CoCuFeNiMnMoandCoCuFeNiMnMo exhibitedsmallR
+0.5 0.5 ct
+Calculated ECSA values for the mechanically alloyed HEA values of 86.8 and 107.7 Ω cm2, respectively. The detailed
+2432 https://doi.org/10.1021/acsaem.3c03227
+ACSAppl.EnergyMater.2024,7,2423−2435
+Downloaded
+from
+pubs.​acs.​org/​aaemcq/​article-pdf/​7/​6/​2423/​9551837/​ae3c03227.​pdf
+by
+NATL
+INST
+TECHLGY
+SRINAGAR
+user
+on
+10
+October
+2026
+
+ACS Applied Energy Materials www.acsaem.org Article
+resultsoftheEIStestcanbefoundinTableS4.Thesefindings Additional details such asrelated SEM, TEM, and XPS;
+areconsistentwiththeLSVcurvesfortheOERinFigure5aas and electrochemistry data; data comparison; FESEM
+well as the ESCA and TOF values in Figure 7a. images; HRTEM images; summary of OER and HER
+3.8. Overall Water Splitting. For overall water splitting, activity of HEAs; and summary of long-term stability of
+as seen in Figure 8a, a chronopotentiometric stability test for HEAs (PDF)
+CoCuFeNiMnMo ∥CoCuFeNiMnMo was performed at a
+1.5 0.5 ■
+currentdensityof20mAcm−2for72hin1MKOH.Also,the
+AUTHOR INFORMATION
+chronopotentiometry stability test for GE∥GE was done
+Corresponding Author
+(Figure S15a) at the same conditions, and after 1 h, the
+Ugur Unal − Koç University Surface Science and Technology
+currentdensitywascontinuouslydecreased.Asisevidentfrom
+Center (KUYTAM) and Koc University Tupras Energy
+Figure S15b, the CoCuFeNiMnMo ∥CoCuFeNiMnMo
+1.5 0.5 Center (KUTEM), Koc University, Sariyer 34450 Istanbul,
+electrolyzer requires a 1.76 V cell voltage to achieve the 10
+mA cm−2 current density. In the end, a well-sealed cell was Turkiye; Department of Chemistry, Koc University, Sariyer
+34450 Istanbul, Turkey; orcid.org/0000-0003-4718-
+usedforquantitativelycollectingtheH gasgeneratedatarate
+of 20 mA cm−2. A comparison wa 2 s made between the 1243; Email: ugunal@ku.edu.tr
+measured H 2 and theoretical values based on the supplied Authors
+charges (Figure 8b). As shown in Figure 8b, there is a ArminAsghariAlamdari−MaterialsScienceandEngineering
+reasonable correlation between the measured and theoretical Department, Koc University, Sariyer 34450 Istanbul,
+amountsofH 2 gas.Therefore,eq2canbeusedtocalculatethe Turkiye; Koç University Surface Science and Technology
+Faradaic efficiency, which is over 80% for H 2 evolution Center (KUYTAM) and Koc University Tupras Energy
+reaction (Figure 8c). Center (KUTEM), Koc University, Sariyer 34450 Istanbul,
+Turkiye; orcid.org/0000-0002-0487-5766
+4. CONCLUSIONS
+Hadi Jahangiri − Koç University Surface Science and
+The characterization and phase study show that mechanically Technology Center (KUYTAM), Koc University, Sariyer
+alloyedpowderswithoutMocontentarecomposedofasingle 34450 Istanbul, Turkiye; orcid.org/0000-0003-4403-
+FCC phase, while adding Mo leads to a mixture of FCC and 7385
+BCC phases. The OER and HER activities of mechanically M. Baris Yagci − Koç University Surface Science and
+alloyed samples of HEAs were evaluated in a 1 M KOH Technology Center (KUYTAM), Koc University, Sariyer
+electrolyte. It was found that the insertion of Mo into the 34450 Istanbul, Turkiye
+CoCuFeNi structure of the HEAs improved the OER activity, Keisuke Igarashi − Nanostructure Characterization Group,
+whilethecontributionofMndidnotsignificantlyimprovethe Solution Development Department, Hitachi High-Tech
+OER performance. In addition, it was found that the Corporation,CoreTechnologyandSolutionsBusinessGroup,
+CoCuFeNiMnMo HEA had the best electrocatalytic Hitachinaka-shi, Ibaraki 312-0033, Japan
+0.5
+performance for the HER, with a lower overpotential than Hiroaki Matsumoto − Nanostructure Characterization
+the other HEA samples. The ECSA of various mechanically Group, Solution Development Department, Hitachi High-
+alloyedHEAelectrocatalystswascalculatedbymeasuringtheir Tech Corporation, Core Technology and Solutions Business
+C using CV at different scan rates. It was found that the Group, Hitachinaka-shi, Ibaraki 312-0033, Japan
+dl
+ECSA values for the HEA electrocatalysts were in the order Amir Motallebzadeh − Koç University Surface Science and
+CoCuFeNiMnMo > CoCuFeNiMnMo > CoCuFeNiMn- Technology Center (KUYTAM), Koc University, Sariyer
+1.5
+Mo . The EIS technique was used to analyze the interfacial 34450 Istanbul, Turkiye; orcid.org/0000-0001-6753-
+0.5
+behavior of the HEA electrodes and showed that the 9316
+CoCuFeNiMnMo electrode had lower high-frequency
+1.5 Complete contact information is available at:
+resistance (indicating the solution resistance, R) and charge
+s https://pubs.acs.org/10.1021/acsaem.3c03227
+transfer resistance (R ) values compared to the other HEA
+ct
+electrodes, which could be attributed to its improved charge
+Notes
+transfer and conversion of intermediates. The cell voltage
+The authors declare no competing financial interest.
+required to achieve a current density of 10 mA cm−2 was
+■
+measured and found to be 1.76 V for the electrolyzer with ACKNOWLEDGMENTS
+CoCuFeNiMnMo ∥CoCuFeNiMnMo electrodes. The re-
+1.5 0.5 The authors thank the Koç University Surface Science and
+sults showed a reasonable correlation between the measured
+Technology Center (KUYTAM) and Koc University Nano-
+and theoretical amounts of H gas. The Faradaic efficiency of
+2 fabricationandNanocharacterizationCenterforScientificand
+the electrolysis reaction was over 80%. This research offers a
+Technological Advanced Research (n2STAR) for the charac-
+wealthofempiricalandtheoreticalinsightsthatcanbeapplied
+terization of the samples.
+inthedevelopment of CoCuFeNi-based HEAelectrocatalysts.
+■
+The simplicity and efficiency of the fabrication process, in
+REFERENCES
+addition to the inexpensive nature of the Co, Cu, Fe, Ni, Mn,
+and Mo elements utilized, make this material a promising and (1)Apak,S.;Atay,E.;Tuncer,G.RenewableHydrogenEnergyand
+Energy Efficiency in Turkey in the 21st Century. Int. J. Hydrogen
+cost-effective option for electrochemical water splitting.
+■ Energy 2017, 42(4), 2446−2452.
+ASSOCIATED CONTENT (2)Xiong,B.;Chen,L.;Shi,J.Anion-ContainingNoble-Metal-Free
+Bifunctional Electrocatalysts for Overall Water Splitting. ACS Catal.
+* sı Supporting Information 2018, 8 (4),3688−3707.
+The Supporting Information is available free of charge at (3)Ghadge,S.D.;Velikokhatnyi,O.I.;Datta,M.K.;Shanthi,P.M.;
+https://pubs.acs.org/doi/10.1021/acsaem.3c03227. Tan,S.;Damodaran,K.;Kumta,P.N.ExperimentalandTheoretical
+2433 https://doi.org/10.1021/acsaem.3c03227
+ACSAppl.EnergyMater.2024,7,2423−2435
+Downloaded
+from
+pubs.​acs.​org/​aaemcq/​article-pdf/​7/​6/​2423/​9551837/​ae3c03227.​pdf
+by
+NATL
+INST
+TECHLGY
+SRINAGAR
+user
+on
+10
+October
+2026
+
+ACS Applied Energy Materials www.acsaem.org Article
+ValidationofHighEfficiencyandRobustElectrocatalyticResponseof (20) Yazici, B.; Tatli, G.; Galip, H.; Erbil, M. Investigation of
+One-Dimensional (1D) (Mn,Ir)O2:10F Nanorods for the Oxygen Suitable Cathodes for the Production of Hydrogen Gas by
+Evolution Reaction in PEM-Based Water Electrolysis. ACS Catal. Electrolysis.Int. J. Hydrogen Energy 1995, 20(12),957−965.
+2019, 9(3),2134−2157. (21)Qian,X.;Fang,J.;Xia,J.;He,G.;Chen,H.RecentProgressand
+(4)Zhu,Y.;Chen,G.;Xu,X.;Yang,G.;Liu,M.;Shao,Z.Enhancing Perspective on Molybdenum-Based Electrocatalysts for Water
+ElectrocatalyticActivityforHydrogenEvolutionbyStronglyCoupled Electrolysis.Int. J. Hydrogen Energy 2023, 48(67),26084−26106.
+Molybdenum Nitride@Nitrogen-Doped Carbon Porous Nano- (22) Canales, C.; Olea, A. F.; Gidi, L.; Arce, R.; Ramírez, G.
+Octahedrons. ACSCatal. 2017,7 (5),3540−3547. Enhanced Light-Induced Hydrogen Evolution Reaction by Supra-
+(5)Feng,T.;Zeng,Q.;Lu,S.;Yang,M.;Tao,S.;Chen,Y.;Zhao,Y.; molecularSystemsofCobalt(II)andCopper(II)Octaethylporphyrins
+Yang, B. Morphological and Interfacial Engineering of Cobalt-Based onGlassyCarbonElectrodes.Electrochim.Acta2017,258,850−857.
+Electrocatalysts by Carbon Dots for Enhanced Water Splitting. ACS (23) Cherevko, S.; Geiger, S.; Kasian, O.; Kulyk, N.; Grote, J. P.;
+SustainableChem. Eng. 2019, 7(7), 7047−7057. Savan, A.; Shrestha, B. R.; Merzlikin, S.; Breitbach, B.; Ludwig, A.;
+(6) Yu, J.; He, Q.; Yang, G.; Zhou, W.; Shao, Z.; Ni, M. Recent Mayrhofer,K.J.J.OxygenandHydrogenEvolutionReactionsonRu,
+Advances and Prospective in Ruthenium-Based Materials for RuO2, Ir, and IrO2 Thin Film Electrodes in Acidic and Alkaline
+Electrochemical Water Splitting. ACS Catal. 2019, 9 (11), 9973− Electrolytes: A Comparative Study on Activity and Stability. Catal.
+10011. Today 2016, 262, 170−180.
+(7)Nsanzimana,J.M.V.;Dangol,R.;Reddu,V.;Duo,S.;Peng,Y.; (24) Peighambardoust, N. S.; Alamdari, A. A.; Unal, U.;
+Dinh, K. N.; Huang, Z.; Yan, Q.; Wang, X. Facile Synthesis of Motallebzadeh, A. In Vitro Biocompatibility Evaluation of Ti1.5Zr-
+Amorphous Ternary Metal Borides−Reduced Graphene Oxide Ta0.5Nb0.5Hf0.5RefractoryHigh-EntropyAlloyFilmforOrthopedic
+Implants: Microstructural, Mechanical Properties and Corrosion
+Hybrid with Superior Oxygen Evolution Activity. ACS Appl. Mater.
+Interfaces2018, 11(1),846−855. Behavior.J. Alloys Compd.2021, 883,No. 160786.
+(25) Huang, J.; Wang, P.; Li, P.; Yin, H.; Wang, D. Regulating
+(8)Anantharaj,S.;Ede,S.R.;Sakthikumar,K.;Karthick,K.;Mishra,
+Electrolytic Fe0.5CoNiCuZnx High Entropy Alloy Electrodes for
+S.; Kundu, S. Recent Trends and Perspectives in Electrochemical
+Oxygen Evolution Reactions in Alkaline Solution. J. Mater. Sci.
+WaterSplittingwithanEmphasisonSulfide,Selenide,andPhosphide
+Technol. 2021, 93,110−118.
+Catalysts of Fe, Co, and Ni: A Review. ACS Catal. 2016, 6 (12),
+(26) Wang, H.; Wei, R.; Li, X.; Ma, X.; Hao, X.; Guan, G.
+8069−8097.
+Nanostructured Amorphous Fe29Co27Ni23Si9B12 High-Entropy-
+(9) Zhang, P.; Wang, M.; Yang, Y.; Yao, T.; Han, H.; Sun, L.
+Alloy: An Efficient Electrocatalyst for Oxygen Evolution Reaction. J.
+Electroless Plated Ni−Bx Films as Highly Active Electrocatalysts for
+Mater. Sci.Technol. 2021, 68,191−198.
+Hydrogen Production from Water over a Wide PH Range. Nano
+(27)Xin,Y.;Li,S.;Qian,Y.;Zhu,W.;Yuan,H.;Jiang,P.;Guo,R.;
+Energy 2016,19, 98−107.
+Wang, L. High-Entropy Alloys as a Platform for Catalysis: Progress,
+(10)Han,W.;Li,M.;Ma,Y.;Yang,J.Cobalt-BasedMetal-Organic
+Challenges, and Opportunities. ACS Catal. 2020, 10 (19), 11280−
+FrameworksandTheirDerivativesforHydrogenEvolutionReaction.
+11306.
+Front. Chem.2020, 8, No. 592915.
+(28) Zhang, Y.; Wang, D.; Wang, S. High-Entropy Alloys for
+(11)Chamani,S.;Khatamian,M.;Peighambardoust,N.S.;Aydemir,
+Electrocatalysis: Design, Characterization, and Applications. Small
+U. Microwave-Assisted Auto-Combustion Synthesis of Binary/
+2022, 18(7), No. 2104339.
+TernaryCoxNi1−xFerriteforElectrochemicalHydrogenandOxygen
+(29)Zhang,K.B.;Fu,Z.Y.;Zhang,J.Y.;Wang,W.M.;Lee,S.W.;
+Evolution.ACS Omega 2021, 6(48),33024−33032. Niihara,K.AnnealingEffectsonStructureandMechanicalProperties
+(12)Jin,Z.;Zhang,L.PerformanceofNi-CuBimetallicCo-Catalyst
+of CoCrFeNiTiAlx High-Entropy Alloys. IOP Conf. Ser.: Mater. Sci.
+g-C3N4NanosheetsforImprovingHydrogenEvolution.J.Mater.Sci.
+Eng. 2011, 20(1), No. 012009.
+Technol.2020, 49, 144−156.
+(30) Tsai, C. W.; Tsai, M. H.; Yeh, J. W.; Yang, C. C. Effect of
+(13)Li,W.;Hu,Q.;Liu,Y.;Zhang,M.;Wang,J.;Han,X.;Zhong,
+Temperature on Mechanical Properties of Al0.5CoCrCuFeNi
+C.; Hu, W.; Deng, Y. Powder Metallurgy Synthesis of Porous Ni-Fe
+Wrought Alloy.J. Alloys Compd.2010, 490 (1−2),160−165.
+Alloy for Oxygen Evolution Reaction and Overall Water Splitting. J. (31)Kao,Y.F.;Chen,T.J.;Chen,S.K.;Yeh,J.W.Microstructure
+Mater.Sci. Technol.2020, 37, 154−160.
+andMechanicalPropertyofAs-Cast,-Homogenized,and-Deformed
+(14)Lal,M.S.;Sundara,R.HighEntropyOxides�ACost-Effective
+AlxCoCrFeNi (0 ≤ x ≤ 2) High-Entropy Alloys. J. Alloys Compd.
+CatalystfortheGrowthofHighYieldCarbonNanotubesandTheir 2009, 488 (1),57−64.
+Energy Applications. ACS Appl. Mater. Interfaces 2019, 11 (34), (32) Wang, X. R.; Wang, Z. Q.; He, P.; Lin, T. S.; Shi, Y.
+30846−30857.
+Microstructure and Wear Properties of CuNiSiTiZr High-Entropy
+(15) Alamdari, A. A.; Unal, U.; Motallebzadeh, A. Investigation of AlloyCoatingsonTC11TitaniumAlloyProducedbyElectrospark-
+Microstructure,MechanicalProperties,andBiocorrosionBehaviorof ComputerNumericalControlDepositionProcess.Surf.Coat.Technol.
+Ti1.5ZrTa0.5Nb0.5W0.5RefractoryHigh-EntropyAlloyFilmDoped 2015, 283,156−161.
+withAg Nanoparticles.Surfaces Interfaces2022, 28, No. 101617. (33) Varalakshmi, S.; Kamaraj, M.; Murty, B. S. Processing and
+(16) Jaksǐc,́ M.M. Hypo−Hyper-d-ElectronicInteractive Natureof PropertiesofNanocrystallineCuNiCoZnAlTiHighEntropyAlloysby
+Synergism in Catalysis and Electrocatalysis for Hydrogen Reactions. Mechanical Alloying. Mater. Sci. Eng.: A 2010, 527 (4−5), 1027−
+Electrochim.Acta 2000, 45(25−26), 4085−4099. 1030.
+(17) Schalenbach, M.; Speck, F. D.; Ledendecker, M.; Kasian, O.; (34) Varalakshmi, S.; Kamaraj, M.; Murty, B. S. Processing and
+Goehl,D.;Mingers,A.M.;Breitbach,B.;Springer,H.;Cherevko,S.; PropertiesofNanocrystallineCuNiCoZnAlTiHighEntropyAlloysby
+Mayrhofer, K. J. J. Nickel-Molybdenum Alloy Catalysts for the Mechanical Alloying. Mater. Sci. Eng.: A 2010, 527 (4−5), 1027−
+Hydrogen Evolution Reaction: Activity and Stability Revised. 1030.
+Electrochim.Acta 2018, 259,1154−1161. (35)Alaneme,K.K.;Bodunrin,M.O.;Oke,S.R.Processing,Alloy
+(18)Elezovic,́ N.;Jovic,́ V.D.;Krstajic,́ N.KineticsoftheHydrogen Composition and Phase Transition Effect on the Mechanical and
+EvolutionReactiononFe−MoFilmDepositedonMildSteelSupport CorrosionPropertiesofHighEntropyAlloys:AReview.J.Mater.Res.
+inAlkaline Solution.Electrochim.Acta 2005, 50(28),5594−5601. Technol. 2016, 5 (4),384−393.
+(19)Kim,S.M.;Jin,S.H.;Lee,Y.J.;Lee,M.H.DesignofNickel (36) Mei, Y.; Feng, Y.; Zhang, C.; Zhang, Y.; Qi, Q.; Hu, J. High-
+Electrodes by Electrodeposition: Effect of Internal Stress on Entropy Alloy with Mo-Coordination as Efficient Electrocatalyst for
+Hydrogen Evolution Reaction in Alkaline Solutions. Electrochim. Oxygen Evolution Reaction. ACS Catal. 2022, 12 (17), 10808−
+Acta 2017,252,67−75. 10817.
+2434 https://doi.org/10.1021/acsaem.3c03227
+ACSAppl.EnergyMater.2024,7,2423−2435
+Downloaded
+from
+pubs.​acs.​org/​aaemcq/​article-pdf/​7/​6/​2423/​9551837/​ae3c03227.​pdf
+by
+NATL
+INST
+TECHLGY
+SRINAGAR
+user
+on
+10
+October
+2026
+
+ACS Applied Energy Materials www.acsaem.org Article
+(37)Peighambardoust,N.S.;Hatipoglu,E.;Aydemir,U.Structure- (55)Zhang,G.;Ming,K.;Kang,J.;Huang,Q.;Zhang,Z.;Zheng,X.;
+InducedCatalyticActivityofNickel-andCobalt-SubstitutedLayered Bi, X. High Entropy Alloy as a Highly Active and Stable
+MoB2towardHydrogenEvolution.ACSSustainableChem.Eng.2022, Electrocatalyst for Hydrogen Evolution Reaction. Electrochim. Acta
+10(48),15909−15925. 2018, 279, 19−23.
+(38)Zhang,S.;Wu,C.L.;Zhang,C.H.;Guan,M.;Tan,J.Z.Laser (56)Calle-Vallejo,F.;Díaz-Morales,O.A.;Kolb,M.J.;Koper,M.T.
+SurfaceAlloyingofFeCoCrAlNiHigh-EntropyAlloyon304Stainless M. Why Is Bulk Thermochemistry a Good Descriptor for the
+Steel to Enhance Corrosion and Cavitation Erosion Resistance. Opt. Electrocatalytic Activity of Transition Metal Oxides? ACS Catal.
+Laser Technol.2016, 84, 23−31. 2015, 5 (2),869−873.
+(39)Wang,Z.;Wang,X.;Yue,H.;Shi,G.;Wang,S.Microstructure, (57) Mete, B.; Peighambardoust, N. S.; Aydin, S.; Sadeghi, E.;
+ThermodynamicsandCompressivePropertiesofAlCoCrCuMn-x(X Aydemir, U. Metal-Substituted Zirconium Diboride (Zr1-XTMxB2;
+= Fe, Ti) High-Entropy Alloys. Mater. Sci. Eng.: A 2015, 627, 391− TM = Ni, Co, and Fe) as Low-Cost and High-Performance
+398. Bifunctional Electrocatalyst for Water Splitting. Electrochim. Acta
+(40)Guo,S.PhaseSelectionRulesforCastHighEntropyAlloys:An 2021, 389, No. 138789.
+Overview.Mater.Sci. Technol. 2015, 31(10),1223−1230. (58)Gao,M.Y.;Yang,C.;Zhang,Q.B.;Yu,Y.W.;Hua,Y.X.;Li,
+(41)Sheikh,S.;Shafeie,S.;Hu,Q.;Ahlström,J.;Persson,C.;Vesely,́ Y.; Dong, P. Electrochemical Fabrication of Porous Ni-Cu Alloy
+J.;Zyḱ a,J.;Klement,U.;Guo,S.AlloyDesignforIntrinsicallyDuctile Nanosheets with High Catalytic Activity for Hydrogen Evolution.
+Electrochim. Acta 2016,215,609−616.
+Refractory High-Entropy Alloys. J. Appl. Phys. 2016, 120 (16),
+(59)Tang, J.;Xu,J.L.;Ye, Z.G.;Ma,Y. C.; Li,X. B.;Luo,J.M.;
+No. 164902.
+Huang, Y. Z. Synthesis of Flower-like Cobalt, Nickel Phosphates
+(42) Guo, S.; Liu, C. T. Phase Stability in High Entropy Alloys:
+Grown on the Surface of Porous High Entropy Alloy for Efficient
+Formation of Solid-Solution Phase or Amorphous Phase. Prog. Nat.
+Oxygen Evolution. J. AlloysCompd.2021, 885,No. 160995.
+Sci.:Mater. Int.2011, 21(6), 433−446.
+(60) Tang, J.; Xu, J. L.; Ye, Z. G.; Li, X. B.; Luo, J. M. Microwave
+(43) Pogrebnjak, A. D.; Bagdasaryan, A. A.; Yakushchenko, I.;
+Sintered Porous CoCrFeNiMo High Entropy Alloy as an Efficient
+Beresnev,V.M.TheStructureandPropertiesofHigh-EntropyAlloys
+ElectrocatalystforAlkalineOxygenEvolutionReaction.J.Mater.Sci.
+andNitrideCoatingsBasedonThem.Russ.Chem.Rev.2014,83(11),
+Technol. 2021, 79,171−177.
+1027−1061.
+(61)Huang,K.;Peng,D.;Yao,Z.;Xia,J.;Zhang,B.;Liu,H.;Chen,
+(44)Cichocki,K.;Bała,P.;Kozieł,T.;Cios,G.;Schell,N.;Muszka,
+Z.;Wu,F.;Wu,J.;Huang,Y.CathodicPlasmaDrivenSelf-Assembly
+K. Effect of Mo on Phase Stability and Properties in FeMnNiCo
+ofHEAsDendritesbyPureSingleFCCFeCoNiMnCuNanoparticles
+High-Entropy Alloys. Metall. Mater. Trans. A 2022, 53 (5), 1749−
+as High Efficient Electrocatalysts for OER. Chem. Eng. J. 2021, 425,
+1760.
+No. 131533.
+(45)Yao,X.;Wei,J.;Li,T.EffectsofMoElementonMicrostructure
+(62)Ma,P.;Zhao,M.;Zhang,L.;Wang,H.;Gu,J.;Sun,Y.;Ji,W.;
+and Mechanical Properties of CoCrFeMnNi High Entropy Alloys.
+Fu,Z.Self-SupportedHigh-EntropyAlloyElectrocatalystforHighly
+IOPConf.Ser.:Mater. Sci.Eng. 2019, 585 (1),No. 012019. EfficientH2EvolutioninAcidCondition.J.Materiomics2020,6(4),
+(46)Varol,T.;Canakci,A.;Ozkaya,S.;Erdemir,F.Determiningthe 736−742.
+EffectofFlakeMatrixSizeandAl2O3ContentonMicrostructureand
+Mechanical Properties of Al2O3 Nanoparticle Reinforced Al Matrix
+Composites.Part.Sci. Technol. 2018, 36(3),312−323.
+(47)Madavali,B.;Lee,J.H.;Lee,J.K.;Cho,K.Y.;Challapalli,S.;
+Hong, S. J. Effects of Atmosphere and Milling Time on the
+Coarsening of Copper Powders during Mechanical Milling. Powder
+Technol.2014, 256,251−256.
+(48)Zhang,H.;Pan,Y.;He,Y.Z.SynthesisandCharacterizationof
+FeCoNiCrCuHigh-EntropyAlloyCoatingbyLaserCladding.Mater.
+Des.2011, 32(4),1910−1915.
+(49)Qiu,H.J.;Fang,G.;Gao,J.;Wen,Y.;Lv,J.;Li,H.;Xie,G.;Liu,
+X.; Sun, S. Noble Metal-Free Nanoporous High-Entropy Alloys as
+HighlyEfficientElectrocatalystsforOxygenEvolutionReaction.ACS
+Mater.Lett. 2019,1 (5),526−533.
+(50)Einert, M.;Mellin, M.;Bahadorani,N.;Dietz,C.;Lauterbach,
+S.; Hofmann, J. P. Mesoporous High-Entropy Oxide Thin Films:
+Electrocatalytic Water Oxidation on High-Surface-Area Spinel
+(Cr0.2Mn0.2Fe0.2Co0.2Ni0.2)3O4 Electrodes. ACS Appl. Energy
+Mater.2022, 5(1), 717−730.
+(51)Zhang,T.;Zhao,H.F.;Wang,K.Y.;Chen,Z.J.;Li,L.;Peng,
+J.;Peng,X.;Huang,Y.J.;Yu,H.B.ThreeFactorsMakeBulkHigh-
+Entropy Alloys as Effective Electrocatalysts for Oxygen Evolution.
+Mater.Futures2023, 2 (4),No. 045101.
+(52) Wang, Z.; Qu, J.; He, Y.; Xiong, T.; Huang, Z.; Wang, F.;
+Balogun, M. S. Exceptional Alkaline Hydrogen Evolution by
+Molybdenum-Oxide-Nitride-Based Electrocatalysts with Fast Water-
+DissociationandHydrogen-AdsorptionKinetics.Mater.Chem.Front.
+2023, 7(13),2683−2692.
+(53)Wang,W.;Lu,Y.Z.;Lu,X.APorousHigh-EntropyAlloyfor
+High-Efficient Oxygen Evolution Reaction. Rare Met. 2023, 42,
+2174−2181.
+(54)Sadeghi,E.;Peighambardoust,N.S.;Aydemir,U.Tailoringthe
+Morphology of Cost-Effective Vanadium Diboride Through Cobalt
+Substitution for Highly Efficient Alkaline Water Oxidation. Inorg.
+Chem. 2021,60(24),19457−19466.
+2435 https://doi.org/10.1021/acsaem.3c03227
+ACSAppl.EnergyMater.2024,7,2423−2435
+Downloaded
+from
+pubs.​acs.​org/​aaemcq/​article-pdf/​7/​6/​2423/​9551837/​ae3c03227.​pdf
+by
+NATL
+INST
+TECHLGY
+SRINAGAR
+user
+on
+10
+October
+2026
+

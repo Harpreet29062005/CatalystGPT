@@ -1,0 +1,576 @@
+Small
+www.small-journal.com
+RESEARCHARTICLE
+Dual-Site Activation of High-Entropy Alloy Electrocatalysts
+via Ruthenium-Induced Electron Transfer for Alkaline
+Hydrogen Evolution
+SeongjeLim1 JaeWonChoi2 GyuYongJang1,3 SeunghoYu2 ChangQiu3 HaotianWang3
+Kug-SeungLee4 Yong-TaeKim5 KiChulKim2 JongHyeokPark1
+1DepartmentofChemicalandBiomolecularEngineering,YonseiUniversity,Seoul,RepublicofKorea 2DivisionofChemicalEngineering,KonkukUniversity,
+Seoul,RepublicofKorea 3DepartmentofChemicalandBiomolecularEngineering,RiceUniversity,Houston,Texas,USA 4Beamlinedivision,Pohang
+AcceleratorLaboratory,Pohang-si,Gyeongsangbuk-do,RepublicofKorea 5DepartmentofMaterialsScienceandEngineering,PohangUniversityofScience
+andTechnology,Pohang-si,Gyeongsangbuk-do,RepublicofKorea
+Correspondence:KiChulKim(kich2018@konkuk.ac.kr) JongHyeokPark(lutts@yonsei.ac.kr)
+Received:29January2026 Revised:11May2026 Accepted:9June2026
+Keywords:electrocatalyst|electronicmodulation|high-entropyalloy|hydrogenevolution|metalorganicframework|ruthenium
+ABSTRACT
+Hydrogenevolutioninalkalinemediaiskineticallylimitedbysluggishwaterdissociation,requiringcatalyststhatcanaccelerate
+both H O activation and proton adsorption. Here, ruthenium-incorporated high-entropy alloys (Ru-HEAs) are developed as
+2
+efficientalkalineHERelectrocatalystsbyexploitingRu-drivenelectronredistributionwithinamulti-metalliclattice.Spectroscopic
+analyses show that electronegative Ru atoms withdraw electrons from neighboring Co and Ni atoms, shifting them to
+higher oxidation states and modifying their local electronic environments. This electronic modulation activates Co/Ni sites
+simultaneously.DFTcalculationsconfirmthatCoandNiserveasthedominantadsorptioncenters,andthatRuincorporation
+alterstheird-bandcenterstolowerboththethermodynamicandkineticbarriersofwaterdissociationwhileshiftinghydrogen
+adsorptiontowardnear-thermoneutralenergetics.Asaresult,Ru-HEA/Cdeliversalowoverpotentialofonly29mVat10mA
+cm−2andaTafelslopeof67.8mVdec−1withhighRumassactivity,outperformingpristineHEAandcommercialRu/Cdespiteits
+lowRuloading.ThesefindingsclarifytheroleofRuatomsinahigh-entropyenvironmentasanelectronicmodulatorthattriggers
+dual-siteactivationratherthanmerelyprovidingadditionalactivesites.Thisworkestablishesageneralizabledesignprinciplefor
+HEAelectrocatalystsoptimizedforalkalinehydrogenevolution.
+1 Introduction hydrogen. Alkaline water electrolysis is the most mature and
+reliableformofwaterelectrolysistechnologies.However,hydro-
+Green hydrogen (H ) has emerged as a promising energy car- gen evolution reaction (HER) kinetics in alkaline media is
+2
+rier, due to its high energy density, zero-pollutant emission, 2 to 3 orders of magnitude slower compared to acidic HER
+zero-carbon emission, and non-toxicity [1–3]. Electrocatalytic due to the lack of protons and the sluggish kinetics of the
+water splitting using renewable electricity has been considered water dissociation reaction [4, 5]. Platinum (Pt) remains the
+as an efficient and sustainable technology to produce green benchmarkcatalystowingtoitsoptimalhydrogenbinding,but
+SeongjeLim,JaeWonChoi,andGyuYongJangcontributedequallytothiswork.
+ThisisanopenaccessarticleunderthetermsoftheCreativeCommonsAttribution-NonCommercialLicense,whichpermitsuse,distributionandreproductioninany
+medium,providedtheoriginalworkisproperlycitedandisnotusedforcommercialpurposes.
+©2026TheAuthor(s).SmallpublishedbyWiley-VCHGmbH
+Small,2026;22:e74314 1of11
+https://doi.org/10.1002/smll.74314
+
+itsscarcity,poorwaterdissociation,andcosthinderlarge-scale fordesigningnext-generationHEAelectrocatalystsforefficient
+use[6]. alkalineHER.
+Ruthenium (Ru) has recently emerged as a promising alter-
+native to Pt, due to its relatively low material cost (ca. 1/3 2 ResultsandDiscussion
+the price of Pt), near-optimal hydrogen adsorption energy, and
+strong affinity toward the hydroxyl intermediate (OH*) [7, 8]. 2.1 SynthesisandCharacterization
+IncorporationofRuintransitionmetal-basedcatalystsincluding
+alloys,oxides,andhydroxides,hasbeensuggestedasapromising Ru-HEA/CelectrocatalystsweresynthesizedbyMOFprecursor
+strategy,sinceitcansignificantlyreducethemassloadingofRu synthesis, ion exchange, and pyrolysis (Figure 1). First, various
+whilesimultaneouslypromotingtheHERactivityofthecatalyst metalacetates(Co,Ni,Cu,Mn)ofthesameratiowithterephthalic
+[9–12].TheroleofincorporatedRuspeciesextendsbeyondmerely acidweredissolvedinDMFandstirredfor2htosynthesizethe
+providing additional active sites. Instead, Ru incorporation can MOFprecursor,CoNiCuMn-BDC(FigureS1).Afterward,Ruwas
+enhance the intrinsic alkaline HER activity of the catalyst by introducedtotheMOFprecursorviaanion-exchangemethod.
+modulating electronic structure, inducing lattice strain, and CoNiCuMn-BDCwasdispersedinanethanolsolutioncontaining
+promotingsynergisticinteractions[13,14].Forexample,Heetal. RuCl andheatedto75◦Cfor12h.Aftertheionexchangeprocess,
+3
+reported that the incorporation of single-atomic Ru sites in a inductivelycoupledplasmamassspectrometry(ICP-MS)results
+Ni P catalystcancausealocalizedstructurepolarization,which confirmed that Ru successfully replaced other metals in the
+5 4
+optimizedboththewaterdissociationandprotonadsorptionto MOFprecursor,mainlymanganese(TableS1).Finally,theMOF
+achieve high HER activity with low Ru loading [15]. As such, precursors containing and not containing Ru were annealed in
+introducing Ru to transition metal-based catalysts is believed a tube furnace at 700◦C for 2 h under H /Ar atmosphere to
+2
+to be an efficient and cost-effective strategy to fully exploit the finallyobtainRu-HEA/CandHEA/Cpowders.Themorphology
+potentialofRu. ofthesynthesizedHEAswasanalyzedbytransmissionelectron
+microscopy(TEM),whichrevealednanoparticleswithanaverage
+High-entropy alloys (HEAs), which are solid-solution phase diameter of 13.4 nm (Figure 2a). Further high-resolution TEM
+alloys often consisting of five or more metal elements, have (HRTEM)analysisrevealedathincarbonshellsurroundingthe
+attracted wide attention due to their unique features such as nanoparticle,withathicknessof∼3nm(Figure2b).High-angle
+multi-elemental composition, cocktail effects, intrinsic lattice annular dark-field scanning transmission electron microscopy
+distortions, and tunable electronic environments [16–23]. Such (HAADF-STEM) analysis reveals clear lattice fringe patterns
+diverse and tunable features have provided opportunities for corresponding to the (200) and (111) facets of the nanoparticle
+the fine-tuning of their catalytic activities beyond conventional (Figure 2c). Such fringe patterns are consistent with the X-ray
+alloys,whichhasledtothedevelopmentofvariousHEA-based diffraction(XRD)patternsofthenanoparticle,wherethediffrac-
+alkaline HER catalysts with unprecedented activities [24–28]. tion peaks at 44.08◦, 51.48◦ and 75.32◦ correspond to the (111),
+However,theirintrinsicallycomplexsurfacestructure,alongwith (200)and(220)planesoftheface-centered-cubic(fcc)structure
+the co-existence of various electronic interactions and strain whichmatchwellwiththePDFcardsofNiandCo(Ni:JCPDS
+effects have limited the detailed investigation of surface active No. 04–0850, Co: JCPDS No. 15–0806), indicating the single-
+sites [29]. Especially, when it comes to introducing precious phasestructureoftheRu-HEA/Cnanoparticle(Figure2d).TEM
+metals such as Ru, the detailed underlying mechanism still elemental mapping images show that the five metal elements
+remainstobeexplored. (Co, Ni, Cu, Mn, Ru) are evenly distributed throughout the
+nanoparticle,withthecarbonshellsurroundingthem(Figure2e).
+In this work, we show that when introducing Ru to the HEA The Raman spectrum of Ru-HEA/C displayed two prominent
+lattice,highlyelectronegativeRuatomsfacilitateelectronredis- peakspositionedat1336and1591cm−1,correspondingtoDand
+tribution,withdrawingelectronsfromitssurroundingatomssuch Gbandsofgraphiticcarbon,respectively(FigureS2).Thesetwo
+as Co and Ni, and thereby simultaneously activating multiple peaks suggest that the organic linkers of MOF precursor have
+sites to enhance the alkaline HER activity of the HEA catalyst beenconvertedintographiticcarbonsduringthepyrolysistoform
+[9, 30]. Experimental investigations reveal the excellent HER acore-shellstructure[31].
+performance of the synthesized catalyst, requiring only 29 mV
+ofoverpotentialtoreachacurrentdensityof10mAcm−2,while InordertoinvestigatetheelectronicstructureofHEAparticles
+showingahighRumassactivityof1.51Amg −1 at-0.05Vvs. andclarifytheeffectofRuincorporationonthesurfaceelectronic
+Ru
+RHE, benefiting from the low Ru loading of the HEA catalyst. states, high-resolution X-ray photoelectron spectroscopy (XPS)
+Moreover,theeffectofRuintroductionwasintensifiedespecially spectraofNi,Co,andRuatomsinHEA/CandRu-HEA/Cwere
+underahigh-entropyenvironment.Theoreticalcalculationsand examined(Figure3a–c).DeconvolutedNi2pXPSspectraofHEA
+experimentalresultsconfirmthatRuincorporationoptimizesthe particleswithandwithoutRushowapositiveshiftinNi0peak
+electronic structure of Co/Ni sites to simultaneously accelerate positionfrom852.9to853.05eVuponRuincorporation,indicating
+the water dissociation step and the hydrogen evolution step, a decrease in local electron density of Ni atoms (Figure 3a).
+accountingforthesuperiorHERactivity.Overall,weproposea A similar trend is observed in the Co 2p spectrum, where the
+dual-siteactivationstrategyinwhichRu-inducedelectrontrans- Co0 peak shifts positively from 778.58 to 778.76 eV upon Ru
+fer enhances the catalytic activity of Co and Ni, especially in a incorporation,alsoshowingadecreaseinlocalelectrondensityof
+high-entropyenvironment.Suchinsightclarifiesthepromotional Coatoms(Figure3b).Inaddition,theRu3pspectrumconfirms
+effect of Ru in HEA catalysts and thus offers future guidelines the successful incorporation of Ru into the HEA framework
+2of11 Small,2026
+
+FIGURE 1 Schematicillustrationoftheelectrocatalystpreparationsteps.
+(Figure3c).Takentogether,suchchangeinlocalelectrondensity deficiency in Ni and Co sites, which is consistent with the
+ofNiandCoatomsimplythattheelectronicstructureofHEAs XPS results. Meanwhile, the K edge of Ru is in high proximity
+arerestructureduponintroductionofRu,wherealocalelectron to that of Ru metal phase, implying the metallic state of Ru
+transferoccursfromNiandCototheneighboringatoms.Further atoms.Takentogether,thesefeaturesrevealthatRuincorporation
+analysis of the C 1s and the Ru 3d spectrum re-confirm the enhances the electron donation from Co and Ni toward the
+successful incorporation of Ru atoms and the graphitic carbon surroundinglattice,effectivelytuningtheirlocalelectrondensity.
+shellsurroundingtheHEAparticles(FigureS3a).XPSspectraof Tobetteranalyzethecoordinationenvironmentofeachelement,
+the remaining metal atoms (Cu and Mn) reveal no substantial oxidation state of reference samples were plotted as a function
+change in their oxidation states, meaning that such electronic of K-edge energy, which were used to analyze the valence
+restructuringeffectisfocusedatNiandCosites(FigureS3b,c). state of HEA elements. Valence state of Ni and Co increased
+upon Ru incorporation, from 0.118 to 0.204 and 0.285 to 0.380,
+TogaindeeperinsightintotheelectronicstructureoftheHEAs, respectively (Figure 3g,h). In addition, the valence state of Ru
+X-ray absorption spectroscopy was carried out with metal foils was 0.134, which is much lower compared to Ni and Co in
+and oxides as reference samples. First, X-ray absorption near- the same particle, reconfirming the local electron deficiency
+edge structure (XANES) spectra of Co, Ni and Ru in HEA/C of Ni and Co while suggesting a local electron abundancy in
+andRu-HEA/Cwerestudiedtoprovideelement-specificinsights Ru(Figure3i).CorrespondingFourier-transformedextendedX-
+intotheelectronicconfigurations(Figure3d–f).TheKedgesof rayabsorptionfinestructure(FT-EXAFS)spectrashowsstrong
+Ni and Co exhibit clear positive shifts toward higher binding Co─Co and Ni─Ni bonds, reconfirming the metallic state of
+energiesupontheintroductionofRuwhichimplyalocalelectron theatomsinHEA(FigureS4a,b).FT-EXAFSsignalsofRualso
+Small,2026 3of11
+
+FIGURE 2 MorphologyandcompositionanalysisofRu-HEA/C.(a)Low-magnificationTEMimagesofRu-HEA/C.(inset:Particlesizehistogram
+ofRu-HEA/Cnanoparticles.)(b)HRTEMimageofRu-HEA/C.(c)HAADF-STEMimageofRu-HEA/C.(d)XRDspectrumofRu-HEA/C.(e)EDX
+elementalmappingimagesofRu-HEA/C.
+demonstrated a strong Ru─Ru bond with an additional Ru─C Ru/C, its alkaline HER performance outperforms Ru/C and
+bond,presumablyowingtothesurroundingcarbonshell(Figure thereforeshowsahighmassactivityof1.51AmgRu-1at–0.05V,
+S4c). Taken together, these spectroscopic and structural results which is over five times higher than that of Ru/C (Figure 4c).
+providecompellingevidencethatRuincorporationperturbsthe ToexaminewhethertheenhancedHERperformanceoriginates
+localelectronicenvironmentandinduceselectronredistribution, fromtheintroductionofactiveRusites,theHERactivityofRu-
+primarilyaroundCoandNisites.Electronegativityofindividual HEA/C catalysts with varying Ru loadings was systematically
+atoms in the HEA matrix plays a central role in such charge investigated.(FigureS5).IftheenhancedHERactivityoftheRu-
+redistribution[32].ConsideringthehigherelectronegativityofRu HEA/CcatalyststemmedfromtheintroductionofadditionalRu
+atoms(2.20)comparedwiththoseofNi(1.91)andCo(1.88),the sites, highest loading of Ru would have resulted in the highest
+donationofelectronsfromNiandCotoRuagreeswellwiththe HERactivity.However,experimentalresultsshowedthatexcess
+electronegativitydifferencesbetweenthem[32]. incorporation of Ru hinders the HER activity beyond a certain
+point. Therefore, these results indicate that such increase in
+alkaline HER performance upon Ru incorporation in the HEA
+2.2 HERPerformance matrix is due to the local electron redistribution in Co and Ni
+sites.Togainfurtherinsightsintothereactionmechanism,the
+To investigate the effect of such Ru-driven charge redistri- electrochemical surface area (ECSA) of catalysts was estimated
+bution process on the electrochemical performance of HEA by calculating the double-layer capacitance (C ) of catalysts,
+dl
+catalysts, their alkaline HER performance was examined in derived from cyclic voltammetry curves under different scan
+1.0 M KOH electrolyte with a three-electrode system. Linear rates. Estimated ECSA of catalysts indicate that Ru-HEA/C
+sweepvoltammetry(LSV)curvesshowthatRu-HEA/Crequires possessesthelargestelectrochemicalsurfacearea(7.88mFcm−2),
+the lowest overpotential of only 29 mV to reach 10 mA cm−2, indicatingthattheincorporationofRuresultedinthegeneration
+which is significantly lower than those of HEA/C (398 mV), of electrochemically active sites for the HER (Figure 4d) [33].
+and even lower than commercial Ru/C (63 mV) (Figure 4a). Compared to HEA/C, Ru-HEA/C exhibits a markedly smaller
+The corresponding Tafel slope of 67.8 mV dec−1 for Ru-HEA/C semicirclediameterinelectrochemicalimpedancespectroscopy
+confirms faster kinetics compared to HEA/C (132.6 mV dec−1) (EIS), corresponding to a significantly reduced charge-transfer
+and Ru/C (90.7 mV dec−1) (Figure 4b). Even though our Ru- resistance (Rct) indicating the improved HER kinetics of Ru-
+HEA/C catalyst possesses smaller amounts of Ru compared to HEA/C (Figure S6). Durability of the Ru-HEA/C catalyst was
+4of11 Small,2026
+
+FIGURE 3 ElectronicstructureofHEAs.XPSspectraof(a)Ni2p,(b)Co2p,and(c)Ru3pforHEA/CandRu-HEA/C.XANESspectraof(d)NiK
+edge,(e)CoKedgeand(f)RuKedgeofHEA/C,Ru-HEA/Candrespectivereferencesamples.(inset:magnifiedpre-edgeregionoftheXANESspectra.)
+Linearfittingcurveof(g)NiK-edge(h)CoK-edge,and(i)RuK-edgeenergyinXANESspectraagainsttheoxidationstateofNi,Co,andRu,respectively,
+indifferentsamples.
+examinedbyconductingchronoamperometrytests.Theactivity ergeticinterplayofRu-drivenchargeredistributionwiththehigh-
+of the catalysts was stably maintained at a current density of entropy environment is crucial for securing the high alkaline
+10mAcm−2forover100h,ensuringcatalyststabilityunderhighly HERactivityofthecatalyst.Theentropy-dependentactivitytrend
+reductiveconditionsofalkalineHER(Figure4e).Wealsocarried inFigure4findicatesthattheeffectofRuincorporationisampli-
+outasystematiccomparisonacrossalloyswithdifferentnumbers fied in catalysts with higher elemental complexity. Although
+of metal elements to further study the synergetic effect of the Ru-inducedelectronredistributionbenefitsalkalineHERactiv-
+high-entropy environment with our Ru incorporation strategy ity in all alloy systems, a multicomponent alloy environment
+(Figure 4f). Interestingly, our Ru incorporation strategy signifi- can provide lattice distortion, local strain, and diverse atomic
+cantlyimprovedthealkalineHERperformanceofthecatalysts coordination environments, which broaden the electronic-state
+regardless of the entropy level (number of elements). These distribution around Co/Ni sites. These high-entropy-related
+results indicate that the charge redistribution between Ru, Co, structural and electronic features can synergistically inter-
+andNibenefitsalkalineHERactivityinallcases.Furthermore, act with Ru-induced charge redistribution, allowing Co/Ni
+catalystswithhigherentropyshowedhigherHERactivity.How- sites to adopt more favorable adsorption energetics for water
+ever, Ru incorporation alone was insufficient to guarantee the dissociation and hydrogen adsorption/desorption. Therefore,
+highalkalineHERactivityofthecatalyst,indicatingthatthesyn- the superior activity of the Ru-incorporated multicomponent
+Small,2026 5of11
+
+FIGURE 4 HER performances of Ru-HEA/C. (a) HER polarization curves of HEA/C, Ru-HEA/C, and commercial Ru/C. (b) Tafel slopes
+correspondingtotheHERpolarizationcurve.(c)Massactivityofruthenium-containingsamplesat-0.05Vvs.RHE.(d)EstimatedECSAforHEA/C,Ru-
+HEA/C,andcommercialRu/C.(e)Time-dependentchronoamperometriccurveofRu-HEA/Cunderalkalineconditions.(f)HERpolarizationcurves
+ofCoNi/C,CoNiCu/C,andHEA/Csampleswithandwithoutruthenium.
+alloy catalyst is attributed not only to Ru incorporation itself, CoNiCuRuwithRuplacedonthesurfaceisconfirmedtobethe
+butalsotothesynergisticinterplaybetweenRu-drivenelectronic moststable,withthesurfaceenergyof1.36J/m2.Thesesuggest
+modulationandthecomplexmultielementalalloyenvironment. that the configuration with Mn or Ru elements placed on the
+surface would be suitable for computational analyses with the
+Takentogetherwithpreviousstructuralcharacterizationswhich aim of providing a meaningful conclusion (Figure S7, Table S2
+revealed increased oxidation states of Ni and Co induced by andTableS3).
+Ru-driven charge redistribution, these electrochemical charac-
+terizations establish a consistent mechanism: incorporation of ToidentifythepreferentialadsorptionsitesforH Omolecules,
+2
+Ru atoms with high electronegativity results in a local charge weperformedprojecteddensityofstates(PDOS)calculationson
+redistribution process that increases the oxidation states of Co thebaresurfaces(Figure5a,b).ThePDOSplotsrevealthatthed
+andNi,whichcansynergisticallyboostthealkalineHERactivity orbitalsofCoandNiexhibitthehighestpeakintensitiesnearthe
+ofthecatalystunderahigh-entropyenvironment. Fermilevelcomparedtotheothertransitionmetalelements(Cu,
+Mn,andRu)intheCoNiCuMn(111)andCoNiCuRu(111)surface
+models. This indicates the high electronic activity of d orbitals
+2.3 ComputationalStudy ofCoandNielementsforparticipatinginchemicalinteractions
+[37].Thed-bandcentersofindividualatomsonthebaresurfaces
+TofurthervalidatetheroleofRuelementincorporatedintothe are further examined to gain insights (Table S4). Both the slab
+CoNiCuMn-based electrocatalyst on its catalytic performance, modelsofCoNiCuMnandCoNiCuRuexhibitthed-bandcenters
+first-principles calculations were further performed using a of Ni and Co positioned at relatively high values compared to
+simplified model associated with Ru-involved electrocatalysts. those of the other elements. This clearly indicates that the Ni
+Specifically, as shown in Table S1, the Mn wt.% in CoNiCuM- and Co elements placed on the surfaces of CoNiCuMn(1 1 1)
+nRu/Cis0.71,whichcorrespondsto1.10at.%.Notably,individual and CoNiCuRu(1 1 1) possess the most reactive d-states, which
+constituents of HEA typically range from 5 to 35 at.% [34–36]. would enable the elements to be dominant adsorption sites for
+Therefore,weemployedasimplifiedbulkmodel,CoNiCuRu,by interactionswithH Omolecules[38].Itshouldbenotedthatthe
+2
+removing the Mn element with a negligible amount with the simplifiedmodeldoesnotcaptureallpossiblelocalconfiguration
+aim of reducing the computational cost. For a slab model of in HEAs, and Mn may introduce secondary local effects. To
+CoNiCuMn-based electrocatalyst, (1 1 1) direction was chosen assessthevalidityofthesimplifiedmodel,wefurtherexamined
+because the most intense XRD peak was revealed to be (1 1 1) the CoNiCuMnRu system. As shown in Figure S9, the PDOS
+plane, as evidenced in Figure 2d. Moreover, the surface energy profilesrevealthatCoandNiremainthedominantcontributors
+analysisdemonstratesthattheslabmodelwithMnplacedonthe near the Fermi level, consistent with the simplified models. In
+surface exhibits the lowest surface energy (1.57 J/m2), resulting addition, the d-band center values follow similar trends (Table
+inthemoststableslabconfiguration.Similarly,theslabmodelof S4),indicatingthattheessentialelectronicfeaturesarepreserved.
+6of11 Small,2026
+
+FIGURE 5 Ru-inducedelectronicdistribution.ThePDOSplotsfor(a)CoNiCuMnand(b)CoNiCuRusurfaces.(c)Gibbsfreeenergyprofiles
+forH Odissociationonthe(111)surfacesofCoNiCuMnandCoNiCuRu.(d)TheGibbsfreeenergyprofilesforthehydrogenadsorptiononthe
+2
+surfaces.(e)Thecorrelationsbetweenelectronicdescriptors(i.e.,d-bandcenterand-ICOHP)andhydrogenadsorptionthermodynamicsonthesurfaces.
+(f)SchematicillustrationoftheHERreactionmechanismattheCoNiCuRusurface.
+ThewaterdissociationreactionsonthesurfacesofCoNiCuMn(1 value.Moreimportantly,theGibbsfreeenergyforHadsorption
+11)andCoNiCuRu(111)areexploredtoidentifytheirthermo- onCoNiCuRu(111)surfaceisobviouslyclosertozerothanthat
+dynamics and relevant kinetic energy barriers as the first step onCoNiCuMn(111)surface.Thisimpliesthat,fromathermo-
+for understanding the afore-mentioned difference in the HER dynamic perspective, CoNiCuRu(1 1 1) surface is more suitable
+performance between the two electrocatalysts (Figure 5c and for the moderate H adsorption and facile H desorption than
+FigureS8).Notably,aH Omoleculeisassumedtobeadsorbed CoNiCuMn(111)surface,leadingtoabetterHERperformance
+2
+on the Ni and Co sites which are identified to be the main fortheformer.Consequently,alltheseprovidestrongevidencefor
+activesitesthroughtheanalysesofthePDOSandd-bandcenter. thebeneficialimpactoftheincorporatedRuelementontheHER
+The adsorption energy of H O is found to be −142.9 kJ/mol performance of CoNiCuMn electrocatalyst. To further validate
+2
+for CoNiCuMn(1 1 1) and −36.3 kJ/mol for CoNiCuRu(1 1 1), the simplified model and assess the influence of Mninclusion,
+leading to a more stable H O adsorption for CoNiCuMn(1 1 1). weadditionallyexaminedtheCoNiCuMnRu(111)surface.The
+2
+Moreover,theresultantchangeintheGibbsfreeenergyforthe waterdissociationbarrier(148.86kJmol−1)ispositionedbetween
+waterdissociationisrevealedtobe80.4kJ/molforCoNiCuMn(1 those of CoNiCuMn (218 kJ mol−1) and CoNiCuRu (99.2 kJ
+1 1) and −32.9 kJ/mol for CoNiCuRu(1 1 1). This implies that mol−1),indicatinganintermediatekineticbehavior(FigureS10).
+CoNiCuRu(111)hasamorepreferablethermodynamicsforthe Meanwhile,thehydrogenadsorptionfreeenergyremainswithin
+H O dissociation, even exhibiting an exothermic behavior. The asimilarenergeticwindowrelativetothermoneutralconditions
+2
+dissociated proton is assumed to be subsequently adsorbed on whenevaluatedintermsof|ΔG |.Theseresultsindicatethatthe
+H*
+theNisitecorrespondingtothehighestd-bandcenterwiththe overallcatalyticbehaviorispreserved(FigureS11).
+strongestadsorptioncapability[38,39].TheCoNiCuRu(111)sur-
+face(99.2kJ/mol)exhibitsaloweractivationenergybarrierthan To analyze the electronic effects governing the H adsorption
+theCoNiCuMn(111)surface(218kJ/mol).Notably,arelatively on the CoNiCuMn and CoNiCuRu electrocatalyst surfaces, we
+low activation energy barrier predicted for CoNiCuRu(1 1 1) is investigatedthecorrelationbetweenthed-bandcenteroftheNi
+primarily attributed to its thermodynamic preference for H O adsorptionsiteandtheadsorptionenergy,alongwiththenegative
+2
+adsorption(Figure5c).Thesehighlightthatthewaterdissociation signsofintegratedprojectedcrystalorbitalHamiltonianpopula-
+stepismorefavorableontheCoNiCuRu(111)surfacefromboth tion(ICOHP)values(Figure5e).Fromthechemicalpointofview,
+the thermodynamic and kinetic points of view. The adsorption COHP,whichpartitionstheband-structureenergyintoorbital-
+thermodynamicsofthedissociatedprotonisfurtherinvestigated pairinteractions,isdefinedasbond-weightedDOSbetweenapair
+tounderstandexperimentallyanalyzedHERperformanceonthe ofadjacentatoms.TheICOHPshowsthecontributionofaspe-
+twodifferentsurfaces(Figure4d).Asexpected,CoNiCuMn(111) cific(chemical)bondtotheband-structureenergy.Therefore,a
+andCoNiCuRu(111)surfacesexhibitdistinctlydifferentpatterns COHPdiagramindicatesbondingandantibondingcontributions
+intheGibbsfreeenergyofHadsorption(Figure5d).CoNiCuMn(1 totheband-structureenergy,andICOHPdescribesthestrength
+11)surfacedisplaysanegative(exothermic)adsorptionenergy, of the bond [40, 41]. A clear trend between d-band center and
+while CoNiCuRu(1 1 1) surface shows a positive (endothermic) adsorptionenergyishighlighted,indicatingthatalowerd-band
+Small,2026 7of11
+
+center(i.e.,d-bandcenter:−1.64eVforCoNiCuMnvs.−1.69eV monohydrate (0.675 mmol, 98%) and manganese(II) acetate
+for CoNiCuRu) correlates with a weaker hydrogen adsorption tetrahyrate (0.675 mmol, 98%) were dissolved in 75 mL N,N-
+[42–44]. Likewise, a lower -ICOHP value is shown for a cata- dimethylformamide (DMF, 99.0%) under 1 h magnetic stirring,
+lyst surface with a weaker hydrogen adsorption (i.e., -ICOHP: then terephthalic acid (2.5 mmol, 98%) was injected into the
+1.23eVforCoNiCuMnvs.1.12eVforCoNiCuRu).Consequently, DMFsolution.After magneticstirringfor2 h,theproductwas
+these electronic analyses further support that the difference in centrifuged and washed thoroughly with DMF for three times.
+theHERperformancebetweentheCoNiCuMnandCoNiCuRu The final products were obtained by drying overnight at 60◦C
+electrocatalystsurfacesarisesfromtheirelectronicallyintrinsic undervacuum.
+nature.
+In summary, theoretical calculations show that Ru incorpo- 4.2 SynthesisofCoNiCuMnRu-BDCPrecursor
+ration modifies the electronic structure of the HEA surface
+by lowering the d-band centers of Co and Ni and weakening First,variousamountofruthenium(III)chloridehydrate(99.98%)
+their H-bonding strength. Such electronic tuning makes water wasdissolvedin75mLethanol.Afterfullydissolved,200mgof
+dissociation thermodynamically and kinetically more favorable CoNiCuMn-BDCwasdispersedintheethanolsolution,andthe
+andadjustshydrogenadsorptiontowardanear-optimalregime. solutionwasstirriedat75◦Cfor12h.Afterward,theproductwas
+Asaresult,RushiftsCo/Nisitesintoamoreactivestate,providing centrifuged and washed thoroughly with DMF for three times.
+clear computational evidence that the enhanced HER activity The final products were obtained by drying overnight at 60◦C
+originates from Ru-driven electronic modulation rather than undervacuum.
+fromRuitselfactingastheprimaryactivesite(Figure5f).
+4.3 SynthesisofRu-HEA/CandHEA/C
+3 Conclusion Electrocatalyst
+Inthiswork,weelucidatehowRuincorporationmodulatesthe Typically, the CoNiCuMnRu-BDC precursor was annealed in a
+electronicstructureofahigh-entropyalloytoenhancealkaline tube furnace at 700◦C for 2 h under H /Ar atmosphere (H
+2 2
+HER activity. Spectroscopic analyses show that the high elec- 4%, Ar 96%). After cooling naturally to room temperature, the
+tronegativityofRuwithdrawselectronsfromadjacentCoandNi obtained samples were treated with 0.5 M H SO for 6 h at
+2 4
+atoms,increasingtheiroxidationstates.DFTcalculationsfurther 70◦C. Then the products were rinsed with ultrapure water for
+confirmthatCoandNiremaintheprimaryadsorptionsitesafter three times and then dried overnight at 80◦C under vacuum.
+theird-bandcentersareshiftedintoacatalyticallyadvantageous HEA/CwassynthesizedbyannealingCoNiCuMn-BDCinstead
+regime, and that Ru-containing surfaces exhibit significantly ofCoNiCuMnRu-BDC.
+improved energetics for the HER pathway. In particular, the
+Volmer step becomes thermodynamically favorable and shows
+a substantially reduced activation barrier, while the hydrogen 4.4 Characterization
+adsorptionfreeenergyshiftstowardnear-thermoneutralvalues.
+TheseresultsconfirmtheroleofRuatomsasanelectronicmod- ThemorphologyofthesampleswasobservedbyFE-SEM(JSM-
+ulator,enablingsimultaneousactivationofCoandNisitesrather 7610F-Plus). A Cs-corrected transmission electron microscope
+than functioning as the main reactive center. These electronic (JEM-ARM 200F) was used for the HRTEM observation. The
+and mechanistic improvements directly translate into strong XRDdiffractionpatternswereobtainedusingahigh-resolution
+catalytic performance. Ru-HEA/C achieves an overpotential of X-ray diffractometer (Rigaku SmartLab) equipped with a Cu–
+29 mV at 10 mA cm−2, high Ru mass activity, reduced charge- Ka radiation source. XPS (Thermo Fisher Scientific K-ALPHA)
+transfer resistance, expanded electrochemical surface area, and and was used to characterize the chemical states of the elec-
+operational stability surpassing 25 h, surpassing both Ru-free trocatalysts. The compositions of catalysts were determined by
+HEAandcommercialRu/CdespiteminimalRuloading. theInductivelyCoupledPlasmaOpticalEmissionSpectrometer
+(ICP-OES,Agilent).
+Overall,thisstudyclarifiesthemechanismbywhichRuinduces
+dual-site activation within a high-entropy environment and
+highlightselectronicredistributionasapowerfulleverfortuning 4.5 ElectrochemicalMeasurements
+multi-metalliccatalysts.Thedemonstratedframeworkprovides
+ageneralizabledesignprincipleforengineeringHEAelectrocat- The electrochemical performance was measured using an elec-
+alystsoptimizedforalkalineHERthroughtargetedmodulation trochemical workstation (CHI 605, CH Instrument) based on a
+ofactive-siteelectronicstructure. three-electrode system containing a Pt wire counter electrode,
+an Hg/HgO (1 M NaOH) reference electrode, and a 1 M KOH
+(pH 14) electrolyte. In order to load the electrocatalysts on the
+4 ExperimentalSection workingelectrode,5mgpreparedsamplewasdispersedin1mL
+Nafionethanol/watersolution(500µLethanol,480µLwater,and
+4.1 SynthesisofCoNiCuMn-BDCPrecursor 20µLNafion,5wt.%).Thesuspensionwasfurthersonicatedfor
+1htoprepareahomogeneousink.Finally,15µLofsuspension
+Cobalt(II) acetate tetrahydrate (0.675 mmol, 98%), nickel(II) wasdrop-castedontoaglassycarbonelectrode(5mmdiameter)
+acetate tetrahydrate (0.675 mmol, 98%), copper(II) acetate with a loading mass of about 0.38 mg cm−2 and dried at room
+8of11 Small,2026
+
+temperature. The J–V curves were measured by linear sweep The reaction thermodynamics of the proton adsorption can be
+voltammetrywithascanrateof20mVs−1with95%iR-corrected. quantified by evaluating ▵G through the following set of
+ads
+The stability test was conducted in 1 M KOH solution using equations:
+chronoamperometric mode of the electrochemical workstation,
+( )
+maintaining a potential of -0.019 V vs. RHE. Electrochemical 1
+impedance spectroscopy (EIS) measurements (Gamry Instru- ▵𝐺 𝑎𝑑𝑠 =𝐺 ∗𝐻 − 𝐺 ∗ + 2 𝐺 𝐻2 (3)
+ments, Reference 600+) were conducted at an overpotential of
+100 mV in a frequency range of 100 kH to 1 Hz with an AC
+amplitudeof5mV.Theelectrochemicaldouble-layercapacitance 𝐺=𝐸+𝑍𝑃𝐸−𝑇𝑆 (4)
+was measured by a CV method. First, potential was applied in
+therangeof0.0–0.2V(vsRHE)atdifferentscanrates.Afterthe Intheseexpressions,G * ,G *H ,and𝐺 𝐻2 denotetheGibbsfreeener-
+CVsweremeasured,halfofthecurrentdensitydeviationat0.1V gies of the clean catalyst surface, the surface with an adsorbed
+(vs RHE) was plotted against the scan rate. The plotted graph hydrogenatom,andanisolatedhydrogenmolecule,respectively.
+waslinearlyfitted,anditsslopewascalculatedtodeterminethe ThetermsE,ZPE,S,andTsignifytheelectronicenergyobtained
+double-layercapacitance. fromtheDFTcalculations,thezero-pointvibrationalenergy,the
+entropy contribution, and the temperature (set to be 298.15 K
+in this study), respectively. For hydrogen adsorption on metal
+4.6 ComputationalMethods catalysts,thetotalcontributionofZPEand-TStermsisestimated
+tobe0.24eV,Equation(1)canbedefinedasfollows[48,49]:
+ToconstructthebulkmodelofCoNiCuMnstructure,weutilized
+a 2 × 2 × 2 supercell of the Co FCC bulk, in the atomic ratio ▵𝐺 𝑎𝑑𝑠 =▵𝐸 𝑎𝑑𝑠 +0.24+0.059𝑝𝐻 (5)
+of Co 0.5, Ni 0.375, Cu 0.094, and Mn 0.031. We considered a
+totalofeightconfigurations,eachofwhichshowedthesystematic
+To gain insights into the influence of ruthenium atoms on the
+arrangement of individual elements to ensure that the bulk
+electronicstructureofHEA,thed-bandcenterpositionsofnickel
+structure maintained a cubic structure during the geometry
+atomswereevaluatedusingthefollowingexpression[50–52]:
+optimization process. This allowed for the identification of a
+most stable configuration (Figure S7 and Table S2). Notably, ∫𝐸𝐹 𝜀𝜌 𝑑𝜀
+a p n re y se o r f vi t n h g e t e h i e gh cu t b c i o c n a f r i r g a u n r g a e ti m on e s nt e , x w h h ib ic it h ed ca n n o be la a t t t t i r c i e bu d t i e s d to t r o ti t o h n e , 𝜀 𝑑 = ∫ − − 𝐸 ∞ ∞ 𝐹 𝜌 𝑑 𝑑 𝑑𝜀 (6)
+intrinsiccharacteristicsoftheFCCstructure(TableS3)[45,46].
+ThebulkmodelofCoNiCuRustructurewasfurtherconstructed In this equation, ε signifies the location of the d-band center,
+d
+throughsubstitutingMnelementinthemoststableconfiguration E represents the Fermi energy, ρ denotes the local density
+F d
+of the CoNiCuMn structure with Ru element. This resulted in of states (LDOS) corresponding to a specific d orbital, and ε
+the atomic ratio of Co 0.5, Ni 0.375, Cu 0.094, Ru 0.031, and is an energy level at the specified d orbital. Furthermore, an
+a slightly greater lattice parameter of 7.07Å, which is 0.01Å analysis of the LDOS for each HEA model was conducted to
+greaterthanthatofCoNiCuMn,wasobservedfortheCoNiCuRu gain an understanding of the binding strength between the
+structure,whilemaintainingawell-formedcubicstructure.Based electrochemicallyadsorbedprotonsandthecatalystsurfaces.
+on the bulk models of CoNiCuMn and CoNiCuRu, a total
+of seven layers was constructed to design each slab model, All the DFT calculations were performed using the Vienna
+each of which had four relaxed layers at the top and bottom. Ab initio Simulation Package code [53–55]. The Perdew-Burke-
+Additionally,avacuumregionof30Åwassettoensurethatthe Ernzerhof generalized gradient approximation functional was
+dipole moment interactions between periodic images could be employed for electronic structure calculations, and the core
+neglected. electronsofeachelementweredescribedbyprojectoraugmented
+wavepseudopotentials[56–58].Theplane-waveenergycutoffwas
+Forasymmetricbutnon-stoichiometricslabmodel,thesurface set to 400 eV. For Brillouin zone sampling, 5 × 5 × 5 k-point
+energycanbecalculatedusingthefollowingequation[47]: meshwasusedforbulkmodels,whilea3×3×1k-pointmesh
+was employed for slab models. Additionally, climbing image
+𝐸 +𝐸
+𝛾= 𝑐𝑙𝑒 𝑟𝑒𝑙 (1) nudgedelasticbandcalculationswereconductedtoelucidatethe
+𝐴
+potentialenergylandscapesassociatedwithhydrogenevolution
+mechanisms[59,60].
+here,γrepresentsthesurfaceenergy,E istheenergyrequired
+cle
+forcreatinganasymmetricandstoichiometricslabmodelfrom
+the bulk structure with no atomic relaxation, E is the relax-
+rel
+ationenergyofasymmetricandnon-stoichiometricslabmodel
+generatedfromthebulkstructure,andAisthesurfacearea. Acknowledgements
+ThisworkwassupportedbytheKoreaInstituteofEnergyTechnology
+The reaction mechanisms of the water dissociation and subse- EvaluationandPlanning(KETEP)grantfundedbytheKoreagovernment
+quentprotonadsorptionreactionsoccurringonacatalystsurface (MOTIE)(RS-2023-00304126,Centerforfosteringglobalhumanresources
+canbedescribedasfollows: ingreenhydrogenenergytechnology)and“RegionalInnovationSystem
+& Education (RISE)” through the Seoul RISE Center, funded by the
+MinistryofEducation(MOE)andtheSeoulMetropolitanGovernment
+∗+𝐻 2 𝑂(𝑙)→∗𝐻 2 𝑂→∗[𝐻+𝑂𝐻]→∗𝐻+∗𝑂𝐻 (2) (2026-RISE-01-022-02).
+Small,2026 9of11
+
+ConflictsofInterest 17.T.Löffler,A.Ludwig,J.Rossmeisl,andW.Schuhmann,“WhatMakes
+High-EntropyAlloysExceptionalElectrocatalysts?,”AngewandteChemie
+Theauthorsdeclarenoconflictsofinterest.
+InternationalEdition60(2021):26894–26903.
+18.Y. Yao, Z. Liu, P. Xie, et al., “Computationally Aided, Entropy-
+DataAvailabilityStatement DrivenSynthesisofHighlyEfficientandDurableMulti-ElementalAlloy
+Thedatathatsupportthefindingsofthisstudyareavailablefromthe Catalysts,”ScienceAdvances6(2020):aaz0510.
+correspondingauthoruponreasonablerequest. 19.C. Suryanarayana, “Mechanical Alloying: a Novel Technique to
+SynthesizeAdvancedMaterials,”Research2019(2019):4219812.
+20.M.Bondesgaard,N.L.N.Broge,A.Mamakhel,M.Bremholm,and
+References
+B. B. Iversen, “General Solvothermal Synthesis Method for Complete
+1.S. Chu and A. Majumdar, “Opportunities and Challenges for a Solubility Range Bimetallic and High-Entropy Alloy Nanocatalysts,”
+SustainableEnergyFuture,”Nature488(2012):294–303. AdvancedFunctionalMaterials29(2019):1905933.
+2.Z.W.Seh,J.Kibsgaard,C.F.Dickens,I.Chorkendorff,J.K.Nørskov, 21.M.Liu,Z.Zhang,F.Okejiri,S.Yang,S.Zhou,andS.Dai,“Entropy-
+andT.F.Jaramillo,“CombiningTheoryandExperimentinElectrocatal- Maximized Synthesis of Multimetallic Nanoparticle Catalysts via a
+ysis:InsightsintoMaterialsDesign,”Science355(2017):146. Ultrasonication-AssistedWetChemistryMethodunderAmbientCondi-
+3.Z.-Y.Yu,Y.Duan,X.-Y.Feng,X.Yu,M.-R.Gao,andS.-H.Yu,“Clean tions,”AdvancedMaterialsInterfaces6(2019):1900015.
+and Affordable Hydrogen Fuel from Alkaline Water Splitting: Past,
+22.A.L.Wang,H.C.Wan,H.Xu,Y.X.Tong,andG.R.Li,“Quinary
+RecentProgress,andFutureProspects,”AdvancedMaterials33(2021):
+PdNiCoCuFe Alloy Nanotube Arrays as Efficient Electrocatalysts for
+2007100.
+MethanolOxidation,”ElectrochimicaActa127(2014):448–453.
+4.J.Zhu,L.Hu,P.Zhao,L.Y.S.Lee,andK.Wong,“RecentAdvances
+23.S. Wang, W. Huo, F. Fang, Z. Xie, J. K. Shang, and J. Jiang,
+inElectrocatalyticHydrogenEvolutionUsingNanoparticles,”Chemical
+“HighEntropyAlloy/CNanoparticlesDerivedfromPolymetallicMOF
+Reviews120(2020):851–918.
+asPromisingElectrocatalystsforAlkalineOxygenEvolutionReaction,”
+5.Y. Guo, T. Park, J. W. Yi, et al., “Nanoarchitectonics for Transition- ChemicalEngineeringJournal429(2022):132410.
+Metal-Sulfide-Based Electrocatalysts for Water Splitting,” Advanced
+24.Q.Gao,Z.Wang,W.Gao,andH.Yin,“NiFeCo-BasedHighEntropy
+Materials31(2019):1807134.
+AlloysNanoparticlesCoatedwithN-DopedGrapheneLayersasHydro-
+6.C.LiandJ.Baek,“RecentAdvancesinNobleMetal(Pt,Ru,andIr)- gen Evolution Catalyst in Alkaline Solution,” Chemical Engineering
+BasedElectrocatalystsforEfficientHydrogenEvolutionReaction,”ACS Journal489(2024):151370.
+Omega5(2020):31–40.
+25.X.Huo,Y.Zhang,H.Yu,etal.,“BulkCoCrFeNiAlMoHighEntropy
+7.Q. Zhang, M. Lao, Y. Yu, et al., “Manipulation of the Electronic AlloyasHigh-EfficientElectrocatalystinAlkalineEnvironment,”Inter-
+Structure of Ruthenium Nanoclusters by Ni-N 4 Sites Enhances the nationalJournalofHydrogenEnergy87(2024):505–514.
+AlkalineHydrogenEvolutionReaction,”AdvancedFunctionalMaterials
+26.H.Cai,H.Yang,S.He,etal.,“Size-AdjustableHigh-EntropyAlloy
+35(2025):2416071.
+NanoparticlesasanEfficientPlatformforElectrocatalysis,”Angewandte
+8.P. Eskandari, S. Zhou, J. Yuwono, et al., “Enhanced Hydrogen Evo- ChemieInternationalEdition64(2025):202423765.
+lution Reaction in Alkaline Media via Ruthenium–Chromium Atomic
+27.H. Cai, S. He, H. Yang, et al., “Highly Exposed Ultra-Small High-
+PairsModifiedRutheniumNanoparticles,”AdvancedMaterials37(2025):
+Entropy Sulfides with D-p Orbital Hybridization for Efficient Oxygen
+2419360.
+Evolution,”AdvancedMaterials37(2025):2508610.
+9.L.Li,H.Qiu,Y.Zhu,etal.,“AtomicRutheniumModificationofNickel-
+28.Y. Jin, X. Fan, Q. Li, et al., “Self-Reconstruction of High Entropy
+Cobalt Alloy for Enhanced Alkaline Hydrogen Evolution,” Applied
+Alloys for Efficient Alkaline Hydrogen Evolution,” Small 21 (2025):
+CatalysisB:Environmental331(2023):122710.
+2408165.
+10.J.Su,Y.Yang,G.Xia,J.Chen,P.Jiang,andQ.Chen,“Ruthenium-
+29.H. Zhu, S. Sun, J. Hao, et al., “A High-Entropy Atomic Environ-
+CobaltNanoalloysEncapsulatedinNitrogen-DopedGrapheneasActive
+ment Converts Inactive to Active Sites for Electrocatalysis,” Energy &
+Electrocatalysts for Producing Hydrogen in Alkaline media,” Nature
+EnvironmentalScience16(2023):619–628.
+Communications8(2017):14969.
+11.C. Wang and L. Qi, “Heterostructured Inter-Doped Ruthenium– 30.Y. Sun, Z. Xue, Q. Liu, et al., “Modulating Electronic Structure of
+Cobalt Oxide Hollow Nanosheet Arrays for Highly Efficient Overall Metal-OrganicFrameworksbyIntroducingAtomicallyDispersedRufor
+Water Splitting,” Angewandte Chemie International Edition 59 (2020): EfficientHydrogenEvolution,”NatureCommunications12(2021):1369.
+17219–17224. 31.M. A. Pimenta, G. Dresselhaus, M. S. Dresselhaus, L. G. Cancado,
+12.Y. Hu, G. Luo, L. Wang, et al., “Single Ru Atoms Stabilized by A. Jorio, and R. Saito, “Studying Disorder in Graphite-Based Systems
+HybridAmorphous/CrystallineFeCoNiLayeredDoubleHydroxidefor byRamanSpectroscopy,”PhysicalChemistryChemicalPhysics9(2007):
+UltraefficientOxygenEvolution,”AdvancedEnergyMaterials11(2021): 1276–1290.
+2002816.
+32.J.Hao,Z.Zhuang,K.Cao,etal.,“UnravelingtheElectronegativity-
+13.S.Zhu,X.Qin,F.Xiao,etal.,“TheRoleofRutheniuminImprovingthe DominatedIntermediateAdsorptiononHigh-EntropyAlloyElectrocata-
+KineticsofHydrogenOxidationandEvolutionReactionsofPlatinum,” lysts,”NatureCommunications13(2022):2662.
+NatureCatalysis4(2021):711–718.
+33.G.Y.Jang,S.Kim,J.Choi,etal.,“Bulk-HeterojunctionElectrocatalysts
+14.Y.LiandL.Feng,“RecentAdvancesandPerspectivesinRuHybrid inConfinedGeometryBoostingStable,Acid/Alkaline-UniversalWater
+ElectrocatalystsfortheHydrogenEvolutionReaction,”Energy&Fuels37 Electrolysis,”AdvancedEnergyMaterials14(2024):2303924.
+(2023):8079–8098.
+34.J.W.Yeh,S.-K.Chen,S.-J.Lin,etal.,“NanostructuredHigh-Entropy
+15.Q.He,D.Tian,H.Jiang,etal.,“AchievingEfficientAlkalineHydrogen AlloyswithMultiplePrincipalElements:NovelAlloyDesignConcepts
+EvolutionReactionoveraNi P CatalystIncorporatingSingle-AtomicRu andOutcomes,”AdvancedEngineeringMaterials6(2004):299–303.
+5 4
+Sites,”AdvancedMaterials32(2020):1906972.
+35.C. Bazioti, O. M. Løvvik, A. Poulia, et al., “Probing the Structural
+16.G. M. Tomboc, T. Kwon, J. Joo, and K. Lee, “High Entropy Alloy Evolution and Its Impact on Magnetic Properties of FeCoNi(AlMn)X
+Electrocatalysts:aCriticalAssessmentofFabricationandPerformance,” High-EntropyAlloyattheNanoscale,”JournalofAlloysandCompounds
+JournalofMaterialsChemistryA8(2020):14844–14862. 910(2022):164724.
+10of11 Small,2026
+
+36.Y.-A. Shen, C.-M. Lin, J. Li, S. He, and H. Nishikawa, “Effect 55.G.KresseandJ.Furthmüller,“EfficientIterativeSchemesforAbInitio
+of FeCoNiCrCu High-Entropy-Alloy Substrate on Sn Grain Size in Total-EnergyCalculationsUsingaPlane-WaveBasisSet,”PhysicalReview
+0.5
+Sn-3.0Ag-0.5CuSolder,”ScientificReports9(2019):3658. B54(1996):11169–11186.
+37.D. Zhang, Y. Shi, H. Zhao, et al., “The Facile Oil-Phase Synthesis 56.J. P. Perdew, K. Burke, and M. Ernzerhof, “Generalized Gradient
+ofaMulti-SiteSynergisticHigh-EntropyAlloytoPromotetheAlkaline Approximation Made Simple,” Physical Review Letters 77 (1996): 3865–
+HydrogenEvolutionReaction,”JournalofMaterialsChemistryA9(2021): 3868.
+889–893.
+57.G.K.D.Joubert,“FromUltrasoftPseudopotentialstotheProjector
+38.Z. W. Chen, J. Li, P. Ou, et al., “Unusual Sabatier Principle on Augmented-WaveMethod,”PhysicalReviewB59(1999):1758–1775.
+HighEntropyAlloyCatalystsforHydrogenEvolutionReactions,”Nature
+58.P.E.Blöchl,“ProjectorAugmented-WaveMethod,”PhysicalReviewB
+Communications15(2024):359.
+50(1994):17953–17979.
+39.B. Hammer and J. K. Nørskov, “Theoretical Surface Science and
+59.G.Henkelman,B.P.Uberuaga,andH.Jónsson,“AClimbingImage
+Catalysis:CalculationsandConcepts,”AdvancesinCatalysis45(2000):
+NudgedElasticBandMethodforFindingSaddlePointsandMinimum
+71–129.
+EnergyPaths,”TheJournalofChemicalPhysics113(2000):9901–9904.
+40.R.DronskowskiandP.E.Blöchl,“CrystalOrbitalHamiltonPopu-
+60.G.HenkelmanandH.Jónsson,“ImprovedTangentEstimateinthe
+lations(COHP):Energy-ResolvedVisualizationofChemicalBondingin
+NudgedElasticBandMethodforFindingMinimumEnergyPathsand
+SolidsBasedonDensity-FunctionalCalculations,”TheJournalofPhysical
+SaddlePoints,”TheJournalofChemicalPhysics113(2000):9978–9985.
+Chemistry97(1993):8617–8624.
+41.G.Qian,J.Chen,T.Yu,J.Liu,L.Luo,andS.Yin,“Three-PhaseHet-
+erojunctionNiMo-BasedNano-NeedleforWaterSplittingatIndustrial SupportingInformation
+AlkalineCondition,”Nano-MicroLetters14(2022):20.
+AdditionalsupportinginformationcanbefoundonlineintheSupporting
+42.Y.Zhou,Y.Liu,H.Tang,andB.-L.Lin,“TheRuO 2 /NiRuHetero- Informationsection.
+geneousInterfaceOptimizestheD-BandCenteroftheNi–RuCatalyst SupportingFile:smll74314-sup-0001-SuppMat.docx.
+forHigh-PerformanceAlkalineHydrogenEvolutionReaction,”Journal
+ofMaterialsChemistryA11(2023):10720–10726.
+43.Y. Pan, K. Sun, Y. Lin, et al., “Electronic Structure and D-Band
+CenterControlEngineeringoverM-DopedCoP(M=Ni,Mn,Fe)Hollow
+PolyhedronFramesforBoostingHydrogenProduction,”NanoEnergy56
+(2019):411–419.
+44.Z.Chen,Y.Song,J.Cai,etal.,“TailoringtheD-BandCentersEnables
+Co NNanosheetsToBeHighlyActiveforHydrogenEvolutionCatalysis,”
+4
+AngewandteChemie130(2018):5170–5174.
+45.S.San,Y.Tong,H.Bei,B.Kombaiah,Y.Zhang,andW.-Y.Ching,“First-
+PrinciplesCalculationofLatticeDistortionsinFourSinglePhaseHigh
+EntropyAlloyswithExperimentalValidation,”Materials&Design209
+(2021):110071.
+46.L.R.Owen,E.J.Pickering,H.Y.Playford,H.J.Stone,M.G.Tucker,
+andN.G.Jones,“AnAssessmentoftheLatticeStrainintheCrMnFeCoNi
+High-EntropyAlloy,”ActaMaterialia122(2017):11–18.
+47.X.Tian,T.Wang,L.Fan,Y.Wang,H.Lu,andY.Mu,“ADFTBased
+MethodforCalculatingtheSurfaceEnergiesofAsymmetricMoPFacets,”
+AppliedSurfaceScience427(2018):357–362.
+48.J. K. Nørskov, T. Bligaard, A. Logadottir, et al., “Trends in the
+ExchangeCurrentforHydrogenEvolution,”JournaloftheElectrochemi-
+calSociety152(2005):J23–J26.
+49.J.Deng,H.Li,J.Xiao,etal.,“TriggeringtheElectrocatalyticHydrogen
+EvolutionActivityoftheInertTwo-DimensionalMoS SurfaceviaSingle-
+2
+AtomMetalDoping,”Energy&EnvironmentalScience8(2015):1594–1601.
+50.S. Bhattacharjee, U. V. Waghmare, and S.-C. Lee, “An Improved
+D-Band Model of the Catalytic Activity of Magnetic Transition Metal
+Surfaces,”ScientificReports6(2016):35916.
+51.Q.Zhu,W.Huang,C.Huang,L.Gao,Y.Su,andL.Qiao,“TheDBand
+CenterasanIndicatorfortheHydrogenSolutionandDiffusionBehaviors
+inTransitionMetals,”InternationalJournalofHydrogenEnergy47(2022):
+38445–38454.
+52.L. Wang, Z. Zeng, W. Gao, et al., “Tunable Intrinsic Strain in
+Two-DimensionalTransitionMetalElectrocatalysts,”Science363(2019):
+870.
+53.G.KresseandJ.Hafner,“AbInitioMolecularDynamicsforLiquid
+Metals,”PhysicalReviewB47(1993):558–561.
+54.G.KresseandJ.Furthmüller,“EfficiencyofAb-InitioTotalEnergy
+CalculationsforMetalsandSemiconductorsUsingaPlane-WaveBasis
+Set,”ComputationalMaterialsScience6(1996):15–50.
+Small,2026 11of11
+

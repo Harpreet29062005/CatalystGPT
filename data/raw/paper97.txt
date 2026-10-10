@@ -1,0 +1,937 @@
+Science AdvAnceS | ReSeAR ch AR ticle
+MATERIALS SCIENCE copyright © 2024 the
+Authors, some rights
+A catalyst family of high- entropy alloy atomic layers
+reserved; exclusive
+licensee American
+with square atomic arrangements comprising iron- and
+Association for the
+Advancement of
+platinum- group metals
+Science. no claim to
+original U.S.
+Cheng- Yu Wu1, Yueh- Chun Hsiao1, Yi Chen1, Kun- Han Lin1, Tsung- Ju Lee2, Chong- Chi Chi3, Government Works.
+distributed under a
+Jui- Tai Lin1, Liang- Ching Hsu4, Hsin- Jung Tsai2, Jia- Qi Gao1, Chun- Wei Chang1, I- Ting Kao1,
+creative commons
+Chia- Ying Wu1, Ying- Rui Lu4, Chih- Wen Pao4, Sung- Fu Hung2,5, Ming- Yen Lu3, Attribution
+Shan Zhou6, Tung- Han Yang1,7 * noncommercial
+license 4.0 (cc BY- nc).
+We report a catalyst family of high- entropy alloy (HEA) atomic layers having three elements from iron- group
+metals (IGMs) and two elements from platinum- group metals (PGMs). Ten distinct quinary compositions of IGM-
+PGM- HEA with precisely controlled square atomic arrangements are used to explore their impact on hydrogen
+evolution reaction (HER) and hydrogen oxidation reaction (HOR). The PtRuFeCoNi atomic layers perform enhanced
+catalytic activity and durability toward HER and HOR when benchmarked against the other IGM- PGM- HEA and
+commercial Pt/C catalysts. Operando synchrotron x-r ay absorption spectroscopy and density functional theory simu-
+lations confirm the cocktail effect arising from the multielement composition. This effect optimizes hydrogen-
+adsorption free energy and contributes to the remarkable catalytic activity observed in PtRuFeCoNi. In situ
+electron microscopy captures the phase transformation of metastable PtRuFeCoNi during the annealing process. They
+transform from random atomic mixing (25°C), to ordered L1 (300°C) and L1 (400°C) intermetallic, and finally
+0 2
+phase- separated states (500°C).
+INTRODUCTION (or called the “cocktail effect”) among constituent elements to boost
+Since the first report on solid- solution high- entropy alloys (HEAs) catalytic performance. Note that the cocktail effect is one of the four
+was published in 2004, these materials have been regarded as a core effects in the field of high- entropy materials, indicating that
+paradigm in a wide range of applications (1, 2). Recently, dozens of inter- element interactions between the constituent elements give
+single- phase HEA nanocrystals or nanostructures and their corre- rise to remarkable and/or unusual performances (1, 2). The local
+sponding intermetallic and oxide derivatives have been developed lattice distortion and electronic interactions between these 3d, 4d,
+for various catalytic applications, demonstrating superior activity, and 5d transition metals within the IGM-P GM- HEA lattices may
+selectivity, and durability (3–21). A series of nanoscale HEA cata- achieve competitive preferential adsorption sites for the reactants,
+lysts mainly composed of platinum- group metals (PGMs: Pt, Pd, intermediates, and/or products, which endow e nhanced catalytic
+Rh, Ru, Ir, and Os) have been considered the prime choice (8, 17, performance (22, 23).
+20). It is because each PGM can promote distinctive reactions, Despite the recent surge in IGM-P GM- HEA–based research,
+and, thus, PGM- HEA would create an ideal surface for complex several great challenges remain:
+or multistep catalysis. For instance, the PtPdRhRuIrOs HEA nano- 1.It is hard for the current synthetic methods to control the sur-
+crystals are one of the best catalysts for ethanol oxidation reac- face atomic structures of IGM- PGM- HEA nanocrystals, and, thus,
+tion with 12- electron/12- proton transfer processes (8). However, facet- controlled IGM- PGM- HEA nanocrystals are lacking, which is
+since PGMs are scarce, minimizing the demand for PGMs is ex- expected to affect catalytic performance. In particular, IGMs and
+tremely important. To address this issue, alloying PGMs with PGMs are crystallized in one of the three different crystal lattices,
+earth- abundant iron- group metals (IGMs: Fe, Co, and Ni), which including body- centered cubic, face-c entered cubic (FCC), and hex-
+are the neighboring elements with PGMs on the periodic table, into agonal close- packed at the thermodynamic states (table S2). There-
+single- phase HEA nanocrystals (referred to as IGM- PGM- HEA fore, it is a challenge to confine five or more elements of them on the
+nanocrystals; table S1) has attracted much attention (5, 7, 10, 11, nanocrystal surface with a specific arrangement.
+14, 18). The IGM- PGM- HEA nanocrystals as catalysts not only can 2.Obtaining an optimized composition of IGM- PGM- HEA
+reduce the usage of PGMs but also generate the synergistic effect nanocrystals for catalysis remains an issue. This is due to the lack
+of a comprehensive understanding of the catalytic performances
+of IGM- PGM- HEA nanocrystals with various combinations of
+1department of chemical engineering, national tsing hua University, hsinchu different metals at the same surface atomic structures.
+30013, taiwan. 2department of Applied chemistry, national Yang Ming chiao tung 3.A knowledge gap exists in how a synergistic effect among IGM
+University, hsinchu 30010, taiwan. 3department of Materials Science and engi-
+neering, national tsing hua University, hsinchu 30013, taiwan. 4national Synchro- and PGM elements improves catalytic performance. An in-d epth
+tron Radiation Research center, hsinchu 30076, taiwan. 5center for emergent understanding of the synergistic interactions in a high- entropy mul-
+Functional Matter Science, national Yang Ming chiao tung University, hsinchu tielemental phase as well as their actual active sites during catalysis
+300093, taiwan. 6department of nanoscience and Biomedical engineering, South is needed by operando characterization tools.
+dakota School of Mines and technology, Rapid city, Sd 57701, USA. 7high entropy
+4.There is an urgency to identify whether IGM-P GM-H EA nano-
+Materials center, national tsing hua University, hsinchu 30013, taiwan.
+*corresponding author. email: tunghanyang@ mx. nthu. edu. tw crystals are thermodynamically stable or kinetically favored phase
+Wu et al., Sci. Adv. 10, eadl3693 (2024) 26 July 2024 1 of 17
+
+Science AdvAnceS | ReSeAR ch AR ticle
+(metastable phase), which will provide a fundamental perspective that when the rate of diffusion is sufficiently high compared to the
+on the stability of a high-e ntropy single phase (24–26). rate of deposition, a more complete and conformal shell forms on
+To conquer these challenges, herein, we synthesize a catalyst fam- the Pd octahedral seeds enclosed by the {111} facets while maintain-
+ily of nanocrystals exposing well-d efined IGM-P GM-H EA facets us- ing the octahedral morphology. These results confirm the generality
+ing wet-c hemical synthesis. As a proof of concept, we combine three of epitaxial growth developed in this study. Similar protocols are car-
+elements from IGMs (i.e., Fe, Co, and Ni) with two elements from ried out for the preparations of the other nine types of Pd@IGM-
+PGMs (i.e., Pt, Pd, Rh, Ru, and Ir) to prepare 10 different quinary PGM-H EA core-s hell nanocubes with different compositions except
+IGMPGM-H EA subnanometer-t hick atomic layers on the Pd seeds for changing the types of the metal precursors.
+with a well-d efined shape, such as Pd@PtRuFeCoNi core-s hell nano- Figure 1 (C to J) shows the structural and compositional charac-
+cubes enclosed by the square atomic arrangements of {100} facets. terizations of PtRuFeCoNi atomic layers on the 16.4- nm Pd cubic
+We systematically examine the catalytic performances of IGM-P GM- seeds (fig. S1). TEM image reveals good retention of cubic shape
+HEA atomic layers toward hydrogen evolution reaction (HER) and after the deposition (Fig. 1C). The edge length of Pd@PtRuFeCoNi
+hydrogen oxidation reaction (HOR). We also elaborate on the corre- core- shell nanocubes is increased to 18.4 nm (Fig. 1I), indicating
+sponding atomic-s cale synergistic interactions, active sites, and cata- around 1.0- nm thickness of PtRuFeCoNi shell layers. HAADF-
+lytic mechanisms during catalysis through operando synchrotron STEM image taken from an individual nanocube reveals the peri-
+x-r ay absorption spectroscopy (XAS) and density functional theory odic lattice extending across the whole nanocube covered by {100}
+(DFT) simulations. Furthermore, we use in situ high-a ngle annular facets, suggesting the epitaxial growth mode (Fig. 1D). An obvious
+dark-fi eld scanning transmission electron microscopy (HAADF- contrast is observed on the outer surface consisting of a few atomic
+STEM) to confirm the metastable phase of IGM-P GM-H EA atomic layers, which can be attributed to the difference in atomic number
+layers and reveal their equilibration pathways. between these five elements. Smaller atoms with less contrast can be
+attributed to the lighter elements of IGMs (9, 21, 24). From the
+atomic- resolution HAADF- STEM image, together with the corre-
+RESULTS sponding fast Fourier transform (FFT) pattern and intensity profile
+Synthesis and characterization of IGM- PGM- HEA (Fig. 1, E and F, and fig. S7), the nanocube only has one set of an
+atomic layers FCC- diffraction single- crystal pattern. The lattice spacing of (200)
+In recent years, many alloy catalysts covered by the {100} facets as plane is around 0.20 nm. X-r ay diffraction (XRD) analysis also con-
+the predominant surface atomic structure have shown outstanding firms the diffraction peaks of the FCC phase (Fig. 1H). When com-
+electrocatalytic activity and durability for HER (27–31). On the ba- pared to that of Pd nanocubes, the diffraction peaks of the Pd@
+sis of these findings, as shown in Fig. 1, here, we choose to focus on PtRuFeCoNi core- shell nanocubes shift toward lower 2θ values. In
+the epitaxial growth of quinary IGM-P GM- HEA atomic layers on addition, the full width at half maximums (FWHM) of the Pd@
+the FCC Pd cubic seeds (fig. S1) to form Pd@IGM-P GM- HEA core- PtRuFeCoNi core- shell nanocubes (FWHM = 1.01) is found to be
+shell nanocubes enclosed by the {100} facets. Figure 1A shows a slightly larger than that of the Pd nanocubes (FWHM = 0.81), con-
+schematic of the periodic table, highlighting the chemical combina- trary to the expected trend based on the Scherrer equation. This
+tion of all 10 IGM-P GM- HEA atomic layers prepared. In our study, slight deviation can be ascribed to various factors extending be-
+the Pd@PtRuFeCoNi core-s hell nanocubes are first demonstrated yond crystallite size. One possible explanation for this deviation is
+(see Materials and Methods for details), as shown in Fig. 1B. Briefly, that the Scherrer equation assumes uniform crystallite size and
+the PtRuFeCoNi shells can be deposited on the Pd nanocubes may not fully account for structural complexities, such as the core-
+by adding the precursor solution, including H PtCl , RuCl ·xH O, shell nature and local lattice distortion with inhomogeneous strain
+2 6 3 2
+Fe(C H O ) , Co(C H O ) , and Ni(C H O ) at a slow rate of introduced by the formation of the HEA shells consisting of dispa-
+5 7 2 3 5 7 2 2 5 7 2 2
+0.8 ml hour−1 to the reaction solution of oleylamine (Oam) and rate atomic sizes of Pt (2.774 Å), Ru (2.718 Å), Fe (2.475 Å), Co
+1- octadecene (ODE) containing the preformed Pd cubic seeds at a (2.505 Å), and Ni (2.530 Å) atoms (2). These crystal lattice imper-
+high enough temperature of 200°C. Such dropwise introduction of fections may play a crucial role in contributing to XRD peak
+precursor solution can allow us to control the number of atoms gen- broadening. In addition, the average number of PtRuFeCoNi atomic
+erated from the five precursors at about the same value during the layers on the Pd seeds is estimated as about five atomic layers from
+steady state for the number of each precursor (20, 32), enabling the the atomic ratio of core and shell (table S3), in good agreement
+epitaxial growth of homogeneous PtRuFeCoNi as well as the elimi- with the observation of ~1.0- nm PtRuFeCoNi thickness in the TEM
+nation of self- nucleation process and thus island growth (fig. S2). image (Fig. 1, C and I).
+Note that the layer-b y- layer growth mode of PtRuFeCoNi atomic Furthermore, the energy- dispersive x- ray spectrometry (EDS)
+layers shifts to island growth when using Pd octahedral seeds en- elemental mappings (Fig. 1G) and their corresponding line scan
+closed by {111} facets, with the same injection rate of 0.8 or slightly profiles (fig. S8) verify the spatial core-s hell distributions of Pd@
+lower, such as 0.6 ml hour−1. This change is attributed to the pre- PtRuFeCoNi nanocubes, with the core composed of Pd and solid-
+dominant region of the deposited Pt, Ru, Fe, Co, and Ni atoms on solution shell composed of five elements. The atomic percentages of
+the {100} facets, rather than the {111} facets, due to the elevated sur- Pt, Ru, Fe, Co, and Ni elements are 20, 22, 21, 19, and 18%, respec-
+face energy associated with the {100} facets characterized by square tively, confirmed by inductively coupled plasma optical emission
+atomic arrangements compared to the {111} facets with hexagonal spectrometry (ICP- OES) analysis (Fig. 1J). Nevertheless, the EDS
+atomic arrangements (33). Further reduction of the injection rate to signals from IGMs including Fe, Co, and Ni exhibit relatively lower
+0.4 ml hour−1 and an extension of the growth time to 36 hours result intensity when compared to those of PGMs comprising Pt and Ru in
+in a transformation in the products of seed-m ediated growth, pro- the HEA atomic layers, which shows the discrepancies in composi-
+ducing a more uniform surface (fig. S6). This observation suggests tion between the ICP- OES measurement (an overall measurement)
+Wu et al., Sci. Adv. 10, eadl3693 (2024) 26 July 2024 2 of 17
+
+Science AdvAnceS | ReSeAR ch AR ticle
+Fig. 1. Synthetic design and structural and compositional characterizations of IGM-P GM- HEA atomic layers. (A) Overview of iGMs (highlighted in blue) and PGMs
+(highlighted in orange) that can form iGM- PGM- heA atomic layers. (B) Schematic of epitaxial growth to obtain PtRuFeconi atomic layers on Pd cubic seeds enclosed by
+{100} facets. (C to G) teM, hAAdF-S teM, FFt, and edS mapping analysis of Pd@PtRuFeconi core-s hell nanocubes. (H) XRd analysis and (I) size distributions of Pd cubic
+seeds and Pd@PtRuFeconi core- shell nanocubes. (J) icP- OeS analysis of all the elements in the PtRuFeconi atomic layers. a.u., arbitrary unit.
+and EDS elemental analysis. The observed difference can potentially be located at the HEA/Pd interface, demonstrating a comparatively
+be attributed to two primary reasons. First, the effectiveness of EDS lower energy state (fig. S9), which could support this assumption.
+detection tends to diminish for elements with atomic numbers be- The surface chemical states of Pd@PtRuFeCoNi core- shell nano-
+low 30 (Z < 30), including Fe (Z = 26), Co (Z = 27), and Ni (Z = 28) cubes are studied by x-r ay photoelectron spectroscopy (XPS), as
+(34). Second, the potential spatial distributions of the constituent shown in Fig. 2 (A to F) and tables S4 and S5. The coexistence of
+elements may arise within the atomic layers of HEA, which may af- metal and oxidation states is identified by the XPS spectra with
+fect the intensity of EDS signals. Thus, we perform DFT simulations curve fittings for all elements, which can be attributed to the sponta-
+to investigate the spatial distributions within the HEA atomic layers. neous oxidation on the outermost surface of IGM-P GM- HEA when
+From a thermodynamics perspective, Fe, Co, and Ni atoms tend to exposed to air (9, 11, 15). Compared to the Pt (Fig. 2B), the Ru, Fe,
+Wu et al., Sci. Adv. 10, eadl3693 (2024) 26 July 2024 3 of 17
+
+Science AdvAnceS | ReSeAR ch AR ticle
+Fig. 2. Surface chemical states and atomic coordination environments of IGM-P GM-H EA atomic layers. (A to F) XPS spectra of Pd@PtRuFeconi core-s hell nanocubes:
+(A) Pd 3d, (B) Pt 4f, (c) Ru 3p, (d) Fe 2p, (e) co 2p, and (F) ni 2p. (G to K) XAneS spectra of PtRuFeconi atomic layers and their corresponding metallic foils and oxidation states
+at the (G) Pt l3- edge, (h) Ru K- edge, (i) Fe K- edge, (J) co K- edge, and (K) ni K- edge. (L) Ft- eXAFS spectra of Pt l3- edge. (M to V) Wavelet analysis of PtRuFeconi atomic layers
+and the corresponding metallic foils at the [(M) and (R)] Pt l3- edge, [(n) and (S)] Ru K- edge, [(O) and (t)] Fe K- edge, [(P) and (U)] co K- edge, and [(Q) and (v)] ni K- edge.
+Wu et al., Sci. Adv. 10, eadl3693 (2024) 26 July 2024 4 of 17
+
+Science AdvAnceS | ReSeAR ch AR ticle
+Co, and Ni are more easily oxidized, resulting in more substantial IGM and PGM atoms (i.e., Pt and Ru in this case). Note that the
+amounts of Ru+4 (Fig. 2C), Fe3+ and Fe2+ (Fig. 2D), Co3+ and Co2+ Fe- 3d, Co-3 d, and Ni- 3d exhibit radial distances at approximately
+(Fig. 2E), and Ni2+ (Fig. 2F) oxidation states. XPS signals originating 3.1 Å, coupled with Fe-O , Co- O, and Ni-O at around 2.0 Å, demon-
+from the IGMs of Fe, Co, and Ni all exhibit relatively lower intensi- strating the emergence of oxidative bonds (35). Overall, Pt predomi-
+ties compared to the signals from the PGMs of Pt and Ru. These nantly exists in the metallic state, while Ru, Fe, Co, and Ni coexist in
+observations can be attributed to the lower XPS sensitivity factors of both metallic and oxidized forms within the PtRuFeCoNi atomic
+the IGMs compared to those of the PGMs (table S5), along with the layer, consistent with the observed XPS results (Fig. 2). To study the
+potential spatial distributions of the constituent elements that may chemical states of Ru, Fe, Co, and Ni elements, we mathematically
+arise within the atomic layers of PtRuFeCoNi, as indicated by the determine absorption edge positions by identifying the second
+DFT results (fig. S9). derivative inflection points of the pre- edges for Ru, Fe, Co, and Ni
+We further use synchrotron XAS to reveal the coordination envi- elements (fig. S12). Subsequently, we obtain their chemical states
+ronment and atomic mixing in the Pd@PtRuFeCoNi core- shell nan- through interpolation, establishing a linear relationship between ab-
+ocubes (Fig. 2, G to K). The x- ray absorption near edge structure sorption edge positions and the theoretical chemical states of con-
+(XANES) spectra of all elements in the PtRuFeCoNi atomic layers, trol samples (fig. S13). These observations once again indicate the
+as well as their standard metallic foils and oxides are systematically coexistence of both metallic and oxidative states. This can be attrib-
+studied. The post-e dges of all elements exhibit deviations in shape uted to the spontaneous oxidation occurring on the outermost sur-
+and intensity compared to their foil and oxide counterparts, imply- face of IGM- PGM- HEA atomic layers, which contain elements such
+ing the orbital hybridizations of the mixed elements (10, 20). To pre- as Ru, Fe, Co, and Ni known for their susceptibility to oxidation
+cisely determine the radial distance and gain deeper insights into when exposed to air (9, 11, 15).
+the atomic mixing of the five elements within PtRuFeCoNi atomic The wavelet transform of EXAFS (WT- EXAFS) is used to
+layers, we conduct the fittings for their Fourier-t ransformed extend- compare PtRuFeCoNi atomic layers and their corresponding foils
+ed x- ray absorption fine structure (FT-E XAFS) spectra (figs. S10 (Fig. 2, M to V). The PtRuFeCoNi atomic layers demonstrate dis-
+and S11). The fitting parameters and the resulting fitting outcomes, tinctive coordination environments and orbital hybridizations than
+such as coordination number (CN), radial distance (R), σ 2 (mean their metallic foils. In the case of Pt and Ru, the WT- EXAFS analysis
+square relative displacements), S02 (passive electron reduction fac- reveals additional signals at lower atomic distances and an altered
+tor), ΔE (energy shift), and R factor, are summarized in table S6. coordination environment as compared to their corresponding foils.
+Please note that, as indicated in table S6, “5d” corresponds to Pt, The observation indicates the formation of an alloy composite with
+“4d” signifies Ru, and “3d” represents the combination of Fe, Co, low–atomic number IGM or the potential emergence of an oxide
+and Ni due to the adjacent atomic number of these three elements, phase. For Fe, Co, and Ni, signals located at low atomic distanc-
+respectively. es suggest the oxidation of these elements. These findings can be
+On the basis of the fitting results (table S6), the radial distance aligned with the FT-E XAFS fitting details in fig. S11 and table S6. In
+of Pt within the PtRuFeCoNi atomic layers is around 2.733 Å (Pt- addition, the wider distributions along the k axis compared to their
+5d), showing a subtle increase compared to the 2.716 Å of Pt- 4d standard foils signify the complex coordination environment and
+and 2.674 Å of Pt- 3d. For the Pt foil, the radial distance of Pt- Pt the formation of alloy within the PtRuFeCoNi atomic layers. To-
+bond in the Pt foil is approximately 2.764 Å, closely approaching gether, these above XAS results suggest that the five elements un-
+the actual value for Pt metal (2.774 Å). The Pt- 5d radial distance dergo atomic mixing within the PtRuFeCoNi atomic layers. This
+(2.733 Å) within the atomic layers is notably shorter than that of inference is primarily supported by the comparison with Pt (Fig. 2L
+Pt- Pt (2.764 Å) in the Pt foil. This suggests that the PtRuFeCoNi and table S6), where the radial distance in the alloyed PtRuFeCoNi
+atomic layers, comprising Pt and elements from 3d, 4d, and 5d or- atomic layers is shorter than that in its metallic foil. The coordina-
+bitals, exhibit shorter radial distances in comparison to the Pt- Pt tion information of Pt- 5d, Pt- 4d, and Pt-3 d also confirms this differ-
+bond observed in the Pt foil. In addition, the coordination values of ence. Despite the more noticeable oxidation in Ru, Fe, Co, and Ni,
+Pt- 5d, Pt- 4d, and Pt- 3d are calculated as 2.36, 2.94, and 1.81, re- the presence of an alloying phase in the PtRuFeCoNi atomic layers
+spectively. These results intriguingly reveal a random distribution is confirmed by the distinct radial distances observed between the
+of these elements throughout the atomic layers. In the case of Ru, dissimilar atoms and their respective metallic foils.
+the radial distance of Ru- 5d is around 2.713 Å, which is shorter
+than the radial distance of Pt foil (2.764 Å). The radial distance of A catalyst family of IGM- PGM- HEA atomic layers
+Ru- 4d is approximately 2.697 Å, closely resembling the radial dis- We demonstrate the generality of epitaxial growth by extending it to
+tance of its metallic foil (2.673 Å). Furthermore, the radial distance nine other types of IGM- PGM- HEA atomic layers enclosed by
+of Ru- 3d (2.669 Å) appears comparatively longer than the foils of {100} facets on the Pd nanocubes, including the PtIrFeCoNi, PtPd-
+Fe (2.464 Å), Co (2.495 Å), and Ni (2.478 Å), accompanied by the FeCoNi, IrPdFeCoNi, IrRuFeCoNi, PdRhFeCoNi, PdRuFeCoNi,
+emergence of oxidative bonds around Ru at 2.040 Å. In addition, PtRhFeCoNi, RhRuFeCoNi, and IrRhFeCoNi, as shown in Fig. 3 (A
+the coordination values of Ru- 5d, Ru- 4d, Ru- 3d, and Ru- O are de- to I). From the TEM, HAADF- STEM images, and FFT patterns,
+termined as 0.52, 3.46, 1.62, and 1.94, respectively. These observa- these Pd@IGM- PGM- HEA core- shell nanocubes all have a cubic
+tions indicate that the radial distances between Ru and the 3d, 4d, shape and {100} facets, together with ultrathin shells. The corre-
+and 5d elements are affected by the coordination environment sponding EDS maps, line scan, and ICP- OES analysis confirm that
+within PtRuFeCoNi atomic layers. the deposited five IGM- PGM elements with more or less the same
+In the case of IGM atoms (table S6), the radial distances of Fe-5 d, molar ratios are distributed throughout the entire shells (Fig. 3,
+Fe- 4d, Co- 5d, Co- 4d, Ni- 5d, and Ni- 4d are notably longer than their fig. S14, and table S3). In particular, for the Pd@PtIrFeCoNi (Fig. 3A),
+metallic foils, implying the formation of metallic bonds between an obvious contrast difference is observed between the PtIrFeCoNi
+Wu et al., Sci. Adv. 10, eadl3693 (2024) 26 July 2024 5 of 17
+
+Science AdvAnceS | ReSeAR ch AR ticle
+Fig. 3. A catalyst family of IGM- PGM- HEA atomic layers. (A to F) hAAdF- SteM, FFt, and edS mapping analysis of quinary (A) Pd@PtirFeconi, (B) Pd@PtPdFeconi,
+(c) Pd@irPdFeconi, (d) Pd@irRuFeconi, (e) Pd@PdRhFeconi, and (F) Pd@PdRuFeconi core- shell nanocrystals. (G to I) hAAdF- SteM, FFt, and edS mapping analysis of
+quinary (G) Pd@PtRhFeconi, (h) Pd@RhRuFeconi, and (i) Pd@irRhFeconi core- shell nanocrystals. the Fcc lattices in the local regions of all figures are marked by blue
+squares. the red squares highlight the l12- ordered crystal lattices in the local regions in the figures of (G), (h), and (i). the yellow square highlights the l12- ordered crystal
+lattice with a dislocation in the figure of (h).
+shell (brighter) and the Pd core (darker) in the HAADF-S TEM im- and the IGM columns in these three samples with the locally ordered
+ages owing to heavier elements of Pt and Ir in the shell (Fig. 3A). This structures. Besides, the FFT patterns within the selected regions
+observation confirms the conformal growth of the PtIrFeCoNi shell marked by red squares further confirm the presence of additional
+with about five atomic layers highlighted by red dots in the atomic- (100) and (110) superlattice spots (Fig. 3, G to I, and figs. S16 and
+resolution HAADF-S TEM image, consistent with the ICP-O ES and S17), indicated by red dotted circles (24, 25). These results imply that
+quantitative analysis (table S3). some Fe, Co, and Ni atoms can be randomly distributed on the cor-
+For the PtRhFeCoNi (Fig. 3G), RhRuFeCoNi (Fig. 3H), and ner sites of the FCC structure, while two elements of PGMs (i.e., Pt/
+IrRhFeCoNi (Fig. 3I), the L1 -o rdered crystal lattices with the PGMs Rh, Rh/Ru, and Ir/Rh) can occupy the face-c entered sites (fig. S16),
+2
+and IGMs atomic ratio of 3:1 in some local regions of shells high- although the temperature of synthesis in the present study is rela-
+lighted in red squares are also identified by the HAADF-S TEM tively low compared to the previous reports (13, 16, 24). In addition,
+images, in addition to the disordered A1 solid solution (36). The cor- the slight displacement of diffraction points, resulting in a skewed
+responding alternating stacking of bright columns of PGM atoms square in the FFT pattern of RhRuFeCoNi atomic layers, is also ob-
+and dark columns of IGM atoms are confirmed by the line profiles served in the yellow square of Fig. 3H. This deviation from the an-
+(fig. S15), showing the intensity contrasts between the PGM columns ticipated symmetry of an ideal intermetallic L1 - ordered crystal
+2
+Wu et al., Sci. Adv. 10, eadl3693 (2024) 26 July 2024 6 of 17
+
+Science AdvAnceS | ReSeAR ch AR ticle
+lattice suggests the presence of a local dislocation within the interme- patterns (Fig. 4, S and T) further confirms the existence of the L1
+0
+tallic RhRuFeCoNi atomic layers (fig. S17), as revealed by a series of phase, highlighted by blue dotted circles (37, 38). Such a local
+TEM characterizations. disorder-t o-o rder transition could be attributed to the inward diffu-
+sion of IGM atoms from the shell into the Pd core due to lower diffu-
+A metastable phase of IGM- PGM- HEA atomic layers sion barriers of IGMs with smaller radii (24), further resulting in the
+identified by in situ HAADF-S TEM vacant sites of IGMs filled by the outward-d iffusing PGM atoms from
+We further perform in situ HAADF- STEM to identify whether the shell or Pd atoms from the core.
+PtRuFeCoNi atomic layers on the Pd nanocubes are thermo Elevating the temperature further to 500°C leads to phase sepa-
+dynamically stable or kinetically favored state when subjected to ration, with clear phase boundaries shown in the HAADF-S TEM
+heating up to 500°C in the vacuum, as shown in Fig. 4. Again, the image (Fig. 4Z). In particular, the Pt skin formed from the decom-
+atomic-r esolution HAADF-S TEM images and their corresponding position of the formed intermetallic phase at the surface can be di-
+FFT patterns are viewed along the [001] zone axis. The morphology rectly observed in the HAADF-S TEM image (24) (Fig. 4AA) owing
+of the cubic nanocrystal is preserved upon heating to 200°C and then to the highest Z contrast of Pt in the nanocrystals. From the FFT pat-
+gradually changed to a pseudospherical shape when further heated to tern taken from this surface region (Fig. 4AC), the nanocube has
+500°C. On the other hand, the PtRuFeCoNi atomic layers show a three sets of diffraction patterns, including the FCC polycrystalline
+solid-s olution FCC structure with randomly distributed mixed atoms Pt, single-c rystal Pd, and L1 intermetallic phases (fig. S20). The
+2
+below 200°C (Fig. 4, A to O). Further heating to 300°C (Fig. 4, P to T) HAADF-S TEM image (Fig. 4AB) and FFT pattern taken from the
+and 400°C (Fig. 4, U to Y) leads to the local phase transformation of core region (Fig. 4AD) only show the coexistence of Pd and L1
+2
+PtRuFeCoNi atomic layers, changing the phase to partial L1 - ordered lattices. These observations suggest the interdiffusion of IGMs and
+0
+and L1 -o rdered intermetallic phases, respectively (figs. S16, S18, and PGMs for controlling the ordering transformation (Fig. 4AE). We re-
+2
+S19). In addition, the corresponding intensity profiles extracted from veal the transformation kinetics of phase from high-e ntropy mixing
+the atomic-r esolution HAADF-S TEM images of the L1 - ordered and (25°C), to ordered L1 (300°C) and L1 (400°C) intermetallic, and to
+0 0 2
+L1 -o rdered phase structures of PtRuFeCoNi atomic layers (figs. S18 phase-s eparated phases (500°C), indicating the metastable phase of
+2
+and S19) also validate the local phase transformation of PtRuFeCoNi the far-f rom-e quilibrium PtRuFeCoNi atomic layers (Fig. 4AF). This
+atomic layers at 300° and 400°C, respectively. Note that the L1 phase post-a nnealing treatment provides a promising avenue for achieving
+0
+is the tetragonal distortion of the FCC structure with the PGMs and facet control in high-e ntropy intermetallic atomic layers derived
+IGMs atomic ratio of 1:1, in which the PGMs occupy one sublattice from multicomponent solid solutions. This presents an important ad-
+and the IGMs occupy the other sublattice (fig. S16) (16). The pres- vancement, particularly considering the challenges encountered with
+ence of additional (110) and (210) superlattice spots in the FFT conventional synthetic methods.
+Fig. 4. A metastable phase of IGM-P GM- HEA atomic layers identified by in situ HAADF-S TEM. hAAdF- SteM images and their corresponding FFt patterns of Pd@
+PtRuFeconi core- shell nanocubes at different temperatures: (A to E) room temperature, (F to J) 100°c, (K to O) 200°c, (P to T) 300°c, (U to Y) 400°c, and (Z to AD) 500°c.
+(AE) Schematic illustration showing the phase transformation from solid-s olution PtRuFeconi atomic layers to ordered l10 and l12 intermetallic and phase- separated
+states. (AF) Schematic illustration showing PtRuFeconi atomic layers as a kinetically favored phase.
+Wu et al., Sci. Adv. 10, eadl3693 (2024) 26 July 2024 7 of 17
+
+Science AdvAnceS | ReSeAR ch AR ticle
+Electrocatalytic performance and mechanism association between electronic structure and crystal configuration
+To evaluate the potential applications of a catalyst family of IGM- (39). These metastable catalysts, when appropriately chosen for spe-
+PGM- HEA atomic layers, we select 10 different IGM-P GM- HEA cific reaction conditions, also exhibit excellent long- term durability
+covered by {100} facets on the Pd nanocubes as catalysts for electro- across various catalytic reactions. Taking the example of our meta-
+catalytic HER and HOR. In the first set of catalytic measurements, stable PtRuFeCoNi atomic layers (i.e., kinetically controlled prod-
+we evaluate the catalytic performance of various catalysts for HER ucts), as mentioned above, they demonstrate exceptional activity
+in an acidic 0.5 M H SO electrolyte, as shown in Fig. 5 (A to D). The and long- term durability under the relatively low- temperature con-
+2 4
+corresponding catalysts, including commercial Pt/C, mono- , bi-, ditions typical of electrocatalytic HER and HOR reactions (Figs. 5,
+and trimetallic samples, are used as references. As confirmed by the 6, and 7). It should be emphasized that electrocatalysts used in the
+linear sweep voltammetry (LSV) (fig. S21), the PtRuFeCoNi atomic processes of HER and HOR, essential for water splitting and fuel
+layers exhibit the lowest HER overpotential of 41.3 mV (versus the cells, respectively, typically operate under conditions with tempera-
+reversible hydrogen electrode, RHE) at a geometric current density tures below 80°C (40–42). This phenomenon can be attributed to
+of −10 mA cm−2 among these catalysts. Figure 5A shows the intrinsic the slow atomic diffusion at low temperatures, which may constrain
+activities normalized to the electrochemical surface area (ECSA) of the structure to kinetically favored states. Given that the kinetical
+the catalysts (fig. S22) to characterize their intrinsic activities. The products could be easily trapped in numerous states corresponding
+PtRuFeCoNi atomic layers reach the highest intrinsic activity of to local minima in Gibbs free energy (43), this limitation impedes
+21.95 mA cm−2 at −0.1 V, which is 4.5 times greater than that of the the transformation into thermodynamically controlled products,
+commercial Pt/C catalysts (4.93 mA cm−2), as shown in Fig. 5B, thereby contributing to the observed durability.
+confirming the merit of high-e ntropy electrocatalysts consisting of Furthermore, we performed operando XAS measurements to
+IGMs and PGMs: higher catalytic activity and diminished usage identify the actual active sites within the HEA atomic layers for both
+of noble metals. In addition, we further manipulate the composition HER (Fig. 6) and HOR (Fig. 7). It is worth highlighting that oper-
+of the PtRuFeCoNi atomic layers covered by the {100} facets, lead- ando XAS measurements serve as powerful tools for unraveling the
+ing to the two distinct atomic layers with low and high compositions catalytic mechanism. These measurements provide insights into the
+of PGMs (fig. S23). The elemental ratios in the low-P GM atomic interactions among elements within a high- entropy multielemental
+layers are 11:11:24:20:22 for Pt/Ru/Fe/Co/Ni, while the elemental phase, as well as the dynamic interplay between the actual active
+ratios in the high-P GM atomic layers are 28:30:12:15:15 for Pt/Ru/ sites and the reactants, intermediates, or products during the cataly-
+Fe/Co/Ni, respectively. The catalytic activity of PtRuFeCoNi atomic sis (10, 44, 45). During the acidic HER, the XANES spectra (Fig. 6,
+layers with a moderate level of PGM content (42%) (Fig. 5B) sur- A to E) of Pt L - edge, Ru K-e dge, Fe K-e dge, Co K-e dge, and Ni K-
+3
+passes those of atomic layers with low-P GM content (22%) and high- edge and the corresponding FT-E XAFS spectra (Fig. 6, F to J) are
+PGM content (58%) (fig. S23). These results suggest that PtRuFeCoNi collected at applied potentials from 0.05, −0.05 to −0.15 V versus
+atomic layers, despite the potential presence of partial inhomogene- RHE. When the cathodic potential of −0.05 V versus RHE is ap-
+ities within them as indicated by DFT simulations (fig. S9), function plied, the absorption edge of Fe shifts to higher energy, while the Ru
+as optimal HER catalysts, owing to their nearly equal elemental ratios absorption edge moves to lower energy. This interaction could be
+(Fig. 5A). Furthermore, the durability of the PtRuFeCoNi atomic lay- attributed to the electron transfer from Fe (Fig. 6C) to Ru (Fig. 6B)
+ers is improved compared to the commercial Pt/C catalysts. After sites during HER, which enhances the affinity of Ru to the attached
+15,000 cycles of testing (Fig. 5, C and D, and fig. S24), the Pd@PtRuFe- hydrogen ions and thus accelerate hydrogen production (10, 46, 47).
+CoNi catalysts only display a 7.3% drop in the intrinsic activity, as Note that there are no substantial changes in the absorption edges of
+opposed to a 22.3% drop for the intrinsic activity of the commercial Pt (Fig. 6A), Co (Fig. 6D), and Ni (Fig. 6E) elements with the in-
+Pt/C catalysts. creased applied voltage, suggesting that Ru atoms serve as direct ac-
+In the second set of catalytic measurements, as shown in Fig. 5 (E tive sites on the PtRuFeCoNi atomic layers during the HER. Moreover,
+to H), we study the catalytic performance of the catalysts for alkaline the white- line height of Ru waxes and wanes during HER, meaning
+HOR, an important process for hydrogen fuel cells. Their HOR LSV that the Ru orbitals are involved in the catalytic HER process. Our
+polarization curves measured in H - saturated 0.1 M KOH solution control experiment (Fig. 5B) also demonstrates that the PtRuFeCo-
+2
+are shown in Fig. 5E. The Pd@PtRuFeCoNi core- shell nanocubes Ni atomic layers (21.95 mA cm−2) also show a higher intrinsic activ-
+exhibit the lowest HOR overpotential of 86 mV at an intrinsic cur- ity compared with the bimetallic RuFe atomic layers (12.88 mA
+rent density of 0.5 mA cm−2 among all the catalysts. As shown in cm−2). Such comparison implies that these nonactive Pt, Co, and Ni
+Fig. 5F, the intrinsic activity of Pd@PtRuFeCoNi core-s hell nanocu- elements mixed in PtRuFeCoNi can engage in the orbital hybridiza-
+bes is 0.82 mA cm−2 at 0.1 V, which is 5.5 times higher than that of tions of the mixed elements confirmed by XAS (Fig. 2, G to K) and
+the commercial Pt/C catalysts. Moreover, the durability is evaluated increase the entropy of mixing, which could make up the solid-
+by measuring the HOR activities of Pd@PtRuFeCoNi and commer- solution alloy work in synergy with each other to achieve better
+cial Pt/C catalysts (Fig. 5, G and H, and fig. S25). Only a 16.0% loss catalytic performance. Furthermore, the FT-E XAFS of Pt, Ru, Fe,
+in intrinsic activity is observed after 3000 cycles of testing for the Pd@ Co, and Ni show no identifiable changes when applying a potential
+PtRuFeCoNi catalysts. In contrast, the intrinsic activity dropped by from 0.05 to −0.15 V
+RHE
+, indicating that the PtRuFeCoNi atomic
+55.1% for the commercial Pt/C catalysts after 3000 cycles. These results layers have exceptional durability (Fig. 6, F to J, and fig. S26).
+demonstrate that the metastable phase of PtRuFeCoNi atomic layers Furthermore, we extended our investigation to identify the spe-
+with square atomic arrangements can serve as a highly active cata- cific active sites within the PtRuFeCoNi atomic layers for HOR under
+lyst with remarkable long- term durability for both HER and HOR. H -s aturated conditions in 0.1 M KOH electrolyte, using operando
+2
+Over the past decade, metastable phase catalysts have shown XAS measurements again (Fig. 7). Typically, the HOR process involves
+great promise in optimizing catalytic activity, leveraging the strong the adsorption of OH species (OH ), along with the dissociation of
+ad
+Wu et al., Sci. Adv. 10, eadl3693 (2024) 26 July 2024 8 of 17
+
+Science AdvAnceS | ReSeAR ch AR ticle
+Fig. 5. Catalytic performance of IGM- PGM- HEA atomic layers. (A to D) electrocatalytic heR in the 0.5 M h2SO4. (A) Polarization curves, (B) comparison of intrinsic ac-
+tivities at −0.1 v, and durability tests of (c) commercial Pt/c, and (d) Pd@PtRuFeconi core- shell nanocubes. (E to H) electrocatalytic hOR in the 0.1 M KOh. (e) Polarization
+curves, (F) comparison of intrinsic activities at 0.1 v, and durability tests of (G) commercial Pt/c, and (h) Pd@PtRuFeconi core- shell nanocubes.
+Wu et al., Sci. Adv. 10, eadl3693 (2024) 26 July 2024 9 of 17
+
+Science AdvAnceS | ReSeAR ch AR ticle
+Fig. 6. Catalytic mechanism of HER revealed by operando XAS during catalysis. (A to E) Operando XAneS spectra of PtRuFeconi atomic layers under the applied
+potentials from 0.05, −0.05 to −0.15 v versus Rhe in 0.5 M h2SO4 during heR at the (A) Pt l3- edge, (B) Ru K- edge, (c) Fe K- edge, (d) co K- edge, and (e) ni K- edge. (F to
+J) Operando Ft- eXAFS spectra of PtRuFeconi atomic layers under the applied potentials from 0.05, −0.05 to −0.15 v versus Rhe during heR at the (F) Pt l3- edge, (G) Ru K- edge,
+(h) Fe K- edge, (i) co K- edge, and (J) ni K- edge.
+Wu et al., Sci. Adv. 10, eadl3693 (2024) 26 July 2024 10 of 17
+
+Science AdvAnceS | ReSeAR ch AR ticle
+Fig. 7. Catalytic mechanism of HOR revealed by operando XAS during catalysis. (A to E) Operando XAneS spectra of PtRuFeconi atomic layers, including measure-
+ments in air and applied potentials ranging from 0, 0.05, to 0.15 v versus Rhe in 0.1 M KOh during hOR at the (A) Pt l3- edge, (B) Ru K- edge, (c) Fe K- edge, (d) co K- edge,
+and (e) ni K- edge. (F to J) Operando Ft- eXAFS spectra of PtRuFeconi atomic layers, including measurements in air and applied potentials ranging from 0, 0.05, to 0.15 v
+versus Rhe during hOR at the (F) Pt l3- edge, (G) Ru K- edge, (h) Fe K- edge, (i) co K- edge, and (J) ni K- edge.
+Wu et al., Sci. Adv. 10, eadl3693 (2024) 26 July 2024 11 of 17
+
+Science AdvAnceS | ReSeAR ch AR ticle
+molecular H and subsequent adsorption (44, 45). The XANES spec-
+2
+tra (Fig. 7, A to E) of Pt L -e dge, Ru K-e dge, Fe K-e dge, Co K-e dge,
+3
+and Ni K-e dge and their corresponding FT-E XAFS spectra (Fig. 7, F
+to J) are collected in the air and under the applied potentials from 0,
+0.05, to 0.15 V versus RHE in the electrolyte for the PtRuFeCoNi
+atomic layers. At the Pt L -e dge, the white-l ine intensity in the
+3
+XANES spectra increases when PtRuFeCoNi atomic layers are im-
+mersed in the alkaline electrolyte at 0 V. Subsequently, it decreases
+with the rise in applied potentials from 0, 0.05, to 0.15 V (Fig. 7A).
+Furthermore, the corresponding FT-E XAFS data collected at 0 V re-
+veal a distinct peak associated with Pt-O at approximately 1.5 Å,
+which gradually diminishes as the applied voltage increases. These
+observations suggest the initial OH on the Pt sites in the PtRuFeCoNi
+ad
+atomic layers at 0 V, followed by the desorption process as the applied
+voltage increases (Fig. 7F) (44, 45). At the Co K-e dge, the absorption
+edge experiences a shift to higher energy at 0 V in the alkaline solution
+and then remains stable with increasing applied potentials to 0.05
+and 0.15 V (Fig. 7D) (44, 45, 48, 49). In addition, a subtle shoulder
+emerges around the Co-O peak in the FT-E XAFS spectra when ap-
+plying the potentials. These findings suggest that Co sites may also be
+actively involved in the adsorption process of OH species (Fig. 7I). In
+addition, the energy positions of the absorption edges for the Ni K-
+edge in the XANES spectra gradually shift to higher energy with in-
+creasing applied voltage, indicating an elevated chemical state for Ni
+at relatively higher applied potentials (Fig. 7E and fig. S27). In addi-
+tion, the peak in the Ni K-e dge FT-E XAFS spectra around 1.7 Å also
+increases as the applied voltage rises. These changes imply the in-
+volvement of the OH on the Ni sites (Fig. 7J) (44, 45, 48, 49).
+ad
+In contrast, the XANES and FT-E XAFS spectra of the Ru K-e dge
+and Fe K-e dge exhibit negligible changes with increasing applied
+potentials (Fig. 7, B to C and G to H). These observations suggest
+Fig. 8. Hydrogen adsorption behaviors on Pd@PtRuFeCoNi and Pd@IrRuFeCoNi
+that Pt, Co, and Ni atoms act as “actual active sites” for interacting
+investigated using DFT. (A) the distribution of hydrogen-a dsorption free energy
+with OH− species during HOR. The hydroxyl binding energy theory ΔGh* . (B) the h- adsorption configurations of Pd@PtRuFeconi with an ideal h-
+(48, 49), developed to explain the catalytic mechanism of HOR, un- adsorption strength for heR (we set |ΔGh* | < 0.02 ev). the prefix “b,” “t,” and “h”
+derscores the significance of the formation of adsorbed hydroxide represent the bridge, on- top, and hollow adsorption sites, respectively.
+(i.e., OH ) species on the surface—a crucial factor influencing
+ad
+catalytic activity for HOR. Furthermore, our control experiment
+(Fig. 5F and fig. S28) highlights that the PtRuFeCoNi atomic layers unique H- adsorption configurations after geometry optimization.
+(0.82 mA cm−2) exhibit a higher intrinsic activity when compared From the distribution of ΔG H* shown in Fig. 8A, the Pd@PtRuFe-
+to the trimetallic PtCoNi atomic layers (0.15 mA cm−2) at 0.1 V. This CoNi exhibit a closer alignment of median ΔG H* values (−0.01 eV)
+comparison suggests that the inclusion of nonactive Ru and Fe ele- to the ideal (0 eV) in comparison to Pd@IrRuFeCoNi (−0.10 eV). The
+ments in the PtRuFeCoNi atomic layers can engage in orbital hy- relative HER activity at room temperature (k IrRuFeCoNi /k PtRuFeCoNi ) of
+bridizations of PtRuFeCoNi atomic layers (Fig. 2, G to K) and these two materials resulting from the different ΔG H* could be
+enhance the entropy of mixing. These interactions enable the solid- roughly estimated using an Arrhenius-t ype equation (50), which gives
+solution alloy to function synergistically, resulting in improved
+catalytic performance.
+lyti
+A
+c
+t
+p e
+th
+rf
+i
+o
+s
+r
+s
+m
+ta
+a
+g
+n
+e
+c
+,
+e
+t h
+of
+e
+P
+r
+d
+ea
+@
+s
+P
+on
+tR
+s
+u
+c
+F
+o
+e
+n
+C
+tr
+o
+i
+N
+bu
+i
+t
+r
+i
+e
+n
+m
+g
+a
+t
+i
+o
+n
+t
+u
+h
+n
+e
+c e
+e
+r
+x
+t
+c
+a
+e
+i
+p
+n
+t
+.
+i
+Th
+on
+e
+a
+r
+l
+e
+c
+f
+a
+o
+t
+r
+a
+e
+-
+, k
+k IrRuFeCoNi =exp
+[
+− (−0.
+0
+0
+.
+1
+02
++
+5
+0
+7
+.10)
+]
+≈3%
+(1)
+PtRuFeCoNi
+we have used additional DFT simulations to delve into the under-
+lying reasons, focusing particularly on the HER for investigation
+(Fig. 8). Notably, when Pt is substituted with Ir in Pd@IrRuFeCoNi, This agrees reasonably well with our experimental observation
+there is a substantial decline in HER activity, amounting to only (~6%). In addition to HER taking place on the HEA surface, we also
+approximately 6% of the activity observed in Pd@PtRuFeCoNi examine the potential hydrogen spillover process from HEA to the
+(Fig. 5B). To understand the origin of this substantial difference, we carbon support that could introduce extra HER activity. Recent work
+computed hydrogen- adsorption free energy (ΔG
+H*
+, which is widely by Li et al. (51) suggests that the work function of the metal is a cru-
+used descriptor for the ability of HER) for these two HEA nanocu- cial factor in the hydrogen spillover process. Our DFT results reveal that
+bes using DFT. To consider the diverse chemical configurations of the work function values of Pd@PtRuFeCoNi and Pd@IrRuFeCoNi
+an HEA surface, we sampled 117 H-a dsorption configurations for both are highly comparable (4.53 ± 0.05 versus 4.55 ± 0.02 eV). This sug-
+Pd@PtRuFeCoNi and Pd@IrRuFeCoNi, resulting in approximately 50 gests that the hydrogen spillover process is not the determining
+Wu et al., Sci. Adv. 10, eadl3693 (2024) 26 July 2024 12 of 17
+
+Science AdvAnceS | ReSeAR ch AR ticle
+factor for the distinct HER activity observed between these two multielement composition, which can optimize hydrogen-a dsorption
+materials. free energy (ΔG H* = −0.01 eV) and plays a crucial role in the remark-
+Next, to understand the origin of the more negative ΔG
+H*
+able catalytic activity observed in PtRuFeCoNi atomic layers. Fur-
+in Pd@IrRuFeCoNi compared to Pd@PtRuFeCoNi, we designed a thermore, in situ HAADF-S TEM confirms the metastable phase of
+(100) surface model of Pt and Ir subject to Pd lattice constant, sim- PtRuFeCoNi atomic layers. It captures the key phase transformation
+ulating the nanocubes of Pd@Pt and Pd@Ir, respectively. Our in- from disordered atomic mixing to ordered L1 and L1 intermetallic
+0 2
+vestigation revealed that the ΔG
+H*
+of Pd@Ir is consistently more structures and phase-s eparated lattices under thermal stress. This
+negative than that of Pd@Pt across all H- adsorption sites, as de- work not only opens a paradigm for developing the facet-c ontrolled
+tailed in table S7. This observation suggests a superior H- binding IGM-P GM-H EA nanocrystals but also promotes fundamental in-
+strength of Ir over Pt. Consequently, the more negative ΔG
+H*
+dis- sights into their catalytic mechanism and thermal stability.
+tribution observed in Pd@IrRuFeCoNi compared to Pd@PtRuFeCoNi
+can be attributed to the enhanced H- binding affinity of Ir, provid-
+ing insights into the distinct reactivity patterns between the two MATERIALS AND METHODS
+configurations. Materials
+Last, to elucidate the outstanding HER activity of Pd@PtRuFeCoNi, Palladium acetylacetonate [Pd(CHO)], sodium tetrachloropalladate
+5 7 22
+we focused on exploring H- adsorption configurations with ΔG
+H*
+(Na
+2
+PdCl
+4
+), iron acetylacetonate [Fe(C
+5
+H
+7
+O
+2
+)
+3
+], nickel acetylaceton
+values closely aligned with the ideal one. Notably, most of these opti- ate [Ni(C H O ) ], cobalt acetylacetonate [Co(C H O ) ], dihy-
+5 7 2 2 5 7 2 2
+mal adsorption sites were identified as bridge sites, as depicted in drogen hexachloroiridate (H IrCl ·xH O), chloroplatinic acid hexa-
+2 6 2
+Fig. 8B. Furthermore, it was observed that the H-a dsorption strength hydrate (H PtCl ·6H O), ruthenium chloride hydrate (RuCl·xHO),
+2 6 2 3 2
+consistently diminished across various metal elements (M) when rhodium chloride hydrate (RhCl ·xH O), l- ascorbic acid (AA),
+3 2
+comparing Pd@PtRuFeCoNi to Pd@M (fig. S29). For instance, the poly(vinyl pyrrolidone) (PVP, M W ≈ 55,000), Oam, ODE, formal-
+ΔG
+H*
+for on-t op adsorption on Ru decreased from −0.10 eV (Pd@Ru, dehyde (HCHO), n- hexane [CH
+3
+(CH
+2
+)
+4
+CH
+3
+], and potassium bromide
+table S7) to −0.01 eV (Pd@PtRuFeCoNi, t-R u in Fig. 8B). Another (KBr) are all purchased from Sigma-A ldrich and used after received.
+example is the bridge adsorption between Pt and Co, which exhibits Ethylene glycol (EG) is purchased from J. T. Baker. Deionized (DI)
+a ΔG
+H*
+of 0.01 eV for Pd@PtRuFeCoNi (b_Pt-C o in Fig. 8B). Unex- water (18.2 MΩ·cm) is used for all experiments.
+pectedly, when considering that the H- adsorption strength of b_
+Pt- Co is an average of b_Pt-P t and b_Co-C o, the ΔG
+H*
+of b_Pt-C o Synthesis of 16.8- nm Pd cubic seeds
+was expected to fall between those of b_Pt-P t and b_Co-C o. How- To synthesize the 16.8-n m Pd cubic seeds, a standardized procedure
+ever, both b_Pt-P t and b_Co-C o displayed more negative ΔG
+H*
+values, is followed (52). An 8-m l aqueous solution containing AA (60 mg),
+namely −0.24 and − 0.12 eV, respectively (table S7). This suggests PVP (105 mg), and KBr (600 mg) is added to a 23- ml vial. Subse-
+that the cocktail effect contributes to the exceptional HER activity of quently, the solution undergoes preheating at 80°C for 10 min. Fol-
+Pd@PtRuFeCoNi (1, 3, 10, 11, 20). It is crucial to underscore that the lowing the preheating step, a one-s hot injection of 3-m l Na PdCl
+2 4
+cocktail effect observed in HEA structures is widely recognized as a aqueous solution with a concentration of 19 mg/ml is added into the
+complex and synergistic mechanism that plays a pivotal role in yield- vial in one shot. The reaction mixture is capped and kept at 80°C for
+ing exceptional catalytic performance. The collaborative interactions 3 hours under magnetic stirring and then cooled to room tempera-
+among the diverse multielement compositions lead to substantial de- ture. The Pd cubic seeds are dispersed in Oam solvent after a clean-
+viations in properties when compared to single-e lement metals. No- ing procedure involving centrifugation and washing with DI water
+tably, the intriguing aspect lies in the fact that the intricate workings three times.
+of such multicomponent synergy within HEA structures remain
+largely elusive in this field. Conducting further investigations into the Synthesis of 18.1- nm Pd octahedral seeds
+synergistic mechanisms, particularly from the perspectives of local First, we prepare 12- nm Pd nanocubes as the seeds to obtain the
+lattice distortion and electronic interaction within HEA structures, seed- mediated growth of 18.1-n m Pd octahedral seeds (52). To syn-
+using advanced techniques such as high-t hroughput computations thesize the 12-n m Pd nanocubes, an 8 ml aqueous solution contain-
+and machine- learning tools, holds the potential to advance our ing AA (60 mg), PVP (105 mg), and KBr (300 mg) is introduced into
+understanding of the cocktail effect on catalytic performance (3). a 23- ml vial. The solution is subsequently preheated at 80°C for
+10 min. Following the preheating step, a one-s hot injection of 3-m l
+Na PdCl aqueous solution with a concentration of 19 mg/ml is
+2 4
+DISCUSSION added into the vial in one shot. The reaction mixture is capped and
+This work reports a catalyst family of IGM-P GM-H EA–based nano- kept at 80°C for 3 hour under magnetic stirring and then cooled
+crystals with controlled facets by wet chemical synthesis. Ten different to room temperature. After the reaction, the Pd nanocubes are dis-
+compositions of IGM-P GM-H EA atomic layers with all the square persed in EG solvent after a cleaning procedure including centrifu-
+atomic arrangements are synthesized and evaluated for their HER gation and washing with DI water three times. Second, a typical
+and HOR catalytic performances. The atomic layers containing Pt, procedure is used to synthesize the 18.1-n m Pd octahedral seeds.
+Ru, Fe, Co, and Ni exhibit superior catalytic activity and durability for Three- hundred microliters of the 12- nm Pd nanocubes with a con-
+both HER and HOR when compared to other IGM-P GM-H EA and centration of 1.8 mg ml−1 are mixed with 8 ml of an aqueous mix-
+commercial Pt/C catalysts. We elaborate on the corresponding atomic- ture containing 100 μl of HCHO and PVP (105 mg) in a 23- ml vial.
+scale synergistic interactions, active sites, and catalytic mechanisms The solution is subsequently preheated at 60°C for 10 min. Follow-
+during catalysis through operando synchrotron XAS measurements ing the preheating step, a one- shot injection of 3 ml Na PdCl
+2 4
+and DFT simulations. We reveal the cocktail effect arising from the aqueous solution with a concentration of 12.6 mg/ml is added into
+Wu et al., Sci. Adv. 10, eadl3693 (2024) 26 July 2024 13 of 17
+
+Science AdvAnceS | ReSeAR ch AR ticle
+the vial in one shot. The reaction mixture is capped and kept at 60°C through extensive cycling (15,000 cycles, 100 mV s−1) within an iden-
+for 3 hours under magnetic stirring and then cooled to room tem- tical potential range as the LSV procedure described above.
+perature. After the reaction, the Pd octahedral seeds are dispersed in Electrocatalytic measurements for HOR
+Oam after a cleaning procedure involving centrifugation and wash- The catalyst preparation and the loading quantity of catalysts onto
+ing with DI water three times. the carbon support (Vulcan XC-7 2R) remain consistent with the
+previously outlined procedure for HER electrocatalytic measure-
+Synthesis of IGM- PGM- HEA atomic layers on the Pd seeds ments. We use Hg/HgO electrode as the reference electrode in a
+using epitaxial growth 0.1 M KOH electrolyte. The electrolyte is first purged with N gas for
+2
+Through the epitaxial growth, we synthesize IGM-P GM-H EA atom- 30 min before electrocatalytic measurements to remove impurities.
+ic layers on the Pd cubic or octahedral seeds. We use the epitaxial Subsequently, the electrode surface is cleaned by 50 cycles of CV
+growth of PtRuFeCoNi atomic layers as an example to introduce test in the potential region of 0.05 to 1.05 V at a high scan speed
+the standard protocol of epitaxial growth in this work. A total of (500 mV s−1). The measurements are performed in N and H atmo-
+2 2
+0.5 ml of OAm solution containing Pd seeds is mixed with 3 ml of spheres, respectively. The CV and LSV curves are recorded sepa-
+ODE in a 23- ml vial. Then, the mixture is preheated at 110°C for rately from −0.05 to 0.7 V (1600 rpm) with a scan rate of 10 and 5 mV
+20 min under magnetic stirring, followed by an increase to 200°C s−1. The accelerated durability tests are carried out in the same region
+for 20 min. Subsequently, a 14- ml precursor solution containing at a scan rate of 500 mV s−1 for 3000 cycles in the H -s aturated
+2
+H 2 PtCl 6 ·6H 2 O, RuCl 3 ·xH 2 O, Ni(C 5 H 7 O 2 ) 2 , Co(C 5 H 7 O 2 ) 2 , and electrolyte.
+Fe(C H O ) , each with an equal molar concentration of
+5 7 2 3
+0.042 μmol ml−1 in OAm, is prepared. Using a syringe pump, this Measurements and estimation of ECSA
+precursor solution is then added dropwise to the reaction mixture In this work, the ECSAs of catalysts are calculated and measured
+containing Pd seeds at a constant injection rate of 0.8 ml hour−1. experimentally by using the following two methods.
+After the precursor solution has been added, the reaction mixture Method 1: Calculation the ECSA of catalysts
+is kept at 200°C for another 1 hour. After that, the Pd@PtRuFe- We estimate the ECSA of the two types of catalysts including the
+CoNi core- shell nanocrystals are collected through centrifugation commercial Pt/C (Premetek, USA) and Pd@IGM-P GM- HEA core-
+and washing with n- hexane three times and redispersed in DI wa- shell nanocubes. For the commercial Pt/C catalysts, we assume that
+ter. To synthesize other quinary atomic layers on the Pd seeds, we the shape of 3-n m Pt nanoparticles in commercial Pt/C is a perfect
+follow a similar protocol as described above, except for the used precur- sphere. For the Pd@IGM- PGM- HEA core- shell nanocubes, we as-
+sors. In these experiments, metal precursors including Pd(C 5 H 7 O 2 ) 2 , sume that the 18.4- nm Pd@IGM-P GM- HEA core- shell nanocubes
+H 2 IrCl 6 ·xH 2 O, and RhCl 3 ·xH 2 O are selected for Pd, Ir, and Rh ele- maintain their ideal cubic shape after the epitaxial growth (Fig. 3).
+ments, respectively. Therefore, the whole ECSAs of these two catalysts are calculated
+using the following equations (53):
+Electrocatalytic measurements for HER
+SurfaceareaofPt nanoparticlein Pt∕C=4πr2 (2)
+In this work, we conduct the HER electrochemical measurements using
+a Nova electrochemical workstation (Metrohm Autolab PGSTAT204). where r is the radius of the nanoparticle;
+A glassy carbon cell is used as the working electrode for rotating elec-
+trodes, with Pt as the counter electrode and Ag/AgCl as the reference SurfaceareaofPd@IGM−PGM−HEAcore−
+electrode. To prepare the catalyst ink, 1 mg of Pd@IGM-P GM-H EA shellnanocube=6l2 (3)
+core-s hell nanocubes on the carbon support (Vulcan XC-7 2R) with
+20 wt % is dispersed in a mixture of 0.5 ml of isopropanol, 0.5 ml of where l is the edge length of nanocube;
+DI water, and 0.02 ml of a 5% Nafion solution. To facilitate comparative
+weightofmetalloadingonelectrode
+analysis, an equivalent loading of commercial 20 wt % Pt nanopar- ECSA= ×
+ticles on Vulcan XC-7 2 (Pt/C; Premetek, USA), featuring an average weightofeachnanoparticleornanocube (4)
+size of approximately ~3 nm and supported on carbon black, is also surfaceareaofnanoparticleornanocube
+incorporated in 1 mg of catalysts. We have verified the 20 wt % metal
+loading through ICP-O ES analysis in preparation for subsequent Method 2: Double- layer capacitance
+electrocatalytic measurements. The resulting mixture is subjected to The double- layer capacitance (C dl ) is measured by CV with scan
+an ice-c ooled ultrasonic bath for homogeneous catalyst dispersion. rates ranging from 25 to 500 mV s−1 in a 0.5 M N 2 - saturated H 2 SO 4
+Subsequently, 3.6 μl of the prepared catalyst solution (0.01 mg/cm2 electrolyte. The potential window of 0.1 V, centered at the open cir-
+geo) is dispersed onto a glassy carbon electrode with a geometric area cuit potential, is selected for the non-f aradic region. In the evalua-
+of 0.07 cm2. The electrode is then dried under an atmosphere satu- tion of C dl , the currents of cathodic and anodic are divided by the
+rated with isopropanol before the electrochemical measurements. respective scan rates to obtain the resulting slope (54). The ECSA is
+Electrochemical characterizations for HER investigations are per- subsequently calculated using the C dl and a selected value of specific
+formed in 0.5 M H 2 SO 4 electrolytes saturated with argon gas. First, capacitance (C s ) according to the equation
+150 cycles of cyclic voltammetry (CV) are performed using the high
+Cdl
+scan rate of 500 mV s−1 within a potential range of 0.05 to 1.05 V ECSA= (5)
+Cs
+versus RHE to establish a stable catalyst layer. Following the activa-
+tion step, an LSV measurement is conducted by scanning the poten- X- ray absorption spectroscopy
+tial from 0.1 to −0.25 V (1600 rpm, 1 mV s−1) to evaluate the HER We obtain the XAS spectra using a customized three-e lectrode
+performance. The durability evaluation of catalysts is conducted system with a fluorescence mode. The system consists of a Teflon
+Wu et al., Sci. Adv. 10, eadl3693 (2024) 26 July 2024 14 of 17
+
+Science AdvAnceS | ReSeAR ch AR ticle
+container equipped with a window covered by Kapton tape. The processing of the acquired EDS mappings is through the Aztec soft-
+experimental conditions for XAS measurements are identical to ware. The contrast, brightness, and false coloring are adjusted in the
+those described above for electrocatalytic acidic HER measurements. Aztec software for ensuring optimal viewing.
+During the XAS measurements, x-r ays pass through the Kapton To confirm the metastable phase of IGM- PGM- HEA atomic lay-
+tape, and total fluorescence-y ield mode detection is used. These mea- ers on the Pd cubic seeds as well as to reveal their equilibration
+surements are performed using Lytle detectors at the BL-1 7C and pathways, in situ heating experiments are carried out through a
+01C1 beamlines for HER and the TPS 44A beamline for HOR at the heating holder (Protochips Fusion 350) and the corresponding
+National Synchrotron Radiation Research Center (Hsinchu, Taiwan). thermal E- chips (Protochips) capable of uniformly heating samples
+The obtained data are analyzed using Athena software to examine up to 1200°C with any heating rate up to 1000°C ms−1 inside the
+XANES of the K-e dges of Ru, Fe, Co, and Ni, and the L -e dge of Pt. JEOL JEM- ARM200FTH aberration- corrected STEM operated at
+3
+Furthermore, FT-E XAFS analysis is conducted by using Fourier 200 kV. The aqueous suspension of the Pd@IGM- PGM- HEA core-
+transform on k2-w eighted oscillations EXAFS to assess the local shell nanocrystals is dropped on the thermal E-c hips and then al-
+coordination environments of the target elements. lowed to fully air- dry before further use. Subsequently, the thermal
+E- chip is incorporated with the in situ heating holder. The tempera-
+TEM, HAADF- STEM, and EDS ture elevation follows a heating rate of 60°C min−1 under vacuum
+The size and morphological features of the obtained nanocrystals are and is maintained at room temperature, 100°, 200°, 300°, 400°, and
+characterized by TEM (JEM-2 100 Electron Microscope), operating at 500°C, each for a duration of 10 min. We obtain HAADF- STEM
+an acceleration voltage of 200 kV. For the preparation of TEM sam- images of the Pd@IGM- PGM- HEA core- shell nanocrystals at these
+ples, a droplet of 0.5 μl aqueous dilute solutions containing the ob- temperatures during heating up to 500°C under vacuum.
+tained nanocrystals is drop- casted on the carbon- coated 200- mesh
+copper grids through a pipette and then dried in an oven at 60°C for Inductively coupled plasma optical emission spectroscopy
+10 min. In particular, the Pd@IGM-P GM-H EA core-s hell nanocrys- The elemental compositions of our catalysts (Pt, Ir, Pd, Rh, Ru, Fe,
+tals consisting of Fe, Co, and Ni magnetic elements are demagnetized Co, and Ni) are measured by ICP-O ES (Thermo Fisher Scientific
+through a demagnetizer (Holding Standard Type Demagnetizer HD- iCAP 7200). The samples are dissolved in aqua regia, followed by
+200) before the TEM imaging. After the TEM analysis, the size of the recovery within a 1% HNO solution before the measurement process.
+3
+nanocrystals is measured using the ImageJ software.
+The surface atomic arrangements of the Pd@IGM-P GM- HEA Characterizations
+core-s hell nanocrystals are characterized by atomic-r esolution HAADF- We analyze the element contents using an ICP- OES (Thermo Fisher
+STEM (Spherical- Aberration Corrected Field Emission TEM, JEOL Scientific iCAP 7200). The morphologies of samples are character-
+JEM-A RM200FTH). The aqueous suspension of the Pd@IGM-P GM- ized by TEM and HAADF- STEM. EDS mapping is performed on
+HEA core- shell nanocrystals is dropped on the carbon-c oated 200- a spherical- aberration corrected field emission TEM (JEOL, JEM-
+mesh copper grids and then dried in an oven at 60°C for 10 min ARM200FTH) operated at 200 kV. We analyze the crystal structures
+after a cleaning procedure involving successive centrifugation and using XRD on an x-r ay diffractometer (Bruker, D8). We study sur-
+washing cycles with DI water and absolute ethanol for five times, face chemistry through XPS with a high- resolution s- ray photoelec-
+respectively. All HAADF- STEM images with a dark- field lattice im- tron spectrometer (ULVAC- PHI, PHI QuanteraII).
+age resolution of ~0.08 nm are obtained using an acceleration volt-
+age of 200 kV. Through the HAADF- STEM imaging mode, larger DFT computations
+atomic numbers of elements can scatter electrons more substantial- All computations were performed using DFT with the revised Perdew-
+ly, leading to a Z-c ontrast image. This allows us to resolve the ele- Burke-E rnzerhof functional (55), as implemented in the Vienna Ab ni-
+mental distinction between the Pd core and the IGM-P GM- HEA tio Simulation Package (56). The valence electron wave functions
+shell with different atomic numbers. were expanded in plane-w ave basis sets with a 380-e V cutoff, and
+For the elemental analysis and the spatial distribution of the the projector augmented wave method was used to describe the
+constituent elements, the Pd@IGM- PGM- HEA core- shell nano- core- electron interactions (57). A 7 × 7 × 1 k- point grid was sam-
+crystals are mapped using EDS on a cold- field emission JEOL JEM- pled using the Monkhorst-P ack scheme for each computation. All
+ARM200FTH aberration- corrected STEM. The Oxford Aztec EDS structures were fully optimized until the residual forces on the con-
+system is used for the EDS analysis, which has an 80- mm2 silicon stituent atoms became less than 0.02 eV/Å while keeping the l attice
+drift detector (detector model: Ultim Max TEM; liquid nitrogen– parameter fixed, which was taken from the experiment. For further
+free operation) with ≦129- eV resolution. The EDS elemental map- computational details, please refer to the “Computational details”
+ping images with a spectrum range spanning from 0 to 40 keV are section in the Supplementary Materials.
+acquired under the following experimental conditions: The micro-
+scope is operated at 200 kV, with an STEM spot size of 5C and a
+Supplementary Materials
+camera length of 6 cm. In general, the elemental signals of the Pd@
+This PDF file includes:
+IGM- PGM- HEA core- shell nanocrystals are collected for around
+Figs. S1 to S29
+5 min at a count rate of approximately 150 counts/s. Please note tables S1 to S7
+that during the process of revising the manuscript, the EDS analysis References
+system had an upgrade, and the count rate is thus elevated to
+REFERENCES AND NOTES
+around 500 counts/s for the Pd@PtPdFeCoNi, Pd@PtRuFeCoNi,
+1. J.- W. the, S.- K. chen, S.- J. lin, J.- Y. Gan, t.- S. chin, t.- t. Shun, c.- h. tsau, S.- Y. chang,
+Pd@IrPdFeCoNi, Pd@IrRuFeCoNi, and Pd@PdRuFeCoNi atomic
+nanostructured high- entropy alloys with multiple principal elements: novel alloy design
+layers (Fig. 3 and figs. S5, S6, S8, and S14). The subsequent data concepts and outcomes. Adv. Eng. Mater. 6, 299–303 (2004).
+Wu et al., Sci. Adv. 10, eadl3693 (2024) 26 July 2024 15 of 17
+
+Science AdvAnceS | ReSeAR ch AR ticle
+2. Y. Yao, Q. dong, A. Brozena, J. luo, J. Miao, M. chi, c. Wang, i. Keverkidis, Z. J. Ren, 24. X. chen, S. Zhang, c. li, Z. liu, X. Sun, S. cheng, d. n. Zakharov, S. hwang, Y. Zhu, J. Fang,
+J. Greeley, G. Wang, A. Anapolsky, l. hu, high- entropy nanoparticles: Synthesis- G. Wang, G. Zhou, composition- dependent ordering transformations in Pt–Fe nanoalloys.
+structure- property relationships and data- driven discovery. Science 376, eabn3103 Proc. Natl. Acad. Sci. U.S.A. 119, e2117899119 (2022).
+(2022). 25. Q. Gao, B. Yao, h. S. Pillai, W. Zang, X. han, Y. liu, S. W. Yu, Z. Yan, B. Min, S. Zhang, h. Zhou,
+3. Y. Yao, Z. huang, P. Xie, S. d. lacey, R. J. Jacob, h. Xie, F. chen, A. nie, t. Pu, M. Rehwoldt, l. Ma, h. Xin, Q. he, h. Zhu, Synthesis of core/shell nanocrystals with ordered
+d. Yu, M. R. Zachariah, c. Wang, R. Shahbazian- Yassar, J. li, l. hu, carbothermal shock intermetallic single- atom alloy layers for nitrate electroreduction to ammonia. Nat. Synth.
+synthesis of high- entropy- alloy nanoparticles. Science 359, 1489–1494 (2018). 2, 624–634 (2023).
+4. P. Xie, Y. Yao, Z. huang, Z. liu, J. Zhang, t. li, G. Wang, R. Shahbazian- Yassar, l. hu, c. Wang, 26. h. chen, G. Wang, t. Gao, Y. chen, h. liao, X. Guo, h. li, R. liu, M. dou, S. nan, Q. he, effect
+highly efficient decomposition of ammonia using high- entropy alloy catalysts. Nat. of atomic ordering transformation of Ptni nanoparticles on alkaline hydrogen evolution:
+Commun. 10, 4011 (2019). Unexpected superior activity of the disordered phase. J. Phys. Chem. C 124, 5036–5045
+5. X. Wang, Q. dong, h. Qiao, Z. huang, M. t. Saray, G. Zhong, Z. lin, M. cui, A. Brozena, (2020).
+M. hong, Q. Xia, J. Gao, G. chen, R. Shahbazian- Yassar, d. Wang, l. hu, continuous 27. h. li, S. Xu, M. Wang, Z. chen, F. Ji, K. cheng, Z. Gao, Z. ding, W. Yang, computational
+synthesis of hollow high- entropy nanoparticles for energy and catalysis applications. design of (100) alloy surfaces for the hydrogen evolution reaction. J. Mater. Chem. A 8,
+Adv. Mater. 32, e2002853 (2020). 17987–17997 (2020).
+6. h. li, Y. han, h. Zhao, W. Qi, d. Zhang, Y. Yu, W. cai, S. li, J. lai, B. huang, l. Wang, Fast 28. t. Wu, M. l. Stone, M. J. Shearer, M. J. Stolt, l. A. Guzei, R. J. hamers, R. lu, K. deng, S. Jin,
+site- to- site electron transfer of high- entropy alloy nanocatalyst driving redox J. R. Schmidt, crystallographic facet dependence of the hydrogen evolution reaction on
+electrocatalysis. Nat. Commun. 11, 5437 (2020). cops: theory and experiments. ACS Catal. 8, 1143–1152 (2018).
+7. S. Gao, S. hao, Z. huang, Y. Yuan, S. han, l. lei, X. Zhang, R. Shahbazian- Yassar, J. lu, 29. X. Guo, t. Wu, S. Zhao, Y. Fang, S. Xu, M. Xie, F. huang, Re modulation of metallic ultrathin
+Synthesis of high- entropy alloy nanoparticles on supports by the fast moving bed 2m- ws2 for highly efficient hydrogen evolution in both acidic and alkaline media. ACS
+pyrolysis. Nat. Commun. 11, 2016 (2020). Appl. Energy Mater. 5, 7674–7680 (2022).
+8. d. Wu, K. Kusada, t. Yamamoto, t. toriyama, S. Matsumura, S. Kawaguchi, Y. Kubota, 30. Y. niu, X. Qian, c. Xu, h. liu, W. Wu, l. hou, cu- ni- coSex quaternary porous nanocubes as
+h. Kitagawa, Platinum- group- metal high- entropy- alloy nanoparticles. J. Am. Chem. Soc. enhanced Pt- free electrocatalysts for highly efficient dye- sensitized solar cells and
+142, 13833–13838 (2020). hydrogen evolution in alkaline medium. Chem. Eng. J. 357, 11–20 (2019).
+9. B. Song, Y. Yang, M. Rabbani, t. t. Yang, K. he, X. hu, Y. Yuan, P. Ghildiyal, v. P. dravid, 31. Z. Ye, Y. Qie, Z. Fan, Y. liu, Z. Shi, h. Yang, Soft magnetic Fe5c2–Fe3c@c as an
+M. R. Zachariah, W. A. Saidi, Y. liu, in situ oxidation studies of high- entropy alloy electrocatalyst for the hydrogen evolution reaction. Dalton Trans. 48, 4636–4642 (2019).
+nanoparticles. ACS Nano 14, 15131–15143 (2020). 32. c. Wang, Z. huang, Y. ding, M. Xie, M. chi, Y. Xia, Facet- controlled synthesis of
+10. G. Feng, F. ning, J. Song, h. Shang, K. Zhang, Z. ding, P. Gao, W. chu, d. Xia, Sub- 2 nm platinum- group- metal quaternary alloys: the case of nanocubes and {100} facets. J. Am.
+ultrasmall high- entropy alloy nanoparticles for extremely superior electrocatalytic Chem. Soc. 145, 2553–2560 (2023).
+hydrogen evolution. J. Am. Chem. Soc. 143, 17117–17127 (2021). 33. J. Park, l. Zhang, S. choi, l. t. Roling, n. lu, J. A. herron, S. Xie, J. Wang, M. J. Kim,
+11. c. Zhan, Y. Xu, l. Bu, h. Zhu, Y. Feng, t. Yang, Y. Zhang, Z. Yang, B. huang, Q. Shao, M. Mavrikakis, Y. Xia, Atomic layer- by- layer deposition of platinum on palladium
+X. huang, Subnanometer high- entropy alloy nanowires enable remarkable hydrogen octahedra for enhanced catalysts toward the oxygen reduction reaction. ACS Nano 9,
+oxidation catalysis. Nat. Commun. 12, 6261 (2021). 2635–2647 (2015).
+12. t. li, Y. Yao, Z. huang, P. Xie, Z. liu, M. Yang, J. Gao, K. Zeng, A. h. Brozena, G. Pastel, M. Jiao, 34. Y. liao, Practical electron microscopy and database (www.globalsino.com/eM/) (2006).
+Q. dong, J. dai, S. li, h. Zong, M. chi, J. luo, Y. Mo, G. Wang, c. Wang, R. Shahbazian- Yassar, 35. d. c. Bock, c. J. Pelliccione, W. Zhang, J. timoshenko, K. W. Knehr, A. c. West, F. Wang, Y. li,
+l. hu, denary oxide nanoparticles as highly stable catalysts for methane combustion. A. i. Frenkel, e. S. takeuchi, K. J. takeuchi, A. c. Marschilok, Size dependent behavior of
+Nat. Catal. 4, 62–70 (2021). Fe3O4 crystals during electrochemical (de) lithiation: An in situ x- ray diffraction, ex situ
+13. c.- l. Yang, l.- n. Wang, P. Yin, J. liu, M.- X. chen, Q.- Q. Yan, Z.- S. Wang, S.- l. Xu, S.- Q. chu, x- ray absorption spectroscopy, transmission electron microscopy and theoretical
+c. cui, h. Ju, J. Zhu, Y. lin, J. Shui, h.- W. liang, Sulfur- anchoring synthesis of platinum investigation. Phys. Chem. Chem. Phys. 19, 20867–20880 (2017).
+intermetallic nanoparticle catalysts for fuel cells. Science 374, 459–464 (2021). 36. Q. li, h. Zhu, X. chen, h. liu, Y. Ren, Y. chen, K. Ohara, l. Zhou, J. chen, J. deng, J. Miao,
+14. K. Mori, n. hashimoto, n. Kamiuchi, h. Yoshida, h. Kobayashi, h. Yamashita, hydrogen K. lin, X. Kuang, X. Xing, local structure insight into hydrogen evolution reaction with
+spillover- driven synthesis of high- entropy alloy nanoparticles as a robust catalyst for cO2 bimetal nanocatalysts. J. Am. Chem. Soc. 144, 20298–20305 (2022).
+hydrogenation. Nat. Commun. 12, 3884 (2021). 37. h. Sepehri- Amin, h. iwama, t. Ohkubo, t. Shima, K. hono, Microstructure and in- plane
+15. e. Shen, X. Song, Q. chen, M. Zheng, J. Bian, h. liu, Spontaneously forming oxide layer of component of l10- FePt films deposited on MgO and MgAl2O4 substrates. Scr. Mater. 130,
+high entropy alloy nanoparticles deposited on porous carbons for supercapacitors. 247–251 (2017).
+ChemElectroChem 8, 260–269 (2021). 38. F. li, Y. Zong, Y. Ma, M. Wang, W. Shang, P. tao, c. Song, t. deng, h. Zhu, J. Wu, Atomistic
+16. M. cui, c. Yang, S. huang, M. Yang, S. Overa, Q. dong, Y. Yao, A. h. Brozena, d. A. cullen, imaging of competition between surface diffusion and phase transition during the
+M. chi, t. F. Blum, d. Morris, Z. Finfrock, X. Wang, P. Zhang, v. G. Goncharov, X. Guo, J. luo, intermetallic formation of faceted particles. ACS Nano 15, 5284–5293 (2021).
+Y. Mo, F. Jiao, l. hu, Multi-p rincipal elemental intermetallic nanoparticles synthesized via 39. Q. Yun, Y. Ge, Z. Shi, J. liu, X. Wang, A. Zhang, B. huang, Y. Yao, Q. luo, l. Zhai, J. Ge, Y. Peng,
+a disorder- to- order transition. Sci. Adv. 8, eabm4322 (2022). c. Gong, M. Zhao, Y. Qin, c. Ma, G. Wang, Q. Wa, X. Zhou, Z. li, S. li, W. Zhai, h. Yang, Y. Ren,
+17. h. Minamihara, K. Kusada, d. Wu, t. Yamamoto, t. toriyama, S. Matsumura, l. S. R. Kumara, Y. Wang, l. li, X. Ruan, Y. Wu, B. chen, Q. lu, Z. lai, Q. he, X. huang, Y. chen, h. Zhang,
+K. Ohara, O. Sakata, S. Kawaguchi, Y. Kubota, h. Kitagawa, continuous- flow reactor Recent progress on phase engineering of nanomaterials. Chem. Rev. 123, 13489–13692
+synthesis for homogeneous 1 nm- sized extremely small high- entropy alloy (2023).
+nanoparticles. J. Am. Chem. Soc. 144, 11525–11529 (2022). 40. d. R. dekel, Review of cell performance in anion exchange membrane fuel cells. J. Power
+18. S. l. Bueno, A. leonardi, n. Kar, K. chatterjee, X. Zhan, c. chen, Z. Wang, M. engel, v. Fung, Sources 375, 158–169 (2018).
+S. e. Skrabalak, Quinary, senary, and septenary high entropy alloy nanoparticle catalysts 41. M. carmo, d. l. Fritz, J. Mergel, d. Stolten, A comprehensive review on PeM water
+from core@shell nanoparticles and the significance of intraparticle heterogeneity. ACS electrolysis. Int. J. Hydrogen Energy 38, 4901–4934 (2013).
+Nano 16, 18873–18885 (2022). 42. h. Sun, X. Xu, h. Kim, W. Jung, W. Zhou, Z. Shao, electrochemical water splitting: Bridging
+19. G. Gao, J. liang, Z. Guo, K. Yang, G. Wang, h. Wang, X. Wan, Z. li, Y. Bai, Y. Zhang, J. liu, the gaps between fundamental research and industrial applications. Energy Environ.
+Y. Feng, Z. Zheng, c. lu, G. he, Z. Xiong, Z. liu, S. chen, Y. Guo, M. Zeng, J. lin, l. Fu, liquid Mater. 6, e12441 (2023).
+metal for high- entropy alloy nanoparticles synthesis. Nature 619, 73–77 (2023). 43. Y. Xia, X. Xia, h. c. Peng, Shape- controlled synthesis of colloidal metal nanocrystals:
+20. Y.- h. liu, c.- J. hsieh, l.- c. hsu, K.- h. lin, Y.- c. hsiao, c.- c. chi, J.- t. lin, c.- W. chang, S.- c. lin, thermodynamic versus kinetic products. J. Am. Chem. Soc. 137, 7947–7966 (2015).
+c.- W. Wu, J.- Q. Gao, c.- W. Pao, Y.-M . chang, M.- Y. lu, S. Zhou, t.- h. Yang, toward controllable 44. l. han, P. Ou, W. liu, X. Wang, h. t. Wang, R. Zhang, c. W. Pao, X. liu, W. F. Pong, J. Song,
+and predictable synthesis of high- entropy alloy nanocrystals. Sci. Adv. 9, eadf9931 (2023). Z. Zhuang, M. v. Mirkin, J. luo, h. l. Xin, design of Ru- ni diatomic sites for efficient
+21. G. Feng, F. ning, Y. Pan, t. chen, J. Song, Y. Wang, R. Zou, d. Su, d. Xia, engineering alkaline hydrogen oxidation. Sci. Adv. 8, eabm3779 (2022).
+structurally ordered high- entropy intermetallic nanoparticles with high- activity facets for 45. l. Jiao, e. liu, S. hwang, S. Mukerjee, Q. Jia, compressive strain reduces the hydrogen
+oxygen reduction in practical fuel cells. J. Am. Chem. Soc. 145, 11140–11150 (2023). evolution and oxidation reaction activity of platinum in alkaline solution. ACS Catal. 11,
+22. B. Pang, X. liu, t. liu, t. chen, X. Shen, W. Zhang, S. Wang, t. liu, d. liu, t. ding, Z. liao, Y. li, 8165–8173 (2021).
+c. liang, t. Yao, laser-a ssisted high- performance PtRu alloy for ph-u niversal hydrogen 46. Q. he, d. tian, h. Jiang, d. cao, S. Wei, d. liu, P. Song, Y. lin, l. Song, Achieving efficient
+evolution. Energy Environ. Sci. 15, 102–108 (2022). alkaline hydrogen evolution reaction over a ni5P4 catalyst incorporating single- atomic Ru
+23. d. Zhang, h. Zhao, B. huang, B. li, h. li, Y. han, Z. Wang, X. Wu, Y. Pan, Y. Sun, X. Sun, J. lai, sites. Adv. Mater. 32, e1906972 (2020).
+l. Wang, Advanced ultrathin RuPdM (M = ni, co, Fe) nanosheets electrocatalyst boosts 47. l. Zhang, R. Si, h. liu, n. chen, Q. Wang, K. Adair, Z. Wang, J. chen, Z. Song, J. li,
+hydrogen evolution. ACS Cent. Sci. 5, 1991–1997 (2019). M. n. Banis, R. li, t. K. Sham, M. Gu, l. M. liu, G. A. Botton, X. Sun, Atomic layer deposited
+Wu et al., Sci. Adv. 10, eadl3693 (2024) 26 July 2024 16 of 17
+
+Science AdvAnceS | ReSeAR ch AR ticle
+Pt- Ru dual- metal dimers and identifying their active sites for hydrogen evolution 67. J. Greeley, t. F. Jaramillo, J. Bonde, i. chorkendorff, J. K. norskov, computational
+reaction. Nat. Commun. 10, 4936 (2019). high- throughput screening of electrocatalytic materials for hydrogen evolution. Nat.
+48. t. tang, X. liu, X. luo, Z. Xue, h. R. Pan, J. Fu, Z. c. Yao, Z. Jiang, Z. h. lyu, l. Zheng, d. Su, Mater. 5, 909–913 (2006).
+J. n. Zhang, l. Zhang, J. S. hu, Unconventional bilateral compressive strained ni–ir 68. Y. li, Y. huang, low- temperature, seed- mediated synthesis of monodispersed
+interface synergistically accelerates alkaline hydrogen oxidation. J. Am. Chem. Soc. 145, hyperbranched PtRu nanoparticles and their electrocatalytic activity in methanol
+13805–13815 (2023). oxidation. J. Mater. Chem. 22, 12461–12464 (2012).
+49. Z. c. Yao, t. tang, Z. Jiang, l. Wang, J. S. hu, l. J. Wan, electrocatalytic hydrogen oxidation 69. J. Park, t. Kwon, J. Kim, h. Jin, h. Y. Kim, B. Kim, S. h. Joo, K. lee, hollow nanoparticles as
+in alkaline media: From mechanistic insights to catalyst design. ACS Nano 16, 5153–5183 emerging electrocatalysts for renewable energy conversion reactions. Chem. Soc. Rev. 47,
+(2022). 8173–8202 (2018).
+50. X. Wang, S. i. choi, l. t. Roling, M. luo, c. Ma, l. Zhang, M. chi, J. liu, Z. Xie, J. A. herron, 70. h. c. Peng, S. Xie, J. Park, X. Xia, Y. Xia, Quantitative analysis of the coverage density of
+M. Mavrikakis, Y. Xia, Palladium–platinum core- shell icosahedra with substantially Br− ions on Pd {100} facets and its role in controlling the shape of Pd nanocrystals. J. Am.
+enhanced activity and durability towards oxygen reduction. Nat. Commun. 6, 7594 Chem. Soc. 135, 3780–3783 (2013).
+(2015). 71. S. Xie, S. choi, n. lu, l. t. Roling, J. A. herron, l. Zhang, J. Wang, M. J. Kim, Z. Xie,
+51. J. li, J. hu, M. Zhang, W. Gou, S. Zhang, Z. chen, Y. Qu, Y. Ma, A fundamental viewpoint on M. Mavrikakis, Y. Xia, Atomic layer- by- layer deposition of Pt on Pd nanocubes for catalysts
+the hydrogen spillover phenomenon of electrocatalytic hydrogen evolution. Nat. with enhanced activity and durability toward oxygen reduction. Nano Lett. 14,
+Commun. 12, 3502 (2021). 3570–3576 (2014).
+52. B. lim, M. Jiang, J. tao, P. h. camargo, Y. Zhu, Y. Xia, Shape- controlled synthesis of Pd 72. J. F. Moulder, W. F. Stickle, P. e. Sobol, K. d. Bomben, Handbook of X- ray Photoelectron
+nanocrystals in aqueous solutions. Adv. Funct. Mater. 19, 189–200 (2009). Spectroscopy (Perkin- elmer, 1992).
+53. W. Zhu, S. Kattel, F. Jiao, J. G. chen, Shape- controlled cO2 electrochemical reduction on 73. J. A. Ramos- Guivar, e. A. Sanches, F. Bruns, e. Sadrollahi, M. A. Morales, e. O. lopez,
+nanosized pd hydride cubes and octahedra. Adv. Energy Mater. 9, 1802840 (2019). F. J. litterst, vacancy ordered γ- Fe2O3 nanoparticles functionalized with
+54. d. M. Morales, M. Risch, Seven steps to reliable cyclic voltammetry measurements for the nanohydroxyapatite: XRd, FtiR, teM, XPS and Mössbauer studies. Appl. Surf. Sci. 389,
+determination of double layer capacitance. J. Phys. Energy 3, 034013 (2021). 721–734 (2016).
+55. B. hammer, l. B. hansen, J. K. nørskov, improved adsorption energetics within 74. c. Pirlot, J. delhalle, J. J. Pireaux, Z. Mekhalif, Surface modification of polycrystalline iron
+density- functional theory using revised Perdew-B urke- ernzerhof functionals. Phys. Rev. B surfaces by n- dodecanethiol: An XPS investigation. Surf. Coat. Technol. 138, 166–172 (2001).
+59, 7413–7421 (1999). 75. F. A. Stevie, c. l. donley, introduction to x- ray photoelectron spectroscopy. J. Vac. Sci.
+56. G. Kresse, J. Furthmüller, efficient iterative schemes for ab initio total- energy calculations Technol. A 38, 063204 (2020).
+using a plane- wave basis set. Phys. Rev. B 54, 11169–11186 (1996).
+57. G. Kresse, d. Joubert, From ultrasoft pseudopotentials to the projector augmented- wave Acknowledgments
+method. Phys. Rev. B 59, 1758–1775 (1999). Funding: this work is supported by the national Science and technology council, nStc
+58. X. Xia, S. Xie, M. liu, h. c. Peng, n. liu, J. Wang, M. J. Kim, Y. Xia, On the role of surface (112- 2636- e- 007- 008 to t.- h.Y., 112- 2221- e- 007- 022- MY3 to t.- h.Y., 112- 2218- e- 007- 021 to
+diffusion in determining the shape or morphology of noble- metal nanocrystals. Proc. t.- h.Y., 112- 2628- M- A49- 001 to S.- F.h., 111- 2222- e- 007- 004- MY2 to K.- h.l., and 112- 2628- e-
+Natl. Acad. Sci. U.S.A. 110, 6669–6673 (2013). 007- 015 to K.- h.l.). this work is also financially supported by the “high entropy Materials
+59. K. d. Gilroy, X. Yang, S. Xie, M. Zhao, d. Qin, Y. Xia, Shape- controlled synthesis of colloidal center” and “the center for emergent Functional Matter Science of national Yang Ming chiao
+metal nanocrystals by replicating the surface atomic structure on the seed. Adv. Mater. tung University” from the Featured Areas Research center Program within the framework of
+30, e1706312 (2018). the higher education Sprout Project by the Ministry of education (MOe) in taiwan. We thank
+60. F. Xing, J. Ma, K. i. Shimizu, S. Furukawa, high- entropy intermetallics on ceria as efficient the national center for high- performance computing (nchc) for providing computational
+catalysts for the oxidative dehydrogenation of propane using cO2. Nat. Commun. 13, and storage resources. Author contributions: t.-h.Y. conceived of and supervised the
+5065 (2022). research. t.-h.Y. and c.-Yu.W. performed most of the experiments and data analysis. Y.-c.h.,
+61. h. Sun, c. W. tung, Y. Qiu, W. Zhang, Q. Wang, Z. li, J. tang, h. c. chen, c. Wang, t.-J.l., c.-W.c., J.-Q.G., c.-Ying.W. and i.-t.K. prepared the electrodes and helped with
+h. M. chen, Atomic metal–support interaction enables reconstruction-f ree dual- site electrochemical measurements. c.-c.c., J.-t.l., M.-Y.l., and S.Z. conducted hAAdF-SteM
+electrocatalyst. J. Am. Chem. Soc. 144, 1174–1186 (2022). micrographs and mapped images. l.-c.h., t.-J.l., S.-F.h., h.-J.t., Y.-R.l., and c.-W.P. conducted
+62. Q. Yin, J. luo, J. Zhang, l. Zheng, G. cui, J. han, d. O’hare, high- performance, long lifetime the synchrotron XAS experiments. Y.c. and K.-h.l. carried out the dFt calculations. the
+chloride ion battery using a niFe- cl layered double hydroxide cathode. J. Mater. Chem. A manuscript was written through discussion by all authors. All authors have approved the final
+8, 12548–12555 (2020). version of the manuscript. Competing interests: the authors declare that they have no
+63. h. Gunda, S. K. das, K. Jasuja, Simple, green, and high- yield production of boron- based competing interests. Data and materials availability: All data needed to evaluate the
+nanostructures with diverse morphologies by dissolution and recrystallization of layered conclusions in the paper are present in the paper and/or the Supplementary Materials: teM
+magnesium diboride crystals in water. ChemPhysChem 19, 880–891 (2018). and hAAdF- SteM images, edS analysis, FFt analysis, electrochemistry, XAS analysis, and dFt
+64. X. Wang, R. R. d. vecchis, c. li, h. Zhang, X. hu, S. Sridar, Y. Wang, W. chen, W. Xiong, calculations. in addition, the structures and ΔGh* of various slabs considered in the dFt
+design metastability in high- entropy alloys by tailoring unstable fault energies. Sci. Adv. computations are available in the “heR- with- PGMs- iGMs” on Zenodo repository: https://
+8, eabo7333 (2022). zenodo.org/records/10613845.
+65. c. c. Mccrory, S. Jung, J. c. Peters, t. F. Jaramillo, Benchmarking heterogeneous electrocatalysts
+for the oxygen evolution reaction. J. Am. Chem. Soc. 135, 16977–16987 (2013). Submitted 14 October 2023
+66. J. K. norskov, t. Bligaard, A. logadottir, J. R. Kitchin, J. G. chen, S. Pandelov, Accepted 24 June 2024
+U. Stimming, trends in the exchange current for hydrogen evolution. Published 26 July 2024
+J. Electrochem. Soc. 152, J23 (2005). 10.1126/sciadv.adl3693
+Wu et al., Sci. Adv. 10, eadl3693 (2024) 26 July 2024 17 of 17
+

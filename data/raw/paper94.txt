@@ -1,0 +1,655 @@
+iScience
+ll
+OPEN ACCESS
+Article
+Strain engineering of high-entropy alloy catalysts
+for electrocatalytic water splitting
+BingWang,
+WeiguiLiu,
+YechengLeng,...,
+CongpingWu,
+YingfangYao,
+ZhigangZou
+bingwang@nju.edu.cn(B.W.)
+zhuxi@cuhk.edu.cn(X.Z.)
+yaoyingfang@nju.edu.cn(Y.Y.)
+Highlights
+HEAsshowexcellent
+activityandstabilityfor
+electrocatalyticwater
+splitting
+Remarkablesurfacestrain
+isdistributedacrossHEA
+nanoparticles
+Thestraindistribution
+improvesthebinding
+energyofintermediates
+onHEAs
+Thestraindistributioncan
+beengineeredbytuning
+theradiusorentropyof
+HEAs
+Wangetal.,iScience26,
+106326
+April21,2023ª2023The
+Author(s).
+https://doi.org/10.1016/
+j.isci.2023.106326
+
+iScience
+ll
+OPEN ACCESS
+Article
+Strain engineering of high-entropy alloy
+catalysts for electrocatalytic water splitting
+BingWang,1,5,6,*WeiguiLiu,1YechengLeng,3XiwenYu,2ChengWang,2LiangheHu,1XiZhu,3,*CongpingWu,1
+YingfangYao,1,2,3,*andZhigangZou1,3,4,5
+SUMMARY
+Developing active and cost-effective bifunctional electrocatalysts for overall
+watersplittingischallengingbutmandatoryforrenewableenergytechnologies.
+Wereportahigh-entropyalloy(HEA)ofPtIrCuNiCrasabifunctionalelectrocata-
+lystforoverallwatersplitting,whichshowsalowoverpotentialofca.190mVat
+the current density of 10 mA cm(cid:1)2. Compared with pure metals, HEAs exhibit
+remarkable surface strain due to severe lattice distortion in their crystal
+structures.Theoreticalcalculationsrevealthatthestraincanregulatethebinding
+energy of intermediates on catalysts by adjusting the metal-metal bonding
+energy. It pushes the HEA toward the top of volcano plots to achieve superior
+electrocatalytic activity for both hydrogen and oxygen evolution reactions. The
+strain effect of HEAs on electrocatalysis can be well engineered by tuning the
+catalyst radius or configurational entropy. This work renders a systematic strain
+regulation strategy for designing a high-performance HEA catalyst for overall
+watersplitting.
+INTRODUCTION
+Electrocatalyticoverallwatersplitting,includinghydrogen-evolvingreaction(HER)andoxygen-evolving
+1NationalLaboratoryofSolid
+reaction(OER),is apromisingstrategythatconverts electricalenergyintochemicalenergy.Pt- andIr- StateMicrostructures,
+basednoblemetalsaregenerallyknownasthestate-of-the-artcatalystsforHERandOER,respectively. JiangsuKeyLaboratoryfor
+NanoTechnology,Eco-
+However,thelowabundanceandhighpricesofthecatalyticmaterialslimitthelarge-scalecommercial
+materialsandRenewable
+application of water-splitting technologies. Despite many efficient noble-metal-free catalysts for OER EnergyResearchCenter
+andHER,suchasmetalnitrides,1metalchalcogenides,2,3metalphosphides,4andmetalcarbides,5there (ERERC),SchoolofPhysics,
+NanjingUniversity,Nanjing
+is still a big gap in performance between these catalysts and noble metal-based materials. It is highly 210093,P.R.China
+desirabletoexploreefficientandcost-effectivebifunctionalelectrocatalystsforwatersplitting. 2CollegeofEngineeringand
+AppliedSciences,Nanjing
+AlloyingPtorIrwith3dtransitionmetals(e.g.Ni,Co,orCr)hasbeenregardedasapromisingstrategyto University;No.22Hankou
+Road,Nanjing210093,P.R.
+concurrentlyreducethenoblemetalloadingandpromotecatalyticactivity.6–8However,thesetraditional
+China
+alloystendtodegradeanddissolveintoelectrolytesduringelectrochemicalcyclingduetothesegregation 3SchoolofScienceand
+of the transition metal atoms toward the catalyst surface.9 A new class of high-entropy alloys (HEAs), Engineering,TheChinese
+defined as materials containing five or more near-equimolar principle metal components,10 has been UniversityofHongKong,
+Shenzhen518172,P.R.China
+substantiated as efficient and stable electrocatalysts recently.11,12 In most cases, the performance of
+4MacauInstituteofSystems
+HEAsissimplyattributedtothesynergeticeffectbetweenmultipleelements.13Themechanismofsuch
+Engineering,Macau
+multi-componentsynergyinHEAsremainselusive.In-depthunderstandingofthestructure-performance UniversityofScienceand
+Technology,Macau999078,
+relationshipshouldbeelucidated.
+P.R.China
+5InstituteforCarbon
+Herein, we synthesize PtIrCuNiCr HEA electrocatalysts by a simple laser scanning ablation (LSA) strategy Neutrality,Ningbo
+developedbyourgroup.12Niareelectron-richatomswithbothpairedandunpaireddelectrons,whileCu InnovationCenter,Zhejiang
+University,Ningbo315100,P.
+and Cr are atoms with all the d orbitals of full and half-empty, respectively. On the basis of the Brewer-
+R.China
+Engelvalencebondtheory,14theelectrodesurfacewithbothpairsofdelectronsandhalf-emptydorbitals
+6Leadcontact
+willhelptheelectrontransferaswellastheadsorptionanddesorptionofintermediatesduringtheelectroca-
+*Correspondence:
+talyticreactionprocess.Consequently,thenoble-metalmassactivityofPrIrCuNiCrforHERandOERis13.0 bingwang@nju.edu.cn(B.W.),
+and9.3-foldhigherthanthoseofPt/CandIr/C,respectively.Asbifunctionalelectrocatalystsforoverallwater zhuxi@cuhk.edu.cn(X.Z.),
+splitting,PtIrCuNiCrachievesanoverpotentialofca.190mVat10mAcm(cid:1)2,farsurpassingthereported yaoyingfang@nju.edu.cn
+(Y.Y.)
+catalysts. Aberration-corrected high-angle annular dark-field scanning transmission electron microscope
+https://doi.org/10.1016/j.isci.
+(HAADF-STEM)andX-raydiffractometer(XRD)manifestthattheincorporationofCu,Ni,andCratomsin 2023.106326
+iScience26,106326,April21,2023ª2023TheAuthor(s). 1
+ThisisanopenaccessarticleundertheCCBY-NC-NDlicense(http://creativecommons.org/licenses/by-nc-nd/4.0/).
+
+iScience
+ll
+OPEN ACCESS Article
+Figure1. SynthesisofHEANPsbyLSAmethod
+(A)SchematicillustrationoftheLSAstrategysynthesizingHEANPsongraphene.
+(B)Schematicofthedifferenteventsoccurringonthegraphenesurfaceafterthelaserpulse,andtheapproximatetime
+scales.
+HEAsinducesremarkableshrunksurfacestrain.Theoreticalcalculationsrevealthattheeffectivestraincan
+pushtheHEAtowardthetopofvolcanoplotsinelectrocatalyticHERandOERduetotheimprovedadsorption
+kineticsofreactionintermediates(i.e.,*H,*OH,and*O).ThelatticestraineffectofHEAcanbereasonably
+engineeredbytailoringtheparticleradiusandconfigurationalentropy,therebyachievingoptimalinteraction
+withtheintermediates.Thisworkenablesustobetterunderstandtherelationshipbetweenradius,entropy,
+strain, and electrocatalytic activities of HEAs. It also provides a systematic strain regulation strategy for
+designinghigh-performanceHEAcatalystsforoverallwatersplitting.
+RESULTSANDDISCUSSION
+HEAcatalystsongraphene
+TheHEAnanoparticles(NPs)werefabricatedongraphenesubstratesbytheLSAstrategy(Figure1A).12Typi-
+cally,varioussaltprecursorswiththesameatomratioswerefirstlyloadedontographeneandthentransferred
+inhexaneandexposedunderlaserwithapulsedurationof5ns(thelaserparametersaredescribedinTableS1
+andFigureS1).Duetothecouplingoflaserphotonsandsaltelectrons,theelectrontemperatureimmediately
+rises.15Thesurfacemicronsofthesaltslayeraretransformedintoameltingpoolwhenthefluenceoflaserlight
+exceedsthatofthemeltingthreshold(Figure1B).Asthelaserpulsedurationismuchlongerthantheelectron
+coolingrate((cid:3)intheorderof1ps),theexcitedelectronscankeeptransmittingtheirenergytothesaltlattices,
+leadingto the sublimation, ionization,erosion, and/or explosion of the molten salts.16 As a result,highly
+compressedplasmacontainingamassofelectrons,ions,atoms,vapors,andclustersforms.Therapidheating
+ofthesaltlayerandthemediuminthevicinityoftheplasmaplumeleadtothegenerationofcavitationbub-
+bleswhichplayessentialrolesinthesubsequentNPsformationduetotheirconfinementeffect.17During
+plasmaorbubbleexpansionandcollapse,significantshockwavesarecreatedbehindtheablationsurface
+andexpandedinsidethesaltlayerswithmechanicalsolidenergy,resultingintheejectionofthesaltlayer
+intoNPs.Althoughalaserpulselastsonly5ns,theablationstepstakeplaceoverseveralordersofmagnitude
+intime,fromelectronicabsorptionoflaserbeamenergy(10(cid:1)9s),throughnanomaterialnucleationandgrowth
+(10(cid:1)6–10(cid:1)4s),toparticlecondensation((cid:3)ms).
+Figure2AshowsatransmissionelectronmicroscopeimageofthePtIrCuNiCrNPs.TheseHEANPsareuni-
+formlydistributedonthegraphenesurfacewithanaverageradiusof2nm(Figure2B).Theinductively
+coupledplasmamassspectroscopydemonstratesthattheactualHEANPsloadingongrapheneisapprox-
+imately 5 wt % (Figure S2). Energy-dispersive X-ray spectroscopy maps display Pt, Ir, Cu, Ni, and Cr
+2 iScience26,106326,April21,2023
+
+iScience
+ll
+Article OPEN ACCESS
+Figure2. Morphology,structure,andcompositionofHEANPs
+(A)TEMimagesofgraphenebeforeandafterloadingPtIrCuNiCrNPs.Scalebar,50nm.
+(B)ThediameterdistributionofPtIrCuNiCrNPs.
+(C)AnHRTEMimage(scalebar=10nm)andEDSmaps.
+(D)Anatomic-scaleHAADF-STEMimage(scalebar=0.5nm)andSTEMelementalmaps.
+(E)LineprofilesofatomicelementratiostakenfromtherespectiveEDSmaps(d).
+(F)TheXRDpatternofthePtIrCuNiCrNPs.
+elements throughout these NPs (Figure 2C). Homogeneous distribution of individual elements with no
+obvioussegregationhasbeenfoundevenattheatomicscale(Figure2D),manifestingthehigh-entropy
+characterofthePtIrCuNiCrsample.Althoughthefivecompositionsarethermodynamicallyinsoluble,18
+theclearatomiclatticesandpositionsofeveryatomsignifythattheatomicarrangementorderisstabilized
+bythehigh-entropymicrostructures.Thecorrespondinglineprofiles(Figure2E)showthattheatomicratio
+of Pt, Ir, Cu, Ni, and Cr in each projected atomic column randomly fluctuates with significantly small
+variation.Basedontheatomicratios,theequationcalculatestheconfigurationalentropy(DS )ofthe
+P mix
+PtIrCuNiCrHEANPstobe13.3J/mol$KbytheequationofDS mix=-R 5
+i=1
+C ilnC i,whereRisthemolar
+gasconstantandC iistheatomicratiooftheielement.TheDS mixvalueishighenoughtobestowthe
+PtIrCuNiCr high-entropy feature. The valence states of the HEA components are monitored by X-ray
+photoelectronspectroscopy(XPS,FigureS3andTableS2).Themetallicbondingstatesofallfiveelements
+havebeendetermined,implyingthemetalliccharacterofHEANPs.Notably,characteristicXPSpeaksof
+Cu,Ni,andCrshowmetallicandoxidizedbondingstates.ThisisbecausetheNPsareexposedtoairbefore
+characterization,andthese3dtransitionmetalsinevitablyundergosurfaceoxidation.TheXPSpeaksofCl
+elementwerenotdetected,indicatingClwasexcludedintheformofchlorineduringtheLSAprocess.The
+XRDpattern(Figure2F)confirmstheface-centeredcubicphaseoftheHEANPs,distinguishingthehigh-
+entropysolid-solutionstructurefromamorphousmaterials.
+iScience26,106326,April21,2023 3
+
+iScience
+ll
+OPEN ACCESS Article
+Figure3. StraindistributioninHEANPs
+(A)HAADF-STEMimagesofPtIrCuNiCrNPswithobviousdisorderedstructures(scalebar=2nm).Theinsetintherightpanelshowsalatticewithsmall
+(greenballsrepresentatomssuchasCu,Ni,andCr)andbig(blueballsrepresentatomssuchasPtandIr)atoms.
+(B)Enlarged(111),(200),and(220)XRDpeaksofthePtIrCuNiCrHEA.ThecommercialPt/Csampleisalsoincludedforcomparison.
+(C)NormalstrainsalongxxandyydirectionsandshearstrainsalongthexydirectionbasedonGPAresults.
+LatticestrainofHEAs
+Despitethewell-maintainedatomicarrangementstabilizedbythehigh-entropycharacteristic,severelattice
+strainofHEAsinevitablyformsduetoatomswithdifferentradiiacrossthelatticesites.X-rayabsorptionfine
+structureanalysismanifeststhatthemetal-metalbondsinHEAsareeitherlongerorshorterthanthePt-Ptor
+Ir-Irbonds inpurefoils (FigureS4 andTableS3),demonstrating the presenceofsevere lattice distortion.
+ThelatticedistortionofHEAcaninducelatticestrain.ComparedwithXRDcharacteristicpeaksofPt(FigureS5),
+thebroadeningandshiftingpeaksoftheHEAsampleclearlydemonstratetheincreasedstrainfromitsdis-
+tortedlattices.19Wesimplycalculatedthestrainsof(111),(220),and(200)peaksusingtheWilsonmethod
+(TableS4).20ThestraininHEANPsisfourtofivetimesthatinpurePt.Theseverelatticestraincaninduce
+HEAswithathermodynamicalnonequilibriumstate.13Ourpreviousworkfoundthatsuchastatecontributes
+tothehigherpotentialenergyofcatalysts,therebycontributingtoloweringtheenergybarrierincatalyticre-
+actionsandimprovingperformance.21Inaddition,thestackingfault(SF)numberinHEAsismuchhigherthan
+thatinPt.Aberration-correctedHAADF-STEMimagesdemonstratethepresenceoftheSFsontheHEAsurface
+(Figure3A).TheseSFscanlowerthecoordinationnumberofsurficialatoms,22enhancingtheHEAadsorption
+capability.AsisshowninTableS3,thecoordinationnumbersofPtandIratomsinHEAsaresignificantlylower
+4 iScience26,106326,April21,2023
+
+iScience
+ll
+Article OPEN ACCESS
+thanthatinthepuremetalfoil.TheunsaturatedPtandIrsitesserveastheactivecentersduringtheelectro-
+catalysistopromotetheinteractionswithintermediates(e.g.H*,O*,andOH*)andimproveOERandHER.23
+To confirm the strain types in the PtIrCuNiCr NPs, the XRD patterns of Pt and HEAs are refined and
+compared.Incomparisontothe(111),(200),and(220)planesinPt(Figure3B),thosepeaksinHEAsbecome
+broadening,weak,andshifttowardahigherBraggangle.TheinterplanarspacingchangeandtheBragg
+peakshiftmainlyresultfromTypeIandIIstrainswhichactoveralargeandshortdistance,respectively
+(FigureS6b).19AsisshowninFigure3A,theinterplanarspacingsof(111)and(200)planesinHEAsare
+0.215and0.187nm,respectively,bothofwhicharesmallerthanthoseinpurePt(0.227and0.196nm,
+respectively).ThevariationtrendsofthespacingsareconsistentwiththeXRDresults(TableS4),although
+thevaluesareslightlydiscrepantduetodifferentdetectionerrorsofHAADF-STEMandXRD.
+InFigure3A,manycrystaldefectssuchasatomdislocationsandSFshavebeenfound,contributingtothefor-
+mationofTypeIIIstrain(FigureS6).TypeIVstraincancauselatticeexpansionorcompression.19Inourcase,
+theincorporationof3dtransitionmetalatomsinHEAsleadstolatticecompressionwithsmallinterplanar
+spacing(Figure3A).Tofurtherobtainthestrainstatisticalandspatialdistributions,wefurtherinvestigated
+thestrainattheatomicscalethroughHAADF-STEMimagingandperformedgeometricphaseanalysisto
+calculatetheatomicstrains.IntheHEANPsshowninFigure3C,thestrainε isperpendiculartothe(200)
+xx
+plane,ε isinthe(200),andε isthesheerstrain.Wetaketheaveragestrainoftheentireplaneasabaseline
+yy xy
+(0%)formeasuringthestraindistributionacrosstheplane.Broaddistributionsofnormalstrainandshearstrain
+havebeenfoundacrosstheHEAsample.TheseresultsareconsistentwiththeXRDanalysis(Figure3B).
+Electrocatalyticwatersplitting
+The strain fieldsmodifythe electronic properties of PtIrCuNiCr by distorting the local bonding character
+(Figure S4), which can regulate the adsorption properties of the HEAs during electrocatalytic water
+splitting.TheelectrocatalyticHERandOERactivityofHEAsin1MKOHwasevaluatedinatypicalthree-elec-
+trodesetup.CommercialPt/CandIr/C,whichareconsideredastypicalHERandOERcatalysts,respectively,
+areexaminedforcomparison.ForunitmassofPt,theECSAforPtIrCuNiCr/C(2.5wt%Pt)is178.8m2/g ,
+Pt
+subsequentlyhigherthanthatofPt/C(with20wt%Pt,65.75m2/g )(SupplementaryInforamtionFigureS7).
+Pt
+Figure4AshowsthelinearsweepvoltammetrycurvesforHER.ThePtIrCuNiCrcatalystexhibitsremarkable
+catalytic activity with an onset overpotential of (cid:3)0 mV and low overpotential of only 200 mV to drive
+100mAcm(cid:1)2(vs274mVforPt/C).ForOER(Figure4B),theHEAsamplerequiresanoverpotentialofonly
+176mVtoachieve10mAcm(cid:1)2whichshowsmuchhigheractivitythanthatofIr/C(238mV)aswellasthe
+recently reported noble metal-based catalysts (Table S5). After being normalized with the noble metal
+mass (Figure S8), the mass activity of PtIrCuNiCr reaches 1.57 A/mg at (cid:1)0.3 V versus RHE for HER and
+0.81A/mgat1.5VversusRHEforOER,whichare13.0-and9.3-foldhigherthanthoseofPt/C(0.12A/mg
+forHER)andIr/C(0.087A/mgforOER),respectively.IntermsofsuchremarkableactivitiestowardHERand
+OER,thePtIrCuNiCrHEANPswerefurtherusedasbothanodeandcathodeforoverallwatersplitting(Fig-
+ure4C).Strikingly,itdeliversacurrentdensityof10mAcm(cid:1)2atanoverpotentialof190mV,outperforming
+theIr-orPt-basedelectrocatalystsreportedsofar(TableS6).TheHEAelectrodepresentsexcellentdurability
+(Figure4D),manifestingthesuperiorstabilityoftheHEAcatalystforoverallwatersplitting.
+StrainengineeringofHEAsforsuperiorperformance
+Theappropriateadsorptionenergyofintermediatesonthecatalystsurfaceiscrucialinimprovingcatalytic
+performance. Volcano plots are often used to describe the relationship between reaction overpotentials
+andadsorptionenergy.24Thecalculateddifferenceinbindingenergiesof*Oand*OH(DG -DG )and
+O* OH*
+thecovalentmetal-hydrogenbondabsorptionenergy(E )areverifiedtodescribewellthetrendofOER
+M-H
+andHERactivitiesoncatalystsurfaces,respectively.25,26AsshowninFiguresS9andS10,DG -DG and
+O* OH*
+E arecloselyrelatedtotheradius(r)ofcatalysts.27Withthecatalystradiusof2nm,wecorrelatedthe
+M-H
+E withtheexchangecurrentdensity(j )derivedfromtheTafelplotstoobtainavolcanoplotoftheHER
+M-H 0
+case(Figure5A).TheDG wasassociatedwiththeoverpotentialforthecurrentdensityof1mAcm(cid:1)2
+O*-OH*
+toachieveavolcanoplotofOER(Figure5B).BoththepuremetalsofPtandIrarelocatedintheleftlegs
+oftheOERvolcanoplotsortherightlegsoftheHERvolcanoplots,manifestingstrongadsorptionofinterme-
+diatesduringthereactions.Incontrast,thePtIrCuNiCrapproachestothetopofthevolcano,indicatingthat
+theHEAcatalysthasmoderateadsorptionenergyofintermediatesthanPtandIr.Thetheoreticalcalculation
+revealsthatthecatalyststrainplayssignificantroleintheoptimizationoftheadsorptionenergy(Seedetailsin
+supplemental information theoretical calculations). Unlike pure metals whose strain only depends on the
+iScience26,106326,April21,2023 5
+
+iScience
+ll
+OPEN ACCESS Article
+Figure4. ElectrocatalyticperformanceofHEANPsforwatersplitting
+(AandB)LSVcurvesof(a)HERand(b)OERforelectrocatalystsofPtIrCuNiCrandcommercialPt/CandIr/Csamples.
+(C)AnLSVcurveoftwo-electrodecellassembledbybifunctionalPtIrCuNiCrHEAelectrocatalystsasbothcathodeandanode.
+(D)Durabilitytestofthetwo-electrodecellatavoltageof1.5V.
+radius(FigureS11),HEAscanregulatestrainthroughentropyandradius(FiguresS12andS13).Catalystradius
+caninducestrainbymodifyingthechemicalbondsofatomsatcornersandedges.27High-entropycharacterof
+HEAsinduces the inherentdistortionofthelatticestructure,thusreleasingthelocalstraininmaterials.28
+Therefore,thecatalyticbehaviorofHEAsdiffersfromthatofthepuremetalsatthesamesizeduetothestrain
+causedbythehigh-entropycharacter.Inourcase,theentropy-drivenstrainweakenstheadsorptionenergyof
+catalytic intermediates on HEAs, facilitating the desorption of products on the HEA surface and further
+improvingtheelectrocatalyticactivities.Figures5Cand5Dshowthedependencebetweentheeffectivestrain,
+catalystradius,andtheHER/OERperformancemappingofHEAsaswellaspurePtandIrcatalysts.HEAsshow
+largerj thanPtandIrattheradiusof2nmduetothehigherstraincausedbythehigh-entropyeffect,indi-
+0
+catingafastreactionrate.Thus,thetheoreticalfindingsareconsistentwiththeexperimentalresults.Tofind
+outtheoptimalstrainforelectrocatalyticactivity,therelationshipbetweenstrainofHEAsandtheaverage
+distanceD(kcal/mol)tothevolcanoapexisinvestigated(FigureS14).Itisfoundthatwhenthecatalyststrain
+isaround1.08%and1.25%,respectively,theactivityofHERandOERreachesthemaximum.Thus,regulating
+thestrainofHEAsbyradiusandentropyisaneffectiveavenuetoimprovetheirelectrocatalyticactivity.
+Conclusions
+Inthiswork,wesynthesizehighlyactiveanddurableHEAelectrocatalystsbyasimplelaserscanningablation
+strategy.Appliedasbothanodeandcathode,theHEAcatalystofPtIrCuNiCrexhibitsthelowestoverpotential
+(ca.190mV)toachieveacurrentdensityof10mA/cm2inelectrocatalyticoverallwatersplitting.Theoretical
+calculationdemonstratesthatstraininHEAscanregulatethebindingenergyofintermediatesduringelectro-
+catalysisbychangingmetal-metalbondingenergy.Unlikepuremetals,HEAcanadjustthestrainthrough
+radiusandentropytoenhanceelectrocatalyticactivity.Thisworkoffersanewtrialofstrainengineeringto
+developefficientanddurableHEAelectrocatalystsforoverallwatersplitting.Itwillinspireanewunderstanding
+ofcatalyticmechanismsofHEAsandguidethesearchforefficientHEAcatalystsinavastmaterialsdatabase.
+Limitationsofthestudy
+Duetotheshortsynthesistime,itischallengingtosynthesizeHEAcatalystswithveryuniformparticlesize
+bythelaserscanningablationmethod.Therefore,theeffectoftheparticlesizeandatomicratioofthe
+6 iScience26,106326,April21,2023
+
+iScience
+ll
+Article OPEN ACCESS
+Figure5. Therelationshipbetweenstrain,radius,andactivityofHEANPs
+(AandB)Thevolcanoplotsof(a)theHERand(b)OERfornanoparticleswitharadiusof2nm.Onlythefiveelements
+relevanttothisworkareincluded.
+(CandD)Thedependencebetweentheeffectivestrain,particleradius,andtheHER/OERperformancemappingofthe
+HEA(PtIrCuNiCr);purePtandIrasthebenchmark.
+elements on the catalysis activity was studied by the theoretical calculation instead of experiment in
+thiswork.
+STAR+METHODS
+Detailedmethodsareprovidedintheonlineversionofthispaperandincludethefollowing:
+d KEYRESOURCESTABLE
+d RESOURCEAVAILABILITY
+B Leadcontact
+B Materialsavailability
+B Dataandcodeavailability
+d METHODDETAILS
+B Synthesisofgraphene
+B Laserparameters
+B SynthesisofHEAsongrapheneviaLSAmethod
+B Electrocatalyticexperimentsforwatersplitting
+B Characterizations
+B Theoreticalcalculations
+SUPPLEMENTALINFORMATION
+Supplementalinformationcanbefoundonlineathttps://doi.org/10.1016/j.isci.2023.106326.
+iScience26,106326,April21,2023 7
+
+iScience
+ll
+OPEN ACCESS Article
+ACKNOWLEDGMENTS
+This project is supported by the National Key Research and Development Program of China
+(2021YFF0500501),MajorResearchPlanoftheNationalNaturalScienceFoundationofChina(91963206),
+National Natural Science Foundation of China (22279053, 52072169, 51627810, 51972164), Program for
+Guangdong Introducing Innovativeand Enterpreneurial Teams (2019ZT08L101), Fundamental Research
+FundsfortheCentralUniversities(14380180),CivilAerospaceTechnologyResearchProject(B0108),and
+FoshanXianhuLaboratoryoftheAdvancedEnergyScienceandTechnologyGuangdongLaboratory.
+AUTHORCONTRIBUTIONS
+B.W., X.Z., Y.Y., and Z.Z. conceived the idea and designed the present work. B.W., W.L., L.H., and
+C.W.carriedouttheexperiments.X.Z.andY.L.carriedoutthetheoreticalcalculations.C.W.andX.Y.per-
+formeddetailedmicroscopiccharacterizations.B.W.andX.Z.draftedthepaper.
+DECLARATIONOFINTERESTS
+Theauthorsdeclarenocompetinginterests.
+Received:November3,2022
+Revised:February7,2023
+Accepted:February28,2023
+Published:March3,2023
+REFERENCES
+1. Yan,H.,Xie,Y.,Wu,A.,Cai,Z.,Wang,L.,Tian, oxygen-evolvingcatalysts.Science352, 13. Wang,B.,Yao,Y.,Yu,X.,Wang,C.,Wu,C.,
+C.,Zhang,X.,andFu,H.(2019).Anion- 333–337.https://doi.org/10.1126/science. andZou,Z.(2021).Understandingthe
+modulatedHERandOERactivitiesof3DNi- aaf1525. enhancedcatalyticactivityofhighentropy
+V-basedinterstitialcompound alloys:fromtheorytoexperiment.J.Mater.
+heterojunctionsforhigh-efficiencyandstable 7. Zhao,Z.,Liu,H.,Gao,W.,Xue,W.,Liu,Z., Chem.AMater.9,19410–19438.https://doi.
+overallwatersplitting.Adv.Mater.31, Huang,J.,Pan,X.,andHuang,Y.(2018). org/10.1039/d1ta02718b.
+1901174.https://doi.org/10.1002/adma. Surface-engineeredPtNi-Onanostructure
+201901174. withrecord-highperformancefor 14. Molna´ar,A´.,Smith,G.V.,andBarto´k,M.
+electrocatalytichydrogenevolutionreaction. (1989).Newcatalyticmaterialsfrom
+2. Kwon,I.S.,Debela,T.T.,Kwak,I.H.,Park,Y.C., J.Am.Chem.Soc.140,9046–9050.https:// amorphousmetal-alloys.Adv.Catal.36,
+Seo,J.,Shim,J.Y.,Yoo,S.J.,Kim,J.G.,Park, doi.org/10.1021/jacs.8b04770. 329–383.https://doi.org/10.1016/S0360-
+J.,andKang,H.S.(2020).Ruthenium 0564(08)60020-6.
+nanoparticlesoncobalt-doped1T’phase 8. Feng,J.,Lv,F.,Zhang,W.,Li,P.,Wang,K.,
+S M m o a S l 2 l1 n 6 a , n 2 o 0 s 0 h 0 e 0 e 8 ts 1. fo h r tt o p v s e :/ r / a d ll o w i.o at r e g r /1 s 0 p . l 1 it 0 ti 0 n 2 g / . Y et an a g l. , (2 C 0 ., 1 W 7). a I n ri g d , iu B m ., - Y b a a n s g e , d Y m .,Z u h lt o im u e ,J ta ., ll L ic in,F., 15. W Im e p r r n o e v r e , d D w ., o a r n k d in H g a m sh o i d m e o l t f o o , r S in . t ( e 2 r 0 p 1 r 1 e ). tingthe
+smll.202000081. poroushollownanocrystalsforefficient excitationwavelength-andfluence-
+overall-water-splittingcatalysis.Adv.Mater. dependentresponseinpulsedlaser-induced
+3. Zhang,G.,Feng,Y.S.,Lu,W.T.,He,D.,Wang, 29,1703798.https://doi.org/10.1002/adma. sizereductionofaqueousgoldnanoparticles.
+C.Y.,Li,Y.K.,Wang,X.Y.,andCao,F.F.(2018). 201703798. J.Phys.Chem.C115,5063–5072.https://doi.
+Enhancedcatalysisofelectrochemicaloverall
+org/10.1021/jp109255g.
+watersplittinginalkalinemediabyFedoping
+i 5 n 43 N 1 i – 3S 5 2 44 n 1 a . n h o t s t h p e s e :/ t /d a o rr i a .o ys rg . / A 1 C 0. S 10 C 2 a 1 t / a a l. c 8 sc , atal. 9. C St u ra i, s C se ., r, G P a . n ( , 20 L 1 ., 3 H ). e C g o g m en p , o M si . t , io R n u a d l i,S.,and 16. Wang,Z.,Hattendorf,B.,andGu¨nther,D.
+8b00413. segregationinshapedPtalloynanoparticles (2006).Vaporizationandionizationoflaser
+andtheirstructuralbehaviourduring ablationgeneratedaerosolsinaninductively
+electrocatalysis.Nat.Mater.12,765–771. coupledplasmamassspectrometer-
+4. Zhang,H.,Li,X.,Ha¨hnel,A.,Naumann,V.,Lin,
+https://doi.org/10.1038/Nmat3668. implicationsfromiondistributionmaps.
+C.,Azimi,S.,Schweizer,S.L.,Maijenburg,
+J.Anal.At.Spectrom.21,1143–1151.https://
+A.W.,andWehrspohn,R.B.(2018).
+Bifunctionalheterostructureassemblyof 10. George,E.P.,Raabe,D.,andRitchie,R.O. doi.org/10.1039/b607469n.
+NiFeLDHnanosheetsonNiCoPnanowires (2019).High-entropyalloys.Nat.Rev.Mater.
+forhighlyefficientandstableoverallwater
+4,515–534.https://doi.org/10.1038/s41578-
+17. Razab,M.K.A.A.,MohamedNoor,A.,
+splitting.Adv.Funct.Mater.28,1706847. 019-0121-4. SuhaimiJaafar,M.,Abdullah,N.H.,Suhaimi,
+https://doi.org/10.1002/adfm.201706847. F.M.,Mohamed,M.,Adam,N.,andAuliNik
+11. Yao,Y.,Huang,Z.,Xie,P.,Lacey,S.D.,Jacob, Yusuf,N.A.(2018).Areviewofincorporating
+5. Najafi,L.,Bellani,S.,Oropesa-Nun˜ez,R., R.J.,Xie,H.,Chen,F.,Nie,A.,Pu,T., Nd:YAGlasercleaningprincipalin
+Prato,M.,Martı´n-Garcı´a,B.,Brescia,R.,and Rehwoldt,M.,etal.(2018).Carbothermal automotiveindustry.J.Radiat.Res.Appl.Sci.
+Bonaccorso,F.(2019).Carbonnanotube- shocksynthesisofhigh-entropy-alloy 11,393–402.https://doi.org/10.1016/j.jrras.
+supportedMoSe2holeyflake:Mo2Cball nanoparticles.Science359,1489–1494. 2018.08.002.
+hybridsforbifunctionalpH-universalwater https://doi.org/10.1126/science.aan5412.
+splitting.ACSNano13,3162–3176.https:// 18. Zhang,R.F.,Kong,X.F.,Wang,H.T.,Zhang,
+doi.org/10.1021/acsnano.8b08670. 12. Wang,B.,Wang,C.,Yu,X.,Cao,Y.,Gao,L., S.H.,Legut,D.,Sheng,S.H.,Srinivasan,S.,
+Wu,C.,Yao,Y.,Lin,Z.,andZou,Z.(2022). Rajan,K.,andGermann,T.C.(2017).An
+6. Zhang,B.,Zheng,X.,Voznyy,O.,Comin,R., Generalsynthesisofhigh-entropyalloyand informaticsguidedclassificationofmiscible
+Bajdich,M.,Garcı´a-Melchor,M.,Han,L.,Xu, ceramicnanoparticlesinnanoseconds.Nat. andimmisciblebinaryalloysystems.Sci.Rep.
+J.,Liu,M.,Zheng,L.,etal.(2016). Synth.1,138–146.https://doi.org/10.1038/ 7,9577.https://doi.org/10.1038/s41598-017-
+Homogeneouslydispersedmultimetal s44160-021-00004-1. 09704-1.
+8 iScience26,106326,April21,2023
+
+iScience
+ll
+Article OPEN ACCESS
+19. Owen,L.R.,andJones,N.G.(2018).Lattice 25. Hammer,B.,andNørskov,J.(1995).Electronic 31. Seh,Z.W.,Kibsgaard,J.,Dickens,C.F.,
+distortionsinhigh-entropyalloys.J.Mater. factorsdeterminingthereactivityofmetal Chorkendorff,I.B.,Nørskov,J.K.,and
+Res.33,2954–2969.https://doi.org/10.1557/ surfaces.Surf.Sci.343,211–220.https://doi. Jaramillo,T.F.(2017).Combiningtheoryand
+jmr.2018.322. org/10.1016/0039-6028(96)80007-0. experimentinelectrocatalysis:insightsinto
+materialsdesign.Science355,eaad4998.
+20. Arasu,P.A.,andWilliams,R.V.(2017).The 26. Huang,X.,Wang,J.,Tao,H.B.,Tian,H.,and https://doi.org/10.1126/science.aad4998.
+dielectricstudiesonsol-gelrouted Xu,H.(2019).Anessentialdescriptorforthe
+molybdenumoxidethinfilm.J.Adv.Dielectr. oxygenevolutionreactiononreduciblemetal
+07,1750011.https://doi.org/10.1142/ oxidesurfaces.Chem.Sci.10,3340–3345. 32. Girifalco,L.A.,andWeizer,V.G.(1959).
+Applicationofthemorsepotentialfunctionto
+S2010135x17500114. https://doi.org/10.1039/c8sc04521f.
+cubicmetals.Phys.Rev.114,687–690.https://
+doi.org/10.1103/PhysRev.114.687.
+21. Yu,X.W.,Wang,B.,Wang,C.,Zhuang,C., 27. Cao,S.,Tao,F.F.,Tang,Y.,Li,Y.,andYu,J.
+Yao,Y.F.,Li,Z.S.,Wu,C.P.,Feng,J.Y.,and (2016).Size-andshape-dependentcatalytic
+Zou,Z.G.(2021).2DHigh-Entropy performancesofoxidationandreduction 33. Qu,Y.D.,Liang,X.L.,Kong,X.Q.,andZhang,
+Hydrotalcites.Small17,2103412.https://doi. reactionsonnanocatalysts.Chem.Soc.Rev. W.J.(2017).Size-dependentcohesiveenergy,
+org/10.1002/smll.202103412. 45,4747–4765.https://doi.org/10.1039/ meltingtemperature,andDebyetemperature
+c6cs00094k. ofsphericalmetallicnanoparticles.Phys.Met.
+22. Li,Z.,Fu,J.Y.,Feng,Y.,Dong,C.K.,Liu,H., Metallogr.118,528–534.https://doi.org/10.
+andDu,X.W.(2019).Asilvercatalystactivated 28. Clausen,C.M.,Pedersen,J.K.,Batchelor, 1134/S0031918X17060102.
+bystackingfaultsforthehydrogenevolution T.A.A.,andRossmeisl,J.(2022).Lattice
+reaction.Nat.Catal.2,1107–1114.https:// distortionreleasinglocalsurfacestrainon
+doi.org/10.1038/s41929-019-0365-9. high-entropyalloys.NanoRes.15,4775– 34. Delley,B.(2000).Frommoleculestosolids
+4779.https://doi.org/10.1007/s12274-021-
+withtheDMol3approach.J.Chem.Phys.113,
+23. Tao,L.,Lin,C.Y.,Dou,S.,Feng,S.,Chen,D., 3544-3. 7756–7764.https://doi.org/10.1063/1.
+Liu,D.,Huo,J.,Xia,Z.,andWang,S.(2017). 1316015.
+Creatingcoordinativelyunsaturatedmetal 29. Yao,Y.,Xu,Z.,Cheng,F.,Li,W.,Cui,P.,Xu,G.,
+sitesinmetal-organic-frameworksasefficient Xu,S.,Wang,P.,Sheng,G.,Yan,Y.,etal.
+35. Giannozzi,P.,Baseggio,O.,Bonfa`,P.,
+electrocatalystsfortheoxygenevolution (2018).Unlockingthepotentialofgraphenefor
+Brunato,D.,Car,R.,Carnimeo,I.,Cavazzoni,
+reaction:insightsintotheactivecenters. wateroxidationusinganorbitalhybridization
+C.,deGironcoli,S.,Delugas,P.,Ferrari
+NanoEnergy41,417–425.https://doi.org/10. strategy.EnergyEnviron.Sci.11,407–416.
+Ruffino,F.,etal.(2020).QuantumESPRESSO
+1016/j.nanoen.2017.09.055. https://doi.org/10.1039/c7ee02972a. towardtheexascale.J.Chem.Phys.152,
+154105.https://doi.org/10.1063/5.0005082.
+24. Zhao,Z.,Li,M.,Zhang,L.,Dai,L.,andXia,Z. 30. Nørskov,J.K.,Bligaard,T.,Logadottir,A.,
+(2015).Designprinciplesforheteroatom- Kitchin,J.R.,Chen,J.G.,Pandelov,S.,and
+dopedcarbonnanomaterialsashighly Stimming,U.(2005).Trendsintheexchange 36. Burdett,J.K.,Lee,S.,andMcLarnan,T.J.
+efficientcatalystsforfuelcellsandmetal-air currentforhydrogenevolution. (1985).Coloringproblem.J.Am.Chem.Soc.
+batteries.Adv.Mater.27,6834–6840.https:// J.Electrochem.Soc.152,J23–J26.https:// 107,3083–3089.https://doi.org/10.1021/
+doi.org/10.1002/adma.201503211. doi.org/10.1149/1.1856988. ja00297a012.
+iScience26,106326,April21,2023 9
+
+iScience
+ll
+OPEN ACCESS Article
+STAR+METHODS
+KEYRESOURCESTABLE
+REAGENTorRESOURCE SOURCE IDENTIFIER
+Chemicals,Peptides,andRecombinantProteins
+H2PtCl6 $6H2O AladdinCo.,Ltd 18497-13-7
+H2IrCl6 $6H2O AladdinCo.,Ltd 16941-92-7
+CuCl2 $2H2O AladdinCo.,Ltd 10125-13-0
+10125-13-0
+10125-13-0
+NiCl2 $6H2O AladdinCo.,Ltd 7791-20-0
+CrCl3 $6H2O AladdinCo.,Ltd 10060-12-5
+Glucose XilongScientificCo.,Ltd 14431-43-7
+NH4Cl Macklin 12125-02-9
+KCl Macklin 7447-40-7
+NaCl Macklin 7647-14-5
+Hexane XilongScientificCo.,Ltd 110-54-3
+Nafionsolution DuPont 31175-20-9
+KOH Macklin 1310-58-3
+Commercial20%Pt/C JohnsonMatthey Cat#S128513
+RESOURCEAVAILABILITY
+Leadcontact
+Furtherinformationandrequestsforresourcesshouldbedirectedtoandwillbefulfilledbytheleadcon-
+tact,BingWang(bingwang@nju.edu.cn).
+Materialsavailability
+Thisstudydidnotgeneratenewuniquereagents.Allchemicalswereobtainedfromcommercialresources
+andusedasreceived.
+Dataandcodeavailability
+Thepublishedarticleincludesalldatasetsgeneratedoranalyzedduringthisstudy.
+Alldatareportedinthispaperwillbesharedbytheleadcontactuponrequest.
+Thispaperdoesnotreportoriginalcode.
+METHODDETAILS
+Synthesisofgraphene
+Atypicalprocessisasfollows:294mmolofglucose,6mmolofNH Cl,and80gofKClandNaClwiththe
+4
+weightratioof51:49werefirsttreatedbyball-milling,anddriedat150(cid:4)Cfor8htoformbrownmixture.
+Thenthemixturewaspyrolyzedat1050(cid:4)CunderN for1hwiththeheatingrateof35(cid:4)C/min,followed
+2
+bynaturalcoolingtoroomtemperature.Grapheneformsafterbeingultrasonicallyrinsedwithdistilled
+waterandethanolseveraltimes.
+Laserparameters
+Apulsedfiberlaser(SLT-PTM-100,JiangsuYanchangSunlaitenewenergyCo.Ltd,China)wasusedduring
+thelaserscanningablation(LSA)process.TheparametersofthelaseraredisplayedinTableS1.AGaussian
+laserbeamwithapeakpowerof20kWwasfocused(FigureS1)andsuppliedatnormalincidencetothe
+graphenesurface.
+10 iScience26,106326,April21,2023
+
+iScience
+ll
+Article OPEN ACCESS
+SynthesisofHEAsongrapheneviaLSAmethod
+Variouschloridesaltsweremixedinethanolwith0.01Mforeachmetallicelement.Takingthesynthesisof
+PtIrCuNiCrasanexample,thesaltprecursorsofH PtCl $6H O,H IrCl $6H O,CuCl $2H O,NiCl $6H O,
+2 6 2 2 6 2 2 2 2 2
+CrCl $6H Owerefirstmixedinethanol.Themixedsolutionwasthendirectlydroppedontographenewith
+3 2
+aloadingof(cid:3)0.1ml/mg,followedbyultrasonictreatmentforensuringtheuniformsaltloadongraphene.
+Theloadedsubstratesweretransferredtoavacuumovenfordryingatroomtemperature.
+For the synthesis of HEA nanoparticles (NPs) by the LSA method, the precursors-loaded graphene
+was firstly dispersed in hexane with 0.5 mg/ml by magnetic stirring. Hexane is used because the salt
+precursorsareinsolubleinit,ensuringthesaltsremainonsubstrates.Moreover,theoxygen-freestruc-
+tureofhexaneisconduciveinpreventingtheoxidationoftheHEANPsduringLSAprocess.Thesolution
+wasirradiatedunderagitationwiththepulselaserfor30min,ensuringallthesubstrateswereirradiated
+bythelaserbeam.
+Electrocatalyticexperimentsforwatersplitting
+H evolutionreaction(HER)andO evolutionreaction(OER)electrocatalyticexperimentswereperformed
+2 2
+onaCHI660Delectrochemicalworkstationwithathree-electrodecellsystem.Inthissystem, Ag/AgCl
+(sat.KCl)andcarbonrodelectrodeswereusedasthereferenceelectrodeandcounterelectrode,respec-
+tively.Topreparetheworkingelectrode,10mgoftheHEANPsongraphenewasdispersedinthemixture
+of 400 mL ethanol and 50 mL 5% Nafion solution for 20 min by ultrasonication to form homogeneous
+inks. 50 mL of the ink was carefully dropped onto a nickel foam (NF, 0.530.5 cm2), resulting in a HEA
+NPs/grapheneloadingof4.4mgcm(cid:1)2.Theelectrocatalyticelectrodewasdriedatroomtemperaturenatu-
+rally.Basedontheresultsofinductivelycoupledplasmamassspectroscopy(ICP-MS),theHEANPsloading
+ongrapheneisapproximately5wt.%with2.5wt.%ofPtand1.5wt.%ofIr.Assuch,theactualHEAsNPs
+loadingonNFswasabout0.22mgcm(cid:1)2withPtandIrloadingof0.11and0.07mgcm(cid:1)2,respectively.
+Similar to the HEA catalyst, 10 mg of the commercial Pt/C (20 wt%XC-72) or Ir/C (5 wt%XC-72) was
+dispersed in the mixture of 400 mL ethanol and 50 mL 5% Nafion solution by ultrasonic treatment for
+20min.Then50mLoftheinkwasdroppedontoaNFwiththesameareaanddriedatroomtemperature.
+TheloadingamountofthecommercialPt/CandIr/CelectrocatalystonNFswasboth4.4mgcm(cid:1)2.Asthe
+massratioofPtandIrinsamplesis20wt.%and5wt.%,respectively.TheactualPtandIrNPsloadingonNFs
+was0.88mgcm-2and0.22mgcm-2,respectively.TheHERandOERelectrochemicalexperimentswere
+conductedina1.0MKOHaqueoussolutionatroomtemperature.AllpotentialsforOERandHERreported
+hereinwerereferencedtothereversiblehydrogenelectrode(RHE)usingtheequationE =E +
+RHE Ag/AgCl
+0.197+0.0593PH.Themeasurementwasconductedunderrotationtoremovetheproducedbubbles
+with90%IRcorrection.
+Theoverallwatersplittingwasinvestigatedinatwo-electrodesystemwith1.0MKOHelectrolyte,inwhich
+PtIrCuNiCr-NFservedasbothanodeandcathodewithaloadingof4.4mgcm(cid:1)2.Thedurabilitywasas-
+sessedataconstantpotentialof1.5Vfor100h.
+Characterizations
+Themorphologyofas-preparedsampleswasexaminedbytransmissionelectronmicroscopy(TEM,Tacnai
+G2F20,FEI).Energy-dispersiveX-rayspectroscopy(EDS,EliteTEDSSystem)equippedontheTEMwas
+employed to record the element distribution of HEAs on graphene. Aberration-corrected high-angle-
+annular-dark-filed scanning transmission electron microscope (HAADF-STEM) analysis is characterized
+usingThermofisherThemisZ(FEI)with200kV.AnEDSinstrumentwiththeSuperXdetectorequipping
+theHAADF-STEMwasusedtoobtaintheelementdistributionofHEAsattheatomicscale.Geometric
+phase analysis (GPA) was conducted with Digital Micrograph software to obtain the strain information
+onthesurfaceofHEANPs.ThecrystalstructuresofthesamplesweremeasuredbyapowderX-raydiffrac-
+tometer (XRD, Ultima III, Rigaku Corp., Japan) using Cu-Ka radiation (l = 1.54178 A˚, 40 kV, 40 mA).
+TheatomicratiosofHEMNPswereanalyzedbyPerkinElmerAVIO500ICP-MS.Thesolutionswerepre-
+paredbydigestingthesamplesinaquaregiafollowedbydilutionwith2%hydrochloricacid.Thesurface
+compositionofthesampleswasperformedbyX-rayphotoelectronspectroscopy(XPS,ESCALAB250)with
+thenon-monochromaticAlKaX-rayastheX-raysource.ThebindingenergyofC1s(284.6eV)wasusedto
+calibratetheotherbindingenergies.
+iScience26,106326,April21,2023 11
+
+iScience
+ll
+OPEN ACCESS Article
+Theoreticalcalculations
+VolcanoplotsofHERandOER
+Theabsorptionenergyofintermediatesonthecatalystsurfacehasbeenwidelyacceptedasadescriptor
+fortheactivityofelectrocatalysts.Theabsorptionenergyvarieswiththesizeofcatalystparticlesduetothe
+changedcoordinationenvironmentcausedbythechemicalbondsofthesurfaceatoms.30,31Sincemetal
+atoms are coordinated to several neighbor atoms on the surface, we first consider the metallic bond
+strength.ForthemetallicbondstrengthofNPscomposedofnlayersofatoms,wemadeahypothesis
+thatthebondstrengthandradiusofNPsconformtoaGaussianfunction:32
+!
+Er 1 = EN 1 + EDia 1 tomic (cid:1) EN 1 e(cid:1) ð nEM r 3s (cid:1) 2 M Þ2 (Equation1)
+M(cid:1)M M(cid:1)M M(cid:1)M M(cid:1)M
+whereE M r (cid:1)MisthemetallicbondstrengthforanNPwithradiusofr(nm),E M N (cid:1)Misthebondstrengthforbulk
+materials,E
+M
+Di
+(cid:1)
+ato
+M
+mic isthecovalentbondstrengthforadiatomicmolecule,sisacontrollingconstantfor
+dimensionconsistency(ca.1000kJmol-1).Asthesizeofnanoparticles(NPs)decreases,metallicbonds
+becomeweaker(FigureS8).33Drivenbythestabilityofthesystem,interactionbetweenhydrogen/oxygen
+adsorbatesandmetalgoesstronger(FigureS9).Accordingtothecovalentmetal-hydrogen/oxygenbond
+dissociationenergyandvolcanoplotofbulkmaterials,forNPscomposedbynlayersofatoms,wecan
+assume:
+!
+Er 1 = EN 1 + EDia 1 tomic (cid:1) EN 1 e ð nEM r 3s (cid:1) 2 H Þ2 (Equation2)
+M(cid:1)H M(cid:1)H M(cid:1)H M(cid:1)H
+O
+!
+DGr 1 = DGN 1 + DGD 1 iatomic (cid:1) DGN 1 e ð nDGr O(cid:5) 3s (cid:1) 2 OH(cid:5) Þ2 (Equation3)
+O(cid:5)(cid:1)OH(cid:5) O(cid:5)(cid:1)OH(cid:5) O(cid:5)(cid:1)OH(cid:5) O(cid:5)(cid:1)OH(cid:5)
+whereE M r (cid:1)HisthebindingenergybetweenanNPwitharadiusofr(nm)andhydrogenadsorbates,E M N (cid:1)His
+thehydrogenabsorptionenergyforbulkmaterials,E
+M
+Di
+(cid:1)
+ato
+H
+micisthecovalentmetal-hydrogenbonddissoci-
+ationenergy,DGO(cid:5)(cid:1)OH(cid:5)isthefreeenergychangeoftheintermediatestepinOER.sis350kcalmol-1and
+10eVformetal-hydrogenandmetal-oxygen,respectively.Wealsobenchmarkedsomedatawithinabinitio
+DensityFunctionalTheory(DFT)methods.TheM-Hbonddissociationenergy,M-Habsorptionenergy,and
+freeenergychangeofprotondesorptionofPt,Ir,Cu,Ni,Cratatomiclevelandforbulkmaterialsare
+displayedinTableS7.DG atatomiclevelwascarriedwithintheGGA-PBEfunctionalinDMol3.34
+O*-OH*
+Eachatomicstructureisfullyrelaxeduntilforcesactingonatomsarelessthan0.05eV/A˚.
+Therelationshipbetweenstrain,entropy,andradius
+The DFT calculation is carried out within the GGA-PBE functional in Quantum ESPRESSO code.35 The
+calculationsarecarriedoutusingseparablenorm-conservingpseudopotentialsandaplane-wavebasis
+setwiththekineticenergycutoffof40RyandGammak-points.Eachatomicstructureisfullyrelaxeduntil
+forcesactingonatomsarelessthan0.01eV/A˚.
+X .
+ε = ε i N i (Equation4)
+i
+whereNistheconcentrationofeachprincipleelementintheHEA.
+EntropyisessentialforthestudyofHEAs.Theentropyofconfigurationisgivenby:
+Xn
+S conf = (cid:1) R X ilnX i (Equation5)
+i=1
+whereX i = N i =N A,whereN iisthenumberof i atoms,N AisAvogadro’sconstant,Risauniversalgas
+constant.TheS confdependentstrainisuniqueinHEAsmaterials.ForNPswiththesameradiusr,theoverall
+metal distribution in HEAs is analogous to the coloring problem.36 As shown in Figure S11, different
+entropyofHEAsexhibitdistinctstraindistribution.
+12 iScience26,106326,April21,2023
+
+iScience
+ll
+Article OPEN ACCESS
+Thus, unlike pure metals, HEAs can adjust strain through entropy and particle radius, to optimize the
+electrocatalyticperformance.Therelationshipbetweenstrain,entropy,andradiusofHEAcatalystsisre-
+vealedinFigureS12.
+Theeffectofstrainontheelectrocatalyticactivity
+TheelectrocatalyticactivityofthecatalystisdescribedbytheaveragedistanceD(kcal/mol)totheapexin
+thevolcanoplotofHERandOER.Dcanbecalculatedby:
+X(cid:2) (cid:3).
+D = E i r (cid:1)E apex N i (Equation6)
+i
+whereE i risthebindingenergyofprincipleelements,E apexistheapexbindingenergyinthevolcanoplot.
+WhentheabsolutevalueofDis0,theelectrocatalyticactivityachievesoptimum.AccordingtotheEqua-
+tions2,3,4,and6,theeffectofstrainsinHEAsontheelectrocatalyticactivityisdisclosedinFigureS13.
+iScience26,106326,April21,2023 13
+

@@ -1,0 +1,590 @@
+TThhiiss aarrttiiccllee iiss lliicceennsseedd uunnddeerr CCCC--BBYY 44..00
+pubs.acs.org/JACS Article
+Compositional Phase Control in High-Entropy Alloy Electrocatalysts
+Sangmin Jeong, Anthony J. Branco, Porvajja Nagarajan, Connor S. Sullivan, Ji Hyeon Cha,
+Silas W. Bollen, Noah L. Mason, Milinda Abeykoon, Daniel Olds, and Michael B. Ross*
+CiteThis:J.Am.Chem.Soc.2026,148,5146−5154 ReadOnline
+ACCESS *
+Metrics&More ArticleRecommendations sı SupportingInformation
+ABSTRACT: High-entropy alloys (HEAs) provide uniquely
+tunable structural and electronic properties that enable robust
+electrocatalysis.WhilecompositionalmanipulationofHEAsiswell-
+known, systematically controlling the crystalline phase and
+morphology remains a challenge that could provide new avenues
+forcontrollingreactivesitesandphysicalproperties.Here,weshow
+the preferential stabilization of mixed fcc/bcc to fcc phases by
+controlling the Au content in quinary AuPdFeCoNi HEA
+nanoparticles.Thissystematicstructuralandcompositionalcontrol,
+when investigated with an ensemble of electronic, X-ray
+synchrotron, and surface techniques, allows us to identify the
+critical short- (few-Å) and medium- (6−10 Å) range structural
+motifsthatdeliverexceptionalhydrogenevolutionreaction(HER)
+catalysis. Specifically, theseHEAs exhibit bothoutstandingdurability(240 h) andhigh mass activity (50A/mg ) normalizedto
+PGM
+noblemetalcontent,outperformingcommercialPt/C(3.18A/mg ).ThisstructuralcontroloverHEAmorphology,anditsdirect
+PGM
+association with changes in specific metallic oxidation states and pair−pair atomic structural features, provides new means and
+strategies for finely designing robust and sustainable electrocatalysts with a majority nonprecious metal composition.
+■
+INTRODUCTION environmental conditions such as temperature, atomic
+vacancies, and preferential bonding of certain elements. As a
+High-entropy alloys (HEAs) have remarkable stability,
+result, most of the reported studies on HEAs are limited to a
+strength, hardness, and corrosion resistance afforded by their
+entropically stabilized physical crystalline structures.1,2 Re-
+singlestructure,suchasface-centeredcubic(fcc),10,14,17body-
+centered cubic (bcc),18−20 orhexagonal close-packed
+cently, HEAs have attracted attention for tunable electro-
+(hcp).7,21,22 Consequently, achieving systematic control over
+catalytic activity and durability because their electronic
+phase and confirming their structures remains a challenge for
+structures can be finely tuned by an almost infinitely wide
+combinatorialsetof5ormoreelements.3−5Assuch,thelocal analysis due to the compositionaland structural complexity of
+HEAs.Accordingly,asustainedcommitmenttoadvancingour
+structures and electronic properties of highly stable HEA
+understanding of HEA structures and analyzing reaction
+interfaces have the potential to overcome the limitations of
+mechanisms is critical.
+conventional electrocatalysts.6,7 While electronic tunability
+By combining the synchrotron X-ray pair distribution
+over composition has been well-studied, precise control over
+function (PDF) analysis with simulation results based on
+the combined compositional and structural phase is less well
+theoretical models, it is possible to determine the particle size
+developed.Precisecontroloverthephaseallowsonetocontrol
+and interpret complex metal nanostructures in HEAs. This
+active sites in ways that are challenging or impossible in
+approach shows key features such as local lattice distortion,
+conventional enthalpically stabilized alloys.
+atomic structures, and stress-induced atomic-level rearrange-
+Control of crystalline phase and structure in HEAs has
+ments, as previously reported in synchrotron X-ray studies of
+shown potential for electrochemical applications, including HEAs.23−26 Importantly, the PDF is derived from the Fourier
+energy production,8−10 storage,11−13 and fuel cells14−16 using
+transform of the total scattering data, offering a direct
+lower concentrations of platinum-group metals (PGMs) (e.g.,
+platinum (Pt), iridium (Ir), palladium (Pd), and ruthenium
+(Ru)) due to their unique alloy design space and enhanced Received: September23, 2025
+activitysites.However,thedevelopmentofHEAnanoparticles Revised: January5, 2026
+presents several challenges related to their phase stability, Accepted: January9, 2026
+atomic fractions, and uniformity. The complex elemental Published: January22,2026
+compositions also make it difficult to predict the synergistic
+effects during the alloying process, especially under varying
+©2026TheAuthors.Publishedby
+AmericanChemicalSociety https://doi.org/10.1021/jacs.5c16422
+5146 J.Am.Chem.Soc.2026,148,5146−5154
+
+Journal of the American Chemical Society pubs.acs.org/JACS Article
+Figure1.Schematicrepresentationofthetransformationincrystalstructurefrommixedfcc/bcctofccwithincreasingAucontents.(b)STEM
+images accompanied by the corresponding EDS mapping for AuPdFeCoNi HEAs. (c) Synchrotron-based wide-angle X-ray scattering (WAXS)
+spectraof AuPdFeCoNi HEAs. The fitting forHEAs with 9−24 at. % Au (blue) and 31at. % Au (red) is shown. (d) An enlarged view of the
+WAXSprofilesaround the (111)and (110)reflections.
+representation of interatomic distance probabilities within the Herein,weshowthatAu-containingHEAnanoparticlescan
+sample.Itisawell-establishedtechnique,aidedbyhigh-energy have controlled phase behavior from a body-centered cubic
+synchrotron X-ray radiation thousands of times more intense (bcc) to a face-centered cubic (fcc) structure. Specifically,
+than conventional hard X-rays, enabling precise atomic-level AuPdFeCoNi HEA nanoparticles were synthesized using
+thermally assisted wet chemical reduction.36 Structurally,
+characterizationofcomplexsystemsandprovidingkeyinsights
+intoatomicarrangementsandinteratomicdistances.23−28PDF they are characterized using high-resolution electron micros-
+copy and synchrotron-based X-ray total scattering. Electroni-
+analysis has been widely used to characterize energy-related
+cally,cyclicvoltammetryandX-rayphotoelectronspectroscopy
+technologiessuchassodium-ionbatteries29−31andfuelcells.32
+were used to understand their electrochemical oxidation−
+For HEAs, it allows one to analyze complex structures over
+reduction properties and the chemical states of the alloyed
+multiple nanometers, providing a powerful approach to link
+metallic elements. Meanwhile, based on the compositionally
+structural motifs with catalytic performance. By linking controlled phase in HEAs, ranging from mixed fcc/bcc to fcc,
+structural motifs to catalytic performance, this allows one to we observed significant electrochemical hydrogen evolution
+advance catalyst design over multiple length scales, bridging activity with a low overpotential (17 mV vs RHE, @10 mA/
+local coordination environments and long-range order.33−35 cm2) and 15.7 times enhanced mass activity, along with
+5147 https://doi.org/10.1021/jacs.5c16422
+J.Am.Chem.Soc.2026,148,5146−5154
+
+Journal of the American Chemical Society pubs.acs.org/JACS Article
+Figure2.Bcc-to-fccphasemanipulationinAuPdFeCoNiHEAs.HR-TEM,lattice-andatomic-resolvedHR-TEM,fastFouriertransform(FFT),
+andselected-areaelectrondiffraction(SAED)imagesofAuPdFeCoNiHEAbccandfccstructuralmotifs.Theblueboxesindicatebcc-richregions,
+andthe red boxesindicate fccphase regions(scalebar:5 nm).
+exceptionaldurability�morethan18timeshigherthanthatof and atomic arrangements of HEAs can be controlled by
+Pt/C (wt. 10%) in acidic electrolytes. manipulating the relative Au composition. The elemental
+■ composition of the HEAs was quantified by inductively
+RESULTS AND DISCUSSION coupled plasma optical emission spectroscopy (ICP-OES),
+revealing that the HEAs contained Au, Pd, Fe, Co, and Ni in
+AuPdFeCoNiHEAsweresynthesizedbydissolvingAu,Pd,Fe,
+the range of 5−35 at. % (Table S1).
+Co, and Ni metal chloride precursors in a preheated aqueous
+To better understand the nanoscale structure and crystallite
+solution, with the heating mantle set to maintain 230 °C.
+morphology, high-resolution electron microscopy was used.
+Then,poly(N-vinyl-2-pyrrolidone)(PVP,M.W.≈40,000)was
+Dark-field scanning transmission electron microscopy (DF-
+added to the solution. After that, upon formation of a black
+STEM) and energy-dispersive X-ray spectroscopy (EDS)
+solid suspension, HEA nanoparticles were collected by
+elemental mapping images of the synthesized HEAs (Figure
+centrifugation. A detailed synthesis procedure is provided in
+1b, Figures S2 and S3) show a uniform distribution of
+the Supporting Information. This strategy revealed that the
+individual metals of Au, Pd, Fe, Co, and Ni across the
+controlofphasefrommixedfcc/bcctofcccanbecontrolledas
+nanoparticles. High-resolution TEM, fast Fourier transform
+a function of Au content in the HEA (Figure 1a).
+(FFT), and selected-area electron diffraction (SAED) analysis
+The phase control and evolution of the various AuPdFeCo-
+show the prototypical atomic arrangement of the bcc phase
+Ni HEAs were investigated by synchrotron-based wide-angle
+(ABABplanarlatticestackingarrangements)andthefccphase
+X-ray scattering (WAXS). As a first approximation of phase
+content, the (111) [for fcc at 2.67 Å−1] and (110) [for bcc at (ABCABC stacking arrangements)37−41 in the synthesized
+2.80 Å−1] Bragg reflections were analyzed (Figure 1c,d). The AuPdFeCoNi HEAs (Figure 2). Additional EDS spectra with
+initially synthesized AuPdFeCoNi HEAs displayed a mixed linescanprofilesandselected-areaelectrondiffraction(SAED)
+fcc/bcc phase. However, we found that increasing Au content were performed to complement the FFT-based structural
+can stabilize a single fcc phase, the AuPdFeCoNi HEA in the analysis (Figure S3). In all cases, we do not see significant
+fccphase.Thisisconfirmedbythechangeintheintensitiesof segregationoftheintegratedelements;theyappearwellmixed.
+the (111) and (110) reflections. In all cases, the (110) bcc We observe that changing Au content changes the fcc
+reflection decreased with increasing Au content, eventually content; this behavior is dependent on the specific metal
+disappearing (low-Au content, mixed fcc/bcc indicated by concentration, which governs the stabilized phases, as
+blue; high-Au content, fcc indicated by red). These are theoretically predicted previously.42 For example, Fe has
+confirmed in-house using powder X-ray diffraction (XRD) been reported to favor the formation of the bcc-phase alloy
+(Figure S1). Both diffraction techniques revealed identical structures.37Correspondingly,forlowerAucontents(9−24at.
+phasecontrolcharacteristics,suggestingthatthephasecontrol %, blue), both bcc and fcc phases are observed by FFT and
+5148 https://doi.org/10.1021/jacs.5c16422
+J.Am.Chem.Soc.2026,148,5146−5154
+
+Journal of the American Chemical Society pubs.acs.org/JACS Article
+Figure3.LocalstructurecharacterizationandsimulationofAuPdFeCoNiHEAs.(a)SchematicillustrationsofHEAstructureswithbccandfcc,
+(b)theexperimentalPDFandsimulatedPDFdataforHEAswith9at.%Au(R =21%)and31at.%Au(R =12%),(c)comparisonofthe
+wp wp
+observed PDF data for HEAs with different Au contents, (d) enlarged views of the PDF profiles around the peaks at r ∼6.0 and ∼10.0 Å,
+highlightingcertainnearest-neighborpairsandcorrespondingtheoreticalpartialpaircorrelationfunctions,and(e)schematicofthelatticestructure
+inbccandfcc HEAs.
+SAED (Figure 2 and Figure S3). The different rings and spot 5.2 Å) that are indicative of the configurational disorder
+patterns correspond to the (110), (200), (211), and (310) characteristic of HEAs. Notably, the first peak (2.86−2.88 Å)
+planes,whilethespotpatternsindicateamixtureofbccandfcc of the experimental AuPdFeCoNi sample closely matches
+reflectionswithrectangulararraysinHEAwith9−24at.%Au. those of the simulated alloys, indicating a consistent short-
+In contrast, at higher Au content (31 at. %, red), only the fcc rangeatomicarrangementdominatedbyheavyelements,such
+phase is observed, with the diffraction rings corresponding to as Au and Pd.45,46 As anticipated, HEAs with higher Au
+the (111), (200), (220), and (311) planes, and the spot contentswerebetterfit(R decreasedfrom21to12%)byan
+wp
+pattern exhibiting hexagonal symmetry. These results indicate fccmodelcomparedtothelowerAucontentstructures,which
+that the Au content dictates the phase, with higher Au have mixed fcc/bcc phases (Figure 3b, Figures S6−S8).
+concentrations preferentially stabilizing the fcc structure. Medium-range correlations below ∼5 Å are found to be
+Understanding theatomic arrangements in HEA nanostruc- associated with Au−Fe, Au−Co, and Au−Ni interactions
+tures requires multiple characterization approaches to under- (Figure 3c), while features extending beyond 5 Å are
+standtheintegratedstructuralandelectronicproperties.24,26,43 dominated by longer-range Au−Pd correlations. Additionally,
+Synchrotron pair distribution function (PDF) analysis was Pd−Feinteractionsinduceastructuraldistortionaround8.1Å,
+used to systematically characterize the local ordering behavior whereas Ni−Ni and Ni−Pd interactions contribute to
+and chemical bonding motifs in fcc/bcc mixed-phase distortions at 4.56 and 4.9 Å.
+AuPdFeCoNi HEA nanoparticles. Unlike conventional X-ray Figure 3c,d and Figures S5−S6 show that the Au−Au pair
+diffraction tools that primarily assess long-range order, PDF distance decreases from 5.1 to 5.0 Å, while the distances for
+analysis provides both long-range atomic arrangements (over pairs involving Au, such as Au−Pd, Au−Fe, Au−Ni, and Au−
+10 Å) and detailed short-range structural information, Co pairdistances, increasemonotonically from 8.58 to 8.68 Å
+including bond lengths and local defects.26,44 with increasing Au content. These changes suggest local
+Bimetallic, ternary, and quaternary alloy models were structuralrearrangementsandlatticedistortioninducedbythe
+constructed to reveal the pair−pair bond correlations in the compositionalmixingwithintheHEA.Thelargeatomicradius
+putative HEA alloys (Figure 3a, Figures S4−S7). The partial of Au compared to Fe, Ni, and Co contributes to asymmetric
+pair correlation functions for specific local nearest-neighbor expansionincertainlocalenvironments,whilecomplexatomic
+pairs (e.g., Au−Fe, Au−Ni, Au−Co) were analyzed using interactionsandpackingeffectsresultinpair−paircontraction
+PDFgui.44 Several clear structural motifs emerge, including in others.47,48 Specifically, the atomic size mismatch between
+local distortions in the structure near ∼4.5 Å, changes in Auandotherconstituentmetals,alongwithvariationsintheir
+coordinationenvironments,andbroadeningeffects(e.g.,4.75− electronicconfigurationsandbondingcharacteristics,resultsin
+5149 https://doi.org/10.1021/jacs.5c16422
+J.Am.Chem.Soc.2026,148,5146−5154
+
+Journal of the American Chemical Society pubs.acs.org/JACS Article
+Figure4.EvaluationofelectrochemicalHERactivityinphasecontrolledHEAs.(a)HERpolarizationcurvesoftheas-synthesizedcatalysts,(b)
+correspondingTafelslope,(c)comparisonofthereduction−oxidationvaluesofAuPdFeCoNiHEAsinthepotentialrangeof−0.1Vto1.5V,(d)
+long-termstabilityofHEAs(15at.%Au)for100hat10mA/cm2and100mA/cm2,(e)massactivitypolarizationoftheas-synthesizedcatalysts,
+and(f)mass activity at150mV. (g)Comparisonof HERactivities withrecentlyreported HEA catalystsin0.5MHSO electrolyte.61−73
+2 4
+locallatticedistortionsmanifestingascontractionorexpansion content alloys (Figure S9 and Table S2). However, for Co 2p
+ofatomicdistanceswithinthealloy.45,46Additionally,asnoted and Ni 2p, a negative shift in the binding energies was
+above,theEDSanalysisdoesnotsuggestsignificantelemental observed, with Co 2p shifting from 780.6 to 780.5 eV and Ni
+segregation within these systems. Figure 3e illustrates the 3D 2pshiftingfrom854.5to854.0eVwithincreasingAucontent.
+atomic arrangements and characteristic crystallographic planes Specifically,thebroadeningofCo2p,accompaniedbyastrong
+of the bcc and fcc lattices, providing visual insight into the satellite feature, indicates oxidation. As the Au content
+observedlatticedistortionsandthestructuraltransitiontoward increased, Co 2p showed an increased fraction of higher
+a predominant fcc phase with an increasing Au content. oxidation states, reflective of partial reduction of Co while
+To complement the physical structural insights from PDF retaining some Co2+ state.49−53 In contrast, Ni 2p exhibited a
+and HR-TEM, XPS was employed to quantify the decrease in both binding energy and satellite peak intensity,
+composition-dependent electronic changes in the HEA nano- indicative of charge redistribution and a lower oxidation
+particles. The Au 4f, Pd 3d, and 2p orbitals of Fe, Ni, and Co state.54,55 These results demonstrate that the oxidation states
+werecharacterizedbyXPStodeterminethemetallicstateand ofNiandCoaremodifieddifferentlycomparedtothoseofAu
+surface composition in HEA systems (Figure S9). With an and Pd in the HEA system, likely due to their distinct local
+increase in Au incorporation, a positive shift of the Au 4f chemical environments. The observed shifts in the binding
+7/2
+binding energy (BE) from 83.6 to 84 eV was measured. energiesoftheAu4f,Pd3d,Fe2p,Ni2p,andCo2porbitals
+Positive shifts were also observed in the Pd 3d and Fe 2p are consistent with previously reported binary, ternary, and
+spectra, which shifted by 0.2−0.5 eV toward higher binding more complex multimetallic systems and have been attributed
+energiesinthehigh-Aucontentalloyscomparedtothelow-Au to the formation of Au-based HEAs at the atomic level.56−59
+5150 https://doi.org/10.1021/jacs.5c16422
+J.Am.Chem.Soc.2026,148,5146−5154
+
+Journal of the American Chemical Society pubs.acs.org/JACS Article
+With structural and electronic characterization in hand, we 15 at. %) at a potential of −150 mV was 50, which was 15.7
+then sought to understand how the diverse and tunable times higher than that of commercial Pt/C (3.18 A/mg )
+PGM
+structures of AuPdFeCoNi HEAs impact their electrocatalytic (Figure 4e,f). Theseresults indicate that theeconomic cost of
+properties toward the hydrogen evolution reaction (HER). HEAs ($18.36/g) is lower than that of commercial Pt/C
+Historically, Au has not been a focus of HER research due to cathodes($59.30/g,Sigma-AldrichChemicalCo.,Ltd.)(Table
+its high activation energy requirements and low intrinsic S3), suggesting their great potential in electrochemical
+activity in the pure phase.60 However, we have previously hydrogen production applications.
+found Au-containing HEAs have reasonable activity across a Compared with previous studies, our HEAs demonstrate
+range of pHs.36 Therefore, considering the unique structure markedly improved HER activity in an acidic electrolyte
+and catalytic durability of systematically controlled HEAs, we (Figure 4g and Table S4). Notably, they even surpass noble-
+sought to quantify the HER capabilities of these HEA metal-only HEAs such as PdPtRuRhAu,61 PtIrRuRhPd,68 and
+nanoparticles with tunable phases. HER activities of four PdPtRhIrRu73inperformance,despitecontainingalowertotal
+HEA electrocatalysts were measured and compared with noble metal content. This combination of high mass activity,
+commercial Pt/C (10 wt. %). With the exception of the 31 lowoverpotential,andexcellentdurabilitypositionsourHEAs
+at. % Au HEA, AuPdFeCoNi HEAs exhibit HER catalytic as among the most effective HER catalysts to date. These
+activities similar to commercial Pt/C, with lower onset findings highlight the effectiveness of the multimetallic design
+potentials and overpotentials along with remarkable durability strategy, which enables the synergistic enhancement of both
+in extended testing (Figure 4). catalytic activity and long-term stability.
+The electrochemical HER for the phase-controlled HEA By integration of the structural and spectroscopic
+electrocatalysts required varying overpotentials to achieve a information with catalytic data, the critical motifs can be
+current density of 10 mA/cm2. Specifically, the overpotentials understood, and their relative impacts can be distinguished.
+were Au 9 at. % (17 mV), Au 15 at. % (32 mV), Au 24 at. % Synchrotron-PDF modeling shows that the most pronounced
+(78 mV), and Au 31 at. % (160 mV), as shown in Figure 4a. local Au−Pd interactions occur with increasing Au content,
+TafelslopesweredeterminedforAuPdFeCoNiHEAsandPt/ alongside significant atomic rearrangements also being
+C to assess the kinetic properties of the electrocatalysts, with observed, with Pd−Fe and Pd−Ni interactions contributing
+HEA(Au9at.%,32.4mVdec−1),HEA(Au15at.%,33.5mV to longer-range few-Å distortions. Associated changes in the
+dec−1),HEA(Au24at.%,35.9mVdec−1),HEA(Au31at.%, electronic environment are observed by XPS binding energy
+121.2 mV dec−1), and Pt/C (27.3 mV dec−1) reflecting shifts, indicating an internal charge redistribution and altered
+desirablekineticelectrochemicalactivity(Figure4b).Athigher electronic interactions. The observed shift in the first CV
+Au content (31 at. %), the HER activity decreased reduction peak aligns with these electronic modifications,
+substantially, likely due to the poor electrocatalytic properties furtherlinkingthephasemixturetoanimprovedHERactivity.
+of Au hindering proton adsorption.5 Specifically,thehighestHERactivitieswereobservedforAu9
+Building on the Tafel slope analysis, the electrochemical and15at.%,wheremixedfcc/bcctofccstructuresarepresent.
+redox behavior of HEAs with different compositions was This suggests that the mixed structure, observed in the FFT
+investigated by using cyclic voltammetry (CV). Figure 4c (Figure 2) and synchrotron PDF modeling (Figure 3 and
+shows that the CV of the Au-enriched HEAs exhibits a FigureS8),significantlyinfluencestheelectronicproperties,as
+significant shift to a more positive potential in the negative seen in Figures S15 and S16. For Au, Pd, and Fe, increasing
+scan direction. This is attributed to the intrinsic electronic
+activemetaloxidationstateratios,suchasAu1+/Au0,Pd2+/Pd0,
+properties of Au,74 which has a higher reduction potential and Fe3+/Fe2+, correlated with higher overpotentials, which is
+compared to the other constituent metals (Pd,75 Fe,76 Co,77 consistentwiththegeneraltrendthathigheroxidationstatesof
+andNi78).Thisbehaviorindicatesthatthephasecharacterand these metals tend to reduce electrontransfer efficiency forthe
+electronic interactions of other metals in HEA modulate the HER process.77,78 In contrast, for Ni and Co, higher ratios of
+electrochemical activity at the catalyst-substrate interface. satellite Ni/Ni2+ and satellite Co/Co3+ were associated with
+Specifically, as the Au content increases, a monotonic shift in lower overpotentials, indicating that these oxidation states
+the first reduction peak from 1.0 to 1.05 V is observed. This facilitate electron transfer and enhance catalytic activity.79,80
+correlates with a reduced catalytic activity for the HER, as ■
+CONCLUSION
+evidenced by an increase in overpotential from 75 mV to 160
+mV at 10 mA/cm2. Ultimately, this observation confirms the We have shown that manipulating HEA composition and
+presenceofmetallicbindingeffectsonthesurfaceoftheHEAs, crystallinestructuretogethercanhavepronouncedimpactson
+which influence HER activity through the combined effects of catalyticactivitytowardHERsuchthatpreciousmetalcontent
+electronic structure modifications, surface active sites, and can be reduced, while mass activity and durability can be
+atomic-scale interactions unique to the HEA composition. enhanced. Phase control in AuPdFeCoNi HEA nanoparticles
+The durability of HEAs was investigated using chronopo- wasachievedbymanipulatingtheAucontenttocreateaseries
+tentiometry in a 0.5 M H SO electrolyte. The potential of of mixed bcc/fcc phase and pure fcc structures. High-
+2 4
+HEAsremainedstableunderbothconditions(10mA/cm2for resolution electron microscopy and synchrotron X-ray
+10 days and 100 mA/cm2 for 100 h, respectively) (Figure 4d scattering techniques verify the crystalline and local structure
+and Figures S10−S14), whereas Pt/C (10%) showed an characteristics that govern the phase control. Moreover,
+increase in potential from 165 to 240mV (vs RHE, retention AuPdFeCoNiHEAsexhibitexceptionalelectrocatalyticactivity
+68.8%) over 100 h. Postdurability XRD analysis further with remarkable durability for HER in acidic electrolyte,
+confirmed that the structural integrity of the HEAs remained maintaining stable performance for 240 h with low over-
+intact (Figure S13), underscoring their exceptional chemical potentials and high precious metal mass activity. It remains
+and structural robustness under acidic conditions. The mass unclear whatthe primarydriver of thephase preferences from
+activitynormalizedtotheloadingofnoblemetalsforHEA(Au bcc to fcc is. Higher-resolution electron microscopy could aid
+5151 https://doi.org/10.1021/jacs.5c16422
+J.Am.Chem.Soc.2026,148,5146−5154
+
+Journal of the American Chemical Society pubs.acs.org/JACS Article
+in understanding homogeneity structure at the sub-nm level. Notes
+Alongside this, theoretical modeling would aid both in
+The authors declare no competing financial interest.
+understanding the relative energetics of the preferred
+■
+crystallinephasesandinrelatingthemtothecatalyticactivity. ACKNOWLEDGMENTS
+This work shows that the combination of these five elements
+ThisworkrelatestotheDepartmentofNavyawardsN00014-
+forms a robust approach to understanding the structure of
+22-1-2654 and N00014-25-1-2038, issued by the Office of
+HEAs.Thisoffersaviablealternativetoplatinum-groupmetal
+Naval Research. This research used beamline 28-ID-1 of the
+catalysts, extending the application of entropically stabilized
+National Synchrotron Light Source II, a U.S. Department of
+electrocatalysts for electrochemical hydrogen production and
+Energy(DOE)OfficeofScienceUserFacilityoperatedforthe
+other renewable energy conversions. We believe that the
+DOE Office of Science by Brookhaven National Laboratory
+multielement approach of HEAs will inspire further advance-
+under contract no. DE-SC0012704. We are grateful to the
+ments in sustainable energy conversion technologies.
+UMass Lowell Core Research Facilities and the MIT.Nano
+■
+facility for the use of the JEM-2100Plus and PHI VersaProbe
+ASSOCIATED CONTENT
+II.
+* sı Supporting Information
+■
+The Supporting Information is available free of charge at REFERENCES
+https://pubs.acs.org/doi/10.1021/jacs.5c16422.
+(1)Im,S.;Kim,D.;Surendran,S.;Choi,J.;Moon,D.J.;Kim,J.Y.;
+Experimentalandcharacterizationdetails;XRD,STEM- Lee,H.;Nam,D.H.;Sim,U.HighEntropyAlloy:FromTheoretical
+EDS, STEM-SAED, Synchrotron-PDF, PDFgui simu- Evaluation to Electrocatalytic Activity of Hydrogen Evolution
+Reaction. Curr. Opin. Electrochem.2023, 39, 101293.
+lation models of the local structure in bimetallic and
+(2) Cantor, B.; Chang, I. T. H.; Knight, P.; Vincent, A. J. B.
+AuPdFeCoNi HEAs, ICP-OES, and XPS analyses,
+MicrostructuralDevelopmentinEquiatomicMulticomponentAlloys.
+electrochemical measurements, LSV analysis, and
+Mater. Sci.Eng., A2004, 375−377,213−218.
+chronopotentiometry analysis (PDF)
+(3)Fu,M.;Ma,X.;Zhao,K.;Li,X.;Su,D.High-EntropyMaterials
+■ forEnergy-Related Applications.iScience2021, 24(3), 102177.
+AUTHOR INFORMATION (4)Xin,Y.;Li, S.;Qian,Y.; Zhu,W.;Yuan, H.;Jiang, P.;Guo,R.;
+Wang, L. High-Entropy Alloys as a Platform for Catalysis: Progress,
+Corresponding Author Challenges, and Opportunities. ACS Catal. 2020, 10 (19), 11280−
+Michael B. Ross − Department of Chemistry, University of 11306.
+Massachusetts Lowell, Lowell, Massachusetts 01854, United (5)Feng,G.;Ning,F.;Song,J.;Shang,H.;Zhang,K.;Ding,Z.;Gao,
+P.; Chu, W.; Xia, D. Sub-2 Nm Ultrasmall High-Entropy Alloy
+States; orcid.org/0000-0002-2511-0594;
+Nanoparticles for Extremely Superior Electrocatalytic Hydrogen
+Email: michael_ross@uml.edu
+Evolution. J. Am. Chem. Soc.2021, 143 (41),17117−17127.
+Authors (6)Ehsan,M.A.;Khan,A.;Hakeem,A.S.BinaryCoNiandTernary
+FeCoNi Alloy Thin Films as High-Performance and Stable Electro-
+Sangmin Jeong − Department of Chemistry, University of catalysts for Oxygen Evolution Reaction. ACS Appl. Energy Mater.
+Massachusetts Lowell, Lowell, Massachusetts 01854, United 2023, 6 (18),9556−9567.
+States; orcid.org/0000-0002-8628-2920 (7) Gao, M. C.; Zhang, B.; Guo, S. M.; Qiao, J. W.; Hawk, J. A.
+Anthony J. Branco − Department of Chemistry, University of High-Entropy Alloys in Hexagonal Close-Packed Structure. Metall.
+Massachusetts Lowell, Lowell, Massachusetts 01854, United Mater. Trans.A2016, 47(7),3322−3332.
+States (8) Shen, J.; Hu, Z.; Chen, K.; Chen, C.; Zhu, Y.; Li, C. Platinum
+PorvajjaNagarajan−DepartmentofChemistry,Universityof Based High Entropy Alloy Oxygen Reduction Electrocatalysts for
+ProtonExchangeMembraneFuelCells.Mater.TodayNano2023,21,
+Massachusetts Lowell, Lowell, Massachusetts 01854, United
+100282.
+States
+(9)Jiang,S.;Zhu,L.;Yang,Z.;Wang,Y.Self-SupportedHierarchical
+ConnorS.Sullivan−DepartmentofChemistry,Universityof
+Porous FeNiCo-Based Amorphous Alloys as High-Efficiency Bifunc-
+Massachusetts Lowell, Lowell, Massachusetts 01854, United tionalElectrocatalyststowardOverallWaterSplitting.Int.J.Hydrogen
+States Energy 2021, 46(74),36731−36741.
+Ji Hyeon Cha − Department of Chemistry, University of (10)Wu,D.;Kusada,K.;Yamamoto,T.;Toriyama,T.;Matsumura,
+Massachusetts Lowell, Lowell, Massachusetts 01854, United S.; Kawaguchi, S.; Kubota, Y.; Kitagawa, H. Platinum-Group-Metal
+States High-Entropy-AlloyNanoparticles.J.Am.Chem.Soc.2020,142(32),
+Silas W. Bollen − Department of Chemistry, University of 13833−13838.
+(11)Qu,J.;Buckingham,M.A.;Lewis,D.J.High-EntropyMaterials
+Massachusetts Lowell, Lowell, Massachusetts 01854, United
+for Electrochemical Energy Storage Devices. Energy Adv. 2023, 2
+States
+(10),1565−1590.
+Noah L. Mason − Department of Chemistry, University of
+(12) Ouyang, B.; Zeng, Y. The Rise of High-Entropy Battery
+Massachusetts Lowell, Lowell, Massachusetts 01854, United
+Materials. Nat. Commun.2024, 15(1),973.
+States (13) Jiang, Y.; Jiang, W. High Entropy Alloys: Emerging Materials
+Milinda Abeykoon − National Synchrotron Light Source II, forAdvancedHydrogenStorage.EnergyTechnol.2024,12,2401061.
+Brookhaven National Laboratory, Upton, New York 11973, (14) Zhao, X.; Cheng, H.; Chen, X.; Zhang, Q.; Li, C.; Xie, J.;
+United States Marinkovic, N.; Ma, L.; Zheng, J. C.; Sasaki, K. Multiple Metal-
+Daniel Olds − National Synchrotron Light Source II, NitrogenBondsSynergisticallyBoostingtheActivityandDurabilityof
+Brookhaven National Laboratory, Upton, New York 11973, High-EntropyAlloyElectrocatalysts.J.Am.Chem.Soc.2024,146(5),
+3010−3022.
+United States
+(15) Chen, T.; Qiu, C.; Zhang, X.; Wang, H.; Song, J.; Zhang, K.;
+Complete contact information is available at: Yang, T.; Zuo, Y.; Yang, Y.; Gao, C.; Xiao, W.; Jiang, Z.; Wang, Y.;
+https://pubs.acs.org/10.1021/jacs.5c16422 Xiang,Y.;Xia,D.AnUltrasmallOrderedHigh-EntropyIntermetallic
+5152 https://doi.org/10.1021/jacs.5c16422
+J.Am.Chem.Soc.2026,148,5146−5154
+
+Journal of the American Chemical Society pubs.acs.org/JACS Article
+withMultipleActiveSitesfortheOxygenReductionReaction.J.Am. and Solid-State NMR. J. Am. Chem. Soc. 2021, 143 (35), 14274−
+Chem. Soc.2024, 146(1), 1174−1184. 14286.
+(16)Zhan,C.;Xu,Y.;Bu,L.;Zhu,H.;Feng,Y.;Yang,T.;Zhang,Y.; (31) Jacques, S. D. M.; Di Michiel, M.; Kimber, S. A. J.; Yang, X.;
+Yang, Z.; Huang, B.; Shao, Q.; Huang, X. Subnanometer High- Cernik,R.J.;Beale,A.M.;Billinge,S.J.L.PairDistributionFunction
+Entropy Alloy Nanowires Enable Remarkable Hydrogen Oxidation Computed Tomography.Nat. Commun.2013, 4, 1−7.
+Catalysis.Nat. Commun.2021, 12(1),1−8. (32) Campos-Roldán, C. A.; Gasmi, A.; Ennaji, M.; Stodel, M.;
+(17) Wu, D.; Kusada, K.; Nanba, Y.; Koyama, M.; Yamamoto, T.; Martens, I.; Filhol, J. S.; Blanchard, P. Y.; Cavaliere, S.; Jones, D.;
+Toriyama, T.; Matsumura, S.; Seo, O.; Gueye, I.; Kim, J.; Rosantha Drnec, J.; Chattot, R. Metal-Oxide Phase Transition of Platinum
+Kumara, L. S.; Sakata, O.; Kawaguchi, S.; Kubota, Y.; Kitagawa, H. Nanocatalyst below Fuel Cell Open-Circuit Voltage. Nat. Commun.
+Noble-Metal High-Entropy-Alloy Nanoparticles: Atomic-Level In- 2025, 16(1), 936.
+sightinto the Electronic Structure. J. Am. Chem. Soc. 2022, 144 (8), (33) Guo, W.; Dmowski, W.; Noh, J. Y.; Rack, P.; Liaw, P. K.;
+3365−3369. Egami,T.LocalAtomicStructureofaHigh-EntropyAlloy:AnX-Ray
+(18) Zhang, Q.; Huang, R.; Zhang, X.; Cao, T.; Xue, Y.; Li, X. andNeutronScatteringStudy.Metall.Mater.Trans.A2013, 44(5),
+Deformation Mechanisms and Remarkable Strain Hardening in 1994−1997.
+Single-Crystalline High-Entropy-Alloy Micropillars/Nanopillars. (34) Billinge, S. J. L. Nanoscale Structural Order from the Atomic
+NanoLett.2021, 21(8), 3671−3679. Pair Distribution Function (PDF): There’s Plenty of Room in the
+(19) Pan, Y.; Fu, T.; Duan, M.; Li, C.; Hu, H.; Peng, X. Tension- Middle. J. SolidState Chem. 2008, 181(7), 1695−1700.
+CompressionAsymmetryofBCCNbMoTaWinHighEntropyAlloy (35)Billinge,S.J.L.TheRiseoftheX-RayAtomicPairDistribution
+Nanowires. ACSAppl. NanoMater.2024, 7 (7),8121−8129. FunctionMethod:ASeriesofFortunateEvents.Philos.Trans.R.Soc.,
+(20)Ek,G.;Nygård,M.M.;Pavan,A.F.;Montero,J.;Henry,P.F.; A2019, 377 (2147),20180413.
+Sørby, M. H.; Witman, M.; Stavila, V.; Zlotea, C.; Hauback, B. C.; (36)Jeong,S.;Branco,A.J.;Bollen,S.W.;Sullivan,C.S.;Ross,M.
+B.Universal PHElectrocatalyticHydrogenEvolutionwithAu-Based
+Sahlberg,M.ElucidatingtheEffectsoftheCompositiononHydrogen
+High EntropyAlloys.Nanoscale 2024, 16,11530−11537.
+Sorption in TiVZrNbHf-Based High-Entropy Alloys. Inorg. Biochem.
+2021, 60(2),1124−1132. (37)Karewar,S.;Sietsma,J.;Santofimia,M.J.EffectofPre-Existing
+DefectsintheParentFccPhaseonAtomisticMechanismsduringthe
+(21)Zhu,W.;Gao,X.;Yao,Y.;Hu,S.;Li,Z.;Teng,Y.;Wang,H.;
+MartensiticTransformationinPureFe:AMolecularDynamicsStudy.
+Gong,H.;Chen,Z.;Yang,Y.NanostructuredHighEntropyAlloysas
+Acta Mater. 2018, 142,71−81.
+Structural and Functional Materials. ACS Nano 2024, 18 (20),
+(38)Yang,Z.;Fu,B.;Ning,Z.;Bai,X.;Yang,H.;Chen,Q.;Luo,D.;
+12672−12706.
+Qiu, N.; Wang, Y. Amorphization Activated by Semicoherent
+(22) Huang, Z.; Li, T.; Li, B.; Dong, Q.; Smith, J.; Li, S.; Xu, L.;
+Interfaces of FCC/BCC HEA Multilayers during Deformation.
+Wang, G.; Chi, M.; Hu, L. Tailoring Local Chemical Ordering via
+Mater. Des.2023, 225,111469.
+Elemental Tuning in High-Entropy Alloys. J. Am. Chem. Soc. 2024,
+(39) Jiang, Y.; Duchamp, M.; Ang, S. J.; Yan, H.; Tan, T. L.;
+146(3), 2167−2173.
+Mirsaidov,U.DynamicsoftheFcc-to-BccPhaseTransitioninSingle-
+(23)Tong,Y.;Jin,K.;Bei,H.;Ko,J.Y.P.;Pagan,D.C.;Zhang,Y.;
+Crystalline PdCu Alloy Nanoparticles. Nat. Commun. 2023, 14 (1),
+Zhang, F. X. Local Lattice Distortion in NiCoCr, FeCoNiCr and
+1−8.
+FeCoNiCrMn Concentrated Alloys Investigated by Synchrotron X-
+(40)Zhang,Q.;Kusada,K.;Wu,D.;Yamamoto,T.;Toriyama,T.;
+Ray Diffraction. Mater.Des.2018, 155,1−7.
+Matsumura, S.; Kawaguchi, S.; Kubota, Y.; Kitagawa, H. Selective
+(24)Gou,S.;Gao,M.;Shi,Y.;Li,S.;Fang,Y.;Chen,X.;Chen,H.;
+ControlofFccandHcpCrystalStructuresinAu−RuSolid-Solution
+Yin,W.;Liu,J.;Lei,Z.;Wang,H.AdditiveManufacturingofDuctile
+AlloyNanoparticles. Nat.Commun. 2018,9 (1),510.
+Refractory High-Entropy Alloys via Phase Engineering. Acta Mater.
+(41)Cayron,C.AngularDistortiveMatricesofPhaseTransitionsin
+2023, 248, 118781.
+the Fcc−Bcc−Hcp System.Acta Mater.2016, 111, 417−441.
+(25) Diao,H.;Santodonato,L. J.;Tang,Z.; Egami,T.; Liaw,P. K.
+(42) Magomedov, M. N. Changes in the Structure of the Au−Fe
+Local Structures of High-Entropy Alloys (HEAs) on Atomic Scales:
+AlloywithaChangeintheConcentrationandwithaDecreaseofthe
+AnOverview. Jom2015, 67(10),2321−2325.
+NanocrystalSize. Solid StateSci. 2021, 120,106721.
+(26)Tang,P.;Tan,W.;Deng,G.;Zhang,Y.;Xu,S.;Wang,Q.;Li, (43) Correâ , L. M.; Moreira, M.; Rodrigues, V.; Ugarte, D.
+G.; Zhu, J.; Dou, Q.; Yan, X. Understanding Pseudocapacitance
+Quantitative Structural Analysis of AuAg Nanoparticles Using a Pair
+Mechanisms by Synchrotron X-ray Analytical Techniques. Energy
+Distribution Function Based on Precession Electron Diffraction:
+Environ.Mater. 2023, 6(4), No. e12619.
+Implications for Catalysis. ACS Appl. Nano Mater. 2021, 4 (11),
+(27)Dopilka,A.;Childs,A.;Bobev,S.;Chan,C.K.Understanding 12541−12551.
+the Amorphous Lithiation Pathway of the Type i Ba8Ge43Clathrate
+(44) Farrow, C. L.; Juhas, P.; Liu, J. W.; Bryndin, D.; Boin, E. S.;
+with Synchrotron X-Ray Characterization. Chem. Mater. 2020, 32
+Bloch,J.;Proffen,T.;Billinge,S.J.L.PDFfit2andPDFgui:Computer
+(21),9444−9457.
+Programs for Studying Nanostructure in Crystals. J. Phys.: Condens.
+(28)Pittkowski,R.K.;Punke,S.;Anker,A.S.;Bornet,A.;Magnard,
+Matter 2007, 19(33),335219.
+N. P. L.; Schlegel, N.; Graversen, L. G.; Quinson, J.; Dworzak, A.; (45)Zhu,X.;Guo,Q.;Sun,Y.;Chen,S.;Wang,J.Q.;Wu,M.;Fu,
+Oezaslan,M.;Kirkensgaard,J.J.K.;Mirolo,M.;Drnec,J.;Arenz,M.; W.; Tang, Y.; Duan, X.; Chen, D.; Wan, Y. Optimising Surface d
+Jensen, K. M. Ø. Monitoring the Structural Changes in Iridium ChargeofAuPdNanoalloyCatalystsforEnhancedCatalyticActivity.
+Nanoparticles during Oxygen Evolution Electrocatalysis with Nat. Commun.2019, 10(1), 1−11.
+Operando X-Ray Total Scattering. J. Am. Chem. Soc. 2024, 146 (46) Ehara, M.; Priyakumar, U. D. Gold-Palladium Nanocluster
+(40),27517−27527. Catalysts for Homocoupling: Electronic Structure and Interface
+(29) Van Dinter, J.; Synnatschke, K.; Engesser, T. A.; Indris, S.; Dynamics. Chem. Rec. 2019, 19(5),947−959.
+Wolff, N.; Gronenberg, O.; Etter, M.; Cibin, G.; Kienle, L.; Backes, (47)Ching,W.Y.;San,S.;Brechtl,J.;Sakidja,R.;Zhang,M.;Liaw,
+C.; Bensch, W. What Happens Structurally and Chemically during P.K.FundamentalElectronicStructureandMultiatomicBondingin
+Sodium Uptake and Release by Ni2P2S6: A Combined X-Ray 13 Biocompatible High-Entropy Alloys. Npj Comput. Mater. 2020, 6
+Diffraction, X-Ray Absorption, Pair Distribution Function and MAS (1), 1−10.
+NMRAnalysis. J.Mater. Chem. A2020, 8(42),22401−22415. (48) Tandoc, C.; Hu, Y. J.; Qi, L.; Liaw, P. K. Mining of Lattice
+(30) Stratford, J. M.; Kleppe, A. K.; Keeble, D. S.; Chater, P. A.; Distortion, Strength, and Intrinsic Ductility of Refractory High
+Meysami,S.S.;Wright,C.J.;Barker,J.;Titirici,M.M.;Allan,P.K.; Entropy Alloys.Npj Comput.Mater. 2023, 9(1), 1−12.
+Grey,C.P.CorrelatingLocalStructureandSodiumStorageinHard (49)Huang,J.;Borca,C.N.;Huthwelker,T.;Yüzbasi,N.S.;Baster,
+Carbon Anodes: Insights from Pair Distribution Function Analysis D.;ElKazzi,M.;Schneider,C.W.;Schmidt,T.J.;Fabbri,E.Surface
+5153 https://doi.org/10.1021/jacs.5c16422
+J.Am.Chem.Soc.2026,148,5146−5154
+
+Journal of the American Chemical Society pubs.acs.org/JACS Article
+Oxidation/SpinStateDeterminesOxygenEvolutionReactionActivity (66)Cui,X.;Liu,Y.;Wang,X.;Tian,X.;Wang,Y.;Zhang,G.;Liu,
+of Cobalt-Based Catalysts in Acidic Environment. Nat. Commun. T.;Ding,J.;Hu,W.;Chen,Y.RapidHigh-TemperatureLiquidShock
+2024, 15(1),3067. Synthesis of High-Entropy Alloys for Hydrogen Evolution Reaction.
+(50) Hagelin-Weaver, H. A. E.; Hoflund, G. B.; Minahan, D. M.; ACS Nano2024, 18(4), 2948−2957.
+Salaita,G.N.ElectronEnergyLossSpectroscopicInvestigationofCo (67)Kwon,I.S.;Lee,S.J.;Kim,J.Y.;Kwak,I.H.;Zewdie,G.M.;
+Metal,CoO,andCo3O4beforeandafterAr+Bombardment.Appl. Yoo,S. J.; Kim,J.G.; Lee, K.S.; Park,J.; Kang, H.S.Composition-
+Surf.Sci. 2004, 235(4), 420−448. Tuned (MoWV)Se2 Ternary Alloy Nanosheets as Excellent Hydro-
+(51)Mcintyre,N.S.;Cook,M.G.X-RayPhotoelectronStudieson gen Evolution Reaction Electrocatalysts. ACS Nano 2023, 17 (3),
+Some Oxides and Hydroxides of Cobalt, Nickel, and Copper. Anal. 2968−2979.
+Chem. 1975,47(13),2208−2213. (68)Zhao,H.;Liu,M.;Wang,Q.;Li,Y.Z.;Chen,Y.;Zhu,Y.;Yue,
+(52)Tian,L.;Zhu,J.L.;Chen,L.;An,B.;Liu,Q.Q.;Huang,K.L. Z.; Li, J.; Wang, G.; Zou, Z.; Cheng, Q.; Yang, H. Strong
+Synthesis and Characterization of α-Cobalt Hydroxide Nanobelts. J. Transboundary Electron Transfer of High-Entropy Quantum-Dots
+Nanopart.Res.2011, 13(8), 3483−3488. Driving Rapid Hydrogen Evolution Kinetics. Energy Environ. Sci.
+(53)Laïk,B.;Richet,M.;Emery,N.;Bach,S.;Perrier̀e,L.;Cotrebil, 2024, 17(18),6594−6605.
+Y.; Russier, V.; Guillot, I.; Dubot, P. XPS Investigation of Co−Ni (69)Wang,Q.;Xie,J.;Qin,Y.;Kong,Y.;Zhou,S.;Li,Q.;Sun,Q.;
+Chen,B.;Xie,P.;Wei,Z.;Zhao,S.RecentProgressinHigh-Entropy
+Oxidized Compounds Surface Using Peak-On-Satellite Ratio.
+Alloy Electrocatalysts for Hydrogen Evolution Reaction. Adv. Mater.
+ApplicationtoCo20Ni80PassiveLayerStructureandComposition.
+Interfaces 2024,11, 2301020.
+ACSOmega 2024, 9 (39),40707−40722.
+(70)Yang,Y.;Jia,Z.;Wang,Q.;Liu,Y.;Sun,L.;Sun,B.;Kuang,J.;
+(54) Shalom, B. O.; Andrés, M. A.; Head, A. R.; Epstein, B. Z.;
+Dai,S.;He,J.;Liu,S.;Duan,L.;Tang,H.;Zhang,L.C.;Kruzic,J.J.;
+Brontvein, O.; Pérez-Dieste, V.; Villar-Garcia, I. J.; Walton, A. S.;
+Lu, J.; Shen, B.VacancyInduced MicrostraininHigh-EntropyAlloy
+Polus, K.; Weatherup, R. S.; et al. Chemical State of Nickel
+Film for Sustainable Hydrogen Production under Universal PH
+Nanoparticles during the Oxygen Evolution Reaction in a
+Conditions.Energy Environ. Sci. 2024, 17(16),5854−5865.
+Carbonate-Bicarbonate Buffer Solution. Cell Rep. Phys. Sci. 2024, 5
+(71)Li,Y.;Peng,C.K.;Sun,Y.;Sui,L.D.N.;Chang,Y.C.;Chen,
+(9),102165.
+S. Y.; Zhou, Y.; Lin, Y. G.; Lee, J. M. Operando Elucidation of
+(55)Bagus,P.S.;Nelin,C.J.;Brundle,C.R.;Crist,B.V.;Ilton,E.
+HydrogenProductionMechanismsonSub-NanometricHigh-Entropy
+S.;Lahiri,N.;Rosso,K.M.MainandSatelliteFeaturesintheNi2p
+Metallenes. Nat.Commun. 2024,15(1), 10222.
+XPS ofNiO.Inorg. chem. 2022, 61(45),18077−18094.
+(72) Wu, C.-Y.; Hsiao, Y.-C.; Chen, Y.; Lin, K.-H.; Lee, T.-J.; Chi,
+(56)Yamanaka,K.;Shiratori,H.;Mori,M.;Omura,K.;Fujieda,T.;
+C.-C.; Lin, J.-T.; Hsu, L.-C.; Tsai, H.-J.; Gao, J.-Q.; Chang, C.-W.;
+Kuwabara, K.; Chiba, A. Corrosion Mechanism of an Equimolar
+Kao, I.-T.; Wu, C.-Y.;Lu, Y.-R.; Pao, C.-W.; Hung, S.-F.; Lu, M.-Y.;
+AlCoCrFeNi High-Entropy Alloy Additively Manufactured by
+Zhou, S.; Yang, T.-H. A Catalyst Family of High-Entropy Alloy
+ElectronBeam Melting.npj Mater.Degrad. 2020, 4 (1),1−12. Atomic Layers with Square Atomic Arrangements Comprising Iron-
+(57)Wu,P.;Liu,H.;Cao,Y.;Xi,S.;Li,Z.;He,Z.;Song,L.;Xu,J.; and Platinum-GroupMetals. Sci. Adv.2024, 10,3693.
+Bai,P.;Zhao,L.;Mintova,S.;Yan,Z.MesostructuredCellularFoam (73) Liu, Y.-H.; Hsieh, C.-J.; Hsu, L.-C.; Lin, K.-H.; Hsiao, Y.-C.;
+Silica Supported Au−Pt Nanoalloy: Enrichment of d-State Electrons Chi, C.-C.; Lin, J.-T.; Chang, C.-W.; Lin, S.-C.; Wu, C.-Y.; et al.
+for Promoting the Catalytic Synergy. Microporous Mesoporous Mater. Toward Controllable and Predictable Synthesis of High-Entropy
+2021, 316, 110982. AlloyNanocrystals. Sci.Adv. 2023,9, No. eadf9931.
+(58) Pramanik, S.; Chattopadhyay, S.; Bysakh, S.; Mukhopadhyay, (74) Li, Y.; Cox, J. T.; Zhang, B. Electrochemical Responses and
+A.; De, G. Alloy Formation and Composition Partitioning of Electrocatalysis at Single Au Nanoparticles. J. Am. Chem. Soc. 2010,
+Plasmonic-Magnetic Au−Fe Nanoparticles Embedded in Sol-Gel 132 (9),3047−3054.
+SiO2Films. J. AlloysCompd.2021, 873, 159793. (75) Deng, X.; Lao, M.; Huang, J.; Wang, P.; Yin, S.; Liang, Y.
+(59)Lay,B.;Sabri,Y.M.;Ippolito,S.J.;Bhargava,S.K.Galvanically Effects of Reduction Methods on the Performance of Shewanella
+ReplacedAu-PdNanostructures:StudyofTheirEnhancedElemental Oneidensis MR-1 Palladium/Carbon Catalyst forOxygen Reduction
+MercurySorptionCapacityoverGold.Phys.Chem.Chem.Phys.2014, Reaction. ACS Omega 2023, 8(50),47616−47622.
+16(36),19522−19529. (76)Chen,X.;Liu,J.;Yuan,T.;Zhang,Z.;Song,C.;Yang,S.;Gao,
+(60) She, Z. W.; Kibsgaard, J.; Dickens, C. F.; Chorkendorff, I.; X.;Wang,N.;Cui,L.RecentAdvancesinEarth-AbundantFirst-Row
+Nørskov,J.K.;Jaramillo,T.F.CombiningTheoryandExperimentin Transition Metal (Fe, Co and Ni)-Based Electrocatalysts for the
+Electrocatalysis: Insights into Materials Design. Science 2017, 355 Oxygen EvolutionReaction. Energy Mater.2022, 2 (4),28.
+(6321),No. eaad4998. (77)Cao,D.;Xu,H.;Li,H.;Feng,C.;Zeng,J.;Cheng,D.Volcano-
+(61)Wang,Q.;Qin,Y.;Xie,J.;Kong,Y.;Sun,Q.;Wei,Z.;Zhao,S. TypeRelationshipbetweenOxidationStatesandCatalyticActivityof
+Size-Controllable High-Entropy Alloys Toward Stable Hydrogen Single-Atom Catalysts towards Hydrogen Evolution. Nat. Commun.
+ProductionatIndustrial-ScaleCurrentDensities.Adv.Mater.2025,37 2022, 13(1), 5843.
+(10),202420173. (78) Li, Z.; Zhang, Y.; Yang, Q.; Wu, J.; Ren, Z.; Si, F.; Zhao, J.;
+(62)Fu,X.;Zhang,J.;Zhan,S.;Xia,F.;Wang,C.;Ma,D.;Yue,Q.; Chen,J.HydrogenCo-ProductionviaNickel-GoldElectrocatalysisof
+Wu, J.; Kang, Y. High-Entropy Alloy Nanosheets for Fine-Tuning Water andFormaldehyde.iScience 2023, 26(10),107994.
+HydrogenEvolution.ACS Catal.2022, 12(19),11955−11959. (79)Xie,S.;Yan,Y.;Lai,S.;He,J.;Liu,Z.;Gao,B.;Javanbakht,M.;
+(63)Jin,Z.;Lv,J.;Jia,H.;Liu,W.;Li,H.;Chen,Z.;Lin,X.;Xie,G.;
+Peng,X.;Chu,P.K.Ni3±EnrichedNickel-BasedElectrocatalystsfor
+SuperiorElectrocatalyticWaterOxidation.Appl.Surf.Sci.2022,605,
+Liu,X.;Sun,S.;Qiu,H.J.NanoporousAl-Ni-Co-Ir-MoHigh-Entropy
+154743.
+Alloy for Record-High Water Splitting Activity in Acidic Environ-
+(80) Vij, V.; Sultan, S.; Harzandi, A. M.; Meena, A.; Tiwari, J. N.;
+ments.Small2019, 15(47),201904180.
+Lee, W. G.; Yoon, T.; Kim, K. S. Nickel-Based Electrocatalysts for
+(64)Jia,Z.;Nomoto,K.;Wang,Q.;Kong,C.;Sun,L.;Zhang,L.C.;
+Energy-Related Applications: Oxygen Reduction, Oxygen Evolution,
+Liang, S. X.; Lu, J.; Kruzic, J. J. A Self-Supported High-Entropy
+andHydrogenEvolutionReactions.ACSCatal.2017,7(10),7196−
+Metallic Glass with a Nanosponge Architecture for Efficient
+7225.
+Hydrogen Evolution under Alkaline and Acidic Conditions. Adv.
+Funct.Mater.2021, 31(38),202101586.
+(65)Chen,Z.W.;Li,J.;Ou,P.;Huang,J.E.;Wen,Z.;Chen,L.X.;
+Yao, X.; Cai, G. M.; Yang, C. C.; Singh, C. V.; Jiang, Q. Unusual
+Sabatier Principle on High Entropy Alloy Catalysts for Hydrogen
+EvolutionReactions. Nat.Commun.2024, 15(1), 359.
+5154 https://doi.org/10.1021/jacs.5c16422
+J.Am.Chem.Soc.2026,148,5146−5154
+

@@ -1,0 +1,635 @@
+Article
+Boosted Hydrogen Evolution Catalysis Using Biomass-Derived
+Mesoporous Carbon Nanosponges
+SankarSekar1,2 ,SuthaSadhasivam3,AtsayaShanmugam1,SaravananSekar4,YoungminLee1,2,*
+andSejoonLee1,2,*
+1 DivisionofSystemSemiconductor,DonggukUniversity,Seoul04620,RepublicofKorea;
+sanssekar@dongguk.edu(S.S.);atsyshanmu@dgu.ac.kr(A.S.)
+2 Quantum-FunctionalSemiconductorResearchCenter,DonggukUniversity,Seoul04620,RepublicofKorea
+3 DepartmentofChemistry,CMSCollegeofEngineering,Ernapuram,Namakkal637003,TamilNadu,India;
+suthaasridhar@gmail.com
+4 DepartmentofMechanicalEngineering,K.RamakrishnanCollegeofTechnology,
+Trichy621112,TamilNadu,India;nanosaran007@gmail.com
+* Correspondence:ymlee@dongguk.edu(Y.L.);sejoon@dongguk.edu(S.L.)
+Abstract
+Carbon-basedmetal-freecatalysts,particularlythosesuchasbiomass-derivedmesoporous
+activatedcarbon(AC)nanostructures,holdgreatpromisesforcost-effectiveandsustain-
+able electrocatalysis for enhancing hydrogen evolution reaction (HER) performance in
+greenenergytechnology. Neemandginkgoleavesarerichinbioactivecompoundsand
+self-dopingheteroatomswithnaturallyporousstructuresandactasalow-cost,sustain-
+ablebiomassprecursorsforhigh-performanceHERcatalysts. Inthisstudy,mesoporous
+AC nanoflakes and nanosponges were synthesized using biomass precursors of neem
+andginkgoleavesthroughaKOHactivationprocess. Notably,ACnanospongesderived
+from ginkgo leaves exhibited outstanding physicochemical characteristics, including a
+sponge-likeporousmorphologywithalargespecificsurfaceareaof1025m2/g. Forelec-
+trochemicalevaluationin0.5MH SO ,theG-ACsamplerevealedsuperiorelectrocatalytic
+2 4
+HER performance, with a remarkably low overpotential of 26 mV at −10 mA/cm2, a
+smallTafelslopeof24mV/dec,andlong-termdurabilityover30h. Theseresultsdepict
+AcademicEditor:JingYu biomass-derived mesoporous AC nanosponges to hold substantial potential for highly
+Received:20July2025 efficienthydrogenproduction,contributingsignificantlytotheadvancementofeco-friendly
+Revised:26August2025 energysolutions.
+Accepted:28August2025
+Published:1September2025 Keywords: biomass; neem leaves; ginkgo leaves; activated carbon; electrocatalysts;
+Citation: Sekar,S.;Sadhasivam,S.; hydrogenevolutionreaction
+Shanmugam,A.;Sekar,S.;Lee,Y.;Lee,
+S.BoostedHydrogenEvolution
+CatalysisUsingBiomass-Derived
+MesoporousCarbonNanosponges. 1. Introduction
+Int.J.Mol.Sci.2025,26,8502.
+https://doi.org/10.3390/ Theurgentneedforrenewableenergysourcesiscriticalinaddressingtheescalating
+ijms26178502 energycrisisandassociatedenvironmentalchallenges[1–8]. Greenhydrogenhasattracted
+considerableattentionasapromisingalternativeenergysourceduetoitsenvironmental
+Copyright:©2025bytheauthors.
+LicenseeMDPI,Basel,Switzerland. sustainability, high energy density, and zero carbon emissions [9–11]. Among various
+Thisarticleisanopenaccessarticle hydrogenproductionmethods,electrocatalyticwatersplittingisregardedasthemosteffec-
+distributedunderthetermsand tive,environmentallybenign,andscalableapproachforgeneratinggreenhydrogenviathe
+conditionsoftheCreativeCommons
+hydrogenevolutionreaction(HER)[12–15]. Asakeyhalf-reactioninthewaterelectrolysis
+Attribution(CCBY)license
+process,HERoffersapracticalandcost-effectiverouteforlarge-scalehydrogenproduction,
+(https://creativecommons.org/
+makingitaviablesolutiontobothenergydemandsandenvironmentalconcerns[16–18].
+licenses/by/4.0/).
+Int.J.Mol.Sci.2025,26,8502 https://doi.org/10.3390/ijms26178502
+
+Int.J.Mol.Sci.2025,26,8502 2of14
+However,thesluggishreactionkineticsandsubstantialoverpotentialassociatedwithHER
+substantiallylimitthecatalyticefficiencyofwaterelectrolysissystems[19–22]. Although
+platinum(Pt)-basedmaterialspersistamongthehighlyefficientHERcatalysts,theirhigh
+costandlimitedavailabilityseverelyconstraintheirlarge-scaleapplication[23,24]. Con-
+sequently, the development of low-cost, metal-free, acid-stable, and highly active HER
+catalystsderivedfromabundantnaturalresourcesisessentialforadvancingsustainable
+hydrogenproductiontechnologies.
+Recently,carbonaceousmaterialsandtheirnanostructureshaveattractedsignificant
+attentionasHERelectrocatalystsowingtotheirexcellentelectronicconductivity,chemi-
+calstability,andcapacitytohostelectrochemicallyactivespecies[25–27]. Amongthese,
+biomass-derivedactivatedcarbon(AC)hasemergedasapromisingcandidateowingtoits
+naturalabundance,lowcost,highconductivity,largesurfacearea,tunableporousstructure,
+and excellent durability [28–31]. As a result, substantial efforts have been devoted to
+synthesizingcarbonnanomaterialsfromabundantbiomasssourcesandwastematerialsto
+developefficientcarbon-basedcatalystsforenergyconversionapplications[32–34]. For
+example,Hanetal.[35]preparedN-dopedporouscarbonfibersfromnaturalcattailfiber,
+attainingalowoverpotentialof244mVandaTafelslopeof70mV/dec. Prabuetal.[36]
+synthesizedhierarchicalporouscarbonfrompalmplants,recordinganoverpotentialof
+330 mV and a Tafel slope of 63 mV/dec. Similarly, Cao et al. [37] developed nitrogen-
+dopedporouscarbonfrombeansproutsusingtheSiO templatetechnique,obtainingan
+2
+overpotentialof413mVandaTafelslopeof98mV/dec. Additionally,Prabuetal.[38]
+derivednanoporousactivatedcarbonsheetsfromOotyVarkeyfoodwaste,demonstrating
+excellentHERactivitywithalowoverpotentialof380mVat10mA/cm2. ArulSaravanan
+etal.[39]preparedACnanosheetsfrompeanutshellsviaKOHactivation,demonstrating
+outstandingHERperformancewithanotablylowoverpotentialof80mVat10mA/cm2
+andaTafelslopeof75mV/dec. Hoangetal.[40]synthesizedNi-andP-dopedcarbon
+from carrots using a facile one-step pyrolysis method, achieving an HER overpotential
+of939mVwithaTafelslopeof273mV/dec. Amongvariousbiomassresources, neem
+leaves and ginkgo leaves stand out as promising sustainable precursors for producing
+ACnanostructuresduetotheirnaturalrichness,lowcost,highcarboncontent,andeco-
+friendliness[41–46]. Utilizingthesebiomasssourcesoffersaneffectiverouteforfabricating
+high-performanceACnanostructures. Richinbioactivecompounds(i.e.,cellulose,protein,
+carbohydrates, calcium, vitamin, carotene, andphosphorous), self-dopingheteroatoms
+(i.e.,O,N,S)characteristics,high-reaction-activesites,uniqueleafstructures,andhuge
+availability,andthefactthattheyarecharacterizedbyhighsurfaceareasandlargeporous
+natures,meansthatneemandginkgoleavesareparticularlywell-suitedforthefabrication
+ofcost-effectivebiomasscatalystswithhighHERperformance,andthusprovideanenvi-
+ronmentallysustainableplatformforefficientelectrocatalystdevelopment. Despitethese
+advantages,nostudiestodatehavereportedtheuseofneemleaf-andginkgoleaf-derived
+mesoporousAC(N-ACandG-AC)nanostructuresspecificallyasHERelectrocatalysts.
+Motivatedbytheaforementionedbackground,wesynthesizedmesoporousN-AC
+nanoflakesandG-ACnanospongesviatheKOHactivationmethodandevaluatedtheir
+HERperformances. Notably,theG-ACcatalystexhibitedanimpressivelyloweroverpo-
+tential of 26 mV and a small Tafel slope of 24 mV/dec at 10 mA/cm2 in 0.5 M H SO .
+2 4
+Thisworkpresentsacomprehensiveexaminationofthecatalystsynthesis,materialchar-
+acterization, and electrocatalytic HER activities of the fabricated N-AC nanoflakes and
+G-ACnanosponges.
+
+Int.J.Mol.Sci.2025,26,8502 3of14
+2. ResultsandDiscussion
+Figure 1 displays the surface morphology of the N-AC and G-AC nanostructures
+derivedfrombiomassneemleavesandginkgoleaves,respectively,viatheKOHactivation
+method.TheN-ACsampleexhibitsanirregularlystackedandaggregatedlayeredflake-like
+structure(Figure1a,b),whiletheG-ACsampledisplaysanirregular,three-dimensional
+porousnetworkwithasponge-likemorphology(Figure1c,d). ComparedtoN-AC,the
+G-ACstructureoffersgreaterporosity,ahighersurfacearea,andimprovedaccessibilityto
+activesites,allofwhichareadvantageousforenhancingHERactivity.
+Figure1.Low-andhigh-magnificationFE-SEMimagesof(a,b)N-ACand(c,d)G-ACnanostructures.
+ThestructuralpropertiesoftheN-ACandG-ACnanostructureswereanalyzedusing
+XRD.Figure2ashowstheXRDpatternsofbothsamples,whichrevealtwocharacteristic
+diffractionpeaksat23.6◦ and44.3◦,correspondingtothe(002)and(100)planesofdisor-
+dered carbon, respectively, indicating their amorphous nature [38,47,48]. Compared to
+N-AC,theG-ACsampleexhibitsamoreintense(002)peak, suggestingalowerdegree
+of structural disorder and a higher pore density [49,50]. This improved graphitization
+contributestoenhancedelectricalconductivityintheG-ACnanostructure. Nosecondary
+phasesweredetected,confirmingthehighpurityofbothsamples. Thedegreeofgraphi-
+tizationandstructuraldisorderinthecarbonaceousmaterialswasfurtherexaminedvia
+Raman spectroscopy. Figure 2b presents the Raman spectra of N-AC and G-AC, both
+ofwhichshowthreeprominentpeaksat1351cm−1 (Dband),1603cm−1 (Gband),and
+2853cm−1 (2Dband), indicatingthegraphiticcharacteristicsofthesynthesizedcarbon
+materials[13,31,35,51]. TheDbandarisesfromtheA vibrationalmode,associatedwith
+1g
+structuraldefectsanddisorderedvibrationsattheedgesofgraphiticdomains[52]. The
+G band corresponds to the E mode of sp2-hybridized carbon atoms, characteristic of
+2g
+anorderedgraphiticlattice[53]. Thepresenceofthe2Dbandservesasadistinguishing
+
+Int.J.Mol.Sci.2025,26,8502 4of14
+featureofactivatedcarbon[54]. TheintensityratiosoftheDandGbands(I /I )were
+D G
+calculatedas0.97forN-ACand0.94forG-AC,indicatingthatG-AChasalowerdegreeof
+disorderandahigherlevelofgraphitizationcomparedtoN-AC.
+Figure2. (a)XRDpatterns,(b)Ramanspectra,(c)N -absorptionanddesorptionisotherms,and
+2
+(d)poresizedistributionsoftheN-ACandG-ACnanostructures.
+ThespecificsurfaceareaandporosityoftheN-ACandG-ACnanostructureswere
+analyzedusingtheBETandBJHtechniques.Figure2cshowstheN adsorption–desorption
+2
+isotherm curves for both samples, which exhibit Type IV physisorption isotherms
+with Type H4 hysteresis loops (as classified by IUPAC), confirming their mesoporous
+nature [36,48,55,56]. BET analysis exhibited surface areas of 433 m2/g for N-AC and
+1025m2/gforG-AC.AsillustratedinFigure2d,theporesurfaceareasweredetermined
+tobe164m2/gforN-ACand360m2/gforG-AC.Furthermore,G-ACexhibitedahigher
+totalporevolume(0.5805cm3/g)comparedtoN-AC(0.3122cm3/g). Theaveragepore
+sizesweredeterminedtobe2.88nmforN-ACand2.26nmforG-AC.Thesmalleraverage
+poresize,alongwiththesignificantlyhighersurfaceareaandporevolumeofG-AC,clearly
+indicatesitssuperiormesoporousstructure,whichiscriticalforenhancingelectrocatalytic
+HERefficiency.
+ThechemicalbondingstructuresoftheN-ACandG-ACwereinvestigatedbyXPS
+measurements. The XPS full survey spectra of the N-AC and G-AC clearly reveal the
+presence of their constituent elements such as C and O (Figure 3a). The C1s core-level
+spectraofbothsamples(Figure3b,c)exhibitedthreecharacteristicpeaksat284.8,286.3,and
+289.5eV,correspondingtotheC–C(sp2-hybridizeddomains),C–O(epoxy,hydroxyl),and
+C=O(carboxyl)functionalgroups,respectively[57,58]. Similarly,theO1score-levelspectra
+ofthebothsamples(Figure3d,e)alsodisplayedthreeprominentpeaksat531.6,533.8,and
+536.2eV,ascribedtotheC–O–C,C=O,andO–C=Ofunctionalgroups,respectively[59,60].
+Theabundanceoftheseoxygen-containingfunctionalgroupscansignificantlyalterthe
+surfacepolarityofthecarbonmaterial,therebyenhancingthewettabilityattheelectrode–
+electrolyteinterface. Thisimprovedinterfacialinteractionisexpectedtofacilitatemore
+
+Int.J.Mol.Sci.2025,26,8502 5of14
+efficientiontransport,ultimatelycontributingtoenhancedelectrochemicalperformanceof
+thecatalyst.
+Figure3. (a)FullsurveyXPSspectraofN-ACandG-ACnanostructures. (b)C1sand(c)O1s
+core-levelspectraofN-ACnanoflakes.(d)C1sand(e)O1score-levelspectraofG-ACnanosponges.
+Afterconfirmingthestructuralcharacteristicsofthefabricatedcatalysts,theelectrocat-
+alyticHERperformanceofN-ACandG-ACwassystematicallyinvestigated. Figure4a,b
+presenttheCVcurvesoftheN-ACandG-ACcatalystsrecordedatscanratesrangingfrom
+10to100mV/s. Bothcatalystsexhibitedtypicalrectangular-shapedCVprofiles,indicating
+efficientelectricaldouble-layercapacitivebehavior[13,37,61,62]. Asthescanrateamplified,
+thecurrentdensityalsorose,suggestingsmalldiffusionresistanceoftheactivematerials.
+Notably,G-ACdisplayedalargerCVprofileareaandahighercurrentresponsecompared
+to N-AC, implying a larger number of accessible active sites. The electrocatalytic HER
+activity was closely associated with the C and ECSA of the catalysts. The C values
+dl dl
+for N-AC and G-AC were determined to be 3.66 and 5.29 mF/cm2, respectively, from
+thenon-FaradaicCVregionat0.07V(seeFigure4c–f). UsingEquations(9)and(10),the
+correspondingECSAvalueswerecalculatedas105cm2forN-ACand151cm2forG-AC.
+ThesignificantlyhigherC andECSAvaluesoftheG-ACcatalystindicatealargernumber
+dl
+ofexposedactivesitesandenhancedelectricalconductivitycomparedtotheN-ACcatalyst.
+Figure4.CVcurvesof(a)N-ACand(b)G-ACcatalysts.Non-FaradaicCVcurvesofthe(c)N-AC
+and(d)G-ACcatalysts. Non-FaradaicJ at0.07Vasafunctionofscanratefor(e)N-ACand
+DL
+(f)G-ACcatalysts.
+
+Int.J.Mol.Sci.2025,26,8502 6of14
+TheHERperformanceoftheN-ACandG-ACcatalystswasevaluatedusingLSVat
+ascanrateof5mV/sin0.5MH SO . Figure5apresentsthei -correctedandwithout-
+2 4 R
+i -correctionLSVcurves(FigureS1)oftheN-ACandG-ACcatalysts. Theηatacurrent
+R
+density of −10 mA/cm2 was determined to be 40 mV for N-AC and 26 mV for G-AC,
+as calculated using Equations (11) and (12). The lower η value of G-AC is attributed
+to its enhanced electrical conductivity and greater number of catalytically active sites
+(i.e.,higherECSA)comparedtoN-AC.Figure5bdisplaystheTafelcurvesoftheN-ACand
+G-ACcatalysts. TheS valuesweredeterminedtobe46mV/decforN-ACand24mV/dec
+T
+forG-ACusingEquation(13). ThelowerS valueofG-ACindicatesmorefavorableand
+T
+efficientHERkinetics,consistentwiththeVolmer–Heyrovskymechanism. Consequently,it
+isextensivelyacceptedthattheHERmechanismonthecathodesurfaceproceedsthrough
+asequenceofelectrochemicalsteps. Inanacidicmedium,thismultistepprocesstypically
+followsthereactionsoutlinedbelow[63–65]:
+H O + + M + e − →M − H + H O(Volumer) (1)
+3 2
+M − H + H O + + e − →H + H O + M(Heyrovsky) (2)
+3 2 2
+2M − H→2M + H (Tafel) (3)
+2
+where M denotes a vacant active site on the catalyst surface, while M–H refers to an
+adsorbedhydrogenspecies. ThestrengthoftheM–Hbondplaysacriticalroleindeter-
+mining the HER kinetics of catalyst materials. In acidic solutions, the Volmer reaction
+(Equation (1)) involves an initial discharge of the hydronium ion and the formation of
+hydrogen intermediates (i.e., M-H), and the subsequent formation of H involves the
+2
+electrochemicalHeyrovskystep(Equation(2))andthechemicalTafelstep(Equation(3)).
+Therefore,theVolmer–Heyrovskypathwayisgenerallymoreefficientandfavorablefor
+HERactivity. Comparedtootherelectrocatalysts,theG-ACcatalystdemonstratedsupe-
+rior HER performance, evidenced by lower η and S values, due to its surface oxygen
+T
+groups,porousnature,largerECSA,andimprovedelectricalconductivitythatenhanced
+thewettability,defectdensity,andchargetransferoftheG-AC(Table1).
+Figure5.ElectrocatalyticHERperformanceofN-ACandG-ACcatalysts:(a)i -correctedLSVcurves,
+R
+(b)Tafelplots,(c)chronopotentiometricprofilesatvariouscurrentdensities(−10to−100mA/cm2),
+and(d)long-termdurabilityanalysis.LSVcurvesofthe(e)N-ACand(f)G-ACcatalystsbeforeand
+aftertheHERdurabilitytest.FE-SEMimagesoftheN-AC(insetof(e))andtheG-AC(insetof(f))
+catalystsafterthestabilitytest.
+
+Int.J.Mol.Sci.2025,26,8502 7of14
+Table1.ComparisonofHERperformancebetweenbiomass-derivedN-ACandG-ACnanostructures
+andpreviouslyreportedcarbon-basedelectrocatalysts.
+BiomassResources Catalyst ActivationSource η(mV) ST(mV/dec) Electrolyte Ref.
+GinkgoLeaves G-AC KOH 26 24 0.5MH SO ThisWork
+2 4
+NeemLeaves N-AC KOH 40 46 0.5MH SO ThisWork
+2 4
+BeanSprouts BS-800 HFEtching 413 98 0.5MH SO [37]
+2 4
+Carrots PC ThermalAnnealing 939 273 0.1MKOH [40]
+OotyVarkey NACS KOH 380 85 0.5MH SO [38]
+2 4
+CattailFiber NPCF KOH 244 135 0.5MH SO [35]
+2 4
+EucalyptusLeaves ELC-700 KOH 39 36 0.5MH SO [13]
+2 4
+PalmWaste HPNS KOH 330 63 0.5MH SO [36]
+2 4
+HumanHair HH-AC-700 KOH 16 51 0.5MH SO [16]
+2 4
+CommercialAC D-AC NH 334 66 0.5MH SO [66]
+3 2 4
+BroccoliStems NA9 KOH 184 164 1MH SO [67]
+2 4
+PeanutShells PSAC KOH 80 75 0.5MH SO [39]
+2 4
+GoldenShower
+N-PC Urea 179 98 1MKOH [68]
+Pods
+RiceHusk RH-CG-600 KOH 33 67 0.5MH SO [19]
+2 4
+CamelliaJaponica
+SA-Came KOH 154 89 1MKOH [69]
+Flower
+TeaWaste G-ACOH KOH 349 128 0.5MH SO [70]
+2 4
+TheexcellentHERperformanceoftheN-ACandG-ACcatalystswasfurthervalidated
+throughCPmeasurements.AsshowninFigure5c,theG-ACcatalystconsistentlyexhibitedlower
+overpotentialsatallappliedcurrentdensities(−10,−20,−30,−40,−50,and−100mA/cm2)
+than N-AC, confirming its higher catalytic efficiency. Figure 5d presents the long-term
+HERstabilitytestofbothcatalystsat−10mA/cm2over30h. TheG-ACcatalystexhibited
+excellent stability throughout the test duration, which can be attributed to its higher
+ECSA,greaterporosity,andlowerinternalresistance. Furthermore,theLSVcurvesbefore
+andafterthelong-termstabilitytestshowednegligibledeviation(Figure5e,f),indicating
+microstructuralandelectrochemicalrobustness. ThesefindingsdesignateG-ACasahighly
+stable and efficient electrocatalyst for HER. Following the HER stability test, FE-SEM
+analysiswasconductedtoassessanymicrostructuralchangesinthecatalysts. TheN-AC
+catalystdisplayedanaggregatedflake-likestructure(insetofFigure5e),whereastheG-AC
+catalyst retained its original agglomerated sponge-like morphology (inset of Figure 5f).
+Furthermore,Ramanmeasurements(FigureS2)showedthatbothcatalystsretainedtheir
+originalfeatures,indicatingthehighstabilityofthematerials.
+To further investigate the enhanced HER kinetics of the G-AC catalyst, EIS anal-
+ysis was conducted. Figure 6 displays the Nyquist plots of the N-AC and G-AC cata-
+lysts, along with the corresponding equivalent circuit (inset). Both catalysts exhibited
+a linear region at low frequencies, indicating effective ion diffusion across the catalyst
+surface[13,39,71]. Theabsenceofasemicircularregioninbothcasessuggestshighionic
+diffusivityandexcellentelectronicconductivity[66,67,72]. Theseriesresistance(R )rep-
+s
+resentsthecombinedresistanceoftheelectrolyte,electrode,andinterfaces,andalower
+R indicates easier charge transport and reduced energy loss, leading to improve HER
+s
+performance. Using the equivalent circuit model, the R values were calculated to be
+s
+0.94ΩforN-ACand0.83ΩforG-AC.ThelowerR valueandsteeperNyquistslopeofthe
+s
+G-ACcatalystareattributedtoitshigherdensityofactivesites,greaterporosity,enhanced
+
+Int.J.Mol.Sci.2025,26,8502 8of14
+iontransport,andimprovedelectricalconductivity. However,thepost-stabilityEISresults
+showlowerchargetransferresistance,confirmingthecatalyst’slong-termstabilitydueto
+surfacerestructuringandimprovedelectrode–electrolyteinteraction. Theseresultshigh-
+lightthestrongpotentialofthebiomass-derivedG-ACnanostructuresfromginkgoleaves
+assustainableandefficientHERelectrocatalystsforfuturegreenhydrogenproduction.
+Figure6.Nyquistplotsof(a)N-ACand(b)G-ACcatalystsbeforeandafterthestabilitytest(inset:
+equivalentcircuitmodel).
+3. MaterialsandMethods
+3.1. Materials
+All chemicals were purchased from Sigma-Aldrich (Seoul, Republic of Korea) and
+usedwithoutfurtherpurification. Neemleaves(Azadirachtaindica)werecollectedfrom
+Tholudur,TamilNadu,India,andginkgoleaves(Ginkgobiloba)wereobtainedfromSeoul,
+RepublicofKorea.
+3.2. PreparationofActivatedCarbonNanostructures
+Figure 7 presents a schematic illustration of the fabrication process for N-AC
+nanoflakes(Figure7a)andG-AC(Figure7b)nanospongesderivedfrombiomassneem
+leaves and ginkgo leaves, respectively. Mesoporous AC nanoflakes and nanosponges
+were synthesized fromthese two biomass sources via the KOH activation method. Ini-
+tially, the raw leaves were separated, thoroughly washed with deionized (DI) water to
+removesurfaceimpurities,andsun-driedforsevendays. Thedriedneemleaves(NL)and
+ginkgoleaves(GL)werethencarbonizedat300◦Cinanairatmospherefor1htoobtain
+carbonizedashes,referredtoasNLAsandGLAs,respectively. Followingcarbonization,
+3gofeachcarbonizedashwasmixedwith12gofKOHusingamortarandsubsequently
+annealed at 700 ◦C in an air atmosphere for 2 h. During KOH activation, oxygen- and
+carbon-containingfunctionalgroupsonthecarbonprecursorreactedwithKOH,resulting
+intheformationofvariouscarbonaceousspeciessuchaspotassiumcarbonate(K CO )and
+2 3
+carbonmonoxide(CO).Thishigh-temperatureactivationprocesscanberepresentedbythe
+followingchemicalreactions[13,73,74]:
+2C(NLAs(or)GLAs) + 6KOH→3H + 2K+2K CO (4)
+2 2 3
+K CO →K O + CO (5)
+2 3 2 2
+CO + C→2CO (6)
+2
+K CO + 2C→2K+3CO (7)
+2 3
+K O + C→2K + CO (8)
+2
+
+Int.J.Mol.Sci.2025,26,8502 9of14
+Figure7.Schematicrepresentationofthesynthesisprocessof(a)N-ACand(b)G-ACnanostructures
+fromneemandginkgoleaves,respectively,viaKOHactivation.
+Afteractivation,theresultingcolloidalsuspensionwascollectedandstirredwithDI
+waterfor8htoeliminateunreactedpotassiumcomplexes. Theresultingmixturewasthen
+filtered,rinsedwithDIwater,anddriedat120◦Cfor10h. TheACnanopowdersderived
+fromneemleavesandginkgoleavesaredenotedasN-ACandG-AC,respectively.
+3.3. MaterialCharacterizations
+ThemicrostructuresofthefabricatedN-ACandG-ACcatalystswereexaminedusing
+field-emissionscanningelectronmicroscopy(FE-SEM).Theiramorphousnatureandvibra-
+tionalpropertieswerecharacterizedviaX-raydiffraction(XRD)andRamanspectroscopy,
+respectively. Poresizedistributionandtexturalcharacteristicswereanalyzedusingthe
+Brunauer–Emmett–Teller(BET)andBarrett–Joyner–Halenda(BJH)methods.
+3.4. ElectrocatalyticHERMeasurements
+TheelectrocatalyticHERperformanceoftheN-ACandG-ACcatalystswasevaluated
+usinganelectrochemicalworkstationconfiguredinastandardthree-electrodesetup. For
+electrode preparation, either N-AC or G-AC was dispersed in N-methyl-2-pyrrolidone
+toformahomogeneousslurry,whichwassubsequentlycoatedontostainless-steelsub-
+strates (1 cm2) and dried at 160 ◦C for 6 h. A coiled Pt wire and a saturated calomel
+electrode(SCE)wereemployedasthecounterandreferenceelectrodes,respectively. All
+HERmeasurements—includingcyclicvoltammetry(CV),linearsweepvoltammetry(LSV),
+electrochemicalimpedancespectroscopy(EIS),andchronopotentiometry(CP)—werecon-
+ductedin0.5MH SO . LSVwasperformedwithinthepotentialrangeof0.1to−1.2Vata
+2 4
+scanrateof5mV/s. AllLSVmeasurementswerecalculatedwith100%i compensationto
+R
+ensureaccuratepotentialvalues. CVmeasurementswerecarriedoutatscanratesranging
+from 10 to 100 mV/s within a 0–1.0 V potential window. HER rate performance was
+evaluated by CP at current densities of −10, −20, −30, −40, −50, and −100 mA/cm2
+for10mineach. EISanalysiswasconductedoverafrequencyrangeof1Hzto10kHz.
+Theelectrochemicaldouble-layercapacitance(C )andelectrochemicallyactivesurface
+dl
+area(ECSA)ofthecatalystswerecalculatedfromthenon-FaradaicCVregionusingthe
+followingequations[75–77]:
+J = C × v/A (9)
+DL dl
+ECSA = C /C (10)
+dl e
+whereC isthenon-Faradaiccapacitance,J isthenon-Faradaiccurrentdensity,Aisthe
+dl DL
+electrodearea,visthescanrate,andC isthespecificcapacitanceoftheelectrolyte,takenas
+e
+
+Int.J.Mol.Sci.2025,26,8502 10of14
+0.035mF/cm2for0.5MH SO [78].Theoverpotential(η)andTafelslope(S )valuesforthe
+2 4 T
+N-ACandG-ACcatalystsweredeterminedusingthesubsequentequations[19,35,39,79]:
+E = E + 0.059·pH + E0 (11)
+RHE SCE SCE
+E = η (12)
+RHE
+η = S log(J) + c (13)
+T
+whereJrepresentsthecurrentdensity,E isthepotentialvs. thereversiblehydrogen
+RHE
+electrode(RHE),cisafittingconstant,andE0 signifiesthetypicalpotentialoftheSCE.
+SCE
+4. Conclusions
+ThemesoporousN-ACandG-ACnanostructuresweresuccessfullysynthesizedfrom
+twodifferentbiomasssources—neemandginkgoleaves—viatheKOHactivationprocess.
+TheN-ACsampleexhibitedastackedandaggregatedlayeredflakemorphology,whereas
+the G-AC sample displayed a three-dimensional porous sponge-like morphology with
+an enhanced specific surface area. Owing to its high specific surface area, substantial
+mesoporosity,andsuperiorgraphitization,theG-ACcatalystachievedalowoverpotential
+of26mVat−10mA/cm2in0.5MH SO .Furthermore,theG-ACcatalystexhibitedasmall
+2 4
+Tafelslopeof24mV/decanddemonstratedexcellentlong-termdurability. Theseresults
+specifythatporousG-ACnanospongesareauspiciouscandidatesforhigh-performance
+HERelectrocatalystsinfuturegreenhydrogenproduction.
+SupplementaryMaterials: Thefollowingsupportinginformationcanbedownloadedat: https:
+//www.mdpi.com/article/10.3390/ijms26178502/s1.
+AuthorContributions:S.S.(SankarSekar):Methodology,Formalanalysis,Investigation,Writing—
+originaldraft.S.S.(SuthaSadhasivam):Formalanalysis,Investigation.A.S.:Methodology,Formal
+analysis. S.S.(SaravananSekar): Formalanalysis, Investigation. Y.L.: Datacuration, Validation,
+Supervision,Writing—reviewandediting.S.L.:Conceptualization,Supervision,Validation,Writing—
+reviewandediting.Allauthorshavereadandagreedtothepublishedversionofthemanuscript.
+Funding:ThisresearchwassupportedbytheNationalResearchFoundation(NRF)ofKoreathrough
+thebasicscienceresearchprogram(RS-2023-NR076644)fundedbytheKoreanGovernment.
+InstitutionalReviewBoardStatement:Notapplicable.
+InformedConsentStatement:Notapplicable.
+DataAvailabilityStatement:Theoriginalcontributionspresentedinthisstudyareincludedinthe
+article/SupplementaryMaterials.Furtherinquiriescanbedirectedtothecorrespondingauthors.
+ConflictsofInterest:Theauthorsdeclarethattheyhavenoknowncompetingfinancialinterestsor
+personalrelationshipsthatcouldhaveappearedtoinfluencetheworkreportedinthispaper.
+References
+1. Liu,S.;Wang,J.;Yao,Z.;Xia,Q.;Xu,H.;Guo,W.;Wu,X.EnhancedoxygenactivationinantibioticdegradationusingN-doped
+carbonskeletonencapsulatedhigh-entropyalloycatalysts.Chem.Eng.J.2025,518,164832.[CrossRef]
+2. Li, H.; Zhang, G.; Jia, X.; Pan, Y.; Yang, Z.; Li, G.; Guan, T.; Wang, K. Chemical vapor deposition-assisted activation for
+tailoring mesoporous carbon from polar components of coal tar pitch for zinc-ion hybrid capacitors. Chem. Eng. J. 2025,
+519,164974.[CrossRef]
+3. Li,W.;Liu,Y.;Wu,M.;Feng,X.;Redfern,S.A.T.;Shang,Y.;Yong,X.;Feng,T.;Wu,K.;Liu,Z.;etal. Carbon-Quantum-Dots-
+LoadedRutheniumNanoparticlesasanEfficientElectrocatalystforHydrogenProductioninAlkalineMedia.Adv.Mater.2018,
+30,1800676.[CrossRef][PubMed]
+4. Zhang,M.;Guan,J.;Tu,Y.;Chen,S.;Wang,Y.;Wang,S.;Yu,L.;Ma,C.;Deng,D.;Bao,X.HighlyefficientH2productionfromH2S
+viaarobustgraphene-encapsulatedmetalcatalyst.EnergyEnviron.Sci.2020,13,119–126.[CrossRef]
+
+Int.J.Mol.Sci.2025,26,8502 11of14
+5. Jamesh,M.-I.;Hu,D.;Wang,J.;Naz,F.;Feng,J.;Yu,L.;Cai,Z.;Colmenares,J.C.;Lee,D.-J.;Chu,P.K.;etal.Recentadvancesin
+noblemetal-freeelectrocatalyststoachieveefficientalkalinewatersplitting.J.Mater.Chem.A2024,12,11771–11820.[CrossRef]
+6. Sekar, S.; Lee, E.; Yun, J.; Arumugasamy, S.K.; Choi, M.-J.; Lee, Y.; Lee, S. High-performance electrocatalyst of activated
+carbon-decoratedmolybdenumtrioxidenanocompositesforeffectiveproductionofH andH O . Sep. Purif. Technol. 2025,
+2 2 2
+361,131614.[CrossRef]
+7. Sekar, S.; Sadhasivam, S.; Lee, Y.; Lee, S. Enhanced bifunctional water electrolysis activities of activated carbon-decorated
+trimetallicNi-Al-Lananocomposites.Appl.Surf.Sci.2025,698,163098.[CrossRef]
+8. Sekar, S.; Ilanchezhiyan, P.; Ahmed, A.T.A.; Lee, Y.; Lee, S.SubstantialElectrocatalyticOxygenEvolutionPerformancesof
+ActivatedCarbon-DecoratedVanadiumPentoxideNanocomposites.Int.J.EnergyRes.2024,2024,9953038.[CrossRef]
+9. Sadeq,A.M.;Homod,R.Z.;Hussein,A.K.;Togun,H.;Mahmoodi,A.;Isleem,H.F.;Patil,A.R.;Moghaddam,A.H.Hydrogen
+energysystems:Technologies,trends,andfutureprospects.Sci.TotalEnviron.2024,939,173622.[CrossRef]
+10. HossainBhuiyan,M.M.;Siddique,Z.Hydrogenasanalternativefuel:Acomprehensivereviewofchallengesandopportunities
+inproduction,storage,andtransportation.Int.J.HydrogenEnergy2025,102,1026–1044.[CrossRef]
+11. Segovia-Hernández, J.G.; Hernández, S.; Cossío-Vargas, E.; Juarez-García, M.; Sánchez-Ramírez, E. Green hydrogen pro-
+duction for sustainable development: A critical examination of barriers and strategic opportunities. RSC Sustain. 2025,
+3,134–157.[CrossRef]
+12. Abdullah,A.;Tariq,F.;Kulkarni,M.A.;Thaalbi,H.;Din,H.U.;Kang,S.H.;Ryu,S.-W.High-efficiencyelectrocatalytichydrogen
+generationunderharshacidicconditionbycommerciallyviablePtnanocluster-decoratednon-polarfacetedGaNnanowires.
+Int.J.HydrogenEnergy2024,94,1257–1265.[CrossRef]
+13. Sekar,S.;Shanmugam,A.;Senthilkumar,G.;Thangasami,K.;Jung,H.;Lee,Y.;Lee,S.EnhancedHydrogenEvolutionReaction
+UsingBiomass-ActivatedCarbonNanosheetsDerivedfromEucalyptusLeaves.Materials2025,18,670.[CrossRef][PubMed]
+14. Gao, X.; Chen, Y.; Wang, Y.; Zhao, L.; Zhao, X.; Du, J.; Wu, H.; Chen, A. Next-GenerationGreen Hydrogen: Progress and
+PerspectivefromElectricity,CatalysttoElectrolyteinElectrocatalyticWaterSplitting.Nano-MicroLett.2024,16,237.[CrossRef]
+15. Sekar,S.;Shanmugam,A.;Lee,Y.;Lee,S.HighlyEfficientElectrocatalystof2D–2DgC N –MoS CompositesforEnhanced
+3 4 2
+OverallWaterElectrolysis.Materials2025,18,3775.[CrossRef]
+16. Sekar, S.; Sim, D.H.; Lee, S. Excellent Electrocatalytic Hydrogen Evolution Reaction Performances of Partially Graphitized
+Activated-CarbonNanobundlesDerivedfromBiomassHumanHairWastes.Nanomaterials2022,12,531.[CrossRef]
+17. Li,X.;Zhao,L.;Yu,J.;Liu,X.;Zhang,X.;Liu,H.;Zhou,W.WaterSplitting:FromElectrodetoGreenEnergySystem.Nano-Micro
+Lett.2020,12,131.[CrossRef]
+18. Chatenet,M.;Pollet,B.G.;Dekel,D.R.;Dionigi,F.;Deseure,J.;Millet,P.;Braatz,R.D.;Bazant,M.Z.;Eikerling,M.;Staffell,I.;etal.
+Waterelectrolysis:Fromtextbookknowledgetothelatestscientificstrategiesandindustrialdevelopments.Chem.Soc.Rev.2022,
+51,4583–4762.[CrossRef]
+19. Sekar, S.; Aqueel Ahmed, A.T.; Sim, D.H.; Lee, S. Extraordinarily high hydrogen-evolution-reaction activity of corrugated
+graphenenanosheetsderivedfrombiomassricehusks.Int.J.HydrogenEnergy2022,47,40317–40326.[CrossRef]
+20. Veeramani,K.;Janani,G.;Kim,J.;Surendran,S.;Lim,J.;Jesudass,S.C.;Mahadik,S.;Lee,H.;Kim,T.-H.;Kim,J.K.;etal.Hydrogen
+andvalue-addedproductsyieldfromhybridwaterelectrolysis:Acriticalreviewonrecentdevelopments.Renew.Sustain.Energy
+Rev.2023,177,113227.[CrossRef]
+21. Wan,Z.;Yang,K.;Li,P.;Yang,S.;Wang,X.;Gao,R.;Xie,X.;Deng,G.;Yang,M.;Wang,Z.AtomicallydispersedAusinglesites
+andnanoengineeredstructuraldefectsenableahighelectrocatalyticactivityanddurabilityforhydrogenevolutionreactionand
+overallureaelectrolysis.Electrochim.Acta2024,499,144685.[CrossRef]
+22. Li, P.; Luo, S.; Xiong, Z.; Xiao, H.; Wang, X.; Peng, K.; Xie, X.; Zhang, Z.; Deng, G.; Yang, M.; et al. RuxMoS
+2
+interfacial
+heterojunctionsachieveefficientoverallwatersplittingandstabilityinbothalkalineandacidicmediaunderlargecurrentdensity
+exceeding100mAcm−2.Mol.Catal.2025,570,114710.[CrossRef]
+23. Hussain,M.B.;Ahmad,M.;Cheng,X.;Mehmood,R.;Ajmal,Z.;Hussain,S.;Tayyab,M.;Gitis,V.ZrO supportedPtnanoparticles
+2
+forrobustelectrocatalytichydrogenevolutionreactions.Int.J.HydrogenEnergy2025,106,825–833.[CrossRef]
+24. Sekar,S.;Sadhasivam,S.;Nangai,E.K.;Saravanan,S.;Kim,D.Y.;Lee,S.EnhancedHydrogenEvolutionReactionPerformancesof
+UltrathinCuBi O Nanoflakes.Int.J.EnergyRes.2023,2023,5038466.[CrossRef]
+2 4
+25. Ahmed,K.;Hameed,S.;Patchigolla,K.;Dawood,N.;Ghouri,Z.K.Carbon-basedelectrocatalystsforhydrogenevolutionreaction.
+EnergyConvers.Manage.X2025,26,100892.[CrossRef]
+26. Li,W.;Xu,Y.;Wang,G.;Xu,T.;Wang,K.;Zhai,S.;Si,C.SustainableCarbon-BasedCatalystMaterialsDerivedFromLigno-
+cellulosicBiomassforEnergyStorageandConversion:AtomicModulationandPropertiesImprovement.CarbonEnergy2025,
+7,e708.[CrossRef]
+27. Nemiwal,M.;Zhang,T.C.;Kumar,D.Graphene-basedelectrocatalysts:Hydrogenevolutionreactionsandoverallwatersplitting.
+Int.J.HydrogenEnergy2021,46,21401–21418.[CrossRef]
+
+Int.J.Mol.Sci.2025,26,8502 12of14
+28. Cui,W.; Liu,Q.; Cheng,N.; Asiri,A.M.; Sun,X.Activatedcarbonnanotubes: Ahighly-activemetal-freeelectrocatalystfor
+hydrogenevolutionreaction.Chem.Commun.2014,50,9340–9342.[CrossRef]
+29. Liu,T.;Yabu,H.Biomass-DerivedElectrocatalysts:Low-Cost,RobustMaterialsforSustainableElectrochemicalEnergyConver-
+sion.Adv.EnergySustain.Res.2024,5,2300168.[CrossRef]
+30. Feng, Y.; Jiang, J.; Xu, Y.; Wang, S.; An, W.; Chai, Q.; Prova, U.H.; Wang, C.; Huang, G. Biomass derived diverse carbon
+nanostructureforelectrocatalysis,energyconversionandstorage.Carbon2023,211,118105.[CrossRef]
+31. Gao,J.;Chu,X.;Lu,H.;Wang,H.;Li,X.;Yin,Z.;Tan,X.Efficientcarbon-basedelectrocatalystderivedfrombiomassforhydrogen
+peroxidegeneration.Mater.TodayCommun.2021,26,102051.[CrossRef]
+32. Cao,Y.;Sun,Y.;Zheng,R.;Wang,Q.;Li,X.;Wei,H.;Wang,L.;Li,Z.;Wang,F.;Han,N.Biomass-derivedcarbonmaterialas
+efficientelectrocatalystsfortheoxygenreductionreaction.BiomassBioenergy2023,168,106676.[CrossRef]
+33. Tiwari, S.K.; Bystrzejewski, M.; DeAdhikari, A.; Huczko, A.; Wang, N.Methodsfortheconversionofbiomasswasteinto
+value-addedcarbonnanomaterials:Recentprogressandapplications.Prog.EnergyCombust.Sci.2022,92,101023.[CrossRef]
+34. FahadHalim,A.F.M.;Poinern,G.E.J.;Fawcett,D.;Sharma,R.;Surendran,S.;Rajeshkannan,R.Biomass-DerivedCarbonNano-
+materials:SynthesisandApplicationsinTextileWastewaterTreatment,Sensors,EnergyStorage,andConversionTechnologies.
+CleanMat2025,2,4–58.[CrossRef]
+35. Han,G.;Hu,M.;Liu,Y.;Gao,J.;Han,L.;Lu,S.;Cao,H.;Wu,X.;Li,B.Efficientcarbon-basedcatalystderivedfromnaturalcattail
+fiberforhydrogenevolutionreaction.J.SolidStateChem.2019,274,207–214.[CrossRef]
+36. Prabu,N.;Saravanan,R.S.A.;Kesavan,T.;Maduraiveeran,G.;Sasidharan,M.Anefficientpalmwastederivedhierarchicalporous
+carbonforelectrocatalytichydrogenevolutionreaction.Carbon2019,152,188–197.[CrossRef]
+37. Cao, X.; Li, Z.; Chen, H.; Zhang, C.; Zhang, Y.; Gu, C.; Xu, X.; Li, Q. Synthesis of biomass porous carbon materials from
+bean sprouts for hydrogen evolution reaction electrocatalysis and supercapacitor electrode. Int. J. Hydrogen Energy 2021,
+46,18887–18897.[CrossRef]
+38. Prabu,N.;Kesavan,T.;Maduraiveeran,G.;Sasidharan,M.Bio-derivednanoporousactivatedcarbonsheetsaselectrocatalystfor
+enhancedelectrochemicalwatersplitting.Int.J.HydrogenEnergy2019,44,19995–20006.[CrossRef]
+39. ArulSaravanan,K.R.;Prabu,N.;Sasidharan,M.;Maduraiveeran,G.Nitrogen-selfdopedactivatedcarbonnanosheetsderived
+frompeanutshellsforenhancedhydrogenevolutionreaction.Appl.Surf.Sci.2019,489,725–733.[CrossRef]
+40. Hoang,V.C.;Gomes,V.G.;Dinh,K.N.Ni-andP-dopedcarbonfromwastebiomass:Asustainablemultifunctionalelectrodefor
+oxygenreduction,oxygenevolutionandhydrogenevolutionreactions.Electrochim.Acta2019,314,49–60.[CrossRef]
+41. Wang,Q.;Fei,Z.;Shen,D.;Cheng,C.;Dyson,P.J.GinkgoLeaf-DerivedCarbonSupportsfortheImmobilizationofIron/Iron
+PhosphideNanospheresforElectrocatalyticHydrogenEvolution.Small2024,20,2309830.[CrossRef]
+42. Sundriyal,S.;Shrivastav,V.;Kaur,A.;Mansi;Deep,A.;Dhakate,S.R.Surfaceanddiffusionchargecontributionstudyofneem
+leavesderivedporouscarbonelectrodeforsupercapacitorapplicationsusingacidic,basic,andneutralelectrolytes. J.Energy
+Storage2021,41,103000.[CrossRef]
+43. Zhang,L.;Cheng,X.;Li,L.;Li,X.;Wu,H.;Zheng,J.;Yao,J.;Li,G.Porousandhighspecificsurfaceareacarbonmaterialderived
+fromginkgoleavesforhigh-performancesymmetricsupercapacitors.BiomassBioenergy2024,191,107481.[CrossRef]
+44. Zhu,X.;Yu,S.;Xu,K.;Zhang,Y.;Zhang,L.;Lou,G.;Wu,Y.;Zhu,E.;Chen,H.;Shen,Z.;etal.Sustainableactivatedcarbonsfrom
+deadginkgoleavesforsupercapacitorelectrodeactivematerials.Chem.Eng.Sci.2018,181,36–45.[CrossRef]
+45. Sekar,S.;AqueelAhmed,A.T.;Pawar,S.M.;Lee,Y.;Im,H.;Kim,D.Y.;Lee,S.Enhancedwatersplittingperformanceofbiomass
+activatedcarbon-anchoredWO nanoflakes.Appl.Surf.Sci.2020,508,145127.[CrossRef]
+3
+46. Sekar,S.;Lee,S.;Vijayarengan,P.;Kalirajan,K.M.;Santhakumar,T.;Sekar,S.;Sadhasivam,S.UpcyclingofWastewaterviaEffective
+PhotocatalyticHydrogenProductionUsingMnO Nanoparticles—DecoratedActivatedCarbonNanoflakes.Nanomaterials2020,
+2
+10,1610.[CrossRef]
+47. Manasa, P.; Lei, Z.J.; Ran, F. Biomass Waste Derived Low Cost Activated Carbon from Carchorus Olitorius (Jute Fiber) as
+SustainableandNovelElectrodeMaterial.J.EnergyStorage2020,30,101494.[CrossRef]
+48. Sankar,S.; Saravanan,S.; Ahmed,A.T.A.; Inamdar,A.I.; Im,H.; Lee,S.; Kim,D.Y.Sphericalactivated-carbonnanoparticles
+derivedfrombiomassgreenteawastesforanodematerialoflithium-ionbattery.Mater.Lett.2019,240,189–192.[CrossRef]
+49. Xiao,P.-W.;Meng,Q.;Zhao,L.;Li,J.-J.;Wei,Z.;Han,B.-H.Biomass-derivedflexibleporouscarbonmaterialsandtheirapplications
+insupercapacitorandgasadsorption.Mater.Des.2017,129,164–172.[CrossRef]
+50. Qian,W.;Sun,F.;Xu,Y.;Qiu,L.;Liu,C.;Wang,S.;Yan,F.Humanhair-derivedcarbonflakesforelectrochemicalsupercapacitors.
+EnergyEnviron.Sci.2014,7,379–386.[CrossRef]
+51. Li,Z.;Deng,L.;Kinloch,I.A.;Young,R.J.Ramanspectroscopyofcarbonmaterialsandtheircomposites:Graphene,nanotubes
+andfibres.Prog.Mater.Sci.2023,135,101089.[CrossRef]
+52. Fu,P.;Zhou,L.;Sun,L.;Huang,B.;Yuan,Y.Nitrogen-dopedporousactivatedcarbonderivedfromcocoonsilkasahighly
+efficientmetal-freeelectrocatalystfortheoxygenreductionreaction.RSCAdv.2017,7,13383–13389.[CrossRef]
+
+Int.J.Mol.Sci.2025,26,8502 13of14
+53. Watcharamaisakul,S.;Janphuang,N.;Chueangam,W.;Srisom,K.;Rueangwittayanon,A.;Rittihong,U.;Tunmee,S.;Chanlek,N.;
+Pornsetmetakul,P.;Wirojsirasak,W.;etal.SynthesisofTurbostraticGrapheneDerivedfromBiomassWasteUsingLongPulse
+JouleHeatingTechnique.Nanomaterials2025,15,468.[CrossRef]
+54. Ferrari,A.C.;Basko,D.M.Ramanspectroscopyasaversatiletoolforstudyingthepropertiesofgraphene.Nat.Nano.2013,8,
+235–246.[CrossRef][PubMed]
+55. Homayounfard, A.M.; Maleki, M.; Ghanbari, H.; Kahnamouei, M.H.; Safaei, B. Growth of few-layer flower-like MoS
+2
+on heteroatom-doped activated carbon as a hydrogen evolution reaction electrode. Int. J. Hydrogen Energy 2024,
+55,1360–1370.[CrossRef]
+56. Rajasekaran,S.J.;Raghavan,V.FacilesynthesisofactivatedcarbonderivedfromEucalyptusglobulusseedasefficientelectrode
+materialforsupercapacitors.Diam.Relat.Mater2020,109,108038.[CrossRef]
+57. Vijayakumar,M.;BharathiSankar,A.;SriRohita,D.;Nanaji,K.;NarasingaRao,T.;Karthik,M.AchievingHighVoltageand
+ExcellentRateCapabilitySupercapacitorElectrodesDerivedFromBio-renewableandSustainableResource.ChemistrySelect2020,
+5,8759–8772.[CrossRef]
+58. Lin,P.;Xia,Y.;Liu,Z.InfluenceofDifferentActivatorsontheStructureandPropertiesofActivatedCarbonBasedonBamboo
+Fiber.Polymers2022,14,5500.[CrossRef]
+59. Zhang,L.;Tu,L.-y.;Liang,Y.;Chen,Q.;Li,Z.-s.;Li,C.-h.;Wang,Z.-h.;Li,W.Coconut-basedactivatedcarbonfibersforefficient
+adsorptionofvariousorganicdyes.RSCAdv.2018,8,42280–42291.[CrossRef]
+60. Shrestha,D.;Maensiri,S.;Wongpratat,U.;Lee,S.W.;Nyachhyon,A.R.Shorearobustaderivedactivatedcarbondecoratedwith
+manganesedioxidehybridcompositeforimprovedcapacitivebehaviors.J.Environ.Chem.Eng.2019,7,103227.[CrossRef]
+61. Bejjanki,D.;Banothu,P.;Kumar,V.B.;Kumar,P.S.Biomass-DerivedN-DopedActivatedCarbonfromEucalyptusLeavesasan
+EfficientSupercapacitorElectrodeMaterial.C2023,9,24.[CrossRef]
+62. Sukhbaatar,B.;Qing,W.;Seo,J.;Yoon,S.;Yoo,B.Uniformlydispersedrutheniumnanoparticlesonporouscarbonfromcoffee
+wasteoutperformplatinumforhydrogenevolutionreactioninalkalinemedia.Sci.Rep.2024,14,5850.[CrossRef][PubMed]
+63. Mahmood,N.;Yao,Y.;Zhang,J.-W.;Pan,L.;Zhang,X.;Zou,J.-J.ElectrocatalystsforHydrogenEvolutioninAlkalineElectrolytes:
+Mechanisms,Challenges,andProspectiveSolutions.Adv.Sci.2018,5,1700464.[CrossRef]
+64. Sukhbaatar,B.;Yoon,S.;Yoo,B.SimplesynthesisofaCoOnanoparticle-decoratednitrogen-dopedcarboncatalystfromspent
+coffeegroundsforalkalinehydrogenevolution.J.Mater.Sci.2022,57,18075–18088.[CrossRef]
+65. Shinagawa,T.;Garcia-Esparza,A.T.;Takanabe,K.InsightonTafelslopesfromamicrokineticanalysisofaqueouselectrocatalysis
+forenergyconversion.Sci.Rep.2015,5,13801;CorrectioninSci.Rep.2020,10,1–1.[CrossRef]
+66. Yan,X.;Jia,Y.;Odedairo,T.;Zhao,X.;Jin,Z.;Zhu,Z.;Yao,X.Activatedcarbonbecomesactiveforoxygenreductionandhydrogen
+evolutionreactions.Chem.Commun.2016,52,8156–8159.[CrossRef]
+67. Chinnadurai,D.;Karuppiah,P.;Chen,S.-M.;Kim,H.-j.;Prabakar,K.Metal-freemultiporouscarbonforelectrochemicalenergy
+storageandelectrocatalysisapplications.NewJ.Chem.2019,43,11653–11659.[CrossRef]
+68. Sathiskumar,C.;Ramakrishnan,S.;Vinothkannan,M.;RhanKim,A.;Karthikeyan,S.;Yoo,D.J.Nitrogen-DopedPorousCarbon
+Derived from Biomass Used as Trifunctional Electrocatalyst toward Oxygen Reduction, Oxygen Evolution and Hydrogen
+EvolutionReactions.Nanomaterials2020,10,76.[CrossRef]
+69. Xia,C.;Surendran,S.;Ji,S.;Kim,D.;Chae,Y.;Kim,J.;Je,M.;Han,M.-K.;Choe,W.-S.;Choi,C.H.;etal. Asulfurself-doped
+multifunctionalbiocharcatalystforoverallwatersplittingandasupercapacitorfromCamelliajaponicaflowers.CarbonEnergy
+2022,4,491–505.[CrossRef]
+70. Thomas, A.; Padmanabhan, N.T.; Jelmy, E.J.; Gopinath, P.; John, H. Multifunctional carbonaceous materials derived from
+tea waste: Towards sustainable solutions for wastewater treatment and hydrogen evolution. Clean Waste Syst. 2025,
+10,100233.[CrossRef]
+71. Hoang,V.C.;Dinh,K.N.;Gomes,V.G.HybridNi/NiOcompositewithN-dopedactivatedcarbonfromwastecauliflowerleaves:
+Asustainablebifunctionalelectrocatalystforefficientwatersplitting.Carbon2020,157,515–524.[CrossRef]
+72. Sekar,S.;Kim,D.Y.;Lee,S.ExcellentOxygenEvolutionReactionofActivatedCarbon-AnchoredNiONanotabletsPreparedby
+GreenRoutes.Nanomaterials2020,10,1382.[CrossRef][PubMed]
+73. Sankar, S.; Ahmed, A.T.A.; Inamdar, A.I.; Im, H.; Im, Y.B.; Lee, Y.; Kim, D.Y.; Lee, S. Biomass-derived ultrathin meso-
+porous graphitic carbon nanoflakes as stable electrode material for high-performance supercapacitors. Mater. Des. 2019,
+169,107688.[CrossRef]
+74. Wang,J.;Kaskel,S.KOHactivationofcarbon-basedmaterialsforenergystorage.J.Mater.Chem.2012,22,23710–23725.[CrossRef]
+75. Sekar,S.;Sadhasivam,S.;Shanmugam,A.;Saravanan,S.;Pugazhendi,I.;Lee,Y.;Kim,D.Y.;Manikandan,R.;Chang,S.-C.;Lee,
+S.EnhancedbifunctionalwaterelectrolysisperformanceofsphericalZnMn O nanoparticles. Int. J.HydrogenEnergy2025,
+2 4
+141,721–728.[CrossRef]
+76. Ahmed,A.T.A.;Ansari,A.S.;Sree,V.G.;Jana,A.;Meena,A.;Sekar,S.;Cho,S.;Kim,H.;Im,H.Nitrogen-DopedCuO@CuS
+Core–ShellStructureforHighlyEfficientCatalyticOERApplication.Nanomaterials2023,13,3160.[CrossRef]
+
+Int.J.Mol.Sci.2025,26,8502 14of14
+77. Singh, D.K.; Jenjeti, R.N.; Sampath, S.; Eswaramoorthy, M. Two in one: N-doped tubular carbon nanostructure as an ef-
+ficient metal-free dual electrocatalyst for hydrogen evolution and oxygen reduction reactions. J. Mater. Chem. A 2017,
+5,6025–6031.[CrossRef]
+78. Kumar,M.;Nagaiah,T.C.ANiCu–MoS electrocatalystforpH-universalhydrogenevolutionreactionandZn–airbatteriesdriven
+2
+self-powerwatersplitting.J.Mater.Chem.A2023,11,18336–18348.[CrossRef]
+79. Chen,H.;Luo,X.;Huang,S.;Yu,F.;Li,D.;Chen,Y.Phosphorus-dopedactivatedcarbonasaplatinum-basedcatalystsupportfor
+electrocatalytichydrogenevolutionreaction.J.Electroanal.Chem.2023,948,117820.[CrossRef]
+Disclaimer/Publisher’sNote: Thestatements, opinionsanddatacontainedinallpublicationsaresolelythoseoftheindividual
+author(s)andcontributor(s)andnotofMDPIand/ortheeditor(s).MDPIand/ortheeditor(s)disclaimresponsibilityforanyinjuryto
+peopleorpropertyresultingfromanyideas,methods,instructionsorproductsreferredtointhecontent.
+

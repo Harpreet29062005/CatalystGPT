@@ -1,0 +1,949 @@
+ARTICLE
+OPEN
+https://doi.org/10.1038/s41467-020-19277-9
+Fast site-to-site electron transfer of high-entropy
+alloy nanocatalyst driving redox electrocatalysis
+Hongdong Li1, Yi Han1, Huan Zhao1, Wenjing Qi2, Dan Zhang1,3, Yaodong Yu1, Wenwen Cai1, Shaoxiang Li3,
+✉ ✉ ✉
+Jianping Lai1 , Bolong Huang 4 & Lei Wang 1,3
+Designingelectrocatalystswithhigh-performanceforbothreductionandoxidationreactions
+faces severe challenges. Here, the uniform and ultrasmall (~3.4nm) high-entropy alloys
+(HEAs)Pt Ni Fe Co Cu nanoparticlesaresynthesizedbyasimplelow-temperatureoil
+18 26 15 14 27
+phase strategy at atmospheric pressure. The Pt Ni Fe Co Cu /C catalyst exhibits
+18 26 15 14 27
+excellent electrocatalytic performance for hydrogen evolution reaction (HER) and methanol
+oxidationreaction(MOR).Thecatalystshowsultrasmalloverpotentialof11mVatthecurrent
+densityof10mAcm−2,excellentactivity(10.96Amg−1 at−0.07Vvs.reversiblehydrogen
+Pt
+electrode) and stability in the alkaline medium. Furthermore, it is also the efficient catalyst
+(15.04Amg−1 ) ever reported for MOR in alkaline solution. Periodic DFT calculations
+Pt
+confirmthemulti-activesitesforbothHERandMORontheHEAsurfaceasthekeyfactorfor
+both proton and intermediate transformation. Meanwhile, the construction of HEA surfaces
+supplies the fast site-to-site electron transfer for both reduction and oxidation processes.
+1KeyLaboratoryofEco-chemicalEngineering,KeyLaboratoryofOptic-electricSensingandAnalyticalChemistryofLifeScience,TaishanScholarAdvantage
+andCharacteristicDisciplineTeamofEcoChemicalProcessandTechnology,CollegeofChemistryandMolecularEngineering,QingdaoUniversityofScience
+andTechnology,266042Qingdao,P.R.China.2CollegeofChemistry,ChongqingNormalUniversity,401331Chongqing,P.R.China.3ShandongEngineering
+ResearchCenterforMarineEnvironmentCorrosionandSafetyProtection,CollegeofEnvironmentandSafetyEngineering,QingdaoUniversityofScienceand
+Technology,266042Qingdao,P.R.China.4DepartmentofAppliedBiologyandChemicalTechnology,TheHongKongPolytechnicUniversity,HungHom,
+✉
+Kowloon,HongKongSAR,China. email:jplai@qust.edu.cn;bhuang@polyu.edu.hk;inorchemwl@126.com
+NATURECOMMUNICATIONS| (2020) 11:5437 |https://doi.org/10.1038/s41467-020-19277-9|www.nature.com/naturecommunications 1
+;,:)(0987654321
+
+ARTICLE
+NATURECOMMUNICATIONS|https://doi.org/10.1038/s41467-020-19277-9
+E
+lectrocatalyticprocessesplayavitalroleinenergyconversion inset in Fig. 1a). The high-resolution TEM (HRTEM) (Fig. 1c)
+andreducingtheenvironmentalpollution1–5.Toimprovethe
+image of Pt Ni Fe Co Cu NPs exhibits that the lattice
+18 26 15 14 27
+activity, selectivity, and stability of the catalytic reaction, it is spacing is 0.218nm, corresponding to the (111) facet. The pow-
+necessarytodevelophigh-performanceadvancedcatalyststhatcan der X-ray diffraction (PXRD) pattern (Supplementary Fig. 1a)
+meet the needs of rapid
+development6–12.
+High-entropy alloys suggests the fcc structure of the NPs-HEAs, the two peaks at
+(HEAs)haveattractedwideinterestascatalyticmaterialsinthepast around 41.1o and 47.8o, which can be assigned to the (111) and
+fewyears13–16.Thealloycontainsfiveormoreelementswhichhave
+(200) facets. The position of the broad diffraction peak is sig-
+similar atomic ratios16,17. The atomic size of each component is nificantshiftcomparedwiththediffractionpeaksofpurePt,Ni,
+different,whichcancauselatticedistortion18.Besides,thepresence Fe, Co, and Cu (Supplementary Fig. 1b), it shows that these
+ofmultiplecomponentsisconducivetopromotingtheformationof elements have been introduced into the nanostructure to form
+the solid solution phase and inhibiting the movement of disloca- HEAs structure. Figure 1d shows the elemental maps of NPs-
+tions. These characteristics of HEA lead to some unique char- HEAs,Pt,Ni,Fe,Co,andCuelementsareuniformlydistributed
+acteristics, such as strong fracture toughness, corrosion resistance, in the HEA nanostructure.
+andhighmechanicalstrength19–21.TheultimategoalofHEAisto
+The X-ray photoelectron spectroscopy (XPS) of Pt Ni Fe -
+18 26 15
+adaptthesecharacteristicstoanydesiredresponsebyusingalmost Co Cu NPs was tested, it also shows the presence of these Pt,
+14 27
+infinite possible combinations of elements and modifying their Ni,Fe,Co,andCuelements(SupplementaryFig.2a),theatomic
+composition. In catalysis field, the adsorption of molecules and ratioofPt,Ni,Fe,Co,andCuwas21.2:27.4:15.2:13.7:22.5,further
+intermediates species on the surface of the catalyst affects the cat- proving that the HEA was successfully prepared. As shown in
+alytic activity13,22. These adsorption energies can be adjusted by SupplementaryFig.2b,thePt4f andPt4f peaksarelocated
+7/2 5/2
+alloying as compared to pure elements to increase catalytic activ- at 71.3 and 74.7eV, respectively. Pt mainly exists in the form of
+ity23–25. Recently, some HEAs had used as catalysts for electro- zero valences and a small amount of 2+ valence29. The Ni 2p
+catalytic reactions, which display superior stability and catalytic
+spectradisplaythecoexistenceofNi0(852.8eV)andNi2+
+(855.6
+selectivity and activity compared with traditional
+alloys13,26–30.
+eV) and a satellite peak locate at 861.6eV (Supplementary
+However,thetraditionalmethodmainlyproducebulkHEAsrather Fig. 2c), the content of Ni0 is lower than the content of Ni2+
+than nanostructures26,31–34. Moreover, the preparation of uniform becauseofthehighchemicalactivityofNi28,29.TheFe2pspectra
+nanostructured HEAs with small size (<10nm) currently requires inSupplementaryFig.2dshowstwopeaksat711.6eVand724.8
+specific equipment (fast heating/cooling rate, ~105K per second), eV,whichcanbeattributedtoFe2p andFe2p ,respectively.
+3/2 1/2
+high temperature (~2000 kelvin), and high temperature resistant ThetwoCo2ppeakscanbeassignedtoCo2p (780.8eV)and
+3/2
+and conductive substrate (carbon nanofiber), such as carbon- Co 2p (797.0eV) (Supplementary Fig. 2e). The Cu 2p spectra
+1/2
+thermal shock method35. (Supplementary Fig. 2f) also exhibits Cu0 (931.7eV) and Cu2+
+Inthis work,takingintoaccountthe highabundanceofNi, Fe, (933.5eV) peaks coexist in the sample.
+Co,andCuandtheycaneasilyformsolidsolutionswithPt.These
+transition metal elements are selected because their similar atomic
+radiusandlowerheatofformationmakethemlikelytoformstable Electrocatalytic performance tests toward HER. In order to
+HEAs20,28. In addition, the DFT calculation provides a means to study the electrocatalytic performance of PtNiFeCoCu/C, we
+betterunderstandthecatalyticprocessanddirectcatalyticdesign13. further treated with acetic acid to remove residual surfactants.
+Basedonthis,wesynthesizethesmallsize(~3.4nm)anduniform FromtheFTIRspectrum(SupplementaryFig.3),theaceticacid-
+HEA Pt Ni Fe Co Cu nanoparticles (NPs) by a simple low- treated sample (the purified PtNiFeCoCu/C), no obvious char-
+18 26 15 14 27
+temperature oil phase synthesis method at atmospheric pressure. acteristic peaks corresponding to oleylamine and CTAC were
+The Pt Ni Fe Co Cu /C catalyst displays a low overpotential observed36.TheHER(reductionreaction)activityandstabilityof
+18 26 15 14 27
+(11mVat10mAcm −2),theactivityof10.96Amg −1 at−0.07V thePt Ni Fe Co Cu /Ccatalystwereinvestigatedbyaseries
+Pt 18 26 15 14 27
+vs. reversible hydrogen electrode (RHE) for HER (reduction reac- ofelectrochemicaltestsandcomparedwithcommercialPt/C.The
+tion)in1MKOHsolution,andthroughthechronoamperometric Ptsize(about3.0nm,SupplementaryFig.4)onthePt/Ccatalyst
+methodand10,000thCVtests,itindicatesthatthenotablestability is similar to the size of HEA particles, so the electrocatalytic
+of the HEA catalyst. We further also measure the electrocatalytic activity can be reasonably compared based on surface Pt sites.
+activityofPt Ni Fe Co Cu /CforMOR(oxidationreaction)at Figure 2a shows the CV curves of Pt Ni Fe Co Cu /C and
+18 26 15 14 27 18 26 15 14 27
+1M KOH+1M CH OH electrolyte, it also exhibited high mass commercial Pt/C catalysts in N -saturated 1M KOH at a scan
+3 2
+activity (15.04Amg
+−1
+). Theoretical calculations reveal that each rateof20mVs
+−1.Afteractivation,thelinearsweepvoltammetry
+Pt
+element in HEA displays different contributions for the electro- (LSV)curveofthePt Ni Fe Co Cu /Ccatalystdisplaysalow
+18 26 15 14 27
+catalysis process, which promotes the site-to-site electron transfer overpotential of 11mV at the current density of 10mAcm
+−2
+and thestabilizationof theintermediates.HEA showed the multi- (normalized to the electrode area), which is far superior to
+active sites for both HER and MOR for achieving superior per- commercialPt/Ccatalyst(84mV)(Fig.2b).AsshowninFig.2b,
+formanceand stability. d, the area activity (normalized to the geometric area) of NPs-
+HEAsPt Ni Fe Co Cu /Ccatalystreaches83.78mAcm
+−2at
+18 26 15 14 27
+−0.07Vvs.RHE,farmorethanareaactivityofcommercialPt/C
+Results catalyst (8.42mAcm −2 at −0.07V vs. RHE). From the Fig. 2c
+Synthesis and characterizations of PtNiFeCoCu HEA NPs. (LSV curves, normalized to the Pt mass), the mass activity for
+PtNiFeCoCu HEA NPs were prepared through a simple one-pot commercial Pt/C catalyst and Pt Ni Fe Co Cu /C catalyst
+18 26 15 14 27
+oil phase synthesis method at 220°C for 2h. The inductively are 0.83Amg −1 and 10.96Amg −1 at −0.07V vs. RHE
+Pt Pt
+coupled plasma atomic emission spectroscopy (ICP-AES) result (Fig. 2d), respectively. And the Pt Ni Fe Co Cu /C catalyst
+18 26 15 14 27
+shows that the atomic ratio of Pt, Ni, Fe, Co, and Cu was alsoexhibitshigherHERperformanceinalkalinemediumamong
+18:26:15:14:27 (Supplementary Table 1), the prepared NPs-HEA the reported Pt-based catalysts and HEAs catalysts (Supplemen-
+was named Pt Ni Fe Co Cu . As shown in Fig. 1a, b, the tary Table 7). As shown in Fig. 2e, the Tafel slopes of Pt Ni -
+18 26 15 14 27 18 26
+transmission electron microscopy (TEM) images of Pt Ni - Fe Co Cu /C and Pt/C are 30mV dec
+−1
+and 98mV dec
+−1,
+18 26 15 14 27
+Fe Co Cu NPs display the morphology is uniform, and the respectively, which demonstrate that the HEAs catalyst greatly
+15 14 27
+diameterofPt Ni Fe Co Cu NPsisabout3.4±0.6nm(the boosts HER kinetics.
+18 26 15 14 27
+2 NATURECOMMUNICATIONS| (2020) 11:5437 |https://doi.org/10.1038/s41467-020-19277-9|www.nature.com/naturecommunications
+
+a 3.4 ± 0.6 nm b
+Diameter (nm)
+50 nm 20 nm
+c d
+Pt Ni
+d(111) = 0.218 nm
+5 nm Fe Co Cu
+To better understand the HER performance of the Pt Ni Fe - NPs-HEAs can expose more active sites. Also, electrochemical
+18 26 15
+Co Cu /C catalyst, we tested the electrochemical double-layer impedance spectra (Supplementary Fig. 6) exhibits Pt Ni Fe -
+14 27 18 26 15
+capacitance, electrochemical impedance spectra, and turnover Co Cu /C catalyst has a smaller semicircular diameter than
+14 27
+frequency (TOF). We found that the electrochemical double-layer commercial Pt/C catalyst, the transfer resistance of Pt Ni Fe -
+18 26 15
+capacitanceofPt Ni Fe Co Cu /Ccatalystishigherthanthatof Co Cu /C is much lower than that of commercial Pt/C catalysts,
+18 26 15 14 27 14 27
+commercialPt/Ccatalyst(SupplementaryFig.5),indicatingthatthe indicating higher interfacial charge transfer rate and faster HER
+ycnauqerF
+2 3 4 5
+Fig.1TEMimagesandelementalmappinganalysis.a,bTEMimagesofPt Ni Fe Co Cu nanoparticles.cHRTEMimageofPt Ni Fe Co Cu
+18 26 15 14 27 18 26 15 14 27
+nanoparticles.dThecorrespondingelementalmappingofPt Ni Fe Co Cu nanoparticles(scalebar,5nm).
+18 26 15 14 27
+2
+1
+0
+−1
+−2
+0.0 0.2 0.4 0.6 0.8 1.0 1.2 1.4
+Potential (V vs. RHE) Potential (V vs. RHE) Potential (V vs. RHE)
+)2−mc
+Am(
+j
+) tp
+1−gm
+A(
+j
+)2−mc
+Am(
+j
+)2−mc
+Am(
+j
+) 1−gm
+A(
+j
+)2−mc
+Am(
+j
+tp
+Pt/C 0 0
+Pt Ni Fe Co Cu /C
+18 26 15 14 27
+−20
+Pt/C
+−40 P P t t/C Ni Fe Co Cu /C −5 Pt 18 Ni 26 Fe 15 Co 14 Cu 27 /C 18 26 15 14 27
+−60
+−80 –70 mV −10 −70 mV
+−100
+−120 −15
+−0.2 −0.1 0.0 −0.2 −0.1 0.0
+0.15
+Pt/C 0 Initial
+Pt 18 Ni 26 Fe 15 Co 14 Cu 27 /C After 1000th 0.10 −20 After 10000th
+−40
+0.05 98 mV/decade
+−60
+−80
+0.00 30 mV/decade
+−100
+Pt/C Pt Ni Fe Co Cu /C −0.05 −120
+18 26 15 14 27 0.0 0.5 1.0 1.5 2.0 −0.2 −0.1 0.0
+Log[-j (mA cm−2)] Potential (V vs. RHE)
+)V(
+latitnetoprevO
+ARTICLE
+NATURECOMMUNICATIONS|https://doi.org/10.1038/s41467-020-19277-9
+a b c
+d e f
+12
+Mass activity 80 Area activity
+9
+60
+6
+40
+3 20
+0 0
+Fig.2ElectrocatalyticperformanceofthePt Ni Fe Co Cu /CandPt/CforHERin1MKOHelectrolyte.aCVcurves.bHERpolarizationcurves
+18 26 15 14 27
+(geometricalarea).cPtmassloadingnormalized(massactivity)LSVcurves.dComparisonofareaactivityandmassactivityvaluesforHERat−70mVvs.
+RHE.eTafelslope.fHERpolarizationcurves(geometricalarea)forPt Ni Fe Co Cu /CwithdifferentCVcycle.
+18 26 15 14 27
+NATURECOMMUNICATIONS| (2020) 11:5437 |https://doi.org/10.1038/s41467-020-19277-9|www.nature.com/naturecommunications 3
+
+ARTICLE
+NATURECOMMUNICATIONS|https://doi.org/10.1038/s41467-020-19277-9
+kinetics.TheTOFvalueisusedtocharacterizetheactivityofeachsite mg −1 at−0.07Vvs.RHE)≈PtNiFeCoCu /C(82.66mAcm −2
+Pt 26
+in the catalyst37. It is found that the TOF value of the and10.81Amg −1 at−0.07Vvs.RHE)>Pt Ni Fe Co Cu /
+Pt 21 27 19 17 16
+Pt Ni Fe Co Cu /C catalyst is higher than Pt/C catalyst under C (74.21mAcm −2 and 9.65Amg −1 at −0.07V vs. RHE)>
+18 26 15 14 27 Pt
+various potentials (Supplementary Fig. 7), which shows the faster Pt Ni Fe Co Cu /C (59.76mAcm
+−2
+and 7.88Amg
+−1
+at
+15 24 13 13 35 Pt
+HER kinetics of Pt Ni Fe Co Cu /C catalyst. These results −0.07V vs. RHE).
+18 26 15 14 27
+furtherindicatethattheNPs-HEAscanimprovethecatalyticactivity
+effectively.
+The stability of the catalysts was checked using the chron- Electrocatalytic performance tests toward MOR. To further
+oamperometricmethodand10,000thCVin1.0MKOHsolution. explorethePt Ni Fe Co Cu /Ccatalystasredoxbi-function
+18 26 15 14 27
+The stability of the Pt Ni Fe Co Cu /C and Pt/C catalysts electrocatalysts, we tested the MOR (oxidation reaction) activity.
+18 26 15 14 27
+were measured at an overpotential of 11mV and 84mV (under As shown in Fig. 3a and Supplementary Fig. 25, the Pt Ni -
+18 26
+current density 10mAcm
+−2
+condition, Supplementary Fig. 8), Fe Co Cu /C catalyst shows higher activity compared to Pt/C
+15 14 27
+respectively. After 10h test, 99% of the current density is catalyst for MOR in 1M KOH+1M CH OH electrolyte at a
+3
+maintained for the Pt Ni Fe Co Cu /C catalyst, while the sweep rate of 20mVs
+−1.
+And an onset potential (the mass
+18 26 15 14 27
+current density of the Pt/C catalyst is only kept about 53%. To activity of 0.1Amg
+−1
+) was observed to decrease by 133mV in
+pt
+furtherevaluatethestabilityofPt Ni Fe Co Cu /CandPt/C the Pt Ni Fe Co Cu /C catalyst compared to the Pt/C cata-
+18 26 15 14 27 18 26 15 14 27
+catalysts, the 1000th and 10,000th CV cycles in 1M KOH lyst(theinsetofFig.3a),indicatingthattheactivationbarrierof
+solution were performed. Figure 2f displays the LSV curves of methanol oxidation is lower. The Pt Ni Fe Co Cu /C cata-
+18 26 15 14 27
+Pt Ni Fe Co Cu /C catalyst before and after 1000th and lyst achieves 10 times (4 times) higher in mass activity and area
+18 26 15 14 27
+10,000th CV cycles. There is no obvious negative shift at the activity (15.04Amg
+−1
+, 114.93mAcm
+−2)
+than that of Pt/C
+pt
+current density of 10mAcm
+−2,
+exhibiting higher stability than catalyst (1.45Amg
+−1
+, 27.48mAcm
+−2)
+at peak potential for
+pt
+Pt/Ccatalyst(SupplementaryFig.9,anegativeshiftof∼33mVat MOR (Fig. 3b). In addition, the MOR performance of PtNiFe-
+10mAcm
+−2
+after 10,000th CV cycles). In addition, the CoCu /CcatalystissimilartothatofthePt Ni Fe Co Cu /
+26 18 26 15 14 27
+morphology (Supplementary Fig. 10), the atomic ratio (Supple- Ccatalyst,theMORperformanceofPt Ni Fe Co Cu /Cand
+21 27 19 17 16
+mentary Table 1), lattice spacing and the XRD peaks (Supple- Pt Ni Fe Co Cu /C catalysts is slightly lower than the
+15 24 13 13 35
+mentary Fig. 11) of catalyst do not change significantly after the Pt Ni Fe Co Cu /C catalyst. (Supplementary Fig. 26 and
+18 26 15 14 27
+stabilitytest.Inaddition,theslightvariationsinthestoichiometry Supplementary Table6). Moreover, among recently reported the
+(SupplementaryTable2)aftertheelectrocatalytictestwascaused Pt-based materials for MOR in alkaline medium, the Pt Ni -
+18 26
+by the leaching of non-noble metals (Ni, Fe, Co, and Cu) in the Fe Co Cu /C catalyst exhibits higher mass activity (Supple-
+15 14 27
+catalyst38,39.XPSanalysis(SupplementaryFig.12)showsthatthe mentary Table 8).
+Pt 4f, Ni 2p, Fe 2p, Co 2p, and Cu 2p spectra of TostudythestabilityofthePt Ni Fe Co Cu /CandPt/C
+18 26 15 14 27
+Pt Ni Fe Co Cu /C were very similar before and after catalystsinMOR,thechronoamperometrytestat0.65Vvs.RHE
+18 26 15 14 27
+electrocatalysis, while the oxide species increased slightly and 1000 CV cycles were executed. After 5000s chronoampero-
+(Supplementary Table 3). However, the Pt/C catalyst shows metry test (Fig. 3c), the Pt Ni Fe Co Cu /C (3.79Amg
+−1
+)
+18 26 15 14 27 pt
+obvious aggregation after the stability test (Supplementary catalystshowshigherstabilitythanthatofcommercialPt/C(0.20
+Fig. 13). These results further suggest the excellent stability of Amg
+−1
+). After 1000 CV cycles, the mass activity of the
+pt
+the Pt Ni Fe Co Cu /C catalyst. Pt Ni Fe Co Cu /C and Pt/C catalysts decay by about 6.4%
+18 26 15 14 27 18 26 15 14 27
+Furthermore, taking the change of Cu element content as an and 26.9% (Fig. 3d and Supplementary Fig. 28a), further
+example, the effect of stoichiometry variations on the electro- confirmed the excellent stability of Pt Ni Fe Co Cu /C
+18 26 15 14 27
+catalytic performance is discussed. Specifically, this synthesis catalyst. From Supplementary Figs. 27, 28, the order of catalysts
+method is used to prepare PtNiFeCoCu NPs with other Cu stability is as follows: Pt Ni Fe Co Cu /C≈PtNiFeCoCu /
+18 26 15 14 27 26
+content (PtNiFeCoCu with slight stoichiometry variations, C>Pt Ni Fe Co Cu /C>Pt Ni Fe Co Cu /C. And the
+26 21 27 19 17 16 15 24 13 13 35
+Pt Ni Fe Co Cu and Pt Ni Fe Co Cu ) by changing morphology and element ratio of PtNiFeCoCu/C catalyst with
+21 27 19 17 16 15 24 13 13 35
+the amount of Cu precursor. From Supplementary Fig. 14, the different rations did not obvious change after stability test
+morphologyandsizeofthePtNiFeCoCu ,Pt Ni Fe Co Cu (Supplementary Figs. 29, 30, Supplementary Table 1). However,
+26 21 27 19 17 16
+and Pt Ni Fe Co Cu are similar to Pt Ni Fe Co Cu thePt/Ccatalystshowsobviousaggregationafterthestabilitytest
+15 24 13 13 35 18 26 15 14 27
+NPs.ThePXRDpattern(SupplementaryFig.15)suggeststhefcc (SupplementaryFig.30d).XPSspectrum(SupplementaryFig.31)
+structure of the PtNiFeCoCu , Pt Ni Fe Co Cu and shows that the Pt 4f, Ni 2p, Fe 2p, Co 2p, and Cu 2p spectra of
+26 21 27 19 17 16
+Pt Ni Fe Co Cu NPs. The HER performance of PtNiFe- Pt Ni Fe Co Cu /CwereverysimilarbeforeandafterMOR
+15 24 13 13 35 18 26 15 14 27
+CoCu /C catalyst with slight stoichiometry variations (Supple- electrocatalysis. These test results indicate that the NPs-HEAs
+26
+mentary Figs. 16–24 and Supplementary Table 5) has no catalyst achieves double enhancement of catalytic activity and
+significantchangecomparedwithPt Ni Fe Co Cu /C(PtNi- stability.
+18 26 15 14 27
+FeCoCu /C). After activation (Supplementary Fig. 16), the In MOR, the main route for catalyst deactivation is the
+27
+PtNiFeCoCu /C catalyst has close overpotential (11mV, Sup- poisoning effect of CO
+intermediates40–42.
+The I/I (I: forward
+26 f b f
+plementary Fig. 17a), area activity and mass activity (82.66mA current density, I : backward current density) ratio of Pt Ni -
+b 18 26
+cm −2 and 10.81Amg −1 at −0.07V vs. RHE, Supplementary Fe Co Cu /C catalyst (3.26) is larger than that of Pt/C (2.31),
+Pt 15 14 27
+Fig. 17a–c), Tafel slope (30mV dec −1, Supplementary Fig. 18a), which shows the strong CO anti-poisoning performance of
+electrochemical double-layer capacitance (7.01 mF, Supplemen- Pt Ni Fe Co Cu /C catalyst. And from CO stripping curves
+18 26 15 14 27
+tary Fig. 19a, d), electrochemical impedance (Supplementary (Supplementary Fig. 32), the onset potentials of the Pt Ni -
+18 26
+Fig. 20a), TOF value (Supplementary Fig. 21a, c) and stability Fe Co Cu /C (0.391V vs. RHE) display a 181mV decrease
+15 14 27
+(Supplementary Figs. 22–24) compared with PtNiFeCoCu /C comparedwithPt/C(0.572Vvs.RHE)catalyst.PtNiFeCoCu /C
+27 26
+catalyst. In addition, the HER performance of Pt Ni Fe - (0.398V vs. RHE), Pt Ni Fe Co Cu /C (0.395V vs. RHE),
+21 27 19 21 27 19 17 16
+Co Cu /C and Pt Ni Fe Co Cu /C catalysts (Supplemen- and Pt Ni Fe Co Cu /C (0.413V vs. RHE) catalysts have
+17 16 15 24 13 13 35 15 24 13 13 35
+tary Figs. 16–24 and Supplementary Table 5) is slightly lower analogous onset potentials to Pt Ni Fe Co Cu /C. It further
+18 26 15 14 27
+thanthePt Ni Fe Co Cu /Ccatalyst.Theorderofactivityis shows that the PtNiFeCoCu/C catalyst has better CO anti-
+18 26 15 14 27
+asfollows:Pt Ni Fe Co Cu /C(83.78mAcm
+−2and10.96A
+poisoning performance.
+18 26 15 14 27
+4 NATURECOMMUNICATIONS| (2020) 11:5437 |https://doi.org/10.1038/s41467-020-19277-9|www.nature.com/naturecommunications
+
+Pt/C
+Pt Ni Fe Co Cu /C 18 26 15 14 27 Pt/C
+Pt18Ni26Fe15Co14Cu27/C
+Potential (V vs. RHE)
+Pt/C Pt Ni Fe Co Cu /C
+18 26 15 14 27
+Potential (V vs. RHE)
+Pt/C
+Pt Ni Fe Co Cu /C 18 26 15 14 27
+Potential (V vs. RHE)
+DFT studies. We applied periodic DFT calculations to explore evident upshift towards the E , which promotes the electron
+F
+the HER and MOR performances in HEA. It is well known that transfer for the HEA surfaces. Fe shows a site-independent
+the surface composition of the catalyst affects the catalytic per- electronic structure within HEA, which preserves the stable
++
+formance. We use Ar sputtering to studythe changein surface adsorption of intermediates with stronger anti-poisoning cap-
+elementcontentofthePtNiFeCoCuNPs43.AfterAr + sputtering ability for the MOR process. From the bulk structure to the
+for10s,therelativecontentoftheelementshasbeenreduced,but surfacesite,Cositesdisplayanalleviationofthee -t splitting
+g 2g
+thereducedcontentsofNi,Cu,and Fewereslightlyhigherthan effect, supporting an enhanced electron transfer efficiency for
+that of Pt and Co (Supplementary Table 4). We have also com- electrocatalysis. Both Ni exhibits the relatively stable d-band-
+paredthePDOSoftheHEAwithslightlydifferentstoichiometry. center to maintain the electroactive electron boosting center.
+AsshowninSupplementaryFig.33,thecomparisonmodelsshow For Cu sites closer to the surface, the 3d orbitals show a slight
+thehighlysimilarelectronicstructurewiththemodelsappliedin upshift trend to support the electroactivity of the HEA. Thus,
+thework,inwhichthepeakpositionsandpatternsofdorbitalsin the synergistic effect of multi-active sites on the HEA surface
+each element display very limited change. Therefore, the slight determines the remarkable performance of HER and MOR
+stoichiometry variations of the HEA will not significantly affect (Fig. 4d). For the HER process, the initial adsorption of water
+theelectronicstructureofthePDOSresults.Basedonthis,aftera determines the efficiency of water-splitting and the following
+detailed comparison of different random atomic arrangements, proton transfer. For the water adsorption process, the evident
+the HEA structure with slightly Ni and Cu enriched surface has downshift of s,p orbitals in H O has been noticed, which con-
+2
+been applied as the lattice model due to the highest stability firmstheactiveelectrontransferfromtheHEAtothewaterto
+(Fig.4a).Fromthesideview,thelatticehasshownahighlystable achievethestableadsorptionandlaysagoodfoundationforthe
+structure, in which the lattice shows subtle distortion after following water dissociation (Fig. 4e). Similarly, we notice the
+relaxation, which indicates good durability for electrocatalysis. adsorption of CH OH on HEA indicates the evident down-
+3
+Meanwhile, the surface Ni and Co dominate the electroactive shifting of s,p bands, and overlapping with electroactive d
+regionneartheFermilevel(E )(Fig.4b).Tofurtherunderstand orbitalsofthesurface(Fig. 4f).Forthemulti-electroninvolved
+F
+the electronic structures, the partial projected density of states MOR process, the linear correlation of intermediates transfor-
+(PDOSs) of each element in HEA has been illustrated. Notably, mationisthekeytoguaranteetheprotonandelectrontransfer.
+Pt-5doccupiesthedeepestpositionnearE −4.5eV(EV=0eV), Such a linear correlation is noticed for the s,p orbitals of key
+V
+playingastheelectronreservoirforthereductionprocesssuchas intermediatesalongtheMORprocess,whichnotonlysupports
+HER.BothCo-3dandNi-3dorbitalsdominatethebandsnearE , theefficientoxidationoftheintermediatesbutalsoleadstothe
+F
+whichlocateatE −1.0eV,contributingtotheelectrondepletion optimal binding strength during the intermediate transforma-
+V
+center for HER and MOR. Moreover, the 3d orbitals of Cu, Co, tion. Thus, superior MOR performance is guaranteed in the
+and Fe not only alleviate the energy barrier of dual-way electron HEA (Fig. 4g).
+transferfortheoxidationandreductionprocessbutalsofacilitate Then,wefurtherinterpretthereactiontrendforbothHERand
+the stabilization of intermediates for MOR (Fig. 4c). A detailed MOR from both the structural configuration and energetic
+study of the site-dependent PDOSs of each element was illu- reaction pathways. The most stable structural configurations of
+strated (Fig. 4d). Notably, only the surface Pt demonstrates an four key initial reactants and intermediates have been displayed.
+) tp
+1−gm
+A(
+j
+) tp
+1−gm
+A(
+j
+)tp1−gm
+A(
+j
+)
+1−gm
+A(
+j
+)
+1−gm
+A(
+j
+tp
+tp
+)2−mc
+Am(
+j
+ARTICLE
+NATURECOMMUNICATIONS|https://doi.org/10.1038/s41467-020-19277-9
+a b
+20 120
+Mass activity
+15 1.0 Area activity 100
+0.8 15
+0.6 80
+10 0.4
+0.2 412 mV 10 60
+0.0 545 mV
+0.2 0.4 0.6
+5 40
+5
+20
+0
+0 0
+0.0 0.2 0.4 0.6 0.8 1.0 1.2 1.4
+c d
+6
+Before
+5 15 After
+4
+10
+3
+2 5
+1
+0
+0
+0 1000 2000 3000 4000 5000 0.0 0.2 0.4 0.6 0.8 1.0 1.2 1.4
+Time (s)
+Fig.3Methanolelectro-oxidationperformanceofthePt Ni Fe Co Cu /CandPt/Cin1MKOH+1MCH OHelectrolyte.aCVcurves(theinsetis
+18 26 15 14 27 3
+theonsetpotential,themassactivityof0.1Amg−1 )ofPt/CandPt Ni Fe Co Cu /C.bPeakvaluesofmassactivityandareaactivity.
+pt 18 26 15 14 27
+cChronoamperometrictestsforMORat0.65Vvs.RHE.dCVcurvesofthePt Ni Fe Co Cu /Cbeforeandafter1000cycles.
+18 26 15 14 27
+NATURECOMMUNICATIONS| (2020) 11:5437 |https://doi.org/10.1038/s41467-020-19277-9|www.nature.com/naturecommunications 5
+
+The most stable adsorption of CH OH and H O locates near Ni the binding stability of the intermediates for the HER process,
+3 2
+andFesites,respectively.TheOHisstabilizedintheneighboring which supports the Volmer–Heyrovsky mechanism. The HER
+hollow sites, which avoids the active site blocking during both process supports a continuous downhill trend, confirming the
+HERandMOR.Meanwhile,theHadsorptionprefersthehollow efficient proton and electron transfer (Fig. 5c). Owing to the
+site near Ni and Co, which is distinct from the OH. Thus, the multi-active sites for OH and H, the water dissociation
+multi-site adsorption for HER and MOR process on HEA demonstratesalowactivationbarrierof0.11eVforthetransition
+guarantees superior performances (Fig. 5a). Moreover, we have state (Fig. 5d). For the MOR process, the rate-determining step
+supplied the adsorption sites mapping of the surface to support occurs at [CHO*+3*OH+3H O] to [HCOOH+2*OH+
+2
+theHERmechanism(Fig.5b).Notably,thedifferentsitesinHEA 4H O] with the largest energy barrier of 0.45eV. The transition
+2
+surfaces demonstrated very varied adsorption preference for the state displays the activation energy of 0.64eV. The overall MOR
+intermediates.ForHER,theinitialadsorptionofH Olocateson process is exothermic, which releases 2.34eV energy (Fig. 5e).
+2
+the Fe sites, which activates the dissociation of water molecules Theanti-poisoningcapabilityisanotheressentialrequirementfor
+andfacilitatesthestabilizationof*OHintheneighboringhollow the long-term application of MOR electrocatalysts. Compared to
+sites.Meanwhile,thenearbyNi,Coshowtherelativelypreferred MOR,theformationofCOshowsamuchlargerenergybarrierof
+H* adsorption after the water dissociation, leading to the 0.81eV and activation energy (0.94eV), resulting in the
+stabilization of H in the hollow sites surrounded by Co and Ni. suppression of the CO poisoning. The holistic reaction trend of
+The generated H shows overall weak binding to the surface, theCOpoisoningmechanismisalsomuchweakerthantheMOR
+2
+indicatingthequickdesorptionprocesstoguaranteetheefficient process, which explains both the superior electroactivity and
+HERprocess.Therefore,ouradditionalinformationhassupplied durability of the HEA (Fig. 5f).
+).U.A(
+SODP
+−8 −6 −4 −2 0 2 4 6
+Energy (eV)
+−8−6−4−2 0 2 4 6 −8−6−4−2 0 2 4 6 −8−6−4−2 0 2 4 6 −8−6−4−2 0 2 4 6 −8−6−4−2 0 2 4 6
+Energy (eV) Energy (eV) Energy (eV) Energy (eV) Energy (eV)
+7
+6
+5
+4
+3
+2
+1
+0
+−12 −10 −8 −6 −4 −2 0 2 4 6 −12 −10 −8 −6 −4 −2 0 2 4 6 −25−20−15−10 −5 0 5
+Energy (eV) Energy (eV) Energy (eV)
+)Ve/snortcele(
+SODP
+7
+6
+5
+4
+3
+2
+1
+0
+).U.A(
+SODP
+)Ve/snortcele(
+SODP
+).U.A(
+SODP
+).U.A(
+SODP
+)Ve/snortcele(
+SODP
+).U.A(
+SODP
+).U.A(
+SODP
+ARTICLE
+NATURECOMMUNICATIONS|https://doi.org/10.1038/s41467-020-19277-9
+a b c 5
+E
+F
+4
+Cu-3d Ni-3d
+3
+Co-3d
+2 Pt-5d Fe-3d
+1
+0
+d
+E E E E E
+F F F F F
+Pt-Sf Fe-Sf Co-Sf Ni-Sf Cu-Sf
+Pt-Bk Fe-Bk Co-Bk Ni-Bk Cu-Bk
+e f g
+EF CU-3d EF E F CO
+Free CH OH 2 CU-3d 3
+CHO*
+H 2 O* Ni-3d CH 3 O 2 H* Ni-3d Free H 2 O CH 2 O*
+Pt-5d
+Pt-5d Co-3d
+Co-3d CH 3 O*
+CHOH*
+Fe-3d 3
+Fe-3d
+CHOH
+3
+Fig.4DensityfunctionaltheorycalculationsforthestructuralconfigurationandPDOSs.aThesideviewofthestructuralconfigurationofHEA.bThe
+sideviewofHEAstructuralconfigurationandtherealspatialcontourplotsforbondingandanti-bondingorbitalsnearE.Andthetopviewofthereal
+F
+spatialcontourplotsforbondingandanti-bondingorbitalsnearE fortheHEA.Darkgreenballs=Pt;Grayballs=Fe;Blueballs=Co;Pinkballs=Niand
+F
+Orangeballs=Cu.cThePDOSsoftheHEA.dThesite-dependentPDOSsofPt,Fe,Co,Ni,andCuinHEA.eThePDOSsforthewateradsorption.fThe
+PDOSsfortheCH OHadsorption.gThePDOSsforthekeyintermediatesofMOR.
+3
+6 NATURECOMMUNICATIONS| (2020) 11:5437 |https://doi.org/10.1038/s41467-020-19277-9|www.nature.com/naturecommunications
+
+Cu
+Co
+Fe
+Ni
+Pt
+H HO H
+2 2
+Discussion the preparation of other HEAs and their application in related
+In summary, we have synthesized the uniform and small size electrocatalysis.
+Pt Ni Fe Co Cu NPs HEA nanoparticles by a simple low-
+18 26 15 14 27
+temperature synthesis method at atmospheric pressure. Electro-
+Methods
+catalytic test results showed that the obtained Pt Ni Fe -
+18 26 15 Materials.Platinum(II)acetylacetonate(Pt(acac),97%),nickel(II)acet-
+2
+Co 14 Cu 27 /C catalyst has excellent bi-functional electrocatalytic ylacetonate(Ni(acac) 2 ,95%),Molybdenumhexacarbonyl(Mo(CO) 6 ,98%),oleyla-
+properties for reduction reaction (HER) and oxidation reaction mine(OAm,>70%)andglucosewereboughtfromSigma-Aldrich.Cupric
+( o ( 1 M v 0 e O . r 9 p R 6 o ) A t . en m P t t i g 1 a − 8 l N 1 P ( i 2 t 1 6 1 F a m e t 15 V − C 0 o . a 1 0 t 4 7 C V 1 u 0 27 v m / s C . A R c c a m H ta − E ly ) 2 s ) t an a s n d h d ow st s a e u d b p il e a it r n y io u r fo lt r r a a c H s t m iv E i a R t l y l , a C s a o d c o e l e u b t c y t a y i l l o l a t ) n c ( e t I r ( t I 5 i o I m ) n w a e ( t t t C . e h % o y ( ) ( l C a a w c m u a e ( m c r a e ) c 3 o a s , n u c 9 ) i p u 8 2 p , m % l 9 i ) e 8 , c d % h Ir b l ) o o y w r n i A d a ( l s e I f I a p I ( ) C A ur T 2 e c , s A 4 h a - a r C p . s , e e M n d 96 e ta f t % r h n o ) a e m , n d T o io E l r , n i n s c a ( e y t 2 r e c g , l 4 o y ( - F h p C e e e ( x h n a a e t c n a m a n e c i , e ) c 3 e d a ) t i l , h a . N a o ( n 1 n a - o a fi H l t o , o e n a ) x n - d
+whichisoneofthebestHERactivityinalkalinemedium.Andit isopropanolwereboughtfromBeijingTongguangFineChemicalsCompany.
+isalsotheeffectivecatalystsforMORanddisplayedtheexcellent Potassiumhydroxide(KOH,90%)waspurchasedfromAladdin.
+activity (15.04Amg
+−1
+) and better CO anti-poisoning in alka-
+Pt
+line solution, which isthe best alkaline MOR activity among the PreparationofHEAPt
+18
+Ni
+26
+Fe
+15
+Co
+14
+Cu
+27
+NPs.CTAC(50mg)wasaddedinto
+ever reported. Through DFT calculations, the origin of remark- oleylamine(5mL)ina15mLvial.Aftersonicationforabout15min,Pt(acac) 2
+able electroactivity and durability of HEA in HER and MOR is (10mg),Ni(acac) 2 (6.4mg),Fe(acac) 3 (8.8mg),Co(acac) 3 (8.9mg),Cu(acac) 2
+attributed to the synergistic effect of each element for efficient (6.5mg),glucose(60mg),andMo(CO) 6 (33mg)wereaddedintothevial.Inorder
+toobtainahomogeneoussolution,themixturewassonicatedfor1h.Thevial
+electrontransfer.ThesuitableelectronicenvironmentoftheHEA washeatedto220°Cat5°Cmin−1andthenkept2hundermagneticstirringat
+realizes the multi-active sites for appropriate adsorption of key 400rpm.Theblackcolloidalproductswerecollectedbycentrifugationandwashed
+intermediates and efficient electron transfer during the electro- twotimeswithanethanol/cyclohexanemixture.Finally,theblackcolloidalpro-
+ductswerekeptincyclohexaneforfurtheruse.
+catalysis, which maximizes the utilization of surface electro-
+activity. The simple oil phase synthesis strategy proposed in this
+work,aswellasthemulti-activesitesandfastsite-to-siteelectron PreparationofalloyPtNiFeCoCuwithdifferentelementratiosNPs.CTAC
+(50mg)wasaddedintooleylamine(5mL)ina15mLvial.Aftersonicationfor
+transfer mechanism, which is expected to lay the foundation for
+about15min,Pt(acac) (10mg),Ni(acac) (6.4mg),Fe(acac) (8.8mg),Co(acac)
+2 2 3 3
+etis
+noitprosdA
+Energy (eV)
+)Ve(
+ygrenE
+)Ve(
+ygrenE
+)Ve(
+ygrenE
+0.4000 0.5 0.2
+0.3000
+0.2000
+0.1 0.1000 0.0
+0.000
+−0.1000 0.0 −0.2000 −0.3000 −0.5
+−0.4000
+−0.1 −0.5000
+−0.6000
+−0.7000 −1.0 −0.2
+Reaction coordinates Reaction coordinates
+Reaction coordinates Reaction coordinates
+)Ve(
+ygrenE
+0.11 eV
+HO* TS *OH + H* 2
+H
++ OH 2 H +
+*OH
+2
+H2
++
+HO* HO*
+Ve
+75.0–
+)g(
+2 H
++
+TS1
+TS2 TS3
+0.16 eV
+0.23 eV 0.29 eV
+0
+−1
+−2
+−3
+−4
+−5
+−6
+HO*6+HOHC*
+3
+OH+HO*5+OHC*
+2
+3
+OH2+HO*4+OHC*
+2
+2
+OH3+HO*3+OHC*
+2
+OH4+HO*2+HOOCH* 2 OH5+HO*+*OOCH 2
+OH4+OC
+2
+2
+HO*4+HOHC*
+3
+OH+HO*3+OHC*
+2
+3
+OH2+HO*2+OHC*
+2
+2
+OH3+HO*+OHC 2
+OH4+OC
+2
+ARTICLE
+NATURECOMMUNICATIONS|https://doi.org/10.1038/s41467-020-19277-9
+a
+b c d
+e f 2.0
+−2.34 eV
+TS1 TS2 TS3 TS4 TS5 TS6 1.5 TS3
+1.0 TS2 0.45 eV
+0.64 eV 0.5 TS4
+TS1
+0.0
+0.94 eV −0.5
+0.81 eV
+−1.0
+CO Poisoning Pathway
+−1.5
+Fig.5Densityfunctionaltheorycalculationsforthestructuralconfigurationandenergeticreactionpathways.aThestructuralconfigurationofstable
+adsorptionofkeyintermediatesinHERandMOR.Fromlefttoright:CH OH,H O,CO ,H.Darkgreenballs=Pt;Grayballs=Fe;Blueballs=Co;Pink
+3 2 2
+balls=Ni;Orangeballs=Cu;Redballs=OandWhiteballs=H.bThebindingenergymappingofHER.cTheenergeticpathwayofthealkalineHER.
+dTheactivationenergiesofwaterdissociation.eTheenergeticpathwayofthealkalineMOR.fTheenergeticpathwayofCOpoisoning.
+NATURECOMMUNICATIONS| (2020) 11:5437 |https://doi.org/10.1038/s41467-020-19277-9|www.nature.com/naturecommunications 7
+
+ARTICLE
+NATURECOMMUNICATIONS|https://doi.org/10.1038/s41467-020-19277-9
+(8.9mg),Cu(acac) (6.2mg),glucose(60mg)andMo(CO) (33mg)wereadded COstrippingcurveswerecarriedoutin1MKOHsolution.Beforethetests,1M
+2 6
+intothevial.Inordertoobtainahomogeneoussolution,themixturewassonicated KOHsolutionwasfirstdeaeratedwithhigh-purityN.Then,COwasbubbledinto
+for1h.Thevialwasheatedto220oCat5oCmin−1andthenkept2hunder thecellfor15minwhilethepotentialoftheworkin 2 gelectrodewasheldata
+magneticstirringat400rpm.Theblackcolloidalproducts(PtNiFeCoCu )were constantpotentialof0.1Vvs.RHE.ThenN wasbubbledintothesystemfor
+26 2
+collectedbycentrifugationandwashedtwotimeswithanethanol/cyclohexane 15mintoremoveCOgas.Afterthat,COstrippingcurveswererecordedbetween0
+mixture.Finally,theblackcolloidalproductswerekeptincyclohexaneforfurther and1.2Vvs.RHEatascanrateof20mVs−1.
+use.ThesynthesisofNPswithotherelementratiosonlychangestheamountofCu
+(acac) precursor(4.0mgand8.5mg).
+2
+Calculationsetup.Forallthecalculationswithinthiswork,wehaveappliedthe
+PreparationofPtNiFeCoCu/C.Theobtained1mgHEANPsdispersedin10mL
+DFTcalculationswithinCASTEPcode44.TheGGAandPBEexchange-correlation
+cyclohexanewasmixedwith4mgofcarbon(KetjenBlack-300)in10mLethanol
+functionalsareselectedforallthecalculations45,46.Thecutoffenergyofplane-wave
+undersonicationfor1h,andthentheproductwascollectedviacentrifugationwith basissetsbasedontheultrasoftpseudopotentialhasbeensetto440eVwiththe
+ethanol.ThePtNiFeCoCu/Ccatalystswerefurthercleaned(removeorganicspe-
+selectionofthealgorithmBroyden–Fletcher–Goldfarb-Shannon(BFGS)forallthe
+cies)with0.5Maceticacid(ethanolsolution)underN atmosphere.Afterbeing
+geometryoptimizations47.Tospecificallydiscusstheelectrocatalysisonthesurface,
+sonicatingfor2h,theproductswerecollectedbycentri 2 fugationandwashedwith wehaveappliedtheHEAmodelwithsimilarstoichiometryasexperimental
+ethanolforthreetimes. characterizations.TheHEAmodelhasbeenbuilt,whichconsistsof126atomsin
+total.Theatomicarrangementsofdifferentelementsareconstructedrandomlyby
+followingthesameratioastheexperimentsofPt Ni Fe Co Cu .Basedonthe
+Characterization.TheTEMandhigh-resolutionTEM(HRTEM)imagesofthe componentsoftheHEAbyexperimentalcharac 1 t 8 eriz 2 a 6 tion 15 s,N 1 i 4 and 27 Cuhavethe
+sampleswerecharacterizedbyanFEITecnai-G2F30atanacceleratingvoltageof highestconcentration,whichis26%and27%,respectively.Todeterminethemost
+300KV.PowderX-raydiffraction(XRD)spectrawererecordedonX’Pert-PRO
+possiblepreferredmodel,wehavecomparedthetotalenergyoftheHEAmodel
+MPDdiffractometeroperatingat40kVand40mAwithCuKαradiation.The
+withdifferentsurfacearrangements,inwhichthepresentappliedmodelwithCu
+compositionsoftheHEANPsweredeterminedbytheinductivelycoupledplasma andNislightrichfeaturehasbeenthemoststableone.Therefore,wehaveapplied
+atomicemissionspectrometer(ICP-AES,Varian710-ES).Thecatalystsafterthe theHEAsurfacemodelwithCuandNirichfeature.Thereactionenergyhasbeen
+durabilitytestswerescratchedofftheglassycarbonelectrodewiththeaidof consideredbasedontheintermediateadsorptionsonthesurface34.The
+sonicationinethanolandthencollectedforfurtherTEM,XRD,andICPchar- Monkhost–Packreciprocalspaceintegrationwasperformedusingcoarsek-points
+acterization.TheXPSanalyseswerecarriedoutwithAxisSupraspectrometerusing withameshof2×2×148,whichwasguidedbytheinitialconvergencetest.With
+amonochromaticAlKɑsource(15mA,14kV).Surveyscananalyseswerecarried
+thesesettings,theoveralltotalenergyforeachstepisconvergedtolessthan
+outwithananalysisareaof300×700μm2andapassenergyof100eV.High- 5.0×10−5eVperatom.TheHellmann-Feynmanforcesontheatomwerecon-
+resolutionanalyseswerecarriedoutwithananalysisareaof300×700μm2anda
+vergedtolessthan0.001eV/Å.
+passenergyof30eV.Spectrahavebeencorrectedtothemainlineofthecarbon1s
+spectrum(adventitiouscarbon)setto284.8eV.Spectrawereanalyzedusing
+CasaXPSsoftware(version2.3.14). Data availability
+Thedatathatsupportthefindingsofthisstudyareavailablefromthecorresponding
+Electrochemicalmeasurements.The1mgPtNiFeCoCu/Ccatalystsweredis- authoruponreasonablerequest.
+persedinamixtureof495µLultrapurewater,495µLisopropanol,and10µL
+Nafionsolution,aftersonicationfor1h,PtNiFeCoCu/Ccatalystwiththecon-
+centrationof1mgmL−1wasobtained. Code availability
+ElectrochemicalmeasurementswereconductedonaCHI760EElectrochemical
+Allcodesupportingthefindingsofthisstudyareavailablefromthecorresponding
+Workstation(ShanghaiChenhuaInstrumentCorporation,China)ina authoronrequest.
+conventionalthree-electrodecell.Thegraphiterodelectrodeasthecounter
+electrodeandasaturatedcalomelelectrode(SCE)asthereferenceelectrode.The Received: 23 July2020;Accepted: 6 October 2020;
+workingelectrodewasaglassycarbonelectrode(GCE,diameter:3mm,area:
+0.07065cm2).TenmicrolitersofthecatalystweredroppedontotheGCEsurface
+forfurtherelectrochemicaltests.Allthepotentialsreportedinthisworkwere
+convertedtothereversiblehydrogenelectrode(RHE).Cyclicvoltammograms
+(CVs)wereperformedinN-saturated1MKOHsolutionfrom0to1.2Vvs.RHE
+atascanrateof20mVs−1 2 .Electrochemicalimpedancespectroscopy(EIS)
+measurementsweremeasuredat−50mVvs.RHEinthefrequencyrangefrom References
+10kHzto0.01HzinN-saturated1MKOHsolution. 1. Glenk,G.&Reichelstein,S.Economicsofconvertingrenewablepowerto
+2 hydrogen.Nat.Energy4,216–222(2019).
+2. Seh,Z.W.etal.Combiningtheoryandexperimentinelectrocatalysis:Insights
+Hydrogenevolutionreaction(HER)measurements.TheHERperformanceof
+intomaterialsdesign.Science355,146–157(2017).
+thecatalystswasevaluatedbylinearsweepvoltammetry(LSV)withascanrateof
+5mVs−1inN-saturated1MKOHsolution,andallpolarizationcurveswere95% 3. Lai,J.&Guo,S.DesignofultrathinPt-basedmultimetallicnanostructuresfor
+2 efficientoxygenreductionelectrocatalysis.Small13,1702156(2017).
+iR-corrected.Thedurabilitytestswereperformedin1.0MKOHsolutionusingthe
+4. Yin,H.etal.2DElectrocatalystsforconvertingearth-abundantsimple
+chronoamperometricmethod.And1000th/10000thCVswerealsomeasuredto
+evaluatethestabilityofcatalysts.20%Pt/CcatalystwasalsodroppedontheGCE moleculesintovalue-addedcommoditychemicals:recentprogressand
+asareferencecatalystforelectrochemicaltestsunderthesameconditions.
+perspectives.Adv.Mater.32,1904870(2019).
+5. Leow,W.R.etal.Chloride-mediatedselectiveelectrosynthesisofethyleneand
+propyleneoxidesathighcurrentdensity.Science368,1228(2020).
+TOFcalculation.TheCVscurvewascollectedfrom0to1.2Vvs.RHEin0.5M
+H 2 SO 4 solutionwithascanrateof20mVs−1: 6. d L i i m ,L e . n , s W io a n n a g li , ty P. f , o S r h e a l o ec , t Q ro . c & he H m u ic a a n l g w , a X t . er M s e p t l a it ll t i i c ng n . a C n h o e st m ru . c S t o u c r . es Re w v i . th 49 l , ow
+3072–3106(2020).
+n¼ Q H; ð1Þ 7. Lai,J.,Nsabimana,A.,Luque,R.&Xu,G.3Dporouscarbonaceouselectrodes
+2*F forelectrocatalyticapplications.Joule2,76–93(2018).
+8. Xie,C.etal.Insightintothedesignofdefectelectrocatalysts:fromelectronic
+structuretoadsorptionenergy.Mater.Today31,47–68(2019).
+TOF (cid:1) S(cid:2)1 (cid:3) ¼ 2*F I *n ; ð2Þ 9. C Jin h , em H . . R et ev a . l. 1 E 1 m 8, e 6 r 3 g 3 in 7 g –6 tw 40 o 8 -d ( i 2 m 01 en 8) s . ionalnanomaterialsforelectrocatalysis.
+10. Chen,Y.etal.Phaseengineeringofnanomaterials.Nat.Rev.Chem.4,
+wherenisthenumberofactivesites,number2representstwoelectrons 243–256(2020).
+h (p y r d o r d o u g c e e n o d n e e so h rp yd ti r o o n ge p n ea m k) o , l F ec i u s l F e) a , ra Q d H ay r ’ e s p c r o e n se s n ta t n s t e ( l 9 ec 6 t 4 r 8 o 5 n .3 tr C an m sf o e l r − q 1) u , a a n n t d ity I( ( A th ) e is 11. T ox ia y n g , en X. r , e L d u u , c X tio . n F., re X a i c a t , io B n .Y in .& ene L r o g u y , c X o . n W ve . rs A io d n va t n ec c h ed no e l l o e g ct ie ro s. ca Jo ta u l l y e st 4 s , f 4 o 5 r – t 6 h 8 e
+thecurrentmeasuredataspecificpotentialduringLSVmeasurement. (2020).
+12. Yuan,Y.etal.Zirconiumnitridecatalystssurpassplatinumforoxygen
+Methanoloxidationreaction(MOR)measurements.TheCVsforMORwere
+reduction.Nat.Mater.19,282–286(2020).
+conductedinN-saturated1MKOH+1MCHOHsolutionbetween0.2–1.2V 13. Batchelor,T.A.A.etal.High-entropyalloysasadiscoveryplatformfor
+vs.RHEwitha 2 scanrateof20mVs−1.Forthe 3 MORstabilitytests,chron- electrocatalysis.Joule3,834–845(2019).
+oamperometrictestswereperformedatafixedpotentialof0.65Vvs.RHE,and 14. George,E.P.,Raabe,D.&Ritchie,R.O.High-entropyalloys.Nat.Rev.Mater.
+1000thCVswerealsoperformedtoevaluatethestabilityofcatalysts.
+4,515–534(2019).
+8 NATURECOMMUNICATIONS| (2020) 11:5437 |https://doi.org/10.1038/s41467-020-19277-9|www.nature.com/naturecommunications
+
+ARTICLE
+NATURECOMMUNICATIONS|https://doi.org/10.1038/s41467-020-19277-9
+15. Chen,P.C.etal.Polyelementalnanoparticlelibraries.Science352,1565–1569 43. You,B.etal.Universalsurfaceengineeringoftransitionmetalsforsuperior
+(2016). electrocatalytichydrogenevolutioninneutralwater.J.Am.Chem.Soc.139,
+16. Koo,W.T.,Millstone,J.E.,Weiss,P.S.&Kim,I.D.Thedesignandscienceof 12283–12290(2017).
+polyelementalnanoparticles.ACSNano14,6407–6413(2020). 44. Stewart,J.C.etal.FirstprinciplesmethodsusingCASTEP.Z.Krist.-Cryst.
+17. Miracle,D.B.&Senkov,O.N.Acriticalreviewofhighentropyalloysand Mater.220,567–570(2005).
+relatedconcepts.ActaMater.122,448–511(2017). 45. Perdew,J.P.,Burke,K.&Ernzerhof,M.Generalizedgradientapproximation
+18. Huang,K.etal.Exploringtheimpactofatomiclatticedeformationonoxygen madesimple.Phys.Rev.Lett.77,3865–3868(1996).
+evolutionreactionsbasedonasub-5nmpureface-centredcubichigh-entropy 46. Perdew,J.P.etal.Atoms,molecules,solids,andsurfaces:applicationsofthe
+alloyelectrocatalyst.J.Mater.Chem.A8,11938–11947(2020). generalizedgradientapproximationforexchangeandcorrelation.Phys.Rev.B
+19. Lei,Z.etal.Enhancedstrengthandductilityinahigh-entropyalloyvia 46,6671–6687(1992).
+orderedoxygencomplexes.Nature563,546–550(2018). 47. Head,J.D.&Zerner,M.C.ABroyden–Fletcher–Goldfarb–Shanno
+20. Zhang,W.,Liaw,P.K.&Zhang,Y.Scienceandtechnologyinhigh-entropy optimizationprocedureformoleculargeometries.Chem.Phys.Lett.122,
+alloys.Sci.ChinaMater.61,2–22(2018). 264–270(1985).
+21. Yeh,J.W.etal.Nanostructuredhigh-entropyalloyswithmultipleprincipal 48. Probert,M.I.J.&Payne,M.C.Improvingtheconvergenceofdefect
+elements:novelalloydesignconceptsandoutcomes.Adv.Eng.Mater.6, calculationsinsupercells:Anabinitiostudyoftheneutralsiliconvacancy.
+299–303(2004). Phys.Rev.B67,075204(2003).
+22. Guo,C.etal.Intermediatemodulationonnoblemetalhybridizedto2D
+metal-organicframeworkforacceleratedwaterelectrocatalysis.Chem5,
+2429–2441(2019). Acknowledgements
+23. Lv,F.etal.Ir-basedalloynanoflowerswithoptimizedhydrogenbinding ThisworkwassupportedbytheNationalNaturalScienceFoundationofChina
+energyasbifunctionalelectrocatalystsforoverallwatersplitting.Small (21571112,51572136,51772162,51802171),theTaishanScholarsProgram,Natural
+Methods4,1900129(2020). ScienceFoundationofShandongProvince,China(ZR2018BB031),OpenFundofthe
+24. Tian,X.etal.EngineeringbunchedPt–Nialloynanocagesforefficientoxygen KeyLaboratoryofEco-chemicalEngineering(QingdaoUniversityofScienceand
+reductioninpracticalfuelcells.Science366,850–856(2019). Technology,No.KF1702),theTaishanScholarProjectofShandongProvince
+25. Xiong,L.etal.Octahedralgold-silvernanoframeswithrichcrystallinedefects (tsqn201909123)
+forefficientmethanoloxidationmanifestingaCO-promotingeffect.Nat.
+Commun.10,3782(2019).
+Author contributions
+26. Zhang,G.etal.Highentropyalloyasahighlyactiveandstableelectrocatalyst
+forhydrogenevolutionreaction.Electrochim.Acta279,19–23(2018). L.W.andJ.L.conceivedandsupervisedtheresearch.J.L.andH.L.designedthe
+experiments.H.L.performedmostoftheexperimentsanddataanalysis.B.H.performed
+27. Glasscott,M.W.etal.Electrosynthesisofhigh-entropymetallicglass
+theDFTcalculationsandmechanisticanalysis.Y.H.andH.Z.preparedtheelectrodes
+nanoparticlesfordesigner,multi-functionalelectrocatalysis.Nat.Commun.
+10,2650(2019). andhelpedwithelectrochemicalmeasurements.W.Q.andD.Z.conductedandanalyzed
+28. Jin,Z.etal.NanoporousAl–Ni–Co–Ir–Mohigh-entropyalloyforrecord-high HRTEMmicrographsandmappingimages.Y.Y.performedandanalyzedXRDandICP
+watersplittingactivityinacidicenvironments.Small15,1904180(2019). measurements.S.L.andW.C.analyzedXPSmeasurements.Allauthorsdiscussedthe
+29. Qiu,H.J.etal.Nanoporoushigh-entropyalloysforhighlystableandefficient resultsandcommentedonthemanuscript.
+catalysts.J.Mater.Chem.A7,6499–6506(2019).
+30. Xie,P.etal.Highlyefficientdecompositionofammoniausinghigh-entropy Competing interests
+alloycatalysts.Nat.Commun.10,4011(2019). Theauthorsdeclarenocompetinginterests.
+31. Yao,C.Z.etal.Electrochemicalpreparationandmagneticstudyof
+Bi–Fe–Co–Ni–Mnhighentropyalloy.Electrochim.Acta53,8359–8365
+Additional information
+(2008).
+Supplementaryinformationisavailableforthispaperathttps://doi.org/10.1038/s41467-
+32. Soare,V.etal.Electrochemicaldepositionandmicrostructural
+020-19277-9.
+characterizationofAlCrFeMnNiandAlCrCuFeMnNihighentropyalloythin
+films.Appl.Surf.Sci.358,533–539(2015).
+CorrespondenceandrequestsformaterialsshouldbeaddressedtoJ.L.,B.H.orL.W.
+33. Nellaiappan,S.etal.High-entropyalloysascatalystsfortheCO andCO
+2
+reductionreactions:Experimentalrealization.ACSCatal.10,3658–3663
+PeerreviewinformationNatureCommunicationsthanksJanPhilippHofmann,
+(2020).
+FrederikTielensandother,anonymous,reviewersfortheircontributionstothepeer
+34. Pedersen,J.K.,Batchelor,T.A.A.,Bagger,A.&Rossmeisl,J.High-entropy
+alloysascatalystsfortheCO andCOreductionreactions.ACSCatal.10, reviewofthiswork.Peerreviewreportsareavailable.
+2
+2169–2176(2020).
+Reprintsandpermissioninformationisavailableathttp://www.nature.com/reprints
+35. Yao,Y.etal.Carbothermalshocksynthesisofhigh-entropy-alloy
+nanoparticles.Science359,1489–1494(2018).
+36. Luo,X.etal.Spinregulationon2DPd–Fe–Ptnanomeshespromotesfuel
+Publisher’snoteSpringerNatureremainsneutralwithregardtojurisdictionalclaimsin
+electrooxidations.NanoLett.20,1967–1973(2020).
+publishedmapsandinstitutionalaffiliations.
+37. Xie,Y.etal.BoostingwaterdissociationkineticsonPt–NinanowiresbyN-
+inducedorbitaltuning.Adv.Mater.31,1807780(2019).
+38. Li,T.etal.Galvanicreplacementmediated3DporousPtCunano-framesfor Open Access This article is licensed under a Creative Commons
+enhancedethyleneglycoloxidation.Chem.Commun.55,14526–14529(2019). Attribution 4.0 International License, which permits use, sharing,
+39. Ding,J.,Shao,Q.,Feng,Y.&Huang,X.Ruthenium-nickelsandwiched adaptation,distributionandreproductioninanymediumorformat,aslongasyougive
+nanoplatesforefficientwatersplittingelectrocatalysis.NanoEnergy47,1–7 appropriatecredittotheoriginalauthor(s)andthesource,providealinktotheCreative
+(2018). Commonslicense,andindicateifchangesweremade.Theimagesorotherthirdparty
+40. Li,H.etal.Surfaceoxygen-mediatedultrathinPtRuM(Ni,Fe,andCo) materialinthisarticleareincludedinthearticle’sCreativeCommonslicense,unless
+nanowiresboostingmethanoloxidationreaction.J.Mater.Chem.A8,
+indicatedotherwiseinacreditlinetothematerial.Ifmaterialisnotincludedinthe
+2323–2330(2020). article’sCreativeCommonslicenseandyourintendeduseisnotpermittedbystatutory
+41. Chen,L.etal.Improvedethanolelectrooxidationperformancebyshortening regulationorexceedsthepermitteduse,youwillneedtoobtainpermissiondirectlyfrom
+Pd-NiactivesitedistanceinPd–Ni–Pnanocatalysts.Nat.Commun.8,14136
+thecopyrightholder.Toviewacopyofthislicense,visithttp://creativecommons.org/
+(2017). licenses/by/4.0/.
+42. Huang,W.etal.Highlyactiveanddurablemethanoloxidationelectrocatalyst
+basedonthesynergyofplatinum-nickelhydroxide-graphene.Nat.Commun.
+6,10035(2015). ©TheAuthor(s)2020
+NATURECOMMUNICATIONS| (2020) 11:5437 |https://doi.org/10.1038/s41467-020-19277-9|www.nature.com/naturecommunications 9
+

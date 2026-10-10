@@ -1,0 +1,1410 @@
+Science AdvAnceS | Review
+ELECTROCHEMISTRY copyright © 2024 The
+Authors, some rights
+High- entropy alloy electrocatalysts go to (sub- )nanoscale
+reserved; exclusive
+licensee American
+Menggang Li1, Fangxu Lin1, Shipeng Zhang1, Rui Zhao1, Lu Tao1, Lu Li1, Junyi Li1, Lingyou Zeng1, Association for the
+Advancement of
+Mingchuan Luo1, Shaojun Guo1,2
+* Science. no claim to
+original U.S.
+Alloying has proven power to upgrade metallic electrocatalysts, while the traditional alloys encounter limitation for
+Government works.
+optimizing electronic structures of surface metallic sites in a continuous manner. High- entropy alloys (HEAs) over- distributed under a
+come this limitation by manageably tuning the adsorption/desorption energies of reaction intermediates. Recently, creative commons
+the marriage of nanotechnology and HEAs has made considerable progresses for renewable energy technologies, Attribution License 4.0
+showing two important trends of size diminishment and multidimensionality. This review is dedicated to summariz- (cc BY).
+ing recent advances of HEAs that are rationally designed for energy electrocatalysis. We first explain the advantages
+of HEAs as electrocatalysts from three aspects: high entropy, nanometer, and multidimension. Then, several struc-
+tural regulation methods are proposed to promote the electrocatalysis of HEAs, involving the thermodynamically
+nonequilibrium synthesis, regulating the (sub-) nanosize and anisotropic morphologies, as well as engineering the
+atomic ordering. The general relationship between the electronic structures and electrocatalytic properties of HEAs
+is further discussed. Finally, we outline remaining challenges of this field, aiming to inspire more sophisticated HEA-
+based nanocatalysts.
+INTRODUCTION the electronic structure and optimization of the adsorption energy
+The increasing energy consumption and environmental issues have toward intermediates, making it difficult to maximize the catalytic
+presented a severe challenge to the sustainable development of activity. To further break the scaling relationships for electrocatalysis,
+human society (1). This stimulates the exploration of economical it is necessary to realize the continuous adjustment of the surface
+and eco-f riendly energy generation, storage, and conversion involv- electronic structure of metal catalysts.
+ing the electrochemical processes (2). The suitable catalysts are nec- Since high-e ntropy alloys (HEAs) were developed as an impor-
+essary in these processes to lower the energy barrier and accelerate tant kind of alloy system in 2004 (19), the research upsurge of HEAs
+reaction kinetics to improve efficiency (3). Metal-b ased materials in the scientific and industrial community has been set off, including
+have occupied half of the catalysts in heterogeneous catalysis. For cryogenic applications, biomedical materials, aerospace engineering,
+instance, platinum (Pt)–based materials show the most promising and photothermal conversion (20–23). Continuous adjustment of
+application in oxygen reduction reaction (ORR) and hydrogen component distribution makes it possible to break the barrier of tra-
+evolution reaction (HER) electrocatalysis (4–6); ruthenium (Ru)–/ ditional binary or ternary alloys, providing adsorption/desorption
+iridium (Ir)–based materials are considered as the most effective elec- energy toward reaction intermediates closer to the optimal value
+trocatalysts toward oxygen evolution reaction (OER) (7, 8); copper (24–26). Therefore, HEAs are expected to show great potential in
+(Cu)–based materials have been confirmed to be capable of produc- heterogeneous catalysis. Traditionally, HEAs prepared by top-d own
+ing C/C hydrocarbons with high selectivity in CO reduction reac- approach, such as mechanical alloying, high- energy ball milling, 2 2+ 2
+tion (CO RR) electrocatalysis (9). However, a single metal site is not laser ablation, and arc melting, are all bulk, greatly losing the surface-
+2
+enough to show satisfactory activity and stability, necessitating the active sites (27–29). This is not suitable for heterogeneous catalytic
+optimization of these metal catalysts for advanced electrocatalysis. reactions. Recently, nanotechnologies have stimulated the continu-
+It is widely accepted that the adsorption/desorption behavior to- ously decreased size of catalysts, leading to many exposed atoms on
+ward intermediates is the key to determining the electrocatalytic per- the material surface to increase the possibility of catalytic reaction
+formance, which is closely related to the electronic and geometric occurrence. The concept of nanomaterials can be introduced into
+structures of the catalysts (10). Alloying has provided a promising HEAs to construct high- entropy nanoalloys (HENAs), which has
+strategy to regulate the electronic structures of surface or near- attracted extensive attention in electrocatalysis.
+surface atoms via a unique strain/ligand effect, thus creating a variety Early reports have indicated that the polymetallic alloys tended to
+of bimetallic or trimetallic electrocatalysts (11–13). With the rapid be phase-s eparated due to the intrinsic immiscibility of elements
+development of nanotechnology, electrocatalytic activities of these (30). However, driven by ultrafast thermodynamic nonequilibrium
+catalysts have been substantially boosted by engineering geometric synthesis, single-p hase HEA nanoparticles were successfully synthe-
+and electronic structures, including doping engineering (14) and sized for heterogeneous catalysis, even for the immiscible elemental
+interface engineering (15). However, the compositional range of the combinations (31). Since then, HEAs for energy electrocatalysis have
+alloyed atoms is limited by the differences of crystal structure, atomic shown two important trends of diminishment and multidimension-
+size, electronegativity, and electron concentration between alloyed ality (Fig. 1). In terms of diminishment, after HEA nanoparticles
+atoms in metal catalysts (16–18). This leads to a limited regulation of with a particle size of ~3.4 nm were made through a wet-c hemical
+method (32), decreasing the size of HEA nanoparticles to 1.32 nm
+was well achieved by chemical co-r eduction and continuous-fl ow
+1School of Materials Science and engineering, Peking University, Beijing 100871, liquid-p hase reduction methods, respectively (33, 34). Efficient HER
+china. 2Beijing innovation centre for engineering Science and Advanced Technology,
+electrocatalysis could be achieved by these HEA nanoparticles with
+Peking University, Beijing 100871, china.
+*corresponding author. email: guosj@ pku. edu. cn gradually decreasing sizes. Very recently, five kinds of metal atoms
+Li et al., Sci. Adv. 10, eadn2877 (2024) 5 June 2024 1 of 21
+Downloaded
+from
+https://www.science.org
+at
+National
+Institute
+of
+Technology
+Srinagar
+on
+October
+09,
+2026
+
+Science AdvAnceS | Review
+Fig. 1. Historical timeline of breakthroughs in HEAs for energy electrocatalysis. Bulk HeAs were first presented in 2004. The data are reproduced with permission from
+John wiley and Sons (19). A multielemental immiscible nanoparticle library with phase segregation was built in 2016. The data are reproduced with permission from the
+American Association for the Advancement of Science (30). Then, single-p hase HeA nanoparticles were successfully synthesized for heterogeneous catalysis in 2018. The
+data are reproduced with permission from the American Association for the Advancement of Science (31). Afterward, HeA electrocatalysts began to develop along two
+important trends of diminishment and multidimensionality. Recently, subnanosized HeA nanoparticles and high- entropy single atoms have been developed as high-
+efficient electrocatalysts for HeR, MOR, and ORR electrocatalysis. The data are reproduced with permission from the nature Publishing Group (32), the American chemical
+Society (33), the American chemical Society (34), and the nature Publishing Group (35). in addition, HeAs were designed from 0d to 3d, including subnanowires, nano-
+plates, nanoribbons, aerogels, and ordered intermetallics, and can serve as high- efficient electrocatalysts for HOR, MOR, and cO2RR electrocatalysis. The data are repro-
+duced with permission from the nature Publishing Group (36), John wiley and Sons (37), the American chemical Society (38), John wiley and Sons (39), and the American
+chemical Society (40).
+were incorporated into nitrogen-d oped carbon to achieve the atomi- electrocatalysis, the application potential of HEAs in electrocataly-
+zation of high-e ntropy concepts (35). In addition, as the develop- sis is further demonstrated. The general relationship between the
+ment of precise control of the HEA surface, a series of HEAs with structures of HEAs and catalytic activity is discussed based on
+anisotropic morphology have been developed, such as nanowires, experimental observations and theoretical models. Finally, several
+nanoplates, nanoribbons, and aerogels, showing great potential in major trends and challenges for future advanced studies will be
+energy electrocatalysis (36–39). Note that the atomic arrangement of presented to point out the direction for relevant researchers.
+HEAs can be further regulated to present the concept of high-e ntropy
+intermetallic electrocatalysts, accelerating the electrocatalytic appli-
+cations (40). Therefore, the developments of HEAs are beneficial for ADVANTAGES OF HEA ELECTROCATALYSTS
+appropriately broadening the selectivity of the electrocatalysts. HEAs represent a single-p hase solid solution containing five or
+This review aims to highlight recent advances in developing the more dominant elements (24). Because of too many components,
+HEAs for energy electrocatalysis over the past few years. The trends the structure of HEAs is relatively complicated, quite different from
+for the alloys for electrocatalysis have developed toward high en- traditional alloys. In HEAs, different atoms randomly occupy lattice
+tropy, nanometer, and multidimension. Starting from the advan- positions, promoting the formation of simple phase solid solutions.
+tages of HEAs in electrocatalysis, the rational structural designs of Moreover, the local order change induces the bond length and struc-
+HEAs are summarized from the aspect of thermodynamically non- tural particularity. Therefore, HEAs show four characteristics differ-
+equilibrium synthesis, the regulation of the (sub- )nanosize and ent from traditional alloys: high- entropy, lattice distortion, sluggish
+anisotropic morphologies, as well as the engineering of the atomic diffusion, and cocktail effects. These four effects are the dominant
+ordering and disordering. Specifically, diminishment and multidi- reason why the HEAs are promising catalysts for electrochemical
+mensionality have been regarded as the two most important trends energy conversions. In addition, the desired catalysts used for elec-
+in developing HEA electrocatalysts. Using the typical electrocata- trocatalysis should be nanoscale. After all, traditional bulk materials
+lytic reactions as probes, such as water electrolyzer and fuel cell lose too many active surface atoms. Hence, we also focus on the
+Li et al., Sci. Adv. 10, eadn2877 (2024) 5 June 2024 2 of 21
+Downloaded
+from
+https://www.science.org
+at
+National
+Institute
+of
+Technology
+Srinagar
+on
+October
+09,
+2026
+
+Science AdvAnceS | Review
+nano-s ize effect of HENAs. Finally, the anisotropically multidimen- medium- entropy alloys (MEAs) and that of 1.0R for medium- and
+sional structures can enhance anti-a ggregation and Ostwald ripening low- entropy alloys (LEAs) (24). Considering the total alloy systems,
+during electrocatalytic processes compared with 0D counterparts. the alloys constituted by more elements may strengthen the entropy
+The stronger structural stability and increasing surface-a ctive sites driving force (41). Increasing ΔS
+mix
+of HEAs induces a decreased
+make the HEAs develop along the multidimensional trend, with the free energy of alloys, thus leading to higher stability. However, the
+aim of maximizing electrocatalytic activity. In this section, we will definition based on entropy is still controversial, because many
+summarize the advantages of HEAs in electrocatalysis from three alloys with less than five elements still present a single- phase solid
+aspects: high entropy, nanometer, and multidimension. solution structure, such as CrCoNi and FeCrCoNi (42, 43). All in
+all, alloys containing at least five elements with high atomic per-
+From multimetal to HEAs centage (composition- based definition) or with ΔS
+mix
+larger than
+Different from traditional multimetal alloys, HEAs are subject to 1.5R (entropy- based definition) can be regarded as HEAs. In this
+the dual constraints of elemental compositions and entropy. case, the multimetal alloys have been successfully developed into
+Hence, two kinds of definitions for HEAs, based on composition- HEAs via entropy engineering.
+al and entropic concepts, respectively, were presented. On the ba- The complicated components enable HEAs to generate many
+sis of composition, the first definition indicates that HEAs contain unexpected properties, including high- entropy, lattice distortion,
+five or more dominant elements, of which the atomic percentage sluggish diffusion, and cocktail effects (Fig. 2A). High- entropy
+of constituent elements varies from 5% to 35% from a broad point effect refers to the high mixing entropy of alloys containing five or
+of view (19). Occasionally, there are a few trace elements with more elements uniformly, tending to form the single- phase solid
+atomic percentage of less than 5%. The formation of long- range solution instead of intermetallics. The high mixing entropy reduces
+ordered structures is energetically prohibited by high mixing en- the free energy of the solid- solution phase and promotes the forma-
+tropy. As a result, HEAs always form in a single- phase solid solu- tion of HEAs at higher temperatures. The number of phases in
+tion structure. HEAs is reduced, and as a result, the stable solid- solution phase
+The other definition is based on the entropy. The total mixing forming at higher temperatures is feasible (19). Therefore, the high-
+entropy of HEAs (ΔS
+mix
+) generally includes the configurational, entropy effect explains why the phase number of HEAs is much
+vibrational, magnetic dipole, and electronic randomness entropy, smaller than that calculated by the simplified theoretical predic-
+among which the configurational entropy plays the dominant role. tion. Especially, because the continuous regulation of compositions
+Particularly, ΔS
+mix
+is a function of the number of alloy components. induced by the widened d- band electrons enhances the stability of
+Hence, the entropy- defined HEAs can be identified by ΔS
+mix
+. Here, HEAs, the high- entropy effect ensures that HEAs show unexpected
+the ΔS
+mix
+of 1.5R can be used as the boundary between HEAs and catalytic performance.
+Fig. 2. The advantages of HEAs for energy electrocatalysis. Schematic illustrations for (A) several effects of HeAs, (B) HeAs evolving from bulk to nanoscale, cluster, and
+atomic scale, and (C) HeAs evolving from nanoscale 0d to 1d, 2d, and 3d nanostructures.
+Li et al., Sci. Adv. 10, eadn2877 (2024) 5 June 2024 3 of 21
+Downloaded
+from
+https://www.science.org
+at
+National
+Institute
+of
+Technology
+Srinagar
+on
+October
+09,
+2026
+
+Science AdvAnceS | Review
+The size difference between various atoms in HEAs inevitably ultra- minimization. The small size, large surface/volume ratio, dif-
+leads to the deviation of the lattice matrix from the ideal positions, ferent surface chemical and electronic states from the inside of
+generating severe lattice distortion. In addition, the bond energy nanoparticles, and unsaturated surface atom coordination lead to
+and crystal structure between different elements are also the main more surface- active sites of nanoscale HEAs, making it suitable for
+causes of lattice distortion. The lattice distortion effect not only op- electrocatalysis.
+timizes the hardness, electrical, and thermal conductivity of HEAs In addition, the nanoscale HEAs also exhibit unique properties
+but also dramatically improves their chemical properties (44–46). similar to traditional nanomaterials, including discontinuity of elec-
+The mismatched atoms induce the thermodynamically nonequilib- tron energy levels, surface and interface effects, and quantum size
+rium states of HEAs, guaranteeing the HEAs with higher potential and macroscopic quantum tunneling effects (52). These properties
+energy and reducing the energy barrier for catalytic reactions. can be unified into nano- size effects, which play an important role
+The sluggish diffusion effect is a phenomenon that atoms in in enhancing electrocatalysis by combining the advantages of HEAs.
+HEAs show a slower diffusion rate compared with those in tradi- The nano- size effect refers to the phenomenon that the catalytic per-
+tional alloys. This is mainly because severe lattice distortion increas- formance decreases/increases with the size increase of nanoparticles
+es the energy barrier for atoms to be activated and migrated, thus in electrocatalytic reactions. In terms of catalytic activity, nanopar-
+reducing the efficient diffusion rate of atoms. This effect can be ticles should be as small as possible due to the larger proportion
+understood from two perspectives. First, atoms tend to jump into of surface-a ctive atoms. However, strong surface energy will be in-
+vacancies, widely existing in thermal equilibrium crystals above duced by the too small size. To balance the high surface energy, ad-
+absolute zero, to achieve atom migration during diffusion. However, jacent nanoparticles will approach each other and agglomerate,
+the difference of atoms before and after jumping into vacancies resulting in the decline of their overall activity (53). Especially when
+results in diverse bonding and local energies, and the atoms will be the size of nanoparticles is below 2 nm, agglomeration is more likely
+captured when jumping into a low- energy site. On the contrary, the to occur, even to a serious extent. This is also why commercial cata-
+high- energy site leads to the failed atomic migration. Nevertheless, lysts choose Pt nanoparticles with ~3 nm supported on carbon
+the sluggish diffusion effect is inconspicuous in traditional alloys, black. Extending to HEAs, researchers have been committed to de-
+because the local atomic configurations before and after atoms enter veloping HEA electrocatalysts with ultrasmall size, which not only
+vacancies are similar (47). Additionally, the difference in diffusion maximizes the catalytic activity but also chooses appropriate meth-
+rate for each element in HEAs is another reason for the sluggish dif- ods to enhance stability when the size is too small (32–35, 54–56).
+fusion effect. Diffusion behavior in alloys is the result of the coordi-
+nated movement of a large number of different atoms. Some From zero to three- dimensions
+elements are not as active as others, so jumping into the vacancies is As is well known, the 0D nanostructure is the most stable nanoma-
+difficult. Therefore, the slow diffusion of elements in HEAs becomes terials in thermodynamics, mainly because the truncated octahe-
+a rate- limiting factor in limiting the overall diffusion rate of the dron is the equilibrium shape for a single crystal with face-c entered
+alloys. The sluggish diffusion effect endows HEAs with better phase cubic (fcc) phases (11). Therefore, 0D nanoparticles are the easiest
+stability, high- temperature strength, and creep resistance, thus pro- to synthesize and stabilize, especially under very strict preparation
+viding excellent durability and strong structural stability during conditions. To obtain single-p hase solid- solution HEAs, it is neces-
+electrocatalytic processes. sary to control the simultaneous reduction of metal atoms (57, 58).
+The cocktail effect in HEAs refers to the unexpected synergies This is highly dependent on high reduction temperature to promote
+originating from the interaction between mixing multiple compo- the rapid reduction of all metal atoms and subsequent rapid cooling
+nents. Specifically, the comprehensive performance of HEAs comes to maintain the thermodynamic nonequilibrium. Most HEAs are
+not only from the basic properties of single elements but also from prepared based on this principle, while the rapid heating and cool-
+the interaction between different elements. Therefore, mixing multi- ing make the reaction conditions quite severe. Therefore, the current
+elements may create special properties that a single element does HEAs mainly exist in the form of stable nanoparticles. However, due
+not have. The cocktail effect means a synergistic mixing to produce to the limited surface- active sites and untailored surface electronic
+an unpredictable result, and may even be greater than the sum of structures, 0D HEAs tend to exhibit low catalytic activity. Therefore,
+each principal component. Originally, the cocktail effect was used to the HEA nanocatalysts with tailored anisotropic morphologies are
+explain the unexpected physicochemical properties (48). Recently, the future pursuit for boosting electrocatalysis.
+the enhanced catalytic performance has been well explained by the Compared with 0D nanomaterials, anisotropic nanostructures
+synergistic mechanism of multicomponent mixing in HEAs (49–51). can provide multiple anchoring points toward supports, thus exhib-
+iting many unique properties to realize high electrocatalytic perfor-
+From bulk to (sub)- nanometer mance, such as enhanced electron and mass transport, as well as
+It is divided into four scales around the material world, including improved chemical stability (59). Hence, nanocatalysts with aniso-
+micrometer, submicrometer, nanometer, and atomic cluster. As for tropic morphologies may show attractive catalytic applications. In
+the traditional bulk materials, the finite number of surface atoms this case, developing HEAs into these specific structures can gener-
+limits their applications in electrocatalysis. However, reducing the ate more effects in heterogeneous catalysis because of more exposed
+size of electrocatalytic materials to the nanoscale or even atomic low- coordinated atoms at the perimeters, as well as higher surface
+scale can maximize the utilization of surface- active atoms, thus pro- area. However, metals tend to form Wulff polyhedrons to minimize
+viding endless possibilities for developing electrocatalysis-r elated the surface energy of a specific facet; thereby, the intrinsically
+energy conversion devices. Note that the surface atomic exposure nonlayered metals and binary/ternary alloys have difficulty of spon-
+increases exponentially as the particle size of nanomaterials de- taneously forming these anisotropic structures, let alone HEAs con-
+creases (Fig. 2B). This stimulates the development of HEAs toward taining so many metal elements (60). However, with the rapid
+Li et al., Sci. Adv. 10, eadn2877 (2024) 5 June 2024 4 of 21
+Downloaded
+from
+https://www.science.org
+at
+National
+Institute
+of
+Technology
+Srinagar
+on
+October
+09,
+2026
+
+Science AdvAnceS | Review
+development of nanotechnology, a large number of HEAs with vari- pattern of HEAs should display the diffraction peak of single-p hase
+ous morphologies have been successfully designed and developed solid solution, rather than that of phase separation. For example, a
+to manipulate substantially enhanced electrocatalysis (Fig. 2C) typical PXRD pattern of FeCoNiMnRu HEAs reveals their single-
+(36–39, 61–64). phase fcc structure (Fig. 3A) (65). In addition, PXRD patterns can
+also be used to evaluate the particle size, lattice parameter, and
+degree of crystallinity by fitting the profile of the diffraction data
+ADVANCED CHARACTERIZATIONS FOR HEAS (68). Moreover, the formation of the alloy phase can also be proved
+HEAs have shown potential applications in energy electrocatalysis by the Fourier-t ransformed extended x-r ay absorption fine structure
+but require detailed structural analysis to understand the structure- (FT-E XAFS), mainly reflected by the shifted positions of metal-m etal
+performance relationship. The accurate analysis of the geometric bonds in HEAs relative to the corresponding pure metals (69). In ad-
+and electronic configurations provides a guarantee for studying the dition, atomic-l evel high-r esolution transmission electron micros-
+mechanism of their enhanced electrocatalysis. To this end, HEAs copy (HRTEM) and corresponding fast Fourier transform (FFT)
+have been finely studied to reveal their single-p hase crystal struc- patterns can further assist in identifying the crystal structure. For
+tures, uniform chemical compositions, anisotropic morphologies, example, by identifying (110), (101), and (211) lattice planes from
+and unique chemical states. Taking the short history of HEAs into HRTEM image and FFT patterns, the body-c entered cubic (bcc)
+account, however, it remains a great challenge to precisely identify phase structure of HEA nanoparticles containing 21 elements can be
+the geometric and electronic configurations of HEAs. confirmed (70).
+Crystallographic characterizations Compositional characterizations
+Powder x-r ay diffraction (PXRD) patterns are the most powerful HEAs usually comprise more than four kinds of elements. Therefore,
+method to determine materials’ phase structures, including HEAs it is of notable to identify and quantify the elements, which can gen-
+through peak positions and intensities. Most HEAs show a single- erally be accurately achieved by inductively coupled plasma–optical
+phase structure, while a minority of them exhibit biphasic structures, emission spectrometry (ICP-O ES) and inductively coupled plasma–
+showing additional diffraction patterns (65–67). The ideal PXRD mass spectroscopy (ICP-M S). In addition, energy-d ispersive x-r ay
+Fig. 3. Characterizations of HEAs for energy electrocatalysis. (A) PXRd pattern of FeconiMnRu HeA nanoparticles with detailed Rietveld refinements. Reproduced with
+permission from the nature Publishing Group (65). (B) 3d- APT images of FeconiAlTi Heis. Reproduced with permission from John wiley and Sons (71). (C) Representative
+HRTeM image and AFM image of PtPdirRuAg HeA subnanometer ribbons. Reproduced with permission from the American chemical Society (38). in situ normalized
+XAneS spectra of RhPtFeconi HeA nanoparticles recorded at different potentials in fluorescence mode at the (D) Rh K- edge and (E) Pt L3- edge. Reproduced with permis-
+sion from the American chemical Society (33).
+Li et al., Sci. Adv. 10, eadn2877 (2024) 5 June 2024 5 of 21
+Downloaded
+from
+https://www.science.org
+at
+National
+Institute
+of
+Technology
+Srinagar
+on
+October
+09,
+2026
+
+Science AdvAnceS | Review
+spectroscopy (EDS), associated with electron microscopy, can also declined sharply, indicating that the main active sites in RhPtFeCoNi
+analyze the located elemental compositions in a selected area. How- HEA nanoparticles are Rh and Pt (Fig. 3E). This in situ diagnostic
+ever, they cannot give the specific distribution states of elements in strategy provides more vital structural or chemical information at
+HEAs. Elemental mappings, such as scanning electron microscopy– the atomic level, so a more comprehensive understanding of the
+EDS (SEM-E DS) and scanning TEM–EDS (STEM-E DS), can offset target material system’s structure/composition/valence information
+this disadvantage to depict the detailed element distribution. The can be achieved. Therefore, it is anticipated that constructing a
+atomic-s cale high-a ngle annular dark-fi eld STEM-E DS (HAADF- more feasible structure-p erformance relationship can guide more
+STEM-E DS) can be used especially for the more accurate observa- advanced design of HEAs in electrocatalytic future.
+tion of the atomic distributions of elements (70). Linear scanning
+EDS profile is another tool to determine the atomic ratio of constitu-
+ent elements by the peak intensity. Beyond these traditional compo- STRUCTURAL REGULATION OF HEAS
+sitional characterizations, the atomic chemical distributions of a In addition to the entropic effects, structural regulation also plays
+high-e ntropy intermetallic (HEI) were further analyzed by three- dominant role in the enhanced electrocatalysis of HEAs. As dis-
+dimensional atomic probe tomography (3D-A PT) technique, where cussed above, most HEAs can be synthesized by the rapid reduc-
+Fe, Co, Ni, Al, and Ti elements are uniformly distributed in HEIs tion and cooling of metal atoms to maintain thermodynamic
+(Fig. 3B) (71). X-r ay photoelectron spectroscopy (XPS) can also eval- nonequilibrium, especially for the constituted elements with large
+uate the surface composition of materials, and for ultrasmall or ultra- differences in sizes and structures. However, these conventional
+thin HEAs, it is also a powerful means to quantify the element thermodynamically nonequilibrium syntheses make it difficult to
+compositions of HEAs accurately (59). maintain the unique anisotropic structures of HEAs. Note that ex-
+erting certain kinds of reaction conditions onto the preparation
+Microstructural and morphological characterizations process can drive the reduction potentials of different metals to
+With the rapid development of controlled synthesis of HEAs, it is equilibrium. This can not only control the uniformity of HEA
+critical to directly observe their microstructures and morphologies. nanocrystals well but also adjust the morphology and ordering de-
+SEM, TEM, and HAADF-S TEM are all used for directly observing gree of HEAs. In this section, we will discuss the structural design
+the microstructures of HEAs, showing the sizes, surface morpholo- of HEAs based on the reported preparation strategies. The empha-
+gies, and exposed crystal planes. For example, the HAADF-S TEM ses for our discussion are the formation mechanism of HEAs in the
+image displays the nanowire morphology of PtRhMoRuIr HEAs nanoscale or atomic scale.
+with an average diameter of ~1 nm (72). For 2D structures, beyond
+the electron microscopies, atomic force microscopy (AFM) analysis Thermodynamically nonequilibrium synthesis
+can also reveal the thickness of 2D HEAs. As expected, the thickness To promote the mixing of metals with different chemical proper-
+of two overlapped PtPdIrRuAg HEA subnanometer ribbon layers ties, thermodynamically nonequilibrium environments are nec-
+was evaluated to be ~1.5 nm as revealed by the AFM image, in line essary, often realized by the extremely high- temperature and
+with the single- layer result from high-m agnification TEM image high- pressure environment. This synthesis is generally achieved
+(Fig. 3C) (38). Additionally, Brunauer-E mmett- Teller (BET) and through fast material formation process to prevent atom diffusion,
+Barrett-J oyner- Halenda (BJH) measurements are very important to thus leaving immiscible elements mixed in a metastable alloy
+determine the specific surface area, pore volume, and pore size dis- phase. Therefore, this strategy has been considered as the most ef-
+tribution of porous HEAs (73). ficient method to prepare the HEAs. The common nonequilibrium
+syntheses include high- temperature shockwave, laser scanning ab-
+Chemical state characterizations lation, and electrical explosion (31, 76–79). A typical preparation
+Electrocatalysis often occurs on the surface of catalysts and at the method for HEA nanoparticles is carbothermal shock method that
+interface with the electrolyte. The study on the surface chemical heats the metals to an extremely high temperature of 2000 K for
+states contributed to deep understanding of the mechanisms of elec- 55 ms, followed by an exceptional cooling rate of several millisec-
+trocatalytic reactions. XPS analysis has been considered as the most onds (Fig. 4A) (31). The flash heating and thermal shock processes
+common characterizations to visualize the surface chemical states of make the metal salts the liquid metal droplets, driving particle
+HEAs, which is mainly achieved by detecting the kinetic energy of fission and fusion with a higher frequency to the uniform mixing
+photoelectrons emitted from surface atoms. Although most atoms of multiple elements. In addition, the carbothermal shock dura-
+in HEAs are in metallic states, the surface elements are oxidized due tion and the selected carbon supports are the key to alleviating the
+to the long-t erm operations during electrocatalysis (74). More ad- coalescence of nanoparticles, and the subsequent cooling in a
+vanced, x- ray absorption spectroscopy (XAS), including x- ray twinkling ensures the elimination of solute partitioning during the
+absorption near-e dge structure (XANES) and extended x-r ay ab- formation of HEAs. As a result, a HEA nanoparticle library con-
+sorption spectroscopy fine structure (EXAFS), can provide more taining up to eight dissimilar elements (Pt, Pd, Ni, Co, Fe, Au, Cu,
+accurate chemical bond and atomic coordination information (75). and Sn) was built. However, a nonnegligible issue is that the limita-
+For example, the change of electronic structures of RhPtFeCoNi tions of selected supports acting as the electric conductive and
+HEA nanoparticles during HER electrocatalysis can be revealed by heating elements still exist.
+the operando XAS (33). On the basis of unchanged dominant The laser scanning ablation can break the limitation of support
+features of XANES spectra for all applied voltages, Rh sites exhibited materials to obtain more HEAs, because a laser pulse can accurately
+the negative shift toward lower energy compared with the other four confine energy in the desired microregions of the supports (80). Us-
+elements, thus serving as the electron acceptor (Fig. 3D). At −0.01 V, ing this method, a series of HEA nanoparticles supported on carbon
+the potential at which HER starts to react, the Pt intensity of XANES substrates were synthesized, and the substrates can be extended into
+Li et al., Sci. Adv. 10, eadn2877 (2024) 5 June 2024 6 of 21
+Downloaded
+from
+https://www.science.org
+at
+National
+Institute
+of
+Technology
+Srinagar
+on
+October
+09,
+2026
+
+Science AdvAnceS | Review
+Fig. 4. Synthesis of HEAs by nonequilibrium methods for efficient electrocatalysis. (A) carbothermal shock strategy and the temporal evolution of temperature during
+the 55-m s thermal shock of HeA nanoparticles. Reproduced with permission from the American Association for the Advancement of Science (31). (B) Schematic illustration
+for the formation mechanism of HeA nanoparticles by the laser scanning ablation method [this synthesis involves the sequential processes of (i) pulse penetration, (ii) pulse
+absorption, (iii) plume expansion, (iv) bubble generation, and (v) bubble collapse]. Reproduced with permission from the nature Publishing Group (76). (C) Schematic illustra-
+tion for the droplets transporting through the carbonized wood microchannels heated to 2000 K via the carrier gas and the magnified wood microchannel. (D) edS elemental
+mapping images of a 10- element AucocuirPtMnMoniPdRu HeA nanoparticle (scale bar, 20 nm). Reproduced with permission from elsevier (84).
+other thermally sensitive substrates, such as Cu foam and glass (76). fast and mass- scale synthesis of nanoparticles at thermodynamically
+Taking carbon nanofiber as an example, metal precursors with con- nonequilibrium states. Recently, using the carbon nanofibers as the
+stant stoichiometry loaded on the substrates were transferred into supports, HEA nanoparticles were synthesized by the millisecond-
+liquid alkane and irradiated by laser pulses at ~25°C. During this scale light-a ssisted flash-t hermal shock, featuring the advantages of
+process, the laser pulse penetrated through the liquid phase induces ambient air, large area, and remote (78). Typically, the surface
+the formation of plume at high temperature and high pressure. temperature of carbon nanofibers can increase up to 1800°C within
+Then, the emission shockwave generated from the recoil of plume 5 ms due to the photon-e lectron couplings and energy exchange,
+causes the plume to expand into the surrounding liquid and be rap- providing enough energy to instantly decompose the precursors
+idly cooled to nucleate nanoparticles (Fig. 4B). Because of the ex- and splitting/fusion of liquid metal particles. Therefore, HEA
+tremely fast synthesis with the pulse duration of only 5 ns, as many nanoparticles with up to nine elements, including Pt, Ir, Fe, Ni, Co,
+as nine metallic elements can be uniformly mixed, independent of La, Ce, In, and Sr, can be successfully synthesized, and the supports
+their thermodynamic solubility. can be extended to any 2D nanomaterial with exposure properties,
+Since light can interact with materials, the energy exchange be- e.g., MXenes and graphene oxides.
+tween photons and electrons can also be generated by the photo- In addition, by breaking through the thermodynamic immisci-
+thermal effects. This will induce photo-e xcited electrons to produce bility limit, other shock- type strategies were also developed, includ-
+thermic energy under the light-e xposed supports, thus achieving ing the fast- moving bed pyrolysis, microwave heating method, and
+Li et al., Sci. Adv. 10, eadn2877 (2024) 5 June 2024 7 of 21
+Downloaded
+from
+https://www.science.org
+at
+National
+Institute
+of
+Technology
+Srinagar
+on
+October
+09,
+2026
+
+Science AdvAnceS | Review
+continuous “droplet- to- particle” method (81–83). However, the ex- alloy, which can induce phase separation and heterogeneity (67, 85).
+pensive and complex instruments, as well as the harsh preparation To address this issue, several transition metal elements (Ni, Fe, Co,
+conditions of these strategies, make it impossible to spread widely. and Cu) with similar atomic radius and lower heat of formation were
+To simplify the preparation process, a droplet- to- particle aerosol selected to alloy with Pt to form stable HEA nanoparticles (32). In
+technique combined with a high-t emperature (~2000 K) micro- this synthesis, metal acetylacetonates are the key to the formation of
+channel reactor was adopted to overcome the limitations of tradi- solid solutions because that strong metal-a cetylacetonate bond can
+tional aerosol spray techniques (84). As shown in Fig. 4C, a collision slow down the precipitation rates of metals. As-p repared PtNiFeCoCu
+nebulizer was applied to produce aerosolized droplets, in which HEA nanoparticles are monodisperse with a diameter as small as
+metal precursors were uniformly mixed and brought into the micro- 3.4 ± 0.6 nm (Fig. 5A), which are the advantages of wet-c hemical
+channel of the carbonized wood reactor. After the reactor was pow- methods. However, the metals with great differences in redox poten-
+ered on, the droplets were instantly heated to a high temperature to tials are not mixed spontaneously with each other, such as Rh and
+promote the formation of complex HEA nanoparticles containing Ag. By slowly adding low-c oncentration metal precursors into a
+10 immiscible transition metal elements (Fig. 4D). heated reductant solution, immiscible metals can be reduced simul-
+taneously (86). Since the initially reduced metal atoms have no choice
+Size regulation of HEAs but to aggregate to achieve stability, the difference in reduction rates
+Traditional thermodynamically nonequilibrium syntheses have dif- can be negligible. According to this hypothesis, Pt group metal–
+ficulty of making metal atoms diffuse uniformly and slowly, leading based HEA nanoparticles (RuRhPdOsIrPt) containing immiscible
+to the nanoparticles with wide size distribution. The wet-c hemical metals were successfully obtained in a single-p hase solid solution
+method, as a typical near-e quilibrium approach, has been considered (68). These co-r eduction strategies also have additional merit in that
+the most common approach to prepare alloys, which is realized by introducing surfactant and/or structure-d irecting agent can induce
+selecting a proper reductant and structure-d irecting agent. There- the growth of HEAs with special morphology or non-0 D structures.
+fore, it is easy to obtain monodisperse nanocrystals with controlled The metal atoms have different migration rates under high-
+morphology. However, strongly immiscible elements are difficult to temperature environments and thus will interdiffuse to facilitate the
+Fig. 5. Size regulation of HEAs for efficient electrocatalysis. edS elemental mapping images of (A) PtniFecocu, (B) nicoFePtRh, and (C) irPdPtRhRu HeA nanoparticles.
+Reproduced with permission from the nature Publishing Group (32), the American chemical Society (33), and the American chemical Society (34). (D) Schematic illustra-
+tion for the formation of HeSAcs by a movable type printing method. (E) High-r esolution HAAdF-S TeM image of quinary FeconicuMn HeSAcs. (F) edS elemental map-
+ping images of undecimal FeconicuMncrPtPdRuRhir HeSAcs. Reproduced with permission from the nature Publishing Group (54).
+Li et al., Sci. Adv. 10, eadn2877 (2024) 5 June 2024 8 of 21
+Downloaded
+from
+https://www.science.org
+at
+National
+Institute
+of
+Technology
+Srinagar
+on
+October
+09,
+2026
+
+Science AdvAnceS | Review
+formation of single- phase alloys (87). The abovementioned sequen- specific crystal facets of metals. This inhibits the growth of certain
+tial reduction strategy is also inspired by this mechanism, thereby specific planes of metal nanocrystals, thus facilitating the acquisi-
+eliminating the effect of segregation structures. Using intermetallic tion of anisotropic nanostructures (96). Taking the PtRhMoIr-
+PdCu nanoparticles as seeds, PdCu/PtNiCo core/shell nanoparticles CoRuFeNiMnCr ultrathin nanowires as an example, the sequential
+were first synthesized and then were annealed to induce the atomic reduction mechanism of HEA nanowires was revealed by regulat-
+mixing of metals to form PdCuPtNiCo HEA nanoparticles (88). ing the feeding of molybdenum hexacarbonyl [Mo(CO) ], glucose,
+6
+Afterward, this strategy was further extended into other quinary dodecyl trimethyl ammonium chloride (DTAC), and oleylamine
+(PdCuPtNiM, M = Ir, Rh, Fe, and Ru), senary (PdCuPtNiCoRh), (Fig. 6A) (72). Because of the existence of Mo(CO) 6 , the ultrathin
+and septenary (PdCuPtNiCoRhIr) HEA systems (89). Thermody- Pt nanowires can be preferentially formed. Then, several alloying
+namically, the increased mixing entropy is beneficial to forming a elements were reduced one by one according to the different re-
+single- phase solid solution; kinetically, the lattice distortion and duction rates of metals as reaction temperatures increased. The
+constrained atomic diffusivity suppress the phase separation during continuous reaction ensures the further diffusion and rearrange-
+the cooling process. ment of atoms, thus realizing the formation of single- phase solid
+Reducing the size of 0D nanomaterials to subnanoscale, even to solution nanowires. Note that several kinds of elements (Cu, Pd,
+single- atom catalysts, can enhance the surface atomic utilization Ag, and Cu) with higher reduction potential cannot participate in
+(90). In this case, HEA nanoparticles with sub–2 nm and sub–1 nm the formation of Pt- based HEA nanowires because they have a
+sizes have been successfully developed via the co- reduction of faster nucleation rate than Pt. By choosing the other elements that
+corresponding metal precursors (Fig. 5, B and C) (33, 34). Further- reduce slower than Pt, a library of over 200 kinds of HEA nanow-
+more, to maximize atomic utilizations, the HEA concept has been ires can be constructed by adjusting the categories of metal precur-
+developed into multimetallic single- atom catalyst systems via a sors and reaction temperatures. This work also overthrew the view
+modified movable type printing method (54). Specifically, after the that single- phase solid solution HEAs can only be formed by co-
+dopamine hydrochloride was coated on the printing templates an- reduction of all-m etal precursors, laying a foundation for developing
+chored with metal precursors and melamine (M-g - C N ), the metal more ultrathin HEAs. Different from Pt-b ased alloys, the strong ad-
+3 4
+atoms would be excited and escaped from M- g- C N upon high py- sorption of CO on the Pd (111) made it easy to form nanosheet
+3 4
+rolysis temperature (Fig. 5D). All kinds of metal atoms can be cap- morphology. With the further reduction and diffusion of other
+tured and stabilized by defective carbon supports simultaneously, metal atoms, a series of PdMo- based HEA nanosheets were suc-
+thus forming highly dispersed single-a tom centers on the supports, cessfully constructed, thus extending ultrathin nanosheet mor-
+named high- entropy single atoms (HESACs) (Fig. 5E). By adjusting phology into HEA systems (51, 64, 93).
+the pyrolysis temperature and the amount/types of printing tem- Another important strategy to eliminate the distinction of
+plates, the HESACs with up to 11 metals can be produced (Fig. 5F). nucleation/growth kinetics of different metals in HEAs is to use
+It is anticipated that the high- entropy subnanoclusters or single templates to control the anisotropic growth of multimetal nano-
+atoms with the highest atomic utilization will be developed using crystals. In this respect, several HEA nanowires were synthesized
+more advanced methods in the future. by treating Al- rich nanowires with alkaline solutions to selectively
+remove most aluminum, such as AlNiCoRuMo and NiPtPdRhIrAl
+Morphological regulation of HEAs (97, 98). As- synthesized HEA nanowires tend to form porous or
+To further enhance the electrocatalytic activities, a feasible strategy hollow structures due to the selective etching of elements with
+is to design anisotropic morphology, which can not only maximize higher electrochemical activity. In comparison, components with
+the number of active sites but also improve the catalytic activity of a lower activity can be diffused and recombined (99). In addition, Ag
+single catalytic site through possible ligand/strain effect (91). nanowires can serve as templates to construct 2D HEA subnano-
+However, conventional high- temperature/shock-c ooling techniques meter ribbons with a thickness of ~0.8 nm, the thinnest one among
+make it difficult to maintain the anisotropic structure of nanomate- HEAs so far (38). The time- dependent experiments combined with
+rials. The overwhelming challenge for synthesizing thermodynami- molecule dynamic simulations revealed the formation mechanism
+cally unfavorable anisotropic HEAs is that immiscible mixtures or of HEA nanoribbons as follows: (i) the nucleation of different met-
+heterogeneous structures prefer to be formed using conventional al atoms by the galvanic exchange reactions, (ii) the co- reduction of
+synthetic approaches. At present, the dominant way to address this different metals, and (iii) the removement of Ag cores via dealloy-
+challenge is to introduce appropriate capping agents into mild wet- ing process (Fig. 6B). Activated Ag and Pd atoms with maximum
+chemical methods, greatly reducing the formation energy of alloys mean square displacements promote the crystallization and stabili-
+to promote the growth along specific crystalline orientations (92). zation of HEA shells on Ag templates. This strategy is highly gen-
+Several HEAs with special morphologies have been successfully eral for ultrathin HENA nanoribbons containing five to eight noble
+synthesized recently by controlling metals’ growth orientation by metal elements.
+adjusting the reaction conditions (62, 67, 93–95). Most of these syn- The template method is also an important strategy for construct-
+thesis techniques highly depend on the preferential reduction of ing 3D porous HEAs (100). Two kinds of latex particles, polystyrene
+certain metals, which are easy to form targeted structures. Subse- (PS) or poly(methyl methacrylate) (PMMA) beads, can serve as
+quently, the other metals are reduced together on the initial syn- templates to realize the preparation of macro- and mesoporous
+thetic metallic crystal seeds, and finally, further atomic diffusion HEAs (73). The existence of PS or PMMA templates not only allows
+enables the formation of HEAs. metal precursors to be reduced at a relatively low temperature but
+Generally, CO gases or CO molecules in situ generated from also freezes the alloy in its high-e ntropy state by inhibiting the atom
+carbonyl- containing compounds (e.g., metal carbonyl compounds, diffusion and dealloying during the thermal treatment. These are
+formaldehyde, and formic acid) can be selectively adsorbed on responsible for the formation of porous HEAs with homogeneous
+Li et al., Sci. Adv. 10, eadn2877 (2024) 5 June 2024 9 of 21
+Downloaded
+from
+https://www.science.org
+at
+National
+Institute
+of
+Technology
+Srinagar
+on
+October
+09,
+2026
+
+Science AdvAnceS | Review
+Fig. 6. Morphological regulation of HEAs for efficient electrocatalysis. Schematic illustrations for the formation mechanism of (A) PtRhMoircoRuFeniMncr HeA
+nanowires and (B) PtPdirRuAg HeA subnanometer ribbons. Reproduced with permission from elsevier (72) and the American chemical Society (38). (C) Photograph and
+corresponding sizes of nicoFecu MeAAs. Schematic illustrations for (D) the formation mechanism and (E) morphological evolutions of MeAAs. Reproduced with permis-
+sion from John wiley and Sons (104).
+compositions. In addition, a simple dealloying strategy was further synthesized by the initial auto-c ombustion procedure, followed by the
+presented to fabricate free- standing nanoporous HEAs containing metal ions being reduced at a low temperature. The ionic level chemi-
+12 or 16 evenly distributed metal elements (100). Specifically, a sin- cal mixing leads to the short-r ange diffusion of metal atoms, promot-
+gle solid solution phase Mn-r ich precursor alloy was obtained by ing the formation of single-p hase alloys (Fig. 6D). Note that the
+melting the corresponding pure metals. Then, the excess Mn atoms increase in reduction degree makes the skeleton structure more robust,
+were removed by acid treatment, resulting in porous HEAs. thus forming the aerogel structures (Fig. 6E). Another strategy, the
+The essential issue for forming HEAs is element segregation caused freeze-t haw method, was further proposed to prepare HEA aerogels
+by the reduction rate difference of metal precursors (101). However, (HEAAs) with 3D cross-l inking network structures and large surface
+exerting a certain kind of reaction conditions onto the preparation area (39). This method can be extended to prepare diverse HEAAs,
+process is beneficial for driving the reduction potentials of different including but not limited to nine different metallic elements, such as
+metals to be in equilibrium (102, 103). This also makes it possible to Pd, Cu, Au, Ag, Bi, In, Co, Ni, and Zn.
+successfully prepare HEAs. To facilitate the alloying of immiscible
+metals while maintaining the 3D aerogel structures, the combination Regulating disordering and ordering of HEAs
+of auto-c ombustion and low-t emperature reduction methods were HEAs tend to be single- phase solid solution structures composed of
+presented to achieve the general preparation of 3D porous medium- mixed metal components, often showing local order or short- range
+entropy alloy aerogels (MEAAs) with ultralow density and ultrahigh disorder. However, alloys can also display long- range disordered
+porosity (Fig. 6C) (104). Metal oxide–based heterostructures were and long- range ordered structures, usually defined as metallic
+Li et al., Sci. Adv. 10, eadn2877 (2024) 5 June 2024 10 of 21
+Downloaded
+from
+https://www.science.org
+at
+National
+Institute
+of
+Technology
+Srinagar
+on
+October
+09,
+2026
+
+Science AdvAnceS | Review
+glasses and intermetallics, respectively (105–107). Further extended active sites to catalyze electrochemical reactions. Recently, tremen-
+to HEAs, high- entropy metallic glasses (HEMGs) and HEIs have dous research progress has been made in using amorphous features
+been reasonably developed via engineering the disordering and or- such as high chemical homogeneity and atomic diffusivity to enable
+dering of atomic arrangement (Fig. 7A) (108, 109). In this respect, the fabrication of HEMGs (110, 113). Electrochemical synthesis can
+the long-r ange disordered atomic structure, isotropy, and metasta- easily control the atomic arrangement, thus becoming an important
+bility are the key properties of the HEMGs, rendering them with strategy for stabilizing the thermodynamically nonequilibrium state
+exciting electrocatalytic performance (105, 106). On the contrary, of amorphous materials. Considering that the input of potential can
+when the atoms of the components occupied the lattice with a spe- change the reduction rates of different metals, the nanodroplet-
+cific atomic stoichiometry, they will induce the ordered atomic ar- mediated electrodeposition method was developed to prepare
+rangement in the HEIs to be isotropic or in a specific crystallization HEMGs with disordered and amorphous microstructures (110).
+direction. Hence, the HEIs always have a long- range atomic order- This process was achieved by the collision of nanodroplets filled
+ing (105, 107). Although the ordered structure is an important fea- with metal chlorides with an ultramicroelectrode caused by a
+ture of intermetallics, the site occupancy in each sublattice of HEIs 100- ms electroshock. On the ultramicroelectrodes, a constant po-
+is still random or nearly random due to the more constituent ele- tential facilitated this collision, at which time all the metal ions were
+ments than sublattices (109). By integrating the advantages of HEAs effectively reduced (Fig. 7B). As- prepared HEAs show amorphous
+with metallic glasses or intermetallics, the HEMGs and HEIs have characteristic with highly evenly distributed metal elements. In ad-
+become competitive candidates for the grail war of electrocatalysis. dition, HEMG ribbon can provide a mechanically strong and flexi-
+Note that the interconversion between HEMGs and HEIs occurs ble substrate to adjust nanoporous and multiphase surface structures
+when the specific conditions are met, such as temperature, stoichi- (114). This stimulates the development of nanoporous HEMGs
+ometry, and atom binding environment (110–112). through a dealloying strategy. For instance, a self- supported
+Generally, amorphous materials with unique properties can pro- (FeCoNiB ) Pt HEMG template was first prepared via a scalable
+0.75 97 3
+vide disordered atomic arrangement, abundant surface defects and and simple melt- spinning method. Then, electrochemical dealloy-
+corrosion resistance, as well as dangling bonds, contributing more ing was used to create the nanoporous surface structures (Fig. 7C)
+Fig. 7. Regulating disordering and ordering of HEAs for efficient electrocatalysis. (A) Representative atomic distributions in quinary HeMGs, HeAs, and Heis. Sche-
+matic illustrations for the formation of (B) HeA nanoparticles by the nanodroplet-m ediated electrodeposition method (current transient corresponding to the collision of
+a single nanodroplet onto a carbon fiber ultramicroelectrodes (UMe) of 4 μm biased at −0.4 v versus Ag/Agcl) and (C) nanoporous (FeconiB0.75)97Pt3 HeMGs. Reproduced
+with permission from the nature Publishing Group (110) and John wiley and Sons (113). (D) Representative TeM image of PtRhBiSnSb Hei nanoplates. (E) enlarged HAAdF-
+STeM image of the typical Rh-s ubstituted Pt columns. (F) Typical structural model of a crystalline unit. (G) Schematic illustration showing the atomic arrangement in (PtRh)
+(BiSnSb) Hei nanoplates. Reproduced with permission from John wiley and Sons (37).
+Li et al., Sci. Adv. 10, eadn2877 (2024) 5 June 2024 11 of 21
+Downloaded
+from
+https://www.science.org
+at
+National
+Institute
+of
+Technology
+Srinagar
+on
+October
+09,
+2026
+
+Science AdvAnceS | Review
+(113). The removal of nonfunctional transition metals substan- to build the relationship between as- developed HEAs and cata-
+tially increases the specific surface area of materials, provides lytic activity.
+more favorable catalytic active sites, and creates abundant sur-
+face defects. Water electrolyzers
+Compared with the traditional solid solution alloy nanocrystals, To obtain clean hydrogen energy, water electrolysis technologies are
+intermetallic nanocrystals with long- range ordered structures and found to be one of the most high- efficient and eco- friendly ones for
+well- defined compositions can exhibit robust structural properties producing hydrogen fuels under mild conditions and powered by
+in electrocatalysis due to the strong atomic interaction (107). On renewable energy (7, 8). However, the current water electrolyzers
+the basis of the binary/ternary parent intermetallics, HEIs, whose display a higher cell voltage than that of the theoretical voltage of
+partial atomic substitution mainly originated from the specific sites 1.23 V (124). Generally, a desired catalyst with optimized adsorp-
+of the binary counterparts, have been successfully designed to con- tion binding strength for the reaction intermediates, adsorption
+struct ideal catalytic active sites (37, 40, 115–118). However, the hydrogen (H*) for HER, and oxygen- containing intermediates (O*,
+synthesis difficulty from high- temperature annealing to overcom- HO*, and HOO*) for OER can generate the most outstanding cata-
+ing the energy barrier from disorder to order makes HEIs always a lytic activity (8, 64, 87). The diversity of composition and structure
+benchwarmer for the grail war of electrocatalysis. An inevitable in HEAs allows the continuous regulation of the catalyst surface
+problem is the bulk and phase- separation structures caused by electronic structures, which is beneficial to breaking the scaling
+high- temperature treatment (116–118). To address this challenge, relationships for electrocatalysis, surpassing the long-e stablished
+carbon supports were preadded into metal precursors before an- not too strong or too weak guidance (125–127). Therefore, excellent
+nealing at 850°C (40). The agglomeration of nanoparticles was pre- HER performance can be achieved on HEAs, whether they are acidic
+vented due to the tight interaction between nanoparticles and or alkaline electrolytes.
+carbon supports. As- prepared (PtIr)(FeCoCu) HEI nanoparticles Since the electrocatalytic activity of HEAs is highly relevant to
+display a similar crystalline structure to L1 -P tFe intermetallics, the selection of constituent elements and proportions, it is neces-
+0
+where partial Pt atoms are replaced by Ir atoms, while Co and Cu sary to construct the relationship between compositions and elec-
+atoms occupy the position of Fe atoms. Such harsh preparation trocatalytic activities. For HER electrocatalysis, a widely accepted
+conditions further challenge the morphological control of interme- idea is to give priority to selecting metals with high activity to pair
+tallics. Inspired by the abovementioned morphological regulation with other elements according to the required electronic structure.
+of HEAs, the initial formation of Bi- complex nanoplate becomes a This can effectively adjust the adsorption/desorption behavior to-
+favorable template to grow PtBi- based HEIs (37). Because of the ward reaction intermediates, which is closely related to the com-
+similar hexagonal close-p acked (hcp) structures of PtBi, RhBi, PtSn, positions, thus affecting the catalytic activity. In terms of HER
+and PtSb intermetallics, the diffusion and ordering of Pt/Rh/Bi/Sn/ electrocatalysis, Pt and Rh are the key in the binding ability of H*
+Sb atoms make it possible to form well- defined structurally ordered and the H O dissociation, respectively, and transition metals (Fe/
+2
+HEI nanoplates. To this end, (PtRh)(BiSnSb) HEI nanoplates were Co/Ni) can effectively adjust the electronic structure of active sites.
+developed via a typical complexing-r educing-o rdering growth mech- To this end, the PtMoPdRhNi HEA nanocrystals with strong d-d
+anism. The preformed Bi- complex nanoplate templates benefit the electron interaction can be rationally designed to achieve high-
+subsequent reduction and cooperation of Sn and Sb atoms. As a efficiency HER electrocatalysis (64). By optimizing the composi-
+class of fully ordered hcp multimetal nanoplates with the similar tional distribution, the Pt Mo Pd Rh Ni nanocrystals displayed
+28 6 28 27 15
+crystal structure to hcp PtBi intermetallic, the partial Pt atoms in a the lowest overpotential of 9.7 mV at 10 mA cm−2 in 1.0 M KOH
+crystalline unit are substituted by the Rh atoms, while a portion of electrolyte. In this catalysis, H O dissociation was facilitated by Pt
+2
+Bi atoms are replaced by Sn or Sb atoms (Fig. 7, D to G). The devel- and Ni sites, while the combination of H* to H
+2
+was promoted by Pt
+opment of these methods provides an effective and feasible strategy and Rh sites. Furthermore, the computer- facilitated screening pre-
+for realizing the atomic long- range ordered HEIs, thus promoting dicted the optimal H* binding energy on PdMoGaInNi, which can
+the applications of HEIs in energy- related electrocatalysis. be further realized via experimental results where PdMoGaInNi
+showed the most excellent HER performance among various cata-
+lysts with different prerequisites (93). These results witnessed the
+ELECTROCATALYTIC APPLICATIONS OF HEAS importance of the selection of constituent metals on the catalytic
+Since all kinds of high- entropy materials were applied in various activity of HEAs.
+heterogeneous catalytic reactions, HEAs have been rapidly devel- Apart from the optimization of compositions and structures,
+oped in electrocatalysis (31, 119–121). Because of the several key the complexity of HEAs makes each element display different con-
+advantages of HEAs, as discussed in the “Advantages of HEA Elec- tributions to electrocatalysis, presenting the site- to- site electron
+trocatalysts” section, the adsorption energy can be broadened transfer mechanism for the stabilization of intermediates in HEAs
+through reasonable electronic hybridization (25, 122, 123). There- (32, 49). This can be reflected in well- dispersed PtNiFeCoCu HEA
+fore, the ligand, strain, or synergistic effect can be optimized to nanoparticles by showing a high mass activity of 10.96 A mg−1 at
+Pt
+further dominate the electrocatalytic activity, stability, and selec- −0.07 V versus reversible hydrogen electrode (RHE) toward HER
+tivity of HEAs. By reasonably regulating the surface structures, in 1.0 M KOH electrolyte (32). In this catalysis, the obvious down-
+various HEAs have been applied in the field of electrocatalysis, shift of s and p orbitals in H O molecules reveals that the transfer
+2
+including water electrolysis electrocatalysis, fuel cell electrocataly- of active electrons from HEAs to H O induces stable adsorption of
+2
+sis, and other promising reactions (Table 1). To highlight the im- H O molecules. The surface Pt atoms are beneficial for electron
+2
+portance of HEAs as catalysts in boosting catalytic performance, transfer and act as electron storage for the HER electrocatalysis,
+in this section, several key electrocatalytic reactions were chosen while Ni and Co atoms on the surface dominate the electroactive
+Li et al., Sci. Adv. 10, eadn2877 (2024) 5 June 2024 12 of 21
+Downloaded
+from
+https://www.science.org
+at
+National
+Institute
+of
+Technology
+Srinagar
+on
+October
+09,
+2026
+
+Science AdvAnceS | Review
+Table 1. Electrocatalytic applications of state- of- the- art HEA- based catalysts.
+Catalysts Applications Activity Stability Reference
+PtniFecocu nanoparticles HeR in 1.0 M KOH 11 mv @ 10 mA cm−2; no attenuation after 10,000 (32)
+10.96 A mgPt −1 @ −0.07 v cycles
+nicoFePtRh nanoparticles HeR in 0.5 M H2SO4 27 mv @ 10 mA cm−2; no attenuation after 10,000 (33)
+28.3 A mg−1 @ −0.05 v cycles or 100 h @ 10 mA cm−2
+PdPtRhircu metallene HeR in 1.0 M KOH 15 mv @ 10 mA cm−2; no attenuation after 10,000 (51)
+1.55 mA cm−2 @ −25 mv cycles
+PtPdRhRucu mesoporous HeR in 1.0 M KOH 10 mv @ 10 mA cm−2; no attenuation after 10,000 (63)
+nanospheres 6.1 A mgPt −1 @ −0.05 v cycles
+PtPdRhRucu mesoporous HeR in 0.5 M H2SO4 13 mv @ 10 mA cm−2 no attenuation after 10,000 (63)
+nanospheres cycles
+PtPdRhRucu mesoporous HeR in 1.0 M PBS 28 mv @ 10 mA cm−2 no attenuation after 10,000 (63)
+nanospheres cycles
+PtMoPdRhni nanocrystals HeR in 1.0 M KOH 9.7 mv @ 10 mA cm−2 6.9 mv attenuation in over- (64)
+potential @ 10 mA cm−2 after
+5,000 cycles
+FeconiAlTi intermetallics HeR in 1.0 M KOH 88.2 mv @ 10 mA cm−2 no attenuation after 40 h (71)
+PdMoGainni nanosheets HeR in 0.5 M H2SO4 13 mv @ 10 mA cm−2 no attenuation after 12 h (93)
+FeconicuMn nanoparticles HeR in 1.0 M KOH 281 mv@100 mA cm−2 no attenuation after 20 h (134)
+irFeconicu nanoparticles OeR in 0.1 M HclO4 302 mv @ 10 mA cm−2; 6.9 mv attenuation in (74)
+34.67 A gir −1@ 300 mv overpotential @ 10 mA cm−2
+after 12 h
+FeconicuMn nanoparticles OeR in 1.0 M KOH 386 mv @ 200 mA cm−2 no attenuation after 20 h (134)
+PtPdirRuAg subnanometer ORR in 0.1 M KOH 4.28 A mgPt+Rh −1; 1.69 A 56.5% retention after 30,000 (38)
+ribbons mgPGM −1 cycles
+PtirFecocu intermetallics ORR in 0.1 M HclO4 1.29 A mg−1; 4.06 mA cm−1 9 mv attenuation in e1/2 after (40)
+60,000 cycles
+L12- FeconicuPd intermetallics ORR in 0.1 M KOH 2.04 A mgPd −1 10 mv attenuation in e1/2 (66)
+after 10,000 cycles
+Pt4Fecocuni intermetallics ORR in 0.1 M HclO4 3.78 A mgPt −1 74% retention after 30,000 (116)
+cycles
+PtFeconicuZn intermetallics ORR in 0.1 M HclO4 2.40 A mgPt −1; 3.47 mA cm−2 94.1% retention after 10,000 (118)
+cycles
+PtPdFeconi nanoparticles ORR in 0.1 M HclO4 1.23 A mgPt −1; 1.80 mA cm−2 6 mv attenuation in e1/2 after (140)
+50,000 cycles
+PtRunicoFeMo nanowires HOR in 0.1 M KOH 6.75 A mgPt+Ru −1; 73.6% retention after 2,000 s (36)
+8.96 mA cm−2
+PtRhMoRuir nanowires HOR in 0.1 M KOH 5.8 A mgPt+Ru −1 81.1% retention after 2,000 s (72)
+PdniRuirRh nanoparticles HOR in 0.1 M KOH 3.25 A mg−1 81% retention after 3,500 s (142)
+PtniFecocu nanoparticles MOR in 1.0 M KOH + 15.04 A mg−1 93.6% retention after 1,000 (32)
+1.0 M methanol cycles
+PtRhBiSnSb nanoplates MOR in 1.0 M KOH + 19.53 A mgPt+Rh −1 70.2% retention after 5,000 (37)
+1.0 M methanol cycles
+PtRhGaniw nanowires MOR in 0.5 M H2SO4 + 2.71 A mgPt −1; 5.66 mA cm−2 72.0% retention after 1,000 (148)
+2 M cH3OH cycles
+Mo1- PdPtnicuZn nanosheets MOR in 1.0 M KOH + 24.55 A mgPt −1; 11.62 A mgPd+Pt −1; excellent stability after (149)
+1.0 M methanol 16.55 mA cm−2 3,600 s
+PtRhBiSnSb nanoplates eOR in 1.0 M KOH + 15.56 A mgPt+Rh −1 ~66% retention after 20,000 s (37)
+1.0 M ethanol
+PtRuRhconi nanowires eOR in 1.0 M KOH + 7.68 A mgPtRuRh −1; excellent stability after (95)
+1.0 M ethanol 7.55 mA cm−2 3,600 s
+PtRhBiSnSb nanoplates GOR in 1.0 M KOH + 7.54 A mgPt+Rh −1 ~62% retention after 20,000 s (37)
+1.0 M glycerol
+PtBiPbnico nanoplates FAOR in 0.5 M H2SO4 + 7.1 A mgPt −1; 27.2 mA cm−2 excellent stability after (67)
+0.5 M HOOH 1,000 s
+(continued)
+Li et al., Sci. Adv. 10, eadn2877 (2024) 5 June 2024 13 of 21
+Downloaded
+from
+https://www.science.org
+at
+National
+Institute
+of
+Technology
+Srinagar
+on
+October
+09,
+2026
+
+Science AdvAnceS | Review
+(continued)
+Catalysts Applications Activity Stability Reference
+PdcuAuAgBiin aerogels cO2RR 0.5 M KHcO3 200 mA cm−2 @ −2.0 vRHe no attenuation after 3,600 s (39)
+at −0.8 vRHe
+AuAgPtPdcu nanoparticles cO2RR 0.5 M K2SO4 10.15 mA cm−2 @ −0.8 vRHe no attenuation after 1,000 s (145)
+at −0.9 vRHe
+region near the Fermi level. This mechanism can also be observed the fifth metallic element X also enables optimizing adsorption/
+in the PdFeCoNiCu HEA system (50). desorption processes toward HER/OER intermediates, mainly
+In addition, the continuous reduction of particle size is the goal caused by the fact that Mn atoms with lower electronegativity can
+for achieving high- performance electrocatalysis. For this purpose, a induce more electron- deficient Ir atoms than Fe atoms. Theoretical
+series of carbon- supported ultrasmall HEA nanoparticles were de- calculations indicate that the introduction of Mn atoms can not only
+veloped to demonstrate the excellent HER performance (33). Al- lower the HBE by a more negative d-b and center (Fig. 8C) but also
+though the ultralow noble metal loading, as- obtained ultrasmall weaken the adsorption of OH* and O*, thus leading to a low energy
+NiCoFePtRh HEA nanoparticles still exhibit a low overpotential of barrier for the formation of HOO* (Fig. 8D).
+27 mV at 10 mA cm−2 and an ultrahigh mass activity of 28.3 A mg−1 Because of the completely disordered distribution of metal
+at −0.05 V versus RHE. The improved HER performances have also atoms in HEAs, some metal atoms will lose their own properties,
+been found in other ultrasmall HEA systems, such as ultrafine promoting the conversion of metal sites from inactive to active for
+nanowires and ultrathin nanosheets. For example, both ultrafine catalyzing chemical reactions (132, 133). The continuous electron-
+HEA nanowires and ultrathin HEA nanosheets have shown better ic structure regulation makes the active sites of HEAs more unex-
+HER performances than those of corresponding low- entropy coun- pected. To identify the real electrocatalytically active sites of HEAs,
+terparts (72, 93). low- electronegativity Mn and high- electronegativity Cu atoms
+Theoretical calculations and machine learning have provided an were alloyed with Fe, Co, and Ni atoms to form the FeCoNiCuMn
+insightful understanding of the electronic structures of HEA elec- HEA nanoparticles (134). The difference in electronegativity leads
+trocatalysts. Although the d- band center has rationalized the im- to strong local electron interaction, thus activating inactive Cu at-
+proved electrocatalysis of unary/binary metal materials, it is not oms into electron- enriched active sites. This can effectively reduce
+suitable for describing the activity of HEAs with complex struc- the adsorption energy toward reactants, intermediates, and prod-
+tures (128, 129). To close this gap, hard x- ray photoelectron spec- ucts and synergistically enhance the bifunctional HER and OER
+troscopy (HAXPES) was used to observe the valence band structure activities. Therefore, the proposed high- entropy atomic environ-
+of HEA nanoparticles (130). The detected broad and featureless ment regulation strategy is anticipated to drive more metals to be
+valence band spectrum of IrPdPtRhRu HEA nanoparticles indi- suitable for electrocatalytic water splitting, promoting the vigor-
+cates different atomic arrangements with unique local density of ous development of sustainable water electrolyzers.
+states. However, although IrPdPtRhRu nanoparticles have a lower The high-e ntropy and sluggish diffusion effects of HEAs make it
+d- band center located between Ir and Pt, the turnover frequency tend to form a single solid solution phase, which makes it difficult to
+(TOF) value is relatively high. This observation is not consistent generate the potential difference between multiple phases to improve
+with the well- accepted correlation between the TOF and the ex- the corrosion resistance (135). Therefore, HEA electrocatalysts can
+perimental d- band center positions. The deviation is mainly de- display excellent stability during the long-t erm electrocatalytic tests.
+rived from the complicated atomic arrangements and the difference To demonstrate the advantages of HEAs as stable catalysts, nonnoble
+in local density of states on HEAs, confirming the potential route metal-b ased HEA nanoparticles (FeCoNiCu) were designed to stabi-
+for HEAs to break the linear scaling relationship. lize Pt sites (HEA@Pt) (136). In this case, the multielement regula-
+In terms of OER electrocatalysis, another key half- reaction of tion and entropy stabilization effects made as-p repared HEA@Pt
+water electrolyzers, the most widely accepted catalysts are Ir and catalysts show the improved stability with negligible attenuation after
+Ir- based materials (7, 74). In this case, an important trend is to 100-h our HER stability tests. The enhanced stability can be attributed
+develop low Ir–containing electrocatalysts with excellent durability to the uniform dispersion of strong metal-m etal bonds and efficient
+and activity for sustainable water electrolyzers. HEAs provide a po- regulation of Pt′s electronic structure.
+tential platform for developing low Ir–containing catalysts due to
+their multicomponent and unique properties. To this end, two kinds Fuel cells
+of nanoporous Ir-b ased ZnNiCoIrX (X = Fe, Mn) HEAs with high Polymer electrolyte membrane fuel cells (PEMFCs) have been widely
+crystallinity were designed by dealloying with Zn elements as the spread in vehicles, portable electronics, smart grids, and military-
+sacrificial metals (131). As-d ealloyed ZnNiCoIrMn HEAs decrease related fields due to their low operating temperature, high power
+hydrogen binding energy (HBE) at the Ir active site relative to LEA density, quick start- up, and nonpollution (5). ORR is a key cathodic
+and MEA counterparts (Fig. 8A). In addition to accelerating HER half- reaction of PEMFCs, while its sluggish kinetics severely hin-
+dynamics, the ZnNiCoIrMn HEAs also exhibit a low OER overpo- ders the further applications of PEMFCs (4, 137). Inspired by the
+tential of 237 mV at 10 mA cm−2 (Fig. 8B). Moreover, alternating compositional complexity and the heterogeneous surface of HEAs,
+Li et al., Sci. Adv. 10, eadn2877 (2024) 5 June 2024 14 of 21
+Downloaded
+from
+https://www.science.org
+at
+National
+Institute
+of
+Technology
+Srinagar
+on
+October
+09,
+2026
+
+Science AdvAnceS | Review
+Fig. 8. Water electrolyzer–related electrocatalytic applications of HEAs. (A) HeR and (B) OeR polarization curves of Znniir, Znnicoir, ZnnicoirFe, and ZnnicoirMn HeAs
+and commercial Pt/c or ir/c catalysts. (C) Linear relationship between d- band center and hydrogen binding energy on Znnicoir and ZnnicoirMn HeAs. (D) energy land-
+scape toward OeR intermediates for Znnicoir and ZnnicoirMn with U = 1.23 v. Reproduced with permission from John wiley and Sons (131).
+the electronic structure can be adjusted in a wide range, thus provid- The similar enhancement of ORR performance can also be ex-
+ing a promising platform for alleviating the sluggish kinetics of perimentally observed on various emerging HEAs (38, 40, 54, 103,
+ORR. The wide binding energy distribution makes HEAs possible to 140). Considering that the decreased sizes can maximize the surface
+adjust the binding energy of the surface-a ctive sites of HEAs to the atomic utilization, sub–3 nm HEAs were tightly anchored on or-
+optimal value. dered mesoporous carbon by an anchoring- carbonization strategy
+A well- accepted criterion for designing highly efficient ORR cat- (103). The ultrasmall structure makes it show ultrahigh electro-
+alysts is that a desired catalyst should have the optimal bonding chemically active surface area (ECSA) of 102.3 m2 g−1, 1.62 times
+strength toward oxygen-c ontaining intermediates (10). Although higher than that of commercial Pt/C. In addition to inherent high-
+this theory has rationalized ORR activity of single metals or tradi- entropy and sluggish diffusion effects, as- prepared sub–3 nm HEAs
+tional alloys, the known methods of associating adsorption energy also exhibit stable interface bonding to contribute higher ORR
+are hardly extended to the complex surface of HEAs, including the activity compared with that of low- and medium- entropy counter-
+d- band model, the generalized coordination number model, and the parts. Moreover, due to the synergistic effects of various active sites,
+orbitalwise coordination number model. To alleviate this issue, a HESACs loaded on porous nitride-d oped carbon display high ORR
+simple model was developed to predict adsorption energies based activity (54). These studies evidence the importance of size effect
+on the local binding site composition (138). By calculating the in HEAs for ORR electrocatalysis, in accordance with that in tradi-
+adsorption energies of *OH and *O on a random subset of tional alloys.
+IrPdPtRhRu HEA (111) surface sites, the corresponding linear re- The morphological regulation also affords the possibility to opti-
+gression models were constructed. The near-c ontinuous adsorption mize the binding strength of catalysts toward the reaction intermediates,
+energy of the HEA surface is beneficial for maximizing the ORR necessitating combining the HEAs with reasonable morphological
+activity, which is achieved by tuning the overall compositions of control. Taking 2D HEAs as an example, the enhanced ORR activity
+HEAs. In this regard, the optimized Ir Pd Pt Rh Ru has been reflected on quinary PtPdIrRuAg HEA nanoribbons (38).
+0.102 0.320 0.093 0.196 0.289
+makes the adsorption energies close to the peak of the volcano In alkaline electrolytes, the PtPdIrRuAg HEA nanoribbons show
+curve. In addition, the nudged elastic band model was optimized to 21.0 times higher mass activity than that of commercial Pt/C. In this
+reveal the close-k nit correlation of the maximum ORR activity and catalysis, the strong orbital couplings can be achieved on PtPdIrRuAg,
+ridges (139). By following the ridge of catalytic activity to the edge and the broadest coverage of Ru- 4d and Ir-5 d orbitals increases the
+of the component space, and then replacing one element with an- electron density near E within PtPdIrRuAg. As a result, the high
+F
+other, a desired catalyst with optimal performance can be constructed. activity is mainly attributed to the existence of elements with strong
+There is no doubt that the most catalytically active compositions can reduction ability (Pt, Pd, and Ag) and the promotion of electron
+be searched along the ridge instead of the whole alloy composition transfer between different sites by relatively inert oxidizing elements
+space, thereby narrowing the retrieval range of HEAs for ORR elec- (Ir and Ru). In addition, in light of the superior structural stability of
+trocatalysis. atomically ordered intermetallics, PtIrFeCoNi HEI nanoparticles
+Li et al., Sci. Adv. 10, eadn2877 (2024) 5 June 2024 15 of 21
+Downloaded
+from
+https://www.science.org
+at
+National
+Institute
+of
+Technology
+Srinagar
+on
+October
+09,
+2026
+
+Science AdvAnceS | Review
+were further demonstrated to serve as efficient ORR catalysts, espe- Another key half-r eaction in PEMFCs is hydrogen oxidation re-
+cially in the practical H /O fuel cells (Fig. 9A) (40). The ORR ac- action (HOR), which mainly occurs within a fast kinetics in acidic
+2 2
+tivity of well- designed HEI nanoparticles was not only superior to conditions (141). However, the HOR in an alkaline environment is
+that of commercial Pt/C but also more excellent than that of disor- much more sluggish than that in acidic media, even two orders of
+dered counterparts (Fig. 9B). An ultrahigh peak power density of magnitude lower (138). In this case, the tailorable active sites of
+1.73 W cm−2 can be achieved on the practical fuel cells with HEI multiple elements adjacent to each other allow HEAs to generate
+catalysts as cathodic catalysts (Fig. 9C). The construction of HEI more unique properties in HOR electrocatalysis (36, 72, 142). To
+catalysts endowed (001) facets with ultrahigh activity, substan- clarify the mechanism of the complex atomic structure of HEAs on
+tially decreasing the ORR activation barriers and optimizing the HOR electrocatalysis, PdNiRuIrRh HEA nanoparticles were
+the d-b and center. prepared, where the five metal atoms were uniformly dispersed to
+Fig. 9. Fuel cell–related electrocatalytic applications of HEAs. (A) Atomically resolved HAAdF-S TeM image of an individual PtirFeconi Hei nanoparticle. (B) ORR polar-
+ization curves of PtirFeconi Hei and HeA nanoparticles, carbon support, and commercial Pt/c in O2- saturated 0.1 M HclO4 solution. (C) Polarization and power density
+curves of the H2/O2 fuel cell with PtirFeconi Hei nanoparticles as the cathode and commercial Pt/c as the anode under 1.0- bar O2 pressure. Reproduced with permission
+from the American chemical Society (40). (D) Atomically resolved HAAdF- STeM image of PdniRuirRh HeA nanoparticle. (E) HOR polarization curves of PdniRuirRh HeA
+nanoparticles, the corresponding single-m etal counterparts, and commercial Pt/c in H2- saturated 0.1 M KOH. (F) Adsorption free energies of *H on the hollow-f cc sites of
+PdniRuirRh HeA nanoparticles and pure metal (111) facets. Reproduced with permission from John wiley and Sons (142). (G) HAAdF- STeM image of an individual
+PtBiPbnico core/shell HeA nanoplate. (H) FAOR curves of PtBiPbnico core/shell HeA nanoplates, PtPb nanoplates, and commercial Pt/c in 0.5 M H2SO4 + 0.5 M HcOOH.
+(I) Gibbs free energy diagram of PtBiPbnico core/shell HeA nanoplates toward FAOR electrocatalysis. Reproduced with permission from John wiley and Sons (67).
+Li et al., Sci. Adv. 10, eadn2877 (2024) 5 June 2024 16 of 21
+Downloaded
+from
+https://www.science.org
+at
+National
+Institute
+of
+Technology
+Srinagar
+on
+October
+09,
+2026
+
+Science AdvAnceS | Review
+form a single- phase solid solution (Fig. 9D) (142). The PdNiRuIrRh the basis of traditional binary/ternary alloy catalysts, HEAs can fur-
+HEA nanoparticles exhibit a high HOR mass activity of 3.25 A mg−1 in ther alleviate the poisoning through the diluted metal- metal bonds
+alkaline electrolytes, much higher than that of single-m etal counter- and multifunctional coordination environment. Within PtNiFeCoCu
+parts (Fig. 9E). In this system, Pd-P d-N i/Pd-P d-P d bonds dominate HEA nanoparticles, Pt atoms served as the electron reservoir for
+the PdNiRuIrRh HEA nanoparticle surface. Therefore, the formation electrocatalysis, while Ni and Co atoms provided the electron deple-
+of Pd-P d-N i/Pd-P d-P d bonds and the presence of Ni/Ru oxophilic tion center and the other metal atoms alleviated the energy barrier
+sites can optimize the adsorption/desorption toward *H and *OH in- of electron transfer (32). In addition, the well linear correlation of s
+termediates, enhancing HOR activity and stability (Fig. 9F). and p orbitals of dominant intermediates guaranteed the proton and
+In addition, ultrathin structures make the alloyed nanowires ex- electron transfer in MOR electrocatalysis. The energy barrier of
+pose more surface-a ctive sites, thus enhancing electrocatalytic perfor- rate- determining step was lowered due to the site-t o- site electron
+mance. Among numerous ultrathin HEA nanowires, PtRuNiCoFeMo transfer, and CO poisoning was eliminated. Therefore, the mass ac-
+shows the highest HOR mass activity of 6.75 A mg −1 in 0.1 M tivity of as- synthesized PtNiFeCoCu nanoparticles only decayed by
+Pt+Ru
+KOH solutions, 2.8, 4.1, and 19.8 times higher than that of HEA 6.4% after 1000 MOR cycles, more stable than that of commer-
+nanoparticles, commercial PtRu/C, and Pt/C, respectively (36). In ad- cial Pt/C.
+dition, the HEA nanowires also exhibit high anti-C O poisoning abil- Compared with the other fuels, the low toxicity, storability, high
+ity during HOR processes, as well as enhanced stability. Experimental boiling point, and transportability of formic acid drive the wide-
+and theoretical analysis revealed that the strong interactions between spread spread of DFAFCs. The PtBiPbNiCo HEA hexagonal nano-
+various metal sites in PtRuNiCoFeMo HEA nanowires can optimize plates with a unique structure of medium- entropy core/high- entropy
+the binding energy of *H and/or *OH intermediates, thereby acceler- atomic layer shells show excellent FAOR electrocatalytic perfor-
+ating the alkaline HOR kinetics. Note that the HOR catalytic activity mance (Fig. 9G) (67). Note that the mass activity of PtBiPbNiCo
+of such HEA nanowires is also higher than that of low- and medium- HEA core/shell nanoplates was as high as 7.1 A mg −1 in 0.5 M
+Pt
+entropy alloy nanowires (72). It is anticipated that the entropy engi- H SO containing 0.5 M formic acid, much larger than that of tradi-
+2 4
+neering will make great achievements in HOR electrocatalysis. tional binary nanoplates and commercial Pt/C (Fig. 9H). The DFAFCs
+Compared with hydrogen energy, liquid fuels can be convenient- using such nanoplates and commercial Pt/C as anodic and cathodic
+ly handled, stored, and transferred (143). It is therefore presented to catalysts respectively display the highest power density of 321.2 mW
+replace hydrogen fuels with high–energy density liquid fuels to cm−2, as well as outstanding stability. The reaction path for FAOR of
+drive the anodic oxidation reactions (143). Coupling these electro- core/shell nanoplates was a direct formate pathway instead of the
+oxidation reactions with the cathodic ORR aforementioned, direct indirect pathway, demonstrating the favorable dehydrogenation re-
+alcohol/formic acid fuel cells (DAFCs/DFAFCs) can be assembled action of HEA core/shell nanoplates. CO can be produced by the
+2
+to convert chemical energy into electrical energy. However, it is dif- sequential dehydrogenation of HEA core/shell nanoplates, inhibit-
+ficult to achieve complete oxidation of polyalcohols/formic acid into ing CO poisoning. The high FAOR activity of HEA core/shell nano-
+CO under mild conditions. Alloying is an important strategy to plates mainly originated from the inhibition of dehydration way and
+2
+tune the electronic structure to enhance AOR/formic acid oxidation the optimization of two dehydrogenation procedures (Fig. 9I). Note
+reaction (FAOR) electrocatalysis, leaving a broad research space in that the increased entropy and lattice distortion effects of HEAs are
+the elemental selection, interaction, and determination of active important for enhanced electrocatalysis.
+sites. HEAs have been demonstrated to be a promising candidate for
+the complete oxidation of these small molecules with favorable elec- Carbon dioxide reduction reactions
+tronic and coordination environments. Converting greenhouse CO into value-a dded chemical fuels electro-
+2
+Various alcohols can be oxidized through a mechanism of the al- chemically is another important technology for carbon-n eutral econ-
+cohol molecule adsorption and the further oxidation of CO. However, omy (9). A wide range of C products (including CO, HCOOH,
+1
+the sluggish kinetics of traditional metal catalysts limits the further HCHO, CH OH, and CH ) and C products (including C H ,
+3 4 2 2 4
+applications of alcohol oxidation reactions. In addition, beyond CH CHO, C H OH, and CH COOH), as well as various C (includ-
+3 2 5 3 2+
+methanol, the cleavage of the C─C bonds and further complete oxi- ing n- C 3 H 7 OH) can be selectively obtained from the conversion of
+dation of the alcohols to CO are serious problems. HEAs can CO based on the electrochemical processes (9, 144). However, this 2 2
+integrate the respective advantages of multiple elements, further process is kinetically sluggish due to the complicated reaction mecha-
+accelerating reaction kinetics by multisite synergistic mechanisms. nism, thus necessitating highly active and selective HEA CO RR elec-
+2
+In this regard, PtRhBiSnSb HEI nanoplates not only show higher ac- trocatalysts with adjustable configuration space (144, 145).
+tivity toward methanol oxidation reaction (MOR) compared with Cu and Cu- based materials have been considered as feasible cat-
+that of low-/ medium-e ntropy counterparts but also exhibit greater alysts to convert CO into value-a dded C /C products, yet the pris-
+2 2 3
+advantages in polyalcohol oxidation reactions, such as ethanol oxida- tine Cu catalysts tend to exhibit low activity and selectivity due to
+tion reaction (EOR) and glycerol oxidation reaction (GOR) (37). The the competition of HERs (9). Combining density functional theory
+improved electron transfer by the additional Rh atoms and the syn- calculations with supervised machine learning has predicted that
+ergistic protection of Bi, Sn, and Sb sites are two key factors for the two Cu- based HEAs, CoCuGaNiZn and AgAuCuPdPt, can serve as
+excellent AOR performance of PtRhBiSnSb HEI nanoplates. promising candidates for CO RR (144). The CO and H adsorption
+2
+In terms of stability, the adsorption of intermediates (CO ) energies on the (111) surfaces of CoCuGaNiZn and AgAuCuPdPt
+ads
+makes the catalysts to be poisoned due to the occupation of catalytic HEAs were calculated, and the optimized sites with weak hydrogen
+active sites by CO . To address this issue, a variety of oxophilic adsorption and strong CO adsorption can facilitate the high selec-
+ads
+metals have been used to accelerate the electrooxidation of CO- tivity of HEAs. Furthermore, machine learning models were de-
+containing intermediates, such as Rh, Cu, Ga, and Ru (85, 143). On veloped to forecast the adsorption energies of several important
+Li et al., Sci. Adv. 10, eadn2877 (2024) 5 June 2024 17 of 21
+Downloaded
+from
+https://www.science.org
+at
+National
+Institute
+of
+Technology
+Srinagar
+on
+October
+09,
+2026
+
+Science AdvAnceS | Review
+CO
+2
+RR intermediates (COOH*, CO*, and CHO) by considering 1) Controlled preparation and tailoring of HEAs. Although the
+1280 adsorption sites on the designed FeCoNiCuMo HEAs (146). morphology- controlled synthesis of HEAs has been realized and re-
+Because of the difference in adsorption features toward COOH*, ported, the controllable morphologies of HEAs are very limited. The
+CO*, and CHO* on HEAs, the scaling relation between the adsorp- electronic structure regulation strategies for traditional alloys, such
+tion energy of COOH* (CHO*) and CO* has been circumvented. as doping engineering, defect engineering, and surface and interface
+Therefore, the designed HEA active sites can achieve low potential engineering, have yet been extended to HEAs. Especially, the differ-
+toward CO RR. These results show that the adsorption energy of ences in reduction potentials and miscibility behavior of different
+2
+key intermediates can be regulated by reasonable component de- metals further add difficulties to the fine structural regulations.
+sign, thereby optimizing the selectivity and activity of HEAs for Therefore, developing more controllable synthetic approach is a ma-
+CO RR. Experimentally, AuAgPtPdCu HEA nanoparticles with fcc jor task in this field and is potentially breaking through the activity
+2
+structures were demonstrated as an efficient CO RR model catalyst limitation of HEAs.
+2
+(145). The adsorption energy of two key intermediates (*OCH
+3
+and 2) The extension to other electrocatalytic applications. Consider-
+*O) on the surface of Cu (111) and HEAs was reversed, inducing a ing the advantageous multisite synergistic catalysis of HEAs, it pro-
+stronger thermodynamic advantage of HEAs compared with pris- vides additional opportunities for steering electrocatalytic reactions
+tine Cu metals. Therefore, the AuAgPtPdCu HEA nanoparticles with high degree of complexity and specifically improving the selec-
+show a high Faraday efficiency of 100% at 0.3 V (versus RHE) to- tivity. For example, the increase in element identity makes the
+ward gaseous hydrocarbons. It has been proved theoretically and change of products more diversified for organic electrosynthesis and
+experimentally that HEAs can effectively promote the electrocata- the electrocatalytic conversion of organic molecules, thus poten-
+lytic CO RR process by optimizing the adsorption energy of the key tially enabling the exclusive synthesis of high- value- added products.
+2
+reaction intermediates of CO RR. As these reactions often require multiple adsorption sites for multi-
+2
+Pd- based electrocatalysts have shown high selectivity toward ple elementary steps, HEAs could serve as the ideal model catalysts.
+HCOOH and CO during CO RR electrocatalysis, while the promo- 3) Understanding the relationship between structure and cata-
+2
+tion of CO tolerance and the inhibition of HER are still very urgent lytic activity in HEAs. The complexity of the surface and internal
+(147). In this regard, senary PdCuAuAgBiIn HEAAs can achieve structure of HEAs, in addition to the surface dynamics during elec-
+almost 100% Faraday efficiency of C
+1
+products from −0.7 to −1.1 V trocatalysis, severely challenges the identification of active sites of
+(versus RHE) and a highest value of 98.1% toward HCOOH at −1.1 V HEA- based electrocatalysts. To address this challenge, it is neces-
+versus RHE (39). This is mainly because of the regulation of elec- sary to leverage advanced characterizations for the analysis of
+tronic structures by the strong interactions between different metals atomic structure and in situ spectroscopy for tracking the surface
+and the surface unsaturated sites. The optimized adsorption of adsorbates during electrocatalysis. The ensemble effect of highly
+*HCOO intermediates guarantees the enhanced electrocatalysis, diverse surface sites should also be carefully considered, because
+making the activity of HEAAs not only more excellent than that of each surface site has its sensitivity to elementary reaction steps. This
+nanoparticle counterparts but also outperforms Pd metallic aero- calls for a precise establishment of atomic models in experimental
+gels. Note that the multicomponent advantages of HEAs make it and theoretical investigation to unravel and quantitate ensemble effect.
+possible to diversify the products of CO RR electrocatalysis, which 4) Integrating HEAs into industry. The structural merits drive
+2
+is expected to obtain unique activity and selectivity different from the rapid development of HEAs in electrocatalysis but remain too
+conventional alloys. early for practical applications. Moving toward industry, the follow-
+ing aspects of HEAs need to be addressed: scalability, economic fea-
+sibility, reproducibility, controllability, and sustainability.
+SUMMARY AND OUTLOOK
+HEAs, an emerging branch of alloying materials, have shown tremen- REFERENCES AND NOTES
+dous potential to overcome the species limitations determined by the 1. S. chu, A. Majumdar, Opportunities and challenges for a sustainable energy future.
+differences in intrinsic physical and chemical properties between dif- Nature 488, 294–303 (2012).
+2. M. K. debe, electrocatalyst approaches and challenges for automotive fuel cells. Nature
+ferent metal atoms. The continuous adjustment of surface electronic
+486, 43–51 (2012).
+structure is the most typical characteristic of HEAs, which potentially 3. J. Shan, c. Ye, Y. Jiang, M. Jaronlec, Y. Zheng, S.-Z . Qiao, Metal- metal interactions in
+enables the break of scaling relationship in electrocatalysis. In this re- correlated single- atom catalysts. Sci. Adv. 8, eabo0762 (2022).
+view, we summarize the latest progress of HEA electrocatalysts with 4. Z. Zhao, c. chen, Z. Liu, J. Huang, M. wu, H. Liu, Y. Li, Y. Huang, Pt- based nanocrystal for
+two important trends of diminishment and multidimensionality over electrocatalytic oxygen reduction. Adv. Mater. 31, 1808115 (2019).
+5. K. Kodama, T. nagai, A. Kuwaki, R. Jinnouchi, Y. Morimoto, challenges in applying highly
+the past few years. We demonstrate the advantages of HEA electro-
+active Pt- based nanostructured catalysts for oxygen reduction reactions to fuel cell
+catalysts from the aspects of high entropy, nanometer, and multidi-
+vehicles. Nat. Nanotechnol. 16, 140–147 (2021).
+mension. In addition, advanced characterizations have been used to 6. M. Luo, M. T. M. Koper, A kinetic descriptor for the electrolyte effect on the oxygen
+disclose the structural complexities of HEA electrocatalysts, especial- reduction kinetics on Pt(111). Nat. Catal. 5, 615–623 (2022).
+ly establishing the synergetic mechanism between the multisites in 7. A. Lončar, d. escalera- López, S. cherevko, n. Hodnik, inter- relationships between oxygen
+evolution and iridium dissolution mechanisms. Angew. Chem. Int. Ed. 61, e202114437
+HEAs and electrocatalytic properties. We also emphasize the struc-
+(2022).
+tural regulation strategies for maximizing electrocatalytic perfor- 8. Y. Lin, Y. dong, X. wang, L. chen, electrocatalysts for the oxygen evolution reaction in
+mance, including size, morphology, and atomic arrangement acidic media. Adv. Mater. 35, 2210565 (2023).
+engineering. Despite the attractive material platforms for various 9. P.- P. Yang, M.- R. Gao, enrichment of reactants and intermediates for electrocatalytic cO2
+reduction. Chem. Soc. Rev. 52, 4343–4380 (2023).
+electrocatalytic reactions, the development of HEAs in electrocataly-
+10. Z. w. Seh, J. Kibsgaard, c. F. dickens, i. chorkendorff, J. K. nørskov, T. F. Jaramillo,
+sis is still in its infancy, and enormous challenges need to be tackled in combining theory and experiment in electrocatalysis: insights into materials design.
+the future. Several key challenges are as follows: Science 355, eaad4998 (2017).
+Li et al., Sci. Adv. 10, eadn2877 (2024) 5 June 2024 18 of 21
+Downloaded
+from
+https://www.science.org
+at
+National
+Institute
+of
+Technology
+Srinagar
+on
+October
+09,
+2026
+
+Science AdvAnceS | Review
+11. M. Li, Z. Xia, M. Luo, L. He, L. Tao, w. Yang, Y. Yu, S. Guo, Structural regulation of Pd- based 36. c. Zhan, Y. Xu, L. Bu, H. Zhu, Y. Feng, T. Yang, Y. Zhang, Z. Yang, B. Huang, Q. Shao,
+nanoalloys for advanced electrocatalysis. Small Sci. 1, 2100061 (2021). X. Huang, Subnanometer high- entropy alloy nanowires enable remarkable hydrogen
+12. c. Yang, Y. Gao, T. Ma, M. Bai, c. He, X. Ren, X. Luo, c. wu, S. Li, c. chen, Metal alloys- oxidation catalysis. Nat. Commun. 12, 6261 (2021).
+structured electrocatalysts: Metal- metal interactions, coordination microenvironments, 37. w. chen, S. Luo, M. Sun, X. wu, Y. Zhou, Y. Liao, M. Tang, X. Fan, B. Huang, Z. Quan,
+and structural property- reactivity relationships. Adv. Mater. 35, e2301836 (2023). High- entropy intermetallic PtRhBiSnSb nanoplates for highly efficient alcohol oxidation
+13. Y. nakaya, S. Furukawa, catalysis of alloys: classification, principles, and design for a electrocatalysis. Adv. Mater. 34, e2206276 (2022).
+variety of materials and reactions. Chem. Rev. 123, 5859–5947 (2023). 38. L. Tao, M. Sun, Y. Zhou, M. Luo, F. Lv, M. Li, Q. Zhang, L. Gu, B. Huang, S. Guo, A general
+14. R.- Y. Shao, X.- c. Xu, Z.- H. Zhou, w.- J. Zeng, T.- w. Song, P. Yin, A. Li, c.- S. Ma, L. Tong, synthetic method for high- entropy alloy subnanometer ribbons. J. Am. Chem. Soc. 144,
+Y. Kong, H.- w. Liang, Promoting ordering degree of intermetallic fuel cell catalysts by 10582–10590 (2022).
+low- melting- point metal doping. Nat. Commun. 14, 5896 (2023). 39. H. Li, H. Huang, Y. chen, F. Lai, H. Fu, L. Zhang, n. Zhang, S. Bai, T. Liu, High- entropy alloy
+15. M. Luo, Y. Qin, M. Li, Y. Sun, c. Li, Y. Li, Y. Yang, F. Lv, d. wu, P. Zhou, S. Guo, interface aerogels: A new platform for carbon dioxide reduction. Adv. Mater. 35, e2209242 (2023).
+modulation of twinned PtFe nanoplates branched 3d architecture for oxygen reduction 40. G. Feng, F. ning, Y. Pan, T. chen, J. Song, Y. wang, R. Zou, d. Su, d. Xia, engineering
+catalysis. Sci. Bull. 65, 97–104 (2020). structurally ordered high- entropy intermetallic nanoparticles with high- activity facets
+16. A. d. Pendergast, M. w. Glasscott, c. Renault, J. e. dick, One- step electrodeposition of for oxygen reduction in practical fuel cells. J. Am. Chem. Soc. 145, 11140–11150 (2023).
+ligand-f ree PdPt alloy nanoparticles from water droplets: controlling size, coverage, and 41. d. B. Miracle, O. n. Senkov, A critical review of high entropy alloys and related concepts.
+elemental stoichiometry. Electrochem. Commun. 98, 1–5 (2019). Acta Mater. 122, 448–511 (2017).
+17. Y. Ma, Y. Ma, Q. wang, S. Schweidler, M. Botros, T. Fu, H. Hahn, T. Brezesinski, B. Breitung, 42. J. ding, Q. Yu, M. Asta, R. O. Ritchie, Tunable stacking fault energies by tailoring local
+High- entropy energy materials: challenges and new opportunities. Energ. Environ. Sci. chemical order in crconi medium- entropy alloys. Proc. Natl. Acad. Sci. U.S.A. 115,
+14, 2883–2905 (2021). 8919–8924 (2018).
+18. Y. Zhou, X. Shen, T. Qian, c. Yan, J. Lu, A review on the rational design and fabrication of 43. R. Zhang, S. Zhao, J. ding, Y. chong, T. Jia, c. Ophus, M. Asta, R. O. Ritchie, A. M. Minor,
+nanosized high- entropy materials. Nano Res. 16, 7874–7905 (2023). Short- range order and its impact on the crconi medium- entropy alloy. Nature 581,
+19. J. Yeh, S. chen, S. Lin, J. Gan, T. chin, T. Shun, c. Tsau, S. chang, nanostructured 283–287 (2020).
+high- entropy alloys with multiple principal elements: novel alloy design concepts and 44. L. J. Santodonato, Y. Zhang, M. Feygenson, c. M. Parish, M. c. Gao, R. J. K. weber,
+outcomes. Adv. Eng. Mater. 6, 299–303 (2004). J. c. neuefeind, Z. Tang, P. K. Liaw, deviation from high- entropy configurations in the
+20. P. Shi, R. Li, Y. Li, Y. wen, Y. Zhong, w. Ren, Z. Shen, T. Zheng, J. Peng, X. Liang, P. Hu, n. Min, atomic distributions of a multi- principal- element alloy. Nat. Commun. 6, 5964 (2015).
+Y. Zhang, Y. Ren, P. K. Liaw, d. Raabe, Y. wang, Hierarchical crack buffering triples ductility 45. H. wang, Q. He, X. Gao, Y. Shang, w. Zhu, w. Zhao, Z. chen, H. Gong, Y. Yang,
+in eutectic herringbone high- entropy alloys. Science 373, 912–918 (2021). Multifunctional high entropy alloys enabled by severe lattice distortion. Adv. Mater. 35,
+21. H. Yin, J. Y. Law, Y. Huang, H. Shen, S. Jiang, S. Guo, v. Franco, J. Sun, enhancing the 2305453 (2023).
+magnetocaloric response of high- entropy metallic- glass by microstructural control. Sci. 46. c. deng, T. wang, P. wu, w. Zhu, S. dai, High entropy materials for catalysis: A critical
+China Mater. 65, 1134–1142 (2022). review of fundamental concepts and applications. Nano Energy 120, 109153 (2024).
+22. d. Liu, Q. Yu, S. Kabra, M. Jiang, P. Forna- Kreutzer, R. Zhang, M. Payne, F. walsh, 47. K. Tsai, M. Tsai, J. Yeh, Sluggish diffusion in co- cr- Fe- Mn- ni high- entropy alloys. Acta
+B. Gludovatz, M. Asta, A. M. Minor, e. P. George, R. O. Ritchie, exceptional fracture Mater. 61, 4887–4897 (2013).
+toughness of crconi- based medium- and high- entropy alloys at 20 kelvin. Science 378, 48. Z. An, S. Mao, T. Yang, Y. Liu, Y. chen, X. Yang, S. Liu, X. wang, Q. deng, Z. Zhang, X. Han,
+978–983 (2022). Simultaneously enhanced oxidation resistance and mechanical properties in a novel
+23. L. wang, J. ding, S. chen, K. Jin, Q. Zhang, J. cui, B. wang, B. chen, T. Li, Y. Ren, S. Zheng, lightweight Ti2vZrnb0.5Al0.5 high- entropy alloy. Sci. China Mater. 65, 2842–2849 (2022).
+K. Ming, w. Lu, J. Hou, G. Sha, J. Liang, L. wang, Y. Xue, e. Ma, Tailoring planar slip to 49. H. Li, J. Lai, Z. Li, L. wang, Multi- sites electrocatalysis in high- entropy alloys. Adv. Funct.
+achieve pure metal- like ductility in body- centred- cubic multi- principal element alloys. Mater. 31, 2106715 (2021).
+Nat. Mater. 22, 950–957 (2023). 50. d. Zhang, Y. Shi, H. Zhao, w. Qi, X. chen, T. Zhan, S. Li, B. Yang, M. Sun, J. Lai, B. Huang,
+24. e. P. George, d. Raabe, R. O. Ritchie, High- entropy alloys. Nat. Rev. Mater. 4, 515–534 L. wang, The facile oil- phase synthesis of a multi-s ite synergistic high- entropy alloy to
+(2019). promote the alkaline hydrogen evolution reaction. J. Mater. Chem. A 9, 889–893 (2021).
+25. Y. Yao, Q. dong, A. Brozena, J. Luo, J. Miao, M. chi, c. wang, i. G. Kevrekidis, Z. J. Ren, 51. Q, Mao, X. Mu, K. deng, H. Yu, Z. wang, Y. Xu, X. Li, L. wang, H. wang, Multisite
+J. Greeley, G. wang, A. Anapolsky, L. Hu, High- entropy nanoparticles: Synthesis- structure- synergism-i nduced electron regulation of high- entropy alloy metallene for boosting
+property relationships and data- driven discovery. Science 376, eabn3103 (2022). alkaline hydrogen evolution reaction. Adv. Funct. Mater. 33, 2304963 (2023).
+26. X. Han, G. wu, S. Zhao, J. Guo, M. Yan, X. Hong, d. wang, nanoscale high- entropy alloy for 52. P. Ball, L. Garwin, Science at the atomic scale. Nature 355, 761–764 (1992).
+electrocatalysis. Matter 6, 1717–1751 (2023). 53. L. wang, H. Liu, J. Zhuang, d. wang, Small- scale big science: From nano- to atomically
+27. Z. Li, K. G. Pradeep, Y. deng, d. Raabe, c. c. Tasan, Metastable high- entropy dual- phase dispersed catalytic materials. Small Sci. 2, 2200036 (2022).
+alloys overcome the strength- ductility trade- off. Nature 534, 227–230 (2016). 54. P. Rao, Y. deng, w. Fan, J. Luo, P. deng, J. Li, Y. Shen, X. Tian, Movable type printing method
+28. H. chen, w. Lin, Z. Zhang, K. Jie, d. R. Mullins, X. Sang, S. Z. Yang, c. J. Jafta, c. A. Bridges, to synthesize high- entropy single- atom catalysts. Nat. Commun. 13, 5071 (2022).
+X. Hu, R. R. Unocic, J. Fu, P. Zhang, S. dai, Mechanochemical synthesis of high entropy 55. Y. chida, T. Tomimori, T. ebata, n. Taguchi, T. ioroi, K. Hayashi, n. Todoroki, T. wadayama,
+oxide materials under ambient conditions: dispersion of catalysts via entropy experimental study platform for electrocatalysis of atomic- level controlled high- entropy
+maximization. ACS Mater. Lett. 1, 83–88 (2019). alloy surfaces. Nat. Commun. 14, 4492 (2023).
+29. J. duan, M. wang, R. Huang, J. Miao, Y. Lu, T. wang, T. Li, A novel high- entropy alloy with 56. H. Minamihara, K. Kusada, T. Yamamoto, T. Toriyama, Y. Murakami, S. Matsumura,
+an exceptional combination of soft magnetic properties and corrosion resistance. Sci. L. S. R. Kumara, O. Sakata, S. Kawaguchi, Y. Kubota, O. Seo, S. Yasuno, H. Kitagawa,
+China Mater. 66, 772–779 (2023). continuous- flow chemical synthesis for sub- 2 nm ultra- multielement alloy nanoparticles
+30. P.- c. chen, X. Liu, J. L. Hedrick, Z. Xie, S. wang, Q.- Y. Lin, M. c. Hersam, v. P. dravid, consisting of group iv to Xv elements. J. Am. Chem. Soc. 145, 17136–17142 (2023).
+c. A. Mirkin, Polyelemental nanoparticle libraries. Science 352, 1565–1569 (2016). 57. Y. Yao, Q. dong, L. Hu, Overcoming immiscibility via a milliseconds- long “shock” synthesis
+31. Y. Yao, Z. Huang, P. Xie, S. d. Lacey, R. J. Jacob, H. Xie, F. chen, A. nie, T. Pu, M. Rehwoldt, toward alloyed nanoparticles. Matter 1, 1451–1453 (2019).
+d. Yu, M. R. Zachariah, c. wang, R. Shahbazian- Yassar, J. Li, L. Hu, carbothermal shock 58. Y. wang, w. Luo, S. Gong, L. Luo, Y. Li, Y. Zhao, Z. Li, Synthesis of high- entropy- alloy
+synthesis of high- entropy- alloy nanoparticles. Science 359, 1489–1494 (2018). nanoparticles by a step- alloying strategy as a superior multifunctional electrocatalyst.
+32. H. Li, Y. Han, H. Zhao, w. Qi, d. Zhang, Y. Yu, w. cai, S. Li, J. Lai, B. Huang, L. wang, Fast Adv. Mater. 35, e2302499 (2023).
+site- to-s ite electron transfer of high- entropy alloy nanocatalyst driving redox 59. M. Li, Z. Zhao, w. Zhang, M. Luo, L. Tao, Y. Sun, Z. Xia, Y. chao, K. Yin, Q. Zhang, L. Gu,
+electrocatalysis. Nat. Commun. 11, 5437 (2020). w. Yang, Y. Yu, G. Lu, S. Guo, Sub- monolayer YOx/MoOx on ultrathin Pt nanowires boosts
+33. G. Feng, F. ning, J. Song, H. Shang, K. Zhang, Z. ding, P. Gao, w. chu, d. Xia, Sub- 2 nm alcohol oxidation electrocatalysis. Adv. Mater. 33, e2103762 (2021).
+ultrasmall high- entropy alloy nanoparticles for extremely superior electrocatalytic 60. L. M. Liz- Marzán, M. Grzelczak, Growing anisotropic crystals at the nanoscale. Science
+hydrogen evolution. J. Am. Chem. Soc. 143, 17117–17127 (2021). 356, 1120–1121 (2017).
+34. H. Minamihara, K. Kusada, d. wu, T. Yamamoto, T. Toriyama, S. Matsumura, L. S. R. Kumara, 61. M. Xie, w. Fang, Z. Qu, Y. Hu, Y. Zhang, J. chao, J. Shi, L. wang, L. wang, Y. Tian, c. Fan,
+K. Ohara, O. Sakata, S. Kawaguchi, Y. Kubota, H. Kitagawa, continuous- flow reactor H. Liu, High- entropy alloy nanopatterns by prescribed metallization of dnA origami
+synthesis for homogeneous 1 nm- sized extremely small high- entropy alloy templates. Nat. Commun. 14, 1745 (2023).
+nanoparticles. J. Am. Chem. Soc. 144, 11525–11529 (2022). 62. Y.- H. Liu, c.- J. Hsieh, L.- c. Hsu, K.- H. Lin, Y.- c. Hsiao, c.- c. chi, J.- T. Lin, c.- w. chang,
+35. X. Lei, Q. Tang, Y. Zheng, P. Kidkhunthod, X. Zhou, B. Ji, Y. Tang, High- entropy single- atom S.- c. Lin, c.- Y. wu, J.- Q. Gao, c.- w. Pao, Y.- M. chang, M.- Y. Lu, S. Zhou, T.- H. Yang, Toward
+activated carbon catalysts for sustainable oxygen electrocatalysis. Nat. Sustain. 6, controllable and predictable synthesis of high- entropy alloy nanocrystals. Sci. Adv. 9,
+816–826 (2023). eadf9931 (2023).
+Li et al., Sci. Adv. 10, eadn2877 (2024) 5 June 2024 19 of 21
+Downloaded
+from
+https://www.science.org
+at
+National
+Institute
+of
+Technology
+Srinagar
+on
+October
+09,
+2026
+
+Science AdvAnceS | Review
+63. Y. Kang, O. cretu, J. Kikkawa, K. Kimoto, H. nara, A. S. nugraha, H. Kawamoto, M. eguchi, 86. K. Kusada, H. Kitagawa, A route for phase control in metal nanoparticles: A potential
+T. Liao, Z. Sun, T. Asahi, Y. Yamauchi, Mesoporous multimetallic nanospheres with strategy to create advanced materials. Adv. Mater. 28, 1129–1142 (2016).
+exposed highly entropic alloy sites. Nat. Commun. 14, 4182 (2023). 87. M. Li, M. Luo, Z. Xia, Y. Yang, Y. Huang, d. wu, Y. Sun, c. Li, Y. chao, w. Yang, w. Yang, Y. Yu,
+64. M. wei, Y. Sun, J. Zhang, F. Ai, S. Xi, J. wang, High- entropy alloy nanocrystal assembled by S. Guo, Modulating the surface segregation of PdcuRu nanocrystals for enhanced all- pH
+nanosheets with d- d electron interaction for hydrogen evolution reaction. Energ. Environ. hydrogen evolution electrocatalysis. J. Mater. Chem. A 7, 20151–20157 (2019).
+Sci. 16, 4009–4019 (2023). 88. Y. chen, X. Zhan, S. L. A. Bueno, i. H. Shafei, H. M. Ashberry, K. chatterjee, L. Xu, Y. Tang,
+65. J. Hao, Z. Zhuang, K. cao, G. Gao, c. wang, F. Lai, S. Lu, P. Ma, w. dong, T. Liu, M. du, S. e. Skrabalak, Synthesis of monodisperse high entropy alloy nanocatalysts from core@
+H. Zhu, Unraveling the electronegativity- dominated intermediate adsorption on shell nanoparticles. Nanoscale Horiz. 6, 231–237 (2021).
+high- entropy alloy electrocatalysts. Nat. Commun. 13, 2662 (2022). 89. S. L. A. Bueno, A. Leonardi, n. Kar, K. chatterjee, X. Zhan, c. chen, Z. wang, M. engel,
+66. G. Zhu, Y. Jiang, H. Yang, H. wang, Y. Fang, L. wang, M. Xie, P. Qiu, w. Luo, constructing v. Fung, S. e. Skrabalak, Quinary, senary, and septenary high entropy alloy nanoparticle
+structurally ordered high- entropy alloy nanoparticles on nitrogen- rich mesoporous catalysts from core@shell nanoparticles and the significance of intraparticle
+carbon nanosheets for high- performance oxygen reduction. Adv. Mater. 34, e2110128 heterogeneity. ACS Nano 16, 18873–18885 (2022).
+(2022). 90. L. Liu, A. corma, Metal catalysts for heterogeneous catalysis: From single atoms to
+67. c. Zhan, L. Bu, H. Sun, X. Huang, Z. Zhu, T. Yang, H. Ma, L. Li, Y. wang, H. Geng, w. wang, nanoclusters and nanoparticles. Chem. Rev. 118, 4981–5079 (2018).
+H. Zhu, c. Pao, Q. Shao, Z. Yang, w. Liu, Z. Xie, X. Huang, Medium/high- entropy 91. Y. Fang, d. Luan, S. Gao, X. w. Lou, Rational design and engineering of one- dimensional
+amalgamated core/shell nanoplate achieves efficient formic acid catalysis for direct hollow nanostructures for efficient electrochemical energy storage. Angew. Chem. Int. Ed.
+formic acid fuel cell. Angew. Chem. Ed. Int. 62, e202213783 (2023). 60, 20102–20118 (2021).
+68. d. wu, K. Kusada, T. Yamamoto, T. Toriyama, S. Matsumura, S. Kawaguchi, Y. Kubota, 92. H. Xu, H. Shang, c. wang, Y. du, Low- dimensional metallic nanomaterials for advanced
+H. Kitagawa, Platinum- group- metal high- entropy- alloy nanoparticles. J. Am. Chem. Soc. electrocatalysis. Adv. Funct. Mater. 30, 2006317 (2020).
+142, 13833–13838 (2020). 93. X. Fu, J. Zhang, S. Zhan, F. Xia, c. wang, d. Ma, Q. Yue, J. wu, Y. Kang, High- entropy
+69. Y. Yao, Z. Huang, L. A. Hughes, J. Gao, B. H. Savitzky, c. Ophus, Y. Z. Finfrock, Q. dong, alloy nanosheets for fine- tuning hydrogen evolution. ACS Catal. 12, 11955–11959
+M. Jiao, Y. Mao, M. chi, P. Zhang, J. Li, A. M. Minor, R. Shahbazian- Yassar, L. Hu, extreme (2022).
+mixing in nanoscale transition metal alloys. Matter 4, 2340–2353 (2021). 94. Y. Yu, G. Liu, S. Jiang, R. Zhang, H. deng, e. A. Stach, S. Bao, Z. Zeng, Y. Kang, engineering
+70. Y. Liao, Y. Li, R. Zhao, J. Zhang, L. Zhao, L. Ji, Z. Zhang, X. Liu, G. Qin, X. Zhang, the high- entropy phase of Pt- Au- cu nanowire for electrocatalytic hydrogen evolution.
+High- entropy- alloy nanoparticles with 21 ultra- mixed elements for efficient Nano Res. 16, 10742–10747 (2023).
+photothermal conversion. Natl. Sci. Rev. 9, nwac041 (2022). 95. H. Li, M. Sun, Y. Pan, J. Xiong, H. du, Y. Yu, S. Feng, Z. Li, J. Lai, B. Huang, L. wang, The
+71. Z. Jia, T. Yang, L. Sun, Y. Zhao, w. Li, J. Luan, F. Lyu, L. Zhang, J. J. Kruzic, J. Kai, J. c. Huang, self- complementary effect through strong orbital coupling in ultrathin high- entropy
+J. Lu, c. T. Liu, A novel multinary intermetallic as an active electrocatalyst for hydrogen alloy nanowires boosting pH- universal multifunctional electrocatalysis. Appl Catal B 312,
+evolution. Adv. Mater. 32, e2000385 (2020). 121431 (2022).
+72. Y. Sun, w. Zhang, Q. Zhang, Y. Li, L. Gu, S. Guo, A general approach to high- entropy 96. M. Luo, Z. Zhao, Y. Zhang, Y. Sun, Y. Xing, F. Lv, Y. Yang, X. Zhang, S. Hwang, Y. Qin, J. Y. Ma,
+metallic nanowire electrocatalysts. Matter 6, 193–205 (2023). F. Lin, d. Su, G. Lu, S. Guo, PdMo bimetallene for oxygen reduction catalysis. Nature 574,
+73. M. L. d. Marco, w. Baaziz, S. Sharna, F. devred, c. Poleunis, A. chevillot- Biraud, S. nowak, 81–85 (2019).
+R. Haddad, M. Odziomek, c. Boissière, d. P. debecker, O. ersen, J. Peron, M. Faustini, 97. Z. Jin, J. Lyu, Y. L. Zhao, H. Li, X. Lin, G. Xie, X. Liu, J. Kai, H. Qiu, Rugged high- entropy alloy
+High- entropy- alloy nanocrystal based macro- and mesoporous materials. ACS Nano 16, nanowires with in situ formed surface spinel oxide as highly stable electrocatalyst in
+15837–15849 (2022). Zn- air batteries. ACS Mater. Lett. 2, 1698–1706 (2020).
+74. A. L. Maulana, P.- c. chen, Z. Shi, Y. Yang, c. Lizandara- Pueyo, F. Seeler, H. d. Abruña, 98. Y. wang, B. Yu, M. He, Z. Zhai, K. Yin, F. Kong, Z. Zhang, eutectic- derived high- entropy
+d. Muller, K. Schierle- Arndt, P. Yang, Understanding the structural evolution of nanoporous nanowires for efficient and stable water- to- hydrogen conversion. Nano Res.
+irFeconicu high- entropy alloy nanoparticles under the acidic oxygen evolution reaction. 15, 4820–4826 (2022).
+Nano Lett. 23, 6637–6644 (2023). 99. Q. Li, B. wei, Y. Li, J. Xu, J. Li, L. Liu, F. L. deepak, Large- scale fabrication of hollow Pt3Al
+75. K. Mori, n. Hashimoto, n. Kamiuchi, H. Yoshida, H. Kobayashi, H. Yamashita, Hydrogen nanoboxes and their electrocatalytic performance for hydrogen evolution reaction. ACS
+spillover- driven synthesis of high- entropy alloy nanoparticles as a robust catalyst for cO2 Sustainable Chem. Eng. 7, 9842–9847 (2019).
+hydrogenation. Nat. Commun. 12, 3884 (2021). 100. T. Yu, Y. Zhang, Y. Hu, K. Hu, X. Lin, G. Xie, X. Liu, K. M. Reddy, Y. ito, H. Qiu, Twelve-
+76. B. wang, c. wang, X. Yu, Y. cao, L. Gao, c. wu, Y. Yao, Z. Lin, Z. Zou, General synthesis of component free- standing nanoporous high- entropy alloys for multifunctional
+high- entropy alloy and ceramic nanoparticles in nanoseconds. Nat. Syn. 1, 138–146 electrocatalysis. ACS Mater. Lett. 4, 181–189 (2022).
+(2022). 101. S. e. Skrabalak, Mashing up metals with carbothermal shock. Science 359, 1467 (2018).
+77. G. cao, J. Liang, Z. Guo, K. Yang, G. wang, H. wang, X. wan, Z. Li, Y. Bai, Y. Zhang, J. Liu, 102. R. Yao, Y. Zhou, H. Shi, w. wan, Q. Zhang, L. Gu, Y. Zhu, Z. wen, X. Lang, Q. Jiang,
+Y. Feng, Z. Zheng, c. Lu, G. He, Z. Xiong, Z. Liu, S. chen, Y. Guo, M. Zeng, J. Lin, L. Fu, nanoporous surface high- entropy alloys as highly efficient multisite electrocatalysts for
+Liquid metal for high- entropy alloy nanoparticles synthesis. Nature 619, 73–77 nonacidic hydrogen evolution reaction. Adv. Funct. Mater. 31, 2009613 (2021).
+(2023). 103. w. Zhang, X. Feng, Z. X. Mao, J. Li, Z. wei, Stably immobilizing sub- 3 nm high- entropy Pt
+78. J.- H. cha, S.- H. cho, d.- H. Kim, d. Heon, S. Park, J.- w. Jung, i.- d. Kim, S.- Y. choi, alloy nanocrystals in porous carbon as durable oxygen reduction electrocatalyst. Adv.
+Flash- thermal shock synthesis of high- entropy alloys toward high- performance water Funct. Mater. 32, 2204110 (2022).
+splitting. Adv. Mater. 35, e2305222 (2023). 104. G. Han, M. Li, H. Liu, w. Zhang, L. He, F. Tian, Y. Liu, Y. Yu, w. Yang, S. Guo, Short- range
+79. c. chen, J. Guo, J. Liu, w. Li, Y. wei, H.- H. wang, X. Zhao, w. Lu, Quinary RuRhPdPtAu diffusion enables general synthesis of medium- entropy alloy aerogels. Adv. Mater. 34,
+high- entropy alloy as an efficient electrocatalyst for the hydrogen evolution reaction. e2202943 (2022).
+Chem. Commun. 59, 12863–12866 (2023). 105. M. Zhou, c. Li, J. Fang, noble-m etal based random alloy and intermetallic nanocrystals:
+80. G. Pacchioni, High- entropy materials go nano. Nat. Rev. Mater. 7, 156 (2022). Syntheses and applications. Chem. Rev. 121, 736–795 (2021).
+81. S. Gao, S. Hao, Z. Huang, Y. Yuan, S. Han, L. Lei, X. Zhang, R. Shahbazian- Yassar, J. Lu, 106. X. Li, w. cai, d.- S. Li, J. Xu, H. Tao, B. Liu, Amorphous alloys for electrocatalysis: The
+Synthesis of high- entropy alloy nanoparticles on supports by the fast moving bed significant role of the amorphous alloy structure. Nano Res. 16, 4277–4288 (2023).
+pyrolysis. Nat. Commun. 11, 2016 (2020). 107. F. Lin, M. Li, L. Zeng, M. Luo, S. Guo, intermetallic nanocrystals for fuel- cells- based
+82. H. Qiao, M. T. Saray, X. wang, S. Xu, G. chen, Z. Huang, c. chen, G. Zhong, Q. dong, electrocatalysis. Chem. Rev. 123, 12507–12593 (2023).
+M. Hong, H. Xie, R. Shahbazian- Yassar, L. Hu, Scalable synthesis of high entropy alloy 108. n. Zhou, S. Jiang, T. Huang, M. Qin, T. Hu, J. Luo, Single-p hase high- entropy intermetallic
+nanoparticles by microwave heating. ACS Nano 15, 14928–14937 (2021). compounds (Heics): Bridging high- entropy alloys and ceramics. Sci. Bull. 64, 856–864
+83. X. wang, Q. dong, H. Qiao, Z. Huang, M. T. Saray, G. Zhong, Z. Lin, M. cui, A. Brozena, (2019).
+M. Hong, Q. Xia, J. Gao, G. chen, R. Shahbazian- Yassar, d. wang, L. Hu, continuous 109. H. wang, Q. He, Y. Yang, High- entropy intermetallics: From alloy design to structural and
+synthesis of hollow high- entropy nanoparticles for energy and catalysis applications. functional properties. Rare Met. 41, 1989–2001 (2022).
+Adv. Mater. 32, e2002853 (2020). 110. M. w. Glasscott, A. d. Pendergast, S. Goines, A. R. Bishop, A. T. Hoang, c. Renault, J. e. dick,
+84. X. wang, Z. Huang, Y. Yao, H. Qiao, G. Zhong, Y. Pei, c. Zheng, d. Kline, Q. Xia, Z. Lin, J. dai, electrosynthesis of high- entropy metallic glass nanoparticles for designer, multi-
+M. R. Zachariah, B. Yang, R. Shahbazian- Yassar, L. Hu, continuous 2000 K droplet- to- functional electrocatalysis. Nat. Commun. 10, 2650 (2019).
+particle synthesis. Mater. Today 35, 106–114 (2020). 111. M. cui, c. Yang, S. Hwang, M. Yang, S. Overa, Q. dong, Y. Yao, A. H. Brozena, d. A. cullen,
+85. H. Liu, R. Jia, c. Qin, Q. Yang, Z. Tang, M. Li, Z. Ma, Anti- cO poisoning FePtRh nanoflowers M. chi, T. F. Blum, d. Morrls, Z. Flnfrock, X. wang, P. Zhang, v. G. Goncharov, X. Guo, J. Luo,
+with Rh- rich core and Fe- rich shell boost methanol oxidation electrocatalysis. Adv. Funct. Y. Mo, F. Jiao, L. Hu, Multi- principal elemental intermetallic nanoparticles synthesized via
+Mater. 33, 2210626 (2023). a disorder- to- order transition. Sci. Adv. 8, eabm4322 (2022).
+Li et al., Sci. Adv. 10, eadn2877 (2024) 5 June 2024 20 of 21
+Downloaded
+from
+https://www.science.org
+at
+National
+Institute
+of
+Technology
+Srinagar
+on
+October
+09,
+2026
+
+Science AdvAnceS | Review
+112. J. Ma, F. Xing, Y. nakaya, K. Shimizu, S. Furukawa, nickel-b ased high- entropy intermetallic electrocatalyst powders and electrodes and their application for oxygen evolution and
+as a highly active and selective catalyst for acetylene semihydrogenation. Angew. Chem. water splitting. Angew. Chem. Ed. Int. 62, e202218493 (2023).
+Ed. Int. 61, e202200889 (2022). 134. H. Zhu, S. Sun, J. Hao, Z. Zhuang, S. Zhang, T. wang, Q. Kang, S. Lu, X. wang, F. Lai, T. Liu,
+113. X. Zhang, Y. Yang, Y. Liu, Z. Jia, Q. wang, L. Sun, L.- c. Zhang, J. J. Kruzic, J. Lu, B. Shen, G. Gao, M. du, d. wang, A high- entropy atomic environment converts inactive to active
+defect engineering of a high- entropy metallic glass surface for high- performance overall sites for electrocatalysis. Energ. Environ. Sci. 16, 619–628 (2023).
+water splitting at ampere-l evel current densities Adv. Mater. 35, 2303439 (2023). 135. L. Xiao, Z. wang, J. Guan, Optimization strategies of high- entropy alloys for
+114. Z. Jia, K. nomoto, Q. wang, c. Kong, L. Sun, L.- c. Zhang, S.- X. Liang, J. Lu, J. J. Kruzic, A electrocatalytic applications. Chem. Sci. 14, 12850–12868 (2023).
+self- supported high- entropy metallic glass with a nanosponge architecture for efficient 136. w. Shi, H. Liu, Z. Li, c. Li, J. Zhou, Y. Yuan, F. Jiang, K. Fu, Y. Yao, High- entropy alloy
+hydrogen evolution under alkaline and acidic conditions. Adv. Funct. Mater. 31, 2101586 stabilized and activated Pt clusters for highly efficient electrocatalysis. SusMat 2,
+(2021). 186–196 (2022).
+115. Y. Lu, K. Huang, X. cao, L. Zhang, T. wang, d. Peng, B. Zhang, Z. Liu, J. wu, Y. Zhang, 137. Z. Li, P. Zhou, Y. Zhao, w. Jiang, B. Zhao, X. chen, M. Li, Ultradurable Pt- based catalysts for
+c. chen, Y. Huang, Atomically dispersed intrinsic hollow sites of M-M 1- M (M1 = Pt, ir; M = oxygen reduction electrocatalysis. Catalysts 14, 57 (2024).
+Fe, co, ni, cu, Pt, ir) on FeconicuPtir nanocrystals enabling rapid water redox. Adv. Funct. 138. T. A. A. Batchelor, J. K. Pedersen, S. H. winther, i. e. castelli, K. w. Jacobsen, J. Rossmeisl,
+Mater. 32, 2110645 (2022). High- entropy alloys as a discovery platform for electrocatalysis. Joule 3, 834–845 (2019).
+116. Y. wang, n. Gong, H. Liu, w. Ma, K. Hippalgaonkar, Z. Liu, Y. Huang, Ordering- dependent 139. M. K. Plenge, J. K. Pedersen, v. A. Mints, M. Arenz, J. Rossmeisl, Following paths of
+hydrogen evolution and oxygen reduction electrocatalysis of high- entropy intermetallic maximum catalytic activity in the composition space of high- entropy alloys. Adv. Energy
+Pt4Fecocuni. Adv. Mater. 35, e2302067 (2023). Mater. 13, 2202962 (2023).
+117. S. S. Soliman, G. R. dey, c. R. Mccormick, R. e. Schaak, Temporal evolution of morphology, 140. Y. Yu, F. Xia, c. wang, J. wu, X. Fu, d. Ma, B. Lin, J. wang, Q. Yue, Y. Kang, High- entropy alloy
+composition, and structure in the formation of colloidal high- entropy intermetallic nanoparticles as a promising electrocatalyst to enhance activity and durability for
+nanoparticles. ACS Nano 17, 16147–16159 (2023). oxygen reduction. Nano Res. 15, 7868–7876 (2022).
+118. T. chen, c. Qiu, X. Zhang, H. wang, J. Song, K. Zhang, T. Yang, Y. Zuo, Y. Yang, c. Gao, 141. w. Sheng, H. A. Gasteiger, Y. Shao- Horn, Hydrogen oxidation and evolution reaction
+w. Xiao, Z. Jiang, Y. wang, Y. Xiang, d. Xia, An ultrasmall ordered high- entropy kinetics on platinum: Acid vs alkaline electrolytes. J. Electrochem. Soc. 157, B1529
+intermetallic with multiple active sites for the oxygen reduction reaction. J. Am. Chem. (2010).
+Soc. 146, 1174–1184 (2024). 142. Y. Men, d. wu, Y. Hu, L. Li, P. Li, S. Jia, J. wang, G. cheng, S. chen, w. Luo, Understanding
+119. H. chen, J. Fu, P. Zhang, H. Peng, c. w. Abney, K. Jie, X. Liu, M. chi, S. dai, entropy- alkaline hydrogen oxidation reaction on PdniRuirRh high- entropy- alloy by machine
+stabilized metal oxide solid solutions as cO oxidation catalysts with high- temperature learning potential. Angew. Chem. Int. Ed. 62, e202217976 (2023).
+stability. J. Mater. Chem. A 6, 11129–11133 (2018). 143. J. wang, B. Zhang, w. Guo, L. wang, J. chen, H. Pan, w. Sun, Toward electrocatalytic
+120. M. Liu, Z. Zhang, F. Okejiri, S. Yang, S. Zhou, S. dai, entropy-m aximized synthesis of methanol oxidation reaction: Longstanding debates and emerging catalysts. Adv. Mater.
+multimetallic nanoparticle catalysts via a ultrasonication- assisted wet chemistry method 2023, 2211099 (2023).
+under ambient conditions. Adv. Mater. Interfaces 6, 1900015 (2019). 144. J. K. Pedersen, T. A. A. Batchelor, A. Bagger, J. Rossmeisl, High- entropy alloys as catalysts
+121. S. Schweidler, M. Botros, F. Strauss, Q. wang, Y. Ma, L. velasco, G. c. Marques, A. Sarkar, for the cO2 and cO reduction reactions. ACS Catal. 10, 2169–2176 (2020).
+c. Kübel, H. Hahn, J. Aghassi- Hagmann, T. Brezesinski, B. Breitung, High- entropy materials 145. S. nellaiappan, n. K. Katiyar, R. Kumar, A. Parui, K. d. Malviya, K. G. Pradeep, A. K. Singh,
+for energy and electronic applications. Nat. Rev. Mater. 9, 4285 (2024). S. Sharma, c. S. Tiwary, K. Biswas, High- entropy alloys as catalysts for the cO2and cO
+122. T. Löffler, A. Ludwig, J. Rossmeisl, w. Schuhmann, what makes high- entropy alloys reduction reactions: experimental realization. ACS Catal. 10, 3658–3663 (2020).
+exceptional electrocatalysts? Angew. Chem. Ed. Int. 60, 26894–26903 (2021). 146. Z. w. chen, Z. Gariepy, L. chen, X. Yao, A. Anand, S. Liu, c. G. T. Feugmo, i. Tamblyn,
+123. Z. w. chen, J. Li, P. Ou, J. e. Huang, Z. wen, L. chen, X. Yao, G. cai, c. c. Yang, c. v. Singh, c. v. Singh, Machine- learning- driven high- entropy alloy catalyst discovery to circumvent
+Q. Jiang, Unusual Sabatier principle on high entropy alloy catalysts for hydrogen the scaling relation for cO2 reduction reaction. ACS Catal. 12, 14864–14871 (2022).
+evolution reactions. Nat. Commun. 15, 359 (2024). 147. Y. Zhou, R. Zhou, X. Zhu, n. Han, B. Song, T. Liu, G. Hu, Y. Li, J. Lu, Y. Li, Mesoporous PdAg
+124. H. Jin, J. Xu, H. Liu, H. Shen, H. Yu, M. Jaroniec, Y. Zheng, S.-Z . Qiao, emerging materials nanospheres for stable electrochemical cO2 reduction to formate. Adv. Mater. 32,
+and technologies for electrocatalytic seawater splitting. Sci. Adv. 9, eadi7755 (2023). e2000992 (2020).
+125. H. chen, c. Guan, H. Feng, Pt- based high- entropy alloy nanoparticles as bifunctional 148. Y. Lv, L. Lin, R. Xue, P. Zhang, F. Ma, T. Gan, J. Zhang, d. Gao, X. Zheng, L. wang, Y. Qin,
+electrocatalysts for hydrogen and oxygen evolution. ACS Appl. Nano Mater. 5, 9810–9817 H. Zhao, Y. dong, Y. wang, Y. Zhu, electronegativity induced d- band center offset for
+(2022). Pt- Rh dual sites in high- entropy alloy boosts liquid fuels electrooxidation. Adv. Energy
+126. M. Kim, e. B. Tetteh, O. A. Krysiak, A. Savan, B. Xiao, T. H. Piotrowiak, c. Andronescu, Mater. 14, 2304515 (2024).
+A. Ludwig, T. d. chung, w. Schuhmann, Acidic hydrogen evolution electrocatalysis at 149. L. He, M. Li, L. Qiu, S. Geng, Y. Liu, F. Tian, M. Luo, H. Liu, Y. Yu, w. Yang, S. Guo, Single- atom
+high- entropy alloys correlates with its composition- dependent potential of zero charge. Mo- tailored high- entropy- alloy ultrathin nanosheets with intrinsic tensile strain enhance
+Angew. Chem. Ed. Int. 62, e202310069 (2023). electrocatalysis. Nat. Commun. 15, 2290 (2024).
+127. Y. ding, Z. wang, Z. Liang, X. Sun, Z. Sun, Y. Zhao, J. Liu, c. wang, Z. Zeng, L. Fu, M. Zeng,
+L. Tang, A monolayer high- entropy layered hydroxide frame for efficient oxygen Acknowledgments
+evolution reaction. Adv. Mater. 35, 2302860 (2023). Funding: This work was financially supported by the national Science Fund for distinguished
+128. J. Pérez- Ramírez, n. López, Strategies to break linear scaling relationships. Nat. Catal. 2, Young Scholars (no. 52025133), the national Key R&d Program of china (no. 2022YFe0128500),
+971–976 (2019). the Beijing natural Science Foundation (Z220020), and the Tencent Foundation through the
+129. Y. Sun, S. dai, High- entropy materials for catalysis: A new frontier. Sci. Adv. 7, eabg1600 XPLOReR PRiZe. M.Li thanks the national natural Science Foundation of china (no. 52303361)
+(2021). and the china Postdoctoral Science Foundation (no. 2022 M710201) for financial support.
+130. d. wu, K. Kusada, T. Yamamoto, T. Toriyama, S. Matsumura, i. Gueye, O. Seo, J. Kim, S. Hiroi, Author contributions: Supervision: S.G. conceptualization: M.Li and S.G. Methodology: M.Li,
+O. Sakata, S. Kawaguchi, Y. Kubota, H. Kitagawa, On the electronic structure and F.L., R.Z., and S.G. investigation: M.Li and R.Z. visualization: M.Li, F.L., S.Z., L.T., M.Luo, and S.G.
+hydrogen evolution reaction activity of platinum group metal- based high- entropy- alloy data curation: M.Li and L.T. Formal analysis: M.Li, F.L., L.T., and L.L. Software: F.L. and L.T.
+nanoparticles. Chem. Sci. 11, 12731–12736 (2020). Project administration: M.Li, L.T., and S.G. Resources: M.Li, L.T., and S.G. Funding acquisition:
+131. J. Kwon, S. Sun, S. choi, K. Lee, S. Jo, K. Park, Y. K. Kim, H. B. Park, H. Y. Park, J. H. Jang, M.Li and S.G. validation: L.T., J.L., and S.G. writing—original draft: M.Li, F.L., L.L., J.L., and M.Luo.
+H. Han, U. Paik, T. Song, Tailored electronic structure of ir in high entropy alloy for highly writing—review and editing: M.Li, S.Z., L.T., J.L., L.Z., M.Luo, and S.G. All authors contributed to
+active and durable bifunctional electrocatalyst for water splitting under an acidic discussions of the content. Competing interests: The authors declare that they have no
+environment. Adv. Mater. 35, e2300091 (2023). competing interests. Data and materials availability: All data needed to evaluate the
+132. d. wu, K. Kusada, Y. nanba, M. Koyama, T. Yamamoto, T. Toriyama, S. Matsumura, O. Seo, conclusions in the paper are present in the paper and/or the materials cited herein.
+i. Gueye, J. Kim, L. S. R. Kumara, O. Sakata, S. Kawaguchi, Y. Kubota, H. Kitagawa,
+noble- metal high- entropy- alloy nanoparticles: Atomic-l evel insight into the electronic Submitted 2 december 2023
+structure. J. Am. Chem. Soc. 144, 3365–3369 (2022). Accepted 1 May 2024
+133. i. A. cechanaviciute, R. P. Antony, O. A. Krysiak, T. Quast, S. dieckhöfer, S. Saddeler, Published 5 June 2024
+P. Telaar, Y. chen, M. Muhler, w. Schuhmann, Scalable synthesis of multi- metal 10.1126/sciadv.adn2877
+Li et al., Sci. Adv. 10, eadn2877 (2024) 5 June 2024 21 of 21
+Downloaded
+from
+https://www.science.org
+at
+National
+Institute
+of
+Technology
+Srinagar
+on
+October
+09,
+2026
+
+High-entropy alloy electrocatalysts go to (sub-)nanoscale
+Menggang Li, Fangxu Lin, Shipeng Zhang, Rui Zhao, Lu Tao, Lu Li, Junyi Li, Lingyou Zeng, Mingchuan Luo, and Shaojun
+Guo
+Sci. Adv. 10 (23), eadn2877. DOI: 10.1126/sciadv.adn2877
+View the article online
+https://www.science.org/doi/10.1126/sciadv.adn2877
+Permissions
+https://www.science.org/help/reprints-and-permissions
+Use of this article is subject to the Terms of service
+Science Advances (ISSN 2375-2548) is published by the American Association for the Advancement of Science. 1200 New York Avenue
+NW, Washington, DC 20005. The title Science Advances is a registered trademark of AAAS.
+Copyright © 2024 The Authors, some rights reserved; exclusive licensee American Association for the Advancement of Science. No claim
+to original U.S. Government Works. Distributed under a Creative Commons Attribution License 4.0 (CC BY).
+Downloaded
+from
+https://www.science.org
+at
+National
+Institute
+of
+Technology
+Srinagar
+on
+October
+09,
+2026
+
