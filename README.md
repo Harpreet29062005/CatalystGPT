@@ -1,3 +1,26 @@
+# 🏆 CatalystGPT
+
+> **AI discovered 10 novel earth-abundant High-Entropy Alloy catalysts** predicted to rival commercial Pt/C for green hydrogen production — **none previously reported in literature.**
+
+[![Live App](https://img.shields.io/badge/Live%20App-catalystgpt.streamlit.app-success?style=for-the-badge&logo=streamlit)](https://catalystgpt.streamlit.app)
+[![Paper](https://img.shields.io/badge/Paper-Word%20Manuscript-blue?style=for-the-badge&logo=microsoft-word)](docs/report/CatalystGPT_Paper.docx)
+[![License](https://img.shields.io/badge/License-Academic-green?style=for-the-badge)]()
+
+---
+
+## 🎯 Headline Results
+
+| Metric | Value |
+|--------|-------|
+| **Novel candidates discovered** | **10** (Ni-Co-Cu-Mn-W family) |
+| **Best predicted onset potential** | **24.37 mV** |
+| **Pt/C commercial benchmark** | ~30 mV |
+| **NLP-extracted catalysts** | 54 (from 107 papers) |
+| **Curated training catalysts** | 180 (Gorsse 2026 dataset) |
+| **GNN model R²** | **0.427** (5-fold CV, no leakage) |
+| **Live web app** | [catalystgpt.streamlit.app](https://catalystgpt.streamlit.app) |
+
+---
 # 🚀 Live Demo
 
 **Try it now:** [**catalystgpt.streamlit.app**](https://catalystgpt.streamlit.app)
